@@ -11,7 +11,13 @@ POST /api/v1/Agents/Configuration/ClearConfigurationCache
 
 Configuration XML's may be expensive to build and parse, and are therefore cached to the database.
 
+
 &lt;para/&gt;Cahcing is per application/instance/associate, and can be turned off through the config file. &lt;para/&gt;If caching is on, and the configuration is changed, it is necessary to clear the cached configurations from the database, through this call.&lt;para/&gt;Note that changes to the externalapplication table require cache invalidation. SoAdmin will do so automatically.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ Configuration XML's may be expensive to build and parse, and are therefore cache
 POST /api/v1/Agents/Configuration/ClearConfigurationCache?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,9 +40,9 @@ POST /api/v1/Agents/Configuration/ClearConfigurationCache?$select=name,departmen
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Application, Instance, ForAllAssociates
+Application, Instance, ForAllAssociates 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +50,8 @@ Application, Instance, ForAllAssociates
 | Instance | string |  |
 | ForAllAssociates | bool |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -51,7 +59,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -59,13 +68,13 @@ Response body:
 POST /api/v1/Agents/Configuration/ClearConfigurationCache
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "sed",
-  "Instance": "officia",
-  "ForAllAssociates": true
+  "Application": "ut",
+  "Instance": "et",
+  "ForAllAssociates": false
 }
 ```
 

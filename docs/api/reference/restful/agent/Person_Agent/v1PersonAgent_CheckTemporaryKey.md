@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/CheckTemporaryKey
 
 Check a temporary key for validity, and in case it is valid, return its domain, targetId and personId
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check a temporary key for validity, and in case it is valid, return its domain, 
 ```http
 POST /api/v1/Agents/Person/CheckTemporaryKey?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Person/CheckTemporaryKey?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TemporaryKey
+TemporaryKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TemporaryKey | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,11 +76,11 @@ Response body:
 POST /api/v1/Agents/Person/CheckTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemporaryKey": "adipisci"
+  "TemporaryKey": "rerum"
 }
 ```
 
@@ -84,15 +92,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 885,
-  "PersonId": 391,
-  "IsExpired": true,
+  "TargetId": 470,
+  "PersonId": 148,
+  "IsExpired": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 343
     }
   }
 }

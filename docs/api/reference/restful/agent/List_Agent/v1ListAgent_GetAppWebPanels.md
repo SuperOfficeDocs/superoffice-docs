@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAppWebPanels
 
 Get all web panels owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all web panels owned by your app; works in Online only, for registered Apps 
 ```http
 POST /api/v1/Agents/List/GetAppWebPanels?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/List/GetAppWebPanels?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 324,
-    "Name": "O'Conner-Halvorson",
-    "Tooltip": "molestias",
-    "Deleted": true,
-    "Rank": 79,
+    "WebPanelId": 692,
+    "Name": "O'Hara, Franecki and Reichel",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 125,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
-    "OnSatellite": true,
+    "OnCentral": false,
+    "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Frami-Reynolds",
+    "ShowInStatusBar": false,
+    "WindowName": "O'Connell-Blanda",
     "Url": "http://www.example.com/",
-    "ProgId": "debitis",
-    "Icon": 618,
+    "ProgId": "quae",
+    "Icon": 833,
     "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 467
       }
     }
   }

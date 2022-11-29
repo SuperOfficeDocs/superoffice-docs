@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetExternalTokens
 
 Retrieve the tokens from the DB based on the given key
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Retrieve the tokens from the DB based on the given key
 ```http
 POST /api/v1/Agents/User/GetExternalTokens?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/User/GetExternalTokens?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Key
+Key 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Key | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,11 +79,11 @@ Response body:
 POST /api/v1/Agents/User/GetExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "magnam"
+  "Key": "inventore"
 }
 ```
 
@@ -84,15 +94,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "unde",
-  "AccessToken": "nemo",
-  "RefreshToken": "veniam",
+  "Provider": "tempore",
+  "AccessToken": "esse",
+  "RefreshToken": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldType": "System.Int32",
+      "FieldLength": 129
     }
   }
 }

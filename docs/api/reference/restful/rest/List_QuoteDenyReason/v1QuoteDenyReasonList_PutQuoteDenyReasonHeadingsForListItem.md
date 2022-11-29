@@ -11,11 +11,18 @@ PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 
 Saves headings for the QuoteDenyReason list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 995,
-    "Name": "Swaniawski, Schultz and Bergstrom",
-    "ToolTip": "Quo dolor praesentium.",
+    "Id": 465,
+    "Name": "Jaskolski Inc and Sons",
+    "ToolTip": "Vel iusto amet ut et.",
     "Deleted": false,
-    "Rank": 262,
-    "Type": "et",
-    "ColorBlock": 955,
-    "IconHint": "autem",
+    "Rank": 560,
+    "Type": "deserunt",
+    "ColorBlock": 220,
+    "IconHint": "dolore",
     "Selected": false,
-    "LastChanged": "2017-11-02T11:10:54.5239311+01:00",
+    "LastChanged": "2019-01-10T02:49:52.4378265+01:00",
     "ChildItems": [
       {
-        "Id": 851,
-        "Name": "Ryan-Ullrich",
-        "ToolTip": "Similique sed sit necessitatibus officiis.",
-        "Deleted": false,
-        "Rank": 434,
-        "Type": "aspernatur",
-        "ColorBlock": 509,
-        "IconHint": "non",
+        "Id": 321,
+        "Name": "Reilly-Nader",
+        "ToolTip": "Quidem explicabo ipsam vitae aliquid.",
+        "Deleted": true,
+        "Rank": 534,
+        "Type": "id",
+        "ColorBlock": 503,
+        "IconHint": "officiis",
         "Selected": true,
-        "LastChanged": "2005-01-14T11:10:54.5239311+01:00",
+        "LastChanged": "2017-05-12T02:49:52.4378265+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "dolorem",
-        "Hidden": false,
-        "FullName": "Francesco Schulist Sr."
+        "ExtraInfo": "et",
+        "StyleHint": "aliquam",
+        "Hidden": true,
+        "FullName": "Mr. Valerie Kariane Dibbert I"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "explicabo",
     "Hidden": false,
-    "FullName": "Raphaelle Prohaska II"
+    "FullName": "Ms. Marcia Celestino Rosenbaum"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Thiel, Collins and Willms",
-    "ToolTip": "Eum voluptates et.",
-    "Deleted": false,
-    "Rank": 125,
-    "Type": "porro",
-    "ColorBlock": 413,
-    "IconHint": "id",
+    "Id": 382,
+    "Name": "Crona-Jacobi",
+    "ToolTip": "Quia quisquam consequatur esse illum minus.",
+    "Deleted": true,
+    "Rank": 817,
+    "Type": "et",
+    "ColorBlock": 661,
+    "IconHint": "eius",
     "Selected": true,
-    "LastChanged": "2015-11-14T11:10:54.5259358+01:00",
+    "LastChanged": "2003-05-22T02:49:52.4378265+02:00",
     "ChildItems": [
       {
-        "Id": 838,
-        "Name": "Leannon-Lowe",
-        "ToolTip": "Dicta saepe ipsa numquam nam quasi.",
-        "Deleted": true,
-        "Rank": 197,
-        "Type": "minima",
-        "ColorBlock": 897,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2012-02-11T11:10:54.5259358+01:00",
+        "Id": 259,
+        "Name": "Dicki, Grady and Mohr",
+        "ToolTip": "Necessitatibus rerum cupiditate in voluptates ipsum voluptas.",
+        "Deleted": false,
+        "Rank": 517,
+        "Type": "ipsam",
+        "ColorBlock": 261,
+        "IconHint": "quas",
+        "Selected": false,
+        "LastChanged": "1996-06-19T02:49:52.4378265+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "provident",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "pariatur",
         "Hidden": true,
-        "FullName": "Dayna Sydnie Douglas II",
+        "FullName": "Mr. Cleta Kemmer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 436
+            "FieldLength": 945
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "ullam",
+    "ExtraInfo": "omnis",
+    "StyleHint": "officia",
     "Hidden": true,
-    "FullName": "Sienna Tremblay",
+    "FullName": "Wilma Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldType": "System.Int32",
+        "FieldLength": 234
       }
     }
   }

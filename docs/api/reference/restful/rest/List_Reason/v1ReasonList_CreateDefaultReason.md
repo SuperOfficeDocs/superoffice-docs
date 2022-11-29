@@ -11,6 +11,13 @@ GET /api/v1/List/Reason/Items/Default
 
 Gets a default Reason list item.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,7 +31,8 @@ Gets a default Reason list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -32,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +59,7 @@ Response body:
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -61,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 583,
-  "Name": "Ledner-Runolfsdottir",
-  "Tooltip": "iste",
-  "Deleted": true,
-  "UdListDefinitionId": 318,
-  "Rank": 274,
+  "Id": 259,
+  "Name": "Cormier-Zboncak",
+  "Tooltip": "at",
+  "Deleted": false,
+  "UdListDefinitionId": 24,
+  "Rank": 581,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldType": "System.Int32",
+      "FieldLength": 307
     }
   }
 }

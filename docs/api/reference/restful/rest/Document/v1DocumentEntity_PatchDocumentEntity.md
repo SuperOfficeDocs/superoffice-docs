@@ -11,6 +11,7 @@ PATCH /api/v1/Document/{id}
 
 Update a DocumentEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IDocumentAgent} service SaveDocumentEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DocumentEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IDocumentAgent} service SaveDocumentEntity.
 ```http
 PATCH /api/v1/Document/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Document/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 DocumentEntity  updated.
 
@@ -81,7 +93,7 @@ DocumentEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because DocumentEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -129,18 +141,18 @@ Response body:
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repellat",
+    "path": "tenetur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repellat",
+    "path": "tenetur",
     "value": {}
   }
 ]
@@ -153,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 861,
+  "DocumentId": 577,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aut",
-  "Header": "perferendis",
-  "Name": "Fay Group",
-  "OurRef": "consequatur",
-  "YourRef": "itaque",
-  "CreatedDate": "1999-03-25T11:10:52.8311792+01:00",
-  "UpdatedDate": "2009-10-23T11:10:52.8311792+02:00",
-  "Description": "Persevering reciprocal hardware",
+  "Attention": "inventore",
+  "Header": "qui",
+  "Name": "Bosco-Kerluke",
+  "OurRef": "dolorem",
+  "YourRef": "occaecati",
+  "CreatedDate": "2003-01-05T02:49:50.9171642+01:00",
+  "UpdatedDate": "2019-01-20T02:49:50.9171642+01:00",
+  "Description": "Switchable foreground methodology",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-03-18T11:10:52.8341788+01:00",
-  "ExternalRef": "qui",
+  "Date": "1997-08-22T02:49:50.9171642+02:00",
+  "ExternalRef": "eveniet",
   "Completed": "Completed",
-  "ActiveLinks": 621,
+  "ActiveLinks": 497,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Leannon-Treutel",
-      "Id": 432,
-      "Description": "Mandatory foreground emulation",
-      "ExtraInfo": "iste",
-      "LinkId": 242,
+      "EntityName": "Kertzmann-Runolfsson",
+      "Id": 27,
+      "Description": "Streamlined value-added complexity",
+      "ExtraInfo": "saepe",
+      "LinkId": 352,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 636
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 683,
-  "Snum": 236,
+  "SuggestedDocumentId": 456,
+  "Snum": 101,
   "UserDefinedFields": {
-    "SuperOffice:1": "Stefanie Hilll",
-    "SuperOffice:2": "1920624603"
+    "SuperOffice:1": "Miss Saige Asia Hegmann",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "doloremque",
-    "ExtraFields2": "at"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "temporibus"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "quia"
+    "CustomFields1": "aut",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2009-09-15T11:10:52.8341788+02:00",
-  "PublishTo": "2018-03-27T11:10:52.8341788+02:00",
-  "PublishFrom": "2022-05-30T11:10:52.8341788+02:00",
+  "PublishEventDate": "2002-07-18T02:49:50.9327883+02:00",
+  "PublishTo": "2011-01-30T02:49:50.9327883+01:00",
+  "PublishFrom": "1996-03-19T02:49:50.9327883+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 699,
+      "VisibleId": 485,
       "Visibility": "All",
-      "DisplayValue": "soluta",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldType": "System.String",
+          "FieldLength": 469
         }
       }
     },
     {
-      "VisibleId": 699,
+      "VisibleId": 485,
       "Visibility": "All",
-      "DisplayValue": "soluta",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldType": "System.String",
+          "FieldLength": 469
         }
       }
     }
@@ -244,12 +256,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldLength": 382
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

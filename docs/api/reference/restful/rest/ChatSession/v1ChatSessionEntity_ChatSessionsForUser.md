@@ -11,7 +11,14 @@ GET /api/v1/ChatSession/ForCurrentUser
 
 Get all chat sessions which this user is a member of.
 
+
 Members means that you have at least one of: Can Respond, Notifications, Listen or Manager
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Members means that you have at least one of: Can Respond, Notifications, Listen 
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -78,7 +86,7 @@ Response body: array
 GET /api/v1/ChatSession/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,43 +97,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 918,
-    "TopicId": 566,
+    "ChatSessionId": 37,
+    "TopicId": 337,
     "User": null,
     "Person": null,
-    "CustomerAlias": "qui",
-    "CustomerHost": "aut",
-    "CustomerName": "Gerlach-Buckridge",
-    "CustomerEmail": "jany@hammes.us",
-    "CustomerPhone": "(405)704-9257 x616",
+    "CustomerAlias": "earum",
+    "CustomerHost": "veritatis",
+    "CustomerName": "Dibbert, Hirthe and Harber",
+    "CustomerEmail": "taurean@miller.com",
+    "CustomerPhone": "1-402-807-0658 x0237",
     "CustomerConsented": false,
-    "CustomerCompanyName": "Ondricka-Waelchi",
+    "CustomerCompanyName": "Effertz LLC",
     "Status": "Closed",
-    "FirstMessage": "harum",
-    "LastMessage": "molestiae",
-    "WhenRequested": "2017-09-25T11:10:52.4921739+02:00",
-    "WhenStarted": "2019-06-24T11:10:52.4921739+02:00",
-    "WhenEnded": "2001-10-31T11:10:52.4921739+01:00",
-    "WhenIdle": "2013-03-18T11:10:52.4921739+01:00",
-    "WhenFetched": "1999-09-30T11:10:52.4921739+02:00",
-    "SessionKey": "esse",
-    "InitialQueuePos": 829,
-    "AlertLevel": 604,
-    "Rank": 700,
+    "FirstMessage": "cupiditate",
+    "LastMessage": "suscipit",
+    "WhenRequested": "2002-03-17T02:49:50.6202849+01:00",
+    "WhenStarted": "1998-03-28T02:49:50.6202849+01:00",
+    "WhenEnded": "2013-09-12T02:49:50.6202849+02:00",
+    "WhenIdle": "2006-09-21T02:49:50.6202849+02:00",
+    "WhenFetched": "2010-01-15T02:49:50.6202849+01:00",
+    "SessionKey": "voluptates",
+    "InitialQueuePos": 129,
+    "AlertLevel": 92,
+    "Rank": 730,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
     "Sale": null,
     "Ticket": null,
     "TransferTo": null,
-    "ChatbotIsActive": true,
-    "Rating": 313,
+    "ChatbotIsActive": false,
+    "Rating": 229,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 842
+        "FieldType": "System.Int32",
+        "FieldLength": 211
       }
     }
   }

@@ -11,7 +11,14 @@ GET /api/v1/List/LegalBase/Items
 
 Gets a list of all LegalBase list items.
 
+
 Calls the List agent service GetAllLegalBase.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the List agent service GetAllLegalBase.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -53,7 +61,7 @@ Response body: array
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -64,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 112,
-    "Name": "Anderson-Rodriguez",
-    "Tooltip": "dolorem",
-    "Rank": 171,
-    "Key": "optio",
-    "Deleted": false,
+    "LegalBaseId": 621,
+    "Name": "Mante Group",
+    "Tooltip": "dolor",
+    "Rank": 351,
+    "Key": "ut",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 541
+        "FieldType": "System.Int32",
+        "FieldLength": 621
       }
     }
   }

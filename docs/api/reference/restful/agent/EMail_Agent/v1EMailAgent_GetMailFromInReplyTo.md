@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 
 Get email from db based on In-Reply-To Message Id
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get email from db based on In-Reply-To Message Id
 ```http
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/EMail/GetMailFromInReplyTo?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MessageId
+MessageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MessageId | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,11 +102,11 @@ Response body:
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "exercitationem"
+  "MessageId": "libero"
 }
 ```
 
@@ -109,146 +119,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 298,
-      "ContactName": "Carter, Skiles and Dibbert",
-      "PersonId": 267,
-      "PersonName": "Corwin Group",
-      "AssociateId": 287,
-      "Address": "eos",
-      "EmailId": 120,
+      "ContactId": 562,
+      "ContactName": "Hettinger, Dare and Heidenreich",
+      "PersonId": 351,
+      "PersonName": "Kemmer, Jacobi and Tromp",
+      "AssociateId": 804,
+      "Address": "doloremque",
+      "EmailId": 578,
       "DuplicatePersonIds": [
-        620,
-        195
+        897,
+        995
       ],
-      "Name": "Waters, Streich and Oberbrunner",
+      "Name": "Kuvalis-Schimmel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldType": "System.String",
+          "FieldLength": 714
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 269,
-      "ContactName": "Halvorson-Bednar",
-      "PersonId": 714,
-      "PersonName": "Kuhn, Effertz and Mosciski",
-      "AssociateId": 463,
-      "Address": "pariatur",
-      "EmailId": 70,
+      "ContactId": 495,
+      "ContactName": "Parisian-Mitchell",
+      "PersonId": 33,
+      "PersonName": "Hoppe Group",
+      "AssociateId": 639,
+      "Address": "perspiciatis",
+      "EmailId": 623,
       "DuplicatePersonIds": [
-        993,
-        206
+        898,
+        621
       ],
-      "Name": "Swift-VonRueden",
+      "Name": "Lockman-Cartwright",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldType": "System.String",
+          "FieldLength": 276
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 479,
-      "ContactName": "Howe Inc and Sons",
-      "PersonId": 448,
-      "PersonName": "Turcotte-Donnelly",
-      "AssociateId": 337,
-      "Address": "sapiente",
-      "EmailId": 141,
+      "ContactId": 585,
+      "ContactName": "Sanford-Grady",
+      "PersonId": 98,
+      "PersonName": "Sporer-Konopelski",
+      "AssociateId": 575,
+      "Address": "reiciendis",
+      "EmailId": 249,
       "DuplicatePersonIds": [
-        532,
-        607
+        543,
+        872
       ],
-      "Name": "Grant-Beahan",
+      "Name": "Hills Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldLength": 279
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "occaecati",
+  "Subject": "velit",
+  "HTMLBody": "voluptas",
   "From": null,
-  "Sent": "2008-07-25T11:10:26.8604221+02:00",
-  "Size": 189,
+  "Sent": "2015-01-29T02:49:44.3722628+01:00",
+  "Size": 607,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "rerum",
-  "PlainBody": "similique",
+  "MessageID": "ratione",
+  "PlainBody": "itaque",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 385,
+  "ServerId": 717,
   "Attachments": [
     {
-      "Description": "Enterprise-wide background flexibility",
-      "Filename": "et",
-      "Size": 719,
-      "Type": "debitis",
-      "Encoding": "distinctio",
-      "Id": "facilis",
-      "Disposition": "quo",
+      "Description": "Organic solution-oriented Graphical User Interface",
+      "Filename": "consequatur",
+      "Size": 834,
+      "Type": "at",
+      "Encoding": "non",
+      "Id": "maiores",
+      "Disposition": "qui",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 510
+          "FieldType": "System.String",
+          "FieldLength": 389
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jones LLC",
+      "Name": "Lueilwitz, Windler and Stark",
       "Values": [
-        "quia",
-        "omnis"
+        "aliquid",
+        "quod"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 276
         }
       }
     },
     {
-      "Name": "Jones LLC",
+      "Name": "Lueilwitz, Windler and Stark",
       "Values": [
-        "quia",
-        "omnis"
+        "aliquid",
+        "quod"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 276
         }
       }
     }
   ],
-  "FolderName": "Greenfelder, Sipes and Harvey",
-  "EmailItemId": 755,
-  "AccountId": 706,
-  "ReceivedAt": "2012-06-17T11:10:26.8614223+02:00",
+  "FolderName": "O'Conner, Flatley and Orn",
+  "EmailItemId": 534,
+  "AccountId": 472,
+  "ReceivedAt": "2022-09-08T02:49:44.3722628+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-12-10T11:10:26.8614223+01:00",
+  "RepliedAt": "2020-05-14T02:49:44.3722628+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -256,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldType": "System.String",
+      "FieldLength": 973
     }
   }
 }

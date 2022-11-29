@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate
 
 Get combined day information (activity + redletter summary) for one or more days according to the given date interval.
 
+
 The time portion of the dates is ignored. Private appointments are counted, but may not be visible through tooltips or other more detailed services.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The time portion of the dates is ignored. Private appointments are counted, but 
 ```http
 POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartDate, EndDate, AssociateId
+StartDate, EndDate, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StartDate | date-time |  |
 | EndDate | date-time |  |
 | AssociateId | int32 |  |
+
 
 ## Response: array
 
@@ -75,9 +83,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2010-06-06T11:10:25.4775225+02:00",
-  "EndDate": "2003-11-28T11:10:25.4775225+01:00",
-  "AssociateId": 557
+  "StartDate": "2022-11-07T02:49:43.261747+01:00",
+  "EndDate": "1997-03-12T02:49:43.261747+01:00",
+  "AssociateId": 972
 }
 ```
 
@@ -91,26 +99,26 @@ Content-Type: application/json; charset=utf-8
   {
     "ActivityInformation": null,
     "RedLetterInformation": null,
-    "Date": "2021-01-14T11:10:25.4775225+01:00",
+    "Date": "2020-04-09T02:49:43.261747+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 533
       }
     }
   },
   {
     "ActivityInformation": null,
     "RedLetterInformation": null,
-    "Date": "2021-01-14T11:10:25.4775225+01:00",
+    "Date": "2020-04-09T02:49:43.261747+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 533
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetMyContacts
 
 Getting the contacts where the user currently logged in is set as contact owner.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Getting the contacts where the user currently logged in is set as contact owner.
 ```http
 POST /api/v1/Agents/Contact/GetMyContacts?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/Contact/GetMyContacts?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,7 +85,7 @@ Response body: array
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,34 +96,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 954,
-    "Name": "Lubowitz, Kemmer and Vandervort",
-    "OrgNr": "912215",
+    "ContactId": 775,
+    "Name": "Wehner Group",
+    "OrgNr": "260923",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "eligendi",
-    "DirectPhone": "1-750-909-7906 x4211",
-    "AssociateId": 359,
-    "CountryId": 977,
-    "EmailAddress": "lavada_jerde@faheydaniel.info",
-    "Kananame": "dolor",
-    "EmailAddressName": "emmanuelle@rodriguez.uk",
+    "City": "quis",
+    "DirectPhone": "143-536-8382 x9080",
+    "AssociateId": 911,
+    "CountryId": 505,
+    "EmailAddress": "lenny.huels@jastkemmer.com",
+    "Kananame": "minima",
+    "EmailAddressName": "katelynn.cummings@konopelski.ca",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Dr. Fletcher Koelpin IV",
+    "AssociateFullName": "Abigail Hoeger III",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "excepturi",
-    "FullName": "Flavie Stark",
+    "FormattedAddress": "quia",
+    "FullName": "Alexandrea Hettinger V",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 376,
+    "ActiveErpLinks": 759,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldLength": 612
       }
     }
   }

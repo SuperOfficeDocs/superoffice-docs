@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 
 Create default User providing the user type.
 
+
 Only System and Anonymous users can be created without an exsisting person.  Use CreateDefaultUserFromUserTypeAndPersonId to create internal (i.e. Employee) or external users.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Only System and Anonymous users can be created without an exsisting person.  Use
 ```http
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,15 +47,16 @@ POST /api/v1/Agents/User/CreateDefaultUserFromUserType?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserType
+UserType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserType | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,7 +102,7 @@ Response body:
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 923,
-  "Name": "Quitzon-Vandervort",
-  "Rank": 130,
-  "Tooltip": "dolorum",
+  "AssociateId": 6,
+  "Name": "Dare Inc and Sons",
+  "Rank": 120,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Lynch-Trantow",
-      "Description": "Progressive human-resource collaboration",
+      "Name": "Auer-Bauch",
+      "Description": "Organic client-server application",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -128,14 +137,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 433
+          "FieldType": "System.Int32",
+          "FieldLength": 463
         }
       }
     },
     {
-      "Name": "Lynch-Trantow",
-      "Description": "Progressive human-resource collaboration",
+      "Name": "Auer-Bauch",
+      "Description": "Organic client-server application",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -148,8 +157,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 433
+          "FieldType": "System.Int32",
+          "FieldLength": 463
         }
       }
     }
@@ -158,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "est",
-      "Tooltip": "illum",
-      "Id": 950,
-      "Rank": 813,
-      "Deleted": false,
+      "Value": "unde",
+      "Tooltip": "et",
+      "Id": 663,
+      "Rank": 37,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldLength": 846
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2019-09-15T11:10:28.4392086+02:00",
-  "Lastlogout": "1998-10-23T11:10:28.4392086+02:00",
-  "EjUserId": 788,
-  "RequestSignature": "beatae",
+  "Lastlogin": "2018-10-24T02:49:45.7028474+02:00",
+  "Lastlogout": "2009-05-30T02:49:45.7028474+02:00",
+  "EjUserId": 512,
+  "RequestSignature": "aliquam",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "odit",
-      "DisplayValue": "laborum",
+      "Value": "est",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldLength": 771
         }
       }
     },
     {
       "Type": null,
-      "Value": "odit",
-      "DisplayValue": "laborum",
+      "Value": "est",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldLength": 771
         }
       }
     }
   ],
-  "UserName": "Harber LLC",
+  "UserName": "Roberts, Block and Dare",
   "TicketCategories": [
     {
-      "Id": 972,
-      "Name": "Russel Inc and Sons",
-      "ToolTip": "Recusandae repudiandae modi quidem sit.",
-      "Deleted": false,
-      "Rank": 153,
-      "Type": "tenetur",
+      "Id": 655,
+      "Name": "Altenwerth, Tillman and Tillman",
+      "ToolTip": "Eligendi officia minus amet ducimus.",
+      "Deleted": true,
+      "Rank": 301,
+      "Type": "unde",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dicta",
-      "ColorBlock": 735,
-      "ExtraInfo": "animi",
-      "StyleHint": "eum",
-      "FullName": "Kyleigh Predovic",
+      "IconHint": "est",
+      "ColorBlock": 413,
+      "ExtraInfo": "harum",
+      "StyleHint": "in",
+      "FullName": "Rico Harvey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 617
+          "FieldType": "System.String",
+          "FieldLength": 715
         }
       }
     }
   ],
-  "NickName": "Berge, Lindgren and Mayer",
-  "WaitingForApproval": true,
+  "NickName": "Mayert, Kub and Jones",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "esse"
+    "ExtraFields1": "debitis",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "sit"
+    "CustomFields1": "nihil",
+    "CustomFields2": "error"
   },
   "PostSaveCommands": [
     {
-      "Name": "Schmitt-Bergstrom",
-      "DisplayName": "Hermiston-Wintheiser",
-      "Description": "Compatible bifurcated access",
-      "ToolTip": "Aut laborum.",
+      "Name": "Cole, Kuvalis and Oberbrunner",
+      "DisplayName": "Runolfsdottir, Streich and Rodriguez",
+      "Description": "User-friendly transitional system engine",
+      "ToolTip": "Id impedit optio.",
       "Actions": "Implicit",
-      "ActionData": "neque",
+      "ActionData": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldType": "System.String",
+          "FieldLength": 532
         }
       }
     }
@@ -270,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldType": "System.String",
+      "FieldLength": 118
     }
   }
 }

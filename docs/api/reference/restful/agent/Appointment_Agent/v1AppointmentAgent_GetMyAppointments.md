@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetMyAppointments
 
 Method that returns a specified number of appointments within a time range.
 
+
 The appointments belong to the currently logged on user.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the currently logged on user.
 ```http
 POST /api/v1/Agents/Appointment/GetMyAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Appointment/GetMyAppointments?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartTime, EndTime, Count
+StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -117,13 +125,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2004-08-07T11:10:25.7395536+02:00",
-  "EndTime": "2014-01-31T11:10:25.7395536+01:00",
-  "Count": 820
+  "StartTime": "2000-06-03T02:49:43.4972799+02:00",
+  "EndTime": "1999-08-12T02:49:43.4972799+02:00",
+  "Count": 602
 }
 ```
 
@@ -135,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 632,
-    "StartDate": "2010-10-18T11:10:25.7405549+02:00",
-    "EndDate": "2012-04-25T11:10:25.7405549+02:00",
+    "AppointmentId": 733,
+    "StartDate": "2018-03-07T02:49:43.4972799+01:00",
+    "EndDate": "2017-09-30T02:49:43.4972799+02:00",
     "Type": "BookingForChecklist",
-    "Task": "itaque",
-    "AssociateFullName": "Arvilla Rath",
-    "ContactName": "Bednar Group",
-    "Description": "Function-based mobile moratorium",
-    "PersonFullName": "Dr. Lavinia Bernier",
-    "PersonId": 816,
-    "ContactId": 555,
-    "ProjectId": 215,
-    "ProjectName": "Smith-Leannon",
-    "IsPublished": false,
-    "AssociateId": 971,
-    "ColorIndex": 667,
+    "Task": "repudiandae",
+    "AssociateFullName": "Pierre Ritchie",
+    "ContactName": "Schumm, Kessler and McLaughlin",
+    "Description": "Fully-configurable bandwidth-monitored analyzer",
+    "PersonFullName": "Kelli Gislason III",
+    "PersonId": 279,
+    "ContactId": 29,
+    "ProjectId": 415,
+    "ProjectName": "Leuschke Group",
+    "IsPublished": true,
+    "AssociateId": 411,
+    "ColorIndex": 914,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 785,
-    "PriorityName": "Balistreri-Hudson",
+    "PriorityId": 996,
+    "PriorityName": "Rowe, Fadel and Kreiger",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2010-08-27T11:10:25.7405549+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2022-05-01T02:49:43.4972799+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-02-13T11:10:25.7405549+01:00",
-    "RecurringEndDate": "2020-08-29T11:10:25.7405549+02:00",
-    "MotherId": 621,
-    "AssignedBy": 353,
-    "AssignedByFullName": "Claire Shields",
+    "RecurringStartDate": "1996-07-07T02:49:43.4972799+02:00",
+    "RecurringEndDate": "2020-02-19T02:49:43.4972799+01:00",
+    "MotherId": 678,
+    "AssignedBy": 713,
+    "AssignedByFullName": "Odessa Emmerich",
     "RejectReason": "",
-    "Location": "cumque",
-    "AlarmLeadTime": "officiis",
-    "SaleId": 881,
-    "SaleName": "Abshire, Pfannerstill and Hauck",
-    "AssociateName": "Kerluke, O'Conner and Cremin",
-    "CreatedDate": "2018-02-04T11:10:25.7415532+01:00",
-    "CreatedBy": "expedita",
-    "CreatedByFullName": "Miss Toni Thompson IV",
-    "CreatedByAssociateId": 186,
+    "Location": "amet",
+    "AlarmLeadTime": "corporis",
+    "SaleId": 814,
+    "SaleName": "Marvin Group",
+    "AssociateName": "Orn LLC",
+    "CreatedDate": "2001-09-16T02:49:43.4972799+02:00",
+    "CreatedBy": "voluptatibus",
+    "CreatedByFullName": "Ms. Wyatt Ritchie",
+    "CreatedByAssociateId": 975,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -189,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 996
+        "FieldLength": 740
       }
     }
   }

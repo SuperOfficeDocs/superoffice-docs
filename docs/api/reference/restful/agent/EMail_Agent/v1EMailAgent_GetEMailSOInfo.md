@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailSOInfo
 
 Gets a EMailSOInfo object.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a EMailSOInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=586
+POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=617
 POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,7 +47,8 @@ POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +77,7 @@ Response body:
 POST /api/v1/Agents/EMail/GetEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,20 +87,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 871,
-  "AppointmentId": 389,
-  "ProjectId": 657,
-  "SaleId": 635,
-  "Archived": false,
-  "ArchivedAt": "1999-01-09T11:10:26.8864224+01:00",
-  "ArchivedBy": 425,
-  "ArchivedDisplayName": "White LLC",
+  "DocumentId": 991,
+  "AppointmentId": 587,
+  "ProjectId": 292,
+  "SaleId": 127,
+  "Archived": true,
+  "ArchivedAt": "2014-03-29T02:49:44.403542+01:00",
+  "ArchivedBy": 885,
+  "ArchivedDisplayName": "Stamm-Morar",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 997
     }
   }
 }

@@ -11,11 +11,18 @@ GET /api/v1/Person/{personId}/Consent
 
 Get all consent information for a given person.
 
+
 May include withdrawn consents (check
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | The person id to get consents for **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ May include withdrawn consents (check
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,27 +85,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 430,
-    "Comment": "laudantium",
-    "Registered": "1998-03-25T11:10:53.0271456+01:00",
-    "RegisteredAssociateId": 944,
-    "Updated": "2020-09-24T11:10:53.0271456+02:00",
-    "UpdatedAssociateId": 960,
-    "LegalBaseId": 10,
-    "LegalBaseKey": "vel",
-    "LegalBaseName": "Welch-Sauer",
-    "ConsentPurposeId": 562,
-    "ConsentPurposeKey": "sunt",
-    "ConsentPurposeName": "O'Keefe-Casper",
-    "ConsentSourceId": 417,
-    "ConsentSourceKey": "quo",
-    "ConsentSourceName": "Brekke-Bahringer",
+    "ConsentPersonId": 142,
+    "Comment": "voluptate",
+    "Registered": "2022-11-14T02:49:51.2921904+01:00",
+    "RegisteredAssociateId": 199,
+    "Updated": "2011-07-05T02:49:51.2921904+02:00",
+    "UpdatedAssociateId": 632,
+    "LegalBaseId": 857,
+    "LegalBaseKey": "explicabo",
+    "LegalBaseName": "Morar, Thompson and Zemlak",
+    "ConsentPurposeId": 405,
+    "ConsentPurposeKey": "placeat",
+    "ConsentPurposeName": "Mayert Group",
+    "ConsentSourceId": 529,
+    "ConsentSourceKey": "nisi",
+    "ConsentSourceName": "Hand Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 924
       }
     }
   }

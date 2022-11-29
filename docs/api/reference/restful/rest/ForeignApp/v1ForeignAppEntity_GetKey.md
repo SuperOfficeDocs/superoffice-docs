@@ -11,7 +11,12 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/
 
 Returning a foreign key by its key name, that belongs to the specified device and application.
 
+
 A table name and record ID can also be specified.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
@@ -20,6 +25,8 @@ A table name and record ID can also be specified.
 | keyName | string | The name of the foreign key. **Required** |
 | tableName | string | Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table. **Required** |
 | recordId | int32 | Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table. **Required** |
+
+
 
 ## Request Headers
 
@@ -34,7 +41,8 @@ A table name and record ID can also be specified.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -42,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,23 +79,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 10 Apr 1999 11:10:52 G4T
+Last-Modified: Sun, 07 Jun 2009 02:49:50 G6T
 
 {
-  "Key": "nulla",
-  "Value": "dolores",
-  "RecordId": 556,
-  "CreatedDate": "1996-07-14T11:10:52.9061787+02:00",
-  "UpdatedDate": "1999-04-10T11:10:52.9061787+02:00",
-  "UpdatedBy": "nesciunt",
-  "CreatedBy": "consectetur",
-  "TableName": "Adams, Quitzon and Hoppe",
+  "Key": "maiores",
+  "Value": "ipsum",
+  "RecordId": 150,
+  "CreatedDate": "2011-02-01T02:49:50.9952888+01:00",
+  "UpdatedDate": "2009-06-07T02:49:50.9952888+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "est",
+  "TableName": "Kreiger, Treutel and Jaskolski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldType": "System.String",
+      "FieldLength": 141
     }
   }
 }

@@ -11,6 +11,12 @@ GET /api/v1/List/ProjectType/MDOItems
 
 Get the MDO list items for "ProjType" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=deleniti
+GET /api/v1/List/ProjectType/MDOItems?query=ullam
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/ProjectType/MDOItems?query=deleniti
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "Hirthe-Abbott",
-    "ToolTip": "Voluptatibus minus numquam reprehenderit consequatur.",
-    "Deleted": false,
-    "Rank": 140,
-    "Type": "quia",
+    "Id": 124,
+    "Name": "Satterfield, Collier and Jerde",
+    "ToolTip": "Aliquid debitis eaque et.",
+    "Deleted": true,
+    "Rank": 581,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 943,
-        "Name": "Hagenes, Parisian and Keeling",
-        "ToolTip": "Laboriosam sint quo quisquam fugit ullam.",
+        "Id": 257,
+        "Name": "Heathcote, Bosco and Heathcote",
+        "ToolTip": "Esse maiores possimus quibusdam enim.",
         "Deleted": false,
-        "Rank": 965,
-        "Type": "et",
+        "Rank": 752,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "distinctio",
-        "ColorBlock": 200,
-        "ExtraInfo": "nisi",
-        "StyleHint": "molestiae",
-        "FullName": "Mrs. Keon Isom Morissette",
+        "IconHint": "repellendus",
+        "ColorBlock": 618,
+        "ExtraInfo": "qui",
+        "StyleHint": "sed",
+        "FullName": "Prof. Colt Ola Predovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldLength": 855
           }
         }
       }
     ],
-    "IconHint": "tenetur",
-    "ColorBlock": 773,
-    "ExtraInfo": "enim",
-    "StyleHint": "officiis",
-    "FullName": "Dolores Elwyn Macejkovic II",
+    "IconHint": "ut",
+    "ColorBlock": 835,
+    "ExtraInfo": "iure",
+    "StyleHint": "nulla",
+    "FullName": "Gerda Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldType": "System.String",
+        "FieldLength": 14
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
+
 The document appointments belong to the person specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the person specified.
 ```http
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateId
+PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,6 +56,7 @@ PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | DocumentTemplateId | int32 |  |
+
 
 ## Response: array
 
@@ -91,16 +99,16 @@ Response body: array
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 136,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2013-10-21T11:10:26.4834593+02:00",
-  "EndTime": "2011-02-10T11:10:26.4834593+01:00",
-  "Count": 44,
-  "DocumentTemplateId": 966
+  "PersonId": 542,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2021-12-07T02:49:44.0910111+01:00",
+  "EndTime": "2007-06-01T02:49:44.0910111+02:00",
+  "Count": 180,
+  "DocumentTemplateId": 353
 }
 ```
 
@@ -112,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 432,
-    "Attention": "et",
-    "Header": "ipsa",
-    "Name": "Steuber, Davis and Turner",
-    "OurRef": "dolorem",
-    "YourRef": "ut",
-    "Description": "Multi-tiered cohesive projection",
-    "DocumentTemplate": "cumque",
+    "DocumentId": 699,
+    "Attention": "deleniti",
+    "Header": "recusandae",
+    "Name": "Dicki-Wiegand",
+    "OurRef": "molestias",
+    "YourRef": "enim",
+    "Description": "Organic needs-based attitude",
+    "DocumentTemplate": "dicta",
     "IsPublished": false,
-    "PersonId": 509,
-    "PersonFullName": "Dr. Jennie Stokes",
-    "AssociateFullName": "Kurtis Batz",
-    "ContactId": 426,
-    "ContactName": "Auer-Steuber",
-    "ProjectId": 813,
-    "ProjectName": "Flatley, Schmidt and Harris",
-    "AssociateId": 486,
-    "Snum": 771,
-    "SaleId": 315,
-    "SaleName": "Gorczany, Hammes and Feil",
+    "PersonId": 759,
+    "PersonFullName": "Horacio Konopelski",
+    "AssociateFullName": "Candace Quigley",
+    "ContactId": 372,
+    "ContactName": "Strosin Group",
+    "ProjectId": 451,
+    "ProjectName": "Watsica, West and Cruickshank",
+    "AssociateId": 369,
+    "Snum": 595,
+    "SaleId": 224,
+    "SaleName": "Durgan-Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldLength": 961
       }
     }
   }

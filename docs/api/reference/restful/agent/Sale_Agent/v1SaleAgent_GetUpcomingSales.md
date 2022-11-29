@@ -11,7 +11,13 @@ POST /api/v1/Agents/Sale/GetUpcomingSales
 
 Returns all open sales, sorted descending with the latest first.
 
+
 If the weigthed amount is -1, the amount restriction is omitted.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If the weigthed amount is -1, the amount restriction is omitted.
 ```http
 POST /api/v1/Agents/Sale/GetUpcomingSales?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Sale/GetUpcomingSales?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-WeightedAmountLimit, Count
+WeightedAmountLimit, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WeightedAmountLimit | int32 |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -96,8 +104,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 92,
-  "Count": 357
+  "WeightedAmountLimit": 369,
+  "Count": 349
 }
 ```
 
@@ -109,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Johns Group",
-    "SaleDate": "2005-02-05T11:10:27.8530074+01:00",
-    "SaleId": 977,
-    "Probability": 486,
-    "Title": "eum",
-    "Amount": 17221.329999999998,
-    "Currency": "et",
-    "ProjectName": "Littel, Kling and Murazik",
-    "AssociateFullName": "Benedict Kunde",
-    "Description": "Multi-layered logistical data-warehouse",
+    "ContactName": "Ziemann LLC",
+    "SaleDate": "2011-08-23T02:49:45.1403412+02:00",
+    "SaleId": 967,
+    "Probability": 875,
+    "Title": "similique",
+    "Amount": 26472.897999999997,
+    "Currency": "odio",
+    "ProjectName": "Rempel Inc and Sons",
+    "AssociateFullName": "Mr. Darren Cayla Glover Jr.",
+    "Description": "Enhanced reciprocal concept",
     "Status": "Lost",
-    "WeightedAmount": 24642.642,
-    "ProjectId": 383,
-    "EarningPercent": 21574.456,
-    "Earning": 26435.29,
-    "ContactId": 908,
-    "AssociateId": 993,
-    "PersonId": 751,
-    "SaleTypeId": 944,
-    "SaleTypeName": "Kutch-Runolfsson",
-    "PersonFullName": "Mr. Dorothy Maritza Baumbach DDS",
+    "WeightedAmount": 2792.394,
+    "ProjectId": 467,
+    "EarningPercent": 22295.275999999998,
+    "Earning": 15033.797999999999,
+    "ContactId": 363,
+    "AssociateId": 240,
+    "PersonId": 90,
+    "SaleTypeId": 173,
+    "SaleTypeName": "Lockman, Sipes and Lehner",
+    "PersonFullName": "Providenci Hammes Jr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 863,
-    "NextDueDate": "2006-10-04T11:10:27.8540076+02:00",
-    "Number": "915194",
+    "ActiveErpLinks": 962,
+    "NextDueDate": "2007-12-26T02:49:45.1403412+01:00",
+    "Number": "1349925",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldType": "System.Int32",
+        "FieldLength": 400
       }
     }
   }

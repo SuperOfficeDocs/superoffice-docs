@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 
 Returns the listmappings for the specified connection.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns the listmappings for the specified connection.
 ```http
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/ErpSync/GetConnectionListMappings?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId
+ErpConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,11 +79,11 @@ Response body:
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 349
+  "ErpConnectionId": 996
 }
 ```
 
@@ -87,31 +97,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Miller Group",
+      "ErpListName": "Emard Group",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Stehr-Friesen",
-      "ErpFieldId": 104,
+      "ErpActorTypeName": "Breitenberg-Mertz",
+      "ErpFieldId": 517,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 59
+          "FieldType": "System.String",
+          "FieldLength": 9
         }
       }
     }
   ],
-  "ErpConnectionId": 521,
-  "ErpConnectionName": "Mante Group",
+  "ErpConnectionId": 352,
+  "ErpConnectionName": "Schamberger-Collins",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 596
     }
   }
 }

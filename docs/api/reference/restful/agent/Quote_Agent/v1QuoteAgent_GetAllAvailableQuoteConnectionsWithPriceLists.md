@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 
 Get all available connections.
 
+
 Some installed connections may not be available to the user. Includes pricelists for the connection. This is a heavy call
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Some installed connections may not be available to the user. Includes pricelists
 ```http
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists?$select=
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -72,7 +80,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,34 +91,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 941,
-    "ERPName": "Brakus-Lesch",
-    "DisplayName": "Quitzon Inc and Sons",
-    "DisplayDescription": "Re-engineered executive database",
-    "Rank": 94,
-    "ConnectorName": "Cormier-Bayer",
-    "ErpConnectionId": 767,
-    "ExtraData": "ducimus",
+    "QuoteConnectionId": 512,
+    "ERPName": "King Group",
+    "DisplayName": "Altenwerth-Trantow",
+    "DisplayDescription": "Persistent regional knowledge user",
+    "Rank": 99,
+    "ConnectorName": "Berge, Mills and Greenfelder",
+    "ErpConnectionId": 529,
+    "ExtraData": "et",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 576,
-        "ERPPriceListKey": "velit",
-        "QuoteConnectionId": 859,
-        "Name": "Breitenberg, DuBuque and Schaefer",
-        "Description": "Cloned dynamic matrices",
-        "Currency": "et",
-        "CurrencyName": "Nitzsche, Heidenreich and Donnelly",
-        "ValidFrom": "2018-09-23T11:10:27.7044917+02:00",
-        "ValidTo": "2019-07-16T11:10:27.7044917+02:00",
-        "IsActive": false,
+        "PriceListId": 93,
+        "ERPPriceListKey": "molestiae",
+        "QuoteConnectionId": 739,
+        "Name": "Schmeler Inc and Sons",
+        "Description": "Customer-focused cohesive budgetary management",
+        "Currency": "nesciunt",
+        "CurrencyName": "Kessler Inc and Sons",
+        "ValidFrom": "2005-08-02T02:49:45.0309645+02:00",
+        "ValidTo": "2006-06-18T02:49:45.0309645+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 571
+            "FieldType": "System.Int32",
+            "FieldLength": 717
           }
         }
       }
@@ -118,19 +126,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      717,
-      794
+      572,
+      305
     ],
     "AssociateAccessIds": [
-      387,
-      155
+      948,
+      681
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldType": "System.String",
+        "FieldLength": 766
       }
     }
   }

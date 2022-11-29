@@ -11,6 +11,13 @@ GET /api/v1/License/User/MdoList
 
 Get all licenses in a MDOListItem structure.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -23,6 +30,7 @@ Get all licenses in a MDOListItem structure.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -60,7 +68,7 @@ Response body: array
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,56 +79,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 417,
-    "Name": "Lakin-Fadel",
-    "ToolTip": "Ut autem recusandae fuga.",
+    "Id": 170,
+    "Name": "Bernhard, O'Reilly and Hamill",
+    "ToolTip": "Et nostrum voluptas adipisci voluptas eum sit et.",
     "Deleted": true,
-    "Rank": 564,
-    "Type": "a",
-    "ColorBlock": 721,
-    "IconHint": "libero",
-    "Selected": true,
-    "LastChanged": "1995-04-29T11:10:53.7191853+02:00",
+    "Rank": 523,
+    "Type": "aut",
+    "ColorBlock": 648,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "1998-10-16T02:49:51.7179026+02:00",
     "ChildItems": [
       {
-        "Id": 780,
-        "Name": "Fay, Gerhold and Balistreri",
-        "ToolTip": "Qui et ipsam neque.",
-        "Deleted": true,
-        "Rank": 335,
-        "Type": "et",
-        "ColorBlock": 299,
-        "IconHint": "corporis",
-        "Selected": true,
-        "LastChanged": "2019-11-10T11:10:53.7191853+01:00",
+        "Id": 812,
+        "Name": "Legros, Kunde and Treutel",
+        "ToolTip": "Iste ut dolore unde cumque.",
+        "Deleted": false,
+        "Rank": 659,
+        "Type": "laboriosam",
+        "ColorBlock": 675,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2013-12-31T02:49:51.7179026+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quae",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Brenda Berge Sr.",
+        "FullName": "Miss Mathilde Mueller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 814
+            "FieldLength": 459
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "rem",
-    "Hidden": true,
-    "FullName": "Joe Gleichner",
+    "ExtraInfo": "aut",
+    "StyleHint": "harum",
+    "Hidden": false,
+    "FullName": "Sherman Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 783
+        "FieldType": "System.Int32",
+        "FieldLength": 778
       }
     }
   }

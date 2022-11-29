@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/DeleteFromSectionAndKey
 
 Gets a PreferenceDescription based on the section and key
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a PreferenceDescription based on the section and key
 ```http
 POST /api/v1/Agents/Preference/DeleteFromSectionAndKey?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/Preference/DeleteFromSectionAndKey?$select=name,department,c
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Section, Key
+Section, Key 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Section | string |  |
 | Key | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -60,8 +69,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quidem",
-  "Key": "voluptas"
+  "Section": "expedita",
+  "Key": "qui"
 }
 ```
 

@@ -11,9 +11,15 @@ GET /api/v1/ChatSession/{chatSessionId}/Messages
 
 Get all or some of the messages in a chat session
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to reset **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get all or some of the messages in a chat session
 | after | int32 |  Return messages after this message id |
 
 ```http
-GET /api/v1/ChatSession/{chatSessionId}/Messages?after=877
+GET /api/v1/ChatSession/{chatSessionId}/Messages?after=294
 ```
+
 
 ## Request Headers
 
@@ -37,6 +44,7 @@ GET /api/v1/ChatSession/{chatSessionId}/Messages?after=877
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,15 +85,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 83,
-    "ChatSessionId": 119,
+    "ChatMessageId": 4,
+    "ChatSessionId": 100,
     "Type": "Invalid",
-    "Message": "eligendi",
-    "Author": "temporibus",
-    "ReadByCustomer": 516,
+    "Message": "labore",
+    "Author": "voluptatem",
+    "ReadByCustomer": 427,
     "SpecialType": "Block",
-    "SpecialParam": "cum",
-    "WhenPosted": "2013-05-01T11:10:52.5641784+02:00"
+    "SpecialParam": "in",
+    "WhenPosted": "2014-02-09T02:49:50.682786+01:00"
   }
 ]
 ```

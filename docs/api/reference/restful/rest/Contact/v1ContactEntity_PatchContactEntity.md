@@ -11,6 +11,7 @@ PATCH /api/v1/Contact/{id}
 
 Update a ContactEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IContactAgent} service SaveContactEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ContactEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IContactAgent} service SaveContactEntity.
 ```http
 PATCH /api/v1/Contact/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Contact/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 ContactEntity  updated.
 
@@ -81,7 +93,7 @@ ContactEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ContactEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -139,18 +151,18 @@ Response body:
 PATCH /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "ipsum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "ipsum",
     "value": {}
   }
 ]
@@ -163,157 +175,157 @@ HTTP/1.1 200 ContactEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 266,
-  "Name": "Krajcik, Bartell and Koss",
+  "ContactId": 630,
+  "Name": "Feeney, Greenfelder and Roberts",
   "Department": "",
-  "OrgNr": "1345479",
-  "Number1": "812375",
-  "Number2": "574094",
-  "UpdatedDate": "2007-07-26T11:10:52.6941739+02:00",
-  "CreatedDate": "1996-07-14T11:10:52.6941739+02:00",
+  "OrgNr": "875460",
+  "Number1": "822070",
+  "Number2": "529232",
+  "UpdatedDate": "2019-08-18T02:49:50.8077884+02:00",
+  "CreatedDate": "2012-03-21T02:49:50.8077884+01:00",
   "Emails": [
     {
-      "Value": "molestiae",
-      "StrippedValue": "est",
-      "Description": "Total full-range monitoring",
+      "Value": "culpa",
+      "StrippedValue": "molestias",
+      "Description": "Right-sized intermediate encoding",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 341
+          "FieldType": "System.Int32",
+          "FieldLength": 202
         }
       }
     },
     {
-      "Value": "molestiae",
-      "StrippedValue": "est",
-      "Description": "Total full-range monitoring",
+      "Value": "culpa",
+      "StrippedValue": "molestias",
+      "Description": "Right-sized intermediate encoding",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 341
+          "FieldType": "System.Int32",
+          "FieldLength": 202
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 181,
-      "Name": "Emmerich Inc and Sons",
-      "ToolTip": "Inventore qui laborum aut impedit vel quia.",
+      "Id": 325,
+      "Name": "Balistreri, Marvin and Heaney",
+      "ToolTip": "Voluptatem delectus ut corporis.",
       "Deleted": false,
-      "Rank": 826,
-      "Type": "delectus",
-      "ColorBlock": 646,
-      "IconHint": "magni",
+      "Rank": 349,
+      "Type": "omnis",
+      "ColorBlock": 290,
+      "IconHint": "molestias",
       "Selected": false,
-      "LastChanged": "2010-10-13T11:10:52.6941739+02:00",
+      "LastChanged": "1998-09-15T02:49:50.8077884+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nesciunt",
-      "StyleHint": "error",
-      "Hidden": false,
-      "FullName": "Noe Kassulke",
+      "ExtraInfo": "minima",
+      "StyleHint": "sequi",
+      "Hidden": true,
+      "FullName": "Aida Pfeffer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 698
+          "FieldLength": 88
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "veritatis",
-      "StrippedValue": "culpa",
-      "Description": "Multi-tiered high-level architecture",
+      "Value": "nobis",
+      "StrippedValue": "impedit",
+      "Description": "Total dedicated flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 290
+          "FieldType": "System.Int32",
+          "FieldLength": 950
         }
       }
     },
     {
-      "Value": "veritatis",
-      "StrippedValue": "culpa",
-      "Description": "Multi-tiered high-level architecture",
+      "Value": "nobis",
+      "StrippedValue": "impedit",
+      "Description": "Total dedicated flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 290
+          "FieldType": "System.Int32",
+          "FieldLength": 950
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "harum",
-      "StrippedValue": "eum",
-      "Description": "Open-source user-facing matrices",
+      "Value": "cumque",
+      "StrippedValue": "dicta",
+      "Description": "Seamless optimizing contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 942
         }
       }
     },
     {
-      "Value": "harum",
-      "StrippedValue": "eum",
-      "Description": "Open-source user-facing matrices",
+      "Value": "cumque",
+      "StrippedValue": "dicta",
+      "Description": "Seamless optimizing contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 942
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "ullam",
-      "StrippedValue": "non",
-      "Description": "Progressive web-enabled ability",
+      "Value": "dolorum",
+      "StrippedValue": "ut",
+      "Description": "Horizontal directional focus group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 737
+          "FieldType": "System.Int32",
+          "FieldLength": 741
         }
       }
     },
     {
-      "Value": "ullam",
-      "StrippedValue": "non",
-      "Description": "Progressive web-enabled ability",
+      "Value": "dolorum",
+      "StrippedValue": "ut",
+      "Description": "Horizontal directional focus group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 737
+          "FieldType": "System.Int32",
+          "FieldLength": 741
         }
       }
     }
   ],
-  "Description": "Operative coherent flexibility",
+  "Description": "Intuitive web-enabled product",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -322,105 +334,105 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "ea",
-      "PersonId": 242,
-      "Mrmrs": "aut",
-      "Firstname": "Vita",
-      "Lastname": "Bernier",
-      "MiddleName": "Pfannerstill Inc and Sons",
-      "Title": "possimus",
-      "Description": "Visionary holistic leverage",
-      "Email": "sedrick@harrishansen.us",
-      "FullName": "Erna Ebert",
-      "DirectPhone": "280-135-3368 x645",
-      "FormalName": "Thiel, Hilll and Bogisich",
-      "CountryId": 596,
-      "ContactId": 545,
-      "ContactName": "Jakubowski-Weber",
-      "Retired": 43,
-      "Rank": 226,
-      "ActiveInterests": 776,
+      "Position": "quam",
+      "PersonId": 739,
+      "Mrmrs": "dolores",
+      "Firstname": "Miguel",
+      "Lastname": "Vandervort",
+      "MiddleName": "Aufderhar Group",
+      "Title": "est",
+      "Description": "Synergized assymetric Graphic Interface",
+      "Email": "russell@grimes.info",
+      "FullName": "Ms. Caitlyn Goodwin I",
+      "DirectPhone": "514-679-2276",
+      "FormalName": "Senger Inc and Sons",
+      "CountryId": 873,
+      "ContactId": 348,
+      "ContactName": "Pollich, Douglas and Witting",
+      "Retired": 299,
+      "Rank": 129,
+      "ActiveInterests": 685,
       "ContactDepartment": "",
-      "ContactCountryId": 668,
-      "ContactOrgNr": "1251896",
-      "FaxPhone": "228-009-9961",
-      "MobilePhone": "731.575.3979",
-      "ContactPhone": "(120)299-5351 x6242",
-      "AssociateName": "Quitzon LLC",
-      "AssociateId": 618,
+      "ContactCountryId": 294,
+      "ContactOrgNr": "824427",
+      "FaxPhone": "1-656-854-7923 x9228",
+      "MobilePhone": "480-718-9632",
+      "ContactPhone": "074-981-0949",
+      "AssociateName": "Ernser Inc and Sons",
+      "AssociateId": 191,
       "UsePersonAddress": true,
-      "ContactFax": "ut",
+      "ContactFax": "voluptatem",
       "Kanafname": "quis",
-      "Kanalname": "quam",
-      "Post1": "tenetur",
-      "Post2": "quia",
-      "Post3": "ut",
-      "EmailName": "orrin@deckowgreenfelder.ca",
-      "ContactFullName": "Abagail Huel I",
-      "ActiveErpLinks": 547,
-      "TicketPriorityId": 140,
-      "SupportLanguageId": 566,
-      "SupportAssociateId": 851,
+      "Kanalname": "esse",
+      "Post1": "eligendi",
+      "Post2": "distinctio",
+      "Post3": "vel",
+      "EmailName": "alessia@bogisich.co.uk",
+      "ContactFullName": "Dario Bogisich",
+      "ActiveErpLinks": 271,
+      "TicketPriorityId": 516,
+      "SupportLanguageId": 243,
+      "SupportAssociateId": 696,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 938
+          "FieldLength": 471
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "officiis",
-  "Xstop": true,
-  "ActiveInterests": 979,
-  "GroupId": 918,
-  "ActiveStatusMonitorId": 549,
+  "Kananame": "sit",
+  "Xstop": false,
+  "ActiveInterests": 90,
+  "GroupId": 309,
+  "ActiveStatusMonitorId": 344,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 671,
-  "DbiAgentId": 1002,
-  "DbiLastSyncronized": "2016-09-21T11:10:52.6991739+02:00",
-  "DbiKey": "facere",
-  "DbiLastModified": "2001-09-02T11:10:52.6991739+02:00",
+  "Deleted": 470,
+  "DbiAgentId": 700,
+  "DbiLastSyncronized": "2008-08-26T02:49:50.8077884+02:00",
+  "DbiKey": "praesentium",
+  "DbiLastModified": "2014-09-16T02:49:50.8077884+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 179,
-  "ActiveErpLinks": 333,
+  "Source": 985,
+  "ActiveErpLinks": 155,
   "BounceEmails": [
-    "alexandro.lesch@lang.name",
-    "jaquan@white.us"
+    "thaddeus@hartmannrolfson.name",
+    "camren.torp@hammesrosenbaum.info"
   ],
   "Domains": [
-    "optio",
-    "iste"
+    "esse",
+    "ut"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Ms. Leonor Walter II"
+    "SuperOffice:1": "Loyce Serenity Boyle DVM",
+    "SuperOffice:2": "1217467351"
   },
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "aspernatur"
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "optio",
-    "CustomFields2": "id"
+    "CustomFields1": "fuga",
+    "CustomFields2": "vero"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldType": "System.String",
+      "FieldLength": 790
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

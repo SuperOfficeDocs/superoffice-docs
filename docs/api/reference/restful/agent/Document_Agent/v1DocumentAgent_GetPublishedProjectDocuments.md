@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 
 Get published appointment documents by project id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published appointment documents by project id.
 ```http
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Document/GetPublishedProjectDocuments?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
+
 
 ## Response: array
 
@@ -88,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 466
+  "ProjectId": 456
 }
 ```
 
@@ -100,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 166,
-    "Attention": "exercitationem",
-    "Header": "iusto",
-    "Name": "Cassin-Will",
-    "OurRef": "id",
-    "YourRef": "itaque",
-    "Description": "Synergistic well-modulated help-desk",
-    "DocumentTemplate": "non",
-    "IsPublished": true,
-    "PersonId": 57,
-    "PersonFullName": "Miss Keyshawn Favian Homenick",
-    "AssociateFullName": "Doris Bergnaum",
-    "ContactId": 214,
-    "ContactName": "Robel, Nader and Barton",
-    "ProjectId": 542,
-    "ProjectName": "Rolfson LLC",
-    "AssociateId": 260,
-    "Snum": 910,
-    "SaleId": 890,
-    "SaleName": "Fisher, Leffler and Stiedemann",
+    "DocumentId": 462,
+    "Attention": "nisi",
+    "Header": "molestias",
+    "Name": "Auer-Hansen",
+    "OurRef": "officia",
+    "YourRef": "non",
+    "Description": "Switchable leading edge Graphic Interface",
+    "DocumentTemplate": "sed",
+    "IsPublished": false,
+    "PersonId": 598,
+    "PersonFullName": "Miss Martina Yost III",
+    "AssociateFullName": "Adolph Walsh",
+    "ContactId": 594,
+    "ContactName": "Tremblay LLC",
+    "ProjectId": 612,
+    "ProjectName": "Schroeder-Hoeger",
+    "AssociateId": 334,
+    "Snum": 528,
+    "SaleId": 828,
+    "SaleName": "Connelly-Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 71
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 
 Get the associated billing and invoice quote version addresses.
 
+
 These addresses might be address on the contact, or a custom address.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ These addresses might be address on the contact, or a custom address.
 ```http
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Contact/GetQuoteVersionAddresses?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId
+QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
+
 
 ## Response: array
 
@@ -72,11 +80,11 @@ Response body: array
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 243
+  "QuoteVersionId": 950
 }
 ```
 
@@ -88,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 1078.096,
-    "Wgs84Longitude": 1664.154,
+    "Wgs84Latitude": 11326.276,
+    "Wgs84Longitude": 20270.712,
     "LocalizedAddress": [
       [
         {
-          "Name": "Corkery Inc and Sons",
-          "Value": "vel",
-          "Tooltip": "voluptatem",
-          "Label": "sint",
-          "ValueLength": 553,
-          "AddressType": "cum",
+          "Name": "Crona-Kozey",
+          "Value": "aut",
+          "Tooltip": "corporis",
+          "Label": "explicabo",
+          "ValueLength": 496,
+          "AddressType": "nulla",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 263
+              "FieldLength": 836
             }
           }
         }
       ],
       [
         {
-          "Name": "Buckridge-Grant",
-          "Value": "est",
-          "Tooltip": "architecto",
-          "Label": "quos",
-          "ValueLength": 699,
-          "AddressType": "beatae",
+          "Name": "Murazik Inc and Sons",
+          "Value": "quasi",
+          "Tooltip": "corporis",
+          "Label": "dolorem",
+          "ValueLength": 765,
+          "AddressType": "laborum",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 911
+              "FieldLength": 358
             }
           }
         }
@@ -130,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "quo",
+    "Formatted": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldType": "System.String",
+        "FieldLength": 536
       }
     }
   }

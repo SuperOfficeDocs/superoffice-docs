@@ -11,6 +11,12 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 
 Get an array of BatchTaskInfo for the provided associate id's.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get an array of BatchTaskInfo for the provided associate id's.
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIds
+AssociateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateIds | array |  |
+
 
 ## Response: array
 
@@ -85,13 +93,13 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    227,
-    552
+    497,
+    840
   ]
 }
 ```
@@ -104,36 +112,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Schinner, Rolfson and Abshire",
-    "AssociateId": 206,
-    "DetailsTable": 334,
-    "DetailsRecord": 206,
+    "Id": 46,
+    "Name": "Kris-Grant",
+    "AssociateId": 977,
+    "DetailsTable": 573,
+    "DetailsRecord": 788,
     "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "esse",
+      "ParameterObject2": "at"
     },
-    "LastStarted": "1998-11-01T11:10:26.0175541+01:00",
-    "Created": "2001-06-19T11:10:26.0175541+02:00",
-    "StartCount": 425,
-    "DatabaseSerialNumber": "848902",
-    "Context": "voluptas",
-    "Result": "nisi",
+    "LastStarted": "2017-07-03T02:49:43.7004017+02:00",
+    "Created": "2018-05-10T02:49:43.7004017+02:00",
+    "StartCount": 237,
+    "DatabaseSerialNumber": "1381322",
+    "Context": "eum",
+    "Result": "omnis",
     "State": "All",
-    "Description": "Up-sized attitude-oriented hierarchy",
-    "Response": "labore",
-    "Request": "itaque",
-    "ProgressDescription": "Team-oriented user-facing knowledge base",
-    "ProgressPercent": 288,
-    "FileName": "McDermott Inc and Sons",
+    "Description": "Synchronised transitional service-desk",
+    "Response": "quasi",
+    "Request": "dolores",
+    "ProgressDescription": "Virtual fault-tolerant attitude",
+    "ProgressPercent": 681,
+    "FileName": "Romaguera Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldLength": 742
       }
     }
   }

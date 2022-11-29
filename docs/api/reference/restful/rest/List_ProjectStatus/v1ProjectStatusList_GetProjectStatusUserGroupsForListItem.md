@@ -11,11 +11,18 @@ GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ProjectStatus list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Oberbrunner-Friesen",
-    "ToolTip": "Quam veritatis omnis voluptatum corrupti debitis officia.",
-    "Deleted": false,
-    "Rank": 162,
-    "Type": "maiores",
-    "ColorBlock": 510,
-    "IconHint": "nisi",
-    "Selected": true,
-    "LastChanged": "2020-10-15T11:10:54.4679337+02:00",
+    "Id": 416,
+    "Name": "Haley, Barton and Nikolaus",
+    "ToolTip": "Cumque quo eaque quasi voluptatem est deleniti nisi.",
+    "Deleted": true,
+    "Rank": 223,
+    "Type": "quia",
+    "ColorBlock": 873,
+    "IconHint": "debitis",
+    "Selected": false,
+    "LastChanged": "2007-04-09T02:49:52.3909486+02:00",
     "ChildItems": [
       {
-        "Id": 691,
-        "Name": "Keeling, Bahringer and Nader",
-        "ToolTip": "In et ab qui.",
+        "Id": 603,
+        "Name": "Tremblay, Ledner and Bashirian",
+        "ToolTip": "Voluptatem quia non veritatis ut aut commodi.",
         "Deleted": true,
-        "Rank": 467,
-        "Type": "ipsa",
-        "ColorBlock": 512,
-        "IconHint": "eum",
-        "Selected": false,
-        "LastChanged": "2005-10-27T11:10:54.4679337+02:00",
+        "Rank": 762,
+        "Type": "dolorem",
+        "ColorBlock": 740,
+        "IconHint": "corporis",
+        "Selected": true,
+        "LastChanged": "2003-04-02T02:49:52.3909486+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "perspiciatis",
-        "Hidden": true,
-        "FullName": "Earline Rippin",
+        "ExtraInfo": "numquam",
+        "StyleHint": "explicabo",
+        "Hidden": false,
+        "FullName": "Ezekiel Wolf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 32
+            "FieldLength": 856
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "dicta",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Prof. Tate Witting II",
+    "FullName": "Mrs. Vernice Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldLength": 15
       }
     }
   }

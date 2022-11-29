@@ -11,11 +11,18 @@ DELETE /api/v1/Sale/{id}
 
 Deletes the SaleEntity
 
+
 Calls the Sale agent service DeleteSaleEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SaleEntity to be deleted. **Required** |
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Calls the Sale agent service DeleteSaleEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 SaleEntity deleted.
 
@@ -35,7 +43,8 @@ SaleEntity deleted.
 | 204 | SaleEntity deleted. |
 | 412 | Delete aborted because SaleEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -43,7 +52,7 @@ Response body:
 DELETE /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

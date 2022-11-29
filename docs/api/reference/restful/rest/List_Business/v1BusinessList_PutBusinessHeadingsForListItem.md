@@ -11,11 +11,18 @@ PUT /api/v1/List/Business/Items/{itemId}/Headings
 
 Saves headings for the Business list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 939,
-    "Name": "Rolfson-Stokes",
-    "ToolTip": "Ducimus eum.",
-    "Deleted": false,
-    "Rank": 387,
-    "Type": "ex",
-    "ColorBlock": 351,
-    "IconHint": "magni",
-    "Selected": true,
-    "LastChanged": "1997-03-18T11:10:53.9341859+01:00",
+    "Id": 495,
+    "Name": "Schowalter-Hickle",
+    "ToolTip": "Et facere id rem illum sapiente minima.",
+    "Deleted": true,
+    "Rank": 385,
+    "Type": "corporis",
+    "ColorBlock": 349,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2019-06-11T02:49:51.9065706+02:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Kuhic LLC",
-        "ToolTip": "Temporibus non alias odio.",
+        "Id": 888,
+        "Name": "Greenfelder-Aufderhar",
+        "ToolTip": "Est aut nam maxime impedit.",
         "Deleted": false,
-        "Rank": 573,
-        "Type": "non",
-        "ColorBlock": 843,
-        "IconHint": "placeat",
-        "Selected": false,
-        "LastChanged": "1997-07-23T11:10:53.9341859+02:00",
+        "Rank": 417,
+        "Type": "quia",
+        "ColorBlock": 385,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2016-07-13T02:49:51.9065706+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Candice Simonis"
+        "ExtraInfo": "excepturi",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Miss Garett Dina Mueller MD"
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "quis",
+    "ExtraInfo": "esse",
+    "StyleHint": "voluptas",
     "Hidden": true,
-    "FullName": "Dr. Tyrique Scottie McKenzie I"
+    "FullName": "Prof. Troy Ona Barton MD"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Jewess-Dach",
-    "ToolTip": "Veritatis reprehenderit rerum et fugit.",
-    "Deleted": false,
-    "Rank": 86,
-    "Type": "quasi",
-    "ColorBlock": 40,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "1996-02-06T11:10:53.9351855+01:00",
+    "Id": 477,
+    "Name": "Upton, Prohaska and Cronin",
+    "ToolTip": "Cumque est quidem et.",
+    "Deleted": true,
+    "Rank": 292,
+    "Type": "fugit",
+    "ColorBlock": 907,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2001-11-19T02:49:51.9065706+01:00",
     "ChildItems": [
       {
-        "Id": 917,
-        "Name": "Feil-Predovic",
-        "ToolTip": "Neque sunt architecto asperiores ut voluptatum optio aliquid.",
-        "Deleted": true,
-        "Rank": 194,
-        "Type": "placeat",
-        "ColorBlock": 56,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2002-03-24T11:10:53.9351855+01:00",
+        "Id": 270,
+        "Name": "Rodriguez-Bahringer",
+        "ToolTip": "Maxime quia blanditiis ullam placeat vel.",
+        "Deleted": false,
+        "Rank": 662,
+        "Type": "officia",
+        "ColorBlock": 113,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2011-02-27T02:49:51.9065706+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Timothy Kunze",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Shanna Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 544
+            "FieldType": "System.String",
+            "FieldLength": 359
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Dayana Johnson III",
+    "ExtraInfo": "itaque",
+    "StyleHint": "quibusdam",
+    "Hidden": true,
+    "FullName": "Evans Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 143
+        "FieldType": "System.Int32",
+        "FieldLength": 707
       }
     }
   }

@@ -11,9 +11,17 @@ GET /api/v1/TriggerScript/default
 
 Set default values into a new TriggerScriptEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service CreateDefaultTriggerScriptEntity
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service CreateDefaultTriggerScriptEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +54,7 @@ Response body:
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -59,7 +68,7 @@ Response body:
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 806,
-  "Name": "McLaughlin-Cassin",
+  "ScreenChooserId": 910,
+  "Name": "Hickle, Steuber and Stamm",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "magni",
-  "Source": "quo",
-  "Registered": "2001-09-12T11:10:53.6621858+02:00",
-  "RegisteredAssociateId": 834,
-  "Updated": "2020-11-19T11:10:53.6621858+01:00",
-  "UpdatedAssociateId": 981,
+  "Enabled": true,
+  "UniqueIdentifier": "animi",
+  "Source": "tenetur",
+  "Registered": "2014-09-30T02:49:51.6710218+02:00",
+  "RegisteredAssociateId": 59,
+  "Updated": "2004-10-20T02:49:51.6710218+02:00",
+  "UpdatedAssociateId": 879,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 735
     }
   }
 }

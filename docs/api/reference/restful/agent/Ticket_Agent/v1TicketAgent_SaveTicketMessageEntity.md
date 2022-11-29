@@ -11,6 +11,13 @@ POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 
 Updates the existing TicketMessageEntity or creates a new TicketMessageEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing TicketMessageEntity or creates a new TicketMessageEntity if
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TicketMessageEntity to be saved.
+The TicketMessageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +63,8 @@ The TicketMessageEntity to be saved.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -64,7 +72,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,48 +113,50 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 362,
+  "EjMessageId": 27,
   "Ticket": null,
-  "CreatedAt": "1995-09-26T11:10:28.2246933+02:00",
+  "CreatedAt": "2015-02-23T02:49:45.4840951+01:00",
   "CreatedBy": null,
-  "Author": "facilis",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 675,
-  "Body": "perspiciatis",
-  "HtmlBody": "sapiente",
-  "EmailHeader": "isai.rolfson@gutkowski.biz",
-  "DebugInfo": "nihil",
-  "MailSorter": "quis",
+  "MessageId": "dicta",
+  "TimeSpent": 429,
+  "Body": "dicta",
+  "HtmlBody": "laboriosam",
+  "EmailHeader": "elias_schmitt@gleason.co.uk",
+  "DebugInfo": "mollitia",
+  "MailSorter": "saepe",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "adipisci",
+  "SearchTitle": "minima",
   "MessageHeaders": [
     {
-      "Name": "Grant-Langosh",
-      "Value": "minima",
+      "Id": 347,
+      "Name": "Armstrong LLC",
+      "Value": "quaerat",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Name": "Grant-Langosh",
-      "Value": "minima",
+      "Id": 347,
+      "Name": "Armstrong LLC",
+      "Value": "quaerat",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "molestiae",
-  "Sentiment": 934,
-  "SentimentConfidence": 278,
+  "Important": true,
+  "Language": "cum",
+  "Sentiment": 429,
+  "SentimentConfidence": 560,
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "corrupti",
-    "CustomFields2": "quaerat"
+    "CustomFields1": "quod",
+    "CustomFields2": "autem"
   }
 }
 ```
@@ -158,27 +168,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 277,
+  "EjMessageId": 244,
   "Ticket": null,
-  "CreatedAt": "2001-06-08T11:10:28.230693+02:00",
+  "CreatedAt": "2021-08-24T02:49:45.4840951+02:00",
   "CreatedBy": null,
-  "Author": "quam",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "at",
-  "TimeSpent": 235,
-  "Body": "et",
-  "HtmlBody": "ut",
-  "EmailHeader": "darrin@herzog.ca",
-  "DebugInfo": "sed",
-  "MailSorter": "qui",
+  "MessageId": "ut",
+  "TimeSpent": 591,
+  "Body": "quia",
+  "HtmlBody": "ea",
+  "EmailHeader": "durward@reichel.com",
+  "DebugInfo": "aut",
+  "MailSorter": "perferendis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consequuntur",
+  "SearchTitle": "itaque",
   "MessageHeaders": [
     {
-      "Name": "O'Connell, Stehr and Mitchell",
-      "Value": "ut",
+      "Id": 544,
+      "Name": "Bergnaum-Morar",
+      "Value": "cumque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -186,43 +197,29 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 1001
-        }
-      }
-    },
-    {
-      "Name": "O'Connell, Stehr and Mitchell",
-      "Value": "ut",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1001
+          "FieldLength": 944
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "ut",
-  "Sentiment": 980,
-  "SentimentConfidence": 136,
+  "Important": false,
+  "Language": "temporibus",
+  "Sentiment": 827,
+  "SentimentConfidence": 270,
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "veniam",
-    "CustomFields2": "officiis"
+    "CustomFields1": "qui",
+    "CustomFields2": "nihil"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldType": "System.Int32",
+      "FieldLength": 721
     }
   }
 }

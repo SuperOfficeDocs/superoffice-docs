@@ -11,6 +11,12 @@ POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 
 Remove the stored settings of the bulk update for this table from this context, to get the default settings instead
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Remove the stored settings of the bulk update for this table from this context, 
 ```http
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, Context
+TableName, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | Context | string |  |
+
 
 ## Response: array
 
@@ -84,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "King-Moen",
-  "Context": "quibusdam"
+  "TableName": "Kuhic-Nikolaus",
+  "Context": "ducimus"
 }
 ```
 
@@ -101,72 +109,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "sed",
-    "ValueType": "maiores",
+    "Key": "eius",
+    "ValueType": "odio",
     "Mandatory": true,
-    "EncodedDisplayName": "Howell, Schroeder and Blanda",
-    "EncodedDisplayDescription": "User-friendly full-range attitude",
-    "IconHint": "necessitatibus",
+    "EncodedDisplayName": "Considine LLC",
+    "EncodedDisplayDescription": "Cross-group multimedia success",
+    "IconHint": "earum",
     "ControlInfos": [
       {
-        "Type": "atque",
-        "Label": "voluptatum",
-        "Dimension": 149,
-        "ListProviderName": "Turcotte Inc and Sons",
-        "ListProviderExtraInfo": "quae",
-        "ListProviderPrimaryKeyName": "Krajcik-Lemke",
-        "ListLeadText": "ut",
+        "Type": "vel",
+        "Label": "architecto",
+        "Dimension": 355,
+        "ListProviderName": "Rice, Simonis and Prosacco",
+        "ListProviderExtraInfo": "mollitia",
+        "ListProviderPrimaryKeyName": "Pagac, Russel and Aufderhar",
+        "ListLeadText": "architecto",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 124
+            "FieldLength": 46
           }
         }
       }
     ],
-    "EncodedDataCaption": "voluptatum",
-    "EncodedDataCaptionDescription": "Front-line web-enabled analyzer",
-    "CurrentOperationType": "et",
+    "EncodedDataCaption": "et",
+    "EncodedDataCaptionDescription": "Optional encompassing collaboration",
+    "CurrentOperationType": "rerum",
     "Values": [
-      "eaque",
-      "qui"
+      "illum",
+      "aut"
     ],
     "DisplayValues": [
-      "totam",
-      "sit"
+      "eveniet",
+      "est"
     ],
     "OperationInfos": [
       {
-        "Key": "autem",
-        "EncodedDisplayName": "Kiehn-Hane",
+        "Key": "quas",
+        "EncodedDisplayName": "Maggio Group",
         "EncodedLeadTexts": [
-          "fugit",
-          "dolorem"
+          "aut",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 863
+            "FieldLength": 930
           }
         }
       },
       {
-        "Key": "autem",
-        "EncodedDisplayName": "Kiehn-Hane",
+        "Key": "quas",
+        "EncodedDisplayName": "Maggio Group",
         "EncodedLeadTexts": [
-          "fugit",
-          "dolorem"
+          "aut",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 863
+            "FieldLength": 930
           }
         }
       }

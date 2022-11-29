@@ -11,11 +11,17 @@ GET /api/v1/List/ProductType/Items/{itemId}/Headings
 
 Gets headings for the ProductType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Abernathy Group",
-    "ToolTip": "Molestias omnis.",
+    "Id": 720,
+    "Name": "Nicolas-Breitenberg",
+    "ToolTip": "Qui et fugiat autem nobis fugiat.",
     "Deleted": false,
-    "Rank": 715,
-    "Type": "magnam",
-    "ColorBlock": 634,
-    "IconHint": "numquam",
+    "Rank": 288,
+    "Type": "natus",
+    "ColorBlock": 850,
+    "IconHint": "voluptate",
     "Selected": false,
-    "LastChanged": "2014-09-13T11:10:54.4549022+02:00",
+    "LastChanged": "2013-07-22T02:49:52.3753234+02:00",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Carter-Lind",
-        "ToolTip": "Magnam accusantium voluptatem quis.",
+        "Id": 216,
+        "Name": "Welch LLC",
+        "ToolTip": "Praesentium est sed vitae.",
         "Deleted": false,
-        "Rank": 864,
-        "Type": "porro",
-        "ColorBlock": 596,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2016-11-27T11:10:54.4549022+01:00",
+        "Rank": 730,
+        "Type": "consectetur",
+        "ColorBlock": 257,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2001-06-13T02:49:52.3753234+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "et",
+        "ExtraInfo": "aut",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Carmine Botsford",
+        "FullName": "Nikita Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 865
+            "FieldType": "System.String",
+            "FieldLength": 153
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "natus",
-    "Hidden": true,
-    "FullName": "Alana Fisher",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Mrs. Wiley Stevie Bechtelar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldType": "System.Int32",
+        "FieldLength": 566
       }
     }
   }

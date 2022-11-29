@@ -11,6 +11,7 @@ GET /api/v1/Contact
 
 OData list of all ContactEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Contact?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * Contact?$top=1000
 * Contact?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "SimpleContact" archive.
 
-## Filter Operators ##
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=officia
-GET /api/v1/Contact?$top=452
-GET /api/v1/Contact?$skip=19
+GET /api/v1/Contact?$entities=ea
+GET /api/v1/Contact?$top=737
+GET /api/v1/Contact?$skip=896
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=repudiandae
+GET /api/v1/Contact?$context=voluptas
 GET /api/v1/Contact?$format=JSON
 GET /api/v1/Contact?$jsonSafe=False
 GET /api/v1/Contact?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,7 +95,8 @@ GET /api/v1/Contact?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -92,7 +104,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -106,7 +118,7 @@ Response body:
 GET /api/v1/Contact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -117,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "aut",
   "value": [
     {
-      "PrimaryKey": 450,
+      "PrimaryKey": 1468,
       "EntityName": "person",
-      "personId": 450,
-      "fullName": "Mrs. Sienna Augusta Gerlach DDS"
+      "personId": 1468,
+      "fullName": "Mrs. Finn Stoltenberg"
     },
     {
-      "PrimaryKey": 9736,
+      "PrimaryKey": 4839,
       "EntityName": "person",
-      "personId": 9736,
-      "fullName": "Isom Maggio"
+      "personId": 4839,
+      "fullName": "Everette Gaylord"
     }
   ]
 }

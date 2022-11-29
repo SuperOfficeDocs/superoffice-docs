@@ -11,7 +11,15 @@ POST /api/v1/Agents/DocumentMigration/MigrateTemplateToNewDocPlugin
 
 Migrates the template with the provided id to the specified document-plugin.
 
-## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps
+
+
+
+## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +31,7 @@ Migrates the template with the provided id to the specified document-plugin.
 POST /api/v1/Agents/DocumentMigration/MigrateTemplateToNewDocPlugin?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,16 +42,17 @@ POST /api/v1/Agents/DocumentMigration/MigrateTemplateToNewDocPlugin?$select=name
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentTemplateId, TargetDocumentPluginId
+DocumentTemplateId, TargetDocumentPluginId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentTemplateId | int32 |  |
 | TargetDocumentPluginId | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +60,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -58,12 +69,12 @@ Response body:
 POST /api/v1/Agents/DocumentMigration/MigrateTemplateToNewDocPlugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 151,
-  "TargetDocumentPluginId": 530
+  "DocumentTemplateId": 75,
+  "TargetDocumentPluginId": 26
 }
 ```
 

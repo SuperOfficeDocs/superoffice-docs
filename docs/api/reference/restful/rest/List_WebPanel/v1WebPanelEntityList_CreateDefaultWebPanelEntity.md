@@ -11,6 +11,13 @@ GET /api/v1/List/WebPanel/Items/Default
 
 Gets a default WebPanelEntity list item.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,7 +31,8 @@ Gets a default WebPanelEntity list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -32,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +74,7 @@ Response body:
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,33 +84,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 395,
-  "Name": "Murphy-Gaylord",
+  "WebPanelId": 11,
+  "Name": "Kuhn, Pfeffer and Mante",
   "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 150,
+  "Rank": 345,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Davis, McGlynn and Terry",
+  "ShowInStatusBar": true,
+  "WindowName": "Schuster, Jones and Rosenbaum",
   "Url": "http://www.example.com/",
-  "ProgId": "unde",
-  "Icon": 542,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "quia",
+  "Icon": 390,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldType": "System.String",
+      "FieldLength": 91
     }
   }
 }

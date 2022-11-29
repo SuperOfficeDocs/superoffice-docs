@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate
 
 Get activity information for one or more days according to the given date interval.
 
+
 The time portion of the dates is ignored. Private appointments are counted, but may not be visible through tooltips or other more detailed services.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The time portion of the dates is ignored. Private appointments are counted, but 
 ```http
 POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate?$s
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartDate, EndDate, AssociateId
+StartDate, EndDate, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StartDate | date-time |  |
 | EndDate | date-time |  |
 | AssociateId | int32 |  |
+
 
 ## Response: array
 
@@ -70,13 +78,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2021-10-10T11:10:25.4785224+02:00",
-  "EndDate": "2002-05-02T11:10:25.4785224+02:00",
-  "AssociateId": 604
+  "StartDate": "2007-03-11T02:49:43.261747+01:00",
+  "EndDate": "1999-06-14T02:49:43.261747+02:00",
+  "AssociateId": 643
 }
 ```
 
@@ -88,26 +96,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2010-04-11T11:10:25.4785224+02:00",
+    "Date": "2004-02-29T02:49:43.261747+01:00",
     "ActivityInformation": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 450
+        "FieldType": "System.Int32",
+        "FieldLength": 808
       }
     }
   },
   {
-    "Date": "2010-04-11T11:10:25.4785224+02:00",
+    "Date": "2004-02-29T02:49:43.261747+01:00",
     "ActivityInformation": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 450
+        "FieldType": "System.Int32",
+        "FieldLength": 808
       }
     }
   }

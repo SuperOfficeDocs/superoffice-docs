@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectAppointments
 
 Method that returns a specified number of appointments within a time range.
 
+
 The appointments belong to the project specified. If the logged on user is not allowed to view this projects appointments an exception is thrown.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the project specified. If the logged on user is not a
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectAppointments?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count
+ProjectId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,6 +54,7 @@ ProjectId, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -122,10 +130,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 149,
-  "StartTime": "2001-12-19T11:10:25.9455523+01:00",
-  "EndTime": "2011-05-31T11:10:25.9455523+02:00",
-  "Count": 657
+  "ProjectId": 285,
+  "StartTime": "2012-12-12T02:49:43.5129081+01:00",
+  "EndTime": "1997-04-02T02:49:43.5129081+02:00",
+  "Count": 880
 }
 ```
 
@@ -137,53 +145,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 531,
-    "StartDate": "2020-11-17T11:10:25.9465568+01:00",
-    "EndDate": "2007-01-20T11:10:25.9465568+01:00",
+    "AppointmentId": 159,
+    "StartDate": "2007-07-19T02:49:43.5129081+02:00",
+    "EndDate": "2003-05-01T02:49:43.5129081+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sunt",
-    "AssociateFullName": "Mr. Triston Braun",
-    "ContactName": "Sipes, Senger and Von",
-    "Description": "Realigned bandwidth-monitored focus group",
-    "PersonFullName": "Ms. Angelo Cummerata Jr.",
-    "PersonId": 631,
-    "ContactId": 793,
-    "ProjectId": 116,
-    "ProjectName": "Gulgowski-Mosciski",
+    "Task": "dolores",
+    "AssociateFullName": "Mavis Langosh",
+    "ContactName": "Erdman-Welch",
+    "Description": "Focused dynamic hub",
+    "PersonFullName": "Mrs. Kathryn Alexandrine Bechtelar Sr.",
+    "PersonId": 780,
+    "ContactId": 120,
+    "ProjectId": 668,
+    "ProjectName": "Jakubowski-Cassin",
     "IsPublished": false,
-    "AssociateId": 755,
-    "ColorIndex": 483,
+    "AssociateId": 568,
+    "ColorIndex": 76,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 689,
-    "PriorityName": "O'Conner, Predovic and Moen",
+    "PriorityId": 491,
+    "PriorityName": "Rippin, Okuneva and Adams",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2010-01-11T11:10:25.9465568+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2005-03-24T02:49:43.5129081+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-12-20T11:10:25.9465568+01:00",
-    "RecurringEndDate": "2002-01-03T11:10:25.9465568+01:00",
-    "MotherId": 619,
-    "AssignedBy": 586,
-    "AssignedByFullName": "Desmond Hagenes",
+    "RecurringStartDate": "1997-04-18T02:49:43.5129081+02:00",
+    "RecurringEndDate": "2008-03-15T02:49:43.5129081+01:00",
+    "MotherId": 753,
+    "AssignedBy": 633,
+    "AssignedByFullName": "Milo Legros",
     "RejectReason": "",
-    "Location": "rem",
-    "AlarmLeadTime": "voluptatum",
-    "SaleId": 513,
-    "SaleName": "Bins Group",
-    "AssociateName": "Smith-Pouros",
-    "CreatedDate": "1997-06-13T11:10:25.9465568+02:00",
-    "CreatedBy": "assumenda",
-    "CreatedByFullName": "Mr. Ford Angel Pfannerstill II",
-    "CreatedByAssociateId": 641,
+    "Location": "similique",
+    "AlarmLeadTime": "quia",
+    "SaleId": 35,
+    "SaleName": "Champlin, Anderson and Brekke",
+    "AssociateName": "O'Reilly Inc and Sons",
+    "CreatedDate": "2006-01-13T02:49:43.5129081+01:00",
+    "CreatedBy": "exercitationem",
+    "CreatedByFullName": "Mr. Reilly Yvette O'Reilly III",
+    "CreatedByAssociateId": 750,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -191,7 +199,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 545
+        "FieldLength": 434
       }
     }
   }

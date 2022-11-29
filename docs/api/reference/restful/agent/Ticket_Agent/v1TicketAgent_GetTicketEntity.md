@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/GetTicketEntity
 
 Gets a TicketEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a TicketEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=612
+POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=985
 POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,6 +62,7 @@ Response body:
 | LastChanged | date-time | The last time the ticket was modified. |
 | ReadByOwner | date-time | The datetime for when the ticket last was read by the owner. |
 | ReadByCustomer | date-time | The datetime for when the ticket was read by the customer. |
+| FirstReadByOwner | date-time | The datetime for when the ticket first was read by the current owner. |
 | FirstReadByUser | date-time | The datetime for when the ticket first was read by a user. |
 | Activate | date-time | When the ticket should be activated, if it is postponed. |
 | ClosedAt | date-time | When the ticket was closed. |
@@ -108,7 +117,7 @@ Response body:
 POST /api/v1/Agents/Ticket/GetTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -118,20 +127,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 427,
-  "Title": "quia",
-  "CreatedAt": "2003-09-24T11:10:28.2436933+02:00",
-  "LastChanged": "2007-11-15T11:10:28.2436933+01:00",
-  "ReadByOwner": "2000-12-05T11:10:28.2436933+01:00",
-  "ReadByCustomer": "2019-03-20T11:10:28.2436933+01:00",
-  "FirstReadByUser": "2009-01-03T11:10:28.2436933+01:00",
-  "Activate": "1996-02-19T11:10:28.2436933+01:00",
-  "ClosedAt": "2011-09-21T11:10:28.2436933+02:00",
-  "RepliedAt": "1999-02-17T11:10:28.2436933+01:00",
-  "AlertTimeout": "1996-08-02T11:10:28.2436933+02:00",
-  "Deadline": "1995-12-16T11:10:28.2436933+01:00",
+  "TicketId": 312,
+  "Title": "labore",
+  "CreatedAt": "2004-09-12T02:49:45.4997188+02:00",
+  "LastChanged": "2001-05-18T02:49:45.4997188+02:00",
+  "ReadByOwner": "2020-05-21T02:49:45.4997188+02:00",
+  "ReadByCustomer": "2020-12-30T02:49:45.4997188+01:00",
+  "FirstReadByOwner": "2012-08-01T02:49:45.4997188+02:00",
+  "FirstReadByUser": "2000-07-10T02:49:45.4997188+02:00",
+  "Activate": "1995-11-01T02:49:45.4997188+01:00",
+  "ClosedAt": "2013-08-08T02:49:45.4997188+02:00",
+  "RepliedAt": "2019-02-05T02:49:45.4997188+01:00",
+  "AlertTimeout": "2016-05-08T02:49:45.4997188+02:00",
+  "Deadline": "2009-01-25T02:49:45.4997188+01:00",
   "CreatedBy": null,
-  "Author": "dolores",
+  "Author": "consequatur",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -142,154 +152,155 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "voluptas",
-      "PersonId": 823,
-      "Mrmrs": "et",
-      "Firstname": "Gus",
-      "Lastname": "Yost",
-      "MiddleName": "Herman Inc and Sons",
-      "Title": "expedita",
-      "Description": "Streamlined composite functionalities",
-      "Email": "ernie.ondricka@stroman.biz",
-      "FullName": "Ronny Laverna Altenwerth V",
-      "DirectPhone": "(913)929-7734",
-      "FormalName": "Lehner, West and Altenwerth",
-      "CountryId": 346,
-      "ContactId": 191,
-      "ContactName": "Hermann, Hoeger and Breitenberg",
-      "Retired": 333,
-      "Rank": 635,
-      "ActiveInterests": 508,
+      "Position": "qui",
+      "PersonId": 479,
+      "Mrmrs": "inventore",
+      "Firstname": "Dane",
+      "Lastname": "Dooley",
+      "MiddleName": "Buckridge Group",
+      "Title": "et",
+      "Description": "Fully-configurable mission-critical firmware",
+      "Email": "evie_metz@cartwright.us",
+      "FullName": "Laurianne Stehr",
+      "DirectPhone": "(361)933-3007 x448",
+      "FormalName": "Jaskolski Inc and Sons",
+      "CountryId": 202,
+      "ContactId": 823,
+      "ContactName": "Brakus, Schroeder and Lemke",
+      "Retired": 977,
+      "Rank": 833,
+      "ActiveInterests": 701,
       "ContactDepartment": "",
-      "ContactCountryId": 771,
-      "ContactOrgNr": "1114697",
-      "FaxPhone": "1-416-085-9519",
-      "MobilePhone": "619-163-7989",
-      "ContactPhone": "444-689-5782 x7975",
-      "AssociateName": "Volkman, Kris and Romaguera",
-      "AssociateId": 452,
+      "ContactCountryId": 490,
+      "ContactOrgNr": "1434475",
+      "FaxPhone": "(112)332-2416 x0023",
+      "MobilePhone": "(650)703-1850 x750",
+      "ContactPhone": "879-494-6107",
+      "AssociateName": "Morissette-Cassin",
+      "AssociateId": 903,
       "UsePersonAddress": false,
-      "ContactFax": "ea",
-      "Kanafname": "a",
-      "Kanalname": "dolorem",
-      "Post1": "voluptates",
-      "Post2": "possimus",
-      "Post3": "rerum",
-      "EmailName": "danial.halvorson@kriscarroll.co.uk",
-      "ContactFullName": "Prof. Madeline Floyd Kreiger III",
-      "ActiveErpLinks": 108,
-      "TicketPriorityId": 576,
-      "SupportLanguageId": 55,
-      "SupportAssociateId": 527,
+      "ContactFax": "recusandae",
+      "Kanafname": "unde",
+      "Kanalname": "aut",
+      "Post1": "dolore",
+      "Post2": "ratione",
+      "Post3": "sit",
+      "EmailName": "darron.boyle@stehr.us",
+      "ContactFullName": "Eldon Crona",
+      "ActiveErpLinks": 827,
+      "TicketPriorityId": 35,
+      "SupportLanguageId": 474,
+      "SupportAssociateId": 593,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 316
+          "FieldLength": 489
         }
       }
     }
   ],
-  "AlertLevel": 199,
-  "ConnectId": 113,
+  "AlertLevel": 351,
+  "ConnectId": 558,
   "ReadStatus": "Green",
-  "TimeToReply": 730,
-  "RealTimeToReply": 643,
-  "TimeToClose": 10,
-  "RealTimeToClose": 788,
-  "TimeSpentInternally": 644,
-  "TimeSpentExternally": 95,
-  "TimeSpentQueue": 51,
-  "RealTimeSpentInternally": 779,
-  "RealTimeSpentExternally": 969,
-  "RealTimeSpentQueue": 87,
-  "HasAttachment": true,
-  "NumReplies": 241,
-  "NumMessages": 156,
-  "FromAddress": "quis",
+  "TimeToReply": 408,
+  "RealTimeToReply": 618,
+  "TimeToClose": 398,
+  "RealTimeToClose": 261,
+  "TimeSpentInternally": 11,
+  "TimeSpentExternally": 852,
+  "TimeSpentQueue": 662,
+  "RealTimeSpentInternally": 390,
+  "RealTimeSpentExternally": 513,
+  "RealTimeSpentQueue": 597,
+  "HasAttachment": false,
+  "NumReplies": 588,
+  "NumMessages": 97,
+  "FromAddress": "excepturi",
   "Messages": [
     {
-      "TicketMessageId": 989,
-      "CreatedAt": "2009-03-05T11:10:28.2486931+01:00",
+      "TicketMessageId": 616,
+      "CreatedAt": "2018-03-11T02:49:45.4997188+01:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "est",
-      "PersonId": 1002,
-      "PersonFullName": "Zetta Koepp",
-      "ContactId": 648,
-      "ContactName": "Jones-Sporer",
+      "Author": "aut",
+      "PersonId": 120,
+      "PersonFullName": "Juston Hartmann",
+      "ContactId": 416,
+      "ContactName": "Leuschke-DuBuque",
       "ContactDepartment": "",
-      "NumAttachments": 335,
-      "EmailHeader": "kristoffer_wilkinson@cassin.uk",
+      "NumAttachments": 192,
+      "EmailHeader": "dina@schultzdaniel.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "necessitatibus",
-      "Sentiment": 792,
-      "SentimentConfidence": 585,
-      "CreatedBy": 17,
+      "Language": "illum",
+      "Sentiment": 396,
+      "SentimentConfidence": 485,
+      "CreatedBy": 513,
+      "ChangedAt": "2020-06-27T02:49:45.4997188+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 600
+          "FieldLength": 843
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 287,
-      "Name": "Konopelski-Jewess",
-      "ToolTip": "Sunt voluptas consequatur aut incidunt.",
+      "Id": 303,
+      "Name": "Kemmer Inc and Sons",
+      "ToolTip": "Delectus magni delectus illo.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 522
+          "FieldType": "System.Int32",
+          "FieldLength": 256
         }
       }
     },
     {
-      "Id": 287,
-      "Name": "Konopelski-Jewess",
-      "ToolTip": "Sunt voluptas consequatur aut incidunt.",
+      "Id": 303,
+      "Name": "Kemmer Inc and Sons",
+      "ToolTip": "Delectus magni delectus illo.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 522
+          "FieldType": "System.Int32",
+          "FieldLength": 256
         }
       }
     }
   ],
-  "Language": "eligendi",
-  "Sentiment": 385,
-  "SentimentConfidence": 371,
-  "SuggestedCategoryId": 128,
+  "Language": "rem",
+  "Sentiment": 169,
+  "SentimentConfidence": 844,
+  "SuggestedCategoryId": 329,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 754,
-  "IconHint": "distinctio",
+  "OrigHumanCategoryId": 529,
+  "IconHint": "omnis",
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "aperiam",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
     "CustomFields1": "aut",
-    "CustomFields2": "magnam"
+    "CustomFields2": "laudantium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 155
     }
   }
 }

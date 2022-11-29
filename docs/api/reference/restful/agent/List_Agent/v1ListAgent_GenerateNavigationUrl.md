@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GenerateNavigationUrl
 
 This methods generates the navigation URL to be used to navigate to the panel
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This methods generates the navigation URL to be used to navigate to the panel
 ```http
 POST /api/v1/Agents/List/GenerateNavigationUrl?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/List/GenerateNavigationUrl?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-VisibleIn, WindowName
+VisibleIn, WindowName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | VisibleIn | string |  |
 | WindowName | string |  |
+
 
 ## Response: string
 
@@ -54,18 +62,19 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GenerateNavigationUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Rogahn-Turcotte"
+  "WindowName": "Mills Inc and Sons"
 }
 ```
 

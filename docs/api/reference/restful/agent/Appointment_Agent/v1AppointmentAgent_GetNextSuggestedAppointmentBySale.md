@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 
 Gets the next suggested appointment for a given sale (or rather a given sale's guide).
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the next suggested appointment for a given sale (or rather a given sale's g
 ```http
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId, CurrentAppointmentId, SkipCompleteCheck
+SaleId, CurrentAppointmentId, SkipCompleteCheck 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ SaleId, CurrentAppointmentId, SkipCompleteCheck
 | CurrentAppointmentId | int32 |  |
 | SkipCompleteCheck | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,9 +92,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 798,
-  "CurrentAppointmentId": 501,
-  "SkipCompleteCheck": true
+  "SaleId": 199,
+  "CurrentAppointmentId": 946,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -97,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 583,
-  "Deleted": 283,
-  "DaysFuture": 970,
-  "Tooltip": "culpa",
-  "Text": "et",
-  "TaskId": 10,
-  "SuggestedAppointmentId": 655,
-  "SaleTypeStageLinkId": 459,
-  "RegisteredAssociateId": 414,
-  "Rank": 723,
-  "ProjectTypeStatusLinkId": 925,
-  "Name": "Hettinger Inc and Sons",
-  "Duration": 107,
+  "AutoSuggest": 15,
+  "Deleted": 570,
+  "DaysFuture": 445,
+  "Tooltip": "unde",
+  "Text": "voluptatem",
+  "TaskId": 81,
+  "SuggestedAppointmentId": 498,
+  "SaleTypeStageLinkId": 154,
+  "RegisteredAssociateId": 867,
+  "Rank": 29,
+  "ProjectTypeStatusLinkId": 239,
+  "Name": "Schmitt-Gibson",
+  "Duration": 237,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 780
     }
   }
 }

@@ -11,6 +11,12 @@ GET /api/v1/List/DocumentTemplate/MDOItems
 
 Get the MDO list items for "DocTmpl" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=iure
+GET /api/v1/List/DocumentTemplate/MDOItems?query=omnis
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/DocumentTemplate/MDOItems?query=iure
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 834,
-    "Name": "Ullrich-Block",
-    "ToolTip": "Veniam doloremque impedit enim sint.",
+    "Id": 831,
+    "Name": "Strosin-Weimann",
+    "ToolTip": "Illum sapiente aut.",
     "Deleted": false,
-    "Rank": 390,
-    "Type": "assumenda",
+    "Rank": 806,
+    "Type": "inventore",
     "ChildItems": [
       {
-        "Id": 78,
-        "Name": "Larson Group",
-        "ToolTip": "Quaerat quas quam.",
+        "Id": 626,
+        "Name": "Bashirian LLC",
+        "ToolTip": "Nisi itaque.",
         "Deleted": false,
-        "Rank": 470,
-        "Type": "ea",
+        "Rank": 17,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iusto",
-        "ColorBlock": 396,
-        "ExtraInfo": "vel",
-        "StyleHint": "dignissimos",
-        "FullName": "Eliane Medhurst",
+        "IconHint": "autem",
+        "ColorBlock": 367,
+        "ExtraInfo": "ratione",
+        "StyleHint": "consectetur",
+        "FullName": "Alvah Hyatt DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 910
+            "FieldType": "System.String",
+            "FieldLength": 265
           }
         }
       }
     ],
-    "IconHint": "doloribus",
-    "ColorBlock": 993,
-    "ExtraInfo": "rem",
-    "StyleHint": "ducimus",
-    "FullName": "Ms. Kyla Hailee Legros",
+    "IconHint": "et",
+    "ColorBlock": 832,
+    "ExtraInfo": "accusantium",
+    "StyleHint": "quis",
+    "FullName": "Mr. Gia Berneice Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldType": "System.String",
+        "FieldLength": 547
       }
     }
   }

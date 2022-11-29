@@ -11,9 +11,15 @@ PUT /api/v1/SaleStakeholder/{id}
 
 Updates the existing SaleStakeholder
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SaleStakeholder id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing SaleStakeholder
 ```http
 PUT /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SaleStakeholder to be saved.
+The SaleStakeholder to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +72,8 @@ The SaleStakeholder to be saved.
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
 
-## Response
+
+## Response: 
 
 SaleStakeholder updated.
 
@@ -74,7 +82,7 @@ SaleStakeholder updated.
 | 200 | SaleStakeholder updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -107,29 +115,29 @@ Response body:
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Volkman, Rath and Kihn",
-  "Comment": "praesentium",
-  "StakeholderRoleId": 48,
-  "CountryId": 988,
-  "PersonId": 329,
-  "EmailDescription": "lorenzo_cartwright@schillerhermiston.ca",
-  "EmailId": 444,
-  "EmailAddress": "gwen.hamill@bauch.ca",
-  "PhoneId": 875,
-  "ContactName": "Balistreri-Stracke",
-  "ContactId": 583,
-  "SaleId": 955,
-  "Mrmrs": "enim",
-  "Firstname": "Morgan",
-  "MiddleName": "Heidenreich-Langosh",
-  "Lastname": "Hintz",
-  "SaleStakeholderId": 277,
-  "Rank": 41,
-  "Phone": "268.169.0451"
+  "StakeholderRoleName": "Murphy Group",
+  "Comment": "unde",
+  "StakeholderRoleId": 158,
+  "CountryId": 365,
+  "PersonId": 887,
+  "EmailDescription": "theodore_jewess@gerlachschneider.ca",
+  "EmailId": 482,
+  "EmailAddress": "hunter_gutkowski@rowe.ca",
+  "PhoneId": 650,
+  "ContactName": "Boyer-Ullrich",
+  "ContactId": 860,
+  "SaleId": 469,
+  "Mrmrs": "iusto",
+  "Firstname": "Malvina",
+  "MiddleName": "Davis Inc and Sons",
+  "Lastname": "Hagenes",
+  "SaleStakeholderId": 552,
+  "Rank": 121,
+  "Phone": "453-295-4587 x086"
 }
 ```
 
@@ -140,31 +148,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Boyer, Veum and Barrows",
-  "Comment": "nesciunt",
-  "StakeholderRoleId": 464,
-  "CountryId": 329,
-  "PersonId": 227,
-  "EmailDescription": "saige@greenholtschaefer.com",
-  "EmailId": 90,
-  "EmailAddress": "herminia@renner.biz",
-  "PhoneId": 600,
-  "ContactName": "Konopelski, Ratke and Shields",
-  "ContactId": 805,
-  "SaleId": 366,
-  "Mrmrs": "reiciendis",
-  "Firstname": "Mike",
-  "MiddleName": "Frami-Farrell",
-  "Lastname": "Reinger",
-  "SaleStakeholderId": 918,
-  "Rank": 197,
-  "Phone": "(182)252-2905 x8134",
+  "StakeholderRoleName": "Smith, Tremblay and Reilly",
+  "Comment": "ipsam",
+  "StakeholderRoleId": 961,
+  "CountryId": 367,
+  "PersonId": 857,
+  "EmailDescription": "eddie@metz.com",
+  "EmailId": 578,
+  "EmailAddress": "carolina@howe.name",
+  "PhoneId": 390,
+  "ContactName": "Heaney Group",
+  "ContactId": 88,
+  "SaleId": 942,
+  "Mrmrs": "voluptates",
+  "Firstname": "Jimmy",
+  "MiddleName": "Harvey, Bins and Dickens",
+  "Lastname": "West",
+  "SaleStakeholderId": 578,
+  "Rank": 720,
+  "Phone": "1-685-325-4929 x0402",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldType": "System.String",
+      "FieldLength": 968
     }
   },
   "_Links": {

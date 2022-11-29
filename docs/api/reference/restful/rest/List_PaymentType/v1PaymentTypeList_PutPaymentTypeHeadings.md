@@ -11,7 +11,14 @@ PUT /api/v1/List/PaymentType/Headings
 
 Saves headings for the PaymentType list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -72,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 253,
-    "Name": "Morissette-Murazik",
-    "Tooltip": "ut",
+    "HeadingId": 212,
+    "Name": "Murphy, Dooley and Botsford",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 94,
-    "UdListDefinitionId": 155
+    "Rank": 803,
+    "UdListDefinitionId": 12
   },
   {
-    "HeadingId": 253,
-    "Name": "Morissette-Murazik",
-    "Tooltip": "ut",
+    "HeadingId": 212,
+    "Name": "Murphy, Dooley and Botsford",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 94,
-    "UdListDefinitionId": 155
+    "Rank": 803,
+    "UdListDefinitionId": 12
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 687,
-    "Name": "Johnson, Gleason and Reichert",
-    "Tooltip": "excepturi",
-    "Deleted": false,
-    "Rank": 141,
-    "UdListDefinitionId": 770,
+    "HeadingId": 476,
+    "Name": "Orn-Eichmann",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "Rank": 202,
+    "UdListDefinitionId": 290,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 303
+        "FieldLength": 482
       }
     }
   }

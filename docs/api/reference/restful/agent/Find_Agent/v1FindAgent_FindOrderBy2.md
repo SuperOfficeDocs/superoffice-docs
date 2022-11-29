@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/FindOrderBy2
 
 Execute a Find operation and return a page of results.
 
+
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters. The columns of the result are calculated based on the restriction. The orderby parameter is used for sorting the results.&lt;para/&gt;The other variants of the Find method allow you greater control over the individual aspects of the process.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The criteria for the Find are fetched from the restriction storage provider acco
 ```http
 POST /api/v1/Agents/Find/FindOrderBy2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/FindOrderBy2?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, PageSize, PageNumber, OrderBy
+StorageType, ProviderName, StorageKey, PageSize, PageNumber, OrderBy 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,8 @@ StorageType, ProviderName, StorageKey, PageSize, PageNumber, OrderBy
 | PageNumber | int32 |  |
 | OrderBy | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -58,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,12 +86,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sint",
-  "ProviderName": "Bailey Inc and Sons",
-  "StorageKey": "quos",
-  "PageSize": 273,
-  "PageNumber": 685,
-  "OrderBy": "reprehenderit"
+  "StorageType": "nam",
+  "ProviderName": "Spinka, Mills and Waters",
+  "StorageKey": "dolorum",
+  "PageSize": 808,
+  "PageNumber": 726,
+  "OrderBy": "incidunt"
 }
 ```
 
@@ -96,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Crist-Hyatt",
-      "DisplayTooltip": "ut",
-      "DisplayType": "sapiente",
+      "DisplayName": "Kulas Group",
+      "DisplayTooltip": "qui",
+      "DisplayType": "est",
       "CanOrderBy": false,
-      "Name": "Rodriguez, Von and Lowe",
-      "CanRestrictBy": false,
-      "RestrictionType": "quia",
-      "RestrictionListName": "Gibson Inc and Sons",
+      "Name": "Fritsch Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "et",
+      "RestrictionListName": "Fisher, Hilll and Reilly",
       "IsVisible": false,
-      "ExtraInfo": "veniam",
-      "Width": "consectetur",
-      "IconHint": "vitae",
-      "HeadingIconHint": "unde"
+      "ExtraInfo": "quae",
+      "Width": "quaerat",
+      "IconHint": "totam",
+      "HeadingIconHint": "quaerat"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schinner Inc and Sons",
-      "PrimaryKey": 276,
+      "EntityName": "Farrell-Schuppe",
+      "PrimaryKey": 271,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "consequatur",
-          "TooltipHint": "quia",
-          "LinkHint": "porro"
+          "DisplayValue": "et",
+          "TooltipHint": "eveniet",
+          "LinkHint": "consectetur"
         }
       },
-      "LinkHint": "veritatis",
-      "StyleHint": "et",
+      "LinkHint": "minima",
+      "StyleHint": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 503
+          "FieldLength": 303
         }
       }
     }
   ],
-  "RowCount": 255,
+  "RowCount": 775,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 613
     }
   }
 }

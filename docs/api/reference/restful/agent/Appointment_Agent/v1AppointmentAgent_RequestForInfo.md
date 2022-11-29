@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/RequestForInfo
 
 Submits a request for information.
 
+
 The request is added to the task list of the user that is responsible for this contact. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person). If more than one contact is found a list of contacts is returned.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The request is added to the task list of the user that is responsible for this c
 ```http
 POST /api/v1/Agents/Appointment/RequestForInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/RequestForInfo?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIdForNewContact, Channel, Regarding, ContactName, PersonFirstname, PersonLastname, EmailAddress, PhoneNumber
+AssociateIdForNewContact, Channel, Regarding, ContactName, PersonFirstname, PersonLastname, EmailAddress, PhoneNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,8 @@ AssociateIdForNewContact, Channel, Regarding, ContactName, PersonFirstname, Pers
 | EmailAddress | string |  |
 | PhoneNumber | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -60,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,18 +84,18 @@ Response body:
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 937,
-  "Channel": "non",
-  "Regarding": "est",
-  "ContactName": "Quigley, Gulgowski and Trantow",
-  "PersonFirstname": "Tianna",
-  "PersonLastname": "Lakin",
-  "EmailAddress": "houston@emmerichlind.uk",
-  "PhoneNumber": "1099885"
+  "AssociateIdForNewContact": 40,
+  "Channel": "ea",
+  "Regarding": "quaerat",
+  "ContactName": "Schiller LLC",
+  "PersonFirstname": "Daisha",
+  "PersonLastname": "Stoltenberg",
+  "EmailAddress": "hugh.okuneva@fisher.ca",
+  "PhoneNumber": "968183"
 }
 ```
 
@@ -100,34 +108,34 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 856,
-      "Name": "Wisozk Group",
-      "OrgNr": "579193",
+      "ContactId": 779,
+      "Name": "Becker-Auer",
+      "OrgNr": "899058",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "assumenda",
-      "DirectPhone": "1-273-197-9446 x78225",
-      "AssociateId": 773,
-      "CountryId": 304,
-      "EmailAddress": "cade.crooks@reynolds.info",
-      "Kananame": "aut",
-      "EmailAddressName": "ena.jast@kreiger.co.uk",
+      "City": "voluptas",
+      "DirectPhone": "(779)338-9228 x1583",
+      "AssociateId": 626,
+      "CountryId": 110,
+      "EmailAddress": "jonatan.yost@skiles.us",
+      "Kananame": "eligendi",
+      "EmailAddressName": "vickie.pacocha@mrazoconner.biz",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Mr. Alivia Gutkowski III",
+      "AssociateFullName": "Ms. Giovanni Schumm I",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "sit",
-      "FullName": "Anthony Wyman",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 701,
+      "FormattedAddress": "quasi",
+      "FullName": "Reymundo Langosh",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 11,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 590
+          "FieldType": "System.Int32",
+          "FieldLength": 905
         }
       }
     }
@@ -138,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 938
+      "FieldType": "System.Int32",
+      "FieldLength": 290
     }
   }
 }

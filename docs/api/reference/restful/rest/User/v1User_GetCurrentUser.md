@@ -11,7 +11,14 @@ GET /api/v1/User/current
 
 Gets the currently logged in user's information: username, personal name, credentials, licenses.
 
+
 Blocked in Online for safety. Calls the User agent service GetUser.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Blocked in Online for safety. Calls the User agent service GetUser.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +80,7 @@ Response body:
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 293,
-  "Name": "Lockman LLC",
-  "Rank": 673,
-  "Tooltip": "minima",
+  "AssociateId": 742,
+  "Name": "Boyle Inc and Sons",
+  "Rank": 577,
+  "Tooltip": "fugiat",
   "LicenseOwners": [
     {
-      "Name": "Christiansen-Thiel",
-      "Description": "User-friendly content-based process improvement",
+      "Name": "Leuschke Group",
+      "Description": "Persevering impactful firmware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -103,13 +111,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 89
         }
       }
     },
     {
-      "Name": "Christiansen-Thiel",
-      "Description": "User-friendly content-based process improvement",
+      "Name": "Leuschke Group",
+      "Description": "Persevering impactful firmware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 89
         }
       }
     }
@@ -132,110 +140,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "et",
-      "Tooltip": "magni",
-      "Id": 733,
-      "Rank": 185,
+      "Value": "accusamus",
+      "Tooltip": "consequatur",
+      "Id": 513,
+      "Rank": 696,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 628
+          "FieldLength": 607
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2012-11-12T11:10:53.8612155+01:00",
-  "Lastlogout": "2004-03-05T11:10:53.8612155+01:00",
-  "EjUserId": 470,
-  "RequestSignature": "enim",
+  "Lastlogin": "2012-10-18T02:49:51.844034+02:00",
+  "Lastlogout": "2001-12-08T02:49:51.844034+01:00",
+  "EjUserId": 188,
+  "RequestSignature": "dignissimos",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "non",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 45
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "non",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 45
-        }
-      }
-    }
-  ],
-  "UserName": "Grady-Hauck",
-  "TicketCategories": [
-    {
-      "Id": 647,
-      "Name": "Schulist Group",
-      "ToolTip": "Voluptatem quis nemo consectetur itaque temporibus voluptates.",
-      "Deleted": false,
-      "Rank": 713,
-      "Type": "nam",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "qui",
-      "ColorBlock": 74,
-      "ExtraInfo": "nesciunt",
-      "StyleHint": "ipsa",
-      "FullName": "Mrs. Kim Cicero Ortiz",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 788
-        }
-      }
-    }
-  ],
-  "NickName": "Kulas, Crooks and Stamm",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "dicta"
-  },
-  "CustomFields": {
-    "CustomFields1": "aperiam",
-    "CustomFields2": "nemo"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Runte-Bruen",
-      "DisplayName": "Mraz LLC",
-      "Description": "Decentralized foreground orchestration",
-      "ToolTip": "Sapiente et id repellat tempora ea praesentium.",
-      "Actions": "Implicit",
-      "ActionData": "impedit",
+      "Value": "ad",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 510
+          "FieldLength": 313
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ad",
+      "DisplayValue": "molestias",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 313
+        }
+      }
+    }
+  ],
+  "UserName": "Hodkiewicz LLC",
+  "TicketCategories": [
+    {
+      "Id": 26,
+      "Name": "Langosh-Hoppe",
+      "ToolTip": "Dignissimos aliquid ut fugit necessitatibus dolorem eius nesciunt.",
+      "Deleted": false,
+      "Rank": 229,
+      "Type": "consequatur",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "qui",
+      "ColorBlock": 124,
+      "ExtraInfo": "recusandae",
+      "StyleHint": "officia",
+      "FullName": "Milton Johnston",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 408
+        }
+      }
+    }
+  ],
+  "NickName": "O'Reilly Group",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "qui",
+    "ExtraFields2": "corrupti"
+  },
+  "CustomFields": {
+    "CustomFields1": "est",
+    "CustomFields2": "officia"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kulas, Aufderhar and Jacobs",
+      "DisplayName": "Bosco, Hettinger and Watsica",
+      "Description": "De-engineered system-worthy structure",
+      "ToolTip": "Consequatur possimus dolorum beatae quo.",
+      "Actions": "Implicit",
+      "ActionData": "ratione",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 9
         }
       }
     }
@@ -245,7 +253,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 415
     }
   }
 }

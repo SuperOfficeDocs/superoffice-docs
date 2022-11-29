@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 
 Update User groups that this list item is visible for
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update User groups that this list item is visible for
 ```http
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, ListItemId, UserGroups
+UdListDefinitionName, ListItemId, UserGroups 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionName | string |  |
 | ListItemId | int32 |  |
 | UserGroups | array |  |
+
 
 ## Response: array
 
@@ -81,32 +89,32 @@ Response body: array
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Emmerich-Monahan",
-  "ListItemId": 596,
+  "UdListDefinitionName": "Jakubowski-Davis",
+  "ListItemId": 897,
   "UserGroups": [
     {
-      "Id": 757,
-      "Name": "Murray, Johns and Schuppe",
-      "ToolTip": "Eos animi magni iusto.",
+      "Id": 753,
+      "Name": "Doyle LLC",
+      "ToolTip": "Similique qui architecto id recusandae.",
       "Deleted": false,
-      "Rank": 777,
-      "Type": "quia",
-      "ColorBlock": 461,
-      "IconHint": "maxime",
+      "Rank": 608,
+      "Type": "ut",
+      "ColorBlock": 693,
+      "IconHint": "rem",
       "Selected": false,
-      "LastChanged": "2003-03-22T11:10:27.1684477+01:00",
+      "LastChanged": "2018-03-24T02:49:44.6235457+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatibus",
-      "StyleHint": "voluptatibus",
-      "Hidden": false,
-      "FullName": "Amani Haag"
+      "ExtraInfo": "aut",
+      "StyleHint": "quia",
+      "Hidden": true,
+      "FullName": "Miss Alfonzo Lakin Jr."
     }
   ]
 }
@@ -120,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Name": "Weissnat-Reichel",
-    "ToolTip": "Nostrum quidem excepturi minima.",
+    "Id": 944,
+    "Name": "Pagac-Stoltenberg",
+    "ToolTip": "Suscipit corrupti sunt.",
     "Deleted": true,
-    "Rank": 985,
-    "Type": "voluptatum",
-    "ColorBlock": 802,
-    "IconHint": "voluptates",
+    "Rank": 967,
+    "Type": "voluptatibus",
+    "ColorBlock": 168,
+    "IconHint": "occaecati",
     "Selected": true,
-    "LastChanged": "2012-09-27T11:10:27.1694468+02:00",
+    "LastChanged": "1995-10-21T02:49:44.6235457+02:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Cormier Inc and Sons",
-        "ToolTip": "Officiis modi impedit.",
+        "Id": 832,
+        "Name": "Cremin, O'Kon and Herzog",
+        "ToolTip": "Distinctio est.",
         "Deleted": false,
-        "Rank": 209,
-        "Type": "consectetur",
-        "ColorBlock": 608,
-        "IconHint": "sequi",
+        "Rank": 68,
+        "Type": "perferendis",
+        "ColorBlock": 203,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "1995-05-02T11:10:27.1694468+02:00",
+        "LastChanged": "2012-07-21T02:49:44.6235457+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eaque",
-        "Hidden": false,
-        "FullName": "Louisa Kuhic",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Therese Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 480
+            "FieldLength": 243
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "laboriosam",
-    "Hidden": true,
-    "FullName": "Ms. Kasandra Gracie Simonis",
+    "ExtraInfo": "soluta",
+    "StyleHint": "cumque",
+    "Hidden": false,
+    "FullName": "Sabrina Gleason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldType": "System.Int32",
+        "FieldLength": 726
       }
     }
   }

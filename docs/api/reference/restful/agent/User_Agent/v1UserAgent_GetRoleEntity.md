@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetRoleEntity
 
 Gets a RoleEntity object.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a RoleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=860
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=810
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,7 +47,8 @@ POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 775,
-  "Name": "Feil, Yost and Bayer",
-  "Tooltip": "atque",
+  "RoleId": 843,
+  "Name": "Dickinson, Runolfsson and Funk",
+  "Tooltip": "quos",
   "RoleType": "Anonymous",
-  "Deleted": 938,
-  "Rank": 71,
-  "Created": "2002-06-03T11:10:28.383207+02:00",
-  "UseCategories": 881,
+  "Deleted": 266,
+  "Rank": 959,
+  "Created": "2012-09-09T02:49:45.6403441+02:00",
+  "UseCategories": 96,
   "CreatedBy": null,
-  "Updated": "1999-05-22T11:10:28.383207+02:00",
+  "Updated": "2010-03-29T02:49:45.6403441+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldLength": 274
     }
   }
 }

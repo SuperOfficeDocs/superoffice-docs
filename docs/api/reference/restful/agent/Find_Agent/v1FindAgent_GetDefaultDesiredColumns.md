@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 
 Calculate the default desired columns, i.
 
+
 e., the result columns for a given search. The search is defined by a storage type, provider name and storage key, which are used to fetch the corresponding restrictions from the database (in the same way as Find does). If you want to specify the restriction directly, use the GetDefaultDesiredColumnsFromRestrictions method instead. This is the algorithm that is used by the Find service method.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ e., the result columns for a given search. The search is defined by a storage ty
 ```http
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Find/GetDefaultDesiredColumns?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey
+StorageType, ProviderName, StorageKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StorageType | string |  |
 | ProviderName | string |  |
 | StorageKey | string |  |
+
 
 ## Response: array
 
@@ -83,9 +91,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "tempore",
-  "ProviderName": "Daniel Group",
-  "StorageKey": "vel"
+  "StorageType": "aut",
+  "ProviderName": "Schaefer Group",
+  "StorageKey": "enim"
 }
 ```
 
@@ -97,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Toy, Armstrong and Hermann",
-    "DisplayTooltip": "consectetur",
-    "DisplayType": "provident",
+    "DisplayName": "Willms Group",
+    "DisplayTooltip": "nemo",
+    "DisplayType": "corrupti",
     "CanOrderBy": false,
-    "Name": "Maggio Inc and Sons",
-    "CanRestrictBy": true,
-    "RestrictionType": "omnis",
-    "RestrictionListName": "Rogahn LLC",
-    "IsVisible": true,
-    "ExtraInfo": "laborum",
-    "Width": "ut",
-    "IconHint": "qui",
-    "HeadingIconHint": "voluptatem"
+    "Name": "Aufderhar Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "voluptas",
+    "RestrictionListName": "Reichel-Trantow",
+    "IsVisible": false,
+    "ExtraInfo": "aut",
+    "Width": "at",
+    "IconHint": "cupiditate",
+    "HeadingIconHint": "qui"
   }
 ]
 ```

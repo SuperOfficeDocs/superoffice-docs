@@ -9,6 +9,14 @@ uid: v1ConfigurationAgent_GetEMarketingUrl
 POST /api/v1/Agents/Configuration/GetEMarketingUrl
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Configuration/GetEMarketingUrl
 ```http
 POST /api/v1/Agents/Configuration/GetEMarketingUrl?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,13 +42,14 @@ POST /api/v1/Agents/Configuration/GetEMarketingUrl?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Language
+Language 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Language | string |  |
+
 
 ## Response: string
 
@@ -51,6 +61,7 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
@@ -61,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "quasi"
+  "Language": "amet"
 }
 ```
 

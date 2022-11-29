@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetErpConnectionConfigFields
 
 Returns the config fields for the connection.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns the config fields for the connection.
 ```http
 POST /api/v1/Agents/ErpSync/GetErpConnectionConfigFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/ErpSync/GetErpConnectionConfigFields?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId
+ErpConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
+
 
 ## Response: object
 
@@ -55,17 +65,18 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetErpConnectionConfigFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 280
+  "ErpConnectionId": 395
 }
 ```
 
@@ -76,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nihil",
-  "2": "est"
+  "1": "rem",
+  "2": "cupiditate"
 }
 ```

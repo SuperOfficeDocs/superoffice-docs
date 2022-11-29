@@ -11,9 +11,17 @@ POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 
 Set default values into a new Webhook.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +69,7 @@ Response body:
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 469,
-  "Name": "Jerde-Murazik",
+  "WebhookId": 603,
+  "Name": "Bergnaum, Bechtelar and Bauch",
   "Events": [
-    "quibusdam",
-    "adipisci"
+    "optio",
+    "natus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "aut",
   "State": "Active",
   "Type": "qui",
   "Headers": {
-    "Headers1": "autem",
-    "Headers2": "soluta"
+    "Headers1": "veritatis",
+    "Headers2": "qui"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2006-02-05T11:10:28.4752086+01:00",
+  "Registered": "2012-11-06T02:49:45.7184704+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2013-03-10T11:10:28.4752086+01:00",
+  "Updated": "2021-08-08T02:49:45.7184704+02:00",
   "UpdatedAssociate": null
 }
 ```

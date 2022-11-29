@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSalesFromContact
 
 Returns all sales for the contact provided.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all sales for the contact provided.
 ```http
 POST /api/v1/Agents/Sale/GetSalesFromContact?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Sale/GetSalesFromContact?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, OnlyOpenSales
+ContactId, OnlyOpenSales 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 | OnlyOpenSales | bool |  |
+
 
 ## Response: array
 
@@ -94,8 +102,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 885,
-  "OnlyOpenSales": true
+  "ContactId": 661,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -107,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Haley, Schamberger and Miller",
-    "SaleDate": "2017-01-05T11:10:27.8570076+01:00",
-    "SaleId": 903,
-    "Probability": 24,
-    "Title": "asperiores",
-    "Amount": 10818.568,
-    "Currency": "ut",
-    "ProjectName": "Reinger-Mueller",
-    "AssociateFullName": "Shanny Luettgen",
-    "Description": "Persevering next generation challenge",
+    "ContactName": "Lockman-Lockman",
+    "SaleDate": "2005-03-29T02:49:45.155965+02:00",
+    "SaleId": 295,
+    "Probability": 901,
+    "Title": "modi",
+    "Amount": 15616.722,
+    "Currency": "similique",
+    "ProjectName": "Metz, Hermiston and Bednar",
+    "AssociateFullName": "Prof. Luther Zemlak Sr.",
+    "Description": "Mandatory bottom-line implementation",
     "Status": "Lost",
-    "WeightedAmount": 19440.202,
-    "ProjectId": 923,
-    "EarningPercent": 21574.456,
-    "Earning": 22784.18,
-    "ContactId": 414,
-    "AssociateId": 46,
-    "PersonId": 324,
-    "SaleTypeId": 804,
-    "SaleTypeName": "Brekke-Bogisich",
-    "PersonFullName": "Briana Wilkinson",
+    "WeightedAmount": 28757.584,
+    "ProjectId": 577,
+    "EarningPercent": 1319.414,
+    "Earning": 6619.008,
+    "ContactId": 597,
+    "AssociateId": 614,
+    "PersonId": 33,
+    "SaleTypeId": 932,
+    "SaleTypeName": "Wiza-Osinski",
+    "PersonFullName": "Mr. Cara Witting MD",
     "Completed": "Completed",
-    "ActiveErpLinks": 479,
-    "NextDueDate": "2012-06-06T11:10:27.858011+02:00",
-    "Number": "953853",
+    "ActiveErpLinks": 187,
+    "NextDueDate": "2002-06-07T02:49:45.155965+02:00",
+    "Number": "1118368",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 428
       }
     }
   }

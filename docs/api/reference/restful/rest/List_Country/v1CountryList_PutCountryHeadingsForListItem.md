@@ -11,11 +11,18 @@ PUT /api/v1/List/Country/Items/{itemId}/Headings
 
 Saves headings for the Country list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 301,
-    "Name": "Douglas Inc and Sons",
-    "ToolTip": "Cupiditate provident tenetur id.",
+    "Id": 731,
+    "Name": "Brown Group",
+    "ToolTip": "Earum iusto voluptas rerum error facilis dolorem.",
     "Deleted": true,
-    "Rank": 202,
-    "Type": "eaque",
-    "ColorBlock": 468,
-    "IconHint": "adipisci",
+    "Rank": 54,
+    "Type": "placeat",
+    "ColorBlock": 883,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2007-08-14T11:10:54.0221855+02:00",
+    "LastChanged": "2004-07-01T02:49:52.1721908+02:00",
     "ChildItems": [
       {
-        "Id": 526,
-        "Name": "Kuhic, Johnson and Crist",
-        "ToolTip": "Sapiente asperiores porro totam nostrum.",
+        "Id": 628,
+        "Name": "Hagenes Group",
+        "ToolTip": "Dicta unde et ullam quod esse.",
         "Deleted": false,
-        "Rank": 98,
-        "Type": "quo",
-        "ColorBlock": 799,
-        "IconHint": "maiores",
+        "Rank": 745,
+        "Type": "rerum",
+        "ColorBlock": 82,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2007-11-03T11:10:54.0221855+01:00",
+        "LastChanged": "2022-03-14T02:49:52.1721908+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "ut",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Elsie McClure"
+        "FullName": "Rene Koepp"
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "omnis",
+    "ExtraInfo": "sint",
+    "StyleHint": "quasi",
     "Hidden": true,
-    "FullName": "Miss Cayla Sherwood Schimmel"
+    "FullName": "Talia Witting"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 572,
-    "Name": "Heathcote LLC",
-    "ToolTip": "Perspiciatis veniam rerum a fugit.",
-    "Deleted": true,
-    "Rank": 712,
-    "Type": "quia",
-    "ColorBlock": 297,
-    "IconHint": "in",
+    "Id": 432,
+    "Name": "Weimann-Daugherty",
+    "ToolTip": "Asperiores vel accusamus cupiditate iure.",
+    "Deleted": false,
+    "Rank": 604,
+    "Type": "autem",
+    "ColorBlock": 949,
+    "IconHint": "voluptates",
     "Selected": true,
-    "LastChanged": "2003-12-25T11:10:54.0241851+01:00",
+    "LastChanged": "1997-06-15T02:49:52.1721908+02:00",
     "ChildItems": [
       {
-        "Id": 391,
-        "Name": "Hirthe-Kuhlman",
-        "ToolTip": "Dicta fugiat temporibus aut molestiae.",
-        "Deleted": true,
-        "Rank": 721,
-        "Type": "ducimus",
-        "ColorBlock": 383,
-        "IconHint": "mollitia",
+        "Id": 505,
+        "Name": "Stracke-Wintheiser",
+        "ToolTip": "Temporibus asperiores non possimus sed molestiae alias.",
+        "Deleted": false,
+        "Rank": 547,
+        "Type": "laudantium",
+        "ColorBlock": 945,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "1998-12-12T11:10:54.0241851+01:00",
+        "LastChanged": "1996-06-24T02:49:52.1721908+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "consequuntur",
+        "ExtraInfo": "placeat",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Elena Sanford Sr.",
+        "FullName": "Ahmed Rau III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldLength": 967
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "nihil",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Armand Schmeler",
+    "FullName": "Litzy Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 332
       }
     }
   }

@@ -11,11 +11,18 @@ GET /api/v1/Contact/CustomField/{fieldName}
 
 Custom field meta-data (published user defined + extra fields) on ContactEntity.
 
+
 Excludes standard fields.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | fieldName | string | The name of the custom field to return: 'x_foo' or 'SuperOffice:3' **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +70,7 @@ Response body:
 GET /api/v1/Contact/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Feest-Lockman",
-  "DisplayName": "Bartell-Doyle",
-  "Description": "Cross-platform web-enabled application",
-  "ShortLabel": "qui",
+  "FieldName": "Cummerata Inc and Sons",
+  "DisplayName": "Shanahan, Morissette and D'Amore",
+  "Description": "Secured non-volatile adapter",
+  "ShortLabel": "incidunt",
   "HideLabel": true,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": true,
+  "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 737,
-  "TemplateVariableName": "Haag, McGlynn and Swaniawski"
+  "Rank": 597,
+  "TemplateVariableName": "Feil, Rutherford and Gorczany"
 }
 ```

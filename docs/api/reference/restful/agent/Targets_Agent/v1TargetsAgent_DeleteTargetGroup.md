@@ -11,6 +11,12 @@ POST /api/v1/Agents/Targets/DeleteTargetGroup
 
 Deletes the TargetGroup
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,8 +24,9 @@ Deletes the TargetGroup
 | TargetGroupId | int32 | **Required** The id of the TargetGroup to be deleted. |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetGroup?TargetGroupId=431
+POST /api/v1/Agents/Targets/DeleteTargetGroup?TargetGroupId=287
 ```
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ POST /api/v1/Agents/Targets/DeleteTargetGroup?TargetGroupId=431
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -38,7 +46,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -46,7 +55,7 @@ Response body:
 POST /api/v1/Agents/Targets/DeleteTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

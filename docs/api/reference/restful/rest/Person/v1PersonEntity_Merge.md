@@ -11,12 +11,18 @@ POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}
 
 Merge two persons.
 
+
 The destination person will remain. You must specify the date after which activities will be moved along with the person.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | sourcePersonId | int32 | The identifier for the person which will be merged into the destination person. The source person is deleted/marked retired after the merge. **Required** |
 | destinationPersonId | int32 | The identifier for the person which will remain after the merge. The target person is updated. **Required** |
+
 
 ## Query String Parameters
 
@@ -27,10 +33,11 @@ The destination person will remain. You must specify the date after which activi
 | replaceEmptyFieldsOnDestination | bool |  If true, empty fields on destination will be replaced by values from source. |
 
 ```http
-POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?moveAfterDate=05/28/2005 11:10:55
-POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?deleteSource=False
+POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?moveAfterDate=05/09/2004 02:49:52
+POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?deleteSource=True
 POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?replaceEmptyFieldsOnDestination=True
 ```
+
 
 ## Request Headers
 
@@ -41,7 +48,8 @@ POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?replaceEmptyF
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -49,7 +57,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -57,7 +66,7 @@ Response body:
 POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

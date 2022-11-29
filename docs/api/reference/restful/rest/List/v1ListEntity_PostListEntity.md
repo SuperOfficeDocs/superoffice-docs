@@ -11,7 +11,13 @@ POST /api/v1/List
 
 Creates a new ListEntity
 
+
 Calls the List agent service SaveListEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the List agent service SaveListEntity.
 ```http
 POST /api/v1/List?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/List?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ListEntity to be saved.
+The ListEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +61,8 @@ The ListEntity to be saved.
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -62,7 +70,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,19 +94,19 @@ Response body:
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 24,
-  "Name": "Marvin Group",
-  "Tooltip": "et",
+  "Id": 272,
+  "Name": "Collier-Shields",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 130,
+  "Rank": 418,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -110,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 927,
-  "Name": "Halvorson-Mueller",
-  "Tooltip": "ut",
+  "Id": 120,
+  "Name": "Rice Inc and Sons",
+  "Tooltip": "cum",
   "Deleted": false,
-  "Rank": 243,
+  "Rank": 401,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "velit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldLength": 280
     }
   },
   "_Links": {

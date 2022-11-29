@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 
 Method that returns a specified number of appointments from a list of appointment task types within a time range.
 
+
 The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the person specified.  Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskIds
+PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,6 +56,7 @@ PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskIds
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskIds | array |  |
+
 
 ## Response: array
 
@@ -124,14 +132,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 392,
-  "IncludeProjectAppointments": false,
-  "StartTime": "1999-03-07T11:10:25.4155237+01:00",
-  "EndTime": "2020-07-29T11:10:25.4155237+02:00",
-  "Count": 711,
+  "PersonId": 549,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2017-03-08T02:49:43.1992469+01:00",
+  "EndTime": "2022-01-04T02:49:43.1992469+01:00",
+  "Count": 4,
   "TaskIds": [
-    881,
-    123
+    123,
+    102
   ]
 }
 ```
@@ -144,61 +152,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 808,
-    "StartDate": "2013-01-12T11:10:25.4165639+01:00",
-    "EndDate": "2002-01-24T11:10:25.4165639+01:00",
+    "AppointmentId": 459,
+    "StartDate": "2010-04-23T02:49:43.2148724+02:00",
+    "EndDate": "2007-08-04T02:49:43.2148724+02:00",
     "Type": "BookingForChecklist",
-    "Task": "architecto",
-    "AssociateFullName": "Jalyn Pouros",
-    "ContactName": "Runolfsdottir-Corwin",
-    "Description": "Public-key encompassing function",
-    "PersonFullName": "Danika Ebert",
-    "PersonId": 398,
-    "ContactId": 70,
-    "ProjectId": 358,
-    "ProjectName": "Trantow Group",
-    "IsPublished": false,
-    "AssociateId": 162,
-    "ColorIndex": 572,
-    "IsFree": true,
+    "Task": "eius",
+    "AssociateFullName": "Houston Greenfelder",
+    "ContactName": "Bode, Larkin and Zieme",
+    "Description": "Quality-focused mission-critical protocol",
+    "PersonFullName": "Rhiannon Quinton Crooks II",
+    "PersonId": 677,
+    "ContactId": 716,
+    "ProjectId": 111,
+    "ProjectName": "Padberg LLC",
+    "IsPublished": true,
+    "AssociateId": 641,
+    "ColorIndex": 856,
+    "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 716,
-    "PriorityName": "Robel, Ullrich and Torp",
+    "PriorityId": 81,
+    "PriorityName": "O'Keefe-Gutkowski",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2011-11-15T11:10:25.4175587+01:00",
+    "ActiveDate": "2001-10-26T02:49:43.2148724+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-01-20T11:10:25.4175587+01:00",
-    "RecurringEndDate": "1996-02-01T11:10:25.4175587+01:00",
-    "MotherId": 322,
-    "AssignedBy": 519,
-    "AssignedByFullName": "Dr. Mallory Stiedemann Jr.",
+    "RecurringStartDate": "2010-06-01T02:49:43.2148724+02:00",
+    "RecurringEndDate": "2017-02-01T02:49:43.2148724+01:00",
+    "MotherId": 790,
+    "AssignedBy": 333,
+    "AssignedByFullName": "Dr. Maritza Purdy MD",
     "RejectReason": "",
-    "Location": "voluptas",
-    "AlarmLeadTime": "quae",
-    "SaleId": 151,
-    "SaleName": "Donnelly, Kuhic and Durgan",
-    "AssociateName": "Fisher, Eichmann and Rath",
-    "CreatedDate": "2006-12-30T11:10:25.4175587+01:00",
-    "CreatedBy": "voluptatem",
-    "CreatedByFullName": "Willis Baumbach",
-    "CreatedByAssociateId": 183,
+    "Location": "dolor",
+    "AlarmLeadTime": "vero",
+    "SaleId": 362,
+    "SaleName": "Lehner LLC",
+    "AssociateName": "Schinner-Carter",
+    "CreatedDate": "2007-05-07T02:49:43.2148724+02:00",
+    "CreatedBy": "fuga",
+    "CreatedByFullName": "Haley Kerluke",
+    "CreatedByAssociateId": 590,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldType": "System.String",
+        "FieldLength": 143
       }
     }
   }

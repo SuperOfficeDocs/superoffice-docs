@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetListWithRestriction
 
 Method to get a MDO list with restrictions.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method to get a MDO list with restrictions.
 ```http
 POST /api/v1/Agents/MDO/GetListWithRestriction?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/MDO/GetListWithRestriction?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, AdditionalInfo, SearchValue
+Name, AdditionalInfo, SearchValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | AdditionalInfo | string |  |
 | SearchValue | string |  |
+
 
 ## Response: array
 
@@ -78,13 +86,13 @@ Response body: array
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Herzog, Homenick and Durgan",
-  "AdditionalInfo": "quia",
-  "SearchValue": "accusantium"
+  "Name": "Wiegand, Kiehn and Koss",
+  "AdditionalInfo": "voluptas",
+  "SearchValue": "perferendis"
 }
 ```
 
@@ -96,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 680,
-    "Name": "Barrows-Shields",
-    "ToolTip": "Sed ad tempora corrupti possimus.",
+    "Id": 338,
+    "Name": "Price LLC",
+    "ToolTip": "Debitis dolorum qui inventore et ipsum quo.",
     "Deleted": false,
-    "Rank": 56,
-    "Type": "dolorum",
+    "Rank": 35,
+    "Type": "magnam",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Lebsack LLC",
-        "ToolTip": "Dolor nihil aliquam delectus nostrum cum ad.",
+        "Id": 372,
+        "Name": "Jacobi, Boyer and Beier",
+        "ToolTip": "Iure officiis voluptas voluptatibus illum consectetur at.",
         "Deleted": false,
-        "Rank": 495,
-        "Type": "atque",
+        "Rank": 677,
+        "Type": "nulla",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 41,
-        "ExtraInfo": "eos",
-        "StyleHint": "autem",
-        "FullName": "Bobbie Koss",
+        "IconHint": "nostrum",
+        "ColorBlock": 635,
+        "ExtraInfo": "est",
+        "StyleHint": "est",
+        "FullName": "Cathy Jeramy Bergnaum DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldType": "System.String",
+            "FieldLength": 390
           }
         }
       }
     ],
-    "IconHint": "reprehenderit",
-    "ColorBlock": 129,
-    "ExtraInfo": "quos",
-    "StyleHint": "ratione",
-    "FullName": "Mrs. Arielle Boris Marvin",
+    "IconHint": "debitis",
+    "ColorBlock": 315,
+    "ExtraInfo": "explicabo",
+    "StyleHint": "eum",
+    "FullName": "Austen Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 338
+        "FieldType": "System.Int32",
+        "FieldLength": 412
       }
     }
   }

@@ -11,9 +11,16 @@ PUT /api/v1/List/Credited/Items/{id}
 
 Updates an existing Credited list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of Credited to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing Credited list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of Credited list item to be saved.
+The details of Credited list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The details of Credited list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 756,
-  "Name": "Harber, Feil and Kshlerin",
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
-  "UdListDefinitionId": 576,
-  "Rank": 694
+  "Id": 354,
+  "Name": "Bernhard, Bashirian and Upton",
+  "Tooltip": "eum",
+  "Deleted": false,
+  "UdListDefinitionId": 109,
+  "Rank": 143
 }
 ```
 
@@ -90,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 965,
-  "Name": "Wolff-Haley",
-  "Tooltip": "ad",
+  "Id": 559,
+  "Name": "Lebsack-Cremin",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 174,
-  "Rank": 399,
+  "UdListDefinitionId": 700,
+  "Rank": 680,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldType": "System.String",
+      "FieldLength": 177
     }
   }
 }

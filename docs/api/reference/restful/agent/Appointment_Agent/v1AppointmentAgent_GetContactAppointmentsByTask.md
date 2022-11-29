@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 
 Method that returns a specified number of appointments of a specific appointment task type within a time range.
 
+
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the contact specified. Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, TaskId
+ContactId, StartTime, EndTime, Count, TaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ ContactId, StartTime, EndTime, Count, TaskId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskId | int32 |  |
+
 
 ## Response: array
 
@@ -119,15 +127,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 723,
-  "StartTime": "2011-07-16T11:10:25.4355221+02:00",
-  "EndTime": "2001-12-08T11:10:25.4355221+01:00",
-  "Count": 114,
-  "TaskId": 399
+  "ContactId": 903,
+  "StartTime": "2019-03-02T02:49:43.2304992+01:00",
+  "EndTime": "2011-09-11T02:49:43.2304992+02:00",
+  "Count": 783,
+  "TaskId": 780
 }
 ```
 
@@ -139,61 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 328,
-    "StartDate": "2019-01-21T11:10:25.4365224+01:00",
-    "EndDate": "2003-05-19T11:10:25.4365224+02:00",
+    "AppointmentId": 115,
+    "StartDate": "2008-11-09T02:49:43.2304992+01:00",
+    "EndDate": "2011-06-15T02:49:43.2304992+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aliquid",
-    "AssociateFullName": "Miss Hudson Adolf Heaney III",
-    "ContactName": "Abshire LLC",
-    "Description": "Balanced 4th generation approach",
-    "PersonFullName": "Prof. Alec Cummerata",
-    "PersonId": 570,
-    "ContactId": 474,
-    "ProjectId": 887,
-    "ProjectName": "Murazik, Stiedemann and Green",
-    "IsPublished": false,
-    "AssociateId": 903,
-    "ColorIndex": 994,
+    "Task": "quia",
+    "AssociateFullName": "Dr. Mohammed Welch Jr.",
+    "ContactName": "Gulgowski-O'Reilly",
+    "Description": "Upgradable attitude-oriented knowledge base",
+    "PersonFullName": "Aurelio Kessler",
+    "PersonId": 383,
+    "ContactId": 791,
+    "ProjectId": 163,
+    "ProjectName": "Runte-Tromp",
+    "IsPublished": true,
+    "AssociateId": 581,
+    "ColorIndex": 252,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 262,
-    "PriorityName": "Schimmel LLC",
+    "PriorityId": 28,
+    "PriorityName": "Kuphal, Rowe and Beer",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2012-04-05T11:10:25.4375222+02:00",
+    "ActiveDate": "2017-03-09T02:49:43.2304992+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-06-19T11:10:25.4375222+02:00",
-    "RecurringEndDate": "1999-06-13T11:10:25.4375222+02:00",
-    "MotherId": 475,
-    "AssignedBy": 662,
-    "AssignedByFullName": "Jerod Roberts",
+    "RecurringStartDate": "2021-04-11T02:49:43.2304992+02:00",
+    "RecurringEndDate": "2000-06-26T02:49:43.2304992+02:00",
+    "MotherId": 112,
+    "AssignedBy": 116,
+    "AssignedByFullName": "Clint Leffler",
     "RejectReason": "",
-    "Location": "odio",
-    "AlarmLeadTime": "vel",
-    "SaleId": 728,
-    "SaleName": "Cormier, Bartell and Bogisich",
-    "AssociateName": "Prosacco Group",
-    "CreatedDate": "2008-07-17T11:10:25.4375222+02:00",
-    "CreatedBy": "sit",
-    "CreatedByFullName": "Mr. D'angelo Jane Anderson",
-    "CreatedByAssociateId": 921,
+    "Location": "provident",
+    "AlarmLeadTime": "sed",
+    "SaleId": 948,
+    "SaleName": "Johnson-Toy",
+    "AssociateName": "Parker, Yundt and Shanahan",
+    "CreatedDate": "2001-01-01T02:49:43.2304992+01:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Rosina Kiehn",
+    "CreatedByAssociateId": 451,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 343
       }
     }
   }

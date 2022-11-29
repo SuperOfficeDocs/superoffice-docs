@@ -11,9 +11,16 @@ GET /api/v1/List/Credited/Items/{id}
 
 Gets a Credited  item by id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Credited to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Gets a Credited  item by id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -37,7 +45,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +64,7 @@ Response body:
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -66,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 954,
-  "Name": "Krajcik LLC",
-  "Tooltip": "accusamus",
-  "Deleted": false,
-  "UdListDefinitionId": 790,
-  "Rank": 765,
+  "Id": 467,
+  "Name": "Boyer LLC",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "UdListDefinitionId": 20,
+  "Rank": 573,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldType": "System.String",
+      "FieldLength": 641
     }
   }
 }

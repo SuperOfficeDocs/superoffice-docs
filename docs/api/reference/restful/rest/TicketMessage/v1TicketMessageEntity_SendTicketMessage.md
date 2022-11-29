@@ -11,9 +11,15 @@ POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send
 
 Send a message to recipients by email
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ticketMessageEntityId | int32 | The id of the ticket message to send **Required** |
+
 
 ## Query String Parameters
 
@@ -27,13 +33,14 @@ Send a message to recipients by email
 | gdprSource | string |  Obsolete |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=illum,quos
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=totam,perspiciatis
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=ut,quis
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=est
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=403
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=est
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=quae,omnis
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=fugiat,fugiat
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=sit,corrupti
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=ullam
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=345
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=dolores
 ```
+
 
 ## Request Headers
 
@@ -44,7 +51,8 @@ POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=est
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -52,7 +60,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -60,7 +69,7 @@ Response body:
 POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

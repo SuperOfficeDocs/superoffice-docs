@@ -11,6 +11,12 @@ POST /api/v1/Sale/UdefLayout
 
 Add a new field to the current SaleEntity user-defined field layout.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a new field to the current SaleEntity user-defined field layout.
 ```http
 POST /api/v1/Sale/UdefLayout?udefFieldType=Checkbox
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,8 @@ POST /api/v1/Sale/UdefLayout?udefFieldType=Checkbox
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -42,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +97,7 @@ Response body:
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 296,
-  "ColumnId": 362,
-  "FieldDefault": "libero",
-  "FieldHeight": 65,
-  "FieldLabel": "nihil",
-  "FieldLeft": 161,
-  "FieldTop": 294,
+  "UDefFieldId": 366,
+  "ColumnId": 238,
+  "FieldDefault": "exercitationem",
+  "FieldHeight": 465,
+  "FieldLabel": "autem",
+  "FieldLeft": 284,
+  "FieldTop": 481,
   "FieldType": "Checkbox",
-  "FieldWidth": 267,
-  "FormatMask": "officiis",
+  "FieldWidth": 867,
+  "FormatMask": "deleniti",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 398,
-  "LabelLeft": 760,
-  "LabelTop": 544,
-  "LabelWidth": 870,
-  "LastVersionId": 494,
-  "ListTableId": 218,
+  "IsIndexed": true,
+  "LabelHeight": 927,
+  "LabelLeft": 427,
+  "LabelTop": 808,
+  "LabelWidth": 435,
+  "LastVersionId": 135,
+  "ListTableId": 781,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 794,
-  "ProgId": "quod",
+  "Page1LineNo": 745,
+  "ProgId": "dolorum",
   "IsReadOnly": false,
-  "ShortLabel": "aperiam",
-  "TabOrder": 628,
-  "TextLength": 706,
-  "Tooltip": "vitae",
-  "UdefIdentity": 523,
-  "UDListDefinitionId": 692,
+  "ShortLabel": "eligendi",
+  "TabOrder": 971,
+  "TextLength": 217,
+  "Tooltip": "similique",
+  "UdefIdentity": 886,
+  "UDListDefinitionId": 188,
   "Justification": "Center",
-  "Version": 382,
-  "TemplateVariableName": "Stiedemann-Murphy",
+  "Version": 491,
+  "TemplateVariableName": "Huel Group",
   "HasBeenPublished": false,
-  "MdoListName": "Kassulke LLC",
+  "MdoListName": "Padberg Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 562
     }
   }
 }

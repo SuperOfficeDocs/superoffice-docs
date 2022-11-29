@@ -11,6 +11,13 @@ GET /api/v1/List/QuoteDenyReason/Items/Default
 
 Gets a default QuoteDenyReason list item.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,7 +31,8 @@ Gets a default QuoteDenyReason list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -32,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 383,
-  "Name": "Kautzer, Parisian and Kub",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "UdListDefinitionId": 616,
-  "Rank": 456,
+  "Id": 268,
+  "Name": "Collier, Medhurst and Abernathy",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "UdListDefinitionId": 966,
+  "Rank": 50,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldLength": 43
     }
   }
 }

@@ -11,13 +11,20 @@ GET /api/v1/TriggerScript/{id}
 
 Gets a TriggerScriptEntity object.
 
+
 Calls the CRMScript agent service GetTriggerScriptEntity.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TriggerScriptEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -28,6 +35,7 @@ Calls the CRMScript agent service GetTriggerScriptEntity.
 ```http
 GET /api/v1/TriggerScript/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -42,7 +50,8 @@ GET /api/v1/TriggerScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 TriggerScriptEntity found.
 
@@ -51,7 +60,7 @@ TriggerScriptEntity found.
 | 200 | TriggerScriptEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +69,7 @@ Response body:
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -75,7 +84,7 @@ Response body:
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,27 +94,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 151,
-  "Name": "Johnston-Abernathy",
+  "ScreenChooserId": 570,
+  "Name": "Cole LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "totam",
-  "Source": "corrupti",
-  "Registered": "1998-11-05T11:10:53.6652124+01:00",
-  "RegisteredAssociateId": 632,
-  "Updated": "2020-09-16T11:10:53.6652124+02:00",
-  "UpdatedAssociateId": 884,
+  "Enabled": false,
+  "UniqueIdentifier": "est",
+  "Source": "et",
+  "Registered": "1999-05-25T02:49:51.6710218+02:00",
+  "RegisteredAssociateId": 507,
+  "Updated": "2021-08-06T02:49:51.6710218+02:00",
+  "UpdatedAssociateId": 441,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

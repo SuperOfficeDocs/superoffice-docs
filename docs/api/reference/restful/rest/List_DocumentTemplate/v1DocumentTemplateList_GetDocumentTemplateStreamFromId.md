@@ -11,10 +11,17 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCo
 
 Retrieve a stream to a document template based on its id
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentTemplateId | int32 | Id of template to retrieve **Required** |
 | languageCode | string | Language variation of template to use. (ISO code: "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Retrieve a stream to a document template based on its id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: byte
 
 OK
@@ -39,13 +47,14 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

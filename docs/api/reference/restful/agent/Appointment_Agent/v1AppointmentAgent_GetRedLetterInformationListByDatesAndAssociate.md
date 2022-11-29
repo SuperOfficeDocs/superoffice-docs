@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
 
 Get detailed red letter day information (redletter summary + individual day texts) for one or more days according to the given date interval.
 
+
 The time portion of the dates is ignored.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The time portion of the dates is ignored.
 ```http
 POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate?$
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartDate, EndDate, AssociateId
+StartDate, EndDate, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StartDate | date-time |  |
 | EndDate | date-time |  |
 | AssociateId | int32 |  |
+
 
 ## Response: array
 
@@ -71,13 +79,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2009-11-14T11:10:25.4785224+01:00",
-  "EndDate": "2017-06-07T11:10:25.4785224+02:00",
-  "AssociateId": 249
+  "StartDate": "2016-06-12T02:49:43.261747+02:00",
+  "EndDate": "2011-07-06T02:49:43.261747+02:00",
+  "AssociateId": 74
 }
 ```
 
@@ -89,7 +97,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2016-12-05T11:10:25.4785224+01:00",
+    "Date": "2004-06-04T02:49:43.261747+02:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
@@ -97,12 +105,12 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldLength": 747
       }
     }
   },
   {
-    "Date": "2016-12-05T11:10:25.4785224+01:00",
+    "Date": "2004-06-04T02:49:43.261747+02:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
@@ -110,7 +118,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldLength": 747
       }
     }
   }

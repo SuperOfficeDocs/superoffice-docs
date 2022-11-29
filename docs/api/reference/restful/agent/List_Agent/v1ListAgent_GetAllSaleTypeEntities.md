@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllSaleTypeEntities
 
 Returns all sale types as entities with stakeholders, guide and quote properties
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all sale types as entities with stakeholders, guide and quote properties
 ```http
 POST /api/v1/Agents/List/GetAllSaleTypeEntities?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/List/GetAllSaleTypeEntities?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
+
 
 ## Response: array
 
@@ -86,7 +94,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 40,
-    "Name": "Wolf, Schaefer and Hegmann",
-    "Tooltip": "atque",
-    "Rank": 225,
+    "SaleTypeId": 890,
+    "Name": "Mraz Inc and Sons",
+    "Tooltip": "consequatur",
+    "Rank": 649,
     "DurationUnit": "Century",
-    "SaleDuration": 732,
-    "SaleTypeCatId": 340,
+    "SaleDuration": 171,
+    "SaleTypeCatId": 449,
     "Deleted": false,
-    "HasGuide": true,
+    "HasGuide": false,
     "HasStakeholders": true,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 396,
-    "QuoteLinesTemplate": 257,
-    "ConfirmationLinesTemplate": 764,
+    "DefaultQuoteValidity": 499,
+    "QuoteLinesTemplate": 1002,
+    "ConfirmationLinesTemplate": 274,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 966,
-    "MinEarningPercent": 192,
-    "GroupQuoteLinesBy": 460,
-    "SortGroupLinesBy": 222,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 571,
+    "MinEarningPercent": 929,
+    "GroupQuoteLinesBy": 112,
+    "SortGroupLinesBy": 790,
     "Stages": [
       {
-        "Id": 155,
-        "Name": "Champlin, Hyatt and Steuber",
-        "ToolTip": "Debitis accusantium in reiciendis asperiores soluta laboriosam nam.",
-        "Deleted": true,
-        "Rank": 48,
-        "Type": "non",
-        "ColorBlock": 832,
-        "IconHint": "assumenda",
-        "Selected": true,
-        "LastChanged": "1996-10-05T11:10:27.1504524+02:00",
+        "Id": 804,
+        "Name": "Bernhard-Brekke",
+        "ToolTip": "Pariatur ea officiis illum.",
+        "Deleted": false,
+        "Rank": 942,
+        "Type": "qui",
+        "ColorBlock": 282,
+        "IconHint": "unde",
+        "Selected": false,
+        "LastChanged": "2007-05-12T02:49:44.6079219+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "a",
+        "ExtraInfo": "sit",
+        "StyleHint": "error",
         "Hidden": true,
-        "FullName": "Mrs. Ken Stamm",
+        "FullName": "Edward Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 71
+            "FieldType": "System.Int32",
+            "FieldLength": 852
           }
         }
       }
@@ -158,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 192
+        "FieldLength": 914
       }
     }
   }

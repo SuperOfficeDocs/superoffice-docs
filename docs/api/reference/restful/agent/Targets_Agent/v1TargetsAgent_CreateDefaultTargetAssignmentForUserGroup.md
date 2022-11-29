@@ -11,6 +11,12 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 
 Returns a default target assignment for the specified usergroup.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns a default target assignment for the specified usergroup.
 ```http
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup?$select=na
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserGroupId
+UserGroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserGroupId | int32 |  |
+
 
 ## Response: array
 
@@ -63,6 +71,7 @@ Response body: array
 | TargetUserGroup |  | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | Currency |  | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
 | DimensionListItem | int32 | Id of the dimension list item this assignement is for |
+| DimensionListItemDisplayName | string | Display name of the dimension list item this assignement is for. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -76,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 927
+  "UserGroupId": 412
 }
 ```
 
@@ -88,23 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 385,
+    "TargetAssignmentInfoId": 682,
     "Values": [
-      239,
-      416
+      653,
+      594
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 580,
+    "DimensionListItem": 49,
+    "DimensionListItemDisplayName": "Mraz, Weimann and Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 780
+        "FieldType": "System.Int32",
+        "FieldLength": 297
       }
     }
   }

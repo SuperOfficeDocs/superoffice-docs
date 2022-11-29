@@ -11,7 +11,14 @@ PUT /api/v1/List/SelectionCategory/Headings
 
 Saves headings for the SelectionCategory list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 367,
-    "Name": "Swaniawski, Wolf and Beier",
-    "Tooltip": "eveniet",
+    "HeadingId": 625,
+    "Name": "Wiza, Wolff and Marks",
+    "Tooltip": "provident",
     "Deleted": false,
-    "Rank": 940,
-    "UdListDefinitionId": 3
+    "Rank": 129,
+    "UdListDefinitionId": 130
   },
   {
-    "HeadingId": 367,
-    "Name": "Swaniawski, Wolf and Beier",
-    "Tooltip": "eveniet",
+    "HeadingId": 625,
+    "Name": "Wiza, Wolff and Marks",
+    "Tooltip": "provident",
     "Deleted": false,
-    "Rank": 940,
-    "UdListDefinitionId": 3
+    "Rank": 129,
+    "UdListDefinitionId": 130
   }
 ]
 ```
@@ -98,12 +106,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 651,
-    "Name": "Kertzmann LLC",
-    "Tooltip": "suscipit",
+    "HeadingId": 728,
+    "Name": "Feest Group",
+    "Tooltip": "dolores",
     "Deleted": true,
-    "Rank": 549,
-    "UdListDefinitionId": 914,
+    "Rank": 136,
+    "UdListDefinitionId": 935,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

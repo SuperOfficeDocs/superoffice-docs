@@ -11,6 +11,12 @@ GET /api/v1/List/QuoteApproveReason/MDOItems
 
 Get the MDO list items for "QuoteApprReason" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=labore
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=dolor
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/QuoteApproveReason/MDOItems?query=labore
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Bosco, Blick and Bartell",
-    "ToolTip": "Vitae tempore id reiciendis.",
+    "Id": 743,
+    "Name": "Lynch-Farrell",
+    "ToolTip": "Possimus rerum placeat expedita.",
     "Deleted": false,
-    "Rank": 52,
-    "Type": "ut",
+    "Rank": 282,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 161,
-        "Name": "Brakus, Heathcote and Gutkowski",
-        "ToolTip": "Tenetur dolor eaque.",
+        "Id": 615,
+        "Name": "Gislason Inc and Sons",
+        "ToolTip": "Non hic ratione nostrum sint repudiandae quis eos.",
         "Deleted": false,
-        "Rank": 353,
-        "Type": "qui",
+        "Rank": 703,
+        "Type": "aliquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 955,
-        "ExtraInfo": "quos",
-        "StyleHint": "aliquid",
-        "FullName": "Etha Goodwin",
+        "IconHint": "est",
+        "ColorBlock": 913,
+        "ExtraInfo": "adipisci",
+        "StyleHint": "rerum",
+        "FullName": "Nathen Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 469
+            "FieldLength": 486
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 443,
-    "ExtraInfo": "tempore",
-    "StyleHint": "quaerat",
-    "FullName": "Eino Emmerich",
+    "IconHint": "eaque",
+    "ColorBlock": 524,
+    "ExtraInfo": "ut",
+    "StyleHint": "est",
+    "FullName": "Saul Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 780
+        "FieldType": "System.Int32",
+        "FieldLength": 887
       }
     }
   }

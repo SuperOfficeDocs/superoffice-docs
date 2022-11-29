@@ -11,11 +11,17 @@ GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 
 Gets headings for the DeliveryTerm list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 222,
-    "Name": "Schuppe, Schmitt and Metz",
-    "ToolTip": "Voluptatem aut.",
+    "Id": 280,
+    "Name": "Mertz LLC",
+    "ToolTip": "Aut reprehenderit omnis harum.",
     "Deleted": false,
-    "Rank": 138,
-    "Type": "nam",
-    "ColorBlock": 683,
-    "IconHint": "voluptas",
+    "Rank": 102,
+    "Type": "et",
+    "ColorBlock": 218,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "1995-12-11T11:10:54.2528941+01:00",
+    "LastChanged": "2015-12-02T02:49:52.2190678+01:00",
     "ChildItems": [
       {
-        "Id": 727,
-        "Name": "Hills Group",
-        "ToolTip": "Voluptatem cupiditate ut minima in hic ut.",
+        "Id": 964,
+        "Name": "Schoen, Barton and Halvorson",
+        "ToolTip": "Quam ea atque atque rerum.",
         "Deleted": true,
-        "Rank": 657,
-        "Type": "numquam",
-        "ColorBlock": 908,
-        "IconHint": "debitis",
+        "Rank": 807,
+        "Type": "mollitia",
+        "ColorBlock": 512,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2007-09-22T11:10:54.2528941+02:00",
+        "LastChanged": "2003-10-01T02:49:52.2190678+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "quasi",
+        "ExtraInfo": "et",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Ms. Maximilian Dawson Langworth IV",
+        "FullName": "Anastasia Marquardt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldType": "System.String",
+            "FieldLength": 737
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "magni",
+    "ExtraInfo": "quis",
+    "StyleHint": "eaque",
     "Hidden": false,
-    "FullName": "Dominique Grant",
+    "FullName": "Aisha Maureen Orn III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldLength": 5
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Project/GetMyProjectEvents
 
 Gets all project events that belongs to the currently logged on user.
 
+
 The list of events are filtered by the Audience Visibility restrictions set when the project event is created.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The list of events are filtered by the Audience Visibility restrictions set when
 ```http
 POST /api/v1/Agents/Project/GetMyProjectEvents?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ POST /api/v1/Agents/Project/GetMyProjectEvents?$select=name,department,category/
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -79,7 +87,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,34 +98,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Stephanie Ryan",
-    "Description": "Synergistic asynchronous approach",
-    "ProjectId": 728,
-    "EventName": "Prohaska LLC",
-    "AssociateId": 846,
+    "AssociateFullName": "Addie Harber",
+    "Description": "Total web-enabled data-warehouse",
+    "ProjectId": 606,
+    "EventName": "Batz Inc and Sons",
+    "AssociateId": 514,
     "IsSignedOn": true,
-    "SignOffConfirmationText": "incidunt",
-    "SignOffText": "quibusdam",
-    "SignOnConfirmationText": "recusandae",
-    "SignOnText": "voluptatem",
-    "EventDate": "2021-10-05T11:10:27.6164521+02:00",
-    "Enabled": true,
-    "SignOff": false,
+    "SignOffConfirmationText": "ea",
+    "SignOffText": "molestiae",
+    "SignOnConfirmationText": "voluptate",
+    "SignOnText": "cum",
+    "EventDate": "1997-12-03T02:49:44.9684639+01:00",
+    "Enabled": false,
+    "SignOff": true,
     "SignOffTaskEnable": false,
-    "SignOnTaskEnable": true,
-    "SignOn": false,
-    "SignOffTaskId": 781,
-    "SignOnTaskId": 994,
-    "SignOffTriggersAssign": true,
+    "SignOnTaskEnable": false,
+    "SignOn": true,
+    "SignOffTaskId": 430,
+    "SignOnTaskId": 467,
+    "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": true,
-    "SignOnPersonId": 649,
-    "SignOffPersonId": 395,
+    "SignOnPersonId": 492,
+    "SignOffPersonId": 429,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldLength": 897
       }
     }
   }

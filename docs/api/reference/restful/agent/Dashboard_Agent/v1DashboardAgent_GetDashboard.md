@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetDashboard
 
 Gets a Dashboard object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=350
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=308
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +70,7 @@ Response body:
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 75,
-  "AssociateId": 286,
-  "Caption": "totam",
+  "DashboardId": 363,
+  "AssociateId": 89,
+  "Caption": "sit",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 818,
-      "Caption": "cupiditate",
-      "Description": "Inverse regional concept",
-      "ChartName": "Erdman, Stokes and Mueller",
-      "ChartId": "sed",
-      "IsDefault": false,
-      "AssociateId": 663,
-      "GroupId": 493,
-      "SelectionId": 97,
-      "Config": "illum",
+      "DashboardTileId": 814,
+      "Caption": "qui",
+      "Description": "Reactive grid-enabled analyzer",
+      "ChartName": "Beatty LLC",
+      "ChartId": "harum",
+      "IsDefault": true,
+      "AssociateId": 562,
+      "GroupId": 369,
+      "SelectionId": 281,
+      "Config": "sunt",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,8 +110,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 509
+          "FieldType": "System.Int32",
+          "FieldLength": 241
         }
       }
     }
@@ -112,8 +120,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 17
+      "FieldType": "System.Int32",
+      "FieldLength": 748
     }
   }
 }

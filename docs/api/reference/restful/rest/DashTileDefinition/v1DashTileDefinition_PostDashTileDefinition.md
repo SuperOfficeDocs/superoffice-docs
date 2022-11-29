@@ -11,7 +11,13 @@ POST /api/v1/DashTileDefinition
 
 Creates a new DashTileDefinition
 
+
 Calls the Dash agent service SaveDashTileDefinition.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Dash agent service SaveDashTileDefinition.
 ```http
 POST /api/v1/DashTileDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/DashTileDefinition?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The DashTileDefinition to be saved.
+The DashTileDefinition to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +70,8 @@ The DashTileDefinition to be saved.
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -71,7 +79,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -108,25 +116,25 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 227,
-  "Name": "Wuckert LLC",
-  "Description": "Mandatory composite standardization",
-  "DefaultHeight": 688,
-  "DefaultWidth": 630,
+  "DashboardTileDefinitionId": 464,
+  "Name": "Haag Group",
+  "Description": "Inverse scalable flexibility",
+  "DefaultHeight": 472,
+  "DefaultWidth": 592,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Crona, Fahey and Gutkowski",
-  "SelectionId": 291,
+  "EntityName": "Durgan, Deckow and Thompson",
+  "SelectionId": 982,
   "CurrencyMode": "Base",
-  "CurrencyCode": "maiores",
+  "CurrencyCode": "autem",
   "Measure": "Average",
-  "MeasureField": "ullam",
-  "SortBy": "modi",
-  "LayoutConfig": "consequatur",
-  "SecondarySelectionId": 748,
-  "MeasureByField": "excepturi",
+  "MeasureField": "perspiciatis",
+  "SortBy": "velit",
+  "LayoutConfig": "dolorum",
+  "SecondarySelectionId": 255,
+  "MeasureByField": "eligendi",
   "Usage": "Dashboard",
-  "ProviderName": "Koepp Inc and Sons"
+  "ProviderName": "Waelchi, Hickle and Koss"
 }
 ```
 
@@ -137,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 111,
-  "Name": "Marks-Murphy",
-  "Description": "Down-sized cohesive matrix",
-  "DefaultHeight": 352,
-  "DefaultWidth": 778,
+  "DashboardTileDefinitionId": 278,
+  "Name": "Bernhard Group",
+  "Description": "Reverse-engineered bifurcated website",
+  "DefaultHeight": 653,
+  "DefaultWidth": 832,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Wiza-Kilback",
-  "SelectionId": 809,
+  "EntityName": "Mills-Emard",
+  "SelectionId": 605,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dolores",
+  "CurrencyCode": "aliquid",
   "Measure": "Average",
-  "MeasureField": "nam",
-  "SortBy": "ducimus",
-  "LayoutConfig": "voluptatum",
-  "SecondarySelectionId": 541,
-  "MeasureByField": "cum",
+  "MeasureField": "eum",
+  "SortBy": "corporis",
+  "LayoutConfig": "accusamus",
+  "SecondarySelectionId": 566,
+  "MeasureByField": "nisi",
   "Usage": "Dashboard",
-  "ProviderName": "Jacobs, Schmeler and Frami",
+  "ProviderName": "Larson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 158
+      "FieldType": "System.Int32",
+      "FieldLength": 423
     }
   },
   "_Links": {

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2
 
 Parse the source document, and replace any template variable tags with their values, based on the provided identifiers.
 
+
 &lt;p/&gt; The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Parse the source document, and replace any template variable tags with their val
 ```http
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MergeDocumentId, ContactId, PersonId, ProjectId, SelectionId, AppointmentId, DocumentId, SaleId, CustomTags
+MergeDocumentId, ContactId, PersonId, ProjectId, SelectionId, AppointmentId, DocumentId, SaleId, CustomTags 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,6 +60,7 @@ MergeDocumentId, ContactId, PersonId, ProjectId, SelectionId, AppointmentId, Doc
 | SaleId | int32 |  |
 | CustomTags | object |  |
 
+
 ## Response: byte
 
 OK
@@ -63,27 +71,28 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MergeDocumentId": 192,
-  "ContactId": 133,
-  "PersonId": 991,
-  "ProjectId": 342,
-  "SelectionId": 3,
-  "AppointmentId": 305,
-  "DocumentId": 961,
-  "SaleId": 218,
+  "MergeDocumentId": 606,
+  "ContactId": 804,
+  "PersonId": 915,
+  "ProjectId": 64,
+  "SelectionId": 974,
+  "AppointmentId": 898,
+  "DocumentId": 570,
+  "SaleId": 518,
   "CustomTags": {
-    "CustomTags1": "rerum",
-    "CustomTags2": "delectus"
+    "CustomTags1": "cum",
+    "CustomTags2": "omnis"
   }
 }
 ```

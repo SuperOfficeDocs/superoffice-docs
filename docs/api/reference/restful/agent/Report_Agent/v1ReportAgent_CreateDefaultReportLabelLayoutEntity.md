@@ -11,7 +11,14 @@ POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 
 Set default values into a new ReportLabelLayoutEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +67,7 @@ Response body:
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 453,
-  "Name": "Wilderman Inc and Sons",
-  "Description": "Operative optimizing contingency",
+  "ReportLabelLayoutId": 474,
+  "Name": "Schultz-Gleason",
+  "Description": "Fully-configurable empowering hardware",
   "Orientation": "Landscape",
-  "PaperWidth": 928,
-  "PaperHeight": 806,
-  "LeftMargin": 482,
-  "RightMargin": 77,
-  "TopMargin": 910,
-  "BottomMargin": 927,
-  "CountColumns": 958,
-  "CountRows": 510,
+  "PaperWidth": 502,
+  "PaperHeight": 911,
+  "LeftMargin": 151,
+  "RightMargin": 576,
+  "TopMargin": 566,
+  "BottomMargin": 808,
+  "CountColumns": 313,
+  "CountRows": 559,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 878
     }
   }
 }

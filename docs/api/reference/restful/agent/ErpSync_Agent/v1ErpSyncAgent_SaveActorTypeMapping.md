@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 
 Save mappings for a connection/actor
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Save mappings for a connection/actor
 ```http
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/ErpSync/SaveActorTypeMapping?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Mapping
+Mapping 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Mapping |  | Mapping information for one Actor, contains array of field mappings (ERP &lt;-&gt; SuperOffice) <para /> Carrier object for ErpSyncActorTypeMapping. Services for the ErpSyncActorTypeMapping Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +81,7 @@ Response body:
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 968,
-  "IsActive": true,
+  "ErpConnectionId": 352,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 705,
-      "CrmFieldKey": "molestias",
-      "CrmDisplayName": "Powlowski Inc and Sons",
-      "CrmDisplayTooltip": "velit",
-      "ErpFieldKey": "quaerat",
+      "ErpFieldId": 888,
+      "CrmFieldKey": "ab",
+      "CrmDisplayName": "Feil Inc and Sons",
+      "CrmDisplayTooltip": "vel",
+      "ErpFieldKey": "aut",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Sanford, Bechtelar and Watsica",
-      "ErpDisplayTooltip": "sapiente",
+      "ErpDisplayName": "Wilderman, McDermott and Jacobson",
+      "ErpDisplayTooltip": "eveniet",
       "SyncToCrm": true,
       "SyncToErp": false,
-      "ShowInGui": true,
+      "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "dolores",
+      "ListReference": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 943
+          "FieldLength": 233
         }
       }
     }
@@ -124,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 860
+      "FieldLength": 342
     }
   }
 }

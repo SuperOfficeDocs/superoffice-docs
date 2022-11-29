@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetDuplicateRules
 
 Retrieve all available duplicate rules for selection
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Retrieve all available duplicate rules for selection
 ```http
 POST /api/v1/Agents/Selection/GetDuplicateRules?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/Selection/GetDuplicateRules?$select=name,department,category
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -59,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/Selection/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hand, Ritchie and Cormier",
-    "DisplayName": "Satterfield Inc and Sons",
-    "DisplayTooltip": "quam",
+    "Name": "Lang-Donnelly",
+    "DisplayName": "Metz, Heller and Lubowitz",
+    "DisplayTooltip": "a",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldType": "System.String",
+        "FieldLength": 170
       }
     }
   },
   {
-    "Name": "Hand, Ritchie and Cormier",
-    "DisplayName": "Satterfield Inc and Sons",
-    "DisplayTooltip": "quam",
+    "Name": "Lang-Donnelly",
+    "DisplayName": "Metz, Heller and Lubowitz",
+    "DisplayTooltip": "a",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldType": "System.String",
+        "FieldLength": 170
       }
     }
   }

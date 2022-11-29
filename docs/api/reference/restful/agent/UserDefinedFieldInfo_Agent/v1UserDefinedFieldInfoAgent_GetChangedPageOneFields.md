@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetChangedPageOneFields
 
 Gets which page one fields have changed from the current version
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets which page one fields have changed from the current version
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetChangedPageOneFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetChangedPageOneFields?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType, UserGroupId
+OwnerType, UserGroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 | UserGroupId | int32 |  |
+
 
 ## Response: array
 
@@ -54,18 +62,19 @@ OK
 
 Response body: array
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetChangedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 105
+  "UserGroupId": 988
 }
 ```
 

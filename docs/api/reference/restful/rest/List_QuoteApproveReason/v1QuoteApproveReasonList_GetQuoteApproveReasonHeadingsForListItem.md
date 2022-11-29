@@ -11,11 +11,17 @@ GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 
 Gets headings for the QuoteApproveReason list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Cronin-Kutch",
-    "ToolTip": "Quos nemo et illum aut veniam praesentium inventore.",
+    "Id": 294,
+    "Name": "Dooley, Beier and Schmeler",
+    "ToolTip": "Nihil repudiandae.",
     "Deleted": false,
-    "Rank": 508,
-    "Type": "ea",
-    "ColorBlock": 973,
-    "IconHint": "reprehenderit",
+    "Rank": 665,
+    "Type": "sed",
+    "ColorBlock": 117,
+    "IconHint": "cum",
     "Selected": true,
-    "LastChanged": "2017-10-18T11:10:54.5079348+02:00",
+    "LastChanged": "2000-05-28T02:49:52.422202+02:00",
     "ChildItems": [
       {
-        "Id": 721,
-        "Name": "Bogisich Inc and Sons",
-        "ToolTip": "Quas et veniam sit quidem harum praesentium.",
+        "Id": 699,
+        "Name": "Swift LLC",
+        "ToolTip": "Et et accusantium in odit.",
         "Deleted": false,
-        "Rank": 18,
-        "Type": "non",
-        "ColorBlock": 849,
-        "IconHint": "assumenda",
+        "Rank": 373,
+        "Type": "deleniti",
+        "ColorBlock": 718,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2008-07-08T11:10:54.5089354+02:00",
+        "LastChanged": "2022-08-05T02:49:52.422202+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Santos Zieme",
+        "ExtraInfo": "illo",
+        "StyleHint": "commodi",
+        "Hidden": false,
+        "FullName": "Triston Wiegand IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 952
+            "FieldType": "System.Int32",
+            "FieldLength": 2
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "repellendus",
-    "Hidden": false,
-    "FullName": "Dayton Boehm",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Nicolette Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 112
+        "FieldType": "System.Int32",
+        "FieldLength": 610
       }
     }
   }

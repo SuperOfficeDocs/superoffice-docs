@@ -11,11 +11,18 @@ PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 
 Saves headings for the ProductCategory list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 618,
-    "Name": "Kuhn-Feil",
-    "ToolTip": "Quam rem sed voluptatibus ex sed.",
-    "Deleted": false,
-    "Rank": 142,
-    "Type": "dolor",
-    "ColorBlock": 288,
-    "IconHint": "reiciendis",
+    "Id": 867,
+    "Name": "Batz, Powlowski and Kohler",
+    "ToolTip": "Est praesentium dolorum ullam non.",
+    "Deleted": true,
+    "Rank": 511,
+    "Type": "voluptate",
+    "ColorBlock": 207,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2013-06-28T11:10:54.4239294+02:00",
+    "LastChanged": "1999-10-06T02:49:52.3597004+02:00",
     "ChildItems": [
       {
-        "Id": 328,
-        "Name": "Rempel LLC",
-        "ToolTip": "Quia provident assumenda id.",
+        "Id": 728,
+        "Name": "Gutkowski-Mills",
+        "ToolTip": "Quo a.",
         "Deleted": false,
-        "Rank": 720,
-        "Type": "est",
-        "ColorBlock": 227,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2011-05-21T11:10:54.4239294+02:00",
+        "Rank": 742,
+        "Type": "nam",
+        "ColorBlock": 953,
+        "IconHint": "dolore",
+        "Selected": false,
+        "LastChanged": "2013-07-14T02:49:52.3597004+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "modi",
-        "Hidden": false,
-        "FullName": "Dr. Bobbie Haag"
+        "ExtraInfo": "est",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Donavon Walker"
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "qui",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Sister Nikolaus"
+    "FullName": "Krystina Klocko"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Champlin LLC",
-    "ToolTip": "Error fuga eos quasi provident.",
-    "Deleted": false,
-    "Rank": 465,
-    "Type": "sint",
-    "ColorBlock": 632,
-    "IconHint": "dolores",
+    "Id": 550,
+    "Name": "Franecki-Erdman",
+    "ToolTip": "Non quia odit quia.",
+    "Deleted": true,
+    "Rank": 999,
+    "Type": "minus",
+    "ColorBlock": 626,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2004-11-17T11:10:54.4249314+01:00",
+    "LastChanged": "2020-12-13T02:49:52.3597004+01:00",
     "ChildItems": [
       {
-        "Id": 75,
-        "Name": "Langworth, Prohaska and Kautzer",
-        "ToolTip": "Voluptas quia repellat harum ea laboriosam officiis.",
+        "Id": 115,
+        "Name": "Kerluke-Beier",
+        "ToolTip": "Neque temporibus expedita quae dolorem quisquam rerum.",
         "Deleted": false,
-        "Rank": 699,
-        "Type": "quasi",
-        "ColorBlock": 72,
-        "IconHint": "quam",
+        "Rank": 140,
+        "Type": "delectus",
+        "ColorBlock": 256,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2000-10-18T11:10:54.4249314+02:00",
+        "LastChanged": "2009-05-11T02:49:52.3597004+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "et",
+        "ExtraInfo": "officiis",
+        "StyleHint": "quaerat",
         "Hidden": true,
-        "FullName": "Antwan Pfeffer",
+        "FullName": "Emmy Stanton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 120
+            "FieldType": "System.String",
+            "FieldLength": 966
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "autem",
+    "ExtraInfo": "rerum",
+    "StyleHint": "est",
     "Hidden": true,
-    "FullName": "Rocky Erling Koepp II",
+    "FullName": "Miss Rylan Norberto Dare",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 68
       }
     }
   }

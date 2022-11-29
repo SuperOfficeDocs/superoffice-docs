@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/CalculateMessageRecipients
 
 Gets recipients for new message
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets recipients for new message
 ```http
 POST /api/v1/Agents/Ticket/CalculateMessageRecipients?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Ticket/CalculateMessageRecipients?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketId, ActionType, MessageId
+TicketId, ActionType, MessageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketId | int32 |  |
 | ActionType | string |  |
 | MessageId | int32 |  |
+
 
 ## Response: array
 
@@ -71,9 +79,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 139,
+  "TicketId": 831,
   "ActionType": "Forward",
-  "MessageId": 469
+  "MessageId": 498
 }
 ```
 
@@ -86,13 +94,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Type": "BCC",
-    "Value": "ratione",
-    "DisplayValue": "minima"
+    "Value": "dolores",
+    "DisplayValue": "aperiam"
   },
   {
     "Type": "BCC",
-    "Value": "ratione",
-    "DisplayValue": "minima"
+    "Value": "dolores",
+    "DisplayValue": "aperiam"
   }
 ]
 ```

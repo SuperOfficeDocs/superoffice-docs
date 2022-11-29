@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 
 Create default User providing the associate type and person id.
 
+
 System and Anonymous users can be created without an exsisting person and permits person id to be 0.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ System and Anonymous users can be created without an exsisting person and permit
 ```http
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,16 +47,17 @@ POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserType, PersonId
+UserType, PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserType | string |  |
 | PersonId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -56,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,7 +108,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 818
+  "PersonId": 582
 }
 ```
 
@@ -110,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 831,
-  "Name": "Nicolas, Kuvalis and Osinski",
-  "Rank": 393,
-  "Tooltip": "laboriosam",
+  "AssociateId": 665,
+  "Name": "Boehm, Wisozk and Schiller",
+  "Rank": 409,
+  "Tooltip": "ipsam",
   "LicenseOwners": [
     {
-      "Name": "Howell, Watsica and O'Hara",
-      "Description": "Re-contextualized upward-trending focus group",
+      "Name": "Jakubowski, Fadel and Stanton",
+      "Description": "Advanced 4th generation approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,13 +140,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 621
+          "FieldLength": 803
         }
       }
     },
     {
-      "Name": "Howell, Watsica and O'Hara",
-      "Description": "Re-contextualized upward-trending focus group",
+      "Name": "Jakubowski, Fadel and Stanton",
+      "Description": "Advanced 4th generation approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -151,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 621
+          "FieldLength": 803
         }
       }
     }
@@ -160,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quia",
-      "Tooltip": "cumque",
-      "Id": 61,
-      "Rank": 534,
-      "Deleted": false,
+      "Value": "placeat",
+      "Tooltip": "animi",
+      "Id": 801,
+      "Rank": 898,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 469
+          "FieldType": "System.String",
+          "FieldLength": 677
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2015-02-17T11:10:28.4322083+01:00",
-  "Lastlogout": "1999-01-07T11:10:28.4322083+01:00",
-  "EjUserId": 944,
-  "RequestSignature": "dicta",
+  "Lastlogin": "2015-06-17T02:49:45.687221+02:00",
+  "Lastlogout": "2002-08-12T02:49:45.687221+02:00",
+  "EjUserId": 522,
+  "RequestSignature": "dolores",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "odit",
-      "DisplayValue": "dicta",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 342
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "odit",
-      "DisplayValue": "dicta",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 342
-        }
-      }
-    }
-  ],
-  "UserName": "Beer-VonRueden",
-  "TicketCategories": [
-    {
-      "Id": 870,
-      "Name": "Quigley, Cummerata and Prosacco",
-      "ToolTip": "Saepe adipisci provident sed consequatur quae fugiat optio.",
-      "Deleted": true,
-      "Rank": 38,
-      "Type": "similique",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "adipisci",
-      "ColorBlock": 599,
-      "ExtraInfo": "rerum",
-      "StyleHint": "cupiditate",
-      "FullName": "Rose Hammes",
+      "Value": "aut",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 351
+          "FieldLength": 149
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "aut",
+      "DisplayValue": "animi",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 149
         }
       }
     }
   ],
-  "NickName": "Adams Group",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "aspernatur"
-  },
-  "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "aut"
-  },
-  "PostSaveCommands": [
+  "UserName": "Bailey, Carroll and Klein",
+  "TicketCategories": [
     {
-      "Name": "Blanda-Lindgren",
-      "DisplayName": "Volkman, Muller and Frami",
-      "Description": "Reverse-engineered client-driven neural-net",
-      "ToolTip": "Aperiam voluptas quas quia nam incidunt.",
-      "Actions": "Implicit",
-      "ActionData": "voluptatem",
+      "Id": 227,
+      "Name": "Legros LLC",
+      "ToolTip": "Voluptatem praesentium odit similique quis.",
+      "Deleted": false,
+      "Rank": 610,
+      "Type": "voluptatem",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "vel",
+      "ColorBlock": 514,
+      "ExtraInfo": "praesentium",
+      "StyleHint": "sint",
+      "FullName": "Jaylan Kunde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldLength": 39
+        }
+      }
+    }
+  ],
+  "NickName": "Thompson-Lockman",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "neque",
+    "ExtraFields2": "reprehenderit"
+  },
+  "CustomFields": {
+    "CustomFields1": "vel",
+    "CustomFields2": "est"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Gibson-West",
+      "DisplayName": "Howe, Kessler and Gottlieb",
+      "Description": "Pre-emptive composite knowledge base",
+      "ToolTip": "Occaecati et qui quis illo.",
+      "Actions": "Implicit",
+      "ActionData": "fugit",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 884
         }
       }
     }
@@ -273,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldLength": 364
     }
   }
 }

@@ -11,11 +11,18 @@ GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 
 Gets user groups visible for the PaymentTerm list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Name": "Lesch-Reichel",
-    "ToolTip": "Voluptatem quia aliquam dolores deleniti autem excepturi.",
+    "Id": 68,
+    "Name": "Deckow, Bernier and Kiehn",
+    "ToolTip": "Laborum assumenda et et impedit est.",
     "Deleted": false,
-    "Rank": 274,
-    "Type": "quia",
-    "ColorBlock": 41,
-    "IconHint": "ad",
+    "Rank": 240,
+    "Type": "ratione",
+    "ColorBlock": 635,
+    "IconHint": "rem",
     "Selected": false,
-    "LastChanged": "2012-03-04T11:10:54.3409023+01:00",
+    "LastChanged": "2010-06-25T02:49:52.2971911+02:00",
     "ChildItems": [
       {
-        "Id": 48,
-        "Name": "Leffler-Hayes",
-        "ToolTip": "Quis id et fugiat sunt.",
+        "Id": 965,
+        "Name": "Jerde Inc and Sons",
+        "ToolTip": "Eaque laudantium debitis et.",
         "Deleted": false,
-        "Rank": 790,
-        "Type": "nisi",
-        "ColorBlock": 862,
-        "IconHint": "possimus",
+        "Rank": 933,
+        "Type": "quas",
+        "ColorBlock": 132,
+        "IconHint": "aliquam",
         "Selected": true,
-        "LastChanged": "2011-04-16T11:10:54.3409023+02:00",
+        "LastChanged": "2011-06-30T02:49:52.2971911+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "in",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "recusandae",
         "Hidden": true,
-        "FullName": "Eleanora Ruecker",
+        "FullName": "Jay Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 446
+            "FieldLength": 420
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "commodi",
-    "Hidden": false,
-    "FullName": "Rowena Osinski",
+    "ExtraInfo": "at",
+    "StyleHint": "aliquid",
+    "Hidden": true,
+    "FullName": "Kadin Hilpert DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 999
+        "FieldType": "System.Int32",
+        "FieldLength": 482
       }
     }
   }

@@ -11,9 +11,16 @@ PUT /api/v1/List/PaymentTerm/Items/{id}
 
 Updates an existing PaymentTerm list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of PaymentTerm to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing PaymentTerm list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of PaymentTerm list item to be saved.
+The details of PaymentTerm list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The details of PaymentTerm list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,16 +78,16 @@ Response body:
 PUT /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 436,
-  "Name": "Ankunding-Nolan",
-  "Tooltip": "voluptatibus",
+  "Id": 988,
+  "Name": "White-Braun",
+  "Tooltip": "odit",
   "Deleted": false,
-  "UdListDefinitionId": 925,
-  "Rank": 83
+  "UdListDefinitionId": 53,
+  "Rank": 458
 }
 ```
 
@@ -90,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 306,
-  "Name": "Miller, Goodwin and Kunze",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "UdListDefinitionId": 423,
-  "Rank": 728,
+  "Id": 561,
+  "Name": "Monahan Inc and Sons",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "UdListDefinitionId": 351,
+  "Rank": 272,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 885
+      "FieldType": "System.Int32",
+      "FieldLength": 915
     }
   }
 }

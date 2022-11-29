@@ -11,6 +11,12 @@ GET /api/v1/List/MrMrs/MDOItems
 
 Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=qui
+GET /api/v1/List/MrMrs/MDOItems?query=blanditiis
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/MrMrs/MDOItems?query=qui
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Swaniawski LLC",
-    "ToolTip": "Velit quos.",
-    "Deleted": false,
-    "Rank": 481,
-    "Type": "molestias",
+    "Id": 602,
+    "Name": "Johnson, Williamson and Jenkins",
+    "ToolTip": "Illo adipisci sint inventore sed et ullam rerum.",
+    "Deleted": true,
+    "Rank": 982,
+    "Type": "ex",
     "ChildItems": [
       {
-        "Id": 9,
-        "Name": "Block Inc and Sons",
-        "ToolTip": "Excepturi quas soluta et repudiandae ut voluptates.",
+        "Id": 193,
+        "Name": "Toy LLC",
+        "ToolTip": "Quidem eos voluptatem voluptates similique sapiente adipisci.",
         "Deleted": false,
-        "Rank": 701,
-        "Type": "dolorem",
+        "Rank": 331,
+        "Type": "rerum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 755,
-        "ExtraInfo": "temporibus",
-        "StyleHint": "accusantium",
-        "FullName": "Mrs. Tyshawn Upton III",
+        "IconHint": "dolorem",
+        "ColorBlock": 820,
+        "ExtraInfo": "omnis",
+        "StyleHint": "alias",
+        "FullName": "Noble Dooley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldType": "System.String",
+            "FieldLength": 678
           }
         }
       }
     ],
-    "IconHint": "delectus",
-    "ColorBlock": 781,
-    "ExtraInfo": "omnis",
-    "StyleHint": "et",
-    "FullName": "Nedra Cortney Gorczany Sr.",
+    "IconHint": "nostrum",
+    "ColorBlock": 718,
+    "ExtraInfo": "labore",
+    "StyleHint": "repudiandae",
+    "FullName": "Mr. Maida Schultz II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 686
       }
     }
   }

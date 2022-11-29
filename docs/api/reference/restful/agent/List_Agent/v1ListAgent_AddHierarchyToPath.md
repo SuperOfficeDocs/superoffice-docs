@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/AddHierarchyToPath
 
 Add a hierarchy item to a path
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a hierarchy item to a path
 ```http
 POST /api/v1/Agents/List/AddHierarchyToPath?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/List/AddHierarchyToPath?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Domain, Path, Name
+Domain, Path, Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ Domain, Path, Name
 | Path | string |  |
 | Name | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,13 +84,13 @@ Response body:
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "a",
-  "Name": "Hermiston-Greenholt"
+  "Path": "et",
+  "Name": "Pouros Inc and Sons"
 }
 ```
 
@@ -93,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 553,
+  "HierarchyId": 63,
   "Domain": "Dashboards",
-  "Name": "Fisher Group",
-  "Fullname": "non",
-  "ParentId": 117,
+  "Name": "Connelly Inc and Sons",
+  "Fullname": "nesciunt",
+  "ParentId": 38,
   "Children": [
     {
-      "HierarchyId": 266,
+      "HierarchyId": 544,
       "Domain": "Dashboards",
-      "Name": "Ziemann-Hermann",
-      "Fullname": "non",
-      "ParentId": 216,
+      "Name": "Schumm, Hodkiewicz and Farrell",
+      "Fullname": "quis",
+      "ParentId": 908,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-09-13T11:10:27.2264248+02:00",
-      "RegisteredAssociateId": 746,
-      "Updated": "2016-06-15T11:10:27.2264248+02:00",
-      "UpdatedAssociateId": 905,
+      "Registered": "2001-12-31T02:49:44.6704246+01:00",
+      "RegisteredAssociateId": 220,
+      "Updated": "1999-08-02T02:49:44.6704246+02:00",
+      "UpdatedAssociateId": 520,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 217
         }
       }
     }
   ],
-  "Registered": "2002-12-07T11:10:27.2264248+01:00",
-  "RegisteredAssociateId": 349,
-  "Updated": "2013-01-06T11:10:27.2264248+01:00",
-  "UpdatedAssociateId": 351,
+  "Registered": "2011-11-14T02:49:44.6704246+01:00",
+  "RegisteredAssociateId": 227,
+  "Updated": "2007-07-20T02:49:44.6704246+02:00",
+  "UpdatedAssociateId": 334,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 468
     }
   }
 }

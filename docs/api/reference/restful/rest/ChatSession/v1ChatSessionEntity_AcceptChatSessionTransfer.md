@@ -11,11 +11,18 @@ POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 
 Accept the transfer: assign the session to the user.
 
+
 If the session is not being transferred, nothing happens.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to send **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ If the session is not being transferred, nothing happens.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +90,7 @@ Response body:
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,29 +100,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 85,
-  "TopicId": 266,
+  "ChatSessionId": 581,
+  "TopicId": 500,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dicta",
-  "CustomerHost": "possimus",
-  "CustomerName": "Heidenreich LLC",
-  "CustomerEmail": "leola@gerhold.co.uk",
-  "CustomerPhone": "(146)591-6603 x077",
+  "CustomerAlias": "porro",
+  "CustomerHost": "ullam",
+  "CustomerName": "Kshlerin-Kunde",
+  "CustomerEmail": "juliet@mayertbradtke.info",
+  "CustomerPhone": "(358)230-9057 x6380",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Denesik-Nikolaus",
+  "CustomerCompanyName": "Wilderman-Wintheiser",
   "Status": "Closed",
-  "FirstMessage": "repellat",
-  "LastMessage": "ab",
-  "WhenRequested": "2008-04-25T11:10:52.5171445+02:00",
-  "WhenStarted": "2005-01-27T11:10:52.5171445+01:00",
-  "WhenEnded": "2001-08-12T11:10:52.5171445+02:00",
-  "WhenIdle": "2000-03-16T11:10:52.5171445+01:00",
-  "WhenFetched": "2018-04-16T11:10:52.5171445+02:00",
-  "SessionKey": "non",
-  "InitialQueuePos": 895,
-  "AlertLevel": 897,
-  "Rank": 127,
+  "FirstMessage": "voluptas",
+  "LastMessage": "non",
+  "WhenRequested": "2018-12-26T02:49:50.651535+01:00",
+  "WhenStarted": "2005-12-05T02:49:50.651535+01:00",
+  "WhenEnded": "2003-07-02T02:49:50.651535+02:00",
+  "WhenIdle": "1999-05-29T02:49:50.651535+02:00",
+  "WhenFetched": "2005-11-21T02:49:50.651535+01:00",
+  "SessionKey": "iste",
+  "InitialQueuePos": 94,
+  "AlertLevel": 876,
+  "Rank": 757,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -122,13 +130,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 997,
+  "Rating": 1002,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldLength": 854
     }
   }
 }

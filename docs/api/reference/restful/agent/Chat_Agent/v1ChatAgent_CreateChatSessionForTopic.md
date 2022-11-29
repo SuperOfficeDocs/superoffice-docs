@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 
 Create a new session on a chat topic
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a new session on a chat topic
 ```http
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Chat/CreateChatSessionForTopic?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatTopicId
+ChatTopicId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,11 +103,11 @@ Response body:
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 81
+  "ChatTopicId": 283
 }
 ```
 
@@ -110,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 266,
-  "TopicId": 985,
+  "ChatSessionId": 429,
+  "TopicId": 545,
   "User": null,
   "Person": null,
-  "CustomerAlias": "totam",
-  "CustomerHost": "voluptas",
-  "CustomerName": "Olson Group",
-  "CustomerEmail": "roberto_bruen@funk.biz",
-  "CustomerPhone": "741.627.1142 x4575",
+  "CustomerAlias": "tempore",
+  "CustomerHost": "consequatur",
+  "CustomerName": "Bahringer LLC",
+  "CustomerEmail": "caleigh@morar.name",
+  "CustomerPhone": "1-907-641-5949 x26374",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Walter, Mosciski and O'Kon",
+  "CustomerCompanyName": "Wisoky, Schmidt and Quigley",
   "Status": "Closed",
-  "FirstMessage": "harum",
+  "FirstMessage": "ducimus",
   "LastMessage": "et",
-  "WhenRequested": "2013-10-04T11:10:26.1865273+02:00",
-  "WhenStarted": "1997-11-13T11:10:26.1865273+01:00",
-  "WhenEnded": "2017-03-31T11:10:26.1865273+02:00",
-  "WhenIdle": "2000-12-28T11:10:26.1865273+01:00",
-  "WhenFetched": "2010-10-14T11:10:26.1865273+02:00",
-  "SessionKey": "deleniti",
-  "InitialQueuePos": 239,
-  "AlertLevel": 713,
-  "Rank": 351,
+  "WhenRequested": "2019-04-15T02:49:43.8410284+02:00",
+  "WhenStarted": "2000-11-16T02:49:43.8410284+01:00",
+  "WhenEnded": "2016-02-09T02:49:43.8410284+01:00",
+  "WhenIdle": "2004-10-17T02:49:43.8410284+02:00",
+  "WhenFetched": "2007-12-12T02:49:43.8410284+01:00",
+  "SessionKey": "eum",
+  "InitialQueuePos": 199,
+  "AlertLevel": 991,
+  "Rank": 586,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -140,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 232,
+  "Rating": 638,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldType": "System.String",
+      "FieldLength": 914
     }
   }
 }

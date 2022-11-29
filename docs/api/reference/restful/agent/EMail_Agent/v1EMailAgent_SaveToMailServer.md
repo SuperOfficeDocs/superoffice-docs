@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/SaveToMailServer
 
 Save the passed e-mail back to the mail server
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Save the passed e-mail back to the mail server
 ```http
 POST /api/v1/Agents/EMail/SaveToMailServer?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/EMail/SaveToMailServer?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Email
+Email 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Email |  | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,146 +119,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 711,
-      "ContactName": "Schuster LLC",
-      "PersonId": 602,
-      "PersonName": "Schoen Group",
-      "AssociateId": 290,
-      "Address": "magni",
-      "EmailId": 360,
+      "ContactId": 39,
+      "ContactName": "Daniel LLC",
+      "PersonId": 522,
+      "PersonName": "Pollich, Cole and Trantow",
+      "AssociateId": 241,
+      "Address": "voluptas",
+      "EmailId": 602,
       "DuplicatePersonIds": [
-        262,
-        664
+        935,
+        990
       ],
-      "Name": "Bauch, Considine and Stanton",
+      "Name": "Stroman, Schiller and Feil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldType": "System.String",
+          "FieldLength": 277
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 695,
-      "ContactName": "Block-Herzog",
-      "PersonId": 849,
-      "PersonName": "Pouros, Schuster and Fahey",
-      "AssociateId": 113,
-      "Address": "cupiditate",
-      "EmailId": 264,
+      "ContactId": 384,
+      "ContactName": "Daugherty, Luettgen and Schamberger",
+      "PersonId": 629,
+      "PersonName": "Brakus, Hyatt and Barrows",
+      "AssociateId": 782,
+      "Address": "molestias",
+      "EmailId": 451,
       "DuplicatePersonIds": [
-        660,
-        83
+        895,
+        597
       ],
-      "Name": "Bergstrom, Marks and Howe",
+      "Name": "Bogan, Hessel and Pagac",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldType": "System.String",
+          "FieldLength": 39
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 605,
-      "ContactName": "Durgan, Romaguera and Schumm",
-      "PersonId": 770,
-      "PersonName": "Gutmann, Glover and Donnelly",
-      "AssociateId": 254,
-      "Address": "soluta",
-      "EmailId": 73,
+      "ContactId": 58,
+      "ContactName": "Leffler-Cummings",
+      "PersonId": 639,
+      "PersonName": "Padberg, Larkin and Reichert",
+      "AssociateId": 930,
+      "Address": "temporibus",
+      "EmailId": 993,
       "DuplicatePersonIds": [
-        968,
-        16
+        66,
+        916
       ],
-      "Name": "Torphy, Conn and Hammes",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 585
-        }
-      }
-    }
-  ],
-  "Subject": "assumenda",
-  "HTMLBody": "maiores",
-  "From": null,
-  "Sent": "2016-12-11T11:10:26.9884551+01:00",
-  "Size": 31,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "neque",
-  "PlainBody": "iusto",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 760,
-  "Attachments": [
-    {
-      "Description": "Customizable background adapter",
-      "Filename": "accusantium",
-      "Size": 793,
-      "Type": "molestias",
-      "Encoding": "perspiciatis",
-      "Id": "veritatis",
-      "Disposition": "quas",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Ernser LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 816
+        }
+      }
+    }
+  ],
+  "Subject": "at",
+  "HTMLBody": "voluptates",
+  "From": null,
+  "Sent": "2013-05-22T02:49:44.3566372+02:00",
+  "Size": 713,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "id",
+  "PlainBody": "eos",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 864,
+  "Attachments": [
+    {
+      "Description": "Integrated neutral parallelism",
+      "Filename": "molestiae",
+      "Size": 878,
+      "Type": "debitis",
+      "Encoding": "repellendus",
+      "Id": "eligendi",
+      "Disposition": "cupiditate",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 207
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jones Group",
+      "Name": "Hickle-Hills",
       "Values": [
-        "earum",
-        "et"
+        "totam",
+        "nesciunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldLength": 254
         }
       }
     },
     {
-      "Name": "Jones Group",
+      "Name": "Hickle-Hills",
       "Values": [
-        "earum",
-        "et"
+        "totam",
+        "nesciunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldLength": 254
         }
       }
     }
   ],
-  "FolderName": "Brekke Group",
-  "EmailItemId": 602,
-  "AccountId": 183,
-  "ReceivedAt": "2004-09-14T11:10:26.9894599+02:00",
+  "FolderName": "Russel-Durgan",
+  "EmailItemId": 50,
+  "AccountId": 794,
+  "ReceivedAt": "2015-03-28T02:49:44.3566372+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-01-04T11:10:26.9894599+01:00",
+  "RepliedAt": "2002-07-10T02:49:44.3566372+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -257,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 619
+      "FieldLength": 587
     }
   }
 }

@@ -11,11 +11,18 @@ GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 
 Gets user groups visible for the DeliveryType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Block-Johns",
-    "ToolTip": "Ratione tempora velit quia.",
+    "Id": 109,
+    "Name": "Kulas Inc and Sons",
+    "ToolTip": "Molestias voluptate repellat ut ipsam.",
     "Deleted": false,
-    "Rank": 692,
-    "Type": "fugit",
-    "ColorBlock": 49,
-    "IconHint": "vero",
-    "Selected": false,
-    "LastChanged": "2016-04-27T11:10:54.2648972+02:00",
+    "Rank": 109,
+    "Type": "et",
+    "ColorBlock": 555,
+    "IconHint": "atque",
+    "Selected": true,
+    "LastChanged": "2022-07-17T02:49:52.2190678+02:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Rutherford-Spencer",
-        "ToolTip": "Omnis ut dolorem voluptas ut.",
+        "Id": 743,
+        "Name": "Kiehn LLC",
+        "ToolTip": "Unde rerum incidunt animi.",
         "Deleted": false,
-        "Rank": 523,
-        "Type": "illum",
-        "ColorBlock": 101,
-        "IconHint": "animi",
-        "Selected": true,
-        "LastChanged": "2015-01-08T11:10:54.2648972+01:00",
+        "Rank": 372,
+        "Type": "eligendi",
+        "ColorBlock": 216,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2008-03-31T02:49:52.2190678+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "id",
-        "Hidden": false,
-        "FullName": "Miss Sigurd Mathew Price Sr.",
+        "ExtraInfo": "iste",
+        "StyleHint": "odio",
+        "Hidden": true,
+        "FullName": "Mr. Garret Janet Hand Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 93
+            "FieldType": "System.String",
+            "FieldLength": 384
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "ullam",
+    "ExtraInfo": "cum",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Vincent Kshlerin",
+    "FullName": "Gaylord Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 636
+        "FieldLength": 152
       }
     }
   }

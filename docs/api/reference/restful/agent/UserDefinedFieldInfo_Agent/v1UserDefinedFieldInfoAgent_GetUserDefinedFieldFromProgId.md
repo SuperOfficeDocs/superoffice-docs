@@ -11,7 +11,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 
 Return information about the given user defined field identified by the owner and the prog-id.
 
+
 The prog-id is used as the key in the entity carriers. Note this may be different than the currently published fields.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The prog-id is used as the key in the entity carriers. Note this may be differen
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProgId, OwnerType
+ProgId, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProgId | string |  |
 | OwnerType | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,11 +109,11 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ipsa",
+  "ProgId": "vero",
   "OwnerType": "Appointment"
 }
 ```
@@ -117,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 962,
-  "ColumnId": 976,
-  "FieldDefault": "ut",
-  "FieldHeight": 532,
-  "FieldLabel": "minima",
-  "FieldLeft": 921,
-  "FieldTop": 741,
+  "UDefFieldId": 193,
+  "ColumnId": 748,
+  "FieldDefault": "et",
+  "FieldHeight": 350,
+  "FieldLabel": "non",
+  "FieldLeft": 643,
+  "FieldTop": 146,
   "FieldType": "Checkbox",
-  "FieldWidth": 60,
-  "FormatMask": "quis",
+  "FieldWidth": 595,
+  "FormatMask": "asperiores",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 762,
-  "LabelLeft": 846,
-  "LabelTop": 425,
-  "LabelWidth": 275,
-  "LastVersionId": 681,
-  "ListTableId": 932,
+  "IsIndexed": false,
+  "LabelHeight": 101,
+  "LabelLeft": 592,
+  "LabelTop": 707,
+  "LabelWidth": 447,
+  "LastVersionId": 856,
+  "ListTableId": 991,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 583,
-  "ProgId": "ea",
-  "IsReadOnly": true,
-  "ShortLabel": "placeat",
-  "TabOrder": 270,
-  "TextLength": 134,
-  "Tooltip": "at",
-  "UdefIdentity": 822,
-  "UDListDefinitionId": 634,
+  "Page1LineNo": 531,
+  "ProgId": "doloremque",
+  "IsReadOnly": false,
+  "ShortLabel": "sit",
+  "TabOrder": 111,
+  "TextLength": 49,
+  "Tooltip": "quidem",
+  "UdefIdentity": 982,
+  "UDListDefinitionId": 638,
   "Justification": "Center",
-  "Version": 368,
-  "TemplateVariableName": "Williamson, Mills and McDermott",
-  "HasBeenPublished": false,
-  "MdoListName": "Gaylord-Stroman",
+  "Version": 906,
+  "TemplateVariableName": "Glover LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Hoppe, Leannon and DuBuque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldType": "System.String",
+      "FieldLength": 818
     }
   }
 }

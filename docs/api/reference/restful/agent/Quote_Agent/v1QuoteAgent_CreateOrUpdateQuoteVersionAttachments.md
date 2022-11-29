@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/CreateOrUpdateQuoteVersionAttachments
 
 Look at the Quote version, related sale and sale type, and ensure that the correct QuoteVersionAttachment records exist.
 
+
 This method may create or delete records
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This method may create or delete records
 ```http
 POST /api/v1/Agents/Quote/CreateOrUpdateQuoteVersionAttachments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Quote/CreateOrUpdateQuoteVersionAttachments?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId
+QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
+
 
 ## Response: array
 
@@ -68,11 +76,11 @@ Response body: array
 POST /api/v1/Agents/Quote/CreateOrUpdateQuoteVersionAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 981
+  "QuoteVersionId": 874
 }
 ```
 
@@ -84,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 577,
+    "DocumentId": 293,
     "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 838
+        "FieldType": "System.Int32",
+        "FieldLength": 287
       }
     }
   },
   {
-    "DocumentId": 577,
+    "DocumentId": 293,
     "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 838
+        "FieldType": "System.Int32",
+        "FieldLength": 287
       }
     }
   }

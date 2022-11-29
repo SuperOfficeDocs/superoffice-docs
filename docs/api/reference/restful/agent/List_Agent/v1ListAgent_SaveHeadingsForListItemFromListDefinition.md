@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 
 Saves the active headings for the list item.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves the active headings for the list item.
 ```http
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, ListItemId, Headings
+UdListDefinitionId, ListItemId, Headings 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | ListItemId | int32 |  |
 | Headings | array |  |
+
 
 ## Response: array
 
@@ -81,32 +89,32 @@ Response body: array
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 871,
-  "ListItemId": 776,
+  "UdListDefinitionId": 286,
+  "ListItemId": 838,
   "Headings": [
     {
-      "Id": 361,
-      "Name": "Stiedemann-Schulist",
-      "ToolTip": "Harum nihil illo ipsa repudiandae eum qui.",
+      "Id": 206,
+      "Name": "Mraz Group",
+      "ToolTip": "Cum et et.",
       "Deleted": false,
-      "Rank": 730,
-      "Type": "deleniti",
-      "ColorBlock": 661,
-      "IconHint": "culpa",
-      "Selected": false,
-      "LastChanged": "2013-11-06T11:10:27.1784525+01:00",
+      "Rank": 64,
+      "Type": "nisi",
+      "ColorBlock": 198,
+      "IconHint": "nulla",
+      "Selected": true,
+      "LastChanged": "2002-11-18T02:49:44.6235457+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dicta",
-      "StyleHint": "natus",
-      "Hidden": true,
-      "FullName": "Mathew Hyatt"
+      "ExtraInfo": "optio",
+      "StyleHint": "perspiciatis",
+      "Hidden": false,
+      "FullName": "Terrence Connelly"
     }
   ]
 }
@@ -120,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Langworth, Nolan and Little",
-    "ToolTip": "Iste sit et aut deleniti.",
-    "Deleted": false,
+    "Id": 366,
+    "Name": "Jewess Group",
+    "ToolTip": "Doloribus vel.",
+    "Deleted": true,
     "Rank": 138,
-    "Type": "officiis",
-    "ColorBlock": 475,
-    "IconHint": "esse",
-    "Selected": true,
-    "LastChanged": "2019-03-27T11:10:27.1804525+01:00",
+    "Type": "esse",
+    "ColorBlock": 36,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2008-02-01T02:49:44.6235457+01:00",
     "ChildItems": [
       {
-        "Id": 917,
-        "Name": "Kautzer, Little and Bashirian",
-        "ToolTip": "Est pariatur consectetur esse.",
-        "Deleted": true,
-        "Rank": 249,
-        "Type": "iure",
-        "ColorBlock": 268,
-        "IconHint": "dicta",
+        "Id": 746,
+        "Name": "Terry, Krajcik and Schaden",
+        "ToolTip": "Saepe qui.",
+        "Deleted": false,
+        "Rank": 71,
+        "Type": "aut",
+        "ColorBlock": 520,
+        "IconHint": "reprehenderit",
         "Selected": false,
-        "LastChanged": "2020-11-23T11:10:27.1804525+01:00",
+        "LastChanged": "2014-07-11T02:49:44.6235457+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Freeman Rice",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Dr. Wellington Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 913
+            "FieldType": "System.Int32",
+            "FieldLength": 153
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Prof. Peggie Johns",
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Dahlia Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 393
+        "FieldLength": 778
       }
     }
   }

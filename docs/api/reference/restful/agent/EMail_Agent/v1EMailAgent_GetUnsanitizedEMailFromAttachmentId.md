@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 
 Get an e-mail based on an email and attachment id.
 
+
 The returned value is not sanitized.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The returned value is not sanitized.
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EmailId, AttachmentIds, IncludeAttachments
+EmailId, AttachmentIds, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +57,8 @@ EmailId, AttachmentIds, IncludeAttachments
 | AttachmentIds | array |  |
 | IncludeAttachments | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,16 +105,16 @@ Response body:
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 351,
+  "EmailId": 135,
   "AttachmentIds": [
-    "repudiandae",
-    "aut"
+    "nihil",
+    "ut"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -118,146 +127,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 67,
-      "ContactName": "Hirthe, Schmidt and Ritchie",
-      "PersonId": 761,
-      "PersonName": "Keeling, Upton and Lang",
-      "AssociateId": 649,
-      "Address": "quo",
-      "EmailId": 143,
+      "ContactId": 687,
+      "ContactName": "Denesik, Pfannerstill and McKenzie",
+      "PersonId": 72,
+      "PersonName": "Klocko-Bosco",
+      "AssociateId": 398,
+      "Address": "sunt",
+      "EmailId": 194,
       "DuplicatePersonIds": [
-        297,
-        355
+        116,
+        698
       ],
-      "Name": "Goldner, Haley and Boehm",
+      "Name": "Boyer, Toy and Nolan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 890
+          "FieldType": "System.Int32",
+          "FieldLength": 53
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 672,
-      "ContactName": "Quitzon-Ortiz",
-      "PersonId": 875,
-      "PersonName": "Weissnat-Reinger",
-      "AssociateId": 307,
-      "Address": "quia",
-      "EmailId": 778,
+      "ContactId": 838,
+      "ContactName": "Johns-Padberg",
+      "PersonId": 253,
+      "PersonName": "Stark-Hintz",
+      "AssociateId": 164,
+      "Address": "perferendis",
+      "EmailId": 41,
       "DuplicatePersonIds": [
-        444,
-        915
+        491,
+        752
       ],
-      "Name": "Kerluke, Watsica and Huel",
+      "Name": "Lang-Kerluke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 89
+          "FieldType": "System.Int32",
+          "FieldLength": 104
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 448,
-      "ContactName": "Wiza, Collins and Stamm",
-      "PersonId": 624,
-      "PersonName": "Wiegand LLC",
-      "AssociateId": 683,
-      "Address": "vel",
-      "EmailId": 801,
+      "ContactId": 427,
+      "ContactName": "Gorczany, Bayer and Breitenberg",
+      "PersonId": 531,
+      "PersonName": "Koepp-Skiles",
+      "AssociateId": 472,
+      "Address": "accusamus",
+      "EmailId": 529,
       "DuplicatePersonIds": [
-        989,
-        300
+        558,
+        440
       ],
-      "Name": "Zulauf LLC",
+      "Name": "Schultz Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 194
+          "FieldLength": 83
         }
       }
     }
   ],
-  "Subject": "quo",
-  "HTMLBody": "est",
+  "Subject": "ut",
+  "HTMLBody": "sed",
   "From": null,
-  "Sent": "2004-08-18T11:10:26.9514476+02:00",
-  "Size": 81,
+  "Sent": "2022-01-28T02:49:44.4504155+01:00",
+  "Size": 76,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "vitae",
-  "PlainBody": "et",
+  "MessageID": "quisquam",
+  "PlainBody": "quia",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 310,
+  "ServerId": 245,
   "Attachments": [
     {
-      "Description": "Reactive optimal methodology",
-      "Filename": "eos",
-      "Size": 295,
-      "Type": "ipsa",
-      "Encoding": "provident",
-      "Id": "impedit",
-      "Disposition": "et",
+      "Description": "Future-proofed transitional open system",
+      "Filename": "eveniet",
+      "Size": 100,
+      "Type": "excepturi",
+      "Encoding": "alias",
+      "Id": "consequatur",
+      "Disposition": "vel",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldLength": 212
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Cummerata LLC",
+      "Name": "Nader, Reilly and Larson",
       "Values": [
-        "et",
-        "provident"
+        "rerum",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 167
+          "FieldType": "System.Int32",
+          "FieldLength": 675
         }
       }
     },
     {
-      "Name": "Cummerata LLC",
+      "Name": "Nader, Reilly and Larson",
       "Values": [
-        "et",
-        "provident"
+        "rerum",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 167
+          "FieldType": "System.Int32",
+          "FieldLength": 675
         }
       }
     }
   ],
-  "FolderName": "Crooks-Bode",
-  "EmailItemId": 51,
-  "AccountId": 218,
-  "ReceivedAt": "2000-10-02T11:10:26.9524548+02:00",
+  "FolderName": "Hirthe LLC",
+  "EmailItemId": 41,
+  "AccountId": 616,
+  "ReceivedAt": "2002-02-28T02:49:44.4504155+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1997-03-07T11:10:26.9524548+01:00",
+  "RepliedAt": "2009-06-21T02:49:44.4504155+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldLength": 905
     }
   }
 }

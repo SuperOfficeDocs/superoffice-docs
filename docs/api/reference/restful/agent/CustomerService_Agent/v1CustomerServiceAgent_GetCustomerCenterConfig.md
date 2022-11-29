@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig
 
 Gets a CustomerCenterConfig object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a CustomerCenterConfig object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=665
+POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=914
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +73,7 @@ Response body:
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 757,
+  "CustConfigId": 136,
   "Type": "Options",
-  "Config": "quia",
-  "CustLangId": 567,
-  "Registered": "1999-09-30T11:10:26.3964228+02:00",
-  "RegisteredAssociateId": 216,
-  "Updated": "2015-12-21T11:10:26.3964228+01:00",
-  "UpdatedAssociateId": 388,
+  "Config": "facere",
+  "CustLangId": 91,
+  "Registered": "2000-07-22T02:49:44.0285283+02:00",
+  "RegisteredAssociateId": 718,
+  "Updated": "1999-03-30T02:49:44.0285283+02:00",
+  "UpdatedAssociateId": 337,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 164
     }
   }
 }

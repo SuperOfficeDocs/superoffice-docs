@@ -11,7 +11,14 @@ GET /api/v1/Dashboard/default
 
 Set default values into a new Dashboard.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dashboard agent service CreateDefaultDashboard.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +60,7 @@ Response body:
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -62,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 75,
-  "AssociateId": 851,
-  "Caption": "et",
+  "DashboardId": 10,
+  "AssociateId": 181,
+  "Caption": "mollitia",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 538,
-      "Caption": "cum",
-      "Description": "Multi-lateral client-driven website",
-      "ChartName": "Oberbrunner LLC",
-      "ChartId": "voluptatem",
-      "IsDefault": false,
-      "AssociateId": 391,
-      "GroupId": 445,
-      "SelectionId": 138,
-      "Config": "qui",
+      "DashboardTileId": 694,
+      "Caption": "omnis",
+      "Description": "Re-contextualized bifurcated Graphic Interface",
+      "ChartName": "Welch, Towne and Schroeder",
+      "ChartId": "quas",
+      "IsDefault": true,
+      "AssociateId": 91,
+      "GroupId": 768,
+      "SelectionId": 568,
+      "Config": "alias",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -92,8 +100,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 223
+          "FieldType": "System.Int32",
+          "FieldLength": 622
         }
       }
     }
@@ -102,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldType": "System.Int32",
+      "FieldLength": 931
     }
   }
 }

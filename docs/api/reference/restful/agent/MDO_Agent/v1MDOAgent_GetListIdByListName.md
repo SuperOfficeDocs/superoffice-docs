@@ -11,7 +11,13 @@ POST /api/v1/Agents/MDO/GetListIdByListName
 
 Retrieve the UdListDefinition id of a list, by its name.
 
+
 Not all lists have such an ID, but those that are based on tables do (the list name is then the same as the table name)
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Not all lists have such an ID, but those that are based on tables do (the list n
 ```http
 POST /api/v1/Agents/MDO/GetListIdByListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/MDO/GetListIdByListName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name
+Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
+
 
 ## Response: int32
 
@@ -55,17 +63,18 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/MDO/GetListIdByListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Stanton-Gibson"
+  "Name": "Jacobson Inc and Sons"
 }
 ```
 
@@ -75,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-452
+534
 ```

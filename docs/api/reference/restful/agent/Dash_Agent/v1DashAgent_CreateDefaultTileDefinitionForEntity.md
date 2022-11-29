@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 
 Set Measure to CountAll and MeasureField to primary key field
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Set Measure to CountAll and MeasureField to primary key field
 ```http
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EntityName
+EntityName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EntityName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,7 +95,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Willms-Kuhic"
+  "EntityName": "Runolfsson, Watsica and O'Connell"
 }
 ```
 
@@ -98,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 403,
-  "Name": "Littel-Corwin",
-  "Description": "Configurable intangible capability",
-  "DefaultHeight": 835,
-  "DefaultWidth": 871,
+  "DashboardTileDefinitionId": 292,
+  "Name": "Block LLC",
+  "Description": "Managed encompassing leverage",
+  "DefaultHeight": 320,
+  "DefaultWidth": 570,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hartmann-Murazik",
-  "SelectionId": 375,
+  "EntityName": "Carroll, Marquardt and Mueller",
+  "SelectionId": 4,
   "CurrencyMode": "Base",
-  "CurrencyCode": "eum",
+  "CurrencyCode": "consequatur",
   "Measure": "Average",
-  "MeasureField": "qui",
-  "SortBy": "cum",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 467,
-  "MeasureByField": "quasi",
+  "MeasureField": "laudantium",
+  "SortBy": "consequatur",
+  "LayoutConfig": "laborum",
+  "SecondarySelectionId": 277,
+  "MeasureByField": "blanditiis",
   "Usage": "Dashboard",
-  "ProviderName": "Abbott, O'Reilly and Goyette",
+  "ProviderName": "Wyman, Lindgren and Pfannerstill",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 468
+      "FieldType": "System.Int32",
+      "FieldLength": 100
     }
   }
 }

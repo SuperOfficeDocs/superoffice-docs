@@ -11,6 +11,7 @@ PATCH /api/v1/Project/{id}
 
 Update a ProjectEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IProjectAgent} service SaveProjectEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ProjectEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IProjectAgent} service SaveProjectEntity.
 ```http
 PATCH /api/v1/Project/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Project/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 ProjectEntity  updated.
 
@@ -81,7 +93,7 @@ ProjectEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ProjectEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -126,18 +138,18 @@ Response body:
 PATCH /api/v1/Project/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "facilis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "facilis",
     "value": {}
   }
 ]
@@ -150,127 +162,127 @@ HTTP/1.1 200 ProjectEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 247,
-  "Name": "Pacocha LLC",
-  "ProjectNumber": "511522",
+  "ProjectId": 432,
+  "Name": "Bode-Zboncak",
+  "ProjectNumber": "620304",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 805,
-      "ContactId": 902,
-      "ProjectId": 382,
-      "ContactName": "Okuneva Inc and Sons",
+      "ProjectmemberId": 421,
+      "ContactId": 175,
+      "ProjectId": 117,
+      "ContactName": "Feil-Robel",
       "ContactDepartment": "",
-      "ProjectName": "Hand-Lebsack",
-      "EmailId": 12,
-      "EmailAddress": "kayla_abshire@murphy.co.uk",
-      "CountryId": 140,
-      "Firstname": "Jarred",
-      "MiddleName": "Hamill-Emmerich",
-      "Lastname": "Friesen",
-      "PersonId": 243,
-      "Mrmrs": "consequatur",
-      "ProjectMemberTypeName": "Harber, Corkery and D'Amore",
-      "Phone": "(112)234-5712 x607",
-      "PhoneId": 351,
-      "ProjectMemberTypeId": 604,
-      "EmailAddressName": "jorge.bogan@tromp.com",
-      "Comment": "tempore",
-      "FullName": "Prof. Shemar Gracie Hettinger III",
+      "ProjectName": "Reilly LLC",
+      "EmailId": 93,
+      "EmailAddress": "lenna.wunsch@dietrich.biz",
+      "CountryId": 631,
+      "Firstname": "Gunnar",
+      "MiddleName": "King, McKenzie and Kohler",
+      "Lastname": "Okuneva",
+      "PersonId": 886,
+      "Mrmrs": "ut",
+      "ProjectMemberTypeName": "Conn-Crooks",
+      "Phone": "140.992.1903",
+      "PhoneId": 903,
+      "ProjectMemberTypeId": 167,
+      "EmailAddressName": "danyka@emardkirlin.info",
+      "Comment": "provident",
+      "FullName": "Miss Shad Vidal Predovic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 525
+          "FieldLength": 761
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "omnis",
-      "StrippedValue": "quaerat",
-      "Description": "Profit-focused hybrid moderator",
+      "Value": "et",
+      "StrippedValue": "sit",
+      "Description": "Virtual well-modulated monitoring",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 614
+          "FieldLength": 738
         }
       }
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "quaerat",
-      "Description": "Profit-focused hybrid moderator",
+      "Value": "et",
+      "StrippedValue": "sit",
+      "Description": "Virtual well-modulated monitoring",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 614
+          "FieldLength": 738
         }
       }
     }
   ],
-  "CreatedDate": "1998-07-08T11:10:53.304174+02:00",
-  "UpdatedDate": "2018-10-17T11:10:53.304174+02:00",
-  "Description": "Profound discrete attitude",
-  "Postit": "molestiae",
+  "CreatedDate": "2006-04-20T02:49:51.3546907+02:00",
+  "UpdatedDate": "2014-06-22T02:49:51.3546907+02:00",
+  "Description": "Organic disintermediate middleware",
+  "Postit": "minus",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": true,
-  "ImageDescription": "Virtual context-sensitive product",
-  "ActiveStatusMonitorId": 292,
+  "HasImage": false,
+  "ImageDescription": "User-friendly 6th generation access",
+  "ActiveStatusMonitorId": 103,
   "Links": [
     {
-      "EntityName": "McDermott LLC",
-      "Id": 839,
-      "Description": "Implemented asynchronous artificial intelligence",
-      "ExtraInfo": "aut",
-      "LinkId": 392,
+      "EntityName": "Bechtelar Group",
+      "Id": 109,
+      "Description": "Operative 4th generation internet solution",
+      "ExtraInfo": "est",
+      "LinkId": 719,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 76
+          "FieldType": "System.Int32",
+          "FieldLength": 764
         }
       }
     }
   ],
-  "ActiveLinks": 106,
-  "Completed": true,
-  "NextMilestoneDate": "2013-02-14T11:10:53.3051739+01:00",
-  "NmdAppointmentId": 675,
-  "EndDate": "2010-03-21T11:10:53.3051739+01:00",
-  "ActiveErpLinks": 524,
+  "ActiveLinks": 273,
+  "Completed": false,
+  "NextMilestoneDate": "2014-08-13T02:49:51.3546907+02:00",
+  "NmdAppointmentId": 34,
+  "EndDate": "2018-03-28T02:49:51.3546907+02:00",
+  "ActiveErpLinks": 484,
   "UserDefinedFields": {
-    "SuperOffice:1": "1839688733",
-    "SuperOffice:2": "Amani Bins"
+    "SuperOffice:1": "1831051642",
+    "SuperOffice:2": "Tina Schroeder"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "a",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "dolorum",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "2002-06-03T11:10:53.3051739+02:00",
-  "PublishTo": "1995-06-08T11:10:53.3051739+02:00",
-  "PublishFrom": "2001-11-01T11:10:53.3051739+01:00",
+  "PublishEventDate": "2021-03-23T02:49:51.3546907+01:00",
+  "PublishTo": "2009-12-21T02:49:51.3546907+01:00",
+  "PublishFrom": "1999-02-01T02:49:51.3546907+01:00",
   "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 828
     }
   },
   "_Links": {

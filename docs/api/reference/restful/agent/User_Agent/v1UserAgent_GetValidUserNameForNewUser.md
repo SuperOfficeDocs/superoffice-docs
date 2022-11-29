@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetValidUserNameForNewUser
 
 Generates a valid username for an unsaved user
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Generates a valid username for an unsaved user
 ```http
 POST /api/v1/Agents/User/GetValidUserNameForNewUser?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/User/GetValidUserNameForNewUser?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-User
+User 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | User |  | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+
 
 ## Response: string
 
@@ -55,13 +65,14 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetValidUserNameForNewUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -75,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Abernathy LLC"
+"Reynolds Group"
 ```

@@ -11,11 +11,18 @@ GET /api/v1/Document/CustomField/{fieldName}
 
 Custom field meta-data (published user defined + extra fields) on DocumentEntity.
 
+
 Excludes standard fields.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | fieldName | string | The name of the custom field to return: 'x_foo' or 'SuperOffice:3' **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +70,7 @@ Response body:
 GET /api/v1/Document/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kuhic, Bauch and Herzog",
-  "DisplayName": "Mosciski Group",
-  "Description": "Function-based methodical implementation",
-  "ShortLabel": "animi",
-  "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": false,
+  "FieldName": "Rodriguez LLC",
+  "DisplayName": "Mann-Gaylord",
+  "Description": "Reduced bottom-line toolset",
+  "ShortLabel": "possimus",
+  "HideLabel": true,
+  "HideField": false,
+  "IsIndexed": true,
   "IsMandatory": true,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": true,
-  "Rank": 98,
-  "TemplateVariableName": "Hermiston Inc and Sons"
+  "Rank": 141,
+  "TemplateVariableName": "Nikolaus-Prohaska"
 }
 ```

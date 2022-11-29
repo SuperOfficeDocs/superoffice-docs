@@ -11,7 +11,13 @@ POST /api/v1/Agents/Ticket/GetForRmUi
 
 Get a ticket entity, adapted to the specific needs of the Request Management UI.
 
+
 WARNING: This endpoint is not guaranteed to be stable/compatible between versions
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ WARNING: This endpoint is not guaranteed to be stable/compatible between version
 ```http
 POST /api/v1/Agents/Ticket/GetForRmUi?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Ticket/GetForRmUi?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketId
+TicketId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,6 +71,7 @@ Response body:
 | LastChanged | date-time | The last time the ticket was modified. |
 | ReadByOwner | date-time | The datetime for when the ticket last was read by the owner. |
 | ReadByCustomer | date-time | The datetime for when the ticket was read by the customer. |
+| FirstReadByOwner | date-time | The datetime for when the ticket first was read by the current owner. |
 | FirstReadByUser | date-time | The datetime for when the ticket first was read by a user. |
 | Activate | date-time | When the ticket should be activated, if it is postponed. |
 | ClosedAt | date-time | When the ticket was closed. |
@@ -117,11 +126,11 @@ Response body:
 POST /api/v1/Agents/Ticket/GetForRmUi
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 153
+  "TicketId": 337
 }
 ```
 
@@ -132,20 +141,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 549,
-  "Title": "at",
-  "CreatedAt": "2003-03-19T11:10:28.2566936+01:00",
-  "LastChanged": "2018-11-29T11:10:28.2566936+01:00",
-  "ReadByOwner": "2002-02-26T11:10:28.2566936+01:00",
-  "ReadByCustomer": "1999-03-21T11:10:28.2566936+01:00",
-  "FirstReadByUser": "2017-05-11T11:10:28.2566936+02:00",
-  "Activate": "2013-01-28T11:10:28.2566936+01:00",
-  "ClosedAt": "2019-10-05T11:10:28.2566936+02:00",
-  "RepliedAt": "2012-11-21T11:10:28.2566936+01:00",
-  "AlertTimeout": "2006-02-07T11:10:28.2566936+01:00",
-  "Deadline": "2009-09-18T11:10:28.2566936+02:00",
+  "TicketId": 968,
+  "Title": "consequatur",
+  "CreatedAt": "1997-03-23T02:49:45.5153435+01:00",
+  "LastChanged": "2009-12-18T02:49:45.5153435+01:00",
+  "ReadByOwner": "2013-11-24T02:49:45.5153435+01:00",
+  "ReadByCustomer": "2018-11-04T02:49:45.5153435+01:00",
+  "FirstReadByOwner": "2015-05-13T02:49:45.5153435+02:00",
+  "FirstReadByUser": "2022-09-30T02:49:45.5153435+02:00",
+  "Activate": "2004-01-16T02:49:45.5153435+01:00",
+  "ClosedAt": "2013-05-09T02:49:45.5153435+02:00",
+  "RepliedAt": "2015-05-07T02:49:45.5153435+02:00",
+  "AlertTimeout": "2006-01-14T02:49:45.5153435+01:00",
+  "Deadline": "2013-03-17T02:49:45.5153435+01:00",
   "CreatedBy": null,
-  "Author": "quia",
+  "Author": "quis",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -156,154 +166,155 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "consequatur",
-      "PersonId": 640,
-      "Mrmrs": "dolorem",
-      "Firstname": "Ellis",
-      "Lastname": "Dare",
-      "MiddleName": "Nicolas-Reichel",
-      "Title": "voluptatem",
-      "Description": "Ameliorated contextually-based solution",
-      "Email": "casper@murphypagac.biz",
-      "FullName": "Godfrey Parisian",
-      "DirectPhone": "1-865-555-1005",
-      "FormalName": "Klocko-Rogahn",
-      "CountryId": 562,
-      "ContactId": 231,
-      "ContactName": "Grimes-Cremin",
-      "Retired": 318,
-      "Rank": 713,
-      "ActiveInterests": 492,
+      "Position": "nostrum",
+      "PersonId": 239,
+      "Mrmrs": "deleniti",
+      "Firstname": "Colten",
+      "Lastname": "Rowe",
+      "MiddleName": "Cassin Inc and Sons",
+      "Title": "similique",
+      "Description": "Cloned systemic methodology",
+      "Email": "kade@prohaska.biz",
+      "FullName": "Dr. Delilah Eladio Bauch DDS",
+      "DirectPhone": "449.468.6042 x9888",
+      "FormalName": "Beier-Parisian",
+      "CountryId": 770,
+      "ContactId": 507,
+      "ContactName": "D'Amore, Wuckert and Smitham",
+      "Retired": 298,
+      "Rank": 70,
+      "ActiveInterests": 784,
       "ContactDepartment": "",
-      "ContactCountryId": 827,
-      "ContactOrgNr": "1353899",
-      "FaxPhone": "691.689.4224 x0977",
-      "MobilePhone": "(813)080-7871 x66196",
-      "ContactPhone": "170.818.9998 x316",
-      "AssociateName": "Bednar Inc and Sons",
-      "AssociateId": 924,
+      "ContactCountryId": 105,
+      "ContactOrgNr": "911348",
+      "FaxPhone": "(731)330-8605",
+      "MobilePhone": "1-177-578-8551 x40462",
+      "ContactPhone": "378-201-4185 x1908",
+      "AssociateName": "Powlowski Inc and Sons",
+      "AssociateId": 691,
       "UsePersonAddress": false,
-      "ContactFax": "vero",
-      "Kanafname": "quibusdam",
-      "Kanalname": "consequatur",
-      "Post1": "dolor",
-      "Post2": "optio",
-      "Post3": "sapiente",
-      "EmailName": "noelia@berge.co.uk",
-      "ContactFullName": "Hipolito Monahan",
-      "ActiveErpLinks": 400,
-      "TicketPriorityId": 386,
-      "SupportLanguageId": 360,
-      "SupportAssociateId": 104,
+      "ContactFax": "mollitia",
+      "Kanafname": "quo",
+      "Kanalname": "voluptas",
+      "Post1": "cum",
+      "Post2": "aperiam",
+      "Post3": "minima",
+      "EmailName": "van@goodwinwaelchi.ca",
+      "ContactFullName": "Kaitlin Welch",
+      "ActiveErpLinks": 402,
+      "TicketPriorityId": 859,
+      "SupportLanguageId": 951,
+      "SupportAssociateId": 661,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 813
         }
       }
     }
   ],
-  "AlertLevel": 631,
-  "ConnectId": 476,
+  "AlertLevel": 159,
+  "ConnectId": 780,
   "ReadStatus": "Green",
-  "TimeToReply": 643,
-  "RealTimeToReply": 939,
-  "TimeToClose": 931,
-  "RealTimeToClose": 210,
-  "TimeSpentInternally": 463,
-  "TimeSpentExternally": 414,
-  "TimeSpentQueue": 169,
-  "RealTimeSpentInternally": 255,
-  "RealTimeSpentExternally": 100,
-  "RealTimeSpentQueue": 313,
+  "TimeToReply": 685,
+  "RealTimeToReply": 470,
+  "TimeToClose": 855,
+  "RealTimeToClose": 968,
+  "TimeSpentInternally": 580,
+  "TimeSpentExternally": 253,
+  "TimeSpentQueue": 324,
+  "RealTimeSpentInternally": 48,
+  "RealTimeSpentExternally": 342,
+  "RealTimeSpentQueue": 462,
   "HasAttachment": false,
-  "NumReplies": 80,
-  "NumMessages": 787,
-  "FromAddress": "delectus",
+  "NumReplies": 445,
+  "NumMessages": 30,
+  "FromAddress": "modi",
   "Messages": [
     {
-      "TicketMessageId": 856,
-      "CreatedAt": "2000-03-21T11:10:28.2616931+01:00",
+      "TicketMessageId": 748,
+      "CreatedAt": "2001-02-13T02:49:45.5153435+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "eos",
-      "PersonId": 635,
-      "PersonFullName": "Kraig Hirthe",
-      "ContactId": 939,
-      "ContactName": "Flatley-Green",
+      "Author": "est",
+      "PersonId": 796,
+      "PersonFullName": "Ms. Neoma Jarrod Gleason",
+      "ContactId": 612,
+      "ContactName": "Hirthe-Runolfsson",
       "ContactDepartment": "",
-      "NumAttachments": 826,
-      "EmailHeader": "elfrieda@dooleybode.uk",
+      "NumAttachments": 14,
+      "EmailHeader": "drew@kohler.biz",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "odio",
-      "Sentiment": 190,
-      "SentimentConfidence": 183,
-      "CreatedBy": 482,
+      "Language": "praesentium",
+      "Sentiment": 914,
+      "SentimentConfidence": 51,
+      "CreatedBy": 71,
+      "ChangedAt": "2013-09-05T02:49:45.5153435+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 633
+          "FieldLength": 545
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 499,
-      "Name": "Huels, Pfeffer and Ferry",
-      "ToolTip": "Laborum deleniti voluptatem omnis dolor.",
+      "Id": 104,
+      "Name": "Altenwerth, Heller and Rodriguez",
+      "ToolTip": "Ut sed ut eius magnam facilis.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldType": "System.String",
+          "FieldLength": 537
         }
       }
     },
     {
-      "Id": 499,
-      "Name": "Huels, Pfeffer and Ferry",
-      "ToolTip": "Laborum deleniti voluptatem omnis dolor.",
+      "Id": 104,
+      "Name": "Altenwerth, Heller and Rodriguez",
+      "ToolTip": "Ut sed ut eius magnam facilis.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldType": "System.String",
+          "FieldLength": 537
         }
       }
     }
   ],
   "Language": "cumque",
-  "Sentiment": 937,
-  "SentimentConfidence": 460,
-  "SuggestedCategoryId": 435,
+  "Sentiment": 502,
+  "SentimentConfidence": 590,
+  "SuggestedCategoryId": 950,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 252,
-  "IconHint": "totam",
+  "OrigHumanCategoryId": 37,
+  "IconHint": "explicabo",
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "fuga"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "quasi"
+    "CustomFields1": "quos",
+    "CustomFields2": "perferendis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldType": "System.String",
+      "FieldLength": 747
     }
   }
 }

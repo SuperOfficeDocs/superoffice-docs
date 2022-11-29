@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 
 Update a PreferenceDescription based on the section and key
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update a PreferenceDescription based on the section and key
 ```http
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Preference/SaveFromSectionAndKey?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Section, Key, PreferenceDescription
+Section, Key, PreferenceDescription 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ Section, Key, PreferenceDescription
 | Key | string |  |
 | PreferenceDescription |  | Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. <para /> Carrier object for PreferenceDescription. Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,8 +96,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "aut",
-  "Key": "velit",
+  "Section": "ut",
+  "Key": "nihil",
   "PreferenceDescription": null
 }
 ```
@@ -101,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 30,
-  "Section": "doloremque",
-  "Key": "dolore",
-  "Name": "Hauck-Feest",
+  "PrefDescId": 983,
+  "Section": "repellat",
+  "Key": "modi",
+  "Name": "Gusikowski, Collins and Schneider",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Team-oriented empowering time-frame",
-  "IsBuiltin": false,
-  "TableName": "Cruickshank, Wiza and Runolfsson",
-  "UserDefinedListId": 936,
-  "Rank": 778,
-  "SubGroup": "ex",
-  "MinLevel": 866,
-  "MaxValue": 509,
-  "MinValue": 596,
-  "RequiredLicense": "ipsa",
+  "Description": "Expanded empowering infrastructure",
+  "IsBuiltin": true,
+  "TableName": "Cartwright, Dicki and Gutkowski",
+  "UserDefinedListId": 881,
+  "Rank": 437,
+  "SubGroup": "ipsam",
+  "MinLevel": 346,
+  "MaxValue": 812,
+  "MinValue": 700,
+  "RequiredLicense": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldLength": 386
     }
   }
 }

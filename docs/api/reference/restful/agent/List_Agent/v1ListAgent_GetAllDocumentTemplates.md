@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllDocumentTemplates
 
 Returns all templates
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all templates
 ```http
 POST /api/v1/Agents/List/GetAllDocumentTemplates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/List/GetAllDocumentTemplates?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
+
 
 ## Response: array
 
@@ -105,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 647,
-    "Name": "Haag Inc and Sons",
-    "Tooltip": "tenetur",
-    "SaveInDb": 663,
-    "Filename": "consectetur",
-    "DefaultOref": "aut",
+    "DocumentTemplateId": 458,
+    "Name": "Bernier-Mante",
+    "Tooltip": "saepe",
+    "SaveInDb": 460,
+    "Filename": "quia",
+    "DefaultOref": "et",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 543,
-    "IntentId": 945,
-    "IsDefaultPublished": false,
-    "Rank": 188,
-    "LoadTemplateFromPlugin": 912,
-    "MimeType": "sequi",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 951,
+    "AutoeventId": 450,
+    "IntentId": 146,
+    "IsDefaultPublished": true,
+    "Rank": 182,
+    "LoadTemplateFromPlugin": 896,
+    "MimeType": "qui",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 860,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "bettye@mccullough.info",
+    "EmailSubject": "forest@weimann.us",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "christiana.farrell@farrell.info",
+    "SenderEmailAddress": "elsie@crona.com",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldLength": 409
       }
     }
   }

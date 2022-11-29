@@ -11,6 +11,12 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 
 Returns a default target assignment for the owner company.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns a default target assignment for the owner company.
 ```http
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -42,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,6 +62,7 @@ Response body:
 | TargetUserGroup |  | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | Currency |  | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
 | DimensionListItem | int32 | Id of the dimension list item this assignement is for |
+| DimensionListItemDisplayName | string | Display name of the dimension list item this assignement is for. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -63,7 +72,7 @@ Response body:
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,23 +82,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 709,
+  "TargetAssignmentInfoId": 755,
   "Values": [
-    910,
-    440
+    214,
+    2
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 664,
+  "DimensionListItem": 839,
+  "DimensionListItemDisplayName": "Zemlak, Thompson and Schaden",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldLength": 737
     }
   }
 }

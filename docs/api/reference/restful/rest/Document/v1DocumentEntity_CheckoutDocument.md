@@ -11,9 +11,15 @@ POST /api/v1/Document/{documentId}/Lock
 
 Check out a document for editing by the current user.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document ID **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Check out a document for editing by the current user.
 ```http
 POST /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
 ```
+
 
 ## Request Headers
 
@@ -38,7 +45,8 @@ POST /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +71,7 @@ Response body:
 POST /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ea",
-  "VersionId": "necessitatibus",
-  "Success": true,
+  "ExternalReference": "qui",
+  "VersionId": "inventore",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "animi",
-  "AdditionalInfo": "quia"
+  "Value": "consequatur",
+  "AdditionalInfo": "nihil"
 }
 ```

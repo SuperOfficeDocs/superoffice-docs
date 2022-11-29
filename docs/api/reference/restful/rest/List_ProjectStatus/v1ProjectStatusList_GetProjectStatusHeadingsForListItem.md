@@ -11,11 +11,17 @@ GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 
 Gets headings for the ProjectStatus list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Name": "Dare-Ward",
-    "ToolTip": "Aperiam laudantium aperiam blanditiis error.",
+    "Id": 936,
+    "Name": "Bogan, Parisian and Erdman",
+    "ToolTip": "Vitae voluptatem consequuntur assumenda sunt.",
     "Deleted": false,
-    "Rank": 95,
-    "Type": "ipsa",
-    "ColorBlock": 5,
-    "IconHint": "dolores",
+    "Rank": 217,
+    "Type": "id",
+    "ColorBlock": 104,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2019-02-11T11:10:54.4729297+01:00",
+    "LastChanged": "2015-03-11T02:49:52.3909486+01:00",
     "ChildItems": [
       {
-        "Id": 636,
-        "Name": "Buckridge LLC",
-        "ToolTip": "Laudantium voluptatem quia.",
-        "Deleted": true,
-        "Rank": 797,
-        "Type": "illum",
-        "ColorBlock": 82,
-        "IconHint": "laborum",
-        "Selected": false,
-        "LastChanged": "1996-05-28T11:10:54.4729297+02:00",
+        "Id": 715,
+        "Name": "Feest, Fritsch and Ferry",
+        "ToolTip": "Nesciunt architecto magnam laboriosam qui.",
+        "Deleted": false,
+        "Rank": 268,
+        "Type": "ut",
+        "ColorBlock": 89,
+        "IconHint": "hic",
+        "Selected": true,
+        "LastChanged": "2017-12-04T02:49:52.3909486+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "illo",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "quisquam",
         "Hidden": false,
-        "FullName": "Darrel Pacocha",
+        "FullName": "Kamren Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 329
+            "FieldLength": 851
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "est",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Danny Koss V",
+    "FullName": "Laisha Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 931
       }
     }
   }

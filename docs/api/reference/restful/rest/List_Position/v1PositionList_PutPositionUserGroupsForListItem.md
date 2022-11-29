@@ -11,11 +11,18 @@ PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Position list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Name": "Carroll, Blanda and Glover",
-    "ToolTip": "Fuga error necessitatibus hic esse eos possimus.",
+    "Id": 622,
+    "Name": "Ondricka LLC",
+    "ToolTip": "Ut commodi explicabo fugit corrupti.",
     "Deleted": true,
-    "Rank": 239,
-    "Type": "hic",
-    "ColorBlock": 248,
-    "IconHint": "quas",
-    "Selected": true,
-    "LastChanged": "2018-04-18T11:10:54.3739025+02:00",
+    "Rank": 841,
+    "Type": "libero",
+    "ColorBlock": 905,
+    "IconHint": "harum",
+    "Selected": false,
+    "LastChanged": "2017-03-21T02:49:52.3128229+01:00",
     "ChildItems": [
       {
-        "Id": 740,
-        "Name": "Bernhard-Rempel",
-        "ToolTip": "Aut natus.",
+        "Id": 562,
+        "Name": "Von LLC",
+        "ToolTip": "Omnis quia.",
         "Deleted": false,
-        "Rank": 944,
-        "Type": "amet",
-        "ColorBlock": 319,
-        "IconHint": "cupiditate",
+        "Rank": 857,
+        "Type": "quia",
+        "ColorBlock": 474,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2014-11-10T11:10:54.3739025+01:00",
+        "LastChanged": "2017-11-23T02:49:52.3128229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "rerum",
+        "StyleHint": "hic",
         "Hidden": false,
-        "FullName": "Miss Darrin Veronica Huel DDS"
+        "FullName": "Missouri Romaguera"
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "molestias",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Shaina Hermann"
+    "FullName": "Kailee Gerhold"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Hudson-Nicolas",
-    "ToolTip": "Alias enim animi voluptatem quia ratione.",
+    "Id": 690,
+    "Name": "Murray Inc and Sons",
+    "ToolTip": "Officiis voluptas sit.",
     "Deleted": false,
-    "Rank": 940,
-    "Type": "illo",
-    "ColorBlock": 937,
-    "IconHint": "aspernatur",
+    "Rank": 731,
+    "Type": "eligendi",
+    "ColorBlock": 557,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2011-03-05T11:10:54.375902+01:00",
+    "LastChanged": "2012-09-16T02:49:52.3128229+02:00",
     "ChildItems": [
       {
-        "Id": 150,
-        "Name": "Rath LLC",
-        "ToolTip": "Est culpa odit architecto est consequatur mollitia iusto.",
-        "Deleted": true,
-        "Rank": 580,
-        "Type": "est",
-        "ColorBlock": 213,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2021-02-18T11:10:54.375902+01:00",
+        "Id": 236,
+        "Name": "Schuppe-Towne",
+        "ToolTip": "Aliquam explicabo.",
+        "Deleted": false,
+        "Rank": 867,
+        "Type": "provident",
+        "ColorBlock": 889,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2015-07-15T02:49:52.3128229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "quas",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "pariatur",
         "Hidden": true,
-        "FullName": "Shaylee Nikolaus",
+        "FullName": "Marcel Von",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 184
+            "FieldLength": 564
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "non",
+    "ExtraInfo": "in",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Joaquin Considine Sr.",
+    "FullName": "Shanny Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldLength": 822
       }
     }
   }

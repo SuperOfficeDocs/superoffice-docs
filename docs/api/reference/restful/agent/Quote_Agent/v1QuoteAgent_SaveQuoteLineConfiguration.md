@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 
 Save a QuoteLineConfiguration object.
 
+
 It is not possible to add a new configuration.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It is not possible to add a new configuration.
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLineConfiguration
+QuoteLineConfiguration 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLineConfiguration |  | QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified. <para /> Carrier object for QuoteLineConfiguration. Services for the QuoteLineConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +83,7 @@ Response body:
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -90,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 151,
-  "FieldName": "Jakubowski Group",
-  "Label": "quisquam",
-  "Tooltip": "modi",
+  "QuoteLineConfigurationId": 787,
+  "FieldName": "Erdman, Oberbrunner and Keeling",
+  "Label": "blanditiis",
+  "Tooltip": "blanditiis",
   "Editable": false,
   "InUse": false,
-  "Mandatory": false,
-  "Rank": 154,
-  "RestrictEdit": true,
+  "Mandatory": true,
+  "Rank": 973,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldLength": 341
     }
   }
 }

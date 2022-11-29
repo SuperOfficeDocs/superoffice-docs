@@ -11,6 +11,7 @@ PATCH /api/v1/Sale/{id}
 
 Update a SaleEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.ISaleAgent} service SaveSaleEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SaleEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.ISaleAgent} service SaveSaleEntity.
 ```http
 PATCH /api/v1/Sale/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Sale/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 SaleEntity  updated.
 
@@ -81,7 +93,7 @@ SaleEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because SaleEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -139,18 +151,18 @@ Response body:
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "amet",
+    "path": "sunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "amet",
+    "path": "sunt",
     "value": {}
   }
 ]
@@ -169,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "dolor",
+  "SaleText": "at",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -178,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2020-05-24T11:10:53.4541813+02:00",
-  "Amount": 24608.167999999998,
-  "SaleId": 870,
-  "Earning": 13056.243999999999,
-  "EarningPercent": 2278.418,
-  "Heading": "pariatur",
-  "Number": "765854",
-  "Probability": 209,
-  "CreatedDate": "2011-10-03T11:10:53.4541813+02:00",
-  "UpdatedDate": "2002-10-20T11:10:53.4541813+02:00",
+  "Saledate": "2019-01-05T02:49:51.4738091+01:00",
+  "Amount": 22386.162,
+  "SaleId": 829,
+  "Earning": 29537.95,
+  "EarningPercent": 28453.586,
+  "Heading": "ad",
+  "Number": "429585",
+  "Probability": 7,
+  "CreatedDate": "2017-03-28T02:49:51.4738091+02:00",
+  "UpdatedDate": "2002-01-08T02:49:51.4738091+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 176,
+  "ActiveLinks": 472,
   "Links": [
     {
-      "EntityName": "Jones-Kozey",
-      "Id": 807,
-      "Description": "User-centric object-oriented protocol",
-      "ExtraInfo": "vel",
-      "LinkId": 11,
+      "EntityName": "Funk-Veum",
+      "Id": 676,
+      "Description": "Persistent coherent application",
+      "ExtraInfo": "consequatur",
+      "LinkId": 539,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 443
+          "FieldType": "System.Int32",
+          "FieldLength": 836
         }
       }
     }
   ],
-  "NextDueDate": "2017-04-28T11:10:53.4541813+02:00",
-  "Postit": "omnis",
+  "NextDueDate": "1995-08-31T02:49:51.4738091+02:00",
+  "Postit": "quos",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2010-05-31T11:10:53.4541813+02:00",
+  "ReopenDate": "2016-03-09T02:49:51.4738091+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Beatty-Mayert",
-      "Comment": "est",
-      "StakeholderRoleId": 668,
-      "CountryId": 684,
-      "PersonId": 30,
-      "EmailDescription": "pearl_howell@pollich.us",
-      "EmailId": 950,
-      "EmailAddress": "lindsey.kiehn@wisozk.info",
-      "PhoneId": 476,
-      "ContactName": "Marks, Trantow and Hegmann",
-      "ContactId": 951,
-      "SaleId": 774,
-      "Mrmrs": "reprehenderit",
-      "Firstname": "Theodore",
-      "MiddleName": "Boyle-Kautzer",
-      "Lastname": "Wiza",
-      "SaleStakeholderId": 607,
-      "Rank": 959,
-      "Phone": "976-773-9683 x25599",
+      "StakeholderRoleName": "Brekke LLC",
+      "Comment": "similique",
+      "StakeholderRoleId": 97,
+      "CountryId": 973,
+      "PersonId": 328,
+      "EmailDescription": "erick.stiedemann@schuppeweber.com",
+      "EmailId": 276,
+      "EmailAddress": "joanie_yost@schultzkuphal.uk",
+      "PhoneId": 280,
+      "ContactName": "Von, Bayer and Larson",
+      "ContactId": 693,
+      "SaleId": 307,
+      "Mrmrs": "reiciendis",
+      "Firstname": "Shanel",
+      "MiddleName": "Pollich, Welch and Keebler",
+      "Lastname": "Luettgen",
+      "SaleStakeholderId": 681,
+      "Rank": 93,
+      "Phone": "538-875-3938",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 275
         }
       }
     }
   ],
-  "ActiveErpLinks": 18,
+  "ActiveErpLinks": 559,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lois Orn",
-    "SuperOffice:2": "Mrs. Jimmy Susie Little"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Miss Vladimir Toy I"
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "magni"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "animi",
-    "CustomFields2": "aliquam"
+    "CustomFields1": "architecto",
+    "CustomFields2": "dolor"
   },
-  "PublishEventDate": "2001-03-08T11:10:53.4551792+01:00",
-  "PublishTo": "1996-08-11T11:10:53.4551792+02:00",
-  "PublishFrom": "2009-04-11T11:10:53.4551792+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2004-06-18T02:49:51.4738091+02:00",
+  "PublishTo": "2005-03-09T02:49:51.4738091+01:00",
+  "PublishFrom": "1995-07-26T02:49:51.4738091+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 146,
+      "VisibleId": 947,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 709
+          "FieldLength": 888
         }
       }
     },
     {
-      "VisibleId": 146,
+      "VisibleId": 947,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 709
+          "FieldLength": 888
         }
       }
     }
@@ -294,7 +306,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 946
     }
   },
   "_Links": {

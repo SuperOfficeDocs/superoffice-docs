@@ -11,11 +11,18 @@ PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ProductFamily list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Pacocha, Yost and Weber",
-    "ToolTip": "Quasi enim eum non dignissimos vel in ut.",
-    "Deleted": true,
-    "Rank": 575,
-    "Type": "sint",
-    "ColorBlock": 909,
-    "IconHint": "minima",
+    "Id": 769,
+    "Name": "Heaney Group",
+    "ToolTip": "Deleniti illo quis.",
+    "Deleted": false,
+    "Rank": 398,
+    "Type": "in",
+    "ColorBlock": 585,
+    "IconHint": "illo",
     "Selected": false,
-    "LastChanged": "2022-06-28T11:10:54.4359547+02:00",
+    "LastChanged": "1998-09-19T02:49:52.3597004+02:00",
     "ChildItems": [
       {
-        "Id": 433,
-        "Name": "Ernser, Gutkowski and Lynch",
-        "ToolTip": "Ipsum id nihil.",
-        "Deleted": false,
-        "Rank": 649,
-        "Type": "deleniti",
-        "ColorBlock": 69,
-        "IconHint": "aut",
+        "Id": 840,
+        "Name": "Schmitt Inc and Sons",
+        "ToolTip": "Harum voluptatem numquam.",
+        "Deleted": true,
+        "Rank": 952,
+        "Type": "tenetur",
+        "ColorBlock": 467,
+        "IconHint": "esse",
         "Selected": false,
-        "LastChanged": "1997-02-09T11:10:54.4359547+01:00",
+        "LastChanged": "1996-05-12T02:49:52.3597004+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "veniam",
+        "ExtraInfo": "sunt",
+        "StyleHint": "culpa",
         "Hidden": true,
-        "FullName": "Armando Steuber"
+        "FullName": "Mr. Ezequiel Mertz II"
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "exercitationem",
-    "Hidden": false,
-    "FullName": "Thalia Kunde"
+    "ExtraInfo": "tenetur",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Mr. Margret Dach"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 915,
-    "Name": "Feil LLC",
-    "ToolTip": "Amet error sapiente inventore harum praesentium aut illum.",
-    "Deleted": false,
-    "Rank": 739,
-    "Type": "dolor",
-    "ColorBlock": 468,
-    "IconHint": "ex",
-    "Selected": true,
-    "LastChanged": "2006-02-16T11:10:54.4379018+01:00",
+    "Id": 823,
+    "Name": "Hegmann Inc and Sons",
+    "ToolTip": "Dignissimos accusamus saepe.",
+    "Deleted": true,
+    "Rank": 113,
+    "Type": "quo",
+    "ColorBlock": 916,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "1999-11-29T02:49:52.3597004+01:00",
     "ChildItems": [
       {
-        "Id": 552,
-        "Name": "Mraz, DuBuque and Cronin",
-        "ToolTip": "Qui quaerat eum repudiandae dolorum fugit voluptatem soluta.",
-        "Deleted": true,
-        "Rank": 523,
-        "Type": "laboriosam",
-        "ColorBlock": 942,
-        "IconHint": "iste",
+        "Id": 164,
+        "Name": "Feeney-Cruickshank",
+        "ToolTip": "Quo blanditiis corrupti qui sapiente.",
+        "Deleted": false,
+        "Rank": 677,
+        "Type": "voluptatum",
+        "ColorBlock": 566,
+        "IconHint": "nesciunt",
         "Selected": true,
-        "LastChanged": "2014-09-22T11:10:54.4379018+02:00",
+        "LastChanged": "1998-07-22T02:49:52.3597004+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "modi",
+        "ExtraInfo": "nisi",
+        "StyleHint": "voluptatem",
         "Hidden": true,
-        "FullName": "Prof. Justine Schuppe",
+        "FullName": "Mrs. Clovis Khalid Harber I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 688
+            "FieldLength": 86
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Nellie Halvorson",
+    "ExtraInfo": "quae",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Adan Aufderhar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldLength": 216
       }
     }
   }

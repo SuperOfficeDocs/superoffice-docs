@@ -11,13 +11,21 @@ GET /api/v1/Role/{roleType}/FunctionRight
 
 Get a list of all functional rights for the given type of role.
 
-MDO List name = 'FunctionRights', extra='roleType=0'
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+MDO List name = 'FunctionRights', extra='roleType=0' 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | roleType | Enum: Employee, ExternalUser, Anonymous, System | Type of role (Employee/External/Anonymous/System) **Required** |
+
+
 
 ## Request Headers
 
@@ -31,6 +39,7 @@ MDO List name = 'FunctionRights', extra='roleType=0'
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -79,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Kovacek, Maggio and Reynolds",
-    "ToolTip": "Laudantium odit magni et fugiat minus esse.",
+    "Id": 301,
+    "Name": "Klocko, Mraz and Toy",
+    "ToolTip": "Saepe illo repellat qui earum itaque ut illum.",
     "Deleted": false,
-    "Rank": 61,
-    "Type": "aut",
-    "ColorBlock": 76,
-    "IconHint": "rerum",
+    "Rank": 375,
+    "Type": "ipsam",
+    "ColorBlock": 719,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "1996-02-11T11:10:53.3621455+01:00",
+    "LastChanged": "1998-05-27T02:49:51.4015667+02:00",
     "ChildItems": [
       {
-        "Id": 797,
-        "Name": "Kihn Inc and Sons",
-        "ToolTip": "Corporis veniam laudantium autem.",
+        "Id": 618,
+        "Name": "Langosh Group",
+        "ToolTip": "Architecto quisquam.",
         "Deleted": false,
-        "Rank": 932,
-        "Type": "enim",
-        "ColorBlock": 495,
-        "IconHint": "vero",
+        "Rank": 431,
+        "Type": "excepturi",
+        "ColorBlock": 827,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2004-03-12T11:10:53.3621455+01:00",
+        "LastChanged": "2019-08-29T02:49:51.4015667+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "et",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Janick Cronin",
+        "FullName": "Norene Monahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 344
+            "FieldLength": 595
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Ms. Georgianna Glover II",
+    "ExtraInfo": "est",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Jamie Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 967
+        "FieldLength": 95
       }
     }
   }

@@ -6,24 +6,8 @@ title: Targets_Agent
 /api/v1/Targets/Agent
 ```
 
----
 
-title: Targets_Agent
----
 
-```http
-/api/v1/Targets/Agent
-```
-
-* [POST Agents/Targets/CreateDefaultTargetAssignment](v1TargetsAgent_CreateDefaultTargetAssignment.md)
-
-* [POST Agents/Targets/CreateDefaultTargetGroup](v1TargetsAgent_CreateDefaultTargetGroup.md)
-
-* [POST Agents/Targets/SaveTargetGroup](v1TargetsAgent_SaveTargetGroup.md)
-
-* [POST Agents/Targets/DeleteTargetGroup](v1TargetsAgent_DeleteTargetGroup.md)
-
-* [POST Agents/Targets/GetTargetGroup](v1TargetsAgent_GetTargetGroup.md)
 
 * [POST Agents/Targets/CreateDefaultTargetAssignment](v1TargetsAgent_CreateDefaultTargetAssignment.md)
 
@@ -49,6 +33,16 @@ title: Targets_Agent
 
 * [POST Agents/Targets/GetTargetAssignmentForYear](v1TargetsAgent_GetTargetAssignmentForYear.md)
 
+* [POST Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension](v1TargetsAgent_CreateDefaultTargetAssignmentForCompanyWithDimension.md)
+
+* [POST Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension](v1TargetsAgent_CreateDefaultTargetAssignmentForUserGroupWithDimension.md)
+
+* [POST Agents/Targets/GetTargetAssignmentForYearAndDimension](v1TargetsAgent_GetTargetAssignmentForYearAndDimension.md)
+
+* [POST Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension](v1TargetsAgent_CreateDefaultTargetAssignmentForCompanyWithYearAndDimension.md)
+
+* [POST Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension](v1TargetsAgent_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension.md)
+
 * [POST Agents/Targets/GetTargetDimension](v1TargetsAgent_GetTargetDimension.md)
 
 * [POST Agents/Targets/GetTargetDimensionsForEntityType](v1TargetsAgent_GetTargetDimensionsForEntityType.md)
@@ -60,5 +54,7 @@ title: Targets_Agent
 * [POST Agents/Targets/GetTargetGroupForYear](v1TargetsAgent_GetTargetGroupForYear.md)
 
 * [POST Agents/Targets/ExportTargetGroupToExcel](v1TargetsAgent_ExportTargetGroupToExcel.md)
+
+* [POST Agents/Targets/GetTargetGroupForYearAndDimension](v1TargetsAgent_GetTargetGroupForYearAndDimension.md)
 
 * [POST Agents/Targets/GetTargetRevisionHistory](v1TargetsAgent_GetTargetRevisionHistory.md)

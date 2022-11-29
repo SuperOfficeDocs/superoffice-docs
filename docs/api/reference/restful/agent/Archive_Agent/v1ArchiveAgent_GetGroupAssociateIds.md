@@ -11,6 +11,12 @@ POST /api/v1/Agents/Archive/GetGroupAssociateIds
 
 Returns the  associate ids that belongs to the given groups
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the  associate ids that belongs to the given groups
 ```http
 POST /api/v1/Agents/Archive/GetGroupAssociateIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Archive/GetGroupAssociateIds?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GroupIds
+GroupIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | GroupIds | array |  |
+
 
 ## Response: array
 
@@ -53,19 +61,20 @@ OK
 
 Response body: array
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetGroupAssociateIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "GroupIds": [
-    218,
-    160
+    251,
+    888
   ]
 }
 ```
@@ -77,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  697,
-  868
+  946,
+  615
 ]
 ```

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 
 Update listItems under this heading
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update listItems under this heading
 ```http
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/List/SetListItemsForHeadingFromListName?$select=name,departm
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, HeadingId, ListItemIds, Enable
+UdListDefinitionName, HeadingId, ListItemIds, Enable 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ UdListDefinitionName, HeadingId, ListItemIds, Enable
 | ListItemIds | array |  |
 | Enable | bool |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +58,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -58,15 +67,15 @@ Response body:
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Abshire LLC",
-  "HeadingId": 801,
+  "UdListDefinitionName": "Bartoletti Group",
+  "HeadingId": 365,
   "ListItemIds": [
-    786,
-    582
+    400,
+    625
   ],
   "Enable": true
 }

@@ -11,6 +11,7 @@ PATCH /api/v1/DashTileDefinition/{id}
 
 Update a DashTileDefinition with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IDashAgent} service SaveDashTileDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashTileDefinition  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IDashAgent} service SaveDashTileDefinition.
 ```http
 PATCH /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 DashTileDefinition  updated.
 
@@ -81,7 +93,7 @@ DashTileDefinition  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because DashTileDefinition has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -120,12 +132,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "animi",
+    "path": "esse",
     "value": {}
   },
   {
     "op": "add",
-    "path": "animi",
+    "path": "esse",
     "value": {}
   }
 ]
@@ -138,36 +150,36 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 566,
-  "Name": "Bechtelar, Lang and Brekke",
-  "Description": "User-centric transitional core",
-  "DefaultHeight": 334,
-  "DefaultWidth": 185,
+  "DashboardTileDefinitionId": 237,
+  "Name": "Wolf LLC",
+  "Description": "User-centric interactive migration",
+  "DefaultHeight": 53,
+  "DefaultWidth": 217,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Conn-McDermott",
-  "SelectionId": 104,
+  "EntityName": "Schaden-Ondricka",
+  "SelectionId": 564,
   "CurrencyMode": "Base",
-  "CurrencyCode": "eligendi",
+  "CurrencyCode": "placeat",
   "Measure": "Average",
-  "MeasureField": "ut",
-  "SortBy": "quidem",
-  "LayoutConfig": "quasi",
-  "SecondarySelectionId": 736,
-  "MeasureByField": "tenetur",
+  "MeasureField": "rem",
+  "SortBy": "expedita",
+  "LayoutConfig": "labore",
+  "SecondarySelectionId": 413,
+  "MeasureByField": "in",
   "Usage": "Dashboard",
-  "ProviderName": "Raynor Inc and Sons",
+  "ProviderName": "Breitenberg-Crona",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

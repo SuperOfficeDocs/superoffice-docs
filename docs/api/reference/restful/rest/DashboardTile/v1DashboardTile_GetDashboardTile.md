@@ -11,11 +11,17 @@ GET /api/v1/DashboardTile/{id}
 
 Gets a DashboardTile object.
 
+
 Calls the Dashboard agent service GetDashboardTile.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DashboardTile to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Dashboard agent service GetDashboardTile.
 ```http
 GET /api/v1/DashboardTile/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/DashboardTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 DashboardTile found.
 
@@ -49,7 +57,7 @@ DashboardTile found.
 | 200 | DashboardTile found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +85,7 @@ Response body:
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,64 +95,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 945,
-  "Caption": "molestias",
-  "Description": "Balanced national alliance",
-  "ChartName": "Stark, Dicki and Luettgen",
-  "ChartId": "perspiciatis",
+  "DashboardTileId": 824,
+  "Caption": "voluptatem",
+  "Description": "Secured optimizing core",
+  "ChartName": "Reilly, Padberg and Champlin",
+  "ChartId": "iusto",
   "IsDefault": false,
-  "AssociateId": 805,
-  "GroupId": 398,
-  "SelectionId": 706,
-  "Config": "corporis",
+  "AssociateId": 42,
+  "GroupId": 207,
+  "SelectionId": 518,
+  "Config": "quas",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Miller Inc and Sons",
-      "Description": "Programmable intangible instruction set",
+      "Name": "Bode-Botsford",
+      "Description": "Intuitive human-resource installation",
       "Type": "Boolean",
-      "ListName": "Kiehn, Cronin and Bins",
+      "ListName": "Olson, Bogisich and Roob",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptatibus",
-      "DefaultDataOption": false,
+      "Value": "recusandae",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 380
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 88,
+      "VisibleId": 164,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldType": "System.String",
+          "FieldLength": 615
         }
       }
     },
     {
-      "VisibleId": 88,
+      "VisibleId": 164,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldType": "System.String",
+          "FieldLength": 615
         }
       }
     }
@@ -154,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 849
     }
   },
   "_Links": {

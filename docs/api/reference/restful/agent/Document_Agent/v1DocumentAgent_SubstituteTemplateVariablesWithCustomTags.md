@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags
 
 Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.
 
+
 &lt;p/&gt;This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Parse the source string, and replace any template variable tags with their value
 ```http
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Source, GeneratorEncoding, CustomTags, CustomValues, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName
+Source, GeneratorEncoding, CustomTags, CustomValues, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,6 +63,7 @@ Source, GeneratorEncoding, CustomTags, CustomValues, ContactId, PersonId, Appoin
 | ProjectId | int32 |  |
 | CultureName | string |  |
 
+
 ## Response: string
 
 OK
@@ -65,6 +73,7 @@ OK
 | 200 | OK |
 
 Response body: string
+
 
 ## Sample request
 
@@ -76,23 +85,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "placeat",
+  "Source": "dicta",
   "GeneratorEncoding": "Html",
   "CustomTags": [
-    "maiores",
-    "eveniet"
+    "odit",
+    "deleniti"
   ],
   "CustomValues": [
-    "nemo",
-    "laborum"
+    "quo",
+    "aut"
   ],
-  "ContactId": 758,
-  "PersonId": 966,
-  "AppointmentId": 549,
-  "DocumentId": 237,
-  "SaleId": 319,
-  "SelectionId": 227,
-  "ProjectId": 47,
+  "ContactId": 139,
+  "PersonId": 35,
+  "AppointmentId": 132,
+  "DocumentId": 276,
+  "SaleId": 5,
+  "SelectionId": 4,
+  "ProjectId": 536,
   "CultureName": "sv"
 }
 ```
@@ -103,5 +112,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"commodi"
+"a"
 ```

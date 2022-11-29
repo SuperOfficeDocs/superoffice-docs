@@ -11,11 +11,18 @@ DELETE /api/v1/Relation/{id}
 
 Deletes the ContactRelationEntity
 
+
 Calls the Relation agent service DeleteContactRelation.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ContactRelationEntity to be deleted. **Required** |
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Calls the Relation agent service DeleteContactRelation.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ContactRelationEntity deleted.
 
@@ -35,7 +43,8 @@ ContactRelationEntity deleted.
 | 204 | ContactRelationEntity deleted. |
 | 412 | Delete aborted because ContactRelationEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -43,7 +52,7 @@ Response body:
 DELETE /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

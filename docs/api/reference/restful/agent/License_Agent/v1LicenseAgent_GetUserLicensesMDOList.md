@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetUserLicensesMDOList
 
 Get all licenses in a MDOListItem structure.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all licenses in a MDOListItem structure.
 ```http
 POST /api/v1/Agents/License/GetUserLicensesMDOList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/License/GetUserLicensesMDOList?$select=name,department,categ
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -81,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Becker Inc and Sons",
-    "ToolTip": "Quis quia porro et ipsam.",
+    "Id": 49,
+    "Name": "Fritsch-Durgan",
+    "ToolTip": "Vel ex voluptas unde cum dolorum non occaecati.",
     "Deleted": false,
-    "Rank": 219,
-    "Type": "repudiandae",
-    "ColorBlock": 421,
-    "IconHint": "reiciendis",
-    "Selected": false,
-    "LastChanged": "2021-06-30T11:10:27.1114536+02:00",
+    "Rank": 156,
+    "Type": "ratione",
+    "ColorBlock": 354,
+    "IconHint": "sunt",
+    "Selected": true,
+    "LastChanged": "2009-10-24T02:49:44.576671+02:00",
     "ChildItems": [
       {
-        "Id": 823,
-        "Name": "Nikolaus Group",
-        "ToolTip": "Dolor voluptatem sed magnam odit animi.",
-        "Deleted": false,
-        "Rank": 137,
-        "Type": "quod",
-        "ColorBlock": 838,
-        "IconHint": "ullam",
+        "Id": 932,
+        "Name": "Pacocha Group",
+        "ToolTip": "Qui id quis sunt molestiae tempore dolor.",
+        "Deleted": true,
+        "Rank": 155,
+        "Type": "nihil",
+        "ColorBlock": 330,
+        "IconHint": "voluptates",
         "Selected": false,
-        "LastChanged": "1995-10-02T11:10:27.1114536+02:00",
+        "LastChanged": "2019-02-10T02:49:44.576671+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "nam",
+        "StyleHint": "deserunt",
         "Hidden": false,
-        "FullName": "Miss Treva Ritchie",
+        "FullName": "Dr. Ladarius Murazik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 521
+            "FieldLength": 281
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "iusto",
-    "Hidden": true,
-    "FullName": "Syble Prohaska",
+    "ExtraInfo": "dolores",
+    "StyleHint": "id",
+    "Hidden": false,
+    "FullName": "Miss Louie Watsica",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 803
       }
     }
   }

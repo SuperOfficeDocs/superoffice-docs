@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 
 Gets a TicketMessageEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=362
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=271
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +89,7 @@ Response body:
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,27 +99,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 769,
+  "EjMessageId": 345,
   "Ticket": null,
-  "CreatedAt": "2021-06-01T11:10:28.3072075+02:00",
+  "CreatedAt": "2003-04-18T02:49:45.5778449+02:00",
   "CreatedBy": null,
-  "Author": "sed",
+  "Author": "repudiandae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "cumque",
-  "TimeSpent": 711,
-  "Body": "commodi",
-  "HtmlBody": "consequatur",
-  "EmailHeader": "kaya@berge.us",
-  "DebugInfo": "nihil",
-  "MailSorter": "nemo",
+  "MessageId": "qui",
+  "TimeSpent": 754,
+  "Body": "ducimus",
+  "HtmlBody": "qui",
+  "EmailHeader": "clemmie@hayes.us",
+  "DebugInfo": "modi",
+  "MailSorter": "eius",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "a",
+  "SearchTitle": "voluptate",
   "MessageHeaders": [
     {
-      "Name": "Will, Kutch and Smitham",
-      "Value": "accusamus",
+      "Id": 935,
+      "Name": "Runolfsdottir, Howe and White",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,43 +128,29 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 908
-        }
-      }
-    },
-    {
-      "Name": "Will, Kutch and Smitham",
-      "Value": "accusamus",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldLength": 560
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "ad",
-  "Sentiment": 366,
-  "SentimentConfidence": 987,
+  "Important": false,
+  "Language": "iure",
+  "Sentiment": 201,
+  "SentimentConfidence": 789,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "tempora"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "quo"
+    "CustomFields1": "veritatis",
+    "CustomFields2": "autem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 17
     }
   }
 }

@@ -11,7 +11,14 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 
 Set default values into a new TargetAssignment.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,6 +54,7 @@ Response body:
 | TargetUserGroup |  | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | Currency |  | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
 | DimensionListItem | int32 | Id of the dimension list item this assignement is for |
+| DimensionListItemDisplayName | string | Display name of the dimension list item this assignement is for. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -65,23 +74,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 949,
+  "TargetAssignmentInfoId": 756,
   "Values": [
-    940,
-    306
+    33,
+    443
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 550,
+  "DimensionListItem": 173,
+  "DimensionListItemDisplayName": "Feest LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 416
     }
   }
 }

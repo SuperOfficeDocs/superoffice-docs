@@ -11,7 +11,13 @@ POST /api/v1/Agents/BLOB/SetAppData
 
 Get a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any.
 
+
 Existing data, if any, will be overwritten. Overwrite with a blank value to delete.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ Existing data, if any, will be overwritten. Overwrite with a blank value to dele
 POST /api/v1/Agents/BLOB/SetAppData?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,16 +40,17 @@ POST /api/v1/Agents/BLOB/SetAppData?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Key, Data
+Key, Data 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Key | string |  |
 | Data | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +58,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -58,12 +67,12 @@ Response body:
 POST /api/v1/Agents/BLOB/SetAppData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "harum",
-  "Data": "deleniti"
+  "Key": "veritatis",
+  "Data": "neque"
 }
 ```
 

@@ -11,7 +11,14 @@ POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 
 Set default values into a new QuoteAlternative.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,35 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 477,
-  "ERPQuoteAlternativeKey": "dolor",
-  "QuoteVersionId": 601,
-  "Name": "Mills, Mosciski and Gulgowski",
-  "Description": "Open-architected dynamic help-desk",
+  "QuoteAlternativeId": 485,
+  "ERPQuoteAlternativeKey": "necessitatibus",
+  "QuoteVersionId": 360,
+  "Name": "Wiegand Inc and Sons",
+  "Description": "Re-engineered national frame",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 927.664,
-  "ERPDiscountAmount": 8117.0599999999995,
-  "DiscountPercent": 12623.752,
-  "DiscountAmount": 28403.442,
+  "ERPDiscountPercent": 6973.15,
+  "ERPDiscountAmount": 7026.428,
+  "DiscountPercent": 30236.832,
+  "DiscountAmount": 335.33799999999997,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "odit",
-  "VAT": 23570.814,
-  "EarningPercent": 6863.46,
-  "EarningAmount": 14676.521999999999,
-  "SubTotal": 29519.146,
-  "TotalPrice": 25667.46,
-  "ExtraField1": "quibusdam",
-  "ExtraField2": "culpa",
-  "ExtraField3": "hic",
-  "ExtraField4": "ipsam",
-  "ExtraField5": "in",
+  "VATInfo": "dolor",
+  "VAT": 15306.456,
+  "EarningPercent": 3895.562,
+  "EarningAmount": 22517.79,
+  "SubTotal": 26360.074,
+  "TotalPrice": 23304.424,
+  "ExtraField1": "porro",
+  "ExtraField2": "necessitatibus",
+  "ExtraField3": "aut",
+  "ExtraField4": "occaecati",
+  "ExtraField5": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldLength": 21
     }
   }
 }

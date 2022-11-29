@@ -11,6 +11,13 @@ POST /api/v1/Agents/CustomerService/SaveSmsConfig
 
 Updates the existing SmsConfig or creates a new SmsConfig if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing SmsConfig or creates a new SmsConfig if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SmsConfig to be saved.
+The SmsConfig to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -36,7 +43,8 @@ The SmsConfig to be saved.
 | NsPluginSender | string | The sender of the SMS messages. This text will appear on the recipient's mobile phone. |
 | NsPluginConfig | object | Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,11 +74,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "earum",
-  "NsPluginSender": "vel",
+  "NetServerSmsProvider": "possimus",
+  "NsPluginSender": "maxime",
   "NsPluginConfig": {
-    "NsPluginConfig1": "velit",
-    "NsPluginConfig2": "et"
+    "NsPluginConfig1": "ea",
+    "NsPluginConfig2": "nemo"
   }
 }
 ```
@@ -83,18 +91,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "temporibus",
-  "NsPluginSender": "earum",
+  "NetServerSmsProvider": "consequatur",
+  "NsPluginSender": "nostrum",
   "NsPluginConfig": {
-    "NsPluginConfig1": "fugit",
+    "NsPluginConfig1": "iste",
     "NsPluginConfig2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   }
 }

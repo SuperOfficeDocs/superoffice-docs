@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonId
 
 Creates a temporary selection with members from a collection of ContactPerson id's.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a temporary selection with members from a collection of ContactPerson id
 ```http
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonId
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactPersonIds
+ContactPersonIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactPersonIds | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,18 +113,18 @@ Response body:
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 621,
-      "ContactId": 491
+      "PersonId": 98,
+      "ContactId": 744
     },
     {
-      "PersonId": 621,
-      "ContactId": 491
+      "PersonId": 98,
+      "ContactId": 744
     }
   ]
 }
@@ -129,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reduced background benchmark",
-  "Postit": "enim",
+  "Description": "Secured even-keeled help-desk",
+  "Postit": "distinctio",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 204,
-  "IncludePerson": 997,
-  "MemberCount": 442,
-  "Name": "Vandervort-Zieme",
-  "PostitTextId": 507,
-  "CreatedDate": "2005-06-15T11:10:27.9109766+02:00",
-  "SelectionId": 607,
-  "SoundEx": "libero",
-  "Source": 544,
-  "TextId": 826,
-  "UpdatedDate": "2008-06-27T11:10:27.9109766+02:00",
-  "UpdatedCount": 701,
-  "Visibility": 426,
+  "GroupIdx": 292,
+  "IncludePerson": 751,
+  "MemberCount": 801,
+  "Name": "Marquardt Group",
+  "PostitTextId": 314,
+  "CreatedDate": "2013-06-17T02:49:45.3747116+02:00",
+  "SelectionId": 564,
+  "SoundEx": "doloremque",
+  "Source": 286,
+  "TextId": 338,
+  "UpdatedDate": "1996-08-12T02:49:45.3747116+02:00",
+  "UpdatedCount": 157,
+  "Visibility": 705,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 666,
-  "TargetTableName": "Leffler Group",
-  "Completed": false,
-  "LeftSelectionId": 431,
-  "RightSelectionId": 641,
+  "TargetTableNumber": 327,
+  "TargetTableName": "Spinka, Johnson and Koepp",
+  "Completed": true,
+  "LeftSelectionId": 136,
+  "RightSelectionId": 883,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Paucek Group",
-  "ShadowProviderName": "West LLC",
-  "ChartKey": "laudantium",
-  "LastLoaded": "2017-01-09T11:10:27.9119766+01:00",
-  "LastLoadedBy": 860,
+  "MainProviderName": "Kemmer, Brakus and Rice",
+  "ShadowProviderName": "Morissette-Wiza",
+  "ChartKey": "nihil",
+  "LastLoaded": "2005-06-20T02:49:45.3747116+02:00",
+  "LastLoadedBy": 13,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-12-29T11:10:27.9129771+01:00",
-  "LastMembershipChangeBy": 575,
+  "LastMembershipChange": "2004-06-02T02:49:45.3747116+02:00",
+  "LastMembershipChangeBy": 408,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "magni",
-  "MailingsProviderName": "Volkman-Bergnaum",
-  "DashboardTileDefinitionId": 324,
+  "MainHeading": "et",
+  "MemberTabHeading": "voluptatem",
+  "MailingsProviderName": "Bogan Inc and Sons",
+  "DashboardTileDefinitionId": 230,
   "VisibleFor": [
     {
-      "VisibleId": 996,
+      "VisibleId": 249,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 243
+          "FieldType": "System.Int32",
+          "FieldLength": 384
         }
       }
     },
     {
-      "VisibleId": 996,
+      "VisibleId": 249,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 243
+          "FieldType": "System.Int32",
+          "FieldLength": 384
         }
       }
     }
@@ -202,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 937
+      "FieldLength": 499
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 
 Do the batchupdate on selected
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Do the batchupdate on selected
 ```http
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FieldValueInfos, TableName, Context, Ids
+FieldValueInfos, TableName, Context, Ids 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,6 +52,7 @@ FieldValueInfos, TableName, Context, Ids
 | TableName | string |  |
 | Context | string |  |
 | Ids | string |  |
+
 
 ## Response: int32
 
@@ -56,42 +64,43 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": true,
-      "DefaultShowInSelector": true,
+      "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "omnis",
-      "ValueType": "et",
-      "Mandatory": false,
-      "EncodedDisplayName": "Schaden Inc and Sons",
-      "EncodedDisplayDescription": "Self-enabling high-level methodology",
-      "IconHint": "nihil",
+      "Key": "est",
+      "ValueType": "qui",
+      "Mandatory": true,
+      "EncodedDisplayName": "Stanton-Howe",
+      "EncodedDisplayDescription": "Cross-platform fresh-thinking knowledge base",
+      "IconHint": "minima",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "harum",
-      "EncodedDataCaptionDescription": "Open-architected hybrid workforce",
-      "CurrentOperationType": "voluptatem",
+      "EncodedDataCaption": "non",
+      "EncodedDataCaptionDescription": "User-centric 24/7 moratorium",
+      "CurrentOperationType": "omnis",
       "Values": [
-        "tempora",
-        "et"
+        "molestiae",
+        "vel"
       ],
       "DisplayValues": [
-        "temporibus",
-        "et"
+        "nam",
+        "ipsa"
       ],
       "OperationInfos": [
         {},
@@ -99,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Abshire, Price and Daniel",
-  "Context": "sequi",
-  "Ids": "dolor"
+  "TableName": "Nolan, Langworth and Hudson",
+  "Context": "temporibus",
+  "Ids": "ad"
 }
 ```
 
@@ -111,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-710
+902
 ```

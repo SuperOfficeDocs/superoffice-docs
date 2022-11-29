@@ -11,9 +11,16 @@ DELETE /api/v1/Contact/{contactId}/Image
 
 Remove the contact image.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | Contact id **Required** |
+
+
 
 ## Request Headers
 
@@ -24,7 +31,8 @@ Remove the contact image.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -32,7 +40,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -40,7 +49,7 @@ Response body:
 DELETE /api/v1/Contact/{contactId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

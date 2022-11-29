@@ -11,6 +11,12 @@ POST /api/v1/Project/UdefLayout
 
 Add a new field to the current ProjectEntity user-defined field layout.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a new field to the current ProjectEntity user-defined field layout.
 ```http
 POST /api/v1/Project/UdefLayout?udefFieldType=Checkbox
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,8 @@ POST /api/v1/Project/UdefLayout?udefFieldType=Checkbox
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -42,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +97,7 @@ Response body:
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 980,
-  "ColumnId": 873,
-  "FieldDefault": "eos",
-  "FieldHeight": 857,
-  "FieldLabel": "voluptates",
-  "FieldLeft": 887,
-  "FieldTop": 654,
+  "UDefFieldId": 739,
+  "ColumnId": 627,
+  "FieldDefault": "ratione",
+  "FieldHeight": 378,
+  "FieldLabel": "vel",
+  "FieldLeft": 23,
+  "FieldTop": 481,
   "FieldType": "Checkbox",
-  "FieldWidth": 967,
-  "FormatMask": "aperiam",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 79,
-  "LabelLeft": 655,
-  "LabelTop": 767,
-  "LabelWidth": 239,
-  "LastVersionId": 175,
-  "ListTableId": 877,
-  "IsMandatory": true,
+  "FieldWidth": 835,
+  "FormatMask": "vel",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 82,
+  "LabelLeft": 871,
+  "LabelTop": 662,
+  "LabelWidth": 495,
+  "LastVersionId": 374,
+  "ListTableId": 159,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 38,
+  "Page1LineNo": 512,
   "ProgId": "quaerat",
   "IsReadOnly": false,
-  "ShortLabel": "nihil",
-  "TabOrder": 400,
-  "TextLength": 175,
-  "Tooltip": "quas",
-  "UdefIdentity": 237,
-  "UDListDefinitionId": 110,
+  "ShortLabel": "rem",
+  "TabOrder": 533,
+  "TextLength": 247,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 334,
+  "UDListDefinitionId": 310,
   "Justification": "Center",
-  "Version": 826,
-  "TemplateVariableName": "Walsh, Herman and Metz",
-  "HasBeenPublished": true,
-  "MdoListName": "Durgan, Rodriguez and Little",
+  "Version": 722,
+  "TemplateVariableName": "Grady-Waelchi",
+  "HasBeenPublished": false,
+  "MdoListName": "Walker LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldType": "System.Int32",
+      "FieldLength": 321
     }
   }
 }

@@ -11,11 +11,18 @@ GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ProjectType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 233,
-    "Name": "Jakubowski Group",
-    "ToolTip": "Eligendi dignissimos dolor quo.",
-    "Deleted": true,
-    "Rank": 65,
-    "Type": "harum",
-    "ColorBlock": 548,
-    "IconHint": "adipisci",
+    "Id": 624,
+    "Name": "Koss Group",
+    "ToolTip": "Officia sed ut recusandae facere ut.",
+    "Deleted": false,
+    "Rank": 912,
+    "Type": "voluptate",
+    "ColorBlock": 848,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2004-10-11T11:10:54.4859261+02:00",
+    "LastChanged": "2013-08-24T02:49:52.4065764+02:00",
     "ChildItems": [
       {
-        "Id": 345,
-        "Name": "McDermott-Breitenberg",
-        "ToolTip": "Neque voluptas officia natus.",
-        "Deleted": true,
-        "Rank": 205,
-        "Type": "eveniet",
-        "ColorBlock": 720,
-        "IconHint": "quo",
+        "Id": 450,
+        "Name": "Morissette, Cassin and Schmidt",
+        "ToolTip": "Molestiae illo eos qui delectus quia.",
+        "Deleted": false,
+        "Rank": 48,
+        "Type": "aperiam",
+        "ColorBlock": 933,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2000-10-04T11:10:54.4859261+02:00",
+        "LastChanged": "2015-04-06T02:49:52.4065764+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "voluptates",
-        "Hidden": false,
-        "FullName": "Hal Bartoletti",
+        "ExtraInfo": "quae",
+        "StyleHint": "tempore",
+        "Hidden": true,
+        "FullName": "Concepcion Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 835
+            "FieldType": "System.String",
+            "FieldLength": 518
           }
         }
       }
     ],
     "ExtraInfo": "neque",
-    "StyleHint": "a",
+    "StyleHint": "eius",
     "Hidden": false,
-    "FullName": "Derek Schamberger",
+    "FullName": "Rodolfo Jon Little MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldLength": 865
       }
     }
   }

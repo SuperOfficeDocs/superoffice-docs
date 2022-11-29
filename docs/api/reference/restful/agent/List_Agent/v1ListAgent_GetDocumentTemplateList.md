@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDocumentTemplateList
 
 Gets an array of DocumentTemplate objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of DocumentTemplate objects.
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetDocumentTemplateList?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: documentTemplateIds
+## Request Body: documentTemplateIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -82,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 426,
-    "Name": "Koss LLC",
-    "Tooltip": "ea",
-    "SaveInDb": 788,
-    "Filename": "animi",
-    "DefaultOref": "voluptatem",
+    "DocumentTemplateId": 954,
+    "Name": "Luettgen LLC",
+    "Tooltip": "qui",
+    "SaveInDb": 335,
+    "Filename": "quis",
+    "DefaultOref": "quasi",
     "RecordType": "Appointment",
-    "Deleted": 761,
+    "Deleted": 20,
     "Direction": "Incoming",
-    "AutoeventId": 47,
+    "AutoeventId": 765,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldLength": 479
       }
     }
   }

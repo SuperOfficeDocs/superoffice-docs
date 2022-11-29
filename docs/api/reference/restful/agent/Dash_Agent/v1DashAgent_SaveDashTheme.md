@@ -11,6 +11,13 @@ POST /api/v1/Agents/Dash/SaveDashTheme
 
 Updates the existing DashTheme or creates a new DashTheme if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing DashTheme or creates a new DashTheme if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashTheme to be saved.
+The DashTheme to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The DashTheme to be saved.
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/Agents/Dash/SaveDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 440,
-  "Name": "Rowe Group",
-  "Config": "fugit",
-  "Rank": 211,
-  "Client": "magni",
-  "Style": "maxime"
+  "DashboardThemeId": 995,
+  "Name": "Beahan-Schowalter",
+  "Config": "dolorem",
+  "Rank": 249,
+  "Client": "hic",
+  "Style": "et"
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 380,
-  "Name": "Prosacco-Watsica",
-  "Config": "dolores",
-  "Rank": 215,
+  "DashboardThemeId": 777,
+  "Name": "Dach-Swift",
+  "Config": "voluptatem",
+  "Rank": 771,
   "Client": "ut",
-  "Style": "officiis",
+  "Style": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldLength": 202
     }
   }
 }

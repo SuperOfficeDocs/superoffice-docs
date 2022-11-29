@@ -11,10 +11,16 @@ POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 
 Change a DocumentEntity user-defined field's type based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
 | fieldType | Enum: Number, ShortText, LongText, Date, UnlimitedDate, Checkbox, List, Decimal | The new type of the user defined field. **Required** |
+
 
 ## Query String Parameters
 
@@ -23,8 +29,9 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
+
 
 ## Request Headers
 
@@ -39,7 +46,8 @@ POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 DocumentEntity found.
 
@@ -48,7 +56,7 @@ DocumentEntity found.
 | 200 | DocumentEntity found. |
 | 404 | DocumentEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,46 +113,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 907,
-  "ColumnId": 541,
-  "FieldDefault": "quas",
-  "FieldHeight": 696,
-  "FieldLabel": "consectetur",
-  "FieldLeft": 263,
-  "FieldTop": 514,
+  "UDefFieldId": 879,
+  "ColumnId": 626,
+  "FieldDefault": "omnis",
+  "FieldHeight": 228,
+  "FieldLabel": "reprehenderit",
+  "FieldLeft": 230,
+  "FieldTop": 144,
   "FieldType": "Checkbox",
-  "FieldWidth": 868,
-  "FormatMask": "officiis",
+  "FieldWidth": 164,
+  "FormatMask": "quaerat",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 902,
-  "LabelLeft": 718,
-  "LabelTop": 659,
-  "LabelWidth": 559,
-  "LastVersionId": 203,
-  "ListTableId": 948,
+  "LabelHeight": 611,
+  "LabelLeft": 443,
+  "LabelTop": 586,
+  "LabelWidth": 450,
+  "LastVersionId": 818,
+  "ListTableId": 284,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 926,
-  "ProgId": "quas",
-  "IsReadOnly": false,
-  "ShortLabel": "vel",
-  "TabOrder": 985,
-  "TextLength": 709,
-  "Tooltip": "magni",
-  "UdefIdentity": 325,
-  "UDListDefinitionId": 872,
+  "Page1LineNo": 968,
+  "ProgId": "sapiente",
+  "IsReadOnly": true,
+  "ShortLabel": "nihil",
+  "TabOrder": 580,
+  "TextLength": 618,
+  "Tooltip": "doloremque",
+  "UdefIdentity": 615,
+  "UDListDefinitionId": 850,
   "Justification": "Center",
-  "Version": 822,
-  "TemplateVariableName": "Gleason-Bradtke",
-  "HasBeenPublished": true,
-  "MdoListName": "Conroy Group",
+  "Version": 392,
+  "TemplateVariableName": "Mraz LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "O'Reilly Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldLength": 650
     }
   }
 }

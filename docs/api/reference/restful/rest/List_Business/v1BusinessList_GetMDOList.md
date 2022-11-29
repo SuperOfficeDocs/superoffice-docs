@@ -11,6 +11,12 @@ GET /api/v1/List/Business/MDOItems
 
 Get the MDO list items for "Business" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=impedit
+GET /api/v1/List/Business/MDOItems?flat=False
+GET /api/v1/List/Business/MDOItems?query=in
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Business/MDOItems?query=impedit
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Huels Group",
-    "ToolTip": "Exercitationem tempore optio et dolores ipsam sit sint.",
+    "Id": 319,
+    "Name": "Stamm, Raynor and Hettinger",
+    "ToolTip": "Ipsum voluptatibus explicabo et sed aut.",
     "Deleted": false,
-    "Rank": 354,
-    "Type": "dignissimos",
+    "Rank": 814,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 980,
-        "Name": "Smitham Group",
-        "ToolTip": "Quia qui unde.",
+        "Id": 167,
+        "Name": "Bergstrom-Hagenes",
+        "ToolTip": "Saepe pariatur excepturi.",
         "Deleted": false,
-        "Rank": 714,
-        "Type": "quidem",
+        "Rank": 971,
+        "Type": "eaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 803,
-        "ExtraInfo": "illo",
-        "StyleHint": "mollitia",
-        "FullName": "Leilani Lind",
+        "IconHint": "in",
+        "ColorBlock": 273,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "laborum",
+        "FullName": "Earl Muller Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 213
+            "FieldType": "System.String",
+            "FieldLength": 930
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 344,
-    "ExtraInfo": "et",
-    "StyleHint": "enim",
-    "FullName": "Marlene Ziemann",
+    "IconHint": "iste",
+    "ColorBlock": 776,
+    "ExtraInfo": "tempore",
+    "StyleHint": "delectus",
+    "FullName": "Bartholome Dare",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 398
+        "FieldType": "System.Int32",
+        "FieldLength": 681
       }
     }
   }

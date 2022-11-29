@@ -11,11 +11,17 @@ GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 
 Gets headings for the ConsentSource list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Roob Group",
-    "ToolTip": "Laudantium perspiciatis esse maxime necessitatibus pariatur ut.",
-    "Deleted": true,
-    "Rank": 580,
-    "Type": "laboriosam",
-    "ColorBlock": 983,
-    "IconHint": "doloribus",
+    "Id": 653,
+    "Name": "Reichert-Dietrich",
+    "ToolTip": "Mollitia vel et non et quibusdam et.",
+    "Deleted": false,
+    "Rank": 109,
+    "Type": "dolorem",
+    "ColorBlock": 798,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2020-09-15T11:10:54.0021826+02:00",
+    "LastChanged": "2020-08-03T02:49:51.9534435+02:00",
     "ChildItems": [
       {
-        "Id": 127,
-        "Name": "Donnelly, Emard and Bailey",
-        "ToolTip": "Aperiam sed non natus sit.",
+        "Id": 638,
+        "Name": "Quitzon LLC",
+        "ToolTip": "Modi quidem.",
         "Deleted": false,
-        "Rank": 333,
-        "Type": "animi",
-        "ColorBlock": 732,
-        "IconHint": "neque",
+        "Rank": 701,
+        "Type": "excepturi",
+        "ColorBlock": 55,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2010-11-02T11:10:54.0021826+01:00",
+        "LastChanged": "2003-10-19T02:49:51.9534435+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "nihil",
+        "ExtraInfo": "inventore",
+        "StyleHint": "at",
         "Hidden": false,
-        "FullName": "Mrs. Susan Wiegand Sr.",
+        "FullName": "Ron Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 114
+            "FieldType": "System.String",
+            "FieldLength": 23
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "ea",
+    "ExtraInfo": "illo",
+    "StyleHint": "cupiditate",
     "Hidden": true,
-    "FullName": "Clement Clementine Mosciski Jr.",
+    "FullName": "Concepcion Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 431
+        "FieldType": "System.String",
+        "FieldLength": 403
       }
     }
   }

@@ -11,9 +11,16 @@ GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 
 Get a list with meta data for all attached attachments, EXCEPT those marked as inline
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ticketMessageEntityId | int32 | The id of the ticket message to get attachment infos for **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Get a list with meta data for all attached attachments, EXCEPT those marked as i
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 711,
-    "Name": "Barton, Hintz and Kling",
-    "ContentType": "at",
-    "AttSize": 758,
-    "InlineImage": true,
-    "ContentId": "modi",
+    "AttachmentId": 973,
+    "Name": "DuBuque-Wolff",
+    "ContentType": "quasi",
+    "AttSize": 899,
+    "InlineImage": false,
+    "ContentId": "incidunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldType": "System.String",
+        "FieldLength": 583
       }
     }
   }

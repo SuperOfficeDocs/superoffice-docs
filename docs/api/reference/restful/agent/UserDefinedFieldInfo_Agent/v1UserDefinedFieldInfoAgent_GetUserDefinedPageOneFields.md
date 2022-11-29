@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 
 Get a list of page one fields for given Udef type and current user group
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list of page one fields for given Udef type and current user group
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType, UserGroupId
+OwnerType, UserGroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 | UserGroupId | int32 |  |
+
 
 ## Response: array
 
@@ -104,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 339
+  "UserGroupId": 152
 }
 ```
 
@@ -116,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 527,
-    "ColumnId": 930,
-    "FieldDefault": "reiciendis",
-    "FieldHeight": 519,
-    "FieldLabel": "omnis",
-    "FieldLeft": 77,
-    "FieldTop": 746,
+    "UDefFieldId": 229,
+    "ColumnId": 455,
+    "FieldDefault": "et",
+    "FieldHeight": 250,
+    "FieldLabel": "deserunt",
+    "FieldLeft": 797,
+    "FieldTop": 381,
     "FieldType": "Checkbox",
-    "FieldWidth": 329,
-    "FormatMask": "aut",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 143,
-    "LabelLeft": 252,
-    "LabelTop": 213,
-    "LabelWidth": 105,
-    "LastVersionId": 573,
-    "ListTableId": 709,
+    "FieldWidth": 426,
+    "FormatMask": "repellendus",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 594,
+    "LabelLeft": 685,
+    "LabelTop": 777,
+    "LabelWidth": 140,
+    "LastVersionId": 930,
+    "ListTableId": 747,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 886,
-    "ProgId": "unde",
-    "IsReadOnly": false,
-    "ShortLabel": "distinctio",
-    "TabOrder": 188,
-    "TextLength": 625,
-    "Tooltip": "qui",
-    "UdefIdentity": 257,
-    "UDListDefinitionId": 826,
+    "Page1LineNo": 937,
+    "ProgId": "quia",
+    "IsReadOnly": true,
+    "ShortLabel": "quos",
+    "TabOrder": 179,
+    "TextLength": 406,
+    "Tooltip": "fuga",
+    "UdefIdentity": 828,
+    "UDListDefinitionId": 116,
     "Justification": "Center",
-    "Version": 120,
-    "TemplateVariableName": "Grady-Grady",
+    "Version": 945,
+    "TemplateVariableName": "Schinner-Stehr",
     "HasBeenPublished": true,
-    "MdoListName": "Rolfson-Kulas",
+    "MdoListName": "McCullough, Upton and Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 492
+        "FieldLength": 48
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/MoveListItem
 
 Move a list item up or down in the list based on rank
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Move a list item up or down in the list based on rank
 ```http
 POST /api/v1/Agents/List/MoveListItem?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/List/MoveListItem?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, ListItemId, Direction
+UdListDefinitionId, ListItemId, Direction 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,7 +48,8 @@ UdListDefinitionId, ListItemId, Direction
 | ListItemId | int32 |  |
 | Direction | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -49,7 +57,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -61,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 354,
-  "ListItemId": 849,
-  "Direction": 198
+  "UdListDefinitionId": 393,
+  "ListItemId": 940,
+  "Direction": 540
 }
 ```
 

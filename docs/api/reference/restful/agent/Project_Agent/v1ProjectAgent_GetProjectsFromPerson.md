@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectsFromPerson
 
 Return all projects where the person is project member.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return all projects where the person is project member.
 ```http
 POST /api/v1/Agents/Project/GetProjectsFromPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Project/GetProjectsFromPerson?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
+
 
 ## Response: array
 
@@ -86,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 698
+  "PersonId": 827
 }
 ```
 
@@ -98,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 555,
-    "Name": "Reinger Inc and Sons",
-    "Description": "Multi-lateral local installation",
+    "ProjectId": 223,
+    "Name": "Hoppe-Schmidt",
+    "Description": "Managed dedicated solution",
     "URL": "http://www.example.com/",
-    "Type": "repudiandae",
-    "AssociateId": 955,
-    "AssociateFullName": "Aniyah Rutherford",
-    "TypeId": 95,
-    "Updated": "1999-02-04T11:10:27.6214527+01:00",
-    "StatusId": 417,
-    "Status": "nisi",
-    "TextId": 169,
-    "PublishTo": "2001-03-09T11:10:27.6214527+01:00",
-    "PublishFrom": "2011-10-18T11:10:27.6214527+02:00",
+    "Type": "blanditiis",
+    "AssociateId": 930,
+    "AssociateFullName": "Aiden Deckow",
+    "TypeId": 726,
+    "Updated": "2009-02-21T02:49:44.9684639+01:00",
+    "StatusId": 924,
+    "Status": "sint",
+    "TextId": 875,
+    "PublishTo": "2004-03-19T02:49:44.9684639+01:00",
+    "PublishFrom": "2013-10-21T02:49:44.9684639+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1272242",
-    "ActiveErpLinks": 663,
+    "ProjectNumber": "274290",
+    "ActiveErpLinks": 74,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 440
+        "FieldType": "System.String",
+        "FieldLength": 893
       }
     }
   }

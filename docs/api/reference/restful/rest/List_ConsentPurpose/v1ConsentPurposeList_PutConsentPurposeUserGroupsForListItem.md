@@ -11,11 +11,18 @@ PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ConsentPurpose list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Senger LLC",
-    "ToolTip": "Temporibus nesciunt et iste vitae blanditiis harum qui.",
-    "Deleted": true,
-    "Rank": 232,
-    "Type": "in",
-    "ColorBlock": 989,
-    "IconHint": "blanditiis",
+    "Id": 564,
+    "Name": "Quitzon, Treutel and Yost",
+    "ToolTip": "Corrupti qui et deserunt praesentium tempore vel.",
+    "Deleted": false,
+    "Rank": 939,
+    "Type": "eaque",
+    "ColorBlock": 802,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2017-07-07T11:10:53.9821825+02:00",
+    "LastChanged": "1998-11-04T02:49:51.9378192+01:00",
     "ChildItems": [
       {
-        "Id": 776,
-        "Name": "Prohaska, Swaniawski and Lakin",
-        "ToolTip": "Nulla rerum ex odio quam fugiat nemo.",
-        "Deleted": false,
-        "Rank": 824,
-        "Type": "est",
-        "ColorBlock": 143,
-        "IconHint": "quidem",
+        "Id": 814,
+        "Name": "Bernier, Wolf and Ortiz",
+        "ToolTip": "Iste similique.",
+        "Deleted": true,
+        "Rank": 854,
+        "Type": "quo",
+        "ColorBlock": 59,
+        "IconHint": "adipisci",
         "Selected": true,
-        "LastChanged": "2016-09-01T11:10:53.9821825+02:00",
+        "LastChanged": "1998-06-07T02:49:51.9378192+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Reginald Emmerich"
+        "ExtraInfo": "et",
+        "StyleHint": "nobis",
+        "Hidden": false,
+        "FullName": "Prof. Nasir Felicia Breitenberg"
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "nisi",
-    "Hidden": true,
-    "FullName": "Rupert Arturo Hyatt I"
+    "ExtraInfo": "dolorum",
+    "StyleHint": "eaque",
+    "Hidden": false,
+    "FullName": "Mr. Krista Torp II"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Collins LLC",
-    "ToolTip": "Debitis et.",
-    "Deleted": false,
-    "Rank": 333,
-    "Type": "ex",
-    "ColorBlock": 879,
-    "IconHint": "nemo",
+    "Id": 924,
+    "Name": "Grant-Gleason",
+    "ToolTip": "Quam at quisquam nihil rem beatae ratione.",
+    "Deleted": true,
+    "Rank": 547,
+    "Type": "adipisci",
+    "ColorBlock": 293,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "1996-02-06T11:10:53.9841821+01:00",
+    "LastChanged": "2018-10-19T02:49:51.9378192+02:00",
     "ChildItems": [
       {
-        "Id": 270,
-        "Name": "Marquardt, Johnston and Ullrich",
-        "ToolTip": "Quaerat accusamus ab maxime dolor consequatur.",
+        "Id": 275,
+        "Name": "Ward LLC",
+        "ToolTip": "Harum quidem et ipsum alias facere.",
         "Deleted": false,
-        "Rank": 433,
-        "Type": "adipisci",
-        "ColorBlock": 94,
-        "IconHint": "animi",
-        "Selected": false,
-        "LastChanged": "2014-07-06T11:10:53.9841821+02:00",
+        "Rank": 607,
+        "Type": "ipsa",
+        "ColorBlock": 566,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2011-02-24T02:49:51.9378192+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "veritatis",
         "Hidden": true,
-        "FullName": "Holden Stanton",
+        "FullName": "Ms. Albert Katelyn Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 71
+            "FieldLength": 379
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "aut",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "odit",
     "Hidden": true,
-    "FullName": "Amalia Schmidt",
+    "FullName": "Miss Alysha Price V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldLength": 112
       }
     }
   }

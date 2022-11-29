@@ -11,6 +11,12 @@ POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 
 Returns the top used words in the freetext index table, sorted as most used first
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the top used words in the freetext index table, sorted as most used firs
 ```http
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/FreeText/GetSuggestedStopWords?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CountWords
+CountWords 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CountWords | int32 |  |
+
 
 ## Response: array
 
@@ -76,11 +84,11 @@ Response body: array
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 287
+  "CountWords": 228
 }
 ```
 
@@ -92,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 802,
-    "Name": "Hodkiewicz, Osinski and Jaskolski",
-    "ToolTip": "Nihil tenetur eligendi sit delectus sit rerum.",
+    "Id": 528,
+    "Name": "Breitenberg-Stoltenberg",
+    "ToolTip": "Fugit quis non praesentium velit tenetur.",
     "Deleted": true,
-    "Rank": 8,
-    "Type": "officia",
+    "Rank": 382,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Franecki Inc and Sons",
-        "ToolTip": "Veritatis enim a.",
-        "Deleted": false,
-        "Rank": 575,
-        "Type": "perspiciatis",
+        "Id": 994,
+        "Name": "Stokes, Pouros and Gibson",
+        "ToolTip": "At beatae et praesentium.",
+        "Deleted": true,
+        "Rank": 165,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 99,
-        "ExtraInfo": "veritatis",
-        "StyleHint": "voluptatem",
-        "FullName": "Kristopher Gutmann",
+        "IconHint": "eveniet",
+        "ColorBlock": 802,
+        "ExtraInfo": "fugiat",
+        "StyleHint": "quas",
+        "FullName": "Lavinia Annabelle Rice I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 614
+            "FieldType": "System.String",
+            "FieldLength": 965
           }
         }
       }
     ],
-    "IconHint": "maiores",
-    "ColorBlock": 517,
-    "ExtraInfo": "autem",
-    "StyleHint": "corrupti",
-    "FullName": "Newton Corwin Jr.",
+    "IconHint": "at",
+    "ColorBlock": 784,
+    "ExtraInfo": "provident",
+    "StyleHint": "voluptatum",
+    "FullName": "Estevan Hoppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldLength": 205
       }
     }
   }

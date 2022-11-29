@@ -11,9 +11,16 @@ POST /api/v1/Agents/Webhook/SignalEvent
 
 Signal webhooks that an event has occurred.
 
+
 All webhooks listening for the event will be notified.
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -25,6 +32,7 @@ All webhooks listening for the event will be notified.
 POST /api/v1/Agents/Webhook/SignalEvent?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -35,9 +43,9 @@ POST /api/v1/Agents/Webhook/SignalEvent?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EventName, PrimaryKey, Data
+EventName, PrimaryKey, Data 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +53,8 @@ EventName, PrimaryKey, Data
 | PrimaryKey | int32 |  |
 | Data | object |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -53,7 +62,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -61,12 +71,12 @@ Response body:
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Ortiz-Kozey",
-  "PrimaryKey": 304,
+  "EventName": "Kris, Dicki and Windler",
+  "PrimaryKey": 853,
   "Data": {
     "fieldName": {}
   }

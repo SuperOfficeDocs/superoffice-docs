@@ -11,7 +11,13 @@ POST /api/v1/Pricelist
 
 Creates a new PriceList
 
+
 Calls the Quote agent service SavePriceList.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Quote agent service SavePriceList.
 ```http
 POST /api/v1/Pricelist?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Pricelist?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The PriceList to be saved.
+The PriceList to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +61,8 @@ The PriceList to be saved.
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -62,7 +70,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,20 +94,20 @@ Response body:
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 925,
-  "ERPPriceListKey": "blanditiis",
-  "QuoteConnectionId": 991,
-  "Name": "Nader Inc and Sons",
-  "Description": "Right-sized 6th generation attitude",
-  "Currency": "rerum",
-  "CurrencyName": "Blanda, O'Kon and Glover",
-  "ValidFrom": "2002-02-02T11:10:54.3859023+01:00",
-  "ValidTo": "1997-12-10T11:10:54.3859023+01:00",
-  "IsActive": false
+  "PriceListId": 249,
+  "ERPPriceListKey": "voluptas",
+  "QuoteConnectionId": 379,
+  "Name": "Larkin-Abshire",
+  "Description": "Synchronised tertiary migration",
+  "Currency": "eos",
+  "CurrencyName": "Schaefer, Parker and Halvorson",
+  "ValidFrom": "2011-01-18T02:49:52.3284476+01:00",
+  "ValidTo": "1999-02-10T02:49:52.3284476+01:00",
+  "IsActive": true
 }
 ```
 
@@ -110,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 212,
-  "ERPPriceListKey": "voluptatem",
-  "QuoteConnectionId": 366,
-  "Name": "Corkery Group",
-  "Description": "Distributed 24/7 matrices",
-  "Currency": "quo",
-  "CurrencyName": "Will Group",
-  "ValidFrom": "2016-11-21T11:10:54.3859023+01:00",
-  "ValidTo": "2019-07-11T11:10:54.3859023+02:00",
+  "PriceListId": 688,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 768,
+  "Name": "Robel-Erdman",
+  "Description": "Profound multi-state flexibility",
+  "Currency": "suscipit",
+  "CurrencyName": "Langosh, Reilly and Mills",
+  "ValidFrom": "2001-07-18T02:49:52.3284476+02:00",
+  "ValidTo": "2011-04-11T02:49:52.3284476+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldType": "System.Int32",
+      "FieldLength": 571
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

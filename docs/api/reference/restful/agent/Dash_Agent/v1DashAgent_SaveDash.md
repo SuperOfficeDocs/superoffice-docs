@@ -11,6 +11,13 @@ POST /api/v1/Agents/Dash/SaveDash
 
 Updates the existing Dash or creates a new Dash if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing Dash or creates a new Dash if the id parameter is empty
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Dash to be saved.
+The Dash to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ The Dash to be saved.
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,34 +87,34 @@ Response body:
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 885,
-  "UniqueId": "delectus",
-  "Name": "VonRueden LLC",
-  "Description": "Universal 6th generation strategy",
-  "AssociateId": 725,
-  "Columns": 599,
+  "DashboardId": 519,
+  "UniqueId": "reprehenderit",
+  "Name": "Jacobs, Abbott and Gerlach",
+  "Description": "Exclusive reciprocal collaboration",
+  "AssociateId": 694,
+  "Columns": 268,
   "Theme": null,
-  "VisibleForAll": 804,
+  "VisibleForAll": 803,
   "VisibleForAssociates": [
-    874,
-    678
+    545,
+    956
   ],
   "VisibleForGroups": [
-    876,
-    876
+    749,
+    497
   ],
-  "PinForAll": 919,
+  "PinForAll": 630,
   "PinForAssociates": [
-    834,
-    604
+    523,
+    345
   ],
   "PinForGroups": [
-    493,
-    719
+    617,
+    258
   ]
 }
 ```
@@ -118,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 890,
-  "UniqueId": "omnis",
-  "Name": "Hansen, Bailey and Weber",
-  "Description": "Seamless zero administration toolset",
-  "AssociateId": 399,
-  "Columns": 455,
+  "DashboardId": 4,
+  "UniqueId": "quidem",
+  "Name": "Huels-Hand",
+  "Description": "Assimilated secondary protocol",
+  "AssociateId": 105,
+  "Columns": 531,
   "Theme": null,
-  "VisibleForAll": 892,
+  "VisibleForAll": 299,
   "VisibleForAssociates": [
-    917,
-    822
+    507,
+    685
   ],
   "VisibleForGroups": [
-    640,
-    755
+    541,
+    382
   ],
-  "PinForAll": 794,
+  "PinForAll": 280,
   "PinForAssociates": [
-    862,
-    723
+    542,
+    328
   ],
   "PinForGroups": [
-    427,
-    801
+    77,
+    971
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldType": "System.Int32",
+      "FieldLength": 893
     }
   }
 }

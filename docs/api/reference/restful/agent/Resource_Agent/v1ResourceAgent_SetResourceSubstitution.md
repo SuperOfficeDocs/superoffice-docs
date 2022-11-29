@@ -11,6 +11,12 @@ POST /api/v1/Agents/Resource/SetResourceSubstitution
 
 Create or update a resource substitution
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create or update a resource substitution
 ```http
 POST /api/v1/Agents/Resource/SetResourceSubstitution?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/Resource/SetResourceSubstitution?$select=name,department,cat
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ResourceName, ResourceValues, Culture, IsActive
+ResourceName, ResourceValues, Culture, IsActive 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ ResourceName, ResourceValues, Culture, IsActive
 | Culture | string |  |
 | IsActive | bool |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +58,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -62,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Schroeder LLC",
-  "ResourceValues": "expedita",
-  "Culture": "qui",
-  "IsActive": false
+  "ResourceName": "Walter-Crooks",
+  "ResourceValues": "sed",
+  "Culture": "vero",
+  "IsActive": true
 }
 ```
 

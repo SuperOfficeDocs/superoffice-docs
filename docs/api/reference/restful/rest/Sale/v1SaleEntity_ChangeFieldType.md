@@ -11,10 +11,16 @@ POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 
 Change a SaleEntity user-defined field's type based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
 | fieldType | Enum: Number, ShortText, LongText, Date, UnlimitedDate, Checkbox, List, Decimal | The new type of the user defined field. **Required** |
+
 
 ## Query String Parameters
 
@@ -25,6 +31,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 ```http
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
+
 
 ## Request Headers
 
@@ -39,7 +46,8 @@ POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 SaleEntity found.
 
@@ -48,7 +56,7 @@ SaleEntity found.
 | 200 | SaleEntity found. |
 | 404 | SaleEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,7 +103,7 @@ Response body:
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,46 +113,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 954,
-  "ColumnId": 102,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 860,
-  "FieldLabel": "facere",
-  "FieldLeft": 765,
-  "FieldTop": 735,
+  "UDefFieldId": 248,
+  "ColumnId": 149,
+  "FieldDefault": "minus",
+  "FieldHeight": 227,
+  "FieldLabel": "eum",
+  "FieldLeft": 583,
+  "FieldTop": 461,
   "FieldType": "Checkbox",
-  "FieldWidth": 218,
-  "FormatMask": "repellat",
+  "FieldWidth": 5,
+  "FormatMask": "id",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 450,
-  "LabelLeft": 231,
-  "LabelTop": 418,
-  "LabelWidth": 638,
-  "LastVersionId": 533,
-  "ListTableId": 704,
+  "IsIndexed": false,
+  "LabelHeight": 6,
+  "LabelLeft": 440,
+  "LabelTop": 54,
+  "LabelWidth": 488,
+  "LastVersionId": 664,
+  "ListTableId": 284,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 891,
-  "ProgId": "dolorem",
-  "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 878,
-  "TextLength": 797,
-  "Tooltip": "sed",
-  "UdefIdentity": 430,
-  "UDListDefinitionId": 575,
+  "Page1LineNo": 454,
+  "ProgId": "sit",
+  "IsReadOnly": false,
+  "ShortLabel": "illum",
+  "TabOrder": 534,
+  "TextLength": 364,
+  "Tooltip": "ipsam",
+  "UdefIdentity": 378,
+  "UDListDefinitionId": 807,
   "Justification": "Center",
-  "Version": 239,
-  "TemplateVariableName": "Kuhic, Boehm and Willms",
+  "Version": 272,
+  "TemplateVariableName": "Wintheiser, D'Amore and Feeney",
   "HasBeenPublished": false,
-  "MdoListName": "Swift, Tillman and Johnson",
+  "MdoListName": "Stokes-Durgan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 318
+      "FieldType": "System.Int32",
+      "FieldLength": 371
     }
   }
 }

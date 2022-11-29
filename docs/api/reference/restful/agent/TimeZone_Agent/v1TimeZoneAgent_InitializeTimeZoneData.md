@@ -11,6 +11,12 @@ POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 
 Initalizes the TimeZoneData
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Initalizes the TimeZoneData
 ```http
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/TimeZone/InitializeTimeZoneData?$select=name,department,cate
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -60,7 +68,7 @@ Response body: array
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +79,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 757,
-    "Name": "Wisoky-Powlowski",
-    "TZLocationCode": "qui",
-    "TZLocationCities": "eaque",
-    "IsoNumber": 105,
+    "TZLocationID": 841,
+    "Name": "Ziemann-O'Reilly",
+    "TZLocationCode": "exercitationem",
+    "TZLocationCities": "veniam",
+    "IsoNumber": 137,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 738,
-        "StartMonth": 562,
-        "EndDay": 628,
-        "EndMonth": 640,
-        "TZOffset": 749,
-        "StartRulePattern": "maxime",
-        "EndRulePattern": "cum"
+        "StartDay": 350,
+        "StartMonth": 165,
+        "EndDay": 783,
+        "EndMonth": 140,
+        "TZOffset": 135,
+        "StartRulePattern": "porro",
+        "EndRulePattern": "est"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 234,
-        "StartMonth": 665,
-        "EndDay": 841,
-        "EndMonth": 120,
-        "TZOffset": 625,
-        "StartRulePattern": "perferendis",
-        "EndRulePattern": "vel"
+        "StartDay": 801,
+        "StartMonth": 789,
+        "EndDay": 927,
+        "EndMonth": 433,
+        "TZOffset": 47,
+        "StartRulePattern": "reiciendis",
+        "EndRulePattern": "quod"
       }
     }
   }

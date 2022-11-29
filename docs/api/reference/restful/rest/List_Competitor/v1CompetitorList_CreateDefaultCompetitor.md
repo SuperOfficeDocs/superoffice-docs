@@ -11,6 +11,13 @@ GET /api/v1/List/Competitor/Items/Default
 
 Gets a default Competitor list item.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,7 +31,8 @@ Gets a default Competitor list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -32,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +59,7 @@ Response body:
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -61,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 807,
-  "Name": "Johnson Group",
-  "Tooltip": "quidem",
-  "Deleted": true,
-  "UdListDefinitionId": 95,
-  "Rank": 206,
+  "Id": 70,
+  "Name": "Runte, Rau and Hackett",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "UdListDefinitionId": 251,
+  "Rank": 617,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldLength": 372
     }
   }
 }

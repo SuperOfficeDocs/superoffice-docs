@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CopySelectionMembers
 
 Copy selection members from selection into an existing selection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Copy selection members from selection into an existing selection.
 ```http
 POST /api/v1/Agents/Selection/CopySelectionMembers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/Selection/CopySelectionMembers?$select=name,department,categ
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FromSelectionId, ToSelectionId
+FromSelectionId, ToSelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FromSelectionId | int32 |  |
 | ToSelectionId | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,12 +65,12 @@ Response body:
 POST /api/v1/Agents/Selection/CopySelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromSelectionId": 157,
-  "ToSelectionId": 733
+  "FromSelectionId": 627,
+  "ToSelectionId": 271
 }
 ```
 

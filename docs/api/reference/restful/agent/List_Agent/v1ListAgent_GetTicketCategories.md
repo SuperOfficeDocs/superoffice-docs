@@ -9,6 +9,14 @@ uid: v1ListAgent_GetTicketCategories
 POST /api/v1/Agents/List/GetTicketCategories
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/List/GetTicketCategories
 ```http
 POST /api/v1/Agents/List/GetTicketCategories?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,6 +40,7 @@ POST /api/v1/Agents/List/GetTicketCategories?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -59,6 +69,7 @@ Response body: array
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
 | DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
 | DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -81,35 +92,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 3,
-    "ParentId": 858,
-    "Name": "Feest, Gleichner and Kautzer",
-    "Fullname": "aut",
-    "CategoryMaster": 618,
+    "TicketCategoryId": 749,
+    "ParentId": 50,
+    "Name": "Hagenes-Swaniawski",
+    "Fullname": "et",
+    "CategoryMaster": 790,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Hoppe, Sawayn and Klocko",
+    "ExternalName": "Dare, Witting and Bode",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 261,
-    "ReplyTemplate": 609,
-    "NotificationEmail": "tia_green@brekke.us",
+    "AssignmentLag": 628,
+    "ReplyTemplate": 638,
+    "NotificationEmail": "gail@kemmer.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
+    "EffectiveReplyTemplateId": 219,
     "ExtraFields": {
-      "ExtraFields1": "animi",
-      "ExtraFields2": "nihil"
+      "ExtraFields1": "labore",
+      "ExtraFields2": "debitis"
     },
     "CustomFields": {
-      "CustomFields1": "nihil",
-      "CustomFields2": "earum"
+      "CustomFields1": "quidem",
+      "CustomFields2": "modi"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 829
       }
     }
   }

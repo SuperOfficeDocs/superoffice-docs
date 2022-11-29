@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests
 
 Adds or removes interests on companies and persons in a selection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Adds or removes interests on companies and persons in a selection.
 ```http
 POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests?$select=n
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, AddCompanyInterests, RemoveCompanyInterests, AddContactInterests, RemoveContactInterests
+SelectionId, AddCompanyInterests, RemoveCompanyInterests, AddContactInterests, RemoveContactInterests 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +50,8 @@ SelectionId, AddCompanyInterests, RemoveCompanyInterests, AddContactInterests, R
 | AddContactInterests | array |  |
 | RemoveContactInterests | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -51,7 +59,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -59,26 +68,26 @@ Response body:
 POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 727,
+  "SelectionId": 884,
   "AddCompanyInterests": [
-    556,
-    519
+    99,
+    565
   ],
   "RemoveCompanyInterests": [
-    459,
-    177
+    517,
+    705
   ],
   "AddContactInterests": [
-    27,
-    211
+    248,
+    421
   ],
   "RemoveContactInterests": [
-    944,
-    19
+    47,
+    149
   ]
 }
 ```

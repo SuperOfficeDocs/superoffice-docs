@@ -11,11 +11,17 @@ GET /api/v1/Appointment/{id}
 
 Gets a AppointmentEntity object.
 
+
 Calls the Appointment agent service GetAppointmentEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the AppointmentEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -28,6 +34,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
 GET /api/v1/Appointment/{id}?fk=False
 ```
+
 
 ## Request Headers
 
@@ -42,7 +49,8 @@ GET /api/v1/Appointment/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 AppointmentEntity found.
 
@@ -52,7 +60,7 @@ AppointmentEntity found.
 | 304 | AppointmentEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -121,7 +129,7 @@ Response body:
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,70 +137,70 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 09 Jan 2012 11:10:52 G1T
+Last-Modified: Wed, 14 May 2003 02:49:50 G5T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-07-17T11:10:52.3511737+02:00",
-  "AppointmentId": 383,
-  "Description": "Proactive secondary collaboration",
-  "StartDate": "2016-11-30T11:10:52.3511737+01:00",
-  "EndDate": "2005-11-04T11:10:52.3511737+01:00",
+  "CreatedDate": "2007-07-23T02:49:50.5109099+02:00",
+  "AppointmentId": 281,
+  "Description": "Business-focused explicit productivity",
+  "StartDate": "2010-05-08T02:49:50.5109099+02:00",
+  "EndDate": "2017-03-29T02:49:50.5109099+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 338,
+  "MotherId": 778,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-01-09T11:10:52.3541702+01:00",
+  "UpdatedDate": "2003-05-14T02:49:50.5109099+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 385,
+  "ActiveLinks": 124,
   "Links": [
     {
-      "EntityName": "Kihn Group",
-      "Id": 129,
-      "Description": "Self-enabling 6th generation extranet",
-      "ExtraInfo": "est",
-      "LinkId": 672,
+      "EntityName": "Kerluke-Kerluke",
+      "Id": 177,
+      "Description": "Reactive incremental groupware",
+      "ExtraInfo": "excepturi",
+      "LinkId": 678,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 629
+          "FieldLength": 222
         }
       }
     }
   ],
-  "AlarmLeadTime": "ipsum",
-  "HasAlarm": false,
-  "ColorIndex": 95,
+  "AlarmLeadTime": "eum",
+  "HasAlarm": true,
+  "ColorIndex": 423,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "sequi",
-  "LeadTime": "doloribus",
-  "Location": "quasi",
-  "RejectCounter": 532,
+  "IsAlldayEvent": false,
+  "LagTime": "atque",
+  "LeadTime": "sed",
+  "Location": "et",
+  "RejectCounter": 727,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 978,
-      "PersonId": 719,
-      "ContactId": 268,
-      "EmailId": 914,
+      "AssociateId": 730,
+      "PersonId": 952,
+      "ContactId": 733,
+      "EmailId": 410,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 978,
-      "PersonId": 719,
-      "ContactId": 268,
-      "EmailId": 914,
+      "AssociateId": 730,
+      "PersonId": 952,
+      "ContactId": 733,
+      "EmailId": 410,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -200,58 +208,58 @@ Last-Modified: Mon, 09 Jan 2012 11:10:52 G1T
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2008-01-12T11:10:52.3541702+01:00",
+  "ActiveDate": "2014-08-13T02:49:50.5109099+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 666,
+  "PreferredTZLocation": 683,
   "Sale": null,
-  "SuggestedAppointmentId": 745,
+  "SuggestedAppointmentId": 769,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ipsa",
+  "CentralserviceVideomeetId": "nisi",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Marie Kennedi Bailey MD",
-    "SuperOffice:2": "Mrs. Armando Robel IV"
+    "SuperOffice:1": "Mrs. Walter Johnson PhD",
+    "SuperOffice:2": "Ms. Mortimer Eldon Corkery"
   },
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "et"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "neque"
   },
   "CustomFields": {
-    "CustomFields1": "reiciendis",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "quaerat",
+    "CustomFields2": "tempore"
   },
-  "PublishEventDate": "2004-04-01T11:10:52.3561741+02:00",
-  "PublishTo": "2007-10-24T11:10:52.3561741+02:00",
-  "PublishFrom": "2022-05-16T11:10:52.3561741+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2022-09-18T02:49:50.5109099+02:00",
+  "PublishTo": "2009-11-10T02:49:50.5109099+01:00",
+  "PublishFrom": "2015-02-05T02:49:50.5109099+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 450,
+      "VisibleId": 676,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 582
+          "FieldLength": 723
         }
       }
     },
     {
-      "VisibleId": 450,
+      "VisibleId": 676,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 582
+          "FieldLength": 723
         }
       }
     }
@@ -261,12 +269,12 @@ Last-Modified: Mon, 09 Jan 2012 11:10:52 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldLength": 134
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

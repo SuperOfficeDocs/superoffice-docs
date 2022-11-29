@@ -11,6 +11,7 @@ PATCH /api/v1/Dashboard/{id}
 
 Update a Dashboard with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IDashboardAgent} service SaveDashboard.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Dashboard  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IDashboardAgent} service SaveDashboard.
 ```http
 PATCH /api/v1/Dashboard/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Dashboard/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 Dashboard  updated.
 
@@ -81,7 +93,7 @@ Dashboard  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because Dashboard has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,18 +112,18 @@ Response body:
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "explicabo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "explicabo",
     "value": {}
   }
 ]
@@ -124,22 +136,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 323,
-  "AssociateId": 70,
-  "Caption": "labore",
+  "DashboardId": 187,
+  "AssociateId": 175,
+  "Caption": "rerum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 363,
-      "Caption": "voluptas",
-      "Description": "Face to face uniform capability",
-      "ChartName": "O'Reilly Inc and Sons",
-      "ChartId": "consectetur",
+      "DashboardTileId": 307,
+      "Caption": "culpa",
+      "Description": "Adaptive reciprocal encryption",
+      "ChartName": "Torphy, Wyman and Robel",
+      "ChartId": "occaecati",
       "IsDefault": false,
-      "AssociateId": 123,
-      "GroupId": 281,
-      "SelectionId": 41,
-      "Config": "inventore",
+      "AssociateId": 284,
+      "GroupId": 702,
+      "SelectionId": 842,
+      "Config": "saepe",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -154,8 +166,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 823
+          "FieldType": "System.String",
+          "FieldLength": 603
         }
       }
     }
@@ -165,7 +177,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldLength": 319
     }
   },
   "_Links": {

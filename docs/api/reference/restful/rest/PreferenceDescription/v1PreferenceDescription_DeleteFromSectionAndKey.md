@@ -11,10 +11,17 @@ DELETE /api/v1/PreferenceDescription/{section}/{key}
 
 Gets a PreferenceDescription based on the section and key
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The PreferenceDescription-section **Required** |
 | key | string | The PreferenceDescription-key **Required** |
+
+
 
 ## Request Headers
 
@@ -25,7 +32,8 @@ Gets a PreferenceDescription based on the section and key
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -33,7 +41,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -41,7 +50,7 @@ Response body:
 DELETE /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

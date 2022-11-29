@@ -11,7 +11,13 @@ POST /api/v1/Agents/Archive/SetChosenEntities
 
 Set the currently chosen entities for the given gui name/provider name combination.
 
+
 This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ This service corresponds to the SetSelected method of the SelectableMDOList serv
 POST /api/v1/Agents/Archive/SetChosenEntities?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,9 +40,9 @@ POST /api/v1/Agents/Archive/SetChosenEntities?$select=name,department,category/i
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GuiName, ProviderName, Entities
+GuiName, ProviderName, Entities 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +50,8 @@ GuiName, ProviderName, Entities
 | ProviderName | string |  |
 | Entities | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -51,7 +59,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -59,15 +68,15 @@ Response body:
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Nikolaus-Murray",
-  "ProviderName": "Ebert, Vandervort and Mills",
+  "GuiName": "Rippin Group",
+  "ProviderName": "Quitzon-Mante",
   "Entities": [
-    "porro",
-    "quod"
+    "ut",
+    "velit"
   ]
 }
 ```

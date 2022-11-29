@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/PickUpFirstChatSession
 
 'answer' the first available session from the queue: assign the session to the user.
 
+
 The welcome message is sent to the customer.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The welcome message is sent to the customer.
 ```http
 POST /api/v1/Agents/Chat/PickUpFirstChatSession?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Chat/PickUpFirstChatSession?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,43 +106,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 313,
-  "TopicId": 125,
+  "ChatSessionId": 375,
+  "TopicId": 955,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptas",
-  "CustomerHost": "maxime",
-  "CustomerName": "Flatley, Crooks and Hettinger",
-  "CustomerEmail": "kay@mayert.com",
-  "CustomerPhone": "363.939.5389 x155",
+  "CustomerAlias": "neque",
+  "CustomerHost": "quo",
+  "CustomerName": "Collier-Ryan",
+  "CustomerEmail": "adan.mante@marvin.ca",
+  "CustomerPhone": "233.057.1673 x0174",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kshlerin-Nolan",
+  "CustomerCompanyName": "Mraz Group",
   "Status": "Closed",
-  "FirstMessage": "officiis",
-  "LastMessage": "eaque",
-  "WhenRequested": "2008-11-27T11:10:26.149525+01:00",
-  "WhenStarted": "2019-11-13T11:10:26.149525+01:00",
-  "WhenEnded": "1998-03-24T11:10:26.149525+01:00",
-  "WhenIdle": "1998-08-05T11:10:26.149525+02:00",
-  "WhenFetched": "2002-01-02T11:10:26.149525+01:00",
-  "SessionKey": "sit",
-  "InitialQueuePos": 686,
-  "AlertLevel": 725,
-  "Rank": 601,
+  "FirstMessage": "fuga",
+  "LastMessage": "quod",
+  "WhenRequested": "2004-01-19T02:49:43.8097841+01:00",
+  "WhenStarted": "2015-08-23T02:49:43.8097841+02:00",
+  "WhenEnded": "2015-06-20T02:49:43.8097841+02:00",
+  "WhenIdle": "1998-07-13T02:49:43.8097841+02:00",
+  "WhenFetched": "2004-10-18T02:49:43.8097841+02:00",
+  "SessionKey": "ratione",
+  "InitialQueuePos": 451,
+  "AlertLevel": 163,
+  "Rank": 308,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 200,
+  "ChatbotIsActive": true,
+  "Rating": 426,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 570
+      "FieldLength": 558
     }
   }
 }

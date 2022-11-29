@@ -11,11 +11,18 @@ PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Competitor list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 689,
-    "Name": "Crist, Marquardt and Conn",
-    "ToolTip": "Sunt numquam et.",
+    "Id": 122,
+    "Name": "Green, Upton and Oberbrunner",
+    "ToolTip": "Omnis repellendus voluptatibus temporibus.",
     "Deleted": true,
-    "Rank": 268,
-    "Type": "et",
-    "ColorBlock": 154,
-    "IconHint": "aut",
+    "Rank": 381,
+    "Type": "optio",
+    "ColorBlock": 841,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2012-09-24T11:10:53.9611851+02:00",
+    "LastChanged": "2022-06-28T02:49:51.9221933+02:00",
     "ChildItems": [
       {
-        "Id": 487,
-        "Name": "Lehner Inc and Sons",
-        "ToolTip": "Praesentium totam laboriosam ut.",
+        "Id": 643,
+        "Name": "Botsford-Lind",
+        "ToolTip": "Laboriosam rerum quisquam.",
         "Deleted": true,
-        "Rank": 658,
-        "Type": "ut",
-        "ColorBlock": 896,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "1999-12-17T11:10:53.9621856+01:00",
+        "Rank": 6,
+        "Type": "vel",
+        "ColorBlock": 620,
+        "IconHint": "voluptate",
+        "Selected": true,
+        "LastChanged": "2010-03-09T02:49:51.9221933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "ex",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Dr. Mateo Brooklyn Casper"
+        "FullName": "Ms. Nya Volkman"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "rerum",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "sint",
     "Hidden": true,
-    "FullName": "Jerod Farrell"
+    "FullName": "Lennie Bartoletti IV"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 159,
-    "Name": "Hilll-Leuschke",
-    "ToolTip": "Quam quas dolore sed molestias eos.",
-    "Deleted": true,
-    "Rank": 820,
-    "Type": "commodi",
-    "ColorBlock": 32,
-    "IconHint": "perferendis",
+    "Id": 267,
+    "Name": "Olson Group",
+    "ToolTip": "Magnam non deserunt.",
+    "Deleted": false,
+    "Rank": 473,
+    "Type": "tempora",
+    "ColorBlock": 957,
+    "IconHint": "commodi",
     "Selected": false,
-    "LastChanged": "2012-05-06T11:10:53.9631856+02:00",
+    "LastChanged": "1997-11-30T02:49:51.9221933+01:00",
     "ChildItems": [
       {
-        "Id": 455,
-        "Name": "Blick-Larkin",
-        "ToolTip": "Explicabo officia.",
+        "Id": 600,
+        "Name": "Conroy, Turner and Treutel",
+        "ToolTip": "Voluptas et et nam necessitatibus.",
         "Deleted": false,
-        "Rank": 440,
-        "Type": "molestiae",
-        "ColorBlock": 20,
-        "IconHint": "quos",
-        "Selected": true,
-        "LastChanged": "2014-10-24T11:10:53.9631856+02:00",
+        "Rank": 505,
+        "Type": "quia",
+        "ColorBlock": 385,
+        "IconHint": "quas",
+        "Selected": false,
+        "LastChanged": "2022-11-01T02:49:51.9221933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "molestias",
+        "ExtraInfo": "unde",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Mrs. Baby Anne Ernser",
+        "FullName": "Sabryna Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 210
+            "FieldLength": 265
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "reprehenderit",
-    "Hidden": false,
-    "FullName": "Miss Lucio Madisyn Marks Jr.",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Mustafa Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldType": "System.String",
+        "FieldLength": 242
       }
     }
   }

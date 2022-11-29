@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetCriteriaInformation
 
 Get criteria information from a set of saved criteria.
 
+
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The result contains the restrictions in two forms: fully populated ArchiveRestri
 ```http
 POST /api/v1/Agents/Find/GetCriteriaInformation?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/GetCriteriaInformation?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, StaticColumns
+StorageType, ProviderName, StorageKey, StaticColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,8 @@ StorageType, ProviderName, StorageKey, StaticColumns
 | StorageKey | string |  |
 | StaticColumns | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -56,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,12 +85,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sed",
-  "ProviderName": "Marquardt Inc and Sons",
-  "StorageKey": "animi",
+  "StorageType": "architecto",
+  "ProviderName": "Rippin, Halvorson and Koch",
+  "StorageKey": "eveniet",
   "StaticColumns": [
-    "molestias",
-    "sit"
+    "ab",
+    "inventore"
   ]
 }
 ```
@@ -96,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Turner LLC",
-      "Operator": "corporis",
+      "Name": "Huels, Dickens and Bernhard",
+      "Operator": "rerum",
       "Values": [
-        "laboriosam",
-        "molestiae"
+        "eveniet",
+        "exercitationem"
       ],
       "DisplayValues": [
-        "reprehenderit",
-        "eum"
+        "voluptates",
+        "ut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -112,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 217,
+      "InterParenthesis": 233,
       "InterOperator": "And",
-      "UniqueHash": 815
+      "UniqueHash": 290
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Leuschke, Hessel and Kunde",
-      "DisplayTooltip": "culpa",
-      "DisplayType": "esse",
+      "DisplayName": "Denesik LLC",
+      "DisplayTooltip": "corrupti",
+      "DisplayType": "qui",
       "CanOrderBy": false,
-      "Name": "Schuster Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "modi",
-      "RestrictionListName": "Reilly Group",
+      "Name": "O'Hara-Bogisich",
+      "CanRestrictBy": true,
+      "RestrictionType": "fugiat",
+      "RestrictionListName": "Klocko, Kutch and Champlin",
       "IsVisible": false,
-      "ExtraInfo": "neque",
-      "Width": "voluptas",
-      "IconHint": "adipisci",
-      "HeadingIconHint": "laudantium"
+      "ExtraInfo": "et",
+      "Width": "aspernatur",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "enim"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Cronin, Hermann and Wiegand",
-      "PrimaryKey": 923,
+      "EntityName": "Crona-Mraz",
+      "PrimaryKey": 332,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aperiam",
-          "TooltipHint": "nisi",
-          "LinkHint": "vitae"
+          "DisplayValue": "qui",
+          "TooltipHint": "ipsa",
+          "LinkHint": "fugit"
         }
       },
-      "LinkHint": "eligendi",
-      "StyleHint": "magnam",
+      "LinkHint": "fuga",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldType": "System.String",
+          "FieldLength": 365
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kilback, Marks and Parisian",
-      "Description": "Devolved tertiary artificial intelligence",
-      "Rank": 74,
+      "Name": "Hane-Ferry",
+      "Description": "Virtual asynchronous local area network",
+      "Rank": 45,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kilback, Marks and Parisian",
-      "Description": "Devolved tertiary artificial intelligence",
-      "Rank": 74,
+      "Name": "Hane-Ferry",
+      "Description": "Virtual asynchronous local area network",
+      "Rank": 45,
       "Restrictions": [
         {},
         {}
@@ -182,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 201
     }
   }
 }

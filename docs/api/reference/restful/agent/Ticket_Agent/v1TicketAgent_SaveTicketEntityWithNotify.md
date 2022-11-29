@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/SaveTicketEntityWithNotify
 
 Saves a ticket and performs any user notifications
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a ticket and performs any user notifications
 ```http
 POST /api/v1/Agents/Ticket/SaveTicketEntityWithNotify?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Ticket/SaveTicketEntityWithNotify?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-NewEntity, Notify
+NewEntity, Notify 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | NewEntity |  | The ticket entity is used for representing a service ticket <para /> Carrier object for TicketEntity. Services for the TicketEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
 | Notify | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,6 +70,7 @@ Response body:
 | LastChanged | date-time | The last time the ticket was modified. |
 | ReadByOwner | date-time | The datetime for when the ticket last was read by the owner. |
 | ReadByCustomer | date-time | The datetime for when the ticket was read by the customer. |
+| FirstReadByOwner | date-time | The datetime for when the ticket first was read by the current owner. |
 | FirstReadByUser | date-time | The datetime for when the ticket first was read by a user. |
 | Activate | date-time | When the ticket should be activated, if it is postponed. |
 | ClosedAt | date-time | When the ticket was closed. |
@@ -116,12 +125,12 @@ Response body:
 POST /api/v1/Agents/Ticket/SaveTicketEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -132,20 +141,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 8,
-  "Title": "vitae",
-  "CreatedAt": "2017-04-22T11:10:28.2862071+02:00",
-  "LastChanged": "2004-12-19T11:10:28.2862071+01:00",
-  "ReadByOwner": "2020-07-19T11:10:28.2862071+02:00",
-  "ReadByCustomer": "2014-11-04T11:10:28.2862071+01:00",
-  "FirstReadByUser": "2003-10-21T11:10:28.2862071+02:00",
-  "Activate": "2009-08-29T11:10:28.2862071+02:00",
-  "ClosedAt": "2008-07-26T11:10:28.2862071+02:00",
-  "RepliedAt": "2011-06-13T11:10:28.2862071+02:00",
-  "AlertTimeout": "1997-03-06T11:10:28.2862071+01:00",
-  "Deadline": "2012-07-04T11:10:28.2862071+02:00",
+  "TicketId": 784,
+  "Title": "molestiae",
+  "CreatedAt": "2007-09-11T02:49:45.5309702+02:00",
+  "LastChanged": "2013-12-24T02:49:45.5309702+01:00",
+  "ReadByOwner": "2020-12-28T02:49:45.5309702+01:00",
+  "ReadByCustomer": "2022-07-28T02:49:45.5309702+02:00",
+  "FirstReadByOwner": "1999-10-21T02:49:45.5309702+02:00",
+  "FirstReadByUser": "2012-08-19T02:49:45.5309702+02:00",
+  "Activate": "2020-04-24T02:49:45.5309702+02:00",
+  "ClosedAt": "2021-09-02T02:49:45.5309702+02:00",
+  "RepliedAt": "1997-01-07T02:49:45.5309702+01:00",
+  "AlertTimeout": "2008-11-21T02:49:45.5309702+01:00",
+  "Deadline": "2017-05-12T02:49:45.5309702+02:00",
   "CreatedBy": null,
-  "Author": "adipisci",
+  "Author": "soluta",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -156,154 +166,155 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "nesciunt",
-      "PersonId": 632,
-      "Mrmrs": "ea",
-      "Firstname": "Ramona",
-      "Lastname": "Leuschke",
-      "MiddleName": "Keeling-Turner",
-      "Title": "ratione",
-      "Description": "De-engineered composite benchmark",
-      "Email": "narciso_rolfson@kuhicohara.info",
-      "FullName": "Alex Boyer",
-      "DirectPhone": "1-120-761-4518 x886",
-      "FormalName": "Bogan LLC",
-      "CountryId": 12,
-      "ContactId": 272,
-      "ContactName": "Hermiston, Strosin and Feest",
-      "Retired": 948,
-      "Rank": 868,
-      "ActiveInterests": 583,
+      "Position": "aut",
+      "PersonId": 67,
+      "Mrmrs": "tempore",
+      "Firstname": "Maryjane",
+      "Lastname": "Hickle",
+      "MiddleName": "Wolf-Lueilwitz",
+      "Title": "similique",
+      "Description": "De-engineered dynamic moratorium",
+      "Email": "dell_graham@shields.ca",
+      "FullName": "Domenic Mills",
+      "DirectPhone": "764.650.1373 x237",
+      "FormalName": "Ankunding-Flatley",
+      "CountryId": 302,
+      "ContactId": 650,
+      "ContactName": "Muller Inc and Sons",
+      "Retired": 200,
+      "Rank": 806,
+      "ActiveInterests": 641,
       "ContactDepartment": "",
-      "ContactCountryId": 935,
-      "ContactOrgNr": "749470",
-      "FaxPhone": "1-580-998-6828 x402",
-      "MobilePhone": "451.167.7548",
-      "ContactPhone": "162.100.1335",
-      "AssociateName": "Heathcote-Blanda",
-      "AssociateId": 755,
+      "ContactCountryId": 69,
+      "ContactOrgNr": "1510461",
+      "FaxPhone": "125.032.3408 x96981",
+      "MobilePhone": "(273)843-7766 x0913",
+      "ContactPhone": "992-013-9793 x32434",
+      "AssociateName": "King, Rice and Dicki",
+      "AssociateId": 666,
       "UsePersonAddress": false,
-      "ContactFax": "placeat",
-      "Kanafname": "eius",
-      "Kanalname": "qui",
-      "Post1": "ut",
-      "Post2": "et",
-      "Post3": "molestias",
-      "EmailName": "birdie@schowalter.us",
-      "ContactFullName": "Berta Morissette",
-      "ActiveErpLinks": 980,
-      "TicketPriorityId": 611,
-      "SupportLanguageId": 933,
-      "SupportAssociateId": 894,
+      "ContactFax": "et",
+      "Kanafname": "et",
+      "Kanalname": "consequuntur",
+      "Post1": "quis",
+      "Post2": "illum",
+      "Post3": "recusandae",
+      "EmailName": "edythe.gerlach@kihn.uk",
+      "ContactFullName": "Miss Palma Aimee Dare IV",
+      "ActiveErpLinks": 572,
+      "TicketPriorityId": 896,
+      "SupportLanguageId": 541,
+      "SupportAssociateId": 757,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 349
+          "FieldType": "System.String",
+          "FieldLength": 582
         }
       }
     }
   ],
-  "AlertLevel": 848,
-  "ConnectId": 674,
+  "AlertLevel": 441,
+  "ConnectId": 46,
   "ReadStatus": "Green",
-  "TimeToReply": 917,
-  "RealTimeToReply": 559,
-  "TimeToClose": 56,
-  "RealTimeToClose": 852,
-  "TimeSpentInternally": 63,
-  "TimeSpentExternally": 322,
-  "TimeSpentQueue": 227,
-  "RealTimeSpentInternally": 241,
-  "RealTimeSpentExternally": 7,
-  "RealTimeSpentQueue": 350,
+  "TimeToReply": 678,
+  "RealTimeToReply": 783,
+  "TimeToClose": 129,
+  "RealTimeToClose": 201,
+  "TimeSpentInternally": 55,
+  "TimeSpentExternally": 174,
+  "TimeSpentQueue": 71,
+  "RealTimeSpentInternally": 733,
+  "RealTimeSpentExternally": 901,
+  "RealTimeSpentQueue": 80,
   "HasAttachment": false,
-  "NumReplies": 616,
-  "NumMessages": 768,
-  "FromAddress": "facere",
+  "NumReplies": 699,
+  "NumMessages": 81,
+  "FromAddress": "ratione",
   "Messages": [
     {
-      "TicketMessageId": 672,
-      "CreatedAt": "1999-12-31T11:10:28.2902066+01:00",
+      "TicketMessageId": 723,
+      "CreatedAt": "2002-03-30T02:49:45.5309702+01:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "qui",
-      "PersonId": 215,
-      "PersonFullName": "Deion Zboncak",
-      "ContactId": 30,
-      "ContactName": "Klocko-Dach",
+      "Important": true,
+      "Author": "alias",
+      "PersonId": 43,
+      "PersonFullName": "Miss Mia Upton Jr.",
+      "ContactId": 152,
+      "ContactName": "Borer-Gerhold",
       "ContactDepartment": "",
-      "NumAttachments": 656,
-      "EmailHeader": "rogers_hammes@robel.biz",
+      "NumAttachments": 21,
+      "EmailHeader": "georgianna_ullrich@kirlin.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "tempora",
-      "Sentiment": 944,
-      "SentimentConfidence": 888,
-      "CreatedBy": 757,
+      "Language": "rerum",
+      "Sentiment": 166,
+      "SentimentConfidence": 176,
+      "CreatedBy": 612,
+      "ChangedAt": "1997-06-30T02:49:45.5309702+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 62
+          "FieldType": "System.Int32",
+          "FieldLength": 583
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 325,
-      "Name": "Keeling Inc and Sons",
-      "ToolTip": "Nam sapiente sint.",
+      "Id": 274,
+      "Name": "McGlynn-Mante",
+      "ToolTip": "Voluptates minima dolores quas ut.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 738
+          "FieldLength": 379
         }
       }
     },
     {
-      "Id": 325,
-      "Name": "Keeling Inc and Sons",
-      "ToolTip": "Nam sapiente sint.",
+      "Id": 274,
+      "Name": "McGlynn-Mante",
+      "ToolTip": "Voluptates minima dolores quas ut.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 738
+          "FieldLength": 379
         }
       }
     }
   ],
-  "Language": "incidunt",
-  "Sentiment": 964,
-  "SentimentConfidence": 48,
-  "SuggestedCategoryId": 585,
+  "Language": "reiciendis",
+  "Sentiment": 864,
+  "SentimentConfidence": 222,
+  "SuggestedCategoryId": 170,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 617,
-  "IconHint": "quia",
+  "OrigHumanCategoryId": 168,
+  "IconHint": "consectetur",
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "repudiandae",
-    "CustomFields2": "ut"
+    "CustomFields1": "sint",
+    "CustomFields2": "ab"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 111
     }
   }
 }

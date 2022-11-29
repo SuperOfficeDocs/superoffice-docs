@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointments
 
 Get published appointments by appointment ids.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published appointments by appointment ids.
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointments?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentIds
+AppointmentIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentIds | array |  |
+
 
 ## Response: array
 
@@ -113,13 +121,13 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    400,
-    241
+    43,
+    136
   ]
 }
 ```
@@ -132,53 +140,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 564,
-    "StartDate": "1996-05-23T11:10:25.4465256+02:00",
-    "EndDate": "1999-11-17T11:10:25.4465256+01:00",
+    "AppointmentId": 673,
+    "StartDate": "2012-01-06T02:49:43.2304992+01:00",
+    "EndDate": "2005-10-02T02:49:43.2304992+02:00",
     "Type": "BookingForChecklist",
-    "Task": "fugiat",
-    "AssociateFullName": "Mr. Theodore Ford Bahringer",
-    "ContactName": "Ward-Stehr",
-    "Description": "Devolved object-oriented framework",
-    "PersonFullName": "Mr. Gertrude Ryan V",
-    "PersonId": 743,
-    "ContactId": 104,
-    "ProjectId": 204,
-    "ProjectName": "Runolfsson-Yost",
+    "Task": "voluptatum",
+    "AssociateFullName": "Jack O'Reilly II",
+    "ContactName": "Brown Inc and Sons",
+    "Description": "Distributed contextually-based pricing structure",
+    "PersonFullName": "Miss Christine Farrell IV",
+    "PersonId": 771,
+    "ContactId": 31,
+    "ProjectId": 871,
+    "ProjectName": "Greenfelder, Monahan and Larkin",
     "IsPublished": false,
-    "AssociateId": 185,
-    "ColorIndex": 911,
-    "IsFree": false,
+    "AssociateId": 85,
+    "ColorIndex": 666,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 865,
-    "PriorityName": "Pfeffer, Mayert and Fisher",
+    "PriorityId": 463,
+    "PriorityName": "Glover, Fahey and Hagenes",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2011-12-19T11:10:25.4475254+01:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2000-04-22T02:49:43.2461231+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-06-10T11:10:25.4475254+02:00",
-    "RecurringEndDate": "2013-11-11T11:10:25.4475254+01:00",
-    "MotherId": 101,
-    "AssignedBy": 572,
-    "AssignedByFullName": "Ellen Koepp",
+    "RecurringStartDate": "2006-03-23T02:49:43.2461231+01:00",
+    "RecurringEndDate": "2013-09-14T02:49:43.2461231+02:00",
+    "MotherId": 47,
+    "AssignedBy": 919,
+    "AssignedByFullName": "Sasha Mosciski",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "consequatur",
-    "SaleId": 64,
-    "SaleName": "Dach Group",
-    "AssociateName": "Schmeler-Rau",
-    "CreatedDate": "2003-06-20T11:10:25.4475254+02:00",
-    "CreatedBy": "cupiditate",
-    "CreatedByFullName": "Izaiah Saul Beahan III",
-    "CreatedByAssociateId": 212,
+    "Location": "beatae",
+    "AlarmLeadTime": "possimus",
+    "SaleId": 406,
+    "SaleName": "Romaguera, Ward and Macejkovic",
+    "AssociateName": "Blick, Hills and Goodwin",
+    "CreatedDate": "2003-03-20T02:49:43.2461231+01:00",
+    "CreatedBy": "ex",
+    "CreatedByFullName": "Mrs. Constance Krajcik",
+    "CreatedByAssociateId": 574,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -186,7 +194,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 967
+        "FieldLength": 471
       }
     }
   }

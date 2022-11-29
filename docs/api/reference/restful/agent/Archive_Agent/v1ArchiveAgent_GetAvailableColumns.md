@@ -11,7 +11,13 @@ POST /api/v1/Agents/Archive/GetAvailableColumns
 
 Return list of all columns supported by an archive provider.
 
+
 See also GetArchiveConfiguration.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ See also GetArchiveConfiguration.
 ```http
 POST /api/v1/Agents/Archive/GetAvailableColumns?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Archive/GetAvailableColumns?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Context
+ProviderName, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProviderName | string |  |
 | Context | string |  |
+
 
 ## Response: array
 
@@ -78,12 +86,12 @@ Response body: array
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Brown LLC",
-  "Context": "veniam"
+  "ProviderName": "Tromp-White",
+  "Context": "sed"
 }
 ```
 
@@ -95,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Welch, Heathcote and Stroman",
-    "DisplayTooltip": "nobis",
-    "DisplayType": "cupiditate",
-    "CanOrderBy": false,
-    "Name": "D'Amore, Hickle and Marquardt",
-    "CanRestrictBy": true,
-    "RestrictionType": "id",
-    "RestrictionListName": "Kulas-Klocko",
-    "IsVisible": false,
-    "ExtraInfo": "corrupti",
-    "Width": "quaerat",
-    "IconHint": "velit",
-    "HeadingIconHint": "hic"
+    "DisplayName": "Mosciski-Watsica",
+    "DisplayTooltip": "perferendis",
+    "DisplayType": "nihil",
+    "CanOrderBy": true,
+    "Name": "Schaefer Inc and Sons",
+    "CanRestrictBy": false,
+    "RestrictionType": "saepe",
+    "RestrictionListName": "Carroll LLC",
+    "IsVisible": true,
+    "ExtraInfo": "vitae",
+    "Width": "cumque",
+    "IconHint": "consequuntur",
+    "HeadingIconHint": "omnis"
   }
 ]
 ```

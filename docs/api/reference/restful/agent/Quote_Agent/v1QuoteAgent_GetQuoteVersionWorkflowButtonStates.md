@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates
 
 Get all button states for the Quote version dialog.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all button states for the Quote version dialog.
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, QuoteAlternativeId
+QuoteVersionId, QuoteAlternativeId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 | QuoteAlternativeId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,12 +77,12 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 991,
-  "QuoteAlternativeId": 4
+  "QuoteVersionId": 365,
+  "QuoteAlternativeId": 41
 }
 ```
 
@@ -88,16 +96,16 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "rem",
-      "DisplayText": "doloremque",
-      "TooltipText": "omnis",
+      "ImageHint": "praesentium",
+      "DisplayText": "qui",
+      "TooltipText": "expedita",
       "Enabled": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldType": "System.Int32",
+          "FieldLength": 564
         }
       }
     }
@@ -110,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldLength": 878
     }
   }
 }

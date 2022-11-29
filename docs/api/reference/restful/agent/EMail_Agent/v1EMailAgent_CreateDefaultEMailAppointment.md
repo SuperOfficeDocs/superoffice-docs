@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
 
 Set default values into a new EMailAppointment.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +66,7 @@ Response body:
 POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,20 +79,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "occaecati",
-    "incidunt"
+    "consequatur",
+    "quis"
   ],
-  "Comment": "ipsam",
-  "Sequence": 485,
-  "DtStart": "2015-02-06T11:10:26.8924222+01:00",
-  "DtEnd": "2015-06-03T11:10:26.8924222+02:00",
-  "Superseded": false,
+  "Comment": "libero",
+  "Sequence": 263,
+  "DtStart": "2002-03-04T02:49:44.403542+01:00",
+  "DtEnd": "2006-11-27T02:49:44.403542+01:00",
+  "Superseded": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldLength": 443
     }
   }
 }

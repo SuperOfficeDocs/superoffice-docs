@@ -9,6 +9,14 @@ uid: v1AppointmentAgent_GetAlarms
 POST /api/v1/Agents/Appointment/GetAlarms
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Appointment/GetAlarms
 ```http
 POST /api/v1/Agents/Appointment/GetAlarms?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,9 +42,9 @@ POST /api/v1/Agents/Appointment/GetAlarms?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeInvitations, IncludeAllAppointments, DefaultAlarmLeadTimeInMinutes
+IncludeInvitations, IncludeAllAppointments, DefaultAlarmLeadTimeInMinutes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +52,8 @@ IncludeInvitations, IncludeAllAppointments, DefaultAlarmLeadTimeInMinutes
 | IncludeAllAppointments | bool |  |
 | DefaultAlarmLeadTimeInMinutes | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +83,7 @@ Content-Type: application/json; charset=utf-8
 {
   "IncludeInvitations": false,
   "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 727
+  "DefaultAlarmLeadTimeInMinutes": 881
 }
 ```
 
@@ -86,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 877,
-      "StartTime": "2020-05-16T11:10:25.4795222+02:00",
-      "EndDate": "2009-10-13T11:10:25.4795222+02:00",
-      "AlarmTime": "2011-07-13T11:10:25.4795222+02:00",
-      "PersonId": 291,
-      "PersonFullName": "Trycia Von",
-      "ContactName": "Marquardt Inc and Sons",
-      "ProjectId": 981,
-      "ProjectName": "Hermann Inc and Sons",
-      "AppointmentText": "perferendis",
-      "SaleId": 790,
-      "SaleName": "Koss, O'Kon and Leannon",
-      "Location": "aut",
+      "AppointmentId": 58,
+      "StartTime": "2022-01-30T02:49:43.261747+01:00",
+      "EndDate": "2000-01-19T02:49:43.261747+01:00",
+      "AlarmTime": "2004-11-28T02:49:43.261747+01:00",
+      "PersonId": 665,
+      "PersonFullName": "Shania Jaskolski",
+      "ContactName": "Rogahn LLC",
+      "ProjectId": 138,
+      "ProjectName": "Zulauf Group",
+      "AppointmentText": "impedit",
+      "SaleId": 587,
+      "SaleName": "Ortiz Inc and Sons",
+      "Location": "ullam",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 815,
+      "ContactId": 543,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Kling-Leuschke",
-      "TaskName": "Kirlin Inc and Sons",
-      "ContactDepartment": "",
-      "ContactFullName": "Ms. Ricardo Dach IV",
+      "FormalName": "Volkman-Ferry",
+      "TaskName": "Watsica-Kuphal",
+      "ContactDepartment": "utilize value-added architectures",
+      "ContactFullName": "Alexandro Miller",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 158
+          "FieldLength": 907
         }
       }
     }
   ],
-  "PollingInterval": 321,
-  "SilentAfter": 296,
+  "PollingInterval": 40,
+  "SilentAfter": 536,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 537
     }
   }
 }

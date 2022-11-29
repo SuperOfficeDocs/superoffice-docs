@@ -11,7 +11,14 @@ POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
 
 Set default values into a new CustomerCenterConfig.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 132,
+  "CustConfigId": 988,
   "Type": "Options",
-  "Config": "illo",
-  "CustLangId": 351,
-  "Registered": "2002-10-01T11:10:26.3934239+02:00",
-  "RegisteredAssociateId": 145,
-  "Updated": "2016-05-29T11:10:26.3934239+02:00",
-  "UpdatedAssociateId": 36,
+  "Config": "commodi",
+  "CustLangId": 866,
+  "Registered": "2016-07-30T02:49:44.0285283+02:00",
+  "RegisteredAssociateId": 810,
+  "Updated": "2008-02-20T02:49:44.0285283+01:00",
+  "UpdatedAssociateId": 357,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 164
+      "FieldType": "System.Int32",
+      "FieldLength": 593
     }
   }
 }

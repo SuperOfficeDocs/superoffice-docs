@@ -11,7 +11,14 @@ GET /api/v1/List/TicketPriority/Headings
 
 Gets headings for the TicketPriorityEntity list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -53,7 +61,7 @@ Response body: array
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -64,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 762,
-    "Name": "Jacobi Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 400,
+    "Name": "Berge LLC",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 959,
-    "UdListDefinitionId": 606,
+    "Rank": 507,
+    "UdListDefinitionId": 173,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 830
       }
     }
   }

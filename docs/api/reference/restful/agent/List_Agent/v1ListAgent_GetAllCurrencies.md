@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllCurrencies
 
 Returns all currencies
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all currencies
 ```http
 POST /api/v1/Agents/List/GetAllCurrencies?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/List/GetAllCurrencies?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
+
 
 ## Response: array
 
@@ -71,7 +79,7 @@ Response body: array
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -87,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 217,
-    "Name": "Stamm-Marvin",
-    "Tooltip": "enim",
-    "Rank": 528,
-    "Rate": 19944.775999999998,
-    "Units": 4306.116,
-    "Deleted": true,
+    "CurrencyId": 419,
+    "Name": "Schaden Group",
+    "Tooltip": "dolores",
+    "Rank": 674,
+    "Rate": 13438.591999999999,
+    "Units": 5591.056,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldLength": 200
       }
     }
   }

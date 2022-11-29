@@ -11,6 +11,13 @@ POST /api/v1/Appointment/Validate
 
 Check that entity is ready for saving.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Check that entity is ready for saving.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: appointmentEntity
+## Request Body: appointmentEntity  
 
-Entity to be checked.
+Entity to be checked. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,6 +94,7 @@ Entity to be checked.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
+
 ## Response: object
 
 OK
@@ -97,13 +105,14 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,62 +120,62 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-04-23T11:10:52.4011824+02:00",
-  "AppointmentId": 820,
-  "Description": "Pre-emptive responsive core",
-  "StartDate": "2020-12-19T11:10:52.4011824+01:00",
-  "EndDate": "2010-07-09T11:10:52.4011824+02:00",
+  "CreatedDate": "2013-08-19T02:49:50.5421596+02:00",
+  "AppointmentId": 256,
+  "Description": "Front-line local orchestration",
+  "StartDate": "2001-02-22T02:49:50.5421596+01:00",
+  "EndDate": "2020-06-03T02:49:50.5421596+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 167,
+  "MotherId": 642,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-06-29T11:10:52.4041799+02:00",
+  "UpdatedDate": "2006-05-18T02:49:50.5577842+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 556,
+  "ActiveLinks": 30,
   "Links": [
     {
-      "EntityName": "Johnson, McClure and Mohr",
-      "Id": 435,
-      "Description": "Synchronised full-range attitude",
+      "EntityName": "Casper, Runolfsson and Herzog",
+      "Id": 178,
+      "Description": "Enhanced bottom-line emulation",
       "ExtraInfo": "voluptatem",
-      "LinkId": 601
+      "LinkId": 935
     },
     {
-      "EntityName": "Johnson, McClure and Mohr",
-      "Id": 435,
-      "Description": "Synchronised full-range attitude",
+      "EntityName": "Casper, Runolfsson and Herzog",
+      "Id": 178,
+      "Description": "Enhanced bottom-line emulation",
       "ExtraInfo": "voluptatem",
-      "LinkId": 601
+      "LinkId": 935
     }
   ],
-  "AlarmLeadTime": "cumque",
+  "AlarmLeadTime": "explicabo",
   "HasAlarm": false,
-  "ColorIndex": 634,
-  "IsFree": true,
+  "ColorIndex": 136,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "placeat",
-  "LeadTime": "accusamus",
-  "Location": "voluptates",
-  "RejectCounter": 216,
-  "RejectReason": "expedite intuitive deliverables",
+  "LagTime": "laborum",
+  "LeadTime": "sunt",
+  "Location": "quaerat",
+  "RejectCounter": 279,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 952,
-      "PersonId": 84,
-      "ContactId": 255,
-      "EmailId": 656,
+      "AssociateId": 281,
+      "PersonId": 313,
+      "ContactId": 758,
+      "EmailId": 55,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 952,
-      "PersonId": 84,
-      "ContactId": 255,
-      "EmailId": 656,
+      "AssociateId": 281,
+      "PersonId": 313,
+      "ContactId": 758,
+      "EmailId": 55,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -174,44 +183,44 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-07-22T11:10:52.4041799+02:00",
+  "ActiveDate": "2005-04-12T02:49:50.5577842+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 13,
+  "PreferredTZLocation": 717,
   "Sale": null,
-  "SuggestedAppointmentId": 885,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 538,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "repellat",
+  "CentralserviceVideomeetId": "iste",
   "UserDefinedFields": {
-    "SuperOffice:1": "430549970",
-    "SuperOffice:2": "Keeley Heaney"
+    "SuperOffice:1": "768402511",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "blanditiis",
-    "ExtraFields2": "non"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "nostrum",
-    "CustomFields2": "in"
+    "CustomFields1": "facilis",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2004-05-12T11:10:52.4061802+02:00",
-  "PublishTo": "1996-05-12T11:10:52.4061802+02:00",
-  "PublishFrom": "2006-11-02T11:10:52.4061802+01:00",
+  "PublishEventDate": "2011-10-11T02:49:50.5577842+02:00",
+  "PublishTo": "2018-02-27T02:49:50.5577842+01:00",
+  "PublishFrom": "2011-10-18T02:49:50.5577842+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 702,
+      "VisibleId": 463,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "nam"
     },
     {
-      "VisibleId": 702,
+      "VisibleId": 463,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "nam"
     }
   ]
 }
@@ -224,7 +233,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "perspiciatis",
-  "2": "hic"
+  "1": "non",
+  "2": "est"
 }
 ```

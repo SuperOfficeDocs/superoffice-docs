@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity
 
 Gets a SuggestedAppointmentEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SuggestedAppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=203
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=824
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +79,7 @@ Response body:
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,17 +89,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 97,
-  "Name": "Hackett Inc and Sons",
-  "Tooltip": "ipsum",
-  "Rank": 395,
+  "SuggestedAppointmentId": 695,
+  "Name": "Fay, Pollich and Strosin",
+  "Tooltip": "itaque",
+  "Rank": 935,
   "Deleted": false,
-  "DaysFuture": 312,
-  "Duration": "cumque",
-  "AutoSuggest": true,
-  "IsMilestone": false,
+  "DaysFuture": 718,
+  "Duration": "quod",
+  "AutoSuggest": false,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "quia",
+  "Text": "totam",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -100,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 233
     }
   }
 }

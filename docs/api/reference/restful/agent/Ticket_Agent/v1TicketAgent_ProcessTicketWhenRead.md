@@ -11,7 +11,13 @@ POST /api/v1/Agents/Ticket/ProcessTicketWhenRead
 
 When a user view/read a ticket, a number of action should be performed: set read status, escalation handling, remove notifications, etc.
 
+
 Which actions will be performed depends on owner, caller and configuration
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Which actions will be performed depends on owner, caller and configuration
 ```http
 POST /api/v1/Agents/Ticket/ProcessTicketWhenRead?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Ticket/ProcessTicketWhenRead?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketEntityId
+TicketEntityId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketEntityId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,6 +71,7 @@ Response body:
 | LastChanged | date-time | The last time the ticket was modified. |
 | ReadByOwner | date-time | The datetime for when the ticket last was read by the owner. |
 | ReadByCustomer | date-time | The datetime for when the ticket was read by the customer. |
+| FirstReadByOwner | date-time | The datetime for when the ticket first was read by the current owner. |
 | FirstReadByUser | date-time | The datetime for when the ticket first was read by a user. |
 | Activate | date-time | When the ticket should be activated, if it is postponed. |
 | ClosedAt | date-time | When the ticket was closed. |
@@ -117,11 +126,11 @@ Response body:
 POST /api/v1/Agents/Ticket/ProcessTicketWhenRead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 492
+  "TicketEntityId": 215
 }
 ```
 
@@ -132,20 +141,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 218,
-  "Title": "rem",
-  "CreatedAt": "1996-03-12T11:10:28.2972069+01:00",
-  "LastChanged": "2006-11-25T11:10:28.2972069+01:00",
-  "ReadByOwner": "1995-12-21T11:10:28.2972069+01:00",
-  "ReadByCustomer": "2020-08-11T11:10:28.2972069+02:00",
-  "FirstReadByUser": "1996-11-12T11:10:28.2972069+01:00",
-  "Activate": "1997-12-20T11:10:28.2972069+01:00",
-  "ClosedAt": "2012-03-02T11:10:28.2972069+01:00",
-  "RepliedAt": "2001-07-26T11:10:28.2972069+02:00",
-  "AlertTimeout": "1995-06-08T11:10:28.2972069+02:00",
-  "Deadline": "1996-12-22T11:10:28.2972069+01:00",
+  "TicketId": 452,
+  "Title": "excepturi",
+  "CreatedAt": "2010-03-29T02:49:45.5309702+02:00",
+  "LastChanged": "2016-09-18T02:49:45.5309702+02:00",
+  "ReadByOwner": "2022-07-03T02:49:45.5309702+02:00",
+  "ReadByCustomer": "2005-08-03T02:49:45.5309702+02:00",
+  "FirstReadByOwner": "2007-04-19T02:49:45.5309702+02:00",
+  "FirstReadByUser": "2020-11-13T02:49:45.5309702+01:00",
+  "Activate": "2018-02-13T02:49:45.5309702+01:00",
+  "ClosedAt": "2018-06-24T02:49:45.5309702+02:00",
+  "RepliedAt": "2016-12-22T02:49:45.5309702+01:00",
+  "AlertTimeout": "2000-11-22T02:49:45.5309702+01:00",
+  "Deadline": "2008-04-17T02:49:45.5309702+02:00",
   "CreatedBy": null,
-  "Author": "eos",
+  "Author": "nesciunt",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -156,154 +166,155 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "natus",
-      "PersonId": 229,
-      "Mrmrs": "ducimus",
-      "Firstname": "Ursula",
-      "Lastname": "Hessel",
-      "MiddleName": "Gerhold Inc and Sons",
-      "Title": "expedita",
-      "Description": "Automated asynchronous circuit",
-      "Email": "vicenta@oberbrunnerfeil.uk",
-      "FullName": "Annabel Pacocha",
-      "DirectPhone": "1-345-929-7877 x80827",
-      "FormalName": "Brown-Keeling",
-      "CountryId": 61,
-      "ContactId": 346,
-      "ContactName": "Zieme LLC",
-      "Retired": 361,
-      "Rank": 306,
-      "ActiveInterests": 819,
+      "Position": "atque",
+      "PersonId": 50,
+      "Mrmrs": "velit",
+      "Firstname": "Marielle",
+      "Lastname": "Ruecker",
+      "MiddleName": "Howell Group",
+      "Title": "ut",
+      "Description": "Self-enabling encompassing portal",
+      "Email": "myron@rice.name",
+      "FullName": "Ms. Jocelyn Julio Corkery",
+      "DirectPhone": "642-220-8264 x83408",
+      "FormalName": "Borer Group",
+      "CountryId": 659,
+      "ContactId": 420,
+      "ContactName": "Pagac, Streich and Gleichner",
+      "Retired": 511,
+      "Rank": 22,
+      "ActiveInterests": 99,
       "ContactDepartment": "",
-      "ContactCountryId": 551,
-      "ContactOrgNr": "520611",
-      "FaxPhone": "1-754-564-6878",
-      "MobilePhone": "103-790-5060",
-      "ContactPhone": "108.569.6174",
-      "AssociateName": "Simonis-Koch",
-      "AssociateId": 181,
+      "ContactCountryId": 977,
+      "ContactOrgNr": "692504",
+      "FaxPhone": "(274)622-1736 x822",
+      "MobilePhone": "988-545-4187",
+      "ContactPhone": "(721)481-4953",
+      "AssociateName": "Torp-Cassin",
+      "AssociateId": 299,
       "UsePersonAddress": false,
-      "ContactFax": "sed",
-      "Kanafname": "eum",
-      "Kanalname": "rem",
-      "Post1": "esse",
-      "Post2": "beatae",
-      "Post3": "illum",
-      "EmailName": "thad@schiller.uk",
-      "ContactFullName": "Cecilia D'Amore",
-      "ActiveErpLinks": 626,
-      "TicketPriorityId": 111,
-      "SupportLanguageId": 923,
-      "SupportAssociateId": 386,
+      "ContactFax": "dicta",
+      "Kanafname": "dolore",
+      "Kanalname": "facilis",
+      "Post1": "cum",
+      "Post2": "ut",
+      "Post3": "autem",
+      "EmailName": "shaylee_farrell@king.uk",
+      "ContactFullName": "Nelda Bahringer",
+      "ActiveErpLinks": 660,
+      "TicketPriorityId": 237,
+      "SupportLanguageId": 311,
+      "SupportAssociateId": 814,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldType": "System.String",
+          "FieldLength": 691
         }
       }
     }
   ],
-  "AlertLevel": 420,
-  "ConnectId": 974,
+  "AlertLevel": 829,
+  "ConnectId": 973,
   "ReadStatus": "Green",
-  "TimeToReply": 546,
-  "RealTimeToReply": 921,
-  "TimeToClose": 132,
-  "RealTimeToClose": 823,
-  "TimeSpentInternally": 937,
-  "TimeSpentExternally": 433,
-  "TimeSpentQueue": 58,
-  "RealTimeSpentInternally": 210,
-  "RealTimeSpentExternally": 662,
-  "RealTimeSpentQueue": 254,
+  "TimeToReply": 5,
+  "RealTimeToReply": 609,
+  "TimeToClose": 427,
+  "RealTimeToClose": 112,
+  "TimeSpentInternally": 99,
+  "TimeSpentExternally": 100,
+  "TimeSpentQueue": 270,
+  "RealTimeSpentInternally": 390,
+  "RealTimeSpentExternally": 336,
+  "RealTimeSpentQueue": 308,
   "HasAttachment": false,
-  "NumReplies": 714,
-  "NumMessages": 985,
-  "FromAddress": "nostrum",
+  "NumReplies": 530,
+  "NumMessages": 79,
+  "FromAddress": "est",
   "Messages": [
     {
-      "TicketMessageId": 934,
-      "CreatedAt": "2010-11-01T11:10:28.3002068+01:00",
+      "TicketMessageId": 576,
+      "CreatedAt": "2019-02-23T02:49:45.5465952+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "nam",
-      "PersonId": 125,
-      "PersonFullName": "Nicolette Schowalter",
-      "ContactId": 841,
-      "ContactName": "Schuster LLC",
+      "Author": "hic",
+      "PersonId": 803,
+      "PersonFullName": "Prof. Nannie Streich DVM",
+      "ContactId": 344,
+      "ContactName": "Williamson, Vandervort and Bartoletti",
       "ContactDepartment": "",
-      "NumAttachments": 882,
-      "EmailHeader": "alessia.hansen@tromp.name",
+      "NumAttachments": 697,
+      "EmailHeader": "miller.hettinger@wolfohara.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "modi",
-      "Sentiment": 395,
-      "SentimentConfidence": 689,
-      "CreatedBy": 981,
+      "Language": "in",
+      "Sentiment": 443,
+      "SentimentConfidence": 10,
+      "CreatedBy": 110,
+      "ChangedAt": "2021-12-05T02:49:45.5465952+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 602
+          "FieldType": "System.String",
+          "FieldLength": 447
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 533,
-      "Name": "Schmitt-Kling",
-      "ToolTip": "Sed dignissimos aut consequatur hic sapiente enim et.",
+      "Id": 689,
+      "Name": "Lang-Mraz",
+      "ToolTip": "Quaerat magni minus molestias consectetur neque recusandae atque.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 8
+          "FieldLength": 938
         }
       }
     },
     {
-      "Id": 533,
-      "Name": "Schmitt-Kling",
-      "ToolTip": "Sed dignissimos aut consequatur hic sapiente enim et.",
+      "Id": 689,
+      "Name": "Lang-Mraz",
+      "ToolTip": "Quaerat magni minus molestias consectetur neque recusandae atque.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 8
+          "FieldLength": 938
         }
       }
     }
   ],
-  "Language": "ea",
-  "Sentiment": 839,
-  "SentimentConfidence": 674,
-  "SuggestedCategoryId": 234,
+  "Language": "consequuntur",
+  "Sentiment": 867,
+  "SentimentConfidence": 550,
+  "SuggestedCategoryId": 56,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 841,
-  "IconHint": "error",
+  "OrigHumanCategoryId": 195,
+  "IconHint": "ut",
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "repellat"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "expedita"
   },
   "CustomFields": {
-    "CustomFields1": "architecto",
-    "CustomFields2": "quas"
+    "CustomFields1": "aut",
+    "CustomFields2": "repellat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 596
+      "FieldLength": 358
     }
   }
 }

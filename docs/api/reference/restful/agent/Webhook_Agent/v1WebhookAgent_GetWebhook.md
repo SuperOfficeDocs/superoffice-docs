@@ -11,7 +11,15 @@ POST /api/v1/Agents/Webhook/GetWebhook
 
 Gets a Webhook object.
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a Webhook object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=858
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=40
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,7 +47,8 @@ POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +80,7 @@ Response body:
 POST /api/v1/Agents/Webhook/GetWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,26 +90,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 831,
-  "Name": "Gulgowski, Gusikowski and Lesch",
+  "WebhookId": 363,
+  "Name": "Jenkins Group",
   "Events": [
-    "officia",
-    "voluptatem"
+    "ut",
+    "illum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "doloribus",
   "State": "Active",
-  "Type": "ipsa",
+  "Type": "vel",
   "Headers": {
-    "Headers1": "quibusdam",
-    "Headers2": "possimus"
+    "Headers1": "culpa",
+    "Headers2": "aspernatur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-10-26T11:10:28.4822109+02:00",
+  "Registered": "1999-11-28T02:49:45.7340964+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1997-04-22T11:10:28.4842096+02:00",
+  "Updated": "2009-06-13T02:49:45.7340964+02:00",
   "UpdatedAssociate": null
 }
 ```

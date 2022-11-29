@@ -11,11 +11,18 @@ PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ProductType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Name": "Osinski LLC",
-    "ToolTip": "Dignissimos culpa eos voluptatem velit veritatis fugit aut.",
-    "Deleted": true,
-    "Rank": 359,
-    "Type": "aspernatur",
-    "ColorBlock": 581,
+    "Id": 272,
+    "Name": "Hills-Kohler",
+    "ToolTip": "Fugit deserunt occaecati veniam.",
+    "Deleted": false,
+    "Rank": 435,
+    "Type": "quo",
+    "ColorBlock": 198,
     "IconHint": "harum",
     "Selected": true,
-    "LastChanged": "2006-11-17T11:10:54.4519022+01:00",
+    "LastChanged": "2008-08-03T02:49:52.3753234+02:00",
     "ChildItems": [
       {
-        "Id": 521,
-        "Name": "Blanda Group",
-        "ToolTip": "Praesentium et.",
-        "Deleted": true,
-        "Rank": 742,
-        "Type": "reprehenderit",
-        "ColorBlock": 259,
-        "IconHint": "sunt",
+        "Id": 973,
+        "Name": "Torphy, Prosacco and Kovacek",
+        "ToolTip": "Soluta et minus doloribus veritatis.",
+        "Deleted": false,
+        "Rank": 934,
+        "Type": "rem",
+        "ColorBlock": 335,
+        "IconHint": "error",
         "Selected": true,
-        "LastChanged": "2013-12-27T11:10:54.4529024+01:00",
+        "LastChanged": "2000-05-27T02:49:52.3753234+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "quis",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Ms. Meaghan Brandyn Anderson DVM"
+        "FullName": "Ignatius Mann PhD"
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "quis",
+    "ExtraInfo": "esse",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Josianne Hand"
+    "FullName": "Mose Murazik Jr."
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Hayes, McKenzie and Cummings",
-    "ToolTip": "Id velit asperiores accusantium.",
+    "Id": 670,
+    "Name": "Metz-Lindgren",
+    "ToolTip": "In quasi sit.",
     "Deleted": false,
-    "Rank": 402,
-    "Type": "quam",
-    "ColorBlock": 18,
-    "IconHint": "aut",
+    "Rank": 626,
+    "Type": "pariatur",
+    "ColorBlock": 27,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2011-01-12T11:10:54.4539021+01:00",
+    "LastChanged": "2003-03-02T02:49:52.3753234+01:00",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Walsh Inc and Sons",
-        "ToolTip": "Doloribus enim nam.",
+        "Id": 572,
+        "Name": "Hodkiewicz-Spinka",
+        "ToolTip": "Dolorem molestiae non aut est sunt eos esse.",
         "Deleted": false,
-        "Rank": 494,
-        "Type": "quis",
-        "ColorBlock": 732,
-        "IconHint": "debitis",
+        "Rank": 288,
+        "Type": "ut",
+        "ColorBlock": 86,
+        "IconHint": "harum",
         "Selected": true,
-        "LastChanged": "2021-02-21T11:10:54.4539021+01:00",
+        "LastChanged": "1997-05-29T02:49:52.3753234+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "vel",
+        "ExtraInfo": "optio",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Miss Octavia Kattie Mann",
+        "FullName": "Prof. Franco Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 517
+            "FieldLength": 927
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "nihil",
-    "Hidden": true,
-    "FullName": "Dannie Miller",
+    "ExtraInfo": "et",
+    "StyleHint": "nostrum",
+    "Hidden": false,
+    "FullName": "Winifred Mohr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 316
+        "FieldLength": 267
       }
     }
   }

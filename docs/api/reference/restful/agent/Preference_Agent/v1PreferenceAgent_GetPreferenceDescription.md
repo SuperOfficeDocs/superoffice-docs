@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetPreferenceDescription
 
 Gets a PreferenceDescription object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=854
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=906
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +83,7 @@ Response body:
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 684,
-  "Section": "similique",
-  "Key": "numquam",
-  "Name": "Terry, Doyle and Reichel",
+  "PrefDescId": 539,
+  "Section": "tempora",
+  "Key": "explicabo",
+  "Name": "Farrell Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Secured motivating pricing structure",
-  "IsBuiltin": true,
-  "TableName": "Dicki-Ebert",
-  "UserDefinedListId": 129,
-  "Rank": 959,
-  "SubGroup": "fugiat",
-  "MinLevel": 196,
-  "MaxValue": 268,
-  "MinValue": 859,
-  "RequiredLicense": "non",
+  "Description": "Profound background strategy",
+  "IsBuiltin": false,
+  "TableName": "Grady Inc and Sons",
+  "UserDefinedListId": 291,
+  "Rank": 950,
+  "SubGroup": "est",
+  "MinLevel": 935,
+  "MaxValue": 244,
+  "MinValue": 65,
+  "RequiredLicense": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldLength": 594
     }
   }
 }

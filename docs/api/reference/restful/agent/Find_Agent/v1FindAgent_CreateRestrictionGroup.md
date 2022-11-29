@@ -11,6 +11,12 @@ POST /api/v1/Agents/Find/CreateRestrictionGroup
 
 Create a restriction group, initialized with next rank etc.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a restriction group, initialized with next rank etc.
 ```http
 POST /api/v1/Agents/Find/CreateRestrictionGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Find/CreateRestrictionGroup?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, Context
+StorageType, ProviderName, StorageKey, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ StorageType, ProviderName, StorageKey, Context
 | StorageKey | string |  |
 | Context | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,14 +77,14 @@ Response body:
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "alias",
-  "ProviderName": "Fritsch Group",
-  "StorageKey": "a",
-  "Context": "facilis"
+  "StorageType": "voluptas",
+  "ProviderName": "Wuckert-Yost",
+  "StorageKey": "sapiente",
+  "Context": "voluptate"
 }
 ```
 
@@ -87,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Beahan Group",
-  "Description": "Phased disintermediate pricing structure",
-  "Rank": 123,
+  "Name": "Jacobs-Reynolds",
+  "Description": "Down-sized upward-trending instruction set",
+  "Rank": 316,
   "Restrictions": [
     {
-      "Name": "Emmerich Inc and Sons",
-      "Operator": "fugiat",
+      "Name": "Lowe-Reichel",
+      "Operator": "eius",
       "Values": [
-        "enim",
-        "saepe"
+        "optio",
+        "quibusdam"
       ],
       "DisplayValues": [
-        "qui",
-        "soluta"
+        "debitis",
+        "minus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -108,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 193,
+      "InterParenthesis": 313,
       "InterOperator": "And",
-      "UniqueHash": 253
+      "UniqueHash": 170
     }
   ]
 }

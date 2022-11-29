@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLanguageInfo
 
 Gets a LanguageInfo object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a LanguageInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=292
+POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=300
 POST /api/v1/Agents/List/GetLanguageInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetLanguageInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +72,7 @@ Response body:
 POST /api/v1/Agents/List/GetLanguageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageInfoId": 199,
-  "LCID": 24,
-  "EnglishName": "Wiegand-Osinski",
-  "NativeName": "Zemlak LLC",
-  "ThreeLetterISOLanguageName": "Prohaska, Gaylord and Abbott",
-  "TwoLetterISOLanguageName": "Fritsch LLC",
+  "LanguageInfoId": 838,
+  "LCID": 978,
+  "EnglishName": "Mraz Inc and Sons",
+  "NativeName": "Abbott Inc and Sons",
+  "ThreeLetterISOLanguageName": "Swift-Macejkovic",
+  "TwoLetterISOLanguageName": "Moore, Muller and Halvorson",
   "IsBuiltIn": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 411
+      "FieldType": "System.Int32",
+      "FieldLength": 58
     }
   }
 }

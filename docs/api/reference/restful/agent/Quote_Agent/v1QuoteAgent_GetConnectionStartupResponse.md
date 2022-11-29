@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetConnectionStartupResponse
 
 Returns the PluginResponseInfo for the connection initialization.
 
+
 Does not initialize the connection, just returns what happened when initialize was called.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Does not initialize the connection, just returns what happened when initialize w
 ```http
 POST /api/v1/Agents/Quote/GetConnectionStartupResponse?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Quote/GetConnectionStartupResponse?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId
+QuoteConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,15 +61,16 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IsOk | bool | Answer to the question / An indication if the operation went well. |
-| UserExplanation | string | A localized explanation to the answer. |
+| IsOk | bool | Answer to the question / An indication if the operation went well. Equivalent to Status != Error |
+| UserExplanation | string | A localized explanation to the answer. Text here is displayed to the user. |
 | TechExplanation | string | Always in English |
 | ErrorCode | string | An error code, if available. |
 | Changes |  | Tablename/recordid of data changed by this method, that the client may need to reload |
+| Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -71,11 +80,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetConnectionStartupResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 779
+  "QuoteConnectionId": 392
 }
 ```
 
@@ -87,16 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "aspernatur",
-  "TechExplanation": "voluptatem",
-  "ErrorCode": "iure",
+  "UserExplanation": "aperiam",
+  "TechExplanation": "dolores",
+  "ErrorCode": "sapiente",
   "Changes": null,
+  "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   }
 }

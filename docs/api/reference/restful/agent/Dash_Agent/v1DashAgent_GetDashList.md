@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetDashList
 
 Gets the ordered list of dashboards
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the ordered list of dashboards
 ```http
 POST /api/v1/Agents/Dash/GetDashList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Dash/GetDashList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Dashboards
+Dashboards 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Dashboards | array |  |
+
 
 ## Response: array
 
@@ -77,13 +85,13 @@ Response body: array
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    197,
-    457
+    609,
+    704
   ]
 }
 ```
@@ -96,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 45,
-    "UniqueId": "est",
-    "Name": "Collins-Streich",
-    "Description": "Ergonomic analyzing secured line",
-    "AssociateId": 516,
-    "Columns": 74,
+    "DashboardId": 619,
+    "UniqueId": "dolores",
+    "Name": "West, Bergnaum and Durgan",
+    "Description": "Streamlined disintermediate extranet",
+    "AssociateId": 795,
+    "Columns": 446,
     "Theme": null,
-    "VisibleForAll": 662,
+    "VisibleForAll": 589,
     "VisibleForAssociates": [
-      691,
-      726
+      147,
+      167
     ],
     "VisibleForGroups": [
-      995,
-      814
+      663,
+      565
     ],
-    "PinForAll": 451,
+    "PinForAll": 293,
     "PinForAssociates": [
-      213,
-      254
+      896,
+      469
     ],
     "PinForGroups": [
-      157,
-      635
+      21,
+      569
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldType": "System.String",
+        "FieldLength": 867
       }
     }
   }

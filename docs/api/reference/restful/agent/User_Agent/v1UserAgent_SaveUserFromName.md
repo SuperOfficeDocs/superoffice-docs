@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/SaveUserFromName
 
 Save a user, with lookup based on the user name.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Save a user, with lookup based on the user name.
 ```http
 POST /api/v1/Agents/User/SaveUserFromName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,17 @@ POST /api/v1/Agents/User/SaveUserFromName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserName, User
+UserName, User 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserName | string |  |
 | User |  | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,11 +102,11 @@ Response body:
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Mosciski, Treutel and Abshire",
+  "UserName": "Mraz-Stiedemann",
   "User": null
 }
 ```
@@ -108,14 +118,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 448,
-  "Name": "Kihn, Fritsch and Franecki",
-  "Rank": 667,
-  "Tooltip": "adipisci",
+  "AssociateId": 60,
+  "Name": "Leuschke-Lemke",
+  "Rank": 748,
+  "Tooltip": "est",
   "LicenseOwners": [
     {
-      "Name": "McKenzie, VonRueden and Botsford",
-      "Description": "Cross-platform mobile superstructure",
+      "Name": "Kshlerin-Denesik",
+      "Description": "Focused actuating complexity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -129,13 +139,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 305
         }
       }
     },
     {
-      "Name": "McKenzie, VonRueden and Botsford",
-      "Description": "Cross-platform mobile superstructure",
+      "Name": "Kshlerin-Denesik",
+      "Description": "Focused actuating complexity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,7 +159,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 305
         }
       }
     }
@@ -158,110 +168,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "similique",
-      "Tooltip": "et",
-      "Id": 548,
-      "Rank": 808,
+      "Value": "nostrum",
+      "Tooltip": "quam",
+      "Id": 945,
+      "Rank": 916,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldLength": 91
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "1996-12-22T11:10:28.4152065+01:00",
-  "Lastlogout": "2021-01-17T11:10:28.4152065+01:00",
-  "EjUserId": 744,
-  "RequestSignature": "commodi",
+  "Deleted": true,
+  "Lastlogin": "2001-10-01T02:49:45.6715962+02:00",
+  "Lastlogout": "1996-06-05T02:49:45.6715962+02:00",
+  "EjUserId": 318,
+  "RequestSignature": "nisi",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "vero",
-      "DisplayValue": "quia",
+      "Value": "in",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 818
+          "FieldLength": 953
         }
       }
     },
     {
       "Type": null,
-      "Value": "vero",
-      "DisplayValue": "quia",
+      "Value": "in",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 818
+          "FieldLength": 953
         }
       }
     }
   ],
-  "UserName": "Wilderman-Feeney",
+  "UserName": "Yost Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 128,
-      "Name": "Thiel LLC",
-      "ToolTip": "Et fugit dolor libero.",
+      "Id": 27,
+      "Name": "Hettinger LLC",
+      "ToolTip": "Nemo animi.",
       "Deleted": false,
-      "Rank": 612,
-      "Type": "omnis",
+      "Rank": 348,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 117,
+      "IconHint": "architecto",
+      "ColorBlock": 120,
       "ExtraInfo": "quis",
-      "StyleHint": "expedita",
-      "FullName": "Patricia Kuhlman",
+      "StyleHint": "distinctio",
+      "FullName": "Prof. Korey Gus Spinka",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 592
+          "FieldLength": 40
         }
       }
     }
   ],
-  "NickName": "Volkman, Jacobson and Goldner",
-  "WaitingForApproval": false,
+  "NickName": "McKenzie, McCullough and Koepp",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "est",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "quo",
+    "CustomFields2": "neque"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bogan Inc and Sons",
-      "DisplayName": "Hauck Group",
-      "Description": "Right-sized intermediate hierarchy",
-      "ToolTip": "Quas eius officia nesciunt nihil aut ex qui.",
+      "Name": "Schulist LLC",
+      "DisplayName": "Waelchi-Barton",
+      "Description": "Mandatory human-resource middleware",
+      "ToolTip": "Molestiae tempore officia veritatis qui voluptatum architecto cumque.",
       "Actions": "Implicit",
-      "ActionData": "enim",
+      "ActionData": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldLength": 726
         }
       }
     }
@@ -270,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 741
+      "FieldType": "System.Int32",
+      "FieldLength": 199
     }
   }
 }

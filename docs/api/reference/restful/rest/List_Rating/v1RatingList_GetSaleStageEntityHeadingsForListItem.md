@@ -11,11 +11,17 @@ GET /api/v1/List/Rating/Items/{itemId}/Headings
 
 Gets headings for the SaleStageEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Name": "Bechtelar, Hayes and Hickle",
-    "ToolTip": "Quae mollitia qui cupiditate libero et.",
-    "Deleted": true,
-    "Rank": 581,
-    "Type": "rem",
-    "ColorBlock": 666,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2019-10-04T11:10:54.5379298+02:00",
+    "Id": 668,
+    "Name": "Crona, Mertz and Greenfelder",
+    "ToolTip": "Aut id debitis.",
+    "Deleted": false,
+    "Rank": 513,
+    "Type": "praesentium",
+    "ColorBlock": 770,
+    "IconHint": "pariatur",
+    "Selected": true,
+    "LastChanged": "2014-11-20T02:49:52.4534506+01:00",
     "ChildItems": [
       {
-        "Id": 262,
-        "Name": "Zemlak-Cummerata",
-        "ToolTip": "Consectetur corporis beatae quia repellendus.",
-        "Deleted": true,
-        "Rank": 333,
-        "Type": "porro",
-        "ColorBlock": 533,
-        "IconHint": "voluptas",
+        "Id": 998,
+        "Name": "Lebsack, Altenwerth and Dickens",
+        "ToolTip": "Consequatur voluptatem et necessitatibus.",
+        "Deleted": false,
+        "Rank": 779,
+        "Type": "eaque",
+        "ColorBlock": 617,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "2004-12-12T11:10:54.538932+01:00",
+        "LastChanged": "2001-07-26T02:49:52.4534506+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Gennaro Bayer V",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "fugiat",
+        "Hidden": true,
+        "FullName": "Sally Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 931
+            "FieldLength": 227
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "illo",
+    "ExtraInfo": "at",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Miss Aiyana Theodora Spencer V",
+    "FullName": "Mrs. Gisselle Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldLength": 372
       }
     }
   }

@@ -11,11 +11,18 @@ PUT /api/v1/List/Position/Items/{itemId}/Headings
 
 Saves headings for the Position list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Ryan-Quigley",
-    "ToolTip": "Corporis deserunt qui rerum voluptas autem voluptas sed.",
+    "Id": 831,
+    "Name": "Buckridge, Hansen and Donnelly",
+    "ToolTip": "Libero voluptatem repellendus debitis quae fuga et voluptas.",
     "Deleted": false,
-    "Rank": 255,
-    "Type": "quis",
-    "ColorBlock": 489,
-    "IconHint": "repudiandae",
-    "Selected": false,
-    "LastChanged": "2007-04-01T11:10:54.3789025+02:00",
+    "Rank": 443,
+    "Type": "est",
+    "ColorBlock": 63,
+    "IconHint": "natus",
+    "Selected": true,
+    "LastChanged": "2005-03-07T02:49:52.3284476+01:00",
     "ChildItems": [
       {
-        "Id": 752,
-        "Name": "Wunsch Inc and Sons",
-        "ToolTip": "Atque eos autem eveniet omnis necessitatibus iusto ut.",
+        "Id": 142,
+        "Name": "Kub, D'Amore and Rohan",
+        "ToolTip": "Officia nihil porro ea labore.",
         "Deleted": true,
-        "Rank": 441,
-        "Type": "est",
-        "ColorBlock": 906,
-        "IconHint": "nostrum",
+        "Rank": 779,
+        "Type": "vero",
+        "ColorBlock": 890,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2014-05-20T11:10:54.3789025+02:00",
+        "LastChanged": "2002-05-16T02:49:52.3284476+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "est",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "possimus",
         "Hidden": true,
-        "FullName": "Prof. Ashlee Kuhic"
+        "FullName": "Mr. Jordi Morissette"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "accusamus",
-    "Hidden": false,
-    "FullName": "Ms. Narciso Luettgen"
+    "ExtraInfo": "nihil",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Prof. Assunta Littel"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 855,
-    "Name": "Sawayn Group",
-    "ToolTip": "Eveniet occaecati magnam corrupti.",
-    "Deleted": false,
-    "Rank": 690,
-    "Type": "et",
-    "ColorBlock": 517,
-    "IconHint": "est",
+    "Id": 124,
+    "Name": "Maggio-Kautzer",
+    "ToolTip": "Necessitatibus accusamus omnis beatae dolores voluptate.",
+    "Deleted": true,
+    "Rank": 36,
+    "Type": "ducimus",
+    "ColorBlock": 955,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1996-01-29T11:10:54.3809019+01:00",
+    "LastChanged": "1998-07-10T02:49:52.3284476+02:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Hintz, Bailey and Crooks",
-        "ToolTip": "Alias ipsam.",
+        "Id": 660,
+        "Name": "Heidenreich LLC",
+        "ToolTip": "Repudiandae voluptates iusto numquam et doloremque.",
         "Deleted": false,
-        "Rank": 884,
-        "Type": "omnis",
-        "ColorBlock": 430,
-        "IconHint": "libero",
+        "Rank": 272,
+        "Type": "iusto",
+        "ColorBlock": 939,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "1996-09-10T11:10:54.3809019+02:00",
+        "LastChanged": "2010-10-25T02:49:52.3284476+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Prof. Shane Quinton Flatley",
+        "ExtraInfo": "iusto",
+        "StyleHint": "tempore",
+        "Hidden": false,
+        "FullName": "Madelynn Estelle Dibbert DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 143
+            "FieldLength": 283
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "inventore",
+    "ExtraInfo": "quo",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Titus Goodwin",
+    "FullName": "Prof. Sabrina Gonzalo Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldLength": 480
       }
     }
   }

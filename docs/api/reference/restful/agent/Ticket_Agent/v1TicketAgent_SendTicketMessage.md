@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/SendTicketMessage
 
 Send a message to recipients by email
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Send a message to recipients by email
 ```http
 POST /api/v1/Agents/Ticket/SendTicketMessage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/Ticket/SendTicketMessage?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketMessageEntityId, To, Cc, Bcc, Subject, ReplyTemplateId, GdprSource
+TicketMessageEntityId, To, Cc, Bcc, Subject, ReplyTemplateId, GdprSource 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ TicketMessageEntityId, To, Cc, Bcc, Subject, ReplyTemplateId, GdprSource
 | ReplyTemplateId | int32 |  |
 | GdprSource | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -53,7 +61,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -61,26 +70,26 @@ Response body:
 POST /api/v1/Agents/Ticket/SendTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 866,
+  "TicketMessageEntityId": 780,
   "To": [
-    "molestiae",
-    "est"
+    "illum",
+    "autem"
   ],
   "Cc": [
-    "quis",
-    "sequi"
+    "maiores",
+    "aut"
   ],
   "Bcc": [
-    "hic",
-    "nihil"
+    "similique",
+    "et"
   ],
-  "Subject": "unde",
-  "ReplyTemplateId": 625,
-  "GdprSource": "ut"
+  "Subject": "rerum",
+  "ReplyTemplateId": 421,
+  "GdprSource": "enim"
 }
 ```
 

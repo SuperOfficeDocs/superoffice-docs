@@ -11,11 +11,18 @@ PUT /api/v1/List/TicketCategory/Items/{id}
 
 Updates the existing TicketCategoryEntity
 
+
 Calls the List agent service SaveTicketCategoryEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of TicketCategoryEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveTicketCategoryEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of TicketCategoryEntity to be saved.
+The details of TicketCategoryEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,10 +59,12 @@ The details of TicketCategoryEntity to be saved.
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
 | DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
 | DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -64,7 +73,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,6 +92,7 @@ Response body:
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
 | DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
 | DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -94,32 +104,33 @@ Response body:
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 755,
-  "ParentId": 575,
-  "Name": "Ritchie-Konopelski",
-  "Fullname": "rerum",
-  "CategoryMaster": 877,
+  "TicketCategoryId": 371,
+  "ParentId": 163,
+  "Name": "Ebert-Johns",
+  "Fullname": "repellendus",
+  "CategoryMaster": 125,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cummerata, Schmidt and Waelchi",
+  "ExternalName": "Schamberger-Feest",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 478,
-  "ReplyTemplate": 508,
-  "NotificationEmail": "reginald@bayer.us",
+  "AssignmentLag": 273,
+  "ReplyTemplate": 722,
+  "NotificationEmail": "catherine@lubowitzherman.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
+  "EffectiveReplyTemplateId": 411,
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "officiis"
   },
   "CustomFields": {
-    "CustomFields1": "iure",
-    "CustomFields2": "est"
+    "CustomFields1": "fuga",
+    "CustomFields2": "voluptatem"
   }
 }
 ```
@@ -131,35 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 715,
-  "ParentId": 674,
-  "Name": "Runte Inc and Sons",
-  "Fullname": "dolor",
-  "CategoryMaster": 335,
+  "TicketCategoryId": 16,
+  "ParentId": 29,
+  "Name": "Wolf Group",
+  "Fullname": "odio",
+  "CategoryMaster": 845,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Smith-Abernathy",
+  "ExternalName": "Skiles, Weimann and O'Hara",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 488,
-  "ReplyTemplate": 466,
-  "NotificationEmail": "tessie@reichertschmidt.uk",
+  "AssignmentLag": 985,
+  "ReplyTemplate": 799,
+  "NotificationEmail": "charity.cassin@maggio.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
+  "EffectiveReplyTemplateId": 628,
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "quidem"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "dolor"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "amet"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldLength": 5
     }
   }
 }

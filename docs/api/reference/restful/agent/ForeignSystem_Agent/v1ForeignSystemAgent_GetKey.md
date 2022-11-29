@@ -11,7 +11,13 @@ POST /api/v1/Agents/ForeignSystem/GetKey
 
 Returning a foreign key by its key name, that belongs to the specified device and application.
 
+
 A table name and record ID can also be specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ A table name and record ID can also be specified.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKey?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/ForeignSystem/GetKey?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, KeyName, TableName, RecordId
+ApplicationName, DeviceName, KeyName, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,8 @@ ApplicationName, DeviceName, KeyName, TableName, RecordId
 | TableName | string |  |
 | RecordId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,15 +86,15 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Fadel-O'Connell",
-  "DeviceName": "Schulist Group",
-  "KeyName": "Romaguera Inc and Sons",
-  "TableName": "Blanda, Davis and Nolan",
-  "RecordId": 3
+  "ApplicationName": "Gusikowski Group",
+  "DeviceName": "Doyle, Leannon and Lang",
+  "KeyName": "Howe-Luettgen",
+  "TableName": "Koepp LLC",
+  "RecordId": 911
 }
 ```
 
@@ -97,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repudiandae",
-  "Value": "temporibus",
-  "RecordId": 805,
-  "CreatedDate": "1996-03-01T11:10:27.0814535+01:00",
-  "UpdatedDate": "2011-08-23T11:10:27.0814535+02:00",
-  "UpdatedBy": "sit",
-  "CreatedBy": "facere",
-  "TableName": "White, Pouros and Senger",
+  "Key": "ut",
+  "Value": "et",
+  "RecordId": 161,
+  "CreatedDate": "2006-11-10T02:49:44.5454229+01:00",
+  "UpdatedDate": "2005-04-15T02:49:44.5454229+02:00",
+  "UpdatedBy": "deserunt",
+  "CreatedBy": "harum",
+  "TableName": "Larson, Feeney and Wiza",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 773
+      "FieldType": "System.Int32",
+      "FieldLength": 196
     }
   }
 }

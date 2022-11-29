@@ -11,6 +11,13 @@ POST /api/v1/Agents/Dash/SaveDashTile
 
 Updates the existing DashTile or creates a new DashTile if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing DashTile or creates a new DashTile if the id parameter is e
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashTile to be saved.
+The DashTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The DashTile to be saved.
 | Rank | int32 | Rank order |
 | DashTileDefinition |  | The tile definition entity |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,15 +73,15 @@ Response body:
 POST /api/v1/Agents/Dash/SaveDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 327,
-  "DashboardId": 233,
-  "Height": 43,
-  "Width": 236,
-  "Rank": 677,
+  "DashboardTileId": 330,
+  "DashboardId": 650,
+  "Height": 87,
+  "Width": 973,
+  "Rank": 863,
   "DashTileDefinition": null
 }
 ```
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 166,
-  "DashboardId": 807,
-  "Height": 541,
-  "Width": 25,
-  "Rank": 294,
+  "DashboardTileId": 589,
+  "DashboardId": 82,
+  "Height": 252,
+  "Width": 483,
+  "Rank": 608,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   }
 }

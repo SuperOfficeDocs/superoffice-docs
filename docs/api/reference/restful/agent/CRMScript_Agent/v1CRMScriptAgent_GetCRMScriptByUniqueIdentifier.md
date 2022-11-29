@@ -11,7 +11,15 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 
 Get information about a script from a unique identifier
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get information about a script from a unique identifier
 ```http
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UniqueIdentifier
+UniqueIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UniqueIdentifier | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,11 +86,11 @@ Response body:
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "saepe"
+  "UniqueIdentifier": "dicta"
 }
 ```
 
@@ -91,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "officiis",
-  "Name": "Lang, Beer and Daniel",
-  "Description": "Decentralized grid-enabled alliance",
-  "IncludeId": "numquam",
-  "Source": "ab",
-  "Registered": "2014-03-06T11:10:26.3804579+01:00",
-  "RegisteredBy": "voluptatem",
-  "Updated": "1999-11-08T11:10:26.3804579+01:00",
-  "UpdatedBy": "modi",
-  "Path": "dolore",
+  "UniqueIdentifier": "enim",
+  "Name": "Harber Inc and Sons",
+  "Description": "Public-key 4th generation product",
+  "IncludeId": "consequatur",
+  "Source": "voluptas",
+  "Registered": "2017-05-22T02:49:44.0129044+02:00",
+  "RegisteredBy": "dolor",
+  "Updated": "2013-01-20T02:49:44.0129044+01:00",
+  "UpdatedBy": "perspiciatis",
+  "Path": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldLength": 959
     }
   }
 }

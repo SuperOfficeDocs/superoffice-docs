@@ -11,13 +11,21 @@ GET /api/v1/Role/{roleId}/FunctionRight
 
 Get all functional rights for the given role.
 
+
 Functional rights not set on the role are not included. MDO List name = 'FunctionRights', extra='role=123'
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | roleId | int32 | The role id to get the functional rights for. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,6 +39,7 @@ Functional rights not set on the role are not included. MDO List name = 'Functio
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -68,7 +77,7 @@ Response body: array
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Wilderman LLC",
-    "ToolTip": "Voluptatem consequatur cum nihil asperiores.",
+    "Id": 929,
+    "Name": "Schaden Inc and Sons",
+    "ToolTip": "Dolorem molestias sunt aut excepturi qui.",
     "Deleted": false,
-    "Rank": 802,
-    "Type": "accusamus",
-    "ColorBlock": 642,
-    "IconHint": "ducimus",
+    "Rank": 78,
+    "Type": "enim",
+    "ColorBlock": 110,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "1999-10-07T11:10:53.3631692+02:00",
+    "LastChanged": "2006-03-17T02:49:51.4015667+01:00",
     "ChildItems": [
       {
-        "Id": 342,
-        "Name": "Smitham Inc and Sons",
-        "ToolTip": "Et quos id.",
-        "Deleted": true,
-        "Rank": 971,
-        "Type": "voluptatum",
-        "ColorBlock": 539,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "1996-10-14T11:10:53.3631692+02:00",
+        "Id": 758,
+        "Name": "Friesen Group",
+        "ToolTip": "Repellendus repudiandae consequatur et doloribus.",
+        "Deleted": false,
+        "Rank": 303,
+        "Type": "quibusdam",
+        "ColorBlock": 130,
+        "IconHint": "neque",
+        "Selected": false,
+        "LastChanged": "2007-05-25T02:49:51.4015667+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "cum",
+        "ExtraInfo": "magnam",
+        "StyleHint": "nemo",
         "Hidden": true,
-        "FullName": "Shanie Schmeler",
+        "FullName": "Mrs. Mina Isom Runte V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 164
+            "FieldType": "System.String",
+            "FieldLength": 277
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "et",
+    "ExtraInfo": "dolores",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Ms. Tiffany Reichert PhD",
+    "FullName": "Miss Emery Daugherty IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 250
+        "FieldLength": 307
       }
     }
   }

@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetUserFromPersonId
 
 Returns the user associated with the supplied person id
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns the user associated with the supplied person id
 ```http
 POST /api/v1/Agents/User/GetUserFromPersonId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/User/GetUserFromPersonId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
+
 
 ## Response: array
 
@@ -95,7 +105,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 64
+  "PersonId": 178
 }
 ```
 
@@ -107,14 +117,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 449,
-    "Name": "Sporer, Mraz and Rodriguez",
-    "Rank": 974,
-    "Tooltip": "dolores",
+    "AssociateId": 885,
+    "Name": "Gislason, Becker and Murray",
+    "Rank": 982,
+    "Tooltip": "sunt",
     "LicenseOwners": [
       {
-        "Name": "Homenick-Lehner",
-        "Description": "Advanced homogeneous methodology",
+        "Name": "Sporer Inc and Sons",
+        "Description": "Down-sized radical model",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -128,13 +138,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 364
+            "FieldLength": 561
           }
         }
       },
       {
-        "Name": "Homenick-Lehner",
-        "Description": "Advanced homogeneous methodology",
+        "Name": "Sporer Inc and Sons",
+        "Description": "Down-sized radical model",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -148,7 +158,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 364
+            "FieldLength": 561
           }
         }
       }
@@ -157,104 +167,76 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "placeat",
-        "Tooltip": "mollitia",
-        "Id": 314,
-        "Rank": 218,
+        "Value": "molestiae",
+        "Tooltip": "voluptas",
+        "Id": 435,
+        "Rank": 59,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 175
           }
         }
       }
     ],
     "Person": null,
-    "Deleted": true,
-    "Lastlogin": "2011-05-24T11:10:28.4252071+02:00",
-    "Lastlogout": "2000-07-31T11:10:28.4252071+02:00",
-    "EjUserId": 797,
-    "RequestSignature": "deleniti",
+    "Deleted": false,
+    "Lastlogin": "2013-02-09T02:49:45.687221+01:00",
+    "Lastlogout": "2016-04-28T02:49:45.687221+02:00",
+    "EjUserId": 443,
+    "RequestSignature": "officiis",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
-    "IsOnTravel": true,
+    "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "sint",
-        "DisplayValue": "similique",
+        "Value": "expedita",
+        "DisplayValue": "repellat",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 57
+            "FieldLength": 609
           }
         }
       },
       {
         "Type": null,
-        "Value": "sint",
-        "DisplayValue": "similique",
+        "Value": "expedita",
+        "DisplayValue": "repellat",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 57
+            "FieldLength": 609
           }
         }
       }
     ],
-    "UserName": "Jakubowski LLC",
+    "UserName": "Kilback-Becker",
     "TicketCategories": [
       {
-        "Id": 817,
-        "Name": "Goldner Inc and Sons",
-        "ToolTip": "Natus et atque id ipsa culpa at odio.",
-        "Deleted": false,
-        "Rank": 405,
-        "Type": "veritatis",
+        "Id": 383,
+        "Name": "Collins-Towne",
+        "ToolTip": "Quia aperiam.",
+        "Deleted": true,
+        "Rank": 137,
+        "Type": "quae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "corporis",
-        "ColorBlock": 648,
-        "ExtraInfo": "ut",
-        "StyleHint": "pariatur",
-        "FullName": "Angelo Schaden DDS",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 180
-          }
-        }
-      }
-    ],
-    "NickName": "Pfannerstill LLC",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "id",
-      "ExtraFields2": "dolore"
-    },
-    "CustomFields": {
-      "CustomFields1": "commodi",
-      "CustomFields2": "officiis"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "O'Hara, McCullough and Bahringer",
-        "DisplayName": "D'Amore-Watsica",
-        "Description": "Compatible heuristic flexibility",
-        "ToolTip": "Aspernatur aut neque inventore impedit.",
-        "Actions": "Implicit",
-        "ActionData": "quod",
+        "IconHint": "ipsam",
+        "ColorBlock": 502,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "nemo",
+        "FullName": "Mr. Kara Gutmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -265,12 +247,40 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
+    "NickName": "Hilll-Reinger",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "ut",
+      "ExtraFields2": "consequatur"
+    },
+    "CustomFields": {
+      "CustomFields1": "ipsa",
+      "CustomFields2": "quod"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Mraz-Turner",
+        "DisplayName": "Reilly, Murphy and Rogahn",
+        "Description": "Switchable solution-oriented success",
+        "ToolTip": "Nisi non rerum id sit.",
+        "Actions": "Implicit",
+        "ActionData": "quia",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 860
+          }
+        }
+      }
+    ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldType": "System.Int32",
+        "FieldLength": 623
       }
     }
   }

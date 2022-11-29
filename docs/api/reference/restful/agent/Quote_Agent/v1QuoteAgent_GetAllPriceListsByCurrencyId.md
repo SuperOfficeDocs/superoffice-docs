@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 
 Gets the all PriceLists in all currencies, including those inactive.
 
+
 Will return empty array if there is no PriceList available.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Will return empty array if there is no PriceList available.
 ```http
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId, CurrencyId
+QuoteConnectionId, CurrencyId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 | CurrencyId | int32 |  |
+
 
 ## Response: array
 
@@ -77,12 +85,12 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 150,
-  "CurrencyId": 147
+  "QuoteConnectionId": 749,
+  "CurrencyId": 900
 }
 ```
 
@@ -94,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 81,
-    "ERPPriceListKey": "quod",
-    "QuoteConnectionId": 859,
-    "Name": "Bruen Group",
-    "Description": "Streamlined assymetric website",
-    "Currency": "et",
-    "CurrencyName": "Conroy Inc and Sons",
-    "ValidFrom": "2019-09-20T11:10:27.7114917+02:00",
-    "ValidTo": "2009-09-02T11:10:27.7114917+02:00",
-    "IsActive": true,
+    "PriceListId": 913,
+    "ERPPriceListKey": "aspernatur",
+    "QuoteConnectionId": 671,
+    "Name": "Quigley-Spinka",
+    "Description": "Synergistic tertiary forecast",
+    "Currency": "nostrum",
+    "CurrencyName": "Davis-Gleichner",
+    "ValidFrom": "2017-06-08T02:49:45.0465904+02:00",
+    "ValidTo": "2000-01-28T02:49:45.0465904+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 763
+        "FieldType": "System.Int32",
+        "FieldLength": 334
       }
     }
   }

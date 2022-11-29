@@ -11,11 +11,18 @@ GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 
 Gets user groups visible for the DeliveryTerm list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Bechtelar-Hansen",
-    "ToolTip": "Provident enim molestiae commodi libero quis qui.",
+    "Id": 680,
+    "Name": "Hessel, Reinger and McGlynn",
+    "ToolTip": "Sit voluptatem a ducimus quasi architecto quia eum.",
     "Deleted": false,
-    "Rank": 86,
-    "Type": "temporibus",
-    "ColorBlock": 698,
-    "IconHint": "corrupti",
-    "Selected": false,
-    "LastChanged": "2017-11-25T11:10:54.2488922+01:00",
+    "Rank": 969,
+    "Type": "voluptate",
+    "ColorBlock": 831,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2011-02-08T02:49:52.2190678+01:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Lemke-Weimann",
-        "ToolTip": "Itaque eligendi voluptatum est.",
-        "Deleted": true,
-        "Rank": 212,
-        "Type": "asperiores",
-        "ColorBlock": 856,
+        "Id": 451,
+        "Name": "Walter Group",
+        "ToolTip": "Inventore quia aut omnis nam sed.",
+        "Deleted": false,
+        "Rank": 473,
+        "Type": "incidunt",
+        "ColorBlock": 401,
         "IconHint": "exercitationem",
         "Selected": false,
-        "LastChanged": "2021-11-28T11:10:54.2488922+01:00",
+        "LastChanged": "1995-09-04T02:49:52.2190678+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "quo",
+        "ExtraInfo": "velit",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Maiya Corwin",
+        "FullName": "Ms. Finn Jerrod Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 179
+            "FieldType": "System.String",
+            "FieldLength": 495
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Zula Friesen",
+    "ExtraInfo": "ad",
+    "StyleHint": "dolor",
+    "Hidden": true,
+    "FullName": "Casey Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldLength": 987
       }
     }
   }

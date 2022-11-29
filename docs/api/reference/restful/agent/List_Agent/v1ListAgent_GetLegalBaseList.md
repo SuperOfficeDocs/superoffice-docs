@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLegalBaseList
 
 Gets an array of LegalBase objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of LegalBase objects.
 ```http
 POST /api/v1/Agents/List/GetLegalBaseList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetLegalBaseList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: legalBaseIds
+## Request Body: legalBaseIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -77,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 184,
-    "Name": "Schulist Inc and Sons",
-    "Tooltip": "ducimus",
-    "Rank": 672,
-    "Key": "deserunt",
-    "Deleted": false,
+    "LegalBaseId": 957,
+    "Name": "Rodriguez, Kihn and Hayes",
+    "Tooltip": "repellat",
+    "Rank": 695,
+    "Key": "excepturi",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldLength": 326
       }
     }
   }

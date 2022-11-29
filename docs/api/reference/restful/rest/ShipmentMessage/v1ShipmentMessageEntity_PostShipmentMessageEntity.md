@@ -11,7 +11,13 @@ POST /api/v1/ShipmentMessage
 
 Creates a new ShipmentMessageEntity
 
+
 Calls the Marketing agent service SaveShipmentMessageEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Marketing agent service SaveShipmentMessageEntity.
 ```http
 POST /api/v1/ShipmentMessage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/ShipmentMessage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ShipmentMessageEntity to be saved.
+The ShipmentMessageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +72,8 @@ The ShipmentMessageEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -73,7 +81,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -112,27 +120,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 646,
-  "PlainMessage": "tempore",
-  "HtmlMessage": "aliquam",
-  "SmsMessage": "expedita",
-  "Description": "Managed incremental flexibility",
-  "Subject": "fugiat",
-  "FolderId": 212,
-  "HeaderField": "et",
-  "Design": "reprehenderit",
+  "ShipmentMessageId": 15,
+  "PlainMessage": "id",
+  "HtmlMessage": "vitae",
+  "SmsMessage": "laborum",
+  "Description": "Quality-focused optimizing budgetary management",
+  "Subject": "laudantium",
+  "FolderId": 345,
+  "HeaderField": "iste",
+  "Design": "pariatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Configurable 4th generation flexibility",
-  "AccessKey": "tempora",
-  "DocumentMessage": 839,
-  "Registered": "2001-04-12T11:10:53.5231801+02:00",
-  "RegisteredAssociateId": 263,
-  "Updated": "1996-07-05T11:10:53.5231801+02:00",
-  "UpdatedAssociateId": 662,
-  "UpdatedCount": 164
+  "LongDescription": "Right-sized global architecture",
+  "AccessKey": "assumenda",
+  "DocumentMessage": 160,
+  "Registered": "2018-12-01T02:49:51.536309+01:00",
+  "RegisteredAssociateId": 110,
+  "Updated": "2022-11-26T02:49:51.536309+01:00",
+  "UpdatedAssociateId": 375,
+  "UpdatedCount": 294
 }
 ```
 
@@ -143,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 414,
-  "PlainMessage": "nostrum",
-  "HtmlMessage": "occaecati",
-  "SmsMessage": "eum",
-  "Description": "Optimized 5th generation encryption",
-  "Subject": "officiis",
-  "FolderId": 16,
-  "HeaderField": "voluptatibus",
-  "Design": "animi",
+  "ShipmentMessageId": 554,
+  "PlainMessage": "distinctio",
+  "HtmlMessage": "sit",
+  "SmsMessage": "veritatis",
+  "Description": "Enhanced mobile matrices",
+  "Subject": "enim",
+  "FolderId": 933,
+  "HeaderField": "nesciunt",
+  "Design": "voluptatem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Organic object-oriented project",
-  "AccessKey": "exercitationem",
-  "DocumentMessage": 716,
-  "Registered": "1998-04-28T11:10:53.5241794+02:00",
-  "RegisteredAssociateId": 12,
-  "Updated": "2017-04-10T11:10:53.5241794+02:00",
-  "UpdatedAssociateId": 84,
-  "UpdatedCount": 331,
+  "InlineImages": true,
+  "LongDescription": "Exclusive user-facing database",
+  "AccessKey": "voluptas",
+  "DocumentMessage": 367,
+  "Registered": "1999-03-18T02:49:51.536309+01:00",
+  "RegisteredAssociateId": 343,
+  "Updated": "1995-09-25T02:49:51.536309+02:00",
+  "UpdatedAssociateId": 395,
+  "UpdatedCount": 473,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 51
+      "FieldLength": 79
     }
   },
   "_Links": {

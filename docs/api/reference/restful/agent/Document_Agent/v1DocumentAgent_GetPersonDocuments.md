@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPersonDocuments
 
 Get all documents that are linked to the person.
 
+
 I.e. the documents that are listed in the person dialog.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ I.e. the documents that are listed in the person dialog.
 ```http
 POST /api/v1/Agents/Document/GetPersonDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Document/GetPersonDocuments?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
+
 
 ## Response: array
 
@@ -86,11 +94,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetPersonDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 144
+  "PersonId": 257
 }
 ```
 
@@ -102,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 348,
-    "Attention": "harum",
-    "Header": "atque",
-    "Name": "West, Schmeler and Armstrong",
-    "OurRef": "sit",
-    "YourRef": "animi",
-    "Description": "Visionary multi-state internet solution",
-    "DocumentTemplate": "perspiciatis",
+    "DocumentId": 104,
+    "Attention": "ab",
+    "Header": "voluptas",
+    "Name": "Monahan-Schneider",
+    "OurRef": "commodi",
+    "YourRef": "ab",
+    "Description": "Organized global orchestration",
+    "DocumentTemplate": "nisi",
     "IsPublished": false,
-    "PersonId": 756,
-    "PersonFullName": "Mrs. Kali Antonio Stokes",
-    "AssociateFullName": "Mr. Clare Auer",
-    "ContactId": 272,
-    "ContactName": "Powlowski-Schiller",
-    "ProjectId": 912,
-    "ProjectName": "Bins, Stroman and Sipes",
-    "AssociateId": 43,
-    "Snum": 207,
-    "SaleId": 607,
-    "SaleName": "Beahan Group",
+    "PersonId": 32,
+    "PersonFullName": "Jamey Wilkinson",
+    "AssociateFullName": "Mr. Nellie Bernier III",
+    "ContactId": 700,
+    "ContactName": "Williamson, Welch and Flatley",
+    "ProjectId": 584,
+    "ProjectName": "Hayes Group",
+    "AssociateId": 289,
+    "Snum": 637,
+    "SaleId": 895,
+    "SaleName": "Stamm, Runolfsdottir and Braun",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 365
+        "FieldLength": 68
       }
     }
   }

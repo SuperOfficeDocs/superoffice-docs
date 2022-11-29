@@ -11,7 +11,14 @@ PUT /api/v1/List/DocumentTemplate/Headings
 
 Saves headings for the DocumentTemplateEntity list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -72,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 411,
-    "Name": "Schaefer, Kohler and Veum",
-    "Tooltip": "ipsa",
+    "HeadingId": 643,
+    "Name": "Blanda Group",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 289,
-    "UdListDefinitionId": 966
+    "Rank": 726,
+    "UdListDefinitionId": 382
   },
   {
-    "HeadingId": 411,
-    "Name": "Schaefer, Kohler and Veum",
-    "Tooltip": "ipsa",
+    "HeadingId": 643,
+    "Name": "Blanda Group",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 289,
-    "UdListDefinitionId": 966
+    "Rank": 726,
+    "UdListDefinitionId": 382
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 414,
-    "Name": "Hegmann Inc and Sons",
-    "Tooltip": "vel",
+    "HeadingId": 609,
+    "Name": "Rippin Inc and Sons",
+    "Tooltip": "consequatur",
     "Deleted": true,
-    "Rank": 874,
-    "UdListDefinitionId": 798,
+    "Rank": 418,
+    "UdListDefinitionId": 26,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 477
       }
     }
   }

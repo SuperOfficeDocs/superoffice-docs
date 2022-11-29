@@ -9,6 +9,14 @@ uid: v1BLOBAgent_ChangeProductImage
 POST /api/v1/Agents/BLOB/ChangeProductImage
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/BLOB/ChangeProductImage
 ```http
 POST /api/v1/Agents/BLOB/ChangeProductImage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -29,16 +38,17 @@ POST /api/v1/Agents/BLOB/ChangeProductImage?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProductId, BlobId
+ProductId, BlobId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProductId | int32 |  |
 | BlobId | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -46,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -58,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 623,
-  "BlobId": 541
+  "ProductId": 687,
+  "BlobId": 948
 }
 ```
 

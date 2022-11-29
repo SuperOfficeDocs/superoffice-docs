@@ -11,11 +11,18 @@ GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ProductType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 725,
-    "Name": "O'Kon-Lowe",
-    "ToolTip": "Eos sed non voluptates sequi voluptatem.",
+    "Id": 242,
+    "Name": "Emard Group",
+    "ToolTip": "Dolorem accusantium quaerat laudantium distinctio velit.",
     "Deleted": false,
-    "Rank": 946,
-    "Type": "voluptas",
-    "ColorBlock": 559,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2019-10-08T11:10:54.4519022+02:00",
+    "Rank": 16,
+    "Type": "ducimus",
+    "ColorBlock": 953,
+    "IconHint": "perferendis",
+    "Selected": true,
+    "LastChanged": "2004-12-12T02:49:52.3753234+01:00",
     "ChildItems": [
       {
-        "Id": 203,
-        "Name": "Volkman-Rowe",
-        "ToolTip": "Officiis eos.",
-        "Deleted": false,
-        "Rank": 191,
-        "Type": "recusandae",
-        "ColorBlock": 258,
-        "IconHint": "et",
+        "Id": 123,
+        "Name": "Stanton LLC",
+        "ToolTip": "Consequatur in consequuntur.",
+        "Deleted": true,
+        "Rank": 426,
+        "Type": "et",
+        "ColorBlock": 886,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "1995-08-25T11:10:54.4519022+02:00",
+        "LastChanged": "1995-07-27T02:49:52.3753234+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "placeat",
+        "StyleHint": "ducimus",
         "Hidden": true,
-        "FullName": "Mr. Kristy Katheryn Tremblay DVM",
+        "FullName": "Agustina Renner DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 134
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "nisi",
+    "ExtraInfo": "totam",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Mr. Jacques Hahn",
+    "FullName": "Miss Mariana Pouros PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 487
+        "FieldType": "System.Int32",
+        "FieldLength": 584
       }
     }
   }

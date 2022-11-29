@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetMyConfigParameter
 
 Gets an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an Audience configuration parameter belonging to the currently logged on us
 ```http
 POST /api/v1/Agents/Audience/GetMyConfigParameter?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Audience/GetMyConfigParameter?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ParameterName
+ParameterName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ParameterName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,11 +79,11 @@ Response body:
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Russel Inc and Sons"
+  "ParameterName": "Borer Group"
 }
 ```
 
@@ -86,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 904,
-  "Name": "Mueller, Kilback and Ebert",
-  "Value": "assumenda",
-  "CreatedDate": "2012-04-22T11:10:26.0055526+02:00",
-  "UpdatedDate": "2001-01-27T11:10:26.0055526+01:00",
-  "CreatedBy": "laboriosam",
-  "UpdatedBy": "dolorum",
+  "AudienceLayoutId": 466,
+  "Name": "Bayer Inc and Sons",
+  "Value": "est",
+  "CreatedDate": "2015-11-25T02:49:43.6847821+01:00",
+  "UpdatedDate": "2009-06-29T02:49:43.6847821+02:00",
+  "CreatedBy": "dicta",
+  "UpdatedBy": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 849
     }
   }
 }

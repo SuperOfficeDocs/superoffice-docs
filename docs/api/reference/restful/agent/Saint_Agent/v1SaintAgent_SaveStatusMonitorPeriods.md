@@ -11,6 +11,13 @@ POST /api/v1/Agents/Saint/SaveStatusMonitorPeriods
 
 Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The StatusMonitorPeriods to be saved.
+The StatusMonitorPeriods to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -35,7 +42,8 @@ The StatusMonitorPeriods to be saved.
 | Period2 | int32 | Days in the second period |
 | Period3 | int32 | Days in the third period |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -43,7 +51,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,13 +67,13 @@ Response body:
 POST /api/v1/Agents/Saint/SaveStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 596,
-  "Period2": 477,
-  "Period3": 228
+  "Period1": 125,
+  "Period2": 881,
+  "Period3": 857
 }
 ```
 
@@ -76,15 +84,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 291,
-  "Period2": 13,
-  "Period3": 488,
+  "Period1": 83,
+  "Period2": 586,
+  "Period3": 593,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 513
     }
   }
 }

@@ -11,11 +11,18 @@ PUT /api/v1/List/Currency/Items/{id}
 
 Updates the existing CurrencyEntity
 
+
 Calls the List agent service SaveCurrencyEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of CurrencyEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveCurrencyEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of CurrencyEntity to be saved.
+The details of CurrencyEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ The details of CurrencyEntity to be saved.
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,12 +86,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 247,
-  "Name": "Metz, Ward and Lesch",
-  "Tooltip": "corrupti",
-  "Rank": 915,
-  "Rate": 25632.986,
-  "Units": 28375.236,
+  "CurrencyId": 120,
+  "Name": "Swift Inc and Sons",
+  "Tooltip": "quibusdam",
+  "Rank": 473,
+  "Rate": 26335.002,
+  "Units": 8508.81,
   "Deleted": false
 }
 ```
@@ -95,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 699,
-  "Name": "Nader-Swaniawski",
-  "Tooltip": "reiciendis",
-  "Rank": 545,
-  "Rate": 3870.49,
-  "Units": 17797.986,
-  "Deleted": false,
+  "CurrencyId": 913,
+  "Name": "Johns, Schaefer and Nicolas",
+  "Tooltip": "a",
+  "Rank": 331,
+  "Rate": 219.38,
+  "Units": 30590.974,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldLength": 276
     }
   }
 }

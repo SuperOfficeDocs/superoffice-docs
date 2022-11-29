@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/MakeRetired
 
 Retiring a user means to remove all licenses, setting person.
 
+
 retired=1 and associate.deleted=1. Unretiering a user means setting  person.retired=0 and associate.deleted=0
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -25,6 +32,7 @@ retired=1 and associate.deleted=1. Unretiering a user means setting  person.reti
 POST /api/v1/Agents/User/MakeRetired?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -35,16 +43,17 @@ POST /api/v1/Agents/User/MakeRetired?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, Retired
+AssociateId, Retired 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | Retired | bool |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -52,7 +61,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -60,12 +70,12 @@ Response body:
 POST /api/v1/Agents/User/MakeRetired
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 155,
-  "Retired": true
+  "AssociateId": 524,
+  "Retired": false
 }
 ```
 

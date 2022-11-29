@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteLine
 
 Get QuoteLine from database
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get QuoteLine from database
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLine?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/GetQuoteLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLineId
+QuoteLineId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLineId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -117,7 +125,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 732
+  "QuoteLineId": 711
 }
 ```
 
@@ -128,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 764,
+  "QuoteLineId": 625,
   "ERPQuoteLineKey": "et",
-  "QuoteAlternativeId": 164,
-  "ERPProductKey": "quaerat",
+  "QuoteAlternativeId": 840,
+  "ERPProductKey": "sed",
   "Status": "Error",
-  "Reason": "evolve frictionless applications",
-  "Quantity": 206.844,
-  "DeliveredQuantity": 21734.29,
-  "Rank": 903,
-  "Name": "Schuppe Group",
-  "Description": "Reduced object-oriented instruction set",
-  "Code": "est",
-  "QuantityUnit": "mollitia",
-  "PriceUnit": "vel",
-  "ItemNumber": "358894",
+  "Reason": "",
+  "Quantity": 19133.07,
+  "DeliveredQuantity": 3450.534,
+  "Rank": 449,
+  "Name": "Hansen, Blanda and Langosh",
+  "Description": "Monitored client-driven superstructure",
+  "Code": "sint",
+  "QuantityUnit": "sapiente",
+  "PriceUnit": "similique",
+  "ItemNumber": "732660",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "assumenda",
-  "ProductTypeKey": "quis",
-  "Supplier": "tempore",
-  "SupplierCode": "dolore",
-  "Thumbnail": "molestiae",
-  "VATInfo": "deleniti",
-  "VAT": 21405.219999999998,
-  "UnitCost": 16312.47,
-  "UnitMinimumPrice": 5826.106,
-  "UnitListPrice": 12119.178,
+  "ProductFamilyKey": "nihil",
+  "ProductTypeKey": "sit",
+  "Supplier": "necessitatibus",
+  "SupplierCode": "et",
+  "Thumbnail": "doloremque",
+  "VATInfo": "laborum",
+  "VAT": 29099.19,
+  "UnitCost": 1071.828,
+  "UnitMinimumPrice": 17352.958,
+  "UnitListPrice": 19380.656,
   "ExtraInfo": [
     {
-      "Name": "Zieme LLC",
-      "Value": "non",
+      "Name": "Hansen Group",
+      "Value": "dicta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 435
         }
       }
     },
     {
-      "Name": "Zieme LLC",
-      "Value": "non",
+      "Name": "Hansen Group",
+      "Value": "dicta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 435
         }
       }
     }
   ],
-  "RawExtraInfo": "nisi",
+  "RawExtraInfo": "magni",
   "IsSubscription": false,
-  "SubscriptionUnit": "nobis",
-  "SubscriptionQuantity": 24310.438,
-  "SubscriptionStart": "2015-12-02T11:10:27.7354953+01:00",
-  "ERPDiscountPercent": 26585.721999999998,
-  "ERPDiscountAmount": 3644.842,
-  "DiscountPercent": 15243.776,
-  "DiscountAmount": 12661.359999999999,
+  "SubscriptionUnit": "architecto",
+  "SubscriptionQuantity": 18822.804,
+  "SubscriptionStart": "2001-01-28T02:49:45.0622144+01:00",
+  "ERPDiscountPercent": 23674.236,
+  "ERPDiscountAmount": 20377.268,
+  "DiscountPercent": 26704.814,
+  "DiscountAmount": 28886.077999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 22944.014,
-  "EarningAmount": 15174.828,
-  "SubTotal": 29810.608,
-  "TotalPrice": 25419.874,
-  "Rights": "corporis",
-  "Rule": "et",
-  "ExtraField1": "laudantium",
-  "ExtraField2": "asperiores",
-  "ExtraField3": "mollitia",
-  "ExtraField4": "vitae",
-  "ExtraField5": "maiores",
+  "EarningPercent": 27284.604,
+  "EarningAmount": 1250.466,
+  "SubTotal": 29447.064,
+  "TotalPrice": 21571.322,
+  "Rights": "voluptatem",
+  "Rule": "qui",
+  "ExtraField1": "reprehenderit",
+  "ExtraField2": "qui",
+  "ExtraField3": "sit",
+  "ExtraField4": "recusandae",
+  "ExtraField5": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 22
     }
   }
 }

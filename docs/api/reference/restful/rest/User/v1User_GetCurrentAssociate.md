@@ -11,7 +11,14 @@ GET /api/v1/User/currentAssociate
 
 Gets the currently logged in user's associate information (username, associate id, role)
 
+
 Calls the Associate agent service GetAssociate.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Calls the Associate agent service GetAssociate.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +67,7 @@ Response body:
 GET /api/v1/User/currentAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 854,
-  "Name": "Murphy-Christiansen",
-  "PersonId": 807,
-  "Rank": 246,
-  "Tooltip": "dolorum",
+  "AssociateId": 218,
+  "Name": "Wunsch LLC",
+  "PersonId": 954,
+  "Rank": 929,
+  "Tooltip": "delectus",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 814,
-  "FullName": "Mrs. Roxane Osinski DDS",
-  "FormalName": "Bernier-Sporer",
+  "GroupIdx": 544,
+  "FullName": "Ms. Freda Shany McGlynn",
+  "FormalName": "Monahan-Schamberger",
   "Deleted": false,
-  "EjUserId": 861,
-  "UserName": "Denesik-Bednar",
+  "EjUserId": 17,
+  "UserName": "Pacocha-Rempel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 383
+      "FieldType": "System.Int32",
+      "FieldLength": 415
     }
   }
 }

@@ -11,7 +11,14 @@ POST /api/v1/List/Currency/Headings
 
 Saves a new heading for the CurrencyEntity list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,16 +75,16 @@ Response body:
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 34,
-  "Name": "Kunde-Effertz",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "Rank": 669,
-  "UdListDefinitionId": 562
+  "HeadingId": 695,
+  "Name": "Gutkowski-Hane",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 957,
+  "UdListDefinitionId": 564
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 706,
-  "Name": "Zboncak, Weissnat and Buckridge",
-  "Tooltip": "corporis",
-  "Deleted": true,
-  "Rank": 484,
-  "UdListDefinitionId": 929,
+  "HeadingId": 515,
+  "Name": "Lueilwitz, Reichel and Konopelski",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "Rank": 871,
+  "UdListDefinitionId": 661,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldType": "System.String",
+      "FieldLength": 474
     }
   }
 }

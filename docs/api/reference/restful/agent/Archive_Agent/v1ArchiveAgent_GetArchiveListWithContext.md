@@ -11,19 +11,39 @@ POST /api/v1/Agents/Archive/GetArchiveListWithContext
 
 Get a page of data for an archive, with context parameter.
 
-The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.
+
+The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected. 
 Archive Restriction Info objects represent search terms.
+
 
 Column names and operator strings are defined elsewhere.
 
+
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
+
+
+
+
+
 
 ```
 
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -34,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListWithContext?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -49,9 +70,9 @@ POST /api/v1/Agents/Archive/GetArchiveListWithContext?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize, Context
+GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,6 +84,7 @@ GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize, Context
 | Page | int32 |  |
 | PageSize | int32 |  |
 | Context | string |  |
+
 
 ## Response: array
 
@@ -90,52 +112,52 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Collier-Quitzon",
-  "ProviderName": "Pacocha-Schumm",
+  "GuiName": "Rutherford-Pagac",
+  "ProviderName": "McKenzie LLC",
   "SortOrder": [
     {
-      "Name": "McCullough-Fahey",
+      "Name": "Grimes-Bogisich",
       "Direction": "ASC"
     },
     {
-      "Name": "McCullough-Fahey",
+      "Name": "Grimes-Bogisich",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Zboncak-Reynolds",
-      "Operator": "hic",
+      "Name": "Hartmann Group",
+      "Operator": "qui",
       "Values": [
-        "ipsum",
-        "est"
+        "dolores",
+        "reprehenderit"
       ],
       "DisplayValues": [
-        "itaque",
-        "aut"
+        "nulla",
+        "voluptatum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 221,
+      "InterParenthesis": 256,
       "InterOperator": "And",
-      "UniqueHash": 278
+      "UniqueHash": 720
     }
   ],
   "Entities": [
-    "nesciunt",
-    "perferendis"
+    "beatae",
+    "laborum"
   ],
-  "Page": 731,
-  "PageSize": 864,
-  "Context": "ea"
+  "Page": 961,
+  "PageSize": 610,
+  "Context": "accusantium"
 }
 ```
 
@@ -147,23 +169,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gutkowski Group",
-    "PrimaryKey": 573,
+    "EntityName": "Keeling-Wunsch",
+    "PrimaryKey": 363,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "modi",
-        "TooltipHint": "voluptatem",
-        "LinkHint": "sunt"
+        "DisplayValue": "rerum",
+        "TooltipHint": "adipisci",
+        "LinkHint": "omnis"
       }
     },
-    "LinkHint": "voluptatibus",
-    "StyleHint": "adipisci",
+    "LinkHint": "voluptate",
+    "StyleHint": "maxime",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldType": "System.String",
+        "FieldLength": 698
       }
     }
   }

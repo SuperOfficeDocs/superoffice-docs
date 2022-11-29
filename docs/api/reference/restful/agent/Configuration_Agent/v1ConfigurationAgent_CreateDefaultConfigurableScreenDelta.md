@@ -11,7 +11,14 @@ POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 
 Set default values into a new ConfigurableScreenDelta.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,27 +79,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConfigurableScreenDeltaId": 168,
-  "Name": "Koelpin Inc and Sons",
-  "Description": "Triple-buffered actuating utilisation",
-  "DeltaJson": "molestiae",
+  "Name": "Dicki Inc and Sons",
+  "Description": "Implemented coherent functionalities",
+  "DeltaJson": "doloremque",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "qui",
-  "UpdatedDate": "2017-10-24T11:10:26.1905257+02:00",
-  "CreatedDate": "2010-04-14T11:10:26.1905257+02:00",
+  "RecipeId": "rerum",
+  "UpdatedDate": "2013-04-12T02:49:43.8566571+02:00",
+  "CreatedDate": "2020-09-16T02:49:43.8566571+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    935,
-    783
+    509,
+    823
   ],
-  "AppliesToKey": "pariatur",
+  "AppliesToKey": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 867
     }
   }
 }

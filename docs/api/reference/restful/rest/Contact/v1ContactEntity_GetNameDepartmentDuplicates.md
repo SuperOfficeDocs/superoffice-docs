@@ -11,9 +11,15 @@ GET /api/v1/Contact/Duplicates/{name}
 
 Get duplicates based on the contact name and department
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | Name used for lookup **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get duplicates based on the contact name and department
 | department | string |  Department used for lookup (if any) |
 
 ```http
-GET /api/v1/Contact/Duplicates/{name}?department=temporibus
+GET /api/v1/Contact/Duplicates/{name}?department=quis
 ```
+
 
 ## Request Headers
 
@@ -37,6 +44,7 @@ GET /api/v1/Contact/Duplicates/{name}?department=temporibus
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -64,7 +72,7 @@ Response body: array
 GET /api/v1/Contact/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Bartell, Collier and Kling",
-    "SoPrimaryKey": 291,
-    "EntryName": "Klein, Mann and Mueller",
-    "EntryIdentifier": "doloremque",
-    "RuleDisplayName": "Satterfield Inc and Sons",
+    "RuleName": "Cummerata LLC",
+    "SoPrimaryKey": 648,
+    "EntryName": "Nitzsche-Kub",
+    "EntryIdentifier": "porro",
+    "RuleDisplayName": "Gibson, West and Kiehn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldLength": 769
       }
     }
   }

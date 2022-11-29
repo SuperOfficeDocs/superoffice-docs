@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 
 Get a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier, KeyName, KeyValue, TableName
+ApplicationName, DeviceName, DeviceIdentifier, KeyName, KeyValue, TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,8 @@ ApplicationName, DeviceName, DeviceIdentifier, KeyName, KeyValue, TableName
 | KeyValue | string |  |
 | TableName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -56,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,16 +85,16 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Green LLC",
-  "DeviceName": "Marvin Group",
-  "DeviceIdentifier": "a",
-  "KeyName": "Buckridge-Huels",
-  "KeyValue": "fugiat",
-  "TableName": "Kreiger, Baumbach and Kassulke"
+  "ApplicationName": "Rice-Quigley",
+  "DeviceName": "Franecki-Kohler",
+  "DeviceIdentifier": "tempora",
+  "KeyName": "Stark-Witting",
+  "KeyValue": "quae",
+  "TableName": "Nolan Inc and Sons"
 }
 ```
 
@@ -97,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "fuga",
-  "RecordId": 939,
-  "CreatedDate": "1999-03-20T11:10:27.0874246+01:00",
-  "UpdatedDate": "2009-03-30T11:10:27.0874246+02:00",
-  "UpdatedBy": "veritatis",
-  "CreatedBy": "voluptatem",
-  "TableName": "Sipes-Purdy",
+  "Key": "at",
+  "Value": "voluptate",
+  "RecordId": 365,
+  "CreatedDate": "2016-12-28T02:49:44.561046+01:00",
+  "UpdatedDate": "2012-03-31T02:49:44.561046+02:00",
+  "UpdatedBy": "dicta",
+  "CreatedBy": "voluptates",
+  "TableName": "VonRueden-Jerde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 786
     }
   }
 }

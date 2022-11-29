@@ -11,6 +11,13 @@ PUT /api/v1/List/ProductCategory/Items
 
 Update the ProductCategory list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the ProductCategory list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated ProductCategory.
+All the updated ProductCategory. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated ProductCategory.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -70,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Schowalter LLC",
-    "Tooltip": "in",
+    "Id": 393,
+    "Name": "Heaney-Walter",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "UdListDefinitionId": 276,
-    "Rank": 367
+    "UdListDefinitionId": 442,
+    "Rank": 667
   },
   {
-    "Id": 332,
-    "Name": "Schowalter LLC",
-    "Tooltip": "in",
+    "Id": 393,
+    "Name": "Heaney-Walter",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "UdListDefinitionId": 276,
-    "Rank": 367
+    "UdListDefinitionId": 442,
+    "Rank": 667
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Donnelly-Renner",
-    "Tooltip": "voluptatibus",
-    "Deleted": false,
-    "UdListDefinitionId": 227,
-    "Rank": 742,
+    "Id": 191,
+    "Name": "Schuppe, Cruickshank and Quigley",
+    "Tooltip": "explicabo",
+    "Deleted": true,
+    "UdListDefinitionId": 528,
+    "Rank": 640,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldType": "System.String",
+        "FieldLength": 886
       }
     }
   }

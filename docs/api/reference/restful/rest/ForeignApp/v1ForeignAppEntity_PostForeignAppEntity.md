@@ -11,7 +11,13 @@ POST /api/v1/ForeignApp
 
 Creates a new ForeignAppEntity
 
+
 Calls the ForeignSystem agent service SaveForeignAppEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the ForeignSystem agent service SaveForeignAppEntity.
 ```http
 POST /api/v1/ForeignApp?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/ForeignApp?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ForeignAppEntity to be saved.
+The ForeignAppEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +58,8 @@ The ForeignAppEntity to be saved.
 | UpdatedBy |  | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -59,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,27 +88,27 @@ Response body:
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 934,
-  "Name": "Hayes Inc and Sons",
-  "CreatedDate": "1996-02-12T11:10:52.8851774+01:00",
-  "UpdatedDate": "2002-10-25T11:10:52.8851774+02:00",
+  "ForeignAppId": 760,
+  "Name": "Mosciski-Padberg",
+  "CreatedDate": "1996-01-30T02:49:50.979663+01:00",
+  "UpdatedDate": "2016-08-21T02:49:50.979663+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 496,
-      "Name": "Champlin Group",
-      "CreatedDate": "2019-04-25T11:10:52.8861749+02:00",
-      "UpdatedDate": "2019-10-31T11:10:52.8861749+01:00",
-      "AssociateFullName": "Lisandro Rahsaan Prosacco PhD",
-      "CreatedBy": "itaque",
-      "UpdatedBy": "sunt",
-      "DeviceIdentifier": "occaecati",
-      "ForeignAppId": 295
+      "ForeignDeviceId": 901,
+      "Name": "Heidenreich Inc and Sons",
+      "CreatedDate": "2020-07-20T02:49:50.979663+02:00",
+      "UpdatedDate": "2018-04-14T02:49:50.979663+02:00",
+      "AssociateFullName": "Fredrick Adams",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "voluptate",
+      "DeviceIdentifier": "fugiat",
+      "ForeignAppId": 896
     }
   ]
 }
@@ -113,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 652,
-  "Name": "Schinner LLC",
-  "CreatedDate": "2000-03-15T11:10:52.8871739+01:00",
-  "UpdatedDate": "2004-07-01T11:10:52.8871739+02:00",
+  "ForeignAppId": 672,
+  "Name": "Hagenes Group",
+  "CreatedDate": "2000-06-23T02:49:50.979663+02:00",
+  "UpdatedDate": "2015-11-14T02:49:50.979663+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 567,
-      "Name": "Kuvalis LLC",
-      "CreatedDate": "2021-03-11T11:10:52.888174+01:00",
-      "UpdatedDate": "2001-12-26T11:10:52.888174+01:00",
-      "AssociateFullName": "Miss Nikko Mitchell Langworth",
-      "CreatedBy": "commodi",
-      "UpdatedBy": "rerum",
-      "DeviceIdentifier": "quidem",
-      "ForeignAppId": 78,
+      "ForeignDeviceId": 776,
+      "Name": "Pfeffer, Feil and Powlowski",
+      "CreatedDate": "2021-05-26T02:49:50.979663+02:00",
+      "UpdatedDate": "2005-11-27T02:49:50.979663+01:00",
+      "AssociateFullName": "Miss Gregorio Rolfson",
+      "CreatedBy": "eos",
+      "UpdatedBy": "pariatur",
+      "DeviceIdentifier": "sit",
+      "ForeignAppId": 68,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldLength": 345
         }
       }
     }
@@ -145,12 +153,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 850
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -11,9 +11,15 @@ PUT /api/v1/ForeignApp/{id}
 
 Updates the existing ForeignAppEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ForeignAppEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing ForeignAppEntity
 ```http
 PUT /api/v1/ForeignApp/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/ForeignApp/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ForeignAppEntity to be saved.
+The ForeignAppEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,8 @@ The ForeignAppEntity to be saved.
 | UpdatedBy |  | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
 
-## Response
+
+## Response: 
 
 ForeignAppEntity updated.
 
@@ -63,7 +71,7 @@ ForeignAppEntity updated.
 | 412 | Update stopped because ForeignAppEntity has changed since the requested If-Unmodified-Since timestamp. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,27 +92,27 @@ Response body:
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 521,
-  "Name": "Rippin Inc and Sons",
-  "CreatedDate": "2018-05-22T11:10:52.8921799+02:00",
-  "UpdatedDate": "2009-08-30T11:10:52.8921799+02:00",
+  "ForeignAppId": 512,
+  "Name": "Cummings, Frami and Robel",
+  "CreatedDate": "1996-03-20T02:49:50.979663+01:00",
+  "UpdatedDate": "2008-11-01T02:49:50.979663+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 372,
-      "Name": "Quigley, Beatty and McDermott",
-      "CreatedDate": "1997-03-14T11:10:52.8921799+01:00",
-      "UpdatedDate": "2011-04-23T11:10:52.8921799+02:00",
-      "AssociateFullName": "Kenny Little",
-      "CreatedBy": "et",
-      "UpdatedBy": "nemo",
-      "DeviceIdentifier": "alias",
-      "ForeignAppId": 156
+      "ForeignDeviceId": 312,
+      "Name": "Russel-White",
+      "CreatedDate": "2008-05-12T02:49:50.979663+02:00",
+      "UpdatedDate": "2020-11-15T02:49:50.979663+01:00",
+      "AssociateFullName": "Miss Keenan Schneider III",
+      "CreatedBy": "dolor",
+      "UpdatedBy": "mollitia",
+      "DeviceIdentifier": "nulla",
+      "ForeignAppId": 629
     }
   ]
 }
@@ -117,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 508,
-  "Name": "Toy LLC",
-  "CreatedDate": "2022-03-27T11:10:52.8931808+02:00",
-  "UpdatedDate": "1997-04-25T11:10:52.8931808+02:00",
+  "ForeignAppId": 502,
+  "Name": "Little, Pagac and Heaney",
+  "CreatedDate": "2006-08-23T02:49:50.979663+02:00",
+  "UpdatedDate": "2002-07-03T02:49:50.979663+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 419,
-      "Name": "Prosacco Inc and Sons",
-      "CreatedDate": "2008-08-18T11:10:52.8951818+02:00",
-      "UpdatedDate": "2021-12-23T11:10:52.8951818+01:00",
-      "AssociateFullName": "Emelie Metz II",
-      "CreatedBy": "consequuntur",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "repellat",
-      "ForeignAppId": 590,
+      "ForeignDeviceId": 460,
+      "Name": "Wintheiser-Ebert",
+      "CreatedDate": "2007-01-27T02:49:50.979663+01:00",
+      "UpdatedDate": "2022-04-14T02:49:50.979663+02:00",
+      "AssociateFullName": "Miss Eleonore Celestino O'Connell",
+      "CreatedBy": "iure",
+      "UpdatedBy": "cumque",
+      "DeviceIdentifier": "ea",
+      "ForeignAppId": 371,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 795
+          "FieldType": "System.Int32",
+          "FieldLength": 235
         }
       }
     }
@@ -148,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 294
+      "FieldType": "System.Int32",
+      "FieldLength": 372
     }
   },
   "_Links": {

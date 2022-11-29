@@ -11,9 +11,16 @@ GET /api/v1/Product/{productId}
 
 Get a product with the given database id
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | productId | int32 | The database id of the product **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a product with the given database id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +64,7 @@ Response body:
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -93,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 200,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "molestiae",
-  "Name": "Witting, Luettgen and Blick",
-  "Description": "Front-line object-oriented implementation",
-  "Code": "consectetur",
-  "PriceUnit": "praesentium",
-  "QuantityUnit": "iure",
-  "IsSubscription": false,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 27384.892,
-  "ItemNumber": "1134387",
+  "ProductId": 606,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "aut",
+  "Name": "Leffler, Jerde and Kohler",
+  "Description": "Total maximized access",
+  "Code": "dicta",
+  "PriceUnit": "ut",
+  "QuantityUnit": "fugiat",
+  "IsSubscription": true,
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 27262.665999999997,
+  "ItemNumber": "1489467",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "laboriosam",
-  "ProductTypeKey": "dolor",
-  "VAT": 26338.136,
-  "VATInfo": "sequi",
-  "UnitCost": 15.67,
-  "UnitMinimumPrice": 25247.504,
-  "UnitListPrice": 22279.606,
-  "InAssortment": true,
-  "Supplier": "rerum",
-  "SupplierCode": "expedita",
-  "Rights": "voluptatem",
-  "Rule": "eveniet",
+  "ProductFamilyKey": "excepturi",
+  "ProductTypeKey": "eaque",
+  "VAT": 15209.302,
+  "VATInfo": "qui",
+  "UnitCost": 24642.642,
+  "UnitMinimumPrice": 28121.381999999998,
+  "UnitListPrice": 20455.618,
+  "InAssortment": false,
+  "Supplier": "modi",
+  "SupplierCode": "dolore",
+  "Rights": "aut",
+  "Rule": "modi",
   "ExtraInfo": [
     {
-      "Name": "Kuhic LLC",
-      "Value": "ad",
+      "Name": "Grady, Shields and Bins",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 10
+          "FieldType": "System.String",
+          "FieldLength": 510
         }
       }
     },
     {
-      "Name": "Kuhic LLC",
-      "Value": "ad",
+      "Name": "Grady, Shields and Bins",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 10
+          "FieldType": "System.String",
+          "FieldLength": 510
         }
       }
     }
   ],
-  "RawExtraInfo": "harum",
-  "ExtraField1": "culpa",
-  "ExtraField2": "dolores",
-  "ExtraField3": "inventore",
-  "ExtraField4": "sed",
-  "ExtraField5": "aut",
-  "InStock": 28704.306,
+  "RawExtraInfo": "impedit",
+  "ExtraField1": "placeat",
+  "ExtraField2": "mollitia",
+  "ExtraField3": "voluptate",
+  "ExtraField4": "iusto",
+  "ExtraField5": "et",
+  "InStock": 13332.036,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 196
     }
   }
 }

@@ -11,11 +11,17 @@ GET /api/v1/ProjectMember/{id}
 
 Gets a ProjectMember object.
 
+
 Calls the Project agent service GetProjectMember.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ProjectMember to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Project agent service GetProjectMember.
 ```http
 GET /api/v1/ProjectMember/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/ProjectMember/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ProjectMember found.
 
@@ -49,7 +57,7 @@ ProjectMember found.
 | 200 | ProjectMember found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +92,7 @@ Response body:
 GET /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,38 +102,38 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 625,
-  "ContactId": 400,
-  "ProjectId": 377,
-  "ContactName": "Haley, Adams and Schmitt",
+  "ProjectmemberId": 408,
+  "ContactId": 217,
+  "ProjectId": 724,
+  "ContactName": "Schumm, Tremblay and Raynor",
   "ContactDepartment": "",
-  "ProjectName": "Barton Inc and Sons",
-  "EmailId": 784,
-  "EmailAddress": "jaleel.durgan@kub.com",
-  "CountryId": 705,
-  "Firstname": "Ricky",
-  "MiddleName": "Lynch-Dickinson",
-  "Lastname": "Barton",
-  "PersonId": 288,
-  "Mrmrs": "consectetur",
-  "ProjectMemberTypeName": "Batz, Parisian and Jaskolski",
-  "Phone": "244.941.0565 x580",
-  "PhoneId": 982,
-  "ProjectMemberTypeId": 396,
-  "EmailAddressName": "leilani.monahan@breitenberg.name",
-  "Comment": "quisquam",
-  "FullName": "Marisol Ziemann DVM",
+  "ProjectName": "Hammes-Cronin",
+  "EmailId": 763,
+  "EmailAddress": "taryn.ledner@raujakubowski.ca",
+  "CountryId": 679,
+  "Firstname": "Garett",
+  "MiddleName": "Collier, Mraz and Jaskolski",
+  "Lastname": "Green",
+  "PersonId": 90,
+  "Mrmrs": "pariatur",
+  "ProjectMemberTypeName": "Leffler-O'Keefe",
+  "Phone": "046.469.1911 x423",
+  "PhoneId": 633,
+  "ProjectMemberTypeId": 887,
+  "EmailAddressName": "dejon@reilly.com",
+  "Comment": "praesentium",
+  "FullName": "Dr. Susana Walsh",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 999
+      "FieldType": "System.Int32",
+      "FieldLength": 953
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

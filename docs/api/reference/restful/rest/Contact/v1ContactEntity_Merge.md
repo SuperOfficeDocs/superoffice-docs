@@ -11,12 +11,18 @@ POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}
 
 Merge two contacts.
 
+
 The destination contact will remain.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | sourceContactId | int32 | Source contact to merge from. This contact will disappear after the merge. **Required** |
 | destinationContactId | int32 | Destination contact to merge into **Required** |
+
 
 ## Query String Parameters
 
@@ -30,6 +36,7 @@ POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?mergeIdent
 POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?replaceEmptyFieldsOnDestination=True
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -39,7 +46,8 @@ POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?replaceEmp
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -47,7 +55,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -55,7 +64,7 @@ Response body:
 POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

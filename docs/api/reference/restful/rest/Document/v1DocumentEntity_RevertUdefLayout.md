@@ -11,7 +11,14 @@ POST /api/v1/Document/UdefLayout/Revert
 
 Revert all un-published DocumentEntity udef layout changes.
 
+
 Reset to the currently published layout.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -22,7 +29,8 @@ Reset to the currently published layout.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -30,7 +38,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 

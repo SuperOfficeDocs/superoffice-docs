@@ -11,9 +11,16 @@ PUT /api/v1/List/ProjectType/Items/{id}
 
 Updates an existing ProjectType list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of ProjectType to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing ProjectType list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of ProjectType list item to be saved.
+The details of ProjectType list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The details of ProjectType list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 261,
-  "Name": "Wisoky Group",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "UdListDefinitionId": 272,
-  "Rank": 938
+  "Id": 740,
+  "Name": "Lakin, Dickinson and Weissnat",
+  "Tooltip": "atque",
+  "Deleted": false,
+  "UdListDefinitionId": 911,
+  "Rank": 63
 }
 ```
 
@@ -90,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 833,
-  "Name": "Dare-Dibbert",
-  "Tooltip": "sequi",
-  "Deleted": false,
-  "UdListDefinitionId": 294,
-  "Rank": 152,
+  "Id": 604,
+  "Name": "Satterfield-Sipes",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 794,
+  "Rank": 214,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 345
     }
   }
 }

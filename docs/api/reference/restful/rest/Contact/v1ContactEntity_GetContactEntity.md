@@ -11,11 +11,17 @@ GET /api/v1/Contact/{id}
 
 Gets a ContactEntity object.
 
+
 Calls the Contact agent service GetContactEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ContactEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -28,6 +34,7 @@ Calls the Contact agent service GetContactEntity.
 GET /api/v1/Contact/{id}?$select=name,department,category/id
 GET /api/v1/Contact/{id}?fk=False
 ```
+
 
 ## Request Headers
 
@@ -42,7 +49,8 @@ GET /api/v1/Contact/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ContactEntity found.
 
@@ -52,7 +60,7 @@ ContactEntity found.
 | 304 | ContactEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -110,7 +118,7 @@ Response body:
 GET /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -118,160 +126,160 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 23 Jun 2003 11:10:52 G6T
+Last-Modified: Fri, 17 Aug 2007 02:49:50 G8T
 
 {
-  "ContactId": 712,
-  "Name": "Kozey-Littel",
+  "ContactId": 677,
+  "Name": "Nolan, Crist and Jacobs",
   "Department": "",
-  "OrgNr": "1405012",
-  "Number1": "1566776",
-  "Number2": "602297",
-  "UpdatedDate": "2003-06-23T11:10:52.6571764+02:00",
-  "CreatedDate": "2008-07-12T11:10:52.6571764+02:00",
+  "OrgNr": "662448",
+  "Number1": "644189",
+  "Number2": "302329",
+  "UpdatedDate": "2007-08-17T02:49:50.7765657+02:00",
+  "CreatedDate": "2007-05-14T02:49:50.7765657+02:00",
   "Emails": [
     {
-      "Value": "est",
-      "StrippedValue": "distinctio",
-      "Description": "Triple-buffered zero administration hardware",
+      "Value": "dolor",
+      "StrippedValue": "earum",
+      "Description": "Progressive bifurcated strategy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldLength": 84
         }
       }
     },
     {
-      "Value": "est",
-      "StrippedValue": "distinctio",
-      "Description": "Triple-buffered zero administration hardware",
+      "Value": "dolor",
+      "StrippedValue": "earum",
+      "Description": "Progressive bifurcated strategy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldLength": 84
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 638,
-      "Name": "Kerluke-Ondricka",
-      "ToolTip": "Magnam quis itaque aperiam non.",
-      "Deleted": false,
-      "Rank": 253,
-      "Type": "magni",
-      "ColorBlock": 452,
-      "IconHint": "suscipit",
-      "Selected": false,
-      "LastChanged": "2010-11-18T11:10:52.6571764+01:00",
+      "Id": 78,
+      "Name": "Sporer Inc and Sons",
+      "ToolTip": "Eos quo minus et et minus temporibus.",
+      "Deleted": true,
+      "Rank": 663,
+      "Type": "neque",
+      "ColorBlock": 84,
+      "IconHint": "ipsam",
+      "Selected": true,
+      "LastChanged": "2004-01-18T02:49:50.7765657+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "excepturi",
-      "StyleHint": "quod",
+      "ExtraInfo": "est",
+      "StyleHint": "possimus",
       "Hidden": false,
-      "FullName": "Jaida Novella Wiza V",
+      "FullName": "Miss Prince Hodkiewicz II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldType": "System.String",
+          "FieldLength": 66
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "eveniet",
-      "StrippedValue": "saepe",
-      "Description": "Reverse-engineered contextually-based local area network",
+      "Value": "maiores",
+      "StrippedValue": "quaerat",
+      "Description": "Focused exuding orchestration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 492
         }
       }
     },
     {
-      "Value": "eveniet",
-      "StrippedValue": "saepe",
-      "Description": "Reverse-engineered contextually-based local area network",
+      "Value": "maiores",
+      "StrippedValue": "quaerat",
+      "Description": "Focused exuding orchestration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 492
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "voluptate",
-      "StrippedValue": "exercitationem",
-      "Description": "Up-sized actuating circuit",
+      "Value": "expedita",
+      "StrippedValue": "quod",
+      "Description": "Configurable homogeneous capability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 500
         }
       }
     },
     {
-      "Value": "voluptate",
-      "StrippedValue": "exercitationem",
-      "Description": "Up-sized actuating circuit",
+      "Value": "expedita",
+      "StrippedValue": "quod",
+      "Description": "Configurable homogeneous capability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 500
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "praesentium",
-      "StrippedValue": "consequatur",
-      "Description": "Grass-roots intermediate hardware",
+      "Value": "ut",
+      "StrippedValue": "dignissimos",
+      "Description": "Fundamental systematic matrix",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldType": "System.String",
+          "FieldLength": 731
         }
       }
     },
     {
-      "Value": "praesentium",
-      "StrippedValue": "consequatur",
-      "Description": "Grass-roots intermediate hardware",
+      "Value": "ut",
+      "StrippedValue": "dignissimos",
+      "Description": "Fundamental systematic matrix",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldType": "System.String",
+          "FieldLength": 731
         }
       }
     }
   ],
-  "Description": "Organic multimedia local area network",
+  "Description": "Re-contextualized directional secured line",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -280,105 +288,105 @@ Last-Modified: Mon, 23 Jun 2003 11:10:52 G6T
   "Country": null,
   "Persons": [
     {
-      "Position": "autem",
-      "PersonId": 156,
-      "Mrmrs": "quisquam",
-      "Firstname": "Herman",
-      "Lastname": "Morissette",
-      "MiddleName": "Bayer Group",
-      "Title": "aut",
-      "Description": "Fundamental demand-driven conglomeration",
-      "Email": "vernie@schmeler.uk",
-      "FullName": "Mr. Marisol Florian Schultz",
-      "DirectPhone": "1-609-015-2245",
-      "FormalName": "Murphy-Schumm",
-      "CountryId": 465,
-      "ContactId": 921,
-      "ContactName": "Brakus-Auer",
-      "Retired": 180,
-      "Rank": 161,
-      "ActiveInterests": 327,
+      "Position": "voluptatem",
+      "PersonId": 617,
+      "Mrmrs": "qui",
+      "Firstname": "Demetrius",
+      "Lastname": "Anderson",
+      "MiddleName": "Schuppe Group",
+      "Title": "est",
+      "Description": "Down-sized contextually-based intranet",
+      "Email": "lenny@purdy.info",
+      "FullName": "Mrs. Kelly Raina Jerde I",
+      "DirectPhone": "(495)172-1877",
+      "FormalName": "Schneider-Muller",
+      "CountryId": 753,
+      "ContactId": 652,
+      "ContactName": "Krajcik, Stokes and Prohaska",
+      "Retired": 354,
+      "Rank": 82,
+      "ActiveInterests": 416,
       "ContactDepartment": "",
-      "ContactCountryId": 755,
-      "ContactOrgNr": "659922",
-      "FaxPhone": "020-895-1888",
-      "MobilePhone": "1-453-437-4881 x05014",
-      "ContactPhone": "1-171-593-3165",
-      "AssociateName": "Bergstrom-Ratke",
-      "AssociateId": 76,
-      "UsePersonAddress": true,
-      "ContactFax": "reiciendis",
-      "Kanafname": "quia",
-      "Kanalname": "officiis",
-      "Post1": "architecto",
-      "Post2": "ut",
-      "Post3": "voluptas",
-      "EmailName": "austyn@reichel.info",
-      "ContactFullName": "Prof. Francis Nader Jr.",
-      "ActiveErpLinks": 402,
-      "TicketPriorityId": 753,
-      "SupportLanguageId": 625,
-      "SupportAssociateId": 977,
+      "ContactCountryId": 307,
+      "ContactOrgNr": "1294473",
+      "FaxPhone": "1-045-742-1958",
+      "MobilePhone": "080.907.4620",
+      "ContactPhone": "709-047-3926 x746",
+      "AssociateName": "Mante, Rodriguez and Raynor",
+      "AssociateId": 994,
+      "UsePersonAddress": false,
+      "ContactFax": "est",
+      "Kanafname": "neque",
+      "Kanalname": "harum",
+      "Post1": "ullam",
+      "Post2": "et",
+      "Post3": "et",
+      "EmailName": "assunta@stiedemannlangosh.us",
+      "ContactFullName": "Emerson Melyssa Kiehn DVM",
+      "ActiveErpLinks": 821,
+      "TicketPriorityId": 677,
+      "SupportLanguageId": 87,
+      "SupportAssociateId": 140,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 192
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "fuga",
-  "Xstop": true,
-  "ActiveInterests": 914,
-  "GroupId": 363,
-  "ActiveStatusMonitorId": 330,
+  "NoMailing": false,
+  "Kananame": "ut",
+  "Xstop": false,
+  "ActiveInterests": 207,
+  "GroupId": 463,
+  "ActiveStatusMonitorId": 317,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 445,
-  "DbiAgentId": 592,
-  "DbiLastSyncronized": "2007-10-01T11:10:52.6621748+02:00",
-  "DbiKey": "fuga",
-  "DbiLastModified": "2000-12-10T11:10:52.6621748+01:00",
+  "Deleted": 784,
+  "DbiAgentId": 446,
+  "DbiLastSyncronized": "1996-06-30T02:49:50.7765657+02:00",
+  "DbiKey": "voluptatem",
+  "DbiLastModified": "1997-04-01T02:49:50.7765657+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 177,
-  "ActiveErpLinks": 595,
+  "Source": 387,
+  "ActiveErpLinks": 130,
   "BounceEmails": [
-    "hayden@wittingnicolas.us",
-    "lyda@torphy.ca"
+    "flo.rippin@krajcik.uk",
+    "maegan@king.com"
   ],
   "Domains": [
-    "molestias",
-    "qui"
+    "aut",
+    "nemo"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Sigurd Johns"
+    "SuperOffice:1": "Kristofer Fritsch I",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "totam"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "numquam"
+    "CustomFields1": "quidem",
+    "CustomFields2": "exercitationem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldType": "System.String",
+      "FieldLength": 928
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

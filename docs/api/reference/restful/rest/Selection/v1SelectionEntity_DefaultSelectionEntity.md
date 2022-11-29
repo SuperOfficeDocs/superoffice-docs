@@ -11,7 +11,14 @@ GET /api/v1/Selection/default
 
 Set default values into a new SelectionEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Selection agent service CreateDefaultSelectionEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +96,7 @@ Response body:
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,73 +104,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 17 Aug 2017 11:10:53 G8T
+Last-Modified: Sun, 23 Jun 2013 02:49:51 G6T
 
 {
-  "Description": "Ergonomic object-oriented architecture",
-  "Postit": "quasi",
+  "Description": "Customizable zero tolerance middleware",
+  "Postit": "delectus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 591,
-  "IncludePerson": 887,
-  "MemberCount": 457,
-  "Name": "Lowe, Morissette and Blanda",
-  "PostitTextId": 992,
-  "CreatedDate": "2015-03-15T11:10:53.4861791+01:00",
-  "SelectionId": 304,
-  "SoundEx": "veniam",
-  "Source": 547,
-  "TextId": 355,
-  "UpdatedDate": "2017-08-17T11:10:53.4861791+02:00",
-  "UpdatedCount": 487,
-  "Visibility": 57,
+  "GroupIdx": 342,
+  "IncludePerson": 740,
+  "MemberCount": 551,
+  "Name": "Muller Inc and Sons",
+  "PostitTextId": 971,
+  "CreatedDate": "2014-02-24T02:49:51.505074+01:00",
+  "SelectionId": 990,
+  "SoundEx": "incidunt",
+  "Source": 531,
+  "TextId": 334,
+  "UpdatedDate": "2013-06-23T02:49:51.505074+02:00",
+  "UpdatedCount": 304,
+  "Visibility": 3,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 857,
-  "TargetTableName": "Lehner, Bauch and Altenwerth",
+  "CompanyUnique": true,
+  "TargetTableNumber": 639,
+  "TargetTableName": "Towne-Littel",
   "Completed": false,
-  "LeftSelectionId": 138,
-  "RightSelectionId": 834,
+  "LeftSelectionId": 876,
+  "RightSelectionId": 195,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schaden Inc and Sons",
-  "ShadowProviderName": "Witting-Steuber",
-  "ChartKey": "est",
-  "LastLoaded": "2012-04-21T11:10:53.4861791+02:00",
-  "LastLoadedBy": 375,
+  "MainProviderName": "Cummings-Rippin",
+  "ShadowProviderName": "Breitenberg, Schuster and Kris",
+  "ChartKey": "voluptas",
+  "LastLoaded": "2018-08-14T02:49:51.505074+02:00",
+  "LastLoadedBy": 66,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-12-06T11:10:53.4861791+01:00",
-  "LastMembershipChangeBy": 974,
+  "LastMembershipChange": "2004-09-02T02:49:51.505074+02:00",
+  "LastMembershipChangeBy": 86,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolor",
-  "MemberTabHeading": "tempora",
-  "MailingsProviderName": "Dare, Bernier and Wolf",
-  "DashboardTileDefinitionId": 317,
+  "MainHeading": "id",
+  "MemberTabHeading": "sequi",
+  "MailingsProviderName": "Larkin Inc and Sons",
+  "DashboardTileDefinitionId": 182,
   "VisibleFor": [
     {
-      "VisibleId": 507,
+      "VisibleId": 957,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 579
+          "FieldType": "System.String",
+          "FieldLength": 11
         }
       }
     },
     {
-      "VisibleId": 507,
+      "VisibleId": 957,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 579
+          "FieldType": "System.String",
+          "FieldLength": 11
         }
       }
     }
@@ -172,7 +180,7 @@ Last-Modified: Thu, 17 Aug 2017 11:10:53 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 104
+      "FieldLength": 773
     }
   }
 }

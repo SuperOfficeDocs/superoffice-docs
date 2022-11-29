@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/RemoveLicenses
 
 Remove all user licenses.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +31,7 @@ Remove all user licenses.
 POST /api/v1/Agents/User/RemoveLicenses?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,15 +42,16 @@ POST /api/v1/Agents/User/RemoveLicenses?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId
+AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -49,7 +59,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -57,11 +68,11 @@ Response body:
 POST /api/v1/Agents/User/RemoveLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 254
+  "AssociateId": 403
 }
 ```
 

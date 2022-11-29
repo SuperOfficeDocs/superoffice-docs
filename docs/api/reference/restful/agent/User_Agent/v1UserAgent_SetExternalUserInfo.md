@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/SetExternalUserInfo
 
 Modifies an external user.
 
+
 Changes external users information according to the flags set in  externalUserInfoModification.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -25,6 +32,7 @@ Changes external users information according to the flags set in  externalUserIn
 POST /api/v1/Agents/User/SetExternalUserInfo?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -35,9 +43,9 @@ POST /api/v1/Agents/User/SetExternalUserInfo?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, UserName, Password, IsActive, RoleId, ExternalUserInfoModification
+AssociateId, UserName, Password, IsActive, RoleId, ExternalUserInfoModification 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +56,8 @@ AssociateId, UserName, Password, IsActive, RoleId, ExternalUserInfoModification
 | RoleId | int32 |  |
 | ExternalUserInfoModification | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -56,7 +65,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -64,15 +74,15 @@ Response body:
 POST /api/v1/Agents/User/SetExternalUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 236,
-  "UserName": "Muller-Price",
-  "Password": "voluptas",
-  "IsActive": false,
-  "RoleId": 167,
+  "AssociateId": 6,
+  "UserName": "Hickle-Corkery",
+  "Password": "vero",
+  "IsActive": true,
+  "RoleId": 227,
   "ExternalUserInfoModification": "Active"
 }
 ```

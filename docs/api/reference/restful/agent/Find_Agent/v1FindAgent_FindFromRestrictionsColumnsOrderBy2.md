@@ -11,10 +11,12 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 
 Execute a Find operation and return a page of results.
 
-&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is also passed in directly.&lt;para/&gt;Use the GetCriteriaInformation, GetDefaultDesiredColumns and GetDefaultOrderBy service methods to let the system calculate these values, if you want to use or modify them.
+
+&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is also passed in directly.&lt;para/&gt;Use the GetCriteriaInformation, GetDefaultDesiredColumns and GetDefaultOrderBy service methods to let the system calculate these values, if you want to use or modify them. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
+
 
 For example:
 
@@ -35,8 +37,8 @@ Unary operators:
 "updatedDate lastWeek", "assocId currentAssociate"
 ```
 
-## Brackets and or
 
+## Brackets and or
 AND and OR can be used to combine terms. AND has a higher priority than OR
 
 ```
@@ -49,10 +51,12 @@ Brackets can be used for grouping.
 "(business = 2 or category = 3) and name contains 'super'"
 ```
 
+
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
+
 
 Example: group last names together, and inject a header row for each group.
 
@@ -62,7 +66,7 @@ GroupBy(lastName):Header
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
+Example: count instances of middle names, and hide the individual rows, 
 report just the totals for each group using a footer. Note how the modifiers stack.
 
 ```
@@ -78,18 +82,28 @@ Example: the aggregator functions can nest, so you can say
 GroupBy(DatePart(personUpdatedDate):YearMonth):Header
 
 ```
-
 ## Strings
 
 Use the begins or contains operators to do string searches.
 You can also use the normal = operator to do string exact match checks.
 
+
+
 Use backslash to escape single quotes in strings
 (note that backslash needs to be doubled because c# also uses backslash escapes):
+
 
 ```
 "department contains 'Bob\\'s'"
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -100,6 +114,7 @@ Use backslash to escape single quotes in strings
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -115,9 +130,9 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber
+Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -128,7 +143,8 @@ Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -136,7 +152,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -152,16 +168,16 @@ Response body:
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "occaecati",
-  "ProviderName": "Jenkins Inc and Sons",
-  "DesiredColumns": "voluptatum",
-  "OrderBy": "est",
-  "PageSize": 925,
-  "PageNumber": 785
+  "Restrictions": "veritatis",
+  "ProviderName": "Tremblay, Armstrong and Bayer",
+  "DesiredColumns": "et",
+  "OrderBy": "odio",
+  "PageSize": 866,
+  "PageNumber": 635
 }
 ```
 
@@ -174,51 +190,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schamberger LLC",
-      "DisplayTooltip": "laborum",
-      "DisplayType": "non",
+      "DisplayName": "Treutel-Yundt",
+      "DisplayTooltip": "aut",
+      "DisplayType": "eius",
       "CanOrderBy": false,
-      "Name": "Goldner, Schmitt and Lesch",
+      "Name": "Lindgren-Steuber",
       "CanRestrictBy": true,
-      "RestrictionType": "corporis",
-      "RestrictionListName": "Nienow, Reynolds and Dibbert",
+      "RestrictionType": "aut",
+      "RestrictionListName": "Schuppe LLC",
       "IsVisible": false,
-      "ExtraInfo": "similique",
-      "Width": "nulla",
-      "IconHint": "harum",
-      "HeadingIconHint": "voluptas"
+      "ExtraInfo": "officiis",
+      "Width": "alias",
+      "IconHint": "est",
+      "HeadingIconHint": "quisquam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Frami, Weber and Leuschke",
-      "PrimaryKey": 903,
+      "EntityName": "Barton LLC",
+      "PrimaryKey": 934,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "vel",
-          "TooltipHint": "sint",
-          "LinkHint": "et"
+          "DisplayValue": "qui",
+          "TooltipHint": "quasi",
+          "LinkHint": "debitis"
         }
       },
-      "LinkHint": "aliquam",
-      "StyleHint": "omnis",
+      "LinkHint": "quis",
+      "StyleHint": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 157
+          "FieldLength": 483
         }
       }
     }
   ],
-  "RowCount": 372,
+  "RowCount": 798,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 78
     }
   }
 }

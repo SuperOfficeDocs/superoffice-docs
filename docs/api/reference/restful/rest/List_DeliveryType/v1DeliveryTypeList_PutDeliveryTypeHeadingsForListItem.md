@@ -11,11 +11,18 @@ PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 
 Saves headings for the DeliveryType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Kuhic LLC",
-    "ToolTip": "At consectetur facere dolores sed quia illo.",
-    "Deleted": false,
-    "Rank": 126,
-    "Type": "in",
-    "ColorBlock": 293,
-    "IconHint": "dolores",
+    "Id": 950,
+    "Name": "Marquardt-Turner",
+    "ToolTip": "Quia at et dolor eligendi asperiores et.",
+    "Deleted": true,
+    "Rank": 757,
+    "Type": "iusto",
+    "ColorBlock": 994,
+    "IconHint": "consequuntur",
     "Selected": false,
-    "LastChanged": "2004-05-30T11:10:54.2708976+02:00",
+    "LastChanged": "2011-03-30T02:49:52.2346937+02:00",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "Daniel LLC",
-        "ToolTip": "Harum consequatur nam est nisi laborum minima.",
+        "Id": 418,
+        "Name": "O'Keefe Inc and Sons",
+        "ToolTip": "Rerum sint sint voluptatem perferendis omnis.",
         "Deleted": false,
-        "Rank": 356,
-        "Type": "delectus",
-        "ColorBlock": 254,
-        "IconHint": "tempore",
-        "Selected": true,
-        "LastChanged": "2000-03-20T11:10:54.2708976+01:00",
+        "Rank": 686,
+        "Type": "autem",
+        "ColorBlock": 11,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "1997-06-27T02:49:52.2346937+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "modi",
-        "Hidden": false,
-        "FullName": "Alverta Walsh"
+        "ExtraInfo": "officiis",
+        "StyleHint": "mollitia",
+        "Hidden": true,
+        "FullName": "Jean Marina White III"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "aut",
+    "ExtraInfo": "unde",
+    "StyleHint": "vel",
     "Hidden": true,
-    "FullName": "Keanu Ratke"
+    "FullName": "Mrs. Austin Candida Gerhold"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Kuhlman-Quitzon",
-    "ToolTip": "Et sed debitis numquam.",
+    "Id": 110,
+    "Name": "Renner-Baumbach",
+    "ToolTip": "In amet et est sequi blanditiis dolore culpa.",
     "Deleted": false,
-    "Rank": 252,
-    "Type": "velit",
-    "ColorBlock": 241,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2010-12-19T11:10:54.2718972+01:00",
+    "Rank": 976,
+    "Type": "rem",
+    "ColorBlock": 611,
+    "IconHint": "dolore",
+    "Selected": true,
+    "LastChanged": "2018-06-07T02:49:52.2346937+02:00",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Turner, Raynor and Marks",
-        "ToolTip": "Id saepe.",
-        "Deleted": false,
-        "Rank": 535,
-        "Type": "facilis",
-        "ColorBlock": 526,
-        "IconHint": "possimus",
+        "Id": 233,
+        "Name": "Stracke-Ruecker",
+        "ToolTip": "Facere accusantium.",
+        "Deleted": true,
+        "Rank": 151,
+        "Type": "voluptas",
+        "ColorBlock": 176,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "1995-07-11T11:10:54.2718972+02:00",
+        "LastChanged": "1997-07-14T02:49:52.2346937+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "qui",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Prof. Jerald Rohan",
+        "FullName": "Freddie Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 377
+            "FieldType": "System.String",
+            "FieldLength": 815
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "eveniet",
-    "Hidden": false,
-    "FullName": "Leila Kuhic",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Mrs. Destinee Sheridan Kris II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldType": "System.Int32",
+        "FieldLength": 983
       }
     }
   }

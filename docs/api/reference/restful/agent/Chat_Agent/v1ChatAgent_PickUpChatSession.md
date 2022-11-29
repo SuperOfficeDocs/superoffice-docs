@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/PickUpChatSession
 
 'answer' the session: assign the session to the user.
 
+
 The welcome message is sent to the customer. Returns NULL if session was not in queue.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The welcome message is sent to the customer. Returns NULL if session was not in 
 ```http
 POST /api/v1/Agents/Chat/PickUpChatSession?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Chat/PickUpChatSession?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatSessionId
+ChatSessionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,11 +105,11 @@ Response body:
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 114
+  "ChatSessionId": 981
 }
 ```
 
@@ -112,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 921,
-  "TopicId": 230,
+  "ChatSessionId": 566,
+  "TopicId": 15,
   "User": null,
   "Person": null,
-  "CustomerAlias": "corporis",
-  "CustomerHost": "sapiente",
-  "CustomerName": "Gerhold-Lesch",
-  "CustomerEmail": "alec.hessel@framiswift.co.uk",
-  "CustomerPhone": "1-581-887-2752",
+  "CustomerAlias": "qui",
+  "CustomerHost": "et",
+  "CustomerName": "Dach Group",
+  "CustomerEmail": "twila@lehnermosciski.info",
+  "CustomerPhone": "753-654-7133",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Ryan, Hansen and Wolff",
+  "CustomerCompanyName": "Harvey LLC",
   "Status": "Closed",
-  "FirstMessage": "inventore",
-  "LastMessage": "sint",
-  "WhenRequested": "2003-03-05T11:10:26.1395249+01:00",
-  "WhenStarted": "2019-02-04T11:10:26.1395249+01:00",
-  "WhenEnded": "2007-11-12T11:10:26.1395249+01:00",
-  "WhenIdle": "2007-06-08T11:10:26.1395249+02:00",
-  "WhenFetched": "2012-03-09T11:10:26.1395249+01:00",
-  "SessionKey": "rem",
-  "InitialQueuePos": 703,
-  "AlertLevel": 94,
-  "Rank": 634,
+  "FirstMessage": "accusantium",
+  "LastMessage": "distinctio",
+  "WhenRequested": "2002-02-25T02:49:43.8097841+01:00",
+  "WhenStarted": "2003-02-01T02:49:43.8097841+01:00",
+  "WhenEnded": "2020-04-20T02:49:43.8097841+02:00",
+  "WhenIdle": "2020-12-12T02:49:43.8097841+01:00",
+  "WhenFetched": "2011-03-13T02:49:43.8097841+01:00",
+  "SessionKey": "voluptates",
+  "InitialQueuePos": 677,
+  "AlertLevel": 299,
+  "Rank": 982,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -142,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 694,
+  "Rating": 253,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 696
     }
   }
 }

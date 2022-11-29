@@ -11,7 +11,14 @@ GET /api/v1/Appointment/UdefLayout/Publish
 
 Is UDef Layout Publishing active?
 
+
 True if the AppointmentEntity user-defined field layout is being updated.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,6 +33,7 @@ True if the AppointmentEntity user-defined field layout is being updated.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
 
 OK
@@ -36,13 +44,14 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 GET /api/v1/Appointment/UdefLayout/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

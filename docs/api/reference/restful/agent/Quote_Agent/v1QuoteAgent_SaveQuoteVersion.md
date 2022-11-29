@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/SaveQuoteVersion
 
 Saves a quote version
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a quote version
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteVersion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/SaveQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersion
+QuoteVersion 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersion |  | Information about a version of the . <para /> Carrier object for QuoteVersion. Services for the QuoteVersion Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,7 +111,7 @@ Response body:
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 536,
-  "ERPQuoteVersionKey": "est",
-  "QuoteId": 590,
-  "Description": "Synergistic client-server paradigm",
-  "Number": "1401070",
+  "QuoteVersionId": 619,
+  "ERPQuoteVersionKey": "sequi",
+  "QuoteId": 892,
+  "Description": "User-friendly motivating complexity",
+  "Number": "723361",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 339,
-  "SentDate": "2018-12-16T11:10:27.6564245+01:00",
-  "FollowupId": 603,
-  "ExpirationDate": "2017-04-28T11:10:27.6564245+02:00",
-  "DeliveryCountryId": 742,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 368,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "dolore",
-  "ERPPaymentTypeKey": "praesentium",
-  "ERPDeliveryTermsKey": "delectus",
-  "ERPDeliveryTypeKey": "consequatur",
-  "Rank": 212,
-  "ApprovedBy": 530,
-  "ApprovedText": "velit",
-  "ApprovedRegisteredBy": 809,
-  "ApprovedRegisteredDate": "1998-06-12T11:10:27.6574451+02:00",
-  "ExtraField1": "soluta",
-  "ExtraField2": "perspiciatis",
-  "ExtraField3": "quis",
-  "ExtraField4": "fuga",
-  "ExtraField5": "sint",
-  "LastRecalculated": "2000-03-31T11:10:27.6574451+02:00",
-  "Updated": "2018-04-30T11:10:27.6574451+02:00",
-  "UpdatedAssociateId": 346,
-  "Registered": "2015-06-11T11:10:27.6574451+02:00",
-  "RegisteredAssociateId": 987,
-  "RequestAssociateId": 309,
-  "RequestComment": "voluptatem",
+  "LikelyQuoteAlternativeId": 323,
+  "SentDate": "2017-03-21T02:49:44.9997158+01:00",
+  "FollowupId": 996,
+  "ExpirationDate": "2009-07-12T02:49:44.9997158+02:00",
+  "DeliveryCountryId": 988,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 915,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "et",
+  "ERPPaymentTypeKey": "quos",
+  "ERPDeliveryTermsKey": "voluptatum",
+  "ERPDeliveryTypeKey": "omnis",
+  "Rank": 182,
+  "ApprovedBy": 96,
+  "ApprovedText": "aut",
+  "ApprovedRegisteredBy": 764,
+  "ApprovedRegisteredDate": "2009-10-08T02:49:44.9997158+02:00",
+  "ExtraField1": "natus",
+  "ExtraField2": "deleniti",
+  "ExtraField3": "aut",
+  "ExtraField4": "autem",
+  "ExtraField5": "velit",
+  "LastRecalculated": "2012-11-23T02:49:44.9997158+01:00",
+  "Updated": "2006-11-16T02:49:44.9997158+01:00",
+  "UpdatedAssociateId": 714,
+  "Registered": "2000-11-20T02:49:44.9997158+01:00",
+  "RegisteredAssociateId": 523,
+  "RequestAssociateId": 35,
+  "RequestComment": "dolores",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 852,
-      "ERPQuoteAlternativeKey": "odit",
-      "QuoteVersionId": 873,
-      "Name": "Murazik, Rowe and Price",
-      "Description": "Ameliorated 4th generation core",
+      "QuoteAlternativeId": 863,
+      "ERPQuoteAlternativeKey": "fugit",
+      "QuoteVersionId": 456,
+      "Name": "O'Reilly, Robel and Cremin",
+      "Description": "Profound multimedia model",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 3798.408,
-      "ERPDiscountAmount": 9060.394,
-      "DiscountPercent": 27024.482,
-      "DiscountAmount": 16234.119999999999,
+      "ERPDiscountPercent": 5299.594,
+      "ERPDiscountAmount": 5876.25,
+      "DiscountPercent": 13905.557999999999,
+      "DiscountAmount": 1109.436,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "nemo",
-      "VAT": 17155.516,
-      "EarningPercent": 3904.964,
-      "EarningAmount": 10749.619999999999,
-      "SubTotal": 30982.724,
-      "TotalPrice": 23436.052,
-      "ExtraField1": "et",
-      "ExtraField2": "corporis",
-      "ExtraField3": "et",
-      "ExtraField4": "unde",
-      "ExtraField5": "reprehenderit",
+      "VATInfo": "ea",
+      "VAT": 20060.734,
+      "EarningPercent": 6973.15,
+      "EarningAmount": 16945.538,
+      "SubTotal": 17421.906,
+      "TotalPrice": 5744.6219999999994,
+      "ExtraField1": "non",
+      "ExtraField2": "sed",
+      "ExtraField3": "cum",
+      "ExtraField4": "et",
+      "ExtraField5": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldType": "System.String",
+          "FieldLength": 817
         }
       }
     }
@@ -195,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldType": "System.String",
+      "FieldLength": 379
     }
   }
 }

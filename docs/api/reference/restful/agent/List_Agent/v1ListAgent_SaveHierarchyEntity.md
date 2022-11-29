@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveHierarchyEntity
 
 Updates the existing HierarchyEntity or creates a new HierarchyEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing HierarchyEntity or creates a new HierarchyEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The HierarchyEntity to be saved.
+The HierarchyEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The HierarchyEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -50,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,32 +85,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 731,
+  "HierarchyId": 489,
   "Domain": "Dashboards",
-  "Name": "Satterfield-Nader",
-  "Fullname": "natus",
-  "ParentId": 935,
+  "Name": "Kiehn, Friesen and Kirlin",
+  "Fullname": "molestiae",
+  "ParentId": 137,
   "Children": [
     {
-      "HierarchyId": 497,
+      "HierarchyId": 902,
       "Domain": "Dashboards",
-      "Name": "Kuvalis, Cassin and Satterfield",
-      "Fullname": "sit",
-      "ParentId": 517,
+      "Name": "Zulauf, Friesen and Bauch",
+      "Fullname": "blanditiis",
+      "ParentId": 315,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-06-26T11:10:27.247453+02:00",
-      "RegisteredAssociateId": 10,
-      "Updated": "2004-05-06T11:10:27.247453+02:00",
-      "UpdatedAssociateId": 669
+      "Registered": "2001-07-21T02:49:44.6860468+02:00",
+      "RegisteredAssociateId": 619,
+      "Updated": "1998-12-20T02:49:44.6860468+01:00",
+      "UpdatedAssociateId": 561
     }
   ],
-  "Registered": "2000-09-19T11:10:27.247453+02:00",
-  "RegisteredAssociateId": 176,
-  "Updated": "2013-06-19T11:10:27.247453+02:00",
-  "UpdatedAssociateId": 370
+  "Registered": "2011-09-06T02:49:44.6860468+02:00",
+  "RegisteredAssociateId": 542,
+  "Updated": "2018-03-18T02:49:44.6860468+01:00",
+  "UpdatedAssociateId": 281
 }
 ```
 
@@ -113,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 123,
+  "HierarchyId": 536,
   "Domain": "Dashboards",
-  "Name": "Von, Grant and Jaskolski",
-  "Fullname": "non",
-  "ParentId": 638,
+  "Name": "Bailey LLC",
+  "Fullname": "quia",
+  "ParentId": 24,
   "Children": [
     {
-      "HierarchyId": 472,
+      "HierarchyId": 139,
       "Domain": "Dashboards",
-      "Name": "Dickinson LLC",
-      "Fullname": "possimus",
-      "ParentId": 82,
+      "Name": "Bartell Group",
+      "Fullname": "nemo",
+      "ParentId": 883,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-09-05T11:10:27.248455+02:00",
-      "RegisteredAssociateId": 482,
-      "Updated": "2006-09-26T11:10:27.248455+02:00",
-      "UpdatedAssociateId": 388,
+      "Registered": "2021-09-20T02:49:44.6860468+02:00",
+      "RegisteredAssociateId": 293,
+      "Updated": "1998-07-15T02:49:44.6860468+02:00",
+      "UpdatedAssociateId": 469,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldLength": 807
         }
       }
     }
   ],
-  "Registered": "2012-05-06T11:10:27.248455+02:00",
-  "RegisteredAssociateId": 56,
-  "Updated": "2008-02-19T11:10:27.248455+01:00",
-  "UpdatedAssociateId": 830,
+  "Registered": "1998-12-15T02:49:44.6860468+01:00",
+  "RegisteredAssociateId": 475,
+  "Updated": "2022-02-27T02:49:44.6860468+01:00",
+  "UpdatedAssociateId": 603,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 918
+      "FieldLength": 624
     }
   }
 }

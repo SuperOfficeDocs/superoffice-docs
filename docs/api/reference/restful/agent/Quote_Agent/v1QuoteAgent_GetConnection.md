@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetConnection
 
 Returns the specified connection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the specified connection.
 ```http
 POST /api/v1/Agents/Quote/GetConnection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/GetConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId
+QuoteConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,11 +87,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 984
+  "QuoteConnectionId": 851
 }
 ```
 
@@ -94,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 320,
-  "ERPName": "Klocko, Bins and Blanda",
-  "DisplayName": "Cartwright, Mertz and Runte",
-  "DisplayDescription": "Upgradable responsive model",
-  "Rank": 963,
-  "ConnectorName": "Schoen Inc and Sons",
-  "ErpConnectionId": 840,
-  "ExtraData": "dolor",
-  "IsAvailable": false,
+  "QuoteConnectionId": 980,
+  "ERPName": "Bogan, Hintz and Medhurst",
+  "DisplayName": "Roberts-Dach",
+  "DisplayDescription": "Reverse-engineered cohesive knowledge user",
+  "Rank": 949,
+  "ConnectorName": "Hahn-Adams",
+  "ErpConnectionId": 383,
+  "ExtraData": "minima",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 371,
-      "ERPPriceListKey": "earum",
-      "QuoteConnectionId": 222,
-      "Name": "Raynor Inc and Sons",
-      "Description": "Public-key solution-oriented encryption",
-      "Currency": "autem",
-      "CurrencyName": "Stoltenberg-Schaden",
-      "ValidFrom": "2001-05-19T11:10:27.7064918+02:00",
-      "ValidTo": "2015-12-03T11:10:27.7064918+01:00",
-      "IsActive": false,
+      "PriceListId": 752,
+      "ERPPriceListKey": "in",
+      "QuoteConnectionId": 459,
+      "Name": "Trantow, Hettinger and Cole",
+      "Description": "Enterprise-wide regional leverage",
+      "Currency": "eaque",
+      "CurrencyName": "Kshlerin LLC",
+      "ValidFrom": "2005-08-06T02:49:45.0309645+02:00",
+      "ValidTo": "2002-06-11T02:49:45.0309645+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldLength": 51
         }
       }
     }
   ],
   "AllAccess": true,
-  "Deleted": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    50,
-    808
+    510,
+    958
   ],
   "AssociateAccessIds": [
-    351,
-    92
+    238,
+    812
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 732
     }
   }
 }

@@ -11,7 +11,13 @@ POST /api/v1/DashboardTile
 
 Creates a new DashboardTile
 
+
 Calls the Dashboard agent service SaveDashboardTile.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Dashboard agent service SaveDashboardTile.
 ```http
 POST /api/v1/DashboardTile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/DashboardTile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The DashboardTile to be saved.
+The DashboardTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +65,8 @@ The DashboardTile to be saved.
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -66,7 +74,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,46 +102,46 @@ Response body:
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 76,
-  "Caption": "alias",
-  "Description": "Virtual bifurcated secured line",
-  "ChartName": "Blanda-Spencer",
-  "ChartId": "dolores",
-  "IsDefault": true,
-  "AssociateId": 500,
-  "GroupId": 474,
-  "SelectionId": 945,
-  "Config": "sed",
+  "DashboardTileId": 148,
+  "Caption": "odio",
+  "Description": "Pre-emptive assymetric superstructure",
+  "ChartName": "Dietrich, Leannon and Hills",
+  "ChartId": "ex",
+  "IsDefault": false,
+  "AssociateId": 427,
+  "GroupId": 711,
+  "SelectionId": 740,
+  "Config": "distinctio",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Wuckert-Lehner",
-      "Description": "Secured demand-driven encoding",
+      "Name": "Koch, Rohan and Gottlieb",
+      "Description": "Profound mobile hub",
       "Type": "Boolean",
-      "ListName": "Funk Inc and Sons",
+      "ListName": "Ortiz LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptatem",
-      "DefaultDataOption": true
+      "Value": "amet",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 787,
+      "VisibleId": 820,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "est"
     },
     {
-      "VisibleId": 787,
+      "VisibleId": 820,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "est"
     }
   ]
 }
@@ -146,64 +154,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 960,
-  "Caption": "vero",
-  "Description": "Customer-focused asynchronous definition",
-  "ChartName": "Labadie-Hettinger",
-  "ChartId": "doloribus",
+  "DashboardTileId": 206,
+  "Caption": "voluptatem",
+  "Description": "Phased scalable policy",
+  "ChartName": "Kuphal, Roob and Bernhard",
+  "ChartId": "nihil",
   "IsDefault": false,
-  "AssociateId": 450,
-  "GroupId": 615,
-  "SelectionId": 104,
-  "Config": "possimus",
+  "AssociateId": 373,
+  "GroupId": 686,
+  "SelectionId": 578,
+  "Config": "qui",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Jacobi Group",
-      "Description": "Digitized hybrid adapter",
+      "Name": "Connelly-Terry",
+      "Description": "Implemented 3rd generation system engine",
       "Type": "Boolean",
-      "ListName": "Streich, O'Conner and Cartwright",
+      "ListName": "Mann Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "minima",
-      "DefaultDataOption": true,
+      "Value": "dolor",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldType": "System.String",
+          "FieldLength": 789
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 581,
+      "VisibleId": 578,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 275
+          "FieldType": "System.Int32",
+          "FieldLength": 986
         }
       }
     },
     {
-      "VisibleId": 581,
+      "VisibleId": 578,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 275
+          "FieldType": "System.Int32",
+          "FieldLength": 986
         }
       }
     }
@@ -213,7 +221,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldLength": 897
     }
   },
   "_Links": {

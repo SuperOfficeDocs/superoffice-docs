@@ -11,10 +11,12 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 
 Get a page of results for an archive list, explicitly specifying the restrictions as strings, orderby and chosen columns; as well as a name/value string formatted set of options.
 
-The return value includes a header that has various extra information, in addition to the actual rows.
+
+The return value includes a header that has various extra information, in addition to the actual rows. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
+
 
 For example:
 
@@ -35,8 +37,8 @@ Unary operators:
 "updatedDate lastWeek", "assocId currentAssociate"
 ```
 
-## Brackets and or
 
+## Brackets and or
 AND and OR can be used to combine terms. AND has a higher priority than OR
 
 ```
@@ -49,10 +51,12 @@ Brackets can be used for grouping.
 "(business = 2 or category = 3) and name contains 'super'"
 ```
 
+
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
+
 
 Example: group last names together, and inject a header row for each group.
 
@@ -62,7 +66,7 @@ GroupBy(lastName):Header
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
+Example: count instances of middle names, and hide the individual rows, 
 report just the totals for each group using a footer. Note how the modifiers stack.
 
 ```
@@ -78,18 +82,28 @@ Example: the aggregator functions can nest, so you can say
 GroupBy(DatePart(personUpdatedDate):YearMonth):Header
 
 ```
-
 ## Strings
 
 Use the begins or contains operators to do string searches.
 You can also use the normal = operator to do string exact match checks.
 
+
+
 Use backslash to escape single quotes in strings
 (note that backslash needs to be doubled because c# also uses backslash escapes):
+
 
 ```
 "department contains 'Bob\\'s'"
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -100,6 +114,7 @@ Use backslash to escape single quotes in strings
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -115,9 +130,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options
+ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -130,7 +145,8 @@ ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options
 | PageSize | int32 |  |
 | Options | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -138,7 +154,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -157,14 +173,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Davis-Koss",
-  "Columns": "eius",
-  "SortOrder": "molestiae",
-  "Restriction": "earum",
-  "Entities": "qui",
-  "Page": 257,
-  "PageSize": 237,
-  "Options": "sit"
+  "ProviderName": "Reynolds-Nienow",
+  "Columns": "molestias",
+  "SortOrder": "at",
+  "Restriction": "praesentium",
+  "Entities": "fugit",
+  "Page": 403,
+  "PageSize": 477,
+  "Options": "sed"
 }
 ```
 
@@ -175,26 +191,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 177,
+  "RowCount": 220,
   "Rows": [
     {
-      "EntityName": "Gorczany, Willms and Abshire",
-      "PrimaryKey": 743,
+      "EntityName": "Hansen, Jewess and O'Conner",
+      "PrimaryKey": 320,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "natus",
-          "TooltipHint": "perferendis",
-          "LinkHint": "maxime"
+          "DisplayValue": "dolor",
+          "TooltipHint": "a",
+          "LinkHint": "laborum"
         }
       },
-      "LinkHint": "iure",
-      "StyleHint": "recusandae",
+      "LinkHint": "sunt",
+      "StyleHint": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 543
+          "FieldLength": 451
         }
       }
     }
@@ -203,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 734
     }
   }
 }

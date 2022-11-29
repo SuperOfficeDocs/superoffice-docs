@@ -11,7 +11,14 @@ POST /api/v1/List/ConsentPurpose/Items
 
 Create a new ConsentPurpose list item
 
+
 Calls the List agent service SaveConsentPurpose.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveConsentPurpose.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ConsentPurpose to be created.
+The ConsentPurpose to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ The ConsentPurpose to be created.
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,22 +89,22 @@ Response body:
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 783,
-  "Name": "Effertz-Langosh",
-  "ConsentText": "iusto",
-  "FormText": "quisquam",
-  "Key": "porro",
-  "Tooltip": "omnis",
-  "Active": 99,
-  "UpdatedDate": "2007-11-14T11:10:53.974183+01:00",
+  "ConsentPurposeId": 88,
+  "Name": "Halvorson, Hills and Aufderhar",
+  "ConsentText": "aut",
+  "FormText": "beatae",
+  "Key": "officiis",
+  "Tooltip": "hic",
+  "Active": 15,
+  "UpdatedDate": "2002-03-29T02:49:51.9378192+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 605,
-  "PrivacyStatementDesc": "quo",
+  "Deleted": false,
+  "Rank": 697,
+  "PrivacyStatementDesc": "architecto",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -108,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 808,
-  "Name": "Botsford-Larson",
-  "ConsentText": "ut",
-  "FormText": "delectus",
-  "Key": "dolorum",
-  "Tooltip": "et",
-  "Active": 87,
-  "UpdatedDate": "2012-07-24T11:10:53.9751831+02:00",
+  "ConsentPurposeId": 396,
+  "Name": "Altenwerth-Daniel",
+  "ConsentText": "libero",
+  "FormText": "quia",
+  "Key": "cum",
+  "Tooltip": "iusto",
+  "Active": 581,
+  "UpdatedDate": "2008-08-31T02:49:51.9378192+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 271,
-  "PrivacyStatementDesc": "accusantium",
+  "Rank": 649,
+  "PrivacyStatementDesc": "porro",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 466
     }
   }
 }

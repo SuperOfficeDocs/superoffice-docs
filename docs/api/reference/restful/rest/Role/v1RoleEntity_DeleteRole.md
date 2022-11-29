@@ -11,11 +11,19 @@ DELETE /api/v1/Role/{roleIdToDelete}
 
 Delete the specified role and move all users associated with the role to the replacingRoleId
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | roleIdToDelete | int32 | The roleId to delete **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +32,9 @@ Delete the specified role and move all users associated with the role to the rep
 | replacingRoleId | int32 |  The roleId which all associated users will be moved to. |
 
 ```http
-DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=920
+DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=756
 ```
+
 
 ## Request Headers
 
@@ -36,7 +45,8 @@ DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=920
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -44,7 +54,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -52,7 +63,7 @@ Response body:
 DELETE /api/v1/Role/{roleIdToDelete}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

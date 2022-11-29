@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 
 Get criteria information from a set of saved criteria, for a specific set of columns.
 
+
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control. ALL columns specified in the call will be present in the results; those that do not have corresponding criteria set will have empty values and the default (first) operator, with the IsActive flag set to false.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The result contains the restrictions in two forms: fully populated ArchiveRestri
 ```http
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns, Context
+StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,8 @@ StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns, Contex
 | StaticColumns | array |  |
 | Context | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -58,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,22 +83,22 @@ Response body:
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "est",
-  "ProviderName": "Rolfson-Willms",
-  "StorageKey": "doloremque",
+  "StorageType": "voluptate",
+  "ProviderName": "Schultz, McGlynn and Reichert",
+  "StorageKey": "quia",
   "DesiredColumnNames": [
-    "Torphy LLC",
-    "Turcotte LLC"
+    "Borer-Considine",
+    "Hettinger, Bednar and Conn"
   ],
   "StaticColumns": [
-    "dignissimos",
-    "omnis"
+    "accusantium",
+    "distinctio"
   ],
-  "Context": "velit"
+  "Context": "et"
 }
 ```
 
@@ -103,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Volkman-Ziemann",
-      "Operator": "nemo",
+      "Name": "Muller, Adams and Bahringer",
+      "Operator": "nostrum",
       "Values": [
-        "id",
-        "pariatur"
+        "aut",
+        "rerum"
       ],
       "DisplayValues": [
-        "quia",
-        "ducimus"
+        "reprehenderit",
+        "ad"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 629,
+      "InterParenthesis": 415,
       "InterOperator": "And",
-      "UniqueHash": 453
+      "UniqueHash": 61
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hirthe LLC",
-      "DisplayTooltip": "dolorem",
-      "DisplayType": "consectetur",
+      "DisplayName": "Tremblay Group",
+      "DisplayTooltip": "eveniet",
+      "DisplayType": "quasi",
       "CanOrderBy": true,
-      "Name": "Kovacek Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "illum",
-      "RestrictionListName": "Kreiger Group",
-      "IsVisible": false,
+      "Name": "Marquardt Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "ut",
+      "RestrictionListName": "Schoen Group",
+      "IsVisible": true,
       "ExtraInfo": "aut",
-      "Width": "molestiae",
-      "IconHint": "corrupti",
-      "HeadingIconHint": "illum"
+      "Width": "et",
+      "IconHint": "deleniti",
+      "HeadingIconHint": "veniam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Pacocha-Bednar",
-      "PrimaryKey": 458,
+      "EntityName": "Ziemann, Koepp and Hermiston",
+      "PrimaryKey": 220,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "consectetur",
-          "TooltipHint": "ut",
-          "LinkHint": "maiores"
+          "DisplayValue": "nihil",
+          "TooltipHint": "quam",
+          "LinkHint": "doloribus"
         }
       },
-      "LinkHint": "recusandae",
-      "StyleHint": "modi",
+      "LinkHint": "laudantium",
+      "StyleHint": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 124
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Cummerata-Tromp",
-      "Description": "Persistent asynchronous utilisation",
-      "Rank": 998,
+      "Name": "Wunsch, Zemlak and Bernhard",
+      "Description": "Compatible fresh-thinking open architecture",
+      "Rank": 262,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cummerata-Tromp",
-      "Description": "Persistent asynchronous utilisation",
-      "Rank": 998,
+      "Name": "Wunsch, Zemlak and Bernhard",
+      "Description": "Compatible fresh-thinking open architecture",
+      "Rank": 262,
       "Restrictions": [
         {},
         {}
@@ -188,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 608
+      "FieldType": "System.Int32",
+      "FieldLength": 559
     }
   }
 }

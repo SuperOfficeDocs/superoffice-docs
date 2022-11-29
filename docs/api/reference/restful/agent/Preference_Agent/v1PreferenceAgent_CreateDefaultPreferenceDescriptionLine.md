@@ -11,7 +11,14 @@ POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 
 Set default values into a new PreferenceDescriptionLine.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +61,7 @@ Response body:
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -63,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 653,
-  "PrefDescId": 126,
-  "PrefValue": "hic",
-  "PrefShowValue": "repudiandae",
-  "Description": "Integrated explicit circuit",
+  "PrefDescLineId": 119,
+  "PrefDescId": 603,
+  "PrefValue": "voluptatem",
+  "PrefShowValue": "rerum",
+  "Description": "Reactive executive benchmark",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldType": "System.String",
+      "FieldLength": 81
     }
   }
 }

@@ -11,11 +11,18 @@ PUT /api/v1/List/Country/Items/{id}
 
 Updates the existing Country
 
+
 Calls the List agent service SaveCountry.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of Country to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveCountry.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of Country to be saved.
+The details of Country to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +63,8 @@ The details of Country to be saved.
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -65,7 +73,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,27 +104,27 @@ Response body:
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 360,
-  "Name": "Raynor Inc and Sons",
-  "CurrencyId": 335,
-  "EnglishName": "Jakubowski Inc and Sons",
+  "CountryId": 605,
+  "Name": "Stoltenberg Inc and Sons",
+  "CurrencyId": 865,
+  "EnglishName": "Larkin-Dicki",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Total human-resource intranet",
-  "OrgNrText": "207993",
-  "InterAreaPrefix": "eum",
-  "DialInPrefix": "tempora",
-  "ZipPrefix": "eius",
-  "DomainName": "Rath LLC",
-  "AddressLayoutId": 513,
-  "DomesticAddressLayoutId": 90,
-  "ForeignAddressLayoutId": 393,
-  "Rank": 180,
-  "Tooltip": "consequatur",
+  "ImageDescription": "Compatible secondary support",
+  "OrgNrText": "1441142",
+  "InterAreaPrefix": "beatae",
+  "DialInPrefix": "possimus",
+  "ZipPrefix": "aut",
+  "DomainName": "Heller, McClure and Orn",
+  "AddressLayoutId": 873,
+  "DomesticAddressLayoutId": 206,
+  "ForeignAddressLayoutId": 948,
+  "Rank": 152,
+  "Tooltip": "nesciunt",
   "Deleted": false
 }
 ```
@@ -128,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 200,
-  "Name": "Wolff-O'Hara",
-  "CurrencyId": 526,
-  "EnglishName": "O'Kon Inc and Sons",
+  "CountryId": 292,
+  "Name": "Murazik-Rath",
+  "CurrencyId": 255,
+  "EnglishName": "Labadie, Nader and Ward",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Object-based dynamic policy",
-  "OrgNrText": "1474141",
-  "InterAreaPrefix": "explicabo",
-  "DialInPrefix": "qui",
-  "ZipPrefix": "impedit",
-  "DomainName": "O'Connell LLC",
-  "AddressLayoutId": 438,
-  "DomesticAddressLayoutId": 381,
-  "ForeignAddressLayoutId": 445,
-  "Rank": 705,
-  "Tooltip": "et",
+  "ImageDescription": "Digitized heuristic website",
+  "OrgNrText": "1191681",
+  "InterAreaPrefix": "dolorum",
+  "DialInPrefix": "expedita",
+  "ZipPrefix": "cum",
+  "DomainName": "Pouros-Grimes",
+  "AddressLayoutId": 479,
+  "DomesticAddressLayoutId": 28,
+  "ForeignAddressLayoutId": 829,
+  "Rank": 404,
+  "Tooltip": "provident",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldType": "System.String",
+      "FieldLength": 857
     }
   }
 }

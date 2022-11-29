@@ -11,11 +11,17 @@ GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 
 Gets headings for the ConsentPurpose list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 382,
-    "Name": "Emmerich, White and O'Reilly",
-    "ToolTip": "Quos enim nobis molestias quo alias praesentium maiores.",
-    "Deleted": true,
-    "Rank": 355,
-    "Type": "cumque",
-    "ColorBlock": 251,
-    "IconHint": "unde",
+    "Id": 106,
+    "Name": "Bruen LLC",
+    "ToolTip": "Et maiores laudantium.",
+    "Deleted": false,
+    "Rank": 687,
+    "Type": "eum",
+    "ColorBlock": 265,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2014-02-14T11:10:53.9861826+01:00",
+    "LastChanged": "2016-02-24T02:49:51.9378192+01:00",
     "ChildItems": [
       {
-        "Id": 507,
-        "Name": "Brekke-Schmitt",
-        "ToolTip": "Sit rerum enim omnis consequatur est eum.",
+        "Id": 927,
+        "Name": "Lemke, Feil and Gibson",
+        "ToolTip": "Qui ad quibusdam recusandae.",
         "Deleted": true,
-        "Rank": 363,
-        "Type": "ut",
-        "ColorBlock": 368,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2001-02-03T11:10:53.9861826+01:00",
+        "Rank": 758,
+        "Type": "unde",
+        "ColorBlock": 824,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "1995-10-22T02:49:51.9378192+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quia",
+        "ExtraInfo": "fuga",
+        "StyleHint": "eum",
         "Hidden": true,
-        "FullName": "Miss Walter Paucek",
+        "FullName": "Dr. Monica Leannon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 779
+            "FieldType": "System.Int32",
+            "FieldLength": 708
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "odit",
+    "ExtraInfo": "sunt",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Mrs. Enola Opal Larkin",
+    "FullName": "Elna Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 307
+        "FieldLength": 679
       }
     }
   }

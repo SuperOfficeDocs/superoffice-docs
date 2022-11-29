@@ -11,11 +11,18 @@ PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 
 Saves headings for the PaymentType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 245,
-    "Name": "McGlynn LLC",
-    "ToolTip": "Placeat sapiente voluptatem.",
+    "Id": 491,
+    "Name": "Marks-Wisozk",
+    "ToolTip": "Est ut officiis sunt saepe ut modi.",
     "Deleted": false,
-    "Rank": 283,
-    "Type": "commodi",
-    "ColorBlock": 587,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2006-12-02T11:10:54.3618993+01:00",
+    "Rank": 150,
+    "Type": "ut",
+    "ColorBlock": 410,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2017-07-19T02:49:52.3128229+02:00",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Thompson Group",
-        "ToolTip": "Eum officia.",
-        "Deleted": true,
-        "Rank": 319,
-        "Type": "dicta",
-        "ColorBlock": 863,
-        "IconHint": "est",
+        "Id": 986,
+        "Name": "Lang-Will",
+        "ToolTip": "Quibusdam ad officia voluptate.",
+        "Deleted": false,
+        "Rank": 264,
+        "Type": "modi",
+        "ColorBlock": 927,
+        "IconHint": "esse",
         "Selected": false,
-        "LastChanged": "2021-03-20T11:10:54.3618993+01:00",
+        "LastChanged": "2012-02-20T02:49:52.3128229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "tempore",
-        "Hidden": true,
-        "FullName": "Reanna Schuppe"
+        "ExtraInfo": "veniam",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Mathew Parker"
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Mckenna Flatley"
+    "ExtraInfo": "porro",
+    "StyleHint": "quisquam",
+    "Hidden": true,
+    "FullName": "Colt Ubaldo Stehr MD"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Stracke Group",
-    "ToolTip": "Adipisci perferendis ut aut quaerat.",
+    "Id": 578,
+    "Name": "Nader Group",
+    "ToolTip": "Praesentium suscipit.",
     "Deleted": false,
-    "Rank": 270,
-    "Type": "nihil",
-    "ColorBlock": 238,
-    "IconHint": "sequi",
-    "Selected": true,
-    "LastChanged": "2011-12-06T11:10:54.3628992+01:00",
+    "Rank": 999,
+    "Type": "fuga",
+    "ColorBlock": 622,
+    "IconHint": "quam",
+    "Selected": false,
+    "LastChanged": "1997-07-30T02:49:52.3128229+02:00",
     "ChildItems": [
       {
-        "Id": 756,
-        "Name": "Lemke, Shields and Rowe",
-        "ToolTip": "Nostrum cumque quia dolor excepturi omnis aliquid.",
+        "Id": 555,
+        "Name": "Labadie, Harvey and Jaskolski",
+        "ToolTip": "Nihil dignissimos sit et quia culpa.",
         "Deleted": false,
-        "Rank": 23,
-        "Type": "et",
-        "ColorBlock": 587,
-        "IconHint": "similique",
-        "Selected": false,
-        "LastChanged": "1998-09-24T11:10:54.3638989+02:00",
+        "Rank": 380,
+        "Type": "a",
+        "ColorBlock": 919,
+        "IconHint": "ratione",
+        "Selected": true,
+        "LastChanged": "2001-10-23T02:49:52.3128229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "sed",
+        "ExtraInfo": "tempore",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Mariam Strosin",
+        "FullName": "Monica Yundt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 719
+            "FieldType": "System.Int32",
+            "FieldLength": 411
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "earum",
+    "ExtraInfo": "dicta",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Mr. Marlen Schiller",
+    "FullName": "Randy Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldLength": 43
       }
     }
   }

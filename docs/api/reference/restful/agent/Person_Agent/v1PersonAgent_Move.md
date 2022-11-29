@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/Move
 
 Move a person to a specified contact.
 
+
 You must specify the date after which activities will be moved along with the person.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ You must specify the date after which activities will be moved along with the pe
 POST /api/v1/Agents/Person/Move?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,9 +40,9 @@ POST /api/v1/Agents/Person/Move?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, DestinationContactId, MoveAfterDate
+PersonId, DestinationContactId, MoveAfterDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +50,8 @@ PersonId, DestinationContactId, MoveAfterDate
 | DestinationContactId | int32 |  |
 | MoveAfterDate | date-time |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -51,7 +59,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -59,13 +68,13 @@ Response body:
 POST /api/v1/Agents/Person/Move
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 208,
-  "DestinationContactId": 793,
-  "MoveAfterDate": "2001-11-29T11:10:27.4624526+01:00"
+  "PersonId": 956,
+  "DestinationContactId": 650,
+  "MoveAfterDate": "2020-11-12T02:49:44.8434647+01:00"
 }
 ```
 

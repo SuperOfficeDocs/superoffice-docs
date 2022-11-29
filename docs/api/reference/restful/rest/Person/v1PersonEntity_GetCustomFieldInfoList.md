@@ -11,7 +11,14 @@ GET /api/v1/Person/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on PersonEntity.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Excludes standard fields.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -58,7 +66,7 @@ Response body: array
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Stiedemann LLC",
-    "DisplayName": "Yundt Group",
-    "Description": "Advanced regional matrix",
-    "ShortLabel": "nihil",
-    "HideLabel": false,
+    "FieldName": "Zulauf-Roob",
+    "DisplayName": "Marquardt LLC",
+    "Description": "Ergonomic fresh-thinking Graphic Interface",
+    "ShortLabel": "vel",
+    "HideLabel": true,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 957,
-    "TemplateVariableName": "Stoltenberg, Goyette and Lang"
+    "IsReadOnly": true,
+    "IsExternal": false,
+    "Rank": 955,
+    "TemplateVariableName": "Bailey Group"
   }
 ]
 ```

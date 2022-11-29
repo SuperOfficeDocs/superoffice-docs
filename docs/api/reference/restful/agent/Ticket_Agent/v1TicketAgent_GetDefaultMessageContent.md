@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/GetDefaultMessageContent
 
 Generate a default message body (possibly including user signature, quoted message content) as sanitized HTML
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Generate a default message body (possibly including user signature, quoted messa
 ```http
 POST /api/v1/Agents/Ticket/GetDefaultMessageContent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Ticket/GetDefaultMessageContent?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketId, MessageActionType, TicketMessageId
+TicketId, MessageActionType, TicketMessageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketId | int32 |  |
 | MessageActionType | string |  |
 | TicketMessageId | int32 |  |
+
 
 ## Response: string
 
@@ -55,6 +63,7 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
@@ -65,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 988,
+  "TicketId": 323,
   "MessageActionType": "Forward",
-  "TicketMessageId": 856
+  "TicketMessageId": 546
 }
 ```
 
@@ -77,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"repellendus"
+"est"
 ```

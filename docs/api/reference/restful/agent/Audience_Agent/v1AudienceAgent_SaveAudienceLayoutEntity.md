@@ -11,6 +11,13 @@ POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 
 Updates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The AudienceLayoutEntity to be saved.
+The AudienceLayoutEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,7 +46,8 @@ The AudienceLayoutEntity to be saved.
 | CreatedBy |  | Name of the person that created the Audience layout |
 | UpdatedBy |  | Name of the person that last updated the Audience layout |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -47,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,11 +79,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 484,
-  "InstanceLayout": "ducimus",
-  "InstanceName": "Renner Group",
-  "CreatedDate": "2020-09-08T11:10:26.0005545+02:00",
-  "UpdatedDate": "2010-09-30T11:10:26.0005545+02:00",
+  "AudienceLayoutId": 27,
+  "InstanceLayout": "aspernatur",
+  "InstanceName": "Walker-Jacobi",
+  "CreatedDate": "2008-06-19T02:49:43.6847821+02:00",
+  "UpdatedDate": "2006-05-14T02:49:43.6847821+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -88,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 742,
-  "InstanceLayout": "rem",
-  "InstanceName": "Reinger, Bechtelar and Bruen",
-  "CreatedDate": "2002-05-02T11:10:26.0015474+02:00",
-  "UpdatedDate": "2013-12-25T11:10:26.0015474+01:00",
+  "AudienceLayoutId": 151,
+  "InstanceLayout": "et",
+  "InstanceName": "Stroman Inc and Sons",
+  "CreatedDate": "2019-01-19T02:49:43.6847821+01:00",
+  "UpdatedDate": "2006-06-10T02:49:43.6847821+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -100,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 952
+      "FieldLength": 6
     }
   }
 }

@@ -11,7 +11,14 @@ GET /api/v1/Sale/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on SaleEntity.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Excludes standard fields.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -70,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kuhn, Bogisich and Cole",
-    "DisplayName": "Larson Inc and Sons",
-    "Description": "Extended multi-state forecast",
-    "ShortLabel": "esse",
+    "FieldName": "Swaniawski-Corwin",
+    "DisplayName": "Monahan LLC",
+    "Description": "Cross-platform background benchmark",
+    "ShortLabel": "et",
     "HideLabel": true,
     "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsMandatory": true,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 788,
-    "TemplateVariableName": "Padberg, Eichmann and Reinger"
+    "Rank": 3,
+    "TemplateVariableName": "Kub-Jerde"
   }
 ]
 ```

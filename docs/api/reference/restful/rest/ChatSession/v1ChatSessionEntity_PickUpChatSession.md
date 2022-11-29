@@ -11,11 +11,18 @@ POST /api/v1/ChatSession/{chatSessionId}/Pickup
 
 'answer' the session: assign the session to the user.
 
+
 The welcome message is sent to the customer. Returns NULL if session was not in queue.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to answer **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ The welcome message is sent to the customer. Returns NULL if session was not in 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +90,7 @@ Response body:
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,29 +100,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 644,
-  "TopicId": 280,
+  "ChatSessionId": 169,
+  "TopicId": 241,
   "User": null,
   "Person": null,
-  "CustomerAlias": "debitis",
-  "CustomerHost": "rerum",
-  "CustomerName": "Pollich LLC",
-  "CustomerEmail": "toy.keeling@abbottfarrell.info",
-  "CustomerPhone": "(458)657-1912 x180",
+  "CustomerAlias": "eos",
+  "CustomerHost": "quasi",
+  "CustomerName": "Hayes-Buckridge",
+  "CustomerEmail": "gage_gutkowski@vonhyatt.uk",
+  "CustomerPhone": "(029)673-3623",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schaefer-Parisian",
+  "CustomerCompanyName": "Veum-Predovic",
   "Status": "Closed",
-  "FirstMessage": "vero",
-  "LastMessage": "tempora",
-  "WhenRequested": "2005-04-16T11:10:52.5381747+02:00",
-  "WhenStarted": "2021-02-27T11:10:52.5381747+01:00",
-  "WhenEnded": "1996-08-22T11:10:52.5381747+02:00",
-  "WhenIdle": "2010-10-10T11:10:52.5381747+02:00",
-  "WhenFetched": "1996-03-17T11:10:52.5381747+01:00",
-  "SessionKey": "vel",
-  "InitialQueuePos": 787,
-  "AlertLevel": 700,
-  "Rank": 286,
+  "FirstMessage": "consequuntur",
+  "LastMessage": "illo",
+  "WhenRequested": "2001-11-06T02:49:50.6671601+01:00",
+  "WhenStarted": "2014-12-17T02:49:50.6671601+01:00",
+  "WhenEnded": "2015-02-13T02:49:50.6671601+01:00",
+  "WhenIdle": "2003-06-16T02:49:50.6671601+02:00",
+  "WhenFetched": "2022-02-24T02:49:50.6671601+01:00",
+  "SessionKey": "odio",
+  "InitialQueuePos": 176,
+  "AlertLevel": 276,
+  "Rank": 419,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -122,13 +130,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 249,
+  "Rating": 473,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldType": "System.String",
+      "FieldLength": 497
     }
   }
 }

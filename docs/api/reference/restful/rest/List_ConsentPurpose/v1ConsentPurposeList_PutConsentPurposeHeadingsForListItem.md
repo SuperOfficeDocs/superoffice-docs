@@ -11,11 +11,18 @@ PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 
 Saves headings for the ConsentPurpose list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Wehner Group",
-    "ToolTip": "Ad cum corrupti dolorem.",
+    "Id": 778,
+    "Name": "Lebsack, Flatley and Wuckert",
+    "ToolTip": "Neque vel repudiandae molestias.",
     "Deleted": false,
-    "Rank": 781,
-    "Type": "et",
-    "ColorBlock": 426,
-    "IconHint": "error",
-    "Selected": true,
-    "LastChanged": "2014-04-09T11:10:53.9871823+02:00",
+    "Rank": 40,
+    "Type": "qui",
+    "ColorBlock": 862,
+    "IconHint": "eligendi",
+    "Selected": false,
+    "LastChanged": "2017-07-20T02:49:51.9378192+02:00",
     "ChildItems": [
       {
-        "Id": 133,
-        "Name": "Hand-Willms",
-        "ToolTip": "Eveniet perspiciatis sed aut quia praesentium et.",
+        "Id": 882,
+        "Name": "Corwin-Bins",
+        "ToolTip": "Illum eos repudiandae velit et accusamus incidunt.",
         "Deleted": false,
-        "Rank": 532,
-        "Type": "laborum",
-        "ColorBlock": 80,
-        "IconHint": "dicta",
-        "Selected": false,
-        "LastChanged": "2014-09-15T11:10:53.9871823+02:00",
+        "Rank": 735,
+        "Type": "dolore",
+        "ColorBlock": 510,
+        "IconHint": "tenetur",
+        "Selected": true,
+        "LastChanged": "2012-12-02T02:49:51.9534435+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "qui",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "esse",
         "Hidden": true,
-        "FullName": "Gabriella Purdy"
+        "FullName": "Sammie Wolf"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "mollitia",
+    "ExtraInfo": "quasi",
+    "StyleHint": "inventore",
     "Hidden": false,
-    "FullName": "Luther Dooley"
+    "FullName": "Mr. Rodolfo Ericka Kshlerin IV"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Hayes-Greenfelder",
-    "ToolTip": "Et repellendus et sit iste rem.",
+    "Id": 230,
+    "Name": "Weber LLC",
+    "ToolTip": "Voluptate odio dolores.",
     "Deleted": false,
-    "Rank": 889,
-    "Type": "itaque",
-    "ColorBlock": 536,
-    "IconHint": "error",
+    "Rank": 494,
+    "Type": "exercitationem",
+    "ColorBlock": 451,
+    "IconHint": "illo",
     "Selected": false,
-    "LastChanged": "2022-08-16T11:10:53.9881824+02:00",
+    "LastChanged": "2012-12-22T02:49:51.9534435+01:00",
     "ChildItems": [
       {
-        "Id": 219,
-        "Name": "Hand-Ziemann",
-        "ToolTip": "At ea fuga.",
-        "Deleted": false,
-        "Rank": 507,
-        "Type": "sed",
-        "ColorBlock": 681,
-        "IconHint": "amet",
+        "Id": 279,
+        "Name": "Langworth Inc and Sons",
+        "ToolTip": "Nobis quis blanditiis hic id.",
+        "Deleted": true,
+        "Rank": 936,
+        "Type": "beatae",
+        "ColorBlock": 777,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "1996-07-15T11:10:53.9891821+02:00",
+        "LastChanged": "2014-10-28T02:49:51.9534435+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "vel",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Ms. Antone Myra Bernhard DDS",
+        "StyleHint": "neque",
+        "Hidden": true,
+        "FullName": "Madilyn Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 539
+            "FieldLength": 564
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "quas",
-    "Hidden": false,
-    "FullName": "Cristopher Wilkinson",
+    "ExtraInfo": "dolores",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Mya Fay DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 598
+        "FieldLength": 849
       }
     }
   }

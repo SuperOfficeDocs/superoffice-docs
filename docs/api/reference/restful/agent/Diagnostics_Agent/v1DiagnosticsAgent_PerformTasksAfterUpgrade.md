@@ -11,7 +11,13 @@ POST /api/v1/Agents/Diagnostics/PerformTasksAfterUpgrade
 
 After upgrading to a new fileset, there may be tasks that need to be done.
 
+
 Examples - import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Examples - import new TypicalSearches, if present. Tasks performed here need to 
 ```http
 POST /api/v1/Agents/Diagnostics/PerformTasksAfterUpgrade?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,6 +43,7 @@ POST /api/v1/Agents/Diagnostics/PerformTasksAfterUpgrade?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: string
 
 OK
@@ -45,6 +53,7 @@ OK
 | 200 | OK |
 
 Response body: string
+
 
 ## Sample request
 
@@ -61,5 +70,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolores"
+"similique"
 ```

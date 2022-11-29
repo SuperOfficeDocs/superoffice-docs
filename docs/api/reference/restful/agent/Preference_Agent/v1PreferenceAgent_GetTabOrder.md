@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetTabOrder
 
 Gets the tab order.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the tab order.
 ```http
 POST /api/v1/Agents/Preference/GetTabOrder?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Preference/GetTabOrder?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TabName
+TabName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TabName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Schulist, Gleichner and Vandervort"
+  "TabName": "Bradtke Group"
 }
 ```
 
@@ -83,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 444,
-  "TabName": "Moore Inc and Sons",
-  "Order": "et",
-  "AssociateId": 865,
+  "TabOrderId": 349,
+  "TabName": "Brown-Jaskolski",
+  "Order": "ea",
+  "AssociateId": 12,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 315
     }
   }
 }

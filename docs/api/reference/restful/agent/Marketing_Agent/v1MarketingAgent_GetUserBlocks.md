@@ -11,6 +11,12 @@ POST /api/v1/Agents/Marketing/GetUserBlocks
 
 Get the saved user blocks to be used in a shipment/mailing message
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the saved user blocks to be used in a shipment/mailing message
 ```http
 POST /api/v1/Agents/Marketing/GetUserBlocks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Marketing/GetUserBlocks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId
+AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 549
+  "AssociateId": 869
 }
 ```
 
@@ -88,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 552,
-    "AssociateId": 69,
-    "Block": "sed",
-    "Registered": "2018-04-07T11:10:27.2954549+02:00",
-    "RegisteredAssociateId": 558,
-    "Updated": "1999-03-19T11:10:27.2954549+01:00",
-    "UpdatedAssociateId": 310,
-    "UpdatedCount": 65,
+    "ShipmentMessageBlockId": 894,
+    "AssociateId": 834,
+    "Block": "aliquid",
+    "Registered": "2004-09-28T02:49:44.7172985+02:00",
+    "RegisteredAssociateId": 221,
+    "Updated": "2009-03-21T02:49:44.7172985+01:00",
+    "UpdatedAssociateId": 439,
+    "UpdatedCount": 321,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 632
+        "FieldType": "System.Int32",
+        "FieldLength": 983
       }
     }
   }

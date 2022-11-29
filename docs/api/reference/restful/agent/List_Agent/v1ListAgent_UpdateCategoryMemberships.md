@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/UpdateCategoryMemberships
 
 Updates category memberships
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Updates category memberships
 ```http
 POST /api/v1/Agents/List/UpdateCategoryMemberships?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/List/UpdateCategoryMemberships?$select=name,department,categ
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketCategoryId, MembershipsToAdd, MembershipsToUpdate, MembershipsToDelete
+TicketCategoryId, MembershipsToAdd, MembershipsToUpdate, MembershipsToDelete 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ TicketCategoryId, MembershipsToAdd, MembershipsToUpdate, MembershipsToDelete
 | MembershipsToUpdate | array |  |
 | MembershipsToDelete | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +58,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -58,39 +67,39 @@ Response body:
 POST /api/v1/Agents/List/UpdateCategoryMemberships
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 645,
+  "TicketCategoryId": 386,
   "MembershipsToAdd": [
     {
       "User": null,
-      "Weight": 982
+      "Weight": 317
     },
     {
       "User": null,
-      "Weight": 982
+      "Weight": 317
     }
   ],
   "MembershipsToUpdate": [
     {
       "User": null,
-      "Weight": 308
+      "Weight": 77
     },
     {
       "User": null,
-      "Weight": 308
+      "Weight": 77
     }
   ],
   "MembershipsToDelete": [
     {
       "User": null,
-      "Weight": 364
+      "Weight": 858
     },
     {
       "User": null,
-      "Weight": 364
+      "Weight": 858
     }
   ]
 }

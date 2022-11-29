@@ -11,11 +11,18 @@ GET /api/v1/Contact/{id}/Simple
 
 A simple Contact object.
 
+
 This is a simpler, smaller variation of the full ContactEntity. Calls the Contact agent service GetContact.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Contact to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ This is a simpler, smaller variation of the full ContactEntity. Calls the Contac
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ContactEntity found.
 
@@ -39,7 +47,7 @@ ContactEntity found.
 | 200 | ContactEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,34 +92,34 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 259,
-  "Name": "Kuhlman-Hermiston",
-  "OrgNr": "646405",
+  "ContactId": 281,
+  "Name": "Strosin-Wisoky",
+  "OrgNr": "1055701",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "repellat",
-  "DirectPhone": "1-652-452-2584 x45784",
-  "AssociateId": 136,
-  "CountryId": 969,
-  "EmailAddress": "jany.shanahan@gutkowskilang.biz",
-  "Kananame": "nihil",
-  "EmailAddressName": "stuart_breitenberg@hageneskoss.uk",
+  "City": "recusandae",
+  "DirectPhone": "(452)413-1404 x01347",
+  "AssociateId": 23,
+  "CountryId": 695,
+  "EmailAddress": "saige_mckenzie@kunzebailey.name",
+  "Kananame": "vel",
+  "EmailAddressName": "terrell_braun@dicki.ca",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Dianna Powlowski",
+  "AssociateFullName": "Mrs. Kody Mohammad Schroeder",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "dolor",
-  "FullName": "Heather Mills",
+  "FormattedAddress": "debitis",
+  "FullName": "Prof. Lavina Lubowitz III",
   "IsOwnerContact": true,
-  "ActiveErpLinks": 45,
+  "ActiveErpLinks": 875,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 770
     }
   }
 }

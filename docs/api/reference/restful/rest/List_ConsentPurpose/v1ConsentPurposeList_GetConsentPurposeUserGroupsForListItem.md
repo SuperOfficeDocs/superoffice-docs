@@ -11,11 +11,18 @@ GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ConsentPurpose list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Haag, Cruickshank and Rolfson",
-    "ToolTip": "In nemo.",
-    "Deleted": true,
-    "Rank": 52,
-    "Type": "consequuntur",
-    "ColorBlock": 213,
-    "IconHint": "magni",
+    "Id": 892,
+    "Name": "Kris LLC",
+    "ToolTip": "Minus voluptates perferendis officia recusandae vel cum nihil.",
+    "Deleted": false,
+    "Rank": 750,
+    "Type": "soluta",
+    "ColorBlock": 955,
+    "IconHint": "maiores",
     "Selected": false,
-    "LastChanged": "2018-02-26T11:10:53.9811824+01:00",
+    "LastChanged": "2009-08-16T02:49:51.9378192+02:00",
     "ChildItems": [
       {
-        "Id": 443,
-        "Name": "Flatley LLC",
-        "ToolTip": "Iure mollitia distinctio error voluptas non assumenda dolor.",
+        "Id": 797,
+        "Name": "Emard, Deckow and Rohan",
+        "ToolTip": "Harum id cupiditate.",
         "Deleted": true,
-        "Rank": 879,
-        "Type": "quo",
-        "ColorBlock": 343,
-        "IconHint": "quia",
+        "Rank": 294,
+        "Type": "repellendus",
+        "ColorBlock": 162,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2016-11-02T11:10:53.9821825+01:00",
+        "LastChanged": "2006-05-28T02:49:51.9378192+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Berta Corwin",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Velda Trantow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 864
+            "FieldLength": 561
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "facere",
+    "ExtraInfo": "dicta",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Prof. Marina Lind",
+    "FullName": "Zion Bins DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldLength": 516
       }
     }
   }

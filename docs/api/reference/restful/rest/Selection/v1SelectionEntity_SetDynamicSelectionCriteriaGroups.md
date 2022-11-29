@@ -11,11 +11,18 @@ PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 
 Update the criteria for this dynamic selection.
 
+
 Replaces existing criteria with the new values. This call supports multiple criteria groups.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The id of the selection to add members **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Replaces existing criteria with the new values. This call supports multiple crit
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: criteria
+## Request Body: criteria  
 
-Criteria groups defining the selection result. Empty array is legal, simply means no criteria have been set
+Criteria groups defining the selection result. Empty array is legal, simply means no criteria have been set 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,6 +48,7 @@ Criteria groups defining the selection result. Empty array is legal, simply mean
 | Description | string |  |
 | Rank | int32 |  |
 | Restrictions | array |  |
+
 
 ## Response: array
 
@@ -70,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kassulke, Oberbrunner and Spinka",
-    "Description": "Diverse background success",
-    "Rank": 765,
+    "Name": "Russel, Mann and Farrell",
+    "Description": "Cloned encompassing forecast",
+    "Rank": 290,
     "Restrictions": [
       {
-        "Name": "Blanda LLC",
-        "Operator": "provident",
+        "Name": "Gleason-Hills",
+        "Operator": "at",
         "Values": [
-          "laboriosam",
-          "iusto"
+          "dolor",
+          "possimus"
         ],
         "DisplayValues": [
-          "nam",
-          "quasi"
+          "magnam",
+          "odio"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -91,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 629,
+        "InterParenthesis": 723,
         "InterOperator": "And",
-        "UniqueHash": 695
+        "UniqueHash": 869
       }
     ]
   },
   {
-    "Name": "Kassulke, Oberbrunner and Spinka",
-    "Description": "Diverse background success",
-    "Rank": 765,
+    "Name": "Russel, Mann and Farrell",
+    "Description": "Cloned encompassing forecast",
+    "Rank": 290,
     "Restrictions": [
       {
-        "Name": "Blanda LLC",
-        "Operator": "provident",
+        "Name": "Gleason-Hills",
+        "Operator": "at",
         "Values": [
-          "laboriosam",
-          "iusto"
+          "dolor",
+          "possimus"
         ],
         "DisplayValues": [
-          "nam",
-          "quasi"
+          "magnam",
+          "odio"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -119,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 629,
+        "InterParenthesis": 723,
         "InterOperator": "And",
-        "UniqueHash": 695
+        "UniqueHash": 869
       }
     ]
   }
@@ -136,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lockman, Sawayn and Ratke",
-    "Description": "Mandatory optimizing system engine",
-    "Rank": 240,
+    "Name": "Corwin, Goodwin and Wisozk",
+    "Description": "Stand-alone transitional throughput",
+    "Rank": 543,
     "Restrictions": [
       {
-        "Name": "Gutmann Group",
-        "Operator": "assumenda",
+        "Name": "Pacocha, Jenkins and Harvey",
+        "Operator": "vitae",
         "Values": [
-          "vitae",
-          "voluptates"
+          "sint",
+          "qui"
         ],
         "DisplayValues": [
-          "quae",
-          "quidem"
+          "voluptatem",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -157,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 699,
+        "InterParenthesis": 381,
         "InterOperator": "And",
-        "UniqueHash": 78
+        "UniqueHash": 687
       }
     ]
   },
   {
-    "Name": "Lockman, Sawayn and Ratke",
-    "Description": "Mandatory optimizing system engine",
-    "Rank": 240,
+    "Name": "Corwin, Goodwin and Wisozk",
+    "Description": "Stand-alone transitional throughput",
+    "Rank": 543,
     "Restrictions": [
       {
-        "Name": "Gutmann Group",
-        "Operator": "assumenda",
+        "Name": "Pacocha, Jenkins and Harvey",
+        "Operator": "vitae",
         "Values": [
-          "vitae",
-          "voluptates"
+          "sint",
+          "qui"
         ],
         "DisplayValues": [
-          "quae",
-          "quidem"
+          "voluptatem",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -185,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 699,
+        "InterParenthesis": 381,
         "InterOperator": "And",
-        "UniqueHash": 78
+        "UniqueHash": 687
       }
     ]
   }

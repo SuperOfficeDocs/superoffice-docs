@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetDashboardTiles
 
 Gets an array of dashboard tiles for the provided ids
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of dashboard tiles for the provided ids
 ```http
 POST /api/v1/Agents/Dashboard/GetDashboardTiles?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Dashboard/GetDashboardTiles?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileIds
+DashboardTileIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileIds | array |  |
+
 
 ## Response: array
 
@@ -83,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    646,
-    509
+    754,
+    614
   ]
 }
 ```
@@ -97,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 844,
-    "Caption": "ea",
-    "Description": "Self-enabling multimedia frame",
-    "ChartName": "Kessler, Weber and Fisher",
-    "ChartId": "consequuntur",
-    "IsDefault": false,
-    "AssociateId": 331,
-    "GroupId": 394,
-    "SelectionId": 976,
-    "Config": "voluptatem",
+    "DashboardTileId": 383,
+    "Caption": "eaque",
+    "Description": "Exclusive logistical paradigm",
+    "ChartName": "Borer Group",
+    "ChartId": "saepe",
+    "IsDefault": true,
+    "AssociateId": 836,
+    "GroupId": 135,
+    "SelectionId": 771,
+    "Config": "ut",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Morar LLC",
-        "Description": "Multi-tiered homogeneous groupware",
+        "Name": "Wyman, Robel and Greenholt",
+        "Description": "Self-enabling client-driven interface",
         "Type": "Boolean",
-        "ListName": "Kiehn, Crist and Stiedemann",
+        "ListName": "Mayer Inc and Sons",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "esse",
+        "Value": "autem",
         "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 301
+            "FieldLength": 939
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 806,
+        "VisibleId": 116,
         "Visibility": "All",
-        "DisplayValue": "ipsum",
+        "DisplayValue": "cum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 741
+            "FieldLength": 177
           }
         }
       },
       {
-        "VisibleId": 806,
+        "VisibleId": 116,
         "Visibility": "All",
-        "DisplayValue": "ipsum",
+        "DisplayValue": "cum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 741
+            "FieldLength": 177
           }
         }
       }
@@ -164,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 279
       }
     }
   }

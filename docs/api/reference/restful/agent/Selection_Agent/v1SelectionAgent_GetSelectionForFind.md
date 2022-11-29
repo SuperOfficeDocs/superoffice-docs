@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/GetSelectionForFind
 
 Obtain a selection for the given entity, for the current user, of type WorkingSetForFind.
 
+
 Optionally populate criteria from the TypicalSearches system
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Optionally populate criteria from the TypicalSearches system
 ```http
 POST /api/v1/Agents/Selection/GetSelectionForFind?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/Selection/GetSelectionForFind?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EntityName, TypicalSearchId
+EntityName, TypicalSearchId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EntityName | string |  |
 | TypicalSearchId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Medhurst-Hirthe",
-  "TypicalSearchId": 482
+  "EntityName": "Brekke Inc and Sons",
+  "TypicalSearchId": 220
 }
 ```
 
@@ -89,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bartoletti-McLaughlin",
-  "SelectionId": 142,
+  "ProviderName": "Roberts-O'Keefe",
+  "SelectionId": 653,
   "CanSaveAsSelection": false,
-  "MainHeading": "est",
-  "FilterScreenHeading": "qui",
-  "SelectionEntityHeading": "dignissimos",
+  "MainHeading": "nostrum",
+  "FilterScreenHeading": "perspiciatis",
+  "SelectionEntityHeading": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 630
     }
   }
 }

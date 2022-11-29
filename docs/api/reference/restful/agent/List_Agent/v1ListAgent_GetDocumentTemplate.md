@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDocumentTemplate
 
 Gets a DocumentTemplate object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a DocumentTemplate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=751
+POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=220
 POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +76,7 @@ Response body:
 POST /api/v1/Agents/List/GetDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,23 +86,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 895,
-  "Name": "DuBuque, Buckridge and Metz",
-  "Tooltip": "dolor",
-  "SaveInDb": 333,
-  "Filename": "necessitatibus",
-  "DefaultOref": "voluptates",
+  "DocumentTemplateId": 24,
+  "Name": "Nitzsche, Denesik and Dietrich",
+  "Tooltip": "et",
+  "SaveInDb": 389,
+  "Filename": "eveniet",
+  "DefaultOref": "explicabo",
   "RecordType": "Appointment",
-  "Deleted": 353,
+  "Deleted": 612,
   "Direction": "Incoming",
-  "AutoeventId": 518,
+  "AutoeventId": 945,
   "QuoteDocType": "ConfirmationLines",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 32
+      "FieldLength": 487
     }
   }
 }

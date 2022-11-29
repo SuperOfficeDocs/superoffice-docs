@@ -11,6 +11,13 @@ PUT /api/v1/List/ReasonSold/Items
 
 Update the ReasonSold list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the ReasonSold list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated ReasonSold.
+All the updated ReasonSold. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated ReasonSold.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -70,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 111,
-    "Name": "Walsh-Homenick",
-    "Tooltip": "alias",
+    "Id": 364,
+    "Name": "O'Keefe Inc and Sons",
+    "Tooltip": "mollitia",
     "Deleted": false,
-    "UdListDefinitionId": 349,
-    "Rank": 235
+    "UdListDefinitionId": 216,
+    "Rank": 476
   },
   {
-    "Id": 111,
-    "Name": "Walsh-Homenick",
-    "Tooltip": "alias",
+    "Id": 364,
+    "Name": "O'Keefe Inc and Sons",
+    "Tooltip": "mollitia",
     "Deleted": false,
-    "UdListDefinitionId": 349,
-    "Rank": 235
+    "UdListDefinitionId": 216,
+    "Rank": 476
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 618,
-    "Name": "Sipes-Howe",
-    "Tooltip": "iusto",
+    "Id": 271,
+    "Name": "Russel-Durgan",
+    "Tooltip": "libero",
     "Deleted": true,
-    "UdListDefinitionId": 604,
-    "Rank": 135,
+    "UdListDefinitionId": 675,
+    "Rank": 566,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldLength": 959
       }
     }
   }

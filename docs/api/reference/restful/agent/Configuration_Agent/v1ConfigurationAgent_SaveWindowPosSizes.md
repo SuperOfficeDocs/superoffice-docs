@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/SaveWindowPosSizes
 
 Saves a set of window and dialog position and size settings.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a set of window and dialog position and size settings.
 ```http
 POST /api/v1/Agents/Configuration/SaveWindowPosSizes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Configuration/SaveWindowPosSizes?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-WindowPosSizes
+WindowPosSizes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WindowPosSizes | array |  |
+
 
 ## Response: array
 
@@ -75,23 +83,23 @@ Response body: array
 POST /api/v1/Agents/Configuration/SaveWindowPosSizes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "quis",
-      "PersonId": 496,
-      "AssociateId": 982,
-      "ExtraId": 937,
-      "ExtraInfo": "itaque",
-      "Height": 97,
-      "LeftX": 390,
+      "OwnerWindow": "adipisci",
+      "PersonId": 503,
+      "AssociateId": 346,
+      "ExtraId": 232,
+      "ExtraInfo": "nihil",
+      "Height": 109,
+      "LeftX": 214,
       "State": "Maximized",
-      "UpperY": 5,
-      "Width": 509,
-      "WindowPosSizeId": 226
+      "UpperY": 375,
+      "Width": 888,
+      "WindowPosSizeId": 35
     }
   ]
 }
@@ -105,23 +113,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "quibusdam",
-    "PersonId": 840,
-    "AssociateId": 151,
-    "ExtraId": 379,
-    "ExtraInfo": "officiis",
-    "Height": 270,
-    "LeftX": 538,
+    "OwnerWindow": "eum",
+    "PersonId": 899,
+    "AssociateId": 387,
+    "ExtraId": 237,
+    "ExtraInfo": "labore",
+    "Height": 296,
+    "LeftX": 1002,
     "State": "Maximized",
-    "UpperY": 85,
-    "Width": 574,
-    "WindowPosSizeId": 567,
+    "UpperY": 353,
+    "Width": 666,
+    "WindowPosSizeId": 4,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 322
+        "FieldLength": 1000
       }
     }
   }

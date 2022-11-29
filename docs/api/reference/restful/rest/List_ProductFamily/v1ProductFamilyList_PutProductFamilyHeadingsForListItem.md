@@ -11,11 +11,18 @@ PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 
 Saves headings for the ProductFamily list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Name": "Morissette Inc and Sons",
-    "ToolTip": "Omnis pariatur ut nulla velit velit assumenda.",
-    "Deleted": true,
-    "Rank": 868,
-    "Type": "provident",
-    "ColorBlock": 531,
-    "IconHint": "provident",
+    "Id": 647,
+    "Name": "Cartwright-Larson",
+    "ToolTip": "Voluptatem mollitia magnam qui molestias ut.",
+    "Deleted": false,
+    "Rank": 959,
+    "Type": "id",
+    "ColorBlock": 911,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2018-07-05T11:10:54.4409312+02:00",
+    "LastChanged": "2010-10-15T02:49:52.3753234+02:00",
     "ChildItems": [
       {
-        "Id": 190,
-        "Name": "Howe, Gislason and Bechtelar",
-        "ToolTip": "Quis eos quidem dolorem.",
-        "Deleted": true,
-        "Rank": 140,
-        "Type": "officiis",
-        "ColorBlock": 416,
-        "IconHint": "excepturi",
-        "Selected": true,
-        "LastChanged": "2005-10-15T11:10:54.4409312+02:00",
+        "Id": 643,
+        "Name": "Jewess-Berge",
+        "ToolTip": "Fugit ullam fuga et aspernatur totam.",
+        "Deleted": false,
+        "Rank": 408,
+        "Type": "id",
+        "ColorBlock": 76,
+        "IconHint": "nostrum",
+        "Selected": false,
+        "LastChanged": "2003-03-02T02:49:52.3753234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "qui",
+        "StyleHint": "molestiae",
         "Hidden": true,
-        "FullName": "Carolina Weimann"
+        "FullName": "Timmy Jenkins"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "ipsum",
+    "ExtraInfo": "sit",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Luigi Renner I"
+    "FullName": "Fannie Heathcote"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Langworth Inc and Sons",
-    "ToolTip": "Dignissimos eveniet.",
+    "Id": 871,
+    "Name": "Beer Group",
+    "ToolTip": "Optio quas.",
     "Deleted": false,
-    "Rank": 217,
-    "Type": "doloribus",
-    "ColorBlock": 913,
-    "IconHint": "explicabo",
-    "Selected": false,
-    "LastChanged": "2000-02-03T11:10:54.4419256+01:00",
+    "Rank": 819,
+    "Type": "dolorum",
+    "ColorBlock": 813,
+    "IconHint": "mollitia",
+    "Selected": true,
+    "LastChanged": "2009-01-27T02:49:52.3753234+01:00",
     "ChildItems": [
       {
-        "Id": 836,
-        "Name": "Collier Group",
-        "ToolTip": "Commodi qui.",
-        "Deleted": true,
-        "Rank": 955,
-        "Type": "voluptas",
-        "ColorBlock": 484,
-        "IconHint": "quos",
+        "Id": 719,
+        "Name": "Cruickshank, Dare and Hane",
+        "ToolTip": "Et dolor quis aut sit omnis.",
+        "Deleted": false,
+        "Rank": 939,
+        "Type": "doloremque",
+        "ColorBlock": 108,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2017-03-18T11:10:54.4419256+01:00",
+        "LastChanged": "1996-03-08T02:49:52.3753234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "eius",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Prof. Sallie Sallie Ferry IV",
+        "FullName": "Camden Stanton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldLength": 843
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "repudiandae",
-    "Hidden": false,
-    "FullName": "Lavada Streich",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Dr. Fay Keanu Schimmel MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldType": "System.Int32",
+        "FieldLength": 68
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetLicenseForAllOwnersFromDB
 
 Get all licenses, with usage, from all module owners as they are stored in the database
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all licenses, with usage, from all module owners as they are stored in the d
 ```http
 POST /api/v1/Agents/License/GetLicenseForAllOwnersFromDB?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/License/GetLicenseForAllOwnersFromDB?$select=name,department
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -78,15 +86,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 269,
-        "NumberOfLicensesFree": 561,
-        "NumberOfLicensesAdded": 274,
-        "NumberOfLicensesNewTotal": 847,
-        "NumberOfLicensesNewFree": 320,
-        "NumberOfLicensesTotal": 752
+        "NumberOfLicensesInUse": 739,
+        "NumberOfLicensesFree": 422,
+        "NumberOfLicensesAdded": 242,
+        "NumberOfLicensesNewTotal": 355,
+        "NumberOfLicensesNewFree": 166,
+        "NumberOfLicensesTotal": 715
       }
     ],
-    "AccumulatedNextCheckDate": "2013-08-21T11:10:27.1024533+02:00"
+    "AccumulatedNextCheckDate": "1999-05-03T02:49:44.561046+02:00"
   },
   {
     "Reason": "",
@@ -97,15 +105,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 269,
-        "NumberOfLicensesFree": 561,
-        "NumberOfLicensesAdded": 274,
-        "NumberOfLicensesNewTotal": 847,
-        "NumberOfLicensesNewFree": 320,
-        "NumberOfLicensesTotal": 752
+        "NumberOfLicensesInUse": 739,
+        "NumberOfLicensesFree": 422,
+        "NumberOfLicensesAdded": 242,
+        "NumberOfLicensesNewTotal": 355,
+        "NumberOfLicensesNewFree": 166,
+        "NumberOfLicensesTotal": 715
       }
     ],
-    "AccumulatedNextCheckDate": "2013-08-21T11:10:27.1024533+02:00"
+    "AccumulatedNextCheckDate": "1999-05-03T02:49:44.561046+02:00"
   }
 ]
 ```

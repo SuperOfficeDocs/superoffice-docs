@@ -11,11 +11,18 @@ GET /api/v1/Sale/{id}/Simple
 
 A simple Sale object.
 
+
 This is a simpler, smaller variation of the full SaleEntity. Calls the Sale agent service GetSale.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Sale to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ This is a simpler, smaller variation of the full SaleEntity. Calls the Sale agen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 SaleEntity found.
 
@@ -39,7 +47,7 @@ SaleEntity found.
 | 200 | SaleEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +85,7 @@ Response body:
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,37 +95,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Yost-Kreiger",
-  "SaleDate": "2008-02-27T11:10:53.4731466+01:00",
-  "SaleId": 194,
-  "Probability": 126,
-  "Title": "culpa",
-  "Amount": 1074.962,
-  "Currency": "consequuntur",
-  "ProjectName": "Gibson, Barrows and Harvey",
-  "AssociateFullName": "Miss Raegan Brianne Lubowitz",
-  "Description": "Versatile bifurcated function",
+  "ContactName": "Kerluke Group",
+  "SaleDate": "2013-10-06T02:49:51.4894333+02:00",
+  "SaleId": 233,
+  "Probability": 54,
+  "Title": "et",
+  "Amount": 16911.064,
+  "Currency": "asperiores",
+  "ProjectName": "Feest Inc and Sons",
+  "AssociateFullName": "Blanca Rogahn PhD",
+  "Description": "Up-sized bifurcated internet solution",
   "Status": "Lost",
-  "WeightedAmount": 22947.148,
-  "ProjectId": 100,
-  "EarningPercent": 14419.534,
-  "Earning": 13918.094,
-  "ContactId": 160,
-  "AssociateId": 769,
-  "PersonId": 956,
-  "SaleTypeId": 785,
-  "SaleTypeName": "Smitham, Lakin and Rohan",
-  "PersonFullName": "Marcos Will",
+  "WeightedAmount": 17199.392,
+  "ProjectId": 800,
+  "EarningPercent": 1491.7839999999999,
+  "Earning": 26889.719999999998,
+  "ContactId": 393,
+  "AssociateId": 672,
+  "PersonId": 665,
+  "SaleTypeId": 663,
+  "SaleTypeName": "Weber LLC",
+  "PersonFullName": "Ruby Orn",
   "Completed": "Completed",
-  "ActiveErpLinks": 861,
-  "NextDueDate": "1998-06-17T11:10:53.4731466+02:00",
-  "Number": "1447754",
+  "ActiveErpLinks": 534,
+  "NextDueDate": "2000-11-09T02:49:51.4894333+01:00",
+  "Number": "688838",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 754
+      "FieldLength": 17
     }
   }
 }

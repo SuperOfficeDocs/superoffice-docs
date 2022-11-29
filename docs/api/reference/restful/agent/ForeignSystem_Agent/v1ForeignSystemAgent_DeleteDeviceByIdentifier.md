@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 
 Delete a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Delete a ForeignDevice with deviceName and deviceIdentifier that belongs to the 
 ```http
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier?$select=name,departme
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier
+ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,7 +48,8 @@ ApplicationName, DeviceName, DeviceIdentifier
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -49,7 +57,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -57,12 +66,12 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Witting-Rohan",
-  "DeviceName": "Von Group",
+  "ApplicationName": "Shanahan Inc and Sons",
+  "DeviceName": "Walsh-Botsford",
   "DeviceIdentifier": "nihil"
 }
 ```

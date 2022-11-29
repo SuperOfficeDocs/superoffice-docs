@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/FindWithExtraRestrictions
 
 Execute a Find operation and return a page of results.
 
+
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The criteria for the Find are fetched from the restriction storage provider acco
 ```http
 POST /api/v1/Agents/Find/FindWithExtraRestrictions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/FindWithExtraRestrictions?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumns, PageSize, PageNumber
+StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumns, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,8 @@ StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumn
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -60,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,52 +84,52 @@ Response body:
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Hackett-Nader",
-  "StorageKey": "eligendi",
+  "StorageType": "rem",
+  "ProviderName": "Bernhard LLC",
+  "StorageKey": "aut",
   "ExtraRestrictions": [
     {
-      "Name": "Harris-Hane",
-      "Operator": "dolores",
+      "Name": "Witting Group",
+      "Operator": "sit",
       "Values": [
-        "nisi",
-        "consequatur"
+        "inventore",
+        "accusantium"
       ],
       "DisplayValues": [
-        "aspernatur",
-        "et"
+        "delectus",
+        "facere"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 281,
+      "InterParenthesis": 35,
       "InterOperator": "And",
-      "UniqueHash": 579
+      "UniqueHash": 550
     }
   ],
   "OrderBy": [
     {
-      "Name": "Torp Inc and Sons",
+      "Name": "Carter, Nitzsche and Leuschke",
       "Direction": "ASC"
     },
     {
-      "Name": "Torp Inc and Sons",
+      "Name": "Carter, Nitzsche and Leuschke",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "saepe",
-    "veniam"
+    "repellendus",
+    "est"
   ],
-  "PageSize": 633,
-  "PageNumber": 410
+  "PageSize": 116,
+  "PageNumber": 903
 }
 ```
 
@@ -134,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schuster-Hahn",
-      "DisplayTooltip": "quas",
-      "DisplayType": "fugit",
-      "CanOrderBy": true,
-      "Name": "Feest-Torphy",
+      "DisplayName": "Heidenreich LLC",
+      "DisplayTooltip": "magnam",
+      "DisplayType": "eligendi",
+      "CanOrderBy": false,
+      "Name": "Rogahn Group",
       "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "O'Hara, Wiza and McClure",
-      "IsVisible": true,
-      "ExtraInfo": "illo",
-      "Width": "veniam",
-      "IconHint": "soluta",
-      "HeadingIconHint": "molestias"
+      "RestrictionType": "id",
+      "RestrictionListName": "Flatley-Gerhold",
+      "IsVisible": false,
+      "ExtraInfo": "doloremque",
+      "Width": "suscipit",
+      "IconHint": "et",
+      "HeadingIconHint": "quos"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Glover-Walter",
-      "PrimaryKey": 975,
+      "EntityName": "Rodriguez, Shields and Jenkins",
+      "PrimaryKey": 91,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "numquam",
-          "LinkHint": "quisquam"
+          "DisplayValue": "quo",
+          "TooltipHint": "tempora",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "unde",
-      "StyleHint": "dolorum",
+      "LinkHint": "veniam",
+      "StyleHint": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 596
+          "FieldType": "System.Int32",
+          "FieldLength": 266
         }
       }
     }
   ],
-  "RowCount": 504,
+  "RowCount": 833,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 307
     }
   }
 }

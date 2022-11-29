@@ -11,6 +11,13 @@ POST /api/v1/Agents/Sale/SaveSaleEntity
 
 Updates the existing SaleEntity or creates a new SaleEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing SaleEntity or creates a new SaleEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SaleEntity to be saved.
+The SaleEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +83,8 @@ The SaleEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -84,7 +92,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -141,7 +149,7 @@ Response body:
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -151,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "et",
+  "SaleText": "ducimus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -160,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-07-29T11:10:27.7955221+02:00",
-  "Amount": 27911.404,
-  "SaleId": 287,
-  "Earning": 811.706,
-  "EarningPercent": 14761.14,
-  "Heading": "aut",
-  "Number": "1527272",
-  "Probability": 514,
-  "CreatedDate": "2016-08-20T11:10:27.7955221+02:00",
-  "UpdatedDate": "2014-02-20T11:10:27.7955221+01:00",
+  "Saledate": "2000-07-09T02:49:45.1090952+02:00",
+  "Amount": 9847.028,
+  "SaleId": 119,
+  "Earning": 5631.798,
+  "EarningPercent": 10724.547999999999,
+  "Heading": "quia",
+  "Number": "1130429",
+  "Probability": 889,
+  "CreatedDate": "2011-12-22T02:49:45.1090952+01:00",
+  "UpdatedDate": "2021-02-28T02:49:45.1090952+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 60,
+  "ActiveLinks": 265,
   "Links": [
     {
-      "EntityName": "Padberg-Berge",
-      "Id": 391,
-      "Description": "Future-proofed hybrid success",
-      "ExtraInfo": "sequi",
-      "LinkId": 818
+      "EntityName": "Kertzmann, Howe and Cummings",
+      "Id": 481,
+      "Description": "Digitized bottom-line adapter",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 56
     },
     {
-      "EntityName": "Padberg-Berge",
-      "Id": 391,
-      "Description": "Future-proofed hybrid success",
-      "ExtraInfo": "sequi",
-      "LinkId": 818
+      "EntityName": "Kertzmann, Howe and Cummings",
+      "Id": 481,
+      "Description": "Digitized bottom-line adapter",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 56
     }
   ],
-  "NextDueDate": "1998-12-29T11:10:27.7955221+01:00",
-  "Postit": "eius",
+  "NextDueDate": "2003-05-29T02:49:45.1090952+02:00",
+  "Postit": "tempora",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2022-01-24T11:10:27.7955221+01:00",
+  "ReopenDate": "2020-10-10T02:49:45.1090952+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Lind Group",
-      "Comment": "omnis",
-      "StakeholderRoleId": 793,
-      "CountryId": 912,
-      "PersonId": 990,
-      "EmailDescription": "keith.renner@donnelly.info",
-      "EmailId": 974,
-      "EmailAddress": "richmond@fay.uk",
-      "PhoneId": 911,
-      "ContactName": "Gutmann, Beer and Heaney",
-      "ContactId": 108,
-      "SaleId": 747,
-      "Mrmrs": "quia",
-      "Firstname": "Benton",
-      "MiddleName": "Cruickshank-Howell",
-      "Lastname": "Jast",
-      "SaleStakeholderId": 70,
-      "Rank": 718,
-      "Phone": "1-771-108-8931 x6382"
+      "StakeholderRoleName": "McLaughlin Inc and Sons",
+      "Comment": "et",
+      "StakeholderRoleId": 32,
+      "CountryId": 437,
+      "PersonId": 155,
+      "EmailDescription": "eda@kuphalgulgowski.com",
+      "EmailId": 682,
+      "EmailAddress": "ralph@strackesmitham.com",
+      "PhoneId": 948,
+      "ContactName": "Windler, Mohr and Kerluke",
+      "ContactId": 759,
+      "SaleId": 301,
+      "Mrmrs": "et",
+      "Firstname": "Retha",
+      "MiddleName": "Wolff-Zboncak",
+      "Lastname": "Durgan",
+      "SaleStakeholderId": 891,
+      "Rank": 991,
+      "Phone": "(017)387-1119 x6160"
     }
   ],
-  "ActiveErpLinks": 85,
+  "ActiveErpLinks": 756,
   "UserDefinedFields": {
-    "SuperOffice:1": "168391270",
-    "SuperOffice:2": "Ms. Guido Desiree Barrows"
+    "SuperOffice:1": "Mrs. Kennedi Breitenberg",
+    "SuperOffice:2": "Dr. Webster Christop Bogisich"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "est"
+    "ExtraFields1": "dignissimos",
+    "ExtraFields2": "corrupti"
   },
   "CustomFields": {
-    "CustomFields1": "occaecati",
-    "CustomFields2": "dolores"
+    "CustomFields1": "delectus",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "1999-12-04T11:10:27.796494+01:00",
-  "PublishTo": "2018-04-12T11:10:27.796494+02:00",
-  "PublishFrom": "2015-12-07T11:10:27.796494+01:00",
+  "PublishEventDate": "2014-03-08T02:49:45.1090952+01:00",
+  "PublishTo": "2019-01-03T02:49:45.1090952+01:00",
+  "PublishFrom": "2005-01-05T02:49:45.1090952+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 934,
+      "VisibleId": 335,
       "Visibility": "All",
-      "DisplayValue": "minus"
+      "DisplayValue": "assumenda"
     },
     {
-      "VisibleId": 934,
+      "VisibleId": 335,
       "Visibility": "All",
-      "DisplayValue": "minus"
+      "DisplayValue": "assumenda"
     }
   ]
 }
@@ -262,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "tempora",
+  "SaleText": "laboriosam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -271,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1995-09-13T11:10:27.808529+02:00",
-  "Amount": 21919.196,
-  "SaleId": 440,
-  "Earning": 7107.9119999999994,
-  "EarningPercent": 15008.725999999999,
-  "Heading": "accusantium",
-  "Number": "926004",
-  "Probability": 739,
-  "CreatedDate": "2014-07-19T11:10:27.808529+02:00",
-  "UpdatedDate": "2014-09-19T11:10:27.808529+02:00",
+  "Saledate": "2012-10-07T02:49:45.1247147+02:00",
+  "Amount": 1203.456,
+  "SaleId": 773,
+  "Earning": 27011.946,
+  "EarningPercent": 28588.347999999998,
+  "Heading": "officia",
+  "Number": "1398194",
+  "Probability": 678,
+  "CreatedDate": "1999-03-20T02:49:45.1247147+01:00",
+  "UpdatedDate": "2015-11-23T02:49:45.1247147+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 852,
+  "ActiveLinks": 859,
   "Links": [
     {
-      "EntityName": "Weimann Group",
-      "Id": 314,
-      "Description": "Customer-focused optimal info-mediaries",
-      "ExtraInfo": "corporis",
-      "LinkId": 994,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 274
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2021-10-24T11:10:27.808529+02:00",
-  "Postit": "necessitatibus",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2005-04-28T11:10:27.808529+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Ratke, Schoen and Nolan",
-      "Comment": "quaerat",
-      "StakeholderRoleId": 751,
-      "CountryId": 346,
-      "PersonId": 715,
-      "EmailDescription": "kirk@walter.ca",
-      "EmailId": 742,
-      "EmailAddress": "javier_harvey@morissette.biz",
-      "PhoneId": 135,
-      "ContactName": "Hickle, Purdy and Frami",
-      "ContactId": 236,
-      "SaleId": 625,
-      "Mrmrs": "ut",
-      "Firstname": "Carolyne",
-      "MiddleName": "Kohler-Trantow",
-      "Lastname": "Strosin",
-      "SaleStakeholderId": 560,
-      "Rank": 550,
-      "Phone": "431.789.2717",
+      "EntityName": "Gulgowski, Hilpert and Hand",
+      "Id": 635,
+      "Description": "User-centric scalable focus group",
+      "ExtraInfo": "recusandae",
+      "LinkId": 627,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 600
+          "FieldLength": 25
         }
       }
     }
   ],
-  "ActiveErpLinks": 436,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Cordell Karolann Schaden III",
-    "SuperOffice:2": "Nyasia Kuhic"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "architecto"
-  },
-  "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "rerum"
-  },
-  "PublishEventDate": "2017-11-12T11:10:27.8115222+01:00",
-  "PublishTo": "2007-12-16T11:10:27.8115222+01:00",
-  "PublishFrom": "2021-12-03T11:10:27.8115222+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "1996-12-17T02:49:45.1247147+01:00",
+  "Postit": "sed",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2013-06-19T02:49:45.1247147+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 900,
-      "Visibility": "All",
-      "DisplayValue": "provident",
+      "StakeholderRoleName": "Schneider, Abernathy and Sanford",
+      "Comment": "voluptatem",
+      "StakeholderRoleId": 92,
+      "CountryId": 249,
+      "PersonId": 946,
+      "EmailDescription": "shannon.wehner@berge.info",
+      "EmailId": 219,
+      "EmailAddress": "ashton_hills@kleinkihn.name",
+      "PhoneId": 488,
+      "ContactName": "Corwin, Williamson and Kulas",
+      "ContactId": 641,
+      "SaleId": 850,
+      "Mrmrs": "et",
+      "Firstname": "Crystal",
+      "MiddleName": "Bosco LLC",
+      "Lastname": "Kihn",
+      "SaleStakeholderId": 297,
+      "Rank": 251,
+      "Phone": "036.133.9470",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 131
+          "FieldType": "System.Int32",
+          "FieldLength": 563
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 996,
+  "UserDefinedFields": {
+    "SuperOffice:1": "531636578",
+    "SuperOffice:2": "Miss Germaine Kris Sr."
+  },
+  "ExtraFields": {
+    "ExtraFields1": "ut",
+    "ExtraFields2": "excepturi"
+  },
+  "CustomFields": {
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "aut"
+  },
+  "PublishEventDate": "2007-08-08T02:49:45.1247147+02:00",
+  "PublishTo": "2022-06-18T02:49:45.1247147+02:00",
+  "PublishFrom": "2006-07-02T02:49:45.1247147+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 464,
+      "Visibility": "All",
+      "DisplayValue": "voluptate",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 577
         }
       }
     },
     {
-      "VisibleId": 900,
+      "VisibleId": 464,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 131
+          "FieldType": "System.Int32",
+          "FieldLength": 577
         }
       }
     }
@@ -387,7 +395,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 102
     }
   }
 }

@@ -11,6 +11,13 @@ PUT /api/v1/List/ProjectType/Items
 
 Update the ProjectType list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the ProjectType list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated ProjectType.
+All the updated ProjectType. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated ProjectType.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -70,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Kuvalis-Runolfsson",
-    "Tooltip": "et",
+    "Id": 965,
+    "Name": "O'Hara-Rogahn",
+    "Tooltip": "provident",
     "Deleted": true,
-    "UdListDefinitionId": 678,
-    "Rank": 384
+    "UdListDefinitionId": 45,
+    "Rank": 160
   },
   {
-    "Id": 926,
-    "Name": "Kuvalis-Runolfsson",
-    "Tooltip": "et",
+    "Id": 965,
+    "Name": "O'Hara-Rogahn",
+    "Tooltip": "provident",
     "Deleted": true,
-    "UdListDefinitionId": 678,
-    "Rank": 384
+    "UdListDefinitionId": 45,
+    "Rank": 160
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 61,
-    "Name": "Blick, Prohaska and Emmerich",
-    "Tooltip": "culpa",
+    "Id": 560,
+    "Name": "Hermiston LLC",
+    "Tooltip": "optio",
     "Deleted": false,
-    "UdListDefinitionId": 587,
-    "Rank": 320,
+    "UdListDefinitionId": 751,
+    "Rank": 210,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldLength": 159
       }
     }
   }

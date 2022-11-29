@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/MoveEmailsToTrash
 
 Delete specified mail items and move to the Trash folder
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +31,7 @@ Delete specified mail items and move to the Trash folder
 POST /api/v1/Agents/EMail/MoveEmailsToTrash?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,15 +42,16 @@ POST /api/v1/Agents/EMail/MoveEmailsToTrash?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Ids
+Ids 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Ids | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -49,7 +59,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -62,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    502,
-    361
+    794,
+    832
   ]
 }
 ```

@@ -11,6 +11,13 @@ PUT /api/v1/List/ProductType/Items
 
 Update the ProductType list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the ProductType list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated ProductType.
+All the updated ProductType. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated ProductType.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -65,25 +73,25 @@ Response body: array
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Simonis, Strosin and Stoltenberg",
-    "Tooltip": "ab",
+    "Id": 487,
+    "Name": "Wiza Inc and Sons",
+    "Tooltip": "nostrum",
     "Deleted": true,
-    "UdListDefinitionId": 778,
-    "Rank": 811
+    "UdListDefinitionId": 25,
+    "Rank": 689
   },
   {
-    "Id": 768,
-    "Name": "Simonis, Strosin and Stoltenberg",
-    "Tooltip": "ab",
+    "Id": 487,
+    "Name": "Wiza Inc and Sons",
+    "Tooltip": "nostrum",
     "Deleted": true,
-    "UdListDefinitionId": 778,
-    "Rank": 811
+    "UdListDefinitionId": 25,
+    "Rank": 689
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Barrows-Lebsack",
-    "Tooltip": "explicabo",
-    "Deleted": false,
-    "UdListDefinitionId": 908,
-    "Rank": 268,
+    "Id": 694,
+    "Name": "Cassin, Feil and McKenzie",
+    "Tooltip": "eum",
+    "Deleted": true,
+    "UdListDefinitionId": 79,
+    "Rank": 510,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 452
+        "FieldLength": 436
       }
     }
   }

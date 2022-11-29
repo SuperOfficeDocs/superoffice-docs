@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 
 Saves the PreferenceDescriptionLine array in the SuperOffice database
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves the PreferenceDescriptionLine array in the SuperOffice database
 ```http
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PreferenceDescriptionLines
+PreferenceDescriptionLines 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PreferenceDescriptionLines | array |  |
+
 
 ## Response: array
 
@@ -70,25 +78,25 @@ Response body: array
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 424,
-      "PrefDescId": 949,
-      "PrefValue": "delectus",
-      "PrefShowValue": "quia",
-      "Description": "Distributed neutral portal",
+      "PrefDescLineId": 624,
+      "PrefDescId": 422,
+      "PrefValue": "cum",
+      "PrefShowValue": "officiis",
+      "Description": "Fundamental solution-oriented algorithm",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 424,
-      "PrefDescId": 949,
-      "PrefValue": "delectus",
-      "PrefShowValue": "quia",
-      "Description": "Distributed neutral portal",
+      "PrefDescLineId": 624,
+      "PrefDescId": 422,
+      "PrefValue": "cum",
+      "PrefShowValue": "officiis",
+      "Description": "Fundamental solution-oriented algorithm",
       "IsBuiltin": false
     }
   ]
@@ -103,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 270,
-    "PrefDescId": 385,
-    "PrefValue": "numquam",
-    "PrefShowValue": "corporis",
-    "Description": "Open-architected fault-tolerant database",
+    "PrefDescLineId": 253,
+    "PrefDescId": 644,
+    "PrefValue": "odit",
+    "PrefShowValue": "aut",
+    "Description": "Right-sized uniform matrices",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldType": "System.String",
+        "FieldLength": 127
       }
     }
   }

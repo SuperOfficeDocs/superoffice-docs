@@ -11,7 +11,14 @@ POST /api/v1/List/Rating/Items
 
 Create a new SaleStageEntity list item
 
+
 Calls the List agent service SaveSaleStageEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveSaleStageEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The SaleStageEntity to be created.
+The SaleStageEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The SaleStageEntity to be created.
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,16 +75,16 @@ Response body:
 POST /api/v1/List/Rating/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 462,
-  "Value": "et",
-  "Tooltip": "fuga",
-  "Probability": 22,
-  "Deleted": false,
-  "Rank": 289
+  "SaleStageId": 75,
+  "Value": "libero",
+  "Tooltip": "odio",
+  "Probability": 460,
+  "Deleted": true,
+  "Rank": 747
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 16,
-  "Value": "ex",
-  "Tooltip": "non",
-  "Probability": 731,
+  "SaleStageId": 388,
+  "Value": "consequatur",
+  "Tooltip": "excepturi",
+  "Probability": 699,
   "Deleted": false,
-  "Rank": 30,
+  "Rank": 679,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldLength": 696
     }
   }
 }

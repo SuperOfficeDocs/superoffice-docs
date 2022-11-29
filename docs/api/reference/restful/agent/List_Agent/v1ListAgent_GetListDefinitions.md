@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetListDefinitions
 
 Get a list of the lists - built-in and user-defined.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list of the lists - built-in and user-defined.
 ```http
 POST /api/v1/Agents/List/GetListDefinitions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/List/GetListDefinitions?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
+
 
 ## Response: array
 
@@ -74,11 +82,11 @@ Response body: array
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -90,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 151,
-    "Name": "Hammes Group",
-    "Tooltip": "necessitatibus",
+    "Id": 45,
+    "Name": "Bartell LLC",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 18,
+    "Rank": 726,
     "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "voluptatibus",
-    "InUseByUserDefinedFields": false,
+    "ListType": "maxime",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 348
+        "FieldLength": 792
       }
     }
   }

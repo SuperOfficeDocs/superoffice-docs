@@ -11,7 +11,15 @@ POST /api/v1/Agents/DocumentMigration/GetForDateRange
 
 Gets a migration summary for documents in the provided date-rage
 
-## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps
+
+
+
+## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Gets a migration summary for documents in the provided date-rage
 ```http
 POST /api/v1/Agents/DocumentMigration/GetForDateRange?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/DocumentMigration/GetForDateRange?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentPluginId, MinDate, MaxDate, IncludeEmails
+DocumentPluginId, MinDate, MaxDate, IncludeEmails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +57,8 @@ DocumentPluginId, MinDate, MaxDate, IncludeEmails
 | MaxDate | date-time |  |
 | IncludeEmails | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -56,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,10 +85,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 275,
-  "MinDate": "2017-02-26T11:10:26.8384409+01:00",
-  "MaxDate": "2006-12-11T11:10:26.8384409+01:00",
-  "IncludeEmails": false
+  "DocumentPluginId": 788,
+  "MinDate": "2020-12-15T02:49:44.3566372+01:00",
+  "MaxDate": "2007-05-25T02:49:44.3566372+02:00",
+  "IncludeEmails": true
 }
 ```
 
@@ -89,29 +99,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 843,
-  "NumDocumentsAlreadyMigrated": 80,
+  "NumDocumentsOmitted": 266,
+  "NumDocumentsAlreadyMigrated": 606,
   "Documents": [
     {
-      "DocumentId": 279,
-      "ContactId": 800,
-      "PersonId": 637,
-      "SaleId": 244,
-      "ProjectId": 71,
-      "DocTmplId": 287,
-      "AssociateId": 710,
-      "UserGroupId": 319,
-      "VisibleForId": 423
+      "DocumentId": 988,
+      "ContactId": 257,
+      "PersonId": 668,
+      "SaleId": 788,
+      "ProjectId": 285,
+      "DocTmplId": 401,
+      "AssociateId": 400,
+      "UserGroupId": 738,
+      "VisibleForId": 198
     }
   ],
   "Associates": [
     {
-      "AssociateId": 57,
-      "EmailAddress": "kenya.stokes@rath.com"
+      "AssociateId": 437,
+      "EmailAddress": "isai@kovacek.com"
     },
     {
-      "AssociateId": 57,
-      "EmailAddress": "kenya.stokes@rath.com"
+      "AssociateId": 437,
+      "EmailAddress": "isai@kovacek.com"
     }
   ]
 }

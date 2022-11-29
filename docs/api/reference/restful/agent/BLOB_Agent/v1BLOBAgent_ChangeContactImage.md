@@ -11,7 +11,13 @@ POST /api/v1/Agents/BLOB/ChangeContactImage
 
 Changes the contact image link.
 
+
 If the Binary object id is 0, any image link is removed from the contact.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ If the Binary object id is 0, any image link is removed from the contact.
 POST /api/v1/Agents/BLOB/ChangeContactImage?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,16 +40,17 @@ POST /api/v1/Agents/BLOB/ChangeContactImage?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, BlobId
+ContactId, BlobId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 | BlobId | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +58,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -62,8 +71,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 955,
-  "BlobId": 841
+  "ContactId": 282,
+  "BlobId": 98
 }
 ```
 

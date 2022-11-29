@@ -11,7 +11,14 @@ GET /api/v1/TicketMessage/default
 
 Set default values into a new TicketMessageEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Ticket agent service CreateDefaultTicketMessageEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +79,7 @@ Response body:
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,27 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 602,
+  "EjMessageId": 810,
   "Ticket": null,
-  "CreatedAt": "2020-11-27T11:10:53.6202215+01:00",
+  "CreatedAt": "2015-11-07T02:49:51.6387017+01:00",
   "CreatedBy": null,
-  "Author": "quo",
+  "Author": "mollitia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "harum",
-  "TimeSpent": 370,
-  "Body": "molestiae",
-  "HtmlBody": "ad",
-  "EmailHeader": "zechariah@king.us",
-  "DebugInfo": "ut",
-  "MailSorter": "officiis",
+  "MessageId": "quia",
+  "TimeSpent": 147,
+  "Body": "odit",
+  "HtmlBody": "quas",
+  "EmailHeader": "douglas.schimmel@watsica.name",
+  "DebugInfo": "delectus",
+  "MailSorter": "error",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "in",
+  "SearchTitle": "error",
   "MessageHeaders": [
     {
-      "Name": "Hessel-Jones",
-      "Value": "architecto",
+      "Id": 799,
+      "Name": "Schuster Group",
+      "Value": "autem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -109,43 +118,29 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
-        }
-      }
-    },
-    {
-      "Name": "Hessel-Jones",
-      "Value": "architecto",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 199
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "sit",
-  "Sentiment": 592,
-  "SentimentConfidence": 643,
+  "Important": true,
+  "Language": "harum",
+  "Sentiment": 182,
+  "SentimentConfidence": 563,
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "expedita"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "odit"
   },
   "CustomFields": {
-    "CustomFields1": "laboriosam",
-    "CustomFields2": "qui"
+    "CustomFields1": "error",
+    "CustomFields2": "voluptates"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 618
+      "FieldType": "System.Int32",
+      "FieldLength": 783
     }
   }
 }

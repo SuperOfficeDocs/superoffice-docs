@@ -11,6 +11,13 @@ GET /api/v1/Hierarchy
 
 Get list of all domains
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,6 +31,7 @@ Get list of all domains
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
 
 OK
@@ -34,13 +42,14 @@ OK
 
 Response body: array
 
+
 ## Sample request
 
 ```http!
 GET /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -50,7 +59,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "ipsum",
-  "totam"
+  "sint",
+  "et"
 ]
 ```

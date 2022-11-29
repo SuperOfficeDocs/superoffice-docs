@@ -11,6 +11,12 @@ POST /api/v1/Agents/Archive/ExportArchive
 
 Exports the target archive to a downloadable format.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Exports the target archive to a downloadable format.
 ```http
 POST /api/v1/Agents/Archive/ExportArchive?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Archive/ExportArchive?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Context, DesiredEntities, Columns, SortOrder, Restrictions, ExportType, SelectedRowIds, EstimatedRowCount
+ProviderName, Context, DesiredEntities, Columns, SortOrder, Restrictions, ExportType, SelectedRowIds, EstimatedRowCount 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +58,8 @@ ProviderName, Context, DesiredEntities, Columns, SortOrder, Restrictions, Export
 | SelectedRowIds | array |  |
 | EstimatedRowCount | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -59,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,59 +83,59 @@ Response body:
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Dietrich LLC",
-  "Context": "sit",
+  "ProviderName": "Hudson, Lubowitz and Stiedemann",
+  "Context": "commodi",
   "DesiredEntities": [
-    "repellendus",
-    "rerum"
+    "fugiat",
+    "accusantium"
   ],
   "Columns": [
-    "temporibus",
-    "voluptas"
+    "adipisci",
+    "esse"
   ],
   "SortOrder": [
     {
-      "Name": "Haag Group",
+      "Name": "Leuschke, Glover and Nitzsche",
       "Direction": "ASC"
     },
     {
-      "Name": "Haag Group",
+      "Name": "Leuschke, Glover and Nitzsche",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Kris-Rau",
-      "Operator": "aut",
+      "Name": "Mohr, Willms and Heaney",
+      "Operator": "consequatur",
       "Values": [
-        "dolor",
-        "velit"
+        "nesciunt",
+        "iusto"
       ],
       "DisplayValues": [
-        "culpa",
-        "et"
+        "nihil",
+        "vel"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 605,
+      "InterParenthesis": 667,
       "InterOperator": "And",
-      "UniqueHash": 451
+      "UniqueHash": 443
     }
   ],
-  "ExportType": "ad",
+  "ExportType": "dolores",
   "SelectedRowIds": [
-    "ut",
-    "laboriosam"
+    "vitae",
+    "aut"
   ],
-  "EstimatedRowCount": 774
+  "EstimatedRowCount": 506
 }
 ```
 
@@ -138,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 357,
-  "FileName": "Cassin Inc and Sons",
-  "Message": "ea",
+  "BatchTaskId": 489,
+  "FileName": "Gleason-Dach",
+  "Message": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 47
+      "FieldLength": 28
     }
   }
 }

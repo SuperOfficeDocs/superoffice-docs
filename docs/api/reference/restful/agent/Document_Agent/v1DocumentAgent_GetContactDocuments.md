@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetContactDocuments
 
 Method that returns a specified number of document appointments within a time range.
 
+
 The document appointments belong to the contact specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the contact specified.
 ```http
 POST /api/v1/Agents/Document/GetContactDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetContactDocuments?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count
+ContactId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,6 +54,7 @@ ContactId, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -89,14 +97,14 @@ Response body: array
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 438,
-  "StartTime": "2011-10-03T11:10:26.4614566+02:00",
-  "EndTime": "1996-07-28T11:10:26.4614566+02:00",
-  "Count": 726
+  "ContactId": 626,
+  "StartTime": "2008-10-28T02:49:44.0753838+01:00",
+  "EndTime": "2002-07-04T02:49:44.0753838+02:00",
+  "Count": 562
 }
 ```
 
@@ -108,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 338,
-    "Attention": "nulla",
-    "Header": "enim",
-    "Name": "Mosciski LLC",
-    "OurRef": "ut",
-    "YourRef": "eos",
-    "Description": "Versatile incremental database",
-    "DocumentTemplate": "magni",
-    "IsPublished": false,
-    "PersonId": 426,
-    "PersonFullName": "Destany Becker",
-    "AssociateFullName": "Lori Lizzie Adams DVM",
-    "ContactId": 19,
-    "ContactName": "Kerluke Inc and Sons",
-    "ProjectId": 623,
-    "ProjectName": "Moore, Casper and Reilly",
-    "AssociateId": 856,
-    "Snum": 152,
-    "SaleId": 285,
-    "SaleName": "Bailey, Aufderhar and Gulgowski",
+    "DocumentId": 188,
+    "Attention": "in",
+    "Header": "qui",
+    "Name": "Kuhic-Dickinson",
+    "OurRef": "occaecati",
+    "YourRef": "et",
+    "Description": "Inverse mission-critical hardware",
+    "DocumentTemplate": "pariatur",
+    "IsPublished": true,
+    "PersonId": 371,
+    "PersonFullName": "Ms. Jerry Marcus Gottlieb",
+    "AssociateFullName": "Cruz Zemlak",
+    "ContactId": 645,
+    "ContactName": "Will-Goldner",
+    "ProjectId": 824,
+    "ProjectName": "Lindgren, Goodwin and Champlin",
+    "AssociateId": 141,
+    "Snum": 959,
+    "SaleId": 124,
+    "SaleName": "O'Reilly, Collier and Dooley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldLength": 408
       }
     }
   }

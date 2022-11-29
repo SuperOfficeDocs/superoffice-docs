@@ -11,6 +11,7 @@ PATCH /api/v1/Relation/{id}
 
 Update a ContactRelationEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IRelationAgent} service SaveContactRelation.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ContactRelationEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IRelationAgent} service SaveContactRelation.
 ```http
 PATCH /api/v1/Relation/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Relation/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 ContactRelationEntity  updated.
 
@@ -81,7 +93,7 @@ ContactRelationEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ContactRelationEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -119,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "velit",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "velit",
+    "path": "non",
     "value": {}
   }
 ]
@@ -137,35 +149,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 514,
-  "SourcePersonId": 430,
-  "DestinationContactId": 516,
-  "DestinationPersonId": 854,
-  "RelationId": 880,
-  "Comment": "ratione",
-  "RelationDefinitionId": 58,
-  "Reversed": 250,
-  "UpdatedDate": "1996-09-09T11:10:52.7551432+02:00",
-  "CreatedDate": "1998-01-03T11:10:52.7551432+01:00",
+  "SourceContactId": 837,
+  "SourcePersonId": 113,
+  "DestinationContactId": 899,
+  "DestinationPersonId": 868,
+  "RelationId": 122,
+  "Comment": "cumque",
+  "RelationDefinitionId": 350,
+  "Reversed": 475,
+  "UpdatedDate": "2008-12-16T02:49:50.8546634+01:00",
+  "CreatedDate": "2004-03-11T02:49:50.8546634+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Metz LLC",
-  "SourcePersonName": "Heaney LLC",
-  "DestinationContactName": "Feeney-Skiles",
-  "DestinationPersonName": "Feil, Rowe and Maggio",
-  "ActiveText": "veritatis",
-  "PassiveText": "quia",
+  "SourceContactName": "Wunsch, O'Reilly and Cummings",
+  "SourcePersonName": "Hermiston Inc and Sons",
+  "DestinationContactName": "Predovic Group",
+  "DestinationPersonName": "Murray Inc and Sons",
+  "ActiveText": "deserunt",
+  "PassiveText": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 943
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

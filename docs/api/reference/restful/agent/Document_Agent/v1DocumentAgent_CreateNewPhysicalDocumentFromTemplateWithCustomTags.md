@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 
 Create a new physical document based on a document template and store it in the document archive.
 
+
 Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document content. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 ```http
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CustomTags, CustomValues, UiCulture
+ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CustomTags, CustomValues, UiCulture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +61,8 @@ ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, 
 | CustomValues | array |  |
 | UiCulture | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -62,7 +70,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,26 +117,26 @@ Response body:
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 53,
-  "PersonId": 368,
-  "AppointmentId": 584,
-  "DocumentId": 588,
-  "SaleId": 720,
-  "SelectionId": 582,
-  "ProjectId": 450,
+  "ContactId": 617,
+  "PersonId": 61,
+  "AppointmentId": 21,
+  "DocumentId": 200,
+  "SaleId": 205,
+  "SelectionId": 727,
+  "ProjectId": 15,
   "CustomTags": [
-    "id",
-    "hic"
+    "fugiat",
+    "nulla"
   ],
   "CustomValues": [
-    "aut",
-    "rerum"
+    "voluptatum",
+    "aut"
   ],
-  "UiCulture": "doloribus"
+  "UiCulture": "cum"
 }
 ```
 
@@ -139,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 812,
+  "DocumentId": 75,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ex",
-  "Header": "sed",
-  "Name": "Jaskolski, Greenholt and Heaney",
-  "OurRef": "et",
-  "YourRef": "doloremque",
-  "CreatedDate": "2006-03-14T11:10:26.5694528+01:00",
-  "UpdatedDate": "2000-06-10T11:10:26.5694528+02:00",
-  "Description": "Seamless assymetric ability",
+  "Attention": "voluptatem",
+  "Header": "deleniti",
+  "Name": "Grady, Batz and O'Reilly",
+  "OurRef": "tempore",
+  "YourRef": "illo",
+  "CreatedDate": "2000-04-29T02:49:44.1691628+02:00",
+  "UpdatedDate": "2006-04-17T02:49:44.1691628+02:00",
+  "Description": "Integrated assymetric knowledge user",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-06-29T11:10:26.573453+02:00",
-  "ExternalRef": "aut",
+  "Date": "2015-07-19T02:49:44.1691628+02:00",
+  "ExternalRef": "saepe",
   "Completed": "Completed",
-  "ActiveLinks": 408,
+  "ActiveLinks": 701,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gulgowski, Brakus and Reilly",
-      "Id": 477,
-      "Description": "Diverse holistic time-frame",
-      "ExtraInfo": "quod",
-      "LinkId": 819,
+      "EntityName": "Bednar Group",
+      "Id": 504,
+      "Description": "Customer-focused transitional extranet",
+      "ExtraInfo": "porro",
+      "LinkId": 339,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldLength": 978
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 688,
-  "Snum": 306,
+  "SuggestedDocumentId": 637,
+  "Snum": 195,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Katharina Darius Hyatt",
-    "SuperOffice:2": "283921476"
+    "SuperOffice:1": "593024160",
+    "SuperOffice:2": "Heath O'Kon"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "adipisci",
+    "ExtraFields2": "placeat"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "officia"
+    "CustomFields1": "ut",
+    "CustomFields2": "mollitia"
   },
-  "PublishEventDate": "2014-02-06T11:10:26.5744524+01:00",
-  "PublishTo": "2008-09-13T11:10:26.5744524+02:00",
-  "PublishFrom": "2019-01-27T11:10:26.5744524+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2012-07-03T02:49:44.1691628+02:00",
+  "PublishTo": "1997-01-29T02:49:44.1691628+01:00",
+  "PublishFrom": "2007-02-03T02:49:44.1691628+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 57,
+      "VisibleId": 761,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 525
+          "FieldLength": 730
         }
       }
     },
     {
-      "VisibleId": 57,
+      "VisibleId": 761,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 525
+          "FieldLength": 730
         }
       }
     }
@@ -230,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldLength": 190
     }
   }
 }

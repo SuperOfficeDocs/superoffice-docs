@@ -11,11 +11,17 @@ GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 
 Gets headings for the PaymentType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Krajcik-Daugherty",
-    "ToolTip": "Molestias ipsum.",
+    "Id": 961,
+    "Name": "Rice-Senger",
+    "ToolTip": "Velit aut quis.",
     "Deleted": false,
-    "Rank": 943,
-    "Type": "reiciendis",
-    "ColorBlock": 343,
-    "IconHint": "et",
+    "Rank": 405,
+    "Type": "et",
+    "ColorBlock": 84,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2004-09-18T11:10:54.3608991+02:00",
+    "LastChanged": "2001-10-29T02:49:52.3128229+01:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Bosco Inc and Sons",
-        "ToolTip": "Quia totam est aut non molestias.",
+        "Id": 235,
+        "Name": "Bartell-Torp",
+        "ToolTip": "Doloremque aspernatur consectetur deserunt.",
         "Deleted": false,
-        "Rank": 373,
-        "Type": "maxime",
-        "ColorBlock": 540,
-        "IconHint": "non",
+        "Rank": 938,
+        "Type": "consequuntur",
+        "ColorBlock": 548,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2010-10-31T11:10:54.3618993+01:00",
+        "LastChanged": "2014-11-01T02:49:52.3128229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "eos",
+        "ExtraInfo": "nam",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Janelle Okuneva",
+        "FullName": "Buford Stanton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 69
+            "FieldType": "System.String",
+            "FieldLength": 319
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "cumque",
-    "Hidden": true,
-    "FullName": "Elenor White",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "eligendi",
+    "Hidden": false,
+    "FullName": "Dr. Cierra Jacobi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 131
       }
     }
   }

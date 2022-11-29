@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/GetChatMessages
 
 Get all or some of the messages in a chat session
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all or some of the messages in a chat session
 ```http
 POST /api/v1/Agents/Chat/GetChatMessages?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Chat/GetChatMessages?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatSessionId, After
+ChatSessionId, After 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 |  |
 | After | int32 |  |
+
 
 ## Response: array
 
@@ -72,12 +80,12 @@ Response body: array
 POST /api/v1/Agents/Chat/GetChatMessages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 177,
-  "After": 964
+  "ChatSessionId": 756,
+  "After": 861
 }
 ```
 
@@ -89,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 28,
-    "ChatSessionId": 425,
+    "ChatMessageId": 758,
+    "ChatSessionId": 276,
     "Type": "Invalid",
-    "Message": "quam",
-    "Author": "perspiciatis",
-    "ReadByCustomer": 810,
+    "Message": "cupiditate",
+    "Author": "in",
+    "ReadByCustomer": 424,
     "SpecialType": "Block",
-    "SpecialParam": "culpa",
-    "WhenPosted": "2020-10-23T11:10:26.1625251+02:00"
+    "SpecialParam": "itaque",
+    "WhenPosted": "1997-08-24T02:49:43.8254085+02:00"
   }
 ]
 ```

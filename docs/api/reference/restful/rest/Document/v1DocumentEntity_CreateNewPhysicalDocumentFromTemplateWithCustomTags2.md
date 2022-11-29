@@ -11,11 +11,17 @@ POST /api/v1/Document/{documentId}/Content
 
 Create a new physical document based on a document template and store it in the document archive.
 
+
 Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document content. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | Identifier for the document **Required** |
+
 
 ## Query String Parameters
 
@@ -30,14 +36,15 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=322
-POST /api/v1/Document/{documentId}/Content?personId=364
-POST /api/v1/Document/{documentId}/Content?appointmentId=118
-POST /api/v1/Document/{documentId}/Content?saleId=82
-POST /api/v1/Document/{documentId}/Content?selectionId=670
-POST /api/v1/Document/{documentId}/Content?projectId=823
-POST /api/v1/Document/{documentId}/Content?uiCulture=numquam
+POST /api/v1/Document/{documentId}/Content?contactId=381
+POST /api/v1/Document/{documentId}/Content?personId=586
+POST /api/v1/Document/{documentId}/Content?appointmentId=477
+POST /api/v1/Document/{documentId}/Content?saleId=462
+POST /api/v1/Document/{documentId}/Content?selectionId=928
+POST /api/v1/Document/{documentId}/Content?projectId=699
+POST /api/v1/Document/{documentId}/Content?uiCulture=vel
 ```
+
 
 ## Request Headers
 
@@ -53,11 +60,13 @@ POST /api/v1/Document/{documentId}/Content?uiCulture=numquam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: customTags
+## Request Body: customTags  
 
-Dictionary of custom tag names and values. Each name should have exactly four characters. There should be exactly one value for each tag.
+Dictionary of custom tag names and values. Each name should have exactly four characters. There should be exactly one value for each tag. 
 
-## Response
+
+
+## Response: 
 
 OK
 
@@ -65,7 +74,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -122,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 730,
+  "DocumentId": 773,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatem",
-  "Header": "magni",
-  "Name": "Schuppe, Feest and O'Conner",
-  "OurRef": "eum",
-  "YourRef": "sit",
-  "CreatedDate": "2003-01-04T11:10:52.8551747+01:00",
-  "UpdatedDate": "2016-07-04T11:10:52.8551747+02:00",
-  "Description": "Reverse-engineered methodical core",
+  "Attention": "id",
+  "Header": "qui",
+  "Name": "Schulist, Bechtelar and Witting",
+  "OurRef": "asperiores",
+  "YourRef": "in",
+  "CreatedDate": "2020-07-23T02:49:50.9484136+02:00",
+  "UpdatedDate": "2002-10-06T02:49:50.9484136+02:00",
+  "Description": "Upgradable transitional capability",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-07-27T11:10:52.8581736+02:00",
-  "ExternalRef": "occaecati",
+  "Date": "2012-04-17T02:49:50.9484136+02:00",
+  "ExternalRef": "sunt",
   "Completed": "Completed",
-  "ActiveLinks": 819,
+  "ActiveLinks": 187,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Reichert-McClure",
-      "Id": 956,
-      "Description": "Future-proofed neutral firmware",
-      "ExtraInfo": "ea",
-      "LinkId": 829,
+      "EntityName": "Hammes Inc and Sons",
+      "Id": 185,
+      "Description": "Self-enabling mobile data-warehouse",
+      "ExtraInfo": "iste",
+      "LinkId": 274,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 515
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 909,
-  "Snum": 937,
+  "SuggestedDocumentId": 824,
+  "Snum": 969,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "562754373"
+    "SuperOffice:1": "1516191037",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "pariatur"
+    "CustomFields1": "vel",
+    "CustomFields2": "ex"
   },
-  "PublishEventDate": "2019-12-01T11:10:52.8591744+01:00",
-  "PublishTo": "2016-09-24T11:10:52.8591744+02:00",
-  "PublishFrom": "2013-05-11T11:10:52.8591744+02:00",
+  "PublishEventDate": "2021-04-13T02:49:50.9484136+02:00",
+  "PublishTo": "2017-12-18T02:49:50.9484136+01:00",
+  "PublishFrom": "2008-01-04T02:49:50.9484136+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 973,
+      "VisibleId": 326,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldType": "System.Int32",
+          "FieldLength": 62
         }
       }
     },
     {
-      "VisibleId": 973,
+      "VisibleId": 326,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldType": "System.Int32",
+          "FieldLength": 62
         }
       }
     }
@@ -213,7 +222,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 729
     }
   }
 }

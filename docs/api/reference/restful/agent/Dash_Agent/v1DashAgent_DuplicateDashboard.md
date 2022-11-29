@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/DuplicateDashboard
 
 Duplicate for the dashboard and all the sub elements
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Duplicate for the dashboard and all the sub elements
 ```http
 POST /api/v1/Agents/Dash/DuplicateDashboard?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Dash/DuplicateDashboard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardId, Name
+DashboardId, Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 |  |
 | Name | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,12 +86,12 @@ Response body:
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 941,
-  "Name": "Johns, Donnelly and Bartell"
+  "DashboardId": 691,
+  "Name": "Paucek-Schmeler"
 }
 ```
 
@@ -94,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 305,
-  "UniqueId": "at",
-  "Name": "Von Inc and Sons",
-  "Description": "Open-architected object-oriented Graphical User Interface",
-  "AssociateId": 934,
-  "Columns": 374,
+  "DashboardId": 629,
+  "UniqueId": "facere",
+  "Name": "Stiedemann, Huel and Nader",
+  "Description": "Decentralized 24 hour toolset",
+  "AssociateId": 800,
+  "Columns": 837,
   "Theme": null,
-  "VisibleForAll": 112,
+  "VisibleForAll": 327,
   "VisibleForAssociates": [
-    449,
-    241
+    802,
+    68
   ],
   "VisibleForGroups": [
-    233,
-    327
+    983,
+    750
   ],
-  "PinForAll": 856,
+  "PinForAll": 555,
   "PinForAssociates": [
-    624,
-    881
+    673,
+    846
   ],
   "PinForGroups": [
-    627,
-    889
+    175,
+    735
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 602
     }
   }
 }

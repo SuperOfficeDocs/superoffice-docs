@@ -11,9 +11,16 @@ GET /api/v1/License/{ownerName}
 
 Get license, with usage, as it is stored in the database for one particular module owner.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ownerName | string | Name of the module owner. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get license, with usage, as it is stored in the database for one particular modu
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,21 +72,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 320,
-      "NumberOfLicensesFree": 665,
-      "NumberOfLicensesAdded": 236,
-      "NumberOfLicensesNewTotal": 614,
-      "NumberOfLicensesNewFree": 744,
-      "NumberOfLicensesTotal": 921
+      "NumberOfLicensesInUse": 868,
+      "NumberOfLicensesFree": 294,
+      "NumberOfLicensesAdded": 635,
+      "NumberOfLicensesNewTotal": 118,
+      "NumberOfLicensesNewFree": 788,
+      "NumberOfLicensesTotal": 218
     }
   ],
-  "AccumulatedNextCheckDate": "2009-11-17T11:10:53.7161855+01:00"
+  "AccumulatedNextCheckDate": "2010-01-02T02:49:51.7179026+01:00"
 }
 ```

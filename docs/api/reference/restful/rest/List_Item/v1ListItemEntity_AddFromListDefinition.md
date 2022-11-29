@@ -11,9 +11,16 @@ POST /api/v1/List/{udListDefinitionId}/Items
 
 Save a new list item for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The name of the list definition, indicating which list to save the item to. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Save a new list item for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: item
+## Request Body: item  
 
-The item to save
+The item to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The item to save
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -50,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,16 +77,16 @@ Response body:
 POST /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 573,
-  "Name": "Abbott Group",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "UdListDefinitionId": 708,
-  "Rank": 755
+  "Id": 207,
+  "Name": "Shanahan LLC",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "UdListDefinitionId": 41,
+  "Rank": 746
 }
 ```
 
@@ -89,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 39,
-  "Name": "Beahan-Pfeffer",
-  "Tooltip": "fugiat",
+  "Id": 636,
+  "Name": "Gottlieb-Kreiger",
+  "Tooltip": "rem",
   "Deleted": false,
-  "UdListDefinitionId": 870,
-  "Rank": 574,
+  "UdListDefinitionId": 785,
+  "Rank": 742,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldType": "System.String",
+      "FieldLength": 481
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 
 Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the ap
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier
+ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ ApplicationName, DeviceName, DeviceIdentifier
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,9 +87,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Langosh LLC",
-  "DeviceName": "Spencer, Ondricka and Hilll",
-  "DeviceIdentifier": "impedit"
+  "ApplicationName": "Feeney-Vandervort",
+  "DeviceName": "Marvin Inc and Sons",
+  "DeviceIdentifier": "numquam"
 }
 ```
 
@@ -92,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 673,
-  "Name": "Conroy-O'Keefe",
-  "CreatedDate": "2010-09-30T11:10:27.0784528+02:00",
-  "UpdatedDate": "2011-08-17T11:10:27.0784528+02:00",
-  "AssociateFullName": "Thalia Stoltenberg",
-  "CreatedBy": "aut",
-  "UpdatedBy": "aut",
-  "DeviceIdentifier": "temporibus",
-  "ForeignAppId": 106,
+  "ForeignDeviceId": 435,
+  "Name": "Carroll, Schaden and Weimann",
+  "CreatedDate": "2020-02-24T02:49:44.5454229+01:00",
+  "UpdatedDate": "2001-01-14T02:49:44.5454229+01:00",
+  "AssociateFullName": "Ms. Conner Hyatt",
+  "CreatedBy": "dolor",
+  "UpdatedBy": "optio",
+  "DeviceIdentifier": "alias",
+  "ForeignAppId": 727,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 871
     }
   }
 }

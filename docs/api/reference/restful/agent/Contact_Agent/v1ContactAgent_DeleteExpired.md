@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/DeleteExpired
 
 Trigger deletion of contacts (companies) that has been (soft) deleted and have timed out the expiry period (the SoftDeleteRetention preference).
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -21,6 +27,7 @@ Trigger deletion of contacts (companies) that has been (soft) deleted and have t
 POST /api/v1/Agents/Contact/DeleteExpired?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -30,7 +37,8 @@ POST /api/v1/Agents/Contact/DeleteExpired?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -38,7 +46,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -46,7 +55,7 @@ Response body:
 POST /api/v1/Agents/Contact/DeleteExpired
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

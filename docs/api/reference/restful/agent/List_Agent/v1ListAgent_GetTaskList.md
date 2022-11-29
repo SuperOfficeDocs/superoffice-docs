@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetTaskList
 
 Gets an array of Task objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Task objects.
 ```http
 POST /api/v1/Agents/List/GetTaskList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetTaskList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: taskIds
+## Request Body: taskIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -63,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetTaskList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Value": "quae",
-    "Tooltip": "magnam",
+    "Id": 595,
+    "Value": "asperiores",
+    "Tooltip": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 494
       }
     }
   },
   {
-    "Id": 164,
-    "Value": "quae",
-    "Tooltip": "magnam",
+    "Id": 595,
+    "Value": "asperiores",
+    "Tooltip": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 494
       }
     }
   }

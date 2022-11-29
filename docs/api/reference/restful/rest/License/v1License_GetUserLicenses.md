@@ -11,9 +11,16 @@ GET /api/v1/License/User/{associateId}
 
 Obtain information about associate module licenses
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | Associate id to check for associate module licenses **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Obtain information about associate module licenses
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -53,7 +61,7 @@ Response body: array
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -64,30 +72,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sawayn-Johns",
-    "Description": "Organized incremental complexity",
+    "Name": "Bosco, Moen and Kautzer",
+    "Description": "Advanced didactic structure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 663,
-        "Tooltip": "omnis",
+        "Unrestricted": false,
+        "Total": 58,
+        "Tooltip": "asperiores",
         "CanAssign": false,
-        "Free": 12,
-        "InUse": 288,
+        "Free": 659,
+        "InUse": 983,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 915,
-        "Name": "Buckridge LLC",
-        "Description": "Vision-oriented regional local area network",
-        "PrerequisiteModuleName": "Waelchi LLC",
-        "SortOrder": 789,
-        "ExtraFlags": 1001,
+        "ModuleLicenseId": 445,
+        "Name": "Ankunding Inc and Sons",
+        "Description": "Progressive mission-critical capacity",
+        "PrerequisiteModuleName": "Kreiger, Goodwin and Konopelski",
+        "SortOrder": 400,
+        "ExtraFlags": 773,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 853
+            "FieldLength": 413
           }
         }
       }
@@ -95,25 +103,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 299,
-        "Tooltip": "sunt",
-        "CanAssign": true,
-        "Free": 958,
-        "InUse": 793,
-        "IsHidden": true,
+        "Total": 647,
+        "Tooltip": "eaque",
+        "CanAssign": false,
+        "Free": 507,
+        "InUse": 679,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 996,
-        "Name": "Mills, Kris and Grady",
-        "Description": "Quality-focused empowering paradigm",
-        "PrerequisiteModuleName": "Ledner-Hartmann",
-        "SortOrder": 255,
-        "ExtraFlags": 982,
+        "ModuleLicenseId": 479,
+        "Name": "Morissette Group",
+        "Description": "Reduced bottom-line local area network",
+        "PrerequisiteModuleName": "Toy-Greenfelder",
+        "SortOrder": 304,
+        "ExtraFlags": 732,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 73
+            "FieldLength": 605
           }
         }
       }
@@ -122,36 +130,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 664
+        "FieldType": "System.Int32",
+        "FieldLength": 789
       }
     }
   },
   {
-    "Name": "Sawayn-Johns",
-    "Description": "Organized incremental complexity",
+    "Name": "Bosco, Moen and Kautzer",
+    "Description": "Advanced didactic structure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 663,
-        "Tooltip": "omnis",
+        "Unrestricted": false,
+        "Total": 58,
+        "Tooltip": "asperiores",
         "CanAssign": false,
-        "Free": 12,
-        "InUse": 288,
+        "Free": 659,
+        "InUse": 983,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 915,
-        "Name": "Buckridge LLC",
-        "Description": "Vision-oriented regional local area network",
-        "PrerequisiteModuleName": "Waelchi LLC",
-        "SortOrder": 789,
-        "ExtraFlags": 1001,
+        "ModuleLicenseId": 445,
+        "Name": "Ankunding Inc and Sons",
+        "Description": "Progressive mission-critical capacity",
+        "PrerequisiteModuleName": "Kreiger, Goodwin and Konopelski",
+        "SortOrder": 400,
+        "ExtraFlags": 773,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 853
+            "FieldLength": 413
           }
         }
       }
@@ -159,25 +167,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 299,
-        "Tooltip": "sunt",
-        "CanAssign": true,
-        "Free": 958,
-        "InUse": 793,
-        "IsHidden": true,
+        "Total": 647,
+        "Tooltip": "eaque",
+        "CanAssign": false,
+        "Free": 507,
+        "InUse": 679,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 996,
-        "Name": "Mills, Kris and Grady",
-        "Description": "Quality-focused empowering paradigm",
-        "PrerequisiteModuleName": "Ledner-Hartmann",
-        "SortOrder": 255,
-        "ExtraFlags": 982,
+        "ModuleLicenseId": 479,
+        "Name": "Morissette Group",
+        "Description": "Reduced bottom-line local area network",
+        "PrerequisiteModuleName": "Toy-Greenfelder",
+        "SortOrder": 304,
+        "ExtraFlags": 732,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 73
+            "FieldLength": 605
           }
         }
       }
@@ -186,8 +194,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 664
+        "FieldType": "System.Int32",
+        "FieldLength": 789
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/DatabaseTable/Insert
 
 Mass-insert rows, with or without primary keys specified.
 
+
 Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Works on physical tables with no special processing for udef etc.; traveltransac
 ```http
 POST /api/v1/Agents/DatabaseTable/Insert?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/DatabaseTable/Insert?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, Columns, Data
+TableName, Columns, Data 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ TableName, Columns, Data
 | Columns | array |  |
 | Data | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,14 +82,14 @@ Response body:
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kutch-Ledner",
+  "TableName": "Muller Inc and Sons",
   "Columns": [
-    "rerum",
-    "asperiores"
+    "corrupti",
+    "quisquam"
   ],
   "Data": [
     [
@@ -101,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "provident",
-  "Inserts": 983,
-  "Updates": 506,
-  "Deletes": 148,
+  "Success": true,
+  "Message": "esse",
+  "Inserts": 425,
+  "Updates": 49,
+  "Deletes": 357,
   "RowStatus": [
     {
-      "PrimaryKey": 869,
+      "PrimaryKey": 649,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "inventore"
+        "velit",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 723
+          "FieldType": "System.Int32",
+          "FieldLength": 399
         }
       }
     },
     {
-      "PrimaryKey": 869,
+      "PrimaryKey": 649,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "inventore"
+        "velit",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 723
+          "FieldType": "System.Int32",
+          "FieldLength": 399
         }
       }
     }
@@ -145,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 7
     }
   }
 }

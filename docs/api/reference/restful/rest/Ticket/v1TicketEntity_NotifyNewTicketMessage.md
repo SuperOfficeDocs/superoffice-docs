@@ -11,9 +11,16 @@ POST /api/v1/Ticket/{ticketEntityId}/NotifyNewMessage
 
 Notify user agents about the creation of a new message on a ticket
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ticketEntityId | int32 | The id of the ticket to notify about **Required** |
+
+
 
 ## Request Headers
 
@@ -24,7 +31,8 @@ Notify user agents about the creation of a new message on a ticket
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -32,7 +40,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 

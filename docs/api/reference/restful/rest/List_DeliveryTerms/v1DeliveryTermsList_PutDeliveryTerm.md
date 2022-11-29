@@ -11,9 +11,16 @@ PUT /api/v1/List/DeliveryTerm/Items/{id}
 
 Updates an existing DeliveryTerm list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of DeliveryTerm to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing DeliveryTerm list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of DeliveryTerm list item to be saved.
+The details of DeliveryTerm list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The details of DeliveryTerm list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 189,
-  "Name": "Kshlerin Inc and Sons",
-  "Tooltip": "est",
-  "Deleted": false,
-  "UdListDefinitionId": 720,
-  "Rank": 570
+  "Id": 474,
+  "Name": "Schaefer Group",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "UdListDefinitionId": 782,
+  "Rank": 845
 }
 ```
 
@@ -90,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Leuschke-Buckridge",
-  "Tooltip": "esse",
+  "Id": 478,
+  "Name": "Littel, Shanahan and Lakin",
+  "Tooltip": "libero",
   "Deleted": false,
-  "UdListDefinitionId": 440,
-  "Rank": 884,
+  "UdListDefinitionId": 866,
+  "Rank": 845,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldType": "System.String",
+      "FieldLength": 958
     }
   }
 }

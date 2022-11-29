@@ -11,7 +11,13 @@ POST /api/v1/Agents/ViewState/SaveHistories
 
 Replaces the existing history-list for the currently logged in user.
 
+
 All elements must belong to the same history list. If not they are ignored.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ All elements must belong to the same history list. If not they are ignored.
 ```http
 POST /api/v1/Agents/ViewState/SaveHistories?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/ViewState/SaveHistories?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-HistoryName, History
+HistoryName, History 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | HistoryName | string |  |
 | History | array |  |
+
 
 ## Response: array
 
@@ -78,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Donnelly LLC",
+  "HistoryName": "Paucek, Hyatt and Bergstrom",
   "History": [
     {
-      "Rank": 873,
-      "Id": 834,
-      "HistoryName": "Durgan Group",
-      "HistoryId": 712,
-      "AssociateId": 343,
-      "Name": "Grady-Wilderman",
-      "ItemInfo": "aut"
+      "Rank": 920,
+      "Id": 724,
+      "HistoryName": "Lind Inc and Sons",
+      "HistoryId": 637,
+      "AssociateId": 154,
+      "Name": "McDermott-Jakubowski",
+      "ItemInfo": "ut"
     }
   ]
 }
@@ -101,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 293,
-    "Id": 477,
-    "HistoryName": "Cassin Group",
-    "HistoryId": 429,
-    "AssociateId": 586,
-    "Name": "Bergnaum Inc and Sons",
-    "ItemInfo": "sunt",
+    "Rank": 814,
+    "Id": 910,
+    "HistoryName": "Stroman Group",
+    "HistoryId": 622,
+    "AssociateId": 519,
+    "Name": "Luettgen-Stracke",
+    "ItemInfo": "nam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldType": "System.String",
+        "FieldLength": 924
       }
     }
   }

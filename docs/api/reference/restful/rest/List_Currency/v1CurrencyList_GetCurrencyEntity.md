@@ -11,11 +11,18 @@ GET /api/v1/List/Currency/Items/{id}
 
 Gets a CurrencyEntity list item.
 
+
 Calls the List agent service GetCurrencyEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Currency to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Calls the List agent service GetCurrencyEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -39,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +67,7 @@ Response body:
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 152,
-  "Name": "Kirlin-Lemke",
-  "Tooltip": "est",
-  "Rank": 892,
-  "Rate": 10238.778,
-  "Units": 15021.261999999999,
-  "Deleted": false,
+  "CurrencyId": 836,
+  "Name": "Schmitt LLC",
+  "Tooltip": "aut",
+  "Rank": 775,
+  "Rate": 17935.881999999998,
+  "Units": 22433.172,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 837
+      "FieldLength": 705
     }
   }
 }

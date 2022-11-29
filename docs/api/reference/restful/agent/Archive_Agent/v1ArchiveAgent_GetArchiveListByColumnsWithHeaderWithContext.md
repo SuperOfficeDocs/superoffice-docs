@@ -11,19 +11,39 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 
 Get a page of results for an archive list, with context parameter, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options.
 
-The return value includes a header that has various extra information, in addition to the actual rows.
+
+The return value includes a header that has various extra information, in addition to the actual rows. 
 Archive Restriction Info objects represent search terms.
+
 
 Column names and operator strings are defined elsewhere.
 
+
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
+
+
+
+
+
 
 ```
 
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -34,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -49,9 +70,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options, Context
+ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +86,8 @@ ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options
 | Options | string |  |
 | Context | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -73,7 +95,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,36 +110,36 @@ Response body:
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cruickshank, Walter and Powlowski",
+  "ProviderName": "Rosenbaum Inc and Sons",
   "Columns": [
-    "ut",
-    "nisi"
+    "velit",
+    "enim"
   ],
   "SortOrder": [
     {
-      "Name": "Dibbert-Kirlin",
+      "Name": "Legros Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Dibbert-Kirlin",
+      "Name": "Legros Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Stiedemann, Stamm and Lynch",
-      "Operator": "voluptatem",
+      "Name": "Kuvalis, Mann and Sporer",
+      "Operator": "quis",
       "Values": [
-        "quaerat",
-        "quae"
+        "aliquid",
+        "temporibus"
       ],
       "DisplayValues": [
-        "officia",
-        "molestiae"
+        "molestiae",
+        "cumque"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,19 +147,19 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 230,
+      "InterParenthesis": 936,
       "InterOperator": "And",
-      "UniqueHash": 56
+      "UniqueHash": 492
     }
   ],
   "Entities": [
-    "vitae",
-    "et"
+    "minus",
+    "voluptatem"
   ],
-  "Page": 552,
-  "PageSize": 155,
-  "Options": "quia",
-  "Context": "totam"
+  "Page": 240,
+  "PageSize": 516,
+  "Options": "commodi",
+  "Context": "repellat"
 }
 ```
 
@@ -148,26 +170,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 723,
+  "RowCount": 959,
   "Rows": [
     {
-      "EntityName": "Bergnaum Inc and Sons",
-      "PrimaryKey": 517,
+      "EntityName": "Nader, Kunde and Funk",
+      "PrimaryKey": 101,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "iusto",
-          "TooltipHint": "aperiam",
-          "LinkHint": "temporibus"
+          "DisplayValue": "excepturi",
+          "TooltipHint": "laudantium",
+          "LinkHint": "alias"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "ad",
+      "LinkHint": "doloremque",
+      "StyleHint": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 564
+          "FieldType": "System.String",
+          "FieldLength": 513
         }
       }
     }
@@ -176,8 +198,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 482
+      "FieldType": "System.Int32",
+      "FieldLength": 823
     }
   }
 }

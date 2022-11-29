@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetProductImage
 
 Gets an image connected to a product, from the ProductProvider
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an image connected to a product, from the ProductProvider
 ```http
 POST /api/v1/Agents/Quote/GetProductImage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/GetProductImage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId, ERPProductKey, Rank
+QuoteConnectionId, ERPProductKey, Rank 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 | ERPProductKey | string |  |
 | Rank | int32 |  |
+
 
 ## Response: string
 
@@ -55,6 +63,7 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
@@ -65,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 298,
-  "ERPProductKey": "adipisci",
-  "Rank": 396
+  "QuoteConnectionId": 279,
+  "ERPProductKey": "aut",
+  "Rank": 213
 }
 ```
 
@@ -77,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"qui"
+"sint"
 ```

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 
 Update the criteria for this dynamic selection.
 
+
 Replaces existing criteria with the new values. This call supports multiple criteria groups.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Replaces existing criteria with the new values. This call supports multiple crit
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Criteria
+SelectionId, Criteria 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Criteria | array |  |
+
 
 ## Response: array
 
@@ -69,25 +77,25 @@ Response body: array
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 298,
+  "SelectionId": 758,
   "Criteria": [
     {
-      "Name": "Walsh LLC",
-      "Description": "Expanded coherent process improvement",
-      "Rank": 321,
+      "Name": "Wintheiser-Kiehn",
+      "Description": "Networked dedicated firmware",
+      "Rank": 132,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Walsh LLC",
-      "Description": "Expanded coherent process improvement",
-      "Rank": 321,
+      "Name": "Wintheiser-Kiehn",
+      "Description": "Networked dedicated firmware",
+      "Rank": 132,
       "Restrictions": [
         {},
         {}
@@ -105,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Yost Group",
-    "Description": "Persevering interactive hierarchy",
-    "Rank": 396,
+    "Name": "Walker-Beer",
+    "Description": "Multi-channelled motivating neural-net",
+    "Rank": 900,
     "Restrictions": [
       {
-        "Name": "Marquardt, Boyle and Kertzmann",
-        "Operator": "debitis",
+        "Name": "Botsford, Gusikowski and Stokes",
+        "Operator": "tempore",
         "Values": [
-          "inventore",
-          "numquam"
+          "ab",
+          "rerum"
         ],
         "DisplayValues": [
-          "id",
-          "perferendis"
+          "sed",
+          "veniam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 123,
+        "InterParenthesis": 794,
         "InterOperator": "And",
-        "UniqueHash": 280
+        "UniqueHash": 175
       }
     ]
   },
   {
-    "Name": "Yost Group",
-    "Description": "Persevering interactive hierarchy",
-    "Rank": 396,
+    "Name": "Walker-Beer",
+    "Description": "Multi-channelled motivating neural-net",
+    "Rank": 900,
     "Restrictions": [
       {
-        "Name": "Marquardt, Boyle and Kertzmann",
-        "Operator": "debitis",
+        "Name": "Botsford, Gusikowski and Stokes",
+        "Operator": "tempore",
         "Values": [
-          "inventore",
-          "numquam"
+          "ab",
+          "rerum"
         ],
         "DisplayValues": [
-          "id",
-          "perferendis"
+          "sed",
+          "veniam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -154,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 123,
+        "InterParenthesis": 794,
         "InterOperator": "And",
-        "UniqueHash": 280
+        "UniqueHash": 175
       }
     ]
   }

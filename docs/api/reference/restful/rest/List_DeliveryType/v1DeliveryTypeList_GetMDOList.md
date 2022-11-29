@@ -11,6 +11,12 @@ GET /api/v1/List/DeliveryType/MDOItems
 
 Get the MDO list items for "DeliveryType" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=quam
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=et
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/DeliveryType/MDOItems?query=quam
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Anderson, Thiel and Corkery",
-    "ToolTip": "Eum rem repellendus est.",
+    "Id": 176,
+    "Name": "Vandervort Group",
+    "ToolTip": "Molestias eius est ipsa nam ut explicabo magnam.",
     "Deleted": false,
-    "Rank": 904,
-    "Type": "sed",
+    "Rank": 682,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 332,
-        "Name": "Windler, Bradtke and Christiansen",
-        "ToolTip": "Magni labore delectus.",
+        "Id": 34,
+        "Name": "Towne, Bradtke and Cummerata",
+        "ToolTip": "Voluptates nisi.",
         "Deleted": false,
-        "Rank": 885,
-        "Type": "nemo",
+        "Rank": 881,
+        "Type": "reprehenderit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquid",
-        "ColorBlock": 751,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "molestias",
-        "FullName": "Sylvia Durgan",
+        "IconHint": "aspernatur",
+        "ColorBlock": 76,
+        "ExtraInfo": "nemo",
+        "StyleHint": "quo",
+        "FullName": "Miss Elisha Elyssa Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldType": "System.String",
+            "FieldLength": 896
           }
         }
       }
     ],
-    "IconHint": "praesentium",
-    "ColorBlock": 419,
-    "ExtraInfo": "dolores",
-    "StyleHint": "tenetur",
-    "FullName": "Chaya Waino Towne DDS",
+    "IconHint": "sit",
+    "ColorBlock": 923,
+    "ExtraInfo": "omnis",
+    "StyleHint": "est",
+    "FullName": "Kurtis Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldLength": 800
       }
     }
   }

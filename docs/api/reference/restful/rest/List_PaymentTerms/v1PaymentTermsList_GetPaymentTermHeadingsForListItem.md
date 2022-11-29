@@ -11,11 +11,17 @@ GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 
 Gets headings for the PaymentTerm list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Volkman LLC",
-    "ToolTip": "Quidem voluptas laborum odit qui.",
+    "Id": 358,
+    "Name": "Nikolaus, Altenwerth and Koepp",
+    "ToolTip": "Ut et sit laudantium dolorem.",
     "Deleted": false,
-    "Rank": 18,
-    "Type": "cum",
-    "ColorBlock": 429,
-    "IconHint": "in",
+    "Rank": 521,
+    "Type": "ea",
+    "ColorBlock": 160,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2011-04-09T11:10:54.3449022+02:00",
+    "LastChanged": "2019-10-28T02:49:52.2971911+01:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "Block LLC",
-        "ToolTip": "Accusantium voluptatem atque aut saepe facere mollitia.",
+        "Id": 811,
+        "Name": "Quitzon Group",
+        "ToolTip": "Alias doloremque odio temporibus nobis adipisci voluptate ut.",
         "Deleted": false,
-        "Rank": 610,
-        "Type": "fugit",
-        "ColorBlock": 717,
-        "IconHint": "doloremque",
+        "Rank": 815,
+        "Type": "earum",
+        "ColorBlock": 96,
+        "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "2011-08-18T11:10:54.3459022+02:00",
+        "LastChanged": "2012-10-26T02:49:52.2971911+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "mollitia",
-        "Hidden": true,
-        "FullName": "Loren Sauer",
+        "ExtraInfo": "odio",
+        "StyleHint": "ab",
+        "Hidden": false,
+        "FullName": "Floyd Buckridge III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 84
+            "FieldLength": 248
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "quia",
+    "StyleHint": "veniam",
     "Hidden": false,
-    "FullName": "Dora Hodkiewicz",
+    "FullName": "Anna Alva Wehner I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldLength": 832
       }
     }
   }

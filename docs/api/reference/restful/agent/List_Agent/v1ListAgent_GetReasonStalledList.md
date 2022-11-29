@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetReasonStalledList
 
 Gets an array of ReasonStalled objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of ReasonStalled objects.
 ```http
 POST /api/v1/Agents/List/GetReasonStalledList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetReasonStalledList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: reasonStalledIds
+## Request Body: reasonStalledIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -63,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetReasonStalledList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 388,
-    "Value": "ab",
-    "Tooltip": "velit",
+    "Id": 940,
+    "Value": "provident",
+    "Tooltip": "unde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldType": "System.String",
+        "FieldLength": 76
       }
     }
   },
   {
-    "Id": 388,
-    "Value": "ab",
-    "Tooltip": "velit",
+    "Id": 940,
+    "Value": "provident",
+    "Tooltip": "unde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldType": "System.String",
+        "FieldLength": 76
       }
     }
   }

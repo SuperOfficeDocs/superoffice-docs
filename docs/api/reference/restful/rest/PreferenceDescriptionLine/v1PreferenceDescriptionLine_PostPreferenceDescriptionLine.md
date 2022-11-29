@@ -11,7 +11,13 @@ POST /api/v1/PreferenceDescriptionLine
 
 Creates a new PreferenceDescriptionLine
 
+
 Calls the Preference agent service SavePreferenceDescriptionLine.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Preference agent service SavePreferenceDescriptionLine.
 ```http
 POST /api/v1/PreferenceDescriptionLine?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/PreferenceDescriptionLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The PreferenceDescriptionLine to be saved.
+The PreferenceDescriptionLine to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,8 @@ The PreferenceDescriptionLine to be saved.
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -58,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,12 +90,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 434,
-  "PrefDescId": 883,
-  "PrefValue": "dolor",
-  "PrefShowValue": "possimus",
-  "Description": "Up-sized grid-enabled service-desk",
-  "IsBuiltin": true
+  "PrefDescLineId": 212,
+  "PrefDescId": 167,
+  "PrefValue": "veritatis",
+  "PrefShowValue": "dolor",
+  "Description": "Polarised bottom-line initiative",
+  "IsBuiltin": false
 }
 ```
 
@@ -98,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 486,
-  "PrefDescId": 589,
-  "PrefValue": "enim",
-  "PrefShowValue": "rerum",
-  "Description": "Horizontal demand-driven data-warehouse",
+  "PrefDescLineId": 460,
+  "PrefDescId": 448,
+  "PrefValue": "consequuntur",
+  "PrefShowValue": "blanditiis",
+  "Description": "Seamless discrete moderator",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldType": "System.String",
+      "FieldLength": 211
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

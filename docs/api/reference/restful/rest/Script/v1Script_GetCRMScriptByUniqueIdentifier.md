@@ -11,11 +11,20 @@ GET /api/v1/Script/{uniqueIdentifier}
 
 Get information about a script from a unique identifier
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | uniqueIdentifier | string | Global unique reference to script (independent of installation) **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +39,8 @@ Get information about a script from a unique identifier
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +48,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +71,7 @@ Response body:
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "suscipit",
-  "Name": "Cole Inc and Sons",
-  "Description": "Pre-emptive bottom-line firmware",
-  "IncludeId": "eius",
-  "Source": "quia",
-  "Registered": "1997-03-23T11:10:53.7882124+01:00",
-  "RegisteredBy": "sed",
-  "Updated": "2007-03-07T11:10:53.7882124+01:00",
-  "UpdatedBy": "omnis",
-  "Path": "eaque",
+  "UniqueIdentifier": "dolores",
+  "Name": "Marquardt, Lockman and Grant",
+  "Description": "Front-line tertiary protocol",
+  "IncludeId": "quos",
+  "Source": "laudantium",
+  "Registered": "2000-12-31T02:49:51.7803982+01:00",
+  "RegisteredBy": "nisi",
+  "Updated": "2018-09-04T02:49:51.7803982+02:00",
+  "UpdatedBy": "sequi",
+  "Path": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldLength": 519
     }
   }
 }

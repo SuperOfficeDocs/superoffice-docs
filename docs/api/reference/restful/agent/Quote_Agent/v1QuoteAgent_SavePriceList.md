@@ -11,6 +11,13 @@ POST /api/v1/Agents/Quote/SavePriceList
 
 Updates the existing PriceList or creates a new PriceList if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing PriceList or creates a new PriceList if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The PriceList to be saved.
+The PriceList to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The PriceList to be saved.
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -50,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,20 +81,20 @@ Response body:
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 313,
-  "ERPPriceListKey": "quia",
-  "QuoteConnectionId": 816,
-  "Name": "Moen LLC",
-  "Description": "Implemented full-range knowledge base",
-  "Currency": "omnis",
-  "CurrencyName": "West, Botsford and Brown",
-  "ValidFrom": "2016-05-21T11:10:27.6724244+02:00",
-  "ValidTo": "2014-01-08T11:10:27.6724244+01:00",
-  "IsActive": true
+  "PriceListId": 96,
+  "ERPPriceListKey": "cupiditate",
+  "QuoteConnectionId": 275,
+  "Name": "Satterfield Group",
+  "Description": "Business-focused optimizing encoding",
+  "Currency": "sed",
+  "CurrencyName": "Daniel-Lowe",
+  "ValidFrom": "2021-02-25T02:49:45.0153392+01:00",
+  "ValidTo": "1996-11-06T02:49:45.0153392+01:00",
+  "IsActive": false
 }
 ```
 
@@ -97,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 167,
-  "ERPPriceListKey": "quasi",
-  "QuoteConnectionId": 933,
-  "Name": "Stroman Inc and Sons",
-  "Description": "Public-key zero tolerance productivity",
-  "Currency": "quaerat",
-  "CurrencyName": "Jacobson Inc and Sons",
-  "ValidFrom": "2012-10-26T11:10:27.6734518+02:00",
-  "ValidTo": "2013-05-28T11:10:27.6734518+02:00",
+  "PriceListId": 940,
+  "ERPPriceListKey": "rem",
+  "QuoteConnectionId": 746,
+  "Name": "Anderson, Wisoky and Langworth",
+  "Description": "Progressive zero tolerance migration",
+  "Currency": "qui",
+  "CurrencyName": "McKenzie LLC",
+  "ValidFrom": "2015-01-26T02:49:45.0153392+01:00",
+  "ValidTo": "2021-04-24T02:49:45.0153392+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 99
     }
   }
 }

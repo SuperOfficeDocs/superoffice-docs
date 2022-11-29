@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetMyAudienceLayout
 
 Gets the Audience layout belonging to the currently logged on user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the Audience layout belonging to the currently logged on user.
 ```http
 POST /api/v1/Agents/Audience/GetMyAudienceLayout?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,8 @@ POST /api/v1/Agents/Audience/GetMyAudienceLayout?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -42,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +70,7 @@ Response body:
 POST /api/v1/Agents/Audience/GetMyAudienceLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 230,
-  "InstanceLayout": "pariatur",
-  "InstanceName": "Kessler Inc and Sons",
-  "CreatedDate": "2016-07-26T11:10:26.0125569+02:00",
-  "UpdatedDate": "1997-06-04T11:10:26.0125569+02:00",
+  "AudienceLayoutId": 615,
+  "InstanceLayout": "dolore",
+  "InstanceName": "Sauer-Bogan",
+  "CreatedDate": "2003-07-06T02:49:43.6847821+02:00",
+  "UpdatedDate": "2003-12-27T02:49:43.6847821+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -84,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 878
     }
   }
 }

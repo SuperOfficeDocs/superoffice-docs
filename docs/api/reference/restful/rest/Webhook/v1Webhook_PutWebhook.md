@@ -11,11 +11,19 @@ PUT /api/v1/Webhook/{id}
 
 Updates the existing Webhook
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Webhook id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +34,7 @@ Updates the existing Webhook
 ```http
 PUT /api/v1/Webhook/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -41,9 +50,9 @@ PUT /api/v1/Webhook/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Webhook to be saved.
+The Webhook to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +70,8 @@ The Webhook to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate |  | The user that last updated the webhook. |
 
-## Response
+
+## Response: 
 
 Webhook updated.
 
@@ -70,7 +80,7 @@ Webhook updated.
 | 200 | Webhook updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,30 +105,30 @@ Response body:
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 321,
-  "Name": "Mueller-Yost",
+  "WebhookId": 759,
+  "Name": "Strosin LLC",
   "Events": [
-    "est",
-    "impedit"
+    "necessitatibus",
+    "non"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quia",
+  "Secret": "quisquam",
   "State": "Active",
-  "Type": "laborum",
+  "Type": "quia",
   "Headers": {
-    "Headers1": "nihil",
-    "Headers2": "molestiae"
+    "Headers1": "ipsam",
+    "Headers2": "quos"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2007-09-05T11:10:53.8741822+02:00",
+  "Registered": "1998-01-08T02:49:51.844034+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-08-10T11:10:53.8751838+02:00",
+  "Updated": "2009-01-21T02:49:51.844034+01:00",
   "UpdatedAssociate": null
 }
 ```
@@ -130,26 +140,26 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 627,
-  "Name": "Bernhard-Goldner",
+  "WebhookId": 110,
+  "Name": "Murphy, Dare and Pouros",
   "Events": [
     "praesentium",
-    "consequatur"
+    "omnis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptas",
+  "Secret": "fugiat",
   "State": "Active",
-  "Type": "nesciunt",
+  "Type": "nihil",
   "Headers": {
-    "Headers1": "dignissimos",
-    "Headers2": "placeat"
+    "Headers1": "perferendis",
+    "Headers2": "repudiandae"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2017-11-15T11:10:53.8761826+01:00",
+  "Registered": "2007-09-01T02:49:51.844034+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2008-06-19T11:10:53.8761826+02:00",
+  "Updated": "2018-03-16T02:49:51.8596935+01:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",

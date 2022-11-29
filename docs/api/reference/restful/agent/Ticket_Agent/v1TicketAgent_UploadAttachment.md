@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/UploadAttachment
 
 Upload an attachment and return the attachment id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Upload an attachment and return the attachment id
 ```http
 POST /api/v1/Agents/Ticket/UploadAttachment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/Ticket/UploadAttachment?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AttachmentId, Content
+AttachmentId, Content 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AttachmentId | int32 |  |
 | Content | byte |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,11 +65,11 @@ Response body:
 POST /api/v1/Agents/Ticket/UploadAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 8,
+  "AttachmentId": 659,
   "Content": "GIF89....File contents as raw bytes..."
 }
 ```

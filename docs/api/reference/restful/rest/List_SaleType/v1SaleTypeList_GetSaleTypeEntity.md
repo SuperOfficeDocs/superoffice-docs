@@ -11,11 +11,18 @@ GET /api/v1/List/SaleType/Items/{id}
 
 Gets a SaleTypeEntity list item.
 
+
 Calls the List agent service GetSaleTypeEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the SaleType to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Calls the List agent service GetSaleTypeEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -39,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +82,7 @@ Response body:
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,53 +92,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 867,
-  "Name": "Hilll, Koelpin and Adams",
-  "Tooltip": "corrupti",
-  "Rank": 791,
+  "SaleTypeId": 360,
+  "Name": "King Inc and Sons",
+  "Tooltip": "nobis",
+  "Rank": 543,
   "DurationUnit": "Century",
-  "SaleDuration": 967,
-  "SaleTypeCatId": 742,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "SaleDuration": 572,
+  "SaleTypeCatId": 197,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 75,
-  "QuoteLinesTemplate": 340,
-  "ConfirmationLinesTemplate": 186,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 297,
-  "MinEarningPercent": 583,
-  "GroupQuoteLinesBy": 760,
-  "SortGroupLinesBy": 626,
+  "DefaultQuoteValidity": 209,
+  "QuoteLinesTemplate": 362,
+  "ConfirmationLinesTemplate": 745,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 711,
+  "MinEarningPercent": 175,
+  "GroupQuoteLinesBy": 887,
+  "SortGroupLinesBy": 847,
   "Stages": [
     {
-      "Id": 7,
-      "Name": "Lueilwitz, Hermiston and Fahey",
-      "ToolTip": "Impedit nulla officia consequuntur minima.",
-      "Deleted": false,
-      "Rank": 238,
-      "Type": "nesciunt",
-      "ColorBlock": 303,
-      "IconHint": "odit",
+      "Id": 58,
+      "Name": "Miller-Tillman",
+      "ToolTip": "Exercitationem autem.",
+      "Deleted": true,
+      "Rank": 523,
+      "Type": "commodi",
+      "ColorBlock": 627,
+      "IconHint": "ipsa",
       "Selected": true,
-      "LastChanged": "2000-03-04T11:10:54.599935+01:00",
+      "LastChanged": "2015-09-15T02:49:52.5003264+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "illo",
-      "StyleHint": "sit",
-      "Hidden": true,
-      "FullName": "Dr. Angelita Vern Armstrong II",
+      "ExtraInfo": "exercitationem",
+      "StyleHint": "aliquid",
+      "Hidden": false,
+      "FullName": "Joshua Hermann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 575
+          "FieldType": "System.Int32",
+          "FieldLength": 209
         }
       }
     }
@@ -140,7 +148,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldLength": 500
     }
   }
 }

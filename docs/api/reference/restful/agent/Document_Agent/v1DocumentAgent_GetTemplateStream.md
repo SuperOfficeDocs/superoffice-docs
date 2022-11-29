@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetTemplateStream
 
 Retrieve a stream to a mail template based on its name
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Retrieve a stream to a mail template based on its name
 ```http
 POST /api/v1/Agents/Document/GetTemplateStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Document/GetTemplateStream?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TemplateName, AllowPersonal, UiCulture
+TemplateName, AllowPersonal, UiCulture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TemplateName | string |  |
 | AllowPersonal | bool |  |
 | UiCulture | string |  |
+
 
 ## Response: byte
 
@@ -55,19 +63,20 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Boyer-Shields",
+  "TemplateName": "Schowalter-Shanahan",
   "AllowPersonal": true,
-  "UiCulture": "reiciendis"
+  "UiCulture": "nesciunt"
 }
 ```
 

@@ -11,11 +11,18 @@ GET /api/v1/List/Position/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Position list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 297,
-    "Name": "King Group",
-    "ToolTip": "Ea adipisci ea est nulla quibusdam odit dolorem.",
-    "Deleted": true,
-    "Rank": 615,
-    "Type": "laudantium",
-    "ColorBlock": 258,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "2010-09-18T11:10:54.3729027+02:00",
+    "Id": 996,
+    "Name": "Gibson-Buckridge",
+    "ToolTip": "Velit rerum sit libero sed laudantium repellat fugit.",
+    "Deleted": false,
+    "Rank": 305,
+    "Type": "tempora",
+    "ColorBlock": 65,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2013-04-05T02:49:52.3128229+02:00",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Pfeffer Inc and Sons",
-        "ToolTip": "Fuga ut ex earum est et sit et.",
+        "Id": 861,
+        "Name": "Goodwin Inc and Sons",
+        "ToolTip": "A omnis aperiam dolores dolorem architecto.",
         "Deleted": false,
-        "Rank": 810,
-        "Type": "laboriosam",
-        "ColorBlock": 47,
-        "IconHint": "molestiae",
+        "Rank": 64,
+        "Type": "quis",
+        "ColorBlock": 548,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2019-08-12T11:10:54.3729027+02:00",
+        "LastChanged": "2004-05-16T02:49:52.3128229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "exercitationem",
-        "Hidden": false,
-        "FullName": "Jacques Zaria Osinski II",
+        "ExtraInfo": "vitae",
+        "StyleHint": "aspernatur",
+        "Hidden": true,
+        "FullName": "Orland Robel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 152
+            "FieldLength": 805
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "voluptatum",
     "Hidden": true,
-    "FullName": "Annabelle Nicolas",
+    "FullName": "Orion Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldLength": 784
       }
     }
   }

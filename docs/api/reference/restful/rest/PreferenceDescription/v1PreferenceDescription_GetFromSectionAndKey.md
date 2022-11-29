@@ -11,10 +11,17 @@ GET /api/v1/PreferenceDescription/{section}/{key}
 
 Gets a PreferenceDescription based on the section and key
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The PreferenceDescription-section **Required** |
 | key | string | The PreferenceDescription-key **Required** |
+
+
 
 ## Request Headers
 
@@ -29,7 +36,8 @@ Gets a PreferenceDescription based on the section and key
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -37,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +76,7 @@ Response body:
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,30 +86,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 587,
-  "Section": "omnis",
-  "Key": "minus",
-  "Name": "Kihn Group",
+  "PrefDescId": 778,
+  "Section": "velit",
+  "Key": "pariatur",
+  "Name": "Bednar-Runte",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Business-focused reciprocal paradigm",
+  "Description": "Virtual uniform approach",
   "IsBuiltin": false,
-  "TableName": "Johns LLC",
-  "UserDefinedListId": 414,
-  "Rank": 137,
-  "SubGroup": "consequuntur",
-  "MinLevel": 502,
-  "MaxValue": 118,
-  "MinValue": 849,
-  "RequiredLicense": "sit",
+  "TableName": "Botsford, Pfeffer and Kub",
+  "UserDefinedListId": 569,
+  "Rank": 687,
+  "SubGroup": "eum",
+  "MinLevel": 472,
+  "MaxValue": 85,
+  "MinValue": 237,
+  "RequiredLicense": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 741
     }
   }
 }

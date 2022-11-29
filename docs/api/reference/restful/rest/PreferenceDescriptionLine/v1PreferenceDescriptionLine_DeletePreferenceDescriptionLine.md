@@ -11,11 +11,18 @@ DELETE /api/v1/PreferenceDescriptionLine/{id}
 
 Deletes the PreferenceDescriptionLine
 
+
 Calls the Preference agent service DeletePreferenceDescriptionLine.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PreferenceDescriptionLine to be deleted. **Required** |
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Calls the Preference agent service DeletePreferenceDescriptionLine.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 PreferenceDescriptionLine deleted.
 
@@ -34,7 +42,8 @@ PreferenceDescriptionLine deleted.
 |----------------|-------------|
 | 204 | PreferenceDescriptionLine deleted. |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -42,7 +51,7 @@ Response body:
 DELETE /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

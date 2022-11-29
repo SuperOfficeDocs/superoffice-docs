@@ -11,10 +11,17 @@ PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 
 Update User groups that this list item is visible for
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to update the items from. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Update User groups that this list item is visible for
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: userGroups
+## Request Body: userGroups  
 
-The selectable user groups.
+The selectable user groups. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,6 +58,7 @@ The selectable user groups.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -88,47 +96,47 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 897,
-    "Name": "Witting-Blanda",
-    "ToolTip": "Libero sint.",
+    "Id": 563,
+    "Name": "Kerluke-Paucek",
+    "ToolTip": "Non qui aperiam.",
     "Deleted": true,
-    "Rank": 255,
-    "Type": "rerum",
-    "ColorBlock": 56,
-    "IconHint": "repellendus",
+    "Rank": 177,
+    "Type": "vel",
+    "ColorBlock": 180,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2010-01-20T11:10:53.8922135+01:00",
+    "LastChanged": "2005-03-11T02:49:51.8596935+01:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Toy Group",
-        "ToolTip": "Nulla aut ullam dolore rerum sit quis.",
+        "Id": 582,
+        "Name": "Flatley Inc and Sons",
+        "ToolTip": "Eligendi recusandae nesciunt.",
         "Deleted": false,
-        "Rank": 758,
-        "Type": "inventore",
-        "ColorBlock": 861,
-        "IconHint": "quos",
+        "Rank": 500,
+        "Type": "est",
+        "ColorBlock": 155,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "2011-01-31T11:10:53.8922135+01:00",
+        "LastChanged": "2010-09-01T02:49:51.8596935+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "libero",
+        "ExtraInfo": "eos",
+        "StyleHint": "ratione",
         "Hidden": true,
-        "FullName": "Ms. Sammie Gabriella McDermott"
+        "FullName": "Virgil Russel"
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Buddy Toy"
+    "ExtraInfo": "non",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Barry Kunde"
   }
 ]
 ```
@@ -141,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 456,
-    "Name": "Reichel Inc and Sons",
-    "ToolTip": "Dolorum ad consectetur qui rem eveniet.",
-    "Deleted": false,
-    "Rank": 873,
-    "Type": "culpa",
-    "ColorBlock": 147,
-    "IconHint": "praesentium",
-    "Selected": false,
-    "LastChanged": "2012-12-04T11:10:53.894216+01:00",
+    "Id": 507,
+    "Name": "Fadel Group",
+    "ToolTip": "Perferendis at eligendi assumenda eveniet veritatis voluptatibus sit.",
+    "Deleted": true,
+    "Rank": 589,
+    "Type": "provident",
+    "ColorBlock": 698,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "1996-10-14T02:49:51.8753193+02:00",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Tromp-Thiel",
-        "ToolTip": "Dolorem molestiae minima qui iusto non doloremque.",
+        "Id": 872,
+        "Name": "McGlynn Inc and Sons",
+        "ToolTip": "Autem ut.",
         "Deleted": false,
-        "Rank": 392,
-        "Type": "doloribus",
-        "ColorBlock": 661,
-        "IconHint": "quod",
-        "Selected": false,
-        "LastChanged": "2003-12-09T11:10:53.894216+01:00",
+        "Rank": 397,
+        "Type": "molestiae",
+        "ColorBlock": 882,
+        "IconHint": "doloremque",
+        "Selected": true,
+        "LastChanged": "2005-07-26T02:49:51.8753193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
+        "ExtraInfo": "doloremque",
         "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Milan Goodwin",
+        "FullName": "Wilson Macejkovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 375
+            "FieldLength": 626
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "eos",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "soluta",
     "Hidden": false,
-    "FullName": "Myles Schuster",
+    "FullName": "Payton O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 698
+        "FieldLength": 184
       }
     }
   }

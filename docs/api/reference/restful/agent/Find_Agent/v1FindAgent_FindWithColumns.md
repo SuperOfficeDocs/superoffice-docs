@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/FindWithColumns
 
 Execute a Find operation and return a page of results.
 
+
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The criteria for the Find are fetched from the restriction storage provider acco
 ```http
 POST /api/v1/Agents/Find/FindWithColumns?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/FindWithColumns?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, DesiredColumns, PageSize, PageNumber, OrderBy
+StorageType, ProviderName, StorageKey, DesiredColumns, PageSize, PageNumber, OrderBy 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +58,8 @@ StorageType, ProviderName, StorageKey, DesiredColumns, PageSize, PageNumber, Ord
 | PageNumber | int32 |  |
 | OrderBy | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -59,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,26 +83,26 @@ Response body:
 POST /api/v1/Agents/Find/FindWithColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "repellat",
-  "ProviderName": "Hudson Inc and Sons",
-  "StorageKey": "quae",
+  "StorageType": "neque",
+  "ProviderName": "Bechtelar Inc and Sons",
+  "StorageKey": "pariatur",
   "DesiredColumns": [
-    "molestiae",
-    "sunt"
+    "blanditiis",
+    "ullam"
   ],
-  "PageSize": 360,
-  "PageNumber": 835,
+  "PageSize": 181,
+  "PageNumber": 7,
   "OrderBy": [
     {
-      "Name": "Gleason, Hettinger and Hills",
+      "Name": "Boyer Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Gleason, Hettinger and Hills",
+      "Name": "Boyer Inc and Sons",
       "Direction": "ASC"
     }
   ]
@@ -110,51 +118,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Olson Group",
-      "DisplayTooltip": "voluptas",
+      "DisplayName": "Bailey-Leffler",
+      "DisplayTooltip": "dicta",
       "DisplayType": "est",
-      "CanOrderBy": true,
-      "Name": "Konopelski Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "rerum",
-      "RestrictionListName": "Kunde-Walker",
+      "CanOrderBy": false,
+      "Name": "Bartell Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "itaque",
+      "RestrictionListName": "Gorczany Group",
       "IsVisible": false,
-      "ExtraInfo": "eum",
-      "Width": "ad",
-      "IconHint": "non",
-      "HeadingIconHint": "est"
+      "ExtraInfo": "iste",
+      "Width": "corporis",
+      "IconHint": "rerum",
+      "HeadingIconHint": "praesentium"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kohler-Maggio",
-      "PrimaryKey": 973,
+      "EntityName": "Cummings, Brown and Roob",
+      "PrimaryKey": 79,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nisi",
-          "TooltipHint": "repudiandae",
-          "LinkHint": "quidem"
+          "DisplayValue": "sit",
+          "TooltipHint": "assumenda",
+          "LinkHint": "sequi"
         }
       },
-      "LinkHint": "in",
-      "StyleHint": "dolorum",
+      "LinkHint": "nostrum",
+      "StyleHint": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 653
+          "FieldLength": 71
         }
       }
     }
   ],
-  "RowCount": 996,
+  "RowCount": 493,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 78
     }
   }
 }

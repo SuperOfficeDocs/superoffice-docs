@@ -11,11 +11,18 @@ PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Country list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Feest-Blick",
-    "ToolTip": "Itaque nihil a officiis deleniti.",
+    "Id": 164,
+    "Name": "Bergnaum-Koelpin",
+    "ToolTip": "Ut similique non non suscipit repudiandae consequuntur.",
     "Deleted": true,
-    "Rank": 675,
-    "Type": "alias",
-    "ColorBlock": 574,
-    "IconHint": "aperiam",
-    "Selected": false,
-    "LastChanged": "2011-06-07T11:10:54.0171856+02:00",
+    "Rank": 784,
+    "Type": "velit",
+    "ColorBlock": 924,
+    "IconHint": "numquam",
+    "Selected": true,
+    "LastChanged": "2010-07-14T02:49:52.1721908+02:00",
     "ChildItems": [
       {
-        "Id": 472,
-        "Name": "Auer LLC",
-        "ToolTip": "Repudiandae et pariatur.",
-        "Deleted": true,
-        "Rank": 797,
-        "Type": "laudantium",
-        "ColorBlock": 757,
-        "IconHint": "ipsa",
-        "Selected": false,
-        "LastChanged": "1998-10-04T11:10:54.0171856+02:00",
+        "Id": 595,
+        "Name": "Cruickshank, Greenholt and Wuckert",
+        "ToolTip": "Odit qui ex qui nihil et corrupti quo.",
+        "Deleted": false,
+        "Rank": 528,
+        "Type": "similique",
+        "ColorBlock": 172,
+        "IconHint": "accusamus",
+        "Selected": true,
+        "LastChanged": "2012-02-21T02:49:52.1721908+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "facilis",
-        "Hidden": false,
-        "FullName": "Orpha Connelly II"
+        "ExtraInfo": "quis",
+        "StyleHint": "id",
+        "Hidden": true,
+        "FullName": "Anastacio Schaefer III"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "ad",
-    "Hidden": true,
-    "FullName": "Ms. Lea Wisoky III"
+    "ExtraInfo": "ut",
+    "StyleHint": "inventore",
+    "Hidden": false,
+    "FullName": "Heber Alanna Schaefer PhD"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Name": "Corwin, Cormier and Schowalter",
-    "ToolTip": "Aut nulla autem illo voluptatem et quasi sit.",
+    "Id": 423,
+    "Name": "Watsica Inc and Sons",
+    "ToolTip": "Optio quo consequatur commodi dolores.",
     "Deleted": false,
-    "Rank": 547,
-    "Type": "illo",
-    "ColorBlock": 525,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2005-06-24T11:10:54.0191851+02:00",
+    "Rank": 676,
+    "Type": "aut",
+    "ColorBlock": 681,
+    "IconHint": "repudiandae",
+    "Selected": true,
+    "LastChanged": "2013-06-02T02:49:52.1721908+02:00",
     "ChildItems": [
       {
-        "Id": 854,
-        "Name": "Bashirian, Sauer and Wolf",
-        "ToolTip": "Voluptatem dolorem officiis nemo hic.",
+        "Id": 768,
+        "Name": "Hintz LLC",
+        "ToolTip": "Illum soluta excepturi voluptas sint vel.",
         "Deleted": false,
-        "Rank": 821,
-        "Type": "cupiditate",
-        "ColorBlock": 147,
-        "IconHint": "eius",
-        "Selected": true,
-        "LastChanged": "2007-02-21T11:10:54.0191851+01:00",
+        "Rank": 316,
+        "Type": "iure",
+        "ColorBlock": 371,
+        "IconHint": "corrupti",
+        "Selected": false,
+        "LastChanged": "1999-07-09T02:49:52.1721908+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "vel",
+        "ExtraInfo": "et",
+        "StyleHint": "nemo",
         "Hidden": false,
-        "FullName": "Ms. Carey Renner",
+        "FullName": "Mr. Clotilde Cynthia Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 365
+            "FieldType": "System.Int32",
+            "FieldLength": 291
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Uriah Luettgen",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Ms. Arnulfo Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldType": "System.Int32",
+        "FieldLength": 409
       }
     }
   }

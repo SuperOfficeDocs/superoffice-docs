@@ -11,7 +11,14 @@ GET /api/v1/List/Task/Headings
 
 Gets headings for the TaskListItem list.
 
+
 Calls the Appointment agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the Appointment agent service GetGetHeadingsFromListDefinition.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -53,7 +61,7 @@ Response body: array
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -64,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 841,
-    "Name": "Terry, Beatty and Berge",
-    "Tooltip": "nihil",
+    "HeadingId": 73,
+    "Name": "Christiansen, Harris and Barrows",
+    "Tooltip": "hic",
     "Deleted": true,
-    "Rank": 421,
-    "UdListDefinitionId": 173,
+    "Rank": 579,
+    "UdListDefinitionId": 202,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldType": "System.Int32",
+        "FieldLength": 567
       }
     }
   }

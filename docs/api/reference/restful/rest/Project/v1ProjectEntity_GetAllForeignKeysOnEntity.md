@@ -11,9 +11,16 @@ GET /api/v1/Project/{id}/ForeignKey
 
 Foreign keys on the ProjectEntity.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | ProjectEntity id/primary key. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,6 +35,7 @@ Foreign keys on the ProjectEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: object
 
 OK
@@ -39,13 +47,14 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 GET /api/v1/Project/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -55,7 +64,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "autem",
-  "2": "qui"
+  "1": "doloribus",
+  "2": "impedit"
 }
 ```

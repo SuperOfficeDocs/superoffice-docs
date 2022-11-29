@@ -11,11 +11,17 @@ GET /api/v1/List/Position/Items/{itemId}/Headings
 
 Gets headings for the Position list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Fritsch-Pfannerstill",
-    "ToolTip": "Nobis neque voluptatem.",
-    "Deleted": true,
-    "Rank": 87,
-    "Type": "et",
-    "ColorBlock": 86,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "2017-09-18T11:10:54.3779017+02:00",
+    "Id": 750,
+    "Name": "Becker-Daugherty",
+    "ToolTip": "Atque minus dolores quidem delectus dolore vero.",
+    "Deleted": false,
+    "Rank": 111,
+    "Type": "aliquam",
+    "ColorBlock": 709,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2004-03-10T02:49:52.3284476+01:00",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "Will Inc and Sons",
-        "ToolTip": "Alias minus.",
+        "Id": 799,
+        "Name": "Green, Kulas and Cartwright",
+        "ToolTip": "Natus aut repellat voluptatem.",
         "Deleted": false,
-        "Rank": 612,
-        "Type": "vel",
-        "ColorBlock": 420,
-        "IconHint": "porro",
+        "Rank": 39,
+        "Type": "dolor",
+        "ColorBlock": 36,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2001-09-14T11:10:54.3779017+02:00",
+        "LastChanged": "2007-04-05T02:49:52.3284476+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "aspernatur",
-        "Hidden": false,
-        "FullName": "Mrs. Name Edythe Thiel Sr.",
+        "ExtraInfo": "dolor",
+        "StyleHint": "sint",
+        "Hidden": true,
+        "FullName": "Samanta Mertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 180
+            "FieldLength": 939
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "quia",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Nestor Pollich",
+    "FullName": "Jaylan Koch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 116
       }
     }
   }

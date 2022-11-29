@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLocalizedTextList
 
 Gets an array of LocalizedText objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of LocalizedText objects.
 ```http
 POST /api/v1/Agents/List/GetLocalizedTextList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetLocalizedTextList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: localizedTextIds
+## Request Body: localizedTextIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -77,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 694,
-    "ResourceId": 403,
-    "Text": "est",
+    "LanguageId": 746,
+    "ResourceId": 958,
+    "Text": "cumque",
     "Type": "Column",
-    "LocalizedTextId": 637,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 258,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldLength": 551
       }
     }
   }

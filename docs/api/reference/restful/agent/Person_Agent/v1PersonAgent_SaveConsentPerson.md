@@ -11,6 +11,13 @@ POST /api/v1/Agents/Person/SaveConsentPerson
 
 Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ConsentPerson or creates a new ConsentPerson if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ConsentPerson to be saved.
+The ConsentPerson to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The ConsentPerson to be saved.
 | ConsentPurpose |  | The consent purpose |
 | Comment | string | Comment regarding this specific consent |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 931,
+  "ConsentPersonId": 14,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 471,
+  "PersonId": 684,
   "ConsentPurpose": null,
-  "Comment": "consequuntur"
+  "Comment": "in"
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 676,
+  "ConsentPersonId": 406,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 1000,
+  "PersonId": 876,
   "ConsentPurpose": null,
-  "Comment": "voluptatem",
+  "Comment": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldType": "System.String",
+      "FieldLength": 688
     }
   }
 }

@@ -11,11 +11,18 @@ PUT /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 
 Saves headings for the ReasonStalled list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Baumbach-Barrows",
-    "ToolTip": "Et et facere delectus necessitatibus ipsum.",
+    "Id": 247,
+    "Name": "Nader LLC",
+    "ToolTip": "Et ex.",
     "Deleted": true,
-    "Rank": 496,
-    "Type": "nostrum",
-    "ColorBlock": 983,
-    "IconHint": "laboriosam",
-    "Selected": false,
-    "LastChanged": "2014-11-04T11:10:54.5899365+01:00",
+    "Rank": 478,
+    "Type": "qui",
+    "ColorBlock": 690,
+    "IconHint": "repudiandae",
+    "Selected": true,
+    "LastChanged": "2003-10-15T02:49:52.5003264+02:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Champlin-Ebert",
-        "ToolTip": "Cupiditate delectus dolor odit eos voluptatem et.",
-        "Deleted": true,
-        "Rank": 890,
-        "Type": "amet",
-        "ColorBlock": 703,
-        "IconHint": "odit",
-        "Selected": false,
-        "LastChanged": "1998-10-12T11:10:54.5899365+02:00",
+        "Id": 14,
+        "Name": "Yundt, Johns and Mraz",
+        "ToolTip": "Perspiciatis vel delectus ad est nisi.",
+        "Deleted": false,
+        "Rank": 689,
+        "Type": "iste",
+        "ColorBlock": 902,
+        "IconHint": "ab",
+        "Selected": true,
+        "LastChanged": "2012-06-25T02:49:52.5003264+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "eos",
+        "StyleHint": "provident",
         "Hidden": false,
-        "FullName": "Miss Noble Clifton Kiehn PhD"
+        "FullName": "Margarete Lubowitz"
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "commodi",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Dasia Corkery"
+    "FullName": "Darrick Hane V"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Rau LLC",
-    "ToolTip": "Optio voluptatum velit reprehenderit ea autem fugit odit.",
-    "Deleted": false,
-    "Rank": 646,
-    "Type": "quam",
-    "ColorBlock": 485,
-    "IconHint": "reprehenderit",
+    "Id": 586,
+    "Name": "Doyle, Parisian and Wiegand",
+    "ToolTip": "Voluptas odit aperiam molestiae fugit natus laborum maxime.",
+    "Deleted": true,
+    "Rank": 31,
+    "Type": "nemo",
+    "ColorBlock": 296,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2015-05-22T11:10:54.5919351+02:00",
+    "LastChanged": "2007-07-30T02:49:52.5003264+02:00",
     "ChildItems": [
       {
-        "Id": 867,
-        "Name": "Beatty Group",
-        "ToolTip": "Voluptas ad minima aliquam.",
+        "Id": 226,
+        "Name": "Larson-Sauer",
+        "ToolTip": "Aut at nihil reiciendis autem eius mollitia.",
         "Deleted": false,
-        "Rank": 728,
-        "Type": "reprehenderit",
-        "ColorBlock": 115,
-        "IconHint": "facere",
-        "Selected": true,
-        "LastChanged": "2007-11-03T11:10:54.5919351+01:00",
+        "Rank": 858,
+        "Type": "eveniet",
+        "ColorBlock": 681,
+        "IconHint": "voluptate",
+        "Selected": false,
+        "LastChanged": "2014-09-16T02:49:52.5003264+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Kayli Walsh",
+        "ExtraInfo": "aut",
+        "StyleHint": "nostrum",
+        "Hidden": false,
+        "FullName": "Eulalia Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 778
+            "FieldType": "System.Int32",
+            "FieldLength": 780
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Lera Schumm",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Zoie Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 974
       }
     }
   }

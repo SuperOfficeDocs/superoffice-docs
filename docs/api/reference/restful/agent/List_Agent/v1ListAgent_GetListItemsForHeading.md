@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetListItemsForHeading
 
 List of list items that is selected if under this heading
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ List of list items that is selected if under this heading
 ```http
 POST /api/v1/Agents/List/GetListItemsForHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/List/GetListItemsForHeading?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, HeadingId
+UdListDefinitionId, HeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | HeadingId | int32 |  |
+
 
 ## Response: array
 
@@ -80,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 656,
-  "HeadingId": 577
+  "UdListDefinitionId": 414,
+  "HeadingId": 348
 }
 ```
 
@@ -97,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Rau, Feil and Kutch",
-    "ToolTip": "Repellat et.",
-    "Deleted": true,
-    "Rank": 325,
-    "Type": "nemo",
-    "ColorBlock": 906,
-    "IconHint": "id",
+    "Id": 487,
+    "Name": "Lemke, Streich and Davis",
+    "ToolTip": "Quibusdam enim tempora id delectus.",
+    "Deleted": false,
+    "Rank": 940,
+    "Type": "et",
+    "ColorBlock": 294,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2014-08-14T11:10:27.184453+02:00",
+    "LastChanged": "2021-06-15T02:49:44.639171+02:00",
     "ChildItems": [
       {
-        "Id": 348,
-        "Name": "Stark, Rau and Little",
-        "ToolTip": "Est placeat numquam et voluptas sapiente mollitia.",
-        "Deleted": true,
-        "Rank": 290,
-        "Type": "ea",
-        "ColorBlock": 132,
-        "IconHint": "sequi",
-        "Selected": false,
-        "LastChanged": "1995-12-15T11:10:27.184453+01:00",
+        "Id": 621,
+        "Name": "Beatty LLC",
+        "ToolTip": "Molestiae vel deserunt facilis vel.",
+        "Deleted": false,
+        "Rank": 788,
+        "Type": "eum",
+        "ColorBlock": 861,
+        "IconHint": "porro",
+        "Selected": true,
+        "LastChanged": "1999-11-23T02:49:44.639171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "animi",
-        "Hidden": true,
-        "FullName": "Estefania Parisian",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "libero",
+        "Hidden": false,
+        "FullName": "Shania Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 935
+            "FieldLength": 8
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Mr. Yolanda Nitzsche V",
+    "FullName": "Camron Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldType": "System.String",
+        "FieldLength": 408
       }
     }
   }

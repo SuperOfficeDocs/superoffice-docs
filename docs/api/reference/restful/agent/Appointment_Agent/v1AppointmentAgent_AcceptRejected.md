@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/AcceptRejected
 
 Accept that an invited participant has rejected your invitation or assignment.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Accept that an invited participant has rejected your invitation or assignment.
 ```http
 POST /api/v1/Agents/Appointment/AcceptRejected?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Appointment/AcceptRejected?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentId, UpdateMode
+AppointmentId, UpdateMode 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
 | UpdateMode | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -120,11 +128,11 @@ Response body:
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 349,
+  "AppointmentId": 357,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -140,122 +148,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-07-29T11:10:25.6385543+02:00",
-  "AppointmentId": 751,
-  "Description": "Up-sized client-driven installation",
-  "StartDate": "2020-04-06T11:10:25.6385543+02:00",
-  "EndDate": "2006-11-24T11:10:25.6385543+01:00",
+  "CreatedDate": "2005-01-14T02:49:43.4035305+01:00",
+  "AppointmentId": 868,
+  "Description": "Diverse global product",
+  "StartDate": "2014-07-15T02:49:43.4035305+02:00",
+  "EndDate": "2015-10-10T02:49:43.4035305+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 146,
+  "MotherId": 298,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-02-23T11:10:25.6415526+01:00",
+  "UpdatedDate": "2003-09-30T02:49:43.4035305+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 606,
+  "ActiveLinks": 261,
   "Links": [
     {
-      "EntityName": "Turcotte, Schumm and Thompson",
-      "Id": 263,
-      "Description": "Centralized object-oriented success",
-      "ExtraInfo": "mollitia",
-      "LinkId": 582,
+      "EntityName": "Wolf, Funk and Franecki",
+      "Id": 554,
+      "Description": "Face to face mission-critical interface",
+      "ExtraInfo": "fugiat",
+      "LinkId": 227,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 582
+          "FieldType": "System.String",
+          "FieldLength": 754
         }
       }
     }
   ],
-  "AlarmLeadTime": "omnis",
+  "AlarmLeadTime": "et",
   "HasAlarm": false,
-  "ColorIndex": 219,
-  "IsFree": true,
+  "ColorIndex": 422,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "non",
-  "LeadTime": "dolor",
-  "Location": "et",
-  "RejectCounter": 990,
+  "LagTime": "tempora",
+  "LeadTime": "sapiente",
+  "Location": "tenetur",
+  "RejectCounter": 384,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 581,
-      "PersonId": 983,
-      "ContactId": 678,
-      "EmailId": 746,
-      "SendEmail": false,
+      "AssociateId": 913,
+      "PersonId": 118,
+      "ContactId": 876,
+      "EmailId": 606,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 581,
-      "PersonId": 983,
-      "ContactId": 678,
-      "EmailId": 746,
-      "SendEmail": false,
+      "AssociateId": 913,
+      "PersonId": 118,
+      "ContactId": 876,
+      "EmailId": 606,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-01-13T11:10:25.6425548+01:00",
+  "ActiveDate": "2002-12-29T02:49:43.4035305+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 367,
+  "PreferredTZLocation": 608,
   "Sale": null,
-  "SuggestedAppointmentId": 720,
+  "SuggestedAppointmentId": 994,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sed",
+  "CentralserviceVideomeetId": "quas",
   "UserDefinedFields": {
-    "SuperOffice:1": "81620706",
-    "SuperOffice:2": "Ms. Percy Marvin"
+    "SuperOffice:1": "Leland Martin Lueilwitz II",
+    "SuperOffice:2": "Mrs. Abbey Robel"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "aliquam"
+    "CustomFields1": "animi",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "2000-01-13T11:10:25.643553+01:00",
-  "PublishTo": "2001-07-27T11:10:25.643553+02:00",
-  "PublishFrom": "2015-10-15T11:10:25.643553+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2010-05-07T02:49:43.419154+02:00",
+  "PublishTo": "2000-01-29T02:49:43.419154+01:00",
+  "PublishFrom": "2000-02-03T02:49:43.419154+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 310,
+      "VisibleId": 133,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 684
+          "FieldType": "System.Int32",
+          "FieldLength": 430
         }
       }
     },
     {
-      "VisibleId": 310,
+      "VisibleId": 133,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 684
+          "FieldType": "System.Int32",
+          "FieldLength": 430
         }
       }
     }
@@ -264,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 241
+      "FieldType": "System.Int32",
+      "FieldLength": 238
     }
   }
 }

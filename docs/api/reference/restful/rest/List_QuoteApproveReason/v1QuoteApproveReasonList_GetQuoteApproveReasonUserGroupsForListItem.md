@@ -11,11 +11,18 @@ GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 
 Gets user groups visible for the QuoteApproveReason list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Collins, Upton and VonRueden",
-    "ToolTip": "Eius incidunt incidunt dolores est omnis sit.",
-    "Deleted": false,
-    "Rank": 180,
-    "Type": "et",
-    "ColorBlock": 357,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2019-06-21T11:10:54.5049366+02:00",
+    "Id": 495,
+    "Name": "Cronin, Harvey and Kihn",
+    "ToolTip": "Magni odio.",
+    "Deleted": true,
+    "Rank": 633,
+    "Type": "ea",
+    "ColorBlock": 78,
+    "IconHint": "optio",
+    "Selected": true,
+    "LastChanged": "2007-09-16T02:49:52.422202+02:00",
     "ChildItems": [
       {
-        "Id": 161,
-        "Name": "Paucek-Wilderman",
-        "ToolTip": "Dignissimos expedita et fuga esse.",
-        "Deleted": true,
-        "Rank": 623,
-        "Type": "quisquam",
-        "ColorBlock": 270,
-        "IconHint": "ad",
-        "Selected": true,
-        "LastChanged": "2015-05-19T11:10:54.5049366+02:00",
+        "Id": 991,
+        "Name": "Dickinson Group",
+        "ToolTip": "Recusandae cumque mollitia aut.",
+        "Deleted": false,
+        "Rank": 193,
+        "Type": "minima",
+        "ColorBlock": 58,
+        "IconHint": "neque",
+        "Selected": false,
+        "LastChanged": "2020-04-10T02:49:52.422202+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Abelardo Jovanny Balistreri Jr.",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "velit",
+        "Hidden": false,
+        "FullName": "Mrs. Bernard Brenda Bradtke III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 568
+            "FieldType": "System.String",
+            "FieldLength": 818
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "et",
+    "ExtraInfo": "sed",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Mortimer Feeney",
+    "FullName": "Meghan Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldLength": 720
       }
     }
   }

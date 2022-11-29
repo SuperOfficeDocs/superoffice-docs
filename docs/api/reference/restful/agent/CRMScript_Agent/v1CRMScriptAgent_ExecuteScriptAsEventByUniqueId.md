@@ -11,9 +11,16 @@ POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 
 Execute a CRMScript with event data as input.
 
+
 Returns event data with output variable values.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Returns event data with output variable values.
 ```http
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,16 +47,17 @@ POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CRMScriptUniqueId, EventData
+CRMScriptUniqueId, EventData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CRMScriptUniqueId | string |  |
 | EventData |  | EventData containing data related to event handlers <para /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -56,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,6 +74,7 @@ Response body:
 | BlockExecution | bool | Whether the context should stop what it is doing, e.g. saving a sale |
 | NavigateTo | string | Where the context should naviate afterwards |
 | Message | string | A message to be presented to the user |
+| ShowDialog | string | JSON structure of dialog to show |
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
@@ -81,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "ducimus",
+  "CRMScriptUniqueId": "autem",
   "EventData": null
 }
 ```
@@ -95,27 +105,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "reiciendis",
-    "InputValues2": "dicta"
+    "InputValues1": "et",
+    "InputValues2": "sequi"
   },
   "BlockExecution": false,
-  "NavigateTo": "similique",
-  "Message": "accusantium",
+  "NavigateTo": "consequatur",
+  "Message": "id",
+  "ShowDialog": "veniam",
   "OutputValues": {
-    "OutputValues1": "totam",
-    "OutputValues2": "temporibus"
+    "OutputValues1": "harum",
+    "OutputValues2": "voluptatem"
   },
   "StateValues": {
-    "StateValues1": "magni",
-    "StateValues2": "aut"
+    "StateValues1": "temporibus",
+    "StateValues2": "doloribus"
   },
-  "Exception": "molestias",
+  "Exception": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldLength": 670
     }
   }
 }

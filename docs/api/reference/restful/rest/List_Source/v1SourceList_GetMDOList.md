@@ -11,6 +11,12 @@ GET /api/v1/List/Source/MDOItems
 
 Get the MDO list items for "Source" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=expedita
+GET /api/v1/List/Source/MDOItems?flat=False
+GET /api/v1/List/Source/MDOItems?query=harum
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Source/MDOItems?query=expedita
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "Schmidt Group",
-    "ToolTip": "Odio rerum minus doloribus explicabo.",
+    "Id": 57,
+    "Name": "Heathcote, Stracke and Lowe",
+    "ToolTip": "Repudiandae ipsa voluptas.",
     "Deleted": true,
-    "Rank": 692,
-    "Type": "inventore",
+    "Rank": 968,
+    "Type": "delectus",
     "ChildItems": [
       {
-        "Id": 850,
-        "Name": "Jones, Brekke and Barrows",
-        "ToolTip": "Consequatur deleniti aut fugiat sed sit id.",
-        "Deleted": false,
-        "Rank": 54,
-        "Type": "voluptas",
+        "Id": 336,
+        "Name": "Kuphal, Gottlieb and Berge",
+        "ToolTip": "Non sunt delectus quia omnis.",
+        "Deleted": true,
+        "Rank": 163,
+        "Type": "aperiam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 837,
-        "ExtraInfo": "adipisci",
-        "StyleHint": "veniam",
-        "FullName": "Margie Ferry",
+        "IconHint": "incidunt",
+        "ColorBlock": 875,
+        "ExtraInfo": "excepturi",
+        "StyleHint": "perspiciatis",
+        "FullName": "Annamae Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 390
+            "FieldType": "System.String",
+            "FieldLength": 247
           }
         }
       }
     ],
-    "IconHint": "dignissimos",
-    "ColorBlock": 805,
+    "IconHint": "quis",
+    "ColorBlock": 608,
     "ExtraInfo": "consectetur",
-    "StyleHint": "et",
-    "FullName": "Delilah Leffler",
+    "StyleHint": "laboriosam",
+    "FullName": "Carroll Angelita Conroy Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 304
+        "FieldType": "System.String",
+        "FieldLength": 284
       }
     }
   }

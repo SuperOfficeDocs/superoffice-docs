@@ -11,10 +11,16 @@ POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 
 Change a ContactEntity user-defined field's type based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
 | fieldType | Enum: Number, ShortText, LongText, Date, UnlimitedDate, Checkbox, List, Decimal | The new type of the user defined field. **Required** |
+
 
 ## Query String Parameters
 
@@ -23,8 +29,9 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
+
 
 ## Request Headers
 
@@ -39,7 +46,8 @@ POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=F
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ContactEntity found.
 
@@ -48,7 +56,7 @@ ContactEntity found.
 | 200 | ContactEntity found. |
 | 404 | ContactEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,7 +103,7 @@ Response body:
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,46 +113,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 975,
-  "ColumnId": 240,
-  "FieldDefault": "aut",
-  "FieldHeight": 557,
-  "FieldLabel": "deleniti",
-  "FieldLeft": 726,
-  "FieldTop": 299,
+  "UDefFieldId": 962,
+  "ColumnId": 268,
+  "FieldDefault": "fugit",
+  "FieldHeight": 804,
+  "FieldLabel": "consequuntur",
+  "FieldLeft": 597,
+  "FieldTop": 694,
   "FieldType": "Checkbox",
-  "FieldWidth": 178,
-  "FormatMask": "quibusdam",
+  "FieldWidth": 481,
+  "FormatMask": "ipsam",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 294,
-  "LabelLeft": 176,
-  "LabelTop": 123,
-  "LabelWidth": 109,
-  "LastVersionId": 774,
-  "ListTableId": 645,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 66,
+  "LabelLeft": 562,
+  "LabelTop": 866,
+  "LabelWidth": 901,
+  "LastVersionId": 523,
+  "ListTableId": 974,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 664,
-  "ProgId": "veritatis",
-  "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 814,
-  "TextLength": 925,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 992,
-  "UDListDefinitionId": 366,
+  "Page1LineNo": 7,
+  "ProgId": "quia",
+  "IsReadOnly": true,
+  "ShortLabel": "deleniti",
+  "TabOrder": 634,
+  "TextLength": 315,
+  "Tooltip": "quisquam",
+  "UdefIdentity": 777,
+  "UDListDefinitionId": 154,
   "Justification": "Center",
-  "Version": 644,
-  "TemplateVariableName": "Hoeger, Bogisich and West",
-  "HasBeenPublished": false,
-  "MdoListName": "Koelpin, Kohler and Rolfson",
+  "Version": 941,
+  "TemplateVariableName": "Connelly Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Wisoky, Mohr and Kunde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldLength": 893
     }
   }
 }

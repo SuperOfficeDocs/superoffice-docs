@@ -11,11 +11,18 @@ GET /api/v1/Project/CustomField/{fieldName}
 
 Custom field meta-data (published user defined + extra fields) on ProjectEntity.
 
+
 Excludes standard fields.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | fieldName | string | The name of the custom field to return: 'x_foo' or 'SuperOffice:3' **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +70,7 @@ Response body:
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Hackett, Gleason and Klocko",
-  "DisplayName": "Conn, Nitzsche and Gerhold",
-  "Description": "Horizontal reciprocal pricing structure",
-  "ShortLabel": "et",
+  "FieldName": "Roob, Steuber and Lebsack",
+  "DisplayName": "Considine-Stroman",
+  "Description": "Virtual global project",
+  "ShortLabel": "modi",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": true,
-  "IsMandatory": false,
+  "IsMandatory": true,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 156,
-  "TemplateVariableName": "Gislason Group"
+  "Rank": 848,
+  "TemplateVariableName": "Weimann Inc and Sons"
 }
 ```

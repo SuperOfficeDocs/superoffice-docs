@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds
 
 Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on contact and persons in a collection of ContactPersonId.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns a RecipientStatistics object with a count of addresses, emailaddresses a
 ```http
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactPersonIds
+ContactPersonIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactPersonIds | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,12 +84,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 945,
-      "ContactId": 98
+      "PersonId": 451,
+      "ContactId": 51
     },
     {
-      "PersonId": 945,
-      "ContactId": 98
+      "PersonId": 451,
+      "ContactId": 51
     }
   ]
 }
@@ -94,18 +102,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 613,
-  "ValidPostalAddresses": 919,
-  "ValidEmailAddresses": 871,
-  "ValidFaxNumbers": 739,
-  "NoAddresses": 50,
-  "NoFaxOrEmails": 9,
+  "Total": 341,
+  "ValidPostalAddresses": 325,
+  "ValidEmailAddresses": 28,
+  "ValidFaxNumbers": 613,
+  "NoAddresses": 589,
+  "NoFaxOrEmails": 110,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 424
     }
   }
 }

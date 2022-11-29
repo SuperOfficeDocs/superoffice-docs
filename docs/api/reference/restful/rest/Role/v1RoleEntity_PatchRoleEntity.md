@@ -11,9 +11,11 @@ PATCH /api/v1/Role/{id}
 
 Update a RoleEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Update the Department field to "foo" can be done either as a JSON PATCH
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -29,14 +31,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IUserAgent} service SaveRoleEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The RoleEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -47,6 +58,7 @@ Calls the {SuperOffice.CRM.Services.IUserAgent} service SaveRoleEntity.
 ```http
 PATCH /api/v1/Role/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -62,9 +74,9 @@ PATCH /api/v1/Role/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +84,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 RoleEntity  updated.
 
@@ -83,7 +96,7 @@ RoleEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because RoleEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,18 +122,18 @@ Response body:
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "libero",
+    "path": "ex",
     "value": {}
   },
   {
     "op": "add",
-    "path": "libero",
+    "path": "ex",
     "value": {}
   }
 ]
@@ -133,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 349,
-  "Name": "Spencer Inc and Sons",
-  "Tooltip": "tenetur",
+  "RoleId": 75,
+  "Name": "Dickens-Keebler",
+  "Tooltip": "sunt",
   "RoleType": "Anonymous",
-  "Deleted": 267,
-  "Rank": 516,
-  "Created": "2014-07-02T11:10:53.3541523+02:00",
-  "UseCategories": 107,
+  "Deleted": 194,
+  "Rank": 433,
+  "Created": "2018-08-22T02:49:51.3859386+02:00",
+  "UseCategories": 363,
   "CreatedBy": null,
-  "Updated": "1999-02-26T11:10:53.3551806+01:00",
+  "Updated": "2012-07-21T02:49:51.3859386+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -150,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 902
     }
   },
   "_Links": {

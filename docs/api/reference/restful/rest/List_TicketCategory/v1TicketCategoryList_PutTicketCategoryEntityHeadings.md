@@ -11,7 +11,14 @@ PUT /api/v1/List/TicketCategory/Headings
 
 Saves headings for the TicketCategoryEntity list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 863,
-    "Name": "Ratke-Kautzer",
-    "Tooltip": "quia",
+    "HeadingId": 997,
+    "Name": "Cummings LLC",
+    "Tooltip": "harum",
     "Deleted": false,
-    "Rank": 305,
-    "UdListDefinitionId": 924
+    "Rank": 644,
+    "UdListDefinitionId": 904
   },
   {
-    "HeadingId": 863,
-    "Name": "Ratke-Kautzer",
-    "Tooltip": "quia",
+    "HeadingId": 997,
+    "Name": "Cummings LLC",
+    "Tooltip": "harum",
     "Deleted": false,
-    "Rank": 305,
-    "UdListDefinitionId": 924
+    "Rank": 644,
+    "UdListDefinitionId": 904
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 338,
-    "Name": "Rutherford Inc and Sons",
-    "Tooltip": "atque",
-    "Deleted": false,
-    "Rank": 478,
-    "UdListDefinitionId": 754,
+    "HeadingId": 149,
+    "Name": "Zulauf, Emmerich and Kunze",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 310,
+    "UdListDefinitionId": 551,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldLength": 480
       }
     }
   }

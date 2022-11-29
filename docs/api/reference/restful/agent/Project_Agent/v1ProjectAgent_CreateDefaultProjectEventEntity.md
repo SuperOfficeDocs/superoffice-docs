@@ -11,7 +11,14 @@ POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 
 Set default values into a new ProjectEventEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +85,7 @@ Response body:
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,73 +95,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "facere",
-  "SignOffText": "quidem",
-  "SignOnConfirmationText": "reprehenderit",
-  "SignOnText": "id",
-  "EventDate": "2012-06-09T11:10:27.576453+02:00",
-  "Enabled": true,
-  "CreatedDate": "2021-07-18T11:10:27.576453+02:00",
-  "SignOff": false,
+  "SignOffConfirmationText": "animi",
+  "SignOffText": "vel",
+  "SignOnConfirmationText": "aut",
+  "SignOnText": "ab",
+  "EventDate": "2012-07-27T02:49:44.9372128+02:00",
+  "Enabled": false,
+  "CreatedDate": "2001-03-31T02:49:44.9372128+02:00",
+  "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 856,
-  "SignOffTriggersAssign": true,
-  "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 405,
+  "SignOffTaskId": 823,
+  "SignOffTriggersAssign": false,
+  "SignOn": true,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 265,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2018-02-05T11:10:27.576453+01:00",
+  "UpdatedDate": "2000-09-24T02:49:44.9372128+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 243,
-  "Id": 284,
-  "PublishFrom": "2011-06-12T11:10:27.576453+02:00",
+  "ProjectId": 348,
+  "Id": 701,
+  "PublishFrom": "1997-03-23T02:49:44.9372128+01:00",
   "PublishType": "External",
-  "PublishTo": "2002-02-24T11:10:27.576453+01:00",
+  "PublishTo": "2019-07-28T02:49:44.9372128+02:00",
   "VisibleForCategories": [
     {
-      "Id": 1000,
-      "Name": "Hane Inc and Sons",
-      "ToolTip": "Est et et sed ut praesentium deleniti.",
+      "Id": 900,
+      "Name": "Mosciski-Batz",
+      "ToolTip": "Consequatur laudantium.",
       "Deleted": false,
-      "Rank": 471,
-      "Type": "in",
+      "Rank": 160,
+      "Type": "tempora",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eveniet",
-      "ColorBlock": 795,
-      "ExtraInfo": "necessitatibus",
-      "StyleHint": "officia",
-      "FullName": "Paolo Bednar",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 813
-        }
-      }
-    }
-  ],
-  "VisibleForPersonInterests": [
-    {
-      "Id": 561,
-      "Name": "Sporer-Gislason",
-      "ToolTip": "Dolorem nam dicta rerum.",
-      "Deleted": false,
-      "Rank": 720,
-      "Type": "est",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "nam",
-      "ColorBlock": 128,
-      "ExtraInfo": "ut",
-      "StyleHint": "voluptatem",
-      "FullName": "Myriam Little",
+      "IconHint": "veritatis",
+      "ColorBlock": 929,
+      "ExtraInfo": "est",
+      "StyleHint": "laudantium",
+      "FullName": "Mrs. Kiara Breitenberg I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -164,17 +145,44 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
+  "VisibleForPersonInterests": [
+    {
+      "Id": 258,
+      "Name": "Bashirian, Bernhard and Ryan",
+      "ToolTip": "Velit est sed soluta et animi perferendis.",
+      "Deleted": false,
+      "Rank": 522,
+      "Type": "suscipit",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "voluptatem",
+      "ColorBlock": 229,
+      "ExtraInfo": "aut",
+      "StyleHint": "numquam",
+      "FullName": "Ida Schiller",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 377
+        }
+      }
+    }
+  ],
   "IsPublished": true,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 972,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 950,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 976
     }
   }
 }

@@ -11,6 +11,13 @@ POST /api/v1/List/ProductFamily/Items
 
 Add a new ProductFamily to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new ProductFamily to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The ProductFamily to be added to the list.
+The ProductFamily to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The ProductFamily to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 333,
-  "Name": "Hirthe-Luettgen",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "UdListDefinitionId": 972,
-  "Rank": 670
+  "Id": 962,
+  "Name": "Rau, Padberg and Douglas",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "UdListDefinitionId": 848,
+  "Rank": 697
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 753,
-  "Name": "Heathcote LLC",
-  "Tooltip": "natus",
+  "Id": 82,
+  "Name": "Streich-Pollich",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 518,
-  "Rank": 648,
+  "UdListDefinitionId": 616,
+  "Rank": 415,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 191
     }
   }
 }

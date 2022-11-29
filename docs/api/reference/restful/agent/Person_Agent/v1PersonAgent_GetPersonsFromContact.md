@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetPersonsFromContact
 
 Returns all the persons belonging to a contact.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all the persons belonging to a contact.
 ```http
 POST /api/v1/Agents/Person/GetPersonsFromContact?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Person/GetPersonsFromContact?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
+
 
 ## Response: array
 
@@ -104,11 +112,11 @@ Response body: array
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 258
+  "ContactId": 887
 }
 ```
 
@@ -120,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "explicabo",
-    "PersonId": 273,
-    "Mrmrs": "quo",
-    "Firstname": "Jaquan",
-    "Lastname": "White",
-    "MiddleName": "Vandervort, O'Keefe and Ziemann",
-    "Title": "rem",
-    "Description": "Multi-layered impactful implementation",
-    "Email": "elaina.haley@schinner.co.uk",
-    "FullName": "Miss Jacinthe Brekke",
-    "DirectPhone": "(349)446-6376",
-    "FormalName": "Abernathy, O'Reilly and Leffler",
-    "CountryId": 827,
-    "ContactId": 426,
-    "ContactName": "DuBuque LLC",
-    "Retired": 567,
-    "Rank": 166,
-    "ActiveInterests": 376,
+    "Position": "incidunt",
+    "PersonId": 1002,
+    "Mrmrs": "id",
+    "Firstname": "Josiah",
+    "Lastname": "Abshire",
+    "MiddleName": "Greenfelder, Swift and Ratke",
+    "Title": "sunt",
+    "Description": "Enterprise-wide background groupware",
+    "Email": "clementina_mann@feil.info",
+    "FullName": "Dr. Tess Carmel Rolfson",
+    "DirectPhone": "(199)596-8131 x201",
+    "FormalName": "Jenkins Group",
+    "CountryId": 378,
+    "ContactId": 838,
+    "ContactName": "Schmitt-Quigley",
+    "Retired": 383,
+    "Rank": 539,
+    "ActiveInterests": 883,
     "ContactDepartment": "",
-    "ContactCountryId": 842,
-    "ContactOrgNr": "870705",
-    "FaxPhone": "1-619-065-1077",
-    "MobilePhone": "698-966-7256",
-    "ContactPhone": "(612)926-5677 x8056",
-    "AssociateName": "Tremblay-O'Reilly",
-    "AssociateId": 234,
+    "ContactCountryId": 225,
+    "ContactOrgNr": "1373440",
+    "FaxPhone": "641-054-4443 x299",
+    "MobilePhone": "972.566.4496 x3161",
+    "ContactPhone": "377.611.5723 x4974",
+    "AssociateName": "Schuppe, Gleason and Beier",
+    "AssociateId": 1001,
     "UsePersonAddress": false,
-    "ContactFax": "non",
-    "Kanafname": "laborum",
-    "Kanalname": "dolores",
-    "Post1": "exercitationem",
-    "Post2": "impedit",
-    "Post3": "quo",
-    "EmailName": "cecil@kirlinharber.uk",
-    "ContactFullName": "Marisol McDermott",
-    "ActiveErpLinks": 85,
-    "TicketPriorityId": 687,
-    "SupportLanguageId": 234,
-    "SupportAssociateId": 26,
+    "ContactFax": "et",
+    "Kanafname": "repudiandae",
+    "Kanalname": "dicta",
+    "Post1": "natus",
+    "Post2": "dolorem",
+    "Post3": "accusamus",
+    "EmailName": "daryl_lindgren@cartwright.co.uk",
+    "ContactFullName": "Ms. Josiah Reichert V",
+    "ActiveErpLinks": 667,
+    "TicketPriorityId": 129,
+    "SupportLanguageId": 50,
+    "SupportAssociateId": 187,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldLength": 75
       }
     }
   }

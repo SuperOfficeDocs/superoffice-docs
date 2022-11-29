@@ -11,13 +11,21 @@ GET /api/v1/Role/{type}/Default
 
 Create a new role entity of the specified role type.
 
+
 The role type cannot be changed after the entity is created.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | type | Enum: Employee, ExternalUser, Anonymous, System | Type of role (Employee/External/Anonymous/System) **Required** |
+
+
 
 ## Request Headers
 
@@ -32,7 +40,8 @@ The role type cannot be changed after the entity is created.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -40,7 +49,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +74,7 @@ Response body:
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 528,
-  "Name": "Bednar-Donnelly",
-  "Tooltip": "tenetur",
+  "RoleId": 885,
+  "Name": "Doyle Group",
+  "Tooltip": "cupiditate",
   "RoleType": "Anonymous",
-  "Deleted": 211,
-  "Rank": 841,
-  "Created": "2004-10-05T11:10:53.3661791+02:00",
-  "UseCategories": 149,
+  "Deleted": 807,
+  "Rank": 507,
+  "Created": "2014-09-14T02:49:51.4015667+02:00",
+  "UseCategories": 285,
   "CreatedBy": null,
-  "Updated": "1996-12-15T11:10:53.3671851+01:00",
+  "Updated": "2011-02-27T02:49:51.4015667+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 464
     }
   }
 }

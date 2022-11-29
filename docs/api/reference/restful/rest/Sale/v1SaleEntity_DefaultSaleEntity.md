@@ -11,7 +11,14 @@ GET /api/v1/Sale/default
 
 Set default values into a new SaleEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Sale agent service CreateDefaultSaleEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +99,7 @@ Response body:
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,7 +107,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 02 Apr 1998 11:10:53 G4T
+Last-Modified: Tue, 21 Feb 2017 02:49:51 G2T
 
 {
   "Appointment": null,
@@ -108,7 +116,7 @@ Last-Modified: Thu, 02 Apr 1998 11:10:53 G4T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "accusamus",
+  "SaleText": "quasi",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -117,113 +125,113 @@ Last-Modified: Thu, 02 Apr 1998 11:10:53 G4T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-09-11T11:10:53.3821754+02:00",
-  "Amount": 28813.996,
-  "SaleId": 642,
-  "Earning": 9204.5579999999991,
-  "EarningPercent": 4136.88,
-  "Heading": "ut",
-  "Number": "550893",
-  "Probability": 138,
-  "CreatedDate": "2017-04-06T11:10:53.3821754+02:00",
-  "UpdatedDate": "1998-04-02T11:10:53.3821754+02:00",
+  "Saledate": "2020-02-20T02:49:51.4230822+01:00",
+  "Amount": 24752.332,
+  "SaleId": 618,
+  "Earning": 28895.48,
+  "EarningPercent": 1607.742,
+  "Heading": "quos",
+  "Number": "778234",
+  "Probability": 305,
+  "CreatedDate": "2006-01-23T02:49:51.4230822+01:00",
+  "UpdatedDate": "2017-02-21T02:49:51.4230822+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 242,
+  "ActiveLinks": 891,
   "Links": [
     {
-      "EntityName": "Harris, Leuschke and Ledner",
-      "Id": 870,
-      "Description": "Function-based solution-oriented definition",
-      "ExtraInfo": "provident",
-      "LinkId": 666,
+      "EntityName": "Reilly, Bahringer and Grady",
+      "Id": 327,
+      "Description": "Innovative zero defect architecture",
+      "ExtraInfo": "voluptas",
+      "LinkId": 53,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 494
+          "FieldLength": 841
         }
       }
     }
   ],
-  "NextDueDate": "2014-11-09T11:10:53.3821754+01:00",
-  "Postit": "autem",
+  "NextDueDate": "2002-08-13T02:49:51.4230822+02:00",
+  "Postit": "soluta",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2020-11-03T11:10:53.3831774+01:00",
+  "ReopenDate": "1998-09-26T02:49:51.4230822+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Boyer LLC",
-      "Comment": "aut",
-      "StakeholderRoleId": 77,
-      "CountryId": 292,
-      "PersonId": 134,
-      "EmailDescription": "erin.bahringer@durganbreitenberg.name",
-      "EmailId": 996,
-      "EmailAddress": "griffin@schulist.info",
-      "PhoneId": 457,
-      "ContactName": "Marquardt, Fisher and Romaguera",
-      "ContactId": 459,
-      "SaleId": 376,
-      "Mrmrs": "aliquam",
-      "Firstname": "Phoebe",
-      "MiddleName": "Smith-Renner",
-      "Lastname": "McGlynn",
-      "SaleStakeholderId": 193,
-      "Rank": 523,
-      "Phone": "531-195-7205 x64306",
+      "StakeholderRoleName": "Ebert-Lesch",
+      "Comment": "et",
+      "StakeholderRoleId": 147,
+      "CountryId": 280,
+      "PersonId": 382,
+      "EmailDescription": "corene@kihnjast.us",
+      "EmailId": 602,
+      "EmailAddress": "horace@pagaccrona.com",
+      "PhoneId": 336,
+      "ContactName": "Bradtke Group",
+      "ContactId": 240,
+      "SaleId": 518,
+      "Mrmrs": "non",
+      "Firstname": "Susan",
+      "MiddleName": "Osinski, Mertz and Orn",
+      "Lastname": "Flatley",
+      "SaleStakeholderId": 617,
+      "Rank": 484,
+      "Phone": "(568)622-3330",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 874
+          "FieldType": "System.Int32",
+          "FieldLength": 371
         }
       }
     }
   ],
-  "ActiveErpLinks": 421,
+  "ActiveErpLinks": 607,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:2": "Esperanza Doyle"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "accusamus"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "debitis"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "expedita",
+    "CustomFields2": "numquam"
   },
-  "PublishEventDate": "2021-01-04T11:10:53.3841737+01:00",
-  "PublishTo": "1996-11-22T11:10:53.3841737+01:00",
-  "PublishFrom": "2003-01-07T11:10:53.3841737+01:00",
+  "PublishEventDate": "1998-02-10T02:49:51.4242237+01:00",
+  "PublishTo": "2016-03-21T02:49:51.4242237+01:00",
+  "PublishFrom": "1999-02-04T02:49:51.4242237+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 388,
+      "VisibleId": 411,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 592
+          "FieldType": "System.Int32",
+          "FieldLength": 706
         }
       }
     },
     {
-      "VisibleId": 388,
+      "VisibleId": 411,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 592
+          "FieldType": "System.Int32",
+          "FieldLength": 706
         }
       }
     }
@@ -232,8 +240,8 @@ Last-Modified: Thu, 02 Apr 1998 11:10:53 G4T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 375
+      "FieldType": "System.Int32",
+      "FieldLength": 409
     }
   }
 }

@@ -11,9 +11,16 @@ GET /api/v1/License/Site/{satelliteId}
 
 Obtain information about satellite module licenses
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | satelliteId | int32 | Satellite id to check for satellite module licenses **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Obtain information about satellite module licenses
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -53,7 +61,7 @@ Response body: array
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -64,56 +72,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Krajcik LLC",
-    "Description": "Face to face upward-trending productivity",
+    "Name": "Walsh LLC",
+    "Description": "Proactive heuristic help-desk",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 453,
-        "Tooltip": "magni",
-        "CanAssign": false,
-        "Free": 435,
-        "InUse": 616,
+        "Unrestricted": false,
+        "Total": 324,
+        "Tooltip": "ut",
+        "CanAssign": true,
+        "Free": 492,
+        "InUse": 739,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 659,
-        "Name": "Schimmel LLC",
-        "Description": "Managed systematic info-mediaries",
-        "PrerequisiteModuleName": "Barrows, Mitchell and Kuhn",
-        "SortOrder": 669,
-        "ExtraFlags": 784,
+        "ModuleLicenseId": 41,
+        "Name": "Lehner, Harvey and Dickinson",
+        "Description": "Stand-alone stable definition",
+        "PrerequisiteModuleName": "Orn Group",
+        "SortOrder": 831,
+        "ExtraFlags": 38,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 579
+            "FieldType": "System.String",
+            "FieldLength": 63
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 486,
-        "Tooltip": "soluta",
+        "Unrestricted": false,
+        "Total": 749,
+        "Tooltip": "libero",
         "CanAssign": false,
-        "Free": 408,
-        "InUse": 564,
+        "Free": 515,
+        "InUse": 126,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 562,
-        "Name": "DuBuque-Kautzer",
-        "Description": "Optimized 24/7 local area network",
-        "PrerequisiteModuleName": "Konopelski, Rolfson and Emard",
-        "SortOrder": 593,
-        "ExtraFlags": 199,
+        "Assigned": false,
+        "ModuleLicenseId": 773,
+        "Name": "Heaney, Harvey and Cummings",
+        "Description": "Ameliorated client-driven internet solution",
+        "PrerequisiteModuleName": "Schaden Group",
+        "SortOrder": 770,
+        "ExtraFlags": 590,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 788
+            "FieldType": "System.String",
+            "FieldLength": 44
           }
         }
       }
@@ -122,62 +130,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldType": "System.String",
+        "FieldLength": 4
       }
     }
   },
   {
-    "Name": "Krajcik LLC",
-    "Description": "Face to face upward-trending productivity",
+    "Name": "Walsh LLC",
+    "Description": "Proactive heuristic help-desk",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 453,
-        "Tooltip": "magni",
-        "CanAssign": false,
-        "Free": 435,
-        "InUse": 616,
+        "Unrestricted": false,
+        "Total": 324,
+        "Tooltip": "ut",
+        "CanAssign": true,
+        "Free": 492,
+        "InUse": 739,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 659,
-        "Name": "Schimmel LLC",
-        "Description": "Managed systematic info-mediaries",
-        "PrerequisiteModuleName": "Barrows, Mitchell and Kuhn",
-        "SortOrder": 669,
-        "ExtraFlags": 784,
+        "ModuleLicenseId": 41,
+        "Name": "Lehner, Harvey and Dickinson",
+        "Description": "Stand-alone stable definition",
+        "PrerequisiteModuleName": "Orn Group",
+        "SortOrder": 831,
+        "ExtraFlags": 38,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 579
+            "FieldType": "System.String",
+            "FieldLength": 63
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 486,
-        "Tooltip": "soluta",
+        "Unrestricted": false,
+        "Total": 749,
+        "Tooltip": "libero",
         "CanAssign": false,
-        "Free": 408,
-        "InUse": 564,
+        "Free": 515,
+        "InUse": 126,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 562,
-        "Name": "DuBuque-Kautzer",
-        "Description": "Optimized 24/7 local area network",
-        "PrerequisiteModuleName": "Konopelski, Rolfson and Emard",
-        "SortOrder": 593,
-        "ExtraFlags": 199,
+        "Assigned": false,
+        "ModuleLicenseId": 773,
+        "Name": "Heaney, Harvey and Cummings",
+        "Description": "Ameliorated client-driven internet solution",
+        "PrerequisiteModuleName": "Schaden Group",
+        "SortOrder": 770,
+        "ExtraFlags": 590,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 788
+            "FieldType": "System.String",
+            "FieldLength": 44
           }
         }
       }
@@ -186,8 +194,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldType": "System.String",
+        "FieldLength": 4
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 
 Return information about the given user defined field identified by the owner and the field label.
 
+
 Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored. Note this may be different than the currently published fields.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Note that field labels are fuzzy. Leading and trailing spaces and punctuation ar
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel?$sele
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FieldLabel, OwnerType
+FieldLabel, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FieldLabel | string |  |
 | OwnerType | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,11 +109,11 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "non",
+  "FieldLabel": "numquam",
   "OwnerType": "Appointment"
 }
 ```
@@ -117,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 747,
-  "ColumnId": 480,
-  "FieldDefault": "inventore",
-  "FieldHeight": 696,
-  "FieldLabel": "porro",
-  "FieldLeft": 881,
-  "FieldTop": 180,
+  "UDefFieldId": 982,
+  "ColumnId": 650,
+  "FieldDefault": "eos",
+  "FieldHeight": 247,
+  "FieldLabel": "amet",
+  "FieldLeft": 842,
+  "FieldTop": 568,
   "FieldType": "Checkbox",
-  "FieldWidth": 676,
-  "FormatMask": "quos",
-  "HideLabel": false,
+  "FieldWidth": 999,
+  "FormatMask": "dicta",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 60,
-  "LabelLeft": 869,
-  "LabelTop": 581,
-  "LabelWidth": 673,
-  "LastVersionId": 790,
-  "ListTableId": 186,
-  "IsMandatory": true,
+  "LabelHeight": 799,
+  "LabelLeft": 479,
+  "LabelTop": 403,
+  "LabelWidth": 142,
+  "LastVersionId": 439,
+  "ListTableId": 501,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 383,
-  "ProgId": "vero",
+  "Page1LineNo": 924,
+  "ProgId": "et",
   "IsReadOnly": true,
-  "ShortLabel": "dolores",
-  "TabOrder": 234,
-  "TextLength": 520,
-  "Tooltip": "dolorum",
-  "UdefIdentity": 437,
-  "UDListDefinitionId": 890,
+  "ShortLabel": "deleniti",
+  "TabOrder": 865,
+  "TextLength": 604,
+  "Tooltip": "quis",
+  "UdefIdentity": 677,
+  "UDListDefinitionId": 183,
   "Justification": "Center",
-  "Version": 725,
-  "TemplateVariableName": "Hayes, Okuneva and Schimmel",
+  "Version": 469,
+  "TemplateVariableName": "Gottlieb-Marks",
   "HasBeenPublished": false,
-  "MdoListName": "Von Group",
+  "MdoListName": "Walsh-Mills",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldLength": 790
     }
   }
 }

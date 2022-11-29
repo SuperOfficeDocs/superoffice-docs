@@ -11,9 +11,17 @@ GET /api/v1/Webhook/default
 
 Set default values into a new Webhook.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the Webhook agent service CreateDefaultWebhook
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the Webhook agent service CreateDefaultWebhook.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +69,7 @@ Response body:
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 731,
-  "Name": "Weber-Block",
+  "WebhookId": 944,
+  "Name": "Gottlieb, Kling and Toy",
   "Events": [
-    "aut",
-    "illo"
+    "harum",
+    "maxime"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "similique",
+  "Secret": "perferendis",
   "State": "Active",
-  "Type": "et",
+  "Type": "soluta",
   "Headers": {
-    "Headers1": "non",
-    "Headers2": "voluptas"
+    "Headers1": "suscipit",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-08-10T11:10:53.8662126+02:00",
+  "Registered": "2013-09-15T02:49:51.844034+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2013-08-05T11:10:53.8662126+02:00",
+  "Updated": "2015-03-27T02:49:51.844034+01:00",
   "UpdatedAssociate": null
 }
 ```

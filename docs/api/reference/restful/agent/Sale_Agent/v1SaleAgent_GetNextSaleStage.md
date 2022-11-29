@@ -11,7 +11,13 @@ POST /api/v1/Agents/Sale/GetNextSaleStage
 
 Gets the next (not deleted) sale stage id if the current stage is deleted.
 
+
 If the current stage is not deleted, the CurrentStageId is returned
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If the current stage is not deleted, the CurrentStageId is returned
 ```http
 POST /api/v1/Agents/Sale/GetNextSaleStage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Sale/GetNextSaleStage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId, IncludeCurrentStage
+SaleId, IncludeCurrentStage 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
 | IncludeCurrentStage | bool |  |
+
 
 ## Response: int32
 
@@ -56,6 +64,7 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
@@ -66,7 +75,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 659,
+  "SaleId": 567,
   "IncludeCurrentStage": false
 }
 ```
@@ -77,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-16
+58
 ```

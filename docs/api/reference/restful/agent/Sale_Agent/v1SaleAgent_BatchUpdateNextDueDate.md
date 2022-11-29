@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/BatchUpdateNextDueDate
 
 Re-calculate all the next due dates
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -21,6 +27,7 @@ Re-calculate all the next due dates
 POST /api/v1/Agents/Sale/BatchUpdateNextDueDate?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -30,7 +37,8 @@ POST /api/v1/Agents/Sale/BatchUpdateNextDueDate?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -38,7 +46,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 

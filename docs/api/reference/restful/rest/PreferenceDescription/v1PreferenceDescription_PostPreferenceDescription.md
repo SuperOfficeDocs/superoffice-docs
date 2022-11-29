@@ -11,7 +11,13 @@ POST /api/v1/PreferenceDescription
 
 Creates a new PreferenceDescription
 
+
 Calls the Preference agent service SavePreferenceDescription.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Preference agent service SavePreferenceDescription.
 ```http
 POST /api/v1/PreferenceDescription?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/PreferenceDescription?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The PreferenceDescription to be saved.
+The PreferenceDescription to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +69,8 @@ The PreferenceDescription to be saved.
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -70,7 +78,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,28 +110,28 @@ Response body:
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 626,
-  "Section": "sit",
-  "Key": "id",
-  "Name": "Quitzon-Bosco",
+  "PrefDescId": 404,
+  "Section": "ducimus",
+  "Key": "tempora",
+  "Name": "Ratke Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Programmable national internet solution",
-  "IsBuiltin": true,
-  "TableName": "Metz Group",
-  "UserDefinedListId": 490,
-  "Rank": 29,
-  "SubGroup": "occaecati",
-  "MinLevel": 476,
-  "MaxValue": 370,
-  "MinValue": 193,
-  "RequiredLicense": "excepturi"
+  "Description": "Proactive even-keeled capability",
+  "IsBuiltin": false,
+  "TableName": "Harber Inc and Sons",
+  "UserDefinedListId": 420,
+  "Rank": 612,
+  "SubGroup": "molestiae",
+  "MinLevel": 674,
+  "MaxValue": 510,
+  "MinValue": 128,
+  "RequiredLicense": "ut"
 }
 ```
 
@@ -134,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 574,
-  "Section": "dolores",
-  "Key": "esse",
-  "Name": "Daugherty, Dicki and Schuster",
+  "PrefDescId": 62,
+  "Section": "minima",
+  "Key": "voluptatem",
+  "Name": "Gottlieb-Schumm",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reactive coherent definition",
-  "IsBuiltin": true,
-  "TableName": "Abbott, Roberts and Wehner",
-  "UserDefinedListId": 18,
-  "Rank": 40,
-  "SubGroup": "dolor",
-  "MinLevel": 1001,
-  "MaxValue": 263,
-  "MinValue": 177,
-  "RequiredLicense": "quibusdam",
+  "Description": "Multi-channelled full-range neural-net",
+  "IsBuiltin": false,
+  "TableName": "Kuphal, Rosenbaum and Funk",
+  "UserDefinedListId": 267,
+  "Rank": 67,
+  "SubGroup": "in",
+  "MinLevel": 747,
+  "MaxValue": 894,
+  "MinValue": 617,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldLength": 672
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetSuggestedAppointment
 
 Gets a SuggestedAppointment object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SuggestedAppointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=328
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=883
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +79,7 @@ Response body:
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,26 +89,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 412,
-  "Deleted": 669,
-  "DaysFuture": 826,
-  "Tooltip": "magni",
-  "Text": "accusamus",
-  "TaskId": 484,
-  "SuggestedAppointmentId": 360,
-  "SaleTypeStageLinkId": 966,
-  "RegisteredAssociateId": 399,
-  "Rank": 71,
-  "ProjectTypeStatusLinkId": 585,
-  "Name": "Donnelly, Lemke and Muller",
-  "Duration": 453,
+  "AutoSuggest": 306,
+  "Deleted": 309,
+  "DaysFuture": 558,
+  "Tooltip": "atque",
+  "Text": "ut",
+  "TaskId": 133,
+  "SuggestedAppointmentId": 410,
+  "SaleTypeStageLinkId": 785,
+  "RegisteredAssociateId": 218,
+  "Rank": 290,
+  "ProjectTypeStatusLinkId": 635,
+  "Name": "Turcotte-Schroeder",
+  "Duration": 432,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 846
     }
   }
 }

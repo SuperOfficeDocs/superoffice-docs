@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 
 Returns system template settings
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns system template settings
 ```http
 POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,8 @@ POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -42,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 455,
-  "CustomerCustomerReplyTemplateId": 655,
-  "CustomerPasswordTemplateId": 948,
-  "CustomerConfirmEmailTemplateId": 118,
-  "CustomerChatLogTemplateId": 900,
-  "NewLinkTemplateId": 696,
-  "HotlistNewMessageTemplateId": 807,
-  "HotlistTicketActivatedTemplateId": 685,
-  "UserTicketAlarmTemplateId": 988,
-  "HotlistTicketTakenOverTemplateId": 15,
-  "UserActiveTicketsTemplateId": 637,
-  "UserNewMessageTemplateId": 172,
-  "UserTicketActivatedTemplateId": 325,
-  "UserNewTicketTemplateId": 164,
-  "PublishKbQuestionTemplateId": 71,
-  "PublishKbAnswerTemplateId": 718,
-  "UserTicketTakenOverTemplateId": 669,
-  "PrintTicketTemplateId": 214,
-  "WeekStatTemplateId": 249,
-  "TicketAlarmHotlistTemplateId": 201,
-  "EmailAddresses": "soledad_stiedemann@kshlerinorn.co.uk",
+  "CustomerNewCustomerTemplateId": 941,
+  "CustomerCustomerReplyTemplateId": 759,
+  "CustomerPasswordTemplateId": 653,
+  "CustomerConfirmEmailTemplateId": 543,
+  "CustomerChatLogTemplateId": 143,
+  "NewLinkTemplateId": 573,
+  "HotlistNewMessageTemplateId": 405,
+  "HotlistTicketActivatedTemplateId": 781,
+  "UserTicketAlarmTemplateId": 611,
+  "HotlistTicketTakenOverTemplateId": 50,
+  "UserActiveTicketsTemplateId": 143,
+  "UserNewMessageTemplateId": 281,
+  "UserTicketActivatedTemplateId": 296,
+  "UserNewTicketTemplateId": 616,
+  "PublishKbQuestionTemplateId": 619,
+  "PublishKbAnswerTemplateId": 306,
+  "UserTicketTakenOverTemplateId": 861,
+  "PrintTicketTemplateId": 243,
+  "WeekStatTemplateId": 87,
+  "TicketAlarmHotlistTemplateId": 41,
+  "EmailAddresses": "roy@sauer.info",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldLength": 375
     }
   }
 }

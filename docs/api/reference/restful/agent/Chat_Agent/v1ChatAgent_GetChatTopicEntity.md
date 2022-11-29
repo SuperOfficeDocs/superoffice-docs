@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/GetChatTopicEntity
 
 Gets a ChatTopicEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=247
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=185
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +96,7 @@ Response body:
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 941,
-  "Name": "Bailey LLC",
-  "Description": "Diverse directional productivity",
-  "WelcomeMessage": "corporis",
+  "ChatTopicId": 925,
+  "Name": "Walker-Ward",
+  "Description": "Monitored empowering moderator",
+  "WelcomeMessage": "dolorem",
   "Language": null,
-  "LastAccept": "2002-03-20T11:10:26.1645255+01:00",
-  "SecondsPrAccept": 640,
-  "AlertRecipient": "quia",
+  "LastAccept": "2004-07-05T02:49:43.8254085+02:00",
+  "SecondsPrAccept": 880,
+  "AlertRecipient": "consequatur",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "nostrum",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "consequatur",
-  "WarnNewChatMinutes": 642,
-  "WarnManagerNewChatMinutes": 488,
-  "TicketEnabled": true,
+  "BadgeHeader": "autem",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "rerum",
+  "WarnNewChatMinutes": 228,
+  "WarnManagerNewChatMinutes": 199,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -121,20 +129,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 404,
-  "WarnManagerChatMessageMinutes": 237,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 202,
-  "OfflineFormQueueLength": 390,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "dolorem",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 36,
+  "WarnManagerChatMessageMinutes": 831,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 690,
+  "OfflineFormQueueLength": 194,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldType": "System.String",
+      "FieldLength": 102
     }
   }
 }

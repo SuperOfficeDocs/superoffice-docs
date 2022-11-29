@@ -11,11 +11,18 @@ PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 
 Saves headings for the ReasonSold list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 200,
-    "Name": "Pfannerstill Group",
-    "ToolTip": "Ea deserunt in assumenda.",
-    "Deleted": true,
-    "Rank": 716,
-    "Type": "omnis",
-    "ColorBlock": 800,
-    "IconHint": "expedita",
-    "Selected": false,
-    "LastChanged": "2001-06-25T11:10:54.5729377+02:00",
+    "Id": 874,
+    "Name": "Hirthe, Nader and Kassulke",
+    "ToolTip": "Adipisci dolorem nihil expedita.",
+    "Deleted": false,
+    "Rank": 991,
+    "Type": "qui",
+    "ColorBlock": 806,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2008-09-03T02:49:52.4846993+02:00",
     "ChildItems": [
       {
-        "Id": 566,
-        "Name": "O'Reilly, Schumm and Lehner",
-        "ToolTip": "Illum qui mollitia occaecati doloribus vero consectetur possimus.",
+        "Id": 496,
+        "Name": "Prohaska Inc and Sons",
+        "ToolTip": "Quos perferendis illo est ratione.",
         "Deleted": false,
-        "Rank": 938,
-        "Type": "est",
-        "ColorBlock": 393,
-        "IconHint": "dolorem",
-        "Selected": true,
-        "LastChanged": "2016-06-26T11:10:54.5729377+02:00",
+        "Rank": 753,
+        "Type": "et",
+        "ColorBlock": 680,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "2006-01-05T02:49:52.4846993+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Dr. Baylee Brown"
+        "ExtraInfo": "fugit",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Hilma Will III"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "sit",
+    "ExtraInfo": "vel",
+    "StyleHint": "aliquid",
     "Hidden": false,
-    "FullName": "Irving Schaefer"
+    "FullName": "Elliot Altenwerth"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Carter, Schulist and Grimes",
-    "ToolTip": "Ad fugit totam qui occaecati iste maxime commodi.",
+    "Id": 701,
+    "Name": "Marquardt-Feeney",
+    "ToolTip": "Perferendis et ab aut illo.",
     "Deleted": true,
-    "Rank": 235,
-    "Type": "porro",
-    "ColorBlock": 303,
-    "IconHint": "reprehenderit",
+    "Rank": 317,
+    "Type": "nobis",
+    "ColorBlock": 51,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "1998-05-11T11:10:54.5759387+02:00",
+    "LastChanged": "2013-04-06T02:49:52.4846993+02:00",
     "ChildItems": [
       {
-        "Id": 856,
-        "Name": "Kuvalis Inc and Sons",
-        "ToolTip": "Debitis ut vel laudantium laudantium.",
+        "Id": 395,
+        "Name": "Kub Group",
+        "ToolTip": "Provident molestiae.",
         "Deleted": false,
-        "Rank": 67,
-        "Type": "consequatur",
-        "ColorBlock": 374,
-        "IconHint": "facilis",
+        "Rank": 608,
+        "Type": "adipisci",
+        "ColorBlock": 598,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2020-08-20T11:10:54.5759387+02:00",
+        "LastChanged": "1999-06-22T02:49:52.4846993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "corporis",
+        "ExtraInfo": "quas",
+        "StyleHint": "ipsum",
         "Hidden": true,
-        "FullName": "Dr. Letitia Abigale Zemlak Jr.",
+        "FullName": "Kathryne Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 431
+            "FieldLength": 865
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "perferendis",
-    "Hidden": false,
-    "FullName": "Miss Santiago Schoen II",
+    "ExtraInfo": "vel",
+    "StyleHint": "libero",
+    "Hidden": true,
+    "FullName": "Elinore Travon White II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldType": "System.String",
+        "FieldLength": 668
       }
     }
   }

@@ -11,6 +11,7 @@ GET /api/v1/ChatTopic/{id}/Sessions
 
 OData list of Sessions under a specific ChatTopicEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * ChatTopic/1234/Sessions?$select=col1,col2,abc/col3
@@ -19,19 +20,22 @@ Can be sorted and further filtered using OData conventions:
 * ChatTopic/1234/Sessions?$top=1000
 * ChatTopic/1234/Sessions?$mode=full
 
+
 OData returns XML or JSON carriers depending on the HTTP Accept header.
+
 
 Calls the Archive service using the "ChatSession" archive provider.
 
-## Filter Operators ##
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -39,9 +43,15 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
+
 
 ## Query String Parameters
 
@@ -64,16 +74,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatTopic/{id}/Sessions?$select=name,department,category/id
 GET /api/v1/ChatTopic/{id}/Sessions?$filter=name begins 'S'
 GET /api/v1/ChatTopic/{id}/Sessions?$orderBy=name asc
-GET /api/v1/ChatTopic/{id}/Sessions?$entities=dolor
-GET /api/v1/ChatTopic/{id}/Sessions?$top=152
-GET /api/v1/ChatTopic/{id}/Sessions?$skip=764
+GET /api/v1/ChatTopic/{id}/Sessions?$entities=voluptates
+GET /api/v1/ChatTopic/{id}/Sessions?$top=694
+GET /api/v1/ChatTopic/{id}/Sessions?$skip=955
 GET /api/v1/ChatTopic/{id}/Sessions?$mode=Full
 GET /api/v1/ChatTopic/{id}/Sessions?$options=GrandTotal=true
-GET /api/v1/ChatTopic/{id}/Sessions?$context=facere
+GET /api/v1/ChatTopic/{id}/Sessions?$context=optio
 GET /api/v1/ChatTopic/{id}/Sessions?$format=JSON
-GET /api/v1/ChatTopic/{id}/Sessions?$jsonSafe=True
+GET /api/v1/ChatTopic/{id}/Sessions?$jsonSafe=False
 GET /api/v1/ChatTopic/{id}/Sessions?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -88,7 +99,8 @@ GET /api/v1/ChatTopic/{id}/Sessions?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -97,7 +109,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -122,19 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolorem",
+  "odata.nextLink": "dolor",
   "value": [
     {
-      "PrimaryKey": 7448,
+      "PrimaryKey": 7044,
       "EntityName": "person",
-      "personId": 7448,
-      "fullName": "Emil Miller"
+      "personId": 7044,
+      "fullName": "Elwyn Winfield Boehm I"
     },
     {
-      "PrimaryKey": 2606,
+      "PrimaryKey": 3419,
       "EntityName": "person",
-      "personId": 2606,
-      "fullName": "Gayle Blanda"
+      "personId": 3419,
+      "fullName": "Maritza Hoppe"
     }
   ]
 }

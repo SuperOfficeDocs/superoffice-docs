@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetWebPanelByProgId
 
 Get a web panel using the ProgId key that was specified when it was created
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a web panel using the ProgId key that was specified when it was created
 ```http
 POST /api/v1/Agents/List/GetWebPanelByProgId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/List/GetWebPanelByProgId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProgId
+ProgId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProgId | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +93,7 @@ Response body:
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,33 +108,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 248,
-  "Name": "Mitchell, Kreiger and Windler",
-  "Tooltip": "ratione",
+  "WebPanelId": 330,
+  "Name": "Hermann-McClure",
+  "Tooltip": "optio",
   "Deleted": false,
-  "Rank": 930,
+  "Rank": 690,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Effertz-White",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Metz Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "ipsum",
-  "Icon": 376,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "ut",
+  "Icon": 505,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 355
     }
   }
 }

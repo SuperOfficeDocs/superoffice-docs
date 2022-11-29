@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/DeleteEmails
 
 Delete specified mail items and optionally move to the specified folder
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +31,7 @@ Delete specified mail items and optionally move to the specified folder
 POST /api/v1/Agents/EMail/DeleteEmails?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,16 +42,17 @@ POST /api/v1/Agents/EMail/DeleteEmails?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Ids, MoveToFolder
+Ids, MoveToFolder 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Ids | array |  |
 | MoveToFolder | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +60,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -63,10 +74,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    839,
-    474
+    671,
+    67
   ],
-  "MoveToFolder": "cum"
+  "MoveToFolder": "velit"
 }
 ```
 

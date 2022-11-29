@@ -11,11 +11,20 @@ PUT /api/v1/Script/{uniqueIdentifier}
 
 Create or Update the CRMScript information
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | uniqueIdentifier | string | Global unique reference to script (independent of installation) **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +40,9 @@ Create or Update the CRMScript information
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: CRMScript
+## Request Body: crmscript  
 
-Information about the CRMScript
+Information about the CRMScript 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +57,8 @@ Information about the CRMScript
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -56,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,20 +89,20 @@ Response body:
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aliquid",
-  "Name": "Leuschke-Rippin",
-  "Description": "Switchable 4th generation leverage",
-  "IncludeId": "et",
-  "Source": "reprehenderit",
-  "Registered": "2004-03-09T11:10:53.7882124+01:00",
-  "RegisteredBy": "dignissimos",
-  "Updated": "2014-05-17T11:10:53.7882124+02:00",
-  "UpdatedBy": "nihil",
-  "Path": "sunt"
+  "UniqueIdentifier": "aut",
+  "Name": "Corwin Inc and Sons",
+  "Description": "Ameliorated intermediate model",
+  "IncludeId": "rerum",
+  "Source": "amet",
+  "Registered": "2018-01-21T02:49:51.7803982+01:00",
+  "RegisteredBy": "alias",
+  "Updated": "2004-11-24T02:49:51.7803982+01:00",
+  "UpdatedBy": "a",
+  "Path": "voluptatem"
 }
 ```
 
@@ -103,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "at",
-  "Name": "Reichert Inc and Sons",
-  "Description": "Advanced bottom-line policy",
-  "IncludeId": "unde",
-  "Source": "distinctio",
-  "Registered": "2002-04-15T11:10:53.7892124+02:00",
-  "RegisteredBy": "rem",
-  "Updated": "2014-08-17T11:10:53.7892124+02:00",
-  "UpdatedBy": "facilis",
-  "Path": "reiciendis",
+  "UniqueIdentifier": "quia",
+  "Name": "Runolfsdottir-Howe",
+  "Description": "Profound zero defect info-mediaries",
+  "IncludeId": "corrupti",
+  "Source": "voluptas",
+  "Registered": "2006-04-16T02:49:51.7803982+02:00",
+  "RegisteredBy": "soluta",
+  "Updated": "2008-08-07T02:49:51.7803982+02:00",
+  "UpdatedBy": "rerum",
+  "Path": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 430
     }
   }
 }

@@ -11,11 +11,17 @@ GET /api/v1/Ticket/{id}
 
 Gets a TicketEntity object.
 
+
 Calls the Ticket agent service GetTicketEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TicketEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,8 +32,9 @@ Calls the Ticket agent service GetTicketEntity.
 
 ```http
 GET /api/v1/Ticket/{id}?$select=name,department,category/id
-GET /api/v1/Ticket/{id}?fk=False
+GET /api/v1/Ticket/{id}?fk=True
 ```
+
 
 ## Request Headers
 
@@ -42,7 +49,8 @@ GET /api/v1/Ticket/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 TicketEntity found.
 
@@ -51,7 +59,7 @@ TicketEntity found.
 | 200 | TicketEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,6 +69,7 @@ Response body:
 | LastChanged | date-time | The last time the ticket was modified. |
 | ReadByOwner | date-time | The datetime for when the ticket last was read by the owner. |
 | ReadByCustomer | date-time | The datetime for when the ticket was read by the customer. |
+| FirstReadByOwner | date-time | The datetime for when the ticket first was read by the current owner. |
 | FirstReadByUser | date-time | The datetime for when the ticket first was read by a user. |
 | Activate | date-time | When the ticket should be activated, if it is postponed. |
 | ClosedAt | date-time | When the ticket was closed. |
@@ -116,7 +125,7 @@ Response body:
 GET /api/v1/Ticket/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -126,20 +135,21 @@ HTTP/1.1 200 TicketEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 856,
-  "Title": "dolorum",
-  "CreatedAt": "1998-09-08T11:10:53.5772076+02:00",
-  "LastChanged": "2004-10-29T11:10:53.5772076+02:00",
-  "ReadByOwner": "1998-06-10T11:10:53.5772076+02:00",
-  "ReadByCustomer": "2010-03-12T11:10:53.5772076+01:00",
-  "FirstReadByUser": "2007-05-20T11:10:53.5772076+02:00",
-  "Activate": "2017-03-06T11:10:53.5772076+01:00",
-  "ClosedAt": "2006-09-26T11:10:53.5772076+02:00",
-  "RepliedAt": "2021-10-26T11:10:53.5772076+02:00",
-  "AlertTimeout": "1996-05-10T11:10:53.5772076+02:00",
-  "Deadline": "2016-09-11T11:10:53.5772076+02:00",
+  "TicketId": 370,
+  "Title": "dolore",
+  "CreatedAt": "1998-04-11T02:49:51.5831853+02:00",
+  "LastChanged": "1997-07-08T02:49:51.5831853+02:00",
+  "ReadByOwner": "2019-12-20T02:49:51.5831853+01:00",
+  "ReadByCustomer": "2011-07-07T02:49:51.5831853+02:00",
+  "FirstReadByOwner": "1995-12-22T02:49:51.5831853+01:00",
+  "FirstReadByUser": "2005-02-12T02:49:51.5831853+01:00",
+  "Activate": "2003-04-03T02:49:51.5831853+02:00",
+  "ClosedAt": "2014-05-12T02:49:51.5831853+02:00",
+  "RepliedAt": "2017-11-03T02:49:51.5831853+01:00",
+  "AlertTimeout": "2002-02-20T02:49:51.5831853+01:00",
+  "Deadline": "2021-03-22T02:49:51.5831853+01:00",
   "CreatedBy": null,
-  "Author": "in",
+  "Author": "sit",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -150,159 +160,160 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ab",
-      "PersonId": 708,
-      "Mrmrs": "officiis",
-      "Firstname": "Makenzie",
-      "Lastname": "Gottlieb",
-      "MiddleName": "Crooks-Crona",
-      "Title": "asperiores",
-      "Description": "Enterprise-wide holistic core",
-      "Email": "aliza@leannonnader.info",
-      "FullName": "Clemmie Raynor III",
-      "DirectPhone": "(125)867-5505",
-      "FormalName": "Skiles, Greenholt and Stokes",
-      "CountryId": 19,
-      "ContactId": 164,
-      "ContactName": "Luettgen-Effertz",
-      "Retired": 42,
-      "Rank": 593,
-      "ActiveInterests": 267,
+      "Position": "ipsa",
+      "PersonId": 98,
+      "Mrmrs": "ratione",
+      "Firstname": "Francesca",
+      "Lastname": "Hane",
+      "MiddleName": "Weber, Lehner and Stehr",
+      "Title": "eligendi",
+      "Description": "Operative upward-trending success",
+      "Email": "delilah@kilbackbalistreri.ca",
+      "FullName": "Abbigail Kulas",
+      "DirectPhone": "226-727-4936",
+      "FormalName": "Stracke LLC",
+      "CountryId": 288,
+      "ContactId": 740,
+      "ContactName": "Mohr Inc and Sons",
+      "Retired": 312,
+      "Rank": 68,
+      "ActiveInterests": 711,
       "ContactDepartment": "",
-      "ContactCountryId": 473,
-      "ContactOrgNr": "1572437",
-      "FaxPhone": "1-230-560-2099 x11018",
-      "MobilePhone": "(625)007-1187 x123",
-      "ContactPhone": "353-918-5402 x80189",
-      "AssociateName": "Towne-Schroeder",
-      "AssociateId": 404,
-      "UsePersonAddress": false,
-      "ContactFax": "odio",
-      "Kanafname": "sint",
-      "Kanalname": "non",
-      "Post1": "et",
-      "Post2": "laboriosam",
-      "Post3": "eos",
-      "EmailName": "remington@dicki.biz",
-      "ContactFullName": "Ezequiel Cronin",
-      "ActiveErpLinks": 374,
-      "TicketPriorityId": 288,
-      "SupportLanguageId": 598,
-      "SupportAssociateId": 259,
+      "ContactCountryId": 786,
+      "ContactOrgNr": "440318",
+      "FaxPhone": "040.523.4895 x364",
+      "MobilePhone": "1-248-583-7655",
+      "ContactPhone": "022.504.1297 x6647",
+      "AssociateName": "Abbott-Kihn",
+      "AssociateId": 8,
+      "UsePersonAddress": true,
+      "ContactFax": "velit",
+      "Kanafname": "temporibus",
+      "Kanalname": "atque",
+      "Post1": "sint",
+      "Post2": "omnis",
+      "Post3": "adipisci",
+      "EmailName": "laura@schulist.info",
+      "ContactFullName": "Buddy Waters",
+      "ActiveErpLinks": 46,
+      "TicketPriorityId": 642,
+      "SupportLanguageId": 197,
+      "SupportAssociateId": 837,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 613
+          "FieldType": "System.Int32",
+          "FieldLength": 183
         }
       }
     }
   ],
-  "AlertLevel": 282,
-  "ConnectId": 218,
+  "AlertLevel": 58,
+  "ConnectId": 923,
   "ReadStatus": "Green",
-  "TimeToReply": 441,
-  "RealTimeToReply": 236,
-  "TimeToClose": 560,
-  "RealTimeToClose": 397,
-  "TimeSpentInternally": 422,
-  "TimeSpentExternally": 9,
-  "TimeSpentQueue": 151,
-  "RealTimeSpentInternally": 63,
-  "RealTimeSpentExternally": 677,
-  "RealTimeSpentQueue": 485,
-  "HasAttachment": true,
-  "NumReplies": 708,
-  "NumMessages": 798,
-  "FromAddress": "voluptates",
+  "TimeToReply": 652,
+  "RealTimeToReply": 303,
+  "TimeToClose": 688,
+  "RealTimeToClose": 984,
+  "TimeSpentInternally": 708,
+  "TimeSpentExternally": 487,
+  "TimeSpentQueue": 243,
+  "RealTimeSpentInternally": 175,
+  "RealTimeSpentExternally": 349,
+  "RealTimeSpentQueue": 458,
+  "HasAttachment": false,
+  "NumReplies": 425,
+  "NumMessages": 243,
+  "FromAddress": "est",
   "Messages": [
     {
-      "TicketMessageId": 964,
-      "CreatedAt": "2018-12-22T11:10:53.5812142+01:00",
+      "TicketMessageId": 727,
+      "CreatedAt": "2015-08-11T02:49:51.5831853+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "voluptatem",
-      "PersonId": 138,
-      "PersonFullName": "Michele Schowalter",
-      "ContactId": 261,
-      "ContactName": "Gutmann-Ankunding",
+      "Important": true,
+      "Author": "ut",
+      "PersonId": 615,
+      "PersonFullName": "Mrs. Christine Rachael Beatty",
+      "ContactId": 64,
+      "ContactName": "Flatley-Torp",
       "ContactDepartment": "",
-      "NumAttachments": 963,
-      "EmailHeader": "jamaal_morissette@fisher.info",
+      "NumAttachments": 725,
+      "EmailHeader": "esmeralda.mcdermott@grimes.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "incidunt",
-      "Sentiment": 607,
-      "SentimentConfidence": 415,
-      "CreatedBy": 261,
+      "Language": "velit",
+      "Sentiment": 52,
+      "SentimentConfidence": 724,
+      "CreatedBy": 773,
+      "ChangedAt": "2015-10-22T02:49:51.5831853+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 395
+          "FieldLength": 664
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 413,
-      "Name": "Block LLC",
-      "ToolTip": "Aspernatur cupiditate minima aut.",
+      "Id": 473,
+      "Name": "Hickle-Tillman",
+      "ToolTip": "Qui molestias sint.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 252
+          "FieldLength": 474
         }
       }
     },
     {
-      "Id": 413,
-      "Name": "Block LLC",
-      "ToolTip": "Aspernatur cupiditate minima aut.",
+      "Id": 473,
+      "Name": "Hickle-Tillman",
+      "ToolTip": "Qui molestias sint.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 252
+          "FieldLength": 474
         }
       }
     }
   ],
-  "Language": "esse",
-  "Sentiment": 698,
-  "SentimentConfidence": 756,
-  "SuggestedCategoryId": 349,
+  "Language": "omnis",
+  "Sentiment": 189,
+  "SentimentConfidence": 555,
+  "SuggestedCategoryId": 252,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 302,
-  "IconHint": "soluta",
+  "OrigHumanCategoryId": 613,
+  "IconHint": "quo",
   "ExtraFields": {
-    "ExtraFields1": "veniam",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "officia"
+    "CustomFields1": "tempore",
+    "CustomFields2": "nihil"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldLength": 440
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -11,6 +11,13 @@ POST /api/v1/Agents/Project/SaveProjectEntity
 
 Updates the existing ProjectEntity or creates a new ProjectEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ProjectEntity or creates a new ProjectEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ProjectEntity to be saved.
+The ProjectEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +70,8 @@ The ProjectEntity to be saved.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -71,7 +79,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -119,96 +127,96 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 4,
-  "Name": "Lueilwitz, Hoppe and Schimmel",
-  "ProjectNumber": "1927960",
+  "ProjectId": 458,
+  "Name": "Blick-Kassulke",
+  "ProjectNumber": "1212331",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 986,
-      "ContactId": 260,
-      "ProjectId": 576,
-      "ContactName": "Kub, Christiansen and Wisoky",
+      "ProjectmemberId": 187,
+      "ContactId": 788,
+      "ProjectId": 613,
+      "ContactName": "Jones-Breitenberg",
       "ContactDepartment": "",
-      "ProjectName": "Jewess, Orn and Beatty",
-      "EmailId": 156,
-      "EmailAddress": "edwin.gutmann@parisian.biz",
-      "CountryId": 337,
-      "Firstname": "Josue",
-      "MiddleName": "Kessler, Parker and Bogan",
-      "Lastname": "Leffler",
-      "PersonId": 73,
-      "Mrmrs": "autem",
-      "ProjectMemberTypeName": "Windler, Brekke and Sawayn",
-      "Phone": "1-338-585-4915 x8901",
-      "PhoneId": 169,
-      "ProjectMemberTypeId": 264,
-      "EmailAddressName": "aurore@jast.biz",
-      "Comment": "libero",
-      "FullName": "Ms. Doyle Prohaska"
+      "ProjectName": "Beahan LLC",
+      "EmailId": 410,
+      "EmailAddress": "letitia_mclaughlin@lindgrendaugherty.com",
+      "CountryId": 60,
+      "Firstname": "Betty",
+      "MiddleName": "Rogahn, Lueilwitz and Hirthe",
+      "Lastname": "Stiedemann",
+      "PersonId": 880,
+      "Mrmrs": "voluptate",
+      "ProjectMemberTypeName": "Dickinson Inc and Sons",
+      "Phone": "1-386-659-5875",
+      "PhoneId": 391,
+      "ProjectMemberTypeId": 604,
+      "EmailAddressName": "nathanael@willmspfannerstill.us",
+      "Comment": "officiis",
+      "FullName": "Kaylie Oberbrunner"
     }
   ],
   "Urls": [
     {
-      "Value": "ullam",
-      "StrippedValue": "eius",
-      "Description": "Devolved impactful database"
+      "Value": "ut",
+      "StrippedValue": "quo",
+      "Description": "Expanded tertiary moderator"
     },
     {
-      "Value": "ullam",
-      "StrippedValue": "eius",
-      "Description": "Devolved impactful database"
+      "Value": "ut",
+      "StrippedValue": "quo",
+      "Description": "Expanded tertiary moderator"
     }
   ],
-  "CreatedDate": "2002-12-11T11:10:27.565453+01:00",
-  "UpdatedDate": "2005-08-16T11:10:27.565453+02:00",
-  "Description": "Function-based eco-centric initiative",
-  "Postit": "unde",
+  "CreatedDate": "1995-12-06T02:49:44.9215886+01:00",
+  "UpdatedDate": "2010-10-08T02:49:44.9215886+02:00",
+  "Description": "Synergistic intangible encryption",
+  "Postit": "veniam",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Optimized local local area network",
-  "ActiveStatusMonitorId": 273,
+  "ImageDescription": "Ameliorated bandwidth-monitored Graphical User Interface",
+  "ActiveStatusMonitorId": 800,
   "Links": [
     {
-      "EntityName": "Bogisich-Stanton",
-      "Id": 199,
-      "Description": "Intuitive didactic concept",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 446
+      "EntityName": "Ledner LLC",
+      "Id": 951,
+      "Description": "Integrated eco-centric strategy",
+      "ExtraInfo": "earum",
+      "LinkId": 256
     },
     {
-      "EntityName": "Bogisich-Stanton",
-      "Id": 199,
-      "Description": "Intuitive didactic concept",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 446
+      "EntityName": "Ledner LLC",
+      "Id": 951,
+      "Description": "Integrated eco-centric strategy",
+      "ExtraInfo": "earum",
+      "LinkId": 256
     }
   ],
-  "ActiveLinks": 363,
-  "Completed": true,
-  "NextMilestoneDate": "2014-07-23T11:10:27.5674548+02:00",
-  "NmdAppointmentId": 77,
-  "EndDate": "2001-10-23T11:10:27.5674548+02:00",
-  "ActiveErpLinks": 833,
+  "ActiveLinks": 69,
+  "Completed": false,
+  "NextMilestoneDate": "2021-04-26T02:49:44.9215886+02:00",
+  "NmdAppointmentId": 329,
+  "EndDate": "2001-01-17T02:49:44.9215886+01:00",
+  "ActiveErpLinks": 323,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
+    "SuperOffice:1": "True",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "corporis"
+    "ExtraFields1": "reprehenderit",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "modi",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "facilis",
+    "CustomFields2": "necessitatibus"
   },
-  "PublishEventDate": "2019-10-22T11:10:27.5674548+02:00",
-  "PublishTo": "2000-10-24T11:10:27.5674548+02:00",
-  "PublishFrom": "2000-09-04T11:10:27.5674548+02:00",
-  "IsPublished": false
+  "PublishEventDate": "2008-08-22T02:49:44.9215886+02:00",
+  "PublishTo": "2018-06-07T02:49:44.9215886+02:00",
+  "PublishFrom": "2020-07-26T02:49:44.9215886+02:00",
+  "IsPublished": true
 }
 ```
 
@@ -219,127 +227,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 576,
-  "Name": "Blick-Hettinger",
-  "ProjectNumber": "647939",
+  "ProjectId": 297,
+  "Name": "Frami Inc and Sons",
+  "ProjectNumber": "1186090",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 374,
-      "ContactId": 528,
-      "ProjectId": 497,
-      "ContactName": "Collier Group",
+      "ProjectmemberId": 732,
+      "ContactId": 480,
+      "ProjectId": 262,
+      "ContactName": "Gerlach Inc and Sons",
       "ContactDepartment": "",
-      "ProjectName": "Olson-Gulgowski",
-      "EmailId": 506,
-      "EmailAddress": "frank_wolf@orn.uk",
-      "CountryId": 244,
-      "Firstname": "Shyann",
-      "MiddleName": "Abshire, Larson and Runolfsson",
-      "Lastname": "Spencer",
-      "PersonId": 376,
-      "Mrmrs": "non",
-      "ProjectMemberTypeName": "Grant, Bahringer and Bednar",
-      "Phone": "(826)603-7375 x076",
-      "PhoneId": 677,
-      "ProjectMemberTypeId": 195,
-      "EmailAddressName": "pansy_gutmann@blanda.co.uk",
-      "Comment": "hic",
-      "FullName": "Stacey Marks",
+      "ProjectName": "Hayes-Beatty",
+      "EmailId": 534,
+      "EmailAddress": "tobin@halvorson.name",
+      "CountryId": 410,
+      "Firstname": "Alberto",
+      "MiddleName": "Shanahan-Ferry",
+      "Lastname": "Mueller",
+      "PersonId": 541,
+      "Mrmrs": "culpa",
+      "ProjectMemberTypeName": "Bradtke-Pouros",
+      "Phone": "836-416-4274 x98379",
+      "PhoneId": 771,
+      "ProjectMemberTypeId": 993,
+      "EmailAddressName": "colleen@braunbeatty.uk",
+      "Comment": "tenetur",
+      "FullName": "Jennyfer Morar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 792
+          "FieldLength": 627
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "vel",
-      "StrippedValue": "in",
-      "Description": "Enterprise-wide exuding circuit",
+      "Value": "est",
+      "StrippedValue": "optio",
+      "Description": "Robust context-sensitive utilisation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 973
+          "FieldLength": 851
         }
       }
     },
     {
-      "Value": "vel",
-      "StrippedValue": "in",
-      "Description": "Enterprise-wide exuding circuit",
+      "Value": "est",
+      "StrippedValue": "optio",
+      "Description": "Robust context-sensitive utilisation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 973
+          "FieldLength": 851
         }
       }
     }
   ],
-  "CreatedDate": "2015-12-20T11:10:27.5714526+01:00",
-  "UpdatedDate": "1995-08-09T11:10:27.5714526+02:00",
-  "Description": "Multi-layered upward-trending pricing structure",
-  "Postit": "natus",
+  "CreatedDate": "2010-07-13T02:49:44.9372128+02:00",
+  "UpdatedDate": "1996-12-10T02:49:44.9372128+01:00",
+  "Description": "Cloned solution-oriented function",
+  "Postit": "non",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": false,
-  "ImageDescription": "Organic leading edge superstructure",
-  "ActiveStatusMonitorId": 908,
+  "HasImage": true,
+  "ImageDescription": "Pre-emptive mission-critical methodology",
+  "ActiveStatusMonitorId": 110,
   "Links": [
     {
-      "EntityName": "Huels LLC",
-      "Id": 17,
-      "Description": "User-friendly cohesive capability",
-      "ExtraInfo": "et",
-      "LinkId": 170,
+      "EntityName": "Zemlak, Shanahan and Collier",
+      "Id": 297,
+      "Description": "Fundamental neutral secured line",
+      "ExtraInfo": "eius",
+      "LinkId": 760,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 545
+          "FieldLength": 307
         }
       }
     }
   ],
-  "ActiveLinks": 639,
-  "Completed": true,
-  "NextMilestoneDate": "2008-08-14T11:10:27.5744521+02:00",
-  "NmdAppointmentId": 376,
-  "EndDate": "2021-07-31T11:10:27.5744521+02:00",
-  "ActiveErpLinks": 188,
+  "ActiveLinks": 295,
+  "Completed": false,
+  "NextMilestoneDate": "2005-06-27T02:49:44.9372128+02:00",
+  "NmdAppointmentId": 477,
+  "EndDate": "2010-07-15T02:49:44.9372128+02:00",
+  "ActiveErpLinks": 792,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Mabelle Treutel MD",
-    "SuperOffice:2": "Cortez Braun"
+    "SuperOffice:1": "977780355",
+    "SuperOffice:2": "237523788"
   },
   "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "blanditiis"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "et",
+    "CustomFields2": "quos"
   },
-  "PublishEventDate": "2006-01-21T11:10:27.5744521+01:00",
-  "PublishTo": "2020-02-12T11:10:27.5744521+01:00",
-  "PublishFrom": "2007-05-30T11:10:27.5744521+02:00",
+  "PublishEventDate": "2021-04-14T02:49:44.9372128+02:00",
+  "PublishTo": "2004-09-22T02:49:44.9372128+02:00",
+  "PublishFrom": "2005-04-06T02:49:44.9372128+02:00",
   "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 901
     }
   }
 }

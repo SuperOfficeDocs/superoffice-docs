@@ -11,10 +11,17 @@ GET /api/v1/License/{ownerName}/{moduleName}
 
 Get license information for one particular license module.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ownerName | string | Name of the module owner. **Required** |
 | moduleName | string | Name of the license module. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,7 +36,8 @@ Get license information for one particular license module.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -37,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +71,7 @@ Response body:
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,20 +81,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Grant-Kub",
-  "ModuleName": "Ondricka, Terry and Balistreri",
-  "ModuleDescription": "Implemented cohesive frame",
-  "ModuleTooltip": "vitae",
-  "ModuleVersion": "assumenda",
+  "OwnerName": "Mayert Inc and Sons",
+  "ModuleName": "Johnson-Goodwin",
+  "ModuleDescription": "Adaptive 3rd generation instruction set",
+  "ModuleTooltip": "nostrum",
+  "ModuleVersion": "et",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 458,
-  "ExtraFlags": 752,
-  "ExtraInfo": "similique",
-  "SortOrder": 742,
+  "NumberOfLicenses": 964,
+  "ExtraFlags": 827,
+  "ExtraInfo": "ut",
+  "SortOrder": 943,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Ziemann-Johnson",
-  "Signature": "repellendus"
+  "PrerequisiteModuleName": "Herman, Quigley and Daugherty",
+  "Signature": "quo"
 }
 ```

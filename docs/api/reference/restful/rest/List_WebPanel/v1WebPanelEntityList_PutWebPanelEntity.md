@@ -11,11 +11,18 @@ PUT /api/v1/List/WebPanel/Items/{id}
 
 Updates the existing WebPanelEntity
 
+
 Calls the List agent service SaveWebPanelEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of WebPanelEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveWebPanelEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of WebPanelEntity to be saved.
+The details of WebPanelEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +66,8 @@ The details of WebPanelEntity to be saved.
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -68,7 +76,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,30 +110,30 @@ Response body:
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 684,
-  "Name": "Greenfelder Group",
-  "Tooltip": "omnis",
+  "WebPanelId": 875,
+  "Name": "Champlin-Rolfson",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 632,
+  "Rank": 992,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Schultz, Klocko and Wisozk",
+  "WindowName": "Harris Group",
   "Url": "http://www.example.com/",
-  "ProgId": "repellat",
-  "Icon": 765,
+  "ProgId": "tempora",
+  "Icon": 895,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -137,33 +145,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 884,
-  "Name": "Glover-Tillman",
-  "Tooltip": "omnis",
+  "WebPanelId": 150,
+  "Name": "Huel Inc and Sons",
+  "Tooltip": "minus",
   "Deleted": false,
-  "Rank": 490,
+  "Rank": 52,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Welch-Mayer",
+  "WindowName": "Brekke Group",
   "Url": "http://www.example.com/",
-  "ProgId": "accusamus",
-  "Icon": 958,
+  "ProgId": "doloremque",
+  "Icon": 562,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 738
     }
   }
 }

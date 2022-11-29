@@ -11,10 +11,17 @@ PUT /api/v1/List/{udListDefinitionName}/Items/{id}
 
 Save a list item for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The identity of the list item to load **Required** |
 | udListDefinitionName | string | The name of the list definition, indicating which list to save the item to. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Save a list item for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: item
+## Request Body: item  
 
-The item to save
+The item to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +50,8 @@ The item to save
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,16 +79,16 @@ Response body:
 PUT /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 910,
-  "Name": "Lemke-Leuschke",
-  "Tooltip": "eligendi",
-  "Deleted": false,
-  "UdListDefinitionId": 249,
-  "Rank": 799
+  "Id": 997,
+  "Name": "Gerlach-Labadie",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "UdListDefinitionId": 212,
+  "Rank": 725
 }
 ```
 
@@ -91,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 843,
-  "Name": "Mills-Gutmann",
-  "Tooltip": "est",
+  "Id": 883,
+  "Name": "Jaskolski, Collins and Cummings",
+  "Tooltip": "amet",
   "Deleted": false,
-  "UdListDefinitionId": 355,
-  "Rank": 414,
+  "UdListDefinitionId": 384,
+  "Rank": 264,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 516
+      "FieldLength": 653
     }
   }
 }

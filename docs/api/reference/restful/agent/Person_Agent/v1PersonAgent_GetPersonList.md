@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetPersonList
 
 Gets an array of Person objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Person objects.
 ```http
 POST /api/v1/Agents/Person/GetPersonList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/Person/GetPersonList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: personIds
+## Request Body: personIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -100,7 +109,7 @@ Response body: array
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -111,52 +120,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "sequi",
-    "PersonId": 690,
-    "Mrmrs": "inventore",
-    "Firstname": "Nikko",
-    "Lastname": "Bergstrom",
-    "MiddleName": "McClure-Tremblay",
-    "Title": "qui",
-    "Description": "Up-sized fresh-thinking knowledge user",
-    "Email": "sheldon_hirthe@rowe.us",
-    "FullName": "Dr. Courtney Ari Hoppe IV",
-    "DirectPhone": "173.531.0574 x1771",
-    "FormalName": "Considine, Gaylord and Bauch",
-    "CountryId": 192,
-    "ContactId": 962,
-    "ContactName": "Treutel Inc and Sons",
-    "Retired": 855,
-    "Rank": 578,
-    "ActiveInterests": 889,
+    "Position": "quam",
+    "PersonId": 288,
+    "Mrmrs": "maiores",
+    "Firstname": "Nova",
+    "Lastname": "Cassin",
+    "MiddleName": "Hand-Kuhlman",
+    "Title": "aliquam",
+    "Description": "Advanced exuding adapter",
+    "Email": "lelia_nicolas@nienowkulas.ca",
+    "FullName": "Ms. Madelyn Nikolaus DVM",
+    "DirectPhone": "192.562.5608",
+    "FormalName": "Jones-Ernser",
+    "CountryId": 511,
+    "ContactId": 335,
+    "ContactName": "Haag-Homenick",
+    "Retired": 522,
+    "Rank": 929,
+    "ActiveInterests": 28,
     "ContactDepartment": "",
-    "ContactCountryId": 775,
-    "ContactOrgNr": "1280546",
-    "FaxPhone": "(496)945-1788",
-    "MobilePhone": "717.692.5900 x8353",
-    "ContactPhone": "017.683.1753",
-    "AssociateName": "Homenick Group",
-    "AssociateId": 473,
+    "ContactCountryId": 847,
+    "ContactOrgNr": "1059143",
+    "FaxPhone": "050-393-2704",
+    "MobilePhone": "(032)870-1098 x4459",
+    "ContactPhone": "133.715.4432 x820",
+    "AssociateName": "Feil, Klocko and Lang",
+    "AssociateId": 314,
     "UsePersonAddress": false,
-    "ContactFax": "culpa",
-    "Kanafname": "provident",
-    "Kanalname": "illum",
-    "Post1": "veniam",
-    "Post2": "corporis",
-    "Post3": "quis",
-    "EmailName": "charlie@terry.com",
-    "ContactFullName": "Niko Mosciski",
-    "ActiveErpLinks": 994,
-    "TicketPriorityId": 390,
-    "SupportLanguageId": 936,
-    "SupportAssociateId": 953,
+    "ContactFax": "quasi",
+    "Kanafname": "iusto",
+    "Kanalname": "voluptate",
+    "Post1": "harum",
+    "Post2": "harum",
+    "Post3": "optio",
+    "EmailName": "jerry@jaskolski.ca",
+    "ContactFullName": "Emma Bechtelar",
+    "ActiveErpLinks": 20,
+    "TicketPriorityId": 581,
+    "SupportLanguageId": 588,
+    "SupportAssociateId": 88,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 206
+        "FieldType": "System.Int32",
+        "FieldLength": 356
       }
     }
   }

@@ -11,6 +11,13 @@ PUT /api/v1/Sale/UdefLayout
 
 Save SaleEntity user-defined field layout.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,7 +32,9 @@ Save SaleEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: fields
+## Request Body: fields  
+
+ 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,6 +72,7 @@ Save SaleEntity user-defined field layout.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
+
 
 ## Response: array
 
@@ -119,45 +129,45 @@ Response body: array
 PUT /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 813,
-    "ColumnId": 966,
-    "FieldDefault": "et",
-    "FieldHeight": 781,
-    "FieldLabel": "magnam",
-    "FieldLeft": 246,
-    "FieldTop": 48,
+    "UDefFieldId": 322,
+    "ColumnId": 828,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 143,
+    "FieldLabel": "fugit",
+    "FieldLeft": 625,
+    "FieldTop": 20,
     "FieldType": "Checkbox",
-    "FieldWidth": 915,
-    "FormatMask": "qui",
+    "FieldWidth": 619,
+    "FormatMask": "excepturi",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 650,
-    "LabelLeft": 325,
-    "LabelTop": 164,
-    "LabelWidth": 873,
-    "LastVersionId": 769,
-    "ListTableId": 700,
+    "LabelHeight": 4,
+    "LabelLeft": 965,
+    "LabelTop": 449,
+    "LabelWidth": 464,
+    "LastVersionId": 802,
+    "ListTableId": 3,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 731,
-    "ProgId": "accusamus",
+    "Page1LineNo": 602,
+    "ProgId": "consequatur",
     "IsReadOnly": false,
-    "ShortLabel": "facere",
-    "TabOrder": 340,
-    "TextLength": 784,
-    "Tooltip": "magni",
-    "UdefIdentity": 38,
-    "UDListDefinitionId": 741,
+    "ShortLabel": "aut",
+    "TabOrder": 613,
+    "TextLength": 990,
+    "Tooltip": "ea",
+    "UdefIdentity": 881,
+    "UDListDefinitionId": 166,
     "Justification": "Center",
-    "Version": 409,
-    "TemplateVariableName": "Herzog, Bernhard and Feest",
+    "Version": 100,
+    "TemplateVariableName": "Huels, Zulauf and Abshire",
     "HasBeenPublished": false,
-    "MdoListName": "Renner-Kozey"
+    "MdoListName": "Satterfield, O'Hara and Batz"
   }
 ]
 ```
@@ -170,46 +180,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 93,
-    "ColumnId": 491,
-    "FieldDefault": "eveniet",
-    "FieldHeight": 81,
-    "FieldLabel": "qui",
-    "FieldLeft": 235,
-    "FieldTop": 227,
+    "UDefFieldId": 308,
+    "ColumnId": 226,
+    "FieldDefault": "qui",
+    "FieldHeight": 222,
+    "FieldLabel": "accusamus",
+    "FieldLeft": 472,
+    "FieldTop": 35,
     "FieldType": "Checkbox",
-    "FieldWidth": 650,
-    "FormatMask": "porro",
-    "HideLabel": true,
+    "FieldWidth": 632,
+    "FormatMask": "quos",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 314,
-    "LabelLeft": 656,
-    "LabelTop": 290,
-    "LabelWidth": 458,
-    "LastVersionId": 405,
-    "ListTableId": 857,
-    "IsMandatory": true,
+    "LabelHeight": 280,
+    "LabelLeft": 186,
+    "LabelTop": 669,
+    "LabelWidth": 487,
+    "LastVersionId": 720,
+    "ListTableId": 722,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 150,
-    "ProgId": "dicta",
+    "Page1LineNo": 276,
+    "ProgId": "aperiam",
     "IsReadOnly": true,
-    "ShortLabel": "vero",
-    "TabOrder": 865,
-    "TextLength": 533,
-    "Tooltip": "voluptas",
-    "UdefIdentity": 75,
-    "UDListDefinitionId": 101,
+    "ShortLabel": "mollitia",
+    "TabOrder": 827,
+    "TextLength": 35,
+    "Tooltip": "quisquam",
+    "UdefIdentity": 700,
+    "UDListDefinitionId": 399,
     "Justification": "Center",
-    "Version": 916,
-    "TemplateVariableName": "Doyle LLC",
-    "HasBeenPublished": false,
-    "MdoListName": "Friesen-Baumbach",
+    "Version": 134,
+    "TemplateVariableName": "D'Amore Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Steuber-Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 261
+        "FieldType": "System.Int32",
+        "FieldLength": 74
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CreateQuoteAlternative
 
 Create a new quote alternative on a version.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a new quote alternative on a version.
 ```http
 POST /api/v1/Agents/Quote/CreateQuoteAlternative?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/CreateQuoteAlternative?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, QuoteAlternativeName, QuoteAlternativeDescription
+QuoteVersionId, QuoteAlternativeName, QuoteAlternativeDescription 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ QuoteVersionId, QuoteAlternativeName, QuoteAlternativeDescription
 | QuoteAlternativeName | string |  |
 | QuoteAlternativeDescription | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,13 +97,13 @@ Response body:
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 223,
-  "QuoteAlternativeName": "Schoen Inc and Sons",
-  "QuoteAlternativeDescription": "Open-architected attitude-oriented instruction set"
+  "QuoteVersionId": 233,
+  "QuoteAlternativeName": "Marks-West",
+  "QuoteAlternativeDescription": "Monitored mobile time-frame"
 }
 ```
 
@@ -106,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 748,
-  "ERPQuoteAlternativeKey": "laboriosam",
-  "QuoteVersionId": 726,
-  "Name": "Lakin-Connelly",
-  "Description": "Front-line directional paradigm",
+  "QuoteAlternativeId": 304,
+  "ERPQuoteAlternativeKey": "sunt",
+  "QuoteVersionId": 985,
+  "Name": "Lueilwitz-Flatley",
+  "Description": "Self-enabling stable customer loyalty",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 21051.077999999998,
-  "ERPDiscountAmount": 13297.562,
-  "DiscountPercent": 10931.392,
-  "DiscountAmount": 2591.8179999999998,
+  "ERPDiscountPercent": 385.48199999999997,
+  "ERPDiscountAmount": 22928.344,
+  "DiscountPercent": 23423.516,
+  "DiscountAmount": 16766.899999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "hic",
-  "VAT": 18503.136,
-  "EarningPercent": 17168.052,
-  "EarningAmount": 21430.291999999998,
-  "SubTotal": 4218.364,
-  "TotalPrice": 8988.312,
-  "ExtraField1": "ratione",
-  "ExtraField2": "at",
-  "ExtraField3": "dolores",
-  "ExtraField4": "assumenda",
-  "ExtraField5": "doloribus",
+  "VATInfo": "cum",
+  "VAT": 8044.978,
+  "EarningPercent": 14751.738,
+  "EarningAmount": 10856.176,
+  "SubTotal": 8154.668,
+  "TotalPrice": 9972.387999999999,
+  "ExtraField1": "id",
+  "ExtraField2": "ut",
+  "ExtraField3": "et",
+  "ExtraField4": "et",
+  "ExtraField5": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 579
     }
   }
 }

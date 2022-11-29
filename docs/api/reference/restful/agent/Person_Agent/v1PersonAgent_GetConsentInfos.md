@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/GetConsentInfos
 
 Get all consent information for a given person.
 
+
 May include withdrawn consents (check
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ May include withdrawn consents (check
 ```http
 POST /api/v1/Agents/Person/GetConsentInfos?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Person/GetConsentInfos?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
+
 
 ## Response: array
 
@@ -85,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 342
+  "PersonId": 489
 }
 ```
 
@@ -97,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 128,
-    "Comment": "a",
-    "Registered": "2016-02-17T11:10:27.4824584+01:00",
-    "RegisteredAssociateId": 147,
-    "Updated": "2006-09-23T11:10:27.4824584+02:00",
-    "UpdatedAssociateId": 197,
-    "LegalBaseId": 729,
-    "LegalBaseKey": "sit",
-    "LegalBaseName": "Bogisich-Schuppe",
-    "ConsentPurposeId": 52,
-    "ConsentPurposeKey": "molestiae",
-    "ConsentPurposeName": "Hudson, Stiedemann and Halvorson",
-    "ConsentSourceId": 195,
-    "ConsentSourceKey": "quos",
-    "ConsentSourceName": "Deckow-Kemmer",
+    "ConsentPersonId": 162,
+    "Comment": "eius",
+    "Registered": "2016-10-24T02:49:44.8590895+02:00",
+    "RegisteredAssociateId": 821,
+    "Updated": "2014-08-13T02:49:44.8590895+02:00",
+    "UpdatedAssociateId": 782,
+    "LegalBaseId": 176,
+    "LegalBaseKey": "libero",
+    "LegalBaseName": "Mohr Group",
+    "ConsentPurposeId": 831,
+    "ConsentPurposeKey": "eos",
+    "ConsentPurposeName": "Labadie, Murray and Beier",
+    "ConsentSourceId": 348,
+    "ConsentSourceKey": "nulla",
+    "ConsentSourceName": "Rath, Kshlerin and Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 479
+        "FieldLength": 945
       }
     }
   }

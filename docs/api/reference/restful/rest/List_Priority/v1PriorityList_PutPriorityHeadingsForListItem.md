@@ -11,11 +11,18 @@ PUT /api/v1/List/Priority/Items/{itemId}/Headings
 
 Saves headings for the Priority list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 339,
-    "Name": "Wisozk LLC",
-    "ToolTip": "Possimus blanditiis.",
+    "Id": 592,
+    "Name": "Heathcote, Greenfelder and Bogan",
+    "ToolTip": "Ea iusto aut inventore.",
     "Deleted": false,
-    "Rank": 482,
-    "Type": "alias",
-    "ColorBlock": 534,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "1995-07-20T11:10:54.4029022+02:00",
+    "Rank": 920,
+    "Type": "ex",
+    "ColorBlock": 53,
+    "IconHint": "odit",
+    "Selected": true,
+    "LastChanged": "2011-10-07T02:49:52.3440724+02:00",
     "ChildItems": [
       {
-        "Id": 423,
-        "Name": "Langworth, DuBuque and Dietrich",
-        "ToolTip": "Sunt necessitatibus rem ducimus voluptatem.",
+        "Id": 279,
+        "Name": "Mann LLC",
+        "ToolTip": "Exercitationem autem magnam.",
         "Deleted": true,
-        "Rank": 33,
-        "Type": "fugiat",
-        "ColorBlock": 247,
-        "IconHint": "est",
+        "Rank": 411,
+        "Type": "voluptas",
+        "ColorBlock": 893,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2005-06-12T11:10:54.4029022+02:00",
+        "LastChanged": "1996-07-23T02:49:52.3440724+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "natus",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Mrs. Caesar Towne"
+        "FullName": "Sylvester Shana Baumbach DDS"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Jane O'Keefe"
+    "FullName": "Russ Lindgren"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Rau, Nitzsche and Maggio",
-    "ToolTip": "Non in labore voluptates.",
-    "Deleted": false,
-    "Rank": 731,
-    "Type": "minima",
-    "ColorBlock": 746,
-    "IconHint": "dolore",
+    "Id": 210,
+    "Name": "Kirlin, Hane and Casper",
+    "ToolTip": "Molestias nulla pariatur quaerat.",
+    "Deleted": true,
+    "Rank": 424,
+    "Type": "quae",
+    "ColorBlock": 553,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "1995-09-27T11:10:54.4069236+02:00",
+    "LastChanged": "1999-12-15T02:49:52.3440724+01:00",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "Sauer, Berge and Kuhn",
-        "ToolTip": "Alias consectetur aut voluptatem suscipit aut.",
+        "Id": 415,
+        "Name": "Cole LLC",
+        "ToolTip": "Perspiciatis vitae non veniam eos laudantium illum.",
         "Deleted": false,
-        "Rank": 572,
-        "Type": "vitae",
-        "ColorBlock": 31,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "1998-04-03T11:10:54.4069236+02:00",
+        "Rank": 969,
+        "Type": "laboriosam",
+        "ColorBlock": 410,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "1995-11-30T02:49:52.3440724+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Mrs. Glen Corbin Yundt Sr.",
+        "ExtraInfo": "sit",
+        "StyleHint": "numquam",
+        "Hidden": false,
+        "FullName": "Mrs. Lulu Cruz Flatley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 359
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "ratione",
-    "Hidden": false,
-    "FullName": "Neva Marvin",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "placeat",
+    "Hidden": true,
+    "FullName": "Elmer Stokes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 629
       }
     }
   }

@@ -11,7 +11,16 @@ POST /api/v1/Agents/User/SaveServiceAuth
 
 Updates the existing ServiceAuth or creates a new ServiceAuth if the id parameter is empty
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Updates the existing ServiceAuth or creates a new ServiceAuth if the id paramete
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ServiceAuth to be saved.
+The ServiceAuth to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +49,8 @@ The ServiceAuth to be saved.
 | Username | string | The username |
 | Password | string | The (decrypted) password or token |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 465,
-  "Server": "inventore",
-  "Port": 138,
-  "AuthType": "harum",
-  "Username": "omnis",
-  "Password": "ipsa"
+  "ServiceAuthId": 111,
+  "Server": "architecto",
+  "Port": 923,
+  "AuthType": "voluptatem",
+  "Username": "illo",
+  "Password": "error"
 }
 ```
 
@@ -87,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 815,
-  "Server": "culpa",
-  "Port": 848,
-  "AuthType": "facilis",
-  "Username": "consequuntur",
-  "Password": "perspiciatis",
+  "ServiceAuthId": 50,
+  "Server": "reiciendis",
+  "Port": 386,
+  "AuthType": "autem",
+  "Username": "tenetur",
+  "Password": "pariatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 905
     }
   }
 }

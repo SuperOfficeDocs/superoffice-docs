@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 
 Gets a AudienceLayoutEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=991
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=460
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +72,7 @@ Response body:
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 498,
-  "InstanceLayout": "modi",
-  "InstanceName": "Champlin, Baumbach and Spencer",
-  "CreatedDate": "1998-05-26T11:10:26.008553+02:00",
-  "UpdatedDate": "2013-01-07T11:10:26.008553+01:00",
+  "AudienceLayoutId": 339,
+  "InstanceLayout": "quo",
+  "InstanceName": "Schoen Group",
+  "CreatedDate": "2002-07-28T02:49:43.6847821+02:00",
+  "UpdatedDate": "2019-06-14T02:49:43.6847821+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 900
+      "FieldType": "System.Int32",
+      "FieldLength": 806
     }
   }
 }

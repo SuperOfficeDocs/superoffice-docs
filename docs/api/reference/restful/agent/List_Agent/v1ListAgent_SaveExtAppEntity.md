@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveExtAppEntity
 
 Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ExtAppEntity to be saved.
+The ExtAppEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +61,8 @@ The ExtAppEntity to be saved.
 | ExecuteOnEvent | string | Events that cause automatic execution of this app |
 | Path | string | Path where the programfile is located; if empty, PATH is used |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -62,7 +70,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,28 +109,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 137,
-  "Name": "Mante-Grant",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "Rank": 653,
-  "Filename": "architecto",
-  "Parameters": "aut",
-  "Workdir": "aut",
+  "ExtAppId": 460,
+  "Name": "Satterfield-Armstrong",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 982,
+  "Filename": "qui",
+  "Parameters": "itaque",
+  "Workdir": "atque",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 463,
+  "Icon": 90,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "nobis"
+  "Path": "explicabo"
 }
 ```
 
@@ -133,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 345,
-  "Name": "Prosacco LLC",
-  "Tooltip": "veniam",
+  "ExtAppId": 894,
+  "Name": "Lehner, Gutkowski and Berge",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "Rank": 807,
-  "Filename": "natus",
-  "Parameters": "ut",
-  "Workdir": "praesentium",
+  "Rank": 182,
+  "Filename": "recusandae",
+  "Parameters": "iste",
+  "Workdir": "modi",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 513,
+  "Icon": 684,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "dolorum",
+  "Path": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   }
 }

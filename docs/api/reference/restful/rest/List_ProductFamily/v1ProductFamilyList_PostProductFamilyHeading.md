@@ -11,7 +11,14 @@ POST /api/v1/List/ProductFamily/Headings
 
 Saves a new heading for the ProductFamily list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,16 +75,16 @@ Response body:
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 798,
-  "Name": "Bailey, Hodkiewicz and Ryan",
-  "Tooltip": "perspiciatis",
+  "HeadingId": 294,
+  "Name": "Fadel-Willms",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 32,
-  "UdListDefinitionId": 162
+  "Rank": 549,
+  "UdListDefinitionId": 352
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 856,
-  "Name": "Crist, Harris and Lockman",
-  "Tooltip": "et",
+  "HeadingId": 994,
+  "Name": "Grady Group",
+  "Tooltip": "sit",
   "Deleted": true,
-  "Rank": 52,
-  "UdListDefinitionId": 29,
+  "Rank": 379,
+  "UdListDefinitionId": 300,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldType": "System.String",
+      "FieldLength": 941
     }
   }
 }

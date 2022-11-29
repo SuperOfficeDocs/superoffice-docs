@@ -11,9 +11,16 @@ GET /api/v1/Document/UdefLayout/{progidOrLabel}
 
 Get a DocumentEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a DocumentEntity user-defined field's details based on the prog-id or label.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 DocumentEntity found.
 
@@ -37,7 +45,7 @@ DocumentEntity found.
 | 200 | DocumentEntity found. |
 | 404 | DocumentEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +92,7 @@ Response body:
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,46 +102,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 680,
-  "ColumnId": 566,
-  "FieldDefault": "delectus",
-  "FieldHeight": 407,
-  "FieldLabel": "a",
-  "FieldLeft": 516,
-  "FieldTop": 133,
+  "UDefFieldId": 396,
+  "ColumnId": 882,
+  "FieldDefault": "sunt",
+  "FieldHeight": 453,
+  "FieldLabel": "voluptates",
+  "FieldLeft": 606,
+  "FieldTop": 98,
   "FieldType": "Checkbox",
-  "FieldWidth": 519,
-  "FormatMask": "ullam",
-  "HideLabel": true,
+  "FieldWidth": 419,
+  "FormatMask": "fuga",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 435,
-  "LabelLeft": 267,
-  "LabelTop": 513,
-  "LabelWidth": 213,
-  "LastVersionId": 380,
-  "ListTableId": 332,
-  "IsMandatory": false,
+  "LabelHeight": 530,
+  "LabelLeft": 851,
+  "LabelTop": 421,
+  "LabelWidth": 91,
+  "LastVersionId": 295,
+  "ListTableId": 228,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 953,
-  "ProgId": "corrupti",
-  "IsReadOnly": false,
-  "ShortLabel": "amet",
-  "TabOrder": 616,
-  "TextLength": 740,
-  "Tooltip": "rerum",
-  "UdefIdentity": 939,
-  "UDListDefinitionId": 85,
+  "Page1LineNo": 622,
+  "ProgId": "magni",
+  "IsReadOnly": true,
+  "ShortLabel": "vero",
+  "TabOrder": 519,
+  "TextLength": 675,
+  "Tooltip": "est",
+  "UdefIdentity": 583,
+  "UDListDefinitionId": 904,
   "Justification": "Center",
-  "Version": 978,
-  "TemplateVariableName": "Hand, Trantow and Hills",
-  "HasBeenPublished": false,
-  "MdoListName": "Kshlerin, Heidenreich and Daugherty",
+  "Version": 953,
+  "TemplateVariableName": "Batz, McCullough and Schneider",
+  "HasBeenPublished": true,
+  "MdoListName": "Wehner, Wilderman and Pacocha",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldLength": 505
     }
   }
 }

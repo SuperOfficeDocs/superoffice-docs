@@ -11,11 +11,17 @@ GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 
 Gets headings for the DocumentTemplateEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 455,
-    "Name": "Buckridge-Muller",
-    "ToolTip": "Odio quia hic qui ut sed qui.",
+    "Id": 780,
+    "Name": "Herman LLC",
+    "ToolTip": "Vero voluptas eum aut.",
     "Deleted": false,
-    "Rank": 108,
-    "Type": "eius",
-    "ColorBlock": 614,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2015-06-16T11:10:54.292897+02:00",
+    "Rank": 42,
+    "Type": "assumenda",
+    "ColorBlock": 310,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2001-10-26T02:49:52.2503161+02:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Hermann, Jewess and Gislason",
-        "ToolTip": "Quam ut inventore distinctio.",
+        "Id": 436,
+        "Name": "Williamson, Hessel and Schroeder",
+        "ToolTip": "Distinctio quia.",
         "Deleted": false,
-        "Rank": 367,
-        "Type": "molestiae",
-        "ColorBlock": 722,
-        "IconHint": "delectus",
+        "Rank": 97,
+        "Type": "similique",
+        "ColorBlock": 84,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2010-08-01T11:10:54.292897+02:00",
+        "LastChanged": "2008-01-23T02:49:52.2503161+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Miss Katlyn Jakubowski",
+        "ExtraInfo": "id",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Darren Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 830
+            "FieldLength": 320
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "sunt",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Ms. Kim Duncan Cremin",
+    "FullName": "Dalton Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldLength": 950
       }
     }
   }

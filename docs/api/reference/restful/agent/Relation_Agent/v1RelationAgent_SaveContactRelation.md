@@ -11,6 +11,12 @@ POST /api/v1/Agents/Relation/SaveContactRelation
 
 Creates a new or updates an existing contact relation.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a new or updates an existing contact relation.
 ```http
 POST /api/v1/Agents/Relation/SaveContactRelation?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Relation/SaveContactRelation?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactRelationEntity
+ContactRelationEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactRelationEntity |  | Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition. <para /> Carrier object for ContactRelationEntity. Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +90,7 @@ Response body:
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 686,
-  "SourcePersonId": 465,
-  "DestinationContactId": 519,
-  "DestinationPersonId": 385,
-  "RelationId": 888,
-  "Comment": "aut",
-  "RelationDefinitionId": 18,
-  "Reversed": 445,
-  "UpdatedDate": "2000-12-16T11:10:27.7444945+01:00",
-  "CreatedDate": "1998-01-24T11:10:27.7444945+01:00",
+  "SourceContactId": 313,
+  "SourcePersonId": 983,
+  "DestinationContactId": 166,
+  "DestinationPersonId": 666,
+  "RelationId": 964,
+  "Comment": "perferendis",
+  "RelationDefinitionId": 778,
+  "Reversed": 543,
+  "UpdatedDate": "2000-03-23T02:49:45.0622144+01:00",
+  "CreatedDate": "2005-06-19T02:49:45.0622144+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "DuBuque Inc and Sons",
-  "SourcePersonName": "Green, Dooley and Moen",
-  "DestinationContactName": "O'Reilly-Pfeffer",
-  "DestinationPersonName": "Anderson LLC",
-  "ActiveText": "rem",
-  "PassiveText": "adipisci",
+  "SourceContactName": "Turcotte-Powlowski",
+  "SourcePersonName": "Bosco-Jerde",
+  "DestinationContactName": "Friesen LLC",
+  "DestinationPersonName": "Bradtke-Lockman",
+  "ActiveText": "earum",
+  "PassiveText": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Marketing/VerifyGoogleRecaptcha
 
 This method will try to verify a Google recaptcha token.
 
+
 The token is gained from the recaptcha frontend component
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The token is gained from the recaptcha frontend component
 ```http
 POST /api/v1/Agents/Marketing/VerifyGoogleRecaptcha?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Marketing/VerifyGoogleRecaptcha?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Token, OptionalSecretKey
+Token, OptionalSecretKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Token | string |  |
 | OptionalSecretKey | string |  |
+
 
 ## Response: bool
 
@@ -56,18 +64,19 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/VerifyGoogleRecaptcha
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "est",
-  "OptionalSecretKey": "harum"
+  "Token": "occaecati",
+  "OptionalSecretKey": "officia"
 }
 ```
 

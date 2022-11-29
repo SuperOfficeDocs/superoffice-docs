@@ -11,6 +11,13 @@ PUT /api/v1/List/MrMrs/Items
 
 Update the MrMrs list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the MrMrs list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated MrMrs.
+All the updated MrMrs. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated MrMrs.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -70,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Rutherford LLC",
-    "Tooltip": "omnis",
+    "Id": 840,
+    "Name": "Rolfson Group",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 575,
-    "Rank": 852
+    "UdListDefinitionId": 939,
+    "Rank": 473
   },
   {
-    "Id": 656,
-    "Name": "Rutherford LLC",
-    "Tooltip": "omnis",
+    "Id": 840,
+    "Name": "Rolfson Group",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 575,
-    "Rank": 852
+    "UdListDefinitionId": 939,
+    "Rank": 473
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Gulgowski Group",
-    "Tooltip": "ad",
+    "Id": 85,
+    "Name": "O'Reilly-Koelpin",
+    "Tooltip": "quisquam",
     "Deleted": true,
-    "UdListDefinitionId": 323,
-    "Rank": 965,
+    "UdListDefinitionId": 250,
+    "Rank": 916,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldLength": 898
       }
     }
   }

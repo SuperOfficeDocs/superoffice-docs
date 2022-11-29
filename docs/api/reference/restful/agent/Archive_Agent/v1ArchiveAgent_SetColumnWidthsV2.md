@@ -11,6 +11,12 @@ POST /api/v1/Agents/Archive/SetColumnWidthsV2
 
 Set the column widths for the given set of columns and GUI name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Set the column widths for the given set of columns and GUI name.
 ```http
 POST /api/v1/Agents/Archive/SetColumnWidthsV2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/Archive/SetColumnWidthsV2?$select=name,department,category/i
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GuiName, ProviderName, Context, OwnerKeys, ColumnWidths
+GuiName, ProviderName, Context, OwnerKeys, ColumnWidths 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +50,8 @@ GuiName, ProviderName, Context, OwnerKeys, ColumnWidths
 | OwnerKeys | string |  |
 | ColumnWidths | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -51,7 +59,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -59,17 +68,17 @@ Response body:
 POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Koepp LLC",
-  "ProviderName": "Watsica-Cormier",
-  "Context": "dolor",
-  "OwnerKeys": "temporibus",
+  "GuiName": "Wintheiser-Schamberger",
+  "ProviderName": "McLaughlin, Bergstrom and Heidenreich",
+  "Context": "porro",
+  "OwnerKeys": "quia",
   "ColumnWidths": [
-    "omnis",
-    "cum"
+    "facilis",
+    "at"
   ]
 }
 ```

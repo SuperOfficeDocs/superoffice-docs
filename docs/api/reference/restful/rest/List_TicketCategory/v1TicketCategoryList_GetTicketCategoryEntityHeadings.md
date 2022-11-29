@@ -11,7 +11,14 @@ GET /api/v1/List/TicketCategory/Headings
 
 Gets headings for the TicketCategoryEntity list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -53,7 +61,7 @@ Response body: array
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -64,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 688,
-    "Name": "Schiller-Jakubowski",
-    "Tooltip": "eveniet",
-    "Deleted": true,
-    "Rank": 805,
-    "UdListDefinitionId": 135,
+    "HeadingId": 461,
+    "Name": "Lockman, Bergstrom and Macejkovic",
+    "Tooltip": "nostrum",
+    "Deleted": false,
+    "Rank": 14,
+    "UdListDefinitionId": 134,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldType": "System.String",
+        "FieldLength": 92
       }
     }
   }

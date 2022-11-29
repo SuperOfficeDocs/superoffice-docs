@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectEventOnPerson
 
 Gets a ProjectEvent object from a project and a person.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a ProjectEvent object from a project and a person.
 ```http
 POST /api/v1/Agents/Project/GetProjectEventOnPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Project/GetProjectEventOnPerson?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, PersonId
+ProjectId, PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 | PersonId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,8 +99,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 177,
-  "PersonId": 694
+  "ProjectId": 67,
+  "PersonId": 573
 }
 ```
 
@@ -103,34 +111,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Arden Harvey",
-  "Description": "Object-based didactic archive",
-  "ProjectId": 614,
-  "EventName": "Paucek Group",
-  "AssociateId": 408,
-  "IsSignedOn": false,
-  "SignOffConfirmationText": "est",
-  "SignOffText": "eum",
-  "SignOnConfirmationText": "accusamus",
-  "SignOnText": "fugit",
-  "EventDate": "2019-02-20T11:10:27.607453+01:00",
+  "AssociateFullName": "Amina Thiel",
+  "Description": "Multi-tiered dynamic protocol",
+  "ProjectId": 302,
+  "EventName": "Runolfsson, Hudson and Murazik",
+  "AssociateId": 2,
+  "IsSignedOn": true,
+  "SignOffConfirmationText": "iste",
+  "SignOffText": "sint",
+  "SignOnConfirmationText": "fugiat",
+  "SignOnText": "eius",
+  "EventDate": "2014-10-05T02:49:44.952838+02:00",
   "Enabled": false,
-  "SignOff": false,
+  "SignOff": true,
   "SignOffTaskEnable": true,
-  "SignOnTaskEnable": true,
-  "SignOn": true,
-  "SignOffTaskId": 22,
-  "SignOnTaskId": 403,
+  "SignOnTaskEnable": false,
+  "SignOn": false,
+  "SignOffTaskId": 658,
+  "SignOnTaskId": 180,
   "SignOffTriggersAssign": false,
-  "SignOnTriggersAssign": true,
-  "SignOnPersonId": 625,
-  "SignOffPersonId": 532,
+  "SignOnTriggersAssign": false,
+  "SignOnPersonId": 542,
+  "SignOffPersonId": 758,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 990
     }
   }
 }

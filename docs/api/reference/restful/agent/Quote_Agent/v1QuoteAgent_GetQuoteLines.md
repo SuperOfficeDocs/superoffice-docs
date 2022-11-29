@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteLines
 
 Get all QuoteLines from an alternative
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all QuoteLines from an alternative
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLines?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Quote/GetQuoteLines?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteAlternativeId
+QuoteAlternativeId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteAlternativeId | int32 |  |
+
 
 ## Response: array
 
@@ -117,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 601
+  "QuoteAlternativeId": 577
 }
 ```
 
@@ -129,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 75,
-    "ERPQuoteLineKey": "commodi",
-    "QuoteAlternativeId": 980,
-    "ERPProductKey": "et",
+    "QuoteLineId": 777,
+    "ERPQuoteLineKey": "doloremque",
+    "QuoteAlternativeId": 548,
+    "ERPProductKey": "perspiciatis",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 22987.89,
-    "DeliveredQuantity": 1485.5159999999999,
-    "Rank": 749,
-    "Name": "Weissnat LLC",
-    "Description": "Phased multi-tasking methodology",
-    "Code": "reprehenderit",
-    "QuantityUnit": "eum",
-    "PriceUnit": "fuga",
-    "ItemNumber": "352851",
+    "Quantity": 19430.8,
+    "DeliveredQuantity": 23053.703999999998,
+    "Rank": 864,
+    "Name": "Hilpert-Spencer",
+    "Description": "Up-sized optimizing model",
+    "Code": "explicabo",
+    "QuantityUnit": "in",
+    "PriceUnit": "atque",
+    "ItemNumber": "980195",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "provident",
-    "ProductTypeKey": "in",
-    "Supplier": "nesciunt",
-    "SupplierCode": "et",
-    "Thumbnail": "suscipit",
-    "VATInfo": "cum",
-    "VAT": 4262.24,
-    "UnitCost": 2898.95,
-    "UnitMinimumPrice": 14936.644,
-    "UnitListPrice": 16064.884,
+    "ProductFamilyKey": "consectetur",
+    "ProductTypeKey": "et",
+    "Supplier": "ut",
+    "SupplierCode": "dolores",
+    "Thumbnail": "laudantium",
+    "VATInfo": "sint",
+    "VAT": 20085.806,
+    "UnitCost": 13062.511999999999,
+    "UnitMinimumPrice": 18888.618,
+    "UnitListPrice": 4951.72,
     "ExtraInfo": [
       {
-        "Name": "Ward Group",
-        "Value": "hic",
+        "Name": "McGlynn Group",
+        "Value": "dolores",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 804
+            "FieldType": "System.Int32",
+            "FieldLength": 292
           }
         }
       },
       {
-        "Name": "Ward Group",
-        "Value": "hic",
+        "Name": "McGlynn Group",
+        "Value": "dolores",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 804
+            "FieldType": "System.Int32",
+            "FieldLength": 292
           }
         }
       }
     ],
-    "RawExtraInfo": "sed",
+    "RawExtraInfo": "et",
     "IsSubscription": false,
-    "SubscriptionUnit": "corporis",
-    "SubscriptionQuantity": 1247.3319999999999,
-    "SubscriptionStart": "2009-06-22T11:10:27.7374948+02:00",
-    "ERPDiscountPercent": 26385.146,
-    "ERPDiscountAmount": 30020.586,
-    "DiscountPercent": 25570.306,
-    "DiscountAmount": 24050.316,
+    "SubscriptionUnit": "voluptas",
+    "SubscriptionQuantity": 30794.683999999997,
+    "SubscriptionStart": "2009-06-04T02:49:45.0622144+02:00",
+    "ERPDiscountPercent": 22918.942,
+    "ERPDiscountAmount": 10082.078,
+    "DiscountPercent": 15804.761999999999,
+    "DiscountAmount": 19872.694,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 13692.446,
-    "EarningAmount": 6575.132,
-    "SubTotal": 28569.543999999998,
-    "TotalPrice": 27143.574,
-    "Rights": "asperiores",
-    "Rule": "quis",
-    "ExtraField1": "tenetur",
-    "ExtraField2": "aut",
-    "ExtraField3": "doloremque",
-    "ExtraField4": "tenetur",
-    "ExtraField5": "architecto",
+    "EarningPercent": 17844.996,
+    "EarningAmount": 12846.266,
+    "SubTotal": 26507.372,
+    "TotalPrice": 2651.364,
+    "Rights": "aut",
+    "Rule": "magni",
+    "ExtraField1": "facilis",
+    "ExtraField2": "velit",
+    "ExtraField3": "pariatur",
+    "ExtraField4": "aut",
+    "ExtraField5": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 704
+        "FieldType": "System.String",
+        "FieldLength": 683
       }
     }
   }

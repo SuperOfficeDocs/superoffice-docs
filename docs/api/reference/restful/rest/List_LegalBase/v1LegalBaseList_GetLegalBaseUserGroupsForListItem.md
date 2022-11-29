@@ -11,11 +11,18 @@ GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 
 Gets user groups visible for the LegalBase list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Hilll-Collier",
-    "ToolTip": "Dolorem cupiditate voluptate quidem eveniet ducimus.",
-    "Deleted": true,
-    "Rank": 524,
-    "Type": "consequatur",
-    "ColorBlock": 930,
-    "IconHint": "porro",
+    "Id": 941,
+    "Name": "Gleichner, McGlynn and Steuber",
+    "ToolTip": "Iure voluptatem aut dolor aut numquam adipisci voluptate.",
+    "Deleted": false,
+    "Rank": 127,
+    "Type": "cum",
+    "ColorBlock": 391,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2004-11-13T11:10:54.3068692+01:00",
+    "LastChanged": "2016-12-20T02:49:52.2659433+01:00",
     "ChildItems": [
       {
-        "Id": 296,
-        "Name": "Witting Inc and Sons",
-        "ToolTip": "Omnis alias.",
-        "Deleted": false,
-        "Rank": 557,
-        "Type": "maiores",
-        "ColorBlock": 217,
-        "IconHint": "modi",
+        "Id": 325,
+        "Name": "Lakin-Schmidt",
+        "ToolTip": "Corporis facere consequatur dolorum.",
+        "Deleted": true,
+        "Rank": 529,
+        "Type": "pariatur",
+        "ColorBlock": 263,
+        "IconHint": "reprehenderit",
         "Selected": false,
-        "LastChanged": "2010-02-09T11:10:54.3068692+01:00",
+        "LastChanged": "1996-05-07T02:49:52.2659433+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "maxime",
-        "Hidden": false,
-        "FullName": "Julius Marks",
+        "ExtraInfo": "quo",
+        "StyleHint": "adipisci",
+        "Hidden": true,
+        "FullName": "Johnnie Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 685
+            "FieldLength": 740
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Jan Luettgen",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "laboriosam",
+    "Hidden": false,
+    "FullName": "Noemy Schuster V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 975
+        "FieldLength": 377
       }
     }
   }

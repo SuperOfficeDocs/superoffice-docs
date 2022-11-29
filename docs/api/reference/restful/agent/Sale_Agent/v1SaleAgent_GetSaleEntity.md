@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSaleEntity
 
 Gets a SaleEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=837
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=249
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,7 +109,7 @@ Response body:
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -117,7 +125,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "optio",
+  "SaleText": "omnis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +134,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-06-17T11:10:27.8315266+02:00",
-  "Amount": 22759.108,
-  "SaleId": 417,
-  "Earning": 23185.332,
-  "EarningPercent": 20302.052,
-  "Heading": "est",
-  "Number": "1092747",
-  "Probability": 130,
-  "CreatedDate": "2018-04-20T11:10:27.8315266+02:00",
-  "UpdatedDate": "2014-07-19T11:10:27.8315266+02:00",
+  "Saledate": "2012-04-02T02:49:45.1403412+02:00",
+  "Amount": 26742.422,
+  "SaleId": 622,
+  "Earning": 5719.55,
+  "EarningPercent": 24818.146,
+  "Heading": "et",
+  "Number": "906387",
+  "Probability": 987,
+  "CreatedDate": "1998-10-15T02:49:45.1403412+02:00",
+  "UpdatedDate": "2009-12-24T02:49:45.1403412+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 65,
+  "ActiveLinks": 229,
   "Links": [
     {
-      "EntityName": "Yundt LLC",
-      "Id": 903,
-      "Description": "User-friendly background implementation",
-      "ExtraInfo": "recusandae",
-      "LinkId": 678,
+      "EntityName": "Mertz Group",
+      "Id": 356,
+      "Description": "Universal directional complexity",
+      "ExtraInfo": "qui",
+      "LinkId": 718,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldLength": 642
         }
       }
     }
   ],
-  "NextDueDate": "1997-02-23T11:10:27.8315266+01:00",
-  "Postit": "assumenda",
+  "NextDueDate": "2007-04-29T02:49:45.1403412+02:00",
+  "Postit": "molestias",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2003-12-07T11:10:27.8325222+01:00",
+  "ReopenDate": "1998-02-25T02:49:45.1403412+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Tillman-Jaskolski",
-      "Comment": "corporis",
-      "StakeholderRoleId": 25,
-      "CountryId": 709,
-      "PersonId": 918,
-      "EmailDescription": "alf@emmerich.com",
-      "EmailId": 475,
-      "EmailAddress": "kenyon_brekke@hilll.uk",
-      "PhoneId": 529,
-      "ContactName": "Fay, Adams and White",
-      "ContactId": 490,
-      "SaleId": 579,
-      "Mrmrs": "eveniet",
-      "Firstname": "Arielle",
-      "MiddleName": "Leuschke-Reinger",
-      "Lastname": "Klein",
-      "SaleStakeholderId": 11,
-      "Rank": 173,
-      "Phone": "(907)539-8976",
+      "StakeholderRoleName": "Mertz, Pollich and Fahey",
+      "Comment": "ipsam",
+      "StakeholderRoleId": 506,
+      "CountryId": 784,
+      "PersonId": 232,
+      "EmailDescription": "eden_metz@cremin.name",
+      "EmailId": 277,
+      "EmailAddress": "giles_hickle@muellerwitting.uk",
+      "PhoneId": 342,
+      "ContactName": "Kunze LLC",
+      "ContactId": 722,
+      "SaleId": 222,
+      "Mrmrs": "minima",
+      "Firstname": "Friedrich",
+      "MiddleName": "Walsh, Bergstrom and Toy",
+      "Lastname": "Ward",
+      "SaleStakeholderId": 705,
+      "Rank": 436,
+      "Phone": "784.035.6280 x3286",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 173
+          "FieldLength": 178
         }
       }
     }
   ],
-  "ActiveErpLinks": 651,
+  "ActiveErpLinks": 793,
   "UserDefinedFields": {
-    "SuperOffice:1": "Clovis Buckridge",
-    "SuperOffice:2": "Ms. Evalyn Turcotte"
+    "SuperOffice:1": "Mr. Boris Schmeler",
+    "SuperOffice:2": "Amy Mraz Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "non"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "est"
+    "CustomFields1": "qui",
+    "CustomFields2": "nulla"
   },
-  "PublishEventDate": "1997-08-22T11:10:27.8335221+02:00",
-  "PublishTo": "1996-04-26T11:10:27.8335221+02:00",
-  "PublishFrom": "2008-03-13T11:10:27.8335221+01:00",
+  "PublishEventDate": "1997-03-09T02:49:45.1403412+01:00",
+  "PublishTo": "2006-04-29T02:49:45.1403412+02:00",
+  "PublishFrom": "2013-03-22T02:49:45.1403412+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 248,
+      "VisibleId": 105,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 576
         }
       }
     },
     {
-      "VisibleId": 248,
+      "VisibleId": 105,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 576
         }
       }
     }
@@ -241,8 +249,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldType": "System.String",
+      "FieldLength": 552
     }
   }
 }

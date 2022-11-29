@@ -11,7 +11,14 @@ GET /api/v1/List/default
 
 Set default values into a new ListEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the List agent service CreateDefaultListEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 838,
-  "Name": "Klocko Inc and Sons",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 45,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 287,
+  "Name": "Daugherty Group",
+  "Tooltip": "repudiandae",
+  "Deleted": true,
+  "Rank": 153,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": true,
+  "ListType": "magni",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldType": "System.Int32",
+      "FieldLength": 868
     }
   }
 }

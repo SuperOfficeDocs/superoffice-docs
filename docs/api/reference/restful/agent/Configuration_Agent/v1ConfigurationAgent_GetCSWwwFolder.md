@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetCSWwwFolder
 
 This method will get the www folder for CS
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method will get the www folder for CS
 ```http
 POST /api/v1/Agents/Configuration/GetCSWwwFolder?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,6 +41,7 @@ POST /api/v1/Agents/Configuration/GetCSWwwFolder?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: string
 
 OK
@@ -44,13 +52,14 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetCSWwwFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -59,5 +68,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolorum"
+"a"
 ```

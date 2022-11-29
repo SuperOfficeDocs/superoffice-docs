@@ -11,11 +11,17 @@ GET /api/v1/PreferenceDescription/{id}
 
 Gets a PreferenceDescription object.
 
+
 Calls the Preference agent service GetPreferenceDescription.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the PreferenceDescription to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Preference agent service GetPreferenceDescription.
 ```http
 GET /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 PreferenceDescription found.
 
@@ -49,7 +57,7 @@ PreferenceDescription found.
 | 200 | PreferenceDescription found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +89,7 @@ Response body:
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,30 +99,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 332,
-  "Section": "hic",
-  "Key": "exercitationem",
-  "Name": "Baumbach, Price and Crooks",
+  "PrefDescId": 339,
+  "Section": "consequatur",
+  "Key": "non",
+  "Name": "Marquardt Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Horizontal background adapter",
-  "IsBuiltin": false,
-  "TableName": "Feest-Hahn",
-  "UserDefinedListId": 334,
-  "Rank": 750,
-  "SubGroup": "necessitatibus",
-  "MinLevel": 539,
-  "MaxValue": 20,
-  "MinValue": 896,
-  "RequiredLicense": "et",
+  "Description": "Fully-configurable stable productivity",
+  "IsBuiltin": true,
+  "TableName": "Murphy-Abernathy",
+  "UserDefinedListId": 791,
+  "Rank": 460,
+  "SubGroup": "quaerat",
+  "MinLevel": 278,
+  "MaxValue": 865,
+  "MinValue": 532,
+  "RequiredLicense": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 705
     }
   },
   "_Links": {

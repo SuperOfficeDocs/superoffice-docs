@@ -11,6 +11,12 @@ POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 
 Gets a RefCountEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=599
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=275
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +76,7 @@ Response body:
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,49 +86,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 629,
-  "Field": "aspernatur",
-  "RecordId": 236,
+  "RefCountsId": 244,
+  "Field": "non",
+  "RecordId": 23,
   "SuggestedRecords": [
     {
-      "Id": 71,
-      "Name": "Harris Group",
-      "ToolTip": "Quia non laudantium.",
+      "Id": 916,
+      "Name": "Orn, Mosciski and Jerde",
+      "ToolTip": "Pariatur sed dolores velit.",
       "Deleted": true,
-      "Rank": 256,
-      "Type": "similique",
+      "Rank": 917,
+      "Type": "eaque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aspernatur",
-      "ColorBlock": 290,
-      "ExtraInfo": "illum",
-      "StyleHint": "distinctio",
-      "FullName": "Ms. Wilmer Erdman",
+      "IconHint": "repellendus",
+      "ColorBlock": 517,
+      "ExtraInfo": "dolor",
+      "StyleHint": "deserunt",
+      "FullName": "Prof. Sam Funk Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 404
+          "FieldType": "System.Int32",
+          "FieldLength": 430
         }
       }
     }
   ],
-  "CurrentValue": 351,
-  "TravelPrefix": 771,
-  "SatPrefix": 25,
-  "Allocate": false,
-  "Unique": true,
-  "ReadOnly": false,
+  "CurrentValue": 977,
+  "TravelPrefix": 310,
+  "SatPrefix": 753,
+  "Allocate": true,
+  "Unique": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldType": "System.String",
+      "FieldLength": 626
     }
   }
 }

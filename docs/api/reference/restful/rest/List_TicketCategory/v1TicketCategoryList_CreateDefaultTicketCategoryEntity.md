@@ -11,6 +11,13 @@ GET /api/v1/List/TicketCategory/Items/Default
 
 Gets a default TicketCategoryEntity list item.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,7 +31,8 @@ Gets a default TicketCategoryEntity list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -32,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,6 +59,7 @@ Response body:
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
 | DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
 | DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -62,7 +71,7 @@ Response body:
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,35 +81,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 274,
-  "ParentId": 218,
-  "Name": "Yundt Group",
-  "Fullname": "rem",
-  "CategoryMaster": 437,
+  "TicketCategoryId": 620,
+  "ParentId": 557,
+  "Name": "Prohaska LLC",
+  "Fullname": "minima",
+  "CategoryMaster": 771,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Ziemann, Kuhic and Kutch",
+  "ExternalName": "Schumm-Zieme",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 455,
-  "ReplyTemplate": 660,
-  "NotificationEmail": "jayson.windler@torphykonopelski.name",
+  "AssignmentLag": 415,
+  "ReplyTemplate": 118,
+  "NotificationEmail": "nikolas@conroygreenholt.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
+  "EffectiveReplyTemplateId": 637,
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "dignissimos"
+    "ExtraFields1": "est",
+    "ExtraFields2": "cupiditate"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "impedit"
+    "CustomFields1": "enim",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldType": "System.String",
+      "FieldLength": 88
     }
   }
 }

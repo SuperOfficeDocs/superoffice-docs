@@ -11,6 +11,13 @@ PUT /api/v1/List/Source/Items
 
 Update the Source list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the Source list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Source.
+All the updated Source. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated Source.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -65,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "O'Kon-Douglas",
-    "Tooltip": "tempora",
+    "Id": 716,
+    "Name": "Gislason, Hickle and Rath",
+    "Tooltip": "quis",
     "Deleted": false,
-    "UdListDefinitionId": 334,
-    "Rank": 812
+    "UdListDefinitionId": 101,
+    "Rank": 349
   },
   {
-    "Id": 686,
-    "Name": "O'Kon-Douglas",
-    "Tooltip": "tempora",
+    "Id": 716,
+    "Name": "Gislason, Hickle and Rath",
+    "Tooltip": "quis",
     "Deleted": false,
-    "UdListDefinitionId": 334,
-    "Rank": 812
+    "UdListDefinitionId": 101,
+    "Rank": 349
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 904,
-    "Name": "Klein-Heathcote",
-    "Tooltip": "similique",
+    "Id": 222,
+    "Name": "Heller, Johns and Schiller",
+    "Tooltip": "amet",
     "Deleted": false,
-    "UdListDefinitionId": 802,
-    "Rank": 227,
+    "UdListDefinitionId": 242,
+    "Rank": 171,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 844
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/GetChatSessionEntity
 
 Gets a ChatSessionEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=932
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=827
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +96,7 @@ Response body:
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,43 +106,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 20,
-  "TopicId": 97,
+  "ChatSessionId": 972,
+  "TopicId": 242,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ipsum",
-  "CustomerHost": "eveniet",
-  "CustomerName": "Stark, Nolan and Romaguera",
-  "CustomerEmail": "dereck@dach.us",
-  "CustomerPhone": "(942)330-5064 x240",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Terry-Grant",
+  "CustomerAlias": "sit",
+  "CustomerHost": "quam",
+  "CustomerName": "Prosacco, Kulas and Nitzsche",
+  "CustomerEmail": "cora.klocko@cummerata.us",
+  "CustomerPhone": "695.653.9375 x9888",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Dare, Haley and Dietrich",
   "Status": "Closed",
-  "FirstMessage": "voluptatem",
-  "LastMessage": "id",
-  "WhenRequested": "2021-12-08T11:10:26.0895254+01:00",
-  "WhenStarted": "2018-03-03T11:10:26.0895254+01:00",
-  "WhenEnded": "2021-02-23T11:10:26.0895254+01:00",
-  "WhenIdle": "2014-02-06T11:10:26.0895254+01:00",
-  "WhenFetched": "2009-01-31T11:10:26.0895254+01:00",
-  "SessionKey": "nesciunt",
-  "InitialQueuePos": 30,
-  "AlertLevel": 204,
-  "Rank": 871,
+  "FirstMessage": "deserunt",
+  "LastMessage": "est",
+  "WhenRequested": "2016-03-04T02:49:43.7629084+01:00",
+  "WhenStarted": "2022-08-02T02:49:43.7629084+02:00",
+  "WhenEnded": "2006-08-09T02:49:43.7629084+02:00",
+  "WhenIdle": "2017-05-10T02:49:43.7629084+02:00",
+  "WhenFetched": "1995-09-16T02:49:43.7629084+02:00",
+  "SessionKey": "aperiam",
+  "InitialQueuePos": 959,
+  "AlertLevel": 363,
+  "Rank": 789,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 323,
+  "ChatbotIsActive": false,
+  "Rating": 686,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldType": "System.Int32",
+      "FieldLength": 25
     }
   }
 }

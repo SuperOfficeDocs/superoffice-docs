@@ -11,19 +11,39 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 
 Execute a Find operation and return a page of results.
 
-&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them.
+
+&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them. 
 Archive Restriction Info objects represent search terms.
+
 
 Column names and operator strings are defined elsewhere.
 
+
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
+
+
+
+
+
 
 ```
 
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -34,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -49,9 +70,9 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumns?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Restrictions, ProviderName, DesiredColumns, PageSize, PageNumber
+Restrictions, ProviderName, DesiredColumns, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +82,8 @@ Restrictions, ProviderName, DesiredColumns, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -69,7 +91,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,21 +107,21 @@ Response body:
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Quitzon-Nikolaus",
-      "Operator": "placeat",
+      "Name": "Kulas-Turner",
+      "Operator": "magni",
       "Values": [
-        "unde",
-        "consequatur"
+        "cupiditate",
+        "ut"
       ],
       "DisplayValues": [
-        "qui",
-        "architecto"
+        "totam",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,18 +129,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 368,
+      "InterParenthesis": 373,
       "InterOperator": "And",
-      "UniqueHash": 932
+      "UniqueHash": 205
     }
   ],
-  "ProviderName": "Balistreri, Miller and Kris",
+  "ProviderName": "Macejkovic, Volkman and Rowe",
   "DesiredColumns": [
-    "quasi",
-    "saepe"
+    "dolore",
+    "quis"
   ],
-  "PageSize": 928,
-  "PageNumber": 446
+  "PageSize": 947,
+  "PageNumber": 135
 }
 ```
 
@@ -131,51 +153,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gottlieb-Orn",
-      "DisplayTooltip": "delectus",
-      "DisplayType": "nihil",
-      "CanOrderBy": true,
-      "Name": "Gerhold, Davis and Goldner",
+      "DisplayName": "Schaden Group",
+      "DisplayTooltip": "illum",
+      "DisplayType": "a",
+      "CanOrderBy": false,
+      "Name": "Aufderhar, Kling and Fritsch",
       "CanRestrictBy": true,
-      "RestrictionType": "quaerat",
-      "RestrictionListName": "Rogahn, Block and D'Amore",
-      "IsVisible": false,
-      "ExtraInfo": "quia",
-      "Width": "id",
-      "IconHint": "quod",
-      "HeadingIconHint": "pariatur"
+      "RestrictionType": "voluptas",
+      "RestrictionListName": "Doyle-Von",
+      "IsVisible": true,
+      "ExtraInfo": "officia",
+      "Width": "maxime",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "vel"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Glover-Cummings",
-      "PrimaryKey": 315,
+      "EntityName": "Schmitt Group",
+      "PrimaryKey": 902,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cum",
-          "TooltipHint": "et",
-          "LinkHint": "qui"
+          "DisplayValue": "laborum",
+          "TooltipHint": "quasi",
+          "LinkHint": "quisquam"
         }
       },
-      "LinkHint": "atque",
-      "StyleHint": "fuga",
+      "LinkHint": "facere",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 369
+          "FieldLength": 44
         }
       }
     }
   ],
-  "RowCount": 158,
+  "RowCount": 579,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 188
     }
   }
 }

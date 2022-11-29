@@ -11,6 +11,12 @@ POST /api/v1/Agents/TimeZone/SetActiveTimeZonesByFilter
 
 Toggles active state of a single row in the TZLocation table
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Toggles active state of a single row in the TZLocation table
 ```http
 POST /api/v1/Agents/TimeZone/SetActiveTimeZonesByFilter?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/TimeZone/SetActiveTimeZonesByFilter?$select=name,department,
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Filter, Active
+Filter, Active 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Filter | string |  |
 | Active | bool |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,12 +65,12 @@ Response body:
 POST /api/v1/Agents/TimeZone/SetActiveTimeZonesByFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filter": "ipsa",
-  "Active": false
+  "Filter": "facilis",
+  "Active": true
 }
 ```
 

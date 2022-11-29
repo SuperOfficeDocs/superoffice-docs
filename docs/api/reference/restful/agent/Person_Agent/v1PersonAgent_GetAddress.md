@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetAddress
 
 Gets the person's localized address.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the person's localized address.
 ```http
 POST /api/v1/Agents/Person/GetAddress?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Person/GetAddress?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +78,11 @@ Response body:
 POST /api/v1/Agents/Person/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 717
+  "PersonId": 127
 }
 ```
 
@@ -85,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 24924.701999999997,
-  "Wgs84Longitude": 19161.275999999998,
+  "Wgs84Latitude": 27225.058,
+  "Wgs84Longitude": 8662.376,
   "LocalizedAddress": [
     [
       {
-        "Name": "Grady-Auer",
-        "Value": "enim",
-        "Tooltip": "quis",
-        "Label": "at",
-        "ValueLength": 292,
-        "AddressType": "debitis",
+        "Name": "Daniel Inc and Sons",
+        "Value": "eum",
+        "Tooltip": "ducimus",
+        "Label": "voluptas",
+        "ValueLength": 974,
+        "AddressType": "quae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 576
+            "FieldLength": 877
           }
         }
       }
     ],
     [
       {
-        "Name": "Koss-Reinger",
-        "Value": "aperiam",
-        "Tooltip": "sequi",
+        "Name": "Hodkiewicz, Cartwright and Durgan",
+        "Value": "et",
+        "Tooltip": "quo",
         "Label": "autem",
-        "ValueLength": 186,
-        "AddressType": "esse",
+        "ValueLength": 797,
+        "AddressType": "quis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldLength": 61
           }
         }
       }
@@ -127,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "cum",
+  "Formatted": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 345
     }
   }
 }

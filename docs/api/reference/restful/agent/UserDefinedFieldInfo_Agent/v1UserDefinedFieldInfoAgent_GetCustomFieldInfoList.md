@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 
 Return information about all the custom fields (user-defined + extra) on a particular table
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return information about all the custom fields (user-defined + extra) on a parti
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, IncludeStandard
+TableName, IncludeStandard 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | IncludeStandard | bool |  |
+
 
 ## Response: array
 
@@ -76,11 +84,11 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Koepp-Mayer",
+  "TableName": "Stanton, Von and Sporer",
   "IncludeStandard": false
 }
 ```
@@ -94,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Koelpin-Deckow",
-    "DisplayName": "Bernier, Stamm and Morar",
-    "Description": "Fundamental next generation time-frame",
-    "ShortLabel": "dolorem",
-    "HideLabel": true,
-    "HideField": false,
+    "FieldName": "Beatty, Waelchi and Morar",
+    "DisplayName": "Green-Howe",
+    "Description": "Secured scalable task-force",
+    "ShortLabel": "quas",
+    "HideLabel": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 735,
-    "TemplateVariableName": "Nader-Gottlieb"
+    "IsExternal": false,
+    "Rank": 479,
+    "TemplateVariableName": "Padberg, Hettinger and Pfeffer"
   }
 ]
 ```

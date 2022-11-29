@@ -11,10 +11,16 @@ POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 
 Change a ProjectEntity user-defined field's type based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
 | fieldType | Enum: Number, ShortText, LongText, Date, UnlimitedDate, Checkbox, List, Decimal | The new type of the user defined field. **Required** |
+
 
 ## Query String Parameters
 
@@ -23,8 +29,9 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
+
 
 ## Request Headers
 
@@ -39,7 +46,8 @@ POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=F
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ProjectEntity found.
 
@@ -48,7 +56,7 @@ ProjectEntity found.
 | 200 | ProjectEntity found. |
 | 404 | ProjectEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,46 +113,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 655,
-  "ColumnId": 956,
-  "FieldDefault": "dolor",
-  "FieldHeight": 168,
-  "FieldLabel": "iusto",
-  "FieldLeft": 684,
-  "FieldTop": 154,
+  "UDefFieldId": 915,
+  "ColumnId": 470,
+  "FieldDefault": "est",
+  "FieldHeight": 715,
+  "FieldLabel": "provident",
+  "FieldLeft": 416,
+  "FieldTop": 787,
   "FieldType": "Checkbox",
-  "FieldWidth": 94,
-  "FormatMask": "ea",
+  "FieldWidth": 732,
+  "FormatMask": "unde",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 853,
-  "LabelLeft": 450,
-  "LabelTop": 863,
-  "LabelWidth": 83,
-  "LastVersionId": 306,
-  "ListTableId": 728,
+  "LabelHeight": 9,
+  "LabelLeft": 483,
+  "LabelTop": 108,
+  "LabelWidth": 105,
+  "LastVersionId": 688,
+  "ListTableId": 397,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 520,
-  "ProgId": "possimus",
-  "IsReadOnly": true,
-  "ShortLabel": "praesentium",
-  "TabOrder": 973,
-  "TextLength": 3,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 669,
-  "UDListDefinitionId": 753,
+  "Page1LineNo": 23,
+  "ProgId": "rerum",
+  "IsReadOnly": false,
+  "ShortLabel": "autem",
+  "TabOrder": 456,
+  "TextLength": 390,
+  "Tooltip": "impedit",
+  "UdefIdentity": 125,
+  "UDListDefinitionId": 539,
   "Justification": "Center",
-  "Version": 764,
-  "TemplateVariableName": "Rosenbaum LLC",
+  "Version": 177,
+  "TemplateVariableName": "Stehr-Mosciski",
   "HasBeenPublished": false,
-  "MdoListName": "Nitzsche, Franecki and Berge",
+  "MdoListName": "Will-Bernier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldType": "System.Int32",
+      "FieldLength": 782
     }
   }
 }

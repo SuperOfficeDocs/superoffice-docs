@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
+
 The document appointments belong to the contact specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the contact specified.
 ```http
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, DocumentTemplateIds
+ContactId, StartTime, EndTime, Count, DocumentTemplateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ ContactId, StartTime, EndTime, Count, DocumentTemplateIds
 | EndTime | date-time |  |
 | Count | int32 |  |
 | DocumentTemplateIds | array |  |
+
 
 ## Response: array
 
@@ -90,17 +98,17 @@ Response body: array
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 962,
-  "StartTime": "2001-01-27T11:10:26.4564525+01:00",
-  "EndTime": "2013-11-06T11:10:26.4564525+01:00",
-  "Count": 658,
+  "ContactId": 445,
+  "StartTime": "2021-05-27T02:49:44.0753838+02:00",
+  "EndTime": "2014-02-28T02:49:44.0753838+01:00",
+  "Count": 448,
   "DocumentTemplateIds": [
-    842,
-    25
+    200,
+    810
   ]
 }
 ```
@@ -113,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 459,
-    "Attention": "neque",
-    "Header": "maiores",
-    "Name": "Smitham-Schamberger",
-    "OurRef": "aut",
-    "YourRef": "nulla",
-    "Description": "Re-contextualized radical function",
-    "DocumentTemplate": "non",
-    "IsPublished": false,
-    "PersonId": 116,
-    "PersonFullName": "Isaiah Heathcote Jr.",
-    "AssociateFullName": "Emely Ullrich",
-    "ContactId": 238,
-    "ContactName": "Hayes, Collier and Runolfsson",
-    "ProjectId": 553,
-    "ProjectName": "Macejkovic, Schaden and D'Amore",
-    "AssociateId": 585,
-    "Snum": 683,
-    "SaleId": 550,
-    "SaleName": "Hettinger Group",
+    "DocumentId": 751,
+    "Attention": "voluptas",
+    "Header": "rerum",
+    "Name": "Rogahn-Koss",
+    "OurRef": "cumque",
+    "YourRef": "qui",
+    "Description": "Team-oriented scalable instruction set",
+    "DocumentTemplate": "incidunt",
+    "IsPublished": true,
+    "PersonId": 99,
+    "PersonFullName": "Carlo Spencer",
+    "AssociateFullName": "Esperanza Wuckert",
+    "ContactId": 104,
+    "ContactName": "Funk-Buckridge",
+    "ProjectId": 159,
+    "ProjectName": "Durgan-Leannon",
+    "AssociateId": 506,
+    "Snum": 872,
+    "SaleId": 974,
+    "SaleName": "Weissnat Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldLength": 458
       }
     }
   }

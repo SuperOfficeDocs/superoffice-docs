@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDocumentTemplates
 
 Returns all available document templates
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all available document templates
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/List/GetDocumentTemplates?$select=name,department,category/i
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,23 +85,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 248,
-    "Name": "Kuvalis-Lesch",
-    "Tooltip": "at",
-    "SaveInDb": 823,
-    "Filename": "quam",
-    "DefaultOref": "iste",
+    "DocumentTemplateId": 909,
+    "Name": "Boehm LLC",
+    "Tooltip": "facilis",
+    "SaveInDb": 709,
+    "Filename": "inventore",
+    "DefaultOref": "molestias",
     "RecordType": "Appointment",
-    "Deleted": 697,
+    "Deleted": 79,
     "Direction": "Incoming",
-    "AutoeventId": 199,
+    "AutoeventId": 739,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 240
       }
     }
   }

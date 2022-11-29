@@ -11,11 +11,18 @@ GET /api/v1/List/DocumentTemplate/Plugin/{pluginId}/DocumentTypes
 
 Get a list of document types supported by a given document plugin.
 
+
 Use the document template type when creating a new template.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | pluginId | int32 | Numeric document plugin id, corresponding to the doctmpl.AutoeventId, doctmpl.LoadTemplateFromPlugin. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,6 +37,7 @@ Use the document template type when creating a new template.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: object
 
 OK
@@ -40,13 +48,14 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 GET /api/v1/List/DocumentTemplate/Plugin/{pluginId}/DocumentTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -56,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "eligendi",
-  "2": "at"
+  "1": "magnam",
+  "2": "modi"
 }
 ```

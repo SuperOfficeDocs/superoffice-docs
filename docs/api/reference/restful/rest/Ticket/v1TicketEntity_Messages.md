@@ -11,6 +11,7 @@ GET /api/v1/Ticket/{id}/Messages
 
 OData list of Messages under a specific TicketEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Ticket/1234/Messages?$select=col1,col2,abc/col3
@@ -19,19 +20,22 @@ Can be sorted and further filtered using OData conventions:
 * Ticket/1234/Messages?$top=1000
 * Ticket/1234/Messages?$mode=full
 
+
 OData returns XML or JSON carriers depending on the HTTP Accept header.
+
 
 Calls the Archive service using the "TicketMessage" archive provider.
 
-## Filter Operators ##
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -39,9 +43,15 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
+
 
 ## Query String Parameters
 
@@ -64,16 +74,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket/{id}/Messages?$select=name,department,category/id
 GET /api/v1/Ticket/{id}/Messages?$filter=name begins 'S'
 GET /api/v1/Ticket/{id}/Messages?$orderBy=name asc
-GET /api/v1/Ticket/{id}/Messages?$entities=ipsum
-GET /api/v1/Ticket/{id}/Messages?$top=681
-GET /api/v1/Ticket/{id}/Messages?$skip=164
+GET /api/v1/Ticket/{id}/Messages?$entities=id
+GET /api/v1/Ticket/{id}/Messages?$top=488
+GET /api/v1/Ticket/{id}/Messages?$skip=231
 GET /api/v1/Ticket/{id}/Messages?$mode=Full
 GET /api/v1/Ticket/{id}/Messages?$options=GrandTotal=true
-GET /api/v1/Ticket/{id}/Messages?$context=unde
+GET /api/v1/Ticket/{id}/Messages?$context=esse
 GET /api/v1/Ticket/{id}/Messages?$format=JSON
-GET /api/v1/Ticket/{id}/Messages?$jsonSafe=True
+GET /api/v1/Ticket/{id}/Messages?$jsonSafe=False
 GET /api/v1/Ticket/{id}/Messages?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -88,7 +99,8 @@ GET /api/v1/Ticket/{id}/Messages?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -97,7 +109,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -111,7 +123,7 @@ Response body:
 GET /api/v1/Ticket/{id}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -122,19 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "officia",
+  "odata.nextLink": "harum",
   "value": [
     {
-      "PrimaryKey": 3972,
+      "PrimaryKey": 7780,
       "EntityName": "person",
-      "personId": 3972,
-      "fullName": "Leora Bauch III"
+      "personId": 7780,
+      "fullName": "Mrs. Howard Padberg"
     },
     {
-      "PrimaryKey": 1888,
+      "PrimaryKey": 7407,
       "EntityName": "person",
-      "personId": 1888,
-      "fullName": "Roman Bergnaum"
+      "personId": 7407,
+      "fullName": "Rosalyn Cristian Nolan V"
     }
   ]
 }

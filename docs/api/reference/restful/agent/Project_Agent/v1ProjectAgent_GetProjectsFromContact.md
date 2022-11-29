@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectsFromContact
 
 Returns all projects where the given contact has projectmembers.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all projects where the given contact has projectmembers.
 ```http
 POST /api/v1/Agents/Project/GetProjectsFromContact?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Project/GetProjectsFromContact?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
+
 
 ## Response: array
 
@@ -82,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 121
+  "ContactId": 667
 }
 ```
 
@@ -98,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 854,
-    "Name": "Walker, Schneider and Schimmel",
-    "Description": "Business-focused executive firmware",
+    "ProjectId": 369,
+    "Name": "Hayes-Kautzer",
+    "Description": "Intuitive national emulation",
     "URL": "http://www.example.com/",
-    "Type": "quasi",
-    "AssociateId": 235,
-    "AssociateFullName": "Jovany Turcotte",
-    "TypeId": 570,
-    "Updated": "2019-09-09T11:10:27.6214527+02:00",
-    "StatusId": 709,
-    "Status": "eum",
-    "TextId": 565,
-    "PublishTo": "2000-07-22T11:10:27.6214527+02:00",
-    "PublishFrom": "2015-04-18T11:10:27.6214527+02:00",
+    "Type": "tempore",
+    "AssociateId": 829,
+    "AssociateFullName": "Timothy Isaias Lakin Jr.",
+    "TypeId": 132,
+    "Updated": "2001-11-18T02:49:44.9684639+01:00",
+    "StatusId": 538,
+    "Status": "temporibus",
+    "TextId": 937,
+    "PublishTo": "2004-11-19T02:49:44.9684639+01:00",
+    "PublishFrom": "2005-03-09T02:49:44.9684639+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "804638",
-    "ActiveErpLinks": 188,
+    "ProjectNumber": "1043999",
+    "ActiveErpLinks": 165,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 80
+        "FieldType": "System.String",
+        "FieldLength": 119
       }
     }
   }

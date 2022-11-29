@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 
 Get a faq entry from its faq entry id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a faq entry from its faq entry id
 ```http
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-KbEntryId
+KbEntryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | KbEntryId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 90
+  "KbEntryId": 160
 }
 ```
 
@@ -84,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "pariatur",
-  "RegisteredByFullName": "Sean Farrell",
-  "Updated": "2013-12-22T11:10:26.4014237+01:00",
-  "Question": "iure",
-  "Answer": "laborum",
+  "Title": "veniam",
+  "RegisteredByFullName": "Ms. Sofia Jackeline Casper DDS",
+  "Updated": "2002-03-27T02:49:44.0285283+01:00",
+  "Question": "nam",
+  "Answer": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldType": "System.String",
+      "FieldLength": 848
     }
   }
 }

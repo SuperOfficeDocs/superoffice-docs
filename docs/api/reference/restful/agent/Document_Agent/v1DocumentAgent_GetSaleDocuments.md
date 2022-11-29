@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetSaleDocuments
 
 Get all documents that are linked to the sale.
 
+
 I.e. the documents that are listed in the sale dialog.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ I.e. the documents that are listed in the sale dialog.
 ```http
 POST /api/v1/Agents/Document/GetSaleDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Document/GetSaleDocuments?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId
+SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
+
 
 ## Response: array
 
@@ -86,11 +94,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 448
+  "SaleId": 181
 }
 ```
 
@@ -102,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 714,
-    "Attention": "assumenda",
-    "Header": "blanditiis",
-    "Name": "Gorczany, Ritchie and Marquardt",
+    "DocumentId": 492,
+    "Attention": "ea",
+    "Header": "omnis",
+    "Name": "Yundt, Kozey and Mohr",
     "OurRef": "placeat",
-    "YourRef": "quia",
-    "Description": "Fully-configurable zero administration definition",
-    "DocumentTemplate": "ipsam",
-    "IsPublished": false,
-    "PersonId": 417,
-    "PersonFullName": "Mrs. Jon Spencer Sr.",
-    "AssociateFullName": "Tania Farrell",
-    "ContactId": 725,
-    "ContactName": "Torp, Jewess and Walsh",
-    "ProjectId": 310,
-    "ProjectName": "Moen, Zieme and Hayes",
-    "AssociateId": 26,
-    "Snum": 902,
-    "SaleId": 293,
-    "SaleName": "Will-Nolan",
+    "YourRef": "odit",
+    "Description": "Vision-oriented fault-tolerant product",
+    "DocumentTemplate": "non",
+    "IsPublished": true,
+    "PersonId": 854,
+    "PersonFullName": "Miss Jamey Hudson Kris",
+    "AssociateFullName": "Mr. Jamarcus Makenzie Carter V",
+    "ContactId": 79,
+    "ContactName": "Ankunding-Streich",
+    "ProjectId": 439,
+    "ProjectName": "Runte Inc and Sons",
+    "AssociateId": 432,
+    "Snum": 657,
+    "SaleId": 362,
+    "SaleName": "Schowalter Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldLength": 268
       }
     }
   }

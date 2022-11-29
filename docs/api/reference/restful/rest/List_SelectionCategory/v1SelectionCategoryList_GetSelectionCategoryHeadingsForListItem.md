@@ -11,11 +11,17 @@ GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 
 Gets headings for the SelectionCategory list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Runolfsson, Treutel and Sipes",
-    "ToolTip": "Esse assumenda ut.",
+    "Id": 589,
+    "Name": "Leffler Inc and Sons",
+    "ToolTip": "Odit voluptatem adipisci enim.",
     "Deleted": false,
-    "Rank": 135,
-    "Type": "pariatur",
-    "ColorBlock": 347,
-    "IconHint": "dolorum",
-    "Selected": false,
-    "LastChanged": "2012-10-09T11:10:54.6289026+02:00",
+    "Rank": 536,
+    "Type": "necessitatibus",
+    "ColorBlock": 921,
+    "IconHint": "quas",
+    "Selected": true,
+    "LastChanged": "2008-11-12T02:49:52.5315748+01:00",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Carter LLC",
-        "ToolTip": "Et optio necessitatibus provident.",
-        "Deleted": true,
-        "Rank": 976,
-        "Type": "quod",
-        "ColorBlock": 500,
-        "IconHint": "explicabo",
-        "Selected": true,
-        "LastChanged": "2022-01-26T11:10:54.6289026+01:00",
+        "Id": 44,
+        "Name": "Collins, Jakubowski and Barrows",
+        "ToolTip": "Ratione est est animi reprehenderit ab.",
+        "Deleted": false,
+        "Rank": 119,
+        "Type": "ut",
+        "ColorBlock": 989,
+        "IconHint": "alias",
+        "Selected": false,
+        "LastChanged": "1999-11-20T02:49:52.5315748+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "qui",
+        "ExtraInfo": "tempora",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Priscilla Grant",
+        "FullName": "Mertie Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 848
+            "FieldLength": 405
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "ut",
+    "ExtraInfo": "aut",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Margarita Bahringer",
+    "FullName": "Kristofer Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldLength": 9
       }
     }
   }

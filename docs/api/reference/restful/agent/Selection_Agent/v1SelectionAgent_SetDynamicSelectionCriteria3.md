@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 
 Update the criteria for this dynamic selection.
 
+
 Use criteria as either restriction objects or OData string format. Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Use criteria as either restriction objects or OData string format. Criteria are 
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Criteria, Filter
+SelectionId, Criteria, Filter 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Criteria | array |  |
 | Filter | string |  |
+
 
 ## Response: array
 
@@ -76,35 +84,35 @@ Response body: array
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 959,
+  "SelectionId": 539,
   "Criteria": [
     {
-      "Name": "Hand-Fay",
-      "Operator": "consequatur",
+      "Name": "Hahn LLC",
+      "Operator": "aut",
       "Values": [
-        "est",
-        "quis"
+        "illo",
+        "rerum"
       ],
       "DisplayValues": [
-        "quos",
-        "molestiae"
+        "debitis",
+        "assumenda"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 926,
+      "InterParenthesis": 420,
       "InterOperator": "And",
-      "UniqueHash": 449
+      "UniqueHash": 345
     }
   ],
-  "Filter": "velit"
+  "Filter": "dicta"
 }
 ```
 
@@ -116,44 +124,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Altenwerth, Howe and Wisozk",
-    "Operator": "delectus",
+    "Name": "Farrell, Walsh and Bruen",
+    "Operator": "et",
     "Values": [
-      "dolor",
-      "unde"
+      "tempora",
+      "atque"
     ],
     "DisplayValues": [
-      "qui",
-      "aut"
+      "in",
+      "molestiae"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Keebler, Kohler and Little",
-        "Operator": "quo",
+        "Name": "Hyatt Group",
+        "Operator": "nihil",
         "Values": [
-          "aut",
-          "voluptates"
+          "fuga",
+          "accusantium"
         ],
         "DisplayValues": [
-          "dicta",
-          "et"
+          "veritatis",
+          "id"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 339,
+        "InterParenthesis": 919,
         "InterOperator": "And",
-        "UniqueHash": 605
+        "UniqueHash": 71
       }
     ],
-    "InterParenthesis": 653,
+    "InterParenthesis": 630,
     "InterOperator": "And",
-    "UniqueHash": 489
+    "UniqueHash": 193
   }
 ]
 ```

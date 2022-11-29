@@ -11,6 +11,12 @@ POST /api/v1/Agents/Report/UpdateFavorite
 
 Updates the favorite.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Updates the favorite.
 ```http
 POST /api/v1/Agents/Report/UpdateFavorite?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Report/UpdateFavorite?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ReportEntity
+ReportEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ReportEntity |  | Carrier object for ReportEntity. Services for the ReportEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReportAgent">Report Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 46,
+  "ReportId": 566,
   "ReportCategory": "All",
-  "Description": "Secured 5th generation archive",
+  "Description": "Fundamental content-based success",
   "ReportLayout": "CalendarMonth",
-  "Name": "Howell LLC",
-  "AssociateId": 437,
-  "TemplateId": 702,
+  "Name": "Greenholt Group",
+  "AssociateId": 84,
+  "TemplateId": 291,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 511
     }
   }
 }

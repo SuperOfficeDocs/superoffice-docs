@@ -11,9 +11,16 @@ DELETE /api/v1/Product/{productId}/Image
 
 Delete image on a product.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | productId | int32 | Product id **Required** |
+
+
 
 ## Request Headers
 
@@ -24,7 +31,8 @@ Delete image on a product.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -32,7 +40,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 

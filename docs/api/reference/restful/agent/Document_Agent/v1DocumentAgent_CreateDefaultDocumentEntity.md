@@ -11,7 +11,14 @@ POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 
 Set default values into a new DocumentEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +89,7 @@ Response body:
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,88 +99,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 387,
+  "DocumentId": 41,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "qui",
-  "Header": "exercitationem",
-  "Name": "Ward, Bernier and Wiegand",
-  "OurRef": "nulla",
-  "YourRef": "eos",
-  "CreatedDate": "2022-06-05T11:10:26.4984582+02:00",
-  "UpdatedDate": "2017-05-07T11:10:26.4984582+02:00",
-  "Description": "Synchronised maximized focus group",
+  "Attention": "ad",
+  "Header": "non",
+  "Name": "Crona Group",
+  "OurRef": "qui",
+  "YourRef": "fuga",
+  "CreatedDate": "1997-09-04T02:49:44.1066348+02:00",
+  "UpdatedDate": "2022-11-15T02:49:44.1066348+01:00",
+  "Description": "Decentralized composite time-frame",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1997-03-30T11:10:26.502425+02:00",
-  "ExternalRef": "nostrum",
+  "Date": "2011-11-20T02:49:44.1066348+01:00",
+  "ExternalRef": "soluta",
   "Completed": "Completed",
-  "ActiveLinks": 870,
+  "ActiveLinks": 916,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Yost Inc and Sons",
-      "Id": 775,
-      "Description": "Public-key intangible moratorium",
-      "ExtraInfo": "porro",
-      "LinkId": 307,
+      "EntityName": "Hegmann LLC",
+      "Id": 67,
+      "Description": "Balanced 24/7 service-desk",
+      "ExtraInfo": "nihil",
+      "LinkId": 381,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 429
+          "FieldType": "System.Int32",
+          "FieldLength": 422
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 683,
-  "Snum": 864,
+  "SuggestedDocumentId": 766,
+  "Snum": 369,
   "UserDefinedFields": {
-    "SuperOffice:1": "Kristoffer Bartoletti",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Dwight Champlin"
   },
   "ExtraFields": {
-    "ExtraFields1": "eveniet",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "hic"
   },
   "CustomFields": {
-    "CustomFields1": "placeat",
-    "CustomFields2": "ea"
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2013-02-25T11:10:26.502425+01:00",
-  "PublishTo": "2017-12-31T11:10:26.502425+01:00",
-  "PublishFrom": "2013-02-11T11:10:26.502425+01:00",
+  "PublishEventDate": "1997-12-10T02:49:44.1066348+01:00",
+  "PublishTo": "2011-01-11T02:49:44.1066348+01:00",
+  "PublishFrom": "2002-04-17T02:49:44.1066348+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 785,
+      "VisibleId": 909,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 570
+          "FieldType": "System.Int32",
+          "FieldLength": 786
         }
       }
     },
     {
-      "VisibleId": 785,
+      "VisibleId": 909,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 570
+          "FieldType": "System.Int32",
+          "FieldLength": 786
         }
       }
     }
@@ -181,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldType": "System.Int32",
+      "FieldLength": 608
     }
   }
 }
