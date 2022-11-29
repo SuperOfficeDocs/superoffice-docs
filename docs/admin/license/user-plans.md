@@ -137,15 +137,17 @@ We have the basic plans:
 These can then be combined to produce:
 
 * Sales-Essentials + Service-Essentials
-* Sales-Premium + Service-Essentials
-* Sales-Essentials + Service-Premium
-* Sales-Premium + Service-Premium
 * Sales-Essentials + Service-Essentials + Marketing
-* Sales-Premium + Service-Essentials + Marketing
+* Sales-Essentials + Service-Premium
 * Sales-Essentials + Service-Premium + Marketing
-* Sales-Premium + Service-Premium + Marketing
 * Sales-Essentials + Marketing
+
+* Sales-Premium + Service-Essentials
+* Sales-Premium + Service-Essentials + Marketing
+* Sales-Premium + Service-Premium
+* Sales-Premium + Service-Premium + Marketing
 * Sales-Premium + Marketing
+
 * Service-Essentials + Marketing
 * Service-Premium + Marketing
 
