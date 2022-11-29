@@ -3,12 +3,11 @@ title: Partner settings
 uid: dp-partner-settings
 description: Reference of partner settings in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.25.2022
+so.date: 11.29.2022
 keywords: apps, Developer Portal, partner
 so.topic: reference
-so.version:
+so.dp-version: 1.9
 so.envir: cloud
-so.client:
 ---
 
 # Partner settings
@@ -26,7 +25,7 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 | Logo | Company logo, circular | [Update settings][9] | [Marketing requirements][5] |
 | Description | The company blurb. | [Update partner profile][6]| [Marketing requirements][5] |
 | Meta description | Description for search engines. | [Update settings][9] | [Improve SEO][10] |
-| Home page URL | The website of the company. | [Update settings][9] | |
+| Links | One or more URLs with associated ALT text. For example, the website of the company. | [Update settings][9] | |
 
 ## See also
 
