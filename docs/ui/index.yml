@@ -50,22 +50,22 @@ conceptualContent:
           text: Intro
         - text: Add a layout
           itemType: how-to-guide
-          url: add-layout.md
+          url: screen-designer/configurable-screens/add-layout.md
         - text: Edit the layout of a card
           itemType: how-to-guide
-          url: edit-card-layout.md
+          url: screen-designer/configurable-screens/edit-card-layout.md
         - text: Working with fields
           itemType: how-to-guide
-          url: working-with-fields.md
+          url: screen-designer/configurable-screens/working-with-fields.md
         - text: Add a link or button
           itemType: how-to-guide
-          url: add-button.md
+          url: screen-designer/configurable-screens/add-button.md
         - text: Working with tabs
           itemType: how-to-guide
-          url: working-with-tabs.md
+          url: screen-designer/configurable-screens/working-with-tabs.md
         - text: Assign layout to group or sale/project type
           itemType: how-to-guide
-          url: assign-layout.md
+          url: screen-designer/configurable-screens/assign-layout.md
     # Card
     - title: Web panels
       summary: ""

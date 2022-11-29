@@ -61,4 +61,4 @@ Without the Development Tools license, the **More** tab shows all custom fields,
 [2]: ../web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
-[img1]:../../../common/icons/mainmenu.png
+[img1]: ../../../common/icons/mainmenu.png
