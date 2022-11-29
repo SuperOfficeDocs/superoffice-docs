@@ -80,7 +80,9 @@ When you sign in to the Developer Portal, you either represent SuperOffice or a 
 
 ### Partner
 
-A partner may own and/or develop apps.
+A partner may own and/or develop applications.
+
+[!include[Many apps](includes/note-more-than-8-apps.md)]
 
 Anyone may [register as a CRM Online developer][1] and the first person who register for a new company will trigger the creation of a partner.
 
