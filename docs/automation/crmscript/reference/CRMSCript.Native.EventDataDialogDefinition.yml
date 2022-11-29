@@ -67,7 +67,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addCheckbox(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addCheckbox(String,String)
   id: 'addCheckbox(String,String)'
-  so.intellisense: EventDataDialogDefinition.addCheckbox(String,String)
+  so.intellisense: EventDataDialogDefinition.addCheckbox
   so.version: 10.1.9
   langs:
   - crmscript
@@ -93,7 +93,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addCheckbox(String,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addCheckbox(String,String,Bool)
   id: 'addCheckbox(String,String,Bool)'
-  so.intellisense: EventDataDialogDefinition.addCheckbox(String,String,Bool)
+  so.intellisense: EventDataDialogDefinition.addCheckbox
   so.version: 10.1.9
   langs:
   - crmscript
@@ -122,7 +122,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
   id: 'addFloat(String,String)'
-  so.intellisense: EventDataDialogDefinition.addFloat(String,String)
+  so.intellisense: EventDataDialogDefinition.addFloat
   so.version: 10.1.9
   langs:
   - crmscript
@@ -148,7 +148,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float)
   id: 'addFloat(String,String,Float)'
-  so.intellisense: EventDataDialogDefinition.addFloat(String,String,Float)
+  so.intellisense: EventDataDialogDefinition.addFloat
   so.version: 10.1.9
   langs:
   - crmscript
@@ -177,7 +177,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float,String,Bool)
   id: 'addFloat(String,String,Float,String,Bool)'
-  so.intellisense: EventDataDialogDefinition.addFloat(String,String,Float,String,Bool)
+  so.intellisense: EventDataDialogDefinition.addFloat
   so.version: 10.1.9
   langs:
   - crmscript
@@ -212,7 +212,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addInteger(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addInteger(String,String)
   id: 'addInteger(String,String)'
-  so.intellisense: EventDataDialogDefinition.addInteger(String,String)
+  so.intellisense: EventDataDialogDefinition.addInteger
   so.version: 10.1.9
   langs:
   - crmscript
@@ -238,7 +238,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addInteger(String,String,Integer)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addInteger(String,String,Integer)
   id: 'addInteger(String,String,Integer)'
-  so.intellisense: EventDataDialogDefinition.addInteger(String,String,Integer)
+  so.intellisense: EventDataDialogDefinition.addInteger
   so.version: 10.1.9
   langs:
   - crmscript
@@ -267,7 +267,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addInteger(String,String,Integer,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addInteger(String,String,Integer,String,Bool)
   id: 'addInteger(String,String,Integer,String,Bool)'
-  so.intellisense: EventDataDialogDefinition.addInteger(String,String,Integer,String,Bool)
+  so.intellisense: EventDataDialogDefinition.addInteger
   so.version: 10.1.9
   langs:
   - crmscript
@@ -302,7 +302,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addLabel(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addLabel(String,String)
   id: 'addLabel(String,String)'
-  so.intellisense: EventDataDialogDefinition.addLabel(String,String)
+  so.intellisense: EventDataDialogDefinition.addLabel
   so.version: 10.1.9
   langs:
   - crmscript
@@ -328,7 +328,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String)
   id: 'addList(String,String,String)'
-  so.intellisense: EventDataDialogDefinition.addList(String,String,String)
+  so.intellisense: EventDataDialogDefinition.addList
   so.version: 10.1.9
   langs:
   - crmscript
@@ -357,7 +357,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer)
   id: 'addList(String,String,String,Integer)'
-  so.intellisense: EventDataDialogDefinition.addList(String,String,String,Integer)
+  so.intellisense: EventDataDialogDefinition.addList
   so.version: 10.1.9
   langs:
   - crmscript
@@ -389,7 +389,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool)
   id: 'addList(String,String,String,Integer,String,Bool)'
-  so.intellisense: EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool)
+  so.intellisense: EventDataDialogDefinition.addList
   so.version: 10.1.9
   langs:
   - crmscript
@@ -427,7 +427,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String[],String,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String[],String,String,Bool)
   id: 'addList(String,String,String[],String,String,Bool)'
-  so.intellisense: EventDataDialogDefinition.addList(String,String,String[],String,String,Bool)
+  so.intellisense: EventDataDialogDefinition.addList
   so.version: 10.1.9
   langs:
   - crmscript
@@ -465,7 +465,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool,String,Bool)
   id: 'addList(String,String,String,Integer,String,Bool,String,Bool)'
-  so.intellisense: EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool,String,Bool)
+  so.intellisense: EventDataDialogDefinition.addList
   so.version: 10.1.9
   langs:
   - crmscript
@@ -509,7 +509,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addText(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addText(String,String)
   id: 'addText(String,String)'
-  so.intellisense: EventDataDialogDefinition.addText(String,String)
+  so.intellisense: EventDataDialogDefinition.addText
   so.version: 10.1.9
   langs:
   - crmscript
@@ -535,7 +535,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addText(String,String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addText(String,String,String)
   id: 'addText(String,String,String)'
-  so.intellisense: EventDataDialogDefinition.addText(String,String,String)
+  so.intellisense: EventDataDialogDefinition.addText
   so.version: 10.1.9
   langs:
   - crmscript
@@ -564,7 +564,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.addText(String,String,String,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addText(String,String,String,String,Bool)
   id: 'addText(String,String,String,String,Bool)'
-  so.intellisense: EventDataDialogDefinition.addText(String,String,String,String,Bool)
+  so.intellisense: EventDataDialogDefinition.addText
   so.version: 10.1.9
   langs:
   - crmscript
@@ -599,7 +599,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.removeField(String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.removeField(String)
   id: 'removeField(String)'
-  so.intellisense: EventDataDialogDefinition.removeField(String)
+  so.intellisense: EventDataDialogDefinition.removeField
   so.version: 10.1.9
   langs:
   - crmscript
@@ -622,7 +622,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.getBlockExecutionOnCancel()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getBlockExecutionOnCancel()
   id: 'getBlockExecutionOnCancel()'
-  so.intellisense: EventDataDialogDefinition.getBlockExecutionOnCancel()
+  so.intellisense: EventDataDialogDefinition.getBlockExecutionOnCancel
   so.version: 10.1.9
   langs:
   - crmscript
@@ -642,7 +642,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.setBlockExecutionOnCancel(Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.setBlockExecutionOnCancel(Bool)
   id: 'setBlockExecutionOnCancel(Bool)'
-  so.intellisense: EventDataDialogDefinition.setBlockExecutionOnCancel(Bool)
+  so.intellisense: EventDataDialogDefinition.setBlockExecutionOnCancel
   so.version: 10.1.9
   langs:
   - crmscript
@@ -664,7 +664,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.getHeight()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getHeight()
   id: 'getHeight()'
-  so.intellisense: EventDataDialogDefinition.getHeight()
+  so.intellisense: EventDataDialogDefinition.getHeight
   so.version: 10.1.9
   langs:
   - crmscript
@@ -684,7 +684,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.setHeight(Integer)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.setHeight(Integer)
   id: 'setHeight(Integer)'
-  so.intellisense: EventDataDialogDefinition.setHeight(Integer)
+  so.intellisense: EventDataDialogDefinition.setHeight
   so.version: 10.1.9
   langs:
   - crmscript
@@ -708,7 +708,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.getIcon()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getIcon()
   id: 'getIcon()'
-  so.intellisense: EventDataDialogDefinition.getIcon()
+  so.intellisense: EventDataDialogDefinition.getIcon
   so.version: 10.1.9
   langs:
   - crmscript
@@ -728,7 +728,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.setIcon(String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.setIcon(String)
   id: 'setIcon(String)'
-  so.intellisense: EventDataDialogDefinition.setIcon(String)
+  so.intellisense: EventDataDialogDefinition.setIcon
   so.version: 10.1.9
   langs:
   - crmscript
@@ -752,7 +752,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.getPrefix()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getPrefix()
   id: 'getPrefix()'
-  so.intellisense: EventDataDialogDefinition.getPrefix()
+  so.intellisense: EventDataDialogDefinition.getPrefix
   so.version: 10.1.9
   langs:
   - crmscript
@@ -772,7 +772,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.setPrefix(String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.setPrefix(String)
   id: 'setPrefix(String)'
-  so.intellisense: EventDataDialogDefinition.setPrefix(String)
+  so.intellisense: EventDataDialogDefinition.setPrefix
   so.version: 10.1.9
   langs:
   - crmscript
@@ -796,7 +796,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.getText()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getText()
   id: 'getText()'
-  so.intellisense: EventDataDialogDefinition.getText()
+  so.intellisense: EventDataDialogDefinition.getText
   so.version: 10.1.9
   langs:
   - crmscript
@@ -816,7 +816,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.setText(String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.setText(String)
   id: 'setText(String)'
-  so.intellisense: EventDataDialogDefinition.setText(String)
+  so.intellisense: EventDataDialogDefinition.setText
   so.version: 10.1.9
   langs:
   - crmscript
@@ -840,7 +840,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.getTitle()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getTitle()
   id: 'getTitle()'
-  so.intellisense: EventDataDialogDefinition.getTitle()
+  so.intellisense: EventDataDialogDefinition.getTitle
   so.version: 10.1.9
   langs:
   - crmscript
@@ -860,7 +860,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.setTitle(String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.setTitle(String)
   id: 'setTitle(String)'
-  so.intellisense: EventDataDialogDefinition.setTitle(String)
+  so.intellisense: EventDataDialogDefinition.setTitle
   so.version: 10.1.9
   langs:
   - crmscript
@@ -884,7 +884,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.getType()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getType()
   id: 'getType()'
-  so.intellisense: EventDataDialogDefinition.getType()
+  so.intellisense: EventDataDialogDefinition.getType
   so.version: 10.1.9
   langs:
   - crmscript
@@ -904,7 +904,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.setType(String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.setType(String)
   id: 'setType(String)'
-  so.intellisense: EventDataDialogDefinition.setType(String)
+  so.intellisense: EventDataDialogDefinition.setType
   so.version: 10.1.9
   langs:
   - crmscript
@@ -928,7 +928,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.getWidth()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getWidth()
   id: 'getWidth()'
-  so.intellisense: EventDataDialogDefinition.getWidth()
+  so.intellisense: EventDataDialogDefinition.getWidth
   so.version: 10.1.9
   langs:
   - crmscript
@@ -948,7 +948,7 @@ items:
 - uid: CRMScript.Native.EventDataDialogDefinition.setWidth(Integer)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.setWidth(Integer)
   id: 'setWidth(Integer)'
-  so.intellisense: EventDataDialogDefinition.setWidth(Integer)
+  so.intellisense: EventDataDialogDefinition.setWidth
   so.version: 10.1.9
   langs:
   - crmscript
