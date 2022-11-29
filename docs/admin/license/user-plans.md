@@ -151,7 +151,6 @@ These can then be combined to produce:
 * Service-Essentials + Marketing
 * Service-Premium + Marketing
 
-
 ## Available add-on subscriptions
 
 * [Customer Engagement Platform (CEP)][8]
