@@ -43,7 +43,7 @@ items:
     - name: Settings
       href: settings/toc.yml
     - name: Privacy
-      href: ../person/gdpr/privacy.md
+      href: person/gdpr/privacy.md
       items:
       - name: Add consent purpose
         href: gdpr/add-consent-purpose.md
