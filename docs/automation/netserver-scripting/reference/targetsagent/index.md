@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 08.26.2022
+so.date: 11.29.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -18,7 +18,11 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITargetsAgent'>
 
 * [CreateDefaultTargetAssignment](createdefaulttargetassignment.md)
 * [CreateDefaultTargetAssignmentForCompany](createdefaulttargetassignmentforcompany.md)
+* [CreateDefaultTargetAssignmentForCompanyWithDimension](createdefaulttargetassignmentforcompanywithdimension.md)
+* [CreateDefaultTargetAssignmentForCompanyWithYearAndDimension](createdefaulttargetassignmentforcompanywithyearanddimension.md)
 * [CreateDefaultTargetAssignmentForUserGroup](createdefaulttargetassignmentforusergroup.md)
+* [CreateDefaultTargetAssignmentForUserGroupWithDimension](createdefaulttargetassignmentforusergroupwithdimension.md)
+* [CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension](createdefaulttargetassignmentforusergroupwithyearanddimension.md)
 * [CreateDefaultTargetDimension](createdefaulttargetdimension.md)
 * [CreateDefaultTargetGroup](createdefaulttargetgroup.md)
 * [CreateDefaultTargetRevision](createdefaulttargetrevision.md)
@@ -27,11 +31,14 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITargetsAgent'>
 * [DeleteTargetGroup](deletetargetgroup.md)
 * [ExportTargetGroupToExcel](exporttargetgrouptoexcel.md)
 * [GetTargetAssignmentForYear](gettargetassignmentforyear.md)
+* [GetTargetAssignmentForYearAndDimension](gettargetassignmentforyearanddimension.md)
 * [GetTargetDimension](gettargetdimension.md)
 * [GetTargetDimensionsForEntityType](gettargetdimensionsforentitytype.md)
 * [GetTargetGroup](gettargetgroup.md)
 * [GetTargetGroupForYear](gettargetgroupforyear.md)
+* [GetTargetGroupForYearAndDimension](gettargetgroupforyearanddimension.md)
 * [GetTargetGroupIds](gettargetgroupids.md)
 * [GetTargetRevisionHistory](gettargetrevisionhistory.md)
 * [SaveTargetDimension](savetargetdimension.md)
 * [SaveTargetGroup](savetargetgroup.md)
+

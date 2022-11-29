@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 08.26.2022
+so.date: 11.29.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -18,6 +18,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IFreeTextAgent'
 
 * [AddWords](addwords.md)
 * [DeleteStopWordsById](deletestopwordsbyid.md)
+* [FreetextIndexRows](freetextindexrows.md)
 * [GetStatus](getstatus.md)
 * [GetStopWordList](getstopwordlist.md)
 * [GetSuggestedStopWords](getsuggestedstopwords.md)
@@ -26,3 +27,4 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IFreeTextAgent'
 * [SetEnabled](setenabled.md)
 * [SetMultiWordOperator](setmultiwordoperator.md)
 * [SetSingleWordOperator](setsinglewordoperator.md)
+
