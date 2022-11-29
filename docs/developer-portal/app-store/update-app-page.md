@@ -3,12 +3,11 @@ title: Update app-specific page
 uid: dp-update-app-info
 description: How to update your app-specific page in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.27.2022
+so.date: 11.29.2022
 keywords: Developer Portal, App Store listing
 so.topic: howto
-so.version:
+so.dp-version: 1.9
 so.envir: cloud
-so.client: online
 ---
 
 # Update app-specific page
@@ -26,6 +25,11 @@ The information shown on your app-specific product pages in the App Store comes 
 <!-- markdownlint-restore -->
 
 ## Update App Store information
+
+> [!TIP]
+> When you release a new version of your application, your App Store listing can include a **What's new** entry and we can help boost visibility.
+>
+> Optionally include new images, such as screenshots from your application.
 
 1. In the Developer Portal, go to your application page.
 1. Select **App Store information** from the left menu.
@@ -45,10 +49,18 @@ The information shown on your app-specific product pages in the App Store comes 
 
 1. Click **Save Settings**.
 
-> [!TIP]
-> When you release a new version of your application, your App Store listing can include a **What's new** entry and we can help boost visibility.
->
-> Optionally include new images, such as screenshots from your application.
+### Required information
+
+Most fields are mandatory and must be filled out before you click **Request to Publish**. However, the App Store information can be edited and saved incrementally. Missing information is highlighted and color coded:
+
+* Red - mandatory and must be filled before saving.
+* Orange - mandatory for the published version but can be omitted when saving a draft.
+
+![Warning Links field is blank -screenshot][img4]
+
+When you click **Save Settings**, the confirmation dialog lists the fields needing attention.
+
+![Warning when saving while mandatory info is missing -screenshot][img3]
 
 ## Update application settings
 
@@ -98,3 +110,5 @@ When you are happy with how it looks, return to your partner page in the Develop
 <!-- Referenced images -->
 [img1]: media/app-store-listing.png
 [img2]: ../media/request-to-publish.png
+[img3]: media/warn-mandatory-missing.png
+[img4]: media/warn-no-links.png

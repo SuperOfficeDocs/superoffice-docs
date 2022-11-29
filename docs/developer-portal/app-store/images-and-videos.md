@@ -3,12 +3,11 @@ title: Images and videos
 uid: dp-app-images-and-videos
 description: How to add images and videos to your app listing in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.29.2022
+so.date: 11.29.2022
 keywords: Developer Portal, app store, image, video, icon, logo
 so.topic: howto
-so.version:
+so.dp-version: 1.9
 so.envir: cloud
-so.client: online
 ---
 
 # Images and videos
@@ -31,11 +30,13 @@ so.client: online
 
 1. In the Developer Portal, go to your application page.
 2. Select **App Store information** from the left menu, then select **Images and videos**.
-3. Drag and drop a file into the box or click to upload one from your computer.
-4. Enter alt text and select image type **HomePageAppIcon** or **DetailPageAppIcon**.
-5. Click **Save Settings**.
+3. Click **Add Images**.
+4. Drag and drop a file into the box or click to upload one from your computer.
+5. Enter alt text and select image type **HomePageAppIcon** or **DetailPageAppIcon**.
 
-![App store information, images -screenshot][img2]
+    ![Add HomePageAppIcon or DetailPageAppIcon -screenshot][img7]
+
+6. Click **Save Settings**.
 
 ## Screenshots
 
@@ -46,10 +47,14 @@ We encourage you to include beautiful and meaningful screenshots from the applic
 
 1. In the Developer Portal, go to your partner page.
 2. Select **App Store information** from the left menu, then select **Images and videos**.
-3. Drag and drop a file into the box or click to upload one from your computer.
-4. Enter alt text and select image type **AppImage**.
-5. Repeat steps 3 and 4 to add more screenshots.
-6. Click **Save Settings**.
+3. Click **Add Images**.
+4. Drag and drop a file into the box or click to upload one from your computer.
+5. Enter alt text and select image type **AppImage**.
+
+    ![App store information, images -screenshot][img2]
+
+6. Repeat steps 3-5 to add more screenshots.
+7. Click **Save Settings**.
 
 We will take the submitted information and clean screenshots, and create an appealing screenshot that matches a certain level of consistency with the App Store.
 
@@ -86,3 +91,4 @@ What the final result could be:
 [img4]: media/example-screenshot-2.png
 [img5]: media/example-output-1.png
 [img6]: media/example-output-2.png
+[img7]: media/add-icon.png
