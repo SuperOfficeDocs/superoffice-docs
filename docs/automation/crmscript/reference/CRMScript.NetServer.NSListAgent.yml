@@ -6538,6 +6538,7 @@ items:
   commentId: M:CRMScript.NetServer.NSListAgent.UpdateCategoryMemberships(NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[])
   id: 'UpdateCategoryMemberships(NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[])'
   so.intellisense: NSListAgent.UpdateCategoryMemberships
+  so.version: 10.0
   langs:
   - crmscript
   name: 'UpdateCategoryMemberships(NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[])'
@@ -6550,13 +6551,13 @@ items:
     content: Void UpdateCategoryMemberships(NSTicketCategoryMembershipEntity[] membershipsToAdd, NSTicketCategoryMembershipEntity[] membershipsToUpdate, NSTicketCategoryMembershipEntity[] membershipsToDelete)
     parameters:
     - id: membershipsToAdd
-      type: CRMScript.NetServer.NetServer.NSTicketCategoryMembershipEntity[]
+      type: CRMScript.NetServer.NSTicketCategoryMembershipEntity[]
       description: "Memberships to add."
     - id: membershipsToUpdate
-      type: CRMScript.NetServer.NetServer.NSTicketCategoryMembershipEntity[]
+      type: CRMScript.NetServer.NSTicketCategoryMembershipEntity[]
       description: "Memberships to update."
     - id: membershipsToDelete
-      type: CRMScript.NetServer.NetServer.NSTicketCategoryMembershipEntity[]
+      type: CRMScript.NetServer.NSTicketCategoryMembershipEntity[]
       description: "Memberships to delete."
     return:
       type: CRMScript.Global.Void
@@ -8034,8 +8035,19 @@ references:
   nameWithType: LocalizedTextType
   fullName: CRMScript.NetServer.LocalizedTextType
 - uid: CRMScript.NetServer.NSTicketCategoryMembershipEntity[]
-  commentId: T:CRMScript.NetServer.NetServer.NSTicketCategoryMembershipEntity[]
+  commentId: T:CRMScript.NetServer.NSTicketCategoryMembershipEntity[]
   isExternal: true
-  name: NetServer.NSTicketCategoryMembershipEntity[]
-  nameWithType: NetServer.NSTicketCategoryMembershipEntity[]
-  fullName: CRMScript.NetServer.NetServer.NSTicketCategoryMembershipEntity[]
+  name: NSTicketCategoryMembershipEntity[]
+  nameWithType: NSTicketCategoryMembershipEntity[]
+  fullName: CRMScript.NetServer.NSTicketCategoryMembershipEntity[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSTicketCategoryMembershipEntity
+    isExternal: true
+    name: NSTicketCategoryMembershipEntity
+    nameWithType: NSTicketCategoryMembershipEntity
+    fullName: CRMScript.NetServer.NSTicketCategoryMembershipEntity
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+
+
