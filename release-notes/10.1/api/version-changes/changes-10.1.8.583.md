@@ -2,7 +2,7 @@
 uid: version_10.1.8.583_changes
 so.date: 11/18/2022
 ---
-
+<!-- markdownlint-disable MD024 -->
 # Changes from v10.1.6.812 and v10.1.8.583
 
 ## Web Services
@@ -481,5 +481,4 @@ The following represent changes to SuperOffice database schema.
   * Field `SalesAfterSaveTicket`
   * Field `SalesBeforeSaveTicket`
 
-
-
+<!-- markdownlint-restore -->

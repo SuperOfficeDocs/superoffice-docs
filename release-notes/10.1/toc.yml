@@ -58,7 +58,6 @@ items:
   href: api/index.md
   items:
   - name: Version history
-  dropdown: true
     href: api/version-changes/
   - name: 10.1.5 update
     href: api/10.1.5-update.md
