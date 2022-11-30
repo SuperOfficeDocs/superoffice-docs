@@ -132,6 +132,11 @@ If your company develops custom applications only, you can ignore the **App Stor
 
 You can get started using the SuperOffice Online API by [signing up for a developer account][1].
 
+Watch the walk-through on YouTube:
+
+<!-- markdownlint-disable-next-line MD033 -->
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/One6P5Jm5l0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <!-- Referenced links -->
 [1]: ../apps/getting-started/developer-registration-form.md
 [2]: ../apps/getting-started/app-envir.md

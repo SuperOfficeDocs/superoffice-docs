@@ -32,6 +32,11 @@ The initial version is automatically published to SOD. You can then:
 
 In SOD, a version is a **draft** and can be edited until you request to publish it to stage. Then it is locked. If we reject it, the version is unlocked and you can update it to fix any issues.
 
+Watch the walk-through on YouTube:
+
+<!-- markdownlint-disable-next-line MD033 -->
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kqEpAw7qQEY?start=1095" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### States
 
 | State | Color | Description |

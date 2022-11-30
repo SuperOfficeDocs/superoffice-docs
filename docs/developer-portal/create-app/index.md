@@ -51,6 +51,11 @@ All app configurations are automatically published to SOD. You can now [request 
 
 For standard apps, you can [start working on the App Store information][11].
 
+Watch the walk-through on YouTube:
+
+<!-- markdownlint-disable-next-line MD033 -->
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kqEpAw7qQEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Types of apps
 
 When registering an application, you can choose from five predefined templates that will prompt you for the required settings. Alternatively, you can choose to start with an empty set and fill in what you need.

@@ -55,8 +55,10 @@ You can assign a known user or create a new one. In both cases, you look up an e
 
 6. You can now [assign permissions][1].
 
+<!-- markdownlint-disable DOCSMD007 -->
 > [!TIP]
 > [!include[Link to user settings](../includes/see-user-settings.md)]
+<!-- markdownlint-restore -->
 
 <!-- Referenced links -->
 [1]: manage-permissions.md
