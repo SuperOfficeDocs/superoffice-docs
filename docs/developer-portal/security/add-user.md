@@ -23,7 +23,7 @@ You can view the users already added on your partner page.
 
 You can assign a known user or create a new one. In both cases, you look up an email address.
 
-* If it matches an existing SuperID user account, all you have to do is to assign it to the partner.
+* If it matches an existing SuperID user account **in production**, all you have to do is to assign it to the partner.
 * If the address is unknown, you can fill in a form to create a new user. This person becomes both a SuperID user and a portal user.
 
 ## How to
