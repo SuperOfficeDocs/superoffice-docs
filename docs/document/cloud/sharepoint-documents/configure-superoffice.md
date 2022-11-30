@@ -44,8 +44,7 @@ The wizard has four steps:​
 
 * Site in SharePoint: Just choose your site from the dropdown. You must have permission level Owner to be able to select a site.
 * Document library: Select from the drop-down​.
-* Folder structure: You can select between​ User group, Author, Template type, Company name and Project​.
-* You can also organize the folders in Yearly subfolder​.
+* Folder structure: You can select between​ User group, Author, Template type, Company name and Project​. You can also organize the folders in Yearly subfolder​.
 * File name: Select between Heading or Heading - Company name​.
 
 ### SuperOffice document templates
@@ -70,7 +69,7 @@ We recommend that you select all here. These fields will appear as columns in yo
 
 * You can also search and group by these fields in SharePoint.​
 
-    ![SuperOffice documents fields -screenshot][img3]
+    ![SuperOffice documents fields -screenshot][img10]
 
 ## Step 3 - Groups and access​
 
@@ -131,10 +130,10 @@ See the [reference of permissions in SharePoint​][1] for more information.
 <!-- Referenced images -->
 [img1]: media/sharepoint-wizard.png
 [img2]: media/template-location.png
-[img3]: media/add-people.png
 [img4]: media/groups-and-access.png
 [img5]: media/groups-and-access-2.png
 [img6]: media/groups-and-access-authorization.png
 [img7]: media/groups-and-access-ad.png
 [img8]: media/confirm.png
 [img9]: media/so-admin-document-library.png
+[img10]: media/transfer-document-properties.png
