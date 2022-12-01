@@ -11,6 +11,12 @@ POST /api/v1/Agents/Find/SaveRestrictionGroups
 
 Save and rerank an array of restriction groups, returning the possibly modified array.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save and rerank an array of restriction groups, returning the possibly modified 
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Find/SaveRestrictionGroups?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, RestrictionGroups, Context
+StorageType, ProviderName, StorageKey, RestrictionGroups, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,6 +53,7 @@ StorageType, ProviderName, StorageKey, RestrictionGroups, Context
 | StorageKey | string |  |
 | RestrictionGroups | array |  |
 | Context | string |  |
+
 
 ## Response: array
 
@@ -70,34 +78,34 @@ Response body: array
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vero",
-  "ProviderName": "Murray-Jacobson",
-  "StorageKey": "error",
+  "StorageType": "dolore",
+  "ProviderName": "Yost Group",
+  "StorageKey": "veniam",
   "RestrictionGroups": [
     {
-      "Name": "McClure Inc and Sons",
-      "Description": "Extended human-resource process improvement",
-      "Rank": 582,
+      "Name": "Kozey-Stroman",
+      "Description": "Future-proofed static functionalities",
+      "Rank": 607,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "McClure Inc and Sons",
-      "Description": "Extended human-resource process improvement",
-      "Rank": 582,
+      "Name": "Kozey-Stroman",
+      "Description": "Future-proofed static functionalities",
+      "Rank": 607,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "sint"
+  "Context": "fugit"
 }
 ```
 
@@ -109,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Waters-Gerlach",
-    "Description": "Focused upward-trending encoding",
-    "Rank": 716,
+    "Name": "Wolff-Corkery",
+    "Description": "Cloned eco-centric process improvement",
+    "Rank": 715,
     "Restrictions": [
       {
-        "Name": "Corwin Group",
-        "Operator": "aut",
+        "Name": "Hamill-Konopelski",
+        "Operator": "reiciendis",
         "Values": [
-          "laborum",
-          "et"
+          "voluptatum",
+          "ratione"
         ],
         "DisplayValues": [
-          "nulla",
-          "voluptatibus"
+          "veritatis",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 760,
+        "InterParenthesis": 863,
         "InterOperator": "And",
-        "UniqueHash": 443
+        "UniqueHash": 407
       }
     ]
   },
   {
-    "Name": "Waters-Gerlach",
-    "Description": "Focused upward-trending encoding",
-    "Rank": 716,
+    "Name": "Wolff-Corkery",
+    "Description": "Cloned eco-centric process improvement",
+    "Rank": 715,
     "Restrictions": [
       {
-        "Name": "Corwin Group",
-        "Operator": "aut",
+        "Name": "Hamill-Konopelski",
+        "Operator": "reiciendis",
         "Values": [
-          "laborum",
-          "et"
+          "voluptatum",
+          "ratione"
         ],
         "DisplayValues": [
-          "nulla",
-          "voluptatibus"
+          "veritatis",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -158,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 760,
+        "InterParenthesis": 863,
         "InterOperator": "And",
-        "UniqueHash": 443
+        "UniqueHash": 407
       }
     ]
   }

@@ -11,12 +11,18 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 
 Get a foreignkey based on its name and value, that belongs to the specified device and application.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | keyName | string | The name of the foreign key. **Required** |
 | tableName | string | Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table. **Required** |
+
 
 ## Query String Parameters
 
@@ -25,8 +31,9 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=adipisci
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=incidunt
 ```
+
 
 ## Request Headers
 
@@ -41,7 +48,8 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -49,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +78,7 @@ Response body:
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,23 +86,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 09 Apr 2017 11:10:52 G4T
+Last-Modified: Thu, 23 Aug 2007 02:49:50 G8T
 
 {
-  "Key": "quibusdam",
-  "Value": "aliquam",
-  "RecordId": 506,
-  "CreatedDate": "2021-02-23T11:10:52.910174+01:00",
-  "UpdatedDate": "2017-04-09T11:10:52.910174+02:00",
-  "UpdatedBy": "necessitatibus",
+  "Key": "magni",
+  "Value": "accusantium",
+  "RecordId": 716,
+  "CreatedDate": "2015-05-17T02:49:50.9952888+02:00",
+  "UpdatedDate": "2007-08-23T02:49:50.9952888+02:00",
+  "UpdatedBy": "eaque",
   "CreatedBy": "rerum",
-  "TableName": "Gislason LLC",
+  "TableName": "Cremin Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 4
     }
   }
 }

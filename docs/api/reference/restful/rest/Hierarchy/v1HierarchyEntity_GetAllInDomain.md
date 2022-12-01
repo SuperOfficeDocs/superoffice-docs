@@ -11,9 +11,15 @@ GET /api/v1/Hierarchy/{domain}
 
 Get all items in a domain
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get (scripts, extra tables, etc) **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=False
+GET /api/v1/Hierarchy/{domain}?children=True
 ```
+
 
 ## Request Headers
 
@@ -37,6 +44,7 @@ GET /api/v1/Hierarchy/{domain}?children=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -80,46 +88,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 722,
+    "HierarchyId": 507,
     "Domain": "Dashboards",
-    "Name": "Funk Inc and Sons",
+    "Name": "Lang-Batz",
     "Fullname": "et",
-    "ParentId": 182,
+    "ParentId": 444,
     "Children": [
       {
-        "HierarchyId": 720,
+        "HierarchyId": 838,
         "Domain": "Dashboards",
-        "Name": "Langworth, Beatty and Rau",
-        "Fullname": "nihil",
-        "ParentId": 493,
+        "Name": "Hudson Group",
+        "Fullname": "et",
+        "ParentId": 745,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2003-05-31T11:10:52.9171798+02:00",
-        "RegisteredAssociateId": 378,
-        "Updated": "2017-05-25T11:10:52.9171798+02:00",
-        "UpdatedAssociateId": 583,
+        "Registered": "2010-12-15T02:49:50.9952888+01:00",
+        "RegisteredAssociateId": 734,
+        "Updated": "2008-04-17T02:49:50.9952888+02:00",
+        "UpdatedAssociateId": 984,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 531
+            "FieldType": "System.Int32",
+            "FieldLength": 856
           }
         }
       }
     ],
-    "Registered": "2013-09-24T11:10:52.9171798+02:00",
-    "RegisteredAssociateId": 398,
-    "Updated": "2019-03-31T11:10:52.9171798+02:00",
-    "UpdatedAssociateId": 642,
+    "Registered": "2014-06-06T02:49:50.9952888+02:00",
+    "RegisteredAssociateId": 913,
+    "Updated": "2006-08-18T02:49:50.9952888+02:00",
+    "UpdatedAssociateId": 468,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 261
+        "FieldLength": 767
       }
     }
   }

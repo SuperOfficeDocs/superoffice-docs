@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name, as well as record id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ForeignKeys that belong to a device with a given deviceIdentifier an
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId?$
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier, TableName, RecordId
+ApplicationName, DeviceName, DeviceIdentifier, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,6 +53,7 @@ ApplicationName, DeviceName, DeviceIdentifier, TableName, RecordId
 | DeviceIdentifier | string |  |
 | TableName | string |  |
 | RecordId | int32 |  |
+
 
 ## Response: array
 
@@ -76,15 +84,15 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Braun-Kuphal",
-  "DeviceName": "Eichmann, Schroeder and Huels",
-  "DeviceIdentifier": "vel",
-  "TableName": "Keebler LLC",
-  "RecordId": 482
+  "ApplicationName": "Zieme LLC",
+  "DeviceName": "Mohr Group",
+  "DeviceIdentifier": "nobis",
+  "TableName": "Stark, Toy and Barrows",
+  "RecordId": 95
 }
 ```
 
@@ -96,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "pariatur",
-    "Value": "corporis",
-    "RecordId": 550,
-    "CreatedDate": "2003-08-15T11:10:27.0934525+02:00",
-    "UpdatedDate": "2008-06-30T11:10:27.0934525+02:00",
-    "UpdatedBy": "qui",
+    "Key": "ut",
+    "Value": "et",
+    "RecordId": 660,
+    "CreatedDate": "2005-12-01T02:49:44.561046+01:00",
+    "UpdatedDate": "2017-08-09T02:49:44.561046+02:00",
+    "UpdatedBy": "molestias",
     "CreatedBy": "et",
-    "TableName": "Ritchie Group",
+    "TableName": "Connelly-Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldLength": 75
       }
     }
   }

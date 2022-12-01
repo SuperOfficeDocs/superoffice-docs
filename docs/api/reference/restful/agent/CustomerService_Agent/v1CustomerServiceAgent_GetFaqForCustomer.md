@@ -11,7 +11,13 @@ POST /api/v1/Agents/CustomerService/GetFaqForCustomer
 
 Get a FAQ entry, ment to be displayed for a customer.
 
+
 This can either be a link to the FAQ entry on Custom Center, or it can be the answer and question. This is dependent on Registry setting with reg_id=157
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This can either be a link to the FAQ entry on Custom Center, or it can be the an
 ```http
 POST /api/v1/Agents/CustomerService/GetFaqForCustomer?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/CustomerService/GetFaqForCustomer?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FaqEntryId
+FaqEntryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FaqEntryId | int32 |  |
+
 
 ## Response: string
 
@@ -55,6 +63,7 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
@@ -65,7 +74,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FaqEntryId": 402
+  "FaqEntryId": 709
 }
 ```
 
@@ -75,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"suscipit"
+"quaerat"
 ```

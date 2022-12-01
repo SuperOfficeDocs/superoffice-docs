@@ -11,9 +11,16 @@ PUT /api/v1/List/Position/Items/{id}
 
 Updates an existing Position list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of Position to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing Position list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of Position list item to be saved.
+The details of Position list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The details of Position list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,16 +78,16 @@ Response body:
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Schroeder-Will",
-  "Tooltip": "id",
-  "Deleted": true,
-  "UdListDefinitionId": 513,
-  "Rank": 82
+  "Id": 512,
+  "Name": "Crooks, Gorczany and McDermott",
+  "Tooltip": "at",
+  "Deleted": false,
+  "UdListDefinitionId": 679,
+  "Rank": 810
 }
 ```
 
@@ -90,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 644,
-  "Name": "Satterfield-Stehr",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "UdListDefinitionId": 635,
-  "Rank": 802,
+  "Id": 365,
+  "Name": "Turcotte-Pagac",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "UdListDefinitionId": 243,
+  "Rank": 428,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldType": "System.Int32",
+      "FieldLength": 362
     }
   }
 }

@@ -11,6 +11,13 @@ POST /api/v1/List/ProjectStatus/Items
 
 Add a new ProjectStatus to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new ProjectStatus to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The ProjectStatus to be added to the list.
+The ProjectStatus to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The ProjectStatus to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 858,
-  "Name": "Lebsack-Mann",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "UdListDefinitionId": 20,
-  "Rank": 584
+  "Id": 245,
+  "Name": "Welch-Ondricka",
+  "Tooltip": "hic",
+  "Deleted": true,
+  "UdListDefinitionId": 390,
+  "Rank": 551
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Effertz-Nitzsche",
-  "Tooltip": "ut",
+  "Id": 10,
+  "Name": "Crona-Price",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "UdListDefinitionId": 163,
-  "Rank": 600,
+  "UdListDefinitionId": 931,
+  "Rank": 563,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 726
     }
   }
 }

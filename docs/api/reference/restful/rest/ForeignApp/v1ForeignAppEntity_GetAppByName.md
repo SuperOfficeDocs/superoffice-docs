@@ -11,9 +11,16 @@ GET /api/v1/ForeignApp/{applicationName}
 
 Gets the ForeignApp with the given name.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Gets the ForeignApp with the given name.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +64,7 @@ Response body:
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -64,32 +72,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 15 Apr 2014 11:10:52 G4T
+Last-Modified: Sat, 27 Jun 2015 02:49:50 G6T
 
 {
-  "ForeignAppId": 866,
-  "Name": "Price LLC",
-  "CreatedDate": "2016-05-29T11:10:52.8991789+02:00",
-  "UpdatedDate": "2014-04-15T11:10:52.8991789+02:00",
+  "ForeignAppId": 505,
+  "Name": "Mohr-Morar",
+  "CreatedDate": "2017-03-01T02:49:50.979663+01:00",
+  "UpdatedDate": "2015-06-27T02:49:50.979663+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 882,
-      "Name": "Cruickshank, Heller and Pouros",
-      "CreatedDate": "2022-06-09T11:10:52.9011815+02:00",
-      "UpdatedDate": "1996-06-22T11:10:52.9011815+02:00",
-      "AssociateFullName": "Miss Anjali Howell",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "adipisci",
-      "DeviceIdentifier": "accusantium",
-      "ForeignAppId": 60,
+      "ForeignDeviceId": 729,
+      "Name": "Bartell LLC",
+      "CreatedDate": "2014-08-13T02:49:50.979663+02:00",
+      "UpdatedDate": "1996-06-28T02:49:50.979663+02:00",
+      "AssociateFullName": "Omari McKenzie",
+      "CreatedBy": "dolor",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "veniam",
+      "ForeignAppId": 664,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 902
+          "FieldLength": 133
         }
       }
     }
@@ -99,7 +107,7 @@ Last-Modified: Tue, 15 Apr 2014 11:10:52 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 208
     }
   }
 }

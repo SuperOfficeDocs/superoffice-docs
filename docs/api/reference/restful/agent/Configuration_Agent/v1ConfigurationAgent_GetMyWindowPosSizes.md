@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetMyWindowPosSizes
 
 Gets the window and dialog position and size settings belonging to the currently logged on user
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the window and dialog position and size settings belonging to the currently
 ```http
 POST /api/v1/Agents/Configuration/GetMyWindowPosSizes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/Configuration/GetMyWindowPosSizes?$select=name,department,ca
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 POST /api/v1/Agents/Configuration/GetMyWindowPosSizes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,23 +85,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "iure",
-    "PersonId": 949,
-    "AssociateId": 851,
-    "ExtraId": 177,
-    "ExtraInfo": "maiores",
-    "Height": 618,
-    "LeftX": 452,
+    "OwnerWindow": "sit",
+    "PersonId": 798,
+    "AssociateId": 422,
+    "ExtraId": 116,
+    "ExtraInfo": "dolor",
+    "Height": 424,
+    "LeftX": 174,
     "State": "Maximized",
-    "UpperY": 144,
-    "Width": 594,
-    "WindowPosSizeId": 989,
+    "UpperY": 473,
+    "Width": 805,
+    "WindowPosSizeId": 119,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldLength": 79
       }
     }
   }

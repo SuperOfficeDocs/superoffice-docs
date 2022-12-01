@@ -11,11 +11,17 @@ GET /api/v1/Relation/{id}
 
 Gets a ContactRelationEntity object.
 
+
 Calls the Relation agent service GetContactRelationEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ContactRelationEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Relation agent service GetContactRelationEntity.
 ```http
 GET /api/v1/Relation/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/Relation/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ContactRelationEntity found.
 
@@ -50,7 +58,7 @@ ContactRelationEntity found.
 | 304 | ContactRelationEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,33 +98,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 03 Dec 2020 11:10:52 G12T
+Last-Modified: Sat, 29 Nov 2014 02:49:50 G11T
 
 {
-  "SourceContactId": 997,
-  "SourcePersonId": 706,
-  "DestinationContactId": 840,
-  "DestinationPersonId": 32,
-  "RelationId": 861,
-  "Comment": "quisquam",
-  "RelationDefinitionId": 438,
-  "Reversed": 816,
-  "UpdatedDate": "2020-12-03T11:10:52.7491636+01:00",
-  "CreatedDate": "2001-05-29T11:10:52.7491636+02:00",
+  "SourceContactId": 589,
+  "SourcePersonId": 21,
+  "DestinationContactId": 685,
+  "DestinationPersonId": 484,
+  "RelationId": 207,
+  "Comment": "quaerat",
+  "RelationDefinitionId": 776,
+  "Reversed": 230,
+  "UpdatedDate": "2014-11-29T02:49:50.8546634+01:00",
+  "CreatedDate": "2011-03-20T02:49:50.8546634+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Wyman Group",
-  "SourcePersonName": "Altenwerth, Price and Toy",
-  "DestinationContactName": "Skiles-Bins",
-  "DestinationPersonName": "Abbott, Davis and Hirthe",
-  "ActiveText": "fugiat",
-  "PassiveText": "fugiat",
+  "SourceContactName": "Ledner-Rath",
+  "SourcePersonName": "Hane-Rolfson",
+  "DestinationContactName": "Runolfsdottir-Walker",
+  "DestinationPersonName": "Runolfsson-Fisher",
+  "ActiveText": "nemo",
+  "PassiveText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldLength": 204
     }
   },
   "_Links": {

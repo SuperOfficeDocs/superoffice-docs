@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/SaveConfigParameter
 
 Saves an Audience configuration parameter belonging to a Audience layout
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves an Audience configuration parameter belonging to a Audience layout
 ```http
 POST /api/v1/Agents/Audience/SaveConfigParameter?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Audience/SaveConfigParameter?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LayoutName, ConfigParameter
+LayoutName, ConfigParameter 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
 | ConfigParameter |  | An Audience configuration parameter, used for handling Audience application or Web part settings. <para /> Carrier object for AudienceConfigParameter. Services for the AudienceConfigParameter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,11 +80,11 @@ Response body:
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Kreiger Inc and Sons",
+  "LayoutName": "Tremblay, Runolfsdottir and Daugherty",
   "ConfigParameter": null
 }
 ```
@@ -88,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 367,
-  "Name": "Ullrich, Nader and Treutel",
-  "Value": "voluptatem",
-  "CreatedDate": "2004-06-13T11:10:26.0035505+02:00",
-  "UpdatedDate": "2003-10-30T11:10:26.0035505+01:00",
-  "CreatedBy": "corporis",
-  "UpdatedBy": "consequatur",
+  "AudienceLayoutId": 573,
+  "Name": "Pfannerstill, Swaniawski and Heaney",
+  "Value": "velit",
+  "CreatedDate": "1996-12-21T02:49:43.6847821+01:00",
+  "UpdatedDate": "2007-12-15T02:49:43.6847821+01:00",
+  "CreatedBy": "deserunt",
+  "UpdatedBy": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 161
     }
   }
 }

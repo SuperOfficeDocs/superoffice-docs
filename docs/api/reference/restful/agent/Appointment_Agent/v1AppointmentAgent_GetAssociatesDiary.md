@@ -9,6 +9,14 @@ uid: v1AppointmentAgent_GetAssociatesDiary
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Appointment/GetAssociatesDiary
 ```http
 POST /api/v1/Agents/Appointment/GetAssociatesDiary?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,15 +42,16 @@ POST /api/v1/Agents/Appointment/GetAssociatesDiary?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIds, StartTime, EndTime
+AssociateIds, StartTime, EndTime 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateIds | array |  |
 | StartTime | date-time |  |
 | EndTime | date-time |  |
+
 
 ## Response: array
 
@@ -113,16 +123,16 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    701,
-    860
+    923,
+    621
   ],
-  "StartTime": "2022-04-04T11:10:25.467522+02:00",
-  "EndTime": "2018-10-23T11:10:25.467522+02:00"
+  "StartTime": "2009-02-17T02:49:43.2461231+01:00",
+  "EndTime": "2010-08-18T02:49:43.2461231+02:00"
 }
 ```
 
@@ -134,61 +144,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 967,
-    "StartDate": "1999-09-09T11:10:25.4685225+02:00",
-    "EndDate": "2017-11-08T11:10:25.4685225+01:00",
+    "AppointmentId": 977,
+    "StartDate": "2003-03-09T02:49:43.2461231+01:00",
+    "EndDate": "2006-08-19T02:49:43.2461231+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aut",
-    "AssociateFullName": "Mr. Litzy Moen IV",
-    "ContactName": "Mitchell Inc and Sons",
-    "Description": "Virtual homogeneous ability",
-    "PersonFullName": "Prof. Thurman Ruth Rempel",
-    "PersonId": 989,
-    "ContactId": 774,
-    "ProjectId": 828,
-    "ProjectName": "Waters Inc and Sons",
+    "Task": "iste",
+    "AssociateFullName": "Leopoldo Margarita Kuhlman I",
+    "ContactName": "Volkman-Kiehn",
+    "Description": "Fundamental reciprocal focus group",
+    "PersonFullName": "Donny Dibbert",
+    "PersonId": 576,
+    "ContactId": 274,
+    "ProjectId": 686,
+    "ProjectName": "Tromp Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 188,
-    "ColorIndex": 68,
+    "AssociateId": 324,
+    "ColorIndex": 876,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 244,
-    "PriorityName": "Lebsack-Bergnaum",
+    "PriorityId": 299,
+    "PriorityName": "Toy Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2005-06-20T11:10:25.4685225+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2004-08-31T02:49:43.2461231+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-04-29T11:10:25.4685225+02:00",
-    "RecurringEndDate": "2018-12-31T11:10:25.4685225+01:00",
-    "MotherId": 225,
-    "AssignedBy": 293,
-    "AssignedByFullName": "Shana Thompson",
-    "RejectReason": "redefine best-of-breed interfaces",
-    "Location": "ea",
-    "AlarmLeadTime": "ipsum",
-    "SaleId": 770,
-    "SaleName": "Bernier-Cartwright",
-    "AssociateName": "McClure, Jast and McDermott",
-    "CreatedDate": "2009-11-08T11:10:25.4695219+01:00",
-    "CreatedBy": "quae",
-    "CreatedByFullName": "Danielle Raynor I",
-    "CreatedByAssociateId": 844,
+    "RecurringStartDate": "2010-03-19T02:49:43.2461231+01:00",
+    "RecurringEndDate": "2017-04-23T02:49:43.2461231+02:00",
+    "MotherId": 253,
+    "AssignedBy": 26,
+    "AssignedByFullName": "Mr. Mayra Goodwin",
+    "RejectReason": "",
+    "Location": "molestiae",
+    "AlarmLeadTime": "eaque",
+    "SaleId": 932,
+    "SaleName": "Stroman-Daniel",
+    "AssociateName": "Stracke, Moore and Bernhard",
+    "CreatedDate": "2002-03-02T02:49:43.261747+01:00",
+    "CreatedBy": "nemo",
+    "CreatedByFullName": "Jalen Hansen",
+    "CreatedByAssociateId": 777,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 911
+        "FieldType": "System.Int32",
+        "FieldLength": 327
       }
     }
   }

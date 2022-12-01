@@ -11,11 +11,18 @@ POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 
 Add a new key belonging to the ForeignApp and ForeignDevice specified.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | The device identifier. Optional if device identifier is not used. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Add a new key belonging to the ForeignApp and ForeignDevice specified.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: foreignKey
+## Request Body: foreignKey  
 
-Foreign key to save
+Foreign key to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ Foreign key to save
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,14 +87,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "vel",
-  "RecordId": 370,
-  "CreatedDate": "2016-05-17T11:10:52.909174+02:00",
-  "UpdatedDate": "2015-09-18T11:10:52.909174+02:00",
-  "UpdatedBy": "quas",
-  "CreatedBy": "facilis",
-  "TableName": "Gaylord-Gaylord"
+  "Key": "neque",
+  "Value": "laudantium",
+  "RecordId": 445,
+  "CreatedDate": "2009-01-27T02:49:50.9952888+01:00",
+  "UpdatedDate": "2011-11-19T02:49:50.9952888+01:00",
+  "UpdatedBy": "nisi",
+  "CreatedBy": "sapiente",
+  "TableName": "Lubowitz Inc and Sons"
 }
 ```
 
@@ -97,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "omnis",
-  "Value": "aut",
-  "RecordId": 520,
-  "CreatedDate": "2016-05-04T11:10:52.910174+02:00",
-  "UpdatedDate": "2011-07-13T11:10:52.910174+02:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "nulla",
-  "TableName": "Kautzer, Ledner and Feeney",
+  "Key": "quia",
+  "Value": "quod",
+  "RecordId": 8,
+  "CreatedDate": "2014-08-14T02:49:50.9952888+02:00",
+  "UpdatedDate": "1998-11-22T02:49:50.9952888+01:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "fugiat",
+  "TableName": "Bergnaum-Barton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 738
+      "FieldType": "System.Int32",
+      "FieldLength": 307
     }
   }
 }

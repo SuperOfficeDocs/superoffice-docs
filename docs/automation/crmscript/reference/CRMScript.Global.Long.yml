@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Global.Long
+  commentId: T:CRMScript.Global.Long
+  id: Long
+  langs:
+  - crmscript
+  children:
+    - CRMScript.Global.Long.#ctor
+    - CRMScript.Global.Long.#ctor(Long)
+    - CRMScript.Global.Long.#ctor(Integer)
+    - CRMScript.Global.Long.getHighInteger()
+    - CRMScript.Global.Long.getLowInteger()
+    - CRMScript.Global.Long.isNull()
+    - CRMScript.Global.Long.toString()
+  name: Long
+  nameWithType: Long
+  fullName: CRMScript.Global.Long
+  type: Class
+  so.version: 10.1.9
+  summary: "\nLongs are positive and negative whole 64-bit unsigned numbers without decimals. If you need to work with decimals, use the Float data type.\nTo represent a long number in the code as a literal, suffix it with an &quot;L&quot;, for example, &quot;Long l = 576460752303423488L;&quot;"
+- uid: CRMScript.Global.Long.#ctor
+  commentId: M:CRMScript.Global.Long.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Long
+  so.version: 10.1.9
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Long
+  name: Long()
+  nameWithType: Long.Long()
+  fullName: CRMScript.Global.Long.Long()
+  type: Constructor
+  summary: "\nDefault constructor.\n"
+  syntax:
+    content: Long Long()
+    parameters: []
+    return:
+      type: CRMScript.Global.Long
+- uid: CRMScript.Global.Long.#ctor(Long)
+  commentId: M:CRMScript.Global.Long.#ctor(Long)
+  id: '#ctor(Long)'
+  so.intellisense: Void.Long
+  so.version: 10.1.9
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Long
+  name: Long(Integer)
+  nameWithType: Long.Long(Long)
+  fullName: CRMScript.Global.Long.Long(Long)
+  type: Constructor
+  summary: "\nPass a value to copy into a new object.\n"
+  syntax:
+    content: Long Long(Long value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Long
+      description: "Long object."
+    return:
+      type: CRMScript.Global.Long
+- uid: CRMScript.Global.Long.#ctor(Integer)
+  commentId: M:CRMScript.Global.Long.#ctor(Integer)
+  id: '#ctor(Integer)'
+  so.intellisense: Void.Long
+  so.version: 10.1.9
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Long
+  name: Long(Integer)
+  nameWithType: Long.Long(Integer)
+  fullName: CRMScript.Global.Long.Long(Integer)
+  type: Constructor
+  summary: "\nPass a value to copy into a new object.\n"
+  syntax:
+    content: Long Long(Integer value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Integer
+      description: "Integer object."
+    return:
+      type: CRMScript.Global.Long
+- uid: CRMScript.Global.Long.toString()
+  commentId: M:CRMScript.Global.Long.toString()
+  id: toString()
+  so.intellisense: Long.toString
+  so.version: 10.1.9
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Long
+  name: toString()
+  nameWithType: Long.toString()
+  fullName: CRMScript.Global.Long.toString()
+  type: Method
+  summary: "\nConverts a numeric value to its string representation.<p></p>\nOne of the most frequently used methods, typically when you are going to output something.\n"
+  example:
+  - "\n<pre><code>Long c = 576460752303423488L;\nString s = c.toString();</code></pre>\n"
+  syntax:
+    content: String toString()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Global.Long.isNull()
+  commentId: M:CRMScript.Global.Long.isNull()
+  id: isNull()
+  so.intellisense: Long.isNull
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Long
+  name: isNull()
+  nameWithType: Long.isNull()
+  fullName: CRMScript.Global.Long.isNull()
+  type: Method
+  summary: "\nReturns true if it has no value and false if it does.\n"
+  remarks: "\nA NULL/NUL/NIL Long is different from zero, in that it is conceptually without a value. However, when a null Long is used naively, CRMScript is usually forgiving and interprets it as zero.\n"
+  example:
+  - "\n<pre><code>Long i;\nprintLine(i.isNull().toString());\ni = 0;\nprintLine(i.isNull().toString());</code></pre>\nThe first output will be true because we haven't initialized i yet.\nThe next output will be false because i now has the value 0.\n"
+  syntax:
+    content: Bool isNull()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+- uid: CRMScript.Global.Long.getHighInteger()
+  commentId: M:CRMScript.Global.Long.getHighInteger()
+  id: getHighInteger()
+  so.intellisense: Long.getHighInteger
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Long
+  name: getHighInteger()
+  nameWithType: Long.getHighInteger()
+  fullName: CRMScript.Global.Long.getHighInteger()
+  type: Method
+  summary: "\nReturns the high 32-bit Integer of the Long.\n"
+  example:
+  - "\n<pre><code>Long c = 576460752303423488L;\nprint(c.getHighInteger().toString());</code></pre>\n"
+  syntax:
+    content: Integer getHighInteger()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Long.getLowInteger()
+  commentId: M:CRMScript.Global.Long.getLowInteger()
+  id: getLowInteger()
+  so.intellisense: Long.getLowInteger
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Long
+  name: getLowInteger()
+  nameWithType: Long.getLowInteger()
+  fullName: CRMScript.Global.Long.getLowInteger()
+  type: Method
+  summary: "\nReturns the low 32-bit Integer of the Long.\n"
+  example:
+  - "\n<pre><code>Long c = 576460752303423488L;\nprint(c.getLowInteger().toString());</code></pre>\n"
+  syntax:
+    content: Integer getLowInteger()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+references:
+- uid: CRMScript.Global.Long
+  commentId: T:CRMScript.Global.Long
+  isExternal: true
+  name: Long
+  nameWithType: Long
+  fullName: CRMScript.Global.Long
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool

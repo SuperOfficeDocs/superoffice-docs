@@ -11,6 +11,12 @@ POST /api/v1/Agents/Targets/GetTargetRevisionHistory
 
 Returns the revision history for a given TargetAssignmentInfo in chronological order.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the revision history for a given TargetAssignmentInfo in chronological o
 ```http
 POST /api/v1/Agents/Targets/GetTargetRevisionHistory?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Targets/GetTargetRevisionHistory?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TargetAssignmentInfoId
+TargetAssignmentInfoId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TargetAssignmentInfoId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,11 +75,11 @@ Response body:
 POST /api/v1/Agents/Targets/GetTargetRevisionHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 428
+  "TargetAssignmentInfoId": 68
 }
 ```
 
@@ -82,13 +90,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 373,
-  "Year": 983,
+  "TargetGroupId": 323,
+  "Year": 526,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2007-01-27T11:10:28.1887307+01:00",
+      "When": "2007-05-30T02:49:45.4528435+02:00",
       "Changes": [
         {},
         {}
@@ -97,15 +105,15 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 580
+          "FieldType": "System.Int32",
+          "FieldLength": 286
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2007-01-27T11:10:28.1887307+01:00",
+      "When": "2007-05-30T02:49:45.4528435+02:00",
       "Changes": [
         {},
         {}
@@ -114,8 +122,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 580
+          "FieldType": "System.Int32",
+          "FieldLength": 286
         }
       }
     }
@@ -125,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 846
+      "FieldLength": 141
     }
   }
 }

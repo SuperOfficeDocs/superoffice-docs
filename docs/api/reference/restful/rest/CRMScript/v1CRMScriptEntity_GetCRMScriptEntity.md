@@ -11,13 +11,20 @@ GET /api/v1/CRMScript/{id}
 
 Gets a CRMScriptEntity object.
 
+
 Calls the CRMScript agent service GetCRMScriptEntity.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the CRMScriptEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -28,6 +35,7 @@ Calls the CRMScript agent service GetCRMScriptEntity.
 ```http
 GET /api/v1/CRMScript/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -42,7 +50,8 @@ GET /api/v1/CRMScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 CRMScriptEntity found.
 
@@ -51,7 +60,7 @@ CRMScriptEntity found.
 | 200 | CRMScriptEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,28 +95,28 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 50,
-  "UniqueIdentifier": "sunt",
-  "Name": "Bruen Group",
-  "Description": "Secured interactive core",
-  "IncludeId": "quasi",
-  "HierarchyId": 693,
-  "Source": "quia",
-  "Registered": "2006-10-06T11:10:52.7591741+02:00",
-  "RegisteredAssociateId": 955,
-  "Updated": "2002-03-30T11:10:52.7591741+01:00",
-  "UpdatedAssociateId": 145,
+  "EjscriptId": 665,
+  "UniqueIdentifier": "eligendi",
+  "Name": "Willms LLC",
+  "Description": "Advanced stable pricing structure",
+  "IncludeId": "maiores",
+  "HierarchyId": 893,
+  "Source": "autem",
+  "Registered": "1995-09-21T02:49:50.8546634+02:00",
+  "RegisteredAssociateId": 389,
+  "Updated": "2006-01-23T02:49:50.8546634+01:00",
+  "UpdatedAssociateId": 588,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 939
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

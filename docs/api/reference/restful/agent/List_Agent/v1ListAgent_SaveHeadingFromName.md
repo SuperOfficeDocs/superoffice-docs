@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveHeadingFromName
 
 Save new heading for list resolved by the provided name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save new heading for list resolved by the provided name.
 ```http
 POST /api/v1/Agents/List/SaveHeadingFromName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/List/SaveHeadingFromName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, Entity
+Name, Entity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | Entity |  | The heading entity contains generic list item information <para /> Carrier object for HeadingEntity. Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,11 +79,11 @@ Response body:
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Shields Inc and Sons",
+  "Name": "Bruen, Lindgren and Ritchie",
   "Entity": null
 }
 ```
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 580,
-  "Name": "O'Connell, Koss and Kunde",
-  "Tooltip": "excepturi",
+  "HeadingId": 535,
+  "Name": "Daniel-King",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 849,
-  "UdListDefinitionId": 405,
+  "Rank": 819,
+  "UdListDefinitionId": 849,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 63
+      "FieldType": "System.Int32",
+      "FieldLength": 966
     }
   }
 }

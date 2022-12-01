@@ -11,7 +11,15 @@ POST /api/v1/Agents/Webhook/GetAllWebhooks
 
 Returns all webhooks, according to filter criteria
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns all webhooks, according to filter criteria
 ```http
 POST /api/v1/Agents/Webhook/GetAllWebhooks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/Webhook/GetAllWebhooks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-NameFilter, EventFilter, StatusFilter
+NameFilter, EventFilter, StatusFilter 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | NameFilter | string |  |
 | EventFilter | string |  |
 | StatusFilter | string |  |
+
 
 ## Response: array
 
@@ -79,12 +89,12 @@ Response body: array
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Zieme, Carroll and Mills",
-  "EventFilter": "perferendis",
+  "NameFilter": "Windler Group",
+  "EventFilter": "voluptas",
   "StatusFilter": "Active"
 }
 ```
@@ -97,26 +107,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 1002,
-    "Name": "Wolff-O'Kon",
+    "WebhookId": 399,
+    "Name": "Heaney-Blick",
     "Events": [
-      "minus",
-      "quia"
+      "nostrum",
+      "distinctio"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "et",
+    "Secret": "quisquam",
     "State": "Active",
-    "Type": "et",
+    "Type": "laborum",
     "Headers": {
-      "Headers1": "natus",
-      "Headers2": "consequatur"
+      "Headers1": "ut",
+      "Headers2": "modi"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2020-09-18T11:10:28.4862112+02:00",
+    "Registered": "2017-02-21T02:49:45.7340964+01:00",
     "RegisteredAssociate": null,
-    "Updated": "2018-12-30T11:10:28.4872104+01:00",
+    "Updated": "2006-01-25T02:49:45.7340964+01:00",
     "UpdatedAssociate": null
   }
 ]

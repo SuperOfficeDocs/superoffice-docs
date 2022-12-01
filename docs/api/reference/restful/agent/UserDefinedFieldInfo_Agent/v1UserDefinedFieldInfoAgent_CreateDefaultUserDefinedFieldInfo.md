@@ -11,7 +11,14 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 
 Set default values into a new UserDefinedFieldInfo.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,46 +99,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 436,
-  "ColumnId": 315,
-  "FieldDefault": "quo",
-  "FieldHeight": 292,
-  "FieldLabel": "exercitationem",
-  "FieldLeft": 597,
-  "FieldTop": 121,
+  "UDefFieldId": 457,
+  "ColumnId": 887,
+  "FieldDefault": "quaerat",
+  "FieldHeight": 337,
+  "FieldLabel": "dignissimos",
+  "FieldLeft": 164,
+  "FieldTop": 276,
   "FieldType": "Checkbox",
-  "FieldWidth": 766,
-  "FormatMask": "eius",
+  "FieldWidth": 881,
+  "FormatMask": "at",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 882,
-  "LabelLeft": 796,
-  "LabelTop": 554,
-  "LabelWidth": 778,
-  "LastVersionId": 415,
-  "ListTableId": 184,
-  "IsMandatory": false,
+  "LabelHeight": 917,
+  "LabelLeft": 113,
+  "LabelTop": 622,
+  "LabelWidth": 276,
+  "LastVersionId": 634,
+  "ListTableId": 274,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 224,
-  "ProgId": "pariatur",
-  "IsReadOnly": true,
-  "ShortLabel": "consequatur",
-  "TabOrder": 214,
-  "TextLength": 841,
-  "Tooltip": "nesciunt",
-  "UdefIdentity": 86,
-  "UDListDefinitionId": 901,
+  "Page1LineNo": 726,
+  "ProgId": "assumenda",
+  "IsReadOnly": false,
+  "ShortLabel": "molestiae",
+  "TabOrder": 294,
+  "TextLength": 282,
+  "Tooltip": "quo",
+  "UdefIdentity": 374,
+  "UDListDefinitionId": 225,
   "Justification": "Center",
-  "Version": 488,
-  "TemplateVariableName": "Lindgren-Senger",
+  "Version": 941,
+  "TemplateVariableName": "Beier Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Steuber, Kris and McDermott",
+  "MdoListName": "Leuschke LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldLength": 811
     }
   }
 }

@@ -11,11 +11,18 @@ POST /api/v1/ForeignApp/{appName}
 
 Creates a new ForeignApp
 
+
 Calls the ForeignSystem agent service SaveForeignAppEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | appName | string | The ForeignApp to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Calls the ForeignSystem agent service SaveForeignAppEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +66,7 @@ Response body:
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -68,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 690,
-  "Name": "Torphy, Thompson and Bednar",
-  "CreatedDate": "1999-06-10T11:10:52.8801753+02:00",
-  "UpdatedDate": "2021-07-06T11:10:52.8801753+02:00",
+  "ForeignAppId": 155,
+  "Name": "Rau-Reilly",
+  "CreatedDate": "2015-11-16T02:49:50.9640389+01:00",
+  "UpdatedDate": "2004-06-16T02:49:50.9640389+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 317,
-      "Name": "Oberbrunner-Stracke",
-      "CreatedDate": "2005-07-15T11:10:52.881174+02:00",
-      "UpdatedDate": "2013-08-26T11:10:52.881174+02:00",
-      "AssociateFullName": "Sienna Watsica",
-      "CreatedBy": "saepe",
-      "UpdatedBy": "consectetur",
-      "DeviceIdentifier": "atque",
-      "ForeignAppId": 737,
+      "ForeignDeviceId": 69,
+      "Name": "Bauch Inc and Sons",
+      "CreatedDate": "2022-05-18T02:49:50.9640389+02:00",
+      "UpdatedDate": "1998-06-03T02:49:50.9640389+02:00",
+      "AssociateFullName": "Mr. Dasia Hackett II",
+      "CreatedBy": "soluta",
+      "UpdatedBy": "amet",
+      "DeviceIdentifier": "perferendis",
+      "ForeignAppId": 872,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldType": "System.String",
+          "FieldLength": 483
         }
       }
     }
@@ -99,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 973
+      "FieldType": "System.Int32",
+      "FieldLength": 33
     }
   }
 }

@@ -11,9 +11,15 @@ PUT /api/v1/ShipmentMessage/{id}
 
 Updates the existing ShipmentMessageEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ShipmentMessageEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing ShipmentMessageEntity
 ```http
 PUT /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ShipmentMessageEntity to be saved.
+The ShipmentMessageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +74,8 @@ The ShipmentMessageEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-## Response
+
+## Response: 
 
 ShipmentMessageEntity updated.
 
@@ -76,7 +84,7 @@ ShipmentMessageEntity updated.
 | 200 | ShipmentMessageEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -115,27 +123,27 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 164,
-  "PlainMessage": "mollitia",
-  "HtmlMessage": "alias",
-  "SmsMessage": "accusamus",
-  "Description": "Expanded disintermediate infrastructure",
-  "Subject": "qui",
-  "FolderId": 224,
-  "HeaderField": "est",
-  "Design": "ab",
+  "ShipmentMessageId": 713,
+  "PlainMessage": "quaerat",
+  "HtmlMessage": "perspiciatis",
+  "SmsMessage": "vel",
+  "Description": "Customizable intermediate service-desk",
+  "Subject": "sunt",
+  "FolderId": 881,
+  "HeaderField": "voluptatum",
+  "Design": "quia",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Compatible zero administration knowledge base",
-  "AccessKey": "alias",
-  "DocumentMessage": 463,
-  "Registered": "2007-08-21T11:10:53.5251771+02:00",
-  "RegisteredAssociateId": 195,
-  "Updated": "1998-06-22T11:10:53.5251771+02:00",
-  "UpdatedAssociateId": 1002,
-  "UpdatedCount": 559
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Reverse-engineered fault-tolerant model",
+  "AccessKey": "qui",
+  "DocumentMessage": 599,
+  "Registered": "2007-02-28T02:49:51.536309+01:00",
+  "RegisteredAssociateId": 200,
+  "Updated": "2021-07-29T02:49:51.536309+02:00",
+  "UpdatedAssociateId": 392,
+  "UpdatedCount": 380
 }
 ```
 
@@ -146,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 381,
-  "PlainMessage": "animi",
-  "HtmlMessage": "nobis",
-  "SmsMessage": "consequatur",
-  "Description": "Organic multimedia project",
-  "Subject": "repellat",
-  "FolderId": 945,
-  "HeaderField": "incidunt",
-  "Design": "fugit",
+  "ShipmentMessageId": 75,
+  "PlainMessage": "ut",
+  "HtmlMessage": "et",
+  "SmsMessage": "et",
+  "Description": "Reduced radical solution",
+  "Subject": "libero",
+  "FolderId": 392,
+  "HeaderField": "voluptas",
+  "Design": "culpa",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Mandatory 4th generation moderator",
-  "AccessKey": "voluptas",
-  "DocumentMessage": 993,
-  "Registered": "2001-09-27T11:10:53.5271833+02:00",
-  "RegisteredAssociateId": 805,
-  "Updated": "2009-06-14T11:10:53.5271833+02:00",
-  "UpdatedAssociateId": 748,
-  "UpdatedCount": 587,
+  "LongDescription": "Centralized empowering functionalities",
+  "AccessKey": "ea",
+  "DocumentMessage": 487,
+  "Registered": "2002-08-14T02:49:51.536309+02:00",
+  "RegisteredAssociateId": 674,
+  "Updated": "2007-09-17T02:49:51.536309+02:00",
+  "UpdatedAssociateId": 703,
+  "UpdatedCount": 473,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 451
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -11,6 +11,13 @@ POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 
 Updates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing AttachmentEntity or creates a new AttachmentEntity if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The AttachmentEntity to be saved.
+The AttachmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The AttachmentEntity to be saved.
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 611,
-  "Name": "Konopelski-Ledner",
-  "ContentType": "sed",
-  "AttSize": 293,
+  "AttachmentId": 656,
+  "Name": "Wuckert, Hoeger and Nicolas",
+  "ContentType": "deserunt",
+  "AttSize": 669,
   "InlineImage": false,
-  "ContentId": "sit"
+  "ContentId": "aut"
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 112,
-  "Name": "Bernhard LLC",
-  "ContentType": "quibusdam",
-  "AttSize": 91,
-  "InlineImage": true,
-  "ContentId": "ea",
+  "AttachmentId": 41,
+  "Name": "Rohan Group",
+  "ContentType": "consectetur",
+  "AttSize": 711,
+  "InlineImage": false,
+  "ContentId": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldLength": 724
     }
   }
 }

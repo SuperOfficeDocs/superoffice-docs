@@ -11,6 +11,12 @@ POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 
 Activate or deactive a resource substitution for one or more cultures
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Activate or deactive a resource substitution for one or more cultures
 ```http
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/Resource/ActivateResourceSubstitution?$select=name,departmen
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ResourceName, Culture, IsActive
+ResourceName, Culture, IsActive 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,7 +48,8 @@ ResourceName, Culture, IsActive
 | Culture | string |  |
 | IsActive | bool |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -49,7 +57,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -57,12 +66,12 @@ Response body:
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Herzog-Waelchi",
-  "Culture": "sunt",
+  "ResourceName": "Smith, Erdman and Turcotte",
+  "Culture": "id",
   "IsActive": false
 }
 ```

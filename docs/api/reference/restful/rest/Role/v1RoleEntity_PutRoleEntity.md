@@ -11,11 +11,19 @@ PUT /api/v1/Role/{id}
 
 Updates the existing RoleEntity
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The RoleEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +34,7 @@ Updates the existing RoleEntity
 ```http
 PUT /api/v1/Role/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -41,9 +50,9 @@ PUT /api/v1/Role/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The RoleEntity to be saved.
+The RoleEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +69,8 @@ The RoleEntity to be saved.
 | UpdatedBy |  | Last updated by user |
 | DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
 
-## Response
+
+## Response: 
 
 RoleEntity updated.
 
@@ -69,7 +79,7 @@ RoleEntity updated.
 | 200 | RoleEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,16 +109,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 864,
-  "Name": "Will-Cassin",
-  "Tooltip": "vel",
+  "RoleId": 910,
+  "Name": "Mann-Crona",
+  "Tooltip": "perspiciatis",
   "RoleType": "Anonymous",
-  "Deleted": 822,
-  "Rank": 276,
-  "Created": "2010-05-05T11:10:53.3461478+02:00",
-  "UseCategories": 456,
+  "Deleted": 471,
+  "Rank": 247,
+  "Created": "2020-03-29T02:49:51.3859386+01:00",
+  "UseCategories": 534,
   "CreatedBy": null,
-  "Updated": "2018-03-11T11:10:53.3491435+01:00",
+  "Updated": "2022-05-08T02:49:51.3859386+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -121,16 +131,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 824,
-  "Name": "Anderson, Abbott and Corkery",
-  "Tooltip": "omnis",
+  "RoleId": 462,
+  "Name": "Mayer-Cummings",
+  "Tooltip": "autem",
   "RoleType": "Anonymous",
-  "Deleted": 19,
-  "Rank": 656,
-  "Created": "2009-01-07T11:10:53.3511457+01:00",
-  "UseCategories": 875,
+  "Deleted": 919,
+  "Rank": 594,
+  "Created": "2009-05-16T02:49:51.3859386+02:00",
+  "UseCategories": 313,
   "CreatedBy": null,
-  "Updated": "2013-09-14T11:10:53.3511457+02:00",
+  "Updated": "2003-08-02T02:49:51.3859386+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -138,7 +148,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldLength": 817
     }
   },
   "_Links": {

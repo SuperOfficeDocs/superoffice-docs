@@ -11,10 +11,17 @@ DELETE /api/v1/License/{moduleOwner}/{associateId}
 
 Unassign (remove) third party licenses
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | User to unassign third party licenses for **Required** |
 | moduleOwner | string | Name of the module owner to unassign license for **Required** |
+
+
 
 ## Request Headers
 
@@ -26,9 +33,11 @@ Unassign (remove) third party licenses
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: moduleLicenseNames
+## Request Body: moduleLicenseNames  
 
-Name of module licenses to unassign (remove)
+Name of module licenses to unassign (remove) 
+
+
 
 ## Response: array
 
@@ -76,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 551,
-    "Tooltip": "velit",
+    "Unrestricted": true,
+    "Total": 276,
+    "Tooltip": "et",
     "CanAssign": false,
-    "Free": 326,
-    "InUse": 838,
+    "Free": 177,
+    "InUse": 432,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 533,
-    "Name": "Collier Group",
-    "Description": "Implemented impactful contingency",
-    "PrerequisiteModuleName": "Bergnaum Inc and Sons",
-    "SortOrder": 459,
-    "ExtraFlags": 516,
+    "ModuleLicenseId": 660,
+    "Name": "Littel, Schumm and Sporer",
+    "Description": "Distributed motivating installation",
+    "PrerequisiteModuleName": "Muller-Hagenes",
+    "SortOrder": 466,
+    "ExtraFlags": 824,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldLength": 67
       }
     }
   }

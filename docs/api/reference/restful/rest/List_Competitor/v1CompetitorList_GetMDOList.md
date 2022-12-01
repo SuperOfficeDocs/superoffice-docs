@@ -11,6 +11,12 @@ GET /api/v1/List/Competitor/MDOItems
 
 Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=adipisci
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=ut
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Competitor/MDOItems?query=adipisci
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "O'Hara-Torp",
-    "ToolTip": "Earum sit.",
-    "Deleted": false,
-    "Rank": 580,
-    "Type": "nisi",
+    "Id": 319,
+    "Name": "Grant, Weimann and Keebler",
+    "ToolTip": "Quis cum nesciunt.",
+    "Deleted": true,
+    "Rank": 765,
+    "Type": "natus",
     "ChildItems": [
       {
-        "Id": 302,
-        "Name": "Wyman Inc and Sons",
-        "ToolTip": "Modi inventore odio et provident.",
+        "Id": 928,
+        "Name": "Schmeler, Predovic and Zieme",
+        "ToolTip": "Consequuntur non quidem.",
         "Deleted": false,
-        "Rank": 38,
-        "Type": "sit",
+        "Rank": 934,
+        "Type": "cupiditate",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 862,
-        "ExtraInfo": "dicta",
-        "StyleHint": "explicabo",
-        "FullName": "Gerardo Considine",
+        "IconHint": "expedita",
+        "ColorBlock": 809,
+        "ExtraInfo": "omnis",
+        "StyleHint": "non",
+        "FullName": "Delfina Zoey Haley IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 167
+            "FieldType": "System.String",
+            "FieldLength": 140
           }
         }
       }
     ],
-    "IconHint": "facere",
-    "ColorBlock": 856,
-    "ExtraInfo": "vitae",
-    "StyleHint": "non",
-    "FullName": "Gregoria Hayes",
+    "IconHint": "similique",
+    "ColorBlock": 541,
+    "ExtraInfo": "quo",
+    "StyleHint": "voluptate",
+    "FullName": "Dr. Leonor VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldType": "System.String",
+        "FieldLength": 635
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/PhoneList/SearchWithPreferences
 
 Searching the phone list.
 
+
 Search is based on the supplied preferences.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Search is based on the supplied preferences.
 ```http
 POST /api/v1/Agents/PhoneList/SearchWithPreferences?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/PhoneList/SearchWithPreferences?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SearchString, Preferences
+SearchString, Preferences 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SearchString | string |  |
 | Preferences |  | Search preferences for a phone list search <para /> Carrier object for PhoneListPreferences. Services for the PhoneListPreferences Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPhoneListAgent">PhoneList Agent</see>. |
+
 
 ## Response: array
 
@@ -81,7 +89,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "corporis",
+  "SearchString": "ipsa",
   "Preferences": null
 }
 ```
@@ -94,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "146-540-4781",
-    "PersonCellPhone": "(769)177-6668 x822",
-    "PersonPrivatePhone": "1-754-399-8512 x4511",
-    "PersonFaxNumber": "971644",
-    "PersonPagerNumber": "990446",
-    "PersonEmail": "eda@casper.info",
-    "Id": 426,
-    "Name": "Dickens-Okuneva",
-    "Tooltip": "ullam",
-    "UniqueId": "repellendus",
+    "PersonDirectPhone": "323-453-9351 x72815",
+    "PersonCellPhone": "432-027-4165 x650",
+    "PersonPrivatePhone": "(674)240-2738 x21393",
+    "PersonFaxNumber": "1008475",
+    "PersonPagerNumber": "923447",
+    "PersonEmail": "sylvester_windler@pacochagoyette.com",
+    "Id": 206,
+    "Name": "Ferry, Kunze and White",
+    "Tooltip": "quis",
+    "UniqueId": "ullam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldType": "System.String",
+        "FieldLength": 814
       }
     }
   }

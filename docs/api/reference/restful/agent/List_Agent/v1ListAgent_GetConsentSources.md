@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetConsentSources
 
 Returns all defined Sources.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all defined Sources.
 ```http
 POST /api/v1/Agents/List/GetConsentSources?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/List/GetConsentSources?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -73,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 560,
-    "Name": "Dooley Group",
-    "Tooltip": "odit",
-    "Rank": 127,
-    "Key": "corrupti",
-    "MailTemplateId": 252,
+    "ConsentSourceId": 397,
+    "Name": "Toy-Deckow",
+    "Tooltip": "ab",
+    "Rank": 114,
+    "Key": "et",
+    "MailTemplateId": 18,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldLength": 918
       }
     }
   }

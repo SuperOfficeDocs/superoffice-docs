@@ -11,6 +11,13 @@ POST /api/v1/List/QuoteApproveReason/Items
 
 Add a new QuoteApproveReason to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new QuoteApproveReason to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The QuoteApproveReason to be added to the list.
+The QuoteApproveReason to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The QuoteApproveReason to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 492,
-  "Name": "Mayert LLC",
-  "Tooltip": "optio",
+  "Id": 106,
+  "Name": "Kihn-Batz",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "UdListDefinitionId": 11,
-  "Rank": 390
+  "UdListDefinitionId": 148,
+  "Rank": 149
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Ledner Inc and Sons",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "UdListDefinitionId": 598,
-  "Rank": 463,
+  "Id": 936,
+  "Name": "Hauck-Kirlin",
+  "Tooltip": "aspernatur",
+  "Deleted": true,
+  "UdListDefinitionId": 906,
+  "Rank": 402,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldLength": 228
     }
   }
 }

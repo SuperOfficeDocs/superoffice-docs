@@ -11,11 +11,18 @@ GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 
 Gets user groups visible for the SaleStageEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 233,
-    "Name": "Jenkins, Bailey and Strosin",
-    "ToolTip": "Similique nam.",
-    "Deleted": false,
-    "Rank": 503,
-    "Type": "et",
-    "ColorBlock": 22,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2019-07-28T11:10:54.5339404+02:00",
+    "Id": 110,
+    "Name": "Jacobs, Watsica and Fahey",
+    "ToolTip": "Aut quas odit officia consequatur.",
+    "Deleted": true,
+    "Rank": 868,
+    "Type": "dolores",
+    "ColorBlock": 54,
+    "IconHint": "voluptatibus",
+    "Selected": true,
+    "LastChanged": "2021-11-18T02:49:52.4534506+01:00",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Metz-Howell",
-        "ToolTip": "Dignissimos sunt quo delectus.",
-        "Deleted": false,
-        "Rank": 778,
-        "Type": "cupiditate",
-        "ColorBlock": 167,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "2008-02-02T11:10:54.5339404+01:00",
+        "Id": 417,
+        "Name": "Heller LLC",
+        "ToolTip": "Reprehenderit laborum impedit ducimus qui voluptatem.",
+        "Deleted": true,
+        "Rank": 849,
+        "Type": "sit",
+        "ColorBlock": 401,
+        "IconHint": "ullam",
+        "Selected": true,
+        "LastChanged": "2017-08-30T02:49:52.4534506+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "beatae",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Leonora Braun",
+        "FullName": "Moriah Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 575
+            "FieldType": "System.Int32",
+            "FieldLength": 328
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "illo",
+    "ExtraInfo": "beatae",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Raul Murphy",
+    "FullName": "Rosemary Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldType": "System.Int32",
+        "FieldLength": 810
       }
     }
   }

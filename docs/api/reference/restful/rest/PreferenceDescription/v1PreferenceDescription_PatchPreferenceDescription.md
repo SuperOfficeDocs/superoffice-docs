@@ -11,6 +11,7 @@ PATCH /api/v1/PreferenceDescription/{id}
 
 Update a PreferenceDescription with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IPreferenceAgent} service SavePreferenceDescription.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PreferenceDescription  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IPreferenceAgent} service SavePreferenceDesc
 ```http
 PATCH /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 PreferenceDescription  updated.
 
@@ -81,7 +93,7 @@ PreferenceDescription  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because PreferenceDescription has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -119,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sit",
+    "path": "provident",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sit",
+    "path": "provident",
     "value": {}
   }
 ]
@@ -137,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 15,
-  "Section": "ipsa",
-  "Key": "nulla",
-  "Name": "Wilderman LLC",
+  "PrefDescId": 269,
+  "Section": "nulla",
+  "Key": "ex",
+  "Name": "Little-Homenick",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Phased tangible collaboration",
-  "IsBuiltin": true,
-  "TableName": "Schmeler-Fadel",
-  "UserDefinedListId": 592,
-  "Rank": 648,
-  "SubGroup": "quisquam",
-  "MinLevel": 890,
-  "MaxValue": 19,
-  "MinValue": 17,
-  "RequiredLicense": "dignissimos",
+  "Description": "Vision-oriented real-time ability",
+  "IsBuiltin": false,
+  "TableName": "Schmidt, Runolfsdottir and Mante",
+  "UserDefinedListId": 607,
+  "Rank": 245,
+  "SubGroup": "et",
+  "MinLevel": 341,
+  "MaxValue": 239,
+  "MinValue": 754,
+  "RequiredLicense": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 241
+      "FieldType": "System.Int32",
+      "FieldLength": 785
     }
   },
   "_Links": {

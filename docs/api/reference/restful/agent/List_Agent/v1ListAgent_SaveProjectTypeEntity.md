@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveProjectTypeEntity
 
 Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ProjectTypeEntity to be saved.
+The ProjectTypeEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The ProjectTypeEntity to be saved.
 | IsAutoAdvance | bool | Does the project status advance automatically, when the last guided activity in a status is completed? |
 | Stages | array | Stages (project statuses), those associated with this ProjType are selected. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -50,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,39 +81,39 @@ Response body:
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 34,
-  "Name": "McLaughlin-Rohan",
-  "Tooltip": "maiores",
-  "Rank": 435,
+  "ProjTypeId": 669,
+  "Name": "Heathcote-Pollich",
+  "Tooltip": "placeat",
+  "Rank": 477,
   "DurationUnit": "Century",
-  "ProjectDuration": 73,
-  "Deleted": true,
+  "ProjectDuration": 612,
+  "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 373,
-      "Name": "Padberg, Emard and Jast",
-      "ToolTip": "Vitae quae voluptatem pariatur.",
+      "Id": 508,
+      "Name": "Ratke, Kihn and Gibson",
+      "ToolTip": "Aut commodi voluptatem quis ratione delectus facere eos.",
       "Deleted": false,
-      "Rank": 698,
-      "Type": "fugiat",
-      "ColorBlock": 357,
-      "IconHint": "iusto",
+      "Rank": 987,
+      "Type": "occaecati",
+      "ColorBlock": 549,
+      "IconHint": "vel",
       "Selected": false,
-      "LastChanged": "2016-10-02T11:10:27.251448+02:00",
+      "LastChanged": "2016-03-19T02:49:44.6860468+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "animi",
-      "StyleHint": "consectetur",
+      "ExtraInfo": "corporis",
+      "StyleHint": "ex",
       "Hidden": false,
-      "FullName": "Juanita Elnora Boehm IV"
+      "FullName": "Makenzie Yost"
     }
   ]
 }
@@ -118,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 854,
-  "Name": "Nikolaus, Kirlin and Altenwerth",
-  "Tooltip": "consequatur",
-  "Rank": 991,
+  "ProjTypeId": 539,
+  "Name": "Boyle, Aufderhar and Vandervort",
+  "Tooltip": "voluptates",
+  "Rank": 518,
   "DurationUnit": "Century",
-  "ProjectDuration": 467,
-  "Deleted": true,
+  "ProjectDuration": 944,
+  "Deleted": false,
   "HasGuide": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 678,
-      "Name": "Wolf Group",
-      "ToolTip": "Culpa impedit.",
+      "Id": 44,
+      "Name": "Hilpert-Funk",
+      "ToolTip": "Occaecati at.",
       "Deleted": false,
-      "Rank": 920,
-      "Type": "et",
-      "ColorBlock": 430,
-      "IconHint": "repudiandae",
-      "Selected": false,
-      "LastChanged": "2004-04-08T11:10:27.2524511+02:00",
+      "Rank": 1002,
+      "Type": "aut",
+      "ColorBlock": 578,
+      "IconHint": "dolor",
+      "Selected": true,
+      "LastChanged": "2016-08-02T02:49:44.6860468+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "earum",
-      "StyleHint": "ut",
+      "ExtraInfo": "odit",
+      "StyleHint": "fugiat",
       "Hidden": false,
-      "FullName": "Eula Stehr",
+      "FullName": "Brionna Grant",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 398
+          "FieldType": "System.Int32",
+          "FieldLength": 219
         }
       }
     }
@@ -161,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 314
+      "FieldType": "System.Int32",
+      "FieldLength": 327
     }
   }
 }

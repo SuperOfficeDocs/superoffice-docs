@@ -11,7 +11,13 @@ POST /api/v1/Agents/Contact/GetMyRecentContacts
 
 Method that returns a set of initial contacts.
 
+
 This could be the contacts in a favorites selection, the history list, the diary, or from all sources. If retrieved from the diary it will get appointments for the current and the next day.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This could be the contacts in a favorites selection, the history list, the diary
 ```http
 POST /api/v1/Agents/Contact/GetMyRecentContacts?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Contact/GetMyRecentContacts?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SourceType
+SourceType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SourceType | string |  |
+
 
 ## Response: array
 
@@ -88,7 +96,7 @@ Response body: array
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,34 +112,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 199,
-    "Name": "Kuhlman, Schuppe and Walker",
-    "OrgNr": "1056389",
+    "ContactId": 906,
+    "Name": "Funk, Von and Boehm",
+    "OrgNr": "1148957",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "ut",
-    "DirectPhone": "1-225-531-4940",
-    "AssociateId": 392,
-    "CountryId": 796,
-    "EmailAddress": "christa@dibbert.com",
-    "Kananame": "molestias",
-    "EmailAddressName": "francisco@blandaschaden.com",
+    "City": "sunt",
+    "DirectPhone": "1-184-771-9025 x1772",
+    "AssociateId": 159,
+    "CountryId": 198,
+    "EmailAddress": "arlo@cronincasper.us",
+    "Kananame": "modi",
+    "EmailAddressName": "rod@armstronggusikowski.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Amy Cronin",
+    "AssociateFullName": "Tabitha Pouros",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "error",
-    "FullName": "Lavern Goldner",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 76,
+    "FormattedAddress": "facilis",
+    "FullName": "Kellen Bartell",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 196,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 92
+        "FieldType": "System.Int32",
+        "FieldLength": 108
       }
     }
   }

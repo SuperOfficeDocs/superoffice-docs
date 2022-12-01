@@ -11,7 +11,14 @@ GET /api/v1/Project/default
 
 Set default values into a new ProjectEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Project agent service CreateDefaultProjectEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +86,7 @@ Response body:
 GET /api/v1/Project/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,130 +94,130 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 30 Apr 1999 11:10:53 G4T
+Last-Modified: Fri, 08 Sep 2017 02:49:51 G9T
 
 {
-  "ProjectId": 373,
-  "Name": "Vandervort, Eichmann and Mayer",
-  "ProjectNumber": "1009379",
+  "ProjectId": 807,
+  "Name": "McCullough, Farrell and DuBuque",
+  "ProjectNumber": "238571",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 28,
-      "ContactId": 980,
-      "ProjectId": 263,
-      "ContactName": "Schimmel LLC",
-      "ContactDepartment": "optimize seamless web services",
-      "ProjectName": "Klein Inc and Sons",
-      "EmailId": 736,
-      "EmailAddress": "vilma@stanton.uk",
-      "CountryId": 855,
-      "Firstname": "Jaylan",
-      "MiddleName": "Greenfelder-Purdy",
-      "Lastname": "Gutmann",
-      "PersonId": 55,
-      "Mrmrs": "quas",
-      "ProjectMemberTypeName": "Feil, Lebsack and Harris",
-      "Phone": "(374)650-3808",
-      "PhoneId": 800,
-      "ProjectMemberTypeId": 388,
-      "EmailAddressName": "katlyn.durgan@thompsonhowell.us",
-      "Comment": "et",
-      "FullName": "Jannie Smitham",
+      "ProjectmemberId": 651,
+      "ContactId": 350,
+      "ProjectId": 676,
+      "ContactName": "Bogan, Prohaska and Murphy",
+      "ContactDepartment": "implement strategic deliverables",
+      "ProjectName": "Fadel-Mann",
+      "EmailId": 489,
+      "EmailAddress": "edd.lehner@weissnat.info",
+      "CountryId": 930,
+      "Firstname": "Ericka",
+      "MiddleName": "O'Reilly, Fritsch and Nicolas",
+      "Lastname": "Turcotte",
+      "PersonId": 557,
+      "Mrmrs": "incidunt",
+      "ProjectMemberTypeName": "Aufderhar-Kuvalis",
+      "Phone": "(642)287-4442 x1761",
+      "PhoneId": 195,
+      "ProjectMemberTypeId": 50,
+      "EmailAddressName": "keely@keeling.com",
+      "Comment": "eum",
+      "FullName": "Haskell Schoen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldType": "System.String",
+          "FieldLength": 928
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "qui",
-      "StrippedValue": "voluptas",
-      "Description": "Up-sized holistic archive",
+      "Value": "quo",
+      "StrippedValue": "distinctio",
+      "Description": "Exclusive well-modulated circuit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldType": "System.String",
+          "FieldLength": 419
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "voluptas",
-      "Description": "Up-sized holistic archive",
+      "Value": "quo",
+      "StrippedValue": "distinctio",
+      "Description": "Exclusive well-modulated circuit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldType": "System.String",
+          "FieldLength": 419
         }
       }
     }
   ],
-  "CreatedDate": "2020-11-04T11:10:53.2681637+01:00",
-  "UpdatedDate": "1999-04-30T11:10:53.2681637+02:00",
-  "Description": "Monitored dedicated attitude",
-  "Postit": "delectus",
+  "CreatedDate": "1998-08-26T02:49:51.3234448+02:00",
+  "UpdatedDate": "2017-09-08T02:49:51.3234448+02:00",
+  "Description": "Focused tertiary superstructure",
+  "Postit": "et",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Synergistic dynamic help-desk",
-  "ActiveStatusMonitorId": 718,
+  "ImageDescription": "Intuitive actuating solution",
+  "ActiveStatusMonitorId": 918,
   "Links": [
     {
-      "EntityName": "Durgan, Rogahn and Kshlerin",
-      "Id": 880,
-      "Description": "Advanced directional service-desk",
-      "ExtraInfo": "impedit",
-      "LinkId": 936,
+      "EntityName": "Ullrich, Mante and Kerluke",
+      "Id": 396,
+      "Description": "Virtual leading edge interface",
+      "ExtraInfo": "nisi",
+      "LinkId": 543,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldType": "System.String",
+          "FieldLength": 319
         }
       }
     }
   ],
-  "ActiveLinks": 266,
-  "Completed": true,
-  "NextMilestoneDate": "1999-09-01T11:10:53.27018+02:00",
-  "NmdAppointmentId": 501,
-  "EndDate": "2013-11-23T11:10:53.27018+01:00",
-  "ActiveErpLinks": 684,
+  "ActiveLinks": 996,
+  "Completed": false,
+  "NextMilestoneDate": "2015-02-20T02:49:51.3234448+01:00",
+  "NmdAppointmentId": 90,
+  "EndDate": "1995-07-26T02:49:51.3234448+02:00",
+  "ActiveErpLinks": 612,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Kane Neal Schuster I",
-    "SuperOffice:2": "Deja Gerhold"
+    "SuperOffice:1": "486375363",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "nisi"
+    "ExtraFields1": "commodi",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "provident"
+    "CustomFields1": "fuga",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "1997-08-17T11:10:53.27018+02:00",
-  "PublishTo": "2005-10-25T11:10:53.27018+02:00",
-  "PublishFrom": "2016-06-06T11:10:53.27018+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-04-14T02:49:51.3234448+02:00",
+  "PublishTo": "2006-06-10T02:49:51.3234448+02:00",
+  "PublishFrom": "2012-07-30T02:49:51.3234448+02:00",
+  "IsPublished": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 620
+      "FieldLength": 793
     }
   }
 }

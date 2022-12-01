@@ -11,7 +11,14 @@ POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 
 Set default values into a new SelectionEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +96,7 @@ Response body:
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,70 +106,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Integrated multi-state artificial intelligence",
-  "Postit": "debitis",
+  "Description": "Organized actuating policy",
+  "Postit": "labore",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 204,
-  "IncludePerson": 905,
-  "MemberCount": 68,
-  "Name": "Denesik, Bergnaum and Morar",
-  "PostitTextId": 720,
-  "CreatedDate": "1995-10-01T11:10:27.8809765+02:00",
-  "SelectionId": 539,
-  "SoundEx": "dignissimos",
-  "Source": 677,
-  "TextId": 809,
-  "UpdatedDate": "2016-10-22T11:10:27.8809765+02:00",
-  "UpdatedCount": 184,
-  "Visibility": 925,
+  "GroupIdx": 806,
+  "IncludePerson": 582,
+  "MemberCount": 723,
+  "Name": "Daniel, Wilderman and Wilkinson",
+  "PostitTextId": 578,
+  "CreatedDate": "2001-05-27T02:49:45.3590885+02:00",
+  "SelectionId": 324,
+  "SoundEx": "quaerat",
+  "Source": 655,
+  "TextId": 529,
+  "UpdatedDate": "2022-02-20T02:49:45.3590885+01:00",
+  "UpdatedCount": 755,
+  "Visibility": 689,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 538,
-  "TargetTableName": "Schmeler, Prohaska and Satterfield",
-  "Completed": true,
-  "LeftSelectionId": 300,
-  "RightSelectionId": 41,
+  "TargetTableNumber": 960,
+  "TargetTableName": "Bode Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 684,
+  "RightSelectionId": 161,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Shanahan-Krajcik",
-  "ShadowProviderName": "Ziemann, McGlynn and Rutherford",
-  "ChartKey": "rerum",
-  "LastLoaded": "2005-10-02T11:10:27.8819955+02:00",
-  "LastLoadedBy": 868,
+  "MainProviderName": "Cassin, Kuvalis and Jerde",
+  "ShadowProviderName": "Breitenberg Group",
+  "ChartKey": "consequuntur",
+  "LastLoaded": "2019-10-31T02:49:45.3590885+01:00",
+  "LastLoadedBy": 906,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-07-16T11:10:27.8819955+02:00",
-  "LastMembershipChangeBy": 499,
+  "LastMembershipChange": "2010-01-03T02:49:45.3590885+01:00",
+  "LastMembershipChangeBy": 344,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "molestias",
-  "MailingsProviderName": "Kertzmann-Greenholt",
-  "DashboardTileDefinitionId": 117,
+  "MainHeading": "dolor",
+  "MemberTabHeading": "itaque",
+  "MailingsProviderName": "Crona, Runolfsdottir and Dickinson",
+  "DashboardTileDefinitionId": 844,
   "VisibleFor": [
     {
-      "VisibleId": 624,
+      "VisibleId": 615,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 310
+          "FieldLength": 580
         }
       }
     },
     {
-      "VisibleId": 624,
+      "VisibleId": 615,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 310
+          "FieldLength": 580
         }
       }
     }
@@ -171,7 +179,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 376
     }
   }
 }

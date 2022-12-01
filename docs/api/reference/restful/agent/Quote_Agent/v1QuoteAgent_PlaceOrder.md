@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/PlaceOrder
 
 Place an order in the ERP system.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Place an order in the ERP system.
 ```http
 POST /api/v1/Agents/Quote/PlaceOrder?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/PlaceOrder?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteAlternativeId, MarkSaleAsSold, PoNumber, OrderComment, Culture
+QuoteAlternativeId, MarkSaleAsSold, PoNumber, OrderComment, Culture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ QuoteAlternativeId, MarkSaleAsSold, PoNumber, OrderComment, Culture
 | OrderComment | string |  |
 | Culture | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,16 +63,17 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IsOk | bool | Answer to the question / An indication if the operation went well. |
+| IsOk | bool | Answer to the question / An indication if the operation went well.  Equivalent to Status != Error |
 | UserExplanation | string | A localized explanation to the answer. |
 | TechExplanation | string | Always in English |
 | ErrorCode | string | An error code, if available. |
 | Changes |  | Tablename/recordid of data changed by this method, that the client may need to reload |
 | Url | string | Url that the GUI should navigato to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested url. |
+| Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -74,15 +83,15 @@ Response body:
 POST /api/v1/Agents/Quote/PlaceOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 412,
+  "QuoteAlternativeId": 309,
   "MarkSaleAsSold": false,
-  "PoNumber": "1056937",
-  "OrderComment": "enim",
-  "Culture": "et"
+  "PoNumber": "1485692",
+  "OrderComment": "unde",
+  "Culture": "quis"
 }
 ```
 
@@ -94,17 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "qui",
-  "TechExplanation": "odio",
-  "ErrorCode": "placeat",
+  "UserExplanation": "voluptate",
+  "TechExplanation": "et",
+  "ErrorCode": "vel",
   "Changes": null,
   "Url": "http://www.example.com/",
+  "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 590
     }
   }
 }

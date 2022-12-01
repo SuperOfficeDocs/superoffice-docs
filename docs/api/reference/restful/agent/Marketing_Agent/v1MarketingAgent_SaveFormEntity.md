@@ -11,6 +11,13 @@ POST /api/v1/Agents/Marketing/SaveFormEntity
 
 Updates the existing FormEntity or creates a new FormEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing FormEntity or creates a new FormEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The FormEntity to be saved.
+The FormEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +61,8 @@ The FormEntity to be saved.
 | UpdatedCount | int32 | Number of updates made to this record |
 | FolderName | string | The name of the folder for this form |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -62,7 +70,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,32 +105,32 @@ Response body:
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 785,
-  "FormKey": "non",
-  "Name": "Reynolds, Stehr and Jaskolski",
-  "Description": "Proactive full-range synergy",
-  "Config": "et",
-  "FolderId": 676,
-  "ScriptId": 536,
-  "ResponseShipmentId": 691,
-  "Active": false,
-  "Expires": "2011-05-02T11:10:27.2854252+02:00",
-  "MaxSubmits": 76,
+  "FormId": 745,
+  "FormKey": "deserunt",
+  "Name": "Schamberger-Becker",
+  "Description": "Exclusive leading edge throughput",
+  "Config": "aliquam",
+  "FolderId": 265,
+  "ScriptId": 66,
+  "ResponseShipmentId": 317,
+  "Active": true,
+  "Expires": "1997-04-25T02:49:44.7016713+02:00",
+  "MaxSubmits": 772,
   "Type": "Normal",
-  "Recipe": "aliquam",
-  "GroupId": 293,
+  "Recipe": "tempora",
+  "GroupId": 772,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2005-04-28T11:10:27.2854252+02:00",
-  "RegisteredAssociateId": 429,
-  "Updated": "2001-03-19T11:10:27.2854252+01:00",
-  "UpdatedAssociateId": 699,
-  "UpdatedCount": 512,
-  "FolderName": "Jakubowski Inc and Sons"
+  "Registered": "2007-04-29T02:49:44.7016713+02:00",
+  "RegisteredAssociateId": 271,
+  "Updated": "2009-05-02T02:49:44.7016713+02:00",
+  "UpdatedAssociateId": 717,
+  "UpdatedCount": 422,
+  "FolderName": "Stiedemann LLC"
 }
 ```
 
@@ -133,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 701,
-  "FormKey": "fugiat",
-  "Name": "Eichmann Group",
-  "Description": "Grass-roots client-server help-desk",
-  "Config": "est",
-  "FolderId": 295,
-  "ScriptId": 381,
-  "ResponseShipmentId": 649,
+  "FormId": 191,
+  "FormKey": "consequatur",
+  "Name": "King LLC",
+  "Description": "Innovative real-time data-warehouse",
+  "Config": "doloremque",
+  "FolderId": 582,
+  "ScriptId": 864,
+  "ResponseShipmentId": 82,
   "Active": false,
-  "Expires": "2019-01-24T11:10:27.2854252+01:00",
-  "MaxSubmits": 6,
+  "Expires": "2020-11-21T02:49:44.7016713+01:00",
+  "MaxSubmits": 329,
   "Type": "Normal",
-  "Recipe": "quis",
-  "GroupId": 523,
+  "Recipe": "debitis",
+  "GroupId": 387,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2002-04-20T11:10:27.2854252+02:00",
-  "RegisteredAssociateId": 644,
-  "Updated": "2004-08-21T11:10:27.2854252+02:00",
-  "UpdatedAssociateId": 864,
-  "UpdatedCount": 5,
-  "FolderName": "Roob Inc and Sons",
+  "Registered": "2017-12-22T02:49:44.7172985+01:00",
+  "RegisteredAssociateId": 226,
+  "Updated": "2009-03-24T02:49:44.7172985+01:00",
+  "UpdatedAssociateId": 862,
+  "UpdatedCount": 926,
+  "FolderName": "Kozey, Koss and Corkery",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 86
+      "FieldLength": 740
     }
   }
 }

@@ -11,6 +11,12 @@ GET /api/v1/List/ConsentSource/MDOItems
 
 Get the MDO list items for "ConsentSource" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=rem
+GET /api/v1/List/ConsentSource/MDOItems?flat=False
+GET /api/v1/List/ConsentSource/MDOItems?query=ab
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/ConsentSource/MDOItems?query=rem
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Bode, Koch and Konopelski",
-    "ToolTip": "Debitis sunt sed inventore sequi eum.",
-    "Deleted": false,
-    "Rank": 891,
-    "Type": "minus",
+    "Id": 792,
+    "Name": "Wyman, Wolff and Gutmann",
+    "ToolTip": "Esse corporis dignissimos aliquid rerum mollitia laudantium voluptate.",
+    "Deleted": true,
+    "Rank": 260,
+    "Type": "voluptate",
     "ChildItems": [
       {
-        "Id": 641,
-        "Name": "Beier Inc and Sons",
-        "ToolTip": "Quia eum id asperiores et at officia.",
+        "Id": 265,
+        "Name": "Crist-Bins",
+        "ToolTip": "Nulla aut earum.",
         "Deleted": true,
-        "Rank": 384,
-        "Type": "mollitia",
+        "Rank": 570,
+        "Type": "quod",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "soluta",
-        "ColorBlock": 269,
-        "ExtraInfo": "ullam",
-        "StyleHint": "ut",
-        "FullName": "Polly Torphy",
+        "IconHint": "sed",
+        "ColorBlock": 942,
+        "ExtraInfo": "provident",
+        "StyleHint": "veniam",
+        "FullName": "Drake Swift",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 91
+            "FieldLength": 796
           }
         }
       }
     ],
-    "IconHint": "quibusdam",
-    "ColorBlock": 609,
-    "ExtraInfo": "quisquam",
-    "StyleHint": "qui",
-    "FullName": "Prof. Caden Parker",
+    "IconHint": "et",
+    "ColorBlock": 653,
+    "ExtraInfo": "qui",
+    "StyleHint": "vel",
+    "FullName": "Bonnie Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 310
+        "FieldLength": 328
       }
     }
   }

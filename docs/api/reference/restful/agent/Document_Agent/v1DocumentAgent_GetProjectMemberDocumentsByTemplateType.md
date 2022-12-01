@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
+
 The document appointments belong to the project member specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project member specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count, DocumentTemplateId
+PersonId, StartTime, EndTime, Count, DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ PersonId, StartTime, EndTime, Count, DocumentTemplateId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | DocumentTemplateId | int32 |  |
+
 
 ## Response: array
 
@@ -90,15 +98,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 386,
-  "StartTime": "2008-01-22T11:10:26.468454+01:00",
-  "EndTime": "1996-06-10T11:10:26.468454+02:00",
-  "Count": 729,
-  "DocumentTemplateId": 148
+  "PersonId": 91,
+  "StartTime": "2009-10-28T02:49:44.0910111+01:00",
+  "EndTime": "2010-06-01T02:49:44.0910111+02:00",
+  "Count": 762,
+  "DocumentTemplateId": 19
 }
 ```
 
@@ -110,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 292,
-    "Attention": "magnam",
-    "Header": "quos",
-    "Name": "Krajcik Group",
-    "OurRef": "blanditiis",
-    "YourRef": "autem",
-    "Description": "Proactive context-sensitive website",
-    "DocumentTemplate": "officiis",
+    "DocumentId": 911,
+    "Attention": "est",
+    "Header": "tempore",
+    "Name": "Schuster LLC",
+    "OurRef": "laudantium",
+    "YourRef": "quaerat",
+    "Description": "De-engineered local adapter",
+    "DocumentTemplate": "inventore",
     "IsPublished": false,
-    "PersonId": 434,
-    "PersonFullName": "Zelma Roob",
-    "AssociateFullName": "Adele Collier Jr.",
-    "ContactId": 401,
-    "ContactName": "Watsica, Upton and Goldner",
-    "ProjectId": 11,
-    "ProjectName": "Feil Group",
-    "AssociateId": 926,
-    "Snum": 252,
-    "SaleId": 321,
-    "SaleName": "Goyette, Lemke and Okuneva",
+    "PersonId": 368,
+    "PersonFullName": "Elian Gerlach",
+    "AssociateFullName": "Clarissa Reichert",
+    "ContactId": 327,
+    "ContactName": "Hudson-Parisian",
+    "ProjectId": 577,
+    "ProjectName": "Kuhic LLC",
+    "AssociateId": 664,
+    "Snum": 500,
+    "SaleId": 731,
+    "SaleName": "Goldner-Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldLength": 976
       }
     }
   }

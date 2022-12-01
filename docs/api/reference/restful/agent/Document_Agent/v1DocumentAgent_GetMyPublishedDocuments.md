@@ -9,6 +9,14 @@ uid: v1DocumentAgent_GetMyPublishedDocuments
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Document/GetMyPublishedDocuments
 ```http
 POST /api/v1/Agents/Document/GetMyPublishedDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,6 +40,7 @@ POST /api/v1/Agents/Document/GetMyPublishedDocuments?$select=name,department,cat
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -73,7 +83,7 @@ Response body: array
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,32 +94,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 541,
-    "Attention": "odio",
-    "Header": "saepe",
-    "Name": "Greenholt, Bradtke and Ullrich",
-    "OurRef": "quasi",
-    "YourRef": "rerum",
-    "Description": "Upgradable 5th generation budgetary management",
-    "DocumentTemplate": "dignissimos",
+    "DocumentId": 636,
+    "Attention": "veritatis",
+    "Header": "sequi",
+    "Name": "Gerlach-Conn",
+    "OurRef": "et",
+    "YourRef": "modi",
+    "Description": "Open-architected scalable time-frame",
+    "DocumentTemplate": "animi",
     "IsPublished": false,
-    "PersonId": 74,
-    "PersonFullName": "Tad Yundt",
-    "AssociateFullName": "Meaghan Reynolds Jr.",
-    "ContactId": 708,
-    "ContactName": "Kuhic LLC",
-    "ProjectId": 377,
-    "ProjectName": "Larkin Inc and Sons",
-    "AssociateId": 781,
-    "Snum": 210,
-    "SaleId": 233,
-    "SaleName": "Hills-Grady",
+    "PersonId": 112,
+    "PersonFullName": "Sincere Stark",
+    "AssociateFullName": "Mr. Elijah Marietta Kilback III",
+    "ContactId": 437,
+    "ContactName": "Leuschke Inc and Sons",
+    "ProjectId": 338,
+    "ProjectName": "Luettgen Inc and Sons",
+    "AssociateId": 176,
+    "Snum": 819,
+    "SaleId": 688,
+    "SaleName": "Miller, Hills and McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldLength": 454
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Find/DeleteRestrictionGroup
 
 Create a restriction group, initialized with next rank etc.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a restriction group, initialized with next rank etc.
 ```http
 POST /api/v1/Agents/Find/DeleteRestrictionGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/Find/DeleteRestrictionGroup?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, Rank, Context
+StorageType, ProviderName, StorageKey, Rank, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +50,8 @@ StorageType, ProviderName, StorageKey, Rank, Context
 | Rank | int32 |  |
 | Context | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -51,7 +59,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -59,15 +68,15 @@ Response body:
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "optio",
-  "ProviderName": "Brown-Altenwerth",
-  "StorageKey": "suscipit",
-  "Rank": 453,
-  "Context": "eaque"
+  "StorageType": "dolore",
+  "ProviderName": "Wintheiser-Barrows",
+  "StorageKey": "consectetur",
+  "Rank": 347,
+  "Context": "aut"
 }
 ```
 

@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveTicketCategoryEntity
 
 Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TicketCategoryEntity to be saved.
+The TicketCategoryEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,10 +53,12 @@ The TicketCategoryEntity to be saved.
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
 | DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
 | DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,6 +85,7 @@ Response body:
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
 | DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
 | DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -87,32 +97,33 @@ Response body:
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 962,
-  "ParentId": 6,
-  "Name": "Streich-Waters",
-  "Fullname": "vel",
-  "CategoryMaster": 509,
+  "TicketCategoryId": 388,
+  "ParentId": 559,
+  "Name": "Pouros LLC",
+  "Fullname": "architecto",
+  "CategoryMaster": 258,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Barton-McGlynn",
+  "ExternalName": "Jaskolski-Hand",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 1001,
-  "ReplyTemplate": 493,
-  "NotificationEmail": "giles@herzogpadberg.info",
+  "AssignmentLag": 605,
+  "ReplyTemplate": 865,
+  "NotificationEmail": "rocio@smith.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
+  "EffectiveReplyTemplateId": 512,
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "quam"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "sequi"
   }
 }
 ```
@@ -124,35 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 769,
-  "ParentId": 639,
-  "Name": "Lesch, Reynolds and Dare",
-  "Fullname": "inventore",
-  "CategoryMaster": 110,
+  "TicketCategoryId": 117,
+  "ParentId": 734,
+  "Name": "Ledner-Friesen",
+  "Fullname": "tempore",
+  "CategoryMaster": 277,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Dicki-Pacocha",
+  "ExternalName": "Bergnaum-Wuckert",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 915,
-  "ReplyTemplate": 249,
-  "NotificationEmail": "hannah@macejkovicbradtke.com",
+  "AssignmentLag": 360,
+  "ReplyTemplate": 556,
+  "NotificationEmail": "maurine@kunde.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
+  "EffectiveReplyTemplateId": 774,
   "ExtraFields": {
-    "ExtraFields1": "odit",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "dolorum"
+    "CustomFields1": "qui",
+    "CustomFields2": "quae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldType": "System.String",
+      "FieldLength": 156
     }
   }
 }

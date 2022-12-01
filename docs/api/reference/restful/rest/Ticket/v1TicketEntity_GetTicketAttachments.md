@@ -11,9 +11,16 @@ GET /api/v1/Ticket/{ticketEntityId}/Attachments
 
 Get attachment infos for all attachments connected to messages in specified ticket
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ticketEntityId | int32 | The id of the ticket to get attachment infos from **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Get attachment infos for all attachments connected to messages in specified tick
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -55,7 +63,7 @@ Response body: array
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -66,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 836,
-    "Name": "Oberbrunner, Ruecker and Stokes",
-    "ContentType": "laboriosam",
-    "AttSize": 825,
-    "InlineImage": true,
-    "ContentId": "ducimus",
+    "AttachmentId": 334,
+    "Name": "Adams Inc and Sons",
+    "ContentType": "voluptatem",
+    "AttSize": 230,
+    "InlineImage": false,
+    "ContentId": "iure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 159
+        "FieldType": "System.Int32",
+        "FieldLength": 835
       }
     }
   }

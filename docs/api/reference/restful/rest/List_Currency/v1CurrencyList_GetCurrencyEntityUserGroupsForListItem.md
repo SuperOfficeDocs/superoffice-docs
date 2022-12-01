@@ -11,11 +11,18 @@ GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 
 Gets user groups visible for the CurrencyEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Heidenreich Inc and Sons",
-    "ToolTip": "Cumque aspernatur incidunt beatae inventore.",
+    "Id": 48,
+    "Name": "Kris-Runolfsson",
+    "ToolTip": "Sint et veniam tenetur quo facere cumque est.",
     "Deleted": true,
-    "Rank": 559,
-    "Type": "recusandae",
-    "ColorBlock": 512,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "1999-04-04T11:10:54.2328956+02:00",
+    "Rank": 407,
+    "Type": "minus",
+    "ColorBlock": 392,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "1999-05-20T02:49:52.2034402+02:00",
     "ChildItems": [
       {
-        "Id": 165,
-        "Name": "Bogan LLC",
-        "ToolTip": "Molestiae velit consequatur nesciunt est.",
+        "Id": 363,
+        "Name": "Reichel-Berge",
+        "ToolTip": "Quos sunt pariatur cupiditate ex laboriosam neque ea.",
         "Deleted": false,
-        "Rank": 492,
-        "Type": "nobis",
-        "ColorBlock": 684,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2017-06-02T11:10:54.2328956+02:00",
+        "Rank": 521,
+        "Type": "ipsa",
+        "ColorBlock": 439,
+        "IconHint": "atque",
+        "Selected": false,
+        "LastChanged": "2020-10-23T02:49:52.2034402+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eius",
-        "Hidden": false,
-        "FullName": "Dashawn Kiehn",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "eum",
+        "Hidden": true,
+        "FullName": "Mr. Trinity Evans Daniel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 55
+            "FieldLength": 225
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "hic",
-    "Hidden": false,
-    "FullName": "Mr. Leslie Frida Lakin",
+    "ExtraInfo": "qui",
+    "StyleHint": "cupiditate",
+    "Hidden": true,
+    "FullName": "Shea Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldLength": 208
       }
     }
   }

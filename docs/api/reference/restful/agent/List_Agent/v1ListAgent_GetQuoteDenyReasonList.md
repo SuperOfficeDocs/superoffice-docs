@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetQuoteDenyReasonList
 
 Gets an array of QuoteDenyReason objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of QuoteDenyReason objects.
 ```http
 POST /api/v1/Agents/List/GetQuoteDenyReasonList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetQuoteDenyReasonList?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: quoteDenyReasonIds
+## Request Body: quoteDenyReasonIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -63,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetQuoteDenyReasonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Value": "consequatur",
-    "Tooltip": "vitae",
+    "Id": 23,
+    "Value": "fugit",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldLength": 954
       }
     }
   },
   {
-    "Id": 473,
-    "Value": "consequatur",
-    "Tooltip": "vitae",
+    "Id": 23,
+    "Value": "fugit",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldLength": 954
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveAllFromListName
 
 Save all list items for the specified list defintion
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save all list items for the specified list defintion
 ```http
 POST /api/v1/Agents/List/SaveAllFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/List/SaveAllFromListName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, Items
+UdListDefinitionName, Items 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionName | string |  |
 | Items | array |  |
+
 
 ## Response: array
 
@@ -71,27 +79,27 @@ Response body: array
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Streich, Leannon and Ritchie",
+  "UdListDefinitionName": "Collier Group",
   "Items": [
     {
-      "Id": 1001,
-      "Name": "Toy, Prohaska and Rosenbaum",
-      "Tooltip": "voluptatum",
-      "Deleted": false,
-      "UdListDefinitionId": 509,
-      "Rank": 758
+      "Id": 874,
+      "Name": "Fahey, Bartoletti and Leannon",
+      "Tooltip": "non",
+      "Deleted": true,
+      "UdListDefinitionId": 425,
+      "Rank": 620
     },
     {
-      "Id": 1001,
-      "Name": "Toy, Prohaska and Rosenbaum",
-      "Tooltip": "voluptatum",
-      "Deleted": false,
-      "UdListDefinitionId": 509,
-      "Rank": 758
+      "Id": 874,
+      "Name": "Fahey, Bartoletti and Leannon",
+      "Tooltip": "non",
+      "Deleted": true,
+      "UdListDefinitionId": 425,
+      "Rank": 620
     }
   ]
 }
@@ -105,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Von-Mayer",
-    "Tooltip": "nemo",
+    "Id": 394,
+    "Name": "Sanford, Fay and Stamm",
+    "Tooltip": "quas",
     "Deleted": false,
-    "UdListDefinitionId": 694,
-    "Rank": 770,
+    "UdListDefinitionId": 41,
+    "Rank": 891,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 524
+        "FieldLength": 919
       }
     }
   }

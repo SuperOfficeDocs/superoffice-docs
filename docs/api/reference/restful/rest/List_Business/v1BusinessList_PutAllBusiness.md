@@ -11,6 +11,13 @@ PUT /api/v1/List/Business/Items
 
 Update the Business list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the Business list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Business.
+All the updated Business. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated Business.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -70,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "Haley, Rempel and Tillman",
-    "Tooltip": "quod",
+    "Id": 537,
+    "Name": "Renner, Morar and Batz",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 208,
-    "Rank": 533
+    "UdListDefinitionId": 692,
+    "Rank": 289
   },
   {
-    "Id": 865,
-    "Name": "Haley, Rempel and Tillman",
-    "Tooltip": "quod",
+    "Id": 537,
+    "Name": "Renner, Morar and Batz",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 208,
-    "Rank": 533
+    "UdListDefinitionId": 692,
+    "Rank": 289
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 463,
-    "Name": "Brakus-Klocko",
-    "Tooltip": "itaque",
-    "Deleted": true,
-    "UdListDefinitionId": 558,
-    "Rank": 861,
+    "Id": 400,
+    "Name": "Jerde-Lang",
+    "Tooltip": "repudiandae",
+    "Deleted": false,
+    "UdListDefinitionId": 659,
+    "Rank": 86,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldLength": 594
       }
     }
   }

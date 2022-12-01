@@ -11,6 +11,13 @@ POST /api/v1/Agents/Quote/SaveQuoteAlternative
 
 Updates the existing QuoteAlternative or creates a new QuoteAlternative if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing QuoteAlternative or creates a new QuoteAlternative if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The QuoteAlternative to be saved.
+The QuoteAlternative to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +62,8 @@ The QuoteAlternative to be saved.
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -63,7 +71,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,29 +111,29 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 113,
-  "ERPQuoteAlternativeKey": "perferendis",
-  "QuoteVersionId": 358,
-  "Name": "Hartmann-O'Reilly",
-  "Description": "Sharable encompassing knowledge user",
+  "QuoteAlternativeId": 216,
+  "ERPQuoteAlternativeKey": "aut",
+  "QuoteVersionId": 396,
+  "Name": "Funk Group",
+  "Description": "Organized impactful intranet",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 30051.926,
-  "ERPDiscountAmount": 2065.306,
-  "DiscountPercent": 26121.89,
-  "DiscountAmount": 19863.291999999998,
+  "ERPDiscountPercent": 9192.021999999999,
+  "ERPDiscountAmount": 7107.9119999999994,
+  "DiscountPercent": 21583.858,
+  "DiscountAmount": 3550.8219999999997,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "esse",
-  "VAT": 28801.46,
-  "EarningPercent": 17133.577999999998,
-  "EarningAmount": 9828.224,
-  "SubTotal": 29168.138,
-  "TotalPrice": 18738.185999999998,
-  "ExtraField1": "qui",
-  "ExtraField2": "iure",
-  "ExtraField3": "qui",
-  "ExtraField4": "aliquid",
-  "ExtraField5": "blanditiis"
+  "VATInfo": "consectetur",
+  "VAT": 28641.626,
+  "EarningPercent": 17421.906,
+  "EarningAmount": 23442.32,
+  "SubTotal": 14946.046,
+  "TotalPrice": 25119.01,
+  "ExtraField1": "ullam",
+  "ExtraField2": "veniam",
+  "ExtraField3": "magnam",
+  "ExtraField4": "amet",
+  "ExtraField5": "rerum"
 }
 ```
 
@@ -136,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 87,
-  "ERPQuoteAlternativeKey": "quas",
-  "QuoteVersionId": 630,
-  "Name": "Crooks, Cartwright and Murphy",
-  "Description": "Function-based 24 hour internet solution",
+  "QuoteAlternativeId": 580,
+  "ERPQuoteAlternativeKey": "qui",
+  "QuoteVersionId": 637,
+  "Name": "Pouros, Pacocha and Mosciski",
+  "Description": "Organic bottom-line matrices",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 17352.958,
-  "ERPDiscountAmount": 24971.712,
-  "DiscountPercent": 4791.8859999999995,
-  "DiscountAmount": 28115.113999999998,
+  "ERPDiscountPercent": 27002.543999999998,
+  "ERPDiscountAmount": 13551.416,
+  "DiscountPercent": 23461.124,
+  "DiscountAmount": 567.254,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ea",
-  "VAT": 12332.289999999999,
-  "EarningPercent": 1968.152,
-  "EarningAmount": 23467.392,
-  "SubTotal": 15372.269999999999,
-  "TotalPrice": 21655.94,
-  "ExtraField1": "ipsa",
-  "ExtraField2": "ea",
-  "ExtraField3": "aut",
-  "ExtraField4": "saepe",
-  "ExtraField5": "est",
+  "VATInfo": "quis",
+  "VAT": 28572.678,
+  "EarningPercent": 19267.832,
+  "EarningAmount": 18641.032,
+  "SubTotal": 4212.096,
+  "TotalPrice": 14808.15,
+  "ExtraField1": "cumque",
+  "ExtraField2": "sequi",
+  "ExtraField3": "corrupti",
+  "ExtraField4": "qui",
+  "ExtraField5": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 943
     }
   }
 }

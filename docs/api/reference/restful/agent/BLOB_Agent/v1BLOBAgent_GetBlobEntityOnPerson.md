@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 
 Gets the blob entity that represents the person image binary object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the blob entity that represents the person image binary object.
 ```http
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,11 +85,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 339
+  "PersonId": 31
 }
 ```
 
@@ -92,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 881,
-  "BlobSize": 266,
-  "Description": "Quality-focused global projection",
-  "ExtraInfo": "debitis",
-  "IsEncrypted": true,
+  "BlobId": 277,
+  "BlobSize": 251,
+  "Description": "Profit-focused bottom-line strategy",
+  "ExtraInfo": "cupiditate",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "maxime",
-  "OriginalSize": 914,
-  "CreatedDate": "2007-12-26T11:10:26.0325532+01:00",
-  "UpdatedDate": "2006-03-20T11:10:26.0325532+01:00",
+  "MimeType": "in",
+  "OriginalSize": 266,
+  "CreatedDate": "2003-02-10T02:49:43.7160326+01:00",
+  "UpdatedDate": "2022-05-15T02:49:43.7160326+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "commodi",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldType": "System.Int32",
+      "FieldLength": 550
     }
   }
 }

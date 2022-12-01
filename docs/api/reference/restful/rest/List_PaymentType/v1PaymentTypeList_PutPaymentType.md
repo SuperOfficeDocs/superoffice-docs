@@ -11,9 +11,16 @@ PUT /api/v1/List/PaymentType/Items/{id}
 
 Updates an existing PaymentType list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of PaymentType to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing PaymentType list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of PaymentType list item to be saved.
+The details of PaymentType list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The details of PaymentType list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 421,
-  "Name": "Spinka Inc and Sons",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "UdListDefinitionId": 118,
-  "Rank": 912
+  "Id": 914,
+  "Name": "Abernathy, Moen and Gutkowski",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "UdListDefinitionId": 417,
+  "Rank": 393
 }
 ```
 
@@ -90,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 739,
-  "Name": "Mertz-Leannon",
-  "Tooltip": "similique",
+  "Id": 58,
+  "Name": "Connelly, McLaughlin and Smith",
+  "Tooltip": "ea",
   "Deleted": false,
-  "UdListDefinitionId": 653,
-  "Rank": 558,
+  "UdListDefinitionId": 851,
+  "Rank": 478,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldType": "System.Int32",
+      "FieldLength": 591
     }
   }
 }

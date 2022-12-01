@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/RejectQuoteVersion
 
 Rejects a quote version
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Rejects a quote version
 ```http
 POST /api/v1/Agents/Quote/RejectQuoteVersion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/RejectQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, RejectedByText, RejectedByAssociateId, RejectionText
+QuoteVersionId, RejectedByText, RejectedByAssociateId, RejectionText 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ QuoteVersionId, RejectedByText, RejectedByAssociateId, RejectionText
 | RejectedByAssociateId | int32 |  |
 | RejectionText | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,14 +77,14 @@ Response body:
 POST /api/v1/Agents/Quote/RejectQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 707,
-  "RejectedByText": "voluptatem",
-  "RejectedByAssociateId": 564,
-  "RejectionText": "pariatur"
+  "QuoteVersionId": 640,
+  "RejectedByText": "maxime",
+  "RejectedByAssociateId": 683,
+  "RejectionText": "id"
 }
 ```
 
@@ -88,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 196,
+  "CreatedAppointmentId": 370,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 988
     }
   }
 }

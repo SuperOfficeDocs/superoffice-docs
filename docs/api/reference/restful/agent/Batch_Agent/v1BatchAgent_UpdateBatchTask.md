@@ -11,7 +11,13 @@ POST /api/v1/Agents/Batch/UpdateBatchTask
 
 Update information about a BatchTask.
 
+
 Only the following properties can be updated: State, Description, Response and Request.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Only the following properties can be updated: State, Description, Response and R
 ```http
 POST /api/v1/Agents/Batch/UpdateBatchTask?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Batch/UpdateBatchTask?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-BatchTaskInfo
+BatchTaskInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | BatchTaskInfo |  | BatchTaskInfo contains information about one batch task. <para /> Carrier object for BatchTaskInfo. Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,7 +95,7 @@ Response body:
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,36 +110,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 87,
-  "Name": "Ullrich LLC",
-  "AssociateId": 113,
-  "DetailsTable": 989,
-  "DetailsRecord": 811,
-  "IsSystemTask": true,
+  "Id": 213,
+  "Name": "Rath Inc and Sons",
+  "AssociateId": 730,
+  "DetailsTable": 106,
+  "DetailsRecord": 304,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "mollitia",
-    "ParameterObject2": "vel"
+    "ParameterObject1": "maiores",
+    "ParameterObject2": "pariatur"
   },
-  "LastStarted": "2020-09-30T11:10:26.0195641+02:00",
-  "Created": "2016-12-27T11:10:26.0195641+01:00",
-  "StartCount": 578,
-  "DatabaseSerialNumber": "270592",
-  "Context": "molestiae",
-  "Result": "quia",
+  "LastStarted": "1997-05-06T02:49:43.7004017+02:00",
+  "Created": "2002-06-12T02:49:43.7004017+02:00",
+  "StartCount": 486,
+  "DatabaseSerialNumber": "894309",
+  "Context": "et",
+  "Result": "cumque",
   "State": "All",
-  "Description": "Streamlined multimedia secured line",
-  "Response": "velit",
-  "Request": "est",
-  "ProgressDescription": "Ergonomic uniform product",
-  "ProgressPercent": 31,
-  "FileName": "Champlin, Corkery and Mante",
+  "Description": "Team-oriented systematic capability",
+  "Response": "consequatur",
+  "Request": "laboriosam",
+  "ProgressDescription": "Open-architected non-volatile frame",
+  "ProgressPercent": 688,
+  "FileName": "Ullrich-Dach",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldType": "System.String",
+      "FieldLength": 35
     }
   }
 }

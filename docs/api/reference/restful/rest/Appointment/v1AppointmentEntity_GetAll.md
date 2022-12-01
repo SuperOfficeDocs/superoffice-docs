@@ -11,6 +11,7 @@ GET /api/v1/Appointment
 
 OData list of all AppointmentEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Appointment?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * Appointment?$top=1000
 * Appointment?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "FindAppointment" archive.
 
-## Filter Operators ##
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Appointment?$select=name,department,category/id
 GET /api/v1/Appointment?$filter=name begins 'S'
 GET /api/v1/Appointment?$orderBy=name asc
-GET /api/v1/Appointment?$entities=aperiam
-GET /api/v1/Appointment?$top=345
-GET /api/v1/Appointment?$skip=781
+GET /api/v1/Appointment?$entities=voluptates
+GET /api/v1/Appointment?$top=891
+GET /api/v1/Appointment?$skip=553
 GET /api/v1/Appointment?$mode=Full
 GET /api/v1/Appointment?$options=GrandTotal=true
-GET /api/v1/Appointment?$context=voluptates
+GET /api/v1/Appointment?$context=nobis
 GET /api/v1/Appointment?$format=JSON
 GET /api/v1/Appointment?$jsonSafe=False
 GET /api/v1/Appointment?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,7 +95,8 @@ GET /api/v1/Appointment?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -92,7 +104,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -117,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "facilis",
+  "odata.nextLink": "animi",
   "value": [
     {
-      "PrimaryKey": 2656,
+      "PrimaryKey": 2458,
       "EntityName": "person",
-      "personId": 2656,
-      "fullName": "Alfonzo Fisher"
+      "personId": 2458,
+      "fullName": "Leatha Kuhn DVM"
     },
     {
-      "PrimaryKey": 5412,
+      "PrimaryKey": 9780,
       "EntityName": "person",
-      "personId": 5412,
-      "fullName": "Audreanne Baumbach"
+      "personId": 9780,
+      "fullName": "Lydia Lindgren"
     }
   ]
 }

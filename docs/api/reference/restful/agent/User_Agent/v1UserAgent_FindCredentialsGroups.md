@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/FindCredentialsGroups
 
 Get user groups holding users filtered by the searchString.
 
+
 This method is only relevant if the CredentialType control is of type link.  There will allways be at least one groups even if the underlying provider does not support groups.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ This method is only relevant if the CredentialType control is of type link.  The
 ```http
 POST /api/v1/Agents/User/FindCredentialsGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,14 +47,15 @@ POST /api/v1/Agents/User/FindCredentialsGroups?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type, SearchString
+Type, SearchString 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 | SearchString | string |  |
+
 
 ## Response: array
 
@@ -71,12 +80,12 @@ Response body: array
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "ex",
-  "SearchString": "aperiam"
+  "Type": "quibusdam",
+  "SearchString": "autem"
 }
 ```
 
@@ -88,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Blick Inc and Sons",
-    "DisplayName": "Mayer-Hirthe",
+    "Name": "Ernser, Swift and Gottlieb",
+    "DisplayName": "Sipes, Runolfsson and Larkin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldLength": 279
       }
     }
   },
   {
-    "Name": "Blick Inc and Sons",
-    "DisplayName": "Mayer-Hirthe",
+    "Name": "Ernser, Swift and Gottlieb",
+    "DisplayName": "Sipes, Runolfsson and Larkin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldLength": 279
       }
     }
   }

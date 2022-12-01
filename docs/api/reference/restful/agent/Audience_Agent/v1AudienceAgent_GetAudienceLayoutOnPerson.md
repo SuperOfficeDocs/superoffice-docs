@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 
 Gets the Audience layout belonging to the person specified.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the Audience layout belonging to the person specified.
 ```http
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 142
+  "PersonId": 905
 }
 ```
 
@@ -86,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 790,
-  "InstanceLayout": "esse",
-  "InstanceName": "Block-Daugherty",
-  "CreatedDate": "2000-10-16T11:10:26.013553+02:00",
-  "UpdatedDate": "2011-04-23T11:10:26.013553+02:00",
+  "AudienceLayoutId": 972,
+  "InstanceLayout": "culpa",
+  "InstanceName": "Turner, Hand and Boehm",
+  "CreatedDate": "2007-03-14T02:49:43.7004017+01:00",
+  "UpdatedDate": "2017-12-27T02:49:43.7004017+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetCountries
 
 Returns all available countries a contact or person could belong to.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all available countries a contact or person could belong to.
 ```http
 POST /api/v1/Agents/List/GetCountries?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/List/GetCountries?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -73,7 +81,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 881,
-    "Name": "Ruecker-Osinski",
-    "CurrencyId": 308,
-    "EnglishName": "Schoen-Rosenbaum",
+    "CountryId": 831,
+    "Name": "Simonis, Emard and Walter",
+    "CurrencyId": 119,
+    "EnglishName": "Swaniawski, Hodkiewicz and Armstrong",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Proactive exuding migration",
-    "OrgNrText": "1687254",
-    "InterAreaPrefix": "autem",
-    "DialInPrefix": "error",
-    "ZipPrefix": "earum",
-    "DomainName": "Farrell-Bednar",
-    "AddressLayoutId": 561,
-    "DomesticAddressLayoutId": 109,
-    "ForeignAddressLayoutId": 699,
-    "Rank": 128,
-    "Tooltip": "qui",
+    "ImageDescription": "Enhanced system-worthy help-desk",
+    "OrgNrText": "1045906",
+    "InterAreaPrefix": "unde",
+    "DialInPrefix": "qui",
+    "ZipPrefix": "qui",
+    "DomainName": "Watsica, Bednar and Rau",
+    "AddressLayoutId": 465,
+    "DomesticAddressLayoutId": 762,
+    "ForeignAddressLayoutId": 528,
+    "Rank": 413,
+    "Tooltip": "id",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldLength": 253
       }
     }
   }

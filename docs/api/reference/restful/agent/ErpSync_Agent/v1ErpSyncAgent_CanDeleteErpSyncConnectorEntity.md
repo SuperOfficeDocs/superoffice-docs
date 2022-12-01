@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/CanDeleteErpSyncConnectorEntity
 
 Can we delete the connector?
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Can we delete the connector?
 ```http
 POST /api/v1/Agents/ErpSync/CanDeleteErpSyncConnectorEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/ErpSync/CanDeleteErpSyncConnectorEntity?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpSyncConnectorId
+ErpSyncConnectorId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpSyncConnectorId | int32 |  |
+
 
 ## Response: string
 
@@ -55,17 +65,18 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/CanDeleteErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectorId": 460
+  "ErpSyncConnectorId": 819
 }
 ```
 

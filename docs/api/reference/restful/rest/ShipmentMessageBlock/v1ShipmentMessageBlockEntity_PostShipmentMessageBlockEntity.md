@@ -11,7 +11,13 @@ POST /api/v1/ShipmentMessageBlock
 
 Creates a new ShipmentMessageBlockEntity
 
+
 Calls the Marketing agent service SaveShipmentMessageBlockEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Marketing agent service SaveShipmentMessageBlockEntity.
 ```http
 POST /api/v1/ShipmentMessageBlock?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/ShipmentMessageBlock?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ShipmentMessageBlockEntity to be saved.
+The ShipmentMessageBlockEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,8 @@ The ShipmentMessageBlockEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -60,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,14 +94,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 222,
-  "AssociateId": 16,
-  "Block": "aut",
-  "Registered": "2014-10-11T11:10:53.5211742+02:00",
-  "RegisteredAssociateId": 800,
-  "Updated": "2008-07-29T11:10:53.5211742+02:00",
-  "UpdatedAssociateId": 483,
-  "UpdatedCount": 802
+  "ShipmentMessageBlockId": 652,
+  "AssociateId": 489,
+  "Block": "ea",
+  "Registered": "2008-01-25T02:49:51.536309+01:00",
+  "RegisteredAssociateId": 284,
+  "Updated": "2021-05-20T02:49:51.536309+02:00",
+  "UpdatedAssociateId": 637,
+  "UpdatedCount": 743
 }
 ```
 
@@ -104,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 730,
-  "AssociateId": 953,
-  "Block": "neque",
-  "Registered": "2015-10-31T11:10:53.5211742+01:00",
-  "RegisteredAssociateId": 387,
-  "Updated": "2012-04-28T11:10:53.5211742+02:00",
-  "UpdatedAssociateId": 1002,
-  "UpdatedCount": 71,
+  "ShipmentMessageBlockId": 871,
+  "AssociateId": 345,
+  "Block": "accusamus",
+  "Registered": "2001-09-14T02:49:51.536309+02:00",
+  "RegisteredAssociateId": 147,
+  "Updated": "2011-02-24T02:49:51.536309+01:00",
+  "UpdatedAssociateId": 725,
+  "UpdatedCount": 593,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 205
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   },
   "_Links": {

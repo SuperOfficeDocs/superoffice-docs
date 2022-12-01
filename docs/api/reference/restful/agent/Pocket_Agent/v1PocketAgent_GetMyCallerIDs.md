@@ -11,6 +11,12 @@ POST /api/v1/Agents/Pocket/GetMyCallerIDs
 
 Get caller ids that the current principal might be interested in (phone numbers of related persons in sales and appointments created/owned/touched by ourselves or colleagues in our primary group
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get caller ids that the current principal might be interested in (phone numbers 
 ```http
 POST /api/v1/Agents/Pocket/GetMyCallerIDs?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Pocket/GetMyCallerIDs?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LastHash, MinDate, MaxDate
+LastHash, MinDate, MaxDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ LastHash, MinDate, MaxDate
 | MinDate | date-time |  |
 | MaxDate | date-time |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,13 +74,13 @@ Response body:
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "et",
-  "MinDate": "2011-04-21T11:10:27.5314525+02:00",
-  "MaxDate": "2006-10-01T11:10:27.5314525+02:00"
+  "LastHash": "voluptatibus",
+  "MinDate": "2001-11-18T02:49:44.9059621+01:00",
+  "MaxDate": "2019-10-12T02:49:44.9059621+02:00"
 }
 ```
 
@@ -83,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "vel",
+  "CallerIDHash": "officia",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 984,
-      "PersonId": 460,
-      "PersonName": "Okuneva Inc and Sons",
-      "Mrmrs": "molestiae",
-      "ContactId": 712,
-      "ContactName": "Rodriguez, Rowe and Reynolds"
+      "DialInPrefix": 382,
+      "PersonId": 305,
+      "PersonName": "Murray LLC",
+      "Mrmrs": "natus",
+      "ContactId": 38,
+      "ContactName": "White, Weissnat and Hilll"
     }
   ]
 }

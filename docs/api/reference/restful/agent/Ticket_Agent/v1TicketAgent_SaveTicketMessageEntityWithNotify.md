@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 
 Saves a ticket message and performs any user notifications
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a ticket message and performs any user notifications
 ```http
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-NewEntity, Notify
+NewEntity, Notify 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | NewEntity |  | The ticket messages are e-mails, SMS or other messages attached to a ticket (aka request). <para /> Carrier object for TicketMessageEntity. Services for the TicketMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
 | Notify | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +97,7 @@ Response body:
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,27 +113,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 185,
+  "EjMessageId": 735,
   "Ticket": null,
-  "CreatedAt": "2002-05-14T11:10:28.3172073+02:00",
+  "CreatedAt": "2000-05-07T02:49:45.5934707+02:00",
   "CreatedBy": null,
-  "Author": "beatae",
+  "Author": "possimus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "alias",
-  "TimeSpent": 85,
-  "Body": "velit",
-  "HtmlBody": "iste",
-  "EmailHeader": "carolyn.bergnaum@goyettecorkery.name",
-  "DebugInfo": "sint",
-  "MailSorter": "eum",
+  "MessageId": "sed",
+  "TimeSpent": 290,
+  "Body": "vero",
+  "HtmlBody": "magni",
+  "EmailHeader": "tillman_reichert@bodereichert.co.uk",
+  "DebugInfo": "non",
+  "MailSorter": "suscipit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quisquam",
+  "SearchTitle": "ducimus",
   "MessageHeaders": [
     {
-      "Name": "Beatty, Green and Powlowski",
-      "Value": "laboriosam",
+      "Id": 630,
+      "Name": "Effertz, Schaden and Gutkowski",
+      "Value": "modi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -133,43 +142,29 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 681
-        }
-      }
-    },
-    {
-      "Name": "Beatty, Green and Powlowski",
-      "Value": "laboriosam",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 681
+          "FieldLength": 358
         }
       }
     }
   ],
   "Important": false,
-  "Language": "molestiae",
-  "Sentiment": 618,
-  "SentimentConfidence": 440,
+  "Language": "libero",
+  "Sentiment": 593,
+  "SentimentConfidence": 741,
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
+    "ExtraFields1": "hic",
     "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "doloremque",
-    "CustomFields2": "dolores"
+    "CustomFields1": "ratione",
+    "CustomFields2": "nobis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldLength": 53
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetAppointmentList
 
 Gets an array of Appointment objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Appointment objects.
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/Appointment/GetAppointmentList?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: appointmentIds
+## Request Body: appointmentIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -120,53 +129,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 194,
-    "StartDate": "2006-11-13T11:10:25.7385524+01:00",
-    "EndDate": "2012-12-05T11:10:25.7385524+01:00",
+    "AppointmentId": 371,
+    "StartDate": "2016-07-03T02:49:43.4972799+02:00",
+    "EndDate": "2000-10-14T02:49:43.4972799+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quos",
-    "AssociateFullName": "Coby Paucek",
-    "ContactName": "Schowalter-Pfannerstill",
-    "Description": "Operative leading edge methodology",
-    "PersonFullName": "Ms. Monique Hilll",
-    "PersonId": 434,
-    "ContactId": 729,
-    "ProjectId": 143,
-    "ProjectName": "Raynor-O'Conner",
-    "IsPublished": false,
-    "AssociateId": 647,
-    "ColorIndex": 875,
+    "Task": "non",
+    "AssociateFullName": "Mr. Cale Lind DDS",
+    "ContactName": "Kreiger, Kunde and Labadie",
+    "Description": "Adaptive didactic knowledge user",
+    "PersonFullName": "Jo Carroll",
+    "PersonId": 789,
+    "ContactId": 941,
+    "ProjectId": 370,
+    "ProjectName": "Kulas Group",
+    "IsPublished": true,
+    "AssociateId": 297,
+    "ColorIndex": 884,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 769,
-    "PriorityName": "Jaskolski, Bogisich and Lockman",
+    "PriorityId": 943,
+    "PriorityName": "Prohaska, Bogisich and Lowe",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2015-05-25T11:10:25.7385524+02:00",
+    "ActiveDate": "2007-08-09T02:49:43.4972799+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-06-20T11:10:25.7385524+02:00",
-    "RecurringEndDate": "2021-04-11T11:10:25.7385524+02:00",
-    "MotherId": 548,
-    "AssignedBy": 920,
-    "AssignedByFullName": "Gordon Dare",
+    "RecurringStartDate": "2020-02-16T02:49:43.4972799+01:00",
+    "RecurringEndDate": "2000-01-10T02:49:43.4972799+01:00",
+    "MotherId": 166,
+    "AssignedBy": 992,
+    "AssignedByFullName": "Mrs. Gregoria Willow Marks DVM",
     "RejectReason": "",
-    "Location": "velit",
-    "AlarmLeadTime": "ex",
-    "SaleId": 851,
-    "SaleName": "Dietrich Inc and Sons",
-    "AssociateName": "Smith, Christiansen and Boyle",
-    "CreatedDate": "1999-10-10T11:10:25.7385524+02:00",
-    "CreatedBy": "blanditiis",
-    "CreatedByFullName": "Leonel Hoeger",
-    "CreatedByAssociateId": 874,
+    "Location": "rerum",
+    "AlarmLeadTime": "aut",
+    "SaleId": 159,
+    "SaleName": "Sipes-Kirlin",
+    "AssociateName": "Hills Group",
+    "CreatedDate": "1995-10-04T02:49:43.4972799+02:00",
+    "CreatedBy": "autem",
+    "CreatedByFullName": "Will Jamel Shanahan III",
+    "CreatedByAssociateId": 386,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -174,7 +183,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 448
       }
     }
   }

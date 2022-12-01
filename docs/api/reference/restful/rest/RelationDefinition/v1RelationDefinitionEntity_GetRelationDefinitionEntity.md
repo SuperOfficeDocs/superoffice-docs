@@ -11,11 +11,17 @@ GET /api/v1/RelationDefinition/{id}
 
 Gets a RelationDefinitionEntity object.
 
+
 Calls the List agent service GetRelationDefinitionEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the RelationDefinitionEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetRelationDefinitionEntity.
 ```http
 GET /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 RelationDefinitionEntity found.
 
@@ -49,7 +57,7 @@ RelationDefinitionEntity found.
 | 200 | RelationDefinitionEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +79,7 @@ Response body:
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,12 +89,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 687,
-  "Name": "Jacobson-Tromp",
-  "Tooltip": "doloribus",
-  "PassiveText": "est",
-  "Deleted": false,
-  "Rank": 540,
+  "ReldefId": 817,
+  "Name": "Schowalter, Hilll and Kulas",
+  "Tooltip": "debitis",
+  "PassiveText": "quaerat",
+  "Deleted": true,
+  "Rank": 703,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -94,12 +102,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldLength": 424
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

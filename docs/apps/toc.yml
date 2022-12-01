@@ -49,7 +49,7 @@ items:
       - name: Developer registration form
         href: getting-started/developer-registration-form.md
       - name: Application registration
-        href: getting-started/get-app-keys.md
+        href: ../developer-portal/create-app/index.md
     - name: What API to use?
       href: getting-started/what-api-to-use.md
     - name: Tutorials

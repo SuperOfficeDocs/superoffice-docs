@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetVisibleForUserGroups
 
 List of User groups that this list item is visible for
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ List of User groups that this list item is visible for
 ```http
 POST /api/v1/Agents/List/GetVisibleForUserGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/List/GetVisibleForUserGroups?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, ListItemId
+UdListDefinitionId, ListItemId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | ListItemId | int32 |  |
+
 
 ## Response: array
 
@@ -80,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 58,
-  "ListItemId": 658
+  "UdListDefinitionId": 137,
+  "ListItemId": 943
 }
 ```
 
@@ -97,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 219,
-    "Name": "Balistreri-Fahey",
-    "ToolTip": "Voluptatibus exercitationem rerum.",
-    "Deleted": false,
-    "Rank": 104,
-    "Type": "excepturi",
-    "ColorBlock": 378,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2018-06-11T11:10:27.162453+02:00",
+    "Id": 734,
+    "Name": "Roberts Inc and Sons",
+    "ToolTip": "Excepturi minima vitae nulla sed voluptatum ex.",
+    "Deleted": true,
+    "Rank": 929,
+    "Type": "quod",
+    "ColorBlock": 260,
+    "IconHint": "cum",
+    "Selected": false,
+    "LastChanged": "2006-01-23T02:49:44.6079219+01:00",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "Cummerata Group",
-        "ToolTip": "Minima velit.",
+        "Id": 309,
+        "Name": "Brown-Hermann",
+        "ToolTip": "Quasi quaerat velit est consectetur et.",
         "Deleted": false,
-        "Rank": 194,
-        "Type": "doloremque",
-        "ColorBlock": 279,
-        "IconHint": "voluptas",
+        "Rank": 68,
+        "Type": "itaque",
+        "ColorBlock": 573,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2001-09-06T11:10:27.162453+02:00",
+        "LastChanged": "2012-09-11T02:49:44.6079219+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Henry Reilly",
+        "ExtraInfo": "tempore",
+        "StyleHint": "assumenda",
+        "Hidden": false,
+        "FullName": "Kimberly Oda Cruickshank Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 41
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "in",
+    "ExtraInfo": "quod",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Mr. Isidro Jaskolski Sr.",
+    "FullName": "Nasir Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 25
+        "FieldLength": 19
       }
     }
   }

@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 
 Set default values into a new EMailSOInfo.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 957,
-  "AppointmentId": 848,
-  "ProjectId": 744,
-  "SaleId": 944,
+  "DocumentId": 334,
+  "AppointmentId": 514,
+  "ProjectId": 438,
+  "SaleId": 737,
   "Archived": true,
-  "ArchivedAt": "2018-03-29T11:10:26.8994524+02:00",
-  "ArchivedBy": 237,
-  "ArchivedDisplayName": "Hammes LLC",
+  "ArchivedAt": "2018-02-15T02:49:44.403542+01:00",
+  "ArchivedBy": 752,
+  "ArchivedDisplayName": "Tillman-McClure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldType": "System.String",
+      "FieldLength": 96
     }
   }
 }

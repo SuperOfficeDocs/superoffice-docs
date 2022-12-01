@@ -11,9 +11,16 @@ GET /api/v1/Selection/{selectionId}/Criteria
 
 Get the criteria for this dynamic selection.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The id of the selection to add members **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Get the criteria for this dynamic selection.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -57,7 +65,7 @@ Response body: array
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,44 +76,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ullrich-Bernhard",
-    "Operator": "beatae",
+    "Name": "Leannon Inc and Sons",
+    "Operator": "nulla",
     "Values": [
-      "quam",
-      "aliquam"
+      "ut",
+      "sit"
     ],
     "DisplayValues": [
-      "hic",
-      "sequi"
+      "aliquid",
+      "animi"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schowalter, Cremin and Olson",
-        "Operator": "recusandae",
+        "Name": "Blick LLC",
+        "Operator": "eius",
         "Values": [
-          "impedit",
-          "officia"
+          "vero",
+          "dolores"
         ],
         "DisplayValues": [
-          "quia",
-          "qui"
+          "eaque",
+          "provident"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 792,
+        "InterParenthesis": 826,
         "InterOperator": "And",
-        "UniqueHash": 849
+        "UniqueHash": 348
       }
     ],
-    "InterParenthesis": 575,
+    "InterParenthesis": 573,
     "InterOperator": "And",
-    "UniqueHash": 675
+    "UniqueHash": 335
   }
 ]
 ```

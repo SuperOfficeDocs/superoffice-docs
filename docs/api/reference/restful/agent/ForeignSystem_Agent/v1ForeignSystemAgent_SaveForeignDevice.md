@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 
 Saves a foreign device for an foreign application
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a foreign device for an foreign application
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignDevice?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ForeignDevice, ApplicationName
+ForeignDevice, ApplicationName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <para /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
 | ApplicationName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Breitenberg-Turcotte"
+  "ApplicationName": "Skiles Inc and Sons"
 }
 ```
 
@@ -90,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 566,
-  "Name": "Schimmel-Simonis",
-  "CreatedDate": "2011-10-01T11:10:27.0904592+02:00",
-  "UpdatedDate": "2010-04-10T11:10:27.0904592+02:00",
-  "AssociateFullName": "Mr. Maxine Konopelski",
-  "CreatedBy": "sapiente",
-  "UpdatedBy": "dicta",
-  "DeviceIdentifier": "assumenda",
-  "ForeignAppId": 298,
+  "ForeignDeviceId": 161,
+  "Name": "Aufderhar, Dickinson and Durgan",
+  "CreatedDate": "2014-06-12T02:49:44.561046+02:00",
+  "UpdatedDate": "2021-03-21T02:49:44.561046+01:00",
+  "AssociateFullName": "Bernadine Cummings",
+  "CreatedBy": "atque",
+  "UpdatedBy": "praesentium",
+  "DeviceIdentifier": "in",
+  "ForeignAppId": 423,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldLength": 686
     }
   }
 }

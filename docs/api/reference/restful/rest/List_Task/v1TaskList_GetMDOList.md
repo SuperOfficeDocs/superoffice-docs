@@ -11,6 +11,12 @@ GET /api/v1/List/Task/MDOItems
 
 Get the MDO list items for "Task" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=accusantium
+GET /api/v1/List/Task/MDOItems?flat=True
+GET /api/v1/List/Task/MDOItems?query=at
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Task/MDOItems?query=accusantium
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Labadie Inc and Sons",
-    "ToolTip": "Nesciunt animi.",
-    "Deleted": false,
-    "Rank": 345,
-    "Type": "voluptatem",
+    "Id": 847,
+    "Name": "Kuvalis, Blick and White",
+    "ToolTip": "Quo ut.",
+    "Deleted": true,
+    "Rank": 657,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 862,
-        "Name": "Towne-Hayes",
-        "ToolTip": "Eius eius.",
+        "Id": 684,
+        "Name": "Lueilwitz Group",
+        "ToolTip": "Odit nesciunt animi omnis sint.",
         "Deleted": false,
-        "Rank": 222,
-        "Type": "inventore",
+        "Rank": 756,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 166,
-        "ExtraInfo": "modi",
-        "StyleHint": "quos",
-        "FullName": "Danika DuBuque",
+        "IconHint": "voluptatem",
+        "ColorBlock": 770,
+        "ExtraInfo": "rerum",
+        "StyleHint": "aliquid",
+        "FullName": "Reanna Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldLength": 655
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 752,
-    "ExtraInfo": "nihil",
-    "StyleHint": "numquam",
-    "FullName": "Daphne Zboncak",
+    "IconHint": "tempora",
+    "ColorBlock": 845,
+    "ExtraInfo": "est",
+    "StyleHint": "aut",
+    "FullName": "Alena Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldLength": 953
       }
     }
   }

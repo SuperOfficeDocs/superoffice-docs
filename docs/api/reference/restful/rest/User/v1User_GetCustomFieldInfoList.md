@@ -11,7 +11,14 @@ GET /api/v1/User/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on User.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Excludes standard fields.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -58,7 +66,7 @@ Response body: array
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bins Group",
-    "DisplayName": "Hand, Hand and Denesik",
-    "Description": "Organic needs-based concept",
-    "ShortLabel": "commodi",
+    "FieldName": "Kshlerin, Jerde and Harris",
+    "DisplayName": "Kuhic-Mosciski",
+    "Description": "Upgradable global customer loyalty",
+    "ShortLabel": "dolores",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsMandatory": true,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 760,
-    "TemplateVariableName": "Schowalter Group"
+    "Rank": 925,
+    "TemplateVariableName": "Skiles, Bins and Altenwerth"
   }
 ]
 ```

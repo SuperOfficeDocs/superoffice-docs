@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetAppointmentDocuments
 
 Get all documents that are linked to the appointment.
 
+
 I.e. the documents that are listed in the appointment dialog.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ I.e. the documents that are listed in the appointment dialog.
 ```http
 POST /api/v1/Agents/Document/GetAppointmentDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Document/GetAppointmentDocuments?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentId
+AppointmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
+
 
 ## Response: array
 
@@ -90,7 +98,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 176
+  "AppointmentId": 825
 }
 ```
 
@@ -102,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 574,
-    "Attention": "harum",
-    "Header": "delectus",
-    "Name": "Auer LLC",
-    "OurRef": "ipsa",
-    "YourRef": "dolores",
-    "Description": "Managed multi-tasking standardization",
-    "DocumentTemplate": "atque",
+    "DocumentId": 849,
+    "Attention": "quia",
+    "Header": "doloremque",
+    "Name": "Langosh LLC",
+    "OurRef": "aut",
+    "YourRef": "hic",
+    "Description": "Ergonomic transitional customer loyalty",
+    "DocumentTemplate": "distinctio",
     "IsPublished": false,
-    "PersonId": 736,
-    "PersonFullName": "Lilliana Koss",
-    "AssociateFullName": "Julian Considine",
-    "ContactId": 655,
-    "ContactName": "Bradtke, Wisoky and King",
-    "ProjectId": 35,
-    "ProjectName": "Kunde LLC",
-    "AssociateId": 992,
-    "Snum": 68,
-    "SaleId": 446,
-    "SaleName": "Willms-Prohaska",
+    "PersonId": 857,
+    "PersonFullName": "Reta Heller",
+    "AssociateFullName": "Hope Robel",
+    "ContactId": 994,
+    "ContactName": "Murray, Keeling and Schowalter",
+    "ProjectId": 886,
+    "ProjectName": "Bruen Group",
+    "AssociateId": 834,
+    "Snum": 911,
+    "SaleId": 547,
+    "SaleName": "Roob Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 106
+        "FieldLength": 561
       }
     }
   }

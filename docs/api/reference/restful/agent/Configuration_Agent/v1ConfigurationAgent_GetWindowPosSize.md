@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetWindowPosSize
 
 Gets a WindowPosSize object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a WindowPosSize object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=943
+POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=543
 POST /api/v1/Agents/Configuration/GetWindowPosSize?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Configuration/GetWindowPosSize?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +76,7 @@ Response body:
 POST /api/v1/Agents/Configuration/GetWindowPosSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,23 +86,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "labore",
-  "PersonId": 585,
-  "AssociateId": 408,
-  "ExtraId": 298,
-  "ExtraInfo": "non",
-  "Height": 567,
-  "LeftX": 709,
+  "OwnerWindow": "fuga",
+  "PersonId": 728,
+  "AssociateId": 772,
+  "ExtraId": 175,
+  "ExtraInfo": "quibusdam",
+  "Height": 251,
+  "LeftX": 267,
   "State": "Maximized",
-  "UpperY": 240,
-  "Width": 291,
-  "WindowPosSizeId": 131,
+  "UpperY": 329,
+  "Width": 104,
+  "WindowPosSizeId": 121,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 999
     }
   }
 }

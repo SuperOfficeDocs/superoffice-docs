@@ -11,6 +11,13 @@ POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 
 Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppointmentEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppoin
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SuggestedAppointmentEntity to be saved.
+The SuggestedAppointmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ The SuggestedAppointmentEntity to be saved.
 | SaleTypeStageLink |  | Sale type and stage link info |
 | Type |  | Type of the suggested appointment |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,17 +93,17 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 930,
-  "Name": "Daniel-Goldner",
-  "Tooltip": "expedita",
-  "Rank": 195,
+  "SuggestedAppointmentId": 936,
+  "Name": "Jerde-Cole",
+  "Tooltip": "qui",
+  "Rank": 199,
   "Deleted": false,
-  "DaysFuture": 888,
-  "Duration": "eos",
-  "AutoSuggest": false,
+  "DaysFuture": 898,
+  "Duration": "ex",
+  "AutoSuggest": true,
   "IsMilestone": false,
   "AssignToMember": true,
-  "Text": "eius",
+  "Text": "quasi",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -109,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 724,
-  "Name": "Oberbrunner-Yundt",
-  "Tooltip": "qui",
-  "Rank": 781,
-  "Deleted": false,
-  "DaysFuture": 349,
-  "Duration": "corporis",
+  "SuggestedAppointmentId": 567,
+  "Name": "Little, Cummerata and Leuschke",
+  "Tooltip": "est",
+  "Rank": 753,
+  "Deleted": true,
+  "DaysFuture": 918,
+  "Duration": "odit",
   "AutoSuggest": false,
   "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "quam",
+  "AssignToMember": true,
+  "Text": "corporis",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -127,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 779
+      "FieldType": "System.Int32",
+      "FieldLength": 113
     }
   }
 }

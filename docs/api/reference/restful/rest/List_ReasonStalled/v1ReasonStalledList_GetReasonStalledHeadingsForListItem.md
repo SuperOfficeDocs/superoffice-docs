@@ -11,11 +11,17 @@ GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 
 Gets headings for the ReasonStalled list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Hegmann-Kreiger",
-    "ToolTip": "Sit ut illum reprehenderit corporis.",
+    "Id": 27,
+    "Name": "Kuphal, Vandervort and Beahan",
+    "ToolTip": "Atque ex officia dolorem molestiae exercitationem.",
     "Deleted": true,
-    "Rank": 650,
-    "Type": "ullam",
-    "ColorBlock": 924,
-    "IconHint": "quod",
-    "Selected": true,
-    "LastChanged": "2020-06-04T11:10:54.5889395+02:00",
+    "Rank": 232,
+    "Type": "asperiores",
+    "ColorBlock": 580,
+    "IconHint": "saepe",
+    "Selected": false,
+    "LastChanged": "2008-01-07T02:49:52.5003264+01:00",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "Hoeger, Wilkinson and Grant",
-        "ToolTip": "Sint reprehenderit est aut natus eaque repellendus excepturi.",
+        "Id": 964,
+        "Name": "Crooks, Volkman and Weimann",
+        "ToolTip": "Molestiae ipsa.",
         "Deleted": false,
-        "Rank": 737,
-        "Type": "iure",
-        "ColorBlock": 248,
-        "IconHint": "vel",
+        "Rank": 638,
+        "Type": "doloribus",
+        "ColorBlock": 411,
+        "IconHint": "cumque",
         "Selected": false,
-        "LastChanged": "2020-06-10T11:10:54.5889395+02:00",
+        "LastChanged": "2011-10-20T02:49:52.5003264+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "sed",
+        "StyleHint": "deserunt",
         "Hidden": true,
-        "FullName": "Khalid Vandervort",
+        "FullName": "Kiara Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 594
+            "FieldType": "System.Int32",
+            "FieldLength": 504
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "et",
+    "ExtraInfo": "laborum",
+    "StyleHint": "dicta",
     "Hidden": false,
-    "FullName": "Mr. Marcus Meghan Lebsack",
+    "FullName": "Greg Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 338
+        "FieldType": "System.String",
+        "FieldLength": 420
       }
     }
   }

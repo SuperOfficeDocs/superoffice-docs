@@ -11,11 +11,18 @@ PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 
 Updates a ForeignDevice with deviceName that belongs to the application with applicationName.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | Unique id of device (Palm pilot device ID, version number, etc) **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Updates a ForeignDevice with deviceName that belongs to the application with app
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: foreignDevice
+## Request Body: foreignDevice  
 
-Foreign device to save. Can be null if adding new device.
+Foreign device to save. Can be null if adding new device. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ Foreign device to save. Can be null if adding new device.
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 648,
-  "Name": "Kiehn-Kling",
-  "CreatedDate": "2019-08-02T11:10:52.9031791+02:00",
-  "UpdatedDate": "2002-05-14T11:10:52.9031791+02:00",
-  "AssociateFullName": "Marge Abbott",
-  "CreatedBy": "iste",
-  "UpdatedBy": "dolorum",
-  "DeviceIdentifier": "quae",
-  "ForeignAppId": 234
+  "ForeignDeviceId": 402,
+  "Name": "Bergstrom Inc and Sons",
+  "CreatedDate": "2004-02-25T02:49:50.9952888+01:00",
+  "UpdatedDate": "1996-02-08T02:49:50.9952888+01:00",
+  "AssociateFullName": "Melyna Williamson V",
+  "CreatedBy": "aliquid",
+  "UpdatedBy": "dolore",
+  "DeviceIdentifier": "voluptates",
+  "ForeignAppId": 715
 }
 ```
 
@@ -100,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 5,
-  "Name": "Zieme Group",
-  "CreatedDate": "1999-10-27T11:10:52.9041796+02:00",
-  "UpdatedDate": "2012-04-10T11:10:52.9041796+02:00",
-  "AssociateFullName": "Roosevelt Windler IV",
-  "CreatedBy": "voluptatem",
-  "UpdatedBy": "sit",
-  "DeviceIdentifier": "voluptatem",
-  "ForeignAppId": 770,
+  "ForeignDeviceId": 719,
+  "Name": "Bailey Inc and Sons",
+  "CreatedDate": "2019-02-08T02:49:50.9952888+01:00",
+  "UpdatedDate": "2018-10-06T02:49:50.9952888+02:00",
+  "AssociateFullName": "Dee Greenholt",
+  "CreatedBy": "deserunt",
+  "UpdatedBy": "hic",
+  "DeviceIdentifier": "voluptas",
+  "ForeignAppId": 234,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 636
+      "FieldType": "System.Int32",
+      "FieldLength": 346
     }
   }
 }

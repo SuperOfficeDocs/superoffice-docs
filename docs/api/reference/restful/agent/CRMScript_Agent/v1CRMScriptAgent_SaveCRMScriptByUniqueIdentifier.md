@@ -11,7 +11,15 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 
 Create or Update the CRMScript information
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Create or Update the CRMScript information
 ```http
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,17 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UniqueIdentifier, CRMScript
+UniqueIdentifier, Crmscript 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UniqueIdentifier | string |  |
-| CRMScript |  | The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration. <para /> Carrier object for Script. Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
+| Crmscript |  | The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration. <para /> Carrier object for Script. Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,11 +87,11 @@ Response body:
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "qui",
+  "UniqueIdentifier": "corrupti",
   "Crmscript": null
 }
 ```
@@ -93,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "excepturi",
-  "Name": "Pagac LLC",
-  "Description": "Decentralized mobile attitude",
-  "IncludeId": "quisquam",
-  "Source": "numquam",
-  "Registered": "2016-12-10T11:10:26.3814585+01:00",
-  "RegisteredBy": "iste",
-  "Updated": "2020-01-28T11:10:26.3814585+01:00",
-  "UpdatedBy": "eum",
-  "Path": "dolore",
+  "UniqueIdentifier": "facere",
+  "Name": "Feest, Ward and Dach",
+  "Description": "Cross-platform contextually-based hierarchy",
+  "IncludeId": "assumenda",
+  "Source": "perferendis",
+  "Registered": "2011-01-20T02:49:44.0129044+01:00",
+  "RegisteredBy": "natus",
+  "Updated": "2011-05-09T02:49:44.0129044+02:00",
+  "UpdatedBy": "vel",
+  "Path": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldType": "System.String",
+      "FieldLength": 175
     }
   }
 }

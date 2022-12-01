@@ -11,7 +11,14 @@ POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 
 Set default values into a new TicketMessageEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,27 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 895,
+  "EjMessageId": 553,
   "Ticket": null,
-  "CreatedAt": "2004-01-27T11:10:28.2206938+01:00",
+  "CreatedAt": "2005-11-26T02:49:45.4840951+01:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "vero",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nesciunt",
-  "TimeSpent": 723,
-  "Body": "eum",
-  "HtmlBody": "vel",
-  "EmailHeader": "arthur@lehnerpowlowski.uk",
+  "MessageId": "illum",
+  "TimeSpent": 864,
+  "Body": "pariatur",
+  "HtmlBody": "delectus",
+  "EmailHeader": "myrtie@dickinsonking.info",
   "DebugInfo": "voluptatem",
-  "MailSorter": "sit",
+  "MailSorter": "odio",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "vero",
+  "SearchTitle": "sint",
   "MessageHeaders": [
     {
-      "Name": "Gorczany, Thiel and Dickinson",
-      "Value": "sit",
+      "Id": 763,
+      "Name": "Heller Inc and Sons",
+      "Value": "placeat",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -109,43 +118,29 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
-        }
-      }
-    },
-    {
-      "Name": "Gorczany, Thiel and Dickinson",
-      "Value": "sit",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 424
         }
       }
     }
   ],
   "Important": false,
-  "Language": "deserunt",
-  "Sentiment": 581,
-  "SentimentConfidence": 972,
+  "Language": "fugit",
+  "Sentiment": 549,
+  "SentimentConfidence": 391,
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "quidem"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "corrupti"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "vel"
+    "CustomFields1": "ut",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 507
+      "FieldType": "System.Int32",
+      "FieldLength": 858
     }
   }
 }

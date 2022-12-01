@@ -11,11 +11,18 @@ GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ProductFamily list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Sawayn-Reichel",
-    "ToolTip": "Assumenda ex nulla veniam.",
-    "Deleted": false,
-    "Rank": 628,
-    "Type": "odit",
-    "ColorBlock": 366,
-    "IconHint": "eos",
-    "Selected": true,
-    "LastChanged": "2010-11-29T11:10:54.4339392+01:00",
+    "Id": 192,
+    "Name": "Howell, Herzog and Kub",
+    "ToolTip": "Et excepturi necessitatibus aut aut numquam sit id.",
+    "Deleted": true,
+    "Rank": 501,
+    "Type": "vel",
+    "ColorBlock": 204,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2005-08-21T02:49:52.3597004+02:00",
     "ChildItems": [
       {
-        "Id": 812,
-        "Name": "Little-Brakus",
-        "ToolTip": "Et doloremque voluptatibus voluptatem voluptas.",
+        "Id": 804,
+        "Name": "Runolfsson LLC",
+        "ToolTip": "Ipsum suscipit.",
         "Deleted": false,
-        "Rank": 659,
-        "Type": "repellat",
-        "ColorBlock": 154,
-        "IconHint": "corrupti",
-        "Selected": true,
-        "LastChanged": "2005-07-29T11:10:54.4349299+02:00",
+        "Rank": 982,
+        "Type": "recusandae",
+        "ColorBlock": 568,
+        "IconHint": "ea",
+        "Selected": false,
+        "LastChanged": "2004-04-24T02:49:52.3597004+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "dolores",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Simone Treutel",
+        "FullName": "Miss Ross Efrain Heathcote PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 144
+            "FieldType": "System.Int32",
+            "FieldLength": 369
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "aut",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Miss Jasen Langosh II",
+    "FullName": "Jonathan Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 378
+        "FieldType": "System.String",
+        "FieldLength": 213
       }
     }
   }

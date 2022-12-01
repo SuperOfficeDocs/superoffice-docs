@@ -11,6 +11,13 @@ POST /api/v1/List/DeliveryType/Items
 
 Add a new DeliveryType to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new DeliveryType to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The DeliveryType to be added to the list.
+The DeliveryType to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The DeliveryType to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 828,
-  "Name": "Greenholt, Yundt and Okuneva",
-  "Tooltip": "laudantium",
+  "Id": 883,
+  "Name": "Gulgowski-Hessel",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "UdListDefinitionId": 307,
-  "Rank": 291
+  "UdListDefinitionId": 228,
+  "Rank": 151
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 515,
-  "Name": "Kunze, Trantow and Daugherty",
-  "Tooltip": "voluptatem",
+  "Id": 617,
+  "Name": "Dickens-Franecki",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 416,
-  "Rank": 241,
+  "UdListDefinitionId": 53,
+  "Rank": 768,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldType": "System.String",
+      "FieldLength": 398
     }
   }
 }

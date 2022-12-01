@@ -11,10 +11,17 @@ GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 
 List of User groups that this list item is visible for
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
+
+
 
 ## Request Headers
 
@@ -28,6 +35,7 @@ List of User groups that this list item is visible for
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Davis LLC",
-    "ToolTip": "Non quis.",
-    "Deleted": true,
-    "Rank": 54,
-    "Type": "porro",
-    "ColorBlock": 614,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "1996-10-29T11:10:53.8871839+01:00",
+    "Id": 911,
+    "Name": "McGlynn-Bechtelar",
+    "ToolTip": "Sapiente excepturi rerum.",
+    "Deleted": false,
+    "Rank": 548,
+    "Type": "dolores",
+    "ColorBlock": 574,
+    "IconHint": "exercitationem",
+    "Selected": true,
+    "LastChanged": "1998-08-20T02:49:51.8596935+02:00",
     "ChildItems": [
       {
-        "Id": 288,
-        "Name": "Wiegand, Beer and Stanton",
-        "ToolTip": "Hic iusto temporibus sunt sed rerum quia.",
+        "Id": 59,
+        "Name": "Bogisich-Kunde",
+        "ToolTip": "Repellendus sunt dolores aut doloribus aut.",
         "Deleted": false,
-        "Rank": 646,
-        "Type": "sapiente",
-        "ColorBlock": 618,
-        "IconHint": "reprehenderit",
+        "Rank": 677,
+        "Type": "ullam",
+        "ColorBlock": 963,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2010-11-11T11:10:53.8871839+01:00",
+        "LastChanged": "1996-05-16T02:49:51.8596935+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "repellendus",
-        "Hidden": true,
-        "FullName": "Miss Name Renner III",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Prof. Constance Kaci Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 108
+            "FieldType": "System.String",
+            "FieldLength": 407
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "asperiores",
-    "Hidden": true,
-    "FullName": "Hope Mills",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Prof. Jonas Bosco Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldType": "System.String",
+        "FieldLength": 909
       }
     }
   }

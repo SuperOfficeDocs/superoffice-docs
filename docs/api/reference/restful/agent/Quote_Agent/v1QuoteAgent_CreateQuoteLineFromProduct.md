@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 
 Create a quoteline based on a product.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a quoteline based on a product.
 ```http
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteAlternativeId, Product
+QuoteAlternativeId, Product 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteAlternativeId | int32 |  |
 | Product |  | Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector <para /> Carrier object for Product. Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -114,11 +122,11 @@ Response body:
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 33,
+  "QuoteAlternativeId": 858,
   "Product": null
 }
 ```
@@ -130,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 427,
-  "ERPQuoteLineKey": "culpa",
-  "QuoteAlternativeId": 861,
-  "ERPProductKey": "atque",
+  "QuoteLineId": 647,
+  "ERPQuoteLineKey": "consequatur",
+  "QuoteAlternativeId": 650,
+  "ERPProductKey": "doloremque",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 18706.845999999998,
-  "DeliveredQuantity": 8317.636,
-  "Rank": 280,
-  "Name": "Wisoky Group",
-  "Description": "Decentralized responsive superstructure",
-  "Code": "distinctio",
-  "QuantityUnit": "omnis",
-  "PriceUnit": "nihil",
-  "ItemNumber": "791752",
+  "Quantity": 1639.0819999999999,
+  "DeliveredQuantity": 12902.678,
+  "Rank": 640,
+  "Name": "Eichmann-Ledner",
+  "Description": "Enhanced reciprocal monitoring",
+  "Code": "neque",
+  "QuantityUnit": "mollitia",
+  "PriceUnit": "consequatur",
+  "ItemNumber": "833754",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "magnam",
-  "ProductTypeKey": "est",
-  "Supplier": "magnam",
-  "SupplierCode": "officia",
-  "Thumbnail": "aliquid",
-  "VATInfo": "reiciendis",
-  "VAT": 14363.122,
-  "UnitCost": 7480.858,
-  "UnitMinimumPrice": 27372.356,
-  "UnitListPrice": 30171.018,
+  "ProductFamilyKey": "molestiae",
+  "ProductTypeKey": "voluptatem",
+  "Supplier": "sint",
+  "SupplierCode": "praesentium",
+  "Thumbnail": "quasi",
+  "VATInfo": "inventore",
+  "VAT": 20794.09,
+  "UnitCost": 3071.3199999999997,
+  "UnitMinimumPrice": 7527.8679999999995,
+  "UnitListPrice": 3387.854,
   "ExtraInfo": [
     {
-      "Name": "Fahey-Barrows",
-      "Value": "sapiente",
+      "Name": "Greenfelder-Fahey",
+      "Value": "possimus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldLength": 160
         }
       }
     },
     {
-      "Name": "Fahey-Barrows",
-      "Value": "sapiente",
+      "Name": "Greenfelder-Fahey",
+      "Value": "possimus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldLength": 160
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
+  "RawExtraInfo": "consectetur",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "SubscriptionQuantity": 3575.894,
-  "SubscriptionStart": "1999-04-23T11:10:27.7284948+02:00",
-  "ERPDiscountPercent": 19531.088,
-  "ERPDiscountAmount": 6697.358,
-  "DiscountPercent": 16494.242,
-  "DiscountAmount": 9665.256,
+  "SubscriptionUnit": "doloremque",
+  "SubscriptionQuantity": 22241.998,
+  "SubscriptionStart": "2020-04-19T02:49:45.0465904+02:00",
+  "ERPDiscountPercent": 8511.944,
+  "ERPDiscountAmount": 16509.912,
+  "DiscountPercent": 31330.597999999998,
+  "DiscountAmount": 29117.994,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 21245.386,
-  "EarningAmount": 25097.072,
-  "SubTotal": 11956.21,
-  "TotalPrice": 3933.17,
-  "Rights": "nobis",
-  "Rule": "ut",
-  "ExtraField1": "doloremque",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "aut",
-  "ExtraField4": "esse",
-  "ExtraField5": "quasi",
+  "EarningPercent": 30894.971999999998,
+  "EarningAmount": 9126.208,
+  "SubTotal": 27027.615999999998,
+  "TotalPrice": 30829.158,
+  "Rights": "iste",
+  "Rule": "quod",
+  "ExtraField1": "omnis",
+  "ExtraField2": "natus",
+  "ExtraField3": "odio",
+  "ExtraField4": "eligendi",
+  "ExtraField5": "voluptate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 243
     }
   }
 }

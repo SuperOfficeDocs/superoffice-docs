@@ -11,7 +11,14 @@ GET /api/v1/Project/UdefLayout
 
 Current ProjectEntity user-defined field layout.
 
+
 May be different from the published version.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ May be different from the published version.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -81,7 +89,7 @@ Response body: array
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 588,
-    "ColumnId": 773,
-    "FieldDefault": "molestiae",
-    "FieldHeight": 793,
-    "FieldLabel": "asperiores",
-    "FieldLeft": 116,
-    "FieldTop": 991,
+    "UDefFieldId": 927,
+    "ColumnId": 382,
+    "FieldDefault": "temporibus",
+    "FieldHeight": 482,
+    "FieldLabel": "ratione",
+    "FieldLeft": 478,
+    "FieldTop": 485,
     "FieldType": "Checkbox",
-    "FieldWidth": 745,
-    "FormatMask": "enim",
+    "FieldWidth": 775,
+    "FormatMask": "mollitia",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 699,
-    "LabelLeft": 281,
-    "LabelTop": 176,
-    "LabelWidth": 275,
-    "LastVersionId": 815,
-    "ListTableId": 608,
+    "IsIndexed": false,
+    "LabelHeight": 506,
+    "LabelLeft": 856,
+    "LabelTop": 662,
+    "LabelWidth": 680,
+    "LastVersionId": 415,
+    "ListTableId": 115,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 747,
+    "Page1LineNo": 821,
     "ProgId": "aut",
-    "IsReadOnly": false,
-    "ShortLabel": "delectus",
-    "TabOrder": 980,
-    "TextLength": 471,
-    "Tooltip": "pariatur",
-    "UdefIdentity": 254,
-    "UDListDefinitionId": 797,
+    "IsReadOnly": true,
+    "ShortLabel": "quia",
+    "TabOrder": 321,
+    "TextLength": 95,
+    "Tooltip": "deleniti",
+    "UdefIdentity": 953,
+    "UDListDefinitionId": 949,
     "Justification": "Center",
-    "Version": 919,
-    "TemplateVariableName": "Bartell Group",
+    "Version": 241,
+    "TemplateVariableName": "Feeney-Klein",
     "HasBeenPublished": false,
-    "MdoListName": "Kertzmann-Simonis",
+    "MdoListName": "Sawayn, Yost and Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 965
+        "FieldLength": 964
       }
     }
   }

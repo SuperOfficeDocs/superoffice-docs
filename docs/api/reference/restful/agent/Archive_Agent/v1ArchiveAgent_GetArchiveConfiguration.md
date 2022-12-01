@@ -11,7 +11,13 @@ POST /api/v1/Agents/Archive/GetArchiveConfiguration
 
 Get the configuration for one archive.
 
+
 The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The configuration is keyed by a combination of archive provider name and gui nam
 ```http
 POST /api/v1/Agents/Archive/GetArchiveConfiguration?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/Archive/GetArchiveConfiguration?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GuiName, ProviderName
+GuiName, ProviderName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | GuiName | string |  |
 | ProviderName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +79,12 @@ Response body:
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Ryan, Frami and Ledner",
-  "ProviderName": "Pacocha Group"
+  "GuiName": "Kling-Hills",
+  "ProviderName": "Trantow Group"
 }
 ```
 
@@ -89,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Bechtelar, Reichert and Schultz",
-      "DisplayTooltip": "inventore",
-      "DisplayType": "ipsum",
+      "DisplayName": "Hammes-Goyette",
+      "DisplayTooltip": "eum",
+      "DisplayType": "amet",
       "CanOrderBy": true,
-      "Name": "Schaden LLC",
+      "Name": "Herman LLC",
       "CanRestrictBy": true,
-      "RestrictionType": "amet",
-      "RestrictionListName": "Mertz-Veum",
-      "IsVisible": true,
-      "ExtraInfo": "consequuntur",
-      "Width": "aut",
-      "IconHint": "quo",
-      "HeadingIconHint": "nulla"
+      "RestrictionType": "nisi",
+      "RestrictionListName": "Langosh LLC",
+      "IsVisible": false,
+      "ExtraInfo": "rerum",
+      "Width": "nulla",
+      "IconHint": "quis",
+      "HeadingIconHint": "fuga"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 313,
-      "Name": "Kunze-Gulgowski",
-      "ToolTip": "Nostrum incidunt molestias voluptas eos.",
+      "Id": 158,
+      "Name": "Kemmer Inc and Sons",
+      "ToolTip": "Laboriosam consectetur dolore optio aliquid.",
       "Deleted": false,
-      "Rank": 671,
-      "Type": "eum",
-      "ColorBlock": 889,
-      "IconHint": "ipsa",
+      "Rank": 156,
+      "Type": "sunt",
+      "ColorBlock": 24,
+      "IconHint": "vel",
       "Selected": false,
-      "LastChanged": "2012-08-15T11:10:25.9615223+02:00",
+      "LastChanged": "2014-03-18T02:49:43.6535327+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "accusantium",
-      "StyleHint": "temporibus",
+      "ExtraInfo": "dolor",
+      "StyleHint": "voluptatum",
       "Hidden": true,
-      "FullName": "Marshall Lakin",
+      "FullName": "Joelle Daniel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 282
+          "FieldLength": 299
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Maggio Group",
+      "Name": "Bruen-Ryan",
       "Direction": "ASC"
     },
     {
-      "Name": "Maggio Group",
+      "Name": "Bruen-Ryan",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "atque",
+  "OwnerKeys": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 281
     }
   }
 }

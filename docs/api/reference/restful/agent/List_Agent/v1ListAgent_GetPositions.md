@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetPositions
 
 Returns all the positions a person could have.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all the positions a person could have.
 ```http
 POST /api/v1/Agents/List/GetPositions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/List/GetPositions?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 555,
-    "Value": "modi",
-    "Tooltip": "deserunt",
+    "Id": 581,
+    "Value": "sunt",
+    "Tooltip": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldLength": 425
       }
     }
   },
   {
-    "Id": 555,
-    "Value": "modi",
-    "Tooltip": "deserunt",
+    "Id": 581,
+    "Value": "sunt",
+    "Tooltip": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldLength": 425
       }
     }
   }

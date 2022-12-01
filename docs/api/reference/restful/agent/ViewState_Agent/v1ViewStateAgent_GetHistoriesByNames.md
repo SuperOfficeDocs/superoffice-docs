@@ -11,6 +11,12 @@ POST /api/v1/Agents/ViewState/GetHistoriesByNames
 
 Returns the named history lists that belong to the currently logged in user
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the named history lists that belong to the currently logged in user
 ```http
 POST /api/v1/Agents/ViewState/GetHistoriesByNames?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/ViewState/GetHistoriesByNames?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-HistoryNames
+HistoryNames 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | HistoryNames | array |  |
+
 
 ## Response: array
 
@@ -76,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Wiza Group",
-    "VonRueden, Marquardt and Durgan"
+    "Wolf Group",
+    "Hartmann-Goldner"
   ]
 }
 ```
@@ -90,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 71,
-    "Id": 405,
-    "HistoryName": "Kessler-Nienow",
-    "HistoryId": 884,
-    "AssociateId": 644,
-    "Name": "Fahey LLC",
-    "ItemInfo": "rerum",
+    "Rank": 944,
+    "Id": 531,
+    "HistoryName": "Gleichner LLC",
+    "HistoryId": 342,
+    "AssociateId": 950,
+    "Name": "Bogan, Conn and Wiegand",
+    "ItemInfo": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 811
+        "FieldLength": 773
       }
     }
   }

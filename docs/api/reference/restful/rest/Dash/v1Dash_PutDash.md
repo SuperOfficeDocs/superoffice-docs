@@ -11,9 +11,15 @@ PUT /api/v1/Dash/{id}
 
 Updates the existing Dash
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Dash id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing Dash
 ```http
 PUT /api/v1/Dash/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Dash/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Dash to be saved.
+The Dash to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +66,8 @@ The Dash to be saved.
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
 
-## Response
+
+## Response: 
 
 Dash updated.
 
@@ -68,7 +76,7 @@ Dash updated.
 | 200 | Dash updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,34 +103,34 @@ Response body:
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 397,
-  "UniqueId": "non",
-  "Name": "Ferry, Keeling and Rohan",
-  "Description": "Right-sized demand-driven attitude",
-  "AssociateId": 23,
-  "Columns": 795,
+  "DashboardId": 398,
+  "UniqueId": "sequi",
+  "Name": "Bartell-Langworth",
+  "Description": "User-centric multimedia software",
+  "AssociateId": 455,
+  "Columns": 579,
   "Theme": null,
-  "VisibleForAll": 369,
+  "VisibleForAll": 977,
   "VisibleForAssociates": [
-    117,
-    917
+    454,
+    797
   ],
   "VisibleForGroups": [
-    107,
-    52
+    987,
+    658
   ],
-  "PinForAll": 112,
+  "PinForAll": 381,
   "PinForAssociates": [
-    36,
-    148
+    933,
+    180
   ],
   "PinForGroups": [
-    489,
-    133
+    582,
+    81
   ]
 }
 ```
@@ -134,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 752,
-  "UniqueId": "nihil",
-  "Name": "Hilpert Inc and Sons",
-  "Description": "De-engineered assymetric infrastructure",
-  "AssociateId": 161,
-  "Columns": 958,
+  "DashboardId": 736,
+  "UniqueId": "animi",
+  "Name": "Zulauf Group",
+  "Description": "Up-sized explicit approach",
+  "AssociateId": 718,
+  "Columns": 882,
   "Theme": null,
-  "VisibleForAll": 719,
+  "VisibleForAll": 810,
   "VisibleForAssociates": [
-    192,
-    808
+    211,
+    246
   ],
   "VisibleForGroups": [
-    398,
-    88
+    367,
+    205
   ],
-  "PinForAll": 223,
+  "PinForAll": 878,
   "PinForAssociates": [
-    921,
-    62
+    881,
+    629
   ],
   "PinForGroups": [
-    47,
-    978
+    507,
+    878
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldType": "System.String",
+      "FieldLength": 328
     }
   },
   "_Links": {

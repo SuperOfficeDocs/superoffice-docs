@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetContactList
 
 Gets an array of Contact objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Contact objects.
 ```http
 POST /api/v1/Agents/Contact/GetContactList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/Contact/GetContactList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: contactIds
+## Request Body: contactIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -82,7 +91,7 @@ Response body: array
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,34 +102,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 158,
-    "Name": "Dietrich Group",
-    "OrgNr": "1427079",
+    "ContactId": 6,
+    "Name": "Ryan-Heller",
+    "OrgNr": "692428",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "optio",
-    "DirectPhone": "(449)238-3235 x67734",
-    "AssociateId": 674,
-    "CountryId": 549,
-    "EmailAddress": "mortimer@monahanryan.us",
-    "Kananame": "voluptatibus",
-    "EmailAddressName": "ashley@adams.biz",
+    "City": "odit",
+    "DirectPhone": "449-765-9442",
+    "AssociateId": 149,
+    "CountryId": 323,
+    "EmailAddress": "abby.hermiston@waelchi.name",
+    "Kananame": "ab",
+    "EmailAddressName": "mozelle@lindgren.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mr. Charles Alvera Kihn II",
+    "AssociateFullName": "Halle Collier",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "eveniet",
-    "FullName": "Prof. Caleb Sincere O'Keefe",
+    "FormattedAddress": "consequatur",
+    "FullName": "Miss Laurianne Alexzander Padberg Jr.",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 434,
+    "ActiveErpLinks": 381,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldType": "System.String",
+        "FieldLength": 548
       }
     }
   }

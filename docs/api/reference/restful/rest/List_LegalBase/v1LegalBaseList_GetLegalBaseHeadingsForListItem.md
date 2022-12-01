@@ -11,11 +11,17 @@ GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 
 Gets headings for the LegalBase list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Pacocha Inc and Sons",
-    "ToolTip": "Eius quis corporis adipisci corrupti quibusdam.",
-    "Deleted": false,
-    "Rank": 708,
-    "Type": "id",
-    "ColorBlock": 449,
-    "IconHint": "nam",
+    "Id": 885,
+    "Name": "Hudson LLC",
+    "ToolTip": "Sint reprehenderit voluptas magnam.",
+    "Deleted": true,
+    "Rank": 835,
+    "Type": "sint",
+    "ColorBlock": 182,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2007-06-25T11:10:54.3118664+02:00",
+    "LastChanged": "2004-12-10T02:49:52.2659433+01:00",
     "ChildItems": [
       {
-        "Id": 808,
-        "Name": "O'Hara-Williamson",
-        "ToolTip": "Minima aperiam nostrum soluta ad.",
+        "Id": 559,
+        "Name": "Bechtelar-Runolfsdottir",
+        "ToolTip": "Iusto magni omnis nesciunt dolores voluptatem.",
         "Deleted": false,
-        "Rank": 168,
-        "Type": "fuga",
-        "ColorBlock": 155,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2002-06-12T11:10:54.3118664+02:00",
+        "Rank": 870,
+        "Type": "quia",
+        "ColorBlock": 362,
+        "IconHint": "temporibus",
+        "Selected": false,
+        "LastChanged": "2005-04-22T02:49:52.2659433+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "maiores",
-        "Hidden": false,
-        "FullName": "Jarrod Nels Heathcote DDS",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "expedita",
+        "Hidden": true,
+        "FullName": "Prof. Silas Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 40
+            "FieldLength": 719
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Brennon Heidenreich",
+    "ExtraInfo": "aut",
+    "StyleHint": "perspiciatis",
+    "Hidden": true,
+    "FullName": "Rosalinda Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldLength": 308
       }
     }
   }

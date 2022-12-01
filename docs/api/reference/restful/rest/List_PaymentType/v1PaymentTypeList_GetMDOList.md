@@ -11,6 +11,12 @@ GET /api/v1/List/PaymentType/MDOItems
 
 Get the MDO list items for "PaymentType" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=rerum
+GET /api/v1/List/PaymentType/MDOItems?query=aut
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/PaymentType/MDOItems?query=rerum
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 572,
-    "Name": "Schiller-Wunsch",
-    "ToolTip": "Id provident ab nesciunt.",
-    "Deleted": false,
-    "Rank": 328,
-    "Type": "vel",
+    "Id": 327,
+    "Name": "Kutch LLC",
+    "ToolTip": "Sit aliquam dolorem sunt nostrum.",
+    "Deleted": true,
+    "Rank": 333,
+    "Type": "inventore",
     "ChildItems": [
       {
-        "Id": 785,
-        "Name": "Roberts LLC",
-        "ToolTip": "Illum qui.",
+        "Id": 624,
+        "Name": "Osinski, Renner and Anderson",
+        "ToolTip": "Non dolore autem repellat tenetur aut aut corrupti.",
         "Deleted": false,
-        "Rank": 106,
-        "Type": "est",
+        "Rank": 84,
+        "Type": "modi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magni",
-        "ColorBlock": 375,
-        "ExtraInfo": "et",
-        "StyleHint": "fugiat",
-        "FullName": "Prof. Jaylin Alicia Grimes",
+        "IconHint": "quae",
+        "ColorBlock": 865,
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "beatae",
+        "FullName": "Maegan Murazik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 829
+            "FieldLength": 757
           }
         }
       }
     ],
-    "IconHint": "nostrum",
-    "ColorBlock": 877,
-    "ExtraInfo": "eveniet",
-    "StyleHint": "aut",
-    "FullName": "Dino Kovacek PhD",
+    "IconHint": "iusto",
+    "ColorBlock": 544,
+    "ExtraInfo": "sed",
+    "StyleHint": "eum",
+    "FullName": "Vinnie Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldLength": 784
       }
     }
   }

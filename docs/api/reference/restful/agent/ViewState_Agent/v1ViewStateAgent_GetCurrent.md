@@ -11,7 +11,13 @@ POST /api/v1/Agents/ViewState/GetCurrent
 
 Get the current (most recent) value of the history list.
 
+
 This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This is the item with rank = 1. If no item exists a default value is returned. T
 ```http
 POST /api/v1/Agents/ViewState/GetCurrent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/ViewState/GetCurrent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-HistoryName
+HistoryName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | HistoryName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Nienow-Boyle"
+  "HistoryName": "Prohaska Inc and Sons"
 }
 ```
 
@@ -88,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 816,
-  "Id": 144,
-  "HistoryName": "Yost-Ryan",
-  "HistoryId": 670,
-  "AssociateId": 121,
-  "Name": "Krajcik Group",
-  "ItemInfo": "velit",
+  "Rank": 595,
+  "Id": 555,
+  "HistoryName": "Volkman, Wehner and Douglas",
+  "HistoryId": 406,
+  "AssociateId": 471,
+  "Name": "Runolfsson-Smith",
+  "ItemInfo": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldLength": 437
     }
   }
 }

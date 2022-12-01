@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetMyConfigParameterValue
 
 Gets the string value of an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the string value of an Audience configuration parameter belonging to the cu
 ```http
 POST /api/v1/Agents/Audience/GetMyConfigParameterValue?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Audience/GetMyConfigParameterValue?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ParameterName
+ParameterName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ParameterName | string |  |
+
 
 ## Response: string
 
@@ -53,17 +61,18 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetMyConfigParameterValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Schmitt Inc and Sons"
+  "ParameterName": "Ratke-Pfeffer"
 }
 ```
 
@@ -73,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"cupiditate"
+"libero"
 ```

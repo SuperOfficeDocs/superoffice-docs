@@ -11,6 +11,13 @@ POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 
 Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DiaryViewEntity to be saved.
+The DiaryViewEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The DiaryViewEntity to be saved.
 | AssociateList | array |  |
 | TzLocationId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,35 +81,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 355,
-  "Name": "Schulist Group",
-  "Tooltip": "est",
-  "VisibleColumns": 558,
-  "Rank": 419,
-  "AssocId": 523,
+  "DiaryViewId": 522,
+  "Name": "Bailey, Walker and Emard",
+  "Tooltip": "voluptatem",
+  "VisibleColumns": 606,
+  "Rank": 913,
+  "AssocId": 931,
   "AssociateList": [
     {
-      "Id": 378,
-      "Name": "Crooks, Fritsch and Collier",
-      "ToolTip": "Maxime animi recusandae sed reiciendis.",
+      "Id": 761,
+      "Name": "Schroeder, Feest and Ondricka",
+      "ToolTip": "Ipsa sed tenetur quo incidunt.",
       "Deleted": false,
-      "Rank": 121,
-      "Type": "cum",
-      "ColorBlock": 479,
-      "IconHint": "aliquid",
+      "Rank": 861,
+      "Type": "optio",
+      "ColorBlock": 781,
+      "IconHint": "magni",
       "Selected": true,
-      "LastChanged": "2002-05-07T11:10:26.1955254+02:00",
+      "LastChanged": "2010-05-28T02:49:43.8566571+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "labore",
-      "StyleHint": "repudiandae",
-      "Hidden": false,
-      "FullName": "Prof. Jessie Andres Greenholt PhD"
+      "ExtraInfo": "tenetur",
+      "StyleHint": "aut",
+      "Hidden": true,
+      "FullName": "Aaron Mosciski"
     }
   ],
-  "TzLocationId": 627
+  "TzLocationId": 224
 }
 ```
 
@@ -112,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 543,
-  "Name": "Rutherford, Lakin and Dare",
-  "Tooltip": "dolore",
-  "VisibleColumns": 527,
-  "Rank": 956,
-  "AssocId": 298,
+  "DiaryViewId": 169,
+  "Name": "Rempel-Dickens",
+  "Tooltip": "occaecati",
+  "VisibleColumns": 602,
+  "Rank": 312,
+  "AssocId": 974,
   "AssociateList": [
     {
-      "Id": 995,
-      "Name": "Pacocha, Weissnat and Sanford",
-      "ToolTip": "Velit quisquam nisi sunt.",
+      "Id": 135,
+      "Name": "Harris-Gutkowski",
+      "ToolTip": "Maiores assumenda sint cumque est.",
       "Deleted": false,
-      "Rank": 131,
-      "Type": "sunt",
-      "ColorBlock": 713,
-      "IconHint": "et",
+      "Rank": 865,
+      "Type": "molestias",
+      "ColorBlock": 883,
+      "IconHint": "laudantium",
       "Selected": false,
-      "LastChanged": "2018-04-30T11:10:26.1965257+02:00",
+      "LastChanged": "2000-05-06T02:49:43.8566571+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officia",
-      "StyleHint": "eum",
-      "Hidden": true,
-      "FullName": "Ms. Clifton Marilie Parker DDS",
+      "ExtraInfo": "veniam",
+      "StyleHint": "illo",
+      "Hidden": false,
+      "FullName": "Marcelle Hettinger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 165
+          "FieldType": "System.Int32",
+          "FieldLength": 274
         }
       }
     }
   ],
-  "TzLocationId": 544,
+  "TzLocationId": 750,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldType": "System.String",
+      "FieldLength": 901
     }
   }
 }

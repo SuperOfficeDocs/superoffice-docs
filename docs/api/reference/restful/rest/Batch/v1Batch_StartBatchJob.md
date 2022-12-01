@@ -11,6 +11,13 @@ POST /api/v1/BatchTask
 
 Start a batch job based on BatchTaskInfo.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Start a batch job based on BatchTaskInfo.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: batchTaskInfo
+## Request Body: batchTaskInfo  
 
-Use BatchTaskInfo to describe the new batch job.
+Use BatchTaskInfo to describe the new batch job. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,6 +60,7 @@ Use BatchTaskInfo to describe the new batch job.
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 
+
 ## Response: int32
 
 OK
@@ -63,40 +71,41 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 888,
-  "Name": "Goodwin-Brown",
-  "AssociateId": 913,
-  "DetailsTable": 225,
-  "DetailsRecord": 368,
-  "IsSystemTask": true,
+  "Id": 674,
+  "Name": "Gerhold Inc and Sons",
+  "AssociateId": 920,
+  "DetailsTable": 98,
+  "DetailsRecord": 303,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "omnis",
-    "ParameterObject2": "officiis"
+    "ParameterObject1": "aperiam",
+    "ParameterObject2": "corporis"
   },
-  "LastStarted": "2021-06-04T11:10:53.6742126+02:00",
-  "Created": "2009-07-02T11:10:53.6742126+02:00",
-  "StartCount": 49,
-  "DatabaseSerialNumber": "731162",
-  "Context": "recusandae",
-  "Result": "officia",
+  "LastStarted": "1999-01-09T02:49:51.6710218+01:00",
+  "Created": "1998-03-31T02:49:51.6710218+02:00",
+  "StartCount": 619,
+  "DatabaseSerialNumber": "690319",
+  "Context": "occaecati",
+  "Result": "molestiae",
   "State": "All",
-  "Description": "Assimilated full-range forecast",
-  "Response": "ut",
-  "Request": "voluptatem",
-  "ProgressDescription": "Diverse dedicated neural-net",
-  "ProgressPercent": 723,
-  "FileName": "Ankunding, Lebsack and Little"
+  "Description": "Synergized incremental focus group",
+  "Response": "cumque",
+  "Request": "odio",
+  "ProgressDescription": "Cross-platform responsive policy",
+  "ProgressPercent": 587,
+  "FileName": "Hackett Group"
 }
 ```
 
@@ -106,5 +115,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-412
+111
 ```

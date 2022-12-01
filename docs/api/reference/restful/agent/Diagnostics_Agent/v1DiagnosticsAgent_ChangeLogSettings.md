@@ -11,6 +11,12 @@ POST /api/v1/Agents/Diagnostics/ChangeLogSettings
 
 Change NetServer log settings.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Change NetServer log settings.
 ```http
 POST /api/v1/Agents/Diagnostics/ChangeLogSettings?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/Diagnostics/ChangeLogSettings?$select=name,department,catego
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LogWarning, LogInformation, LogSuccessAudit, LogFailureAudit, LogToEventLog, LogToSuperOffice, LogToFile, LogToTrace
+LogWarning, LogInformation, LogSuccessAudit, LogFailureAudit, LogToEventLog, LogToSuperOffice, LogToFile, LogToTrace 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ LogWarning, LogInformation, LogSuccessAudit, LogFailureAudit, LogToEventLog, Log
 | LogToFile | bool |  |
 | LogToTrace | bool |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -54,7 +62,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -62,18 +71,18 @@ Response body:
 POST /api/v1/Agents/Diagnostics/ChangeLogSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "LogWarning": false,
-  "LogInformation": true,
+  "LogInformation": false,
   "LogSuccessAudit": false,
   "LogFailureAudit": false,
   "LogToEventLog": false,
   "LogToSuperOffice": false,
   "LogToFile": false,
-  "LogToTrace": false
+  "LogToTrace": true
 }
 ```
 

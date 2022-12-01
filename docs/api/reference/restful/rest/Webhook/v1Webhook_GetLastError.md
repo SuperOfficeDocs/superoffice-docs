@@ -11,11 +11,20 @@ GET /api/v1/Webhook/{webhookId}/LastError
 
 Return the most recent error message received when calling this webhook.
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | webhookId | int32 | Webhook to get error message for. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,6 +39,7 @@ Return the most recent error message received when calling this webhook.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: string
 
 OK
@@ -39,6 +49,7 @@ OK
 | 200 | OK |
 
 Response body: string
+
 
 ## Sample request
 
@@ -55,5 +66,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"animi"
 ```

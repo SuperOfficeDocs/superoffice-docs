@@ -11,6 +11,12 @@ POST /api/v1/Agents/Saint/RegenerateCounters
 
 Regenerate the Saint counters - this can take several minutes
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Regenerate the Saint counters - this can take several minutes
 ```http
 POST /api/v1/Agents/Saint/RegenerateCounters?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Saint/RegenerateCounters?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RunAsBatch
+RunAsBatch 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RunAsBatch | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +93,7 @@ Response body:
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,36 +108,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 104,
-  "Name": "Renner-Mayert",
-  "AssociateId": 371,
-  "DetailsTable": 918,
-  "DetailsRecord": 431,
+  "Id": 270,
+  "Name": "Swift, Frami and Kunde",
+  "AssociateId": 972,
+  "DetailsTable": 16,
+  "DetailsRecord": 288,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "aperiam",
-    "ParameterObject2": "enim"
+    "ParameterObject1": "recusandae",
+    "ParameterObject2": "vel"
   },
-  "LastStarted": "1998-11-03T11:10:27.7754919+01:00",
-  "Created": "2002-03-19T11:10:27.7754919+01:00",
-  "StartCount": 498,
-  "DatabaseSerialNumber": "622594",
-  "Context": "culpa",
-  "Result": "iure",
+  "LastStarted": "2014-03-28T02:49:45.0934673+01:00",
+  "Created": "2021-05-24T02:49:45.0934673+02:00",
+  "StartCount": 799,
+  "DatabaseSerialNumber": "588722",
+  "Context": "dolore",
+  "Result": "architecto",
   "State": "All",
-  "Description": "Digitized executive product",
-  "Response": "aliquid",
-  "Request": "repudiandae",
-  "ProgressDescription": "Enhanced multi-tasking info-mediaries",
-  "ProgressPercent": 299,
-  "FileName": "Langosh, Bergnaum and Schimmel",
+  "Description": "Function-based 4th generation solution",
+  "Response": "voluptatem",
+  "Request": "rerum",
+  "ProgressDescription": "Stand-alone non-volatile alliance",
+  "ProgressPercent": 19,
+  "FileName": "Ward, Pfannerstill and Hudson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 555
     }
   }
 }

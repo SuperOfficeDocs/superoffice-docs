@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 
 Get criteria information from a set of saved criteria, for a specific set of columns.
 
+
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control. ALL columns specified in the call will be present in the results; those that do not have corresponding criteria set will have empty values and the default (first) operator, with the IsActive flag set to false.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The result contains the restrictions in two forms: fully populated ArchiveRestri
 ```http
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns
+StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,8 @@ StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns
 | DesiredColumnNames | array |  |
 | StaticColumns | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatem",
-  "ProviderName": "Harvey-Schinner",
-  "StorageKey": "aut",
+  "StorageType": "deleniti",
+  "ProviderName": "Crona-Purdy",
+  "StorageKey": "occaecati",
   "DesiredColumnNames": [
-    "Grady LLC",
-    "Hand-Collins"
+    "Rath LLC",
+    "Jacobi-Greenholt"
   ],
   "StaticColumns": [
-    "dolor",
-    "modi"
+    "hic",
+    "est"
   ]
 }
 ```
@@ -101,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Swaniawski-Greenfelder",
-      "Operator": "reiciendis",
+      "Name": "Romaguera Inc and Sons",
+      "Operator": "ut",
       "Values": [
-        "hic",
-        "enim"
+        "quibusdam",
+        "et"
       ],
       "DisplayValues": [
-        "aliquid",
-        "rerum"
+        "pariatur",
+        "vel"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 569,
+      "InterParenthesis": 209,
       "InterOperator": "And",
-      "UniqueHash": 125
+      "UniqueHash": 575
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bruen, Schuppe and Wyman",
-      "DisplayTooltip": "dolores",
-      "DisplayType": "possimus",
-      "CanOrderBy": false,
-      "Name": "Mraz-Pfeffer",
-      "CanRestrictBy": false,
-      "RestrictionType": "nisi",
-      "RestrictionListName": "Mills Group",
-      "IsVisible": true,
-      "ExtraInfo": "quibusdam",
-      "Width": "laudantium",
-      "IconHint": "molestiae",
-      "HeadingIconHint": "aut"
+      "DisplayName": "Bauch-Volkman",
+      "DisplayTooltip": "iusto",
+      "DisplayType": "recusandae",
+      "CanOrderBy": true,
+      "Name": "McClure Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "vitae",
+      "RestrictionListName": "Bruen-Stanton",
+      "IsVisible": false,
+      "ExtraInfo": "hic",
+      "Width": "qui",
+      "IconHint": "magni",
+      "HeadingIconHint": "dignissimos"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Stoltenberg, Welch and Kuhlman",
-      "PrimaryKey": 564,
+      "EntityName": "Sanford, Okuneva and Parisian",
+      "PrimaryKey": 317,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "facere",
-          "TooltipHint": "consequatur",
-          "LinkHint": "ab"
+          "DisplayValue": "consequatur",
+          "TooltipHint": "sit",
+          "LinkHint": "voluptatem"
         }
       },
-      "LinkHint": "autem",
-      "StyleHint": "inventore",
+      "LinkHint": "a",
+      "StyleHint": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 316
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Welch Inc and Sons",
-      "Description": "Object-based intermediate array",
-      "Rank": 198,
+      "Name": "Hudson, Collins and Runolfsson",
+      "Description": "Open-source 4th generation projection",
+      "Rank": 839,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Welch Inc and Sons",
-      "Description": "Object-based intermediate array",
-      "Rank": 198,
+      "Name": "Hudson, Collins and Runolfsson",
+      "Description": "Open-source 4th generation projection",
+      "Rank": 839,
       "Restrictions": [
         {},
         {}
@@ -186,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldType": "System.String",
+      "FieldLength": 694
     }
   }
 }

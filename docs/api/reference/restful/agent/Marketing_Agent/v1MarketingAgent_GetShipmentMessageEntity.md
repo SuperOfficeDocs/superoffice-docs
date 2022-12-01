@@ -11,6 +11,12 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 
 Gets a ShipmentMessageEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=747
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=811
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +86,7 @@ Response body:
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 971,
-  "PlainMessage": "odit",
-  "HtmlMessage": "ut",
-  "SmsMessage": "dolorum",
-  "Description": "Mandatory attitude-oriented portal",
-  "Subject": "aliquam",
-  "FolderId": 459,
-  "HeaderField": "vel",
-  "Design": "inventore",
+  "ShipmentMessageId": 200,
+  "PlainMessage": "placeat",
+  "HtmlMessage": "aspernatur",
+  "SmsMessage": "optio",
+  "Description": "Expanded eco-centric secured line",
+  "Subject": "ipsum",
+  "FolderId": 768,
+  "HeaderField": "modi",
+  "Design": "recusandae",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Total even-keeled project",
-  "AccessKey": "culpa",
-  "DocumentMessage": 696,
-  "Registered": "2006-03-21T11:10:27.2964529+01:00",
-  "RegisteredAssociateId": 240,
-  "Updated": "1998-09-12T11:10:27.2964529+02:00",
-  "UpdatedAssociateId": 519,
-  "UpdatedCount": 120,
+  "LongDescription": "Adaptive transitional moratorium",
+  "AccessKey": "esse",
+  "DocumentMessage": 557,
+  "Registered": "2018-11-30T02:49:44.7172985+01:00",
+  "RegisteredAssociateId": 831,
+  "Updated": "2008-04-03T02:49:44.7172985+02:00",
+  "UpdatedAssociateId": 629,
+  "UpdatedCount": 639,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 618
+      "FieldType": "System.Int32",
+      "FieldLength": 15
     }
   }
 }

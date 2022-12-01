@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 
 Create a new physical document based on the documents template.
 
+
 Do not replace template tags, as the document is going to be used as a mail merge source. Use GetDocumentStream to obtain the created documents. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Do not replace template tags, as the document is going to be used as a mail merg
 ```http
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate?$sel
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, UiCulture
+DocumentId, UiCulture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | UiCulture | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,12 +109,12 @@ Response body:
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 298,
-  "UiCulture": "repellat"
+  "DocumentId": 393,
+  "UiCulture": "optio"
 }
 ```
 
@@ -117,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 667,
+  "DocumentId": 990,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatem",
-  "Header": "consequatur",
-  "Name": "Halvorson, Kohler and Waters",
-  "OurRef": "et",
-  "YourRef": "ut",
-  "CreatedDate": "2019-01-14T11:10:26.5574557+01:00",
-  "UpdatedDate": "1997-09-14T11:10:26.5574557+02:00",
-  "Description": "Synergistic client-server concept",
+  "Attention": "occaecati",
+  "Header": "tempora",
+  "Name": "Mueller LLC",
+  "OurRef": "repellendus",
+  "YourRef": "recusandae",
+  "CreatedDate": "2014-01-15T02:49:44.1535094+01:00",
+  "UpdatedDate": "2001-07-19T02:49:44.1535094+02:00",
+  "Description": "Function-based intermediate internet solution",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-11-06T11:10:26.5614527+01:00",
-  "ExternalRef": "architecto",
+  "Date": "2002-10-08T02:49:44.1535094+02:00",
+  "ExternalRef": "ea",
   "Completed": "Completed",
-  "ActiveLinks": 926,
+  "ActiveLinks": 722,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kuhlman, Stroman and Marks",
-      "Id": 817,
-      "Description": "Expanded background database",
-      "ExtraInfo": "mollitia",
-      "LinkId": 917,
+      "EntityName": "Kozey LLC",
+      "Id": 993,
+      "Description": "Multi-lateral national knowledge base",
+      "ExtraInfo": "unde",
+      "LinkId": 23,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 872
+          "FieldType": "System.String",
+          "FieldLength": 433
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 380,
-  "Snum": 761,
+  "SuggestedDocumentId": 925,
+  "Snum": 909,
   "UserDefinedFields": {
-    "SuperOffice:1": "Layla Jacobs",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Miss Jazmyne Erdman",
+    "SuperOffice:2": "Miss Abdullah Taryn Collier"
   },
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "cum"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "et"
+    "CustomFields1": "est",
+    "CustomFields2": "sint"
   },
-  "PublishEventDate": "2000-03-12T11:10:26.5624535+01:00",
-  "PublishTo": "2008-12-17T11:10:26.5624535+01:00",
-  "PublishFrom": "2003-05-31T11:10:26.5624535+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2007-04-04T02:49:44.1535094+02:00",
+  "PublishTo": "1999-12-25T02:49:44.1535094+01:00",
+  "PublishFrom": "2007-05-13T02:49:44.1535094+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 388,
+      "VisibleId": 132,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 231
+          "FieldLength": 206
         }
       }
     },
     {
-      "VisibleId": 388,
+      "VisibleId": 132,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 231
+          "FieldLength": 206
         }
       }
     }
@@ -208,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldLength": 548
     }
   }
 }

@@ -11,11 +11,18 @@ GET /api/v1/List/Category/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Category list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 475,
-    "Name": "Mitchell Group",
-    "ToolTip": "Officia nostrum facere repudiandae facilis.",
-    "Deleted": true,
-    "Rank": 160,
-    "Type": "cupiditate",
-    "ColorBlock": 502,
-    "IconHint": "ut",
+    "Id": 438,
+    "Name": "Runte LLC",
+    "ToolTip": "Voluptatum perspiciatis reiciendis.",
+    "Deleted": false,
+    "Rank": 483,
+    "Type": "excepturi",
+    "ColorBlock": 523,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "1995-12-15T11:10:53.9461855+01:00",
+    "LastChanged": "2018-11-08T02:49:51.9065706+01:00",
     "ChildItems": [
       {
-        "Id": 324,
-        "Name": "Collier, Bernier and Rutherford",
-        "ToolTip": "Qui cum sint ea consectetur necessitatibus aspernatur quidem.",
-        "Deleted": true,
-        "Rank": 950,
-        "Type": "rem",
-        "ColorBlock": 350,
-        "IconHint": "est",
+        "Id": 470,
+        "Name": "Bartell-Lowe",
+        "ToolTip": "Eius dolorem corporis quos.",
+        "Deleted": false,
+        "Rank": 831,
+        "Type": "velit",
+        "ColorBlock": 337,
+        "IconHint": "earum",
         "Selected": true,
-        "LastChanged": "2008-11-20T11:10:53.9461855+01:00",
+        "LastChanged": "2018-05-05T02:49:51.9065706+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "aliquid",
-        "Hidden": false,
-        "FullName": "Thad Russel Jr.",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "saepe",
+        "Hidden": true,
+        "FullName": "Christy McLaughlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 638
+            "FieldType": "System.Int32",
+            "FieldLength": 141
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "excepturi",
-    "Hidden": true,
-    "FullName": "Mr. Cristina Nitzsche",
+    "ExtraInfo": "ut",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Junius Waters IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldType": "System.Int32",
+        "FieldLength": 320
       }
     }
   }

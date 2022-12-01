@@ -44,9 +44,9 @@ highlightedContent:
       itemType: how-to-guide
       url: getting-started/get-access-to-sod.md
     # Card
-    - title: "Get application keys"
+    - title: "Getting started"
       itemType: how-to-guide
-      url: getting-started/get-app-keys.md
+      url: ../developer-portal/create-app/index.md
     # Card
     - title: "Authentication"
       itemType: overview
@@ -125,9 +125,9 @@ conceptualContent:
         - text: Get access to SOD
           itemType: how-to-guide
           url: getting-started/get-access-to-sod.md
-        - text: Get app keys
+        - text: Create App
           itemType: how-to-guide
-          url: getting-started/get-app-keys.md
+          url: ../developer-portal/create-app/index.md
         - text: Best practices
           itemType: reference
           url: best-practices.md

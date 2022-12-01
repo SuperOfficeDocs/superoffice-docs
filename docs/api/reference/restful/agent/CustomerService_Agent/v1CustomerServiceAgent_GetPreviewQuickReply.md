@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 
 Get a quick reply from its quick reply id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a quick reply from its quick reply id
 ```http
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/CustomerService/GetPreviewQuickReply?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuickReplyId
+QuickReplyId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuickReplyId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 802
+  "QuickReplyId": 726
 }
 ```
 
@@ -83,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wilderman LLC",
-  "UpdatedByFullName": "Jamie Dibbert",
-  "Updated": "1995-07-15T11:10:26.4024233+02:00",
-  "HtmlBody": "fuga",
+  "Name": "Hane, Schumm and Howe",
+  "UpdatedByFullName": "Alessandro Jacobs",
+  "Updated": "2019-08-05T02:49:44.0285283+02:00",
+  "HtmlBody": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 383
     }
   }
 }

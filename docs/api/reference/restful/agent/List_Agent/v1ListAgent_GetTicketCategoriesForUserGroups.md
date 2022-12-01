@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 
 Ticket categories for user groups
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Ticket categories for user groups
 ```http
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserGroupIds
+UserGroupIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserGroupIds | array |  |
+
 
 ## Response: array
 
@@ -81,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    994,
-    282
+    855,
+    71
   ]
 }
 ```
@@ -95,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 344,
-    "Name": "Gleason Group",
-    "ToolTip": "Aut non voluptatum.",
+    "Id": 9,
+    "Name": "Rowe-Gusikowski",
+    "ToolTip": "Et et ea tempore amet impedit praesentium autem.",
     "Deleted": false,
-    "Rank": 863,
-    "Type": "labore",
+    "Rank": 82,
+    "Type": "distinctio",
     "ChildItems": [
       {
-        "Id": 158,
-        "Name": "Bernier, Pagac and Emmerich",
-        "ToolTip": "Rem accusamus expedita sunt nobis minima consequatur voluptatem.",
-        "Deleted": false,
-        "Rank": 181,
-        "Type": "corporis",
+        "Id": 404,
+        "Name": "Littel LLC",
+        "ToolTip": "Architecto dolore quia necessitatibus tenetur at quisquam debitis.",
+        "Deleted": true,
+        "Rank": 416,
+        "Type": "quibusdam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quaerat",
-        "ColorBlock": 329,
-        "ExtraInfo": "suscipit",
-        "StyleHint": "dolores",
-        "FullName": "Miss Roosevelt Justen Metz DDS",
+        "IconHint": "fugit",
+        "ColorBlock": 500,
+        "ExtraInfo": "similique",
+        "StyleHint": "qui",
+        "FullName": "Kraig Thaddeus Beier MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 682
+            "FieldLength": 990
           }
         }
       }
     ],
-    "IconHint": "nobis",
-    "ColorBlock": 554,
-    "ExtraInfo": "ut",
-    "StyleHint": "quidem",
-    "FullName": "Matilda Boehm",
+    "IconHint": "ea",
+    "ColorBlock": 69,
+    "ExtraInfo": "et",
+    "StyleHint": "nobis",
+    "FullName": "Bernita Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 103
+        "FieldType": "System.String",
+        "FieldLength": 352
       }
     }
   }

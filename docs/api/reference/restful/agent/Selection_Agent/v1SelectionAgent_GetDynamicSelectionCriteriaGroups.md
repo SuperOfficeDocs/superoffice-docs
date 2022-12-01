@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 
 Get the criteria for this dynamic selection.
 
+
 This call supports multiple criteria groups.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This call supports multiple criteria groups.
 ```http
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId
+SelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
+
 
 ## Response: array
 
@@ -68,11 +76,11 @@ Response body: array
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 532
+  "SelectionId": 345
 }
 ```
 
@@ -84,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mitchell, Monahan and Brown",
-    "Description": "Cross-platform scalable ability",
-    "Rank": 69,
+    "Name": "Effertz-Koelpin",
+    "Description": "Cloned actuating collaboration",
+    "Rank": 177,
     "Restrictions": [
       {
-        "Name": "Kemmer Group",
-        "Operator": "perspiciatis",
+        "Name": "Hahn-Kovacek",
+        "Operator": "aut",
         "Values": [
-          "maiores",
-          "delectus"
+          "iure",
+          "quisquam"
         ],
         "DisplayValues": [
-          "ab",
-          "magnam"
+          "minima",
+          "cumque"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -105,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 690,
+        "InterParenthesis": 240,
         "InterOperator": "And",
-        "UniqueHash": 609
+        "UniqueHash": 138
       }
     ]
   },
   {
-    "Name": "Mitchell, Monahan and Brown",
-    "Description": "Cross-platform scalable ability",
-    "Rank": 69,
+    "Name": "Effertz-Koelpin",
+    "Description": "Cloned actuating collaboration",
+    "Rank": 177,
     "Restrictions": [
       {
-        "Name": "Kemmer Group",
-        "Operator": "perspiciatis",
+        "Name": "Hahn-Kovacek",
+        "Operator": "aut",
         "Values": [
-          "maiores",
-          "delectus"
+          "iure",
+          "quisquam"
         ],
         "DisplayValues": [
-          "ab",
-          "magnam"
+          "minima",
+          "cumque"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -133,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 690,
+        "InterParenthesis": 240,
         "InterOperator": "And",
-        "UniqueHash": 609
+        "UniqueHash": 138
       }
     ]
   }

@@ -11,10 +11,16 @@ POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 
 Create a copy of a PriceList in the SuperOffice database
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | originalPriceListId | int32 | Id of the PriceList to be copied **Required** |
 | newName | string | Name of the copied PriceList **Required** |
+
 
 ## Query String Parameters
 
@@ -26,11 +32,12 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=03/28/2004 11:10:55
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=05/24/2003 11:10:55
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=580
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=03/17/2010 02:49:53
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=10/26/2017 02:49:53
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=953
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
+
 
 ## Request Headers
 
@@ -45,7 +52,8 @@ POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=Fa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +84,7 @@ Response body:
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,22 +94,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 887,
-  "ERPPriceListKey": "vero",
-  "QuoteConnectionId": 700,
-  "Name": "Lakin-Hills",
-  "Description": "Realigned contextually-based collaboration",
-  "Currency": "aspernatur",
-  "CurrencyName": "Von Inc and Sons",
-  "ValidFrom": "2011-07-16T11:10:54.3909023+02:00",
-  "ValidTo": "1999-03-24T11:10:54.3909023+01:00",
-  "IsActive": true,
+  "PriceListId": 653,
+  "ERPPriceListKey": "exercitationem",
+  "QuoteConnectionId": 898,
+  "Name": "Champlin, Powlowski and Keeling",
+  "Description": "Vision-oriented content-based attitude",
+  "Currency": "aut",
+  "CurrencyName": "Powlowski-Fahey",
+  "ValidFrom": "1997-03-06T02:49:52.3284476+01:00",
+  "ValidTo": "2003-08-25T02:49:52.3284476+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldLength": 632
     }
   }
 }

@@ -11,6 +11,7 @@ GET /api/v1/Archive/{archiveProviderName}
 
 Returns archive providers in OData format.
 
+
 Supports JSON and ATOM+XML results based on Accept headers. Supports OData query parameters:
 <ul><li>$select=col1,col2,abc/col3</li><li>$filter=col1 eq 'foo' and startswith(col2, 'baz')</li><li>$orderby=col1,abc/col3</li><li>$top=1000</li><li>$options=GrandTotal=true</li><li>$context=foo</li><li>$format=json</li></ul>
 ## Filter Operators: ##
@@ -19,9 +20,9 @@ ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -29,14 +30,14 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
-OData returns XML or JSON carriers depending on the Accept headers. $format can also be used to
-control the response format via the URL.
+
+OData returns XML or JSON carriers depending on the Accept headers. $format can also be used to 
+control the response format via the URL. 
 
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-
 * GroupBy(col)
 * Sum(col)
 * Avg(col)
@@ -45,14 +46,15 @@ You add functions and modifiers to the column name to trigger aggregation.
 * CountAll(col)
 * DatePart(col)
 
-You add modifiers to the end of the column name to trigger aggregation.
 
+
+You add modifiers to the end of the column name to trigger aggregation.
 * :Header
 * :Footer
 * :HideDetail
 
-DatePart specific modifiers
 
+DatePart specific modifiers
 * :Year
 * :Quarter
 * :Month
@@ -65,6 +67,7 @@ DatePart specific modifiers
 * :YearWeekno
 * :YearQuarter
 
+
 Example: group last names together, and inject a header row for each group.
 
 ```
@@ -73,7 +76,7 @@ GroupBy(lastName):Header
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
+Example: count instances of middle names, and hide the individual rows, 
 report just the totals for each group using a footer. Note how the modifiers stack.
 
 ```
@@ -104,9 +107,15 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 
 ```
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | archiveProviderName | string | Archive Provider name: FindContact, Person, Product, etc. Call with blank name to get a list of names. **Required** |
+
 
 ## Query String Parameters
 
@@ -131,18 +140,19 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=dolore
-GET /api/v1/Archive/{archiveProviderName}?$top=169
-GET /api/v1/Archive/{archiveProviderName}?$skip=376
+GET /api/v1/Archive/{archiveProviderName}?$entities=nobis
+GET /api/v1/Archive/{archiveProviderName}?$top=854
+GET /api/v1/Archive/{archiveProviderName}?$skip=490
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=animi
+GET /api/v1/Archive/{archiveProviderName}?$context=voluptas
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=aut
+GET /api/v1/Archive/{archiveProviderName}?$metadata=suscipit
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
-GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
+GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -157,7 +167,8 @@ GET /api/v1/Archive/{archiveProviderName}?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -165,7 +176,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -179,7 +190,7 @@ Response body:
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -190,19 +201,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ipsa",
+  "odata.nextLink": "dolor",
   "value": [
     {
-      "PrimaryKey": 4960,
+      "PrimaryKey": 7993,
       "EntityName": "person",
-      "personId": 4960,
-      "fullName": "Mrs. Amely Amaya Koch"
+      "personId": 7993,
+      "fullName": "Prof. Sandy Lesly Greenholt"
     },
     {
-      "PrimaryKey": 7125,
+      "PrimaryKey": 9661,
       "EntityName": "person",
-      "personId": 7125,
-      "fullName": "Jonathan Mann"
+      "personId": 9661,
+      "fullName": "Mr. Carroll Shannon Bartell"
     }
   ]
 }

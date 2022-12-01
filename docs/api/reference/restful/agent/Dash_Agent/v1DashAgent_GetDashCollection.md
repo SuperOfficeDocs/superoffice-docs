@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetDashCollection
 
 Gets a collection of dashboards for the current associate
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a collection of dashboards for the current associate
 ```http
 POST /api/v1/Agents/Dash/GetDashCollection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,8 @@ POST /api/v1/Agents/Dash/GetDashCollection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -42,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +66,7 @@ Response body:
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,111 +78,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 839,
-      "UniqueId": "et",
-      "Name": "Rowe-Cummings",
-      "Description": "Function-based zero tolerance methodology",
-      "AssociateId": 991,
-      "Columns": 295,
+      "DashboardId": 626,
+      "UniqueId": "dignissimos",
+      "Name": "Douglas, Lebsack and Hirthe",
+      "Description": "Stand-alone multimedia data-warehouse",
+      "AssociateId": 141,
+      "Columns": 974,
       "Theme": null,
-      "VisibleForAll": 739,
+      "VisibleForAll": 119,
       "VisibleForAssociates": [
-        105,
-        335
+        721,
+        187
       ],
       "VisibleForGroups": [
-        227,
-        523
+        844,
+        868
       ],
-      "PinForAll": 777,
+      "PinForAll": 791,
       "PinForAssociates": [
-        544,
-        295
+        378,
+        671
       ],
       "PinForGroups": [
-        965,
-        172
+        830,
+        950
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 397
+          "FieldLength": 333
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 34,
-      "UniqueId": "incidunt",
-      "Name": "Rogahn-Kerluke",
-      "Description": "Re-contextualized needs-based toolset",
-      "AssociateId": 913,
-      "Columns": 496,
+      "DashboardId": 79,
+      "UniqueId": "est",
+      "Name": "Runolfsson, Buckridge and Greenfelder",
+      "Description": "Implemented optimal ability",
+      "AssociateId": 371,
+      "Columns": 871,
       "Theme": null,
-      "VisibleForAll": 247,
+      "VisibleForAll": 554,
       "VisibleForAssociates": [
-        896,
-        18
+        80,
+        744
       ],
       "VisibleForGroups": [
-        473,
-        48
+        711,
+        477
       ],
-      "PinForAll": 179,
+      "PinForAll": 403,
       "PinForAssociates": [
-        757,
-        905
+        250,
+        132
       ],
       "PinForGroups": [
-        929,
-        707
+        142,
+        167
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 827
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 544,
-      "UniqueId": "mollitia",
-      "Name": "Stehr-Collins",
-      "Description": "Cross-group attitude-oriented paradigm",
-      "AssociateId": 182,
+      "DashboardId": 833,
+      "UniqueId": "et",
+      "Name": "Kessler LLC",
+      "Description": "User-centric actuating implementation",
+      "AssociateId": 865,
       "Columns": 704,
       "Theme": null,
-      "VisibleForAll": 126,
+      "VisibleForAll": 816,
       "VisibleForAssociates": [
-        323,
-        707
+        203,
+        608
       ],
       "VisibleForGroups": [
-        606,
-        309
+        633,
+        922
       ],
-      "PinForAll": 286,
+      "PinForAll": 17,
       "PinForAssociates": [
-        566,
-        990
+        613,
+        275
       ],
       "PinForGroups": [
-        610,
-        649
+        575,
+        489
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 52
+          "FieldLength": 774
         }
       }
     }
@@ -183,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldType": "System.String",
+      "FieldLength": 618
     }
   }
 }

@@ -11,11 +11,17 @@ GET /api/v1/List/Credited/Items/{itemId}/Headings
 
 Gets headings for the Credited list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Kunze-Deckow",
-    "ToolTip": "Dolor soluta voluptatibus sit fugit harum possimus qui.",
+    "Id": 918,
+    "Name": "Towne-Auer",
+    "ToolTip": "Tempore quam repudiandae totam itaque laboriosam.",
     "Deleted": false,
-    "Rank": 473,
-    "Type": "vel",
-    "ColorBlock": 39,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2021-06-20T11:10:54.0382159+02:00",
+    "Rank": 714,
+    "Type": "minima",
+    "ColorBlock": 794,
+    "IconHint": "tempore",
+    "Selected": false,
+    "LastChanged": "2021-08-13T02:49:52.1878148+02:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Quigley-Howe",
-        "ToolTip": "Possimus nesciunt at rerum.",
+        "Id": 228,
+        "Name": "Kovacek-Dooley",
+        "ToolTip": "Velit voluptatum quaerat explicabo quam eaque tempore.",
         "Deleted": true,
-        "Rank": 438,
-        "Type": "et",
-        "ColorBlock": 585,
-        "IconHint": "soluta",
+        "Rank": 466,
+        "Type": "illo",
+        "ColorBlock": 971,
+        "IconHint": "id",
         "Selected": true,
-        "LastChanged": "2012-02-16T11:10:54.0382159+01:00",
+        "LastChanged": "2020-12-07T02:49:52.1878148+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "quia",
+        "ExtraInfo": "esse",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Kirk Ortiz",
+        "FullName": "Ibrahim Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 509
+            "FieldLength": 172
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "explicabo",
-    "Hidden": true,
-    "FullName": "Hollis Senger",
+    "ExtraInfo": "nobis",
+    "StyleHint": "tenetur",
+    "Hidden": false,
+    "FullName": "Dr. Orrin Norval Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 112
+        "FieldLength": 352
       }
     }
   }

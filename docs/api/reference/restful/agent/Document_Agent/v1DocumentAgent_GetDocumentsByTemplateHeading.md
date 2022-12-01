@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 
 Method that returns document appointments, filtered by the document template heading.
 
+
 The heading represents a grouping or filtering of document templates.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The heading represents a grouping or filtering of document templates.
 ```http
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TemplateHeadingId
+TemplateHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TemplateHeadingId | int32 |  |
+
 
 ## Response: array
 
@@ -86,11 +94,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 402
+  "TemplateHeadingId": 91
 }
 ```
 
@@ -102,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 703,
-    "Attention": "quia",
-    "Header": "natus",
-    "Name": "Murphy-Little",
-    "OurRef": "fugit",
-    "YourRef": "ad",
-    "Description": "Polarised system-worthy Graphic Interface",
-    "DocumentTemplate": "et",
-    "IsPublished": false,
-    "PersonId": 978,
-    "PersonFullName": "Jayce Leannon",
-    "AssociateFullName": "Kole Schamberger",
-    "ContactId": 560,
-    "ContactName": "Raynor Group",
-    "ProjectId": 451,
-    "ProjectName": "Swaniawski-Kerluke",
-    "AssociateId": 91,
-    "Snum": 55,
-    "SaleId": 502,
-    "SaleName": "Smitham-Marquardt",
+    "DocumentId": 393,
+    "Attention": "facere",
+    "Header": "aperiam",
+    "Name": "Orn, Kuphal and Franecki",
+    "OurRef": "laudantium",
+    "YourRef": "facilis",
+    "Description": "Re-contextualized regional capacity",
+    "DocumentTemplate": "quo",
+    "IsPublished": true,
+    "PersonId": 306,
+    "PersonFullName": "Alexandro Mueller",
+    "AssociateFullName": "Jodie Arlo Ruecker Jr.",
+    "ContactId": 562,
+    "ContactName": "Krajcik, Grant and Sipes",
+    "ProjectId": 94,
+    "ProjectName": "Barton-Gutmann",
+    "AssociateId": 377,
+    "Snum": 653,
+    "SaleId": 270,
+    "SaleName": "Weissnat Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 573
+        "FieldType": "System.Int32",
+        "FieldLength": 138
       }
     }
   }

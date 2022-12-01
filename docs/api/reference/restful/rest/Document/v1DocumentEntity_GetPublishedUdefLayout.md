@@ -11,6 +11,13 @@ GET /api/v1/Document/UdefLayout/Published
 
 Currently published DocumentEntity user-defined field layout.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -23,6 +30,7 @@ Currently published DocumentEntity user-defined field layout.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -79,7 +87,7 @@ Response body: array
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 528,
-    "ColumnId": 393,
-    "FieldDefault": "quia",
-    "FieldHeight": 402,
-    "FieldLabel": "tempore",
-    "FieldLeft": 665,
-    "FieldTop": 234,
+    "UDefFieldId": 612,
+    "ColumnId": 625,
+    "FieldDefault": "similique",
+    "FieldHeight": 381,
+    "FieldLabel": "dolor",
+    "FieldLeft": 763,
+    "FieldTop": 980,
     "FieldType": "Checkbox",
-    "FieldWidth": 5,
-    "FormatMask": "consequatur",
+    "FieldWidth": 331,
+    "FormatMask": "quisquam",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 538,
-    "LabelLeft": 169,
-    "LabelTop": 733,
-    "LabelWidth": 11,
-    "LastVersionId": 364,
-    "ListTableId": 47,
-    "IsMandatory": true,
+    "LabelHeight": 19,
+    "LabelLeft": 937,
+    "LabelTop": 573,
+    "LabelWidth": 168,
+    "LastVersionId": 744,
+    "ListTableId": 317,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 682,
-    "ProgId": "voluptatibus",
-    "IsReadOnly": false,
-    "ShortLabel": "voluptas",
-    "TabOrder": 580,
-    "TextLength": 923,
-    "Tooltip": "repellendus",
-    "UdefIdentity": 626,
-    "UDListDefinitionId": 902,
+    "Page1LineNo": 805,
+    "ProgId": "nostrum",
+    "IsReadOnly": true,
+    "ShortLabel": "esse",
+    "TabOrder": 517,
+    "TextLength": 774,
+    "Tooltip": "quo",
+    "UdefIdentity": 144,
+    "UDListDefinitionId": 460,
     "Justification": "Center",
-    "Version": 550,
-    "TemplateVariableName": "Fay, Cummerata and Carter",
+    "Version": 397,
+    "TemplateVariableName": "Dicki-Strosin",
     "HasBeenPublished": false,
-    "MdoListName": "Boyle-Mayert",
+    "MdoListName": "Zemlak Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 426
+        "FieldLength": 797
       }
     }
   }

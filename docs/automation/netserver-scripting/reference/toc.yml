@@ -357,6 +357,10 @@ items:
     href: batchagent/deletebatchtask.md
   - name: DeleteBatchTasks
     href: batchagent/deletebatchtasks.md
+  - name: GetAllBatchTaskInfosByName
+    href: batchagent/getallbatchtaskinfosbyname.md
+  - name: GetAllBatchTaskInfosByNameAndState
+    href: batchagent/getallbatchtaskinfosbynameandstate.md
   - name: GetBatchTaskInfo
     href: batchagent/getbatchtaskinfo.md
   - name: GetBatchTaskInfosByAssociates
@@ -369,6 +373,10 @@ items:
     href: batchagent/getbatchtaskinfosbynameandstate.md
   - name: GetBatchTaskInfosByState
     href: batchagent/getbatchtaskinfosbystate.md
+  - name: GetSystemBatchTaskInfosByName
+    href: batchagent/getsystembatchtaskinfosbyname.md
+  - name: GetSystemBatchTaskInfosByNameAndState
+    href: batchagent/getsystembatchtaskinfosbynameandstate.md
   - name: StartBatchJob
     href: batchagent/startbatchjob.md
   - name: StopBatchJob
@@ -545,6 +553,8 @@ items:
     href: contactagent/copy.md
   - name: CreateDefaultContactEntity
     href: contactagent/createdefaultcontactentity.md
+  - name: CreateDefaultPreviewContact
+    href: contactagent/createdefaultpreviewcontact.md
   - name: CreateNewEntry
     href: contactagent/createnewentry.md
   - name: DeleteContactEntity
@@ -583,6 +593,8 @@ items:
     href: contactagent/getnamedepartmentduplicates.md
   - name: GetPersons
     href: contactagent/getpersons.md
+  - name: GetPreviewContact
+    href: contactagent/getpreviewcontact.md
   - name: GetQuoteVersionAddresses
     href: contactagent/getquoteversionaddresses.md
   - name: IsNumberValid
@@ -709,10 +721,14 @@ items:
     href: customerserviceagent/getstatistics.md
   - name: GetSystemTemplateSettings
     href: customerserviceagent/getsystemtemplatesettings.md
+  - name: GetUnparsedTemplate
+    href: customerserviceagent/getunparsedtemplate.md
   - name: HasChatNotify
     href: customerserviceagent/haschatnotify.md
   - name: RemoveSession
     href: customerserviceagent/removesession.md
+  - name: ReportSessionActive
+    href: customerserviceagent/reportsessionactive.md
   - name: SaveAllCustomerCenterConfigs
     href: customerserviceagent/saveallcustomercenterconfigs.md
   - name: SaveCustomerCenterConfig
@@ -1195,6 +1211,8 @@ items:
     href: emailagent/getemailsasstring.md
   - name: GetEMailSOInfo
     href: emailagent/getemailsoinfo.md
+  - name: GetExtendedEmailMessageIds
+    href: emailagent/getextendedemailmessageids.md
   - name: GetFolderEMailCount
     href: emailagent/getfolderemailcount.md
   - name: GetFolderHasNewEMail
@@ -1395,6 +1413,8 @@ items:
     href: favouriteagent/addfavourite.md
   - name: AddFavourites
     href: favouriteagent/addfavourites.md
+  - name: AddTicketsToFavouritesByProvider
+    href: favouriteagent/addticketstofavouritesbyprovider.md
   - name: GetFavourites
     href: favouriteagent/getfavourites.md
   - name: IsFavourite
@@ -1403,8 +1423,12 @@ items:
     href: favouriteagent/removeallfavourites.md
   - name: RemoveFavourite
     href: favouriteagent/removefavourite.md
+  - name: RemoveFavourites
+    href: favouriteagent/removefavourites.md
   - name: RemoveFavouritesById
     href: favouriteagent/removefavouritesbyid.md
+  - name: RemoveTicketsFromFavouritesByProvider
+    href: favouriteagent/removeticketsfromfavouritesbyprovider.md
   - name: ToggleFavourite
     href: favouriteagent/togglefavourite.md
 - name: FindAgent
@@ -1552,6 +1576,8 @@ items:
     href: freetextagent/addwords.md
   - name: DeleteStopWordsById
     href: freetextagent/deletestopwordsbyid.md
+  - name: FreetextIndexRows
+    href: freetextagent/freetextindexrows.md
   - name: GetStatus
     href: freetextagent/getstatus.md
   - name: GetStopWordList
@@ -3154,8 +3180,16 @@ items:
     href: targetsagent/createdefaulttargetassignment.md
   - name: CreateDefaultTargetAssignmentForCompany
     href: targetsagent/createdefaulttargetassignmentforcompany.md
+  - name: CreateDefaultTargetAssignmentForCompanyWithDimension
+    href: targetsagent/createdefaulttargetassignmentforcompanywithdimension.md
+  - name: CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
+    href: targetsagent/createdefaulttargetassignmentforcompanywithyearanddimension.md
   - name: CreateDefaultTargetAssignmentForUserGroup
     href: targetsagent/createdefaulttargetassignmentforusergroup.md
+  - name: CreateDefaultTargetAssignmentForUserGroupWithDimension
+    href: targetsagent/createdefaulttargetassignmentforusergroupwithdimension.md
+  - name: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
+    href: targetsagent/createdefaulttargetassignmentforusergroupwithyearanddimension.md
   - name: CreateDefaultTargetDimension
     href: targetsagent/createdefaulttargetdimension.md
   - name: CreateDefaultTargetGroup
@@ -3172,6 +3206,8 @@ items:
     href: targetsagent/exporttargetgrouptoexcel.md
   - name: GetTargetAssignmentForYear
     href: targetsagent/gettargetassignmentforyear.md
+  - name: GetTargetAssignmentForYearAndDimension
+    href: targetsagent/gettargetassignmentforyearanddimension.md
   - name: GetTargetDimension
     href: targetsagent/gettargetdimension.md
   - name: GetTargetDimensionsForEntityType
@@ -3180,6 +3216,8 @@ items:
     href: targetsagent/gettargetgroup.md
   - name: GetTargetGroupForYear
     href: targetsagent/gettargetgroupforyear.md
+  - name: GetTargetGroupForYearAndDimension
+    href: targetsagent/gettargetgroupforyearanddimension.md
   - name: GetTargetGroupIds
     href: targetsagent/gettargetgroupids.md
   - name: GetTargetRevisionHistory
@@ -3193,6 +3231,10 @@ items:
   items:
   - name: AddAttachments
     href: ticketagent/addattachments.md
+  - name: BatchForward
+    href: ticketagent/batchforward.md
+  - name: BatchReply
+    href: ticketagent/batchreply.md
   - name: CalculateMessageRecipients
     href: ticketagent/calculatemessagerecipients.md
   - name: CreateDefaultAttachmentEntity
@@ -3201,6 +3243,8 @@ items:
     href: ticketagent/createdefaultticketentity.md
   - name: CreateDefaultTicketMessageEntity
     href: ticketagent/createdefaultticketmessageentity.md
+  - name: DeleteMessageHeaders
+    href: ticketagent/deletemessageheaders.md
   - name: DeleteTicketEntity
     href: ticketagent/deleteticketentity.md
   - name: DeleteTicketMessageEntity
@@ -3237,12 +3281,18 @@ items:
     href: ticketagent/getticketsummaries.md
   - name: Html2Text
     href: ticketagent/html2text.md
+  - name: MergeTickets
+    href: ticketagent/mergetickets.md
   - name: NotifyNewTicket
     href: ticketagent/notifynewticket.md
   - name: NotifyNewTicketMessage
     href: ticketagent/notifynewticketmessage.md
   - name: ProcessTicketWhenRead
     href: ticketagent/processticketwhenread.md
+  - name: RemoveMessageAttachments
+    href: ticketagent/removemessageattachments.md
+  - name: ResolveTicketId
+    href: ticketagent/resolveticketid.md
   - name: SanitizeMailContent
     href: ticketagent/sanitizemailcontent.md
   - name: SanitizeMailContents
@@ -3257,14 +3307,28 @@ items:
     href: ticketagent/saveticketmessageentity.md
   - name: SaveTicketMessageEntityWithNotify
     href: ticketagent/saveticketmessageentitywithnotify.md
+  - name: SaveTicketMessageEntityWithOptions
+    href: ticketagent/saveticketmessageentitywithoptions.md
   - name: SendTicketMessage
     href: ticketagent/sendticketmessage.md
   - name: SendTicketMessageSms
     href: ticketagent/sendticketmessagesms.md
+  - name: SetDeletedStatusByIds
+    href: ticketagent/setdeletedstatusbyids.md
+  - name: SetDeletedStatusByProvider
+    href: ticketagent/setdeletedstatusbyprovider.md
   - name: SetTicketMessageImportant
     href: ticketagent/setticketmessageimportant.md
   - name: SetTicketReadByOwner
     href: ticketagent/setticketreadbyowner.md
+  - name: SplitTicket
+    href: ticketagent/splitticket.md
+  - name: SplitTicketMessage
+    href: ticketagent/splitticketmessage.md
+  - name: UpdateTicketsReadStatus
+    href: ticketagent/updateticketsreadstatus.md
+  - name: UpdateTicketsReadStatusByProvider
+    href: ticketagent/updateticketsreadstatusbyprovider.md
   - name: UploadAttachment
     href: ticketagent/uploadattachment.md
 - name: TimeZoneAgent
@@ -3276,6 +3340,8 @@ items:
     href: timezoneagent/deletetimezones.md
   - name: GetBaseTimeZoneId
     href: timezoneagent/getbasetimezoneid.md
+  - name: GetDefaultTimeZoneInformation
+    href: timezoneagent/getdefaulttimezoneinformation.md
   - name: GetDefaultTimeZonePreference
     href: timezoneagent/getdefaulttimezonepreference.md
   - name: InitializeTimeZoneData

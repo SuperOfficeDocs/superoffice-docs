@@ -20,13 +20,13 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
   items:
     # Card
+    - title: "Configurable screens"
+      itemType: overview
+      url: screen-designer/index.md
+    # Card
     - title: "Web application API"
       itemType: reference
       url: web-app/index.yml
-    # Card
-    - title: "Custom screens"
-      itemType: overview
-      url: blogic/index.yml
     # Card
     - title: "bLogic screen element reference"
       itemType: reference
@@ -41,6 +41,31 @@ conceptualContent:
   title: "" # < 60 chars (optional)
   summary: ""
   items:
+    # Card
+    - title: Configurable screens
+      summary: "Configurable screens enable CRM Administrators to customize SuperOffice CRM user interface controls."
+      links:
+        - url: screen-designer/index.md
+          itemType: concept
+          text: Intro
+        - text: Add a layout
+          itemType: how-to-guide
+          url: screen-designer/configurable-screens/add-layout.md
+        - text: Edit the layout of a card
+          itemType: how-to-guide
+          url: screen-designer/configurable-screens/edit-card-layout.md
+        - text: Working with fields
+          itemType: how-to-guide
+          url: screen-designer/configurable-screens/working-with-fields.md
+        - text: Add a link or button
+          itemType: how-to-guide
+          url: screen-designer/configurable-screens/add-button.md
+        - text: Working with tabs
+          itemType: how-to-guide
+          url: screen-designer/configurable-screens/working-with-tabs.md
+        - text: Assign layout to group or sale/project type
+          itemType: how-to-guide
+          url: screen-designer/configurable-screens/assign-layout.md
     # Card
     - title: Web panels
       summary: ""

@@ -11,9 +11,16 @@ GET /api/v1/List/ProjectType/Items/{id}
 
 Gets a ProjectType  item by id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ProjectType to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Gets a ProjectType  item by id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -37,7 +45,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Hudson LLC",
-  "Tooltip": "in",
-  "Deleted": false,
-  "UdListDefinitionId": 57,
-  "Rank": 433,
+  "Id": 473,
+  "Name": "McClure-Bogan",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "UdListDefinitionId": 849,
+  "Rank": 813,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 768
     }
   }
 }

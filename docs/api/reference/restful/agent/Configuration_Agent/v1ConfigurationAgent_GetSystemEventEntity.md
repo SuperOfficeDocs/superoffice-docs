@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetSystemEventEntity
 
 Gets a SystemEventEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SystemEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=383
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=487
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +75,7 @@ Response body:
 POST /api/v1/Agents/Configuration/GetSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 771,
+  "SystemEventId": 778,
   "Scope": "Database",
-  "Eta": "2000-08-26T11:10:26.2135242+02:00",
-  "Eventkey": "soluta",
-  "Eventmess": "excepturi",
-  "ExtraInfo": 432,
-  "Owner": 781,
-  "UpdatedCount": 799,
-  "Registered": "2005-09-14T11:10:26.2145219+02:00",
+  "Eta": "2009-02-11T02:49:43.8722795+01:00",
+  "Eventkey": "nisi",
+  "Eventmess": "velit",
+  "ExtraInfo": 288,
+  "Owner": 483,
+  "UpdatedCount": 74,
+  "Registered": "2009-02-11T02:49:43.8722795+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldLength": 184
     }
   }
 }

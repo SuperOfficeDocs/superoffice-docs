@@ -11,7 +11,14 @@ PUT /api/v1/List/Credited/Headings
 
 Saves headings for the Credited list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 280,
-    "Name": "Hermann-Reynolds",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 103,
-    "UdListDefinitionId": 496
+    "HeadingId": 554,
+    "Name": "Hudson, Rosenbaum and Lockman",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "Rank": 396,
+    "UdListDefinitionId": 204
   },
   {
-    "HeadingId": 280,
-    "Name": "Hermann-Reynolds",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 103,
-    "UdListDefinitionId": 496
+    "HeadingId": 554,
+    "Name": "Hudson, Rosenbaum and Lockman",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "Rank": 396,
+    "UdListDefinitionId": 204
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 643,
-    "Name": "Will, Carroll and Parker",
-    "Tooltip": "qui",
+    "HeadingId": 895,
+    "Name": "Wisozk LLC",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "Rank": 505,
-    "UdListDefinitionId": 507,
+    "Rank": 62,
+    "UdListDefinitionId": 703,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldType": "System.String",
+        "FieldLength": 661
       }
     }
   }

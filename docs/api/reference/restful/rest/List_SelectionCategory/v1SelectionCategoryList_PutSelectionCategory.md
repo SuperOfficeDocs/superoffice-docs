@@ -11,9 +11,16 @@ PUT /api/v1/List/SelectionCategory/Items/{id}
 
 Updates an existing SelectionCategory list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of SelectionCategory to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing SelectionCategory list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of SelectionCategory list item to be saved.
+The details of SelectionCategory list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The details of SelectionCategory list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,16 +78,16 @@ Response body:
 PUT /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 16,
-  "Name": "Ebert, Johnston and Hoppe",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "UdListDefinitionId": 53,
-  "Rank": 903
+  "Id": 137,
+  "Name": "Barrows-Orn",
+  "Tooltip": "unde",
+  "Deleted": false,
+  "UdListDefinitionId": 737,
+  "Rank": 229
 }
 ```
 
@@ -90,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 34,
-  "Name": "Deckow, Vandervort and Hartmann",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 641,
-  "Rank": 637,
+  "Id": 673,
+  "Name": "Bailey-Luettgen",
+  "Tooltip": "perferendis",
+  "Deleted": true,
+  "UdListDefinitionId": 385,
+  "Rank": 356,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 730
     }
   }
 }

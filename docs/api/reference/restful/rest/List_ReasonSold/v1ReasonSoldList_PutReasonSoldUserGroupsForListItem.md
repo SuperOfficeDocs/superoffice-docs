@@ -11,11 +11,18 @@ PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ReasonSold list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Kreiger, Goyette and Zboncak",
-    "ToolTip": "Accusamus illum totam enim quia vero ad.",
-    "Deleted": false,
-    "Rank": 591,
-    "Type": "hic",
-    "ColorBlock": 565,
-    "IconHint": "dolores",
+    "Id": 14,
+    "Name": "Bins Inc and Sons",
+    "ToolTip": "Totam itaque velit qui.",
+    "Deleted": true,
+    "Rank": 492,
+    "Type": "facere",
+    "ColorBlock": 352,
+    "IconHint": "distinctio",
     "Selected": false,
-    "LastChanged": "2018-09-22T11:10:54.5689365+02:00",
+    "LastChanged": "2022-11-26T02:49:52.4846993+01:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Hintz-Pfannerstill",
-        "ToolTip": "Vitae omnis eum.",
-        "Deleted": false,
-        "Rank": 343,
-        "Type": "sed",
-        "ColorBlock": 771,
-        "IconHint": "possimus",
-        "Selected": true,
-        "LastChanged": "2022-04-28T11:10:54.5689365+02:00",
+        "Id": 794,
+        "Name": "Bosco, Kling and Erdman",
+        "ToolTip": "Id odit sapiente placeat autem rem qui quia.",
+        "Deleted": true,
+        "Rank": 50,
+        "Type": "ut",
+        "ColorBlock": 658,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2017-12-12T02:49:52.4846993+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "omnis",
+        "ExtraInfo": "earum",
+        "StyleHint": "consequuntur",
         "Hidden": false,
-        "FullName": "America Treutel"
+        "FullName": "Miss Ford Jazmin Trantow Jr."
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "quo",
+    "StyleHint": "ducimus",
     "Hidden": true,
-    "FullName": "Mr. Nedra Kuhn"
+    "FullName": "Ryley Oberbrunner"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Kling Group",
-    "ToolTip": "Autem et voluptatibus dignissimos sunt similique consequatur et.",
+    "Id": 440,
+    "Name": "Jaskolski Inc and Sons",
+    "ToolTip": "Sit iste quia aut.",
     "Deleted": false,
-    "Rank": 651,
-    "Type": "omnis",
-    "ColorBlock": 52,
-    "IconHint": "provident",
-    "Selected": true,
-    "LastChanged": "2009-02-21T11:10:54.5699354+01:00",
+    "Rank": 889,
+    "Type": "perspiciatis",
+    "ColorBlock": 262,
+    "IconHint": "dolorum",
+    "Selected": false,
+    "LastChanged": "1998-11-03T02:49:52.4846993+01:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Buckridge, Legros and Bins",
-        "ToolTip": "Ut impedit aliquid repellendus voluptas.",
-        "Deleted": false,
-        "Rank": 570,
-        "Type": "dolorem",
-        "ColorBlock": 490,
-        "IconHint": "laboriosam",
+        "Id": 140,
+        "Name": "Champlin, Labadie and Hudson",
+        "ToolTip": "Quia qui quasi nulla ipsa asperiores.",
+        "Deleted": true,
+        "Rank": 196,
+        "Type": "qui",
+        "ColorBlock": 156,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2011-03-19T11:10:54.570935+01:00",
+        "LastChanged": "2005-04-14T02:49:52.4846993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "molestias",
-        "Hidden": true,
-        "FullName": "Dr. Hassie Myrl VonRueden",
+        "ExtraInfo": "magnam",
+        "StyleHint": "occaecati",
+        "Hidden": false,
+        "FullName": "Miss Earnest Brock Herman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 80
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "quasi",
-    "Hidden": true,
-    "FullName": "Sallie Sporer",
+    "ExtraInfo": "ad",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Seth Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldLength": 290
       }
     }
   }

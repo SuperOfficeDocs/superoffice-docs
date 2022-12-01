@@ -11,11 +11,18 @@ PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 
 Saves headings for the ProjectType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Ondricka, Goodwin and Parisian",
-    "ToolTip": "Omnis odit consequatur impedit consequuntur quibusdam.",
-    "Deleted": false,
-    "Rank": 909,
-    "Type": "tenetur",
-    "ColorBlock": 44,
-    "IconHint": "delectus",
+    "Id": 471,
+    "Name": "Wolff, Considine and Goodwin",
+    "ToolTip": "Fuga blanditiis voluptas veniam ratione sequi ut.",
+    "Deleted": true,
+    "Rank": 943,
+    "Type": "suscipit",
+    "ColorBlock": 824,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2021-04-21T11:10:54.4919301+02:00",
+    "LastChanged": "2021-06-17T02:49:52.4065764+02:00",
     "ChildItems": [
       {
-        "Id": 175,
-        "Name": "Halvorson, Turner and Abbott",
-        "ToolTip": "Reprehenderit soluta.",
-        "Deleted": true,
-        "Rank": 690,
-        "Type": "impedit",
-        "ColorBlock": 694,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2012-03-21T11:10:54.4919301+01:00",
+        "Id": 300,
+        "Name": "Bruen-Upton",
+        "ToolTip": "Enim qui modi vero laboriosam architecto.",
+        "Deleted": false,
+        "Rank": 497,
+        "Type": "tempora",
+        "ColorBlock": 36,
+        "IconHint": "rem",
+        "Selected": true,
+        "LastChanged": "1998-06-05T02:49:52.4065764+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "non",
+        "ExtraInfo": "ea",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Nikki Hermann"
+        "FullName": "Rory Reichert"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "laudantium",
-    "Hidden": false,
-    "FullName": "Miss Ernestina Jones DVM"
+    "ExtraInfo": "porro",
+    "StyleHint": "velit",
+    "Hidden": true,
+    "FullName": "Mr. Carolyne Pearline Langosh"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Gusikowski LLC",
-    "ToolTip": "Ut et officia modi.",
-    "Deleted": true,
-    "Rank": 860,
-    "Type": "voluptas",
-    "ColorBlock": 391,
+    "Id": 663,
+    "Name": "Friesen-Muller",
+    "ToolTip": "Possimus eum exercitationem est et voluptates.",
+    "Deleted": false,
+    "Rank": 862,
+    "Type": "rerum",
+    "ColorBlock": 249,
     "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2001-09-21T11:10:54.4929294+02:00",
+    "LastChanged": "2008-06-14T02:49:52.422202+02:00",
     "ChildItems": [
       {
-        "Id": 201,
-        "Name": "Schimmel, Graham and Gislason",
-        "ToolTip": "Incidunt quo et et sint necessitatibus.",
+        "Id": 955,
+        "Name": "Jakubowski Group",
+        "ToolTip": "Sint dolores nihil voluptatem rerum est in.",
         "Deleted": false,
-        "Rank": 927,
-        "Type": "est",
-        "ColorBlock": 8,
-        "IconHint": "omnis",
+        "Rank": 642,
+        "Type": "qui",
+        "ColorBlock": 670,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2017-05-05T11:10:54.4929294+02:00",
+        "LastChanged": "1998-02-04T02:49:52.422202+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "tempore",
-        "Hidden": false,
-        "FullName": "Therese Shanahan",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "ad",
+        "Hidden": true,
+        "FullName": "Micaela Smitham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldType": "System.String",
+            "FieldLength": 602
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "reprehenderit",
-    "Hidden": true,
-    "FullName": "Kody Murphy",
+    "ExtraInfo": "quia",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Eugenia Fadel II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 647
+        "FieldLength": 905
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 
 Saves a key belonging to the ForeignApp and ForeignDevice specified.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a key belonging to the ForeignApp and ForeignDevice specified.
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignKey?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ForeignKey, ApplicationName, DeviceName, DeviceIdentifier
+ForeignKey, ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ ForeignKey, ApplicationName, DeviceName, DeviceIdentifier
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,14 +83,14 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Bauch Inc and Sons",
-  "DeviceName": "Rippin-Cruickshank",
-  "DeviceIdentifier": "perferendis"
+  "ApplicationName": "White LLC",
+  "DeviceName": "Wiza LLC",
+  "DeviceIdentifier": "voluptas"
 }
 ```
 
@@ -93,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nemo",
-  "Value": "iste",
-  "RecordId": 953,
-  "CreatedDate": "2011-02-18T11:10:27.0854536+01:00",
-  "UpdatedDate": "1996-01-20T11:10:27.0854536+01:00",
-  "UpdatedBy": "molestiae",
-  "CreatedBy": "labore",
-  "TableName": "Torphy-Block",
+  "Key": "itaque",
+  "Value": "voluptas",
+  "RecordId": 656,
+  "CreatedDate": "2017-08-09T02:49:44.561046+02:00",
+  "UpdatedDate": "2022-06-09T02:49:44.561046+02:00",
+  "UpdatedBy": "iure",
+  "CreatedBy": "minus",
+  "TableName": "Bogan Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 292
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

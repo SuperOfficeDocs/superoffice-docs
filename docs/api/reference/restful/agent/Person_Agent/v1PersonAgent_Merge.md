@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/Merge
 
 Merge two persons.
 
+
 The destination person will remain. You must specify the date after which activities will be moved along with the person.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ The destination person will remain. You must specify the date after which activi
 POST /api/v1/Agents/Person/Merge?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,9 +40,9 @@ POST /api/v1/Agents/Person/Merge?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SourcePersonId, DestinationPersonId, MoveAfterDate, DeleteSource, ReplaceEmptyFieldsOnDestination
+SourcePersonId, DestinationPersonId, MoveAfterDate, DeleteSource, ReplaceEmptyFieldsOnDestination 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ SourcePersonId, DestinationPersonId, MoveAfterDate, DeleteSource, ReplaceEmptyFi
 | DeleteSource | bool |  |
 | ReplaceEmptyFieldsOnDestination | bool |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -53,7 +61,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -61,14 +70,14 @@ Response body:
 POST /api/v1/Agents/Person/Merge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourcePersonId": 893,
-  "DestinationPersonId": 701,
-  "MoveAfterDate": "2012-08-26T11:10:27.4624526+02:00",
-  "DeleteSource": false,
+  "SourcePersonId": 518,
+  "DestinationPersonId": 966,
+  "MoveAfterDate": "2007-11-02T02:49:44.8434647+01:00",
+  "DeleteSource": true,
   "ReplaceEmptyFieldsOnDestination": true
 }
 ```

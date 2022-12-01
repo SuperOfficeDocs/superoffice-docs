@@ -11,9 +11,16 @@ DELETE /api/v1/BatchTask/{batchTaskId}
 
 Delete a batch task from the database.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
-| batchTaskId | int32 | The batchTask ids to delete. **Required** |
+| batchTaskId | int32 | The batchTask id to delete. **Required** |
+
+
 
 ## Request Headers
 
@@ -24,7 +31,8 @@ Delete a batch task from the database.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -32,7 +40,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -40,7 +49,7 @@ Response body:
 DELETE /api/v1/BatchTask/{batchTaskId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateSelectionEntity
 
 Create (but do not save) a new selection entity, for the current user and the given target table; other fields populated as by CreateDefaultSelectionEntity()
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create (but do not save) a new selection entity, for the current user and the gi
 ```http
 POST /api/v1/Agents/Selection/CreateSelectionEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Selection/CreateSelectionEntity?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TargetTableName
+TargetTableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TargetTableName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,11 +113,11 @@ Response body:
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Gulgowski, Gusikowski and Boyer"
+  "TargetTableName": "Boyle, O'Hara and Spinka"
 }
 ```
 
@@ -120,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Stand-alone systematic moderator",
-  "Postit": "aspernatur",
+  "Description": "Stand-alone grid-enabled throughput",
+  "Postit": "quia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 151,
-  "IncludePerson": 995,
-  "MemberCount": 160,
-  "Name": "Okuneva, Feil and Littel",
-  "PostitTextId": 31,
-  "CreatedDate": "1999-10-16T11:10:27.8989795+02:00",
-  "SelectionId": 547,
-  "SoundEx": "vel",
-  "Source": 893,
-  "TextId": 865,
-  "UpdatedDate": "1995-08-16T11:10:27.8989795+02:00",
-  "UpdatedCount": 662,
-  "Visibility": 246,
+  "GroupIdx": 311,
+  "IncludePerson": 5,
+  "MemberCount": 935,
+  "Name": "Labadie LLC",
+  "PostitTextId": 118,
+  "CreatedDate": "2016-03-26T02:49:45.3747116+01:00",
+  "SelectionId": 29,
+  "SoundEx": "repudiandae",
+  "Source": 944,
+  "TextId": 502,
+  "UpdatedDate": "2008-09-17T02:49:45.3747116+02:00",
+  "UpdatedCount": 397,
+  "Visibility": 113,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 7,
-  "TargetTableName": "Stiedemann Group",
-  "Completed": false,
-  "LeftSelectionId": 452,
-  "RightSelectionId": 915,
+  "TargetTableNumber": 690,
+  "TargetTableName": "Kub-Lemke",
+  "Completed": true,
+  "LeftSelectionId": 744,
+  "RightSelectionId": 69,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stehr Inc and Sons",
-  "ShadowProviderName": "Gleichner-Hodkiewicz",
-  "ChartKey": "quidem",
-  "LastLoaded": "2019-12-13T11:10:27.8999794+01:00",
-  "LastLoadedBy": 176,
+  "MainProviderName": "Veum Group",
+  "ShadowProviderName": "Welch, Farrell and Kris",
+  "ChartKey": "aut",
+  "LastLoaded": "2005-03-28T02:49:45.3747116+02:00",
+  "LastLoadedBy": 508,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-03-11T11:10:27.9019801+01:00",
-  "LastMembershipChangeBy": 933,
+  "LastMembershipChange": "2014-08-23T02:49:45.3747116+02:00",
+  "LastMembershipChangeBy": 659,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "provident",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Reinger-Kub",
-  "DashboardTileDefinitionId": 757,
+  "MainHeading": "odio",
+  "MemberTabHeading": "voluptatum",
+  "MailingsProviderName": "Bergstrom Inc and Sons",
+  "DashboardTileDefinitionId": 436,
   "VisibleFor": [
     {
-      "VisibleId": 533,
+      "VisibleId": 621,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 686
+          "FieldType": "System.Int32",
+          "FieldLength": 386
         }
       }
     },
     {
-      "VisibleId": 533,
+      "VisibleId": 621,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 686
+          "FieldType": "System.Int32",
+          "FieldLength": 386
         }
       }
     }
@@ -192,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 123
+      "FieldType": "System.String",
+      "FieldLength": 527
     }
   }
 }

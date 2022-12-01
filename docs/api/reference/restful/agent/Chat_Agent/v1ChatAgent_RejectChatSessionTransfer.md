@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 
 Do not want.
 
+
 Deny the transfer to the user. If the session is not being transferred, nothing happens.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Deny the transfer to the user. If the session is not being transferred, nothing 
 ```http
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Chat/RejectChatSessionTransfer?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatSessionId
+ChatSessionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 798
+  "ChatSessionId": 702
 }
 ```
 
@@ -112,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 184,
-  "TopicId": 164,
+  "ChatSessionId": 703,
+  "TopicId": 83,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dignissimos",
-  "CustomerHost": "corporis",
-  "CustomerName": "Russel LLC",
-  "CustomerEmail": "johnathan_ortiz@shanahanfeil.biz",
-  "CustomerPhone": "(234)938-9618",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Marquardt-Rolfson",
+  "CustomerAlias": "molestiae",
+  "CustomerHost": "quae",
+  "CustomerName": "Hettinger LLC",
+  "CustomerEmail": "howard_gutmann@mann.co.uk",
+  "CustomerPhone": "(247)383-4503 x8303",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Schaefer LLC",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "ab",
-  "WhenRequested": "2017-09-17T11:10:26.1285249+02:00",
-  "WhenStarted": "2012-03-01T11:10:26.1285249+01:00",
-  "WhenEnded": "2004-11-11T11:10:26.1285249+01:00",
-  "WhenIdle": "2013-03-11T11:10:26.1285249+01:00",
-  "WhenFetched": "2014-02-03T11:10:26.1285249+01:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 146,
-  "AlertLevel": 83,
-  "Rank": 688,
+  "FirstMessage": "nisi",
+  "LastMessage": "dolor",
+  "WhenRequested": "2008-03-22T02:49:43.7941589+01:00",
+  "WhenStarted": "2006-11-08T02:49:43.7941589+01:00",
+  "WhenEnded": "2013-12-03T02:49:43.7941589+01:00",
+  "WhenIdle": "2006-01-25T02:49:43.7941589+01:00",
+  "WhenFetched": "2004-03-26T02:49:43.7941589+01:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 284,
+  "AlertLevel": 190,
+  "Rank": 513,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 853,
+  "ChatbotIsActive": false,
+  "Rating": 240,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 277
+      "FieldType": "System.Int32",
+      "FieldLength": 843
     }
   }
 }

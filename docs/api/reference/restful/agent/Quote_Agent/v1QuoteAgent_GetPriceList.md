@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetPriceList
 
 Gets a PriceList object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=72
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=464
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 708,
-  "ERPPriceListKey": "quo",
-  "QuoteConnectionId": 465,
-  "Name": "Gutmann, Sawayn and O'Hara",
-  "Description": "Streamlined optimizing internet solution",
-  "Currency": "aut",
-  "CurrencyName": "Stoltenberg Inc and Sons",
-  "ValidFrom": "2007-03-08T11:10:27.6805191+01:00",
-  "ValidTo": "2011-10-04T11:10:27.6805191+02:00",
+  "PriceListId": 351,
+  "ERPPriceListKey": "enim",
+  "QuoteConnectionId": 759,
+  "Name": "Mosciski LLC",
+  "Description": "Expanded well-modulated complexity",
+  "Currency": "quis",
+  "CurrencyName": "Kling Group",
+  "ValidFrom": "2006-04-05T02:49:45.0153392+02:00",
+  "ValidTo": "1999-05-05T02:49:45.0153392+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 40
     }
   }
 }

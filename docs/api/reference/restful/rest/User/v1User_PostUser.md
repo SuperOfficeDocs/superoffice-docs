@@ -11,9 +11,16 @@ POST /api/v1/User
 
 Creates a new User
 
+
 Calls the User agent service SaveUser.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Calls the User agent service SaveUser.
 ```http
 POST /api/v1/User?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/User?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The User to be saved.
+The User to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +79,8 @@ The User to be saved.
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -79,7 +88,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,18 +127,18 @@ Response body:
 POST /api/v1/User
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 563,
-  "Name": "Prohaska-Beatty",
-  "Rank": 823,
-  "Tooltip": "perspiciatis",
+  "AssociateId": 40,
+  "Name": "Grimes, Murray and Schuster",
+  "Rank": 723,
+  "Tooltip": "sit",
   "LicenseOwners": [
     {
-      "Name": "Luettgen, Osinski and Stamm",
-      "Description": "Intuitive demand-driven hardware",
+      "Name": "Barrows-Wehner",
+      "Description": "Enterprise-wide well-modulated process improvement",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -140,8 +149,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Luettgen, Osinski and Stamm",
-      "Description": "Intuitive demand-driven hardware",
+      "Name": "Barrows-Wehner",
+      "Description": "Enterprise-wide well-modulated process improvement",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,87 +165,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ullam",
-      "Tooltip": "esse",
-      "Id": 621,
-      "Rank": 963,
-      "Deleted": true
+      "Value": "nobis",
+      "Tooltip": "et",
+      "Id": 438,
+      "Rank": 108,
+      "Deleted": false
     },
     {
-      "Value": "ullam",
-      "Tooltip": "esse",
-      "Id": 621,
-      "Rank": 963,
-      "Deleted": true
+      "Value": "nobis",
+      "Tooltip": "et",
+      "Id": 438,
+      "Rank": 108,
+      "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2019-10-28T11:10:53.7982125+01:00",
-  "Lastlogout": "2003-06-23T11:10:53.7982125+02:00",
-  "EjUserId": 406,
-  "RequestSignature": "corporis",
+  "Lastlogin": "2008-03-08T02:49:51.7803982+01:00",
+  "Lastlogout": "2004-11-09T02:49:51.7803982+01:00",
+  "EjUserId": 318,
+  "RequestSignature": "consequatur",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "occaecati"
+      "Value": "qui",
+      "DisplayValue": "sit"
     },
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "occaecati"
+      "Value": "qui",
+      "DisplayValue": "sit"
     }
   ],
-  "UserName": "Bahringer, Nienow and Padberg",
+  "UserName": "Satterfield, Champlin and Ferry",
   "TicketCategories": [
     {
-      "Id": 746,
-      "Name": "Kilback-Morissette",
-      "ToolTip": "Minus suscipit magnam.",
+      "Id": 350,
+      "Name": "Durgan-Smith",
+      "ToolTip": "Eligendi eos blanditiis animi nesciunt debitis necessitatibus.",
       "Deleted": false,
-      "Rank": 961,
-      "Type": "sit",
+      "Rank": 508,
+      "Type": "expedita",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vero",
-      "ColorBlock": 214,
-      "ExtraInfo": "eum",
-      "StyleHint": "ut",
-      "FullName": "Ryann Barrows"
+      "IconHint": "voluptatem",
+      "ColorBlock": 71,
+      "ExtraInfo": "est",
+      "StyleHint": "est",
+      "FullName": "Mr. Justyn Winfield Mohr Jr."
     }
   ],
-  "NickName": "Wiza Inc and Sons",
-  "WaitingForApproval": false,
+  "NickName": "Rodriguez Group",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "et"
+    "CustomFields1": "cumque",
+    "CustomFields2": "autem"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hoeger-Welch",
-      "DisplayName": "DuBuque LLC",
-      "Description": "Networked client-server concept",
-      "ToolTip": "Qui reiciendis distinctio hic.",
+      "Name": "Vandervort, Torphy and Lebsack",
+      "DisplayName": "Heathcote-Lang",
+      "Description": "Cross-group web-enabled strategy",
+      "ToolTip": "Aut tempora saepe similique tempore accusamus est ex.",
       "Actions": "Implicit",
-      "ActionData": "commodi"
+      "ActionData": "neque"
     },
     {
-      "Name": "Hoeger-Welch",
-      "DisplayName": "DuBuque LLC",
-      "Description": "Networked client-server concept",
-      "ToolTip": "Qui reiciendis distinctio hic.",
+      "Name": "Vandervort, Torphy and Lebsack",
+      "DisplayName": "Heathcote-Lang",
+      "Description": "Cross-group web-enabled strategy",
+      "ToolTip": "Aut tempora saepe similique tempore accusamus est ex.",
       "Actions": "Implicit",
-      "ActionData": "commodi"
+      "ActionData": "neque"
     }
   ]
 }
@@ -249,14 +258,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 113,
-  "Name": "Howell-Moen",
-  "Rank": 938,
-  "Tooltip": "autem",
+  "AssociateId": 632,
+  "Name": "Goyette Inc and Sons",
+  "Rank": 625,
+  "Tooltip": "temporibus",
   "LicenseOwners": [
     {
-      "Name": "Lang-Keeling",
-      "Description": "Front-line value-added extranet",
+      "Name": "Hahn Inc and Sons",
+      "Description": "Switchable incremental approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -270,13 +279,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 406
+          "FieldLength": 371
         }
       }
     },
     {
-      "Name": "Lang-Keeling",
-      "Description": "Front-line value-added extranet",
+      "Name": "Hahn Inc and Sons",
+      "Description": "Switchable incremental approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -290,7 +299,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 406
+          "FieldLength": 371
         }
       }
     }
@@ -299,110 +308,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "alias",
-      "Tooltip": "sapiente",
-      "Id": 180,
-      "Rank": 434,
+      "Value": "maiores",
+      "Tooltip": "sit",
+      "Id": 569,
+      "Rank": 137,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 821
+          "FieldType": "System.Int32",
+          "FieldLength": 320
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2021-01-13T11:10:53.8032125+01:00",
-  "Lastlogout": "2009-05-06T11:10:53.8032125+02:00",
-  "EjUserId": 310,
-  "RequestSignature": "at",
+  "Deleted": false,
+  "Lastlogin": "2009-04-26T02:49:51.796023+02:00",
+  "Lastlogout": "1998-03-28T02:49:51.796023+01:00",
+  "EjUserId": 640,
+  "RequestSignature": "velit",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ab",
-      "DisplayValue": "accusamus",
+      "Value": "corrupti",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 827
+          "FieldLength": 346
         }
       }
     },
     {
       "Type": null,
-      "Value": "ab",
-      "DisplayValue": "accusamus",
+      "Value": "corrupti",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 827
+          "FieldLength": 346
         }
       }
     }
   ],
-  "UserName": "Koepp, Mueller and Kertzmann",
+  "UserName": "Streich, Herzog and Gislason",
   "TicketCategories": [
     {
-      "Id": 506,
-      "Name": "Beatty Inc and Sons",
-      "ToolTip": "Recusandae atque velit perferendis quia.",
+      "Id": 782,
+      "Name": "Keebler-Emmerich",
+      "ToolTip": "Cum voluptatem saepe.",
       "Deleted": true,
-      "Rank": 474,
-      "Type": "magnam",
+      "Rank": 192,
+      "Type": "commodi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ratione",
-      "ColorBlock": 496,
-      "ExtraInfo": "repellat",
-      "StyleHint": "quas",
-      "FullName": "Krista Oberbrunner",
+      "IconHint": "sapiente",
+      "ColorBlock": 113,
+      "ExtraInfo": "quis",
+      "StyleHint": "consectetur",
+      "FullName": "Angus O'Conner III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 678
+          "FieldLength": 206
         }
       }
     }
   ],
-  "NickName": "Bednar-Reinger",
-  "WaitingForApproval": false,
+  "NickName": "Lehner, Klein and Koepp",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "porro",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "et"
+    "CustomFields1": "nemo",
+    "CustomFields2": "earum"
   },
   "PostSaveCommands": [
     {
-      "Name": "Walker Group",
-      "DisplayName": "Balistreri-Beatty",
-      "Description": "Business-focused bottom-line open system",
-      "ToolTip": "Necessitatibus asperiores consequatur.",
+      "Name": "Carter, Marquardt and Wuckert",
+      "DisplayName": "Doyle-Borer",
+      "Description": "Exclusive background methodology",
+      "ToolTip": "Maiores aut assumenda cupiditate nemo quidem.",
       "Actions": "Implicit",
-      "ActionData": "et",
+      "ActionData": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldType": "System.String",
+          "FieldLength": 174
         }
       }
     }
@@ -412,12 +421,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 165
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

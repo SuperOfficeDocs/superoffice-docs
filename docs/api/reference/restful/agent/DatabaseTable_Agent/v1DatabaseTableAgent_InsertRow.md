@@ -11,6 +11,12 @@ POST /api/v1/Agents/DatabaseTable/InsertRow
 
 Insert a row into a table
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Insert a row into a table
 ```http
 POST /api/v1/Agents/DatabaseTable/InsertRow?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/DatabaseTable/InsertRow?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, Values
+TableName, Values 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | Values | object |  |
+
 
 ## Response: int32
 
@@ -54,20 +62,21 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/DatabaseTable/InsertRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Russel Group",
+  "TableName": "O'Kon, Pouros and Lowe",
   "Values": {
-    "Values1": "alias",
-    "Values2": "natus"
+    "Values1": "sequi",
+    "Values2": "totam"
   }
 }
 ```
@@ -78,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-497
+982
 ```

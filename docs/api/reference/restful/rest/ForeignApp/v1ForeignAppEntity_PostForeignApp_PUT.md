@@ -11,11 +11,18 @@ PUT /api/v1/ForeignApp/{appName}
 
 Creates a new ForeignApp
 
+
 Calls the ForeignSystem agent service SaveForeignAppEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | appName | string | The ForeignApp to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Calls the ForeignSystem agent service SaveForeignAppEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +66,7 @@ Response body:
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 529,
-  "Name": "Pfannerstill-Greenholt",
-  "CreatedDate": "2004-07-02T11:10:52.8781761+02:00",
-  "UpdatedDate": "1999-12-31T11:10:52.8781761+01:00",
+  "ForeignAppId": 236,
+  "Name": "Lakin LLC",
+  "CreatedDate": "2000-09-03T02:49:50.9640389+02:00",
+  "UpdatedDate": "2006-09-24T02:49:50.9640389+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 429,
-      "Name": "Spinka, Hilpert and Mohr",
-      "CreatedDate": "2011-02-17T11:10:52.8791778+01:00",
-      "UpdatedDate": "2012-12-12T11:10:52.8791778+01:00",
-      "AssociateFullName": "Toy Ratke",
-      "CreatedBy": "quidem",
-      "UpdatedBy": "qui",
-      "DeviceIdentifier": "inventore",
-      "ForeignAppId": 546,
+      "ForeignDeviceId": 915,
+      "Name": "Barrows-Flatley",
+      "CreatedDate": "2003-10-10T02:49:50.9640389+02:00",
+      "UpdatedDate": "2022-04-29T02:49:50.9640389+02:00",
+      "AssociateFullName": "Christina Cronin",
+      "CreatedBy": "veritatis",
+      "UpdatedBy": "illo",
+      "DeviceIdentifier": "voluptatem",
+      "ForeignAppId": 893,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 954
+          "FieldType": "System.String",
+          "FieldLength": 523
         }
       }
     }
@@ -100,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 434
     }
   }
 }

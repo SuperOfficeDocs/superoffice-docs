@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetBlobEntity
 
 Gets a BlobEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=988
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=915
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +78,7 @@ Response body:
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 462,
-  "BlobSize": 603,
-  "Description": "Mandatory methodical interface",
-  "ExtraInfo": "excepturi",
+  "BlobId": 618,
+  "BlobSize": 150,
+  "Description": "Function-based mission-critical neural-net",
+  "ExtraInfo": "et",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "molestiae",
-  "OriginalSize": 427,
-  "CreatedDate": "2018-04-01T11:10:26.0285254+02:00",
-  "UpdatedDate": "1995-05-09T11:10:26.0285254+02:00",
+  "MimeType": "quibusdam",
+  "OriginalSize": 385,
+  "CreatedDate": "2021-08-10T02:49:43.7160326+02:00",
+  "UpdatedDate": "2002-09-28T02:49:43.7160326+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "similique",
+  "ConceptualType": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 304
     }
   }
 }

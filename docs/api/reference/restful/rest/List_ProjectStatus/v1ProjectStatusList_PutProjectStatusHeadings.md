@@ -11,7 +11,14 @@ PUT /api/v1/List/ProjectStatus/Headings
 
 Saves headings for the ProjectStatus list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -72,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 953,
-    "Name": "Prosacco-Kub",
-    "Tooltip": "qui",
+    "HeadingId": 277,
+    "Name": "Armstrong, Spinka and Reilly",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 180,
-    "UdListDefinitionId": 283
+    "Rank": 625,
+    "UdListDefinitionId": 87
   },
   {
-    "HeadingId": 953,
-    "Name": "Prosacco-Kub",
-    "Tooltip": "qui",
+    "HeadingId": 277,
+    "Name": "Armstrong, Spinka and Reilly",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 180,
-    "UdListDefinitionId": 283
+    "Rank": 625,
+    "UdListDefinitionId": 87
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 152,
-    "Name": "Borer Group",
-    "Tooltip": "sit",
+    "HeadingId": 776,
+    "Name": "Brakus, Howell and Stehr",
+    "Tooltip": "amet",
     "Deleted": false,
-    "Rank": 561,
-    "UdListDefinitionId": 793,
+    "Rank": 422,
+    "UdListDefinitionId": 505,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 367
+        "FieldLength": 744
       }
     }
   }

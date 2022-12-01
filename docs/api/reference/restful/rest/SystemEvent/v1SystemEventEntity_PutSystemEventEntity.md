@@ -11,9 +11,15 @@ PUT /api/v1/SystemEvent/{id}
 
 Updates the existing SystemEventEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SystemEventEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing SystemEventEntity
 ```http
 PUT /api/v1/SystemEvent/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/SystemEvent/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SystemEventEntity to be saved.
+The SystemEventEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +63,8 @@ The SystemEventEntity to be saved.
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy |  | The associate that first created the SystemEvent. |
 
-## Response
+
+## Response: 
 
 SystemEventEntity updated.
 
@@ -65,7 +73,7 @@ SystemEventEntity updated.
 | 200 | SystemEventEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,19 +97,19 @@ Response body:
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 149,
+  "SystemEventId": 288,
   "Scope": "Database",
-  "Eta": "2009-02-04T11:10:53.5331739+01:00",
-  "Eventkey": "sed",
-  "Eventmess": "sunt",
-  "ExtraInfo": 867,
-  "Owner": 183,
-  "UpdatedCount": 778,
-  "Registered": "2005-12-12T11:10:53.5331739+01:00",
+  "Eta": "2003-02-27T02:49:51.551935+01:00",
+  "Eventkey": "aliquid",
+  "Eventmess": "omnis",
+  "ExtraInfo": 624,
+  "Owner": 716,
+  "UpdatedCount": 575,
+  "Registered": "2021-01-21T02:49:51.551935+01:00",
   "ActivatedBy": null
 }
 ```
@@ -113,22 +121,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 526,
+  "SystemEventId": 869,
   "Scope": "Database",
-  "Eta": "2003-02-11T11:10:53.5341762+01:00",
-  "Eventkey": "est",
-  "Eventmess": "minus",
-  "ExtraInfo": 850,
-  "Owner": 499,
-  "UpdatedCount": 879,
-  "Registered": "2017-09-20T11:10:53.5341762+02:00",
+  "Eta": "1996-01-08T02:49:51.551935+01:00",
+  "Eventkey": "nesciunt",
+  "Eventmess": "non",
+  "ExtraInfo": 634,
+  "Owner": 854,
+  "UpdatedCount": 884,
+  "Registered": "2022-01-02T02:49:51.551935+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 102
     }
   },
   "_Links": {

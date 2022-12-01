@@ -11,11 +11,18 @@ PUT /api/v1/List/Credited/Items/{itemId}/Headings
 
 Saves headings for the Credited list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 637,
-    "Name": "Brown, Howe and Kozey",
-    "ToolTip": "Quia aut.",
-    "Deleted": true,
-    "Rank": 930,
-    "Type": "aut",
-    "ColorBlock": 820,
-    "IconHint": "eos",
-    "Selected": true,
-    "LastChanged": "2011-08-13T11:10:54.0392192+02:00",
+    "Id": 30,
+    "Name": "Franecki-Kunde",
+    "ToolTip": "Porro impedit.",
+    "Deleted": false,
+    "Rank": 928,
+    "Type": "ipsam",
+    "ColorBlock": 437,
+    "IconHint": "iste",
+    "Selected": false,
+    "LastChanged": "2013-07-23T02:49:52.1878148+02:00",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Strosin Inc and Sons",
-        "ToolTip": "Qui ab voluptates.",
+        "Id": 227,
+        "Name": "Zemlak-Runte",
+        "ToolTip": "Impedit repellendus sint fuga accusamus.",
         "Deleted": false,
-        "Rank": 561,
-        "Type": "sint",
-        "ColorBlock": 453,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "2005-07-21T11:10:54.0392192+02:00",
+        "Rank": 592,
+        "Type": "et",
+        "ColorBlock": 538,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2020-05-20T02:49:52.1878148+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "ut",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Mrs. Brandi Haleigh Huel"
+        "FullName": "Nestor Veum"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "voluptas",
-    "Hidden": true,
-    "FullName": "Barry Tremblay"
+    "ExtraInfo": "aliquid",
+    "StyleHint": "ratione",
+    "Hidden": false,
+    "FullName": "Berry Rolfson"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 400,
-    "Name": "Sipes-Reichert",
-    "ToolTip": "Nihil odit sed eveniet fugiat iusto quisquam aut.",
+    "Id": 109,
+    "Name": "Lehner-Johnston",
+    "ToolTip": "Velit cupiditate impedit.",
     "Deleted": true,
-    "Rank": 694,
-    "Type": "debitis",
-    "ColorBlock": 366,
-    "IconHint": "asperiores",
+    "Rank": 703,
+    "Type": "et",
+    "ColorBlock": 347,
+    "IconHint": "iusto",
     "Selected": false,
-    "LastChanged": "2002-02-04T11:10:54.2238665+01:00",
+    "LastChanged": "2007-06-12T02:49:52.1878148+02:00",
     "ChildItems": [
       {
-        "Id": 108,
-        "Name": "Murphy LLC",
-        "ToolTip": "Accusamus beatae delectus est distinctio.",
+        "Id": 58,
+        "Name": "Kub-Marvin",
+        "ToolTip": "Eveniet quidem impedit voluptatum.",
         "Deleted": false,
-        "Rank": 48,
-        "Type": "possimus",
-        "ColorBlock": 597,
-        "IconHint": "sint",
+        "Rank": 894,
+        "Type": "similique",
+        "ColorBlock": 60,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2004-02-05T11:10:54.2238665+01:00",
+        "LastChanged": "2010-05-31T02:49:52.1878148+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Mrs. Frida Leffler",
+        "ExtraInfo": "totam",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Mr. Shanna Grady",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 511
+            "FieldLength": 728
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "et",
+    "ExtraInfo": "enim",
+    "StyleHint": "corporis",
     "Hidden": false,
-    "FullName": "Prof. Jaunita Darlene Upton DDS",
+    "FullName": "Virginia Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 856
+        "FieldType": "System.Int32",
+        "FieldLength": 293
       }
     }
   }

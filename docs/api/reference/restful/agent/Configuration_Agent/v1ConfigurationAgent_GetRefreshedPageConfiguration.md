@@ -11,7 +11,13 @@ POST /api/v1/Agents/Configuration/GetRefreshedPageConfiguration
 
 Get the configuration for one whole web page, including all its panels etc.
 
+
 totally asynchronous items like menus are not included, but all references are resolved and all special processing is applied. Does not use cache for fetching, but updates the cache with refreshed configuration.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ totally asynchronous items like menus are not included, but all references are r
 ```http
 POST /api/v1/Agents/Configuration/GetRefreshedPageConfiguration?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Configuration/GetRefreshedPageConfiguration?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Application, Instance, Page
+Application, Instance, Page 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Application | string |  |
 | Instance | string |  |
 | Page | string |  |
+
 
 ## Response: string
 
@@ -57,19 +65,20 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetRefreshedPageConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "explicabo",
-  "Instance": "repudiandae",
-  "Page": "nobis"
+  "Application": "mollitia",
+  "Instance": "necessitatibus",
+  "Page": "eligendi"
 }
 ```
 
@@ -79,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"sit"
 ```

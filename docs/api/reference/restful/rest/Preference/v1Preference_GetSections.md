@@ -11,7 +11,14 @@ GET /api/v1/Preference
 
 Gets all the preference sections.
 
+
 Calls the MDO agent service GetList('preferencesection').
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the MDO agent service GetList('preferencesection').
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -59,7 +67,7 @@ Response body: array
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,50 +78,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Hayes, King and Bashirian",
-    "ToolTip": "Quae ipsam reprehenderit explicabo velit.",
+    "Id": 66,
+    "Name": "Klocko Group",
+    "ToolTip": "Sunt totam error.",
     "Deleted": false,
-    "Rank": 929,
-    "Type": "et",
+    "Rank": 592,
+    "Type": "consequuntur",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Effertz-Parisian",
-        "ToolTip": "Autem magnam necessitatibus porro voluptas dolor eos.",
-        "Deleted": true,
-        "Rank": 220,
-        "Type": "saepe",
+        "Id": 122,
+        "Name": "Gusikowski, Raynor and Goldner",
+        "ToolTip": "Tenetur dolores autem velit velit fugit esse similique.",
+        "Deleted": false,
+        "Rank": 523,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eius",
-        "ColorBlock": 195,
-        "ExtraInfo": "sed",
-        "StyleHint": "est",
-        "FullName": "Devonte Toy",
+        "IconHint": "id",
+        "ColorBlock": 207,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "natus",
+        "FullName": "Ava Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 557
+            "FieldLength": 954
           }
         }
       }
     ],
-    "IconHint": "hic",
-    "ColorBlock": 65,
-    "ExtraInfo": "vitae",
-    "StyleHint": "eos",
-    "FullName": "Bret Keeling",
+    "IconHint": "aperiam",
+    "ColorBlock": 515,
+    "ExtraInfo": "iure",
+    "StyleHint": "qui",
+    "FullName": "Braxton Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 286
+        "FieldType": "System.Int32",
+        "FieldLength": 443
       }
     }
   }

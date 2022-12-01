@@ -11,7 +11,14 @@ GET /api/v1/Contact/default
 
 Set default values into a new ContactEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Contact agent service CreateDefaultContactEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +99,7 @@ Response body:
 GET /api/v1/Contact/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,160 +107,160 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 17 Mar 2012 11:10:52 G3T
+Last-Modified: Mon, 26 Aug 2019 02:49:50 G8T
 
 {
-  "ContactId": 214,
-  "Name": "Erdman-Daugherty",
+  "ContactId": 596,
+  "Name": "Aufderhar LLC",
   "Department": "",
-  "OrgNr": "1108165",
-  "Number1": "738463",
-  "Number2": "661935",
-  "UpdatedDate": "2012-03-17T11:10:52.62216+01:00",
-  "CreatedDate": "1997-04-08T11:10:52.62216+02:00",
+  "OrgNr": "866851",
+  "Number1": "1667456",
+  "Number2": "411971",
+  "UpdatedDate": "2019-08-26T02:49:50.7296616+02:00",
+  "CreatedDate": "2007-07-15T02:49:50.7296616+02:00",
   "Emails": [
     {
-      "Value": "similique",
+      "Value": "omnis",
       "StrippedValue": "ut",
-      "Description": "Secured coherent product",
+      "Description": "Distributed uniform algorithm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 27
+          "FieldType": "System.String",
+          "FieldLength": 659
         }
       }
     },
     {
-      "Value": "similique",
+      "Value": "omnis",
       "StrippedValue": "ut",
-      "Description": "Secured coherent product",
+      "Description": "Distributed uniform algorithm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 27
+          "FieldType": "System.String",
+          "FieldLength": 659
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 297,
-      "Name": "Murphy-Schmitt",
-      "ToolTip": "Aperiam atque quasi maiores voluptatem.",
-      "Deleted": true,
-      "Rank": 884,
-      "Type": "occaecati",
-      "ColorBlock": 597,
-      "IconHint": "minima",
-      "Selected": false,
-      "LastChanged": "2020-02-19T11:10:52.62216+01:00",
+      "Id": 367,
+      "Name": "Wiza-Kulas",
+      "ToolTip": "Quasi magnam quaerat similique.",
+      "Deleted": false,
+      "Rank": 829,
+      "Type": "ullam",
+      "ColorBlock": 171,
+      "IconHint": "veniam",
+      "Selected": true,
+      "LastChanged": "2012-09-20T02:49:50.7296616+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "rem",
-      "StyleHint": "dolores",
-      "Hidden": true,
-      "FullName": "Mr. Adelia Rosalind Zulauf Jr.",
+      "ExtraInfo": "nulla",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Duane Hermiston",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 890
+          "FieldType": "System.Int32",
+          "FieldLength": 530
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "sit",
-      "StrippedValue": "ea",
-      "Description": "Optional coherent website",
+      "Value": "illum",
+      "StrippedValue": "quis",
+      "Description": "Cross-group stable toolset",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 92
+          "FieldLength": 19
         }
       }
     },
     {
-      "Value": "sit",
-      "StrippedValue": "ea",
-      "Description": "Optional coherent website",
+      "Value": "illum",
+      "StrippedValue": "quis",
+      "Description": "Cross-group stable toolset",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 92
+          "FieldLength": 19
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "autem",
-      "StrippedValue": "in",
-      "Description": "Public-key content-based data-warehouse",
+      "Value": "et",
+      "StrippedValue": "quibusdam",
+      "Description": "Self-enabling system-worthy core",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 347
+          "FieldType": "System.String",
+          "FieldLength": 905
         }
       }
     },
     {
-      "Value": "autem",
-      "StrippedValue": "in",
-      "Description": "Public-key content-based data-warehouse",
+      "Value": "et",
+      "StrippedValue": "quibusdam",
+      "Description": "Self-enabling system-worthy core",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 347
+          "FieldType": "System.String",
+          "FieldLength": 905
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "maiores",
-      "StrippedValue": "excepturi",
-      "Description": "Progressive methodical data-warehouse",
+      "Value": "excepturi",
+      "StrippedValue": "nemo",
+      "Description": "Team-oriented responsive portal",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
+          "FieldType": "System.Int32",
           "FieldLength": 411
         }
       }
     },
     {
-      "Value": "maiores",
-      "StrippedValue": "excepturi",
-      "Description": "Progressive methodical data-warehouse",
+      "Value": "excepturi",
+      "StrippedValue": "nemo",
+      "Description": "Team-oriented responsive portal",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
+          "FieldType": "System.Int32",
           "FieldLength": 411
         }
       }
     }
   ],
-  "Description": "Phased neutral workforce",
+  "Description": "Customer-focused maximized knowledge base",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -261,100 +269,100 @@ Last-Modified: Sat, 17 Mar 2012 11:10:52 G3T
   "Country": null,
   "Persons": [
     {
-      "Position": "distinctio",
-      "PersonId": 99,
-      "Mrmrs": "voluptas",
-      "Firstname": "Pedro",
-      "Lastname": "Buckridge",
-      "MiddleName": "Ziemann-Berge",
-      "Title": "aut",
-      "Description": "Balanced empowering migration",
-      "Email": "guy_medhurst@wintheiser.co.uk",
-      "FullName": "Eunice Eichmann",
-      "DirectPhone": "065-217-4440 x05052",
-      "FormalName": "Klein-Christiansen",
-      "CountryId": 805,
-      "ContactId": 738,
-      "ContactName": "Mayer Inc and Sons",
-      "Retired": 214,
-      "Rank": 417,
-      "ActiveInterests": 393,
+      "Position": "doloremque",
+      "PersonId": 745,
+      "Mrmrs": "labore",
+      "Firstname": "Aglae",
+      "Lastname": "Crona",
+      "MiddleName": "Goyette Inc and Sons",
+      "Title": "quia",
+      "Description": "Optional stable adapter",
+      "Email": "kristofer@schamberger.uk",
+      "FullName": "Ike Kessler I",
+      "DirectPhone": "452-063-0926 x538",
+      "FormalName": "Goyette-Torp",
+      "CountryId": 538,
+      "ContactId": 745,
+      "ContactName": "Walker Group",
+      "Retired": 941,
+      "Rank": 641,
+      "ActiveInterests": 190,
       "ContactDepartment": "",
-      "ContactCountryId": 745,
-      "ContactOrgNr": "1020132",
-      "FaxPhone": "1-121-112-0807 x8816",
-      "MobilePhone": "1-222-579-0871",
-      "ContactPhone": "1-447-198-1705",
-      "AssociateName": "Hermiston LLC",
-      "AssociateId": 948,
-      "UsePersonAddress": true,
-      "ContactFax": "consectetur",
-      "Kanafname": "unde",
-      "Kanalname": "quis",
-      "Post1": "sit",
-      "Post2": "et",
-      "Post3": "nihil",
-      "EmailName": "vernie_bogan@goodwinleannon.name",
-      "ContactFullName": "Demario Tillman",
-      "ActiveErpLinks": 664,
-      "TicketPriorityId": 627,
-      "SupportLanguageId": 272,
-      "SupportAssociateId": 134,
+      "ContactCountryId": 558,
+      "ContactOrgNr": "1129559",
+      "FaxPhone": "005.840.7128 x52281",
+      "MobilePhone": "(303)203-2365 x3332",
+      "ContactPhone": "885-744-4407 x1790",
+      "AssociateName": "Weber LLC",
+      "AssociateId": 353,
+      "UsePersonAddress": false,
+      "ContactFax": "magnam",
+      "Kanafname": "recusandae",
+      "Kanalname": "non",
+      "Post1": "neque",
+      "Post2": "omnis",
+      "Post3": "facere",
+      "EmailName": "allene@jastchamplin.biz",
+      "ContactFullName": "Maynard Legros",
+      "ActiveErpLinks": 19,
+      "TicketPriorityId": 423,
+      "SupportLanguageId": 140,
+      "SupportAssociateId": 568,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldLength": 141
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "quam",
+  "Kananame": "commodi",
   "Xstop": false,
-  "ActiveInterests": 28,
-  "GroupId": 605,
-  "ActiveStatusMonitorId": 458,
+  "ActiveInterests": 121,
+  "GroupId": 887,
+  "ActiveStatusMonitorId": 333,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 956,
-  "DbiAgentId": 909,
-  "DbiLastSyncronized": "2001-06-11T11:10:52.6261694+02:00",
-  "DbiKey": "adipisci",
-  "DbiLastModified": "1998-01-09T11:10:52.6261694+01:00",
+  "Deleted": 501,
+  "DbiAgentId": 872,
+  "DbiLastSyncronized": "1997-12-09T02:49:50.7452861+01:00",
+  "DbiKey": "aliquid",
+  "DbiLastModified": "2010-04-04T02:49:50.7452861+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 805,
-  "ActiveErpLinks": 15,
+  "Source": 114,
+  "ActiveErpLinks": 239,
   "BounceEmails": [
-    "lon@larson.com",
-    "marcelino@leffler.us"
+    "greta@hansenschmeler.ca",
+    "felipe_feil@schulist.biz"
   ],
   "Domains": [
-    "consequuntur",
-    "soluta"
+    "aut",
+    "rem"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "1221865835",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "1333786251",
+    "SuperOffice:2": "Savanah Heathcote"
   },
   "ExtraFields": {
-    "ExtraFields1": "soluta",
-    "ExtraFields2": "ex"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "et"
+    "CustomFields1": "vitae",
+    "CustomFields2": "accusantium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldLength": 687
     }
   }
 }

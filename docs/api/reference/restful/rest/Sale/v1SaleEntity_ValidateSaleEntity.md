@@ -11,6 +11,13 @@ POST /api/v1/Sale/Validate
 
 Check that entity is ready for saving, return error messages by field.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Check that entity is ready for saving, return error messages by field.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: saleEntity
+## Request Body: saleEntity  
 
-Entity to be checked for errors.
+Entity to be checked for errors. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,6 +83,7 @@ Entity to be checked for errors.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
+
 ## Response: object
 
 OK
@@ -86,13 +94,14 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "et",
+  "SaleText": "possimus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -111,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-07-09T11:10:53.4691801+02:00",
-  "Amount": 758.428,
-  "SaleId": 496,
-  "Earning": 28723.11,
-  "EarningPercent": 3654.2439999999997,
-  "Heading": "earum",
-  "Number": "973959",
-  "Probability": 414,
-  "CreatedDate": "2019-01-20T11:10:53.4691801+01:00",
-  "UpdatedDate": "2015-12-14T11:10:53.4691801+01:00",
+  "Saledate": "2013-05-19T02:49:51.4894333+02:00",
+  "Amount": 1557.598,
+  "SaleId": 265,
+  "Earning": 31139.424,
+  "EarningPercent": 17468.916,
+  "Heading": "nulla",
+  "Number": "1819715",
+  "Probability": 615,
+  "CreatedDate": "2019-05-13T02:49:51.4894333+02:00",
+  "UpdatedDate": "2014-02-03T02:49:51.4894333+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 563,
+  "ActiveLinks": 871,
   "Links": [
     {
-      "EntityName": "Langosh-Kiehn",
-      "Id": 68,
-      "Description": "Mandatory maximized knowledge base",
-      "ExtraInfo": "sint",
-      "LinkId": 422
+      "EntityName": "Casper-Leuschke",
+      "Id": 595,
+      "Description": "Progressive local time-frame",
+      "ExtraInfo": "eos",
+      "LinkId": 766
     },
     {
-      "EntityName": "Langosh-Kiehn",
-      "Id": 68,
-      "Description": "Mandatory maximized knowledge base",
-      "ExtraInfo": "sint",
-      "LinkId": 422
+      "EntityName": "Casper-Leuschke",
+      "Id": 595,
+      "Description": "Progressive local time-frame",
+      "ExtraInfo": "eos",
+      "LinkId": 766
     }
   ],
-  "NextDueDate": "2003-03-06T11:10:53.4691801+01:00",
-  "Postit": "vel",
+  "NextDueDate": "2001-10-12T02:49:51.4894333+02:00",
+  "Postit": "blanditiis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-02-02T11:10:53.4691801+01:00",
+  "ReopenDate": "2004-03-12T02:49:51.4894333+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hirthe LLC",
-      "Comment": "iusto",
-      "StakeholderRoleId": 45,
-      "CountryId": 191,
-      "PersonId": 858,
-      "EmailDescription": "dennis.price@armstrongcassin.uk",
-      "EmailId": 103,
-      "EmailAddress": "tiana@bartoletti.co.uk",
-      "PhoneId": 116,
-      "ContactName": "Cummings, Kihn and Schinner",
-      "ContactId": 172,
-      "SaleId": 457,
-      "Mrmrs": "doloremque",
-      "Firstname": "Coralie",
-      "MiddleName": "Leannon Inc and Sons",
-      "Lastname": "Wintheiser",
-      "SaleStakeholderId": 986,
-      "Rank": 384,
-      "Phone": "1-859-692-7671"
+      "StakeholderRoleName": "Lindgren, Kozey and Dooley",
+      "Comment": "quisquam",
+      "StakeholderRoleId": 194,
+      "CountryId": 523,
+      "PersonId": 219,
+      "EmailDescription": "cornell@carterjewess.name",
+      "EmailId": 544,
+      "EmailAddress": "creola@satterfieldrau.name",
+      "PhoneId": 5,
+      "ContactName": "Rogahn, Graham and Emmerich",
+      "ContactId": 934,
+      "SaleId": 746,
+      "Mrmrs": "asperiores",
+      "Firstname": "Reymundo",
+      "MiddleName": "Stark Group",
+      "Lastname": "Haag",
+      "SaleStakeholderId": 855,
+      "Rank": 899,
+      "Phone": "019-343-8937 x278"
     }
   ],
-  "ActiveErpLinks": 162,
+  "ActiveErpLinks": 56,
   "UserDefinedFields": {
-    "SuperOffice:1": "125158438",
-    "SuperOffice:2": "Mervin Schultz"
+    "SuperOffice:1": "227955717",
+    "SuperOffice:2": "Dr. Jazmyn Marks I"
   },
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "suscipit"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "temporibus",
-    "CustomFields2": "dolor"
+    "CustomFields1": "sed",
+    "CustomFields2": "distinctio"
   },
-  "PublishEventDate": "2017-03-10T11:10:53.4701813+01:00",
-  "PublishTo": "2010-03-27T11:10:53.4701813+01:00",
-  "PublishFrom": "1997-09-06T11:10:53.4701813+02:00",
+  "PublishEventDate": "2007-11-13T02:49:51.4894333+01:00",
+  "PublishTo": "1999-08-22T02:49:51.4894333+02:00",
+  "PublishFrom": "2018-12-29T02:49:51.4894333+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 208,
+      "VisibleId": 25,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "numquam"
     },
     {
-      "VisibleId": 208,
+      "VisibleId": 25,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "numquam"
     }
   ]
 }
@@ -207,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "in",
-  "2": "optio"
+  "1": "quos",
+  "2": "et"
 }
 ```

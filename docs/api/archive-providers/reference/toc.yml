@@ -275,6 +275,8 @@ items:
   href: freetextsale.md
 - name: FreetextSelection
   href: freetextselection.md
+- name: FreetextTicket
+  href: freetextticket.md
 - name: InnerSelectionStaticContactProvider
   href: innerselectionstaticcontactprovider.md
 - name: InnerSelectionStaticPersonProvider

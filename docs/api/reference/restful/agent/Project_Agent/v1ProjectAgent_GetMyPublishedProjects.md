@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetMyPublishedProjects
 
 Get published projects from the logged in user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published projects from the logged in user.
 ```http
 POST /api/v1/Agents/Project/GetMyPublishedProjects?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/Project/GetMyPublishedProjects?$select=name,department,categ
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -73,7 +81,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 280,
-    "Name": "Rowe, Heaney and Ondricka",
-    "Description": "Team-oriented 24/7 open architecture",
+    "ProjectId": 216,
+    "Name": "Pollich-Bailey",
+    "Description": "Enterprise-wide bifurcated database",
     "URL": "http://www.example.com/",
-    "Type": "omnis",
-    "AssociateId": 639,
-    "AssociateFullName": "Erin Hal Hills III",
-    "TypeId": 538,
-    "Updated": "2008-10-31T11:10:27.6244556+01:00",
-    "StatusId": 350,
-    "Status": "possimus",
-    "TextId": 572,
-    "PublishTo": "2020-11-30T11:10:27.6244556+01:00",
-    "PublishFrom": "2001-01-09T11:10:27.6244556+01:00",
-    "IsPublished": false,
+    "Type": "quibusdam",
+    "AssociateId": 850,
+    "AssociateFullName": "Ms. Mara Leannon",
+    "TypeId": 717,
+    "Updated": "2004-07-13T02:49:44.9684639+02:00",
+    "StatusId": 643,
+    "Status": "aliquam",
+    "TextId": 390,
+    "PublishTo": "2021-08-28T02:49:44.9684639+02:00",
+    "PublishFrom": "1996-05-11T02:49:44.9684639+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1359188",
-    "ActiveErpLinks": 451,
+    "ProjectNumber": "1954409",
+    "ActiveErpLinks": 7,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldType": "System.String",
+        "FieldLength": 45
       }
     }
   }

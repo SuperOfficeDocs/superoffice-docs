@@ -11,6 +11,13 @@ PUT /api/v1/List/Competitor/Items
 
 Update the Competitor list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the Competitor list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Competitor.
+All the updated Competitor. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated Competitor.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -70,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Powlowski-Hermann",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 534,
-    "Rank": 906
+    "Id": 434,
+    "Name": "Fadel-Morissette",
+    "Tooltip": "incidunt",
+    "Deleted": false,
+    "UdListDefinitionId": 923,
+    "Rank": 38
   },
   {
-    "Id": 195,
-    "Name": "Powlowski-Hermann",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 534,
-    "Rank": 906
+    "Id": 434,
+    "Name": "Fadel-Morissette",
+    "Tooltip": "incidunt",
+    "Deleted": false,
+    "UdListDefinitionId": 923,
+    "Rank": 38
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Towne, Boehm and Schinner",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 419,
-    "Rank": 86,
+    "Id": 282,
+    "Name": "Bednar Inc and Sons",
+    "Tooltip": "natus",
+    "Deleted": false,
+    "UdListDefinitionId": 717,
+    "Rank": 89,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 378
       }
     }
   }

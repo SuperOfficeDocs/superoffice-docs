@@ -11,7 +11,14 @@ POST /api/v1/List/Credited/Headings
 
 Saves a new heading for the Credited list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 586,
-  "Name": "Kling Inc and Sons",
-  "Tooltip": "molestiae",
+  "HeadingId": 234,
+  "Name": "Considine, Emmerich and Sauer",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 980,
-  "UdListDefinitionId": 356
+  "Rank": 946,
+  "UdListDefinitionId": 329
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 592,
-  "Name": "Collins Inc and Sons",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "Rank": 895,
-  "UdListDefinitionId": 73,
+  "HeadingId": 256,
+  "Name": "Considine LLC",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 169,
+  "UdListDefinitionId": 605,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 999
     }
   }
 }

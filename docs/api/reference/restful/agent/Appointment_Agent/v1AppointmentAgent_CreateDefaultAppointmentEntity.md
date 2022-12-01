@@ -11,7 +11,14 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 
 Set default values into a new AppointmentEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -116,63 +124,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2015-12-19T11:10:25.5125223+01:00",
-  "AppointmentId": 763,
-  "Description": "Profit-focused radical help-desk",
-  "StartDate": "2014-08-08T11:10:25.5125223+02:00",
-  "EndDate": "2006-02-15T11:10:25.5125223+01:00",
+  "CreatedDate": "2002-01-05T02:49:43.2929959+01:00",
+  "AppointmentId": 893,
+  "Description": "Grass-roots radical open system",
+  "StartDate": "2001-04-12T02:49:43.2929959+02:00",
+  "EndDate": "1999-08-22T02:49:43.2929959+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 855,
+  "MotherId": 804,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-12-07T11:10:25.515522+01:00",
+  "UpdatedDate": "2013-06-09T02:49:43.2929959+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 676,
+  "ActiveLinks": 411,
   "Links": [
     {
-      "EntityName": "Volkman Inc and Sons",
-      "Id": 309,
-      "Description": "Quality-focused mobile adapter",
-      "ExtraInfo": "iure",
-      "LinkId": 674,
+      "EntityName": "Harvey, Prohaska and Tillman",
+      "Id": 369,
+      "Description": "Sharable exuding open architecture",
+      "ExtraInfo": "quia",
+      "LinkId": 446,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 787
+          "FieldLength": 457
         }
       }
     }
   ],
-  "AlarmLeadTime": "veniam",
-  "HasAlarm": true,
-  "ColorIndex": 377,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "est",
-  "LeadTime": "ducimus",
-  "Location": "ut",
-  "RejectCounter": 100,
+  "AlarmLeadTime": "eveniet",
+  "HasAlarm": false,
+  "ColorIndex": 974,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "aut",
+  "LeadTime": "et",
+  "Location": "eveniet",
+  "RejectCounter": 902,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 128,
-      "PersonId": 745,
-      "ContactId": 194,
-      "EmailId": 558,
+      "AssociateId": 387,
+      "PersonId": 235,
+      "ContactId": 440,
+      "EmailId": 343,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 128,
-      "PersonId": 745,
-      "ContactId": 194,
-      "EmailId": 558,
+      "AssociateId": 387,
+      "PersonId": 235,
+      "ContactId": 440,
+      "EmailId": 343,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -180,58 +188,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-02-28T11:10:25.515522+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2005-10-01T02:49:43.2929959+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 950,
+  "PreferredTZLocation": 688,
   "Sale": null,
-  "SuggestedAppointmentId": 967,
+  "SuggestedAppointmentId": 359,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dicta",
+  "CentralserviceVideomeetId": "beatae",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Gabriella Smith MD"
+    "SuperOffice:1": "307604606",
+    "SuperOffice:2": "1672976975"
   },
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "et"
+    "ExtraFields1": "corporis",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "voluptatum"
+    "CustomFields1": "est",
+    "CustomFields2": "fuga"
   },
-  "PublishEventDate": "2016-08-08T11:10:25.5175219+02:00",
-  "PublishTo": "2010-01-13T11:10:25.5175219+01:00",
-  "PublishFrom": "1997-06-16T11:10:25.5175219+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-10-26T02:49:43.2929959+02:00",
+  "PublishTo": "2021-01-28T02:49:43.2929959+01:00",
+  "PublishFrom": "2011-03-23T02:49:43.2929959+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 321,
+      "VisibleId": 911,
       "Visibility": "All",
-      "DisplayValue": "laborum",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 925
+          "FieldType": "System.Int32",
+          "FieldLength": 272
         }
       }
     },
     {
-      "VisibleId": 321,
+      "VisibleId": 911,
       "Visibility": "All",
-      "DisplayValue": "laborum",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 925
+          "FieldType": "System.Int32",
+          "FieldLength": 272
         }
       }
     }
@@ -241,7 +249,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 814
     }
   }
 }

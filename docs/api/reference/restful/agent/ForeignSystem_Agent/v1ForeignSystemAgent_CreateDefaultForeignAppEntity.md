@@ -11,7 +11,14 @@ POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 
 Set default values into a new ForeignAppEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 338,
-  "Name": "Huel Inc and Sons",
-  "CreatedDate": "2007-10-09T11:10:27.0654524+02:00",
-  "UpdatedDate": "2014-02-17T11:10:27.0654524+01:00",
+  "ForeignAppId": 157,
+  "Name": "Corwin, Harvey and Pollich",
+  "CreatedDate": "2004-01-28T02:49:44.5454229+01:00",
+  "UpdatedDate": "2022-02-07T02:49:44.5454229+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 130,
-      "Name": "Runolfsson-Hessel",
-      "CreatedDate": "2015-12-21T11:10:27.0664528+01:00",
-      "UpdatedDate": "2006-02-21T11:10:27.0664528+01:00",
-      "AssociateFullName": "Miss Bart Will IV",
-      "CreatedBy": "assumenda",
-      "UpdatedBy": "libero",
-      "DeviceIdentifier": "consequatur",
-      "ForeignAppId": 510,
+      "ForeignDeviceId": 900,
+      "Name": "Bartoletti, Pagac and Sanford",
+      "CreatedDate": "2020-08-11T02:49:44.5454229+02:00",
+      "UpdatedDate": "2014-08-20T02:49:44.5454229+02:00",
+      "AssociateFullName": "Miss Howell Dangelo Schinner DDS",
+      "CreatedBy": "consequatur",
+      "UpdatedBy": "fugit",
+      "DeviceIdentifier": "veritatis",
+      "ForeignAppId": 952,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldLength": 619
         }
       }
     }
@@ -96,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 813
     }
   }
 }

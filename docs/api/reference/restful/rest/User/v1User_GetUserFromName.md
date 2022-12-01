@@ -11,11 +11,20 @@ GET /api/v1/User/{userName}
 
 Get a user, with lookup based on user name.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | userName | string | User name of the user to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +39,8 @@ Get a user, with lookup based on user name.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +48,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +86,7 @@ Response body:
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,14 +96,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 25,
-  "Name": "Bruen, Cruickshank and Powlowski",
-  "Rank": 391,
-  "Tooltip": "sit",
+  "AssociateId": 805,
+  "Name": "Kreiger, Homenick and Gerlach",
+  "Rank": 419,
+  "Tooltip": "explicabo",
   "LicenseOwners": [
     {
-      "Name": "Russel-Gibson",
-      "Description": "Stand-alone demand-driven conglomeration",
+      "Name": "Jones, Abshire and Rippin",
+      "Description": "Streamlined optimizing attitude",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -107,13 +117,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 25
+          "FieldLength": 772
         }
       }
     },
     {
-      "Name": "Russel-Gibson",
-      "Description": "Stand-alone demand-driven conglomeration",
+      "Name": "Jones, Abshire and Rippin",
+      "Description": "Streamlined optimizing attitude",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -127,7 +137,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 25
+          "FieldLength": 772
         }
       }
     }
@@ -136,110 +146,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "distinctio",
-      "Tooltip": "sed",
-      "Id": 918,
-      "Rank": 718,
-      "Deleted": true,
+      "Value": "ea",
+      "Tooltip": "rerum",
+      "Id": 920,
+      "Rank": 706,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 73
+          "FieldLength": 925
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2015-09-19T11:10:53.8322174+02:00",
-  "Lastlogout": "2010-11-12T11:10:53.8322174+01:00",
-  "EjUserId": 928,
-  "RequestSignature": "est",
+  "Lastlogin": "2021-01-28T02:49:51.8116461+01:00",
+  "Lastlogout": "2002-05-28T02:49:51.8116461+02:00",
+  "EjUserId": 158,
+  "RequestSignature": "dolorum",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "maiores",
-      "DisplayValue": "laboriosam",
+      "Value": "unde",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldLength": 715
         }
       }
     },
     {
       "Type": null,
-      "Value": "maiores",
-      "DisplayValue": "laboriosam",
+      "Value": "unde",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldLength": 715
         }
       }
     }
   ],
-  "UserName": "Wehner Inc and Sons",
+  "UserName": "Hettinger, Huels and Schaefer",
   "TicketCategories": [
     {
-      "Id": 59,
-      "Name": "Huel Group",
-      "ToolTip": "Qui ex excepturi omnis.",
-      "Deleted": false,
-      "Rank": 258,
-      "Type": "ut",
+      "Id": 52,
+      "Name": "Russel Inc and Sons",
+      "ToolTip": "Nemo sit perspiciatis minus qui autem tempore.",
+      "Deleted": true,
+      "Rank": 54,
+      "Type": "tenetur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nesciunt",
-      "ColorBlock": 759,
-      "ExtraInfo": "voluptates",
-      "StyleHint": "voluptates",
-      "FullName": "Brielle Abbott",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 356
-        }
-      }
-    }
-  ],
-  "NickName": "Ritchie, Donnelly and Abshire",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "eius"
-  },
-  "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "libero"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Schiller, Franecki and Mante",
-      "DisplayName": "Stehr-Kutch",
-      "Description": "Enterprise-wide background protocol",
-      "ToolTip": "Dicta vel.",
-      "Actions": "Implicit",
-      "ActionData": "provident",
+      "IconHint": "veniam",
+      "ColorBlock": 360,
+      "ExtraInfo": "explicabo",
+      "StyleHint": "velit",
+      "FullName": "Antone Strosin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 687
+        }
+      }
+    }
+  ],
+  "NickName": "Bogan Inc and Sons",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "doloribus",
+    "ExtraFields2": "consequatur"
+  },
+  "CustomFields": {
+    "CustomFields1": "quia",
+    "CustomFields2": "in"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Waters, Jast and Hermann",
+      "DisplayName": "Quitzon LLC",
+      "Description": "Optional executive leverage",
+      "ToolTip": "Et ut est et quia ex totam.",
+      "Actions": "Implicit",
+      "ActionData": "saepe",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 402
         }
       }
     }
@@ -249,7 +259,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldLength": 542
     }
   }
 }

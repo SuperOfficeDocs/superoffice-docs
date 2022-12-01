@@ -11,7 +11,14 @@ GET /api/v1/ChatTopic/default
 
 Set default values into a new ChatTopicEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Chat agent service CreateDefaultChatTopicEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +86,7 @@ Response body:
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 849,
-  "Name": "Breitenberg Group",
-  "Description": "Streamlined disintermediate definition",
-  "WelcomeMessage": "repudiandae",
+  "ChatTopicId": 944,
+  "Name": "Bosco Inc and Sons",
+  "Description": "User-centric neutral instruction set",
+  "WelcomeMessage": "quia",
   "Language": null,
-  "LastAccept": "2012-01-25T11:10:52.5661735+01:00",
-  "SecondsPrAccept": 966,
-  "AlertRecipient": "velit",
+  "LastAccept": "2019-10-11T02:49:50.682786+02:00",
+  "SecondsPrAccept": 175,
+  "AlertRecipient": "nesciunt",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "consequatur",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "repellendus",
-  "WarnNewChatMinutes": 540,
-  "WarnManagerNewChatMinutes": 798,
+  "BadgeHeader": "ab",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "voluptate",
+  "WarnNewChatMinutes": 182,
+  "WarnManagerNewChatMinutes": 720,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 157,
-  "WarnManagerChatMessageMinutes": 782,
+  "WarnChatMessageMinutes": 655,
+  "WarnManagerChatMessageMinutes": 503,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 339,
-  "OfflineFormQueueLength": 422,
+  "OfflineFormTimeLimit": 634,
+  "OfflineFormQueueLength": 509,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "vero",
+  "WidgetRatingText": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldLength": 126
     }
   }
 }

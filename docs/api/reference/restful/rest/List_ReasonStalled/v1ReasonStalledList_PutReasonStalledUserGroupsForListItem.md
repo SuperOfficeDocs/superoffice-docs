@@ -11,11 +11,18 @@ PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ReasonStalled list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 28,
-    "Name": "Smith, Ratke and Cole",
-    "ToolTip": "Repellendus voluptatem aliquam.",
+    "Id": 893,
+    "Name": "Schmidt, Dach and Lebsack",
+    "ToolTip": "Natus eius et expedita.",
     "Deleted": true,
-    "Rank": 582,
-    "Type": "consequuntur",
-    "ColorBlock": 133,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2002-06-02T11:10:54.5859361+02:00",
+    "Rank": 959,
+    "Type": "sunt",
+    "ColorBlock": 453,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2007-01-31T02:49:52.5003264+01:00",
     "ChildItems": [
       {
-        "Id": 801,
-        "Name": "Moen LLC",
-        "ToolTip": "Molestias tenetur.",
+        "Id": 963,
+        "Name": "Will LLC",
+        "ToolTip": "Perferendis explicabo doloremque dicta dolores quos sapiente reprehenderit.",
         "Deleted": false,
-        "Rank": 606,
-        "Type": "mollitia",
-        "ColorBlock": 757,
-        "IconHint": "veritatis",
-        "Selected": true,
-        "LastChanged": "2000-06-12T11:10:54.5859361+02:00",
+        "Rank": 331,
+        "Type": "quia",
+        "ColorBlock": 615,
+        "IconHint": "earum",
+        "Selected": false,
+        "LastChanged": "2000-12-04T02:49:52.5003264+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "laboriosam",
-        "Hidden": false,
-        "FullName": "Mr. Zoila Lockman"
+        "ExtraInfo": "nulla",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Miss Cynthia Jast"
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "et",
+    "ExtraInfo": "iste",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Isabella Corkery"
+    "FullName": "Juston O'Connell"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 638,
-    "Name": "Jacobi-Hayes",
-    "ToolTip": "Necessitatibus culpa.",
-    "Deleted": false,
-    "Rank": 555,
-    "Type": "error",
-    "ColorBlock": 625,
-    "IconHint": "cum",
-    "Selected": true,
-    "LastChanged": "2006-10-22T11:10:54.5869354+02:00",
+    "Id": 652,
+    "Name": "Konopelski LLC",
+    "ToolTip": "Tenetur eum ea sit reprehenderit eos.",
+    "Deleted": true,
+    "Rank": 441,
+    "Type": "sed",
+    "ColorBlock": 245,
+    "IconHint": "blanditiis",
+    "Selected": false,
+    "LastChanged": "2011-12-14T02:49:52.5003264+01:00",
     "ChildItems": [
       {
-        "Id": 462,
-        "Name": "Tillman Inc and Sons",
-        "ToolTip": "Ut aut.",
-        "Deleted": true,
-        "Rank": 404,
-        "Type": "animi",
-        "ColorBlock": 81,
-        "IconHint": "aperiam",
-        "Selected": false,
-        "LastChanged": "2014-07-15T11:10:54.5869354+02:00",
+        "Id": 333,
+        "Name": "Dach-Kassulke",
+        "ToolTip": "In earum cupiditate at voluptatum ipsum possimus vero.",
+        "Deleted": false,
+        "Rank": 427,
+        "Type": "in",
+        "ColorBlock": 563,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2022-07-14T02:49:52.5003264+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "minima",
+        "ExtraInfo": "non",
+        "StyleHint": "explicabo",
         "Hidden": true,
-        "FullName": "Winston Jacobson DDS",
+        "FullName": "Celestino Boyle I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 955
+            "FieldLength": 103
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Nellie Crist",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "a",
+    "Hidden": false,
+    "FullName": "Mrs. Nikko Sage Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldType": "System.Int32",
+        "FieldLength": 247
       }
     }
   }

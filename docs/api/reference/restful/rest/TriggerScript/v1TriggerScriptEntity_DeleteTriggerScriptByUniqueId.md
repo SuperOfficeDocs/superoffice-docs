@@ -11,11 +11,20 @@ DELETE /api/v1/TriggerScript/{triggerScriptUniqueId}
 
 Delete a trigger CRMScript.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | triggerScriptUniqueId | string | The unique id of the CRMScript to validate **Required** |
+
+
 
 ## Request Headers
 
@@ -26,7 +35,8 @@ Delete a trigger CRMScript.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -34,7 +44,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -42,7 +53,7 @@ Response body:
 DELETE /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

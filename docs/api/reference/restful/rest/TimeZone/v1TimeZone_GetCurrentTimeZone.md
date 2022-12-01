@@ -11,7 +11,14 @@ GET /api/v1/TimeZone/current
 
 Base Time Zone info.
 
+
 This is the time zone used internally for storing data.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ This is the time zone used internally for storing data.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 50,
-  "Name": "Carroll Inc and Sons",
-  "TZLocationCode": "repudiandae",
-  "TZLocationCities": "omnis",
-  "IsoNumber": 922,
+  "TZLocationID": 425,
+  "Name": "Roob-Jast",
+  "TZLocationCode": "est",
+  "TZLocationCities": "dolore",
+  "IsoNumber": 102,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 573,
-      "StartMonth": 600,
-      "EndDay": 196,
-      "EndMonth": 837,
-      "TZOffset": 888,
-      "StartRulePattern": "rerum",
-      "EndRulePattern": "praesentium"
+      "StartDay": 568,
+      "StartMonth": 136,
+      "EndDay": 228,
+      "EndMonth": 888,
+      "TZOffset": 952,
+      "StartRulePattern": "deserunt",
+      "EndRulePattern": "voluptas"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 335,
-      "StartMonth": 701,
-      "EndDay": 210,
-      "EndMonth": 779,
-      "TZOffset": 679,
-      "StartRulePattern": "ut",
-      "EndRulePattern": "culpa"
+      "StartDay": 537,
+      "StartMonth": 969,
+      "EndDay": 571,
+      "EndMonth": 384,
+      "TZOffset": 822,
+      "StartRulePattern": "deleniti",
+      "EndRulePattern": "odit"
     }
   }
 }

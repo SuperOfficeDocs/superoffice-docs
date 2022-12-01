@@ -3,7 +3,7 @@ title: Production sandbox (test environment)
 uid: prod-sandbox
 description: SuperOffice production sandbox
 author: Bergfrid Dias
-so.date: 12.06.2021
+so.date: 11.25.2022
 keywords: sandbox, production sandbox environment, test environment
 so.topic: concept
 so.envir: cloud
@@ -57,12 +57,18 @@ Yes, almost. All the customer data, such as company, contact, sale, and project 
 
 * [See all steps][5]
 
+## Developing custom app in production sandbox
+
+Because the tenant is in an isolated cluster, a production sandbox is suitable for custom app development and can be treated like a SOD tenant in this regard. Use it to develop and test ideas, with real data.
+
+However, as with any custom application under development, it must be [validated][6] before it gets access to the customer's production tenant. Always keep our [best practices][7] in mind before requesting validation.
+
+When the customer is ready to launch the approved application on their production tenant, reply to the ticket received when the request to publish was submitted.
+
 ## Best practices
 
 > [!NOTE]
-> Any data that was created by the app will still be in your sandbox, like the web panels that were automatically set up by the app. To  hide them, go to [Lists - GUI Web panel][1] in Settings and Maintenance.
-
-* Turn off **Statistics OptIn - Configured** and **UserSync OptIn - Configured** (see below).
+> If your sandbox was cloned from an existing and running CRM Online tenant with apps authroized, then data that was created by the apps in the source will still be in your sandbox. Examples would beweb panels that were automatically set up by the app. To  hide them, go to [Lists - GUI Web panel][1] in Settings and Maintenance.
 
 * If you have **ERP sync apps** in production, you should log in to Settings and Maintenance and turn off automatic syncing. Since these apps are not authorized on the sandbox it will not sync, just generate errors.
 
@@ -72,37 +78,15 @@ Yes, almost. All the customer data, such as company, contact, sale, and project 
 
 * If you plan to test a partner app, ask them ahead of time if the app supports authenticating against multiple tenants.
 
-## Community users and your test database (Onsite installation only)
-
-> [!NOTE]
-> This section only applies to Onsite installations.
-
-We are aware that some Onsite installations use their SuperOffice production serial number on more than one database, and if you are one of those please read on.
-
-Each SuperOffice database sends information to us, that is both Onsite from version 8.0 and CRM Online, as part of our Terms of Service. This is both statistical and user information, and by clicking **Accept** on this dialog, we regularly receive information from your database regarding users and use.
-
-![Terms of service -screenshot][img1]
-
-When this is accepted, we will be updated if you for example retire an associate in your database. Now, if this is the production database and a real user that has been marked as retired, then this is OK. On the other hand, if you have made a copy of your production database, and as a test delete all users or several users, then this will affect you and your colleagues’ login to this community.
-
-Also, we gather user statistics, this is information like how many rows are there in the contact table, appointment table, sale table, and so on, giving us an indication of how our customers use our product (not what they store in it) and it helps us make our products even better. But for the statistics to be useful we only want it from the production database where it is in real use, and not from your test database.
-
-> [!CAUTION]
-> So, if you choose to copy your production database and this addendum is accepted, then each sandbox must turn off the **Statistics OptIn - Configured** and **UserSync OptIn - Configured**.
-
-To turn off these settings, set both preferences to **No**.
-
-![Turn off opt-in -screenshot][img2]
-
 <!-- Referenced links -->
 [1]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FWebpanel.htm
 [2]: replace.md
 [3]: ../../admin/license/user-plans.md
 [4]: order-sandbox.md
 [5]: clone-to.md
+[6]: ../../apps/activate/validate-app.md
+[7]: ../../apps/best-practices.md
 
 <!-- Referenced images -->
-[img1]: media/13062-28350.jpg
-[img2]: media/13063-28352.jpg
 [img12]: media/imageu533bo.png
 [img13]: media/imagemvheo.png

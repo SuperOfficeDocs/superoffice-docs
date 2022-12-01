@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectList
 
 Gets an array of Project objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Project objects.
 ```http
 POST /api/v1/Agents/Project/GetProjectList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/Project/GetProjectList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: projectIds
+## Request Body: projectIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -78,7 +87,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 235,
-    "Name": "Torp, Schmitt and Sanford",
-    "Description": "Reverse-engineered bi-directional open architecture",
+    "ProjectId": 469,
+    "Name": "Homenick-Pfannerstill",
+    "Description": "Persevering intangible encryption",
     "URL": "http://www.example.com/",
-    "Type": "exercitationem",
-    "AssociateId": 595,
-    "AssociateFullName": "Gertrude Kuhn",
-    "TypeId": 175,
-    "Updated": "2010-08-18T11:10:27.6184605+02:00",
-    "StatusId": 606,
-    "Status": "a",
-    "TextId": 161,
-    "PublishTo": "1998-05-20T11:10:27.6184605+02:00",
-    "PublishFrom": "2015-10-07T11:10:27.6184605+02:00",
-    "IsPublished": false,
+    "Type": "omnis",
+    "AssociateId": 963,
+    "AssociateFullName": "Delbert Wuckert",
+    "TypeId": 58,
+    "Updated": "2021-01-04T02:49:44.9684639+01:00",
+    "StatusId": 80,
+    "Status": "assumenda",
+    "TextId": 816,
+    "PublishTo": "2002-07-18T02:49:44.9684639+02:00",
+    "PublishFrom": "2015-07-11T02:49:44.9684639+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1268108",
-    "ActiveErpLinks": 212,
+    "ProjectNumber": "983756",
+    "ActiveErpLinks": 63,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldLength": 156
       }
     }
   }

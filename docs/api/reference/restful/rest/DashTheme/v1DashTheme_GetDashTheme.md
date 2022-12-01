@@ -11,11 +11,17 @@ GET /api/v1/DashTheme/{id}
 
 Gets a DashTheme object.
 
+
 Calls the Dash agent service GetDashTheme.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DashTheme to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Dash agent service GetDashTheme.
 ```http
 GET /api/v1/DashTheme/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/DashTheme/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 DashTheme found.
 
@@ -49,7 +57,7 @@ DashTheme found.
 | 200 | DashTheme found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,18 +87,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 757,
-  "Name": "Carter, Kuhlman and Feil",
-  "Config": "consectetur",
-  "Rank": 716,
-  "Client": "repellat",
-  "Style": "iusto",
+  "DashboardThemeId": 409,
+  "Name": "King Inc and Sons",
+  "Config": "fugiat",
+  "Rank": 587,
+  "Client": "sapiente",
+  "Style": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldLength": 773
     }
   },
   "_Links": {

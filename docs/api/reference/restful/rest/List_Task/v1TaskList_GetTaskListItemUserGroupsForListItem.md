@@ -11,11 +11,18 @@ GET /api/v1/List/Task/Items/{itemId}/UserGroups
 
 Gets user groups visible for the TaskListItem list's item.
 
+
 Calls the Appointment agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the Appointment agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Mraz-Bosco",
-    "ToolTip": "Eius est.",
-    "Deleted": false,
-    "Rank": 517,
-    "Type": "quo",
-    "ColorBlock": 422,
-    "IconHint": "sint",
-    "Selected": true,
-    "LastChanged": "2005-10-28T11:10:54.6609343+02:00",
+    "Id": 634,
+    "Name": "Shanahan Inc and Sons",
+    "ToolTip": "Iste aut et suscipit expedita est.",
+    "Deleted": true,
+    "Rank": 564,
+    "Type": "eum",
+    "ColorBlock": 463,
+    "IconHint": "accusantium",
+    "Selected": false,
+    "LastChanged": "2005-11-24T02:49:52.5471998+01:00",
     "ChildItems": [
       {
-        "Id": 599,
-        "Name": "Satterfield Group",
-        "ToolTip": "Optio est tempora aut at.",
-        "Deleted": true,
-        "Rank": 194,
-        "Type": "vel",
-        "ColorBlock": 566,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2007-11-09T11:10:54.6609343+01:00",
+        "Id": 974,
+        "Name": "O'Connell-Oberbrunner",
+        "ToolTip": "Esse itaque.",
+        "Deleted": false,
+        "Rank": 140,
+        "Type": "et",
+        "ColorBlock": 433,
+        "IconHint": "excepturi",
+        "Selected": true,
+        "LastChanged": "2008-11-18T02:49:52.5471998+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "omnis",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Felipe Hills",
+        "FullName": "Rebekah Hattie Zboncak MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 756
+            "FieldLength": 527
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "molestias",
-    "Hidden": true,
-    "FullName": "Rickey Wisoky I",
+    "ExtraInfo": "qui",
+    "StyleHint": "accusantium",
+    "Hidden": false,
+    "FullName": "Gust Jenkins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldType": "System.String",
+        "FieldLength": 837
       }
     }
   }

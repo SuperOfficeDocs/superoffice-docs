@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SetListItemsForHeading
 
 Update listItems that will be visible for this usergroup
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update listItems that will be visible for this usergroup
 ```http
 POST /api/v1/Agents/List/SetListItemsForHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/List/SetListItemsForHeading?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, HeadingId, ListItemIds, Enable
+UdListDefinitionId, HeadingId, ListItemIds, Enable 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ UdListDefinitionId, HeadingId, ListItemIds, Enable
 | ListItemIds | array |  |
 | Enable | bool |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +58,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -62,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 136,
-  "HeadingId": 584,
+  "UdListDefinitionId": 44,
+  "HeadingId": 993,
   "ListItemIds": [
-    307,
-    657
+    206,
+    429
   ],
   "Enable": false
 }

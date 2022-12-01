@@ -11,7 +11,14 @@ PUT /api/v1/List/ConsentPurpose/Headings
 
 Saves headings for the ConsentPurpose list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -72,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 561,
-    "Name": "King LLC",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "Rank": 324,
-    "UdListDefinitionId": 810
+    "HeadingId": 153,
+    "Name": "Satterfield-Tremblay",
+    "Tooltip": "explicabo",
+    "Deleted": true,
+    "Rank": 756,
+    "UdListDefinitionId": 159
   },
   {
-    "HeadingId": 561,
-    "Name": "King LLC",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "Rank": 324,
-    "UdListDefinitionId": 810
+    "HeadingId": 153,
+    "Name": "Satterfield-Tremblay",
+    "Tooltip": "explicabo",
+    "Deleted": true,
+    "Rank": 756,
+    "UdListDefinitionId": 159
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 910,
-    "Name": "Heller Group",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "Rank": 495,
-    "UdListDefinitionId": 697,
+    "HeadingId": 88,
+    "Name": "Turcotte, Hamill and Weissnat",
+    "Tooltip": "soluta",
+    "Deleted": false,
+    "Rank": 964,
+    "UdListDefinitionId": 724,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 687
+        "FieldLength": 828
       }
     }
   }

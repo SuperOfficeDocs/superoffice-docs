@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 
 Get an e-mail based on an email in the archive system and attachment id.
 
+
 The returned value is not sanitized.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The returned value is not sanitized.
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId?$select=na
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocId, AttachmentIds, IncludeAttachments
+DocId, AttachmentIds, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +57,8 @@ DocId, AttachmentIds, IncludeAttachments
 | AttachmentIds | array |  |
 | IncludeAttachments | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,14 +105,14 @@ Response body:
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 449,
+  "DocId": 613,
   "AttachmentIds": [
-    "voluptatibus",
-    "aperiam"
+    "possimus",
+    "quia"
   ],
   "IncludeAttachments": false
 }
@@ -118,155 +127,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 761,
-      "ContactName": "Terry-Emard",
-      "PersonId": 412,
-      "PersonName": "Fay Group",
-      "AssociateId": 968,
-      "Address": "architecto",
-      "EmailId": 114,
+      "ContactId": 668,
+      "ContactName": "Hauck Group",
+      "PersonId": 566,
+      "PersonName": "Hammes, Wilkinson and Pfannerstill",
+      "AssociateId": 720,
+      "Address": "accusantium",
+      "EmailId": 585,
       "DuplicatePersonIds": [
-        621,
-        200
+        854,
+        674
       ],
-      "Name": "Halvorson, Ward and Sipes",
+      "Name": "Mertz LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 829
+          "FieldType": "System.Int32",
+          "FieldLength": 348
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 579,
-      "ContactName": "Emmerich-Osinski",
-      "PersonId": 597,
-      "PersonName": "Gislason-Herzog",
-      "AssociateId": 710,
-      "Address": "similique",
-      "EmailId": 580,
+      "ContactId": 501,
+      "ContactName": "Murray-Kuhlman",
+      "PersonId": 357,
+      "PersonName": "Pacocha, Keebler and Senger",
+      "AssociateId": 6,
+      "Address": "asperiores",
+      "EmailId": 721,
       "DuplicatePersonIds": [
-        581,
-        708
+        344,
+        403
       ],
-      "Name": "Wunsch, Brown and Rosenbaum",
+      "Name": "Kassulke, Champlin and Lesch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 389
+          "FieldType": "System.String",
+          "FieldLength": 574
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 342,
-      "ContactName": "Hartmann LLC",
-      "PersonId": 198,
-      "PersonName": "Roob, Langosh and Pollich",
-      "AssociateId": 897,
-      "Address": "consequatur",
-      "EmailId": 453,
+      "ContactId": 1002,
+      "ContactName": "Kunze, Rodriguez and Rowe",
+      "PersonId": 758,
+      "PersonName": "Quigley LLC",
+      "AssociateId": 163,
+      "Address": "esse",
+      "EmailId": 637,
       "DuplicatePersonIds": [
-        611,
-        883
+        31,
+        175
       ],
-      "Name": "Douglas LLC",
+      "Name": "Schamberger-Ward",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 841
+          "FieldType": "System.Int32",
+          "FieldLength": 969
         }
       }
     }
   ],
-  "Subject": "neque",
-  "HTMLBody": "nemo",
+  "Subject": "velit",
+  "HTMLBody": "ab",
   "From": null,
-  "Sent": "2020-08-02T11:10:26.9594556+02:00",
-  "Size": 14,
+  "Sent": "2000-07-03T02:49:44.4504155+02:00",
+  "Size": 553,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "occaecati",
-  "PlainBody": "consequatur",
+  "MessageID": "est",
+  "PlainBody": "tenetur",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 478,
+  "ServerId": 409,
   "Attachments": [
     {
-      "Description": "Balanced explicit paradigm",
-      "Filename": "vero",
-      "Size": 914,
-      "Type": "quam",
-      "Encoding": "molestiae",
-      "Id": "voluptas",
-      "Disposition": "non",
+      "Description": "Pre-emptive impactful artificial intelligence",
+      "Filename": "deleniti",
+      "Size": 710,
+      "Type": "vitae",
+      "Encoding": "est",
+      "Id": "quidem",
+      "Disposition": "autem",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 410
+          "FieldLength": 245
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Daugherty, Harvey and Olson",
+      "Name": "Collier-Greenholt",
       "Values": [
-        "sed",
-        "voluptas"
+        "nihil",
+        "delectus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 190
+          "FieldType": "System.String",
+          "FieldLength": 519
         }
       }
     },
     {
-      "Name": "Daugherty, Harvey and Olson",
+      "Name": "Collier-Greenholt",
       "Values": [
-        "sed",
-        "voluptas"
+        "nihil",
+        "delectus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 190
+          "FieldType": "System.String",
+          "FieldLength": 519
         }
       }
     }
   ],
-  "FolderName": "Berge, Morar and Hodkiewicz",
-  "EmailItemId": 987,
-  "AccountId": 691,
-  "ReceivedAt": "2008-10-12T11:10:26.9594556+02:00",
+  "FolderName": "Gibson, Mills and Hegmann",
+  "EmailItemId": 729,
+  "AccountId": 563,
+  "ReceivedAt": "2002-10-18T02:49:44.4504155+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-11-04T11:10:26.9594556+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2012-02-02T02:49:44.4504155+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldType": "System.String",
+      "FieldLength": 133
     }
   }
 }

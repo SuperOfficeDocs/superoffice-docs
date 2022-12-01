@@ -11,6 +11,13 @@ POST /api/v1/Agents/Project/SaveProjectEventEntity
 
 Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ProjectEventEntity to be saved.
+The ProjectEventEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +69,8 @@ The ProjectEventEntity to be saved.
 | IsVisibleForPersonInterests | bool |  |
 | ProjectEventId | int32 | Primary key |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -70,7 +78,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -113,76 +121,76 @@ Response body:
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "ad",
-  "SignOffText": "explicabo",
-  "SignOnConfirmationText": "dicta",
-  "SignOnText": "recusandae",
-  "EventDate": "2001-12-11T11:10:27.5774536+01:00",
-  "Enabled": true,
-  "CreatedDate": "2004-03-29T11:10:27.5774536+02:00",
+  "SignOffConfirmationText": "possimus",
+  "SignOffText": "numquam",
+  "SignOnConfirmationText": "ducimus",
+  "SignOnText": "repellendus",
+  "EventDate": "2018-09-05T02:49:44.9372128+02:00",
+  "Enabled": false,
+  "CreatedDate": "2014-12-07T02:49:44.9372128+01:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 802,
+  "SignOffTaskId": 33,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 810,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2012-07-17T11:10:27.5774536+02:00",
+  "SignOnTaskId": 73,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2014-03-20T02:49:44.9372128+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 997,
-  "Id": 803,
-  "PublishFrom": "2016-07-16T11:10:27.579453+02:00",
+  "ProjectId": 458,
+  "Id": 575,
+  "PublishFrom": "2001-04-20T02:49:44.9372128+02:00",
   "PublishType": "External",
-  "PublishTo": "2010-11-27T11:10:27.579453+01:00",
+  "PublishTo": "2014-06-30T02:49:44.9372128+02:00",
   "VisibleForCategories": [
     {
-      "Id": 225,
-      "Name": "Sawayn-Hilpert",
-      "ToolTip": "Consequatur voluptatem quam in nihil minus tenetur.",
+      "Id": 400,
+      "Name": "Haag, Howe and Herman",
+      "ToolTip": "Officiis et et iusto fuga quis.",
       "Deleted": true,
-      "Rank": 21,
-      "Type": "totam",
+      "Rank": 26,
+      "Type": "eligendi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolores",
-      "ColorBlock": 620,
-      "ExtraInfo": "et",
-      "StyleHint": "perferendis",
-      "FullName": "Prof. Xavier Weber"
+      "IconHint": "ratione",
+      "ColorBlock": 305,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "et",
+      "FullName": "Idella McLaughlin IV"
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 724,
-      "Name": "Torphy, Langworth and Sipes",
-      "ToolTip": "Libero mollitia rem placeat.",
-      "Deleted": true,
-      "Rank": 86,
-      "Type": "fuga",
+      "Id": 375,
+      "Name": "Ankunding, Buckridge and Ortiz",
+      "ToolTip": "Incidunt quia quibusdam quos.",
+      "Deleted": false,
+      "Rank": 775,
+      "Type": "nihil",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ullam",
-      "ColorBlock": 419,
-      "ExtraInfo": "aut",
-      "StyleHint": "doloribus",
-      "FullName": "Caesar Roberts Jr."
+      "IconHint": "repudiandae",
+      "ColorBlock": 957,
+      "ExtraInfo": "deserunt",
+      "StyleHint": "enim",
+      "FullName": "Verner Windler"
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 72
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 768
 }
 ```
 
@@ -193,79 +201,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "optio",
-  "SignOffText": "reprehenderit",
-  "SignOnConfirmationText": "natus",
-  "SignOnText": "in",
-  "EventDate": "2008-10-21T11:10:27.582453+02:00",
+  "SignOffConfirmationText": "nemo",
+  "SignOffText": "soluta",
+  "SignOnConfirmationText": "autem",
+  "SignOnText": "et",
+  "EventDate": "2002-01-21T02:49:44.9372128+01:00",
   "Enabled": false,
-  "CreatedDate": "2006-09-30T11:10:27.582453+02:00",
-  "SignOff": false,
+  "CreatedDate": "2005-03-25T02:49:44.9372128+01:00",
+  "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 593,
+  "SignOffTaskId": 303,
   "SignOffTriggersAssign": false,
-  "SignOn": true,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 457,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2000-02-08T11:10:27.582453+01:00",
+  "SignOnTaskId": 164,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2007-03-15T02:49:44.9372128+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 206,
-  "Id": 29,
-  "PublishFrom": "2017-07-11T11:10:27.582453+02:00",
+  "ProjectId": 953,
+  "Id": 94,
+  "PublishFrom": "2005-11-24T02:49:44.9372128+01:00",
   "PublishType": "External",
-  "PublishTo": "2005-01-05T11:10:27.582453+01:00",
+  "PublishTo": "2018-05-07T02:49:44.9372128+02:00",
   "VisibleForCategories": [
     {
-      "Id": 320,
-      "Name": "Boehm, Schoen and Cremin",
-      "ToolTip": "Assumenda similique.",
-      "Deleted": false,
-      "Rank": 663,
-      "Type": "sint",
+      "Id": 436,
+      "Name": "Hudson-Littel",
+      "ToolTip": "Rerum voluptatum deleniti.",
+      "Deleted": true,
+      "Rank": 8,
+      "Type": "error",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "perspiciatis",
-      "ColorBlock": 911,
-      "ExtraInfo": "dolorum",
+      "IconHint": "beatae",
+      "ColorBlock": 763,
+      "ExtraInfo": "commodi",
       "StyleHint": "aut",
-      "FullName": "Dr. Lia Murphy II",
+      "FullName": "Phoebe Altenwerth",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 831
+          "FieldLength": 731
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 774,
-      "Name": "Yost, Smith and Rowe",
-      "ToolTip": "Hic libero culpa maiores.",
+      "Id": 319,
+      "Name": "Osinski, Pfannerstill and Morissette",
+      "ToolTip": "Omnis quibusdam quia cupiditate blanditiis quo.",
       "Deleted": false,
-      "Rank": 438,
-      "Type": "nesciunt",
+      "Rank": 913,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 504,
-      "ExtraInfo": "odit",
-      "StyleHint": "placeat",
-      "FullName": "Prof. Bradley Kariane Fay V",
+      "IconHint": "dolore",
+      "ColorBlock": 381,
+      "ExtraInfo": "libero",
+      "StyleHint": "officia",
+      "FullName": "Mrs. Bradford Gottlieb",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 645
+          "FieldLength": 497
         }
       }
     }
@@ -273,14 +281,14 @@ Content-Type: application/json; charset=utf-8
   "IsPublished": false,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 905,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 6,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldLength": 128
     }
   }
 }

@@ -11,6 +11,7 @@ GET /api/v1/ForeignApp
 
 OData list of all ForeignAppEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * ForeignApp?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * ForeignApp?$top=1000
 * ForeignApp?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "ForeignKeys" archive.
 
-## Filter Operators ##
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=ipsa
-GET /api/v1/ForeignApp?$top=420
-GET /api/v1/ForeignApp?$skip=584
+GET /api/v1/ForeignApp?$entities=nulla
+GET /api/v1/ForeignApp?$top=464
+GET /api/v1/ForeignApp?$skip=167
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=minus
+GET /api/v1/ForeignApp?$context=illum
 GET /api/v1/ForeignApp?$format=JSON
-GET /api/v1/ForeignApp?$jsonSafe=True
+GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,7 +95,8 @@ GET /api/v1/ForeignApp?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -92,7 +104,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -117,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aperiam",
+  "odata.nextLink": "quia",
   "value": [
     {
-      "PrimaryKey": 4005,
+      "PrimaryKey": 9735,
       "EntityName": "person",
-      "personId": 4005,
-      "fullName": "Ms. Donnie Upton II"
+      "personId": 9735,
+      "fullName": "Sister Marco Hodkiewicz PhD"
     },
     {
-      "PrimaryKey": 9607,
+      "PrimaryKey": 6600,
       "EntityName": "person",
-      "personId": 9607,
-      "fullName": "Prof. Francisco Hazle Toy"
+      "personId": 6600,
+      "fullName": "Mr. Chaz Stephany Larkin"
     }
   ]
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetUserLicenses
 
 Obtain information about associate module licenses
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Obtain information about associate module licenses
 ```http
 POST /api/v1/Agents/License/GetUserLicenses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/License/GetUserLicenses?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId
+AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
+
 
 ## Response: array
 
@@ -68,11 +76,11 @@ Response body: array
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 62
+  "AssociateId": 751
 }
 ```
 
@@ -84,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Abbott, Mosciski and Ritchie",
-    "Description": "Operative 6th generation utilisation",
+    "Name": "Shanahan, Spencer and VonRueden",
+    "Description": "Operative hybrid data-warehouse",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 989,
-        "Tooltip": "necessitatibus",
-        "CanAssign": true,
-        "Free": 120,
-        "InUse": 359,
+        "Total": 326,
+        "Tooltip": "eius",
+        "CanAssign": false,
+        "Free": 589,
+        "InUse": 701,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 832,
-        "Name": "Reinger-Aufderhar",
-        "Description": "Distributed bottom-line paradigm",
-        "PrerequisiteModuleName": "Hodkiewicz-Krajcik",
-        "SortOrder": 296,
-        "ExtraFlags": 907,
+        "ModuleLicenseId": 367,
+        "Name": "Beier-Krajcik",
+        "Description": "Intuitive reciprocal local area network",
+        "PrerequisiteModuleName": "Steuber Inc and Sons",
+        "SortOrder": 214,
+        "ExtraFlags": 469,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 341
+            "FieldType": "System.Int32",
+            "FieldLength": 899
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 419,
-        "Tooltip": "fugiat",
-        "CanAssign": false,
-        "Free": 986,
-        "InUse": 618,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 40,
-        "Name": "Harber Group",
-        "Description": "Reduced system-worthy analyzer",
-        "PrerequisiteModuleName": "Purdy Inc and Sons",
-        "SortOrder": 968,
-        "ExtraFlags": 748,
+        "Unrestricted": true,
+        "Total": 722,
+        "Tooltip": "voluptas",
+        "CanAssign": true,
+        "Free": 909,
+        "InUse": 282,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 963,
+        "Name": "Emmerich, Boyer and Strosin",
+        "Description": "Exclusive explicit challenge",
+        "PrerequisiteModuleName": "Kunde, Emmerich and Hagenes",
+        "SortOrder": 59,
+        "ExtraFlags": 750,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 80
+            "FieldType": "System.String",
+            "FieldLength": 829
           }
         }
       }
@@ -143,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldLength": 432
       }
     }
   },
   {
-    "Name": "Abbott, Mosciski and Ritchie",
-    "Description": "Operative 6th generation utilisation",
+    "Name": "Shanahan, Spencer and VonRueden",
+    "Description": "Operative hybrid data-warehouse",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 989,
-        "Tooltip": "necessitatibus",
-        "CanAssign": true,
-        "Free": 120,
-        "InUse": 359,
+        "Total": 326,
+        "Tooltip": "eius",
+        "CanAssign": false,
+        "Free": 589,
+        "InUse": 701,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 832,
-        "Name": "Reinger-Aufderhar",
-        "Description": "Distributed bottom-line paradigm",
-        "PrerequisiteModuleName": "Hodkiewicz-Krajcik",
-        "SortOrder": 296,
-        "ExtraFlags": 907,
+        "ModuleLicenseId": 367,
+        "Name": "Beier-Krajcik",
+        "Description": "Intuitive reciprocal local area network",
+        "PrerequisiteModuleName": "Steuber Inc and Sons",
+        "SortOrder": 214,
+        "ExtraFlags": 469,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 341
+            "FieldType": "System.Int32",
+            "FieldLength": 899
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 419,
-        "Tooltip": "fugiat",
-        "CanAssign": false,
-        "Free": 986,
-        "InUse": 618,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 40,
-        "Name": "Harber Group",
-        "Description": "Reduced system-worthy analyzer",
-        "PrerequisiteModuleName": "Purdy Inc and Sons",
-        "SortOrder": 968,
-        "ExtraFlags": 748,
+        "Unrestricted": true,
+        "Total": 722,
+        "Tooltip": "voluptas",
+        "CanAssign": true,
+        "Free": 909,
+        "InUse": 282,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 963,
+        "Name": "Emmerich, Boyer and Strosin",
+        "Description": "Exclusive explicit challenge",
+        "PrerequisiteModuleName": "Kunde, Emmerich and Hagenes",
+        "SortOrder": 59,
+        "ExtraFlags": 750,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 80
+            "FieldType": "System.String",
+            "FieldLength": 829
           }
         }
       }
@@ -207,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldLength": 432
       }
     }
   }

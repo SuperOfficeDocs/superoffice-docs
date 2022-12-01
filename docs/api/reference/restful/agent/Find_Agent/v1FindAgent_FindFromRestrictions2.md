@@ -11,10 +11,12 @@ POST /api/v1/Agents/Find/FindFromRestrictions2
 
 Execute a Find operation and return a page of results.
 
-The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction.
+
+The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
+
 
 For example:
 
@@ -35,8 +37,8 @@ Unary operators:
 "updatedDate lastWeek", "assocId currentAssociate"
 ```
 
-## Brackets and or
 
+## Brackets and or
 AND and OR can be used to combine terms. AND has a higher priority than OR
 
 ```
@@ -49,10 +51,12 @@ Brackets can be used for grouping.
 "(business = 2 or category = 3) and name contains 'super'"
 ```
 
+
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
+
 
 Example: group last names together, and inject a header row for each group.
 
@@ -62,7 +66,7 @@ GroupBy(lastName):Header
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
+Example: count instances of middle names, and hide the individual rows, 
 report just the totals for each group using a footer. Note how the modifiers stack.
 
 ```
@@ -78,18 +82,28 @@ Example: the aggregator functions can nest, so you can say
 GroupBy(DatePart(personUpdatedDate):YearMonth):Header
 
 ```
-
 ## Strings
 
 Use the begins or contains operators to do string searches.
 You can also use the normal = operator to do string exact match checks.
 
+
+
 Use backslash to escape single quotes in strings
 (note that backslash needs to be doubled because c# also uses backslash escapes):
+
 
 ```
 "department contains 'Bob\\'s'"
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -100,6 +114,7 @@ Use backslash to escape single quotes in strings
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictions2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -115,9 +130,9 @@ POST /api/v1/Agents/Find/FindFromRestrictions2?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Restrictions, ProviderName, PageSize, PageNumber
+Restrictions, ProviderName, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -126,7 +141,8 @@ Restrictions, ProviderName, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -134,7 +150,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -150,14 +166,14 @@ Response body:
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "corrupti",
-  "ProviderName": "Hodkiewicz Inc and Sons",
-  "PageSize": 905,
-  "PageNumber": 562
+  "Restrictions": "iure",
+  "ProviderName": "Jast, Bechtelar and Schiller",
+  "PageSize": 635,
+  "PageNumber": 70
 }
 ```
 
@@ -170,51 +186,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hagenes-Pollich",
-      "DisplayTooltip": "eveniet",
-      "DisplayType": "et",
-      "CanOrderBy": true,
-      "Name": "Lemke, Keebler and Barton",
+      "DisplayName": "Hartmann, Grant and Goodwin",
+      "DisplayTooltip": "et",
+      "DisplayType": "optio",
+      "CanOrderBy": false,
+      "Name": "Stark-Dicki",
       "CanRestrictBy": false,
-      "RestrictionType": "exercitationem",
-      "RestrictionListName": "Heaney, Mante and Romaguera",
+      "RestrictionType": "harum",
+      "RestrictionListName": "Crona-Waelchi",
       "IsVisible": false,
-      "ExtraInfo": "nisi",
-      "Width": "rem",
-      "IconHint": "et",
-      "HeadingIconHint": "velit"
+      "ExtraInfo": "in",
+      "Width": "quod",
+      "IconHint": "id",
+      "HeadingIconHint": "rerum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kuhic, Padberg and Bartell",
-      "PrimaryKey": 926,
+      "EntityName": "Kautzer, Gutmann and Torp",
+      "PrimaryKey": 823,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "rerum",
-          "TooltipHint": "at",
-          "LinkHint": "autem"
+          "DisplayValue": "doloremque",
+          "TooltipHint": "enim",
+          "LinkHint": "ex"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "maiores",
+      "LinkHint": "a",
+      "StyleHint": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 177
+          "FieldLength": 392
         }
       }
     }
   ],
-  "RowCount": 423,
+  "RowCount": 903,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 316
     }
   }
 }

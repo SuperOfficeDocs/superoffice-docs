@@ -11,7 +11,13 @@ POST /api/v1/ChatSession
 
 Creates a new ChatSessionEntity
 
+
 Calls the Chat agent service SaveChatSessionEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Chat agent service SaveChatSessionEntity.
 ```http
 POST /api/v1/ChatSession?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/ChatSession?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ChatSessionEntity to be saved.
+The ChatSessionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +82,8 @@ The ChatSessionEntity to be saved.
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -83,7 +91,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -128,33 +136,33 @@ Response body:
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 989,
-  "TopicId": 9,
+  "ChatSessionId": 527,
+  "TopicId": 756,
   "User": null,
   "Person": null,
-  "CustomerAlias": "a",
-  "CustomerHost": "facilis",
-  "CustomerName": "Maggio-Nikolaus",
-  "CustomerEmail": "loy@heller.info",
-  "CustomerPhone": "966-891-9913",
+  "CustomerAlias": "tenetur",
+  "CustomerHost": "asperiores",
+  "CustomerName": "Kunde Inc and Sons",
+  "CustomerEmail": "abdullah@haley.com",
+  "CustomerPhone": "(715)889-6415 x4904",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Windler LLC",
+  "CustomerCompanyName": "Kihn Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "voluptatem",
-  "LastMessage": "nisi",
-  "WhenRequested": "2017-01-03T11:10:52.4351744+01:00",
-  "WhenStarted": "1999-08-08T11:10:52.4351744+02:00",
-  "WhenEnded": "2012-06-16T11:10:52.4351744+02:00",
-  "WhenIdle": "1995-04-16T11:10:52.4351744+02:00",
-  "WhenFetched": "2021-07-09T11:10:52.4351744+02:00",
-  "SessionKey": "dolor",
-  "InitialQueuePos": 570,
-  "AlertLevel": 303,
-  "Rank": 232,
+  "FirstMessage": "non",
+  "LastMessage": "necessitatibus",
+  "WhenRequested": "2010-12-04T02:49:50.5734094+01:00",
+  "WhenStarted": "2008-11-10T02:49:50.5734094+01:00",
+  "WhenEnded": "2001-01-31T02:49:50.5734094+01:00",
+  "WhenIdle": "1998-05-19T02:49:50.5734094+02:00",
+  "WhenFetched": "2017-11-06T02:49:50.5734094+01:00",
+  "SessionKey": "porro",
+  "InitialQueuePos": 598,
+  "AlertLevel": 365,
+  "Rank": 941,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -162,7 +170,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 296
+  "Rating": 335
 }
 ```
 
@@ -173,29 +181,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 889,
-  "TopicId": 554,
+  "ChatSessionId": 834,
+  "TopicId": 820,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptates",
-  "CustomerHost": "quia",
-  "CustomerName": "Rogahn-Luettgen",
-  "CustomerEmail": "georgette_okuneva@upton.com",
-  "CustomerPhone": "608-700-9542 x14541",
+  "CustomerAlias": "quo",
+  "CustomerHost": "ab",
+  "CustomerName": "Schroeder-Ruecker",
+  "CustomerEmail": "jewell@rice.com",
+  "CustomerPhone": "074-789-3907 x4455",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Hackett-Orn",
+  "CustomerCompanyName": "Konopelski, Cummings and Wolf",
   "Status": "Closed",
-  "FirstMessage": "natus",
-  "LastMessage": "voluptatum",
-  "WhenRequested": "2021-11-28T11:10:52.4441803+01:00",
-  "WhenStarted": "1998-11-01T11:10:52.4441803+01:00",
-  "WhenEnded": "2006-11-09T11:10:52.4441803+01:00",
-  "WhenIdle": "2005-03-18T11:10:52.4441803+01:00",
-  "WhenFetched": "2010-09-19T11:10:52.4441803+02:00",
-  "SessionKey": "illo",
-  "InitialQueuePos": 55,
-  "AlertLevel": 599,
-  "Rank": 373,
+  "FirstMessage": "nisi",
+  "LastMessage": "eos",
+  "WhenRequested": "2013-03-28T02:49:50.5890349+01:00",
+  "WhenStarted": "2021-12-28T02:49:50.5890349+01:00",
+  "WhenEnded": "2019-04-10T02:49:50.5890349+02:00",
+  "WhenIdle": "2003-05-19T02:49:50.5890349+02:00",
+  "WhenFetched": "2006-01-10T02:49:50.5890349+01:00",
+  "SessionKey": "quo",
+  "InitialQueuePos": 288,
+  "AlertLevel": 990,
+  "Rank": 631,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -203,13 +211,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 85,
+  "Rating": 871,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldType": "System.String",
+      "FieldLength": 736
     }
   },
   "_Links": {

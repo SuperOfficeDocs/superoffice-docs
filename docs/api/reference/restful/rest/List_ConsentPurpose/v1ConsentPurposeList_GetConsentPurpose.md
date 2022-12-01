@@ -11,11 +11,18 @@ GET /api/v1/List/ConsentPurpose/Items/{id}
 
 Gets a ConsentPurpose list item.
 
+
 Calls the List agent service GetConsentPurpose.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ConsentPurpose to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Calls the List agent service GetConsentPurpose.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -39,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +73,7 @@ Response body:
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,25 +83,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 156,
-  "Name": "Grimes-Runolfsson",
-  "ConsentText": "nulla",
-  "FormText": "veritatis",
-  "Key": "ipsam",
-  "Tooltip": "ratione",
-  "Active": 569,
-  "UpdatedDate": "2008-05-21T11:10:53.9761824+02:00",
+  "ConsentPurposeId": 186,
+  "Name": "Graham, Hauck and Bartoletti",
+  "ConsentText": "et",
+  "FormText": "voluptate",
+  "Key": "velit",
+  "Tooltip": "necessitatibus",
+  "Active": 947,
+  "UpdatedDate": "2002-05-29T02:49:51.9378192+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 105,
-  "PrivacyStatementDesc": "optio",
+  "Deleted": false,
+  "Rank": 426,
+  "PrivacyStatementDesc": "rem",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 241
     }
   }
 }

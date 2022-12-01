@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/NormalizeRanks
 
 Nomralize the ranks for all persons that belong to a contact.
 
+
 This means that the persons will be sorted according to their current rank values, and the ranks will be made monotonically increasing from 1.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This means that the persons will be sorted according to their current rank value
 ```http
 POST /api/v1/Agents/Person/NormalizeRanks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Person/NormalizeRanks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
+
 
 ## Response: bool
 
@@ -55,6 +63,7 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
@@ -65,7 +74,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 298
+  "ContactId": 398
 }
 ```
 
@@ -75,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

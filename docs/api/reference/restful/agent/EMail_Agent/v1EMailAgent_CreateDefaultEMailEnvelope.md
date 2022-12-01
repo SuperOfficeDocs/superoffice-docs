@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 
 Set default values into a new EMailEnvelope.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +68,7 @@ Response body:
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,45 +78,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 133,
-  "MessageId": "non",
-  "Subject": "dolorem",
+  "ServerId": 94,
+  "MessageId": "nihil",
+  "Subject": "et",
   "From": null,
   "To": [
     {
-      "ContactId": 703,
-      "ContactName": "Connelly Group",
-      "PersonId": 407,
-      "PersonName": "Dickinson Inc and Sons",
-      "AssociateId": 32,
-      "Address": "esse",
-      "EmailId": 153,
+      "ContactId": 206,
+      "ContactName": "Stoltenberg-Roob",
+      "PersonId": 712,
+      "PersonName": "Hackett LLC",
+      "AssociateId": 817,
+      "Address": "quaerat",
+      "EmailId": 540,
       "DuplicatePersonIds": [
-        191,
-        480
+        797,
+        35
       ],
-      "Name": "Harber, Schimmel and Durgan",
+      "Name": "Jacobi, Christiansen and Wintheiser",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldType": "System.String",
+          "FieldLength": 851
         }
       }
     }
   ],
-  "Sent": "1996-06-22T11:10:26.8984534+02:00",
+  "Sent": "1998-02-18T02:49:44.403542+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 705,
+  "Size": 482,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 882
     }
   }
 }

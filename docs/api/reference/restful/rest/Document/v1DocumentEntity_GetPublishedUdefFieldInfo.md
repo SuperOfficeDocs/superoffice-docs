@@ -11,9 +11,16 @@ GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 
 Get a published DocumentEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a published DocumentEntity user-defined field's details based on the prog-id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 DocumentEntity found.
 
@@ -37,7 +45,7 @@ DocumentEntity found.
 | 200 | DocumentEntity found. |
 | 404 | DocumentEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +92,7 @@ Response body:
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,46 +102,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 337,
-  "ColumnId": 687,
-  "FieldDefault": "saepe",
-  "FieldHeight": 299,
-  "FieldLabel": "placeat",
-  "FieldLeft": 401,
-  "FieldTop": 40,
+  "UDefFieldId": 250,
+  "ColumnId": 73,
+  "FieldDefault": "distinctio",
+  "FieldHeight": 809,
+  "FieldLabel": "ut",
+  "FieldLeft": 378,
+  "FieldTop": 730,
   "FieldType": "Checkbox",
-  "FieldWidth": 974,
-  "FormatMask": "sequi",
-  "HideLabel": true,
+  "FieldWidth": 934,
+  "FormatMask": "laboriosam",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 485,
-  "LabelLeft": 259,
-  "LabelTop": 564,
-  "LabelWidth": 374,
-  "LastVersionId": 372,
-  "ListTableId": 628,
+  "LabelHeight": 519,
+  "LabelLeft": 737,
+  "LabelTop": 873,
+  "LabelWidth": 209,
+  "LastVersionId": 747,
+  "ListTableId": 837,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 64,
-  "ProgId": "voluptatem",
+  "Page1LineNo": 533,
+  "ProgId": "magnam",
   "IsReadOnly": false,
-  "ShortLabel": "eum",
-  "TabOrder": 325,
-  "TextLength": 762,
-  "Tooltip": "aperiam",
-  "UdefIdentity": 244,
-  "UDListDefinitionId": 790,
+  "ShortLabel": "maxime",
+  "TabOrder": 304,
+  "TextLength": 63,
+  "Tooltip": "pariatur",
+  "UdefIdentity": 776,
+  "UDListDefinitionId": 664,
   "Justification": "Center",
-  "Version": 241,
-  "TemplateVariableName": "Parisian-Legros",
+  "Version": 56,
+  "TemplateVariableName": "Denesik LLC",
   "HasBeenPublished": true,
-  "MdoListName": "West Group",
+  "MdoListName": "Sawayn Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 834
+      "FieldLength": 57
     }
   }
 }

@@ -11,11 +11,18 @@ GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 
 Gets user groups visible for the QuoteDenyReason list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 948,
-    "Name": "Brakus-Lynch",
-    "ToolTip": "Libero sapiente sit quae culpa.",
-    "Deleted": true,
-    "Rank": 841,
-    "Type": "sit",
-    "ColorBlock": 64,
-    "IconHint": "nemo",
-    "Selected": false,
-    "LastChanged": "2006-05-25T11:10:54.5189309+02:00",
+    "Id": 886,
+    "Name": "Kunze LLC",
+    "ToolTip": "Voluptas non asperiores dolor quia voluptatem.",
+    "Deleted": false,
+    "Rank": 987,
+    "Type": "iure",
+    "ColorBlock": 81,
+    "IconHint": "aperiam",
+    "Selected": true,
+    "LastChanged": "2017-03-21T02:49:52.4378265+01:00",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Smitham-Lind",
-        "ToolTip": "Nam ea a neque libero quos non suscipit.",
-        "Deleted": true,
-        "Rank": 393,
-        "Type": "mollitia",
-        "ColorBlock": 677,
-        "IconHint": "dolorem",
+        "Id": 403,
+        "Name": "Reichel Inc and Sons",
+        "ToolTip": "Sequi magni velit quo laborum tempore officiis officia.",
+        "Deleted": false,
+        "Rank": 864,
+        "Type": "sequi",
+        "ColorBlock": 23,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "1996-08-20T11:10:54.5199349+02:00",
+        "LastChanged": "2008-04-23T02:49:52.4378265+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "aut",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Rosendo Schultz",
+        "FullName": "Dr. Malika Buddy Zieme III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 748
+            "FieldType": "System.String",
+            "FieldLength": 993
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "iste",
-    "Hidden": false,
-    "FullName": "Alysha Adams",
+    "ExtraInfo": "iste",
+    "StyleHint": "rem",
+    "Hidden": true,
+    "FullName": "Jettie McKenzie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 503
       }
     }
   }

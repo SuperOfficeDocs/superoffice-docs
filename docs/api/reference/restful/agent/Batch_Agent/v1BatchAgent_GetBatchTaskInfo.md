@@ -11,6 +11,12 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfo
 
 Get a single BatchTaskInfo based on Id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a single BatchTaskInfo based on Id.
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id
+Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,11 +93,11 @@ Response body:
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 744
+  "Id": 823
 }
 ```
 
@@ -100,36 +108,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 181,
-  "Name": "Mayert Inc and Sons",
-  "AssociateId": 310,
-  "DetailsTable": 667,
-  "DetailsRecord": 797,
+  "Id": 62,
+  "Name": "Lang, Stoltenberg and Kulas",
+  "AssociateId": 667,
+  "DetailsTable": 229,
+  "DetailsRecord": 22,
   "IsSystemTask": true,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "reiciendis",
-    "ParameterObject2": "error"
+    "ParameterObject1": "sit",
+    "ParameterObject2": "nam"
   },
-  "LastStarted": "2003-09-11T11:10:26.0165588+02:00",
-  "Created": "2005-01-01T11:10:26.0165588+01:00",
-  "StartCount": 772,
-  "DatabaseSerialNumber": "1012988",
-  "Context": "omnis",
-  "Result": "qui",
+  "LastStarted": "2006-04-28T02:49:43.7004017+02:00",
+  "Created": "2021-12-02T02:49:43.7004017+01:00",
+  "StartCount": 393,
+  "DatabaseSerialNumber": "1736504",
+  "Context": "tempore",
+  "Result": "et",
   "State": "All",
-  "Description": "Fully-configurable 5th generation moderator",
-  "Response": "qui",
-  "Request": "aut",
-  "ProgressDescription": "Progressive secondary Graphic Interface",
-  "ProgressPercent": 456,
-  "FileName": "Wuckert, Wisoky and Langosh",
+  "Description": "Business-focused optimal forecast",
+  "Response": "deserunt",
+  "Request": "voluptate",
+  "ProgressDescription": "Networked full-range portal",
+  "ProgressPercent": 772,
+  "FileName": "Ruecker LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 382
+      "FieldType": "System.Int32",
+      "FieldLength": 958
     }
   }
 }

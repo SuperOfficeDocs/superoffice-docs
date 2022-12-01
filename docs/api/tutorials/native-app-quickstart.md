@@ -20,11 +20,9 @@ A quick-start guide for getting you up and running with a native console applica
 * you have [registered your application][2] with the following options:
   * OpenID Connect native app flow
 
-    ![imaget19p.png][img1]
-
   * redirect URI of `^http://127.0.0.1\:\d{4,10}$`
 
-* you have received a unique application [client ID and secret][3]
+* you have set a unique application [client ID and secret][2]
 
 * you have Visual Studio (community, professional, or enterprise edition)
 
@@ -127,12 +125,11 @@ var queryResult = GetData(string.Concat(webApiUrl, uri), "Bearer", result.Access
 ```
 
 <!-- Referenced links -->
-[2]: ../../apps/getting-started/get-app-keys.md
+[2]: ../../developer-portal/create-app/native-app.md
 [3]: ../../apps/terminology.md
 [4]: https://github.com/SuperOffice/SuperOffice.DevNet.OpenIDConnectNativeApp
 
 <!-- Referenced images -->
-[img1]: media/imaget19p.png
 [img2]: media/imageybe5d.png
 [img3]: media/imageyxfai.png
 [img4]: media/imagec4a0q.png

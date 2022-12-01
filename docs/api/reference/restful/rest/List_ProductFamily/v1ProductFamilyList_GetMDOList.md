@@ -11,6 +11,12 @@ GET /api/v1/List/ProductFamily/MDOItems
 
 Get the MDO list items for "ProductFamily" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=itaque
+GET /api/v1/List/ProductFamily/MDOItems?query=sed
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/ProductFamily/MDOItems?query=itaque
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 262,
-    "Name": "Kovacek, Spinka and Marks",
-    "ToolTip": "Vero voluptates accusantium mollitia incidunt.",
+    "Id": 192,
+    "Name": "Swaniawski-O'Reilly",
+    "ToolTip": "Et ut explicabo sit velit corporis voluptas enim.",
     "Deleted": false,
-    "Rank": 465,
-    "Type": "voluptatem",
+    "Rank": 36,
+    "Type": "facilis",
     "ChildItems": [
       {
-        "Id": 173,
-        "Name": "Bahringer-Mitchell",
-        "ToolTip": "Voluptate et.",
-        "Deleted": false,
-        "Rank": 885,
-        "Type": "aut",
+        "Id": 995,
+        "Name": "Gerhold-Schroeder",
+        "ToolTip": "Et doloremque qui enim sunt ipsam dicta quia.",
+        "Deleted": true,
+        "Rank": 291,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 567,
-        "ExtraInfo": "odio",
-        "StyleHint": "repudiandae",
-        "FullName": "Amy Albina Powlowski II",
+        "IconHint": "aut",
+        "ColorBlock": 405,
+        "ExtraInfo": "quos",
+        "StyleHint": "excepturi",
+        "FullName": "Mylene Stark",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 310
+            "FieldLength": 206
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 654,
-    "ExtraInfo": "beatae",
-    "StyleHint": "sapiente",
-    "FullName": "Dorothea Beahan",
+    "IconHint": "velit",
+    "ColorBlock": 105,
+    "ExtraInfo": "est",
+    "StyleHint": "ipsam",
+    "FullName": "Ms. Elta Jacynthe Kuphal DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldType": "System.Int32",
+        "FieldLength": 780
       }
     }
   }

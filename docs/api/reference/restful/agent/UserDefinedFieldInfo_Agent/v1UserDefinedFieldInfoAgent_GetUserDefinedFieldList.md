@@ -11,7 +11,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 
 Return information about all the user defined fields on a particular owner type (project, contact, person, etc).
 
+
 Note this may be different than the currently published fields.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Note this may be different than the currently published fields.
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType
+OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
+
 
 ## Response: array
 
@@ -100,7 +108,7 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 399,
-    "ColumnId": 844,
-    "FieldDefault": "rerum",
-    "FieldHeight": 164,
-    "FieldLabel": "vitae",
-    "FieldLeft": 471,
-    "FieldTop": 958,
+    "UDefFieldId": 170,
+    "ColumnId": 856,
+    "FieldDefault": "ex",
+    "FieldHeight": 344,
+    "FieldLabel": "quis",
+    "FieldLeft": 135,
+    "FieldTop": 758,
     "FieldType": "Checkbox",
-    "FieldWidth": 4,
-    "FormatMask": "ut",
-    "HideLabel": true,
+    "FieldWidth": 104,
+    "FormatMask": "voluptas",
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 354,
-    "LabelLeft": 309,
-    "LabelTop": 595,
-    "LabelWidth": 280,
-    "LastVersionId": 110,
-    "ListTableId": 713,
+    "LabelHeight": 779,
+    "LabelLeft": 986,
+    "LabelTop": 547,
+    "LabelWidth": 863,
+    "LastVersionId": 769,
+    "ListTableId": 626,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 534,
-    "ProgId": "minus",
-    "IsReadOnly": false,
-    "ShortLabel": "consectetur",
-    "TabOrder": 811,
-    "TextLength": 144,
-    "Tooltip": "sunt",
-    "UdefIdentity": 998,
-    "UDListDefinitionId": 696,
+    "Page1LineNo": 669,
+    "ProgId": "quia",
+    "IsReadOnly": true,
+    "ShortLabel": "deserunt",
+    "TabOrder": 474,
+    "TextLength": 177,
+    "Tooltip": "ea",
+    "UdefIdentity": 646,
+    "UDListDefinitionId": 305,
     "Justification": "Center",
-    "Version": 319,
-    "TemplateVariableName": "Smitham-Treutel",
+    "Version": 517,
+    "TemplateVariableName": "Altenwerth, Feeney and Ondricka",
     "HasBeenPublished": false,
-    "MdoListName": "Doyle-Nolan",
+    "MdoListName": "Stroman Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldLength": 977
       }
     }
   }

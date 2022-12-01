@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/SaveWindowPosSize
 
 Saves a window and dialog position and size setting.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a window and dialog position and size setting.
 ```http
 POST /api/v1/Agents/Configuration/SaveWindowPosSize?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Configuration/SaveWindowPosSize?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-WindowPosSize
+WindowPosSize 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WindowPosSize |  |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +83,7 @@ Response body:
 POST /api/v1/Agents/Configuration/SaveWindowPosSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -90,23 +98,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "nihil",
-  "PersonId": 584,
-  "AssociateId": 678,
-  "ExtraId": 533,
-  "ExtraInfo": "commodi",
-  "Height": 766,
-  "LeftX": 880,
+  "OwnerWindow": "dolorem",
+  "PersonId": 850,
+  "AssociateId": 738,
+  "ExtraId": 77,
+  "ExtraInfo": "ducimus",
+  "Height": 887,
+  "LeftX": 386,
   "State": "Maximized",
-  "UpperY": 950,
-  "Width": 564,
-  "WindowPosSizeId": 587,
+  "UpperY": 783,
+  "Width": 455,
+  "WindowPosSizeId": 346,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 997
     }
   }
 }

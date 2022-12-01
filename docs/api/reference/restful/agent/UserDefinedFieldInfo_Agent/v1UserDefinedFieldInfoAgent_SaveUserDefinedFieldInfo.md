@@ -11,6 +11,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 
 Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The UserDefinedFieldInfo to be saved.
+The UserDefinedFieldInfo to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +73,8 @@ The UserDefinedFieldInfo to be saved.
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -74,7 +82,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -125,40 +133,40 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 995,
-  "ColumnId": 420,
-  "FieldDefault": "laboriosam",
-  "FieldHeight": 700,
-  "FieldLabel": "libero",
-  "FieldLeft": 456,
-  "FieldTop": 289,
+  "UDefFieldId": 409,
+  "ColumnId": 666,
+  "FieldDefault": "illum",
+  "FieldHeight": 114,
+  "FieldLabel": "fuga",
+  "FieldLeft": 161,
+  "FieldTop": 647,
   "FieldType": "Checkbox",
-  "FieldWidth": 608,
-  "FormatMask": "corrupti",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 826,
-  "LabelLeft": 709,
-  "LabelTop": 672,
-  "LabelWidth": 782,
-  "LastVersionId": 265,
-  "ListTableId": 462,
+  "FieldWidth": 940,
+  "FormatMask": "neque",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 194,
+  "LabelLeft": 32,
+  "LabelTop": 978,
+  "LabelWidth": 289,
+  "LastVersionId": 897,
+  "ListTableId": 914,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 780,
-  "ProgId": "debitis",
+  "Page1LineNo": 365,
+  "ProgId": "molestiae",
   "IsReadOnly": false,
-  "ShortLabel": "similique",
-  "TabOrder": 922,
-  "TextLength": 97,
-  "Tooltip": "minima",
-  "UdefIdentity": 492,
-  "UDListDefinitionId": 536,
+  "ShortLabel": "fugiat",
+  "TabOrder": 286,
+  "TextLength": 501,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 253,
+  "UDListDefinitionId": 975,
   "Justification": "Center",
-  "Version": 450,
-  "TemplateVariableName": "Ullrich-Bayer",
+  "Version": 967,
+  "TemplateVariableName": "Hegmann Inc and Sons",
   "HasBeenPublished": true,
-  "MdoListName": "Harris, O'Reilly and Farrell"
+  "MdoListName": "Cummerata Group"
 }
 ```
 
@@ -169,46 +177,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 271,
-  "ColumnId": 24,
-  "FieldDefault": "molestiae",
-  "FieldHeight": 387,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 906,
-  "FieldTop": 678,
+  "UDefFieldId": 558,
+  "ColumnId": 406,
+  "FieldDefault": "placeat",
+  "FieldHeight": 944,
+  "FieldLabel": "in",
+  "FieldLeft": 648,
+  "FieldTop": 850,
   "FieldType": "Checkbox",
-  "FieldWidth": 569,
-  "FormatMask": "dolorem",
+  "FieldWidth": 870,
+  "FormatMask": "ut",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 239,
-  "LabelLeft": 951,
-  "LabelTop": 592,
-  "LabelWidth": 957,
-  "LastVersionId": 803,
-  "ListTableId": 626,
+  "LabelHeight": 740,
+  "LabelLeft": 377,
+  "LabelTop": 485,
+  "LabelWidth": 2,
+  "LastVersionId": 665,
+  "ListTableId": 384,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 56,
-  "ProgId": "atque",
+  "Page1LineNo": 395,
+  "ProgId": "laudantium",
   "IsReadOnly": false,
-  "ShortLabel": "possimus",
-  "TabOrder": 299,
-  "TextLength": 146,
-  "Tooltip": "aliquam",
-  "UdefIdentity": 624,
-  "UDListDefinitionId": 882,
+  "ShortLabel": "soluta",
+  "TabOrder": 442,
+  "TextLength": 497,
+  "Tooltip": "quaerat",
+  "UdefIdentity": 362,
+  "UDListDefinitionId": 888,
   "Justification": "Center",
-  "Version": 552,
-  "TemplateVariableName": "Casper-Steuber",
-  "HasBeenPublished": false,
-  "MdoListName": "Pouros-Heidenreich",
+  "Version": 408,
+  "TemplateVariableName": "Jenkins-Schmidt",
+  "HasBeenPublished": true,
+  "MdoListName": "Mante, Homenick and Greenholt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldType": "System.String",
+      "FieldLength": 777
     }
   }
 }

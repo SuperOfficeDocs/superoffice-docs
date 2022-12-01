@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectDocuments
 
 Method that returns a specified number of document appointments within a time range.
 
+
 The document appointments belong to the project specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectDocuments?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count
+ProjectId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,6 +54,7 @@ ProjectId, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -89,14 +97,14 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 654,
-  "StartTime": "2010-02-02T11:10:26.4794602+01:00",
-  "EndTime": "2011-02-15T11:10:26.4794602+01:00",
-  "Count": 391
+  "ProjectId": 39,
+  "StartTime": "1999-12-25T02:49:44.0910111+01:00",
+  "EndTime": "2001-10-02T02:49:44.0910111+02:00",
+  "Count": 275
 }
 ```
 
@@ -108,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 874,
-    "Attention": "dolores",
-    "Header": "molestiae",
-    "Name": "Emmerich Inc and Sons",
-    "OurRef": "aliquid",
-    "YourRef": "quis",
-    "Description": "Optimized demand-driven info-mediaries",
-    "DocumentTemplate": "sed",
-    "IsPublished": true,
-    "PersonId": 745,
-    "PersonFullName": "Gunner Nyasia Glover Sr.",
-    "AssociateFullName": "Earnestine Hilpert IV",
-    "ContactId": 293,
-    "ContactName": "Bechtelar, Hilpert and Boehm",
-    "ProjectId": 653,
-    "ProjectName": "Zieme, Jaskolski and Kertzmann",
-    "AssociateId": 669,
-    "Snum": 201,
-    "SaleId": 526,
-    "SaleName": "Abernathy, Hills and Sporer",
+    "DocumentId": 544,
+    "Attention": "fugit",
+    "Header": "illo",
+    "Name": "Zemlak, Willms and Rogahn",
+    "OurRef": "officiis",
+    "YourRef": "aspernatur",
+    "Description": "Cross-group cohesive archive",
+    "DocumentTemplate": "aliquam",
+    "IsPublished": false,
+    "PersonId": 251,
+    "PersonFullName": "Johnathan Schimmel",
+    "AssociateFullName": "Myrtis Steuber",
+    "ContactId": 500,
+    "ContactName": "Marquardt-Daugherty",
+    "ProjectId": 661,
+    "ProjectName": "Goodwin, Hilpert and DuBuque",
+    "AssociateId": 998,
+    "Snum": 687,
+    "SaleId": 898,
+    "SaleName": "Weissnat, Legros and Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 707
       }
     }
   }

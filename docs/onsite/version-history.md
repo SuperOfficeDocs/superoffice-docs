@@ -135,6 +135,7 @@ It does not contain Red Alerts or [CRM Online release versions][1].
 | 10.1.3 | (Onsite skipped) | | |
 | 10.1.4 | (Onsite skipped) | | |
 | 10.1.5 | | 13.09.2022 | 2022.09.08-03 |
+| 10.1.6 | | 12.10.2022 | 2022.10.06-05 |
 
 <!-- Referenced links -->
 [1]: ../online/version-history.md

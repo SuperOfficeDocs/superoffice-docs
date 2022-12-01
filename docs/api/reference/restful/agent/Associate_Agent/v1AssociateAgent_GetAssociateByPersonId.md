@@ -11,6 +11,12 @@ POST /api/v1/Agents/Associate/GetAssociateByPersonId
 
 Returns the associate that belongs to this person if the person is an associate.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the associate that belongs to this person if the person is an associate.
 ```http
 POST /api/v1/Agents/Associate/GetAssociateByPersonId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Associate/GetAssociateByPersonId?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 223
+  "PersonId": 644
 }
 ```
 
@@ -91,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 188,
-  "Name": "Prohaska-Adams",
-  "PersonId": 213,
-  "Rank": 712,
-  "Tooltip": "nam",
+  "AssociateId": 643,
+  "Name": "Morissette, Stoltenberg and Dickens",
+  "PersonId": 3,
+  "Rank": 692,
+  "Tooltip": "qui",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 223,
-  "FullName": "Mrs. Newton August Kihn III",
-  "FormalName": "Jacobson LLC",
-  "Deleted": true,
-  "EjUserId": 270,
-  "UserName": "Hirthe, McLaughlin and Kessler",
+  "GroupIdx": 121,
+  "FullName": "Mrs. Jaime Blanda",
+  "FormalName": "Rolfson LLC",
+  "Deleted": false,
+  "EjUserId": 285,
+  "UserName": "Ankunding Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 32
     }
   }
 }

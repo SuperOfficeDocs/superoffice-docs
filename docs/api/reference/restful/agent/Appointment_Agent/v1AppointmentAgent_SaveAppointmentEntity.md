@@ -11,6 +11,13 @@ POST /api/v1/Agents/Appointment/SaveAppointmentEntity
 
 Updates the existing AppointmentEntity or creates a new AppointmentEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing AppointmentEntity or creates a new AppointmentEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The AppointmentEntity to be saved.
+The AppointmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,7 +94,8 @@ The AppointmentEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -95,7 +103,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -163,7 +171,7 @@ Response body:
 POST /api/v1/Agents/Appointment/SaveAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -171,62 +179,62 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-03-19T11:10:25.5205244+01:00",
-  "AppointmentId": 596,
-  "Description": "Triple-buffered neutral application",
-  "StartDate": "1996-02-27T11:10:25.5205244+01:00",
-  "EndDate": "2019-05-18T11:10:25.5205244+02:00",
+  "CreatedDate": "2017-07-30T02:49:43.3086217+02:00",
+  "AppointmentId": 379,
+  "Description": "Enhanced tangible application",
+  "StartDate": "2011-04-28T02:49:43.3086217+02:00",
+  "EndDate": "2012-07-17T02:49:43.3086217+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 595,
+  "MotherId": 596,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-12-26T11:10:25.5225237+01:00",
+  "UpdatedDate": "1998-09-27T02:49:43.3086217+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 338,
+  "ActiveLinks": 540,
   "Links": [
     {
-      "EntityName": "White-Boyle",
-      "Id": 166,
-      "Description": "Right-sized high-level initiative",
-      "ExtraInfo": "recusandae",
-      "LinkId": 85
+      "EntityName": "Abernathy, Carter and Hammes",
+      "Id": 141,
+      "Description": "Exclusive systematic definition",
+      "ExtraInfo": "tempore",
+      "LinkId": 810
     },
     {
-      "EntityName": "White-Boyle",
-      "Id": 166,
-      "Description": "Right-sized high-level initiative",
-      "ExtraInfo": "recusandae",
-      "LinkId": 85
+      "EntityName": "Abernathy, Carter and Hammes",
+      "Id": 141,
+      "Description": "Exclusive systematic definition",
+      "ExtraInfo": "tempore",
+      "LinkId": 810
     }
   ],
-  "AlarmLeadTime": "quam",
-  "HasAlarm": true,
-  "ColorIndex": 670,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "voluptates",
-  "LeadTime": "accusamus",
-  "Location": "vel",
-  "RejectCounter": 496,
+  "AlarmLeadTime": "et",
+  "HasAlarm": false,
+  "ColorIndex": 443,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "facilis",
+  "LeadTime": "voluptatem",
+  "Location": "non",
+  "RejectCounter": 306,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 429,
-      "PersonId": 339,
-      "ContactId": 144,
-      "EmailId": 447,
+      "AssociateId": 943,
+      "PersonId": 200,
+      "ContactId": 26,
+      "EmailId": 576,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 429,
-      "PersonId": 339,
-      "ContactId": 144,
-      "EmailId": 447,
+      "AssociateId": 943,
+      "PersonId": 200,
+      "ContactId": 26,
+      "EmailId": 576,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -234,44 +242,44 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-10-07T11:10:25.5235244+02:00",
+  "ActiveDate": "2018-11-27T02:49:43.3086217+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 455,
+  "PreferredTZLocation": 560,
   "Sale": null,
-  "SuggestedAppointmentId": 607,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 791,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
+  "CentralserviceVideomeetId": "libero",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Vicky Kshlerin Sr.",
-    "SuperOffice:2": "Bryana Bode"
+    "SuperOffice:1": "1963273347",
+    "SuperOffice:2": "1246314378"
   },
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "eaque"
+    "CustomFields1": "sunt",
+    "CustomFields2": "molestias"
   },
-  "PublishEventDate": "2006-01-20T11:10:25.5245242+01:00",
-  "PublishTo": "2007-11-30T11:10:25.5245242+01:00",
-  "PublishFrom": "2019-11-08T11:10:25.5245242+01:00",
+  "PublishEventDate": "2016-02-23T02:49:43.3086217+01:00",
+  "PublishTo": "2007-01-23T02:49:43.3086217+01:00",
+  "PublishFrom": "2015-06-20T02:49:43.3086217+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 637,
+      "VisibleId": 440,
       "Visibility": "All",
-      "DisplayValue": "blanditiis"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 637,
+      "VisibleId": 440,
       "Visibility": "All",
-      "DisplayValue": "blanditiis"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -288,122 +296,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-01-02T11:10:25.533524+01:00",
-  "AppointmentId": 974,
-  "Description": "Business-focused fresh-thinking toolset",
-  "StartDate": "2000-04-22T11:10:25.533524+02:00",
-  "EndDate": "2011-07-29T11:10:25.533524+02:00",
+  "CreatedDate": "2015-11-16T02:49:43.3086217+01:00",
+  "AppointmentId": 492,
+  "Description": "Implemented human-resource info-mediaries",
+  "StartDate": "2018-04-06T02:49:43.3086217+02:00",
+  "EndDate": "2013-04-04T02:49:43.3086217+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 889,
+  "MotherId": 71,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-11-16T11:10:25.5365239+01:00",
+  "UpdatedDate": "2017-05-11T02:49:43.3253689+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 591,
+  "ActiveLinks": 297,
   "Links": [
     {
-      "EntityName": "Wolf, Donnelly and Mayer",
-      "Id": 783,
-      "Description": "Secured scalable website",
-      "ExtraInfo": "dolores",
-      "LinkId": 20,
+      "EntityName": "Denesik-Sauer",
+      "Id": 271,
+      "Description": "Cross-platform bi-directional algorithm",
+      "ExtraInfo": "est",
+      "LinkId": 79,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldLength": 792
         }
       }
     }
   ],
-  "AlarmLeadTime": "illo",
-  "HasAlarm": false,
-  "ColorIndex": 839,
+  "AlarmLeadTime": "et",
+  "HasAlarm": true,
+  "ColorIndex": 325,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "excepturi",
-  "LeadTime": "ipsam",
-  "Location": "rerum",
-  "RejectCounter": 305,
+  "IsAlldayEvent": false,
+  "LagTime": "rem",
+  "LeadTime": "labore",
+  "Location": "qui",
+  "RejectCounter": 280,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 389,
-      "PersonId": 987,
-      "ContactId": 150,
-      "EmailId": 613,
-      "SendEmail": true,
+      "AssociateId": 995,
+      "PersonId": 23,
+      "ContactId": 536,
+      "EmailId": 924,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 389,
-      "PersonId": 987,
-      "ContactId": 150,
-      "EmailId": 613,
-      "SendEmail": true,
+      "AssociateId": 995,
+      "PersonId": 23,
+      "ContactId": 536,
+      "EmailId": 924,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2015-02-04T11:10:25.5365239+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2007-03-11T02:49:43.3253689+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 560,
+  "PreferredTZLocation": 604,
   "Sale": null,
-  "SuggestedAppointmentId": 989,
+  "SuggestedAppointmentId": 850,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "iure",
+  "CentralserviceVideomeetId": "aliquid",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dina Braun",
-    "SuperOffice:2": "2138863729"
+    "SuperOffice:1": "Mrs. Ettie Nicklaus Schuster I",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "saepe"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "eum"
+    "CustomFields1": "quidem",
+    "CustomFields2": "atque"
   },
-  "PublishEventDate": "2008-12-24T11:10:25.5375239+01:00",
-  "PublishTo": "2015-02-16T11:10:25.5375239+01:00",
-  "PublishFrom": "2016-09-20T11:10:25.5375239+02:00",
+  "PublishEventDate": "2011-09-07T02:49:43.3253689+02:00",
+  "PublishTo": "1998-03-26T02:49:43.3253689+01:00",
+  "PublishFrom": "1996-06-20T02:49:43.3253689+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 743,
+      "VisibleId": 275,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldLength": 341
         }
       }
     },
     {
-      "VisibleId": 743,
+      "VisibleId": 275,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldLength": 341
         }
       }
     }
@@ -412,8 +420,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldType": "System.String",
+      "FieldLength": 431
     }
   }
 }

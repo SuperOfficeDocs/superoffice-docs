@@ -11,7 +11,13 @@ GET /api/v1/List/Task/Items
 
 Gets a list of all TaskListItem list items.
 
+
 Calls the Appointment agent service GetAllTaskListItem.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,8 +26,9 @@ Calls the Appointment agent service GetAllTaskListItem.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Task/Items?includeDeleted=True
+GET /api/v1/List/Task/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Task/Items?includeDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -70,7 +78,7 @@ Response body: array
 GET /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,17 +89,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 211,
-    "Value": "facere",
+    "TaskListItemId": 759,
+    "Value": "adipisci",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "eius",
-    "Deleted": false,
-    "IntentId": 336,
-    "Rank": 328,
+    "Tooltip": "recusandae",
+    "Deleted": true,
+    "IntentId": 411,
+    "Rank": 153,
     "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": true,
-    "IsDefaultPublished": false,
+    "IsDefaultFree": false,
+    "IsDefaultPublished": true,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
@@ -99,7 +107,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 474
       }
     }
   }

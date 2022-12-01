@@ -11,11 +11,17 @@ GET /api/v1/Hierarchy/{id}
 
 Gets a HierarchyEntity object.
 
+
 Calls the List agent service GetHierarchyEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the HierarchyEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHierarchyEntity.
 ```http
 GET /api/v1/Hierarchy/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/Hierarchy/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 HierarchyEntity found.
 
@@ -49,7 +57,7 @@ HierarchyEntity found.
 | 200 | HierarchyEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +81,7 @@ Response body:
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,46 +91,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 429,
+  "HierarchyId": 212,
   "Domain": "Dashboards",
-  "Name": "Volkman, Harris and Ward",
-  "Fullname": "illo",
-  "ParentId": 432,
+  "Name": "Schuppe, Hammes and Haley",
+  "Fullname": "ut",
+  "ParentId": 665,
   "Children": [
     {
-      "HierarchyId": 967,
+      "HierarchyId": 600,
       "Domain": "Dashboards",
-      "Name": "Predovic, Bernier and Walker",
-      "Fullname": "est",
-      "ParentId": 926,
+      "Name": "Aufderhar, Smitham and Senger",
+      "Fullname": "tempora",
+      "ParentId": 468,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-11-17T11:10:52.915179+01:00",
-      "RegisteredAssociateId": 967,
-      "Updated": "2017-11-07T11:10:52.915179+01:00",
-      "UpdatedAssociateId": 617,
+      "Registered": "2016-10-13T02:49:50.9952888+02:00",
+      "RegisteredAssociateId": 940,
+      "Updated": "2020-09-21T02:49:50.9952888+02:00",
+      "UpdatedAssociateId": 31,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldType": "System.String",
+          "FieldLength": 718
         }
       }
     }
   ],
-  "Registered": "1997-10-10T11:10:52.915179+02:00",
-  "RegisteredAssociateId": 321,
-  "Updated": "2015-03-31T11:10:52.915179+02:00",
-  "UpdatedAssociateId": 622,
+  "Registered": "2015-10-28T02:49:50.9952888+01:00",
+  "RegisteredAssociateId": 25,
+  "Updated": "1996-08-11T02:49:50.9952888+02:00",
+  "UpdatedAssociateId": 445,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldType": "System.String",
+      "FieldLength": 965
     }
   },
   "_Links": {

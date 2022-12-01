@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/SaveAndPublish
 
 Save the incomming draft and publish
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save the incomming draft and publish
 ```http
 POST /api/v1/Agents/Configuration/SaveAndPublish?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Configuration/SaveAndPublish?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConfigurableScreenDelta
+ConfigurableScreenDelta 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConfigurableScreenDelta |  |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +85,7 @@ Response body:
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 434,
-  "Name": "Botsford Group",
-  "Description": "Reverse-engineered 24 hour Graphic Interface",
-  "DeltaJson": "sit",
+  "ConfigurableScreenDeltaId": 468,
+  "Name": "Nolan-Farrell",
+  "Description": "Polarised regional hierarchy",
+  "DeltaJson": "aut",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "cum",
-  "UpdatedDate": "2021-11-15T11:10:26.2075244+01:00",
-  "CreatedDate": "2001-03-31T11:10:26.2075244+02:00",
+  "RecipeId": "omnis",
+  "UpdatedDate": "2021-12-19T02:49:43.8722795+01:00",
+  "CreatedDate": "2019-04-27T02:49:43.8722795+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    274,
-    989
+    195,
+    478
   ],
-  "AppliesToKey": "magni",
+  "AppliesToKey": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 135
     }
   }
 }

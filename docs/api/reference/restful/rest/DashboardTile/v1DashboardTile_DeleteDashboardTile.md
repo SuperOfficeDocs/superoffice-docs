@@ -11,11 +11,18 @@ DELETE /api/v1/DashboardTile/{id}
 
 Deletes the DashboardTile
 
+
 Calls the Dashboard agent service DeleteDashboardTile.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashboardTile to be deleted. **Required** |
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Calls the Dashboard agent service DeleteDashboardTile.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 DashboardTile deleted.
 
@@ -34,7 +42,8 @@ DashboardTile deleted.
 |----------------|-------------|
 | 204 | DashboardTile deleted. |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -42,7 +51,7 @@ Response body:
 DELETE /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

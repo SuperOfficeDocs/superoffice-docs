@@ -11,7 +11,14 @@ PUT /api/v1/List/TicketPriority/Headings
 
 Saves headings for the TicketPriorityEntity list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -72,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 217,
-    "Name": "Raynor-Weimann",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 430,
-    "UdListDefinitionId": 471
+    "HeadingId": 494,
+    "Name": "Bogan-Dickens",
+    "Tooltip": "officiis",
+    "Deleted": true,
+    "Rank": 152,
+    "UdListDefinitionId": 205
   },
   {
-    "HeadingId": 217,
-    "Name": "Raynor-Weimann",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 430,
-    "UdListDefinitionId": 471
+    "HeadingId": 494,
+    "Name": "Bogan-Dickens",
+    "Tooltip": "officiis",
+    "Deleted": true,
+    "Rank": 152,
+    "UdListDefinitionId": 205
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 837,
-    "Name": "Conn-Fisher",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 730,
-    "UdListDefinitionId": 245,
+    "HeadingId": 52,
+    "Name": "Konopelski-Abernathy",
+    "Tooltip": "magnam",
+    "Deleted": false,
+    "Rank": 727,
+    "UdListDefinitionId": 516,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldLength": 531
       }
     }
   }

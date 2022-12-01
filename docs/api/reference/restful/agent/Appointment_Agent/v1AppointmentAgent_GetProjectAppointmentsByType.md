@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 
 Method that returns a specified number of appointments of a specific appointment type within a time range.
 
+
 The appointments belong to the project specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the project specified.
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count, AppointmentType
+ProjectId, StartTime, EndTime, Count, AppointmentType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ ProjectId, StartTime, EndTime, Count, AppointmentType
 | EndTime | date-time |  |
 | Count | int32 |  |
 | AppointmentType | string |  |
+
 
 ## Response: array
 
@@ -119,14 +127,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 423,
-  "StartTime": "2021-04-29T11:10:25.9475567+02:00",
-  "EndTime": "2001-01-26T11:10:25.9475567+01:00",
-  "Count": 740,
+  "ProjectId": 219,
+  "StartTime": "2010-01-25T02:49:43.637906+01:00",
+  "EndTime": "2001-08-16T02:49:43.637906+02:00",
+  "Count": 289,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -139,61 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 541,
-    "StartDate": "2000-10-09T11:10:25.9495232+02:00",
-    "EndDate": "2011-02-16T11:10:25.9495232+01:00",
+    "AppointmentId": 256,
+    "StartDate": "2008-12-05T02:49:43.637906+01:00",
+    "EndDate": "2018-10-09T02:49:43.637906+02:00",
     "Type": "BookingForChecklist",
-    "Task": "similique",
-    "AssociateFullName": "Ms. Roosevelt Murl Langosh V",
-    "ContactName": "Walter Inc and Sons",
-    "Description": "Upgradable maximized standardization",
-    "PersonFullName": "Miss Lelah Thompson V",
-    "PersonId": 48,
-    "ContactId": 868,
-    "ProjectId": 898,
-    "ProjectName": "Feest, Sipes and Altenwerth",
-    "IsPublished": false,
-    "AssociateId": 987,
-    "ColorIndex": 349,
-    "IsFree": true,
+    "Task": "consectetur",
+    "AssociateFullName": "Cielo Hintz",
+    "ContactName": "Leuschke, Treutel and O'Conner",
+    "Description": "Up-sized logistical moderator",
+    "PersonFullName": "Prof. Emilie Stoltenberg IV",
+    "PersonId": 211,
+    "ContactId": 351,
+    "ProjectId": 427,
+    "ProjectName": "Greenholt Group",
+    "IsPublished": true,
+    "AssociateId": 653,
+    "ColorIndex": 372,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 820,
-    "PriorityName": "Buckridge-Kemmer",
+    "PriorityId": 507,
+    "PriorityName": "Hilpert-Blick",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2010-06-04T11:10:25.9505231+02:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2011-02-06T02:49:43.637906+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-04-02T11:10:25.9505231+02:00",
-    "RecurringEndDate": "2013-11-10T11:10:25.9505231+01:00",
-    "MotherId": 679,
-    "AssignedBy": 95,
-    "AssignedByFullName": "Veda Heller I",
+    "RecurringStartDate": "2013-10-12T02:49:43.637906+02:00",
+    "RecurringEndDate": "1998-11-03T02:49:43.637906+01:00",
+    "MotherId": 161,
+    "AssignedBy": 195,
+    "AssignedByFullName": "Adolph O'Keefe",
     "RejectReason": "",
-    "Location": "occaecati",
-    "AlarmLeadTime": "reprehenderit",
-    "SaleId": 921,
-    "SaleName": "Tillman LLC",
-    "AssociateName": "Haley, Mayert and Herman",
-    "CreatedDate": "1999-01-09T11:10:25.9505231+01:00",
-    "CreatedBy": "est",
-    "CreatedByFullName": "Nannie Haley",
-    "CreatedByAssociateId": 125,
+    "Location": "sed",
+    "AlarmLeadTime": "enim",
+    "SaleId": 915,
+    "SaleName": "Predovic, Windler and Ankunding",
+    "AssociateName": "VonRueden, Rau and McLaughlin",
+    "CreatedDate": "2000-07-29T02:49:43.637906+02:00",
+    "CreatedBy": "amet",
+    "CreatedByFullName": "Ms. Deshaun Carmelo Davis",
+    "CreatedByAssociateId": 647,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldType": "System.String",
+        "FieldLength": 57
       }
     }
   }

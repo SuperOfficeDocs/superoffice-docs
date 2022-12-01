@@ -11,7 +11,14 @@ POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 
 Set default values into a new ChatTopicEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +86,7 @@ Response body:
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 767,
-  "Name": "Tremblay-Schmitt",
-  "Description": "Focused bandwidth-monitored core",
-  "WelcomeMessage": "doloremque",
+  "ChatTopicId": 903,
+  "Name": "Reichel Inc and Sons",
+  "Description": "Right-sized 24/7 adapter",
+  "WelcomeMessage": "quasi",
   "Language": null,
-  "LastAccept": "1997-12-25T11:10:26.0755257+01:00",
-  "SecondsPrAccept": 723,
-  "AlertRecipient": "suscipit",
+  "LastAccept": "2018-02-02T02:49:43.7472845+01:00",
+  "SecondsPrAccept": 213,
+  "AlertRecipient": "qui",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "cumque",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "recusandae",
-  "WarnNewChatMinutes": 961,
-  "WarnManagerNewChatMinutes": 371,
-  "TicketEnabled": true,
+  "BadgeHeader": "doloribus",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "delectus",
+  "WarnNewChatMinutes": 125,
+  "WarnManagerNewChatMinutes": 663,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 535,
-  "WarnManagerChatMessageMinutes": 231,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 235,
+  "WarnManagerChatMessageMinutes": 16,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 205,
-  "OfflineFormQueueLength": 162,
+  "OfflineFormTimeLimit": 820,
+  "OfflineFormQueueLength": 310,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "autem",
+  "WidgetRatingText": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldType": "System.String",
+      "FieldLength": 227
     }
   }
 }

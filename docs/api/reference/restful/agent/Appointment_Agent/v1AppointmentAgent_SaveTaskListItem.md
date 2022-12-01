@@ -11,6 +11,13 @@ POST /api/v1/Agents/Appointment/SaveTaskListItem
 
 Updates the existing TaskListItem or creates a new TaskListItem if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing TaskListItem or creates a new TaskListItem if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TaskListItem to be saved.
+The TaskListItem to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ The TaskListItem to be saved.
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,21 +87,21 @@ Response body:
 POST /api/v1/Agents/Appointment/SaveTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 745,
-  "Value": "asperiores",
+  "TaskListItemId": 944,
+  "Value": "soluta",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "IntentId": 690,
-  "Rank": 690,
-  "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": true,
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "IntentId": 626,
+  "Rank": 766,
+  "IsDefaultAlldayEvent": false,
+  "IsDefaultFree": true,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }
@@ -106,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 44,
-  "Value": "quas",
+  "TaskListItemId": 104,
+  "Value": "consequatur",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "quis",
+  "Tooltip": "sit",
   "Deleted": false,
-  "IntentId": 551,
-  "Rank": 444,
+  "IntentId": 274,
+  "Rank": 879,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": true,
+  "IsDefaultFree": true,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldType": "System.Int32",
+      "FieldLength": 161
     }
   }
 }

@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetNewMail
 
 Get new email in folder(s) for current associate
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get new email in folder(s) for current associate
 ```http
 POST /api/v1/Agents/EMail/GetNewMail?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/EMail/GetNewMail?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Folders
+Folders 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Folders | array |  |
+
 
 ## Response: array
 
@@ -76,13 +86,13 @@ Response body: array
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    328,
-    136
+    97,
+    539
   ]
 }
 ```
@@ -95,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 907,
-    "MessageId": "itaque",
-    "Subject": "sunt",
+    "ServerId": 412,
+    "MessageId": "magnam",
+    "Subject": "dicta",
     "From": null,
     "To": [
       {
-        "ContactId": 62,
-        "ContactName": "Aufderhar-Kuhlman",
-        "PersonId": 77,
-        "PersonName": "Larson-Kling",
-        "AssociateId": 507,
-        "Address": "error",
-        "EmailId": 7,
+        "ContactId": 29,
+        "ContactName": "Kling-Douglas",
+        "PersonId": 1001,
+        "PersonName": "Stark, Prohaska and O'Conner",
+        "AssociateId": 671,
+        "Address": "eius",
+        "EmailId": 634,
         "DuplicatePersonIds": [
-          459,
-          449
+          565,
+          245
         ],
-        "Name": "Padberg, Rippin and Simonis",
+        "Name": "Satterfield, Beer and Bernier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 882
+            "FieldLength": 233
           }
         }
       }
     ],
-    "Sent": "2009-10-07T11:10:26.8534226+02:00",
+    "Sent": "2008-10-20T02:49:44.3722628+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 468,
+    "Size": 81,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldLength": 339
       }
     }
   }

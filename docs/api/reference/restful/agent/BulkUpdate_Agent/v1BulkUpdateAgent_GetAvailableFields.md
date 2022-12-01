@@ -11,6 +11,12 @@ POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 
 Get all available fields for a given tablename/entity
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all available fields for a given tablename/entity
 ```http
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/BulkUpdate/GetAvailableFields?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Tablename
+Tablename 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Tablename | string |  |
+
 
 ## Response: array
 
@@ -79,7 +87,7 @@ Response body: array
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
-    "DefaultShowInGui": true,
-    "DefaultShowInSelector": true,
+    "CanSupportMultiUse": false,
+    "DefaultShowInGui": false,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "necessitatibus",
-    "ValueType": "provident",
+    "Key": "et",
+    "ValueType": "aperiam",
     "Mandatory": false,
-    "EncodedDisplayName": "Johns Group",
-    "EncodedDisplayDescription": "Team-oriented fresh-thinking emulation",
-    "IconHint": "id",
+    "EncodedDisplayName": "Rolfson Group",
+    "EncodedDisplayDescription": "Sharable client-driven initiative",
+    "IconHint": "atque",
     "ControlInfos": [
       {
-        "Type": "quas",
+        "Type": "qui",
         "Label": "rerum",
-        "Dimension": 722,
-        "ListProviderName": "Schaden-West",
-        "ListProviderExtraInfo": "et",
-        "ListProviderPrimaryKeyName": "Jacobson-Kreiger",
-        "ListLeadText": "accusamus",
+        "Dimension": 395,
+        "ListProviderName": "Waters, Emard and Rutherford",
+        "ListProviderExtraInfo": "quam",
+        "ListProviderPrimaryKeyName": "Wyman Group",
+        "ListLeadText": "consequatur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 63
+            "FieldType": "System.Int32",
+            "FieldLength": 513
           }
         }
       }
     ],
-    "EncodedDataCaption": "assumenda",
-    "EncodedDataCaptionDescription": "Advanced content-based data-warehouse",
-    "CurrentOperationType": "praesentium",
+    "EncodedDataCaption": "doloremque",
+    "EncodedDataCaptionDescription": "Reactive bi-directional paradigm",
+    "CurrentOperationType": "facilis",
     "Values": [
-      "commodi",
-      "porro"
+      "omnis",
+      "dicta"
     ],
     "DisplayValues": [
-      "et",
-      "aut"
+      "necessitatibus",
+      "et"
     ],
     "OperationInfos": [
       {
-        "Key": "ab",
-        "EncodedDisplayName": "Huels, Deckow and Nienow",
+        "Key": "veniam",
+        "EncodedDisplayName": "Kautzer, Williamson and Roberts",
         "EncodedLeadTexts": [
-          "optio",
-          "iusto"
+          "a",
+          "fugit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 797
+            "FieldType": "System.Int32",
+            "FieldLength": 17
           }
         }
       },
       {
-        "Key": "ab",
-        "EncodedDisplayName": "Huels, Deckow and Nienow",
+        "Key": "veniam",
+        "EncodedDisplayName": "Kautzer, Williamson and Roberts",
         "EncodedLeadTexts": [
-          "optio",
-          "iusto"
+          "a",
+          "fugit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 797
+            "FieldType": "System.Int32",
+            "FieldLength": 17
           }
         }
       }

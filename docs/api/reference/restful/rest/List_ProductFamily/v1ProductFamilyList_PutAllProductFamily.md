@@ -11,6 +11,13 @@ PUT /api/v1/List/ProductFamily/Items
 
 Update the ProductFamily list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the ProductFamily list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated ProductFamily.
+All the updated ProductFamily. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated ProductFamily.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -70,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Dickinson, Bahringer and Koch",
-    "Tooltip": "quas",
+    "Id": 9,
+    "Name": "Balistreri Group",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "UdListDefinitionId": 291,
-    "Rank": 935
+    "UdListDefinitionId": 19,
+    "Rank": 41
   },
   {
-    "Id": 945,
-    "Name": "Dickinson, Bahringer and Koch",
-    "Tooltip": "quas",
+    "Id": 9,
+    "Name": "Balistreri Group",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "UdListDefinitionId": 291,
-    "Rank": 935
+    "UdListDefinitionId": 19,
+    "Rank": 41
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 215,
-    "Name": "Blanda Inc and Sons",
-    "Tooltip": "et",
+    "Id": 270,
+    "Name": "Klocko Group",
+    "Tooltip": "labore",
     "Deleted": true,
-    "UdListDefinitionId": 402,
-    "Rank": 331,
+    "UdListDefinitionId": 281,
+    "Rank": 867,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldLength": 125
       }
     }
   }

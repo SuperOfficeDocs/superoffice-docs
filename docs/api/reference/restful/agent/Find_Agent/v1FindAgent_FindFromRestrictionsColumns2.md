@@ -11,10 +11,12 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 
 Execute a Find operation and return a page of results.
 
-&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them.
+
+&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
+
 
 For example:
 
@@ -35,8 +37,8 @@ Unary operators:
 "updatedDate lastWeek", "assocId currentAssociate"
 ```
 
-## Brackets and or
 
+## Brackets and or
 AND and OR can be used to combine terms. AND has a higher priority than OR
 
 ```
@@ -49,10 +51,12 @@ Brackets can be used for grouping.
 "(business = 2 or category = 3) and name contains 'super'"
 ```
 
+
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
+
 
 Example: group last names together, and inject a header row for each group.
 
@@ -62,7 +66,7 @@ GroupBy(lastName):Header
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
+Example: count instances of middle names, and hide the individual rows, 
 report just the totals for each group using a footer. Note how the modifiers stack.
 
 ```
@@ -78,18 +82,28 @@ Example: the aggregator functions can nest, so you can say
 GroupBy(DatePart(personUpdatedDate):YearMonth):Header
 
 ```
-
 ## Strings
 
 Use the begins or contains operators to do string searches.
 You can also use the normal = operator to do string exact match checks.
 
+
+
 Use backslash to escape single quotes in strings
 (note that backslash needs to be doubled because c# also uses backslash escapes):
+
 
 ```
 "department contains 'Bob\\'s'"
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -100,6 +114,7 @@ Use backslash to escape single quotes in strings
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -115,9 +130,9 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumns2?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Restrictions, ProviderName, DesiredColumns, PageSize, PageNumber
+Restrictions, ProviderName, DesiredColumns, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -127,7 +142,8 @@ Restrictions, ProviderName, DesiredColumns, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -135,7 +151,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -155,11 +171,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "omnis",
-  "ProviderName": "Block Inc and Sons",
-  "DesiredColumns": "sed",
-  "PageSize": 403,
-  "PageNumber": 319
+  "Restrictions": "aut",
+  "ProviderName": "Spinka-Waelchi",
+  "DesiredColumns": "molestias",
+  "PageSize": 38,
+  "PageNumber": 433
 }
 ```
 
@@ -172,51 +188,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "O'Connell Group",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "iure",
-      "CanOrderBy": false,
-      "Name": "Stamm-Doyle",
-      "CanRestrictBy": false,
-      "RestrictionType": "ipsam",
-      "RestrictionListName": "Pollich Group",
-      "IsVisible": true,
-      "ExtraInfo": "qui",
-      "Width": "blanditiis",
-      "IconHint": "quo",
-      "HeadingIconHint": "natus"
+      "DisplayName": "Leffler LLC",
+      "DisplayTooltip": "enim",
+      "DisplayType": "ratione",
+      "CanOrderBy": true,
+      "Name": "Thiel, Torp and Turcotte",
+      "CanRestrictBy": true,
+      "RestrictionType": "maiores",
+      "RestrictionListName": "Heller-Johns",
+      "IsVisible": false,
+      "ExtraInfo": "sit",
+      "Width": "pariatur",
+      "IconHint": "ipsam",
+      "HeadingIconHint": "voluptates"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bartoletti, Sawayn and Ziemann",
-      "PrimaryKey": 63,
+      "EntityName": "Johnson, Steuber and Kohler",
+      "PrimaryKey": 282,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "soluta",
-          "TooltipHint": "non",
-          "LinkHint": "dolorem"
+          "DisplayValue": "perspiciatis",
+          "TooltipHint": "corrupti",
+          "LinkHint": "molestiae"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "aut",
+      "LinkHint": "placeat",
+      "StyleHint": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldLength": 275
         }
       }
     }
   ],
-  "RowCount": 153,
+  "RowCount": 818,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 71
     }
   }
 }

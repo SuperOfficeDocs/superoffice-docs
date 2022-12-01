@@ -11,12 +11,19 @@ POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 
 Request to send the session to another user.
 
+
 If the session does not belong to the user, nothing happens.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to send **Required** |
 | toAssociate | string | Associate username or associate id to send session to. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,7 +38,8 @@ If the session does not belong to the user, nothing happens.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -39,7 +47,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +91,7 @@ Response body:
 POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 735,
-  "TopicId": 854,
+  "ChatSessionId": 914,
+  "TopicId": 182,
   "User": null,
   "Person": null,
-  "CustomerAlias": "similique",
-  "CustomerHost": "voluptas",
-  "CustomerName": "Deckow, Rolfson and Kutch",
-  "CustomerEmail": "coralie_beer@barrowszieme.com",
-  "CustomerPhone": "1-170-763-9793 x83476",
+  "CustomerAlias": "suscipit",
+  "CustomerHost": "animi",
+  "CustomerName": "Hermann-Gibson",
+  "CustomerEmail": "melba_crist@wiegand.uk",
+  "CustomerPhone": "1-372-418-5098 x296",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Kovacek Group",
+  "CustomerCompanyName": "Willms-Kreiger",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "molestias",
-  "WhenRequested": "2017-06-12T11:10:52.5041796+02:00",
-  "WhenStarted": "2014-04-12T11:10:52.5041796+02:00",
-  "WhenEnded": "1997-06-15T11:10:52.5041796+02:00",
-  "WhenIdle": "2014-01-11T11:10:52.5041796+01:00",
-  "WhenFetched": "2009-06-10T11:10:52.5041796+02:00",
-  "SessionKey": "quaerat",
-  "InitialQueuePos": 481,
-  "AlertLevel": 623,
-  "Rank": 178,
+  "FirstMessage": "in",
+  "LastMessage": "impedit",
+  "WhenRequested": "1999-03-29T02:49:50.6359101+02:00",
+  "WhenStarted": "2006-03-18T02:49:50.6359101+01:00",
+  "WhenEnded": "2012-05-21T02:49:50.6359101+02:00",
+  "WhenIdle": "2004-04-15T02:49:50.6359101+02:00",
+  "WhenFetched": "2009-10-21T02:49:50.6359101+02:00",
+  "SessionKey": "tempora",
+  "InitialQueuePos": 591,
+  "AlertLevel": 704,
+  "Rank": 284,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 381,
+  "ChatbotIsActive": true,
+  "Rating": 261,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 151
     }
   }
 }

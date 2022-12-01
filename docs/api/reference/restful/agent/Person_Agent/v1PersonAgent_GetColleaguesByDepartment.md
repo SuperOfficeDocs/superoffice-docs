@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/GetColleaguesByDepartment
 
 Gets the persons working in a specific department in the same company as the logged on user.
 
+
 Departments can be retrieved with the PhoneList.DepartmentList service.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Departments can be retrieved with the PhoneList.DepartmentList service.
 ```http
 POST /api/v1/Agents/Person/GetColleaguesByDepartment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Person/GetColleaguesByDepartment?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DepartmentId
+DepartmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DepartmentId | int32 |  |
+
 
 ## Response: array
 
@@ -106,11 +114,11 @@ Response body: array
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 523
+  "DepartmentId": 401
 }
 ```
 
@@ -122,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "repellat",
-    "PersonId": 129,
-    "Mrmrs": "neque",
-    "Firstname": "Izabella",
-    "Lastname": "Windler",
-    "MiddleName": "Russel, DuBuque and Mosciski",
-    "Title": "modi",
-    "Description": "Visionary client-server customer loyalty",
-    "Email": "antonietta@blick.uk",
-    "FullName": "Anderson Lehner",
-    "DirectPhone": "(918)059-5759 x03989",
-    "FormalName": "Hauck Group",
-    "CountryId": 533,
-    "ContactId": 281,
-    "ContactName": "Gaylord-Fadel",
-    "Retired": 556,
-    "Rank": 316,
-    "ActiveInterests": 50,
+    "Position": "quis",
+    "PersonId": 857,
+    "Mrmrs": "et",
+    "Firstname": "Tania",
+    "Lastname": "Kilback",
+    "MiddleName": "Windler Inc and Sons",
+    "Title": "magni",
+    "Description": "Synergized optimizing middleware",
+    "Email": "myrtie.glover@flatleyziemann.name",
+    "FullName": "Sallie Steuber",
+    "DirectPhone": "131.412.5682 x228",
+    "FormalName": "Farrell Group",
+    "CountryId": 228,
+    "ContactId": 603,
+    "ContactName": "Sanford-Williamson",
+    "Retired": 857,
+    "Rank": 933,
+    "ActiveInterests": 3,
     "ContactDepartment": "",
-    "ContactCountryId": 227,
-    "ContactOrgNr": "993679",
-    "FaxPhone": "(852)818-6723",
-    "MobilePhone": "540-232-0985",
-    "ContactPhone": "1-715-707-3423",
-    "AssociateName": "McCullough-McClure",
-    "AssociateId": 990,
-    "UsePersonAddress": true,
-    "ContactFax": "quisquam",
-    "Kanafname": "repudiandae",
-    "Kanalname": "qui",
-    "Post1": "saepe",
-    "Post2": "eum",
-    "Post3": "quia",
-    "EmailName": "jocelyn.grady@swaniawski.info",
-    "ContactFullName": "Kenna Koch",
-    "ActiveErpLinks": 106,
-    "TicketPriorityId": 192,
-    "SupportLanguageId": 216,
-    "SupportAssociateId": 92,
+    "ContactCountryId": 712,
+    "ContactOrgNr": "1426022",
+    "FaxPhone": "413-464-0758 x758",
+    "MobilePhone": "370-802-0020",
+    "ContactPhone": "467.405.9708 x0661",
+    "AssociateName": "Goodwin, Quigley and Erdman",
+    "AssociateId": 733,
+    "UsePersonAddress": false,
+    "ContactFax": "similique",
+    "Kanafname": "optio",
+    "Kanalname": "corrupti",
+    "Post1": "reprehenderit",
+    "Post2": "provident",
+    "Post3": "qui",
+    "EmailName": "isidro.kerluke@corwin.com",
+    "ContactFullName": "Ervin Sanford",
+    "ActiveErpLinks": 707,
+    "TicketPriorityId": 940,
+    "SupportLanguageId": 294,
+    "SupportAssociateId": 907,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 404
+        "FieldLength": 231
       }
     }
   }

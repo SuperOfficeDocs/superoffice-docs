@@ -11,11 +11,17 @@ GET /api/v1/List/SaleType/Items/{itemId}/Headings
 
 Gets headings for the SaleTypeEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 292,
-    "Name": "Cummings, Wolf and Effertz",
-    "ToolTip": "Voluptatum voluptate blanditiis recusandae rem nisi reiciendis.",
-    "Deleted": false,
-    "Rank": 698,
-    "Type": "aperiam",
-    "ColorBlock": 176,
-    "IconHint": "rem",
+    "Id": 993,
+    "Name": "Mann, Haley and Anderson",
+    "ToolTip": "Quisquam et illo nesciunt nihil laborum dicta atque.",
+    "Deleted": true,
+    "Rank": 78,
+    "Type": "non",
+    "ColorBlock": 888,
+    "IconHint": "consectetur",
     "Selected": true,
-    "LastChanged": "2011-08-22T11:10:54.6099025+02:00",
+    "LastChanged": "2009-12-01T02:49:52.5159497+01:00",
     "ChildItems": [
       {
-        "Id": 60,
-        "Name": "Raynor, White and Cronin",
-        "ToolTip": "Ea blanditiis enim.",
-        "Deleted": false,
-        "Rank": 773,
-        "Type": "culpa",
-        "ColorBlock": 623,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2014-09-25T11:10:54.6099025+02:00",
+        "Id": 77,
+        "Name": "Christiansen-Kerluke",
+        "ToolTip": "Ex ea vel libero sed.",
+        "Deleted": true,
+        "Rank": 794,
+        "Type": "et",
+        "ColorBlock": 121,
+        "IconHint": "inventore",
+        "Selected": true,
+        "LastChanged": "2021-04-10T02:49:52.5159497+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "et",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Miss Aida Upton",
+        "FullName": "Clifton Emmy Weissnat II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 100
+            "FieldType": "System.Int32",
+            "FieldLength": 145
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Miss Myrtis Kuphal DVM",
+    "ExtraInfo": "natus",
+    "StyleHint": "vero",
+    "Hidden": true,
+    "FullName": "Laverne Beahan DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldLength": 985
       }
     }
   }

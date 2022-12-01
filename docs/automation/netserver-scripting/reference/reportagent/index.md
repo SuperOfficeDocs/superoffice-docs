@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 08.26.2022
+so.date: 11.29.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,3 +29,4 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IReportAgent'>R
 * [SaveReportEntity](savereportentity.md)
 * [SaveReportLabelLayoutEntity](savereportlabellayoutentity.md)
 * [UpdateFavorite](updatefavorite.md)
+

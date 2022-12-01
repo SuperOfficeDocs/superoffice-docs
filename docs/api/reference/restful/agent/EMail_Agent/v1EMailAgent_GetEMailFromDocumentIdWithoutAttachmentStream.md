@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 
 Get an e-mail based on an archived document
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get an e-mail based on an archived document
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,11 +102,11 @@ Response body:
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 139
+  "DocumentId": 271
 }
 ```
 
@@ -109,146 +119,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 662,
-      "ContactName": "Grimes-Kihn",
-      "PersonId": 432,
-      "PersonName": "Romaguera, Jaskolski and Ryan",
-      "AssociateId": 946,
-      "Address": "nihil",
-      "EmailId": 676,
+      "ContactId": 283,
+      "ContactName": "Rowe-Kilback",
+      "PersonId": 256,
+      "PersonName": "Franecki LLC",
+      "AssociateId": 6,
+      "Address": "fuga",
+      "EmailId": 863,
       "DuplicatePersonIds": [
-        477,
-        618
+        183,
+        692
       ],
-      "Name": "Graham, Balistreri and Mitchell",
+      "Name": "Zieme LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 389
+          "FieldLength": 24
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 279,
-      "ContactName": "Weber, Turner and Kozey",
-      "PersonId": 371,
-      "PersonName": "Prosacco LLC",
-      "AssociateId": 47,
-      "Address": "eum",
-      "EmailId": 407,
+      "ContactId": 790,
+      "ContactName": "Walsh, Yost and Reilly",
+      "PersonId": 385,
+      "PersonName": "Flatley, Hyatt and Sporer",
+      "AssociateId": 447,
+      "Address": "fuga",
+      "EmailId": 1000,
       "DuplicatePersonIds": [
-        253,
-        987
+        302,
+        373
       ],
-      "Name": "Hirthe, Mante and Pfeffer",
+      "Name": "McLaughlin, Howell and Kassulke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 1002
+          "FieldType": "System.String",
+          "FieldLength": 723
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 266,
-      "ContactName": "Roberts-Kertzmann",
-      "PersonId": 947,
-      "PersonName": "Romaguera-Von",
-      "AssociateId": 523,
-      "Address": "magni",
-      "EmailId": 198,
+      "ContactId": 415,
+      "ContactName": "Koepp, Grant and Borer",
+      "PersonId": 916,
+      "PersonName": "Quigley Group",
+      "AssociateId": 831,
+      "Address": "assumenda",
+      "EmailId": 138,
       "DuplicatePersonIds": [
-        369,
-        578
+        236,
+        594
       ],
-      "Name": "Littel-Stroman",
+      "Name": "Gleichner Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 480
         }
       }
     }
   ],
-  "Subject": "dolores",
-  "HTMLBody": "et",
+  "Subject": "nesciunt",
+  "HTMLBody": "saepe",
   "From": null,
-  "Sent": "1999-04-07T11:10:26.8694246+02:00",
-  "Size": 96,
+  "Sent": "2009-01-20T02:49:44.3878864+01:00",
+  "Size": 492,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolores",
-  "PlainBody": "expedita",
+  "MessageID": "animi",
+  "PlainBody": "vero",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 536,
+  "ServerId": 382,
   "Attachments": [
     {
-      "Description": "Persistent coherent local area network",
-      "Filename": "qui",
-      "Size": 477,
-      "Type": "nemo",
-      "Encoding": "quidem",
-      "Id": "quidem",
-      "Disposition": "provident",
+      "Description": "Advanced explicit standardization",
+      "Filename": "ipsa",
+      "Size": 605,
+      "Type": "et",
+      "Encoding": "minus",
+      "Id": "saepe",
+      "Disposition": "omnis",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 262
+          "FieldLength": 701
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kub, Block and Bauch",
+      "Name": "Bahringer, Franecki and Wolff",
       "Values": [
-        "aliquid",
-        "voluptas"
+        "totam",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 319
+          "FieldLength": 983
         }
       }
     },
     {
-      "Name": "Kub, Block and Bauch",
+      "Name": "Bahringer, Franecki and Wolff",
       "Values": [
-        "aliquid",
-        "voluptas"
+        "totam",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 319
+          "FieldLength": 983
         }
       }
     }
   ],
-  "FolderName": "Yost-Keebler",
-  "EmailItemId": 965,
-  "AccountId": 602,
-  "ReceivedAt": "2001-04-11T11:10:26.8704248+02:00",
+  "FolderName": "Wolff, Kemmer and Lynch",
+  "EmailItemId": 76,
+  "AccountId": 991,
+  "ReceivedAt": "2006-11-06T02:49:44.3878864+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-05-27T11:10:26.8704248+02:00",
+  "RepliedAt": "2021-07-22T02:49:44.3878864+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -256,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 140
+      "FieldType": "System.Int32",
+      "FieldLength": 870
     }
   }
 }

@@ -11,11 +11,17 @@ GET /api/v1/List/Country/Items/{itemId}/Headings
 
 Gets headings for the Country list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 703,
-    "Name": "Nienow, Kiehn and Beer",
-    "ToolTip": "Rem unde corrupti qui.",
+    "Id": 101,
+    "Name": "Kreiger Group",
+    "ToolTip": "Voluptas repellendus qui et et aut ad.",
     "Deleted": false,
-    "Rank": 90,
-    "Type": "sed",
-    "ColorBlock": 827,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2007-08-29T11:10:54.0211852+02:00",
+    "Rank": 536,
+    "Type": "dolore",
+    "ColorBlock": 722,
+    "IconHint": "modi",
+    "Selected": true,
+    "LastChanged": "2010-08-30T02:49:52.1721908+02:00",
     "ChildItems": [
       {
-        "Id": 321,
-        "Name": "Thompson-Dickinson",
-        "ToolTip": "Beatae dolor qui dolores qui id culpa minima.",
-        "Deleted": true,
-        "Rank": 947,
-        "Type": "autem",
-        "ColorBlock": 62,
-        "IconHint": "amet",
-        "Selected": true,
-        "LastChanged": "2003-12-20T11:10:54.0211852+01:00",
+        "Id": 642,
+        "Name": "Leffler-Purdy",
+        "ToolTip": "Et a aut natus eum perferendis eius.",
+        "Deleted": false,
+        "Rank": 530,
+        "Type": "quasi",
+        "ColorBlock": 655,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2020-12-02T02:49:52.1721908+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Ms. Emilio Witting Jr.",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "mollitia",
+        "Hidden": false,
+        "FullName": "Ms. Kelly Feeney MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 286
+            "FieldLength": 690
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "mollitia",
+    "ExtraInfo": "iusto",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Nadia Alena Wiegand DVM",
+    "FullName": "Barbara Leffler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldLength": 807
       }
     }
   }

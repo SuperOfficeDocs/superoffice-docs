@@ -11,6 +11,12 @@ GET /api/v1/List/Category/MDOItems
 
 Get the MDO list items for "Category" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=sed
+GET /api/v1/List/Category/MDOItems?query=quos
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Category/MDOItems?query=sed
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 382,
-    "Name": "Feil, Treutel and Farrell",
-    "ToolTip": "Iste quia voluptatem et officiis possimus vero.",
+    "Id": 341,
+    "Name": "Berge-Schamberger",
+    "ToolTip": "Fugit totam iusto nihil quas.",
     "Deleted": false,
-    "Rank": 986,
-    "Type": "voluptatum",
+    "Rank": 563,
+    "Type": "nemo",
     "ChildItems": [
       {
-        "Id": 702,
-        "Name": "Wiza, Hermann and Douglas",
-        "ToolTip": "Molestiae nihil.",
-        "Deleted": true,
-        "Rank": 384,
-        "Type": "rerum",
+        "Id": 897,
+        "Name": "Heidenreich Group",
+        "ToolTip": "Qui id enim eligendi est molestias.",
+        "Deleted": false,
+        "Rank": 751,
+        "Type": "nesciunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatibus",
-        "ColorBlock": 989,
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "eaque",
-        "FullName": "Toni Hahn",
+        "IconHint": "culpa",
+        "ColorBlock": 68,
+        "ExtraInfo": "at",
+        "StyleHint": "sit",
+        "FullName": "Kathryne Clovis Stehr DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 18
+            "FieldLength": 119
           }
         }
       }
     ],
-    "IconHint": "tenetur",
-    "ColorBlock": 117,
-    "ExtraInfo": "dolore",
-    "StyleHint": "hic",
-    "FullName": "Torrance Wisozk",
+    "IconHint": "facere",
+    "ColorBlock": 445,
+    "ExtraInfo": "autem",
+    "StyleHint": "consequatur",
+    "FullName": "Waldo Mitchell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 995
+        "FieldType": "System.String",
+        "FieldLength": 811
       }
     }
   }

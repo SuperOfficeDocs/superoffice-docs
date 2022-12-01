@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveHeadingEntity
 
 Updates the existing HeadingEntity or creates a new HeadingEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing HeadingEntity or creates a new HeadingEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The HeadingEntity to be saved.
+The HeadingEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The HeadingEntity to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 597,
-  "Name": "Kuhn-Monahan",
-  "Tooltip": "distinctio",
+  "HeadingId": 11,
+  "Name": "Williamson-Lynch",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 675,
-  "UdListDefinitionId": 784
+  "Rank": 370,
+  "UdListDefinitionId": 457
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 360,
-  "Name": "Cole Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 915,
-  "UdListDefinitionId": 102,
+  "HeadingId": 119,
+  "Name": "Gleichner Inc and Sons",
+  "Tooltip": "doloremque",
+  "Deleted": true,
+  "Rank": 932,
+  "UdListDefinitionId": 107,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldType": "System.String",
+      "FieldLength": 509
     }
   }
 }

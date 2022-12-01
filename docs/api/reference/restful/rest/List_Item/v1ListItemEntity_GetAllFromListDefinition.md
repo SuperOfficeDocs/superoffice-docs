@@ -11,9 +11,15 @@ GET /api/v1/List/{udListDefinitionId}/Items
 
 Get all list items for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list definition, indicating which list to get the item from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get all list items for the specified list defintion
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items?includeDeleted=True
+GET /api/v1/List/{udListDefinitionId}/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -37,6 +44,7 @@ GET /api/v1/List/{udListDefinitionId}/Items?includeDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -65,7 +73,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Fisher LLC",
-    "Tooltip": "repellat",
-    "Deleted": true,
-    "UdListDefinitionId": 105,
-    "Rank": 90,
+    "Id": 856,
+    "Name": "Maggio-Watsica",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "UdListDefinitionId": 319,
+    "Rank": 355,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldLength": 401
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/SaveDashTileHtmlList
 
 Set the HTML data for a tile with TileType = HTML.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Set the HTML data for a tile with TileType = HTML.
 ```http
 POST /api/v1/Agents/Dash/SaveDashTileHtmlList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Dash/SaveDashTileHtmlList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileDefinitionId, Languages
+DashboardTileDefinitionId, Languages 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileDefinitionId | int32 |  |
 | Languages | array |  |
+
 
 ## Response: array
 
@@ -67,19 +75,19 @@ Response body: array
 POST /api/v1/Agents/Dash/SaveDashTileHtmlList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 606,
+  "DashboardTileDefinitionId": 781,
   "Languages": [
     {
-      "LanguageCode": "facere",
-      "Html": "et"
+      "LanguageCode": "nisi",
+      "Html": "maiores"
     },
     {
-      "LanguageCode": "facere",
-      "Html": "et"
+      "LanguageCode": "nisi",
+      "Html": "maiores"
     }
   ]
 }
@@ -93,26 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "aliquid",
-    "Html": "nihil",
+    "LanguageCode": "animi",
+    "Html": "necessitatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldType": "System.String",
+        "FieldLength": 792
       }
     }
   },
   {
-    "LanguageCode": "aliquid",
-    "Html": "nihil",
+    "LanguageCode": "animi",
+    "Html": "necessitatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldType": "System.String",
+        "FieldLength": 792
       }
     }
   }

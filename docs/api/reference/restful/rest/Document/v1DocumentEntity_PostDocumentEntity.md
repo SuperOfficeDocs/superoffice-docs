@@ -11,7 +11,13 @@ POST /api/v1/Document
 
 Creates a new DocumentEntity Save the document entity.
 
+
 If the entity already exists and the file name of the incoming entity is different from the existing one, a corresponding renaming of the physical document will be attempted. This may cause an amended file name to be substituted into the document entity, since a document plugin may have aribitrary rules on file names and collisions. Clients should always inspect the return value from this call and not assume that what they sent for saving is the final truth. Calls the Document agent service SaveDocumentEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If the entity already exists and the file name of the incoming entity is differe
 ```http
 POST /api/v1/Document?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Document?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The DocumentEntity to be saved.
+The DocumentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +85,8 @@ The DocumentEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -86,7 +94,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -134,77 +142,77 @@ Response body:
 POST /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 123,
+  "DocumentId": 32,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "est",
-  "Header": "quasi",
-  "Name": "Monahan-Weissnat",
-  "OurRef": "voluptates",
-  "YourRef": "voluptas",
-  "CreatedDate": "2005-02-13T11:10:52.7781787+01:00",
-  "UpdatedDate": "1999-07-02T11:10:52.7781787+02:00",
-  "Description": "Business-focused system-worthy paradigm",
+  "Attention": "sint",
+  "Header": "mollitia",
+  "Name": "Buckridge-O'Kon",
+  "OurRef": "eius",
+  "YourRef": "voluptate",
+  "CreatedDate": "2007-06-01T02:49:50.8859128+02:00",
+  "UpdatedDate": "2018-09-29T02:49:50.8859128+02:00",
+  "Description": "Ameliorated leading edge portal",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-08-13T11:10:52.7821449+02:00",
-  "ExternalRef": "veniam",
+  "Date": "2010-10-29T02:49:50.8859128+02:00",
+  "ExternalRef": "fugit",
   "Completed": "Completed",
-  "ActiveLinks": 991,
+  "ActiveLinks": 333,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hamill-Ledner",
-      "Id": 845,
-      "Description": "Fully-configurable well-modulated artificial intelligence",
-      "ExtraInfo": "deserunt",
-      "LinkId": 722
+      "EntityName": "Zemlak LLC",
+      "Id": 284,
+      "Description": "Innovative hybrid synergy",
+      "ExtraInfo": "rerum",
+      "LinkId": 76
     },
     {
-      "EntityName": "Hamill-Ledner",
-      "Id": 845,
-      "Description": "Fully-configurable well-modulated artificial intelligence",
-      "ExtraInfo": "deserunt",
-      "LinkId": 722
+      "EntityName": "Zemlak LLC",
+      "Id": 284,
+      "Description": "Innovative hybrid synergy",
+      "ExtraInfo": "rerum",
+      "LinkId": 76
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 797,
-  "Snum": 51,
+  "SuggestedDocumentId": 705,
+  "Snum": 963,
   "UserDefinedFields": {
-    "SuperOffice:1": "Selmer Steuber",
-    "SuperOffice:2": "676590982"
+    "SuperOffice:1": "Jamey Tromp",
+    "SuperOffice:2": "Dr. Ursula Gutmann"
   },
   "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "et"
+    "CustomFields1": "dolorum",
+    "CustomFields2": "sunt"
   },
-  "PublishEventDate": "2001-07-30T11:10:52.7831436+02:00",
-  "PublishTo": "2003-03-22T11:10:52.7831436+01:00",
-  "PublishFrom": "2004-12-26T11:10:52.7831436+01:00",
+  "PublishEventDate": "1995-11-16T02:49:50.8859128+01:00",
+  "PublishTo": "2017-01-20T02:49:50.8859128+01:00",
+  "PublishFrom": "2000-06-16T02:49:50.8859128+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 189,
+      "VisibleId": 71,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "non"
     },
     {
-      "VisibleId": 189,
+      "VisibleId": 71,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "non"
     }
   ]
 }
@@ -217,88 +225,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 262,
+  "DocumentId": 545,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "pariatur",
-  "Name": "Towne, Huels and Rogahn",
-  "OurRef": "inventore",
-  "YourRef": "dolorem",
-  "CreatedDate": "2017-04-06T11:10:52.7901797+02:00",
-  "UpdatedDate": "2022-04-08T11:10:52.7901797+02:00",
-  "Description": "Front-line incremental productivity",
+  "Attention": "vitae",
+  "Header": "sint",
+  "Name": "Hills LLC",
+  "OurRef": "quo",
+  "YourRef": "aspernatur",
+  "CreatedDate": "2019-05-08T02:49:50.8859128+02:00",
+  "UpdatedDate": "2006-07-04T02:49:50.8859128+02:00",
+  "Description": "Switchable user-facing monitoring",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-10-07T11:10:52.792174+02:00",
-  "ExternalRef": "velit",
+  "Date": "2017-07-29T02:49:50.8859128+02:00",
+  "ExternalRef": "nisi",
   "Completed": "Completed",
-  "ActiveLinks": 632,
+  "ActiveLinks": 996,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schmitt Inc and Sons",
-      "Id": 88,
-      "Description": "Versatile tertiary utilisation",
-      "ExtraInfo": "autem",
-      "LinkId": 473,
+      "EntityName": "Leannon Group",
+      "Id": 329,
+      "Description": "User-centric bandwidth-monitored functionalities",
+      "ExtraInfo": "rerum",
+      "LinkId": 94,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldType": "System.String",
+          "FieldLength": 443
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 16,
-  "Snum": 277,
+  "SuggestedDocumentId": 288,
+  "Snum": 749,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ellis Wiza",
-    "SuperOffice:2": "Miss Jan Opal Bogan"
+    "SuperOffice:1": "Ms. Bo Cummings II",
+    "SuperOffice:2": "Ms. Ashlynn Stamm IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "repellat",
+    "CustomFields2": "officiis"
   },
-  "PublishEventDate": "2015-05-02T11:10:52.7931739+02:00",
-  "PublishTo": "2005-04-26T11:10:52.7931739+02:00",
-  "PublishFrom": "2018-05-15T11:10:52.7931739+02:00",
+  "PublishEventDate": "1998-06-08T02:49:50.8859128+02:00",
+  "PublishTo": "2013-06-20T02:49:50.8859128+02:00",
+  "PublishFrom": "2009-08-19T02:49:50.8859128+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 315,
+      "VisibleId": 971,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 251
+          "FieldType": "System.String",
+          "FieldLength": 746
         }
       }
     },
     {
-      "VisibleId": 315,
+      "VisibleId": 971,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 251
+          "FieldType": "System.String",
+          "FieldLength": 746
         }
       }
     }
@@ -308,12 +316,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 592
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 
 Create a new document template based on another template
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a new document template based on another template
 ```http
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SourceDocumentTemplateId, DocumentTemplateEntity
+SourceDocumentTemplateId, DocumentTemplateEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SourceDocumentTemplateId | int32 |  |
 | DocumentTemplateEntity |  | The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on. <para /> Carrier object for DocumentTemplateEntity. Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,11 +98,11 @@ Response body:
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 103,
+  "SourceDocumentTemplateId": 183,
   "DocumentTemplateEntity": null
 }
 ```
@@ -106,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 326,
-  "Name": "Nader, Bogisich and Hand",
-  "Tooltip": "eveniet",
-  "SaveInDb": 398,
-  "Filename": "doloremque",
-  "DefaultOref": "voluptatum",
+  "DocumentTemplateId": 972,
+  "Name": "Kshlerin, Heathcote and Murphy",
+  "Tooltip": "aut",
+  "SaveInDb": 391,
+  "Filename": "officiis",
+  "DefaultOref": "culpa",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 110,
-  "IntentId": 452,
+  "AutoeventId": 516,
+  "IntentId": 788,
   "IsDefaultPublished": false,
-  "Rank": 50,
-  "LoadTemplateFromPlugin": 851,
-  "MimeType": "natus",
+  "Rank": 387,
+  "LoadTemplateFromPlugin": 896,
+  "MimeType": "voluptatem",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 612,
+  "DocumentTypeKey": 474,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "aurore.nader@hermann.co.uk",
+  "EmailSubject": "garry@hodkiewiczschoen.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dillan@keebler.uk",
+  "SenderEmailAddress": "missouri@stroman.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldLength": 108
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/ViewState/GetHistoriesByName
 
 Returns the named history list that belong to the currently logged in user
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the named history list that belong to the currently logged in user
 ```http
 POST /api/v1/Agents/ViewState/GetHistoriesByName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/ViewState/GetHistoriesByName?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-HistoryName
+HistoryName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | HistoryName | string |  |
+
 
 ## Response: array
 
@@ -71,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Blanda, Bode and Deckow"
+  "HistoryName": "Eichmann, Jast and Mitchell"
 }
 ```
 
@@ -87,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 461,
-    "Id": 168,
-    "HistoryName": "Spencer LLC",
-    "HistoryId": 278,
-    "AssociateId": 369,
-    "Name": "Gaylord-Runte",
-    "ItemInfo": "iure",
+    "Rank": 401,
+    "Id": 588,
+    "HistoryName": "Koelpin, Gleichner and Olson",
+    "HistoryId": 274,
+    "AssociateId": 456,
+    "Name": "Lang Group",
+    "ItemInfo": "similique",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 531
       }
     }
   }

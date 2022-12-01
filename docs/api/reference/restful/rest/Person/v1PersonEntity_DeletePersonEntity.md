@@ -11,11 +11,18 @@ DELETE /api/v1/Person/{id}
 
 Deletes the PersonEntity
 
+
 Calls the Person agent service DeletePersonEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PersonEntity to be deleted. **Required** |
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Calls the Person agent service DeletePersonEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 PersonEntity deleted.
 
@@ -35,7 +43,8 @@ PersonEntity deleted.
 | 204 | PersonEntity deleted. |
 | 412 | Delete aborted because PersonEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 

@@ -11,11 +11,18 @@ PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 
 Saves user groups visible for the SelectionCategory list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 159,
-    "Name": "D'Amore, Ledner and Waters",
-    "ToolTip": "Fugit fugit.",
-    "Deleted": false,
-    "Rank": 212,
-    "Type": "non",
-    "ColorBlock": 150,
-    "IconHint": "nobis",
+    "Id": 769,
+    "Name": "Marquardt, VonRueden and Haley",
+    "ToolTip": "Maiores maxime eligendi.",
+    "Deleted": true,
+    "Rank": 516,
+    "Type": "quia",
+    "ColorBlock": 120,
+    "IconHint": "similique",
     "Selected": true,
-    "LastChanged": "1998-08-01T11:10:54.625904+02:00",
+    "LastChanged": "1998-10-20T02:49:52.5159497+02:00",
     "ChildItems": [
       {
-        "Id": 930,
-        "Name": "Schaefer-Jacobi",
-        "ToolTip": "Mollitia vel sit voluptatem quos qui aliquid.",
-        "Deleted": true,
-        "Rank": 34,
-        "Type": "in",
-        "ColorBlock": 930,
-        "IconHint": "occaecati",
+        "Id": 504,
+        "Name": "Hodkiewicz LLC",
+        "ToolTip": "In quia voluptatem non unde hic.",
+        "Deleted": false,
+        "Rank": 139,
+        "Type": "delectus",
+        "ColorBlock": 451,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "2010-11-03T11:10:54.625904+01:00",
+        "LastChanged": "2006-08-27T02:49:52.5159497+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "culpa",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Jammie Williamson"
+        "FullName": "Prof. Carleton Dibbert"
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Dr. Tyreek Macy Lubowitz"
+    "FullName": "Genoveva Runolfsson MD"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Gutkowski-Schamberger",
-    "ToolTip": "Ea consequuntur odio tempora porro.",
+    "Id": 701,
+    "Name": "Grady-Nolan",
+    "ToolTip": "Qui expedita nam expedita quas consequatur eos accusamus.",
     "Deleted": false,
-    "Rank": 872,
-    "Type": "amet",
-    "ColorBlock": 107,
-    "IconHint": "corporis",
-    "Selected": true,
-    "LastChanged": "2019-02-18T11:10:54.6269029+01:00",
+    "Rank": 254,
+    "Type": "earum",
+    "ColorBlock": 5,
+    "IconHint": "laudantium",
+    "Selected": false,
+    "LastChanged": "2019-06-05T02:49:52.5315748+02:00",
     "ChildItems": [
       {
-        "Id": 189,
-        "Name": "Hoeger Group",
-        "ToolTip": "Omnis quis placeat.",
-        "Deleted": true,
-        "Rank": 772,
-        "Type": "et",
-        "ColorBlock": 620,
-        "IconHint": "facere",
+        "Id": 307,
+        "Name": "O'Hara Group",
+        "ToolTip": "Nulla itaque odit ut corrupti officia vel.",
+        "Deleted": false,
+        "Rank": 773,
+        "Type": "at",
+        "ColorBlock": 718,
+        "IconHint": "tempore",
         "Selected": true,
-        "LastChanged": "2011-12-24T11:10:54.6269029+01:00",
+        "LastChanged": "1997-02-18T02:49:52.5315748+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "et",
+        "StyleHint": "blanditiis",
         "Hidden": true,
-        "FullName": "Amaya Vern Eichmann Jr.",
+        "FullName": "Bert Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 131
+            "FieldType": "System.Int32",
+            "FieldLength": 144
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "et",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "facere",
     "Hidden": true,
-    "FullName": "Eladio Denesik",
+    "FullName": "Kaleb Ezequiel Wehner III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldType": "System.String",
+        "FieldLength": 584
       }
     }
   }

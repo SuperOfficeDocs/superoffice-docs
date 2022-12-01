@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 
 Get all installed connections.
 
+
 Some installed connections may not be available to the user.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Some installed connections may not be available to the user.
 ```http
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections?$select=name,departmen
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -72,7 +80,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,54 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 89,
-    "ERPName": "Terry-Ankunding",
-    "DisplayName": "Lueilwitz, Hilpert and Bergstrom",
-    "DisplayDescription": "Balanced disintermediate model",
-    "Rank": 914,
-    "ConnectorName": "Roob, Weissnat and Kuphal",
-    "ErpConnectionId": 843,
-    "ExtraData": "vero",
+    "QuoteConnectionId": 654,
+    "ERPName": "Brown-Shields",
+    "DisplayName": "Vandervort, Schuppe and Jaskolski",
+    "DisplayDescription": "Function-based dynamic synergy",
+    "Rank": 157,
+    "ConnectorName": "Tromp-Pfeffer",
+    "ErpConnectionId": 590,
+    "ExtraData": "laborum",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 200,
-        "ERPPriceListKey": "natus",
-        "QuoteConnectionId": 784,
-        "Name": "Boehm, Champlin and Mueller",
-        "Description": "Universal homogeneous ability",
-        "Currency": "rerum",
-        "CurrencyName": "Lynch-Bahringer",
-        "ValidFrom": "2002-08-26T11:10:27.7014917+02:00",
-        "ValidTo": "2015-06-26T11:10:27.7014917+02:00",
-        "IsActive": false,
+        "PriceListId": 817,
+        "ERPPriceListKey": "et",
+        "QuoteConnectionId": 861,
+        "Name": "Jaskolski-Roob",
+        "Description": "Networked background complexity",
+        "Currency": "fugit",
+        "CurrencyName": "O'Keefe-Gerhold",
+        "ValidFrom": "2011-03-29T02:49:45.0309645+02:00",
+        "ValidTo": "2007-09-07T02:49:45.0309645+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 182
+            "FieldType": "System.Int32",
+            "FieldLength": 321
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      613,
-      193
+      780,
+      246
     ],
     "AssociateAccessIds": [
-      913,
-      598
+      833,
+      787
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 698
+        "FieldLength": 738
       }
     }
   }

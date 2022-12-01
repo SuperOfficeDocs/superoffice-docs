@@ -11,9 +11,15 @@ PUT /api/v1/Document/{documentId}/Lock
 
 Check in a currently checked-out document
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document Id **Required** |
+
 
 ## Query String Parameters
 
@@ -25,9 +31,10 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Pre-emptive user-facing infrastructure
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=sed,suscipit
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=De-engineered value-added protocol
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=vel,laboriosam
 ```
+
 
 ## Request Headers
 
@@ -42,7 +49,8 @@ PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=sed,suscipit
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -50,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +75,7 @@ Response body:
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,11 +85,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "pariatur",
-  "VersionId": "magnam",
+  "ExternalReference": "quia",
+  "VersionId": "iure",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "et",
-  "AdditionalInfo": "porro"
+  "Value": "qui",
+  "AdditionalInfo": "voluptas"
 }
 ```

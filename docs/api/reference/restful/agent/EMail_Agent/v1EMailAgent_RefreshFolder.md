@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/RefreshFolder
 
 Refresh the given folders - i.
 
+
 e., fetch data from the mail server and update the in-database cache. This may happen synchronously or as a batch task, the return value will be 0 if the processing was synchronous, or the batch task id if a batch task is used.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ e., fetch data from the mail server and update the in-database cache. This may h
 ```http
 POST /api/v1/Agents/EMail/RefreshFolder?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,14 +47,15 @@ POST /api/v1/Agents/EMail/RefreshFolder?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfo, Folders
+ConnectionInfo, Folders 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | Folders | array |  |
+
 
 ## Response: int32
 
@@ -58,20 +67,21 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/RefreshFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "ducimus",
-    "ea"
+    "magnam",
+    "numquam"
   ]
 }
 ```
@@ -82,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-683
+349
 ```

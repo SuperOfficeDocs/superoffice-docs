@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetSelectableList
 
 Method to get a Selectable MDO list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method to get a Selectable MDO list.
 ```http
 POST /api/v1/Agents/MDO/GetSelectableList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/MDO/GetSelectableList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, ForceFlatList, AdditionalInfo, OnlyHistory
+Name, ForceFlatList, AdditionalInfo, OnlyHistory 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,6 +52,7 @@ Name, ForceFlatList, AdditionalInfo, OnlyHistory
 | ForceFlatList | bool |  |
 | AdditionalInfo | string |  |
 | OnlyHistory | bool |  |
+
 
 ## Response: array
 
@@ -82,13 +90,13 @@ Response body: array
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Feil, Dickens and Kihn",
+  "Name": "Anderson, Ratke and Daugherty",
   "ForceFlatList": true,
-  "AdditionalInfo": "saepe",
+  "AdditionalInfo": "deserunt",
   "OnlyHistory": false
 }
 ```
@@ -101,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 348,
-    "Name": "Will Inc and Sons",
-    "ToolTip": "Aperiam quibusdam.",
+    "Id": 866,
+    "Name": "Simonis Group",
+    "ToolTip": "Enim est praesentium aut corporis alias pariatur.",
     "Deleted": true,
-    "Rank": 720,
-    "Type": "molestiae",
-    "ColorBlock": 883,
-    "IconHint": "est",
+    "Rank": 774,
+    "Type": "quos",
+    "ColorBlock": 432,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "1998-04-17T11:10:27.3154529+02:00",
+    "LastChanged": "2017-11-08T02:49:44.7340524+01:00",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Mueller, Wehner and Rippin",
-        "ToolTip": "Et minus esse similique officiis accusantium.",
-        "Deleted": true,
-        "Rank": 241,
-        "Type": "hic",
-        "ColorBlock": 903,
-        "IconHint": "maiores",
-        "Selected": true,
-        "LastChanged": "1997-05-15T11:10:27.3164564+02:00",
+        "Id": 18,
+        "Name": "Cole, Wolff and Renner",
+        "ToolTip": "Velit in dolorum ut pariatur nihil nesciunt.",
+        "Deleted": false,
+        "Rank": 896,
+        "Type": "doloremque",
+        "ColorBlock": 333,
+        "IconHint": "sint",
+        "Selected": false,
+        "LastChanged": "2004-07-24T02:49:44.7340524+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "quia",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Amaya Jones",
+        "FullName": "Eusebio Quitzon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 932
+            "FieldLength": 152
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "ut",
+    "ExtraInfo": "est",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Ulices Bogan",
+    "FullName": "Dakota Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldType": "System.String",
+        "FieldLength": 232
       }
     }
   }

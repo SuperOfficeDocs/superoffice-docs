@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSalesFromPerson
 
 Returns all sales for the person provided.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all sales for the person provided.
 ```http
 POST /api/v1/Agents/Sale/GetSalesFromPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Sale/GetSalesFromPerson?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, OnlyOpenSales
+PersonId, OnlyOpenSales 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | OnlyOpenSales | bool |  |
+
 
 ## Response: array
 
@@ -90,11 +98,11 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 163,
+  "PersonId": 865,
   "OnlyOpenSales": false
 }
 ```
@@ -107,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Schoen-Roob",
-    "SaleDate": "2012-06-10T11:10:27.8590075+02:00",
-    "SaleId": 50,
-    "Probability": 650,
-    "Title": "earum",
-    "Amount": 5672.54,
-    "Currency": "enim",
-    "ProjectName": "Altenwerth Group",
-    "AssociateFullName": "Yazmin Kiehn",
-    "Description": "Ergonomic content-based leverage",
+    "ContactName": "Mitchell Group",
+    "SaleDate": "2013-02-20T02:49:45.155965+01:00",
+    "SaleId": 308,
+    "Probability": 609,
+    "Title": "quo",
+    "Amount": 9138.744,
+    "Currency": "ad",
+    "ProjectName": "Zulauf, Wolf and Lang",
+    "AssociateFullName": "Yvonne Lindgren",
+    "Description": "Reverse-engineered scalable emulation",
     "Status": "Lost",
-    "WeightedAmount": 18622.228,
-    "ProjectId": 209,
-    "EarningPercent": 7035.83,
-    "Earning": 9521.092,
-    "ContactId": 189,
-    "AssociateId": 204,
-    "PersonId": 420,
-    "SaleTypeId": 596,
-    "SaleTypeName": "Botsford, DuBuque and Senger",
-    "PersonFullName": "Eden Heidenreich",
+    "WeightedAmount": 5033.204,
+    "ProjectId": 915,
+    "EarningPercent": 14961.716,
+    "Earning": 17609.946,
+    "ContactId": 972,
+    "AssociateId": 894,
+    "PersonId": 443,
+    "SaleTypeId": 467,
+    "SaleTypeName": "Bradtke Inc and Sons",
+    "PersonFullName": "Jeff Tremblay",
     "Completed": "Completed",
-    "ActiveErpLinks": 620,
-    "NextDueDate": "2017-06-22T11:10:27.8590075+02:00",
-    "Number": "883485",
+    "ActiveErpLinks": 303,
+    "NextDueDate": "2001-11-15T02:49:45.155965+01:00",
+    "Number": "651748",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldLength": 812
       }
     }
   }

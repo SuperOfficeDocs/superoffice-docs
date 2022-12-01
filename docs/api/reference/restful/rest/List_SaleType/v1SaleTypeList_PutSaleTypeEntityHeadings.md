@@ -11,7 +11,14 @@ PUT /api/v1/List/SaleType/Headings
 
 Saves headings for the SaleTypeEntity list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 139,
-    "Name": "Ward-Haag",
-    "Tooltip": "natus",
-    "Deleted": true,
-    "Rank": 286,
-    "UdListDefinitionId": 32
+    "HeadingId": 471,
+    "Name": "O'Kon LLC",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 955,
+    "UdListDefinitionId": 160
   },
   {
-    "HeadingId": 139,
-    "Name": "Ward-Haag",
-    "Tooltip": "natus",
-    "Deleted": true,
-    "Rank": 286,
-    "UdListDefinitionId": 32
+    "HeadingId": 471,
+    "Name": "O'Kon LLC",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 955,
+    "UdListDefinitionId": 160
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 515,
-    "Name": "Gislason, Rodriguez and Volkman",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 578,
-    "UdListDefinitionId": 347,
+    "HeadingId": 220,
+    "Name": "Lynch LLC",
+    "Tooltip": "a",
+    "Deleted": false,
+    "Rank": 368,
+    "UdListDefinitionId": 793,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 596
+        "FieldLength": 282
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/License/ChangeSerialNumber
 
 Change the new serial number for the installation.
 
+
 Requests a new license from SuperLicense, checks if change is authorized.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Requests a new license from SuperLicense, checks if change is authorized.
 ```http
 POST /api/v1/Agents/License/ChangeSerialNumber?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/License/ChangeSerialNumber?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-NewCompanyName, NewSerialNumber
+NewCompanyName, NewSerialNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | NewCompanyName | string |  |
 | NewSerialNumber | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,12 +77,12 @@ Response body:
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Lind Group",
-  "NewSerialNumber": "903462"
+  "NewCompanyName": "Steuber-Wisozk",
+  "NewSerialNumber": "982802"
 }
 ```
 
@@ -85,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": true,
+  "Succeeded": false,
   "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 629
+      "FieldType": "System.Int32",
+      "FieldLength": 240
     }
   }
 }

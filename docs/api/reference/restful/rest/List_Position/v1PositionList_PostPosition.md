@@ -11,6 +11,13 @@ POST /api/v1/List/Position/Items
 
 Add a new Position to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new Position to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The Position to be added to the list.
+The Position to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The Position to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 841,
-  "Name": "Wyman-Parker",
-  "Tooltip": "quod",
+  "Id": 118,
+  "Name": "Wisozk-Hyatt",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 280,
-  "Rank": 950
+  "UdListDefinitionId": 834,
+  "Rank": 430
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 424,
-  "Name": "Schoen, Abbott and Turner",
-  "Tooltip": "qui",
+  "Id": 704,
+  "Name": "Roob LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 720,
-  "Rank": 583,
+  "UdListDefinitionId": 177,
+  "Rank": 557,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldType": "System.Int32",
+      "FieldLength": 286
     }
   }
 }

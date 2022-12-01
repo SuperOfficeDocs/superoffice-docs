@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 
 Gets the blob entity that represents the product image binary object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the blob entity that represents the product image binary object.
 ```http
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProductId
+ProductId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProductId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,11 +85,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 107
+  "ProductId": 122
 }
 ```
 
@@ -92,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 672,
-  "BlobSize": 833,
-  "Description": "De-engineered holistic data-warehouse",
-  "ExtraInfo": "odit",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "deleniti",
-  "OriginalSize": 585,
-  "CreatedDate": "1999-07-08T11:10:26.0365527+02:00",
-  "UpdatedDate": "2021-10-13T11:10:26.0365527+02:00",
+  "BlobId": 464,
+  "BlobSize": 326,
+  "Description": "Synergized empowering project",
+  "ExtraInfo": "beatae",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "sed",
+  "OriginalSize": 83,
+  "CreatedDate": "2020-04-12T02:49:43.7160326+02:00",
+  "UpdatedDate": "2000-01-07T02:49:43.7160326+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "doloremque",
+  "ConceptualType": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldLength": 467
     }
   }
 }

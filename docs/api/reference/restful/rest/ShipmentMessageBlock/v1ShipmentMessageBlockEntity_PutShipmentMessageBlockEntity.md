@@ -11,9 +11,15 @@ PUT /api/v1/ShipmentMessageBlock/{id}
 
 Updates the existing ShipmentMessageBlockEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ShipmentMessageBlockEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing ShipmentMessageBlockEntity
 ```http
 PUT /api/v1/ShipmentMessageBlock/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/ShipmentMessageBlock/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ShipmentMessageBlockEntity to be saved.
+The ShipmentMessageBlockEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +61,8 @@ The ShipmentMessageBlockEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-## Response
+
+## Response: 
 
 ShipmentMessageBlockEntity updated.
 
@@ -63,7 +71,7 @@ ShipmentMessageBlockEntity updated.
 | 200 | ShipmentMessageBlockEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,18 +93,18 @@ Response body:
 PUT /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 835,
-  "AssociateId": 164,
-  "Block": "sint",
-  "Registered": "1998-11-16T11:10:53.5211742+01:00",
-  "RegisteredAssociateId": 932,
-  "Updated": "2011-03-24T11:10:53.5211742+01:00",
-  "UpdatedAssociateId": 679,
-  "UpdatedCount": 409
+  "ShipmentMessageBlockId": 668,
+  "AssociateId": 665,
+  "Block": "distinctio",
+  "Registered": "2011-09-16T02:49:51.536309+02:00",
+  "RegisteredAssociateId": 666,
+  "Updated": "2017-12-04T02:49:51.536309+01:00",
+  "UpdatedAssociateId": 218,
+  "UpdatedCount": 559
 }
 ```
 
@@ -107,20 +115,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 849,
-  "AssociateId": 354,
-  "Block": "aliquam",
-  "Registered": "2013-06-22T11:10:53.5211742+02:00",
-  "RegisteredAssociateId": 779,
-  "Updated": "2013-11-09T11:10:53.5211742+01:00",
-  "UpdatedAssociateId": 712,
-  "UpdatedCount": 980,
+  "ShipmentMessageBlockId": 185,
+  "AssociateId": 251,
+  "Block": "sequi",
+  "Registered": "2020-02-05T02:49:51.536309+01:00",
+  "RegisteredAssociateId": 943,
+  "Updated": "2022-08-25T02:49:51.536309+02:00",
+  "UpdatedAssociateId": 960,
+  "UpdatedCount": 512,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldType": "System.String",
+      "FieldLength": 933
     }
   },
   "_Links": {

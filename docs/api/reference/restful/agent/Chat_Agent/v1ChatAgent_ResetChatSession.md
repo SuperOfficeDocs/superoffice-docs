@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/ResetChatSession
 
 Reset chat session, put it back on the queue for pickup.
 
+
 Used by bots to hand off a session to human
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Used by bots to hand off a session to human
 ```http
 POST /api/v1/Agents/Chat/ResetChatSession?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Chat/ResetChatSession?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatSessionId
+ChatSessionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,11 +105,11 @@ Response body:
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 486
+  "ChatSessionId": 986
 }
 ```
 
@@ -112,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 296,
-  "TopicId": 739,
+  "ChatSessionId": 325,
+  "TopicId": 999,
   "User": null,
   "Person": null,
-  "CustomerAlias": "blanditiis",
-  "CustomerHost": "voluptas",
-  "CustomerName": "Satterfield Group",
-  "CustomerEmail": "shaylee@muellerlarkin.com",
-  "CustomerPhone": "045.365.4183",
+  "CustomerAlias": "doloremque",
+  "CustomerHost": "repellendus",
+  "CustomerName": "Ondricka, Marks and Wiza",
+  "CustomerEmail": "lacey@haley.biz",
+  "CustomerPhone": "025-637-3366 x39222",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Armstrong, Langworth and Wuckert",
+  "CustomerCompanyName": "Gaylord Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "magnam",
-  "LastMessage": "dolorem",
-  "WhenRequested": "2015-06-07T11:10:26.1595248+02:00",
-  "WhenStarted": "2008-03-16T11:10:26.1595248+01:00",
-  "WhenEnded": "2004-02-25T11:10:26.1595248+01:00",
-  "WhenIdle": "2000-11-16T11:10:26.1595248+01:00",
-  "WhenFetched": "2005-08-25T11:10:26.1595248+02:00",
-  "SessionKey": "ea",
-  "InitialQueuePos": 453,
-  "AlertLevel": 717,
-  "Rank": 250,
+  "FirstMessage": "numquam",
+  "LastMessage": "aut",
+  "WhenRequested": "2007-12-17T02:49:43.8254085+01:00",
+  "WhenStarted": "2002-08-05T02:49:43.8254085+02:00",
+  "WhenEnded": "2007-07-25T02:49:43.8254085+02:00",
+  "WhenIdle": "2020-09-15T02:49:43.8254085+02:00",
+  "WhenFetched": "2022-01-13T02:49:43.8254085+01:00",
+  "SessionKey": "quisquam",
+  "InitialQueuePos": 790,
+  "AlertLevel": 179,
+  "Rank": 629,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 486,
+  "ChatbotIsActive": false,
+  "Rating": 670,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldLength": 92
     }
   }
 }

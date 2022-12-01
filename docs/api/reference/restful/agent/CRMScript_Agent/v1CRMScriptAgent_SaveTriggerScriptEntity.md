@@ -11,7 +11,16 @@ POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 
 Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is empty
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TriggerScriptEntity to be saved.
+The TriggerScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,13 +47,14 @@ The TriggerScriptEntity to be saved.
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +71,7 @@ Response body:
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -75,20 +85,20 @@ Response body:
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 378,
-  "Name": "Gottlieb LLC",
+  "ScreenChooserId": 511,
+  "Name": "Satterfield-Bednar",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "non",
-  "Source": "sunt",
-  "Registered": "2020-07-29T11:10:26.3794583+02:00",
-  "RegisteredAssociateId": 309,
-  "Updated": "2000-07-21T11:10:26.3794583+02:00",
-  "UpdatedAssociateId": 871
+  "Enabled": true,
+  "UniqueIdentifier": "aut",
+  "Source": "veniam",
+  "Registered": "2000-09-29T02:49:44.0129044+02:00",
+  "RegisteredAssociateId": 833,
+  "Updated": "2000-10-25T02:49:44.0129044+02:00",
+  "UpdatedAssociateId": 50
 }
 ```
 
@@ -99,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 408,
-  "Name": "Hahn-Kautzer",
+  "ScreenChooserId": 685,
+  "Name": "Lang, McGlynn and Paucek",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "expedita",
-  "Source": "numquam",
-  "Registered": "2013-10-19T11:10:26.3804579+02:00",
-  "RegisteredAssociateId": 686,
-  "Updated": "2000-04-03T11:10:26.3804579+02:00",
-  "UpdatedAssociateId": 235,
+  "Enabled": true,
+  "UniqueIdentifier": "molestiae",
+  "Source": "sint",
+  "Registered": "2021-02-07T02:49:44.0129044+01:00",
+  "RegisteredAssociateId": 391,
+  "Updated": "2012-11-30T02:49:44.0129044+01:00",
+  "UpdatedAssociateId": 22,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldType": "System.String",
+      "FieldLength": 381
     }
   }
 }

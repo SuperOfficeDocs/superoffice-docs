@@ -11,11 +11,17 @@ GET /api/v1/Sale/{id}
 
 Gets a SaleEntity object.
 
+
 Calls the Sale agent service GetSaleEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the SaleEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -28,6 +34,7 @@ Calls the Sale agent service GetSaleEntity.
 GET /api/v1/Sale/{id}?$select=name,department,category/id
 GET /api/v1/Sale/{id}?fk=False
 ```
+
 
 ## Request Headers
 
@@ -42,7 +49,8 @@ GET /api/v1/Sale/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 SaleEntity found.
 
@@ -52,7 +60,7 @@ SaleEntity found.
 | 304 | SaleEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -110,7 +118,7 @@ Response body:
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -118,7 +126,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 04 Aug 2017 11:10:53 G8T
+Last-Modified: Thu, 17 Dec 2020 02:49:51 G12T
 
 {
   "Appointment": null,
@@ -127,7 +135,7 @@ Last-Modified: Fri, 04 Aug 2017 11:10:53 G8T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nisi",
+  "SaleText": "harum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -136,113 +144,113 @@ Last-Modified: Fri, 04 Aug 2017 11:10:53 G8T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2011-08-25T11:10:53.4171466+02:00",
-  "Amount": 27221.924,
-  "SaleId": 194,
-  "Earning": 24827.548,
-  "EarningPercent": 206.844,
-  "Heading": "aut",
-  "Number": "795000",
-  "Probability": 197,
-  "CreatedDate": "2010-07-02T11:10:53.4171466+02:00",
-  "UpdatedDate": "2017-08-04T11:10:53.4171466+02:00",
+  "Saledate": "2003-11-06T02:49:51.4425592+01:00",
+  "Amount": 19969.847999999998,
+  "SaleId": 827,
+  "Earning": 17829.326,
+  "EarningPercent": 3694.986,
+  "Heading": "eos",
+  "Number": "1078057",
+  "Probability": 646,
+  "CreatedDate": "1997-05-30T02:49:51.4425592+02:00",
+  "UpdatedDate": "2020-12-17T02:49:51.4425592+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 826,
+  "ActiveLinks": 994,
   "Links": [
     {
-      "EntityName": "Goldner, Nienow and Hahn",
-      "Id": 956,
-      "Description": "Synergized mission-critical framework",
-      "ExtraInfo": "fugit",
-      "LinkId": 276,
+      "EntityName": "Hoeger Inc and Sons",
+      "Id": 915,
+      "Description": "Visionary scalable architecture",
+      "ExtraInfo": "autem",
+      "LinkId": 843,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 500
+          "FieldType": "System.Int32",
+          "FieldLength": 754
         }
       }
     }
   ],
-  "NextDueDate": "2006-01-04T11:10:53.4171466+01:00",
-  "Postit": "et",
+  "NextDueDate": "2021-02-11T02:49:51.4425592+01:00",
+  "Postit": "suscipit",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-11-27T11:10:53.4181466+01:00",
+  "ReopenDate": "2009-04-16T02:49:51.4425592+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Greenholt Inc and Sons",
-      "Comment": "eos",
-      "StakeholderRoleId": 163,
-      "CountryId": 686,
-      "PersonId": 541,
-      "EmailDescription": "javier.conn@bartellpouros.co.uk",
-      "EmailId": 927,
-      "EmailAddress": "carissa.quitzon@hanewaters.ca",
-      "PhoneId": 80,
-      "ContactName": "Towne-Rutherford",
-      "ContactId": 272,
-      "SaleId": 437,
-      "Mrmrs": "rem",
-      "Firstname": "Fermin",
-      "MiddleName": "Deckow-Padberg",
-      "Lastname": "Ritchie",
-      "SaleStakeholderId": 585,
-      "Rank": 799,
-      "Phone": "968-499-5650 x289",
+      "StakeholderRoleName": "Schroeder-Ruecker",
+      "Comment": "id",
+      "StakeholderRoleId": 745,
+      "CountryId": 708,
+      "PersonId": 88,
+      "EmailDescription": "syble_schultz@huels.name",
+      "EmailId": 336,
+      "EmailAddress": "johnpaul.spencer@boyer.co.uk",
+      "PhoneId": 679,
+      "ContactName": "Cremin, Botsford and Stamm",
+      "ContactId": 852,
+      "SaleId": 767,
+      "Mrmrs": "natus",
+      "Firstname": "Oran",
+      "MiddleName": "Wilderman, West and Pollich",
+      "Lastname": "Marvin",
+      "SaleStakeholderId": 707,
+      "Rank": 882,
+      "Phone": "(246)707-6523 x44565",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 986
         }
       }
     }
   ],
-  "ActiveErpLinks": 807,
+  "ActiveErpLinks": 26,
   "UserDefinedFields": {
-    "SuperOffice:1": "Eugene Cremin",
-    "SuperOffice:2": "Dr. Orrin Johnston"
+    "SuperOffice:1": "Vicente Lesley Kautzer Sr.",
+    "SuperOffice:2": "Mr. Eloy Lubowitz Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "assumenda",
-    "CustomFields2": "aliquid"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "itaque"
   },
-  "PublishEventDate": "2013-05-16T11:10:53.4191464+02:00",
-  "PublishTo": "2009-08-19T11:10:53.4191464+02:00",
-  "PublishFrom": "2010-12-15T11:10:53.4191464+01:00",
+  "PublishEventDate": "2003-02-27T02:49:51.4581845+01:00",
+  "PublishTo": "1997-06-12T02:49:51.4581845+02:00",
+  "PublishFrom": "2014-09-02T02:49:51.4581845+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 134,
+      "VisibleId": 811,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "cumque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldLength": 238
         }
       }
     },
     {
-      "VisibleId": 134,
+      "VisibleId": 811,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "cumque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldLength": 238
         }
       }
     }
@@ -252,12 +260,12 @@ Last-Modified: Fri, 04 Aug 2017 11:10:53 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 305
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

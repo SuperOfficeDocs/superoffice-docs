@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetFromSectionAndKey
 
 Gets a PreferenceDescription based on the section and key
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a PreferenceDescription based on the section and key
 ```http
 POST /api/v1/Agents/Preference/GetFromSectionAndKey?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Preference/GetFromSectionAndKey?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Section, Key
+Section, Key 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Section | string |  |
 | Key | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,12 +91,12 @@ Response body:
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "sed",
-  "Key": "ullam"
+  "Section": "corporis",
+  "Key": "incidunt"
 }
 ```
 
@@ -99,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 71,
-  "Section": "provident",
-  "Key": "voluptatum",
-  "Name": "Rolfson, Towne and Pouros",
+  "PrefDescId": 338,
+  "Section": "et",
+  "Key": "minus",
+  "Name": "Price, Schmidt and Boyer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual even-keeled alliance",
+  "Description": "Exclusive stable alliance",
   "IsBuiltin": false,
-  "TableName": "Langworth Group",
-  "UserDefinedListId": 719,
-  "Rank": 771,
-  "SubGroup": "tempora",
-  "MinLevel": 834,
-  "MaxValue": 780,
-  "MinValue": 812,
-  "RequiredLicense": "in",
+  "TableName": "Wisoky-Nader",
+  "UserDefinedListId": 921,
+  "Rank": 34,
+  "SubGroup": "molestiae",
+  "MinLevel": 495,
+  "MaxValue": 438,
+  "MinValue": 167,
+  "RequiredLicense": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldLength": 4
     }
   }
 }

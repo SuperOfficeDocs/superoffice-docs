@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetSaleStageEntity
 
 Gets a SaleStageEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SaleStageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=415
+POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=97
 POST /api/v1/Agents/List/GetSaleStageEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetSaleStageEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,18 +81,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 310,
-  "Value": "nemo",
-  "Tooltip": "suscipit",
-  "Probability": 404,
+  "SaleStageId": 559,
+  "Value": "minima",
+  "Tooltip": "eligendi",
+  "Probability": 766,
   "Deleted": false,
-  "Rank": 76,
+  "Rank": 745,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 620
+      "FieldLength": 694
     }
   }
 }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 
 Method that returns appointments of a specific appointment task heading.
 
+
 Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Task represents the different types of activities, like “Phone call”, “Mee
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TaskHeadingId
+TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TaskHeadingId | int32 |  |
+
 
 ## Response: array
 
@@ -115,11 +123,11 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskHeadingId": 624
+  "TaskHeadingId": 679
 }
 ```
 
@@ -131,53 +139,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 30,
-    "StartDate": "2002-01-21T11:10:25.4595225+01:00",
-    "EndDate": "2019-10-09T11:10:25.4595225+02:00",
+    "AppointmentId": 39,
+    "StartDate": "2018-01-14T02:49:43.2461231+01:00",
+    "EndDate": "2016-06-14T02:49:43.2461231+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ea",
-    "AssociateFullName": "Miss Hailey Koepp MD",
-    "ContactName": "Von Inc and Sons",
-    "Description": "Balanced modular time-frame",
-    "PersonFullName": "Priscilla Jamal Kautzer DVM",
-    "PersonId": 477,
-    "ContactId": 330,
-    "ProjectId": 981,
-    "ProjectName": "Yost-Schimmel",
-    "IsPublished": false,
-    "AssociateId": 645,
-    "ColorIndex": 707,
+    "Task": "quibusdam",
+    "AssociateFullName": "Mr. Larue Langosh",
+    "ContactName": "Reichert, Lynch and Keebler",
+    "Description": "Cross-group bi-directional structure",
+    "PersonFullName": "Annamae Stanton",
+    "PersonId": 969,
+    "ContactId": 176,
+    "ProjectId": 3,
+    "ProjectName": "Jacobi, Aufderhar and Schmidt",
+    "IsPublished": true,
+    "AssociateId": 394,
+    "ColorIndex": 392,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 128,
-    "PriorityName": "Kshlerin, Tillman and Gislason",
+    "PriorityId": 896,
+    "PriorityName": "Bogisich-Jerde",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2001-01-09T11:10:25.4595225+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2022-04-21T02:49:43.2461231+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-12-12T11:10:25.4595225+01:00",
-    "RecurringEndDate": "2017-07-24T11:10:25.4595225+02:00",
-    "MotherId": 8,
-    "AssignedBy": 953,
-    "AssignedByFullName": "Prof. Ernie Hintz",
-    "RejectReason": "",
-    "Location": "labore",
-    "AlarmLeadTime": "aperiam",
-    "SaleId": 220,
-    "SaleName": "Steuber, Wilderman and Crona",
-    "AssociateName": "Wilkinson Group",
-    "CreatedDate": "1999-12-21T11:10:25.4595225+01:00",
-    "CreatedBy": "quis",
-    "CreatedByFullName": "Kamille O'Keefe III",
-    "CreatedByAssociateId": 992,
+    "RecurringStartDate": "2009-09-18T02:49:43.2461231+02:00",
+    "RecurringEndDate": "2018-02-11T02:49:43.2461231+01:00",
+    "MotherId": 123,
+    "AssignedBy": 27,
+    "AssignedByFullName": "Dameon Kemmer",
+    "RejectReason": "extend e-business infomediaries",
+    "Location": "et",
+    "AlarmLeadTime": "ab",
+    "SaleId": 49,
+    "SaleName": "Mayer-Marvin",
+    "AssociateName": "Spinka, Klein and Koelpin",
+    "CreatedDate": "2019-01-19T02:49:43.2461231+01:00",
+    "CreatedBy": "iste",
+    "CreatedByFullName": "Sonny Bogisich",
+    "CreatedByAssociateId": 10,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -185,7 +193,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldLength": 43
       }
     }
   }

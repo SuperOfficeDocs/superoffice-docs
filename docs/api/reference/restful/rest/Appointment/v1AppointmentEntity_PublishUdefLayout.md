@@ -11,7 +11,14 @@ POST /api/v1/Appointment/UdefLayout/Publish
 
 Publish the AppointmentEntity user-defined field layout.
 
+
 This will trigger movement of field data etc.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,6 +33,7 @@ This will trigger movement of field data etc.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: int32
 
 OK
@@ -36,13 +44,14 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Appointment/UdefLayout/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -51,5 +60,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-496
+380
 ```

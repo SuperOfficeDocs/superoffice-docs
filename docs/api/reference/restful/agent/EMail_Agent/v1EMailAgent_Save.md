@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/Save
 
 Save the e-mail back to the database
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Save the e-mail back to the database
 ```http
 POST /api/v1/Agents/EMail/Save?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/EMail/Save?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Email
+Email 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Email |  | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,7 +102,7 @@ Response body:
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,146 +119,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 522,
-      "ContactName": "Ebert-Bogisich",
-      "PersonId": 716,
-      "PersonName": "Will, Krajcik and Bogisich",
-      "AssociateId": 37,
-      "Address": "quo",
-      "EmailId": 462,
+      "ContactId": 539,
+      "ContactName": "Crist-Walsh",
+      "PersonId": 286,
+      "PersonName": "Kutch, Powlowski and Gulgowski",
+      "AssociateId": 67,
+      "Address": "ullam",
+      "EmailId": 565,
       "DuplicatePersonIds": [
-        314,
-        70
+        711,
+        243
       ],
-      "Name": "Johns LLC",
+      "Name": "Kshlerin LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 381
+          "FieldLength": 710
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 104,
-      "ContactName": "Batz LLC",
-      "PersonId": 357,
-      "PersonName": "Gottlieb, Hoppe and Bosco",
-      "AssociateId": 83,
-      "Address": "quo",
-      "EmailId": 927,
+      "ContactId": 955,
+      "ContactName": "Gislason Inc and Sons",
+      "PersonId": 631,
+      "PersonName": "Batz-Crooks",
+      "AssociateId": 994,
+      "Address": "cum",
+      "EmailId": 304,
       "DuplicatePersonIds": [
-        406,
-        861
+        43,
+        55
       ],
-      "Name": "Kris Inc and Sons",
+      "Name": "Bernhard-McCullough",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 343
+          "FieldLength": 373
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 390,
-      "ContactName": "Stiedemann-Moore",
-      "PersonId": 377,
-      "PersonName": "Koss Inc and Sons",
-      "AssociateId": 109,
-      "Address": "delectus",
-      "EmailId": 225,
+      "ContactId": 507,
+      "ContactName": "Will LLC",
+      "PersonId": 129,
+      "PersonName": "Lockman-Kassulke",
+      "AssociateId": 490,
+      "Address": "voluptatem",
+      "EmailId": 189,
       "DuplicatePersonIds": [
-        703,
-        596
+        598,
+        124
       ],
-      "Name": "Waelchi-Dooley",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 934
-        }
-      }
-    }
-  ],
-  "Subject": "alias",
-  "HTMLBody": "et",
-  "From": null,
-  "Sent": "2001-08-17T11:10:26.9854522+02:00",
-  "Size": 974,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "saepe",
-  "PlainBody": "aliquam",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 189,
-  "Attachments": [
-    {
-      "Description": "Devolved mission-critical knowledge user",
-      "Filename": "iure",
-      "Size": 628,
-      "Type": "aut",
-      "Encoding": "consequatur",
-      "Id": "delectus",
-      "Disposition": "est",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Labadie Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 200
+          "FieldLength": 150
+        }
+      }
+    }
+  ],
+  "Subject": "dolores",
+  "HTMLBody": "et",
+  "From": null,
+  "Sent": "2000-12-05T02:49:44.4816668+01:00",
+  "Size": 497,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "ratione",
+  "PlainBody": "nihil",
+  "IsSent": true,
+  "EMailSOInfo": null,
+  "ServerId": 991,
+  "Attachments": [
+    {
+      "Description": "Re-contextualized executive internet solution",
+      "Filename": "natus",
+      "Size": 96,
+      "Type": "delectus",
+      "Encoding": "illum",
+      "Id": "dolores",
+      "Disposition": "consectetur",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 112
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Weimann, Wilderman and Gaylord",
+      "Name": "Rath LLC",
       "Values": [
-        "praesentium",
-        "quia"
+        "delectus",
+        "molestias"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldLength": 412
         }
       }
     },
     {
-      "Name": "Weimann, Wilderman and Gaylord",
+      "Name": "Rath LLC",
       "Values": [
-        "praesentium",
-        "quia"
+        "delectus",
+        "molestias"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldLength": 412
         }
       }
     }
   ],
-  "FolderName": "Schulist-Lowe",
-  "EmailItemId": 564,
-  "AccountId": 159,
-  "ReceivedAt": "2021-10-13T11:10:26.9854522+02:00",
+  "FolderName": "Nitzsche LLC",
+  "EmailItemId": 956,
+  "AccountId": 18,
+  "ReceivedAt": "2004-05-19T02:49:44.4816668+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-07-31T11:10:26.9854522+02:00",
+  "RepliedAt": "2000-01-04T02:49:44.4816668+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -256,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldType": "System.String",
+      "FieldLength": 167
     }
   }
 }

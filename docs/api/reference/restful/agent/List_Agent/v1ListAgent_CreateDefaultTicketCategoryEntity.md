@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 
 Set default values into a new TicketCategoryEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,6 +61,7 @@ Response body:
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
 | DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
 | DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -64,7 +73,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,35 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 224,
-  "ParentId": 271,
-  "Name": "Gottlieb-Hayes",
-  "Fullname": "molestiae",
-  "CategoryMaster": 994,
+  "TicketCategoryId": 905,
+  "ParentId": 211,
+  "Name": "Prosacco-Weissnat",
+  "Fullname": "amet",
+  "CategoryMaster": 214,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Powlowski, Boehm and Kulas",
+  "ExternalName": "Vandervort, Gusikowski and Glover",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 457,
-  "ReplyTemplate": 622,
-  "NotificationEmail": "everett@morissettewisozk.biz",
+  "AssignmentLag": 407,
+  "ReplyTemplate": 903,
+  "NotificationEmail": "brandt.powlowski@feest.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
+  "EffectiveReplyTemplateId": 13,
   "ExtraFields": {
-    "ExtraFields1": "voluptatum",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "et",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "dignissimos",
-    "CustomFields2": "eos"
+    "CustomFields1": "et",
+    "CustomFields2": "vel"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldType": "System.String",
+      "FieldLength": 579
     }
   }
 }

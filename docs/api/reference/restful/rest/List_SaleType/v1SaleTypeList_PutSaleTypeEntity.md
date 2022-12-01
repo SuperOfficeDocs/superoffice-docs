@@ -11,11 +11,18 @@ PUT /api/v1/List/SaleType/Items/{id}
 
 Updates the existing SaleTypeEntity
 
+
 Calls the List agent service SaveSaleTypeEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of SaleTypeEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveSaleTypeEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of SaleTypeEntity to be saved.
+The details of SaleTypeEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +67,8 @@ The details of SaleTypeEntity to be saved.
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -69,7 +77,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -104,51 +112,51 @@ Response body:
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 728,
-  "Name": "Kirlin Inc and Sons",
-  "Tooltip": "quos",
-  "Rank": 130,
+  "SaleTypeId": 663,
+  "Name": "Wilderman, Mitchell and Nader",
+  "Tooltip": "amet",
+  "Rank": 738,
   "DurationUnit": "Century",
-  "SaleDuration": 379,
-  "SaleTypeCatId": 882,
+  "SaleDuration": 836,
+  "SaleTypeCatId": 696,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 554,
-  "QuoteLinesTemplate": 313,
-  "ConfirmationLinesTemplate": 155,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 835,
+  "QuoteLinesTemplate": 860,
+  "ConfirmationLinesTemplate": 115,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 160,
-  "MinEarningPercent": 201,
-  "GroupQuoteLinesBy": 291,
-  "SortGroupLinesBy": 618,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 788,
+  "MinEarningPercent": 636,
+  "GroupQuoteLinesBy": 392,
+  "SortGroupLinesBy": 102,
   "Stages": [
     {
-      "Id": 257,
-      "Name": "Hand LLC",
-      "ToolTip": "Sed unde est ut nihil maxime similique.",
+      "Id": 445,
+      "Name": "Krajcik LLC",
+      "ToolTip": "Voluptas necessitatibus odio unde incidunt aut.",
       "Deleted": false,
-      "Rank": 859,
-      "Type": "quidem",
-      "ColorBlock": 950,
-      "IconHint": "voluptate",
+      "Rank": 599,
+      "Type": "nam",
+      "ColorBlock": 472,
+      "IconHint": "consequatur",
       "Selected": false,
-      "LastChanged": "2021-08-31T11:10:54.6009349+02:00",
+      "LastChanged": "2010-08-13T02:49:52.5003264+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sunt",
-      "StyleHint": "quis",
+      "ExtraInfo": "ipsam",
+      "StyleHint": "fugiat",
       "Hidden": true,
-      "FullName": "Axel Katelynn Becker V"
+      "FullName": "Ms. Bert Anderson"
     }
   ]
 }
@@ -161,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 41,
-  "Name": "Beer, Nolan and Ledner",
-  "Tooltip": "aperiam",
-  "Rank": 917,
+  "SaleTypeId": 908,
+  "Name": "Thompson-Stroman",
+  "Tooltip": "expedita",
+  "Rank": 208,
   "DurationUnit": "Century",
-  "SaleDuration": 775,
-  "SaleTypeCatId": 124,
-  "Deleted": false,
+  "SaleDuration": 908,
+  "SaleTypeCatId": 20,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 245,
-  "QuoteLinesTemplate": 50,
-  "ConfirmationLinesTemplate": 721,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 997,
+  "QuoteLinesTemplate": 755,
+  "ConfirmationLinesTemplate": 518,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 982,
-  "MinEarningPercent": 555,
-  "GroupQuoteLinesBy": 105,
-  "SortGroupLinesBy": 251,
+  "MaxDiscountPercent": 858,
+  "MinEarningPercent": 224,
+  "GroupQuoteLinesBy": 38,
+  "SortGroupLinesBy": 150,
   "Stages": [
     {
-      "Id": 575,
-      "Name": "Rolfson, Mohr and Goodwin",
-      "ToolTip": "Perferendis possimus commodi qui nisi.",
+      "Id": 804,
+      "Name": "Miller-O'Keefe",
+      "ToolTip": "Corrupti repellat assumenda praesentium sequi saepe et.",
       "Deleted": true,
-      "Rank": 346,
-      "Type": "quam",
-      "ColorBlock": 996,
-      "IconHint": "consequatur",
+      "Rank": 589,
+      "Type": "ipsum",
+      "ColorBlock": 621,
+      "IconHint": "accusantium",
       "Selected": false,
-      "LastChanged": "1999-08-25T11:10:54.6019349+02:00",
+      "LastChanged": "1999-02-23T02:49:52.5003264+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "in",
-      "StyleHint": "consectetur",
-      "Hidden": true,
-      "FullName": "Lourdes O'Kon",
+      "ExtraInfo": "eos",
+      "StyleHint": "laboriosam",
+      "Hidden": false,
+      "FullName": "Minnie Jacobs",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 313
+          "FieldLength": 757
         }
       }
     }
@@ -217,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldLength": 973
     }
   }
 }

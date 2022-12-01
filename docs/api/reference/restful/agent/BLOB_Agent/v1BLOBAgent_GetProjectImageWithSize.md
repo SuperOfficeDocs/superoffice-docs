@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetProjectImageWithSize
 
 Returns the project image that is displayed in the CRM application with a specified maximum size.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the project image that is displayed in the CRM application with a specif
 ```http
 POST /api/v1/Agents/BLOB/GetProjectImageWithSize?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/BLOB/GetProjectImageWithSize?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, Width, Height
+ProjectId, Width, Height 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 | Width | int32 |  |
 | Height | int32 |  |
+
 
 ## Response: byte
 
@@ -55,6 +63,7 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
@@ -65,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 509,
-  "Width": 152,
-  "Height": 339
+  "ProjectId": 562,
+  "Width": 222,
+  "Height": 123
 }
 ```
 

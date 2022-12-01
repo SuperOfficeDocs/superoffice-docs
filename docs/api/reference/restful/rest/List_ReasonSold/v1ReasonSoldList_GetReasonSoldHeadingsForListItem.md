@@ -11,11 +11,17 @@ GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 
 Gets headings for the ReasonSold list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Cartwright Inc and Sons",
-    "ToolTip": "Et quis ipsum ipsa officiis autem totam.",
-    "Deleted": true,
-    "Rank": 909,
-    "Type": "voluptatem",
-    "ColorBlock": 718,
-    "IconHint": "reprehenderit",
-    "Selected": true,
-    "LastChanged": "2020-09-02T11:10:54.5719352+02:00",
+    "Id": 508,
+    "Name": "Dach Group",
+    "ToolTip": "Cum repellendus sapiente iusto et enim.",
+    "Deleted": false,
+    "Rank": 322,
+    "Type": "ullam",
+    "ColorBlock": 199,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2019-11-21T02:49:52.4846993+01:00",
     "ChildItems": [
       {
-        "Id": 277,
-        "Name": "Schinner LLC",
-        "ToolTip": "Nulla repellat quod qui ratione.",
+        "Id": 381,
+        "Name": "Swaniawski LLC",
+        "ToolTip": "Laborum officiis id dignissimos.",
         "Deleted": false,
-        "Rank": 789,
-        "Type": "iste",
-        "ColorBlock": 3,
-        "IconHint": "nulla",
-        "Selected": true,
-        "LastChanged": "2017-10-01T11:10:54.5719352+02:00",
+        "Rank": 529,
+        "Type": "rerum",
+        "ColorBlock": 231,
+        "IconHint": "veniam",
+        "Selected": false,
+        "LastChanged": "2021-11-04T02:49:52.4846993+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Maria Abernathy",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Davin Wilhelmine Johnson MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 756
+            "FieldLength": 162
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "illo",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Jerod Madelyn Frami DDS",
+    "FullName": "Kristin Bode",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 555
+        "FieldLength": 348
       }
     }
   }

@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailFromId
 
 Get en e-mail based on its unique id
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get en e-mail based on its unique id
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/EMail/GetEMailFromId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfo, MessageServerId, LookupAddresses, Flags, IncludeAttachments
+ConnectionInfo, MessageServerId, LookupAddresses, Flags, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +58,8 @@ ConnectionInfo, MessageServerId, LookupAddresses, Flags, IncludeAttachments
 | Flags | string |  |
 | IncludeAttachments | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,12 +106,12 @@ Response body:
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 640,
+  "MessageServerId": 146,
   "LookupAddresses": false,
   "Flags": "Answered",
   "IncludeAttachments": true
@@ -117,146 +127,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 474,
-      "ContactName": "Durgan-Ziemann",
-      "PersonId": 391,
-      "PersonName": "Rice, Ziemann and Nolan",
-      "AssociateId": 641,
-      "Address": "quidem",
-      "EmailId": 672,
+      "ContactId": 340,
+      "ContactName": "Hermiston-Gislason",
+      "PersonId": 366,
+      "PersonName": "Purdy LLC",
+      "AssociateId": 929,
+      "Address": "aliquam",
+      "EmailId": 961,
       "DuplicatePersonIds": [
-        942,
-        663
+        41,
+        997
       ],
-      "Name": "Bogisich Group",
+      "Name": "Schumm Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldLength": 847
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 689,
-      "ContactName": "Walter, Jaskolski and Corwin",
-      "PersonId": 980,
-      "PersonName": "Bode-Kunze",
-      "AssociateId": 905,
-      "Address": "et",
-      "EmailId": 574,
+      "ContactId": 2,
+      "ContactName": "Stehr, Reichert and Leffler",
+      "PersonId": 618,
+      "PersonName": "Herzog, Kilback and Ziemann",
+      "AssociateId": 89,
+      "Address": "quo",
+      "EmailId": 995,
       "DuplicatePersonIds": [
-        457,
-        629
+        682,
+        298
       ],
-      "Name": "Skiles, Fritsch and Batz",
+      "Name": "Daniel, Carroll and Wolff",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 253
+          "FieldType": "System.Int32",
+          "FieldLength": 745
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 604,
-      "ContactName": "Fahey LLC",
-      "PersonId": 755,
-      "PersonName": "Nader-Ziemann",
-      "AssociateId": 353,
-      "Address": "non",
-      "EmailId": 471,
+      "ContactId": 865,
+      "ContactName": "Ondricka, Morar and Weissnat",
+      "PersonId": 786,
+      "PersonName": "Effertz LLC",
+      "AssociateId": 406,
+      "Address": "voluptas",
+      "EmailId": 653,
       "DuplicatePersonIds": [
-        487,
-        34
+        1000,
+        473
       ],
-      "Name": "Schmeler LLC",
+      "Name": "Schimmel-Goldner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldType": "System.Int32",
+          "FieldLength": 510
         }
       }
     }
   ],
-  "Subject": "dolores",
-  "HTMLBody": "porro",
+  "Subject": "ex",
+  "HTMLBody": "id",
   "From": null,
-  "Sent": "1998-01-12T11:10:26.9244247+01:00",
-  "Size": 367,
+  "Sent": "2019-08-14T02:49:44.4347885+02:00",
+  "Size": 925,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "enim",
-  "IsSent": false,
+  "MessageID": "quia",
+  "PlainBody": "expedita",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 823,
+  "ServerId": 487,
   "Attachments": [
     {
-      "Description": "Virtual zero administration migration",
-      "Filename": "optio",
-      "Size": 79,
-      "Type": "voluptatum",
-      "Encoding": "deserunt",
-      "Id": "commodi",
-      "Disposition": "pariatur",
+      "Description": "User-centric asynchronous architecture",
+      "Filename": "sunt",
+      "Size": 265,
+      "Type": "inventore",
+      "Encoding": "odit",
+      "Id": "ipsa",
+      "Disposition": "doloribus",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 716
+          "FieldType": "System.Int32",
+          "FieldLength": 295
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Roberts, Gerhold and Witting",
+      "Name": "Harber, Nolan and Mante",
       "Values": [
-        "qui",
-        "alias"
+        "id",
+        "explicabo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 402
+          "FieldType": "System.Int32",
+          "FieldLength": 677
         }
       }
     },
     {
-      "Name": "Roberts, Gerhold and Witting",
+      "Name": "Harber, Nolan and Mante",
       "Values": [
-        "qui",
-        "alias"
+        "id",
+        "explicabo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 402
+          "FieldType": "System.Int32",
+          "FieldLength": 677
         }
       }
     }
   ],
-  "FolderName": "Homenick Group",
-  "EmailItemId": 91,
-  "AccountId": 810,
-  "ReceivedAt": "2019-12-16T11:10:26.9254246+01:00",
+  "FolderName": "Morissette-Turner",
+  "EmailItemId": 409,
+  "AccountId": 928,
+  "ReceivedAt": "2005-11-28T02:49:44.4347885+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-02-05T11:10:26.9264254+01:00",
+  "RepliedAt": "1996-11-21T02:49:44.4347885+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -264,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldType": "System.String",
+      "FieldLength": 732
     }
   }
 }

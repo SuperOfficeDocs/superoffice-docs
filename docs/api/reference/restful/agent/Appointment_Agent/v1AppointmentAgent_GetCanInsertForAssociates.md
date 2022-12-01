@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetCanInsertForAssociates
 
 Check if current associate can create appointments in the diary of other associates.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check if current associate can create appointments in the diary of other associa
 ```http
 POST /api/v1/Agents/Appointment/GetCanInsertForAssociates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Appointment/GetCanInsertForAssociates?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIds
+AssociateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateIds | array |  |
+
 
 ## Response: array
 
@@ -53,19 +61,20 @@ OK
 
 Response body: array
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetCanInsertForAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    188,
-    555
+    734,
+    765
   ]
 }
 ```
@@ -78,6 +87,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   false,
-  false
+  true
 ]
 ```

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/SaveChatPresence
 
 Save the chat presence for specified users
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save the chat presence for specified users
 ```http
 POST /api/v1/Agents/Chat/SaveChatPresence?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,15 +38,16 @@ POST /api/v1/Agents/Chat/SaveChatPresence?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatPresence
+ChatPresence 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatPresence | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -47,7 +55,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -55,29 +64,29 @@ Response body:
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 333,
-      "DisplayName": "Jast Inc and Sons",
-      "OngoingChats": 684,
-      "Present": false,
+      "UserId": 503,
+      "DisplayName": "Ferry, McClure and D'Amore",
+      "OngoingChats": 303,
+      "Present": true,
       "ChatTopics": [
-        179,
-        959
+        479,
+        844
       ]
     },
     {
-      "UserId": 333,
-      "DisplayName": "Jast Inc and Sons",
-      "OngoingChats": 684,
-      "Present": false,
+      "UserId": 503,
+      "DisplayName": "Ferry, McClure and D'Amore",
+      "OngoingChats": 303,
+      "Present": true,
       "ChatTopics": [
-        179,
-        959
+        479,
+        844
       ]
     }
   ]

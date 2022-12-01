@@ -11,7 +11,16 @@ POST /api/v1/Agents/EMail/SaveEMailAccount
 
 Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Updates the existing EMailAccount or creates a new EMailAccount if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The EMailAccount to be saved.
+The EMailAccount to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,7 +53,8 @@ The EMailAccount to be saved.
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,20 +85,20 @@ Response body:
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 433,
-  "EMailAddress": "occaecati",
-  "AssociateId": 287,
+  "EMailAccountId": 370,
+  "EMailAddress": "corporis",
+  "AssociateId": 688,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 720,
-  "ErrorCount": 890,
+  "AccountStatus": 821,
+  "ErrorCount": 388,
   "ErrorReason": "",
-  "InboxFolder": "omnis",
-  "SentFolder": "voluptatem"
+  "InboxFolder": "nesciunt",
+  "SentFolder": "ab"
 }
 ```
 
@@ -99,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 272,
-  "EMailAddress": "quis",
-  "AssociateId": 463,
+  "EMailAccountId": 169,
+  "EMailAddress": "nam",
+  "AssociateId": 860,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 903,
-  "ErrorCount": 365,
+  "AccountStatus": 315,
+  "ErrorCount": 537,
   "ErrorReason": "",
-  "InboxFolder": "qui",
+  "InboxFolder": "quia",
   "SentFolder": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldType": "System.String",
+      "FieldLength": 751
     }
   }
 }

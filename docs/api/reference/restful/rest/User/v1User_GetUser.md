@@ -11,13 +11,20 @@ GET /api/v1/User/{id}
 
 Gets a User object.
 
+
 Calls the User agent service GetUser.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the User to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -28,8 +35,9 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=True
+GET /api/v1/User/{id}?fk=False
 ```
+
 
 ## Request Headers
 
@@ -44,7 +52,8 @@ GET /api/v1/User/{id}?fk=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 User found.
 
@@ -53,7 +62,7 @@ User found.
 | 200 | User found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,7 +101,7 @@ Response body:
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,14 +111,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 227,
-  "Name": "Parisian-Gaylord",
-  "Rank": 281,
-  "Tooltip": "et",
+  "AssociateId": 496,
+  "Name": "Rogahn, Gutmann and Waelchi",
+  "Rank": 624,
+  "Tooltip": "cumque",
   "LicenseOwners": [
     {
-      "Name": "O'Kon, Lueilwitz and Wolff",
-      "Description": "Optimized reciprocal policy",
+      "Name": "Purdy, Weimann and Ward",
+      "Description": "Integrated object-oriented concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,13 +132,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldLength": 760
         }
       }
     },
     {
-      "Name": "O'Kon, Lueilwitz and Wolff",
-      "Description": "Optimized reciprocal policy",
+      "Name": "Purdy, Weimann and Ward",
+      "Description": "Integrated object-oriented concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,7 +152,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldLength": 760
         }
       }
     }
@@ -152,110 +161,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptatem",
-      "Tooltip": "rerum",
-      "Id": 377,
-      "Rank": 162,
-      "Deleted": true,
+      "Value": "distinctio",
+      "Tooltip": "doloribus",
+      "Id": 120,
+      "Rank": 949,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 631
+          "FieldType": "System.String",
+          "FieldLength": 118
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2017-05-30T11:10:53.8102074+02:00",
-  "Lastlogout": "2014-04-12T11:10:53.8102074+02:00",
-  "EjUserId": 982,
-  "RequestSignature": "labore",
+  "Lastlogin": "1998-05-13T02:49:51.796023+02:00",
+  "Lastlogout": "2015-06-30T02:49:51.796023+02:00",
+  "EjUserId": 774,
+  "RequestSignature": "esse",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ullam",
-      "DisplayValue": "deserunt",
+      "Value": "saepe",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 334
+          "FieldLength": 862
         }
       }
     },
     {
       "Type": null,
-      "Value": "ullam",
-      "DisplayValue": "deserunt",
+      "Value": "saepe",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 334
+          "FieldLength": 862
         }
       }
     }
   ],
-  "UserName": "Ullrich LLC",
+  "UserName": "Marvin, Russel and Dickinson",
   "TicketCategories": [
     {
-      "Id": 709,
-      "Name": "Feeney LLC",
-      "ToolTip": "Facilis vitae.",
-      "Deleted": false,
-      "Rank": 460,
-      "Type": "sequi",
+      "Id": 72,
+      "Name": "Mitchell-Beer",
+      "ToolTip": "Quaerat alias.",
+      "Deleted": true,
+      "Rank": 846,
+      "Type": "dicta",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "consequatur",
-      "ColorBlock": 319,
-      "ExtraInfo": "veritatis",
-      "StyleHint": "reiciendis",
-      "FullName": "Anissa Miller",
+      "IconHint": "voluptatibus",
+      "ColorBlock": 308,
+      "ExtraInfo": "inventore",
+      "StyleHint": "temporibus",
+      "FullName": "Carmine Gislason",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldLength": 3
         }
       }
     }
   ],
-  "NickName": "Carter, Prosacco and Heaney",
-  "WaitingForApproval": false,
+  "NickName": "Hammes, Jaskolski and Morar",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "explicabo",
-    "CustomFields2": "mollitia"
+    "CustomFields1": "quidem",
+    "CustomFields2": "qui"
   },
   "PostSaveCommands": [
     {
-      "Name": "Quigley Inc and Sons",
-      "DisplayName": "Carroll Group",
-      "Description": "Adaptive next generation emulation",
-      "ToolTip": "Odio tempore quo et ipsum quia ducimus.",
+      "Name": "Moore, Sporer and Klein",
+      "DisplayName": "Funk-Cronin",
+      "Description": "Reverse-engineered client-driven website",
+      "ToolTip": "Voluptatem vel illo fugiat aut repellendus ipsam dignissimos.",
       "Actions": "Implicit",
-      "ActionData": "aut",
+      "ActionData": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 54
+          "FieldType": "System.Int32",
+          "FieldLength": 115
         }
       }
     }
@@ -264,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   },
   "_Links": {

@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/GetAllRoles
 
 Get a list of all roles for the given type of role.
 
-MDO List name = 'Roles', extra='0' (roleType)
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+MDO List name = 'Roles', extra='0' (roleType) 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ MDO List name = 'Roles', extra='0' (roleType)
 ```http
 POST /api/v1/Agents/User/GetAllRoles?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,13 +47,14 @@ POST /api/v1/Agents/User/GetAllRoles?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RoleType
+RoleType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleType | string |  |
+
 
 ## Response: array
 
@@ -99,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 753,
-    "Name": "Bailey-Von",
-    "ToolTip": "Qui omnis expedita itaque similique voluptates molestiae.",
+    "Id": 289,
+    "Name": "Kiehn-Cassin",
+    "ToolTip": "Consectetur possimus labore iste atque rerum aut ea.",
     "Deleted": false,
-    "Rank": 338,
-    "Type": "consequuntur",
-    "ColorBlock": 871,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "1999-12-20T11:10:28.3862069+01:00",
+    "Rank": 846,
+    "Type": "molestiae",
+    "ColorBlock": 436,
+    "IconHint": "dolore",
+    "Selected": true,
+    "LastChanged": "2005-01-23T02:49:45.6559717+01:00",
     "ChildItems": [
       {
-        "Id": 892,
-        "Name": "Greenfelder LLC",
-        "ToolTip": "Explicabo unde quia veritatis.",
-        "Deleted": false,
-        "Rank": 195,
-        "Type": "dolor",
-        "ColorBlock": 917,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "1996-05-29T11:10:28.3862069+02:00",
+        "Id": 110,
+        "Name": "Welch Inc and Sons",
+        "ToolTip": "Est iusto libero quo.",
+        "Deleted": true,
+        "Rank": 126,
+        "Type": "atque",
+        "ColorBlock": 537,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2000-12-18T02:49:45.6559717+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "ut",
+        "ExtraInfo": "sint",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Mr. Art Edna Schamberger DVM",
+        "FullName": "Dr. Brannon Jalen Wisoky DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 401
+            "FieldType": "System.Int32",
+            "FieldLength": 657
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "saepe",
-    "Hidden": true,
-    "FullName": "Sonya Waters",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Sunny Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 627
+        "FieldLength": 297
       }
     }
   }

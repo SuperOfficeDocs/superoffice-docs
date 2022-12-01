@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetCSRegistryValue
 
 This method will get a value from the CS Registry table.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method will get a value from the CS Registry table.
 ```http
 POST /api/v1/Agents/Configuration/GetCSRegistryValue?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Configuration/GetCSRegistryValue?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Entry
+Entry 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Entry | int32 |  |
+
 
 ## Response: string
 
@@ -53,6 +61,7 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
@@ -63,7 +72,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Entry": 430
+  "Entry": 154
 }
 ```
 
@@ -73,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"sit"
 ```

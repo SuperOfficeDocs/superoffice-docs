@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetConsentPurposeList
 
 Gets an array of ConsentPurpose objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of ConsentPurpose objects.
 ```http
 POST /api/v1/Agents/List/GetConsentPurposeList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetConsentPurposeList?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: consentPurposeIds
+## Request Body: consentPurposeIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -84,25 +93,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 793,
-    "Name": "Jerde, Wiegand and Hauck",
-    "ConsentText": "voluptas",
-    "FormText": "pariatur",
-    "Key": "dolorem",
-    "Tooltip": "cumque",
-    "Active": 460,
-    "UpdatedDate": "2006-07-30T11:10:27.277453+02:00",
+    "ConsentPurposeId": 629,
+    "Name": "Huels LLC",
+    "ConsentText": "reiciendis",
+    "FormText": "numquam",
+    "Key": "qui",
+    "Tooltip": "id",
+    "Active": 682,
+    "UpdatedDate": "2018-12-15T02:49:44.7016713+01:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 450,
-    "PrivacyStatementDesc": "ut",
+    "Rank": 328,
+    "PrivacyStatementDesc": "amet",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 712
       }
     }
   }

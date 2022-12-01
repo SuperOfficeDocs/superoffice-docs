@@ -11,7 +11,14 @@ POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 
 Set default values into a new ShipmentMessageBlockEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +63,7 @@ Response body:
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -65,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 920,
-  "AssociateId": 13,
-  "Block": "ut",
-  "Registered": "1999-11-15T11:10:27.2874535+01:00",
-  "RegisteredAssociateId": 248,
-  "Updated": "1996-02-13T11:10:27.2874535+01:00",
-  "UpdatedAssociateId": 573,
-  "UpdatedCount": 175,
+  "ShipmentMessageBlockId": 784,
+  "AssociateId": 281,
+  "Block": "voluptatibus",
+  "Registered": "2001-12-17T02:49:44.7172985+01:00",
+  "RegisteredAssociateId": 19,
+  "Updated": "2020-11-07T02:49:44.7172985+01:00",
+  "UpdatedAssociateId": 392,
+  "UpdatedCount": 831,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldLength": 501
     }
   }
 }

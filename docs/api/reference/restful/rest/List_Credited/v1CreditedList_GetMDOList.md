@@ -11,6 +11,12 @@ GET /api/v1/List/Credited/MDOItems
 
 Get the MDO list items for "Credited" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=quia
+GET /api/v1/List/Credited/MDOItems?flat=False
+GET /api/v1/List/Credited/MDOItems?query=repellat
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Credited/MDOItems?query=quia
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Bernhard Group",
-    "ToolTip": "Ea quasi quia aut ad quia.",
-    "Deleted": true,
-    "Rank": 81,
-    "Type": "rem",
+    "Id": 484,
+    "Name": "Rowe, Daniel and Hegmann",
+    "ToolTip": "Quo aut sapiente sit mollitia.",
+    "Deleted": false,
+    "Rank": 801,
+    "Type": "ad",
     "ChildItems": [
       {
-        "Id": 322,
-        "Name": "Rempel, Stoltenberg and D'Amore",
-        "ToolTip": "Minus nostrum eaque.",
-        "Deleted": true,
-        "Rank": 52,
-        "Type": "consequatur",
+        "Id": 624,
+        "Name": "Pfeffer-Kertzmann",
+        "ToolTip": "Fuga autem doloremque quo.",
+        "Deleted": false,
+        "Rank": 684,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestias",
-        "ColorBlock": 668,
-        "ExtraInfo": "doloribus",
-        "StyleHint": "rerum",
-        "FullName": "Esther Hilpert",
+        "IconHint": "iusto",
+        "ColorBlock": 848,
+        "ExtraInfo": "non",
+        "StyleHint": "voluptas",
+        "FullName": "Tianna Osinski MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 675
+            "FieldType": "System.Int32",
+            "FieldLength": 412
           }
         }
       }
     ],
-    "IconHint": "a",
-    "ColorBlock": 757,
-    "ExtraInfo": "unde",
-    "StyleHint": "quas",
-    "FullName": "Alexie Leffler",
+    "IconHint": "aut",
+    "ColorBlock": 445,
+    "ExtraInfo": "asperiores",
+    "StyleHint": "unde",
+    "FullName": "Ms. Geraldine Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 366
+        "FieldType": "System.Int32",
+        "FieldLength": 409
       }
     }
   }

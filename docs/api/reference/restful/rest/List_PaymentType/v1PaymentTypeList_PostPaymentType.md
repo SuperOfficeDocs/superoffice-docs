@@ -11,6 +11,13 @@ POST /api/v1/List/PaymentType/Items
 
 Add a new PaymentType to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new PaymentType to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The PaymentType to be added to the list.
+The PaymentType to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The PaymentType to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Bauch, Stracke and Hamill",
-  "Tooltip": "atque",
+  "Id": 522,
+  "Name": "Maggio Inc and Sons",
+  "Tooltip": "quasi",
   "Deleted": true,
-  "UdListDefinitionId": 734,
-  "Rank": 294
+  "UdListDefinitionId": 62,
+  "Rank": 692
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 539,
-  "Name": "Fay, Powlowski and Gislason",
-  "Tooltip": "enim",
-  "Deleted": false,
-  "UdListDefinitionId": 98,
-  "Rank": 614,
+  "Id": 463,
+  "Name": "Cruickshank Group",
+  "Tooltip": "nisi",
+  "Deleted": true,
+  "UdListDefinitionId": 52,
+  "Rank": 402,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 833
     }
   }
 }

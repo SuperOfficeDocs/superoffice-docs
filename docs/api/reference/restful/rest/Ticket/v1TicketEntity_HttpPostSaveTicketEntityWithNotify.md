@@ -11,6 +11,12 @@ POST /api/v1/Ticket
 
 Saves a ticket and performs any user notifications
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,8 +24,9 @@ Saves a ticket and performs any user notifications
 | notify | bool |  If true, then the notifications will be sent |
 
 ```http
-POST /api/v1/Ticket?notify=False
+POST /api/v1/Ticket?notify=True
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Ticket?notify=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ticket to save
+The ticket to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,6 +54,7 @@ The ticket to save
 | LastChanged | date-time | The last time the ticket was modified. |
 | ReadByOwner | date-time | The datetime for when the ticket last was read by the owner. |
 | ReadByCustomer | date-time | The datetime for when the ticket was read by the customer. |
+| FirstReadByOwner | date-time | The datetime for when the ticket first was read by the current owner. |
 | FirstReadByUser | date-time | The datetime for when the ticket first was read by a user. |
 | Activate | date-time | When the ticket should be activated, if it is postponed. |
 | ClosedAt | date-time | When the ticket was closed. |
@@ -93,7 +101,8 @@ The ticket to save
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -101,7 +110,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -111,6 +120,7 @@ Response body:
 | LastChanged | date-time | The last time the ticket was modified. |
 | ReadByOwner | date-time | The datetime for when the ticket last was read by the owner. |
 | ReadByCustomer | date-time | The datetime for when the ticket was read by the customer. |
+| FirstReadByOwner | date-time | The datetime for when the ticket first was read by the current owner. |
 | FirstReadByUser | date-time | The datetime for when the ticket first was read by a user. |
 | Activate | date-time | When the ticket should be activated, if it is postponed. |
 | ClosedAt | date-time | When the ticket was closed. |
@@ -165,24 +175,25 @@ Response body:
 POST /api/v1/Ticket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 729,
-  "Title": "dolores",
-  "CreatedAt": "2013-12-07T11:10:53.5511837+01:00",
-  "LastChanged": "2009-02-01T11:10:53.5511837+01:00",
-  "ReadByOwner": "2003-03-27T11:10:53.5511837+01:00",
-  "ReadByCustomer": "2013-09-26T11:10:53.5511837+02:00",
-  "FirstReadByUser": "2015-12-31T11:10:53.5511837+01:00",
-  "Activate": "2010-01-30T11:10:53.5511837+01:00",
-  "ClosedAt": "2006-10-19T11:10:53.5511837+02:00",
-  "RepliedAt": "2017-04-25T11:10:53.5511837+02:00",
-  "AlertTimeout": "2002-07-10T11:10:53.5511837+02:00",
-  "Deadline": "2014-09-09T11:10:53.5511837+02:00",
+  "TicketId": 967,
+  "Title": "aut",
+  "CreatedAt": "2013-04-01T02:49:51.5675591+02:00",
+  "LastChanged": "1999-08-03T02:49:51.5675591+02:00",
+  "ReadByOwner": "1999-08-14T02:49:51.5675591+02:00",
+  "ReadByCustomer": "2007-10-20T02:49:51.5675591+02:00",
+  "FirstReadByOwner": "2007-05-07T02:49:51.5675591+02:00",
+  "FirstReadByUser": "2003-02-14T02:49:51.5675591+01:00",
+  "Activate": "2007-03-28T02:49:51.5675591+02:00",
+  "ClosedAt": "2007-01-16T02:49:51.5675591+01:00",
+  "RepliedAt": "2016-02-14T02:49:51.5675591+01:00",
+  "AlertTimeout": "2013-04-05T02:49:51.5675591+02:00",
+  "Deadline": "2010-07-15T02:49:51.5675591+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "numquam",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -194,114 +205,115 @@ Content-Type: application/json; charset=utf-8
   "SecondaryPersons": [
     {
       "Position": "aut",
-      "PersonId": 147,
-      "Mrmrs": "et",
-      "Firstname": "Ardella",
-      "Lastname": "Ondricka",
-      "MiddleName": "Kemmer, Wiegand and O'Conner",
-      "Title": "tempora",
-      "Description": "Extended bifurcated emulation",
-      "Email": "eunice.johnston@hackett.ca",
-      "FullName": "Sydnee Corkery IV",
-      "DirectPhone": "210.685.1775 x0976",
-      "FormalName": "Langosh, Rodriguez and Feil",
-      "CountryId": 803,
-      "ContactId": 513,
-      "ContactName": "Lindgren LLC",
-      "Retired": 12,
-      "Rank": 427,
-      "ActiveInterests": 316,
+      "PersonId": 480,
+      "Mrmrs": "quas",
+      "Firstname": "Polly",
+      "Lastname": "Ebert",
+      "MiddleName": "Daniel, Reynolds and Zieme",
+      "Title": "tempore",
+      "Description": "Centralized scalable website",
+      "Email": "kaylah_reichel@starkking.ca",
+      "FullName": "Mustafa Stokes MD",
+      "DirectPhone": "823.531.3248 x8119",
+      "FormalName": "Stiedemann, Bahringer and Wehner",
+      "CountryId": 139,
+      "ContactId": 745,
+      "ContactName": "O'Kon-Kohler",
+      "Retired": 170,
+      "Rank": 845,
+      "ActiveInterests": 30,
       "ContactDepartment": "",
-      "ContactCountryId": 118,
-      "ContactOrgNr": "800983",
-      "FaxPhone": "(027)162-5164 x4293",
-      "MobilePhone": "(669)424-2805 x00945",
-      "ContactPhone": "147.421.4087",
-      "AssociateName": "Romaguera-Baumbach",
-      "AssociateId": 451,
+      "ContactCountryId": 140,
+      "ContactOrgNr": "1670487",
+      "FaxPhone": "(726)765-9289",
+      "MobilePhone": "(139)024-2001 x0653",
+      "ContactPhone": "976-695-8605",
+      "AssociateName": "Hermiston, Ankunding and McKenzie",
+      "AssociateId": 49,
       "UsePersonAddress": false,
-      "ContactFax": "ratione",
-      "Kanafname": "sint",
-      "Kanalname": "sit",
-      "Post1": "aut",
-      "Post2": "quia",
-      "Post3": "et",
-      "EmailName": "douglas@mueller.biz",
-      "ContactFullName": "Mario Blanda",
-      "ActiveErpLinks": 585,
-      "TicketPriorityId": 88,
-      "SupportLanguageId": 966,
-      "SupportAssociateId": 164,
+      "ContactFax": "enim",
+      "Kanafname": "ullam",
+      "Kanalname": "nihil",
+      "Post1": "dolore",
+      "Post2": "ab",
+      "Post3": "quaerat",
+      "EmailName": "gracie.carroll@pagacschroeder.biz",
+      "ContactFullName": "Leonel Herman",
+      "ActiveErpLinks": 97,
+      "TicketPriorityId": 931,
+      "SupportLanguageId": 252,
+      "SupportAssociateId": 421,
       "CategoryName": "VIP Customer"
     }
   ],
-  "AlertLevel": 473,
-  "ConnectId": 228,
+  "AlertLevel": 213,
+  "ConnectId": 103,
   "ReadStatus": "Green",
-  "TimeToReply": 36,
-  "RealTimeToReply": 771,
-  "TimeToClose": 133,
-  "RealTimeToClose": 105,
-  "TimeSpentInternally": 595,
-  "TimeSpentExternally": 951,
-  "TimeSpentQueue": 521,
-  "RealTimeSpentInternally": 797,
-  "RealTimeSpentExternally": 640,
-  "RealTimeSpentQueue": 797,
+  "TimeToReply": 822,
+  "RealTimeToReply": 961,
+  "TimeToClose": 345,
+  "RealTimeToClose": 286,
+  "TimeSpentInternally": 16,
+  "TimeSpentExternally": 287,
+  "TimeSpentQueue": 177,
+  "RealTimeSpentInternally": 649,
+  "RealTimeSpentExternally": 618,
+  "RealTimeSpentQueue": 294,
   "HasAttachment": false,
-  "NumReplies": 173,
-  "NumMessages": 760,
-  "FromAddress": "sapiente",
+  "NumReplies": 471,
+  "NumMessages": 91,
+  "FromAddress": "laudantium",
   "Messages": [
     {
-      "TicketMessageId": 875,
-      "CreatedAt": "2000-07-11T11:10:53.5592438+02:00",
+      "TicketMessageId": 594,
+      "CreatedAt": "2017-10-16T02:49:51.5675591+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "labore",
-      "PersonId": 383,
-      "PersonFullName": "Jeffery Shanahan",
-      "ContactId": 577,
-      "ContactName": "Wintheiser-Jacobson",
+      "Author": "qui",
+      "PersonId": 784,
+      "PersonFullName": "Rosina Stroman",
+      "ContactId": 112,
+      "ContactName": "Fisher LLC",
       "ContactDepartment": "",
-      "NumAttachments": 857,
-      "EmailHeader": "quincy@marks.name",
+      "NumAttachments": 556,
+      "EmailHeader": "gunner_little@vandervort.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "quasi",
-      "Sentiment": 852,
-      "SentimentConfidence": 73,
-      "CreatedBy": 42
+      "Language": "hic",
+      "Sentiment": 381,
+      "SentimentConfidence": 838,
+      "CreatedBy": 817,
+      "ChangedAt": "2006-09-16T02:49:51.5675591+02:00"
     }
   ],
   "Tags": [
     {
-      "Id": 927,
-      "Name": "Gibson Group",
-      "ToolTip": "Quod ea dolores iure enim est perferendis consequuntur."
+      "Id": 114,
+      "Name": "Hoeger-Konopelski",
+      "ToolTip": "Fugit officia eos et rerum."
     },
     {
-      "Id": 927,
-      "Name": "Gibson Group",
-      "ToolTip": "Quod ea dolores iure enim est perferendis consequuntur."
+      "Id": 114,
+      "Name": "Hoeger-Konopelski",
+      "ToolTip": "Fugit officia eos et rerum."
     }
   ],
-  "Language": "similique",
-  "Sentiment": 496,
-  "SentimentConfidence": 786,
-  "SuggestedCategoryId": 987,
+  "Language": "occaecati",
+  "Sentiment": 573,
+  "SentimentConfidence": 619,
+  "SuggestedCategoryId": 11,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 485,
-  "IconHint": "porro",
+  "OrigHumanCategoryId": 938,
+  "IconHint": "delectus",
   "ExtraFields": {
-    "ExtraFields1": "exercitationem",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "eligendi"
   },
   "CustomFields": {
-    "CustomFields1": "corrupti",
-    "CustomFields2": "optio"
+    "CustomFields1": "ducimus",
+    "CustomFields2": "dolor"
   }
 }
 ```
@@ -313,20 +325,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 189,
-  "Title": "et",
-  "CreatedAt": "1995-12-28T11:10:53.5661841+01:00",
-  "LastChanged": "1995-05-22T11:10:53.5661841+02:00",
-  "ReadByOwner": "2001-02-18T11:10:53.5661841+01:00",
-  "ReadByCustomer": "1996-11-24T11:10:53.5661841+01:00",
-  "FirstReadByUser": "2002-03-29T11:10:53.5661841+01:00",
-  "Activate": "2009-10-04T11:10:53.5661841+02:00",
-  "ClosedAt": "2019-11-08T11:10:53.5661841+01:00",
-  "RepliedAt": "2012-10-02T11:10:53.5661841+02:00",
-  "AlertTimeout": "2005-12-16T11:10:53.5661841+01:00",
-  "Deadline": "2003-10-28T11:10:53.5661841+01:00",
+  "TicketId": 787,
+  "Title": "pariatur",
+  "CreatedAt": "2015-04-30T02:49:51.5675591+02:00",
+  "LastChanged": "2013-10-25T02:49:51.5675591+02:00",
+  "ReadByOwner": "2011-11-23T02:49:51.5675591+01:00",
+  "ReadByCustomer": "1995-10-06T02:49:51.5675591+02:00",
+  "FirstReadByOwner": "1998-09-01T02:49:51.5675591+02:00",
+  "FirstReadByUser": "2011-07-17T02:49:51.5675591+02:00",
+  "Activate": "1995-11-20T02:49:51.5675591+01:00",
+  "ClosedAt": "2008-08-15T02:49:51.5675591+02:00",
+  "RepliedAt": "2020-01-24T02:49:51.5675591+01:00",
+  "AlertTimeout": "2000-04-13T02:49:51.5675591+02:00",
+  "Deadline": "1995-10-31T02:49:51.5675591+01:00",
   "CreatedBy": null,
-  "Author": "quibusdam",
+  "Author": "voluptatem",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -337,154 +350,155 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "consequatur",
-      "PersonId": 947,
-      "Mrmrs": "dignissimos",
-      "Firstname": "Alejandra",
-      "Lastname": "Russel",
-      "MiddleName": "Hermiston, Moore and Veum",
-      "Title": "consequuntur",
-      "Description": "Pre-emptive explicit definition",
-      "Email": "celestine.hilpert@mayer.co.uk",
-      "FullName": "Dr. Jacinto Hahn",
-      "DirectPhone": "1-395-021-9963 x02314",
-      "FormalName": "Powlowski-Brakus",
-      "CountryId": 202,
-      "ContactId": 969,
-      "ContactName": "Cummerata LLC",
-      "Retired": 744,
-      "Rank": 994,
-      "ActiveInterests": 298,
+      "Position": "debitis",
+      "PersonId": 809,
+      "Mrmrs": "dolore",
+      "Firstname": "Dahlia",
+      "Lastname": "Dare",
+      "MiddleName": "Ernser, Gibson and Hermiston",
+      "Title": "quis",
+      "Description": "Universal uniform monitoring",
+      "Email": "beryl@greenfelderzulauf.uk",
+      "FullName": "Alia Durgan",
+      "DirectPhone": "529.900.4005",
+      "FormalName": "Graham, Heaney and O'Reilly",
+      "CountryId": 966,
+      "ContactId": 774,
+      "ContactName": "Quigley-Jakubowski",
+      "Retired": 362,
+      "Rank": 853,
+      "ActiveInterests": 572,
       "ContactDepartment": "",
-      "ContactCountryId": 139,
-      "ContactOrgNr": "858389",
-      "FaxPhone": "421.565.1551 x89231",
-      "MobilePhone": "1-761-390-0473 x1786",
-      "ContactPhone": "1-574-711-1990 x768",
-      "AssociateName": "Predovic, Hoeger and Dicki",
-      "AssociateId": 61,
+      "ContactCountryId": 298,
+      "ContactOrgNr": "665998",
+      "FaxPhone": "1-616-484-9883",
+      "MobilePhone": "216-629-2243 x60918",
+      "ContactPhone": "(769)493-5233",
+      "AssociateName": "Towne-Haag",
+      "AssociateId": 442,
       "UsePersonAddress": false,
-      "ContactFax": "incidunt",
-      "Kanafname": "sit",
-      "Kanalname": "magni",
-      "Post1": "accusamus",
-      "Post2": "sed",
-      "Post3": "non",
-      "EmailName": "emily_considine@medhurstkrajcik.name",
-      "ContactFullName": "Mr. Berenice Kuhic DVM",
-      "ActiveErpLinks": 57,
-      "TicketPriorityId": 72,
-      "SupportLanguageId": 999,
-      "SupportAssociateId": 714,
+      "ContactFax": "omnis",
+      "Kanafname": "rerum",
+      "Kanalname": "iure",
+      "Post1": "voluptatem",
+      "Post2": "enim",
+      "Post3": "amet",
+      "EmailName": "daron@gleason.biz",
+      "ContactFullName": "Cesar Reilly",
+      "ActiveErpLinks": 257,
+      "TicketPriorityId": 225,
+      "SupportLanguageId": 912,
+      "SupportAssociateId": 731,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 913
+          "FieldLength": 394
         }
       }
     }
   ],
-  "AlertLevel": 903,
-  "ConnectId": 907,
+  "AlertLevel": 728,
+  "ConnectId": 115,
   "ReadStatus": "Green",
-  "TimeToReply": 249,
-  "RealTimeToReply": 364,
-  "TimeToClose": 553,
-  "RealTimeToClose": 503,
-  "TimeSpentInternally": 767,
-  "TimeSpentExternally": 672,
-  "TimeSpentQueue": 811,
-  "RealTimeSpentInternally": 352,
-  "RealTimeSpentExternally": 123,
-  "RealTimeSpentQueue": 685,
-  "HasAttachment": true,
-  "NumReplies": 113,
-  "NumMessages": 957,
-  "FromAddress": "nulla",
+  "TimeToReply": 919,
+  "RealTimeToReply": 414,
+  "TimeToClose": 792,
+  "RealTimeToClose": 447,
+  "TimeSpentInternally": 95,
+  "TimeSpentExternally": 182,
+  "TimeSpentQueue": 479,
+  "RealTimeSpentInternally": 825,
+  "RealTimeSpentExternally": 540,
+  "RealTimeSpentQueue": 646,
+  "HasAttachment": false,
+  "NumReplies": 431,
+  "NumMessages": 348,
+  "FromAddress": "voluptas",
   "Messages": [
     {
-      "TicketMessageId": 912,
-      "CreatedAt": "2019-12-28T11:10:53.5702129+01:00",
+      "TicketMessageId": 459,
+      "CreatedAt": "2005-05-24T02:49:51.5831853+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "sit",
-      "PersonId": 936,
-      "PersonFullName": "Mrs. Kathleen Ullrich III",
-      "ContactId": 176,
-      "ContactName": "Upton, Waelchi and McGlynn",
-      "ContactDepartment": "deploy seamless niches",
-      "NumAttachments": 388,
-      "EmailHeader": "destany@boyerrussel.us",
+      "Important": false,
+      "Author": "qui",
+      "PersonId": 837,
+      "PersonFullName": "Brent Ondricka",
+      "ContactId": 18,
+      "ContactName": "Schaden, Luettgen and Kovacek",
+      "ContactDepartment": "",
+      "NumAttachments": 493,
+      "EmailHeader": "icie_cummerata@nolan.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "debitis",
-      "Sentiment": 543,
-      "SentimentConfidence": 773,
-      "CreatedBy": 45,
+      "Language": "et",
+      "Sentiment": 818,
+      "SentimentConfidence": 79,
+      "CreatedBy": 376,
+      "ChangedAt": "2012-04-05T02:49:51.5831853+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 202
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 82,
-      "Name": "Schaden, Yost and Spinka",
-      "ToolTip": "Qui quia maiores nesciunt rerum sapiente expedita rem.",
+      "Id": 2,
+      "Name": "Gerlach-Wolff",
+      "ToolTip": "Unde quis quibusdam nihil aut mollitia sunt.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 833
+          "FieldLength": 752
         }
       }
     },
     {
-      "Id": 82,
-      "Name": "Schaden, Yost and Spinka",
-      "ToolTip": "Qui quia maiores nesciunt rerum sapiente expedita rem.",
+      "Id": 2,
+      "Name": "Gerlach-Wolff",
+      "ToolTip": "Unde quis quibusdam nihil aut mollitia sunt.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 833
+          "FieldLength": 752
         }
       }
     }
   ],
-  "Language": "ducimus",
-  "Sentiment": 13,
-  "SentimentConfidence": 97,
-  "SuggestedCategoryId": 951,
+  "Language": "aut",
+  "Sentiment": 258,
+  "SentimentConfidence": 112,
+  "SuggestedCategoryId": 71,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 450,
-  "IconHint": "dolores",
+  "OrigHumanCategoryId": 893,
+  "IconHint": "a",
   "ExtraFields": {
-    "ExtraFields1": "veniam",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "doloremque",
-    "CustomFields2": "dolor"
+    "CustomFields1": "illo",
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldType": "System.String",
+      "FieldLength": 457
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/AddTileToDashboard
 
 Add a tile to a dashboard with next rank
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a tile to a dashboard with next rank
 ```http
 POST /api/v1/Agents/Dash/AddTileToDashboard?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Dash/AddTileToDashboard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardId, DashTileDefinitionId
+DashboardId, DashTileDefinitionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 |  |
 | DashTileDefinitionId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 740,
-  "DashTileDefinitionId": 68
+  "DashboardId": 575,
+  "DashTileDefinitionId": 220
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 922,
-  "DashboardId": 74,
-  "Height": 844,
-  "Width": 299,
-  "Rank": 27,
+  "DashboardTileId": 338,
+  "DashboardId": 201,
+  "Height": 69,
+  "Width": 443,
+  "Rank": 540,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldType": "System.Int32",
+      "FieldLength": 395
     }
   }
 }

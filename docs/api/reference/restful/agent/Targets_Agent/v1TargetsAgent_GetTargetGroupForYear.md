@@ -11,6 +11,12 @@ POST /api/v1/Agents/Targets/GetTargetGroupForYear
 
 Returns the target group for the specified year and entity type.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the target group for the specified year and entity type.
 ```http
 POST /api/v1/Agents/Targets/GetTargetGroupForYear?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Targets/GetTargetGroupForYear?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TargetYear, EntityType
+TargetYear, EntityType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TargetYear | int32 |  |
 | EntityType | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,11 +79,11 @@ Response body:
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 358,
+  "TargetYear": 477,
   "EntityType": "None"
 }
 ```
@@ -87,29 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 292,
-  "Year": 476,
+  "TargetGroupId": 377,
+  "Year": 558,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 593,
+      "TargetAssignmentInfoId": 543,
       "Values": [
-        57,
-        600
+        788,
+        355
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 384,
+      "DimensionListItem": 728,
+      "DimensionListItemDisplayName": "Zieme-Grimes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 965
+          "FieldLength": 880
         }
       }
     }
@@ -119,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldType": "System.String",
+      "FieldLength": 957
     }
   }
 }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/GetUserAgentList
 
 Get list of users that can be assigned to chat topics.
 
+
 Users with Chat-CALs from the MDO list 'chatuser'
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 ```http
 POST /api/v1/Agents/Chat/GetUserAgentList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Chat/GetUserAgentList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Flat, OnlyPresent
+Flat, OnlyPresent 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Flat | bool |  |
 | OnlyPresent | bool |  |
+
 
 ## Response: array
 
@@ -79,12 +87,12 @@ Response body: array
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": true,
-  "OnlyPresent": false
+  "Flat": false,
+  "OnlyPresent": true
 }
 ```
 
@@ -96,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 939,
-    "Name": "Zulauf-Schoen",
-    "ToolTip": "Consequuntur nobis corporis deleniti aut praesentium.",
+    "Id": 72,
+    "Name": "Johns Inc and Sons",
+    "ToolTip": "Ut et eveniet doloribus aspernatur.",
     "Deleted": false,
-    "Rank": 605,
-    "Type": "repudiandae",
+    "Rank": 963,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 644,
-        "Name": "Romaguera Inc and Sons",
-        "ToolTip": "Sed et beatae nesciunt voluptas pariatur numquam.",
+        "Id": 155,
+        "Name": "Bechtelar-Pollich",
+        "ToolTip": "Quas reprehenderit.",
         "Deleted": false,
-        "Rank": 863,
-        "Type": "nesciunt",
+        "Rank": 386,
+        "Type": "aspernatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 258,
-        "ExtraInfo": "et",
-        "StyleHint": "id",
-        "FullName": "Novella Hickle",
+        "IconHint": "magni",
+        "ColorBlock": 330,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "eaque",
+        "FullName": "Shawn Considine",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 414
+            "FieldLength": 58
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 378,
+    "IconHint": "animi",
+    "ColorBlock": 126,
     "ExtraInfo": "est",
-    "StyleHint": "in",
-    "FullName": "Miss Nyasia Nella Schaden III",
+    "StyleHint": "ipsum",
+    "FullName": "Lauren Kulas III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldType": "System.String",
+        "FieldLength": 940
       }
     }
   }

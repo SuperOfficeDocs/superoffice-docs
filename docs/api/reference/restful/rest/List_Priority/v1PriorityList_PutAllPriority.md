@@ -11,6 +11,13 @@ PUT /api/v1/List/Priority/Items
 
 Update the Priority list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the Priority list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Priority.
+All the updated Priority. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated Priority.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -65,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "Schamberger LLC",
-    "Tooltip": "suscipit",
+    "Id": 46,
+    "Name": "Baumbach Group",
+    "Tooltip": "tenetur",
     "Deleted": true,
-    "UdListDefinitionId": 126,
-    "Rank": 54
+    "UdListDefinitionId": 733,
+    "Rank": 491
   },
   {
-    "Id": 57,
-    "Name": "Schamberger LLC",
-    "Tooltip": "suscipit",
+    "Id": 46,
+    "Name": "Baumbach Group",
+    "Tooltip": "tenetur",
     "Deleted": true,
-    "UdListDefinitionId": 126,
-    "Rank": 54
+    "UdListDefinitionId": 733,
+    "Rank": 491
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 946,
-    "Name": "Lindgren, Heller and Gleason",
-    "Tooltip": "ut",
+    "Id": 850,
+    "Name": "Ondricka, Senger and Wilderman",
+    "Tooltip": "deleniti",
     "Deleted": false,
-    "UdListDefinitionId": 636,
-    "Rank": 326,
+    "UdListDefinitionId": 80,
+    "Rank": 872,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 324
       }
     }
   }

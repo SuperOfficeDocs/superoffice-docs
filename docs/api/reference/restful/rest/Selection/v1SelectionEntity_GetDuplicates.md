@@ -11,9 +11,16 @@ GET /api/v1/Selection/Duplicates/{name}
 
 Get duplicates(exact or similar in the database) based on the name
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | Name used for lookup **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Get duplicates(exact or similar in the database) based on the name
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -65,17 +73,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Labadie LLC",
-    "SoPrimaryKey": 157,
-    "EntryName": "Goyette-Larson",
-    "EntryIdentifier": "consectetur",
-    "RuleDisplayName": "Wilkinson-Kuphal",
+    "RuleName": "Prohaska Inc and Sons",
+    "SoPrimaryKey": 599,
+    "EntryName": "Kertzmann, Gusikowski and Rutherford",
+    "EntryIdentifier": "placeat",
+    "RuleDisplayName": "Lindgren, Lueilwitz and Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 516
+        "FieldLength": 525
       }
     }
   }

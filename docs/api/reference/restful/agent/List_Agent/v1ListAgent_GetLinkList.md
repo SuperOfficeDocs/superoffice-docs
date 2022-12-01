@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLinkList
 
 Gets an array of Link objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Link objects.
 ```http
 POST /api/v1/Agents/List/GetLinkList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetLinkList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: linkIds
+## Request Body: linkIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -65,7 +74,7 @@ Response body: array
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Rohan, Cassin and Bartoletti",
-    "Id": 130,
-    "Description": "Stand-alone motivating service-desk",
-    "ExtraInfo": "ab",
-    "LinkId": 39,
+    "EntityName": "Armstrong-Runolfsson",
+    "Id": 133,
+    "Description": "Fully-configurable reciprocal middleware",
+    "ExtraInfo": "sed",
+    "LinkId": 140,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 376
+        "FieldLength": 713
       }
     }
   }

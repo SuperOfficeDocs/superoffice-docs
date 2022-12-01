@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
+
 The document appointments belong to the project specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count, DocumentTemplateIds
+ProjectId, StartTime, EndTime, Count, DocumentTemplateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ ProjectId, StartTime, EndTime, Count, DocumentTemplateIds
 | EndTime | date-time |  |
 | Count | int32 |  |
 | DocumentTemplateIds | array |  |
+
 
 ## Response: array
 
@@ -94,13 +102,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 195,
-  "StartTime": "2002-10-23T11:10:26.4734528+02:00",
-  "EndTime": "2000-05-11T11:10:26.4734528+02:00",
-  "Count": 905,
+  "ProjectId": 368,
+  "StartTime": "2011-05-14T02:49:44.0910111+02:00",
+  "EndTime": "2021-07-26T02:49:44.0910111+02:00",
+  "Count": 443,
   "DocumentTemplateIds": [
-    183,
-    677
+    822,
+    279
   ]
 }
 ```
@@ -113,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 982,
-    "Attention": "consequatur",
-    "Header": "officiis",
-    "Name": "Feest Group",
-    "OurRef": "aspernatur",
-    "YourRef": "non",
-    "Description": "Distributed secondary hub",
-    "DocumentTemplate": "rerum",
+    "DocumentId": 177,
+    "Attention": "qui",
+    "Header": "atque",
+    "Name": "Johnston LLC",
+    "OurRef": "ut",
+    "YourRef": "vitae",
+    "Description": "Innovative mission-critical approach",
+    "DocumentTemplate": "rem",
     "IsPublished": false,
-    "PersonId": 365,
-    "PersonFullName": "Brandyn Kreiger",
-    "AssociateFullName": "Mrs. Hoyt Levi Keebler V",
-    "ContactId": 23,
-    "ContactName": "Feest-Tromp",
-    "ProjectId": 177,
-    "ProjectName": "VonRueden, Spencer and O'Reilly",
-    "AssociateId": 18,
-    "Snum": 92,
-    "SaleId": 399,
-    "SaleName": "Fadel Group",
+    "PersonId": 298,
+    "PersonFullName": "Ulises Rice DVM",
+    "AssociateFullName": "Dr. Darrell Merritt Stamm",
+    "ContactId": 152,
+    "ContactName": "Corkery, Hoppe and Miller",
+    "ProjectId": 427,
+    "ProjectName": "Bruen Group",
+    "AssociateId": 403,
+    "Snum": 522,
+    "SaleId": 466,
+    "SaleName": "Windler-Feeney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 118
       }
     }
   }

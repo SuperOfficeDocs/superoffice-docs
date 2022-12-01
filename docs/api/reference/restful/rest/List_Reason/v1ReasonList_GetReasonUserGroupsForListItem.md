@@ -11,11 +11,18 @@ GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Reason list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 272,
-    "Name": "O'Conner-Dooley",
-    "ToolTip": "Enim sed ut vitae animi facere.",
-    "Deleted": false,
-    "Rank": 529,
-    "Type": "non",
-    "ColorBlock": 507,
-    "IconHint": "nobis",
+    "Id": 477,
+    "Name": "Heaney, Stamm and Deckow",
+    "ToolTip": "Cumque quidem consequatur.",
+    "Deleted": true,
+    "Rank": 367,
+    "Type": "corrupti",
+    "ColorBlock": 41,
+    "IconHint": "nemo",
     "Selected": false,
-    "LastChanged": "2005-09-07T11:10:54.5499301+02:00",
+    "LastChanged": "2002-05-07T02:49:52.4690756+02:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Mills, Graham and Anderson",
-        "ToolTip": "Recusandae dignissimos aut.",
-        "Deleted": false,
-        "Rank": 516,
-        "Type": "dolorem",
-        "ColorBlock": 971,
-        "IconHint": "harum",
+        "Id": 396,
+        "Name": "Grant-VonRueden",
+        "ToolTip": "Quod ea pariatur tempore praesentium nostrum harum.",
+        "Deleted": true,
+        "Rank": 348,
+        "Type": "ex",
+        "ColorBlock": 920,
+        "IconHint": "sapiente",
         "Selected": false,
-        "LastChanged": "2021-12-19T11:10:54.5509324+01:00",
+        "LastChanged": "2014-10-28T02:49:52.4690756+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "eum",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Sigurd Stracke",
+        "FullName": "Ms. Moriah Kelton McClure I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 3
+            "FieldType": "System.String",
+            "FieldLength": 601
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "iure",
     "Hidden": false,
-    "FullName": "Davion Blanda",
+    "FullName": "Carmen Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 563
+        "FieldType": "System.Int32",
+        "FieldLength": 754
       }
     }
   }

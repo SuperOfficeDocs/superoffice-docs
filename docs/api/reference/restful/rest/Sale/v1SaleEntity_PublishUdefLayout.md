@@ -11,7 +11,14 @@ POST /api/v1/Sale/UdefLayout/Publish
 
 Publish the SaleEntity user-defined field layout.
 
+
 This will trigger movement of field data etc.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,6 +33,7 @@ This will trigger movement of field data etc.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: int32
 
 OK
@@ -35,6 +43,7 @@ OK
 | 200 | OK |
 
 Response body: int32
+
 
 ## Sample request
 
@@ -51,5 +60,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-372
+579
 ```

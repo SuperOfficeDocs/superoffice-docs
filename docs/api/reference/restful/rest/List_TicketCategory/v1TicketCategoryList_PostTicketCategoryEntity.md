@@ -11,7 +11,14 @@ POST /api/v1/List/TicketCategory/Items
 
 Create a new TicketCategoryEntity list item
 
+
 Calls the List agent service SaveTicketCategoryEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveTicketCategoryEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The TicketCategoryEntity to be created.
+The TicketCategoryEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,10 +55,12 @@ The TicketCategoryEntity to be created.
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
 | DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
 | DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -59,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,6 +87,7 @@ Response body:
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
 | DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
 | DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -89,32 +99,33 @@ Response body:
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 448,
-  "ParentId": 670,
-  "Name": "Rolfson-Anderson",
-  "Fullname": "quia",
-  "CategoryMaster": 114,
+  "TicketCategoryId": 557,
+  "ParentId": 394,
+  "Name": "Christiansen, Bogan and Boyer",
+  "Fullname": "voluptatum",
+  "CategoryMaster": 20,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Lemke-Hermiston",
+  "ExternalName": "Crona LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 583,
-  "ReplyTemplate": 93,
-  "NotificationEmail": "leopoldo.howell@beahanruecker.com",
+  "AssignmentLag": 908,
+  "ReplyTemplate": 1002,
+  "NotificationEmail": "randall_hamill@mosciski.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
+  "EffectiveReplyTemplateId": 362,
   "ExtraFields": {
-    "ExtraFields1": "doloremque",
-    "ExtraFields2": "ab"
+    "ExtraFields1": "soluta",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "vero"
+    "CustomFields1": "est",
+    "CustomFields2": "voluptatem"
   }
 }
 ```
@@ -126,35 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 152,
-  "ParentId": 476,
-  "Name": "Bogan-Miller",
-  "Fullname": "blanditiis",
-  "CategoryMaster": 352,
+  "TicketCategoryId": 316,
+  "ParentId": 358,
+  "Name": "Denesik Group",
+  "Fullname": "labore",
+  "CategoryMaster": 378,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Dach, Reinger and Leuschke",
+  "ExternalName": "Sawayn-Terry",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 139,
-  "ReplyTemplate": 310,
-  "NotificationEmail": "emmet@metz.co.uk",
+  "AssignmentLag": 131,
+  "ReplyTemplate": 252,
+  "NotificationEmail": "ernie_williamson@runolfsdottir.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
+  "EffectiveReplyTemplateId": 841,
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "qui"
+    "CustomFields1": "sed",
+    "CustomFields2": "quam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldType": "System.Int32",
+      "FieldLength": 464
     }
   }
 }

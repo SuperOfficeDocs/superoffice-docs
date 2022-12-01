@@ -11,9 +11,16 @@ GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 
 Get a SaleEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a SaleEntity user-defined field's details based on the prog-id or label.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 SaleEntity found.
 
@@ -37,7 +45,7 @@ SaleEntity found.
 | 200 | SaleEntity found. |
 | 404 | SaleEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +92,7 @@ Response body:
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,46 +102,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 166,
-  "ColumnId": 869,
-  "FieldDefault": "dicta",
-  "FieldHeight": 873,
-  "FieldLabel": "ut",
-  "FieldLeft": 330,
-  "FieldTop": 694,
+  "UDefFieldId": 59,
+  "ColumnId": 229,
+  "FieldDefault": "amet",
+  "FieldHeight": 715,
+  "FieldLabel": "eum",
+  "FieldLeft": 361,
+  "FieldTop": 343,
   "FieldType": "Checkbox",
-  "FieldWidth": 636,
-  "FormatMask": "reiciendis",
+  "FieldWidth": 426,
+  "FormatMask": "nostrum",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 69,
-  "LabelLeft": 651,
-  "LabelTop": 500,
-  "LabelWidth": 91,
-  "LastVersionId": 35,
-  "ListTableId": 586,
+  "LabelHeight": 246,
+  "LabelLeft": 454,
+  "LabelTop": 904,
+  "LabelWidth": 514,
+  "LastVersionId": 676,
+  "ListTableId": 863,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 726,
-  "ProgId": "voluptatem",
-  "IsReadOnly": false,
-  "ShortLabel": "aut",
-  "TabOrder": 422,
-  "TextLength": 775,
-  "Tooltip": "est",
-  "UdefIdentity": 579,
-  "UDListDefinitionId": 60,
+  "Page1LineNo": 252,
+  "ProgId": "similique",
+  "IsReadOnly": true,
+  "ShortLabel": "fuga",
+  "TabOrder": 289,
+  "TextLength": 781,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 249,
+  "UDListDefinitionId": 521,
   "Justification": "Center",
-  "Version": 145,
-  "TemplateVariableName": "Friesen LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Cummerata Inc and Sons",
+  "Version": 738,
+  "TemplateVariableName": "Turner, Ryan and Effertz",
+  "HasBeenPublished": false,
+  "MdoListName": "Friesen Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 890
     }
   }
 }

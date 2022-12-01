@@ -11,6 +11,12 @@ POST /api/v1/Agents/FreeText/GetStopWordList
 
 Returns the list of stop words
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the list of stop words
 ```http
 POST /api/v1/Agents/FreeText/GetStopWordList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,6 +41,7 @@ POST /api/v1/Agents/FreeText/GetStopWordList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
 
 OK
@@ -44,13 +52,14 @@ OK
 
 Response body: array
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/FreeText/GetStopWordList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -60,7 +69,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "qui",
-  "est"
+  "architecto",
+  "asperiores"
 ]
 ```

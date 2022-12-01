@@ -11,10 +11,16 @@ POST /api/v1/Document/{documentId}/Command/{command}
 
 Execute a custom command on a particular document, optionally a particular version
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document ID **Required** |
 | command | string | Command name, generally matching one of those returned from the GetDocumentCommands service. However, it is legal for document plugins to support commands that are not declared through GetDocumentCommands, for instance if a custom GUI needs to access plugin functionality. **Required** |
+
 
 ## Query String Parameters
 
@@ -25,10 +31,11 @@ Execute a custom command on a particular document, optionally a particular versi
 | additionalData | array |  Any additional data that the document command needs. This parameter can be used as a tunnel between a custom-programmed GUI and its plugin.&lt;br/&gt;It is suggested that the format is name=value, with one such pair per array item. |
 
 ```http
-POST /api/v1/Document/{documentId}/Command/{command}?versionId=consequatur
+POST /api/v1/Document/{documentId}/Command/{command}?versionId=beatae
 POST /api/v1/Document/{documentId}/Command/{command}?allowedReturnTypes=Message
 POST /api/v1/Document/{documentId}/Command/{command}?additionalData=Lorax
 ```
+
 
 ## Request Headers
 
@@ -43,7 +50,8 @@ POST /api/v1/Document/{documentId}/Command/{command}?additionalData=Lorax
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +76,7 @@ Response body:
 POST /api/v1/Document/{documentId}/Command/{command}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "non",
-  "VersionId": "veniam",
-  "Success": true,
+  "ExternalReference": "ut",
+  "VersionId": "et",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "quia",
-  "AdditionalInfo": "esse"
+  "Value": "ad",
+  "AdditionalInfo": "et"
 }
 ```

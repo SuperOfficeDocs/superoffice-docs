@@ -11,11 +11,18 @@ PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 
 Saves headings for the DeliveryTerm list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 343,
-    "Name": "Lakin-Toy",
-    "ToolTip": "Et qui beatae quis aspernatur adipisci unde consequatur.",
-    "Deleted": false,
-    "Rank": 413,
-    "Type": "nulla",
-    "ColorBlock": 853,
-    "IconHint": "et",
+    "Id": 369,
+    "Name": "Howell, Abshire and Kuphal",
+    "ToolTip": "Sed veniam sed.",
+    "Deleted": true,
+    "Rank": 338,
+    "Type": "animi",
+    "ColorBlock": 631,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2001-12-26T11:10:54.253868+01:00",
+    "LastChanged": "2008-06-11T02:49:52.2190678+02:00",
     "ChildItems": [
       {
-        "Id": 797,
-        "Name": "Haley, Huels and Howell",
-        "ToolTip": "Cupiditate modi.",
+        "Id": 901,
+        "Name": "Ferry LLC",
+        "ToolTip": "Officia qui id ut nesciunt.",
         "Deleted": true,
-        "Rank": 468,
-        "Type": "modi",
-        "ColorBlock": 353,
-        "IconHint": "iure",
-        "Selected": false,
-        "LastChanged": "2012-10-15T11:10:54.253868+02:00",
+        "Rank": 395,
+        "Type": "rerum",
+        "ColorBlock": 799,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2016-10-28T02:49:52.2190678+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "illo",
+        "ExtraInfo": "id",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Miss Jay Reichert"
+        "FullName": "Aubree Price DDS"
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Aimee Botsford"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Paxton Mayer"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Watsica Inc and Sons",
-    "ToolTip": "Fugit odit placeat ea sed aut placeat.",
+    "Id": 728,
+    "Name": "Leuschke-Konopelski",
+    "ToolTip": "Cum sapiente repudiandae occaecati.",
     "Deleted": false,
-    "Rank": 175,
-    "Type": "qui",
-    "ColorBlock": 518,
-    "IconHint": "sed",
+    "Rank": 393,
+    "Type": "consequatur",
+    "ColorBlock": 233,
+    "IconHint": "nobis",
     "Selected": true,
-    "LastChanged": "1998-11-20T11:10:54.2548989+01:00",
+    "LastChanged": "1998-12-23T02:49:52.2190678+01:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Kemmer, Haag and Hoppe",
-        "ToolTip": "Officiis magni.",
+        "Id": 635,
+        "Name": "Sporer-Nikolaus",
+        "ToolTip": "Nesciunt iusto exercitationem consequatur.",
         "Deleted": false,
-        "Rank": 770,
-        "Type": "quos",
-        "ColorBlock": 212,
-        "IconHint": "corrupti",
-        "Selected": true,
-        "LastChanged": "1997-06-20T11:10:54.2558975+02:00",
+        "Rank": 783,
+        "Type": "veniam",
+        "ColorBlock": 10,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "1997-09-12T02:49:52.2190678+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Eda Carey Durgan DDS",
+        "ExtraInfo": "quas",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Prof. Geraldine Marquardt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 864
+            "FieldLength": 330
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "delectus",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Miss Katrina Emerson Wunsch",
+    "FullName": "Ms. Dario Ofelia Ruecker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 540
+        "FieldType": "System.Int32",
+        "FieldLength": 659
       }
     }
   }

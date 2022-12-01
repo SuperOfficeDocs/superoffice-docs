@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetSaleTypeEntity
 
 Gets a SaleTypeEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=101
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=30
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +87,7 @@ Response body:
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,53 +97,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 679,
-  "Name": "Farrell, Leannon and Walter",
-  "Tooltip": "vel",
-  "Rank": 170,
+  "SaleTypeId": 426,
+  "Name": "Emmerich Inc and Sons",
+  "Tooltip": "et",
+  "Rank": 111,
   "DurationUnit": "Century",
-  "SaleDuration": 572,
-  "SaleTypeCatId": 687,
+  "SaleDuration": 446,
+  "SaleTypeCatId": 882,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 651,
-  "QuoteLinesTemplate": 585,
-  "ConfirmationLinesTemplate": 677,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 975,
+  "QuoteLinesTemplate": 59,
+  "ConfirmationLinesTemplate": 715,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 232,
-  "MinEarningPercent": 805,
-  "GroupQuoteLinesBy": 330,
-  "SortGroupLinesBy": 107,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 676,
+  "MinEarningPercent": 781,
+  "GroupQuoteLinesBy": 83,
+  "SortGroupLinesBy": 831,
   "Stages": [
     {
-      "Id": 290,
-      "Name": "Schaefer LLC",
-      "ToolTip": "Earum laborum ut quia dolores reprehenderit.",
-      "Deleted": true,
-      "Rank": 774,
-      "Type": "aperiam",
-      "ColorBlock": 969,
-      "IconHint": "porro",
+      "Id": 141,
+      "Name": "Gusikowski-Sanford",
+      "ToolTip": "Voluptatibus impedit ipsam vel cupiditate aliquid et asperiores.",
+      "Deleted": false,
+      "Rank": 425,
+      "Type": "ea",
+      "ColorBlock": 52,
+      "IconHint": "aliquam",
       "Selected": true,
-      "LastChanged": "2019-06-06T11:10:27.149425+02:00",
+      "LastChanged": "1996-02-24T02:49:44.6079219+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eius",
-      "StyleHint": "quis",
+      "ExtraInfo": "aliquid",
+      "StyleHint": "fugiat",
       "Hidden": false,
-      "FullName": "Mercedes Ernser",
+      "FullName": "Vance Collier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 408
+          "FieldLength": 12
         }
       }
     }
@@ -145,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 752
     }
   }
 }

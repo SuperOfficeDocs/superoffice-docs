@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 
 Get a foreignkey based on its name and value, that belongs to the specified device and application.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValue?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, KeyName, KeyValue, TableName
+ApplicationName, DeviceName, KeyName, KeyValue, TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ ApplicationName, DeviceName, KeyName, KeyValue, TableName
 | KeyValue | string |  |
 | TableName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Anderson, Kuphal and Terry",
-  "DeviceName": "Bruen-Gleason",
-  "KeyName": "Osinski, Shanahan and Ernser",
-  "KeyValue": "esse",
-  "TableName": "Goyette-Beahan"
+  "ApplicationName": "Carter-Bins",
+  "DeviceName": "Greenholt, O'Connell and Beer",
+  "KeyName": "Konopelski-Rau",
+  "KeyValue": "vel",
+  "TableName": "Lang, Dibbert and Donnelly"
 }
 ```
 
@@ -95,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "incidunt",
-  "Value": "adipisci",
-  "RecordId": 905,
-  "CreatedDate": "2011-09-01T11:10:27.0864522+02:00",
-  "UpdatedDate": "2012-07-12T11:10:27.0864522+02:00",
-  "UpdatedBy": "sint",
-  "CreatedBy": "sed",
-  "TableName": "Bins, Sipes and Haag",
+  "Key": "quibusdam",
+  "Value": "maiores",
+  "RecordId": 609,
+  "CreatedDate": "2014-04-27T02:49:44.561046+02:00",
+  "UpdatedDate": "2018-08-24T02:49:44.561046+02:00",
+  "UpdatedBy": "porro",
+  "CreatedBy": "consequatur",
+  "TableName": "Botsford-Eichmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 7
+      "FieldLength": 200
     }
   }
 }

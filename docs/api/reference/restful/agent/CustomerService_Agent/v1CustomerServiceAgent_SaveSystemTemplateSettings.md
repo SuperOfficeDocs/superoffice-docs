@@ -11,7 +11,13 @@ POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
 
 Saves and validates updated system templates.
 
+
 Throws exception if validation fails
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Throws exception if validation fails
 ```http
 POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SystemTemplateSettings
+SystemTemplateSettings 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SystemTemplateSettings |  | System template settings item <para /> Carrier object for SystemTemplateSettings. Services for the SystemTemplateSettings Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 298,
-  "CustomerCustomerReplyTemplateId": 511,
-  "CustomerPasswordTemplateId": 132,
-  "CustomerConfirmEmailTemplateId": 759,
-  "CustomerChatLogTemplateId": 173,
-  "NewLinkTemplateId": 683,
-  "HotlistNewMessageTemplateId": 792,
-  "HotlistTicketActivatedTemplateId": 846,
-  "UserTicketAlarmTemplateId": 313,
-  "HotlistTicketTakenOverTemplateId": 268,
-  "UserActiveTicketsTemplateId": 960,
-  "UserNewMessageTemplateId": 292,
-  "UserTicketActivatedTemplateId": 6,
-  "UserNewTicketTemplateId": 111,
-  "PublishKbQuestionTemplateId": 980,
-  "PublishKbAnswerTemplateId": 327,
-  "UserTicketTakenOverTemplateId": 329,
-  "PrintTicketTemplateId": 475,
-  "WeekStatTemplateId": 570,
-  "TicketAlarmHotlistTemplateId": 437,
-  "EmailAddresses": "magdalena@hackett.uk",
+  "CustomerNewCustomerTemplateId": 68,
+  "CustomerCustomerReplyTemplateId": 742,
+  "CustomerPasswordTemplateId": 125,
+  "CustomerConfirmEmailTemplateId": 781,
+  "CustomerChatLogTemplateId": 574,
+  "NewLinkTemplateId": 769,
+  "HotlistNewMessageTemplateId": 861,
+  "HotlistTicketActivatedTemplateId": 518,
+  "UserTicketAlarmTemplateId": 355,
+  "HotlistTicketTakenOverTemplateId": 558,
+  "UserActiveTicketsTemplateId": 166,
+  "UserNewMessageTemplateId": 216,
+  "UserTicketActivatedTemplateId": 940,
+  "UserNewTicketTemplateId": 493,
+  "PublishKbQuestionTemplateId": 418,
+  "PublishKbAnswerTemplateId": 296,
+  "UserTicketTakenOverTemplateId": 973,
+  "PrintTicketTemplateId": 916,
+  "WeekStatTemplateId": 201,
+  "TicketAlarmHotlistTemplateId": 896,
+  "EmailAddresses": "tristian_kohler@treutel.ca",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldLength": 177
     }
   }
 }

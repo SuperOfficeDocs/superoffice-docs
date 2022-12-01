@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/GetFunctionalRights
 
 Get all functional rights for the given role.
 
+
 Functional rights not set on the role are not included. MDO List name = 'FunctionRights', extra='role=123'
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Functional rights not set on the role are not included. MDO List name = 'Functio
 ```http
 POST /api/v1/Agents/User/GetFunctionalRights?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,13 +47,14 @@ POST /api/v1/Agents/User/GetFunctionalRights?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RoleId
+RoleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleId | int32 |  |
+
 
 ## Response: array
 
@@ -83,11 +92,11 @@ Response body: array
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 822
+  "RoleId": 607
 }
 ```
 
@@ -99,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Name": "Rutherford, Lemke and Waelchi",
-    "ToolTip": "Assumenda vel magni repudiandae.",
-    "Deleted": false,
-    "Rank": 128,
-    "Type": "dolore",
-    "ColorBlock": 729,
-    "IconHint": "quo",
-    "Selected": false,
-    "LastChanged": "2008-03-16T11:10:28.389207+01:00",
+    "Id": 572,
+    "Name": "Johnson, Maggio and Beer",
+    "ToolTip": "In sequi quaerat.",
+    "Deleted": true,
+    "Rank": 779,
+    "Type": "atque",
+    "ColorBlock": 885,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2003-10-08T02:49:45.6559717+02:00",
     "ChildItems": [
       {
-        "Id": 396,
-        "Name": "Cruickshank Group",
-        "ToolTip": "Et molestiae ut.",
-        "Deleted": true,
-        "Rank": 75,
-        "Type": "blanditiis",
-        "ColorBlock": 117,
-        "IconHint": "aut",
+        "Id": 195,
+        "Name": "Gutmann, Zemlak and Berge",
+        "ToolTip": "Sunt occaecati et.",
+        "Deleted": false,
+        "Rank": 855,
+        "Type": "magni",
+        "ColorBlock": 527,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2010-05-26T11:10:28.389207+02:00",
+        "LastChanged": "2006-06-26T02:49:45.6559717+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "distinctio",
-        "Hidden": false,
-        "FullName": "Miss Denis Herzog",
+        "ExtraInfo": "sequi",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Prof. Favian Alda Cormier Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldLength": 160
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "et",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Dr. Jamil Roberts",
+    "FullName": "Cordie Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 630
+        "FieldType": "System.Int32",
+        "FieldLength": 1001
       }
     }
   }

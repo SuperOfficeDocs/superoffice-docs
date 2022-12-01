@@ -11,7 +11,14 @@ POST /api/v1/List/Currency/Items
 
 Create a new CurrencyEntity list item
 
+
 Calls the List agent service SaveCurrencyEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveCurrencyEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The CurrencyEntity to be created.
+The CurrencyEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,7 +48,8 @@ The CurrencyEntity to be created.
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -49,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,13 +81,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 443,
-  "Name": "Kozey-Frami",
-  "Tooltip": "fugiat",
-  "Rank": 260,
-  "Rate": 6954.346,
-  "Units": 7537.2699999999995,
-  "Deleted": false
+  "CurrencyId": 699,
+  "Name": "Upton, Hagenes and Morar",
+  "Tooltip": "ea",
+  "Rank": 835,
+  "Rate": 15002.457999999999,
+  "Units": 29976.71,
+  "Deleted": true
 }
 ```
 
@@ -90,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 699,
-  "Name": "Carter, Eichmann and Davis",
-  "Tooltip": "veritatis",
-  "Rank": 753,
-  "Rate": 13799.002,
-  "Units": 10589.786,
+  "CurrencyId": 353,
+  "Name": "Gorczany, Hahn and Treutel",
+  "Tooltip": "distinctio",
+  "Rank": 617,
+  "Rate": 17321.618,
+  "Units": 24811.878,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 26
     }
   }
 }

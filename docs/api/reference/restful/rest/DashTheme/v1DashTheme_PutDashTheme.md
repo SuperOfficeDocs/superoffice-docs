@@ -11,9 +11,15 @@ PUT /api/v1/DashTheme/{id}
 
 Updates the existing DashTheme
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashTheme id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing DashTheme
 ```http
 PUT /api/v1/DashTheme/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/DashTheme/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashTheme to be saved.
+The DashTheme to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,8 @@ The DashTheme to be saved.
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
 
-## Response
+
+## Response: 
 
 DashTheme updated.
 
@@ -61,7 +69,7 @@ DashTheme updated.
 | 200 | DashTheme updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,16 +89,16 @@ Response body:
 PUT /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 742,
-  "Name": "Ullrich-Cormier",
-  "Config": "et",
-  "Rank": 398,
-  "Client": "vero",
-  "Style": "alias"
+  "DashboardThemeId": 121,
+  "Name": "Jacobi, Roob and Hagenes",
+  "Config": "eum",
+  "Rank": 452,
+  "Client": "omnis",
+  "Style": "perferendis"
 }
 ```
 
@@ -101,18 +109,18 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 865,
-  "Name": "Carter-Doyle",
-  "Config": "sint",
-  "Rank": 986,
-  "Client": "dignissimos",
-  "Style": "quos",
+  "DashboardThemeId": 428,
+  "Name": "Wyman-Krajcik",
+  "Config": "labore",
+  "Rank": 121,
+  "Client": "unde",
+  "Style": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldType": "System.String",
+      "FieldLength": 672
     }
   },
   "_Links": {

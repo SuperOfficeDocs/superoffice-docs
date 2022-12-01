@@ -11,7 +11,13 @@ POST /api/v1/Agents/Sentry/CanCreateAppointmentInAssociateDiaries
 
 CanCreateAppointmentInAssociateDiaries will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds.
 
+
 CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ CanCreateAppointmentInAssociateDiaries will only check against associates that a
 ```http
 POST /api/v1/Agents/Sentry/CanCreateAppointmentInAssociateDiaries?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Sentry/CanCreateAppointmentInAssociateDiaries?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIds
+AssociateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateIds | array |  |
+
 
 ## Response: bool
 
@@ -54,6 +62,7 @@ OK
 | 200 | OK |
 
 Response body: bool
+
 
 ## Sample request
 
@@ -66,8 +75,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    99,
-    734
+    745,
+    140
   ]
 }
 ```

@@ -11,11 +11,17 @@ GET /api/v1/Selection/{selectionId}/Members
 
 Get the list of members in this selection.
 
+
 The type of members depends on the target table of the selection.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The selectionId we want selection members for. **Required** |
+
 
 ## Query String Parameters
 
@@ -31,6 +37,7 @@ GET /api/v1/Selection/{selectionId}/Members?$mode=FULL
 GET /api/v1/Selection/{selectionId}/Members?$format=JSON
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -44,7 +51,8 @@ GET /api/v1/Selection/{selectionId}/Members?$format=JSON
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +74,7 @@ Response body:
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "consequuntur",
+  "odata.nextLink": "amet",
   "value": [
     {
-      "PrimaryKey": 7114,
+      "PrimaryKey": 6112,
       "EntityName": "person",
-      "personId": 7114,
-      "fullName": "Prof. Duane Anita Farrell"
+      "personId": 6112,
+      "fullName": "Miss Rusty Lavonne Fisher Jr."
     },
     {
-      "PrimaryKey": 1745,
+      "PrimaryKey": 9483,
       "EntityName": "person",
-      "personId": 1745,
-      "fullName": "Prof. Marlon Rice PhD"
+      "personId": 9483,
+      "fullName": "Melody Howe V"
     }
   ]
 }

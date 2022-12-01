@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetPersons
 
 Returns an array of all the contact persons for the company card.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns an array of all the contact persons for the company card.
 ```http
 POST /api/v1/Agents/Contact/GetPersons?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Contact/GetPersons?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
+
 
 ## Response: array
 
@@ -104,11 +112,11 @@ Response body: array
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 809
+  "ContactId": 706
 }
 ```
 
@@ -120,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "perspiciatis",
-    "PersonId": 29,
-    "Mrmrs": "aut",
-    "Firstname": "Aimee",
-    "Lastname": "Fahey",
-    "MiddleName": "Strosin, Harris and Collier",
-    "Title": "eligendi",
-    "Description": "Expanded holistic encryption",
-    "Email": "jayda_wunsch@russel.co.uk",
-    "FullName": "Austyn Daniel",
-    "DirectPhone": "1-121-695-5120",
-    "FormalName": "Runolfsson-Waters",
-    "CountryId": 700,
-    "ContactId": 151,
-    "ContactName": "Senger-Feest",
-    "Retired": 172,
-    "Rank": 976,
-    "ActiveInterests": 585,
+    "Position": "ut",
+    "PersonId": 105,
+    "Mrmrs": "et",
+    "Firstname": "Lurline",
+    "Lastname": "Boyle",
+    "MiddleName": "Gerlach-Little",
+    "Title": "eos",
+    "Description": "Visionary context-sensitive algorithm",
+    "Email": "amari@keelingruecker.name",
+    "FullName": "Elbert Johnson IV",
+    "DirectPhone": "215-561-2024",
+    "FormalName": "Collier Inc and Sons",
+    "CountryId": 588,
+    "ContactId": 489,
+    "ContactName": "Schneider Group",
+    "Retired": 917,
+    "Rank": 30,
+    "ActiveInterests": 925,
     "ContactDepartment": "",
-    "ContactCountryId": 507,
-    "ContactOrgNr": "1163202",
-    "FaxPhone": "(086)825-2904 x30760",
-    "MobilePhone": "303.361.0972",
-    "ContactPhone": "(151)777-8194 x38393",
-    "AssociateName": "Baumbach-Lesch",
-    "AssociateId": 190,
-    "UsePersonAddress": false,
-    "ContactFax": "minus",
-    "Kanafname": "eligendi",
-    "Kanalname": "asperiores",
-    "Post1": "reprehenderit",
-    "Post2": "ut",
-    "Post3": "praesentium",
-    "EmailName": "brandyn.kihn@jerdefranecki.com",
-    "ContactFullName": "Dr. Marianne Cameron Weimann III",
-    "ActiveErpLinks": 666,
-    "TicketPriorityId": 928,
-    "SupportLanguageId": 400,
-    "SupportAssociateId": 667,
+    "ContactCountryId": 321,
+    "ContactOrgNr": "247556",
+    "FaxPhone": "858-277-3361",
+    "MobilePhone": "(503)153-3578",
+    "ContactPhone": "1-908-358-6101",
+    "AssociateName": "Cummerata-Wunsch",
+    "AssociateId": 644,
+    "UsePersonAddress": true,
+    "ContactFax": "a",
+    "Kanafname": "ipsam",
+    "Kanalname": "architecto",
+    "Post1": "inventore",
+    "Post2": "qui",
+    "Post3": "rem",
+    "EmailName": "yazmin@fahey.info",
+    "ContactFullName": "Cedrick Lydia Willms DVM",
+    "ActiveErpLinks": 949,
+    "TicketPriorityId": 354,
+    "SupportLanguageId": 616,
+    "SupportAssociateId": 240,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 82
+        "FieldType": "System.Int32",
+        "FieldLength": 925
       }
     }
   }

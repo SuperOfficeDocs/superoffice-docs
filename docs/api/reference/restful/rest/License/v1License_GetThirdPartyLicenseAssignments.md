@@ -11,10 +11,17 @@ GET /api/v1/License/{moduleOwner}/{associateId}
 
 Get license assignments for an associate for licenses belonging to an other module owner than SuperOffice
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | User to get third party license assignments for **Required** |
 | moduleOwner | string | Name of the module owner to get license assignments for **Required** |
+
+
 
 ## Request Headers
 
@@ -28,6 +35,7 @@ Get license assignments for an associate for licenses belonging to an other modu
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -64,7 +72,7 @@ Response body: array
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,25 +84,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 726,
-    "Tooltip": "a",
+    "Total": 93,
+    "Tooltip": "quia",
     "CanAssign": false,
-    "Free": 967,
-    "InUse": 169,
+    "Free": 236,
+    "InUse": 591,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 126,
-    "Name": "Yundt, D'Amore and Hansen",
-    "Description": "User-friendly value-added support",
-    "PrerequisiteModuleName": "DuBuque, Erdman and Hagenes",
-    "SortOrder": 954,
-    "ExtraFlags": 696,
+    "Assigned": true,
+    "ModuleLicenseId": 75,
+    "Name": "Gerhold-Cremin",
+    "Description": "Decentralized systemic core",
+    "PrerequisiteModuleName": "Weimann, Braun and Klocko",
+    "SortOrder": 360,
+    "ExtraFlags": 126,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldType": "System.String",
+        "FieldLength": 718
       }
     }
   }

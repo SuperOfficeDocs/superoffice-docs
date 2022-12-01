@@ -11,7 +11,13 @@ POST /api/v1/Agents/Sale/GetRecentSales
 
 Returns the latest sales (that are sold) limited by their amount.
 
+
 The result is sorted descending with the latest first. If the amount is -1, the amount restriction is omitted.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The result is sorted descending with the latest first. If the amount is -1, the 
 ```http
 POST /api/v1/Agents/Sale/GetRecentSales?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Sale/GetRecentSales?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AmountLimit, Count
+AmountLimit, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AmountLimit | int32 |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -96,8 +104,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 515,
-  "Count": 893
+  "AmountLimit": 519,
+  "Count": 696
 }
 ```
 
@@ -109,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lockman Group",
-    "SaleDate": "2018-10-23T11:10:27.852008+02:00",
-    "SaleId": 54,
-    "Probability": 790,
-    "Title": "voluptatem",
-    "Amount": 10248.18,
-    "Currency": "nihil",
-    "ProjectName": "Terry-Sawayn",
-    "AssociateFullName": "Garnett Roob",
-    "Description": "Persevering solution-oriented complexity",
+    "ContactName": "Nicolas, Heller and Gerhold",
+    "SaleDate": "2010-09-25T02:49:45.1403412+02:00",
+    "SaleId": 721,
+    "Probability": 886,
+    "Title": "quidem",
+    "Amount": 5026.936,
+    "Currency": "atque",
+    "ProjectName": "Batz Group",
+    "AssociateFullName": "Ulices Lang",
+    "Description": "Open-architected actuating local area network",
     "Status": "Lost",
-    "WeightedAmount": 19741.066,
-    "ProjectId": 105,
-    "EarningPercent": 19274.1,
-    "Earning": 4183.8899999999994,
-    "ContactId": 279,
-    "AssociateId": 895,
-    "PersonId": 216,
-    "SaleTypeId": 553,
-    "SaleTypeName": "Hermiston Inc and Sons",
-    "PersonFullName": "Dr. Sid Dietrich",
+    "WeightedAmount": 27052.688,
+    "ProjectId": 123,
+    "EarningPercent": 18446.724,
+    "Earning": 4851.432,
+    "ContactId": 515,
+    "AssociateId": 768,
+    "PersonId": 982,
+    "SaleTypeId": 727,
+    "SaleTypeName": "Stark, Veum and Schmidt",
+    "PersonFullName": "Heaven Mante",
     "Completed": "Completed",
-    "ActiveErpLinks": 227,
-    "NextDueDate": "2015-10-06T11:10:27.852008+02:00",
-    "Number": "689546",
+    "ActiveErpLinks": 550,
+    "NextDueDate": "2021-04-12T02:49:45.1403412+02:00",
+    "Number": "679958",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldType": "System.String",
+        "FieldLength": 272
       }
     }
   }

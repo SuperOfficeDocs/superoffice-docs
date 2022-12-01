@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetContact
 
 Gets a Contact object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=790
+POST /api/v1/Agents/Contact/GetContact?contactId=194
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 507,
-  "Name": "Osinski, Friesen and Goodwin",
-  "OrgNr": "1311916",
+  "ContactId": 489,
+  "Name": "Reilly, Lemke and Homenick",
+  "OrgNr": "1465904",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "pariatur",
-  "DirectPhone": "955.888.0433 x210",
-  "AssociateId": 745,
-  "CountryId": 888,
-  "EmailAddress": "osborne.thompson@bins.uk",
-  "Kananame": "officiis",
-  "EmailAddressName": "torey@gleasonwiza.com",
+  "City": "dicta",
+  "DirectPhone": "1-036-681-5088 x3615",
+  "AssociateId": 136,
+  "CountryId": 786,
+  "EmailAddress": "jazmyne.sawayn@kreiger.biz",
+  "Kananame": "possimus",
+  "EmailAddressName": "shania@reilly.co.uk",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Priscilla McClure",
+  "AssociateFullName": "Addie Smitham",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "aspernatur",
-  "FullName": "Cornelius Herman",
+  "FormattedAddress": "repellendus",
+  "FullName": "Samanta Johnston",
   "IsOwnerContact": true,
-  "ActiveErpLinks": 921,
+  "ActiveErpLinks": 327,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldLength": 469
     }
   }
 }

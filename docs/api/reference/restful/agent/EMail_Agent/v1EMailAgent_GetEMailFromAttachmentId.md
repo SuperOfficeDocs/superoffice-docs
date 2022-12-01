@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 
 Get an e-mail based on an email and attachment id
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get an e-mail based on an email and attachment id
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/EMail/GetEMailFromAttachmentId?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EmailId, AttachmentIds, IncludeAttachments
+EmailId, AttachmentIds, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +56,8 @@ EmailId, AttachmentIds, IncludeAttachments
 | AttachmentIds | array |  |
 | IncludeAttachments | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,14 +104,14 @@ Response body:
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 757,
+  "EmailId": 867,
   "AttachmentIds": [
-    "corporis",
-    "aspernatur"
+    "qui",
+    "adipisci"
   ],
   "IncludeAttachments": true
 }
@@ -116,146 +126,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 175,
-      "ContactName": "Williamson Group",
-      "PersonId": 513,
-      "PersonName": "Schamberger, Boehm and Tromp",
-      "AssociateId": 873,
-      "Address": "ut",
-      "EmailId": 815,
+      "ContactId": 780,
+      "ContactName": "Herman Inc and Sons",
+      "PersonId": 268,
+      "PersonName": "Doyle Group",
+      "AssociateId": 103,
+      "Address": "sit",
+      "EmailId": 222,
       "DuplicatePersonIds": [
-        232,
-        991
+        321,
+        968
       ],
-      "Name": "Volkman, Williamson and Connelly",
+      "Name": "Carter-Bode",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldType": "System.Int32",
+          "FieldLength": 787
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 184,
-      "ContactName": "Swift, Mosciski and Keebler",
-      "PersonId": 530,
-      "PersonName": "Johnston, Bode and Schiller",
-      "AssociateId": 415,
-      "Address": "illum",
-      "EmailId": 606,
+      "ContactId": 564,
+      "ContactName": "Tillman Group",
+      "PersonId": 806,
+      "PersonName": "Howell Group",
+      "AssociateId": 689,
+      "Address": "eos",
+      "EmailId": 782,
       "DuplicatePersonIds": [
-        898,
-        757
+        307,
+        233
       ],
-      "Name": "Fahey-Funk",
+      "Name": "Hauck Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldLength": 811
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 974,
-      "ContactName": "Brown-Haley",
-      "PersonId": 287,
-      "PersonName": "Kilback-Wolff",
-      "AssociateId": 82,
-      "Address": "sunt",
-      "EmailId": 722,
+      "ContactId": 177,
+      "ContactName": "Davis Inc and Sons",
+      "PersonId": 510,
+      "PersonName": "McLaughlin, Blick and Tillman",
+      "AssociateId": 905,
+      "Address": "rem",
+      "EmailId": 908,
       "DuplicatePersonIds": [
-        8,
-        243
+        998,
+        126
       ],
-      "Name": "Torp-Davis",
+      "Name": "Mayert Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldLength": 921
         }
       }
     }
   ],
-  "Subject": "voluptate",
-  "HTMLBody": "beatae",
+  "Subject": "odio",
+  "HTMLBody": "illum",
   "From": null,
-  "Sent": "2014-10-22T11:10:26.947447+02:00",
-  "Size": 344,
+  "Sent": "2005-05-12T02:49:44.4504155+02:00",
+  "Size": 723,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "deleniti",
-  "PlainBody": "ea",
+  "MessageID": "voluptas",
+  "PlainBody": "quis",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 5,
+  "ServerId": 194,
   "Attachments": [
     {
-      "Description": "Integrated didactic implementation",
-      "Filename": "sit",
-      "Size": 973,
-      "Type": "esse",
-      "Encoding": "saepe",
-      "Id": "molestiae",
-      "Disposition": "ut",
+      "Description": "Business-focused directional data-warehouse",
+      "Filename": "assumenda",
+      "Size": 310,
+      "Type": "aut",
+      "Encoding": "corporis",
+      "Id": "consequuntur",
+      "Disposition": "et",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 28
+          "FieldLength": 124
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Lubowitz Inc and Sons",
+      "Name": "O'Hara-Volkman",
       "Values": [
-        "ad",
-        "quo"
+        "sint",
+        "molestiae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 256
+          "FieldLength": 621
         }
       }
     },
     {
-      "Name": "Lubowitz Inc and Sons",
+      "Name": "O'Hara-Volkman",
       "Values": [
-        "ad",
-        "quo"
+        "sint",
+        "molestiae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 256
+          "FieldLength": 621
         }
       }
     }
   ],
-  "FolderName": "Balistreri Inc and Sons",
-  "EmailItemId": 291,
-  "AccountId": 633,
-  "ReceivedAt": "2003-06-06T11:10:26.9494487+02:00",
+  "FolderName": "Kunze-Reinger",
+  "EmailItemId": 997,
+  "AccountId": 69,
+  "ReceivedAt": "2000-06-26T02:49:44.4504155+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-08-05T11:10:26.9494487+02:00",
+  "RepliedAt": "2008-10-22T02:49:44.4504155+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -263,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

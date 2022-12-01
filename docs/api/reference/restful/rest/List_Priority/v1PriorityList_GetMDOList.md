@@ -11,6 +11,12 @@ GET /api/v1/List/Priority/MDOItems
 
 Get the MDO list items for "Priority" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=veniam
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=rerum
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Priority/MDOItems?query=veniam
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "Schulist LLC",
-    "ToolTip": "Asperiores sit quo atque.",
-    "Deleted": true,
-    "Rank": 121,
-    "Type": "voluptatem",
+    "Id": 813,
+    "Name": "Torphy-Hahn",
+    "ToolTip": "Et quia est id ut.",
+    "Deleted": false,
+    "Rank": 764,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 952,
-        "Name": "Stiedemann-Osinski",
-        "ToolTip": "Ex voluptatem asperiores et maiores molestiae.",
+        "Id": 645,
+        "Name": "Shields, Kiehn and Stiedemann",
+        "ToolTip": "Culpa sint alias mollitia.",
         "Deleted": false,
-        "Rank": 817,
-        "Type": "sed",
+        "Rank": 203,
+        "Type": "maiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 113,
-        "ExtraInfo": "sit",
-        "StyleHint": "adipisci",
-        "FullName": "Betty Mueller",
+        "IconHint": "quis",
+        "ColorBlock": 422,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "sit",
+        "FullName": "Everette Hilpert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 596
+            "FieldType": "System.Int32",
+            "FieldLength": 898
           }
         }
       }
     ],
-    "IconHint": "dicta",
-    "ColorBlock": 873,
-    "ExtraInfo": "ad",
-    "StyleHint": "odio",
-    "FullName": "Mrs. Kianna Streich",
+    "IconHint": "ut",
+    "ColorBlock": 930,
+    "ExtraInfo": "quia",
+    "StyleHint": "magni",
+    "FullName": "Sanford Gulgowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldType": "System.Int32",
+        "FieldLength": 780
       }
     }
   }

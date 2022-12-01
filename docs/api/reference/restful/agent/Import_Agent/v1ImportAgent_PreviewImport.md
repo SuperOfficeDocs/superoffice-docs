@@ -11,6 +11,12 @@ POST /api/v1/Agents/Import/PreviewImport
 
 Preview the import
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Preview the import
 ```http
 POST /api/v1/Agents/Import/PreviewImport?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Import/PreviewImport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ImportLines, ColumnDefinition, Culture, Context
+ImportLines, ColumnDefinition, Culture, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,6 +52,7 @@ ImportLines, ColumnDefinition, Culture, Context
 | ColumnDefinition | array |  |
 | Culture | string |  |
 | Context | string |  |
+
 
 ## Response: array
 
@@ -72,38 +80,38 @@ Response body: array
 POST /api/v1/Agents/Import/PreviewImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "quisquam",
-        "nemo"
+        "fugit",
+        "quisquam"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "voluptatem"
+      "ExternalKey": "illum"
     },
     {
       "Values": [
-        "quisquam",
-        "nemo"
+        "fugit",
+        "quisquam"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "voluptatem"
+      "ExternalKey": "illum"
     }
   ],
   "ColumnDefinition": [
-    "voluptatem",
-    "eos"
+    "blanditiis",
+    "labore"
   ],
-  "Culture": "doloremque",
-  "Context": "ut"
+  "Culture": "atque",
+  "Context": "ea"
 }
 ```
 
@@ -116,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "molestias",
-      "aut"
+      "mollitia",
+      "ipsa"
     ],
-    "Selected": true,
+    "Selected": false,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "possimus",
+    "ExternalKey": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 559
+        "FieldType": "System.Int32",
+        "FieldLength": 400
       }
     }
   }

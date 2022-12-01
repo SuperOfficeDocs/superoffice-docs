@@ -11,9 +11,16 @@ GET /api/v1/List/Business/Items/{id}
 
 Gets a Business  item by id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Business to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Gets a Business  item by id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -37,7 +45,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 911,
-  "Name": "Wilderman-Collins",
-  "Tooltip": "perspiciatis",
-  "Deleted": true,
-  "UdListDefinitionId": 322,
-  "Rank": 204,
+  "Id": 196,
+  "Name": "Shanahan Group",
+  "Tooltip": "excepturi",
+  "Deleted": false,
+  "UdListDefinitionId": 433,
+  "Rank": 689,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   }
 }

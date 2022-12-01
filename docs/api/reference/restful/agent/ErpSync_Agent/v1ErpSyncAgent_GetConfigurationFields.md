@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetConfigurationFields
 
 Returns all fields needed to connect to the given connector
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns all fields needed to connect to the given connector
 ```http
 POST /api/v1/Agents/ErpSync/GetConfigurationFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/ErpSync/GetConfigurationFields?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectorId
+ErpConnectorId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectorId | int32 |  |
+
 
 ## Response: array
 
@@ -76,11 +86,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 612
+  "ErpConnectorId": 96
 }
 ```
 
@@ -92,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "ipsam",
-    "Rank": 570,
-    "DisplayName": "Ferry Group",
-    "DisplayDescription": "Re-engineered full-range knowledge base",
+    "FieldKey": "magni",
+    "Rank": 169,
+    "DisplayName": "Rau, Kuhn and Yost",
+    "DisplayDescription": "Synchronised discrete algorithm",
     "FieldType": "Checkbox",
-    "ListName": "Auer, Runolfsdottir and Raynor",
-    "DefaultValue": "quia",
-    "MaxLength": 75,
+    "ListName": "Bayer-Spencer",
+    "DefaultValue": "omnis",
+    "MaxLength": 451,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -107,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 358
+        "FieldLength": 349
       }
     }
   }

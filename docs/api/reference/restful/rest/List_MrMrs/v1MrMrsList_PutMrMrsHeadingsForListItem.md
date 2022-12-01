@@ -11,11 +11,18 @@ PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 
 Saves headings for the MrMrs list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 887,
-    "Name": "Hartmann, Predovic and Abbott",
-    "ToolTip": "Totam nemo est et ea est dolor qui.",
+    "Id": 363,
+    "Name": "Herzog-Beier",
+    "ToolTip": "Enim voluptate qui error occaecati et voluptate provident.",
     "Deleted": true,
-    "Rank": 365,
-    "Type": "blanditiis",
-    "ColorBlock": 856,
-    "IconHint": "eveniet",
+    "Rank": 998,
+    "Type": "voluptate",
+    "ColorBlock": 816,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "1996-07-17T11:10:54.3310933+02:00",
+    "LastChanged": "2018-04-05T02:49:52.2815666+02:00",
     "ChildItems": [
       {
-        "Id": 808,
-        "Name": "Corwin-Bergstrom",
-        "ToolTip": "Non qui velit.",
+        "Id": 224,
+        "Name": "Bechtelar, Emmerich and Leffler",
+        "ToolTip": "Optio non.",
         "Deleted": false,
-        "Rank": 309,
-        "Type": "eveniet",
-        "ColorBlock": 287,
-        "IconHint": "deserunt",
+        "Rank": 665,
+        "Type": "architecto",
+        "ColorBlock": 812,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2008-04-16T11:10:54.3310933+02:00",
+        "LastChanged": "1999-12-21T02:49:52.2815666+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Gina Lubowitz III"
+        "ExtraInfo": "provident",
+        "StyleHint": "corporis",
+        "Hidden": true,
+        "FullName": "Dr. Josue Floyd Bernhard"
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "porro",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Burdette Bode"
+    "FullName": "Prof. Taya Brakus"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Name": "Kerluke, Romaguera and Jacobson",
-    "ToolTip": "Aut distinctio sit.",
+    "Id": 217,
+    "Name": "Hills-Walker",
+    "ToolTip": "Assumenda molestiae eos facilis aut.",
     "Deleted": false,
-    "Rank": 23,
-    "Type": "corporis",
-    "ColorBlock": 518,
-    "IconHint": "dolores",
+    "Rank": 911,
+    "Type": "voluptatem",
+    "ColorBlock": 443,
+    "IconHint": "consequuntur",
     "Selected": false,
-    "LastChanged": "2004-04-09T11:10:54.3328692+02:00",
+    "LastChanged": "2006-03-31T02:49:52.2815666+02:00",
     "ChildItems": [
       {
-        "Id": 339,
-        "Name": "Armstrong, Marks and Renner",
-        "ToolTip": "Ullam aut pariatur reiciendis aut nesciunt minus.",
+        "Id": 8,
+        "Name": "Lesch Group",
+        "ToolTip": "Quo et vel culpa.",
         "Deleted": false,
-        "Rank": 417,
-        "Type": "eos",
-        "ColorBlock": 684,
-        "IconHint": "consectetur",
+        "Rank": 760,
+        "Type": "libero",
+        "ColorBlock": 469,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2006-08-22T11:10:54.3328692+02:00",
+        "LastChanged": "2007-09-02T02:49:52.2815666+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "nobis",
-        "Hidden": true,
-        "FullName": "Dorris Schmitt",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "commodi",
+        "Hidden": false,
+        "FullName": "Anya Stiedemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 453
+            "FieldLength": 739
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Genevieve Fisher",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Cecile Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldLength": 287
       }
     }
   }

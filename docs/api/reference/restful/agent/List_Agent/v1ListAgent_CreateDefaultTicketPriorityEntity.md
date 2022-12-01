@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 
 Set default values into a new TicketPriorityEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +83,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 837,
-  "Name": "Hilll, Durgan and Bins",
+  "TicketPriorityId": 902,
+  "Name": "Halvorson-Beatty",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 474,
+  "SortOrder": 250,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 3,
-  "MonStart": "2018-07-24T11:10:27.2634526+02:00",
-  "MonStop": "2019-10-01T11:10:27.2634526+02:00",
-  "TueStart": "2020-05-07T11:10:27.2634526+02:00",
-  "TueStop": "2005-10-02T11:10:27.2634526+02:00",
-  "WedStart": "2012-02-16T11:10:27.2634526+01:00",
-  "WedStop": "2015-09-19T11:10:27.2634526+02:00",
-  "ThuStart": "2009-02-01T11:10:27.2634526+01:00",
-  "ThuStop": "1997-02-27T11:10:27.2634526+01:00",
-  "FriStart": "2010-10-09T11:10:27.2634526+02:00",
-  "FriStop": "2016-04-22T11:10:27.2634526+02:00",
-  "SatStart": "2007-02-25T11:10:27.2634526+01:00",
-  "SatStop": "2006-01-25T11:10:27.2634526+01:00",
-  "SunStart": "2007-04-04T11:10:27.2634526+02:00",
-  "SunStop": "2007-02-21T11:10:27.2634526+01:00",
+  "Deadline": 995,
+  "MonStart": "2008-09-06T02:49:44.6860468+02:00",
+  "MonStop": "2010-05-14T02:49:44.6860468+02:00",
+  "TueStart": "1995-12-25T02:49:44.6860468+01:00",
+  "TueStop": "2008-08-03T02:49:44.6860468+02:00",
+  "WedStart": "2017-01-21T02:49:44.6860468+01:00",
+  "WedStop": "1999-01-28T02:49:44.6860468+01:00",
+  "ThuStart": "2002-10-04T02:49:44.6860468+02:00",
+  "ThuStop": "2021-01-31T02:49:44.6860468+01:00",
+  "FriStart": "2011-07-08T02:49:44.6860468+02:00",
+  "FriStop": "2007-06-13T02:49:44.6860468+02:00",
+  "SatStart": "2015-07-13T02:49:44.6860468+02:00",
+  "SatStop": "2012-03-18T02:49:44.6860468+01:00",
+  "SunStart": "2018-03-12T02:49:44.6860468+01:00",
+  "SunStop": "2011-10-18T02:49:44.6860468+02:00",
   "NonDates": [
-    "voluptatem",
-    "facere"
+    "ullam",
+    "repellat"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 299,
-      "AlertLevel": 87,
-      "AlertTimeout": 273,
-      "Action": 646,
-      "DelegateTo": 607,
-      "ScriptId": 399,
-      "EmailTo": "brock_fahey@pourosjohns.co.uk",
+      "TicketAlertId": 539,
+      "AlertLevel": 919,
+      "AlertTimeout": 191,
+      "Action": 30,
+      "DelegateTo": 230,
+      "ScriptId": 258,
+      "EmailTo": "ricardo.kozey@prohaska.biz",
       "SmsTo": "esse",
-      "ReplyTemplateIdCustomer": 555,
-      "ReplyTemplateIdUser": 433,
-      "ReplyTemplateIdCatmast": 85,
-      "ReplyTemplateIdEmail": 164,
-      "RtiCustomerSms": 302,
-      "ReplyTemplateIdUserSms": 884,
-      "ReplyTemplateIdCatmastSms": 26,
-      "ReplyTemplateIdSms": 457,
+      "ReplyTemplateIdCustomer": 583,
+      "ReplyTemplateIdUser": 286,
+      "ReplyTemplateIdCatmast": 705,
+      "ReplyTemplateIdEmail": 362,
+      "RtiCustomerSms": 251,
+      "ReplyTemplateIdUserSms": 882,
+      "ReplyTemplateIdCatmastSms": 153,
+      "ReplyTemplateIdSms": 109,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldLength": 775
         }
       }
     }
@@ -148,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldLength": 463
     }
   }
 }

@@ -11,7 +11,14 @@ PUT /api/v1/List/Reason/Headings
 
 Saves headings for the Reason list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -72,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 533,
-    "Name": "Jones-Hauck",
-    "Tooltip": "laudantium",
+    "HeadingId": 836,
+    "Name": "Heathcote, Feeney and Gusikowski",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 652,
-    "UdListDefinitionId": 180
+    "Rank": 49,
+    "UdListDefinitionId": 319
   },
   {
-    "HeadingId": 533,
-    "Name": "Jones-Hauck",
-    "Tooltip": "laudantium",
+    "HeadingId": 836,
+    "Name": "Heathcote, Feeney and Gusikowski",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 652,
-    "UdListDefinitionId": 180
+    "Rank": 49,
+    "UdListDefinitionId": 319
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 599,
-    "Name": "Smith-Cummings",
-    "Tooltip": "provident",
+    "HeadingId": 897,
+    "Name": "McLaughlin Inc and Sons",
+    "Tooltip": "eos",
     "Deleted": true,
-    "Rank": 285,
-    "UdListDefinitionId": 49,
+    "Rank": 936,
+    "UdListDefinitionId": 208,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldType": "System.String",
+        "FieldLength": 517
       }
     }
   }

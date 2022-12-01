@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 
 Method to get a Selectable MDO list with own history list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method to get a Selectable MDO list with own history list.
 ```http
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/MDO/GetSelectableListWithHistory?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory
+Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,6 +53,7 @@ Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory
 | AdditionalInfo | string |  |
 | HistoryItems | array |  |
 | OnlyHistory | bool |  |
+
 
 ## Response: array
 
@@ -87,12 +95,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kihn-Grimes",
+  "Name": "Collins Group",
   "ForceFlatList": false,
-  "AdditionalInfo": "porro",
+  "AdditionalInfo": "occaecati",
   "HistoryItems": [
-    883,
-    800
+    571,
+    448
   ],
   "OnlyHistory": false
 }
@@ -106,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "Corwin, Wehner and Powlowski",
-    "ToolTip": "Repellendus nostrum nemo laborum repudiandae facere cupiditate.",
-    "Deleted": false,
-    "Rank": 461,
-    "Type": "nihil",
-    "ColorBlock": 454,
-    "IconHint": "voluptate",
-    "Selected": false,
-    "LastChanged": "2014-12-26T11:10:27.3134525+01:00",
+    "Id": 73,
+    "Name": "Toy Inc and Sons",
+    "ToolTip": "Veritatis impedit consequatur autem et ut consequatur rerum.",
+    "Deleted": true,
+    "Rank": 286,
+    "Type": "doloremque",
+    "ColorBlock": 574,
+    "IconHint": "vero",
+    "Selected": true,
+    "LastChanged": "2019-03-18T02:49:44.7340524+01:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Boehm, Adams and Mertz",
-        "ToolTip": "Nam dolores sunt est rerum est facilis corrupti.",
+        "Id": 957,
+        "Name": "Hayes, Simonis and O'Kon",
+        "ToolTip": "Officia autem aut ea odit.",
         "Deleted": false,
-        "Rank": 10,
-        "Type": "ea",
-        "ColorBlock": 746,
-        "IconHint": "repellat",
+        "Rank": 181,
+        "Type": "est",
+        "ColorBlock": 572,
+        "IconHint": "nostrum",
         "Selected": true,
-        "LastChanged": "2018-11-27T11:10:27.3134525+01:00",
+        "LastChanged": "2001-05-30T02:49:44.7340524+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "sunt",
+        "ExtraInfo": "ut",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Zena Swaniawski",
+        "FullName": "Henriette Williamson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 249
+            "FieldLength": 311
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "quidem",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Gerson Kunde MD",
+    "FullName": "Dr. Edgardo Jean Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldType": "System.String",
+        "FieldLength": 842
       }
     }
   }

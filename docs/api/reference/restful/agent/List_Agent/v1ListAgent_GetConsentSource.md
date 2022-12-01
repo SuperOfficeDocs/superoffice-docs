@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetConsentSource
 
 Gets a ConsentSource object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ConsentSource object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentSource?consentSourceId=237
+POST /api/v1/Agents/List/GetConsentSource?consentSourceId=94
 POST /api/v1/Agents/List/GetConsentSource?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetConsentSource?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +72,7 @@ Response body:
 POST /api/v1/Agents/List/GetConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 674,
-  "Name": "Marks LLC",
-  "Tooltip": "molestiae",
-  "Rank": 83,
-  "Key": "et",
-  "MailTemplateId": 50,
-  "Deleted": true,
+  "ConsentSourceId": 744,
+  "Name": "Breitenberg-Monahan",
+  "Tooltip": "accusantium",
+  "Rank": 703,
+  "Key": "doloremque",
+  "MailTemplateId": 190,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldLength": 943
     }
   }
 }

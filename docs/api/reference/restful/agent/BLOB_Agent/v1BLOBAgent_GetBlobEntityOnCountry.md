@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 
 Gets the blob entity that represents the country flag binary object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the blob entity that represents the country flag binary object.
 ```http
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CountryId
+CountryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CountryId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,11 +85,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 334
+  "CountryId": 156
 }
 ```
 
@@ -92,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 106,
-  "BlobSize": 644,
-  "Description": "Upgradable empowering leverage",
-  "ExtraInfo": "aut",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "totam",
-  "OriginalSize": 169,
-  "CreatedDate": "2017-06-10T11:10:26.0345529+02:00",
-  "UpdatedDate": "1999-02-23T11:10:26.0345529+01:00",
+  "BlobId": 206,
+  "BlobSize": 801,
+  "Description": "Profound even-keeled focus group",
+  "ExtraInfo": "veritatis",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "ut",
+  "OriginalSize": 640,
+  "CreatedDate": "1997-08-18T02:49:43.7160326+02:00",
+  "UpdatedDate": "2011-02-04T02:49:43.7160326+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quos",
+  "ConceptualType": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 358
+      "FieldLength": 718
     }
   }
 }

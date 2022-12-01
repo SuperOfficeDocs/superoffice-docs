@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailEnvelopes
 
 Retrieve a set of e-mail envelopes
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Retrieve a set of e-mail envelopes
 ```http
 POST /api/v1/Agents/EMail/GetEMailEnvelopes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +46,15 @@ POST /api/v1/Agents/EMail/GetEMailEnvelopes?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfo, MessageServerIds
+ConnectionInfo, MessageServerIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | MessageServerIds | array |  |
+
 
 ## Response: array
 
@@ -83,8 +93,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    915,
-    246
+    514,
+    74
   ]
 }
 ```
@@ -97,45 +107,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 291,
-    "MessageId": "nihil",
-    "Subject": "quos",
+    "ServerId": 661,
+    "MessageId": "voluptatem",
+    "Subject": "illum",
     "From": null,
     "To": [
       {
-        "ContactId": 500,
-        "ContactName": "Hackett Group",
-        "PersonId": 204,
-        "PersonName": "Glover-Torphy",
-        "AssociateId": 226,
-        "Address": "quo",
-        "EmailId": 372,
+        "ContactId": 77,
+        "ContactName": "Larson-Marks",
+        "PersonId": 497,
+        "PersonName": "Quigley, Rempel and Kris",
+        "AssociateId": 446,
+        "Address": "aperiam",
+        "EmailId": 328,
         "DuplicatePersonIds": [
-          540,
-          116
+          464,
+          900
         ],
-        "Name": "Monahan-Miller",
+        "Name": "Dach LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 189
+            "FieldLength": 863
           }
         }
       }
     ],
-    "Sent": "2021-09-28T11:10:26.9614527+02:00",
+    "Sent": "2010-04-28T02:49:44.4504155+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 583,
+    "Size": 307,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 663
       }
     }
   }

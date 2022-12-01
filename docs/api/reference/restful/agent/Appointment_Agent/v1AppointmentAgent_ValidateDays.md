@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/ValidateDays
 
 Validates the set of dates to calculate any conflicts.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Validates the set of dates to calculate any conflicts.
 ```http
 POST /api/v1/Agents/Appointment/ValidateDays?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Appointment/ValidateDays?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentEntity, Dates
+AppointmentEntity, Dates 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentEntity |  | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
 | Dates | array |  |
+
 
 ## Response: array
 
@@ -68,14 +76,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "labore",
-    "magnam"
+    "inventore",
+    "adipisci"
   ]
 }
 ```
@@ -88,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2005-12-11T11:10:25.5985227+01:00",
-    "IsConflict": true,
-    "Description": "Universal radical access",
-    "DescriptionStyleHint": "Realigned local capability",
-    "Tooltip": "quaerat"
+    "Date": "1999-08-23T02:49:43.372278+02:00",
+    "IsConflict": false,
+    "Description": "Enhanced background encryption",
+    "DescriptionStyleHint": "Front-line radical infrastructure",
+    "Tooltip": "magnam"
   },
   {
-    "Date": "2005-12-11T11:10:25.5985227+01:00",
-    "IsConflict": true,
-    "Description": "Universal radical access",
-    "DescriptionStyleHint": "Realigned local capability",
-    "Tooltip": "quaerat"
+    "Date": "1999-08-23T02:49:43.372278+02:00",
+    "IsConflict": false,
+    "Description": "Enhanced background encryption",
+    "DescriptionStyleHint": "Front-line radical infrastructure",
+    "Tooltip": "magnam"
   }
 ]
 ```

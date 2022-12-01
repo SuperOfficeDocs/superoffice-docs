@@ -11,11 +11,17 @@ GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 
 Gets headings for the ProductCategory list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 193,
-    "Name": "Tremblay-Powlowski",
-    "ToolTip": "Dolore nulla quos delectus voluptate sed rerum dolores.",
-    "Deleted": false,
-    "Rank": 912,
-    "Type": "vel",
-    "ColorBlock": 516,
-    "IconHint": "alias",
-    "Selected": true,
-    "LastChanged": "2016-07-17T11:10:54.4229274+02:00",
+    "Id": 748,
+    "Name": "DuBuque-Keebler",
+    "ToolTip": "Neque nostrum ut asperiores a voluptatibus esse minima.",
+    "Deleted": true,
+    "Rank": 733,
+    "Type": "sunt",
+    "ColorBlock": 853,
+    "IconHint": "aperiam",
+    "Selected": false,
+    "LastChanged": "2013-05-08T02:49:52.3597004+02:00",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Prohaska, Marquardt and Jewess",
-        "ToolTip": "Libero exercitationem.",
-        "Deleted": false,
-        "Rank": 750,
-        "Type": "modi",
-        "ColorBlock": 462,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2022-07-11T11:10:54.4229274+02:00",
+        "Id": 549,
+        "Name": "Borer-Walsh",
+        "ToolTip": "Temporibus modi provident et et et eum.",
+        "Deleted": true,
+        "Rank": 4,
+        "Type": "neque",
+        "ColorBlock": 527,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2010-10-08T02:49:52.3597004+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "voluptate",
-        "Hidden": false,
-        "FullName": "Mrs. Ferne Eduardo Stokes DVM",
+        "ExtraInfo": "non",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Eudora Hyatt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 155
+            "FieldType": "System.String",
+            "FieldLength": 332
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "nostrum",
-    "Hidden": true,
-    "FullName": "Lindsey Volkman",
+    "ExtraInfo": "et",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Hallie Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldType": "System.Int32",
+        "FieldLength": 449
       }
     }
   }

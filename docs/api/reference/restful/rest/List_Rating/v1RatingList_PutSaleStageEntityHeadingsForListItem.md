@@ -11,11 +11,18 @@ PUT /api/v1/List/Rating/Items/{itemId}/Headings
 
 Saves headings for the SaleStageEntity list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Zboncak-Waters",
-    "ToolTip": "Deleniti et rerum.",
-    "Deleted": true,
-    "Rank": 200,
-    "Type": "velit",
-    "ColorBlock": 970,
-    "IconHint": "ullam",
+    "Id": 928,
+    "Name": "Yundt Inc and Sons",
+    "ToolTip": "Saepe maxime explicabo quae.",
+    "Deleted": false,
+    "Rank": 721,
+    "Type": "et",
+    "ColorBlock": 606,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2011-01-25T11:10:54.538932+01:00",
+    "LastChanged": "2008-07-13T02:49:52.4534506+02:00",
     "ChildItems": [
       {
-        "Id": 743,
-        "Name": "Walker Inc and Sons",
-        "ToolTip": "Sint et qui qui iste nostrum sit aut.",
-        "Deleted": true,
-        "Rank": 893,
-        "Type": "voluptatem",
-        "ColorBlock": 440,
-        "IconHint": "at",
+        "Id": 298,
+        "Name": "Koepp Group",
+        "ToolTip": "Illum cupiditate unde quia velit velit.",
+        "Deleted": false,
+        "Rank": 636,
+        "Type": "ipsam",
+        "ColorBlock": 761,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2015-09-27T11:10:54.538932+02:00",
+        "LastChanged": "2001-05-09T02:49:52.4534506+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "cumque",
+        "ExtraInfo": "itaque",
+        "StyleHint": "minima",
         "Hidden": true,
-        "FullName": "Mac Blick Sr."
+        "FullName": "Maye Carol Maggio PhD"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "sunt",
+    "ExtraInfo": "odio",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Mr. Perry Rowe"
+    "FullName": "Joany Gislason"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 46,
-    "Name": "VonRueden, Keebler and Bode",
-    "ToolTip": "Dolorem eaque.",
-    "Deleted": false,
-    "Rank": 39,
-    "Type": "quis",
-    "ColorBlock": 98,
-    "IconHint": "veritatis",
+    "Id": 102,
+    "Name": "Schneider, Yost and Rolfson",
+    "ToolTip": "Ullam officiis rem error.",
+    "Deleted": true,
+    "Rank": 509,
+    "Type": "impedit",
+    "ColorBlock": 809,
+    "IconHint": "eligendi",
     "Selected": false,
-    "LastChanged": "2017-09-05T11:10:54.5409296+02:00",
+    "LastChanged": "1998-05-15T02:49:52.4534506+02:00",
     "ChildItems": [
       {
-        "Id": 955,
-        "Name": "Carroll LLC",
-        "ToolTip": "Voluptatem ab non qui necessitatibus velit.",
-        "Deleted": false,
-        "Rank": 532,
-        "Type": "sint",
-        "ColorBlock": 488,
-        "IconHint": "et",
+        "Id": 652,
+        "Name": "Dietrich-Wilkinson",
+        "ToolTip": "Voluptatem ipsam laborum quia magni ipsa.",
+        "Deleted": true,
+        "Rank": 804,
+        "Type": "voluptatem",
+        "ColorBlock": 210,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2015-10-21T11:10:54.5409296+02:00",
+        "LastChanged": "1995-10-17T02:49:52.4534506+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "officia",
         "Hidden": true,
-        "FullName": "Torrey Trantow",
+        "FullName": "Gabriella Ortiz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 453
+            "FieldType": "System.String",
+            "FieldLength": 485
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "sed",
+    "ExtraInfo": "odit",
+    "StyleHint": "soluta",
     "Hidden": true,
-    "FullName": "Joseph Wiza I",
+    "FullName": "Vada Stiedemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 911
+        "FieldType": "System.Int32",
+        "FieldLength": 783
       }
     }
   }

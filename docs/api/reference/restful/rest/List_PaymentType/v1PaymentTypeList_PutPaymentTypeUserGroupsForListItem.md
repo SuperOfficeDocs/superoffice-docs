@@ -11,11 +11,18 @@ PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 
 Saves user groups visible for the PaymentType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Graham, Tromp and Bosco",
-    "ToolTip": "Libero recusandae repudiandae esse et nobis est tenetur.",
+    "Id": 765,
+    "Name": "Bednar Group",
+    "ToolTip": "Delectus id ut neque.",
     "Deleted": false,
-    "Rank": 299,
-    "Type": "non",
-    "ColorBlock": 164,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2003-03-26T11:10:54.3578993+01:00",
+    "Rank": 421,
+    "Type": "velit",
+    "ColorBlock": 914,
+    "IconHint": "eligendi",
+    "Selected": false,
+    "LastChanged": "2016-05-23T02:49:52.3128229+02:00",
     "ChildItems": [
       {
-        "Id": 562,
-        "Name": "Beier-Collier",
-        "ToolTip": "Facere voluptas dolores tenetur voluptas tempore.",
-        "Deleted": false,
-        "Rank": 570,
-        "Type": "itaque",
-        "ColorBlock": 942,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2013-05-08T11:10:54.3578993+02:00",
+        "Id": 187,
+        "Name": "Vandervort Inc and Sons",
+        "ToolTip": "Quaerat exercitationem voluptatem non.",
+        "Deleted": true,
+        "Rank": 514,
+        "Type": "sed",
+        "ColorBlock": 764,
+        "IconHint": "voluptates",
+        "Selected": false,
+        "LastChanged": "1998-07-08T02:49:52.3128229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "fugit",
+        "ExtraInfo": "modi",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Mrs. Trent Laverne Shanahan"
+        "FullName": "Barry West"
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Ms. Kasandra Homenick V"
+    "ExtraInfo": "tempore",
+    "StyleHint": "sunt",
+    "Hidden": true,
+    "FullName": "Johanna Pagac"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 33,
-    "Name": "Mayer Group",
-    "ToolTip": "Omnis sint.",
+    "Id": 85,
+    "Name": "Klein, Rowe and McLaughlin",
+    "ToolTip": "Est distinctio debitis omnis sapiente veniam placeat dolorem.",
     "Deleted": true,
-    "Rank": 594,
-    "Type": "tempora",
-    "ColorBlock": 349,
-    "IconHint": "temporibus",
-    "Selected": true,
-    "LastChanged": "2010-08-18T11:10:54.3598993+02:00",
+    "Rank": 927,
+    "Type": "ea",
+    "ColorBlock": 651,
+    "IconHint": "incidunt",
+    "Selected": false,
+    "LastChanged": "2010-12-15T02:49:52.3128229+01:00",
     "ChildItems": [
       {
-        "Id": 191,
-        "Name": "Paucek, West and Treutel",
-        "ToolTip": "Fugiat ipsum doloremque.",
+        "Id": 39,
+        "Name": "Romaguera Inc and Sons",
+        "ToolTip": "Deserunt similique eveniet.",
         "Deleted": false,
-        "Rank": 461,
-        "Type": "optio",
-        "ColorBlock": 755,
-        "IconHint": "nesciunt",
+        "Rank": 125,
+        "Type": "saepe",
+        "ColorBlock": 628,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2003-03-29T11:10:54.3598993+01:00",
+        "LastChanged": "2004-01-21T02:49:52.3128229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "at",
+        "ExtraInfo": "quo",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Crawford Barrows",
+        "FullName": "Kyler Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 811
+            "FieldType": "System.String",
+            "FieldLength": 398
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quam",
+    "ExtraInfo": "qui",
+    "StyleHint": "dolore",
     "Hidden": false,
-    "FullName": "Ari Pollich",
+    "FullName": "Prof. Westley Haag Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 703
+        "FieldLength": 414
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetListWithHistory
 
 Method to get a MDO list with own history list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method to get a MDO list with own history list.
 ```http
 POST /api/v1/Agents/MDO/GetListWithHistory?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/MDO/GetListWithHistory?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory
+Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,6 +53,7 @@ Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory
 | AdditionalInfo | string |  |
 | HistoryItems | array |  |
 | OnlyHistory | bool |  |
+
 
 ## Response: array
 
@@ -84,12 +92,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kris Inc and Sons",
+  "Name": "Rosenbaum, Hane and Lemke",
   "ForceFlatList": false,
-  "AdditionalInfo": "voluptate",
+  "AdditionalInfo": "aut",
   "HistoryItems": [
-    124,
-    960
+    894,
+    374
   ],
   "OnlyHistory": false
 }
@@ -103,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Lowe, Bernhard and Champlin",
-    "ToolTip": "Doloribus illum molestias voluptatem est ipsam iusto et.",
+    "Id": 141,
+    "Name": "Conn Inc and Sons",
+    "ToolTip": "Ipsa dolor.",
     "Deleted": false,
-    "Rank": 493,
+    "Rank": 790,
     "Type": "sit",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Kessler-Pacocha",
-        "ToolTip": "Quibusdam temporibus tempore est.",
+        "Id": 64,
+        "Name": "Yundt-Kozey",
+        "ToolTip": "Et ratione architecto nemo accusamus distinctio sit.",
         "Deleted": false,
-        "Rank": 485,
-        "Type": "amet",
+        "Rank": 312,
+        "Type": "cupiditate",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 536,
-        "ExtraInfo": "minima",
-        "StyleHint": "et",
-        "FullName": "Effie Marvin",
+        "IconHint": "autem",
+        "ColorBlock": 712,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "ipsam",
+        "FullName": "Keely Harber I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 431
+            "FieldType": "System.Int32",
+            "FieldLength": 916
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 545,
-    "ExtraInfo": "est",
-    "StyleHint": "impedit",
-    "FullName": "Esther Steuber",
+    "IconHint": "officiis",
+    "ColorBlock": 629,
+    "ExtraInfo": "laudantium",
+    "StyleHint": "enim",
+    "FullName": "Miss Delbert Casper",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldType": "System.String",
+        "FieldLength": 754
       }
     }
   }

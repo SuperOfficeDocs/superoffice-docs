@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 08.26.2022
+so.date: 11.29.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -52,3 +52,4 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IFindAgent'>Fin
 * [SaveRestrictionsAndGetCriteriaInformation2](saverestrictionsandgetcriteriainformation2.md)
 * [SaveRestrictionsWithContext](saverestrictionswithcontext.md)
 * [SaveRestrictionsWithContext2](saverestrictionswithcontext2.md)
+

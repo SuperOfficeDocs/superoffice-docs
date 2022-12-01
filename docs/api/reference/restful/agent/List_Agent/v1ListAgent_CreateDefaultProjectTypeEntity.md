@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 
 Set default values into a new ProjectTypeEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +65,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -67,41 +75,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 640,
-  "Name": "O'Reilly, Welch and Buckridge",
-  "Tooltip": "voluptatem",
-  "Rank": 574,
+  "ProjTypeId": 711,
+  "Name": "Shields-Hagenes",
+  "Tooltip": "molestias",
+  "Rank": 204,
   "DurationUnit": "Century",
-  "ProjectDuration": 525,
-  "Deleted": true,
+  "ProjectDuration": 652,
+  "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 509,
-      "Name": "Rutherford, Skiles and Schowalter",
-      "ToolTip": "Omnis cum.",
+      "Id": 560,
+      "Name": "Greenfelder-West",
+      "ToolTip": "Quo dicta qui est.",
       "Deleted": false,
-      "Rank": 86,
-      "Type": "omnis",
-      "ColorBlock": 713,
-      "IconHint": "sint",
+      "Rank": 437,
+      "Type": "eaque",
+      "ColorBlock": 480,
+      "IconHint": "quaerat",
       "Selected": false,
-      "LastChanged": "1998-04-24T11:10:27.251448+02:00",
+      "LastChanged": "2005-01-25T02:49:44.6860468+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quae",
-      "StyleHint": "tenetur",
+      "ExtraInfo": "qui",
+      "StyleHint": "nam",
       "Hidden": true,
-      "FullName": "Miss Jarrell Noble Collins PhD",
+      "FullName": "Miss Russell Jenkins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldType": "System.String",
+          "FieldLength": 569
         }
       }
     }
@@ -110,8 +118,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldType": "System.Int32",
+      "FieldLength": 629
     }
   }
 }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GenerateLead
 
 Adds a sales lead (task) to a contact in SuperOffice.
 
+
 If the contact or person is known, the sales lead is added to the current contact. If not, a new contact is created, with the associate with ownerIdForNewContact as responsible (Our Contact). A relation is created between the contact and the person submitting the lead. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person). If more than one contact is found a list of contacts is returned.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If the contact or person is known, the sales lead is added to the current contac
 ```http
 POST /api/v1/Agents/Appointment/GenerateLead?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GenerateLead?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIdForNewContact, LeadDescription, Relation, RelationId, LeadContact, LeadPersonFirstname, LeadPersonLastname, LeadPersonEmail, LeadPhoneNumber, CreatorsContact, CreatorsFirstname, CreatorsLastname
+AssociateIdForNewContact, LeadDescription, Relation, RelationId, LeadContact, LeadPersonFirstname, LeadPersonLastname, LeadPersonEmail, LeadPhoneNumber, CreatorsContact, CreatorsFirstname, CreatorsLastname 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +63,8 @@ AssociateIdForNewContact, LeadDescription, Relation, RelationId, LeadContact, Le
 | CreatorsFirstname | string |  |
 | CreatorsLastname | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -64,7 +72,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,22 +88,22 @@ Response body:
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 738,
-  "LeadDescription": "Re-contextualized 6th generation alliance",
-  "Relation": "fuga",
-  "RelationId": 731,
-  "LeadContact": "praesentium",
-  "LeadPersonFirstname": "Tyrel",
-  "LeadPersonLastname": "Rowe",
-  "LeadPersonEmail": "randall@johns.uk",
-  "LeadPhoneNumber": "1516746",
-  "CreatorsContact": "modi",
-  "CreatorsFirstname": "Julie",
-  "CreatorsLastname": "Kertzmann"
+  "AssociateIdForNewContact": 543,
+  "LeadDescription": "Self-enabling non-volatile benchmark",
+  "Relation": "blanditiis",
+  "RelationId": 907,
+  "LeadContact": "excepturi",
+  "LeadPersonFirstname": "Hermina",
+  "LeadPersonLastname": "McKenzie",
+  "LeadPersonEmail": "elenora.haag@cronaboehm.us",
+  "LeadPhoneNumber": "1024117",
+  "CreatorsContact": "quas",
+  "CreatorsFirstname": "Geraldine",
+  "CreatorsLastname": "Grady"
 }
 ```
 
@@ -108,34 +116,34 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 902,
-      "Name": "Hermiston Inc and Sons",
-      "OrgNr": "483249",
+      "ContactId": 475,
+      "Name": "Larson Inc and Sons",
+      "OrgNr": "956829",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "quod",
-      "DirectPhone": "792-531-6004 x0992",
-      "AssociateId": 522,
-      "CountryId": 940,
-      "EmailAddress": "herta@shanahan.uk",
-      "Kananame": "cum",
-      "EmailAddressName": "francesco@oberbrunner.info",
+      "City": "possimus",
+      "DirectPhone": "120-044-6365",
+      "AssociateId": 541,
+      "CountryId": 460,
+      "EmailAddress": "alice.pacocha@dietrichkovacek.biz",
+      "Kananame": "odit",
+      "EmailAddressName": "meredith_roberts@whitemuller.biz",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Imelda Effertz",
+      "AssociateFullName": "Maye Pouros",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "amet",
-      "FullName": "Ms. Janice Kaitlin Swift",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 278,
+      "FormattedAddress": "sequi",
+      "FullName": "Dr. Marina June Ryan IV",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 18,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 828
+          "FieldType": "System.Int32",
+          "FieldLength": 632
         }
       }
     }
@@ -147,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 770
     }
   }
 }

@@ -11,10 +11,17 @@ PUT /api/v1/License/{moduleOwner}/{associateId}
 
 Assign third party licenses
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | User to assign third party licenses for **Required** |
 | moduleOwner | string | Name of the module owner to assign license for **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,11 @@ Assign third party licenses
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: moduleLicenseNames
+## Request Body: moduleLicenseNames  
 
-Name of module licenses to assign
+Name of module licenses to assign 
+
+
 
 ## Response: array
 
@@ -69,7 +78,7 @@ Response body: array
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 95,
-    "Tooltip": "omnis",
+    "Unrestricted": true,
+    "Total": 728,
+    "Tooltip": "commodi",
     "CanAssign": false,
-    "Free": 971,
-    "InUse": 855,
+    "Free": 887,
+    "InUse": 972,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 878,
-    "Name": "Muller LLC",
-    "Description": "Sharable contextually-based orchestration",
-    "PrerequisiteModuleName": "Hegmann, Bins and Christiansen",
-    "SortOrder": 272,
-    "ExtraFlags": 657,
+    "ModuleLicenseId": 212,
+    "Name": "Pollich Group",
+    "Description": "Multi-layered static function",
+    "PrerequisiteModuleName": "Metz Inc and Sons",
+    "SortOrder": 928,
+    "ExtraFlags": 261,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 686
+        "FieldType": "System.Int32",
+        "FieldLength": 25
       }
     }
   }

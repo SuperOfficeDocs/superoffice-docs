@@ -11,7 +11,13 @@ POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
 
 Returns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.
 
+
 MinValue no restriction given for those parameters
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ MinValue no restriction given for those parameters
 ```http
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, ViewState, FromDate
+AssociateId, ViewState, FromDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | ViewState | string |  |
 | FromDate | date-time |  |
+
 
 ## Response: bool
 
@@ -57,19 +65,20 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 422,
-  "ViewState": "impedit",
-  "FromDate": "2019-01-11T11:10:26.454455+01:00"
+  "AssociateId": 212,
+  "ViewState": "quia",
+  "FromDate": "2005-12-26T02:49:44.0753838+01:00"
 }
 ```
 

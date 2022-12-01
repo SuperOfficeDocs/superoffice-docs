@@ -11,11 +11,18 @@ PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 
 Saves user groups visible for the SaleTypeEntity list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "Armstrong-Treutel",
-    "ToolTip": "Nulla sit sed est est.",
+    "Id": 17,
+    "Name": "Aufderhar-Harber",
+    "ToolTip": "Debitis vitae et asperiores.",
     "Deleted": false,
-    "Rank": 734,
-    "Type": "repellendus",
-    "ColorBlock": 47,
+    "Rank": 246,
+    "Type": "ipsam",
+    "ColorBlock": 643,
     "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "1996-09-14T11:10:54.6059354+02:00",
+    "LastChanged": "2019-09-27T02:49:52.5159497+02:00",
     "ChildItems": [
       {
-        "Id": 646,
-        "Name": "Hartmann-Barton",
-        "ToolTip": "Error impedit.",
+        "Id": 294,
+        "Name": "Lowe Inc and Sons",
+        "ToolTip": "Tempore perspiciatis ea in illum fugiat officia.",
         "Deleted": true,
-        "Rank": 322,
-        "Type": "quas",
-        "ColorBlock": 78,
-        "IconHint": "provident",
+        "Rank": 738,
+        "Type": "sequi",
+        "ColorBlock": 326,
+        "IconHint": "voluptates",
         "Selected": false,
-        "LastChanged": "2002-05-30T11:10:54.6059354+02:00",
+        "LastChanged": "1999-06-02T02:49:52.5159497+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "nostrum",
-        "Hidden": false,
-        "FullName": "Daren Abbigail West IV"
+        "ExtraInfo": "nulla",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Gideon Schuster"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "delectus",
+    "ExtraInfo": "omnis",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Sophie Jacobson II"
+    "FullName": "Mrs. Grayce Austin Denesik III"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "Abshire-Fahey",
-    "ToolTip": "Omnis minima aut et.",
+    "Id": 244,
+    "Name": "Hermann LLC",
+    "ToolTip": "Magni quia dolorem et eum.",
     "Deleted": false,
-    "Rank": 935,
-    "Type": "unde",
-    "ColorBlock": 478,
-    "IconHint": "sunt",
+    "Rank": 807,
+    "Type": "ea",
+    "ColorBlock": 871,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2000-06-07T11:10:54.6069352+02:00",
+    "LastChanged": "2009-10-24T02:49:52.5159497+02:00",
     "ChildItems": [
       {
-        "Id": 43,
-        "Name": "Abbott, Crona and Murphy",
-        "ToolTip": "Omnis ut et voluptates perspiciatis vel porro qui.",
-        "Deleted": false,
-        "Rank": 496,
-        "Type": "velit",
-        "ColorBlock": 54,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2008-10-31T11:10:54.6079348+01:00",
+        "Id": 177,
+        "Name": "Homenick-McGlynn",
+        "ToolTip": "Sequi repellendus nulla adipisci recusandae eum pariatur sed.",
+        "Deleted": true,
+        "Rank": 591,
+        "Type": "quidem",
+        "ColorBlock": 964,
+        "IconHint": "alias",
+        "Selected": false,
+        "LastChanged": "2013-11-23T02:49:52.5159497+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Telly Schamberger II",
+        "ExtraInfo": "quae",
+        "StyleHint": "expedita",
+        "Hidden": true,
+        "FullName": "Lina Schaden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 211
+            "FieldType": "System.Int32",
+            "FieldLength": 438
           }
         }
       }
     ],
     "ExtraInfo": "quod",
-    "StyleHint": "error",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Tomas Brekke",
+    "FullName": "Maegan Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 254
+        "FieldLength": 487
       }
     }
   }

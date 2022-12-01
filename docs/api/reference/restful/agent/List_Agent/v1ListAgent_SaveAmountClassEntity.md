@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveAmountClassEntity
 
 Updates the existing AmountClassEntity or creates a new AmountClassEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing AmountClassEntity or creates a new AmountClassEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The AmountClassEntity to be saved.
+The AmountClassEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The AmountClassEntity to be saved.
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
 | CurrencyId | int32 | Currency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,14 +81,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 473,
-  "Name": "Thompson, Schiller and Heathcote",
-  "Tooltip": "dolore",
-  "Rank": 934,
-  "AmountFrom": 31108.084,
-  "AmountTo": 21.938,
-  "Deleted": true,
-  "CurrencyId": 702
+  "AmountClassId": 289,
+  "Name": "Funk, Schulist and Anderson",
+  "Tooltip": "velit",
+  "Rank": 366,
+  "AmountFrom": 26441.558,
+  "AmountTo": 15767.153999999999,
+  "Deleted": false,
+  "CurrencyId": 301
 }
 ```
 
@@ -91,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 538,
-  "Name": "Ledner Inc and Sons",
-  "Tooltip": "et",
-  "Rank": 19,
-  "AmountFrom": 7186.262,
-  "AmountTo": 14701.594,
-  "Deleted": false,
-  "CurrencyId": 115,
+  "AmountClassId": 429,
+  "Name": "Fadel-Abernathy",
+  "Tooltip": "culpa",
+  "Rank": 1002,
+  "AmountFrom": 26156.363999999998,
+  "AmountTo": 24789.94,
+  "Deleted": true,
+  "CurrencyId": 640,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 896
     }
   }
 }

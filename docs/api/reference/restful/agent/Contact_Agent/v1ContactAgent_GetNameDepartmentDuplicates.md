@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 
 Get duplicates based on the contact name and department
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get duplicates based on the contact name and department
 ```http
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, Department
+Name, Department 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | Department | string |  |
+
 
 ## Response: array
 
@@ -70,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Collins-Champlin",
+  "Name": "Orn Inc and Sons",
   "Department": ""
 }
 ```
@@ -87,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Yost, Steuber and Kub",
-    "SoPrimaryKey": 695,
-    "EntryName": "Torphy Group",
-    "EntryIdentifier": "eligendi",
-    "RuleDisplayName": "Barrows, Balistreri and Halvorson",
+    "RuleName": "Barrows, Brown and McGlynn",
+    "SoPrimaryKey": 803,
+    "EntryName": "Hoeger-Kassulke",
+    "EntryIdentifier": "ut",
+    "RuleDisplayName": "Green-Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   }

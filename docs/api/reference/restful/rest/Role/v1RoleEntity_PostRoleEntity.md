@@ -11,9 +11,16 @@ POST /api/v1/Role
 
 Creates a new RoleEntity
 
+
 Calls the User agent service SaveRoleEntity.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Calls the User agent service SaveRoleEntity.
 ```http
 POST /api/v1/Role?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/Role?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The RoleEntity to be saved.
+The RoleEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +66,8 @@ The RoleEntity to be saved.
 | UpdatedBy |  | Last updated by user |
 | DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -66,7 +75,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,20 +101,20 @@ Response body:
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 887,
-  "Name": "Hahn, Botsford and Ondricka",
-  "Tooltip": "quaerat",
+  "RoleId": 422,
+  "Name": "Fay-Morar",
+  "Tooltip": "veritatis",
   "RoleType": "Anonymous",
-  "Deleted": 733,
-  "Rank": 814,
-  "Created": "2011-08-23T11:10:53.3411437+02:00",
-  "UseCategories": 235,
+  "Deleted": 486,
+  "Rank": 559,
+  "Created": "1997-06-04T02:49:51.3859386+02:00",
+  "UseCategories": 966,
   "CreatedBy": null,
-  "Updated": "2016-02-16T11:10:53.3411437+01:00",
+  "Updated": "1995-08-19T02:49:51.3859386+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -118,16 +127,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 433,
-  "Name": "Welch Group",
-  "Tooltip": "non",
+  "RoleId": 913,
+  "Name": "Sipes-Rippin",
+  "Tooltip": "est",
   "RoleType": "Anonymous",
-  "Deleted": 54,
-  "Rank": 123,
-  "Created": "2003-10-27T11:10:53.3431433+01:00",
-  "UseCategories": 385,
+  "Deleted": 304,
+  "Rank": 673,
+  "Created": "2010-01-08T02:49:51.3859386+01:00",
+  "UseCategories": 309,
   "CreatedBy": null,
-  "Updated": "2020-07-01T11:10:53.3431433+02:00",
+  "Updated": "1997-02-10T02:49:51.3859386+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -135,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 365
     }
   },
   "_Links": {

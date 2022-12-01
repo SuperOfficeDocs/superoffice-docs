@@ -11,6 +11,12 @@ POST /api/v1/Agents/AI/TranslateEntity
 
 Retrieve, format and translate text for an entity to a specified language
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Retrieve, format and translate text for an entity to a specified language
 ```http
 POST /api/v1/Agents/AI/TranslateEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/AI/TranslateEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EntityName, EntityId, TargetLanguage
+EntityName, EntityId, TargetLanguage 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EntityName | string |  |
 | EntityId | int32 |  |
 | TargetLanguage | string |  |
+
 
 ## Response: string
 
@@ -55,6 +63,7 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
@@ -65,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Jacobson-Mills",
-  "EntityId": 636,
-  "TargetLanguage": "ut"
+  "EntityName": "Donnelly-White",
+  "EntityId": 607,
+  "TargetLanguage": "aut"
 }
 ```
 
@@ -77,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"blanditiis"
+"consequuntur"
 ```

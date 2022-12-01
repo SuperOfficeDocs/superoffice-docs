@@ -11,7 +11,14 @@ PUT /api/v1/List/Task/Headings
 
 Saves headings for the TaskListItem list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -72,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 805,
-    "Name": "Douglas LLC",
-    "Tooltip": "unde",
+    "HeadingId": 690,
+    "Name": "Homenick Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 402,
-    "UdListDefinitionId": 516
+    "Rank": 956,
+    "UdListDefinitionId": 690
   },
   {
-    "HeadingId": 805,
-    "Name": "Douglas LLC",
-    "Tooltip": "unde",
+    "HeadingId": 690,
+    "Name": "Homenick Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 402,
-    "UdListDefinitionId": 516
+    "Rank": 956,
+    "UdListDefinitionId": 690
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 238,
-    "Name": "Stanton-Kreiger",
-    "Tooltip": "doloribus",
-    "Deleted": false,
-    "Rank": 139,
-    "UdListDefinitionId": 986,
+    "HeadingId": 204,
+    "Name": "O'Conner, Goyette and Stokes",
+    "Tooltip": "deleniti",
+    "Deleted": true,
+    "Rank": 530,
+    "UdListDefinitionId": 526,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 948
+        "FieldLength": 286
       }
     }
   }

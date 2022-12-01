@@ -11,7 +11,14 @@ PUT /api/v1/List/Competitor/Headings
 
 Saves headings for the Competitor list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 730,
-    "Name": "Schiller-White",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 867,
-    "UdListDefinitionId": 31
+    "HeadingId": 968,
+    "Name": "Predovic, Smith and Adams",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 244,
+    "UdListDefinitionId": 18
   },
   {
-    "HeadingId": 730,
-    "Name": "Schiller-White",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 867,
-    "UdListDefinitionId": 31
+    "HeadingId": 968,
+    "Name": "Predovic, Smith and Adams",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 244,
+    "UdListDefinitionId": 18
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 578,
-    "Name": "Nitzsche, Quigley and Koss",
-    "Tooltip": "enim",
+    "HeadingId": 15,
+    "Name": "Beier, Pfeffer and Cummerata",
+    "Tooltip": "laboriosam",
     "Deleted": false,
-    "Rank": 858,
-    "UdListDefinitionId": 799,
+    "Rank": 309,
+    "UdListDefinitionId": 286,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldLength": 76
       }
     }
   }

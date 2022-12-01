@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetAppointmentEntity
 
 Gets a AppointmentEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=968
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=938
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -112,7 +120,7 @@ Response body:
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -126,122 +134,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-09-18T11:10:25.5565239+02:00",
-  "AppointmentId": 838,
-  "Description": "Object-based radical project",
-  "StartDate": "1997-08-15T11:10:25.5575239+02:00",
-  "EndDate": "2010-02-04T11:10:25.5575239+01:00",
+  "CreatedDate": "2018-11-16T02:49:43.3410292+01:00",
+  "AppointmentId": 710,
+  "Description": "Pre-emptive bandwidth-monitored concept",
+  "StartDate": "2020-01-04T02:49:43.3410292+01:00",
+  "EndDate": "2006-05-04T02:49:43.3410292+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 726,
+  "MotherId": 864,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-02-20T11:10:25.5615468+01:00",
+  "UpdatedDate": "2003-10-12T02:49:43.3410292+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 326,
+  "ActiveLinks": 163,
   "Links": [
     {
-      "EntityName": "Murphy, Schmidt and Schmeler",
-      "Id": 578,
-      "Description": "Phased user-facing firmware",
-      "ExtraInfo": "porro",
-      "LinkId": 21,
+      "EntityName": "Grant-Dooley",
+      "Id": 342,
+      "Description": "Cross-platform directional internet solution",
+      "ExtraInfo": "mollitia",
+      "LinkId": 391,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldType": "System.String",
+          "FieldLength": 987
         }
       }
     }
   ],
-  "AlarmLeadTime": "adipisci",
+  "AlarmLeadTime": "eligendi",
   "HasAlarm": true,
-  "ColorIndex": 818,
+  "ColorIndex": 348,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "fugiat",
-  "LeadTime": "reiciendis",
-  "Location": "vero",
-  "RejectCounter": 701,
+  "LagTime": "illum",
+  "LeadTime": "vitae",
+  "Location": "et",
+  "RejectCounter": 472,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 374,
-      "PersonId": 21,
-      "ContactId": 489,
-      "EmailId": 777,
-      "SendEmail": true,
+      "AssociateId": 60,
+      "PersonId": 323,
+      "ContactId": 484,
+      "EmailId": 28,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 374,
-      "PersonId": 21,
-      "ContactId": 489,
-      "EmailId": 777,
-      "SendEmail": true,
+      "AssociateId": 60,
+      "PersonId": 323,
+      "ContactId": 484,
+      "EmailId": 28,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-06-11T11:10:25.5615468+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2007-02-27T02:49:43.3410292+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 282,
+  "PreferredTZLocation": 665,
   "Sale": null,
-  "SuggestedAppointmentId": 890,
+  "SuggestedAppointmentId": 767,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "illo",
+  "CentralserviceVideomeetId": "nesciunt",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Salvatore Rodriguez"
+    "SuperOffice:1": "Adolfo Roberts V",
+    "SuperOffice:2": "Ms. Gaston Bechtelar"
   },
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "consectetur",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "quasi",
-    "CustomFields2": "dolores"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "alias"
   },
-  "PublishEventDate": "2016-02-21T11:10:25.563524+01:00",
-  "PublishTo": "2007-03-07T11:10:25.563524+01:00",
-  "PublishFrom": "2014-02-17T11:10:25.563524+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2006-10-05T02:49:43.3410292+02:00",
+  "PublishTo": "2004-03-10T02:49:43.3410292+01:00",
+  "PublishFrom": "1998-02-22T02:49:43.3410292+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 559,
+      "VisibleId": 129,
       "Visibility": "All",
-      "DisplayValue": "doloremque",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldLength": 229
         }
       }
     },
     {
-      "VisibleId": 559,
+      "VisibleId": 129,
       "Visibility": "All",
-      "DisplayValue": "doloremque",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldLength": 229
         }
       }
     }
@@ -251,7 +259,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 378
     }
   }
 }

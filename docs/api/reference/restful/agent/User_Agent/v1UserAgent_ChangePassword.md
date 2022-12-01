@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/ChangePassword
 
 Change password for a user.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Change password for a user.
 ```http
 POST /api/v1/Agents/User/ChangePassword?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/User/ChangePassword?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, OldPassword, NewPassword
+AssociateId, OldPassword, NewPassword 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | OldPassword | string |  |
 | NewPassword | string |  |
+
 
 ## Response: bool
 
@@ -57,19 +67,20 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/User/ChangePassword
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 19,
-  "OldPassword": "eius",
-  "NewPassword": "et"
+  "AssociateId": 447,
+  "OldPassword": "ipsam",
+  "NewPassword": "aliquam"
 }
 ```
 
@@ -79,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

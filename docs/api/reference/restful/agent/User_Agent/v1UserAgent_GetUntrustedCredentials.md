@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetUntrustedCredentials
 
 Get a set of credentials of a specified type for authenticated user.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get a set of credentials of a specified type for authenticated user.
 ```http
 POST /api/v1/Agents/User/GetUntrustedCredentials?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/User/GetUntrustedCredentials?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type
+Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
+
 
 ## Response: array
 
@@ -72,11 +82,11 @@ Response body: array
 POST /api/v1/Agents/User/GetUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "itaque"
+  "Type": "et"
 }
 ```
 
@@ -88,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "1997-10-02T11:10:28.4172069+02:00",
-    "ValidTo": "2017-09-16T11:10:28.4172069+02:00",
-    "Comment": "et",
-    "SecretValue": "ducimus",
-    "PublicValue": "cumque",
-    "IsActive": false,
+    "ValidFrom": "2019-09-20T02:49:45.6715962+02:00",
+    "ValidTo": "2002-07-25T02:49:45.6715962+02:00",
+    "Comment": "dolor",
+    "SecretValue": "consequatur",
+    "PublicValue": "esse",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 863
       }
     }
   }

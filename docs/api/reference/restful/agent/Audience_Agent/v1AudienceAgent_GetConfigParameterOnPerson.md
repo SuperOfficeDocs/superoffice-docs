@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 
 Gets an Audience configuration parameter with the specified configuration parameter name on the person specified
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an Audience configuration parameter with the specified configuration parame
 ```http
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Audience/GetConfigParameterOnPerson?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ParameterName, PersonId
+ParameterName, PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ParameterName | string |  |
 | PersonId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,12 +80,12 @@ Response body:
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Terry-Beahan",
-  "PersonId": 89
+  "ParameterName": "Hodkiewicz LLC",
+  "PersonId": 549
 }
 ```
 
@@ -88,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 976,
-  "Name": "Konopelski, McKenzie and Haley",
-  "Value": "magni",
-  "CreatedDate": "2001-10-01T11:10:26.0055526+02:00",
-  "UpdatedDate": "2010-08-09T11:10:26.0055526+02:00",
-  "CreatedBy": "nisi",
-  "UpdatedBy": "sit",
+  "AudienceLayoutId": 915,
+  "Name": "Christiansen Group",
+  "Value": "maxime",
+  "CreatedDate": "2014-11-29T02:49:43.6847821+01:00",
+  "UpdatedDate": "2013-08-23T02:49:43.6847821+02:00",
+  "CreatedBy": "officiis",
+  "UpdatedBy": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldType": "System.Int32",
+      "FieldLength": 985
     }
   }
 }

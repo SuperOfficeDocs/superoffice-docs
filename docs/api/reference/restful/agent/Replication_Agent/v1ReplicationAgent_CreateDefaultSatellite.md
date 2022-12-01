@@ -11,9 +11,17 @@ POST /api/v1/Agents/Replication/CreateDefaultSatellite
 
 Set default values into a new Satellite.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
+
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 377,
-  "Created": "2008-02-22T11:10:27.7494954+01:00",
+  "SatelliteId": 717,
+  "Created": "2004-07-10T02:49:45.0622144+02:00",
   "CreatedBy": null,
-  "Updated": "2007-03-03T11:10:27.7504949+01:00",
+  "Updated": "2016-09-14T02:49:45.0622144+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Corkery-Hauck",
-      "Description": "Down-sized optimal architecture",
+      "Name": "Huel-Heidenreich",
+      "Description": "Grass-roots multi-state access",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -91,13 +100,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 923
+          "FieldLength": 24
         }
       }
     },
     {
-      "Name": "Corkery-Hauck",
-      "Description": "Down-sized optimal architecture",
+      "Name": "Huel-Heidenreich",
+      "Description": "Grass-roots multi-state access",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,7 +120,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 923
+          "FieldLength": 24
         }
       }
     }
@@ -121,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 680
     }
   }
 }

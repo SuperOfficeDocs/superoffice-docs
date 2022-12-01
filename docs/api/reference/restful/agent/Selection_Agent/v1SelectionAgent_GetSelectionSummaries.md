@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetSelectionSummaries
 
 Get an array of summaryitem for the given selections
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get an array of summaryitem for the given selections
 ```http
 POST /api/v1/Agents/Selection/GetSelectionSummaries?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Selection/GetSelectionSummaries?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionIds
+SelectionIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionIds | array |  |
+
 
 ## Response: array
 
@@ -67,13 +75,13 @@ Response body: array
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    944,
-    637
+    60,
+    240
   ]
 }
 ```
@@ -86,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 147,
-    "Name": "Tromp, Hane and Schaefer",
-    "TargetTable": "quia",
-    "Registered": "1997-12-16T11:10:28.1647233+01:00",
-    "ProviderName": "Hagenes, Marks and Little"
+    "SelectionId": 555,
+    "Name": "Gibson-Carter",
+    "TargetTable": "est",
+    "Registered": "2016-11-19T02:49:45.4215877+01:00",
+    "ProviderName": "Trantow Inc and Sons"
   },
   {
-    "SelectionId": 147,
-    "Name": "Tromp, Hane and Schaefer",
-    "TargetTable": "quia",
-    "Registered": "1997-12-16T11:10:28.1647233+01:00",
-    "ProviderName": "Hagenes, Marks and Little"
+    "SelectionId": 555,
+    "Name": "Gibson-Carter",
+    "TargetTable": "est",
+    "Registered": "2016-11-19T02:49:45.4215877+01:00",
+    "ProviderName": "Trantow Inc and Sons"
   }
 ]
 ```

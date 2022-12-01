@@ -11,7 +11,14 @@ GET /api/v1/List/ConsentPurpose/Items
 
 Gets a list of all ConsentPurpose list items.
 
+
 Calls the List agent service GetAllConsentPurpose.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the List agent service GetAllConsentPurpose.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -60,7 +68,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,25 +79,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 611,
-    "Name": "Treutel-Jewess",
-    "ConsentText": "sunt",
-    "FormText": "minus",
-    "Key": "dolores",
-    "Tooltip": "est",
-    "Active": 811,
-    "UpdatedDate": "2013-10-11T11:10:53.974183+02:00",
+    "ConsentPurposeId": 58,
+    "Name": "O'Kon-Crist",
+    "ConsentText": "delectus",
+    "FormText": "aliquid",
+    "Key": "ea",
+    "Tooltip": "occaecati",
+    "Active": 73,
+    "UpdatedDate": "2010-03-24T02:49:51.9378192+01:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 70,
-    "PrivacyStatementDesc": "harum",
+    "Rank": 848,
+    "PrivacyStatementDesc": "dolor",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 13
       }
     }
   }

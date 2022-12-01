@@ -11,7 +11,14 @@ GET /api/v1/Relation/default
 
 Set default values into a new ContactRelationEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Relation agent service CreateDefaultContactRelationEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +73,7 @@ Response body:
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,33 +81,33 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 11 Apr 2021 11:10:52 G4T
+Last-Modified: Wed, 16 Nov 2011 02:49:50 G11T
 
 {
-  "SourceContactId": 613,
-  "SourcePersonId": 174,
-  "DestinationContactId": 829,
-  "DestinationPersonId": 991,
-  "RelationId": 972,
-  "Comment": "nostrum",
-  "RelationDefinitionId": 384,
-  "Reversed": 85,
-  "UpdatedDate": "2021-04-11T11:10:52.7411738+02:00",
-  "CreatedDate": "1998-05-07T11:10:52.7411738+02:00",
+  "SourceContactId": 469,
+  "SourcePersonId": 36,
+  "DestinationContactId": 192,
+  "DestinationPersonId": 789,
+  "RelationId": 12,
+  "Comment": "est",
+  "RelationDefinitionId": 904,
+  "Reversed": 42,
+  "UpdatedDate": "2011-11-16T02:49:50.8390391+01:00",
+  "CreatedDate": "2021-12-25T02:49:50.8390391+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Nitzsche, Luettgen and Larson",
-  "SourcePersonName": "Howe Group",
-  "DestinationContactName": "Fahey Inc and Sons",
-  "DestinationPersonName": "Watsica Inc and Sons",
-  "ActiveText": "maiores",
-  "PassiveText": "qui",
+  "SourceContactName": "Hessel, Hansen and Green",
+  "SourcePersonName": "Pacocha, Wunsch and Schroeder",
+  "DestinationContactName": "Kunde LLC",
+  "DestinationPersonName": "Steuber Group",
+  "ActiveText": "blanditiis",
+  "PassiveText": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 48
     }
   }
 }

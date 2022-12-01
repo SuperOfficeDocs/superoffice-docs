@@ -11,7 +11,14 @@ GET /api/v1/User/currentPrincipal
 
 Gets the currently logged in user's information, even in Online.
 
+
 Does not call an agent - just returns the current session info.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Does not call an agent - just returns the current session info.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +80,7 @@ Response body:
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,76 +91,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "ipsam",
-  "AssociateId": 889,
+  "Associate": "saepe",
+  "AssociateId": 996,
   "IsPerson": false,
-  "PersonId": 375,
-  "CountryId": 891,
-  "HomeCountryId": 514,
-  "ContactId": 507,
-  "GroupId": 754,
-  "BusinessId": 323,
-  "CategoryId": 541,
-  "ContactOwner": 953,
-  "RoleId": 665,
-  "RoleName": "Kiehn, Deckow and Hand",
-  "RoleDescription": "Devolved transitional system engine",
+  "PersonId": 441,
+  "CountryId": 976,
+  "HomeCountryId": 116,
+  "ContactId": 532,
+  "GroupId": 687,
+  "BusinessId": 566,
+  "CategoryId": 837,
+  "ContactOwner": 272,
+  "RoleId": 755,
+  "RoleName": "Schroeder, Kuhic and Botsford",
+  "RoleDescription": "Grass-roots real-time portal",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 715,
-      "OwnerName": "Halvorson Group",
-      "OwnerDescription": "Phased stable task-force",
-      "ModuleId": 722,
-      "Name": "Gusikowski-Koss",
-      "Description": "Integrated leading edge matrices",
-      "Version": "impedit",
+      "OwnerId": 162,
+      "OwnerName": "Jewess, Kub and Bailey",
+      "OwnerDescription": "Universal coherent synergy",
+      "ModuleId": 65,
+      "Name": "Willms, McGlynn and Schmidt",
+      "Description": "Vision-oriented executive initiative",
+      "Version": "reprehenderit",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 759,
-      "ExtraInfo": "autem",
-      "SortOrder": 986,
-      "LicenseNumber": 402,
+      "ExtraFlags": 654,
+      "ExtraInfo": "nihil",
+      "SortOrder": 691,
+      "LicenseNumber": 579,
       "IsHidden": false,
       "IsUnrestricted": true,
-      "ExpiryDate": "2008-07-29T11:10:53.8642128+02:00",
+      "ExpiryDate": "1999-10-26T02:49:51.844034+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 57
+          "FieldLength": 361
         }
       }
     }
   ],
-  "FullName": "Gilberto Schmitt",
-  "EMailAddress": "ut",
+  "FullName": "Clemmie Collier",
+  "EMailAddress": "dolores",
   "FunctionRights": [
-    "modi",
-    "amet"
+    "quo",
+    "soluta"
   ],
-  "EjUserId": 912,
-  "EjAccessLevel": 756,
+  "EjUserId": 952,
+  "EjAccessLevel": 195,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "hic",
-      "SearchName": "Thompson-Sipes",
-      "DisplayName": "Boehm, Orn and Bauch",
-      "CredentialId": 572
+      "Type": "non",
+      "SearchName": "Lowe Inc and Sons",
+      "DisplayName": "Wyman, Considine and Hilpert",
+      "CredentialId": 922
     },
     {
-      "Type": "hic",
-      "SearchName": "Thompson-Sipes",
-      "DisplayName": "Boehm, Orn and Bauch",
-      "CredentialId": 572
+      "Type": "non",
+      "SearchName": "Lowe Inc and Sons",
+      "DisplayName": "Wyman, Considine and Hilpert",
+      "CredentialId": 922
     }
   ],
   "SecondaryGroups": [
-    483,
-    82
+    873,
+    818
   ],
-  "DatabaseContextIdentifier": "delectus",
-  "UserName": "Kemmer-Kutch"
+  "DatabaseContextIdentifier": "soluta",
+  "UserName": "Hagenes-Wunsch"
 }
 ```

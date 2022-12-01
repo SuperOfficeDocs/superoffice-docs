@@ -11,11 +11,18 @@ PUT /api/v1/List/Task/Items/{itemId}/Headings
 
 Saves headings for the TaskListItem list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "Bergnaum-Hoppe",
-    "ToolTip": "Ut iste ut aperiam.",
-    "Deleted": false,
-    "Rank": 425,
-    "Type": "quo",
-    "ColorBlock": 942,
-    "IconHint": "perferendis",
+    "Id": 456,
+    "Name": "Huel Group",
+    "ToolTip": "Placeat ut magnam perspiciatis quasi veniam et sed.",
+    "Deleted": true,
+    "Rank": 755,
+    "Type": "quia",
+    "ColorBlock": 290,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2000-07-28T11:10:54.66593+02:00",
+    "LastChanged": "1996-12-08T02:49:52.5628301+01:00",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Donnelly Group",
-        "ToolTip": "In at et.",
+        "Id": 463,
+        "Name": "Bosco-White",
+        "ToolTip": "Recusandae officiis et ratione.",
         "Deleted": true,
-        "Rank": 960,
-        "Type": "qui",
-        "ColorBlock": 886,
-        "IconHint": "omnis",
+        "Rank": 477,
+        "Type": "quod",
+        "ColorBlock": 319,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2003-09-25T11:10:54.66593+02:00",
+        "LastChanged": "2001-02-07T02:49:52.5628301+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Ms. Imelda Wehner II"
+        "ExtraInfo": "occaecati",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Xavier Heathcote"
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "sint",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Mr. Hobart Koepp Sr."
+    "FullName": "Mr. Lula Ocie Rutherford MD"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "O'Connell, Nitzsche and Hoppe",
-    "ToolTip": "Libero sed.",
+    "Id": 870,
+    "Name": "Graham, Thiel and Gleason",
+    "ToolTip": "Autem voluptatem delectus laborum.",
     "Deleted": false,
-    "Rank": 986,
-    "Type": "quisquam",
-    "ColorBlock": 985,
-    "IconHint": "fuga",
-    "Selected": true,
-    "LastChanged": "2020-05-29T11:10:54.6669321+02:00",
+    "Rank": 647,
+    "Type": "deserunt",
+    "ColorBlock": 316,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2021-03-05T02:49:52.5628301+01:00",
     "ChildItems": [
       {
-        "Id": 701,
-        "Name": "Pagac, Considine and Klocko",
-        "ToolTip": "Totam cumque ea maxime unde dignissimos.",
+        "Id": 242,
+        "Name": "Cummings, Ledner and Yundt",
+        "ToolTip": "Dolores officiis animi nostrum ea odit.",
         "Deleted": false,
-        "Rank": 310,
-        "Type": "laudantium",
-        "ColorBlock": 300,
-        "IconHint": "odio",
-        "Selected": true,
-        "LastChanged": "2011-09-23T11:10:54.6669321+02:00",
+        "Rank": 359,
+        "Type": "eveniet",
+        "ColorBlock": 1002,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "1999-05-12T02:49:52.5628301+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "neque",
+        "ExtraInfo": "harum",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Lucious McCullough",
+        "FullName": "Woodrow Nicolas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 817
+            "FieldLength": 473
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "assumenda",
     "Hidden": true,
-    "FullName": "Mrs. Emilio Kayli White",
+    "FullName": "Lewis Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 917
+        "FieldType": "System.Int32",
+        "FieldLength": 613
       }
     }
   }

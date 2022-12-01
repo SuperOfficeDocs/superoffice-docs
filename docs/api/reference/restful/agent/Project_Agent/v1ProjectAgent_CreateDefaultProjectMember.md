@@ -11,7 +11,14 @@ POST /api/v1/Agents/Project/CreateDefaultProjectMember
 
 Set default values into a new ProjectMember.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +76,7 @@ Response body:
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 273,
-  "ContactId": 215,
-  "ProjectId": 539,
-  "ContactName": "Kling, Fahey and Hegmann",
+  "ProjectmemberId": 609,
+  "ContactId": 1001,
+  "ProjectId": 289,
+  "ContactName": "Tremblay Group",
   "ContactDepartment": "",
-  "ProjectName": "Windler LLC",
-  "EmailId": 418,
-  "EmailAddress": "kiel@connelly.co.uk",
-  "CountryId": 395,
-  "Firstname": "Granville",
-  "MiddleName": "McDermott Inc and Sons",
-  "Lastname": "Block",
-  "PersonId": 457,
-  "Mrmrs": "nihil",
-  "ProjectMemberTypeName": "Bayer LLC",
-  "Phone": "1-363-968-5644",
-  "PhoneId": 429,
-  "ProjectMemberTypeId": 265,
-  "EmailAddressName": "gabriel.rowe@oreilly.info",
-  "Comment": "culpa",
-  "FullName": "Jamar Rath",
+  "ProjectName": "Hettinger, Russel and Morissette",
+  "EmailId": 348,
+  "EmailAddress": "leonor_miller@hermiston.co.uk",
+  "CountryId": 302,
+  "Firstname": "Wilburn",
+  "MiddleName": "Leannon Group",
+  "Lastname": "Jenkins",
+  "PersonId": 187,
+  "Mrmrs": "nam",
+  "ProjectMemberTypeName": "Corkery-Prosacco",
+  "Phone": "1-721-463-2444 x751",
+  "PhoneId": 227,
+  "ProjectMemberTypeId": 349,
+  "EmailAddressName": "nayeli@kilback.ca",
+  "Comment": "quo",
+  "FullName": "Saul Mosciski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 942
+      "FieldType": "System.Int32",
+      "FieldLength": 402
     }
   }
 }

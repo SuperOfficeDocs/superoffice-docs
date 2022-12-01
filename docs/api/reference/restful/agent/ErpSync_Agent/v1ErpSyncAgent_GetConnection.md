@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetConnection
 
 Returns the specified connection.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns the specified connection.
 ```http
 POST /api/v1/Agents/ErpSync/GetConnection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/ErpSync/GetConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId
+ErpConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 825
+  "ErpConnectionId": 132
 }
 ```
 
@@ -93,33 +103,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 631,
-  "ErpConnectorId": 578,
-  "DisplayName": "Bergnaum, Johnson and Pacocha",
-  "DisplayDescription": "Team-oriented fault-tolerant matrix",
+  "ErpConnectionId": 636,
+  "ErpConnectorId": 97,
+  "DisplayName": "Ullrich Group",
+  "DisplayDescription": "Inverse context-sensitive frame",
   "Active": false,
-  "ConnectionId": "accusamus",
-  "MostRecentTimestamp": "maiores",
+  "ConnectionId": "voluptatibus",
+  "MostRecentTimestamp": "mollitia",
   "ConfigFields": {
-    "ConfigFields1": "molestiae",
-    "ConfigFields2": "voluptatibus"
+    "ConfigFields1": "debitis",
+    "ConfigFields2": "odio"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    842,
-    416
+    857,
+    45
   ],
   "AssociateAccessIds": [
-    575,
-    3
+    550,
+    175
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   }
 }

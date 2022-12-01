@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 
 Create a new role entity of the specified role type.
 
+
 The role type cannot be changed after the entity is created.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The role type cannot be changed after the entity is created.
 ```http
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,15 +47,16 @@ POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type
+Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 744,
-  "Name": "Pfeffer Group",
-  "Tooltip": "architecto",
+  "RoleId": 972,
+  "Name": "Dickinson Inc and Sons",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 657,
-  "Rank": 913,
-  "Created": "2003-07-08T11:10:28.392207+02:00",
-  "UseCategories": 299,
+  "Deleted": 802,
+  "Rank": 960,
+  "Created": "2014-12-16T02:49:45.6559717+01:00",
+  "UseCategories": 404,
   "CreatedBy": null,
-  "Updated": "2008-09-24T11:10:28.392207+02:00",
+  "Updated": "2016-05-22T02:49:45.6559717+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -112,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldLength": 132
     }
   }
 }

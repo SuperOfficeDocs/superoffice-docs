@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetDocumentProperties
 
 Get plugin-dependent properties for the document.
 
+
 A number of standard properties that should be supported by all plugins are defined in SuperOffice.CRM.Documents.Constants.Properties.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ A number of standard properties that should be supported by all plugins are defi
 ```http
 POST /api/v1/Agents/Document/GetDocumentProperties?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Document/GetDocumentProperties?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, RequestedProperties
+DocumentId, RequestedProperties 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | RequestedProperties | array |  |
+
 
 ## Response: object
 
@@ -56,20 +64,21 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetDocumentProperties
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 712,
+  "DocumentId": 665,
   "RequestedProperties": [
-    "vero",
-    "optio"
+    "facere",
+    "quo"
   ]
 }
 ```
@@ -81,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "earum",
-  "2": "numquam"
+  "1": "ea",
+  "2": "autem"
 }
 ```

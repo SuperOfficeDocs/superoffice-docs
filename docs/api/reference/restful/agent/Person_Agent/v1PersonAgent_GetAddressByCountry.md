@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetAddressByCountry
 
 Gets the person's localized address.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the person's localized address.
 ```http
 POST /api/v1/Agents/Person/GetAddressByCountry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Person/GetAddressByCountry?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, CountryId
+PersonId, CountryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | CountryId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 245,
-  "CountryId": 863
+  "PersonId": 927,
+  "CountryId": 456
 }
 ```
 
@@ -87,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 24749.198,
-  "Wgs84Longitude": 13479.333999999999,
+  "Wgs84Latitude": 2826.868,
+  "Wgs84Longitude": 27450.706,
   "LocalizedAddress": [
     [
       {
-        "Name": "Von, Kuphal and Little",
-        "Value": "occaecati",
-        "Tooltip": "voluptates",
-        "Label": "enim",
-        "ValueLength": 933,
-        "AddressType": "veritatis",
+        "Name": "Schoen Inc and Sons",
+        "Value": "eveniet",
+        "Tooltip": "totam",
+        "Label": "dolorem",
+        "ValueLength": 1000,
+        "AddressType": "recusandae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 334
+            "FieldLength": 18
           }
         }
       }
     ],
     [
       {
-        "Name": "Gerhold, Conn and Shanahan",
-        "Value": "et",
-        "Tooltip": "eos",
-        "Label": "corporis",
-        "ValueLength": 972,
-        "AddressType": "labore",
+        "Name": "Wyman, Bergstrom and Adams",
+        "Value": "hic",
+        "Tooltip": "necessitatibus",
+        "Label": "id",
+        "ValueLength": 573,
+        "AddressType": "omnis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 526
+            "FieldType": "System.Int32",
+            "FieldLength": 341
           }
         }
       }
@@ -129,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "beatae",
+  "Formatted": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldType": "System.String",
+      "FieldLength": 506
     }
   }
 }

@@ -11,11 +11,20 @@ GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 
 Get a trigger CRMScript.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | triggerScriptUniqueId | string | The unique id of the CRMScript to validate **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +39,8 @@ Get a trigger CRMScript.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +48,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +57,7 @@ Response body:
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -61,7 +71,7 @@ Response body:
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 747,
-  "Name": "Upton, Reichert and Cartwright",
+  "ScreenChooserId": 309,
+  "Name": "Windler-Wintheiser",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "magnam",
-  "Source": "occaecati",
-  "Registered": "1997-12-16T11:10:53.6692151+01:00",
-  "RegisteredAssociateId": 985,
-  "Updated": "2005-02-19T11:10:53.6692151+01:00",
-  "UpdatedAssociateId": 893,
+  "Enabled": true,
+  "UniqueIdentifier": "asperiores",
+  "Source": "asperiores",
+  "Registered": "2019-02-28T02:49:51.6710218+01:00",
+  "RegisteredAssociateId": 424,
+  "Updated": "2021-12-10T02:49:51.6710218+01:00",
+  "UpdatedAssociateId": 438,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 745
     }
   }
 }

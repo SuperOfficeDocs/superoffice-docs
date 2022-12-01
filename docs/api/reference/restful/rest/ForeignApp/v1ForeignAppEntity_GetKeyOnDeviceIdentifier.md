@@ -11,7 +11,12 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{ke
 
 Returning a foreign key by its key name and device identifier, that belongs to the specified device and application.
 
+
 A table name and record ID can also be specified.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
@@ -21,6 +26,8 @@ A table name and record ID can also be specified.
 | keyName | string | The name of the foreign key. **Required** |
 | tableName | string | Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table. **Required** |
 | recordId | int32 | Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table. **Required** |
+
+
 
 ## Request Headers
 
@@ -35,7 +42,8 @@ A table name and record ID can also be specified.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -43,7 +51,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +72,7 @@ Response body:
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 18 Mar 2013 11:10:52 G3T
+Last-Modified: Mon, 20 Jul 2009 02:49:50 G7T
 
 {
-  "Key": "quas",
-  "Value": "alias",
-  "RecordId": 940,
-  "CreatedDate": "1997-04-17T11:10:52.9081766+02:00",
-  "UpdatedDate": "2013-03-18T11:10:52.9081766+01:00",
-  "UpdatedBy": "reiciendis",
-  "CreatedBy": "excepturi",
-  "TableName": "Fadel-Terry",
+  "Key": "et",
+  "Value": "excepturi",
+  "RecordId": 335,
+  "CreatedDate": "2018-04-01T02:49:50.9952888+02:00",
+  "UpdatedDate": "2009-07-20T02:49:50.9952888+02:00",
+  "UpdatedBy": "natus",
+  "CreatedBy": "iusto",
+  "TableName": "Herzog-Champlin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 598
     }
   }
 }

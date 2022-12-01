@@ -11,7 +11,13 @@ POST /api/v1/Attachment
 
 Creates a new AttachmentEntity
 
+
 Calls the Ticket agent service SaveAttachmentEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Ticket agent service SaveAttachmentEntity.
 ```http
 POST /api/v1/Attachment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Attachment?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The AttachmentEntity to be saved.
+The AttachmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,8 @@ The AttachmentEntity to be saved.
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -58,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,16 +86,16 @@ Response body:
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 888,
-  "Name": "Simonis LLC",
-  "ContentType": "eveniet",
-  "AttSize": 365,
+  "AttachmentId": 251,
+  "Name": "Larkin-Bernhard",
+  "ContentType": "veniam",
+  "AttSize": 997,
   "InlineImage": false,
-  "ContentId": "commodi"
+  "ContentId": "a"
 }
 ```
 
@@ -98,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 340,
-  "Name": "Dicki, Schmitt and Jerde",
-  "ContentType": "minima",
-  "AttSize": 921,
+  "AttachmentId": 840,
+  "Name": "Hirthe Group",
+  "ContentType": "commodi",
+  "AttSize": 247,
   "InlineImage": false,
-  "ContentId": "sed",
+  "ContentId": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 368
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Sale/IsNumberValid
 
 Checks if the number is unique or required.
 
+
 The setting is configured from admin under system options.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The setting is configured from admin under system options.
 ```http
 POST /api/v1/Agents/Sale/IsNumberValid?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Sale/IsNumberValid?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, Number
+ContactId, Number 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 | Number | string |  |
+
 
 ## Response: bool
 
@@ -56,18 +64,19 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/IsNumberValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 25,
-  "Number": "1100699"
+  "ContactId": 305,
+  "Number": "488003"
 }
 ```
 

@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveTicketPriorityEntity
 
 Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TicketPriorityEntity to be saved.
+The TicketPriorityEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +67,8 @@ The TicketPriorityEntity to be saved.
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -68,7 +76,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,58 +117,58 @@ Response body:
 POST /api/v1/Agents/List/SaveTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 566,
-  "Name": "Bartell-Hartmann",
+  "TicketPriorityId": 146,
+  "Name": "Schamberger Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 116,
+  "SortOrder": 706,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 272,
-  "MonStart": "2020-10-01T11:10:27.2644531+02:00",
-  "MonStop": "2012-12-06T11:10:27.2644531+01:00",
-  "TueStart": "2000-06-19T11:10:27.2644531+02:00",
-  "TueStop": "2017-11-08T11:10:27.2644531+01:00",
-  "WedStart": "2014-07-01T11:10:27.2644531+02:00",
-  "WedStop": "2020-05-02T11:10:27.2644531+02:00",
-  "ThuStart": "2002-11-09T11:10:27.2644531+01:00",
-  "ThuStop": "2020-04-08T11:10:27.2644531+02:00",
-  "FriStart": "2019-08-13T11:10:27.2644531+02:00",
-  "FriStop": "2011-11-20T11:10:27.2644531+01:00",
-  "SatStart": "2015-03-13T11:10:27.2644531+01:00",
-  "SatStop": "2009-09-04T11:10:27.2644531+02:00",
-  "SunStart": "2007-03-19T11:10:27.2644531+01:00",
-  "SunStop": "2009-05-26T11:10:27.2644531+02:00",
+  "Deadline": 253,
+  "MonStart": "2011-03-12T02:49:44.6860468+01:00",
+  "MonStop": "2009-04-08T02:49:44.6860468+02:00",
+  "TueStart": "2004-09-24T02:49:44.6860468+02:00",
+  "TueStop": "2018-08-12T02:49:44.6860468+02:00",
+  "WedStart": "2010-10-11T02:49:44.6860468+02:00",
+  "WedStop": "2009-06-26T02:49:44.6860468+02:00",
+  "ThuStart": "1999-06-13T02:49:44.6860468+02:00",
+  "ThuStop": "2004-09-27T02:49:44.6860468+02:00",
+  "FriStart": "2015-09-28T02:49:44.6860468+02:00",
+  "FriStop": "2008-02-01T02:49:44.6860468+01:00",
+  "SatStart": "1998-10-31T02:49:44.6860468+01:00",
+  "SatStop": "2014-03-27T02:49:44.6860468+01:00",
+  "SunStart": "2000-07-31T02:49:44.6860468+02:00",
+  "SunStop": "2016-12-09T02:49:44.6860468+01:00",
   "NonDates": [
-    "veritatis",
-    "culpa"
+    "quo",
+    "consequuntur"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 90,
-      "AlertLevel": 598,
-      "AlertTimeout": 233,
-      "Action": 25,
-      "DelegateTo": 431,
-      "ScriptId": 603,
-      "EmailTo": "ahmad@haagnitzsche.name",
-      "SmsTo": "explicabo",
-      "ReplyTemplateIdCustomer": 970,
-      "ReplyTemplateIdUser": 654,
-      "ReplyTemplateIdCatmast": 956,
-      "ReplyTemplateIdEmail": 3,
-      "RtiCustomerSms": 151,
-      "ReplyTemplateIdUserSms": 858,
-      "ReplyTemplateIdCatmastSms": 893,
-      "ReplyTemplateIdSms": 215
+      "TicketAlertId": 639,
+      "AlertLevel": 967,
+      "AlertTimeout": 715,
+      "Action": 243,
+      "DelegateTo": 929,
+      "ScriptId": 323,
+      "EmailTo": "kattie.jones@kuhn.com",
+      "SmsTo": "sed",
+      "ReplyTemplateIdCustomer": 571,
+      "ReplyTemplateIdUser": 199,
+      "ReplyTemplateIdCatmast": 466,
+      "ReplyTemplateIdEmail": 359,
+      "RtiCustomerSms": 505,
+      "ReplyTemplateIdUserSms": 445,
+      "ReplyTemplateIdCatmastSms": 470,
+      "ReplyTemplateIdSms": 484
     }
   ]
 }
@@ -173,60 +181,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 560,
-  "Name": "Schumm, Feeney and Spencer",
+  "TicketPriorityId": 354,
+  "Name": "Sporer-Dach",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 874,
+  "SortOrder": 692,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 687,
-  "MonStart": "2001-11-27T11:10:27.2654529+01:00",
-  "MonStop": "2003-01-18T11:10:27.2654529+01:00",
-  "TueStart": "1997-04-29T11:10:27.2654529+02:00",
-  "TueStop": "2017-09-01T11:10:27.2654529+02:00",
-  "WedStart": "2010-07-17T11:10:27.2654529+02:00",
-  "WedStop": "2017-12-07T11:10:27.2654529+01:00",
-  "ThuStart": "1998-11-21T11:10:27.2654529+01:00",
-  "ThuStop": "1996-12-15T11:10:27.2654529+01:00",
-  "FriStart": "2000-03-28T11:10:27.2654529+02:00",
-  "FriStop": "2009-04-10T11:10:27.2654529+02:00",
-  "SatStart": "2017-12-21T11:10:27.2654529+01:00",
-  "SatStop": "2005-10-16T11:10:27.2654529+02:00",
-  "SunStart": "2004-04-30T11:10:27.2654529+02:00",
-  "SunStop": "2014-12-19T11:10:27.2654529+01:00",
+  "Deadline": 818,
+  "MonStart": "2022-05-06T02:49:44.6860468+02:00",
+  "MonStop": "2005-10-22T02:49:44.6860468+02:00",
+  "TueStart": "2013-03-23T02:49:44.6860468+01:00",
+  "TueStop": "2000-01-04T02:49:44.6860468+01:00",
+  "WedStart": "2011-11-05T02:49:44.6860468+01:00",
+  "WedStop": "2017-05-19T02:49:44.6860468+02:00",
+  "ThuStart": "2005-06-22T02:49:44.6860468+02:00",
+  "ThuStop": "2017-02-03T02:49:44.6860468+01:00",
+  "FriStart": "2014-01-03T02:49:44.6860468+01:00",
+  "FriStop": "2009-03-24T02:49:44.6860468+01:00",
+  "SatStart": "2008-01-28T02:49:44.6860468+01:00",
+  "SatStop": "2012-02-04T02:49:44.6860468+01:00",
+  "SunStart": "2006-12-29T02:49:44.6860468+01:00",
+  "SunStop": "2022-02-15T02:49:44.6860468+01:00",
   "NonDates": [
-    "autem",
-    "vel"
+    "eos",
+    "nobis"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 640,
-      "AlertLevel": 137,
-      "AlertTimeout": 936,
-      "Action": 373,
-      "DelegateTo": 618,
-      "ScriptId": 191,
-      "EmailTo": "maximo@turcottebalistreri.ca",
-      "SmsTo": "enim",
-      "ReplyTemplateIdCustomer": 106,
-      "ReplyTemplateIdUser": 741,
-      "ReplyTemplateIdCatmast": 641,
-      "ReplyTemplateIdEmail": 62,
-      "RtiCustomerSms": 475,
-      "ReplyTemplateIdUserSms": 442,
-      "ReplyTemplateIdCatmastSms": 367,
-      "ReplyTemplateIdSms": 115,
+      "TicketAlertId": 804,
+      "AlertLevel": 384,
+      "AlertTimeout": 595,
+      "Action": 604,
+      "DelegateTo": 356,
+      "ScriptId": 668,
+      "EmailTo": "keely@wehner.name",
+      "SmsTo": "illum",
+      "ReplyTemplateIdCustomer": 694,
+      "ReplyTemplateIdUser": 432,
+      "ReplyTemplateIdCatmast": 742,
+      "ReplyTemplateIdEmail": 765,
+      "RtiCustomerSms": 609,
+      "ReplyTemplateIdUserSms": 751,
+      "ReplyTemplateIdCatmastSms": 656,
+      "ReplyTemplateIdSms": 832,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 879
+          "FieldLength": 923
         }
       }
     }
@@ -236,7 +244,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldLength": 57
     }
   }
 }

@@ -11,9 +11,15 @@ PUT /api/v1/Sale/{id}
 
 Updates the existing SaleEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SaleEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing SaleEntity
 ```http
 PUT /api/v1/Sale/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Sale/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SaleEntity to be saved.
+The SaleEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,7 +97,8 @@ The SaleEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 SaleEntity updated.
 
@@ -100,7 +108,7 @@ SaleEntity updated.
 | 412 | Update stopped because SaleEntity has changed since the requested If-Unmodified-Since timestamp. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -158,7 +166,7 @@ Response body:
 PUT /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -168,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nesciunt",
+  "SaleText": "eligendi",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -177,90 +185,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-01-09T11:10:53.4241463+01:00",
-  "Amount": 26626.464,
-  "SaleId": 571,
-  "Earning": 23492.464,
-  "EarningPercent": 20139.084,
-  "Heading": "doloremque",
-  "Number": "678826",
-  "Probability": 802,
-  "CreatedDate": "1997-05-21T11:10:53.4241463+02:00",
-  "UpdatedDate": "2006-11-12T11:10:53.4241463+01:00",
+  "Saledate": "2008-03-17T02:49:51.4581845+01:00",
+  "Amount": 8963.24,
+  "SaleId": 658,
+  "Earning": 3563.3579999999997,
+  "EarningPercent": 26150.095999999998,
+  "Heading": "quisquam",
+  "Number": "893874",
+  "Probability": 613,
+  "CreatedDate": "2015-04-03T02:49:51.4581845+02:00",
+  "UpdatedDate": "2017-04-25T02:49:51.4581845+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 726,
+  "ActiveLinks": 969,
   "Links": [
     {
-      "EntityName": "Hartmann-O'Connell",
-      "Id": 760,
-      "Description": "Cross-group client-driven alliance",
-      "ExtraInfo": "sit",
-      "LinkId": 726
+      "EntityName": "Brekke, Frami and Sporer",
+      "Id": 932,
+      "Description": "Up-sized intermediate leverage",
+      "ExtraInfo": "dolores",
+      "LinkId": 719
     },
     {
-      "EntityName": "Hartmann-O'Connell",
-      "Id": 760,
-      "Description": "Cross-group client-driven alliance",
-      "ExtraInfo": "sit",
-      "LinkId": 726
+      "EntityName": "Brekke, Frami and Sporer",
+      "Id": 932,
+      "Description": "Up-sized intermediate leverage",
+      "ExtraInfo": "dolores",
+      "LinkId": 719
     }
   ],
-  "NextDueDate": "2010-05-27T11:10:53.4241463+02:00",
-  "Postit": "quos",
+  "NextDueDate": "2005-10-14T02:49:51.4581845+02:00",
+  "Postit": "iusto",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-10-01T11:10:53.4241463+02:00",
+  "ReopenDate": "1996-08-12T02:49:51.4581845+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Graham, Johns and Krajcik",
-      "Comment": "rerum",
-      "StakeholderRoleId": 144,
-      "CountryId": 597,
-      "PersonId": 106,
-      "EmailDescription": "weldon_romaguera@medhurst.co.uk",
-      "EmailId": 520,
-      "EmailAddress": "eldridge.connelly@nicolas.us",
-      "PhoneId": 875,
-      "ContactName": "Langosh-Crist",
-      "ContactId": 698,
-      "SaleId": 723,
-      "Mrmrs": "beatae",
-      "Firstname": "Kamryn",
-      "MiddleName": "Parker, Shanahan and Toy",
-      "Lastname": "Kautzer",
-      "SaleStakeholderId": 685,
-      "Rank": 830,
-      "Phone": "921.008.3855 x354"
+      "StakeholderRoleName": "Jaskolski, Reilly and Denesik",
+      "Comment": "dolores",
+      "StakeholderRoleId": 135,
+      "CountryId": 709,
+      "PersonId": 10,
+      "EmailDescription": "guillermo@berge.ca",
+      "EmailId": 617,
+      "EmailAddress": "gustave.klocko@walterdouglas.ca",
+      "PhoneId": 593,
+      "ContactName": "Harvey LLC",
+      "ContactId": 705,
+      "SaleId": 414,
+      "Mrmrs": "nam",
+      "Firstname": "Antonietta",
+      "MiddleName": "Ortiz Inc and Sons",
+      "Lastname": "Watsica",
+      "SaleStakeholderId": 332,
+      "Rank": 200,
+      "Phone": "520-872-6680 x347"
     }
   ],
-  "ActiveErpLinks": 912,
+  "ActiveErpLinks": 94,
   "UserDefinedFields": {
-    "SuperOffice:1": "260203148",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Hipolito Will",
+    "SuperOffice:2": "939235368"
   },
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "accusamus"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "impedit",
-    "CustomFields2": "sapiente"
+    "CustomFields1": "quis",
+    "CustomFields2": "laborum"
   },
-  "PublishEventDate": "2017-03-30T11:10:53.425174+02:00",
-  "PublishTo": "1997-09-01T11:10:53.425174+02:00",
-  "PublishFrom": "2005-03-20T11:10:53.425174+01:00",
+  "PublishEventDate": "2008-02-18T02:49:51.4581845+01:00",
+  "PublishTo": "2012-06-27T02:49:51.4581845+02:00",
+  "PublishFrom": "2009-09-18T02:49:51.4581845+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 49,
+      "VisibleId": 191,
       "Visibility": "All",
-      "DisplayValue": "saepe"
+      "DisplayValue": "qui"
     },
     {
-      "VisibleId": 49,
+      "VisibleId": 191,
       "Visibility": "All",
-      "DisplayValue": "saepe"
+      "DisplayValue": "qui"
     }
   ]
 }
@@ -279,7 +287,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "aut",
+  "SaleText": "laudantium",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -288,113 +296,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2014-03-02T11:10:53.4371738+01:00",
-  "Amount": 3362.7819999999997,
-  "SaleId": 4,
-  "Earning": 3970.778,
-  "EarningPercent": 7208.2,
-  "Heading": "sit",
-  "Number": "1081315",
-  "Probability": 899,
-  "CreatedDate": "2019-10-11T11:10:53.439174+02:00",
-  "UpdatedDate": "2011-11-18T11:10:53.439174+01:00",
+  "Saledate": "2012-06-10T02:49:51.4738091+02:00",
+  "Amount": 26990.007999999998,
+  "SaleId": 616,
+  "Earning": 1958.75,
+  "EarningPercent": 27955.28,
+  "Heading": "at",
+  "Number": "1327727",
+  "Probability": 56,
+  "CreatedDate": "2006-08-01T02:49:51.4738091+02:00",
+  "UpdatedDate": "2007-05-22T02:49:51.4738091+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 923,
+  "ActiveLinks": 295,
   "Links": [
     {
-      "EntityName": "Simonis LLC",
-      "Id": 677,
-      "Description": "Multi-tiered logistical projection",
-      "ExtraInfo": "ut",
-      "LinkId": 773,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 654
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2012-07-31T11:10:53.439174+02:00",
-  "Postit": "vel",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2009-02-23T11:10:53.439174+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Kuhic LLC",
-      "Comment": "quibusdam",
-      "StakeholderRoleId": 125,
-      "CountryId": 726,
-      "PersonId": 878,
-      "EmailDescription": "tobin@feestvonrueden.uk",
-      "EmailId": 205,
-      "EmailAddress": "polly@gusikowski.ca",
-      "PhoneId": 141,
-      "ContactName": "McKenzie Group",
-      "ContactId": 138,
-      "SaleId": 972,
-      "Mrmrs": "iure",
-      "Firstname": "Adolf",
-      "MiddleName": "Kuhlman LLC",
-      "Lastname": "Von",
-      "SaleStakeholderId": 622,
-      "Rank": 523,
-      "Phone": "(626)511-6426 x27670",
+      "EntityName": "Grady-Lockman",
+      "Id": 750,
+      "Description": "Switchable didactic knowledge user",
+      "ExtraInfo": "deleniti",
+      "LinkId": 740,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 424
+          "FieldLength": 331
         }
       }
     }
   ],
-  "ActiveErpLinks": 976,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Shania Edwin Rohan I"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "facere"
-  },
-  "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "quis"
-  },
-  "PublishEventDate": "2010-10-28T11:10:53.440174+02:00",
-  "PublishTo": "2021-05-27T11:10:53.440174+02:00",
-  "PublishFrom": "2021-10-01T11:10:53.440174+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "2002-09-03T02:49:51.4738091+02:00",
+  "Postit": "quisquam",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2006-02-01T02:49:51.4738091+01:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 906,
-      "Visibility": "All",
-      "DisplayValue": "nulla",
+      "StakeholderRoleName": "Langworth Group",
+      "Comment": "quo",
+      "StakeholderRoleId": 949,
+      "CountryId": 784,
+      "PersonId": 652,
+      "EmailDescription": "jacinthe@powlowski.name",
+      "EmailId": 395,
+      "EmailAddress": "carmel@waelchi.ca",
+      "PhoneId": 269,
+      "ContactName": "Deckow LLC",
+      "ContactId": 567,
+      "SaleId": 19,
+      "Mrmrs": "ipsum",
+      "Firstname": "Kirstin",
+      "MiddleName": "Trantow, Schuppe and Quitzon",
+      "Lastname": "Hermann",
+      "SaleStakeholderId": 534,
+      "Rank": 481,
+      "Phone": "395.127.5856",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 871
+          "FieldType": "System.Int32",
+          "FieldLength": 314
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 234,
+  "UserDefinedFields": {
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Vivien Buckridge"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "odit",
+    "ExtraFields2": "nostrum"
+  },
+  "CustomFields": {
+    "CustomFields1": "distinctio",
+    "CustomFields2": "vel"
+  },
+  "PublishEventDate": "2018-03-21T02:49:51.4738091+01:00",
+  "PublishTo": "1995-10-04T02:49:51.4738091+02:00",
+  "PublishFrom": "1998-09-19T02:49:51.4738091+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 872,
+      "Visibility": "All",
+      "DisplayValue": "optio",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 928
         }
       }
     },
     {
-      "VisibleId": 906,
+      "VisibleId": 872,
       "Visibility": "All",
-      "DisplayValue": "nulla",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 871
+          "FieldType": "System.Int32",
+          "FieldLength": 928
         }
       }
     }
@@ -404,7 +412,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 550
     }
   },
   "_Links": {

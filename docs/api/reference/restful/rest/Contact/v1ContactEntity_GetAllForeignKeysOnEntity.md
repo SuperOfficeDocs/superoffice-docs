@@ -11,9 +11,16 @@ GET /api/v1/Contact/{id}/ForeignKey
 
 Foreign keys on the ContactEntity.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | ContactEntity id/primary key. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,6 +35,7 @@ Foreign keys on the ContactEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: object
 
 OK
@@ -39,13 +47,14 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 GET /api/v1/Contact/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -56,6 +65,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "1": "et",
-  "2": "fugit"
+  "2": "quasi"
 }
 ```

@@ -11,11 +11,18 @@ PUT /api/v1/Contact/{contactId}/ImageInfo
 
 Update the Blob that describes the given contact's picture.
 
+
 The actual bitmap is accessible via /api/v1/contact/123/image.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | Contact id **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ The actual bitmap is accessible via /api/v1/contact/123/image.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: imageInfo
+## Request Body: imageInfo  
 
-New or Updated information about the image.
+New or Updated information about the image. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +58,8 @@ New or Updated information about the image.
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -59,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,23 +93,23 @@ Response body:
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 940,
-  "BlobSize": 815,
-  "Description": "Synergized user-facing middleware",
-  "ExtraInfo": "et",
+  "BlobId": 630,
+  "BlobSize": 442,
+  "Description": "Innovative encompassing project",
+  "ExtraInfo": "sed",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 637,
-  "CreatedDate": "2002-06-02T11:10:52.6101755+02:00",
-  "UpdatedDate": "1999-01-16T11:10:52.6101755+01:00",
+  "MimeType": "cumque",
+  "OriginalSize": 732,
+  "CreatedDate": "2020-03-20T02:49:50.7296616+01:00",
+  "UpdatedDate": "1995-10-27T02:49:50.7296616+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fuga"
+  "ConceptualType": "nesciunt"
 }
 ```
 
@@ -112,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 528,
-  "BlobSize": 391,
-  "Description": "Re-contextualized coherent superstructure",
-  "ExtraInfo": "quaerat",
-  "IsEncrypted": false,
+  "BlobId": 829,
+  "BlobSize": 328,
+  "Description": "Distributed intangible framework",
+  "ExtraInfo": "ut",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "cumque",
-  "OriginalSize": 779,
-  "CreatedDate": "2002-01-23T11:10:52.6131796+01:00",
-  "UpdatedDate": "1995-04-16T11:10:52.6131796+02:00",
+  "MimeType": "asperiores",
+  "OriginalSize": 242,
+  "CreatedDate": "2017-04-24T02:49:50.7296616+02:00",
+  "UpdatedDate": "2003-04-29T02:49:50.7296616+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorem",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 697
+      "FieldType": "System.Int32",
+      "FieldLength": 303
     }
   }
 }

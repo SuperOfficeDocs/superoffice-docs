@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 
 Method that returns a specified number of appointments belonging to an array of appointment task types within a time range.
 
+
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the contact specified. Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, TaskIds
+ContactId, StartTime, EndTime, Count, TaskIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ ContactId, StartTime, EndTime, Count, TaskIds
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskIds | array |  |
+
 
 ## Response: array
 
@@ -119,17 +127,17 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 336,
-  "StartTime": "2014-02-23T11:10:25.4385224+01:00",
-  "EndTime": "2000-08-23T11:10:25.4385224+02:00",
-  "Count": 658,
+  "ContactId": 227,
+  "StartTime": "2017-09-23T02:49:43.2304992+02:00",
+  "EndTime": "2021-04-27T02:49:43.2304992+02:00",
+  "Count": 739,
   "TaskIds": [
-    780,
-    169
+    258,
+    326
   ]
 }
 ```
@@ -142,61 +150,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 473,
-    "StartDate": "2015-02-01T11:10:25.4395264+01:00",
-    "EndDate": "1999-02-25T11:10:25.4395264+01:00",
+    "AppointmentId": 378,
+    "StartDate": "1996-07-18T02:49:43.2304992+02:00",
+    "EndDate": "2009-06-27T02:49:43.2304992+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolorum",
-    "AssociateFullName": "Eloisa D'Amore",
-    "ContactName": "Price, Reichert and Crist",
-    "Description": "Open-source heuristic firmware",
-    "PersonFullName": "Ms. Tyree Vickie Luettgen PhD",
-    "PersonId": 882,
-    "ContactId": 66,
-    "ProjectId": 106,
-    "ProjectName": "Douglas-O'Conner",
-    "IsPublished": false,
-    "AssociateId": 744,
-    "ColorIndex": 19,
-    "IsFree": true,
+    "Task": "necessitatibus",
+    "AssociateFullName": "Elijah Hartmann",
+    "ContactName": "Cartwright, Fritsch and Mohr",
+    "Description": "Automated dynamic forecast",
+    "PersonFullName": "Mrs. Eusebio Kirlin PhD",
+    "PersonId": 423,
+    "ContactId": 397,
+    "ProjectId": 655,
+    "ProjectName": "Block-Wunsch",
+    "IsPublished": true,
+    "AssociateId": 315,
+    "ColorIndex": 902,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 284,
-    "PriorityName": "Flatley, Funk and Grimes",
+    "PriorityId": 182,
+    "PriorityName": "Cruickshank, Blanda and Goodwin",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2009-12-12T11:10:25.4405254+01:00",
+    "IsBooking": true,
+    "ActiveDate": "1996-09-05T02:49:43.2304992+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-03-25T11:10:25.4405254+01:00",
-    "RecurringEndDate": "1999-08-23T11:10:25.4405254+02:00",
-    "MotherId": 365,
-    "AssignedBy": 838,
-    "AssignedByFullName": "Oceane Aufderhar",
-    "RejectReason": "",
-    "Location": "vel",
-    "AlarmLeadTime": "qui",
-    "SaleId": 593,
-    "SaleName": "Williamson, Blick and Gibson",
-    "AssociateName": "Reilly Inc and Sons",
-    "CreatedDate": "2013-01-30T11:10:25.4405254+01:00",
-    "CreatedBy": "placeat",
-    "CreatedByFullName": "Brigitte Elise Jaskolski II",
-    "CreatedByAssociateId": 452,
+    "RecurringStartDate": "2018-10-03T02:49:43.2304992+02:00",
+    "RecurringEndDate": "2001-08-12T02:49:43.2304992+02:00",
+    "MotherId": 312,
+    "AssignedBy": 699,
+    "AssignedByFullName": "Devon Schmitt",
+    "RejectReason": "repurpose viral ROI",
+    "Location": "ut",
+    "AlarmLeadTime": "beatae",
+    "SaleId": 89,
+    "SaleName": "Lowe-Schulist",
+    "AssociateName": "Kuhic LLC",
+    "CreatedDate": "1996-11-19T02:49:43.2304992+01:00",
+    "CreatedBy": "libero",
+    "CreatedByFullName": "Prof. Kamille Bryce Cremin IV",
+    "CreatedByAssociateId": 51,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 102
+        "FieldType": "System.Int32",
+        "FieldLength": 692
       }
     }
   }

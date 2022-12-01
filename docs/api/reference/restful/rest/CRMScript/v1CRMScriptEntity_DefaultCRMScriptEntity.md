@@ -11,9 +11,17 @@ GET /api/v1/CRMScript/default
 
 Set default values into a new CRMScriptEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service CreateDefaultCRMScriptEntity
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service CreateDefaultCRMScriptEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +69,7 @@ Response body:
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 763,
-  "UniqueIdentifier": "ut",
-  "Name": "Frami LLC",
-  "Description": "Vision-oriented full-range data-warehouse",
-  "IncludeId": "cupiditate",
-  "HierarchyId": 847,
-  "Source": "quisquam",
-  "Registered": "2000-03-06T11:10:52.7561442+01:00",
-  "RegisteredAssociateId": 626,
-  "Updated": "1996-03-26T11:10:52.7561442+01:00",
-  "UpdatedAssociateId": 996,
+  "EjscriptId": 411,
+  "UniqueIdentifier": "nam",
+  "Name": "Nader-Cummings",
+  "Description": "Visionary coherent software",
+  "IncludeId": "molestiae",
+  "HierarchyId": 168,
+  "Source": "voluptatem",
+  "Registered": "2009-01-27T02:49:50.8546634+01:00",
+  "RegisteredAssociateId": 218,
+  "Updated": "2001-02-08T02:49:50.8546634+01:00",
+  "UpdatedAssociateId": 929,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

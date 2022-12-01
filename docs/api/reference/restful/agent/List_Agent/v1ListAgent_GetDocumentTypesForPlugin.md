@@ -11,7 +11,13 @@ POST /api/v1/Agents/List/GetDocumentTypesForPlugin
 
 Get a list of document types supported by a given document plugin.
 
+
 Use the document template type when creating a new template.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Use the document template type when creating a new template.
 ```http
 POST /api/v1/Agents/List/GetDocumentTypesForPlugin?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/List/GetDocumentTypesForPlugin?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PluginId
+PluginId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PluginId | int32 |  |
+
 
 ## Response: object
 
@@ -55,6 +63,7 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
@@ -65,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 424
+  "PluginId": 794
 }
 ```
 
@@ -76,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "non",
-  "2": "laudantium"
+  "1": "iste",
+  "2": "aliquam"
 }
 ```

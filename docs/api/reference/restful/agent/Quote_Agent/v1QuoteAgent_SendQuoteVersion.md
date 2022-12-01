@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/SendQuoteVersion
 
 Send the quote to the user's customer.
 
+
 More parameters to be added later...
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ More parameters to be added later...
 ```http
 POST /api/v1/Agents/Quote/SendQuoteVersion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Quote/SendQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, ExpiryDate, FollowupDate, FollowupText, Culture
+QuoteVersionId, ExpiryDate, FollowupDate, FollowupText, Culture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,8 @@ QuoteVersionId, ExpiryDate, FollowupDate, FollowupText, Culture
 | FollowupText | string |  |
 | Culture | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,16 +65,17 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IsOk | bool | Answer to the question / An indication if the operation went well. |
+| IsOk | bool | Answer to the question / An indication if the operation went well.  Equivalent to Status != Error |
 | UserExplanation | string | A localized explanation to the answer. |
 | TechExplanation | string | Always in English |
 | ErrorCode | string | An error code, if available. |
 | Changes |  | Tablename/recordid of data changed by this method, that the client may need to reload |
 | Url | string | Url that the GUI should navigato to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested url. |
+| Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -76,15 +85,15 @@ Response body:
 POST /api/v1/Agents/Quote/SendQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 492,
-  "ExpiryDate": "1996-10-07T11:10:27.6544228+02:00",
-  "FollowupDate": "1996-05-06T11:10:27.6544228+02:00",
-  "FollowupText": "incidunt",
-  "Culture": "minima"
+  "QuoteVersionId": 701,
+  "ExpiryDate": "2011-06-03T02:49:44.9997158+02:00",
+  "FollowupDate": "2013-05-31T02:49:44.9997158+02:00",
+  "FollowupText": "quia",
+  "Culture": "quaerat"
 }
 ```
 
@@ -95,18 +104,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "odio",
-  "TechExplanation": "nisi",
-  "ErrorCode": "qui",
+  "IsOk": false,
+  "UserExplanation": "hic",
+  "TechExplanation": "omnis",
+  "ErrorCode": "et",
   "Changes": null,
   "Url": "http://www.example.com/",
+  "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldLength": 414
     }
   }
 }

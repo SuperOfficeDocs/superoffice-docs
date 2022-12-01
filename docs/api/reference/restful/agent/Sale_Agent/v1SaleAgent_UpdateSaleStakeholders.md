@@ -9,6 +9,14 @@ uid: v1SaleAgent_UpdateSaleStakeholders
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 ```http
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,13 +42,14 @@ POST /api/v1/Agents/Sale/UpdateSaleStakeholders?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Stakeholders
+Stakeholders 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Stakeholders | array |  |
+
 
 ## Response: array
 
@@ -81,31 +91,31 @@ Response body: array
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Bode-Dare",
-      "Comment": "dolorem",
-      "StakeholderRoleId": 788,
-      "CountryId": 879,
-      "PersonId": 64,
-      "EmailDescription": "kiarra@swaniawski.com",
-      "EmailId": 328,
-      "EmailAddress": "robb@luettgen.us",
-      "PhoneId": 709,
-      "ContactName": "Adams Group",
-      "ContactId": 584,
-      "SaleId": 522,
-      "Mrmrs": "suscipit",
-      "Firstname": "Javon",
-      "MiddleName": "Kuhn Inc and Sons",
-      "Lastname": "Koelpin",
-      "SaleStakeholderId": 398,
-      "Rank": 945,
-      "Phone": "974.534.1722 x40048"
+      "StakeholderRoleName": "Conn-O'Keefe",
+      "Comment": "voluptas",
+      "StakeholderRoleId": 603,
+      "CountryId": 406,
+      "PersonId": 958,
+      "EmailDescription": "earline_stracke@whiteerdman.info",
+      "EmailId": 580,
+      "EmailAddress": "dessie.gibson@moen.us",
+      "PhoneId": 245,
+      "ContactName": "Romaguera Group",
+      "ContactId": 825,
+      "SaleId": 54,
+      "Mrmrs": "qui",
+      "Firstname": "Daphne",
+      "MiddleName": "Nicolas-Parisian",
+      "Lastname": "Bechtelar",
+      "SaleStakeholderId": 234,
+      "Rank": 940,
+      "Phone": "337.618.0598 x567"
     }
   ]
 }
@@ -119,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Steuber Group",
-    "Comment": "qui",
-    "StakeholderRoleId": 879,
-    "CountryId": 888,
-    "PersonId": 647,
-    "EmailDescription": "broderick@leannon.uk",
-    "EmailId": 229,
-    "EmailAddress": "terrill.greenholt@dare.biz",
-    "PhoneId": 656,
-    "ContactName": "Schneider Inc and Sons",
-    "ContactId": 890,
-    "SaleId": 305,
-    "Mrmrs": "et",
-    "Firstname": "Jaycee",
-    "MiddleName": "Hyatt-Rice",
-    "Lastname": "Schneider",
-    "SaleStakeholderId": 216,
-    "Rank": 914,
-    "Phone": "560-603-7213",
+    "StakeholderRoleName": "Hermann-Gutmann",
+    "Comment": "a",
+    "StakeholderRoleId": 16,
+    "CountryId": 850,
+    "PersonId": 2,
+    "EmailDescription": "sven@robel.co.uk",
+    "EmailId": 755,
+    "EmailAddress": "ophelia.stanton@lebsack.info",
+    "PhoneId": 925,
+    "ContactName": "Kuhlman-Schmidt",
+    "ContactId": 177,
+    "SaleId": 115,
+    "Mrmrs": "quis",
+    "Firstname": "Gladyce",
+    "MiddleName": "Schamberger LLC",
+    "Lastname": "Bosco",
+    "SaleStakeholderId": 971,
+    "Rank": 172,
+    "Phone": "734.314.6654 x1051",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 896
       }
     }
   }

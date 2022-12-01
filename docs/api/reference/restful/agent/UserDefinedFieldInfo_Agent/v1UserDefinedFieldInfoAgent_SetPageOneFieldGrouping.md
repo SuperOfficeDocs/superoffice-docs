@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetPageOneFieldGrouping
 
 Sets the Page One Field grouping for a specific entity
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Sets the Page One Field grouping for a specific entity
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/SetPageOneFieldGrouping?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetPageOneFieldGrouping?$select=name,de
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType, Active
+OwnerType, Active 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 | Active | bool |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,12 +65,12 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/SetPageOneFieldGrouping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "Active": false
+  "Active": true
 }
 ```
 

@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetSimpleList
 
 Method returns a simple flat MDO List.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method returns a simple flat MDO List.
 ```http
 POST /api/v1/Agents/MDO/GetSimpleList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/MDO/GetSimpleList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name
+Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
+
 
 ## Response: array
 
@@ -80,7 +88,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Thiel, Skiles and Hilll"
+  "Name": "Anderson Group"
 }
 ```
 
@@ -92,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 243,
-    "Name": "Jacobi-Towne",
-    "ToolTip": "Rerum sunt numquam officiis ipsum quam eum iste.",
+    "Id": 915,
+    "Name": "Gutmann-Rosenbaum",
+    "ToolTip": "Sed sed id quibusdam.",
     "Deleted": true,
-    "Rank": 640,
-    "Type": "ut",
+    "Rank": 467,
+    "Type": "mollitia",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "Jenkins-Ziemann",
-        "ToolTip": "Voluptates est cupiditate.",
-        "Deleted": false,
-        "Rank": 509,
-        "Type": "a",
+        "Id": 523,
+        "Name": "Kassulke LLC",
+        "ToolTip": "Atque natus quaerat.",
+        "Deleted": true,
+        "Rank": 916,
+        "Type": "ab",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 792,
-        "ExtraInfo": "iusto",
-        "StyleHint": "sapiente",
-        "FullName": "Jewell Schuster",
+        "IconHint": "repudiandae",
+        "ColorBlock": 603,
+        "ExtraInfo": "quo",
+        "StyleHint": "pariatur",
+        "FullName": "Stephon Halvorson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldType": "System.String",
+            "FieldLength": 2
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 892,
-    "ExtraInfo": "qui",
-    "StyleHint": "ut",
-    "FullName": "Alexandrea Adams",
+    "IconHint": "eligendi",
+    "ColorBlock": 182,
+    "ExtraInfo": "libero",
+    "StyleHint": "iusto",
+    "FullName": "Lelah Morar IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldLength": 55
       }
     }
   }

@@ -11,6 +11,11 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{ke
 
 Get a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
@@ -19,6 +24,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyName | string | The name of the foreign key. **Required** |
 | tableName | string | Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table. **Required** |
 
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,8 +32,9 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=dolorum
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=explicabo
 ```
+
 
 ## Request Headers
 
@@ -42,7 +49,8 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{ke
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -50,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,23 +87,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 16 Oct 2018 11:10:52 G10T
+Last-Modified: Thu, 02 Apr 2009 02:49:50 G4T
 
 {
-  "Key": "rerum",
-  "Value": "quia",
-  "RecordId": 735,
-  "CreatedDate": "1998-06-23T11:10:52.9111741+02:00",
-  "UpdatedDate": "2018-10-16T11:10:52.9111741+02:00",
-  "UpdatedBy": "provident",
-  "CreatedBy": "eligendi",
-  "TableName": "Bergnaum-Bogisich",
+  "Key": "suscipit",
+  "Value": "aut",
+  "RecordId": 559,
+  "CreatedDate": "2013-07-20T02:49:50.9952888+02:00",
+  "UpdatedDate": "2009-04-02T02:49:50.9952888+02:00",
+  "UpdatedBy": "voluptates",
+  "CreatedBy": "dignissimos",
+  "TableName": "Schneider-Schumm",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 391
+      "FieldType": "System.Int32",
+      "FieldLength": 291
     }
   }
 }

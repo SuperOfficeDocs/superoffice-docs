@@ -11,9 +11,15 @@ PUT /api/v1/ChatTopic/{id}
 
 Updates the existing ChatTopicEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ChatTopicEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing ChatTopicEntity
 ```http
 PUT /api/v1/ChatTopic/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/ChatTopic/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ChatTopicEntity to be saved.
+The ChatTopicEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +84,8 @@ The ChatTopicEntity to be saved.
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
 
-## Response
+
+## Response: 
 
 ChatTopicEntity updated.
 
@@ -86,7 +94,7 @@ ChatTopicEntity updated.
 | 200 | ChatTopicEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -131,41 +139,41 @@ Response body:
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 527,
-  "Name": "Welch Inc and Sons",
-  "Description": "Ergonomic empowering matrix",
-  "WelcomeMessage": "praesentium",
+  "ChatTopicId": 787,
+  "Name": "Block, Dickens and Keeling",
+  "Description": "Universal scalable definition",
+  "WelcomeMessage": "harum",
   "Language": null,
-  "LastAccept": "1997-08-28T11:10:52.5751844+02:00",
-  "SecondsPrAccept": 873,
-  "AlertRecipient": "molestiae",
+  "LastAccept": "1998-08-17T02:49:50.6984105+02:00",
+  "SecondsPrAccept": 268,
+  "AlertRecipient": "delectus",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "qui",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "aut",
-  "WarnNewChatMinutes": 851,
-  "WarnManagerNewChatMinutes": 825,
+  "CollectConsent": true,
+  "BadgeHeader": "saepe",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "voluptatem",
+  "WarnNewChatMinutes": 209,
+  "WarnManagerNewChatMinutes": 559,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 456,
-  "WarnManagerChatMessageMinutes": 285,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 160,
+  "WarnManagerChatMessageMinutes": 260,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 53,
-  "OfflineFormQueueLength": 651,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "dolor"
+  "OfflineFormTimeLimit": 73,
+  "OfflineFormQueueLength": 205,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "neque"
 }
 ```
 
@@ -176,22 +184,22 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 422,
-  "Name": "Borer-Waters",
-  "Description": "Diverse encompassing knowledge base",
-  "WelcomeMessage": "est",
+  "ChatTopicId": 268,
+  "Name": "Williamson, Waelchi and Hyatt",
+  "Description": "Automated dynamic contingency",
+  "WelcomeMessage": "molestiae",
   "Language": null,
-  "LastAccept": "2003-08-15T11:10:52.5781789+02:00",
-  "SecondsPrAccept": 666,
-  "AlertRecipient": "est",
+  "LastAccept": "2016-06-29T02:49:50.6984105+02:00",
+  "SecondsPrAccept": 884,
+  "AlertRecipient": "veritatis",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "voluptatem",
+  "BadgeHeader": "ut",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sunt",
-  "WarnNewChatMinutes": 364,
-  "WarnManagerNewChatMinutes": 408,
-  "TicketEnabled": true,
+  "CustomQueueText": "mollitia",
+  "WarnNewChatMinutes": 377,
+  "WarnManagerNewChatMinutes": 137,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -199,25 +207,25 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 350,
-  "WarnManagerChatMessageMinutes": 321,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 683,
-  "OfflineFormQueueLength": 204,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 655,
+  "WarnManagerChatMessageMinutes": 828,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 728,
+  "OfflineFormQueueLength": 892,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "eum",
+  "WidgetRatingText": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldLength": 123
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

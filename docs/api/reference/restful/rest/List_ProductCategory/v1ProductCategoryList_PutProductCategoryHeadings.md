@@ -11,7 +11,14 @@ PUT /api/v1/List/ProductCategory/Headings
 
 Saves headings for the ProductCategory list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 585,
-    "Name": "Mohr-Monahan",
-    "Tooltip": "deleniti",
+    "HeadingId": 765,
+    "Name": "Raynor Group",
+    "Tooltip": "quos",
     "Deleted": false,
-    "Rank": 597,
-    "UdListDefinitionId": 24
+    "Rank": 826,
+    "UdListDefinitionId": 600
   },
   {
-    "HeadingId": 585,
-    "Name": "Mohr-Monahan",
-    "Tooltip": "deleniti",
+    "HeadingId": 765,
+    "Name": "Raynor Group",
+    "Tooltip": "quos",
     "Deleted": false,
-    "Rank": 597,
-    "UdListDefinitionId": 24
+    "Rank": 826,
+    "UdListDefinitionId": 600
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 988,
-    "Name": "Larkin-Connelly",
-    "Tooltip": "libero",
-    "Deleted": true,
-    "Rank": 702,
-    "UdListDefinitionId": 529,
+    "HeadingId": 804,
+    "Name": "Erdman LLC",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 598,
+    "UdListDefinitionId": 225,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 910
+        "FieldType": "System.Int32",
+        "FieldLength": 121
       }
     }
   }

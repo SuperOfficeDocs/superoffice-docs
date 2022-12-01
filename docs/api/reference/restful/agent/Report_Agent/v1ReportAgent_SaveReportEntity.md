@@ -11,6 +11,13 @@ POST /api/v1/Agents/Report/SaveReportEntity
 
 Updates the existing ReportEntity or creates a new ReportEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ReportEntity or creates a new ReportEntity if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ReportEntity to be saved.
+The ReportEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The ReportEntity to be saved.
 | TemplateId | int32 | The id of report template. |
 | Published | bool | Is the report published? |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,14 +81,14 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 693,
+  "ReportId": 639,
   "ReportCategory": "All",
-  "Description": "User-centric systemic attitude",
+  "Description": "Enterprise-wide optimizing forecast",
   "ReportLayout": "CalendarMonth",
-  "Name": "Keeling, Mante and Bartell",
-  "AssociateId": 817,
-  "TemplateId": 596,
-  "Published": true
+  "Name": "Torp-Jast",
+  "AssociateId": 995,
+  "TemplateId": 9,
+  "Published": false
 }
 ```
 
@@ -91,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 739,
+  "ReportId": 87,
   "ReportCategory": "All",
-  "Description": "Self-enabling dynamic function",
+  "Description": "Function-based human-resource adapter",
   "ReportLayout": "CalendarMonth",
-  "Name": "Stiedemann-Weber",
-  "AssociateId": 298,
-  "TemplateId": 793,
-  "Published": false,
+  "Name": "Streich LLC",
+  "AssociateId": 997,
+  "TemplateId": 67,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 677
+      "FieldType": "System.Int32",
+      "FieldLength": 816
     }
   }
 }

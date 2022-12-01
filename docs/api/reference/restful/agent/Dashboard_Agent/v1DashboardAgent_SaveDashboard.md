@@ -11,6 +11,13 @@ POST /api/v1/Agents/Dashboard/SaveDashboard
 
 Updates the existing Dashboard or creates a new Dashboard if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing Dashboard or creates a new Dashboard if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Dashboard to be saved.
+The Dashboard to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,7 +44,8 @@ The Dashboard to be saved.
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -45,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,22 +75,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 824,
-  "AssociateId": 999,
-  "Caption": "voluptates",
+  "DashboardId": 255,
+  "AssociateId": 68,
+  "Caption": "natus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 873,
-      "Caption": "ipsum",
-      "Description": "Ergonomic zero tolerance open system",
-      "ChartName": "Lindgren, Davis and Ryan",
-      "ChartId": "culpa",
+      "DashboardTileId": 655,
+      "Caption": "nesciunt",
+      "Description": "Fundamental multi-tasking Graphical User Interface",
+      "ChartName": "Tillman Group",
+      "ChartId": "cum",
       "IsDefault": true,
-      "AssociateId": 254,
-      "GroupId": 847,
-      "SelectionId": 59,
-      "Config": "quod",
+      "AssociateId": 479,
+      "GroupId": 816,
+      "SelectionId": 943,
+      "Config": "pariatur",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -105,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 87,
-  "AssociateId": 256,
-  "Caption": "itaque",
+  "DashboardId": 548,
+  "AssociateId": 216,
+  "Caption": "occaecati",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 459,
-      "Caption": "illum",
-      "Description": "Extended assymetric instruction set",
-      "ChartName": "Kuhic Group",
-      "ChartId": "rerum",
+      "DashboardTileId": 679,
+      "Caption": "dicta",
+      "Description": "Universal demand-driven productivity",
+      "ChartName": "Schmidt, Hand and Lindgren",
+      "ChartId": "id",
       "IsDefault": true,
-      "AssociateId": 134,
-      "GroupId": 555,
-      "SelectionId": 134,
-      "Config": "laboriosam",
+      "AssociateId": 506,
+      "GroupId": 867,
+      "SelectionId": 465,
+      "Config": "voluptatum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -136,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 614
         }
       }
     }
@@ -146,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 420
+      "FieldLength": 209
     }
   }
 }

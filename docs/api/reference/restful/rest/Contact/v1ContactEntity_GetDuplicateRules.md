@@ -11,6 +11,13 @@ GET /api/v1/Contact/DuplicateRules
 
 Retrieve all available duplicate rules for contact
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -23,6 +30,7 @@ Retrieve all available duplicate rules for contact
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -60,30 +68,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sanford Group",
-    "DisplayName": "Schinner, Marquardt and Kozey",
-    "DisplayTooltip": "nisi",
-    "IsActive": false,
+    "Name": "Beer-Bayer",
+    "DisplayName": "Schaden LLC",
+    "DisplayTooltip": "ea",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldLength": 379
       }
     }
   },
   {
-    "Name": "Sanford Group",
-    "DisplayName": "Schinner, Marquardt and Kozey",
-    "DisplayTooltip": "nisi",
-    "IsActive": false,
+    "Name": "Beer-Bayer",
+    "DisplayName": "Schaden LLC",
+    "DisplayTooltip": "ea",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldLength": 379
       }
     }
   }

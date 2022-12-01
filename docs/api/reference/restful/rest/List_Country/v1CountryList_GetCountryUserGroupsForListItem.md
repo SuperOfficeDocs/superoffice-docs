@@ -11,11 +11,18 @@ GET /api/v1/List/Country/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Country list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Gerlach-Emmerich",
-    "ToolTip": "Rerum et quae.",
+    "Id": 708,
+    "Name": "Huel, Johnston and Kihn",
+    "ToolTip": "Suscipit beatae qui similique est fuga.",
     "Deleted": false,
-    "Rank": 722,
-    "Type": "quas",
-    "ColorBlock": 153,
-    "IconHint": "praesentium",
+    "Rank": 883,
+    "Type": "repudiandae",
+    "ColorBlock": 780,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2022-01-06T11:10:54.0161855+01:00",
+    "LastChanged": "2021-04-19T02:49:52.1721908+02:00",
     "ChildItems": [
       {
-        "Id": 550,
-        "Name": "Kessler Group",
-        "ToolTip": "Tempora quia sed molestiae non.",
-        "Deleted": false,
-        "Rank": 357,
-        "Type": "eum",
-        "ColorBlock": 167,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2011-06-02T11:10:54.0161855+02:00",
+        "Id": 917,
+        "Name": "Armstrong LLC",
+        "ToolTip": "Rerum et libero.",
+        "Deleted": true,
+        "Rank": 261,
+        "Type": "non",
+        "ColorBlock": 249,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "2019-05-20T02:49:52.1721908+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "mollitia",
-        "Hidden": true,
-        "FullName": "Bernadine Tremayne Boyle DDS",
+        "ExtraInfo": "quas",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Prof. Lenore Lysanne Heathcote",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 570
+            "FieldType": "System.Int32",
+            "FieldLength": 575
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "debitis",
-    "Hidden": false,
-    "FullName": "Alford Herman",
+    "ExtraInfo": "provident",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Golden Bechtelar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 496
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Relation/GetContactRelationEntity
 
 Gets a ContactRelationEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=557
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=664
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 10,
-  "SourcePersonId": 711,
-  "DestinationContactId": 727,
-  "DestinationPersonId": 618,
-  "RelationId": 967,
-  "Comment": "quis",
-  "RelationDefinitionId": 843,
-  "Reversed": 771,
-  "UpdatedDate": "2010-04-09T11:10:27.741495+02:00",
-  "CreatedDate": "1999-09-25T11:10:27.741495+02:00",
+  "SourceContactId": 537,
+  "SourcePersonId": 553,
+  "DestinationContactId": 793,
+  "DestinationPersonId": 605,
+  "RelationId": 831,
+  "Comment": "et",
+  "RelationDefinitionId": 296,
+  "Reversed": 708,
+  "UpdatedDate": "2004-05-15T02:49:45.0622144+02:00",
+  "CreatedDate": "2011-07-10T02:49:45.0622144+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Toy, Becker and Schmidt",
-  "SourcePersonName": "Bartoletti-Jerde",
-  "DestinationContactName": "Kuhn-Upton",
-  "DestinationPersonName": "Feil, Will and Lowe",
-  "ActiveText": "voluptas",
-  "PassiveText": "nesciunt",
+  "SourceContactName": "Bahringer, Kertzmann and Stoltenberg",
+  "SourcePersonName": "Cremin, Bogan and Littel",
+  "DestinationContactName": "Carroll LLC",
+  "DestinationPersonName": "Parker, Wisozk and Hegmann",
+  "ActiveText": "harum",
+  "PassiveText": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 892
     }
   }
 }

@@ -11,6 +11,12 @@ GET /api/v1/List/ProjectStatus/MDOItems
 
 Get the MDO list items for "ProjStatus" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=doloremque
+GET /api/v1/List/ProjectStatus/MDOItems?flat=False
+GET /api/v1/List/ProjectStatus/MDOItems?query=dicta
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/ProjectStatus/MDOItems?query=doloremque
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 116,
-    "Name": "Schuppe, Rolfson and Thompson",
-    "ToolTip": "Ut voluptates unde esse.",
+    "Id": 586,
+    "Name": "Leuschke LLC",
+    "ToolTip": "Aut illum veniam maiores qui.",
     "Deleted": true,
-    "Rank": 883,
-    "Type": "tempora",
+    "Rank": 942,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 349,
-        "Name": "Turner-Hintz",
-        "ToolTip": "Earum nisi tenetur quo consequatur.",
-        "Deleted": true,
-        "Rank": 629,
-        "Type": "minus",
+        "Id": 826,
+        "Name": "Borer Inc and Sons",
+        "ToolTip": "Et ullam et.",
+        "Deleted": false,
+        "Rank": 172,
+        "Type": "explicabo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 622,
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "voluptas",
-        "FullName": "Prof. Elmo Ally McClure",
+        "IconHint": "consequatur",
+        "ColorBlock": 282,
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "ut",
+        "FullName": "Rodrick Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 369
+            "FieldType": "System.Int32",
+            "FieldLength": 916
           }
         }
       }
     ],
-    "IconHint": "doloremque",
-    "ColorBlock": 130,
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "veritatis",
-    "FullName": "Dr. Virginie Koepp DVM",
+    "IconHint": "necessitatibus",
+    "ColorBlock": 377,
+    "ExtraInfo": "quia",
+    "StyleHint": "dolor",
+    "FullName": "Milford Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldLength": 938
       }
     }
   }

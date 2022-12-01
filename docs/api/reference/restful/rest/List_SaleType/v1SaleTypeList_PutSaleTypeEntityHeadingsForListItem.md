@@ -11,11 +11,18 @@ PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 
 Saves headings for the SaleTypeEntity list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Mante LLC",
-    "ToolTip": "Incidunt dolores praesentium quia deleniti quia officiis.",
+    "Id": 867,
+    "Name": "Keeling-Hammes",
+    "ToolTip": "Fugit hic quia rerum suscipit ut.",
     "Deleted": false,
-    "Rank": 602,
-    "Type": "nihil",
-    "ColorBlock": 62,
-    "IconHint": "perferendis",
+    "Rank": 954,
+    "Type": "est",
+    "ColorBlock": 951,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2010-05-14T11:10:54.6109181+02:00",
+    "LastChanged": "1996-11-19T02:49:52.5159497+01:00",
     "ChildItems": [
       {
-        "Id": 128,
-        "Name": "Sporer LLC",
-        "ToolTip": "Id aliquid magni.",
+        "Id": 599,
+        "Name": "Kemmer Inc and Sons",
+        "ToolTip": "A veritatis iusto impedit quos quo vel qui.",
         "Deleted": true,
-        "Rank": 739,
-        "Type": "sit",
-        "ColorBlock": 878,
-        "IconHint": "facilis",
-        "Selected": false,
-        "LastChanged": "2000-10-04T11:10:54.6119026+02:00",
+        "Rank": 604,
+        "Type": "corrupti",
+        "ColorBlock": 915,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2019-02-23T02:49:52.5159497+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "deserunt",
+        "ExtraInfo": "ex",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Walker Douglas"
+        "FullName": "Ms. Darwin Ashton Monahan"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "molestias",
-    "Hidden": true,
-    "FullName": "Stephan Trace Bins Sr."
+    "ExtraInfo": "impedit",
+    "StyleHint": "fuga",
+    "Hidden": false,
+    "FullName": "Betsy Gianni Reilly Jr."
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Schroeder LLC",
-    "ToolTip": "Magni ex omnis autem placeat consequatur.",
-    "Deleted": true,
-    "Rank": 701,
-    "Type": "consequuntur",
-    "ColorBlock": 127,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2011-06-09T11:10:54.612918+02:00",
+    "Id": 100,
+    "Name": "Jakubowski LLC",
+    "ToolTip": "Id est ad.",
+    "Deleted": false,
+    "Rank": 543,
+    "Type": "sit",
+    "ColorBlock": 729,
+    "IconHint": "esse",
+    "Selected": true,
+    "LastChanged": "2015-05-25T02:49:52.5159497+02:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Jakubowski, Morissette and Metz",
-        "ToolTip": "Ut molestiae.",
-        "Deleted": false,
-        "Rank": 62,
-        "Type": "quia",
-        "ColorBlock": 831,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2001-05-12T11:10:54.6139025+02:00",
+        "Id": 496,
+        "Name": "Schroeder-Klein",
+        "ToolTip": "Id quos amet laudantium unde et.",
+        "Deleted": true,
+        "Rank": 684,
+        "Type": "id",
+        "ColorBlock": 245,
+        "IconHint": "reprehenderit",
+        "Selected": false,
+        "LastChanged": "2022-03-17T02:49:52.5159497+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "debitis",
+        "ExtraInfo": "quia",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Gwendolyn Mayert DDS",
+        "FullName": "Stephen Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 909
+            "FieldType": "System.String",
+            "FieldLength": 654
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "nulla",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Darwin McKenzie MD",
+    "FullName": "Cali Dach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldType": "System.String",
+        "FieldLength": 351
       }
     }
   }

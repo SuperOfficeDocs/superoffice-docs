@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetSatelliteLicenses
 
 Obtain information about satellite module licenses
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Obtain information about satellite module licenses
 ```http
 POST /api/v1/Agents/License/GetSatelliteLicenses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/License/GetSatelliteLicenses?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SatelliteId
+SatelliteId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SatelliteId | int32 |  |
+
 
 ## Response: array
 
@@ -72,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 890
+  "SatelliteId": 778
 }
 ```
 
@@ -84,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wolff-Kulas",
-    "Description": "Streamlined mobile help-desk",
+    "Name": "Ward, Roberts and Connelly",
+    "Description": "Fundamental contextually-based policy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 741,
-        "Tooltip": "sunt",
+        "Total": 778,
+        "Tooltip": "nam",
         "CanAssign": false,
-        "Free": 679,
-        "InUse": 262,
+        "Free": 803,
+        "InUse": 199,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 413,
-        "Name": "Romaguera Inc and Sons",
-        "Description": "Extended zero administration product",
-        "PrerequisiteModuleName": "Bailey Group",
-        "SortOrder": 417,
-        "ExtraFlags": 674,
+        "ModuleLicenseId": 43,
+        "Name": "Kuhlman, Price and McGlynn",
+        "Description": "Persistent dynamic challenge",
+        "PrerequisiteModuleName": "Beatty-Crist",
+        "SortOrder": 992,
+        "ExtraFlags": 288,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 691
+            "FieldType": "System.Int32",
+            "FieldLength": 508
           }
         }
       }
@@ -115,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 826,
-        "Tooltip": "quisquam",
+        "Total": 494,
+        "Tooltip": "officiis",
         "CanAssign": true,
-        "Free": 522,
-        "InUse": 990,
+        "Free": 988,
+        "InUse": 479,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 271,
-        "Name": "Sauer, Ratke and Wolff",
-        "Description": "Pre-emptive 4th generation moratorium",
-        "PrerequisiteModuleName": "Lakin Group",
-        "SortOrder": 990,
-        "ExtraFlags": 665,
+        "Assigned": false,
+        "ModuleLicenseId": 724,
+        "Name": "Raynor Group",
+        "Description": "Persevering system-worthy attitude",
+        "PrerequisiteModuleName": "Kunde-Berge",
+        "SortOrder": 354,
+        "ExtraFlags": 602,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 95
+            "FieldLength": 515
           }
         }
       }
@@ -143,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldLength": 885
       }
     }
   },
   {
-    "Name": "Wolff-Kulas",
-    "Description": "Streamlined mobile help-desk",
+    "Name": "Ward, Roberts and Connelly",
+    "Description": "Fundamental contextually-based policy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 741,
-        "Tooltip": "sunt",
+        "Total": 778,
+        "Tooltip": "nam",
         "CanAssign": false,
-        "Free": 679,
-        "InUse": 262,
+        "Free": 803,
+        "InUse": 199,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 413,
-        "Name": "Romaguera Inc and Sons",
-        "Description": "Extended zero administration product",
-        "PrerequisiteModuleName": "Bailey Group",
-        "SortOrder": 417,
-        "ExtraFlags": 674,
+        "ModuleLicenseId": 43,
+        "Name": "Kuhlman, Price and McGlynn",
+        "Description": "Persistent dynamic challenge",
+        "PrerequisiteModuleName": "Beatty-Crist",
+        "SortOrder": 992,
+        "ExtraFlags": 288,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 691
+            "FieldType": "System.Int32",
+            "FieldLength": 508
           }
         }
       }
@@ -179,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 826,
-        "Tooltip": "quisquam",
+        "Total": 494,
+        "Tooltip": "officiis",
         "CanAssign": true,
-        "Free": 522,
-        "InUse": 990,
+        "Free": 988,
+        "InUse": 479,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 271,
-        "Name": "Sauer, Ratke and Wolff",
-        "Description": "Pre-emptive 4th generation moratorium",
-        "PrerequisiteModuleName": "Lakin Group",
-        "SortOrder": 990,
-        "ExtraFlags": 665,
+        "Assigned": false,
+        "ModuleLicenseId": 724,
+        "Name": "Raynor Group",
+        "Description": "Persevering system-worthy attitude",
+        "PrerequisiteModuleName": "Kunde-Berge",
+        "SortOrder": 354,
+        "ExtraFlags": 602,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 95
+            "FieldLength": 515
           }
         }
       }
@@ -207,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldLength": 885
       }
     }
   }

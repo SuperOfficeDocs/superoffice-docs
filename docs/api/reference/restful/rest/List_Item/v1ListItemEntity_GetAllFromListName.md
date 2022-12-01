@@ -11,9 +11,15 @@ GET /api/v1/List/{udListDefinitionName}/Items
 
 Get all list items for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to get the item from. **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get all list items for the specified list defintion
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -37,6 +44,7 @@ GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -65,7 +73,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 205,
-    "Name": "Greenholt, Shields and Fahey",
-    "Tooltip": "error",
+    "Id": 6,
+    "Name": "Rau, Bogisich and Sauer",
+    "Tooltip": "voluptatem",
     "Deleted": true,
-    "UdListDefinitionId": 748,
-    "Rank": 565,
+    "UdListDefinitionId": 910,
+    "Rank": 251,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldType": "System.String",
+        "FieldLength": 478
       }
     }
   }

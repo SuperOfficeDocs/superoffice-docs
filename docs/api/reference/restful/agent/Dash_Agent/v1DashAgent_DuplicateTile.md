@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/DuplicateTile
 
 Duplicate for the tile and all the sub elements
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Duplicate for the tile and all the sub elements
 ```http
 POST /api/v1/Agents/Dash/DuplicateTile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Dash/DuplicateTile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashTileId, Name
+DashTileId, Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashTileId | int32 |  |
 | Name | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 135,
-  "Name": "Goodwin-Kuvalis"
+  "DashTileId": 73,
+  "Name": "Bartell, Erdman and Gislason"
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 438,
-  "DashboardId": 536,
-  "Height": 234,
-  "Width": 415,
-  "Rank": 878,
+  "DashboardTileId": 52,
+  "DashboardId": 370,
+  "Height": 502,
+  "Width": 25,
+  "Rank": 221,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldType": "System.String",
+      "FieldLength": 994
     }
   }
 }

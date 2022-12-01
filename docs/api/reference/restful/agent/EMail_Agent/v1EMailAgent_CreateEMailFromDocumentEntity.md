@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 
 Get an e-mail based on the provided DocumentEntity
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get an e-mail based on the provided DocumentEntity
 ```http
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentEntity
+DocumentEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentEntity |  | Partial DocumentEntity class associating the generated DocumentEntity with an interface. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,155 +119,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 297,
-      "ContactName": "Gottlieb-Luettgen",
-      "PersonId": 392,
-      "PersonName": "Weissnat, Jacobs and Hayes",
-      "AssociateId": 669,
-      "Address": "qui",
-      "EmailId": 775,
+      "ContactId": 477,
+      "ContactName": "VonRueden, Jacobson and Hessel",
+      "PersonId": 977,
+      "PersonName": "Cartwright, Stark and Sanford",
+      "AssociateId": 514,
+      "Address": "mollitia",
+      "EmailId": 457,
       "DuplicatePersonIds": [
-        328,
-        811
+        597,
+        68
       ],
-      "Name": "Kling-Cummings",
+      "Name": "Connelly, Boyer and Gleichner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 966
+          "FieldLength": 698
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 180,
-      "ContactName": "Daugherty-Homenick",
-      "PersonId": 380,
-      "PersonName": "Satterfield, Kling and Prosacco",
-      "AssociateId": 853,
-      "Address": "et",
-      "EmailId": 134,
+      "ContactId": 535,
+      "ContactName": "Simonis-O'Hara",
+      "PersonId": 986,
+      "PersonName": "Ruecker-Ortiz",
+      "AssociateId": 926,
+      "Address": "vero",
+      "EmailId": 455,
       "DuplicatePersonIds": [
-        468,
-        135
+        579,
+        71
       ],
-      "Name": "Murray, Hilpert and Nolan",
+      "Name": "Flatley, Jones and Hayes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 907
+          "FieldType": "System.Int32",
+          "FieldLength": 277
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 635,
-      "ContactName": "VonRueden, Nienow and Torp",
-      "PersonId": 34,
-      "PersonName": "Fay Group",
-      "AssociateId": 684,
-      "Address": "est",
-      "EmailId": 996,
+      "ContactId": 875,
+      "ContactName": "Walker-Bergstrom",
+      "PersonId": 861,
+      "PersonName": "Gutmann Inc and Sons",
+      "AssociateId": 485,
+      "Address": "officiis",
+      "EmailId": 50,
       "DuplicatePersonIds": [
-        17,
-        381
+        599,
+        559
       ],
-      "Name": "Carroll Inc and Sons",
+      "Name": "Legros, Walker and Conn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 394
+          "FieldType": "System.String",
+          "FieldLength": 914
         }
       }
     }
   ],
-  "Subject": "ut",
-  "HTMLBody": "necessitatibus",
+  "Subject": "repellat",
+  "HTMLBody": "esse",
   "From": null,
-  "Sent": "2007-06-12T11:10:26.9654529+02:00",
-  "Size": 17,
+  "Sent": "2010-10-05T02:49:44.4660393+02:00",
+  "Size": 751,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "tempora",
-  "PlainBody": "est",
+  "MessageID": "iure",
+  "PlainBody": "deserunt",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 162,
+  "ServerId": 37,
   "Attachments": [
     {
-      "Description": "Exclusive empowering workforce",
-      "Filename": "accusamus",
-      "Size": 745,
-      "Type": "cumque",
-      "Encoding": "deleniti",
-      "Id": "temporibus",
-      "Disposition": "molestiae",
+      "Description": "Customer-focused disintermediate matrix",
+      "Filename": "similique",
+      "Size": 474,
+      "Type": "deserunt",
+      "Encoding": "minus",
+      "Id": "ducimus",
+      "Disposition": "odio",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 549
+          "FieldLength": 732
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hessel-Bartell",
+      "Name": "Christiansen, Johnston and Wisozk",
       "Values": [
-        "corporis",
-        "tempora"
+        "cupiditate",
+        "ea"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldType": "System.String",
+          "FieldLength": 688
         }
       }
     },
     {
-      "Name": "Hessel-Bartell",
+      "Name": "Christiansen, Johnston and Wisozk",
       "Values": [
-        "corporis",
-        "tempora"
+        "cupiditate",
+        "ea"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldType": "System.String",
+          "FieldLength": 688
         }
       }
     }
   ],
-  "FolderName": "Hane LLC",
-  "EmailItemId": 172,
-  "AccountId": 448,
-  "ReceivedAt": "1999-08-25T11:10:26.9654529+02:00",
+  "FolderName": "Flatley, Lynch and Hoeger",
+  "EmailItemId": 67,
+  "AccountId": 126,
+  "ReceivedAt": "1999-09-05T02:49:44.4660393+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-05-18T11:10:26.9654529+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2006-08-13T02:49:44.4660393+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 697
+      "FieldType": "System.Int32",
+      "FieldLength": 436
     }
   }
 }

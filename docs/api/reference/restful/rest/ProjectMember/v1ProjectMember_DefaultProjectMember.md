@@ -11,7 +11,14 @@ GET /api/v1/ProjectMember/default
 
 Set default values into a new ProjectMember.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Project agent service CreateDefaultProjectMember.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 32,
-  "ContactId": 362,
-  "ProjectId": 58,
-  "ContactName": "Wisozk-Wolf",
+  "ProjectmemberId": 747,
+  "ContactId": 831,
+  "ProjectId": 144,
+  "ContactName": "Bruen-Hartmann",
   "ContactDepartment": "",
-  "ProjectName": "Fadel, Balistreri and O'Keefe",
-  "EmailId": 253,
-  "EmailAddress": "rosalia@rodriguezoconner.us",
-  "CountryId": 471,
-  "Firstname": "Abagail",
-  "MiddleName": "Mitchell-McGlynn",
-  "Lastname": "Bruen",
-  "PersonId": 549,
-  "Mrmrs": "et",
-  "ProjectMemberTypeName": "Lowe-Smith",
-  "Phone": "109.434.1895 x5792",
-  "PhoneId": 506,
-  "ProjectMemberTypeId": 647,
-  "EmailAddressName": "emmie.ratke@casper.biz",
-  "Comment": "officiis",
-  "FullName": "Clemens Glover",
+  "ProjectName": "Pollich-O'Kon",
+  "EmailId": 316,
+  "EmailAddress": "lewis@zulaufgoldner.uk",
+  "CountryId": 268,
+  "Firstname": "Elmira",
+  "MiddleName": "Steuber-Crist",
+  "Lastname": "Blick",
+  "PersonId": 878,
+  "Mrmrs": "beatae",
+  "ProjectMemberTypeName": "Wuckert-Spencer",
+  "Phone": "(282)379-6428",
+  "PhoneId": 354,
+  "ProjectMemberTypeId": 366,
+  "EmailAddressName": "meaghan.bergnaum@deckowgoldner.com",
+  "Comment": "quia",
+  "FullName": "Zola O'Conner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldLength": 368
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 
 A re-open appointment should be created as a reminder to re-open the sale at a certain date with information regarding the stalled sale.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ A re-open appointment should be created as a reminder to re-open the sale at a c
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId
+SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +131,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 111
+  "SaleId": 351
 }
 ```
 
@@ -138,122 +146,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2008-08-13T11:10:25.6855534+02:00",
-  "AppointmentId": 866,
-  "Description": "Decentralized explicit moratorium",
-  "StartDate": "2001-07-05T11:10:25.6855534+02:00",
-  "EndDate": "2018-02-19T11:10:25.6855534+01:00",
+  "CreatedDate": "2020-10-03T02:49:43.4504039+02:00",
+  "AppointmentId": 472,
+  "Description": "Re-contextualized discrete capability",
+  "StartDate": "1995-11-15T02:49:43.4504039+01:00",
+  "EndDate": "2010-04-23T02:49:43.4504039+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 464,
+  "MotherId": 44,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-10-13T11:10:25.6885531+02:00",
+  "UpdatedDate": "2008-11-28T02:49:43.4504039+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 617,
+  "ActiveLinks": 482,
   "Links": [
     {
-      "EntityName": "O'Hara, Cronin and Grimes",
-      "Id": 80,
-      "Description": "Automated methodical capability",
-      "ExtraInfo": "autem",
-      "LinkId": 940,
+      "EntityName": "Ferry-Watsica",
+      "Id": 946,
+      "Description": "Switchable eco-centric moderator",
+      "ExtraInfo": "consectetur",
+      "LinkId": 582,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 888
+          "FieldLength": 791
         }
       }
     }
   ],
-  "AlarmLeadTime": "odit",
-  "HasAlarm": true,
-  "ColorIndex": 316,
-  "IsFree": false,
+  "AlarmLeadTime": "ullam",
+  "HasAlarm": false,
+  "ColorIndex": 92,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "recusandae",
-  "LeadTime": "quam",
-  "Location": "et",
-  "RejectCounter": 473,
+  "LagTime": "rerum",
+  "LeadTime": "et",
+  "Location": "enim",
+  "RejectCounter": 611,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 225,
-      "PersonId": 916,
-      "ContactId": 436,
-      "EmailId": 683,
-      "SendEmail": false,
+      "AssociateId": 158,
+      "PersonId": 408,
+      "ContactId": 435,
+      "EmailId": 120,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 225,
-      "PersonId": 916,
-      "ContactId": 436,
-      "EmailId": 683,
-      "SendEmail": false,
+      "AssociateId": 158,
+      "PersonId": 408,
+      "ContactId": 435,
+      "EmailId": 120,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-11-16T11:10:25.6885531+01:00",
+  "ActiveDate": "2008-06-01T02:49:43.4504039+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 941,
+  "PreferredTZLocation": 85,
   "Sale": null,
-  "SuggestedAppointmentId": 105,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 267,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "molestias",
+  "CentralserviceVideomeetId": "minima",
   "UserDefinedFields": {
-    "SuperOffice:1": "Coleman Nikolaus",
-    "SuperOffice:2": "Lea Johnston"
+    "SuperOffice:1": "1327809780",
+    "SuperOffice:2": "816540492"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "tempora"
+    "ExtraFields1": "iste",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "placeat"
+    "CustomFields1": "quia",
+    "CustomFields2": "commodi"
   },
-  "PublishEventDate": "2000-06-09T11:10:25.690555+02:00",
-  "PublishTo": "1996-05-06T11:10:25.690555+02:00",
-  "PublishFrom": "2003-04-09T11:10:25.690555+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-06-08T02:49:43.4504039+02:00",
+  "PublishTo": "2012-12-07T02:49:43.4504039+01:00",
+  "PublishFrom": "2002-04-13T02:49:43.4504039+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 218,
+      "VisibleId": 921,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 459
         }
       }
     },
     {
-      "VisibleId": 218,
+      "VisibleId": 921,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 459
         }
       }
     }
@@ -262,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldType": "System.Int32",
+      "FieldLength": 538
     }
   }
 }

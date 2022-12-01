@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetAllFromSection
 
 Gets all PreferenceDescription-items in the specified section
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all PreferenceDescription-items in the specified section
 ```http
 POST /api/v1/Agents/Preference/GetAllFromSection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Preference/GetAllFromSection?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Section
+Section 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Section | string |  |
+
 
 ## Response: array
 
@@ -86,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ipsa"
+  "Section": "a"
 }
 ```
 
@@ -98,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 684,
-    "Section": "id",
-    "Key": "et",
-    "Name": "Hamill Group",
+    "PrefDescId": 854,
+    "Section": "iure",
+    "Key": "iure",
+    "Name": "Howe, Krajcik and Jacobi",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Advanced client-server initiative",
+    "Description": "Diverse optimal moratorium",
     "IsBuiltin": true,
-    "TableName": "Rau LLC",
-    "UserDefinedListId": 610,
-    "Rank": 892,
-    "SubGroup": "quidem",
-    "MinLevel": 893,
-    "MaxValue": 939,
-    "MinValue": 466,
-    "RequiredLicense": "porro",
+    "TableName": "Shields LLC",
+    "UserDefinedListId": 446,
+    "Rank": 733,
+    "SubGroup": "in",
+    "MinLevel": 676,
+    "MaxValue": 371,
+    "MinValue": 752,
+    "RequiredLicense": "accusamus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldLength": 264
       }
     }
   }

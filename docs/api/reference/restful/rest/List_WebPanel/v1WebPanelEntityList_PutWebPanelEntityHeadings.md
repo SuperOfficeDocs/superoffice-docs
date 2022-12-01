@@ -11,7 +11,14 @@ PUT /api/v1/List/WebPanel/Headings
 
 Saves headings for the WebPanelEntity list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 577,
-    "Name": "Raynor Group",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 959,
-    "UdListDefinitionId": 748
+    "HeadingId": 182,
+    "Name": "Skiles, Powlowski and Roberts",
+    "Tooltip": "explicabo",
+    "Deleted": false,
+    "Rank": 967,
+    "UdListDefinitionId": 702
   },
   {
-    "HeadingId": 577,
-    "Name": "Raynor Group",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 959,
-    "UdListDefinitionId": 748
+    "HeadingId": 182,
+    "Name": "Skiles, Powlowski and Roberts",
+    "Tooltip": "explicabo",
+    "Deleted": false,
+    "Rank": 967,
+    "UdListDefinitionId": 702
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 614,
-    "Name": "Murphy, Erdman and Kunde",
-    "Tooltip": "voluptatem",
+    "HeadingId": 208,
+    "Name": "Kuhic, Schmidt and Wiza",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 908,
-    "UdListDefinitionId": 548,
+    "Rank": 167,
+    "UdListDefinitionId": 340,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldLength": 345
       }
     }
   }

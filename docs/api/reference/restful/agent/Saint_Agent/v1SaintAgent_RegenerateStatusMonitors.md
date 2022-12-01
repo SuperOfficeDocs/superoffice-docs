@@ -11,6 +11,12 @@ POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 
 Regenerate status monitors
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Regenerate status monitors
 ```http
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Saint/RegenerateStatusMonitors?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RunAsBatch
+RunAsBatch 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RunAsBatch | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +93,7 @@ Response body:
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,36 +108,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 159,
-  "Name": "Schneider-Ledner",
-  "AssociateId": 41,
-  "DetailsTable": 862,
-  "DetailsRecord": 694,
-  "IsSystemTask": false,
+  "Id": 843,
+  "Name": "Kuhic Inc and Sons",
+  "AssociateId": 211,
+  "DetailsTable": 249,
+  "DetailsRecord": 713,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "aspernatur",
-    "ParameterObject2": "vel"
+    "ParameterObject1": "occaecati",
+    "ParameterObject2": "accusantium"
   },
-  "LastStarted": "2012-09-18T11:10:27.7744917+02:00",
-  "Created": "2020-10-23T11:10:27.7744917+02:00",
-  "StartCount": 142,
-  "DatabaseSerialNumber": "351659",
-  "Context": "consectetur",
-  "Result": "velit",
+  "LastStarted": "2001-01-14T02:49:45.0934673+01:00",
+  "Created": "2015-01-03T02:49:45.0934673+01:00",
+  "StartCount": 44,
+  "DatabaseSerialNumber": "468601",
+  "Context": "ex",
+  "Result": "sit",
   "State": "All",
-  "Description": "Monitored asynchronous product",
-  "Response": "fugiat",
-  "Request": "quas",
-  "ProgressDescription": "User-friendly human-resource instruction set",
-  "ProgressPercent": 585,
-  "FileName": "Lubowitz LLC",
+  "Description": "Optional zero administration methodology",
+  "Response": "quis",
+  "Request": "sit",
+  "ProgressDescription": "Triple-buffered analyzing contingency",
+  "ProgressPercent": 603,
+  "FileName": "Wolff Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldType": "System.Int32",
+      "FieldLength": 579
     }
   }
 }

@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetUser
 
 Gets a User object.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=662
+POST /api/v1/Agents/User/GetUser?userId=760
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,7 +47,8 @@ POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +94,7 @@ Response body:
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 497,
-  "Name": "Flatley Inc and Sons",
-  "Rank": 914,
-  "Tooltip": "sed",
+  "AssociateId": 844,
+  "Name": "Marks-Kuphal",
+  "Rank": 860,
+  "Tooltip": "aperiam",
   "LicenseOwners": [
     {
-      "Name": "Fisher LLC",
-      "Description": "Ergonomic next generation system engine",
+      "Name": "Murazik-Kovacek",
+      "Description": "Ameliorated upward-trending orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -114,14 +124,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 218
+          "FieldType": "System.Int32",
+          "FieldLength": 199
         }
       }
     },
     {
-      "Name": "Fisher LLC",
-      "Description": "Ergonomic next generation system engine",
+      "Name": "Murazik-Kovacek",
+      "Description": "Ameliorated upward-trending orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,8 +144,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 218
+          "FieldType": "System.Int32",
+          "FieldLength": 199
         }
       }
     }
@@ -144,110 +154,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptatem",
-      "Tooltip": "possimus",
-      "Id": 416,
-      "Rank": 377,
-      "Deleted": false,
+      "Value": "perspiciatis",
+      "Tooltip": "illum",
+      "Id": 297,
+      "Rank": 208,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldLength": 541
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "1997-08-16T11:10:28.4022074+02:00",
-  "Lastlogout": "2002-08-27T11:10:28.4022074+02:00",
-  "EjUserId": 973,
-  "RequestSignature": "ut",
+  "Deleted": false,
+  "Lastlogin": "2002-07-28T02:49:45.6715962+02:00",
+  "Lastlogout": "2004-08-06T02:49:45.6715962+02:00",
+  "EjUserId": 415,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "dolor",
+      "Value": "nihil",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 218
+          "FieldLength": 842
         }
       }
     },
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "dolor",
+      "Value": "nihil",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 218
+          "FieldLength": 842
         }
       }
     }
   ],
-  "UserName": "Harber-Franecki",
+  "UserName": "Conroy-Waelchi",
   "TicketCategories": [
     {
-      "Id": 741,
-      "Name": "Muller, Jast and Hansen",
-      "ToolTip": "Enim doloribus sint labore deserunt quisquam.",
-      "Deleted": false,
-      "Rank": 134,
-      "Type": "vitae",
+      "Id": 665,
+      "Name": "Dare, Adams and Harvey",
+      "ToolTip": "In sed at vel iure omnis possimus laborum.",
+      "Deleted": true,
+      "Rank": 441,
+      "Type": "voluptas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aliquid",
-      "ColorBlock": 915,
-      "ExtraInfo": "officiis",
-      "StyleHint": "voluptatum",
-      "FullName": "Rory Brown",
+      "IconHint": "pariatur",
+      "ColorBlock": 802,
+      "ExtraInfo": "quam",
+      "StyleHint": "asperiores",
+      "FullName": "Dr. Genesis Schultz MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 356
+          "FieldLength": 278
         }
       }
     }
   ],
-  "NickName": "Kling Inc and Sons",
+  "NickName": "Farrell-McClure",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "velit"
+    "CustomFields1": "enim",
+    "CustomFields2": "architecto"
   },
   "PostSaveCommands": [
     {
-      "Name": "Nolan, Nikolaus and Lueilwitz",
-      "DisplayName": "Homenick, Luettgen and Carroll",
-      "Description": "Vision-oriented analyzing migration",
-      "ToolTip": "Voluptatibus sit consequuntur neque aperiam natus esse.",
+      "Name": "Upton LLC",
+      "DisplayName": "Dare LLC",
+      "Description": "Persistent maximized service-desk",
+      "ToolTip": "Amet et sed.",
       "Actions": "Implicit",
-      "ActionData": "eum",
+      "ActionData": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 550
+          "FieldType": "System.Int32",
+          "FieldLength": 989
         }
       }
     }
@@ -257,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 925
     }
   }
 }

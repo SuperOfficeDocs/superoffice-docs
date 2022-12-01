@@ -11,11 +11,17 @@ GET /api/v1/ChatTopic/{id}
 
 Gets a ChatTopicEntity object.
 
+
 Calls the Chat agent service GetChatTopicEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ChatTopicEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Chat agent service GetChatTopicEntity.
 ```http
 GET /api/v1/ChatTopic/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/ChatTopic/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ChatTopicEntity found.
 
@@ -49,7 +57,7 @@ ChatTopicEntity found.
 | 200 | ChatTopicEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +102,7 @@ Response body:
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,43 +112,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 653,
-  "Name": "O'Kon, Schoen and Hand",
-  "Description": "Digitized optimal capability",
-  "WelcomeMessage": "voluptatibus",
+  "ChatTopicId": 809,
+  "Name": "Crooks, Stokes and Mraz",
+  "Description": "Streamlined transitional methodology",
+  "WelcomeMessage": "consequatur",
   "Language": null,
-  "LastAccept": "2003-11-30T11:10:52.5731686+01:00",
-  "SecondsPrAccept": 509,
-  "AlertRecipient": "vero",
+  "LastAccept": "2005-01-30T02:49:50.6984105+01:00",
+  "SecondsPrAccept": 596,
+  "AlertRecipient": "ullam",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "voluptatibus",
+  "BadgeHeader": "eligendi",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "in",
-  "WarnNewChatMinutes": 575,
-  "WarnManagerNewChatMinutes": 787,
+  "CustomQueueText": "rerum",
+  "WarnNewChatMinutes": 933,
+  "WarnManagerNewChatMinutes": 740,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 385,
-  "WarnManagerChatMessageMinutes": 953,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 627,
+  "WarnManagerChatMessageMinutes": 735,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 171,
-  "OfflineFormQueueLength": 503,
+  "OfflineFormTimeLimit": 439,
+  "OfflineFormQueueLength": 506,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "rerum",
+  "WidgetRatingText": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 939
+      "FieldType": "System.Int32",
+      "FieldLength": 435
     }
   },
   "_Links": {

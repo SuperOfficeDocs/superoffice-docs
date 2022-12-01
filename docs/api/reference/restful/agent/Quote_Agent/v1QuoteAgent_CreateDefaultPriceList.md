@@ -11,7 +11,14 @@ POST /api/v1/Agents/Quote/CreateDefaultPriceList
 
 Set default values into a new PriceList.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +65,7 @@ Response body:
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -67,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 797,
-  "ERPPriceListKey": "voluptatum",
-  "QuoteConnectionId": 20,
-  "Name": "Boehm Group",
-  "Description": "Enhanced scalable paradigm",
-  "Currency": "commodi",
-  "CurrencyName": "Baumbach-Pouros",
-  "ValidFrom": "2006-01-28T11:10:27.6724244+01:00",
-  "ValidTo": "2014-07-18T11:10:27.6724244+02:00",
+  "PriceListId": 500,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 7,
+  "Name": "D'Amore, Hauck and Hayes",
+  "Description": "Re-contextualized tangible matrices",
+  "Currency": "esse",
+  "CurrencyName": "Volkman, Gleichner and Nicolas",
+  "ValidFrom": "1998-07-30T02:49:45.0153392+02:00",
+  "ValidTo": "2012-06-25T02:49:45.0153392+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 15
     }
   }
 }

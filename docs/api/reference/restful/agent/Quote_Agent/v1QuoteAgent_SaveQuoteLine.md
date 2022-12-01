@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/SaveQuoteLine
 
 Saves the QuoteLine in the SuperOffice database
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves the QuoteLine in the SuperOffice database
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLine?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/SaveQuoteLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLine
+QuoteLine 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLine |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -128,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 1001,
-  "ERPQuoteLineKey": "voluptatem",
-  "QuoteAlternativeId": 435,
-  "ERPProductKey": "rerum",
+  "QuoteLineId": 990,
+  "ERPQuoteLineKey": "accusantium",
+  "QuoteAlternativeId": 116,
+  "ERPProductKey": "saepe",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 12642.555999999999,
-  "DeliveredQuantity": 5092.75,
-  "Rank": 423,
-  "Name": "Hodkiewicz LLC",
-  "Description": "Upgradable system-worthy forecast",
-  "Code": "aspernatur",
-  "QuantityUnit": "illum",
-  "PriceUnit": "voluptatem",
-  "ItemNumber": "199063",
+  "Quantity": 21370.746,
+  "DeliveredQuantity": 25545.234,
+  "Rank": 14,
+  "Name": "Hane-Fadel",
+  "Description": "Customizable needs-based attitude",
+  "Code": "consequatur",
+  "QuantityUnit": "itaque",
+  "PriceUnit": "ut",
+  "ItemNumber": "1531072",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "velit",
-  "ProductTypeKey": "cum",
-  "Supplier": "sed",
-  "SupplierCode": "molestiae",
-  "Thumbnail": "exercitationem",
-  "VATInfo": "facere",
-  "VAT": 21326.87,
-  "UnitCost": 25526.43,
-  "UnitMinimumPrice": 19352.45,
-  "UnitListPrice": 12645.689999999999,
+  "ProductFamilyKey": "nesciunt",
+  "ProductTypeKey": "a",
+  "Supplier": "accusantium",
+  "SupplierCode": "voluptas",
+  "Thumbnail": "dicta",
+  "VATInfo": "velit",
+  "VAT": 27757.838,
+  "UnitCost": 13118.923999999999,
+  "UnitMinimumPrice": 31286.721999999998,
+  "UnitListPrice": 25745.809999999998,
   "ExtraInfo": [
     {
-      "Name": "Barton Inc and Sons",
-      "Value": "suscipit",
+      "Name": "Christiansen-Morissette",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 408
+          "FieldType": "System.String",
+          "FieldLength": 244
         }
       }
     },
     {
-      "Name": "Barton Inc and Sons",
-      "Value": "suscipit",
+      "Name": "Christiansen-Morissette",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 408
+          "FieldType": "System.String",
+          "FieldLength": 244
         }
       }
     }
   ],
-  "RawExtraInfo": "id",
+  "RawExtraInfo": "quo",
   "IsSubscription": true,
-  "SubscriptionUnit": "atque",
-  "SubscriptionQuantity": 25915.046,
-  "SubscriptionStart": "2006-10-02T11:10:27.7304948+02:00",
-  "ERPDiscountPercent": 21546.25,
-  "ERPDiscountAmount": 1031.086,
-  "DiscountPercent": 20674.998,
-  "DiscountAmount": 10157.294,
+  "SubscriptionUnit": "culpa",
+  "SubscriptionQuantity": 25783.417999999998,
+  "SubscriptionStart": "2005-12-18T02:49:45.0465904+01:00",
+  "ERPDiscountPercent": 22586.737999999998,
+  "ERPDiscountAmount": 22241.998,
+  "DiscountPercent": 21615.198,
+  "DiscountAmount": 18756.989999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 11567.594,
-  "EarningAmount": 28077.505999999998,
-  "SubTotal": 19640.778,
-  "TotalPrice": 5475.098,
-  "Rights": "exercitationem",
-  "Rule": "quam",
-  "ExtraField1": "quia",
-  "ExtraField2": "praesentium",
-  "ExtraField3": "doloremque",
-  "ExtraField4": "et",
-  "ExtraField5": "reiciendis",
+  "EarningPercent": 18236.746,
+  "EarningAmount": 23260.548,
+  "SubTotal": 14485.348,
+  "TotalPrice": 15632.392,
+  "Rights": "modi",
+  "Rule": "et",
+  "ExtraField1": "est",
+  "ExtraField2": "odit",
+  "ExtraField3": "dolor",
+  "ExtraField4": "nihil",
+  "ExtraField5": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldLength": 311
     }
   }
 }

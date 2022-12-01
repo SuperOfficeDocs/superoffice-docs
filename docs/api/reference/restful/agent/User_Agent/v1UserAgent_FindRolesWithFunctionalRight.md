@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 
 Find all roles with a given functional right.
 
-The roles matched must contain the specified functional right.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+The roles matched must contain the specified functional right. 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The roles matched must contain the specified functional right.
 ```http
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,13 +47,14 @@ POST /api/v1/Agents/User/FindRolesWithFunctionalRight?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FunctionalRightName
+FunctionalRightName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FunctionalRightName | string |  |
+
 
 ## Response: array
 
@@ -80,11 +89,11 @@ Response body: array
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Weissnat-Stiedemann"
+  "FunctionalRightName": "Strosin, Mueller and Huels"
 }
 ```
 
@@ -96,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Koch, Stiedemann and Champlin",
-    "ToolTip": "Incidunt sapiente ipsum magnam sunt.",
-    "Deleted": true,
-    "Rank": 227,
-    "Type": "ratione",
+    "Id": 997,
+    "Name": "Crona, Wilkinson and Rohan",
+    "ToolTip": "Debitis debitis adipisci quasi sint soluta aut.",
+    "Deleted": false,
+    "Rank": 493,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 477,
-        "Name": "McDermott, Gislason and Harris",
-        "ToolTip": "Saepe corrupti rerum fuga asperiores sed autem.",
+        "Id": 285,
+        "Name": "Quigley LLC",
+        "ToolTip": "Nihil maxime dolores dolor reiciendis quia similique.",
         "Deleted": false,
-        "Rank": 152,
-        "Type": "quibusdam",
+        "Rank": 85,
+        "Type": "tempore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 456,
-        "ExtraInfo": "sed",
-        "StyleHint": "molestiae",
-        "FullName": "Miss Lorine Padberg",
+        "IconHint": "dolores",
+        "ColorBlock": 709,
+        "ExtraInfo": "illum",
+        "StyleHint": "assumenda",
+        "FullName": "Miss Bert Cade Schmidt II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 529
+            "FieldType": "System.String",
+            "FieldLength": 850
           }
         }
       }
     ],
-    "IconHint": "veniam",
-    "ColorBlock": 467,
+    "IconHint": "quo",
+    "ColorBlock": 907,
     "ExtraInfo": "ut",
-    "StyleHint": "possimus",
-    "FullName": "Mr. Marcus Micah Hyatt",
+    "StyleHint": "minima",
+    "FullName": "Warren Ferry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 271
       }
     }
   }

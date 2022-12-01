@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateHeading
 
 Method that returns a specified number of document appointments within a time range, filtered by document template heading.
 
+
 The document appointments belong to the project member specified. The heading represents a grouping or filtering of document templates.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project member specified. The heading re
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateHeading?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count, TemplateHeadingId
+PersonId, StartTime, EndTime, Count, TemplateHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ PersonId, StartTime, EndTime, Count, TemplateHeadingId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TemplateHeadingId | int32 |  |
+
 
 ## Response: array
 
@@ -90,15 +98,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PersonId": 340,
-  "StartTime": "1998-07-11T11:10:26.4714527+02:00",
-  "EndTime": "2011-11-26T11:10:26.4714527+01:00",
-  "Count": 689,
-  "TemplateHeadingId": 714
+  "StartTime": "2005-06-25T02:49:44.0910111+02:00",
+  "EndTime": "2021-01-16T02:49:44.0910111+01:00",
+  "Count": 418,
+  "TemplateHeadingId": 165
 }
 ```
 
@@ -110,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 165,
-    "Attention": "sunt",
-    "Header": "tenetur",
-    "Name": "Brekke-Howell",
-    "OurRef": "iure",
-    "YourRef": "ipsa",
-    "Description": "Multi-lateral tangible open system",
-    "DocumentTemplate": "veniam",
-    "IsPublished": true,
-    "PersonId": 267,
-    "PersonFullName": "Miss Assunta Emelie Wolff DVM",
-    "AssociateFullName": "Jessie Feeney",
-    "ContactId": 314,
-    "ContactName": "Lockman-Daniel",
-    "ProjectId": 311,
-    "ProjectName": "Mosciski, Effertz and Spinka",
-    "AssociateId": 786,
-    "Snum": 210,
-    "SaleId": 279,
-    "SaleName": "Tillman, Towne and Christiansen",
+    "DocumentId": 51,
+    "Attention": "quibusdam",
+    "Header": "dignissimos",
+    "Name": "Lesch Inc and Sons",
+    "OurRef": "ad",
+    "YourRef": "eos",
+    "Description": "Switchable neutral pricing structure",
+    "DocumentTemplate": "ratione",
+    "IsPublished": false,
+    "PersonId": 738,
+    "PersonFullName": "Agnes Fahey",
+    "AssociateFullName": "Prof. Kody Hahn DVM",
+    "ContactId": 306,
+    "ContactName": "Schumm, Pollich and Denesik",
+    "ProjectId": 517,
+    "ProjectName": "Hettinger Inc and Sons",
+    "AssociateId": 216,
+    "Snum": 830,
+    "SaleId": 149,
+    "SaleName": "Price, Howe and Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldLength": 17
       }
     }
   }

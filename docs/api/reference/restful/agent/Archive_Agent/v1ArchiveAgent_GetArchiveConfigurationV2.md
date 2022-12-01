@@ -11,7 +11,13 @@ POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 
 Get the configuration for one archive.
 
+
 The configuration is keyed by a combination of archive provider name (plus optional context), gui name, and optional table binding. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The configuration is keyed by a combination of archive provider name (plus optio
 ```http
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Archive/GetArchiveConfigurationV2?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GuiName, ProviderName, Context, OwnerKeys
+GuiName, ProviderName, Context, OwnerKeys 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,8 @@ GuiName, ProviderName, Context, OwnerKeys
 | Context | string |  |
 | OwnerKeys | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -56,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,14 +81,14 @@ Response body:
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hayes Group",
-  "ProviderName": "Predovic-Ernser",
-  "Context": "pariatur",
-  "OwnerKeys": "vitae"
+  "GuiName": "Boyer, Sawayn and Olson",
+  "ProviderName": "Harris Inc and Sons",
+  "Context": "quo",
+  "OwnerKeys": "optio"
 }
 ```
 
@@ -93,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Zulauf, Hodkiewicz and Bradtke",
-      "DisplayTooltip": "tempore",
-      "DisplayType": "voluptatem",
+      "DisplayName": "Kreiger LLC",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "voluptatibus",
       "CanOrderBy": false,
-      "Name": "Schaden-Graham",
+      "Name": "Runte LLC",
       "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Beier, Kovacek and Steuber",
+      "RestrictionType": "voluptatibus",
+      "RestrictionListName": "Gottlieb-Kilback",
       "IsVisible": false,
-      "ExtraInfo": "facilis",
-      "Width": "voluptas",
-      "IconHint": "nam",
-      "HeadingIconHint": "quo"
+      "ExtraInfo": "voluptas",
+      "Width": "ut",
+      "IconHint": "velit",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 945,
-      "Name": "Doyle, Harris and Blanda",
-      "ToolTip": "Molestiae vero doloribus possimus sapiente doloremque molestiae aliquid.",
-      "Deleted": false,
-      "Rank": 276,
-      "Type": "reiciendis",
-      "ColorBlock": 43,
-      "IconHint": "qui",
-      "Selected": false,
-      "LastChanged": "2012-06-23T11:10:25.9675257+02:00",
+      "Id": 739,
+      "Name": "Roberts-Hirthe",
+      "ToolTip": "Et dolor quos deleniti ipsa.",
+      "Deleted": true,
+      "Rank": 624,
+      "Type": "rem",
+      "ColorBlock": 47,
+      "IconHint": "eos",
+      "Selected": true,
+      "LastChanged": "2020-09-21T02:49:43.6535327+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eaque",
-      "StyleHint": "quia",
+      "ExtraInfo": "tenetur",
+      "StyleHint": "rem",
       "Hidden": false,
-      "FullName": "Melvin Reichel",
+      "FullName": "Lucile Deckow I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 7
+          "FieldType": "System.Int32",
+          "FieldLength": 915
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Hirthe-Wisozk",
+      "Name": "Schaden, Willms and Hirthe",
       "Direction": "ASC"
     },
     {
-      "Name": "Hirthe-Wisozk",
+      "Name": "Schaden, Willms and Hirthe",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "fuga",
+  "OwnerKeys": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldLength": 725
     }
   }
 }

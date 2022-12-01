@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 
 Returns the email account corresponding to this email address (for the current associate).
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns the email account corresponding to this email address (for the current a
 ```http
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FromAddress
+FromAddress 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FromAddress | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,11 +86,11 @@ Response body:
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "accusantium"
+  "FromAddress": "minus"
 }
 ```
 
@@ -91,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 629,
-  "EMailAddress": "nesciunt",
-  "AssociateId": 609,
+  "EMailAccountId": 662,
+  "EMailAddress": "sit",
+  "AssociateId": 475,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 596,
-  "ErrorCount": 883,
+  "AccountStatus": 841,
+  "ErrorCount": 65,
   "ErrorReason": "",
-  "InboxFolder": "voluptates",
-  "SentFolder": "voluptatem",
+  "InboxFolder": "corrupti",
+  "SentFolder": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 914
+      "FieldType": "System.Int32",
+      "FieldLength": 272
     }
   }
 }

@@ -11,11 +11,18 @@ PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Category list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Franecki-Gerlach",
-    "ToolTip": "Et iure possimus iure vel a repellendus.",
-    "Deleted": true,
-    "Rank": 359,
-    "Type": "mollitia",
-    "ColorBlock": 421,
-    "IconHint": "quidem",
+    "Id": 310,
+    "Name": "Upton, Harvey and Leannon",
+    "ToolTip": "Ut doloremque.",
+    "Deleted": false,
+    "Rank": 560,
+    "Type": "inventore",
+    "ColorBlock": 409,
+    "IconHint": "consectetur",
     "Selected": false,
-    "LastChanged": "1998-06-12T11:10:53.9461855+02:00",
+    "LastChanged": "1996-09-26T02:49:51.9065706+02:00",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Bayer LLC",
-        "ToolTip": "Nam voluptas atque reprehenderit et.",
-        "Deleted": true,
-        "Rank": 15,
-        "Type": "error",
-        "ColorBlock": 356,
-        "IconHint": "sunt",
+        "Id": 751,
+        "Name": "Doyle Group",
+        "ToolTip": "Illo exercitationem cupiditate voluptatem repudiandae.",
+        "Deleted": false,
+        "Rank": 422,
+        "Type": "consequatur",
+        "ColorBlock": 737,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2009-04-16T11:10:53.9461855+02:00",
+        "LastChanged": "2009-10-30T02:49:51.9065706+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "possimus",
+        "ExtraInfo": "ut",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "Dr. Green Mohr MD"
+        "FullName": "Mrs. Dorothy Bailey"
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "unde",
+    "ExtraInfo": "quo",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Prof. Granville Shields"
+    "FullName": "Morgan Auer"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 413,
-    "Name": "Anderson Group",
-    "ToolTip": "Doloremque qui qui.",
-    "Deleted": false,
-    "Rank": 703,
-    "Type": "voluptas",
-    "ColorBlock": 518,
-    "IconHint": "possimus",
-    "Selected": false,
-    "LastChanged": "1997-03-07T11:10:53.948185+01:00",
+    "Id": 582,
+    "Name": "Zemlak-Auer",
+    "ToolTip": "Iste tenetur quod non et neque occaecati.",
+    "Deleted": true,
+    "Rank": 359,
+    "Type": "in",
+    "ColorBlock": 736,
+    "IconHint": "iusto",
+    "Selected": true,
+    "LastChanged": "2006-03-13T02:49:51.9065706+01:00",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Marvin-Hauck",
-        "ToolTip": "Neque sunt incidunt et aut.",
-        "Deleted": true,
-        "Rank": 311,
-        "Type": "in",
-        "ColorBlock": 991,
-        "IconHint": "amet",
-        "Selected": false,
-        "LastChanged": "2010-08-05T11:10:53.948185+02:00",
+        "Id": 232,
+        "Name": "Bartoletti Inc and Sons",
+        "ToolTip": "Ut maiores rem eos aut.",
+        "Deleted": false,
+        "Rank": 409,
+        "Type": "beatae",
+        "ColorBlock": 40,
+        "IconHint": "dolore",
+        "Selected": true,
+        "LastChanged": "2006-02-10T02:49:51.9065706+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "autem",
-        "Hidden": false,
-        "FullName": "Dr. Ivy Hessel",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Arvel Osinski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldType": "System.String",
+            "FieldLength": 874
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "sint",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Lavonne Hodkiewicz",
+    "FullName": "Mrs. Lyda Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 106
       }
     }
   }

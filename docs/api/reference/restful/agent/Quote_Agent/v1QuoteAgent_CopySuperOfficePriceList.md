@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 
 Create a copy of a PriceList in the SuperOffice database
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a copy of a PriceList in the SuperOffice database
 ```http
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/CopySuperOfficePriceList?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OriginalPriceListId, NewName, ValidFrom, ValidTo, NewCurrencyId, ConvertCurrency
+OriginalPriceListId, NewName, ValidFrom, ValidTo, NewCurrencyId, ConvertCurrency 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,8 @@ OriginalPriceListId, NewName, ValidFrom, ValidTo, NewCurrencyId, ConvertCurrency
 | NewCurrencyId | int32 |  |
 | ConvertCurrency | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -56,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,16 +87,16 @@ Response body:
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 101,
-  "NewName": "VonRueden, Lehner and Jewess",
-  "ValidFrom": "1996-08-11T11:10:27.6805191+02:00",
-  "ValidTo": "2006-11-19T11:10:27.6805191+01:00",
-  "NewCurrencyId": 479,
-  "ConvertCurrency": false
+  "OriginalPriceListId": 644,
+  "NewName": "Von-Bergstrom",
+  "ValidFrom": "2019-08-27T02:49:45.0153392+02:00",
+  "ValidTo": "2013-09-16T02:49:45.0153392+02:00",
+  "NewCurrencyId": 318,
+  "ConvertCurrency": true
 }
 ```
 
@@ -99,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 693,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 957,
-  "Name": "Schoen-Armstrong",
-  "Description": "Cloned needs-based access",
-  "Currency": "libero",
-  "CurrencyName": "Hoeger LLC",
-  "ValidFrom": "2000-05-25T11:10:27.6815219+02:00",
-  "ValidTo": "2022-02-11T11:10:27.6815219+01:00",
-  "IsActive": false,
+  "PriceListId": 48,
+  "ERPPriceListKey": "officia",
+  "QuoteConnectionId": 893,
+  "Name": "Ryan, Hammes and Howe",
+  "Description": "Vision-oriented grid-enabled alliance",
+  "Currency": "odio",
+  "CurrencyName": "Weimann, Reinger and Weber",
+  "ValidFrom": "2020-10-14T02:49:45.0153392+02:00",
+  "ValidTo": "2009-11-09T02:49:45.0153392+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 650
     }
   }
 }

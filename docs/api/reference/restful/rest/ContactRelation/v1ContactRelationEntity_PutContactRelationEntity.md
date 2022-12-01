@@ -11,9 +11,15 @@ PUT /api/v1/Relation/{id}
 
 Updates the existing ContactRelationEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ContactRelationEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing ContactRelationEntity
 ```http
 PUT /api/v1/Relation/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Relation/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ContactRelationEntity to be saved.
+The ContactRelationEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +71,8 @@ The ContactRelationEntity to be saved.
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
 
-## Response
+
+## Response: 
 
 ContactRelationEntity updated.
 
@@ -74,7 +82,7 @@ ContactRelationEntity updated.
 | 412 | Update stopped because ContactRelationEntity has changed since the requested If-Unmodified-Since timestamp. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -106,28 +114,28 @@ Response body:
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 290,
-  "SourcePersonId": 611,
-  "DestinationContactId": 422,
-  "DestinationPersonId": 748,
-  "RelationId": 319,
-  "Comment": "in",
-  "RelationDefinitionId": 753,
-  "Reversed": 913,
-  "UpdatedDate": "2002-05-07T11:10:52.7511454+02:00",
-  "CreatedDate": "2012-12-05T11:10:52.7511454+01:00",
+  "SourceContactId": 393,
+  "SourcePersonId": 145,
+  "DestinationContactId": 726,
+  "DestinationPersonId": 826,
+  "RelationId": 288,
+  "Comment": "dolorum",
+  "RelationDefinitionId": 91,
+  "Reversed": 708,
+  "UpdatedDate": "1999-07-09T02:49:50.8546634+02:00",
+  "CreatedDate": "1999-08-17T02:49:50.8546634+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Lynch LLC",
-  "SourcePersonName": "Brown, Kozey and Lueilwitz",
-  "DestinationContactName": "Koch-Pfeffer",
-  "DestinationPersonName": "Rutherford, Fadel and Haag",
-  "ActiveText": "tempora",
-  "PassiveText": "sunt"
+  "SourceContactName": "Dickens-Toy",
+  "SourcePersonName": "Zboncak, Dare and Fay",
+  "DestinationContactName": "Stoltenberg-Nitzsche",
+  "DestinationPersonName": "Gaylord, Kuhic and McLaughlin",
+  "ActiveText": "quia",
+  "PassiveText": "enim"
 }
 ```
 
@@ -138,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 274,
-  "SourcePersonId": 226,
-  "DestinationContactId": 390,
-  "DestinationPersonId": 831,
-  "RelationId": 962,
-  "Comment": "impedit",
-  "RelationDefinitionId": 838,
-  "Reversed": 576,
-  "UpdatedDate": "2003-09-21T11:10:52.7521444+02:00",
-  "CreatedDate": "2020-02-12T11:10:52.7521444+01:00",
+  "SourceContactId": 212,
+  "SourcePersonId": 116,
+  "DestinationContactId": 796,
+  "DestinationPersonId": 366,
+  "RelationId": 826,
+  "Comment": "doloremque",
+  "RelationDefinitionId": 761,
+  "Reversed": 531,
+  "UpdatedDate": "2014-11-28T02:49:50.8546634+01:00",
+  "CreatedDate": "2020-02-17T02:49:50.8546634+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Wiegand, Schiller and Conroy",
-  "SourcePersonName": "Altenwerth, Schmeler and Pacocha",
-  "DestinationContactName": "Krajcik LLC",
-  "DestinationPersonName": "Breitenberg-Pfeffer",
-  "ActiveText": "rem",
-  "PassiveText": "labore",
+  "SourceContactName": "Becker LLC",
+  "SourcePersonName": "Gorczany, Weimann and Mitchell",
+  "DestinationContactName": "Maggio, Oberbrunner and Bashirian",
+  "DestinationPersonName": "Ernser-Buckridge",
+  "ActiveText": "quo",
+  "PassiveText": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldType": "System.String",
+      "FieldLength": 231
     }
   },
   "_Links": {

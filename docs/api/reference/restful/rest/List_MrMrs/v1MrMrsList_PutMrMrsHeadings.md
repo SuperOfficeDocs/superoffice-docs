@@ -11,7 +11,14 @@ PUT /api/v1/List/MrMrs/Headings
 
 Saves headings for the MrMrs list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 419,
-    "Name": "Satterfield Group",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 926,
-    "UdListDefinitionId": 428
+    "HeadingId": 971,
+    "Name": "Lueilwitz-Johns",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 856,
+    "UdListDefinitionId": 506
   },
   {
-    "HeadingId": 419,
-    "Name": "Satterfield Group",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 926,
-    "UdListDefinitionId": 428
+    "HeadingId": 971,
+    "Name": "Lueilwitz-Johns",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 856,
+    "UdListDefinitionId": 506
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 460,
-    "Name": "Douglas, Quigley and Fahey",
-    "Tooltip": "dicta",
-    "Deleted": true,
-    "Rank": 94,
-    "UdListDefinitionId": 224,
+    "HeadingId": 95,
+    "Name": "Hamill, Howell and O'Keefe",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 964,
+    "UdListDefinitionId": 1002,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldType": "System.String",
+        "FieldLength": 450
       }
     }
   }

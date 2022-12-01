@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetDataWithSelection
 
 Get data for this tile
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get data for this tile
 ```http
 POST /api/v1/Agents/Dashboard/GetDataWithSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Dashboard/GetDataWithSelection?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileId, SelectionId, Restrictions
+DashboardTileId, SelectionId, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileId | int32 |  |
 | SelectionId | int32 |  |
 | Restrictions | string |  |
+
 
 ## Response: array
 
@@ -70,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 336,
-  "SelectionId": 595,
-  "Restrictions": "laudantium"
+  "DashboardTileId": 935,
+  "SelectionId": 113,
+  "Restrictions": "deleniti"
 }
 ```
 
@@ -86,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Smith-Labadie",
-        "DisplayTooltip": "sit",
-        "DisplayType": "sed",
-        "CanOrderBy": true,
-        "Name": "Goodwin Group",
+        "DisplayName": "Koelpin, Howe and Pagac",
+        "DisplayTooltip": "similique",
+        "DisplayType": "aut",
+        "CanOrderBy": false,
+        "Name": "Baumbach Inc and Sons",
         "CanRestrictBy": true,
-        "RestrictionType": "similique",
-        "RestrictionListName": "Spencer LLC",
-        "IsVisible": false,
-        "ExtraInfo": "inventore",
-        "Width": "nobis",
-        "IconHint": "eligendi",
-        "HeadingIconHint": "eum"
+        "RestrictionType": "quidem",
+        "RestrictionListName": "Larson, Ratke and Hahn",
+        "IsVisible": true,
+        "ExtraInfo": "quod",
+        "Width": "saepe",
+        "IconHint": "voluptate",
+        "HeadingIconHint": "officiis"
       }
     ],
     "Result": null
@@ -106,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Smith-Labadie",
-        "DisplayTooltip": "sit",
-        "DisplayType": "sed",
-        "CanOrderBy": true,
-        "Name": "Goodwin Group",
+        "DisplayName": "Koelpin, Howe and Pagac",
+        "DisplayTooltip": "similique",
+        "DisplayType": "aut",
+        "CanOrderBy": false,
+        "Name": "Baumbach Inc and Sons",
         "CanRestrictBy": true,
-        "RestrictionType": "similique",
-        "RestrictionListName": "Spencer LLC",
-        "IsVisible": false,
-        "ExtraInfo": "inventore",
-        "Width": "nobis",
-        "IconHint": "eligendi",
-        "HeadingIconHint": "eum"
+        "RestrictionType": "quidem",
+        "RestrictionListName": "Larson, Ratke and Hahn",
+        "IsVisible": true,
+        "ExtraInfo": "quod",
+        "Width": "saepe",
+        "IconHint": "voluptate",
+        "HeadingIconHint": "officiis"
       }
     ],
     "Result": null

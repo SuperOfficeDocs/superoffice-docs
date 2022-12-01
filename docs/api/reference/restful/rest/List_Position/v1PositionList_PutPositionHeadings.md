@@ -11,7 +11,14 @@ PUT /api/v1/List/Position/Headings
 
 Saves headings for the Position list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 464,
-    "Name": "Kovacek Inc and Sons",
-    "Tooltip": "aspernatur",
+    "HeadingId": 670,
+    "Name": "Champlin LLC",
+    "Tooltip": "explicabo",
     "Deleted": false,
-    "Rank": 358,
-    "UdListDefinitionId": 474
+    "Rank": 994,
+    "UdListDefinitionId": 654
   },
   {
-    "HeadingId": 464,
-    "Name": "Kovacek Inc and Sons",
-    "Tooltip": "aspernatur",
+    "HeadingId": 670,
+    "Name": "Champlin LLC",
+    "Tooltip": "explicabo",
     "Deleted": false,
-    "Rank": 358,
-    "UdListDefinitionId": 474
+    "Rank": 994,
+    "UdListDefinitionId": 654
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 308,
-    "Name": "Reilly Group",
-    "Tooltip": "aliquam",
-    "Deleted": false,
-    "Rank": 805,
-    "UdListDefinitionId": 42,
+    "HeadingId": 338,
+    "Name": "Berge-Wintheiser",
+    "Tooltip": "ex",
+    "Deleted": true,
+    "Rank": 912,
+    "UdListDefinitionId": 553,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldLength": 464
       }
     }
   }

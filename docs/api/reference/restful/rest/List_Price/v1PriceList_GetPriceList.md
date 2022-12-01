@@ -11,11 +11,17 @@ GET /api/v1/Pricelist/{id}
 
 Gets a PriceList object.
 
+
 Calls the Quote agent service GetPriceList.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the PriceList to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Quote agent service GetPriceList.
 ```http
 GET /api/v1/Pricelist/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/Pricelist/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 PriceList found.
 
@@ -49,7 +57,7 @@ PriceList found.
 | 200 | PriceList found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +81,7 @@ Response body:
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,22 +91,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 699,
-  "ERPPriceListKey": "reprehenderit",
-  "QuoteConnectionId": 595,
-  "Name": "Erdman Group",
-  "Description": "Virtual scalable interface",
-  "Currency": "ut",
-  "CurrencyName": "Abshire-Hodkiewicz",
-  "ValidFrom": "2003-11-23T11:10:54.3869026+01:00",
-  "ValidTo": "2006-12-26T11:10:54.3869026+01:00",
-  "IsActive": true,
+  "PriceListId": 189,
+  "ERPPriceListKey": "pariatur",
+  "QuoteConnectionId": 940,
+  "Name": "Oberbrunner, Wuckert and Haag",
+  "Description": "Optional assymetric budgetary management",
+  "Currency": "molestias",
+  "CurrencyName": "Lehner, Hodkiewicz and Bruen",
+  "ValidFrom": "1997-05-11T02:49:52.3284476+02:00",
+  "ValidTo": "1997-09-13T02:49:52.3284476+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldLength": 327
     }
   },
   "_Links": {

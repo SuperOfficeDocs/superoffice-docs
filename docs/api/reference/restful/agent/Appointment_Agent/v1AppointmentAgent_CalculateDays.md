@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/CalculateDays
 
 Calculates the set of dates that represents a recurrence pattern.
 
+
 Adds conflict information to each date.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Adds conflict information to each date.
 ```http
 POST /api/v1/Agents/Appointment/CalculateDays?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Appointment/CalculateDays?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentEntity
+AppointmentEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentEntity |  | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +84,7 @@ Response body:
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -91,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 551,
-  "StartDate": "2009-03-09T11:10:25.5975225+01:00",
-  "EndDate": "2016-05-22T11:10:25.5975225+02:00",
-  "RecurrenceCounter": 227,
+  "RecurrenceId": 141,
+  "StartDate": "1998-07-28T02:49:43.372278+02:00",
+  "EndDate": "2016-12-28T02:49:43.372278+01:00",
+  "RecurrenceCounter": 407,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -103,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2006-10-27T11:10:25.5975225+02:00",
+      "Date": "2013-04-11T02:49:43.372278+02:00",
       "IsConflict": false,
-      "Description": "Reverse-engineered bi-directional process improvement",
-      "DescriptionStyleHint": "Progressive solution-oriented data-warehouse",
-      "Tooltip": "expedita"
+      "Description": "Multi-channelled intermediate project",
+      "DescriptionStyleHint": "Synchronised mission-critical neural-net",
+      "Tooltip": "aut"
     },
     {
-      "Date": "2006-10-27T11:10:25.5975225+02:00",
+      "Date": "2013-04-11T02:49:43.372278+02:00",
       "IsConflict": false,
-      "Description": "Reverse-engineered bi-directional process improvement",
-      "DescriptionStyleHint": "Progressive solution-oriented data-warehouse",
-      "Tooltip": "expedita"
+      "Description": "Multi-channelled intermediate project",
+      "DescriptionStyleHint": "Synchronised mission-critical neural-net",
+      "Tooltip": "aut"
     }
   ],
   "IsRecurrence": false

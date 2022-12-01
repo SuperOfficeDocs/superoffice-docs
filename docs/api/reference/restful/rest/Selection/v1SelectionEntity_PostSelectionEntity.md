@@ -11,7 +11,13 @@ POST /api/v1/Selection
 
 Creates a new SelectionEntity
 
+
 Calls the Selection agent service SaveSelectionEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Selection agent service SaveSelectionEntity.
 ```http
 POST /api/v1/Selection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Selection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The SelectionEntity to be saved.
+The SelectionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +92,8 @@ The SelectionEntity to be saved.
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -93,7 +101,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -148,60 +156,60 @@ Response body:
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Stand-alone bi-directional framework",
-  "Postit": "ratione",
+  "Description": "Enterprise-wide user-facing ability",
+  "Postit": "quia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 410,
-  "IncludePerson": 95,
-  "MemberCount": 273,
-  "Name": "Ullrich, Haley and Frami",
-  "PostitTextId": 544,
-  "CreatedDate": "2011-06-02T11:10:53.4891762+02:00",
-  "SelectionId": 459,
-  "SoundEx": "quaerat",
-  "Source": 887,
-  "TextId": 701,
-  "UpdatedDate": "2002-03-12T11:10:53.4891762+01:00",
-  "UpdatedCount": 606,
-  "Visibility": 186,
+  "GroupIdx": 811,
+  "IncludePerson": 360,
+  "MemberCount": 3,
+  "Name": "Spinka-Smith",
+  "PostitTextId": 837,
+  "CreatedDate": "2009-11-17T02:49:51.505074+01:00",
+  "SelectionId": 809,
+  "SoundEx": "et",
+  "Source": 470,
+  "TextId": 176,
+  "UpdatedDate": "2022-06-15T02:49:51.505074+02:00",
+  "UpdatedCount": 581,
+  "Visibility": 623,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 997,
-  "TargetTableName": "Collier, Keeling and Gleichner",
+  "CompanyUnique": true,
+  "TargetTableNumber": 927,
+  "TargetTableName": "Thiel Inc and Sons",
   "Completed": true,
-  "LeftSelectionId": 621,
-  "RightSelectionId": 463,
+  "LeftSelectionId": 844,
+  "RightSelectionId": 300,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Smith LLC",
-  "ShadowProviderName": "Medhurst LLC",
-  "ChartKey": "repudiandae",
-  "LastLoaded": "2012-12-16T11:10:53.4891762+01:00",
-  "LastLoadedBy": 640,
+  "MainProviderName": "Rogahn-Mohr",
+  "ShadowProviderName": "Jewess, Littel and Corkery",
+  "ChartKey": "exercitationem",
+  "LastLoaded": "2009-07-30T02:49:51.505074+02:00",
+  "LastLoadedBy": 512,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1996-12-22T11:10:53.4901791+01:00",
-  "LastMembershipChangeBy": 72,
+  "LastMembershipChange": "2001-03-02T02:49:51.505074+01:00",
+  "LastMembershipChangeBy": 279,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "assumenda",
-  "MailingsProviderName": "Jacobs Group",
-  "DashboardTileDefinitionId": 301,
+  "MainHeading": "possimus",
+  "MemberTabHeading": "neque",
+  "MailingsProviderName": "Keebler Group",
+  "DashboardTileDefinitionId": 381,
   "VisibleFor": [
     {
-      "VisibleId": 593,
+      "VisibleId": 725,
       "Visibility": "All",
-      "DisplayValue": "sint"
+      "DisplayValue": "a"
     },
     {
-      "VisibleId": 593,
+      "VisibleId": 725,
       "Visibility": "All",
-      "DisplayValue": "sint"
+      "DisplayValue": "a"
     }
   ]
 }
@@ -214,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Virtual asynchronous middleware",
-  "Postit": "quia",
+  "Description": "Pre-emptive motivating challenge",
+  "Postit": "laboriosam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 175,
-  "IncludePerson": 605,
-  "MemberCount": 723,
-  "Name": "Nicolas, Feil and Kilback",
-  "PostitTextId": 564,
-  "CreatedDate": "2014-12-14T11:10:53.4931797+01:00",
-  "SelectionId": 212,
-  "SoundEx": "sit",
-  "Source": 409,
-  "TextId": 469,
-  "UpdatedDate": "2005-07-24T11:10:53.4931797+02:00",
-  "UpdatedCount": 636,
-  "Visibility": 545,
+  "GroupIdx": 428,
+  "IncludePerson": 974,
+  "MemberCount": 754,
+  "Name": "Rempel Inc and Sons",
+  "PostitTextId": 103,
+  "CreatedDate": "2020-10-15T02:49:51.5206868+02:00",
+  "SelectionId": 731,
+  "SoundEx": "odio",
+  "Source": 512,
+  "TextId": 786,
+  "UpdatedDate": "2016-05-23T02:49:51.5206868+02:00",
+  "UpdatedCount": 975,
+  "Visibility": 336,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 454,
-  "TargetTableName": "Gulgowski-Block",
-  "Completed": false,
-  "LeftSelectionId": 696,
-  "RightSelectionId": 424,
+  "TargetTableNumber": 21,
+  "TargetTableName": "Jacobson-Kreiger",
+  "Completed": true,
+  "LeftSelectionId": 27,
+  "RightSelectionId": 757,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Johnson-Weimann",
-  "ShadowProviderName": "Wiegand, Muller and Fritsch",
-  "ChartKey": "accusamus",
-  "LastLoaded": "2001-04-24T11:10:53.4931797+02:00",
-  "LastLoadedBy": 157,
+  "MainProviderName": "Zemlak Inc and Sons",
+  "ShadowProviderName": "Hickle LLC",
+  "ChartKey": "a",
+  "LastLoaded": "2001-03-03T02:49:51.5206868+01:00",
+  "LastLoadedBy": 82,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-08-11T11:10:53.4941793+02:00",
-  "LastMembershipChangeBy": 521,
+  "LastMembershipChange": "2015-08-10T02:49:51.5206868+02:00",
+  "LastMembershipChangeBy": 493,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quis",
-  "MemberTabHeading": "atque",
-  "MailingsProviderName": "Gottlieb LLC",
-  "DashboardTileDefinitionId": 957,
+  "MainHeading": "dolores",
+  "MemberTabHeading": "quis",
+  "MailingsProviderName": "Beahan Inc and Sons",
+  "DashboardTileDefinitionId": 18,
   "VisibleFor": [
     {
-      "VisibleId": 71,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldType": "System.String",
+          "FieldLength": 551
         }
       }
     },
     {
-      "VisibleId": 71,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldType": "System.String",
+          "FieldLength": 551
         }
       }
     }
@@ -286,8 +294,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldType": "System.String",
+      "FieldLength": 196
     }
   },
   "_Links": {

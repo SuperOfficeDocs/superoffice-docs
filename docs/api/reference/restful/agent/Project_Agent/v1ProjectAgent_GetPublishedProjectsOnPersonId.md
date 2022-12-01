@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 
 Get published projects where person  is a member
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published projects where person  is a member
 ```http
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
+
 
 ## Response: array
 
@@ -82,11 +90,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 82
+  "PersonId": 618
 }
 ```
 
@@ -98,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 242,
-    "Name": "Labadie, Effertz and Mante",
-    "Description": "Profound 3rd generation workforce",
+    "ProjectId": 812,
+    "Name": "Powlowski-O'Conner",
+    "Description": "Ergonomic actuating function",
     "URL": "http://www.example.com/",
-    "Type": "qui",
-    "AssociateId": 140,
-    "AssociateFullName": "Dr. Peggie Spinka",
-    "TypeId": 992,
-    "Updated": "1998-08-15T11:10:27.6254524+02:00",
-    "StatusId": 364,
-    "Status": "aliquid",
-    "TextId": 619,
-    "PublishTo": "2013-06-06T11:10:27.6254524+02:00",
-    "PublishFrom": "2002-05-04T11:10:27.6254524+02:00",
+    "Type": "beatae",
+    "AssociateId": 191,
+    "AssociateFullName": "Chaz Nolan",
+    "TypeId": 62,
+    "Updated": "2001-04-25T02:49:44.9684639+02:00",
+    "StatusId": 408,
+    "Status": "tempora",
+    "TextId": 975,
+    "PublishTo": "2019-09-21T02:49:44.9684639+02:00",
+    "PublishFrom": "2016-07-02T02:49:44.9684639+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "796097",
-    "ActiveErpLinks": 121,
+    "ProjectNumber": "1205592",
+    "ActiveErpLinks": 948,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldLength": 625
       }
     }
   }

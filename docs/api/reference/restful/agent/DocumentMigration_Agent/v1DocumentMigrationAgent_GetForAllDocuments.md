@@ -11,9 +11,16 @@ POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 
 Gets a migration summary for all documents stored in CRM.
 
+
 Warning: Expensive!
 
-## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps
+
+## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Warning: Expensive!
 ```http
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,16 +47,17 @@ POST /api/v1/Agents/DocumentMigration/GetForAllDocuments?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentPluginId, IncludeEmails
+DocumentPluginId, IncludeEmails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentPluginId | int32 |  |
 | IncludeEmails | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -56,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +80,12 @@ Response body:
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 252,
-  "IncludeEmails": false
+  "DocumentPluginId": 194,
+  "IncludeEmails": true
 }
 ```
 
@@ -87,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 447,
-  "NumDocumentsAlreadyMigrated": 575,
+  "NumDocumentsOmitted": 279,
+  "NumDocumentsAlreadyMigrated": 192,
   "Documents": [
     {
-      "DocumentId": 839,
-      "ContactId": 23,
-      "PersonId": 388,
-      "SaleId": 248,
-      "ProjectId": 51,
-      "DocTmplId": 638,
-      "AssociateId": 484,
-      "UserGroupId": 172,
-      "VisibleForId": 800
+      "DocumentId": 816,
+      "ContactId": 437,
+      "PersonId": 29,
+      "SaleId": 614,
+      "ProjectId": 282,
+      "DocTmplId": 918,
+      "AssociateId": 942,
+      "UserGroupId": 350,
+      "VisibleForId": 338
     }
   ],
   "Associates": [
     {
-      "AssociateId": 312,
-      "EmailAddress": "jade_sawayn@herzog.uk"
+      "AssociateId": 938,
+      "EmailAddress": "elwin.kreiger@hermandare.name"
     },
     {
-      "AssociateId": 312,
-      "EmailAddress": "jade_sawayn@herzog.uk"
+      "AssociateId": 938,
+      "EmailAddress": "elwin.kreiger@hermandare.name"
     }
   ]
 }

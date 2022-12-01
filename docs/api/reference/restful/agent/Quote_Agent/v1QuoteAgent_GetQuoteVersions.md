@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteVersions
 
 Get all quote versions for a sale
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all quote versions for a sale
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Quote/GetQuoteVersions?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteId
+QuoteId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteId | int32 |  |
+
 
 ## Response: array
 
@@ -103,11 +111,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 284
+  "QuoteId": 475
 }
 ```
 
@@ -119,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 237,
-    "ERPQuoteVersionKey": "cum",
-    "QuoteId": 885,
-    "Description": "Synergized well-modulated orchestration",
-    "Number": "1415186",
+    "QuoteVersionId": 789,
+    "ERPQuoteVersionKey": "ea",
+    "QuoteId": 117,
+    "Description": "Object-based cohesive complexity",
+    "Number": "1070319",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 211,
-    "SentDate": "2022-08-24T11:10:27.6524575+02:00",
-    "FollowupId": 57,
-    "ExpirationDate": "2018-04-05T11:10:27.6524575+02:00",
-    "DeliveryCountryId": 492,
+    "LikelyQuoteAlternativeId": 212,
+    "SentDate": "2013-04-02T02:49:44.9997158+02:00",
+    "FollowupId": 7,
+    "ExpirationDate": "1997-10-30T02:49:44.9997158+01:00",
+    "DeliveryCountryId": 762,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 702,
+    "InvoiceCountryId": 750,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "qui",
-    "ERPPaymentTypeKey": "explicabo",
-    "ERPDeliveryTermsKey": "ipsa",
-    "ERPDeliveryTypeKey": "non",
-    "Rank": 787,
-    "ApprovedBy": 487,
-    "ApprovedText": "dolor",
-    "ApprovedRegisteredBy": 477,
-    "ApprovedRegisteredDate": "2021-06-22T11:10:27.6524575+02:00",
-    "ExtraField1": "animi",
-    "ExtraField2": "aspernatur",
-    "ExtraField3": "dolorem",
-    "ExtraField4": "exercitationem",
-    "ExtraField5": "a",
-    "LastRecalculated": "2013-10-07T11:10:27.6524575+02:00",
-    "Updated": "2000-09-21T11:10:27.6524575+02:00",
-    "UpdatedAssociateId": 750,
-    "Registered": "2019-06-07T11:10:27.6524575+02:00",
-    "RegisteredAssociateId": 317,
-    "RequestAssociateId": 664,
-    "RequestComment": "reprehenderit",
+    "ERPPaymentTermsKey": "et",
+    "ERPPaymentTypeKey": "et",
+    "ERPDeliveryTermsKey": "molestiae",
+    "ERPDeliveryTypeKey": "eum",
+    "Rank": 247,
+    "ApprovedBy": 635,
+    "ApprovedText": "magnam",
+    "ApprovedRegisteredBy": 495,
+    "ApprovedRegisteredDate": "1998-06-19T02:49:44.9997158+02:00",
+    "ExtraField1": "velit",
+    "ExtraField2": "voluptatem",
+    "ExtraField3": "officia",
+    "ExtraField4": "quia",
+    "ExtraField5": "atque",
+    "LastRecalculated": "2005-09-11T02:49:44.9997158+02:00",
+    "Updated": "1997-02-23T02:49:44.9997158+01:00",
+    "UpdatedAssociateId": 18,
+    "Registered": "2003-09-17T02:49:44.9997158+02:00",
+    "RegisteredAssociateId": 906,
+    "RequestAssociateId": 959,
+    "RequestComment": "tenetur",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 332,
-        "ERPQuoteAlternativeKey": "iusto",
-        "QuoteVersionId": 580,
-        "Name": "Bahringer, Kertzmann and Rolfson",
-        "Description": "Programmable static product",
+        "QuoteAlternativeId": 895,
+        "ERPQuoteAlternativeKey": "ea",
+        "QuoteVersionId": 946,
+        "Name": "Steuber Group",
+        "Description": "Monitored static time-frame",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 13563.952,
-        "ERPDiscountAmount": 1714.298,
-        "DiscountPercent": 31198.969999999998,
-        "DiscountAmount": 16491.108,
+        "ERPDiscountPercent": 12548.536,
+        "ERPDiscountAmount": 3262.4939999999997,
+        "DiscountPercent": 25889.974,
+        "DiscountAmount": 7932.1539999999995,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "ad",
-        "VAT": 13303.83,
-        "EarningPercent": 2914.62,
-        "EarningAmount": 11088.091999999999,
-        "SubTotal": 29986.111999999997,
-        "TotalPrice": 26554.381999999998,
-        "ExtraField1": "et",
-        "ExtraField2": "nam",
-        "ExtraField3": "et",
-        "ExtraField4": "reiciendis",
-        "ExtraField5": "est",
+        "VATInfo": "labore",
+        "VAT": 2472.726,
+        "EarningPercent": 21245.386,
+        "EarningAmount": 23401.577999999998,
+        "SubTotal": 22433.172,
+        "TotalPrice": 22561.666,
+        "ExtraField1": "dolores",
+        "ExtraField2": "dolores",
+        "ExtraField3": "totam",
+        "ExtraField4": "possimus",
+        "ExtraField5": "corrupti",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 972
+            "FieldType": "System.Int32",
+            "FieldLength": 21
           }
         }
       }
@@ -197,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldLength": 464
       }
     }
   }

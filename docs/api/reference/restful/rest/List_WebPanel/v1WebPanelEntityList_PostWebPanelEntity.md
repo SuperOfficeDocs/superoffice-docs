@@ -11,7 +11,14 @@ POST /api/v1/List/WebPanel/Items
 
 Create a new WebPanelEntity list item
 
+
 Calls the List agent service SaveWebPanelEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveWebPanelEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The WebPanelEntity to be created.
+The WebPanelEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +62,8 @@ The WebPanelEntity to be created.
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -63,7 +71,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,31 +105,31 @@ Response body:
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 106,
-  "Name": "Vandervort, Rowe and Daugherty",
-  "Tooltip": "quia",
+  "WebPanelId": 20,
+  "Name": "Gleichner-Sanford",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 377,
+  "Rank": 932,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Davis, Lowe and Wiegand",
+  "ShowInStatusBar": false,
+  "WindowName": "Senger, Hintz and Dooley",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 562,
-  "AlwaysReloadOnShow": false
+  "ProgId": "quaerat",
+  "Icon": 908,
+  "AlwaysReloadOnShow": true
 }
 ```
 
@@ -132,33 +140,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 162,
-  "Name": "Volkman LLC",
-  "Tooltip": "accusamus",
+  "WebPanelId": 964,
+  "Name": "Stamm-Cronin",
+  "Tooltip": "autem",
   "Deleted": true,
-  "Rank": 865,
+  "Rank": 993,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Larson-D'Amore",
+  "WindowName": "Monahan Group",
   "Url": "http://www.example.com/",
-  "ProgId": "doloremque",
-  "Icon": 244,
+  "ProgId": "iure",
+  "Icon": 770,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 422
+      "FieldType": "System.Int32",
+      "FieldLength": 532
     }
   }
 }

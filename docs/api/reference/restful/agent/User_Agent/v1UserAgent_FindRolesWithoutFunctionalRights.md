@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/FindRolesWithoutFunctionalRights
 
 Find all roles without a given set of functional rights.
 
-The roles matched must not contain any of the specified functional rights.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+The roles matched must not contain any of the specified functional rights. 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The roles matched must not contain any of the specified functional rights.
 ```http
 POST /api/v1/Agents/User/FindRolesWithoutFunctionalRights?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,13 +47,14 @@ POST /api/v1/Agents/User/FindRolesWithoutFunctionalRights?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FunctionalRightNames
+FunctionalRightNames 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FunctionalRightNames | array |  |
+
 
 ## Response: array
 
@@ -57,19 +66,20 @@ OK
 
 Response body: array
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/User/FindRolesWithoutFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Batz Group",
-    "Schaden-Barton"
+    "Roob-Altenwerth",
+    "Ortiz LLC"
   ]
 }
 ```
@@ -81,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  187,
-  83
+  591,
+  416
 ]
 ```

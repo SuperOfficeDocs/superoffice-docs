@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 
 Returns all ForeignKeys that belong to a device.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ForeignKeys that belong to a device.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeys?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName
+ApplicationName, DeviceName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
 | DeviceName | string |  |
+
 
 ## Response: array
 
@@ -73,12 +81,12 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Huel Group",
-  "DeviceName": "Parker-Prosacco"
+  "ApplicationName": "Jacobson Group",
+  "DeviceName": "Mante, Kuvalis and Reichert"
 }
 ```
 
@@ -90,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "nulla",
-    "Value": "deleniti",
-    "RecordId": 488,
-    "CreatedDate": "2004-05-29T11:10:27.091459+02:00",
-    "UpdatedDate": "2011-09-20T11:10:27.091459+02:00",
-    "UpdatedBy": "assumenda",
-    "CreatedBy": "neque",
-    "TableName": "Baumbach LLC",
+    "Key": "tempora",
+    "Value": "qui",
+    "RecordId": 789,
+    "CreatedDate": "2002-02-07T02:49:44.561046+01:00",
+    "UpdatedDate": "2003-01-27T02:49:44.561046+01:00",
+    "UpdatedBy": "molestiae",
+    "CreatedBy": "dolor",
+    "TableName": "Schiller LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldLength": 233
       }
     }
   }

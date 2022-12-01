@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 
 Gets the blob entity that represents the contact image binary object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the blob entity that represents the contact image binary object.
 ```http
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnContact?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,11 +85,11 @@ Response body:
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 232
+  "ContactId": 983
 }
 ```
 
@@ -92,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 472,
-  "BlobSize": 548,
-  "Description": "Digitized content-based challenge",
-  "ExtraInfo": "accusamus",
-  "IsEncrypted": true,
+  "BlobId": 865,
+  "BlobSize": 711,
+  "Description": "Right-sized grid-enabled alliance",
+  "ExtraInfo": "sed",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "dicta",
-  "OriginalSize": 365,
-  "CreatedDate": "2007-08-24T11:10:26.0405561+02:00",
-  "UpdatedDate": "2003-11-01T11:10:26.0405561+01:00",
+  "MimeType": "qui",
+  "OriginalSize": 907,
+  "CreatedDate": "2005-11-22T02:49:43.7160326+01:00",
+  "UpdatedDate": "2004-08-30T02:49:43.7160326+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "saepe",
+  "ConceptualType": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 11
     }
   }
 }

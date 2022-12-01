@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs
 
 Get all rows from cust_config as an array of CustomerCenterConfig entities
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all rows from cust_config as an array of CustomerCenterConfig entities
 ```http
 POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs?$select=name,dep
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -74,20 +82,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 880,
+    "CustConfigId": 353,
     "Type": "Options",
-    "Config": "qui",
-    "CustLangId": 542,
-    "Registered": "2007-03-29T11:10:26.3974482+02:00",
-    "RegisteredAssociateId": 553,
-    "Updated": "1998-03-26T11:10:26.3974482+01:00",
-    "UpdatedAssociateId": 520,
+    "Config": "omnis",
+    "CustLangId": 994,
+    "Registered": "1999-01-14T02:49:44.0285283+01:00",
+    "RegisteredAssociateId": 679,
+    "Updated": "2010-12-15T02:49:44.0285283+01:00",
+    "UpdatedAssociateId": 427,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 871
+        "FieldLength": 799
       }
     }
   }

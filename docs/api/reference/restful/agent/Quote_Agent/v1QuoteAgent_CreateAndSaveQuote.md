@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuote
 
 Creates a new quote on a sale.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a new quote on a sale.
 ```http
 POST /api/v1/Agents/Quote/CreateAndSaveQuote?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuote?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId, ConnectionId, FirstAlternativeName
+SaleId, ConnectionId, FirstAlternativeName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ SaleId, ConnectionId, FirstAlternativeName
 | ConnectionId | int32 |  |
 | FirstAlternativeName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,13 +87,13 @@ Response body:
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 60,
-  "ConnectionId": 749,
-  "FirstAlternativeName": "Gislason LLC"
+  "SaleId": 375,
+  "ConnectionId": 466,
+  "FirstAlternativeName": "Bernier, Cummerata and Kautzer"
 }
 ```
 
@@ -96,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 824,
-  "SaleId": 958,
-  "QuoteConnectionId": 201,
-  "ERPQuoteKey": "vero",
-  "ERPOrderKey": "libero",
-  "ActiveQuoteVersionId": 211,
-  "AcceptedQuoteAlternativeId": 981,
-  "UseValuesFromQuote": 496,
-  "DocumentId": 834,
-  "PoNumber": "1924329",
-  "OrderComment": "ut",
-  "PreferredEmailCulture": "cortez.mosciski@bartell.biz",
+  "QuoteId": 787,
+  "SaleId": 264,
+  "QuoteConnectionId": 33,
+  "ERPQuoteKey": "accusamus",
+  "ERPOrderKey": "deleniti",
+  "ActiveQuoteVersionId": 327,
+  "AcceptedQuoteAlternativeId": 84,
+  "UseValuesFromQuote": 508,
+  "DocumentId": 152,
+  "PoNumber": "922922",
+  "OrderComment": "officia",
+  "PreferredEmailCulture": "wilfrid@powlowski.biz",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 420,
-      "ERPQuoteVersionKey": "animi",
-      "QuoteId": 687,
-      "Description": "Seamless interactive adapter",
-      "Number": "928312",
+      "QuoteVersionId": 81,
+      "ERPQuoteVersionKey": "tempora",
+      "QuoteId": 509,
+      "Description": "Reduced 6th generation help-desk",
+      "Number": "360163",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 131,
-      "SentDate": "2006-03-09T11:10:27.7164957+01:00",
-      "FollowupId": 470,
-      "ExpirationDate": "2003-04-19T11:10:27.7164957+02:00",
-      "DeliveryCountryId": 446,
+      "LikelyQuoteAlternativeId": 186,
+      "SentDate": "2006-05-11T02:49:45.0465904+02:00",
+      "FollowupId": 820,
+      "ExpirationDate": "2012-03-02T02:49:45.0465904+01:00",
+      "DeliveryCountryId": 262,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 708,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "quo",
-      "ERPPaymentTypeKey": "sunt",
-      "ERPDeliveryTermsKey": "debitis",
-      "ERPDeliveryTypeKey": "ea",
-      "Rank": 78,
-      "ApprovedBy": 271,
-      "ApprovedText": "dolores",
-      "ApprovedRegisteredBy": 90,
-      "ApprovedRegisteredDate": "2006-11-09T11:10:27.7164957+01:00",
-      "ExtraField1": "et",
-      "ExtraField2": "voluptas",
-      "ExtraField3": "aut",
-      "ExtraField4": "harum",
-      "ExtraField5": "fugiat",
-      "LastRecalculated": "2013-01-19T11:10:27.7164957+01:00",
-      "Updated": "2004-01-28T11:10:27.7164957+01:00",
-      "UpdatedAssociateId": 234,
-      "Registered": "2014-08-14T11:10:27.7164957+02:00",
-      "RegisteredAssociateId": 379,
-      "RequestAssociateId": 941,
-      "RequestComment": "iusto",
+      "InvoiceCountryId": 407,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "velit",
+      "ERPPaymentTypeKey": "nostrum",
+      "ERPDeliveryTermsKey": "autem",
+      "ERPDeliveryTypeKey": "qui",
+      "Rank": 778,
+      "ApprovedBy": 7,
+      "ApprovedText": "saepe",
+      "ApprovedRegisteredBy": 327,
+      "ApprovedRegisteredDate": "2019-03-27T02:49:45.0465904+01:00",
+      "ExtraField1": "sit",
+      "ExtraField2": "architecto",
+      "ExtraField3": "et",
+      "ExtraField4": "est",
+      "ExtraField5": "laboriosam",
+      "LastRecalculated": "2000-04-03T02:49:45.0465904+02:00",
+      "Updated": "2012-01-07T02:49:45.0465904+01:00",
+      "UpdatedAssociateId": 182,
+      "Registered": "2008-12-15T02:49:45.0465904+01:00",
+      "RegisteredAssociateId": 371,
+      "RequestAssociateId": 971,
+      "RequestComment": "corrupti",
       "QuoteAlternatives": [
         {},
         {}
@@ -156,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldType": "System.String",
+          "FieldLength": 706
         }
       }
     }
@@ -167,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 215
     }
   }
 }

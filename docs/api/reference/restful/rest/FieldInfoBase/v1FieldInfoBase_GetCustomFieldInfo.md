@@ -11,10 +11,17 @@ GET /api/v1/Schema/{tableName}/{fieldName}
 
 Return information about a particular custom field (user-defined + extra) on a particular table
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | tableName | string | The name of table that owns the custom fields. e.g. 'contact', 'person', 'project' etc. **Required** |
 | fieldName | string | The name of the field: prog:id or field name. e.g. 'SuperOffice:21' or 'x_foobar' **Required** |
+
+
 
 ## Request Headers
 
@@ -29,7 +36,8 @@ Return information about a particular custom field (user-defined + extra) on a p
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -37,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +69,7 @@ Response body:
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,17 +80,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Crona, Zieme and Ziemann",
-  "DisplayName": "Brakus-Hahn",
-  "Description": "Synchronised global portal",
-  "ShortLabel": "nobis",
-  "HideLabel": true,
-  "HideField": false,
+  "FieldName": "Mayert-Sanford",
+  "DisplayName": "Crooks Inc and Sons",
+  "Description": "Object-based holistic hierarchy",
+  "ShortLabel": "fuga",
+  "HideLabel": false,
+  "HideField": true,
   "IsIndexed": false,
-  "IsMandatory": false,
+  "IsMandatory": true,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 555,
-  "TemplateVariableName": "Graham, Buckridge and Gerlach"
+  "Rank": 114,
+  "TemplateVariableName": "Boyer-McDermott"
 }
 ```

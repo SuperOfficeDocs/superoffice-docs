@@ -11,7 +11,13 @@ POST /api/v1/Agents/ViewState/SaveCurrent
 
 Saving the current history item.
 
+
 This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This history item is saved with Rank = 1, and all the remaining elements rank va
 ```http
 POST /api/v1/Agents/ViewState/SaveCurrent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/ViewState/SaveCurrent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Current
+Current 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Current |  | The usage history of the currently logged in user is represented as History objects. <para /> Carrier object for History. Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +81,7 @@ Response body:
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -88,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 76,
-  "Id": 161,
-  "HistoryName": "Cummings, Schumm and DuBuque",
-  "HistoryId": 140,
-  "AssociateId": 5,
-  "Name": "Ernser, Larkin and Howe",
-  "ItemInfo": "nihil",
+  "Rank": 774,
+  "Id": 811,
+  "HistoryName": "Gislason Group",
+  "HistoryId": 464,
+  "AssociateId": 512,
+  "Name": "Zemlak, Johnston and Weissnat",
+  "ItemInfo": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 801
     }
   }
 }

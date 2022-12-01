@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 
 Creates a PersonEntity with default values based on the contactId and credentials.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Creates a PersonEntity with default values based on the contactId and credential
 ```http
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserType, ContactId, CredentialType, CredentialValue, CredentialDisplayValue
+UserType, ContactId, CredentialType, CredentialValue, CredentialDisplayValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +58,8 @@ UserType, ContactId, CredentialType, CredentialValue, CredentialDisplayValue
 | CredentialValue | string |  |
 | CredentialDisplayValue | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,15 +105,15 @@ Response body:
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 243,
-  "CredentialType": "repellendus",
-  "CredentialValue": "delectus",
-  "CredentialDisplayValue": "dicta"
+  "ContactId": 786,
+  "CredentialType": "quia",
+  "CredentialValue": "quam",
+  "CredentialDisplayValue": "molestiae"
 }
 ```
 
@@ -114,14 +124,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 973,
-  "Name": "Cummerata, Corkery and Barton",
-  "Rank": 747,
-  "Tooltip": "occaecati",
+  "AssociateId": 760,
+  "Name": "Bruen LLC",
+  "Rank": 940,
+  "Tooltip": "aut",
   "LicenseOwners": [
     {
-      "Name": "Thiel, Hermann and Fisher",
-      "Description": "Integrated exuding matrix",
+      "Name": "Kutch-Heidenreich",
+      "Description": "Integrated 24/7 strategy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,13 +145,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 264
         }
       }
     },
     {
-      "Name": "Thiel, Hermann and Fisher",
-      "Description": "Integrated exuding matrix",
+      "Name": "Kutch-Heidenreich",
+      "Description": "Integrated 24/7 strategy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 264
         }
       }
     }
@@ -164,110 +174,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "adipisci",
-      "Tooltip": "ducimus",
-      "Id": 907,
-      "Rank": 530,
+      "Value": "maxime",
+      "Tooltip": "voluptatibus",
+      "Id": 313,
+      "Rank": 706,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 534
+          "FieldLength": 194
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1997-02-06T11:10:28.3432066+01:00",
-  "Lastlogout": "2002-10-08T11:10:28.3432066+02:00",
-  "EjUserId": 273,
-  "RequestSignature": "rerum",
+  "Lastlogin": "2012-01-04T02:49:45.6090971+01:00",
+  "Lastlogout": "2020-03-04T02:49:45.6090971+01:00",
+  "EjUserId": 381,
+  "RequestSignature": "saepe",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sit",
-      "DisplayValue": "consequatur",
+      "Value": "temporibus",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 554
+          "FieldLength": 494
         }
       }
     },
     {
       "Type": null,
-      "Value": "sit",
-      "DisplayValue": "consequatur",
+      "Value": "temporibus",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 554
+          "FieldLength": 494
         }
       }
     }
   ],
-  "UserName": "Wehner-Mohr",
+  "UserName": "Durgan-Hartmann",
   "TicketCategories": [
     {
-      "Id": 625,
-      "Name": "Hauck, Hilll and O'Hara",
-      "ToolTip": "Fugit qui.",
-      "Deleted": false,
-      "Rank": 445,
-      "Type": "ea",
+      "Id": 374,
+      "Name": "Jakubowski-Abernathy",
+      "ToolTip": "Aut iste.",
+      "Deleted": true,
+      "Rank": 55,
+      "Type": "placeat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "cupiditate",
-      "ColorBlock": 540,
-      "ExtraInfo": "accusantium",
-      "StyleHint": "est",
-      "FullName": "Betsy Daniel",
+      "IconHint": "nobis",
+      "ColorBlock": 912,
+      "ExtraInfo": "est",
+      "StyleHint": "rerum",
+      "FullName": "Miss Kristoffer Emily Kozey IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 782
+          "FieldLength": 497
         }
       }
     }
   ],
-  "NickName": "Steuber-Padberg",
+  "NickName": "Crist, Jacobson and Heller",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "totam"
   },
   "CustomFields": {
-    "CustomFields1": "vero",
-    "CustomFields2": "molestias"
+    "CustomFields1": "at",
+    "CustomFields2": "dignissimos"
   },
   "PostSaveCommands": [
     {
-      "Name": "Lebsack, Thompson and Tillman",
-      "DisplayName": "Kling-Okuneva",
-      "Description": "Organized 24 hour website",
-      "ToolTip": "Temporibus quis saepe sit modi repellat fuga et.",
+      "Name": "Gutmann-Erdman",
+      "DisplayName": "Powlowski LLC",
+      "Description": "Virtual logistical collaboration",
+      "ToolTip": "Error dolores quibusdam.",
       "Actions": "Implicit",
-      "ActionData": "ducimus",
+      "ActionData": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 550
         }
       }
     }
@@ -276,8 +286,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 490
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   }
 }

@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetUserGroupList
 
 Gets an array of UserGroup objects.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Gets an array of UserGroup objects.
 ```http
 POST /api/v1/Agents/User/GetUserGroupList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,11 @@ POST /api/v1/Agents/User/GetUserGroupList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: userGroupIds
+## Request Body: userGroupIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -67,7 +78,7 @@ Response body: array
 POST /api/v1/Agents/User/GetUserGroupList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,17 +89,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "ratione",
-    "Tooltip": "voluptate",
-    "Id": 886,
-    "Rank": 43,
+    "Value": "et",
+    "Tooltip": "nesciunt",
+    "Id": 879,
+    "Rank": 644,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldLength": 511
       }
     }
   }

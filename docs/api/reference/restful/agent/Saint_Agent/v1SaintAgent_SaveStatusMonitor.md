@@ -11,6 +11,13 @@ POST /api/v1/Agents/Saint/SaveStatusMonitor
 
 Updates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing StatusMonitor or creates a new StatusMonitor if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The StatusMonitor to be saved.
+The StatusMonitor to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ The StatusMonitor to be saved.
 | NumNeedUpdate | int32 | Number of targets that had this status, but have their needsUpdate bit set due to some change |
 | GenerationStart | date-time | When was the last regeneration started |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,21 +95,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 606,
-  "Rank": 85,
-  "DefaultTask": 976,
-  "DefaultTaskText": "porro",
+  "OwnerTable": 621,
+  "Rank": 493,
+  "DefaultTask": 32,
+  "DefaultTaskText": "in",
   "IsVisual": false,
-  "LastGenerated": "1996-08-16T11:10:27.7724919+02:00",
-  "Description": "Progressive local moderator",
-  "Name": "Reichert-Hackett",
-  "StatusMonitorId": 579,
-  "PictureId": 666,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 999,
-  "NumNeedUpdate": 371,
-  "GenerationStart": "2010-10-16T11:10:27.7724919+02:00"
+  "LastGenerated": "2000-06-04T02:49:45.0934673+02:00",
+  "Description": "Grass-roots multimedia array",
+  "Name": "Bergnaum-Carter",
+  "StatusMonitorId": 596,
+  "PictureId": 548,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 635,
+  "NumNeedUpdate": 731,
+  "GenerationStart": "1996-02-27T02:49:45.0934673+01:00"
 }
 ```
 
@@ -112,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 44,
-  "Rank": 405,
-  "DefaultTask": 439,
-  "DefaultTaskText": "ipsum",
-  "IsVisual": true,
-  "LastGenerated": "2006-04-01T11:10:27.7724919+02:00",
-  "Description": "Polarised cohesive neural-net",
-  "Name": "Heathcote Group",
-  "StatusMonitorId": 75,
-  "PictureId": 13,
-  "NeedsUpdate": true,
-  "Deleted": false,
-  "NumMatches": 711,
-  "NumNeedUpdate": 565,
-  "GenerationStart": "2013-07-29T11:10:27.7724919+02:00",
+  "OwnerTable": 880,
+  "Rank": 843,
+  "DefaultTask": 709,
+  "DefaultTaskText": "occaecati",
+  "IsVisual": false,
+  "LastGenerated": "1999-05-23T02:49:45.0934673+02:00",
+  "Description": "Open-architected hybrid conglomeration",
+  "Name": "Fay Group",
+  "StatusMonitorId": 162,
+  "PictureId": 413,
+  "NeedsUpdate": false,
+  "Deleted": true,
+  "NumMatches": 764,
+  "NumNeedUpdate": 998,
+  "GenerationStart": "2002-03-17T02:49:45.0934673+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 381
     }
   }
 }

@@ -11,11 +11,18 @@ PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Source list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Abbott-Hirthe",
-    "ToolTip": "Quasi quis iusto possimus aut non illo fugit.",
-    "Deleted": true,
-    "Rank": 84,
-    "Type": "sed",
-    "ColorBlock": 472,
-    "IconHint": "et",
+    "Id": 171,
+    "Name": "Eichmann-Hirthe",
+    "ToolTip": "Magni voluptas et aut excepturi.",
+    "Deleted": false,
+    "Rank": 261,
+    "Type": "et",
+    "ColorBlock": 340,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2019-10-20T11:10:54.6419171+02:00",
+    "LastChanged": "2018-03-31T02:49:52.5315748+02:00",
     "ChildItems": [
       {
-        "Id": 325,
-        "Name": "Rosenbaum, Schultz and Stracke",
-        "ToolTip": "Quae et eius reiciendis quidem tenetur.",
-        "Deleted": true,
-        "Rank": 117,
-        "Type": "in",
-        "ColorBlock": 60,
-        "IconHint": "omnis",
+        "Id": 515,
+        "Name": "Price Inc and Sons",
+        "ToolTip": "Est veniam alias error.",
+        "Deleted": false,
+        "Rank": 539,
+        "Type": "nam",
+        "ColorBlock": 577,
+        "IconHint": "cupiditate",
         "Selected": false,
-        "LastChanged": "2019-09-10T11:10:54.6429381+02:00",
+        "LastChanged": "1997-07-08T02:49:52.5315748+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "ut",
+        "ExtraInfo": "animi",
+        "StyleHint": "tempora",
         "Hidden": false,
-        "FullName": "Shad Smith"
+        "FullName": "Dr. Francis Will DDS"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Abbie Wilhelmine McClure III"
+    "ExtraInfo": "possimus",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Marlee Beier"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Weimann-Carroll",
-    "ToolTip": "Est quibusdam ea voluptas illum vero corrupti perferendis.",
-    "Deleted": false,
-    "Rank": 7,
-    "Type": "dicta",
-    "ColorBlock": 465,
-    "IconHint": "nostrum",
+    "Id": 825,
+    "Name": "O'Connell, Hammes and Grant",
+    "ToolTip": "Voluptatem itaque quia similique.",
+    "Deleted": true,
+    "Rank": 225,
+    "Type": "dolorem",
+    "ColorBlock": 281,
+    "IconHint": "dolorum",
     "Selected": false,
-    "LastChanged": "2016-07-08T11:10:54.6459299+02:00",
+    "LastChanged": "2001-03-30T02:49:52.5315748+02:00",
     "ChildItems": [
       {
-        "Id": 384,
-        "Name": "Pouros, Gottlieb and Stiedemann",
-        "ToolTip": "Et mollitia omnis.",
-        "Deleted": true,
-        "Rank": 698,
-        "Type": "quod",
-        "ColorBlock": 253,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "1996-04-13T11:10:54.6459299+02:00",
+        "Id": 527,
+        "Name": "Bruen, Beer and Runte",
+        "ToolTip": "Consequatur incidunt porro magni.",
+        "Deleted": false,
+        "Rank": 718,
+        "Type": "architecto",
+        "ColorBlock": 819,
+        "IconHint": "sequi",
+        "Selected": true,
+        "LastChanged": "2011-10-09T02:49:52.5315748+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "aut",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Treva Moen",
+        "FullName": "Prof. Pierce Jazlyn Wiza II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 280
+            "FieldType": "System.String",
+            "FieldLength": 974
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Bruce Cassin",
+    "ExtraInfo": "architecto",
+    "StyleHint": "dolore",
+    "Hidden": true,
+    "FullName": "Mrs. Dina Giles Strosin Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldLength": 919
       }
     }
   }

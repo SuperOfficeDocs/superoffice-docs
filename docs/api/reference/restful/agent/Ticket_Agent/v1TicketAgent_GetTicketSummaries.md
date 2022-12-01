@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/GetTicketSummaries
 
 Get an array of summaryitem for the given tickets
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get an array of summaryitem for the given tickets
 ```http
 POST /api/v1/Agents/Ticket/GetTicketSummaries?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Ticket/GetTicketSummaries?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketIds
+TicketIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketIds | array |  |
+
 
 ## Response: array
 
@@ -67,13 +75,13 @@ Response body: array
 POST /api/v1/Agents/Ticket/GetTicketSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    264,
-    19
+    420,
+    200
   ]
 }
 ```
@@ -86,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 570,
-    "TicketStatus": 322,
-    "Title": "perspiciatis",
-    "Registered": "2014-03-18T11:10:28.3262065+01:00",
-    "IconHint": "laudantium"
+    "TicketId": 123,
+    "TicketStatus": 476,
+    "Title": "nemo",
+    "Registered": "2001-11-18T02:49:45.5934707+01:00",
+    "IconHint": "natus"
   },
   {
-    "TicketId": 570,
-    "TicketStatus": 322,
-    "Title": "perspiciatis",
-    "Registered": "2014-03-18T11:10:28.3262065+01:00",
-    "IconHint": "laudantium"
+    "TicketId": 123,
+    "TicketStatus": 476,
+    "Title": "nemo",
+    "Registered": "2001-11-18T02:49:45.5934707+01:00",
+    "IconHint": "natus"
   }
 ]
 ```

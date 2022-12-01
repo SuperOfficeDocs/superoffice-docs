@@ -11,6 +11,13 @@ POST /api/v1/License
 
 Load and activate a new license from file/string if the new license is valid.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,11 +32,13 @@ Load and activate a new license from file/string if the new license is valid.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: fileContent
+## Request Body: fileContent  
 
-Content of the license file as XML.
+Content of the license file as XML. 
 
-## Response
+
+
+## Response: 
 
 OK
 
@@ -37,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +63,7 @@ Response body:
 POST /api/v1/License
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,14 +81,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 335,
-      "NumberOfLicensesFree": 891,
-      "NumberOfLicensesAdded": 162,
-      "NumberOfLicensesNewTotal": 628,
-      "NumberOfLicensesNewFree": 988,
-      "NumberOfLicensesTotal": 308
+      "NumberOfLicensesInUse": 663,
+      "NumberOfLicensesFree": 906,
+      "NumberOfLicensesAdded": 931,
+      "NumberOfLicensesNewTotal": 310,
+      "NumberOfLicensesNewFree": 99,
+      "NumberOfLicensesTotal": 329
     }
   ],
-  "AccumulatedNextCheckDate": "2007-12-04T11:10:53.7151852+01:00"
+  "AccumulatedNextCheckDate": "2007-11-03T02:49:51.7179026+01:00"
 }
 ```

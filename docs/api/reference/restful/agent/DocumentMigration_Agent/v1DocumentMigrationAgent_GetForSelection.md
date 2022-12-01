@@ -11,7 +11,15 @@ POST /api/v1/Agents/DocumentMigration/GetForSelection
 
 Gets a migration summary for documents in the provided selection
 
-## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps
+
+
+
+## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Gets a migration summary for documents in the provided selection
 ```http
 POST /api/v1/Agents/DocumentMigration/GetForSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/DocumentMigration/GetForSelection?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentPluginId, SelectionId, IncludeEmails
+DocumentPluginId, SelectionId, IncludeEmails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +56,8 @@ DocumentPluginId, SelectionId, IncludeEmails
 | SelectionId | int32 |  |
 | IncludeEmails | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,13 +80,13 @@ Response body:
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 914,
-  "SelectionId": 131,
-  "IncludeEmails": true
+  "DocumentPluginId": 434,
+  "SelectionId": 997,
+  "IncludeEmails": false
 }
 ```
 
@@ -87,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 841,
-  "NumDocumentsAlreadyMigrated": 62,
+  "NumDocumentsOmitted": 145,
+  "NumDocumentsAlreadyMigrated": 709,
   "Documents": [
     {
-      "DocumentId": 602,
-      "ContactId": 630,
-      "PersonId": 495,
-      "SaleId": 949,
-      "ProjectId": 539,
-      "DocTmplId": 915,
-      "AssociateId": 220,
-      "UserGroupId": 183,
-      "VisibleForId": 306
+      "DocumentId": 905,
+      "ContactId": 342,
+      "PersonId": 199,
+      "SaleId": 440,
+      "ProjectId": 572,
+      "DocTmplId": 710,
+      "AssociateId": 700,
+      "UserGroupId": 129,
+      "VisibleForId": 190
     }
   ],
   "Associates": [
     {
-      "AssociateId": 17,
-      "EmailAddress": "greg_green@roob.us"
+      "AssociateId": 277,
+      "EmailAddress": "brody@hansencasper.info"
     },
     {
-      "AssociateId": 17,
-      "EmailAddress": "greg_green@roob.us"
+      "AssociateId": 277,
+      "EmailAddress": "brody@hansencasper.info"
     }
   ]
 }

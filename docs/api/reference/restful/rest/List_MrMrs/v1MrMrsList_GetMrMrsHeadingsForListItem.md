@@ -11,11 +11,17 @@ GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 
 Gets headings for the MrMrs list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Name": "Boyle Group",
-    "ToolTip": "Laborum temporibus tempore temporibus aut et.",
+    "Id": 946,
+    "Name": "Pfeffer-Bauch",
+    "ToolTip": "Et et tempore ut atque voluptatum.",
     "Deleted": true,
-    "Rank": 352,
-    "Type": "consectetur",
-    "ColorBlock": 67,
-    "IconHint": "et",
+    "Rank": 545,
+    "Type": "ut",
+    "ColorBlock": 858,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2016-05-29T11:10:54.3308698+02:00",
+    "LastChanged": "1998-05-05T02:49:52.2815666+02:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Heathcote LLC",
-        "ToolTip": "Deleniti dicta voluptatum.",
-        "Deleted": true,
-        "Rank": 276,
-        "Type": "dolores",
-        "ColorBlock": 350,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "1998-03-24T11:10:54.3308698+01:00",
+        "Id": 36,
+        "Name": "Gislason, Kertzmann and Hamill",
+        "ToolTip": "Nesciunt impedit blanditiis illo.",
+        "Deleted": false,
+        "Rank": 701,
+        "Type": "ducimus",
+        "ColorBlock": 672,
+        "IconHint": "id",
+        "Selected": false,
+        "LastChanged": "2003-11-08T02:49:52.2815666+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "eius",
+        "ExtraInfo": "laborum",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Thelma Kertzmann",
+        "FullName": "Ms. Emmett Katrina Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 776
+            "FieldLength": 624
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "et",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Bobbie Homenick",
+    "FullName": "Dr. Felipa Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 990
+        "FieldType": "System.Int32",
+        "FieldLength": 772
       }
     }
   }

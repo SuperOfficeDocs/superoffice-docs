@@ -11,6 +11,7 @@ PATCH /api/v1/Ticket/{id}
 
 Update a TicketEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.ITicketAgent} service SaveTicketEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The TicketEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.ITicketAgent} service SaveTicketEntity.
 ```http
 PATCH /api/v1/Ticket/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Ticket/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 TicketEntity  updated.
 
@@ -81,7 +93,7 @@ TicketEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because TicketEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,6 +103,7 @@ Response body:
 | LastChanged | date-time | The last time the ticket was modified. |
 | ReadByOwner | date-time | The datetime for when the ticket last was read by the owner. |
 | ReadByCustomer | date-time | The datetime for when the ticket was read by the customer. |
+| FirstReadByOwner | date-time | The datetime for when the ticket first was read by the current owner. |
 | FirstReadByUser | date-time | The datetime for when the ticket first was read by a user. |
 | Activate | date-time | When the ticket should be activated, if it is postponed. |
 | ClosedAt | date-time | When the ticket was closed. |
@@ -152,12 +165,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptate",
+    "path": "illo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptate",
+    "path": "illo",
     "value": {}
   }
 ]
@@ -170,20 +183,21 @@ HTTP/1.1 200 TicketEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 492,
-  "Title": "aliquid",
-  "CreatedAt": "2000-04-18T11:10:53.6052146+02:00",
-  "LastChanged": "2020-07-10T11:10:53.6052146+02:00",
-  "ReadByOwner": "2015-05-16T11:10:53.6052146+02:00",
-  "ReadByCustomer": "2018-01-23T11:10:53.6052146+01:00",
-  "FirstReadByUser": "2019-04-02T11:10:53.6052146+02:00",
-  "Activate": "2015-03-03T11:10:53.6052146+01:00",
-  "ClosedAt": "2010-11-19T11:10:53.6052146+01:00",
-  "RepliedAt": "2018-09-17T11:10:53.6052146+02:00",
-  "AlertTimeout": "2011-10-04T11:10:53.6052146+02:00",
-  "Deadline": "2010-03-07T11:10:53.6052146+01:00",
+  "TicketId": 905,
+  "Title": "qui",
+  "CreatedAt": "2021-10-23T02:49:51.5988104+02:00",
+  "LastChanged": "2004-10-23T02:49:51.5988104+02:00",
+  "ReadByOwner": "2014-08-20T02:49:51.5988104+02:00",
+  "ReadByCustomer": "2012-04-11T02:49:51.5988104+02:00",
+  "FirstReadByOwner": "2017-01-31T02:49:51.5988104+01:00",
+  "FirstReadByUser": "2007-09-22T02:49:51.5988104+02:00",
+  "Activate": "2018-07-30T02:49:51.5988104+02:00",
+  "ClosedAt": "2013-04-02T02:49:51.5988104+02:00",
+  "RepliedAt": "2018-08-16T02:49:51.5988104+02:00",
+  "AlertTimeout": "2006-01-10T02:49:51.5988104+01:00",
+  "Deadline": "2006-04-06T02:49:51.5988104+02:00",
   "CreatedBy": null,
-  "Author": "dignissimos",
+  "Author": "est",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -194,159 +208,160 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "quia",
-      "PersonId": 654,
-      "Mrmrs": "sed",
-      "Firstname": "Mozell",
-      "Lastname": "Mertz",
-      "MiddleName": "Boehm Group",
-      "Title": "voluptas",
-      "Description": "Cloned non-volatile hierarchy",
-      "Email": "tristin@zemlak.uk",
-      "FullName": "Prof. Jonas Forest Bartell",
-      "DirectPhone": "(168)343-9459 x359",
-      "FormalName": "Howe LLC",
-      "CountryId": 589,
-      "ContactId": 1001,
-      "ContactName": "Baumbach Inc and Sons",
-      "Retired": 635,
-      "Rank": 743,
-      "ActiveInterests": 400,
+      "Position": "aut",
+      "PersonId": 828,
+      "Mrmrs": "tenetur",
+      "Firstname": "Abelardo",
+      "Lastname": "Feest",
+      "MiddleName": "Koepp Group",
+      "Title": "est",
+      "Description": "Networked eco-centric hierarchy",
+      "Email": "eda_satterfield@haley.name",
+      "FullName": "Brad Toy",
+      "DirectPhone": "(933)551-9784 x84059",
+      "FormalName": "Jerde, O'Conner and Turcotte",
+      "CountryId": 818,
+      "ContactId": 456,
+      "ContactName": "Goyette, Lebsack and Kovacek",
+      "Retired": 203,
+      "Rank": 737,
+      "ActiveInterests": 968,
       "ContactDepartment": "",
-      "ContactCountryId": 524,
-      "ContactOrgNr": "1687794",
-      "FaxPhone": "873.789.7060",
-      "MobilePhone": "143.554.7961 x08634",
-      "ContactPhone": "1-600-173-6378",
-      "AssociateName": "Donnelly, Senger and McKenzie",
-      "AssociateId": 326,
+      "ContactCountryId": 48,
+      "ContactOrgNr": "1176258",
+      "FaxPhone": "(387)865-8013 x26700",
+      "MobilePhone": "1-370-771-2269",
+      "ContactPhone": "(719)415-6557 x1344",
+      "AssociateName": "Deckow, Bartell and Goldner",
+      "AssociateId": 624,
       "UsePersonAddress": false,
-      "ContactFax": "occaecati",
-      "Kanafname": "quia",
-      "Kanalname": "ut",
-      "Post1": "consequatur",
-      "Post2": "eos",
-      "Post3": "qui",
-      "EmailName": "cornelius_nitzsche@gleichnergorczany.name",
-      "ContactFullName": "Katrina Gleichner",
-      "ActiveErpLinks": 209,
-      "TicketPriorityId": 108,
-      "SupportLanguageId": 362,
-      "SupportAssociateId": 386,
+      "ContactFax": "officia",
+      "Kanafname": "enim",
+      "Kanalname": "et",
+      "Post1": "eius",
+      "Post2": "non",
+      "Post3": "iure",
+      "EmailName": "regan@stokes.com",
+      "ContactFullName": "Prof. Lyda Dillon Bednar Sr.",
+      "ActiveErpLinks": 557,
+      "TicketPriorityId": 645,
+      "SupportLanguageId": 572,
+      "SupportAssociateId": 746,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldType": "System.String",
+          "FieldLength": 574
         }
       }
     }
   ],
-  "AlertLevel": 694,
-  "ConnectId": 161,
+  "AlertLevel": 354,
+  "ConnectId": 523,
   "ReadStatus": "Green",
-  "TimeToReply": 78,
-  "RealTimeToReply": 679,
-  "TimeToClose": 525,
-  "RealTimeToClose": 225,
-  "TimeSpentInternally": 832,
-  "TimeSpentExternally": 910,
-  "TimeSpentQueue": 381,
-  "RealTimeSpentInternally": 276,
-  "RealTimeSpentExternally": 758,
-  "RealTimeSpentQueue": 382,
+  "TimeToReply": 1002,
+  "RealTimeToReply": 250,
+  "TimeToClose": 135,
+  "RealTimeToClose": 979,
+  "TimeSpentInternally": 415,
+  "TimeSpentExternally": 602,
+  "TimeSpentQueue": 124,
+  "RealTimeSpentInternally": 254,
+  "RealTimeSpentExternally": 406,
+  "RealTimeSpentQueue": 301,
   "HasAttachment": true,
-  "NumReplies": 640,
-  "NumMessages": 822,
-  "FromAddress": "voluptatem",
+  "NumReplies": 369,
+  "NumMessages": 686,
+  "FromAddress": "eum",
   "Messages": [
     {
-      "TicketMessageId": 993,
-      "CreatedAt": "2002-06-24T11:10:53.6102126+02:00",
+      "TicketMessageId": 686,
+      "CreatedAt": "2008-08-07T02:49:51.6144373+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "alias",
-      "PersonId": 932,
-      "PersonFullName": "Hazle Gerlach",
-      "ContactId": 46,
-      "ContactName": "Gerlach Group",
+      "Important": false,
+      "Author": "iste",
+      "PersonId": 835,
+      "PersonFullName": "Kody Schiller",
+      "ContactId": 847,
+      "ContactName": "O'Conner, Morar and Yundt",
       "ContactDepartment": "",
-      "NumAttachments": 528,
-      "EmailHeader": "carmelo.reichel@stiedemann.ca",
+      "NumAttachments": 947,
+      "EmailHeader": "denis.dietrich@marvinjerde.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "fuga",
-      "Sentiment": 341,
-      "SentimentConfidence": 688,
-      "CreatedBy": 663,
+      "Language": "voluptate",
+      "Sentiment": 590,
+      "SentimentConfidence": 378,
+      "CreatedBy": 615,
+      "ChangedAt": "2021-12-02T02:49:51.6144373+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 483
+          "FieldType": "System.Int32",
+          "FieldLength": 851
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 469,
-      "Name": "Ritchie-Ferry",
-      "ToolTip": "Eum quidem consequuntur voluptatibus aspernatur in harum magni.",
+      "Id": 799,
+      "Name": "Farrell, Kuhn and Brakus",
+      "ToolTip": "Quisquam ipsa ut deleniti vitae quos sit.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldType": "System.String",
+          "FieldLength": 105
         }
       }
     },
     {
-      "Id": 469,
-      "Name": "Ritchie-Ferry",
-      "ToolTip": "Eum quidem consequuntur voluptatibus aspernatur in harum magni.",
+      "Id": 799,
+      "Name": "Farrell, Kuhn and Brakus",
+      "ToolTip": "Quisquam ipsa ut deleniti vitae quos sit.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldType": "System.String",
+          "FieldLength": 105
         }
       }
     }
   ],
-  "Language": "accusantium",
-  "Sentiment": 73,
-  "SentimentConfidence": 805,
-  "SuggestedCategoryId": 684,
+  "Language": "vel",
+  "Sentiment": 76,
+  "SentimentConfidence": 757,
+  "SuggestedCategoryId": 218,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 262,
-  "IconHint": "sapiente",
+  "OrigHumanCategoryId": 632,
+  "IconHint": "a",
   "ExtraFields": {
-    "ExtraFields1": "mollitia",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "est",
+    "ExtraFields2": "nam"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "rerum"
+    "CustomFields1": "fuga",
+    "CustomFields2": "dolores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldType": "System.String",
+      "FieldLength": 154
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

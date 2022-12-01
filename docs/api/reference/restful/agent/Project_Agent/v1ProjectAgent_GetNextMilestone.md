@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetNextMilestone
 
 Next upcoming milestone appointment
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Next upcoming milestone appointment
 ```http
 POST /api/v1/Agents/Project/GetNextMilestone?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Project/GetNextMilestone?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -113,11 +121,11 @@ Response body:
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 507
+  "ProjectId": 651
 }
 ```
 
@@ -128,61 +136,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 757,
-  "StartDate": "2003-07-03T11:10:27.6034529+02:00",
-  "EndDate": "2022-01-31T11:10:27.6034529+01:00",
+  "AppointmentId": 591,
+  "StartDate": "1996-07-18T02:49:44.952838+02:00",
+  "EndDate": "2015-11-30T02:49:44.952838+01:00",
   "Type": "BookingForChecklist",
-  "Task": "maxime",
-  "AssociateFullName": "Mr. Amari Beatty",
-  "ContactName": "Effertz, Von and Spencer",
-  "Description": "Front-line needs-based productivity",
-  "PersonFullName": "Margarete Schmeler",
-  "PersonId": 843,
-  "ContactId": 236,
-  "ProjectId": 647,
-  "ProjectName": "Leannon-Runolfsson",
-  "IsPublished": true,
-  "AssociateId": 123,
-  "ColorIndex": 272,
+  "Task": "sit",
+  "AssociateFullName": "Connor Sanford",
+  "ContactName": "Padberg, Becker and Windler",
+  "Description": "Cloned multi-state alliance",
+  "PersonFullName": "Dr. Lupe McCullough",
+  "PersonId": 231,
+  "ContactId": 664,
+  "ProjectId": 343,
+  "ProjectName": "Kuhic-Hane",
+  "IsPublished": false,
+  "AssociateId": 601,
+  "ColorIndex": 797,
   "IsFree": true,
   "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 254,
-  "PriorityName": "Shanahan, Douglas and Larson",
+  "PriorityId": 586,
+  "PriorityName": "Bogan-Robel",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2012-07-25T11:10:27.6044712+02:00",
+  "ActiveDate": "2005-09-10T02:49:44.952838+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2000-04-21T11:10:27.6044712+02:00",
-  "RecurringEndDate": "2020-05-11T11:10:27.6044712+02:00",
-  "MotherId": 681,
-  "AssignedBy": 831,
-  "AssignedByFullName": "Brandon Kuphal V",
+  "RecurringStartDate": "2001-11-09T02:49:44.952838+01:00",
+  "RecurringEndDate": "2020-09-09T02:49:44.952838+02:00",
+  "MotherId": 524,
+  "AssignedBy": 51,
+  "AssignedByFullName": "Alize Shanahan",
   "RejectReason": "",
-  "Location": "est",
-  "AlarmLeadTime": "libero",
-  "SaleId": 20,
-  "SaleName": "Kling, Wilderman and Gutmann",
-  "AssociateName": "Davis-Wunsch",
-  "CreatedDate": "2007-09-25T11:10:27.6044712+02:00",
-  "CreatedBy": "praesentium",
-  "CreatedByFullName": "Katrina Sanford",
-  "CreatedByAssociateId": 453,
+  "Location": "sunt",
+  "AlarmLeadTime": "magnam",
+  "SaleId": 50,
+  "SaleName": "Daniel Inc and Sons",
+  "AssociateName": "Botsford Group",
+  "CreatedDate": "2011-07-01T02:49:44.952838+02:00",
+  "CreatedBy": "et",
+  "CreatedByFullName": "Miss Demond Daugherty I",
+  "CreatedByAssociateId": 489,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 392
+      "FieldType": "System.Int32",
+      "FieldLength": 825
     }
   }
 }

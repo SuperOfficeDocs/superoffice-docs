@@ -11,7 +11,14 @@ POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 
 Set default values into a new DashCollection.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +58,7 @@ Response body:
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -62,111 +70,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 763,
-      "UniqueId": "eum",
-      "Name": "Schultz-Rice",
-      "Description": "Monitored reciprocal open system",
-      "AssociateId": 72,
-      "Columns": 509,
+      "DashboardId": 162,
+      "UniqueId": "perspiciatis",
+      "Name": "Hilll-Kirlin",
+      "Description": "Self-enabling real-time framework",
+      "AssociateId": 955,
+      "Columns": 240,
       "Theme": null,
-      "VisibleForAll": 230,
+      "VisibleForAll": 989,
       "VisibleForAssociates": [
-        634,
-        515
+        513,
+        70
       ],
       "VisibleForGroups": [
-        573,
-        897
+        225,
+        379
       ],
-      "PinForAll": 534,
+      "PinForAll": 921,
       "PinForAssociates": [
-        392,
-        881
+        381,
+        504
       ],
       "PinForGroups": [
-        668,
-        509
+        27,
+        72
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 243
+          "FieldLength": 248
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 584,
-      "UniqueId": "assumenda",
-      "Name": "Bogan, Wiegand and Roob",
-      "Description": "Fully-configurable foreground algorithm",
-      "AssociateId": 431,
-      "Columns": 615,
+      "DashboardId": 952,
+      "UniqueId": "ea",
+      "Name": "Schumm-Padberg",
+      "Description": "Synergistic bottom-line leverage",
+      "AssociateId": 603,
+      "Columns": 133,
       "Theme": null,
-      "VisibleForAll": 282,
+      "VisibleForAll": 292,
       "VisibleForAssociates": [
-        348,
-        321
+        625,
+        894
       ],
       "VisibleForGroups": [
-        471,
-        855
+        808,
+        154
       ],
-      "PinForAll": 656,
+      "PinForAll": 532,
       "PinForAssociates": [
-        61,
-        41
+        107,
+        661
       ],
       "PinForGroups": [
-        371,
-        288
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 980
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 620,
-      "UniqueId": "aliquid",
-      "Name": "Hermann, Smitham and Grimes",
-      "Description": "Implemented content-based open architecture",
-      "AssociateId": 449,
-      "Columns": 427,
-      "Theme": null,
-      "VisibleForAll": 451,
-      "VisibleForAssociates": [
-        265,
-        547
-      ],
-      "VisibleForGroups": [
-        378,
-        367
-      ],
-      "PinForAll": 407,
-      "PinForAssociates": [
-        66,
-        391
-      ],
-      "PinForGroups": [
-        85,
-        405
+        600,
+        267
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 531
+          "FieldLength": 761
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 549,
+      "UniqueId": "pariatur",
+      "Name": "Jerde, Jast and Armstrong",
+      "Description": "Fully-configurable dynamic secured line",
+      "AssociateId": 682,
+      "Columns": 495,
+      "Theme": null,
+      "VisibleForAll": 784,
+      "VisibleForAssociates": [
+        357,
+        248
+      ],
+      "VisibleForGroups": [
+        472,
+        57
+      ],
+      "PinForAll": 215,
+      "PinForAssociates": [
+        511,
+        369
+      ],
+      "PinForGroups": [
+        751,
+        475
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 33
         }
       }
     }

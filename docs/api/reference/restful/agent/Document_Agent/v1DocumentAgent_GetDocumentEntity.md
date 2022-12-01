@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetDocumentEntity
 
 Gets a DocumentEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=897
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=453
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +99,7 @@ Response body:
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 667,
+  "DocumentId": 947,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "reiciendis",
-  "Header": "fuga",
-  "Name": "Vandervort-Zieme",
-  "OurRef": "harum",
-  "YourRef": "est",
-  "CreatedDate": "2004-08-26T11:10:26.5304526+02:00",
-  "UpdatedDate": "2017-06-09T11:10:26.5304526+02:00",
-  "Description": "Centralized user-facing info-mediaries",
+  "Attention": "dolores",
+  "Header": "consequatur",
+  "Name": "Larson-Gerhold",
+  "OurRef": "voluptas",
+  "YourRef": "labore",
+  "CreatedDate": "2017-08-18T02:49:44.1378852+02:00",
+  "UpdatedDate": "2021-06-04T02:49:44.1378852+02:00",
+  "Description": "Secured dynamic knowledge user",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-11-29T11:10:26.5344515+01:00",
-  "ExternalRef": "expedita",
+  "Date": "2006-07-26T02:49:44.1378852+02:00",
+  "ExternalRef": "doloribus",
   "Completed": "Completed",
-  "ActiveLinks": 318,
+  "ActiveLinks": 465,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kertzmann-O'Keefe",
-      "Id": 715,
-      "Description": "Sharable value-added archive",
-      "ExtraInfo": "et",
-      "LinkId": 810,
+      "EntityName": "Metz LLC",
+      "Id": 752,
+      "Description": "Profound impactful interface",
+      "ExtraInfo": "nobis",
+      "LinkId": 162,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldLength": 269
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 953,
-  "Snum": 593,
+  "SuggestedDocumentId": 27,
+  "Snum": 573,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Shirley Schimmel PhD",
-    "SuperOffice:2": "Manuela Ledner DDS"
+    "SuperOffice:1": "374686550",
+    "SuperOffice:2": "548635522"
   },
   "ExtraFields": {
-    "ExtraFields1": "dicta",
-    "ExtraFields2": "illum"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "doloribus"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "nemo"
+    "CustomFields1": "autem",
+    "CustomFields2": "exercitationem"
   },
-  "PublishEventDate": "1996-09-07T11:10:26.535447+02:00",
-  "PublishTo": "1998-06-28T11:10:26.535447+02:00",
-  "PublishFrom": "2018-10-21T11:10:26.535447+02:00",
+  "PublishEventDate": "2016-10-04T02:49:44.1378852+02:00",
+  "PublishTo": "2021-10-03T02:49:44.1378852+02:00",
+  "PublishFrom": "2018-07-09T02:49:44.1378852+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 629,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "nulla",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldType": "System.String",
+          "FieldLength": 370
         }
       }
     },
     {
-      "VisibleId": 629,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "nulla",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldType": "System.String",
+          "FieldLength": 370
         }
       }
     }
@@ -192,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 363
     }
   }
 }

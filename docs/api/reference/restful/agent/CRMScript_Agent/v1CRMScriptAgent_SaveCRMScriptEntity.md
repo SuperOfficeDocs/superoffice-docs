@@ -11,7 +11,16 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 
 Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is empty
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The CRMScriptEntity to be saved.
+The CRMScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +54,8 @@ The CRMScriptEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,21 +87,21 @@ Response body:
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 334,
-  "UniqueIdentifier": "et",
-  "Name": "Borer, Mayer and Feest",
-  "Description": "Fundamental leading edge collaboration",
-  "IncludeId": "itaque",
-  "HierarchyId": 35,
-  "Source": "ratione",
-  "Registered": "2019-09-01T11:10:26.3764575+02:00",
-  "RegisteredAssociateId": 323,
-  "Updated": "1996-08-09T11:10:26.3764575+02:00",
-  "UpdatedAssociateId": 354
+  "EjscriptId": 842,
+  "UniqueIdentifier": "esse",
+  "Name": "Zemlak-Breitenberg",
+  "Description": "Progressive real-time database",
+  "IncludeId": "soluta",
+  "HierarchyId": 662,
+  "Source": "amet",
+  "Registered": "1999-03-27T02:49:44.0129044+01:00",
+  "RegisteredAssociateId": 873,
+  "Updated": "2008-08-24T02:49:44.0129044+02:00",
+  "UpdatedAssociateId": 426
 }
 ```
 
@@ -102,23 +112,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 875,
-  "UniqueIdentifier": "doloribus",
-  "Name": "Johnston, Satterfield and Lynch",
-  "Description": "Business-focused fresh-thinking parallelism",
-  "IncludeId": "voluptatem",
-  "HierarchyId": 295,
-  "Source": "sed",
-  "Registered": "2009-09-19T11:10:26.3774599+02:00",
-  "RegisteredAssociateId": 488,
-  "Updated": "2005-12-21T11:10:26.3774599+01:00",
-  "UpdatedAssociateId": 297,
+  "EjscriptId": 68,
+  "UniqueIdentifier": "voluptatem",
+  "Name": "Boehm Inc and Sons",
+  "Description": "Horizontal static core",
+  "IncludeId": "sit",
+  "HierarchyId": 191,
+  "Source": "excepturi",
+  "Registered": "2006-02-22T02:49:44.0129044+01:00",
+  "RegisteredAssociateId": 786,
+  "Updated": "2014-11-04T02:49:44.0129044+01:00",
+  "UpdatedAssociateId": 112,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldLength": 798
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/ExecuteDocumentCommand
 
 Execute a custom command on a particular document, optionally a particular version
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Execute a custom command on a particular document, optionally a particular versi
 ```http
 POST /api/v1/Agents/Document/ExecuteDocumentCommand?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Document/ExecuteDocumentCommand?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, VersionId, AllowedReturnTypes, Command, AdditionalData
+DocumentId, VersionId, AllowedReturnTypes, Command, AdditionalData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ DocumentId, VersionId, AllowedReturnTypes, Command, AdditionalData
 | Command | string |  |
 | AdditionalData | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,20 +80,20 @@ Response body:
 POST /api/v1/Agents/Document/ExecuteDocumentCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 696,
-  "VersionId": "aliquid",
+  "DocumentId": 972,
+  "VersionId": "quidem",
   "AllowedReturnTypes": [
-    "in",
-    "aut"
+    "vero",
+    "sed"
   ],
-  "Command": "temporibus",
+  "Command": "eum",
   "AdditionalData": [
-    "illum",
-    "rerum"
+    "ea",
+    "nesciunt"
   ]
 }
 ```
@@ -97,11 +105,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "in",
-  "VersionId": "nam",
+  "ExternalReference": "ex",
+  "VersionId": "dicta",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "itaque",
-  "AdditionalInfo": "quas"
+  "Value": "temporibus",
+  "AdditionalInfo": "temporibus"
 }
 ```

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 
 Returns the target assignment for the specified year and entity type.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the target assignment for the specified year and entity type.
 ```http
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Targets/GetTargetAssignmentForYear?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TargetYear, EntityType, TargetLevel, Id
+TargetYear, EntityType, TargetLevel, Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ TargetYear, EntityType, TargetLevel, Id
 | TargetLevel | string |  |
 | Id | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,6 +74,7 @@ Response body:
 | TargetUserGroup |  | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | Currency |  | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
 | DimensionListItem | int32 | Id of the dimension list item this assignement is for |
+| DimensionListItemDisplayName | string | Display name of the dimension list item this assignement is for. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -79,10 +88,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 520,
+  "TargetYear": 186,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 162
+  "Id": 861
 }
 ```
 
@@ -93,23 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 63,
+  "TargetAssignmentInfoId": 511,
   "Values": [
-    68,
-    235
+    908,
+    545
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 346,
+  "DimensionListItem": 685,
+  "DimensionListItemDisplayName": "Roberts-Berge",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 280
     }
   }
 }

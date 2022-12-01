@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
 
 Saves a connection to the database.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Saves a connection to the database.
 ```http
 POST /api/v1/Agents/ErpSync/SaveConnectionListMappings?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/ErpSync/SaveConnectionListMappings?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ListMapping
+ListMapping 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ListMapping |  | Information about all list connections for a connection between CRM and the ERP system. <para /> Carrier object for ErpConnectionListMappingContainer. Services for the ErpConnectionListMappingContainer Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +79,7 @@ Response body:
 POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -87,31 +97,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Auer, Sporer and Zieme",
+      "ErpListName": "Konopelski-Champlin",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Dooley-Littel",
-      "ErpFieldId": 322,
+      "ErpActorTypeName": "Huels Inc and Sons",
+      "ErpFieldId": 344,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 24
+          "FieldLength": 607
         }
       }
     }
   ],
-  "ErpConnectionId": 67,
-  "ErpConnectionName": "Corkery-Beer",
+  "ErpConnectionId": 950,
+  "ErpConnectionName": "Hintz-Robel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldType": "System.String",
+      "FieldLength": 843
     }
   }
 }

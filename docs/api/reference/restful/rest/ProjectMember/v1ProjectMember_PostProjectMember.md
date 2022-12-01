@@ -11,7 +11,13 @@ POST /api/v1/ProjectMember
 
 Creates a new ProjectMember
 
+
 Calls the Project agent service SaveProjectMember.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Project agent service SaveProjectMember.
 ```http
 POST /api/v1/ProjectMember?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/ProjectMember?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ProjectMember to be saved.
+The ProjectMember to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +72,8 @@ The ProjectMember to be saved.
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -73,7 +81,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -108,31 +116,31 @@ Response body:
 POST /api/v1/ProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 344,
-  "ContactId": 946,
-  "ProjectId": 427,
-  "ContactName": "Hoeger, Bauch and Lind",
-  "ContactDepartment": "transform bleeding-edge e-business",
-  "ProjectName": "Ondricka LLC",
-  "EmailId": 35,
-  "EmailAddress": "maddison_ernser@reinger.com",
-  "CountryId": 537,
-  "Firstname": "Amely",
-  "MiddleName": "Orn, Rutherford and Breitenberg",
-  "Lastname": "Wehner",
-  "PersonId": 797,
-  "Mrmrs": "vero",
-  "ProjectMemberTypeName": "O'Hara-Douglas",
-  "Phone": "1-051-267-1300",
-  "PhoneId": 923,
-  "ProjectMemberTypeId": 216,
-  "EmailAddressName": "brandi@walshwunsch.name",
-  "Comment": "atque",
-  "FullName": "Dr. Marlon Wiegand"
+  "ProjectmemberId": 192,
+  "ContactId": 846,
+  "ProjectId": 709,
+  "ContactName": "Abbott Inc and Sons",
+  "ContactDepartment": "",
+  "ProjectName": "Nader-Orn",
+  "EmailId": 853,
+  "EmailAddress": "lauretta.swaniawski@hammes.name",
+  "CountryId": 668,
+  "Firstname": "Dejon",
+  "MiddleName": "Ortiz LLC",
+  "Lastname": "Bechtelar",
+  "PersonId": 473,
+  "Mrmrs": "laboriosam",
+  "ProjectMemberTypeName": "Ward Group",
+  "Phone": "1-806-771-7137 x97728",
+  "PhoneId": 738,
+  "ProjectMemberTypeId": 741,
+  "EmailAddressName": "sarah_bartell@faykeebler.uk",
+  "Comment": "eos",
+  "FullName": "Kyler Bogisich V"
 }
 ```
 
@@ -143,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 161,
-  "ContactId": 882,
-  "ProjectId": 529,
-  "ContactName": "Rempel-Dibbert",
+  "ProjectmemberId": 149,
+  "ContactId": 323,
+  "ProjectId": 403,
+  "ContactName": "Hansen-Corwin",
   "ContactDepartment": "",
-  "ProjectName": "Greenfelder Inc and Sons",
-  "EmailId": 179,
-  "EmailAddress": "maya.nader@bins.name",
-  "CountryId": 261,
-  "Firstname": "Willis",
-  "MiddleName": "Champlin LLC",
-  "Lastname": "Hintz",
-  "PersonId": 378,
-  "Mrmrs": "quae",
-  "ProjectMemberTypeName": "Wunsch Group",
-  "Phone": "1-881-504-6621 x1878",
-  "PhoneId": 829,
-  "ProjectMemberTypeId": 819,
-  "EmailAddressName": "daniela_koepp@funk.ca",
-  "Comment": "temporibus",
-  "FullName": "Sonia Grimes",
+  "ProjectName": "Lind-Beier",
+  "EmailId": 648,
+  "EmailAddress": "jany.bayer@langratke.us",
+  "CountryId": 901,
+  "Firstname": "Erika",
+  "MiddleName": "Wisoky, Hilpert and Champlin",
+  "Lastname": "Morissette",
+  "PersonId": 791,
+  "Mrmrs": "nisi",
+  "ProjectMemberTypeName": "Cummerata LLC",
+  "Phone": "(898)642-4701",
+  "PhoneId": 142,
+  "ProjectMemberTypeId": 285,
+  "EmailAddressName": "taya_gutkowski@johnson.com",
+  "Comment": "est",
+  "FullName": "Horace Daugherty",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldLength": 6
     }
   },
   "_Links": {

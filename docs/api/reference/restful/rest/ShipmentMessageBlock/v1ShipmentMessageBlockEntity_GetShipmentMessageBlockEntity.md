@@ -11,11 +11,17 @@ GET /api/v1/ShipmentMessageBlock/{id}
 
 Gets a ShipmentMessageBlockEntity object.
 
+
 Calls the Marketing agent service GetShipmentMessageBlockEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ShipmentMessageBlockEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Marketing agent service GetShipmentMessageBlockEntity.
 ```http
 GET /api/v1/ShipmentMessageBlock/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/ShipmentMessageBlock/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ShipmentMessageBlockEntity found.
 
@@ -49,7 +57,7 @@ ShipmentMessageBlockEntity found.
 | 200 | ShipmentMessageBlockEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,20 +89,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 513,
-  "AssociateId": 455,
-  "Block": "incidunt",
-  "Registered": "2001-08-12T11:10:53.5211742+02:00",
-  "RegisteredAssociateId": 460,
-  "Updated": "2010-08-31T11:10:53.5211742+02:00",
-  "UpdatedAssociateId": 607,
-  "UpdatedCount": 182,
+  "ShipmentMessageBlockId": 21,
+  "AssociateId": 694,
+  "Block": "culpa",
+  "Registered": "2005-11-14T02:49:51.536309+01:00",
+  "RegisteredAssociateId": 872,
+  "Updated": "2011-03-11T02:49:51.536309+01:00",
+  "UpdatedAssociateId": 376,
+  "UpdatedCount": 798,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 20
     }
   },
   "_Links": {

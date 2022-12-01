@@ -11,6 +11,12 @@ POST /api/v1/Agents/FreeText/DeleteStopWordsById
 
 Delete the stop words with these ids
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Delete the stop words with these ids
 ```http
 POST /api/v1/Agents/FreeText/DeleteStopWordsById?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,15 +38,16 @@ POST /api/v1/Agents/FreeText/DeleteStopWordsById?$select=name,department,categor
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StopWordIds
+StopWordIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StopWordIds | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -47,7 +55,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -60,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "StopWordIds": [
-    615,
-    481
+    327,
+    142
   ]
 }
 ```

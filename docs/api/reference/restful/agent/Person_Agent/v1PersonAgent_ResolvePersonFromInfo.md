@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/ResolvePersonFromInfo
 
 Get a person from the provided information.
 
+
 If the person does not exist, it will be created on demand.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If the person does not exist, it will be created on demand.
 ```http
 POST /api/v1/Agents/Person/ResolvePersonFromInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Person/ResolvePersonFromInfo?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, PersonName, PhoneNumbers, Emails
+ContactId, PersonName, PhoneNumbers, Emails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,8 @@ ContactId, PersonName, PhoneNumbers, Emails
 | PhoneNumbers | array |  |
 | Emails | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -56,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,19 +79,19 @@ Response body:
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 475,
-  "PersonName": "Heidenreich-Welch",
+  "ContactId": 977,
+  "PersonName": "Gutmann-Schultz",
   "PhoneNumbers": [
-    "1448619",
-    "1039850"
+    "1412271",
+    "1229338"
   ],
   "Emails": [
-    "deontae_gleichner@dietrich.biz",
-    "tatum.bosco@toy.name"
+    "wendell@schumm.info",
+    "ryder_weber@gibsonboyle.info"
   ]
 }
 ```
@@ -101,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 803
+      "FieldType": "System.Int32",
+      "FieldLength": 326
     }
   }
 }

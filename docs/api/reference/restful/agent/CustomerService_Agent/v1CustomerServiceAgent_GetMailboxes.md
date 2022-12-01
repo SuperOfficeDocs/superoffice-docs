@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetMailboxes
 
 This method will get all registered mailboxes in Service
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method will get all registered mailboxes in Service
 ```http
 POST /api/v1/Agents/CustomerService/GetMailboxes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/CustomerService/GetMailboxes?$select=name,department,categor
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -59,7 +67,7 @@ Response body: array
 POST /api/v1/Agents/CustomerService/GetMailboxes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 230,
-    "Address": "eligendi",
+    "MailInFilterId": 404,
+    "Address": "ex",
     "CategoryName": "VIP Customer",
-    "PriorityName": "West, Gusikowski and Runolfsdottir",
+    "PriorityName": "Bayer, Pfeffer and Leffler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 696
+        "FieldType": "System.Int32",
+        "FieldLength": 707
       }
     }
   },
   {
-    "MailInFilterId": 230,
-    "Address": "eligendi",
+    "MailInFilterId": 404,
+    "Address": "ex",
     "CategoryName": "VIP Customer",
-    "PriorityName": "West, Gusikowski and Runolfsdottir",
+    "PriorityName": "Bayer, Pfeffer and Leffler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 696
+        "FieldType": "System.Int32",
+        "FieldLength": 707
       }
     }
   }

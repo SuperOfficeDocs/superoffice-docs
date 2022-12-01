@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetContactEntity
 
 Gets a ContactEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=929
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=584
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,7 +109,7 @@ Response body:
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -111,157 +119,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 845,
-  "Name": "Roberts Group",
-  "Department": "integrate 24/7 schemas",
-  "OrgNr": "483068",
-  "Number1": "898267",
-  "Number2": "237945",
-  "UpdatedDate": "1999-11-21T11:10:26.2635526+01:00",
-  "CreatedDate": "2005-05-14T11:10:26.2635526+02:00",
+  "ContactId": 701,
+  "Name": "Vandervort-O'Kon",
+  "Department": "",
+  "OrgNr": "1357200",
+  "Number1": "1301065",
+  "Number2": "1743413",
+  "UpdatedDate": "2008-10-31T02:49:43.9191527+01:00",
+  "CreatedDate": "2005-11-01T02:49:43.9191527+01:00",
   "Emails": [
     {
-      "Value": "optio",
-      "StrippedValue": "veritatis",
-      "Description": "Stand-alone zero defect encoding",
+      "Value": "velit",
+      "StrippedValue": "aperiam",
+      "Description": "Organic logistical firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 633
+          "FieldType": "System.Int32",
+          "FieldLength": 991
         }
       }
     },
     {
-      "Value": "optio",
-      "StrippedValue": "veritatis",
-      "Description": "Stand-alone zero defect encoding",
+      "Value": "velit",
+      "StrippedValue": "aperiam",
+      "Description": "Organic logistical firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 633
+          "FieldType": "System.Int32",
+          "FieldLength": 991
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 850,
-      "Name": "Heathcote, Green and Wuckert",
-      "ToolTip": "Incidunt recusandae ducimus voluptate tempora sit dolores et.",
-      "Deleted": true,
-      "Rank": 183,
-      "Type": "repudiandae",
-      "ColorBlock": 644,
-      "IconHint": "harum",
-      "Selected": false,
-      "LastChanged": "2017-11-27T11:10:26.2635526+01:00",
+      "Id": 401,
+      "Name": "Feest-Goldner",
+      "ToolTip": "Eum consequatur praesentium saepe rerum nesciunt sit fugiat.",
+      "Deleted": false,
+      "Rank": 752,
+      "Type": "libero",
+      "ColorBlock": 586,
+      "IconHint": "quas",
+      "Selected": true,
+      "LastChanged": "2013-12-15T02:49:43.9191527+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "incidunt",
-      "StyleHint": "vitae",
+      "ExtraInfo": "provident",
+      "StyleHint": "quia",
       "Hidden": false,
-      "FullName": "Bonnie Nitzsche",
+      "FullName": "Godfrey Brook Schroeder DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 335
+          "FieldLength": 422
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "aliquam",
-      "StrippedValue": "vero",
-      "Description": "Implemented cohesive functionalities",
+      "Value": "inventore",
+      "StrippedValue": "asperiores",
+      "Description": "Reverse-engineered human-resource parallelism",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldType": "System.String",
+          "FieldLength": 959
         }
       }
     },
     {
-      "Value": "aliquam",
-      "StrippedValue": "vero",
-      "Description": "Implemented cohesive functionalities",
+      "Value": "inventore",
+      "StrippedValue": "asperiores",
+      "Description": "Reverse-engineered human-resource parallelism",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldType": "System.String",
+          "FieldLength": 959
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "molestias",
-      "StrippedValue": "accusantium",
-      "Description": "Proactive attitude-oriented neural-net",
+      "Value": "rerum",
+      "StrippedValue": "at",
+      "Description": "Adaptive upward-trending circuit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 673
+          "FieldLength": 660
         }
       }
     },
     {
-      "Value": "molestias",
-      "StrippedValue": "accusantium",
-      "Description": "Proactive attitude-oriented neural-net",
+      "Value": "rerum",
+      "StrippedValue": "at",
+      "Description": "Adaptive upward-trending circuit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 673
+          "FieldLength": 660
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "perferendis",
-      "StrippedValue": "dolores",
-      "Description": "Expanded fresh-thinking artificial intelligence",
+      "Value": "quae",
+      "StrippedValue": "non",
+      "Description": "User-centric uniform contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 267
         }
       }
     },
     {
-      "Value": "perferendis",
-      "StrippedValue": "dolores",
-      "Description": "Expanded fresh-thinking artificial intelligence",
+      "Value": "quae",
+      "StrippedValue": "non",
+      "Description": "User-centric uniform contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 267
         }
       }
     }
   ],
-  "Description": "Extended high-level attitude",
+  "Description": "Expanded national toolset",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -270,100 +278,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "sunt",
-      "PersonId": 255,
-      "Mrmrs": "nihil",
-      "Firstname": "Peggie",
-      "Lastname": "Kuvalis",
-      "MiddleName": "Kutch Inc and Sons",
-      "Title": "ipsa",
-      "Description": "Grass-roots leading edge initiative",
-      "Email": "laurence.kirlin@ankunding.name",
-      "FullName": "Keenan Dickens",
-      "DirectPhone": "733.714.6526 x811",
-      "FormalName": "Quigley, Weissnat and Kuhic",
-      "CountryId": 496,
-      "ContactId": 324,
-      "ContactName": "Smitham-Berge",
-      "Retired": 167,
-      "Rank": 698,
-      "ActiveInterests": 869,
+      "Position": "exercitationem",
+      "PersonId": 739,
+      "Mrmrs": "voluptatem",
+      "Firstname": "Velda",
+      "Lastname": "Schmitt",
+      "MiddleName": "Windler Group",
+      "Title": "deleniti",
+      "Description": "Ameliorated 6th generation process improvement",
+      "Email": "ara@damore.info",
+      "FullName": "Ms. Arvid Camryn Ebert",
+      "DirectPhone": "869-586-9233 x8713",
+      "FormalName": "Spencer-Simonis",
+      "CountryId": 660,
+      "ContactId": 65,
+      "ContactName": "Padberg-Moore",
+      "Retired": 543,
+      "Rank": 659,
+      "ActiveInterests": 386,
       "ContactDepartment": "",
-      "ContactCountryId": 865,
-      "ContactOrgNr": "957222",
-      "FaxPhone": "458-431-1209 x609",
-      "MobilePhone": "1-042-733-7768 x790",
-      "ContactPhone": "1-476-950-9504 x85843",
-      "AssociateName": "Murphy LLC",
-      "AssociateId": 466,
+      "ContactCountryId": 778,
+      "ContactOrgNr": "669842",
+      "FaxPhone": "546-334-8671",
+      "MobilePhone": "(627)900-8528",
+      "ContactPhone": "1-433-508-1369 x94872",
+      "AssociateName": "Langosh, Bartoletti and Simonis",
+      "AssociateId": 833,
       "UsePersonAddress": false,
-      "ContactFax": "similique",
-      "Kanafname": "sit",
-      "Kanalname": "quibusdam",
-      "Post1": "voluptate",
-      "Post2": "sed",
-      "Post3": "ut",
-      "EmailName": "vickie@nikolaus.uk",
-      "ContactFullName": "Madge Bobby Ullrich III",
-      "ActiveErpLinks": 556,
-      "TicketPriorityId": 812,
-      "SupportLanguageId": 160,
-      "SupportAssociateId": 924,
+      "ContactFax": "adipisci",
+      "Kanafname": "est",
+      "Kanalname": "aut",
+      "Post1": "consequatur",
+      "Post2": "tempore",
+      "Post3": "id",
+      "EmailName": "osvaldo.turcotte@homenick.info",
+      "ContactFullName": "Reba Bashirian V",
+      "ActiveErpLinks": 177,
+      "TicketPriorityId": 399,
+      "SupportLanguageId": 895,
+      "SupportAssociateId": 94,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 412
+          "FieldType": "System.String",
+          "FieldLength": 560
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "deleniti",
+  "NoMailing": true,
+  "Kananame": "molestiae",
   "Xstop": true,
-  "ActiveInterests": 211,
-  "GroupId": 622,
-  "ActiveStatusMonitorId": 595,
+  "ActiveInterests": 287,
+  "GroupId": 23,
+  "ActiveStatusMonitorId": 905,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 188,
-  "DbiAgentId": 912,
-  "DbiLastSyncronized": "2017-03-20T11:10:26.2675528+01:00",
-  "DbiKey": "similique",
-  "DbiLastModified": "2009-05-22T11:10:26.2675528+02:00",
+  "Deleted": 684,
+  "DbiAgentId": 440,
+  "DbiLastSyncronized": "2021-12-12T02:49:43.9191527+01:00",
+  "DbiKey": "et",
+  "DbiLastModified": "2009-03-22T02:49:43.9191527+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 263,
-  "ActiveErpLinks": 325,
+  "Source": 989,
+  "ActiveErpLinks": 218,
   "BounceEmails": [
-    "waylon@prosacco.name",
-    "grayson@schadenrice.biz"
+    "joel@stehr.us",
+    "millie.runolfsdottir@streich.info"
   ],
   "Domains": [
-    "rerum",
-    "possimus"
+    "ullam",
+    "vel"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Lawrence Stevie Sauer",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Rosa Abernathy V"
   },
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "veniam"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "quas"
+    "CustomFields1": "possimus",
+    "CustomFields2": "voluptatibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldType": "System.Int32",
+      "FieldLength": 977
     }
   }
 }

@@ -11,7 +11,14 @@ POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 
 Set default values into a new Dashboard.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 410,
-  "AssociateId": 677,
-  "Caption": "voluptas",
+  "DashboardId": 447,
+  "AssociateId": 999,
+  "Caption": "incidunt",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 564,
-      "Caption": "delectus",
-      "Description": "Switchable explicit workforce",
-      "ChartName": "Cole, Corwin and Cormier",
-      "ChartId": "facilis",
-      "IsDefault": true,
-      "AssociateId": 406,
-      "GroupId": 824,
-      "SelectionId": 452,
-      "Config": "iste",
+      "DashboardTileId": 604,
+      "Caption": "natus",
+      "Description": "Horizontal well-modulated support",
+      "ChartName": "Altenwerth, Huels and Crona",
+      "ChartId": "voluptatibus",
+      "IsDefault": false,
+      "AssociateId": 611,
+      "GroupId": 642,
+      "SelectionId": 531,
+      "Config": "quo",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -93,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldLength": 945
         }
       }
     }
@@ -103,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 525
+      "FieldLength": 424
     }
   }
 }

@@ -11,7 +11,13 @@ GET /api/v1/List/DocumentTemplate/Items
 
 Gets a list of all DocumentTemplateEntity list items.
 
+
 Calls the List agent service GetAllDocumentTemplateEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 ```http
 GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -82,7 +90,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,37 +101,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 561,
-    "Name": "Ward, Ondricka and Herman",
-    "Tooltip": "aliquam",
-    "SaveInDb": 754,
-    "Filename": "aut",
-    "DefaultOref": "sunt",
+    "DocumentTemplateId": 44,
+    "Name": "Corwin, McDermott and Thiel",
+    "Tooltip": "et",
+    "SaveInDb": 40,
+    "Filename": "impedit",
+    "DefaultOref": "atque",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 899,
-    "IntentId": 479,
-    "IsDefaultPublished": false,
-    "Rank": 496,
-    "LoadTemplateFromPlugin": 95,
-    "MimeType": "qui",
+    "AutoeventId": 829,
+    "IntentId": 504,
+    "IsDefaultPublished": true,
+    "Rank": 571,
+    "LoadTemplateFromPlugin": 660,
+    "MimeType": "placeat",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 589,
+    "DocumentTypeKey": 474,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "caden@bartoletti.name",
-    "IncludeSignature": true,
-    "ShowCurrents": false,
+    "EmailSubject": "danika@eichmann.us",
+    "IncludeSignature": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "darren@hirthe.biz",
+    "SenderEmailAddress": "santina.dickinson@wintheiser.name",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 740
       }
     }
   }
