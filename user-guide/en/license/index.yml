@@ -1,7 +1,7 @@
 ### YamlMime:SubCategory
 
 title: User administration and system settings
-summary: ""
+summary: "Learn about licenses, roles and users, languages and localizations, how to import external content, and how our AI services work."
 
 metadata:
   title: User administration and system settings
@@ -10,98 +10,82 @@ metadata:
   so.topic: landing-page
   author: Help & Learn
   so.author: helplearn
-  so.date: 11.28.2022
+  so.date: 11.29.2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
 landingContent:
 
   # Card
-  - title: Lists, preferences, options and settings
+  - title: Licenses
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Lists
-          url: settings/lists/index.md
-        - text: Preferences
-          url: settings/preferences/index.md
-        - text: Options
-          url: settings/options/index.md
-        - text: Personal settings
-          url: settings/personal-settings/index.md
-      - linkListType: how-to-guide
-        links:
-        - text: System settings in Service
-          url: settings/in-service/index.md
+        - text: License overview
+          url: license/overview.md
+        - text: The licences screen
+          url: license/screen/index.md
+        - text: Activate license
+          url: license/activate.md
 
   # Card
-  - title: Custom objects
+  - title: User management
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: User-defined fields
-          url: custom-objects/udef/index.md
-        - text: Extra fields
-          url: custom-objects/extra-field/create.md
-        - text: Extra tables
-          url: custom-objects/extra-table/create.md
+        - text: Roles
+          url: user-management/role/index.md
+        - text: Create a role
+          url: user-management/role/create-role.md
+        - text: Users
+          url: user-management/index.md
+        - text: Add users
+          url: user-management/add-associate.md
+        - text: Update user information
+          url: user-management/update-user.md
+        - text: Create user groups
+          url: user-management/create-user-group.md
+        - text: Add company in the Our companies tab
+          url: user-management/add-our-companies.md
       
   # Card
-  - title: User interface
+  - title: Languages and localization
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Screen designer
-          url: ui/screen-designer/index.md
-        - text: Extra menus
-          url: ui/extra-menus/index.md
-        - text: Web panels
-          url: ui/web-panels/index.md
-      - linkListType: how-to-guide
-        links:
-        - text: Profile in Service
-          url: ui/in-service/profiles/index.md
+        - text: Change the language version
+          url: globalization/change-language.md
+        - text: Time zones
+          url: globalization/time-zones.md
+        - text: Translation
+          url: globalization/translate-fields.md
+        - text: Language support for documents
+          url: globalization/doc-language-support.md
 
   # Card
-  - title: Macros and CRMScript
+  - title: Import
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Macros and scripts
-          url: automation/macro-script.md
-        - text: Create a macro
-          url: automation/create-macro.md
-        - text: Create a script
-          url: automation/create-script.md
-        - text: Debug sessions
-          url: automation/debug.md
-        - text: Create a scheduled task
-          url: automation/schedule-task.md
-        - text: Tracing
-          url: automation/tracing.md
-        - text: Triggers
-          url: automation/trigger.md
+        - text: Configure import settings
+          url: import/configure-import-settings.md
+        - text: Import from Excel
+          url: import/import-from-excel.md
+        - text: Import products from Excel
+          url: import/import-products-from-excel.md
+        - text: Import from Gmail
+          url: import/import-from-gmail.md
+        - text: Import from Outlook
+          url: import/import-from-outlook.md
+        - text: Import from ERP
+          url: import/import-from-erp.md
 
   # Card
-  - title: Customer centre
+  - title: AI
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Customer centre configuration
-          url: customer-center/config.md
-        - text: Customer centre source files
-          url: customer-center/edit.md
-        - text: Send passwords to contacts
-          url: customer-center/send-credentials.md
-
- # Card
-  - title: ERP
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-        - text: Connect to ERP
-          url: erp/erp-connect.md
-        - text: Create ERP actor
-          url: erp/erp-create-new-actor.md
-        - text: Disable synchronisation
-          url: erp/erp-sync-disconnect.md
+        - text: Categorization
+          url: ai/categorization.md
+        - text: Text analysis
+          url: ai/text-analysis.md
