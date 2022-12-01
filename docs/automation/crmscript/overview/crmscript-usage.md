@@ -1,9 +1,10 @@
 ---
-uid: crmscript_uc
+uid: crmscript-usage
 title: What can I do with CRMScript?
-author:
-so.date:
-keywords:
+description: Overview of what you can do with CRMScripts in SuperOffice and limitations pertaining to the online environment.
+author: Bergfrid Skaara Dias
+so.date: 12.02.2022
+keywords: CRMScript, performance, security
 so.topic: concept
 ---
 
@@ -36,12 +37,12 @@ In many cases, our standard pages will suffice. However, if you need something a
 > [!CAUTION]
 > Searches may affect load. Ask only for the data you need. Don't ask for the entire database!
 
-## Limitations
+## Limitations in CRM online
 
-Because of security restrictions and performance considerations, there are some things you can't do with CRMScripts.
+Because of security restrictions and performance considerations in our online environment, there are some things you can't do with CRMScripts in online tenants.
 
-* You can't put files on our **online** webserver (no upload or import of scripts).
-* You can't read from or write to physical files on our **online** webserver.
+* You can't put files on our **online** web server (no upload or import of scripts).
+* You can't read from or write to physical files on our **online** web server.
 * It is not allowed to run a script for more than 60 seconds.
 * Memory-intensive scripts are not allowed. Each script may not consume more than 8 MB of memory.
 * The **BulkUpdate** API is unavailable because updates can take a long time.
