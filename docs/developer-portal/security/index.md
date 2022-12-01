@@ -29,8 +29,8 @@ If you have registered the application but lost the keys, you need to [look up y
 
 Watch the walk-through on YouTube:
 
-<!-- markdownlint-disable-next-line MD033 -->
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kqEpAw7qQEY?start=705" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube-nocookie.com/embed/kqEpAw7qQEY?start=0705]
 
 ## URLs
 
