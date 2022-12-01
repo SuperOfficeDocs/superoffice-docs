@@ -3,7 +3,7 @@ title: How to configure settings in SuperOffice Admin
 uid: configure-superoffice-admin
 description: How to configure document templates for SharePoint Documents
 author: Bergfrid Dias
-so.date: 06.20.2022
+so.date: 12.01.2022
 keywords: SharePoint, document, template
 so.topic: howto
 so.envir: cloud
@@ -44,7 +44,7 @@ The wizard has four steps:​
 
 * Site in SharePoint: Just choose your site from the dropdown. You must have permission level Owner to be able to select a site.
 * Document library: Select from the drop-down​.
-* Folder structure: You can select between​ User group, Author, Template type, Company name and Project​. You can also organize the folders in Yearly subfolder​.
+* Folder structure: You can select between​ User group, Author, Template type, Company name, and Project​. You can also organize the folders in Yearly subfolder​.
 * File name: Select between Heading or Heading - Company name​.
 
 ### SuperOffice document templates
@@ -80,10 +80,10 @@ We recommend that you select all here. These fields will appear as columns in yo
 
 ### Apps for SuperOffice (system user)
 
-Enable system user for storing documents in SharePoint. If you have for instance a third-party app that creates documents in SuperOffice, you need to Enable system user for storing documents in SharePoint.
+Enable system user for storing documents in SharePoint. If you have for instance a third-party app that creates documents in SuperOffice, you need to enable system user for storing documents in SharePoint.
 
 > [!NOTE]
-> You cannot turn this on the first time you configure SharePoint documents, it must be fully configured. Complete the configuration and start the Wizard (Settings), navigate to Step 3 and turn it on.
+> You can't turn this on the first time you configure SharePoint documents. It must be fully configured. Complete the configuration and start the wizard (Settings), navigate to step 3, and turn it on.
 
 ​    ![Groups and access​ -screenshot][img4]
 
