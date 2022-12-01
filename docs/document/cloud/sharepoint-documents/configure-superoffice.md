@@ -83,7 +83,7 @@ We recommend that you select all here. These fields will appear as columns in yo
 Enable system user for storing documents in SharePoint. If you have for instance a third-party app that creates documents in SuperOffice, you need to enable system user for storing documents in SharePoint.
 
 > [!NOTE]
-> You can't turn this on the first time you configure SharePoint documents. It must be fully configured. Complete the configuration and start the wizard (Settings), navigate to step 3, and turn it on.
+> You can't turn this on the first time you configure SharePoint documents. It must be fully configured first. Complete the configuration and start the wizard (Settings), navigate to step 3, and turn it on.
 
 ​    ![Groups and access​ -screenshot][img4]
 
