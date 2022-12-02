@@ -57,8 +57,10 @@ items:
 - name: API
   href: api/index.md
   items:
-  - name: Version history
-    href: api/version-changes/
+  - name: 10.1.8 update
+    href: api/10.1.8-update.md
+  - name: 10.1.6 update
+    href: api/10.1.6-update.md
   - name: 10.1.5 update
     href: api/10.1.5-update.md
     items:
