@@ -43,7 +43,7 @@ Because of security restrictions and performance considerations in our online en
 
 * You can't put files on our **online** web server (no upload or import of scripts).
 * You can't read from or write to physical files on our **online** web server.
-* It is not allowed to run a script for more than 60 seconds.
+* Scripts have a 60 second run-time. After 60 seconds, the script times out.
 * Memory-intensive scripts are not allowed. Each script may not consume more than 8 MB of memory.
 * The **BulkUpdate** API is unavailable because updates can take a long time.
 * ODBC endpoints are unavailable, which makes it technically impossible to access an Access-database from CRMScript. You can use Zapier instead.
