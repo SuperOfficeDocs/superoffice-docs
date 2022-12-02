@@ -1,11 +1,12 @@
 ---
-title:  changes_6_to_7
-description:  Table changes from SuperOffice 6 to 7
-author:  {github-id}
-keywords:  database
+title: changes_6_to_7
+description: Table changes from SuperOffice 6 to 7
+author: {github-id}
+keywords: database
 so.topic: reference
-so.envir:  onsite
-# so.client :
+so.envir: onsite
+# so.client:
+so.version: 7
 ---
 
 # Table changes from SuperOffice 6.3 to 7.0

@@ -1,21 +1,17 @@
----
-uid: version_10.1.6.838_changes
-so.date: 10/13/2022
----
+<!-- markdownlint-disable-file MD041 -->
+## Changes from v10.1.6.812 to v10.1.6.838
 
-# Changes from v10.1.6.812 and v10.1.6.838
-
-## Web Services
+### Web Services
 
 These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
-## NetServer Core
+### NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
 
-### Assembly: SoDatabase
+#### Assembly: SoDatabase
 
-### Deleted Types
+#### Deleted Types
 
 * `SuperOffice.Security.Principal.SoWindowsIdentity`
 * `SuperOffice.Security.Principal.WindowsIdentityResolver`
@@ -23,16 +19,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * `SuperOffice.Security.Principal.WindowsOtherIdentityResolver`
 * `SuperOffice.Security.Principal.WindowsPersonIdentityResolver`
 
-### Modified Types
+#### Modified Types
 
-#### SuperOffice.Data.Dialect.OracleCommon is Modified
+##### SuperOffice.Data.Dialect.OracleCommon is Modified
 
 * New items
   * Method `ToSql(JsonValue)`
 
-
-## Continuous Database
+### Continuous Database
 
 The following represent changes to SuperOffice database schema.
-
-
