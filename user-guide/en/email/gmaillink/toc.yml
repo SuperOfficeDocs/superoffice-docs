@@ -1,8 +1,12 @@
 items:
 - name: Overview
   href: index.md
-- name: Working with incoming emails
+- name: Edit Gmail Link settings
+  href: settings.md
+- name: Work with emails
   items:
+  - name: Manage senders
+    href: manage-senders.md
   - name: Archive incoming email
     href: email-archive-incoming.md
   - name: Archive attachments
@@ -11,9 +15,5 @@ items:
     href: archive-emails-as-activities.md
   - name: Create request
     href: archive-emails-as-requests.md
-  - name: Manage senders
-    href: manage-senders.md
-- name: Archive outgoing email
-  href: email-archive-outgoing.md
-- name: Edit Gmail Link settings
-  href: settings.md
+  - name: Archive outgoing email
+    href: email-archive-outgoing.md

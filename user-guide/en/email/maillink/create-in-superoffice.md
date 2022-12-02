@@ -54,7 +54,7 @@ When creating an email from SuperOffice CRM, it is also possible to use predefin
 [2]: create-in-lotus.md
 [4]: select-recipients.md
 [5]: add-attachment.md
-[6]: admin/create-email-template.md
+[6]: ../../settings/lists/create-email-template.md
 [7]: settings/general.md
 
 <!-- Referenced images -->

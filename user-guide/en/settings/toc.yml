@@ -18,14 +18,14 @@ items:
   items:
   - name: Add
     href: add-system-event.md
-- name: How to...
+- name: Onsite
   items:
+  - name: SOAP
+    href: screen/soap-config.md
   - name: Configure SOAP interface
     href: configure-soap.md
 - name: Screens
   items:
-  - name: SOAP
-    href: screen/soap-config.md
   - name: Package properties
     href: screen/listpackages.editpackage.md
     
