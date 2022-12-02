@@ -1,153 +1,150 @@
-### YamlMime:Category
+### YamlMime:SubCategory
 
 title: Automation
-summary: Automation
-brand: devdocs
+summary: "Automation allows an application to execute code when an event occurs inside the client. Automation code can perform just about any task imaginable, but generally involve validating, transforming, and/or moving data."
 
 metadata:
   title: Automation
-  description: Automation
-  so.product: crmscript
-  so.topic: hub-page
-  so.collection: collection
+  description: "Automation allows an application to execute code when an event occurs inside the client. Automation code can perform just about any task imaginable, but generally involve validating, transforming, and/or moving data."
+  so.topic: landing-page
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 03.26.2021
+  so.date: 12.01.2022
 
-# highlightedContent section (optional)
-# Maximum of 8 items
-highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
-  items:
-    # Card
-    - title: "CRMScript"
-      itemType: overview
-      url: crmscript/index.yml
-    # Card
-    - title: "NetServer script engine (onsite)"
-      itemType: overview
-      url: netserver-scripting/index.md
-    # Card
-    - title: "Trigger script reference"
-      itemType: reference
-      url: trigger/reference/CRMScript.Event.Trigger.yml
-      # FYI we're linking to a specific file rather than index because the folder doesn't have an index.md
-    # Card
-    - title: "Macros and scripts"
-      itemType: reference
-      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics_script%2Fblogic.listScripts.html
-# conceptualContent section (optional)
-conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
-  title: "" # < 60 chars (optional)
-  summary: ""
-  items:
-    # Card
-      - title: CRMScript
-        summary: SuperOffice automation scripting language
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+# Card
+  - title: CRMScript
+    linkLists:
+      - linkListType: overview
         links:
-          - url: crmscript/overview/index.md
-            itemType: overview
-            text: What is CRMScript
-          - url: crmscript/fundamentals/syntax.md
-            itemType: get-started
-            text: Fundamentals
-          - url: crmscript/code-quality/coding-conventions.md
-            itemType: how-to-guide
-            text: Coding conventions
-          - url: crmscript/datatypes/bool-type.md
-            itemType: reference
-            text: Basic datatypes
-          - url: crmscript/index.yml
-            itemType: reference
-            text: CRMScript API reference
-    # Card
-      - title: Trigger - scripts
-        summary: CRMScripts that are run on user-interface events
+        - text: What is CRMScript
+          url: crmscript/overview/index.md
+        - text: What can I do with CRMScript?
+          url: crmscript/overview/crmscript-usage.md
+      - linkListType: get-started
         links:
-          - url: trigger/index.md
-            itemType: concept
-            text: Introduction
-          - url: trigger/create-trigger-script.md
-            itemType: how-to-guide
-            text: Create trigger script
-          - url: trigger/create-trigger-macro.md
-            itemType: how-to-guide
-            text: Create trigger macro
-          - url: trigger/set-validation-rules.md
-            itemType: how-to-guide
-            text: Set validation rules
-          - url: trigger/update-value.md
-            itemType: how-to-guide
-            text: Update value 
-    # Card
-      - title: NetServer script engine
-        summary: "Automate business logic workflows for onsite installations"
+        - text: How do I create and run CRMScripts?
+          url: crmscript/overview/envir-and-tools.md
+        - text: Syntax
+          url: crmscript/fundamentals/syntax.md
+        - text: Basic data types
+          url: crmscript/datatypes/index.md
+      - linkListType: reference
         links:
-        - url: netserver-scripting/index.md
-          itemType: concept
-          text: Introduction
-        - url: netserver-scripting/configure.md
-          itemType: concept
-          text: Configuration
-        - url: netserver-scripting/basic-scripting.md
-          itemType: concept
-          text: Events
-        - url: netserver-scripting/run-scripts.md
-          itemType: concept
-          text: Deployment options
-        - url: netserver-scripting/reference/index.md
-          itemType: reference
-          text: Scripting API reference
-    # Card
-      - title: Event model
-        summary: ""
+        - text: CRMScript API reference
+          url: crmscript/reference/CRMScript.Global.Void.yml
+
+# Card
+  - title: Webhooks
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Introduction
+        url: webhook/index.md
+      - text: Event details
+        url: webhook/event-details.md
+    - linkListType: how-to-guide
+      links:
+      - text: Subscribing to a webhook
+        url: webhook/subscription.md
+      - text: Receiving a webhook
+        url: webhook/notification.md
+      - text: CRMScript webhook handlers
+        url: webhook/crmscript-handlers.md
+      - text: Security
+        url: webhook/security.md
+    - linkListType: reference
+      links:
+      - text: Webhook event reference
+        url: webhook/reference/index.md
+
+  # Card
+  - title: Chatbot
+    linkLists:
+      - linkListType: overview
         links:
-        - url: event-model/index.md
-          itemType: concept
-          text: Intro
-        - url: event-model/email-filter.md
-          itemType: concept
-          text: Email filter
-        - url: event-model/mailbox-after-save.md
-          itemType: concept
-          text: Mailbox after save
-        - url: event-model/mailbox-before-save.md
-          itemType: concept
-          text: Mailbox before save
-        - url: event-model/saving-a-request.md
-          itemType: concept
-          text: Saving a request
-# Card with summary style
-additionalContent:
-  # Supports up to 3 sections
-  sections: 
-    - title: "" # < 60 chars (optional)
-      summary: "" # < 160 chars (optional)
-      items:
-      # Card
-      - title: Webhooks
+        - text: Introduction
+          url: chatbot/index.md
+      - linkListType: how-to-guide
         links:
-          - url: webhook/index.md
-            text: Introduction
-          - url: webhook/event-details.md
-            text: Event details
-          - url: webhook/subscription.md
-            text: Subscribing to a webhook
-          - url: webhook/notification.md
-            text: Receiving a webhook
-          - url: webhook/crmscript-handlers.md
-            text: CRMScript webhook handlers
-          - url: webhook/security.md
-            text: About security
-          - url: webhook/reference/activity-events.md
-            text: Webhook event reference
-          - url: webhook/tutorials/add-msg-to-ticket/index.md
-            text: Using GitHub webhook to add a message to a ticket
-      # Card
-      - title: Windows
+        - text: Registration
+          url: chatbot/registration.md
+        - text: Chat sessions
+          url: chatbot/sessions.md
+        - text: Messages
+          url: chatbot/messages.md
+      - linkListType: reference
         links:
-        - url: windows/win-script-event-system.md
-          text: Windows client script event system
-  # footer (optional)
-  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
+        - text: Script reference
+          url: chatbot/reference.md
+
+# Card
+  - title: Trigger scripts
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Introduction
+          url: trigger/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Create trigger script
+          url: trigger/create-trigger-script.md
+        - text: Create trigger macro
+          url: trigger/create-trigger-macro.md
+        - text: Set validation rules
+          url: trigger/set-validation-rules.md
+      - linkListType: reference
+        links:
+        - text: "Trigger script reference"
+          url: trigger/reference/CRMScript.Event.Trigger.yml
+
+# Card
+  - title: Event model
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Introduction
+        url: event-model/index.md
+    - linkListType: reference
+      links:
+      - text: Email filter
+        url: event-model/email-filter.md
+      - text: Mailbox after save
+        url: event-model/mailbox-after-save.md
+      - text: Mailbox before save
+        url: event-model/mailbox-before-save.md
+      - text: Saving a request
+        url: event-model/saving-a-request.md
+
+# Card
+  - title: NetServer script engine (onsite)
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Introduction
+          url: netserver-scripting/index.md
+        - text: Configuration
+          url: netserver-scripting/configure.md
+      - linkListType: how-to-guide
+        links:
+        - text: Events
+          url: netserver-scripting/basic-scripting.md
+        - text: Deployment options
+          url: netserver-scripting/run-scripts.md
+      - linkListType: reference
+        links:
+        - text: Scripting API reference
+          url: netserver-scripting/reference/index.md
+
+  # Card
+  - title: Other automation
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Windows client script event system
+          url: windows/win-script-event-system.md
+        - text: Zapier
+          url: https://zapier.com/apps/superofficecrm/integrations
