@@ -92,6 +92,8 @@ items:
 - name: API
   href: api/index.md
   items:
+  - name: 9.2 R01 update
+    href: api/9.2-R01-update.md
   - name: 9.2 R03 update
     href: api/9.2-R03-update.md
   - name: 9.2 R06 update
@@ -102,3 +104,5 @@ items:
     href: api/9.2-R09-update.md
   - name: 9.2 R11 update
     href: api/9.2-R11-update.md
+- name: Database changes
+  href: ../database/changes-9.2.md

@@ -61,12 +61,18 @@ items:
     href: api/version-changes/
   - name: 10.1.5 update
     href: api/10.1.5-update.md
+    items:
+    - name: Database changes 10.1.5
+      href: ../database/changes-10.1.5.md
   - name: 10.1.4 update
     href: api/10.1.4-update.md
   - name: 10.1.3 update
     href: api/10.1.3-update.md
   - name: 10.1.2 update
     href: api/10.1.2-update.md
+    items:
+    - name: Database changes 10.1.2
+      href: ../database/changes-10.1.2.md
   - name: 10.1.1 update
     href: api/10.1.1-update.md
 - name: Development Products
