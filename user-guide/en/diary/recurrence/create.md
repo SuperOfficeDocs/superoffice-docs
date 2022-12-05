@@ -27,7 +27,7 @@ It may happen that you want to create a series of appointments to occur at regul
     > [!NOTE]
     > You can only change the start date for the follow-up here. If you want to change the time, you must first close the **Repeating follow-ups** dialog and then change the time in the **Appointment**, **Task**, or **Phone call** dialog.
 
-5. Under **Frequency** you specify if the follow-up is to be repeated daily, weekly, monthly, yearly or at a user-defined interval. Then select further details for frequency in the field in the middle of the dialog. The options available here depend on what you select under **Frequency**:
+5. Under **Frequency** you specify if the follow-up should be repeated daily, weekly, monthly, yearly or at a user-defined interval. Then select further details for frequency in the field in the middle of the dialog. The options available here depend on what you select under **Frequency**:
     * If you select **Daily**, you can specify that the follow-up should repeat every working day, every day of the week, or at a user-defined interval, such as every other day.
 
     * If you select **Weekly**, you can specify that the follow-up should repeat at a user-defined weekly interval, such as every three weeks, and on which day of the week it should take place.

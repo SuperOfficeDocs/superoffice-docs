@@ -43,7 +43,7 @@ To add a new user-defined field:
 
     <details><summary>Why is it a good idea to index?</summary>
 
-    The benefit of choosing **Indexed** is that it will be quicker to search on these fields using **Find**, for example. Non-indexed fields are also searchable, but the search takes longer. You should only index fields which are frequently searched and contain frequently used data.
+    The benefit of choosing **Indexed** is that it will be quicker to search on these fields using **Find**, for example. Non-indexed fields are also searchable, but the search takes longer. You should only index fields that are frequently searched and contain frequently used data.
     </details>
 
 1. When you have specified the required settings, click **Save**. The dialog box will close and the new field will be displayed in the **Fields** list and in the grid.

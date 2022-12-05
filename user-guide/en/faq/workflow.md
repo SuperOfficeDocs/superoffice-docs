@@ -25,7 +25,7 @@ In a new installation, the workflow contains two default stages: **Unpublished**
 8. Select which access level the user should have. You can choose from the following options:
     * **Can move**: The user is permitted to change the workflow stage for entries (publish or cancel publishing).
     * **Can edit**: The user is permitted to edit FAQ entries.
-    * **Full access**: The user has all rights in relation to the workflow..
+    * **Full access**: The user has all rights in relation to the workflow.
 9. Click the ![icon][img3] **Add** button to add the user to the list under **User access**.
 10. Repeat steps 7-9 to add more users.
 11. Click **OK**. The stage is created and now available when you publish FAQ entries.

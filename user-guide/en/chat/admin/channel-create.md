@@ -112,7 +112,7 @@ In the **Pre-chat form** tab, you can define how customers should identify thems
 The following fields are available in the **Pre-chat form** tab:
 
 * **Enable pre-chat FAQ suggestions**: If you enable FAQ suggestions, the top 3 FAQs that match the customers message will be displayed in the chat window prior to the chat. The customer can click the FAQ links to view the complete FAQs in SuperOffice Customer Centre. If none of the suggested FAQs answer their questions, they can choose to start the chat.
-  * **FAQ folder**: Select the folder which contains the FAQs (and sub-folders with FAQs) that should be displayed to the customers. Only FAQs that have been published and are accessible to everyone (no login required), will be displayed to customers.
+  * **FAQ folder**: Select the folder that contains the FAQs (and sub-folders with FAQs) that should be displayed to the customers. Only FAQs that have been published and are accessible to everyone (no login required), will be displayed to customers.
 * **Enable pre-chat form for anonymous users**: Select this option if the customers must identify themselves before starting the chat. Leave this option unselected to let the customers start the chat directly.
 * **Message**: Enter a message to the customer. Example: "Let us know who you are and how we can help you".
 * **Fields required to initiate chat**: Select the information the customer must enter to start the chat.
@@ -128,7 +128,7 @@ The following fields are available in the **Post-chat form** tab:
 * **Enable post-chat form**: Select this option to show the post-chat form to the customer when the chat is finished.
 * **Header**: Enter a short header text.
 * **Message**: Enter a short message to the customer.
-* **Enable transcript**: Select this option to enable transcript. The customer can enter an email address to which the transcript will be sent. The reply template for the transcript can be found in SuperOffice Service.
+* **Enable transcript**: Select this option to enable transcript. The customer can enter an email address to send the transcript to. The reply template for the transcript can be found in SuperOffice Service.
 
 The preview on the right displays the chat window with the current settings.
 

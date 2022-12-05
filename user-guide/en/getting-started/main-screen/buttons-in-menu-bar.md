@@ -74,7 +74,7 @@ The other buttons in SuperOffice Service are described in connection with the ta
 
 ## The SuperOffice logo
 
-At the top left in SuperOffice CRM is the SuperOffice logo, which has the following functions:
+At the top left in SuperOffice CRM is the SuperOffice logo with the following functions:
 
 ![SuperOffice logo][img9]
 

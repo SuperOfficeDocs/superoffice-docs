@@ -55,7 +55,7 @@ A combined selection is a combination of two or more existing selections. Here y
     > [!TIP]
     > You can remove a selection from the combined selection by clicking **Delete** ( ![icon][img2] ) on the right of the row.
 
-14. In the **Profile** tab, specify how the selection is to be presented:
+14. In the **Profile** tab, specify how the selection should be presented:
    [!include[Contents of Selection Profile tab](includes/selection-profile-tab.md)]
 
 15. Click **Execute** to display the result of the combined selection in the **Result** tab.

@@ -14,13 +14,13 @@ language: en
 The **Diary** screen consists of two main sections:
 
 * A calendar showing follow-ups that have been allocated to a particular time or date.
-* A section tab area, which comprises the [activities list][6] and the [sales list][7].
+* A section tab area, containing the [activities list][6] and the [sales list][7].
 
 At the bottom left of the calendar is a field for selecting a [time zone][12], if time zones have been enabled in SuperOffice Settings and maintenance.
 
 ## Tabs in the Diary screen
 
-The diary consists of four different tabs which you can select simply by clicking them at the top of the **Diary** screen.
+The diary consists of four different tabs you can select simply by clicking them at the top of the **Diary** screen.
 
 * [The Day tab][2]
 * [The Week tab][3]

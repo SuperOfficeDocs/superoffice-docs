@@ -33,11 +33,11 @@ This topic explains how you set the legal basis and source for the purposes call
 ## How to edit the privacy settings for a contact
 
 1. Go to the contact in the **Contact** screen.
-    At the bottom of the contact card, you can see if a legal basis has been set for the purpose **Sales and service** or not.
+    At the bottom of the contact card, you can see whether a legal basis has been set for the purpose **Sales and service**.
 
 2. Click **Legal basis** at the bottom of the contact card. The **Privacy** dialog opens. This dialog contains a list of purposes:
     * **Sales and service**: This purpose *must* have a legal basis and source, since you need a person's consent to lawfully process and store their personal data in SuperOffice.
-    * **E-marketing**: You need a person's permission to be able to send them e-marketing material. This purpose can also be set by using the **E-marketing** button in the **Interests** tab.
+    * **E-marketing**: You need a person's permission to send them e-marketing material. This purpose can also be set by using the **E-marketing** button in the **Interests** tab.
     * Additional purposes can be added from Settings and maintenance.
 
 3. Double-click a purpose where the **Legal basis** and **Source** columns are empty. The **Edit legal basis** dialog opens.

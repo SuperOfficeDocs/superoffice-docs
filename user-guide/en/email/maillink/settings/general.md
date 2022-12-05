@@ -27,8 +27,6 @@ These options determine how SuperOffice CRM and the mail client behave in respon
 
 ## Settings for new emails
 
-These options are used for selecting which email body to use.
-
 | Option | Description |
 |---|---|
 | Use SuperOffice email body | You can predefine an email body that uses data from SuperOffice CRM. To use this template, you need to select this option. |

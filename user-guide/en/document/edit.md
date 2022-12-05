@@ -13,8 +13,8 @@ language: en
 
 Editing documents involves two things:
 
-* Editing of the document properties, which is done in the **Document** dialog.
-* Editing of the document file itself, which is done in the application the document was created in.
+* Editing of the document properties in the **Document** dialog.
+* Editing of the document file itself in the application the document was created in.
 
 > [!NOTE]
 > You can open a document in [edit mode or in read mode][1]. When you open the document in edit mode, only you can edit the document. Other users can open the document in read mode.
@@ -30,7 +30,7 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 ## Edit document properties in the Document dialog
 
-To change document properties, for example, the project to which the document is linked, you need to use the **Document** dialog:
+To change document properties, for example, the project the document is linked to, you need to use the **Document** dialog:
 
 1. [Select the required document][2].
 2. Right-click and select **Document**. If you double-click on the document, it opens directly in the application it was created in.

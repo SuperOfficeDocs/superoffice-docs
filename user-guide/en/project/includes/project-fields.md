@@ -29,7 +29,7 @@
 
 1. **User-defined fields:** Here, three of the fields from the **More** tab may be displayed, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
 
-1. **Completed:** This box indicates if the project is completed or not.
+1. **Completed:** This box indicates whether the project is completed.
 
 1. **Publish:** (requires separate licence) If you check this box, the project will be visible to external users through third-party applications. You can choose to have the project published for a limited time only (see [The Event tab][4]).
 

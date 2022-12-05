@@ -30,7 +30,7 @@ The main section contains the following essential information about the follow-u
 Click the arrow next to this field (![icon][img2]) to display a predefined list of follow-up types to choose from, for example, a meeting or outgoing phone call. You can also search for types by typing into this field. Here you can also use [FastSearcher][12].
 
 > [!NOTE]
-> It is the **Type** field which determines the type of follow-up in question: appointment, task, or phone call.
+> The **Type** field determines the type of follow-up in question: appointment, task, or phone call.
 
 ## Video meeting
 
@@ -49,7 +49,7 @@ Click the arrow next to this field and a list of known contacts in the company i
 Enter the name of the project that the follow-up is linked to. If you cannot remember the whole name, you can search directly from this field.
 
 > [!NOTE]
-> In the **Project** field, you can specify any of the projects which are saved in SuperOffice CRM, regardless of which company the follow-up is linked to.
+> In the **Project** field, you can specify any project in SuperOffice CRM, regardless of which company the follow-up is linked to.
 
 ### Sale
 
@@ -75,7 +75,7 @@ If you check **All day**, the time of the appointment is set to the period speci
 
 ### Location
 
-Here you choose the address where the follow-up will take place. By default, this field is empty, but if you click the arrow ![icon][img2] next to the field, two entries are displayed in a list box. One is the user's company and the other is the company that is to be followed up.
+Here you choose the address where the follow-up will take place. By default, this field is empty, but if you click the arrow ![icon][img2] next to the field, two entries are displayed in a list box. One is the user's company and the other is the company to follow up.
 
 If you have specified a resource of type **Location** (for example a meeting room) as a participant in the **Participants** tab, the resource is also displayed in this list box.
 

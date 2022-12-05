@@ -40,7 +40,7 @@ Normally, contacts are registered by the system when they send in mails, but the
 
 12. If the contact is associated with a company, the following fields have already been filled in with values from the associated company and cannot be edited:
     * In the **Our Contact**field, your name will be displayed automatically. Clicking the arrow brings up a list box where you can choose the name of someone else from your organisation.
-    * In the **Category**field, select the category to which the contact belongs, from a predefined list of categories. Click the arrow to show the category list.
+    * In the **Category**field, select the category the contact belongs to, from a predefined list of categories. Click the arrow to show the category list.
     * In the **Business**field, select from a list of different predefined types of business. Click the arrow and choose the business that best matches the contact you are creating.
 
 13. In the **Company** field, you can specify which company the contact is linked to. To search for a company, start typing its name, and select the company from the list of results.

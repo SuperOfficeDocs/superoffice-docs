@@ -11,7 +11,7 @@ language: en
 
 # Add requests to the favourites list
 
-In SuperOffice Service there is a favourites list, to which you can add requests you want to remind yourself to follow up.
+In SuperOffice Service there is a favourites list, you can add requests you want to remind yourself to follow up.
 
 > [!TIP]
 > You can also add contacts, companies, selections and mailings to your [favourites][1]. These favourites can be accessed by clicking the relevant icon in the Navigator and clicking ![icon][img3].

@@ -15,7 +15,7 @@ language: en
 
 You can include links (URLs) in a message and track them. In other words, you can see how many recipients have clicked them.
 
-For this to be possible, the URLs must be unique for each recipient, so that you can be sure it was different recipients who clicked the links and not the same one who clicked several times. In addition, the URLs must point at the SuperOffice server, so that they can be counted before they are redirected to the destination URL. The program arranges all this automatically when you select which URLs in the message you want to track.
+The URLs must be unique for each recipient, so that you can be sure it was different recipients who clicked the links and not the same one who clicked several times. In addition, the URLs must point at the SuperOffice server, so that they can be counted before they are redirected to the destination URL. The program arranges all this automatically when you select which URLs in the message you want to track.
 
 In the **Tracked links** tab you have the following options:
 

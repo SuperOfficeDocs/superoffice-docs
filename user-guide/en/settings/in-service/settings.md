@@ -15,7 +15,7 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **System administrator**: The email address of the person who is responsible for operation of SuperOffice Service. This must be an email address that is not imported/processed by SuperOffice Service.
 
-* **Default From address**: The email address which is to be the system's default sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service. For example, support@company.com.
+* **Default From address**: The system's default email sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service. For example, support@company.com.
 
 * **Internal URL**: The base address for access to the SuperOffice Service system.
 
@@ -25,7 +25,7 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **Email tag**: The email tag which, in conjunction with the request number, creates a unique key for the subject in e-mails that are sent out from SuperOffice Service. You must not change this value unless you know what you are doing! If this value is changed, received e-mails will not be correctly linked to existing requests.
 
-* **New status when accepting a request**: Select which status is to be used when a request is accepted by a user.
+* **New status when accepting a request**: Select which status to use when a request is accepted by a user.
 
 * **Send email notification of open requests**: Specifies if email about open requests is sent to the users. If you select **User can choose**, users can activate or deactivate email notification from ![icon][img1] **Personal settings** > **Settings** > **Notification**.
 

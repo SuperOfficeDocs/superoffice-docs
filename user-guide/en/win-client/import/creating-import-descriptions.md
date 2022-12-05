@@ -24,7 +24,7 @@ To create an import description:
 
 3. Specify a data file in the **Import file** field.
 
-4. Under **Field mapping**, specify which fields in the import file will be mapped to which fields in the SuperOffice database. (See [Field mapping][1].)
+4. Under **Field mapping**, specify which field in the import file to map which field in the SuperOffice database to. (See [Field mapping][1].)
 
 5. Under **Import settings**, the following options are available:
 

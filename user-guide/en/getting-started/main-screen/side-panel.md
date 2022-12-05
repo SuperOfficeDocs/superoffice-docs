@@ -30,7 +30,7 @@ The default setting is for the side panel to show a preview of the selected reco
 Shows a summary of information about the current company in the **Company** screen.
 
 > [!TIP]
-> If you want to view other companies, without having to switch companies in the **Company** screen, you can use the [history list][1], which you bring up by clicking the arrow ( ![icon][img3] ) next to the company name.
+> If you want to view other companies, without having to switch companies in the **Company** screen, click the arrow ( ![icon][img3] ) next to the company name to open the [history list][1]
 
 ## Contact
 
@@ -45,7 +45,7 @@ In a [dynamic selection][7], you can choose to show companies only, without spec
 
 ## Day
 
-Shows a day's agenda which works in the same way as the [Day][3] tab in the [Diary][4] screen
+Shows a day's agenda. Works in the same way as the [Day][3] tab in the [Diary][4] screen
 
 > [!NOTE]
 > You can only show your own diary in the side panel. If you want to view other people's diaries, you can do this in the [Diary][4] screen.
@@ -94,7 +94,7 @@ Shows a preview of a selected activity, project, contact, project member or sele
 Shows a summary of information about the current project in the **Project** screen.
 
 > [!TIP]
-> If you want to view other projects, without having to switch projects in the **Project** screen, you can use the [history list][1], which you bring up by clicking the arrow ![icon][img3] next to the project name.
+> If you want to view other projects, without having to switch projects in the **Project** screen, click the arrow ( ![icon][img3] ) next to the product name to open the [history list][1]
 
 ## Project members
 
@@ -108,14 +108,14 @@ Shows a list of project members in the current project in the **Project** screen
 Shows a summary of information about the current sale in the **Sale** screen.
 
 > [!TIP]
-> If you want to view other sales, without having to switch sales in the **Sale** screen, you can use the [history list][1], which you bring up by clicking the arrow ( ![icon][img3] ) next to the name of the sale.
+> If you want to view other sales, without having to switch sales in the **Sale** screen, click the arrow ( ![icon][img3] ) next to the name of the sale to open the [history list][1]
 
 ## Selection
 
 Shows a summary of information about the current selection in the **Selection** screen.
 
 > [!TIP]
-> If you want to view other selections, without having to switch selections in the **Selection** screen, you can use the [history list][1], which you bring up by clicking the arrow ( ![icon][img3] ) next to the selection name.
+> If you want to view other selections, without having to switch selections in the **Selection** screen, click the arrow ( ![icon][img3] ) next to the selection name to open the [history list][1].
 
 ## Selection members
 

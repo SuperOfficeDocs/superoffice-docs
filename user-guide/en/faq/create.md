@@ -11,7 +11,7 @@ language: en
 
 # Create FAQ entries
 
-By creating FAQ entries, your organisation can build up a comprehensive collection of questions and answers which both customers and staff can use to find useful information. There are two ways to create FAQ entries:
+By creating FAQ entries, your organisation can build up a comprehensive collection of questions and answers that both customers and staff can use to find useful information. There are two ways to create FAQ entries:
 
 * A user can create an FAQ entry, based on communication with a customer in **Requests**.
 * An administrator can create an FAQ entry directly in **Knowledge Base > FAQ**.
@@ -90,7 +90,7 @@ You can also create an FAQ entry as follows:
 1. Select **Knowledge Base** > **FAQ**.
 2. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can [create a new folder][2].
 3. Click the **New entry** button. This takes you to the **FAQ entry properties** screen.
-4. Follow the procedure above starting at step 3..
+4. Follow the procedure above starting at step 3.
 
 Since the option to create FAQ entries this way is only available to administrators, there is no need for a separate publishing step in this process. The administrator can create and publish simultaneously.
 

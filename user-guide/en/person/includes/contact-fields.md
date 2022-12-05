@@ -17,7 +17,7 @@
 * If the contact is associated with a company, the following fields have already been filled in with values from the associated company and cannot be edited:
 
   * In the **Our Contact** field, your name will be displayed automatically. Clicking the arrow brings up a list box where you can choose the name of someone else from your organization.
-  * In the **Category** field, select the category to which the contact belongs, from a predefined list of categories. Click the arrow to show the category list.
+  * In the **Category** field, select the category the contact belongs to, from a predefined list of categories. Click the arrow to show the category list.
   * In the **Business** field, select from a list of different predefined types of business. Click the arrow and choose the business that best matches the contact you are creating.
 
 * Fill in the **Number** field as required. **Number** is assigned automatically if set up in SuperOffice Settings and maintenance.

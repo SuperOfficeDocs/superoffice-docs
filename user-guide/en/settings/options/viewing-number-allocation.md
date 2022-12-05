@@ -20,7 +20,7 @@ The table consists of the following columns:
 * **Next**: shows the next value for the counter.
 * **Allocate**: specifies if the automatic counter function will be used, so that the system enters values for you.
 * **Unique**: specifies if the counter values must be unique. This is especially relevant when SuperOffice CRM users allocate values themselves.
-* **Read only**: Specifies if SuperOffice CRM users can type values into the counter fields themselves or not.
+* **Read only**: Specifies whether SuperOffice CRM users can type values into the counter fields themselves.
 * **Allow blank**: specifies if an empty counter field is a permitted value. This is especially relevant when the counter values must be unique. If **Allow blank** is checked, this means that the requirement for unique values does not apply to empty fields.
 * **Last used**: shows when the counter field was last used.
 * **By - User ID**: shows who last used the counter field.

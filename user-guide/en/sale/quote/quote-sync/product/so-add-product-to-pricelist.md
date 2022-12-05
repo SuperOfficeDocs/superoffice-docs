@@ -63,7 +63,7 @@ In the list on the right you can add product information. This can include:
 
 [!include[Why set all fields when creating product](../includes/quote-config-product.md)]
 
-If you want to know which fields are displayed or not displayed, go to the **Settings** tab and click **Configure product** (see [Configure products][3]).
+If you want to know which fields are displayed, go to the **Settings** tab and click **Configure product** (see [Configure products][3]).
 </details>
 
 <!-- Referenced links -->

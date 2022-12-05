@@ -13,7 +13,7 @@ language: en
 
 If the attachment is the only part of the email you would like to keep for future reference, it is possible to archive an attachment to an email in your mail client inbox to SuperOffice CRM. Follow these steps:
 
-1. Select the email which contains the attachment(s) you want to archive.
+1. Select the email that contains the attachment(s) you want to archive.
 
 2. Click the **Archive email** button on the toolbar, and **Archive attachment(s)** from the dropdown.
 

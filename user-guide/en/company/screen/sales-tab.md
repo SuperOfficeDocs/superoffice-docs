@@ -19,7 +19,7 @@ The **Sales** section tab shows [sales connected to the company][2].
 
 [!include[Conf. columns](../../includes/tip-configure-columns.md)]
 
-Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that sale.
+Double-click a sale in the list to open the **Sale** screen with information about that sale.
 
 Click **Add** to create a new sale.
 

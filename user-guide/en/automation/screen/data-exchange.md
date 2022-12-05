@@ -65,7 +65,7 @@ This screen is used to edit the properties of a new or existing schedule used by
 | Element | Description |
 |---|---|
 | Name | Here you can enter the name of the schedule. |
-| ejScript/CRMScript | Here you can select which CRMScript will be activated by the schedule. |
+| ejScript/CRMScript | Here you can select the CRMScript which the schedule activates. |
 | Parameters | Parameters used by CRMScript or the Data Exchange agent. |
 | OK** (Alt-O): Click this button to save. |
 | Cancel | Click this button to cancel. |

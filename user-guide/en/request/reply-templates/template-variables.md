@@ -74,7 +74,7 @@ When editing reply templates and mailings, you can insert template variables by 
 | config.companyName | The name of the owner company |
 | config.defaultMail | The default mail-from address for this installation |
 | config.gfxUrl | The URL suffix for the GFX-files |
-| config.mailTag | The "Please include the ticket id..." phrase used as first line in outbound emails |
+| config.mailTag | The "Please include the ticket ID..." phrase used as first line in outbound emails |
 | config.panicMail | The email address where error messages will be sent |
 | config.smtpHost | The hostname for the outbound SMTP |
 | config.smtpPort | The port for the outbound SMTP |

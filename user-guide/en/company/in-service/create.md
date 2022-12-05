@@ -24,7 +24,7 @@ But you first need to register a company.
 
 3. Enter the phone number, fax number and address including country.
 
-4. In the **Main contact** list box, select who is to be the main contact for the company.
+4. In the **Main contact** list box, select who should be the main contact for the company.
 
 5. In the **Priority** list box, select the default [priority][2] to apply to new requests linked to this company. This setting will be overridden if a different priority is linked to the contact for a new request. Here you can choose between **Low**, **Medium** and **High** or any custom options.
 
@@ -44,7 +44,7 @@ But you first need to register a company.
     > [!TIP]
     > You can delete a domain by clicking **Delete** ( ![icon][img2] ) to the right of the row.
 
-11. Check **Link existing customers based on email address** if you want to check existing contacts against the domains you have entered. If there are any contacts with email addresses containing this domain name, and which are not already linked to another company, they will be automatically linked to the company.
+11. Check **Link existing customers based on email address** if you want to check existing contacts against the domains you have entered. If there are any contacts with email addresses that contain this domain name and that are not already linked to another company, they will be automatically linked to the company.
 
 12. In the **Notes** field, you can add any additional information about the company.
 

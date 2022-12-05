@@ -25,10 +25,10 @@ All companies and organisations have their own requirements with regard to the i
 ## What benefit do I get from the information that I enter in these fields?
 
 * Using the **Find** search function, you can search for the information you register in these fields and make dynamic selections.
-    **For example**: If you register the expiry date of the maintenance agreement that you have with customers, you can create a dynamic selection which shows the customers for which the agreement expires in less than one month.
+    **For example**: If you register the expiry date of the maintenance agreement that you have with customers, you can create a dynamic selection that shows the customers for whom the agreement expires in less than one month.
 
 * You can reuse the information from these fields in documents and emails using template variables. Each field that you add is given its own unique ID, which can be used in documents to merge customer-specific information.
-    **For example**: If you send email to customers which states that the maintenance agreement will expire soon, the template variable for expiry date can be used to set the correct expiry date in the message that is being sent.
+    **For example**: If you send email to customers who states that the maintenance agreement will expire soon, the template variable for expiry date can be used to set the correct expiry date in the message that is being sent.
 
 ## Where will the fields I create be displayed?
 
@@ -53,10 +53,10 @@ You can then add these fields to the **Company** screen:
 
 | Field name | Type | Description |
 |---|---|---|
-| Number of PCs | Number | A number field in which you can register the number of PCs. |
-| Number of employees | Number | A number field in which you can register the number of employees. |
+| Number of PCs | Number | A number field where you can register the number of PCs. |
+| Number of employees | Number | A number field where you can register the number of employees. |
 | Maintenance agreement | List | A list of the various types of maintenance agreement you offer. The list must [be created in the Lists screen][2]. |
-| The contract expires | Date | A date field in which you can register the expiry date for the contract. |
+| The contract expires | Date | A date field where you can register the expiry date for the contract. |
 | Application A; Application B; Application C | Checkbox | Three checkboxes where you can check the applications that the customer has purchased. |
 
 > [!NOTE]
@@ -70,8 +70,8 @@ You can then add these fields to the **Sale** screen:
 
 | Field name | Type | Description |
 |---|---|---|
-| Product | Long text | A text field in which you can type in the name of the product that was sold. |
-| Quantity | Number | A number field in which you can register the number of units sold. |
+| Product | Long text | A text field where you can type in the name of the product that was sold. |
+| Quantity | Number | A number field where you can register the number of units sold. |
 
 > [!TIP]
 > Here, you can also use a list field if you have created a list of the products that you sell.
@@ -83,7 +83,7 @@ You want the budget for a project to be easily visible to the project members.
 You can then add these fields to the **Project** screen:
 
 | Field name | Type | Description | Remarks |
-| Budget | Decimal | A number field in which you can enter a sum. | Choose for the field to be displayed on page 1 as described in [Select page 1 fields][1]. |
+| Budget | Decimal | A number field where you can enter a sum. | Choose for the field to be displayed on page 1 as described in [Select page 1 fields][1]. |
 
 <!-- Referenced links -->
 [1]: page-1-fields.md

@@ -11,9 +11,12 @@ language: en
 
 # Maximum number of fields
 
-The following limitations apply to the number of user-defined fields you can specify in each of the **Company**, **Contact**, **Project** and **Sale** tabs:
+The following limitations apply to the number of user-defined fields you can specify in each of the **Company**, **Contact**, **Project** and **Sale** tabs.
 
-* **Number**, **Date**, **Check box** and **List**: Maximum of 60 in all, of which four must be indexed.
-* **Short text** and **Unlimited date**: Maximum of 40 in all, of which four must be indexed.
-* **Long text**: Maximum of 9 in all, of which four must be indexed.
-* **Decimal**: Maximum of 10 in all, of which four must be indexed.
+* **Number**, **Date**, **Check box** and **List**: Maximum of 60 in all.
+* **Short text** and **Unlimited date**: Maximum of 40 in all.
+* **Long text**: Maximum of 9 in all.
+* **Decimal**: Maximum of 10 in all.
+
+> [!NOTE]
+> Four of the user-defined fields in each group must be indexed.

@@ -55,7 +55,7 @@ To add a tile with sales targets to a dashboard:
     * **Period** (only relevant if you selected **Sale date** above): Select year, quarter or month.
     * **Grouping**: Select **Compare to target**. If this option is not visible or is inactive, double-check that you have performed the steps above.
 
-11. Edit the formatting. Depending on which chart type you have selected, you have additional options under **Formatting**:
+11. Edit the formatting. Based on the chart type you selected, you have additional options under **Formatting**:
 
     * Big number: You can edit the colours used to display sales targets.
     * Gauge chart: Use the option **Mark target at** to set the sales target on the gauge chart.

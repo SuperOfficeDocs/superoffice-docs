@@ -66,7 +66,7 @@ Enter the following information in the **Details** tab:
 
 6. <!-- onsite-->Check the **Save to database** option to specify that documents that you create using this template will be saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab in SuperOffice CRM. If not, the document is not displayed in SuperOffice CRM once you have created it and you cannot access it from the program.
 
-7. Check the **Quote document type** option if the document is to be available as a quote template or order confirmation template. You select the quote document type in the list below.
+7. Check the **Quote document type** option if the document should be available as a quote template or order confirmation template. You select the quote document type in the list below.
 
     [!include[Link to quote template docs](../../includes/learn-quote-templates.md)]
 

@@ -15,7 +15,7 @@ language: en
 
 If your organisation uses an ERP system and has connected it to SuperOffice CRM, you have the option of synchronising companies (customers and suppliers) and projects between the ERP system and SuperOffice CRM.
 
-On the main **Company**, **Contact** and **Project** cards, the **ERP** tab is displayed, in which you can link a SuperOffice company to a customer/supplier in the ERP system. Contacts who are registered on the SuperOffice company can then be linked to individuals in the ERP system. Similarly, SuperOffice projects can be linked to projects in the ERP system. Once you have set up the link, data will be synchronised between the ERP system and SuperOffice CRM.
+On the main **Company**, **Contact** and **Project** cards, the **ERP** tab is displayed. Here you can link a SuperOffice company to a customer/supplier in the ERP system. Contacts who are registered on the SuperOffice company can then be linked to individuals in the ERP system. Similarly, SuperOffice projects can be linked to projects in the ERP system. Once you have set up the link, data will be synchronised between the ERP system and SuperOffice CRM.
 
 ## What would you like to do now?
 

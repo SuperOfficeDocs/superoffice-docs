@@ -30,7 +30,7 @@ language: en
 
 6. In the **Selection** tab, specify the [search criteria][2] you want for the selection.
 
-7. In the **Profile** tab, specify how the selection is to be presented:
+7. In the **Profile** tab, specify how the selection should be presented:
 
     [!include[Contents of Selection Profile tab](includes/selection-profile-tab.md)]
 

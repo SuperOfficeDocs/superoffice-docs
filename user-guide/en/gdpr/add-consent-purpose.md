@@ -35,10 +35,10 @@ language: en
 
         <details><summary>What should this text contain?</summary>
 
-        * why you need to store/process the customer's data
-        * which data you are storing/processing
-        * confirmation the data will not be shared with other parties and is stored securely
-        * information about how they can change or withdraw consent at any time
+        * Why you need to store/process the customer's data
+        * Which data you are storing/processing
+        * Confirmation the data will not be shared with other parties and is stored securely
+        * Information about how they can change or withdraw consent at any time
     </details>
 
 4. Click ![icon][img1] next to a field to add new or edit existing [translations][1] of the field texts.

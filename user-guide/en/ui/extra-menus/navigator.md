@@ -19,7 +19,7 @@ Do as follows:
 2. Hold the mouse pointer over the **Navigator** folder and click ![icon][1].
 3. Enter "Websites" in the **Label** field (maximum 14 characters).
 4. Optional: Click the button **Browse** to the right of the **URL to icon** field to select an icon for the navigator group. You can select an image that is already available in the database or upload an image. The image should have a size of 36x36 pixels, so that it is correctly shown in the navigator. You select the image and change the size in the same dialog box.
-5. Click **Position** to choose where the new navigator group is to be positioned (0 = top).
+5. Click **Position** to choose where the new navigator group should be positioned (0 = top).
 6. Click **OK**. The new navigator group is shown on the left. The navigator group is empty, so we must add website. In this case, we add Google.
 7. Hold the mouse pointer over the navigator group you have just created and click ![icon][img1]. The **Menu properties** screen appears.
 8. Enter "Google" in the **Label** field (maximum 20 characters).

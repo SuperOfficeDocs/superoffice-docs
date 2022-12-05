@@ -97,7 +97,7 @@ Click a field or element in the layout to edit its settings. The available setti
 
 ## Columns
 
-By default a tab has 2 columns, but you can use anything from 1-4 columns depending on you needs. Users with wide screens may prefer more columns, to be able to view and sort more data.
+By default a tab has 2 columns, but you can use anything from 1-4 columns depending on you needs. Users with wide screens may prefer more columns, to view and sort more data.
 
 **Limitations:**
 

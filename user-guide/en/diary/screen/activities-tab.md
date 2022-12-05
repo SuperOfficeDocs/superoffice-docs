@@ -13,7 +13,7 @@ language: en
 
 ![ Activities section tab (Diary) -screenshot][img4]
 
-The **Activities** section tab gives you an overview of activities and acts as a to-do list or task list. It contains, among other things, appointments and tasks that you have not yet completed and you can use it to temporarily store follow-ups which you have not yet allocated to a particular time or date.
+The **Activities** section tab gives you an overview of activities and acts as a to-do list or task list. It contains, among other things, appointments and tasks that you have not yet completed and you can use it to temporarily store follow-ups that you have not yet allocated to a particular time or date.
 
 The activities list does not change when you switch between the different tabs in the top section of the **Diary** screen.
 
@@ -37,7 +37,7 @@ The activities list columns contain the following information:
 Use the checkboxes below the activities list to specify which activities will be displayed. The options are **Follow-ups**, **Tasks** and **Documents**.
 
 > [!NOTE]
-> Tasks are follow-ups which do not usually have a defined time or duration.
+> Tasks are follow-ups that do not usually have a defined time or duration.
 
 ## Open activities in the activities list
 

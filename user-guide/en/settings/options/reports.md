@@ -13,7 +13,7 @@ language: en
 
 From the **Reports** tab in the **Options** screen, you can edit the names and descriptions of standard reports in SuperOffice CRM. In addition, you can choose which reports will be published (meaning made available to users). You also have the option of importing new reports.
 
-In the report list, you see the format of the reports (appearance), if a report is a standard report or not, the report type (content), and if it has been published. Click a report to display the report description at the bottom of the tab.
+In the report list, you see the format of the reports (appearance), whether a report is a standard report, the report type (content), and if it has been published. Click a report to display the report description at the bottom of the tab.
 
 ## Edit standard reports
 

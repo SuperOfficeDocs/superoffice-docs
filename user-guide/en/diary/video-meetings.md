@@ -34,12 +34,12 @@ If you have turned on email invitations for the participants of the follow-up, a
 
 ## Join video meetings
 
-There are several ways in which you can join a video meeting in SuperOffice:
+You can join a video meeting in SuperOffice in several ways:
 
-* click **Join meeting** in the **Follow-up** dialog (appointment)
-* click **Join meeting** in the side panel
-* click a browser notification (only available if the **Alarm** option has been activated.
-* right-click a video meeting in the diary and select **Join meeting**
+* Click **Join meeting** in the **Follow-up** dialog (appointment)
+* Click **Join meeting** in the side panel
+* Click a browser notification (only available if the **Alarm** option has been activated.
+* Right-click a video meeting in the diary and select **Join meeting**
 
 <!-- Referenced links -->
 [2]: screen/dialog-for-followups.md

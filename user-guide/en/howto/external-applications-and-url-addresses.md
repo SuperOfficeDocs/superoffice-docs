@@ -16,7 +16,7 @@ You can have shortcuts to external applications and URL addresses in SuperOffice
 > [!NOTE]
 > In this context, applications means any type of file, not just program files.
 
-Linked applications and URL addresses which you have access to in SuperOffice CRM can be displayed in the following places:
+Linked applications and URL addresses that you have access to in SuperOffice CRM can be displayed in the following places:
 
 * Under the **Other applications** option on the ![icon][img1] **Main menu**: Click the name of the required application/URL address to open it.
 
@@ -27,7 +27,7 @@ Linked applications and URL addresses which you have access to in SuperOffice CR
 > [!NOTE]
 > Tools must be configured in SuperOffice Settings and maintenance.
 
-* Via the **WWW** tab in the **Company** screen (configured in SuperOffice Settings and maintenance): URL addresses can be displayed at the top of the **WWW** tab in the form of links which you can click to open the appropriate address.
+* Via the **WWW** tab in the **Company** screen (configured in SuperOffice Settings and maintenance): URL addresses can be displayed at the top of the **WWW** tab in the form of links that you can click to open the appropriate address.
 * Via extra section tabs in the **Company** and **Project** screens: You can add a URL address as an extra section tab to the **Company**, **Contact**, **Project** and/or **Sale** screens. You then open the URL address by clicking the tab itself.
 
 <!-- Referenced links -->

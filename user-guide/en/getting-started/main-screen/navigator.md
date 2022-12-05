@@ -21,15 +21,15 @@ You move between the main sections of SuperOffice CRM and Service using the Navi
 | Button | Description | Read more |
 |:-:|---|---|
 | ![icon][img3] |Opens the **Dashboard** screen, containing reports and charts of your SuperOffice data.| [Dashboard][1] |
-| ![icon][img4] | Opens the **Company** screen, which is your window to the database containing all the companies you are in contact with. | [Companies][2] |
-| ![icon][img5] | Opens the **Contact** screen, which is your window to the database containing all your contacts. | [Contact][3] |
-| ![icon][img6] | Opens the **Diary** screen, which is a kind of advanced filofax. |  [Diary][4] |
+| ![icon][img4] | Opens the **Company** screen. This is your window to the database containing all the companies you are in contact with. | [Companies][2] |
+| ![icon][img5] | Opens the **Contact** screen. This is your window to the database containing all your contacts. | [Contact][3] |
+| ![icon][img6] | Opens the **Diary** screen. This is a kind of advanced filofax. |  [Diary][4] |
 | ![icon][img7] | Opens the **Sale** screen, containing information about all the sales. | [Sale][5] |
 | ![icon][img8] | Opens the **Project** screen, containing information about different projects. | [Project][6] |
 | ![icon][img9] | Opens the **Selection** screen, where you can enter companies, contacts, projects, sales, documents and follow-ups that you work with frequently into separate selections. Selections can, among other things, be used for mailings. | [Selection][7] |
 | ![icon][img10] | Opens your **inbox**, where you can read and reply to incoming messages.| [Inbox/Email][8] |
 | ![icon][img11] | Opens the **Chat** screen, where you can respond to inquiries sent via the chat feature on you company's web page. | [Chat][9] |
-| ![icon][img12] | Opens the **Reports** screen. In this report generator you will find a set of standard reports which you can use to print reports based on data from SuperOffice CRM. | [Reports][10] |
+| ![icon][img12] | Opens the **Reports** screen. In this report generator you will find a set of standard reports, which you can use to print reports based on data from SuperOffice CRM. | [Reports][10] |
 | ![icon][img13] | Opens the **Marketing** screen. From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Marketing][11] |
 | ![icon][img14] | Opens **Service**, a web-based system for handling customer requests. This application requires a Service User license. | [SuperOffice Service][12] |
 | ![icon][img15] | Opens a menu that gives you access to external applications and websites. The items available to you are defined in SuperOffice Settings and maintenance. | |

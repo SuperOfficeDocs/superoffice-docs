@@ -16,7 +16,7 @@ so.envir: onsite
 Advanced import settings include date format settings and delimiter characters. They are aimed at ensuring that SuperOffice interprets the import file correctly.
 
 > [!NOTE]
-> To be able to correctly map the fields from the import file, you may have to edit the settings for text qualifier, field delimiter and row delimiter.
+> To correctly map the fields from the import file, you may have to edit the settings for text qualifier, field delimiter and row delimiter.
 
 To specify advanced import settings:
 

@@ -31,14 +31,14 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 ## Create entries
 
 1. Open an entry as described above.
-2. Click **New entry**. This screen contains one element for each column in the table. Which columns are available depend on what was specified when the table was created.
+2. Click **New entry**. This screen contains one element for each column in the table. Available columns depend on what was specified when the table was created.
 3. Enter the required information.
 4. Click **OK**. The data entry is saved.
 
 ## Edit entries
 
 1. Open an entry as described above.
-2. Click **Edit**. This screen contains one element for each column in the table. Which columns are available depend on what was specified when the table was created.
+2. Click **Edit**. This screen contains one element for each column in the table. Available columns depend on what was specified when the table was created.
 3. Make the required changes in the information that is displayed.
 4. Click **OK**. The changes are saved.
 

@@ -55,7 +55,7 @@ Click the headings to learn how to fill in the fields in the various categories:
 
 Fill in the following information in the **Properties** category:
 
-* **Folder**: Select a folder in which to place the form or [create a new][19]
+* **Folder**: Select where to place the form or [create a new folder][19].
 
 * **Description**: Explain the purpose of this form. This text will only be visible internally.
 
@@ -158,7 +158,7 @@ Here you can define how a submitted form should be processed. Fill in the follow
 
 **Notify of submissions by creating requests**: Select this option to create a request for every form that is submitted. Enter a title and select the category and priority for the request. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the **Company** and **Contact** screens in SuperOffice CRM.
 
-**How should a form submission be processed?** Here you can define if the submitted forms should be processed automatically or not.
+**How should a form submission be processed?** Here you can define whether the submitted forms should be processed automatically.
 
 * **Automatically process all submissions. Create new contact if no match found**: All form submissions are processed automatically. There will no notifications of submitted forms.
 * **Manually if submitter is unknown. Automatically if submitter is known**: If the email address submitted in the form matches an email address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually. You will receive a notification (![icon][img11]). See [Process form submissions][6].

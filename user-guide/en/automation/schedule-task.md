@@ -45,8 +45,8 @@ Click a task in the list to edit its properties, such as when it was last execut
     * **Never**: The task will not be run unless you select **Start now**.
     * **Minute interval**: The task will be run at the selected interval (in minutes). Make sure the interval is longer than the time it takes to run the task.
     * **Hourly**: The task will be run hourly, at X minutes past the hour.
-    * **Week interval**: The task will be run weekly. Enter at which time and on which day(s) the task should be run.
-    * **Month interval**:The task will be run monthly. Enter at which time, on which day of the month and in which month(s).
+    * **Week interval**: The task will be run weekly. Enter the time and on which day(s) the task should be run.
+    * **Month interval**:The task will be run monthly. Enter the time, on which day of the month, and in which month(s).
     * **Once**: The task will be run at the set date and time.
     * **Run after schedule**: The task will be run when the selected scheduled task is complete. You can use this option to chain tasks together.
 

@@ -30,7 +30,7 @@ SuperOffice Marketing is concerned with outbound communication and forms. You ca
 
 ## SuperOffice Inbox
 
-SuperOffice contains a built-in email inbox in addition to plug-ins which link the Gmail, Microsoft Outlook or Lotus Notes mail clients to SuperOffice CRM and/or SuperOffice Service.
+SuperOffice contains a built-in email inbox in addition to plug-ins that link the Gmail, Microsoft Outlook or Lotus Notes mail clients to SuperOffice CRM and/or SuperOffice Service.
 
 [!include[Settings and maintenance](getting-started/about-admin.md)]
 

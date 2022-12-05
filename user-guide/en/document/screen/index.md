@@ -51,7 +51,7 @@ Here you enter the name of the sale, if any, that the document is linked to. You
 
 ### Type subject here
 
-Enter here the text to be used as a heading for the document. This is the text which is displayed in section tabs and reports where the document is listed.
+Enter here the text to be used as a heading for the document. This is the text that is displayed in section tabs and reports where the document is listed.
 
 ### Language
 

@@ -37,7 +37,7 @@ To create a new customer language:
 
 7. In the **Email domains** field, enter a list of email domains (comma-separated), such as: no, se, co.uk. If a new contact is registered automatically (by importing an email) and that contact has an email address that contains one of these domains, then the appropriate language is set for that contact.
 
-8. In the **FAQ folder** field, select which FAQ folder is to be the top-level folder in the FAQ hierarchy for SuperOffice Customer Centre visitors for the language in question. In other words, the FAQ hierarchy can be divided into several different language sections and then filtered by language. This gives better search results and only FAQs in the relevant language are shown to the user.
+8. In the **FAQ folder** field, select which FAQ folder should be the top-level folder in the FAQ hierarchy for SuperOffice Customer Centre visitors for the language in question. In other words, the FAQ hierarchy can be divided into several different language sections and then filtered by language. This gives better search results and only FAQs in the relevant language are shown to the user.
 
 9. Check **Use as default** if you want this to be the default language. This means that this language will be used when none of the other customer languages match the criteria or if no language has been defined for a customer.
 

@@ -23,7 +23,7 @@ When creating an email [from Microsoft Outlook][1] or [from Lotus Notes][2] you 
     * If you selected **Author**, you may search for the author of the document by starting to type the person's name in the dropdown and then select from the matches that appear.
     * If you selected **Template**, you may select a template from the dropdown.
 
-4. From the **Date range** dropdown, select the period in which the document(s) you are looking for was/were created.
+4. From the **Date range** dropdown, select the period when the document(s) you are looking for was/were created.
 
 5. In the list on the left-hand side, all the documents that meet the criteria you have entered, are shown. Select a document and click the arrow button between the lists ( ![icon][img2] ) to move it to the list on the right-hand side of the dialog.
 

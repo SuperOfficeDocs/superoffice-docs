@@ -17,7 +17,7 @@ To display the contents of an FAQ entry in the knowledge base:
 2. If the list contains several subfolders, go to the one you require.
 3. Click the FAQ entry you want. The **FAQ entry** screen appears and comprises two tabs:
     * **Overview**: Here you can see the question, answer and other details that make up the FAQ entry.
-    * **Comments**: This contains any feedback that customers have added via the customer centre. In the list you can view the comments and publish them (or not), if they are valuable additions to an FAQ entry.
+    * **Comments**: This contains any feedback that customers have added via the customer centre. In the list, you can view the comments and publish them (or not), if they are valuable additions to an FAQ entry.
 
 To edit the current FAQ entry, click the **Edit entry** button.
 

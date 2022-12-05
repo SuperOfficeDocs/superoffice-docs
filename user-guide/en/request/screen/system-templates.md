@@ -72,7 +72,7 @@ In the **Weekly stats** tab, you have the following options:
 | Option | Description |
 |---|---|
 | Reply template for weekly statistics | The reply template to use for weekly statistics.
-| Email addresses for weekly statistics | Here you can add one or more email addresses (comma-separated) to which to send weekly statistics for SuperOffice Service in the last week or month. |
+| Email addresses for weekly statistics | Here you can add one or more (comma-separated) email addresses to send weekly statistics for SuperOffice Service to. |
 
 ## How to change template
 

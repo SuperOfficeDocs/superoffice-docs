@@ -40,7 +40,7 @@ A static selection contains only those records you have added to it manually, un
     > [!TIP]
     > To remove entries from the selection, select the relevant entries in the **Result** tab, click the ![icon][img3] menu button in the lower left corner, and select ![icon][img2] **Remove from selection** button.
 
-11. In the **Profile** tab, specify how the selection is to be presented:
+11. In the **Profile** tab, specify how the selection should be presented:
     [!include[Contents of Selection Profile tab](includes/selection-profile-tab.md)]
 
 12. Click **OK**. The selection is saved, and you are returned to the **List selections** screen.

@@ -17,4 +17,4 @@ To print information about a company:
 
 1. Click the **Task** button and select **Print**.
 
-1. In the window which displays the contents to be printed, click **Print**.
+1. In the window that displays the contents to be printed, click **Print**.

@@ -21,7 +21,7 @@ It is possible to archive an email (including any attachments) in your mail clie
 
 4. In the **Subject** field, the subject from the email is automatically inserted. However, you may enter any subject text that you would like to be shown in the **Activities** section tab of SuperOffice CRM.
 
-5. In the **Company** field, which is mandatory, you may search for a company by starting to type the company name and then select from the matches that appear.
+5. In the mandatory **Company** field, you may search for a company by starting to type the company name and then select from the matches that appear.
 
 6. In the **Contact** field, you may use the dropdown to select one of the contacts belonging to the company you selected in the previous step. You can also search by starting to type the contact name.
 

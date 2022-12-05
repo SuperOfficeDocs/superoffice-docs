@@ -41,7 +41,7 @@ The default help text for the (field name) field is shown here. This text is dis
 
 ### Editable/Mandatory
 
-Check here if the users are to be able to edit the field and/or to be obliged to fill out the field. The field will be automatically set to **Editable** if you select **Mandatory**.
+Check here if the users are to edit the field and/or to be obliged to fill out the field. The field will be automatically set to **Editable** if you select **Mandatory**.
 
 > [!NOTE]
 > In some cases, these alternatives are locked for functional reasons.

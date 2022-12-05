@@ -51,7 +51,7 @@ The activities list columns contain the following information:
 
 * The other columns in the activities list show various information about the activity. If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
 
-The activities displayed depend on which of the following checkboxes you have selected at the bottom of the section tab:
+The activities displayed depend on which checkboxes you select at the bottom of the section tab:
 
 * Follow-ups (appointments, tasks and phone calls)
 * Documents (email, letters, and other documents)

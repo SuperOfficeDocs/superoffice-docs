@@ -24,7 +24,7 @@ To find companies that are registered in the system:
 
 Once you have a list of companies, you will be in a screen containing the following sections:
 
-* **Criteria**: Here you enter search criteria to filter out which companies you wish to see.
+* **Criteria**: Here you enter search criteria to filter the companies.
 * **Result**: This contains all the companies that match your search criteria.
 * **Preview**: Displays the requests and contacts linked to the company selected under **Result**.
 

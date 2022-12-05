@@ -3,7 +3,7 @@
 
 2. Select the currency of the sale (if this option is activated).
 
-3. In the **Company** field, enter the company the sale is to be linked to.
+3. In the **Company** field, enter the company to link the sale to.
 
 4. Enter a contact at the company, if relevant, in the **Contact** field.
 

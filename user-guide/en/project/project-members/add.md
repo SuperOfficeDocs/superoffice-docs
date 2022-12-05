@@ -64,7 +64,7 @@ You do this as follows:
 
 3. Right-click the contacts and select **Add to sale** or **Add to project** on the menu which appears.
 
-4. In the **Sale** or **Project** field, specify to which sale/project the contacts will be added. Do this either by clicking the arrow and selecting the required sale/project in the displayed list box, or by typing in the whole or the beginning of the sale/project name.
+4. In the **Sale** or **Project** field, specify sale/project the contacts will be added to. Do this either by clicking the arrow and selecting the required sale/project in the displayed list box, or by typing in the whole or the beginning of the sale/project name.
 
 5. In the **Sales role** or **Function** field, specify the sales role/function each person has in the sale/project. Click the arrow to display a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.
 

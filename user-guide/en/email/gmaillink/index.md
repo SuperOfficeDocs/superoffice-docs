@@ -11,7 +11,7 @@ language: en
 
 # SuperOffice Gmail Link
 
-SuperOffice Gmail Link is a plug-in which links the Google Gmail client with SuperOffice CRM and/or SuperOffice Service. This means that among other things, you can:
+SuperOffice Gmail Link is a plug-in that links the Google Gmail client with SuperOffice CRM and/or SuperOffice Service. This means that among other things, you can:
 
 * Archive emails and attachments as documents in SuperOffice CRM.
 * Create activities in SuperOffice CRM based on emails in Gmail.

@@ -91,7 +91,7 @@ For each priority you can define one or more escalation levels, so that the syst
 | Request owner | If you check here, the reply template specified in the field to the right is sent to the owner of the request when this escalation level occurs. Select the required reply template in the list. |
 | Category administrator | If you check here, the reply template specified in the field to the right is sent to the category administrator when this escalation level occurs. Select the required reply template in the list. |
 | Others | If you check here, the reply template specified in the field to the right is sent to the email address(es) entered in the field below. Select the required reply template in the list. |
-| Email address | Here you enter the email address which the reply template in the **Others** field is to be sent to. You can enter several addresses by separating them with commas. |
+| Email address | Here you enter the email address which the reply template in the **Others** field should be sent to. You can enter several addresses by separating them with commas. |
 
 ## Delete escalation level
 

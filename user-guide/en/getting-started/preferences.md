@@ -28,7 +28,7 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 | ![icon][img2] | Diary | Here you enter default settings for the diary and appointments, such as the default start time for the working day and the duration of alarms. |
 | ![icon][img3] | Functions | Here you enter various general settings and functions, including if to display a Tip of the Day when you start SuperOffice CRM (**Show Tips on Startup**). |
 | ![icon][img4] | Email | Here you specify settings relating to email and fax functionality in SuperOffice CRM, for example, the email client you have installed. |
-| ![icon][img5] | Notifications via popup; Notifications via email, Notifications via SMS | Here you specify settings for request notifications. |
+| ![icon][img5] | Notifications via popup; Notifications via email; Notifications via SMS | Here you specify settings for request notifications. |
 | ![icon][img6] | Contact | Here you specify settings for contacts. |
 | ![icon][img7] | Request | Here you specify settings for requests. For notification settings, see "Notifications via..." above. |
 | ![icon][img8] | Sale | Here you specify settings for the sales function in SuperOffice CRM. |

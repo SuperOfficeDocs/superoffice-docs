@@ -15,7 +15,7 @@ language: en
 
 It is possible to phone, send faxes and send emails direct from SuperOffice CRM.
 
-* To send email, you must have an email system which is certified by SuperOffice.
+* To send email, you must have an email system that is certified by SuperOffice.
 
 * To [dial direct from SuperOffice CRM][2], your system must be correctly configured.
 

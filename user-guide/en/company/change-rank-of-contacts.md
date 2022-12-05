@@ -27,7 +27,7 @@ When you create a new contact, they appear at the bottom of the **Contacts** sec
 2. Select the required contact.
 3. Right-click and choose **Shift Up/Shift Down** until the contact is in the desired position.
 
-The changes you make here define the default ranking, which means that they will not be reset the next time you click on the column heading.
+The changes you make here define the default ranking. They will not be reset the next time you click on the column heading.
 
 ## Related topics
 

@@ -31,7 +31,7 @@ Assuming you already have a script to use as a basis, a script-based selection i
 
 6. In the **Selection** tab, paste the script into the text field.
 
-7. In the **Profile** tab, specify how the selection is to be presented:
+7. In the **Profile** tab, specify how the selection should be presented:
 
     [!include[Contents of Selection Profile tab](includes/selection-profile-tab.md)]
 

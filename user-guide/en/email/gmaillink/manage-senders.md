@@ -17,7 +17,7 @@ You can easily look up information about a sender in SuperOffice CRM.
 
 1. In the Gmail inbox, open an email.
 2. Click the arrow button next to the sender's name and email address in the email header.
-3. What happens next, depends on if the sender's email address is found or not found in SuperOffice:
+3. What happens next, depends on whether the sender's email address is found in SuperOffice:
     * If the email address is found on a company/contact, the company/contact card is displayed.
     * If the email address is registered on more than one company/contact, a dialog will appear, listing the alternatives and allowing you to choose one.
     * If the email address is not registered in your SuperOffice client, you will be given the possibility of adding it.
@@ -30,7 +30,7 @@ To add the sender's email address to a new or existing contact in SuperOffice:
 2. Click **Add to SuperOffice**. The dialog **Add email address to SuperOffice** opens.
 3. Here you have the following options:
     * **Could it be one of these?** SuperOffice will try to match the sender with existing contacts in the database. Click one of the suggested contacts if it matches the sender.
-    * Search: Search for a company or contact to which you want to add the sender's email address.
+    * Search: Search for a company or contact you want to add the sender's email address to.
     * **Create new company and contact**: Click this button if the sender is a new contact from a company not previously registered in SuperOffice. Fill in the relevant fields and click **Save**.
 4. Click **Save**.
 
@@ -46,7 +46,7 @@ If the sender of the email or attachment is not listed in SuperOffice CRM, a war
 1. Click the warning. The dialog **Add email address to SuperOffice** opens.
 2. Select one option:
     * **Could it be one of these?** SuperOffice will try to match the sender with existing contacts in the database. Click one of the suggested contacts if it matches the sender.
-    * Search: Search for a company or contact to which you want to add the sender's email address.
+    * Search: Search for a company or contact you want to add the sender's email address to.
     * **Create new company and contact**: Click this button if the sender is a new contact from a company not previously registered in SuperOffice. Fill in the relevant fields and click **Save**.
 3. Click **Save**.
 

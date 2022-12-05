@@ -11,7 +11,7 @@ language: en
 
 # Perform tasks using selections
 
-One of the objects of defining selections is to be able to perform different tasks for the members or some of the members of the selection. In addition, these tasks are available from the list of results in the **Find** screen.
+One of the objects of defining selections is to perform different tasks for the members or some of the members of the selection. In addition, these tasks are available from the list of results in the **Find** screen.
 
 ![icon][img1]
 

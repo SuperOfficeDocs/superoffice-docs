@@ -39,9 +39,9 @@ Now you need to set up a Facebook account in SuperOffice Service.
 
 1. If you want to import messages from a page, enter that page's ID in the **Page ID** field.
 
-1. In the **Category** list box, select to which category messages from the Facebook application should belong.
+1. In the **Category** list box, select the category that messages from the Facebook application should belong to.
 
-1. In the **Priority** list box, select which priority to assign to requests from this Facebook application.
+1. In the **Priority** list box, select the priority to assign to requests from this Facebook application.
 
 1. In the **Interval** list box, select how often SuperOffice Service is to get messages from this Facebook application.
 

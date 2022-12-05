@@ -23,7 +23,7 @@ To specify number allocation for a field:
 
 5. Check **Allow blank** if you want an empty counter field to be a permitted value. This is especially relevant when the counter values must be unique. If **Allow blank** is checked, this means that the requirement for unique values does not apply to empty fields.
 
-6. Check **Read only** if you do not want SuperOffice CRM users to be able to type values into the **Number** field themselves.
+6. Check **Read only** if you do not want SuperOffice CRM users to type values into the **Number** field themselves.
 
 7. Check **Allocate** if you want to use the automatic counter function, so that the system enters values in the **Number** field for you.
 

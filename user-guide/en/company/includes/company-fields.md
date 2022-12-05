@@ -15,7 +15,7 @@
 
 8. In the **Our Contact** field, your name will be displayed automatically. Clicking the arrow brings up a list box where you can choose the name of someone else from your organization.
 
-9. In the **Category** field, select the category to which the company belongs, from a predefined list of categories. Click the arrow to show the category list. This field is mandatory – if you leave it blank you will not be able to save the company.
+9. In the **Category** field, select the category the company belongs to from a predefined list of categories. Click the arrow to show the category list. This field is mandatory – if you leave it blank you will not be able to save the company.
 
 10. The **Code** field automatically suggests a code for the company that you are creating (after you click **Save**). The code is based on the company name. However, you can enter a different code.
 

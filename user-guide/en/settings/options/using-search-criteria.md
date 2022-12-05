@@ -17,7 +17,7 @@ You can add or edit search criteria in, for example, the **Find** dialog, the **
 
 ## Add search criteria
 
-In the list box, select the field you want to search for information in. The fields displayed depend on what the criteria list is to be used for. There are different types of fields (click to expand):
+In the list box, select the field you want to search for information in. The fields displayed depend on what the criteria list is used for. There are different types of fields (click to expand):
 
 * <details><summary>Text field</summary>
 

@@ -113,7 +113,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 19. You have now specified that you want to find companies with sales above a specific amount, within a specific date range and that have status **Sold**.
 
-20. Click the **Find** button below the **Criteria** tab..
+20. Click the **Find** button below the **Criteria** tab.
 
 21. All the results which match the search criteria you have specified are displayed in the **Results** tab.
 
@@ -157,7 +157,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 12. You have now specified that you want to find companies in Denmark for which you are the contact.
 
-13. Click the **Find** button below the **Criteria** tab..
+13. Click the **Find** button below the **Criteria** tab.
 
 14. All the results which match the search criteria you have specified are displayed in the **Results** tab.
 
@@ -190,7 +190,7 @@ Let's assume you are the manager of a company and want to find out what types of
 
 7. Click the **Select items** field to the right of the **Is one of** field, and select **Sold**. You have now specified that you want to search for completed sales.
 
-8. Click the **Find** button below the **Criteria** tab..
+8. Click the **Find** button below the **Criteria** tab.
 
 9. All the results which match the search criteria you have specified are displayed in the **Results** tab.
 
@@ -232,7 +232,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 13. You have now specified that you want to find projects you have participated in, from a specific date up to today.
 
-14. Click the **Find** button below the **Criteria** tab..
+14. Click the **Find** button below the **Criteria** tab.
 
 15. All the results which match the search criteria you have specified are displayed in the **Results** tab.
 
@@ -285,7 +285,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 17. Check **Yes**. You have now specified that you want to find follow-ups set as **Completed**.
 
-18. Click the **Find** button below the **Criteria** tab..
+18. Click the **Find** button below the **Criteria** tab.
 
 19. All the results which match the search criteria you have specified are displayed in the **Results** tab.
 

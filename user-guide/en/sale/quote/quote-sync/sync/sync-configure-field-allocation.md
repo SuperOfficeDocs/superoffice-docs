@@ -27,7 +27,7 @@ When synchronising data between SuperOffice and ERP systems, must specify which 
 1. In the list below, select the synchronisation direction and which SuperOffice field each ERP field should be allocated to (synchronised with). You can also choose if the fields should be displayed in searched and the **ERP** tab.
     The list consists of the following columns:
 
-    * **Show in Search**: Check here if this field is to be displayed in search results.
+    * **Show in Search**: Check here if this field should be displayed in search results.
     * **ERP Field**: Shows the name of the field in the ERP system.
     * **Direction**: Here you select the  direction(s) for the synchronisation.
 

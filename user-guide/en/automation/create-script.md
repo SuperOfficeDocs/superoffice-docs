@@ -25,7 +25,7 @@ To create or edit a script:
     * To edit an existing script: Click the script name.
 
 1. In the **Information** tab, edit or enter data about the script:
-    * **Folder**: Select the folder in which you want to save the script.
+    * **Folder**: Select the folder you want to save the script in.
     * **Name**: The name of the script
     * **Description**: A description of the script.
     * **Include name**: This is the unique name for this script, which you may use to include the script in another script, using the "include" function.

@@ -42,7 +42,7 @@ The time zone list is sorted by country. At the top of the list is the name of t
 ## Handy hints on time zones
 
 * If you hover the mouse pointer over the time zone list, a tooltip comes up, containing details of which cities (in the relevant country) are in the time zone you have selected.
-* If you hover the mouse pointer over an appointment in the Diary which has been created in a different time zone from the default for your SuperOffice database, a tooltip is displayed containing information about the time of the appointment in your time zone and in the time zone of the person who created it.
+* If you hover the mouse pointer over an appointment in the Diary that has been created in a different time zone from the default for your SuperOffice database, a tooltip is displayed containing information about the time of the appointment in your time zone and in the time zone of the person who created it.
 
 <!-- Referenced links -->
 [1]: ../diary/index.md

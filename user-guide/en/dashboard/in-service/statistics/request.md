@@ -16,7 +16,7 @@ This screen is used to create statistics based on the requests stored in the sys
 In the **Settings** tab, set the following parameters:
 
 1. Set the date interval:
-    * **From date** and **To date**: In these fields, you must enter the date interval for which you want statistics. Set a date by clicking the calendar icon (![icon][img1]) or by typing the date into the field. To select today's date, click ![icon][img2].
+    * **From date** and **To date**: In these fields, you must enter the date interval you want statistics for. Set a date by clicking the calendar icon (![icon][img1]) or by typing the date into the field. To select today's date, click ![icon][img2].
 
 2. **Choose statistics**: In the first column you choose which value(s) you would like to measure. You can measure more than one value by holding down the **CTRL** key while you click the required type. Statistics are based on different measurable values, listed in the left column, and different summing options, listed in the right column. By making multiple selections, you can achieve all possible combinations of selected elements in the left and right columns. Among the different measurable values are the following:
 

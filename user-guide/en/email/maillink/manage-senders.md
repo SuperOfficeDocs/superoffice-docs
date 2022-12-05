@@ -21,7 +21,7 @@ You can use the **Search for sender** button to search for  the precise email ad
 
 2. Click the **Search for sender** button.
 
-3. What happens next, depends on if the sender is found or not found in your SuperOffice client:
+3. What happens next, depends on whether the sender is found in your SuperOffice client:
     * If the email address is found on a company/contact, the company/contact opens in your SuperOffice client.
     * If the email address is registered on more than one company/contact, a dialog will appear, listing the alternatives and allowing you to choose one.
     * If the email address is not registered in your SuperOffice client, you will be given the possibility of adding it.

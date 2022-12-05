@@ -13,7 +13,7 @@ language: en
 
 When you consider that an activity is finished, you can mark it as completed.
 
-**Completed** is a toggle option, which means that you activate and deactivate it using the same menu option or shortcut key. A tick specifies that the activity is **Completed**.
+**Completed** is a toggle option, which you activate and deactivate using the same menu option or shortcut key. A tick specifies that the activity is **Completed**.
 
 To change the status:
 

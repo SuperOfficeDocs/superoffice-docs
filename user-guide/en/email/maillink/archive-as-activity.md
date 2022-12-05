@@ -29,9 +29,9 @@ If you receive an email requesting you to take action, you can convert the email
 
 8. In the **Description** field,the subject and message body is automatically inserted. However, you may enter any text that you would like to be shown in **Task** dialog of SuperOffice CRM.
 
-9. In the **Do by** field, today's date is automatically inserted. However, you may click the calendar icon and select another date by which the activity should be completed.
+9. In the **Do by** field, today's date is automatically inserted. However, you may click the calendar icon and select another date the activity should be completed by.
 
-10. In the **Time** field, edit the time of day by which the activity should be completed.
+10. In the **Time** field, edit the time of day the activity should be completed by.
 
 11. In the **Type** dropdown, you may select one of the available activity types.
 
