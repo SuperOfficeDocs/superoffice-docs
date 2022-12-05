@@ -6,7 +6,7 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: project
 so.topic: reference
-so.audience: cog
+so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: en
 ---
