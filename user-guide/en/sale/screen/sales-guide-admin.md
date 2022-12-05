@@ -7,6 +7,7 @@ so.date: 06.29.2022
 keywords: sale, guide
 so.topic: reference
 so.audience: cog
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
