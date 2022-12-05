@@ -11,7 +11,7 @@ language: en
 
 # Preferences
 
-In the **Preferences** screen you can set preferences for the whole system (globally), one database, one user group or an individual user (see [Levels for preference settings][2]). Preferences that can only be set on a global (system) level, can be found in the [Global preferences][1] tab.
+In the **Preferences** screen you can set preferences for the whole system (globally), one database, one user group or an individual user (see [Levels for preference settings][2]). Preferences that can be set only on a global (system) level, are located in the [Global preferences][1] tab.
 
 In addition, you can configure video meetings in the [Video meetings][4] tab and document library in the [Document library][5] tab.
 

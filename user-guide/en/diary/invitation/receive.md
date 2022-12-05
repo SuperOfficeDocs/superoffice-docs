@@ -76,7 +76,7 @@ Click **Close** to close the dialog.
 
 * If you first accept an invitation and then delete the follow-up from the diary, it is counted as though you declined it. The follow-up disappears from the Diary and your name is marked with a red cross ![icon][img4] in the **Appointment**, **Task** or **Phone Call** dialog of the person who sent the invitation. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
 
-* If you accept an invitation and subsequently open the dialog for follow-ups, you are not able to edit any information about the follow-up except for the **Priority**, **Completed** and **Alarm** fields. Other changes can only be made by the person who sent the invitation.
+* If you accept an invitation and subsequently open the dialog for follow-ups, you cannot edit any information about the follow-up except for the **Priority**, **Completed** and **Alarm** fields. Other changes can be made only by the person who sent the invitation.
 
 * If you assign a follow-up to another user (change owner), and the recipient declines it, this works as described under [Receive responses to invitations][4].
 

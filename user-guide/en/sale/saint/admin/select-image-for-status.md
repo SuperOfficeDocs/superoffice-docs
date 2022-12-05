@@ -39,7 +39,7 @@ The images are used as watermarks for the company card, contact card or project 
 
 1. Select image. Do one of the following:
 
-    * Click one of the images shown under **Images** (images are only displayed here if they have been added to the database). The image is displayed in the field on the right.
+    * Click one of the images shown under **Images** (images are displayed only here if they have been added to the database). The image is displayed in the field on the right.
 
     * Click **Add**, click **Upload** file, browse to the image you require and click **Open**. Enter a description of the image. Click **Save**.
 

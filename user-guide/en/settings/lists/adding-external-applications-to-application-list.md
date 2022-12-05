@@ -65,22 +65,22 @@ When you add an item to the **GUI - Application** list in Settings and maintenan
 
 1. In the **Work folder** field, you can specify which folder you want to be the current one when the program runs. Type in the path manually. You normally leave this field empty.
 
-1. In the **Show** list box, select the required option. This list box only appears if you have selected **Menu item** under **Add as**.
+1. In the **Show** list box, select the required option. This list box appears only if you have selected **Menu item** under **Add as**.
 
     * **Toolbox menu**: the user can access the application by clicking the **Tools** button (![icon][img2]) in the Navigator or by selecting **Other applications** on the main menu (![icon][img1]) in SuperOffice CRM.
     * **View menu**: the user can access the application using the **Other Applications** option on the **View** menu in SuperOffice CRM.
 
-1. In the **Run when** list box, choose how the application will be run. This list box only appears if you have selected **Event** under **Add as**.
+1. In the **Run when** list box, choose how the application will be run. This list box appears only if you have selected **Event** under **Add as**.
 
     * **SuperOffice CRM starts**: the application runs when SuperOffice CRM starts.
     * **SuperOffice CRM exits**: the application runs when SuperOffice CRM is closed down.
     * **Local update**: the application runs when Travel is used.
 
-1. Check **Wait for application to finish** if you want SuperOffice CRM to wait for the external application to quit before closing. If you do not check this box, you can close SuperOffice CRM without closing the external application. This list box only appears if you have selected **Event** under **Add as**.
+1. Check **Wait for application to finish** if you want SuperOffice CRM to wait for the external application to quit before closing. If you do not check this box, you can close SuperOffice CRM without closing the external application. This list box appears only if you have selected **Event** under **Add as**.
 
 1. Under **Start-up mode**, specify the type of window the application will start in – Maximised, Minimised or Restored.
 
-1. In the **Icon** field, choose the icon to display for the application in the Navigator in SuperOffice CRM (see step 7 concerning the **Show** list box). This list box only appears if you have selected **Button** under **Add as**.
+1. In the **Icon** field, choose the icon to display for the application in the Navigator in SuperOffice CRM (see step 7 concerning the **Show** list box). This list box appears only if you have selected **Button** under **Add as**.
 
     * **From library**: Select one of the available icons in the list.
     * **Use program icon**: Use the default icon for the selected application.

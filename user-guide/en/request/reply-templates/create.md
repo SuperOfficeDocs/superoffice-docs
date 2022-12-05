@@ -38,7 +38,7 @@ To create a new reply template:
     * **Include plain text**: When you create an HTML version, it is always a good idea to also create a plain text version for email programs that do not support HTML. The email program then automatically selects the correct format. If you do not check this option, the text underneath is ignored. It is however saved, so you can choose to include it later.
 
     > [!NOTE]
-    > If you include both plain text and HTML text, the receiving email program chooses the "best" version, which will normally be HTML. Remember that messages sent without a plain text version will only be readable by email programs that support HTML.
+    > If you include both plain text and HTML text, the receiving email program chooses the "best" version, which will normally be HTML. Remember that messages sent without a plain text version are readable only by email programs that support HTML.
 
     * In the large field in the centre of the screen, enter the reply template content itself. It is always this text that is used when you [add reply templates to messages][4].
     * **Spell check**: Click here to spell check the message in the language specified in the **Language** list.

@@ -32,7 +32,7 @@ In the **Details** tab, you have the following options:
     > [!NOTE]
     > The user ID should not contain too many characters, since it is displayed in the ID columns in SuperOffice CRM, and space in these columns may be limited.
 
-* **Nick name**: The nick name is the name visible to other users of SuperOffice, and is only used for SuperOffice Service users. You can edit the suggested nick name for the user (if you do not want to use the automatically generated name).
+* **Nick name**: The nick name is the name visible to other users of SuperOffice, and is used for SuperOffice Service users only. You can edit the suggested nick name for the user (if you do not want to use the automatically generated name).
 
 * **Authentication**: If multiple authentication methods are available, you can select an authentication method here.
 

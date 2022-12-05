@@ -21,7 +21,7 @@ You can specify the period (duration in days) for the following [counters][1]:
 
 [!include[Define counter](../../includes/def-counter.md)]
 
-You can specify up to three different periods, so that you can choose between shorter or longer periods for the various SAINT criteria. For example: If you set **Period 1** to 30 days and **Period 2** to 90 days, you will for example be able to choose between the SAINT criteria "Number of sales last 30 days" AND "Number of sales last 90 days".
+You can specify up to three different periods, so that you can choose between shorter or longer periods for the various SAINT criteria. For example: If you set **Period 1** to 30 days and **Period 2** to 90 days, you can for example choose between the SAINT criteria "Number of sales last 30 days" AND "Number of sales last 90 days".
 
 1. Open the **SAINT** screen.
 

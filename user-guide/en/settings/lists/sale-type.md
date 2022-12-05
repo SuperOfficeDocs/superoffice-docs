@@ -37,7 +37,7 @@ When you add an item to the **Sale – Type, Stages, Quote** list, the **Edit li
 5. Enter information in the **Stages**, **Quote attachments**, **Quote defaults** and **Quote approval** tabs. This is described below.
 
     > [!NOTE]
-    > the **Quote attachments**, **Quote defaults** and **Quote approval** tabs are only relevant if you have access to the quotes module.
+    > the **Quote attachments**, **Quote defaults** and **Quote approval** tabs are relevant only if you have access to the quotes module.
 
 6. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 

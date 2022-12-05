@@ -31,9 +31,9 @@ language: en
 
 1. In the list **Track time as**, choose how to report time usage:
 
-    * in queue and awaiting processing
-    * at internal decision stage
-    * at external decision stage
+    * In queue and awaiting processing
+    * At internal decision stage
+    * At external decision stage
 
 1. Click **Save**. The request status is created.
 

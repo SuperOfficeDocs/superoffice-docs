@@ -44,7 +44,7 @@ To create a new customer language:
 10. Click **OK**. The customer language is created and you have the option of creating [external categories][1].
 
     > [!TIP]
-    > It is possible to use customer language for things other than language, if you only have operations in one country for example. One option is to create different departments, industry sections or trades, such as Building & Construction, Bathrooms, Interiors and Gardens. Then SuperOffice Customer Centre, the FAQ hierarchy and the reply templates can reflect the sector that is relevant for particular customers. The abbreviation that is used for the department must reflect the folder name in the folder \\templates. For example: Building & Construction = BC.
+    > It is possible to use customer language for things other than language, if you have operations only in one country for example. One option is to create different departments, industry sections or trades, such as Building & Construction, Bathrooms, Interiors and Gardens. Then SuperOffice Customer Centre, the FAQ hierarchy and the reply templates can reflect the sector that is relevant for particular customers. The abbreviation that is used for the department must reflect the folder name in the folder \\templates. For example: Building & Construction = BC.
 
 ## What would you like to find out more about?
 

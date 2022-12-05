@@ -15,7 +15,7 @@ One of the objects of defining selections is to perform different tasks for the 
 
 ![icon][img1]
 
-The **Task** button contains tasks such as sending e-mails, mass-editing and exporting. Which tasks are displayed depends on what type of records the selection consists of (what is selected in the **Selection of** field) and which tab is active.
+The **Task** button contains tasks such as sending emails, mass-editing and exporting. Which tasks are displayed depends on what type of records the selection consists of (what is selected in the **Selection of** field) and which tab is active.
 
 > [!NOTE]
 > Certain tasks described here are not available to all user levels. A description of the different user levels can be found in the **Help for SuperOffice Settings and maintenance**. Some tasks are only available for specific tabs.

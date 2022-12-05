@@ -11,7 +11,7 @@ language: en
 
 # Add an email template
 
-Email templates can be used when creating new e-mails in the SuperOffice inbox, and when sending quotes, order confirmations and privacy confirmations.
+Email templates can be used when creating new emails in the SuperOffice inbox, and when sending quotes, order confirmations and privacy confirmations.
 
 Templates are displayed as items in the **Email - Template** list and you can add new templates to SuperOffice CRM by entering it as an item in the list.
 
@@ -52,7 +52,7 @@ Enter the following information in the **Details** tab:
 
 2. Enter the title of the email in the **Subject** field. You can also add the subject in other languages by clicking ![icon][img1] (see [Translation]][1]).
 
-3. Select **Use signature in new email** to add your signature to new e-mails. If you do not have a personal signature, the system signature will be used.
+3. Select **Use signature in new email** to add your signature to new emails. If you do not have a personal signature, the system signature will be used.
 
 4. Select **Show email dialog** to display the **New email** dialog when you create a new email based on this template. In this dialog you can enter data such as company, contact, and project, which is needed if the email template contains template variables.
 

@@ -34,7 +34,7 @@ To create a new category:
     * **Category administrator**: Select who will be responsible for the requests in this category. In the **Assignment method** tab, you can specify that requests are to be assigned to the category manager if no other members of the category are available. Normally, the role of category administrator should be filled by a departmental manager.
 
         * **Show category in status view**: If you check here, this category will be displayed under **Status** on the **Dashboard**.
-        * **Only members have access**: If you check here, the category will only be accessible to members of the category.
+        * **Only members have access**: If you check here, the category is accessible only to members of the category.
         * **Send notification to members about new request**: If you check here, all members of the category will receive notification of new requests in this category.
 
     * **Send notification about new request to email address**: Enter an email address.
@@ -45,7 +45,7 @@ To create a new category:
 
     * **Default status for new request**: Here you choose the default status to appear in the **Request** screen. This setting will override [user preferences][1], unless you select **User-defined**.
 
-    * **Merge outbound e-mails for this category with reply template**: Select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance.
+    * **Merge outbound emails for this category with reply template**: Select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance.
 
         > [!NOTE]
         >  In Service, go to the **Reply template** tab to set this property.

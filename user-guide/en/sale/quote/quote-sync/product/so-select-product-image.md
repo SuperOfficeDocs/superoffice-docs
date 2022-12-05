@@ -21,7 +21,7 @@ To select a picture for a product in **SuperOffice products**:
 
 1. Click **Change image** at the bottom of the image screen. The **Select image** dialog opens.
 
-1. Click one of the images shown under **Images** (images are only displayed here if they have been added to the database). The image is displayed in the field on the right.
+1. Click one of the images shown under **Images** (images are displayed only here if they have been added to the database). The image is displayed in the field on the right.
 
 1. Click **OK** to close the dialog. The image is added to the database and displayed in the field on the right.
 

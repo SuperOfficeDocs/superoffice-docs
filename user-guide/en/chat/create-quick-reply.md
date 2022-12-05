@@ -11,7 +11,7 @@ language: en
 
 # Create a quick reply
 
-A quick reply is a pre-defined text that you can use in a chat with a customer. Using quick replies will save you time, since you do not have to type out typical replies like "I will check that and get back to you shortly" or "I need your customer ID to process your request". The quick replies you create will only be available to you.
+A quick reply is a pre-defined text that you can use in a chat with a customer. Using quick replies will save you time, since you do not have to type out typical replies like "I will check that and get back to you shortly" or "I need your customer ID to process your request". The quick replies you create are available only to you.
 
 To create a quick reply:
 

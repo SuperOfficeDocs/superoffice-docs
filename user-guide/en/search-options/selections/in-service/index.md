@@ -13,9 +13,9 @@ language: en
 
 You use selections to create a set of records that you want to work with later on and in other parts of the program. The criteria for selecting these records are highly flexible. A selection could be, for example
 
-* a list of all the requests you have completed this week (so that you can report on them)
-* a list of contacts you specially want to follow up
-* all open requests for specific categories
+* A list of all the requests you have completed this week (so that you can report on them)
+* A list of contacts you specially want to follow up
+* All open requests for specific categories
 
 The aim is to find out how many records match the specific criteria and to follow them up in an organised way. There are several types of selections:
 

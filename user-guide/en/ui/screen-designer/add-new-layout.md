@@ -23,7 +23,7 @@ To create a new screen layout:
 
 1. Enter a name for the new layout in the **Name** field.
 
-1. Click the **Used by** field and select the user group(s) that will use this new layout. The list will only display user groups that are using the default layout. A user group can only be assigned to one layout.
+1. Click the **Used by** field and select the user group(s) that will use this new layout. The list shows only user groups using the default layout. A user group can be assigned to one layout only.
 
 1. Enter a description of the layout in the **Description** field.
 

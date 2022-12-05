@@ -56,7 +56,7 @@ Use the **Task** button to perform different tasks for the members or some of th
 * **Show all**. Click here to display all selection members.
 
     > [!NOTE]
-    > By default the list only displays the 100 first records in the selection. To change this value, go to ![icon][img4] **Personal settings** > **Preferences** > **Functions** > **Archive page size**.
+    > By default the list displays only the 100 first records in the selection. To change this value, go to ![icon][img4] **Personal settings** > **Preferences** > **Functions** > **Archive page size**.
 
 * ![icon][img5]: Click here to refresh the data in the list.
 

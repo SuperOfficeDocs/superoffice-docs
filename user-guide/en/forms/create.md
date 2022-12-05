@@ -57,13 +57,13 @@ Fill in the following information in the **Properties** category:
 
 * **Folder**: Select where to place the form or [create a new folder][19].
 
-* **Description**: Explain the purpose of this form. This text will only be visible internally.
+* **Description**: Explain the purpose of this form. This text is visible internally only.
 
 * **Language**: Select the language used in the form.
 
 * **Managed by**: Optional. Select a user group to limit access to this form. Only members of the selected user group can process submissions from this form and receive notifications of submissions.
 
-* **Deactivate form automatically**: Optional. In some cases the form should only be active until a specific date or until a specific number of responses have been received. Anyone trying to access an inactive form will be redirected to the page for inactive form. You can combine these options.
+* **Deactivate form automatically**: Optional. In some cases the form should be active only until a specific date or until a specific number of responses have been received. Anyone trying to access an inactive form will be redirected to the page for inactive form. You can combine these options.
 
   * **Until**: Select a date. The form will be deactivated on this date.
   * **Max**: Enter the number of responses. The form will be deactivated after the specified number of responses have been received.

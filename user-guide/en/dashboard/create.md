@@ -30,7 +30,7 @@ In the **Dashboard** screen you can have multiple dashboard tabs to display any 
 
 6. Select the number of columns to use for the dashboard, in the **Columns** field.
 
-7. In the **Visible for** field, specify who will be able to see this tile. By default the dashboard will only be visible for yourself. If you have additional functional rights, you can make the dashboard visible/accessible for one or more user groups, or individual users.
+7. In the **Visible for** field, specify who should see this tile. By default, the dashboard is visible only to you. If you have additional functional rights, you can make the dashboard visible/accessible for one or more user groups, or individual users.
 
 8. Use the **Pin to** function to always show this dashboard for selected users. You can use this function for all users or for selected user groups or users. Using this function requires functional rights.
 

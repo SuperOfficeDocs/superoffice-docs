@@ -22,7 +22,7 @@ Dashboards are displayed as tabs at the top of the screen. Pinned dashboards and
 
 Each tile in a dashboard contains either a chart, a list or a number. A dashboard can contain multiple tiles.
 
-The tiles can also be customized to show only data from selections. Access rights and confidentiality apply to the tile data, so tiles will only display information you have access to. Tile data typically relates to you, or your groups, and to a specific period (such as this month, last 6 month)
+The tiles can also be customized to show only data from selections. Access rights and confidentiality apply to the tile data, so tiles will display only information you have access to. Tile data typically relates to you, or your groups, and to a specific period (such as this month, last 6 month)
 
 There are several types of charts:
 

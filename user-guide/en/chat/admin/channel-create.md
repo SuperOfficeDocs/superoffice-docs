@@ -17,7 +17,7 @@ You can create chat channels for specific uses, such as technical support, produ
 1. SuperOffice CRM: Click the **Chat** button in the Navigator ![icon][img2].
     SuperOffice Service: Select ![icon][img1] **System settings > Chat**.
 2. Click **Add** at the bottom of the list of chat channels. The **Add chat channel** dialog displays.
-3. Enter the name of the chat channel. This should be a unique name used to identify the topic and language (for example *Tech Support Norway*). The name will only be used internally.
+3. Enter the name of the chat channel. This should be a unique name used to identify the topic and language (for example *Tech Support Norway*). The name is used internally only.
 4. Complete the fields in the tabs as described below. Your changes are automatically saved when you go to another tab.
 5. Click **Save** when you are done.
 
@@ -31,7 +31,7 @@ The following fields are available in the **Properties** tab:
 * **Language**: Select the language of the chat window.
 * **Badge header**: Enter a short text to display on the chat icon on your website.
     ![Chat badge -screenshot][img3]
-* **Description**: Explain the purpose of this chat channel. This text will only be displayed internally.
+* **Description**: Explain the purpose of this chat channel. This text is displayed internally only.
 * **Warning on new chat**: If no agents respond to a new chat within the specified amount of time, a notification is sent to agents with status **Present**. Agents must also have the permission **Notifications** in the **Agents** tab.
 * **Manager warning on new chat**: If no agents respond to a new chat within the specified amount of time, a notification is sent to the manager(s). This warning is only sent if there are agents with status **Present**.
 * **Enable opening hours**: Enable this option to set opening hours for specific week days. You can also set your time zone and add lunch hours when chat is unavailable. Customers will always see their local time in the chat.

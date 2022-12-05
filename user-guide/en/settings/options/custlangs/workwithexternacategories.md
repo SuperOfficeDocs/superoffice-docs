@@ -29,7 +29,7 @@ To create a new external category:
 8. Click **OK**. The external category is created, and displayed under **External categories** in the **Customer language** screen.
 
 > [!NOTE]
-> The external categories are only displayed in the **Customer language** screen. They are not shown under **System settings** > **Categories** in SuperOffice Service.
+> The external categories are displayed only in the **Customer language** screen. They are not shown under **System settings** > **Categories** in SuperOffice Service.
 
 ## Delete external categories
 

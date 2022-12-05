@@ -42,7 +42,7 @@ Select in the list the contact you want to remove and click **Remove as external
 
 ## Remove login for an external user
 
-Select the contact you want to remove the login for and click **Remove login**. The person will then remain as an external user, but the login will be disabled and he/she will not be able to log in to the system.
+Select the contact you want to remove the login for and click **Remove login**. The person will then remain as an external user, but the login will be disabled and they cannot log in to the system.
 
 ## Filter the list
 

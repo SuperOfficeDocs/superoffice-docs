@@ -32,7 +32,7 @@
 
 ## Quick reply
 
-A quick reply is a pre-defined text that you can use in an email message. It is similar to reply templates, but it is much easier and faster to create a quick reply. The quick replies you create will only be available to you.
+A quick reply is a pre-defined text that you can use in an email message. It is similar to reply templates, but it is much easier and faster to create a quick reply. The quick replies you create are available only to you.
 
 To create quick replies:
 

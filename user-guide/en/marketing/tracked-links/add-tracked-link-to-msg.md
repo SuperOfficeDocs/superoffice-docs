@@ -29,7 +29,7 @@ To add tracked links to the message:
 * To [create a new tracked link][3], click **Create new tracked link** at the bottom of the screen. The **Link properties** dialog opens.
 
 > [!TIP]
-> You can also add regular (untracked) links. For text links, click the link button ( ![icon][img4] ) in the toolbar. For image links, use the **Image URL** field in the side-panel. If you later decide you want to track these links also, you can select the **Track all links** option under **Tracking** in Step 1: Setup. These links will, however, only be tracked for the mailing in question, and will not be available for other mailings.
+> You can also add regular (untracked) links. For text links, click the link button ( ![icon][img4] ) in the toolbar. For image links, use the **Image URL** field in the side-panel. If you later decide you want to track these links also, you can select the **Track all links** option under **Tracking** in Step 1: Setup. However, these links are tracked only for the mailing in question, and will not be available for other mailings.
 
 ## Old editor
 
@@ -47,7 +47,7 @@ To add tracked links to the message:
 
     * Start typing in the search field (below the **Choose link** and **New link** buttons) to search for existing tracked links.
 
-    * Click ![icon][img1] **New link** to create a new link. Links that are created using this option, will only be available from this mailing (and copies of this mailing). To [create a tracked link][3] that can be used in other mailings as well, go to the **Tracked links** tab.
+    * Click ![icon][img1] **New link** to create a new link. Links created using this option, are available only from this mailing (and copies of this mailing). To [create a tracked link][3] that can be used in other mailings as well, go to the **Tracked links** tab.
 
 6. In the **Link label** field, you can edit the link text. Remember to add a space at the end of the text.
 
@@ -56,7 +56,7 @@ To add tracked links to the message:
 8. Click **OK**.
 
 > [!TIP]
-> You can also add regular (untracked) links by clicking the link button ( ![icon][img3] ) in the toolbar. If you later decide you want to track these links also, you can select the **Track all links** option under **Tracking** in Step 1: Setup. These links will, however, only be tracked for the mailing in question, and will not be available for other mailings.
+> You can also add regular (untracked) links by clicking the link button ( ![icon][img3] ) in the toolbar. If you later decide you want to track these links also, you can select the **Track all links** option under **Tracking** in Step 1: Setup. However, these links are tracked only for the mailing in question, and will not be available for other mailings.
 
 ## Related topics
 

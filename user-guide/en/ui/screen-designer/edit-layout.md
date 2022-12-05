@@ -129,7 +129,7 @@ Add more tabs for additional fields, or remove irrelevant tabs.
 
 * You cannot rename any of the default tabs.
 * You cannot remove a tab that contains mandatory fields. Mandatory fields must be moved to another tab first.
-* If there is only one tab left, you cannot delete it.
+* If only one tab remains, you cannot delete it.
 
 ## Undo changes
 

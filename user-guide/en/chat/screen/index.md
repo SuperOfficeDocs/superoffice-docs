@@ -38,8 +38,8 @@ The **Chats** tab has three main areas:
 
 This list contains
 
-* ongoing chats
-* recently completed chats (last 8 hours)
+* Ongoing chats
+* Recently completed chats (last 8 hours)
 
 The number of chats in queue is also listed here, and you can click **Get next in queue** to respond to the next chat in the queue.
 

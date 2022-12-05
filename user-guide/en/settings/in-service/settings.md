@@ -23,7 +23,7 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **Cgi-Bin path**: The path to the folder where SuperOffice Service's Cgi-Bin application files reside. This path must have a leading folder separator sign (slash), but not a trailing one. For example, */bin* or */Scripts*.
 
-* **Email tag**: The email tag which, in conjunction with the request number, creates a unique key for the subject in e-mails that are sent out from SuperOffice Service. You must not change this value unless you know what you are doing! If this value is changed, received e-mails will not be correctly linked to existing requests.
+* **Email tag**: The email tag which, in conjunction with the request number, creates a unique key for the subject in emails that are sent out from SuperOffice Service. You must not change this value unless you know what you are doing! If this value is changed, received emails will not be correctly linked to existing requests.
 
 * **New status when accepting a request**: Select which status to use when a request is accepted by a user.
 
@@ -39,7 +39,7 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **Default font in editor**: Here you can select which font, font size and formatting will be the default for message registration.
 
-* **Cross-post timeframe in minutes**: Here you enter a number of minutes and if two or more e-mails arrive from the same contact within this period, the requests will be sent to the same request handler, if possible.
+* **Cross-post timeframe in minutes**: Here you enter a number of minutes and if two or more emails arrive from the same contact within this period, the requests will be sent to the same request handler, if possible.
 
 * **External access level as default**: If you check here, external access level will be the default for new requests and messages. The alternative is internal access level as default.
 

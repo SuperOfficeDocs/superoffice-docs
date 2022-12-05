@@ -54,7 +54,7 @@ Add links for looking up information in other websites, allow users to run CRM s
     * **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript][6].
     * **Shortcut (soprotocol)**: Select this option to add a shortcut to other screens and records in SuperOffice. See [SOProtocol][1].
 
-7. In the **Mode** list, choose if the link should always be available, or if it should only be available in read or edit mode.
+7. In the **Mode** list, choose if the link should always be available, or if it should be available only in read or edit mode.
 
 ## Add buttons
 
@@ -79,7 +79,7 @@ Buttons work similarly to links. You can add links for looking up information in
     * **Execute CRMScript**: Select this option to add a CRM script to run specific actions in SuperOffice. See [CRMScript][6].
     * **Shortcut (soprotocol)**: Select this option to add a shortcut to other screens and records in SuperOffice. See [SOProtocol][1].
 
-7. In the **Mode** list, choose if the button should always be available, or if it should only be available in read or edit mode.
+7. In the **Mode** list, choose if the button should always be available, or if it should be available only in read or edit mode.
 
 8. In the **Style** list, select the style of the button. The preview on the right will update with the selected button style.
 

@@ -81,7 +81,7 @@ To create a new priority:
 | Time frame | Time intervals for each day of the week that applies to request processing. |
 | Holidays (day/month) | Days to exclude from the time frame. This is normally used for public holidays when it is not desirable for requests to be escalated. The format is a comma-separated list of day/month entities. For example, to exclude 25th and 26th December, enter: 25/12, 26/12. You can also add dates using the date field below. |
 | Include year | Checking here includes the year in the holiday dates. |
-| Escalate requests according to time frame | If you check here, requests that have this priority will only be escalated during the priority's defined time frame. In other words, outside of the periods defined in the **Time frame** tab, escalation will be "frozen". |
+| Escalate requests according to time frame | If you check here, requests with this priority are escalated only during the priority's defined time frame. Outside of the periods defined in the **Time frame** tab, escalation will be "frozen". |
 
 ## Escalation options
 

@@ -39,7 +39,7 @@ To change labels in SuperOffice CRM:
 1. Edit the text for the language in question in the **Edit field label** dialog.
 
     > [!NOTE]
-    > It is possible to edit the label for all available languages in this dialog. Not only the selected target language.
+    > It is possible to edit the label for all available languages in this dialog. Not limited to the selected target language.
 
 1. Click **Save**.
 

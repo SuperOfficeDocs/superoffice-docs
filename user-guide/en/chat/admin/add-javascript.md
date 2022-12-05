@@ -25,7 +25,7 @@ To make the chat feature available to your customers, you must add a JavaScript 
 8. Save, upgrade or publish the changes (this depends on what system you use).
 9. Open or refresh your web page.
 
-The chat widget is now available and live. Visitors to your website will now be able to start chatting with you.
+The chat widget is now available and live. Visitors to your website may start chatting with you.
 
 > [!NOTE]
 > When you enable the chat feature, your organization must be ready to handle all incoming chat conversations.

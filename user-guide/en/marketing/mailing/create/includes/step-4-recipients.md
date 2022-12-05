@@ -117,7 +117,7 @@ When you add selections, projects, contacts and import lists, the **Recipients**
 In addition, you can click the **Update list** button below the **Recipients** list to update the list manually. You should do this if it's been a while since you added the recipients. Some of the contacts on the list might have changed their consent in the mean time.
 
 > [!NOTE]
-> The list only displays the first 50 recipients. Click **Load all** at the bottom of the list to display all recipients.
+> The list displays only the first 50 recipients. Click **Load all** at the bottom of the list to display all recipients.
 
 Click **Next** to go to Step 5: Confirm. You can still revisit the **Recipients** step to edit the recipients list.
 

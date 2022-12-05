@@ -16,7 +16,7 @@ These options appear in the **SuperOffice account** pane of the **SuperOffice CR
 | Option | Description |
 |---|---|
 | Preferred SuperOffice client | Which SuperOffice client to use when [searching for senders][2]: **SuperOffice CRM** (Windows client), **SuperOffice CRM** (Web client) or **Service**. |
-| User name | Enter your user name for the selected client and click **Test connection** to confirm that you are able to log in to the client in question, and consequently that the connection between the mail client and the SuperOffice client works. |
+| User name | Enter your user name for the selected client and click **Test connection** to confirm that you can log in to the client in question, and consequently that the connection between the mail client and the SuperOffice client works. |
 
 ## Advanced settings
 

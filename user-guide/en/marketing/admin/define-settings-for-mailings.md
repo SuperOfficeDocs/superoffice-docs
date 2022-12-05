@@ -21,13 +21,13 @@ When you are in the **Mailings** screen, you can click the **Settings** button (
 
 The following settings are available for email mailings:
 
-* **Max number of emails sent per SMTP connection for all simultaneous threads**: Here you set the maximum number of e-mails to be distributed among the SMTP threads set below. Be aware that a high figure here may impose a very high load on your email server. Example:
+* **Max number of emails sent per SMTP connection for all simultaneous threads**: Here you set the maximum number of emails to be distributed among the SMTP threads set below. Be aware that a high figure here may impose a very high load on your email server. Example:
 
     **Max number of emails...**: 100
 
     **SMTP Threads**: 5
 
-    If 1000 emails is scheduled to be sent, SuperOffice sets up 5 processes (threads) on the SMTP server. Every process is assigned 20 e-mails (100 e-mails / 5 threads) in a queue.
+    If 1000 emails is scheduled to be sent, SuperOffice sets up 5 processes (threads) on the SMTP server. Every process is assigned 20 emails (100 emails / 5 threads) in a queue.
 
     As soon as a process is complete, a new process is initiated and assigned another 20 emails.
 

@@ -39,7 +39,7 @@ Statuses and counters can be used in searches and to create dynamic selections. 
 
 ## Periods
 
-You can specify up to three different periods for counters, so that the SAINT criteria can cover shorter or longer periods. If you specify three periods of 30, 60 and 90 days respectively, you will be able to select SAINT criteria for each of these periods.
+You can specify up to three different periods for counters, so that the SAINT criteria can cover shorter or longer periods. If you specify three periods of 30, 60 and 90 days respectively, you can select SAINT criteria for each of these periods.
 
 ## Creation of new statuses
 

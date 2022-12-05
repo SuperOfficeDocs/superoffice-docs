@@ -20,7 +20,7 @@ To create a template document:
 1. Start the required application.
 2. Create a new document.
 3. Insert the [template variables][1] you want to use in the template, for example, variables for name, address and telephone number.
-4. Save the template document somewhere where you will be able to find it easily again.
+4. Save the template document somewhere where you can find it easily again.
 
 After you have defined a template and saved it in the template folder, you must [link the template to SuperOffice CRM][2] to create documents from it.
 

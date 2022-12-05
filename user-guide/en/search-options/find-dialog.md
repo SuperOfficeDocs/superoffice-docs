@@ -51,7 +51,7 @@ See [The side panel][4].
 
 Perform tasks on the search results
 
-The **Task** button contains tasks such as sending e-mails, mass-editing and exporting. Which tasks are displayed depends on what type of records are displayed.
+The **Task** button contains tasks such as sending emails, mass-editing and exporting. Which tasks are displayed depends on what type of records are displayed.
 
 See [Perform tasks using selections][7].
 

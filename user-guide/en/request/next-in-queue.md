@@ -48,7 +48,7 @@ Do as follows:
 
 5. In the **Name** field, enter a descriptive name for the request status. For example "In queue".
 
-6. Check **Queue status**. The users are now able to get requests with this status from the queue.
+6. Check **Queue status**. The users can now get requests with this status from the queue.
 
     > [!NOTE]
     > This does not mean that these requests MUST be fetched from the queue. We will use categories to decide which requests will be placed in the queue and which requests will be distributed according to the assignment method for the category.

@@ -42,7 +42,7 @@ Predefined roles are included with SuperOffice CRM. The **User levels 0–5** ro
 | List administrator | Has full access to data in the SuperOffice CRM client. Can use Settings and maintenance to edit lists in the system (for example, lists of document templates and categories). |
 | User administrator | Has full access to data. Can use Settings and maintenance to create and edit users in the system. |
 | Local user | Has full access to own data, but no access to data belonging to users linked to other companies. |
-| External user | Consultant or partner with limited access to company and project data. Only has access to data which has been published. |
+| External user | Consultant or partner with limited access to company and project data. Has access only to published data. |
 | Anonymous user | Anonymous user |
 | System user | System integration user. Overrides all security controls. This role is not visible and cannot be edited. |
 

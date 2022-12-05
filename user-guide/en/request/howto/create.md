@@ -69,7 +69,7 @@ Here you enter information to correctly assign and prioritize the request.
 * In the **Tags** list box, [select relevant tags][4] for this request.
 * The **Contacts** field: By default, the person you entered in the **To** field is also added as a contact for the request (after you click **OK**).
   * You can add additional contacts if you like.
-  * Contacts added here will be linked to the request and are able to view information about the request in SuperOffice Customer Centre.
+  * Contacts added here will be linked to the request and may view information about the request in SuperOffice Customer Centre.
   * If you enter more than one contact, the first contact will be the main contact for the request. You can click and drag the contacts to change the order.
   * Click ![icon][img1] to [create a new contact][5].
 * Automatically add message recipients as request contacts: This checkbox is selected by default for new requests, so any recipients you add in the **To** field when creating the request, will also be added as contacts for the request. The contacts are added when you click **OK**.

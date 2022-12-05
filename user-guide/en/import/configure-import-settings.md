@@ -121,7 +121,7 @@ If contacts in the import source are not listed with a company, you have three o
 
 * **Create company using contact name**: A company will be created using the contact name, with himself as the only contact.
 * **Skip - do not create company or contact**: The contact will not be imported.
-* **Import contacts without company**: The contact will be imported with no link to a company. This option will only be possible if the global preference **Mandatory company on contact** is set to **No**.
+* **Import contacts without company**: The contact will be imported with no link to a company. This option is possible only if the global preference **Mandatory company on contact** is set to **No**.
 
 ## Privacy options for imported contacts
 

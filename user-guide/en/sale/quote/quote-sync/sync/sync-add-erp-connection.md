@@ -23,7 +23,7 @@ Each Sync Connector must have an ERP connection with configuration data for link
 
 1. Select the **Scope** you require:
 
-    * **Everyone**: Select this option if all the users are to have access to and be able to use this ERP connection. This means that they can use the price lists accessible via this connection.
+    * **Everyone**: Select this option if all the users should have access to and be able to use this ERP connection. This means that they can use the price lists accessible via this connection.
     * **Specific users + groups**: Click **No users or groups are selected** to choose which users and/or user groups should have access to this ERP connection.
 
 1. Under **Configuration fields** define the settings you require. The contents of this list vary depending on the type of Sync Connector you have chosen.

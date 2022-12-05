@@ -30,7 +30,7 @@ If you have deleted an item or a heading and later decide you do not want to rem
 5. Click the **Restore** button.
 
     > [!NOTE]
-    > This button is only available for deleted elements.
+    > This button is available only for deleted elements.
 
 6. [!include[Save or cancel](../../../includes/save-or-cancel.md)]
 

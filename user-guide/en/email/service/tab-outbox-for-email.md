@@ -13,7 +13,7 @@ language: en
 
 In the **Outbox for email** tab is a list of the emails in the queue to be sent out.
 
-Select **Show sent e-mails** in the lower right corner to display also the last request emails.
+Select **Show sent emails** in the lower right corner to display also the last request emails.
 
 The following options are also available from the **Actions** button (![icon][img1]):
 

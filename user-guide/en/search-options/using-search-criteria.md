@@ -13,7 +13,7 @@ language: en
 
 You use search criteria to define what you are looking for, for example "companies with an address in Denmark". Search criteria are used in multiple places in SuperOffice CRM, for instance in the **Find** screen and when creating selections. But, regardless of what you are using the criteria for, you work with them in the same way.
 
-Everywhere you are able to enter search criteria, you will find a criteria list containing the selected search criteria.
+Everywhere you can enter search criteria, you will find a criteria list containing the selected search criteria.
 
 ## Add search criteria
 
@@ -130,9 +130,9 @@ To delete a search criterion, click ![icon][img3].
 
 When you open the **Find** screen, it contains default search criteria or the search criteria you specified the last time you used the dialog. If you want to use different search criteria than those shown, you have the following options:
 
-* you can delete them by clicking ![icon][img3]
-* you can deactivate one or more search criteria by leaving the value field empty. A deactivated search criterion remains in the criteria list and can be simply reactivated when needed.
-* you can deactivate all the search criteria by clicking **Clear all**.
+* You can delete them by clicking ![icon][img3]
+* You can deactivate one or more search criteria by leaving the value field empty. A deactivated search criterion remains in the criteria list and can be simply reactivated when needed.
+* You can deactivate all the search criteria by clicking **Clear all**.
 
 ## Move search criteria up or down
 
