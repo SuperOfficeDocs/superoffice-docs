@@ -6,7 +6,7 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: project, guide
 so.topic: howto
-so.audience: settings
+so.audience: cog
 language: en
 ---
 
