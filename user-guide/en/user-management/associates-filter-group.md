@@ -21,7 +21,7 @@ Use this dynamic search function to quickly locate specific users by name or use
 
 ## Show only users that can log in
 
-Select this option to show only users that are active (i.e. have not been deactivated).
+Select this option to show only users that are active (have not been deactivated).
 
 ## Filtering the list
 
@@ -41,7 +41,7 @@ You can filter the list of users by any of the column headers.
 
 ## Grouping the list
 
-You can group the list of users by role, user plan, primary group etc. In addition, you can group on multiple levels.
+You can group the list of users by role, user plan, primary group, and similar. In addition, you can group on multiple levels.
 
 > [!NOTE]
 > Right-click a column to add any additional columns you want to group by (see also [Adjust views][1]).

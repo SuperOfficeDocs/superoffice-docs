@@ -71,7 +71,7 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 
 [!include[Common steps](../includes/step-set-reply.md)]
 
-1. Go to the **Alias** tab. Here you can enter any email alias for a mailbox (e.g. if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an email address and then clicking ![icon][img1].
+1. Go to the **Alias** tab. Here you can enter any email alias for a mailbox (for example, if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an email address and then clicking ![icon][img1].
 
 [!include[Import stuff](../includes/step-import.md)]
 

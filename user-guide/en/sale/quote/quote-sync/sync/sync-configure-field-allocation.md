@@ -39,7 +39,7 @@ When synchronising data between SuperOffice and ERP systems, you have to specify
         | ![icon][img2] | Sync both ways. |
         | ![icon][img3] | Sync from SuperOffice to the ERP system. |
         | ![icon][img4] | Sync from the ERP system to SuperOffice. |
-        | ![icon][img5] | No synchronisation (SuperOffice field is NOT selected), or the field cannot be synchronised (customer name etc.). This can also be due to read-only fields. Mouse-over the icon to view details. |
+        | ![icon][img5] | No synchronisation (SuperOffice field is NOT selected), or the field cannot be synchronised (for example, customer name). This can also be due to read-only fields. Mouse-over the icon to view details. |
 
         > [!NOTE]
         > The arrows are disabled until you have selected a SuperOffice field.

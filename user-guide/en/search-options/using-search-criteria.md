@@ -29,7 +29,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
     * <details><summary>Text field</summary>
 
-        If the field you are searching in is a text field (e.g. a name field), the search is made on text or numbers you enter. A list with the following options is displayed:
+        If the field you are searching in is a text field (such as a name), the search is made on text or numbers you enter. A list with the following options is displayed:
 
         [!include[Search criteria](../includes/list-search-criteria.md)]
 
@@ -39,13 +39,13 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
     * <details><summary>Yes/No field</summary>
 
-        If the field you are searching in is a Yes/No field, e.g. the **No mailings** field in the **Company** screen, two radio buttons are displayed. You can choose between **Yes** and **No**.
+        If the field you are searching in is a Yes/No field, for example, the **No mailings** field in the **Company** screen, two radio buttons are displayed. You can choose between **Yes** and **No**.
 
     </details>
 
     * <details><summary>Date field</summary>
 
-        If the field you are searching in is a date field, e.g. the **Date** field in the **Document** dialog, a list box is displayed containing the following options:
+        If the field you are searching in is a date field, for example, the **Date** field in the **Document** dialog, a list box is displayed containing the following options:
 
         [!include[Search criteria](../includes/list-date-criteria.md)]
 
@@ -55,7 +55,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
     * <summary>Number field</summary>
 
-        If the field you are searching in contains a numerical value, e.g. the **Amount** field in the **Sale** screen, a list box is displayed containing the following options:
+        If the field you are searching in contains a numerical value, for example, the **Amount** field in the **Sale** screen, a list box is displayed containing the following options:
 
         [!include[Search criteria](../includes/table-number-criteria.md)]
 
@@ -65,7 +65,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
     * <details><summary>List field</summary>
 
-        If the field you are searching in is a field containing lists, e.g. the **Business** field in the **Company** screen, a list box appears with the options **Is one of** and **Is not one of**.
+        If the field you are searching in is a field containing lists, for example, the **Business** field in the **Company** screen, a list box appears with the options **Is one of** and **Is not one of**.
 
         Click the **Select items** field to display the list of values.
 

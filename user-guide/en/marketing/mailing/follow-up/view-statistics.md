@@ -28,7 +28,7 @@ You can find mailing statistics in the following tabs:
 
 * **Reports**: Four charts show statistics for the mailing (mouse-over to view exact numbers).
 
-* **Recipients**: This tab displays a [list of recipients][2] of the mailing. The statuses (sending, waiting, failed, bounced, read etc.) of the mailing for each individual recipient are shown here. The summary can be filtered by selecting the checkboxes at the bottom of the screen. You can also select and add recipients to selections and projects using the ![icon][img1] menu button.
+* **Recipients**: This tab displays a [list of recipients][2] of the mailing. The statuses (sending, waiting, failed, bounced, read, and so on) of the mailing for each individual recipient are shown here. The summary can be filtered by selecting the checkboxes at the bottom of the screen. You can also select and add recipients to selections and projects using the ![icon][img1] menu button.
 
 * **Tracked links**: This tab displays the [number of clicks on each tracked link][3] in the mailing. Click a link to go the **View link** screen and display a list of which recipients clicked the link.
 

@@ -35,7 +35,7 @@ If you receive an email requesting you to take action, you can convert the email
 
 11. In the **Type** dropdown, you may select one of the available activity types.
 
-12. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose whether the activity will be visible to all users, private (i.e. visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
+12. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose whether the activity will be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
     > The **Visible for** field is only available if this right has been assigned to you in SuperOffice Settings and maintenance.

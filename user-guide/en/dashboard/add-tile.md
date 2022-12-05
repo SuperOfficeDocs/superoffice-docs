@@ -26,7 +26,7 @@ To add a tile to a dashboard:
         > [!TIP]
         > You can also select an empty tile to create a tile from scratch.
 
-    * **Selections**: This tab contains dynamic selections with [charts][2], and will only show selections of the same record/entity type selected in the **View** list above (e.g. company, sale etc.).
+    * **Selections**: This tab contains dynamic selections with [charts][2], and will only show selections of the same record/entity type selected in the **View** list above (for example, company or sale).
 
     > [!NOTE]
     > When using a selection chart, the dataset is copied, and any changes to the selection will not be reflected in the tile.

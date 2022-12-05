@@ -44,7 +44,7 @@ Do as follows:
 
 3. In the **Internal status** list box, select **Open**.
 
-4. Check **Default**, so that all new requests (i.e. active requests) are assigned this status by default.
+4. Check **Default**, so that all new requests (active requests) are assigned this status by default.
 
 5. In the **Name** field, enter a descriptive name for the request status. For example "In queue".
 

@@ -63,7 +63,7 @@ You move between the main sections of SuperOffice CRM and Service using the Navi
 | ![icon][img51] | **Screen designer**: opens the Screen designer screen, where you can create custom screen layouts for specific user groups. | [Screen designer][24] |
 | ![icon][img52] | **Preferences**: opens the **Preferences** screen, where you can specify a number of settings for different aspects of SuperOffice CRM, for example, the number of elements to display in the history list, the default type for new activities, and so on. Here you can also configure [Video meetings][42] and the [Document library][43]. | [Preferences][25] |
 | ![icon][img41] | **Chat**: opens the **Chat** screen, where you can create chat channels and set up the chat feature. | [Chat][2] |
-| ![icon][img53] | **Options**: opens the **Options** screen, where you can define system-wide settings, i.e. settings for freetext search, time zones, number allocation, labels and reports. | [Options]][26] |
+| ![icon][img53] | **Options**: opens the **Options** screen, where you can define system-wide settings. For example, settings for freetext search, time zones, number allocation, labels and reports. | [Options]][26] |
 | ![icon][img54] | **Import**: opens the **Import** screen, where you can import data into the SuperOffice database. | [Import][27] |
 | ![icon][img55] | **Fields**: opens the **Fields** screen, where you define user-defined fields for SuperOffice CRM. | [Fields][28] |
 | ![icon][img56] | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. | [CRMScript][41] |

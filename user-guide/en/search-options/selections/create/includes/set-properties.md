@@ -3,7 +3,7 @@
 
 1. In the **Category** field, choose the type of selection you require. These options are defined in SuperOffice Settings and maintenance.
 
-1. In the **Visible for** field, choose whether the selection will be visible to everyone, private (i.e. only visible to the person defined as owner) or visible to everyone in the user group that the owner belongs to.
+1. In the **Visible for** field, choose whether the selection will be visible to everyone, private (only visible to the person defined as owner) or visible to everyone in the user group that the owner belongs to.
 
 1. Add a description of the selection in the **Description** field, if relevant.
 

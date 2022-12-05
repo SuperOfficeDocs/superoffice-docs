@@ -50,7 +50,7 @@ Now we are going to amend slightly the standard report criteria, so that you can
 
 2. Click the arrow next to the **This month** field, change the period to **Last month** and click **OK**. Your report will now only contain sales from the previous month.
 
-3. Select the **Sale: Owner** criterion in the criteria list and click the **Delete** button at the bottom. Your report will now include all sales, and not just sales where the user in question (i.e. you) is recorded as the owner.
+3. Select the **Sale: Owner** criterion in the criteria list and click the **Delete** button at the bottom. Your report will now include all sales, and not just sales where the user in question (you) is recorded as the owner.
 
 4. Double-click the **Sale: Status** criterion in the criteria list. The **Add/edit search criteria** dialog appears. Now we are going to change the **Sale: Status** criterion so that the report only contains sales which do *not* have the status **Open**.
 

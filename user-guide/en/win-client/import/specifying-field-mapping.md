@@ -26,7 +26,7 @@ To specify field mapping:
     > [!NOTE]
     > Alternatively double-click the field you want to import.
 
-1. The name of the current field in the import file is displayed in **Field in import file** in the **Map field** dialog. In the **Select field from table** list box, choose the type of data you want to import into the SuperOffice database, e.g. companies.
+1. The name of the current field in the import file is displayed in **Field in import file** in the **Map field** dialog. In the **Select field from table** list box, choose the type of data you want to import into the SuperOffice database, for example, companies.
 
 1. In the **Name** table, all available fields for the data type you selected in the **Select field from table** list box are displayed, except those you have already mapped. Select a field to map.
 

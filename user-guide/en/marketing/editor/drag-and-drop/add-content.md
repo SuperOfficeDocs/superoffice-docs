@@ -15,7 +15,7 @@ Add content to your message by using the side-panel.
 > [!NOTE]
 > If you have defined specific properties for individual sections, these are not overridden by global properties.
 
-## Adding columns, text blocks, images etc
+## Adding columns, text blocks, images
 
 |   |   |
 |---|---|

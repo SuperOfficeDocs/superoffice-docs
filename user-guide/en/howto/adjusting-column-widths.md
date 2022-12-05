@@ -11,7 +11,7 @@ language: en
 
 # Adjust column widths
 
-There are a number of different lists in SuperOffice CRM, e.g. the **Contacts** and **Activities** section tabs. The width of the columns in lists like these can be adjusted manually or automatically.
+There are a number of different lists in SuperOffice CRM, for example, the **Contacts** and **Activities** section tabs. The width of the columns in lists like these can be adjusted manually or automatically.
 
 ## Manually adjust column widths
 

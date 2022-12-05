@@ -21,7 +21,7 @@ In the list box, select the field you want to search for information in. The fie
 
 * <details><summary>Text field</summary>
 
-    If the field you are searching in is a text field, e.g. a name field, the search is made on text or numbers you enter. The list that is displayed may contain the following options:
+    If the field you are searching in is a text field, for example, a name field, the search is made on text or numbers you enter. The list that is displayed may contain the following options:
 
     [!include[Search criteria](../../includes/list-search-criteria.md)]
 

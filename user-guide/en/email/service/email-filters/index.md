@@ -67,7 +67,7 @@ The **Email filters** tab contains a list of existing email filters. This list c
 
 * **Include debug information in the message**: If you check here, the message will include debug data that you can use to check that the email filter is working correctly.
 
-* **Mark email as bounced**: If you check here, email processed by this filter will be marked as bounced. This may be relevant for emails received from postmaster, mailer-daemon, etc.
+* **Mark email as bounced**: If you check here, email processed by this filter will be marked as bounced. This may be relevant for emails received from postmaster, mailer-daemon, and so on.
 
 ## What would you like to do now?
 

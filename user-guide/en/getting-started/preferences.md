@@ -24,10 +24,10 @@ You can specify a number of settings for different parts of SuperOffice CRM, for
 
 | Button | Option | Description |
 |---|---|---|
-| ![icon][img1] | **Default values** | Here you specify the default values in SuperOffice CRM, i.e. the values that are displayed by default in various dialogs and fields. You can select, for example, the default business for new companies, the default duration of follow-ups, the default template for outbound documents and many other settings. |
+| ![icon][img1] | **Default values** | Here you specify the default values in SuperOffice CRM. You can select, for example, the default business for new companies, the default duration of follow-ups, the default template for outbound documents and many other settings. |
 | ![icon][img2] | Diary | Here you enter default settings for the diary and appointments, such as the default start time for the working day and the duration of alarms. |
 | ![icon][img3] | Functions | Here you enter various general settings and functions, including whether to display a Tip of the Day when you start SuperOffice CRM (**Show Tips on Startup**). |
-| ![icon][img4] | Email | Here you specify settings relating to email and fax functionality in SuperOffice CRM, e.g. the email client you have installed. |
+| ![icon][img4] | Email | Here you specify settings relating to email and fax functionality in SuperOffice CRM, for example, the email client you have installed. |
 | ![icon][img5] | Notifications via popup; Notifications via email, Notifications via SMS | Here you specify settings for request notifications. |
 | ![icon][img6] | Contact | Here you specify settings for contacts. |
 | ![icon][img7] | Request | Here you specify settings for requests. For notification settings, see "Notifications via..." above. |

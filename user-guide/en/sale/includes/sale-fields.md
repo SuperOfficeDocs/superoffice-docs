@@ -42,7 +42,7 @@
 
 15. Enter the source of the sale in the **Source** field. Click the arrow to display a list of available options.
 
-16. Click in the **Visible for** field and a list is displayed allowing you to choose whether the sale will be visible to all users, private (i.e. visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
+16. Click in the **Visible for** field and a list is displayed allowing you to choose whether the sale will be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
 17. If the sale has the status **Sold** or **Lost**, you can check the **Completed** box.
 

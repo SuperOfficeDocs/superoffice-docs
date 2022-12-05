@@ -28,16 +28,16 @@ To create an import description:
 
 5. Under **Import settings**, the following options are available:
 
-    * **File has header row**: check here if the file begins with a header row, i.e. a row not containing data.
+    * **File has header row**: check here if the file begins with a header row (a row not containing data).
     * **Add unknown list items to list**: check here if you want any unknown items to be included in existing lists in the SuperOffice database. If this option is unchecked, the unknown item will not be imported and the relevant field in the SuperOffice database will be left empty.
     * **Add as members to new selection**: check here if you are importing the company or contact data type and want the companies/contacts you are importing to be included in a separate selection. In this case you must also specify a name for the selection in the **Name** field.
 
     > [!NOTE]
-    > If you choose **Add as members to new selection**, companies and contacts, as appropriate, which are included in the import, will be added to a new selection with the name you have specified. Companies and contacts which are not included (i.e. if you have chosen **Skip record** in the **Handle Duplicates** dialog) will not be added to the selection even if they exist in the import file.
+    > If you choose **Add as members to new selection**, companies and contacts, as appropriate, which are included in the import, will be added to a new selection with the name you have specified. Companies and contacts which are not included (if you have chosen **Skip record** in the **Handle Duplicates** dialog) will not be added to the selection even if they exist in the import file.
 
 6. To specify more [advanced settings for the import][2], click the **Advanced** button.
 
-7. Under **Handling of duplicates** you specify rules to cater for the existence of [duplicates][3], i.e. if the same record exists in both the file you are importing and the database you are importing into.
+7. Under **Handling of duplicates** you specify rules to cater for the existence of [duplicates][3]. That is, if the same record exists in both the file you are importing and the database you are importing into.
 
 8. When you have specified the required options, click the **Save** button.
 

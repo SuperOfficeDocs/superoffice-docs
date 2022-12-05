@@ -59,7 +59,7 @@ In the **Follow-up** tab, you can specify that a link click should generate task
 4. **Project**: Here you select a project which the task/appointment should be linked to. Type the beginning of a name to start the quick search.
 5. **Task**: Select the required task or appointment type.
 6. **Created by**: Select which user should be responsible for the task/appointment, or click the **Select active user** button ![icon][img1] to choose yourself.
-7. **Assign to Our contact if available**: Check here if the task/appointment should be assigned to "our contact" for the recipient, i.e. the person who looks after this customer.
+7. **Assign to Our contact if available**: Check here if the task/appointment should be assigned to "our contact" for the recipient (the person who looks after this customer).
 8. **Default recipient**: Select a default recipient whom the task/appointment should be assigned to, or click the **Select active user** button ![icon][img1] to choose yourself.
 9. **Duration**: Click the **Select time span** button ![icon][img2] next to this field to set the duration of the task/appointment.
 

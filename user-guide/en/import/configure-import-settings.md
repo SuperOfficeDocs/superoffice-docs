@@ -20,7 +20,7 @@ This applies to the following, among other things:
 * Duplicates: Select the preferred method for managing information that occur in both the import file and the database.
 * Contacts that are not linked to companies.
 * Legal basis and consent source for contacts.
-* Lists: Select the preferred method for managing list elements in the import, e.g. new categories, business types and phone numbers, new product categories, product families and product types.
+* Lists: Select the preferred method for managing list elements in the import. For example, new categories, business types and phone numbers, new product categories, product families and product types.
 
 ## Typical scenarios
 

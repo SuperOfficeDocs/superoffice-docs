@@ -11,7 +11,7 @@ language: en
 
 # Freetext search
 
-Using the freetext search function in SuperOffice CRM, users can search for text throughout the application. This applies to text which they themselves have added to the database, e.g. company names, departments, and text from the **Contact** and **Document** dialogs. You can define exactly how this will work in SuperOffice CRM using this tab in Settings and maintenance.
+Using the freetext search function in SuperOffice CRM, users can search for text throughout the application. This applies to text which they themselves have added to the database, for example, company names, departments, and text from the **Contact** and **Document** dialogs. You can define exactly how this will work in SuperOffice CRM using this tab in Settings and maintenance.
 
 ## What would you like to do now?
 

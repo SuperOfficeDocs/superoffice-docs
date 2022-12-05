@@ -50,7 +50,7 @@ To create a role for associates in the company or for external users:
 
 10. If you are creating roles for associates: Click the **Functional rights** tab.
 
-    In this tab you can determine which functions will be available for the role, e.g. mail merge, publishing, exporting selections and administrator access in Settings and maintenance.
+    In this tab you can determine which functions will be available for the role, for example, mail merge, publishing, exporting selections and administrator access in Settings and maintenance.
 
     > [!TIP]
     > Hold the mouse pointer over a right to display more information about it. Read more about [Functional rights][6] in our FAQ.

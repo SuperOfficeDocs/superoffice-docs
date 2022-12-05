@@ -75,9 +75,9 @@ To add a new agent:
 2. Click **Add**. The user is added to the list of agents and has access to the selected chat channel.
 3. Select one or more of the following permissions:
     * **Can respond**: The agent can respond to incoming chats in this channel.
-    * **Notifications**: The agent will receive notifications if he/she is present.
+    * **Notifications**: The agent will receive notifications if they are present.
     * **Can listen in**: The agent can open and monitor another agent's ongoing chat conversation.
-    * **Manager**: The agent will get manager warnings. This permission can be used for team leaders, etc.
+    * **Manager**: The agent will get manager warnings. This permission can for example be used for team leaders.
 4. Repeat steps 1-3 for each agent you want to add.
 
 ## ChatBot

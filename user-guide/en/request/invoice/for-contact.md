@@ -23,7 +23,7 @@ To view invoice information that has been registered for a specific contact , do
 2. Click the ![icon][img1] **Actions** button and select **Invoices**. The **Invoices for ...** screen appears. This contains both requests that include messages with invoiceable hours, and registered invoice items, in chronological order. Note in particular these columns:
     * **Credit**: Shows the total amount for invoicing.
     * **Debit** Shows the total amount invoiced.
-    * **Balance**: Shows the running balance, i.e. the difference between **Credit** and **Debit**.
+    * **Balance**: Shows the running balance (the difference between **Credit** and **Debit**).
 
 3. If you are sending an invoice out to the contact, it is easier to keep an overview in SuperOffice Service if you add an invoice item at the same time.
 

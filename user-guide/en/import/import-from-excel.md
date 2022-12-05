@@ -26,7 +26,7 @@ If you have an Excel spreadsheet with a list of your companies/contacts and asso
 ## How can I prepare the Excel spreadsheet before import?
 
 * The Excel spreadsheet should as a minimum contain columns with company names and contact names (first name and last name).
-* You should check that the data is up-to-date (e.g. that postal addresses, telephone numbers and sector are correct).
+* Check that the data is up-to-date. For example, are postal addresses and telephone numbers correct?
 
 To import an Excel spreadsheet into the SuperOffice database:
 

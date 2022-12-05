@@ -39,7 +39,7 @@ Here you can view the details of the selected screen.
 
 ## Element properties
 
-Here you can edit the properties of a screen element, including a construction script for the element and simple values that are specific to the different types of elements (title, name, etc.). One such property is the body, which many elements have, and, because these can be quite long, they have their own pane.
+Here you can edit the properties of a screen element, including a construction script for the element and simple values that are specific to the different types of elements (such as title, name). One such property is the body, which many elements have, and, because these can be quite long, they have their own pane.
 
 ## Design mode
 

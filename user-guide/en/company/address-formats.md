@@ -99,7 +99,7 @@ This address format is used for the USA. It resembles the format for Australia/C
 | Address 1 | First address line |
 | Address 2 | Second address line |
 | City | Name of postal town |
-| State/zipcode | State code, e.g. CA, and postal code (zip code) |
+| State/zipcode | State code (for example, CA) and postal code (zip code) |
 | Country | Country |
 
 ## UK
@@ -112,7 +112,7 @@ This address format is used for the UK.
 | Address 2 | Second address line |
 | Address 3 | Third address line |
 | City | Postal town |
-| County/postcode | County and postcode, e.g. Somerset TA1 2WB |
+| County/postcode | County and postcode. For example, Somerset TA1 2WB |
 | Country | Country |
 
 ## Japan

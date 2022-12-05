@@ -2,7 +2,7 @@
 The following information is displayed in the columns on the **Sales** section tab:
 
 * ![icon][img1]: a checkbox showing whether the sale has been completed
-* a status icon for the sale (specifies the sale’s status, e.g. sold or lost)
+* a status icon for the sale (specifies the sale’s status, for example, sold or lost)
 * sale date
 * an amount
 * the sales stage

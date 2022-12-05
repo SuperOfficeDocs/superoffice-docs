@@ -11,7 +11,7 @@ language: en
 
 # Delete contacts
 
-Why would you delete contacts in SuperOffice? A contact may have been added by mistake or be a duplicate, or a contact has been added with only a first name etc.
+Why would you delete contacts in SuperOffice? For example, contact may have been added by mistake or be a duplicate, or a contact has been added with only a first name.
 
 There are three ways you can delete a contact from SuperOffice CRM:
 

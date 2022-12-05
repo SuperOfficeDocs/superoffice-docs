@@ -74,7 +74,7 @@ Enter the addressee’s reference from their communication.
 
 ### Visible for
 
-Click the **Visible for** field to display a list that allows you to choose whether the document will be visible to all users, private (i.e. visible only to the user defined as owner), or visible to all users in one of the user groups that the owner belongs to.
+Click the **Visible for** field to display a list that allows you to choose whether the document will be visible to all users, private (visible only to the user defined as owner), or visible to all users in one of the user groups that the owner belongs to.
 
 > [!NOTE]
 > If you specify that a document will only be visible to the owner, it will appear in italics on the **Activities** section tab.

@@ -27,7 +27,7 @@ Here you can enter a description of the view.
 
 * Select **Associates** if you want to add users from your organisation to the view.
 * Select **Project** if you want to add project participants from your organisation to the view.
-* Select **Resource** if you want to add resources, e.g. conference rooms and projectors, from your organisation to the view.
+* Select **Resource** if you want to add resources such as conference rooms and projectors from your organisation to the view.
 
 ### List box
 

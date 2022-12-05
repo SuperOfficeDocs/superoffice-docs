@@ -39,7 +39,7 @@ All companies and organisations have their own requirements with regard to the i
 * [The More tab (Document)][5]
 * The Details tab in the Sale screen
 
-You can specify *page 1 fields*, i.e. fields that will be displayed on the "first page" in their respective screens or dialogs, in the following places:
+You can specify *page 1 fields* (fields that will be displayed on the "first page" in their respective screens or dialogs) in the following places:
 
 [!include[List](includes/list-page-1-field-locations.md)]
 

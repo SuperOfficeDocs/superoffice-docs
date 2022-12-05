@@ -81,7 +81,7 @@ To add fields to the form:
 2. Click the **Add** button ![icon][img2]. The **Add element** window opens.
 
 3. Select one of the following field categories:
-    * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, email address etc. Depending on the type of field, values from submitted forms can either replace existing values (such as country or title) or be added to the relevant SuperOffice field (such as mobile phone).
+    * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, email address, and so on. Depending on the type of field, values from submitted forms can either replace existing values (such as country or title) or be added to the relevant SuperOffice field (such as mobile phone).
     * **Form elements**: Fields for entering text or date, fields for selecting values (lists, checkboxes and radio buttons) and file upload fields.
     * **View elements**: Sections, texts and images. Use sections to [create multi-page forms](#multi-page).
 

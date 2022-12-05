@@ -23,7 +23,7 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 
 When you add an item to the **GUI - Web panel** list in Settings and maintenance, the **Edit list item** dialog is not the same as described under [Add items][1].
 
-This is how to fill out the fields in the **Edit list items** dialog when the items are URL addresses, i.e. pages on the Internet or saved HTML files:
+This is how to fill out the fields in the **Edit list items** dialog when the items are URL addresses (pages on the Internet or saved HTML files):
 
 1. Enter the required name of the item in the **Name** field. This name is displayed when you add the URL address in SuperOffice CRM.
 

@@ -33,7 +33,7 @@ You can edit both the name of a folder and the details you entered when creating
 
 ## Delete folders
 
-When you delete a folder, all its contents (selections, FAQ entries, reply templates, tables, scripts, macros etc.) are also deleted from SuperOffice Service.
+When you delete a folder, all its contents (such as selections, FAQ entries, reply templates, tables, scripts, and macros) are also deleted from SuperOffice Service.
 
 1. Go to the required folder.
 2. Click the name of the folder.

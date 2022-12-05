@@ -23,7 +23,7 @@ It may be appropriate to have the same reply template in several languages, for 
 8. Click **OK**. The changes are saved. The **(Unspecified language)** tab changes to the selected language.
 
 > [!TIP]
-> Click the **Delete selected language body** to delete the active language body (i.e. the selected language tab).
+> Click the **Delete selected language body** to delete the active language body (the selected language tab).
 
 <!-- Referenced links -->
 [1]: create.md

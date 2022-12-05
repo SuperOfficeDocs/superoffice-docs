@@ -15,13 +15,13 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **System administrator**: The email address of the person who is responsible for operation of SuperOffice Service. This must be an email address that is not imported/processed by SuperOffice Service.
 
-* **Default From address**: The email address which is to be the system's default sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service, e.g. support@company.com.
+* **Default From address**: The email address which is to be the system's default sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service. For example, support@company.com.
 
 * **Internal URL**: The base address for access to the SuperOffice Service system.
 
 * **External URL**: The base address for external access to the SuperOffice Service system.
 
-* **Cgi-Bin path**: The path to the folder where SuperOffice Service's Cgi-Bin application files reside. This path must have a leading folder separator sign (slash), but not a trailing one, e.g.: /bin or /Scripts.
+* **Cgi-Bin path**: The path to the folder where SuperOffice Service's Cgi-Bin application files reside. This path must have a leading folder separator sign (slash), but not a trailing one. For example, */bin* or */Scripts*.
 
 * **Email tag**: The email tag which, in conjunction with the request number, creates a unique key for the subject in e-mails that are sent out from SuperOffice Service. You must not change this value unless you know what you are doing! If this value is changed, received e-mails will not be correctly linked to existing requests.
 
@@ -31,7 +31,7 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **Number of days before notification**: Specifies how many days must pass before email notification about old requests is sent to the users. You can also specify the time of day that the notification should be sent.
 
-* **System clock**: Select whether to use a 24-hour or 12-hour (am/pm) clock in the system. User-specific clocks (display of requests etc.) are controlled by each individual user's settings, and not by this value.
+* **System clock**: Select whether to use a 24-hour or 12-hour (am/pm) clock in the system. User-specific clocks (for example, display of requests) are controlled by each individual user's settings, and not by this value.
 
 * **Default style for outbound email**: Here you can define a default style to be used for emails in HTML format. For example: &lt;p style='font-family:Verdana'&gt; &lt;/p&gt;
 

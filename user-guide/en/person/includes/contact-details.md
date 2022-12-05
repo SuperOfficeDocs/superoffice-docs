@@ -5,7 +5,7 @@
 
 * In the **Chat** field, you can enter the contact’s chat application addresses, for Microsoft, Google or similar. Enter the chat address and select a service provider from the list.
 
-* In the **Internet phone** field you can enter the contact’s VOIP address, e.g. their Skype address.
+* In the **Internet phone** field you can enter the contact’s VOIP address, for example, their Skype address.
 
 * Fill in the **Position** and **Birthdate** fields as required. **Position** is selected from a list that is defined in SuperOffice Settings and maintenance.
 

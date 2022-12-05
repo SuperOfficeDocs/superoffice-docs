@@ -44,14 +44,14 @@ To specify advanced import settings:
 
 1. In the **Row delimiter** list box, choose from the predefined options specifying which characters separate rows from each other.
 
-1. In the **Associate format** list box, choose from the predefined formats specifying how names in the import file are to be interpreted, e.g. whether first names come before last names.
+1. In the **Associate format** list box, choose from the predefined formats specifying how names in the import file are to be interpreted, for example, whether first names come before last names.
 
     > [!NOTE]
     > **Native ID** means the associate's **associate_id**, as recorded in the database. If no such ID is found, the contents of the **Default associate** field are used.
 
 1. In the **Default associate** list box, choose which name will be entered by default if the SuperOffice database is unable to interpret the associate format in the import file.
 
-1. In the **Country format** list box, choose from the predefined formats specifying how countries will be interpreted, e.g. whether the country name is local or English.
+1. In the **Country format** list box, choose from the predefined formats specifying how countries will be interpreted, for example, whether the country name is local or English.
 
     > [!NOTE]
     > **Native ID** means **country_id**, as recorded in the database.

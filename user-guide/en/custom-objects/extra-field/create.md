@@ -54,7 +54,7 @@ To create extra fields in tables:
 | Target table | Specify which table should be used. |
 | Text area /Height | Select this options to specify the height (number of lines) of the text field. |
 | Type | Displays the field type you have selected. |
-| Update null values now | Check this option if you want to replace all null values (i.e. empty fields) in the database with the default value. Note that this operation can take a while. |
+| Update null values now | Check this option if you want to replace all null values (empty fields) in the database with the default value. Note that this operation can take a while. |
 | URL | Enter the URL of the dynamic link here. |
 | Use active user as default value | If this option has been checked, the field's value is set as the current user as default. In our example, this could be relevant for the "Registered by" field. |
 | Use current date/time as default value | If this option has been checked, the field's value is set as the current date/time as default. In our example, this could be relevant for the "Registered date" field. |

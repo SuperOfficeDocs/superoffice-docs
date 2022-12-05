@@ -15,7 +15,7 @@ so.client:
 # Edit email signature
 
 > [!NOTE]
-  > The default signature template contains [template variables][3] for your name, company, address, phone numbers, email address, website, etc. The variables are replaced with data from your contact card, so your signature will always be updated with the correct information.
+  > The default signature template contains [template variables][3] for your name, company, address, phone numbers, email address, website, and so on. The variables are replaced with data from your contact card, so your signature will always be updated with the correct information.
 
 1. Click the **Personal settings** button in the Top bar.
 2. Select **Edit personal signature**. This will bring up your signature dialog.

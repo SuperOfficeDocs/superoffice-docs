@@ -50,7 +50,7 @@ Administrators can keep track of exactly how much of each service has been used 
 
 ### System notifications
 
-This list shows status messages from the system and [events][1] that have been added. Notifications of active imports, SAINT or freetext indexing, etc. Select a notification in the list to display a description. You can keep track of events that are active in the system.
+This list shows status messages from the system and [events][1] that have been added. Notifications of active imports, SAINT or freetext indexing, and so on. Select a notification in the list to display a description. You can keep track of events that are active in the system.
 
 The **System events** tab consists of two parts:
 

@@ -28,9 +28,9 @@ You can receive notifications of the following events in SuperOffice Service.
 
 * **New message in request**: Check here to be notified each time a new message arrives for one of your requests.
 
-* **Request escalated**: Check here to be notified when one of your requests is escalated, i.e. forwarded to another request handler under the [rules defined for escalation][2].
+* **Request escalated**: Check here to be notified when one of your requests is escalated (forwarded to another request handler under the [rules defined for escalation][2]).
 
-* **Request activated**: Check here to be notified when one of your requests is activated, i.e. is given the **Open** status again after having been **Postponed** or **Closed**.
+* **Request activated**: Check here to be notified when one of your requests is activated (given the **Open** status again after having been **Postponed** or **Closed**).
 
 * **When someone takes over your request**: Check here to be notified when one of your requests is taken over by another request handler.
 

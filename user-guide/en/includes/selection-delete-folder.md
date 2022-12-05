@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-When you delete a folder, all its contents (selections, FAQ entries, reply templates, tables, scripts, macros etc.) are also deleted from SuperOffice Service.
+When you delete a folder, all its contents (selections, FAQ entries, reply templates, tables, scripts, macros, and so on) are also deleted from SuperOffice Service.
 
 1. Go to the required folder.
 2. Click the name of the folder.

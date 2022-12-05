@@ -11,7 +11,7 @@ language: en
 
 # Create repeating follow-up
 
-It may happen that you want to create a series of appointments to occur at regular intervals, e.g. a weekly status meeting. Instead of recording these meetings one at a time, you can use the repeating follow-ups function.
+It may happen that you want to create a series of appointments to occur at regular intervals, for example, a weekly status meeting. Instead of recording these meetings one at a time, you can use the repeating follow-ups function.
 
 > [!TIP]
 > All [frequency options are described in the reference][4].
@@ -28,13 +28,13 @@ It may happen that you want to create a series of appointments to occur at regul
     > You can only change the start date for the follow-up here. If you want to change the time, you must first close the **Repeating follow-ups** dialog and then change the time in the **Appointment**, **Task**, or **Phone call** dialog.
 
 5. Under **Frequency** you specify whether the follow-up is to be repeated daily, weekly, monthly, yearly or at a user-defined interval. Then select further details for frequency in the field in the middle of the dialog. The options available here depend on what you select under **Frequency**:
-    * If you select **Daily**, you can specify that the follow-up should repeat every working day, every day of the week, or at a user-defined interval, e.g. every other day.
+    * If you select **Daily**, you can specify that the follow-up should repeat every working day, every day of the week, or at a user-defined interval, such as every other day.
 
-    * If you select **Weekly**, you can specify that the follow-up should repeat at a user-defined weekly interval, e.g. every three weeks, and on which day of the week it should take place.
+    * If you select **Weekly**, you can specify that the follow-up should repeat at a user-defined weekly interval, such as every three weeks, and on which day of the week it should take place.
 
-    * If you select **Monthly**, you can specify on which day of the month the follow-up should repeat, e.g. on the 5th of the month, and a user-defined monthly interval, e.g. every 4th month. You can also specify that the follow-up should repeat, for example, on the fourth Wednesday of the month.
+    * If you select **Monthly**, you can specify on which day of the month the follow-up should repeat, for example, on the 5th of the month, and a user-defined monthly interval, such as every 4th month. You can also specify that the follow-up should repeat, for example, on the fourth Wednesday of the month.
 
-    * If you select **Yearly**, you can specify on which day and month the follow-up should repeat each year, e.g. every 23rd of September.
+    * If you select **Yearly**, you can specify on which day and month the follow-up should repeat each year, for example, every 23rd of September.
 
     * If you select **Custom**, you can manually enter the dates you require. Select the day in the calendar and click the arrow (![icon][img2]) to add it to the list of selected dates. If you want to delete a date you have selected, select the date in the list and click **Delete**.
 
@@ -50,7 +50,7 @@ It may happen that you want to create a series of appointments to occur at regul
 
 9. Click **Save** in the **Appointment** dialog to save the changes you have made.
 
-In the **Appointment**, **Task** or **Phone call** dialog, the text next to the **Recurrence** field will show what sort of repetition you have specified for the follow-up, e.g. **Monthly (23.09.2016 - 23.09.2017)**.
+In the **Appointment**, **Task** or **Phone call** dialog, the text next to the **Recurrence** field will show what sort of repetition you have specified for the follow-up, for example, **Monthly (23.09.2016 - 23.09.2017)**.
 
 ## What would you like to find out more about?
 

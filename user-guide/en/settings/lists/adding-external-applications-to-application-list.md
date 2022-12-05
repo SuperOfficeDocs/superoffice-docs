@@ -16,7 +16,7 @@ When you add an item to the **GUI - Application** list in Settings and maintenan
 [!include[Edit list item](../../includes/edit-list-item.md)] when the items are applications or similar:
 
 > [!NOTE]
-> Files or applications that have to be run locally (e.g. .exe files) are not accessible in SuperOffice CRM for Web.
+> Files or applications that must be run locally (for example, *.exe* files) are not accessible in SuperOffice CRM for Web.
 
 1. Enter the required name of the item in the **Name** field. This name is displayed at the place where you add the application in SuperOffice CRM (see step 7 concerning the **Show** list box).
 

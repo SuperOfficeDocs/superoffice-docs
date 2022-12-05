@@ -16,7 +16,7 @@ In SuperOffice CRM, you can create selections of records/data that you work a lo
 > [!TIP]
 > You can create charts from selections and also use selections to create mailings.
 
-All the selections also contain an overview of companies and contacts linked to the records in the selection, e.g. companies and contacts linked to the sales in a sale selection.
+All the selections also contain an overview of companies and contacts linked to the records in the selection. For example, companies and contacts linked to the sales in a sale selection.
 
 ## Types
 
@@ -32,7 +32,7 @@ There are three different types of selections in SuperOffice CRM:
 
 ## Tasks
 
-From the **Tasks** button (lower part of the screen), you can [perform specific tasks on the members of a selection][1], e.g. send an email to contacts linked to the sales in the selection.
+From the **Tasks** button (lower part of the screen), you can [perform specific tasks on the members of a selection][1]. For example, send an email to contacts linked to the sales in the selection.
 
 ## What can I use selections for
 
@@ -73,8 +73,8 @@ You can create a selection that contains
 
 You can create a selection that contains
 
-* a list of all follow-ups for the same customer last year, e.g. if they are considering signing a framework agreement with your company
-* all follow-ups of a specific status or for a specific customer
+* A list of all follow-ups for the same customer last year, for example, if they are considering signing a framework agreement with your company
+* All follow-ups of a specific status or for a specific customer
 
 ### Products
 

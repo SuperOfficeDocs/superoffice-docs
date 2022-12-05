@@ -54,7 +54,7 @@ Enter the following information in the **Details** tab:
 
 3. Select **Use signature in new email** to add your signature to new e-mails. If you do not have a personal signature, the system signature will be used.
 
-4. Select **Show email dialog** to display the **New email** dialog when you create a new email based on this template. In this dialog you can enter data such as company, contact, project etc, which is needed if the email template contains template variables.
+4. Select **Show email dialog** to display the **New email** dialog when you create a new email based on this template. In this dialog you can enter data such as company, contact, and project, which is needed if the email template contains template variables.
 
 5. Optionally, type in a description of the template in the **Description** field.
 

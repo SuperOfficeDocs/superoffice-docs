@@ -41,7 +41,7 @@ And you can create a selection containing all follow-ups you have this month, to
 
 Products
 
-You can create a selection containing all products sold this year, based on sales which contain quotes and have the status Sold. The selection can be limited to specific products categories, product families etc. based on the type of statistical output you need.
+You can create a selection containing all products sold this year, based on sales which contain quotes and have the status Sold. The selection can be limited to specific products categories, product families, and son on based on the type of statistical output you need.
 
 If you are going to upgrade one of your products from, say, version 2 to version 3, you can create a selection of all customers who have purchased version 2, and use this as a basis for a campaign.
 

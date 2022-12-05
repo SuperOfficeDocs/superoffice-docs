@@ -68,7 +68,7 @@ This is an overview of special options in some of the available fields.
 
   * **Allowed file types**: Enter the file types that can be uploaded. Use the format *jpg,gif,png,bmp* (comma-separated, no space). Leave this field empty to allow all file types.
 
-* **Rating**: A field where customers can rate for instance the service they received, using various rating types (stars, dice, 1-10 scale etc.).
+* **Rating**: A field where customers can rate for instance the service they received, using various rating types (stars, dice, 1-10 scale, and similar).
 
 * **Google reCAPTCHA**: The [reCAPTCHA feature][1] ("I’m not a robot" check-box) is a free Google service that will ensure that only real users can send in web forms. This prevents spam and automated bots from sabotaging your data collection.
 

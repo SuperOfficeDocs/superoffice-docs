@@ -15,7 +15,12 @@ You can manage bounces and blocked emails for individual mailings as well as for
 
 ## Why are emails returned?
 
-Emails may be returned due to email address errors, spam filters, Internet problems or inboxes being full. Some of these problems may be temporary (delivery delays, email server temporarily unavailable etc.), while others are permanent (wrong address, unknown domain etc.). Temporarily failing email addresses are not blocked, and they are not skipped in the next mailing.
+Emails may be returned due to email address errors, spam filters, Internet problems or inboxes being full.
+
+* Temporary problems: delivery delays, email server temporarily unavailable
+* Permanent problems: wrong address, unknown domain.
+
+Temporarily failing email addresses are not blocked, and they are not skipped in the next mailing.
 
 > [!NOTE]
 > To prevent misspelled or invalid email addresses, SuperOffice validates email addresses received through Chat and Forms. The validation is performed using DNS lookup and controlling basic email syntax.

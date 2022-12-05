@@ -29,7 +29,7 @@ The following types of events are started from the various screens in Settings a
 
 You can start the following types of event from the **Licences** screen **Status** tab:
 
-* **No Login**: Select this event to prevent login during server or database upgrades, scheduled maintenance etc.
+* **No Login**: Select this event to prevent login during server or database upgrades, scheduled maintenance, and so on.
 * **No Freetext**: Select this event to limit the size of the outgoing Travel database.
 * **No Travel**: Select this event to deactivate Travel. This can be useful just before major system upgrades, to avoid synchronisation issues for returning Travel users.
 * **Message of the day**: Select this event to create important messages that are displayed to everyone who logs in to SuperOffice CRM (and, after a few minutes, the message is also shown to anyone already logged in).

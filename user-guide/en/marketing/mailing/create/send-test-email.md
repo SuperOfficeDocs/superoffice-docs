@@ -33,7 +33,7 @@ When you are testing a mailing, it is important to check the following:
 * That the opening of messages is registered in SuperOffice Marketing.
 * That images are correctly displayed.
 * That the layout of messages looks good.
-* That the messages are up-to-date (dates/years, names, version numbers, etc.) and do not contain spelling mistakes/typos.
+* That the messages are up-to-date (dates/years, names, version numbers, and so on) and do not contain spelling mistakes/typos.
 * That the mailing is [legible on a smart phone or tablet][1].
 
 ## Reset counters after testing

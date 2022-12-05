@@ -78,7 +78,7 @@ When editing reply templates and mailings, you can insert template variables by 
 | config.panicMail | The email address where error messages will be sent |
 | config.smtpHost | The hostname for the outbound SMTP |
 | config.smtpPort | The port for the outbound SMTP |
-| config.tag | The prefix before the request number in the subject line for emails, e.g. “ejTag:” |
+| config.tag | The prefix before the request number in the subject line for emails. For example, "ejTag:" |
 | config.uniqueId | The unique ID for this installation |
 | config.warning | The path for the warning log files |
 | config.wwwPath | The system path for WWW files |

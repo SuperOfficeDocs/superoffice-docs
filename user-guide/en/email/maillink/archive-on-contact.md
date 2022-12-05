@@ -31,7 +31,7 @@ It is possible to archive an email (including any attachments) in your mail clie
 
 9. In the **Type** dropdown, you may select one of the available document types.
 
-10. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose whether the document will be visible to all users, private (i.e. visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
+10. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose whether the document will be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
     > The **Visible for** field is only available if this right has been assigned to you in SuperOffice Settings and maintenance.

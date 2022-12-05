@@ -66,7 +66,7 @@ Use the arrow buttons ![icon][img9] and ![icon][img10] to the right of the colum
 
 ## Edit columns
 
-You can edit the information about the existing columns, e.g. the name and column widths. Proceed as follows:
+You can edit the information such as name and width about the existing columns.
 
 1. Open the **Edit element profile** screen as described above.
 2. To the right of the required column, click the pencil icon ![icon][img2]. The fields under the column overview show information specified for the selected column.

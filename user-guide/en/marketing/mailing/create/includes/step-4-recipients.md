@@ -104,7 +104,7 @@ When you have added recipients to the **Recipients** list, you can preview the m
 
 1. Click a recipient in the **Recipients** list.
 
-2. Click the **Preview** button. The **Preview** window displays the mailing as it will look for the selected recipient. Any template variables have been replaced by actual contact data (name, company etc.).
+2. Click the **Preview** button. The **Preview** window displays the mailing as it will look for the selected recipient. Any template variables (for example, name and company) have been replaced by actual contact data.
 
 3. Click links to check that they work, but remember to reset them if they are tracked.
 

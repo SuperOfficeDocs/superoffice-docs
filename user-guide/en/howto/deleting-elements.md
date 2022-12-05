@@ -26,7 +26,7 @@ If the **Delete** button is disabled (light grey), it means that you have no rig
 Examples:
 
 * You cannot delete a contact who is also an employee in a SuperOffice company.
-* You cannot delete appointments, documents, sales, projects, etc. that do not belong to you, unless you have sufficient user rights.
+* You cannot delete appointments, documents, sales, projects, and so on that do not belong to you, unless you have sufficient user rights.
 
 ## Buttons
 

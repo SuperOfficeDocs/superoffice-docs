@@ -59,7 +59,7 @@ If the sender is not listed in SuperOffice CRM at all, you will be given the opt
 
 3. In the **Company** field, select the company to save the new contact in. You may search for a company by starting to type the company name and then select from the matches that appear.
 
-4. Enter the required information about the contact, e.g. name, email address and phone number, in the corresponding fields.
+4. Enter the required information about the contact, such as name, email address, and phone number.
 
 5. Click **OK**. The contact and their email address will be displayed on the **Contacts** section tab of the specified company card.
 

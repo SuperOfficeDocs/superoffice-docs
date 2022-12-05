@@ -39,9 +39,9 @@ To edit text content (text blocks) in a message, do as follows:
 
 7. Click **Apply** when you have finished.
 
-## Edit other content types
+## Edit other content types such as images or social media buttons
 
-To edit other content types, such as images, social media buttons/menus etc. in a message, do as follows:
+To edit other content types in a message:
 
 1. Go to the **Content** step in the mailing, or open a template for editing.
 2. In the message, click the content you wish to edit. The side-panel displays all editing options for the selected content.

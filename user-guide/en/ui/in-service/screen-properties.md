@@ -24,8 +24,8 @@ Here you can edit the properties of a screen. You can create a script to precalc
 
 ## Scripts
 
-* **Loading script (before setFromCgi)**: This script is run before setFromCgi, i.e. before the screen elements are assigned their values
-* **Loading script (after setFromCgi)**: This script is run after setFromCgi, i.e. after the screen elements are assigned their values
+* **Loading script (before setFromCgi)**: This script is run before the screen elements are assigned their values
+* **Loading script (after setFromCgi)**: This script is run after the screen elements are assigned their values
 * **Load script (run after everything else)**: This script is run at the end, after code and scripts for any buttons have been run.
 * **Hidden variables**: The variables defined here are saved when the screen is submitted, so the next screen has access to them.
 

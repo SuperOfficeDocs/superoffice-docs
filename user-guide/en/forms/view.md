@@ -51,7 +51,7 @@ Here you can find the link and script for [publishing the form][3] on a web page
 
 Click the **Open in new window** button to preview the form.
 
-**Show with pre-filled fields**: Select this option to add field names to the link and JavaScript. By adding template variables to the form link in mailings, the form fields can be [pre-filled with existing data][4] (name, email etc.) for registered contacts.
+**Show with pre-filled fields**: Select this option to add field names to the link and JavaScript. By adding template variables to the form link in mailings, the form fields can be [pre-filled with existing data such as name and email][4] for registered contacts.
 
 On the left side of the screen you can select various types of publishing options for the form.
 
@@ -61,7 +61,7 @@ Charts show statistics for the form (mouse-over to view exact numbers).
 
 ### Form submissions
 
-Here you can view and process all submitted forms. Use the filter options at the bottom of the list to view only submissions with specific statuses. See [Process form submissions][5].
+Here you can view and [process all submitted forms][5]. Use the filter options at the bottom of the list to view only submissions with specific statuses.
 
 ### Response email
 

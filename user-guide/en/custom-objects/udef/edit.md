@@ -20,7 +20,7 @@ To edit a field from one of the **More** tabs in SuperOffice CRM:
 1. Make the necessary changes in the various fields (under [Add fields][1] you will find an overview of what to specify here).
 
     > [!NOTE]
-    > The **Type** list box only contains the options you can change, i.e. where existing data can be converted so that it fits the new field type.
+    > The **Type** list box contains only the options you can change. That is, where existing data can be converted to fit the new field type.
 
 1. Click **Save**.
 

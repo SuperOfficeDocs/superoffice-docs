@@ -19,7 +19,7 @@ To add a new user-defined field:
 
 1. Type the required name into the **Name** field.
 
-1. In the **Type** list box, select the [type of field][6] you wish to add (e.g. number, text or date).
+1. In the **Type** list box, select the [type of field][6] you wish to add (for example number, text, or date).
 
 1. In the **Default value** field, enter the value to be inserted by default in this field.
 

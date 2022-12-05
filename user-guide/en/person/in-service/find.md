@@ -11,11 +11,11 @@ language: en
 
 # Find contacts
 
-This screen is used to search for contacts in the system. You can search all contact fields (first name, last name, phone number, etc.) as well as fields for related records.
+This screen is used to search for contacts in the system. You can search all contact fields (first name, last name, phone number, and so on) as well as fields for related records.
 
-For example, you can search for all contacts in all companies with a specific priority, or all contacts with a specific email address type. The table structure can be extended with extra fields and tables, to record contacts' interests or similar. In practice, you can filter on all values available in the system, for both contacts and related tables (companies, priority, etc.). When sending out newsletters, you may, for example, want to find all contacts interested in a specific product, or who have been registered in a particular period.
+For example, you can search for all contacts in all companies with a specific priority, or all contacts with a specific email address type. The table structure can be extended with extra fields and tables, to record contacts' interests or similar. In practice, you can filter on all values available in the system, for both contacts and related tables (companies, priority, and so on). When sending out newsletters, you may, for example, want to find all contacts interested in a specific product, or who have been registered in a particular period.
 
-All searches in SuperOffice Service, regardless of what you are searching for (requests, companies, contacts, etc.), are performed from the same screen.
+All searches in SuperOffice Service, regardless of what you are searching for, are performed from the same screen.
 
 To find contacts that are registered in the system:
 

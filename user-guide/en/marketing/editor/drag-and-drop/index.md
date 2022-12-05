@@ -28,7 +28,7 @@ SuperOffice Marketing is supplied with many [ready-made message templates][2]), 
 
 ## Edit columns and blocks/sections
 
-When you click a section (column, content box, row etc.), buttons with editing options appears. The side-panel displays editing options for the selected section.
+When you click a section (such as column, content box, row), buttons with editing options appears. The side-panel displays editing options for the selected section.
 
 A blue frame is shown around the selected element, so that you always know which part of the message you are editing.
 

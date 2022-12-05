@@ -73,7 +73,7 @@ There are effectively no limits on what you can search for in SuperOffice CRM. T
 
 ## <a id="ex1" />Example 1: search for profitable customers
 
-Imagine that you are a sales department manager and you want to make a presentation to the rest of management, showing what you have achieved since the last meeting. You want to focus on profitable customers, i.e. customers you have recently sold a lot to. This is how to find them:
+Imagine that you are a sales department manager and you want to make a presentation to the rest of management, showing what you have achieved since the last meeting. You want to focus on profitable customers (customers you have recently sold a lot to).
 
 1. Click the **Find** button.
 
@@ -87,7 +87,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 6. In the list box to the right of **Amount**, click the arrow ![icon][img1] and select **&gt;** (greater than).
 
-7. In the last field on the line, enter the minimum amount, e.g. "100 000".
+7. In the last field on the line, enter the minimum amount. For example, "100 000".
 
 8. You have now specified that you want to find companies with sales above the amount you entered, but we have not quite finished. We also want to specify a period.
 

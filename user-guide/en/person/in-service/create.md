@@ -17,7 +17,7 @@ Normally, contacts are registered by the system when they send in mails, but the
 
 2. Enter the contact's first name and last name.
 
-3. In the **New email address** field, enter the address itself to the left and a name to identify the email address (for instance "work", "private" etc) in the field on the right.
+3. In the **New email address** field, enter the address itself to the left and a name to identify the email address (for example, work, private) in the field on the right.
 
 4. Click ![icon][img1] to add the email address. You can add multiple addresses.
 
@@ -47,7 +47,7 @@ Normally, contacts are registered by the system when they send in mails, but the
     Click ![icon][img3] to [create a new company][1].
 
     > [!TIP]
-    > You can also click **Automatic** to select a company automatically based on the domain in the email address, i.e. what appears after "@". The domain must be registered on a company.
+    > You can also click **Automatic** to select a company automatically based on the domain in the email address (what appears after "@"). The domain must be registered on a company.
 
 14. Check **Company access** if the contact is to have access to all requests registered for all contacts of the company in question, for example via a customer centre.
 
