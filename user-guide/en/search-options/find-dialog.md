@@ -204,7 +204,7 @@ Let's assume you are the manager of a company and want to find out what types of
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex4" />Example 4: search for projects you have participated in during the last year
 
-Imagine that the time for your pay review is approaching and you think you deserve to be better rewarded for your efforts. To show your boss how energetic and versatile you are, you want to tell him about the projects you have been involved in in the last year. This is how to find them:
+Imagine that the time for your pay review is approaching and you think you deserve to be better rewarded for your efforts. To show your boss how energetic and versatile you are, you want to tell them about the projects you have been involved in in the last year. This is how to find them:
 
 1. Click the **Find** button.
 

@@ -30,7 +30,7 @@ To create extra fields in tables:
 | Field | Description |
 |---|---|
 | Cannot be empty | If you check this option, this field becomes mandatory. |
-| Choose from list box | If the field is connected to an extra table, select his option to display a list of table values. |
+| Choose from list box | If the field is connected to an extra table, select this option to display a list of table values. |
 | Choose values from list | If this option is checked, the field becomes a list box. The options in the list will be the text strings entered in the text box. There is one line per option. |
 | Create index | Specify whether the field is to be indexed or not. It is quicker to search for data in indexed fields. |
 | Database field | The name the column will have in the database. This name must be unique in this table. In addition, the column name must be a single word, containing only underscores, letters from a to z or numbers, and must begin with "x_". You can only specify this name when the field is created; it cannot be changed later on. |

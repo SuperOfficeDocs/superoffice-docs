@@ -34,7 +34,7 @@ Different companies have different routines for request handling and can use Sup
 3. The enquiry from the customer is automatically registered as a request in SuperOffice Service.
 4. The request ends up with a request handler in SuperOffice Service. See [Assign requests][12] and [Find requests][13].
 5. The request handler reads through the request.
-6. The request handler is unable to fulfil the request on his own and does one of the following:
+6. The request handler is unable to fulfil the request on their own and does one of the following:
     * [Asks a colleague][2].
     * [Gets help from outside][3].
 7. The request handler [sends a response to the customer][4].
@@ -44,7 +44,7 @@ Different companies have different routines for request handling and can use Sup
 
 1. The customer has a problem with a product and calls user-support.
 2. The request handler who answers the call [registers the request][14].
-3. The request handler is unable to fulfil the request on his own and does one of the following:
+3. The request handler is unable to fulfil the request on their own and does one of the following:
     * [Asks a colleague][2].
     * [Gets help from outside][3].
 4. The request handler [sends a response to the customer][4].

@@ -20,7 +20,7 @@ When a new customer sends in a request, SuperOffice Service tries to decide whic
 3. John is added as a new contact for Coca-Cola, instead of being added as a new contact without a company.
 4. SuperOffice Service then checks whether the email domain .se is linked to one of the registered customer languages. .se is registered as domain for the customer language Swedish.
 5. The customer language for contact John is therefore set as Swedish.
-6. SuperOffice Service sends a Swedish reply template (if this has been created) to John, informing him that the request has been received and registered.
+6. SuperOffice Service sends a Swedish reply template (if this has been created) to John, informing them that the request has been received and registered.
 7. John receives a user name and password from SuperOffice Service, and can log on to cs.liberty.com and access the Swedish version of SuperOffice Customer Centre. John will also have access to Swedish FAQs if this has been set up in SuperOffice Service.
 
 ## Scenario 2

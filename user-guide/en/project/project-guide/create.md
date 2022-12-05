@@ -112,7 +112,7 @@ Planning meeting:
     > [!NOTE]
     > Some of the options before are, for logical reasons, not relevant for the first follow-up in a project guide.
 
-5. Check **Assign follow-up to project member** if you want to make it possible to assign this follow-up to one of the project participants. When the project owner creates this follow-up in SuperOffice CRM, a dialog is displayed, in which the project owner can choose one of his associates to be the owner of the follow-up.
+5. Check **Assign follow-up to project member** if you want to make it possible to assign this follow-up to one of the project participants. When the project owner creates this follow-up in SuperOffice CRM, a dialog is displayed, in which the project owner can choose one of their associates to be the owner of the follow-up.
 
 6. Check **Milestone follow-up** if you want to define the follow-up as a milestone.
 

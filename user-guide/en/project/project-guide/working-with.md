@@ -109,7 +109,7 @@ You record a new project and select the **Conference** project type, which is li
     [!NOTE]
     > The **Project guide - move the project to the next status** dialog only comes up if this behaviour is defined for the project type. If it is not defined, you need to [move the project to the next status](#move-to-next-status).
 
-2. At the planning meeting, you agree that your colleague should set up a list of conference delegates. You want to create a task in his diary to remind him about this.
+2. At the planning meeting, you agree that your colleague should set up a list of conference delegates. You want to create a task in their diary as a reminder.
 
     1. Click **Create** next to the **Create list of project members** follow-up.
         The **Assign task to project member** dialog opens.

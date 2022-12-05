@@ -40,7 +40,7 @@ In the top-right corner of the **Chat** screen, you can set your presence:
     > [!NOTE]
     > If you want to respond to a specific chat (for instance from a returning customer, you can do this by double-clicking the relevant row in the **Incoming chat** list in the **Dashboard** tab.
 
-4. Try to [locate the customer in SuperOffice][1], so you can see relevant information about the him/her in the side panel, to help you respond to their inquiry.
+4. Try to [locate the customer in SuperOffice][1], so you can see relevant information about them in the side panel, to help you respond to their inquiry.
 
 5. To chat, enter text in the lower part of the screen, and press **ENTER** or click **Send**.
 

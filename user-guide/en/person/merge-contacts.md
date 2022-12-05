@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](../includes/note-req-manage-entities.md)]
 
-If a physical person is registered as two different contacts in SuperOffice CRM, you can merge these contacts together. This might be desirable if the person has been registered under two different names at the same company (e.g. "Jonathan Clark" and "Jonathon Clarke"), or if the person has been registered at both his old and his new employer.
+If a physical person is registered as two different contacts in SuperOffice CRM, you can merge these contacts together. This might be desirable if the person has been registered under two different names at the same company (e.g. "Jonathan Clark" and "Jonathon Clarke"), or if the person has been registered at both their old and new employer.
 
 Project membership and activities will be moved to the target contact, and the source contact can be deleted or marked as a former employee.
 

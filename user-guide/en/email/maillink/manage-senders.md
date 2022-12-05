@@ -73,7 +73,7 @@ If the sender is not listed in SuperOffice CRM at all, you will be given the opt
 
 4. In the **Contact** field, choose from the contacts recorded for the active company.
 
-5. Check the **Set as primary email address for this contact** box if the contact has more than one email address and you would like this one to be used as his or her default address.
+5. Check the **Set as primary email address for this contact** box if the contact has more than one email address and you would like this one to be used as their default address.
 
 6. Click **OK**. The contact and their email address will be displayed on the **Contacts** section tab of the specified company card.
 
