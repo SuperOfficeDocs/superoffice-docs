@@ -29,7 +29,7 @@ A role describes two things:
 
 ## Predefined roles
 
-A number of predefined roles are included with SuperOffice CRM. The **User levels 0–5** roles correspond to the user levels from previous versions of SuperOffice, where user level 0 is an administrator. You can edit these roles at will.
+Predefined roles are included with SuperOffice CRM. The **User levels 0–5** roles correspond to the user levels from previous versions of SuperOffice, where user level 0 is an administrator. You can edit these roles at will.
 
 | Role | Explanation |
 |---|---|

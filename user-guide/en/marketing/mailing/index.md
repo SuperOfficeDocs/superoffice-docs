@@ -28,7 +28,7 @@ A mailing is usually handled in two steps:
 
 ## Recipients
 
-You can add recipients from a number of sources.
+You can add recipients from multiple sources.
 
 > [!NOTE]
 > When you add recipients, only contacts with a valid email address (or mobile phone number, in the case of SMS mailings) will be added to the **Recipients** list.

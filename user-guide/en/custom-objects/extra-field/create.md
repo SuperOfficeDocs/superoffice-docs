@@ -32,16 +32,16 @@ To create extra fields in tables:
 | Cannot be empty | If you check this option, this field becomes mandatory. |
 | Choose from list box | If the field is connected to an extra table, select this option to display a list of table values. |
 | Choose values from list | If this option is checked, the field becomes a list box. The options in the list will be the text strings entered in the text box. There is one line per option. |
-| Create index | Specify whether the field is to be indexed or not. It is quicker to search for data in indexed fields. |
+| Create index | Specify if the field is to be indexed or not. It is quicker to search for data in indexed fields. |
 | Database field | The name the column will have in the database. This name must be unique in this table. In addition, the column name must be a single word, containing only underscores, letters from a to z or numbers, and must begin with "x_". You can only specify this name when the field is created; it cannot be changed later on. |
 | Decimal places | The number of decimal places that are allowed in a number. |
 | Default value | The default value will be used for this field. |
 | Description | The default description. |
-| Display value | Specify whether to display the value or not. |
+| Display value | Specify if to display the value or not. |
 | External | If this option is checked, the field will be available from a customer centre. This is only relevant for default tables, since extra tables are always displayed in customer centres. |
 | Header for list | This field is used to specify a header for these entries when they are displayed as "sub-entries" in a list. In our example, this means the name of the new tab in the **View contact** screen, so we enter "Computers" here. |
 | Hide function buttons | (relations) Select this option to hide the function for adding new entries to relation tables. |
-| Hide the field | Specify whether to display the field or not. |
+| Hide the field | Specify if to display the field or not. |
 | Keep HTML tags | (text) Select this option to include the HTML tag in the text. |
 | Name | The name of the field. In our example, this will be the names in the list in the introduction to this chapter. |
 | Number of units | (time span) Enter the maximum number of units for the "largest" selected time unit. Example: If you have selected hours and minutes, and enter "4", a maximum of 4 hours can be selected, while minutes go to 60. Similarly for days and hours, a maximum of 4 days can be selected, while hours go to 24. |

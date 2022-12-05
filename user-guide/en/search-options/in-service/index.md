@@ -11,7 +11,7 @@ language: en
 
 # Search in SuperOffice Service
 
-Searching in SuperOffice Service is performed from the same screen, no matter whether you are searching for requests, contacts, companies or other records in the system. In this topic, you can find out more about how searching in SuperOffice Service works.
+Searching in SuperOffice Service is performed from the same screen, no matter if you are searching for requests, contacts, companies or other records in the system. In this topic, you can find out more about how searching in SuperOffice Service works.
 
 <details><summary>Try the shortcut search</summary>
 

@@ -13,11 +13,11 @@ so.envir: onsite
 
 # Backup routines
 
-In the event of a database error, it is extremely important that you have good backup routines. Backing up may seem a tedious chore when you have to spend time on it every day, but if something goes wrong, the error can be remedied quickly if you have a copy of the database from the previous day.
+If a database error occurs, it is extremely important that you have good backup routines. Backing up may seem a tedious chore when you have to spend time on it every day, but if something goes wrong, the error can be remedied quickly if you have a copy of the database from the previous day.
 
 Imagine that you have built up a company database of 1,500 companies over a year. You have used SuperOffice CRM every day and created companies that you call and follow up every week. You have entered appointments well into the future and recorded all documents and follow-ups in SuperOffice CRM. But you have "forgotten" to take a backup for the last six months.
 
-One day an error occurs on the hard disk which cannot be rectified immediately. You call SuperOffice and are asked whether you backed up yesterday.
+One day an error occurs on the hard disk which cannot be rectified immediately. You call SuperOffice and are asked if you backed up yesterday.
 
 Imagine that you have to use a six-month old backup. How many important companies have you added since then? How many important telephone numbers were in the database? How many addresses?
 

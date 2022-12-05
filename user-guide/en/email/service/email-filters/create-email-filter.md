@@ -25,7 +25,7 @@ To create a new email filter:
     * **Priority**: In this list box, you select the filter's priority. A value of 10 is the highest priority and 1 the lowest.
     * **Script**: Here you can select a [script or macro][1] to be run by this filter.
 
-1. Select whether to apply this filter for all incoming email or only emails matching specific criteria:
+1. Select what the filter applies to:
 
     * **All incoming email**: If you select this option, the email filter is used for all incoming emails.
     * **Email which contains**: If you select this option, emails containing the fixed expression (regexp) specified in the fields to the right will trigger the email filter. In the list box on the far right, you can choose between the email header and/or email body.

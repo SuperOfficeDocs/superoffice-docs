@@ -11,7 +11,7 @@ language: en
 
 # Reset labels
 
-If you have changed any labels and want to return to the default settings for one or more of them, do as follows:
+If you have changed any labels and want to return to the default settings for one or more:
 
 [!include[Go to Options](includes/open-options.md)]
 

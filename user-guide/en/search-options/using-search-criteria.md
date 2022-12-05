@@ -11,7 +11,7 @@ language: en
 
 # Use search criteria
 
-You use search criteria to define what you are looking for, for example "companies with an address in Denmark". Search criteria are used in a number of places in SuperOffice CRM, for instance in the **Find** screen and when creating selections. But, regardless of what you are using the criteria for, you work with them in the same way.
+You use search criteria to define what you are looking for, for example "companies with an address in Denmark". Search criteria are used in multiple places in SuperOffice CRM, for instance in the **Find** screen and when creating selections. But, regardless of what you are using the criteria for, you work with them in the same way.
 
 Everywhere you are able to enter search criteria, you will find a criteria list containing the selected search criteria.
 
@@ -104,7 +104,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
         **SAINT type**: Here you choose the activity type you want to search for.
         **Status**: Here you choose the status of the record you want to search for.
-        **Direction**: Here you can choose whether the activity is incoming or outgoing.
+        **Direction**: Here you can choose if the activity is incoming or outgoing.
         **Amount class**: Here you choose the sale's amount class.
         **Intention**: Here you choose the intention of the activity.
 

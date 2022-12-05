@@ -17,7 +17,7 @@ The sections below contain information about how to enable and disable status mo
 
 ## General information about updating and regenerating statuses and counters
 
-At the bottom of the **Status monitors** tab, indicators (text which shows the date of the most recent generation, if the selected status or counter has never been generated, or whether the selected status should be regenerated because of changes) are displayed for the regeneration of statuses or counters.
+At the bottom of the **Status monitors** tab, indicators (text which shows the date of the most recent generation, if the selected status or counter has never been generated, or if the selected status should be regenerated because of changes) are displayed for the regeneration of statuses or counters.
 
 You should regenerate statuses and/or counters if the indicators show that it is a long time since the last generation, or that the statuses and/or counters have never been generated. The same applies if statuses are amended. Statuses and counters that are not updated, will still be enabled and utilisable in SuperOffice CRM, but the dates returned will not necessarily be correct. The sections below described how to regenerate statuses and counters.
 

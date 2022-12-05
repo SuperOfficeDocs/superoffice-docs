@@ -12,11 +12,9 @@ language: en
 # Add function to menu button (Actions)
 
 > [!NOTE]
-> You can also add a macro to the **Actions** button when you create or edit a macro. See [Create a macro][1].
+> You can also add a macro to the **Actions** button when you [create or edit a macro][1].
 
-The procedure below describes how to add a macro to the **Actions** button in the **Company** screen, **Contact** screen or **Request** screen, or **Message** tab. To learn more about other available options in this screen, see [Menu properties][2].
-
-Do as follows:
+To add a macro to the **Actions** button in the **Company** screen, **Contact** screen, **Request** screen, or **Message** tab:
 
 1. Select ![icon][img3] **System design** > **Extra menus**.
 2. Click **Top menu** to display the sub-folders.
@@ -29,7 +27,6 @@ Do as follows:
 
 <!-- Referenced links -->
 [1]: ../../automation/create-macro.md
-[2]: properties.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png

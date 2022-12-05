@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-In the second step, **Template**, you have to decide what your mailing should look like. You do this by selecting an existing template or a previous mailing.
+In the second step, **Template**, you must decide what your mailing should look like. You do this by selecting an existing template or a previous mailing.
 
 1. Select a template in one of the following ways:
     * Select one of the available tabs (**Recent templates**, **All templates**, and so on) to view available mailings or templates on which to base your new mailing.

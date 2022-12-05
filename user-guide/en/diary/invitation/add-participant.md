@@ -31,7 +31,7 @@ To book participants and resources:
 5. Once you have selected the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ( ![icon][img2] ). They are then displayed on the right-hand side of the window. You can also select users and resources individually by double-clicking them.
 
     > [!NOTE]
-    > If any of the people are busy at the time you have specified, their name is shown in red, so you can easily see whether you should find a different time for the follow-up. You can still invite them to this new appointment, and their entry will then be shown in red with the word "CONFLICT" in the dialog for follow-ups.
+    > If any of the people are busy at the time you have specified, their name is shown in red, so you can easily see if you should find a different time for the follow-up. You can still invite them to this new appointment, and their entry will then be shown in red with the word "CONFLICT" in the dialog for follow-ups.
 
 6. Click the **Email Invitation** button to activate email invitations for all participants in the list (except yourself). The ![icon][img1] icon to the left of the participant's name means that this participant will be sent an email invitation to the follow-up. Click the ![icon][img1] icon next to a participant's name to disable email invitation for this participant. The ![icon][img1] icon changes to inactive ( ![icon][img3] ) and the participant will then not receive an invitation by email.
 

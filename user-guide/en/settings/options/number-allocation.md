@@ -33,7 +33,7 @@ The table below shows the consequences of different combinations of the values *
 | x | x | x | | A number is allocated which the user cannot change. |
 | x | x | x | x | A number is allocated which the user cannot change. |
 | x | x | | x | A number is allocated which the user can change to a unique value or remove. The database can have unlimited empty fields. |
-| x | | x | | A number is allocated which the user cannot change. If any external processes change the number, no check is performed as to whether the new number is unique. |
+| x | | x | | A number is allocated which the user cannot change. If any external processes change the number, uniqueness is not checked. |
 | | x | | | No number is allocated. The user can specify a number, but it must be unique. The database can only have one empty field. |
 | | x | | x | No number is allocated. The user can specify a number, but it must be unique. The database can have unlimited empty fields. |
 | | | x | x | No number is allocated, nor may the user specify a number. Useful when using counters from third party suppliers. |

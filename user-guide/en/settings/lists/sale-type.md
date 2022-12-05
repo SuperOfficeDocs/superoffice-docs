@@ -83,7 +83,7 @@ Here you specify the following settings for quotes with this sale type:
 
 ## Quote approval
 
-Here you can choose whether the quote must be approved if the total discount is above a certain threshold or the total earnings are below a certain threshold:
+Here you can choose if the quote must be approved if the total discount is above a certain threshold or the total earnings are below a certain threshold:
 
 * No approval required. No limits. The quote will not require approval.
 * **Total discount is over limit**. Enter a percentage value.

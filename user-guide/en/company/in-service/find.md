@@ -22,7 +22,7 @@ To find companies that are registered in the system:
 
 ## View search results for companies
 
-Once you have got a list of companies, you will be in a screen containing the following sections:
+Once you have a list of companies, you will be in a screen containing the following sections:
 
 * **Criteria**: Here you enter search criteria to filter out which companies you wish to see.
 * **Result**: This contains all the companies that match your search criteria.

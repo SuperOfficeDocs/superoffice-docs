@@ -57,7 +57,7 @@ Fill in the following information in the **Properties** category:
 
 * **Folder**: Select a folder in which to place the form or [create a new][19]
 
-* **Description**: Enter a description of the purpose of this form. This text will only be visible internally.
+* **Description**: Explain the purpose of this form. This text will only be visible internally.
 
 * **Language**: Select the language used in the form.
 

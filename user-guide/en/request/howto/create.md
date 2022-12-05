@@ -17,7 +17,7 @@ A request can arrive in the system via an email from the customer, or you can re
 
 1. Select **Requests** > **New request**.
 
-2. When you create a new request, the **To** field has the following purposes:
+2. When you create a new request, the **To** field has the following uses:
 
     * By default, the contact(s) entered here will also be the contact(s) for the new request.
     * Contact(s) entered here will receive the message (in the **Message** tab) by email (even if the access level of the message is set to **Internal**).

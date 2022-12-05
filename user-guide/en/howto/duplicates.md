@@ -14,7 +14,7 @@ language: en
 > [!NOTE]
 > You can deactivate the duplicate check in SuperOffice Settings and maintenance (**Preferences** > **Functions**).
 
-When you create new companies, projects and selections, a duplicate check is automatically performed. The duplicate check looks for identical and similar names in the SuperOffice database. The purpose is to avoid creating records that already exist in SuperOffice CRM (such as companies), in addition to preventing the creation of records with very similar names.
+When you create new companies, projects, and selections, a duplicate check is automatically performed. The duplicate check looks for identical and similar names in the SuperOffice database to avoid creating records that already exist in SuperOffice CRM (such as companies), in addition to preventing the creation of records with very similar names.
 
 If you try to enter a company name, project name or selection name that is identical or similar to an existing record in SuperOffice CRM, the **Duplicates** dialog appears. In the dialog are listed one or more companies, projects or selections that have names identical and/or similar to the one you have entered.
 

@@ -21,7 +21,7 @@ language: en
 
 4. Click the **Delete** button. You cannot delete users who are logged on.
 
-5. Check the required option in the **Remove User** dialog. Click an option to display a description of what will happen upon deletion.
+5. Check the required option in the **Remove User** dialog. Click an option to display a description of what will happen on deletion.
 
     * Remove user licenses
     * Mark associate as former employee

@@ -34,7 +34,7 @@ To split a request:
     * **Open**: Select this option if the request is in progress.
     * **Closed**: Select this option if the request has been completed.
     * **Postponed**: If there is a need to postpone handling of this request, select this option and specify a date in the date field to the right. On this date, the request is set back to **Open**.
-9. Under **Properties of the original request** specify whether the original request is **Open**, **Closed** or **Postponed**.
+9. Under **Properties of the original request** specify if the original request is **Open**, **Closed**, or **Postponed**.
 10. At the bottom of the screen is a list of messages involved in the request. Here you select the messages you want to move to the new request.
 11. Click **OK**. The request is split.
 

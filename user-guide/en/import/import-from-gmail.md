@@ -21,7 +21,7 @@ To import your Gmail companies into the SuperOffice database:
 
 2. Click the Gmail icon ( ![icon][img2] ) under **Select an import source**.
 
-    What you need to do in the next step depends on whether you are already logged in to Gmail.
+    What you need to do in the next step depends on if you are already logged in to Gmail.
 
 3. One of the following dialogs will be displayed:
 

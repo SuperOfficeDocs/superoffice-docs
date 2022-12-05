@@ -55,10 +55,10 @@ When you select one of the invitations in the top part of the dialog, its detail
 | Action | Description |
 |---|---|
 | Accept | Says yes to the invitation. A green tick is displayed to the left of your name in the list of participants in the bottom pane. The follow-up is moved from the **Invitations** dialog to your diary. |
-| Decline | Says no to the selected invitation. A red cross is displayed to the left of your name in the list of participants in the bottom pane. The follow-up is removed from the **Invitations** dialog. The **Reason for declining** dialog opens, where you can enter the reason you are declining the invitation. |
+| Decline | Says no to the selected invitation. A red cross is displayed to the left of your name in the list of participants in the bottom pane. The follow-up is removed from the **Invitations** dialog. The **Reason for declining** dialog opens, where you can enter why you are declining the invitation. |
 
 > [!TIP]
-> When you select an invitation in the **Invitations** dialog, the day in question is shown in the **Diary** screen in the background, so that you can check whether you have other appointments or not.
+> When you select an invitation in the **Invitations** dialog, the day in question is shown in the **Diary** screen in the background, so that you can check if you have other appointments.
 If you have other overlapping appointments, a **Conflict** icon ![icon][img6] is also displayed in the preview in the **Invitations** dialog.
 
 ## Receive invitations to repeating follow-ups
@@ -84,7 +84,7 @@ Click **Close** to close the dialog.
 
 * Invitations are saved up until the day after the follow-up is marked as completed so that the participants can be informed of changes.
 
-* If you receive an invitation for a time when you are already occupied, an exclamation mark ![icon][img6] is displayed in the description of the follow-up in the **Invitations** dialog. This draws your attention to the fact that the invitation causes a conflict.
+* If you receive an invitation for a time when you are already occupied, an exclamation mark ![icon][img6] is displayed in the description of the follow-up in the **Invitations** dialog. This draws your attention to the conflict.
 
 <!-- Referenced links -->
 [1]: ../screen/dialog-for-followups.md

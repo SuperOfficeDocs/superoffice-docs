@@ -45,7 +45,7 @@ Now you need to set up a Facebook account in SuperOffice Service.
 
 1. In the **Interval** list box, select how often SuperOffice Service is to get messages from this Facebook application.
 
-1. In the **Customer language** list box, specify which language to use for the customers who send messages to this Facebook application. For details, see [Customer languages][3].
+1. [!include[Customer language](../includes/step-set-language.md)]
 
 1. In the **Email fields** field, enter a comma-separated list of email fields (headers) to be displayed in the request message, for example, To and Cc.
 
@@ -58,6 +58,5 @@ Now you need to set up a Facebook account in SuperOffice Service.
 <!-- Referenced links -->
 [1]: https://developers.facebook.com
 [2]: ../../../../../docs/service/config/set-up-facebook-integration.md
-[3]: ../../../settings/options/custlangs/index.md
 
 <!-- Referenced images -->

@@ -89,8 +89,6 @@ Limitations:
 
 In the **Elements** section you can add various non-data elements such as labels, dividers, links and buttons.
 
-Click the links below to learn more about the various elements and how to add them:
-
 ## Settings
 
 Make fields more visible by changing the font to bold and large text. Make room for more fields by using a smaller font. Save screen space by hiding labels.

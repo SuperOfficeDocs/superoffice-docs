@@ -58,7 +58,7 @@ Enter the following information in the **Details** tab:
 
 5. Optionally, type in a description of the template in the **Description** field.
 
-6. In the **Direction** field, specify whether the template will be outgoing or incoming, by clicking the arrow (![icon][img2] ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
+6. In the **Direction** field, specify if the template will be outgoing or incoming by clicking the arrow (![icon][img2] ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
 
 7. In the **Intention** field, click the arrow (![icon][img2] ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence][5]).
 

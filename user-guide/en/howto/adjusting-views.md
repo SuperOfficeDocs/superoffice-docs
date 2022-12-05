@@ -31,7 +31,7 @@ Many of the screens in Settings and maintenance consist of different tabs (such 
 
 ## Adjust column widths
 
-There are a number of different list views in Settings and maintenance, for example, lists of preferences, lists of lists and lists of user-defined fields. To adjust the column widths in these views:
+There are different list views in Settings and maintenance, for example, lists of preferences, lists of lists and lists of user-defined fields. To adjust the column widths in these views:
 
 1. Hold the mouse pointer over the vertical dividing line to the left or right of a column heading. The mouse pointer changes into a double vertical line with arrows ( ![icon][img3] ).
 2. Click and drag the divider in the required direction to increase or decrease the column width.

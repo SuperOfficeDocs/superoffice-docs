@@ -11,7 +11,7 @@ language: en
 
 # Add a link to display the message in a browser
 
-If the recipient has problems displaying the entire message in their email program (maybe images aren't displayed, for example), or prefers to read the message in a browser, you can add a link to display the message as a web page. Links of this type are normally placed at the top of the message.
+If the recipient has problems displaying the message in their email program (maybe images aren't displayed, for example), or prefers to read the message in a browser, you can add a link to display the message as a web page. Links of this type are normally placed at the top of the message.
 
 1. Go to the contents of the message and edit a paragraph (see [Edit a paragraph][1]) to open the **Edit paragraph** screen.
     Or click the **Add a new paragraph** ( ![icon][img1] ) button to add a paragraph at the bottom.

@@ -25,7 +25,7 @@ Here are some examples related to inbound email from web forms:
 
 * You can compare the customer's phone number with information in the customer database and link the request to the correct customer on this basis.
 
-* You can overwrite address data in the event of a change of address.
+* You can overwrite address data if there is a change of address.
 
 * You can send a receipt with tailored information if a customer wants more information about a specific product, and assign the request to the right subcategory and request handler.
 

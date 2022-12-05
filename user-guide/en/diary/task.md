@@ -11,7 +11,7 @@ language: en
 
 # Task
 
-Tasks are follow-ups which do not usually have a defined time or duration. They always have a date deadline – for example, they may be things you have to remember to do by a certain time.
+Tasks are follow-ups which do not usually have a defined time or duration. They always have a date deadline, for example, they may be things you must remember to do by a certain time.
 
 ![icon][img1]
 

@@ -17,7 +17,7 @@ Updated information about the system is displayed in the **Status** screen. The 
 
 ## Database
 
-Shows the database owner, serial number and type, which are specified on installation. It also shows whether it is a central database or a satellite database, for example. You can also see the next expiry date (when the licence needs to be renewed) and the name of the user currently logged in.
+Shows the database owner, serial number and type, which are specified on installation. It also shows if it is a central database or a satellite database. You can see the next expiry date (when the licence needs to be renewed) and the name of the user currently logged in.
 
 **Table admin: Local database user**: Here you specify the user name and password of the database user (it doesn't need to be a SuperOffice CRM user) which will automatically be used by the system to create and delete database tables. This user doesn't need to have any other rights.
 

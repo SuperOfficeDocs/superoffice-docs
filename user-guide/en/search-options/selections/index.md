@@ -36,8 +36,6 @@ From the **Tasks** button (lower part of the screen), you can [perform specific 
 
 ## What can I use selections for
 
-In SuperOffice CRM you can create a selection of almost anything. The purpose of the examples below is to provide you with some ideas of how to use this functionality in the program.
-
 ### Company
 
 You can create a selection that contains
@@ -53,7 +51,7 @@ You can create a selection that contains
 You can create a selection that contains
 
 * a list of all your own sales with the status **Lost** or **Sold**
-* all sales for the entire sales department in the current quarter
+* all sales for the sales department in the current quarter
 
 ### Project
 

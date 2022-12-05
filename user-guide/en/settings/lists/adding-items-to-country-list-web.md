@@ -30,7 +30,7 @@ When you add an item to the **General - Country** list in Settings and maintenan
     * **Visual address format**:
         This is the usual format as it appears on screen in the **Company** screen in SuperOffice CRM. As a rule, it is sufficient to select a format only here.
     * **Printed address format (local)** and **(intl)**:
-        Some countries use different address formats for letters depending on whether they are posted at home or abroad. Specify the format to be used in each of these cases in these fields.
+        Some countries use different address formats for letters depending on if they are posted at home or abroad. Specify the format to be used in each of these cases in these fields.
 
 6. The **Company** screen in SuperOffice CRM contains a field labelled **VAT No.**, for recording the company’s VAT number or similar number. You can change this field label in Settings and maintenance. Type in the desired text in the **Organisation number field label** field, for example, *Org. nr* for Norway. When you enter a Norwegian company in SuperOffice CRM, the label for the company’s organisation number will be *Org. nr* instead of *VAT No.*.
 

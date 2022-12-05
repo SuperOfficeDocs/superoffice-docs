@@ -51,7 +51,7 @@ Templates are displayed as items in the **Document - Template** list and you lin
 
 Enter the following information in the **Details** tab:
 
-1. In the **Direction** field, specify whether the template will be outgoing or incoming, by clicking the arrow (![icon][img1] ) and choosing from the list box.
+1. In the **Direction** field, specify if the template will be outgoing or incoming, by clicking the arrow (![icon][img1] ) and choosing from the list box.
 
 2. In the **Document type** field, specify the type of template by clicking the arrow (![icon][img1] ). You can choose from **Document** and **Fax**.
 

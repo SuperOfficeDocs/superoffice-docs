@@ -54,7 +54,7 @@ Here you can specify that recipients who click the link will be added to or remo
 In the **Follow-up** tab, you can specify that a link click should generate tasks or appointments in SuperOffice CRM.
 
 1. Check **Follow-up** to activate this function.
-2. **Task/Appointment**: Choose whether you want to create a task or an appointment in SuperOffice CRM.
+2. **Task/Appointment**: Choose if you want to create a task or an appointment in SuperOffice CRM.
 3. **Description**: Enter a description of the task/appointment. This might be, for example, which mailing it relates to, which link the recipient clicked, and possibly how the task/appointment should be followed up.
 4. **Project**: Here you select a project which the task/appointment should be linked to. Type the beginning of a name to start the quick search.
 5. **Task**: Select the required task or appointment type.

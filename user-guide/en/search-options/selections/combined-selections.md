@@ -30,8 +30,6 @@ You can select which entries you want to include in the combined selection. Thes
 
 ## Examples of combined selections
 
-In SuperOffice CRM you can create a selection of almost anything. The purpose of the examples below is to provide you with some ideas of how to use this functionality in the program.
-
 ### Companies and sales
 
 1. Create a combined selection of companies/contacts based on two existing selections: "Customers in Sweden" (selection 1) and "Sales made last year" (selection 2).

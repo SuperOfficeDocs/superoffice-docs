@@ -28,9 +28,9 @@ In the **Settings** tab, set the following parameters:
 
     * **Average time-to-reply**: Specifies the average time taken to answer a request, calculated from when the second message is added to a request. There is information below on how this time is calculated. Requests with just a single message are ignored.
 
-3. In the second column, you need to select summing options, since you are likely to want statistics for a specific purpose. The different summing options are:
+3. In the second column, you need to select **summing options**, since you are likely to want statistics.
 
-    * **Time of day**: The measurable values are summed for each of the 24 hours in a day. These values are inclusive, for example, from 09:00:00 to 10:59:59. Note that for all measurable values, except **Number of requests closed**, this field refers to when the request was registered, not when it was closed or answered. For example: a request registered at 15:00 and answered at 16:10 will have a reply time of one hour, summed for the reply times from 15:00:00 to 15:59:59. The result is thus the average reply time for requests registered within a given period of time.
+    * **Time of day**: The measurable values are summed for each of the 24 hours in a day. These values are inclusive, for example, from 09:00:00 to 10:59:59. Note that for all measurable values, except **Number of requests closed**, this field refers to when the request was registered, not when it was closed or answered. For example: a request registered at 15:00 and answered at 16:10 will have a reply time of one hour, summed for the reply times from 15:00:00 to 15:59:59. The result is thus the average reply time for requests registered within a given time period.
     * **Day of week**: This summing option works exactly like **Hour**, but applies to the seven days of the week.
     * **Category**: Sums measurable values by category.
     * **User**: Sums measurable values by user.

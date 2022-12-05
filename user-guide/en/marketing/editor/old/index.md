@@ -53,7 +53,7 @@ The appearance and properties of the template (such as font type and size, colou
 
 ## Menu overview
 
-When you hover the mouse pointer over columns and paragraphs, menus are displayed in the form of toolbars at the top of the element in question. Which buttons are displayed depends on whether you are pointing at a column or a paragraph. If you hover the mouse pointer over a button in the menu, a red frame is shown around the element in question, so that you always know which part of the template you are editing.
+When you hover the mouse pointer over columns and paragraphs, menus are displayed in the form of toolbars at the top of the element in question. Which buttons are displayed depends on if you are pointing at a column or a paragraph. If you hover the mouse pointer over a button in the menu, a red frame is shown around the element in question, so that you always know which part of the template you are editing.
 
 ### Global menu
 

@@ -39,7 +39,7 @@ In addition, the **Appointment** dialog opens when you click **Save**. Here you 
 
 ## Sold/Lost
 
-If you set the sale to **Sold** or **Lost**, you can enter the date, any competitor and the reason why the sale succeeded or failed.
+If you set the sale to **Sold** or **Lost**, you can enter the date, any competitor and why the sale succeeded or failed.
 
 **Sold:**
 

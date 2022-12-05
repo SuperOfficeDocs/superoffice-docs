@@ -56,7 +56,7 @@ You now need to select the correct document languages for the users who are goin
 3. Select **User** under **This setting will apply to**.
 
     > [!TIP]
-    > If the divisions are using satellite databases, you can choose to specify document languages for entire databases. You can also select document languages for entire groups, but in that case, the group in question must be the primary group of the users you are setting the document language for.
+    > If the divisions are using satellite databases, you can choose to specify document languages for databases. You can also select document languages for groups, but in that case, the group in question must be the primary group of the users you are setting the document language for.
 
 4. Click the **Target** list and select the required user.
 

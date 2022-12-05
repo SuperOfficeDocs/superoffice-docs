@@ -13,7 +13,7 @@ language: en
 
 ## How SuperOffice CRM selects the correct language template
 
-In SuperOffice CRM you will find a number of default templates. These are available in 12-16 languages depending on the template type. This includes email templates and GDPR templates (12 languages).
+In SuperOffice CRM, you will find multiple default templates. These are available in 12-16 languages depending on the template type. This includes email templates and GDPR templates (12 languages).
 
 To ensure that you can communicate with your clients in their own language (where possible), SuperOffice CRM will automatically perform a language check to determine which language temple to use. This is relevant when sending out invitation e-mails, and when notifying new contacts that their details have been saved. For GDPR related communication, this is also an requirement.
 

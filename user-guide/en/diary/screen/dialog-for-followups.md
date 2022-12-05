@@ -109,7 +109,7 @@ The **Details** tab contains detailed information about the follow-up.
 
 ### Recurrence
 
-In this field, you indicate whether the follow-up is a repeating one. Click the word **Never** to the right of the **Recurrence** field if you want the [appointment to be repeated][4] at regular intervals. If a follow-up has been specified as repeating, an icon ![icon][img1] at the upper left of the main part of the dialog.
+In this field, you indicate if the follow-up repeats. Click the word **Never** to the right of the **Recurrence** field if you want the [appointment to be repeated][4] at regular intervals. If a follow-up has been specified as repeating, an icon ![icon][img1] at the upper left of the main part of the dialog.
 
 ### Priority
 
@@ -128,11 +128,11 @@ Here you specify who owns the follow-up. The default is the user currently logge
 
 ### Show as
 
-Check **Free** or **Busy** in the **Show as** field to specify whether you are available to others while the appointment is taking place. If you select **Free**, you can have other follow-ups simultaneously, for example if you have reserved the majority of the day to work on a project but you still have time for short meetings.
+Check **Free** or **Busy** in the **Show as** field to specify if you are available to others while the appointment is taking place. If you select **Free**, you can have other follow-ups simultaneously, for example if you have reserved the majority of the day to work on a project but you still have time for short meetings.
 
 ### Visible for
 
-Click the **Visible for** field to display a list that allows you to choose whether the follow-up will be visible to all users, visible only to the user defined as owner, or visible to all users in one of the user groups that the owner belongs to.
+Click the **Visible for** field to display a list that allows you to choose if the follow-up will be visible to all users, visible only to the user defined as owner, or visible to all users in one of the user groups that the owner belongs to.
 
 > [!NOTE]
 > If you specify that an entry will only be visible to the owner, it will appear in italics on the **Activities** section tab.

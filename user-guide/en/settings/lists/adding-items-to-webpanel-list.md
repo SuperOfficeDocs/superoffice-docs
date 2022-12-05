@@ -66,7 +66,7 @@ This is how to fill out the fields in the **Edit list items** dialog when the it
 
       </details
 
-1. In the **URL encoding** list box, you can select whether the URL should be ANSI or Unicode (or no format).
+1. In the **URL encoding** list box, you can select if the URL should be ANSI or Unicode (or no format).
 1. Under **Show**, select which bars will be available in the browser that the URL is opened in: menu bar, toolbar, address bar or status bar.
 1. Under **Available on** choose where you want the URL address to be available. You can select several of these options simultaneously.
     * **Central database**: when you are working on the central database.

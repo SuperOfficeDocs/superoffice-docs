@@ -48,7 +48,7 @@ All blocked email addresses from all mailings are archived in the **Blocked emai
 
 ## Bounce options
 
-To handle multiple email addresses, you have a number of options in the **Actions** button.
+To handle multiple email addresses, you have options in the **Actions** button.
 
 ### Export
 

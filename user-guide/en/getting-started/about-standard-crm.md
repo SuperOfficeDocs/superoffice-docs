@@ -17,7 +17,7 @@ The **Company** card consists of different sub tabs (section tabs) that provides
 
 If you also deal with customers that are not (yet) associated with a company, the **Contact** card provides similar features to the **Company** card.
 
-The system also comprises a number of other modules and functions. For example, there is a **Selection** and **Report** module, where you can make selections and print reports to get an overview of contacts (based on categories, business or other criteria), sales, projects and activities. This is very helpful when you need to keep colleagues up to date on a weekly basis.
+The system also has other modules and functions. For example, there is a **Selection** and **Report** module, where you can make selections and print reports to get an overview of contacts (based on categories, business or other criteria), sales, projects and activities. This is very helpful when you need to keep colleagues up to date on a weekly basis.
 
 The **Diary** module helps you with your scheduling, and you can stay in touch with your customers using the **Chat** feature. The **Sale** and **Project** modules provides additional tools for effectively managing your business.
 
@@ -39,7 +39,7 @@ Using the diary, you always have complete control over your working day and week
 
 SuperOffice CRM is your new personal assistant, as it combines all the fundamental tasks you perform on a daily basis. Important and updated information is available to everyone in the company. With just a few clicks of the mouse you have access to reports, appointments, sales reports and marketing campaigns, and you can send email and read information on the Internet. The information structure can easily be adjusted to your company's needs.
 
-With the help of the SuperOffice mobile solutions, you can gain access to the information in SuperOffice CRM regardless of whether you are on a business trip, working from home or at a branch office.
+With the help of the SuperOffice mobile solutions, you can gain access to the information in SuperOffice CRM regardless of you are on a business trip, working from home, or at a branch office.
 
 ## Common profile
 

@@ -42,9 +42,9 @@ In the field at the bottom left you can enter a description of the product.
 
 ## Add product information
 
-<details><summary>How do I change the name and order of these fields and define whether they should be editable and/or mandatory?</summary>
+<details><summary>How do I change the name and order of these fields and define if they should be editable and/or mandatory?</summary>
 
-In the [Configure product dialog][3] you define the order and name of the field that are shown here and whether they are editable or mandatory.
+In the [Configure product dialog][3] you define the order and name of the field that are shown here and if they are editable or mandatory.
 
 You can override the editable and mandatory settings by checking **Override default security** at the bottom of the **Add/Edit product** dialog. The changes will only apply for this one product.
 </details>

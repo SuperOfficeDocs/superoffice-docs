@@ -19,7 +19,7 @@ This is an overview of special options in some of the available fields.
 
 * **Contact - consent**
 
-  * **Purpose**: Select the purpose for which the person must give their consent. The approval text and description are defined in SuperOffice Settings and maintenance.
+  * **Purpose**: Select why the person must give their consent. The approval text and description are defined in SuperOffice Settings and maintenance.
 
   * **Show link to privacy statement**: Select this option to include the link to the privacy statement, as defined in SuperOffice Settings and maintenance.
 

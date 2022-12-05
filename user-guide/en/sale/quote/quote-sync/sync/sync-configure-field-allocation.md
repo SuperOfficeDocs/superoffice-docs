@@ -11,7 +11,7 @@ language: en
 
 # Configure field mapping
 
-When synchronising data between SuperOffice and ERP systems, you have to specify which SuperOffice field and which ERP field belong together.
+When synchronising data between SuperOffice and ERP systems, must specify which SuperOffice field and which ERP field belong together.
 
 > [!NOTE]
 > When editing an ERP connection, you first need to deactivate it.
@@ -24,7 +24,7 @@ When synchronising data between SuperOffice and ERP systems, you have to specify
 
 1. Check **Sync ERP \[actor\] to SuperOffice \[entity\]**.
 
-1. In the list below, select the synchronisation direction and which SuperOffice field each ERP field should be allocated to (synchronised with). You can also choose whether the fields should be displayed in searched and the **ERP** tab.
+1. In the list below, select the synchronisation direction and which SuperOffice field each ERP field should be allocated to (synchronised with). You can also choose if the fields should be displayed in searched and the **ERP** tab.
     The list consists of the following columns:
 
     * **Show in Search**: Check here if this field is to be displayed in search results.

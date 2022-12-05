@@ -23,7 +23,7 @@ You can export all section tabs containing records in SuperOffice CRM to an Exce
 
 ## Export a section tab
 
-1. Select the records you want to export, and click the ![icon][img2] **Export** button. If you select no records, all of them will be exported.
+1. Select the records you want to export, and click the ![icon][img2] **Export** button. If you select no records, all will be exported.
 2. Microsoft Excel opens with the specified records entered into a new spreadsheet.
 3. Save the spreadsheet wherever you want.
 

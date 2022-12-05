@@ -21,7 +21,7 @@ language: en
 
 * **System users**: [!include[Access rights](includes/def-system-user.md)]
 
-    This user type is intended for integration purposes. The system user can be used to allow processes full access to the SuperOffice database for replicating diaries, for example.
+    The system user is intended for integration and can be used to allow processes full access to the SuperOffice database for replicating diaries, for example.
 
 ## Associates
 

@@ -32,7 +32,7 @@ Updated information about the system is displayed in the **Status** tab in the *
 
 ### Database
 
-Shows the database owner, serial number and type, which are specified on installation. It also shows whether it is a central database or a satellite database, for example. You can also see the next expiry date and the name of the user currently logged in.
+Shows the database owner, serial number, and type, which are specified on installation. It also shows if it is a central database or a satellite database. You can see the next expiry date and the name of the user currently logged in.
 
 ### Metered services
 
@@ -67,7 +67,7 @@ Under **System notifications** you will find the following columns:
 | Activated | Shows when the event was initiated. |
 | Activated by | Shows who initiated the event (user ID and portrait). |
 | Finished | Shows when the event is expected to finish.
-| Type | Shows whether the event applies to the whole system. |
+| Type | Shows if the event applies to the whole system. |
 
 ## Related topics
 

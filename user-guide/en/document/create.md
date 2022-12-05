@@ -39,7 +39,7 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 ## Create a new document without SuperOffice WebTools
 
-If you have not installed SuperOffice WebTools, you need to manually download documents to edit them. You also have to upload the edited documents to the central server afterwards.
+If you have not installed SuperOffice WebTools, you need to manually download documents to edit them. Afterwards, you must upload the edited documents to the central server.
 
 > [!NOTE]
 > This procedure describes how to create new documents if you are using a desktop text-editing application. The actual process may be slightly different if you use an online text-editing tool (like Microsoft Office Online) and a document library (like SharePoint).

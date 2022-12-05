@@ -27,11 +27,11 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **New status when accepting a request**: Select which status is to be used when a request is accepted by a user.
 
-* **Send email notification of open requests**: Specifies whether email about open requests is sent to the users. If you select **User can choose**, users can activate or deactivate email notification from ![icon][img1] **Personal settings** > **Settings** > **Notification**.
+* **Send email notification of open requests**: Specifies if email about open requests is sent to the users. If you select **User can choose**, users can activate or deactivate email notification from ![icon][img1] **Personal settings** > **Settings** > **Notification**.
 
 * **Number of days before notification**: Specifies how many days must pass before email notification about old requests is sent to the users. You can also specify the time of day that the notification should be sent.
 
-* **System clock**: Select whether to use a 24-hour or 12-hour (am/pm) clock in the system. User-specific clocks (for example, display of requests) are controlled by each individual user's settings, and not by this value.
+* **System clock**: Select if to use a 24-hour or 12-hour (am/pm) clock in the system. User-specific clocks (for example, display of requests) are controlled by each individual user's settings, and not by this value.
 
 * **Default style for outbound email**: Here you can define a default style to be used for emails in HTML format. For example: &lt;p style='font-family:Verdana'&gt; &lt;/p&gt;
 
@@ -45,7 +45,7 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **Do not send email to new contacts**: If you check here, email will not be sent to newly registered contacts.
 
-* **Automatically create contact for new inbound request**: If you check here, SuperOffice will automatically create a new person if it does not recognize an email address in an inbound request. This option can be disabled for GDPR purposes.
+* **Automatically create contact for new inbound request**: If you check here, SuperOffice will automatically create a new person if it does not recognize an email address in an inbound request. This option can be disabled for GDPR compliance.
 
 * **Enable editing of messages**: If you check here, the user will be allowed to edit messages.
 

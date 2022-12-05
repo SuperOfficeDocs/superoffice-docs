@@ -11,7 +11,7 @@ language: en
 
 # Global buttons
 
-The global buttons appear throughout the user interface. Some of them are in the main screen, while others are in the various dialogs.
+The global buttons appear throughout the user interface. Some are in the main screen, while others are in the various dialogs.
 
 ## Global buttons in Standard CRM
 

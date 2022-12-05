@@ -20,7 +20,7 @@ There are three ways you can delete a contact from SuperOffice CRM:
 * [Bulk delete][3] contacts at once.
 
 > [!TIP]
-> Instead of deleting a contact, you can check **Former employee** in the contact card (see [Create new contact][6]). Then this person’s name will not disappear from activities, for example, to which he or she is linked.
+> Instead of deleting a contact, you can check **Former employee** in the contact card (see [Create new contact][6]). Then this person’s name will not disappear from activities they are linked to.
 
 [!include[Deleting items](../includes/tip-deletion.md)]
 

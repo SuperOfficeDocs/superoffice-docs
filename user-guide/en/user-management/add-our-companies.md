@@ -28,7 +28,7 @@ To add a company in the **Our companies** tab, it must first be registered as a 
 
 ## How do I search for a company?
 
-1. In the list box to the right of the field you want to search on, choose whether you want to search for a company that **Starts with**, **Contains** or **Equals** the search criteria you enter.
+1. In the list box to the right of the field you want to search on, choose if you want to search for a company that **Starts with**, **Contains** or **Equals** the search criteria you enter.
 
 2. You can specify several different search criteria, for example name, code, telephone number or email address. If you specify several search criteria, a search is performed for companies that fulfil all the criteria simultaneously.
 

@@ -26,7 +26,7 @@ Statuses can be shown as images on the cards of projects, contacts or companies 
 
 ## Default follow-up for a status
 
-When the user opens the status dialog in SuperOffice CRM, he or she is also invited to create a follow-up for the status in question. The follow-up type and text can be predefined.
+When the user opens the status dialog in SuperOffice CRM, they may also create a follow-up for the status in question. The follow-up type and text can be predefined.
 
 <details><summary>Click here for an example.</summary>
 

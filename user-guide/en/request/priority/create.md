@@ -59,7 +59,7 @@ To create a new priority:
     * Changed priority (Service only)
 
         > [!NOTE]
-        > If you select **Continue**, the request proceeds at the same level in the escalation chain as it had before the change. In other words, the times are not used in the event of a change, only the level.
+        > If you select **Continue**, the request proceeds at the same level in the escalation chain as it had before the change. In other words, the times are not used if there is a change, only the level.
 
     * New request
     * Escalate requests according to time frame (Settings and maintenance)
@@ -79,7 +79,7 @@ To create a new priority:
 | External | Checking here makes the priority accessible from SuperOffice Customer Centre. |
 | Use as default | Checking here makes this priority the default one. |
 | Time frame | Time intervals for each day of the week that applies to request processing. |
-| Holidays (day/month) | Days to exclude from the time frame in their entirety. This is normally used for public holidays when it is not desirable for requests to be escalated. The format is a comma-separated list of day/month entities. For example, to exclude 25th and 26th December, enter: 25/12, 26/12. You can also add dates using the date field below. |
+| Holidays (day/month) | Days to exclude from the time frame. This is normally used for public holidays when it is not desirable for requests to be escalated. The format is a comma-separated list of day/month entities. For example, to exclude 25th and 26th December, enter: 25/12, 26/12. You can also add dates using the date field below. |
 | Include year | Checking here includes the year in the holiday dates. |
 | Escalate requests according to time frame | If you check here, requests that have this priority will only be escalated during the priority's defined time frame. In other words, outside of the periods defined in the **Time frame** tab, escalation will be "frozen". |
 

@@ -89,7 +89,7 @@ For example, you can find all requests that you yourself have changed in the las
 
 ## View search results for requests
 
-Once you have got a list of requests using one of the methods above, you will be in a screen containing the following sections:
+Once you have a list of requests using one of the methods above, you will be in a screen containing the following sections:
 
 * **Result**: This contains all the requests that match your search criteria.
 

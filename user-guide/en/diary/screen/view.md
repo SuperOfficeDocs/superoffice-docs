@@ -33,7 +33,7 @@ The button has the follow options:
 ## What would you like to do now?
 
 * [Create group views][1]
-* [View group views for an entire user group][2]
+* [View group views for a user group][2]
 * [Create appointments for associates][4]
 * [Invite participants][5]
 

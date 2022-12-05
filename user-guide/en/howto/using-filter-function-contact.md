@@ -17,7 +17,7 @@ At the bottom of the **Activities** and **Sales** section tabs in the **Company*
 
 You use the filter function to specify which records will be displayed on the **Activities** and **Sales** section tabs. You do this by specifying a date range for the records you want to see. The default in the **Filter** dialog is to display the previous year’s and the next six months’ activities or sales of the user currently logged in, but you can change these values as described below.
 
-In addition to defining a time period, you can also choose whether you want to see all the activities or sales that are defined in the organisation, or only your own. You can also specify that you want to see information created by one or more user groups or by specific people.
+In addition to defining a time period, you can also choose if you want to see all the activities or sales that are defined in the organisation, or only your own. You can also specify that you want to see information created by one or more user groups or by specific people.
 
 ## Use the Filter function
 

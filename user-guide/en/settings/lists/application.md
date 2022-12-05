@@ -16,7 +16,7 @@ You can have shortcuts to external applications in SuperOffice CRM, so that you 
 You define which URL addresses will be available to users in the **Lists** screen in Settings and maintenance. This is described in the topics below.
 
 > [!NOTE]
-> Files or applications that have to be run locally (for example exe files) are not accessible in SuperOffice CRM for Web.
+> Files or applications that must be run locally (for example exe files) are not accessible in SuperOffice CRM for Web.
 
 The items are displayed in the order you entered them. To change the order, select an item and move it up or down using the arrow buttons to the left of the list ( ![icon][img1] ![icon][img2] ).
 

@@ -33,7 +33,7 @@ When you add an item to the **General - Relation** list in Settings and maintena
 
     </details>
 
-3. Under **This is a relationship between**, specify whether the relationship refers to a company and/or a contact on the active and passive side respectively. These fields correspond to the fields in the **Relation** dialog in SuperOffice CRM.
+3. Under **This is a relationship between**, specify if the relationship refers to a company and/or a contact on the active and passive side respectively. These fields correspond to the fields in the **Relation** dialog in SuperOffice CRM.
 
 4. Under **Example** you can see an example of what the relationship looks like in practice.
 

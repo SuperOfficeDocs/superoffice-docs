@@ -24,9 +24,9 @@ If you want to delete multiple records (contacts, companies, sales, projects, an
 
 1. Click the **Task** button and select **Delete all**.
 
-1. When you are asked whether you want to delete the records, click **Yes**.
+1. When you are asked if you want to delete the records, click **Yes**.
 
-1. When you are asked whether you really want to delete the records from the database, click **Yes**.
+1. When you are asked if you really want to delete the records from the database, click **Yes**.
 
 [!include[Note about restore](../../../includes/note-restore.md)]
 

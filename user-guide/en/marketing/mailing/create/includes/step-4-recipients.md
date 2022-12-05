@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-When creating a mailing, you must select the recipients of the mailing. You can add recipients from a number of sources. In addition, you can set various mailing options here and also preview the mailing.
+When creating a mailing, you must select the recipients of the mailing. You can add recipients from multiple sources. In addition, you can set various mailing options here and also preview the mailing.
 
 ## Add recipients from selections and projects
 
@@ -69,7 +69,7 @@ When you import a list of names and email addresses, SuperOffice Marketing will 
 
 Under **Options** in the lower part of the **Recipients** screen, you can select various options for the mailing.
 
-What's available depends on whether you're creating a document, an email, or an SMS. Each option is explained below the table.
+What's available depends on if you're creating a document, an email, or an SMS. Each option is explained below the table.
 
 | Option | Document | Email | SMS |
 |---|:-:|:-:|:-:|

@@ -31,7 +31,7 @@ To find contacts that are registered in the system:
 
 ## View search results for contacts
 
-Once you have got a list of contacts, you will be in a screen containing the following sections:
+Once you have a list of contacts, you will be in a screen containing the following sections:
 
 * **Result**: This contains all the contacts that match your search criteria.
 * **Preview**: Displays the requests linked to the contact selected under **Find contacts**.

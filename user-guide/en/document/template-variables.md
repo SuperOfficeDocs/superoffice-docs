@@ -103,11 +103,11 @@ Our contact: John Jones
 * The date and time in template variables are controlled by the PC's system clock.
 
 > [!TIP]
-> When you have created a new template document, you have to add it using the **Lists** screen in Settings and maintenance to use it in SuperOffice CRM.
+> When you have created a new template document, you must add it using the **Lists** screen in Settings and maintenance to use it in SuperOffice CRM.
 
 ## Fill characters
 
-Sometimes you have to use fill characters in templates so that a field’s contents or formatting will not be changed or deleted if the content of a field is shorter than the length specified by the field variable.
+Sometimes you should use fill characters in templates so that a field’s contents or formatting will not be changed or deleted if the content of a field is shorter than the length specified by the field variable.
 
 Use the variable padd# to specify the fill character to use. Replace the \# character with the ANSI code of the character you wish to use as a fill character. You will usually find a list of ANSI codes in the manual for the program you are creating templates for.
 

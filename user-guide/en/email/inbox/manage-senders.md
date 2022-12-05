@@ -17,9 +17,9 @@ You can easily look up information about a sender in SuperOffice CRM.
 
 1. In the inbox, select an email.
 2. Click the sender's name and email address in the email header.
-3. What happens next, depends on whether the sender's email address is found or not found in SuperOffice:
+3. What happens next, depends on if the sender's email address is found or not found in SuperOffice:
     * If the email address is found on a company/contact, the company/contact card is displayed.
-    * If the email address is registered on more than one company/contact, a dialog will appear, listing the alternatives and allowing you to choose one of them.
+    * If the email address is registered on more than one company/contact, a dialog will appear, listing the alternatives and allowing you to choose.
     * If the email address is not registered in SuperOffice CRM, you can click **Create new company and contact**.
 
 ## Add email addresses to SuperOffice CRM

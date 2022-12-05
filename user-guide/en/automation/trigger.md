@@ -38,7 +38,7 @@ Do as follows:
 1. Enter a description of the trigger in the **Description** field.
 1. Select **Enabled**.
 1. Select **Change a request** under **Choose action type** below. This takes you to the **Change a request** tab.
-    This will be the first action in the macro. The main purpose of this action is to fetch the request, so that the various values (ID, title, contact name and so on) can be used in the next actions we will create.
+    This will be the first action in the macro. It fetches the request, so that the various values (ID, title, contact name and so on) can be used in the next actions we will create.
 1. Optional: Check **Internal message**, and enter, for example: "Request closed and confirmation sent to customer."
 1. Click **Apply**.
 1. Click **New action** next to the **Change a request** tab.

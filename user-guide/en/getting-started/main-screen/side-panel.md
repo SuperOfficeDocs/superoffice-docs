@@ -13,7 +13,7 @@ language: en
 
 The side panel appears at the right side of SuperOffice CRM. The panel is available in all screens except for the **Inbox**.
 
-It works as a window to relevant information in SuperOffice CRM. You can choose from a number of different views by clicking the arrow (![icon][img3]) to the right of the side panel's view name.
+It works as a window to relevant information in SuperOffice CRM. You can choose from different views by clicking the arrow (![icon][img3]) to the right of the side panel's view name.
 
 > [!TIP]
 > You can hide or show the side panel by clicking these buttons above the side panel: ![icon][img4] ![icon][img5]

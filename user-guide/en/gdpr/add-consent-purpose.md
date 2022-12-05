@@ -11,8 +11,6 @@ language: en
 
 # Add purpose
 
-To create a new purpose:
-
 1. Go to **Settings and maintenance** and click the **Privacy** button in the Navigator (![icon][img2]).
 
 2. Click **Add** below the list of purposes. The **Add purpose** dialog opens.

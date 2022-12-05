@@ -73,7 +73,7 @@ The changes are saved automatically. The sales guide will now be displayed in Su
 **Sale type**: Sale to new customer
 **Stage**: First meeting
 **Name** of follow-up: First meeting
-**Purpose of this follow-up**: Examine the potential customer's requirements and assess whether the product can meet their needs
+**Purpose of this follow-up**: Examine the potential customer's requirements and assess if the product can meet their needs
 **Follow-up type**: Customer meeting
 **Duration**: 1 hour
 **Default text**:
@@ -94,7 +94,7 @@ Agenda for first meeting:
 
 3. Enter the name of the follow-up in the **Name** field. This should be a descriptive name for the follow-up.
 
-4. Enter the purpose of the follow-up, in the **The purpose of this follow-up** field. This text is displayed when you hold the mouse-pointer over the follow-up in the **Sales guide** section tab in SuperOffice CRM.
+4. In the **The purpose of this follow-up** field, enter the text to use as tooltip for the follow-up in the **Sales guide** section tab in SuperOffice CRM.
 
     > [!NOTE]
     > Some of the options below are, for logical reasons, not relevant for the first follow-up in a sales guide.
@@ -136,7 +136,7 @@ Agenda for first meeting:
 
 3. Enter the name of the document in the **Name** field. This should be a descriptive name for the document.
 
-4. Enter the purpose of the document, in the **The purpose of this document** field. This text is displayed when you hold the mouse-pointer over the document in the **Sales guide** section tab in SuperOffice CRM.
+4. In the **The purpose of this document** field, enter the text to use as tooltip for the document in the **Sales guide** section tab.
 
 5. Select the required template in the **Template** field (see also [Document - Template][4]).
 

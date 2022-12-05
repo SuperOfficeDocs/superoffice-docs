@@ -29,7 +29,7 @@ The **Lists** screen is divided into the following parts:
 * In the **Visible for user groups** list, you can see to which group(s) the item selected in the **Items** list will be displayed. You can for example choose to have different follow-up types available for your Sales, Support and Accounting user groups. See [User group filtering][7].
 * The **Headings** list shows the headings under which the individual items are displayed. If a list is very long (contains a large number of items), you can use headings to group the items logically. The items in the **Document - Template** list, for example, are grouped in the **Letter**, **Fax**, **Email** headings and so on. See [Headings][1].
 
-At the top right side is the **Use grouping and user group filtering for this list** checkbox, where you specify whether the list can be grouped and filtered. This option is deactivated for lists where this is irrelevant. See [Organizing lists][3].
+At the top right side is the **Use grouping and user group filtering for this list** checkbox, where you specify if the list can be grouped and filtered. This option is deactivated for lists where this is irrelevant. See [Organizing lists][3].
 
 At the bottom of the **Lists** screen is the **Show deleted items and headings** checkbox, which allows you to undo the deletion of items and headings. See [Delete items][8] and [Deleted items and headings][9].
 

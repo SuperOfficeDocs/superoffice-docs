@@ -22,7 +22,7 @@ A web-based system to manage and follow up all contacts, sales and projects. The
 
 ## SuperOffice Service
 
-A web-based system for handling customer requests. The core of the system is the Requests module. All communication concerning a specific request is stored in a single location, whether it is by email, web form, phone or another channel.
+A web-based system for handling customer requests. The core of the system is the Requests module. All communication concerning a specific request is stored in a single location, regardless of it is by email, web form, phone or another channel.
 
 ## SuperOffice Marketing
 

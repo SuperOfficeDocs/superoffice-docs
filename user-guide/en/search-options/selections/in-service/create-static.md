@@ -11,7 +11,7 @@ language: en
 
 # Create a static selection
 
-You can find records and add them all, or some of them at a time, to a static selection. You can perform many searches in different tables and using different criteria, and select the records you want to include in the selection. When they are no longer relevant, you simply remove them from the selection.
+You can find records and add them all, or some at a time, to a static selection. You can perform many searches in different tables and using different criteria, and select the records you want to include in the selection. When they are no longer relevant, you simply remove them from the selection.
 
 A static selection contains only those records you have added to it manually, unlike a [dynamic selection][1]. Once you have created a static selection and added records to it, it will always contain the same records until you either add or remove some. A static selection works like a report in which you always have full control over the records.
 

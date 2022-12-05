@@ -35,7 +35,7 @@ To add a relation:
 1. In the **Relation** list box, specify what relationship there is between the active and passive parties, "owns" for example. The available alternatives are defined in SuperOffice Settings and maintenance.
 
     > [!NOTE]
-    > The alternatives displayed in this list box also depend on whether it is a relation between two companies, between a company and a contact or between two contacts.
+    > The alternatives displayed in this list box also depend on if it is a relation between two companies, between a company and a contact, or between two contacts.
 
 1. Enter any additional information as free text in the **Description** field. If you type in anything here, a paperclip symbol ( ![icon][img1] ) is displayed on the relevant line in the **Relations** section tab.
 

@@ -46,7 +46,7 @@ There are two ways of creating an email from Microsoft Outlook. You can use Supe
 
 8. In the Type dropdown, you may select one of the available email templates.
 
-9. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose whether the document will be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
+9. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the document will be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
     > The **Visible for** field is only available if this right has been assigned to you in SuperOffice Settings and maintenance.
@@ -57,7 +57,7 @@ There are two ways of creating an email from Microsoft Outlook. You can use Supe
 
 12. Write the message.
 
-13. Add any attachments you would like to include. You can also [add documents from SuperOffice CRM][1].
+13. Add any attachments you would like to include. You can also [add documents from SuperOffice CRM][3].
 
 14. Click **Send** to send the message to the specified recipient(s).
 

@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-In the second step, **Template**, you have to decide what your mailing should look like. You do this by selecting an existing template, a previous mailing, or a template from the online library.
+In the second step, **Template**, you must decide what your mailing should look like. You do this by selecting an existing template, a previous mailing, or a template from the online library.
 
 > [!TIP]
 > Save yourself some time and create your mailing using one of the free templates in the **Online template library**. The Online template library in SuperOffice Marketing contains a wide selection of professionally designed message template. Free for use!

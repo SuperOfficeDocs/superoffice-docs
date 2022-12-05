@@ -28,7 +28,7 @@ In SuperOffice CRM, you can add a selection of users and resources in your organ
 
 1. Entered the appropriate information in the **Name** and **Description** fields.
 
-1. Choose whether to view the diaries for **Associates**, **Project** or **Resource** in the **Select from** field.
+1. Choose to view the diary for **Associates**, **Project**, or **Resource** in the **Select from** field.
 
 1. The contents of the list box immediately below the **Select from** field vary depending on what you have selected under **Select from**.
 
@@ -54,7 +54,7 @@ You will then be returned to the **View** tab, where you can create appointments
 ## What would you like to do now?
 
 * [See details the fields in The New group view dialog][1]
-* [View group views for an entire user group][2]
+* [View group views for a user group][2]
 * [Create appointments for associates][4]
 
 <!-- Referenced links -->

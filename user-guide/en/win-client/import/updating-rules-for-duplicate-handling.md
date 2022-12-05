@@ -41,7 +41,7 @@ You always need to specify rules for handling duplicates during importing. You d
     > [!NOTE]
     > This is the default option for resetting the database, so that unwanted records are not imported with unfortunate consequences.
 
-    * **Insert anyway**: all the fields in the import file are imported and no check is performed to see whether they already exist. This will be particularly relevant when you import into an empty database. You do not need to specify import keys for this option.
+    * **Insert anyway**: all the fields in the import file are imported and no check is performed to see if they already exist. This will be particularly relevant when you import into an empty database. You do not need to specify import keys for this option.
 
 8. Click **OK**.
 
