@@ -33,7 +33,7 @@ The following settings are available for email mailings:
 
 * **SMTP threads**: Here you can enter the number of concurrent background processes that will send out the e-mails in a mailing. By increasing this number, you can get a higher throughput, but it will also increase the load on the server and the mail server.
 
-* **Default From address**: The e-mail address which is to be the system's default sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service, e.g. support@company.com.
+* **Default From address**: The email address which is to be the system's default sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service, e.g. support@company.com.
 
 [!include[List of fields for mailings](../includes/mailing-smtp-fields.md)]
 

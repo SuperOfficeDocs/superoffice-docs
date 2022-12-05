@@ -17,12 +17,12 @@ Normally, contacts are registered by the system when they send in mails, but the
 
 2. Enter the contact's first name and last name.
 
-3. In the **New e-mail address** field, enter the address itself to the left and a name to identify the email address (for instance "work", "private" etc) in the field on the right.
+3. In the **New email address** field, enter the address itself to the left and a name to identify the email address (for instance "work", "private" etc) in the field on the right.
 
 4. Click ![icon][img1] to add the email address. You can add multiple addresses.
 
     > [!TIP]
-    > You can delete an e-mail address by clicking **Delete** (![icon][img2]) on the right of the row.
+    > You can delete an email address by clicking **Delete** (![icon][img2]) on the right of the row.
 
 5. Enter the phone number and/or mobile number.
 
@@ -32,7 +32,7 @@ Normally, contacts are registered by the system when they send in mails, but the
 
 8. In the **Mr/Ms** field, select a salutation.
 
-9. In the **User name** and **Password** fields, enter the information the contact has to use when logging in to any customer centre. The user name is normally the e-mail address. If you enter nothing in these fields, the user name and password are generated automatically by the system.
+9. In the **User name** and **Password** fields, enter the information the contact has to use when logging in to any customer centre. The user name is normally the email address. If you enter nothing in these fields, the user name and password are generated automatically by the system.
 
 10. In the **Priority** field, select the default priority for new requests linked to this contact. Normally you select **(None)** here. The system will then use the priority for the company which the contact is linked to. Alternatively you can select between **Low**, **Medium** and **High** or any custom priority.
 

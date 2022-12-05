@@ -13,7 +13,7 @@ language: en
 
 [!include[Restricted access](../../includes/note-insufficient-rights.md)]
 
-In the **E-mail** screen, you control the mechanisms that manage inbound and outbound email. Emails are imported by SuperOffice Service regularly collecting email from one or more mailboxes. These email messages can be scanned by email filters that process emails based on content and generate requests. Outbound email (replies) from the system is placed in the outbox and sent regularly to an email server that forwards the messages. Imported emails that are blocked (by a filter) are displayed in the **Blocked e-mail** tab and have to be reviewed manually.
+In the **Email** screen, you control the mechanisms that manage inbound and outbound email. Emails are imported by SuperOffice Service regularly collecting email from one or more mailboxes. These email messages can be scanned by email filters that process emails based on content and generate requests. Outbound email (replies) from the system is placed in the outbox and sent regularly to an email server that forwards the messages. Imported emails that are blocked (by a filter) are displayed in the **Blocked email** tab and have to be reviewed manually.
 
 ## What would you like to find out more about?
 

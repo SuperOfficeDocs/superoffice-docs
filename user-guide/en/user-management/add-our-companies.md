@@ -30,7 +30,7 @@ To add a company in the **Our companies** tab, it must first be registered as a 
 
 1. In the list box to the right of the field you want to search on, choose whether you want to search for a company that **Starts with**, **Contains** or **Equals** the search criteria you enter.
 
-2. You can specify several different search criteria, for example name, code, telephone number or e-mail address. If you specify several search criteria, a search is performed for companies that fulfil all the criteria simultaneously.
+2. You can specify several different search criteria, for example name, code, telephone number or email address. If you specify several search criteria, a search is performed for companies that fulfil all the criteria simultaneously.
 
     <details><summary>Click to find out more about the various search criteria</summary>
 
@@ -43,7 +43,7 @@ To add a company in the **Our companies** tab, it must first be registered as a 
     * First Name: Enter the whole or part of the first name of a contact at the company.
     * Last Name: Enter the whole or part of the last name of a contact at the company.
     * Telephone: Enter the whole or part of a phone number for the company.
-    * E-mail: Enter the whole or part of an e-mail address for the company.
+    * Email: Enter the whole or part of an email address for the company.
     * Match also :Here you can specify further search criteria. [!include[See search criteria](../includes/see-search-admin.md)]
     </details>
 

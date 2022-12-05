@@ -14,7 +14,7 @@ language: en
 Form submissions with status **Submitted** must be processed manually. This means reviewing the form contents and linking the submitter to an existing or a new contact and/or company in SuperOffice. Processed forms will be available in the **Activities** section tab in the **Company** and **Contact** screens in SuperOffice CRM. If you have selected to be notified by new request, the processed forms will be available in the **Request** section tab.
 
 > [!NOTE]
-> SuperOffice will check and validate the e-mail address entered in the form to make sure it is an existing domain name. Basic e-mail address syntax will also be checked.
+> SuperOffice will check and validate the email address entered in the form to make sure it is an existing domain name. Basic email address syntax will also be checked.
 
 To process a submission:
 
@@ -31,7 +31,7 @@ To process a submission:
 
 ## Linking the submitter to a SuperOffice contact and company
 
-When a form is submitted, SuperOffice will try to match the e-mail address in the form with existing e-mail addresses in SuperOffice to link the form submission to an existing contact. If the submitter is found in SuperOffice, you can show contact information, requests, sales, follow-ups and previous chat sessions that have been registered for this contact in SuperOffice.
+When a form is submitted, SuperOffice will try to match the email address in the form with existing email addresses in SuperOffice to link the form submission to an existing contact. If the submitter is found in SuperOffice, you can show contact information, requests, sales, follow-ups and previous chat sessions that have been registered for this contact in SuperOffice.
 
 If no match is found, you must try to locate the correct contact or create a new contact (and company).
 

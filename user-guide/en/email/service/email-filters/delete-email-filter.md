@@ -15,9 +15,9 @@ To delete an email address from SuperOffice Service, do as follows:
 
 [!include[Go to email](../includes/goto-email.md)]
 
-1. Select the **E-mail filters** tab.
+1. Select the **Email filters** tab.
 
-1. Click the required email filter. The **Properties for e-mail filter** screen appears.
+1. Click the required email filter. The **Properties for email filter** screen appears.
 
 1. Click the **Delete** button at the bottom of the screen.
 

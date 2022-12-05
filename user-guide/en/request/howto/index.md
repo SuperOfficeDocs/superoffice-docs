@@ -73,7 +73,7 @@ If this function is active, incoming email requests will be analyzed to determin
 
 ### Automatic categorization
 
-Save time by letting the system categorize requests for you. If this function is active, incoming e-mail requests will be analyzed to determine the best category for each request. In the footer of a request, you will see the category suggested by the system. Click the category link to update the request with the suggested category.
+Save time by letting the system categorize requests for you. If this function is active, incoming email requests will be analyzed to determine the best category for each request. In the footer of a request, you will see the category suggested by the system. Click the category link to update the request with the suggested category.
 
 <!-- Referenced links -->
 [1]: accept.md

@@ -11,7 +11,7 @@ language: en
 
 # Merge requests
 
-You can merge two or more requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and e-mail), you can merge these requests into one request which will be processed. Contacts and messages from all merged requests will be kept.
+You can merge two or more requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and email), you can merge these requests into one request which will be processed. Contacts and messages from all merged requests will be kept.
 
 > [!NOTE]
 > You can also search for and select requests to merge from the search results screen. Then click ![icon][img1] in the lower left corner and select **Batch management**> **Merge**.

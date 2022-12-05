@@ -35,7 +35,7 @@ To create a new customer language:
 
 6. In the **Virtual domain** field, enter the domain address that provides access to SuperOffice Customer Centre for the language in question, for example germany.liberty.com. Such domains must be set up in advance.
 
-7. In the **E-mail domains** field, enter a list of e-mail domains (comma-separated), such as: no, se, co.uk. If a new contact is registered automatically (by importing an e-mail) and that contact has an e-mail address that contains one of these domains, then the appropriate language is set for that contact.
+7. In the **Email domains** field, enter a list of email domains (comma-separated), such as: no, se, co.uk. If a new contact is registered automatically (by importing an email) and that contact has an email address that contains one of these domains, then the appropriate language is set for that contact.
 
 8. In the **FAQ folder** field, select which FAQ folder is to be the top-level folder in the FAQ hierarchy for SuperOffice Customer Centre visitors for the language in question. In other words, the FAQ hierarchy can be divided into several different language sections and then filtered by language. This gives better search results and only FAQs in the relevant language are shown to the user.
 

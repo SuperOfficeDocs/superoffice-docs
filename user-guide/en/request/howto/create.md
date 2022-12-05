@@ -29,7 +29,7 @@ A request can arrive in the system via an email from the customer, or you can re
 
     You can register new contacts by clicking ![icon][img1] in the **Contacts** field in the **Properties** tab.
 
-    Optionally, you can enter an e-mail address if you want to add a recipient without registering them in the system. In this case, they will not be added as contacts for the request.
+    Optionally, you can enter an email address if you want to add a recipient without registering them in the system. In this case, they will not be added as contacts for the request.
     </details>
 
     > [!NOTE]

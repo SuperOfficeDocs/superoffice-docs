@@ -123,8 +123,8 @@ Agenda for first meeting:
 **Sale type**: Sale to new customer
 **Stage**: First meeting
 **Name** of document: Meeting confirmation
-**Purpose of this sales step**: Send an e-mail with meeting confirmation and date/time to all participants for the first meeting.
-**Template**: E-mail
+**Purpose of this sales step**: Send an email with meeting confirmation and date/time to all participants for the first meeting.
+**Template**: Email
 **Default subject**: Meeting confirmation (first meeting)
 </details>
 

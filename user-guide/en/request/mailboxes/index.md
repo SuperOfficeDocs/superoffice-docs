@@ -15,12 +15,12 @@ Under **Knowledge Base** > **Email addresses** you can create a list of email ad
 
 ## List email addresses
 
-If you want details of the email addresses that have been registered, select **Knowledge Base** > **E-mail addresses**. This takes you to the **E-mail addresses** screen, which contains email addresses in a folder structure that you can create yourself.
+If you want details of the email addresses that have been registered, select **Knowledge Base** > **Email addresses**. This takes you to the **Email addresses** screen, which contains email addresses in a folder structure that you can create yourself.
 
 * To **create** a new email address, see [Create email addresses][2].
 * To **edit** an existing email address, click the name in the list.
 * To **search for** an email address, click the **Search** button.
-* To **delete** an email address, click the name in the list, and click **Delete** in the **E-mail address properties** screen.
+* To **delete** an email address, click the name in the list, and click **Delete** in the **Email address properties** screen.
 
 ## What would you like to do now?
 

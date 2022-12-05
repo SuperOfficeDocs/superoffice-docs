@@ -65,7 +65,7 @@ Here you can view and process all submitted forms. Use the filter options at the
 
 ### Response email
 
-This tab is visible if you have activated **E-mail response** for this form (see [Create a new form - Actions][6]). Here you can preview the form response (mailing) associated with this form.
+This tab is visible if you have activated **Email response** for this form (see [Create a new form - Actions][6]). Here you can preview the form response (mailing) associated with this form.
 
 <!-- Referenced links -->
 [1]: ../marketing/add-favourites.md

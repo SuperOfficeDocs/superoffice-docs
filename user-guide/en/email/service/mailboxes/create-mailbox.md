@@ -14,7 +14,7 @@ language: en
 You can create a mailbox to use for importing email into SuperOffice Service. Before you do that, you need to create a mailbox on the mail server that the email is delivered to.
 
 > [!NOTE]
-> Before you set up a mailbox, you need to make sure that there are no old messages in this mailbox on the mail server. SuperOffice Service will import all mail in the mailbox and you risk sending auto-replies to all contacts who have sent email to this address. If you want to import these old emails, you should disable the auto-reply function. Above all, this concerns the **Do not auto-reply** option in the **Mailbox properties** screen and the **Do not send e-mail to new contacts** option in the **Settings** tab in the **System** screen in SuperOffice Service.
+> Before you set up a mailbox, you need to make sure that there are no old messages in this mailbox on the mail server. SuperOffice Service will import all mail in the mailbox and you risk sending auto-replies to all contacts who have sent email to this address. If you want to import these old emails, you should disable the auto-reply function. Above all, this concerns the **Do not auto-reply** option in the **Mailbox properties** screen and the **Do not send email to new contacts** option in the **Settings** tab in the **System** screen in SuperOffice Service.
 
 ## To create a new mailbox - online
 
@@ -55,7 +55,7 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 
 1. In the **Protocol** list box, select which protocol to use to communicate with the mail server. Some of the protocols may require further configuration.
 
-1. In the **E-mail server** field, enter the server's host name.
+1. In the **Email server** field, enter the server's host name.
 
 1. In the **User name** and **Password** fields, enter the user name and password for the mailbox.
 

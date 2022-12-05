@@ -21,7 +21,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 * [Categories][4]
 * [Priorities][5]
 * [Request status][6]
-* [E-mail][7]
+* [Email][7]
 * [System templates][8]
 * [System][9]
 * [Customer languages][10]

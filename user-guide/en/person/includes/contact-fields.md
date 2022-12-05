@@ -4,7 +4,7 @@
 
 * Enter the title of the contact (business card title or position).
 
-* In the **E-mail** field, you can enter several e-mail addresses in the same way as for companies. If you click the contact's e-mail address in the **Contact** tab, you can click the required e-mail address in the list that appears. A blank e-mail message opens, with the e-mail address entered in the **To** field.
+* In the **Email** field, you can enter several email addresses in the same way as for companies. If you click the contact's email address in the **Contact** tab, you can click the required email address in the list that appears. A blank email message opens, with the email address entered in the **To** field.
 
 * Enter telephone numbers in the respective fields. If you click the phone icon next to the fields, you can call the contact directly, if your telephone system and SuperOffice CRM are correctly configured.
 

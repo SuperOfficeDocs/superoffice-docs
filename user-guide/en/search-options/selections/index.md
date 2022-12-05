@@ -32,7 +32,7 @@ There are three different types of selections in SuperOffice CRM:
 
 ## Tasks
 
-From the **Tasks** button (lower part of the screen), you can [perform specific tasks on the members of a selection][1], e.g. send an e-mail to contacts linked to the sales in the selection.
+From the **Tasks** button (lower part of the screen), you can [perform specific tasks on the members of a selection][1], e.g. send an email to contacts linked to the sales in the selection.
 
 ## What can I use selections for
 

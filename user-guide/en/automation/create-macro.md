@@ -14,7 +14,7 @@ language: en
 Many companies often receive requests relating to invoicing. Such requests should go straight to the accounts department. Instead of editing every request and changing category and owner, we can create a macro that performs all these actions. The macro can be assigned to ![icon][img1] **Actions** in the **Request** screen. Invoice questions can thus be delegated to the accounts department with just one click.
 
 > [!TIP]
-> To fully automate this process, you can create an e-mail filter to look for the word "invoice" in e-mail subjects, and then run the macro to assign the request to the correct department.
+> To fully automate this process, you can create an email filter to look for the word "invoice" in email subjects, and then run the macro to assign the request to the correct department.
 
 We will now create a macro based on the example above.
 

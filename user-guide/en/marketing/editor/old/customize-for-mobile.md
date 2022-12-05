@@ -19,7 +19,7 @@ Click **Toggle showing for mobile devices** ( ![icon][img1] ) in the global menu
 
 You can adjust the font size by clicking **Edit top-level column** ( ![icon][img2] ) in the global menu and change the font size for **Default heading/body font for mobile devices** (as a rule of thumb, double the font size). These options are also available on the column menu.
 
-You can also define display alternatives for mobile devices at paragraph level. Click the **Edit paragraph** button ( ![icon][img2] ) to access the **Image** and **Layout** tabs. Here you can find several options for displaying the e-mail on mobile devices.
+You can also define display alternatives for mobile devices at paragraph level. Click the **Edit paragraph** button ( ![icon][img2] ) to access the **Image** and **Layout** tabs. Here you can find several options for displaying the email on mobile devices.
 
 <!-- Referenced links -->
 

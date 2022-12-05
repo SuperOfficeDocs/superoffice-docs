@@ -37,7 +37,7 @@ To access these, do as follows:
 
 1. Select the **Message templates** tab.
 
-2. Click **All templates** and open the **E-mail templates** folder.
+2. Click **All templates** and open the **Email templates** folder.
 
 3. If required, use the search field to find a specific template.
 
@@ -45,13 +45,13 @@ To access these, do as follows:
 
 5. Select **Create mailing**. The template opens in the [mailings wizard][1].
 
-## Create a new e-mail template
+## Create a new email template
 
-To create a new e-mail template from scratch:
+To create a new email template from scratch:
 
 1. Go to the **Message templates** tab.
 2. If required, click **Add folder** to create a folder for the template.
-3. Click **Add e-mail template**. The **Edit template** screen displays.
+3. Click **Add email template**. The **Edit template** screen displays.
 4. Enter a descriptive name for the template in the **Name** field.
 5. Click the blue box (column) in the message, and edit the layout in the side-panel.
 6. Click **Add Content** in a column. The side-panel displays various content types (such as images and text) that can be added to the column.

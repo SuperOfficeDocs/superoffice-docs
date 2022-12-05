@@ -32,7 +32,7 @@ When you link resources, they are automatically assigned the status of accepted.
 
 ### External contacts
 
-The people you choose under **Company** in the **Invitation** dialog are not usually members of your organisation. You can send the invitation to them via e-mail using the **E-mail invitation** option. Invitation e-mails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the status will automatically be updated in SuperOffice.
+The people you choose under **Company** in the **Invitation** dialog are not usually members of your organisation. You can send the invitation to them via email using the **Email invitation** option. Invitation emails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the status will automatically be updated in SuperOffice.
 
 The follow-up is shown on the **Activities** section tab for the company in question.
 

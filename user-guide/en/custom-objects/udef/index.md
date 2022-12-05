@@ -27,8 +27,8 @@ All companies and organisations have their own requirements with regard to the i
 * Using the **Find** search function, you can search for the information you register in these fields and make dynamic selections.
     **For example**: If you register the expiry date of the maintenance agreement that you have with customers, you can create a dynamic selection which shows the customers for which the agreement expires in less than one month.
 
-* You can reuse the information from these fields in documents and e-mails using template variables. Each field that you add is given its own unique ID, which can be used in documents to merge customer-specific information.
-    **For example**: If you send e-mail to customers which states that the maintenance agreement will expire soon, the template variable for expiry date can be used to set the correct expiry date in the message that is being sent.
+* You can reuse the information from these fields in documents and emails using template variables. Each field that you add is given its own unique ID, which can be used in documents to merge customer-specific information.
+    **For example**: If you send email to customers which states that the maintenance agreement will expire soon, the template variable for expiry date can be used to set the correct expiry date in the message that is being sent.
 
 ## Where will the fields I create be displayed?
 

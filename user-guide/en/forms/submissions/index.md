@@ -22,7 +22,7 @@ The **Form status** column can have the following statuses:
 
 * **Processed**: The form has been submitted and automatically processed.
 * **Submitted**: The form has been submitted, but not processed yet.
-* **Awaiting confirmation**: The form has been submitted, but the sender must confirm his/her e-mail address (double-opt in).
+* **Awaiting confirmation**: The form has been submitted, but the sender must confirm his/her email address (double-opt in).
 
 ## What would you like to do now?
 

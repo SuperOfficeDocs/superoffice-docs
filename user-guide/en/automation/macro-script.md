@@ -26,7 +26,7 @@ For example, you can use macros
 * As a task/function in a menu point (such as in ![icon][img1] **Actions** in the **Request** screen)
 * When a request is escalated via the warning levels for priority
 * As a planned task
-* When they are activated by an e-mail filter
+* When they are activated by an email filter
 * When a recipient clicks a tracked link in a mailing
 
 ## What is the difference between a script and a macro?

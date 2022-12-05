@@ -11,10 +11,10 @@ language: en
 
 # SuperOffice WebTools
 
-SuperOffice WebTools maintains the integration with your documents and e-mail. The SuperOffice WebTools download consists of two components:
+SuperOffice WebTools maintains the integration with your documents and email. The SuperOffice WebTools download consists of two components:
 
 * **SuperOffice WebTools** – which facilitates the integration between browsers, documents and SuperOffice applications.
-* **SuperOffice Mail Link** – which gives you the possibility to archive e-mails from your Outlook or Lotus Notes e-mail client.
+* **SuperOffice Mail Link** – which gives you the possibility to archive emails from your Outlook or Lotus Notes email client.
 
 You will automatically be asked to upgrade or install SuperOffice WebTools when you log in to SuperOffice CRM through your browser for the first time on your PC. If this welcome screen does not appear or in case you need to download it again, you can start the SuperOffice WebTools download wizard manually ( ![icon][img1]) **Main menu** > **Download** > **SuperOffice WebTools**).
 

@@ -3,7 +3,7 @@ The first step in creating a form response, is called **Setup**. Here you can se
 
 1. Enter a name in the **Name of mailing** field.
 
-2. Enter the subject of the email in the **E-mail subject** field.
+2. Enter the subject of the email in the **Email subject** field.
 
 3. In the **From** list, select **Always use** and enter the sender's email address in the field below to use the same sender for all mailings. You can also choose our contact or support contact as the sender, if one is defined for this recipient. Enter an email address to be used if no sales contact or support contact is available.
 

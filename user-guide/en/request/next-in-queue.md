@@ -17,7 +17,7 @@ However it is also possible to create an intelligent queue system for handling n
 
 ## How are requests in the queue prioritised?
 
-The sequence of the requests in the queue is determined by the deadline for each individual request. The requests with the closest deadlines come first in the queue. The deadline is calculated based on priorities that have been defined for contact, company, mailbox, e-mail filter and standard priority.
+The sequence of the requests in the queue is determined by the deadline for each individual request. The requests with the closest deadlines come first in the queue. The deadline is calculated based on priorities that have been defined for contact, company, mailbox, email filter and standard priority.
 
 This ensures that requests are prioritised in a logical and fair sequence.
 

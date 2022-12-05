@@ -11,7 +11,7 @@ language: en
 
 # Template variables (Service)
 
-In the e-mail message, you can use template variables to insert customer-specific information to give the message a more personal touch. In this way, you can customise the content for each individual customer.
+In the email message, you can use template variables to insert customer-specific information to give the message a more personal touch. In this way, you can customise the content for each individual customer.
 
 In the tables below you can find all template variables for SuperOffice Service and SuperOffice Marketing.
 
@@ -90,7 +90,7 @@ When editing reply templates and mailings, you can insert template variables by 
 | customer.bestName | The best available name for this customer |
 | customer.cellphone | Mobile phone number |
 | customer.deleted | 1 If this customer is deleted |
-| customer.email | E-mail address |
+| customer.email | Email address |
 | customer.firstname | First name |
 | customer.id | Contact ID (hidden, unique ID) |
 | customer.language | Selected language on contact |
@@ -163,18 +163,18 @@ When editing reply templates and mailings, you can insert template variables by 
 | company.note | Note |
 | company.ourContact | Same as company.primaryContact.id |
 | company.ourContact.cellphone | Our contact, cell phone number |
-| company.ourContact.email | Our contact, e-mail address |
+| company.ourContact.email | Our contact, email address |
 | company.ourContact.name | Our contact, name |
 | company.ourContact.phone | Our contact, phone number |
 | company.ourSalesContact | The id (associate) of the company's KAM |
 | company.ourSalesContact.cellphone | Our sales contact, cell phone number |
-| company.ourSalesContact.email | Our sales contact, e-mail address |
+| company.ourSalesContact.email | Our sales contact, email address |
 | company.ourSalesContact.name | Our sales contact, name |
 | company.ourSalesContact.phone | Our sales contact, phone number |
 | company.phone | Phone number |
-| company.primaryContact.email | Main contact, e-mail address |
+| company.primaryContact.email | Main contact, email address |
 | company.primaryContact.id | The id (ejuser) of the agent which is marked as the primary support contact for this company |
-| ourContact.email | Our contacts e-mail address |
+| ourContact.email | Our contacts email address |
 | ourContact.name | Our contact |
 
 ## Variables for reply templates (user) (only SuperOffice Service)
@@ -185,7 +185,7 @@ Please note that these variables will not work for automated replies sent by the
 |---|---|
 | user.access | The sender's functional access as a bitmask |
 | user.dictionary | The users default dictionary language |
-| user.email | E-mail address |
+| user.email | Email address |
 | user.firstname | First name |
 | user.id | The primary key of the sender in the ejuser table |
 | user.language | Sender's selected language |

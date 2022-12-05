@@ -49,7 +49,7 @@ In the column and paragraph menus, you can move ( ![icon][img8] ) and delete ( !
 The appearance and properties of the template (such as font type and size, colours and margins) can be defined at global level (the whole template) or by column and paragraph. Click **Edit …** ( ![icon][img12] ) in the global menu or in a column or paragraph.
 
 > [!TIP]
-> Use standard fonts for the best legibility with any e-mail client or web browser.
+> Use standard fonts for the best legibility with any email client or web browser.
 
 ## Menu overview
 

@@ -20,7 +20,7 @@ In the **Content** step you can send a test email.
 
 1. Go to the **Content** step.
 2. Click the **Send test** button in the lower left corner.
-3. Enter an e-mail address. You can add multiple e-mail addresses by using ; as separator.
+3. Enter an email address. You can add multiple email addresses by using ; as separator.
 4. Click **OK**. The email is sent to the specified addresses.
 
 ## What should I test?

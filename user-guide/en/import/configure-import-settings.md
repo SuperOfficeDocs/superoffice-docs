@@ -83,7 +83,7 @@ Company
 Contact
 
 * **Name**: The contact's full name (first name+last name) must be identical.
-* **E-mail address**: The contact's e-mail address must be identical.
+* **Email address**: The contact's email address must be identical.
 * **Mobile phone**: The contact's mobile phone number must be identical.
 * **Number**: The contact number must be identical.
 * **None - do not import contact**: Select this option if you do not want to import contacts.
@@ -144,11 +144,11 @@ The import source may, for example, contain businesses that are not registered i
 
 ## Manage new phone numbers, links and email addresses
 
-The import source may, for example, contain phone numbers, links and e-mail addresses that are not registered in SuperOffice. As is it possible to register several phone numbers, links and e-mail addresses for a single company/contact, you must specify how new values are to be managed. In the **Phone number** and **URLs + email** list boxes under **Lists**, you have the following options:
+The import source may, for example, contain phone numbers, links and email addresses that are not registered in SuperOffice. As is it possible to register several phone numbers, links and email addresses for a single company/contact, you must specify how new values are to be managed. In the **Phone number** and **URLs + email** list boxes under **Lists**, you have the following options:
 
 * **Add new - keep existing**: New values will be added to SuperOffice and existing values will be retained.
 * **Replace - overwrite existing**: Existing values in SuperOffice will be overwritten by imported values.
-    For example: This may be relevant if you know that the import contains correct e-mail addresses for your contacts. If the e-mail addresses that are registered in SuperOffice are outdated, you can overwrite them to clean up the system.
+    For example: This may be relevant if you know that the import contains correct email addresses for your contacts. If the email addresses that are registered in SuperOffice are outdated, you can overwrite them to clean up the system.
 * **Ignore - keep existing**: No new values will be imported into SuperOffice.
 
 ## Manage product categories, product families and product types not in SuperOffice

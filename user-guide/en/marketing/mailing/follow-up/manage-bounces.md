@@ -1,7 +1,7 @@
 ---
 uid: help-en-blocked-email-addresses
-title: Blocked e-mail addresses
-description: Blocked e-mail addresses
+title: Blocked email addresses
+description: Blocked email addresses
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Marketing
@@ -15,7 +15,7 @@ You can manage bounces and blocked emails for individual mailings as well as for
 
 ## Why are emails returned?
 
-Emails may be returned due to e-mail address errors, spam filters, Internet problems or inboxes being full. Some of these problems may be temporary (delivery delays, email server temporarily unavailable etc.), while others are permanent (wrong address, unknown domain etc.). Temporarily failing email addresses are not blocked, and they are not skipped in the next mailing.
+Emails may be returned due to email address errors, spam filters, Internet problems or inboxes being full. Some of these problems may be temporary (delivery delays, email server temporarily unavailable etc.), while others are permanent (wrong address, unknown domain etc.). Temporarily failing email addresses are not blocked, and they are not skipped in the next mailing.
 
 > [!NOTE]
 > To prevent misspelled or invalid email addresses, SuperOffice validates email addresses received through Chat and Forms. The validation is performed using DNS lookup and controlling basic email syntax.
@@ -24,7 +24,7 @@ Emails may be returned due to e-mail address errors, spam filters, Internet prob
 
 1. Select the email in the list and click **Open** in the side-panel to edit the contact.
 2. Go to the **Details** tab.
-3. A warning icon (![icon][img1]) next to the e-mail address indicates a problem. Hold the mouse-pointer over the icon to view the cause of the problem.
+3. A warning icon (![icon][img1]) next to the email address indicates a problem. Hold the mouse-pointer over the icon to view the cause of the problem.
 
 > [!TIP]
 > Click a column to access sorting and grouping functions.
@@ -36,7 +36,7 @@ Email addresses that have been returned due to permanent errors or have bounced 
 > [!NOTE]
 > If an email bounces more then 5 times, it is automatically blocked. You can adjust this setting in the global preference **Number of accepted bounces before email address is disabled** in SuperOffice Settings and Maintenance.
 
-All blocked email addresses from all mailings are archived in the **Blocked e-mail addresses** tab. This tab provides an excellent overview of email addresses that need to be cleaned.
+All blocked email addresses from all mailings are archived in the **Blocked email addresses** tab. This tab provides an excellent overview of email addresses that need to be cleaned.
 
 > [!TIP]
 > Click a column to access sorting and grouping functions.

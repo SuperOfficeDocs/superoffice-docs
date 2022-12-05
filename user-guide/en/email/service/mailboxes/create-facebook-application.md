@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Create Facebook applications
 
-If you want to interact with your customers via Facebook, you will want to create a link between SuperOffice Service and a user wall or page on Facebook. Messages and comments posted to the wall will then be imported into SuperOffice Service as requests (in the same way as e-mail is imported). When the request handler responds to one of these messages, the reply is posted to Facebook.
+If you want to interact with your customers via Facebook, you will want to create a link between SuperOffice Service and a user wall or page on Facebook. Messages and comments posted to the wall will then be imported into SuperOffice Service as requests (in the same way as  is imported). When the request handler responds to one of these messages, the reply is posted to Facebook.
 
 ## Step 1: Set up an application on Facebook
 
@@ -47,7 +47,7 @@ Now you need to set up a Facebook account in SuperOffice Service.
 
 1. In the **Customer language** list box, specify which language to use for the customers who send messages to this Facebook application. For details, see [Customer languages][3].
 
-1. In the **E-mail fields** field, enter a comma-separated list of e-mail fields (headers) to be displayed in the request message, for example, To and Cc.
+1. In the **Email fields** field, enter a comma-separated list of email fields (headers) to be displayed in the request message, for example, To and Cc.
 
 1. Click **OK**. The Facebook account is created.
 

@@ -44,7 +44,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 1. In the **Fields** category, click ![icon][img1] and add the following fields:
 
     * First and last name (remove the **Contact - Name field**)
-    * **Contact - E-mail** (make this field mandatory)
+    * **Contact - Email** (make this field mandatory)
     * Contact - Subscription
         * Select one or more newsletters which should be available
         * Set the field to **Mandatory**.
@@ -64,7 +64,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
 1. In the **Double opt-in** category, select **Enable double opt-in**.
 
-1. In the **Message** tab, enter the text to display after the form has been submitted. This message should inform the customer that they will receive an e-mail confirmation. Click **Show/hide toolbar** ![icon][img3] to display formatting options for the text.
+1. In the **Message** tab, enter the text to display after the form has been submitted. This message should inform the customer that they will receive an email confirmation. Click **Show/hide toolbar** ![icon][img3] to display formatting options for the text.
 
     <details><summary>Example</summmary>
     We will now send an email to the address you have registered in our form.
@@ -76,7 +76,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
     SuperShop
     </details>
 
-1. In the **E-mail** tab, create the confirmation email sent to the persons submitting the form.
+1. In the **Email** tab, create the confirmation email sent to the persons submitting the form.
 
     <details><summary>Example</summmary>
     Hi and thanks for your interest in our newsletters
@@ -92,11 +92,11 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
 1. Click **Show/hide toolbar** ![icon][img3] and then click **Insert confirm link** ![icon][img4]. The confirmation link is inserted in the body text.
 
-1. Click the confirmation link, select **Edit link** ![icon][img5], and change the link text to "Click here to confirm your e-mail address". The link is valid for 30 minutes by default.
+1. Click the confirmation link, select **Edit link** ![icon][img5], and change the link text to "Click here to confirm your email address". The link is valid for 30 minutes by default.
 
 1. Click **Apply now** to save the form and continue editing.
 
-1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for subscribing"). This will display after the customer has verified their e-mail address.
+1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for subscribing"). This will display after the customer has verified their email address.
 
 1. Click **Apply now** to save the form and continue editing.
 
@@ -108,13 +108,13 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
     * Do not select **Create request**. The subscriptions will activate automatically, so no action is required by the support team.
 
-    * Select **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
+    * Select **Manually if submitter is unknown. Automatically if submitter is known**: If the email address submitted in the form matches an email address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
 
     * **Add contact to selection**: Select the selection you created in step 1. Use this selection to keep track of contacts added via this form.
 
     * **Add interest to contact**: Select the interest called **Newsletter**. This interest will be added to contacts who submit this form.
 
-    * **E-mail response**: Select a form response to send to contacts when their form is processed. This e-mail can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. [How do I create a form response?][2].
+    * **Email response**: Select a form response to send to contacts when their form is processed. This email can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. [How do I create a form response?][2].
 
 1. Click **Save**. The form is saved and the **Edit form** screen closes.
 
@@ -145,7 +145,7 @@ In this example we will show you how to create short form for customers who want
     * First and last name. Remove the **Contact - Name field**.
     * **View elements** > **Text block**: Enter the text in "How can we contact you?" in bold.
     * **Contact - Mobile**: Enter an example of a correctly formatted phone number for your country (include the country code) in the     **Placeholder** field (example: +47 999 88 777).
-    * **Contact - E-mail**
+    * **Contact - Email**
     * **Form elements** > **Text area**: Change the name of the field to "Comment (optional)" and write "How can we help you today?" in the **Placeholder** field.
 
 1. Select the **OK** field, change the name to "Submit", and edit the font/background colour and position.
@@ -160,7 +160,7 @@ In this example we will show you how to create short form for customers who want
 
 1. Click **Apply now** to save the form and continue editing.
 
-1. Optional: If you want to enable double opt-in, you should also set the **E-mail** field to **Mandatory**.
+1. Optional: If you want to enable double opt-in, you should also set the **Email** field to **Mandatory**.
 
 1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for contacting us. We will be in touch shortly."). This will display after the customer has submitted the form.
 
@@ -173,9 +173,9 @@ In this example we will show you how to create short form for customers who want
         2. Select the relevant request category, for example "Support" or a sub-category called "Form submissions".
         3. Set the request priority to **Medium**.
 
-    * Select **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
+    * Select **Manually if submitter is unknown. Automatically if submitter is known**: If the email address submitted in the form matches an email address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
 
-    * **E-mail response**: Select a form response to send to contacts when their form is processed. This e-mail can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. [How to create a form response][2].
+    * **Email response**: Select a form response to send to contacts when their form is processed. This email can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. [How to create a form response][2].
 
 1. Click **Save**. The form is saved and the **Edit form** screen closes.
 

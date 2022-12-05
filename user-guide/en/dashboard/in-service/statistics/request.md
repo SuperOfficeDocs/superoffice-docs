@@ -35,7 +35,7 @@ In the **Settings** tab, set the following parameters:
     * **Category**: Sums measurable values by category.
     * **User**: Sums measurable values by user.
     * **Priority**: Sums measurable values by priority.
-    * **Mailbox**: Sums measurable values by mailbox. Requests not generated from e-mails are ignored.
+    * **Mailbox**: Sums measurable values by mailbox. Requests not generated from emails are ignored.
 
 4. Set these options as necessary:
 

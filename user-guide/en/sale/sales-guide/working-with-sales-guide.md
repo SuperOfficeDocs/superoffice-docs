@@ -72,7 +72,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
 | Stage | Follow-ups | Documents |
 |---|---|---|
-| First meeting | Customer meeting (Meeting (External)) | Meeting confirmation (E-mail) |
+| First meeting | Customer meeting (Meeting (External)) | Meeting confirmation (Email) |
 | Quotation | Quotation preparation (Task) | Quotation (Letter) |
 | Signing of contract | Set up contract meeting (Phone-Out)<br /> Contract meeting (Meeting (External)) | Signed contract |
 
@@ -85,12 +85,12 @@ You record a new sale and select the **Sale to new customer** sale type, which i
     2. [Complete the information and invite participants][1].
     3. Click **Save**.
 
-2. For the sake of good order, you want to send an e-mail confirming the time and location of the meeting.
+2. For the sake of good order, you want to send an email confirming the time and location of the meeting.
 
     1. Click **Create** next to **Meeting confirmation**.
-        The **Document** dialog opens with **E-mail** already selected as the document type, and the name of the company and sale prefilled.
+        The **Document** dialog opens with **Email** already selected as the document type, and the name of the company and sale prefilled.
     2. Complete the rest of the information in the fields in the **Document** dialog.
-    3. Click the **Create** button to create and send the e-mail.
+    3. Click the **Create** button to create and send the email.
 
 3. Once the meeting has taken place, you want to confirm this in the sales guide.
 

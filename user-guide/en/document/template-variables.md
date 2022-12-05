@@ -11,7 +11,7 @@ language: en
 
 # Template variables
 
-Template variables are used to insert data from SuperOffice into e-mails, quotes, meeting notifications, document templates etc. You can use template variables to personalise messages to customers and set up complex quotes.
+Template variables are used to insert data from SuperOffice into emails, quotes, meeting notifications, document templates etc. You can use template variables to personalise messages to customers and set up complex quotes.
 
 ## Examples
 
@@ -60,7 +60,7 @@ supershop.com
 
 ### Meeting minutes (header)
 
-This is an example of a header in a meeting minutes (document or e-mail).
+This is an example of a header in a meeting minutes (document or email).
 
 ```text
 {head}

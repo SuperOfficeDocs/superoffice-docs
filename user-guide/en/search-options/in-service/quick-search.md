@@ -55,7 +55,7 @@ How this works in practice:
     * If several records match the search criterion, a list of search results is displayed. From this list, you can open the record you want.
 
 > [!TIP]
-> If you enter a search criterion containing the @ sign, the system assumes you have entered an e-mail address and searches for people with this address. You can also search using a wildcard: enter "%%" for an unknown character.
+> If you enter a search criterion containing the @ sign, the system assumes you have entered an email address and searches for people with this address. You can also search using a wildcard: enter "%%" for an unknown character.
 
 <!-- Referenced links -->
 

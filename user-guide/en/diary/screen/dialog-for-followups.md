@@ -88,7 +88,7 @@ Check here when the [follow-up is completed][11].
 
 ![icon][img1]
 
-Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as e-mail, Assign to and Cancel meeting. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
+Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as email, Assign to and Cancel meeting. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
 
 ### Registered/Last modified
 

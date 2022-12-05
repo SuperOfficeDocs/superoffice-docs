@@ -128,7 +128,7 @@ The following fields are available in the **Post-chat form** tab:
 * **Enable post-chat form**: Select this option to show the post-chat form to the customer when the chat is finished.
 * **Header**: Enter a short header text.
 * **Message**: Enter a short message to the customer.
-* **Enable transcript**: Select this option to enable transcript. The customer can enter an e-mail address to which the transcript will be sent. The reply template for the transcript can be found in SuperOffice Service.
+* **Enable transcript**: Select this option to enable transcript. The customer can enter an email address to which the transcript will be sent. The reply template for the transcript can be found in SuperOffice Service.
 
 The preview on the right displays the chat window with the current settings.
 

@@ -11,7 +11,7 @@ language: en
 
 # Outbox for email
 
-In the **Outbox for e-mail** tab is a list of the emails in the queue to be sent out.
+In the **Outbox for email** tab is a list of the emails in the queue to be sent out.
 
 Select **Show sent e-mails** in the lower right corner to display also the last request emails.
 
@@ -26,7 +26,7 @@ The following options are also available from the **Actions** button (![icon][im
     > [!NOTE]
     > You cannot undo this operation.
 
-If you click one of the messages in this tab, the **Outbound e-mail** screen appears. This contains information about the selected message, such as its size and who created it. Any error messages are also shown.
+If you click one of the messages in this tab, the **Outbound email** screen appears. This contains information about the selected message, such as its size and who created it. Any error messages are also shown.
 
 <!-- Referenced links -->
 

@@ -15,7 +15,7 @@ language: en
 
 A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as stakeholders and can be entered in the **Stakeholders** section tab at the bottom of the **Sale** screen. Stakeholders can include individuals as well as organisations.
 
-For each stakeholder, information about company, contact name, role in the sale, e-mail address and telephone number is displayed.
+For each stakeholder, information about company, contact name, role in the sale, email address and telephone number is displayed.
 
 ## <a id="role" />Sale - Stakeholder role
 

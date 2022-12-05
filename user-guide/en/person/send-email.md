@@ -19,8 +19,8 @@ You can prepare an email from both the **Contact** screen and the **Company** sc
 
 1. Do one of the following:
     * Click the email address in the **Contact** tab. If the contact has more than one email address, you must select which one to use.
-    * Click **New** on the top bar and select **E-mail**.
-    * Click the **Task** button ( ![icon][img1] ) and select **Send e-mail**.
+    * Click **New** on the top bar and select **Email**.
+    * Click the **Task** button ( ![icon][img1] ) and select **Send email**.
 
     A message to the specified recipient is then opened in your default email program.
 1. Write the email.

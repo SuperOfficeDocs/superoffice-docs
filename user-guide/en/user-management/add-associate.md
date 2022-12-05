@@ -18,8 +18,8 @@ This procedure describes how to add one user at a time. To add multiple users, s
 1. Open the **Users** screen.
 2. Select the **Associates** tab.
 3. Click the **Add** button below the list. An empty user card opens on the right-hand side of the screen.
-4. Enter the name and e-mail address of the new user in the top-part of the view.
-5. If more than one owner company is available in your SuperOffice installation, you can select this below the **E-mail** field.
+4. Enter the name and email address of the new user in the top-part of the view.
+5. If more than one owner company is available in your SuperOffice installation, you can select this below the **Email** field.
 6. Enter the relevant information in the **Details** and **Licences** tabs.
 7. Click **Save**. The name of the new user will now be displayed in the list.
 
@@ -36,7 +36,7 @@ In the **Details** tab, you have the following options:
 
 * **Authentication**: If multiple authentication methods are available, you can select an authentication method here.
 
-* **User name**: Enter the SuperOffice user name. This should be the same name as in your identity provider's system (if you use Office 365 or Gmail for authentication). When you use SuperOffice for authentication, simply fill in your e-mail address. Make sure the e-mail address is valid, since it will be used for account confirmation.
+* **User name**: Enter the SuperOffice user name. This should be the same name as in your identity provider's system (if you use Office 365 or Gmail for authentication). When you use SuperOffice for authentication, simply fill in your email address. Make sure the email address is valid, since it will be used for account confirmation.
 
 * **Role**: Specify the [role][3] the user should have in the **Role** list box. The role determines the user's data access and functional rights. You cannot change your own role.
 

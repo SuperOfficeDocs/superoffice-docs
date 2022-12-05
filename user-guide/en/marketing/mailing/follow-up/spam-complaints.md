@@ -29,7 +29,7 @@ To avoid spam complaints, try to look into the following:
 * Does your mailing not look like the newsletter they subscribe to?
 * Can the mailing content be misinterpreted?
 * Is it not obvious that the mailing is from you?
-* Did you send the mailing to a large list of unknown e-mail addresses (not registered in SuperOffice)?
+* Did you send the mailing to a large list of unknown email addresses (not registered in SuperOffice)?
 
 ## Export
 

@@ -20,7 +20,7 @@ The **Headings** list (in the bottom right of the **Lists** screen) shows which 
 
 ## When is it a good idea to use headings in lists?
 
-If a list is very long (it contains a large number of items), you can use headings to group the items logically. The items in the **Document templates** list, for example, are grouped in the **Letter**, **Fax**, **E-mail** headings and so on.
+If a list is very long (it contains a large number of items), you can use headings to group the items logically. The items in the **Document templates** list, for example, are grouped in the **Letter**, **Fax**, **Email** headings and so on.
 
 ## What would you like to do now?
 

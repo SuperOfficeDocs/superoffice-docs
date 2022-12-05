@@ -11,12 +11,12 @@ language: en
 
 # Blocked email
 
-In the **Blocked e-mail** tab is a list of inbound emails blocked by an email filter. Click an email to display its contents. If there is insufficient space for all the emails on one page, you can click ![icon][img1] to navigate to the next page. This list contains the following columns:
+In the **Blocked email** tab is a list of inbound emails blocked by an email filter. Click an email to display its contents. If there is insufficient space for all the emails on one page, you can click ![icon][img1] to navigate to the next page. This list contains the following columns:
 
 * **When**: Specifies when the email was blocked.
 * **Mailbox**: Specifies which mailbox imported the email.
-* **E-mail filter**: Specifies which email filter blocked the email.
-* **E-mail subject**: Shows the subject of the message.
+* **Email filter**: Specifies which email filter blocked the email.
+* **Email subject**: Shows the subject of the message.
 
 The following options are also available from the **Actions** button (![icon][img2]):
 

@@ -25,9 +25,9 @@ To merge contacts:
 5. To add more contacts, repeat the previous steps.
 6. For each row (field) in the table, you must select which contact data should be kept. Click ![icon][img2] **Choose** to select all fields in a column. The unselected data in this table will be overwritten.
     * Requests from all merged contacts will be kept.
-    * E-mail addresses from all merged contacts will be kept, but you need to edit the merged contact to set the correct primary e-mail address.
+    * Email addresses from all merged contacts will be kept, but you need to edit the merged contact to set the correct primary email address.
 7. Click **OK**. The contacts are merged.
-8. Open the merged contact and check that the data have been merged correctly. Set the correct primary e-mail address.
+8. Open the merged contact and check that the data have been merged correctly. Set the correct primary email address.
 
 The contacts that have been overwritten will no longer be available in favourites and history lists and search.
 

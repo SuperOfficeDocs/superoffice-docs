@@ -11,7 +11,7 @@ language: en
 
 # Send a follow-up as an email
 
-1. Right-click the required follow-up on the **Activities** section tab in the **Company**, **Contact**, **Diary**, **Sale** or **Project** screens, and select **Send as e-mail**.
+1. Right-click the required follow-up on the **Activities** section tab in the **Company**, **Contact**, **Diary**, **Sale** or **Project** screens, and select **Send as email**.
 
 2. A message is opened in your email program:
 

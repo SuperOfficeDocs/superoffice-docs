@@ -19,7 +19,7 @@ You can send a mailing to all contacts in a selection. The mailing can be an ema
 
 3. Click one of the following options:
 
-    * **Create e-mail mailing**: Select this options to [send emails to all or parts of your customer base][1].
+    * **Create email mailing**: Select this options to [send emails to all or parts of your customer base][1].
 
     * **Create SMS mailing**: Select this option to [send SMS messages][2] to all or parts of your customer base by mobile phone.
 

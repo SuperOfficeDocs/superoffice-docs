@@ -22,7 +22,7 @@
     > [!TIP]
     > If you want to save the message temporarily and complete it later, click ![icon][img3] in the top-right corner. The message will then be saved in the drafts folder.
 
-9. To include an FAQ, a reply template or a quick reply in the e-mail message, click ![icon][img4] at the bottom of the window.
+9. To include an FAQ, a reply template or a quick reply in the email message, click ![icon][img4] at the bottom of the window.
 
     Select one of the following options and browse the folders. You can also enter search text in the top field, or click the relevant icons to access history and favorites.
 
@@ -32,7 +32,7 @@
 
 ## Quick reply
 
-A quick reply is a pre-defined text that you can use in an e-mail message. It is similar to reply templates, but it is much easier and faster to create a quick reply. The quick replies you create will only be available to you.
+A quick reply is a pre-defined text that you can use in an email message. It is similar to reply templates, but it is much easier and faster to create a quick reply. The quick replies you create will only be available to you.
 
 To create quick replies:
 

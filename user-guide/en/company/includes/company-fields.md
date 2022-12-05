@@ -11,7 +11,7 @@
 
 6. In the **Web site** field, enter the address of the company’s homepage on the Internet in the same way as for **Telephone**.
 
-7. In the **E-mail** field, enter the company's e-mail address in the same way as for **Telephone**.
+7. In the **Email** field, enter the company's email address in the same way as for **Telephone**.
 
 8. In the **Our Contact** field, your name will be displayed automatically. Clicking the arrow brings up a list box where you can choose the name of someone else from your organization.
 

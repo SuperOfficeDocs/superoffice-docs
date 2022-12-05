@@ -39,7 +39,7 @@ The first thing you must do, is to select what type of mailing you want to send.
 1. Select the **Mailings** tab.
 
 2. Select one of the following options under **Create new mailing** on the right side of the screen:
-    * **E-mail**
+    * **Email**
     * **SMS**
     * **Document**
     * **Form response**

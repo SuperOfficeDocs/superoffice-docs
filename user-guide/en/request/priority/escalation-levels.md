@@ -35,7 +35,7 @@ For each priority you can define one or more escalation levels, so that the syst
 
 1. Under **Send reply template**, you can define who should receive an email and SMS when this escalation level is triggered.
 
-    Select the checkboxes for **E-mail** or **SMS** next to each recipient, and select the relevant reply template. If you select **Others**, you must enter the relevant email addresses (use commas) and phone numbers in the fields below.
+    Select the checkboxes for **Email** or **SMS** next to each recipient, and select the relevant reply template. If you select **Others**, you must enter the relevant email addresses (use commas) and phone numbers in the fields below.
 
 1. Click **Save**.
 
@@ -59,13 +59,13 @@ For each priority you can define one or more escalation levels, so that the syst
 
     Details about each field are specified below.
 
-1. Optionally, specify use of reply templates in the **Send reply template by e-mail to** and **Send reply template by SMS to** tabs.
+1. Optionally, specify use of reply templates in the **Send reply template by email to** and **Send reply template by SMS to** tabs.
 
     * Contact
     * Request owner
     * Category administrator
     * Others
-    * E-mail address
+    * Email address
 
     Details about each option are specified below.
 
@@ -90,8 +90,8 @@ For each priority you can define one or more escalation levels, so that the syst
 | Contact | If you check here, the reply template specified in the field to the right is sent to the contact for the request when this escalation level occurs. Select the required reply template in the list. |
 | Request owner | If you check here, the reply template specified in the field to the right is sent to the owner of the request when this escalation level occurs. Select the required reply template in the list. |
 | Category administrator | If you check here, the reply template specified in the field to the right is sent to the category administrator when this escalation level occurs. Select the required reply template in the list. |
-| Others | If you check here, the reply template specified in the field to the right is sent to the e-mail address(es) entered in the field below. Select the required reply template in the list. |
-| E-mail address | Here you enter the e-mail address which the reply template in the **Others** field is to be sent to. You can enter several addresses by separating them with commas. |
+| Others | If you check here, the reply template specified in the field to the right is sent to the email address(es) entered in the field below. Select the required reply template in the list. |
+| Email address | Here you enter the email address which the reply template in the **Others** field is to be sent to. You can enter several addresses by separating them with commas. |
 
 ## Delete escalation level
 

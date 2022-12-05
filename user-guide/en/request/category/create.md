@@ -37,7 +37,7 @@ To create a new category:
         * **Only members have access**: If you check here, the category will only be accessible to members of the category.
         * **Send notification to members about new request**: If you check here, all members of the category will receive notification of new requests in this category.
 
-    * **Send notification about new request to e-mail address**: Enter an e-mail address.
+    * **Send notification about new request to email address**: Enter an email address.
 
     * **Take ownership when replying**: If you check here, the user who replies to a request in this category, will be set as the owner of the request.
 
@@ -74,7 +74,7 @@ To create a new category:
 
     * **Assign to our service contact if available**: If the relevant company or contact has a request handler specified as **Our contact**, and this user is available, the request is assigned to this user. If **Our contact** is not specified, or the user is not available, the request is assigned in accordance with the usual assignment rules.
 
-    * **Duration of sticky request** / **Assignment quarantine**: Enter the number of minutes for which you want to override assignment and assign all requests from the same customer to one user. In this way, you can ensure that when customers send two requests in a row to the same e-mail address, the requests go to the same request handler. If you enter -1, this functionality is disabled and all requests will be assigned in accordance with the usual assignment rules.
+    * **Duration of sticky request** / **Assignment quarantine**: Enter the number of minutes for which you want to override assignment and assign all requests from the same customer to one user. In this way, you can ensure that when customers send two requests in a row to the same email address, the requests go to the same request handler. If you enter -1, this functionality is disabled and all requests will be assigned in accordance with the usual assignment rules.
 
 1. Click **OK**. The category is created.
 

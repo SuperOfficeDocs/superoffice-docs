@@ -81,7 +81,7 @@ To add fields to the form:
 2. Click the **Add** button ![icon][img2]. The **Add element** window opens.
 
 3. Select one of the following field categories:
-    * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, e-mail address etc. Depending on the type of field, values from submitted forms can either replace existing values (such as country or title) or be added to the relevant SuperOffice field (such as mobile phone).
+    * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, email address etc. Depending on the type of field, values from submitted forms can either replace existing values (such as country or title) or be added to the relevant SuperOffice field (such as mobile phone).
     * **Form elements**: Fields for entering text or date, fields for selecting values (lists, checkboxes and radio buttons) and file upload fields.
     * **View elements**: Sections, texts and images. Use sections to [create multi-page forms](#multi-page).
 
@@ -117,7 +117,7 @@ The preview on the right is updated automatically when you change any settings. 
 
 ### Double opt-in
 
-This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their e-mail address. This is done by sending them an e-mail when they submit the form. The e-mail contains a link they must click to confirm that the e-mail address is correct.
+This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their email address. This is done by sending them an email when they submit the form. The email contains a link they must click to confirm that the email address is correct.
 
 > [!NOTE]
 > The link is valid for 30 minutes by default.
@@ -126,17 +126,17 @@ To activate double opt-in:
 
 1. Click **Enable double opt-in**.
 2. In the **Message** tab, enter the text to display after the form has been submitted. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text.
-3. In the **E-mail** tab, create the confirmation e-mail sent to the persons submitting the form.
-    1. **Subject**: Enter the subject of the confirmation e-mail.
-    2. **Sender address**: Enter the e-mail address to display in the **From** field in the confirmation mail.
-    3. **Confirmation text**: Enter the body text of the e-mail. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text. Click **Open text editor in dialog** ![icon][img8] to edit the text in a larger editor.
+3. In the **Email** tab, create the confirmation email sent to the persons submitting the form.
+    1. **Subject**: Enter the subject of the confirmation email.
+    2. **Sender address**: Enter the email address to display in the **From** field in the confirmation mail.
+    3. **Confirmation text**: Enter the body text of the email. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text. Click **Open text editor in dialog** ![icon][img8] to edit the text in a larger editor.
     4. Click **Show/hide toolbar** ![icon][img7] and then click **Insert confirm link** ![icon][img9]. The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** ![icon][img10].
 4. Click **Apply now** when you are done.
 
-If double opt-in has been activated for a form, all [submissions for this form][5] will have status **Awaiting confirmation** until the e-mail address has been confirmed.
+If double opt-in has been activated for a form, all [submissions for this form][5] will have status **Awaiting confirmation** until the email address has been confirmed.
 
 > [!NOTE]
-> Remember to add the **Contact - e-mail** field in the **Fields** category.
+> Remember to add the **Contact - email** field in the **Fields** category.
 
 ### Thank you page
 
@@ -161,7 +161,7 @@ Here you can define how a submitted form should be processed. Fill in the follow
 **How should a form submission be processed?** Here you can define if the submitted forms should be processed automatically or not.
 
 * **Automatically process all submissions. Create new contact if no match found**: All form submissions are processed automatically. There will no notifications of submitted forms.
-* **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually. You will receive a notification (![icon][img11]). See [Process form submissions][6].
+* **Manually if submitter is unknown. Automatically if submitter is known**: If the email address submitted in the form matches an email address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually. You will receive a notification (![icon][img11]). See [Process form submissions][6].
 * **Manually for all submissions**: You will receive a notification (![icon][img11]) for each submitted form. To process form submissions manually, see [Process form submissions][6].
 
 **What should happen when the form is processed?** Here you can select actions to perform when a form is processed (automatically or manually):
@@ -169,7 +169,7 @@ Here you can define how a submitted form should be processed. Fill in the follow
 * **Add contact to selection**: If you have selected automatic processing above, you should add a selection here to keep track of contacts added via this form. This will also make it easier to remove any irrelevant contacts (and companies).
 * **Add contact to project**: Select a project. Contacts who submit this form will be added to this project.
 * **Add interest to contact**: Select an interest. This interest will be added to contacts who submit this form.
-* **E-mail response**: Select a form response to send to contacts when their form is processed. [How to create a form response][7].
+* **Email response**: Select a form response to send to contacts when their form is processed. [How to create a form response][7].
 * **Create request**: If you have added a request field in the **Fields** category, you must also select a default category and priority for the requests that are create from this form. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the **Company** and **Contact** screens in SuperOffice CRM.
 * **Execute CRMScript**: Select a script or macro to run when a form submission is processed. See [CRMScript][8].
 * **Default category** / **Default business**: Select a default category and business for all contacts or companies that are added to SuperOffice based on submitted forms. With this option, you can group the form submissions and new contacts/campanies to one specific category and/or business.

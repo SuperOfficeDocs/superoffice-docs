@@ -57,7 +57,7 @@ The appearance and properties of the message (such as font type and size, colour
 To edit the message at a global level, select **Body** (![icon][img12])in the side-panel.
 
 > [!TIP]
-> Use standard fonts for the best legibility with any e-mail client or web browser.
+> Use standard fonts for the best legibility with any email client or web browser.
 
 ## Menu overview
 

@@ -36,7 +36,7 @@ The other buttons in SuperOffice Service are described in connection with the ta
 |---|---|
 | Preferences | Click here to edit your [personal preferences][6]. |
 | Edit personal signature | Click here to [edit the signature][7] added to your outgoing emails or to requests in SuperOffice Service. |
-| E-mail options | Click here to edit the settings for email. |
+| Email options | Click here to edit the settings for email. |
 | Show my Contact info | Click here to open your contact card. |
 | Local settings | Click here to change the language, number/date format and email client in SuperOffice CRM. |
 | Mobile CRM settings | Click here to access settings for SuperOffice Mobile CRM. Here you can configure your Mobile CRM app. |
@@ -62,7 +62,7 @@ The other buttons in SuperOffice Service are described in connection with the ta
 | Show Notepad | Click here to [show the Notepad and create a new note][9]. |
 | Show confirmation dialog when sending invitations | Click her to activate/deactivate the confirmation dialog when sending emails to meeting participants from the **Appointment** dialog. |
 | Targets | Click here to add [sales targets][17]. |
-| Edit system signature | Click here to edit the default e-mail signature. |
+| Edit system signature | Click here to edit the default email signature. |
 | Settings and maintenance | Click here to go to SuperOffice Settings and maintenance. This option is only available if you have administrator's rights. |
 
 **Settings and maintenance:**

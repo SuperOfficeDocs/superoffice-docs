@@ -67,7 +67,7 @@ Depending on the rights you have in the system, the **Status** tile may also sho
 
     A user with publishing rights can check **Publish in the FAQ entry editing screen**.
 
-* **System messages**: Any messages from the system concerning errors or e-mail blocking are displayed at the bottom of the **Status** tile. You can open a message by clicking it.
+* **System messages**: Any messages from the system concerning errors or email blocking are displayed at the bottom of the **Status** tile. You can open a message by clicking it.
 
 ## Own open requests
 

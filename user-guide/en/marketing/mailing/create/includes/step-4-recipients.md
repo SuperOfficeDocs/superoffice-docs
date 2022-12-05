@@ -53,14 +53,14 @@ When you import a list of names and email addresses, SuperOffice Marketing will 
 
 * Each recipient must be on its own line (row).
 
-* Each recipient (row) consist of the full name and e-mail address.
+* Each recipient (row) consist of the full name and email address.
 
     Example: "John Smith, john@company.com")
 
     > [!NOTE]
     > You can also specify just the email address. The name will then not be available as a template variable.
 
-* <!-- onsite--> (requires the Marketing SMS licence) Each recipient (row) can also contain a mobile phone number (after the e-mail address) if you are creating SMS mailings. (For example: "John Smith, john@company.com, 99999999".)
+* <!-- onsite--> (requires the Marketing SMS licence) Each recipient (row) can also contain a mobile phone number (after the email address) if you are creating SMS mailings. (For example: "John Smith, john@company.com, 99999999".)
 
 > [!NOTE]
 > If you only have the mobile phone number and want to send an SMS, you can enter the following: " , , 99887766".

@@ -24,7 +24,7 @@ A contact who is going to have access to a customer centre needs a user name and
     > [!TIP]
     > The content of the message is obtained from an installed system template. You can find this under **Knowledge Base** > **Reply templates**.
 
-5. Click **OK**. The e-mail is sent.
+5. Click **OK**. The email is sent.
 
 <!-- Referenced links -->
 

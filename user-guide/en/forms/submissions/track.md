@@ -23,7 +23,7 @@ Here you can basic information about the form, including a preview of the form, 
 * **Last submission**: When the last form was submitted.
 * **Completion last 7 days**: Submitted forms per day the last 7 days.
 * **Completion rate**: Status for submitted forms.
-* **Mailing**: This field is visible if you have activated **E-mail response** for this form (see [Create a new form - Actions][1]). Click the link to view information and statistics about the form response. See [Track the mailing and view statistics][2].
+* **Mailing**: This field is visible if you have activated **Email response** for this form (see [Create a new form - Actions][1]). Click the link to view information and statistics about the form response. See [Track the mailing and view statistics][2].
 
 ## Reports
 

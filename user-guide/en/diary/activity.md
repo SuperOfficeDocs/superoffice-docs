@@ -54,8 +54,8 @@ The activities list columns contain the following information:
 The activities displayed depend on which of the following checkboxes you have selected at the bottom of the section tab:
 
 * Follow-ups (appointments, tasks and phone calls)
-* Documents (e-mail, letters, and other documents)
-* Mailings (bulk mailings by merged document, e-mail or SMS)
+* Documents (email, letters, and other documents)
+* Mailings (bulk mailings by merged document, email or SMS)
 * Other (chat records, form submissions)
 
 You can show all activities, or just one type.

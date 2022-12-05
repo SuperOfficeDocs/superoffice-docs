@@ -17,10 +17,10 @@ language: en
 
 3. Select one or more stakeholders or project members.
 
-4. Right-click and select **Send e-mail**. This opens a message to the specified recipient(s) in the default email program.
+4. Right-click and select **Send email**. This opens a message to the specified recipient(s) in the default email program.
 
     > [!NOTE]
-    > Only contacts with email addresses are displayed in the **To** field. Contacts without e-mail addresses are omitted.
+    > Only contacts with email addresses are displayed in the **To** field. Contacts without email addresses are omitted.
 
 5. Enter any extra information.
 
