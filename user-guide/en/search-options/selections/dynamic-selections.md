@@ -17,7 +17,7 @@ A dynamic selection can be compared to a saved search that is executed each time
 
 ### Companies
 
-You could create a dynamic selection containing all companies in the "Supplier" category located in Germany. This might be useful if you were planning further activities in Germany.
+You could create a dynamic selection containing all companies in the "Supplier" category located in Germany if you were planning further activities in Germany.
 
 ### Sale
 
@@ -33,7 +33,7 @@ You can create a selection containing all documents you have created in the last
 
 ### Follow-ups
 
-You can create a selection containing all follow-ups for a specific customer, to get an idea of the sort of relationship you have with them. This might be useful prior to having a sales meeting with them.
+You can create a selection containing all follow-ups for a specific customer, to get an idea of the sort of relationship you have with them before having a sales meeting with them.
 
 And you can create a selection containing all follow-ups you have this month, to see what appointments you have and if you should set up more.
 

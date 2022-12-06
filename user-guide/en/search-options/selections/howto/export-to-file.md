@@ -15,9 +15,9 @@ Using this task, you can create a text file containing information about the sel
 
 [!include[Start](../includes/steps-start-task.md)]
 
-1. Click the **Task** button and select **Export to file**. The **Export to file** dialog opens.
+1. Click the **Task** button and select **Export to file**.
 
-1. In the **Use Template** field, you can specify the template to use for the file you are exporting. The template determines what is exported. If you do not want to use the default option, you can choose another template from the list box.
+1. In the **Export to file** dialog in the **Use Template** field, specify the template to use for the file you are exporting. The template determines what is exported. If you do not want to use the default option, choose another template from the list box.
 
 1. Click **Create** to set the export running.
 

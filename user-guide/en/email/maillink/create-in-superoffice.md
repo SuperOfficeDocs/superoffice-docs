@@ -15,8 +15,8 @@ There are two ways of creating an email from SuperOffice CRM. You can use the **
 
 You can, however, also use the **Write** toolbar button.
 
-1. Click the **Write** toolbar button at the bottom of the SuperOffice CRM window. The **Document** dialog opens.
-2. In the **Type** field at the top of the dialog, select an email template.
+1. Click the **Write** toolbar button at the bottom of the SuperOffice CRM window.
+2. In the **Type** field at the top of the **Document** dialog, select an email template.
 3. Complete the remaining fields with the required information.
 4. Click the **Create** button to open the new email in your default mail client.
 5. If SuperOffice CRM contains an email address for the company/contact you have chosen in the **Document** dialog, this address is inserted automatically in the message’s **To** field.

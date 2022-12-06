@@ -21,9 +21,9 @@ Before linking a heading to an item, you need to add the headings you require:
 
 4. Go to the **Headings** tab.
 
-5. Click the **Add** button below the **Headings** list to add a new heading. The **Edit heading** dialog opens.
+5. Click the **Add** button below the **Headings** list to add a new heading.
 
-6. Enter the required name for the heading in the **Name** field.
+6. In the **Edit heading** dialog, enter the required name for the heading in the **Name** field.
 
     [!include[Mandatory](../../../includes/note-mandatory-field.md)]
 

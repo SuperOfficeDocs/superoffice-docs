@@ -11,16 +11,14 @@ language: en
 
 # Add a relation (Company screen)
 
-To add a relation:
+> [!NOTE]
+> A relation must always consist of two parties, one active and one passive, for example: Company A owns Company B, while Company B is owned by Company A.
 
 [!include[Go to company](../includes/goto-company.md)]
 
 1. Select the **Relations** section tab.
 
 1. Click the **Add** button below the section tab. The **Relation** dialog opens.
-
-    > [!NOTE]
-    > A relation must always consist of two parties, one active and one passive, for example: Company A owns Company B, while Company B is owned by Company A.
 
     ![Relations dialog -screenshot][img2]
 

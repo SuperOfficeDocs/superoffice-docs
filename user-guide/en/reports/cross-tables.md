@@ -22,7 +22,7 @@ To view a cross table report (.Dcube file), you need to install the **CrossTable
 
 1. Click ![icon][img1] (main menu) and select **Download > Download CrossTable viewer**.
 2. Click the downloaded file (**SoCrossTableInstaller.exe**) to run it.
-3. If a security warning is displayed, confirm that you want to run the file. The installation wizard then opens.
+3. If a security warning is displayed, confirm that you want to run the file.
 4. Follow the instructions in the wizard to install the program.
 
 ## View a cross table

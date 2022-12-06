@@ -17,7 +17,7 @@ language: en
 
 1. Select the **Request status** tab.
 
-1. Click the **Add** button. A new request status opens to the right.
+1. Click the **Add** button.
 
 1. In the **Name** field, enter a descriptive name for the request status.
 

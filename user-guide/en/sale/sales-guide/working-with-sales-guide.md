@@ -64,7 +64,7 @@ In the **Sales guide** dialog you have three options:
 
 ## Example
 
-Which sale types are assigned a sales guide and which stages and activities the sales guides are to contain is set up in SuperOffice Settings and maintenance. What a sales guide looks like can therefore vary, but below is an example of how a sale using a sales guide may proceed.
+Keep in mind that your sales guides may be configured differently in Settings and maintenance.
 
 ### Enter a new sale and select a sale type
 
@@ -136,7 +136,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
     1. Click **Create** next to the **Set up contract meeting** phone call and create the phone call in the usual way.
 
-    2. When the phone call has been completed, check the box. The **Sales guide** dialog opens.
+    2. When the phone call has been completed, check the box.
 
     3. In the **Sales guide** dialog you have three options:
 

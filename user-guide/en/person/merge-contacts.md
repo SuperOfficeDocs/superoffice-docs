@@ -13,15 +13,13 @@ language: en
 
 [!include[Requirement](../includes/note-req-manage-entities.md)]
 
-If a physical person is registered as two different contacts in SuperOffice CRM, you can merge these contacts together. This might be desirable if the person has been registered under two different names at the same company (for example, "Jonathan Clark" and "Jonathon Clarke"), or if the person has been registered at both their old and new employer.
+If a physical person is registered as two different contacts in SuperOffice CRM, you can merge these contacts together. For example, if the person has been registered under two different names at the same company ("Jonathan Clark" and "Jonathon Clarke"), or if the person has been registered at both their old and new employer.
 
 Project membership and activities will be moved to the target contact, and the source contact can be deleted or marked as a former employee.
 
-Proceed as follows:
-
-1. In the **Company** screen: Go to the **Contacts** section tab, select and right-click one or two contacts you want to merge, select **Manage contacts** and **Merge contacts**.
-    In the **Contact** screen: Go to the required contact, click the **Task** button ( ![icon][img1] ) in the contact card, and select **Manage contacts** and **Merge contacts**.
-    The **Merge contacts** dialog opens.
+1. Open the **Merge contacts** dialog bu doing one of the following:
+    * In the **Company** screen: Go to the **Contacts** section tab, select and right-click one or two contacts you want to merge, select **Manage contacts** and **Merge contacts**.
+    * In the **Contact** screen: Go to the required contact, click the **Task** button ( ![icon][img1] ) in the contact card, and select **Manage contacts** and **Merge contacts**.
 
 2. If you have only selected one contact, you need to select a contact under **To** (to search for a contact, start typing). The two contacts you want to merge are now displayed under **From** and **To**.
 

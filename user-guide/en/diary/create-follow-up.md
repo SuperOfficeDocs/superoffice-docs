@@ -14,7 +14,7 @@ language: en
 To create follow-ups in SuperOffice CRM, you can click the **New** button on the top bar.
 
 > [!TIP]
-> You can also add follow-ups by double-clicking an empty line in the **Activities** section tab. By default this opens the **Appointment** dialog. You can specify which dialog should open under **Preferences** (![icon][img1] **Personal settings > Preferences > Functions > Type from Activities section tab**).
+> You can also add follow-ups by double-clicking an empty line in the **Activities** section tab. By default this opens the **Appointment** dialog. You can specify which dialog should open under **Preferences** (![icon][img1] **Personal settings** > **Preferences** > **Functions** > **Type from Activities section tab**).
 
 ## Create follow-ups in the activities list
 
@@ -37,12 +37,12 @@ When you have opened the diary of an associate, you can create appointments for 
 
 2. [Find the person's diary][4] in the **View**.
 
-3. [Create a new appointment][1] in this diary using the mouse. The **Appointment** dialog opens.
+3. [Create a new appointment][1] in this diary using the mouse.
+
+4. The **Appointment** dialog opens. [Choose the participants to include][5], if they are not automatically included.
 
     > [!NOTE]
-    > If you have checked **Participants from group view** under **Preferences**, all members of the view are automatically added as participants in the appointment. To change this preference, go to ![icon][img1] **Personal settings > Preferences > Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
-
-4. [Choose the participants to include][5], if they are not automatically included.
+    > If you checked **Participants from group view** under **Preferences**, all members of the view are automatically added as participants in the appointment. To change this preference, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
 5. Enter the required information in the fields. [!include[See Appointment dialog](../includes/see-apt-dialog.md)]
 

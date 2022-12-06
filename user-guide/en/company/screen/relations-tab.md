@@ -24,7 +24,7 @@ The columns of the **Relations** section tab contain the following information:
 * Who created the relation.
 * If a paperclip symbol (![icon][img1]) is displayed, this indicates that there is a more detailed description of the relation in the **Relation** dialog.
 
-Double-click on a relation row and the **Relation** dialog opens, showing all the information entered for that relation.
+Double-click on a relation row to open the **Relation** dialog, showing all the information entered for that relation.
 
 ## What would you like to do?
 

@@ -55,15 +55,15 @@ In the **Stages** tab, you do the following:
 
 ## Quote attachments tab
 
-In the **Quote attachments** tab you can add documents to be sent to the customer along with a quote. These might be, for example, product specs, brochures and so on.
+In the **Quote attachments** tab you can add documents to be sent to the customer along with a quote. For example, product specs, brochures and so on.
 
 > [!NOTE]
 > The documents must first be added as document templates in SuperOffice.
 
 To add quote attachments:
 
-1. Click **Add**. The **Find** dialog opens.
-2. Search for the document(s) you want to add. [!include[See search criteria](../../includes/see-search-admin.md)]
+1. Click **Add**.
+2. In the **Find** dialog, search for the document(s) you want to add. [!include[See search criteria](../../includes/see-search-admin.md)]
 3. Select one or more documents and click **OK**. The document(s) is/are displayed in the **Quote attachments** tab.
 4. Select the documents you want to include in the **Include** column.
 

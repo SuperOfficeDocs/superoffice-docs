@@ -24,11 +24,11 @@ To edit the name and/or description of an item:
 
     All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list will be empty.
 
-3. Double-click the required item in the **Items** list. The **Edit list item** dialog opens.
+3. Double-click the required item in the **Items** list.
 
     [How to update a specialised list][2].
 
-4. Type a new name for the item in the **Name** field.
+4. In the **Edit list item** dialog, type a new name for the item in the **Name** field.
 
     > [!NOTE]
     > [!include[Mandatory](../../includes/note-mandatory-field.md)]

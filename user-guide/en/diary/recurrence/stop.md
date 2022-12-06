@@ -17,11 +17,13 @@ You can stop a follow-up repeating as follows:
 
 2. Select the **Details** tab.
 
-3. Click the link to the right of the **Recurrence** text. The **Repeating follow-ups** dialog opens.
+3. Click the link to the right of the **Recurrence** text.
 
-4. Click **Stop repeating** at the bottom left of the dialog. The **Repeating follow-ups** dialog closes.
+4. In the **Repeating follow-ups** dialog, click **Stop repeating** at the bottom left of the dialog.
 
-5. Click **Save** in the **Appointment**, **Task** or **Phone Call** dialog to save the changes, or click **Cancel** to close the dialog without saving the changes.
+    The **Repeating follow-ups** dialog closes.
+
+5. Click **Save** to save the changes, or click **Cancel** to close the dialog without saving the changes.
 
 When you stop the repeating follow-up, all instances of the follow-up *after* the one you edited are deleted. If the follow-up is the first in a series of repeating follow-ups, the repeating pattern is deleted and it will become an "ordinary" follow-up.
 

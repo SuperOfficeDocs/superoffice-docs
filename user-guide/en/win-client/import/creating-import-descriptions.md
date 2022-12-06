@@ -44,7 +44,7 @@ To create an import description:
     > [!NOTE]
     > You can perform an import without clicking the **Save** button, but your changes will then not be saved for later use.
 
-9. Type the name for the new file in the dialog which opens, choose the folder you want to save it in and click **Save**.
+9. In the dialog, type the name for the new file, choose the folder you want to save it in, and click **Save**.
 
 > [!NOTE]
 > You can also create a new import description by [changing an existing description][4] and saving it with a new name.

@@ -34,9 +34,9 @@ To import an Excel spreadsheet into the SuperOffice database:
 
 1. [!include[Open Import](includes/open-import.md)]
 
-2. Make sure that **Contacts** is selected under **Select an import source** and then click the Excel icon ( ![icon][img1] ). The **Upload file** dialog opens.
+2. Make sure that **Contacts** is selected under **Select an import source** and then click the Excel icon ( ![icon][img1] ).
 
-3. Click **Upload file** to select the Excel spreadsheet you want to import.
+3. In the **Upload file** dialog, click **Upload file** to select the Excel spreadsheet you want to import.
 
 4. Browse to the required Excel spreadsheet and click **Open**. The data from the spreadsheet will be displayed in the table.
 

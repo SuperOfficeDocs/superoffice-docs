@@ -13,9 +13,9 @@ language: en
 
 You can restore companies and contacts that have been deleted by mistake, either by yourself or another user. Deleted companies and contacts are by default kept in the recycle bin for 14 days. After this time, they are permanently deleted.
 
-1. Choose ![icon][img1] **Personal settings** > **Recycle bin**. The **Recycle bin** dialog opens.
+1. Choose ![icon][img1] **Personal settings** > **Recycle bin**.
 
-2. Select the **Company** or **Contact** tab. Companies and contacts deleted by you are displayed.
+2. In the **Recycle bin** dialog, select the **Company** or **Contact** tab. Companies and contacts deleted by you are displayed.
 
 3. Optional: Select **View deleted companies/contacts for all users**. This option requires functional rights.
 

@@ -21,8 +21,8 @@ language: en
 
 1. Select ![icon][img1] **System settings > Users**.
 2. Select the **User groups** tab.
-3. Click the **New group** button. The **User group** screen opens.
-4. Fill in the **Name** and **Description** fields.
+3. Click the **New group** button.
+4. In the **User group** screen, fill in the **Name** and **Description** fields.
 5. Select the **Categories** tab. Here you can choose which categories the users in the group will be members of. In this way, you can avoid having to state a category membership manually for every single user.
 6. Do as follows:
     1. Select a category in the **New category** field.

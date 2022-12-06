@@ -11,9 +11,9 @@ language: en
 
 # Look at recipient list after the mailing
 
-1. Click the mailing in the **Mailings** tab. The **View mailing** screen opens.
+1. Click the mailing in the **Mailings** tab.
 
-2. Click the **Recipients** tab. The list shows the 100 first recipients, and you need to click ![icon][img1] to show the next 100.
+2. In the **View mailing** screen, click the **Recipients** tab. The list shows the 100 first recipients, and you need to click ![icon][img1] to show the next 100.
 
 3. [Filter the list](#filters) by using the checkboxes at the bottom of the list.
 

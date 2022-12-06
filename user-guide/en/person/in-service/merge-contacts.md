@@ -19,7 +19,7 @@ You can merge two or more contacts. For example, if a contact has been registere
 To merge contacts:
 
 1. Open one of the contacts you want to merge.
-2. Click ![icon][img1] and select **Merge**. In the screen that opens, a table shows the fields that must be merged. Now you need to find the contact to merge with this one.
+2. Click ![icon][img1] and select **Merge**. A screen opens, showing the fields that must be merged. Now you need to find the contact to merge with this one.
 3. In the search field, start typing the contact's name. Enter **%** to display all contacts.
 4. Select a contact from the list of search results. The selected contact opens in a new column in the table.
 5. To add more contacts, repeat the previous steps.

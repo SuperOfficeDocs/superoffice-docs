@@ -63,7 +63,7 @@ You can also add functions, for example, a summary column in the selection. We w
 
 ## Edit columns
 
-You can edit the information about the existing columns, for example the name and column widths. Proceed as follows:
+You can edit the information about the existing columns, for example the name and column widths.
 
 1. Open the **Edit selection** screen.
 2. Go to the **Profile** tab. Under **Columns** is a list of the columns already specified.

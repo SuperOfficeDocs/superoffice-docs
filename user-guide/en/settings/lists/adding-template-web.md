@@ -81,8 +81,8 @@ Enter the following information in the **Details** tab:
 
 Here you can add translated versions of the document template.
 
-1. Click **Add**. The **Edit list item** dialog opens.
-2. Select the language you require in the **Add language** list.
+1. Click **Add**.
+2. In the **Edit list item** dialog, select the language you require in the **Add language** list.
 3. Add the translated document template as described above.
 4. Click **Add**. The language is listed in the **Languages** tab.
 5. Repeat the steps above to add additional languages.

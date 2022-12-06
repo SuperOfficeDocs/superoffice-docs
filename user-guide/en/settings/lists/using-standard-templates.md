@@ -29,8 +29,8 @@ You can edit the standard templates supplied with SuperOffice CRM and save them 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 2. [!include[Click arrow and select](../../includes/expand-list.md)] **Document - Template**.
     All previously defined items for the selected list are displayed in the **Items** list.
-3. Double-click the required item in the **Items** list. The **Edit list item** dialog opens.
-4. Click the **Edit** button. The document opens in the correct application.
+3. Double-click the required item in the **Items** list.
+4. In the **Edit list item** dialog, click the **Edit** button. The document opens in the correct application.
 5. Save the document with a new name to keep the original template intact, or with the same name to overwrite it.
 
 > [!NOTE]

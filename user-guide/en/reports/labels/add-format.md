@@ -26,7 +26,7 @@ To print labels in a format different from those already available, you can defi
 
 8. For **Margins**, enter values for the left, right, top and bottom margins.
 9. For **Labels**, specify the number of rows and columns on each label sheet.
-10. Click **Save**. The label dialog opens, where your new format will now be included in the list.
+10. Click **Save**. The label dialog opens, and your new format is included in the list.
 
 <!-- Referenced links -->
 [1]: ../properties.md

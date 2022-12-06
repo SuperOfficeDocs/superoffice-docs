@@ -17,9 +17,9 @@ To change an existing setting:
 
 [!include[Select group and reference](includes/select-group-and-reference.md)]
 
-1. Double-click the setting you want to change. The **Setting** dialog opens.
+1. Double-click the setting you want to change.
 
-1. Make the required changes in the dialog. The various fields are described under [Add preference settings][2].
+1. In the **Setting** dialog, [update the fields][2] as required.
 
 1. Click **Save**. The setting becomes available to users the next time they log in to SuperOffice CRM.
 

@@ -17,7 +17,7 @@ This function is useful if you want to copy specific selection members into anot
 
 1. Click the **Task** button and select **Copy into selection** task.
 
-1. The **Copy into Selection** dialog opens. There are two options in this dialog:
+1. In the **Copy into Selection** dialog, select one of the following:
 
     * **Copy into existing static selection**: select this option to copy the active selection into an existing static selection. In this case, specify the required selection.
 

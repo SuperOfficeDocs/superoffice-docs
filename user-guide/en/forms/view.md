@@ -13,7 +13,9 @@ language: en
 
 In the **Forms** tab you can find all existing forms.
 
-Here you have the following viewing options:
+To view an existing form, click a form in the list. The **View form** screen opens.
+
+## Viewing options
 
 * **Recent**: Shows the forms you have been working on recently.
 * **My forms**: Shows the forms that you have created.
@@ -21,7 +23,7 @@ Here you have the following viewing options:
 * **All forms**: Shows all available forms.
 * **Search in forms**: Enter a search phrase and press **ENTER** or click the search icon ![icon][img2].
 
-To view an existing form, click a form in the list. The **View form** screen opens.
+## The View form screen
 
 In the top part of the screen, you have the following options:
 
@@ -36,7 +38,7 @@ The **View form** screen consists of the following tabs:
 
 ### Summary
 
-Here you can basic information about the form, including a preview of the form, and view various submission statistics:
+Here you can see basic information about the form, including a preview of the form, and view various submission statistics:
 
 * **Total submissions**: How many forms have been submitted.
 * **Last submission**: When the last form was submitted.

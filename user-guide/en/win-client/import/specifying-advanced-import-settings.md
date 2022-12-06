@@ -24,9 +24,9 @@ To specify advanced import settings:
 
 [!include[Select file](includes/step-select-file.md)]
 
-1. Click the **Advanced** button. The **Advanced options** dialog opens.
+1. Click the **Advanced** button.
 
-1. In the **Date format** list box, choose from the predefined date formats. You cannot use month names, only numbers.
+1. In the **Advanced options** dialog, choose a predefined format from the **Date format** list box. You cannot use month names, only numbers.
 
     > [!NOTE]
     > **Native ID** means a SuperOffice date. SuperOffice counts the seconds since 01.01.1970; it is this number which equates to **Native ID**.

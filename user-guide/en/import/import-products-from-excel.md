@@ -30,9 +30,9 @@ To import an Excel spreadsheet with products into the SuperOffice database:
 
 3. In the **Import to price list**, select the price list you want to import the products to.
 
-4. Click the Excel icon ( ![icon][img1] ) under **Select an import source**. The **Upload file** dialog opens.
+4. Click the Excel icon ( ![icon][img1] ) under **Select an import source**.
 
-5. Click **Upload file** to select the Excel spreadsheet you want to import.
+5. In the **Upload file** dialog, click **Upload file** to select the Excel spreadsheet you want to import.
 
 6. Browse to the required Excel spreadsheet and click **Open**. The **File name** field shows the position and name of the file you have selected.
 

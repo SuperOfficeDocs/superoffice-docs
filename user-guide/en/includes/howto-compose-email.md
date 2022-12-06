@@ -1,7 +1,7 @@
 <!-- markdownlint-disable-file MD041 -->
-1. Select **New** > **Email**. The **Mail** dialog opens.
+1. Select **New** > **Email**.
 
-2. Click in the **To** field, and start typing the name of the contact you want to send the message to.
+2. In the **Mail** dialog, click in the **To** field, and start typing the name of the contact you want to send the message to.
 
 3. Select a contact in the list of results. You can also click ![icon][img1] to select a recent contact.
 
@@ -34,10 +34,10 @@
 
 A quick reply is a pre-defined text that you can use in an email message. It is similar to reply templates, but it is much easier and faster to create a quick reply. The quick replies you create are available only to you.
 
-To create quick replies:
+**Steps:**
 
-1. Click ![icon][img5] **Edit**. The **Quick replies** windows opens.
-2. Click **Add**. A new reply is added to the list.
+1. Click ![icon][img5] **Edit**.
+2. In the **Quick replies** windows, click **Add**. A new reply is added to the list.
 3. Click the **New name** field and enter a title for the quick reply. This will not be visible to the customer.
 4. Click the **New content** field and enter the reply text you want to send to customers.
 5. Click **Save**. The window closes and the new quick reply is saved.

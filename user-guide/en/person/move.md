@@ -9,19 +9,20 @@ so.topic: help
 language: en
 ---
 
-# Move a contact
+# Move a contact to another company
 
 [!include[Requirement](../includes/note-req-manage-entities.md)]
 
 You can move a contact from one company to another. If a contact has been set up under the wrong company, or if they have changed department, they can be moved, including their activities and memberships. You also have the option of disconnecting a contact from a company.
 
-Proceed as follows to move a contact to another company:
+**Steps:**
 
-1. In the **Company** screen: Go to the **Contacts** section tab, right-click the contact you want to move, select **Manage contacts** and **Move contact**.
-    In the **Contact** screen: Go to the required contact, click the **Task** button ![icon][img2] in the contact card, and select **Manage contacts** and **Move contact**.
-    This opens the **Move contact** dialog.
+1. Do one of the following:
 
-1. Under **Action on contact**, select one of the following options:
+    * In the **Company** screen: Go to the **Contacts** section tab, right-click the contact you want to move, select **Manage contacts** and **Move contact**.
+    * In the **Contact** screen: Go to the required contact, click the **Task** button ![icon][img2] in the contact card, and select **Manage contacts** and **Move contact**.
+
+1. In the **Move contact** dialog under **Action on contact**, select one of the following options:
     * Select **Move to** and choose the company you want to move the contact to. Use [FastSearcher][1], [The History list][2] or [Find][3] ![icon][img3].
     * Select **Disconnect from &lt;company&gt;**.
 

@@ -14,7 +14,7 @@ language: en
 > [!NOTE]
 > To access this function, your user must belong to a role with the functional right **Service administration**.
 
-In general, it is not recommended to delete a request. In some cases, however, you might have to delete a request to comply with your company's privacy policy. All messages and attachments/files linked to the request are also deleted.
+In general, it is not recommended to delete a request. However, you may have to delete a request to comply with your company's privacy policy. All messages and attachments/files linked to the request are also deleted.
 
 1. [Open the request you want to delete][1].
 2. Click ![icon][img1] and select **Edit request**.

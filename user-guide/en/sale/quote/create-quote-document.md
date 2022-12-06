@@ -15,9 +15,9 @@ Once you have created the quote and added the products you want, you can create 
 
 1. Open an existing quote, or [create a new quote][1].
 
-2. Click **Click to create quote document** at the top of the quote or on the **Quote** section tab. The **Document** dialog opens.
+2. Click **Click to create quote document** at the top of the quote or on the **Quote** section tab.
 
-3. [Complete the fields with the required information][2].
+3. In the **Document** dialog, [complete the fields with the required information][2].
 
 4. Click the **Create** button to create a new document based on the selected document template.
 

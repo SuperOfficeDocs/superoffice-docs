@@ -18,9 +18,9 @@ You can initiate some [system events][1] from **System notifications** list in t
 
 2. Select the **Status** tab.
 
-3. Click the **Add** button below **System notifications**. The **Add event** dialog opens.
+3. Click the **Add** button below **System notifications**.
 
-4. In the **Event type** list box, choose from the predefined options. See [System event types][1].
+4. In the **Add event** dialog, choose a [system event type][1] from the **Event type** list box.
 
 5. Specify the date and time when you expect the event to finish in the **Finished** fields.
 

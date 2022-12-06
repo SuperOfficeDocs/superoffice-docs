@@ -21,16 +21,24 @@ To search for records and data in SuperOffice CRM, you use the **Find** screen.
 To use the search function in SuperOffice CRM:
 
 1. Click the **Find** button on the [top bar][1]. ![icon][img2]
+
 2. Click the type of record you want to search for, or click **Typical searches** to display a list of predefined searches. The **Criteria** tab opens.
+
 3. The **Find** screen contains predefined search criteria, or the search criteria you used last time. Click ![icon][img3] to remove any criteria you do not want to use.
     *or* If you want to add new search criteria, click the **Add** button. A new line is added to the criteria list.
+
 4. In the first list box on the line, select the field you want to search for information in. You can also enter the start of the name in the appropriate field (see [FastSearcher][2]).
     Here you could, for example, select **Contact** and **Last name** if you wanted to search for contacts, or **Project** and **Event date** if you wanted to search for projects. There are different types of fields. These are described under [Use search criteria][3].
+
 5. Select values for the search criteria in the next fields on the line.
+
 6. You can click **Add** below the criteria list again to specify more search criteria. A new line is added to the criteria list and you can repeat steps 4 and 5.
+
 7. To move criteria, click and drag ![icon][img4].
+
 8. Click **Or** to add a another set of criteria.
-9. When you have specified and activated the search criteria you want, click the **Find** button. The **Results** tab opens with the search results which match the search criteria you have specified.
+
+9. When you have specified and activated the search criteria you want, click the **Find** button. The **Results** tab opens with the results matching the search criteria.
 
 > [!TIP]
 > If, for example, you want to search for all companies, you can use the percent sign (%) when [entering search criteria][3] for **Company**.
@@ -39,27 +47,15 @@ To use the search function in SuperOffice CRM:
 
 Once you have followed the above procedure, and search results are displayed in the **Results** tab, you have several options available:
 
-Open the record
+* **Open the record:** To open one of the records, double-click it. For example, double-clicking a contact displays the **Contacts** section tab with that contact highlighted.
 
-To open one of the records, double-click it. For example, double-clicking a contact displays the **Contacts** section tab with that contact highlighted.
+* **Display a record in the side panel:** Use the [side panel][4] to quickly browse through the search results. If you have searched for contact, select **Contacts** in the list at the top of the side panel. You can then click on each contact in the **Results** tab to preview them.
 
-Display a record in the side panel
+* **Perform tasks on the search results:** The **Task** button contains tasks such as sending emails, mass-editing and exporting. Which tasks are displayed depends on what type of records are displayed. See [Perform tasks using selections][7].
 
-Use the side panel to quickly browse through the search results. If you have searched for contact, select **Contacts** in the list at the top of the side panel. You can then click on each contact in the **Results** tab to preview them.
+* **Add records to a selection:** Click the **Save as selection** button. See [Create selections][8].
 
-See [The side panel][4].
-
-Perform tasks on the search results
-
-The **Task** button contains tasks such as sending emails, mass-editing and exporting. Which tasks are displayed depends on what type of records are displayed.
-
-See [Perform tasks using selections][7].
-
-Add records to a selection
-
-Click the **Save as selection** button. See [Create selections][8].
-
-Select records, right-click, and select **Add to selection**. See [Add members to static selections][9].
+* Select records, right-click, and select **Add to selection**. See [Add members to static selections][9].
 
 ## The search facility in SuperOffice CRM
 

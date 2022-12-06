@@ -11,7 +11,7 @@ language: en
 
 # Work with email addresses
 
-Under **Knowledge Base** > **Email addresses** you can create a list of email addresses that you often use, but which are not registered for users or contacts in SuperOffice Service. These might be, for example, suppliers, partners or product specialists. These addresses are accessible in most places where you need to send email, such as in the **New request** and **Add message** screens.
+Under **Knowledge Base** > **Email addresses** you can create a list of email addresses that you often use, but which are not registered for users or contacts in SuperOffice Service. For example, suppliers, partners, or product specialists. These addresses are accessible in most places where you need to send email, such as in the **New request** and **Add message** screens.
 
 ## List email addresses
 

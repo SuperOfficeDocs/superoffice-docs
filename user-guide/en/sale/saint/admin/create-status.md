@@ -18,9 +18,9 @@ To add a new status:
 <!-- markdownlint-disable-file MD029 -->
 [!include[Open SAINT](includes/open-saint-select-tab.md)]
 
-3. Click **Add** below the **Status monitors** list. The **Status monitor** dialog opens.
+3. Click **Add** below the **Status monitors** list.
 
-4. Complete these fields:
+4. In the **Status monitor** dialog, complete these fields:
     * **Name**: Enter a descriptive name for the status you want to add.
 
         Optional: Click ![icon][img2] to [add translations][8] of the status name.

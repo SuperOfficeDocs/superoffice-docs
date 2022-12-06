@@ -17,14 +17,14 @@ To add items to both predefined and user-defined lists:
 
 2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list from the list box at the top. All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list will be empty.
 
-3. Click the **Add** button below the **Items** list. The **Edit list item** dialog opens.
+3. Click the **Add** button below the **Items** list.
 
     <details><summary>Do you want to add an item to a specialised list?</summary>
 
     Some list types are more specialised than those referred to in this procedure. [Specialised lists][1].
     </details>
 
-4. Enter the required name of the item in the **Name** field.
+4. In the **Edit list item** dialog, enter the required name of the item in the **Name** field.
 
     > [!NOTE]
     > [!include[Mandatory](../../includes/note-mandatory-field.md)]

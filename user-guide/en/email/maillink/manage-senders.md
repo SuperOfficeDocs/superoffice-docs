@@ -17,14 +17,14 @@ When you archive an email or an attachment, SuperOffice CRM performs a search to
 
 You can use the **Search for sender** button to search for  the precise email address of the sender in your [preferred SuperOffice client][4].
 
-1. Select the email in the mail client inbox (you can select only one) whose sender you'd like to search for in your SuperOffice client.
+1. Select the email in the mail client inbox (you can select only one) whose sender you'd like to search for in SuperOffice.
 
 2. Click the **Search for sender** button.
 
-3. What happens next, depends on whether the sender is found in your SuperOffice client:
-    * If the email address is found on a company/contact, the company/contact opens in your SuperOffice client.
+3. What happens next, depends on whether the sender is found in SuperOffice:
+    * If the email address is found on a company/contact, the company/contact opens in SuperOffice.
     * If the email address is registered on more than one company/contact, a dialog will appear, listing the alternatives and allowing you to choose one.
-    * If the email address is not registered in your SuperOffice client, you will be given the possibility of adding it.
+    * If the email address is not registered in SuperOffice, you will be given the possibility of adding it.
     * SuperOffice CRM only: If the sender of the selected email is marked as a former employee, the company/contact will still open, but the sender is not shown in SuperOffice CRM unless you have chosen to show former employees.
 
 ## Handle email from a sender with several listings

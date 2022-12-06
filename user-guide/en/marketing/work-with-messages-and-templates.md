@@ -79,8 +79,8 @@ To create a new SMS template from scratch:
 
 1. Go to the **Mailings** tab.
 2. Click the ![icon][img1] menu button next to the mailing you want to use as a basis for the template.
-3. Select **Copy to template**. The **Edit template** screen opens.
-4. Enter a descriptive name for the template in the **Name** field.
+3. Select **Copy to template**.
+4. In the **Edit template** screen, enter a descriptive name for the template in the **Name** field.
 5. If required, click **Folder** to select a folder for the template.
 6. Make any necessary changes (as described above), and click **OK**.
 
@@ -88,8 +88,8 @@ To create a new SMS template from scratch:
 
 1. Go to the **Message templates** tab.
 2. Click the ![icon][img1] menu button next to the template you want to use.
-3. Select **Make copy**. The **Edit template** screen opens.
-4. Enter a descriptive name for the template in the **Name** field.
+3. Select **Make copy**.
+4. In the **Edit template** screen, enter a descriptive name for the template in the **Name** field.
 5. Make any necessary changes (as described above), and click **OK**.
 
 ## Import a message template

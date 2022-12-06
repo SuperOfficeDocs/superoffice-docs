@@ -24,7 +24,7 @@ To create a new priority:
     * In Settings and maintenance: Click the **Requests** button in the navigator. Then select the **Priorities** tab.
     * In Service: Select ![icon][img1] > **Priorities**.
 
-1. Click the **Add** / **New priority** button. A new priority opens to the right.
+1. Click the **Add** / **New priority** button.
 
 1. Enter a descriptive name for the priority.
 
@@ -89,7 +89,7 @@ To create a new priority:
 |---|---|
 | Request read by owner | If you check here, the escalation chain is controlled as specified in the list box on the right when a request is read by the owner. In all the list boxes in this tab, you can choose from the operations: **Stop**, **Continue** and **Restart**. |
 | Changed user (manually) | If you check here, the escalation chain is controlled as specified in the list box on the right when a request manually changes owner. |
-| New information | If you check here, the escalation chain is controlled as specified in the list box on the right when new information arrives on a request. New information might be the customer or user adding a new message to the request, for example. |
+| New information | If you check here, the escalation chain is controlled as specified in the list box on the right when new information arrives on a request. For example, the customer or user adding a new message to the request. |
 | Request closed | If you check here, the escalation chain is controlled as specified in the list box on the right when a request is closed. |
 | Changed priority | If you check here, the escalation chain is controlled as specified in the list box on the right when the priority of a request is replaced with this priority. |
 | New request | If you check here, the escalation chain is controlled as specified in the list box on the right when a new request with this priority arrive in the system. |

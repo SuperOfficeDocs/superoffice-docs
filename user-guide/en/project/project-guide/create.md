@@ -17,7 +17,7 @@ language: en
 
 In **Settings and maintenance**, you define which project types are to be assigned a project guide and which statuses and activities the project guides are to contain. What a project guide looks like can therefore vary, but below is an example of how a project using a project guide may appear.
 
-For example, you might have a project type named **Conference**. This project type may be linked to a project guide containing the following statuses, follow-ups and documents:
+For example, you may have a project type named **Conference**. This project type may be linked to a project guide containing the following statuses, follow-ups and documents:
 
 | Statuses | Follow-ups | Documents |
 |---|---|---|
@@ -35,7 +35,7 @@ This procedure shows you how to create a project guide from scratch.
 
 A project guide must be linked to a project type, which in turn consists of several statuses. [How to create a status][2].
 
-A project guide for a project of the Conference type might, for example, comprise the "Planned", "In progress" and "Closing" statuses.
+For example, a project guide for a project of the Conference type could have statuses "Planned", "In progress", and "Closing".
 
 Go to the next procedure to link the statuses to a project type.
 
@@ -103,9 +103,9 @@ Planning meeting:
 
 1. Select the required project type and status as described above.
 
-2. Click **Add** under **Suggested follow-ups in status**. The **Suggested follow-up** dialog opens.
+2. Click **Add** under **Suggested follow-ups in status**.
 
-3. Enter the name of the follow-up in the **Name** field. This should be a descriptive name for the follow-up.
+3. In the **Suggested follow-up** dialog, enter the name of the follow-up in the **Name** field. This should be a descriptive name for the follow-up.
 
 4. Enter the purpose of the follow-up, in the **The purpose of this follow-up** field. This text is displayed when you hold the mouse-pointer over the follow-up in the **Project guide** section tab in SuperOffice CRM.
 
@@ -147,12 +147,12 @@ Planning meeting:
 **To add documents to a status:**
 
 1. Select the required project type and status as described above.
-2. Click **Add** under **Suggested documents in status**. The **Suggested document** dialog opens.
-3. Enter the name of the document in the **Name** field. This should be a descriptive name for the document.
+2. Click **Add** under **Suggested documents in status**.
+3. In the **Suggested document** dialog, enter the name of the document in the **Name** field. This should be a descriptive name for the document.
 4. Enter the purpose of the document, in the **The purpose of this document** field. This text is displayed when you hold the mouse-pointer over the document in the **Project guide** section tab in SuperOffice CRM.
 5. Select the required template in the **Template** field (see also [Document - Template][4]).
 6. Enter the subject to be used in the document in the **Default subject** field.
-7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable][1] for a project number, project title or another field relating to the project.
+7. Enter any reference in the **Our ref.** field. For example, a [template variable][1] for a project number, project title or another field relating to the project.
 8. Click **Save**.
 9. Repeat this procedure to add more documents in this or other statuses.
 

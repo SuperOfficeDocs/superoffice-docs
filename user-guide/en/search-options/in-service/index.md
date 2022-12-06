@@ -48,7 +48,7 @@ In the **Criteria** screen you enter the search criteria in the available fields
 > [!TIP]
 > You can also run an "empty" search, in other words a search where you do not enter any search criteria. This lets you display all records of the relevant type, such as requests.
 
-When you click **Search**, a new screen opens with a list of the records which match these criteria.
+When you click **Search**, a new screen opens with a list of the records that match these criteria.
 
 The list below explains how to use the different types of field that can be displayed under **Criteria**:
 
@@ -68,7 +68,7 @@ At the bottom of the **Criteria** screen, you have the following options:
 
 ## Add search criteria
 
-The search screen always shows the most relevant criteria for what you are searching for, for example requests or contacts. But you can add more criteria yourself. Proceed as follows:
+The search screen always shows the most relevant criteria for what you are searching for, for example requests or contacts. But you can add more criteria yourself.
 
 1. Click the **Add criteria** button in the **Criteria** screen. A dialog box displays with two empty fields.
 2. In the **Input the label for the field here** field, you can enter a custom name for the field. Otherwise the default name will be used.

@@ -26,8 +26,8 @@ To configure SharePoint document library, do the following:
 2. Select the **Document library** tab.
 3. Click **Change**. The page is updated with information about the connected SharePoint site. The change is not yet complete.
 4. Click **Complete the change** to confirm that you want to use SharePoint as the default document library. The change is now complete.
-5. Click **Settings**. The configuration wizard opens.
-6. Complete the four steps described below.
+5. Click **Settings**.
+6. Complete the four steps of the configuration wizard described below.
 
 ## Step 1 - Sites and folders
 

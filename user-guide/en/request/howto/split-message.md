@@ -15,9 +15,9 @@ If a message contains two issues that should be handled separately, you can spli
 
 1. [Open the request][1].
 
-2. In the **Messages** tab, click the ![icon][img1] menu button next to the message you want to split. The **Split message** screen opens.
+2. In the **Messages** tab, click the ![icon][img1] menu button next to the message you want to split.
 
-3. In the **Title** field, enter a descriptive name for the new request.
+3. In the **Split message** screen in the **Title** field, enter a descriptive name for the new request.
 
 4. In he **Category** field, select a category.
 

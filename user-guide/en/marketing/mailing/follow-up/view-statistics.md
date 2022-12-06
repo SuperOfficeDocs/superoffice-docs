@@ -16,7 +16,7 @@ To view statistics about your mailing, go to the **Mailings** tab and click the 
 > [!TIP]
 > Click the **Refresh** button to update the mailing statistics.
 
-You can find mailing statistics in the following tabs:
+## Tabs with mailing statistics
 
 * **Summary**: Here you can find various statistics for the mailing:
   * **Number sent**: How many mailings were sent.

@@ -17,9 +17,9 @@ To create a new screen layout:
 
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
 
-1. Click **Add** under **Layouts**. The **Add new layout** dialog opens.
+1. Click **Add** under **Layouts**.
 
-1. Select a layout in the **Create new based on** list. The new layout will be based on the selected layout.
+1. In the the **Add new layout** dialog, select a layout in the **Create new based on** list. The new layout will be based on the selected layout.
 
 1. Enter a name for the new layout in the **Name** field.
 

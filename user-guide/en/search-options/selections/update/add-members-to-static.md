@@ -26,9 +26,9 @@ There are simple rules for members of selections.
 
 You can add new members to an open static selection as follows:
 
-1. Click the **Add members** button below the list of members. The dialog **Add all members matching** opens.
+1. Click the **Add members** button below the list of members.
 
-2. Edit the criteria as described in [Use the Find screen][2].
+2. In the **Add all members matching** dialog, [edit the criteria][2].
 
 3. Click **OK**. Matching members are added to the selection.
 

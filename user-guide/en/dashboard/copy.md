@@ -19,7 +19,9 @@ To duplicate an existing dashboard:
 
 2. Select the dashboard you want to duplicate.
 
-3. Click the **Task** button, and select **Duplicate dashboard**. The duplicated dashboard opens, with a "2" added after the name.
+3. Click the **Task** button, and select **Duplicate dashboard**.
+
+    The duplicate opens with a "2" added after the name.
 
 4. To change the name of the dashboard and adjust other settings, click the **Task** button, and select **Edit dashboard**.
 

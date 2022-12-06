@@ -53,10 +53,10 @@ To change document properties, for example, the project the document is linked t
 > [!NOTE]
 > This procedure describes how to create new documents if you are using a desktop text-editing application. The actual process may be slightly different if you use an online text-editing tool (like Microsoft Office Online) and a document library (like SharePoint).
 
-1. [Double-click the required document][2]. The **Document** dialog opens.
-2. Click **Open**.
+1. [Double-click the required document][2].
+2. In the **Document** dialog, click **Open**.
 3. If a dialog box displays, click **Edit**.
-4. The file download dialog opens automatically. Choose from the following options:
+4. In the file download dialog, select one of following options:
     * **Open**: When you click the option for opening, the document is opened in the text-editing application. Type in the contents of the document and select **File** > **Save As** to save it in the desired location on your PC.
     * **Save**: When you click the option for saving, the **Save As** dialog appears. Specify where on your PC you want to save the file, and save it. Then open the document, enter the required text and save the document.
 5. Close the text-editing program.

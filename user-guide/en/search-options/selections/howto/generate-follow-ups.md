@@ -17,9 +17,9 @@ You can create a follow-up to appear, for example, on the activities list of all
 
 2. Click the **Task** button.
 
-3. Choose the **Generate follow-ups** task. The **Generate follow-ups** dialog opens.
+3. Choose the **Generate follow-ups** task.
 
-4. When you click on the arrow next to the **Type** field, a list of predefined follow-up types is displayed.
+4. In the  The **Generate follow-ups** dialog, select a predefined follow-up type from the **Type** field.
 
 5. Enter the date when the follow-up will start in the **Start** field.
 

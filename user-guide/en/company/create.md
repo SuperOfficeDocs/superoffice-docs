@@ -15,15 +15,15 @@ In the **Company** screen you can enter information about companies on several l
 
 ## The Company tab
 
-1. Click **New** on the top bar and select **Company**. An empty company card opens.
+1. Click **New** on the top bar and select **Company**.
+
+1. In the empty company card, enter the name of the company in the field at the top of the **Company** tab. ***Company name*** is mandatory and highlighted with red text.
 
     ![Empty company card -screenshot][img1]
 
-    Type in the name of the company in the field at the top of the **Company** tab. ***Company name*** is shown in red, indicating that this field is mandatory.
+1. In the **Country** field, enter the company’s country. The correct address format for this country will be updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences.
 
-2. In the **Country** field, enter the company’s country. The correct address format for this country will be updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences.
-
-3. Enter the required information in the other fields.
+1. Enter the required information in the other fields.
 
     > [!NOTE]
     > Default field values and list values (such as business and category) are specified in the [Preferences dialog][3].
@@ -34,7 +34,7 @@ In the **Company** screen you can enter information about companies on several l
 
     </details>
 
-4. Click **Save** to save the information entered, or click the **More** tab to enter further information about the company.
+1. Click **Save** to save the information entered, or click the **More** tab to enter further information about the company.
 
 ## <a id="more-tab" />The More tab (Company screen)
 

@@ -17,8 +17,8 @@ This procedure describes how to add one user at a time. To add multiple users, s
 
 1. Open the **Users** screen.
 2. Select the **Associates** tab.
-3. Click the **Add** button below the list. An empty user card opens on the right-hand side of the screen.
-4. Enter the name and email address of the new user in the top-part of the view.
+3. Click the **Add** button below the list.
+4. Enter the name and email address of the new user in the top-part of the card.
 5. If more than one owner company is available in your SuperOffice installation, you can select this below the **Email** field.
 6. Enter the relevant information in the **Details** and **Licences** tabs.
 7. Click **Save**. The name of the new user will now be displayed in the list.

@@ -26,7 +26,7 @@ A web-based system for handling customer requests. The core of the system is the
 
 ## SuperOffice Marketing
 
-SuperOffice Marketing is concerned with outbound communication and forms. You can perform bulk mailings by email or SMS to all or parts of your customer base. Such mailings might be useful for informing customers about upgrades or product news, for example. Use forms for product/newsletter registration, consent management and data updates.
+SuperOffice Marketing is concerned with outbound communication and forms. You can send bulk mailings by email or SMS to all or parts of your customer base, for example to inform customers about upgrades or product news. Use forms for product/newsletter registration, consent management and data updates.
 
 ## SuperOffice Inbox
 

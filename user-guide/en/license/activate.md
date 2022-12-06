@@ -46,7 +46,9 @@ If the total number of new licenses is less than the number of licenses in use, 
     **Is the Activate button disabled? Is the license name shown in red?**
     This may be because the total number of new licenses is less than the number of licenses in use. You must reduce the number of user licenses in use.
 
-    1. Click a red license name (link). The **Remove superfluous licences** dialog opens. At the top of the dialog are the number of licenses in use, the number of licenses that are available and the number that you must remove. The list below shows all the users who are using this license.
+    1. Click a red license name (link).
+
+        At the top of the **Remove superfluous licences** dialog are the number of licenses in use, the number of licenses that are available and the number that you must remove. The list below shows all the users who are using this license.
 
     1. Remove licenses for the specified number of users. Then click **OK**.
 

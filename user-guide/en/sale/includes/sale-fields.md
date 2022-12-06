@@ -31,7 +31,7 @@
 
 11. To the right of the **Stage** field is a percentage that indicates the probability of the sale being successful at this stage. This is linked to the stage and is specified in the SuperOffice Settings and maintenance. You can however change this manually in SuperOffice CRM if you wish.
 
-12. You can check the **Stalled** box to indicate that the sale has [stalled][2]. This might be the case if, say, the customer has decided to wait until next year before purchasing.
+12. You can check the **Stalled** box to indicate that the sale has [stalled][2]. For example, if the customer has decided to wait until next year before purchasing.
 
     > [!NOTE]
     > The fields below change if you have checked **Stalled**. **Next activity** is changed to **Re-open date**, where you can enter a date for when the sale should be reopened, and **Source** is changed to **Reason (stalled)**, where you can enter why the sale cannot progress at the moment. If you have marked the sale as stalled, the **Appointment** dialog is displayed when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.

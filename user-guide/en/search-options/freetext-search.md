@@ -29,7 +29,7 @@ This lets you search for any text in SuperOffice CRM which users have entered in
 2. Press **ENTER** to start the search.
     > [!NOTE]
     > A search is always made first on text that is in the **Our Ref** field in the **Document** dialog.
-3. The **Search results** screen opens with the results of the search. It shows all data containing the search text. The search results are grouped in tabs. Click the required tab to display the list of search results.
+3. The **Search results** screen opens, showing all data containing the search text grouped in tabs. Click a tab to display the list of search results.
 
 To go to a record shown in the hit list, double-click it.
 

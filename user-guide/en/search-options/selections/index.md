@@ -44,7 +44,7 @@ You can create a selection that contains
 * All the companies where you have defined *Christmas card* or *newsletter* as an interest.
 
 > [!NOTE]
-> In all the selections below, a section tab is also displayed, containing companies and contacts linked to the entries in the selection. These might be, for example, customers linked to the sales in a sales selection.
+> In all the selections below, a section tab is also displayed, containing companies and contacts linked to the entries in the selection. For example, customers linked to the sales in a sales selection.
 
 ### Sale
 

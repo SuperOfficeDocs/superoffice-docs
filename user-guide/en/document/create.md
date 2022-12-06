@@ -26,7 +26,7 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 1. Click **New** > **Document** on the top bar.
 
-2. The **Document** dialog opens. [Complete the fields with the required information][2].
+2. In the **Document** dialog, [complete the fields with the required information][2].
 
 3. Click the **Create** button to create a new document based on the selected document template. The document is created in SharePoint and opened in a new tab with the online text-editing application (Office Online).
 
@@ -46,29 +46,31 @@ If you have not installed SuperOffice WebTools, you need to manually download do
 
 1. Click **New** > **Document** on the top bar.
 
-2. The **Document** dialog opens. [Complete the fields with the required information][2]e.
+2. In the **Document** dialog, [complete the fields with the required information][2].
 
 3. Click the **Create** button to create a new document based on the selected document template. The document is created on the server.
 
-4. Click **Open** and **Edit**. The **File download** dialog opens automatically. Here you can click one of the following buttons:
+4. Click **Open** and **Edit**.
+
+5. In the **File download** dialog, select one of the following buttons:
 
     * **Open**: When you click **Open**, the document is opened in the text editing application. Type in the contents of the document and select **File** > **Save As** to save it in the desired location on your PC.
 
     * **Save**: When you click **Save**, the **Save As** dialog appears. Here you specify where on the PC you want to save the file, and then click **Save** to start the download. Click **Close** when the download has finished. Open Windows Explorer and browse to the document you have just saved. Open the document, enter the required text and save the document.
 
-5. Close the text-editing program.
+6. Close the text-editing program.
 
-6. Go to the **Document** dialog.
+7. Go to the **Document** dialog.
 
     > [!NOTE]
     > If **Completed** is checked ( ![icon][img1] ) in the **Document** dialog, the upload options are disabled. In that case, remove the **Completed** check mark.
 
-7. Click the link to upload the document.
+8. Click the link to upload the document.
     or drag and drop the document from Windows Explorer to the **Document** dialog.
 
     ![Create a new document -screenshot][img2]
 
-8. Close the **Document** dialog by clicking **Save**.
+9. Close the **Document** dialog by clicking **Save**.
 
 ## Create a new document using SuperOffice WebTools
 
@@ -76,7 +78,7 @@ With SuperOffice CRM, you can log in from any PC using a browser, but your docum
 
 1. Click **New** > **Document** on the top bar.
 
-2. The **Document** dialog opens. [Complete the fields with the required information][2].
+2. In the **Document** dialog, [complete the fields with the required information][2].
 
 3. Click the **Create** button to create a new document based on the selected document template. The **Document** dialog is closed automatically, and the document opens in your default text-editing application.
 

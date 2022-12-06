@@ -19,7 +19,7 @@ Let’s suppose you were inviting people to a meeting and needed to send them an
 
 3. Choose the **Send email** task.
 
-4. The **Send email** dialog opens. Specify here which fields the recipients will be placed in.
+4. In the **Send email** dialog, specify which fields the recipients will be placed in.
 
     * **To**: field for the primary recipients (the people you expect to reply to the message).
     * **Cc**: field for the people you want to have a copy of the message, mainly for information.

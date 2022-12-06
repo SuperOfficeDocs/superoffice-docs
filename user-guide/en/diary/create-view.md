@@ -15,7 +15,7 @@ In SuperOffice CRM, you can add a selection of users and resources in your organ
 
 1. Click the **View** tab in the **Diary** screen.
 
-1. Click the **Task** button (![icon][img1]) at the bottom right and choose **New group view**. The **New group view** dialog opens.
+1. Click the **Task** button (![icon][img1]) at the bottom right and choose **New group view**.
 
     > [!TIP]
     > To edit an existing view, click **Edit**, and to copy an existing view, click **Copy**.
@@ -26,7 +26,7 @@ In SuperOffice CRM, you can add a selection of users and resources in your organ
     If you want to edit and save a predefined group view, select the **Copy** option and save the view with a new name.
     </details>
 
-1. Entered the appropriate information in the **Name** and **Description** fields.
+1. In the **New group view** dialog, enter the appropriate information in the **Name** and **Description** fields.
 
 1. Choose to view the diary for **Associates**, **Project**, or **Resource** in the **Select from** field.
 

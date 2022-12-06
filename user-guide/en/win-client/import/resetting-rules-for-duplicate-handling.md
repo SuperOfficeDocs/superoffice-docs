@@ -17,9 +17,10 @@ To reset one or all of the defined rules for duplicate handling:
 
 1. [!include[How to open import](includes/open-import.md)]
 
-2. Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.
-    Or:
-    [!include[Select file](includes/step-select-file.md)] Then specify the [field mapping][1]. The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
+2. Do one of the following:
+
+    * Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog that opens. An import file and previously selected settings are inserted automatically.
+    * [!include[Select file](includes/step-select-file.md)] Then specify the [field mapping][1]. The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
 
 3. Choose one of the following:
 
@@ -46,3 +47,4 @@ To reset one or all of the defined rules for duplicate handling:
 [2]: updating-rules-for-duplicate-handling.md
 
 <!-- Referenced images -->
+[img1]:

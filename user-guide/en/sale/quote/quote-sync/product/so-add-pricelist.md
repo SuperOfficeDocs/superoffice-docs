@@ -28,7 +28,7 @@ To add a price list in SuperOffice CRM:
 
     * **Active**: Check here to activate the price list, to make it available for creating quotes. You should not activate the price list until it is completely ready.
 
-    * **Limited validity**: Check here if the price list will only remain valid for a limited period. This might apply to a time-limited sales campaign, for example. You can choose a start and end date *OR* just an end date.
+    * **Limited validity**: Check here if the price list wil remain valid for a limited period only. For example, during time-limited sales campaign. You can choose a start and end date *OR* just an end date.
 
 1. Do one of the following:
 

@@ -13,9 +13,9 @@ language: en
 
 When creating an email [from Microsoft Outlook][1] or [from Lotus Notes][2] you can add documents from SuperOffice CRM as attachments.
 
-1. In the email window, click the **Attach document** button (![icon][img1]). The **Include attachments** dialog opens.
+1. In the email window, click the **Attach document** button (![icon][img1]).
 
-2. Under **Select from**, select one of the six radio buttons: **Company**, **Project**, **Sale**, **Selection**, **Author** or **Template**. The rest of the dialog changes accordingly.
+2. In the **Include attachments** dialog under **Select from**, select one of the six radio buttons: **Company**, **Project**, **Sale**, **Selection**, **Author** or **Template**. The rest of the dialog changes accordingly.
 
 3. Go to the dropdown directly below the radio buttons. What you may do here, depends on what you selected in the previous step:
 

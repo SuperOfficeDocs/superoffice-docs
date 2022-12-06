@@ -22,7 +22,7 @@ If the attachment is the only part of the email you would like to keep for futur
     * If there is only one attachment, the **Archive attachment** dialog opens immediately.
     * If there is more than one attachment, a dialog appears listing the attachments. Select the required attachment and click **OK** to archive it. The **Archive attachment** dialog then opens, and the procedure below is repeated for each attachment.
 
-4. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the **Archive attachment** dialog: **This sender's email address is not recognised. Click here to update SuperOffice with this email address**. [How to handle unlisted senders][1]
+4. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the **Archive attachment** dialog. [How to handle unlisted senders][1].
 
 5. In the **Subject** field, the file name of the attachment is automatically inserted. However, you may enter any subject text that you would like to be shown in the **Activities** section tab of SuperOffice CRM.
 

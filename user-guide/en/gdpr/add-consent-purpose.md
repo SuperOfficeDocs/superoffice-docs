@@ -13,9 +13,9 @@ language: en
 
 1. Go to **Settings and maintenance** and click the **Privacy** button in the Navigator (![icon][img2]).
 
-2. Click **Add** below the list of purposes. The **Add purpose** dialog opens.
+2. Click **Add** below the list of purposes.
 
-3. Edit the following fields:
+3. In the **Add purpose** dialog, edit the following fields:
 
     * **Purpose name**: Enter a descriptive name for the purpose. It should be easy to understand and unambiguous.
 

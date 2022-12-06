@@ -30,7 +30,7 @@ This is how to fill out the fields in the **Edit list items** dialog when the it
     > [!NOTE]
     > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
-1. In the **URL** field, specify the URL address. This might be an Internet page or a server-based HTML file. Please see the information at the top concerning the use of HTTP/HTTPS URLs.
+1. In the **URL** field, specify the URL address such as a web page or a server-based HTML file. Please see the information at the top concerning the use of HTTP/HTTPS URLs.
 
 1. In the **Window name** field, specify the required name of the browser window in which the URL address should be opened. If you have previously added one or more window names and want to reuse them, you can click in the field and select a name from the list. You can also type a new name directly into the field. The window name as it will finally appear is displayed below, underlined.
 

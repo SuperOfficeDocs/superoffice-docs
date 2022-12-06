@@ -12,8 +12,8 @@ language: en
 # Create a project
 
 1. Click **New** on the top bar and select **Project**.
-    An empty project card opens.
-2. Fill in the required information in the fields in the **Project** tab.
+
+2. In the empty project card, fill in the required information in the fields in the **Project** tab.
 
     <details><summary>What goes in the various fields?</summary>
 

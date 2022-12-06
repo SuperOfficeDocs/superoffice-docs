@@ -11,12 +11,10 @@ language: en
 
 # Remove label formats
 
-To remove existing label formats:
-
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 2. Select a label report (see [Show report properties][1]).
-3. Click the **Preview** button under the criteria list. The label dialog opens.
-4. Select the label format you want to remove and click **Delete**.
+3. Click the **Preview** button under the criteria list.
+4. In the label dialog, select the label format you want to remove and click **Delete**.
 5. When you are asked if you want to delete the label format, click **Yes**. The label format is deleted.
 6. Close the dialog.
 

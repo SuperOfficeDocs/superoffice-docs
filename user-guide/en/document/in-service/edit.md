@@ -11,7 +11,7 @@ language: en
 
 # Edit documents
 
-When we refer to editing documents in the context of SuperOffice Service, this can mean one of two things: editing the actual content of the document and editing the document properties. Both these aspects are described below.
+When we refer to editing documents in the context of SuperOffice Service, this can mean one of two things: editing the actual content of the document and editing the document properties.
 
 ## Edit document content
 
@@ -20,7 +20,7 @@ To edit the content of the document itself, for example the text in a letter, yo
 > [!TIP]
 > Certain document types, such as html, txt and the native ejr format, can be edited directly in the **Document properties** screen.
 
-Proceed as follows:
+**Steps:**
 
 1. Select **Knowledge Base** > **Documents**.
 2. Go to the folder where the document is located.
@@ -32,7 +32,9 @@ Proceed as follows:
 
 ## Edit document properties
 
-By editing the document's properties, you can, for example, change who is to have access to the document. Proceed as follows:
+By editing the document's properties, you can, for example, change who is to have access to the document.
+
+**Steps:**
 
 1. Select **Knowledge Base** > **Documents**.
 2. Go to the folder where the document is located.
@@ -41,7 +43,7 @@ By editing the document's properties, you can, for example, change who is to hav
 5. Click **OK**. The changes are saved.
 
 > [!TIP]
-> If you want to move the document to a different folder, you can select the new folder in the **In folder** field.
+> To move the document to a different folder, select the new folder in the **In folder** field.
 
 <!-- Referenced links -->
 [1]: create.md

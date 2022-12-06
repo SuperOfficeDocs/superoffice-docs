@@ -39,9 +39,9 @@ To add tracked links to the message:
 
 3. Enter or select the text which the recipient has to click, for example "Click here for more information".
 
-4. Select this text and click the ![icon][img3] **Tracked link** button in the toolbar. The **Add link** dialog opens.
+4. Select this text and click the ![icon][img3] **Tracked link** button in the toolbar.
 
-5. Do one of the following:
+5. In the **Add link** dialog, do one of the following:
 
     * Click ![icon][img2] **Choose link** to select an existing tracked link.
 

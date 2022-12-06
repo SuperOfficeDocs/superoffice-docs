@@ -39,10 +39,10 @@ To create a new form template from scratch:
 
 1. Go to the **Forms** tab.
 2. Click the ![icon][img1] menu button next to the form you want to use as a basis for the template.
-3. Select **Copy to template**. The **Edit form** screen opens.
-4. Enter a descriptive name for the template in the **Form name** field.
+3. Select **Copy to template**.
+4. In the **Edit form** screen, enter a descriptive name for the template in the **Form name** field.
 5. If required, click **Folder** to select a folder for the template.
-6. Make any necessary changes (see [Create a new form][1]).
+6. [Make any necessary changes][1]).
 7. Click **Save**.
 
 ![Create a template based on existing form -screenshot][img3]

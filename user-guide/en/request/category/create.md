@@ -19,7 +19,7 @@ To create a new category:
     * In Settings and maintenance: Click the **Requests** button in the navigator. Then select the **Categories** tab.
     * In Service: Select ![icon][img2] > **Categories**.
 
-1. Click the **Add** button. A new category opens to the right.
+1. Click the **Add** button.
 
 1. Enter a descriptive name for the category (replace the text "New category" above the tabs).
 

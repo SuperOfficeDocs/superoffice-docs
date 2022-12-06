@@ -37,7 +37,7 @@ Shows a summary of information about the current company in the **Company** scre
 Shows information about the contact selected in the **Company** or **Selection** screen.
 
 > [!TIP]
-> If you click the contact's name, the [contact card][2] opens, and here you can view and edit detailed information about the contact.
+> Click the contact's name to open the [contact card][2] where you can view and edit detailed information about the contact.
 
 ### Why is the side panel empty?
 
@@ -87,7 +87,7 @@ Opens the [Notepad][9] in the side panel.
 
 ## Preview
 
-Shows a preview of a selected activity, project, contact, project member or selection member in the side panel. Depending on the selected item, the window may contain links to contacts and activities. Clicking one of these links, opens the [contact card][2], [Document dialog][5], or [follow-ups dialog][6], where you can view and edit the contact or activity.
+Shows a preview of a selected activity, project, contact, project member or selection member in the side panel. Depending on the selected item, the window may contain links to contacts and activities. Clicking one of these links opens the [contact card][2], [Document dialog][5], or [follow-ups dialog][6], where you can view and edit the contact or activity.
 
 ## Project
 
@@ -101,7 +101,7 @@ Shows a summary of information about the current project in the **Project** scre
 Shows a list of project members in the current project in the **Project** screen.
 
 > [!TIP]
-> If you double-click the name of a project member, the [contact card][2] opens, and here you can view and edit detailed information about the project member.
+> Double-click the name of a project member to open the [contact card][2] where you can view and edit detailed information about the project member.
 
 ## Sale
 

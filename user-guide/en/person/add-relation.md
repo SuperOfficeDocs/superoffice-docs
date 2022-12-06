@@ -11,18 +11,16 @@ language: en
 
 # Add relations (Contact screen)
 
-To add a relation:
+> [!NOTE]
+> A relation must always consist of two parties, one active and one passive, for example: Contact A owns Company B, while Company B is owned by Contact A.
 
 [!include[Go to Contact screen](../includes/goto-contact.md)]
 
 1. Select the **Relations** section tab.
 
-1. Click the **Add** button below the section tab. The **Relation** dialog opens.
+1. Click the **Add** button below the section tab.
 
-    > [!NOTE]
-    > A relation must always consist of two parties, one active and one passive, for example: Contact A owns Company B, while Company B is owned by Contact A.
-
-1. Select companies and contacts under **Active part** and **Passive part** as required. Specify them either by clicking the arrow and selecting the required company or contact in the displayed list box, by typing in the whole or the beginning of the name. (See [FastSearcher][1] and [The History list][2]).
+1. In the **Relation** dialog, select companies and contacts under **Active part** and **Passive part** as required. Specify them either by clicking the arrow and selecting the required company or contact in the displayed list box, by typing in the whole or the beginning of the name. (See [FastSearcher][1] and [The History list][2]).
 
 1. In the **Relation** list box, specify what relationship there is between the active and passive parties, "owns" for example. The available alternatives are defined in SuperOffice Settings and maintenance.
 

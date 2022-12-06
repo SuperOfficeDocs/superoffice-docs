@@ -20,8 +20,8 @@ In the report list, you see the format of the reports (appearance), whether a re
 To open and edit a standard report:
 
 1. Go to the **Reports** tab in the **Options** screen.
-2. Double-click the standard report you want to edit. The **Edit report** dialog opens.
-3. Edit the name and description. You cannot edit the report type.
+2. Double-click the standard report you want to edit.
+3. In the **Edit report** dialog, edit the name and description. You cannot edit the report type.
 4. Check the **Published** checkbox to make the report available to users.
 5. Click **Save** when you have finished.
 

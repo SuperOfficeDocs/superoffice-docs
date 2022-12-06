@@ -25,7 +25,7 @@ This procedure shows you how to create a sales guide from scratch.
 
 A sales guide must be linked to a sale type, which in turn consists of several stages. [How to create stages][2].
 
-A sales guide for sales to new customers might include, for example, the stages "First meeting", "Quotation" and "Signing of contract".
+For example, a sales guide for sales to new customers may include the stages "First meeting", "Quotation" and "Signing of contract".
 
 Go to the next procedure to link the stages to a sale type.
 
@@ -90,9 +90,9 @@ Agenda for first meeting:
 
 1. Select the required sale type and stage as described above.
 
-2. Click **Add** under **Suggested follow-ups in stage**. The **Suggested follow-up** dialog opens.
+2. Click **Add** under **Suggested follow-ups in stage**.
 
-3. Enter the name of the follow-up in the **Name** field. This should be a descriptive name for the follow-up.
+3. In the **Suggested follow-up** dialog, enter the name of the follow-up in the **Name** field. This should be a descriptive name for the follow-up.
 
 4. In the **The purpose of this follow-up** field, enter the text to use as tooltip for the follow-up in the **Sales guide** section tab in SuperOffice CRM.
 
@@ -132,9 +132,9 @@ Agenda for first meeting:
 
 1. Select the required sale type and stage as described above.
 
-2. Click **Add** under **Suggested documents in stage**. The **Suggested document** dialog opens.
+2. Click **Add** under **Suggested documents in stage**.
 
-3. Enter the name of the document in the **Name** field. This should be a descriptive name for the document.
+3. In the **Suggested document** dialog, enter the name of the document in the **Name** field. This should be a descriptive name for the document.
 
 4. In the **The purpose of this document** field, enter the text to use as tooltip for the document in the **Sales guide** section tab.
 
@@ -142,7 +142,7 @@ Agenda for first meeting:
 
 6. Enter the subject to be used in the document in the **Default subject** field.
 
-7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable][1] for sales number, sales title or another field relating to the sale.
+7. Enter any reference in the **Our ref.** field. For example, a [template variable][1] for sales number, sales title or another field relating to the sale.
 
 8. Click **Save**.
 

@@ -19,9 +19,9 @@ To edit a paragraph in a message, do as follows:
 
     ![icon][img1]
 
-3. Click the **Edit paragraph** button ( ![icon][img2] ). The editing view opens next to the preview.
+3. Click the **Edit paragraph** button ( ![icon][img2] ).
 
-4. In the editing view you can do the following:
+4. In the editing view (next to the preview) you can do the following:
     * The **Heading** tab: Here you can edit the heading of the paragraph. You work with text much the same as in MS Word, and the text is saved in HTML format. The program also contains a **Source** button you can click to display and edit the HTML source code directly, but this option should be used with caution.
 
     * The **Body** tab: Here you can edit the content of the paragraph. The tab has the same functions as the **Heading** tab.

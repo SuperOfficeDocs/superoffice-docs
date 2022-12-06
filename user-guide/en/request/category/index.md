@@ -15,7 +15,7 @@ All requests belong to a category, and each category has its own rules that defi
 
 Typically, the higher-level categories will correspond to the organisation's departments, while subcategories will correspond to areas of responsibility and/or logical structures within a department. Subcategories could also be the products that the company sells.
 
-An example might be to have the main categories of User Support, Development, Sales and Invoicing - and subcategories in these for each of the products that are sold.
+For example, main categories for User Support, Development, Sales and Invoicing - and subcategories in these for each of the products that are sold.
 
 > [!NOTE]
 > The term **category** is also used for company categories. See [Lists][3].

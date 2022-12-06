@@ -24,7 +24,7 @@ Firstly, you need to set up an application on Facebook in cooperation with the u
 
 1. Open a browser and log in to Facebook.
 2. Go to <https://developers.facebook.com>.
-3. See [Facebook integration on SuperOffice Community][2] on how to proceed.
+3. See [Facebook integration on SuperOffice Community][2] for instructions.
 4. When you have created the application in Facebook, go to the next step.
 
 ## Step 2: Set up a Facebook account in SuperOffice Service

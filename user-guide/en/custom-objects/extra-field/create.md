@@ -19,8 +19,8 @@ Once you have created an extra table, you need to set up fields in the table, to
 To create extra fields in tables:
 
 1. Select ![icon][img1] **System settings** > **System design** > **Tables**.
-2. Browse to the table you want, point at the table name and click ![icon][img2]. The **New extra field** screen opens.
-3. Select a field type in the **Type** list box.
+2. Browse to the table you want, point at the table name and click ![icon][img2].
+3. In the **New extra field** screen, select a field type in the **Type** list box.
 4. Click **OK**. The **Field properties** screen appears.
 5. In the **Field properties** screen, enter data about the new field. The available properties depend on the type of extra field (specified in step 4).
 6. Click **OK** to save, and then **Restart NetServer**.

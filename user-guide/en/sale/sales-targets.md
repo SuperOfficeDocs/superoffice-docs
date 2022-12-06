@@ -28,9 +28,9 @@ Before you start using the sales targets feature, you must set up a few things i
 
 ## Add sales targets for a year
 
-1. Click ![icon][img1] **Main menu** and select **Targets**. The **Sales targets** screen opens. If no sales targets have been created yet, the list is empty.
+1. Click ![icon][img1] **Main menu** and select **Targets**.  If no sales targets have been created yet, the list is empty.
 
-2. In the **Select year** list, select the year for which you want to create a sales target. Your can also set up targets for previous years, to create budget statistics back in time.
+2. In the **Sales targets** screen, select the year that you want to create a sales target for from the **Select year** list. Your can also set up targets for previous years, to create budget statistics back in time.
 
 3. Click **Add groups and users** and select a company or group/team. Use the search field to find specific groups.
 

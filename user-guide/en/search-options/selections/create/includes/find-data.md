@@ -1,8 +1,7 @@
 <!-- markdownlint-disable-file MD041 -->
 1. Click **New** on the Top bar and select **Selection**.
-    The **Find** screen opens.
 
-1. Click the **Find** option that is relevant for the data type you want to use in your selection. You can also click **Typical searches** to use pre-defined searches.
+1. In the **Find** screen, click the **Find** option that is relevant for the data type you want to use in your selection. You can also click **Typical searches** to use pre-defined searches.
 
 1. [Add your search criteria][2] in the **Criteria** tab.
 

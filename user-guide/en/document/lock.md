@@ -53,17 +53,14 @@ By default, a document is opened in edit mode. Below we have described the diffe
 ## Cancel a check-out (revert to saved version)
 
 > [!CAUTION]
-> If another user has checked out a document, always contact that user before performing this procedure. Otherwise there is a risk that
->
-> a. you overwrite someone else's changes
-> b. the other user overwrites your changes when they check in the document
+> If another user has checked out a document, always contact that user before performing this procedure. Otherwise there is a risk that you overwrite someone else's changes or the other user overwrites your changes when they check in the document
 >
 > The best option may be to make a copy of the document and edit the copy.
 
 If you or someone else have checked out a document, and you need to edit the document, you can cancel the check out:
 
-1. Right-click the document and select **Document**. The **Document** dialog opens.
-2. Click ![icon][img1] and select **Revert to saved version**.
+1. Right-click the document and select **Document**.
+2. In the **Document** dialog, click ![icon][img1] and select **Revert to saved version**.
 
 > [!NOTE]
 > You need special privileges to access this option. You also need write access to the document.

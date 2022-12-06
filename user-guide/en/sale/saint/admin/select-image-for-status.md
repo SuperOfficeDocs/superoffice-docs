@@ -21,7 +21,7 @@ No, you do not need to have an image for a status. If you just want to create re
 
 ## What sort of images can I use?
 
-The image you choose should represent pictorially the status it stands for. The status image for a project that has been inactive for a long time might, for example, be a spider's web.
+The image you choose should represent pictorially the status it stands for. The status image for a project that has been inactive for a long time could, for example, be a spider's web.
 
 [!include[File type and size](../../includes/image-type-and-size.md)]
 

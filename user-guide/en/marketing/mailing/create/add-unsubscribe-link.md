@@ -35,8 +35,8 @@ When you send a newsletter, for example, you must give the recipients the option
     Or click the **Add a new paragraph** ( ![icon][img1] ) button to add a paragraph at the bottom.
 2. Select the **Body** tab.
 3. Position the mouse pointer where you wish to insert the link.
-4. Click the ![icon][img2] **Subscription links** button in the toolbar. The **Add (un)subscription link** dialog opens.
-5. Change the text in the **Link label** field, if required; for example, to "Click here to unsubscribe" or "Click here to manage your subscriptions".
+4. Click the ![icon][img2] **Subscription links** button in the toolbar.
+5. In the **Add (un)subscription link** dialog, change the text in the **Link label** field, if required; for example, to "Click here to unsubscribe" or "Click here to manage your subscriptions".
 6. In the **Add (un)subscription link** field, select one of the following options:
     * **Manage subscriptions**: Inserts a link to a web page where the recipients can select which mailing types they want to receive. The link is valid for 21 days by default.
     * **Unsubscribe from this type of mailing**: Inserts a link to unsubscribe to this mailing type. The recipient will still receive mailings of other types. The mailing type is selected in Step 1: Setup.

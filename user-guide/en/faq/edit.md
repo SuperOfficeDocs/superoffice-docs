@@ -15,9 +15,9 @@ If you need to edit an FAQ entry, for example to add more detail to the answer, 
 
 1. Select **Knowledge Base** > **FAQ**.
 2. Go to the folder where the FAQ entry is located.
-3. Click the FAQ entry you want. The **FAQ entry** screen opens.
-4. Click **Edit entry**. The **FAQ entry properties** screen opens.
-5. [Make the required changes][1].
+3. Click the FAQ entry you want.
+4. In the **FAQ entry** screen, click **Edit entry**.
+5. In yhe **FAQ entry properties** screen, [make the required changes][1].
 6. Click **OK**. The changes are saved.
 
 <!-- Referenced links -->

@@ -22,7 +22,7 @@ Using the **Status monitors/SAINT** tab, you can create statuses for companies, 
 
 ## Status images
 
-Statuses can be shown as images on the cards of projects, contacts or companies that fulfil the criteria you have specified. The status image for a customer you have had no contact with for a while might, for example, be a spider's web. This then provides a visual and immediate indication of what your relations with the customer are or how a project is progressing. When the user clicks or holds the mouse pointer over a status image in SuperOffice CRM, some text is displayed, which might, for instance, indicate the actions that should be taken (you yourself enter the text when you create the status).
+Statuses can be shown as images on the cards of projects, contacts or companies that fulfil the criteria you have specified. The status image for a customer you have had no contact with for a while could, for example, be a spider's web. This then provides a visual and immediate indication of what your relations with the customer are or how a project is progressing. When the user clicks or holds the mouse pointer over a status image in SuperOffice CRM, some text is displayed. For example, to indicate the actions that should be taken (you yourself enter the text when you create the status).
 
 ## Default follow-up for a status
 

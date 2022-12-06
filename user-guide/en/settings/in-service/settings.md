@@ -35,7 +35,7 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **Default style for outbound email**: Here you can define a default style to be used for emails in HTML format. For example: &lt;p style='font-family:Verdana'&gt; &lt;/p&gt;
 
-* **Minimum score for FAQ search result (in percent)**: In reply templates that are sent to customers, you can add [automatic suggestions for FAQ entries][1] that might help the customer to resolve the request themselves. In this field you can define how high a degree of correlation there must be between the customer's request and an FAQ entry for an FAQ entry to be added to the reply to the customer. If you define too low a value here, it is likely that the customer will receive many FAQs that are not relevant to the request. If a customer's requests correlates to a key word in an FAQ entry, the FAQ entry will always be included.
+* **Minimum score for FAQ search result (in percent)**: In reply templates that are sent to customers, you can add [automatic suggestions for FAQ entries][1] to help the customer to resolve the request themselves. In this field you can define how high a degree of correlation there must be between the customer's request and an FAQ entry for an FAQ entry to be added to the reply to the customer. If you define too low a value here, it is likely that the customer will receive many FAQs that are not relevant to the request. If a customer's requests correlates to a key word in an FAQ entry, the FAQ entry will always be included.
 
 * **Default font in editor**: Here you can select which font, font size and formatting will be the default for message registration.
 

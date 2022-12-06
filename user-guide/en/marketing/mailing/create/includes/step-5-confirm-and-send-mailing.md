@@ -14,7 +14,7 @@ Click the mailing in the list to view sending status and statistics. [How to tra
 
 ![icon][img2]
 
-In order not to overload your servers during working hours, it might be a good idea to choose a time during the evening. This option is not available for mailings that have already started, temporarily stopped or have finished.
+To not overload your servers during working hours, it would be a good idea to choose a time during the evening. This option is not available for mailings that have already started, temporarily stopped or have finished.
 
 1. Click **Schedule**.
 2. Under **Schedule to send at**, select one of the following options:

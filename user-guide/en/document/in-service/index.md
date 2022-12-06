@@ -11,7 +11,7 @@ language: en
 
 # Service knowledge base
 
-Under **Knowledge Base > Documents** you can add documents to make them available to yourself and/or other users. Such documents might include price lists, installation routines and brochures.
+Under **Knowledge Base > Documents** you can add documents to make them available to yourself and/or other users. Such documents may include price lists, installation routines and brochures.
 
 > [!NOTE]
 > The difference between **Documents** and **External documents** is that the latter contains files that are accessible to everyone, including unregistered customers.

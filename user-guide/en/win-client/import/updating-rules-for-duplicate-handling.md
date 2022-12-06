@@ -17,9 +17,11 @@ You always need to specify rules for handling duplicates during importing. You d
 
 1. [!include[How to open import](includes/open-import.md)]
 
-2. Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.
-    Or:
-    [!include[Select file](includes/step-select-file.md)] Then specify the [field mapping][1].
+2. Do one of the following:
+
+    * Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog that opens. An import file and previously selected settings are inserted automatically.
+
+    * [!include[Select file](includes/step-select-file.md)] Then specify the [field mapping][1].
 
 3. The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
 
@@ -30,7 +32,7 @@ You always need to specify rules for handling duplicates during importing. You d
 
 5. Click the **Update** button. The **Handle duplicates** dialog for the selected data type opens.
 
-6. All available fields of the required data type for which you have defined field mappings are displayed under **When these fields match**. Check which field(s) must have identical contents in order for the record to be considered a duplicate. This is called an import key.
+6. All available fields of the required data type for which you have defined field mappings are displayed under **When these fields match**. Check which field(s) must have identical contents for the record to be considered a duplicate. This is called an import key.
 
 7. Under **Do the following**, choose what to do if duplicates are detected during the import:
 

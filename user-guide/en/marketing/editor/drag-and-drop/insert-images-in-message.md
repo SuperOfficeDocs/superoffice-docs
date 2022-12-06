@@ -17,8 +17,8 @@ Create a stylish mailing using images. You can add images from the SuperOffice d
 
 1. Click a row in the message.
 2. In the side-panel, scroll down to **Row properties** and **Background image**.
-3. Click **Upload image**. The **Image library** window opens.
-4. Follow the procedure below.
+3. Click **Upload image**.
+4. In the **Image library** window, follow one of the procedures below.
 
 ## Using an image from the SuperOffice database
 
@@ -30,11 +30,9 @@ Create a stylish mailing using images. You can add images from the SuperOffice d
 
 4. Click the block in the message.
 
-5. Click **Upload Image** in the side-panel. The **Image library** window opens.
+5. Click **Upload Image** in the side-panel.
 
-6. Select one of the available images.
-    or
-    If you want to [use an image that is not in the list][1], you can click **Add** to choose an image file on your PC.
+6. In the **Image library** window, select one of the available images or click **Add** to [choose an image file on your PC][1].
 
 7. Click the image in the message and make any necessary changes in the side-panel. Check that the image is correctly displayed and adjust as necessary.
 

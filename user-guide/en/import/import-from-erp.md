@@ -13,7 +13,7 @@ language: en
 
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
-This is how to proceed when importing actors (customers, suppliers and individuals) from an ERP system into the SuperOffice database:
+Follow the steps below to import actors (customers, suppliers and individuals) from an ERP system into the SuperOffice database.
 
 ## Select actors to be imported from the ERP system
 
@@ -23,7 +23,7 @@ This is how to proceed when importing actors (customers, suppliers and individua
 1. [!include[Open Import](includes/open-import.md)]
 2. [!include[Select source](includes/select-source.md)]
 3. In the **ERP connection** list, [select the connection][2] you want to import from.
-4. In the **Actor type** list, select what you want to import. These might, for example, be customers, suppliers or individuals.
+4. In the **Actor type** list, select what you want to import. For example, customers, suppliers or individuals.
 5. Click **OK**. The **Search ERP** dialog appears.
 6. Search for the actors you want to import, such as all suppliers in a specific town. [!include[See search criteria](../includes/see-search-admin.md)]
 7. In the list of search results, select the rows you want to import.

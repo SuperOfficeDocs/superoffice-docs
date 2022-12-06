@@ -13,9 +13,9 @@ language: en
 
 To quickly upload a document to SuperOffice CRM, do as follows:
 
-1. Click **New** > **Document** on the top bar. The **Document** dialog opens.
+1. Click **New** > **Document** on the top bar.
 
-2. Drag and drop the document from Windows Explorer to the **Document** dialog.
+2. In the **Document** dialog, drag and drop the document from Windows Explorer to the **Document** dialog.
 
 3. (optional) Click ![icon][img1] in the top-right corner to set the document to **Completed** (![icon][img2]).
 

@@ -21,9 +21,9 @@ If the recipient has problems displaying the message in their email program (may
 3. Position the mouse pointer where you wish to insert the link.
     ![icon][img2]
 
-4. Click the ![icon][img3]**Template variables** button on the toolbar. The **Add template variable** dialog opens.
+4. Click the ![icon][img3]**Template variables** button on the toolbar.
 
-5. Click in the list, and select **Link for viewing message online**.
+5. In the **Add template variable** dialog, click in the list, and select **Link for viewing message online**.
 
 6. Click **OK**. The link is inserted in the message.
 

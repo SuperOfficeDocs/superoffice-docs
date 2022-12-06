@@ -26,13 +26,13 @@ To delete a role:
 
 3. Select the required role in the **Roles** list.
 
-4. Click **Delete**. The **Delete Role** dialog opens.
+4. Click **Delete**.
 
     <details><summary>Is the Delete button disabled (greyed out)?</summary>
     It is not possible to delete the role you yourself belong to or the system user role (**User level 0**). If there is only a single role, you cannot delete it.
     </details>
 
-5. Click the arrow (![icon][img3] ) next to the **Assign all users with this role to** field, and select another role for the users of the role you want to delete.
+5. In the **Delete Role** dialog, click the arrow ( ![icon][img3] ) next to the **Assign all users with this role to** field, and select another role for the users of the role you want to delete.
 
 6. Click **Delete**. The role is removed from the list. You cannot undo deletion of a role.
 

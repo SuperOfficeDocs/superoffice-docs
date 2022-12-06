@@ -23,9 +23,9 @@ To move a user:
 
     The user's information is displayed in the preview section on the right.
 
-1. Click **Task** and select **Move user**. The **Move user** dialog opens.
+1. Click **Task** and select **Move user**.
 
-1. Select **Move to** and choose the company you want to move the contact to.
+1. In the **Move user** dialog, select **Move to** and choose the company you want to move the contact to.
 
 [!include[Select action](../includes/select-action-on-activity.md)]
 

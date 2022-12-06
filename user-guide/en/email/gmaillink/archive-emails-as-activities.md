@@ -17,13 +17,13 @@ This feature allows you to quickly add an activity in SuperOffice based on the s
 
 2. Click the **More** button ( ![icon][img1] ) in the email toolbar.
 
-3. Select **Create activity**. The dialog **Create activity in SuperOffice** opens.
+3. Select **Create activity**.
 
-    If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. A warning also appears if the sender is registered on multiple companies in SuperOffice CRM.
-
-4. In the dialog, the **Company** and **Contact** fields have been filled in if the sender is registered in SuperOffice. Fill in relevant information in the following fields
+4. In the **Create activity in SuperOffice** dialog, the **Company** and **Contact** fields have been filled in if the sender is registered in SuperOffice. Fill in relevant information in the following fields
 
     [!include[Options](includes/gmail-archiving-options.md)]
+
+    If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. A warning also appears if the sender is registered on multiple companies in SuperOffice CRM.
 
 5. Click **Save**. The activity is saved in the **Activities** section tab in SuperOffice. Click the link in the pop-up message to open the activity in SuperOffice.
 

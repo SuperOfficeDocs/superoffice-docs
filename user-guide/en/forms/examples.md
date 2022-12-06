@@ -11,12 +11,12 @@ language: en
 
 # How to create forms (examples)
 
-Create your own custom forms with the **Forms** feature in SuperOffice Marketing. In this topic we will show you how to create two different forms that might be relevant for your company:
+Let's look at two custom forms that may be relevant to your company:
 
 * [Newsletter sign-up](#newsletter-sign-up): Let your customers sign up for one or more of your newsletters.
 * [Contact me](#contact-me): Use a "contact me" form to open up another communication channel with your customers or prospects. Use this form to generate support requests or generate leads for your sales team.
 
-The procedures below will guide your through the form creation using examples. We will not cover every field and option, but you can find comprehensive instructions in [Create a new form][1].
+The examples do not cover every field and option, but you can find comprehensive instructions in [Create a new form][1].
 
 ## What is double opt-in?
 
@@ -58,7 +58,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
 1. Click **Apply now** to save the form and continue editing.
 
-1. In the **Style** category, edit the layout, colours, size and fonts of the form. Now might be a good time to involve your web design colleagues.
+1. In the **Style** category, edit the layout, colours, size and fonts of the form. Consider involving your web design colleagues.
 
 1. Click **Apply now** to save the form and continue editing.
 
@@ -156,7 +156,7 @@ In this example we will show you how to create short form for customers who want
 
 1. Click **Apply now** to save the form and continue editing.
 
-1. In the **Style** category, edit the layout, colours, size and fonts of the form. Now might be a good time to involve your web design colleagues.
+1. In the **Style** category, edit the layout, colours, size and fonts of the form. Consider involving your web design colleagues.
 
 1. Click **Apply now** to save the form and continue editing.
 

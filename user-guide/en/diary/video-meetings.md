@@ -23,9 +23,9 @@ You can easily set up a video meeting when creating a follow up:
 2. Click ![icon][img1] next to the meeting type (for instance **Business meeting**). The icon changes to ![icon][img2] and a video meeting link is added.
 
     > [!NOTE]
-    > The first time you select the video icon (![icon][img1]), a new window will opens. Here you need to log in to authenticate your user in the video meeting service defined by your administrator.
+    > The first time you select the video icon (![icon][img1]), you must log in to authenticate your user in the video meeting service defined by your administrator.
 
-3. Complete the information in the dialog as described in [The Dialog for follow-ups][2].
+3. [Complete the information in the dialog][2].
 
 If you have turned on email invitations for the participants of the follow-up, an email with a link to join the video meeting will be sent when the appointment is saved. In the diary, follow-ups with video meetings are displayed with the icon ![icon][img3].
 

@@ -77,7 +77,7 @@ You can delete activities from any screen where they are displayed:
     >
     > The **Delete** button is only available if the user who is logged in has permission to delete items from the activities list in question.
 
-3. A dialog opens asking you to confirm or cancel the deletion. [!include[Delete elements](includes/see-delete-elements.md)]
+3. A confirmation dialog opens. [!include[Delete elements](includes/see-delete-elements.md)]
 
 ## What would you like to do now?
 

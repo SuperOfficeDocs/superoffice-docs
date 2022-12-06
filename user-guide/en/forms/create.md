@@ -33,12 +33,12 @@ To activate and publish the form, see [Publish forms][2].
 
 ## <a id="multi-page" />Create multi-page forms
 
-If you are creating a form with many fields, it might be useful to split the form into multiple pages. This will make the form more user-friendly and easier to read. The user can navigate using **Next** and **Previous** buttons, and you can also add a progress bar to indicate how much is left to fill in.
+If you are creating a form with many fields, it may be useful to split the form into multiple pages. This will make the form more user-friendly and easier to read. The user can navigate using **Next** and **Previous** buttons, and you can also add a progress bar to indicate how much is left to fill in.
 
 1. Create a form as described above.
 2. Go to the **Fields** category.
-3. Click the **Add** button (![icon][img2]). The **Add element** window opens.
-4. Select **View elements**.
+3. Click the **Add** button (![icon][img2]).
+4. In the **Add element** window, select **View elements**.
 5. Select **Section** and click **Add**. The window closes and a section is added to the form. You can also see the section In the form preview.
 6. Click ![icon][img3] at the top of the section and drag it to the desired position in the form. The fields above and below the section will be on two separate pages in the form.
 7. Click **Apply now** when you are done.
@@ -78,9 +78,9 @@ To add fields to the form:
 
 1. Go to the **Fields** category. By default, the **Contact - name** field and **OK** button have been added to the new form.
 
-2. Click the **Add** button ![icon][img2]. The **Add element** window opens.
+2. Click the **Add** button ![icon][img2].
 
-3. Select one of the following field categories:
+3. In the **Add element** window, select one of the following field categories:
     * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, email address, and so on. Depending on the type of field, values from submitted forms can either replace existing values (such as country or title) or be added to the relevant SuperOffice field (such as mobile phone).
     * **Form elements**: Fields for entering text or date, fields for selecting values (lists, checkboxes and radio buttons) and file upload fields.
     * **View elements**: Sections, texts and images. Use sections to [create multi-page forms](#multi-page).

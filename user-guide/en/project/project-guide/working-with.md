@@ -59,20 +59,20 @@ You can move the project to the next status in two ways:
 
 ## Example
 
-Which project types are assigned a project guide and which statuses and activities the project guides are to contain is set up in SuperOffice Settings and maintenance. What a project guide looks like can therefore vary, but below is an example of how a project using a project guide may proceed.
+Keep in mind that your project guides may be configured differently in Settings and maintenance.
 
-## Enter a new project and select a project type
+### Enter a new project and select a project type
 
 You record a new project and select the **Conference** project type, which is linked to a project guide. The project guide contains the following statuses, follow-ups and documents.
 
 | Statuses | Follow-ups | Documents |
 |---|---|---|
 | Planned | Planning meeting (Meeting (Internal)) | Conference programme (Memo) |
-| In progress | Create list of project members (Follow-up) | erence (Meeting (External)) |
+| In progress | Create list of project members (Follow-up) | conference (Meeting (External)) |
 | Closing | Evaluation meeting (Meeting (Internal)) |
 | Evaluation report (Memo) |
 
-## The Planned status
+### The Planned status
 
 1. You have agreed a meeting time and want to create the **Planning meeting** appointment in the Diary and invite participants.
 
@@ -102,7 +102,7 @@ You record a new project and select the **Conference** project type, which is li
     > [!NOTE]
     > The **Project guide - move the project to the next status** dialog opens because that is what is defined for the project type. This is done in SuperOffice Settings and maintenance.
 
-## The In progress status
+### The In progress status
 
 1. All the follow-ups and documents in the **Planned** status have been completed, and you have moved the project on using the **Project guide - move the project to the next status** dialog. This dialog is displayed when you set the last follow-up to completed. The follow-ups and documents for this new status are now displayed in the **Project guide** section tab.
 
@@ -134,7 +134,7 @@ You record a new project and select the **Conference** project type, which is li
     2. Complete the information and invite the conference participants in the usual way.
     3. Click **Save**.
 
-## The Closing status
+### The Closing status
 
 1. Once the conference has been held and all relevant follow-ups and documents in the **In progress** status have been completed, you go to the last status in the project guide, which is **Closing**.
 

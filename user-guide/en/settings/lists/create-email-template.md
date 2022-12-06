@@ -27,9 +27,9 @@ You can create your own templates to use when creating emails from SuperOffice C
 
 7. [!include[Click arrow and select](../../../includes/expand-list.md)] **Document template** from the **List** dropdown.
 
-8. Click the **Add** button ![icon][img2] below the **Items** list. The **Edit list item** dialog opens.
+8. Click the **Add** button ![icon][img2] below the **Items** list.
 
-9. Enter the required name of the template in the mandatory **Name** field.
+9. In the **Edit list item** dialog, enter the required name of the template in the mandatory **Name** field.
 
 10. In the **File name** field, click the arrow ![icon][img1] and select the *.somail* file you just created.
 
