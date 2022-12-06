@@ -33,6 +33,7 @@ You can [read more on the forums][1].
 * 10.1.4: SharePoint document library, Dashboard/Find/Selection of Mailing/Form/Chat, CRMScript
 * 10.1.5: Quote approval notifications, Dashboard, Quick Search
 * 10.1.6: Sales targets, Configurable archives (Screen designer), Mailing - Document template languages
+* 10.1.9: CRMScript, Dashboard
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/forums/general-forums/announcements/onsite-usernamepassword-and-windows-authentication/
