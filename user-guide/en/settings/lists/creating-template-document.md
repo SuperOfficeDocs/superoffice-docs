@@ -26,6 +26,6 @@ After you have defined a template and saved it in the template folder, you must 
 
 <!-- Referenced links -->
 [1]: ../../document/template-variables.md
-[2]: adding-template-web.md
+[2]: add-template.md
 
 <!-- Referenced images -->

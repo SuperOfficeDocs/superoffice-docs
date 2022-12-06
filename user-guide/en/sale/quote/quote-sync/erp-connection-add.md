@@ -15,7 +15,7 @@ Each Quote Connector must have an ERP connection with configuration data for lin
 
 <details><summary>How do I set up an ERP connection for SuperOffice CRM for Web (Online)?</summary>
 
-[!include[How to set up ERP](includes/set-up-erp-web.md)]
+[!include[How to set up ERP](includes/set-up-erp.md)]
 </details>
 
 ## To add an ERP connection

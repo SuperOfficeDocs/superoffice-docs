@@ -1,7 +1,7 @@
 ---
-uid: help-en-blogic-listextramenus
-title: blogic listExtraMenus
-description: blogic listExtraMenus
+uid: help-en-ui-extra-menu
+title: Extra menus
+description: Extra menus in the SuperOffice UI
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

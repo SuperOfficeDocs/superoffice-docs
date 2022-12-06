@@ -1,7 +1,7 @@
 ---
-uid: help-en-adding-template-web
-title: Adding a template web
-description: Adding a template web
+uid: help-en-add-template
+title: Add a template
+description: Add a template
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

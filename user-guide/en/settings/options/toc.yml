@@ -36,7 +36,7 @@ items:
   - name: Specifying number allocation
     href: specifying-number-allocation.md
   - name: Default values for new document templates
-    href: default-values-for-new-document-templates-web.md
+    href: document-template-defaults.md
 - name: Labels
   href: labels.md
   items:

@@ -1,7 +1,7 @@
 ---
-uid: help-en-default-values-for-new-document-templates-web
-title: Default values for new document templates web
-description: Default values for new document templates web
+uid: help-en-document-template-defaults
+title: Default values for new document templates
+description: Default values for new document templates
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

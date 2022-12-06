@@ -39,7 +39,7 @@ items:
     - name: Creating a template document
       href: creating-template-document.md
     - name: Adding a template
-      href: adding-template-web.md
+      href: add-template.md
     - name: Replace existing template
       href: replace-existing-template.md
   - name: Email Template
@@ -57,7 +57,7 @@ items:
     - name: Country
       href: country.md
     - name: Adding items to the Country list
-      href: adding-items-to-country-list-web.md
+      href: add-items-to-country-list.md
     - name: Currency
       href: currency.md
     - name: Adding items to the Currency list

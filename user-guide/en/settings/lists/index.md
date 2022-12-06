@@ -1,7 +1,7 @@
 ---
-uid: help-en-lists-web
-title: Lists web
-description: Lists web
+uid: help-en-lists
+title: Lists
+description: Lists
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

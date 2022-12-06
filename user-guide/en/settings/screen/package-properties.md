@@ -1,7 +1,7 @@
 ---
-uid: help-en-blogic-listpackages-editpackage
-title: blogic listPackages editPackage
-description: blogic listPackages editPackage
+uid: help-en-package-properties-service
+title: Package properties
+description: Package properties
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

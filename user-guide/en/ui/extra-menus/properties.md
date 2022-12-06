@@ -1,7 +1,7 @@
 ---
-uid: help-en-blogic-listextramenus-editextramenu
-title: blogic listExtraMenus editExtraMenu
-description: blogic listExtraMenus editExtraMenu
+uid: help-en-ui-extra-menu-properties
+title: Menu properties
+description: Menu properties
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

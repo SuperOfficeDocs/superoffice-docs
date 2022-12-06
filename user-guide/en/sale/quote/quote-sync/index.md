@@ -27,7 +27,7 @@ In the **Quote/Sync** screen you can administrate connections and settings for E
 
 ## How do I set up an ERP connection for SuperOffice CRM for Web (Online)?
 
-[!include[How to set up ERP](includes/set-up-erp-web.md)]
+[!include[How to set up ERP](includes/set-up-erp.md)]
 
 <!-- Referenced links -->
 [1]: quotesync-tab-erp-connections.md

@@ -1,7 +1,7 @@
 ---
-uid: help-en-blogic-listextramenus-editextramenu-navigator
-title: blogic listExtraMenus editExtraMenu navigator
-description: blogic listExtraMenus editExtraMenu navigator
+uid: help-en-ui-extra-menu-navigator
+title: Add navigator group and extra menu
+description: Add navigator group and extra menu
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

@@ -30,7 +30,7 @@ Adding an email template involves following steps:
 
 <!-- Referenced links -->
 [2]: ../../document/template-variables.md
-[3]: adding-template-web.md
+[3]: add-template.md
 [4]: add-email-template.md
 [5]: organize/user-group-filtering.md
 

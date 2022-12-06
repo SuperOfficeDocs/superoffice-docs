@@ -48,6 +48,6 @@ The table below shows the consequences of different combinations of the values *
 <!-- Referenced links -->
 [1]: viewing-number-allocation.md
 [2]: specifying-number-allocation.md
-[3]: default-values-for-new-document-templates-web.md
+[3]: document-template-defaults.md
 
 <!-- Referenced images -->

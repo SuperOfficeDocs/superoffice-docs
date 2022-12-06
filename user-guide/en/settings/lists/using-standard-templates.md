@@ -41,7 +41,7 @@ You can edit the standard templates supplied with SuperOffice CRM and save them 
 * [Create a template document][2]
 
 <!-- Referenced links -->
-[1]: adding-template-web.md
+[1]: add-template.md
 [2]: creating-template-document.md
 
 <!-- Referenced images -->

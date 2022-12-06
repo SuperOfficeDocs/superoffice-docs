@@ -1,7 +1,7 @@
 ---
-uid: help-en-blogic-listswebpanels
-title: blogic listsWebpanels
-description: blogic listsWebpanels
+uid: help-en-ui-web-panels
+title: Web panels
+description:Web panels
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

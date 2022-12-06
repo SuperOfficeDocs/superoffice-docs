@@ -34,7 +34,7 @@ When editing reply templates and mailings, you can insert template variables by 
 | licence.admin | 1 if the customer has licence for Admin, otherwise 0 |
 | licence.advancedfaq | 1 if the customer has licence for Advanced FAQ, otherwise 0 |
 | licence.ajax | 1 if the customer has licence for Ajax, otherwise 0 |
-| licence.blogic | 1 if the customer has licence for Blogic, otherwise 0 |
+| licence.blogic | 1 if the customer has licence for bLogic, otherwise 0 |
 | licence.chat | 1 if the customer has licence for Chat, otherwise 0 |
 | licence.custlang | 1 if the customer has licence for CustLang, otherwise 0 |
 | licence.customer | 1 if the customer has licence for Customer, otherwise 0 |

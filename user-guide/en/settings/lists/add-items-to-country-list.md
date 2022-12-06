@@ -1,7 +1,7 @@
 ---
-uid: help-en-adding-items-to-country-list-web
-title: Adding items to the Country list web
-description: Adding items to the Country list web
+uid: help-en-add-items-to-country-list
+title: Add items to the Country list
+description: Add items to the Country list
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

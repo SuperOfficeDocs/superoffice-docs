@@ -27,5 +27,5 @@ items:
 - name: Screens
   items:
   - name: Package properties
-    href: screen/listpackages.editpackage.md
+    href: screen/package-properties.md
     

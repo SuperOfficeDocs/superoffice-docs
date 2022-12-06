@@ -18,6 +18,6 @@ In several places in SuperOffice CRM you can select a desired country from a sel
 * [Add items to the General - Country list][1]
 
 <!-- Referenced links -->
-[1]: adding-items-to-country-list-web.md
+[1]: add-items-to-country-list.md
 
 <!-- Referenced images -->

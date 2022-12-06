@@ -33,7 +33,7 @@ language: en
     > How to add items to the [Privacy - Legal base list][2].
 
 <!-- Referenced links -->
-[1]: adding-template-web.md
+[1]: add-template.md
 [2]: privacy-legal-base-add.md
 
 <!-- Referenced images -->

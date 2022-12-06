@@ -1,7 +1,7 @@
 ---
-uid: help-en-import-settings-web
-title: Import settings web
-description: Import settings web
+uid: help-en-import-settings
+title: Import settings
+description: Import settings
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance, import

@@ -1,7 +1,7 @@
 ---
-uid: help-en-blogic-listextramenus-editextramenu-menubutton
-title: blogic listExtraMenus editExtraMenu menubutton
-description: blogic listExtraMenus editExtraMenu menubutton
+uid: help-en-ui-extra-menu-actions
+title: Add function to menu button (Actions)
+description: Add function to menu button (Actions)
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
