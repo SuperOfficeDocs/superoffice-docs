@@ -22,7 +22,7 @@ You can archive an incoming email (including any attachments) as a document in S
 
 ## <a id="outgoing" />Archive outgoing email
 
-To send a message and archive it as a document in SuperOffice CRM, click **Send and archive** when you are writing an email message. See [Compose an email][3].
+To send a message and archive it as a document in SuperOffice CRM, click **Send and archive** when you are [writing an email message][3].
 
 > [!TIP]
 > If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described above.

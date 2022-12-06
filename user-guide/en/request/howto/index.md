@@ -53,7 +53,7 @@ Different companies have different routines for request handling and can use Sup
 ## <a id="ai" />Efficient handling of requests using AI
 
 > [!NOTE]
->The functions described in this topic require a separate licence for AI services. SuperOffice AI is cloud only and is a separate add-on.
+> AI services require a separate licence. SuperOffice AI is cloud only and is a separate add-on.
 
 The introduction of Artificial Intelligence (AI) in SuperOffice 10 gives request handlers / support agents a new set of smart tools to make their workday more efficient.
 

@@ -11,7 +11,7 @@ language: en
 
 # Items
 
-In contrast to lists themselves, the items contained in both predefined and user-defined lists can be added to, amended or deleted. These operations are described in the topics below.
+In contrast to lists themselves, the items contained in both predefined and user-defined lists can be added to, amended or deleted.
 
 ## What would you like to do now?
 

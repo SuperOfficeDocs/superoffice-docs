@@ -35,10 +35,10 @@ If the sender is listed more than once in SuperOffice CRM, a dialog will appear 
 
 If the sender is not listed in SuperOffice CRM at all, you will be given the option of adding their email address to SuperOffice CRM.
 
-1. Archive the email or attachment as described in one of these topics:
-    * [Archiving emails on companies/contacts][1]
-    * [Archiving emails as activities][2]
-    * [Archiving attachments][3]
+1. Do one of the following:
+    * [Archive the email on companies/contacts][1]
+    * [Archive the email as activity][2]
+    * [Archive attachments][3]
 
 2. If the sender of the email or attachment is not listed in SuperOffice CRM, a warning will appear at the top of the dialog for archiving email when you attempt to archive: **This sender's email address is not recognised. Click here to update SuperOffice with this email address**. Click the warning.
 

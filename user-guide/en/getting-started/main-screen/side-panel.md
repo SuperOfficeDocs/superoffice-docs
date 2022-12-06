@@ -126,7 +126,7 @@ Shows a list of members of the current selection in the **Selection** screen.
 
 ## User-defined views
 
-In SuperOffice Settings and maintenance, you can also define your own views for the side panel. This is described in more detail in the SuperOffice Settings and maintenance help.
+In SuperOffice Settings and maintenance, you can also define your own views for the side panel.
 
 <!-- Referenced links -->
 [1]: ../../search-options/using-history-list.md

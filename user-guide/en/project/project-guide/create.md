@@ -54,8 +54,6 @@ Go to the next procedure to create the project guide.
 
 Once you have created statuses and specified a project type for the project guide, you can design the project guide itself. You do this by adding follow-ups and/or documents for each status in the project guide.
 
-Do as follows:
-
 1. Click the **Workflow** button in the Navigator (![icon][img1]).
 
 2. Select the **Project guide** tab.
@@ -67,12 +65,12 @@ Do as follows:
 
 4. Select the required status in the list. The status's details are shown at the bottom of the screen.
 
-5. Add one or more follow-ups for the selected status, as described under [Add a follow-up for a status](#add-a-follow-up-for-a-status) below.
+5. [Add one or more follow-ups for the selected status](#add-a-follow-up-for-a-status).
 
     > [!NOTE]
     > You do not need to add a document for each status, but you should add at least one follow-up for each status.
 
-6. Add one or more documents for the selected status, as described under [Add a document for a status](#add-a-document-for-a-status) below.
+6. [Add one or more documents for the selected status](#add-a-document-for-a-status).
 
 7. Repeat steps 4-6 for each status you want to add follow-ups and documents for.
 
@@ -99,7 +97,7 @@ Planning meeting:
 
 </details>
 
-**To add follow-ups to a status:**
+**Steps:**
 
 1. Select the required project type and status as described above.
 
@@ -112,7 +110,7 @@ Planning meeting:
     > [!NOTE]
     > Some of the options before are, for logical reasons, not relevant for the first follow-up in a project guide.
 
-5. Check **Assign follow-up to project member** if you want to make it possible to assign this follow-up to one of the project participants. When the project owner creates this follow-up in SuperOffice CRM, a dialog is displayed, in which the project owner can choose one of their associates to be the owner of the follow-up.
+5. Check **Assign follow-up to project member** if you want to make it possible to assign this follow-up to one of the project participants. When the project owner creates this follow-up in SuperOffice CRM, they can choose one of their associates to be the owner of the follow-up.
 
 6. Check **Milestone follow-up** if you want to define the follow-up as a milestone.
 
@@ -144,7 +142,7 @@ Planning meeting:
 
 </details>
 
-**To add documents to a status:**
+**Steps:**
 
 1. Select the required project type and status as described above.
 2. Click **Add** under **Suggested documents in status**.

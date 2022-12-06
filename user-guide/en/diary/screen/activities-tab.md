@@ -62,7 +62,7 @@ Once an activity is completed, it will be removed from the activities list by th
 If you want activities to be removed from the activities list as soon as they are completed, you can set this as a preference.
 
 1. Go to ![icon][img1] **Personal settings > Preferences**.
-2. Select **Visual effects**, and then edit the **Remove completed activities** preference as described in the [Preferences][8] topic.
+2. Select **Visual effects**, and then edit the **Remove completed activities** [preference][8].
 
 If an activity is highlighted in red type, this means that its provisional date has been passed. However, you can change this setting as follows:
 

@@ -31,7 +31,7 @@ Using the document mailing workflow you can generate a PDF document to print and
     > [!NOTE]
     > For variables such as sale ID or project ID to work, you must link the document mailing to a sale or project.
 
-7. In the **Folder** list, select a folder in which to place the mailing.
+7. Select a folder to place the mailing in from the **Folder** list.
 
     [How do I create a mailing folder?][19]
 

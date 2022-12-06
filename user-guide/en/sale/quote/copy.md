@@ -18,9 +18,10 @@ You can copy a quote from another sale. The sale you copy the quote from must ha
 
     The **Create new quote by copying an existing quote** dialog appears.
 
-3. Select the sale you want from the **Sales** list. If the list is empty, that means there are no sales with quotes and/or in the required currency.
-    or
-    Start typing the name of a sale to search.
+3. Do one of the following:
+
+    * Select the sale you want from the **Sales** list. If the list is empty, there are no sales with quotes and/or in the required currency.
+    * Start typing the name of a sale to search.
 
 4. Click **OK**. The quote is copied to the sale, and displayed in the **Quote** section tab with the status **Draft**.
 
@@ -31,7 +32,7 @@ You can copy a quote from another sale. The sale you copy the quote from must ha
     Hold the mouse pointer over the disabled **OK** button to display the name of the connection that you do not have access to.
     </details>
 
-5. Edit the quote as described in [Create a quote][1].
+5. [Edit the quote][1].
 
 <!-- Referenced links -->
 [1]:create.md

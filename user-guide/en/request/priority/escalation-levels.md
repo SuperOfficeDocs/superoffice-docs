@@ -41,7 +41,7 @@ For each priority you can define one or more escalation levels, so that the syst
 
 1. Repeat these steps to create additional escalation levels.
 
-1. If you have created multiple escalation levels, you can define the order in which they should occur using the arrow buttons below the list of escalation levels.
+1. If you have created multiple escalation levels, you can define the order that they should occur in using the arrow buttons below the list of escalation levels.
 
 ## Define new level in Service
 
@@ -79,7 +79,7 @@ For each priority you can define one or more escalation levels, so that the syst
 | Setting | Description |
 |---|---|
 | Priority | The priority you want to link the escalation level to. |
-| Occurs after | How much time must pass before this escalation level is enabled. If the priority has been defined to have its escalation comply with the time frame, that will affect the time entered here. A priority with a time frame of Monday to Friday, 09.00 to 17.00 and first escalation level after 2 hours, would, for example, be escalated at 10.00 on Monday, if the request was registered at 16.00 on the preceding Friday. |
+| Occurs after | How much time must pass before this escalation level is enabled. If the priority is defined to have its escalation comply with the time frame, that will affect the time entered here. A priority with a time frame of Monday to Friday, 09.00 to 17.00 and first escalation level after 2 hours, would, for example, be escalated at 10.00 on Monday, if the request was registered at 16.00 on the preceding Friday. |
 | Reassign to | If you want the request to be forwarded to another user when this escalation level occurs, check here. Then select the user you require in the list. |
 | Run script | If you want a script to be run when this escalation level occurs, check here. Then select the script you require in the list. |
 

@@ -24,7 +24,7 @@ Alternatives are shown as tabs in the quote (in the **Edit quote** dialog).
 3. Click the **+** (plus sign) tab in the **Edit quote** dialog.
 
     > [!NOTE]
-    > If this tab is not displayed, that means that alternatives are not enabled for the sales type of the current sale. You can select a different sales type, or enable alternatives for this sales type in SuperOffice Settings and maintenance.
+    > If this tab is not displayed, alternatives are not enabled for the sales type of the current sale. You can select a different sales type, or enable alternatives for this sales type in SuperOffice Settings and maintenance.
 
 4. In the **Name** field, enter the name of the alternative. This will be the name of the tab for this new alternative.
 

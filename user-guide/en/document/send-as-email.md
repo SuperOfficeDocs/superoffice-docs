@@ -40,7 +40,10 @@ language: en
     * The email address of the addressee of the document is displayed by default in the **To** field.
     * The document heading is displayed in the **Subject** field of the email.
     * The document itself is attached to the message as an ordinary email attachment.
-    * Type in a message to the recipient if required. If you want to, you can also change the recipient. Note, however, that this information will not be updated in SuperOffice CRM.
+    * Type in a message to the recipient if required. If you want to, you can also change the recipient.
+
+        > [!NOTE]
+        > This information will not be updated in SuperOffice CRM.
 
 3. Click **Send** to send the message.
 

@@ -21,7 +21,7 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 
 </details>
 
-When you add an item to the **GUI - Web panel** list in Settings and maintenance, the **Edit list item** dialog is not the same as described under [Add items][1].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 This is how to fill out the fields in the **Edit list items** dialog when the items are URL addresses (pages on the Internet or saved HTML files):
 
@@ -32,7 +32,7 @@ This is how to fill out the fields in the **Edit list items** dialog when the it
 
 1. In the **URL** field, specify the URL address such as a web page or a server-based HTML file. Please see the information at the top concerning the use of HTTP/HTTPS URLs.
 
-1. In the **Window name** field, specify the required name of the browser window in which the URL address should be opened. If you have previously added one or more window names and want to reuse them, you can click in the field and select a name from the list. You can also type a new name directly into the field. The window name as it will finally appear is displayed below, underlined.
+1. In the **Window name** field, specify the required name of the browser window where the URL address should be opened. If you have previously added one or more window names and want to reuse them, you can click in the field and select a name from the list. You can also type a new name directly into the field. The window name as it will finally appear is displayed below, underlined.
 
 1. In the **Visible in** list box, choose where the URL address will be accessible in SuperOffice CRM.
     * **Side panel**: select this option to make the URL address available on the side panels in the SuperOffice CRM.
@@ -82,7 +82,6 @@ This is how to fill out the fields in the **Edit list items** dialog when the it
 > If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via a URL. The URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organisation number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.
 
 <!-- Referenced links -->
-[1]: adding-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-tools.png

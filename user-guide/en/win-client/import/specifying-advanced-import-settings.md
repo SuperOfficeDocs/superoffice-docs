@@ -18,8 +18,6 @@ Advanced import settings include date format settings and delimiter characters. 
 > [!NOTE]
 > To correctly map the fields from the import file, you may have to edit the settings for text qualifier, field delimiter and row delimiter.
 
-To specify advanced import settings:
-
 1. [!include[How to open import](includes/open-import.md)]
 
 [!include[Select file](includes/step-select-file.md)]
@@ -38,7 +36,7 @@ To specify advanced import settings:
 1. In the **Text qualifier** field, type in the character used in the import file to enclose plain text.
 
     > [!NOTE]
-    > Text qualifiers override any field and row delimiters (see below). This means, for example, that if there is a field delimiter between two text qualifiers, it is taken to be plain text. However, you do not need to use text qualifiers if your import files contain field or row delimiters.
+    > Text qualifiers override any field and row delimiters (see below). For example, if there is a field delimiter between two text qualifiers, it is interpreted as plain text. However, you do not need to use text qualifiers if your import files contain field or row delimiters.
 
 1. In the **Field delimiter** list box, choose from the predefined options specifying which characters separate fields from each other.
 

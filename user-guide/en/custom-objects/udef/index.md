@@ -83,7 +83,8 @@ You want the budget for a project to be easily visible to the project members.
 You can then add these fields to the **Project** screen:
 
 | Field name | Type | Description | Remarks |
-| Budget | Decimal | A number field where you can enter a sum. | Choose for the field to be displayed on page 1 as described in [Select page 1 fields][1]. |
+|---|---|---|---|
+| Budget | Decimal | A number field where you can enter a sum. | [Choose for the field to be displayed on page 1][1]. |
 
 <!-- Referenced links -->
 [1]: page-1-fields.md

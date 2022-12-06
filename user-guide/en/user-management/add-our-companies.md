@@ -34,7 +34,7 @@ To add a company in the **Our companies** tab, it must first be registered as a 
 
     <details><summary>Click to find out more about the various search criteria</summary>
 
-    The fields below correspond to the fields on the company card. These are described in detail in the SuperOffice CRM help.
+    The fields below correspond to the fields on the company card.
 
     * Name: Enter the whole or start of the company name.
     * Number: Enter the whole or start of the company name.

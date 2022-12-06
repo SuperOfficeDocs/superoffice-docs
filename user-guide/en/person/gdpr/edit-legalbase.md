@@ -16,11 +16,6 @@ language: en
 
 [!include[Need concent](../includes/why-consent.md)]
 
-This topic explains how you set the legal basis and source for the purposes called **Sales and service** and **E-marketing**. Additional purposes might be available in your system.
-
-> [!TIP]
-> To edit these settings for multiple contacts, use [Bulk update][2].
-
 ## Definitions
 
 * **Consent**: You must get the permission from a person to store and process their personal data.
@@ -39,6 +34,9 @@ This topic explains how you set the legal basis and source for the purposes call
 * Additional purposes can be added from Settings and maintenance.
 
 ## How to edit the privacy settings for a contact
+
+> [!TIP]
+> To edit these settings for multiple contacts, use [Bulk update][2].
 
 1. Go to the contact in the **Contact** screen.
     At the bottom of the contact card, you can see whether a legal basis has been set for the purpose **Sales and service**.

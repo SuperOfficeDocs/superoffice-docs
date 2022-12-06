@@ -69,7 +69,7 @@ When you import a list of names and email addresses, SuperOffice Marketing will 
 
 Under **Options** in the lower part of the **Recipients** screen, you can select various options for the mailing.
 
-What's available depends on if you're creating a document, an email, or an SMS. Each option is explained below the table.
+What's available depends on if you're creating a document, an email, or an SMS.
 
 | Option | Document | Email | SMS |
 |---|:-:|:-:|:-:|

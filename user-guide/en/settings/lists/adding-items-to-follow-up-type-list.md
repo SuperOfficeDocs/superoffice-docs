@@ -11,7 +11,7 @@ language: en
 
 # Add items to the Follow-up - Type list
 
-When you add an item to the **Follow-up - Type** list in Settings and maintenance, the **Edit List item** dialog is not the same as described under [Add items][1].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the items are follow-up types:
 
@@ -40,7 +40,6 @@ When you add an item to the **Follow-up - Type** list in Settings and maintenanc
 7. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
-[1]: adding-items.md
 [2]: ../../sale/saint/index.md
 
 <!-- Referenced images -->

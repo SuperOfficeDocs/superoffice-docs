@@ -44,7 +44,7 @@ When you have finished the message, and want to send it, you have the following 
 * To send the message and archive it as a document in SuperOffice CRM, click **Send and archive**. The **Document** dialog opens. [How to create a document][1].
 
 > [!TIP]
-> If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described in [Archive incoming email][2].
+> If you do not archive the message when you send it, you can still [go to the sent folder and archive the message][2].
 >
 > The signature template at the bottom of the message can be edited in ![icon][img1] **Personal settings** > **Edit personal signature**.
 

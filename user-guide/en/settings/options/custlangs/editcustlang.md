@@ -9,9 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Work with customer languages
-
-In this topic, you can find out how to create and edit customer languages.
+# How to create and edit customer languages
 
 ## How to add customer languages
 

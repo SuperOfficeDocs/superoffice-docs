@@ -35,7 +35,7 @@ Follow these steps:
 Click the link in the pop-up message to open the document in SuperOffice.
 
 > [!TIP]
-> If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described in [Archive incoming email][3].
+> If you do not archive the message when you send it, you can still [go to the sent folder and archive the message][3].
 
 ## What would you like to do now?
 

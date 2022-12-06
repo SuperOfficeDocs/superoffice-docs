@@ -11,7 +11,7 @@ language: en
 
 # Add items to the General - Country list
 
-When you add an item to the **General - Country** list in Settings and maintenance, the **Edit list item** dialog is not the same as described under [Add items][1].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the list items are countries:
 
@@ -48,7 +48,6 @@ When you add an item to the **General - Country** list in Settings and maintenan
 11. Click **Save**. The country is added as a separate item in the **Items** list. Repeat this procedure to add more countries.
 
 <!-- Referenced links -->
-[1]: adding-items.md
 [2]: currency.md
 
 <!-- Referenced images -->

@@ -132,11 +132,11 @@ In the list box, select the field you want to search for information in. The fie
     **Amount class**: Here you choose the sale's amount class. See [Sale - Amount class][1].
     **Intention**: Here you choose the intention of the activity.
 
-    Depending on what you have selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
+    Depending on what you have selected above, a list box for a date field or a number field is displayed. Select the required option and enter the required numerical value or date in the text field.
 
 **Change search criteria:**
 
-If you want to change a search criterion in the **Find** dialog, click it and select a different one from the list that appears, as described above.
+If you want to change a search criterion in the **Find** dialog, click it and select a different one from the list that appears.
 
 <!-- Referenced links -->
 [1]: ../sale-amount-class.md

@@ -16,7 +16,7 @@ In SuperOffice CRM you can create companies with addresses in many different cou
 When you [create a company][1] and choose which country the company belongs to, the address fields in the **Company** tab change according to your choice. The address fields that change are described below.
 
 > [!TIP]
-> You can change the default address format for a country in SuperOffice Settings and maintenance. This is described in detail in the SuperOffice Settings and maintenance help.
+> You can change the default address format for a country in SuperOffice Settings and maintenance.
 
 ## General address format
 

@@ -13,14 +13,14 @@ language: en
 
 ## Edit headings
 
-You edit headings by double-clicking the relevant heading in the **Headings** list. Make the change as described in [Add headings][1].
+You [edit headings][1] by double-clicking the relevant heading in the **Headings** list and changing the information.
 
 ## Delete headings
 
 You delete headings by checking the relevant heading in the **Headings** list and clicking **Delete**.
 
 > [!NOTE]
-> The deletion is not permanent. This is explained under [Deleted items and headings][2].
+> [The deletion is not permanent][2].
 
 <!-- Referenced links -->
 [1]: adding-headings.md

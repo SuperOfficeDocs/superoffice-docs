@@ -13,11 +13,11 @@ language: en
 
 This feature allows you to train the system to suggest categories for requests, according to the text content related to requests. When a support agent opens a new request, there will be a suggested category in the footer of the request. The support agent can then click the category link to update the request with the suggested category. This means time saved, since your support team will not have to read through the request to categorize manually.
 
-To activate this feature, you must first train the AI as described below, and then select **Use AI to suggest categories**.
+To activate this feature, you must first train the AI in how to categorize requests, and then select **Use AI to suggest categories**.
 
 ## Training the AI
 
-To use this feature, you need to train the AI in how to categorize requests. You do this by letting the AI analyze a selection of requests:
+You train AI by letting the AI analyze a selection of requests.
 
 1. Create a selection of requests in SuperOffice Service.
 2. In the list box under **Categorization** in the **AI services** screen, choose the selection you have created.

@@ -36,7 +36,7 @@ Shows how the contact should be addressed.
 Displays the contact's name, title and mobile phone number.
 
 > [!NOTE]
-> Use of middle names can be enabled in SuperOffice Settings and maintenance. If the preference is enabled, the middle name is taken to be the first part of the last name (but is not sorted on). If the preference is not enabled, you may enter a middle name in the **First name** field, and the middle name will then be considered as a second first name.
+> Use of middle names can be enabled in SuperOffice Settings and maintenance. If the preference is enabled, the first part of the last name is used as the middle name (but is not sorted on). If the preference is not enabled, you may enter a middle name in the **First name** field, and the middle name will then be considered as a second first name.
 
 ### Email
 

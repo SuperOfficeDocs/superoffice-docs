@@ -21,8 +21,10 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 ## View entries
 
 1. Click **Requests** > **Tables** in the Navigator.
-2. Click the required table to open it and view existing entries. Here, for example, you can click **Show criteria** and search as described under [Search in SuperOffice Service][2], if you cannot see the table entry you are looking for.
-3. Double-click the required table entry in the list. The following options are available:
+
+1. Click the required table to open it and view existing entries. If you cannot see the table entry you are looking for, click **Show criteria** and [search][2].
+
+1. Double-click the required table entry in the list. The following options are available:
     * **Search**: Click here to search for a table entry.
     * **Edit**: Click here to [edit the entry](#edit-entries).
     * **New entry**: Click here to [create a new entry](#create-entries).

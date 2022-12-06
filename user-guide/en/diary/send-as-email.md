@@ -19,6 +19,9 @@ language: en
 
     * The follow-up type and description from the dialog for follow-ups is inserted in the subject field.
 
-    * Edit the email message as required. For example, you can add more recipients. Note, however, that this information will not be updated in SuperOffice CRM.
+    * Edit the email message as required. For example, you can add more recipients.
+
+        > [!NOTE]
+        > This information will not be updated in SuperOffice CRM.
 
 3. Click **Send** to send the message.

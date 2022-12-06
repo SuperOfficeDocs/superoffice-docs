@@ -11,8 +11,6 @@ language: en
 
 # Search in SuperOffice Service
 
-Searching in SuperOffice Service is performed from the same screen, no matter if you are searching for requests, contacts, companies or other records in the system. In this topic, you can find out more about how searching in SuperOffice Service works.
-
 <details><summary>Try the shortcut search</summary>
 
 ## Shortcut search
@@ -112,7 +110,7 @@ This section of the screen displays the contents of the record selected in the l
 
 ## Use advanced view
 
-If you click the ![icon][img2] menu button in the **Criteria** screen and select **Advanced view**, you gain access to more advanced search options. These are normally only relevant for experienced users. Here you can specify, for example, that you want to search for all requests that do not have a specific owner, or all requests where one field is empty, instead of having a set value. The options displayed here will depend on the context of your search. For instance, different fields are shown when searching for requests compared with searching for contacts. Some of the available options are outlined below:
+If you click the ![icon][img2] menu button in the **Criteria** screen and select **Advanced view**, you gain access to more advanced search options. These are normally relevant only for experienced users. For example, you can specify that you want to search for all requests that do not have a specific owner, or all requests where one field is empty, instead of having a set value. The options displayed here will depend on the context of your search. For instance, different fields are shown when searching for requests compared with searching for contacts. Some of the available options are outlined below:
 
 * At the top are checkboxes you can use to turn on or off the display of different items.
 * For each individual search criterion, you can define operators. You do this by selecting the option you want in the list box to the right of the criterion. The operators available will depend on the type of criterion in question. For the **Category** criterion, you can choose between, for example, **Is one of** and **Is not one of**. For the **Request registered** criterion, you can select a time interval.

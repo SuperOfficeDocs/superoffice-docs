@@ -25,8 +25,6 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 | Help | Help | Clicking this button gives you access to comprehensive and easily accessible information on how to use the system. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in. |
 | ![icon][img7] | Search | At the top right is the search field. You can use this field to quickly find data in the system. |
 
-The other buttons in SuperOffice Service are described in connection with the tasks they initiate.
-
 ## Options in the Personal settings menu
 
 > [!NOTE]

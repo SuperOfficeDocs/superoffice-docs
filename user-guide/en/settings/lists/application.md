@@ -13,7 +13,7 @@ language: en
 
 You can have shortcuts to external applications in SuperOffice CRM, so that you can open them directly from within SuperOffice CRM for Windows.
 
-You define which URL addresses will be available to users in the **Lists** screen in Settings and maintenance. This is described in the topics below.
+You define which URL addresses will be available to users in the **Lists** screen in Settings and maintenance.
 
 > [!NOTE]
 > Files or applications that must be run locally (for example exe files) are not accessible in SuperOffice CRM for Web.

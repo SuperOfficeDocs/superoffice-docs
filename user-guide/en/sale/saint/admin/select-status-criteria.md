@@ -26,7 +26,7 @@ A status is only active for companies, contacts or projects that fulfil all the 
 
 1. Click **Add** in the list in the bottom-right (under the **Description** tab and **Create follow-up** tab). A new line is added to the list.
 
-1. Click the arrow button ( ![icon][img1] ) next to the empty field, and select the required search criterion as described under [Use search criteria][1].
+1. Click the arrow button ( ![icon][img1] ) next to the empty field, and [select the required search criterion][1].
 
 1. Repeat steps 4 and 5 for each criterion you want to add.
 

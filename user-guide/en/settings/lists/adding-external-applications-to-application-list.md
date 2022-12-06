@@ -11,7 +11,7 @@ language: en
 
 # Add items to the GUI - Application list
 
-When you add an item to the **GUI - Application** list in Settings and maintenance, the **Edit list item** dialog is not the same as described under [Add items][1].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the items are applications or similar:
 
@@ -32,7 +32,7 @@ When you add an item to the **GUI - Application** list in Settings and maintenan
 
         <details><summary>Click here to find out more about the different options.</summary>
 
-        The names in parenthesis indicate in which section tab the application is available.
+        The names in parenthesis indicate the section tab where the application is available.
 
         Examples:
 
@@ -93,7 +93,6 @@ When you add an item to the **GUI - Application** list in Settings and maintenan
 > Users must log in to SuperOffice CRM again to display the application.
 
 <!-- Referenced links -->
-[1]: adding-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

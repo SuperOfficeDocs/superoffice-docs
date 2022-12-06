@@ -22,7 +22,7 @@ The **Task** button contains tasks such as sending emails, mass-editing and expo
 
 From the **Task** button in the **Selection** screen or the **Find** screen, you perform tasks as follows:
 
-1. Go to the required selection. You can, for example, search for a selection from the **Selection** button in the navigator or search as described under [Use the Find screen][1].
+1. Go to the required selection. For example, search for a selection from the **Selection** button in the navigator or [use the Find screen][1].
 
 2. Select the tab containing the records you want to work with.
 

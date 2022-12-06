@@ -9,7 +9,7 @@ The first step in creating a form response, is called **Setup**. Here you can se
 
 4. In the **Reply to** list, you have the same options as above. In addition, you can select **Use "From" as reply address**. Any replies will then be sent to the sender.
 
-5. In the **Folder** list, select a folder in which to place the mailing.
+5. Select a folder to place the mailing in from the **Folder** list.
 
     [How do I create a mailing folder?][19]
 

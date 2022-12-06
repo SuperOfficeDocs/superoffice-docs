@@ -82,8 +82,8 @@ Here you can add translated versions of the document template.
 4. Click **Add**. The language is listed in the **Languages** tab.
 5. Repeat the steps above to add additional languages.
 
-> [!NOTE]
-> As described above, you can add translations of the template name and email subject by clicking ![icon][img1] next to the relevant field. See [Translation][1].
+> [!TIP]
+> Click ![icon][img1] next to the relevant field to [add translations][1] of the template name and email subject.
 
 <!-- Referenced links -->
 [1]: ../../globalization/translate-fields.md

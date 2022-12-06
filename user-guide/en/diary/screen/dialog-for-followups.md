@@ -53,7 +53,7 @@ Enter the name of the project that the follow-up is linked to. If you cannot rem
 
 ### Sale
 
-Here you enter the name of the sale, if any, that the follow-up is linked to. If you cannot remember the whole name, you can search directly from this field.
+Enter the name of the sale (if any) that the follow-up is linked to. If you cannot remember the whole name, you can search directly from this field.
 
 ### Time zone selector
 

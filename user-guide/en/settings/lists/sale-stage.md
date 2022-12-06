@@ -15,7 +15,7 @@ language: en
 
 [!include[Must be admin](../../includes/req-admin.md)]
 
-When you add an item to the **Sale - Stage** list, the **Edit list item** dialog is not the same as described under [Add items][1].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the list items are sale stages:
 
@@ -31,8 +31,3 @@ When you add an item to the **Sale - Stage** list, the **Edit list item** dialog
 
 > [!NOTE]
 > If you delete a stage that is linked to a sales guide (via a sale type), this may have consequences for using the sales guide.
-
-<!-- Referenced links -->
-[1]: adding-items.md
-
-<!-- Referenced images -->

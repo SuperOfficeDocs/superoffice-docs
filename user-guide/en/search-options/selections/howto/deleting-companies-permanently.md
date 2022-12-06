@@ -18,7 +18,7 @@ If you want to delete multiple records (contacts, companies, sales, projects, an
 
 [!include[Open Selections](../includes/goto-selections.md)]
 
-1. Go to a selection. You can, for example, search as described under [Use the Find screen][1].
+1. Go to a selection. For example, [use the Find screen][1].
 
 1. If you want to delete just some of the selection members, select them in the list of members.
 

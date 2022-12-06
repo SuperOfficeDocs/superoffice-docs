@@ -11,15 +11,17 @@ language: en
 
 # Archiving emails to SuperOffice
 
-When you click the **Archive email** button on the mail client toolbar, a menu with archiving options is displayed. These are described in the following topics:
+When you click the **Archive email** button on the mail client toolbar, a menu with archiving options is displayed.
+
+> [!NOTE]
+> This button also appears in the email window when you open an email you have received.
+
+**Options:**
 
 * [Archiving emails on companies/contacts][2]
 * [Archiving emails as activities][1]
 * [Archiving attachments][3]
 * [Archiving emails as requests][4]
-
-> [!NOTE]
-> This button also appears in the email window when you open an email you have received.
 
 For all the different archiving options, you may select the **Warn me when an email is larger than (in KB)** option in the **General settings** pane of the **SuperOffice CRM options** dialog (see [General settings][5]). Thus, when you try to archive an email containing an attachment that is over the specified limit, a dialog will inform you of this and ask you if you would like to archive it anyway.
 

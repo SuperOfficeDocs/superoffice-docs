@@ -13,7 +13,7 @@ language: en
 
 When you have [created a new layout][4], it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
 
-**To edit a screen layout:**
+**Steps:**
 
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
 
@@ -39,7 +39,7 @@ When you have [created a new layout][4], it is time to customize it according to
     * Delete fields by holding the mouse-pointer over a field and clicking ![icon][img2]. Deleted fields can be re-added from the **Fields** section. Mandatory fields cannot be deleted, and the **Delete** button will not appear for such fields. See [Fields](#fields).
     * Edit field formatting (such as font format) and other settings by clicking the field. The **Settings** section opens in the left part of the window. See [Settings](#settings).
 
-3. Change the number of columns in a tab, from the **Columns** section. See [Columns](#columns).
+3. [Change the number of columns in a tab](#columns) from the **Columns** section.
 
 4. Save the changes as described above.
 
@@ -56,11 +56,11 @@ When you have [created a new layout][4], it is time to customize it according to
     ![Boxes with stapled lines -screenshot](media/screendesigner-field-place.png)
     </detais>
 
-    * **Elements**: Drag various elements such as labels, dividers, links and buttons to the layout. Place the elements as described above. See [Elements](#elements).
+    * **Elements**: Drag various elements such as labels, dividers, links and buttons to the layout.
 
     * **Settings**: Click a field or element in the layout to edit the relevant settings. The available settings may vary according to the selected object. See [Settings](#settings).
 
-    * **Columns**: Select how many columns you want to display in a tab. See [Columns](#columns).
+    * **Columns**: [Select how many columns you want to display in a tab](#columns).
 
 3. When you have finished customizing the screen layout, click one of the following buttons:
 

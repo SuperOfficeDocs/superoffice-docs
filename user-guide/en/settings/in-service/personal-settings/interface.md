@@ -35,4 +35,4 @@ In the **Interface** tab in the **Edit users** screen, you can edit the followin
 
 * **Show checkboxes to the left in lists**: If you check here, checkboxes are displayed on the left of lists instead of on the right, in, for example, the **Result** section of the search screen. This does not apply to custom checkboxes.
 
-* **Show messages as plain text**: If you check here, the content of messages is shown as plain text. This means, for instance, that images and formatting are not shown.
+* **Show messages as plain text**: If you check here, the content of messages is shown as plain text. Images and formatting are not shown.

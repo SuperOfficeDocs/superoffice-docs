@@ -9,14 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Send a test email
+# Send a test email for email mailings and form responses
 
-> [!NOTE]
-> This topic is only relevant for email mailings and form responses (not for documents or SMS).
-
-When you create a new mailing, you can also do a few tests to check that the mailing is working properly and that the layout looks OK.
-
-In the **Content** step you can send a test email.
+When you create a new mailing, you can also do a few tests to check that the mailing is working properly and that the layout looks OK. In the **Content** step you can send a test email. This is not relevant for document and SMS.
 
 1. Go to the **Content** step.
 2. Click the **Send test** button in the lower left corner.
@@ -27,7 +22,7 @@ In the **Content** step you can send a test email.
 
 When you are testing a mailing, it is important to check the following:
 
-* That template variables are replaced with customer data. This means, for example, that you see "Hi John" and not "Hi **\[\[customer.firstname\]\]**".
+* That template variables are replaced with customer data. For example, you see "Hi John" and not "Hi **\[\[customer.firstname\]\]**".
 * That links work and point to the correct pages.
 * That clicks on links are registered in SuperOffice Marketing.
 * That the opening of messages is registered in SuperOffice Marketing.

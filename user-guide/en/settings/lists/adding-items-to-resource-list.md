@@ -11,7 +11,7 @@ language: en
 
 # Add items to the General - Resource list
 
-When you add an item to the **General - Resource** list, the **Edit List Item** dialog is not the same as described under [Add items].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the list items are resources:
 
@@ -30,7 +30,3 @@ When you add an item to the **General - Resource** list, the **Edit List Item** 
 4. Optionally, type in a description of the resource in the **Description** field.
 
 5. [!include[Save or cancel](../../includes/save-or-cancel.md)]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->

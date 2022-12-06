@@ -72,7 +72,7 @@ From the **Categories** screen, it is also possible to search for requests in a 
 
 1. Select ![icon][img2] **System settings** > **Categories**.
 
-2. Point at the category in which you want to search, to make the icons appear to the right.
+2. Point at the category that you want to search, to make the icons appear to the right.
 
     > [!TIP]
     > If the category is a subcategory, you first need to click the plus sign to the left of the parent category to display the associated subcategories.
@@ -115,7 +115,7 @@ Under the list, you can click the ![icon][img1] menu button to access the follow
 
 ### Preview
 
-This section of the screen displays the contents of the request selected under **Result**. Here you have the same options as described under [Process requests][6].
+This section of the screen displays the contents of the request selected under **Result**. You have the same options as when [processing requests][6].
 
 If the preview section is not visible, click the ![icon][img1] menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
 

@@ -47,8 +47,6 @@ To access these, do as follows:
 
 ## Create a new email template
 
-To create a new email template from scratch:
-
 1. Go to the **Message templates** tab.
 2. If required, click **Add folder** to create a folder for the template.
 3. Click **Add email template**. The **Edit template** screen displays.
@@ -62,8 +60,6 @@ To create a new email template from scratch:
 11. Click **OK** when you are done. The new template displays in the templates list.
 
 ## Create a new SMS template
-
-To create a new SMS template from scratch:
 
 1. Go to the **Message templates** tab.
 
@@ -82,7 +78,7 @@ To create a new SMS template from scratch:
 3. Select **Copy to template**.
 4. In the **Edit template** screen, enter a descriptive name for the template in the **Name** field.
 5. If required, click **Folder** to select a folder for the template.
-6. Make any necessary changes (as described above), and click **OK**.
+6. Make any necessary changes and click **OK**.
 
 ## Create a template based on existing template (copy)
 
@@ -90,7 +86,7 @@ To create a new SMS template from scratch:
 2. Click the ![icon][img1] menu button next to the template you want to use.
 3. Select **Make copy**.
 4. In the **Edit template** screen, enter a descriptive name for the template in the **Name** field.
-5. Make any necessary changes (as described above), and click **OK**.
+5. Make any necessary changes and click **OK**.
 
 ## Import a message template
 

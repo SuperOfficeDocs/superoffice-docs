@@ -8,10 +8,10 @@ keywords: Settings and maintenance
 so.topic: help
 language: en
 ---
-
+ 
 # Add items to the General - Currency list
 
-When you add an item to the **General - Currency** list, the **Edit list item** dialog is not the same as described under [Add items][1].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the items are currencies:
 
@@ -33,8 +33,3 @@ When you add an item to the **General - Currency** list, the **Edit list item** 
 
     > [!NOTE]
     > You must enable currencies and set the default currency in the **Preferences** screen (in the **System** group).
-
-<!-- Referenced links -->
-[1]: adding-items.md
-
-<!-- Referenced images -->

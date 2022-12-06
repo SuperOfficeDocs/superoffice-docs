@@ -13,7 +13,7 @@ language: en
 
 # Add a project type
 
-When you add an item to the **Project - Type, status** list, the **Edit list item** dialog is not the same as described under [Add items][1].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the list items are project types:
 
@@ -35,7 +35,6 @@ When you add an item to the **Project - Type, status** list, the **Edit list ite
 7. Click **Save**. The project type is added as a separate item in the **Items** list. Repeat this procedure to add more project types.
 
 <!-- Referenced links -->
-[1]: ../../settings/lists/adding-items.md
 [2]: ../../project/screen/project-status-admin.md
 [3]: ../../project/project-guide/index.md
 

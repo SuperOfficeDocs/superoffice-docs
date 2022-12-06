@@ -31,7 +31,7 @@ The main section contains the following essential information about the document
 Click the arrow ![icon][img1] next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher][6].
 
 > [!NOTE]
-> The templates may have been created in various programs, for example, Word or Excel, so when you [create a document][5], the template is opened in the program it was created in. This means, for example, that DOCX files will open in Word.
+> The templates may have been created in various programs, for example, Word or Excel, so when you [create a document][5], the template is opened in the program it was created in. For example, DOCX files will open in Word.
 
 ### Company
 
@@ -47,7 +47,7 @@ Enter the name of the project that the document is linked to. You can search dir
 
 ### Sale
 
-Here you enter the name of the sale, if any, that the document is linked to. You can search directly from this field.
+Enter the name of the sale (if any) that the document is linked to. You can search directly from this field.
 
 ### Type subject here
 

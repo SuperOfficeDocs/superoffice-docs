@@ -17,16 +17,12 @@ language: en
 
 ## Using form templates
 
-To access form templates:
-
 1. Select the **Form templates** tab.
 2. Click **All templates**.
 3. Click the ![icon][img1] menu button next to the template you want to use.
 4. Select **Copy to new form**. The template opens in the **Edit form** dialog. See [Create a new form][1].
 
-## Create a new form template
-
-To create a new form template from scratch:
+## Create a new form template from scratch
 
 1. Go to the **Form templates** tab.
 2. If required, click **Add folder** to create a folder for the template.

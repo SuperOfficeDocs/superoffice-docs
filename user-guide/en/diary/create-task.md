@@ -13,7 +13,7 @@ language: en
 
 1. Select **New** > **Task** on the [top bar][2].
 
-2. In the **Task** dialog, specify the task details as described under [The dialog for follow-ups][1].
+2. In the **Task** dialog, [specify the task details][1].
 
 When you create a new task, no time is displayed in the **Start** and **Due** fields. Today's date is inserted automatically, but you can change it to the required date. The date indicates the deadline for the task.
 

@@ -17,11 +17,11 @@ Participants who are invited to a follow-up will receive a notification on the T
 
 ![ Receive invitations -screenshot][img2]
 
-The dialog is divided into two:
+The [The Dialog for follow-ups][1] is divided into two:
 
 * At the top is a list of your invitations, with status and icons.
 
-* Below is more detailed information about the invitations you have selected in the top section. This includes a full description of the invitation, the date and other complementary details. The fields in this section are described in detail under [The Dialog for follow-ups][1].
+* Below is more detailed information about the invitations you have selected in the top section. This includes a full description of the invitation, the date and other complementary details.
 
 ## Icons for follow-ups
 
@@ -78,7 +78,7 @@ Click **Close** to close the dialog.
 
 * If you accept an invitation and subsequently open the dialog for follow-ups, you cannot edit any information about the follow-up except for the **Priority**, **Completed** and **Alarm** fields. Other changes can be made only by the person who sent the invitation.
 
-* If you assign a follow-up to another user (change owner), and the recipient declines it, this works as described under [Receive responses to invitations][4].
+* If you assign a follow-up to another user (change owner), and the recipient declines it, this works as when you [handle responses to invitations][4].
 
 * If you close the **Invitations** dialog without accepting or declining the invitation, the follow-up remains there and an eye icon ![icon][img7] is displayed next to your name in the **Appointment**, **Task** or **Phone Call** dialog to show that you have seen it, but not made a decision.
 

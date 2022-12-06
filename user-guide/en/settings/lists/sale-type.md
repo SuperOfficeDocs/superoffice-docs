@@ -13,7 +13,7 @@ language: en
 
 [!include[Must be admin](../../includes/req-admin.md)]
 
-When you add an item to the **Sale – Type, Stages, Quote** list, the **Edit list item** dialog is not the same as described under [Add items][2].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 > [!NOTE]
 > A quote belongs to a sale, and all sales have a sale type. In each sale type, you can define many of the properties of a quote, such as attachments, settings for approval, use of alternatives and templates.

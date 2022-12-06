@@ -22,7 +22,7 @@ This screen comprises the following sections:
 * The ![icon][img1] **Actions** button gives access to tasks associated with contacts.
 * The **Requests** tab contains the requests associated with this company. [Open a request][2] by double-clicking it.
 * The **Contacts** tab contains the contacts associated with this company. [Open a contact][3] by double-clicking the appropriate row.
-* The **Info** tab contains an overview of the data registered for the active company. The contents of the fields are described in detail under [Create company][4].
+* The **Info** tab contains an overview of [data registered for the active company][4].
 
 ## Company header
 

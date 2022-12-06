@@ -21,7 +21,7 @@ This screen comprises the following sections:
 * At the top of the screen, the contact header contains basic information about the contact.
 * The ![icon][img1] **Actions** button gives access to tasks associated with contacts.
 * The **Requests** tab contains the requests associated with the contact in question.
-* The **Info** tab contains an overview of the data registered for the contact in question. The contents of the fields are described in detail under [Create contacts][2].
+* The **Info** tab contains an overview of the [data registered for the contact in question][2].
 
 ## Contact header
 

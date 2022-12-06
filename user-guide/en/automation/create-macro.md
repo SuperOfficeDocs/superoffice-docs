@@ -44,7 +44,9 @@ We will now create a macro based on the example above.
 
 9. Click **OK** when you are done.
 
-Some of the more advanced macro functions are described in [Triggers][1].
+## Related content
+
+* [Learn more about advanced macro functions and triggers][1]
 
 <!-- Referenced links -->
 [1]: trigger.md
