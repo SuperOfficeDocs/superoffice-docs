@@ -21,9 +21,9 @@ You move between the main sections of SuperOffice CRM and Service using the Navi
 | Button | Description | Read more |
 |:-:|---|---|
 | ![icon][img3] |Opens the **Dashboard** screen, containing reports and charts of your SuperOffice data.| [Dashboard][1] |
-| ![icon][img4] | Opens the **Company** screen. This is your window to the database containing all the companies you are in contact with. | [Companies][2] |
-| ![icon][img5] | Opens the **Contact** screen. This is your window to the database containing all your contacts. | [Contact][3] |
-| ![icon][img6] | Opens the **Diary** screen. This is a kind of advanced filofax. |  [Diary][4] |
+| ![icon][img4] | Opens the **Company** screen, showing all companies you are in contact with. | [Companies][2] |
+| ![icon][img5] | Opens the **Contact** screen, containing all your contacts. | [Contact][3] |
+| ![icon][img6] | Opens the **Diary** screen, a kind of advanced filofax. |  [Diary][4] |
 | ![icon][img7] | Opens the **Sale** screen, containing information about all the sales. | [Sale][5] |
 | ![icon][img8] | Opens the **Project** screen, containing information about different projects. | [Project][6] |
 | ![icon][img9] | Opens the **Selection** screen, where you can enter companies, contacts, projects, sales, documents and follow-ups that you work with frequently into separate selections. Selections can, among other things, be used for mailings. | [Selection][7] |
@@ -39,7 +39,7 @@ You move between the main sections of SuperOffice CRM and Service using the Navi
 | Button | Description | Read more |
 |:-:|---|---|
 | ![icon][img3] | **Dashboard**: The dashboard provides you with an overview that can be tailored to your needs. | [Dashboard][37] |
-| ![icon][img33] | **Requests**: This is where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. | [Requests][34] |
+| ![icon][img33] | **Requests**: Where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. | [Requests][34] |
 | ![icon][img34] | **Customers**: Here you can search for and create companies and contacts. | [Customers][31] |
 | ![icon][img35] | **Selections**: You use selections to save a set of records, such as a set of requests or contacts that you want to work with later on and elsewhere in the system. | [Selections][32] |
 | ![icon][img36] | **Knowledge Base**: The knowledge base gives request handlers access to saved data in a single location, which makes it easier to acquire and organise information for the customer. Among other things, it contains FAQs and reply templates. [Knowledge Base][35] |

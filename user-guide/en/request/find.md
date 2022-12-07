@@ -37,7 +37,7 @@ The simplest way to search for requests is to use the predefined searches availa
     4. Click **OK**.
     </details>
 
-* **Own open requests**: Shows requests that belong to you and which have the **Open** status. In other words, this list contains the requests that it is your responsibility to deal with, and this is therefore the screen you will be working in most often.
+* **Own open requests**: Shows requests that belong to you and which have the **Open** status. This list contains the requests that you are responsible for, and is therefore the screen you will be working in most often.
 
 * **Get next request in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to. [How to set up Get next request in queue][5].
 

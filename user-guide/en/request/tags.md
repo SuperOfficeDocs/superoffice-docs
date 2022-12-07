@@ -32,7 +32,7 @@ To add or remove tags in multiple requests:
 If you have the necessary functional right, you can also create new tags. In a tag field in a request or in the [quick search field][2], type a tag name you want to create. If the tag already exists, it will appear in the list. If not, click the message below the field to create the tag.
 
 > [!NOTE]
-> Adding and deleting tags will be a functional right set by the administrator. This is to facilitate a more efficient tag system, and to avoid duplicate tags for the same request. Administrators can also add tags in the **Tag** list in the **Lists** screen in SuperOffice Settings and maintenance.
+> Adding and deleting tags is a functional right set by the administrator to facilitate a more efficient tag system, and to avoid duplicate tags for the same request. Administrators can also add tags in the **Tag** list in the **Lists** screen in SuperOffice Settings and maintenance.
 
 ## Searching for tags
 

@@ -145,7 +145,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
         * Check **Always create follow-up? Do not show this dialog again** if, in future, you always want to create the suggested follow-up. The dialog for follow-ups will then open automatically next time.
 
     > [!NOTE]
-    > The **Sales guide** dialog opens because **Automatically suggest this follow-up** is set for the **Contract meeting** follow-up. This is done in SuperOffice Settings and maintenance. You can choose to not have this dialog appear, so that the next follow-up is suggested automatically.
+    > The **Sales guide** dialog opens because **Automatically suggest this follow-up** is set for the **Contract meeting** follow-up in SuperOffice Settings and maintenance. You can choose to not have this dialog appear, so that the next follow-up is suggested automatically.
 
 3. You want to create the **Contract meeting** appointment from the **Sales guide** dialog.
 

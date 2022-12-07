@@ -19,7 +19,7 @@ In the request list, do as follows:
 2. Click the ![icon][img1] menu button in the lower left corner of the request list.
 3. Select **Batch management** and **Reply to customers**.
 4. In the next screen, you have the following options:
-    * **Send copy to customer (only external requests)**: If you enable this option, then the message will also be sent by email to the contacts linked to the selected external requests.
+    * **Send copy to customer (only external requests)**: If enabled, then the message will also be sent by email to the contacts linked to the selected external requests.
     * **Close request**: Check this box to close all selected requests in one operation.
     * **Access level**: The access level for the message you are adding. If you select **External**, the message will be visible on the selected requests in SuperOffice Customer Centre.
     * Write your message in the text area in the middle of the screen.

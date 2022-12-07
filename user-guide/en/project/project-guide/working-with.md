@@ -100,7 +100,7 @@ You record a new project and select the **Conference** project type, which is li
     3. Click **Yes** to move the project to the next status.
 
     > [!NOTE]
-    > The **Project guide - move the project to the next status** dialog opens because that is what is defined for the project type. This is done in SuperOffice Settings and maintenance.
+    > The **Project guide - move the project to the next status** dialog opens because that is what is defined for the project type in SuperOffice Settings and maintenance.
 
 ### The In progress status
 

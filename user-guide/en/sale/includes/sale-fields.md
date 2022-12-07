@@ -29,7 +29,7 @@
     > [!NOTE]
     > When you change a stage, for example from **First meeting** to **Quotation**, the first stage in the **Sales guide** section tab is marked as completed, with a tick.
 
-11. To the right of the **Stage** field is a percentage that indicates the probability of the sale being successful at this stage. This is linked to the stage and is specified in the SuperOffice Settings and maintenance. You can however change this manually in SuperOffice CRM if you wish.
+11. To the right of the **Stage** field is a percentage that indicates the probability of the sale being successful at this stage. It is linked to the stage and is specified in the SuperOffice Settings and maintenance. You can however change this manually in SuperOffice CRM if you wish.
 
 12. You can check the **Stalled** box to indicate that the sale has [stalled][2]. For example, if the customer has decided to wait until next year before purchasing.
 

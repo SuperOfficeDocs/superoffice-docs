@@ -83,7 +83,7 @@ In the **Company** screen you can enter information about companies on several l
 
 ## Duplicates
 
-If you try to enter a company that is similar to one that is already in SuperOffice CRM, the **Duplicates** dialog appears, asking you if you want to continue working with the current record or go to one of the records listed at the bottom of the dialog. This is to prevent you from unintentionally registering an existing company. See [Duplicates][2].
+If you try to enter a company that is similar to one that is already in SuperOffice CRM, the **Duplicates** dialog appears, to prevent you from [unintentionally registering an existing company][2]. Choose if you want to continue working with the current record or go to one of the records listed at the bottom of the dialog.
 
 [!include[Tip](../includes/tip-open-website.md)]
 

@@ -22,7 +22,9 @@ language: en
 
     ![Relations dialog -screenshot][img2]
 
-1. You must specify the required company in the **Company** list box under **Active part**. This is mandatory. Specify it either by clicking the arrow and selecting the required company in the displayed list box, by typing in the whole or the beginning of the company name.
+1. You must specify the required company in the **Company** list box under **Active part**. This is mandatory.
+
+    Specify it either by clicking the arrow and selecting the required company in the displayed list box, by typing in the whole or the beginning of the company name.
 
 1. Optionally, specify any contact in the **Contact** list box under **Active part**. For example, if a contact in Company A is a former colleague of a contact in Company B.
 

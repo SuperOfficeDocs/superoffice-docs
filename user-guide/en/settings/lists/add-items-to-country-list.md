@@ -28,7 +28,7 @@ language: en
 
 5. For each of the next three fields, click the arrow ( ![icon][img1] ) and select the required address format from the list. The same format will usually apply for all three fields, but, for some countries, it may be useful to vary the formats, depending on what you are using the address for:
     * **Visual address format**:
-        This is the usual format as it appears on screen in the **Company** screen in SuperOffice CRM. As a rule, it is sufficient to select a format only here.
+        The usual format as it appears on screen in the **Company** screen in SuperOffice CRM. As a rule, it is sufficient to select a format only here.
     * **Printed address format (local)** and **(intl)**:
         Some countries use different address formats for letters depending on if they are posted at home or abroad. Specify the format to be used in each of these cases in these fields.
 
@@ -41,7 +41,7 @@ language: en
 
 8. In the **This country's prefix** field, specify the number used to dial the selected country from another country, for example *47* to dial Norway.
 
-9. Enter the international dialling prefix for the country you are in in the **International prefix** field. As a rule this is *00*.
+9. Enter the international dialling prefix for the country you are in in the **International prefix** field. As a rule, this is *00*.
 
 10. Optionally, type in a description of the country in the **Description** field.
 

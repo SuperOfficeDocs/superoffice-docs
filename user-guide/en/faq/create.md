@@ -28,7 +28,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 4. In the **Position** field, select a number for the entry's position in the sort order of the folder it belongs in. 1 means the top of the list.
 
-5. In the **Folder** field, select which folder you want to place the entry in. This is relevant if you have a [folder structure for FAQ entries][2].
+5. In the **Folder** field, select which folder you want to place the entry in (if you have a [folder structure for FAQ entries][2]).
 
 6. In the **Access** field, select who is to have access to the FAQ entry in question:
 

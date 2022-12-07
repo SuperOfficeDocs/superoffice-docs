@@ -19,7 +19,7 @@ These are two different purposes for obtaining a person's consent. In SuperOffic
 
 In the **Consent** tab in the **Privacy** screen (![icon][img1]) you can [create and edit purposes][2].
 
-For each purpose, a legal basis and source of consent must be documented (this is done during import or in SuperOffice CRM for individual or multiple users).
+For each purpose, a legal basis and source of consent must be documented (during import or in SuperOffice CRM for individual or multiple users).
 
 ## Legal basis
 

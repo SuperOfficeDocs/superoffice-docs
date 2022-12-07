@@ -24,9 +24,9 @@ If you click the down arrow to the right of **Advanced settings**, the following
 
 | Option | Description |
 |---|---|
-| Enable debug logging | This option should be activated in connection with debugging if requested by customer support at SuperOffice. |
-| View log file | Click this button to open the log file for SuperOffice Mail Link. This is also relevant in connection with debugging. |
-| URL | This field contains the address of the SuperOffice client where emails are archived. This is only relevant for SuperOffice CRM for Web and SuperOffice Service. |
+| Enable debug logging | This option should be activated when debugging if requested by customer support at SuperOffice. |
+| View log file | Open the log file for SuperOffice Mail Link. Also relevant when debugging. |
+| URL | This field contains the address of the SuperOffice client where emails are archived. Relevant only for SuperOffice CRM for Web and SuperOffice Service. |
 
 <!-- Referenced links -->
 [2]: ../manage-senders.md

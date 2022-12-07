@@ -39,21 +39,21 @@ In the **Settings** tab, set the following parameters:
 
 4. Set these options as necessary:
 
-    * **Calculate reply time and time-to-close based on the priority's timeframe**: If you enable this option, then the values for average reply time and time-to-close will be based on the priority's timeframe for the request. For example, a request has priority **Medium**, and the timeframe for this priority is Monday-Friday from 9am to 5pm. A request was created on Friday at 4pm and closed on Monday at 10am. The raw time-to-close for this request is then 64 hours, but the real time-to-close is only 2 hours. With this option enabled, 2 hours is the value used for the calculations.
+    * **Calculate reply time and time-to-close based on the priority's timeframe**: If enabled, the values for average reply time and time-to-close will be based on the priority's timeframe for the request. For example, a request has priority **Medium**, and the timeframe for this priority is Monday-Friday from 9am to 5pm. A request was created on Friday at 4pm and closed on Monday at 10am. The raw time-to-close for this request is then 64 hours, but the real time-to-close is only 2 hours. With this option enabled, 2 hours is the value used for the calculations.
 
-    * **Show time interval in minutes**: If you enable this option, then the calculated time intervals are displayed as number of minutes. This is convenient if you would like to export the data and use them to display a graph.
+    * **Show time interval in minutes**: If enabled, the calculated time intervals are displayed as number of minutes. This is convenient if you would like to export the data and use them to display a graph.
 
-    * **Display dates as YYYY-MM-DD**: If you enable this option, then dates will be written in this format. This can be useful if you want to export the data to another program.
+    * **Display dates as YYYY-MM-DD**: If enabled, dates will be written in this format. This can be useful if you want to export the data to another program.
 
-    * **Hide empty rows**: If you enable this option, then rows in the calculated dataset containing only nulls/zeros will be ignored.
+    * **Hide empty rows**: If enabled, rows in the calculated dataset containing only nulls/zeros will be ignored.
 
-    * **Hide empty columns**: If you enable this option, then columns in the calculated dataset containing only nulls/zeros will be ignored.
+    * **Hide empty columns**: If enabled, columns in the calculated dataset containing only nulls/zeros will be ignored. Applies to the entire spreadsheet.
 
-    * **Hide empty bars**: If you enable this option, then empty bars in the resulting graph will be hidden. This is not the same option as Hide empty columns, since it applies to charts, while Hide empty columns applies to the entire spreadsheet.
+    * **Hide empty bars**: If enabled, empty bars are hidden in the resulting graph. Applies to charts.
 
-    * **Show sum per week**: If you enable this option, then a calculated sum per week, calculated as 7 days from the start date, will be displayed.
+    * **Show sum per week**: If enabled, a calculated sum per week, calculated as 7 days from the start date, will be displayed.
 
-    * **Show sum per month**: If you enable this option, then a calculated sum per month will be displayed. This statistic applies to full calendar months and not the number of days, which can vary.
+    * **Show sum per month**: If enabled, a calculated sum per month will be displayed. This statistic applies to full calendar months and not the number of days, which can vary.
 
 5. **Display format**: Here you select how you want to display the data. The different formats are:
 

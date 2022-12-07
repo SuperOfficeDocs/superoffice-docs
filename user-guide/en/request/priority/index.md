@@ -42,7 +42,7 @@ Since the priority is determined in this order, a request from a contact with hi
 
 In SuperOffice Service you can define as many priorities as you want. For each priority you can define escalation levels, so that the system forwards the enquiry further through the organisation if it has not been read or dealt with within a specified time.
 
-An example of this is user-support and SLA agreements which specify that the supplier must begin troubleshooting within, say, 2 hours. You can then define operations which cause the request to be escalated and assigned to new request handlers if it has not been read or processed within this time. You can define as many operations as you want, and also be notified by mobile phone.
+For example, user-support and SLA agreements specify that the supplier must begin troubleshooting within, say, 2 hours. You can then define operations that cause the request to be escalated and assigned to new request handlers if it has not been read or processed within this time. You can define as many operations as you want, and also be notified by mobile phone.
 
 ## Accessibility
 

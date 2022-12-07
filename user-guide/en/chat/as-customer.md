@@ -15,7 +15,7 @@ From the customer's point of view, the chat function works as follows:
 
 1. The customer clicks the chat icon on a web page.
 
-2. The customer enters name, email address and any other required information (unless this is not required).
+2. The customer enters name, email address and any other required information.
 
     > [!NOTE]
     > SuperOffice will check and validate the email address to make sure it is an existing domain name. Basic email address syntax will also be checked.

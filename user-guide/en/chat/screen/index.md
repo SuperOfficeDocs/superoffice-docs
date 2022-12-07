@@ -13,8 +13,8 @@ language: en
 
 The **Chat** screen consists of the following tabs:
 
-* **Dashboard**: This tab displays statistics for all or selected chat channels. Incoming chats and ongoing chat sessions are listed here.
-* **Chats**: This is where the agent chats with customers.
+* **Dashboard**: Displays statistics for all or selected chat channels. Incoming chats and ongoing chat sessions are listed here.
+* **Chats**: Where the agent chats with customers.
 
 ## The Dashboard tab
 

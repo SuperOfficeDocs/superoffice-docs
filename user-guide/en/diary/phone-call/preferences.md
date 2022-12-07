@@ -36,7 +36,7 @@ If you have installed IP phone, Skype or Facetime, you can make phone calls from
 
 The available parameters are as follows:
 
-**IP phone**: tel:%p (this is the default value)
+**IP phone**: tel:%p (default value)
 **Skype**: callto:%p
 **Facetime**: facetime:%p
 

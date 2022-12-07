@@ -22,7 +22,7 @@ To create an email from the inbox in SuperOffice CRM:
 
 ## Entering information in the New email dialog
 
-If you create a new email based on a template, the **New email** dialog will in some cases display. This is due to a setting in the template to allow you to add additional information to the email. This is especially relevant when using templates with template variables for sales and projects, where you must select the relevant sale or project for the variables to be filled in when you send the email.
+If you create a new email based on a template, the **New email** dialog will in some cases display because a setting in the template allows you to add additional information to the email. This is especially relevant when using templates with template variables for sales and projects, where you must select the relevant sale or project for the variables to be filled in when you send the email.
 
 Fill in the fields below, click **Create** and compose the email as described above.
 

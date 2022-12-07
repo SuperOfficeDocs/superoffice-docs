@@ -67,7 +67,7 @@ Click ![icon][img1] on a message to access additional options for the message:
 * **Forward**: Click here to [forward the message][10].
 * **Email header**: Click here to view the email header.
 * **Show**: Click here to view the message in a new window/tab.
-* **Split message**: Click here to [split the message][11] and create a new request. This is useful if a message contains two issues that should be handled by different departments, for instance a technical question and an invoice question.
+* **Split message**: Click here to [split the message][11] and create a new request. Useful if a message contains two issues that should be handled by different departments, for instance a technical question and an invoice question.
 * **Print message**: Click here to print the message.
 
 At the bottom of the **Messages** tab, you can send replies and forward messages, and you can also add comments as internal messages.

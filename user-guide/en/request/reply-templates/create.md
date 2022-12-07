@@ -44,6 +44,7 @@ To create a new reply template:
     * **Spell check**: Click here to spell check the message in the language specified in the **Language** list.
 
 8. In the **HTML text** tab, enter the following information:
+
     * **Include HTML text**: Check this option if you want to include the text underneath in an HTML version of the email. This is used for customers with email programs that can read HTML (such as Outlook). Your message will often come across more clearly if you send the email as HTML, since you can use images and colours in the text.
     * In the large field in the middle of the screen, enter the HTML-formatted text you want to include in the message to the customer. Remember that images linked to here must be on a server accessible by recipients of the email. For example, you can add images that have been uploaded to **External documents**.
 

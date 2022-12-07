@@ -23,7 +23,7 @@
 
 12. In the **VAT No.** field, type in the company's VAT number or similar number.
 
-13. In the **Business** field, select from a list of different predefined types of business. Click the arrow and choose the business that best matches the company you are creating. This is a mandatory field and must therefore be filled in.
+13. In the **Business** field, select from a list of different predefined types of business. Click the arrow and choose the business that best matches the company you are creating. This is mandatory.
 
 14. In the **Main contact** field, select the contact who should be the main contact for this client. You need to add contacts to the company first.
 

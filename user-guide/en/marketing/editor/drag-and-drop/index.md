@@ -91,7 +91,7 @@ When you click a section in a message, you get access to various functions for t
 | ![icon][img6] | Move | Click and drag to move the section. |
 | ![icon][img7] | Delete | Click here to delete the section. |
 | ![icon][img8] | Duplicate | Click here to create a copy of the section. |
-| ![icon][img9] | Save block | Click here to save the selected section as a block. This is a smart way to reuse content (like headers and footers) across messages. |
+| ![icon][img9] | Save block | Click here to save the selected section as a block. Lets you reuse content (like headers and footers) across messages. |
 
 ## What would you like to do now?
 

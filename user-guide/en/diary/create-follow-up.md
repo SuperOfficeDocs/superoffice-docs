@@ -50,7 +50,9 @@ When you have opened the diary of an associate, you can create appointments for 
 
 ## <a id="overlap" />Create overlapping follow-ups
 
-You can create follow-ups that overlap each other. When you try to record an overlapping follow-up, the dialog for follow-ups will have an exclamation mark ![icon][img2] next to the start and stop fields and you will also be offered a suggestion for the first vacant time slot. This is intended to be a reminder to you, since you can still record the follow-up. Click the proposed time to the right of **First available** if you want to select this time instead.
+Follow-ups may overlap each other. When you try to record an overlapping follow-up, the dialog has an exclamation mark ![icon][img2] next to the start and stop fields as a reminder (you can still record the follow-up).
+
+A suggestion for the first vacant time slot is shown. Click the proposed time to the right of **First available** if you want to select this time instead.
 
 Overlapping follow-ups are displayed in the **Diary** screen so that you can see part of each follow-up.
 

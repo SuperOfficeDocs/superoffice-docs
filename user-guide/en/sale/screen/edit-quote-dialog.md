@@ -11,8 +11,6 @@ language: en
 
 # The Edit quote dialog
 
-This is a description of the **Edit quote** dialog.
-
 ## The top section of the dialog
 
 * [Click to create quote document][1].

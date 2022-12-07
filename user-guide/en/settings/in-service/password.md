@@ -32,7 +32,7 @@ The **Password** tab in the **System** screen contains the following options und
 The **Password** tab in the **System** screen contains the following options under **Customer passwords**:
 
 * **Hide customer password in request management**: If you check here, when displaying contacts, passwords are shown as dots.
-* **Require complex password when customer password is set**: If this option is checked, contacts' passwords must meet the minimum requirements set out below.
+* **Require complex password when customer password is set**: If checked, contacts' passwords must meet the minimum requirements set out below.
 * **Minimum number of characters in password**: The smallest number of characters permitted in a password.
 * **Minimum number of digits in password**: The smallest number of digits (0-9) permitted in a password.
 * **Minimum number of lowercase letters in password**: The smallest number of lowercase letters permitted in a password.

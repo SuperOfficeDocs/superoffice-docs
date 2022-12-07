@@ -24,8 +24,8 @@ To test the settings, enter a mobile phone number and some text, and then click 
 ## Fields available for Original Intelecom <!-- onsite-->
 
 * **SMS endpoint**: This field should contain code that allows SuperOffice Service to recognise an incoming SMS.
-* **Use webservice**: If you check here, SMSes will be sent via a web service instead of by email. This is the preferred method since it offers more functionality. It requires that any firewall allows outgoing traffic to SMS gateways.
-* **Delivery report**: If you check this option, delivery confirmation will be supported for SMSes in SuperOffice Service. This means you can see if an SMS was delivered to the relevant mobile phone. This also requires configuration from the provider's side.
+* **Use webservice**: If checked, SMSes are sent via a web service instead of by email. This is the preferred method since it offers more functionality. It requires that any firewall allows outgoing traffic to SMS gateways.
+* **Delivery report**: If checked, delivery confirmation will be supported for SMSes in SuperOffice Service. This means you can see if an SMS was delivered to the relevant mobile phone. This also requires configuration from the provider's side.
 * **Service ID**: Service ID for the SMS service. Provided by SuperOffice AS.
 * **User name**: Here you enter the user name provided to you by Intelecom.
 * **Password**: Here you enter the password provided to you by Intelecom.

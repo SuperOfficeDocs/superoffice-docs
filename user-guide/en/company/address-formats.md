@@ -57,7 +57,7 @@ This address format is used for Spain.
 
 ## Rest of Europe
 
-This is the address format used when you create a company in Norway, for example. This format will be used for most European countries, except the UK, Germany and Spain, which have their own address formats.
+This address format is used when you create a company in Norway and most European countries, except the UK, Germany and Spain, which have their own address formats.
 
 | Field | Description |
 |---|---|

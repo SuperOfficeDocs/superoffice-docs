@@ -23,7 +23,7 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
-This is how to fill out the fields in the **Edit list items** dialog when the items are URL addresses (pages on the Internet or saved HTML files):
+## How to fill out fields when the items are URL addresses
 
 1. Enter the required name of the item in the **Name** field. This name is displayed when you add the URL address in SuperOffice CRM.
 
