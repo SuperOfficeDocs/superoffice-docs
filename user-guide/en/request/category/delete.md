@@ -10,9 +10,7 @@ so.user: admin
 language: en
 ---
 
-# Delete categories
-
-To delete a category:
+# Delete category
 
 1. Go to the **Categories** screen.
 

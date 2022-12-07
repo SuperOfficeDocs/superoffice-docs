@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Edit contact
-
-To edit information recorded for a contact, do as follows:
+# Edit contact info
 
 [!include[Go to company](../includes/goto-company.md)]
 

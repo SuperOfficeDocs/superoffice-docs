@@ -24,7 +24,7 @@ Phone preferences are handled differently in the Windows and Web clients. Learn 
 
 To use the telephone functions in SuperOffice you may need to install TAPI software.
 
-Suggested suppliers include:
+Suggested suppliers:
 
 * Standard Windows dialing software
 * Panasonic TSP

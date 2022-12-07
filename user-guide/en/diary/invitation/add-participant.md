@@ -9,11 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Add participants to follow-ups
+# Add participants and resources to follow-ups
 
 When you create a follow-up that concerns other people, you can add them as participants to the follow-up. You can also book your organisation’s conference rooms and equipment. People who are available as participants are defined in SuperOffice Settings and maintenance.
-
-To book participants and resources:
 
 1. Open the **Appointment**, **Task** or **Phone Call** dialog and enter the required information. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
 

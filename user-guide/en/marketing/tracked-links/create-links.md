@@ -18,7 +18,7 @@ You can track URLs inserted in emails. The **Tracked links** tab is used to admi
 > [!NOTE]
 > You can also create new links while editing the content.
 
-To create a link:
+**Steps:**
 
 1. Select the **Tracked links** tab.
 

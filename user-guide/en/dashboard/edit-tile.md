@@ -11,8 +11,6 @@ language: en
 
 # Edit a tile
 
-To edit an existing tile:
-
 1. Go to the required dashboard.
 
 2. Click the **Task** button, and select **Add tile / Edit layout**.

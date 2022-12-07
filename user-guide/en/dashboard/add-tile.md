@@ -1,7 +1,7 @@
 ---
 uid: help-en-dashboard-tile-add
-title: Dashboard add tiles
-description: Dashboard add tiles
+title:  Add tile to a dashboard
+description: How to add a tile to a dashboard
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: dashboard
@@ -9,9 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Add a tile
-
-To add a tile to a dashboard:
+# Add tile to a dashboard
 
 1. Open the **Dashboard** screen.
 

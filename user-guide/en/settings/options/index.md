@@ -11,9 +11,9 @@ language: en
 
 # Options
 
-In the **Options** screen, you define settings that are valid for the whole system, specifically for freetext searches, time zones, number allocation, labels and reports. Although, for most companies, it will not be necessary to alter the default settings supplied with SuperOffice CRM, if you do need to change them, this is the screen you need to use.
+In the **Options** screen, you define settings that are valid for the whole system, specifically for freetext searches, time zones, number allocation, labels and reports. Most companies do not need to alter the default settings supplied with SuperOffice CRM. However, if you do need to change them, use the **Options** screen.
 
-The **Options** screen is divided into the following tabs:
+## Tabs in the Options screen
 
 | Tab | Description | Read more |
 |---|---|---|

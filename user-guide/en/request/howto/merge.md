@@ -16,7 +16,7 @@ You can merge two or more requests. For example, if multiple contacts in the sam
 > [!NOTE]
 > You can also search for and select requests to merge from the search results screen. Then click ![icon][img1] in the lower left corner and select **Batch management**> **Merge**.
 
-To merge requests:
+**Steps:**
 
 1. [Open one of the requests][1] you want to merge.
 2. Click ![icon][img1] and select **Merge**. A screen opens, showing the fields that must be merged. Now you need to find the request to merge with this one.

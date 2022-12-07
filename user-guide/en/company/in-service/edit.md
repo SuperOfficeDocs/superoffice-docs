@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Edit companies
-
-To edit the information already recorded for a company:
+# Edit company info
 
 1. Open the **Company** screen.
 2. Click the ![icon][img1] **Actions** button and select **Edit company**. The **Company properties** screen appears.

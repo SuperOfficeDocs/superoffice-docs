@@ -13,15 +13,13 @@ language: en
 
 ## How to add customer languages
 
-To create a new customer language:
-
 1. [!include[Go to Options](../includes/open-options.md)]
 
 2. Select the **Customer languages** tab.
 
 3. Click the **New customer language** button. This takes you to the **Customer language properties** screen.
 
-4. In the **Name** field, enter the name of the language. This is the name that appears in list boxes where you can select a language.
+4. In the **Name** field, enter the name of the language to use as label in language-selection fields.
 
 5. In the **Language code** field, enter a short code for the relevant language (or equivalent). The international, two-letter abbreviations are normally used (for example DE, DK, EN, NL, NO and SE).
 

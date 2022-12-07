@@ -60,7 +60,7 @@ In the **Quote attachments** tab you can add documents to be sent to the custome
 > [!NOTE]
 > The documents must first be added as document templates in SuperOffice.
 
-To add quote attachments:
+### Add quote attachment
 
 1. Click **Add**.
 2. In the **Find** dialog, search for the document(s) you want to add. [!include[See search criteria](../../includes/see-search-admin.md)]

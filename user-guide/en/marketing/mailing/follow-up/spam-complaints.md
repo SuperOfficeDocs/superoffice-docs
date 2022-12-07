@@ -22,7 +22,7 @@ People click the spam (or junk) buttons for various reasons. They may for some r
 
 If a recipient is using Mailgun, any email reported as spam will be added to the "suppressed" list. This means that our users can no longer send emails to that person. This means no mailing and no response to ongoing requests, which may lead to serious issues.
 
-To avoid spam complaints, try to look into the following:
+### Checklist to avoid spam complaints
 
 * Is there a specific mailing or mailing type that our subscribers are reacting to?
 * Who reported the mailing as spam?

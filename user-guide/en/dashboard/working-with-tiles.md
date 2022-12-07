@@ -21,7 +21,7 @@ A dashboard can consist of any number of tiles. Each tile contains a graphical o
 
 * Click the data labels (legend) under the tile to hide/show specific data in the tiles. This can be useful for printing or exporting the tiles.
 
-* Click ![icon][img1] in the header of a tile and select **View in full screen** to open the tile in full screen. This is especially useful for tiles with much content.
+* Click ![icon][img1] in the header of a tile and select **View in full screen** to open the tile in full screen. Useful for tiles with much content.
 
 ### Examine underlying data
 

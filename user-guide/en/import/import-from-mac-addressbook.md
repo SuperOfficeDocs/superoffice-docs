@@ -13,8 +13,6 @@ language: en
 
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
-To import your companies into the SuperOffice database:
-
 ## Import companies/contacts from Mac Address book
 
 <!-- NEED complete rewrite to get correct behaviour, need more info from Max/Office integration team.  -->

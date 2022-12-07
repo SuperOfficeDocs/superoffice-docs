@@ -30,7 +30,7 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 ## Edit document properties in the Document dialog
 
-To change document properties, for example, the project the document is linked to, you need to use the **Document** dialog:
+To change document properties, such the project the document is linked to, use the **Document** dialog:
 
 1. [Select the required document][2].
 2. Right-click and select **Document**. If you double-click on the document, it opens directly in the application it was created in.

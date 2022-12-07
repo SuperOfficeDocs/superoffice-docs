@@ -9,11 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Include links you want to track
+# Add tracked links to message
 
 [!include[Requirement](../includes/req-marketing.md)]
-
-To add tracked links to the message:
 
 ## Drag and drop editor
 

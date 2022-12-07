@@ -29,9 +29,7 @@ In addition to the [**Sale** screen][2], sales can be displayed in the following
 
 [!include[ALT](../includes/howto-add-favorite.md)]
 
-## Print a sale
-
-To print information about a sale:
+## Print info about a sale
 
 1. Go to the required sale.
 2. Click the **Task** button and select **Print**.

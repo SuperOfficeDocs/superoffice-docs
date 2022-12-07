@@ -11,8 +11,6 @@ language: en
 
 # Edit ERP connection (Sync Connector)
 
-To edit an existing ERP connection:
-
 1. Go to the **Sync** tab in the **Quote/Sync** screen.
 2. Uncheck the box in the **Active** column for the ERP connection you want to edit.
 3. Double-click the ERP connection.

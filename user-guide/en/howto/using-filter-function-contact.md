@@ -21,8 +21,6 @@ In addition to defining a time period, you can also choose if you want to see al
 
 ## Use the Filter function
 
-To filter the information displayed in the **Activities** and **Sales** section tabs:
-
 1. Go to the **Company**, **Contact**, **Sale** or **Project** screen. (See [Use the Find screen][1].)
 
 2. Select the **Activities** or **Sales** section tab.

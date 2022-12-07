@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# View documents
-
-To display the contents of a document in the knowledge base:
+# View document (knowledge base)
 
 1. Select **Knowledge Base** > **Documents**. This takes you to the **Documents** screen. The documents are in a [folder structure][1] that you can create yourself.
 2. Go to the required folder.

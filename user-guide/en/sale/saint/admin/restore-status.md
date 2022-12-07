@@ -13,8 +13,6 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-To restore a deleted status:
-
 <!-- markdownlint-disable-file MD029 -->
 [!include[Open SAINT](includes/open-saint-select-tab.md)]
 

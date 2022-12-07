@@ -80,7 +80,7 @@ In the **Fields** section you can find all available data fields for the selecte
 * Move fields by clicking ![icon][img4] to the left of a field label and dragging the field to a new position. To move a field to another tab, drag the field to the tab header to open the tab, and then place the field in the open tab.
 * Delete fields by holding the mouse-pointer over a field and clicking ![icon][img2]. Mandatory fields cannot be deleted, and the **Delete** button will not appear for such fields.
 
-Limitations:
+**Limitations:**
 
 * Mandatory fields cannot be deleted. This is defined in [Fields][5] screen.
 * Some tabs, such as **ERP** and **Note**, cannot be edited, since they have specific functions.

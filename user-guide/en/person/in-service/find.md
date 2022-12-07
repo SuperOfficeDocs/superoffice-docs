@@ -17,7 +17,7 @@ For example, you can search for all contacts in all companies with a specific pr
 
 All searches in SuperOffice Service, regardless of what you are searching for, are performed from the same screen.
 
-To find contacts that are registered in the system:
+## How to look up contacts
 
 1. Select **Customers** > **Find contacts**.
 2. [Enter the required search criteria][2] under **Criteria**.

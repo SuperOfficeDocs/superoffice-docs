@@ -9,11 +9,9 @@ so.topic: howto
 language: en
 ---
 
-# Create a script
+# Create or edit a script
 
-In the **Edit script** screen you can edit or create a script. Documentation and examples of the use of CRMScript (EJScript) is available [here][1].
-
-To create or edit a script:
+In the **Edit script** screen, you can edit or create a [CRMScript][1].
 
 1. Go to the **Macros and scripts** tab:
 

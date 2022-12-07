@@ -25,9 +25,7 @@ The privacy confirmation email will normally inform the contact of the following
 
 The email can also contain a link to a customer centre where the contact can manage subscriptions and consent. The link is valid for 21 days by default.
 
-## Send
-
-To send the privacy confirmation email to a contact:
+## Send privacy confirmation email to contact
 
 [!include[Go to Contact screen](../../includes/goto-contact.md)]
 

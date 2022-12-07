@@ -9,14 +9,12 @@ so.topic: help
 language: en
 ---
 
-# Edit items
+# Edit name and/or description of item
 
 You can change the name or description of an item previously set up in Settings and maintenance.
 
 > [!NOTE]
-> The name of the item will be changed wherever it is already in use in SuperOffice CRM. If you want to avoid this, delete the old item instead and create a new one (see [Delete items][1]).
-
-To edit the name and/or description of an item:
+> The name of the item will be changed wherever it is already in use in SuperOffice CRM. If you want to avoid this, [delete the old item][1] instead and create a new one.
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 

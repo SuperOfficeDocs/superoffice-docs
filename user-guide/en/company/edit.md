@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Edit companies
-
-To change information entered for existing companies:
+# Edit company info
 
 [!include[Go to company](../includes/goto-company.md)]
 

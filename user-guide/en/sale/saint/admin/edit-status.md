@@ -15,7 +15,7 @@ language: en
 
 The **Description** tab shows the description you entered when you [created the status][1].
 
-To change the description of an existing status:
+**Steps:**
 
 <!-- markdownlint-disable-file MD029 -->
 [!include[Open SAINT](includes/open-saint-select-tab.md)]

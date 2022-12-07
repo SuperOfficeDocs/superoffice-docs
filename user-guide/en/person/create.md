@@ -11,8 +11,6 @@ language: en
 
 # Create new contact
 
-To create a new contact:
-
 1. Open the **Contact** screen.
 
     * Click **New** on the Top bar and select **Contact**.

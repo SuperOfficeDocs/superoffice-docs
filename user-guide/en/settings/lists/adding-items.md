@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Add items
-
-To add items to both predefined and user-defined lists:
+# Add items to predefined and user-defined lists
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 

@@ -16,17 +16,22 @@ Form submissions with status **Submitted** must be processed manually. This mean
 > [!NOTE]
 > SuperOffice will check and validate the email address entered in the form to make sure it is an existing domain name. Basic email address syntax will also be checked.
 
-To process a submission:
+**Steps:**
 
 1. In SuperOffice Marketing:
     1. Open a form and go to the **Form submissions** tab or go to the **Form submissions** tab (in the main **Marketing** screen).
     2. At the bottom of the list of form submission, deselect all filters except **Submitted**. The list now displays only form submission that must be processed.
 
     In SuperOffice CRM: Go to the **Contact** screen, search for the relevant person and select the **Activities** section tab.
+
 2. Double-click a row.
+
 3. In the **Form submission** window, review the submitted data in the **Data from form** tab.
+
 4. Go to the **Actions** tab to view the actions that are performed on the form data when you process it.
+
 5. In the **Submitter** side panel, you must link the submitter to an existing or new contact in SuperOffice.
+
 6. Click **Process**.
 
 ## Linking the submitter to a SuperOffice contact and company

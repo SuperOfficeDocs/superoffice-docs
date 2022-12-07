@@ -13,7 +13,7 @@ language: en
 
 If a contact has requested to view all information registered on them in SuperOffice, you can go to the **Contact** screen and generate a report containing the personal data of a contact. The report contains all data registered on this contact in SuperOffice, including contact information, interests, subscriptions, consent information and registered activities and communication (follow-ups, documents, requests and mailings).
 
-To generate a personal data report for a contact:
+**Steps:**
 
 [!include[Go to Contact screen](../../includes/goto-contact.md)]
 

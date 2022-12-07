@@ -13,8 +13,6 @@ language: en
 
 To access email, you need to specify some details about your email account. The **Set up email account** screen appears the first time you open your inbox.
 
-To enter the required information in this window:
-
 1. In the **Email account** field, enter the email address of the account you want to use in SuperOffice.
 
 2. If you want to enter information for incoming and outgoing email, click **Advanced settings**. If not, click **Next**. SuperOffice will then try to set up this information for you.

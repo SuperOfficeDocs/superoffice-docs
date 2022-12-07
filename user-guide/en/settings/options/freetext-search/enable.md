@@ -11,8 +11,6 @@ language: en
 
 # Enable freetext search
 
-To enable the freetext search function:
-
 [!include[Go to freetext search tab](../includes/goto-freetext.md)]
 
 1. Check **Enable freetext search**.

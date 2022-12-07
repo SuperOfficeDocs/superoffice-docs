@@ -11,8 +11,6 @@ language: en
 
 # Search for companies
 
-To find companies that are registered in the system:
-
 1. Select **Customers** > **Find company**. This takes you to the **Criteria** screen.
 1. [Enter the required search criteria][1] under **Criteria**.
 1. Click **Search**.

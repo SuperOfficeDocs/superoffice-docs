@@ -13,7 +13,9 @@ language: en
 
 In the **Edit users** screen, you can adjust the settings defined for your user profile and which control your use of SuperOffice Service.
 
-To edit your user settings, select ![icon][img1] > **Settings**. The following tabs are available:
+To edit your user settings, select ![icon][img1] > **Settings**.
+
+## Available tabs
 
 * [User information][1]
 * [Signature][2]

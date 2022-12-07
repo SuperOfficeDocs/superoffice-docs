@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Delete selections
-
-To delete an existing selection:
+# Delete selection
 
 [!include[Open Selections](../includes/goto-selections.md)]
 

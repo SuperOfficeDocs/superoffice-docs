@@ -11,8 +11,6 @@ language: en
 
 # Suggest stopwords
 
-To ask the system to suggest which stopwords to add:
-
 > [!NOTE]
 > You can also choose the stopwords manually. See [Add stopwords][1].
 

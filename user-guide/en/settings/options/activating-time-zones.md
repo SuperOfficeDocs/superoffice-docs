@@ -11,8 +11,6 @@ language: en
 
 # Enable use of time zones
 
-To enable use of time zones in SuperOffice CRM, do as follows:
-
 1. Open the **Options** screen.
 2. Select the **Time zones** tab.
 3. Click **Enable time zones**.

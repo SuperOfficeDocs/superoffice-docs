@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Delete activities in the Company screen
-
-To delete an activity in the **Activities** section tab:
+# Delete activity in the Company screen
 
 [!include[Go to company](../includes/goto-company.md)]
 
