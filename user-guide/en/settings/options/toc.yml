@@ -44,6 +44,7 @@ items:
     href: changing-labels.md
   - name: Resetting labels
     href: resetting-labels.md
+    
 - name: Reports
   href: reports.md
 - name: Customer languages

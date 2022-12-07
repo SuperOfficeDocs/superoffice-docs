@@ -3,11 +3,7 @@ items:
   href: index.md
 - name: Chat screen
   href: screen/index.md  
-- name: For customers
-  items:
-  - name: Using the chat function from the customer's perspective
-    href: as-customer.md
-- name: For agents
+- name: Work with chat
   items:
   - name: Respond to a chat
     href: respond.md
@@ -27,10 +23,5 @@ items:
     href: transfer-to-agent.md
   - name: View chat statistics
     href: statistics.md
-- name: For administrators
-  href: admin/index.md
-  items:
-  - name: Create a chat channel
-    href: admin/channel-create.md
-  - name: Add JavaScript for your website
-    href: admin/add-javascript.md
+  - name: Using the chat function from the customer's perspective
+    href: as-customer.md

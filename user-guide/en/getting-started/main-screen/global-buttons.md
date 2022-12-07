@@ -13,7 +13,7 @@ language: en
 
 The global buttons appear throughout the user interface. Some are in the main screen, while others are in the various dialogs.
 
-## Global buttons in Standard CRM
+## Global buttons in SuperOffice CRM
 
 | Button | Function |
 |---|---|
@@ -22,7 +22,7 @@ The global buttons appear throughout the user interface. Some are in the main sc
 | ![icon][img2] | Click an arrow button to open and close a list box. |
 | ![icon][img1] | Click here to open a menu containing tasks relevant to the dialog or screen. |
 
-## Global buttons in Service
+## Global buttons in Requests
 
 | Button | Description |
 |:-:|---|

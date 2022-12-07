@@ -1,8 +1,10 @@
 items:
   - name: Welcome
     href: index.md
-  - name: Getting started
+  - name: Get started
     href: getting-started/toc.yml
+  - name: Learn the basics
+    href: howto/toc.yml
   - name: Search options
     href: search-options/toc.yml
   - name: Dashboard
@@ -33,10 +35,14 @@ items:
     href: marketing/toc.yml
   - name: Forms
     href: forms/toc.yml
-  - name: FAQ
-    href: faq/toc.yml
-  - name: How to...
-    href: howto/toc.yml
+  - name: Knowledge Base
+    items:
+    - name: FAQ
+      href: faq/toc.yml
+    - name: Reply template
+      href: request/reply-templates/toc.yml
+    - name: Work with email addresses
+      href: mailboxes/index.md
   - name: Customisation
     topicHref: custom-objects/index.yml
     items:
@@ -51,12 +57,19 @@ items:
         href: ../settings/lists/privacy-legal-base-add.md
       - name: Add privacy source
         href: ../settings/lists/privacy-source-add.md
+    - name: Chat
+      href: admin/index.md
+      items:
+      - name: Create a chat channel
+        href: admin/channel-create.md
+      - name: Add JavaScript for your website
+        href: admin/add-javascript.md
+    - name: Custom objects
+      href: custom-objects/toc.yml
     - name: CRMScript
       href: automation/toc.yml
     - name: User interface
       href: ui/toc.yml
-    - name: Custom objects
-      href: custom-objects/toc.yml
     - name: Customer center
       href: customer-center/toc.yml
     - name: ERP

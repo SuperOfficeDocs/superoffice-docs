@@ -35,8 +35,6 @@ items:
     href: editor/drag-and-drop/toc.yml
   - name: Old editor
     href: editor/old/toc.yml
-  - name: Forms
-    href: ../forms/toc.yml
 - name: For administrators
   items:
   - name: Define settings for mailings

@@ -1,7 +1,7 @@
 ---
 uid: help-en-dashboard-tile-add
-title: Dashboard add tiles
-description: Dashboard add tiles
+title: Add tile/edit layout in dashboard
+description: Dashboard Add tiles / Edit layout
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: dashboard
@@ -9,7 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Add a tile
+# Add tile / edit layout in dashboard
 
 To add a tile to a dashboard:
 
