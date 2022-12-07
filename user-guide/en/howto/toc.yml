@@ -9,6 +9,8 @@ items:
   href: refresh-data.md
 - name: Bulk update
   href: bulk-update.md
+- name: Linking documents to follow ups
+  href: linking-documents-to-follow-ups.md
 - name: Work with the Section tabs
   href: section-tabs.md
   items:
@@ -30,7 +32,5 @@ items:
     href: export-archives.md
   - name: Adjusting views in Settings and maintenance
     href: adjusting-views.md
-- name: Linking documents to follow ups
-  href: linking-documents-to-follow-ups.md
 - name: External applications and URL addresses
   href: external-applications-and-url-addresses.md

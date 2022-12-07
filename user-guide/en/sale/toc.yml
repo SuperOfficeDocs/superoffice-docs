@@ -1,62 +1,38 @@
 items:
 - name: Overview
   href: index.md
-- name: Create a sale
-  href: create.md
-- name: Delete a sale
-  href: delete.md
-- name: Status of a sale (stages)
-  href: stages.md
-- name: Stakeholders
-  href: stakeholders/index.md
+- name: Sale section tabs
+  href: screen/index.md
   items:
+  - name: Activities
+    href: screen/activities-sale.md
+  - name: Stakeholders
+    href: stakeholders/index.md
+  - name: Sales guide
+    href: sales-guide/index.md
+  - name: Sales guide
+    href: screen/sales-guide-tab.md
+  - name: Quote
+    href: screen/quote-tab.md
+- name: The Edit quote dialog
+  href: screen/edit-quote-dialog.md
+- name: Work with sale
+  items:
+  - name: Create a sale
+    href: create.md
+  - name: Delete a sale
+    href: delete.md
+  - name: Status of a sale (stages)
+    href: stages.md
   - name: Create stakeholders
     href: stakeholders/create.md
   - name: Edit stakeholders
     href: stakeholders/edit.md
-- name: Sales guide
-  href: sales-guide/index.md
-  items:
   - name: Working with sales guide
     href: sales-guide/working-with-sales-guide.md
-  - name: For administrators
-    items:
-    - name: Create new sales guide
-      href: sales-guide/create.md
-    - name: Edit sales guide
-      href: sales-guide/edit.md
-    - name: Deactivate sales guide
-      href: sales-guide/deactivate.md
+  - name: Quote
+    href: quote/toc.yml
 - name: Sales targets
   href: sales-targets.md
-- name: Sale screen
-  href: screen/index.md
-  items:
-  - name: Section tabs
-    items:
-    - name: Activities
-      href: screen/activities-sale.md
-    - name: Sales guide
-      href: screen/sales-guide-tab.md
-    - name: Quote
-      href: screen/quote-tab.md
-  - name: The Edit quote dialog
-    href: screen/edit-quote-dialog.md
-- name: Quote
-  href: quote/toc.yml
-- name: SAINT
+- name: SAINT (Sales intelligence)
   href: saint/toc.yml
-- name: For administrators
-  items:
-  - name: Sales guide (Workflow)
-    href: screen/sales-guide-admin.md
-  - name: Sale stage
-    href: screen/sale-stage.md
-  - name: Add a sale stage
-    href: ../settings/lists/sale-stage.md
-  - name: Sales type (for stages)
-    href: screen/sales-type-for-stages.md
-  - name: Add a sales type
-    href: ../settings/lists/sale-type.md
-  - name: Add sale amount class
-    href: ../settings/lists/sale-amount-class.md

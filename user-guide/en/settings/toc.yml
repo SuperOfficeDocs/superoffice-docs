@@ -1,16 +1,32 @@
 items:
 - name: Overview
   href: index.md
+- name: Lists
+  href: lists/toc.yml
+- name: Workflow
+  items:
+  - name: Sales guide
+    href: ../sale/screen/sales-guide-admin.md
+    items:
+    - name: Create new sales guide
+      href: ../sale/sales-guide/create.md
+    - name: Edit sales guide
+      href: ../sale/sales-guide/edit.md
+    - name: Deactivate sales guide
+      href: ../sale/sales-guide/deactivate.md
+  - name: Project guide
+    href: ../project/screen/project-guide-admin.md
+    items:
+    - name: Create new project guide, 
+      href: ../project/project-guide/create.md
+    - name: Edit project-guide
+      href: ../project/project-guide/edit.md
+    - name: Deactivate project guide
+      href: ../project/project-guide/deactivate.md
 - name: Preferences
   href: preferences/toc.yml
 - name: Options
   href: options/toc.yml
-- name: Lists
-  href: lists/toc.yml
-- name: Edit email signature
-  href: ../getting-started/edit-email-signature.md
-- name: Personal settings in Service
-  href: in-service/personal-settings/toc.yml
 - name: System settings in Service
   href: in-service/toc.yml
 - name: System events
@@ -28,4 +44,5 @@ items:
   items:
   - name: Package properties
     href: screen/package-properties.md
-    
+- name: Personal settings in Service
+  href: in-service/personal-settings/toc.yml

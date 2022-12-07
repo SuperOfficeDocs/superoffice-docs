@@ -49,7 +49,7 @@ items:
     - name: Settings
       href: settings/toc.yml
     - name: Privacy
-      href: person/gdpr/privacy.md
+      href: gdpr/privacy.md
       items:
       - name: Add consent purpose
         href: gdpr/add-consent-purpose.md
@@ -89,6 +89,11 @@ items:
       href: ai/toc.yml
   - name: Windows client
     href: win-client/toc.yml
+  - name: Service client
+    topicHref: service/toc.yml
+    items:
+    - name: Customers in Service
+      href: service/toc.yml
   - name: License agreement
     href: license-agreement.md
   - name: Copyright information

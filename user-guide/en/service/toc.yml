@@ -1,0 +1,13 @@
+items:
+- name: Overview
+  href: index.md
+- name: Person
+  href: customers/person/toc.yml
+- name: Company
+  href: customers/company/toc.yml
+- name: Edit contact
+  href: edit.md
+- name: Merge contacts
+  href: merge-contacts.md
+- name: Delete contact
+  href: delete.md
