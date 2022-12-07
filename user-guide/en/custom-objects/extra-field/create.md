@@ -16,7 +16,7 @@ Once you have created an extra table, you need to set up fields in the table, to
 > [!TIP]
 > Extra fields can for instance be used as search criteria and columns in sales in SuperOffice CRM.
 
-To create extra fields in tables:
+**Steps:**
 
 1. Select ![icon][img1] **System settings** > **System design** > **Tables**.
 2. Browse to the table you want, point at the table name and click ![icon][img2].
@@ -38,7 +38,7 @@ To create extra fields in tables:
 | Default value | The default value will be used for this field. |
 | Description | The default description. |
 | Display value | Specify whether to display the value. |
-| External | If checked, the field will be available from a customer centre. This is relevant only for default tables, since extra tables are always displayed in customer centres. |
+| External | If checked, the field will be available from a customer centre. Relevant only for default tables, since extra tables are always displayed in customer centres. |
 | Header for list | This field is used to specify a header for these entries when they are displayed as "sub-entries" in a list. In our example, this means the name of the new tab in the **View contact** screen, so we enter "Computers" here. |
 | Hide function buttons | (relations) Select this option to hide the function for adding new entries to relation tables. |
 | Hide the field | Specify whether to display the field. |

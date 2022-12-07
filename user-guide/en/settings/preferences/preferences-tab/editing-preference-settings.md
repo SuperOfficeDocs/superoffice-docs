@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Edit preference settings
-
-To change an existing setting:
+# Edit preference setting
 
 1. [!include[Open preferences](../includes/open-preferences.md)]
 

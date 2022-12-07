@@ -95,8 +95,6 @@ For each priority you can define one or more escalation levels, so that the syst
 
 ## Delete escalation level
 
-To delete an escalation level, do as follows:
-
 1. Select the escalation level you want to delete.
 2. Click the **Delete** button at the bottom of the screen.
 

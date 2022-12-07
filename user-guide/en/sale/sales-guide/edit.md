@@ -15,8 +15,6 @@ language: en
 
 [!include[Must be admin](../../includes/req-admin.md)]
 
-To edit an existing sales guide:
-
 1. Click the **Workflow** button in the Navigator (![icon][img1]).
 2. Select the **Sales guide** tab.
 3. Select the required sale type in the **Sale type** list box.

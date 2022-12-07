@@ -13,9 +13,7 @@ language: en
 
 You use the **Category membership** tab in the **Edit users** screen to specify which categories you are a member of. If you are a member of categories via a user group (see [User information][1]), the text **(from user group)** is shown next to the category name.
 
-## Add categories
-
-To add a category to the list of categories you are a member of:
+## Add category to your list
 
 1. Select ![icon][img2] **Personal Settings > Settings > Category membership** tab.
 2. Click the **Category** list, and select the category you want.

@@ -15,7 +15,7 @@ The default fields and other UI texts in SuperOffice CRM have been translated to
 
 The icon ![icon][img1] next to a field indicates that you can add a translation.
 
-To add a translation:
+## Add a translation
 
 1. Click ![icon][img1] next to the field where you want to add a translation.
 2. Click **Add**.

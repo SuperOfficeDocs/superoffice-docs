@@ -24,7 +24,7 @@ Labels can be used to create headings for specific groups of fields or a column.
 
 ## Add dividers
 
-Use dividers to create sections within columns. This is particularly useful for grouping various types of information.
+Use dividers to create sections within columns. Useful for grouping various types of information.
 
 1. Select the tab you want to edit.
 2. Click and drag the **Divider** element to the layout.

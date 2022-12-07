@@ -15,7 +15,7 @@ It is always a good idea to define a well-organized folder structure to get a be
 
 You can create sub-folders in all folders, and you can place the appropriate mailings, forms, templates, links and images in each of these folders.
 
-To create a new folder:
+**Steps:**
 
 1. Select one of the main tabs in SuperOffice Marketing.
 

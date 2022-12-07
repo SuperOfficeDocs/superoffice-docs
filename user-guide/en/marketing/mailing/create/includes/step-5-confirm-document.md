@@ -15,8 +15,6 @@ Click the mailing in the list to [view sending status and statistics][1].
 
 ## Open and print the document
 
-To view and print the document:
-
 1. Select the **Mailings** tab.
 2. Locate the document, click ![icon][img2] and select **View**.
 3. Click the button under **Download generated document**. The document is downloaded to your browser.

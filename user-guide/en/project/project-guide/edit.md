@@ -15,8 +15,6 @@ language: en
 
 [!include[Must be admin](../../includes/req-admin.md)]
 
-To edit an existing project guide:
-
 1. Click the **Workflow** button in the Navigator (![icon][img1]).
 2. Select the **Project guide** tab.
 3. Select the required project type in the list box at the top.

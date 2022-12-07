@@ -75,7 +75,7 @@ The preview on the right displays the chat window with the current settings.
 
 In the **Agents** tab you can give users access to a chat channel and what permissions they have in chat.
 
-To add a new agent:
+### Add an agent
 
 1. Click the list to the left of the **Add** button, and select a user.
 2. Click **Add**. The user is added to the list of agents and has access to the selected chat channel.

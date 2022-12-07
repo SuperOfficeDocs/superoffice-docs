@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Edit contacts
-
-To edit the information already recorded for a contact:
+# Edit contact info
 
 1. Open the **Contact** screen.
 2. Click the ![icon][img1] **Actions** button and select **Edit contact**. The **Contact properties** screen appears.

@@ -13,11 +13,9 @@ language: en
 
 Tagging is a powerful tool for organizing and finding requests in SuperOffice Service. You can create tags on the fly and tag any request with as many tags as you want. Using tags will simplify the way you search for, view and filter requests.
 
-## Add tag to request
+## Add/remove tags in multiple requests
 
 When you [create or edit a request][1], you can add one or more tags that describe the request.
-
-To add or remove tags in multiple requests:
 
 1. Select the relevant requests.
 2. Click the **Actions** button (![icon][img1]) in the lower left corner of the request list.

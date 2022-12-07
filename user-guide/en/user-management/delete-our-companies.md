@@ -11,11 +11,15 @@ language: en
 
 # Delete company in the Our companies tab
 
+## Pre-requisites
+
 To delete companies in the **Our companies** tab, the following two criteria must be satisfied:
 
 * The company must not have any associates registered. The number of associates is displayed in the **Associates** column in the company list. To delete a company, you must first [delete the registered associates][1]. Associates are deleted in the **Users** screen.
 
-* The company cannot be an active satellite. If it is defined as a satellite, this is displayed in the **Active satellite** column in the company list.
+* The company cannot be an active satellite. Check if the company is listed in the **Active satellite** column in the company list.
+
+## Steps
 
 If these two criteria are met, you can delete companies as follows:
 

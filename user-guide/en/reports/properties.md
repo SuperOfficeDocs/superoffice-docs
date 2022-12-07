@@ -9,9 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Show report properties
-
-To view the properties of individual reports in the **Reports** screen:
+# Show properties of individual reports
 
 1. [!include[How to-goto-reports](includes/goto-reports.md)]
 

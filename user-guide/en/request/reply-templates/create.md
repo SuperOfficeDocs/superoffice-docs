@@ -9,9 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Create reply templates
-
-To create a new reply template:
+# Create reply template
 
 1. Select **Knowledge Base > Reply templates**.
 

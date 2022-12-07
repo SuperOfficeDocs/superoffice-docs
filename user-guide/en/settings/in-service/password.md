@@ -11,14 +11,14 @@ language: en
 
 # Password
 
-To change your password:
+## How to change your password
 
 1. Select ![icon][img1] **Personal Settings > Settings > Password**.
 2. Enter the new password in the **New password** field.
 3. Enter it again in the **Repeat password** field to ensure you entered it correctly first time round.
 4. Click **OK**.
 
-# Password on System
+## Password on System
 
 The **Password** tab in the **System** screen contains the following options under **User passwords**:
 

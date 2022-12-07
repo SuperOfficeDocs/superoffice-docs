@@ -13,8 +13,6 @@ language: en
 
 In the **Image** tab, you can add an image for the project. The project image is used primarily when displaying the project in SuperOffice Audience (requires a separate licence), but it can also be used for other types of project displays.
 
-To add a project image:
-
 1. Open the **Project** screen. There are several ways to open the **Project** screen:
 
     * Click the **Project** button in the Navigator.

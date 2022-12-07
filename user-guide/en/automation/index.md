@@ -13,7 +13,7 @@ language: en
 
 CRMScript is a feature that allows you to automate tasks in or modify the behaviour of SuperOffice. Automating tasks and processes will help you to save time and will make you and your colleague more productive.
 
-To access the functions in CRMScript:
+**To access the functions in CRMScript:**
 
 * In SuperOffice Service, select ![icon][img1] **System settings** > **System design** > **CRMScript**.
 * In SuperOffice Settings and maintenance, click **CRMScript** in the navigator.

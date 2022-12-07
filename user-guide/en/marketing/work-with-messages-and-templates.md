@@ -15,11 +15,9 @@ Save yourself some time and create your mailing using one of the free message te
 
 [!include[Note about 2 editor versions](includes/note-old-or-new-editor.md)]
 
-## Using templates from the **Online template library**
+## Using templates from the Online template library
 
 The Online template library in SuperOffice Marketing contains a wide selection of professionally designed message template. Free for use!
-
-To access these, do as follows:
 
 1. Select the **Message templates** tab.
 2. Click **Online template library**.
@@ -32,8 +30,6 @@ To access these, do as follows:
 ## Using existing templates
 
 In addition to the templates created by your and your colleagues, you have access to a set of ready-to-use message templates from SuperOffice.
-
-To access these, do as follows:
 
 1. Select the **Message templates** tab.
 
@@ -88,9 +84,7 @@ To access these, do as follows:
 4. In the **Edit template** screen, enter a descriptive name for the template in the **Name** field.
 5. Make any necessary changes and click **OK**.
 
-## Import a message template
-
-To import a JSON file:
+## Import a message template (JSON file)
 
 1. Go to the **Message templates** tab.
 2. Click **Import**. The **Import** dialog displays.

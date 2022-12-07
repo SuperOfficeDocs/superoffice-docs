@@ -11,14 +11,12 @@ language: en
 
 # Use the Find screen
 
-To search for records and data in SuperOffice CRM, you use the **Find** screen.
+To search for records and data in SuperOffice CRM, use the **Find** screen.
 
 > [!NOTE]
 > If you have a licence for SuperOffice Integration Server, you can search for products in existing quotes. If you have a licence for SuperOffice Service, you can search for requests.
 
 ## Search for information in SuperOffice CRM
-
-To use the search function in SuperOffice CRM:
 
 1. Click the **Find** button on the [top bar][1]. ![icon][img2]
 

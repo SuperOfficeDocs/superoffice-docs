@@ -9,9 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Invite project members to a meeting
-
-To invite project members to a meeting (appointment):
+# Invite project members to a meeting (appointment)
 
 1. Open the project and go to the **Project Members** section tab.
 2. Select the project members you want to invite.

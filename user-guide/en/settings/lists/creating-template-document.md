@@ -15,7 +15,7 @@ You create a template as a document in an application which is linked to SuperOf
 
 You can also create templates in HTML format, and use the SuperOffice HTML editor to edit the template.
 
-To create a template document:
+**Steps:**
 
 1. Start the required application.
 2. Create a new document.

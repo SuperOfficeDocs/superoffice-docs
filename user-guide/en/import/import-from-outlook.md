@@ -13,8 +13,6 @@ language: en
 
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
-To import your Outlook companies into the SuperOffice database:
-
 ## A. Import companies/contacts from Outlook
 
 1. [!include[Open Import](includes/open-import.md)]

@@ -43,7 +43,7 @@ You can specify up to three different periods for counters, so that the SAINT cr
 
 ## Creation of new statuses
 
-To create a status, you need to perform these steps:
+To create a status, follow these steps:
 
 * [Create a new status][1]
 * [Select an image for a status][2]

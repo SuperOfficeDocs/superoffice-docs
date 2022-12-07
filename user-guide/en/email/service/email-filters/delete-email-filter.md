@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Delete email filters
-
-To delete an email address from SuperOffice Service, do as follows:
+# Delete email filter (address)
 
 [!include[Go to email](../includes/goto-email.md)]
 

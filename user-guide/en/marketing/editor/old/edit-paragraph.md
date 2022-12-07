@@ -11,8 +11,6 @@ language: en
 
 # Edit a paragraph
 
-To edit a paragraph in a message, do as follows:
-
 1. Go to the **Content** step in the mailing, or open a template for editing.
 
 2. Hover the mouse pointer over the paragraph you wish to edit, so that the paragraph menu is shown.

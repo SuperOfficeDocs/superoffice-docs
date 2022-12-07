@@ -9,9 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# View FAQ entries
-
-To display the contents of an FAQ entry in the knowledge base:
+# View FAQ entries in knowledge base
 
 1. Select **Knowledge Base** > **FAQ**. This takes you to the **FAQ** screen, which contains FAQ entries in a [folder structure][1] that you can create yourself.
 2. If the list contains several subfolders, go to the one you require.

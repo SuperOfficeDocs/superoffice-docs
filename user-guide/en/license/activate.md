@@ -11,7 +11,7 @@ language: en
 
 # Activate license
 
-To manage licenses, you need to be signed in to Settings and maintenance as an administrator.
+To manage licenses, you must be signed in to Settings and maintenance as an administrator.
 
 > [!NOTE]
 > If you are using a demo version of SuperOffice CRM, you may be asked to enter a new serial number and license owner. You will be given this by SuperOffice when you purchase a SuperOffice license.

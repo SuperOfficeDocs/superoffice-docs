@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Create email filters
-
-To create a new email filter:
+# Create email filter
 
 [!include[Go to email](../includes/goto-email.md)]
 

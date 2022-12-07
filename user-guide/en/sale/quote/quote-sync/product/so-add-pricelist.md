@@ -11,8 +11,6 @@ language: en
 
 # Add a price list
 
-To add a price list in SuperOffice CRM:
-
 [!include[Go to products](../includes/goto-products.md)]
 
 1. Click the **Add** button at the top of the tab. The **Add/Edit price list** dialog appears.

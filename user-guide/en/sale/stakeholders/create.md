@@ -14,7 +14,7 @@ language: en
 > [!NOTE]
 > You can also [add stakeholders via the section tabs][2] containing contacts in the **Company** and **Selection** screens.
 
-To link the sale to stakeholders:
+## Link the sale to stakeholders
 
 1. Go to the required sale in the **Sale** screen. (See [Use the Find screen][1].)
 

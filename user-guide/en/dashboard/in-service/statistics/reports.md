@@ -11,12 +11,7 @@ language: en
 
 # Reports
 
-This screens contains predefined reports.
-
-> [!TIP]
-> You also have access to the new and improved reports in SuperOffice Service.
-
-To run a report:
+This screens contains predefined reports. You also have access to the new and improved reports in SuperOffice Service.
 
 1. Click a report name in the list.
 2. Click the ![icon][img2] **Show report** button.

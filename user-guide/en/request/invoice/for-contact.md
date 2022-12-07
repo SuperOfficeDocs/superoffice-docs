@@ -16,7 +16,7 @@ When processing requests, you have the option of registering [invoice data][1] a
 > [!NOTE]
 > The invoice feature is only available if you have registered [invoice types][2] and have the required feature toggle.
 
-To view invoice information that has been registered for a specific contact , do as follows:
+**Steps:**
 
 1. Open the **Contact** screen.
 

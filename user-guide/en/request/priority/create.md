@@ -17,7 +17,7 @@ The default priorities included with the system are **High**, **Medium** and **L
 
 [!include[Restricted access](../../includes/note-insufficient-rights.md)]
 
-To create a new priority:
+**Steps:**
 
 1. Go to the **Priorities** screen.
 

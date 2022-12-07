@@ -11,8 +11,6 @@ language: en
 
 # Add user-defined lists
 
-To add a new list in the **Lists** screen:
-
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
 2. Click the **Create list** button in the top right of the screen.

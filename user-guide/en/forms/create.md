@@ -11,8 +11,6 @@ language: en
 
 # Create a new form
 
-To create a new form:
-
 1. Go to the **Forms** tab.
 2. If required, click **Add folder** to [create a folder for the form][19].
 
@@ -70,11 +68,9 @@ Fill in the following information in the **Properties** category:
 
 * **Use Google Analytics**: Select this option to track the form and connect it to [Google Analytics][1] (if that is set up for your web site). In the field below this option, you can enter the Google Analytics tracking ID for this form.
 
-### Fields
+### Add fields to the form
 
 In the **Fields** category you add the fields that should be included in the form. As you add and edit fields, the preview on the right-hand side is automatically updated.
-
-To add fields to the form:
 
 1. Go to the **Fields** category. By default, the **Contact - name** field and **OK** button have been added to the new form.
 
@@ -115,14 +111,14 @@ The preview on the right is updated automatically when you change any settings. 
 > [!TIP]
 > You can add a progress bar to the form, so the user can see how much is left to fill in. Click the check box next to **Progress bar colour**, and select a colour. The progress bar is displayed at the bottom of the form. See also [Create multi-page forms](#multi-page).
 
-### Double opt-in
+### Activate double opt-in
 
 This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their email address. This is done by sending them an email when they submit the form. The email contains a link they must click to confirm that the email address is correct.
 
 > [!NOTE]
 > The link is valid for 30 minutes by default.
 
-To activate double opt-in:
+**Steps:**
 
 1. Click **Enable double opt-in**.
 2. In the **Message** tab, enter the text to display after the form has been submitted. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text.

@@ -18,9 +18,7 @@ At some time, you will undoubtedly need to move follow-ups from one time slot to
 > [!NOTE]
 > You can only move one follow-up at a time, and only follow-ups that are not completed. [How to change Completed status of an activity][1].
 
-## Move to a different time
-
-To move a follow-up to a different time or to a different day in the Diary:
+## Move to a different time or day
 
 1. Select the required tab in the **Diary** screen (**Day**, **Week**, **Month** or **View**).
 

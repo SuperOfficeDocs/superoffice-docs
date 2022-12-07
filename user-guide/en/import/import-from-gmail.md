@@ -13,8 +13,6 @@ language: en
 
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
-To import your Gmail companies into the SuperOffice database:
-
 ## Import companies/contacts from Gmail
 
 1. [!include[Open Import](includes/open-import.md)]

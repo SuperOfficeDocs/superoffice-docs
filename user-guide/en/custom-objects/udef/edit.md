@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Edit fields
-
-To edit a field from one of the **More** tabs in SuperOffice CRM:
+# Edit field in the More tab
 
 [!include[Go to fields and select tab](includes/goto-fields.md)]
 

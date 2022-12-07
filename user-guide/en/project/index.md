@@ -19,9 +19,7 @@ Using the **Project** function, you can link any activities both to an external 
 
 [!include[ALT](../includes/howto-add-favorite.md)]
 
-## Print a project
-
-To print information about a project:
+## Print project info
 
 1. [!include[Go to project](includes/goto-project.md)]
 2. Click the **Task** button and select **Print**.

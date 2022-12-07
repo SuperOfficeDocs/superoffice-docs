@@ -11,7 +11,7 @@ language: en
 
 # Configure SOAP interface
 
-To add an IP address range:
+## Add an IP address range
 
 1. Go to the **SOAP** screen.
     * In Settings and maintenance: Click the **Requests** button in the navigator. Then select the **SOAP** tab.

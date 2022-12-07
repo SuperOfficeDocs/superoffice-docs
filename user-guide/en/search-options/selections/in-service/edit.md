@@ -11,7 +11,7 @@ language: en
 
 # Edit a selection
 
-To change the criteria for including records in a selection, do as follows:
+To change the criteria for including records in a selection:
 
 1. Select **Selections** > **List selections**. This takes you to the **List selections** screen.
 

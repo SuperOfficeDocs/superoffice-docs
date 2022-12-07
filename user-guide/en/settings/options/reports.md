@@ -15,9 +15,7 @@ From the **Reports** tab in the **Options** screen, you can edit the names and d
 
 In the report list, you see the format of the reports (appearance), whether a report is a standard report, the report type (content), and if it has been published. Click a report to display the report description at the bottom of the tab.
 
-## Edit standard reports
-
-To open and edit a standard report:
+## Open and edit a standard report
 
 1. Go to the **Reports** tab in the **Options** screen.
 2. Double-click the standard report you want to edit.
@@ -27,7 +25,7 @@ To open and edit a standard report:
 
 You cannot delete standard reports, but you can specify them as not published.
 
-## Importing reports
+## Import reports
 
 You can import reports that have been exported from SuperOffice Reporter Studio, or created by a consultant or by SuperOffice Support.
 

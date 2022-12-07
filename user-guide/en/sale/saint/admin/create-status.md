@@ -13,8 +13,6 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-To add a new status:
-
 <!-- markdownlint-disable-file MD029 -->
 [!include[Open SAINT](includes/open-saint-select-tab.md)]
 

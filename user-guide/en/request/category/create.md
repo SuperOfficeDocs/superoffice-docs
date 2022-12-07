@@ -12,8 +12,6 @@ language: en
 
 # Create category
 
-To create a new category:
-
 1. Go to the **Categories** screen.
 
     * In Settings and maintenance: Click the **Requests** button in the navigator. Then select the **Categories** tab.

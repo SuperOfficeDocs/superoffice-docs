@@ -13,8 +13,6 @@ language: en
 
 You can edit search criteria in favourite reports. Standard reports cannot actually be edited, but you can customise the search criteria in them and save them as your own [favourite reports][1]).
 
-To edit search criteria in reports:
-
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 
 2. Select a tab. The reports are displayed in the report list.

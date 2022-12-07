@@ -11,8 +11,6 @@ language: en
 
 # Edit a list's name and description
 
-To edit the name and/or description of a user-defined list:
-
 [!include[Find specific list](includes/tip-find-list.md)]
 
 1. Open the **Lists** screen.

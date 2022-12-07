@@ -9,11 +9,9 @@ so.topic: howto
 language: en
 ---
 
-# Create email addresses
+# Create email address
 
 When you register email addresses under **Knowledge Base** > **Email addresses**, they become available in most places where you need to send email, such as in the **New request** and **Add message** screens. This speeds up request processing.
-
-To register an email address:
 
 1. Select **Knowledge Base** > **Email addresses**.
 

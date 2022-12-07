@@ -60,7 +60,7 @@ You can also update several users at the same time.
         > [!NOTE]
         > The role may override other options further down.
 
-    * **Status**: Select the required status for the selected users. You can choose between **Normal** and **Not present**. If a user is not present, they will not receive any requests automatically. This is the status you would set, for example, when users go on holiday.
+    * **Status**: Select the required status for the selected users. You can choose between **Normal** and **Not present**. If a user is not present, they will not receive any requests automatically, for example, when they are on holiday.
 
     * **Group**: Select the user group] you want to assign to the selected users.
 

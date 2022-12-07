@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Delete a company
-
-To delete a company and associated data:
+# Delete a company and associated data
 
 [!include[Go to company](../includes/goto-company.md)]
 

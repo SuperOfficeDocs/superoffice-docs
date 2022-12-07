@@ -1,7 +1,7 @@
 ---
 uid: help-en-udef-change-tab-order
-title: Editing the TAB order of fields
-description: Editing the TAB order of fields
+title: Edit the TAB order of fields in the More tab
+description: How to edit the TAB order of fields in the More tab
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: udef, custom field
@@ -9,13 +9,13 @@ so.topic: help
 language: en
 ---
 
-# Edit the TAB order of fields
+# Edit the TAB order of fields in the More tab
 
 The TAB order is the order that you move between the various fields when you press the TAB key. You can change the TAB order to reflect the logical sequence users normally enter data in fields.
 
 The TAB order is displayed in the **Name** list on the left of the screen. This order is not the same as the fields’ physical positions, which are shown in the preview field at the top right.
 
-To edit the TAB order in one of the **More** tabs in SuperOffice CRM:
+**Steps:**
 
 [!include[Go to fields and select tab](includes/goto-fields.md)]
 

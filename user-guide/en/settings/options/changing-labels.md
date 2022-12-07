@@ -16,8 +16,6 @@ You can change labels in all available languages in SuperOffice.
 > [!NOTE]
 > These changes apply only to SuperOffice CRM and not, for example, to reports or labels in Reporter Studio.
 
-To change labels in SuperOffice CRM:
-
 [!include[Go to Options](includes/open-options.md)]
 
 1. Select the **Labels** tab.

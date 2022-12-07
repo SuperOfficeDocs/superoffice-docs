@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Add stopwords
-
-To add a stopword manually:
+# Add stopword
 
 > [!NOTE]
 > Instead of entering stopwords manually, you can let the system suggest stopwords for you. See [Suggest stopwords][1].

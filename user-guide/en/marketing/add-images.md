@@ -11,7 +11,7 @@ language: en
 
 # Add images
 
-Add images you can later in emails.
+Add images you can use later in emails.
 
 To add an image to SuperOffice Marketing:
 
@@ -25,9 +25,10 @@ To add an image to SuperOffice Marketing:
 
 4. Enter a descriptive name for the image in the **Name** field.
 
-5. Click **Upload files (or drag here)**, select the image to add, and click **Open**.
-    or
-    Drag an image from your PC and drop it on **Upload files (or drag here)**.
+5. Do one of the following:
+    * Click **Upload files (or drag here)**, select the image to add, and click **Open**.
+    * Drag an image from your PC and drop it on **Upload files (or drag here)**.
+
     The preview displays the image.
 
 6. Click **OK** when you are done.

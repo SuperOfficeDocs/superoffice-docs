@@ -13,15 +13,11 @@ language: en
 
 SuperOffice CRM supports follow-ups in different time zones. Time zone functionality can be useful if your organisation has offices in several countries with different time zones and users need to plan meetings or telephone conferences with people in a country with a different time zone from their own. The appointment is then created in the time zone for the country they have selected.
 
-> [!NOTE]
-> The time zone function also supports summer time (daylight saving time).
+The time zone function also supports summer time (daylight saving time).
 
-Before you use time zones, you need to enable the time zone function.
+Before you use time zones, you need to [enable the time zone function][1].
 
-This is described under [Enable use of time zones][1].
-
-> [!TIP]
-> In addition, you can go to **Preferences** to show the time zone selector and set the default time zone.
+In addition, you can go to **Preferences** to show the time zone selector and set the default time zone.
 
 ## What would you like to do now?
 

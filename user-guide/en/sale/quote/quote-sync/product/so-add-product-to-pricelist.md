@@ -9,11 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Add products to a price list
+# Add product to a price list
 
 In the **Add/Edit product** dialog, you enter all the information about a product, including an image.
-
-To add a product to a price list in SuperOffice CRM:
 
 [!include[Go to products](../includes/goto-products.md)]
 

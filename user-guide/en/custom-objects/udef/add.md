@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Add field
-
-To add a new user-defined field:
+# Add user-defined field
 
 [!include[Go to fields and select tab](includes/goto-fields.md)]
 

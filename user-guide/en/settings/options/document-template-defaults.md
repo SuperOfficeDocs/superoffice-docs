@@ -16,7 +16,7 @@ You can specify default values for new document templates if required. For Super
 > [!NOTE]
 > If the **Our Ref.** field in the **Document** dialog functions as a counter field depends on if the {snum} template variable is specified for the template in question. This is defined in the **Lists** screen > **Document template** by double-clicking the document template under **Items** and editing the **Our reference (default)** field in the **Edit list item** dialog.
 
-To specify that new document templates will have their own counter:
+## Specify that new document templates will have their own counter
 
 1. Open the **Options** screen.
 
@@ -26,16 +26,15 @@ To specify that new document templates will have their own counter:
 
 4. Click **Defaults**.
 
-5. Check **Unique** if you want the counter values in the **Our Ref**. field to be unique. This is especially relevant when SuperOffice CRM users allocate values themselves.
+5. Check **Unique** if you want the counter values in the **Our Ref**. field to be unique. Useful when SuperOffice CRM users allocate values themselves.
 
-6. Check **Allow blank** if you want an empty counter field to be a permitted value. This is especially relevant when the counter values must be unique. If **Allow blank** is checked, this means that the requirement for unique values does not apply to empty fields.
+6. Check **Allow blank** if you want an empty counter field to be a permitted value. Useful when the counter values must be unique. If **Allow blank** is checked, this means that the requirement for unique values does not apply to empty fields.
 
 7. Check **Read only** if you do not want SuperOffice CRM users to type values into the **Our Ref.** field themselves.
 
 8. Check **Allocate** if you want to use the automatic counter function, so that the system enters values in the **Our Ref.** field for you.
 
-    > [!NOTE]
-    > You will find the results of different combinations of these values [here][1].
+    [See the results of different combinations of these values][1].
 
 9. Enter the value you want the counter to start at in the **Next number** field.
 

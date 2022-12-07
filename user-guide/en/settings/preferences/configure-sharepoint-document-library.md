@@ -20,7 +20,7 @@ When you are finished and have confirmed that you will use SharePoint, the state
 
 It will be possible to change some of the settings in the Wizard later
 
-To configure SharePoint document library, do the following:
+**Steps:**
 
 1. [!include[Open preferences](includes/open-preferences.md)]
 2. Select the **Document library** tab.
@@ -67,8 +67,6 @@ Click **Next step** to continue.
 In this step you can enable group access to SharePoint documents based on "Visible for" settings in SuperOffice.
 
 If you plan not to use "Visible for", do not select this option.
-
-To enable group access:
 
 1. Select **Enable group access to SharePoint documents based on "Visible for" settings in SuperOffice**.
 
