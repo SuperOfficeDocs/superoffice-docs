@@ -24,7 +24,7 @@ Project membership and activities will be moved to the target contact, and the s
 2. If you selected only one contact, select another contact under **To** (to search for a contact, start typing). The two contacts you want to merge are now displayed under **From** and **To**.
 
     > [!TIP]
-    > If you want to switch the **From** and **To** contacts, click the ![icon][img2] button.
+    > To switch the **From** and **To** contacts, click the ![icon][img2] button.
 
 3. Select one of the following under **Action on \[contact/company\] after merge**:
     * **Delete...**: If you select this option, the source contact is deleted after the merge. This may be appropriate if you have registered the same contact twice under the same company.

@@ -116,7 +116,7 @@ Everywhere you can enter search criteria, you will find a criteria list containi
 
 ## Change search criteria
 
-If you want to change a search criterion, click it and select a different one from the list that appears.
+To change a search criterion, click it and select a different one from the list that appears.
 
 ## Move search criteria
 
@@ -128,7 +128,7 @@ To delete a search criterion, click ![icon][img3].
 
 ## Activate or deactivate search criteria
 
-When you open the **Find** screen, it contains default search criteria or the search criteria you specified the last time you used the dialog. If you want to use different search criteria than those shown, you have the following options:
+When you open the **Find** screen, it contains default search criteria or the search criteria you specified the last time you used the dialog. To use different search criteria than those shown, you have the following options:
 
 * You can delete them by clicking ![icon][img3]
 * You can deactivate one or more search criteria by leaving the value field empty. A deactivated search criterion remains in the criteria list and can be simply reactivated when needed.
@@ -140,7 +140,7 @@ To move criteria, click and drag ![icon][img2]. This has no practical effect on 
 
 ## Reset to default search criteria
 
-The criteria lists contain a set of default criteria you can edit or remove as required. If you want to reset the criteria list to the default criteria, click **Reset to default**.
+The criteria lists contain a set of default criteria you can edit or remove as required. To reset the criteria list to the default criteria, click **Reset to default**.
 
 ## What would you like to do now?
 

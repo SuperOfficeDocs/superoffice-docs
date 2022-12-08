@@ -21,7 +21,7 @@ so.envir: onsite
 
 1. Click the **Save** button.
 
-1. In the dialog, enter the name you want to give the import description file. If you want to overwrite the old import description, provide the new file with the same name and location as the old one.
+1. In the dialog, enter the name you want to give the import description file. To overwrite the old import description, provide the new file with the same name and location as the old one.
 
 1. Click **Save**.
 

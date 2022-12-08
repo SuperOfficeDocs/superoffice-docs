@@ -11,7 +11,9 @@ language: en
 
 # Create new language version of reply template
 
-It may be appropriate to have the same reply template in several languages, for example, if you need to send the same reply to customers in several countries. You can add several languages to the reply template in question. Do as follows:
+It may be appropriate to have the same reply template in several languages, for example, if you need to send the same reply to customers in several countries.
+
+## Add languages to reply template
 
 1. Select **Knowledge Base > Reply templates**.
 

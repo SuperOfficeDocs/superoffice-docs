@@ -38,7 +38,7 @@ In the top-right corner of the **Chat** screen, you can set your presence:
 3. Click **Get next in queue** to respond to the next chat.
 
     > [!NOTE]
-    > If you want to respond to a specific chat (for instance from a returning customer, you can do this by double-clicking the relevant row in the **Incoming chat** list in the **Dashboard** tab.
+    > To respond to a specific chat (for instance from a returning customer, double-clicking the relevant row in the **Incoming chat** list in the **Dashboard** tab.
 
 4. Try to [locate the customer in SuperOffice][1], so you can see relevant information about them in the side panel, to help you respond to their inquiry.
 
@@ -46,13 +46,14 @@ In the top-right corner of the **Chat** screen, you can set your presence:
 
 6. To use emojis/stickers, click ![icon][img5] next to the text field.
 
-7. If you are unable to help the customer with their question, you can
-    * [transfer][2] the chat to another agent
-    * [create a request][3] from the chat
+7. If you are unable to help the customer with their question, do one of the following:
 
-8. If you want to send the customer additional information, you can
-    * [send an FAQ, a reply template or quick reply][4]
-    * [send a file][5]
+    * [Transfer the chat][2] to another agent.
+    * [Create a request][3] from the chat.
+
+8. To send the customer additional information:
+    * [Send an FAQ, a reply template or quick reply][4], and/or
+    * [Send a file][5]
 
 9. When the conversation is over, you can click ![icon][img1] and select **End chat** (unless the customer closes the chat window first). The chat is moved to **Recent chat sessions**. You can also find a record of the chat in the **Activities** section tab in SuperOffice CRM.
 

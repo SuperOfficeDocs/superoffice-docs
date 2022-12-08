@@ -28,7 +28,7 @@ Once you have created the quote and added the products you want, you can create 
 
 ## How can I change the quote document?
 
-If have created a quote document for a quote, but want to use another document, you can do as follows:
+If you created a quote document for a quote, but want to use another document:
 
 1. Open the quote.
 

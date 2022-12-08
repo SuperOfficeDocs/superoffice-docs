@@ -62,7 +62,7 @@ Select a language for the template. This option is only available if the selecte
 Today's date is displayed automatically in this field. If you click the arrow next to the **Date** field, this brings up a monthly calendar where you can select the date you require.
 
 > [!NOTE]
-> You can only change the date when you create the document. You cannot access this field in edit mode.
+> You can change the date only when you create the document. You cannot access this field in edit mode.
 
 ### Our ref
 

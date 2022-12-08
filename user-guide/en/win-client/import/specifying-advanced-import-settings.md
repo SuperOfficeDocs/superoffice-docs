@@ -58,10 +58,10 @@ Advanced import settings include date format settings and delimiter characters. 
 
 1. In the **Currency** list box, choose which currency will be entered if the SuperOffice database is unable to interpret the currency format in the import file.
 
-1. Check **Update freetext index** if you want to update the freetext index continuously during the import, so that it is completely updated when the import is finished.
+1. Check **Update freetext index** to update the freetext index continuously during the import, so that it is completely updated when the import is finished.
 
     > [!NOTE]
-    > The import speed decreases if you check **Update freetext index**. If you want to import large quantities of data, an alternative is to run the import without checking this option and [generate a new freetext index][2] later from the **Options** screen.
+    > The import speed decreases if you check **Update freetext index**. To import large quantities of data, an alternative is to run the import without checking this option and [generate a new freetext index][2] later from the **Options** screen.
 
 1. When you have specified the required settings, click **OK**.
 

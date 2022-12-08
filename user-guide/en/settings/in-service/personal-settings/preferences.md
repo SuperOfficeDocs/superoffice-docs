@@ -19,13 +19,13 @@ In the **Preferences** tab in the **Edit users** screen, you can edit the follow
 
 * **List only requests in own categories**: Checking here means that by default only requests in the categories you are a member of are displayed.
 
-* **Automatically quote the last message**: If you check here, the last message in the request is automatically pasted into a new message.
+* **Automatically quote the last message**: If checked, the last message in the request is automatically pasted into a new message.
 
-* **Only show open requests in my favourites list**: If you check here, only open requests are shown in your favourites list. This is not recommended since, if you [transfer a request][1] to another request handler and this person closes the request, it disappears from your favourites list without you being notified.
+* **Only show open requests in my favourites list**: If checked, only open requests are shown in your favourites list. This is not recommended since, if you [transfer a request][1] to another request handler and this person closes the request, it disappears from your favourites list without you being notified.
 
-* **Show only own categories**: If you check here, you can only select categories you are a member of.
+* **Show only own categories**: If checked, you can select only categories you are a member of.
 
-* **Use last category**: If you check here, the default category in the **Request** screen will be the same as last time.
+* **Use last category**: If checked, the default category in the **Request** screen will be the same as last time.
 
 * **Default category**: Check this option and select the default category when you register a request.
 

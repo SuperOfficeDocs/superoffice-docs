@@ -81,18 +81,18 @@ The default priorities included with the system are **High**, **Medium** and **L
 | Time frame | Time intervals for each day of the week that applies to request processing. |
 | Holidays (day/month) | Days to exclude from the time frame. This is normally used for public holidays when it is not desirable for requests to be escalated. The format is a comma-separated list of day/month entities. For example, to exclude 25th and 26th December, enter: 25/12, 26/12. You can also add dates using the date field below. |
 | Include year | Checking here includes the year in the holiday dates. |
-| Escalate requests according to time frame | If you check here, requests with this priority are escalated only during the priority's defined time frame. Outside of the periods defined in the **Time frame** tab, escalation will be "frozen". |
+| Escalate requests according to time frame | If checked, requests with this priority are escalated only during the priority's defined time frame. Outside of the periods defined in the **Time frame** tab, escalation will be "frozen". |
 
 ## Escalation options
 
 | Option | Description |
 |---|---|
-| Request read by owner | If you check here, the escalation chain is controlled as specified in the list box on the right when a request is read by the owner. In all the list boxes in this tab, you can choose from the operations: **Stop**, **Continue** and **Restart**. |
-| Changed user (manually) | If you check here, the escalation chain is controlled as specified in the list box on the right when a request manually changes owner. |
-| New information | If you check here, the escalation chain is controlled as specified in the list box on the right when new information arrives on a request. For example, the customer or user adding a new message to the request. |
-| Request closed | If you check here, the escalation chain is controlled as specified in the list box on the right when a request is closed. |
-| Changed priority | If you check here, the escalation chain is controlled as specified in the list box on the right when the priority of a request is replaced with this priority. |
-| New request | If you check here, the escalation chain is controlled as specified in the list box on the right when a new request with this priority arrive in the system. |
+| Request read by owner | If checked, the escalation chain is controlled as specified in the list box on the right when a request is read by the owner. In all the list boxes in this tab, you can choose from the operations: **Stop**, **Continue** and **Restart**. |
+| Changed user (manually) | If checked, the escalation chain is controlled as specified in the list box on the right when a request manually changes owner. |
+| New information | If checked, the escalation chain is controlled as specified in the list box on the right when new information arrives on a request. For example, the customer or user adding a new message to the request. |
+| Request closed | If checked, the escalation chain is controlled as specified in the list box on the right when a request is closed. |
+| Changed priority | If checked, the escalation chain is controlled as specified in the list box on the right when the priority of a request is replaced with this priority. |
+| New request | If checked, the escalation chain is controlled as specified in the list box on the right when a new request with this priority arrive in the system. |
 | Deadline | The deadline that requests with this priority should have. This value is calculated on the basis of the time frame for the priority and saved for each request. The result specifies when the request's time frame expires. |
 
 <!-- Referenced links -->

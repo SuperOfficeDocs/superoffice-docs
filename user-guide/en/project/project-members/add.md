@@ -53,14 +53,14 @@ To link the project to a company, you must specify at least one project member.
 
 You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project Members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen][3].
 
-You do this as follows:
+**Steps:**
 
 1. Go to the required section tab or the **Find** screen.
 
 2. Select the required contact on the list.
 
     > [!NOTE]
-    > If you want to add several contacts as stakeholders/project members, use **Shift** or **Ctrl** + click.
+    > To add several contacts as stakeholders/project members, use **Shift** or **Ctrl** + click.
 
 3. Right-click the contacts and select **Add to sale** or **Add to project** on the menu which appears.
 

@@ -11,7 +11,9 @@ language: en
 
 # Create a group view
 
-In SuperOffice CRM, you can add a selection of users and resources in your organisation to a view. You can name and save this view in the **Views** list box, as follows:
+You can add a selection of users and resources in your organisation to a view.
+
+## Name and save this view
 
 1. Click the **View** tab in the **Diary** screen.
 
@@ -21,9 +23,9 @@ In SuperOffice CRM, you can add a selection of users and resources in your organ
     > To edit an existing view, click **Edit**, and to copy an existing view, click **Copy**.
 
     <details><summary>Why is the Edit button greyed out?</summary>
-    You can only make changes in group views you have created yourself. If you are displaying a predefined group view, the **Edit** button will be greyed out to indicate that you cannot change it here. These group views contain all users that have been assigned to the specific groups. This is defined in SuperOffice Settings and maintenance.
+    You can change only group views created by you. In a predefined group view, the **Edit** button is greyed out to indicate that you cannot change it here. These group views contain all users that have been assigned to the specific groups. This is defined in SuperOffice Settings and maintenance.
 
-    If you want to edit and save a predefined group view, select the **Copy** option and save the view with a new name.
+    To edit and save a predefined group view, select the **Copy** option and save the view with a new name.
     </details>
 
 1. In the **New group view** dialog, enter the appropriate information in the **Name** and **Description** fields.
@@ -32,15 +34,15 @@ In SuperOffice CRM, you can add a selection of users and resources in your organ
 
 1. The contents of the list box immediately below the **Select from** field vary depending on what you have selected under **Select from**.
 
-    * If you selected **Associates**, a list of user groups in your organisation is displayed. You can also select **All** if you want to display all the users in the organisation.
+    * If you selected **Associates**, a list of user groups in your organisation is displayed. You can also select **All** to display all the users in the organisation.
 
     * If you selected **Project**, the history list of projects is displayed.
 
-    * If you selected **Resource**, a list of resource groups in your organisation is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** if you want to see all the resources in your organisation.
+    * If you selected **Resource**, a list of resource groups in your organisation is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** to see all the resources in your organisation.
 
 1. Select the users/resources you require and click the right arrow ( ![icon][img2] ) to add them to the pane on the right. You can also select users and resources individually by double-clicking them.
 
-1. The pane on the right displays all the users and resources you have added to the group view. If you want to remove a user or a resource from this list, select it and click **Delete**.
+1. The pane on the right displays all the users and resources you have added to the group view. To remove a user or a resource from this list, select it and click **Delete**.
 
 1. The users and resources you have chosen will be displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ( ![icon][img3] ) or arrow down ( ![icon][img4] ) to move it up or down.
 
@@ -49,7 +51,7 @@ In SuperOffice CRM, you can add a selection of users and resources in your organ
 You will then be returned to the **View** tab, where you can create appointments for associates, and so forth.
 
 > [!TIP]
-> If you want to delete the active group view, click the **Task** button at the bottom right and select **Delete group view**.
+> To delete the active group view, click the **Task** button at the bottom right and select **Delete group view**.
 
 ## What would you like to do now?
 

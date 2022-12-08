@@ -15,7 +15,7 @@ language: en
 
 1. Click **Edit**.
 
-1. When you have made the necessary changes, click **Save** to close and save. Click **Cancel** if you want to reject your changes.
+1. When you have made the necessary changes, click **Save** to close and save. Click **Cancel** to reject your changes.
 
 > [!TIP]
 > If the **Save** button is disabled, this means there are one or more mandatory fields that have not been filled out.

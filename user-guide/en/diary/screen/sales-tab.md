@@ -20,7 +20,7 @@ The following data is displayed:
 * The date of the next activity recorded for the sale (the oldest follow-up that has not yet been completed)
 
     > [!TIP]
-    > If you want to know what this next follow-up is, double-click the sale to open the **Sale** screen. The follow-up can be viewed in the **Activities** section tab of the sale.
+    > To find out what this next follow-up is, double-click the sale to open the **Sale** screen. The follow-up can be viewed in the **Activities** section tab of the sale.
 
 * The current stage of the sale
 

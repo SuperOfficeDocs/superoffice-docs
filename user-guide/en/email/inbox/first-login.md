@@ -15,7 +15,7 @@ To access email, you must first specify details about your email account. The **
 
 1. In the **Email account** field, enter the email address of the account you want to use in SuperOffice.
 
-2. If you want to enter information for incoming and outgoing email, click **Advanced settings**. If not, click **Next**. SuperOffice will then try to set up this information for you.
+2. To enter information for incoming and outgoing email, click **Advanced settings**. If not, click **Next**. SuperOffice will then try to set up this information for you.
 
 3. In the **Password** field, enter your password.
 

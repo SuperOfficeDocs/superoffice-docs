@@ -27,9 +27,9 @@ A request can arrive in the system via an email from the customer, or you can re
 
     <details><summary>What if the person is not a registered contact?</summary>
 
-    You can register new contacts by clicking ![icon][img1] in the **Contacts** field in the **Properties** tab.
+    To register a new contact, click ![icon][img1] in the **Contacts** field in the **Properties** tab.
 
-    Optionally, you can enter an email address if you want to add a recipient without registering them in the system. In this case, they will not be added as contacts for the request.
+    Optionally, enter an email address to add a recipient without registering them in the system. In this case, they will not be added as contacts for the request.
     </details>
 
     > [!NOTE]
@@ -52,32 +52,40 @@ A request can arrive in the system via an email from the customer, or you can re
 Here you enter information to correctly assign and prioritize the request.
 
 * In the **Title** field, enter a descriptive name for the request.
+
 * In the **Category** field, and select the category you want from the list that appears.
+
 * In the **Owner** field, select one of the following options:
-  * If you want to assign the request to a specific person, select the name you require.
+  * To assign the request to a specific person, select the name you require.
   * **(Active user)**: Select this option to assign the request to yourself.
   * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
   * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
+
 * In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
+
 * In the **Access level for request** list box, select one of the following options:
   * **External**: Select this option if the contact is to have access to the request viaSuperOffice Customer Centre.
   * **Internal**: Select this option if the contact is not to have access to the request. The request will be listed in SuperOffice Customer Centre, but the contact cannot view the request details or messages.
+
 * In the **Status** list box, choose one of the following:
   * **Open**: Select this option if the request is in progress.
   * **Closed**: Select this option if the request has been completed.
   * **Postponed**: To postpone handling of this request, select this option and specify a date and time in the **Activate** field. On this date and time, the request is set back to **Open**.
+
 * In the **Tags** list box, [select relevant tags][4] for this request.
+
 * The **Contacts** field: By default, the person you entered in the **To** field is also added as a contact for the request (after you click **OK**).
   * You can add additional contacts if you like.
   * Contacts added here will be linked to the request and may view information about the request in SuperOffice Customer Centre.
   * If you enter more than one contact, the first contact will be the main contact for the request. You can click and drag the contacts to change the order.
   * Click ![icon][img1] to [create a new contact][5].
+
 * Automatically add message recipients as request contacts: This checkbox is selected by default for new requests, so any recipients you add in the **To** field when creating the request, will also be added as contacts for the request. The contacts are added when you click **OK**.
 
 ## Message
 
 > [!NOTE]
-> If you want to send the message to someone, you must add recipients in the **To** field above the tabs. To make the message available for the contact via SuperOffice Customer Centre, you must set the access level (for the message) to **External**.
+> To send the message to someone, add recipients in the **To** field above the tabs. To make the message available for the contact via SuperOffice Customer Centre, set the access level (for the message) to **External**.
 
 Here you type in the message you want to add to the request. This works in the same way as when entering text into a word processor. You can also add attachments to the message.
 

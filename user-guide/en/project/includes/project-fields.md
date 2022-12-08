@@ -23,7 +23,7 @@
     > [!NOTE]
     > If the project is linked to a [project guide][2], the statuses of the project guide are shown in this field. When you change a status, for example from **Planned** to **In progress**, the first status in the **Project guide** section tab is marked as completed, with a tick.
 
-1. **End date:** Enter the end date of the project in the **End date** field. If you want to change the proposed end date, click the arrow next to the date and select a new one in the calendar that appears.
+1. **End date:** Enter the end date of the project in the **End date** field. To change the proposed end date, click the arrow next to the date and select a new one in the calendar that appears.
 
 1. **Next milestone:** If the project is linked to a project guide, the **Next milestone** field shows the date of the next milestone follow-up linked to the project. If this date is prior to today, it is shown in red. If the project is not linked to a project guide, the project end date is shown here. The **Next milestone** date calculates automatically based on activities linked to the project or entered via the project guide. Usually this is the date of the next open activity in the project's **Activities** section tab.
 

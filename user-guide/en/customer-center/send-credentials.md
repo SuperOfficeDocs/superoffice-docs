@@ -11,7 +11,7 @@ language: en
 
 # Send passwords to contacts
 
-A contact who is going to have access to a customer centre needs a user name and password to log in to the customer centre. You send this information to the contact as follows:
+A contact who is going to have access to a customer centre needs a user name and password to log in to the customer centre. To send this information to the contact:
 
 1. Open the **Contact** screen.
 

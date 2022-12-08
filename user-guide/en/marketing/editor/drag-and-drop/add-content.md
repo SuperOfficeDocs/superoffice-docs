@@ -24,14 +24,14 @@ Add content to your message by using the side-panel.
 | Icon | Name | Function |
 |------|------|----------|
 | ![icon][img2] | Columns | Use columns to structure your message into columns and rows.   |
-| ![icon][img3] | Button  | Use buttons to add tracked links, regular URLs, or subscribe links. |
+| ![icon][img3] | Button | Use buttons to add tracked links, regular URLs, or subscribe links. |
 | ![icon][img4] | Divider | Use divider lines to separate text blocks and other content. |
 | ![icon][img5] | Heading | Add a heading to your message. |
-| ![icon][img6] | HTML    | Add html formatted text to your message. |
-| ![icon][img7] | Image   | Add images from the SuperOffice database or upload you own images. Insert images in the message. |
-| ![icon][img8] | Menu    | Add a menu with multiple links. |
-| ![icon][img9] | Social  | Add links to social media. |
-| ![icon][img10] | Text    | Add text content. See Edit content. |
+| ![icon][img6] | HTML| Add html formatted text to your message. |
+| ![icon][img7] | Image | Add images from the SuperOffice database or upload you own images. Insert images in the message. |
+| ![icon][img8] | Menu | Add a menu with multiple links. |
+| ![icon][img9] | Social | Add links to social media. |
+| ![icon][img10] | Text | Add text content. See Edit content. |
 | ![icon][img11] | Receipt | Add a receipt showing the information that the recipient has added to a form. |
 
 ## Adding blocks ![icon][img12]

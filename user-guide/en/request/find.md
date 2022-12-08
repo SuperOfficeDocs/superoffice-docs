@@ -11,7 +11,7 @@ language: en
 
 # Find a request
 
-If you want to find a specific request in SuperOffice Service, do one of the following:
+Do one of the following:
 
 * Use lists, which are actually predefined searches.
 * Use the search screen for requests.
@@ -41,7 +41,7 @@ The simplest way to search for requests is to use the predefined searches availa
 
 * **Get next request in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to. [How to set up Get next request in queue][5].
 
-* **Unassigned requests**: Lists requests that no-one has been assigned responsibility for. If you want to [take responsibility for one of the requests][6], it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time.
+* **Unassigned requests**: Lists requests that no-one has been assigned responsibility for. To [take responsibility for one of the requests][6], it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time.
 
 ### Customize search criteria
 
@@ -56,7 +56,7 @@ In practice, all these lists are predefined searches, and if you wish you can cu
 
 ## <a id="search" />Search for requests
 
-If you are looking for a request in the system and cannot find it using the predefined searches, you can do as follows:
+If you are looking for a request in the system and cannot find it using the predefined searches, try this:
 
 1. Select **Requests > Find requests**. This takes you to the **Criteria** screen.
 

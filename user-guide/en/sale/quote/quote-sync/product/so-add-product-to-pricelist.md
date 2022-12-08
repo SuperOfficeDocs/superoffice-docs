@@ -15,7 +15,9 @@ In the **Add/Edit product** dialog, you enter all the information about a produc
 
 [!include[Go to products](../includes/goto-products.md)]
 
-1. In the **Price list** list, select the price list you want to add products to. If you want to add a new price list, see [Add a price list][1].
+1. In the **Price list** list, select the price list you want to add products to.
+
+    [How do I add a price list?][1]
 
 1. Click **Add** at the bottom of the tab. The **Add/Edit product** dialog appears.
 
@@ -28,7 +30,7 @@ In the **Add/Edit product** dialog, you enter all the information about a produc
     The product is added to the price list.
 
 > [!NOTE]
-> You can also import products from a spreadsheet. See [Import products from Excel][5].
+> You can also [import products from a spreadsheet][5].
 
 ## Add image
 
@@ -61,7 +63,7 @@ In the list on the right you can add product information. This can include:
 
 [!include[Why set all fields when creating product](../includes/quote-config-product.md)]
 
-If you want to know which fields are displayed, go to the **Settings** tab and click **Configure product** (see [Configure products][3]).
+To find out which fields are displayed, go to the **Settings** tab and click **Configure product** (see [Configure products][3]).
 </details>
 
 <!-- Referenced links -->

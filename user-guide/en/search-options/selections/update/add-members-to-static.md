@@ -24,8 +24,6 @@ There are simple rules for members of selections.
 
 ## Add members to an open static selection
 
-You can add new members to an open static selection as follows:
-
 1. Click the **Add members** button below the list of members.
 
 2. In the **Add all members matching** dialog, [edit the criteria][2].
@@ -40,15 +38,14 @@ Use this option to add the selected records to an existing static selection.
 
 2. Select one or more records on the list.
 
-    > [!NOTE]
-    > If you want to add several records, use **Shift** or **Ctrl** + click.
+    To add several records, use **Shift** or **Ctrl** + click.
 
 3. Right-click the records and select **Add to selection** on the menu which appears.
 
 4. Select **Add to existing static selection**. Specify the required selection by clicking the arrow and selecting the required selection in the displayed list box, or by typing in the whole or the beginning of the selection name.
 
     > [!NOTE]
-    > The list of selections will be limited to the following:
+    > The list of selections is limited to:
     >
     > * Existing *static* selections (not dynamic selections or combined selections)
     >
@@ -65,7 +62,7 @@ Use this option to add the selected records to an existing static selection.
 2. Select one or more records on the list.
 
     > [!NOTE]
-    > If you want to add several records, use **Shift** or **Ctrl** + click.
+    > To add several records, use **Shift** or **Ctrl** + click.
 
 3. Right-click the records and select **Add to selection** on the menu which appears.
 

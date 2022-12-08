@@ -25,8 +25,6 @@ This is an example of a very simple trigger. You can for instance add conditions
 
 We will now create a series of actions based on the example above.
 
-Do as follows:
-
 1. Go to the **Triggers** tab:
 
     * In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and select **Triggers** tab.

@@ -54,17 +54,24 @@ To view the details of several activities from the activities list, without havi
 
 ## Preferences
 
-Once an activity is completed, it will be removed from the activities list by the next day. By default, the **Activities** section tab displays tasks that you have not completed as of today’s date. But you can also choose to display future tasks:
+Once an activity is completed, it will be removed from the activities list by the next day. By default, the **Activities** section tab displays tasks that you have not completed as of today’s date.
+
+### Display future tasks
 
 1. Go to ![icon][img1] **Personal settings > Preferences**.
-2. Select **Functions** and find the **Show days ahead** option. Here, you define how many days ahead you want completed activities to be visible for. For example, entering 7 here would display tasks for the next week.
+2. Select **Functions** and find the **Show days ahead** option.
 
-If you want activities to be removed from the activities list as soon as they are completed, you can set this as a preference.
+    Here, you define how many days ahead you want completed activities to be visible for.
+    For example, entering 7 here would display tasks for the next week.
+
+### Remove activity from list when completed
 
 1. Go to ![icon][img1] **Personal settings > Preferences**.
 2. Select **Visual effects**, and then edit the **Remove completed activities** [preference][8].
 
-If an activity is highlighted in red type, this means that its provisional date has been passed. However, you can change this setting as follows:
+### Highlight overdue activities
+
+If an activity is highlighted in red type, this means that its provisional date has been passed. To change this setting:
 
 1. Go to ![icon][img1] **Personal settings > Preferences**.
 2. Select **Functions**, and edit the **Mark overdue activities** option.

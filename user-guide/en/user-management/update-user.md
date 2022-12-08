@@ -78,9 +78,9 @@ You can also update several users at the same time.
 
     * **List only requests in own categories**: Check here to display only requests in the categories that the selected users are members of.
 
-    * **Automatically quote the last message**: If you check here, the last message in the request is automatically pasted into the text field in the new message.
+    * **Automatically quote the last message**: If checked, the last message in the request is automatically pasted into the text field in the new message.
 
-    * **Show only own categories**: If you check here, you can only select categories you are a member of.
+    * **Show only own categories**: If checked, you can select only categories you are a member of.
 
     * If extra fields have been added for users, you can also change these.
 7. Click **OK**. The selected users are updated with your changes.

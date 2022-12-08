@@ -11,7 +11,7 @@ language: en
 
 # Request status
 
-All requests that are registered in SuperOffice Service, have a status, such as **Open**, **Closed** or **Postponed**. In the **Request status** tab, you can see the request statuses already defined in the system, and create additional request statuses. A request status needs to be linked to one of the system's internal statuses, such as **Open** or **Closed**. Each internal status must be linked to at least one request status.
+All requests that are registered in SuperOffice Service, have a status, such as **Open**, **Closed** or **Postponed**. In the **Request status** tab, you can see the request statuses already defined in the system, and create additional request statuses. A request status must be linked to one of the system's internal statuses, such as **Open** or **Closed**. Each internal status must be linked to at least one request status.
 
 For example, you can create a new status called "Waiting for reply" as a more detailed variant of either **Closed** or **Open**, depending on how you want the system to process and report this status internally. You can also link custom logic to such statuses to streamline your business processes.
 

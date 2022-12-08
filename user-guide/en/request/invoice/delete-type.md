@@ -15,7 +15,7 @@ language: en
 1. Select ![icon][img1] **System settings** > **Invoice types**.
 2. Click the required invoice type. The **Invoice type properties** screen appears.
 3. Click the **Delete** button at the bottom of the screen.
-4. Click **OK** when you are asked if you want to delete the invoice type. The invoice type is removed from SuperOffice Service.
+4. Click **OK** to confirm. The invoice type is removed from SuperOffice Service.
 
 <!-- Referenced links -->
 

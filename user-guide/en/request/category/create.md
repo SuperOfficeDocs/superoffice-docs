@@ -31,13 +31,13 @@ language: en
 
     * **Category administrator**: Select who will be responsible for the requests in this category. In the **Assignment method** tab, you can specify that requests are to be assigned to the category manager if no other members of the category are available. Normally, the role of category administrator should be filled by a departmental manager.
 
-        * **Show category in status view**: If you check here, this category will be displayed under **Status** on the **Dashboard**.
-        * **Only members have access**: If you check here, the category is accessible only to members of the category.
-        * **Send notification to members about new request**: If you check here, all members of the category will receive notification of new requests in this category.
+        * **Show category in status view**: If checked, this category will be displayed under **Status** on the **Dashboard**.
+        * **Only members have access**: If checked, the category is accessible only to members of the category.
+        * **Send notification to members about new request**: If checked, all members of the category will receive notification of new requests in this category.
 
     * **Send notification about new request to email address**: Enter an email address.
 
-    * **Take ownership when replying**: If you check here, the user who replies to a request in this category, will be set as the owner of the request.
+    * **Take ownership when replying**: If checked, the user who replies to a request in this category, will be set as the owner of the request.
 
     * **Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences][1], unless you select **User-defined**.
 

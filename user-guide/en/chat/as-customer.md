@@ -11,8 +11,6 @@ language: en
 
 # Using the chat function from the customer's perspective
 
-From the customer's point of view, the chat function works as follows:
-
 1. The customer clicks the chat icon on a web page.
 
 2. The customer enters name, email address and any other required information.

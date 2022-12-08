@@ -19,7 +19,7 @@ In the **Add/edit product** dialog, you can add a product, and specify a quantit
 
 1. Double-click a product in the quote.
 
-1. If you want to search in a specific price list, you can select it in the list next to the **Product search** field.
+1. To search in a specific price list, you can select it in the list next to the **Product search** field.
 
 1. Start typing the name of the product or product code in the **Product search** field. The hitlist is updated automatically. You can search on all or parts of both the product name and product code.
 

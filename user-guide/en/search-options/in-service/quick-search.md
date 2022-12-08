@@ -48,8 +48,12 @@ To search for things other than requests, start the search criteria by specifyin
 
 How this works in practice:
 
-1. Enter the search criterion in this format: For example, if you want to search for a company named "Autovalets", you could enter "o:autovalets" or "o:auto".
+1. Enter the search criterion in this format.
+
+    For example, to search for a company named "Autovalets", you could enter "o:autovalets" or "o:auto".
+
 2. Press **ENTER**.
+
 3. One of the following happens:
     * If there is just one record that matches the search criterion, that record is opened.
     * If several records match the search criterion, a list of search results is displayed. From this list, you can open the record you want.

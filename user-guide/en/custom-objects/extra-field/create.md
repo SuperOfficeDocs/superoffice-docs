@@ -33,7 +33,7 @@ After you have created an extra table, you must set up fields in the table, to a
 | Choose from list box | If the field is connected to an extra table, select this option to display a list of table values. |
 | Choose values from list | If checked, the field becomes a list box. The options in the list will be the text strings entered in the text box. There is one line per option. |
 | Create index | Specify whether to index the field. It is quicker to search for data in indexed fields. |
-| Database field | The name the column will have in the database. This name must be unique in this table. In addition, the column name must be a single word, containing only underscores, letters from a to z or numbers, and must begin with "x_". You can only specify this name when the field is created; it cannot be changed later on. |
+| Database field | The name the column will have in the database. This name must be unique in this table. In addition, the column name must be a single word, containing only underscores, letters from a to z or numbers, and must begin with "x_". Can be specified only when the field is created; it cannot be changed later on. |
 | Decimal places | The number of decimal places that are allowed in a number. |
 | Default value | The default value will be used for this field. |
 | Description | The default description. |
@@ -54,7 +54,7 @@ After you have created an extra table, you must set up fields in the table, to a
 | Target table | Specify which table should be used. |
 | Text area /Height | Select this options to specify the height (number of lines) of the text field. |
 | Type | Displays the field type you have selected. |
-| Update null values now | Check this option if you want to replace all null values (empty fields) in the database with the default value. Note that this operation can take a while. |
+| Update null values now | Check this option to replace all null values (empty fields) in the database with the default value. Note that this operation can take a while. |
 | URL | Enter the URL of the dynamic link here. |
 | Use active user as default value | If this option has been checked, the field's value is set as the current user as default. In our example, this could be relevant for the "Registered by" field. |
 | Use current date/time as default value | If this option has been checked, the field's value is set as the current date/time as default. In our example, this could be relevant for the "Registered date" field. |

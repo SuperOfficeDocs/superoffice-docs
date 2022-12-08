@@ -41,17 +41,17 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **Cross-post timeframe in minutes**: Here you enter a number of minutes and if two or more emails arrive from the same contact within this period, the requests will be sent to the same request handler, if possible.
 
-* **External access level as default**: If you check here, external access level will be the default for new requests and messages. The alternative is internal access level as default.
+* **External access level as default**: If checked, external access level will be the default for new requests and messages. The alternative is internal access level as default.
 
-* **Do not send email to new contacts**: If you check here, email will not be sent to newly registered contacts.
+* **Do not send email to new contacts**: If checked, email will not be sent to newly registered contacts.
 
-* **Automatically create contact for new inbound request**: If you check here, SuperOffice will automatically create a new person if it does not recognize an email address in an inbound request. This option can be disabled for GDPR compliance.
+* **Automatically create contact for new inbound request**: If checked, SuperOffice will automatically create a new person if it does not recognize an email address in an inbound request. This option can be disabled for GDPR compliance.
 
-* **Enable editing of messages**: If you check here, the user will be allowed to edit messages.
+* **Enable editing of messages**: If checked, the user will be allowed to edit messages.
 
-* **<!-- onsite--> Use user authentication from web server**: If you check here, SuperOffice Service allows user authentication deriving from the web server (Microsoft IIS).
+* **<!-- onsite--> Use user authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the web server (Microsoft IIS).
 
-* **<!-- onsite--> Use customer authentication from web server**: If you check here, SuperOffice Service allows user authentication deriving from the customer centre web server (Microsoft IIS).
+* **<!-- onsite--> Use customer authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the customer centre web server (Microsoft IIS).
 
 * **<!-- onsite--> Online on the Internet**: Check here if SuperOffice Service is available on the Internet. This will control parts of the functionality available in SuperOffice Service, since some functionality actually requires the solution to be online.
 

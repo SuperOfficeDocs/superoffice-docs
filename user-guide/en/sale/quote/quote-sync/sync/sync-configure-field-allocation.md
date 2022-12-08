@@ -29,7 +29,7 @@ When synchronising data between SuperOffice and ERP systems, must specify which 
 
     * **Show in Search**: Check here if this field should be displayed in search results.
     * **ERP Field**: Shows the name of the field in the ERP system.
-    * **Direction**: Here you select the  direction(s) for the synchronisation.
+    * **Direction**: Here you select the direction(s) for the synchronisation.
 
         <details><summary>What does the icons mean?</summary>
 

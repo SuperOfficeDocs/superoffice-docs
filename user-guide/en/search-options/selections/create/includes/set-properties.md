@@ -7,7 +7,7 @@
 
 1. Add a description of the selection in the **Description** field, if relevant.
 
-1. Check **Completed** if you want to specify that the selection is inactive. If you want the selection to be active, leave this box unchecked.
+1. Check **Completed** to specify that the selection is inactive. If you want the selection to be active, leave this box unchecked.
 
 <!-- Referenced links -->
 [1]: ../../update/index.md

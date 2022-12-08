@@ -25,7 +25,7 @@ items:
     1. Under **Selection 2**, choose the other selection you want to combine.
 
         > [!NOTE]
-        > If you selected **Companies/contacts** under **Selection of**, you can choose from all types of selection here (a sales selection also contains companies/contacts related to the sales). But if the combined selection comprises Sales, Projects, Documents, Follow-ups, Requests, Form submissions, Chat conversations, Mailings or Products, you can only choose the same type of selections for **Selection 1** and **Selection 2**.
+        > If you selected **Companies/contacts** under **Selection of**, you can choose from all types of selection here (a sales selection also contains companies/contacts related to the sales). But if the combined selection comprises Sales, Projects, Documents, Follow-ups, Requests, Form submissions, Chat conversations, Mailings or Products, you must choose the same type of selections for **Selection 1** and **Selection 2**.
 
     1. Under **Compare**, select which entries from the two selections to include in the combined selection.
     [!include[Options for combining selections](../includes/table-selection-combinations.md)]

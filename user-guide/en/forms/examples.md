@@ -144,7 +144,7 @@ In this example we will show you how to create short form for customers who want
 
     * First and last name. Remove the **Contact - Name field**.
     * **View elements** > **Text block**: Enter the text in "How can we contact you?" in bold.
-    * **Contact - Mobile**: Enter an example of a correctly formatted phone number for your country (include the country code) in the     **Placeholder** field (example: +47 999 88 777).
+    * **Contact - Mobile**: Enter an example of a correctly formatted phone number for your country (include the country code) in the **Placeholder** field (example: +47 999 88 777).
     * **Contact - Email**
     * **Form elements** > **Text area**: Change the name of the field to "Comment (optional)" and write "How can we help you today?" in the **Placeholder** field.
 
@@ -160,7 +160,7 @@ In this example we will show you how to create short form for customers who want
 
 1. Click **Apply now** to save the form and continue editing.
 
-1. Optional: If you want to enable double opt-in, you should also set the **Email** field to **Mandatory**.
+1. Optional: To enable double opt-in, you should also set the **Email** field to **Mandatory**.
 
 1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for contacting us. We will be in touch shortly."). This will display after the customer has submitted the form.
 

@@ -7,7 +7,7 @@
 
 1. Click **Find**. The **Results** tab displays the data matching your criteria.
 
-1. If you want to save the results in a selection, click **Save as selection**. If not, refine your search criteria.
+1. To save the results in a selection, click **Save as selection**. If not, refine your search criteria.
 
 <!-- Referenced links -->
 [2]: ../../../using-search-criteria.md

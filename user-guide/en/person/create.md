@@ -59,7 +59,7 @@ language: en
 
 ## <a id="more-tab" />The More tab (Contact screen)
 
-The **More** tab contains user-defined fields for contacts. If, for example, your organization sells IT products and needs to have fields for each contact's hardware and software, you can specify in SuperOffice Settings and maintenance that these fields are to be inserted here.
+The **More** tab contains user-defined fields for contacts. If, for example, your organization sells IT products and needs fields for each contact's hardware and software, you can specify in SuperOffice Settings and maintenance that these fields are to be inserted here.
 
 Other examples: Year employed, ERP IDs, user type, CXM info.
 

@@ -12,7 +12,7 @@ language: en
 # Edit privacy settings for a contact
 
 > [!NOTE]
-> This feature requires functional rights. If you do not have the proper functional rights, you can only set **E-marketing** to on or off.
+> This feature requires functional rights. Without the proper functional rights, you can only set **E-marketing** to on or off.
 
 [!include[Need concent](../includes/why-consent.md)]
 

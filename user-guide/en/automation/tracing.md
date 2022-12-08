@@ -28,14 +28,18 @@ The **Tracing** tab contains a list of all traces. Click a trace in the list to 
 ## Edit tracings
 
 1. Click a trace in the **Tracing** list to open it.
+
 2. Click ![icon][img3] **Edit trace**. The **Edit trace** screen displays.
+
 3. Fill in the following fields:
+
     * **Description**: Enter a description of the trace, to make it easier to identify.
-    * **User filter**: If you want to trace the script for a specific user, select the user from the list.
+    * **User filter**: To trace the script for a specific user, select the user from the list.
     * **Trace resolution**: Enter the sampling frequency of the trace log.
         Example: Enter 1 to log every command that is executed by the script. Enter 5 to log every fifth command that is executed by the script.
     * **Keep traces**: Select how long the trace logs should be kept.
     * **Enabled**: Select this option to activate the trace.
+
 4. Click **OK** when you are done.
 
 <!-- Referenced links -->

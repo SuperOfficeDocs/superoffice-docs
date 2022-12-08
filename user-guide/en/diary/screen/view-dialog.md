@@ -25,19 +25,19 @@ Here you can enter a description of the view.
 
 ### Select from
 
-* Select **Associates** if you want to add users from your organisation to the view.
-* Select **Project** if you want to add project participants from your organisation to the view.
-* Select **Resource** if you want to add resources such as conference rooms and projectors from your organisation to the view.
+* Select **Associates** to add users from your organisation to the view.
+* Select **Project** to add project participants from your organisation to the view.
+* Select **Resource** to add resources such as conference rooms and projectors from your organisation to the view.
 
 ### List box
 
 When you have selected an option for **Select from**, a list box displays below. The contents of this list box will vary depending on what you selected above:
 
-* If you selected **Associates**, a list of user groups in your organisation is displayed. You can also select **All** if you want to display all the users in the organisation.
+* If you selected **Associates**, a list of user groups in your organisation is displayed. You can also select **All** to display all the users in the organisation.
 
 * If you selected **Project**, the history list of projects is displayed. Here you can also use [FastSearcher][6] or [The History list][5].
 
-* If you selected **Resource**, a list of resources in your organisation is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** if you want to see all the resources in your organisation.
+* If you selected **Resource**, a list of resources in your organisation is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** to see all the resources in your organisation.
 
 ### Left pane
 
@@ -46,11 +46,11 @@ Here you will see a list of available users and/or resources that can be added t
 > [!NOTE]
 > You can also select users and resources individually by double-clicking them.
 
-Click **Select all** ( ![icon][img4] ) if you want to select all the users/resources in the list above. Click **Unselect all** ( ![icon][img5] ) to unselect all the users and resources.
+Click **Select all** ( ![icon][img4] ) to select all the users/resources in the list above. Click **Unselect all** ( ![icon][img5] ) to unselect all the users and resources.
 
 ### Right pane
 
-Displayed here are all the users and resources you have added to the group view. If you want to remove a user or a resource from this list, select it and click the left arrow ( ![icon][img3] ). The users and resources you have chosen will be displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ( ![icon][img6] ) or arrow down ( ![icon][img7] ) to move it up or down.
+Displayed here are all the users and resources you have added to the group view. To remove a user or a resource from this list, select it and click the left arrow ( ![icon][img3] ). The users and resources you have chosen will be displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ( ![icon][img6] ) or arrow down ( ![icon][img7] ) to move it up or down.
 
 ### Save
 

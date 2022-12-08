@@ -38,7 +38,7 @@ In the **Event** tab, you can specify settings for publishing events.
 | Log as activity | If you also check **Log as activity** next to **Sign on** or **Sign off**, an activity is created for you when an Audience user signs on to or off from the event. |
 
 > [!TIP]
-> If you click the button ( ![icon][img5] ) to the right of **Confirmation**, you can enter a confirmation text that will be displayed in a dialog when an Audience user signs on or off the event. The user needs to click **Yes** or **No** in this dialog to continue.
+> If you click the button ( ![icon][img5] ) to the right of **Confirmation**, you can enter a confirmation text that will be displayed in a dialog when an Audience user signs on or off the event. The user must click **Yes** or **No** in this dialog to continue.
 
 ## <a id="more" />The More tab
 

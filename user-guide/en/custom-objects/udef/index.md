@@ -60,7 +60,7 @@ You can then add these fields to the **Company** screen:
 | Application A; Application B; Application C | Checkbox | Three checkboxes where you can check the applications that the customer has purchased. |
 
 > [!NOTE]
-> The fields you add will be displayed in the **More** tab in the **Company** screen. If you want to display them on the company card itself, [you specify them as *page 1 fields*][1].
+> The fields you add will be displayed in the **More** tab in the **Company** screen. To display them on the company card, [specify them as *page 1 fields*][1].
 
 ### User-defined fields for sales
 

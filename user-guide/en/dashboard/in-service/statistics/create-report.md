@@ -17,4 +17,4 @@ This screen is used for choosing the entry point for the report.
 
 * **Main table**: Here you can choose the main table for the report. The main table is the table you would like to iterate over in the report. You can to list all fields from the main table in the report, and also fields from other tables related to the main table.
 
-* **Begin with a report template**: Choose this option if you want to begin with a predefined report template.
+* **Begin with a report template**: Choose this option to begin with a predefined report template.

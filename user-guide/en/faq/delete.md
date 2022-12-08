@@ -16,4 +16,4 @@ language: en
 3. Click the FAQ entry you want.
 4. In the **FAQ entry** screen, click **Edit entry**.
 5. In the **FAQ entry properties** screen, click the **Delete** button at the bottom of the screen.
-6. Click **OK** when you are asked if you want to delete the FAQ entry. The FAQ entry is removed from SuperOffice Service.
+6. Click **OK** to confirm. The FAQ entry is removed from SuperOffice Service.

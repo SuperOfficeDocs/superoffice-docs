@@ -34,7 +34,7 @@ Alternatives are shown as tabs in the quote (in the **Edit quote** dialog).
 
 6. Click **Add** when you have finished. The new alternative is added as a new tab in the quote.
 
-7. If you want to change the name of the **Products** tab to something describing this alternative, double-click the name of the tab.
+7. To change the name of the **Products** tab to something describing this alternative, double-click the name of the tab.
 
 ## Favourite alternative
 

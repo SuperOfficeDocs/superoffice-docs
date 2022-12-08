@@ -21,11 +21,11 @@ language: en
         3. Select **Send as email**.
 
         > [!NOTE]
-        > You can only send one document at a time in this fashion. If you want to send several documents at once, select the documents in the **Activities** section tab.
+        > You can send only one document at a time in this fashion. To send several documents at once, select the documents in the **Activities** section tab.
 
     <details><summary>Is a dialog entitled Select email address displayed?</summary>
 
-    If the dialog is displayed, do as follows:
+    If the dialog is displayed:
 
     1. Choose the company to send the document to in the company field. By default the company that is active in the **Company** screen is shown. Here you can also use [FastSearcher][1] or [The History list][2]. Once you have chosen a company, their email address is displayed next to the company field.
 
@@ -40,7 +40,7 @@ language: en
     * The email address of the addressee of the document is displayed by default in the **To** field.
     * The document heading is displayed in the **Subject** field of the email.
     * The document itself is attached to the message as an ordinary email attachment.
-    * Type in a message to the recipient if required. If you want to, you can also change the recipient.
+    * Type in a message to the recipient if required. Optionally, change the recipient.
 
         > [!NOTE]
         > This information will not be updated in SuperOffice CRM.

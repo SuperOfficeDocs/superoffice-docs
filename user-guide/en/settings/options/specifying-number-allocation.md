@@ -19,11 +19,11 @@ language: en
 
 4. Check **Unique** if you want the counter values in the **Number**. field to be unique. Useful when SuperOffice CRM users allocate values themselves.
 
-5. Check **Allow blank** if you want an empty counter field to be a permitted value. Useful when the counter values must be unique. If **Allow blank** is checked, this means that the requirement for unique values does not apply to empty fields.
+5. Check **Allow blank** to permit empty counter fields. Useful when the counter values must be unique. If **Allow blank** is checked, this means that the requirement for unique values does not apply to empty fields.
 
 6. Check **Read only** if you do not want SuperOffice CRM users to type values into the **Number** field themselves.
 
-7. Check **Allocate** if you want to use the automatic counter function, so that the system enters values in the **Number** field for you.
+7. Check **Allocate** to use the automatic counter function, so that the system enters values in the **Number** field for you.
 
 8. The **Next number** field displays the next number to be used. You can change this value if required.
 

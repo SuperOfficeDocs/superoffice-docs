@@ -22,9 +22,9 @@ If you have two nearly identical projects, it is possible to merge them, includi
     ![Merge projects dialog -screenshot][img2]
 
     > [!TIP]
-    > If you want to switch the **From** and **To** projects, click the ![icon][img3] button.
+    > To switch the **From** and **To** projects, click the ![icon][img3] button.
 
-4. Select the **Replace empty fields in \[target project\] with data from \[source project\]** if you want to update empty fields in the target project with details from the source one.
+4. Select the **Replace empty fields in \[target project\] with data from \[source project\]** to update empty fields in the target project with details from the source one.
 
     [!include[Preview results](../includes/note-preview-results.md)]
 

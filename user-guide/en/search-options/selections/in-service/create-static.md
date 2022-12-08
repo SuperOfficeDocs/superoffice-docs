@@ -17,7 +17,7 @@ A static selection contains only those records you have added to it manually, un
 
 1. Select **Selections** > **New selection**. This takes you to the **New selection** screen.
 
-2. In the **Source table** field, select which type of records you want to include in the selection. For instance, if you want to create a selection of requests, select **Request**.
+2. In the **Source table** field, select which type of records you want to include in the selection. For instance, to create a selection of requests, select **Request**.
 
 3. Click **Static selection**.
 

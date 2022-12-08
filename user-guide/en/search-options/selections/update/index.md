@@ -30,7 +30,7 @@ language: en
 
 1. In the **Selection** is list, you can change a dynamic or combined selection into a static selection.
 
-1. When you have made the required changes, click **Save** to close and save the changes. Click **Cancel** if you want to reject your changes.
+1. When you have made the required changes, click **Save** to close and save the changes. Click **Cancel** to reject your changes.
 
 ## Why can't I convert the selection into a dynamic one?
 

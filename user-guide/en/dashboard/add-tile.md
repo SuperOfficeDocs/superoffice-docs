@@ -37,7 +37,7 @@ To add a tile to a dashboard:
 
 7. Repeat steps 4-6 to add more tiles.
 
-8. Adjust the tiles on the dashboard as follows:
+8. Adjust the tiles on the dashboard:
 
     * Hold the mouse-pointer over a tile and click and drag the frame to adjust the tile size. Available slots/spaces in the dashboard will be highlighted in yellow when the tile can fit in that position.
 

@@ -26,7 +26,7 @@ language: en
 4. At the bottom of the **User group** screen, click the **Delete** button.
 5. If this user group contains users, you must move the users to another group. In the **Move users and subgroups to** list, select the user group to move them to.
 6. Click **Delete**.
-7. Click **OK** when you are asked if you want to delete the user group. The user group is deleted and all users are moved to the group you selected in step 5.
+7. Click **OK** to confirm. The user group is deleted and all users are moved to the group you selected in step 5.
 
 <!-- Referenced links -->
 

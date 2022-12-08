@@ -29,10 +29,10 @@ In the **Interface** tab in the **Edit users** screen, you can edit the followin
 
 * **Use simplified text editor**: Checking here prevents the display of formatting options when writing a message, for instance.
 
-* **Single linebreaks in text editor**: If you check here, the mouse pointer is moved to the next line when you press **ENTER** in the text editor. The default setting is for a double linebreak to be inserted.
+* **Single linebreaks in text editor**: If checked, the mouse pointer is moved to the next line when you press **ENTER** in the text editor. The default setting is for a double linebreak to be inserted.
 
 * **Retain formatting when pasting text**: Checking here means that the original formatting of text you paste into messages is retained.
 
-* **Show checkboxes to the left in lists**: If you check here, checkboxes are displayed on the left of lists instead of on the right, in, for example, the **Result** section of the search screen. This does not apply to custom checkboxes.
+* **Show checkboxes to the left in lists**: If checked, checkboxes are displayed on the left of lists instead of on the right, in, for example, the **Result** section of the search screen. This does not apply to custom checkboxes.
 
-* **Show messages as plain text**: If you check here, the content of messages is shown as plain text. Images and formatting are not shown.
+* **Show messages as plain text**: If checked, the content of messages is shown as plain text. Images and formatting are not shown.

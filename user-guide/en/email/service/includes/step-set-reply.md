@@ -5,4 +5,4 @@
 
 1. In the **Reply template for reply to contact** list box, select which reply template to use when auto-replying to the customer.
 
-1. **Suggest FAQ entries from**: If you check here, the system will suggest FAQ entries based on the text in incoming emails. The suggested FAQ entries are available as template variables and can therefore be reused in the selected reply template. You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.
+1. **Suggest FAQ entries from**: If checked, the system will suggest FAQ entries based on the text in incoming emails. The suggested FAQ entries are available as template variables and can therefore be reused in the selected reply template. You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.

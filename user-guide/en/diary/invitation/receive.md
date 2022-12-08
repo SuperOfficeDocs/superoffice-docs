@@ -37,14 +37,14 @@ The icons in the list of invitations show information about the follow-up you ar
 
 To get a better overview of your invitations, you can filter the view using three checkboxes:
 
-* Check **Show responses** if you want to display rejection messages from others you have invited.
+* Check **Show responses** to display rejection messages from others you have invited.
 * Check **Show declined** to display follow-ups you yourself have declined.
 * Check **Show repetitions** to show repeating follow-ups. If the invitation concerns a repeating follow-up, all instances of the follow-up are shown in the **Invitations** dialog. You can then either accept or decline them individually.
 
 > [!TIP]
-> It is often a good idea to check **Show repetitions** so you can decide if you are able to attend each individual meeting. If you want to accept them all at once, uncheck **Show repetitions** again, select the row with the relevant follow-up and select **Accept**.
+> It is often a good idea to check **Show repetitions** so you can decide if you are able to attend each individual meeting. To accept them all at once, uncheck **Show repetitions** again, select the row with the relevant follow-up and select **Accept**.
 
-Check all three if you want to show all this information at the same time.
+Check all three to show all this information at the same time.
 
 If you do not check any of these options, all that is displayed are follow-ups you are invited to but have not yet made a decision on.
 

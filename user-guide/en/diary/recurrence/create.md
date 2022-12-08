@@ -25,7 +25,7 @@ It may happen that you want to create a series of appointments to occur at regul
 4. At the top right of the **Repeating follow-ups** dialog, the start date and time for the follow-up as well as the end time are displayed.
 
     > [!NOTE]
-    > You can only change the start date for the follow-up here. If you want to change the time, you must first close the **Repeating follow-ups** dialog and then change the time in the **Appointment**, **Task**, or **Phone call** dialog.
+    > You can change only the start date for the follow-up here. To change the time, first close the **Repeating follow-ups** dialog and then change the time in the **Appointment**, **Task**, or **Phone call** dialog.
 
 5. Under **Frequency** you specify if the follow-up should be repeated daily, weekly, monthly, yearly or at a user-defined interval. Then select further details for frequency in the field in the middle of the dialog. The options available here depend on what you select under **Frequency**:
     * If you select **Daily**, you can specify that the follow-up should repeat every working day, every day of the week, or at a user-defined interval, such as every other day.
@@ -36,14 +36,18 @@ It may happen that you want to create a series of appointments to occur at regul
 
     * If you select **Yearly**, you can specify on which day and month the follow-up should repeat each year, for example, every 23rd of September.
 
-    * If you select **Custom**, you can manually enter the dates you require. Select the day in the calendar and click the arrow (![icon][img2]) to add it to the list of selected dates. If you want to delete a date you have selected, select the date in the list and click **Delete**.
+    * If you select **Custom**, you can manually enter the dates you require. Select the day in the calendar and click the arrow (![icon][img2]) to add it to the list of selected dates. To delete a date, select the date in the list and click **Delete**.
 
 6. In the **Repeating follow-ups ends** field, choose if the follow-up should stop after a specific number of times or after a specific date.
 
-7. If you want to change one or more dates for a repeating follow-up manually, for example, if there is a conflict, you can do this in the list of selected dates at the far right of the dialog. You have the following options:
+7. To change one or more dates for a repeating follow-up manually, for example, if there is a conflict, you can do this in the list of selected dates at the far right of the dialog.
 
-    * Move a date: Select the date you want to move, and click **Later** ( ![icon][img3] ) if you want to defer the follow-up by one day, or **Earlier** ( ![icon][img4] ) if you want to bring the follow-up one day forwards.
+    **Options:**
+
+    * Move a date: Select the date you want to move, and click **Later** ( ![icon][img3] ) to defer the follow-up by one day, or **Earlier** ( ![icon][img4] ) to bring the follow-up one day forwards.
+
     * Add a date: Click the **Add** button below the list. The same calendar is then displayed as when you select **Custom**. Select the required date and click the arrow button ( ![icon][img2] ) to the right of the calendar to add the date to the list. Use the arrow buttons ( ![icon][img5] ![icon][img6] ) on either side of the month name in the calendar to display other months.
+
     * Delete a date: Select the date you want to delete, and click the **Delete** button below the list. The date will then be removed from the list of dates.
 
 8. When you have finished entering dates for the follow-up, click **OK** to save the dates and close the dialog, or click **Cancel** to close the dialog without saving the dates.

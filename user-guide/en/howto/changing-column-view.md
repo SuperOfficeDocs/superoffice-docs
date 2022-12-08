@@ -24,7 +24,7 @@ To change the order of the columns in a section tab, click and drag a column hea
 3. Select or deselect the relevant columns. Use the **Filter columns** fields to filter the columns that are displayed.
 4. Click **OK**.
 
-If you want to reset the columns to the default view, click **Reset**.
+To reset the columns to the default view, click **Reset**.
 
 ## Related topics
 

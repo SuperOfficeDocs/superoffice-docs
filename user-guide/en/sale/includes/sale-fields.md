@@ -36,7 +36,7 @@
     > [!NOTE]
     > The fields below change if you have checked **Stalled**. **Next activity** is changed to **Re-open date**, where you can enter a date for when the sale should be reopened, and **Source** is changed to **Reason (stalled)**, where you can enter why the sale cannot progress at the moment. If you have marked the sale as stalled, the **Appointment** dialog is displayed when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.
 
-13. Enter an estimated sale date in the **Sale date** field. If you want to change the estimated sale date, click the arrow next to the date and select a new one in the calendar that appears.
+13. Enter an estimated sale date in the **Sale date** field. To change the estimated sale date, click the arrow next to the date and select a new one in the calendar that appears.
 
 14. The **Next activity** field shows the date of the next follow-up linked to the sale (the oldest uncompleted follow-up). If this date is prior to today, it is shown in red.
 

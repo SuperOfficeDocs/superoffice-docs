@@ -11,11 +11,9 @@ language: en
 
 # Customer centre source files
 
-[!include[Requirement](../includes/req-cep.md)]
-
 In the **Customer centre source files** screen, you can edit the default pages in your customer centre.
 
-Do as follows:
+[!include[Requirement](../includes/req-cep.md)]
 
 1. Select ![icon][img1] **System settings** > **Customer centre source files**.
 

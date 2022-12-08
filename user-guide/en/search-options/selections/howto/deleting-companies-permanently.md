@@ -11,7 +11,7 @@ language: en
 
 # Delete records permanently
 
-If you want to delete multiple records (contacts, companies, sales, projects, and so on), you can create a selection of these records and delete them in one operation.
+To delete multiple records (contacts, companies, sales, projects, and so on), you can create a selection of these records and delete them in one operation.
 
 > [!NOTE]
 > This task is only available for users with administrator access. It is also a task you should think about carefully before performing, because it deletes all selected records permanently, both from the **Selection** screen and from the SuperOffice database.
@@ -20,7 +20,7 @@ If you want to delete multiple records (contacts, companies, sales, projects, an
 
 1. Go to a selection. For example, [use the Find screen][1].
 
-1. If you want to delete just some of the selection members, select them in the list of members.
+1. To delete just some of the selection members, select them in the list of members.
 
 1. Click the **Task** button and select **Delete all**.
 

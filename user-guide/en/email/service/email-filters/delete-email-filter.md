@@ -19,7 +19,7 @@ language: en
 
 1. Click the **Delete** button at the bottom of the screen.
 
-1. Click **OK** when you are asked if you want to delete the email filter. The email filter is removed from SuperOffice Service.
+1. Click **OK** to confirm. The email filter is removed from SuperOffice Service.
 
 <!-- Referenced links -->
 

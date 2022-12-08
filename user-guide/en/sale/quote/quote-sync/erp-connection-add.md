@@ -41,7 +41,15 @@ Each Quote Connector must have an ERP connection with configuration data for lin
 
 1. Click **OK** when you have finished.
 
-At the bottom of the **ERP connections** list, you can delete ERP connections that are no longer in use, for example. If you want to restore a deleted ERP connection, you can check **Deleted**, select the deleted connection in the list, and then click **Restore**.
+## Delete and restore
+
+At the bottom of the **ERP connections** list, you can delete ERP connections that are no longer in use.
+
+To restore a deleted ERP connection:
+
+1. Check **Deleted**.
+1. Select the deleted connection in the list.
+1. Click **Restore**.
 
 <!-- Referenced links -->
 [1]:sync/index.md

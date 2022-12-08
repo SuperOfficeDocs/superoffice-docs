@@ -42,7 +42,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 8. As an FAQ administrator, you can choose from the following options in the **Workflow** field:
 
     * **Unpublished**: Choose this option if you do not want to publish the FAQ entry at the moment.
-    * **Published**: Choose this option if you want to [publish the FAQ entry immediately][3].
+    * **Published**: Choose this option to [publish the FAQ entry immediately][3].
     * **Expired**: Select this option if the FAQ entry is no longer current. This will be most relevant when editing existing FAQ entries.
 
     > [!NOTE]
@@ -84,8 +84,6 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 15. Click **OK**. The **FAQ Entry** screen is displayed, and your proposed FAQ entry is sent to the administrator, who can publish it.
 
 ## Create new FAQ
-
-You can also create an FAQ entry as follows:
 
 1. Select **Knowledge Base** > **FAQ**.
 2. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can [create a new folder][2].

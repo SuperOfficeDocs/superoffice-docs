@@ -38,7 +38,7 @@ Clicking the element profile button ![icon][img3] in the search results list tak
     > [!TIP]
     > It is also displayed under **Sample table** below.
 
-9. If you want to move the column farther to the left of the table view, click the up arrow ![icon][img7] to the right of the relevant entry under **Columns**, until it is correctly positioned.
+9. To move the column farther to the left of the table view, click the up arrow ![icon][img7] to the right of the relevant entry under **Columns**, until it is correctly positioned.
 
 10. Click **OK**. The column is added.
 
@@ -54,7 +54,7 @@ You can also add functions, for example, a summary column in the search results 
 6. In the next list box, select **Column 3**, corresponding to the **Created** column.
 7. In the next list box, select **Column 4**, corresponding to the **Read by request handler** column.
 8. Click **Add column** The new column containing the **Time difference** function is added at the bottom of the column list.
-9. If you want to move the column farther to the left of the table view, click the up arrow ![icon][img9] to the right of the relevant entry under **Columns**, until it is correctly positioned.
+9. To move the column farther to the left of the table view, click the up arrow ![icon][img9] to the right of the relevant entry under **Columns**, until it is correctly positioned.
 10. Click **OK**. The column containing the function is added.
 
 > [!TIP]

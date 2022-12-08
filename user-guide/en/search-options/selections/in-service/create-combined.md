@@ -13,12 +13,20 @@ language: en
 
 A combined selection is a combination of two or more existing selections. Here you can add records from one selection to another, or remove records in one selection from another. This is useful if, for example, you want a selection containing all customers based on specific criteria (dynamic selection), but excluding individual customers (static selection).
 
+## Combining more than 2 selections
+
+* Selection number 3 will be combined with the combined result of selections 1 and 2.
+* Selection number 4 will be combined with the combined result of selections 1, 2, and 3.
+* And so forth.
+
+## Steps
+
 1. Select **Selections** > **New selection**. This takes you to the **New selection** screen.
 
-2. In the **Source table** field, select which type of records you want to include in the selection. For instance, if you want to create a selection of requests, select **Request**.
+2. In the **Source table** field, select which type of records you want to include in the selection. For instance, to create a selection of requests, select **Request**.
 
     > [!NOTE]
-    > You can only combine selections with the same source table.
+    > You can combine selections with the same source table only.
 
 3. Check **Combined selection**.
 
@@ -46,11 +54,7 @@ A combined selection is a combination of two or more existing selections. Here y
 
 12. Click the **Add selection** button. The selection is added to the list above.
 
-13. To combine more selections, repeat steps 10-12 for each selection. If you combine more selections, it works as follows:
-
-    * Selection number 3 will be combined with the combined result of selections 1 and 2.
-    * Selection number 4 will be combined with the combined result of selections 1, 2 and 3.
-    * And so forth.
+13. To combine additional selections, repeat steps 10-12.
 
     > [!TIP]
     > You can remove a selection from the combined selection by clicking **Delete** ( ![icon][img2] ) on the right of the row.

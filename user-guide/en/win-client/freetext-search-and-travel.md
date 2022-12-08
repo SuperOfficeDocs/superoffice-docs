@@ -17,4 +17,4 @@ Freetext searching is usually available to all Travel users, but, if your organi
 
 In the **Enable freetext for Travel areas** list, you can see which areas are defined and for which areas the freetext search function is available.
 
-If you check **Automatically enable for new Areas** at the bottom of the window, all newly defined areas can access freetext search. If you want to remove this access for an area, you must specify this using Area Management.
+If you check **Automatically enable for new Areas** at the bottom of the window, all newly defined areas can access freetext search. To remove this access for an area, you must specify this using Area Management.

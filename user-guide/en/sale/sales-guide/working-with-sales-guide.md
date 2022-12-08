@@ -25,7 +25,7 @@ If a sales guide has been defined for a sale type that you specify for a sale, t
 3. When you have completed the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Sales guide** section tab. By default, documents are marked as completed.
 
     > [!TIP]
-    > If you want to create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
+    > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
 
 4. Once all follow-ups and documents for a stage have been completed, go to the next stage on the main **Sale** card.
 
@@ -62,7 +62,7 @@ In the **Sales guide** dialog you have three options:
 * Check **Always create follow-up? Do not show this dialog again** if, in future, you always want to create the suggested follow-up. The dialog for follow-ups will then open automatically next time.
 
 > [!TIP]
-> If you want to reset this option, so that the **Sales guide** dialog opens, go to ![icon][img1] **Personal settings** > **Preferences** > **Sale** and select **Yes** for the **Confirm creation of suggested follow-up** option.
+> To reset this option, so that the **Sales guide** dialog opens, go to ![icon][img1] **Personal settings** > **Preferences** > **Sale** and select **Yes** for the **Confirm creation of suggested follow-up** option.
 
 ## Example
 

@@ -70,7 +70,7 @@ To create a role for associates in the company or for external users:
 3. In the **Create roles** screen, enter the following information:
     * **Name**: Enter a descriptive name for the role.
     * **Description**: Enter a description for the role.
-    * **Copy rights from role**: If you want to copy the rights from an existing role, select a role in this list. Start typing in this field to search for a role.
+    * **Copy rights from role**: To copy the rights from an existing role, select a role in this list. Start typing in this field to search for a role.
 
 4. Click **OK**. The role is created.
 

@@ -36,8 +36,6 @@ The following factors determine which requests a request handler can get from th
 
 First, we will create a new request status: **In queue**. New requests should automatically be assigned this request status.
 
-Do as follows:
-
 1. Select ![icon][img2] **System settings** > **Request status**. The **Request status** screen appears.
 
 2. Click the **New status** button. This takes you to the **Edit request status** screen.
@@ -68,14 +66,20 @@ Now you must ensure that you are a member of the category or categories you are 
 > [!NOTE]
 > Membership in categories can also be defined at group level. In ![icon][img2] **System settings** > **Users** > **User groups** you can state categories for the various user groups.
 
-Do as follows:
+**Steps:**
 
 1. Select ![icon][img2] **System settings** > **Categories**. The **Categories** screen appears.
+
 2. Click the required category name. This takes you to the **Category properties** screen.
+
 3. Select the **Members** tab.
+
 4. Select yourself in the **User** list and click ![icon][img1] to add yourself as a member of the category.
+
 5. Add any other users as members of this category.
+
 6. Select the **Assignment method** tab and select **Do not assign**. Now requests in this category will not be assigned to users in accordance with the assignment method.
+
 7. Click **OK** when you have finished.
 
 If needed, repeat this procedure for other categories that are to be available to be fetched from the queue. Categories that follow an assignment method will be assigned a user and will not therefore join the queue.

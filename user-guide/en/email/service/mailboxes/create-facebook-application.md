@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Create Facebook applications
 
-If you want to interact with your customers via Facebook, you will want to create a link between SuperOffice Service and a user wall or page on Facebook. Messages and comments posted to the wall will then be imported into SuperOffice Service as requests (in the same way as  is imported). When the request handler responds to one of these messages, the reply is posted to Facebook.
+To interact with your customers via Facebook, you will want to create a link between SuperOffice Service and a user wall or page on Facebook. Messages and comments posted to the wall will then be imported into SuperOffice Service as requests (in the same way as is imported). When the request handler responds to one of these messages, the reply is posted to Facebook.
 
 First, you must set up an application on Facebook in cooperation with the user or owner of the page you want to receive messages from. Next, set up a Facebook account in SuperOffice Service.
 
@@ -35,7 +35,7 @@ First, you must set up an application on Facebook in cooperation with the user o
 
 1. In the **Application ID** field, enter the value you noted down from the **Application ID** field in Facebook.
 
-1. If you want to import messages from a page, enter that page's ID in the **Page ID** field.
+1. To import messages from a page, enter that page's ID in the **Page ID** field.
 
 1. In the **Category** list box, select the category that messages from the Facebook application should belong to.
 

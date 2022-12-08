@@ -25,7 +25,7 @@ You can merge duplicate database records of companies. Contacts and activities w
 1. Under **To company**, select the company you want to update with information from the source company. Start typing in the field to [search for a company][1].
 
     > [!TIP]
-    > If you want to switch the **From** and **To** companies, click the ![icon][img1] button.
+    > To switch the **From** and **To** companies, click the ![icon][img1] button.
 
 1. Under **Contacts and company details**, you can choose from:
 

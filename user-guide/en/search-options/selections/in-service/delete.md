@@ -13,7 +13,7 @@ language: en
 
 You can delete the definition of the selection, the dataset it contains, or both.
 
-If you want to delete a selection, you do not delete the actual records it contains. They will remain in the system, but will no longer be available as a collected dataset under **Selection**.
+Deleting a selection does not delete the actual records it contains. They will remain in the system, but will no longer be available as a collected dataset under **Selection**.
 
 ## Delete the selection definition
 

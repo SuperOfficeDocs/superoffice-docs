@@ -40,11 +40,7 @@ language: en
 
 9. You can now close the browser tab and return to SuperOffice Settings and maintenance.
 
-If you want to select another provider or change the configuration, click **Configure**.
-
-## Related topics
-
-* [Video Meetings for SuperOffice][1]
+To select another provider or change the configuration, click **Configure**.
 
 <!-- Referenced links -->
 [1]: ../../../../../docs/video-meeting/index.md

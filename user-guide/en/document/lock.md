@@ -26,7 +26,7 @@ In the **Document** dialog, a checked-out document has one of the following icon
 
 Hold the mouse pointer over an icon to show information about the user who has checked out the document.
 
-If you attempt to open a checked-out document, a dialog appears with information about who has checked out the document. You can only open the document in read mode.
+If you attempt to open a checked-out document, a dialog appears with information about who has checked out the document. You can open the document in read mode only.
 
 ## Check out a document for editing
 
@@ -41,7 +41,7 @@ In most cases, you can [save and close the document][1] in the application, and 
 By default, a document is opened in edit mode. Below we have described the differences between edit mode and read mode.
 
 > [!NOTE]
-> If you prefer to select read mode or edit mode when you open a document, do as follows: Go to ![icon][img2] **Personal settings** > **Preferences** > **Functions** and set **Ask to edit or read** to **Yes**.
+> If you prefer to select read mode or edit mode when you open a document, go to ![icon][img2] **Personal settings** > **Preferences** > **Functions** and set **Ask to edit or read** to **Yes**.
 
 * Edit mode: The document is opened for editing. The document cannot be edited by other users until you save and close the document, which automatically checks in the document.
 

@@ -11,8 +11,6 @@ language: en
 
 # Replace existing template
 
-If you want to edit/revise an existing document template, do as follows:
-
 1. Download and edit the document template, and save it on your disk.
 2. Rename or delete the "old" document template in SuperOffice.
 3. Upload the revised document template to SuperOffice.

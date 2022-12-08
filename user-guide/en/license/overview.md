@@ -54,12 +54,12 @@ Finally, there are user licenses for SuperOffice CRM for Windows, which are purc
 | License | Description |
 |---|---|
 | Standard CRM User | Access to Standard CRM. |
-| Marketing User | Access  to the Marketing module (SuperOffice Marketing), in addition to Standard CRM. |
+| Marketing User | Access to the Marketing module (SuperOffice Marketing), in addition to Standard CRM. |
 | Sales User | Access to the Sale module, in addition to Standard CRM. |
 | Service User | Access to SuperOffice Service, in addition to Standard CRM. |
-| Complete CRM User | Access  to Standard CRM, Sale and SuperOffice Service. |
+| Complete CRM User | Access to Standard CRM, Sale and SuperOffice Service. |
 | Windows App | Access to the Windows client for SuperOffice CRM. |
-| Remote Travel | Access to Remote Travel, which allows synchronization between the local database  and the central SuperOffice database when the user is out traveling. |
+| Remote Travel | Access to Remote Travel, which allows synchronization between the local database and the central SuperOffice database when the user is out traveling. |
 | Pocket CRM | Access to the Pocket CRM app for SuperOffice CRM. |
 | Outlook Synchronizer | Access to synchronization with Outlook. |
 | Sale Quote Access | Access to the Quote module, in addition to Standard CRM. |

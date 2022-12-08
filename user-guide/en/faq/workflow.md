@@ -56,7 +56,7 @@ You can both change the name of a stage and alter which users are to have access
 ## Publish via workflow
 
 1. [Open the FAQ entry][1].
-2. If you want to adjust anything before publishing, follow the procedure under [Publish FAQ entries][2].
+2. To adjust anything before publishing, follow the procedure under [Publish FAQ entries][2].
 3. Click the **Move forward in workflow** button until **Published** is shown in the **Workflow stage** field in the **Details** tab.
 
 > [!TIP]

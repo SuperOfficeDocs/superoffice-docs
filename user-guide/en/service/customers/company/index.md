@@ -11,12 +11,14 @@ language: en
 
 # View companies
 
-You can get to the **Company** screen as follows:
+## Go the Company screen
 
-* You can double-click a row under **Find companies** in the [search results screen][1].
-* You can click the company's name in screens where this information is displayed, such as the **Request** screen.
+Do one of the following:
 
-This screen comprises the following sections:
+* Double-click a row under **Find companies** in the [search results screen][1].
+* Click the company's name in screens where this information is displayed, such as the **Request** screen.
+
+## Sections in the screen
 
 * At the top of the screen, the company header contains basic information about the contact.
 * The ![icon][img1] **Actions** button gives access to tasks associated with contacts.
@@ -32,10 +34,12 @@ The header of the **Company** screen contains basic information about the compan
 
 Click the ![icon][img1] **Actions** button to access the following options:
 
-* **Edit company**: Click here to [change the details][5] registered for the company.
-* **New contact**: Click here to [create a new contact][6] linked to the active company.
-* **Invoices**: Click here to [display invoice data][7] recorded for the company.
-* **Open in SuperOffice CRM**: Click here to show the company in SuperOffice CRM, if you have a licence for this application.
+| Option | Description |
+|---|---|
+| Edit company | [Change the details][5] registered for the company. |
+| New contact | [Create a new contact][6] linked to the active company. |
+| Invoices | [Display invoice data][7] recorded for the company. |
+| Open in SuperOffice CRM | Show the company in SuperOffice CRM, if you have a licence for this application. |
 
 ## What would you like to do now?
 

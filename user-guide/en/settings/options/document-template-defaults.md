@@ -28,11 +28,11 @@ You can specify default values for new document templates if required. For Super
 
 5. Check **Unique** if you want the counter values in the **Our Ref**. field to be unique. Useful when SuperOffice CRM users allocate values themselves.
 
-6. Check **Allow blank** if you want an empty counter field to be a permitted value. Useful when the counter values must be unique. If **Allow blank** is checked, this means that the requirement for unique values does not apply to empty fields.
+6. Check **Allow blank** to permit empty counter fields. Useful when the counter values must be unique. If **Allow blank** is checked, this means that the requirement for unique values does not apply to empty fields.
 
 7. Check **Read only** if you do not want SuperOffice CRM users to type values into the **Our Ref.** field themselves.
 
-8. Check **Allocate** if you want to use the automatic counter function, so that the system enters values in the **Our Ref.** field for you.
+8. Check **Allocate** to use the automatic counter function, so that the system enters values in the **Our Ref.** field for you.
 
     [See the results of different combinations of these values][1].
 

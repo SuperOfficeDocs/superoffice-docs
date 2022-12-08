@@ -42,7 +42,7 @@ The **Email filters** tab contains a list of existing email filters. This list c
 
 ## Properties for generated requests
 
-* **Set owner**: If you check here, you can select which user will be assigned emails processed by this filter.
+* **Set owner**: If checked, you can select which user will be assigned emails processed by this filter.
 
 * **Set category**: If you check here and select a category, email processed by this filter will end up in the specified category.
 
@@ -52,22 +52,22 @@ The **Email filters** tab contains a list of existing email filters. This list c
 
 * **Set messages**: If you check here and select a reply template, the request message will be set up in accordance with the selected template, merged with all the fixed expressions that are found. You can use this to present a form, which is sent by email, and is much tidier. This message will replace the original email.
 
-* **Close request**: If you check here, the request is closed immediately and assigned the status **Closed**.
+* **Close request**: If checked, the request is closed immediately and assigned the status **Closed**.
 
-* **Ignore From address**: If you check here, SuperOffice Service ignores the original sender address. The request will then not be linked to a contact unless other rules in the email filter create a link to a contact.
+* **Ignore From address**: If checked, SuperOffice Service ignores the original sender address. The request will then not be linked to a contact unless other rules in the email filter create a link to a contact.
 
-* **Block email**: If you check here, the email is not imported into SuperOffice Service. It is added instead to the list in the **Blocked email** tab.
+* **Block email**: If checked, the email is not imported into SuperOffice Service. It is added instead to the list in the **Blocked email** tab.
 
-* **Permanently delete email**: If you check here, the email is deleted permanently.
+* **Permanently delete email**: If checked, the email is deleted permanently.
 
     > [!NOTE]
     > It is not possible to restore emails that have been permanently deleted.
 
 * **Forward to**: If you check here and enter an email address, the email will be forwarded to this address.
 
-* **Include debug information in the message**: If you check here, the message will include debug data that you can use to check that the email filter is working correctly.
+* **Include debug information in the message**: If checked, the message will include debug data that you can use to check that the email filter is working correctly.
 
-* **Mark email as bounced**: If you check here, email processed by this filter will be marked as bounced. This may be relevant for emails received from postmaster, mailer-daemon, and so on.
+* **Mark email as bounced**: If checked, email processed by this filter will be marked as bounced. This may be relevant for emails received from postmaster, mailer-daemon, and so on.
 
 ## What would you like to do now?
 

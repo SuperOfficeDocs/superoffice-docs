@@ -52,10 +52,10 @@ language: en
 
 1. In the **Email response** tab, you can create different emails to be sent when the filter is triggered. Here you can enter the following information:
     * **Send reply template**: Here you can select which [reply template][2] should be sent if the filter is triggered.
-    * **... to contact**: If you check here, the selected reply template is sent back to the contact.
-    * **... to**: If you check here, the selected reply template is sent to the email address specified in the field on the right.
-    * **Suggest FAQ entries from**: If you check here, the system will [suggest FAQ entries based on the text][3] in incoming emails. The suggested entries are available as template variables and can therefore be reused in the selected reply template. You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.
-    * **Block auto-reply**: If you check here, the system will not reply automatically to this email.
+    * **... to contact**: If checked, the selected reply template is sent back to the contact.
+    * **... to**: If checked, the selected reply template is sent to the email address specified in the field on the right.
+    * **Suggest FAQ entries from**: If checked, the system will [suggest FAQ entries based on the text][3] in incoming emails. The suggested entries are available as template variables and can therefore be reused in the selected reply template. You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.
+    * **Block auto-reply**: If checked, the system will not reply automatically to this email.
 
 1. In the **Email boxes** tab, you can select which mailboxes the filter applies to.
 

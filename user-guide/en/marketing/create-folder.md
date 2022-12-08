@@ -21,7 +21,7 @@ You can create sub-folders in all folders, and you can place the appropriate mai
 
 2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
 
-3. Click the **Add folder** button ![icon][img1]. The **Folder properties** dialog  appears.
+3. Click the **Add folder** button ![icon][img1]. The **Folder properties** dialog appears.
 
 4. Enter a descriptive name for the folder in the **Name** field.
 

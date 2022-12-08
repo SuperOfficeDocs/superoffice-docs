@@ -20,7 +20,7 @@
     * Click **Select a CRM document** to select a document in SuperOffice CRM.
 
     > [!TIP]
-    > If you want to save the message temporarily and complete it later, click ![icon][img3] in the top-right corner. The message will then be saved in the drafts folder.
+    > To save the message temporarily and complete it later, click ![icon][img3] in the top-right corner. The message will then be saved in the drafts folder.
 
 9. To include an FAQ, a reply template or a quick reply in the email message, click ![icon][img4] at the bottom of the window.
 

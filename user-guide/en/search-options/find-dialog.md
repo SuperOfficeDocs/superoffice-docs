@@ -22,11 +22,14 @@ To search for records and data in SuperOffice CRM, use the **Find** screen.
 
 2. Click the type of record you want to search for, or click **Typical searches** to display a list of predefined searches. The **Criteria** tab opens.
 
-3. The **Find** screen contains predefined search criteria, or the search criteria you used last time. Click ![icon][img3] to remove any criteria you do not want to use.
-    *or* If you want to add new search criteria, click the **Add** button. A new line is added to the criteria list.
+3. The **Find** screen contains predefined search criteria, or the search criteria you used last time. Do one of the following:
 
-4. In the first list box on the line, select the field you want to search for information in. You can also enter the start of the name in the appropriate field (see [FastSearcher][2]).
-    Here you could, for example, select **Contact** and **Last name** if you wanted to search for contacts, or **Project** and **Event date** if you wanted to search for projects. There are different types of fields. These are described under [Use search criteria][3].
+    * Click ![icon][img3] to remove any criteria you do not want to use.
+    * Click the **Add** button to add new search criteria. A new line is added to the criteria list.
+
+4. In the first list box on the line, select the field you want to search for information in. You can also [enter the start of the name in the appropriate field][2]). There are [different types of fields][3].
+
+    For example, select **Contact** and **Last name** to search for contacts, or **Project** and **Event date** to search for projects.
 
 5. Select values for the search criteria in the next fields on the line.
 

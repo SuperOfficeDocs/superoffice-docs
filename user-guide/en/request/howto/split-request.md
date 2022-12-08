@@ -29,7 +29,7 @@ If a single request contains several questions, for example, if the customer fir
 1. In the **Category** field, select a category for the request.
 
 1. In the **Owner** field, choose one of the following:
-    * If you want to assign the request to a specific person, select the name you require.
+    * To assign the request to a specific person, select the name you require.
     * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
     * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
 

@@ -31,5 +31,6 @@
 
 16. The bottom left corner of the company card contains two checkboxes: **Stop** and **No Mailings**.
 
-    * Check **Stop** if you want to inform associates that they should pay particular attention to a certain company. A stop sign is displayed on the company card. It may also be useful to insert a note informing your associates why this company is marked with a stop. It is only possible to put a check in this field in edit mode.
-    * Check **No Mailings** if you do not want the company to receive direct mailings. It is only possible to put a check in this field in edit mode.
+    * Check **Stop** to inform associates that they should pay particular attention to a certain company. A stop sign is displayed on the company card. It may also be useful to insert a note informing your associates why this company is marked with a stop. It is only possible to put a check in this field in edit mode.
+
+    * Check **No Mailings** if you do not want the company to receive direct mailings. This field may be checked in edit mode only.

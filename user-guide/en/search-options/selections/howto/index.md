@@ -20,18 +20,17 @@ The **Task** button contains tasks such as sending emails, mass-editing and expo
 > [!NOTE]
 > Certain tasks described here are not available to all user levels. A description of the different user levels can be found in the **Help for SuperOffice Settings and maintenance**. Some tasks are only available for specific tabs.
 
-From the **Task** button in the **Selection** screen or the **Find** screen, you perform tasks as follows:
+## Steps
 
 1. Go to the required selection. For example, search for a selection from the **Selection** button in the navigator or [use the Find screen][1].
 
 2. Select the tab containing the records you want to work with.
 
-3. If you want to perform the task on just some of the selection members, select them. Then click the **Task** button and select the **Perform task on selected members only** option.
+3. To perform the task on just some of the selection members, select them. Then click the **Task** button and select the **Perform task on selected members only** option.
 
 4. Click the **Task** button and select the task you want to perform. The selected task starts.
 
-> [!NOTE]
-> The available tasks will depend on what type of records is in the selected tab.
+    The available tasks depend on what type of records is in the selected tab.
 
 ## Available tasks
 

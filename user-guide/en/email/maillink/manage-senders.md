@@ -15,7 +15,7 @@ When you archive an email or an attachment, SuperOffice CRM performs a search to
 
 ## Searching for the sender of an email
 
-You can use the **Search for sender** button to search for  the precise email address of the sender in your [preferred SuperOffice client][4].
+You can use the **Search for sender** button to search for the precise email address of the sender in your [preferred SuperOffice client][4].
 
 1. Select the email in the mail client inbox (you can select only one) whose sender you'd like to search for in SuperOffice.
 

@@ -17,7 +17,9 @@ If records have previously been entered in SuperOffice CRM which refer to the de
 
 Therefore the deletions you make in these tabs are not permanent. You can display items and headings you have deleted by checking **Show deleted items** **and headings**. The deleted elements will then be displayed in the lists, but in red with a strike-through.
 
-If you have deleted an item or a heading and later decide you do not want to remove it from the list in Settings and maintenance, you can undo your deletion in Settings and maintenance as follows:
+## Undo deletion
+
+If you have deleted an item or a heading and later decide you do not want to remove it from the list in Settings and maintenance, you can undo your deletion in Settings and maintenance.
 
 1. [!include[Go to Lists](../includes/goto-lists.md)]
 

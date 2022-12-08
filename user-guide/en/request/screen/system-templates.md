@@ -76,7 +76,7 @@ In the **Weekly stats** tab, you have the following options:
 
 ## How to change template
 
-If you want to select another template, click the list button ( ![icon][img1] ) next to the relevant field and select a template from the list that appears.
+To select another template, click the list button ( ![icon][img1] ) next to the relevant field and select a template from the list that appears.
 
 <!-- Referenced links -->
 [1]: ../../email/service/mailboxes/index.md

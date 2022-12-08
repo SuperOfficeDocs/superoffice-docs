@@ -15,16 +15,13 @@ language: en
 
 1. [!include[How to-goto-reports](includes/goto-reports.md)]
 
-2. Select the required report (see [Show report properties][3]).
+1. Select the required report (see [Show report properties][3]).
 
-3. Click the **Preview** button under the criteria list. A PDF is generated in your browser.
+1. Click the **Preview** button under the criteria list. A PDF is generated in your browser.
 
-4. Open the PDF file. The file is opened in the default PDF viewer.
+[!include[Open PDF](includes/step-open-pdf.md)]
 
-    > [!NOTE]
-    > If you do not have a PDF viewer, you will be asked if you want to install one.
-
-5. Click the print button in the PDF viewer.
+1. Click the print button in the PDF viewer.
 
 ## Print labels and cross tables
 

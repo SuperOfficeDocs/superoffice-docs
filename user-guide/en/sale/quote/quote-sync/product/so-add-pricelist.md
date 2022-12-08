@@ -30,14 +30,14 @@ language: en
 
 1. Do one of the following:
 
-    * Select **Add empty price list** if you want to start with a blank price list and enter all the products manually.
+    * Select **Add empty price list** to start with a blank price list and enter all the products manually.
     * Select **Copy existing price list** to copy a price list and all its products.
 
     1. Select the required price list in the list below.
 
     2. Select one of the following options:
 
-        * **Convert prices from original price list to &lt;currency&gt;**: Select this option if you want to use the existing prices in the price list. If you copy a price list with a different currency that the price list you are creating, the prices are converted into the right currency.
+        * **Convert prices from original price list to &lt;currency&gt;**: Select this option to use the existing prices in the price list. If you copy a price list with a different currency that the price list you are creating, the prices are converted into the right currency.
 
         * **Set prices to zero &lt;currency&gt;**: Select this option if you do not want to copy the prices from the price list. You must enter the prices of all the products in the price list manually.
 

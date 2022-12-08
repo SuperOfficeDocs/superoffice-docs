@@ -1,7 +1,7 @@
 ---
 uid: help-en-email-inbox-compose
 title: Writing email
-description: Writing  mail
+description: Writing mail
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: email

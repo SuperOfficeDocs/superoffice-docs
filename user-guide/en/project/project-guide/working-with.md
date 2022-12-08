@@ -27,7 +27,7 @@ If a project guide has been defined for a project type that you specify for a pr
 3. When you have completed the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Project guide** section tab. By default, documents are marked as completed.
 
     > [!TIP]
-    > If you want to create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
+    > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] opens.
 
 4. Once all the required follow-ups and documents for a project status have been completed, you move on to the next status.
 
@@ -44,7 +44,7 @@ You can move the project to the next status in two ways:
 
     It can be defined in SuperOffice Settings and maintenance that the project guide should propose moving the project on to the next status when the last follow-up in a status is marked as complete. The **Project guide - move the project to the next status** dialog then opens.
 
-    Click **Yes** to move the project to the next status, or click **No** if you want to continue working on the project within the same status.
+    Click **Yes** to move the project to the next status, or click **No** to continue working on the project within the same status.
 
 * To move the project to the next status manually:
 
@@ -118,7 +118,7 @@ You record a new project and select the **Conference** project type, which is li
 
     3. Enter the required information and click **Save**. (In the **Details** tab, you can see that your colleague is already defined as the owner.)
 
-    4. The follow-up is displayed in your colleague's diary, and once he has finished setting up the list, he will mark the follow-up as **Completed**.
+    4. The follow-up is displayed in your colleague's diary, and once they have sett up the list, they will mark the follow-up as **Completed**.
 
         > [!NOTE]
         > The **Assign task to project member** dialog opens because that is what is defined in SuperOffice Settings and maintenance.

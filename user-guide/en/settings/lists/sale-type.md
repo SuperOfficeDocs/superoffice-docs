@@ -45,13 +45,17 @@ language: en
 
 In the **Stages** tab, you do the following:
 
-1. In the **Stages used for this sale type** list, check off the stages you want to include for the sale type. This step is optional, but if you want to link the sale type to a sales guide, you should check at least two stages. [How to create a stage][3].
+1. In the **Stages used for this sale type** list, check off the stages you want to include for the sale type. This step is optional, but to link the sale type to a sales guide, you should check at least two stages.
+
+    [How to create a stage][3].
 
 2. Check **This sale type is linked to a guide** if you want all sales of this sale type to follow a [sales guide][5].
 
-3. If you wish, select **Suggest moving the sale into next stage automatically**. When all follow-ups and documents for a stage have been completed, you will be asked if you want to move to the next stage.
+3. If you wish, select **Suggest moving the sale into next stage automatically**.
 
-4. Check **This sale type has stakeholders** if you want to allow linking of [stakeholders][4] to sales of this sale type.
+    When all follow-ups and documents for a stage are completed, you will be asked if you want to move to the next stage.
+
+4. Check **This sale type has stakeholders** to allow linking of [stakeholders][4] to sales of this sale type.
 
 ## Quote attachments tab
 

@@ -43,7 +43,7 @@ In the **Settings** tab, set the following parameters:
 
     * **Show time interval in minutes**: If enabled, the calculated time intervals are displayed as number of minutes. Convenient if you would like to export the data and use them to display a graph.
 
-    * **Display dates as YYYY-MM-DD**: If enabled, dates will be written in this format. This can be useful if you want to export the data to another program.
+    * **Display dates as YYYY-MM-DD**: If enabled, dates will be written in this format. Useful if you want to export the data to another program.
 
     * **Hide empty rows**: If enabled, rows in the calculated dataset containing only nulls/zeros will be ignored.
 

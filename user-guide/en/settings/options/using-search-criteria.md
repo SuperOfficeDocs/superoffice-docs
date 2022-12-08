@@ -134,9 +134,9 @@ In the list box, select the field you want to search for information in. The fie
 
     Depending on what you have selected above, a list box for a date field or a number field is displayed. Select the required option and enter the required numerical value or date in the text field.
 
-**Change search criteria:**
+## Change search criteria
 
-If you want to change a search criterion in the **Find** dialog, click it and select a different one from the list that appears.
+To change a search criterion in the **Find** dialog, click it and select a different one from the list that appears.
 
 <!-- Referenced links -->
 [1]: ../sale-amount-class.md

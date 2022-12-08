@@ -31,7 +31,7 @@ A status is only active for companies, contacts or projects that fulfil all the 
 1. Repeat steps 4 and 5 for each criterion you want to add.
 
     > [!NOTE]
-    > You can only add one instance of each criteria type for each status. For example, you cannot add the **Postcode** criterion twice.
+    > You can add only one instance of each criteria type for each status. For example, you cannot add the **Postcode** criterion twice.
 
 1. Check that you have checked ( ![icon][img3] ) the criteria you want to use for this status.
 

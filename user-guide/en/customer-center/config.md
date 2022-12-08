@@ -20,7 +20,7 @@ If you have configured multiple languages for your customer centre, you can set 
 > [!NOTE]
 > To edit the HTML code for the various pages, see [Customer centre source files][1].
 
-Do as follows:
+**Steps:**
 
 1. Select ![icon][img1] **System settings** > **Customer centre config**. On the **Customer centre** screen you’ll see two tabs, one for **Styling** and one for **Options**. At the top of this page, you’ll find a link to the Customer Centre page where you can preview your Customer Centre.
 

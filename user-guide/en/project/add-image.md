@@ -27,7 +27,7 @@ In the **Image** tab, you can add an image for the project. The project image is
 
 5. In the **Select Image** dialog, do one of the following:
     * If the image you want to use is under **Images**, select it to display a preview under **Preview**.
-    * If you want to add a new image, click **Add**, select the image you require, and add a description which describes the image better than just its file name. Then click **OK/Save**. Select the image to display a preview under **Preview**.
+    * To add a new image, click **Add**, select the image you require, and add a description which describes the image better than just its file name. Then click **OK/Save**. Select the image to display a preview under **Preview**.
     * To remove an image from the database, select it and click **Delete**.
 
 6. Click **OK** to add the image. The image is displayed in the **Image** tab and the description in the **Image** field.

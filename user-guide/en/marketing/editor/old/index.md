@@ -94,10 +94,10 @@ In the paragraph menu, you can edit the properties of this paragraph. This menu 
 
 | Icon | Name | Function |
 |:-:|---|---|
-| ![icon][img10] | Add paragraph  | Click here to add a new paragraph. The paragraph is added below the active paragraph and has the same properties. |
+| ![icon][img10] | Add paragraph | Click here to add a new paragraph. The paragraph is added below the active paragraph and has the same properties. |
 | ![icon][img12]  | Edit paragraph | Click here to open the editing view where you can edit the header and body text of the paragraph. You can also add images and edit the paragraph layout. |
 | ![icon][img6] | Copy paragraph | Click here to copy the paragraph. The copy is placed below the paragraph you have copied. |
-| ![icon][img8] | Move paragraph  | Click here to move the paragraph. |
+| ![icon][img8] | Move paragraph | Click here to move the paragraph. |
 | ![icon][img9] | Delete paragraph | Click here to delete the paragraph. |
 | ![icon][img11] | Add column of paragraphs | Click here to add a column containing three paragraphs. |
 

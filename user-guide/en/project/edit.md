@@ -15,6 +15,8 @@ You can edit information about projects from the tabs in the project card. To ch
 
 1. [!include[Go to project](includes/goto-project.md)]
 
-2. Click **Edit**. The tabs in the **Project** screen change to edit mode. You can switch between the tabs without exiting edit mode.
+2. Click **Edit**.
 
-3. When you have made the necessary changes, click **Save** to close and save. Click **Cancel** if you want to reject your changes.
+    The tabs in the **Project** screen change to edit mode. You can switch between the tabs without exiting edit mode.
+
+3. When you are done, click **Save** to close and save. Click **Cancel** to reject your changes.

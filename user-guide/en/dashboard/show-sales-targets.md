@@ -32,11 +32,11 @@ To add a tile with sales targets to a dashboard:
     * Empty sale tile
 
     > [!TIP]
-    > You can also [select an empty tile][1] to create a tile from scratch, but the chart type needs to be one of those listed above.
+    > You can also [select an empty tile][1] to create a tile from scratch, but the chart type must be one of those listed above.
 
 6. To add a tile to the dashboard, drag and drop it on the desired position on the dashboard. You can also click **Add** to add a tile to next available position. The tile will automatically adjust to the available space, and will align with the grid and columns setup.
 
-7. Adjust the tiles on the dashboard as follows:
+7. Adjust the tiles on the dashboard:
 
     * Hold the mouse-pointer over a tile and click and drag the frame to adjust the tile size. Available slots/spaces in the dashboard will be highlighted in yellow when the tile can fit in that position.
 
@@ -46,14 +46,14 @@ To add a tile with sales targets to a dashboard:
 
 9. In the **Dataset** tab, set **Sale date** to this year, quarter or month. Edit the other [criteria][2] as necessary. Remember to update the tile name to reflect any changes made here.
 
-10. In the **Layout** tab, edit the layout as follows:
+10. In the **Layout** tab, edit the layout:
 
-    * **Chart type**: You can change this to any chart type listed in step 5.
+    * **Chart type**: Change this to any chart type listed in step 5.
     * **Measure**: Select **Sum**.
     * **Of**: Select **Amount** or **Weighted amount**.
     * **By**: Select **Sale > Owner** (owner, full name or group) or **Sale > Sale date**.
     * **Period** (only relevant if you selected **Sale date** above): Select year, quarter or month.
-    * **Grouping**: Select **Compare to target**. If this option is not visible or is inactive, double-check that you have performed the steps above.
+    * **Grouping**: Select **Compare to target**. If this option is not visible or is inactive, double-check that you have completed the steps above.
 
 11. Edit the formatting. Based on the chart type you selected, you have additional options under **Formatting**:
 

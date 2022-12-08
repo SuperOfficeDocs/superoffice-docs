@@ -42,7 +42,7 @@ To change document properties, such the project the document is linked to, use t
 1. [Double-click the required document][2]. The document opens in a new tab with the online text-editing program (Office Online).
 
     > [!NOTE]
-    > If you want to use your desktop editing program, you can choose **Open in Desktop App** from Office Online.
+    > To use your desktop editing program, you can choose **Open in Desktop App** from Office Online.
 
 2. Edit the document.
 

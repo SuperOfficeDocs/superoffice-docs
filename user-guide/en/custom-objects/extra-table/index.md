@@ -49,7 +49,7 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 1. Open an entry as described above.
 2. Click **Edit**.
 3. Click the **Delete** button at the bottom of the screen.
-4. Click **OK** when you are asked if you want to delete the entry.
+4. Click **OK** to confirm.
 
 <!-- Referenced links -->
 [1]: ../../ui/in-service/index.md
