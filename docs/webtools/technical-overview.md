@@ -45,7 +45,7 @@ Web Tools supports authenticating to 2 different layers to SuperOffice:
 
 * The second layer is authenticating towards the SuperOffice installation.
 
-Authenticating towards the SuperOffice installation can be handled by SuperOffice, Active Directory, or delegated to an identity provider such as Google or Microsoft 365 (only available in Online).
+Authenticating towards the SuperOffice installation can be handled by SuperOffice, Active Directory, or delegated to an identity provider such as Google or Microsoft 365 (only available in SuperOffice Online).
 
 **Single sign-on** (SSO) is achieved when both authentication layers are compatible – for instance, Windows Authentication in IIS and Active Directory on the SuperOffice installation. SSO requires [configuration changes in IIS][1] and *web.config* file. Users must be configured to use Active Directory for authentication.
 

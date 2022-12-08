@@ -11,7 +11,7 @@ so.client:
 
 # Debugging Web Tools
 
-The Tray App Web Extension depends on a constant connection to the CRM Server to work properly. If you are having connectivity issues, there are a few things you may do to troubleshoot.
+The Web Extension depends on a constant connection to the CRM Server to work properly. If you are having connectivity issues, there are a few things you may do to troubleshoot.
 
 ## Open the WebTools Connectivity diagnostics page
 
@@ -20,7 +20,7 @@ This is available on the same URL as your CRM web client, typically `http://soc
 From 8.0 SR1 and CRM Online 8.0 R14, we check the last active computer and open the document there.
 
 > [!NOTE]
-> If you are using SuperOffice onsite and have **not yet upgraded to SuperOffice 8.0 SR1 or higher**: If the same user is connected more than once, via different computers, then we don't know which one to open the document on. This means that if you have been working from your home computer, but you are now connected from your office computer, the document you just asked to open may have been opened at home instead.
+> If you are using SuperOffice Onsite and have **not yet upgraded to SuperOffice 8.0 SR1 or higher**: If the same user is connected more than once, via different computers, then we don't know which one to open the document on. This means that if you have been working from your home computer, but you are now connected from your office computer, the document you just asked to open may have been opened at home instead.
 
 ## Turn on logging
 

@@ -82,7 +82,7 @@ SuperOffice Win client only
 
 ## WebTools
 
-To run WebTools with Web Extensions and MailLink, the client is required to have Microsoft .Net Framework 4.7.2 for WebTools 12.0 and newer. For WebTools 11.7 and older the client needs .Net Framework 4.5.1.
+* [System requirements][2]
 
 ### TSL
 
@@ -114,3 +114,4 @@ If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8
 
 <!-- Referenced links -->
 [1]: index.md
+[2]: ../../webtools/system-requirements.md

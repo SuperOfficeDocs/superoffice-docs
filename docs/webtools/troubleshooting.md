@@ -17,7 +17,7 @@ By understanding how SuperOffice Web Tools works, it is easier to troubleshoot i
 
 Using single sign-on delegates the authentication to your domain controller (or the component that acts as the authentication server). Authentication will fail if the password on the local machine is different than the password stored centrally (hint: NTLM password hashes). It will also fail if the account has been locked.
 
-## The document dialog opens instead of WebTools when I select document in archive
+## The document dialog opens instead of Web Tools when I select document in archive
 
 This is often caused by Web Tools not being properly configured. Note that earlier versions of 8.0 had stability issues. The web page *WebToolsDiagnostics.aspx* can give indicators on which clients are registered with the logged-in user.
 
@@ -28,4 +28,4 @@ This is often caused by Web Tools not being properly configured. Note that earli
 The registry keys `LogFile` and `ProtocolLogFile` enable logging of the main actions and the SignalR-protocol respectively.
 
 > [!NOTE]
-> A restart of web tools is often necessary for applying the registry settings.
+> A restart of Web Tools is often necessary for applying the registry settings.

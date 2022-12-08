@@ -6,7 +6,6 @@ author: Hans Oluf Waaler
 keywords:
 so.topic: concept
 so.date: 10.13.2016
-so.version: 8
 ---
 
 # SuperOffice Web Tools
@@ -24,7 +23,7 @@ How it works is detailed in the [technical overview][2].
 
 ## Distribution
 
-* SuperOffice Web will automatically detect new versions of WebTools and will offer the user to update. WebTools can also be downloaded manually from the Download menu inside SuperOffice.
+* SuperOffice Web will automatically detect new versions of Web Tools and will offer the user to update. Web Tools can also be downloaded manually from the Download menu inside SuperOffice.
 
 * SuperOffice Windows users will receive new versions upon upgrading the Windows client or by manually downloading and installing from the [Download Service][1].
 
