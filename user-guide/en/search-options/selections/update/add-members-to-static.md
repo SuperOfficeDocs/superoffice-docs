@@ -49,7 +49,7 @@ Use this option to add the selected records to an existing static selection.
     >
     > * Existing *static* selections (not dynamic selections or combined selections)
     >
-    > * Selections matching the records you are adding (if you have selected sales, only selections of sales will be displayed)
+    > * Selections matching the records you are adding (if you have selected sales, only selections of sales are displayed)
     >
     > If the list is empty, there are no existing selections of this type.
 
@@ -72,7 +72,7 @@ Use this option to add the selected records to an existing static selection.
 
 6. In the **Category** field, choose the type of selection you require. Click the arrow to display a predefined list of alternatives.
 
-7. In the **Visible for**, choose if the selection will be visible to everyone, only you or visible to everyone in a user group that the owner belongs to.
+7. In the **Visible for**, choose if the selection should be visible to everyone, only you or visible to everyone in a user group that the owner belongs to.
 
 8. For selections of companies/contacts: If you check the **Company is unique** check box, only one record will be added for each unique company among the selected contacts. So if you have selected 10 contacts that belong to 3 companies, only the 3 companies will be added to the selection.
 

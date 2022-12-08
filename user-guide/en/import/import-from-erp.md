@@ -44,10 +44,10 @@ Follow the steps below to import actors (customers, suppliers and individuals) f
 
 ## Complete the import
 
-Once the import has finished, two lists are displayed:
+When the import finishes, two lists are displayed:
 
-* New actors that have been imported.
-* Existing actors that have been updated by the import.
+* New actors that were imported.
+* Existing actors that were updated by the import.
 
 Above each list is a link to the selection containing the new/updated actors.
 

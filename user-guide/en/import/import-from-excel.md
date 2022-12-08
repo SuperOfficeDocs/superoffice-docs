@@ -21,6 +21,7 @@ If you have an Excel spreadsheet with a list of your companies/contacts and asso
     > Add a column with, for example, the text "prospect" for all the contacts, to make it easy to link them to the correct category in SuperOffice CRM.
 
 * A company/contact list with "cleansed" data (exported and checked for quality, and will be imported again).
+
 * Companies and contacts from other applications and formats, such as finance systems, other CRM clients, email clients (other than Gmail and Outlook) and Windows installations of SuperOffice CRM.
 
 ## How can I prepare the Excel spreadsheet before import?
@@ -36,7 +37,7 @@ If you have an Excel spreadsheet with a list of your companies/contacts and asso
 
 3. In the **Upload file** dialog, click **Upload file** to select the Excel spreadsheet you want to import.
 
-4. Browse to the required Excel spreadsheet and click **Open**. The data from the spreadsheet will be displayed in the table.
+4. Browse to the required Excel spreadsheet and click **Open**. The data from the spreadsheet is displayed in the table.
 
 > [!NOTE]
 > At this stage, companies/contacts from Excel have not yet been imported into the SuperOffice database. SuperOffice will only upload the company/contact list from the spreadsheet, so that you can specify the import settings.
@@ -70,7 +71,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 
 **I can't get any further!**
 
-You must link all the required SuperOffice fields to their respective columns to continue. The required fields will be displayed above the table. If you have specified that contacts without companies should be added as new companies, only the SuperOffice field **Company: Name** is mandatory.
+You must link all the required SuperOffice fields to their respective columns to continue. The required fields are displayed above the table. If you have specified that contacts without companies should be added as new companies, only the SuperOffice field **Company: Name** is mandatory.
 
 ## Complete the import
 

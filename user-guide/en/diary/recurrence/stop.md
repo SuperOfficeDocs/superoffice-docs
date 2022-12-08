@@ -23,7 +23,7 @@ language: en
 
 5. Click **Save** to save the changes, or click **Cancel** to close the dialog without saving the changes.
 
-When you stop the repeating follow-up, all instances of the follow-up *after* the one you edited are deleted. If the follow-up is the first in a series of repeating follow-ups, the repeating pattern is deleted and it will become an "ordinary" follow-up.
+When you stop the repeating follow-up, all instances of the follow-up *after* the one you edited are deleted. If the follow-up is the first in a series of repeating follow-ups, the repeating pattern is deleted and it becomes an "ordinary" follow-up.
 
 > [!NOTE]
 > You can also stop a repeating follow-up by selecting it in the diary and deleting it. When you delete a repeating follow-up, the **Delete** dialog appears with two options: Select **Delete only this instance** to delete the follow-up only for this time slot, or select **Delete all future instances including this one** to delete this one and all future ones.

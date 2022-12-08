@@ -21,7 +21,7 @@ In the **Company** screen you can enter information about companies on several l
 
     ![Empty company card -screenshot][img1]
 
-1. In the **Country** field, enter the company’s country. The correct address format for this country will be updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences.
+1. In the **Country** field, enter the company’s country. The correct address format for this country is updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences.
 
 1. Enter the required information in the other fields.
 
@@ -51,7 +51,7 @@ In the **Company** screen you can enter information about companies on several l
 
 1. Go to the **Interests** tab. Here you specify what interests a company has.
 
-2. In edit mode, specify interests by checking the relevant boxes. SuperOffice Settings and maintenance defines which interests will be displayed.
+2. In edit mode, specify interests by checking the relevant boxes. SuperOffice Settings and maintenance defines which interests are displayed.
 
     > [!NOTE]
     > When the tab is in view mode, only the selected interests are displayed. When you are in edit mode, there may well be further interests options available.

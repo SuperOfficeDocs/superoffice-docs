@@ -36,7 +36,7 @@ You can add individual contacts from SuperOffice.
 
 You can add recipients to a mailing by importing them from an external comma-separated file (for example a .txt file created in Notepad or a .csv file created in Excel).
 
-When you import a list of names and email addresses, SuperOffice Marketing will try to locate the imported recipients in the SuperOffice database. If matches are found, the recipients' companies will be listed in the **Company** column in the **Recipients** list. Any names or email addresses that are **not** found in SuperOffice, will be filtered out and not included in the mailing. This is due to GDPR regulations.
+When you import a list of names and email addresses, SuperOffice Marketing will try to locate the imported recipients in the SuperOffice database. If matches are found, the recipients' companies are listed in the **Company** column in the **Recipients** list. Any names or email addresses that are **not** found in SuperOffice, are filtered out and not included in the mailing. This is due to GDPR regulations.
 
 1. Click **Select file**.
 
@@ -104,7 +104,7 @@ When you have added recipients to the **Recipients** list, you can preview the m
 
 1. Click a recipient in the **Recipients** list.
 
-2. Click the **Preview** button. The **Preview** window displays the mailing as it will look for the selected recipient. Any template variables (for example, name and company) have been replaced by actual contact data.
+2. Click the **Preview** button. The **Preview** window displays the mailing as it will look for the selected recipient. Any template variables (for example, name and company) are replaced by actual contact data.
 
 3. Click links to check that they work, but remember to reset them if they are tracked.
 
@@ -112,7 +112,7 @@ When you have added recipients to the **Recipients** list, you can preview the m
 
 ## Review and update the Recipients list
 
-When you add selections, projects, contacts and import lists, the **Recipients** list is automatically updated. If you have checked the option **Update recipient list when sending**, the projects and selections will be checked before sending the mailing, in case contacts have been added, removed or edited.
+When you add selections, projects, contacts and import lists, the **Recipients** list is automatically updated. If you have checked the option **Update recipient list when sending**, the projects and selections are checked before sending the mailing, if contacts were added, removed or edited.
 
 In addition, you can click the **Update list** button below the **Recipients** list to update the list manually. You should do this if it's been a while since you added the recipients. Some of the contacts on the list may have changed their consent in the meantime.
 

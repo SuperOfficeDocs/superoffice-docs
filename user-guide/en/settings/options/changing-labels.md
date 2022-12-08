@@ -27,7 +27,7 @@ You can change labels in all available languages in SuperOffice.
     > [!TIP]
     > To search for labels in another language, select the language in the list on the right and enter the search word in the field below.
 
-1. Press **ENTER**. The list will be updated with labels containing the search text.
+1. Press **ENTER**. The list is updated with labels containing the search text.
 
     > [!TIP]
     > Hold the mouse pointer over a row to display the resource ID for the label.

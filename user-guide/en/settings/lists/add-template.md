@@ -38,7 +38,7 @@ Templates are displayed as items in the **Document - Template** list and you lin
     1. Select **Upload a new document template from disk**.
     2. Click the **Upload** button.
     3. Click **Upload file** in the **Upload file** dialog.
-    4. Select the required file and click **Open**. The name of the file will be displayed in the **Edit list item** dialog.
+    4. Select the required file and click **Open**. The name of the file is displayed in the **Edit list item** dialog.
 
     </details>
 
@@ -51,7 +51,7 @@ Templates are displayed as items in the **Document - Template** list and you lin
 
 Enter the following information in the **Details** tab:
 
-1. In the **Direction** field, specify if the template will be outgoing or incoming, by clicking the arrow (![icon][img1] ) and choosing from the list box.
+1. In the **Direction** field, specify if the template is outgoing or incoming, by clicking the arrow (![icon][img1] ) and choosing from the list box.
 
 2. In the **Document type** field, specify the type of template by clicking the arrow (![icon][img1] ). You can choose from **Document** and **Fax**.
 
@@ -64,7 +64,7 @@ Enter the following information in the **Details** tab:
 
 5. <!-- onsite-->Check the **Publish** option if you want it to be possible to specify, in the **Document** dialog in SuperOffice CRM, that the document template in question should be made available to external users.
 
-6. <!-- onsite-->Check the **Save to database** option to specify that documents that you create using this template will be saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab in SuperOffice CRM. If not, the document is not displayed in SuperOffice CRM once you have created it and you cannot access it from the program.
+6. <!-- onsite-->Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab in SuperOffice CRM. If not, the document is not displayed in SuperOffice CRM once you have created it and you cannot access it from the program.
 
 7. Check the **Quote document type** option if the document should be available as a quote template or order confirmation template. You select the quote document type in the list below.
 

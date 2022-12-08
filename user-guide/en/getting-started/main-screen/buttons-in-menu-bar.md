@@ -48,7 +48,7 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 | Local settings | Click here to change the language, number/date format and email client in SuperOffice CRM. |
 | Mobile CRM settings | Click here to access settings for SuperOffice Mobile CRM. Here you can configure your Mobile CRM app. |
 | Change password | Click here to change your password. |
-| Recycle bin | Click here to [restore companies or contacts][3] that have been deleted. |
+| Recycle bin | Click here to [restore deleted companies or contacts][3]. |
 | Log out | Click here to log out of SuperOffice CRM. |
 
 > [!NOTE]
@@ -60,7 +60,7 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 
 | Option | Description |
 |---|---|
-| Other applications | Click here to access [other applications or links][1] that have been added to SuperOffice CRM. In most cases these applications are also available from the **Tools** button in the Navigator. |
+| Other applications | Click here to access [other applications or links][1] added to SuperOffice CRM. In most cases these applications are also available from the **Tools** button in the Navigator. |
 | Download | Click here to view available downloads from SuperOffice, such as SuperOffice WebTools or the CrossTable viewer for reports. |
 | SuperOffice App Store | Click here to open SuperOffice App Store, where you can explore standard apps, modules and integrations that can expand SuperOffice CRM Online. |
 | Copy shortcut | [Create shortcuts to entries][15] |

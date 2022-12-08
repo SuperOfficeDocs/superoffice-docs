@@ -27,7 +27,7 @@ Once you have added products to the quote and created a quote document, you can 
 
 5. Click in the **Language** field to choose which language to send the quote in.
 
-6. If your quote contains alternatives, you can select **Use favourite alternative only** to include only this alternative. Otherwise all alternatives will be included in the quote.
+6. If your quote contains alternatives, you can select **Use favourite alternative only** to include only this alternative. Otherwise all alternatives are included in the quote.
 
 7. In the **Publish** field, choose one of the following:
     * **Send as email and archive as PDF**. You must choose an email template in the list.

@@ -28,15 +28,24 @@ As a request handler, you, even aided by your colleagues, are not always able to
 In the request lists, you can forward multiple requests at the same time.
 
 1. Select the requests you want to forward in the request list.
+
 2. Click the ![icon][img1] menu button in the lower left corner of the request list.
+
 3. Select **Batch management** and **Batch forward**.
+
 4. Under **Choose recipient**, you will find the following:
+
     * At the top is the email address of the owner of the request and other request handlers who are or have been linked to the request.
     * In the next empty field, enter an email address to forward the message to someone who has not already been registered in the system.
+
 5. Check the recipient(s) you want, and click **To**, **Cc** or **Bcc**, depending on which recipient field you want to put them in. The recipients are displayed in the list which appears underneath.
+
 6. If you check **Close request**, the requests are closed once they are forwarded.
+
 7. Under **Comment**, you can enter a comment, which will then be added both to the email message and to the request as an internal message.
+
 8. Click ![icon][img2] in the toolbar and add any relevant documents as [attachments to the request][2].
+
 9. Click **OK**. The requests are sent.
 
 <!-- Referenced links -->

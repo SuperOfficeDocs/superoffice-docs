@@ -36,7 +36,7 @@ In the **Details** tab, you have the following options:
 
 * **Authentication**: If multiple authentication methods are available, you can select an authentication method here.
 
-* **User name**: Enter the SuperOffice user name. This should be the same name as in your identity provider's system (if you use Office 365 or Gmail for authentication). When you use SuperOffice for authentication, simply fill in your email address. Make sure the email address is valid, since it will be used for account confirmation.
+* **User name**: Enter the SuperOffice user name. This should be the same name as in your identity provider's system (if you use Office 365 or Gmail for authentication). When you use SuperOffice for authentication, simply fill in your email address. Make sure the email address is valid, since it is used for account confirmation.
 
 * **Role**: Specify the [role][3] the user should have in the **Role** list box. The role determines the user's data access and functional rights. You cannot change your own role.
 

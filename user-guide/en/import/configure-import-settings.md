@@ -105,12 +105,16 @@ Product
     * **Add always**:
       * New companies, contacts, and products will always be added, even if there are duplicates.
       * New products will always be added, even if there are duplicates.
+
     * **Merge - update empty fields**:
-      * If existing companies and contacts in SuperOffice have empty fields, these empty fields will be completed with data from the import source. Existing data in SuperOffice fields will not be overwritten.
-      * If existing products in the selected price list have empty fields, these empty fields will be completed with data from the import source. Existing data in the selected price list will not be overwritten.
+      * If existing companies and contacts in SuperOffice have empty fields, these empty fields are populated with data from the import source. Existing data in SuperOffice fields will not be overwritten.
+
+      * If existing products in the selected price list have empty fields, these empty fields are populated with data from the import source. Existing data in the selected price list will not be overwritten.
+
     * **Replace - overwrite existing**:
       * Import data will overwrite existing data in SuperOffice fields.
       * Import data will overwrite existing data in the selected price list.
+
     * **Skip - do not import**:
       * If companies and contacts already exist in SuperOffice, they will not be imported.
       * If products already exist in the selected price list, they will not be imported.

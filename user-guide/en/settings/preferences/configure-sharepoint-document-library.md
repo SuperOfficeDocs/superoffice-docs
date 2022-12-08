@@ -18,7 +18,7 @@ When you are configuring your new document library, Admin will show an intermedi
 
 When you are finished and have confirmed that you will use SharePoint, the state in Admin changes to Microsoft SharePoint Online.
 
-It will be possible to change some of the settings in the Wizard later
+It is possible to change some of the settings in the Wizard later
 
 **Steps:**
 
@@ -83,7 +83,7 @@ If you plan not to use "Visible for", do not select this option.
 
 3. If you have to wait for an authorization, you have the following options:
 
-    * Click **Save and close** to continue the configuration late. The page text will be updated to indicate that authorization is pending.
+    * Click **Save and close** to continue the configuration late. The page text is updated to indicate that authorization is pending.
 
     * Click **Check status again** to see if the Microsoft 365 Global Administrator has authorized the app.
 

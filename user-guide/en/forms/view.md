@@ -17,9 +17,9 @@ To view an existing form, click a form in the list. The **View form** screen ope
 
 ## Viewing options
 
-* **Recent**: Shows the forms you have been working on recently.
+* **Recent**: Shows the forms you have worked on recently.
 * **My forms**: Shows the forms that you have created.
-* **Active forms**: Shows only forms that are active. Forms can be deactivated manually, or are automatically deactivated at a specific date or when a specific number of submissions have been received.
+* **Active forms**: Shows only forms that are active. Forms can be deactivated manually, or are automatically deactivated at a specific date or when a specific number of submissions are received.
 * **All forms**: Shows all available forms.
 * **Search in forms**: Enter a search phrase and press **ENTER** or click the search icon ![icon][img2].
 

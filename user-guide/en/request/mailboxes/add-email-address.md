@@ -27,7 +27,7 @@ When you register email addresses under **Knowledge Base** > **Email addresses**
 
 7. <!-- online --> In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
-8. Click **OK**. The email address is added to the specified folder and will be available the next time you want to send an email.
+8. Click **OK**. The email address is added to the specified folder and available the next time you want to send an email.
 
 <!-- Referenced links -->
 [1]: manage-folders.md

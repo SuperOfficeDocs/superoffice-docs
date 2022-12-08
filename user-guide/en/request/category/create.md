@@ -29,15 +29,15 @@ language: en
 
     * **Subcategory of**: If this should be a subcategory of another category, select the parent category you require.
 
-    * **Category administrator**: Select who will be responsible for the requests in this category. In the **Assignment method** tab, you can specify that requests are to be assigned to the category manager if no other members of the category are available. Normally, the role of category administrator should be filled by a departmental manager.
+    * **Category administrator**: Select who is responsible for the requests in this category. In the **Assignment method** tab, you can specify that requests are to be assigned to the category manager if no other members of the category are available. Normally, the role of category administrator should be filled by a departmental manager.
 
-        * **Show category in status view**: If checked, this category will be displayed under **Status** on the **Dashboard**.
+        * **Show category in status view**: If checked, this category is displayed under **Status** on the **Dashboard**.
         * **Only members have access**: If checked, the category is accessible only to members of the category.
         * **Send notification to members about new request**: If checked, all members of the category will receive notification of new requests in this category.
 
     * **Send notification about new request to email address**: Enter an email address.
 
-    * **Take ownership when replying**: If checked, the user who replies to a request in this category, will be set as the owner of the request.
+    * **Take ownership when replying**: If checked, the user who replies to a request in this category is set as the owner of the request.
 
     * **Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences][1], unless you select **User-defined**.
 
@@ -60,7 +60,10 @@ language: en
     * Select an assignment type:
 
         * **Even**: Assigns requests evenly among the members of the category.
-        * **Weighted**: Assigns requests based on the weightings specified for members of the category. The weighting system can be explained by an example: If contact A has a weighting of 1, contact B a weighting of 2 and contact C a weighting of 5, then over the course of 8 requests each of these contacts will be assigned the same number of requests as their weighting indicates.
+        * **Weighted**: Assigns requests based on the weightings specified for members of the category.
+
+           Example: If contact A has a weighting of 1, contact B a weighting of 2 and contact C a weighting of 5, then over the course of 8 requests each of these contacts will be assigned the same number of requests as their weighting indicates.
+
         * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
         * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests** > **Unassigned requests** (default) or in the queue system **Get next request in queue** (see [How to set up Get next request in queue][3]).
 

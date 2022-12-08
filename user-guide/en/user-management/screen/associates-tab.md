@@ -82,7 +82,7 @@ You can group the list of users by role, user plan, primary group, and similar. 
 8. Click a group value to change the sort order.
 
 > [!NOTE]
-> If you navigate to another tab, the grouping will be reset.
+> If you navigate to another tab, the grouping is reset.
 
 ## What would you like to do now?
 

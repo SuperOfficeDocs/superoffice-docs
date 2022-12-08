@@ -31,7 +31,7 @@ so.envir: onsite
     * **Add as members to new selection**: check here if you are importing the company or contact data type and want the companies/contacts you are importing to be included in a separate selection. In this case you must also specify a name for the selection in the **Name** field.
 
     > [!NOTE]
-    > If you choose **Add as members to new selection**, companies and contacts, as appropriate, which are included in the import, will be added to a new selection with the name you have specified. Companies and contacts which are not included (if you have chosen **Skip record** in the **Handle Duplicates** dialog) will not be added to the selection even if they exist in the import file.
+    > If you choose **Add as members to new selection**, companies and contacts that are included in the import will be added to a new selection with the name you have specified. Companies and contacts which are not included (if you have chosen **Skip record** in the **Handle Duplicates** dialog) will not be added to the selection even if they exist in the import file.
 
 6. To specify more [advanced settings for the import][2], click the **Advanced** button.
 

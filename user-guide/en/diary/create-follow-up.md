@@ -27,7 +27,7 @@ If no empty row is displayed at the bottom of the activities list, enlarge the a
 2. Click and drag the line upwards until you see more empty rows at the bottom of the activities list.
 
 > [!NOTE]
-> If you specify a time or duration for a follow-up you are creating from within the activities list, it will be entered in the Diary.
+> If you specify a time or duration for a follow-up you are creating from within the activities list, it is entered in the Diary.
 
 ## <a id="associate" />Create appointment for an associate
 

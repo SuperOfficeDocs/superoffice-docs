@@ -43,7 +43,7 @@ Click the **Add to favourites** button to add the report with the specified crit
 
 ## <a id="archive" />The report archive (Documents)
 
-The report archive (the **Documents** section tab) appears at the bottom of the **Reports** screen. It contains previously generated reports that have been saved as documents. In this section tab, you can open, edit, delete and [filter][7] saved reports. You can also export a list of reports.
+The report archive (the **Documents** section tab) appears at the bottom of the **Reports** screen. It contains previously generated reports that were saved as documents. In this section tab, you can open, edit, delete and [filter][7] saved reports. You can also export a list of reports.
 
 > [!TIP]
 > Saved reports are listed with **Report** in the **Type** column on the **Activities** section tab in the **Company**, **Contact**, **Sale** and **Project** screens.

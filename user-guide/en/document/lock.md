@@ -34,7 +34,7 @@ Open a document and select to [edit the document][1]. The document is checked ou
 
 ## Check in a document after editing
 
-In most cases, you can [save and close the document][1] in the application, and the document will be checked in automatically.
+In most cases, you can [save and close the document][1] in the application, and the document is checked in automatically.
 
 ## Edit mode and read mode
 

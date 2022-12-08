@@ -11,7 +11,7 @@ language: en
 
 # Reports
 
-From the **Reports** tab in the **Options** screen, you can edit the names and descriptions of standard reports in SuperOffice CRM. In addition, you can choose which reports will be published (meaning made available to users). You also have the option of importing new reports.
+From the **Reports** tab in the **Options** screen, you can edit the names and descriptions of standard reports in SuperOffice CRM. In addition, you can choose which reports are published (meaning made available to users). You also have the option of importing new reports.
 
 The report list shows the format of the reports (appearance), whether a report is a standard report, the report type (content), and if it is published. Click a report to display the report description at the bottom of the tab.
 
@@ -34,4 +34,4 @@ You can import reports that have been exported from SuperOffice Reporter Studio,
 3. Click **Browse** in the dialog that appears.
 4. Select the report you want to import, and click **Open** and **Save**.
 
-If the import is successful, the report will be shown in the **Reports** tab with your user name as the owner.
+If the import is successful, the report is shown in the **Reports** tab with your user name as the owner.

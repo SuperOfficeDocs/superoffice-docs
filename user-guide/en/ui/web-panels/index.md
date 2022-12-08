@@ -17,7 +17,7 @@ You can add extra browser tabs in SuperOffice Service. You can add browser tabs 
 * Company
 * Contact
 * Extra table entry
-* Dashboard: The browser tabs will be available in the drop-down list you use to select the content of each or the four tiles on the dashboard.
+* Dashboard: The browser tabs are available in the drop-down list you use to select the content of each or the four tiles on the dashboard.
 
 In this way, SuperOffice Service can be adapted so that the information is where the users need it.
 

@@ -19,7 +19,7 @@ To add a macro to the **Actions** button in the **Company** screen, **Contact** 
 1. Select ![icon][img3] **System design** > **Extra menus**.
 2. Click **Top menu** to display the sub-folders.
 3. Hold the mouse pointer over one of these folders: **View request**, **View contact**, **View company** or **Message menu**. Then click ![icon][img1]. The **Menu properties** screen appears.
-4. Enter the name of the button in the **Label** field. The name should be quite short, because it will be displayed on the button.
+4. Enter the name of the button in the **Label** field. The name should be quite short, to fit on the button.
 5. Select **Use script**, and select a macro.
 6. Select the desired position in the **Position** list (0 = top).
 7. Click **OK**.

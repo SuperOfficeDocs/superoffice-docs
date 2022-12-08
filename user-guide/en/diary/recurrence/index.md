@@ -19,9 +19,9 @@ The options available for each frequency vary.
 
 | Option | Description | Example |
 |---|---|---|
-| Every workday (Mon-Fri) | Specifies that the follow-up will be repeated at the same time on each working day. | |
-| Every weekday (Mon-Sun) | Specifies that the follow-up will be repeated at the same time on each day of the week, including the weekend. | |
-| Every &lt;number&gt; day(s) | Here you enter a number to specify how many days should pass between each meeting. | Every 6 days. |
+| Every workday (Mon-Fri) | The follow-up will be repeated at the same time on each working day. | |
+| Every weekday (Mon-Sun) | The follow-up will be repeated at the same time on each day of the week, including the weekend. | |
+| Every &lt;number&gt; day(s) | The number of days that should pass between each meeting. | Every 6 days. |
 
 ## Weekly
 

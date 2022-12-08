@@ -22,9 +22,9 @@ Incoming chats are announced in the following ways:
 
 In the top-right corner of the **Chat** screen, you can set your presence:
 
-![icon][img3] You will be listed as a present agent and will receive warnings of unanswered chats.
+![icon][img3] You are listed as a present agent and will receive warnings of unanswered chats.
 
-![icon][img4] You will not be listed as a present agent and will not receive warnings of unanswered chats. However, you can still respond to incoming chats.
+![icon][img4] You are not listed as a present agent and will not receive warnings of unanswered chats. However, you can still respond to incoming chats.
 
 > [!NOTE]
 > If all agents have status **Away**, the customer will only see the offline form when they start the chat.

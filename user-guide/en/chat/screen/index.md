@@ -69,7 +69,7 @@ When a customer contacts you in the chat and is already registered in SuperOffic
 
 Here you can match the customer in the chat with an existing contact in SuperOffice, or create a new contact and/or company.
 
-If the customer is found in SuperOffice, you can show contact information, requests, sales, follow-ups and previous chat sessions that have been registered for this contact in SuperOffice.
+If the customer is found in SuperOffice, you can show contact information, requests, sales, follow-ups and previously registered chat sessions.
 
 <!-- Referenced links -->
 [1]: ../create-request.md

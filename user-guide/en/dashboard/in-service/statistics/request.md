@@ -43,17 +43,17 @@ In the **Settings** tab, set the following parameters:
 
     * **Show time interval in minutes**: If enabled, the calculated time intervals are displayed as number of minutes. Convenient if you would like to export the data and use them to display a graph.
 
-    * **Display dates as YYYY-MM-DD**: If enabled, dates will be written in this format. Useful if you want to export the data to another program.
+    * **Display dates as YYYY-MM-DD**: If enabled, dates are written in this format. Useful if you want to export the data to another program.
 
-    * **Hide empty rows**: If enabled, rows in the calculated dataset containing only nulls/zeros will be ignored.
+    * **Hide empty rows**: If enabled, rows in the calculated dataset containing only nulls/zeros are ignored.
 
-    * **Hide empty columns**: If enabled, columns in the calculated dataset containing only nulls/zeros will be ignored. Applies to the entire spreadsheet.
+    * **Hide empty columns**: If enabled, columns in the calculated dataset containing only nulls/zeros are ignored. Applies to the entire spreadsheet.
 
     * **Hide empty bars**: If enabled, empty bars are hidden in the resulting graph. Applies to charts.
 
-    * **Show sum per week**: If enabled, a calculated sum per week, calculated as 7 days from the start date, will be displayed.
+    * **Show sum per week**: If enabled, a calculated sum per week, calculated as 7 days from the start date, is displayed.
 
-    * **Show sum per month**: If enabled, a calculated sum per month will be displayed. This statistic applies to full calendar months and not the number of days, which can vary.
+    * **Show sum per month**: If enabled, a calculated sum per month is displayed. This statistic applies to full calendar months and not the number of days, which can vary.
 
 5. **Display format**: Here you select how you want to display the data. The different formats are:
 

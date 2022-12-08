@@ -43,7 +43,7 @@ When you display the Notepad on the screen, you can grab the top part of the not
 
 1. Position the mouse pointer in the Notepad.
 2. Type in your text as required.
-3. Press **TAB** to exit the Notepad, or click outside the Notepad window. The text will be saved automatically and a new Notepad page created.
+3. Press **TAB** to exit the Notepad, or click outside the Notepad window. The text is saved automatically and a new Notepad page created.
 
 > [!TIP]
 > You can browse back and forth between the pages using the arrow buttons at the bottom of the Notepad. The current page number and total number of pages are displayed at the bottom of the Notepad.

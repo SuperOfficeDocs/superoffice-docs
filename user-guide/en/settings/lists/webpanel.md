@@ -19,8 +19,8 @@ The items are displayed in the order you entered them. To change the order, sele
 
 After you have added items, you can specify details for each individual item. You can specify:
 
-* Which user groups the item will be visible for (see [User group filtering][2]).
-* Which heading it will be displayed under (see [Headings][1]).
+* Which user groups the item is visible for (see [User group filtering][2]).
+* Which  [heading][1] it will be displayed under.
 
 ## What would you like to do now?
 

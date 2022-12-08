@@ -27,7 +27,7 @@ You can specify up to three different periods, so that you can choose between sh
 
 2. Select the **Counters** tab.
 
-3. Under **Counter settings on...** you specify the periods for companies, contacts and projects. The **From** date will be displayed next to each period.
+3. Under **Counter settings on...** you specify the periods for companies, contacts and projects. The **From** date is displayed next to each period.
 
     The changes are automatically saved.
 

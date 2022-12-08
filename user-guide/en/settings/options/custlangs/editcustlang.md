@@ -35,7 +35,7 @@ language: en
 
 8. In the **FAQ folder** field, select which FAQ folder should be the top-level folder in the FAQ hierarchy for SuperOffice Customer Centre visitors for the language in question. In other words, the FAQ hierarchy can be divided into several different language sections and then filtered by language. This gives better search results and only FAQs in the relevant language are shown to the user.
 
-9. Check **Use as default** if you want this to be the default language. This means that this language will be used when none of the other customer languages match the criteria or if no language is defined for a customer.
+9. Check **Use as default** if you want this to be the default language. This means that this language is used when none of the other customer languages match the criteria or if no language is defined for a customer.
 
 10. Click **OK**. The customer language is created and you have the option of creating [external categories][1].
 

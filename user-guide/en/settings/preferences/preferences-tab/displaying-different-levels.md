@@ -11,7 +11,7 @@ language: en
 
 # Displaying different levels
 
-You can choose which settings will be displayed in the list, based on the [level][1] they are specified for, in the **Active settings** field. The levels displayed depend on which of the following checkboxes you have checked at the bottom of the field:
+You can choose which settings to display in the list based on the [level][1] they are specified for, in the **Active settings** field. The levels displayed depend on which of the following checkboxes you have checked at the bottom of the field:
 
 * User
 * Group

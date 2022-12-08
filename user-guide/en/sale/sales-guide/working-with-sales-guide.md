@@ -28,7 +28,7 @@ language: en
     > [!TIP]
     > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
 
-4. Once all follow-ups and documents for a stage have been completed, go to the next stage on the main **Sale** card.
+4. Once all follow-ups and documents for a stage are completed, go to the next stage on the main **Sale** card.
 
     > [!NOTE]
     > If you wish, you can go to the next stage without creating or performing all the follow-ups/documents in a stage.
@@ -104,7 +104,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
 ### The Quotation stage
 
-1. All of the follow-ups and documents in the **First meeting** stage have been completed and you want to go to the next stage in the sales guide.
+1. All of the follow-ups and documents in the **First meeting** stage are completed and you want to go to the next stage in the sales guide.
 
     1. Click the **Edit** button on the main **Sale** card.
     2. Click the arrow next to the **Stage** field and select **Quotation** from the list.
@@ -128,7 +128,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
 ### The Signing of contract stage
 
-1. Once all the follow-ups and documents you want to use in the **Quotation** stage have been completed, go to the last stage in the sales guide, which is **Signing of contract**.
+1. After all the follow-ups and documents you want to use in the **Quotation** stage are completed, go to the last stage in the sales guide, which is **Signing of contract**.
 
     1. Click the **Edit** button on the main **Sale** card.
     2. Click the arrow to the right of the **Stage** field and select **Signing of contract** from the list.
@@ -162,7 +162,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
     1. Click **Create** next to the **Signed contract** document to create the contract.
     2. After the contract meeting and the contract is signed, mark the **Contract meeting** appointment as completed.
 
-You can now change the stage to **Sold**. Once all the required follow-ups and documents for the sale have been completed, you can set the sale status to completed.
+You can now change the stage to **Sold**. After all the required follow-ups and documents for the sale are completed, you can set the sale status to completed.
 
 > [!TIP]
 > If you want the sale to remain visible in, for example, the **Activities** section tab in the **Sale** screen and the **Sales** section tab in the **Diary** screen, you must not set the sale to completed.

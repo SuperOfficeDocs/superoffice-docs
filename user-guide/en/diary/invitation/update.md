@@ -13,7 +13,7 @@ language: en
 
 If you edit or delete an invitation that you have created and sent, the invitees will receive a message about this. If you delete an invitation that you own from your Diary, this record also disappears from the invitees’ diaries.
 
-If one of the recipients of an invitation chooses to delete the record from their own diary, it will be deleted from their diary only. The record will then appear in the **Invitations** dialog, so that it can be found and accepted later on.
+If one of the recipients of an invitation chooses to delete the record from their own diary, it is deleted from their diary only. The record will then appear in the **Invitations** dialog, so that it can be found and accepted later on.
 
 > [!TIP]
 > To open the **Invitations** dialog, click the **Notifications** button ( ![icon][img1] ) on the Top bar.

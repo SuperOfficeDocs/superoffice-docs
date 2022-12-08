@@ -27,7 +27,7 @@ The appearance of the list of members varies slightly depending on what the sele
 | Criteria | View and [edit the criteria][3] for a dynamic selection. |
 | Details | View and edit [general information for a selection][1]. |
 | Charts | [View the selection data in a chart.][5] Charts of selections can also be used in [dashboards][6]. |
-| Mailings | Create a mailing to contacts in a selection. [View the mailings](#mailing) that have been archived on this selection. |
+| Mailings | Create a mailing to contacts in a selection. [View the mailings](#mailing) that are archived on this selection. |
 
 > [!TIP]
 > Click ![icon][img3] on the far right of the column headers in a selection to group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs][9 ] for additional functions.

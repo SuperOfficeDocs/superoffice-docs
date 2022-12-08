@@ -11,7 +11,7 @@ language: en
 
 # Create a quote document
 
-Once you have created the quote and added the products you want, you can create the quote document to send to the customer. This will be the "letter" that is sent to the customer. The list of products that are being offered will be added when the quote is sent to the customer.
+Once you have created the quote and added the products you want, you can create the quote document to send to the customer. This is the "letter" that is sent to the customer. The list of products that are being offered is added when the quote is sent to the customer.
 
 1. Open an existing quote, or [create a new quote][1].
 

@@ -23,7 +23,7 @@ You can add a selection of users and resources in your organisation to a view.
     > To edit an existing view, click **Edit**, and to copy an existing view, click **Copy**.
 
     <details><summary>Why is the Edit button greyed out?</summary>
-    You can change only group views created by you. In a predefined group view, the **Edit** button is greyed out to indicate that you cannot change it here. These group views contain all users that have been assigned to the specific groups. This is defined in SuperOffice Settings and maintenance.
+    You can change only group views created by you. In a predefined group view, the **Edit** button is greyed out to indicate that you cannot change it here. These group views contain all users assigned to the specific groups. This is defined in SuperOffice Settings and maintenance.
 
     To edit and save a predefined group view, select the **Copy** option and save the view with a new name.
     </details>
@@ -44,7 +44,7 @@ You can add a selection of users and resources in your organisation to a view.
 
 1. The pane on the right displays all the users and resources you have added to the group view. To remove a user or a resource from this list, select it and click **Delete**.
 
-1. The users and resources you have chosen will be displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ( ![icon][img3] ) or arrow down ( ![icon][img4] ) to move it up or down.
+1. The selected users and resources will be displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ( ![icon][img3] ) or arrow down ( ![icon][img4] ) to move it up or down.
 
 1. Click **Save** when you have finished selecting users and resources, or click **Cancel** to close the dialog without saving.
 

@@ -21,7 +21,7 @@ It may useful to copy specific selection members into another selection, for exa
 
     * **Copy into existing static selection**: select this option to copy the active selection into an existing static selection. In this case, specify the required selection.
 
-    * **Copy into new selection**: select this option to [create a completely new selection][2] containing the members of the active selection. In this case, you must also specify a name for the new selection, what type of selection it is and for whom it will be visible.
+    * **Copy into new selection**: select this option to [create a completely new selection][2] containing the members of the active selection. In this case, you must also specify a name for the new selection, what type of selection it is and for whom it is visible.
 
 1. Click **OK**. The selection is copied to the specified destination.
 

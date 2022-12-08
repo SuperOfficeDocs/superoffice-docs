@@ -23,7 +23,7 @@ language: en
 3. Click the **Delete list** button.
 4. Click **Yes** in the confirmation dialog.
 
-    The list will be deleted.
+    The list is deleted.
 
 <!-- Referenced links -->
 

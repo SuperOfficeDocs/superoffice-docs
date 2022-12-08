@@ -41,10 +41,10 @@ language: en
 
     <details><summary>Why is it a good idea to index?</summary>
 
-    The benefit of choosing **Indexed** is that it will be quicker to search on these fields using **Find**, for example. Non-indexed fields are also searchable, but the search takes longer. You should only index fields that are frequently searched and contain frequently used data.
+    Choosing **Indexed** makes it quicker to search on these fields using **Find**. Non-indexed fields are also searchable, but the search takes longer. You should only index fields that are frequently searched and contain frequently used data.
     </details>
 
-1. When you have specified the required settings, click **Save**. The dialog box will close and the new field will be displayed in the **Fields** list and in the grid.
+1. When you have specified the required settings, click **Save**. The dialog box will close and the new field is displayed in the **Fields** list and in the grid.
 
 > [!TIP]
 > In the bottom right of the **Fields** dialog is the **Template variable name** followed by a code (ID), which can be used to reuse the information you enter in this field, for example, as [template variables][2] in documents and emails.

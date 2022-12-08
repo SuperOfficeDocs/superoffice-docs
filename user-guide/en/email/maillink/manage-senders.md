@@ -24,7 +24,7 @@ You can use the **Search for sender** button to search for the precise email add
 3. What happens next, depends on whether the sender is found in SuperOffice:
     * If the email address is found on a company/contact, the company/contact opens in SuperOffice.
     * If the email address is registered on more than one company/contact, a dialog will appear, listing the alternatives and allowing you to choose one.
-    * If the email address is not registered in SuperOffice, you will be given the possibility of adding it.
+    * If the email address is not registered in SuperOffice, you may add it.
     * SuperOffice CRM only: If the sender of the selected email is marked as a former employee, the company/contact will still open, but the sender is not shown in SuperOffice CRM unless you have chosen to show former employees.
 
 ## Handle email from a sender with several listings
@@ -33,7 +33,7 @@ If the sender is listed more than once in SuperOffice CRM, a dialog will appear 
 
 ## Handle an email from a sender not listed in SuperOffice
 
-If the sender is not listed in SuperOffice CRM at all, you will be given the option of adding their email address to SuperOffice CRM.
+If the sender is not listed in SuperOffice CRM at all, you may add their email address to SuperOffice CRM.
 
 1. Do one of the following:
     * [Archive the email on companies/contacts][1]
@@ -46,7 +46,7 @@ If the sender is not listed in SuperOffice CRM at all, you will be given the opt
     * **Create new contact**: Click this option to [add the email address to a new contact](#new-contact).
     * **Add email address to existing contact**: Click this option to [add the email address to an existing contact](#existing-contact).
 
-4. Click **OK**. The contact and their email address will be displayed on the **Contacts** section tab of the specified company card.
+4. Click **OK**. The contact and their email address is displayed on the **Contacts** section tab of the specified company card.
 
 > [!NOTE]
 > If you attempt to archive more than one email at a time, you will be prompted for each sender not listed in SuperOffice CRM.
@@ -61,7 +61,7 @@ If the sender is not listed in SuperOffice CRM at all, you will be given the opt
 
 4. Enter the required information about the contact, such as name, email address, and phone number.
 
-5. Click **OK**. The contact and their email address will be displayed on the **Contacts** section tab of the specified company card.
+5. Click **OK**. The contact and their email address is displayed on the **Contacts** section tab of the specified company card.
 
 ## <a id="existing-contact" />Add an email address to an existing contact
 
@@ -75,7 +75,7 @@ If the sender is not listed in SuperOffice CRM at all, you will be given the opt
 
 5. Check the **Set as primary email address for this contact** box if the contact has more than one email address and you would like this one to be used as their default address.
 
-6. Click **OK**. The contact and their email address will be displayed on the **Contacts** section tab of the specified company card.
+6. Click **OK**. The contact and their email address is displayed on the **Contacts** section tab of the specified company card.
 
 ## Not adding an email address to SuperOffice
 

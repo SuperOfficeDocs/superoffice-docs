@@ -32,7 +32,7 @@ Templates are displayed as items in the **Email - Template** list and you can ad
     * **Upload a new email template from disk (.md/.md)**
         1. Click the **Upload** button.
         2. Click **Upload file** in the **Upload file** dialog.
-        3. Select the required file and click **Open**. The name of the file will be displayed in the **Edit list item** dialog.
+        3. Select the required file and click **Open**. The name of the file is displayed in the **Edit list item** dialog.
 
 5. Click **Save** in the **Edit list item** dialog. The dialog is updated.
 
@@ -52,13 +52,13 @@ Enter the following information in the **Details** tab:
 
 2. Enter the title of the email in the **Subject** field. You can also add the subject in other languages by clicking ![icon][img1] (see [Translation]][1]).
 
-3. Select **Use signature in new email** to add your signature to new emails. If you do not have a personal signature, the system signature will be used.
+3. Select **Use signature in new email** to add your signature to new emails. If you do not have a personal signature, the system signature is used.
 
 4. Select **Show email dialog** to display the **New email** dialog when you create a new email based on this template. In this dialog you can enter data such as company, contact, and project, which is needed if the email template contains template variables.
 
 5. Optionally, type in a description of the template in the **Description** field.
 
-6. In the **Direction** field, specify if the template will be outgoing or incoming by clicking the arrow (![icon][img2] ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
+6. In the **Direction** field, specify if the template is outgoing or incoming by clicking the arrow (![icon][img2] ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
 
 7. In the **Intention** field, click the arrow (![icon][img2] ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence][5]).
 

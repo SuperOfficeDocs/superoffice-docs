@@ -37,7 +37,7 @@ A dashboard can consist of any number of tiles. Each tile contains a graphical o
 
     * Double-click a record to open it (or select a record and click **Open**).
 
-    * To [copy the records to a selection][4], click the **Task** button and select **Copy into selection**. If you do not select any records, all records will be copied.
+    * To [copy the records to a selection][4], click the **Task** button and select **Copy into selection**. If you do not select any records, all records are copied.
 
 5. Click **Close** when you are done.
 

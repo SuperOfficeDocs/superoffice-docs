@@ -19,7 +19,7 @@ When creating an email [from Microsoft Outlook][1] or [from Lotus Notes][2], you
 
 3. Select the name of a company/project/sale/selection/user group. You can also search by starting to type the name of the item in question.
 
-    A list of all the members of the selected company/project/sale/selection/user group is displayed. If an employee has more than one email address and you select **Show all addresses** in the lower left corner of the dialog, all their email addresses will be shown.
+    A list of all the members of the selected company/project/sale/selection/user group is displayed. If an employee has more than one email address and you select **Show all addresses** in the lower left corner of the dialog, all their email addresses are shown.
 
 4. Select the recipients to include in the **To** field and click the arrow button to the right of the list (![icon][img2]). The recipients are displayed in the **To** list on the right-hand side of the window.
 

@@ -27,7 +27,7 @@ language: en
 
 4. In the new browser tab, select the service provider your company uses for video meetings.
 
-5. You will be forwarded to the service provider's authentication portal. Do the following:
+5. You are forwarded to the service provider's authentication portal. Do the following:
 
     * [Authenticate and validate your user][1].
     * Confirm that the service provider is allowed to connect to SuperOffice.

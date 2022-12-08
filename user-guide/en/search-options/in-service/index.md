@@ -69,7 +69,7 @@ At the bottom of the **Criteria** screen, you have the following options:
 The search screen always shows the most relevant criteria for what you are searching for, for example requests or contacts. But you can add more criteria yourself.
 
 1. Click the **Add criteria** button in the **Criteria** screen. A dialog box displays with two empty fields.
-2. In the **Input the label for the field here** field, you can enter a custom name for the field. Otherwise the default name will be used.
+2. In the **Input the label for the field here** field, you can enter a custom name for the field. Otherwise the default name is used.
 3. In the **Choose field** list, select which field in the database the values are to be obtained from.
 4. Click **OK**. The new criterion is added below the others.
 
@@ -87,8 +87,8 @@ You can also open a record by double-clicking the relevant row.
 If you click one of the column headings below **Result**, you get the following options:
 
 * **Sort ascending**: Clicking here sorts the records in ascending order, for example, alphabetically if the column contains text, based on the column in question.
-* **Sort descending**: Click here to sort the records in descending order, based on the column in question. If the column contains numbers (such as ID numbers), the highest will be displayed at the top.
-* **Group by**: For example, if you have the "Category" column containing the values "Sales", "Support" and "Invoices", the records will be divided into three groups with these headings.
+* **Sort descending**: Click here to sort the records in descending order, based on the column in question. If the column contains numbers (such as ID numbers), the highest is displayed at the top.
+* **Group by**: For example, if you have the "Category" column containing the values "Sales", "Support" and "Invoices", the records are divided into three groups with these headings.
 * **Functions**: If you click here you can choose between **Mathematical functions** and **Statistical functions**. An example of a mathematical function is summing a column consisting of numerical values. With regard to statistical functions, you can, for example, [add a column][7] showing request response times, and then use the **Average** statistical function to display the average response time for the displayed requests. If, instead, you select **Remove functions**, you remove any previously specified functions.
 
 At the top right corner of the search results list are the following buttons:

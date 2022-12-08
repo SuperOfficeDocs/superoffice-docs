@@ -24,7 +24,7 @@ Follow these steps:
 
 3. Click **Send and archive**. The email is sent.
 
-4. In the dialog **Archive email in SuperOffice**, the **Company** and **Contact** fields have been filled in if the recipient's email address is registered in SuperOffice. Fill in relevant information in the following fields:
+4. In the dialog **Archive email in SuperOffice**, the **Company** and **Contact** fields are automatically filled if the recipient's email address is registered in SuperOffice. Fill in relevant information in the following fields:
 
     [!include[Archiving options for Gmail](includes/gmail-archiving-options.md)]
 

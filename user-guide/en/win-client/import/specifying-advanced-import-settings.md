@@ -47,16 +47,16 @@ Advanced import settings include date format settings and delimiter characters. 
     > [!NOTE]
     > **Native ID** means the associate's **associate_id**, as recorded in the database. If no such ID is found, the contents of the **Default associate** field are used.
 
-1. In the **Default associate** list box, choose which name will be entered by default if the SuperOffice database is unable to interpret the associate format in the import file.
+1. In the **Default associate** list box, choose which name to enter by default if the SuperOffice database is unable to interpret the associate format in the import file.
 
-1. In the **Country format** list box, choose from the predefined formats specifying how countries will be interpreted, for example, if the country name is local or English.
+1. In the **Country format** list box, choose from the predefined formats specifying how countries should be interpreted, for example, if the country name is local or English.
 
     > [!NOTE]
     > **Native ID** means **country_id**, as recorded in the database.
 
-1. In the **Default country name** list box, choose which country will be entered if the SuperOffice database is unable to interpret the country format in the import file.
+1. In the **Default country name** list box, choose which country to enter if the SuperOffice database is unable to interpret the country format in the import file.
 
-1. In the **Currency** list box, choose which currency will be entered if the SuperOffice database is unable to interpret the currency format in the import file.
+1. In the **Currency** list box, choose which currency to enter if the SuperOffice database is unable to interpret the currency format in the import file.
 
 1. Check **Update freetext index** to update the freetext index continuously during the import, so that it is completely updated when the import is finished.
 

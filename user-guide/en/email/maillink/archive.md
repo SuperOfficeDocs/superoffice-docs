@@ -27,7 +27,7 @@ For all the different archiving options, you may select the **Warn me when an em
 
 ## Differences between Outlook, Notes, and SuperOffice CRM
 
-You can create emails in several different ways, both [from Outlook][6], [from Notes][7], and [from SuperOffice CRM][8]. If the **Document** dialog appears, the email will be treated as a SuperOffice document and be archived. If the **Document** dialog does not appear, the email is archived based on the settings in the **SuperOffice CRM options** dialog.
+You can create emails in several different ways, both [from Outlook][6], [from Notes][7], and [from SuperOffice CRM][8]. If the **Document** dialog appears, the email is treated as a SuperOffice document and will be archived. If the **Document** dialog does not appear, the email is archived based on the settings in the **SuperOffice CRM options** dialog.
 
 The **Document** dialog will open automatically if you:
 

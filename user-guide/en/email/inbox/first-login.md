@@ -19,7 +19,7 @@ To access email, you must first specify details about your email account. The **
 
 3. In the **Password** field, enter your password.
 
-4. Click **Log in**. If SuperOffice recognizes the email provider (such as Gmail), the server settings will be set up automatically and the inbox will load. If not, the settings screen will display and you must fill in the required fields.
+4. Click **Log in**. If SuperOffice recognizes the email provider (such as Gmail), the server settings are set up automatically and the inbox loads. If not, the settings screen will display and you must fill in the required fields.
 
 ## Why is the email list is not updated?
 

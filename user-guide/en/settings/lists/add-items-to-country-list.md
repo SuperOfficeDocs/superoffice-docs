@@ -15,14 +15,14 @@ language: en
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the list items are countries:
 
-1. Enter the required name of the item in the **Name** field. This will be the name of the country.
+1. Enter the required name of the item in the **Name** field. The name of the country.
 
     > [!NOTE]
     > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 2. Optionally, enter the English name for the country in the **English name** field.
 
-3. In the **Top-level domain** field, specify which country address will be used in Internet addresses for the relevant country, for example *NO* for Norway or *DE* for Germany.
+3. In the **Top-level domain** field, specify which country address to use in internet addresses for the relevant country, for example *NO* for Norway or *DE* for Germany.
 
 4. In the **Postal prefix** field, specify the letter(s) used in front of the postcode when you write to the selected country from another country, for example, *N* for Norway.
 

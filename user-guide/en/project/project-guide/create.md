@@ -27,9 +27,9 @@ For example, you may have a project type named **Conference**. This project type
 
 This procedure shows you how to create a project guide from scratch.
 
-1. Define [statuses](#create-stage) to include in the project guide
-2. Define the [project type](#create-type) (with associated statuses) that the project guide will be linked to
-3. Design the [project guide](#create-guide)
+1. Define [statuses](#create-stage) to include in the project guide.
+2. Define the [project type](#create-type) (with associated statuses) to link the project guide to.
+3. Design the [project guide](#create-guide).
 
 ## <a id="create-stage" /> Create statuses for the project guide
 

@@ -15,10 +15,10 @@ In the top part of the **Number allocation** tab is a table showing the counters
 
 The table consists of the following columns:
 
-* **\[Icon\]**: Shows where in SuperOffice CRM the counter will be used, for example, ![icon][img1] for the **Company** screen.
+* **\[Icon\]**: Shows where in SuperOffice CRM the counter is used, for example, ![icon][img1] for the **Company** screen.
 * **Counter**: shows the name of the counter, for example, **Company number**, which applies to the **Number** field in the **Company** screen.
 * **Next**: shows the next value for the counter.
-* **Allocate**: specifies if the automatic counter function will be used, so that the system enters values for you.
+* **Allocate**: specifies if the automatic counter function is used, so that the system enters values for you.
 * **Unique**: specifies if the counter values must be unique. Useful when SuperOffice CRM users allocate values themselves.
 * **Read only**: Specifies whether SuperOffice CRM users can type values into the counter fields themselves.
 * **Allow blank**: specifies if an empty counter field is a permitted value. Useful when the counter values must be unique. If **Allow blank** is checked, this means that the requirement for unique values does not apply to empty fields.

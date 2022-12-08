@@ -29,12 +29,12 @@ You can merge duplicate database records of companies. Contacts and activities w
 
 1. Under **Contacts and company details**, you can choose from:
 
-    * Merge identical contacts. If you select this option, contacts with identical names will be merged.
+    * Merge identical contacts. If selected, contacts with identical names are merged.
 
         > [!NOTE]
         > The names must be EXACTLY the same, first name, middle name and last name, to be merged.
 
-    * **Replace empty fields in \[target company\] with values from \[source company\]**. If you select this option, empty data fields in the **To** company will be updated with data from the **From** company.
+    * **Replace empty fields in \[target company\] with values from \[source company\]**. If selected, empty data fields in the **To** company are updated with data from the **From** company.
 
     [!include[Preview results](../includes/note-preview-results.md)]
 

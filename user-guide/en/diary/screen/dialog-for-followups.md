@@ -132,7 +132,7 @@ Check **Free** or **Busy** in the **Show as** field to specify if you are availa
 
 ### Visible for
 
-Click the **Visible for** field to display a list that allows you to choose if the follow-up will be visible to all users, visible only to the user defined as owner, or visible to all users in one of the user groups that the owner belongs to.
+Click the **Visible for** field to display a list that allows you to choose if the follow-up should be visible to all users, visible only to the user defined as owner, or visible to all users in one of the user groups that the owner belongs to.
 
 > [!NOTE]
 > If you set visibility to owner only, the entry will appear in italics on the **Activities** section tab.

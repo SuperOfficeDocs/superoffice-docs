@@ -25,7 +25,7 @@ You can create a follow-up to appear, for example, on the activities list of all
 
 6. Enter a description of the follow-up in the **Description** field.
 
-7. Choose which project the follow-up will be linked to in the **Project** field. Do one of the following:
+7. Choose which project to link the follow-up to in the **Project** field. Do one of the following:
 
     * Click the arrow and select a project from the list.
     * Typing the whole or the beginning of the project name (see [The History list][2] and [FastSearcher][3]).

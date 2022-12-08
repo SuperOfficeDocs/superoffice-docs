@@ -17,7 +17,7 @@ When you have registered a sale in SuperOffice CRM, it is quick and easy to crea
 
 1. Open a sale and [create the quote][1].
 2. [Add products to the quote][2].
-3. [Create the quote document][3]. This will be the "letter" that accompanies the list of products that are being offered.
+3. [Create the quote document][3]. This is the "letter" that accompanies the list of products that are being offered.
 4. [Send the quote][4].
 5. When the customer accepts the quote, you can [place the order][5].
 

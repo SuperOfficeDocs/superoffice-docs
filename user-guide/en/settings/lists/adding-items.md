@@ -13,7 +13,7 @@ language: en
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list from the list box at the top. All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list will be empty.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list from the list box at the top. All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list is empty.
 
 3. Click the **Add** button below the **Items** list.
 
@@ -36,7 +36,7 @@ language: en
 
 The items are displayed in the order you entered them. To change the order, select an item and move it up or down using the arrow buttons below the list ( ![icon][img3] ![icon][img4] ).
 
-After you have added items, you can specify details for each individual item. You can specify the user groups the item will be visible to (see [User group filtering][2]), and the headings it will display under (see [Headings][3]).
+After you have added items, you can specify details for each individual item. You can specify the user groups the item is visible to (see [User group filtering][2]), and the [headings][3] it will display under.
 
 <!-- Referenced links -->
 [1]: specialized-lists.md

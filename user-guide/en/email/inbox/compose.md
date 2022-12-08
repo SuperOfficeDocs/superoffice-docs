@@ -31,7 +31,7 @@ Fill in the fields below, click **Create** and compose the email as described ab
 | Contact | Click the arrow next to this field and a list of known contacts in the company is displayed. |
 | Project | Enter the name of the project that the email should be linked to. |
 | Sale | Enter the name of the sale that the email should be linked to. |
-| Visible for | Click the **Visible for** field to display a list that allows you to choose if the email will be visible to all users, only yourself, or visible to all users in one of the user groups that the owner belongs to. |
+| Visible for | Click the **Visible for** field to display a list that allows you to choose if the email should be visible to all users, only yourself, or visible to all users in one of the user groups that the owner belongs to. |
 | Language | If the selected template includes translated versions, you can select a language for the template. |
 
 ## Send

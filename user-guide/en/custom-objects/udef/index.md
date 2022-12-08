@@ -39,7 +39,7 @@ All companies and organisations have their own requirements for the information 
 * [The More tab (Document)][5]
 * The Details tab in the Sale screen
 
-You can specify *page 1 fields* (fields that will be displayed on the "first page" in their respective screens or dialogs) in the following places:
+You can specify *page 1 fields* (fields displayed on the "first page" in their respective screens or dialogs) in the following places:
 
 [!include[List](includes/list-page-1-field-locations.md)]
 
@@ -60,7 +60,7 @@ You can then add these fields to the **Company** screen:
 | Application A; Application B; Application C | Checkbox | Three checkboxes where you can check the applications that the customer has purchased. |
 
 > [!NOTE]
-> The fields you add will be displayed in the **More** tab in the **Company** screen. To display them on the company card, [specify them as *page 1 fields*][1].
+> The fields you add are displayed in the **More** tab in the **Company** screen. To display them on the company card, [specify them as *page 1 fields*][1].
 
 ### User-defined fields for sales
 

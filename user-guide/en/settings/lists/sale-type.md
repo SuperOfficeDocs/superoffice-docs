@@ -30,7 +30,7 @@ language: en
     > [!TIP]
     > You can create new options in addition to the predefined ones by [adding items][2] to the **Sale - Category (for sale type)** list in Settings and maintenance.
 
-3. In the **Estimated time for this sale process**, enter a duration for the sale type (number of weeks, days or months). When you create a new sale of this sale type, the sale date will be set relative to the time you enter here (today's date + estimated time).
+3. In the **Estimated time for this sale process**, enter a duration for the sale type (number of weeks, days or months). When you create a new sale of this sale type, the sale date is set relative to the time you enter here (today's date + estimated time).
 
 4. Enter a description of the sale type at the bottom of the dialog.
 
@@ -71,7 +71,7 @@ In the **Quote attachments** tab you can add documents to be sent to the custome
 3. Select one or more documents and click **OK**. The document(s) is/are displayed in the **Quote attachments** tab.
 4. Select the documents you want to include in the **Include** column.
 
-When you create a quote with this sale type, the selected documents will be added to the quote as attachments. They will not however be added in the **Activities** section tab in the sale.
+When you create a quote with this sale type, the selected documents are added to the quote as attachments. They will not however be added in the **Activities** section tab in the sale.
 
 ## Quote defaults
 

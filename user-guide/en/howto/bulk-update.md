@@ -42,7 +42,7 @@ The **Bulk update** task allows you to change values across multiple records of 
 7. Click **Update**. The **Confirm** dialog opens, showing a summary of the updates.
 
     > [!NOTE]
-    > Once the updates have been applied, they cannot be undone.
+    > After an update is applied, it cannot be undone.
 
 8. Click **Yes** to implement the changes to the selected records.
 

@@ -14,13 +14,13 @@ language: en
 You can change the name or description of an item previously set up in Settings and maintenance.
 
 > [!NOTE]
-> The name of the item will be changed wherever it is already in use in SuperOffice CRM. To avoid this, [delete the old item][1] instead and create a new one.
+> The name of the item changes if it is already in use in SuperOffice CRM. To avoid this, [delete the old item][1] instead and create a new one.
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
 2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list.
 
-    All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list will be empty.
+    All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list is empty.
 
 3. Double-click the required item in the **Items** list.
 

@@ -83,7 +83,7 @@ From the **Categories** screen, it is also possible to search for requests in a 
 
 ## Search in request log
 
-Under **Requests** in the Navigator is the **Search in request log** option. This is a shortcut to a special search. By searching in the request log, you can find requests that have been amended/updated in a specific way within a specific period.
+Under **Requests** in the Navigator is the **Search in request log** option. This is a shortcut to a special search. By searching in the request log, you can find requests that were amended/updated in a specific way within a specific period.
 
 For example, you can find all requests that you yourself have changed in the last week, regardless of who is responsible for the request or what status it has. In this way, you can easily retrieve all the requests you have worked on and which you want to keep a check on in future. In other respects, this screen works like an ordinary search
 
@@ -105,7 +105,7 @@ Contains a list of requests that match the criteria specified above. Here you ca
 * Click the ![icon][img1] menu button in the top right corner to access the change the view options.
 
 > [!TIP]
-> The status **Open** together with the **Read** column will give an overview if the request have been **Read by owner**, **New information** or **Not read by owner**.
+> The status **Open** together with the **Read** column will give an overview if the request were **Read by owner**, **New information** or **Not read by owner**.
 
 Under the list, you can click the ![icon][img1] menu button to access the following options:
 

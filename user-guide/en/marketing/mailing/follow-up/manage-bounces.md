@@ -36,7 +36,7 @@ Temporarily failing email addresses are not blocked, and they are not skipped in
 
 ## Blocked email addresses
 
-Email addresses that have been returned due to permanent errors or have bounced several times will be automatically blocked and will also be skipped in future mailings.
+Email addresses that have been returned due to permanent errors or have bounced several times are automatically blocked and will be skipped in future mailings.
 
 > [!NOTE]
 > If an email bounces more then 5 times, it is automatically blocked. You can adjust this setting in the global preference **Number of accepted bounces before email address is disabled** in SuperOffice Settings and Maintenance.

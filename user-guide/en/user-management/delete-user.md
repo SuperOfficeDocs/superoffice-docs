@@ -38,7 +38,7 @@ language: en
 1. [!include[Click Users](includes/goto-users.md)]
 2. [!include[Select Other users](includes/select-other-users.md)]
 3. Select the user you want to delete.
-4. Click the **Delete** button. The user will be removed from the list.
+4. Click the **Delete** button. The user is removed from the list.
 
 <!-- Referenced links -->
 

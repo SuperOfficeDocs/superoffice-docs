@@ -6,7 +6,7 @@ In the **Content** step you enter the content of the SMS.
 2. Click **Next** to go to the next step.
 
 > [!NOTE]
-> The number of characters (including spaces) is displayed in the **Number of chars** field. The character limit for 1 SMS message is 160 characters. If your message exceeds 160 characters, it will be sent as 2 or more messages.
+> The number of characters (including spaces) is displayed in the **Number of chars** field. The character limit for 1 SMS message is 160 characters. If your message exceeds 160 characters, it is sent as 2 or more messages.
 
 <!-- Referenced links -->
 [1]: ../../../../../../docs/document/templates/variables/for-selected-contact.md

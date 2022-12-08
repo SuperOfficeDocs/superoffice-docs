@@ -17,9 +17,9 @@ language: en
 
 This procedure shows you how to create a sales guide from scratch.
 
-1. Define [stages](#create-stages) to include in the sales guide
-2. Define [the sales type](#create-type) (with associated stages) that the sales guide will be linked to
-3. Design the [sales guide](#create-guide)
+1. Define [stages](#create-stages) to include in the sales guide.
+2. Define [the sales type](#create-type) (with associated stages) that the sales guide will be linked to.
+3. Design the [sales guide](#create-guide).
 
 ## <a id="create-stages" />Create stages for the sales guide
 

@@ -41,7 +41,7 @@ Shows information about the contact selected in the **Company** or **Selection**
 
 ### Why is the side panel empty?
 
-In a [dynamic selection][7], you can choose to show companies only, without specifying a contact. If **Include main contact** is not checked in the dynamic selection, no information will be displayed in the **Contact** view for the side panel, even if you have selected a contact.
+In a [dynamic selection][7], you can choose to show companies only, without specifying a contact. If **Include main contact** is not checked in the dynamic selection, no information is displayed in the **Contact** view for the side panel, even if you have selected a contact.
 
 ## Day
 

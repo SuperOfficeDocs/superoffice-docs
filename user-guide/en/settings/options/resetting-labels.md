@@ -26,7 +26,7 @@ If you have changed any labels and want to return to the default settings for on
 To cancel all the label changes, uncheck **Enable label substitution**.
 
 > [!NOTE]
-> The translated labels will NOT be deleted. They are hidden in the GUI, and the default labels are displayed in their place. As soon as you enable label substitution again, the translated labels will be displayed again.
+> The translated labels will NOT be deleted. They are hidden in the GUI, and the default labels are displayed in their place. As soon as you enable label substitution again, the translated labels are displayed again.
 
 <!-- Referenced links -->
 

@@ -21,7 +21,7 @@ A request can arrive in the system via an email from the customer, or you can re
 
     * By default, the contact(s) entered here will also be the contact(s) for the new request.
     * Contact(s) entered here will receive the message (in the **Message** tab) by email (even if the access level of the message is set to **Internal**).
-    * If you enter more than one contact, the first contact will be the main contact for the request. You can click and drag the contacts to change the order.
+    * If you enter more than one contact, the first contact is the main contact for the request. You can click and drag the contacts to change the order.
 
     In the **To** field, start typing the name (or phone number) of the contact. In the list of search results, use the up/down arrow keys on your keyboard to select a contact and press **ENTER**.
 
@@ -64,7 +64,7 @@ Here you enter information to correctly assign and prioritize the request.
 * In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
 
 * In the **Access level for request** list box, select one of the following options:
-  * **External**: Select this option if the contact is to have access to the request viaSuperOffice Customer Centre.
+  * **External**: Select this option if the contact is to have access to the request via SuperOffice Customer Centre.
   * **Internal**: Select this option if the contact is not to have access to the request. The request will be listed in SuperOffice Customer Centre, but the contact cannot view the request details or messages.
 
 * In the **Status** list box, choose one of the following:
@@ -77,7 +77,7 @@ Here you enter information to correctly assign and prioritize the request.
 * The **Contacts** field: By default, the person you entered in the **To** field is also added as a contact for the request (after you click **OK**).
   * You can add additional contacts if you like.
   * Contacts added here will be linked to the request and may view information about the request in SuperOffice Customer Centre.
-  * If you enter more than one contact, the first contact will be the main contact for the request. You can click and drag the contacts to change the order.
+  * If you enter more than one contact, the first contact is the main contact for the request. You can click and drag the contacts to change the order.
   * Click ![icon][img1] to [create a new contact][5].
 
 * Automatically add message recipients as request contacts: This checkbox is selected by default for new requests, so any recipients you add in the **To** field when creating the request, will also be added as contacts for the request. The contacts are added when you click **OK**.

@@ -47,7 +47,7 @@ language: en
 9. In the large text box under **Comments**, enter a more detailed description of the company’s or contact's function within the sale, if required.
 
     > [!NOTE]
-    > If you enter anything in this text box, a paperclip symbol ( ![icon][img1] ) will be displayed to the right of the **Sales role** column in the **Stakeholders** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
+    > If you enter anything in this text box, a paperclip symbol ( ![icon][img1] ) is displayed to the right of the **Sales role** column in the **Stakeholders** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
 
 10. Repeat steps 4-9 for each stakeholder you want to add.
 

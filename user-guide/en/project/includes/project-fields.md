@@ -31,7 +31,7 @@
 
 1. **Completed:** This box indicates whether the project is completed.
 
-1. **Publish:** (requires separate licence) If you check this box, the project will be visible to external users through third-party applications. You can choose to have the project published for a limited time only (see [The Event tab][4]).
+1. **Publish:** (requires separate licence) If you check this box, the project is visible to external users through third-party applications. You can choose to have the project published for a limited time only (see [The Event tab][4]).
 
 <!-- Referenced links -->
 [5]: ../../howto/duplicates.md

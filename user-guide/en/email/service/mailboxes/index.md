@@ -14,9 +14,9 @@ language: en
 The **Mailboxes** tab contains a list of the installed mailboxes. This list contains the following columns:
 
 * **Address**: The mailbox's sending address.
-* **Category**: Requests from the mailbox will be assigned to this category.
+* **Category**: Requests from the mailbox are assigned to this category.
 * **Priority**: The priority that new requests are assigned when registered from this mailbox.
-* **Forwarding address**: <!-- online -->If you are not using the email functions in SuperOffice, emails will be forwarded to this address.
+* **Forwarding address**: <!-- online -->If you are not using the email functions in SuperOffice, emails are forwarded to this address.
 * **Protocol**: <!-- onsite -->The protocol that the mailbox uses.
 
 ## What would you like to do now?

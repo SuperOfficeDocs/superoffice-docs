@@ -18,7 +18,9 @@ Using the Windows client? See [Windows Client settings][7].
 In the **Import** screen, you can import companies, contacts and products into SuperOffice. You can import both new companies/contacts and existing companies/contacts with updated data.
 
 > [!NOTE]
-> For every import, a selection will be created in SuperOffice CRM. This allows you to further process the imported companies/contacts, or to delete them.
+> For every import, a selection is created in SuperOffice CRM. This allows you to further process the imported companies/contacts, or to delete them.
+
+## Sources
 
 The Import function supports imports from the following sources:
 

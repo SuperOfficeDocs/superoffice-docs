@@ -11,7 +11,7 @@ language: en
 
 # Process form submissions
 
-Form submissions with status **Submitted** must be processed manually. This means reviewing the form contents and linking the submitter to an existing or a new contact and/or company in SuperOffice. Processed forms will be available in the **Activities** section tab in the **Company** and **Contact** screens in SuperOffice CRM. If you have selected to be notified by new request, the processed forms will be available in the **Request** section tab.
+Form submissions with status **Submitted** must be processed manually. This means reviewing the form contents and linking the submitter to an existing or a new contact and/or company in SuperOffice. Processed forms are available in the **Activities** section tab in the **Company** and **Contact** screens in SuperOffice CRM. If you selected to be notified by new request, the processed forms will be available in the **Request** section tab.
 
 > [!NOTE]
 > SuperOffice will check and validate the email address entered in the form to make sure it is an existing domain name. Basic email address syntax will also be checked.
@@ -36,13 +36,13 @@ Form submissions with status **Submitted** must be processed manually. This mean
 
 ## Linking the submitter to a SuperOffice contact and company
 
-When a form is submitted, SuperOffice will try to match the email address in the form with existing email addresses in SuperOffice to link the form submission to an existing contact. If the submitter is found in SuperOffice, you can show contact information, requests, sales, follow-ups and previous chat sessions that have been registered for this contact in SuperOffice.
+When a form is submitted, SuperOffice will try to match the email address in the form with existing email addresses in SuperOffice to link the form submission to an existing contact. If the submitter is found in SuperOffice, you can show contact information, requests, sales, follow-ups and previously registered chat sessions.
 
-If no match is found, you must try to locate the correct contact or create a new contact (and company).
+If no match is found, try to locate the correct contact or create a new contact (and company).
 
 ## Use suggested contact
 
-If SuperOffice finds matching contacts in the database, they will be listed under **This contact could be...**. Click a contact to view relevant information and to link the contact to this form submission.
+If SuperOffice finds matching contacts in the database, they are listed under **This contact could be...**. Click a contact to view relevant information and to link the contact to this form submission.
 
 ## Search for a contact
 
@@ -56,6 +56,6 @@ If you have selected the wrong contact, you can click **Change contact** at the 
 
 If the submitter is not found in SuperOffice, you can create a new contact and company in the side panel.
 
-1. Click **Create new company and contact**. Some fields have been filled in with information the customer has provided in the form.
+1. Click **Create new company and contact**. Some fields are populated with information the customer has provided in the form.
 2. Fill in the relevant fields.
 3. Click **Add**. The new contact and company is added to SuperOffice.

@@ -25,7 +25,7 @@ In the **Preferences** tab in the **Edit users** screen, you can edit the follow
 
 * **Show only own categories**: If checked, you can select only categories you are a member of.
 
-* **Use last category**: If checked, the default category in the **Request** screen will be the same as last time.
+* **Use last category**: If checked, the default category in the **Request** screen is the same as last time.
 
 * **Default category**: Check this option and select the default category when you register a request.
 

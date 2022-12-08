@@ -28,7 +28,7 @@ In the **Requests** tab, you have the following options:
 | Reply template for notification of new message | The reply template to use to notify users when a new message arrives on a request. |
 | Reply template for notification of activated request | The reply template to use to notify users that a postponed request was activated. |
 | Reply template for notification of escalated request | The reply template to use to notify users that a request was escalated. |
-| Reply template for new request notification | The reply template to use to notify users that they have been assigned a request. |
+| Reply template for new request notification | The reply template to use to notify users that they are assigned a request. |
 | Reply template for request reassignment | This field shows which reply template to use to notify users that another user has taken over a request. |
 | Reply template for printing a request | This field shows which reply template to use when printing a request. |
 

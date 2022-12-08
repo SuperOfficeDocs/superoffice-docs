@@ -34,7 +34,7 @@ If you have an Excel spreadsheet with a list of products, you can easily import 
 
 6. Browse to the required Excel spreadsheet and click **Open**. The **File name** field shows the position and name of the file you have selected.
 
-7. Click **Save**. The data from the spreadsheet will be displayed in the table and the name of the import file will be shown at the bottom.
+7. Click **Save**. The data from the spreadsheet wis displayed in the table and the name of the import file is shown at the bottom.
 
 > [!NOTE]
 > At this stage, products from Excel have not yet been imported into the SuperOffice database. SuperOffice will only upload the product list from the spreadsheet, so that you can specify the import settings.
@@ -73,7 +73,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 
 ## Complete the import
 
-When the import is complete, a list of the imported products will be displayed. Above the list is a link to the updated price list.
+When the import is complete, a list of the imported products are displayed. Above the list is a link to the updated price list.
 
 <!-- Referenced links -->
 

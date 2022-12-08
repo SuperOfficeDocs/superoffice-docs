@@ -19,7 +19,7 @@ This feature allows you to quickly add an activity in SuperOffice based on the s
 
 3. Select **Create activity**.
 
-4. In the **Create activity in SuperOffice** dialog, the **Company** and **Contact** fields have been filled in if the sender is registered in SuperOffice. Fill in relevant information in the following fields
+4. In the **Create activity in SuperOffice** dialog, the **Company** and **Contact** fields are automatically filled if the sender is registered in SuperOffice. Fill in relevant information in the following fields
 
     [!include[Options](includes/gmail-archiving-options.md)]
 

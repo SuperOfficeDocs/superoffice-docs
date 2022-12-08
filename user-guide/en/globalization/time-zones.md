@@ -34,6 +34,7 @@ Time zones are displayed in a list box in the [Diary][1] and in the dialog for f
 The time zone list is sorted by country. At the top of the list is the name of the selected country and its flag. You can get to the time zone list in several different ways:
 
 * Use the field at the top with the selected country and flag as a search field. You can search in the time zone field in the same way as in the [FastSearcher][2] fields, and you can search for both countries and cities, assuming the city is included in the time zone data. If, for example, you don't know the time zone for Canberra, you can search for Canberra and bring up the relevant Australian time zone in the list.
+
 * By searching for a number of hours to find the correct time zone. For example, if you enter +3, all time zones that are three hours after the time zone specified in SuperOffice CRM will be displayed.
 
 > [!NOTE]

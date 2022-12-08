@@ -42,7 +42,8 @@ You can prepare an email from both the **Contact** screen and the **Company** sc
 ## Send
 
 1. Send the email by clicking one of the following buttons:
-    * **Send:** The email is sent and will be available in the Activities section tab.
+
+    * **Send:** The email is sent and available in the Activities section tab.
     * **Send and archive:** The email is sent and saved as a document.
 
 1. If you selected **Send and archive**, the **Document** dialog opens when you send the email. Add information in this dialog as necessary (see [The Document dialog][1]).

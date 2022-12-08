@@ -31,7 +31,7 @@ The main section contains the following essential information about the document
 Click the arrow ![icon][img1] next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher][6].
 
 > [!NOTE]
-> The templates may have been created in various programs, for example, Word or Excel, so when you [create a document][5], the template is opened in the program it was created in. For example, DOCX files will open in Word.
+> When you [create a document][5], the template opens in the program it was created in. For example, DOCX files will open in Word.
 
 ### Company
 
@@ -74,7 +74,7 @@ Enter the addressee’s reference from their communication.
 
 ### Visible for
 
-Click the **Visible for** field to display a list that allows you to choose if the document will be visible to all users, private (visible only to the user defined as owner), or visible to all users in one of the user groups that the owner belongs to.
+Click the **Visible for** field to display a list that allows you to choose if the document should be visible to all users, private (visible only to the user defined as owner), or visible to all users in one of the user groups that the owner belongs to.
 
 > [!NOTE]
 > If you set visibility to owner only, the document will appear in italics on the **Activities** section tab.

@@ -19,7 +19,7 @@ In the **Dashboard** screen you can have multiple dashboard tabs to display any 
 
 2. Click the **Task** button and select **Create a new dashboard**.
 
-3. In the **Create a new dashboard** dialog, enter the name of the dashboard in the **Name** field. This will be the name of the dashboard tab.
+3. In the **Create a new dashboard** dialog, enter the name of the dashboard in the **Name** field. This becomes the name of the dashboard tab.
 
 4. Enter a description of the dashboard in the **Description** field. The description is displayed at the top of the dashboard.
 

@@ -29,7 +29,7 @@ On the right of the **Quote** section tab are the version, quote number and [sta
 
 [!include[Table showing quote states](../../sale/quote/includes/table-quote-states.md)]
 
-The product list: If products have been added to the quote, they are shown in the list. At the bottom of the list, the total price of the products in it is displayed.
+The product list: If products were added to the quote, they are shown in the list. At the bottom of the list, the total price of the products in it is displayed.
 
 **Export**: Click here to export the product list to a spreadsheet.
 

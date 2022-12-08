@@ -24,7 +24,7 @@ language: en
 
 5. Click **OK** to save the list in Settings and maintenance.
 
-The list is added to the **Lists** list. If you check the list in the list, the description will be displayed at the top of the **Lists** screen.
+The list is added to the **Lists** list. If you check the list in the list, the description is displayed at the top of the **Lists** screen.
 
 As well as specifying a name and description for the list, you must [add items][1] to it.
 

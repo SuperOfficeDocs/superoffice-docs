@@ -15,7 +15,7 @@ Under **Knowledge Base** > **Email addresses** you can create a list of email ad
 
 ## List email addresses
 
-If you want details of the email addresses that have been registered, select **Knowledge Base** > **Email addresses**. This takes you to the **Email addresses** screen, which contains email addresses in a folder structure that you can create yourself.
+If you want details of the registered email addresses, select **Knowledge Base** > **Email addresses**. This takes you to the **Email addresses** screen, which contains email addresses in a folder structure that you can create yourself.
 
 * To **create** a new email address, see [Create email addresses][2].
 * To **edit** an existing email address, click the name in the list.

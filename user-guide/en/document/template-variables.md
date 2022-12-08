@@ -130,9 +130,9 @@ When you use {padd0} you can write all the template variables without blank char
 
 When you use address variables from the company card, the system will select address data in the following order:
 
-1. If the **Use as postal address** option is active for a contact in the company, the contact's address data will be used.
-2. If the above option is not active, the company's address data will be used.
-3. If the company's postal address is empty, the company street address will be used.
+1. If the **Use as postal address** option is active for a contact in the company, the contact's address data is used.
+2. If the above option is not active, the company's address data is used.
+3. If the company's postal address is empty, the company street address is used.
 
 ## Reference
 

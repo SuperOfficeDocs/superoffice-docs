@@ -106,7 +106,7 @@ By default a tab has 2 columns, but you can use anything from 1-4 columns depend
 * Changing from 2-4 columns to 1 column will move all fields into 1 column.
 * Using 4 columns may affect visibility of some fields. You may consider to hide the labels of some fields (see [Settings](#settings)).
 * Some tabs, such as **ERP** and **Note**, do not have a column setup, since they have specific functions.
-* If a user does not have the screen size to fit all columns, they will be stacked on top of each other.
+* If a user does not have the screen size to fit all columns, they are stacked on top of each other.
 
 ## Tabs
 

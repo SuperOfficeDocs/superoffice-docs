@@ -13,7 +13,7 @@ The first step in creating a form response, is called **Setup**. Here you can se
 
     [How do I create a mailing folder?][19]
 
-6. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. If you add a selection, any contacts in the selection will be added as recipients in the mailing.
+6. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. If you add a selection, any contacts in the selection are added as recipients in the mailing.
 
     [!include[Start typing to search](type-to-search.md)]
 

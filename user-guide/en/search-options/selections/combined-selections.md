@@ -39,7 +39,7 @@ You can select which entries you want to include in the combined selection. Thes
 ### Follow-ups
 
 1. Create a combined selection of follow-ups based on two existing selections: "Follow-ups linked to my customers" (selection 1) and "Planned follow-ups next month" (selection 2).
-2. Choose the combination type **Common**. The result will be a list of follow-ups you need to act on next month. You could then export this to a file using the **Export to file** task.
+2. Choose the combination type **Common**. The result is a list of follow-ups you need to act on next month. You could then export this to a file using the **Export to file** task.
 
 > [!NOTE]
 > If you simply want to compare the companies linked to these two selections, check **Compare companies only**.

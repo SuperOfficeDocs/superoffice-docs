@@ -29,7 +29,7 @@ If a project guide is defined for a project type that you specify for a project,
     > [!TIP]
     > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] opens.
 
-4. Once all the required follow-ups and documents for a project status have been completed, you move on to the next status.
+4. Once all the required follow-ups and documents for a project status are completed, you move on to the next status.
 
     > [!NOTE]
     > If you wish, you can go to the next status without creating or performing all the follow-ups/documents in a status.
@@ -104,7 +104,7 @@ You record a new project and select the **Conference** project type, which is li
 
 ### The In progress status
 
-1. All the follow-ups and documents in the **Planned** status have been completed, and you have moved the project on using the **Project guide - move the project to the next status** dialog. This dialog is displayed when you set the last follow-up to completed. The follow-ups and documents for this new status are now displayed in the **Project guide** section tab.
+1. All the follow-ups and documents in the **Planned** status are completed, and you have moved the project on using the **Project guide - move the project to the next status** dialog. This dialog is displayed when you set the last follow-up to completed. The follow-ups and documents for this new status are now displayed in the **Project guide** section tab.
 
     > [!NOTE]
     > The **Project guide - move the project to the next status** dialog comes up only if this behaviour is defined for the project type. If it is not defined, [move the project to the next status](#move-to-next-status).
@@ -136,7 +136,7 @@ You record a new project and select the **Conference** project type, which is li
 
 ### The Closing status
 
-1. After the conference and all relevant follow-ups and documents in the **In progress** status have been completed, you go to the last status in the project guide, which is **Closing**.
+1. After the conference and all relevant follow-ups and documents in the **In progress** status are completed, you go to the last status in the project guide, which is **Closing**.
 
     * Click **Yes** in the **Project guide - move the project to the next status** dialog.
         or
@@ -151,7 +151,7 @@ You record a new project and select the **Conference** project type, which is li
 
     Click **Create** next to the **Evaluation report** document to create the document.
 
-Once all the required follow-ups and documents for the project have been completed, you can set the project status to completed.
+Once all the required follow-ups and documents for the project are completed, you can set the project status to completed.
 
 <!-- Referenced links -->
 [1]: ../../document/screen/index.md

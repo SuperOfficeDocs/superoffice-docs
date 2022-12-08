@@ -63,17 +63,17 @@ This functionality automatically detects the language of an incoming request. Th
 
 ### Translation
 
-If you receive a message in a language you cannot read, you can click the **Translate from** ***language*** below the message. The subject and body of the message will be translated and added below the original message.
+If you receive a message in a language you cannot read, you can click the **Translate from** ***language*** below the message. The subject and body of the message is translated and added below the original message.
 
 ### Sentiment analysis
 
 (is the customer happy or angry?)
 
-If this function is active, incoming email requests will be analyzed to determine the "mood" of the customer. An emoticon below the message will indicate the detected sentiment (happy, unhappy or neutral).
+If this function is active, incoming email requests are analyzed to determine the "mood" of the customer. An emoticon below the message will indicate the detected sentiment (happy, unhappy or neutral).
 
 ### Automatic categorization
 
-Save time by letting the system categorize requests for you. If this function is active, incoming email requests will be analyzed to determine the best category for each request. In the footer of a request, you will see the category suggested by the system. Click the category link to update the request with the suggested category.
+Save time by letting the system categorize requests for you. If this function is active, incoming email requests are analyzed to determine the best category for each request. In the footer of a request, you will see the category suggested by the system. Click the category link to update the request with the suggested category.
 
 <!-- Referenced links -->
 [1]: accept.md

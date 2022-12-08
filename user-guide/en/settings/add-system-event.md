@@ -31,7 +31,7 @@ You can initiate some [system events][1] from **System notifications** list in t
     > [!NOTE]
     > If you add an event of the type **Message of the Day** (message to all users), it is the text in the **Description** field which is sent to users, together with the expected completion time.
 
-7. Click **Save** to create the event. It will be displayed in the **System Notifications** list in the **Status** tab.
+7. Click **Save** to create the event. It is displayed in the **System Notifications** list in the **Status** tab.
 
 > [!TIP]
 > To edit an event, double-click it in the list.

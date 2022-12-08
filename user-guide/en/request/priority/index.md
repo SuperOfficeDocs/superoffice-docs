@@ -36,7 +36,7 @@ Priorities override other priorities in this order:
 4. Priority specified for an email filter
 5. Standard priorities
 
-Since the priority is determined in this order, a request from a contact with high priority will be given a high priority even though the mailbox the person sends it to has a low priority.
+Because of this order, a request from a contact with high priority gets a high priority even though the mailbox the person sends it to has a low priority.
 
 ## Escalation
 

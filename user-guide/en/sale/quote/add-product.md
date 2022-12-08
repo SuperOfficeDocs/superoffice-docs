@@ -26,7 +26,7 @@ In the **Add/edit product** dialog, you can add a product, and specify a quantit
     > [!TIP]
     > If advanced searching is supported, you can click the search button ![icon][img1] in the **Product search** field for search for and [add several products simultaneously](#add-multiple).
 
-1. Click the product you want in the list. The dialog will be updated with product information.
+1. Click the product you want in the list. The dialog is updated with product information.
 
 1. Edit the product quantity, discount and total price, if required. See details below.
 

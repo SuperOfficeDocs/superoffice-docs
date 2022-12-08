@@ -39,7 +39,7 @@ The toolbar contains the following options:
   * **Edit request**: Click here to edit the properties for this request. For example, you can assign the request to another request handler if you need to [ask a colleague for advice][3].
   * **Accept request**: Click here to [take over the request][5]. You will then be the request's new owner.
   * **Split request**: If a single request contains several questions, for example, if the customer first asks a technical question and then uses the opportunity to raise an invoicing query, you can [split the request][6] into two using this button.
-  * **Merge**: Click here to merge this request with one or more other requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and email), you can [merge these requests][7] into one request which will be processed.
+  * **Merge**: Click here to merge this request with one or more other requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and email), you can [merge these requests][7] into one request that will be processed.
   * **Log**: Click here to view the history of this request. The request log shows everything that has happened to this request since it was first registered.
   * **Publish to FAQ**: If the same question comes up time and again, it is a good idea to [create an answer that can be reused][8]. You click here to send the customer's question and your answer to the administrator, who can then edit and publish the FAQ entry.
   * **Print request**: Click here to print the request.

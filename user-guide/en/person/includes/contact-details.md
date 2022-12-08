@@ -11,7 +11,7 @@
 
 The following fields are only available if you have a SuperOffice Service licence or a language licence for SuperOffice Customer Centre:
 
-* In the **Preferred language** field, select the contact's language. This will be the preferred language for all reply templates sent to the contact.
+* In the **Preferred language** field, select the contact's language. This is the preferred language for all reply templates sent to the contact.
 
 * In the **Service priority** field, select the default service priority for new requests linked to this contact. Normally you select (None) here. The system will then use the service priority for the company which the contact is linked to. Alternatively you can select between Low, Medium and High or any custom priority.
 

@@ -48,7 +48,7 @@ You can open links by clicking on them in the **Links** tab. URLs/websites open 
 
 ### Remove links
 
-To remove a link, go to the **Links** tab, click **Edit**, click the delete button next to the link. The link will be deleted from the tab.
+To remove a link, go to the **Links** tab, click **Edit**, click the delete button next to the link. The link is deleted from the tab.
 
 ## The Note tab
 

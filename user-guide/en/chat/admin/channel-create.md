@@ -58,7 +58,7 @@ The following fields are available in the **Chat widget layout** tab:
 
 **Show logo**: Select this option to display an image in the header of the chat window. To add an image, click the link or drag and drop an image file.
 
-**Show agent photo**: Select this option to display the agent's photo in the chat window. Once an agent has responded to a new chat, the header logo and header text will be replaced by the agent's photo and name.
+**Show agent photo**: Select this option to display the agent's photo in the chat window. Once an agent has responded to a new chat, the header logo and header text is replaced by the agent's photo and name.
 
 **Header**: Enter a short welcome text to display in the chat window header.
 
@@ -117,10 +117,13 @@ In the **Pre-chat form** tab, you can define how customers should identify thems
 
 The following fields are available in the **Pre-chat form** tab:
 
-* **Enable pre-chat FAQ suggestions**: If you enable FAQ suggestions, the top 3 FAQs that match the customers message will be displayed in the chat window prior to the chat. The customer can click the FAQ links to view the complete FAQs in SuperOffice Customer Centre. If none of the suggested FAQs answer their questions, they can choose to start the chat.
-  * **FAQ folder**: Select the folder that contains the FAQs (and sub-folders with FAQs) that should be displayed to the customers. Only FAQs that have been published and are accessible to everyone (no login required), will be displayed to customers.
+* **Enable pre-chat FAQ suggestions**: If you enable FAQ suggestions, the top 3 FAQs that match the customers message are displayed in the chat window prior to the chat. The customer can click the FAQ links to view the complete FAQs in SuperOffice Customer Centre. If none of the suggested FAQs answer their questions, they can choose to start the chat.
+  * **FAQ folder**: Select the folder that contains the FAQs (and sub-folders with FAQs) that should be displayed to the customers. Only FAQs that have been published and are accessible to everyone (no login required), are displayed to customers.
+
 * **Enable pre-chat form for anonymous users**: Select this option if the customers must identify themselves before starting the chat. Leave this option unselected to let the customers start the chat directly.
+
 * **Message**: Enter a message to the customer. Example: "Let us know who you are and how we can help you".
+
 * **Fields required to initiate chat**: Select the information the customer must enter to start the chat.
 
 The preview on the right displays the chat window with the current settings.
@@ -142,7 +145,7 @@ The preview on the right displays the chat window with the current settings.
 
 ### Can I delete a chat channel?
 
-Yes, but make sure that the chat channel is not being used on a website. Otherwise the chat window will be visible, but non-functional.
+Yes, but make sure that the chat channel is not being used on a website. Otherwise the chat window is visible, but non-functional.
 
 <!-- Referenced links -->
 

@@ -53,7 +53,7 @@ language: en
     > [!NOTE]
     > Options you choose under **Add as** determine which options are available in the rest of the dialog.
 
-1. Under **Available on**, choose where the application will be available. You can select several of these options simultaneously.
+1. Under **Available on**, choose where the application is available. You can select several of these options simultaneously.
 
     * **Central database**: When you are working on the central database.
     * **Satellite**: When you are working on a satellite.
@@ -70,7 +70,7 @@ language: en
     * **Toolbox menu**: the user can access the application by clicking the **Tools** button (![icon][img2]) in the Navigator or by selecting **Other applications** on the main menu (![icon][img1]) in SuperOffice CRM.
     * **View menu**: the user can access the application using the **Other Applications** option on the **View** menu in SuperOffice CRM.
 
-1. In the **Run when** list box, choose how the application will be run. This list box appears only if you have selected **Event** under **Add as**.
+1. In the **Run when** list box, choose when to run the application. This list box appears only if you have selected **Event** under **Add as**.
 
     * **SuperOffice CRM starts**: the application runs when SuperOffice CRM starts.
     * **SuperOffice CRM exits**: the application runs when SuperOffice CRM is closed down.

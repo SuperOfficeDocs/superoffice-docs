@@ -30,7 +30,7 @@ language: en
 
 6. Click **Close** to close the **View mailing** screen.
 
-If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status will be changed to **Sent** once this is done.
+If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status change to **Sent** once this is done.
 
 ## Filters
 

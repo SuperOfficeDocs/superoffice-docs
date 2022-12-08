@@ -22,7 +22,7 @@ language: en
 
 2. Click the arrow ( ![icon][img1] ) next to the **Type** field and select the required follow-up type from the list box. You can choose from **Appointment**, **Phone call** and **Task**.
 
-3. In the **Direction** field, specify if the follow-up will be outgoing or incoming by clicking the arrow ( ![icon][img1] ) and choosing from the list box.
+3. In the **Direction** field, specify if the follow-up is outgoing or incoming by clicking the arrow ( ![icon][img1] ) and choosing from the list box.
 
 4. In the **Colour** field, choose which background colour this follow-up type should have in the **Diary** screen in SuperOffice CRM. This setting will then apply across the organisation.
 

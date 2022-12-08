@@ -60,10 +60,10 @@ Fill in the following information in the **Properties** category:
 
 * **Managed by**: Optional. Select a user group to limit access to this form. Only members of the selected user group can process submissions from this form and receive notifications of submissions.
 
-* **Deactivate form automatically**: Optional. In some cases the form should be active only until a specific date or until a specific number of responses have been received. Anyone trying to access an inactive form will be redirected to the page for inactive form. You can combine these options.
+* **Deactivate form automatically**: Optional. In some cases the form should be active only until a specific date or until a specific number of responses is received. Anyone trying to access an inactive form will be redirected to the page for inactive form. You can combine these options.
 
   * **Until**: Select a date. The form will be deactivated on this date.
-  * **Max**: Enter the number of responses. The form will be deactivated after the specified number of responses have been received.
+  * **Max**: Enter the number of responses. The form will be deactivated after the specified number of responses are received.
 
 * **Use Google Analytics**: Select this option to track the form and connect it to [Google Analytics][1] (if that is set up for your web site). In the field below this option, you can enter the Google Analytics tracking ID for this form.
 
@@ -71,7 +71,7 @@ Fill in the following information in the **Properties** category:
 
 In the **Fields** category you add the fields that should be included in the form. As you add and edit fields, the preview on the right-hand side is automatically updated.
 
-1. Go to the **Fields** category. By default, the **Contact - name** field and **OK** button have been added to the new form.
+1. Go to the **Fields** category. By default, the **Contact - name** field and **OK** button are added to the new form.
 
 2. Click the **Add** button ![icon][img2].
 

@@ -16,7 +16,7 @@ language: en
 In the **SuperOffice** tab in the **Licences** screen, you can view and update the license information for your version of SuperOffice CRM and associated modules.
 
 > [!NOTE]
-> If you have installed a third-party module or similar, several tabs will be displayed here.
+> If you have installed a third-party module or similar, several tabs are displayed here.
 
 ### Owner information
 
@@ -50,7 +50,7 @@ Administrators can keep track of exactly how much of each service has used per m
 
 ### System notifications
 
-This list shows status messages from the system and [events][1] that have been added. Notifications of active imports, SAINT or freetext indexing, and so on. Select a notification in the list to display a description. You can keep track of events that are active in the system.
+This list shows status messages from the system and added [events][1]. Notifications of active imports, SAINT or freetext indexing, and so on. Select a notification in the list to display a description. You can keep track of events that are active in the system.
 
 The **System events** tab consists of two parts:
 

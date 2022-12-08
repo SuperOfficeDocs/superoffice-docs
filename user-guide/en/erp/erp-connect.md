@@ -27,7 +27,7 @@ You can connect a SuperOffice company to a customer/supplier in the ERP system. 
 3. In the **Connect to ERP** dialog, enter text to search for in the search field and click **Search**. You can also click the search button ![icon][img1] to initiate an advanced search (see [Use the Find screen][1]).
 
 > [!TIP]
-> If you search with a blank search field, all records in the ERP system will be displayed.
+> If you search with a blank search field, all records in the ERP system are displayed.
 
 1. Select an item in the hitlist. If you don't get any hits, you can [create a new actor in the ERP system][2] based on data from SuperOffice CRM.
 2. Click **Connect**. A dialog appears showing the data that will be synchronised between SuperOffice CRM and the ERP system. What data is displayed here is defined in SuperOffice Settings and maintenance.

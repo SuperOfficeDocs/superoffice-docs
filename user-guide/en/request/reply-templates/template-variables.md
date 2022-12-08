@@ -75,7 +75,7 @@ When editing reply templates and mailings, you can insert template variables by 
 | config.defaultMail | The default mail-from address for this installation |
 | config.gfxUrl | The URL suffix for the GFX-files |
 | config.mailTag | The "Please include the ticket ID..." phrase used as first line in outbound emails |
-| config.panicMail | The email address where error messages will be sent |
+| config.panicMail | The email address to send error messages to |
 | config.smtpHost | The hostname for the outbound SMTP |
 | config.smtpPort | The port for the outbound SMTP |
 | config.tag | The prefix before the request number in the subject line for emails. For example, "ejTag:" |
@@ -111,7 +111,7 @@ When editing reply templates and mailings, you can insert template variables by 
 
 | Variable | Description|
 |---|---|
-| ticket.activate | When the request will be activated, if it is in a postponed state |
+| ticket.activate | When to activate the request, if it is in a postponed state |
 | ticket.alertLevel | Alert level |
 | ticket.author | The name of the person creating the request |
 | ticket.category | Same as ticket.category.id |

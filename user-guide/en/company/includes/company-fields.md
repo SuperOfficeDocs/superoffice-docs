@@ -1,9 +1,11 @@
 <!-- markdownlint-disable-file MD041 -->
 1. If, for example, the company is an organization with several departments, you can specify a department in the **Department** field.
 
-2. The address fields available will depend on which country is selected. The default is the country that your organization belongs to. Having selected the country, the correct address format for the remaining address fields will be inserted automatically in the **Company** tab.
+2. The address fields available will depend on which country is selected. The default is the country that your organization belongs to.
 
-3. In the **Zip code** field, enter the company’s postal code. If you enter a postal code that is defined in the SuperOffice database, the city name is filled in automatically if it is empty. You can also type in the city name in the **City** field and a postcode will be proposed in the postcode field.
+    Having selected the country, the correct address format for the remaining address fields are inserted automatically in the **Company** tab.
+
+3. In the **Zip code** field, enter the company’s postal code. If you enter a postal code that is defined in the SuperOffice database, the city name is filled in automatically if it is empty. You can also type in the city name in the **City** field and a postcode is proposed in the postcode field.
 
 4. The **Phone** field brings up a table with **Telephone** and **Description** columns. Enter a phone number and a brief description of what sort of number it is, for example, *Switchboard*. You can enter several phone numbers. Click outside the table when you have finished, or press **TAB** until the table closes.
 
@@ -13,7 +15,7 @@
 
 7. In the **Email** field, enter the company's email address in the same way as for **Telephone**.
 
-8. In the **Our Contact** field, your name will be displayed automatically. Clicking the arrow brings up a list box where you can choose the name of someone else from your organization.
+8. In the **Our Contact** field, your name is displayed automatically. Clicking the arrow brings up a list box where you can choose the name of someone else from your organization.
 
 9. In the **Category** field, select the category the company belongs to from a predefined list of categories. Click the arrow to show the category list. This field is mandatory – if you leave it blank, you cannot save the company.
 

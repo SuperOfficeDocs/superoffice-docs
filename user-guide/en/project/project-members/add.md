@@ -42,7 +42,7 @@ To link the project to a company, you must specify at least one project member.
 9. In the large text box under **Comment**, enter a more detailed description of the person’s function within the project, if required.
 
     > [!NOTE]
-    > If you enter anything in this text box, a paperclip symbol ( ![icon][img1] ) will be displayed in the **Project member information** column in the **Project Members** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
+    > If you enter anything in this text box, a paperclip symbol ( ![icon][img1] ) is displayed in the **Project member information** column in the **Project Members** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
 
 10. When you have entered the required information, click **OK**.
 
@@ -64,7 +64,7 @@ You can add project members and stakeholders from the contact lists in different
 
 3. Right-click the contacts and select **Add to sale** or **Add to project** on the menu which appears.
 
-4. In the **Sale** or **Project** field, specify sale/project the contacts will be added to. Do this either by clicking the arrow and selecting the required sale/project in the displayed list box, or by typing in the whole or the beginning of the sale/project name.
+4. In the **Sale** or **Project** field, specify which sale/project to add the contacts to. Do this either by clicking the arrow and selecting the required sale/project in the displayed list box, or by typing in the whole or the beginning of the sale/project name.
 
 5. In the **Sales role** or **Function** field, specify the sales role/function each person has in the sale/project. Click the arrow to display a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.
 

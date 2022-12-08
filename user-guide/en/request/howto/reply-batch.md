@@ -11,7 +11,7 @@ language: en
 
 # Add a message to multiple requests
 
-You can add a message to several requests in a single operation. For example, if you have received several requests regarding the same problem, and would like to answer them all at once. The message you enter in this screen will be added to the selected requests, and also sent by email to the contacts for the selected external requests.
+You can add a message to several requests in a single operation. For example, if you have received several requests regarding the same problem, and would like to answer them all at once. The message you enter in this screen are added to the selected requests, and also sent by email to the contacts for the selected external requests.
 
 1. In the request list, select the relevant requests.
 
@@ -23,7 +23,7 @@ You can add a message to several requests in a single operation. For example, if
 
     * **Send copy to customer (only external requests)**: If enabled, then the message will also be sent by email to the contacts linked to the selected external requests.
     * **Close request**: Check this box to close all selected requests in one operation.
-    * **Access level**: The access level for the message you are adding. If you select **External**, the message will be visible on the selected requests in SuperOffice Customer Centre.
+    * **Access level**: The access level for the message you are adding. If you select **External**, the message are visible on the selected requests in SuperOffice Customer Centre.
     * Write your message in the text area in the middle of the screen.
     * **Language** / **Spell check**: Select a language and click **Spell check** to check the message for errors.
     * **Reply template** / **Language**: From this list box, you can select a reply template from the reply template hierarchy. If the template is available in several languages, you must select the correct language. Remember to click **Insert**.

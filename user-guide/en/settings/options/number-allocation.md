@@ -19,7 +19,7 @@ You can define settings for counters in the **Number allocation** tab. In SuperO
 
 * Counters from third party suppliers can also be used.
 
-The way a counter works is to increase the value of the field by 1 each time a new instance of it is used. For example, if the first company you create in the database is allocated the value 10001 in the **Number** field, then the nineteenth company will be allocated the value **10019**.
+The way a counter works is to increase the value of the field by 1 each time a new instance of it is used. For example, if the first company you create in the database is allocated the value 10001 in the **Number** field, then the nineteenth company is allocated the value **10019**.
 
 ## Results of number allocations
 

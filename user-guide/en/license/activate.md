@@ -33,7 +33,7 @@ If the total number of new licenses is less than the number of licenses in use, 
 
 1. Open the **Licences** screen and select the **SuperOffice** tab.
 
-1. Click the **Activate new licence** link. The dialog shows the licenses that have been changed.
+1. Click the **Activate new licence** link. The dialog shows the licenses that were changed.
 
     * **New licence activated** – the system has updated the license automatically. You can click the link to view the changes.
     * **Activate new licence** – new license is available, but it cannot be activated automatically. Click the link to open the **Activate new licence** dialog. The list will only show altered licenses.

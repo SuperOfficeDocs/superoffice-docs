@@ -31,9 +31,9 @@ To send an invitation by email to external users, you must:
 * Configure your email setup in SuperOffice Inbox
 
     > [!TIP]
-    > To automatically include the video meeting URL in the appointment text, update your invitation template with {burl}. If the **Location** field in the appointment is blank, the video meeting URL will be added here.
+    > To automatically include the video meeting URL in the appointment text, update your invitation template with {burl}. If the **Location** field in the appointment is blank, the video meeting URL is added here.
 
 * Have configured to SuperOffice Mail Link
 
     > [!NOTE]
-    > The video meeting URL is automatically added to the appointment text ("Join meeting: ..."). If the **Location** field in the appointment is blank, the video meeting URL will be added here.
+    > The video meeting URL is automatically added to the appointment text ("Join meeting: ..."). If the **Location** field in the appointment is blank, the video meeting URL is added here.

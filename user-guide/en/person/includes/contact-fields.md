@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!TIP]
-> In the **Country** field, enter the contact’s country. The correct address format for the address field will be updated automatically. You can set your current home country from **System** in the [preferences][1].
+> In the **Country** field, enter the contact’s country. The correct address format for the address field is updated automatically. You can set your current home country from **System** in the [preferences][1].
 
 * Enter the title of the contact (business card title or position).
 
@@ -10,13 +10,13 @@
 
 * Complete the address fields.
 
-* In the country field, specify where the contact is located. It is important to enter the correct country, since this will affect the format of the contact's mail address and phone number. The default country will be the country recorded for the company.
+* In the country field, specify where the contact is located. It is important to enter the correct country, since this will affect the format of the contact's mail address and phone number. The default country is the country recorded for the company.
 
 * Check the **Use as postal address** field if you want direct mailings to be sent to the address entered above instead of the company's postal address.
 
 * If the contact is associated with a company, the following fields have already been filled in with values from the associated company and cannot be edited:
 
-  * In the **Our Contact** field, your name will be displayed automatically. Clicking the arrow brings up a list box where you can choose the name of someone else from your organization.
+  * In the **Our Contact** field, your name is displayed automatically. Click the arrow to someone else from your organization.
   * In the **Category** field, select the category the contact belongs to, from a predefined list of categories. Click the arrow to show the category list.
   * In the **Business** field, select from a list of different predefined types of business. Click the arrow and choose the business that best matches the contact you are creating.
 

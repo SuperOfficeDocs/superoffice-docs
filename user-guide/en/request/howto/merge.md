@@ -11,7 +11,7 @@ language: en
 
 # Merge requests
 
-You can merge two or more requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and email), you can merge these requests into one request which will be processed. Contacts and messages from all merged requests will be kept.
+You can merge two or more requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and email), you can merge these requests into one request to process. Contacts and messages from all merged requests will be kept.
 
 > [!NOTE]
 > You can also search for and select requests to merge from the search results screen. Then click ![icon][img1] in the lower left corner and select **Batch management**> **Merge**.
@@ -34,7 +34,7 @@ You can merge two or more requests. For example, if multiple contacts in the sam
 
 7. Click **OK**. The requests are merged.
 
-The request IDs that have been overwritten will no longer be available in favourites and history lists and regular search. If you enter an overwritten request ID in the [quick search][2] field, you are redirected to the merged request.
+The request IDs that were overwritten will no longer be available in favourites and history lists and regular search. If you enter an overwritten request ID in the [quick search][2] field, you are redirected to the merged request.
 
 ## What would you like to do now?
 

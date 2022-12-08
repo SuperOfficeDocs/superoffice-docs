@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Manage external users
 
-If you have been assigned the **Allow administration of external users** right in SuperOffice Settings and maintenance, you can add and remove external users in SuperOffice CRM in connection with Audience or third-party applications. External users can also be administrated in SuperOffice Settings and maintenance.
+If you are assigned the **Allow administration of external users** right in SuperOffice Settings and maintenance, you can add and remove external users in SuperOffice CRM in connection with Audience or third-party applications. External users can also be administrated in SuperOffice Settings and maintenance.
 
 ## To open the External users dialog
 
@@ -42,7 +42,7 @@ Select in the list the contact you want to remove and click **Remove as external
 
 ## Remove login for an external user
 
-Select the contact you want to remove the login for and click **Remove login**. The person will then remain as an external user, but the login will be disabled and they cannot log in to the system.
+Select the contact you want to remove the login for and click **Remove login**. The person will then remain as an external user, but the login is disabled and they cannot log in to the system.
 
 ## Filter the list
 

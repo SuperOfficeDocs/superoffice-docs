@@ -14,7 +14,7 @@ language: en
 > [!NOTE]
 > SuperOffice version 10 (released October 2021) introduced [Screen designer][1] with customizable screen layouts for specific user groups. Any custom screen layouts using screen designer may override the settings described below.
 
-When you add new fields, they will be placed beneath each other by default. Each field consists of a label with a data field on the right. You can decide where in the grid these fields are to be placed.
+When you add new fields, they are placed beneath each other by default. Each field consists of a label with a data field on the right. You can decide where in the grid these fields are to be placed.
 
 ## How do I move fields?
 

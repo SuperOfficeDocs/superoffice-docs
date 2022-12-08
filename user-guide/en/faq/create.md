@@ -43,7 +43,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
     * **Unpublished**: Choose this option if you do not want to publish the FAQ entry at the moment.
     * **Published**: Choose this option to [publish the FAQ entry immediately][3].
-    * **Expired**: Select this option if the FAQ entry is no longer current. This will be most relevant when editing existing FAQ entries.
+    * **Expired**: Select this option if the FAQ entry is no longer current. Relevant when editing existing FAQ entries.
 
     > [!NOTE]
     > The list also contains any custom workflow stages created in the system.

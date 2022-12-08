@@ -20,7 +20,7 @@ You can easily look up information about a sender in SuperOffice CRM.
 3. What happens next, depends on whether the sender's email address is found in SuperOffice:
     * If the email address is found on a company/contact, the company/contact card is displayed.
     * If the email address is registered on more than one company/contact, a dialog will appear, listing the alternatives and allowing you to choose one.
-    * If the email address is not registered in your SuperOffice client, you will be given the possibility of adding it.
+    * If the email address is not registered in your SuperOffice client, you may add it.
 
 ## Add a sender's email address to SuperOffice
 

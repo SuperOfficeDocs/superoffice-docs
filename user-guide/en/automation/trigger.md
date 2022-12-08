@@ -35,7 +35,7 @@ We will now create a series of actions based on the example above.
 1. Enter a description of the trigger in the **Description** field.
 1. Select **Enabled**.
 1. Select **Change a request** under **Choose action type** below. This takes you to the **Change a request** tab.
-    This will be the first action in the macro. It fetches the request, so that the various values (ID, title, contact name and so on) can be used in the next actions we will create.
+    This is the first action in the macro. It fetches the request, so that the various values (ID, title, contact name and so on) can be used in the next actions we will create.
 1. Optional: Check **Internal message**, and enter, for example: "Request closed and confirmation sent to customer."
 1. Click **Apply**.
 1. Click **New action** next to the **Change a request** tab.
@@ -51,7 +51,7 @@ We will now create a series of actions based on the example above.
 1. Check **HTML message** and select **Load a reply template for merging** > **HTML text**.
 1. Click **Apply**.
 
-You have now created a macro that sends an email with "Request closed" to the customer when a request is closed. This trigger will be active immediately if you checked **Enabled** at the top.
+You have now created a macro that sends an email with "Request closed" to the customer when a request is closed. This trigger is active immediately if you checked **Enabled** at the top.
 
 <!-- Referenced links -->
 

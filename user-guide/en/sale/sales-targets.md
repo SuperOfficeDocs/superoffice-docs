@@ -28,7 +28,7 @@ Before you start using the sales targets feature, you must set up a few things i
 
 ## Add sales targets for a year
 
-1. Click ![icon][img1] **Main menu** and select **Targets**.  If no sales targets have been created yet, the list is empty.
+1. Click ![icon][img1] **Main menu** and select **Targets**. If no sales targets have been created yet, the list is empty.
 
 2. In the **Sales targets** screen, select the year that you want to create a sales target for from the **Select year** list. Your can also set up targets for previous years, to create budget statistics back in time.
 
@@ -43,10 +43,10 @@ Before you start using the sales targets feature, you must set up a few things i
 7. Adjust the numbers manually using the **TAB** key go the next field.
     or
     Click the menu button ![icon][img2] at the end of a row and select **Adjust numbers**. The following options are available in the dialog:
-    * **Set initial amount**: Enter the amount for the whole year. The amount will be split equally among the months or quarters on the current row.
+    * **Set initial amount**: Enter the amount for the whole year. The amount is split equally among the months or quarters on the current row.
     * **Copy from**: Copy the values from another group or user.
     * **Copy from last year**: Copy values from last year and increase the values by a specific percentage. This option is disabled if last year has no values.
-        Click **Save** when you are done. The sums for all users will be added to the **All** row at the top of the list of users.
+        Click **Save** when you are done. The sums for all users are added to the **All** row at the top of the list of users.
 
 8. Optional: When you have completed a row, you can lock it ![icon][img3]-![icon][img4] to disable editing. For example, after a budget is approved and should not be edited. Locked rows cannot be removed, cleared or edited.
 

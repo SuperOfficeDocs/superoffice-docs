@@ -30,15 +30,16 @@ You can merge two or more companies. For example, if two companies in your custo
 1. To add more companies, repeat the previous steps.
 
 1. For each row (field) in the table, you must select which company data should be kept. Click ![icon][img2] **Choose** to select all fields in a column. The unselected data in this table will be overwritten.
+
     * Contacts (including requests) from all merged companies will be kept.
     * Registered domains from all merged companies will be kept.
     * Invoices registered on all merged companies will be kept.
 
 1. Click **OK**. The companies are merged.
 
-1. Open the merged company and check that the data have been merged correctly. Set the correct contact in the **Our contact** field.
+1. Open the merged company and check that the data was merged correctly. Set the correct contact in the **Our contact** field.
 
-The companies that have been overwritten will no longer be available in favourites and history lists and search.
+The companies that were overwritten will no longer be available in favourites and history lists and search.
 
 ## What would you like to do now?
 

@@ -40,4 +40,4 @@ When a new customer sends in a request, SuperOffice Service tries to decide whic
 ## Scenario 3
 
 1. Dutch is added as a new customer language in SuperOffice Service and linked to the domain .nl.
-2. Maria does not automatically get Dutch as customer language. This must be done manually for the contact. Only new contacts will be checked against new customer languages.
+2. Maria does not automatically get Dutch as customer language. This must be done manually for the contact. Only new contacts are checked against new customer languages.

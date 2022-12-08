@@ -27,7 +27,7 @@ By defining default values for fields that typically only have one relevant valu
 
 1. **Ask user for value**: check here to allow the user to enter a value.
 
-1. **Mandatory - User must fill in value**: check here to require the user to enter a value in the field. If the selected ERP field is mandatory, this field will be checked by default.
+1. **Mandatory - User must fill in value**: check here to require the user to enter a value in the field. If the selected ERP field is mandatory, this field is checked by default.
 
 1. Click **OK** when you have finished.
 

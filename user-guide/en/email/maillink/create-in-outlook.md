@@ -32,7 +32,7 @@ There are two ways of creating an email from Microsoft Outlook. You can use Supe
 2. Click **SuperOffice message** and select one of the templates on this submenu. The **New SuperOffice email** dialog opens.
 
     > [!NOTE]
-    > This presupposes that you are logged on to SuperOffice CRM. If not, the menu will only contain one item: **Populate**. If you click **Populate**, you will be asked if you want to start SuperOffice CRM. If you accept, the submenu will be populated.
+    > This presupposes that you are logged on to SuperOffice CRM. If not, the menu will only contain one item: **Populate**. If you click **Populate**, you will be asked if you want to start SuperOffice CRM. If you accept, the submenu is populated.
 
 3. In the **Subject** field, enter the text that you would like to be the subject of the email. This will also be shown in the Activities section tab of SuperOffice CRM.
 
@@ -46,7 +46,7 @@ There are two ways of creating an email from Microsoft Outlook. You can use Supe
 
 8. In the Type dropdown, you may select one of the available email templates.
 
-9. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the document will be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
+9. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the document should be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
     > The **Visible for** field is only available if this right is assigned to you in SuperOffice Settings and maintenance.
