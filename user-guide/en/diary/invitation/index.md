@@ -21,9 +21,9 @@ The users you have chosen to link to a follow-up will be notified of this on the
 
 | Icon | Description |
 |---|---|
-| ![icon][img1] | Invitation has been accepted. |
-| ![icon][img2] | Invitation has been declined. |
-| ![icon][img3] | Invitation has been seen but not answered. |
+| ![icon][img1] | Invitation is accepted. |
+| ![icon][img2] | Invitation is declined. |
+| ![icon][img3] | Invitation is seen but not answered. |
 | unmarked | Invitation has not been seen. |
 
 ### Resources

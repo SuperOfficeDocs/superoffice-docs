@@ -69,7 +69,7 @@ Here you enter information to correctly assign and prioritize the request.
 
 * In the **Status** list box, choose one of the following:
   * **Open**: Select this option if the request is in progress.
-  * **Closed**: Select this option if the request has been completed.
+  * **Closed**: Select this option if the request is completed.
   * **Postponed**: To postpone handling of this request, select this option and specify a date and time in the **Activate** field. On this date and time, the request is set back to **Open**.
 
 * In the **Tags** list box, [select relevant tags][4] for this request.

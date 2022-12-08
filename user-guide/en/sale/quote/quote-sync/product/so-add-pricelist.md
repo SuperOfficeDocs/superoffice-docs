@@ -44,7 +44,7 @@ language: en
 1. Click **OK** when you have finished.
 
     > [!NOTE]
-    > Once the price list has been created, you may no longer change its currency and validity.
+    > Once the price list is created, you may no longer change its currency and validity.
 
 ## What would you like to do now?
 

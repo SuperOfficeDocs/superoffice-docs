@@ -19,7 +19,7 @@ To ensure that you can communicate with your clients in their own language (wher
 
 **Steps:**
 
-1. Check if a preferred language has been set for the contact, and check if a template is available in this language.
+1. Check if a preferred language is set for the contact, and check if a template is available in this language.
 2. Check if the contact's country can be mapped to a corresponding language.
 3. Check the preferred document language for the logged-in user, and check if a template is available in this language.
 4. Check the user interface language for the logged-in user, and check if a template is available in this language.

@@ -34,7 +34,7 @@ language: en
 
 6. When you have completed the step above, you are redirected back to the **Video meetings** screen.
 
-7. Verify that the configuration has been set up correctly. Under **Set configurations** you should now see the name of the selected service provider and your user name.
+7. Verify that the configuration is set up correctly. Under **Set configurations** you should now see the name of the selected service provider and your user name.
 
 8. Depending on the service provider you have selected, there may be additional settings to configure here. Edit the settings as necessary and click **Save**.
 

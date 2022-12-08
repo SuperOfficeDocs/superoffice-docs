@@ -35,7 +35,7 @@ When you delete a folder, all the documents in it are also deleted from SuperOff
 
 ## What would you like to do now?
 
-[Create documents][1]
+* [Create documents][1]
 
 <!-- Referenced links -->
 [1]: create.md

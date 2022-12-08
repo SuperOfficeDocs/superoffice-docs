@@ -17,7 +17,7 @@ A contact who is going to have access to a customer centre needs a user name and
 
 2. Click the ![icon][img1] **Actions** button and select **Send password**. The **Send password to contact** screen appears.
 
-3. Verify that the contents of the **To** (recipient address), **From** (sender address) and **Subject** fields are correct. If required, you can adjust the data that has been inserted automatically.
+3. Verify that the contents of the **To** (recipient address), **From** (sender address) and **Subject** fields are correct. Optionally, adjust the data that was inserted automatically.
 
 4. Click **Preview HTML** or **Preview plain text** to view the message that will be sent out.
 

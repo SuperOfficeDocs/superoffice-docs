@@ -22,7 +22,7 @@ The priority assigned to a case can be determined by, for example:
 * The mailbox
 * An email filter
 
-Once a request has been assigned a priority, the priority can be used to control any escalation of the request.
+Once a request is assigned a priority, the priority can be used to control any escalation of the request.
 
 For example: You can specify that requests from a specific company should have VIP priority and that you should be notified by email if the request has not been read by a specified deadline.
 

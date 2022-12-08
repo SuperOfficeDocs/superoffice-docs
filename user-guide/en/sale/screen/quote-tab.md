@@ -11,7 +11,7 @@ language: en
 
 # Quote (section tab in Sale)
 
-In the **Quote** section tab at the bottom of the **Sale** screen, you can display existing quotes or create new ones. The options available to you here depend on if a quote has been created for the sale.
+In the **Quote** section tab at the bottom of the **Sale** screen, you can display existing quotes or create new ones. The available options depend on whether the sale has a quote.
 
 ## Sale without an existing quote
 

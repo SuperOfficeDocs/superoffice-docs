@@ -34,7 +34,7 @@ You can create the following mailings:
 
 The messages you send out can be customised for each customer using [template variables][2]. Add links to your mailings, and add [actions][3] to these links to automate your marketing workflow.
 
-SuperOffice Marketing also deals with what happens after the mailing has been done. You can get instant feedback on the success of the mailing: you can see how many and which customers received and opened the mailing, you can see data on click frequency and see which mailings led to sales.
+SuperOffice Marketing also deals with what happens after the mailing. You can get instant feedback on the success of the mailing: you can see how many and which customers received and opened the mailing, you can see data on click frequency and see which mailings led to sales.
 
 > [!NOTE]
 > You can also initiate a mail merge from the selection screen in SuperOffice CRM.

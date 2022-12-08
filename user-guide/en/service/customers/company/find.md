@@ -40,7 +40,7 @@ Under **Result** there are also the following buttons:
 
 * **Export**: Click here to export the list under **Result** to a file. You can choose from these formats: Excel, HTML and plain text. If the list contains companies or contacts, you can also export it as a static selection to SuperOffice CRM.
 
-* **Batch management**: If you select one or more companies under **Result**, you can click this button and select an action to perform on all the selected companies simultaneously. For example, you can merge records if the same company has been registered twice.
+* **Batch management**: If you select one or more companies under **Result**, you can click this button and select an action to perform on all the selected companies simultaneously. For example, you can merge records if the same company was registered twice.
 
 ## Preview
 

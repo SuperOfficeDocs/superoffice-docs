@@ -74,7 +74,7 @@ The default priorities included with the system are **High**, **Medium** and **L
 | Setting | Description |
 |---|---|
 | Name | A descriptive name for the priority. |
-| Deleted / Status | Is the priority active (normal) or has been deleted (unavailable).|
+| Deleted / Status | Is the priority active (normal) or deleted (unavailable).|
 | Sort order | A number between 0 and 100. Determines the sort value for this priority. The higher the value, the higher the priority. |
 | External | Checking here makes the priority accessible from SuperOffice Customer Centre. |
 | Use as default | Checking here makes this priority the default one. |

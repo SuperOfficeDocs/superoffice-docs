@@ -23,11 +23,11 @@ You can create a request in SuperOffice Service based on an email in your Gmail 
 
 4. In the **Create request in SuperOffice based on email** dialog, click the request queue where you want to place the request. Each queue has a specific category and priority assigned to it.
 
-5. Click **Save**. A message appears to confirm that the request has been created.
+5. Click **Save**. A confirmation message appears.
     * If the sender's email address is recognized, the request is automatically linked to the correct contact and company.
     * If the sender's email address is not recognized, the sender is automatically registered as a new contact in SuperOffice Service.
 
-6. In the confirmation message, you can select **Click here to view it** if you would like to have a closer look at the request in SuperOffice Service.
+6. In the confirmation message, optionally select **Click here to view it** to look closer at the request in SuperOffice Service.
 
 ## What would you like to do now?
 

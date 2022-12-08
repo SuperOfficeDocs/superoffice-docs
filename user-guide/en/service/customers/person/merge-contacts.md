@@ -11,7 +11,7 @@ language: en
 
 # Merge contacts
 
-You can merge two or more contacts. For example, if a contact has been registered in two different companies and also without a company, you can merge these contacts into one contact for the correct company. Any requests linked to the contacts are kept.
+You can merge two or more contacts. For example, if a contact was registered in two different companies and also without a company, you can merge these contacts into one contact for the correct company. Any requests linked to the contacts are kept.
 
 > [!NOTE]
 > You can also search for and select contacts to merge from the search results screen. Then click ![icon][img1] in the lower left corner and select **Batch management** > **Merge**.

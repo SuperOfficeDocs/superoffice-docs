@@ -128,8 +128,8 @@ When editing reply templates and mailings, you can insert template variables by 
 | ticket.customerUrl | The URL for accessing the request for the customer |
 | ticket.customerUrlEnc | The URL for accessing the request for the customer, URL-encoded |
 | ticket.customerUrlOld | The URL for accessing the request for the customer, not encoded. Kept for backwards compatibility. |
-| ticket.dbiAgentId | The ID of the DBI agent if this request has been synced using DBI |
-| ticket.dbiKey | The external primary key if this request has been synced using DBI |
+| ticket.dbiAgentId | The ID of the DBI agent if this request was synced using DBI |
+| ticket.dbiKey | The external primary key if this request was synced using DBI |
 | ticket.deadline | The deadline of the request |
 | ticket.id | Request ID (hidden, unique ID) |
 | ticket.lastChanged | The datetime when the request was last changed in the user's default format |

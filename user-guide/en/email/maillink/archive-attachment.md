@@ -39,7 +39,7 @@ If the attachment is the only part of the email you would like to keep for futur
 11. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the attachment will be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
-    > The **Visible for** field is only available if this right has been assigned to you in SuperOffice Settings and maintenance.
+    > The **Visible for** field is available only if this right is assigned to you in SuperOffice Settings and maintenance.
 
 12. Click **OK**. The selected attachment is archived to SuperOffice CRM as a new document. You can then open the document by double-clicking it in the **Activities** section tab.
 

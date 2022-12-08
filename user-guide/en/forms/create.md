@@ -120,7 +120,7 @@ This option adds an extra layer of security to the form. If you activate this op
 **Steps:**
 
 1. Click **Enable double opt-in**.
-2. In the **Message** tab, enter the text to display after the form has been submitted. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text.
+2. In the **Message** tab, enter the text to display after the form is submitted. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text.
 3. In the **Email** tab, create the confirmation email sent to the persons submitting the form.
     1. **Subject**: Enter the subject of the confirmation email.
     2. **Sender address**: Enter the email address to display in the **From** field in the confirmation mail.
@@ -128,7 +128,7 @@ This option adds an extra layer of security to the form. If you activate this op
     4. Click **Show/hide toolbar** ![icon][img7] and then click **Insert confirm link** ![icon][img9]. The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** ![icon][img10].
 4. Click **Apply now** when you are done.
 
-If double opt-in has been activated for a form, all [submissions for this form][5] will have status **Awaiting confirmation** until the email address has been confirmed.
+If double opt-in is activated for a form, all [submissions for this form][5] have status **Awaiting confirmation** until the email address is confirmed.
 
 > [!NOTE]
 > Remember to add the **Contact - email** field in the **Fields** category.

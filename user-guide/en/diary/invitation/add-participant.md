@@ -55,7 +55,7 @@ Using the SuperOffice Inbox: If you have not entered the requisite information i
 
 External participants will be notified via email (if you have selected this alternative in the invitation dialog). Invitation emails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the [status][1] will automatically be updated in SuperOffice.
 
-To manually accept or decline an invitation on behalf of someone, select the name in the list and click the **Toggle Status** button once to insert a green tick to show that the invitation has been accepted, or click twice to insert a red cross for a declined invitation.
+To manually accept or decline an invitation on behalf of someone, select the name in the list and click the **Toggle Status** button once to insert a green tick to show that the invitation was accepted, or click twice to insert a red cross for a declined invitation.
 
 <!-- Referenced links -->
 [1]: index.md#status

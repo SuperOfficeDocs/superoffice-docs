@@ -11,7 +11,7 @@ language: en
 
 # Edit projects
 
-You can edit information about projects from the tabs in the project card. To change information that has been entered for existing projects:
+You can edit information about projects from the tabs in the project card.
 
 1. [!include[Go to project](includes/goto-project.md)]
 

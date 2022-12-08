@@ -35,7 +35,7 @@ A status is only active for companies, contacts or projects that fulfil all the 
 
 1. Check that you have checked ( ![icon][img3] ) the criteria you want to use for this status.
 
-1. Click ![icon][img2] **Regenerate selected status monitor** to update the status with the criteria you have added. When the status has been regenerated, no red cross will be shown by the status name.
+1. Click ![icon][img2] **Regenerate selected status monitor** to update the status with the criteria you have added. After the status is regenerated, no red cross will be shown by the status name.
 
 ## What would you like to do now?
 

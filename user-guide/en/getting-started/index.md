@@ -17,7 +17,7 @@ Both new users and previous users of SuperOffice will benefit from reading this 
 
 ## Using in-app help
 
-This help has been designed to give you comprehensive and readily accessible information about how to use SuperOffice CRM. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in.
+This help is designed to give you comprehensive and readily accessible information about how to use SuperOffice CRM. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in.
 
 You can open the help in three ways:
 

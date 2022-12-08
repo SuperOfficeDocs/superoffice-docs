@@ -11,9 +11,10 @@ language: en
 
 # Work with sales guides
 
-If a sales guide has been defined for a sale type that you specify for a sale, the following happens:
+## Behavior when a sale has a guide
 
 * The first stage in the sales guide is selected in the **Stage** field on the main **Sale** card.
+
 * Follow-ups and/or documents for the stage are listed on the **Sales guide** section tab.
 
 ## The sales process
@@ -138,7 +139,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
     1. Click **Create** next to the **Set up contract meeting** phone call and create the phone call in the usual way.
 
-    2. When the phone call has been completed, check the box.
+    2. After completing the phone call, check the box.
 
     3. In the **Sales guide** dialog you have three options:
 
@@ -159,7 +160,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 4. Then you want to create the contract to take to the meeting.
 
     1. Click **Create** next to the **Signed contract** document to create the contract.
-    2. When the contract meeting has been held and the contract signed, mark the **Contract meeting** appointment as completed.
+    2. After the contract meeting and the contract is signed, mark the **Contract meeting** appointment as completed.
 
 You can now change the stage to **Sold**. Once all the required follow-ups and documents for the sale have been completed, you can set the sale status to completed.
 

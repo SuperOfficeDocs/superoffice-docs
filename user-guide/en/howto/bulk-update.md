@@ -79,7 +79,7 @@ You want to categorize your customers according to sales amounts. Create company
 
 ## Update company post code and post city
 
-There has been some changes in post codes and post cities in Norway. Use **Bulk update** to update the addresses.
+Post codes and post cities in Norway have changed. Use **Bulk update** to update the addresses.
 
 ## Update contact
 

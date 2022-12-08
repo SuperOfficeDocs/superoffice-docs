@@ -81,7 +81,7 @@ Click the **Visible for** field to display a list that allows you to choose if t
 
 ### Checked out for editing
 
-If the document has been checked out for editing, one of the following icons are displayed:
+If the document is checked out for editing, one of the following icons are displayed:
 
 ![icon][img2] The document is currently checked out for editing by you.
 

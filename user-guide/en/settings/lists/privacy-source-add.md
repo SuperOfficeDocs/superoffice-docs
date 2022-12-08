@@ -23,7 +23,7 @@ language: en
 
 4. If you selected the option above, you must select a template for the confirmation to be sent to the contact.
 
-    Only document templates where the option **Privacy email template** has been activated, are available in the list. [How to add a document template][1].
+    Only document templates with the option **Privacy email template** activated are available in the list. [How to add a document template][1].
 
 5. Type in a description of the item in the **Description** field.
 

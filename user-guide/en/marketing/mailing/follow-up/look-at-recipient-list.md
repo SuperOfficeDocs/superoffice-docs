@@ -36,7 +36,7 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 
  ***Sent**: Activate this filter to show all recipients the mailing was sent to.
 
-* **Bounced**: Activate this filter to show all recipients for whom the [mailing has been returned undelivered][3]. This may be due to email address errors, spam filters, Internet problems or inboxes being full.
+* **Bounced**: Activate this filter to show all recipients for whom the [mailing was returned undelivered][3]. This may be due to email address errors, spam filters, Internet problems or inboxes being full.
 
   * Temporary problems: delivery delays, email server temporarily unavailable
   * Permanent problems: wrong address, unknown domain. Add the recipients to a new selection and try to find the cause of the problem.

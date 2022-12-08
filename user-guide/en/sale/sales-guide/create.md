@@ -98,7 +98,7 @@ Agenda for first meeting:
     > [!NOTE]
     > Some of the options below are, for logical reasons, not relevant for the first follow-up in a sales guide.
 
-5. Check **Automatically suggest this follow-up** if you want SuperOffice CRM to suggest this follow-up when the previous follow-up (in this or the previous stage) has been marked as completed.
+5. Check **Automatically suggest this follow-up** if you want SuperOffice CRM to suggest this follow-up when the previous follow-up (in this or the previous stage) is marked as completed.
 
 6. Select a type for the follow-up in the **Follow-up type** list.
 

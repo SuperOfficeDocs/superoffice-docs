@@ -21,7 +21,7 @@ You can restore companies and contacts that have been deleted by mistake, either
 
 4. Select the companies or contacts you want to restore.
     * Restoring a company will also restore all contacts associated with this company.
-    * Restoring a contact where the company also has been deleted, will restore the company and the selected contact.
+    * Restoring a contact where the company too was deleted, will restore the company and the selected contact.
 
 5. Click **Restore**. The companies and contacts are restored in SuperOffice.
 

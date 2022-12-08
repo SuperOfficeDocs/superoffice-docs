@@ -18,15 +18,11 @@ In the **Form submissions** tab you can view all submitted forms. Use the filter
 > [!NOTE]
 > You can also [view submissions for individual forms][1] by opening a form in the **Forms** tab.
 
-The **Form status** column can have the following statuses:
+## Form status
 
-* **Processed**: The form has been submitted and automatically processed.
-* **Submitted**: The form has been submitted, but not processed yet.
-* **Awaiting confirmation**: The form has been submitted, but the sender must confirm their email address (double-opt in).
-
-## What would you like to do now?
-
-* [Process form submissions][2]
+* **Processed**: The form was submitted and automatically processed.
+* **Submitted**: The form was submitted, but not processed yet. [How to process form submissions][2]
+* **Awaiting confirmation**: The form was submitted, but the sender must confirm their email address (double-opt in).
 
 <!-- Referenced links -->
 [1]: track.md

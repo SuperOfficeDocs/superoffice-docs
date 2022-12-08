@@ -16,12 +16,18 @@ When a new customer sends in a request, SuperOffice Service tries to decide whic
 ## Scenario 1
 
 1. John, a new contact, registers a new request in the customer centre cs.liberty.com with the email address john@coca-cola.se.
+
 2. The new request is sent to the system, where John's email domain (coca-cola.se) is checked. coca-cola.se is registered as domain for the company Coca-Cola.
+
 3. John is added as a new contact for Coca-Cola, instead of being added as a new contact without a company.
+
 4. SuperOffice Service then checks if the email domain .se is linked to one of the registered customer languages. .se is registered as domain for the customer language Swedish.
+
 5. The customer language for contact John is therefore set as Swedish.
-6. SuperOffice Service sends a Swedish reply template (if this has been created) to John, informing them that the request has been received and registered.
-7. John receives a user name and password from SuperOffice Service, and can log on to cs.liberty.com and access the Swedish version of SuperOffice Customer Centre. John will also have access to Swedish FAQs if this has been set up in SuperOffice Service.
+
+6. SuperOffice Service sends a Swedish reply template (if created) to John, informing them that the request was received and registered.
+
+7. John receives a user name and password from SuperOffice Service, and can log on to cs.liberty.com and access the Swedish version of SuperOffice Customer Centre. John will also have access to Swedish FAQs if this is set up in SuperOffice Service.
 
 ## Scenario 2
 

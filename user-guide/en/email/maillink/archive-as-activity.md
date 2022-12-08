@@ -38,11 +38,11 @@ If you receive an email requesting you to take action, you can convert the email
 12. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the activity will be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
-    > The **Visible for** field is only available if this right has been assigned to you in SuperOffice Settings and maintenance.
+    > The **Visible for** field is only available if this right is assigned to you in SuperOffice Settings and maintenance.
 
 13. Check the **Completed** box if you would like to indicate that the activity has already been completed.
 
-14. Outlook only: Check the **Remove from inbox** box if you would like to remove the email from the inbox and move it to the **Deleted items** folder in the mail client after it has been successfully archived in SuperOffice CRM.
+14. Outlook only: Check the **Remove from inbox** box if you would like to remove the email from the inbox and move it to the **Deleted items** folder in the mail client after it was archived successfully in SuperOffice CRM.
 
 15. Click **OK**. The selected email(s) are archived to SuperOffice CRM as activities. You can then open any of these activities by double-clicking them in the **Activities** section tab or in the checklist in the **Diary** screen.
 

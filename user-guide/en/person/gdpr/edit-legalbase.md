@@ -39,7 +39,7 @@ language: en
 > To edit these settings for multiple contacts, use [Bulk update][2].
 
 1. Go to the contact in the **Contact** screen.
-    At the bottom of the contact card, you can see whether a legal basis has been set for the purpose **Sales and service**.
+    At the bottom of the contact card, you can see whether a legal basis is set for the purpose **Sales and service**.
 
 2. Click **Legal basis** at the bottom of the contact card.
 

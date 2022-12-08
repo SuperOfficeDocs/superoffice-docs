@@ -63,11 +63,11 @@ In the area on the left of the **Add/edit product** dialog, the product name/cod
 
 ## Image tab
 
-An image of the product is shown here, if this has been defined in SuperOffice Settings and maintenance.
+An image of the product is shown here, if this is defined in SuperOffice Settings and maintenance.
 
 ## Description tab
 
-Detailed product information is shown here, if this has been defined in SuperOffice Settings and maintenance.
+Detailed product information is shown here, if this is defined in SuperOffice Settings and maintenance.
 
 ## Details tab
 

@@ -11,7 +11,7 @@ language: en
 
 # Work with project guides
 
-If a project guide has been defined for a project type that you specify for a project, the following happens:
+If a project guide is defined for a project type that you specify for a project, the following happens:
 
 * The first status in the project guide is selected in the **Status** field on the main **Project** card.
 * Follow-ups and/or documents for the status are listed on the **Project guide** section tab.
@@ -88,7 +88,7 @@ You record a new project and select the **Conference** project type, which is li
     2. Complete the rest of the information in the fields in the **Document** dialog.
     3. Click the **Create** button to create and save the memo.
 
-3. Once the meeting has taken place and the conference programme has been decided on, you want to confirm this in the project guide and move on to the next project status.
+3. Once the meeting has taken place and the conference programme is ready, you want to confirm this in the project guide and move on to the next project status.
 
     In the project guide, check the box next to the **Planning meeting** follow-up.
 
@@ -136,7 +136,7 @@ You record a new project and select the **Conference** project type, which is li
 
 ### The Closing status
 
-1. Once the conference has been held and all relevant follow-ups and documents in the **In progress** status have been completed, you go to the last status in the project guide, which is **Closing**.
+1. After the conference and all relevant follow-ups and documents in the **In progress** status have been completed, you go to the last status in the project guide, which is **Closing**.
 
     * Click **Yes** in the **Project guide - move the project to the next status** dialog.
         or
@@ -145,7 +145,7 @@ You record a new project and select the **Conference** project type, which is li
 2. You want to hold an internal meeting to summarise the conference.
 
     1. Click **Create** next to the **Evaluation meeting** appointment and create the appointment in the usual way.
-    2. When the appointment has been completed, check the box.
+    2. When the appointment is completed, check the box.
 
 3. Then you want to produce an evaluation report which summarises the evaluation meeting and the conference.
 

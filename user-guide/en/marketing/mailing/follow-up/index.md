@@ -11,7 +11,7 @@ language: en
 
 # Follow up mailings
 
-After the mailing has been sent, SuperOffice Marketing collects data about the status of each sent email. In the **Recipients** tab, you can view the status for each recipient of the mailing.
+After the mailing is sent, SuperOffice Marketing collects data about the status of each sent email. In the **Recipients** tab, you can view the status for each recipient of the mailing.
 
 You can also filter the list and export the results to selections and projects in SuperOffice CRM for further processing. The selection may, for example, contain recipients who have read the mailing, so that salespersons can follow up on them. To improve your customer data, you can create a selection of recipients who have not received the mailing (return/bounce), so that the person who looks after this customer can ensure that the correct contact information is registered in SuperOffice CRM.
 

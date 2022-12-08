@@ -15,4 +15,4 @@
 | Neglected project | **Project status** is set to ongoing.
 **Date of last activity** (follow-up) is older than 14 days. | The project is active, but there have not been any activities for the last 2 weeks. | Plan a project meeting to get the wheels turning. |
 | Unprofitable project | **Number of sales** (completed) is zero.
-**Project status** is completed or stopped. | The project is complete, but nothing has been sold. | Plan an internal meeting to find out why no sales were achieved. |
+**Project status** is completed or stopped. | The project is complete, but nothing was sold. | Plan an internal meeting to find out why no sales were achieved. |

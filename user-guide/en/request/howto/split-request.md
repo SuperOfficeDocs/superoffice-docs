@@ -41,7 +41,7 @@ If a single request contains several questions, for example, if the customer fir
 
 1. In the **Status** list box, choose one of the following:
     * **Open**: Select this option if the request is in progress.
-    * **Closed**: Select this option if the request has been completed.
+    * **Closed**: Select this option if the request is completed.
     * **Postponed**: To postpone handling of this request, select this option and specify a date in the date field to the right. On this date, the request is set back to **Open**.
 
 1. Under **Properties of the original request** specify if the original request is **Open**, **Closed**, or **Postponed**.

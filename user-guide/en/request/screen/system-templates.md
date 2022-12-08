@@ -26,8 +26,8 @@ In the **Requests** tab, you have the following options:
 |---|---|
 | Reply template for notification of open requests | The reply template to use for notifying users of open requests. This is an email that is sent each evening to the users who have open requests that are several days old. The number of days is set in the **Settings** tab in the **System** screen in SuperOffice Service. |
 | Reply template for notification of new message | The reply template to use to notify users when a new message arrives on a request. |
-| Reply template for notification of activated request | The reply template to use to notify users that a postponed request has been activated. |
-| Reply template for notification of escalated request | The reply template to use to notify users that a request has been escalated. |
+| Reply template for notification of activated request | The reply template to use to notify users that a postponed request was activated. |
+| Reply template for notification of escalated request | The reply template to use to notify users that a request was escalated. |
 | Reply template for new request notification | The reply template to use to notify users that they have been assigned a request. |
 | Reply template for request reassignment | This field shows which reply template to use to notify users that another user has taken over a request. |
 | Reply template for printing a request | This field shows which reply template to use when printing a request. |
@@ -39,8 +39,8 @@ In the **Favourites** tab, you have the following options:
 | Option | Description |
 |---|---|
 | Reply template for notifying a new message in the favourites list | The reply template to use to notify users when a new message arrives on a request in the favourites list. |
-| Reply template for notifying an activated request in the favourites list | This field shows which reply template to use to notify users that a postponed request on the favourites list has been activated. |
-| Reply template for notifying an escalated request in the favourites list | This field shows which reply template to use to notify users that a request on the favourites list has been escalated. |
+| Reply template for notifying an activated request in the favourites list | This field shows which reply template to use to notify users that a postponed request on the favourites list was activated. |
+| Reply template for notifying an escalated request in the favourites list | This field shows which reply template to use to notify users that a request on the favourites list was escalated. |
 | Reply template for notifying reassignment of a request in the favourites list | This field shows which reply template to use to notify users that another user has taken over a request on the favourites list. |
 
 ## Customers

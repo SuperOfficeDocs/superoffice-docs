@@ -24,7 +24,7 @@ In SuperOffice CRM, you can bring up a useful little notepad, regardless of wher
 3. Type in the required information on the note.
 4. Click **Save**.
 
-A dot on the **Note** tab indicates that a note has been added.
+A dot on the **Note** tab indicates that there is a note.
 
 ## Delete a note
 

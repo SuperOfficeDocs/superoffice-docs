@@ -11,7 +11,7 @@ language: en
 
 # The Sale screen
 
-The **Sale** screen contains information about the sales entered into SuperOffice CRM. Each sale is displayed like an index card. You can see all the information that has been recorded for a sale.
+The **Sale** screen contains information about the sales entered into SuperOffice CRM. Each sale is displayed like an index card, showing all information about that sale.
 
 To move between sales, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the cards.
 
@@ -63,7 +63,7 @@ The lower part of the **Sale** screen consists of section tabs.
 * [Stakeholders][5]
 * [Quote][7] (requires a licence)
 
-[Sales guides][3] are only shown for specific sales types (defined in SuperOffice Settings and maintenance). If you have selected a sale type for which a sales guide has been defined, the **Sales guide** section tab is displayed.
+[Sales guides][3] are only shown for specific sales types (defined in SuperOffice Settings and maintenance). If you have selected a sale type for which a sales guide is defined, the **Sales guide** section tab is displayed.
 
 [!include[Add more section tabs](../../includes/more-tab.md)]
 

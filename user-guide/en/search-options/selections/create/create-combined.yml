@@ -18,9 +18,9 @@ items:
 
     1. Type the name of the new selection in the field containing *Selection name* . This field is mandatory.
 
-    1. In the **Selection of** field, choose what the selection is to contain. The choices here are limited to **Company/contact** and the type of selection you have selected. You cannot change this once it has been saved to the database.
+    1. In the **Selection of** field, choose what the selection is to contain. The choices here are limited to **Company/contact** and the type of selection you have selected. You cannot change this once it is saved to the database.
 
-    1. In the **Selection is** field, **Combined** has been selected by default.
+    1. In the **Selection is** field, **Combined** is selected by default.
 
     1. Under **Selection 2**, choose the other selection you want to combine.
 
@@ -41,4 +41,4 @@ items:
     [!include[Add to Favorites](includes/add-to-fav.md)]
 
     1. Click **Save**.
-    Once the selection has been saved, you can [edit it](../update/index.md) to change both the combination type and which selections are combined. But it is not possible to change the **Selection of** field.
+    After saving the selection, you can [edit it](../update/index.md) to change both the combination type and which selections are combined. But it is not possible to change the **Selection of** field.

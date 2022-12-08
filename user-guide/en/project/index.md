@@ -11,7 +11,7 @@ language: en
 
 # Project
 
-Using the **Project** function, you can link any activities both to an external company and to the project. You can also work using a project guide that takes you through each step of the project, assuming a project guide has been created for the project type you have selected. A project can be targeted at many contacts, and a contact can participate in many projects.
+You can link any activity to an external company and to a project. You can also work using a project guide that takes you through each step of the project, assuming that the project type you selected has a guide. A project can be targeted at many contacts, and a contact can participate in many projects.
 
 ![Project screen -screenshot][img3]
 

@@ -22,7 +22,7 @@ You can change labels in all available languages in SuperOffice.
 
 1. Check **Enable label substitution**.
 
-1. Type in all or part of the label you want to change in the field below the language field on the left. This is the language that has been selected for your user.
+1. Type in all or part of the label you want to change in the field below the language field on the left. This is the language selected for your user.
 
     > [!TIP]
     > To search for labels in another language, select the language in the list on the right and enter the search word in the field below.

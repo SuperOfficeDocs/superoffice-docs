@@ -71,7 +71,7 @@ Once an activity is completed, it will be removed from the activities list by th
 
 ### Highlight overdue activities
 
-If an activity is highlighted in red type, this means that its provisional date has been passed. To change this setting:
+If an activity is highlighted in red type, this means that its provisional date was passed. To change this setting:
 
 1. Go to ![icon][img1] **Personal settings > Preferences**.
 2. Select **Functions**, and edit the **Mark overdue activities** option.

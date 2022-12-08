@@ -26,8 +26,8 @@ The toolbar contains the following options:
 
 * **Status**: Shows the status of the request. You can change the status here.
   * **Open**: The request is in progress.
-  * **Closed**: The request has been fully answered.
-  * **Postponed**: Action on the request has been postponed to a future date.
+  * **Closed**: The request was fully answered.
+  * **Postponed**: Action on the request was postponed to a future date.
 
 * **Category**: The [category][14] that the request belongs to appears here. You can change the category here.
 

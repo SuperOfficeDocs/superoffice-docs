@@ -42,7 +42,7 @@ Enter here the name of the company linked to the follow-up (optional). If you ca
 
 ### Contact
 
-Click the arrow next to this field and a list of known contacts in the company is displayed. If no company has been selected, you will see a list of contacts that are not associated with a company. You can search directly from this field.
+Click the arrow next to this field and a list of known contacts in the company is displayed. If no company is selected, you will see a list of contacts that are not associated with a company. You can search directly from this field.
 
 ### Project
 
@@ -109,7 +109,7 @@ The **Details** tab contains detailed information about the follow-up.
 
 ### Recurrence
 
-In this field, you indicate if the follow-up repeats. Click the word **Never** to the right of the **Recurrence** field if you want the [appointment to be repeated][4] at regular intervals. If a follow-up has been specified as repeating, an icon ![icon][img1] at the upper left of the main part of the dialog.
+In this field, you indicate if the follow-up repeats. Click the word **Never** to the right of the **Recurrence** field if you want the [appointment to be repeated][4] at regular intervals. If a follow-up is repeating, an icon ![icon][img1] at the upper left of the main part of the dialog.
 
 ### Priority
 
@@ -117,7 +117,7 @@ Specify here the priority of the follow-up. Click the arrow to display a list wi
 
 ### Alarm
 
-For notification of the follow-up, check **Alarm**. If an [alarm has been specified][5] for a follow-up, an icon ![icon][img2] is displayed at the upper left of the main part of the dialog.
+For notification of the follow-up, check **Alarm**. If an [alarm is specified][5] for a follow-up, an icon ![icon][img2] is displayed at the upper left of the main part of the dialog.
 
 ### Owner
 

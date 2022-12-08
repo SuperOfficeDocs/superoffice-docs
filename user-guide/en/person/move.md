@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](../includes/note-req-manage-entities.md)]
 
-You can move a contact from one company to another. If a contact has been set up under the wrong company, or if they have changed department, they can be moved, including their activities and memberships. You also have the option of disconnecting a contact from a company.
+You can move a contact - including their activities and memberships - from one company to another, for example, if a contact was set up under the wrong company, or if they changed department. Alternatively, disconnect the contact from the company.
 
 **Steps:**
 

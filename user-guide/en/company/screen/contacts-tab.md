@@ -21,7 +21,9 @@ The **Contacts** section tab contains the following columns:
 
 ### Information
 
-A paperclip icon (![icon][img3]) in this column means that information has been entered about that contact in **Note** tab in the contact card. Position the mouse pointer over the dot and the information is displayed in a tooltip.
+A paperclip icon (![icon][img3]) in this column means that the **Note** tab in the contact card contains information.
+
+Position the mouse pointer over the dot and the information is displayed as a tooltip.
 
 ### Interests
 

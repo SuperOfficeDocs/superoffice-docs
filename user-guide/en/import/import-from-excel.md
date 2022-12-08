@@ -20,7 +20,7 @@ If you have an Excel spreadsheet with a list of your companies/contacts and asso
     > [!TIP]
     > Add a column with, for example, the text "prospect" for all the contacts, to make it easy to link them to the correct category in SuperOffice CRM.
 
-* A company/contact list with "cleansed" data. That is, data that has been exported and checked for quality, and will be imported again.
+* A company/contact list with "cleansed" data (exported and checked for quality, and will be imported again).
 * Companies and contacts from other applications and formats, such as finance systems, other CRM clients, email clients (other than Gmail and Outlook) and Windows installations of SuperOffice CRM.
 
 ## How can I prepare the Excel spreadsheet before import?

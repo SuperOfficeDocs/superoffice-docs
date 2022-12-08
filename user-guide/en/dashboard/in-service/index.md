@@ -75,7 +75,7 @@ Shows requests that belong to you and that have the **Open** status. In other wo
 
 ## Unassigned requests
 
-Lists requests that no-one has been assigned responsibility for. To [take responsibility for one of the requests][2], it is important you click **Accept request**. Otherwise, someone else might answer the request at the same time.
+Lists requests that no-one is assigned responsibility for. To [take responsibility for one of the requests][2], it is important you click **Accept request**. Otherwise, someone else might answer the request at the same time.
 
 ## What would you like to do now?
 

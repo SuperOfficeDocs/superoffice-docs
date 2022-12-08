@@ -16,7 +16,7 @@ In SuperOffice CRM, many people are creating, editing and reading documents at a
 > [!NOTE]
 > If your organisation uses a document library like SharePoint, multiple people can edit a document simultaneously.
 
-## How do I know when a document has been checked out?
+## How do I know when a document is checked out?
 
 In the **Document** dialog, a checked-out document has one of the following icons:
 

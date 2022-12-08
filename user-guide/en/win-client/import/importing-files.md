@@ -24,7 +24,7 @@ When you have performed a backup of the database file, found the right data file
 
 [!include[Import description](includes/step-import-description.md)]
 
-1. When you have chosen an import description and the import file has been found, the other fields are filled in automatically. Optionally, [edit any of the details in the import description][3].
+1. After you choose an import description and the import file is found, the other fields are filled in automatically. Optionally, [edit any of the details in the import description][3].
 
 1. It may be useful to check that the contents of the fields correctly match the fields you have selected. The **Field in file** column under **Field mapping** shows the contents of the first record in the data file you are importing, while the **Field in SuperOffice CRM** column shows the fields in the SuperOffice database the data will be imported to. Click the **Next** button a few times to check the contents of some of the following records as well.
 

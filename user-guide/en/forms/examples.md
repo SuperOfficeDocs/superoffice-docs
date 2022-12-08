@@ -64,7 +64,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
 1. In the **Double opt-in** category, select **Enable double opt-in**.
 
-1. In the **Message** tab, enter the text to display after the form has been submitted. This message should inform the customer that they will receive an email confirmation. Click **Show/hide toolbar** ![icon][img3] to display formatting options for the text.
+1. In the **Message** tab, enter the text to display after the form is submitted. This message should inform the customer that they will receive an email confirmation. Click **Show/hide toolbar** ![icon][img3] to display formatting options for the text.
 
     <details><summary>Example</summmary>
     We will now send an email to the address you have registered in our form.
@@ -100,7 +100,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
 1. Click **Apply now** to save the form and continue editing.
 
-1. In the **Page for inactive form** category, enter a URL or a message. This is relevant if a customer accesses the form after it has been set to inactive.
+1. In the **Page for inactive form** category, enter a URL or a message. This is relevant if a customer accesses the form after it is set to inactive.
 
 1. Click **Apply now** to save the form and continue editing.
 
@@ -164,7 +164,7 @@ In this example we will show you how to create short form for customers who want
 
 1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for contacting us. We will be in touch shortly."). This will display after the customer has submitted the form.
 
-1. In the **Page for inactive form** category, enter a URL or a message. This is relevant if a customer accesses the form after it has been set to inactive.
+1. In the **Page for inactive form** category, enter a URL or a message. This is relevant if a customer accesses the form after it is marked as inactive.
 
 1. In the **Actions** category, you must set up the actions to be performed when the form is processed:
 

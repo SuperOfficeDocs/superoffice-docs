@@ -15,7 +15,7 @@
 
 8. Click **Save** in the **Links** tab.
 
-A dot on the **Link** tab header indicates that a link has been added to the sale.
+A dot on the **Link** tab header indicates that the sale has a link.
 
 <!-- Referenced links -->
 [1]: ../search-options/using-history-list.md

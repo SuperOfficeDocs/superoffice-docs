@@ -56,8 +56,8 @@ After you have created an extra table, you must set up fields in the table, to a
 | Type | Displays the field type you have selected. |
 | Update null values now | Check this option to replace all null values (empty fields) in the database with the default value. Note that this operation can take a while. |
 | URL | Enter the URL of the dynamic link here. |
-| Use active user as default value | If this option has been checked, the field's value is set as the current user as default. In our example, this could be relevant for the "Registered by" field. |
-| Use current date/time as default value | If this option has been checked, the field's value is set as the current date/time as default. In our example, this could be relevant for the "Registered date" field. |
+| Use active user as default value | If checked, the field's value is set as the current user as default. In our example, this could be relevant for the "Registered by" field. |
+| Use current date/time as default value | If checked, the field's value is set as the current date/time as default. In our example, this could be relevant for the "Registered date" field. |
 | Use days / Use hours /Use minutes | Select the time units you want to use in the time span field. |
 | Use default value | If checked, the field is assigned a default value unless otherwise specified. |
 | View in relational choosers | If the current table has a relation with another table (extra table relation), select this option to make this field available as a search field. Example: You have created an extra table called "Products" with an extra table relation to the **Requests** table. In this way you can search for and add products in the **Extra fields** tab when creating new requests. By selecting **View in relational choosers** for specific fields in the "Products" table, these fields will be available as search fields in the **Extra fields** tab. |
