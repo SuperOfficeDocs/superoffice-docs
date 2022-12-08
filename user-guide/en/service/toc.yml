@@ -1,29 +1,53 @@
 items:
-- name: Overview
-  href: index.md
-- name: Search in Service
-  href: in-service/index.md
+- name: Search
+  href: .../search-options/in-service/index.md
   items:
   - name: Customize presentation
-    href: in-service/customize-presentation.md
+    href: ../search-options/in-service/customize-presentation.md
   - name: Use QuickSearch
-    href: in-service/quick-search.md
+    href: ../search-options/in-service/quick-search.md
   - name: Search for contents in the knowledge base
-    href: in-service/search-kb.md
+    href: ../search-options/in-service/search-kb.md
   - name: Search in the Navigator
-    href: in-service/in-navigator.md
+    href: ../search-options/in-service/in-navigator.md
 - name: Person
   href: customers/person/toc.yml
 - name: Company
   href: customers/company/toc.yml
+- name: Selections
+  href: ../search-options/selections/in-service/index.md
+  items:
+  - name: Create a selection based on search criteria
+    href: ../search-options/selections/in-service/create-from-search.md
+  - name: Create a dynamic selection
+    href: ../search-options/selections/in-service/create-dynamic.md
+  - name: Create a script-based selection
+    href: ../search-options/selections/in-service/create-script-based.md
+  - name: Create a static selection
+    href: ../search-options/selections/in-service/create-static.md
+  - name: Create a combined selection
+    href: ../search-options/selections/in-service/create-combined.md
+  - name: List selections
+    href: ../search-options/selections/in-service/list.md
+  - name: Update a selection
+    href: ../search-options/selections/in-service/update.md
+  - name: Edit a selection
+    href: ../search-options/selections/in-service/edit.md
+  - name: Manage columns in selections
+    href: ../search-options/selections/in-service/manage-columns.md
+  - name: Delete a selection or its records
+    href: ../search-options/selections/in-service/delete.md
+  - name: Administrate folders of selections
+    href: ../search-options/selections/in-service/manage-folders.md
 - name: Invoice
-  href: invoice/index.md
+  href: ../request/invoice/index.md
   items:
   - name: View invoice data for company
-    href: invoice/for-company.md
+    href: ../invoice/for-company.md
   - name: View invoice data for contact
-    href: invoice/for-contact.md
+    href: ../invoice/for-contact.md
   - name: Create invoice types
-    href: invoice/create-type.md
+    href: ../invoice/create-type.md
   - name: Delete invoice types
-    href: invoice/delete-type.md
+    href: ../invoice/delete-type.md
+    

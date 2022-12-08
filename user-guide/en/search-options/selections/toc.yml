@@ -1,6 +1,8 @@
 items:
 - name: Overview
   href: index.md
+- name: Selections screen
+  href: screen/index.md
 - name: Static selections
   href: static-selections.md
 - name: Dynamic selections
@@ -52,32 +54,3 @@ items:
     href: howto/export-to-excel.md
   - name: Deleting companies permanently
     href: howto/deleting-companies-permanently.md
-- name: Selections screen
-  href: screen/index.md
-- name: Selections in Service
-  href: in-service/index.md
-  items:
-  - name: Create a selection based on search criteria
-    href: in-service/create-from-search.md
-  - name: Create a dynamic selection
-    href: in-service/create-dynamic.md
-  - name: Create a script-based selection
-    href: in-service/create-script-based.md
-  - name: Create a static selection
-    href: in-service/create-static.md
-  - name: Create a combined selection
-    href: in-service/create-combined.md
-  - name: List selections
-    href: in-service/list.md
-  - name: Update a selection
-    href: in-service/update.md
-  - name: Edit a selection
-    href: in-service/edit.md
-  - name: Manage columns in selections
-    href: in-service/manage-columns.md
-  - name: Delete a selection or its records
-    href: in-service/delete.md
-  - name: Administrate folders of selections
-    href: in-service/manage-folders.md
-
-

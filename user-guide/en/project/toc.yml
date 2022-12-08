@@ -26,7 +26,7 @@ items:
     href: merge-projects.md
   - name: Delete a project
     href: delete.md
-- name: Work with project members
+- name: Project members
   href: project-members/index.md
   items:
   - name: Add a project member
@@ -39,7 +39,7 @@ items:
     href: project-members/send-email-to.md
   - name: Create document mailing to project members
     href: project-members/create-mailing.md
-- name: Work with project guide
+- name: Project guide
   href: project-guide/index.md
   items:
   - name: Working with a project guide

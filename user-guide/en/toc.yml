@@ -53,7 +53,8 @@ items:
         href: request/mailboxes/manage-folders.md
     - name: External document
       href: request/external-document.md
-
+  - name: SAINT (Sales intelligence)
+    href: sale/saint/toc.yml
   - name: Customisation
     topicHref: custom-objects/index.yml
     items:
@@ -101,12 +102,8 @@ items:
   - name: Windows client
     href: win-client/toc.yml
   - name: Service client
-    topicHref: service/toc.yml
-    items:
-    - name: Customers in Service
-      href: service/toc.yml
+    href: service/toc.yml
   - name: License agreement
     href: license-agreement.md
   - name: Copyright information
     href: copyright.md
-    

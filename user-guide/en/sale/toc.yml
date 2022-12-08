@@ -1,6 +1,10 @@
 items:
 - name: Overview
   href: index.md
+- name: Status of a sale (stages)
+  href: stages.md
+- name: Sales guide
+  href: sales-guide/index.md
 - name: Sale section tabs
   href: screen/index.md
   items:
@@ -8,8 +12,6 @@ items:
     href: screen/activities-sale.md
   - name: Stakeholders
     href: stakeholders/index.md
-  - name: Sales guide
-    href: sales-guide/index.md
   - name: Sales guide
     href: screen/sales-guide-tab.md
   - name: Quote
@@ -20,8 +22,6 @@ items:
     href: create.md
   - name: Delete a sale
     href: delete.md
-  - name: Status of a sale (stages)
-    href: stages.md
   - name: Create stakeholders
     href: stakeholders/create.md
   - name: Edit stakeholders
@@ -32,5 +32,3 @@ items:
   href: quote/toc.yml
 - name: Sales targets
   href: sales-targets.md
-- name: SAINT (Sales intelligence)
-  href: saint/toc.yml
