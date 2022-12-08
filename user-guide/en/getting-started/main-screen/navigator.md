@@ -133,7 +133,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [45]: ../../license/overview.md
 [46]: ../../user-management/index.md
 [47]: ../../user-management/role/index.md
-[48]: ../../person/gdpr/privacy.md
+[48]: ../../gdpr/privacy.md
 [49]: ../../sale/saint/index.md
 
 <!-- Referenced images -->

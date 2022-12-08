@@ -52,8 +52,8 @@ language: en
 
 <!-- Referenced links -->
 [1]: ../globalization/translate-fields.md
-[2]: ../person/gdpr/privacy.md#legal-basis
-[3]: ../person/gdpr/privacy.md#source
+[2]: privacy.md#legal-basis
+[3]: privacy.md#source
 
 <!-- Referenced images -->
 [img1]: ../../../common/icons/az.png

@@ -51,11 +51,11 @@ There are three types of messages:
 
 <!-- Referenced links -->
 [1]: ../dashboard/in-service/index.md
-[2]: ../person/in-service/index.md
+[2]: ../service/customers/person/index.md
 [3]: howto/assign.md
 [4]: howto/create.md
 [5]: find.md
-[6]: ../company/in-service/index.md
+[6]: ../service/customers/company/index.md
 [7]: howto/index.md
 [11]: find.md#list
 [12]: find.md#search
