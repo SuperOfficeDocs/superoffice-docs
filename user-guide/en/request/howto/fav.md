@@ -33,7 +33,7 @@ In SuperOffice Service there is a favourites list, you can add requests you want
 
 ## View the favourites list
 
-To view the favourites list, do one of the following:
+Do one of the following:
 
 * Select **Requests** in the Navigator, and click ![icon][img3].
 * Select **Requests** in the Navigator, and select **My favourites**.

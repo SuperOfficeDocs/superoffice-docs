@@ -20,8 +20,6 @@ If you have an Excel spreadsheet with a list of products, you can easily import 
 * You can for instance contains these columns of data: In assortment, product code, name, description, product category, unit, list price, unit minimum price, cost, product name.
 * Make sure to add a unique product code for each row as a duplicate key.
 
-To import an Excel spreadsheet with products into the SuperOffice database:
-
 ## Export products from an Excel import file
 
 1. [!include[Open Import](includes/open-import.md)]

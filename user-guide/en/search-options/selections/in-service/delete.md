@@ -18,7 +18,7 @@ If you want to delete a selection, you do not delete the actual records it conta
 ## Delete the selection definition
 
 > [!NOTE]
-> To delete a selection, you need to have access to both read and edit the selection in question.
+> To delete a selection, you must have access to both read and edit the selection in question.
 
 1. Select **Selections** > **List selections**. This takes you to the **List selections** screen.
 2. Point at the selection name, to make the icons appear to the right.

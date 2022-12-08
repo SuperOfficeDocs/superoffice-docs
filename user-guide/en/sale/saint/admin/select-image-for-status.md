@@ -17,7 +17,7 @@ You can select an image to be displayed in SuperOffice CRM on a company card, co
 
 ## Is it a requirement to have an image?
 
-No, you do not need to have an image for a status. If you just want to create reports or use status monitors to search for and create selections of companies, contacts or projects that fulfil the status criteria, you do not need to assign an image to the statuses.
+No. If you just want to create reports or use status monitors to search for and create selections of companies, contacts or projects that fulfil the status criteria, you do not need to assign an image to the statuses.
 
 ## What sort of images can I use?
 

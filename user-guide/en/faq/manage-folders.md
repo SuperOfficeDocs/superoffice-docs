@@ -38,7 +38,7 @@ Under **Knowledge Base** > **FAQ** you can create a folder structure for FAQs, t
 
 ## Delete folders
 
-Before you delete an FAQ folder, you need to remove all the entries in it. You do this in one of the following ways:
+Before you delete an FAQ folder, you must remove all the entries in it. You do this in one of the following ways:
 
 * You can [delete the FAQ entries][1].
 * You can [move an FAQ entry to another folder][2] by changing the content of the **Folder** field when you edit an entry.

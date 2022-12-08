@@ -13,7 +13,7 @@ so.envir: onsite
 
 # Update rules for duplicate handling
 
-You always need to specify rules for handling duplicates during importing. You do this as follows:
+You must always specify rules for handling duplicates during importing.
 
 1. [!include[How to open import](includes/open-import.md)]
 
@@ -28,7 +28,7 @@ You always need to specify rules for handling duplicates during importing. You d
 4. Under **Handling of duplicates**, select the row to specify a duplicate handling rule for.
 
     > [!NOTE]
-    > Which rows appear under **Handling of duplicates** depend on which fields you have chosen to import into. This cannot be changed and you need to specify duplicate handling rules for all the rows.
+    > Which rows appear under **Handling of duplicates** depend on which fields you have chosen to import into. This cannot be changed and you must specify duplicate handling rules for all the rows.
 
 5. Click the **Update** button. The **Handle duplicates** dialog for the selected data type opens.
 

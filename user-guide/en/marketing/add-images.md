@@ -9,11 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Add images
-
-Add images you can use later in emails.
-
-To add an image to SuperOffice Marketing:
+# Add images to use in marketing emails
 
 1. Select the **Images** tab.
 

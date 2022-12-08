@@ -19,12 +19,10 @@ SuperOffice CRM is supplied with several standard templates that you can use imm
 
 You can also create your own templates in the applications you have chosen to use in conjunction with SuperOffice CRM (see [GUI - Application][3]). You do this by entering template variables in the template documents (see [Template variables][1]) which then retrieve information from corresponding fields in SuperOffice CRM when you write a document using a template you have created.
 
-Adding a template document involves following steps:
+## How to add a template document
 
-* You need to add and define the document template in Settings and maintenance. See [Add a document template][6].
-* You need to make the document template available to the requisite user groups. See [User group filtering][5].
-
-In the sections below there are more details on using standard templates and template variables in SuperOffice CRM, and creating and linking new templates.
+1. [Add and define the document template][6] in Settings and maintenance.
+1. Make the document template available to the requisite user groups. See [User group filtering][5].
 
 ## What would you like to do now?
 

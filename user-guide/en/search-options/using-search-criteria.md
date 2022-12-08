@@ -77,7 +77,7 @@ Everywhere you can enter search criteria, you will find a criteria list containi
 
     * <details><summary>Status field</summary>
 
-        If the field you are searching in is a status field, you just need to select the required status.
+        If the field you are searching in is a status field, select the required status.
 
         The statuses are created and maintained in SuperOffice Settings and maintenance.
 

@@ -38,7 +38,7 @@ You can create extra tables in SuperOffice Service register different types of d
 | Header for new entry |  The header used when you create a new entry in this table. |
 | Header for editing entry |  The header used when you edit an entry in this table. |
 | Sort order |  The column the table will be sorted on. If you check **Descending**, the values are sorted in descending order. For numerical values, this means the highest value will appear at the top of the table. The table must contain fields before you can select anything here. |
-| Display field |  If data from this table is displayed in another table (a relation), you need to select which field to display in the other table. The table must contain fields before you can select anything here. |
+| Display field | If data from this table is displayed in another table (a relation), you must select which field to display in the other table. The table must contain fields before you can select anything here. |
 | Parent field |  This field is used in connection with hierarchical tables. |
 | Full name |  If this is a hierarchical table, this field can specify a field that is automatically updated with the entry's full name based on the name field for this entry, and all parent entries. |
 | Hide ID field |  If this option is enabled, then the ID field will not be shown when listing entries in the table. |

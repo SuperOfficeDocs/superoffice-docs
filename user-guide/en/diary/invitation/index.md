@@ -30,7 +30,7 @@ The users you have chosen to link to a follow-up will be notified of this on the
 
 When you link resources, the status is set to *accepted* because a resource cannot answer the invitation itself.
 
-It is possible to double-book a resource. If a resource is not free at the time in question, **Conflict** is shown in the **Status** column. An exclamation mark is also displayed in the **Appointment** dialog. You will then need to change the time of the follow-up. The **First available** field displays the first available meeting time.
+It is possible to double-book a resource. If a resource is not free at the time in question, **Conflict** is shown in the **Status** column. An exclamation mark is also displayed in the **Appointment** dialog. You should change the time of the follow-up. The **First available** field displays the first available meeting time.
 
 ### External contacts
 

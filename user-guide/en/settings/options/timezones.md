@@ -15,7 +15,7 @@ SuperOffice CRM supports follow-ups in different time zones. Time zone functiona
 
 The time zone function also supports summer time (daylight saving time).
 
-Before you use time zones, you need to [enable the time zone function][1].
+Before you use time zones, you must [enable the time zone function][1].
 
 In addition, you can go to **Preferences** to show the time zone selector and set the default time zone.
 

@@ -65,7 +65,7 @@ Here you enter information to correctly assign and prioritize the request.
 * In the **Status** list box, choose one of the following:
   * **Open**: Select this option if the request is in progress.
   * **Closed**: Select this option if the request has been completed.
-  * **Postponed**: If there is a need to postpone handling of this request, select this option and specify a date and time in the **Activate** field. On this date and time, the request is set back to **Open**.
+  * **Postponed**: To postpone handling of this request, select this option and specify a date and time in the **Activate** field. On this date and time, the request is set back to **Open**.
 * In the **Tags** list box, [select relevant tags][4] for this request.
 * The **Contacts** field: By default, the person you entered in the **To** field is also added as a contact for the request (after you click **OK**).
   * You can add additional contacts if you like.
@@ -77,7 +77,7 @@ Here you enter information to correctly assign and prioritize the request.
 ## Message
 
 > [!NOTE]
-> If you want to send the message to someone, you need to add recipients in the **To** field above the tabs. To make the message available for the contact via SuperOffice Customer Centre, you must set the access level (for the message) to **External**.
+> If you want to send the message to someone, you must add recipients in the **To** field above the tabs. To make the message available for the contact via SuperOffice Customer Centre, you must set the access level (for the message) to **External**.
 
 Here you type in the message you want to add to the request. This works in the same way as when entering text into a word processor. You can also add attachments to the message.
 

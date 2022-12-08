@@ -28,8 +28,6 @@ If you have an Excel spreadsheet with a list of your companies/contacts and asso
 * The Excel spreadsheet should as a minimum contain columns with company names and contact names (first name and last name).
 * Check that the data is up-to-date. For example, are postal addresses and telephone numbers correct?
 
-To import an Excel spreadsheet into the SuperOffice database:
-
 ## Import companies/contacts from an Excel file
 
 1. [!include[Open Import](includes/open-import.md)]

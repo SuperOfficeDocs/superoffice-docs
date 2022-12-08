@@ -33,7 +33,7 @@ When you are testing a mailing, it is important to check the following:
 
 ## Reset counters after testing
 
-When you have sent a test mailing, you need to reset the counters for the link(s) in the message. Otherwise, the list will display both your own and others' clicking of links done during testing.
+When you have sent a test mailing, you must reset the counters for the link(s) in the message. Otherwise, the list will display both your own and others' clicking of links done during testing.
 
 1. Go to the links **Tracked links** tab
 2. Click the menu button ( ![icon][img1] ) next to the relevant link and select **Reset**. The **Clicks** column is set to **0**. Data about which customers have clicked the link are also removed.

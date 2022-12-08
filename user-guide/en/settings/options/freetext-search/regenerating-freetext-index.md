@@ -28,7 +28,7 @@ When you add or delete new stopwords (see [Add stopwords][1], [Suggest stopwords
 1. A message is displayed to the effect that it can take a long time to generate a new index and that users cannot access the freetext search function during this period. Click **OK**. A window opens showing the progress of the regeneration process. When this disappears, the new freetext index is ready.
 
 > [!NOTE]
-> To regenerate a freetext index you must belong to the **User level 0** role (or equivalent). On Oracle databases, you need to be the user who is the database owner.
+> To regenerate a freetext index you must belong to the **User level 0** role (or equivalent). On Oracle databases, you must be the user who is the database owner.
 
 <!-- Referenced links -->
 [1]: adding-stopwords.md

@@ -28,7 +28,7 @@ You can save generated reports as documents, so they can later be opened from th
 1. In the **Document** dialog, [enter the required information about the report][5].
 
     > [!NOTE]
-    > If the report is of the type label, you need to specify a label layout in the **Choose label** dialog before the **Document** dialog is displayed.
+    > If the report is of the type label, specify a label layout in the **Choose label** dialog before the **Document** dialog is displayed.
 
 1. Click **Create**. The file is opened in the default PDF viewer and simultaneously saved in SuperOffice CRM.
 

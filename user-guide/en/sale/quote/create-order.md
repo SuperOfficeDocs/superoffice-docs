@@ -14,7 +14,7 @@ language: en
 Once the customer has accepted the quote, you can place the order, so that it is sent on to order processing or a warehouse for further action.
 
 > [!TIP]
-> If you want to place an order for an archived version of the quote, you need to select this version in the **Version** field and click **Make active**. The archived quote will then be copied and made into the current version. Previous versions of the quote will be archived.
+> If you want to place an order for an archived version of the quote, select this version in the **Version** field and click **Make active**. The archived quote will then be copied and made into the current version. Previous versions of the quote will be archived.
 
 1. Click **Place order** in the **Edit quote** dialog. The **Create order based on quote version** dialog appears. The dialog title shows the quote version that the order is based on.
 
@@ -27,7 +27,7 @@ Once the customer has accepted the quote, you can place the order, so that it is
 1. Check **Mark sale as sold (100%)** if you want to change the status of the sale.
 1. Click **OK** when you have finished. If you opted to send the order via email, the **New email** dialog appears. Here you can edit the text and send the confirmation to the customer.
 
-If SuperOffice CRM is connected to an ERP system (either using the built-in solution in SuperOffice or a 3rd party connector), the order will be registered there and processed automatically. If SuperOffice CRM is not connected to an ERP system, you need to register the order manually in the external system.
+If SuperOffice CRM is connected to an ERP system (either using the built-in solution in SuperOffice or a 3rd party connector), the order will be registered there and processed automatically. If SuperOffice CRM is not connected to an ERP system, you must register the order manually in the external system.
 
 <!-- Referenced links -->
 [1]: approve.md

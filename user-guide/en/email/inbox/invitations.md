@@ -24,7 +24,7 @@ You can receive invitations from a person outside your organization and easily a
 
     <details><summary>Does the message contain any attachments you want to keep?</summary>
 
-    If the message contains any attachments (in addition to the iCal/ics file) that you want to keep, you need to archive or download them *before* you reply to the invitation. When you accept or decline the invitation, the message will be removed from the inbox and sent to the **Deleted** folder.
+    If the message contains any attachments (in addition to the iCal/ics file) that you want to keep, you must archive or download them *before* you reply to the invitation. When you accept or decline the invitation, the message will be removed from the inbox and sent to the **Deleted** folder.
 
     Click the arrow next the attachment you want to save, and select **Download** or **Archive** (see [The Document dialog][1]).
     </details>

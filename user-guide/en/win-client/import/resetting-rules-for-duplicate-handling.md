@@ -11,9 +11,7 @@ so.client: win
 so.envir: onsite
 ---
 
-# Reset rules for duplicate handling
-
-To reset one or all of the defined rules for duplicate handling:
+# Reset one or all rules for duplicate handling
 
 1. [!include[How to open import](includes/open-import.md)]
 

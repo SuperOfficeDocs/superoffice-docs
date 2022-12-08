@@ -12,7 +12,7 @@ language: en
 # Configure SharePoint document library
 
 > [!NOTE]
-> Before you can start this configuration, you need to set up your SharePoint site, libraries and permissions. All users must authenticate using Microsoft 365.
+> Before you can start this configuration, you must set up your SharePoint site, libraries and permissions. All users must authenticate using Microsoft 365.
 
 When you are configuring your new document library, Admin will show an intermediate state.
 
@@ -81,13 +81,13 @@ If you plan not to use "Visible for", do not select this option.
 
     * If you are NOT a Microsoft 365 Global Administrator: Click **Copy the authorization URL** and send it to a Microsoft 365 Global Administrator in your organization.
 
-3. If you need to wait for an authorization, you have the following options:
+3. If you have to wait for an authorization, you have the following options:
 
     * Click **Save and close** to continue the configuration late. The page text will be updated to indicate that authorization is pending.
 
     * Click **Check status again** to see if the Microsoft 365 Global Administrator has authorized the app.
 
-4. For each SuperOffice user group, select the matching user group in SharePoint. All SuperOffice user groups need to be mapped before you can go to the next step.
+4. For each SuperOffice user group, select the matching user group in SharePoint. All SuperOffice user groups must be mapped before you can go to the next step.
 
 5. Click **Next step** to continue.
 

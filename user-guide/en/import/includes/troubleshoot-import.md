@@ -3,9 +3,9 @@
 
 Rows without icons are not imported. If you see that many contacts are not being imported, this may be because they are not linked to a company. In that case, you can do one of the following:
 
-* If the contact is actually linked to a company, you need to return to the import source (Gmail, Outlook or Excel) and specify a company for the contact. Then start the import afresh.
+* If the contact is actually linked to a company, you return to the import source (Gmail, Outlook or Excel) and specify a company for the contact. Then start the import afresh.
 
-* If the contact is not linked to a company, but should be registered under their own name in SuperOffice, you need to set up the person as a company, as follows:
+* If the contact is not linked to a company, but should be registered under their own name in SuperOffice, set up the person as a company:
 
     1. Click **Previous** and **Configure import settings**.
     2. Click the **If no company name** list under **Contact**.

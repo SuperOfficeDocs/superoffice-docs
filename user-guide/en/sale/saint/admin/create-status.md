@@ -45,7 +45,7 @@ language: en
     **Priority** – the priority of the statuses. The priority determines which status will be displayed if a company, contact or project fulfils the criteria for several statuses.
     </details>
 
-6. If there are several statuses in the list, you need to specify the priority you want the status you have added to have. Click the status and use the arrow buttons to the right of the status list ( ![icon][img5] / ![icon][img6] ) to move it up or down the list.
+6. If there are several statuses in the list, specify the priority you want the status you have added to have. Click the status and use the arrow buttons to the right of the status list ( ![icon][img5] / ![icon][img6] ) to move it up or down the list.
 
 ## Why do I need to specify a status's priority?
 

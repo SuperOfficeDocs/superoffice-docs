@@ -25,7 +25,7 @@
 
 13. In the **Business** field, select from a list of different predefined types of business. Click the arrow and choose the business that best matches the company you are creating. This is mandatory.
 
-14. In the **Main contact** field, select the contact who should be the main contact for this client. You need to add contacts to the company first.
+14. In the **Main contact** field, select the contact who should be the main contact for this client. You must add contacts to the company first.
 
 15. At the bottom right of this tab, three of the fields from the **More** tab may be displayed, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
 

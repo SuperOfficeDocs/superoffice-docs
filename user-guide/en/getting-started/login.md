@@ -11,7 +11,7 @@ language: en
 
 # Log in
 
-SuperOffice is a web-based system. This means you need to be connected to the internet before you log in.
+SuperOffice is a web-based system. This means you must be connected to the internet before you log in.
 
 When you start SuperOffice CRM or Service, you will see a login screen where you must enter a user ID and password to open the program.
 
@@ -41,7 +41,7 @@ When you start Settings and maintenance, you will see a login screen where you m
 > [!NOTE]
 > The first time you run Settings and maintenance, a dialog displays an amendment to the Terms of Service. Please read this important information and click **Accept** and **OK** to continue using Settings and maintenance. This dialog will not be displayed again, but you can read the complete text here: [Addendum to SuperOffice Software Maintenance Agreement][3].
 
-You need to belong to the **User level 0** role or another role that gives you login rights for Settings and maintenance. User IDs, passwords and user levels are all defined in the [Users screen][2].
+You must belong to the **User level 0** role or another role that gives you login rights for Settings and maintenance. User IDs, passwords and user levels are all defined in the [Users screen][2].
 
 > [!TIP]
 > You can also open Settings and maintenance via **Settings and maintenance** on the **File** menu in SuperOffice CRM for Windows, or from the main menu in SuperOffice CRM for Web.

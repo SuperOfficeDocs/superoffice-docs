@@ -30,7 +30,7 @@ You can merge two or more contacts. For example, if a contact has been registere
 
 6. For each row (field) in the table, you must select which contact data should be kept. Click ![icon][img2] **Choose** to select all fields in a column. The unselected data in this table will be overwritten.
     * Requests from all merged contacts will be kept.
-    * Email addresses from all merged contacts will be kept, but you need to edit the merged contact to set the correct primary email address.
+    * Email addresses from all merged contacts will be kept, but you must edit the merged contact to set the correct primary email address.
 
 7. Click **OK**. The contacts are merged.
 

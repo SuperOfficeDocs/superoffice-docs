@@ -63,8 +63,6 @@ To create a role for associates in the company or for external users:
 
 ## In Service
 
-To create a new role:
-
 1. Select ![icon][img3] **System settings** > **Roles**.
 
 2. Click the **New role** button.
@@ -74,9 +72,9 @@ To create a new role:
     * **Description**: Enter a description for the role.
     * **Copy rights from role**: If you want to copy the rights from an existing role, select a role in this list. Start typing in this field to search for a role.
 
-4. Click **OK**. The role is created. You now need to customize the role.
+4. Click **OK**. The role is created.
 
-5. Click on the new role in the list to edit it.
+5. Click on the new role in the list to start customizing it.
 
 6. The **Role information** tab: You have already filled in the necessary information here.
 

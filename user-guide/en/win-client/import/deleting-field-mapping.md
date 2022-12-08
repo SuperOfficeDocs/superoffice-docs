@@ -13,8 +13,6 @@ so.envir: onsite
 
 # Delete field mapping
 
-To delete a field mapping:
-
 1. [!include[How to open import](includes/open-import.md)]
 
 [!include[Import description](includes/step-import-description.md)]

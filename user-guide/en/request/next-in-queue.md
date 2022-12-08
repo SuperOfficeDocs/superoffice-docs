@@ -53,7 +53,7 @@ Do as follows:
     > [!NOTE]
     > This does not mean that these requests MUST be fetched from the queue. We will use categories to decide which requests will be placed in the queue and which requests will be distributed according to the assignment method for the category.
 
-7. You do not need to check **Create new request on customer reply**.
+7. You do not have to check **Create new request on customer reply**.
 
 8. In the **Track time as** list, select **In queue**.
 

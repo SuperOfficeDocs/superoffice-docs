@@ -21,7 +21,7 @@ You are now ready to [add reply templates][1] to the new folder.
 
 ## Delete folders
 
-Before you delete a reply template folder, you need to remove all the entries in it. You do this in one of the following ways:
+Before you delete a reply template folder, you must remove all the entries in it. You do this in one of the following ways:
 
 * You can [delete the reply templates][2].
 * You can move a reply template to another folder by changing the content of the **Folder** field when you [edit a reply template][3].

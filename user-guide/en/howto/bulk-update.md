@@ -9,11 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Bulk update
+# Update multiple records (bulk update)
 
 The **Bulk update** task allows you to change values across multiple records of the same type. You can perform the bulk update on all or selected records in section tabs (archives), selections and the **Find** screen. This task can also be used to delete multiple records.
-
-To update multiple records:
 
 1. Open the selection, section tab (archive) or search results (**Find** screen) containing the records you want to update.
 

@@ -11,7 +11,7 @@ language: en
 
 # Create documents
 
-If you want to add a document to SuperOffice Service, you first need to create the document itself. To create a price list, you could, for example, use Microsoft Word or Excel to write the contents. You then add it to SuperOffice Service as follows:
+If you want to add a document to SuperOffice Service, you must first create the document itself. To create a price list, you could, for example, use Microsoft Word or Excel to write the contents. You then add it to SuperOffice Service as follows:
 
 1. Select **Knowledge Base** > **Documents**.
 2. Go to the folder you want to put the document in. If it does not yet exist, you can [create a new folder][1].

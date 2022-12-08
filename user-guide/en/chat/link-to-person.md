@@ -15,7 +15,7 @@ When you respond to a chat, SuperOffice will automatically try to find the custo
 
 The chat session will also be linked to the contact, and will be available as a record in the **Activities** section tab in the **Company** screen and **Contact** screen.
 
-First you need to link the customer to a contact in SuperOffice.
+First, you must link the customer to a contact in SuperOffice.
 
 ## Use suggested contact
 

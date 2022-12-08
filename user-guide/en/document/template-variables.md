@@ -96,7 +96,7 @@ Our contact: John Jones
 
 ## How to use template variables
 
-* In documents of file type .doc in Office 2003 and older, you need to use angled brackets – &lt; &gt; – around variables instead of curly brackets – { } –.
+* In documents of file type .doc in Office 2003 and older, you must use angled brackets – &lt; &gt; – around variables instead of curly brackets – { } –.
 * The whole variable must be formatted using the same font and font size, and you must only use lowercase letters. However, if the **Use case-sensitive template variables** preference is enabled, the template variable can be formatted.
 * You can mix normal text and variables in the template document: For example, you can enter template variables that retrieve a company’s name and address, type in standard text for the body of the letter and enter the variable for our contact to conclude the letter.
 * You can also use fill characters in the template document (see below).

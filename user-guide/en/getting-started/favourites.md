@@ -13,9 +13,6 @@ language: en
 
 The Favourites function provides easy access to your favourite records, such as companies, contacts, sales, selections, projects, documents, requests, and mailings.
 
-> [!NOTE]
-> You can also add requests as favourites, and they will be available in the side panel.
-
 To add reports as favourites, see [Favourite reports][1].
 
 ## Add record as a favourite

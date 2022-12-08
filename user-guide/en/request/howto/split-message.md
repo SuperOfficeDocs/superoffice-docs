@@ -35,7 +35,7 @@ If a message contains two issues that should be handled separately, you can spli
 8. In the **Status** list box, choose one of the following:
     * **Open**: Select this option if the request is in progress.
     * **Closed**: Select this option if the request has been completed.
-    * **Postponed**: If there is a need to postpone handling of this request, select this option and specify a date in the date field to the right. On this date, the request is set back to **Open**.
+    * **Postponed**: To postpone handling of this request, select this option and specify a date in the date field to the right. On this date, the request is set back to **Open**.
 
 9. (if relevant) Under **Choose the attachments to move to the new request** select the attachment(s) which should be moved to the new request. The attachments will be deleted from the existing request.
 

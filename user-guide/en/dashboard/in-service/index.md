@@ -63,7 +63,7 @@ A user with category administration rights can do the following:
 
 Depending on the rights you have in the system, the **Status** tile may also show the following information:
 
-* **Unpublished FAQ entries**: If the company's SuperOffice Service installation has a licence for SuperOffice Customer Centre, any unpublished FAQ entries will also be displayed here. These need to be approved by a user with publishing rights.
+* **Unpublished FAQ entries**: If the company's SuperOffice Service installation has a licence for SuperOffice Customer Centre, any unpublished FAQ entries will also be displayed here. These must be approved by a user with publishing rights.
 
     A user with publishing rights can check **Publish in the FAQ entry editing screen**.
 

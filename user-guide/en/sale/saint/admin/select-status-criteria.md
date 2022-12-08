@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-A status is only active for companies, contacts or projects that fulfil all the criteria you have specified for the status. You need to specify one or more criteria for each status you create.
+A status is only active for companies, contacts or projects that fulfil all the criteria you have specified for the status. You must specify one or more criteria for each status you create.
 
 <details><summary>Click here to see some examples of criteria,</summary>
 

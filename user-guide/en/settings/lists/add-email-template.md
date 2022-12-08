@@ -38,7 +38,7 @@ Templates are displayed as items in the **Email - Template** list and you can ad
 
 6. Optional: Edit the template name, if required.
 
-7. Click **Edit** to edit the template file itself. If you have created a new email template, you need to add content to the template.
+7. Click **Edit** to edit the template file itself. If you created a new email template, add content to the template.
 
 8. Enter the required information in the **Details** and **Languages** tabs.
 

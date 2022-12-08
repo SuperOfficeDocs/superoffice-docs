@@ -15,7 +15,7 @@ Under **Knowledge Base** > **External documents**, you can add documents (includ
 
 This applies, for example, when you use the **Message** tab when [answering requests][1]. Here you can enter text in the same way as in a word processor. You can also insert images by clicking the **Image** button on the toolbar, but in that case the image must have already been uploaded to **External documents**. When the message is sent, links will be generated to files under **External documents**. The same applies when, for example, you create reply templates and SuperOffice Marketing messages.
 
-Apart from this practical use, external documents are otherwise dealt with in the same way as other documents. This means that you can follow the procedures in the topics below when working with external documents; you just need to remember to select **Knowledge Base** > **External documents** first, so that you are working from the correct location:
+Apart from this practical use, external documents are otherwise dealt with in the same way as other documents. You can follow the procedures in the topics listed below when working with external documents, but remember to select **Knowledge Base** > **External documents** first, so that you are working from the correct location.
 
 * [View documents][2]
 * [Create documents][3]

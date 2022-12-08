@@ -50,7 +50,7 @@ You can both change the name of a stage and alter which users are to have access
 1. Select **Knowledge Base** > **FAQ** and click the ![icon][img2] **Workflow** button.
 2. Click the name of the stage. This takes you to the **Edit stage** screen.
 3. Click **Delete**. If the stage is not associated with any FAQ entries, it is deleted immediately.
-4. If it is linked to FAQ entries, you need to select which stage in the workflow these FAQ entries should be moved to. Select the stage you want in the **Move to workflow** list.
+4. If it is linked to FAQ entries, select which stage in the workflow these FAQ entries should be moved to. Select the stage you want in the **Move to workflow** list.
 5. Click **Delete**. The stage is deleted and associated FAQ entries are moved to the selected stage.
 
 ## Publish via workflow

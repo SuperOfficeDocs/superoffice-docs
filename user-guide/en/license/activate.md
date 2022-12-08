@@ -24,7 +24,7 @@ To manage licenses, you must be signed in to Settings and maintenance as an admi
 
 ## Activate
 
-If you wish to increase or reduce the number of licenses for one or more modules, you need to contact SuperOffice to update the license information. The license will normally be updated automatically without you needing to do anything.
+If you wish to increase or reduce the number of licenses for one or more modules, contact SuperOffice to update the license information. The license will normally be updated automatically without you needing to do anything.
 
 > [!NOTE]
 > If you have problems fetching new license information from the web, you can contact SuperOffice to get a license file sent to you. Click the **Load license from file** button to update the licenses.
@@ -39,7 +39,7 @@ If the total number of new licenses is less than the number of licenses in use, 
     * **Activate new licence** – new license is available, but it cannot be activated automatically. Click the link to open the **Activate new licence** dialog. The list will only show altered licenses.
 
     > [!NOTE]
-    > If you have the wrong number of licenses or licenses for the wrong module, you need to contact SuperOffice. DO NOT activate the licenses if the number is incorrect.
+    > If you have the wrong number of licenses or licenses for the wrong module, contact SuperOffice. DO NOT activate the licenses if the number is incorrect.
 
 1. Click the **Activate** button in the **Activate new licence** dialog.
 

@@ -13,7 +13,9 @@ language: en
 
 1. Click the mailing in the **Mailings** tab.
 
-2. In the **View mailing** screen, click the **Recipients** tab. The list shows the 100 first recipients, and you need to click ![icon][img1] to show the next 100.
+2. In the **View mailing** screen, click the **Recipients** tab.
+
+    The list shows the 100 first recipients. Click ![icon][img1] to show the next 100.
 
 3. [Filter the list](#filters) by using the checkboxes at the bottom of the list.
 

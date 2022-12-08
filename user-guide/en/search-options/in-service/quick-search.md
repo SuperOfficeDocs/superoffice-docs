@@ -33,7 +33,7 @@ No matter where you are in SuperOffice Service, the quick search field is always
 
 ## Search for other records
 
-To search for things other than requests, you need to start the search criteria by specifying what you are searching for. You do this using keywords:
+To search for things other than requests, start the search criteria by specifying what you are searching for using keywords:
 
 * o = company
 * c = contact

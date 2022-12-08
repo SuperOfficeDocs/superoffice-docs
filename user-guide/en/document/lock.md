@@ -57,7 +57,7 @@ By default, a document is opened in edit mode. Below we have described the diffe
 >
 > The best option may be to make a copy of the document and edit the copy.
 
-If you or someone else have checked out a document, and you need to edit the document, you can cancel the check out:
+If you or someone else have checked out a document, and you want to edit the document, you can cancel the check out:
 
 1. Right-click the document and select **Document**.
 2. In the **Document** dialog, click ![icon][img1] and select **Revert to saved version**.

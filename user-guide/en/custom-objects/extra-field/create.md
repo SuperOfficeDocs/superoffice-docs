@@ -11,7 +11,7 @@ language: en
 
 # Define extra fields
 
-Once you have created an extra table, you need to set up fields in the table, to allow you to subsequently input data (entries) into the table. You can also create extra fields in standard tables.
+After you have created an extra table, you must set up fields in the table, to allow you to subsequently input data (entries) into the table. You can also create extra fields in standard tables.
 
 > [!TIP]
 > Extra fields can for instance be used as search criteria and columns in sales in SuperOffice CRM.

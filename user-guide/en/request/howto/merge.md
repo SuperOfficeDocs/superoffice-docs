@@ -19,13 +19,19 @@ You can merge two or more requests. For example, if multiple contacts in the sam
 **Steps:**
 
 1. [Open one of the requests][1] you want to merge.
+
 2. Click ![icon][img1] and select **Merge**. A screen opens, showing the fields that must be merged. Now you need to find the request to merge with this one.
+
 3. In the search field, start typing a request name or enter a request ID. Enter **%** to display all requests.
+
 4. Select a request from the list of search results. The selected request opens in a new column in the table.
+
 5. To add more requests, repeat the previous steps.
+
 6. For each row (field) in the table, you must select which request data should be kept. Click ![icon][img2] **Choose** to select all fields in a column. The unselected data in this table will be overwritten.
     * Messages from all merged requests will be kept.
     * Contacts from all merged requests will be kept, and the main contact will be inherited from the selected request ID.
+
 7. Click **OK**. The requests are merged.
 
 The request IDs that have been overwritten will no longer be available in favourites and history lists and regular search. If you enter an overwritten request ID in the [quick search][2] field, you are redirected to the merged request.

@@ -81,7 +81,7 @@ When you click a navigator button, one or more of the buttons below are displaye
 | ![icon][img26] | **Actions/lists**: Click this button to show available actions/functions, lists and similar for the selected navigator button. |
 | ![icon][img23] | **History**: Click this button to show recently opened records, for instance request, contacts or selections. |
 | ![icon][img24] | **Favorites**: Click this button to view the records you have [set as favorites][15]. |
-| ![icon][img25] | **Search**: Click this button to show the results of the least search. The search field above the buttons is dynamic, so you only need to start typing your search phrase to initiate the search. |
+| ![icon][img25] | **Search**: Click this button to show the results of the least search. The search field above the buttons is dynamic - start typing your search phrase to initiate the search. |
 
 > [!NOTE]
 > Clicking the **Dashboard** button only opens the dashboard.

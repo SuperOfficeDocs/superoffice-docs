@@ -26,7 +26,7 @@ For each stakeholder, their role in the sale is shown. These sales roles are def
 > [!NOTE]
 > For the **Stakeholders** section tab to show in the **Sale** screen in SuperOffice CRM, **This sale type has stakeholders** must be checked in the **Edit list item** dialog for the **Sale - Sale type (for stages)** list.
 
-You also need to set the **Enable Stakeholders** preference in the **Sale** preference group.
+You must also set the **Enable Stakeholders** preference in the **Sale** preference group.
 
 ## What would you like to do now?
 

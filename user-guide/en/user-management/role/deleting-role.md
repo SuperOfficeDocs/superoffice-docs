@@ -13,9 +13,9 @@ language: en
 
 [!include[Requirement](../includes/note-anon-req.md)]
 
-When you delete a role, you need to move the users with this role to another role. You should therefore ensure that the users have the correct access in the role you move them to.
+When you delete a role, you must move the users with this role to another role. You should therefore ensure that the users have the correct access in the role you move them to.
 
-To delete a role:
+**Steps:**
 
 1. [!include[Open Roles](includes/open-roles.md)]
 

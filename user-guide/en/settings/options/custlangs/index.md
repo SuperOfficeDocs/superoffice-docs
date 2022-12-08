@@ -21,7 +21,7 @@ For example:
 * You can specify a language for a contact, so that person will automatically receive reply templates in that language.
 * Requests to user support can be categorised in several groups that can refer to defined departments and languages.
 
-On installation, 6 customer language folders (DE, DK, EN, NL, NO and SE) were placed in the folder **\\templates** on the server. You need to set up these customer languages yourself.
+On installation, 6 customer language folders (DE, DK, EN, NL, NO and SE) were placed in the folder **\\templates** on the server. You must set up these customer languages yourself.
 
 ## What would you like to find out more about?
 

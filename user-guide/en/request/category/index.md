@@ -27,8 +27,6 @@ Users can be added as members in the categories individually or via the user gro
 
 ## Where can I find the categories?
 
-To get to the list of all categories defined in the system:
-
 * **In Settings and maintenance:** Select **Requests** in the navigator and then the **Categories** tab.
 
 * **In Service:** Select ![icon][img1] **System settings** > **Categories**

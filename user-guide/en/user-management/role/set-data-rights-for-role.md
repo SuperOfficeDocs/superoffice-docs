@@ -20,7 +20,7 @@ You can set rights for data objects based on who owns the object. All users who 
 [!include[List of data objects](includes/list-of-data-objects.md)]
 </details>
 
-To set data rights for a role:
+**Steps:**
 
 1. [!include[Open Roles](includes/open-roles.md)]
 

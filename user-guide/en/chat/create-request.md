@@ -9,11 +9,9 @@ so.topic: howto
 language: en
 ---
 
-# Create request in chat
+# Create request in an active chat
 
 If you cannot solve the issue via the chat, you can create a request to be handled by someone else.
-
-To create a request in an active chat:
 
 1. Click ![icon][img1] and select **Create request**.
 2. In the **Create request** dialog, fill in the relevant fields.

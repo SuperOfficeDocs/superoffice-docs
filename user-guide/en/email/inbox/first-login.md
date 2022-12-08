@@ -11,7 +11,7 @@ language: en
 
 # The first time you log in
 
-To access email, you need to specify some details about your email account. The **Set up email account** screen appears the first time you open your inbox.
+To access email, you must first specify details about your email account. The **Set up email account** screen appears the first time you open your inbox.
 
 1. In the **Email account** field, enter the email address of the account you want to use in SuperOffice.
 

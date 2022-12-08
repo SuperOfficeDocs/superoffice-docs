@@ -21,7 +21,7 @@ You are now ready to [add email addresses to the new folder][1].
 
 ## Delete folders
 
-Before you delete an email folder, you need to remove all the addresses in it. You do this in one of the following ways:
+Before you delete an email folder, you must remove all the addresses in it. You do this in one of the following ways:
 
 * Delete the addresses. Click the name in the list, and click **Delete** in the **Email address properties** screen.
 

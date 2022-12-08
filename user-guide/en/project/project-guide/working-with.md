@@ -106,8 +106,8 @@ You record a new project and select the **Conference** project type, which is li
 
 1. All the follow-ups and documents in the **Planned** status have been completed, and you have moved the project on using the **Project guide - move the project to the next status** dialog. This dialog is displayed when you set the last follow-up to completed. The follow-ups and documents for this new status are now displayed in the **Project guide** section tab.
 
-    [!NOTE]
-    > The **Project guide - move the project to the next status** dialog only comes up if this behaviour is defined for the project type. If it is not defined, you need to [move the project to the next status](#move-to-next-status).
+    > [!NOTE]
+    > The **Project guide - move the project to the next status** dialog comes up only if this behaviour is defined for the project type. If it is not defined, [move the project to the next status](#move-to-next-status).
 
 2. At the planning meeting, you agree that your colleague should set up a list of conference delegates. You want to create a task in their diary as a reminder.
 

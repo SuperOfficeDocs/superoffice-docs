@@ -11,7 +11,7 @@ language: en
 
 # Add a document template
 
-Before you can use templates you have created, you need to link them to SuperOffice CRM. Once you have linked the templates, it is very easy to write letters, faxes and other documents you have created templates using the **Document** function in SuperOffice CRM. More information about the **Document** function is available in the user help.
+Before you can use templates you have created, you must link them to SuperOffice CRM. Once you have linked the templates, it is very easy to write letters, faxes and other documents you have created templates using the **Document** function in SuperOffice CRM. More information about the **Document** function is available in the user help.
 
 [Do you want to replace existing template][1]
 

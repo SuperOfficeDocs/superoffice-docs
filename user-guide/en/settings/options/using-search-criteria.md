@@ -92,7 +92,7 @@ In the list box, select the field you want to search for information in. The fie
     > [!NOTE]
     > This option does not apply to status monitors.
 
-    If the field you are searching in is a status field, you just need to select the required status.
+    If the field you are searching in is a status field, select the required status.
 
     A status field may be displayed with two different icons:
 

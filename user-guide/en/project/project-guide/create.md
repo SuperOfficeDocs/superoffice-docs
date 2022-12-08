@@ -45,10 +45,9 @@ A project guide must be linked to a project type. [How to create a project type]
 
 Examples of project types: "Conference", "Campaign", "Internal".
 
-> [!NOTE]
-> You need to check **This project type is linked to a guide**. You should also select at least two statuses.
-
-Go to the next procedure to create the project guide.
+1. Check **This project type is linked to a guide**.
+1. Select at least two statuses.
+1. Go to the next procedure to create the project guide.
 
 ## <a id="create-guide" />Create a project guide
 
@@ -61,14 +60,16 @@ Once you have created statuses and specified a project type for the project guid
 3. In the **Project type** list, select the project type you want to create a project guide for. The statuses selected for this project type are displayed in the list above.
 
     > [!NOTE]
-    > If the project type is not set up to have a project guide, you need to click **Click here to enable guide** at the bottom of the screen. If there are no statuses defined for the project type, you need to click **Click here to add statuses** at the bottom of the screen. You can also edit the project type by clicking the **Edit** button at the top.
+    > If the project type is not set up to have a project guide, click **Click here to enable guide** at the bottom of the screen.
+    >
+    > If there are no statuses defined for the project type, click **Click here to add statuses** at the bottom of the screen. You can also edit the project type by clicking the **Edit** button at the top.
 
 4. Select the required status in the list. The status's details are shown at the bottom of the screen.
 
 5. [Add one or more follow-ups for the selected status](#add-a-follow-up-for-a-status).
 
     > [!NOTE]
-    > You do not need to add a document for each status, but you should add at least one follow-up for each status.
+    > You do not have to add a document for each status, but you should add at least one follow-up for each status.
 
 6. [Add one or more documents for the selected status](#add-a-document-for-a-status).
 

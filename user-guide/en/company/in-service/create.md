@@ -14,9 +14,10 @@ language: en
 Contacts can be linked to companies:
 
 * The system searches for the domain name registered for the company, so that all contacts with this domain in their email address are automatically linked to the company.
-* You can specify contacts' links to companies manually when you create them. See [Create contacts][1].
 
-But you first need to register a company.
+* You can specify contacts' links to companies manually when you [create contacts][1].
+
+## How to register a company
 
 1. Select **Customers** > **New company**. This takes you to the **Company properties** screen.
 

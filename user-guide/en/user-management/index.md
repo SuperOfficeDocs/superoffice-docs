@@ -32,7 +32,7 @@ In the **Associates** tab in the **Users** screen, you can add users of the type
 For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list box in the **Users** screen. And for a company to be displayed in the **Company** list box in the **Users** screen, the company must appear on the company list in the **Our companies** tab.
 
 > [!NOTE]
-> In the **Users** screen you specify which licenses you want different users to have. If you want to add new system licenses or increase/reduce the number of licenses for one or more modules, you need to contact SuperOffice to [update the license information][6].
+> In the **Users** screen you specify which licenses you want different users to have. If you want to add new system licenses or increase/reduce the number of licenses for one or more modules, contact SuperOffice to [update the license information][6].
 
 ## Related content
 

@@ -27,7 +27,9 @@ You can easily look up information about a sender in SuperOffice CRM.
 To add the sender's email address to a new or existing contact in SuperOffice:
 
 1. Follow the look-up procedure above.
+
 2. Click **Add to SuperOffice**.
+
 3. In the **Add email address to SuperOffice** dialog, select one of the following options:
 
     * **Could it be one of these?** SuperOffice will try to match the sender with existing contacts in the database. Click one of the suggested contacts if it matches the sender.

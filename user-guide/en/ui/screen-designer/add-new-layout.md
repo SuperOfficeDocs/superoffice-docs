@@ -9,11 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Add new layout
+# Add new screen layout
 
 With custom screen layouts for each of your teams, finding customer data will be easier than ever. The most relevant data will always be available and visible. Remove, move or hide irrelevant or less important data to unclutter the company and contact cards. The result will be a cleaner and more tidy screen for your teams to work in.
-
-To create a new screen layout:
 
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
 

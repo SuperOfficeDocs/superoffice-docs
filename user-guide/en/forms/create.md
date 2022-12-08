@@ -26,8 +26,7 @@ language: en
 2. Click **All templates**.
 3. Click the ![icon][img1] menu button next to the template you want to use.
 4. Select **Copy to new form**. The template opens in the **Edit form** dialog.
-
-To activate and publish the form, see [Publish forms][2].
+5. [Activate and publish the form][2].
 
 ## <a id="multi-page" />Create multi-page forms
 

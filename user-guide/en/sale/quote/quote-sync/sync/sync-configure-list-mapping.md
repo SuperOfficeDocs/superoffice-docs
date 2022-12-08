@@ -14,7 +14,7 @@ language: en
 When synchronising data between SuperOffice and ERP systems, you must specify which SuperOffice field and which ERP field belong together.
 
 > [!NOTE]
-> When editing an ERP connection, you first need to deactivate it.
+> When editing an ERP connection, you must first deactivate it.
 
 [!include[Go to sync](../includes/goto-sync.md)]
 

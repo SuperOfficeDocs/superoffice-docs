@@ -75,7 +75,7 @@ From the **Categories** screen, it is also possible to search for requests in a 
 2. Point at the category that you want to search, to make the icons appear to the right.
 
     > [!TIP]
-    > If the category is a subcategory, you first need to click the plus sign to the left of the parent category to display the associated subcategories.
+    > If the category is a subcategory, first click the plus sign to the left of the parent category to display the associated subcategories.
 
 3. Click **Search** next to the category name. This takes you to the search screen.
 

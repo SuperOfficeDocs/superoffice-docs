@@ -35,10 +35,9 @@ A sales guide must be linked to a sale type. [How to create a sale type][3].
 
 Examples of sale types: "Sale to new customer", "Sale to existing customer", "Cross-sale to existing customer".
 
-> [!NOTE]
-> You need to check **This sale type is linked to a guide**. You should also select at least two stages.
-
-Go to the next procedure to create the sales guide.
+1. Check **This sale type is linked to a guide**.
+1. Select at least two stages.
+1. Go to the next procedure to create the sales guide.
 
 ## <a id="create-guide" />Create a sales guide
 
@@ -50,15 +49,15 @@ Once you have created stages and specified a sale type for the sales guide, you 
 
 3. In the list at the top, select the sale type you want to create a sales guide for. The stages selected for this sale type are displayed in the list underneath.
 
-    > [!NOTE]
-    > If the sale type is not set up to have a sales guide, you need to click **Click here to turn on guide** at the bottom of the screen. If there are no stages defined for the sale type, you need to click **Click here to add stages** at the bottom of the screen. You can also edit the sale type by clicking the **Edit** button at the top.
+    * If the sale type is not set up to have a sales guide, click **Click here to turn on guide** at the bottom of the screen.
+
+    * If there are no stages defined for the sale type, click **Click here to add stages** at the bottom of the screen. You can also edit the sale type by clicking the **Edit** button at the top.
 
 4. Select the required stage in the list. The stage's details are shown at the bottom of the screen.
 
 5. [Add one or more follow-ups](#add-a-follow-up-for-a-stage) for the selected stage.
 
-    > [!NOTE]
-    > You do not need to add a document for each stage, but you should add at least one follow-up for each stage.
+    You do not need to add a document for each stage, but you should add at least one follow-up for each stage.
 
 6. [Add one or more documents](#add-a-document-for-a-stage) for the selected stage.
 

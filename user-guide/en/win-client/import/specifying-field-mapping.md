@@ -13,8 +13,6 @@ so.envir: onsite
 
 # Specify field mapping
 
-To specify field mapping:
-
 1. [!include[How to open import](includes/open-import.md)]
 
 [!include[Select file](includes/step-select-file.md)]

@@ -15,7 +15,7 @@ language: en
 
 The **Debug sessions** tab contains a list of all active debug sessions in the system. Click a session in the list to open it in **Debugger**.
 
-To go to the **Debug sessions** tab:
+## Go to the Debug sessions tab
 
 * In SuperOffice Service: Select ![icon][img2] **System settings** > **System design** > **CRMScript** and go to the **Debug sessions** tab.
 * In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Debug sessions** tab.

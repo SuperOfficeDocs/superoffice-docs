@@ -25,7 +25,7 @@ language: en
 1. Click **Publish** if you want the changes to be available to SuperOffice CRM users.
 
 > [!NOTE]
-> If you are defining [page 1 fields][2], you must first publish the changes for user-defined fields. Then you need to define page 1 fields for the various user groups and save (not publish).
+> If you are defining [page 1 fields][2], you must first publish the changes for user-defined fields before you define page 1 fields for the various user groups and save (not publish).
 
 <!-- Referenced links -->
 [1]: add.md

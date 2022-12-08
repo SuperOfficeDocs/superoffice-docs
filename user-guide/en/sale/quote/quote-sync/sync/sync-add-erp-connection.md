@@ -30,9 +30,9 @@ Each Sync Connector must have an ERP connection with configuration data for link
 
 1. Type in a description of the ERP connection in the field at the bottom.
 
-1. Click **Test ERP connection** to verify that the connection is working. If you get an error message, you need to resolve the problem before continuing
+1. Click **Test ERP connection** to verify that the connection is working. If you get an error message, you must resolve the problem before continuing.
 
-1. Click **OK** when you have finished.  The ERP connection is displayed in the **ERP connections** list.
+1. Click **OK** when you have finished. The ERP connection is displayed in the **ERP connections** list.
 
     > [!NOTE]
     > The **OK** button is disabled until the ERP connection test has succeeded.

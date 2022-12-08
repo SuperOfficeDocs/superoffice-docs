@@ -11,7 +11,7 @@ language: en
 
 # Add headings
 
-Before linking a heading to an item, you need to add the headings you require:
+Before linking a heading to an item, you must add the headings you require.
 
 1. Open the **Lists** screen.
 

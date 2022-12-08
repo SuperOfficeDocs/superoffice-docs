@@ -23,7 +23,7 @@ You can include links (URLs) in an email mailing or form response and track them
 * To view the links for all mailings, click the **Tracked links** tab in the main SuperOffice Marketing screen. If you cannot find the link you want to work with, click **All links**. Click the link you want to work with.
 
     > [!NOTE]
-    > Only [registered links][2]) are displayed here. If you have added "regular" links in the mailing, you need to select the **Track all links** option in Step 1: Setup.
+    > Only [registered links][2]) are displayed here. If you have added "regular" links in the mailing, you must select the **Track all links** option in Step 1: Setup.
 
 ## Explore clicks
 

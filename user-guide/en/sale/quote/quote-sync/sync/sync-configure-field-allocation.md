@@ -14,7 +14,7 @@ language: en
 When synchronising data between SuperOffice and ERP systems, must specify which SuperOffice field and which ERP field belong together.
 
 > [!NOTE]
-> When editing an ERP connection, you first need to deactivate it.
+> When editing an ERP connection, you must first deactivate it.
 
 [!include[Go to sync](../includes/goto-sync.md)]
 
@@ -65,7 +65,7 @@ When synchronising data between SuperOffice and ERP systems, must specify which 
 
 ## Troubleshooting
 
-If you have defined incorrect settings for the field allocations, you will receive a descriptive error message. This would apply for instance to a mandatory field without a synchronisation direction. You need to correct the error before you can activate the ERP connection.
+If you have defined incorrect settings for the field allocations, you will receive a descriptive error message. This would apply for instance to a mandatory field without a synchronisation direction. You must correct the error before you can activate the ERP connection.
 
 ## How to map/allocate list items
 

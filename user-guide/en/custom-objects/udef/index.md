@@ -13,7 +13,7 @@ language: en
 
 Several sections of SuperOffice CRM, for example, the **Company** screen, contain a separate tab called **More**. Here you can enter your own fields to customize the program to your organization's requirements. These fields are defined in SuperOffice Settings and maintenance.
 
-All companies and organisations have their own requirements with regard to the information they need to register concerning their customers, sales, projects, contracts, and so on. You can enter your own fields for SuperOffice CRM in the **Fields** screen. This way, you can customise the type of information that can be registered concerning companies, contacts, projects, sales, documents and follow-ups.
+All companies and organisations have their own requirements for the information they need to register concerning their customers, sales, projects, contracts, and so on. You can enter your own fields for SuperOffice CRM in the **Fields** screen. This way, you can customise the type of information that can be registered concerning companies, contacts, projects, sales, documents and follow-ups.
 
 > [!NOTE]
 > You can specify 3 fields that can be displayed on the "first page" in their respective screens or dialogs. [How][1].

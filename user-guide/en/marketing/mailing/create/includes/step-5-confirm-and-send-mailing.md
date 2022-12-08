@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-In the final step, **Confirm**, you can view a summary of the mailing and verify that these are correct. Any error messages displayed in this screen need to be solved before the mailing can be sent.
+In the final step, **Confirm**, you can view a summary of the mailing and verify that these are correct. Any error messages displayed in this screen must be solved before the mailing can be sent.
 
 > [!NOTE]
 > The send options are disabled if there are incomplete steps or missing information in your mailing. These are indicated in red.

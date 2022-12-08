@@ -23,7 +23,7 @@ language: en
 3. Click the **Configure** button.
 
     > [!NOTE]
-    > If a service provider has already been selected, you need to click **Disconnect** before selecting a new one.
+    > If a service provider has already been selected, click **Disconnect** before selecting a new one.
 
 4. In the new browser tab, select the service provider your company uses for video meetings.
 

@@ -29,8 +29,9 @@ Click here to go to the relevant topic:
 
 ## Response
 
-* **Redirect to new web page**: Select this option to redirect the recipients to a web page when they click the link. You need to enter the URL in the **URL to new page** field.
-* **Show custom text**: Select this option if you want custom text to be displayed when the recipient clicks the link. You need to enter the text in the field below.
+* **Redirect to new web page**: Select this option to redirect the recipients to a web page when they click the link. Enter the URL in the **URL to new page** field.
+
+* **Show custom text**: Select this option if you want custom text to be displayed when the recipient clicks the link. Enter the text in the field below.
 
 ## Set field
 

@@ -11,7 +11,7 @@ In the second step, **Template**, you must decide what your mailing should look 
 2. In the list below, click a template to select it.
 
     > [!NOTE]
-    > If you are using a template from the Online template library, you need to click **Use this template** in the template preview window. You are automatically redirected to the **Content** step.
+    > If you are using a template from the Online template library, click **Use this template** in the template preview window. You are automatically redirected to the **Content** step.
 
 3. Click **Next** to go to the next step.
 

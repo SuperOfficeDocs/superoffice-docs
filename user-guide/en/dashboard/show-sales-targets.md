@@ -46,7 +46,7 @@ To add a tile with sales targets to a dashboard:
 
 9. In the **Dataset** tab, set **Sale date** to this year, quarter or month. Edit the other [criteria][2] as necessary. Remember to update the tile name to reflect any changes made here.
 
-10. In the **Layout** tab you need to edit the layout as follows:
+10. In the **Layout** tab, edit the layout as follows:
 
     * **Chart type**: You can change this to any chart type listed in step 5.
     * **Measure**: Select **Sum**.

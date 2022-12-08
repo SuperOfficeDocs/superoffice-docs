@@ -13,7 +13,7 @@ language: en
 
 ## Change the size
 
-You can change the size of the main card, the side panel and the section tabs. If, for example, you have many activities, you can expand the section tabs in the **Company**, **Contact**, **Sale** and **Project** screens, so that more activities can be displayed at a time. You do not need to have the same settings for all the screens, and SuperOffice CRM will remember the settings for a screen the next time it is displayed.
+You can change the size of the main card, the side panel and the section tabs. If, for example, you have many activities, you can expand the section tabs in the **Company**, **Contact**, **Sale** and **Project** screens, so that more activities can be displayed at a time. Different screens may have different settings, and SuperOffice CRM will remember the settings for a screen the next time it is displayed.
 
 **Steps:**
 

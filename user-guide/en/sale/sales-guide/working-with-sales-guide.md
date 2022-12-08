@@ -56,7 +56,9 @@ In SuperOffice Settings and maintenance, it is possible to specify that a follow
 In the **Sales guide** dialog you have three options:
 
 * Click **Create** to create the next follow-up in the sales guide. This takes you directly to the dialog for follow-ups.
-* Click **Cancel** if you do not want to create the follow-up at the moment. The **Sales guide** dialog closes and you will need to remember to create the follow-up later on.
+
+* Click **Cancel** if you do not want to create the follow-up at the moment. The **Sales guide** dialog closes and you should remember to create the follow-up later on.
+
 * Check **Always create follow-up? Do not show this dialog again** if, in future, you always want to create the suggested follow-up. The dialog for follow-ups will then open automatically next time.
 
 > [!TIP]
@@ -141,7 +143,9 @@ You record a new sale and select the **Sale to new customer** sale type, which i
     3. In the **Sales guide** dialog you have three options:
 
         * Click **Create** to create the **Contract meeting** appointment, which is the next follow-up in the sales guide. This takes you directly to the dialog for follow-ups.
-        * Click **Cancel** if you do not want to create the follow-up at the moment. The **Sales guide** dialog closes and you will need to remember to create the follow-up later on.
+
+        * Click **Cancel** if you do not want to create the follow-up at the moment. The **Sales guide** dialog closes and you should remember to create the follow-up later on.
+
         * Check **Always create follow-up? Do not show this dialog again** if, in future, you always want to create the suggested follow-up. The dialog for follow-ups will then open automatically next time.
 
     > [!NOTE]

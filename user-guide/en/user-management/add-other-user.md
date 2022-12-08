@@ -4,7 +4,7 @@ title: Add other users
 description: Add anonymous users or system users
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords:  user
+keywords: user
 so.topic: howto
 language: en
 so.envir: onsite
@@ -13,8 +13,6 @@ so.envir: onsite
 # Add anonymous user or system user
 
 [!include[Requirement](../includes/note-users-that-req-es.md)]
-
-To add anonymous users or system users:
 
 1. [!include[Click Users](includes/goto-users.md)]
 

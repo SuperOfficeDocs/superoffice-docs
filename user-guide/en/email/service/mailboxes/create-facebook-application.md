@@ -14,13 +14,13 @@ so.envir: onsite
 
 If you want to interact with your customers via Facebook, you will want to create a link between SuperOffice Service and a user wall or page on Facebook. Messages and comments posted to the wall will then be imported into SuperOffice Service as requests (in the same way as  is imported). When the request handler responds to one of these messages, the reply is posted to Facebook.
 
+First, you must set up an application on Facebook in cooperation with the user or owner of the page you want to receive messages from. Next, set up a Facebook account in SuperOffice Service.
+
 ## Step 1: Set up an application on Facebook
 
 > [!NOTE]
 > This assumes that you have developer access to Facebook. To get developer access:
 > Log in to Facebook; Go to [https://developers.facebook.com][1]; Click **Register** and follow the instructions.
-
-Firstly, you need to set up an application on Facebook in cooperation with the user or owner of the page you want to receive messages from.
 
 1. Open a browser and log in to Facebook.
 2. Go to <https://developers.facebook.com>.
@@ -28,8 +28,6 @@ Firstly, you need to set up an application on Facebook in cooperation with the u
 4. When you have created the application in Facebook, go to the next step.
 
 ## Step 2: Set up a Facebook account in SuperOffice Service
-
-Now you need to set up a Facebook account in SuperOffice Service.
 
 [!include[Go to email](../includes/goto-email.md)]
 

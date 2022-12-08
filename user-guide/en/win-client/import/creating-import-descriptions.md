@@ -16,8 +16,6 @@ so.envir: onsite
 > [!NOTE]
 > If you have already uploaded the import file and configured all the fields and settings, you should click **Save**. Clicking **New** will REMOVE all settings you have made for the import file.
 
-To create an import description:
-
 1. [!include[How to open import](includes/open-import.md)]
 
 2. Click the **New** button at the top right of the screen. The **Import** screen is cleared.
