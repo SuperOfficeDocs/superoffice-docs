@@ -46,16 +46,4 @@ items:
     href: project-guide/working-with.md
   - name: View follow-ups and documents
     href: project-guide/view-followups-and-documents.md
-- name: For administrators
-  items:
-  - name: Project Status
-    href: screen/project-status-admin.md
-    items:
-    - name: Add a project status
-      href: ../settings/lists/project-status
-  - name: Project Type
-    href: screen/project-type-admin.md
-    items:
-    - name: Add a project type
-      href: ../settings/lists/project-type.md
     

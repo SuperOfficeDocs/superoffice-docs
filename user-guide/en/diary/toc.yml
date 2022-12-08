@@ -1,5 +1,5 @@
 items:
-- name: Diary
+- name: Overview
   href: index.md
 - name: Calendar views
   items:
@@ -32,52 +32,61 @@ items:
   - name: Open a follow-up
     href: open-follow-up.md
 
-- name: Activities
+- name: Work with follow-ups
   href: activity.md
-- name: Appointment
-  href: appointment.md
   items:
-  - name: Create an appointment
-    href: create-appointment.md
-- name: Tasks
-  href: task.md
-  items:
-  - name: Create a task
-    href: create-task.md
-- name: Phone call
-  href: phone-call/index.md
-  items:
-  - name: Enter a phone call
-    href: phone-call/add.md
-  - name: Dial a contact
-    href: phone-call/dial.md
-  - name: Phone preferences
-    href: phone-call/preferences.md
-
-- name: Working with follow-ups
-  items:
+  - name: Appointment
+    href: appointment.md
+    items:
+    - name: Create an appointment
+      href: create-appointment.md
+  - name: Phone call
+    href: phone-call/index.md
+    items:
+    - name: Enter a phone call
+      href: phone-call/add.md
+    - name: Dial a contact
+      href: phone-call/dial.md
+    - name: Phone preferences
+      href: phone-call/preferences.md
+  - name: Video meetings
+    href: video-meetings.md
+  - name: Tasks
+    href: task.md
+    items:
+    - name: Create a task
+      href: create-task.md
   - name: Add a follow-up (appointment, task, or phone call)
     href: create-follow-up.md
   - name: Copy a follow-up
     href: copy-follow-up.md
   - name: Assign a follow-up to someone else
     href: follow-up-assign.md
+  - name: Recurrence
+    href: recurrence/index.md
+    items:
+    - name: Creating recurring follow-up
+      href: recurrence/create.md
+    - name: Editing recurring follow-up
+      href: recurrence/edit.md
+    - name: Stopping recurring follow-up
+      href: recurrence/stop.md
+  - name: Sett alarm for follow-up
+    href: set-alarm.md
   - name: Edit a follow-up
     href: edit-follow-up.md
   - name: Change Completed status
     href: change-completed-status.md
   - name: Change the end time
     href: change-end-time.md
-  - name: Sett alarm for follow-up
-    href: set-alarm.md
   - name: Move a follow-up
     href: move-follow-up.md
   - name: Send a follow-up as an email
     href: send-as-email.md
-  - name: Print follow-ups and Diary screen
-    href: print.md
   - name: Delete follow-up
     href: delete-follow-up.md
+  - name: Print follow-ups and Diary screen
+    href: print.md
 
 - name: Invitations
   href: invitation/index.md
@@ -92,16 +101,3 @@ items:
     href: invitation/update.md
   - name: Handle response to invitations
     href: invitation/response.md
-
-- name: Recurrence
-  href: recurrence/index.md
-  items:
-  - name: Creating recurring follow-up
-    href: recurrence/create.md
-  - name: Editing recurring follow-up
-    href: recurrence/edit.md
-  - name: Stopping recurring follow-up
-    href: recurrence/stop.md
-
-- name: Video meetings
-  href: video-meetings.md

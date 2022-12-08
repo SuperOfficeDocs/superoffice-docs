@@ -1,13 +1,29 @@
 items:
 - name: Overview
   href: index.md
+- name: Search in Service
+  href: in-service/index.md
+  items:
+  - name: Customize presentation
+    href: in-service/customize-presentation.md
+  - name: Use QuickSearch
+    href: in-service/quick-search.md
+  - name: Search for contents in the knowledge base
+    href: in-service/search-kb.md
+  - name: Search in the Navigator
+    href: in-service/in-navigator.md
 - name: Person
   href: customers/person/toc.yml
 - name: Company
   href: customers/company/toc.yml
-- name: Edit contact
-  href: edit.md
-- name: Merge contacts
-  href: merge-contacts.md
-- name: Delete contact
-  href: delete.md
+- name: Invoice
+  href: invoice/index.md
+  items:
+  - name: View invoice data for company
+    href: invoice/for-company.md
+  - name: View invoice data for contact
+    href: invoice/for-contact.md
+  - name: Create invoice types
+    href: invoice/create-type.md
+  - name: Delete invoice types
+    href: invoice/delete-type.md

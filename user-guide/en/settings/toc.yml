@@ -27,8 +27,37 @@ items:
   href: preferences/toc.yml
 - name: Options
   href: options/toc.yml
-- name: System settings in Service
-  href: in-service/toc.yml
+- name: Requests
+  items:
+  - name: System settings in Service
+    href: in-service/toc.yml
+  - name: Categories
+    href: ../request/category/index.md
+    items:
+    - name: Create category
+      href: ../request/category/create.md
+    - name: Delete category
+      href: ../request/category/delete.md
+  - name: Tags
+    href: ../request/tags.md
+  - name: Priorities
+    href: ../request/priority/index.md
+    items:
+    - name: Create priority
+      href: ../request/priority/create.md
+    - name: Delete priority
+      href: ../request/priority/delete.md
+    - name: Create escalation levels
+      href: ../request/priority/escalation-levels.md
+  - name: Request status
+    href: ../request/status/index.md
+    items:
+    - name: Create request status
+      href: ../request/status/create.md
+    - name: Delete request status
+      href: ../request/status/delete.md
+  - name: System templates
+    href: ../request/screen/system-templates.md
 - name: System events
   href: system-events.md
   items:

@@ -17,12 +17,12 @@ items:
     href: diary/toc.yml
   - name: Document
     href: document/toc.yml
-  - name: Request
-    href: request/toc.yml
   - name: Sale
     href: sale/toc.yml
   - name: Project
     href: project/toc.yml
+  - name: Requests
+    href: request/toc.yml
   - name: Selection
     href: search-options/selections/toc.yml
   - name: Email
@@ -36,13 +36,24 @@ items:
   - name: Forms
     href: forms/toc.yml
   - name: Knowledge Base
+    href: request/screen/knowledge-base.md
     items:
     - name: FAQ
       href: faq/toc.yml
     - name: Reply template
       href: request/reply-templates/toc.yml
+    - name: Reply templates
+      href: request/reply-templates/toc.yml
     - name: Work with email addresses
-      href: mailboxes/index.md
+      href: request/mailboxes/index.md
+      items:
+      - name: Create email addresses
+        href: request/mailboxes/add-email-address.md
+      - name: Administrate email address folders
+        href: request/mailboxes/manage-folders.md
+    - name: External document
+      href: request/external-document.md
+
   - name: Customisation
     topicHref: custom-objects/index.yml
     items:
