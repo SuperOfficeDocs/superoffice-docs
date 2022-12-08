@@ -14,7 +14,7 @@ items:
   href: customers/person/toc.yml
 - name: Company
   href: customers/company/toc.yml
-- name: Selections
+- name: Selection
   href: ../search-options/selections/in-service/index.md
   items:
   - name: Create a selection based on search criteria
@@ -39,6 +39,24 @@ items:
     href: ../search-options/selections/in-service/delete.md
   - name: Administrate folders of selections
     href: ../search-options/selections/in-service/manage-folders.md
+- name: User interface
+  href: ../ui/in-service/index.md
+  items:
+  - name: ScreenChoosers
+    href: ../ui/in-service/screen-chooser.md
+  - name: Screen definition
+    href: ../ui/in-service/screen-definition.md
+  - name: Screen properties
+    href: ../ui/in-service/screen-properties.md
+  - name: Profiles
+    href: ../ui/in-service/profiles/index.md
+    items:
+    - name: Personal profiles
+      href: ../ui/in-service/profiles/personal.md
+    - name: Common profiles
+      href: ../ui/in-service/profiles/common.md
+    - name: Global profiles
+      href: ../ui/in-service/profiles/global.md
 - name: Invoice
   href: ../request/invoice/index.md
   items:

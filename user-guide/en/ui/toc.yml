@@ -14,21 +14,3 @@ items:
     href: extra-menus/navigator.md
   - name: Menu properties
     href: extra-menus/properties.md
-- name: In Service
-  href: in-service/index.md
-  items:
-  - name: ScreenChoosers
-    href: in-service/screen-chooser.md
-  - name: Screen definition
-    href: in-service/screen-definition.md
-  - name: Screen properties
-    href: in-service/screen-properties.md
-  - name: Profiles
-    href: in-service/profiles/index.md
-    items:
-    - name: Personal profiles
-      href: in-service/profiles/personal.md
-    - name: Common profiles
-      href: in-service/profiles/common.md
-    - name: Global profiles
-      href: in-service/profiles/global.md

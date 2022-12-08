@@ -49,5 +49,5 @@ The companies that were overwritten will no longer be available in favourites an
 [1]: ../person/merge-contacts.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/btn-selectall.png
+[img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/btn-selectall.png

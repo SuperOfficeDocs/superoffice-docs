@@ -40,19 +40,21 @@ items:
         href: import/creating-import-descriptions.md
       - name: Editing import descriptions
         href: import/editing-import-descriptions.md
+  - name: Export
+    href: export.md
 - name: Updating the database
   href: update-database.md
-- name: Export
-  href: export.md
-- name: Freetext search and Travel
-  href: freetext-search-and-travel.md
-- name: Log users off
-  href: logging-users-off.md
-- name: Create shortcut
-  href: creating-shortcuts-to-entries-in-crm.md
-- name: Manage external users
-  href: managing-external-users.md
-- name: Examples of parameter use
-  href: parameter-examples.md
 - name: Document templates with multiple languages
   href: using-document-templates-for-multiple-languages.md
+- name: Windows client 8.5
+  items:
+  - name: Freetext search and Travel
+    href: freetext-search-and-travel.md
+  - name: Log users off
+    href: logging-users-off.md
+  - name: Create shortcut
+    href: creating-shortcuts-to-entries-in-crm.md
+  - name: Manage external users
+    href: managing-external-users.md
+  - name: Examples of parameter use
+    href: parameter-examples.md

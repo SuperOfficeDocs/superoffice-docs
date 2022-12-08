@@ -65,6 +65,6 @@ Normally, contacts are registered by the system when they send in mails, but the
 [2]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../../common/icons/delete-red.png
-[img3]: ../../../../common/icons/plus-black.png
+[img1]: ../../../../media/icons/btn-add.png
+[img2]: ../../../../../common/icons/delete-red.png
+[img3]: ../../../../../common/icons/plus-black.png

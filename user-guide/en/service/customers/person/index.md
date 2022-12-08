@@ -50,13 +50,13 @@ Click the ![icon][img1] **Actions** button to access the following options:
 <!-- Referenced links -->
 [2]: create.md
 [3]: edit.md
-[4]: ../../request/howto/create.md
-[6]: ../../customer-center/send-credentials.md
-[7]: ../../request/invoice/for-contact.md
+[4]: ../../../request/howto/create.md
+[6]: ../../../customer-center/send-credentials.md
+[7]: ../../../request/invoice/for-contact.md
 [8]: delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/favourite-no.png
-[img3]: ../../../../common/icons/nav-fav.png
-[img4]: ../../../../common/icons/favourite-yes.png
+[img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../../common/icons/favourite-no.png
+[img3]: ../../../../../common/icons/nav-fav.png
+[img4]: ../../../../../common/icons/favourite-yes.png

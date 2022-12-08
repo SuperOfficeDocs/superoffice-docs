@@ -42,6 +42,8 @@ items:
       href: add-template.md
     - name: Replace existing template
       href: replace-existing-template.md
+    - name: Document templates with multiple languages
+      href: ../../win-client/using-document-templates-for-multiple-languages.md
   - name: Email Template
     href: email-template.md
     items:
@@ -110,3 +112,4 @@ items:
     href: editing-lists-name-and-description.md
   - name: Deleting user-defined lists
     href: deleting-user-defined-lists.md
+    

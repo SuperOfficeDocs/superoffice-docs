@@ -43,8 +43,8 @@ The contacts that were overwritten will no longer be available in favourites and
 * [Merge companies][1]
 
 <!-- Referenced links -->
-[1]: ../../company/in-service/merge-companies.md
+[1]: ../company/merge-companies.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/btn-selectall.png
+[img1]: ../../../../media/icons/btn-menu.png
+[img2]: ../../../../media/icons/btn-selectall.png

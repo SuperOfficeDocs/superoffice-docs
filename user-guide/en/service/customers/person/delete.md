@@ -28,4 +28,4 @@ If you delete a contact, it is not completely removed from the system. It is jus
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png

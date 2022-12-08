@@ -66,16 +66,16 @@ items:
       - name: Add consent purpose
         href: gdpr/add-consent-purpose.md
       - name: Add legal base
-        href: ../settings/lists/privacy-legal-base-add.md
+        href: settings/lists/privacy-legal-base-add.md
       - name: Add privacy source
-        href: ../settings/lists/privacy-source-add.md
+        href: settings/lists/privacy-source-add.md
     - name: Chat
-      href: admin/index.md
+      href: chat/admin/index.md
       items:
       - name: Create a chat channel
-        href: admin/channel-create.md
+        href: chat/admin/channel-create.md
       - name: Add JavaScript for your website
-        href: admin/add-javascript.md
+        href: chat/admin/add-javascript.md
     - name: Custom objects
       href: custom-objects/toc.yml
     - name: CRMScript
@@ -99,7 +99,7 @@ items:
       href: import/toc.yml
     - name: AI
       href: ai/toc.yml
-  - name: Windows client
+  - name: Windows client settings
     href: win-client/toc.yml
   - name: Service client
     href: service/toc.yml

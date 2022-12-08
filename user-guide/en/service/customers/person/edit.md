@@ -20,4 +20,4 @@ language: en
 [2]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/btn-menu.png
