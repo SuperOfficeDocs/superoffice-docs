@@ -27,12 +27,12 @@ landingContent:
           url: ../settings/preferences/index.md
         - text: Options
           url: ../settings/options/index.md
-        - text: Personal settings
-          url: ../settings/personal-settings/index.md
       - linkListType: how-to-guide
         links:
         - text: System settings in Service
           url: ../settings/in-service/index.md
+        - text: Personal settings in Service
+          url: ../settings/in-service/personal-settings/index.md
 
   # Card
   - title: Custom objects

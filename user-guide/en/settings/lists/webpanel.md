@@ -29,7 +29,7 @@ After adding items, you can specify details for each individual item. You can sp
 <!-- Referenced links -->
 [1]: organize/headings.md
 [2]: organize/user-group-filtering.md
-[3]: adding-items-to-web-panel-list.md
+[3]: adding-items-to-webpanel-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-up.png
