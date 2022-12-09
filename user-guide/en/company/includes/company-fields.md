@@ -7,7 +7,7 @@
 
 3. In the **Zip code** field, enter the company’s postal code. If you enter a postal code that is defined in the SuperOffice database, the city name is filled in automatically if it is empty. You can also type in the city name in the **City** field and a postcode is proposed in the postcode field.
 
-4. The **Phone** field brings up a table with **Telephone** and **Description** columns. Enter a phone number and a brief description of what sort of number it is, for example, *Switchboard*. You can enter several phone numbers. Click outside the table when you have finished, or press **TAB** until the table closes.
+4. The **Phone** field brings up a table with **Telephone** and **Description** columns. Enter a phone number and a brief description of what sort of number it is, for example, *Switchboard*. You can enter several phone numbers. Click outside the table when you are done, or press **TAB** until the table closes.
 
 5. In the **Fax** field, enter a fax number in the same way as for **Telephone**.
 

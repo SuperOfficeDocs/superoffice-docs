@@ -46,7 +46,7 @@ Create a stylish mailing using images. You can add images from the SuperOffice d
 ## Using an image in the online image library (royalty-free)
 
 > [!NOTE]
-> If the **Images** (![icon][img2]) section is not visible, this preference may have been disabled due to organisational privacy rules.
+> If the **Images** (![icon][img2]) section is not visible, this preference may have been disabled due to organizational privacy rules.
 
 Choose among millions of images from the royalty-free online image library.
 

@@ -42,7 +42,7 @@ You move between the main sections of SuperOffice CRM and Service using the Navi
 | ![icon][img33] | **Requests**: Where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. | [Requests][34] |
 | ![icon][img34] | **Customers**: Here you can search for and create companies and contacts. | [Customers][31] |
 | ![icon][img35] | **Selections**: You use selections to save a set of records, such as a set of requests or contacts that you want to work with later on and elsewhere in the system. | [Selections][32] |
-| ![icon][img36] | **Knowledge Base**: The knowledge base gives request handlers access to saved data in a single location, which makes it easier to acquire and organise information for the customer. Among other things, it contains FAQs and reply templates. [Knowledge Base][35] |
+| ![icon][img36] | **Knowledge Base**: The knowledge base gives request handlers access to saved data in a single location, which makes it easier to acquire and organize information for the customer. Among other things, it contains FAQs and reply templates. [Knowledge Base][35] |
 | ![icon][img37] | **Statistics**: Here you can run standard reports and create new reports. | [Statistics][33] |
 | ![icon][img31] | **Marketing**: From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Mailing][11] |
 | ![icon][img39] | **Chat**: Opens the **Chat** screen, where you can respond to inquiries sent via the chat function on you company's web page. | [Chat][9] |

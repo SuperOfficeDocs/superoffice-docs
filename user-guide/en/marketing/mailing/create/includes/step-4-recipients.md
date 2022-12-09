@@ -93,11 +93,11 @@ What's available depends on if you're creating a document, an email, or an SMS.
 * **Prefer company**: Select this option to send the mailing only to the companies in the recipient list (and not the related contacts). Each company will only receive one mailing. Contacts that do not belong to a company, will still receive the mailing.
 
     > [!NOTE]
-    > The **Prefer company** option is only available if you have selected **Include companies** above.
+    > The **Prefer company** option is only available if you selected **Include companies** above.
 
 ## Preview the mailing
 
-When you have added recipients to the **Recipients** list, you can preview the mailing as it will look for one of the recipients. Preview is not available for document and SMS mailings.
+After adding recipients to the **Recipients** list, you can preview the mailing as it will look for one of the recipients. Preview is not available for document and SMS mailings.
 
 > [!NOTE]
 > The mailing will **not** be sent to the recipient when previewing.
@@ -112,7 +112,7 @@ When you have added recipients to the **Recipients** list, you can preview the m
 
 ## Review and update the Recipients list
 
-When you add selections, projects, contacts and import lists, the **Recipients** list is automatically updated. If you have checked the option **Update recipient list when sending**, the projects and selections are checked before sending the mailing, if contacts were added, removed or edited.
+When you add selections, projects, contacts and import lists, the **Recipients** list is automatically updated. If you selected **Update recipient list when sending**, the projects and selections are checked before sending the mailing, if contacts were added, removed or edited.
 
 In addition, you can click the **Update list** button below the **Recipients** list to update the list manually. You should do this if it's been a while since you added the recipients. Some of the contacts on the list may have changed their consent in the meantime.
 

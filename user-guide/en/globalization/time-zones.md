@@ -18,7 +18,7 @@ SuperOffice CRM supports follow-ups in different time zones. Time zones are enab
 
 ## How do time zones work in SuperOffice CRM?
 
-Time zone functionality can be useful if your organisation has offices in several countries with different time zones and you need to plan meetings or telephone conferences with people in a country with a different time zone from yours. The appointment is then created in the time zone for the country you have selected.
+Time zone functionality can be useful if your organization has offices in several countries with different time zones and you need to plan meetings or telephone conferences with people in a country with a different time zone from yours. The appointment is then created in the time zone for the selected country.
 
 For example, if your head office is in Norway and you want to hold a meeting with people in your Finnish and US subsidiaries, you can set up a meeting using Norwegian time and then check what time that is in Finland and the USA. In this way, you can avoid setting up an appointment that would take place, for example, late at night in the USA. For the people you invite to the appointment, the appointment is displayed using the time zone they have specified in their own SuperOffice CRM, even though you will have set up the appointment using Norwegian time.
 

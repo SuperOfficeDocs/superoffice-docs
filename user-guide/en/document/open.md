@@ -22,7 +22,7 @@ You can open and view exiting documents from the following locations:
 You can open a document in [edit mode or in read mode][1]. When you open the document in edit mode, only you can edit the document. Other users can open the document in read mode.
 
 > [!NOTE]
-> If your organisation uses a document library like SharePoint, multiple people can edit a document simultaneously.
+> If your organization uses a document library like SharePoint, multiple people can edit a document simultaneously.
 
 The document is opened in the program it was created in.
 

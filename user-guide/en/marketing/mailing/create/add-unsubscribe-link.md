@@ -11,7 +11,7 @@ language: en
 
 # Add subscription links
 
-When you send a newsletter, for example, you must give the recipients the option of unsubscribing or changing their subscription preferences. You can do this by inserting a link for the recipients to click. Such links are normally placed at the bottom of a message (in the footer).
+When you send a newsletter, for example, you must give the recipients the option of unsubscribing or changing their subscription preferences. T do this, insert a link for the recipients to click. Such links are normally placed at the bottom of a message (in the footer).
 
 ## In the drag and drop editor
 

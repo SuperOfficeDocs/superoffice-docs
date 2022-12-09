@@ -24,7 +24,7 @@ language: en
 
 3. In the **Direction** field, specify if the follow-up is outgoing or incoming by clicking the arrow ( ![icon][img1] ) and choosing from the list box.
 
-4. In the **Colour** field, choose which background colour this follow-up type should have in the **Diary** screen in SuperOffice CRM. This setting will then apply across the organisation.
+4. In the **Color** field, choose which background color this follow-up type should have in the **Diary** screen in SuperOffice CRM. This setting will then apply across the organization.
 
 5. In the **Intention** field, click the arrow (![icon][img1] ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [SAINT][2]).
 

@@ -29,7 +29,7 @@ In the **Interface** tab in the **Edit users** screen, you can edit the followin
 
 * **Use simplified text editor**: Checking here prevents the display of formatting options when writing a message, for instance.
 
-* **Single linebreaks in text editor**: If checked, the mouse pointer is moved to the next line when you press **ENTER** in the text editor. The default setting is for a double linebreak to be inserted.
+* **Single line breaks in text editor**: If checked, the mouse pointer is moved to the next line when you press **ENTER** in the text editor. The default setting is for a double line break to be inserted.
 
 * **Retain formatting when pasting text**: Checking here means that the original formatting of text you paste into messages is retained.
 

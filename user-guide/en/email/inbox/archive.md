@@ -13,7 +13,7 @@ language: en
 
 ## <a id="incoming" />Archive incoming email
 
-You can archive an incoming email (including any attachments) as a document in SuperOffice CRM. This is a convenient way of storing information you have received via email together with other company/contact information in SuperOffice CRM.
+You can archive an incoming email (including any attachments) as a document in SuperOffice CRM. This is a convenient way of storing information you receive via email together with other company/contact information in SuperOffice CRM.
 
 1. Go to the inbox or the relevant folder.
 2. Select the required message.

@@ -27,8 +27,10 @@ Project membership and activities will be moved to the target contact, and the s
     > To switch the **From** and **To** contacts, click the ![icon][img2] button.
 
 3. Select one of the following under **Action on \[contact/company\] after merge**:
-    * **Delete...**: If you select this option, the source contact is deleted after the merge. This may be appropriate if you have registered the same contact twice under the same company.
-    * **Mark as former employee**: If you select this option, the source contact is marked as a former employee after the merge. This may be appropriate if a person has changed jobs, but you still want them registered under the old company.
+    * **Delete...**: If you select this option, the source contact is deleted after the merge.
+        For example, if you registered the same contact twice under the same company.
+    * **Mark as former employee**: If you select this option, the source contact is marked as a former employee after the merge.
+        For example, if a person has changed jobs, but you still want them registered under the old company.
 
 [!include[Select action](../includes/select-action-on-activity.md)]
 

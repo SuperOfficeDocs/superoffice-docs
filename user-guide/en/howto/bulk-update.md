@@ -25,7 +25,8 @@ The **Bulk update** task allows you to change values across multiple records of 
 
 3. Select a field to update in the **Field** column. You can also type the name in the field (see [FastSearcher][1]). As you type in each letter, the list underneath displays all matches. The list only contains fields that are relevant to the selected records.
 
-4. Select an action in the **Action** column. The available actions will depend on the type of field you have selected in the previous step. Here are some examples of available actions:
+4. Select an action in the **Action** column. The available actions depends on the type of field you selected in the previous step. Examples:
+
     * **Check**: Check or uncheck a checkbox.
     * **Toggle**: Uncheck a checked checkbox and vice versa.
     * **Search and replace**: [Find a text and replace it](#search-and-replace).
@@ -83,7 +84,7 @@ Post codes and post cities in Norway have changed. Use **Bulk update** to update
 
 ## Update contact
 
-You have discovered that the contact field **Position** is rarely used. To at least start the task of filling in this field for all contacts, you want to find everyone that have director in the title. Create a selection of all contacts that contain the word "director" in the **Title** field. Use **Bulk update** to set the field **Position** to **Management**.
+You discover that the contact field **Position** is rarely used. To at least start the task of filling in this field for all contacts, you want to find everyone that have director in the title. Create a selection of all contacts that contain the word "director" in the **Title** field. Use **Bulk update** to set the field **Position** to **Management**.
 
 ## Update project
 

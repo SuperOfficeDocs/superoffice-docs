@@ -20,7 +20,7 @@ How request handling progresses will vary from request to request.
 * [Forward messages or multiple requests to external parties][3]
 * [Reply to customer][4]
 * [Split requests][5]
-* [Add requests to the favourites list][6]
+* [Add requests to the favorites list][6]
 * [Close requests][7]
 * [Add message][8]
 * [Edit message][9]

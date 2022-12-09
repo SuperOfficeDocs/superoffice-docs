@@ -26,7 +26,7 @@ You can set the order of the ERP fields displayed in the ERP tab in SuperOffice 
 1. Click **Done**.
 
 > [!TIP]
-> Double-click a field to edit the default value for that field. See [Configure default values for synchronisation][2].
+> Double-click a field to edit the default value for that field. See [Configure default values for synchronization][2].
 
 <!-- Referenced links -->
 [1]: sync-configure-field-allocation.md

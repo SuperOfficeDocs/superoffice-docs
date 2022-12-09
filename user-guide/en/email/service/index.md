@@ -1,7 +1,7 @@
 ---
-uid: help-en-admin-listfilters
-title: admin listFilters
-description: admin listFilters
+uid: help-en-email-service
+title: Service emails
+description: Service emails
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

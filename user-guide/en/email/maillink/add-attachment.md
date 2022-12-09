@@ -25,11 +25,11 @@ When creating an email [from Microsoft Outlook][1] or [from Lotus Notes][2] you 
 
 4. From the **Date range** dropdown, select the period when the document(s) you are looking for was/were created.
 
-5. In the list on the left-hand side, all the documents that meet the criteria you have entered, are shown. Select a document and click the arrow button between the lists ( ![icon][img2] ) to move it to the list on the right-hand side of the dialog.
+5. In the list on the left-hand side, all the documents that meet the criteria, are shown. Select a document and click the arrow button between the lists ( ![icon][img2] ) to move it to the list on the right-hand side of the dialog.
 
 6. Repeat step 5 if you would like to include more documents.
 
-7. When you have finished selecting documents, click **OK** to attach them to your email.
+7. After selecting documents, click **OK** to attach them to your email.
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md

@@ -11,7 +11,7 @@ language: en
 
 # Send a quote
 
-Once you have added products to the quote and created a quote document, you can send the quote to the customer.
+After adding products to the quote and created a quote document, you can send the quote to the customer.
 
 1. Open the quote in question.
 2. Click **Send**. The **Publish/send a quote** dialog appears.
@@ -27,7 +27,7 @@ Once you have added products to the quote and created a quote document, you can 
 
 5. Click in the **Language** field to choose which language to send the quote in.
 
-6. If your quote contains alternatives, you can select **Use favourite alternative only** to include only this alternative. Otherwise all alternatives are included in the quote.
+6. If your quote contains alternatives, you can select **Use favorite alternative only** to include only this alternative. Otherwise all alternatives are included in the quote.
 
 7. In the **Publish** field, choose one of the following:
     * **Send as email and archive as PDF**. You must choose an email template in the list.
@@ -37,7 +37,9 @@ Once you have added products to the quote and created a quote document, you can 
 
 9. Click **Preview** to view a PDF version of the quote before you send it.
 
-10. Click **OK** when you have finished. If you opted to send the quote via email, the **New email** dialog appears. Here you can edit the text and send the quote to the customer. If the archive option is on, the **Document** dialog opens.
+10. Click **OK**.
+
+    If you opted to send the quote via email, the **New email** dialog appears. Here you can edit the text and send the quote to the customer. If the archive option is on, the **Document** dialog opens.
 
 The quote is marked as **Sent** and is archived as a PDF document in the **Activities** section tab.
 

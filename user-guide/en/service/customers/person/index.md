@@ -27,7 +27,7 @@ Do one of the following:
 
 ## Contact header
 
-The header of the **Contact** screen contains basic information about the contact: contact name, company and priority. In addition, you can click ![icon][img2] to set the contact as a favourite ![icon][img4]. The contact will then be accessible via the favourites list ![icon][img3] under **Customers** in the Navigator.
+The header of the **Contact** screen contains basic information about the contact: contact name, company and priority. In addition, you can click ![icon][img2] to set the contact as a favorite ![icon][img4]. The contact will then be accessible via the favorites list ![icon][img3] under **Customers** in the Navigator.
 
 ## Task buttons for contacts
 

@@ -41,7 +41,7 @@ language: en
 
 1. The **Result** field is automatically updated according to the information in the **Relation** field. Example: If you selected "owns" as a relationship, the result will show who owns whom, and who is owned by whom.
 
-1. When you have finished entering information, click the **Save** button to close the dialog and save the information you entered.
+1. When you are done, click **Save** to close the dialog and save the information you entered.
 
 <!-- Referenced links -->
 

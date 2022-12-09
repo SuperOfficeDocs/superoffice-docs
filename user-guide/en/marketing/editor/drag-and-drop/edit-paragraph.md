@@ -35,14 +35,14 @@ language: en
 
 6. Edit the formatting of the text using the fields in the side-panel.
 
-7. Click **Apply** when you have finished.
+7. Click **Apply**d.
 
 ## Edit other content types such as images or social media buttons
 
 1. Go to the **Content** step in the mailing, or open a template for editing.
 2. In the message, click the content you wish to edit. The side-panel displays all editing options for the selected content.
 3. Edit the options in the side-panel.
-4. Click **Apply** when you have finished.
+4. Click **Apply**.
 
 ## Edit rows and columns
 
@@ -54,12 +54,12 @@ You can edit the following sections:
 
 * **Column properties**: Here you can edit the properties for each column in the row.
 
-* **Row properties**: Here you can edit the properties of the row, such as background colour and [background image][4].
+* **Row properties**: Here you can edit the properties of the row, such as background color and [background image][4].
 
 * **Responsive design**: Use this option to hide specific rows in the desktop or mobile version of the message.
 
 > [!TIP]
-> To remove a colour (background colour or border colour), click the X in the corner of the colour field.
+> To remove a color (background color or border color), click the X in the corner of the color field.
 
 Click **Next** if you are done editing.
 

@@ -11,7 +11,7 @@ language: en
 
 # Edit search criteria in reports
 
-You can edit search criteria in favourite reports. Standard reports cannot actually be edited, but you can customise the search criteria in them and save them as your own [favourite reports][1]).
+You can edit search criteria in favorite reports. Standard reports cannot actually be edited, but you can customize the search criteria in them and save them as your own [favourite reports][1]).
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 
@@ -29,16 +29,16 @@ You can edit search criteria in favourite reports. Standard reports cannot actua
 6. [Edit the required information][2].
 
     > [!NOTE]
-    > The criteria you can choose from vary according to the tab and report you have selected.
+    > The criteria you can choose from vary according to the tab and report you selected.
 
-7. Click **OK** at the bottom of the **Add/edit search criteria** dialog when you have finished.
+7. Click **OK** at the bottom of the **Add/edit search criteria** dialog when you are done.
 
 ## Example
 
 We are now going to see how you adjust the criteria in a sales report:
 
-1. Click the **Sale** tab. In the report list, a list of standard reports for the tab you have chosen is displayed.
-2. Select the **Sale report – Actual sales** standard report. The text field displays a description of the report, and the criteria list below that shows the criteria for the standard report you have selected.
+1. Click the **Sale** tab. In the report list, a list of standard reports for the tab you chose is displayed.
+2. Select the **Sale report – Actual sales** standard report. The text field displays a description of the report, and the criteria list below that shows the criteria for the standard report you selected.
 
 Now we are going to amend slightly the standard report criteria, so that you can see how to change them to match your needs. We are going to change the standard report so that it shows all actual sales from the previous month which do *not* have the status **Open**.
 

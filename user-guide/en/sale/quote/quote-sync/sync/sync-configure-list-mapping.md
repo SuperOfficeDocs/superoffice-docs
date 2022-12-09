@@ -11,7 +11,7 @@ language: en
 
 # Configure list mapping
 
-When synchronising data between SuperOffice and ERP systems, you must specify which SuperOffice field and which ERP field belong together.
+When synchronizing data between SuperOffice and ERP systems, you must specify which SuperOffice field and which ERP field belong together.
 
 > [!NOTE]
 > When editing an ERP connection, you must first deactivate it.
@@ -29,7 +29,7 @@ When synchronising data between SuperOffice and ERP systems, you must specify wh
 
 1. Repeat steps 4 to 5 to map list items for the next list.
 
-1. Check **Active** for the ERP connection you have edited.
+1. Check **Active** for the ERP connection you edited.
 
 ## Related topics
 

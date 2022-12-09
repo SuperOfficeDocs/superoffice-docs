@@ -79,7 +79,7 @@ The changes are saved automatically. The sales guide will now be displayed in Su
 
 Agenda for first meeting:
 
-\- Information about the customer's business and organisation
+\- Information about the customer's business and organization
 \- Needs, wants, problems
 \- Company presentation
 \- Other

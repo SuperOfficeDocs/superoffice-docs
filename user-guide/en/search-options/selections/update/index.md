@@ -34,7 +34,7 @@ language: en
 
 ## Why can't I convert the selection into a dynamic one?
 
-Once you have added members to a selection, the following applies:
+After adding members to a selection, the following applies:
 
 * You cannot change a static selection into a dynamic one, because the static selection does not contain any search criteria.
 

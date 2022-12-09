@@ -11,7 +11,7 @@ language: en
 
 # Labels
 
-Using the **Labels** tab in the **Options** screen, you can change the name of any field in SuperOffice CRM. For example, you may decide that all **Company** fields should be called *Organisation* instead.
+Using the **Labels** tab in the **Options** screen, you can change the name of any field in SuperOffice CRM. For example, you may decide that all **Company** fields should be called *Organization* instead.
 
 ## What would you like to do now?
 

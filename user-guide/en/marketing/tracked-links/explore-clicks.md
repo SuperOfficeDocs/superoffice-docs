@@ -23,7 +23,7 @@ You can include links (URLs) in an email mailing or form response and track them
 * To view the links for all mailings, click the **Tracked links** tab in the main SuperOffice Marketing screen. If you cannot find the link you want to work with, click **All links**. Click the link you want to work with.
 
     > [!NOTE]
-    > Only [registered links][2]) are displayed here. If you have added "regular" links in the mailing, you must select the **Track all links** option in Step 1: Setup.
+    > Only [registered links][2]) are displayed here. If you add "regular" links in the mailing, you must select the **Track all links** option in Step 1: Setup.
 
 ## Explore clicks
 
@@ -31,17 +31,17 @@ You can include links (URLs) in an email mailing or form response and track them
 
 2. Click the relevant link from the link list. The **View link** screen displays.
 
-    Here you can see the number of clicks for the link and any [actions specified for the link][4]. In the **Clickers** list you can see who has clicked the link and in which mailing they clicked the link.
+    Here you can see the number of clicks for the link and any [actions specified for the link][4]. In the **Clickers** list you can see who clicked the link and in which mailing they clicked the link.
 
 3. Click **OK** to close the **View link** screen.
 
 ## Add clickers to a new selection or project
 
-[!include[Howto](../includes/howto-add-person-to-selection-new.md)]
+[!include[How to](../includes/howto-add-person-to-selection-new.md)]
 
 ## Add clickers to an existing selection or project
 
-[!include[Howto](../includes/howto-add-person-to-selection-existing.md)]
+[!include[How to](../includes/howto-add-person-to-selection-existing.md)]
 
 ## What do you want to do now?
 

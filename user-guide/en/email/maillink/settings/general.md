@@ -19,7 +19,7 @@ These options determine how SuperOffice CRM and the mail client behave in respon
 
 | Option | Description |
 |---|---|
-| Close email after archiving to SuperOffice CRM | Check this box if you want the email window in the mail client to close automatically after you have archived the email to SuperOffice CRM. |
+| Close email after archiving to SuperOffice CRM | Check this box if you want the email window in the mail client to close automatically after you archive the email to SuperOffice CRM. |
 | Delete the email after it has been archived to SuperOffice CRM | Check this box to remove the selected emails from the mail client inbox after they are archived in SuperOffice CRM. The emails are moved to the **Deleted items** folder. |
 
 > [!NOTE]

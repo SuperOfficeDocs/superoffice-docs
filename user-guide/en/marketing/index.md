@@ -32,7 +32,7 @@ You can create the following mailings:
 > [!NOTE]
 > Email mailings (and form responses) are the most feature-rich of these mailing types. Features such as tracked links and subscription links are not available in SMS mailings and document mailings. SMS mailings can only contain plain text (no images or tables).
 
-The messages you send out can be customised for each customer using [template variables][2]. Add links to your mailings, and add [actions][3] to these links to automate your marketing workflow.
+The messages you send out can be customized for each customer using [template variables][2]. Add links to your mailings, and add [actions][3] to these links to automate your marketing workflow.
 
 SuperOffice Marketing also deals with what happens after the mailing. You can get instant feedback on the success of the mailing: you can see how many and which customers received and opened the mailing, you can see data on click frequency and see which mailings led to sales.
 

@@ -11,7 +11,7 @@ language: en
 
 # Lists
 
-The **Lists** screen contains descriptions and definitions of the lists in SuperOffice CRM. Here you can customise the predefined lists supplied with SuperOffice CRM.
+The **Lists** screen contains descriptions and definitions of the lists in SuperOffice CRM. Here you can customize the predefined lists supplied with SuperOffice CRM.
 
 [!include[Find specific list](includes/tip-find-list.md)]
 
@@ -37,7 +37,7 @@ At the bottom of the **Lists** screen is the **Show deleted items and headings**
 
 * [Items][2]
 * [Organizing lists][3]
-* [Specialised lists][4]
+* [Specialized lists][4]
 * [Add user-defined lists][5]
 * [Document - Template][6]
 

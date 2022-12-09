@@ -36,7 +36,7 @@ language: en
 
 7. Verify that the configuration is set up correctly. Under **Set configurations** you should now see the name of the selected service provider and your user name.
 
-8. Depending on the service provider you have selected, there may be additional settings to configure here. Edit the settings as necessary and click **Save**.
+8. Depending on the service provider you selected, there may be additional settings to configure here. Edit the settings as necessary and click **Save**.
 
 9. You can now close the browser tab and return to SuperOffice Settings and maintenance.
 

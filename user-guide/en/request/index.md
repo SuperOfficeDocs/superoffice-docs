@@ -28,7 +28,7 @@ Requests can be linked to [contacts][2], who in turn can belong to a [company][6
 
 ## Request header
 
-The header of the request contains the properties defined when the [request was created][4]. The header consists of the request title, request ID, contact and deadline. In addition, you can click ![icon][img3] to set the request as a favourite ![icon][img4]. The request will then be accessible via **My favourites** under **Requests** in the Navigator, and in the **My favourites** tile on the dashboard.
+The header of the request contains the properties defined when the [request was created][4]. The header consists of the request title, request ID, contact and deadline. In addition, you can click ![icon][img3] to set the request as a favorite ![icon][img4]. The request will then be accessible via **My favorites** under **Requests** in the Navigator, and in the **My favorites** tile on the dashboard.
 
 ## Message types
 

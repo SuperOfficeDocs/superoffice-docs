@@ -11,7 +11,7 @@ language: en
 
 # Escalation levels
 
-For each priority you can define one or more escalation levels, so that the system forwards the enquiry further through the organisation if it has not been read or handled within a specified time.
+For each priority you can define one or more escalation levels, so that the system forwards the enquiry further through the organization if it has not been read or handled within a specified time.
 
 [!include[Restricted access](../../includes/note-insufficient-rights.md)]
 
@@ -41,7 +41,7 @@ For each priority you can define one or more escalation levels, so that the syst
 
 1. Repeat these steps to create additional escalation levels.
 
-1. If you have created multiple escalation levels, you can define the order that they should occur in using the arrow buttons below the list of escalation levels.
+1. If you created multiple escalation levels, you can define the order that they should occur in using the arrow buttons below the list of escalation levels.
 
 ## Define new level in Service
 

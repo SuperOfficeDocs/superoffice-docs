@@ -45,7 +45,7 @@ Contacts can be linked to companies:
     > [!TIP]
     > You can delete a domain by clicking **Delete** ( ![icon][img2] ) to the right of the row.
 
-11. Check **Link existing customers based on email address** to check existing contacts against the domains you have entered. If there are any contacts with email addresses that contain this domain name and that are not already linked to another company, they will be automatically linked to the company.
+11. Check **Link existing customers based on email address** to check existing contacts against the domains you entered. If there are any contacts with email addresses that contain this domain name and that are not already linked to another company, they will be automatically linked to the company.
 
 12. In the **Notes** field, you can add any additional information about the company.
 

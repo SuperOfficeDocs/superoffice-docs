@@ -18,7 +18,7 @@
 9. Enter the sale type in the **Sale type** field. Click the arrow to display a list of available sale types. These are defined in SuperOffice Settings and maintenance.
 
     > [!NOTE]
-    > Some sale types are linked to a [sales guide][1]. If you switch sale type, the associated sales guide also disappears. Any follow-ups and documents you have created in connection with the sales guide will remain on the **Activities** section tab in the diary. If you later switch back to the original sale type, the link between the follow-ups/documents and the sales guide is restored.
+    > Some sale types are linked to a [sales guide][1]. If you switch sale type, the associated sales guide also disappears. Any follow-ups and documents created in connection with the sales guide will remain on the **Activities** section tab in the diary. If you later switch back to the original sale type, the link between the follow-ups/documents and the sales guide is restored.
 
 10. In the **Stage** field, enter the sale's current stage:
 
@@ -31,10 +31,10 @@
 
 11. To the right of the **Stage** field is a percentage that indicates the probability of the sale being successful at this stage. It is linked to the stage and is specified in the SuperOffice Settings and maintenance. You can however change this manually in SuperOffice CRM if you wish.
 
-12. You can check the **Stalled** box to indicate that the sale has [stalled][2]. For example, if the customer has decided to wait until next year before purchasing.
+12. You can check the **Stalled** box to indicate that the sale has [stalled][2]. For example, if the customer decides to wait until next year before purchasing.
 
     > [!NOTE]
-    > The fields below change if you have checked **Stalled**. **Next activity** is changed to **Re-open date**, where you can enter a date for when the sale should be reopened, and **Source** is changed to **Reason (stalled)**, where you can enter why the sale cannot progress at the moment. If you have marked the sale as stalled, the **Appointment** dialog is displayed when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.
+    > The fields below change if you check **Stalled**. **Next activity** is changed to **Re-open date**, where you can enter a date for when the sale should be reopened, and **Source** is changed to **Reason (stalled)**, where you can enter why the sale cannot progress at the moment. If you mark the sale as stalled, the **Appointment** dialog is displayed when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.
 
 13. Enter an estimated sale date in the **Sale date** field. To change the estimated sale date, click the arrow next to the date and select a new one in the calendar that appears.
 

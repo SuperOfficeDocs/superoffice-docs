@@ -34,7 +34,7 @@ You can merge two or more requests. For example, if multiple contacts in the sam
 
 7. Click **OK**. The requests are merged.
 
-The request IDs that were overwritten will no longer be available in favourites and history lists and regular search. If you enter an overwritten request ID in the [quick search][2] field, you are redirected to the merged request.
+The request IDs that were overwritten will no longer be available in favorites and history lists and regular search. If you enter an overwritten request ID in the [quick search][2] field, you are redirected to the merged request.
 
 ## What would you like to do now?
 

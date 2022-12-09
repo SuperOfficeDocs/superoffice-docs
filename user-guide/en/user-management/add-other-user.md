@@ -33,7 +33,7 @@ so.envir: onsite
 
 8. Select **Active** to the right of **Login** to activate the user.
 
-9. Click **Save** when you have finished. The user is added to the list.
+9. Click **Save**. The user is added to the list.
 
 <!-- Referenced links -->
 

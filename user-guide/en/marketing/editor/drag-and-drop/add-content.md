@@ -12,8 +12,9 @@ language: en
 # Add content
 
 Add content to your message by using the side-panel.
+
 > [!NOTE]
-> If you have defined specific properties for individual sections, these are not overridden by global properties.
+> If specific properties for individual sections are defined, these are not overridden by global properties.
 
 ## Adding columns, text blocks, images
 
@@ -32,7 +33,7 @@ Add content to your message by using the side-panel.
 | ![icon][img8] | Menu | Add a menu with multiple links. |
 | ![icon][img9] | Social | Add links to social media. |
 | ![icon][img10] | Text | Add text content. See Edit content. |
-| ![icon][img11] | Receipt | Add a receipt showing the information that the recipient has added to a form. |
+| ![icon][img11] | Receipt | Add a receipt showing the information that the recipient added to a form. |
 
 ## Adding blocks ![icon][img12]
 
@@ -45,7 +46,7 @@ To save a content block, click a row and select **Save block** (![icon][img13]).
 In this section you can edit the global properties and layout for the message.
 
 > [!NOTE]
-> If you have defined specific properties for individual sections, these are not overridden by global properties.
+> If you defined specific properties for individual sections, these are not overridden by global properties.
 
 ## Adding images
 

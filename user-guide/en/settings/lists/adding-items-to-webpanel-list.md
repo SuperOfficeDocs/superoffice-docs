@@ -1,7 +1,7 @@
 ---
-uid: help-en-adding-items-to-webpanel-list
-title: Adding items to the Webpanel list
-description: Adding items to the Webpanel list
+uid: help-en-adding-items-to-web-panel-list
+title: Adding items to the Web panel list
+description: Adding items to the Web panel list
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
@@ -79,7 +79,7 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 1. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 > [!TIP]
-> If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via a URL. The URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organisation number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.
+> If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via a URL. The URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organization number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.
 
 <!-- Referenced links -->
 

@@ -42,7 +42,7 @@ Displays the contact's name, title and mobile phone number.
 
 ### Email
 
-Displays the contact's email address. Click the email address to [send a message to this person][7]. This opens the message in the email program you have specified.
+Displays the contact's email address. Click the email address to [send a message to this person][7]. This opens the message in the email program you specified.
 
 ### Former employees
 

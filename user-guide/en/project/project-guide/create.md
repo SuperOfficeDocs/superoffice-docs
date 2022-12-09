@@ -4,7 +4,7 @@ title: Create new project guide
 description: How to create a new project guide in SuperOffice
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: projet, guide
+keywords: project, guide
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
@@ -51,7 +51,7 @@ Examples of project types: "Conference", "Campaign", "Internal".
 
 ## <a id="create-guide" />Create a project guide
 
-Once you have created statuses and specified a project type for the project guide, you can design the project guide itself. You do this by adding follow-ups and/or documents for each status in the project guide.
+After you create statuses and specify a project type for the project guide, you can design the project guide itself. You do this by adding follow-ups and/or documents for each status in the project guide.
 
 1. Click the **Workflow** button in the Navigator (![icon][img1]).
 

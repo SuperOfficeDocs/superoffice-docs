@@ -31,7 +31,7 @@ To illustrate this functionality, we will add a new navigator group in the navig
 
 9. Check **Use URL** and enter "http://www.google.com" in the **URL** field.
 
-10. DO NOT check **Append ID** or **Append &lt;usec&gt;**, or values will be added behind the URL you have defined.
+10. DO NOT check **Append ID** or **Append &lt;usec&gt;**, or values will be added behind the URL you defined.
 
 11. DO NOT check **Return to same screen**. If checked, external URLs do not work. See [Menu properties][1].
 

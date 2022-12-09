@@ -40,7 +40,7 @@ It may happen that you want to create a series of appointments to occur at regul
 
 6. In the **Repeating follow-ups ends** field, choose if the follow-up should stop after a specific number of times or after a specific date.
 
-7. To change one or more dates for a repeating follow-up manually, for example, if there is a conflict, you can do this in the list of selected dates at the far right of the dialog.
+7. Optionally, change one or more dates manually in the list of selected dates, for example, if there is a conflict.
 
     **Options:**
 
@@ -50,11 +50,11 @@ It may happen that you want to create a series of appointments to occur at regul
 
     * Delete a date: Select the date you want to delete, and click the **Delete** button below the list. The date will then be removed from the list of dates.
 
-8. When you have finished entering dates for the follow-up, click **OK** to save the dates and close the dialog, or click **Cancel** to close the dialog without saving the dates.
+8. After entering dates for the follow-up, click **OK** to save the dates and close the dialog, or click **Cancel** to close the dialog without saving the dates.
 
 9. Click **Save** in the **Appointment** dialog to save the changes you have made.
 
-In the **Appointment**, **Task** or **Phone call** dialog, the text next to the **Recurrence** field will show what sort of repetition you have specified for the follow-up, for example, **Monthly (23.09.2016 - 23.09.2017)**.
+In the **Appointment**, **Task** or **Phone call** dialog, the text next to the **Recurrence** field will show what sort of repetition you specified for the follow-up, for example, **Monthly (23.09.2016 - 23.09.2017)**.
 
 ## What would you like to find out more about?
 

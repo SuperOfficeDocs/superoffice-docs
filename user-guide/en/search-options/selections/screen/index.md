@@ -37,7 +37,7 @@ To move between selections, click the previous/next buttons ( ![icon][img2] ![ic
 ### <a id="filter" />Filtering the list of members
 
 > [!NOTE]
-> Before you filter the list of members (for instance sales or follow-ups), you must click **Show all** in the tab footer. This ensures that the tab displays all records in the selection. To optimise performance when working with large selections, only the first 100 records are usually loaded in the list of members.
+> Before you filter the list of members (for instance sales or follow-ups), you must click **Show all** in the tab footer. This ensures that the tab displays all records in the selection. To optimize performance when working with large selections, only the first 100 records are usually loaded in the list of members.
 
 To activate the column filter, click ![icon][img3] on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon][img7]) is now displayed on column which can be [filtered][8].
 

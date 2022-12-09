@@ -15,11 +15,11 @@ In SuperOffice Service, requests are normally assigned to users according to an 
 
 However it is also possible to create an intelligent queue system for handling new requests. Request handlers can then click **Get next request in queue** under **Requests** to accept the next request in the queue. Requests in the queue are filtered by [category][2], so that users are only assigned requests that belong to categories they are members of.
 
-## How are requests in the queue prioritised?
+## How are requests in the queue prioritized?
 
 The sequence of the requests in the queue is determined by the deadline for each individual request. The requests with the closest deadlines come first in the queue. The deadline is calculated based on priorities that were defined for contact, company, mailbox, email filter and standard priority.
 
-This ensures that requests are prioritised in a logical and fair sequence.
+This ensures that requests are prioritized in a logical and fair sequence.
 
 > [!NOTE]
 > It is also possible to use a combination of queue system and assignment method. Requests can for example be placed in the queue or assigned to users based on which category the requests belong to.
@@ -80,7 +80,7 @@ Now you must ensure that you are a member of the category or categories you are 
 
 6. Select the **Assignment method** tab and select **Do not assign**. Now requests in this category will not be assigned to users in accordance with the assignment method.
 
-7. Click **OK** when you have finished.
+7. Click **OK**.
 
 If needed, repeat this procedure for other categories that are to be available to be fetched from the queue. Categories that follow an assignment method will be assigned a user and will not therefore join the queue.
 

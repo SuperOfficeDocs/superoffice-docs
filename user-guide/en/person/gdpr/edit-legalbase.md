@@ -1,7 +1,7 @@
 ---
-uid: help-en-edit-legalbase
-title: Edit legalbase
-description: Edit legalbase
+uid: help-en-edit-legal-base
+title: Edit legal base
+description: Edit legal base
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company

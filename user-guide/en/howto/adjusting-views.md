@@ -42,7 +42,7 @@ The columns will retain the specified widths the next time you run the program.
 
 You can select which columns are displayed in the lists, as well as their order.
 
-1. Right-click a column heading, and select **Configure columns**. The **Columns** tab in the **Customise** dialog is displayed.
+1. Right-click a column heading, and select **Configure columns**. The **Columns** tab in the **Customize** dialog is displayed.
 
 2. Make the required changes in the columns:
 

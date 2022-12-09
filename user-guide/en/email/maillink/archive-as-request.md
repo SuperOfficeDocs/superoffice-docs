@@ -27,8 +27,8 @@ It is possible to archive an email in your mail client inbox as a request in Sup
 
 6. Click **OK**. A confirmation message appears.
 
-    * If the sender's email address is recognised, the request is automatically archived to the correct contact and company.
-    * If the sender's email address is not recognised, the sender is automatically registered as a new contact in SuperOffice Service.
+    * If the sender's email address is recognized, the request is automatically archived to the correct contact and company.
+    * If the sender's email address is not recognized, the sender is automatically registered as a new contact in SuperOffice Service.
 
 7. In the confirmation message, you may select **Click here to open request** if you would like to have a closer look at the request, or **Close** to close the confirmation message.
 

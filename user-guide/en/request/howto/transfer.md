@@ -31,7 +31,7 @@ As a request handler, you are not always able to answer the request on your own.
 7. Click **OK**. The request is transferred to the other person.
 
 > [!TIP]
-> Before transferring responsibility for the request to someone else, it is a good idea to [add it to your favourites list][2], to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field.
+> Before transferring responsibility for the request to someone else, it is a good idea to [add it to your favorites list][2], to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field.
 
 <!-- Referenced links -->
 [1]: ../index.md#open

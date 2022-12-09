@@ -21,7 +21,7 @@ In the **Add/edit product** dialog, you can add a product, and specify a quantit
 
 1. To search in a specific price list, you can select it in the list next to the **Product search** field.
 
-1. Start typing the name of the product or product code in the **Product search** field. The hitlist is updated automatically. You can search on all or parts of both the product name and product code.
+1. Start typing the name of the product or product code in the **Product search** field. The hit list is updated automatically. You can search on all or parts of both the product name and product code.
 
     > [!TIP]
     > If advanced searching is supported, you can click the search button ![icon][img1] in the **Product search** field for search for and [add several products simultaneously](#add-multiple).
@@ -56,10 +56,10 @@ In the area on the left of the **Add/edit product** dialog, the product name/cod
 * Figures shown in black can be edited.
 * The total amount and discounts are updated as you edit the different fields.
 * A discount can be specified either as a percentage rate, a discount amount or a total amount.
-  * The discount field you have edited is shown *underlined*.
-  * The other fields are updated so that they correspond with the discount you have defined.
+  * The discount field you edited is shown *underlined*.
+  * The other fields are updated so that they correspond with the discount you defined.
   * Hold the mouse pointer over a discount field to display any system discounts (such as volume discounts that are added automatically).
-* If you have specified discounts that are not permitted by the system, a warning or other message is displayed.
+* If you specified discounts that are not permitted by the system, a warning or other message is displayed.
 
 ## Image tab
 

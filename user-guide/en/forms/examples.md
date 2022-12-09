@@ -5,7 +5,7 @@ description: How to create forms (examples)
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Forms
-so.topic: comcept
+so.topic: concept
 language: en
 ---
 
@@ -50,7 +50,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
         * Set the field to **Mandatory**.
         * Change the name of the field to "Select your subscriptions".
 
-1. Select the **OK** field, change the name to "Submit", and edit the font/background colour and position.
+1. Select the **OK** field, change the name to "Submit", and edit the font/background color and position.
 
 1. Edit the names of the other fields as necessary. **Tip**: Remove "Contact -".
 
@@ -58,7 +58,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
 1. Click **Apply now** to save the form and continue editing.
 
-1. In the **Style** category, edit the layout, colours, size and fonts of the form. Consider involving your web design colleagues.
+1. In the **Style** category, edit the layout, colors, size and fonts of the form. Consider involving your web design colleagues.
 
 1. Click **Apply now** to save the form and continue editing.
 
@@ -66,8 +66,8 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
 1. In the **Message** tab, enter the text to display after the form is submitted. This message should inform the customer that they will receive an email confirmation. Click **Show/hide toolbar** ![icon][img3] to display formatting options for the text.
 
-    <details><summary>Example</summmary>
-    We will now send an email to the address you have registered in our form.
+    <details><summary>Example</summary>
+    We will now send an email to the address you registered in our form.
 
     Click the link in the email to confirm your email address and activate your subscription(s).
 
@@ -78,7 +78,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
 1. In the **Email** tab, create the confirmation email sent to the persons submitting the form.
 
-    <details><summary>Example</summmary>
+    <details><summary>Example</summary>
     Hi and thanks for your interest in our newsletters
 
     Please click the link below to confirm your email address and start your subscription.
@@ -96,7 +96,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
 1. Click **Apply now** to save the form and continue editing.
 
-1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for subscribing"). This will display after the customer has verified their email address.
+1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for subscribing"). This will display after the customer verifies their email address.
 
 1. Click **Apply now** to save the form and continue editing.
 
@@ -148,7 +148,7 @@ In this example we will show you how to create short form for customers who want
     * **Contact - Email**
     * **Form elements** > **Text area**: Change the name of the field to "Comment (optional)" and write "How can we help you today?" in the **Placeholder** field.
 
-1. Select the **OK** field, change the name to "Submit", and edit the font/background colour and position.
+1. Select the **OK** field, change the name to "Submit", and edit the font/background color and position.
 
 1. Edit the names of the other fields as necessary. **Tip**: Remove "Contact -".
 
@@ -156,13 +156,13 @@ In this example we will show you how to create short form for customers who want
 
 1. Click **Apply now** to save the form and continue editing.
 
-1. In the **Style** category, edit the layout, colours, size and fonts of the form. Consider involving your web design colleagues.
+1. In the **Style** category, edit the layout, colors, size and fonts of the form. Consider involving your web design colleagues.
 
 1. Click **Apply now** to save the form and continue editing.
 
 1. Optional: To enable double opt-in, you should also set the **Email** field to **Mandatory**.
 
-1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for contacting us. We will be in touch shortly."). This will display after the customer has submitted the form.
+1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for contacting us. We will be in touch shortly."). This will display after the customer submits the form.
 
 1. In the **Page for inactive form** category, enter a URL or a message. This is relevant if a customer accesses the form after it is marked as inactive.
 

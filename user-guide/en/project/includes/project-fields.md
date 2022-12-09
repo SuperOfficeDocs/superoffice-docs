@@ -7,7 +7,7 @@
 
 1. **Web site:** This field contains a table with columns for **Web Address (URL)** and **Title**.
 
-    Enter the address of a web page on the Internet and a brief description of the sort of page it is. You can enter several web addresses if required. Click outside the table when you have finished, or press **TAB** until the table closes.
+    Enter the address of a web page on the Internet and a brief description of the sort of page it is. You can enter several web addresses if required. Click outside the table when you are done, or press **TAB** until the table closes.
 
 1. **Description field:** Enter a more detailed description of the project in the large text box.
 
@@ -16,7 +16,7 @@
 1. **Type:** Choose the type of project here. Click the arrow to display a list of predefined types. These are defined in SuperOffice Settings and maintenance. This is a mandatory field and **must** therefore be filled in.
 
     > [!NOTE]
-    > Some project types are linked to a [project guide][2]. If you switch project type, the associated project guide also disappears. Any activities and documents you have created in connection with the project guide will remain on the **Activities** section tab in the diary. If you later switch back to the original project type, the link between the follow-ups/documents and the project guide is restored.
+    > Some project types are linked to a [project guide][2]. If you switch project type, the associated project guide also disappears. Any activities and documents created in connection with the project guide will remain on the **Activities** section tab in the diary. If you later switch back to the original project type, the link between the follow-ups/documents and the project guide is restored.
 
 1. **Status:** Specify the status of the project here. Click the arrow to display a list of predefined alternatives. These are defined in SuperOffice Settings and maintenance.
 

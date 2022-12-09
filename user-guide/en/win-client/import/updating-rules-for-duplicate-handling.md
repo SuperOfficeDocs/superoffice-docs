@@ -32,7 +32,7 @@ You must always specify rules for handling duplicates during importing.
 
 5. Click the **Update** button. The **Handle duplicates** dialog for the selected data type opens.
 
-6. All available fields of the required data type for which you have defined field mappings are displayed under **When these fields match**. Check which field(s) must have identical contents for the record to be considered a duplicate. This is called an import key.
+6. All available fields of the required data type for which you defined field mappings are displayed under **When these fields match**. Check which field(s) must have identical contents for the record to be considered a duplicate. This is called an import key.
 
 7. Under **Do the following**, choose what to do if duplicates are detected during the import:
 

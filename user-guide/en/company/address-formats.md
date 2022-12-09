@@ -99,7 +99,7 @@ This address format is used for the USA. It resembles the format for Australia/C
 | Address 1 | First address line |
 | Address 2 | Second address line |
 | City | Name of postal town |
-| State/zipcode | State code (for example, CA) and postal code (zip code) |
+| State / zip code | State code (for example, CA) and postal code (zip code) |
 | Country | Country |
 
 ## UK

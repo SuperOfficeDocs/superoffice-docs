@@ -41,7 +41,7 @@ Shows information about the contact selected in the **Company** or **Selection**
 
 ### Why is the side panel empty?
 
-In a [dynamic selection][7], you can choose to show companies only, without specifying a contact. If **Include main contact** is not checked in the dynamic selection, no information is displayed in the **Contact** view for the side panel, even if you have selected a contact.
+In a [dynamic selection][7], you can choose to show companies only, without specifying a contact. If **Include main contact** is not checked in the dynamic selection, no information is displayed in the **Contact** view for the side panel, even if you selected a contact.
 
 ## Day
 
@@ -74,12 +74,12 @@ You can move from month to month by clicking the arrow keys ( ![icon][img1] ![ic
 
 ## My favorites
 
-Shows all your [favourites][8].
+Shows all your [favorites][8].
 
-* To view only favourites for the current screen, click the checkbox at the bottom of the side panel. Example: If the **Sale** screen is open, click **Sales only** to show only sales.
-* To remove favourites, select one or more favourites in the list and click **Remove**.
-* Click **Refresh** to update the list of favourites with any new favourites you have added.
-* Right-click a favourite to open the context menu.
+* To view only favorites for the current screen, click the checkbox at the bottom of the side panel. Example: If the **Sale** screen is open, click **Sales only** to show only sales.
+* To remove favorites, select one or more favorites in the list and click **Remove**.
+* Click **Refresh** to update the list of favorites.
+* Right-click a favorite to open the context menu.
 
 ## Notepad
 

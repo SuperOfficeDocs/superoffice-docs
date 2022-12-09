@@ -23,7 +23,7 @@ Here you can basic information about the form, including a preview of the form, 
 * **Last submission**: When the last form was submitted.
 * **Completion last 7 days**: Submitted forms per day the last 7 days.
 * **Completion rate**: Status for submitted forms.
-* **Mailing**: This field is visible if you have activated **Email response** for this form. Click the link to view [information and statistics about the form response][2].
+* **Mailing**: This field is visible if you activated **Email response** for this form. [View information and statistics about the form response][2].
 
 ## Reports
 
@@ -33,7 +33,7 @@ These charts show statistics for the form (mouse-over to view exact numbers).
 
 Here you can view and process all submitted forms. A red icon on the tab indicates new form submissions (![icon][img1]).
 
-Use the filter options at the bottom of the list to view only submissions with specific statuses. See [Process form submissions][3].
+Use the filter options at the bottom of the list to [view only submissions with specific statuses][3].
 
 <!-- Referenced links -->
 [2]: ../../marketing/mailing/follow-up/view-statistics.md

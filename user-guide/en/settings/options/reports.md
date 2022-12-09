@@ -21,7 +21,7 @@ The report list shows the format of the reports (appearance), whether a report i
 2. Double-click the standard report you want to edit.
 3. In the **Edit report** dialog, edit the name and description. You cannot edit the report type.
 4. Check the **Published** checkbox to make the report available to users.
-5. Click **Save** when you have finished.
+5. Click **Save**.
 
 You cannot delete standard reports, but you can specify them as not published.
 

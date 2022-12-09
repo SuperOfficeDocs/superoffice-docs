@@ -88,7 +88,7 @@ If the document is checked out for editing, one of the following icons are displ
 ![icon][img3] The document is currently checked out for editing by another user.
 
 > [!TIP]
-> Hold the mouse pointer over an icon to show information about the user who has checked out the document.
+> Hold the mouse pointer over an icon to show information about the user who checked out the document.
 
 ### Completed
 
@@ -111,7 +111,7 @@ When you click this button, the following options are displayed:
 * **Delete**: Deletes the current entry.
 * **Help**: Opens the help for the active dialog.
 * **Copy shortcut**: Copies a [shortcut to the active entry][9].
-* **Revert to saved version**: Select this option to [cancel a check-out][8]. This may be relevant if you have checked out the document by mistake and are unable to check it in again.
+* **Revert to saved version**: Select this option to [cancel a check-out][8]. For example, if you checked out the document by mistake and are unable to check it in again.
 
 Below these options are shortcuts to other relevant tasks that can be performed on the active entry. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
 

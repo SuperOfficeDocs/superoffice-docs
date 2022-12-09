@@ -29,7 +29,7 @@ To add a document to SuperOffice Service, you must first create the document its
 
 8. In the **Description** field, enter a brief description of what the document contains.
 
-9. Click the **Choose file** button next to **File**, and in the dialog that appears select the document you have created.
+9. Click the **Choose file** button next to **File**, and select the new document in the dialog that appears.
 
 10. Click **Save**. If the document type can be edited in the browser, the **Contents** field is populated with the document contents.
 

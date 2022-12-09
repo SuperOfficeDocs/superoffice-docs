@@ -95,7 +95,7 @@ If you plan not to use "Visible for", do not select this option.
 
 Review the configuration carefully and make sure the settings are correct.
 
-After you have confirmed the settings, they cannot be edited:
+After you confirm the settings, they cannot be edited:
 
 SuperOffice documents
 

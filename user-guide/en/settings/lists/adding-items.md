@@ -17,9 +17,9 @@ language: en
 
 3. Click the **Add** button below the **Items** list.
 
-    <details><summary>Do you want to add an item to a specialised list?</summary>
+    <details><summary>Do you want to add an item to a specialized list?</summary>
 
-    Some list types are more specialised than those referred to in this procedure. [Specialised lists][1].
+    Some list types are more specialized than those referred to in this procedure. [Specialized lists][1].
     </details>
 
 4. In the **Edit list item** dialog, enter the required name of the item in the **Name** field.
@@ -36,7 +36,7 @@ language: en
 
 The items are displayed in the order you entered them. To change the order, select an item and move it up or down using the arrow buttons below the list ( ![icon][img3] ![icon][img4] ).
 
-After you have added items, you can specify details for each individual item. You can specify the user groups the item is visible to (see [User group filtering][2]), and the [headings][3] it will display under.
+After adding items, you can specify details for each individual item. You can specify the user groups the item is visible to (see [User group filtering][2]), and the [headings][3] it will display under.
 
 <!-- Referenced links -->
 [1]: specialized-lists.md

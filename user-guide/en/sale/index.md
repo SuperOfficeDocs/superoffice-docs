@@ -25,7 +25,7 @@ In addition to the [**Sale** screen][2], sales can be displayed in the following
 > [!TIP]
 > Double-click a sale in one of these locations to open the sale in the **Sale** screen.
 
-## Add a sale to favourites
+## Add a sale to favorites
 
 [!include[ALT](../includes/howto-add-favorite.md)]
 

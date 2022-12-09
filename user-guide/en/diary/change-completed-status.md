@@ -30,7 +30,7 @@ When you consider that an activity is finished, you can mark it as completed.
     ![ Change Completed status of an activity -screenshot][img4]
 
 > [!NOTE]
-> You cannot edit completed activities until you have changed their **Completed** status.
+> To edit a completed activity, you must first uncheck the **Completed** status.
 
 <!-- Referenced links -->
 [1]: open-follow-up.md

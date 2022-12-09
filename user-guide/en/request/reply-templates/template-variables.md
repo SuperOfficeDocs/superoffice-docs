@@ -11,7 +11,7 @@ language: en
 
 # Template variables (Service)
 
-In the email message, you can use template variables to insert customer-specific information to give the message a more personal touch. In this way, you can customise the content for each individual customer.
+In the email message, you can use template variables to insert customer-specific information to give the message a more personal touch. In this way, you can customize the content for each individual customer.
 
 In the tables below you can find all template variables for SuperOffice Service and SuperOffice Marketing.
 

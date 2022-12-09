@@ -18,9 +18,10 @@ language: en
 3. Click the **New reply template** button. This takes you to the **Properties** tab in the **Reply template properties** screen.
 
 4. At the top of this screen you enter the following:
+
     * **Name**: Enter a descriptive name for the reply template.
     * **Description**: Add a short description of the contents of the reply template.
-    * **Folder**: The name of the folder you have selected is displayed here automatically. You can select a different folder here.
+    * **Folder**: By default, the name of the selected folder. You can select a different folder here.
     * **Access**: Here you determine who is to have access to read and edit the reply template.
 
 5. Select the **(Unspecified language)** tab.
@@ -43,7 +44,7 @@ language: en
 
 8. In the **HTML text** tab, enter the following information:
 
-    * **Include HTML text**: Check this option to include the text underneath in an HTML version of the email. This is used for customers with email programs that can read HTML (such as Outlook). Your message will often come across more clearly if you send the email as HTML, since you can use images and colours in the text.
+    * **Include HTML text**: Check this option to include the text underneath in an HTML version of the email. This is used for customers with email programs that can read HTML (such as Outlook). Your message will often come across more clearly if you send the email as HTML, since you can use images and colors in the text.
     * In the large field in the middle of the screen, enter the HTML-formatted text you want to include in the message to the customer. Remember that images linked to here must be on a server accessible by recipients of the email. For example, you can add images that previously uploaded to **External documents**.
 
 9. In the **SMS text** tab, you can add reply template text for sending by SMS. Enter the following information here:

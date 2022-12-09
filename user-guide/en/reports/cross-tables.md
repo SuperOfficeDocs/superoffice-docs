@@ -43,7 +43,7 @@ To view a cross table report (.Dcube file), you must install the **CrossTable vi
     > [!NOTE]
     > Fields, rows and columns which you choose to hide in the step described above will not be included in the print-out.
 
-6. When you have finished editing the contents of the cross table, you can do one of the following:
+6. After editing the contents of the cross table, you can do one of the following:
 
     * Select **File** > **Print Preview** to preview the report.
     * Select **File** > **Print** to print the report.

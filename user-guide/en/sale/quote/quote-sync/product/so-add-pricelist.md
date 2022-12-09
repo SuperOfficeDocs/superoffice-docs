@@ -1,7 +1,7 @@
 ---
-uid: help-en-so-add-pricelist
-title: SO add pricelist
-description: SO add pricelist
+uid: help-en-so-add-price-list
+title: SO add price list
+description: SO add price list
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
@@ -20,7 +20,7 @@ language: en
     * **Price list name**: Give the price list a descriptive name to make it easier to distinguish from any other price lists.
 
     > [!NOTE]
-    > You cannot change the currency after you have created the price list. To enable currency, go to **Preferences** > **System** > **Enable use of currency**.
+    > You cannot change the currency after you create the price list. To enable currency, go to **Preferences** > **System** > **Enable use of currency**.
 
     * **Description**: Enter a description of the price list.
 
@@ -41,7 +41,7 @@ language: en
 
         * **Set prices to zero &lt;currency&gt;**: Select this option if you do not want to copy the prices from the price list. You must enter the prices of all the products in the price list manually.
 
-1. Click **OK** when you have finished.
+1. Click **OK**.
 
     > [!NOTE]
     > Once the price list is created, you may no longer change its currency and validity.

@@ -11,7 +11,7 @@ language: en
 
 # Configure columns
 
-You can customise the lists in the section tabs in SuperOffice CRM to display precisely the information you need. You can change which columns are displayed, as well as their order.
+You can customize the lists in the section tabs in SuperOffice CRM to display precisely the information you need. You can change which columns are displayed, as well as their order.
 
 ## Change the order of the columns
 

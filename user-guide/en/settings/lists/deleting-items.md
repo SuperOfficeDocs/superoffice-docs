@@ -18,7 +18,7 @@ language: en
 5. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 > [!NOTE]
-> The [deletion is not permanent even if you confirm it][1]. The name of the item will still be displayed in records in SuperOffice CRM that refer to it. This does not apply if you create a list and delete it before you have saved it. In that case, the list cannot be undeleted.
+> The [deletion is not permanent even if you confirm it][1]. The name of the item will still be displayed in records in SuperOffice CRM that refer to it. This does not apply if you create a list and delete it before you saved it. In that case, the list cannot be undeleted.
 >
 > [How to undo the deletion][1].
 

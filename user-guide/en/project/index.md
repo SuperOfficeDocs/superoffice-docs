@@ -15,7 +15,7 @@ You can link any activity to an external company and to a project. You can also 
 
 ![Project screen -screenshot][img3]
 
-## Add project to favourites
+## Add project to favorites
 
 [!include[ALT](../includes/howto-add-favorite.md)]
 

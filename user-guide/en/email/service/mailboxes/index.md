@@ -1,7 +1,7 @@
 ---
 uid: help-en-service-mailboxes
-title: admin listFilters listFilters
-description: admin listFilters listFilters
+title: Mailboxes
+description: Mailboxes
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

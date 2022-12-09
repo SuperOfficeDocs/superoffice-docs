@@ -12,10 +12,11 @@ language: en
 # Add a Sync Connector
 
 1. Go to the **Sync** tab in the **Quote/Sync** screen.
-2. Click **Add** at the bottom of the **Sync Connectors** list. The **Edit Sync Connector** dialog appears.
-3. Type in the name of the Sync Connector.
-4. Type in the URL of the Sync Connector.
-5. Click **OK** when you have finished. The Sync Connector is displayed in the list.
+2. Click **Add** at the bottom of the **Sync Connectors** list.
+3. In the Edit Sync Connector dialog, type in the name and URL of the Sync Connector.
+4. Click **OK**.
+
+    The Sync Connector is displayed in the list.
 
 ## What would you like to do now?
 

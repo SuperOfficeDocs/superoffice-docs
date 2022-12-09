@@ -50,7 +50,7 @@ In the **Details** tab, you have the following options:
 
 * **Service categories**: These categories are used to give users access to specific request categories.
 
-* **Service categories from user groups**: Shows the categories the user has received from being in a user group.
+* **Service categories from user groups**: Shows the categories the user gets from being in a user group.
 
 ### Example
 

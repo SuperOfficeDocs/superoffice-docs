@@ -39,7 +39,7 @@ In the **Settings** tab, set the following parameters:
 
 4. Set these options as necessary:
 
-    * **Calculate reply time and time-to-close based on the priority's timeframe**: If enabled, the values for average reply time and time-to-close will be based on the priority's timeframe for the request. For example, a request has priority **Medium**, and the timeframe for this priority is Monday-Friday from 9am to 5pm. A request was created on Friday at 4pm and closed on Monday at 10am. The raw time-to-close for this request is then 64 hours, but the real time-to-close is only 2 hours. With this option enabled, 2 hours is the value used for the calculations.
+    * **Calculate reply time and time-to-close based on the priority's time frame**: If enabled, the values for average reply time and time-to-close will be based on the priority's time frame for the request. For example, a request has priority **Medium**, and the time frame for this priority is Monday-Friday from 9am to 5pm. A request was created on Friday at 4pm and closed on Monday at 10am. The raw time-to-close for this request is then 64 hours, but the real time-to-close is only 2 hours. With this option enabled, 2 hours is the value used for the calculations.
 
     * **Show time interval in minutes**: If enabled, the calculated time intervals are displayed as number of minutes. Convenient if you would like to export the data and use them to display a graph.
 

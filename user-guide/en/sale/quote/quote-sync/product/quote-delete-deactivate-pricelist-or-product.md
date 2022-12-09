@@ -1,7 +1,7 @@
 ---
-uid: help-en-quote-delete-deactivate-pricelist-or-product
-title: quote delete deactivate pricelist or product
-description: quote delete deactivate pricelist or product
+uid: help-en-quote-delete-deactivate-price-list-or-product
+title: quote delete deactivate price list or product
+description: quote delete deactivate price list or product
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

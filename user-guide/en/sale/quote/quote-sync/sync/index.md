@@ -12,7 +12,7 @@ so.client: web
 
 # Sync
 
-The **Sync** tab in the **Quote/Sync** screen shows Sync Connectors and associated ERP connections. Sync Connectors handle the synchronisation of data between SuperOffice and the ERP system, while the ERP connections provide the link between SuperOffice and Sync Connectors.
+The **Sync** tab in the **Quote/Sync** screen shows Sync Connectors and associated ERP connections. Sync Connectors handle the synchronization of data between SuperOffice and the ERP system, while the ERP connections provide the link between SuperOffice and Sync Connectors.
 
 <details><summary>How do I set up an ERP connection for SuperOffice CRM for Web (Online)? </summary>
 
@@ -24,8 +24,8 @@ The **Sync** tab in the **Quote/Sync** screen shows Sync Connectors and associat
 * [Add a Sync Connector][1]
 * [Add an ERP connection][2]
 * [Set Sync Priority][3]
-* [Configure field allocation][4] (Here you specify synchronisation settings and which fields are displayed in the search window and in the **ERP** tab.)
-* [Configure default values for synchronisation][5]
+* [Configure field allocation][4] (Here you specify synchronization settings and which fields are displayed in the search window and in the **ERP** tab.)
+* [Configure default values for synchronization][5]
 * [Rank fields shown in the ERP tab][6]
 * [Edit an ERP connection][7]
 

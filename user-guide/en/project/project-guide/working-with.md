@@ -24,7 +24,7 @@ If a project guide is defined for a project type that you specify for a project,
 
     You can delegate the follow-up to your colleagues by setting them as the owner of the follow-up. If defined in SuperOffice Settings and maintenance for a specific follow-up, the **Assign task to project member** dialog appears, where you can select a colleague as the owner of the follow-up.
 
-3. When you have completed the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Project guide** section tab. By default, documents are marked as completed.
+3. When you complete the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Project guide** section tab. By default, documents are marked as completed.
 
     > [!TIP]
     > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] opens.
@@ -107,7 +107,7 @@ You record a new project and select the **Conference** project type, which is li
 1. All the follow-ups and documents in the **Planned** status are completed, and you have moved the project on using the **Project guide - move the project to the next status** dialog. This dialog is displayed when you set the last follow-up to completed. The follow-ups and documents for this new status are now displayed in the **Project guide** section tab.
 
     > [!NOTE]
-    > The **Project guide - move the project to the next status** dialog comes up only if this behaviour is defined for the project type. If it is not defined, [move the project to the next status](#move-to-next-status).
+    > The **Project guide - move the project to the next status** dialog comes up only if this behavior is defined for the project type. If it is not defined, [move the project to the next status](#move-to-next-status).
 
 2. At the planning meeting, you agree that your colleague should set up a list of conference delegates. You want to create a task in their diary as a reminder.
 
@@ -142,12 +142,12 @@ You record a new project and select the **Conference** project type, which is li
         or
     * Click **Edit** on the main **Project** card, click the arrow to the right of the **Status** field and select **Closing** from the list, and then click **OK**.
 
-2. You want to hold an internal meeting to summarise the conference.
+2. You want to hold an internal meeting to summarize the conference.
 
     1. Click **Create** next to the **Evaluation meeting** appointment and create the appointment in the usual way.
     2. When the appointment is completed, check the box.
 
-3. Then you want to produce an evaluation report which summarises the evaluation meeting and the conference.
+3. Then you want to produce an evaluation report that summarizes the evaluation meeting and the conference.
 
     Click **Create** next to the **Evaluation report** document to create the document.
 

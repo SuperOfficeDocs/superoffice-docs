@@ -14,7 +14,7 @@ language: en
 When you click the **Archive email** button on the mail client toolbar, a menu with archiving options is displayed.
 
 > [!NOTE]
-> This button also appears in the email window when you open an email you have received.
+> This button also appears in the email window when you open an email you received.
 
 **Options:**
 
@@ -50,7 +50,7 @@ The **Document** dialog will not open automatically if you:
 
 When an email is archived by a user, it is tagged with a unique ID within SuperOffice CRM. This means that next time someone tries to archive the same email, a warning will appear informing them about this; in this way, it is possible to avoid duplicates in the database.
 
-If you open an email that has already been archived, the **Archive email** button ![icon][img1] will appear green with a white check-mark. If you hold the mouse pointer over the button, an info box is displayed, telling you when and by whom the email was archived. This presupposes that you have selected the **Check for duplicates when an email is opened** option in the **SuperOffice CRM options** dialog.
+If you open an email that has already been archived, the **Archive email** button ![icon][img1] will appear green with a white check-mark. If you hold the mouse pointer over the button, an info box is displayed, telling you when and by whom the email was archived. This presupposes that you selected the **Check for duplicates when an email is opened** option in the **SuperOffice CRM options** dialog.
 
 ## Related content
 

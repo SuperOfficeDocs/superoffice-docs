@@ -13,7 +13,7 @@ so.envir: onsite
 
 # Freetext search and Travel
 
-Freetext searching is usually available to all Travel users, but, if your organisation uses Area Management, you can define that specific areas cannot use freetext searches. Without freetext searches, the SuperOffice database that Travel users take with them will take up considerably less space.
+Freetext searching is usually available to all Travel users, but, if your organization uses Area Management, you can define that specific areas cannot use freetext searches. Without freetext searches, the SuperOffice database that Travel users take with them will take up considerably less space.
 
 In the **Enable freetext for Travel areas** list, you can see which areas are defined and for which areas the freetext search function is available.
 

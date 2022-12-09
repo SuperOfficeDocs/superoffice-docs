@@ -21,11 +21,11 @@ Once you’ve filtered out the recipients you wish to follow up on, you can [exp
 
 ## How can I follow up?
 
-* [View the statistics][1] of the mailing and get information about any problems that have arisen.
+* [View the statistics][1] of the mailing and get information about any problems that occurred.
 * [Add recipients to selections and projects][2] for further processing.
 * [Check and correct the addresses of undelivered mails][2].
-* See [who has clicked the trackable links][4] you have inserted in the message.
-* Manage email addresses that have been returned due to permanent errors or have [bounced][5] several times.
+* See [who clicked the trackable links][4] you inserted in the message.
+* Manage email addresses that were returned due to permanent errors or [bounced][5] several times.
 
 <!-- Referenced links -->
 [1]: view-statistics.md

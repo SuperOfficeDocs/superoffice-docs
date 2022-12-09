@@ -11,7 +11,7 @@ language: en
 
 # Working with tiles
 
-A dashboard can consist of any number of tiles. Each tile contains a graphical or numerical representation of SuperOffice data. Below we have described the available options for tiles, when you are not in edit mode.
+A dashboard can consist of any number of tiles. Each tile contains a graphical or numerical representation of SuperOffice data.
 
 ## View tiles and data
 

@@ -27,7 +27,7 @@ language: en
 1. A message informs you that changes to the stopword list do not have a retroactive effect. In other words, new stopwords will not apply for text entered before the stopword was specified. Click **OK**.
 
     > [!TIP]
-    > If you want your changes to have a retroactive effect, you must [regenerate the freetext index][3]. This should be done after you have added stopwords, after the system has suggested stopwords or after importing a large quantity of text.
+    > If you want your changes to have a retroactive effect, you must [regenerate the freetext index][3]. Do this after you add stopwords, after the system suggests stopwords, or after importing a large quantity of text.
 
 <!-- Referenced links -->
 [1]: suggesting-stopwords.md

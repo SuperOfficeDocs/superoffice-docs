@@ -34,7 +34,7 @@ You can receive notifications of the following events in SuperOffice Service.
 
 * **When someone takes over your request**: Check here to be notified when one of your requests is taken over by another request handler.
 
-* **For requests in your favourites list**: Check here to be notified about requests in your favourites list, in the same way as for your own requests.
+* **For requests in your favorites list**: Check here to be notified about requests in your favorites list, in the same way as for your own requests.
 
 * **Custom messages**: Check here to receive custom notifications created using scripts.
 

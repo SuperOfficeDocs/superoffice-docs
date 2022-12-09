@@ -9,13 +9,13 @@ items:
 - name: SuperOffice products
   href: product/index.md
   items:
-  - name: Add pricelist
+  - name: Add price list
     href: product/so-add-pricelist.md
-  - name: Add product to pricelist
+  - name: Add product to price-list
     href: product/so-add-product-to-pricelist.md
   - name: Select product image
     href: product/so-select-product-image.md
-  - name: Quote delete deactivate pricelist or product
+  - name: Quote delete deactivate price-list or product
     href: product/quote-delete-deactivate-pricelist-or-product.md
 - name: Settings
   href: quotesync-tab-settings.md

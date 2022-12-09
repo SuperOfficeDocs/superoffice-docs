@@ -28,7 +28,7 @@ When you specify an item in a list in the **Lists** screen, you can also specify
 
 4. Select the required item in the **Items** list.
 
-5. Select a user group in the **Visible for user groups** list. All the user groups in the organisation are displayed here. Click the box next to the required user group to specify that the item should be visible to that group.
+5. Select a user group in the **Visible for user groups** list. All the user groups in the organization are displayed here. Click the box next to the required user group to specify that the item should be visible to that group.
 
     The box will then be marked with a tick (![icon][img2]).
 

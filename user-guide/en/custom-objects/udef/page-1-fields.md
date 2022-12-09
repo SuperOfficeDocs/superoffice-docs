@@ -28,7 +28,7 @@ Among the user-defined fields that are displayed in the **More** tabs in SuperOf
 
 1. Check **Allow different page 1 fields for different user groups** at the bottom of the tab to specify different page 1 fields for different user groups. If not checked, the fields you specify are used for all user groups.
 
-1. In the user group list above, select the required user group (if you have checked **Allow different page 1 fields for different user groups** in the previous step).
+1. In the user group list above, select the required user group (if you checked **Allow different page 1 fields for different user groups** in the previous step).
 
 1. In the **Field 1** list box, choose the field to display at the top. Choose the fields to display in the next positions in the **Field 2** and **Field 3** list boxes.
 
@@ -44,7 +44,7 @@ When you select a name in the **User group** list, the available page 1 fields f
 If you select **(all user groups)** in the **User group** list, select a field or fields and save the setup, the same selection of fields will apply to all user groups in SuperOffice CRM. If you then select a specific user group, you can override the existing field setup for just this group by using a different specification. If you do not specify anything in a field, it is left empty – since the override applies to all three fields irrespective of their contents.
 
 > [!NOTE]
-> You must publish an override for a single user group *after* you have specified a setup for all user groups. If you don't, it will not take effect.
+> You must publish an override for a single user group *after* you specify a setup for all user groups. If you don't, it will not take effect.
 
 <!-- Referenced links -->
 

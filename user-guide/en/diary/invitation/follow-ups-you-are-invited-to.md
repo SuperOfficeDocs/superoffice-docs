@@ -17,7 +17,7 @@ When you view a follow-up you are not the owner of, the usual **Appointment**, *
 
 * Until you [accept or decline the invitation][2], the dialog has two extra buttons: **Accept** and **Decline**. Once you accept, the button is disabled.
 
-* Since you will not have created the appointment, task or phone call yourself, you will not be allowed to make changes other than to the **Priority**, **Alarm**, and **Completed** fields. All other options are disabled.
+* Because you did not create the appointment, task or phone call yourself, you may change only the **Priority**, **Alarm**, and **Completed** fields. All other options are disabled.
 
 <!-- Referenced links -->
 [2]: receive.md#accept

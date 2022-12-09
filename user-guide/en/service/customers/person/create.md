@@ -39,7 +39,7 @@ Normally, contacts are registered by the system when they send in mails, but the
 11. In the **Our service contact** field, select the request handler who will be responsible for this contact. Normally you select **(None)** here. The system will then use the request handler which is responsible for the company that the contact is linked to.
 
 12. If the contact is associated with a company, the following fields have already been filled in with values from the associated company and cannot be edited:
-    * In the **Our Contact**field, your name is displayed automatically. Clicking the arrow brings up a list box where you can choose the name of someone else from your organisation.
+    * In the **Our Contact**field, your name is displayed automatically. Clicking the arrow brings up a list box where you can choose the name of someone else from your organization.
     * In the **Category**field, select the category the contact belongs to, from a predefined list of categories. Click the arrow to show the category list.
     * In the **Business**field, select from a list of different predefined types of business. Click the arrow and choose the business that best matches the contact you are creating.
 

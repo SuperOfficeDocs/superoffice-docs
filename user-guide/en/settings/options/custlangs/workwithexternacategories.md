@@ -27,7 +27,7 @@ Example: The internal category "Support" can then have an external category for 
 
 5. In the **Edit external category** screen, click the **Category** field, and select the internal category name (the name visible to SuperOffice users).
 
-6. In the **External name** field, enter the name which the category should have when displayed to your customers in this language in SuperOffice Customer Centre. In this way, you can use an internal name standardised in one language, while you can create an external "alias" in another language.
+6. In the **External name** field, enter the name which the category should have when displayed to your customers in this language in SuperOffice Customer Centre. In this way, you can use an internal name standardized in one language, while you can create an external "alias" in another language.
 
 7. Optionally, click **Sub-element of** and select the name of any parent category to create a hierarchy of categories in the language in question.
 

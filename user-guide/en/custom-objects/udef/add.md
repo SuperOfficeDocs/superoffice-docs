@@ -35,7 +35,7 @@ language: en
 1. Check **Read only** if you do not want it to be possible to amend the field.
 
     > [!NOTE]
-    > You cannot check **Read only** if you have checked **Mandatory**. These options are mutually exclusive.
+    > You cannot check **Read only** if you checked **Mandatory**. These options are mutually exclusive.
 
 1. Check **Indexed** if you want it to be possible to search by this field.
 

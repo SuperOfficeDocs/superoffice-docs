@@ -63,7 +63,7 @@ The lower part of the **Sale** screen consists of section tabs.
 * [Stakeholders][5]
 * [Quote][7] (requires a licence)
 
-[Sales guides][3] are only shown for specific sales types (defined in SuperOffice Settings and maintenance). If you have selected a sale type for which a sales guide is defined, the **Sales guide** section tab is displayed.
+[Sales guides][3] are only shown for specific sales types (defined in SuperOffice Settings and maintenance). If you select a sale type for which a sales guide is defined, the **Sales guide** section tab is displayed.
 
 [!include[Add more section tabs](../../includes/more-tab.md)]
 

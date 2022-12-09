@@ -9,9 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Specialised lists
+# Specialized lists
 
-It is generally very easy to add, edit and delete lists and items. Some lists, however, are more specialised and contain more options and greater functionality than ordinary lists.
+It is generally very easy to add, edit and delete lists and items. Some lists, however, are more specialized and contain more options and greater functionality than ordinary lists.
 
 * [Document - Template][1]
 * [Email - Template][2]

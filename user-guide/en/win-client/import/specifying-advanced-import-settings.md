@@ -63,12 +63,12 @@ Advanced import settings include date format settings and delimiter characters. 
     > [!NOTE]
     > The import speed decreases if you check **Update freetext index**. To import large quantities of data, an alternative is to run the import without checking this option and [generate a new freetext index][2] later from the **Options** screen.
 
-1. When you have specified the required settings, click **OK**.
+1. After specifying the required settings, click **OK**.
 
     [!include[Save mapping](includes/tip-save-mapping.md)]
 
 > [!NOTE]
-> If you have specified an import description file in the **Import description file** field, information will already be entered in the **Advanced Options** dialog. However, you can change this information as described above. Remember that the import description file must be saved before it is updated with any new options.
+> If you specified an import description file in the **Import description file** field, information will already be entered in the **Advanced Options** dialog. However, you can change this information as described above. Remember that the import description file must be saved before it is updated with any new options.
 
 <!-- Referenced links -->
 [2]: ../../settings/options/freetext-search/regenerating-freetext-index.md

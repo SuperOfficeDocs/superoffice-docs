@@ -11,16 +11,16 @@ language: en
 
 # The Reports screen
 
-The **Reports** screen consists of the following tabs. **Favourites**, **Company/contact**, **Project**, **Sale**, **Activity** and **Selection**.
+The **Reports** screen consists of the following tabs. **Favorites**, **Company/contact**, **Project**, **Sale**, **Activity** and **Selection**.
 
 > [!TIP]
 > You can go directly to a specific tab in the **Reports** screen by clicking the word **Reports** next to the **Reports** button in the Navigator and then selecting from the list.
 
 Each tab consists of the following:
 
-* A [report list](#list) showing available reports. This list is always at the top left of the screen.In the **Favourites** tab, this list shows the favourite reports, while in the other tabs, it shows all published reports.
+* A [report list](#list) showing available reports. This list is always at the top left of the screen.In the **Favorites** tab, this list shows the favorite reports, while in the other tabs, it shows all published reports.
 
-* A report description to make it easy to find out information about the selected report. If the report is on your favourites list, you can amend this description.
+* A report description to make it easy to find out information about the selected report. If the report is on your favorites list, you can amend this description.
 
 * A thumbnail of the report. [The thumbnail][1] is located on the far right of the **Reports** screen and indicates the selected report type: label, list, group list, cross table, calendar or text export.
 
@@ -30,16 +30,16 @@ Each tab consists of the following:
 
 ## <a id="list" />Report list
 
-The report list is at the top left of the **Reports** screen and contains a list of standard reports in the tab you have selected. If you select the **Favourites** tab, your favourite reports appear here. The content of the report description and the criteria list changes according to what you select in the report list.
+The report list is at the top left of the **Reports** screen and contains a list of standard reports in the tab you selected. If you select the **Favorites** tab, your favorite reports appear here. The content of the report description and the criteria list changes according to what you select in the report list.
 
 > [!TIP]
-> If you have selected the **Favourites** report category, you can edit the name and description of these reports by double-clicking a report, or selecting it and clicking **Edit**. To delete a favourite report, select it and click **Delete**.
+> If you select the **Favorites** report category, you can edit the name and description of these reports by double-clicking a report, or selecting it and clicking **Edit**. To delete a favorite report, select it and click **Delete**.
 
 ## <a id="criteria" />Criteria list
 
-The criteria list is located in the upper half of the **Reports** screen, next to the report list and below the report description. It contains criteria that apply to the report you have selected in the report list. Here you can add or delete criteria by clicking the **Add** or **Delete** buttons, and you can edit a criterion by double-clicking it.
+The criteria list is located in the upper half of the **Reports** screen, next to the report list and below the report description. It contains criteria that apply to the report you selected in the report list. Here you can add or delete criteria by clicking the **Add** or **Delete** buttons, and you can edit a criterion by double-clicking it.
 
-Click the **Add to favourites** button to add the report with the specified criteria to the report list in the **Favourites** tab.
+Click the **Add to favorites** button to add the report with the specified criteria to the report list in the **Favorites** tab.
 
 ## <a id="archive" />The report archive (Documents)
 

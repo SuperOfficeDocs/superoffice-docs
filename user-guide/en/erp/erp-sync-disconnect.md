@@ -1,7 +1,7 @@
 ---
 uid: help-en-erp-disconnect
-title: Disable ERP synchronisation
-description: Disable ERP synchronisation
+title: Disable ERP synchronization
+description: Disable ERP synchronization
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: ERP
@@ -9,7 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Disable synchronisation
+# Disable synchronization
 
 [!include[Requirement](../includes/req-integration-server.md)]
 
@@ -17,4 +17,4 @@ language: en
 1. Click **Edit**.
 1. Click **Disconnect**. The **Disconnect** dialog appears.
 1. Click **Disconnect**.
-1. Click **Save**. The data will no longer be synchronised.
+1. Click **Save**. The data will no longer be synchronized.

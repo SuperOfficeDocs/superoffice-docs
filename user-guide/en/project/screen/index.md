@@ -17,7 +17,7 @@ The **Project** screen contains information about the projects entered into Supe
 
 To move backwards and forwards between projects, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the cards
 
-If you have selected a project type for which a [project guide][1] is defined, the **Project guide** tab is displayed on the section tab.
+If you select a project type for which a [project guide][1] is defined, the **Project guide** tab is displayed on the section tab.
 
 ## <a id="event-tab" />The Event tab
 
@@ -44,7 +44,7 @@ In the **Event** tab, you can specify settings for publishing events.
 
 ![The More tab (Project) -screenshot][img4]
 
-The **More** tab displays user-defined fields for the project. If your organisation needs more fields than the default fields in the **Project** tab, you can specify in SuperOffice Settings and maintenance that these fields will be inserted here.
+The **More** tab displays user-defined fields for the project. If your organization needs more fields than the default fields in the **Project** tab, you can specify in SuperOffice Settings and maintenance that these fields will be inserted here.
 
 Click **Edit** to edit the project information in the **More** tab.
 

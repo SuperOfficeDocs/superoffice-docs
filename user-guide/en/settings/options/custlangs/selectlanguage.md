@@ -11,7 +11,7 @@ language: en
 
 # How SuperOffice Service selects the customer language for new contacts
 
-When a new customer sends in a request, SuperOffice Service tries to decide which customer language should be shown for the customer. We have described below various scenarios to show how this works.
+When a new customer sends in a request, SuperOffice Service tries to decide which customer language should be shown for the customer.
 
 ## Scenario 1
 

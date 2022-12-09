@@ -77,7 +77,7 @@ If you check **All day**, the time of the appointment is set to the period speci
 
 Here you choose the address where the follow-up will take place. By default, this field is empty, but if you click the arrow ![icon][img2] next to the field, two entries are displayed in a list box. One is the user's company and the other is the company to follow up.
 
-If you have specified a resource of type **Location** (for example a meeting room) as a participant in the **Participants** tab, the resource is also displayed in this list box.
+If you specified a resource of type **Location** (for example a meeting room) as a participant in the **Participants** tab, the resource is also displayed in this list box.
 
 > [!TIP]
 > You can also simply enter an address for the location.
@@ -128,7 +128,7 @@ Here you specify who owns the follow-up. The default is the user currently logge
 
 ### Show as
 
-Check **Free** or **Busy** in the **Show as** field to specify if you are available to others while the appointment is taking place. If you select **Free**, you can have other follow-ups simultaneously, for example if you have reserved the majority of the day to work on a project but you still have time for short meetings.
+Check **Free** or **Busy** in the **Show as** field to specify if you are available to others while the appointment is taking place. If you select **Free**, you can have other follow-ups simultaneously, for example if you reserved the majority of the day to work on a project but you still have time for short meetings.
 
 ### Visible for
 
