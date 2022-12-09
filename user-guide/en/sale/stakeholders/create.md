@@ -51,7 +51,7 @@ language: en
 
 10. Repeat steps 4-9 for each stakeholder you want to add.
 
-11. When you have entered the required information, click **Save**.
+11. After entering the required information, click **Save**.
 
     > [!TIP]
     > You can select multiple companies and/or contacts on the right side of the window by holding down **CTRL** or **SHIFT** as you select. Changes you then make in the **Sales role** field and **Comments** text box will apply to all the selected companies/contacts.

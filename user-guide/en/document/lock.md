@@ -24,9 +24,9 @@ In the **Document** dialog, a checked-out document has one of the following icon
 
 ![icon][img4] The document is currently checked out for editing by another user.
 
-Hold the mouse pointer over an icon to show information about the user who has checked out the document.
+Hold the mouse pointer over an icon to show information about the user who checked out the document.
 
-If you attempt to open a checked-out document, a dialog appears with information about who has checked out the document. You can open the document in read mode only.
+If you attempt to open a checked-out document, a dialog appears with information about who checked out the document. You can open the document in read mode only.
 
 ## Check out a document for editing
 
@@ -38,7 +38,7 @@ In most cases, you can [save and close the document][1] in the application, and 
 
 ## Edit mode and read mode
 
-By default, a document is opened in edit mode. Below we have described the differences between edit mode and read mode.
+By default, a document is opened in edit mode.
 
 > [!NOTE]
 > If you prefer to select read mode or edit mode when you open a document, go to ![icon][img2] **Personal settings** > **Preferences** > **Functions** and set **Ask to edit or read** to **Yes**.
@@ -57,7 +57,7 @@ By default, a document is opened in edit mode. Below we have described the diffe
 >
 > The best option may be to make a copy of the document and edit the copy.
 
-If you or someone else have checked out a document, and you want to edit the document, you can cancel the check out:
+If you or someone else checked out a document, and you want to edit the document, you can cancel the check out:
 
 1. Right-click the document and select **Document**.
 2. In the **Document** dialog, click ![icon][img1] and select **Revert to saved version**.

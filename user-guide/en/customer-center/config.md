@@ -15,7 +15,7 @@ language: en
 
 In the **Customer centre configuration** screen, you can edit the styling and layout of your customer centre. You can see your changes in the preview on the right side of the screen.
 
-If you have configured multiple languages for your customer centre, you can set the options individually for each language. Options such as welcome text, opening hours and phone numbers can be specified for each language.
+If multiple languages are configured for your customer centre, you can set the options individually for each language. Options such as welcome text, opening hours and phone numbers can be specified for each language.
 
 > [!NOTE]
 > To edit the HTML code for the various pages, see [Customer centre source files][1].

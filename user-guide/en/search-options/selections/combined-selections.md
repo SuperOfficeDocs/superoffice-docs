@@ -20,7 +20,7 @@ There are however certain limitations on what can be combined:
 * If you choose to create a combined selection consisting of companies, all types of selection are available.
 * But if you choose to create a combined selection consisting of sales, projects, documents, follow-ups or products, only selections of the selected type are available.
 
-The two selections to be combined can be static or dynamic. And once you have created a combined selection, you can choose to turn it into a static selection.
+The two selections to be combined can be static or dynamic. After creating a combined selection, you can choose to turn it into a static selection.
 
 ## How are the two selections combined?
 

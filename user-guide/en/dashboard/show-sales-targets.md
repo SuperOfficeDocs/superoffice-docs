@@ -11,9 +11,9 @@ language: en
 
 # Using sales targets in tiles
 
-If you have defined [sales targets][4] for your company, teams/groups and/or sales people, you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
+If [sales targets][4] are defined for your company, teams/groups and/or sales people, you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
 
-To add a tile with sales targets to a dashboard:
+## Add tile with sales targets to dashboard
 
 1. Open the **Dashboard** screen.
 
@@ -42,7 +42,7 @@ To add a tile with sales targets to a dashboard:
 
     * Click the header of a tile and drag it to another position.
 
-8. In the dashboard, click the **Edit tile** icon ![icon][img6] on the tile you have added.
+8. In the dashboard, click the **Edit tile** icon ![icon][img6] on the new tile.
 
 9. In the **Dataset** tab, set **Sale date** to this year, quarter or month. Edit the other [criteria][2] as necessary. Remember to update the tile name to reflect any changes made here.
 
@@ -62,9 +62,7 @@ To add a tile with sales targets to a dashboard:
 
 12. Click ![icon][img1] to [add a translation][3] to the tile name, titles and labels.
 
-13. Click **Save**.
-
-14. Click **Done** when you have completed the dashboard.
+13. Click **Save**. Then click **Done**.
 
 <!-- Referenced links -->
 [1]: edit-tile.md

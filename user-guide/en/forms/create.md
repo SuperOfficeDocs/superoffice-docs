@@ -135,7 +135,7 @@ If double opt-in is activated for a form, all [submissions for this form][5] hav
 
 ### Thank you page
 
-When a person has completed and submitted a form, you should thank them and let them know what will happen next. You can do this by either redirecting them to another web page with more information or displaying a message.
+When a person completes and submits a form, you should thank them and let them know what will happen next. You can do this by either redirecting them to another web page with more information or displaying a message.
 
 * **Redirect to external website**: Enter the link to the web page.
 * **Show this message**: Enter the text to display. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text. Click **Open text editor in dialog** ![icon][img8] to edit the text in a larger editor.
@@ -161,11 +161,11 @@ Here you can define how a submitted form should be processed. Fill in the follow
 
 **What should happen when the form is processed?** Here you can select actions to perform when a form is processed (automatically or manually):
 
-* **Add contact to selection**: If you have selected automatic processing above, you should add a selection here to keep track of contacts added via this form. This will also make it easier to remove any irrelevant contacts (and companies).
+* **Add contact to selection**: If you selected automatic processing above, you should add a selection here to keep track of contacts added via this form. This will also make it easier to remove any irrelevant contacts (and companies).
 * **Add contact to project**: Select a project. Contacts who submit this form will be added to this project.
 * **Add interest to contact**: Select an interest. This interest will be added to contacts who submit this form.
 * **Email response**: Select a form response to send to contacts when their form is processed. [How to create a form response][7].
-* **Create request**: If you have added a request field in the **Fields** category, you must also select a default category and priority for the requests that are create from this form. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the **Company** and **Contact** screens in SuperOffice CRM.
+* **Create request**: If you added a request field in the **Fields** category, you must also select a default category and priority for the requests that are create from this form. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the **Company** and **Contact** screens in SuperOffice CRM.
 * **Execute CRMScript**: Select a script or macro to run when a form submission is processed. See [CRMScript][8].
 * **Default category** / **Default business**: Select a default category and business for all contacts or companies that are added to SuperOffice based on submitted forms. With this option, you can group the form submissions and new contacts/campanies to one specific category and/or business.
     For example, if you have a form for prospects, you select prospects as your category. You can then easily create selections based on this category and/or business.

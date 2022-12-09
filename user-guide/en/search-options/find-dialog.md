@@ -46,7 +46,7 @@ To search for records and data in SuperOffice CRM, use the **Find** screen.
 
 ## Work with search results
 
-Once you have followed the above procedure, and search results are displayed in the **Results** tab, you have several options available:
+After following the above steps, and search results are displayed in the **Results** tab, you have several options available:
 
 * **Open the record:** To open one of the records, double-click it. For example, double-clicking a contact displays the **Contacts** section tab with that contact highlighted.
 

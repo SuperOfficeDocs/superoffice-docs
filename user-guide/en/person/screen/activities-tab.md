@@ -21,7 +21,7 @@ If the contact is associated with a company, these activities will also be avail
 
 ## Filter activities
 
-The activities displayed depend on which [filters][1] (checkboxes) you have selected at the bottom of the section tab.
+The activities displayed depend on which [filters][1] (checkboxes) you select at the bottom of the section tab.
 
 ## Reply to or forward emails
 

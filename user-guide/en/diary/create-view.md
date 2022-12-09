@@ -32,7 +32,7 @@ You can add a selection of users and resources in your organisation to a view.
 
 1. Choose to view the diary for **Associates**, **Project**, or **Resource** in the **Select from** field.
 
-1. The contents of the list box immediately below the **Select from** field vary depending on what you have selected under **Select from**.
+1. The contents of the list box immediately below the **Select from** field vary depending on what you selected under **Select from**.
 
     * If you selected **Associates**, a list of user groups in your organisation is displayed. You can also select **All** to display all the users in the organisation.
 
@@ -42,11 +42,11 @@ You can add a selection of users and resources in your organisation to a view.
 
 1. Select the users/resources you require and click the right arrow ( ![icon][img2] ) to add them to the pane on the right. You can also select users and resources individually by double-clicking them.
 
-1. The pane on the right displays all the users and resources you have added to the group view. To remove a user or a resource from this list, select it and click **Delete**.
+1. The pane on the right displays all the users and resources you added to the group view. To remove a user or a resource from this list, select it and click **Delete**.
 
 1. The selected users and resources will be displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ( ![icon][img3] ) or arrow down ( ![icon][img4] ) to move it up or down.
 
-1. Click **Save** when you have finished selecting users and resources, or click **Cancel** to close the dialog without saving.
+1. Click **Save** after selecting users and resources, or click **Cancel** to close the dialog without saving.
 
 You will then be returned to the **View** tab, where you can create appointments for associates, and so forth.
 

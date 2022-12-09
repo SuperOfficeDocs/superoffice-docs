@@ -27,7 +27,7 @@ If SuperOffice cannot find the correct contact in the database, you can search f
 
 ## Change contact
 
-If you have selected the wrong contact, you can click **Change contact** at the bottom of the side panel to search for another contact.
+If you selected the wrong contact, you can click **Change contact** at the bottom of the side panel to search for another contact.
 
 ## Related topics
 

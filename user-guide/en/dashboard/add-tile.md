@@ -43,7 +43,7 @@ To add a tile to a dashboard:
 
     * Click the header of a tile and drag it to another position.
 
-9. Click **Done** when you have completed the dashboard.
+9. Click **Done**.
 
 ## Related topics
 

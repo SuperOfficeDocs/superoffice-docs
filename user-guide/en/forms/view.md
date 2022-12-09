@@ -17,8 +17,8 @@ To view an existing form, click a form in the list. The **View form** screen ope
 
 ## Viewing options
 
-* **Recent**: Shows the forms you have worked on recently.
-* **My forms**: Shows the forms that you have created.
+* **Recent**: Shows the forms you worked on recently.
+* **My forms**: Shows the forms created by you.
 * **Active forms**: Shows only forms that are active. Forms can be deactivated manually, or are automatically deactivated at a specific date or when a specific number of submissions are received.
 * **All forms**: Shows all available forms.
 * **Search in forms**: Enter a search phrase and press **ENTER** or click the search icon ![icon][img2].
@@ -67,7 +67,7 @@ Here you can view and [process all submitted forms][5]. Use the filter options a
 
 ### Response email
 
-This tab is visible if you have activated **Email response** for this form (see [Create a new form - Actions][6]). Here you can preview the form response (mailing) associated with this form.
+This tab is visible if **Email response** is activated for this form (see [Create a new form - Actions][6]). Here you can preview the form response (mailing) associated with this form.
 
 <!-- Referenced links -->
 [1]: ../marketing/add-favourites.md

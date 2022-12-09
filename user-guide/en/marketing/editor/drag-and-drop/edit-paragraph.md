@@ -35,14 +35,14 @@ language: en
 
 6. Edit the formatting of the text using the fields in the side-panel.
 
-7. Click **Apply** when you have finished.
+7. Click **Apply**d.
 
 ## Edit other content types such as images or social media buttons
 
 1. Go to the **Content** step in the mailing, or open a template for editing.
 2. In the message, click the content you wish to edit. The side-panel displays all editing options for the selected content.
 3. Edit the options in the side-panel.
-4. Click **Apply** when you have finished.
+4. Click **Apply**.
 
 ## Edit rows and columns
 

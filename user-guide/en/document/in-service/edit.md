@@ -27,7 +27,7 @@ To edit the content of the document itself, for example the text in a letter, yo
 3. Click ![icon][img1] **Download** to download a document.
 4. Edit and save the document using the application the document was originally created in.
 5. Click the document name to go to the **Document properties** screen.
-6. Click the **Choose file** button next to **File**, and in the dialog that appears select the document you have edited.
+6. Click the **Choose file** button next to **File**, and in the dialog that appears select the document you edited.
 7. Click **OK** to upload the document.
 
 ## Edit document properties

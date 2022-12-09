@@ -85,7 +85,7 @@ From the **Categories** screen, it is also possible to search for requests in a 
 
 Under **Requests** in the Navigator is the **Search in request log** option. This is a shortcut to a special search. By searching in the request log, you can find requests that were amended/updated in a specific way within a specific period.
 
-For example, you can find all requests that you yourself have changed in the last week, regardless of who is responsible for the request or what status it has. In this way, you can easily retrieve all the requests you have worked on and which you want to keep a check on in future. In other respects, this screen works like an ordinary search
+For example, you can find all requests that you changed in the last week, regardless of who is responsible for the request or what status it has. In this way, you can easily retrieve all the requests you worked on and which you want to keep a check on in future. In other respects, this screen works like an ordinary search
 
 ## View search results for requests
 

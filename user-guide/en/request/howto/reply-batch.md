@@ -11,7 +11,7 @@ language: en
 
 # Add a message to multiple requests
 
-You can add a message to several requests in a single operation. For example, if you have received several requests regarding the same problem, and would like to answer them all at once. The message you enter in this screen are added to the selected requests, and also sent by email to the contacts for the selected external requests.
+You can add a message to several requests in a single operation. For example, if you receive several requests regarding the same problem, and would like to answer them all at once. The message you enter in this screen are added to the selected requests, and also sent by email to the contacts for the selected external requests.
 
 1. In the request list, select the relevant requests.
 

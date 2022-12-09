@@ -21,7 +21,7 @@ The [The Dialog for follow-ups][1] is divided into two:
 
 * At the top is a list of your invitations, with status and icons.
 
-* Below is more detailed information about the invitations you have selected in the top section. This includes a full description of the invitation, the date and other complementary details.
+* Below is more detailed information about the invitations you selected in the top section. This includes a full description of the invitation, the date and other complementary details.
 
 ## Icons for follow-ups
 
@@ -29,16 +29,16 @@ The icons in the list of invitations show information about the follow-up you ar
 
 | Icon | Description |
 |---|---|
-| ![icon][img3] | Icon for follow-ups you have accepted an invitation to. |
-| ![icon][img4] | Icon for follow-ups you have declined. These follow-ups stay in the **Invitations** dialog until the day after the follow-up takes place, so that you retain the option of changing your mind. |
+| ![icon][img3] | Icon for follow-ups you accepted an invitation to. |
+| ![icon][img4] | Icon for follow-ups you declined. These follow-ups stay in the **Invitations** dialog until the day after the follow-up takes place, so that you retain the option of changing your mind. |
 | ![icon][img5] | Repeating follow-up. |
 
 ## Filter the display
 
 To get a better overview of your invitations, you can filter the view using three checkboxes:
 
-* Check **Show responses** to display rejection messages from others you have invited.
-* Check **Show declined** to display follow-ups you yourself have declined.
+* Check **Show responses** to display rejection messages from others you invited.
+* Check **Show declined** to display follow-ups you yourself declined.
 * Check **Show repetitions** to show repeating follow-ups. If the invitation concerns a repeating follow-up, all instances of the follow-up are shown in the **Invitations** dialog. You can then either accept or decline them individually.
 
 > [!TIP]

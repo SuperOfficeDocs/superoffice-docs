@@ -16,7 +16,7 @@ language: en
 In the **SuperOffice** tab in the **Licences** screen, you can view and update the license information for your version of SuperOffice CRM and associated modules.
 
 > [!NOTE]
-> If you have installed a third-party module or similar, several tabs are displayed here.
+> If a third-party module or similar is installed, several tabs are displayed here.
 
 ### Owner information
 
@@ -46,7 +46,7 @@ Metered services are services that are invoiced once you exceed a certain level/
 * Chat sessions started
 * Form submissions
 
-Administrators can keep track of exactly how much of each service has used per month. Whenever your company exceeds the threshold, you’ll automatically be invoiced for these services on your next monthly invoice. The threshold depends on the number of users. The more users you have, the higher the threshold will be.
+Administrators can keep track of exactly how much each service is used per month. Whenever your company exceeds the threshold, you’ll automatically be invoiced for these services on your next monthly invoice. The threshold depends on the number of users. The more users you have, the higher the threshold will be.
 
 ### System notifications
 

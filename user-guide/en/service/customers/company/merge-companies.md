@@ -11,7 +11,7 @@ language: en
 
 # Merge companies
 
-You can merge two or more companies. For example, if two companies in your customer database have decided to merge or one of the companies has bought the other company, you can merge these companies into one company. Contacts (and related requests), invoices and registered domains are kept for both companies.
+You can merge two or more companies. For example, if two companies in your customer database decide to merge or one of the companies has bought the other company, you can merge these companies into one company. Contacts (and related requests), invoices and registered domains are kept for both companies.
 
 > [!NOTE]
 > You can also search for and select companies to merge from the search results screen. Then click ![icon][img1] in the lower left corner and select **Batch management** > **Merge**.

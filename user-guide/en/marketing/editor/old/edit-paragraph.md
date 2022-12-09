@@ -35,7 +35,7 @@ language: en
 
 6. Click **Apply** to view you changes in the preview without closing the editing view .
     or
-    Click **OK** when you have finished.
+    Click **OK**.
 
 ## What would you like to do now?
 

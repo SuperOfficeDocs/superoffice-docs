@@ -11,7 +11,7 @@ language: en
 
 # Send FAQs, reply templates and quick replies in a chat
 
-Customers often ask the same questions, so you can save time by using pre-defined texts instead of typing out your answer. You can select from FAQs and reply templates in SuperOffice Service and [quick replies that you have created yourself][1].
+Customers often ask the same questions, so you can save time by using pre-defined texts instead of typing out your answer. You can select from FAQs and reply templates in SuperOffice Service and [quick replies created by you][1].
 
 1. Click ![icon][img1] in the lower part of the chat panel.
 

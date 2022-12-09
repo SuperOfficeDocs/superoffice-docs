@@ -15,9 +15,9 @@ language: en
 
 It is important for an organisation’s profile that emails have a distinctive and consistent appearance. This means that all emails sent out by the organisation should use the same fonts, formatting, logos and so on. By creating email templates that are customised to your organisation you ensure that your contacts can easily recognise your correspondence. Email templates are also used when sending quotes, order confirmations and privacy confirmations.
 
-SuperOffice CRM is supplied with several standard templates that you can use immediately when you have installed the program.
+SuperOffice CRM is supplied with several standard templates that you can use immediately after installing the program.
 
-You can also create your own templates. You do this by entering [template variables][2] in the email templates, which then retrieve information from corresponding fields in SuperOffice CRM when you write an email using a template you have created.
+You can also create your own templates. You do this by entering [template variables][2] in the email templates, which then retrieve information from corresponding fields in SuperOffice CRM when you write an email using a template you created.
 
 ## How to add an email template
 

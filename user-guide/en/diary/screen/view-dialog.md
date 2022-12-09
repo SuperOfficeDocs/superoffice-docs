@@ -31,7 +31,7 @@ Here you can enter a description of the view.
 
 ### List box
 
-When you have selected an option for **Select from**, a list box displays below. The contents of this list box will vary depending on what you selected above:
+When you select an option for **Select from**, a list box is displayed below. The contents of this list box will vary depending on what you selected above:
 
 * If you selected **Associates**, a list of user groups in your organisation is displayed. You can also select **All** to display all the users in the organisation.
 
@@ -50,7 +50,7 @@ Click **Select all** ( ![icon][img4] ) to select all the users/resources in the 
 
 ### Right pane
 
-Displayed here are all the users and resources you have added to the group view. To remove a user or a resource from this list, select it and click the left arrow ( ![icon][img3] ). The users and resources you have chosen are displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ( ![icon][img6] ) or arrow down ( ![icon][img7] ) to move it up or down.
+Displayed here are all the users and resources you added to the group view. To remove a user or a resource from this list, select it and click the left arrow ( ![icon][img3] ). The users and resources you have chosen are displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click arrow up ( ![icon][img6] ) or arrow down ( ![icon][img7] ) to move it up or down.
 
 ### Save
 

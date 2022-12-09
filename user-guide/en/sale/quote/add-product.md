@@ -56,10 +56,10 @@ In the area on the left of the **Add/edit product** dialog, the product name/cod
 * Figures shown in black can be edited.
 * The total amount and discounts are updated as you edit the different fields.
 * A discount can be specified either as a percentage rate, a discount amount or a total amount.
-  * The discount field you have edited is shown *underlined*.
-  * The other fields are updated so that they correspond with the discount you have defined.
+  * The discount field you edited is shown *underlined*.
+  * The other fields are updated so that they correspond with the discount you defined.
   * Hold the mouse pointer over a discount field to display any system discounts (such as volume discounts that are added automatically).
-* If you have specified discounts that are not permitted by the system, a warning or other message is displayed.
+* If you specified discounts that are not permitted by the system, a warning or other message is displayed.
 
 ## Image tab
 

@@ -32,10 +32,10 @@ Each Sync Connector must have an ERP connection with configuration data for link
 
 1. Click **Test ERP connection** to verify that the connection is working. If you get an error message, you must resolve the problem before continuing.
 
-1. Click **OK** when you have finished. The ERP connection is displayed in the **ERP connections** list.
+1. Click **OK**. The ERP connection is displayed in the **ERP connections** list.
 
     > [!NOTE]
-    > The **OK** button is disabled until the ERP connection test has succeeded.
+    > The **OK** button is disabled until the ERP connection test succeeds.
 
 You must check the **Active** column to activate the connection, so that the **ERP** tab is displayed in SuperOffice CRM. But before you activate the ERP connection, you must make sure it is configured correctly:
 

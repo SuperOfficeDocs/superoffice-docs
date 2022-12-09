@@ -23,9 +23,9 @@ You can add more search criteria to a report. If you add criteria to a standard 
 4. [Enter the required search criteria][2].
 
     > [!NOTE]
-    > The criteria you can choose from vary according to the tab and report you have selected.
+    > The criteria you can choose from vary according to the tab and report you selected.
 
-5. Click **OK** at the bottom of the **Add/edit search criteria** dialog when you have finished.
+5. Click **OK** at the bottom of the **Add/edit search criteria** dialog when you are done.
 
 <!-- Referenced links -->
 [1]: ../labels/add-format.md

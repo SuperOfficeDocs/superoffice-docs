@@ -30,14 +30,14 @@ Each tab consists of the following:
 
 ## <a id="list" />Report list
 
-The report list is at the top left of the **Reports** screen and contains a list of standard reports in the tab you have selected. If you select the **Favourites** tab, your favourite reports appear here. The content of the report description and the criteria list changes according to what you select in the report list.
+The report list is at the top left of the **Reports** screen and contains a list of standard reports in the tab you selected. If you select the **Favourites** tab, your favourite reports appear here. The content of the report description and the criteria list changes according to what you select in the report list.
 
 > [!TIP]
-> If you have selected the **Favourites** report category, you can edit the name and description of these reports by double-clicking a report, or selecting it and clicking **Edit**. To delete a favourite report, select it and click **Delete**.
+> If you select the **Favourites** report category, you can edit the name and description of these reports by double-clicking a report, or selecting it and clicking **Edit**. To delete a favourite report, select it and click **Delete**.
 
 ## <a id="criteria" />Criteria list
 
-The criteria list is located in the upper half of the **Reports** screen, next to the report list and below the report description. It contains criteria that apply to the report you have selected in the report list. Here you can add or delete criteria by clicking the **Add** or **Delete** buttons, and you can edit a criterion by double-clicking it.
+The criteria list is located in the upper half of the **Reports** screen, next to the report list and below the report description. It contains criteria that apply to the report you selected in the report list. Here you can add or delete criteria by clicking the **Add** or **Delete** buttons, and you can edit a criterion by double-clicking it.
 
 Click the **Add to favourites** button to add the report with the specified criteria to the report list in the **Favourites** tab.
 

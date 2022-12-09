@@ -27,7 +27,7 @@ When creating an email [from Microsoft Outlook][1] or [from Lotus Notes][2], you
 
 6. Select the recipients to include in the **Bcc** field and click the arrow button to the right of the list (![icon][img2]). The recipients are displayed in the **Bcc** list on the right-hand side of the window.
 
-7. When you have finished selecting recipients, click **OK** to enter them as recipients in your email.
+7. After selecting recipients, click **OK** to enter them as recipients in your email.
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md

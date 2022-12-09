@@ -11,11 +11,11 @@ language: en
 
 # Archiving emails on companies/contacts
 
-It is possible to archive an email (including any attachments) in your mail client inbox on a company/contact in SuperOffice CRM. This is a convenient way of storing information you have received via email together with other company/contact information in SuperOffice CRM.
+It is possible to archive an email (including any attachments) in your mail client inbox on a company/contact in SuperOffice CRM. This is a convenient way of storing information you receive via email together with other company/contact information in SuperOffice CRM.
 
 1. Select the email(s) you would like to archive.
 
-2. Click the **Archive email** button on the toolbar, and **Archive email** from the dropdown. If you have selected more than one email, the procedure below is repeated for each email.
+2. Click the **Archive email** button on the toolbar, and **Archive email** from the dropdown. If you select more than one email, the procedure below is repeated for each email.
 
 3. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog for archiving email: **This sender's email address is not recognised. Click here to update SuperOffice with this email address**. [How to handle unlisted senders][1]
 

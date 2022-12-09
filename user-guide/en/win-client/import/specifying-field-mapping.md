@@ -35,7 +35,7 @@ so.envir: onsite
 1. Repeat the procedure to map additional fields. You can import several different data types. Remember that fields not mapped with a record in the SuperOffice database will not be imported at all.
 
 > [!NOTE]
-> If you have specified an import description file in the **Import description file** field, there may already be information in the **Field in SuperOffice CRM** column under **Field mapping**. If required, change the field mapping by [deleting field mapping][1] and then re-entering a new field mapping.
+> If you specified an import description file in the **Import description file** field, there may already be information in the **Field in SuperOffice CRM** column under **Field mapping**. If required, change the field mapping by [deleting field mapping][1] and then re-entering a new field mapping.
 
 <!-- Referenced links -->
 [1]: deleting-field-mapping.md

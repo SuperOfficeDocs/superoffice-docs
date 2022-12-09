@@ -15,7 +15,7 @@ SuperOffice CRM contains several different search tools:
 
 * If you click the **Find** button on the top bar, you open the [Find screen][1], where you can search for data in SuperOffice.
 * You can use [FastSearcher][3] or the [history list][5] to search for companies, sales, projects and selections.
-* You can use [freetext search][2] to search for any text which users have entered in SuperOffice CRM
+* You can use [freetext search][2] to search for any text that users have entered in SuperOffice CRM
 
 ## What would you like to do now?
 

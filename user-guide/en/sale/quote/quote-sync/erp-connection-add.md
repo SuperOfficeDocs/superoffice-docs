@@ -39,7 +39,7 @@ Each Quote Connector must have an ERP connection with configuration data for lin
 
 1. Click **Test ERP connection** to verify that the connection is working.
 
-1. Click **OK** when you have finished.
+1. Click **OK**.
 
 ## Delete and restore
 

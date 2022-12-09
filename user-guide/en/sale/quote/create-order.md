@@ -11,7 +11,7 @@ language: en
 
 # Place an order
 
-Once the customer has accepted the quote, you can place the order, so that it is sent on to order processing or a warehouse for further action.
+Once the customer accepts the quote, you can place the order, so that it is sent on to order processing or a warehouse for further action.
 
 > [!TIP]
 > To place an order for an archived version of the quote, select this version in the **Version** field and click **Make active**. The archived quote will then be copied and made into the current version. Previous versions of the quote will be archived.
@@ -25,7 +25,9 @@ Once the customer has accepted the quote, you can place the order, so that it is
 1. To send the order by email, check **Send order confirmation via email**, and choose the email template and language in the lists underneath.
 1. Enter the customer's **PO number** (purchase order number), if any, and an **Order comment**, if desired.
 1. Check **Mark sale as sold (100%)** to change the status of the sale.
-1. Click **OK** when you have finished. If you opted to send the order via email, the **New email** dialog appears. Here you can edit the text and send the confirmation to the customer.
+1. Click **OK**.
+
+    If you opted to send the order via email, the **New email** dialog appears. Here you can edit the text and send the confirmation to the customer.
 
 If SuperOffice CRM is connected to an ERP system (either using the built-in solution in SuperOffice or a 3rd party connector), the order will be registered there and processed automatically. If SuperOffice CRM is not connected to an ERP system, you must register the order manually in the external system.
 

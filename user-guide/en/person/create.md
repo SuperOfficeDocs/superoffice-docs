@@ -49,11 +49,15 @@ language: en
 
 8. Go to the **www** tab. See details below.
 
-9. Click **Legal basis** at the bottom of the contact card. The **Privacy** dialog opens. [Review and edit the consent][7] information as necessary. Click **Close** when you are done.
+9. Click **Legal basis** at the bottom of the contact card.
 
-10. Check **Former employee** (at the bottom of the contact card) if this contact has stopped working for the company. A contact who is recorded as a former employee is not normally displayed in the lists of contacts or project members.
+    In the **Privacy** dialog, [review and edit the consent][7] information as necessary. Click **Close** when you are done.
 
-11. When you have entered the necessary information, click the **Save** button. The contact information is then saved in the database and displayed in the contact card. If you have linked the contact to a company, the contact will be displayed in the **Contacts** tab in the **Company** screen.
+10. Check **Former employee** (at the bottom of the contact card) if this contact left the company. A contact who is recorded as a former employee is not normally displayed in the lists of contacts or project members.
+
+11. After entering the necessary information, click the **Save** button.
+
+    The contact information is then saved in the database and displayed in the contact card. If you linked the contact to a company, the contact will be displayed in the **Contacts** tab in the **Company** screen.
 
 12. Go to the **Relations** section tab. Here you can [add relations][8] between this contact and another contact or company.
 

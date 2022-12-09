@@ -41,7 +41,7 @@ For each priority you can define one or more escalation levels, so that the syst
 
 1. Repeat these steps to create additional escalation levels.
 
-1. If you have created multiple escalation levels, you can define the order that they should occur in using the arrow buttons below the list of escalation levels.
+1. If you created multiple escalation levels, you can define the order that they should occur in using the arrow buttons below the list of escalation levels.
 
 ## Define new level in Service
 

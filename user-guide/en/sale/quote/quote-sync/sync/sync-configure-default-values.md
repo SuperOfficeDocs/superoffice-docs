@@ -29,6 +29,6 @@ By defining default values for fields that typically only have one relevant valu
 
 1. **Mandatory - User must fill in value**: check here to require the user to enter a value in the field. If the selected ERP field is mandatory, this field is checked by default.
 
-1. Click **OK** when you have finished.
+1. Click **OK**.
 
 1. Repeat steps 5-10 to add more default values.

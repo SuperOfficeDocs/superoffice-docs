@@ -40,7 +40,7 @@ Follow the steps below to import actors (customers, suppliers and individuals) f
 
 1. Remove the checks on the rows you do NOT want to import.
 
-1. Once you have verified that these are really the data you want to import, click **Import**
+1. After verifying that these are really the data you want to import, click **Import**
 
 ## Complete the import
 

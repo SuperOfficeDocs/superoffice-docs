@@ -103,7 +103,7 @@ Our contact: John Jones
 * The date and time in template variables are controlled by the PC's system clock.
 
 > [!TIP]
-> When you have created a new template document, you must add it using the **Lists** screen in Settings and maintenance to use it in SuperOffice CRM.
+> After you create a new template document, you must add it using the **Lists** screen in Settings and maintenance to use it in SuperOffice CRM.
 
 ## Fill characters
 

@@ -20,7 +20,7 @@ To activate this feature, you must first train the AI in how to categorize reque
 You train AI by letting the AI analyze a selection of requests.
 
 1. Create a selection of requests in SuperOffice Service.
-2. In the list box under **Categorization** in the **AI services** screen, choose the selection you have created.
+2. In the list box under **Categorization** in the **AI services** screen, choose the selection you just created.
 3. Click **Analyze requests**. The system will give you feedback on how successful the training was. If the selection of requests was insufficient for a successful training, create a bigger selection of requests and try again.
 
 ## Include additional sources

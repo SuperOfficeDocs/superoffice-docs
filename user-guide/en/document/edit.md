@@ -77,7 +77,10 @@ To change document properties, such the project the document is linked to, use t
 1. [Double-click the required document][2].
 2. If a dialog box displays, click **Edit**.
 3. Save it and close the text-editing application.
-4. (if applicable) In the dialog that appears, click **Yes** if you are done editing the document. Click **No** to keep the document checked out. This dialog appears only if you have activated this option in SuperOffice WebTools.
+4. (if applicable) In the dialog that appears, click **Yes** if you are done editing the document. Click **No** to keep the document checked out.
+
+    This dialog appears only if this option was activated in SuperOffice WebTools.
+
 5. The document is checked in and the status is set to **Completed**.
 
 ## Troubleshooting

@@ -120,7 +120,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
         The **Task** dialog opens, with **Follow-up** specified as the task type.
     2. Complete the information.
     3. Click **Save**.
-    4. When you have finished preparing the contents of the quotation, mark the activity as **Completed**.
+    4. After preparing the contents of the quotation, mark the activity as **Completed**.
 
 3. You now want to create the quotation for the company.
 

@@ -42,7 +42,7 @@ When synchronising data between SuperOffice and ERP systems, must specify which 
         | ![icon][img5] | No synchronisation (SuperOffice field is NOT selected), or the field cannot be synchronised (for example, customer name). This can also be due to read-only fields. Mouse-over the icon to view details. |
 
         > [!NOTE]
-        > The arrows are disabled until you have selected a SuperOffice field.
+        > The arrows are disabled until you select a SuperOffice field.
         </details>
 
     * **SuperOffice Field**: here you choose which SuperOffice field you want to synchronise. Some fields (such as customer and contact IDs) cannot be synchronised and the list will then be empty.
@@ -61,15 +61,15 @@ When synchronising data between SuperOffice and ERP systems, must specify which 
 
 1. Click **Done** to finish. Underneath the **ERP connections** list, all the fields which are synchronised for the different actors are shown.
 
-1. Check **Active** for the ERP connection you have edited.
+1. Check **Active** for the ERP connection you edited.
 
 ## Troubleshooting
 
-If you have defined incorrect settings for the field allocations, you will receive a descriptive error message. This would apply for instance to a mandatory field without a synchronisation direction. You must correct the error before you can activate the ERP connection.
+If you defined incorrect settings for the field allocations, you will receive a descriptive error message. This would apply for instance to a mandatory field without a synchronisation direction. You must correct the error before you can activate the ERP connection.
 
 ## How to map/allocate list items
 
-If you have mapped any lists (for example category), you must also map the individual items on each list. See [Configure list mapping][1].
+If you mapped any lists (for example category), you must also [map the individual items on each list][1].
 
 <!-- Referenced links -->
 [1]: sync-configure-list-mapping.md

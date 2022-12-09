@@ -30,7 +30,7 @@ The chat widget is now available and live. Visitors to your website may start ch
 > [!NOTE]
 > When you enable the chat feature, your organization must be ready to handle all incoming chat conversations.
 >
-> The *DEFER* parameter ensures that this script does not block page loading. The script will run after the page has finished loading.
+> The *DEFER* parameter ensures that this script does not block page loading. The script will run after the page finish loading.
 
 <!-- Referenced links -->
 

@@ -58,7 +58,7 @@ The following fields are available in the **Chat widget layout** tab:
 
 **Show logo**: Select this option to display an image in the header of the chat window. To add an image, click the link or drag and drop an image file.
 
-**Show agent photo**: Select this option to display the agent's photo in the chat window. Once an agent has responded to a new chat, the header logo and header text is replaced by the agent's photo and name.
+**Show agent photo**: Select this option to display the agent's photo in the chat window. Once an agent responds to a new chat, the header logo and header text is replaced by the agent's photo and name.
 
 **Header**: Enter a short welcome text to display in the chat window header.
 

@@ -31,7 +31,7 @@ language: en
 
     2. To send it to a specific person in the company, choose from the available alternatives in the list box for contacts. Once you have chosen a contact, their email address is displayed next to the list box for contacts.
 
-    3. Under **Selected email address** there is now displayed the email address or correctly-formatted fax number for the selected company (or contact if you have specified one). To send to a different email address or fax number, enter that here.
+    3. Under **Selected email address** there is now displayed the email address or correctly-formatted fax number for the selected company (or contact if you specified one). To send to a different email address or fax number, enter that here.
     4. Click **Next** to send the document.
     </details>
 

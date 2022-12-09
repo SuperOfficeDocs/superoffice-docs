@@ -41,7 +41,7 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
   * Temporary problems: delivery delays, email server temporarily unavailable
   * Permanent problems: wrong address, unknown domain. Add the recipients to a new selection and try to find the cause of the problem.
 
-* **Read by recipient**: Activate this filter to show all recipients who have opened/read the mailing.
+* **Read by recipient**: Activate this filter to show all recipients who opened/read the mailing.
 
 * **Ready to send**: Activate this filter to show all recipients to whom the mailing has not been sent yet.
 
@@ -51,7 +51,7 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 * Duplicate recipients.
 * Recipients without a subscription.
 
-**Recipient complained**: Activate this filter to show recipients who have reported the mailing as spam/junk mail.
+**Recipient complained**: Activate this filter to show recipients who reported the mailing as spam/junk mail.
 
 If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status will be changed to **Sent** once this is done.
 

@@ -50,12 +50,12 @@ If SuperOffice cannot find the correct contact in the database, you can search f
 
 ## Change contact
 
-If you have selected the wrong contact, you can click **Change contact** at the bottom of the side panel to search for another contact.
+If you selected the wrong contact, click **Change contact** at the bottom of the side panel to search for another contact.
 
 ## Create new company and contact
 
 If the submitter is not found in SuperOffice, you can create a new contact and company in the side panel.
 
-1. Click **Create new company and contact**. Some fields are populated with information the customer has provided in the form.
+1. Click **Create new company and contact**. Some fields are populated with information the customer provided in the form.
 2. Fill in the relevant fields.
 3. Click **Add**. The new contact and company is added to SuperOffice.

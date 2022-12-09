@@ -36,16 +36,16 @@ language: en
 
     <details><summary>What does the status list contain?</summary>
 
-    ![icon][img3] – the **Visualise** icon indicates if to display a status image for company, contact or project cards that fulfil the status criteria. The icon is displayed only if you have checked **Visualise** in the **Image** tab for the status in question (see [Select an image for a status][3]).
+    ![icon][img3] – the **Visualise** icon indicates if to display a status image for company, contact or project cards that fulfil the status criteria. The icon is displayed only if you checked **Visualise** in the **Image** tab for the status in question (see [Select an image for a status][3]).
 
-    ![icon][img4] – a red cross indicates that the status must be regenerated. The [status must be regenerated][4] each time you have added, edited or deleted a criterion or if, for example, you have changed an intention for a task. Statuses with red crosses are not updated and do not return current data when using SuperOffice CRM.
+    ![icon][img4] – a red cross indicates that the status must be regenerated. The [status must be regenerated][4] each time you add, edited or deleted a criterion or if, for example, when you change an intention for a task. Statuses with red crosses are not updated and do not return current data when using SuperOffice CRM.
 
-    **Name** – the name of the statuses. Deleted statuses are displayed in red if you have checked **Show deleted**.
+    **Name** – the name of the statuses. Deleted statuses are displayed in red if checked **Show deleted** is checked.
 
     **Priority** – the priority of the statuses. The priority determines which status to display if a company, contact or project fulfils the criteria for several statuses.
     </details>
 
-6. If there are several statuses in the list, specify the priority you want the status you have added to have. Click the status and use the arrow buttons to the right of the status list ( ![icon][img5] / ![icon][img6] ) to move it up or down the list.
+6. If there are several statuses in the list, specify the priority you want the new status to have. Click the status and use the arrow buttons to the right of the status list ( ![icon][img5] / ![icon][img6] ) to move it up or down the list.
 
 ## Why do I need to specify a status's priority?
 

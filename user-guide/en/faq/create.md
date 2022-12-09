@@ -48,7 +48,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
     > [!NOTE]
     > The list also contains any custom workflow stages created in the system.
 
-9. If you select a date in the **Valid to** field, the entry's status is changed to **Expired** on this date. After that it will not be available to anyone except the FAQ administrators. They will be warned that the entry has expired. This may be relevant in connection with marketing campaigns. If you enter no date here, the FAQ entry will remain available permanently.
+9. If you select a date in the **Valid to** field, the entry's status is changed to **Expired** on this date. After that it will not be available to anyone except the FAQ administrators. They will be warned that the entry is expired. This may be relevant in connection with marketing campaigns. If you enter no date here, the FAQ entry will remain available permanently.
 
 10. In the **Attachment** field, you can add one or more documents as attachments to the request.
 

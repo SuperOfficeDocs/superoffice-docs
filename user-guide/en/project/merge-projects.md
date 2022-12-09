@@ -30,7 +30,7 @@ If you have two nearly identical projects, it is possible to merge them, includi
 
 5. Click **Merge**. The following then happens:
     * The projects are merged.
-    * Details are merged if you have specified this.
+    * Details are merged (if specified).
     * Project members are moved or merged.
     * Any associated sales are moved.
     * All activities are moved.

@@ -29,7 +29,7 @@ In a script-based selection, you [define a data selection using a CRMScript][1],
 
 ## Static selection
 
-A static selection is a list containing only records you have added manually, in contrast to a dynamic selection. Once you have [created a static selection][2] and added records to it, it will always contain the same records until you either add or remove some. A static selection works like a report where you always have full control over the records.
+A static selection is a list containing only records you added manually, in contrast to a dynamic selection. Once you have [created a static selection][2] and added records to it, it will always contain the same records until you either add or remove some. A static selection works like a report where you always have full control over the records.
 
 ## Combined selection
 

@@ -40,7 +40,7 @@ We will now create a macro based on the example above.
     > [!TIP]
     > Alternatively, you can select **Automatically assigned** to allow the system to distribute the request according to current distribution rules.
 
-8. Check **Internal message** and write a brief standard message to the accounts department about why they have received this request.
+8. Check **Internal message** and write a brief standard message to the accounts department about why they received this request.
 
 9. Click **OK** when you are done.
 

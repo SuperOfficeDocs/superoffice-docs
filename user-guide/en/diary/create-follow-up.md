@@ -31,7 +31,7 @@ If no empty row is displayed at the bottom of the activities list, enlarge the a
 
 ## <a id="associate" />Create appointment for an associate
 
-When you have opened the diary of an associate, you can create appointments for this person yourself.
+When you open the diary of an associate, you can create appointments for this person yourself.
 
 1. Click the **View** tab in the **Diary** screen.
 

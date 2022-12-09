@@ -18,7 +18,7 @@ Reports that you use a lot or have edited you can add to the list of [favorite r
 3. Select a report from the report list and [edit search criteria][2].
 4. Click **Add to favorites** at the bottom right of the criteria list.
 5. In the **Add favourite** dialog, enter the name of the report in the **Please enter a name for your report** field.
-6. Type in the required text in the **Report description** field. If you have amended any criteria in the report, change the description accordingly.
+6. Type in the required text in the **Report description** field. If you amend any criteria in the report, change the description accordingly.
 7. Click **OK**. The report is added to the list of favorites.
 
 > [!TIP]

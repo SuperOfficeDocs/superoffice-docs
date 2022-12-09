@@ -19,7 +19,7 @@ A simple way to create an email message:
 
 [!include[How to compose an email](../includes/howto-compose-email.md)]
 
-When you have finished the message, and want to send it, you have the following options:
+When you finished the message, and want to send it, you have the following options:
 
 * To send the message straightaway, click the **Send** button.
 * To send the message and archive it as a document in SuperOffice CRM, click **Send and archive**. The **Document** dialog opens. [How to create a document][1].

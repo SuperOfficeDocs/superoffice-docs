@@ -96,7 +96,7 @@ Product
 * **Name + Code**: Both the product name and the product code must be identical.
 
 > [!NOTE]
-> The data you have selected for duplicate check MUST exist in the import file. If you select name+code, you import file must at minimum contain these columns.
+> The data selected for duplicate check MUST exist in the import file. If you select name+code, you import file must at minimum contain these columns.
 
 </details>
 

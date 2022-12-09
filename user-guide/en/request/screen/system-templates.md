@@ -54,7 +54,7 @@ In the **Customers** tab, you have the following options:
 | Reply template for sending password to contacts | The reply template to send to contacts when they ask to have their password sent to them. |
 | Reply template for sending confirmation email to contacts | The reply template used for confirmation emails sent to contacts. |
 | Reply template for customer chat log | The reply template used to send chat logs to customers who have contacted support on the chat. |
-| Reply template for new link | The reply template used to send the customer a new link when the old link has expired. |
+| Reply template for new link | The reply template used to send the customer a new link when the old link expires. |
 
 ## FAQ
 

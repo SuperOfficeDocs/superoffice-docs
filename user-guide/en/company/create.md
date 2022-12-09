@@ -42,7 +42,7 @@ In the **Company** screen you can enter information about companies on several l
 
 2. Enter the information.
 
-3. Click **Save** to save the information you have entered, or click the **Interests** tab to enter information about the company's interests.
+3. Click **Save** to save the information you entered, or click the **Interests** tab to enter information about the company's interests.
 
 > [!NOTE]
 > You can also edit the company information in the **More** tab by clicking **Edit**.
@@ -63,7 +63,7 @@ In the **Company** screen you can enter information about companies on several l
 4. When you have entered the required information in all three tabs in the **Company** screen, click **Save**. This will create a company card for the new company.
 
 > [!TIP]
-> Interests can be useful for defining selections. If, for example, you have defined *reference account* as an interest, you can create a selection that contains all your reference accounts. This makes it easy to produce a marketing campaign aimed at this customer group.
+> Interests can be useful for defining selections. If, for example, you defined *reference account* as an interest, you can create a selection that contains all your reference accounts. This makes it easy to produce a marketing campaign aimed at this customer group.
 
 ## The www tab (Company screen)
 

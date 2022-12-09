@@ -29,7 +29,7 @@ You can change the size of the main card, the side panel and the section tabs. I
 You can change the positioning of the tabs and section tabs to meet your needs. For example, if you want the **Sales** section tab to be displayed on the left in the diary in the place of **Activities**.
 
 1. Click and drag the tab/section tab to where you want it.
-2. Release the tab/section tab. SuperOffice CRM remembers your choice, and displays it as you have specified the next time you open the view.
+2. Release the tab/section tab. SuperOffice CRM remembers your choice, and displays it as you specified the next time you open the view.
 
 ## Font type and size
 

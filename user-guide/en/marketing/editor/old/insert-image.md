@@ -30,7 +30,7 @@ You insert an image in a message like this:
     * Change the title of the image in the **Image title** field.
     * Define the size of the image (in pixels). A maximum width of 600 pixels is normally recommended.
 
-7. Click **OK** when you have finished.
+7. Click **OK**.
 
 8. Click **Select this image** to use this image. This takes you back to the **Edit paragraph** dialog.
 
@@ -46,7 +46,7 @@ You insert an image in a message like this:
     * Click ![icon][img2] to [edit a selected link][1].
     * Enter the URL directly in the field.
 
-13. Click **OK** when you have finished.
+13. Click **OK**.
 
 14. Check that the image is correctly displayed and adjust as necessary.
 

@@ -18,9 +18,10 @@ language: en
 3. Click the **New reply template** button. This takes you to the **Properties** tab in the **Reply template properties** screen.
 
 4. At the top of this screen you enter the following:
+
     * **Name**: Enter a descriptive name for the reply template.
     * **Description**: Add a short description of the contents of the reply template.
-    * **Folder**: The name of the folder you have selected is displayed here automatically. You can select a different folder here.
+    * **Folder**: By default, the name of the selected folder. You can select a different folder here.
     * **Access**: Here you determine who is to have access to read and edit the reply template.
 
 5. Select the **(Unspecified language)** tab.

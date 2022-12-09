@@ -64,7 +64,7 @@ You can create a selection that contains
 
 You can create a selection that contains
 
-* All the contracts you have registered in SuperOffice CRM
+* All the contracts registered in SuperOffice CRM
 * A list of all the documents that do not have the status **Completed**
 
 ### Follow-up

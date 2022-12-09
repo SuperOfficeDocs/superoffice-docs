@@ -19,7 +19,7 @@ Therefore the deletions you make in these tabs are not permanent. You can displa
 
 ## Undo deletion
 
-If you have deleted an item or a heading and later decide you do not want to remove it from the list in Settings and maintenance, you can undo your deletion in Settings and maintenance.
+If you delete an item or a heading and later decide you do not want to remove it from the list in Settings and maintenance, you can undo your deletion in Settings and maintenance.
 
 1. [!include[Go to Lists](../includes/goto-lists.md)]
 

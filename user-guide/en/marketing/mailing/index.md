@@ -46,7 +46,7 @@ The mailings are listed in the **Mailings** section tab in **Selections**, and i
 
 Example: If you send out multiple mailings to promote an event, you can add these mailings to a selection called "Event 2015" to have a complete list of all mailings for this event.
 
-Similarly, if you have created a project for your event, you can maintain a list of all project-related mailings in the **Activities** section tab.
+Similarly, if you create a project for your event, you can maintain a list of all project-related mailings in the **Activities** section tab.
 
 <!-- Referenced links -->
 [1]: create/index.md

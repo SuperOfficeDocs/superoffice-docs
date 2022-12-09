@@ -16,7 +16,7 @@ language: en
 
 The text field at the top right in SuperOffice CRM is used for freetext searches.
 
-This lets you search for any text in SuperOffice CRM which users have entered in the database, such as company name, department, information about contacts and follow-ups. You can search for text from the **Document** dialog, but you cannot search the actual contents of documents.
+This lets you search in SuperOffice CRM for any text that users have entered in the database, such as company name, department, information about contacts and follow-ups. You can search for text from the **Document** dialog, but you cannot search the actual contents of documents.
 
 ![Freetext search -screenshot][img1]
 

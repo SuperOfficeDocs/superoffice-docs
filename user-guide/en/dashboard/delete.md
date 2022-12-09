@@ -15,7 +15,9 @@ language: en
 
 1. Open the **Dashboard** screen.
 2. Select the dashboard you want to edit, click the **Task** button, and select **Delete this dashboard**.
-3. Click **OK** to confirm. The dashboard is deleted. If you have pinned the dashboard to other users or user groups, they will no longer have access to it.
+3. Click **OK** to confirm. The dashboard is deleted.
+
+    If the dashboard is pinned to other users or user groups, they will no longer have access to it.
 
 ## <a id="service" \>Delete dashboard in Service
 

@@ -13,7 +13,7 @@ language: en
 
 If you are creating a follow-up on behalf of someone else, you can change the owner of the follow-up (that is, assign the follow-up to someone else).
 
-Examples: Your colleague is on vacation, but need to phone a client when they get back. You have arranged a meeting with a client, but you need to delegate it to someone else.
+Examples: Your colleague is on vacation, but need to phone a client when they get back. You arranged a meeting with a client, but you need to delegate it to someone else.
 
 1. [Open or create a follow-up][1].
 

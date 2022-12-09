@@ -21,7 +21,7 @@ Using this task, you can create a text file containing information about the sel
 
 1. Click **Create** to set the export running.
 
-1. When the export has finished, save or open the file.
+1. When the export is finished, save or open the file.
 
 > [!NOTE]
 > The text file may appear somewhat untidy if you open it in Notepad. This is normal for files where the information is delimited using separators such as TABs or semi-colons.

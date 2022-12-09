@@ -20,7 +20,7 @@ You define which URL addresses will be available to users in the **Lists** scree
 
 The items are displayed in the order you entered them. To change the order, select an item and move it up or down using the arrow buttons to the left of the list ( ![icon][img1] ![icon][img2] ).
 
-After you have added items, you can specify details for each individual item. You can specify:
+After adding items, you can specify details for each individual item. You can specify:
 
 * Which user groups the item is visible for (see [User group filtering][2]).
 * Which [heading][1] it will be displayed under.

@@ -11,7 +11,7 @@ language: en
 
 # Publish forms
 
-When you have created the form and (if relevant) the form response, you can publish the form.
+After creating a form and (if relevant) the form response, you can publish the form.
 
 1. Go to the **Forms** tab.
 

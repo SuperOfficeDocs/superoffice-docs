@@ -108,7 +108,7 @@ Everywhere you can enter search criteria, you will find a criteria list containi
         **Amount class**: Here you choose the sale's amount class.
         **Intention**: Here you choose the intention of the activity.
 
-        Depending on what you have selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
+        Depending on what you selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
 
 4. Select values for the search criteria in the various fields on the line.
 

@@ -33,7 +33,7 @@ Before linking a heading to an item, you must add the headings you require.
 
 The item is added to the **Headings** list. Repeat this procedure to add more headings.
 
-When you have added the required headings, [choose which headings each item will be displayed under][1].
+After adding the required headings, [choose which headings each item will be displayed under][1].
 
 <!-- Referenced links -->
 [1]: grouping-items-under-headings.md

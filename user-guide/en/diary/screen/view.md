@@ -25,8 +25,8 @@ If you select the **View** tab in the **Diary** screen, the ![icon][img2] **Task
 
 * Select **Edit** to edit an existing view. Predefined views cannot be edited.
 * Select **New group view** to create a new group view.
-* Select **Copy** to make a copy of the group view you have opened.
-* Select **Delete group view** to delete the group view you have opened.
+* Select **Copy** to make a copy of the group view you opened.
+* Select **Delete group view** to delete the group view you opened.
 * Select **Invite participants** to link participants to a follow-up.
 * Select **Help** to open this help file.
 

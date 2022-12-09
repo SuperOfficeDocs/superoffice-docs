@@ -80,7 +80,7 @@ Now you must ensure that you are a member of the category or categories you are 
 
 6. Select the **Assignment method** tab and select **Do not assign**. Now requests in this category will not be assigned to users in accordance with the assignment method.
 
-7. Click **OK** when you have finished.
+7. Click **OK**.
 
 If needed, repeat this procedure for other categories that are to be available to be fetched from the queue. Categories that follow an assignment method will be assigned a user and will not therefore join the queue.
 

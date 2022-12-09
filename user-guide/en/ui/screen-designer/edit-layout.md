@@ -23,7 +23,7 @@ When you have [created a new layout][4], it is time to customize it according to
 
 1. In the **Edit card layout** window, edit the layout as described below.
 
-1. When you have finished the screen layout, click one of the following buttons:
+1. After finishing the screen layout, click one of the following buttons:
 
     * **Save draft**: Click this button if the layout is not finished yet.
     * **Save + Publish**: Click this button to publish the layout to the selected user groups.
@@ -64,7 +64,7 @@ When you have [created a new layout][4], it is time to customize it according to
 
     * **Columns**: [Select how many columns you want to display in a tab](#columns).
 
-3. When you have finished customizing the screen layout, click one of the following buttons:
+3. After customizing the screen layout, click one of the following buttons:
 
     * **Save draft**: Click this button if the layout is not finished yet.
     * **Save + Publish**: Click this button to publish the layout to the selected user groups.

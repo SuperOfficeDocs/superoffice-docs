@@ -17,7 +17,7 @@ Follow-ups with associates are set up by linking them as participants to the fol
 
 ## Status
 
-The users you have chosen to link to a follow-up will be notified of this on their screens. If you open the follow-up's **Participants** tab, you will see a list of participants and resources you have linked to the follow-up. You can also see who has accepted or declined the invitation and which resources have been booked, from the symbols next to the names:
+The users you chose to link to a follow-up will be notified of this on their screens. If you open the follow-up's **Participants** tab, you will see a list of participants and resources linked to the follow-up. You can also see who accepted or declined the invitation and which resources have been booked, from the symbols next to the names:
 
 | Icon | Description |
 |---|---|

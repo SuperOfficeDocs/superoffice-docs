@@ -17,7 +17,7 @@ The first step in creating an email mailing, is called **Setup**. Here you can s
 
     [!include[Start typing to search](type-to-search.md)]
 
-7. In the **Type** list, select the type of mailing you are creating. Select **(Any)** if the mailing matches two or more of the available types. Use **(Any)** when you have added multiple recipients with multiple subscriptions and you want to send the mailing to all.
+7. In the **Type** list, select the type of mailing you are creating. Select **(Any)** if the mailing matches two or more of the available types. Use **(Any)** after adding multiple recipients with multiple subscriptions and you want to send the mailing to all.
 
 8. **Attachments**: To add one or more attachments to the mailing, use one of the following methods:
 
