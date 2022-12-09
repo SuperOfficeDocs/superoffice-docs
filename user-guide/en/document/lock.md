@@ -14,7 +14,7 @@ language: en
 In SuperOffice CRM, many people are creating, editing and reading documents at any given time. If multiple users are editing the same document at the same time, they risk overwriting each other's data. To prevent this from happening, SuperOffice CRM will lock a document when it is being edited by a user. Other users can still open the document, but only in read mode.
 
 > [!NOTE]
-> If your organisation uses a document library like SharePoint, multiple people can edit a document simultaneously.
+> If your organization uses a document library like SharePoint, multiple people can edit a document simultaneously.
 
 ## How do I know when a document is checked out?
 

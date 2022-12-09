@@ -24,7 +24,7 @@ You can change the name or description of an item previously set up in Settings 
 
 3. Double-click the required item in the **Items** list.
 
-    [How to update a specialised list][2].
+    [How to update a specialized list][2].
 
 4. In the **Edit list item** dialog, type a new name for the item in the **Name** field.
 

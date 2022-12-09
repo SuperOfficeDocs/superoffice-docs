@@ -37,11 +37,11 @@ You can include links (URLs) in an email mailing or form response and track them
 
 ## Add clickers to a new selection or project
 
-[!include[Howto](../includes/howto-add-person-to-selection-new.md)]
+[!include[How to](../includes/howto-add-person-to-selection-new.md)]
 
 ## Add clickers to an existing selection or project
 
-[!include[Howto](../includes/howto-add-person-to-selection-existing.md)]
+[!include[How to](../includes/howto-add-person-to-selection-existing.md)]
 
 ## What do you want to do now?
 

@@ -27,7 +27,7 @@ If you delete an item or a heading and later decide you do not want to remove it
 
 3. Check **Show deleted items and headings**.
 
-4. Double-click the item or heading you want to undelete (shown in red with strikethrough).
+4. Double-click the item or heading you want to un-delete (shown in red with strikethrough).
 
 5. Click the **Restore** button.
 

@@ -15,7 +15,7 @@ language: en
 
 ## Import companies/contacts from Mac Address book
 
-<!-- NEED complete rewrite to get correct behaviour, need more info from Max/Office integration team.  -->
+<!-- NEED complete rewrite to get correct behavior, need more info from Max/Office integration team.  -->
 The icon in Import appears if user have WebTools for Mac installed and opening Settings and maintenance.
 
 1. [!include[Open Import](includes/open-import.md)]

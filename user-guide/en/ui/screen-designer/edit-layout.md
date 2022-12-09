@@ -56,7 +56,7 @@ When you have [created a new layout][4], it is time to customize it according to
     Boxes with stapled lines in the layout, indicate where you can place a field.
     <details><summary>What does this look like?</summary>
     ![Boxes with stapled lines -screenshot](media/screendesigner-field-place.png)
-    </detais>
+    </details>
 
     * **Elements**: Drag various elements such as labels, dividers, links and buttons to the layout.
 

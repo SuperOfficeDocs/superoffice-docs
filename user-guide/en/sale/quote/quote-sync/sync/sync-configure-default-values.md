@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Configure default values for synchronisation
+# Configure default values for synchronization
 
 By defining default values for fields that typically only have one relevant value, you save users a lot of time. You save them having to check a box that should always be checked or to enter a number into a field that should always contain "30". This is particularly useful when having to enter large quantities of data.
 

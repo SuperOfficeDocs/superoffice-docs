@@ -11,7 +11,7 @@ language: en
 
 # View preferences in SuperOffice CRM
 
-Users can edit the settings of individual preferences to customise them for their own use using **Preferences** in the **Personal settings** menu in the Top bar in SuperOffice CRM. The preferences available to the user in SuperOffice CRM depend on what is specified in Settings and maintenance.
+Users can edit the settings of individual preferences to customize them for their own use using **Preferences** in the **Personal settings** menu in the Top bar in SuperOffice CRM. The preferences available to the user in SuperOffice CRM depend on what is specified in Settings and maintenance.
 
 ## How to include a preference in the dialog
 

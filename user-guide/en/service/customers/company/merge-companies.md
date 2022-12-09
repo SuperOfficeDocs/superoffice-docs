@@ -39,7 +39,7 @@ You can merge two or more companies. For example, if two companies in your custo
 
 1. Open the merged company and check that the data was merged correctly. Set the correct contact in the **Our contact** field.
 
-The companies that were overwritten will no longer be available in favourites and history lists and search.
+The companies that were overwritten will no longer be available in favorites and history lists and search.
 
 ## What would you like to do now?
 

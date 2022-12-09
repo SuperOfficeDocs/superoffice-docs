@@ -12,7 +12,7 @@ language: en
 # Work with video meetings
 
 > [!NOTE]
-> Before you can use this feature, the administrator must first configure yourpreferred video meeting service (Jitisi Meet, Google Meet or Microsoft Teams) in SuperOffice Settings and Maintenance.
+> Before you can use this feature, the administrator must first configure your preferred video meeting service (Jitsi Meet, Google Meet or Microsoft Teams) in SuperOffice Settings and Maintenance.
 
 ## Create a video meeting
 

@@ -11,7 +11,7 @@ language: en
 
 # Add search criteria to reports
 
-You can add more search criteria to a report. If you add criteria to a standard report, you must [save it as a favourite report][1] to keep the changes in the report.
+You can add more search criteria to a report. If you add criteria to a standard report, you must [save it as a favorite report][1] to keep the changes in the report.
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 2. Select a tab. The reports are displayed in the report list.

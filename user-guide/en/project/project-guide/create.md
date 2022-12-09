@@ -4,7 +4,7 @@ title: Create new project guide
 description: How to create a new project guide in SuperOffice
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: projet, guide
+keywords: project, guide
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance

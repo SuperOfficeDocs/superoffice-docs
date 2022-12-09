@@ -74,12 +74,12 @@ You can move from month to month by clicking the arrow keys ( ![icon][img1] ![ic
 
 ## My favorites
 
-Shows all your [favourites][8].
+Shows all your [favorites][8].
 
-* To view only favourites for the current screen, click the checkbox at the bottom of the side panel. Example: If the **Sale** screen is open, click **Sales only** to show only sales.
-* To remove favourites, select one or more favourites in the list and click **Remove**.
-* Click **Refresh** to update the list of favourites.
-* Right-click a favourite to open the context menu.
+* To view only favorites for the current screen, click the checkbox at the bottom of the side panel. Example: If the **Sale** screen is open, click **Sales only** to show only sales.
+* To remove favorites, select one or more favorites in the list and click **Remove**.
+* Click **Refresh** to update the list of favorites.
+* Right-click a favorite to open the context menu.
 
 ## Notepad
 

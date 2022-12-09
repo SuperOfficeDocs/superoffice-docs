@@ -17,7 +17,7 @@ You use selections to create a set of records that you want to work with later o
 * A list of contacts you specially want to follow up
 * All open requests for specific categories
 
-The aim is to find out how many records match the specific criteria and to follow them up in an organised way. There are several types of selections:
+The aim is to find out how many records match the specific criteria and to follow them up in an organized way. There are several types of selections:
 
 ## Dynamic selection
 

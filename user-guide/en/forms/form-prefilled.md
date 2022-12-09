@@ -11,9 +11,7 @@ language: en
 
 # Using pre-filled fields in forms
 
-To save your customers the time and trouble of filling in their name, email address, phone number, and so on, in forms, you can do this work for them. When the customer opens a form, existing customer data is filled in using SuperOffice data.
-
-This is done by adding field identifiers and template variables to the form links/URLs.
+To save your customers the time and trouble of filling in their name, email address, phone number, and so on, in forms, you can add field identifiers and template variables to the form links/URLs. When the customer opens a form, existing customer data is filled in using SuperOffice data.
 
 1. [Create a new form][1].
 

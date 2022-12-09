@@ -11,7 +11,7 @@ language: en
 
 # Create a group view
 
-You can add a selection of users and resources in your organisation to a view.
+You can add a selection of users and resources in your organization to a view.
 
 ## Name and save this view
 
@@ -34,11 +34,11 @@ You can add a selection of users and resources in your organisation to a view.
 
 1. The contents of the list box immediately below the **Select from** field vary depending on what you selected under **Select from**.
 
-    * If you selected **Associates**, a list of user groups in your organisation is displayed. You can also select **All** to display all the users in the organisation.
+    * If you selected **Associates**, a list of user groups in your organization is displayed. You can also select **All** to display all the users in the organization.
 
     * If you selected **Project**, the history list of projects is displayed.
 
-    * If you selected **Resource**, a list of resource groups in your organisation is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** to see all the resources in your organisation.
+    * If you selected **Resource**, a list of resource groups in your organization is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** to see all the resources in your organization.
 
 1. Select the users/resources you require and click the right arrow ( ![icon][img2] ) to add them to the pane on the right. You can also select users and resources individually by double-clicking them.
 

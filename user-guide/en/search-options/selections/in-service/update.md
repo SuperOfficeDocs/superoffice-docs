@@ -11,7 +11,7 @@ language: en
 
 # Update a selection
 
-When you update a selection, you can see how many members (records) it has at the present time. You can do this in several ways.
+When you update a selection, you can see how many members (records) it has at the present time.
 
 ## Update from the Navigator
 

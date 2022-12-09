@@ -39,7 +39,7 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **Default font in editor**: Select which font, font size and formatting to use as default for message registration.
 
-* **Cross-post timeframe in minutes**: Here you enter a number of minutes and if two or more emails arrive from the same contact within this period, the requests will be sent to the same request handler, if possible.
+* **Cross-post time frame in minutes**: Here you enter a number of minutes and if two or more emails arrive from the same contact within this period, the requests will be sent to the same request handler, if possible.
 
 * **External access level as default**: If checked, external access level will be the default for new requests and messages. The alternative is internal access level as default.
 

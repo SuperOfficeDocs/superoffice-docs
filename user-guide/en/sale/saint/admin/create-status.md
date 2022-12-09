@@ -36,7 +36,7 @@ language: en
 
     <details><summary>What does the status list contain?</summary>
 
-    ![icon][img3] – the **Visualise** icon indicates if to display a status image for company, contact or project cards that fulfil the status criteria. The icon is displayed only if you checked **Visualise** in the **Image** tab for the status in question (see [Select an image for a status][3]).
+    ![icon][img3] – the **Visualize** icon indicates if to display a status image for company, contact or project cards that fulfil the status criteria. The icon is displayed only if you checked **Visualize** in the **Image** tab for the status in question (see [Select an image for a status][3]).
 
     ![icon][img4] – a red cross indicates that the status must be regenerated. The [status must be regenerated][4] each time you add, edited or deleted a criterion or if, for example, when you change an intention for a task. Statuses with red crosses are not updated and do not return current data when using SuperOffice CRM.
 

@@ -40,7 +40,7 @@ It may happen that you want to create a series of appointments to occur at regul
 
 6. In the **Repeating follow-ups ends** field, choose if the follow-up should stop after a specific number of times or after a specific date.
 
-7. To change one or more dates for a repeating follow-up manually, for example, if there is a conflict, you can do this in the list of selected dates at the far right of the dialog.
+7. Optionally, change one or more dates manually in the list of selected dates, for example, if there is a conflict.
 
     **Options:**
 

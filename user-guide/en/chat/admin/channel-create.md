@@ -52,7 +52,7 @@ The following fields are available in the **Chat widget layout** tab:
 
 **Theme**: Select a theme for the chat window.
 
-**Colour**: Select the base colour of the chat windows. This setting will override the colour defined in the selected theme.
+**Color**: Select the base color of the chat windows. This setting will override the color defined in the selected theme.
 
 **Font**: Select the font of the chat windows. This setting will override the font defined in the selected theme.
 

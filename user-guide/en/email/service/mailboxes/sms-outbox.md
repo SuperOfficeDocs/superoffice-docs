@@ -1,7 +1,7 @@
 ---
 uid: help-en-sms-outbox
-title: admin listFilters viewSMS
-description: admin listFilters viewSMS
+title: SMS outbox
+description: SMS outbox
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

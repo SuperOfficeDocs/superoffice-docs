@@ -103,5 +103,5 @@ landingContent:
           url: ../erp/erp-connect.md
         - text: Create ERP actor
           url: ../erp/erp-create-new-actor.md
-        - text: Disable synchronisation
+        - text: Disable synchronization
           url: ../erp/erp-sync-disconnect.md

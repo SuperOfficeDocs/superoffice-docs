@@ -1,7 +1,7 @@
 ---
-uid: help-en-so-add-pricelist
-title: SO add pricelist
-description: SO add pricelist
+uid: help-en-so-add-price-list
+title: SO add price list
+description: SO add price list
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

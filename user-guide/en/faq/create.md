@@ -11,7 +11,7 @@ language: en
 
 # Create FAQ entries
 
-By creating FAQ entries, your organisation can build up a comprehensive collection of questions and answers that both customers and staff can use to find useful information. There are two ways to create FAQ entries:
+By creating FAQ entries, your organization can build up a comprehensive collection of questions and answers that both customers and staff can use to find useful information. There are two ways to create FAQ entries:
 
 * A user can create an FAQ entry, based on communication with a customer in **Requests**.
 * An administrator can create an FAQ entry directly in **Knowledge Base > FAQ**.

@@ -32,16 +32,14 @@ In the **Requests** tab, you have the following options:
 | Reply template for request reassignment | This field shows which reply template to use to notify users that another user has taken over a request. |
 | Reply template for printing a request | This field shows which reply template to use when printing a request. |
 
-## Favourites
-
-In the **Favourites** tab, you have the following options:
+## Favorites tab
 
 | Option | Description |
 |---|---|
-| Reply template for notifying a new message in the favourites list | The reply template to use to notify users when a new message arrives on a request in the favourites list. |
-| Reply template for notifying an activated request in the favourites list | This field shows which reply template to use to notify users that a postponed request on the favourites list was activated. |
-| Reply template for notifying an escalated request in the favourites list | This field shows which reply template to use to notify users that a request on the favourites list was escalated. |
-| Reply template for notifying reassignment of a request in the favourites list | This field shows which reply template to use to notify users that another user has taken over a request on the favourites list. |
+| Reply template for notifying a new message in the favorites list | The reply template to use to notify users when a new message arrives on a request in the favorites list. |
+| Reply template for notifying an activated request in the favorites list | This field shows which reply template to use to notify users that a postponed request on the favorites list was activated. |
+| Reply template for notifying an escalated request in the favorites list | This field shows which reply template to use to notify users that a request on the favorites list was escalated. |
+| Reply template for notifying reassignment of a request in the favorites list | This field shows which reply template to use to notify users that another user has taken over a request on the favorites list. |
 
 ## Customers
 

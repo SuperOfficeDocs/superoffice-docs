@@ -1,7 +1,7 @@
 ---
-uid: help-en-admin-listfilters-viewblocked
-title: admin listFilters viewBlocked
-description: admin listFilters viewBlocked
+uid: help-en-email-blocked-service
+title: Blocked email
+description: Blocked email
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

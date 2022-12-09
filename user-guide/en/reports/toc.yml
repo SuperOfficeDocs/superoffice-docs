@@ -28,14 +28,14 @@ items:
     href: delete-from-archive.md
 - name: Standard reports
   href: standard-reports.md
-- name: Favourite reports
+- name: Favorite reports
   href: favorites/index.md
   items:
   - name: Adding a report to favorites
     href: favorites/add.md
-  - name: Editing favourite reports
+  - name: Editing favorite reports
     href: favorites/edit.md
-  - name: Deleting favourite reports
+  - name: Deleting favorite reports
     href: favorites/delete.md
 - name: Search criteria
   href: search-criteria/index.md

@@ -26,7 +26,7 @@ There are three different types of selections in SuperOffice CRM:
 * [Dynamic selection][8], which will always be updated automatically with members that match the selection criteria.
 * [Combined selection][9], which is a combination of two existing selections.
 
-## Add record as a favourite
+## Add record as a favorite
 
 [!include[ALT](../../includes/howto-add-favorite.md)]
 

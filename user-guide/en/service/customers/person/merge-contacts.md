@@ -36,7 +36,7 @@ You can merge two or more contacts. For example, if a contact was registered in 
 
 8. Open the merged contact and check that the data was merged correctly. Set the correct primary email address.
 
-The contacts that were overwritten will no longer be available in favourites and history lists and search.
+The contacts that were overwritten will no longer be available in favorites and history lists and search.
 
 ## What would you like to do now?
 

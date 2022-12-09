@@ -13,7 +13,7 @@ language: en
 
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
-In the **Import settings** dialog, you can customise the import to include precisely the what you want. To ensure that the quality of the imported data is as good as possible, it is important to specify the correct import settings.
+In the **Import settings** dialog, you can customize the import to include precisely the what you want. To ensure that the quality of the imported data is as good as possible, it is important to specify the correct import settings.
 
 This applies to the following, among other things:
 

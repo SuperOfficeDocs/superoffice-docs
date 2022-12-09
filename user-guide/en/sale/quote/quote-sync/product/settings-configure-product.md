@@ -13,7 +13,7 @@ language: en
 
 You open the **Configure product** dialog by going to the **Quote/Sync** screen > **Settings** tab > **Configure product** button.
 
-Here you can customise the content of the **Product** dialog in SuperOffice CRM, which is where users add and edit products in the quote.
+Here you can customize the content of the **Product** dialog in SuperOffice CRM, which is where users add and edit products in the quote.
 
 ## Select language
 

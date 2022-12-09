@@ -45,7 +45,7 @@ Follow-ups with times are displayed as boxes in the different views in the **Dia
 By default, the follow-ups are displayed as a blue field in the diary tabs. If you hold the mouse pointer over one of these fields, a tooltip is displayed showing more information about the follow-up. You can also double-click the blue field to open the follow-up.
 
 > [!NOTE]
-> In SuperOffice Settings and maintenance, you can define that all follow-ups of a specific type are displayed in the **Diary** screen in SuperOffice CRM with a different background colour from the usual blue.
+> In SuperOffice Settings and maintenance, you can define that all follow-ups of a specific type are displayed in the **Diary** screen in SuperOffice CRM with a different background color from the usual blue.
 
 ## Section tabs in the Diary screen
 

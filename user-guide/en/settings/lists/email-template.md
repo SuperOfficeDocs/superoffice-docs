@@ -13,7 +13,7 @@ language: en
 
 [!include[Link to quote template docs](../../includes/learn-quote-templates.md)]
 
-It is important for an organisation’s profile that emails have a distinctive and consistent appearance. This means that all emails sent out by the organisation should use the same fonts, formatting, logos and so on. By creating email templates that are customised to your organisation you ensure that your contacts can easily recognise your correspondence. Email templates are also used when sending quotes, order confirmations and privacy confirmations.
+It is important for an organization’s profile that emails have a distinctive and consistent appearance. This means that all emails sent out by the organization should use the same fonts, formatting, logos and so on. By creating email templates that are customized to your organization you ensure that your contacts can easily recognize your correspondence. Email templates are also used when sending quotes, order confirmations and privacy confirmations.
 
 SuperOffice CRM is supplied with several standard templates that you can use immediately after installing the program.
 

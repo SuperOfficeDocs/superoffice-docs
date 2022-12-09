@@ -1,7 +1,7 @@
 ---
-uid: help-en-admin-listfilters-listfilters-editsmsmailbox
-title: admin listFilters listFilters editSMSmailbox
-description: admin listFilters listFilters editSMSmailbox
+uid: help-en-sms-mailbox-create
+title: Create SMS mailbox
+description:Create SMS mailbox
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

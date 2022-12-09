@@ -13,7 +13,7 @@ language: en
 
 You can group a list on one or more data types to get a better overview of the records in a section tab.
 
-**Examples**: Group a list of **activities** on category, so you can view all your appointments or webforms. Group a list of **requests** on category and status, so you can get an overview of request statuses per category.
+**Examples**: Group a list of **activities** on category, so you can view all your appointments or web forms. Group a list of **requests** on category and status, so you can get an overview of request statuses per category.
 
 * To activate the grouping, click ![icon][img1] on the far right of the column headers in a section tab and click **Enable grouping**. A new row is now displayed above the column headers.
 

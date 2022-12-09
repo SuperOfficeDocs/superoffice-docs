@@ -46,7 +46,7 @@ If SuperOffice finds matching contacts in the database, they are listed under **
 
 ## Search for a contact
 
-If SuperOffice cannot find the correct contact in the database, you can search for the contact using the search field. Here you can also select from the history list and favourites.
+If SuperOffice cannot find the correct contact in the database, you can search for the contact using the search field. Here you can also select from the history list and favorites.
 
 ## Change contact
 

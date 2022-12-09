@@ -57,7 +57,7 @@ If [sales targets][4] are defined for your company, teams/groups and/or sales pe
 
 11. Edit the formatting. Based on the chart type you selected, you have additional options under **Formatting**:
 
-    * Big number: You can edit the colours used to display sales targets.
+    * Big number: You can edit the colors used to display sales targets.
     * Gauge chart: Use the option **Mark target at** to set the sales target on the gauge chart.
 
 12. Click ![icon][img1] to [add a translation][3] to the tile name, titles and labels.

@@ -29,7 +29,7 @@ items:
     href: howto/split-request.md
   - name: Merge requests
     href: howto/merge.md
-  - name: Add requests to favourites
+  - name: Add requests to favorites
     href: howto/fav.md
   - name: Keep track of messages
     href: howto/flag-message.md

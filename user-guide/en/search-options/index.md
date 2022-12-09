@@ -22,7 +22,7 @@ SuperOffice CRM contains several different search tools:
 * [Search using the Find screen][1]
 * [Use freetext search][2]
 * [Use FastSearcher][3]
-* [Favourites][4]
+* [Favorites][4]
 * [Use the history list][5]
 
 <!-- Referenced links -->

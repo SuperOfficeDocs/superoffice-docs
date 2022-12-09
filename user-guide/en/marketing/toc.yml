@@ -7,7 +7,7 @@ items:
   href: admin/define-settings-for-mailings.md
 - name: Work with marketing
   items:
-  - name: Add favourites
+  - name: Add favorites
     href: add-favourites.md
   - name: Create folder
     href: create-folder.md

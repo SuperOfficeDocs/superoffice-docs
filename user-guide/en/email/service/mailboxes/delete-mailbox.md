@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Delete mailboxe
+# Delete mailbox
 
 [!include[Go to email](../includes/goto-email.md)]
 

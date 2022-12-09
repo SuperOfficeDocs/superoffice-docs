@@ -35,7 +35,7 @@ Do one of the following:
 
 * Double-click an empty line in the **Activities** section tab at the bottom of the **Diary** screen.
 
-* Click **New** in the top bar and cliselect **Appointment**, **Phone Call** or **Task**.
+* Click **New** in the top bar and select **Appointment**, **Phone Call** or **Task**.
 
 > [!NOTE]
 > If you create the appointment from the **View** tab (see [The View tab][1]), you can choose to have the **Participants** dialog automatically filled out with the members of the view. To set this option, go to ![icon][img2] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.

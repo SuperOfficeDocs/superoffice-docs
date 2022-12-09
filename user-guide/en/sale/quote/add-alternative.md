@@ -36,13 +36,13 @@ Alternatives are shown as tabs in the quote (in the **Edit quote** dialog).
 
 7. To change the name of the **Products** tab to something describing this alternative, double-click the name of the tab.
 
-## Favourite alternative
+## Favorite alternative
 
-If you create several alternatives in a quote, the first one (usually the **Products** tab) is marked as the favourite ( ![icon][img2]**Favourite alternative**). Estimated sales amounts for the sale (forecast) are obtained from the total amount for the favourite alternative.
+If you create several alternatives in a quote, the first one (usually the **Products** tab) is marked as the favorite ( ![icon][img2]**Favorite alternative**). Estimated sales amounts for the sale (forecast) are obtained from the total amount for the favorite alternative.
 
-If you want another alternative to be the favourite, select its tab, and click ![icon][img3] **Favourite alternative** at the bottom.
+If you want another alternative to be the favorite, select its tab, and click ![icon][img3] **Favorite alternative** at the bottom.
 
-When sending the quote, you can select to only include the favourite alternative.
+When sending the quote, you can select to only include the favorite alternative.
 
 ## Delete alternatives
 

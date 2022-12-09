@@ -13,13 +13,13 @@ language: en
 
 ![icon][img1]
 
-A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as stakeholders and can be entered in the **Stakeholders** section tab at the bottom of the **Sale** screen. Stakeholders can include individuals as well as organisations.
+A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as stakeholders and can be entered in the **Stakeholders** section tab at the bottom of the **Sale** screen. Stakeholders can include individuals as well as organizations.
 
 For each stakeholder, information about company, contact name, role in the sale, email address and telephone number is displayed.
 
 ## <a id="role" />Sale - Stakeholder role
 
-A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as stakeholders and can be entered in the **Stakeholders** section tab at the bottom of the **Sale** screen in SuperOffice CRM. Stakeholders can include individuals as well as organisations.
+A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as stakeholders and can be entered in the **Stakeholders** section tab at the bottom of the **Sale** screen in SuperOffice CRM. Stakeholders can include individuals as well as organizations.
 
 For each stakeholder, their role in the sale is shown. These sales roles are defined in the **Lists** screen in Settings and maintenance.
 

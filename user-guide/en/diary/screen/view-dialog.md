@@ -25,19 +25,19 @@ Here you can enter a description of the view.
 
 ### Select from
 
-* Select **Associates** to add users from your organisation to the view.
-* Select **Project** to add project participants from your organisation to the view.
-* Select **Resource** to add resources such as conference rooms and projectors from your organisation to the view.
+* Select **Associates** to add users from your organization to the view.
+* Select **Project** to add project participants from your organization to the view.
+* Select **Resource** to add resources such as conference rooms and projectors from your organization to the view.
 
 ### List box
 
 When you select an option for **Select from**, a list box is displayed below. The contents of this list box will vary depending on what you selected above:
 
-* If you selected **Associates**, a list of user groups in your organisation is displayed. You can also select **All** to display all the users in the organisation.
+* If you selected **Associates**, a list of user groups in your organization is displayed. You can also select **All** to display all the users in the organization.
 
 * If you selected **Project**, the history list of projects is displayed. Here you can also use [FastSearcher][6] or [The History list][5].
 
-* If you selected **Resource**, a list of resources in your organisation is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** to see all the resources in your organisation.
+* If you selected **Resource**, a list of resources in your organization is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** to see all the resources in your organization.
 
 ### Left pane
 

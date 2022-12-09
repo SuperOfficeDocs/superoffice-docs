@@ -45,7 +45,7 @@ The simplest way to search for requests is to use the predefined searches availa
 
 ### Customize search criteria
 
-In practice, all these lists are predefined searches, and if you wish you can customise the search criteria:
+In practice, all these lists are predefined searches, and if you wish you can customize the search criteria:
 
 1. Click **Show criteria** at the top of the screen.
 2. [Adjust the criteria][4].

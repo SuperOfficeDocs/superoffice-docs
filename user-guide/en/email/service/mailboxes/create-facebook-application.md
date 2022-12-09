@@ -1,7 +1,7 @@
 ---
-uid: help-en-admin-listfilters-listfilters-editfacebookapplication
-title: admin listFilters listFilters editFacebookApplication
-description: admin listFilters listFilters editFacebookApplication
+uid: help-en-facebook-app
+title: Create Facebook applications
+description: Create Facebook applications
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

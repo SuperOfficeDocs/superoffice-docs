@@ -7,7 +7,7 @@
 
 * In the **Internet phone** field you can enter the contact’s VOIP address, for example, their Skype address.
 
-* Fill in the **Position** and **Birthdate** fields as required. **Position** is selected from a list that is defined in SuperOffice Settings and maintenance.
+* Fill in the **Position** and **Birth date** fields as required. **Position** is selected from a list that is defined in SuperOffice Settings and maintenance.
 
 The following fields are only available if you have a SuperOffice Service licence or a language licence for SuperOffice Customer Centre:
 

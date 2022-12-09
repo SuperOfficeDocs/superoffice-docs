@@ -54,12 +54,12 @@ You can edit the following sections:
 
 * **Column properties**: Here you can edit the properties for each column in the row.
 
-* **Row properties**: Here you can edit the properties of the row, such as background colour and [background image][4].
+* **Row properties**: Here you can edit the properties of the row, such as background color and [background image][4].
 
 * **Responsive design**: Use this option to hide specific rows in the desktop or mobile version of the message.
 
 > [!TIP]
-> To remove a colour (background colour or border colour), click the X in the corner of the colour field.
+> To remove a color (background color or border color), click the X in the corner of the color field.
 
 Click **Next** if you are done editing.
 

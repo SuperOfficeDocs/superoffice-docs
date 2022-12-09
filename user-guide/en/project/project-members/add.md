@@ -28,7 +28,7 @@ To link the project to a company, you must specify at least one project member.
     * To select a contact from a company: Click the arrow and select the company you want in the list that appears, or type the name of the company. By default the company that is active in the **Company** screen is shown.
     * To select a contact directly: Type the name of the contact (this applies to both contacts with and without an associated company), and click the name in the results list.
 
-5. In the **Project** field specify which project to add the project member(s) to. You can do this by clicking the arrow and selecting the required project in the list box which appears.
+5. In the **Project** field specify which project to add the project member(s) to by clicking the arrow and selecting the required project from the list.
 
 6. In the list of contacts on the left select the contact(s) you want to add to the project.
 

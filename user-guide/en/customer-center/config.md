@@ -27,7 +27,7 @@ If multiple languages are configured for your customer centre, you can set the o
     > [!TIP]
     > You can also access the **Customer centre** screen from SuperOffice Settings and maintenance. Click **Customer centre** in the navigator and select the **Configure** tab.
 
-2. In the **Styling** tab, you can edit various settings for the look and feel of the customer centre: Logo, preferred width, colours and fonts. The preview is updated automatically.
+2. In the **Styling** tab, you can edit various settings for the look and feel of the customer centre: Logo, preferred width, colors and fonts. The preview is updated automatically.
 
 3. Go to the **Options** tab. Here you can edit the options for each language version of the customer centre.
 

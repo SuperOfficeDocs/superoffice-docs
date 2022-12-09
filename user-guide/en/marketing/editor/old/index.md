@@ -15,12 +15,12 @@ In the **Content** step you can edit the appearance and content of the message.
 
 ![Old editor -screenshot][img1]
 
-A message is made up of columns and paragraphs. You insert text and images in the individual paragraphs and you can define format/layout (such as font type and size, colours and margins) at global level (the whole template) or by column or paragraph.
+A message is made up of columns and paragraphs. You insert text and images in the individual paragraphs and you can define format/layout (such as font type and size, colors and margins) at global level (the whole template) or by column or paragraph.
 
 SuperOffice Marketing is supplied with many ready-made message template layouts, and you can easily move columns and paragraphs around to get the appearance you want. You can also delete unwanted columns and paragraphs or add new ones.
 
 > [!TIP]
-> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Toggle view for mobile devices** ( ![icon][img5] ). See also [Customise the message for display on mobile devices][1].
+> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Toggle view for mobile devices** ( ![icon][img5] ). See also [Customize the message for display on mobile devices][1].
 
 ## Edit columns and paragraphs
 
@@ -46,7 +46,7 @@ In the column and paragraph menus, you can move ( ![icon][img8] ) and delete ( !
 
 ## Edit format and layout
 
-The appearance and properties of the template (such as font type and size, colours and margins) can be defined at global level (the whole template) or by column and paragraph. Click **Edit …** ( ![icon][img12] ) in the global menu or in a column or paragraph.
+The appearance and properties of the template (such as font type and size, colors and margins) can be defined at global level (the whole template) or by column and paragraph. Click **Edit …** ( ![icon][img12] ) in the global menu or in a column or paragraph.
 
 > [!TIP]
 > Use standard fonts for the best legibility with any email client or web browser.
