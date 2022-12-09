@@ -90,8 +90,6 @@ items:
 
     - name: Quote/Sync
       href: sale/quote/quote-sync/toc.yml  
-    - name: ERP
-      href: erp/toc.yml
 
     - name: Workflow
       items:

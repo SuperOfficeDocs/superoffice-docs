@@ -17,7 +17,7 @@ items:
 - name: Company
   href: customers/company/toc.yml
 - name: Documents
-  href: in-service/index.md
+  href: ../document/in-service/index.md
   items:
   - name: View documents
     href: ../document/in-service/view.md
@@ -31,6 +31,23 @@ items:
     href: ../document/in-service/manage-folders.md
   - name: Search for documents
     href: ../document/in-service/find.md
+- name: Statistics in Service
+  href: ../dashboard/in-service/statistics/index.md
+  items:
+  - name: Dashboards in Service
+    href: ../dashboard/in-service/index.md
+  - name: Reports
+    href: ../dashboard/in-service/statistics/reports.md
+  - name: Standard reports
+    href: ../dashboard/in-service/statistics/standard-reports.md
+  - name: Request statistics
+    href: ../dashboard/in-service/statistics/request.md
+  - name: Login statistics
+    href: ../dashboard/in-service/statistics/login.md
+  - name: Invoice statistics
+    href: ../dashboard/in-service/statistics/invoice.md
+  - name: Create new report
+    href: ../dashboard/in-service/statistics/create-report.md
 - name: E-mail
   href: ../email/service/toc.yml
 - name: Selection
@@ -58,23 +75,6 @@ items:
     href: ../search-options/selections/in-service/delete.md
   - name: Administrate folders of selections
     href: ../search-options/selections/in-service/manage-folders.md
-- name: Statistics in Service
-  href: ../dashboard/in-service/statistics/index.md
-  items:
-  - name: Dashboards in Service
-    href: ../dashboard/in-service/index.md
-  - name: Reports
-    href: ../dashboard/in-service/statistics/reports.md
-  - name: Standard reports
-    href: ../dashboard/in-service/statistics/standard-reports.md
-  - name: Request statistics
-    href: ../dashboard/in-service/statistics/request.md
-  - name: Login statistics
-    href: ../dashboard/in-service/statistics/login.md
-  - name: Invoice statistics
-    href: ../dashboard/in-service/statistics/invoice.md
-  - name: Create new report
-    href: ../dashboard/in-service/statistics/create-report.md
 - name: User interface
   href: ../ui/in-service/index.md
   items:

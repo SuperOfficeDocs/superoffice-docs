@@ -11,16 +11,8 @@ items:
   href: bulk-update.md
 - name: Linking documents to follow ups
   href: linking-documents-to-follow-ups.md
-- name: Language and translation
-  items:
-  - name: Change active language
-    href: ../globalization/change-language.md
-  - name: Translation of content
-    href: ../globalization/translate-fields.md
-  - name: Language support for documents
-    href: ../globalization/doc-language-support.md 
-- name: Create/copy shortcut
-  href: ../win-client/creating-shortcuts-to-entries-in-crm.md         
+- name: Visibility
+  href: ../user-management/visibility.md
 - name: Work with the Section tabs
   href: section-tabs.md
   items:
@@ -46,11 +38,26 @@ items:
   items:
   - name: View activities
     href: ../company/view-activities.md
-  - name: Deleting activities
+  - name: Delete activities
     href: ../company/delete-activities-contact.md
-  - name: Replying to email from the Activities section tab
+  - name: Reply to e-mail from the Activities section tab
     href: ../company/replying-to-email-from-activities-section-tab.md
-  - name: Forwarding email from the Activities section tab
+  - name: Forward e-mail from the Activities section tab
     href: ../company/forwarding-email-from-activities-section-tab.md
+
+- name: Language and translation
+  items:
+  - name: Change active language
+    href: ../globalization/change-language.md
+  - name: Translation of content
+    href: ../globalization/translate-fields.md
+  - name: Language support for documents
+    href: ../globalization/doc-language-support.md 
+  - name: Time zones
+    href: ../globalization/time-zones.md
+- name: Create/copy shortcut
+  href: ../win-client/creating-shortcuts-to-entries-in-crm.md         
 - name: External applications and URL addresses
   href: external-applications-and-url-addresses.md
+- name: ERP
+  href: ../erp/toc.yml

@@ -46,8 +46,6 @@ items:
 
   - name: Edit logon rights for other users
     href: edit-logon-rights-for-other-users.md
-  - name: Visibility
-    href: visibility.md
 
   - name: Role
     href: role/toc.yml
