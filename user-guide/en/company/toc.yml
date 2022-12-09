@@ -36,15 +36,5 @@ items:
     href: delete-relation.md
   - name: Change the rank of contacts
     href: change-rank-of-contacts.md
-- name: Work with activities in company
-  items:
-  - name: View activities
-    href: view-activities.md
-  - name: Deleting activities
-    href: delete-activities-contact.md
-  - name: Replying to email from the Activities section tab
-    href: replying-to-email-from-activities-section-tab.md
-  - name: Forwarding email from the Activities section tab
-    href: forwarding-email-from-activities-section-tab.md
 - name: Address formats for different countries
   href: address-formats.md

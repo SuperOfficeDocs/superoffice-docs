@@ -10,10 +10,29 @@ items:
     href: ../search-options/in-service/search-kb.md
   - name: Search in the Navigator
     href: ../search-options/in-service/in-navigator.md
+- name: Personal settings in Service
+  href: ../settings/in-service/personal-settings/toc.yml
 - name: Person
   href: customers/person/toc.yml
 - name: Company
   href: customers/company/toc.yml
+- name: Documents
+  href: in-service/index.md
+  items:
+  - name: View documents
+    href: ../document/in-service/view.md
+  - name: Create documents
+    href: ../document/in-service/create.md
+  - name: Edit documents
+    href: ../document/in-service/edit.md
+  - name: Delete documents
+    href: ../document/in-service/delete.md
+  - name: Administrate document folders
+    href: ../document/in-service/manage-folders.md
+  - name: Search for documents
+    href: ../document/in-service/find.md
+- name: E-mail
+  href: ../email/service/toc.yml
 - name: Selection
   href: ../search-options/selections/in-service/index.md
   items:
@@ -39,6 +58,23 @@ items:
     href: ../search-options/selections/in-service/delete.md
   - name: Administrate folders of selections
     href: ../search-options/selections/in-service/manage-folders.md
+- name: Statistics in Service
+  href: ../dashboard/in-service/statistics/index.md
+  items:
+  - name: Dashboards in Service
+    href: ../dashboard/in-service/index.md
+  - name: Reports
+    href: ../dashboard/in-service/statistics/reports.md
+  - name: Standard reports
+    href: ../dashboard/in-service/statistics/standard-reports.md
+  - name: Request statistics
+    href: ../dashboard/in-service/statistics/request.md
+  - name: Login statistics
+    href: ../dashboard/in-service/statistics/login.md
+  - name: Invoice statistics
+    href: ../dashboard/in-service/statistics/invoice.md
+  - name: Create new report
+    href: ../dashboard/in-service/statistics/create-report.md
 - name: User interface
   href: ../ui/in-service/index.md
   items:
@@ -57,6 +93,9 @@ items:
       href: ../ui/in-service/profiles/common.md
     - name: Global profiles
       href: ../ui/in-service/profiles/global.md
+- name: Package properties
+  href: ../settings/screen/package-properties.md
+
 - name: Invoice
   href: ../request/invoice/index.md
   items:

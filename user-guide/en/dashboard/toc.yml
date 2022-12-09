@@ -22,20 +22,3 @@ items:
     href: remove-tile.md
   - name: Using sales targets in tiles
     href: show-sales-targets.md
-- name: Statistics in Service
-  href: in-service/statistics/index.md
-  items:
-  - name: Dashboards in Service
-    href: in-service/index.md
-  - name: Reports
-    href: in-service/statistics/reports.md
-  - name: Standard reports
-    href: in-service/statistics/standard-reports.md
-  - name: Request statistics
-    href: in-service/statistics/request.md
-  - name: Login statistics
-    href: in-service/statistics/login.md
-  - name: Invoice statistics
-    href: in-service/statistics/invoice.md
-  - name: Create new report
-    href: in-service/statistics/create-report.md

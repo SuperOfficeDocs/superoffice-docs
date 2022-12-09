@@ -30,7 +30,7 @@ language: en
 <!-- Referenced links -->
 [1]: create.md#add-a-document-for-a-status
 [2]: create.md#add-a-follow-up-for-a-status
-[3]: ../admin/project-status
+[3]: ../../settings/lists/project-status.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-admin-workflow-active.png

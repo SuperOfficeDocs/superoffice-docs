@@ -5,7 +5,7 @@ items:
   href: stages.md
 - name: Sales guide
   href: sales-guide/index.md
-- name: Sale section tabs
+- name: Section tabs on sale
   href: screen/index.md
   items:
   - name: Activities

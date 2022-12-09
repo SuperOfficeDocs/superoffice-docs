@@ -1,7 +1,7 @@
 items:
 - name: Overview
   href: index.md
-- name: Selections screen
+- name: Selection screen
   href: screen/index.md
 - name: Static selections
   href: static-selections.md
@@ -20,7 +20,7 @@ items:
     href: create/create-combined.yml
   - name: Copy a selection
     href: create/copy.md
-- name: Updating selections
+- name: Update selection
   href: update/index.md
   items:
   - name: Add members to static selection
@@ -31,26 +31,26 @@ items:
     href: update/copy-members-to.md
   - name: Delete a selection
     href: update/delete.md
-- name: Performing tasks using selections
+- name: Perform tasks on selection
   href: howto/index.md
   items:
   - name: Create mailing
     href: howto/create-mailings.md
-  - name: Send email to multiple several recipients
+  - name: Send e-mail to multiple recipients
     href: howto/send-email.md
-  - name: Generating follow ups
+  - name: Generate follow-ups
     href: howto/generate-follow-ups.md
-  - name: Display selections as charts
+  - name: Display selection as charts
     href: howto/display-as-charts.md
   - name: Bulk update
     href: howto/bulk-update.md
   - name: Printing labels Selection
     href: howto/print-labels.md
-  - name: Printing company reports
+  - name: Print company reports
     href: howto/print-company-reports.md
   - name: Export to file
     href: howto/export-to-file.md
   - name: Export to Excel
     href: howto/export-to-excel.md
-  - name: Deleting companies permanently
+  - name: Delete records permanently
     href: howto/deleting-companies-permanently.md

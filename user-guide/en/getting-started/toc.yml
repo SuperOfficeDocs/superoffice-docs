@@ -30,5 +30,6 @@ items:
   href: favourites.md
 - name: Tooltip
   href: info-box.md
+
 - name: Technical requirements
   href: technical-requirements.md
