@@ -157,7 +157,7 @@ Planning meeting:
 
 <!-- Referenced links -->
 [1]: ../../../../docs/document/templates/variables/from-project-card.md
-[2]: ../../settings/lists/project-status
+[2]: ../../settings/lists/project-status.md
 [3]: ../../settings/lists/project-type.md
 [4]: ../../settings/lists/document-template.md
 

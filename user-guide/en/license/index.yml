@@ -22,11 +22,11 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: License overview
-          url: license/overview.md
+          url: overview.md
         - text: The licences screen
-          url: license/screen/index.md
+          url: screen/index.md
         - text: Activate license
-          url: license/activate.md
+          url: activate.md
 
   # Card
   - title: User management
@@ -34,19 +34,19 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Roles
-          url: user-management/role/index.md
+          url: ../user-management/role/index.md
         - text: Create a role
-          url: user-management/role/create-role.md
+          url: ../user-management/role/create-role.md
         - text: Users
-          url: user-management/index.md
+          url: ../user-management/index.md
         - text: Add users
-          url: user-management/add-associate.md
+          url: ../user-management/add-associate.md
         - text: Update user information
-          url: user-management/update-user.md
+          url: ../user-management/update-user.md
         - text: Create user groups
-          url: user-management/create-user-group.md
+          url: ../user-management/create-user-group.md
         - text: Add company in the Our companies tab
-          url: user-management/add-our-companies.md
+          url: ../user-management/add-our-companies.md
       
   # Card
   - title: Languages and localization
@@ -54,13 +54,13 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Change the language version
-          url: globalization/change-language.md
+          url: ../globalization/change-language.md
         - text: Time zones
-          url: globalization/time-zones.md
+          url: ../globalization/time-zones.md
         - text: Translation
-          url: globalization/translate-fields.md
+          url: ../globalization/translate-fields.md
         - text: Language support for documents
-          url: globalization/doc-language-support.md
+          url: ../globalization/doc-language-support.md
 
   # Card
   - title: Import
@@ -68,17 +68,17 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Configure import settings
-          url: import/configure-import-settings.md
+          url: ../import/configure-import-settings.md
         - text: Import from Excel
-          url: import/import-from-excel.md
+          url: ../import/import-from-excel.md
         - text: Import products from Excel
-          url: import/import-products-from-excel.md
+          url: ../import/import-products-from-excel.md
         - text: Import from Gmail
-          url: import/import-from-gmail.md
+          url: ../import/import-from-gmail.md
         - text: Import from Outlook
-          url: import/import-from-outlook.md
+          url: ../import/import-from-outlook.md
         - text: Import from ERP
-          url: import/import-from-erp.md
+          url: ../import/import-from-erp.md
 
   # Card
   - title: AI
@@ -86,6 +86,6 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Categorization
-          url: ai/categorization.md
+          url: ../ai/categorization.md
         - text: Text analysis
-          url: ai/text-analysis.md
+          url: ../ai/text-analysis.md

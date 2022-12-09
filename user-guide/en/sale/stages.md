@@ -58,7 +58,7 @@ If you set the sale to **Sold** or **Lost**, you can enter the date, any competi
 <!-- Referenced links -->
 [1]: sales-guide/index.md
 [2]: screen/index.md
-[3]: admin/add-stage.md
+[3]: ../settings/lists/sale-stage.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/salg-utsatt.bmp

@@ -30,7 +30,7 @@ language: en
 <!-- Referenced links -->
 [1]: create.md#add-a-follow-up-for-a-stage
 [2]: create.md#add-a-document-for-a-stage
-[3]: ../admin/add-stage.md
+[3]: ../../settings/lists/sale-stage.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-admin-workflow-active.png

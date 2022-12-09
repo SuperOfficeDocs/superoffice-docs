@@ -65,6 +65,6 @@ If the total number of new licenses is less than the number of licenses in use, 
 
 <!-- Referenced links -->
 [1]: screen/index.md
-[3]: index.md
+[3]: overview.md
 
 <!-- Referenced images -->
