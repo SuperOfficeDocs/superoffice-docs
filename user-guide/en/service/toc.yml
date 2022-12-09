@@ -1,6 +1,6 @@
 items:
 - name: Search
-  href: .../search-options/in-service/index.md
+  href: ../search-options/in-service/index.md
   items:
   - name: Customize presentation
     href: ../search-options/in-service/customize-presentation.md
@@ -61,11 +61,11 @@ items:
   href: ../request/invoice/index.md
   items:
   - name: View invoice data for company
-    href: ../invoice/for-company.md
+    href: ../request/invoice/for-company.md
   - name: View invoice data for contact
-    href: ../invoice/for-contact.md
+    href: ../request/invoice/for-contact.md
   - name: Create invoice types
-    href: ../invoice/create-type.md
+    href: ../request/invoice/create-type.md
   - name: Delete invoice types
-    href: ../invoice/delete-type.md
+    href: ../request/invoice/delete-type.md
     

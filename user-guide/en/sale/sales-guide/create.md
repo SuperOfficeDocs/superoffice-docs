@@ -149,7 +149,7 @@ Agenda for first meeting:
 
 <!-- Referenced links -->
 [1]:../../../../docs/document/templates/variables/for-sales.md
-[2]: ../../settings/lists/stage.md
+[2]: ../../settings/lists/sale-stage.md
 [3]: ../../settings/lists/sale-type.md
 [4]: ../../settings/lists/document-template.md
 

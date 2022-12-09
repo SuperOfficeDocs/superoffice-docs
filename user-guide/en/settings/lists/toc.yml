@@ -70,7 +70,7 @@ items:
     href: ../../project/screen/project-status-admin.md
     items:
     - name: Add a project status
-      href: project-status
+      href: project-status.md
   - name: Project Type
     href: ../../project/screen/project-type-admin.md
     items:

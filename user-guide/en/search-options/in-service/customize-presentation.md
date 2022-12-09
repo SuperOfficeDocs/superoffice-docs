@@ -54,7 +54,7 @@ You can also add functions, for example, a summary column in the search results 
 6. In the next list box, select **Column 3**, corresponding to the **Created** column.
 7. In the next list box, select **Column 4**, corresponding to the **Read by request handler** column.
 8. Click **Add column** The new column containing the **Time difference** function is added at the bottom of the column list.
-9. To move the column farther to the left of the table view, click the up arrow ![icon][img9] to the right of the relevant entry under **Columns**, until it is correctly positioned.
+9. To move the column farther to the left of the table view, click the up arrow ![icon][img8] to the right of the relevant entry under **Columns**, until it is correctly positioned.
 10. Click **OK**. The column containing the function is added.
 
 > [!TIP]
@@ -62,7 +62,7 @@ You can also add functions, for example, a summary column in the search results 
 
 ## Change the order of columns
 
-Use the arrow buttons ![icon][img9] and ![icon][img10] to the right of the columns to move the various columns where you want.
+Use the arrow buttons ![icon][img8] and ![icon][img9] to the right of the columns to move the various columns where you want.
 
 ## Edit columns
 
@@ -88,5 +88,4 @@ Click the delete icon ![icon][img1] to the right of the required column. The col
 [img6]: ../../../../common/icons/dropdown-arrow.png
 [img7]: ../../../media/icons/arrow-up.png
 [img8]: ../../../media/icons/service/btn-RankUp.png
-[img9]: ../../../media/icons/service/btn-RankUp.png
-[img10]: ../../../media/icons/service/btn-RankDown.png
+[img9]: ../../../media/icons/service/btn-RankDown.png
