@@ -11,10 +11,17 @@ PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
 
 Update a user's role in a chat topic
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatTopicId | int32 | Id of the chat topic **Required** |
 | username | string | Associate username or associate id to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Update a user's role in a chat topic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: useragent
+## Request Body: useragent  
 
-User's updated role within the chat topic.
+User's updated role within the chat topic. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +50,8 @@ User's updated role within the chat topic.
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 453,
+  "TopicId": 954,
   "User": null,
-  "CanListen": true,
-  "CanRespond": true,
+  "CanListen": false,
+  "CanRespond": false,
   "CanManage": true,
-  "CanNotify": false
+  "CanNotify": true
 }
 ```
 
@@ -88,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 359,
+  "TopicId": 563,
   "User": null,
   "CanListen": true,
-  "CanRespond": true,
-  "CanManage": false,
+  "CanRespond": false,
+  "CanManage": true,
   "CanNotify": false
 }
 ```

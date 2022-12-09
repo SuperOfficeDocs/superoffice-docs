@@ -11,11 +11,18 @@ PUT /api/v1/List/Reason/Items/{itemId}/Headings
 
 Saves headings for the Reason list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 827,
-    "Name": "Bergstrom LLC",
-    "ToolTip": "Aut et omnis unde ullam iste.",
+    "Id": 970,
+    "Name": "Boyer Inc and Sons",
+    "ToolTip": "Nulla ipsum totam ut nobis quasi voluptatem nobis.",
     "Deleted": false,
-    "Rank": 261,
-    "Type": "qui",
-    "ColorBlock": 630,
-    "IconHint": "cupiditate",
-    "Selected": true,
-    "LastChanged": "2004-08-25T11:10:54.5559343+02:00",
+    "Rank": 361,
+    "Type": "et",
+    "ColorBlock": 121,
+    "IconHint": "ex",
+    "Selected": false,
+    "LastChanged": "2004-11-28T02:49:52.4690756+01:00",
     "ChildItems": [
       {
-        "Id": 368,
-        "Name": "Doyle Group",
-        "ToolTip": "Consequuntur fuga ratione magnam autem odit.",
+        "Id": 713,
+        "Name": "VonRueden Inc and Sons",
+        "ToolTip": "Reiciendis explicabo vitae quo atque blanditiis.",
         "Deleted": false,
-        "Rank": 261,
-        "Type": "minima",
-        "ColorBlock": 911,
-        "IconHint": "nisi",
+        "Rank": 866,
+        "Type": "qui",
+        "ColorBlock": 888,
+        "IconHint": "aspernatur",
         "Selected": true,
-        "LastChanged": "2010-04-27T11:10:54.5559343+02:00",
+        "LastChanged": "2015-11-03T02:49:52.4690756+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "omnis",
+        "ExtraInfo": "id",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Mr. Estelle Bauch"
+        "FullName": "Daisy Erdman"
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "alias",
+    "ExtraInfo": "architecto",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Mr. Gage Fritsch"
+    "FullName": "Linnea Hoeger"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 955,
-    "Name": "Simonis, Gutkowski and Romaguera",
-    "ToolTip": "Nostrum quibusdam et quo qui minima voluptates.",
+    "Id": 384,
+    "Name": "Ratke Inc and Sons",
+    "ToolTip": "Optio omnis corporis itaque qui rem quaerat voluptates.",
     "Deleted": false,
-    "Rank": 27,
-    "Type": "voluptatem",
-    "ColorBlock": 645,
-    "IconHint": "minima",
+    "Rank": 889,
+    "Type": "rerum",
+    "ColorBlock": 471,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "1999-07-20T11:10:54.5569347+02:00",
+    "LastChanged": "2016-08-04T02:49:52.4690756+02:00",
     "ChildItems": [
       {
-        "Id": 169,
-        "Name": "Kilback, Kuhic and Cruickshank",
-        "ToolTip": "Eveniet dignissimos aut illum perspiciatis quis eos.",
-        "Deleted": false,
-        "Rank": 231,
-        "Type": "iste",
-        "ColorBlock": 78,
-        "IconHint": "est",
+        "Id": 461,
+        "Name": "Kreiger LLC",
+        "ToolTip": "Ea ut reprehenderit quae eaque alias dignissimos.",
+        "Deleted": true,
+        "Rank": 721,
+        "Type": "id",
+        "ColorBlock": 753,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "2018-10-09T11:10:54.5579356+02:00",
+        "LastChanged": "1998-12-02T02:49:52.4690756+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "libero",
+        "ExtraInfo": "sit",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Anissa Marjory Littel PhD",
+        "FullName": "Prof. Mandy Frieda Gerlach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 260
+            "FieldLength": 623
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "totam",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Geoffrey Larkin",
+    "FullName": "Noah Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 246
+        "FieldType": "System.Int32",
+        "FieldLength": 578
       }
     }
   }

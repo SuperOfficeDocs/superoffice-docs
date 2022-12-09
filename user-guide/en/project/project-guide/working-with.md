@@ -11,7 +11,7 @@ language: en
 
 # Work with project guides
 
-If a project guide has been defined for a project type that you specify for a project, the following happens:
+If a project guide is defined for a project type that you specify for a project, the following happens:
 
 * The first status in the project guide is selected in the **Status** field on the main **Project** card.
 * Follow-ups and/or documents for the status are listed on the **Project guide** section tab.
@@ -24,12 +24,12 @@ If a project guide has been defined for a project type that you specify for a pr
 
     You can delegate the follow-up to your colleagues by setting them as the owner of the follow-up. If defined in SuperOffice Settings and maintenance for a specific follow-up, the **Assign task to project member** dialog appears, where you can select a colleague as the owner of the follow-up.
 
-3. When you have completed the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Project guide** section tab. By default, documents are marked as completed.
+3. When you complete the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Project guide** section tab. By default, documents are marked as completed.
 
     > [!TIP]
-    > If you want to create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
+    > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] opens.
 
-4. Once all the required follow-ups and documents for a project status have been completed, you move on to the next status.
+4. Once all the required follow-ups and documents for a project status are completed, you move on to the next status.
 
     > [!NOTE]
     > If you wish, you can go to the next status without creating or performing all the follow-ups/documents in a status.
@@ -44,7 +44,7 @@ You can move the project to the next status in two ways:
 
     It can be defined in SuperOffice Settings and maintenance that the project guide should propose moving the project on to the next status when the last follow-up in a status is marked as complete. The **Project guide - move the project to the next status** dialog then opens.
 
-    Click **Yes** to move the project to the next status, or click **No** if you want to continue working on the project within the same status.
+    Click **Yes** to move the project to the next status, or click **No** to continue working on the project within the same status.
 
 * To move the project to the next status manually:
 
@@ -59,20 +59,20 @@ You can move the project to the next status in two ways:
 
 ## Example
 
-Which project types are assigned a project guide and which statuses and activities the project guides are to contain is set up in SuperOffice Settings and maintenance. What a project guide looks like can therefore vary, but below is an example of how a project using a project guide may proceed.
+Keep in mind that your project guides may be configured differently in Settings and maintenance.
 
-## Enter a new project and select a project type
+### Enter a new project and select a project type
 
 You record a new project and select the **Conference** project type, which is linked to a project guide. The project guide contains the following statuses, follow-ups and documents.
 
 | Statuses | Follow-ups | Documents |
 |---|---|---|
 | Planned | Planning meeting (Meeting (Internal)) | Conference programme (Memo) |
-| In progress | Create list of project members (Follow-up) | erence (Meeting (External)) |
+| In progress | Create list of project members (Follow-up) | conference (Meeting (External)) |
 | Closing | Evaluation meeting (Meeting (Internal)) |
 | Evaluation report (Memo) |
 
-## The Planned status
+### The Planned status
 
 1. You have agreed a meeting time and want to create the **Planning meeting** appointment in the Diary and invite participants.
 
@@ -88,7 +88,7 @@ You record a new project and select the **Conference** project type, which is li
     2. Complete the rest of the information in the fields in the **Document** dialog.
     3. Click the **Create** button to create and save the memo.
 
-3. Once the meeting has taken place and the conference programme has been decided on, you want to confirm this in the project guide and move on to the next project status.
+3. Once the meeting has taken place and the conference programme is ready, you want to confirm this in the project guide and move on to the next project status.
 
     In the project guide, check the box next to the **Planning meeting** follow-up.
 
@@ -100,16 +100,16 @@ You record a new project and select the **Conference** project type, which is li
     3. Click **Yes** to move the project to the next status.
 
     > [!NOTE]
-    > The **Project guide - move the project to the next status** dialog opens because that is what is defined for the project type. This is done in SuperOffice Settings and maintenance.
+    > The **Project guide - move the project to the next status** dialog opens because that is what is defined for the project type in SuperOffice Settings and maintenance.
 
-## The In progress status
+### The In progress status
 
-1. All the follow-ups and documents in the **Planned** status have been completed, and you have moved the project on using the **Project guide - move the project to the next status** dialog. This dialog is displayed when you set the last follow-up to completed. The follow-ups and documents for this new status are now displayed in the **Project guide** section tab.
+1. All the follow-ups and documents in the **Planned** status are completed, and you have moved the project on using the **Project guide - move the project to the next status** dialog. This dialog is displayed when you set the last follow-up to completed. The follow-ups and documents for this new status are now displayed in the **Project guide** section tab.
 
-    [!NOTE]
-    > The **Project guide - move the project to the next status** dialog only comes up if this behaviour is defined for the project type. If it is not defined, you need to [move the project to the next status](#move-to-next-status).
+    > [!NOTE]
+    > The **Project guide - move the project to the next status** dialog comes up only if this behavior is defined for the project type. If it is not defined, [move the project to the next status](#move-to-next-status).
 
-2. At the planning meeting, you agree that your colleague should set up a list of conference delegates. You want to create a task in his diary to remind him about this.
+2. At the planning meeting, you agree that your colleague should set up a list of conference delegates. You want to create a task in their diary as a reminder.
 
     1. Click **Create** next to the **Create list of project members** follow-up.
         The **Assign task to project member** dialog opens.
@@ -118,7 +118,7 @@ You record a new project and select the **Conference** project type, which is li
 
     3. Enter the required information and click **Save**. (In the **Details** tab, you can see that your colleague is already defined as the owner.)
 
-    4. The follow-up is displayed in your colleague's diary, and once he has finished setting up the list, he will mark the follow-up as **Completed**.
+    4. The follow-up is displayed in your colleague's diary, and once they have sett up the list, they will mark the follow-up as **Completed**.
 
         > [!NOTE]
         > The **Assign task to project member** dialog opens because that is what is defined in SuperOffice Settings and maintenance.
@@ -134,24 +134,24 @@ You record a new project and select the **Conference** project type, which is li
     2. Complete the information and invite the conference participants in the usual way.
     3. Click **Save**.
 
-## The Closing status
+### The Closing status
 
-1. Once the conference has been held and all relevant follow-ups and documents in the **In progress** status have been completed, you go to the last status in the project guide, which is **Closing**.
+1. After the conference and all relevant follow-ups and documents in the **In progress** status are completed, you go to the last status in the project guide, which is **Closing**.
 
     * Click **Yes** in the **Project guide - move the project to the next status** dialog.
         or
     * Click **Edit** on the main **Project** card, click the arrow to the right of the **Status** field and select **Closing** from the list, and then click **OK**.
 
-2. You want to hold an internal meeting to summarise the conference.
+2. You want to hold an internal meeting to summarize the conference.
 
     1. Click **Create** next to the **Evaluation meeting** appointment and create the appointment in the usual way.
-    2. When the appointment has been completed, check the box.
+    2. When the appointment is completed, check the box.
 
-3. Then you want to produce an evaluation report which summarises the evaluation meeting and the conference.
+3. Then you want to produce an evaluation report that summarizes the evaluation meeting and the conference.
 
     Click **Create** next to the **Evaluation report** document to create the document.
 
-Once all the required follow-ups and documents for the project have been completed, you can set the project status to completed.
+Once all the required follow-ups and documents for the project are completed, you can set the project status to completed.
 
 <!-- Referenced links -->
 [1]: ../../document/screen/index.md

@@ -11,11 +11,18 @@ PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 
 Saves user groups visible for the DeliveryType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Name": "VonRueden LLC",
-    "ToolTip": "Est tempore tempore.",
+    "Id": 77,
+    "Name": "Shields, Lindgren and Larson",
+    "ToolTip": "Temporibus labore velit a asperiores asperiores ex omnis.",
     "Deleted": false,
-    "Rank": 892,
-    "Type": "consequatur",
-    "ColorBlock": 674,
-    "IconHint": "placeat",
-    "Selected": true,
-    "LastChanged": "2019-07-18T11:10:54.2658981+02:00",
+    "Rank": 662,
+    "Type": "assumenda",
+    "ColorBlock": 760,
+    "IconHint": "maxime",
+    "Selected": false,
+    "LastChanged": "2020-12-29T02:49:52.2346937+01:00",
     "ChildItems": [
       {
-        "Id": 775,
-        "Name": "Grimes LLC",
-        "ToolTip": "Doloremque ut nulla sapiente vero corrupti et.",
-        "Deleted": true,
-        "Rank": 912,
-        "Type": "recusandae",
-        "ColorBlock": 158,
-        "IconHint": "vel",
+        "Id": 236,
+        "Name": "Champlin-Schowalter",
+        "ToolTip": "Ipsum aut porro quod recusandae.",
+        "Deleted": false,
+        "Rank": 779,
+        "Type": "aut",
+        "ColorBlock": 403,
+        "IconHint": "rerum",
         "Selected": true,
-        "LastChanged": "2002-02-10T11:10:54.2658981+01:00",
+        "LastChanged": "1997-05-04T02:49:52.2346937+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "rem",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "ratione",
         "Hidden": false,
-        "FullName": "Warren Trever Gutmann DDS"
+        "FullName": "Olin Koch"
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "quis",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Arvilla Conn"
+    "FullName": "Sterling Luettgen"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Botsford LLC",
-    "ToolTip": "Nam eius inventore.",
-    "Deleted": true,
-    "Rank": 480,
-    "Type": "tempora",
-    "ColorBlock": 417,
-    "IconHint": "occaecati",
-    "Selected": false,
-    "LastChanged": "2005-07-03T11:10:54.2668996+02:00",
+    "Id": 423,
+    "Name": "Abshire-Hermiston",
+    "ToolTip": "Illum voluptatem ut recusandae rerum nemo sed nihil.",
+    "Deleted": false,
+    "Rank": 68,
+    "Type": "ipsam",
+    "ColorBlock": 177,
+    "IconHint": "tempora",
+    "Selected": true,
+    "LastChanged": "2003-05-22T02:49:52.2346937+02:00",
     "ChildItems": [
       {
-        "Id": 57,
-        "Name": "McDermott, Greenholt and Gleason",
-        "ToolTip": "Soluta eos alias qui facere sunt itaque nam.",
-        "Deleted": true,
-        "Rank": 423,
+        "Id": 20,
+        "Name": "Mayert LLC",
+        "ToolTip": "Non velit quia.",
+        "Deleted": false,
+        "Rank": 551,
         "Type": "autem",
-        "ColorBlock": 67,
-        "IconHint": "et",
+        "ColorBlock": 144,
+        "IconHint": "quae",
         "Selected": false,
-        "LastChanged": "2001-11-30T11:10:54.2678975+01:00",
+        "LastChanged": "2008-10-10T02:49:52.2346937+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "dolores",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Miss Dorcas Nyasia Mann I",
+        "FullName": "Brad Abbott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 887
+            "FieldType": "System.String",
+            "FieldLength": 402
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "natus",
-    "Hidden": false,
-    "FullName": "Ms. Clotilde Mueller PhD",
+    "ExtraInfo": "rerum",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Miss Elian Keagan Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldType": "System.Int32",
+        "FieldLength": 525
       }
     }
   }

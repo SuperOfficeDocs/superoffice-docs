@@ -1,7 +1,7 @@
 ---
-uid: help-en-add-e-mail-template
-title: Add e-mail template
-description: Add e-mail template
+uid: help-en-add-email-template
+title: Add email template
+description: Add email template
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
@@ -9,13 +9,13 @@ so.topic: help
 language: en
 ---
 
-# Add an e-mail template
+# Add an email template
 
-E-mail templates can be used when creating new e-mails in the SuperOffice inbox, and when sending quotes, order confirmations and privacy confirmations.
+Email templates can be used when creating new emails in the SuperOffice inbox, and when sending quotes, order confirmations and privacy confirmations.
 
-Templates are displayed as items in the **E-mail - Template** list and you can add new templates to SuperOffice CRM by entering it as an item in the list.
+Templates are displayed as items in the **Email - Template** list and you can add new templates to SuperOffice CRM by entering it as an item in the list.
 
-[!include[Edit list item](../../includes/edit-list-item.md)] when the items are e-mail templates:
+[!include[Edit list item](../../includes/edit-list-item.md)] when the items are email templates:
 
 1. Enter the required name of the item in the **Template name** field.
 
@@ -25,20 +25,20 @@ Templates are displayed as items in the **E-mail - Template** list and you can a
 
 4. You now have three options:
 
-    * **Create a new e-mail template**
-    * **Copy an existing e-mail template file**.
+    * **Create a new email template**
+    * **Copy an existing email template file**.
         1. Click the **Copy template** list.
         2. Select the required template from the list.
-    * **Upload a new e-mail template from disk (.md/.md)**
+    * **Upload a new email template from disk (.md/.md)**
         1. Click the **Upload** button.
         2. Click **Upload file** in the **Upload file** dialog.
-        3. Select the required file and click **Open**. The name of the file will be displayed in the **Edit list item** dialog.
+        3. Select the required file and click **Open**. The name of the file is displayed in the **Edit list item** dialog.
 
 5. Click **Save** in the **Edit list item** dialog. The dialog is updated.
 
 6. Optional: Edit the template name, if required.
 
-7. Click **Edit** to edit the template file itself. If you have created a new e-mail template, you need to add content to the template.
+7. Click **Edit** to edit the template file itself. If you created a new email template, add content to the template.
 
 8. Enter the required information in the **Details** and **Languages** tabs.
 
@@ -50,15 +50,15 @@ Enter the following information in the **Details** tab:
 
 1. (optional) Edit the name of the template in the **Name** field. You can also add the template name in other languages by clicking ![icon][img1] (see [Translation][1]).
 
-2. Enter the title of th[e e-mail in the **Subject** field. You can also add the subject in other languages by clicking ![icon][img1] (see [Translation]][1]).
+2. Enter the title of the email in the **Subject** field. You can also add the subject in other languages by clicking ![icon][img1] (see [Translation]][1]).
 
-3. Select **Use signature in new e-mail** to add your signature to new e-mails. If you do not have a personal signature, the system signature will be used.
+3. Select **Use signature in new email** to add your signature to new emails. If you do not have a personal signature, the system signature is used.
 
-4. Select **Show e-mail dialog** to display the **New e-mail** dialog when you create a new e-mail based on this template. In this dialog you can enter data such as company, contact, project etc, which is needed if the e-mail template contains template variables.
+4. Select **Show email dialog** to display the **New email** dialog when you create a new email based on this template. In this dialog you can enter data such as company, contact, and project, which is needed if the email template contains template variables.
 
 5. Optionally, type in a description of the template in the **Description** field.
 
-6. In the **Direction** field, specify whether the template will be outgoing or incoming, by clicking the arrow (![icon][img2] ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
+6. In the **Direction** field, specify if the template is outgoing or incoming by clicking the arrow (![icon][img2] ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
 
 7. In the **Intention** field, click the arrow (![icon][img2] ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence][5]).
 
@@ -76,20 +76,20 @@ Enter the following information in the **Details** tab:
 
 Here you can add translated versions of the document template.
 
-1. Click **Add**. The **Edit list item** dialog opens.
-2. Select the language you require in the **Add language** list.
+1. Click **Add**.
+2. In the **Edit list item** dialog, select the language you require from the **Add language** list.
 3. Add the translated document template as described above.
 4. Click **Add**. The language is listed in the **Languages** tab.
 5. Repeat the steps above to add additional languages.
 
-> [!NOTE]
-> As described above, you can add translations of the template name and e-mail subject by clicking ![icon][img1] next to the relevant field. See [Translation][1].
+> [!TIP]
+> Click ![icon][img1] next to the relevant field to [add translations][1] of the template name and email subject.
 
 <!-- Referenced links -->
 [1]: ../../globalization/translate-fields.md
 [2]: ../../document/template-variables.md
-[3]: ../../sale/admin/add-sale-type.md
-[4]: ../../person/gdpr/privacy-source-add.md
+[3]: ../../settings/lists/sale-type.md
+[4]: ../../settings/lists/privacy-source-add.md
 [5]: ../../sale/saint/index.md
 
 <!-- Referenced images -->

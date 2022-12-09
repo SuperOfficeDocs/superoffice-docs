@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetCurrencyEntity
 
 Gets a CurrencyEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a CurrencyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=996
+POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=893
 POST /api/v1/Agents/List/GetCurrencyEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetCurrencyEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 16,
-  "Name": "Yundt, Rippin and Wisoky",
-  "Tooltip": "voluptatem",
-  "Rank": 395,
-  "Rate": 26168.899999999998,
-  "Units": 22643.149999999998,
+  "CurrencyId": 794,
+  "Name": "Rath-Schiller",
+  "Tooltip": "unde",
+  "Rank": 997,
+  "Rate": 21925.464,
+  "Units": 28447.318,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 344
+      "FieldLength": 513
     }
   }
 }

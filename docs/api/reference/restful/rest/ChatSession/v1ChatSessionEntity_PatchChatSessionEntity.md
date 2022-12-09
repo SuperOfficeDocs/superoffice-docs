@@ -11,6 +11,7 @@ PATCH /api/v1/ChatSession/{id}
 
 Update a ChatSessionEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IChatAgent} service SaveChatSessionEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ChatSessionEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IChatAgent} service SaveChatSessionEntity.
 ```http
 PATCH /api/v1/ChatSession/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/ChatSession/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 ChatSessionEntity  updated.
 
@@ -81,7 +93,7 @@ ChatSessionEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ChatSessionEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -126,18 +138,18 @@ Response body:
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolorum",
+    "path": "quos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolorum",
+    "path": "quos",
     "value": {}
   }
 ]
@@ -150,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 684,
-  "TopicId": 160,
+  "ChatSessionId": 198,
+  "TopicId": 900,
   "User": null,
   "Person": null,
-  "CustomerAlias": "iure",
-  "CustomerHost": "et",
-  "CustomerName": "Gerhold, Emmerich and McKenzie",
-  "CustomerEmail": "hortense.blick@wolfyost.ca",
-  "CustomerPhone": "017-212-5088 x218",
+  "CustomerAlias": "in",
+  "CustomerHost": "iste",
+  "CustomerName": "Bailey, Vandervort and Green",
+  "CustomerEmail": "armando@cremin.uk",
+  "CustomerPhone": "299.923.0737 x675",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Olson-Strosin",
+  "CustomerCompanyName": "Brakus, Ankunding and Herman",
   "Status": "Closed",
-  "FirstMessage": "sunt",
-  "LastMessage": "magni",
-  "WhenRequested": "2007-04-11T11:10:52.4801747+02:00",
-  "WhenStarted": "2017-10-17T11:10:52.4801747+02:00",
-  "WhenEnded": "2015-01-21T11:10:52.4801747+01:00",
-  "WhenIdle": "2020-12-17T11:10:52.4801747+01:00",
-  "WhenFetched": "2010-12-16T11:10:52.4801747+01:00",
-  "SessionKey": "consequatur",
-  "InitialQueuePos": 437,
-  "AlertLevel": 80,
-  "Rank": 233,
+  "FirstMessage": "omnis",
+  "LastMessage": "et",
+  "WhenRequested": "2001-02-23T02:49:50.6202849+01:00",
+  "WhenStarted": "1999-10-05T02:49:50.6202849+02:00",
+  "WhenEnded": "2021-03-01T02:49:50.6202849+01:00",
+  "WhenIdle": "2008-04-12T02:49:50.6202849+02:00",
+  "WhenFetched": "2022-01-28T02:49:50.6202849+01:00",
+  "SessionKey": "tenetur",
+  "InitialQueuePos": 723,
+  "AlertLevel": 921,
+  "Rank": 72,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -180,13 +192,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 554,
+  "Rating": 655,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldType": "System.String",
+      "FieldLength": 850
     }
   },
   "_Links": {

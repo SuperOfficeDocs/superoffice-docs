@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEmailAppointment
 
 Get appointment data contained in the emails iCal attachment
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get appointment data contained in the emails iCal attachment
 ```http
 POST /api/v1/Agents/EMail/GetEmailAppointment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/EMail/GetEmailAppointment?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MailItemId
+MailItemId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MailItemId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +88,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 155
+  "MailItemId": 716
 }
 ```
 
@@ -92,20 +102,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "nam",
-    "quia"
+    "alias",
+    "aut"
   ],
-  "Comment": "quas",
-  "Sequence": 851,
-  "DtStart": "2014-10-12T11:10:26.8824219+02:00",
-  "DtEnd": "2017-08-21T11:10:26.8824219+02:00",
-  "Superseded": true,
+  "Comment": "ab",
+  "Sequence": 670,
+  "DtStart": "2013-02-05T02:49:44.3878864+01:00",
+  "DtEnd": "2018-07-28T02:49:44.3878864+02:00",
+  "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldLength": 554
     }
   }
 }

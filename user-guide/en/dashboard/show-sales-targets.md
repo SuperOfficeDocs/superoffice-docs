@@ -11,9 +11,9 @@ language: en
 
 # Using sales targets in tiles
 
-If you have defined [sales targets][4] for your company, teams/groups and/or sales people, you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
+If [sales targets][4] are defined for your company, teams/groups and/or sales people, you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
 
-To add a tile with sales targets to a dashboard:
+## Add tile with sales targets to dashboard
 
 1. Open the **Dashboard** screen.
 
@@ -32,39 +32,37 @@ To add a tile with sales targets to a dashboard:
     * Empty sale tile
 
     > [!TIP]
-    > You can also [select an empty tile][1] to create a tile from scratch, but the chart type needs to be one of those listed above.
+    > You can also [select an empty tile][1] to create a tile from scratch, but the chart type must be one of those listed above.
 
 6. To add a tile to the dashboard, drag and drop it on the desired position on the dashboard. You can also click **Add** to add a tile to next available position. The tile will automatically adjust to the available space, and will align with the grid and columns setup.
 
-7. Adjust the tiles on the dashboard as follows:
+7. Adjust the tiles on the dashboard:
 
-    * Hold the mouse-pointer over a tile and click and drag the frame to adjust the tile size. Available slots/spaces in the dashboard will be highlighted in yellow when the tile can fit in that position.
+    * Hold the mouse-pointer over a tile and click and drag the frame to adjust the tile size. Available slots/spaces in the dashboard are highlighted in yellow when the tile can fit in that position.
 
     * Click the header of a tile and drag it to another position.
 
-8. In the dashboard, click the **Edit tile** icon ![icon][img6] on the tile you have added.
+8. In the dashboard, click the **Edit tile** icon ![icon][img6] on the new tile.
 
 9. In the **Dataset** tab, set **Sale date** to this year, quarter or month. Edit the other [criteria][2] as necessary. Remember to update the tile name to reflect any changes made here.
 
-10. In the **Layout** tab you need to edit the layout as follows:
+10. In the **Layout** tab, edit the layout:
 
-    * **Chart type**: You can change this to any chart type listed in step 5.
+    * **Chart type**: Change this to any chart type listed in step 5.
     * **Measure**: Select **Sum**.
     * **Of**: Select **Amount** or **Weighted amount**.
     * **By**: Select **Sale > Owner** (owner, full name or group) or **Sale > Sale date**.
     * **Period** (only relevant if you selected **Sale date** above): Select year, quarter or month.
-    * **Grouping**: Select **Compare to target**. If this option is not visible or is inactive, double-check that you have performed the steps above.
+    * **Grouping**: Select **Compare to target**. If this option is not visible or is inactive, double-check that you have completed the steps above.
 
-11. Edit the formatting. Depending on which chart type you have selected, you have additional options under **Formatting**:
+11. Edit the formatting. Based on the chart type you selected, you have additional options under **Formatting**:
 
-    * Big number: You can edit the colours used to display sales targets.
+    * Big number: You can edit the colors used to display sales targets.
     * Gauge chart: Use the option **Mark target at** to set the sales target on the gauge chart.
 
 12. Click ![icon][img1] to [add a translation][3] to the tile name, titles and labels.
 
-13. Click **Save**.
-
-14. Click **Done** when you have completed the dashboard.
+13. Click **Save**. Then click **Done**.
 
 <!-- Referenced links -->
 [1]: edit-tile.md

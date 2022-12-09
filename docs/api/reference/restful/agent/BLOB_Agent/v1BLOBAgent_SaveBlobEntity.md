@@ -11,6 +11,13 @@ POST /api/v1/Agents/BLOB/SaveBlobEntity
 
 Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing BlobEntity or creates a new BlobEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The BlobEntity to be saved.
+The BlobEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ The BlobEntity to be saved.
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,23 +87,23 @@ Response body:
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 894,
-  "BlobSize": 641,
-  "Description": "Secured reciprocal help-desk",
-  "ExtraInfo": "velit",
-  "IsEncrypted": true,
+  "BlobId": 768,
+  "BlobSize": 92,
+  "Description": "Upgradable bi-directional artificial intelligence",
+  "ExtraInfo": "libero",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "suscipit",
-  "OriginalSize": 41,
-  "CreatedDate": "2015-09-19T11:10:26.0245562+02:00",
-  "UpdatedDate": "2021-06-26T11:10:26.0245562+02:00",
+  "MimeType": "repudiandae",
+  "OriginalSize": 130,
+  "CreatedDate": "2002-06-24T02:49:43.7004017+02:00",
+  "UpdatedDate": "2002-07-11T02:49:43.7004017+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "omnis"
+  "ConceptualType": "accusamus"
 }
 ```
 
@@ -106,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 486,
-  "BlobSize": 294,
-  "Description": "Team-oriented homogeneous frame",
-  "ExtraInfo": "ut",
-  "IsEncrypted": true,
+  "BlobId": 917,
+  "BlobSize": 732,
+  "Description": "Inverse web-enabled encoding",
+  "ExtraInfo": "dolorem",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ad",
-  "OriginalSize": 57,
-  "CreatedDate": "2000-02-27T11:10:26.0265548+01:00",
-  "UpdatedDate": "2015-02-09T11:10:26.0265548+01:00",
+  "MimeType": "id",
+  "OriginalSize": 558,
+  "CreatedDate": "2015-11-24T02:49:43.7004017+01:00",
+  "UpdatedDate": "2000-08-24T02:49:43.7004017+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ducimus",
+  "ConceptualType": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 691
     }
   }
 }

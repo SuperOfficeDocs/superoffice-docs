@@ -11,7 +11,16 @@ GET /api/v1/User/CredentialTypes
 
 Get available credential types that can be used for authentication
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +34,7 @@ Get available credential types that can be used for authentication
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -64,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "neque",
-    "Type": "soluta",
-    "Description": "Right-sized zero defect moratorium",
+    "DisplayType": "nemo",
+    "Type": "enim",
+    "Description": "Focused uniform time-frame",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
+    "CanCreatePerson": true,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 249
+        "FieldType": "System.Int32",
+        "FieldLength": 273
       }
     }
   }

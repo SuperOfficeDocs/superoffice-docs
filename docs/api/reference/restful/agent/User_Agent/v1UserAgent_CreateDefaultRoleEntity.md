@@ -11,9 +11,17 @@ POST /api/v1/Agents/User/CreateDefaultRoleEntity
 
 Set default values into a new RoleEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +70,7 @@ Response body:
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,24 +80,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 199,
-  "Name": "Dibbert Inc and Sons",
-  "Tooltip": "nihil",
+  "RoleId": 843,
+  "Name": "Skiles LLC",
+  "Tooltip": "modi",
   "RoleType": "Anonymous",
-  "Deleted": 296,
-  "Rank": 356,
-  "Created": "2015-05-22T11:10:28.3542072+02:00",
-  "UseCategories": 269,
+  "Deleted": 806,
+  "Rank": 900,
+  "Created": "2002-07-08T02:49:45.6247201+02:00",
+  "UseCategories": 188,
   "CreatedBy": null,
-  "Updated": "1996-03-19T11:10:28.3542072+01:00",
+  "Updated": "1996-12-21T02:49:45.6247201+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 956
     }
   }
 }

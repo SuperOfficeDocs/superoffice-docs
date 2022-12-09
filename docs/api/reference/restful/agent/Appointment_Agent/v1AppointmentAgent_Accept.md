@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/Accept
 
 Accepting an appointment invitation.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Accepting an appointment invitation.
 ```http
 POST /api/v1/Agents/Appointment/Accept?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/Appointment/Accept?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentId, UpdateMode
+AppointmentId, UpdateMode 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
 | UpdateMode | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,11 +65,11 @@ Response body:
 POST /api/v1/Agents/Appointment/Accept
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 47,
+  "AppointmentId": 829,
   "UpdateMode": "OnlyThis"
 }
 ```

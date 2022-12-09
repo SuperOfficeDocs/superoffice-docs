@@ -9,12 +9,10 @@ so.topic: help
 language: en
 ---
 
-# Delete documents
-
-To delete a document from SuperOffice Service, do as follows:
+# Delete document (Service)
 
 1. Select **Knowledge Base** > **Documents**.
 2. Go to the folder where the document is located.
 3. Click the document name to go to the **Document properties** screen.
 4. Click the **Delete** button at the bottom of the screen.
-5. Click **OK** when you are asked if you want to delete the document. The document is removed from SuperOffice Service.
+5. Click **OK** to confirm. The document is removed from SuperOffice Service.

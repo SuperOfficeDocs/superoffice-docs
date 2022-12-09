@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/ValidateSaleEntity
 
 Check that entity is ready for saving, return error messages by field.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check that entity is ready for saving, return error messages by field.
 ```http
 POST /api/v1/Agents/Sale/ValidateSaleEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Sale/ValidateSaleEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleEntity
+SaleEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleEntity |  | Partial SaleEntity class associating the generated SaleEntity with an interface. |
+
 
 ## Response: object
 
@@ -53,13 +61,14 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/ValidateSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -74,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ut",
-  "2": "voluptates"
+  "1": "veritatis",
+  "2": "quo"
 }
 ```

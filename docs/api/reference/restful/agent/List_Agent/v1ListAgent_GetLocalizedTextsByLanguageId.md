@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 
 Gets all localized text belonging to a specific language.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all localized text belonging to a specific language.
 ```http
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LanguageId
+LanguageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LanguageId | int32 |  |
+
 
 ## Response: array
 
@@ -74,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 680
+  "LanguageId": 135
 }
 ```
 
@@ -86,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 103,
-    "ResourceId": 849,
-    "Text": "eveniet",
+    "LanguageId": 203,
+    "ResourceId": 400,
+    "Text": "qui",
     "Type": "Column",
-    "LocalizedTextId": 145,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 987,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 870
       }
     }
   }

@@ -17,8 +17,8 @@ You can edit the details in the **Function** and **Comments** field for project 
 
 1. [!include[Go to project](../includes/goto-project.md)]
 2. Choose the **Project Members** section tab.
-3. Double-click a project member. The **Project member** dialog opens.
-4. Make the required changes in the **Function** and **Comments** fields. There is a description of the different fields under [Add create project members][1].
+3. Double-click a project member.
+4. In the **Project member** dialog, make the required changes in the **Function** and **Comments** fields. There is a description of the different fields under [Add create project members][1].
 5. Click **Save**.
 
 > [!TIP]

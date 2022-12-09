@@ -11,7 +11,14 @@ POST /api/v1/List/TicketStatus/Headings
 
 Saves a new heading for the TicketStatusEntity list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,16 +75,16 @@ Response body:
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 650,
-  "Name": "Jewess, Rolfson and Auer",
-  "Tooltip": "officia",
+  "HeadingId": 77,
+  "Name": "White-Mayert",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 561,
-  "UdListDefinitionId": 811
+  "Rank": 791,
+  "UdListDefinitionId": 702
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 621,
-  "Name": "Corkery-McKenzie",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "Rank": 934,
-  "UdListDefinitionId": 716,
+  "HeadingId": 726,
+  "Name": "Schiller, Russel and Kling",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 185,
+  "UdListDefinitionId": 38,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldLength": 78
     }
   }
 }

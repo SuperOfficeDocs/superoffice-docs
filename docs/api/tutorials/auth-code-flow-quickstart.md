@@ -20,9 +20,7 @@ A quick-start guide for getting you up and running with an ASP.NET Core Razor Pa
 * You have a [tenant][3] with a user for testing sign-in.
 
 * You have [registered your application][2] with the following options:
-  * OpenID Connect Authorization Code flow
-
-  ![imageb65a.png][img1]
+  * OpenID Connect Authorization Code flow for web application.
 
   * Your application redirect URL list must include the example application default URL:
     * **SSL**: `https://localhost:44310/callback`
@@ -111,7 +109,7 @@ The *SoHttpRestClient.cs* file is an `HttpClient` helper class to make REST req
 If you have any issues with the sample, please post an issue on the [repo issues page][10].
 
 <!-- Referenced links -->
-[2]: ../../apps/getting-started/get-app-keys.md
+[2]: ../../developer-portal/create-app/web-app.md
 [3]: ../../apps/terminology.md
 [4]: index.md
 [5]: ../authentication/online/sign-in-user/auth-code-flow.md
@@ -121,7 +119,6 @@ If you have any issues with the sample, please post an issue on the [repo issues
 [10]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi/issues
 
 <!-- Referenced images -->
-[img1]: media/imageb65a.png
 [img2]: media/image8z7wl.png
 [img3]: media/image4oqhj.png
 [img4]: media/imagetudj9.png

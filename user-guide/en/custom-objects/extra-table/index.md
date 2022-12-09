@@ -21,8 +21,10 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 ## View entries
 
 1. Click **Requests** > **Tables** in the Navigator.
-2. Click the required table to open it and view existing entries. Here, for example, you can click **Show criteria** and search as described under [Search in SuperOffice Service][2], if you cannot see the table entry you are looking for.
-3. Double-click the required table entry in the list. The following options are available:
+
+1. Click the required table to open it and view existing entries. If you cannot see the table entry you are looking for, click **Show criteria** and [search][2].
+
+1. Double-click the required table entry in the list. The following options are available:
     * **Search**: Click here to search for a table entry.
     * **Edit**: Click here to [edit the entry](#edit-entries).
     * **New entry**: Click here to [create a new entry](#create-entries).
@@ -31,14 +33,14 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 ## Create entries
 
 1. Open an entry as described above.
-2. Click **New entry**. This screen contains one element for each column in the table. Which columns are available depend on what was specified when the table was created.
+2. Click **New entry**. This screen contains one element for each column in the table. Available columns depend on what was specified when the table was created.
 3. Enter the required information.
 4. Click **OK**. The data entry is saved.
 
 ## Edit entries
 
 1. Open an entry as described above.
-2. Click **Edit**. This screen contains one element for each column in the table. Which columns are available depend on what was specified when the table was created.
+2. Click **Edit**. This screen contains one element for each column in the table. Available columns depend on what was specified when the table was created.
 3. Make the required changes in the information that is displayed.
 4. Click **OK**. The changes are saved.
 
@@ -47,7 +49,7 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 1. Open an entry as described above.
 2. Click **Edit**.
 3. Click the **Delete** button at the bottom of the screen.
-4. Click **OK** when you are asked if you want to delete the entry.
+4. Click **OK** to confirm.
 
 <!-- Referenced links -->
 [1]: ../../ui/in-service/index.md

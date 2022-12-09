@@ -11,7 +11,13 @@ POST /api/v1/Relation
 
 Creates a new ContactRelationEntity
 
+
 Calls the Relation agent service SaveContactRelationEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Relation agent service SaveContactRelationEntity.
 ```http
 POST /api/v1/Relation?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Relation?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ContactRelationEntity to be saved.
+The ContactRelationEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +69,8 @@ The ContactRelationEntity to be saved.
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -70,7 +78,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,28 +110,28 @@ Response body:
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 967,
-  "SourcePersonId": 146,
-  "DestinationContactId": 528,
-  "DestinationPersonId": 935,
-  "RelationId": 737,
-  "Comment": "modi",
-  "RelationDefinitionId": 394,
-  "Reversed": 943,
-  "UpdatedDate": "1999-03-05T11:10:52.7431789+01:00",
-  "CreatedDate": "1999-06-03T11:10:52.7431789+02:00",
+  "SourceContactId": 812,
+  "SourcePersonId": 826,
+  "DestinationContactId": 104,
+  "DestinationPersonId": 840,
+  "RelationId": 596,
+  "Comment": "velit",
+  "RelationDefinitionId": 432,
+  "Reversed": 253,
+  "UpdatedDate": "2008-05-31T02:49:50.8390391+02:00",
+  "CreatedDate": "2000-11-02T02:49:50.8390391+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kiehn-Franecki",
-  "SourcePersonName": "McDermott, Bernhard and Johnston",
-  "DestinationContactName": "Rau, Hermiston and Tremblay",
-  "DestinationPersonName": "Harber-Stiedemann",
-  "ActiveText": "saepe",
-  "PassiveText": "non"
+  "SourceContactName": "Gislason-Hayes",
+  "SourcePersonName": "Carroll LLC",
+  "DestinationContactName": "Mann-Will",
+  "DestinationPersonName": "Fisher-Marquardt",
+  "ActiveText": "maxime",
+  "PassiveText": "sed"
 }
 ```
 
@@ -134,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 905,
-  "SourcePersonId": 847,
-  "DestinationContactId": 787,
-  "DestinationPersonId": 402,
-  "RelationId": 490,
-  "Comment": "reprehenderit",
-  "RelationDefinitionId": 960,
-  "Reversed": 103,
-  "UpdatedDate": "2020-03-14T11:10:52.7451852+01:00",
-  "CreatedDate": "2006-06-16T11:10:52.7451852+02:00",
+  "SourceContactId": 637,
+  "SourcePersonId": 492,
+  "DestinationContactId": 668,
+  "DestinationPersonId": 626,
+  "RelationId": 824,
+  "Comment": "qui",
+  "RelationDefinitionId": 665,
+  "Reversed": 371,
+  "UpdatedDate": "2013-07-14T02:49:50.8546634+02:00",
+  "CreatedDate": "2013-01-30T02:49:50.8546634+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Reilly, Grimes and Simonis",
-  "SourcePersonName": "Fahey Inc and Sons",
-  "DestinationContactName": "Schmeler LLC",
-  "DestinationPersonName": "Padberg Inc and Sons",
-  "ActiveText": "incidunt",
-  "PassiveText": "non",
+  "SourceContactName": "Huels Inc and Sons",
+  "SourcePersonName": "Hilpert-Hauck",
+  "DestinationContactName": "Schmeler Group",
+  "DestinationPersonName": "Collins, Lindgren and Runolfsdottir",
+  "ActiveText": "consequatur",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 922
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

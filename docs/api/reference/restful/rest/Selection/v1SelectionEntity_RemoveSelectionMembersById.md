@@ -11,11 +11,18 @@ POST /api/v1/Selection/{selectionId}/Members/Remove
 
 Removes members from the selection as specified in the collection of entity ids.
 
+
 The ids can be a collection of sale ids, or other supported types.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The id of the selection where to members will be removed. **Required** |
+
+
 
 ## Request Headers
 
@@ -27,11 +34,13 @@ The ids can be a collection of sale ids, or other supported types.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: ids
+## Request Body: ids  
 
-A collection of sale/project/contact ids to remove from the selection. The ids can be a collection of sale ids, or other supported types.
+A collection of sale/project/contact ids to remove from the selection. The ids can be a collection of sale ids, or other supported types. 
 
-## Response
+
+
+## Response: 
 
 No Content
 
@@ -39,7 +48,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -47,7 +57,7 @@ Response body:
 POST /api/v1/Selection/{selectionId}/Members/Remove
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

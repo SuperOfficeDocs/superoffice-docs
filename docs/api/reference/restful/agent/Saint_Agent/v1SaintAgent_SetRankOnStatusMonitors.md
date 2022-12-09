@@ -11,6 +11,12 @@ POST /api/v1/Agents/Saint/SetRankOnStatusMonitors
 
 Set rank order on status monitors
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Set rank order on status monitors
 ```http
 POST /api/v1/Agents/Saint/SetRankOnStatusMonitors?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/Saint/SetRankOnStatusMonitors?$select=name,department,catego
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type, ItemsIds
+Type, ItemsIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 | ItemsIds | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -60,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "inventore",
+  "Type": "et",
   "ItemsIds": [
-    109,
-    322
+    30,
+    773
   ]
 }
 ```

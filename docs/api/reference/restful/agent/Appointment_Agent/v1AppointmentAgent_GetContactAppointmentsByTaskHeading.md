@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 
 Method that returns a specified number of appointments of a specific appointment task heading within a time range.
 
+
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the contact specified. Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, TaskHeadingId
+ContactId, StartTime, EndTime, Count, TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ ContactId, StartTime, EndTime, Count, TaskHeadingId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskHeadingId | int32 |  |
+
 
 ## Response: array
 
@@ -119,15 +127,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 310,
-  "StartTime": "1997-09-30T11:10:25.4405254+02:00",
-  "EndTime": "2003-09-24T11:10:25.4405254+02:00",
-  "Count": 567,
-  "TaskHeadingId": 737
+  "ContactId": 908,
+  "StartTime": "2006-10-20T02:49:43.2304992+02:00",
+  "EndTime": "2002-12-11T02:49:43.2304992+01:00",
+  "Count": 351,
+  "TaskHeadingId": 934
 }
 ```
 
@@ -139,61 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 542,
-    "StartDate": "2021-03-18T11:10:25.4425249+01:00",
-    "EndDate": "2017-08-02T11:10:25.4425249+02:00",
+    "AppointmentId": 414,
+    "StartDate": "2018-04-14T02:49:43.2304992+02:00",
+    "EndDate": "1997-12-23T02:49:43.2304992+01:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Gisselle Rice",
-    "ContactName": "Wisoky-Considine",
-    "Description": "Versatile modular benchmark",
-    "PersonFullName": "Abdiel Jazlyn Schmidt II",
-    "PersonId": 224,
-    "ContactId": 449,
-    "ProjectId": 406,
-    "ProjectName": "Reichel-Hodkiewicz",
+    "Task": "veniam",
+    "AssociateFullName": "Therese Beier",
+    "ContactName": "Satterfield Group",
+    "Description": "Mandatory multi-state attitude",
+    "PersonFullName": "Celine Jakubowski",
+    "PersonId": 194,
+    "ContactId": 930,
+    "ProjectId": 686,
+    "ProjectName": "Lebsack, Fahey and Waelchi",
     "IsPublished": false,
-    "AssociateId": 650,
-    "ColorIndex": 890,
+    "AssociateId": 393,
+    "ColorIndex": 115,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 784,
-    "PriorityName": "Yundt Group",
+    "PriorityId": 979,
+    "PriorityName": "Beier Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2020-11-03T11:10:25.4425249+01:00",
+    "ActiveDate": "2004-04-16T02:49:43.2304992+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-04-15T11:10:25.4425249+02:00",
-    "RecurringEndDate": "1996-03-22T11:10:25.4425249+01:00",
-    "MotherId": 84,
-    "AssignedBy": 679,
-    "AssignedByFullName": "Vivienne Koelpin",
+    "RecurringStartDate": "2005-11-07T02:49:43.2304992+01:00",
+    "RecurringEndDate": "2006-05-11T02:49:43.2304992+02:00",
+    "MotherId": 716,
+    "AssignedBy": 109,
+    "AssignedByFullName": "Mose Walsh",
     "RejectReason": "",
-    "Location": "vitae",
-    "AlarmLeadTime": "nam",
-    "SaleId": 266,
-    "SaleName": "Herman-Emmerich",
-    "AssociateName": "Wilderman-Little",
-    "CreatedDate": "2015-04-21T11:10:25.4435257+02:00",
-    "CreatedBy": "enim",
-    "CreatedByFullName": "Prof. Wilhelm Elouise Trantow Sr.",
-    "CreatedByAssociateId": 316,
+    "Location": "corrupti",
+    "AlarmLeadTime": "quidem",
+    "SaleId": 443,
+    "SaleName": "Kuvalis Group",
+    "AssociateName": "Green, Jenkins and Waelchi",
+    "CreatedDate": "2020-01-12T02:49:43.2304992+01:00",
+    "CreatedBy": "rerum",
+    "CreatedByFullName": "Ms. Keshawn Weimann I",
+    "CreatedByAssociateId": 346,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldType": "System.String",
+        "FieldLength": 852
       }
     }
   }

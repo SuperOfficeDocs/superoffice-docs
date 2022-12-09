@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointment
 
 Get published appointment by appointment id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published appointment by appointment id.
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedAppointment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointment?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentId
+AppointmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -117,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 549
+  "AppointmentId": 436
 }
 ```
 
@@ -128,61 +136,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 737,
-  "StartDate": "2010-10-25T11:10:25.4445258+02:00",
-  "EndDate": "2022-03-04T11:10:25.4445258+01:00",
+  "AppointmentId": 322,
+  "StartDate": "2002-05-02T02:49:43.2304992+02:00",
+  "EndDate": "2011-06-14T02:49:43.2304992+02:00",
   "Type": "BookingForChecklist",
-  "Task": "et",
-  "AssociateFullName": "Alan Krajcik",
-  "ContactName": "Koss LLC",
-  "Description": "Networked reciprocal focus group",
-  "PersonFullName": "Ms. Uriah Welch",
-  "PersonId": 990,
-  "ContactId": 554,
-  "ProjectId": 750,
-  "ProjectName": "DuBuque LLC",
-  "IsPublished": false,
-  "AssociateId": 278,
-  "ColorIndex": 646,
+  "Task": "officiis",
+  "AssociateFullName": "Chauncey Johnson",
+  "ContactName": "Koelpin-Goyette",
+  "Description": "Upgradable modular orchestration",
+  "PersonFullName": "Barbara Torp",
+  "PersonId": 551,
+  "ContactId": 939,
+  "ProjectId": 82,
+  "ProjectName": "Nolan Group",
+  "IsPublished": true,
+  "AssociateId": 578,
+  "ColorIndex": 57,
   "IsFree": true,
-  "HasAlarm": true,
-  "IsAlldayEvent": true,
+  "HasAlarm": false,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 989,
-  "PriorityName": "Beier, Fay and Bogan",
+  "PriorityId": 734,
+  "PriorityName": "Nader-Torp",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2000-09-06T11:10:25.4455251+02:00",
+  "ActiveDate": "1996-09-08T02:49:43.2304992+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2010-04-06T11:10:25.4455251+02:00",
-  "RecurringEndDate": "1997-02-20T11:10:25.4455251+01:00",
-  "MotherId": 214,
-  "AssignedBy": 275,
-  "AssignedByFullName": "Jennings Quigley",
+  "RecurringStartDate": "2007-01-23T02:49:43.2304992+01:00",
+  "RecurringEndDate": "2013-11-10T02:49:43.2304992+01:00",
+  "MotherId": 285,
+  "AssignedBy": 583,
+  "AssignedByFullName": "Leonard Witting",
   "RejectReason": "",
-  "Location": "cumque",
-  "AlarmLeadTime": "eum",
-  "SaleId": 998,
-  "SaleName": "Bahringer, Baumbach and Frami",
-  "AssociateName": "Bayer-Rosenbaum",
-  "CreatedDate": "2008-03-16T11:10:25.4455251+01:00",
-  "CreatedBy": "voluptate",
-  "CreatedByFullName": "Enrique Mann II",
-  "CreatedByAssociateId": 389,
+  "Location": "iusto",
+  "AlarmLeadTime": "velit",
+  "SaleId": 503,
+  "SaleName": "Batz, Braun and Wilkinson",
+  "AssociateName": "Schaefer, Schamberger and Fritsch",
+  "CreatedDate": "2016-03-14T02:49:43.2304992+01:00",
+  "CreatedBy": "error",
+  "CreatedByFullName": "Trenton Steuber",
+  "CreatedByAssociateId": 369,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldType": "System.String",
+      "FieldLength": 765
     }
   }
 }

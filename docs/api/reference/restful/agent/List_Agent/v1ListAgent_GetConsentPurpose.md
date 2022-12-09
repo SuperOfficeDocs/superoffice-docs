@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetConsentPurpose
 
 Gets a ConsentPurpose object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=9
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=467
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +78,7 @@ Response body:
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 916,
-  "Name": "Shanahan Group",
-  "ConsentText": "provident",
-  "FormText": "et",
-  "Key": "tempora",
-  "Tooltip": "ducimus",
-  "Active": 85,
-  "UpdatedDate": "1996-06-22T11:10:27.2734531+02:00",
+  "ConsentPurposeId": 392,
+  "Name": "Reichel LLC",
+  "ConsentText": "voluptatem",
+  "FormText": "qui",
+  "Key": "provident",
+  "Tooltip": "voluptatem",
+  "Active": 957,
+  "UpdatedDate": "1999-02-25T02:49:44.7016713+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 496,
-  "PrivacyStatementDesc": "est",
+  "Deleted": true,
+  "Rank": 126,
+  "PrivacyStatementDesc": "eveniet",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 334
     }
   }
 }

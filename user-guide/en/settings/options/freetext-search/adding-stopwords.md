@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Add stopwords
-
-To add a stopword manually:
+# Add stopword
 
 > [!NOTE]
 > Instead of entering stopwords manually, you can let the system suggest stopwords for you. See [Suggest stopwords][1].
@@ -29,7 +27,7 @@ To add a stopword manually:
 1. A message informs you that changes to the stopword list do not have a retroactive effect. In other words, new stopwords will not apply for text entered before the stopword was specified. Click **OK**.
 
     > [!TIP]
-    > If you want your changes to have a retroactive effect, you need to regenerate the freetext index. This should be done after you have added stopwords, after the system has suggested stopwords or after importing a large quantity of text. See [Regenerate a freetext index][3].
+    > If you want your changes to have a retroactive effect, you must [regenerate the freetext index][3]. Do this after you add stopwords, after the system suggests stopwords, or after importing a large quantity of text.
 
 <!-- Referenced links -->
 [1]: suggesting-stopwords.md

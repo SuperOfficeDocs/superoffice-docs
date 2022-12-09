@@ -11,7 +11,14 @@ POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 
 Set default values into a new ContactEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +99,7 @@ Response body:
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,157 +109,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 361,
-  "Name": "Greenholt, Hintz and Greenholt",
-  "Department": "synergize intuitive markets",
-  "OrgNr": "1041818",
-  "Number1": "1118103",
-  "Number2": "785838",
-  "UpdatedDate": "2004-03-31T11:10:26.2255548+02:00",
-  "CreatedDate": "2011-03-02T11:10:26.2255548+01:00",
+  "ContactId": 675,
+  "Name": "Reynolds LLC",
+  "Department": "transform end-to-end portals",
+  "OrgNr": "1442818",
+  "Number1": "401735",
+  "Number2": "1115858",
+  "UpdatedDate": "2020-06-19T02:49:43.8722795+02:00",
+  "CreatedDate": "1996-08-25T02:49:43.8722795+02:00",
   "Emails": [
     {
-      "Value": "ipsum",
-      "StrippedValue": "quae",
-      "Description": "Fundamental clear-thinking service-desk",
+      "Value": "ut",
+      "StrippedValue": "et",
+      "Description": "Centralized national neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldLength": 433
         }
       }
     },
     {
-      "Value": "ipsum",
-      "StrippedValue": "quae",
-      "Description": "Fundamental clear-thinking service-desk",
+      "Value": "ut",
+      "StrippedValue": "et",
+      "Description": "Centralized national neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldLength": 433
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 723,
-      "Name": "Gorczany Inc and Sons",
-      "ToolTip": "Non at cumque aliquam corrupti aut inventore esse.",
-      "Deleted": false,
-      "Rank": 2,
-      "Type": "rerum",
-      "ColorBlock": 118,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2012-03-08T11:10:26.2255548+01:00",
+      "Id": 508,
+      "Name": "Eichmann-Graham",
+      "ToolTip": "Non iure.",
+      "Deleted": true,
+      "Rank": 951,
+      "Type": "sit",
+      "ColorBlock": 310,
+      "IconHint": "facere",
+      "Selected": false,
+      "LastChanged": "2013-02-16T02:49:43.8722795+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "debitis",
-      "StyleHint": "molestiae",
-      "Hidden": true,
-      "FullName": "Lexi Blake Walsh MD",
+      "ExtraInfo": "minima",
+      "StyleHint": "modi",
+      "Hidden": false,
+      "FullName": "Ms. Mariano Sam Douglas Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 319
+          "FieldType": "System.Int32",
+          "FieldLength": 372
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "totam",
-      "StrippedValue": "facilis",
-      "Description": "Implemented demand-driven access",
+      "Value": "asperiores",
+      "StrippedValue": "nihil",
+      "Description": "Polarised disintermediate structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldType": "System.String",
+          "FieldLength": 362
         }
       }
     },
     {
-      "Value": "totam",
-      "StrippedValue": "facilis",
-      "Description": "Implemented demand-driven access",
+      "Value": "asperiores",
+      "StrippedValue": "nihil",
+      "Description": "Polarised disintermediate structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldType": "System.String",
+          "FieldLength": 362
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "rerum",
-      "StrippedValue": "omnis",
-      "Description": "Enhanced local intranet",
+      "Value": "esse",
+      "StrippedValue": "id",
+      "Description": "Re-contextualized actuating orchestration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldLength": 776
         }
       }
     },
     {
-      "Value": "rerum",
-      "StrippedValue": "omnis",
-      "Description": "Enhanced local intranet",
+      "Value": "esse",
+      "StrippedValue": "id",
+      "Description": "Re-contextualized actuating orchestration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldLength": 776
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "corrupti",
-      "StrippedValue": "et",
-      "Description": "Triple-buffered scalable frame",
+      "Value": "quasi",
+      "StrippedValue": "accusantium",
+      "Description": "Versatile logistical application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 316
         }
       }
     },
     {
-      "Value": "corrupti",
-      "StrippedValue": "et",
-      "Description": "Triple-buffered scalable frame",
+      "Value": "quasi",
+      "StrippedValue": "accusantium",
+      "Description": "Versatile logistical application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 316
         }
       }
     }
   ],
-  "Description": "Function-based bifurcated forecast",
+  "Description": "Sharable dynamic benchmark",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -260,100 +268,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "cumque",
-      "PersonId": 660,
-      "Mrmrs": "eveniet",
-      "Firstname": "Jedediah",
-      "Lastname": "Farrell",
-      "MiddleName": "Senger, Heller and Lockman",
-      "Title": "qui",
-      "Description": "Digitized composite algorithm",
-      "Email": "frank@reilly.biz",
-      "FullName": "Magali Harvey MD",
-      "DirectPhone": "610.097.6700 x1865",
-      "FormalName": "Mohr Group",
-      "CountryId": 416,
-      "ContactId": 117,
-      "ContactName": "Johns, Ritchie and Ryan",
-      "Retired": 827,
-      "Rank": 82,
-      "ActiveInterests": 282,
+      "Position": "culpa",
+      "PersonId": 793,
+      "Mrmrs": "impedit",
+      "Firstname": "Camille",
+      "Lastname": "Gulgowski",
+      "MiddleName": "Hoeger LLC",
+      "Title": "voluptas",
+      "Description": "Configurable grid-enabled forecast",
+      "Email": "loyce@connellyberge.us",
+      "FullName": "Miss Jewel Ernser",
+      "DirectPhone": "1-258-423-1939 x926",
+      "FormalName": "Runolfsson LLC",
+      "CountryId": 540,
+      "ContactId": 46,
+      "ContactName": "Hoeger Inc and Sons",
+      "Retired": 710,
+      "Rank": 147,
+      "ActiveInterests": 868,
       "ContactDepartment": "",
-      "ContactCountryId": 415,
-      "ContactOrgNr": "396893",
-      "FaxPhone": "187.783.5423",
-      "MobilePhone": "099-304-1905",
-      "ContactPhone": "1-392-482-3064 x312",
-      "AssociateName": "Abshire Group",
-      "AssociateId": 798,
+      "ContactCountryId": 352,
+      "ContactOrgNr": "1267977",
+      "FaxPhone": "1-181-190-6630 x5496",
+      "MobilePhone": "178.367.0632 x15298",
+      "ContactPhone": "242.180.2553 x494",
+      "AssociateName": "Hayes LLC",
+      "AssociateId": 13,
       "UsePersonAddress": false,
-      "ContactFax": "et",
-      "Kanafname": "quos",
-      "Kanalname": "accusamus",
-      "Post1": "beatae",
-      "Post2": "non",
-      "Post3": "repudiandae",
-      "EmailName": "eddie@oconnell.com",
-      "ContactFullName": "Miss Hoyt Reichel",
-      "ActiveErpLinks": 531,
-      "TicketPriorityId": 479,
-      "SupportLanguageId": 554,
-      "SupportAssociateId": 237,
+      "ContactFax": "sed",
+      "Kanafname": "nam",
+      "Kanalname": "dolor",
+      "Post1": "rerum",
+      "Post2": "sit",
+      "Post3": "quia",
+      "EmailName": "jesse_oberbrunner@cruickshank.com",
+      "ContactFullName": "Dr. Lazaro Ondricka",
+      "ActiveErpLinks": 821,
+      "TicketPriorityId": 413,
+      "SupportLanguageId": 746,
+      "SupportAssociateId": 950,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 739
+          "FieldLength": 591
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "adipisci",
-  "Xstop": true,
-  "ActiveInterests": 987,
-  "GroupId": 322,
-  "ActiveStatusMonitorId": 171,
+  "Kananame": "et",
+  "Xstop": false,
+  "ActiveInterests": 956,
+  "GroupId": 577,
+  "ActiveStatusMonitorId": 823,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 750,
-  "DbiAgentId": 330,
-  "DbiLastSyncronized": "2016-05-30T11:10:26.2295527+02:00",
-  "DbiKey": "esse",
-  "DbiLastModified": "2002-05-01T11:10:26.2295527+02:00",
+  "Deleted": 819,
+  "DbiAgentId": 321,
+  "DbiLastSyncronized": "2020-05-10T02:49:43.8879031+02:00",
+  "DbiKey": "reiciendis",
+  "DbiLastModified": "2005-03-08T02:49:43.8879031+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 222,
-  "ActiveErpLinks": 926,
+  "Source": 714,
+  "ActiveErpLinks": 90,
   "BounceEmails": [
-    "guy_sauer@abbotthyatt.biz",
-    "jarrod@nitzsche.com"
+    "evangeline@hicklerohan.co.uk",
+    "antonetta@herzog.co.uk"
   ],
   "Domains": [
-    "hic",
-    "illum"
+    "occaecati",
+    "inventore"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "2029628606",
-    "SuperOffice:2": "Pietro Bogan"
+    "SuperOffice:1": "157682787",
+    "SuperOffice:2": "1622172156"
   },
   "ExtraFields": {
-    "ExtraFields1": "dignissimos",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "et"
+    "CustomFields1": "qui",
+    "CustomFields2": "nostrum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 720
+      "FieldLength": 143
     }
   }
 }

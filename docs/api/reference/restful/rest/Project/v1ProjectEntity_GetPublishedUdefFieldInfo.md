@@ -11,9 +11,16 @@ GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 
 Get a published ProjectEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a published ProjectEntity user-defined field's details based on the prog-id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ProjectEntity found.
 
@@ -37,7 +45,7 @@ ProjectEntity found.
 | 200 | ProjectEntity found. |
 | 404 | ProjectEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +92,7 @@ Response body:
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 997,
-  "ColumnId": 578,
-  "FieldDefault": "architecto",
-  "FieldHeight": 62,
+  "UDefFieldId": 3,
+  "ColumnId": 957,
+  "FieldDefault": "et",
+  "FieldHeight": 922,
   "FieldLabel": "consequatur",
-  "FieldLeft": 110,
-  "FieldTop": 37,
+  "FieldLeft": 385,
+  "FieldTop": 457,
   "FieldType": "Checkbox",
-  "FieldWidth": 763,
-  "FormatMask": "incidunt",
-  "HideLabel": false,
+  "FieldWidth": 117,
+  "FormatMask": "voluptatibus",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 987,
-  "LabelLeft": 253,
-  "LabelTop": 542,
-  "LabelWidth": 125,
-  "LastVersionId": 721,
-  "ListTableId": 364,
-  "IsMandatory": false,
+  "LabelHeight": 763,
+  "LabelLeft": 549,
+  "LabelTop": 652,
+  "LabelWidth": 270,
+  "LastVersionId": 370,
+  "ListTableId": 45,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 977,
-  "ProgId": "quo",
+  "Page1LineNo": 4,
+  "ProgId": "ab",
   "IsReadOnly": true,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 832,
-  "TextLength": 122,
-  "Tooltip": "est",
-  "UdefIdentity": 910,
-  "UDListDefinitionId": 830,
+  "ShortLabel": "voluptas",
+  "TabOrder": 109,
+  "TextLength": 222,
+  "Tooltip": "magnam",
+  "UdefIdentity": 73,
+  "UDListDefinitionId": 6,
   "Justification": "Center",
-  "Version": 12,
-  "TemplateVariableName": "Collier, Huel and Reichert",
+  "Version": 362,
+  "TemplateVariableName": "Kautzer, Parker and Eichmann",
   "HasBeenPublished": true,
-  "MdoListName": "Pollich Group",
+  "MdoListName": "Klocko Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 1002
     }
   }
 }

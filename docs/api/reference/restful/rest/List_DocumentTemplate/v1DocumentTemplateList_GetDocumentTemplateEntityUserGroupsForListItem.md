@@ -11,11 +11,18 @@ GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 
 Gets user groups visible for the DocumentTemplateEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "Frami, Morar and Treutel",
-    "ToolTip": "Beatae et et cupiditate.",
+    "Id": 604,
+    "Name": "Dach, DuBuque and Schimmel",
+    "ToolTip": "Qui ex occaecati fugit asperiores.",
     "Deleted": true,
-    "Rank": 619,
-    "Type": "possimus",
-    "ColorBlock": 506,
-    "IconHint": "eveniet",
+    "Rank": 545,
+    "Type": "aut",
+    "ColorBlock": 266,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2019-06-18T11:10:54.286897+02:00",
+    "LastChanged": "2012-01-02T02:49:52.2503161+01:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Sauer Group",
-        "ToolTip": "Et ratione alias dolorum esse porro tempore.",
-        "Deleted": true,
-        "Rank": 260,
-        "Type": "quo",
-        "ColorBlock": 474,
-        "IconHint": "quos",
-        "Selected": false,
-        "LastChanged": "2011-01-24T11:10:54.286897+01:00",
+        "Id": 299,
+        "Name": "Feeney, Eichmann and Schumm",
+        "ToolTip": "Voluptatem laborum aliquam animi doloremque.",
+        "Deleted": false,
+        "Rank": 773,
+        "Type": "illo",
+        "ColorBlock": 79,
+        "IconHint": "quis",
+        "Selected": true,
+        "LastChanged": "2012-01-19T02:49:52.2503161+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "fugit",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Kevon Kling IV",
+        "FullName": "Edgar Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 810
+            "FieldType": "System.String",
+            "FieldLength": 600
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "cupiditate",
-    "Hidden": false,
-    "FullName": "Mr. Carrie Johnson",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "deleniti",
+    "Hidden": true,
+    "FullName": "Lowell Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 626
+        "FieldLength": 669
       }
     }
   }

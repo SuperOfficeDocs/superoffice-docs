@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetAttachment
 
 Retrieve an attachment from an e-mail
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Retrieve an attachment from an e-mail
 ```http
 POST /api/v1/Agents/EMail/GetAttachment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/EMail/GetAttachment?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfo, MessageServerId, AttachmentId
+ConnectionInfo, MessageServerId, AttachmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +56,8 @@ ConnectionInfo, MessageServerId, AttachmentId
 | MessageServerId | int32 |  |
 | AttachmentId | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 173,
-  "AttachmentId": "culpa"
+  "MessageServerId": 989,
+  "AttachmentId": "nemo"
 }
 ```
 
@@ -93,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-architected user-facing challenge",
-  "Filename": "porro",
-  "Size": 287,
-  "Type": "cum",
-  "Encoding": "eaque",
-  "Id": "culpa",
-  "Disposition": "corrupti",
+  "Description": "Expanded 5th generation encryption",
+  "Filename": "quaerat",
+  "Size": 933,
+  "Type": "earum",
+  "Encoding": "quidem",
+  "Id": "aut",
+  "Disposition": "occaecati",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   }
 }

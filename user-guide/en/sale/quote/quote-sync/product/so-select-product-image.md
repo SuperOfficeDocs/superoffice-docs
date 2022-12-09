@@ -11,17 +11,17 @@ language: en
 
 # Select product image
 
-To select a picture for a product in **SuperOffice products**:
-
 [!include[Go to products](../includes/goto-products.md)]
 
 1. Select the required **Price list**.
 
 1. Double-click a product in the list. The **Add/Edit product** dialog appears.
 
-1. Click **Change image** at the bottom of the image screen. The **Select image** dialog opens.
+1. Click **Change image** at the bottom of the image screen.
 
-1. Click one of the images shown under **Images** (images are only displayed here if they have been added to the database). The image is displayed in the field on the right.
+1. In the **Select image** dialog, click one of the images shown under **Images** (on the right).
+
+    Images are displayed only if they are added to the database.
 
 1. Click **OK** to close the dialog. The image is added to the database and displayed in the field on the right.
 

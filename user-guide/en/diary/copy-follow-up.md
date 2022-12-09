@@ -11,7 +11,7 @@ language: en
 
 # Copy a follow-up to the Diary
 
-Copying a follow-up to another time or day in the diary uses exactly the same procedure as [moving a follow-up][1]). However, when copying, you need to hold down the **CTRL** key while you drag and drop.
+Copying a follow-up to another time or day in the diary uses exactly the same procedure as [moving a follow-up][1]). However, when copying, hold down the **CTRL** key while you drag and drop.
 
 <!-- Referenced links -->
 [1]: move-follow-up.md

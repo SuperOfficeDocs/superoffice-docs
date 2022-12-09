@@ -11,11 +11,17 @@ GET /api/v1/List/Task/Items/{itemId}/Headings
 
 Gets headings for the TaskListItem list's item.
 
+
 Calls the Appointment agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "McKenzie, D'Amore and Christiansen",
-    "ToolTip": "Est odit iusto aut recusandae.",
-    "Deleted": true,
-    "Rank": 990,
-    "Type": "sequi",
-    "ColorBlock": 864,
-    "IconHint": "aliquid",
+    "Id": 555,
+    "Name": "Altenwerth-Torphy",
+    "ToolTip": "Voluptatem qui voluptas ut neque.",
+    "Deleted": false,
+    "Rank": 773,
+    "Type": "voluptatem",
+    "ColorBlock": 696,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "2012-10-17T11:10:54.6649294+02:00",
+    "LastChanged": "2011-07-26T02:49:52.5628301+02:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Franecki-Flatley",
-        "ToolTip": "Alias repudiandae enim aut.",
-        "Deleted": true,
-        "Rank": 776,
-        "Type": "minus",
-        "ColorBlock": 305,
-        "IconHint": "nulla",
+        "Id": 59,
+        "Name": "Gerlach-Paucek",
+        "ToolTip": "Necessitatibus fugiat odio sunt sit.",
+        "Deleted": false,
+        "Rank": 20,
+        "Type": "ipsum",
+        "ColorBlock": 949,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2006-09-14T11:10:54.6649294+02:00",
+        "LastChanged": "2009-02-26T02:49:52.5628301+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "error",
-        "Hidden": false,
-        "FullName": "Cornell Cordie Koss MD",
+        "ExtraInfo": "ab",
+        "StyleHint": "accusantium",
+        "Hidden": true,
+        "FullName": "Nathanael Delphia Reichert IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldLength": 53
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "repudiandae",
     "Hidden": true,
-    "FullName": "Mr. Cecile Kshlerin V",
+    "FullName": "Darwin Stoltenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 594
+        "FieldType": "System.Int32",
+        "FieldLength": 552
       }
     }
   }

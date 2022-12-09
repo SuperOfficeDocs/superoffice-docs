@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 
 Accept the transfer: assign the session to the user.
 
+
 If the session is not being transferred, nothing happens.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If the session is not being transferred, nothing happens.
 ```http
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Chat/AcceptChatSessionTransfer?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatSessionId
+ChatSessionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,7 +109,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 150
+  "ChatSessionId": 164
 }
 ```
 
@@ -112,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 892,
-  "TopicId": 429,
+  "ChatSessionId": 124,
+  "TopicId": 80,
   "User": null,
   "Person": null,
-  "CustomerAlias": "fugiat",
-  "CustomerHost": "a",
-  "CustomerName": "Bailey, Hayes and Hettinger",
-  "CustomerEmail": "beverly@wisoky.biz",
-  "CustomerPhone": "087.454.4460 x3611",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Stroman Inc and Sons",
+  "CustomerAlias": "quas",
+  "CustomerHost": "minus",
+  "CustomerName": "Dickinson Group",
+  "CustomerEmail": "jerod_kihn@brown.uk",
+  "CustomerPhone": "108-584-3302 x8019",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Lindgren-Stokes",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "officiis",
-  "WhenRequested": "2009-02-01T11:10:26.1195254+01:00",
-  "WhenStarted": "2004-07-26T11:10:26.1195254+02:00",
-  "WhenEnded": "2020-03-30T11:10:26.1195254+02:00",
-  "WhenIdle": "2013-01-22T11:10:26.1195254+01:00",
-  "WhenFetched": "2015-01-30T11:10:26.1195254+01:00",
-  "SessionKey": "sed",
-  "InitialQueuePos": 393,
-  "AlertLevel": 533,
-  "Rank": 40,
+  "FirstMessage": "tenetur",
+  "LastMessage": "fuga",
+  "WhenRequested": "1996-03-12T02:49:43.7941589+01:00",
+  "WhenStarted": "2006-11-05T02:49:43.7941589+01:00",
+  "WhenEnded": "1997-02-17T02:49:43.7941589+01:00",
+  "WhenIdle": "2017-03-30T02:49:43.7941589+02:00",
+  "WhenFetched": "1996-03-09T02:49:43.7941589+01:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 359,
+  "AlertLevel": 982,
+  "Rank": 314,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 256,
+  "ChatbotIsActive": false,
+  "Rating": 746,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 114
     }
   }
 }

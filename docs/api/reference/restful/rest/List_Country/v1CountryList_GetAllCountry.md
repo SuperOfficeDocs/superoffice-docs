@@ -11,7 +11,13 @@ GET /api/v1/List/Country/Items
 
 Gets a list of all Country list items.
 
+
 Calls the List agent service GetAllCountry.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the List agent service GetAllCountry.
 ```http
 GET /api/v1/List/Country/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Country/Items?includeDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -75,7 +83,7 @@ Response body: array
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 397,
-    "Name": "Fisher, Effertz and Larson",
-    "CurrencyId": 200,
-    "EnglishName": "Kertzmann, Crist and Ernser",
+    "CountryId": 103,
+    "Name": "Daniel Inc and Sons",
+    "CurrencyId": 987,
+    "EnglishName": "Morissette-Schuppe",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Adaptive reciprocal flexibility",
-    "OrgNrText": "1018546",
-    "InterAreaPrefix": "necessitatibus",
-    "DialInPrefix": "sunt",
-    "ZipPrefix": "doloribus",
-    "DomainName": "Crooks-Paucek",
-    "AddressLayoutId": 850,
-    "DomesticAddressLayoutId": 251,
-    "ForeignAddressLayoutId": 679,
-    "Rank": 657,
-    "Tooltip": "tempora",
-    "Deleted": false,
+    "ImageDescription": "Open-architected interactive concept",
+    "OrgNrText": "877057",
+    "InterAreaPrefix": "fugit",
+    "DialInPrefix": "qui",
+    "ZipPrefix": "et",
+    "DomainName": "O'Reilly-Reichel",
+    "AddressLayoutId": 827,
+    "DomesticAddressLayoutId": 335,
+    "ForeignAddressLayoutId": 576,
+    "Rank": 209,
+    "Tooltip": "corporis",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldLength": 414
       }
     }
   }

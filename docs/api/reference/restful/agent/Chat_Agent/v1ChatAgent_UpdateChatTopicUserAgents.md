@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents
 
 Update users roles in a chat topic
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update users roles in a chat topic
 ```http
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatTopicId, Useragents
+ChatTopicId, Useragents 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
 | Useragents | array |  |
+
 
 ## Response: array
 
@@ -69,26 +77,26 @@ Response body: array
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 159,
+  "ChatTopicId": 377,
   "Useragents": [
     {
-      "TopicId": 89,
+      "TopicId": 785,
       "User": null,
       "CanListen": false,
-      "CanRespond": true,
-      "CanManage": false,
+      "CanRespond": false,
+      "CanManage": true,
       "CanNotify": true
     },
     {
-      "TopicId": 89,
+      "TopicId": 785,
       "User": null,
       "CanListen": false,
-      "CanRespond": true,
-      "CanManage": false,
+      "CanRespond": false,
+      "CanManage": true,
       "CanNotify": true
     }
   ]
@@ -103,7 +111,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 168,
+    "TopicId": 142,
     "User": null,
     "CanListen": false,
     "CanRespond": false,
@@ -111,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "CanNotify": false
   },
   {
-    "TopicId": 168,
+    "TopicId": 142,
     "User": null,
     "CanListen": false,
     "CanRespond": false,

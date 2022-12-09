@@ -11,7 +11,7 @@ language: en
 
 # Copy reply template
 
-If you want to create a new reply template based on an existing reply template, you can copy it.
+To create a new reply template based on an existing reply template, you can copy it.
 
 1. Select **Knowledge Base > Reply templates**.
 2. Go to the folder where the reply template is located.

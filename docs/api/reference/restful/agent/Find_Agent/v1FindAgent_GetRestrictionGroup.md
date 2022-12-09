@@ -11,6 +11,12 @@ POST /api/v1/Agents/Find/GetRestrictionGroup
 
 Return the restriction group with given rank or a blank carrier.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return the restriction group with given rank or a blank carrier.
 ```http
 POST /api/v1/Agents/Find/GetRestrictionGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Find/GetRestrictionGroup?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, Rank, Context
+StorageType, ProviderName, StorageKey, Rank, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ StorageType, ProviderName, StorageKey, Rank, Context
 | Rank | int32 |  |
 | Context | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,11 +82,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "in",
-  "ProviderName": "Torp-Carter",
-  "StorageKey": "repellat",
-  "Rank": 511,
-  "Context": "fugiat"
+  "StorageType": "dolorum",
+  "ProviderName": "Schmitt, Casper and Bartoletti",
+  "StorageKey": "debitis",
+  "Rank": 752,
+  "Context": "sint"
 }
 ```
 
@@ -89,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jenkins-Jacobi",
-  "Description": "Ameliorated radical leverage",
-  "Rank": 804,
+  "Name": "Dickens, Terry and Mills",
+  "Description": "Switchable high-level instruction set",
+  "Rank": 537,
   "Restrictions": [
     {
-      "Name": "Roberts LLC",
-      "Operator": "voluptatem",
+      "Name": "Auer LLC",
+      "Operator": "et",
       "Values": [
-        "nulla",
-        "quia"
+        "sint",
+        "doloremque"
       ],
       "DisplayValues": [
-        "aliquam",
-        "qui"
+        "esse",
+        "quia"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -110,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 857,
+      "InterParenthesis": 682,
       "InterOperator": "And",
-      "UniqueHash": 69
+      "UniqueHash": 366
     }
   ]
 }

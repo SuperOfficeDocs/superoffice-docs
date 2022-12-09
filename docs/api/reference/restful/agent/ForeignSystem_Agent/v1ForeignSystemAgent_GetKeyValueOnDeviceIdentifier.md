@@ -11,7 +11,13 @@ POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
 
 Returning a foreign key string value by its key name and device identifier, that belongs to the specified device and application.
 
+
 A table name and record ID can also be specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ A table name and record ID can also be specified.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
+ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,6 +56,7 @@ ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
 | KeyName | string |  |
 | TableName | string |  |
 | RecordId | int32 |  |
+
 
 ## Response: string
 
@@ -60,22 +68,23 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Braun-O'Reilly",
-  "DeviceName": "Dare Group",
-  "DeviceIdentifier": "ex",
-  "KeyName": "Dibbert, O'Connell and Little",
-  "TableName": "Lehner-Hahn",
-  "RecordId": 915
+  "ApplicationName": "Bergstrom, Goldner and Lehner",
+  "DeviceName": "Littel Inc and Sons",
+  "DeviceIdentifier": "ea",
+  "KeyName": "Gislason, Dickinson and Feil",
+  "TableName": "Morar Group",
+  "RecordId": 828
 }
 ```
 
@@ -85,5 +94,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"accusamus"
+"autem"
 ```

@@ -11,9 +11,16 @@ GET /api/v1/ShipmentMessageBlock/Associate/{associateId}
 
 Get the saved user blocks to be used in a shipment/mailing message
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | The associate id to get the user blocks. 0 will get all saved blocks **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Get the saved user blocks to be used in a shipment/mailing message
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -68,20 +76,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 607,
-    "AssociateId": 812,
-    "Block": "quisquam",
-    "Registered": "2010-02-23T11:10:53.522175+01:00",
-    "RegisteredAssociateId": 917,
-    "Updated": "2018-01-07T11:10:53.522175+01:00",
-    "UpdatedAssociateId": 60,
-    "UpdatedCount": 841,
+    "ShipmentMessageBlockId": 32,
+    "AssociateId": 849,
+    "Block": "id",
+    "Registered": "1998-08-23T02:49:51.536309+02:00",
+    "RegisteredAssociateId": 201,
+    "Updated": "2009-07-23T02:49:51.536309+02:00",
+    "UpdatedAssociateId": 474,
+    "UpdatedCount": 233,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 333
+        "FieldType": "System.Int32",
+        "FieldLength": 461
       }
     }
   }

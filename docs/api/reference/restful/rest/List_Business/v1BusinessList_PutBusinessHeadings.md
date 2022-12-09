@@ -11,7 +11,14 @@ PUT /api/v1/List/Business/Headings
 
 Saves headings for the Business list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 302,
-    "Name": "Wiza Group",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 343,
-    "UdListDefinitionId": 978
+    "HeadingId": 873,
+    "Name": "Mohr-Walker",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 738,
+    "UdListDefinitionId": 837
   },
   {
-    "HeadingId": 302,
-    "Name": "Wiza Group",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 343,
-    "UdListDefinitionId": 978
+    "HeadingId": 873,
+    "Name": "Mohr-Walker",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 738,
+    "UdListDefinitionId": 837
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 641,
-    "Name": "Jacobson-Crona",
-    "Tooltip": "blanditiis",
+    "HeadingId": 571,
+    "Name": "Block LLC",
+    "Tooltip": "perspiciatis",
     "Deleted": true,
-    "Rank": 204,
-    "UdListDefinitionId": 197,
+    "Rank": 635,
+    "UdListDefinitionId": 681,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldType": "System.String",
+        "FieldLength": 989
       }
     }
   }

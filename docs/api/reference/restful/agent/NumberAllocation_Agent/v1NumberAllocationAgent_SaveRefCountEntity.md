@@ -11,6 +11,13 @@ POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 
 Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing RefCountEntity or creates a new RefCountEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The RefCountEntity to be saved.
+The RefCountEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +50,8 @@ The RefCountEntity to be saved.
 | ReadOnly | bool | Target field is read only in GUI |
 | AllowBlank | bool | Allow blank  as a valid value |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,32 +87,32 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 573,
-  "Field": "a",
-  "RecordId": 41,
+  "RefCountsId": 415,
+  "Field": "similique",
+  "RecordId": 507,
   "SuggestedRecords": [
     {
-      "Id": 36,
-      "Name": "Haley, Zieme and Davis",
-      "ToolTip": "Earum rerum nulla minima.",
+      "Id": 411,
+      "Name": "Hills-Ryan",
+      "ToolTip": "Occaecati omnis neque omnis.",
       "Deleted": false,
-      "Rank": 460,
-      "Type": "aut",
+      "Rank": 895,
+      "Type": "alias",
       "ChildItems": [
         {},
         {}
       ],
       "IconHint": "et",
-      "ColorBlock": 226,
-      "ExtraInfo": "unde",
-      "StyleHint": "deserunt",
-      "FullName": "Velma Fisher"
+      "ColorBlock": 86,
+      "ExtraInfo": "ducimus",
+      "StyleHint": "nisi",
+      "FullName": "Roy Olson"
     }
   ],
-  "CurrentValue": 890,
-  "TravelPrefix": 1001,
-  "SatPrefix": 805,
-  "Allocate": true,
+  "CurrentValue": 779,
+  "TravelPrefix": 90,
+  "SatPrefix": 948,
+  "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false
@@ -118,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 862,
-  "Field": "asperiores",
-  "RecordId": 304,
+  "RefCountsId": 921,
+  "Field": "dolorum",
+  "RecordId": 548,
   "SuggestedRecords": [
     {
-      "Id": 918,
-      "Name": "Zulauf-Effertz",
-      "ToolTip": "Et voluptate enim hic repellendus eius.",
+      "Id": 799,
+      "Name": "Daugherty, Morar and Haag",
+      "ToolTip": "Et non voluptas delectus saepe aut.",
       "Deleted": false,
-      "Rank": 210,
-      "Type": "alias",
+      "Rank": 849,
+      "Type": "id",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nostrum",
-      "ColorBlock": 292,
-      "ExtraInfo": "qui",
-      "StyleHint": "consequatur",
-      "FullName": "Nathen Griffin West IV",
+      "IconHint": "deleniti",
+      "ColorBlock": 809,
+      "ExtraInfo": "eius",
+      "StyleHint": "unde",
+      "FullName": "Emery Kelton Greenfelder Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 765
+          "FieldLength": 42
         }
       }
     }
   ],
-  "CurrentValue": 485,
-  "TravelPrefix": 811,
-  "SatPrefix": 589,
+  "CurrentValue": 374,
+  "TravelPrefix": 633,
+  "SatPrefix": 151,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 946
     }
   }
 }

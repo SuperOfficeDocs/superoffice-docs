@@ -11,10 +11,17 @@ GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 
 List of User groups that this list item is visible for
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
+
+
 
 ## Request Headers
 
@@ -28,6 +35,7 @@ List of User groups that this list item is visible for
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -65,7 +73,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Legros-Abshire",
-    "ToolTip": "Nisi est adipisci recusandae.",
-    "Deleted": true,
-    "Rank": 575,
-    "Type": "numquam",
-    "ColorBlock": 300,
-    "IconHint": "similique",
+    "Id": 223,
+    "Name": "Cremin-Dibbert",
+    "ToolTip": "Sequi velit magnam quod natus.",
+    "Deleted": false,
+    "Rank": 748,
+    "Type": "non",
+    "ColorBlock": 671,
+    "IconHint": "minus",
     "Selected": false,
-    "LastChanged": "2000-05-13T11:10:53.8912156+02:00",
+    "LastChanged": "2019-12-19T02:49:51.8596935+01:00",
     "ChildItems": [
       {
-        "Id": 179,
-        "Name": "Christiansen, Vandervort and Klocko",
-        "ToolTip": "Voluptas qui a aperiam.",
+        "Id": 94,
+        "Name": "Jewess Group",
+        "ToolTip": "Ad numquam culpa reprehenderit.",
         "Deleted": false,
-        "Rank": 322,
-        "Type": "fugit",
-        "ColorBlock": 981,
-        "IconHint": "sit",
+        "Rank": 146,
+        "Type": "aut",
+        "ColorBlock": 432,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2008-06-20T11:10:53.8912156+02:00",
+        "LastChanged": "1999-05-08T02:49:51.8596935+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "quis",
+        "StyleHint": "provident",
         "Hidden": false,
-        "FullName": "Mrs. Ari Florida Koss",
+        "FullName": "Darlene Altenwerth DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 646
+            "FieldType": "System.Int32",
+            "FieldLength": 877
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "eius",
-    "Hidden": true,
-    "FullName": "Ms. Erwin Towne",
+    "ExtraInfo": "minima",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Miss Rick Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldLength": 226
       }
     }
   }

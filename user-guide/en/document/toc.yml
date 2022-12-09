@@ -3,36 +3,25 @@ items:
   href: index.md
 - name: Document screen
   href: screen/index.md
-- name: Creating new documents
-  href: create.md
-- name: Upload documents
-  href: upload.md
-- name: Opening documents
-  href: open.md
-- name: Check in/out documents
-  href: lock.md
-- name: Editing documents
-  href: edit.md
-- name: Sending documents from the Activities section tab
-  href: send-as-email.md
-- name: Deleting documents
-  href: delete.md
-- name: Template variables
-  href: template-variables.md
-- name: WebTools
-  href: web-tools.md
-- name: Documents in Service
-  href: in-service/index.md
+- name: Language support for documents
+  href: ../globalization/doc-language-support.md
+- name: Work with document
   items:
-  - name: View documents
-    href: in-service/view.md
-  - name: Create documents
-    href: in-service/create.md
-  - name: Edit documents
-    href: in-service/edit.md
-  - name: Delete documents
-    href: in-service/delete.md
-  - name: Administrate document folders
-    href: in-service/manage-folders.md
-  - name: Search for documents
-    href: in-service/find.md
+  - name: Creating new documents
+    href: create.md
+  - name: Upload documents
+    href: upload.md
+  - name: Opening documents
+    href: open.md
+  - name: Check in/out documents
+    href: lock.md
+  - name: Editing documents
+    href: edit.md
+  - name: Sending documents from the Activities section tab
+    href: send-as-email.md
+  - name: Deleting documents
+    href: delete.md
+  - name: Template variables
+    href: template-variables.md
+  - name: WebTools
+    href: web-tools.md

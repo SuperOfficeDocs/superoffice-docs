@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuote
 
 Get a Quote
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a Quote
 ```http
 POST /api/v1/Agents/Quote/GetQuote?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/GetQuote?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteId
+QuoteId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,11 +86,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 109
+  "QuoteId": 418
 }
 ```
 
@@ -93,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 785,
-  "SaleId": 418,
-  "QuoteConnectionId": 863,
-  "ERPQuoteKey": "reprehenderit",
-  "ERPOrderKey": "perspiciatis",
-  "ActiveQuoteVersionId": 860,
-  "AcceptedQuoteAlternativeId": 377,
-  "UseValuesFromQuote": 777,
-  "DocumentId": 797,
-  "PoNumber": "1486387",
-  "OrderComment": "vero",
-  "PreferredEmailCulture": "bernard@faheyhansen.biz",
+  "QuoteId": 22,
+  "SaleId": 309,
+  "QuoteConnectionId": 570,
+  "ERPQuoteKey": "aut",
+  "ERPOrderKey": "in",
+  "ActiveQuoteVersionId": 846,
+  "AcceptedQuoteAlternativeId": 593,
+  "UseValuesFromQuote": 183,
+  "DocumentId": 369,
+  "PoNumber": "1605882",
+  "OrderComment": "nam",
+  "PreferredEmailCulture": "george_durgan@hamill.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -112,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldLength": 611
     }
   }
 }

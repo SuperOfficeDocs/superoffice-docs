@@ -13,13 +13,13 @@ language: en
 
 [!include[Restricted access](../../../includes/note-insufficient-rights.md)]
 
-Profiles in the system are used for configuring the appearance and behaviour of screen elements.
+Profiles in the system are used for configuring the appearance and behavior of screen elements.
 
 For example:
 
-* move or add columns in the list of requests in the **Contact** screen
-* add or remove fields in the **Request** screen header (also **Contact** and **Company** screen headers)
-* customize the search results screen to your needs
+* Move or add columns in the list of requests in the **Contact** screen
+* Add or remove fields in the **Request** screen header (also **Contact** and **Company** screen headers)
+* Customize the search results screen to your needs
 
 Each screen element can have personal, common and global profiles.
 
@@ -27,7 +27,7 @@ Each screen element can have personal, common and global profiles.
 * Common profiles are linked to a role and apply to all users who have that role.
 * A global profile is used as the default profile and applies to all those who do not have a personal profile or who have not been assigned a common profile on the basis of the role they belong to.
 
-Using profiles, SuperOffice Service can be adapted to the needs of individual users, groups of users or the whole organisation.
+Using profiles, SuperOffice Service can be adapted to the needs of individual users, groups of users or the whole organization.
 
 ## What would you like to find out more about?
 

@@ -11,6 +11,13 @@ PUT /api/v1/List/Position/Items
 
 Update the Position list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the Position list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Position.
+All the updated Position. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated Position.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -65,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 698,
-    "Name": "Marvin Group",
-    "Tooltip": "ut",
+    "Id": 539,
+    "Name": "Graham, Rolfson and Borer",
+    "Tooltip": "molestiae",
     "Deleted": true,
-    "UdListDefinitionId": 481,
-    "Rank": 691
+    "UdListDefinitionId": 184,
+    "Rank": 705
   },
   {
-    "Id": 698,
-    "Name": "Marvin Group",
-    "Tooltip": "ut",
+    "Id": 539,
+    "Name": "Graham, Rolfson and Borer",
+    "Tooltip": "molestiae",
     "Deleted": true,
-    "UdListDefinitionId": 481,
-    "Rank": 691
+    "UdListDefinitionId": 184,
+    "Rank": 705
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Goldner, Parker and O'Connell",
-    "Tooltip": "praesentium",
-    "Deleted": true,
-    "UdListDefinitionId": 689,
-    "Rank": 776,
+    "Id": 474,
+    "Name": "Schmidt-Legros",
+    "Tooltip": "molestiae",
+    "Deleted": false,
+    "UdListDefinitionId": 848,
+    "Rank": 825,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 15
+        "FieldLength": 220
       }
     }
   }

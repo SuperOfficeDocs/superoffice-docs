@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetPersonAppointments
 
 Method that returns a specified number of appointments within a time range.
 
+
 The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the person specified. If the person not is a SuperOff
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetPersonAppointments?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectAppointments, StartTime, EndTime, Count
+PersonId, IncludeProjectAppointments, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ PersonId, IncludeProjectAppointments, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -119,15 +127,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 457,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2013-01-01T11:10:25.7415532+01:00",
-  "EndTime": "2006-05-30T11:10:25.7415532+02:00",
-  "Count": 74
+  "PersonId": 814,
+  "IncludeProjectAppointments": true,
+  "StartTime": "1996-04-26T02:49:43.4972799+02:00",
+  "EndTime": "2002-04-12T02:49:43.4972799+02:00",
+  "Count": 213
 }
 ```
 
@@ -139,53 +147,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 290,
-    "StartDate": "2005-07-07T11:10:25.7435528+02:00",
-    "EndDate": "2019-08-22T11:10:25.7435528+02:00",
+    "AppointmentId": 641,
+    "StartDate": "1996-11-20T02:49:43.4972799+01:00",
+    "EndDate": "2001-03-03T02:49:43.4972799+01:00",
     "Type": "BookingForChecklist",
-    "Task": "vitae",
-    "AssociateFullName": "Miss Ellen Ervin Auer",
-    "ContactName": "DuBuque, Romaguera and Schneider",
-    "Description": "Secured transitional structure",
-    "PersonFullName": "Maximillian Jessie Langworth MD",
-    "PersonId": 700,
-    "ContactId": 942,
-    "ProjectId": 337,
-    "ProjectName": "Hane-Glover",
+    "Task": "et",
+    "AssociateFullName": "Prof. Juvenal Foster Ankunding",
+    "ContactName": "Jacobi-Anderson",
+    "Description": "Decentralized systemic local area network",
+    "PersonFullName": "Roman Hagenes",
+    "PersonId": 962,
+    "ContactId": 288,
+    "ProjectId": 884,
+    "ProjectName": "Larkin, Mertz and Walker",
     "IsPublished": false,
-    "AssociateId": 868,
-    "ColorIndex": 797,
+    "AssociateId": 897,
+    "ColorIndex": 212,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 786,
-    "PriorityName": "O'Keefe Group",
+    "PriorityId": 145,
+    "PriorityName": "Fritsch, Mertz and Towne",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2022-03-04T11:10:25.7435528+01:00",
+    "ActiveDate": "2022-08-08T02:49:43.4972799+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-09-04T11:10:25.7435528+02:00",
-    "RecurringEndDate": "2011-03-12T11:10:25.7435528+01:00",
-    "MotherId": 750,
-    "AssignedBy": 520,
-    "AssignedByFullName": "Ms. Robert Christine Hackett",
-    "RejectReason": "",
-    "Location": "fuga",
-    "AlarmLeadTime": "sed",
-    "SaleId": 981,
-    "SaleName": "Nienow-Marvin",
-    "AssociateName": "Beatty Inc and Sons",
-    "CreatedDate": "2021-08-05T11:10:25.7445526+02:00",
-    "CreatedBy": "hic",
-    "CreatedByFullName": "Belle Wiegand",
-    "CreatedByAssociateId": 308,
+    "RecurringStartDate": "1999-09-12T02:49:43.4972799+02:00",
+    "RecurringEndDate": "2021-05-24T02:49:43.4972799+02:00",
+    "MotherId": 924,
+    "AssignedBy": 718,
+    "AssignedByFullName": "Bettye Jacobson",
+    "RejectReason": "redefine impactful architectures",
+    "Location": "occaecati",
+    "AlarmLeadTime": "libero",
+    "SaleId": 938,
+    "SaleName": "Oberbrunner Group",
+    "AssociateName": "Nicolas, Jakubowski and DuBuque",
+    "CreatedDate": "2007-09-12T02:49:43.4972799+02:00",
+    "CreatedBy": "ducimus",
+    "CreatedByFullName": "Hilda Grimes",
+    "CreatedByAssociateId": 837,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -193,7 +201,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldLength": 874
       }
     }
   }

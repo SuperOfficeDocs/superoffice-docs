@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetSecondaryTempTileSelection
 
 Copy selection to secondary temporary personal tile selection
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Copy selection to secondary temporary personal tile selection
 ```http
 POST /api/v1/Agents/Dash/GetSecondaryTempTileSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Dash/GetSecondaryTempTileSelection?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId
+SelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
+
 
 ## Response: int32
 
@@ -53,6 +61,7 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
@@ -63,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 667
+  "SelectionId": 315
 }
 ```
 
@@ -73,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-101
+681
 ```

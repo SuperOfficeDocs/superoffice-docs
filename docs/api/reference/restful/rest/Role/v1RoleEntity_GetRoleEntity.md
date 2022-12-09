@@ -11,13 +11,20 @@ GET /api/v1/Role/{id}
 
 Gets a RoleEntity object.
 
+
 Calls the User agent service GetRoleEntity.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the RoleEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -28,6 +35,7 @@ Calls the User agent service GetRoleEntity.
 ```http
 GET /api/v1/Role/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -42,7 +50,8 @@ GET /api/v1/Role/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 RoleEntity found.
 
@@ -51,7 +60,7 @@ RoleEntity found.
 | 200 | RoleEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +86,7 @@ Response body:
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,29 +96,29 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 97,
-  "Name": "Cruickshank Group",
-  "Tooltip": "sit",
+  "RoleId": 989,
+  "Name": "Jerde, Beer and Kessler",
+  "Tooltip": "dolor",
   "RoleType": "Anonymous",
-  "Deleted": 16,
-  "Rank": 501,
-  "Created": "2020-09-14T11:10:53.3441443+02:00",
-  "UseCategories": 499,
+  "Deleted": 564,
+  "Rank": 69,
+  "Created": "2000-07-12T02:49:51.3859386+02:00",
+  "UseCategories": 76,
   "CreatedBy": null,
-  "Updated": "2010-10-31T11:10:53.3451433+01:00",
+  "Updated": "1998-09-21T02:49:51.3859386+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldType": "System.Int32",
+      "FieldLength": 720
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 
 Returns the configuration field with the given id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the configuration field with the given id
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfiguration?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLineConfigurationId
+QuoteLineConfigurationId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLineConfigurationId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 595
+  "QuoteLineConfigurationId": 782
 }
 ```
 
@@ -88,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 537,
-  "FieldName": "Hessel Group",
-  "Label": "qui",
-  "Tooltip": "et",
+  "QuoteLineConfigurationId": 994,
+  "FieldName": "Mann-Herman",
+  "Label": "blanditiis",
+  "Tooltip": "quod",
   "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 191,
+  "Rank": 753,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 190
+      "FieldType": "System.Int32",
+      "FieldLength": 383
     }
   }
 }

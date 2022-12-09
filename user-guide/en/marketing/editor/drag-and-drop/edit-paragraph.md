@@ -18,9 +18,7 @@ language: en
 >
 > Use the **Desktop** (![icon][img3]) and **Mobile** (![icon][img4]) at the top of the side-panel to edit properties for desktop versions and [mobile versions of the messages][1].
 
-## Edit text content
-
-To edit text content (text blocks) in a message, do as follows:
+## Edit text content (text blocks) in a message
 
 1. Go to the **Content** step in the mailing, or open a template for editing.
 
@@ -37,16 +35,14 @@ To edit text content (text blocks) in a message, do as follows:
 
 6. Edit the formatting of the text using the fields in the side-panel.
 
-7. Click **Apply** when you have finished.
+7. Click **Apply**d.
 
-## Edit other content types
-
-To edit other content types, such as images, social media buttons/menus etc. in a message, do as follows:
+## Edit other content types such as images or social media buttons
 
 1. Go to the **Content** step in the mailing, or open a template for editing.
 2. In the message, click the content you wish to edit. The side-panel displays all editing options for the selected content.
 3. Edit the options in the side-panel.
-4. Click **Apply** when you have finished.
+4. Click **Apply**.
 
 ## Edit rows and columns
 
@@ -54,16 +50,16 @@ Click a row in a message to edit row properties in the side-panel.
 
 You can edit the following sections:
 
-**Column**: Here you can change the number of columns and the width of columns in the row.
+* **Column**: Here you can change the number of columns and the width of columns in the row.
 
-**Column properties**: Here you can edit the properties for each column in the row.
+* **Column properties**: Here you can edit the properties for each column in the row.
 
-**Row properties**: Here you can edit the properties of the row, such as background colour and [background image][4].
+* **Row properties**: Here you can edit the properties of the row, such as background color and [background image][4].
 
-**Responsive design**: Use this option to hide specific rows in the desktop or mobile version of the message.
+* **Responsive design**: Use this option to hide specific rows in the desktop or mobile version of the message.
 
 > [!TIP]
-> To remove a colour (background colour or border colour), click the X in the corner of the colour field.
+> To remove a color (background color or border color), click the X in the corner of the color field.
 
 Click **Next** if you are done editing.
 

@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/CreateUserGroup
 
 Create UserGroup (Rank is assigned to the highest rank)
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Create UserGroup (Rank is assigned to the highest rank)
 ```http
 POST /api/v1/Agents/User/CreateUserGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +45,8 @@ POST /api/v1/Agents/User/CreateUserGroup?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +72,7 @@ Response body:
 POST /api/v1/Agents/User/CreateUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,17 +82,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "dignissimos",
-  "Tooltip": "beatae",
-  "Id": 182,
-  "Rank": 103,
+  "Value": "cupiditate",
+  "Tooltip": "non",
+  "Id": 350,
+  "Rank": 637,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 588
     }
   }
 }

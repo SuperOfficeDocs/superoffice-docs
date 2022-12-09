@@ -11,11 +11,18 @@ GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Priority list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Larson Inc and Sons",
-    "ToolTip": "Aut est explicabo.",
-    "Deleted": true,
-    "Rank": 329,
-    "Type": "sapiente",
-    "ColorBlock": 193,
-    "IconHint": "tempore",
+    "Id": 974,
+    "Name": "Davis, Conn and Borer",
+    "ToolTip": "Nihil velit voluptatem qui.",
+    "Deleted": false,
+    "Rank": 250,
+    "Type": "deleniti",
+    "ColorBlock": 616,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2006-10-28T11:10:54.3979014+02:00",
+    "LastChanged": "2022-11-29T02:49:52.3440724+01:00",
     "ChildItems": [
       {
-        "Id": 578,
-        "Name": "Hessel-Hauck",
-        "ToolTip": "Necessitatibus voluptas cum aut quia est.",
-        "Deleted": true,
-        "Rank": 431,
-        "Type": "dolor",
-        "ColorBlock": 670,
-        "IconHint": "mollitia",
-        "Selected": true,
-        "LastChanged": "2021-11-08T11:10:54.3979014+01:00",
+        "Id": 958,
+        "Name": "McKenzie, Treutel and Senger",
+        "ToolTip": "Et provident numquam aut laborum.",
+        "Deleted": false,
+        "Rank": 433,
+        "Type": "voluptatem",
+        "ColorBlock": 664,
+        "IconHint": "minus",
+        "Selected": false,
+        "LastChanged": "2005-01-09T02:49:52.3440724+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "esse",
+        "ExtraInfo": "facilis",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Lupe Hansen",
+        "FullName": "Georgianna Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 247
+            "FieldType": "System.Int32",
+            "FieldLength": 483
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Christop Goldner",
+    "ExtraInfo": "rerum",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Mr. Koby Ray Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldLength": 487
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 
 Create a new physical document based on a document template and store it in the document archive.
 
+
 Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document content. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 ```http
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CustomTags, UiCulture
+ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CustomTags, UiCulture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,8 @@ ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, 
 | CustomTags | object |  |
 | UiCulture | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -61,7 +69,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -108,22 +116,22 @@ Response body:
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 870,
-  "PersonId": 272,
-  "AppointmentId": 452,
-  "DocumentId": 573,
-  "SaleId": 750,
-  "SelectionId": 487,
-  "ProjectId": 78,
+  "ContactId": 213,
+  "PersonId": 471,
+  "AppointmentId": 481,
+  "DocumentId": 74,
+  "SaleId": 181,
+  "SelectionId": 241,
+  "ProjectId": 497,
   "CustomTags": {
-    "CustomTags1": "fugiat",
-    "CustomTags2": "cupiditate"
+    "CustomTags1": "dolores",
+    "CustomTags2": "dolorum"
   },
-  "UiCulture": "sit"
+  "UiCulture": "ad"
 }
 ```
 
@@ -134,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 202,
+  "DocumentId": 296,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "qui",
-  "Header": "possimus",
-  "Name": "Effertz, Lemke and Bradtke",
-  "OurRef": "nostrum",
-  "YourRef": "quis",
-  "CreatedDate": "2015-10-04T11:10:26.5824552+02:00",
-  "UpdatedDate": "2014-09-11T11:10:26.5824552+02:00",
-  "Description": "Team-oriented heuristic framework",
+  "Attention": "doloribus",
+  "Header": "qui",
+  "Name": "Hettinger LLC",
+  "OurRef": "accusantium",
+  "YourRef": "sit",
+  "CreatedDate": "2006-09-23T02:49:44.1691628+02:00",
+  "UpdatedDate": "2012-11-21T02:49:44.1691628+01:00",
+  "Description": "Persistent dedicated parallelism",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-08-15T11:10:26.5854529+02:00",
-  "ExternalRef": "perspiciatis",
+  "Date": "2016-10-07T02:49:44.1691628+02:00",
+  "ExternalRef": "nulla",
   "Completed": "Completed",
-  "ActiveLinks": 325,
+  "ActiveLinks": 34,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Nolan Inc and Sons",
-      "Id": 368,
-      "Description": "Configurable next generation middleware",
-      "ExtraInfo": "quis",
-      "LinkId": 275,
+      "EntityName": "Abshire-Langworth",
+      "Id": 80,
+      "Description": "Advanced fresh-thinking paradigm",
+      "ExtraInfo": "eos",
+      "LinkId": 17,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 625
+          "FieldLength": 335
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 981,
-  "Snum": 349,
+  "SuggestedDocumentId": 201,
+  "Snum": 37,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1502093713"
+    "SuperOffice:1": "Margarette Steuber",
+    "SuperOffice:2": "43472672"
   },
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "iste"
+    "CustomFields1": "odit",
+    "CustomFields2": "nisi"
   },
-  "PublishEventDate": "1999-03-29T11:10:26.5874572+02:00",
-  "PublishTo": "2012-10-30T11:10:26.5874572+01:00",
-  "PublishFrom": "2012-02-12T11:10:26.5874572+01:00",
+  "PublishEventDate": "2018-07-10T02:49:44.1847858+02:00",
+  "PublishTo": "1995-12-19T02:49:44.1847858+01:00",
+  "PublishFrom": "1998-01-06T02:49:44.1847858+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 794,
+      "VisibleId": 937,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldLength": 257
         }
       }
     },
     {
-      "VisibleId": 794,
+      "VisibleId": 937,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldLength": 257
         }
       }
     }
@@ -225,7 +233,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 60
     }
   }
 }

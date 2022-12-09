@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetTicketCategoryList
 
 Gets an array of TicketCategoryEntity objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of TicketCategoryEntity objects.
 ```http
 POST /api/v1/Agents/List/GetTicketCategoryList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetTicketCategoryList?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: ticketCategoryEntityIds
+## Request Body: ticketCategoryEntityIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -66,6 +75,7 @@ Response body: array
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
 | DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
 | DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -88,35 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 301,
-    "ParentId": 53,
-    "Name": "Howe Inc and Sons",
-    "Fullname": "quasi",
-    "CategoryMaster": 921,
+    "TicketCategoryId": 617,
+    "ParentId": 744,
+    "Name": "Hammes Group",
+    "Fullname": "ullam",
+    "CategoryMaster": 695,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Bosco, Pouros and Davis",
+    "ExternalName": "Bartell, Wilkinson and Gleason",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 632,
-    "ReplyTemplate": 766,
-    "NotificationEmail": "claude.hand@dooleyhoppe.name",
+    "AssignmentLag": 682,
+    "ReplyTemplate": 431,
+    "NotificationEmail": "cecelia.borer@howe.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
+    "EffectiveReplyTemplateId": 204,
     "ExtraFields": {
-      "ExtraFields1": "doloribus",
-      "ExtraFields2": "inventore"
+      "ExtraFields1": "quaerat",
+      "ExtraFields2": "ea"
     },
     "CustomFields": {
-      "CustomFields1": "assumenda",
-      "CustomFields2": "ut"
+      "CustomFields1": "vel",
+      "CustomFields2": "autem"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 306
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId
 
 Gets the window and dialog position and size settings belonging to the specified associate
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the window and dialog position and size settings belonging to the specified
 ```http
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId
+AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
+
 
 ## Response: array
 
@@ -75,11 +83,11 @@ Response body: array
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 233
+  "AssociateId": 920
 }
 ```
 
@@ -91,23 +99,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "adipisci",
-    "PersonId": 689,
-    "AssociateId": 280,
-    "ExtraId": 59,
-    "ExtraInfo": "asperiores",
-    "Height": 538,
-    "LeftX": 323,
+    "OwnerWindow": "est",
+    "PersonId": 187,
+    "AssociateId": 758,
+    "ExtraId": 396,
+    "ExtraInfo": "omnis",
+    "Height": 940,
+    "LeftX": 375,
     "State": "Maximized",
-    "UpperY": 227,
-    "Width": 515,
-    "WindowPosSizeId": 314,
+    "UpperY": 913,
+    "Width": 20,
+    "WindowPosSizeId": 998,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 53
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetQuoteApproveReasons
 
 Returns all available QuoteApproveReasons.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all available QuoteApproveReasons.
 ```http
 POST /api/v1/Agents/List/GetQuoteApproveReasons?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/List/GetQuoteApproveReasons?$select=name,department,category
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -58,7 +66,7 @@ Response body: array
 POST /api/v1/Agents/List/GetQuoteApproveReasons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 215,
-    "Value": "minus",
-    "Tooltip": "nulla",
+    "Id": 56,
+    "Value": "eaque",
+    "Tooltip": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldType": "System.Int32",
+        "FieldLength": 887
       }
     }
   },
   {
-    "Id": 215,
-    "Value": "minus",
-    "Tooltip": "nulla",
+    "Id": 56,
+    "Value": "eaque",
+    "Tooltip": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldType": "System.Int32",
+        "FieldLength": 887
       }
     }
   }

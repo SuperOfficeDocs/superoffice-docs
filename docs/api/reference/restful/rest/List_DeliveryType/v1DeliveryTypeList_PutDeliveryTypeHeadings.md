@@ -11,7 +11,14 @@ PUT /api/v1/List/DeliveryType/Headings
 
 Saves headings for the DeliveryType list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 450,
-    "Name": "Gerhold, Koepp and Johns",
-    "Tooltip": "expedita",
-    "Deleted": true,
-    "Rank": 134,
-    "UdListDefinitionId": 22
+    "HeadingId": 471,
+    "Name": "Zieme, Baumbach and Senger",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 234,
+    "UdListDefinitionId": 265
   },
   {
-    "HeadingId": 450,
-    "Name": "Gerhold, Koepp and Johns",
-    "Tooltip": "expedita",
-    "Deleted": true,
-    "Rank": 134,
-    "UdListDefinitionId": 22
+    "HeadingId": 471,
+    "Name": "Zieme, Baumbach and Senger",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 234,
+    "UdListDefinitionId": 265
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 252,
-    "Name": "Rath Group",
-    "Tooltip": "sunt",
+    "HeadingId": 507,
+    "Name": "Hammes, White and Schmitt",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 546,
-    "UdListDefinitionId": 729,
+    "Rank": 757,
+    "UdListDefinitionId": 328,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldType": "System.String",
+        "FieldLength": 980
       }
     }
   }

@@ -15,7 +15,7 @@ If there are lots of FAQ entries in a folder, it may be difficult to find the on
 
 1. Select **Knowledge Base** > **FAQ**.
 2. Click the **Search** button. This takes you to the **Criteria** screen.
-3. Search as described under [Search in SuperOffice Service][1].
+3. [Search in SuperOffice Service][1].
 
 > [!TIP]
 > Perhaps you should consider to [create a folder structure][2] to make it easier to locate relevant FAQ entries?

@@ -16,7 +16,7 @@ This screen is used to create statistics based on the requests stored in the sys
 In the **Settings** tab, set the following parameters:
 
 1. Set the date interval:
-    * **From date** and **To date**: In these fields, you must enter the date interval for which you want statistics. Set a date by clicking the calendar icon (![icon][img1]) or by typing the date into the field. To select today's date, click ![icon][img2].
+    * **From date** and **To date**: In these fields, you must enter the date interval you want statistics for. Set a date by clicking the calendar icon (![icon][img1]) or by typing the date into the field. To select today's date, click ![icon][img2].
 
 2. **Choose statistics**: In the first column you choose which value(s) you would like to measure. You can measure more than one value by holding down the **CTRL** key while you click the required type. Statistics are based on different measurable values, listed in the left column, and different summing options, listed in the right column. By making multiple selections, you can achieve all possible combinations of selected elements in the left and right columns. Among the different measurable values are the following:
 
@@ -28,32 +28,32 @@ In the **Settings** tab, set the following parameters:
 
     * **Average time-to-reply**: Specifies the average time taken to answer a request, calculated from when the second message is added to a request. There is information below on how this time is calculated. Requests with just a single message are ignored.
 
-3. In the second column, you need to select summing options, since you are likely to want statistics for a specific purpose. The different summing options are:
+3. In the second column, select **summing options**, since you are likely to want statistics.
 
-    * **Time of day**: The measurable values are summed for each of the 24 hours in a day. These values are inclusive, for example, from 09:00:00 to 10:59:59. Note that for all measurable values, except **Number of requests closed**, this field refers to when the request was registered, not when it was closed or answered. For example: a request registered at 15:00 and answered at 16:10 will have a reply time of one hour, summed for the reply times from 15:00:00 to 15:59:59. The result is thus the average reply time for requests registered within a given period of time.
+    * **Time of day**: The measurable values are summed for each of the 24 hours in a day. These values are inclusive, for example, from 09:00:00 to 10:59:59. Note that for all measurable values, except **Number of requests closed**, this field refers to when the request was registered, not when it was closed or answered. For example: a request registered at 15:00 and answered at 16:10 will have a reply time of one hour, summed for the reply times from 15:00:00 to 15:59:59. The result is thus the average reply time for requests registered within a given time period.
     * **Day of week**: This summing option works exactly like **Hour**, but applies to the seven days of the week.
     * **Category**: Sums measurable values by category.
     * **User**: Sums measurable values by user.
     * **Priority**: Sums measurable values by priority.
-    * **Mailbox**: Sums measurable values by mailbox. Requests not generated from e-mails are ignored.
+    * **Mailbox**: Sums measurable values by mailbox. Requests not generated from emails are ignored.
 
 4. Set these options as necessary:
 
-    * **Calculate reply time and time-to-close based on the priority's timeframe**: If you enable this option, then the values for average reply time and time-to-close will be based on the priority's timeframe for the request. For example, a request has priority **Medium**, and the timeframe for this priority is Monday-Friday from 9am to 5pm. A request was created on Friday at 4pm and closed on Monday at 10am. The raw time-to-close for this request is then 64 hours, but the real time-to-close is only 2 hours. With this option enabled, 2 hours is the value used for the calculations.
+    * **Calculate reply time and time-to-close based on the priority's time frame**: If enabled, the values for average reply time and time-to-close will be based on the priority's time frame for the request. For example, a request has priority **Medium**, and the time frame for this priority is Monday-Friday from 9am to 5pm. A request was created on Friday at 4pm and closed on Monday at 10am. The raw time-to-close for this request is then 64 hours, but the real time-to-close is only 2 hours. With this option enabled, 2 hours is the value used for the calculations.
 
-    * **Show time interval in minutes**: If you enable this option, then the calculated time intervals are displayed as number of minutes. This is convenient if you would like to export the data and use them to display a graph.
+    * **Show time interval in minutes**: If enabled, the calculated time intervals are displayed as number of minutes. Convenient if you would like to export the data and use them to display a graph.
 
-    * **Display dates as YYYY-MM-DD**: If you enable this option, then dates will be written in this format. This can be useful if you want to export the data to another program.
+    * **Display dates as YYYY-MM-DD**: If enabled, dates are written in this format. Useful if you want to export the data to another program.
 
-    * **Hide empty rows**: If you enable this option, then rows in the calculated dataset containing only nulls/zeros will be ignored.
+    * **Hide empty rows**: If enabled, rows in the calculated dataset containing only nulls/zeros are ignored.
 
-    * **Hide empty columns**: If you enable this option, then columns in the calculated dataset containing only nulls/zeros will be ignored.
+    * **Hide empty columns**: If enabled, columns in the calculated dataset containing only nulls/zeros are ignored. Applies to the entire spreadsheet.
 
-    * **Hide empty bars**: If you enable this option, then empty bars in the resulting graph will be hidden. This is not the same option as Hide empty columns, since it applies to charts, while Hide empty columns applies to the entire spreadsheet.
+    * **Hide empty bars**: If enabled, empty bars are hidden in the resulting graph. Applies to charts.
 
-    * **Show sum per week**: If you enable this option, then a calculated sum per week, calculated as 7 days from the start date, will be displayed.
+    * **Show sum per week**: If enabled, a calculated sum per week, calculated as 7 days from the start date, is displayed.
 
-    * **Show sum per month**: If you enable this option, then a calculated sum per month will be displayed. This statistic applies to full calendar months and not the number of days, which can vary.
+    * **Show sum per month**: If enabled, a calculated sum per month is displayed. This statistic applies to full calendar months and not the number of days, which can vary.
 
 5. **Display format**: Here you select how you want to display the data. The different formats are:
 

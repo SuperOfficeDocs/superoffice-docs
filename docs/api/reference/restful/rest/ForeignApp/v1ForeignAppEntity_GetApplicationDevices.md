@@ -11,9 +11,16 @@ GET /api/v1/ForeignApp/{applicationName}/Devices
 
 Gets all devices that belong to a foreign application.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The foreign application name **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Gets all devices that belong to a foreign application.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -58,7 +66,7 @@ Response body: array
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -66,25 +74,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 17 Oct 2006 11:10:52 G10T
+Last-Modified: Tue, 06 Aug 2013 02:49:50 G8T
 
 [
   {
-    "ForeignDeviceId": 589,
-    "Name": "O'Hara-Greenfelder",
-    "CreatedDate": "2011-05-29T11:10:52.9021796+02:00",
-    "UpdatedDate": "2006-10-17T11:10:52.9021796+02:00",
-    "AssociateFullName": "Augustine Trace Jacobi DVM",
-    "CreatedBy": "corrupti",
-    "UpdatedBy": "minima",
-    "DeviceIdentifier": "ad",
-    "ForeignAppId": 314,
+    "ForeignDeviceId": 14,
+    "Name": "Gusikowski LLC",
+    "CreatedDate": "1997-03-05T02:49:50.9952888+01:00",
+    "UpdatedDate": "2013-08-06T02:49:50.9952888+02:00",
+    "AssociateFullName": "Janessa Rippin",
+    "CreatedBy": "quibusdam",
+    "UpdatedBy": "in",
+    "DeviceIdentifier": "id",
+    "ForeignAppId": 748,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldType": "System.String",
+        "FieldLength": 835
       }
     }
   }

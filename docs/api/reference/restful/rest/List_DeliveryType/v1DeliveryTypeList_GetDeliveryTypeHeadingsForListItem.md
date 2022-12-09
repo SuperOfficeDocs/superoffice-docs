@@ -11,11 +11,17 @@ GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 
 Gets headings for the DeliveryType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 546,
-    "Name": "Gorczany Group",
-    "ToolTip": "Assumenda incidunt hic veritatis.",
-    "Deleted": false,
-    "Rank": 553,
-    "Type": "eligendi",
-    "ColorBlock": 689,
+    "Id": 83,
+    "Name": "Abshire, Jacobi and Balistreri",
+    "ToolTip": "Dolorem quod quasi quia expedita est dolore ipsum.",
+    "Deleted": true,
+    "Rank": 780,
+    "Type": "rem",
+    "ColorBlock": 751,
     "IconHint": "asperiores",
     "Selected": false,
-    "LastChanged": "2018-02-10T11:10:54.2688992+01:00",
+    "LastChanged": "2004-01-16T02:49:52.2346937+01:00",
     "ChildItems": [
       {
-        "Id": 150,
-        "Name": "Hyatt, Leffler and Wisozk",
-        "ToolTip": "Cumque voluptates voluptatum odio veniam.",
-        "Deleted": true,
-        "Rank": 94,
-        "Type": "ducimus",
-        "ColorBlock": 535,
-        "IconHint": "officiis",
+        "Id": 90,
+        "Name": "Fadel, Parker and Crona",
+        "ToolTip": "Iusto et quia vitae illo aspernatur.",
+        "Deleted": false,
+        "Rank": 427,
+        "Type": "dolores",
+        "ColorBlock": 937,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2005-05-09T11:10:54.2688992+02:00",
+        "LastChanged": "1998-09-26T02:49:52.2346937+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "id",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "Maximo Leffler",
+        "FullName": "Federico Anderson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 250
+            "FieldLength": 371
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "id",
+    "ExtraInfo": "maxime",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Miss Yvonne Thiel",
+    "FullName": "Miss Rosa Jermey Hermann Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 25
+        "FieldType": "System.Int32",
+        "FieldLength": 371
       }
     }
   }

@@ -1,31 +1,22 @@
 items:
 - name: Overview
   href: index.md
+- name: Lists
+  href: lists/toc.yml
 - name: Preferences
   href: preferences/toc.yml
 - name: Options
   href: options/toc.yml
-- name: Lists
-  href: lists/toc.yml
-- name: Edit email signature
-  href: edit-email-signature.md
-- name: Personal settings in Service
-  href: personal-settings/toc.yml
-- name: System settings in Service
-  href: in-service/toc.yml
 - name: System events
   href: system-events.md
   items:
   - name: Add
     href: add-system-event.md
-- name: How to...
-  items:
-  - name: Configure SOAP interface
-    href: configure-soap.md
-- name: Screens
+- name: Onsite
   items:
   - name: SOAP
     href: screen/soap-config.md
-  - name: Package properties
-    href: screen/listpackages.editpackage.md
-    
+  - name: Configure SOAP interface
+    href: configure-soap.md
+  - name: Log off users
+    href: ../win-client/logging-users-off.md

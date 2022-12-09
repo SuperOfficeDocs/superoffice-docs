@@ -9,11 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Bulk update
+# Update multiple records (bulk update)
 
 The **Bulk update** task allows you to change values across multiple records of the same type. You can perform the bulk update on all or selected records in section tabs (archives), selections and the **Find** screen. This task can also be used to delete multiple records.
-
-To update multiple records:
 
 1. Open the selection, section tab (archive) or search results (**Find** screen) containing the records you want to update.
 
@@ -27,7 +25,8 @@ To update multiple records:
 
 3. Select a field to update in the **Field** column. You can also type the name in the field (see [FastSearcher][1]). As you type in each letter, the list underneath displays all matches. The list only contains fields that are relevant to the selected records.
 
-4. Select an action in the **Action** column. The available actions will depend on the type of field you have selected in the previous step. Here are some examples of available actions:
+4. Select an action in the **Action** column. The available actions depends on the type of field you selected in the previous step. Examples:
+
     * **Check**: Check or uncheck a checkbox.
     * **Toggle**: Uncheck a checked checkbox and vice versa.
     * **Search and replace**: [Find a text and replace it](#search-and-replace).
@@ -44,7 +43,7 @@ To update multiple records:
 7. Click **Update**. The **Confirm** dialog opens, showing a summary of the updates.
 
     > [!NOTE]
-    > Once the updates have been applied, they cannot be undone.
+    > After an update is applied, it cannot be undone.
 
 8. Click **Yes** to implement the changes to the selected records.
 
@@ -81,11 +80,11 @@ You want to categorize your customers according to sales amounts. Create company
 
 ## Update company post code and post city
 
-There has been some changes in post codes and post cities in Norway. Use **Bulk update** to update the addresses.
+Post codes and post cities in Norway have changed. Use **Bulk update** to update the addresses.
 
 ## Update contact
 
-You have discovered that the contact field **Position** is rarely used. To at least start the task of filling in this field for all contacts, you want to find everyone that have director in the title. Create a selection of all contacts that contain the word "director" in the **Title** field. Use **Bulk update** to set the field **Position** to **Management**.
+You discover that the contact field **Position** is rarely used. To at least start the task of filling in this field for all contacts, you want to find everyone that have director in the title. Create a selection of all contacts that contain the word "director" in the **Title** field. Use **Bulk update** to set the field **Position** to **Management**.
 
 ## Update project
 

@@ -17,17 +17,17 @@ Let’s suppose you were inviting people to a meeting and needed to send them an
 
 2. Click the **Task** button.
 
-3. Choose the **Send e-mail** task.
+3. Choose the **Send email** task.
 
-4. The **Send e-mail** dialog opens. Specify here which fields the recipients will be placed in.
+4. In the **Send email** dialog, specify where to place the recipients.
 
-    * **To**: field for the primary recipients, i.e. the people you expect to reply to the message.
+    * **To**: field for the primary recipients (the people you expect to reply to the message).
     * **Cc**: field for the people you want to have a copy of the message, mainly for information.
-    * **Bcc**: field for other people you want to send a copy to. These recipients are not visible to the other recipients and they themselves cannot see which other people have received the message.
+    * **Bcc**: field for other people you want to send a copy to. These recipients are not visible to the other recipients and they themselves cannot see who else received the message.
 
     > [!NOTE]
     > The recipients here are all contacts with valid email addresses and which are not marked **No Mailings**.
 
-5. Click **OK** in the **Send e-mail** dialog.
+5. Click **OK** in the **Send email** dialog.
 
-6. An email message addressed to the selected recipients is opened in your default e-mail program. Enter your message and send in the usual way.
+6. An email message addressed to the selected recipients is opened in your default email program. Enter your message and send in the usual way.

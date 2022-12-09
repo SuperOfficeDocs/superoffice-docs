@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/ChatTopicsForUser
 
 Get all chat topics which this user is a member of.
 
+
 Members means that you have at least one of: Can Respond, Notifications, Listen or Manager
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Members means that you have at least one of: Can Respond, Notifications, Listen 
 ```http
 POST /api/v1/Agents/Chat/ChatTopicsForUser?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ POST /api/v1/Agents/Chat/ChatTopicsForUser?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -88,7 +96,7 @@ Response body: array
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,43 +107,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 108,
-    "Name": "Halvorson, Cartwright and O'Hara",
-    "Description": "Triple-buffered asynchronous knowledge base",
-    "WelcomeMessage": "ut",
+    "ChatTopicId": 613,
+    "Name": "Ernser LLC",
+    "Description": "Progressive grid-enabled conglomeration",
+    "WelcomeMessage": "autem",
     "Language": null,
-    "LastAccept": "1997-04-04T11:10:26.1675255+02:00",
-    "SecondsPrAccept": 800,
-    "AlertRecipient": "et",
+    "LastAccept": "2022-10-24T02:49:43.8254085+02:00",
+    "SecondsPrAccept": 602,
+    "AlertRecipient": "asperiores",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "dolorem",
+    "CollectConsent": false,
+    "BadgeHeader": "rem",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "praesentium",
-    "WarnNewChatMinutes": 194,
-    "WarnManagerNewChatMinutes": 355,
+    "CustomQueueText": "quaerat",
+    "WarnNewChatMinutes": 588,
+    "WarnManagerNewChatMinutes": 364,
     "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": true,
+    "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": false,
+    "BotEnabled": true,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 811,
-    "WarnManagerChatMessageMinutes": 308,
+    "WarnChatMessageMinutes": 720,
+    "WarnManagerChatMessageMinutes": 565,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 770,
-    "OfflineFormQueueLength": 206,
-    "WidgetEnableRating": false,
-    "WidgetRatingText": "numquam",
+    "OfflineFormTimeLimit": 775,
+    "OfflineFormQueueLength": 688,
+    "WidgetEnableRating": true,
+    "WidgetRatingText": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 155
+        "FieldLength": 341
       }
     }
   }

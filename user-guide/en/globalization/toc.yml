@@ -1,7 +1,7 @@
 items:
 - name: Change active language
   href: change-language.md
-- name: Translate field labels
+- name: Translation of content
   href: translate-fields.md
 - name: Language support for documents
   href: doc-language-support.md

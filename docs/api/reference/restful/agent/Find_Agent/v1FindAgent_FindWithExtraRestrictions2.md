@@ -11,10 +11,12 @@ POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 
 Execute a Find operation and return a page of results.
 
-The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey.
+
+The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
+
 
 For example:
 
@@ -35,8 +37,8 @@ Unary operators:
 "updatedDate lastWeek", "assocId currentAssociate"
 ```
 
-## Brackets and or
 
+## Brackets and or
 AND and OR can be used to combine terms. AND has a higher priority than OR
 
 ```
@@ -49,10 +51,12 @@ Brackets can be used for grouping.
 "(business = 2 or category = 3) and name contains 'super'"
 ```
 
+
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
+
 
 Example: group last names together, and inject a header row for each group.
 
@@ -62,7 +66,7 @@ GroupBy(lastName):Header
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
+Example: count instances of middle names, and hide the individual rows, 
 report just the totals for each group using a footer. Note how the modifiers stack.
 
 ```
@@ -78,18 +82,28 @@ Example: the aggregator functions can nest, so you can say
 GroupBy(DatePart(personUpdatedDate):YearMonth):Header
 
 ```
-
 ## Strings
 
 Use the begins or contains operators to do string searches.
 You can also use the normal = operator to do string exact match checks.
 
+
+
 Use backslash to escape single quotes in strings
 (note that backslash needs to be doubled because c# also uses backslash escapes):
+
 
 ```
 "department contains 'Bob\\'s'"
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -100,6 +114,7 @@ Use backslash to escape single quotes in strings
 ```http
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -115,9 +130,9 @@ POST /api/v1/Agents/Find/FindWithExtraRestrictions2?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumns, PageSize, PageNumber
+StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumns, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -130,7 +145,8 @@ StorageType, ProviderName, StorageKey, ExtraRestrictions, OrderBy, DesiredColumn
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -138,7 +154,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -158,14 +174,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dignissimos",
-  "ProviderName": "Luettgen Group",
-  "StorageKey": "explicabo",
-  "ExtraRestrictions": "aut",
-  "OrderBy": "autem",
-  "DesiredColumns": "et",
-  "PageSize": 25,
-  "PageNumber": 200
+  "StorageType": "tempore",
+  "ProviderName": "Bartell, Reynolds and Kuphal",
+  "StorageKey": "cumque",
+  "ExtraRestrictions": "minus",
+  "OrderBy": "iure",
+  "DesiredColumns": "voluptates",
+  "PageSize": 287,
+  "PageNumber": 314
 }
 ```
 
@@ -178,51 +194,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Goyette LLC",
-      "DisplayTooltip": "illum",
-      "DisplayType": "sequi",
-      "CanOrderBy": false,
-      "Name": "Gerlach LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "sapiente",
-      "RestrictionListName": "Fritsch, Walker and Paucek",
-      "IsVisible": false,
-      "ExtraInfo": "omnis",
-      "Width": "ut",
-      "IconHint": "esse",
-      "HeadingIconHint": "ad"
+      "DisplayName": "Beer LLC",
+      "DisplayTooltip": "sunt",
+      "DisplayType": "rerum",
+      "CanOrderBy": true,
+      "Name": "Gutmann, Cummings and Stamm",
+      "CanRestrictBy": false,
+      "RestrictionType": "sint",
+      "RestrictionListName": "Leffler Group",
+      "IsVisible": true,
+      "ExtraInfo": "esse",
+      "Width": "eveniet",
+      "IconHint": "natus",
+      "HeadingIconHint": "molestias"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Pfeffer LLC",
-      "PrimaryKey": 415,
+      "EntityName": "Murray LLC",
+      "PrimaryKey": 561,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "ut",
-          "LinkHint": "iste"
+          "DisplayValue": "nemo",
+          "TooltipHint": "ullam",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "voluptatibus",
-      "StyleHint": "quam",
+      "LinkHint": "eos",
+      "StyleHint": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 328
+          "FieldType": "System.Int32",
+          "FieldLength": 505
         }
       }
     }
   ],
-  "RowCount": 532,
+  "RowCount": 604,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 597
     }
   }
 }

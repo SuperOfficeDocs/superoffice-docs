@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 
 Set default values into a new EMailEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +84,7 @@ Response body:
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,147 +96,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 487,
-      "ContactName": "Wisozk, Luettgen and Lakin",
-      "PersonId": 156,
-      "PersonName": "Botsford, Macejkovic and Hickle",
-      "AssociateId": 185,
-      "Address": "voluptatibus",
-      "EmailId": 465,
+      "ContactId": 367,
+      "ContactName": "Nader-Abshire",
+      "PersonId": 810,
+      "PersonName": "Sipes Inc and Sons",
+      "AssociateId": 340,
+      "Address": "esse",
+      "EmailId": 184,
       "DuplicatePersonIds": [
-        282,
-        687
+        621,
+        834
       ],
-      "Name": "Ankunding Group",
+      "Name": "Homenick, Hermiston and Goyette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldType": "System.Int32",
+          "FieldLength": 446
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 47,
-      "ContactName": "Kovacek, Bartell and Lakin",
-      "PersonId": 122,
-      "PersonName": "Hoeger Group",
-      "AssociateId": 673,
-      "Address": "deserunt",
-      "EmailId": 893,
+      "ContactId": 64,
+      "ContactName": "Farrell-Nicolas",
+      "PersonId": 153,
+      "PersonName": "Lind-Koelpin",
+      "AssociateId": 817,
+      "Address": "tempora",
+      "EmailId": 854,
       "DuplicatePersonIds": [
-        772,
-        670
+        25,
+        606
       ],
-      "Name": "Kautzer, Abernathy and Rice",
+      "Name": "Bergstrom LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 660
+          "FieldType": "System.Int32",
+          "FieldLength": 695
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 520,
-      "ContactName": "Stanton, Mohr and Lemke",
-      "PersonId": 291,
-      "PersonName": "Hammes Inc and Sons",
-      "AssociateId": 873,
-      "Address": "autem",
-      "EmailId": 529,
+      "ContactId": 560,
+      "ContactName": "Lubowitz Group",
+      "PersonId": 102,
+      "PersonName": "Thiel-Gislason",
+      "AssociateId": 315,
+      "Address": "laboriosam",
+      "EmailId": 228,
       "DuplicatePersonIds": [
-        734,
-        759
+        738,
+        445
       ],
-      "Name": "Anderson, Auer and Hintz",
+      "Name": "Stracke, Quigley and Stehr",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 899
+          "FieldType": "System.Int32",
+          "FieldLength": 507
         }
       }
     }
   ],
-  "Subject": "amet",
-  "HTMLBody": "delectus",
+  "Subject": "quia",
+  "HTMLBody": "qui",
   "From": null,
-  "Sent": "2017-11-25T11:10:26.8964578+01:00",
-  "Size": 906,
+  "Sent": "2006-10-26T02:49:44.403542+02:00",
+  "Size": 678,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aperiam",
-  "PlainBody": "possimus",
-  "IsSent": false,
+  "MessageID": "qui",
+  "PlainBody": "voluptas",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 860,
+  "ServerId": 340,
   "Attachments": [
     {
-      "Description": "Polarised fresh-thinking instruction set",
-      "Filename": "nam",
-      "Size": 123,
-      "Type": "officiis",
-      "Encoding": "commodi",
-      "Id": "quia",
-      "Disposition": "molestias",
+      "Description": "Function-based even-keeled ability",
+      "Filename": "veniam",
+      "Size": 544,
+      "Type": "deleniti",
+      "Encoding": "perspiciatis",
+      "Id": "saepe",
+      "Disposition": "dolores",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 484
+          "FieldLength": 798
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Shields LLC",
+      "Name": "Cronin-Pagac",
       "Values": [
-        "aspernatur",
-        "dolorum"
+        "magni",
+        "incidunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 198
+          "FieldType": "System.Int32",
+          "FieldLength": 380
         }
       }
     },
     {
-      "Name": "Shields LLC",
+      "Name": "Cronin-Pagac",
       "Values": [
-        "aspernatur",
-        "dolorum"
+        "magni",
+        "incidunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 198
+          "FieldType": "System.Int32",
+          "FieldLength": 380
         }
       }
     }
   ],
-  "FolderName": "Durgan-Beahan",
-  "EmailItemId": 244,
-  "AccountId": 86,
-  "ReceivedAt": "1999-12-29T11:10:26.8974525+01:00",
+  "FolderName": "Fadel-Jewess",
+  "EmailItemId": 897,
+  "AccountId": 743,
+  "ReceivedAt": "2004-11-27T02:49:44.403542+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-11-23T11:10:26.8974525+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2015-01-22T02:49:44.403542+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -235,7 +244,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 71
     }
   }
 }

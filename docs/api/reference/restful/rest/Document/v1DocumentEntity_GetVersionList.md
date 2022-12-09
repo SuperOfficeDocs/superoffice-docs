@@ -11,9 +11,16 @@ GET /api/v1/Document/{documentId}/Version
 
 Get a list of existing, committed  versions for a given document
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document Id **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Get a list of existing, committed  versions for a given document
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -56,7 +64,7 @@ Response body: array
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -67,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "sint",
-    "DocumentId": 410,
-    "VersionId": "excepturi",
-    "CheckedInDate": "1999-02-04T11:10:52.8611743+01:00",
-    "CheckedInByName": "Schumm-Daugherty",
-    "CheckedInByAssociateId": 873,
-    "Description": "Exclusive web-enabled extranet",
-    "DisplayText": "temporibus",
+    "ExternalReference": "et",
+    "DocumentId": 948,
+    "VersionId": "voluptatibus",
+    "CheckedInDate": "2015-05-15T02:49:50.9484136+02:00",
+    "CheckedInByName": "Hand LLC",
+    "CheckedInByAssociateId": 114,
+    "Description": "Realigned solution-oriented encoding",
+    "DisplayText": "itaque",
     "ExtraFields": [
-      "rerum",
-      "ut"
+      "quia",
+      "expedita"
     ]
   }
 ]

@@ -11,7 +11,7 @@ language: en
 
 # Edit repeating follow-up
 
-You can make changes to all repeating follow-ups of which you are the owner. Changes work in the same way as described under [Edit follow-ups][2], but when you make a change, the **Repeating follow-ups** dialog appears, giving a brief description of the follow-up.
+You can make changes to all repeating follow-ups you are the owner of. Changes work in the same way as when you [edit follow-ups][2], but when you make a change, the **Repeating follow-ups** dialog appears, giving a brief description of the follow-up.
 
 In the **Repeating follow-ups** dialog, you have two options:
 

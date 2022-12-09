@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/SaveConnection
 
 Saves a connection to the database.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a connection to the database.
 ```http
 POST /api/v1/Agents/Quote/SaveConnection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/SaveConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Connection
+Connection 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Connection |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteConnection. Services for the QuoteConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +87,7 @@ Response body:
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 150,
-  "ERPName": "Grant, Bergnaum and Feil",
-  "DisplayName": "Champlin-Ritchie",
-  "DisplayDescription": "Multi-layered directional approach",
-  "Rank": 824,
-  "ConnectorName": "Lockman-Dach",
-  "ErpConnectionId": 524,
-  "ExtraData": "sed",
-  "IsAvailable": false,
+  "QuoteConnectionId": 979,
+  "ERPName": "Marvin-Wuckert",
+  "DisplayName": "Bergnaum Group",
+  "DisplayDescription": "Up-sized incremental database",
+  "Rank": 408,
+  "ConnectorName": "Feest Inc and Sons",
+  "ErpConnectionId": 84,
+  "ExtraData": "voluptatibus",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 213,
-      "ERPPriceListKey": "est",
-      "QuoteConnectionId": 880,
-      "Name": "Gerlach-Durgan",
-      "Description": "Assimilated mobile moratorium",
-      "Currency": "quia",
-      "CurrencyName": "Doyle Inc and Sons",
-      "ValidFrom": "2002-05-02T11:10:27.7074917+02:00",
-      "ValidTo": "1999-09-20T11:10:27.7074917+02:00",
-      "IsActive": false,
+      "PriceListId": 166,
+      "ERPPriceListKey": "voluptatem",
+      "QuoteConnectionId": 595,
+      "Name": "Ankunding LLC",
+      "Description": "Automated impactful superstructure",
+      "Currency": "itaque",
+      "CurrencyName": "Pacocha, Doyle and Ward",
+      "ValidFrom": "2010-04-19T02:49:45.0309645+02:00",
+      "ValidTo": "2008-05-29T02:49:45.0309645+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldLength": 617
         }
       }
     }
   ],
   "AllAccess": true,
-  "Deleted": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    53,
-    170
+    295,
+    863
   ],
   "AssociateAccessIds": [
-    496,
-    747
+    444,
+    924
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldLength": 314
     }
   }
 }

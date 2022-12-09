@@ -11,11 +11,17 @@ GET /api/v1/Dash/{id}
 
 Gets a Dash object.
 
+
 Calls the Dash agent service GetDash.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Dash to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Dash agent service GetDash.
 ```http
 GET /api/v1/Dash/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/Dash/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 Dash found.
 
@@ -49,7 +57,7 @@ Dash found.
 | 200 | Dash found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +84,7 @@ Response body:
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,37 +94,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 95,
-  "UniqueId": "quam",
-  "Name": "Bailey, Hansen and Braun",
-  "Description": "Configurable exuding hardware",
-  "AssociateId": 418,
-  "Columns": 261,
+  "DashboardId": 205,
+  "UniqueId": "repellendus",
+  "Name": "Osinski, Pfeffer and Senger",
+  "Description": "Total dynamic ability",
+  "AssociateId": 533,
+  "Columns": 903,
   "Theme": null,
-  "VisibleForAll": 873,
+  "VisibleForAll": 183,
   "VisibleForAssociates": [
-    527,
-    630
+    146,
+    975
   ],
   "VisibleForGroups": [
-    663,
-    21
+    571,
+    166
   ],
-  "PinForAll": 380,
+  "PinForAll": 209,
   "PinForAssociates": [
-    696,
-    199
+    148,
+    890
   ],
   "PinForGroups": [
-    921,
-    861
+    133,
+    734
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 94
+      "FieldLength": 381
     }
   },
   "_Links": {

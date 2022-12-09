@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Edit follow-ups
-
-To edit an existing follow-up:
+# Edit follow-up
 
 1. [Open the required follow-up][1]. The **Appointment**, **Task** or **Phone Call** dialog appears.
 

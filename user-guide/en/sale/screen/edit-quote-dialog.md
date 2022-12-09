@@ -11,8 +11,6 @@ language: en
 
 # The Edit quote dialog
 
-This is a description of the **Edit quote** dialog.
-
 ## The top section of the dialog
 
 * [Click to create quote document][1].
@@ -28,7 +26,7 @@ This is a description of the **Edit quote** dialog.
 The products in the quote are displayed on this tab.
 
 > [!NOTE]
-> If the quote contains several alternatives, the favourite alternative is indicated with ![icon][img1] next to the tab name.
+> If the quote contains several alternatives, the favorite alternative is indicated with ![icon][img1] next to the tab name.
 >
 > If the alternative contains [warnings or messages][9] for one or more products, an icon is shown next to the tab name. A message is also displayed to explain the cause of the error.
 

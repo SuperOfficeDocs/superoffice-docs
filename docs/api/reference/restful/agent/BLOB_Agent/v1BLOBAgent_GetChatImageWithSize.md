@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetChatImageWithSize
 
 Returns the chat image that is displayed in chat with a specified maximum size.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the chat image that is displayed in chat with a specified maximum size.
 ```http
 POST /api/v1/Agents/BLOB/GetChatImageWithSize?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/BLOB/GetChatImageWithSize?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatTopicId, Width, Height
+ChatTopicId, Width, Height 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
 | Width | int32 |  |
 | Height | int32 |  |
+
 
 ## Response: byte
 
@@ -55,19 +63,20 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/BLOB/GetChatImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 29,
-  "Width": 460,
-  "Height": 550
+  "ChatTopicId": 667,
+  "Width": 631,
+  "Height": 837
 }
 ```
 

@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetList
 
 Method to get a MDO list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method to get a MDO list.
 ```http
 POST /api/v1/Agents/MDO/GetList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/MDO/GetList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, ForceFlatList, AdditionalInfo, OnlyHistory
+Name, ForceFlatList, AdditionalInfo, OnlyHistory 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,6 +52,7 @@ Name, ForceFlatList, AdditionalInfo, OnlyHistory
 | ForceFlatList | bool |  |
 | AdditionalInfo | string |  |
 | OnlyHistory | bool |  |
+
 
 ## Response: array
 
@@ -79,13 +87,13 @@ Response body: array
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weber Inc and Sons",
+  "Name": "Cartwright Group",
   "ForceFlatList": false,
-  "AdditionalInfo": "voluptas",
+  "AdditionalInfo": "non",
   "OnlyHistory": false
 }
 ```
@@ -98,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Jacobi-Metz",
-    "ToolTip": "Non tenetur ducimus optio non et.",
+    "Id": 472,
+    "Name": "Turner Inc and Sons",
+    "ToolTip": "Et voluptatem nihil nulla impedit porro.",
     "Deleted": false,
-    "Rank": 198,
-    "Type": "rerum",
+    "Rank": 14,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 925,
-        "Name": "Bosco-Willms",
-        "ToolTip": "Enim aut.",
+        "Id": 537,
+        "Name": "Beier-Ondricka",
+        "ToolTip": "Perferendis sit sit.",
         "Deleted": false,
-        "Rank": 201,
-        "Type": "quia",
+        "Rank": 642,
+        "Type": "nesciunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloremque",
-        "ColorBlock": 191,
-        "ExtraInfo": "quia",
-        "StyleHint": "culpa",
-        "FullName": "Travis Feest",
+        "IconHint": "quaerat",
+        "ColorBlock": 342,
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "rerum",
+        "FullName": "Karlie Sanford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 764
+            "FieldLength": 678
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 218,
-    "ExtraInfo": "tempora",
-    "StyleHint": "ad",
-    "FullName": "Arturo Nikolaus",
+    "IconHint": "quia",
+    "ColorBlock": 349,
+    "ExtraInfo": "ex",
+    "StyleHint": "reiciendis",
+    "FullName": "Joana Robel V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 867
       }
     }
   }

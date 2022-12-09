@@ -11,11 +11,18 @@ GET /api/v1/Contact/{contactId}/Imageinfo
 
 Get the Blob that describes the given contact's picture.
 
+
 The actual bitmap is accessible via /api/v1/contact/123/image.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | Contact id **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ The actual bitmap is accessible via /api/v1/contact/123/image.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +72,7 @@ Response body:
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,28 +80,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 21 Sep 1999 11:10:52 G9T
+Last-Modified: Tue, 29 May 2007 02:49:50 G5T
 
 {
-  "BlobId": 415,
-  "BlobSize": 128,
-  "Description": "Virtual background neural-net",
-  "ExtraInfo": "labore",
+  "BlobId": 798,
+  "BlobSize": 989,
+  "Description": "Virtual scalable application",
+  "ExtraInfo": "voluptatem",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "labore",
-  "OriginalSize": 587,
-  "CreatedDate": "2020-09-01T11:10:52.6091771+02:00",
-  "UpdatedDate": "1999-09-21T11:10:52.6091771+02:00",
+  "MimeType": "fugiat",
+  "OriginalSize": 849,
+  "CreatedDate": "2022-11-22T02:49:50.7296616+01:00",
+  "UpdatedDate": "2007-05-29T02:49:50.7296616+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "labore",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 693
     }
   }
 }

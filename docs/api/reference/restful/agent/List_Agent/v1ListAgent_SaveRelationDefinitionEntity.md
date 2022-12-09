@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 
 Updates the existing RelationDefinitionEntity or creates a new RelationDefinitionEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing RelationDefinitionEntity or creates a new RelationDefinitio
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The RelationDefinitionEntity to be saved.
+The RelationDefinitionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The RelationDefinitionEntity to be saved.
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,16 +77,16 @@ Response body:
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 101,
-  "Name": "Bernier-Jakubowski",
-  "Tooltip": "qui",
-  "PassiveText": "magni",
-  "Deleted": false,
-  "Rank": 828,
+  "ReldefId": 926,
+  "Name": "Halvorson-Larkin",
+  "Tooltip": "porro",
+  "PassiveText": "dicta",
+  "Deleted": true,
+  "Rank": 79,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -91,12 +99,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 630,
-  "Name": "Quitzon, Abshire and Schowalter",
-  "Tooltip": "facere",
-  "PassiveText": "praesentium",
+  "ReldefId": 516,
+  "Name": "Swaniawski-Rogahn",
+  "Tooltip": "nobis",
+  "PassiveText": "et",
   "Deleted": false,
-  "Rank": 505,
+  "Rank": 498,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -104,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 980
     }
   }
 }

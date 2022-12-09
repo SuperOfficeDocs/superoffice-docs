@@ -11,9 +11,11 @@ PATCH /api/v1/Webhook/{id}
 
 Update a Webhook with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered. Update the Department field to "foo" can be done either as a JSON PATCH
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -29,14 +31,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IWebhookAgent} service SaveWebhook.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Webhook  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -47,6 +58,7 @@ Calls the {SuperOffice.CRM.Services.IWebhookAgent} service SaveWebhook.
 ```http
 PATCH /api/v1/Webhook/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -62,9 +74,9 @@ PATCH /api/v1/Webhook/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +84,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 Webhook  updated.
 
@@ -83,7 +96,7 @@ Webhook  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because Webhook has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -108,18 +121,18 @@ Response body:
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "repellat",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "repellat",
     "value": {}
   }
 ]
@@ -132,30 +145,30 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 750,
-  "Name": "Lynch, Keeling and Wiza",
+  "WebhookId": 532,
+  "Name": "Will, Nitzsche and Ratke",
   "Events": [
-    "eum",
-    "minus"
+    "dolorum",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "repellat",
+  "Secret": "dolorem",
   "State": "Active",
-  "Type": "voluptatem",
+  "Type": "quia",
   "Headers": {
-    "Headers1": "harum",
-    "Headers2": "ipsum"
+    "Headers1": "exercitationem",
+    "Headers2": "rerum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2019-06-12T11:10:53.8782173+02:00",
+  "Registered": "1995-07-26T02:49:51.8596935+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-03-18T11:10:53.8792135+01:00",
+  "Updated": "1998-08-01T02:49:51.8596935+02:00",
   "UpdatedAssociate": null,
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -11,11 +11,17 @@ GET /api/v1/TicketMessage/{id}
 
 Get a ticket message entity with posibillity to change embedded images to be represented with inline data within the HTML body.
 
+
 If using inline data, be sure not to save this back to the database.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ticket message entity **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ If using inline data, be sure not to save this back to the database.
 ```http
 GET /api/v1/TicketMessage/{id}?embedImages=Inline
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/TicketMessage/{id}?embedImages=Inline
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -49,7 +57,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,71 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 153,
+  "EjMessageId": 515,
   "Ticket": null,
-  "CreatedAt": "2008-11-15T11:10:53.6392134+01:00",
+  "CreatedAt": "2006-11-26T02:49:51.6397363+01:00",
   "CreatedBy": null,
-  "Author": "earum",
+  "Author": "unde",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "qui",
-  "TimeSpent": 694,
-  "Body": "eligendi",
-  "HtmlBody": "commodi",
-  "EmailHeader": "dane@williamson.biz",
-  "DebugInfo": "quia",
-  "MailSorter": "voluptatem",
+  "MessageId": "dolor",
+  "TimeSpent": 22,
+  "Body": "impedit",
+  "HtmlBody": "est",
+  "EmailHeader": "abigayle@dach.biz",
+  "DebugInfo": "voluptate",
+  "MailSorter": "impedit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "molestias",
+  "SearchTitle": "atque",
   "MessageHeaders": [
     {
-      "Name": "Aufderhar Group",
-      "Value": "consequatur",
+      "Id": 276,
+      "Name": "Runolfsson-Keebler",
+      "Value": "quasi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 154
-        }
-      }
-    },
-    {
-      "Name": "Aufderhar Group",
-      "Value": "consequatur",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldType": "System.String",
+          "FieldLength": 290
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "blanditiis",
-  "Sentiment": 266,
-  "SentimentConfidence": 988,
+  "Important": false,
+  "Language": "qui",
+  "Sentiment": 843,
+  "SentimentConfidence": 207,
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "odit"
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "unde"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "ipsum"
+    "CustomFields1": "nisi",
+    "CustomFields2": "voluptas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 406
     }
   }
 }

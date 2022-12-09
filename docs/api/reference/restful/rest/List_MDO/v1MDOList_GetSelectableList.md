@@ -11,9 +11,15 @@ GET /api/v1/MDOList/{listname}/selectable
 
 Return the selectable list items
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | listname | string | "category", "business" etc **Required** |
+
 
 ## Query String Parameters
 
@@ -23,9 +29,10 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=quasi
+GET /api/v1/MDOList/{listname}/selectable?additional=impedit
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/MDOList/{listname}/selectable?flat=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 980,
-    "Name": "Dach Group",
-    "ToolTip": "Nobis debitis.",
+    "Id": 524,
+    "Name": "Schmeler-Bogisich",
+    "ToolTip": "Id voluptatem.",
     "Deleted": false,
-    "Rank": 11,
-    "Type": "voluptate",
-    "ColorBlock": 219,
-    "IconHint": "reprehenderit",
+    "Rank": 6,
+    "Type": "ratione",
+    "ColorBlock": 768,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "1999-11-24T11:10:54.3198663+01:00",
+    "LastChanged": "2010-06-20T02:49:52.2659433+02:00",
     "ChildItems": [
       {
-        "Id": 483,
-        "Name": "Robel, Hessel and Grady",
-        "ToolTip": "Est quos doloribus omnis ipsum corrupti et.",
-        "Deleted": false,
-        "Rank": 977,
-        "Type": "placeat",
-        "ColorBlock": 73,
-        "IconHint": "doloribus",
-        "Selected": true,
-        "LastChanged": "2019-08-28T11:10:54.3198663+02:00",
+        "Id": 367,
+        "Name": "Huel-Friesen",
+        "ToolTip": "Ipsam explicabo ut.",
+        "Deleted": true,
+        "Rank": 309,
+        "Type": "pariatur",
+        "ColorBlock": 120,
+        "IconHint": "quae",
+        "Selected": false,
+        "LastChanged": "2011-03-03T02:49:52.2659433+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "sed",
+        "ExtraInfo": "possimus",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Uriel Dana O'Conner MD",
+        "FullName": "Mae Stehr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 659
+            "FieldLength": 261
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "quidem",
-    "Hidden": false,
-    "FullName": "Mrs. Meaghan Nick Kilback DDS",
+    "ExtraInfo": "aut",
+    "StyleHint": "perferendis",
+    "Hidden": true,
+    "FullName": "Evangeline Buckridge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 313
       }
     }
   }

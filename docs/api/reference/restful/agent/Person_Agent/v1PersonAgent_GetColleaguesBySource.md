@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/GetColleaguesBySource
 
 Gets the persons working in the same company as the logged on user.
 
+
 The list of person could be retrieved from the history list, the diary view list, or from all sources.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The list of person could be retrieved from the history list, the diary view list
 ```http
 POST /api/v1/Agents/Person/GetColleaguesBySource?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Person/GetColleaguesBySource?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SourceType, Count
+SourceType, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SourceType | string |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -107,12 +115,12 @@ Response body: array
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 593
+  "Count": 169
 }
 ```
 
@@ -124,52 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptatum",
-    "PersonId": 616,
-    "Mrmrs": "aspernatur",
-    "Firstname": "Billie",
-    "Lastname": "Legros",
-    "MiddleName": "D'Amore-Orn",
-    "Title": "exercitationem",
-    "Description": "Enhanced local matrix",
-    "Email": "ava@stehrgottlieb.us",
-    "FullName": "Francisca Cormier",
-    "DirectPhone": "(592)961-2294 x83274",
-    "FormalName": "Tremblay-Bahringer",
-    "CountryId": 910,
-    "ContactId": 934,
-    "ContactName": "Williamson, McGlynn and Fisher",
-    "Retired": 276,
-    "Rank": 179,
-    "ActiveInterests": 239,
-    "ContactDepartment": "cultivate magnetic ROI",
-    "ContactCountryId": 382,
-    "ContactOrgNr": "1265367",
-    "FaxPhone": "679-424-3385",
-    "MobilePhone": "064.431.2249",
-    "ContactPhone": "837-872-0580 x47043",
-    "AssociateName": "Morar Group",
-    "AssociateId": 407,
+    "Position": "hic",
+    "PersonId": 847,
+    "Mrmrs": "voluptate",
+    "Firstname": "Fae",
+    "Lastname": "Spinka",
+    "MiddleName": "Fritsch-Cummings",
+    "Title": "officiis",
+    "Description": "Object-based global capability",
+    "Email": "allene@davislehner.com",
+    "FullName": "Garfield Smith",
+    "DirectPhone": "076-596-2276",
+    "FormalName": "Breitenberg, Breitenberg and Upton",
+    "CountryId": 875,
+    "ContactId": 40,
+    "ContactName": "Bauch Inc and Sons",
+    "Retired": 329,
+    "Rank": 84,
+    "ActiveInterests": 343,
+    "ContactDepartment": "",
+    "ContactCountryId": 812,
+    "ContactOrgNr": "1435489",
+    "FaxPhone": "1-935-165-2107",
+    "MobilePhone": "696.257.9755",
+    "ContactPhone": "1-961-966-2528",
+    "AssociateName": "O'Kon, Kunze and Keebler",
+    "AssociateId": 118,
     "UsePersonAddress": false,
-    "ContactFax": "autem",
-    "Kanafname": "eos",
-    "Kanalname": "voluptatum",
-    "Post1": "earum",
-    "Post2": "iure",
-    "Post3": "doloremque",
-    "EmailName": "savanah@douglasrosenbaum.name",
-    "ContactFullName": "Breanne Wilderman",
-    "ActiveErpLinks": 942,
-    "TicketPriorityId": 526,
-    "SupportLanguageId": 8,
-    "SupportAssociateId": 399,
+    "ContactFax": "iure",
+    "Kanafname": "et",
+    "Kanalname": "fuga",
+    "Post1": "vel",
+    "Post2": "sunt",
+    "Post3": "minima",
+    "EmailName": "loyce@bernhard.uk",
+    "ContactFullName": "Prof. Sofia Ebert III",
+    "ActiveErpLinks": 698,
+    "TicketPriorityId": 862,
+    "SupportLanguageId": 935,
+    "SupportAssociateId": 964,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 217
+        "FieldType": "System.Int32",
+        "FieldLength": 306
       }
     }
   }

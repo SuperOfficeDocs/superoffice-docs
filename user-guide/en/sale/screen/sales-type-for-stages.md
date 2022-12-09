@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: sale, type, stage
 so.topic: reference
-so.audience: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -30,7 +31,7 @@ If Quote functionality is active, you can also set various options for quotes cr
 
 <!-- Referenced links -->
 [1]: ../stakeholders/index.md
-[2]: ../admin/add-sale-type.md
+[2]: ../../settings/lists/sale-type.md
 [3]: sale-stage.md
 [4]: ../sales-guide/index.md
 

@@ -13,28 +13,28 @@ language: en
 
 [!include[Requirement](../includes/note-req-manage-entities.md)]
 
-If there are duplicate records of companies in the database, you can merge them. Contacts and activities will be moved to the target company and the source company will be deleted.
+You can merge duplicate database records of companies. Contacts and activities will be moved to the target company and the source company will be deleted.
 
-To merge companies:
+**Steps:**
 
 [!include[Go to company](../includes/goto-company.md)]
 
 1. Select **Manage companies** from the ![icon][img3] **Task** button, and click **Merge companies**.
     The **Merge companies** dialog opens. The source company is specified under **From**.
 
-1. Under **To company**, select the company you want to update with information from the source company. Start typing in the field to search for a company (see [FastSearcher][1]).
+1. Under **To company**, select the company you want to update with information from the source company. Start typing in the field to [search for a company][1].
 
     > [!TIP]
-    > If you want to switch the **From** and **To** companies, click the ![icon][img1] button.
+    > To switch the **From** and **To** companies, click the ![icon][img1] button.
 
 1. Under **Contacts and company details**, you can choose from:
 
-    * Merge identical contacts. If you select this option, contacts with identical names will be merged.
+    * Merge identical contacts. If selected, contacts with identical names are merged.
 
         > [!NOTE]
         > The names must be EXACTLY the same, first name, middle name and last name, to be merged.
 
-    * **Replace empty fields in \[target company\] with values from \[source company\]**. If you select this option, empty data fields in the **To** company will be updated with data from the **From** company.
+    * **Replace empty fields in \[target company\] with values from \[source company\]**. If selected, empty data fields in the **To** company are updated with data from the **From** company.
 
     [!include[Preview results](../includes/note-preview-results.md)]
 

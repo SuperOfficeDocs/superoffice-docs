@@ -11,7 +11,14 @@ POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 
 Set default values into a new MailMergeSettings.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +76,7 @@ Response body:
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 60,
-  "DocumentId": 251,
+  "SelectionId": 292,
+  "DocumentId": 192,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "assumenda",
-  "AlwaysUseCustomAttention": true,
-  "SaveDocument": false,
-  "CustomMailBody": "corrupti",
+  "CustomAttention": "cumque",
+  "AlwaysUseCustomAttention": false,
+  "SaveDocument": true,
+  "CustomMailBody": "iusto",
   "TaskEntity": null,
-  "AddCompanyInterest": 556,
-  "AddPersonInterest": 527,
-  "RemoveCompanyInterest": 931,
-  "RemovePersonInterest": 430,
-  "IncludeNoMailingsRecipient": true,
+  "AddCompanyInterest": 796,
+  "AddPersonInterest": 960,
+  "RemoveCompanyInterest": 758,
+  "RemovePersonInterest": 204,
+  "IncludeNoMailingsRecipient": false,
   "TestOnly": false,
-  "ProjectId": 144,
-  "IncludeRetiredRecipients": false,
+  "ProjectId": 700,
+  "IncludeRetiredRecipients": true,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "a",
-  "ExtraInfo": "sed",
-  "Synchronous": false,
-  "IsTemporarySelection": true,
+  "CustomMailSubject": "magnam",
+  "ExtraInfo": "non",
+  "Synchronous": true,
+  "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldLength": 322
     }
   }
 }

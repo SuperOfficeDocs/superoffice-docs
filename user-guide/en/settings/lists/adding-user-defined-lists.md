@@ -11,8 +11,6 @@ language: en
 
 # Add user-defined lists
 
-To add a new list in the **Lists** screen:
-
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
 2. Click the **Create list** button in the top right of the screen.
@@ -26,9 +24,9 @@ To add a new list in the **Lists** screen:
 
 5. Click **OK** to save the list in Settings and maintenance.
 
-The list is added to the **Lists** list. If you check the list in the list, the description will be displayed at the top of the **Lists** screen.
+The list is added to the **Lists** list. If you check the list in the list, the description is displayed at the top of the **Lists** screen.
 
-As well as specifying a name and description for the list, you need to add items to it. This described under [Add items][1].
+As well as specifying a name and description for the list, you must [add items][1] to it.
 
 <!-- Referenced links -->
 [1]: adding-items.md

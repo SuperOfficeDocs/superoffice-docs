@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetTicketPriorityEntity
 
 Gets a TicketPriorityEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=943
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=346
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +93,7 @@ Response body:
 POST /api/v1/Agents/List/GetTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,60 +103,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 498,
-  "Name": "Leffler Group",
+  "TicketPriorityId": 768,
+  "Name": "Yundt Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 404,
+  "SortOrder": 167,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 93,
-  "MonStart": "2021-09-14T11:10:27.1244565+02:00",
-  "MonStop": "2021-02-10T11:10:27.1244565+01:00",
-  "TueStart": "2022-01-17T11:10:27.1244565+01:00",
-  "TueStop": "2002-02-19T11:10:27.1244565+01:00",
-  "WedStart": "2002-04-27T11:10:27.1244565+02:00",
-  "WedStop": "2016-06-16T11:10:27.1244565+02:00",
-  "ThuStart": "2004-09-24T11:10:27.1244565+02:00",
-  "ThuStop": "1995-09-10T11:10:27.1244565+02:00",
-  "FriStart": "2004-05-02T11:10:27.1244565+02:00",
-  "FriStop": "2010-09-01T11:10:27.1244565+02:00",
-  "SatStart": "2006-07-09T11:10:27.1244565+02:00",
-  "SatStop": "2010-12-06T11:10:27.1244565+01:00",
-  "SunStart": "2009-04-16T11:10:27.1244565+02:00",
-  "SunStop": "2010-06-20T11:10:27.1244565+02:00",
+  "Deadline": 901,
+  "MonStart": "2011-11-17T02:49:44.5922969+01:00",
+  "MonStop": "2016-08-05T02:49:44.5922969+02:00",
+  "TueStart": "1999-05-30T02:49:44.5922969+02:00",
+  "TueStop": "2008-10-26T02:49:44.5922969+01:00",
+  "WedStart": "2001-04-08T02:49:44.5922969+02:00",
+  "WedStop": "2012-03-29T02:49:44.5922969+02:00",
+  "ThuStart": "2000-01-18T02:49:44.5922969+01:00",
+  "ThuStop": "2012-01-09T02:49:44.5922969+01:00",
+  "FriStart": "1995-08-09T02:49:44.5922969+02:00",
+  "FriStop": "2004-12-11T02:49:44.5922969+01:00",
+  "SatStart": "2021-10-06T02:49:44.5922969+02:00",
+  "SatStop": "1996-11-28T02:49:44.5922969+01:00",
+  "SunStart": "2021-09-06T02:49:44.5922969+02:00",
+  "SunStop": "2003-06-02T02:49:44.5922969+02:00",
   "NonDates": [
-    "error",
-    "quia"
+    "necessitatibus",
+    "nihil"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 446,
-      "AlertLevel": 14,
-      "AlertTimeout": 758,
-      "Action": 491,
-      "DelegateTo": 911,
-      "ScriptId": 639,
-      "EmailTo": "brandy@weber.co.uk",
-      "SmsTo": "aut",
-      "ReplyTemplateIdCustomer": 200,
-      "ReplyTemplateIdUser": 538,
-      "ReplyTemplateIdCatmast": 870,
-      "ReplyTemplateIdEmail": 753,
-      "RtiCustomerSms": 390,
-      "ReplyTemplateIdUserSms": 233,
-      "ReplyTemplateIdCatmastSms": 432,
-      "ReplyTemplateIdSms": 564,
+      "TicketAlertId": 592,
+      "AlertLevel": 792,
+      "AlertTimeout": 39,
+      "Action": 825,
+      "DelegateTo": 830,
+      "ScriptId": 647,
+      "EmailTo": "marisol@greenfelder.co.uk",
+      "SmsTo": "optio",
+      "ReplyTemplateIdCustomer": 938,
+      "ReplyTemplateIdUser": 603,
+      "ReplyTemplateIdCatmast": 290,
+      "ReplyTemplateIdEmail": 743,
+      "RtiCustomerSms": 245,
+      "ReplyTemplateIdUserSms": 631,
+      "ReplyTemplateIdCatmastSms": 549,
+      "ReplyTemplateIdSms": 107,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 929
+          "FieldLength": 148
         }
       }
     }
@@ -158,7 +166,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 528
     }
   }
 }

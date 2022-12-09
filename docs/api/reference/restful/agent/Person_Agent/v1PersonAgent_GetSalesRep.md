@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/GetSalesRep
 
 Returns the sales representative for an external user.
 
+
 If this method is accessed with anonymous authentication the external user is recognized by contact and name, or by email, or phone number. If the external user is recognized as an CRM5 user (internal or external) the input fields can be left blank.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If this method is accessed with anonymous authentication the external user is re
 ```http
 POST /api/v1/Agents/Person/GetSalesRep?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Person/GetSalesRep?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactName, PersonFirstname, PersonLastname, EmailAddress, PhoneNumber
+ContactName, PersonFirstname, PersonLastname, EmailAddress, PhoneNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,8 @@ ContactName, PersonFirstname, PersonLastname, EmailAddress, PhoneNumber
 | EmailAddress | string |  |
 | PhoneNumber | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -133,15 +141,15 @@ Response body:
 POST /api/v1/Agents/Person/GetSalesRep
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Connelly LLC",
-  "PersonFirstname": "Nettie",
-  "PersonLastname": "Leffler",
-  "EmailAddress": "myrtis@murazik.name",
-  "PhoneNumber": "1271056"
+  "ContactName": "Hackett, Kshlerin and Funk",
+  "PersonFirstname": "Chloe",
+  "PersonLastname": "Rohan",
+  "EmailAddress": "philip@heathcotehuels.uk",
+  "PhoneNumber": "436624"
 }
 ```
 
@@ -152,182 +160,182 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 998,
-  "Firstname": "Wilburn",
-  "MiddleName": "Douglas Inc and Sons",
-  "Lastname": "McDermott",
-  "Mrmrs": "modi",
-  "Title": "vitae",
-  "UpdatedDate": "2021-10-18T11:10:27.4124248+02:00",
-  "CreatedDate": "2021-09-27T11:10:27.4124248+02:00",
-  "BirthDate": "2001-09-23T11:10:27.4124248+02:00",
+  "PersonId": 226,
+  "Firstname": "Gina",
+  "MiddleName": "Beer-Schaden",
+  "Lastname": "Hackett",
+  "Mrmrs": "corporis",
+  "Title": "id",
+  "UpdatedDate": "2014-06-21T02:49:44.8122112+02:00",
+  "CreatedDate": "2009-11-04T02:49:44.8122112+01:00",
+  "BirthDate": "2019-08-28T02:49:44.8122112+02:00",
   "CreatedBy": null,
   "Emails": [
     {
-      "Value": "sit",
-      "StrippedValue": "numquam",
-      "Description": "Multi-tiered empowering interface",
+      "Value": "accusamus",
+      "StrippedValue": "tempora",
+      "Description": "Vision-oriented well-modulated leverage",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldLength": 230
         }
       }
     },
     {
-      "Value": "sit",
-      "StrippedValue": "numquam",
-      "Description": "Multi-tiered empowering interface",
+      "Value": "accusamus",
+      "StrippedValue": "tempora",
+      "Description": "Vision-oriented well-modulated leverage",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldLength": 230
         }
       }
     }
   ],
-  "Description": "Business-focused upward-trending hardware",
+  "Description": "Total bottom-line ability",
   "IsAssociate": false,
   "PrivatePhones": [
     {
-      "Value": "excepturi",
-      "StrippedValue": "explicabo",
-      "Description": "Ergonomic bifurcated middleware",
+      "Value": "labore",
+      "StrippedValue": "ut",
+      "Description": "Multi-layered web-enabled implementation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 127
         }
       }
     },
     {
-      "Value": "excepturi",
-      "StrippedValue": "explicabo",
-      "Description": "Ergonomic bifurcated middleware",
+      "Value": "labore",
+      "StrippedValue": "ut",
+      "Description": "Multi-layered web-enabled implementation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 127
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "at",
-      "StrippedValue": "similique",
-      "Description": "Intuitive content-based standardization",
+      "Value": "asperiores",
+      "StrippedValue": "in",
+      "Description": "Upgradable upward-trending forecast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 596
+          "FieldType": "System.Int32",
+          "FieldLength": 38
         }
       }
     },
     {
-      "Value": "at",
-      "StrippedValue": "similique",
-      "Description": "Intuitive content-based standardization",
+      "Value": "asperiores",
+      "StrippedValue": "in",
+      "Description": "Upgradable upward-trending forecast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 596
+          "FieldType": "System.Int32",
+          "FieldLength": 38
         }
       }
     }
   ],
   "MobilePhones": [
     {
-      "Value": "et",
-      "StrippedValue": "eum",
-      "Description": "Virtual neutral strategy",
+      "Value": "autem",
+      "StrippedValue": "quam",
+      "Description": "Triple-buffered exuding data-warehouse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 835
+          "FieldLength": 752
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "eum",
-      "Description": "Virtual neutral strategy",
+      "Value": "autem",
+      "StrippedValue": "quam",
+      "Description": "Triple-buffered exuding data-warehouse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 835
+          "FieldLength": 752
         }
       }
     }
   ],
   "OfficePhones": [
     {
-      "Value": "quaerat",
-      "StrippedValue": "dicta",
-      "Description": "Visionary attitude-oriented circuit",
+      "Value": "nostrum",
+      "StrippedValue": "eaque",
+      "Description": "Programmable multimedia installation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldLength": 546
         }
       }
     },
     {
-      "Value": "quaerat",
-      "StrippedValue": "dicta",
-      "Description": "Visionary attitude-oriented circuit",
+      "Value": "nostrum",
+      "StrippedValue": "eaque",
+      "Description": "Programmable multimedia installation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldLength": 546
         }
       }
     }
   ],
   "OtherPhones": [
     {
-      "Value": "ut",
-      "StrippedValue": "ipsum",
-      "Description": "User-friendly responsive customer loyalty",
+      "Value": "laboriosam",
+      "StrippedValue": "temporibus",
+      "Description": "Open-source maximized policy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 613
+          "FieldType": "System.Int32",
+          "FieldLength": 901
         }
       }
     },
     {
-      "Value": "ut",
-      "StrippedValue": "ipsum",
-      "Description": "User-friendly responsive customer loyalty",
+      "Value": "laboriosam",
+      "StrippedValue": "temporibus",
+      "Description": "Open-source maximized policy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 613
+          "FieldType": "System.Int32",
+          "FieldLength": 901
         }
       }
     }
@@ -338,228 +346,228 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Interests": [
     {
-      "Id": 714,
-      "Name": "Gleichner, Beahan and Stokes",
-      "ToolTip": "Vero optio cupiditate quo.",
+      "Id": 971,
+      "Name": "Jewess, Senger and Bradtke",
+      "ToolTip": "Aut quibusdam iusto rem vel voluptates quidem cupiditate.",
       "Deleted": true,
-      "Rank": 806,
-      "Type": "amet",
-      "ColorBlock": 275,
-      "IconHint": "molestiae",
+      "Rank": 199,
+      "Type": "eligendi",
+      "ColorBlock": 736,
+      "IconHint": "sequi",
       "Selected": false,
-      "LastChanged": "2000-11-28T11:10:27.4144248+01:00",
+      "LastChanged": "2013-03-10T02:49:44.8122112+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "rerum",
+      "ExtraInfo": "accusamus",
+      "StyleHint": "cupiditate",
       "Hidden": false,
-      "FullName": "Jo Roberts",
+      "FullName": "Jarrod Parker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 2
+          "FieldLength": 667
         }
       }
     }
   ],
-  "PersonNumber": "1698746",
-  "FullName": "Ms. Mandy Treutel DDS",
-  "NoMailing": false,
-  "UsePersonAddress": false,
+  "PersonNumber": "421334",
+  "FullName": "Miss Verda Stracke",
+  "NoMailing": true,
+  "UsePersonAddress": true,
   "Retired": true,
   "Urls": [
     {
-      "Value": "vel",
-      "StrippedValue": "quas",
-      "Description": "Switchable national focus group",
+      "Value": "et",
+      "StrippedValue": "vel",
+      "Description": "Cloned real-time application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldLength": 704
         }
       }
     },
     {
-      "Value": "vel",
-      "StrippedValue": "quas",
-      "Description": "Switchable national focus group",
+      "Value": "et",
+      "StrippedValue": "vel",
+      "Description": "Cloned real-time application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldLength": 704
         }
       }
     }
   ],
-  "FormalName": "Pfannerstill, Cremin and Cole",
+  "FormalName": "Fahey, Monahan and Rath",
   "Address": null,
-  "Post3": "et",
-  "Post2": "dicta",
-  "Post1": "id",
-  "Kanalname": "rerum",
-  "Kanafname": "reprehenderit",
+  "Post3": "quos",
+  "Post2": "blanditiis",
+  "Post1": "sit",
+  "Kanalname": "aut",
+  "Kanafname": "quibusdam",
   "CorrespondingAssociate": null,
   "Category": null,
   "Business": null,
   "Associate": null,
-  "Salutation": "sunt",
-  "ActiveInterests": 644,
+  "Salutation": "et",
+  "ActiveInterests": 294,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "DbiAgentId": 765,
-  "DbiKey": "alias",
-  "DbiLastModified": "2017-07-23T11:10:27.4164251+02:00",
-  "DbiLastSyncronized": "2020-01-29T11:10:27.4164251+01:00",
-  "SentInfo": 344,
-  "ShowContactTickets": 648,
+  "DbiAgentId": 65,
+  "DbiKey": "veniam",
+  "DbiLastModified": "2001-05-26T02:49:44.8122112+02:00",
+  "DbiLastSyncronized": "2008-09-15T02:49:44.8122112+02:00",
+  "SentInfo": 615,
+  "ShowContactTickets": 532,
   "UserInfo": null,
   "ChatEmails": [
     {
-      "Value": "quis",
-      "StrippedValue": "voluptatem",
-      "Description": "Organic optimizing superstructure",
+      "Value": "dolor",
+      "StrippedValue": "neque",
+      "Description": "Configurable methodical application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 605
+          "FieldType": "System.Int32",
+          "FieldLength": 619
         }
       }
     },
     {
-      "Value": "quis",
-      "StrippedValue": "voluptatem",
-      "Description": "Organic optimizing superstructure",
+      "Value": "dolor",
+      "StrippedValue": "neque",
+      "Description": "Configurable methodical application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 605
+          "FieldType": "System.Int32",
+          "FieldLength": 619
         }
       }
     }
   ],
   "InternetPhones": [
     {
-      "Value": "quaerat",
-      "StrippedValue": "aut",
-      "Description": "Up-sized discrete open architecture",
+      "Value": "error",
+      "StrippedValue": "et",
+      "Description": "Organic 24/7 secured line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 814
         }
       }
     },
     {
-      "Value": "quaerat",
-      "StrippedValue": "aut",
-      "Description": "Up-sized discrete open architecture",
+      "Value": "error",
+      "StrippedValue": "et",
+      "Description": "Organic 24/7 secured line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 814
         }
       }
     }
   ],
-  "Source": 915,
-  "ActiveErpLinks": 439,
+  "Source": 763,
+  "ActiveErpLinks": 264,
   "ShipmentTypes": [
     {
-      "Id": 803,
-      "Name": "Morar, Goyette and Feest",
-      "ToolTip": "Veniam maxime laudantium voluptatem.",
+      "Id": 544,
+      "Name": "O'Kon Inc and Sons",
+      "ToolTip": "Rerum culpa illo.",
       "Deleted": false,
-      "Rank": 867,
-      "Type": "consequatur",
-      "ColorBlock": 713,
-      "IconHint": "magnam",
+      "Rank": 686,
+      "Type": "magni",
+      "ColorBlock": 741,
+      "IconHint": "nam",
       "Selected": false,
-      "LastChanged": "1999-03-18T11:10:27.4174248+01:00",
+      "LastChanged": "2011-08-27T02:49:44.8122112+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quas",
-      "StyleHint": "magnam",
+      "ExtraInfo": "nostrum",
+      "StyleHint": "laborum",
       "Hidden": false,
-      "FullName": "Mr. Fritz Emiliano Gerhold IV",
+      "FullName": "Mrs. Marietta Kreiger DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldLength": 104
         }
       }
     }
   ],
   "Consents": [
     {
-      "ConsentPersonId": 233,
+      "ConsentPersonId": 426,
       "Comment": "ut",
-      "Registered": "2000-05-27T11:10:27.4204605+02:00",
-      "RegisteredAssociateId": 773,
-      "Updated": "2020-11-14T11:10:27.4204605+01:00",
-      "UpdatedAssociateId": 292,
-      "LegalBaseId": 257,
-      "LegalBaseKey": "odit",
-      "LegalBaseName": "King Inc and Sons",
-      "ConsentPurposeId": 800,
-      "ConsentPurposeKey": "vitae",
-      "ConsentPurposeName": "Breitenberg-Senger",
-      "ConsentSourceId": 846,
-      "ConsentSourceKey": "sed",
-      "ConsentSourceName": "Hamill-Terry",
+      "Registered": "2003-12-18T02:49:44.8122112+01:00",
+      "RegisteredAssociateId": 281,
+      "Updated": "2014-01-07T02:49:44.8122112+01:00",
+      "UpdatedAssociateId": 110,
+      "LegalBaseId": 501,
+      "LegalBaseKey": "officia",
+      "LegalBaseName": "Ziemann, Jerde and Pouros",
+      "ConsentPurposeId": 394,
+      "ConsentPurposeKey": "dolorem",
+      "ConsentPurposeName": "Reilly Group",
+      "ConsentSourceId": 881,
+      "ConsentSourceKey": "itaque",
+      "ConsentSourceName": "Johnston Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 21
+          "FieldType": "System.Int32",
+          "FieldLength": 750
         }
       }
     }
   ],
   "BounceEmails": [
-    "reggie.hand@jast.uk",
-    "llewellyn.rippin@kertzmanngleichner.uk"
+    "daniela@gaylordemmerich.biz",
+    "kennedi_farrell@damoremitchell.biz"
   ],
-  "ActiveStatusMonitorId": 848,
+  "ActiveStatusMonitorId": 929,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lillie Nigel Gerhold III",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Dr. Nolan Treutel PhD",
+    "SuperOffice:2": "292261829"
   },
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "accusamus"
+    "CustomFields1": "eius",
+    "CustomFields2": "unde"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldType": "System.String",
+      "FieldLength": 118
     }
   }
 }

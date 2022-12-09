@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 
 Get Erp Field values
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get Erp Field values
 ```http
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, ActorTypeErp, ErpKey
+ErpConnectionId, ActorTypeErp, ErpKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 | ActorTypeErp | string |  |
 | ErpKey | string |  |
+
 
 ## Response: array
 
@@ -74,13 +84,13 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 798,
+  "ErpConnectionId": 735,
   "ActorTypeErp": "Customer",
-  "ErpKey": "nesciunt"
+  "ErpKey": "adipisci"
 }
 ```
 
@@ -92,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bradtke-Cormier",
-    "CrmFieldKey": "delectus",
-    "Value": "tempora",
-    "DisplayValue": "accusantium",
-    "SyncToCrm": false,
-    "SyncToErp": false,
+    "DisplayName": "Reichel-Monahan",
+    "CrmFieldKey": "adipisci",
+    "Value": "magni",
+    "DisplayValue": "accusamus",
+    "SyncToCrm": true,
+    "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 625
+        "FieldType": "System.Int32",
+        "FieldLength": 832
       }
     }
   }

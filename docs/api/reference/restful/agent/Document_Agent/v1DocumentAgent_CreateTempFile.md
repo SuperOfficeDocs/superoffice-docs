@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/CreateTempFile
 
 Create a new temporary file based on the provided stream.
 
+
 Specified filename may be overridden, and actual name is returned.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Specified filename may be overridden, and actual name is returned.
 ```http
 POST /api/v1/Agents/Document/CreateTempFile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Document/CreateTempFile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Filename, DataStream
+Filename, DataStream 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Filename | string |  |
 | DataStream | byte |  |
+
 
 ## Response: string
 
@@ -56,17 +64,18 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/CreateTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "repudiandae",
+  "Filename": "illo",
   "DataStream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -77,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eligendi"
+"optio"
 ```

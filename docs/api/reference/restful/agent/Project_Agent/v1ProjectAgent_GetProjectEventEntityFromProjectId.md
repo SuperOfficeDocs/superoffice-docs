@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 
 Get a ProjectEventEntity based on a projectId.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a ProjectEventEntity based on a projectId.
 ```http
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,11 +102,11 @@ Response body:
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 209
+  "ProjectId": 595
 }
 ```
 
@@ -109,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "ipsam",
-  "SignOffText": "non",
-  "SignOnConfirmationText": "vitae",
-  "SignOnText": "doloremque",
-  "EventDate": "2010-07-18T11:10:27.6124529+02:00",
-  "Enabled": false,
-  "CreatedDate": "1997-12-20T11:10:27.6124529+01:00",
+  "SignOffConfirmationText": "exercitationem",
+  "SignOffText": "aut",
+  "SignOnConfirmationText": "voluptas",
+  "SignOnText": "perferendis",
+  "EventDate": "1999-05-12T02:49:44.9684639+02:00",
+  "Enabled": true,
+  "CreatedDate": "2012-02-26T02:49:44.9684639+01:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 821,
+  "SignOffTaskId": 148,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 998,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 800,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2002-10-24T11:10:27.6124529+02:00",
+  "UpdatedDate": "1998-12-09T02:49:44.9684639+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 607,
-  "Id": 343,
-  "PublishFrom": "2008-04-15T11:10:27.6134529+02:00",
+  "ProjectId": 643,
+  "Id": 564,
+  "PublishFrom": "1998-02-08T02:49:44.9684639+01:00",
   "PublishType": "External",
-  "PublishTo": "2000-03-17T11:10:27.6134529+01:00",
+  "PublishTo": "2012-05-19T02:49:44.9684639+02:00",
   "VisibleForCategories": [
     {
-      "Id": 365,
-      "Name": "Ward, Dooley and DuBuque",
-      "ToolTip": "Earum consequatur amet beatae perspiciatis voluptatum aliquid.",
-      "Deleted": false,
-      "Rank": 573,
-      "Type": "rerum",
+      "Id": 336,
+      "Name": "Rippin-Pfeffer",
+      "ToolTip": "Sed illo eligendi iure quia dolorum commodi quo.",
+      "Deleted": true,
+      "Rank": 435,
+      "Type": "reprehenderit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 767,
-      "ExtraInfo": "molestiae",
-      "StyleHint": "quas",
-      "FullName": "Dave Quitzon",
+      "IconHint": "vero",
+      "ColorBlock": 678,
+      "ExtraInfo": "mollitia",
+      "StyleHint": "deserunt",
+      "FullName": "Gina Granville Stehr III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldType": "System.String",
+          "FieldLength": 454
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 289,
-      "Name": "Kertzmann Inc and Sons",
-      "ToolTip": "Neque illo numquam et facilis aut.",
-      "Deleted": false,
-      "Rank": 164,
-      "Type": "non",
+      "Id": 342,
+      "Name": "Stiedemann-Daniel",
+      "ToolTip": "Consequuntur neque eos accusamus recusandae et eligendi debitis.",
+      "Deleted": true,
+      "Rank": 210,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 583,
-      "ExtraInfo": "eius",
-      "StyleHint": "suscipit",
-      "FullName": "Luz Hagenes",
+      "IconHint": "iure",
+      "ColorBlock": 384,
+      "ExtraInfo": "adipisci",
+      "StyleHint": "accusamus",
+      "FullName": "Mrs. Giovanna Wisozk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 775
+          "FieldType": "System.String",
+          "FieldLength": 671
         }
       }
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
+  "IsPublished": true,
+  "IsVisibleForMembers": true,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 767,
+  "ProjectEventId": 678,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 441
+      "FieldType": "System.Int32",
+      "FieldLength": 160
     }
   }
 }

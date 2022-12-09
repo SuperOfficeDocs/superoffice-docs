@@ -11,7 +11,14 @@ GET /api/v1/List/Credited/Headings
 
 Gets headings for the Credited list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -53,7 +61,7 @@ Response body: array
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -64,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 834,
-    "Name": "Cronin, Turner and Price",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 142,
-    "UdListDefinitionId": 898,
+    "HeadingId": 887,
+    "Name": "Gutmann, Haley and Ritchie",
+    "Tooltip": "voluptatum",
+    "Deleted": true,
+    "Rank": 363,
+    "UdListDefinitionId": 726,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 423
+        "FieldType": "System.Int32",
+        "FieldLength": 737
       }
     }
   }

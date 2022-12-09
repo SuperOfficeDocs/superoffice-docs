@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 
 Get criteria information from a set of saved criteria.
 
+
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The result contains the restrictions in two forms: fully populated ArchiveRestri
 ```http
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/GetCriteriaInformationWithContext?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, StaticColumns, Context
+StorageType, ProviderName, StorageKey, StaticColumns, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,8 @@ StorageType, ProviderName, StorageKey, StaticColumns, Context
 | StaticColumns | array |  |
 | Context | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,14 +86,14 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quidem",
-  "ProviderName": "Ratke, Bednar and Halvorson",
-  "StorageKey": "praesentium",
+  "StorageType": "voluptas",
+  "ProviderName": "Rath-Lowe",
+  "StorageKey": "modi",
   "StaticColumns": [
-    "culpa",
-    "ipsa"
+    "et",
+    "assumenda"
   ],
-  "Context": "non"
+  "Context": "voluptatem"
 }
 ```
 
@@ -98,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Padberg Inc and Sons",
-      "Operator": "possimus",
+      "Name": "Huel LLC",
+      "Operator": "assumenda",
       "Values": [
-        "iusto",
-        "qui"
+        "labore",
+        "tempore"
       ],
       "DisplayValues": [
-        "impedit",
-        "consequuntur"
+        "accusantium",
+        "voluptate"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -114,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 348,
+      "InterParenthesis": 41,
       "InterOperator": "And",
-      "UniqueHash": 939
+      "UniqueHash": 12
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Wyman Group",
-      "DisplayTooltip": "aut",
-      "DisplayType": "ut",
-      "CanOrderBy": true,
-      "Name": "Mayert Inc and Sons",
+      "DisplayName": "Hills-Gerlach",
+      "DisplayTooltip": "ex",
+      "DisplayType": "dignissimos",
+      "CanOrderBy": false,
+      "Name": "Hermiston, Jones and Murphy",
       "CanRestrictBy": false,
-      "RestrictionType": "quidem",
-      "RestrictionListName": "Predovic, Veum and Leuschke",
-      "IsVisible": false,
-      "ExtraInfo": "incidunt",
-      "Width": "at",
-      "IconHint": "consectetur",
-      "HeadingIconHint": "et"
+      "RestrictionType": "et",
+      "RestrictionListName": "Torp-Wiza",
+      "IsVisible": true,
+      "ExtraInfo": "voluptates",
+      "Width": "deserunt",
+      "IconHint": "vel",
+      "HeadingIconHint": "quia"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Beatty-Jast",
-      "PrimaryKey": 908,
+      "EntityName": "Satterfield, Bergstrom and Schuster",
+      "PrimaryKey": 149,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "reprehenderit",
-          "TooltipHint": "earum",
-          "LinkHint": "voluptates"
+          "DisplayValue": "molestiae",
+          "TooltipHint": "est",
+          "LinkHint": "mollitia"
         }
       },
-      "LinkHint": "sit",
-      "StyleHint": "modi",
+      "LinkHint": "corporis",
+      "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 698
+          "FieldType": "System.String",
+          "FieldLength": 848
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Beier, Adams and Morar",
-      "Description": "Streamlined assymetric paradigm",
-      "Rank": 15,
+      "Name": "Turner Group",
+      "Description": "Optional clear-thinking interface",
+      "Rank": 364,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Beier, Adams and Morar",
-      "Description": "Streamlined assymetric paradigm",
-      "Rank": 15,
+      "Name": "Turner Group",
+      "Description": "Optional clear-thinking interface",
+      "Rank": 364,
       "Restrictions": [
         {},
         {}
@@ -183,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldType": "System.String",
+      "FieldLength": 174
     }
   }
 }

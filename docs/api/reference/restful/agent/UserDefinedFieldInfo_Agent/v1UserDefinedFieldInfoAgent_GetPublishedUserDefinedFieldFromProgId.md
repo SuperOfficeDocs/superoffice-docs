@@ -11,7 +11,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 
 Return information about the given user defined field identified by the owner and the prog-id.
 
+
 The prog-id is used as the key in the entity carriers.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The prog-id is used as the key in the entity carriers.
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProgId, OwnerType
+ProgId, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProgId | string |  |
 | OwnerType | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,11 +109,11 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "quas",
+  "ProgId": "dolore",
   "OwnerType": "Appointment"
 }
 ```
@@ -117,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 224,
-  "ColumnId": 500,
-  "FieldDefault": "est",
-  "FieldHeight": 262,
-  "FieldLabel": "aut",
-  "FieldLeft": 355,
-  "FieldTop": 548,
+  "UDefFieldId": 566,
+  "ColumnId": 416,
+  "FieldDefault": "at",
+  "FieldHeight": 186,
+  "FieldLabel": "officia",
+  "FieldLeft": 846,
+  "FieldTop": 241,
   "FieldType": "Checkbox",
-  "FieldWidth": 865,
-  "FormatMask": "et",
+  "FieldWidth": 779,
+  "FormatMask": "sunt",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 417,
-  "LabelLeft": 685,
-  "LabelTop": 92,
-  "LabelWidth": 907,
-  "LastVersionId": 635,
-  "ListTableId": 433,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 460,
+  "LabelLeft": 238,
+  "LabelTop": 106,
+  "LabelWidth": 22,
+  "LastVersionId": 153,
+  "ListTableId": 925,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 950,
-  "ProgId": "aspernatur",
+  "Page1LineNo": 65,
+  "ProgId": "cum",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 265,
-  "TextLength": 637,
-  "Tooltip": "optio",
-  "UdefIdentity": 16,
-  "UDListDefinitionId": 129,
+  "ShortLabel": "omnis",
+  "TabOrder": 723,
+  "TextLength": 507,
+  "Tooltip": "eos",
+  "UdefIdentity": 591,
+  "UDListDefinitionId": 875,
   "Justification": "Center",
-  "Version": 555,
-  "TemplateVariableName": "Parker-Bosco",
-  "HasBeenPublished": true,
-  "MdoListName": "Shanahan, Frami and Gaylord",
+  "Version": 663,
+  "TemplateVariableName": "Bosco-Klein",
+  "HasBeenPublished": false,
+  "MdoListName": "Powlowski-Gerlach",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldType": "System.String",
+      "FieldLength": 32
     }
   }
 }

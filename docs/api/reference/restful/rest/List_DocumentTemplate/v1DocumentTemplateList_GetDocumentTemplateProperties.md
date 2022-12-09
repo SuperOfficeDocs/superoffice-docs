@@ -11,9 +11,15 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Property
 
 Get document template properties
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentTemplateId | int32 | The primary key id of the document template **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Get document template properties
 ```http
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Property?requestedProperties=Path
 ```
+
 
 ## Request Headers
 
@@ -38,6 +45,7 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Property?requestedP
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: object
 
 OK
@@ -47,6 +55,7 @@ OK
 | 200 | OK |
 
 Response body: object
+
 
 ## Sample request
 
@@ -64,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nostrum",
-  "2": "praesentium"
+  "1": "earum",
+  "2": "asperiores"
 }
 ```

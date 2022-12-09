@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 
 This method will execute event handlers in CRMScript for a given event.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method will execute event handlers in CRMScript for a given event.
 ```http
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/CustomerService/ExecuteEventHandlers?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EventData
+EventData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EventData |  | EventData containing data related to event handlers <para /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,6 +68,7 @@ Response body:
 | BlockExecution | bool | Whether the context should stop what it is doing, e.g. saving a sale |
 | NavigateTo | string | Where the context should naviate afterwards |
 | Message | string | A message to be presented to the user |
+| ShowDialog | string | JSON structure of dialog to show |
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
@@ -89,27 +98,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "vel",
-    "InputValues2": "nemo"
+    "InputValues1": "labore",
+    "InputValues2": "suscipit"
   },
-  "BlockExecution": false,
-  "NavigateTo": "maiores",
-  "Message": "omnis",
+  "BlockExecution": true,
+  "NavigateTo": "optio",
+  "Message": "nam",
+  "ShowDialog": "non",
   "OutputValues": {
-    "OutputValues1": "explicabo",
-    "OutputValues2": "qui"
+    "OutputValues1": "id",
+    "OutputValues2": "odit"
   },
   "StateValues": {
-    "StateValues1": "fugit",
-    "StateValues2": "officia"
+    "StateValues1": "autem",
+    "StateValues2": "unde"
   },
-  "Exception": "ipsa",
+  "Exception": "vero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 529
     }
   }
 }

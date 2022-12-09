@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
 
 Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on members in a project.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns a RecipientStatistics object with a count of addresses, emailaddresses a
 ```http
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +78,11 @@ Response body:
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 62
+  "ProjectId": 513
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 797,
-  "ValidPostalAddresses": 441,
-  "ValidEmailAddresses": 927,
-  "ValidFaxNumbers": 476,
-  "NoAddresses": 410,
-  "NoFaxOrEmails": 387,
+  "Total": 787,
+  "ValidPostalAddresses": 325,
+  "ValidEmailAddresses": 132,
+  "ValidFaxNumbers": 452,
+  "NoAddresses": 840,
+  "NoFaxOrEmails": 755,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 745
+      "FieldType": "System.Int32",
+      "FieldLength": 534
     }
   }
 }

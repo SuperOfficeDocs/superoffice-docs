@@ -11,9 +11,16 @@ POST /api/v1/Selection/{selectionId}/Members/Add
 
 Add selection members to a static selection of type others than contacts.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The selection id to add the members to. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,11 @@ Add selection members to a static selection of type others than contacts.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: ids
+## Request Body: ids  
 
-Collection of ids to add to the selection.
+Collection of ids to add to the selection. 
+
+
 
 ## Response: int32
 
@@ -43,13 +52,14 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Selection/{selectionId}/Members/Add
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -58,5 +68,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-300
+899
 ```

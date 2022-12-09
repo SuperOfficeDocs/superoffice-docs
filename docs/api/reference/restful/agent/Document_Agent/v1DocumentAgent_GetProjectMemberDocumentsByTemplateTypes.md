@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
+
 The document appointments belong to the project member specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project member specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes?$select=na
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count, DocumentTemplateIds
+PersonId, StartTime, EndTime, Count, DocumentTemplateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ PersonId, StartTime, EndTime, Count, DocumentTemplateIds
 | EndTime | date-time |  |
 | Count | int32 |  |
 | DocumentTemplateIds | array |  |
+
 
 ## Response: array
 
@@ -90,17 +98,17 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 429,
-  "StartTime": "2002-04-01T11:10:26.4664531+02:00",
-  "EndTime": "2020-04-01T11:10:26.4664531+02:00",
-  "Count": 21,
+  "PersonId": 808,
+  "StartTime": "2017-05-02T02:49:44.0753838+02:00",
+  "EndTime": "1998-11-28T02:49:44.0753838+01:00",
+  "Count": 896,
   "DocumentTemplateIds": [
-    258,
-    391
+    577,
+    213
   ]
 }
 ```
@@ -113,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 42,
-    "Attention": "corporis",
-    "Header": "asperiores",
-    "Name": "Ratke-Jewess",
-    "OurRef": "placeat",
-    "YourRef": "iusto",
-    "Description": "Exclusive client-driven capability",
-    "DocumentTemplate": "aut",
-    "IsPublished": true,
-    "PersonId": 692,
-    "PersonFullName": "Thaddeus Schmitt",
-    "AssociateFullName": "Mr. Jewel Joshua Haley IV",
-    "ContactId": 52,
-    "ContactName": "Douglas Inc and Sons",
-    "ProjectId": 109,
-    "ProjectName": "Hansen-Larkin",
-    "AssociateId": 773,
-    "Snum": 986,
-    "SaleId": 631,
-    "SaleName": "Predovic-Sipes",
+    "DocumentId": 202,
+    "Attention": "rem",
+    "Header": "est",
+    "Name": "Kutch-Kohler",
+    "OurRef": "voluptatem",
+    "YourRef": "qui",
+    "Description": "Synchronised explicit knowledge user",
+    "DocumentTemplate": "et",
+    "IsPublished": false,
+    "PersonId": 492,
+    "PersonFullName": "Mrs. Dina Russel III",
+    "AssociateFullName": "Katarina Marks",
+    "ContactId": 171,
+    "ContactName": "Gleichner, Wehner and Mertz",
+    "ProjectId": 654,
+    "ProjectName": "Deckow-Hessel",
+    "AssociateId": 616,
+    "Snum": 248,
+    "SaleId": 390,
+    "SaleName": "Gleichner Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 369
       }
     }
   }

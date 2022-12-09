@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 
 Get license assignments for an associate for licenses belonging to an other module owner than SuperOffice
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get license assignments for an associate for licenses belonging to an other modu
 ```http
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, ModuleOwner
+AssociateId, ModuleOwner 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | ModuleOwner | string |  |
+
 
 ## Response: array
 
@@ -79,12 +87,12 @@ Response body: array
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 964,
-  "ModuleOwner": "et"
+  "AssociateId": 621,
+  "ModuleOwner": "alias"
 }
 ```
 
@@ -97,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 100,
-    "Tooltip": "accusantium",
-    "CanAssign": false,
-    "Free": 305,
-    "InUse": 464,
-    "IsHidden": true,
+    "Total": 957,
+    "Tooltip": "maiores",
+    "CanAssign": true,
+    "Free": 600,
+    "InUse": 439,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 122,
-    "Name": "Zieme, Ullrich and Dare",
-    "Description": "Monitored eco-centric neural-net",
-    "PrerequisiteModuleName": "Hahn Inc and Sons",
-    "SortOrder": 679,
-    "ExtraFlags": 984,
+    "ModuleLicenseId": 208,
+    "Name": "Hauck, Pacocha and Goodwin",
+    "Description": "Compatible hybrid framework",
+    "PrerequisiteModuleName": "Reichert LLC",
+    "SortOrder": 77,
+    "ExtraFlags": 1002,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 976
+        "FieldType": "System.String",
+        "FieldLength": 81
       }
     }
   }

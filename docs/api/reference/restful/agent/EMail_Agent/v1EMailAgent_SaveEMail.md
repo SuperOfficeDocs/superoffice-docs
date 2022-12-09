@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/SaveEMail
 
 Save the passed e-mail back to the server
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Save the passed e-mail back to the server
 ```http
 POST /api/v1/Agents/EMail/SaveEMail?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,17 @@ POST /api/v1/Agents/EMail/SaveEMail?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfo, Email
+ConnectionInfo, Email 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | Email |  | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,7 +103,7 @@ Response body:
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,147 +121,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 436,
-      "ContactName": "Conroy, Stiedemann and Boyer",
-      "PersonId": 965,
-      "PersonName": "Kozey, Kessler and Upton",
-      "AssociateId": 481,
-      "Address": "labore",
-      "EmailId": 597,
+      "ContactId": 113,
+      "ContactName": "Crooks Group",
+      "PersonId": 725,
+      "PersonName": "Satterfield Inc and Sons",
+      "AssociateId": 987,
+      "Address": "omnis",
+      "EmailId": 413,
       "DuplicatePersonIds": [
-        414,
-        113
+        404,
+        959
       ],
-      "Name": "Cruickshank, Hermiston and Ondricka",
+      "Name": "Moore-Parker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 709
+          "FieldType": "System.String",
+          "FieldLength": 649
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 834,
-      "ContactName": "Mitchell, Wintheiser and Fadel",
-      "PersonId": 735,
-      "PersonName": "Murazik LLC",
-      "AssociateId": 933,
-      "Address": "consequatur",
-      "EmailId": 536,
+      "ContactId": 813,
+      "ContactName": "Mueller-Moore",
+      "PersonId": 965,
+      "PersonName": "Reynolds, Watsica and Paucek",
+      "AssociateId": 298,
+      "Address": "facere",
+      "EmailId": 12,
       "DuplicatePersonIds": [
-        689,
-        218
+        845,
+        257
       ],
-      "Name": "Casper-Stroman",
+      "Name": "Stiedemann-Rath",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldLength": 612
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 234,
-      "ContactName": "Weber-Gleichner",
-      "PersonId": 1001,
-      "PersonName": "Wiza LLC",
-      "AssociateId": 919,
-      "Address": "tempora",
-      "EmailId": 749,
+      "ContactId": 289,
+      "ContactName": "Brown, Stehr and Jenkins",
+      "PersonId": 987,
+      "PersonName": "Reynolds Group",
+      "AssociateId": 371,
+      "Address": "voluptatem",
+      "EmailId": 498,
       "DuplicatePersonIds": [
-        985,
-        234
+        642,
+        26
       ],
-      "Name": "Lemke LLC",
+      "Name": "Veum, Turner and Johns",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldLength": 882
         }
       }
     }
   ],
-  "Subject": "sunt",
-  "HTMLBody": "minima",
+  "Subject": "sint",
+  "HTMLBody": "enim",
   "From": null,
-  "Sent": "2015-10-18T11:10:26.9334247+02:00",
-  "Size": 979,
+  "Sent": "2007-06-11T02:49:44.4347885+02:00",
+  "Size": 833,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ut",
-  "PlainBody": "voluptatibus",
+  "MessageID": "rem",
+  "PlainBody": "mollitia",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 599,
+  "ServerId": 970,
   "Attachments": [
     {
-      "Description": "Extended maximized leverage",
-      "Filename": "et",
-      "Size": 312,
-      "Type": "perferendis",
-      "Encoding": "et",
-      "Id": "deleniti",
-      "Disposition": "aut",
+      "Description": "Automated reciprocal website",
+      "Filename": "aut",
+      "Size": 918,
+      "Type": "reiciendis",
+      "Encoding": "ipsam",
+      "Id": "expedita",
+      "Disposition": "occaecati",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 678
+          "FieldType": "System.Int32",
+          "FieldLength": 294
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Shanahan Inc and Sons",
+      "Name": "Farrell-Ortiz",
       "Values": [
-        "eos",
-        "sint"
+        "dignissimos",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 395
+          "FieldLength": 258
         }
       }
     },
     {
-      "Name": "Shanahan Inc and Sons",
+      "Name": "Farrell-Ortiz",
       "Values": [
-        "eos",
-        "sint"
+        "dignissimos",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 395
+          "FieldLength": 258
         }
       }
     }
   ],
-  "FolderName": "Kuphal-Greenfelder",
-  "EmailItemId": 991,
-  "AccountId": 372,
-  "ReceivedAt": "2020-08-02T11:10:26.9334247+02:00",
+  "FolderName": "Davis-Kertzmann",
+  "EmailItemId": 406,
+  "AccountId": 102,
+  "ReceivedAt": "2000-09-05T02:49:44.4347885+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-10-04T11:10:26.9334247+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2012-04-11T02:49:44.4347885+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -259,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldLength": 568
     }
   }
 }

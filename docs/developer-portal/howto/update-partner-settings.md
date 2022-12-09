@@ -34,4 +34,4 @@ so.client: online
 [1]: update-contact-person.md
 
 <!-- Referenced images -->
-[img1]: media/partner-settings.png
+[img1]: ../media/partner-settings.png

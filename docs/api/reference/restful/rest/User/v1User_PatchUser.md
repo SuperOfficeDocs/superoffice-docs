@@ -11,9 +11,11 @@ PATCH /api/v1/User/{id}
 
 Update a User with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Update the Department field to "foo" can be done either as a JSON PATCH
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -29,14 +31,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IUserAgent} service SaveUser.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The User  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -47,6 +58,7 @@ Calls the {SuperOffice.CRM.Services.IUserAgent} service SaveUser.
 ```http
 PATCH /api/v1/User/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -62,9 +74,9 @@ PATCH /api/v1/User/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +84,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 User  updated.
 
@@ -83,7 +96,7 @@ User  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because User has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -122,18 +135,18 @@ Response body:
 PATCH /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ipsum",
+    "path": "maxime",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsum",
+    "path": "maxime",
     "value": {}
   }
 ]
@@ -146,14 +159,14 @@ HTTP/1.1 200 User  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 317,
-  "Name": "Reynolds, Ondricka and Jerde",
-  "Rank": 699,
-  "Tooltip": "rerum",
+  "AssociateId": 398,
+  "Name": "Brekke, Prosacco and Keeling",
+  "Rank": 657,
+  "Tooltip": "esse",
   "LicenseOwners": [
     {
-      "Name": "Brekke, Will and Bartoletti",
-      "Description": "Organic real-time support",
+      "Name": "O'Reilly Group",
+      "Description": "Ameliorated bandwidth-monitored open system",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -167,13 +180,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldLength": 185
         }
       }
     },
     {
-      "Name": "Brekke, Will and Bartoletti",
-      "Description": "Organic real-time support",
+      "Name": "O'Reilly Group",
+      "Description": "Ameliorated bandwidth-monitored open system",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -187,7 +200,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldLength": 185
         }
       }
     }
@@ -196,110 +209,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "dignissimos",
-      "Tooltip": "perferendis",
-      "Id": 143,
-      "Rank": 183,
-      "Deleted": true,
+      "Value": "natus",
+      "Tooltip": "quis",
+      "Id": 988,
+      "Rank": 474,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldLength": 393
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2015-04-21T11:10:53.8252153+02:00",
-  "Lastlogout": "2000-10-09T11:10:53.8252153+02:00",
-  "EjUserId": 4,
-  "RequestSignature": "recusandae",
+  "Deleted": true,
+  "Lastlogin": "2017-06-18T02:49:51.8116461+02:00",
+  "Lastlogout": "2021-06-22T02:49:51.8116461+02:00",
+  "EjUserId": 27,
+  "RequestSignature": "veniam",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "qui",
-      "DisplayValue": "sit",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 662
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "qui",
-      "DisplayValue": "sit",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 662
-        }
-      }
-    }
-  ],
-  "UserName": "Legros, VonRueden and Jast",
-  "TicketCategories": [
-    {
-      "Id": 64,
-      "Name": "Bergstrom LLC",
-      "ToolTip": "Modi culpa vitae.",
-      "Deleted": false,
-      "Rank": 338,
-      "Type": "eveniet",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "non",
-      "ColorBlock": 575,
-      "ExtraInfo": "excepturi",
-      "StyleHint": "error",
-      "FullName": "Dr. Mylene Maggio MD",
+      "Value": "atque",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 717
+          "FieldLength": 25
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "atque",
+      "DisplayValue": "officiis",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 25
         }
       }
     }
   ],
-  "NickName": "Mayer LLC",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "quis"
-  },
-  "CustomFields": {
-    "CustomFields1": "quibusdam",
-    "CustomFields2": "sunt"
-  },
-  "PostSaveCommands": [
+  "UserName": "Steuber-Gleichner",
+  "TicketCategories": [
     {
-      "Name": "Vandervort-Satterfield",
-      "DisplayName": "Nader-Wisoky",
-      "Description": "Re-contextualized directional pricing structure",
-      "ToolTip": "Nihil et nostrum recusandae quod sit consequuntur ipsam.",
-      "Actions": "Implicit",
-      "ActionData": "quod",
+      "Id": 295,
+      "Name": "Lowe-Kuhlman",
+      "ToolTip": "Voluptas incidunt dolorem consequatur.",
+      "Deleted": false,
+      "Rank": 404,
+      "Type": "porro",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "culpa",
+      "ColorBlock": 501,
+      "ExtraInfo": "et",
+      "StyleHint": "non",
+      "FullName": "Ms. Benjamin Kerluke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 75
+          "FieldLength": 686
+        }
+      }
+    }
+  ],
+  "NickName": "Grimes, Bailey and Raynor",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "ut",
+    "ExtraFields2": "recusandae"
+  },
+  "CustomFields": {
+    "CustomFields1": "quo",
+    "CustomFields2": "corporis"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Waelchi-Sauer",
+      "DisplayName": "Weber, Schulist and Balistreri",
+      "Description": "Centralized encompassing methodology",
+      "ToolTip": "Quidem fuga blanditiis ut.",
+      "Actions": "Implicit",
+      "ActionData": "incidunt",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 84
         }
       }
     }
@@ -308,8 +321,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 707
+      "FieldType": "System.Int32",
+      "FieldLength": 68
     }
   },
   "_Links": {

@@ -11,10 +11,10 @@ language: en
 
 # Add follow-ups (appointments, tasks and phone calls)
 
-To create follow-ups in SuperOffice CRM, you can click the **New** button on the top bar.
+To create follow-ups in SuperOffice CRM, click the **New** button on the top bar.
 
 > [!TIP]
-> You can also add follow-ups by double-clicking an empty line in the **Activities** section tab. By default this opens the **Appointment** dialog. You can specify which dialog should open under **Preferences** (![icon][img1] **Personal settings > Preferences > Functions > Type from Activities section tab**).
+> You can also add follow-ups by double-clicking an empty line in the **Activities** section tab. By default this opens the **Appointment** dialog. You can specify which dialog should open under **Preferences** (![icon][img1] **Personal settings** > **Preferences** > **Functions** > **Type from Activities section tab**).
 
 ## Create follow-ups in the activities list
 
@@ -27,22 +27,22 @@ If no empty row is displayed at the bottom of the activities list, enlarge the a
 2. Click and drag the line upwards until you see more empty rows at the bottom of the activities list.
 
 > [!NOTE]
-> If you specify a time or duration for a follow-up you are creating from within the activities list, it will be entered in the Diary.
+> If you specify a time or duration for a follow-up you are creating from within the activities list, it is entered in the Diary.
 
 ## <a id="associate" />Create appointment for an associate
 
-When you have opened the diary of an associate, you can create appointments for this person yourself.
+When you open the diary of an associate, you can create appointments for this person yourself.
 
 1. Click the **View** tab in the **Diary** screen.
 
 2. [Find the person's diary][4] in the **View**.
 
-3. [Create a new appointment][1] in this diary using the mouse. The **Appointment** dialog opens.
+3. [Create a new appointment][1] in this diary using the mouse.
+
+4. The **Appointment** dialog opens. [Choose the participants to include][5], if they are not automatically included.
 
     > [!NOTE]
-    > If you have checked **Participants from group view** under **Preferences**, all members of the view are automatically added as participants in the appointment. To change this preference, go to ![icon][img1] **Personal settings > Preferences > Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
-
-4. [Choose the participants to include][5], if they are not automatically included.
+    > If you checked **Participants from group view** under **Preferences**, all members of the view are automatically added as participants in the appointment. To change this preference, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
 5. Enter the required information in the fields. [!include[See Appointment dialog](../includes/see-apt-dialog.md)]
 
@@ -50,7 +50,9 @@ When you have opened the diary of an associate, you can create appointments for 
 
 ## <a id="overlap" />Create overlapping follow-ups
 
-You can create follow-ups that overlap each other. When you try to record an overlapping follow-up, the dialog for follow-ups will have an exclamation mark ![icon][img2] next to the start and stop fields and you will also be offered a suggestion for the first vacant time slot. This is intended to be a reminder to you, since you can still record the follow-up. Click the proposed time to the right of **First available** if you want to select this time instead.
+Follow-ups may overlap each other. When you try to record an overlapping follow-up, the dialog has an exclamation mark ![icon][img2] next to the start and stop fields as a reminder (you can still record the follow-up).
+
+A suggestion for the first vacant time slot is shown. Click the proposed time to the right of **First available** to select this time instead.
 
 Overlapping follow-ups are displayed in the **Diary** screen so that you can see part of each follow-up.
 

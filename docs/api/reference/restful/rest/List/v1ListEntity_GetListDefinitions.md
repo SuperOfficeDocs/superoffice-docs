@@ -11,6 +11,12 @@ GET /api/v1/List
 
 Get a list of the lists - built-in and user-defined.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list of the lists - built-in and user-defined.
 ```http
 GET /api/v1/List?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ GET /api/v1/List?includeDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 877,
-    "Name": "Graham-Schneider",
-    "Tooltip": "veniam",
+    "Id": 854,
+    "Name": "Heller, Romaguera and Abernathy",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 802,
-    "IsCustomList": true,
+    "Rank": 461,
+    "IsCustomList": false,
     "IsMDOList": true,
     "UseGroupsAndHeadings": false,
-    "ListType": "et",
+    "ListType": "non",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 618
+        "FieldLength": 803
       }
     }
   }

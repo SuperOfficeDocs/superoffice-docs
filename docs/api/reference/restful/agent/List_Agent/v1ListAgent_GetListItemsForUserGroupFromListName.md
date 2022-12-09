@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 
 List of list items that is visible in the usergroup
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ List of list items that is visible in the usergroup
 ```http
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, GroupId
+UdListDefinitionName, GroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionName | string |  |
 | GroupId | int32 |  |
+
 
 ## Response: array
 
@@ -80,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bergstrom-Torp",
-  "GroupId": 615
+  "UdListDefinitionName": "Wehner, Kessler and Moore",
+  "GroupId": 790
 }
 ```
 
@@ -97,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Botsford, Gerlach and Bartoletti",
-    "ToolTip": "Quam minus praesentium inventore.",
-    "Deleted": false,
-    "Rank": 662,
-    "Type": "temporibus",
-    "ColorBlock": 310,
-    "IconHint": "maxime",
+    "Id": 285,
+    "Name": "Osinski-Miller",
+    "ToolTip": "Voluptate magnam ratione impedit numquam itaque dolores.",
+    "Deleted": true,
+    "Rank": 389,
+    "Type": "in",
+    "ColorBlock": 466,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2004-03-26T11:10:27.1734524+01:00",
+    "LastChanged": "2000-08-01T02:49:44.6235457+02:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Collins-Ankunding",
-        "ToolTip": "Ut consequatur qui aut.",
-        "Deleted": true,
-        "Rank": 732,
-        "Type": "praesentium",
-        "ColorBlock": 795,
-        "IconHint": "repudiandae",
-        "Selected": true,
-        "LastChanged": "2008-08-24T11:10:27.1744587+02:00",
+        "Id": 921,
+        "Name": "White-Kassulke",
+        "ToolTip": "Non modi consequuntur magni.",
+        "Deleted": false,
+        "Rank": 99,
+        "Type": "in",
+        "ColorBlock": 477,
+        "IconHint": "error",
+        "Selected": false,
+        "LastChanged": "2002-01-03T02:49:44.6235457+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "aut",
+        "ExtraInfo": "vitae",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Megane Morar",
+        "FullName": "Mr. Lukas Nona McLaughlin V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 634
+            "FieldLength": 838
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "tempore",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Noelia Douglas",
+    "FullName": "Larue Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 865
+        "FieldType": "System.Int32",
+        "FieldLength": 618
       }
     }
   }

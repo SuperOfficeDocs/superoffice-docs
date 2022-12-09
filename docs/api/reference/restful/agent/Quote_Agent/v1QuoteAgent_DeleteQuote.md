@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/DeleteQuote
 
 Delete a Quote
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Delete a Quote
 ```http
 POST /api/v1/Agents/Quote/DeleteQuote?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,15 +38,16 @@ POST /api/v1/Agents/Quote/DeleteQuote?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteId
+QuoteId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteId | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -47,7 +55,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -55,11 +64,11 @@ Response body:
 POST /api/v1/Agents/Quote/DeleteQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 447
+  "QuoteId": 110
 }
 ```
 

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 
 Gets headings for list resolved by the provided id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets headings for list resolved by the provided id.
 ```http
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/List/GetHeadingsFromListDefinition?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id
+Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
+
 
 ## Response: array
 
@@ -70,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 191
+  "Id": 174
 }
 ```
 
@@ -86,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 799,
-    "Name": "Beatty Inc and Sons",
-    "Tooltip": "maiores",
-    "Deleted": false,
-    "Rank": 815,
-    "UdListDefinitionId": 909,
+    "HeadingId": 685,
+    "Name": "Mosciski Inc and Sons",
+    "Tooltip": "facere",
+    "Deleted": true,
+    "Rank": 424,
+    "UdListDefinitionId": 136,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   }

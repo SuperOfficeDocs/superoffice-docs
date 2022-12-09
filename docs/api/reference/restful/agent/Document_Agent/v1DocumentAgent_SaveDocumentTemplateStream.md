@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 
 Saves content in stream to document template file
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves content in stream to document template file
 ```http
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Document/SaveDocumentTemplateStream?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentTemplateId, Content, LanguageCode, PluginId
+DocumentTemplateId, Content, LanguageCode, PluginId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ DocumentTemplateId, Content, LanguageCode, PluginId
 | LanguageCode | string |  |
 | PluginId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,14 +78,14 @@ Response body:
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 762,
+  "DocumentTemplateId": 934,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "doloribus",
-  "PluginId": 605
+  "LanguageCode": "veritatis",
+  "PluginId": 4
 }
 ```
 
@@ -88,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuphal Group",
-  "Description": "Synergistic systematic superstructure",
-  "ExternalReference": "et",
-  "MimeType": "quia",
-  "PluginId": 543
+  "Name": "Grady, Hintz and O'Conner",
+  "Description": "Quality-focused incremental matrix",
+  "ExternalReference": "iste",
+  "MimeType": "eos",
+  "PluginId": 318
 }
 ```

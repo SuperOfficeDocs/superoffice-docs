@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetXsrfPaths
 
 Returns paths that XSRF cookies should be set on
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns paths that XSRF cookies should be set on
 ```http
 POST /api/v1/Agents/Preference/GetXsrfPaths?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Preference/GetXsrfPaths?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Hostname
+Hostname 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Hostname | string |  |
+
 
 ## Response: array
 
@@ -53,6 +61,7 @@ OK
 
 Response body: array
 
+
 ## Sample request
 
 ```http!
@@ -63,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "quibusdam"
+  "Hostname": "occaecati"
 }
 ```
 
@@ -75,6 +84,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   "in",
-  "rerum"
+  "provident"
 ]
 ```

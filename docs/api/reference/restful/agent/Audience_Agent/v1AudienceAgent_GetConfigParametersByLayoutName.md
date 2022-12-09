@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 
 Gets the Audience configuration parameters belonging to a given Audience layout.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the Audience configuration parameters belonging to a given Audience layout.
 ```http
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LayoutName
+LayoutName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
+
 
 ## Response: array
 
@@ -71,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Huel, Schaden and Romaguera"
+  "LayoutName": "Mertz-Kling"
 }
 ```
 
@@ -87,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 77,
-    "Name": "Simonis Group",
-    "Value": "dicta",
-    "CreatedDate": "2013-02-10T11:10:26.0065533+01:00",
-    "UpdatedDate": "2014-10-20T11:10:26.0065533+02:00",
-    "CreatedBy": "error",
-    "UpdatedBy": "eius",
+    "AudienceLayoutId": 520,
+    "Name": "Buckridge-Mitchell",
+    "Value": "culpa",
+    "CreatedDate": "1995-12-10T02:49:43.6847821+01:00",
+    "UpdatedDate": "2013-08-23T02:49:43.6847821+02:00",
+    "CreatedBy": "aspernatur",
+    "UpdatedBy": "necessitatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 624
+        "FieldLength": 574
       }
     }
   }

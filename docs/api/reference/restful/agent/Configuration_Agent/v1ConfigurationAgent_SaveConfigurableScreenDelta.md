@@ -11,6 +11,13 @@ POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 
 Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreenDelta if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ConfigurableScreenDelta to be saved.
+The ConfigurableScreenDelta to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ The ConfigurableScreenDelta to be saved.
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,26 +87,26 @@ Response body:
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 113,
-  "Name": "Langworth-Doyle",
-  "Description": "Mandatory 3rd generation complexity",
-  "DeltaJson": "et",
+  "ConfigurableScreenDeltaId": 212,
+  "Name": "Metz, Crona and Hermiston",
+  "Description": "Extended web-enabled implementation",
+  "DeltaJson": "expedita",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "qui",
-  "UpdatedDate": "2014-07-10T11:10:26.1915255+02:00",
-  "CreatedDate": "2021-01-11T11:10:26.1915255+01:00",
+  "RecipeId": "aperiam",
+  "UpdatedDate": "2019-05-30T02:49:43.8566571+02:00",
+  "CreatedDate": "2016-08-25T02:49:43.8566571+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    662,
-    375
+    61,
+    800
   ],
-  "AppliesToKey": "id"
+  "AppliesToKey": "quasi"
 }
 ```
 
@@ -109,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 956,
-  "Name": "Leffler, Bernhard and Bradtke",
-  "Description": "Business-focused 5th generation core",
-  "DeltaJson": "saepe",
+  "ConfigurableScreenDeltaId": 809,
+  "Name": "Lang, Von and Graham",
+  "Description": "Progressive leading edge hardware",
+  "DeltaJson": "ipsa",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "fugit",
-  "UpdatedDate": "2001-04-25T11:10:26.1935254+02:00",
-  "CreatedDate": "2014-11-04T11:10:26.1935254+01:00",
+  "RecipeId": "quis",
+  "UpdatedDate": "2016-04-30T02:49:43.8566571+02:00",
+  "CreatedDate": "2008-11-07T02:49:43.8566571+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    447,
-    845
+    941,
+    290
   ],
-  "AppliesToKey": "voluptatem",
+  "AppliesToKey": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldType": "System.String",
+      "FieldLength": 536
     }
   }
 }

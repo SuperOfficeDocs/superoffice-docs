@@ -11,19 +11,39 @@ POST /api/v1/Agents/Find/FindFromRestrictions
 
 Execute a Find operation and return a page of results.
 
-The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction.
+
+The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction. 
 Archive Restriction Info objects represent search terms.
+
 
 Column names and operator strings are defined elsewhere.
 
+
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
+
+
+
+
+
 
 ```
 
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -34,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -49,9 +70,9 @@ POST /api/v1/Agents/Find/FindFromRestrictions?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Restrictions, ProviderName, PageSize, PageNumber
+Restrictions, ProviderName, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +81,8 @@ Restrictions, ProviderName, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -68,7 +90,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,36 +106,36 @@ Response body:
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Terry-Mraz",
-      "Operator": "non",
+      "Name": "Grady LLC",
+      "Operator": "esse",
       "Values": [
-        "dolores",
-        "sit"
+        "vel",
+        "totam"
       ],
       "DisplayValues": [
-        "sed",
-        "quo"
+        "quia",
+        "nulla"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 274,
+      "InterParenthesis": 985,
       "InterOperator": "And",
-      "UniqueHash": 60
+      "UniqueHash": 809
     }
   ],
-  "ProviderName": "Cassin Inc and Sons",
-  "PageSize": 416,
-  "PageNumber": 13
+  "ProviderName": "Swift, Paucek and Gutmann",
+  "PageSize": 106,
+  "PageNumber": 92
 }
 ```
 
@@ -126,51 +148,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Ullrich Group",
-      "DisplayTooltip": "voluptatem",
-      "DisplayType": "totam",
+      "DisplayName": "Hudson-Aufderhar",
+      "DisplayTooltip": "id",
+      "DisplayType": "laudantium",
       "CanOrderBy": true,
-      "Name": "Streich Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "magnam",
-      "RestrictionListName": "Lynch, Donnelly and Durgan",
+      "Name": "O'Connell Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "ullam",
+      "RestrictionListName": "Macejkovic-Hamill",
       "IsVisible": true,
-      "ExtraInfo": "nemo",
-      "Width": "alias",
-      "IconHint": "hic",
-      "HeadingIconHint": "ab"
+      "ExtraInfo": "tempora",
+      "Width": "id",
+      "IconHint": "qui",
+      "HeadingIconHint": "quas"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Wyman, Boehm and Bergnaum",
-      "PrimaryKey": 599,
+      "EntityName": "Windler-Herzog",
+      "PrimaryKey": 940,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "repudiandae",
-          "TooltipHint": "nulla",
-          "LinkHint": "ea"
+          "DisplayValue": "enim",
+          "TooltipHint": "et",
+          "LinkHint": "molestiae"
         }
       },
-      "LinkHint": "dicta",
-      "StyleHint": "omnis",
+      "LinkHint": "dignissimos",
+      "StyleHint": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldLength": 201
         }
       }
     }
   ],
-  "RowCount": 400,
+  "RowCount": 253,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldType": "System.String",
+      "FieldLength": 435
     }
   }
 }

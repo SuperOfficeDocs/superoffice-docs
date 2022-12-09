@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetConsentSourceList
 
 Gets an array of ConsentSource objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of ConsentSource objects.
 ```http
 POST /api/v1/Agents/List/GetConsentSourceList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetConsentSourceList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: consentSourceIds
+## Request Body: consentSourceIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -78,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 654,
-    "Name": "Tromp, Kozey and Schaefer",
-    "Tooltip": "est",
-    "Rank": 612,
-    "Key": "voluptas",
-    "MailTemplateId": 466,
-    "Deleted": true,
+    "ConsentSourceId": 972,
+    "Name": "Hartmann Group",
+    "Tooltip": "eos",
+    "Rank": 729,
+    "Key": "nihil",
+    "MailTemplateId": 703,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 122
+        "FieldType": "System.Int32",
+        "FieldLength": 564
       }
     }
   }

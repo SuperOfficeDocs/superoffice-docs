@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/ChangeCurrency
 
 Recalculates the amount to the new currency.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Recalculates the amount to the new currency.
 ```http
 POST /api/v1/Agents/List/ChangeCurrency?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/List/ChangeCurrency?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Amount, FromCurrency, ToCurrency
+Amount, FromCurrency, ToCurrency 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Amount | double |  |
 | FromCurrency | string |  |
 | ToCurrency | string |  |
+
 
 ## Response: double
 
@@ -55,6 +63,7 @@ OK
 
 Response body: double
 
+
 ## Sample request
 
 ```http!
@@ -65,9 +74,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 31067.342,
-  "FromCurrency": "voluptas",
-  "ToCurrency": "et"
+  "Amount": 27760.971999999998,
+  "FromCurrency": "illo",
+  "ToCurrency": "quo"
 }
 ```
 
@@ -77,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-18982.638
+17121.041999999998
 ```

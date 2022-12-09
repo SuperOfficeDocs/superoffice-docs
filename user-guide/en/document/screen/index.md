@@ -31,7 +31,7 @@ The main section contains the following essential information about the document
 Click the arrow ![icon][img1] next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher][6].
 
 > [!NOTE]
-> The templates may have been created in various programs, for example, Word or Excel, so when you [create a document][5], the template is opened in the program it was created in. This means, for example, that DOCX files will open in Word.
+> When you [create a document][5], the template opens in the program it was created in. For example, DOCX files will open in Word.
 
 ### Company
 
@@ -47,11 +47,11 @@ Enter the name of the project that the document is linked to. You can search dir
 
 ### Sale
 
-Here you enter the name of the sale, if any, that the document is linked to. You can search directly from this field.
+Enter the name of the sale (if any) that the document is linked to. You can search directly from this field.
 
 ### Type subject here
 
-Enter here the text to be used as a heading for the document. This is the text which is displayed in section tabs and reports where the document is listed.
+Enter the text to be used as a heading for the document (the text that is displayed in section tabs and reports where the document is listed).
 
 ### Language
 
@@ -62,7 +62,7 @@ Select a language for the template. This option is only available if the selecte
 Today's date is displayed automatically in this field. If you click the arrow next to the **Date** field, this brings up a monthly calendar where you can select the date you require.
 
 > [!NOTE]
-> You can only change the date when you create the document. You cannot access this field in edit mode.
+> You can change the date only when you create the document. You cannot access this field in edit mode.
 
 ### Our ref
 
@@ -74,21 +74,21 @@ Enter the addressee’s reference from their communication.
 
 ### Visible for
 
-Click the **Visible for** field to display a list that allows you to choose whether the document will be visible to all users, private (i.e. visible only to the user defined as owner), or visible to all users in one of the user groups that the owner belongs to.
+Click the **Visible for** field to display a list that allows you to choose if the document should be visible to all users, private (visible only to the user defined as owner), or visible to all users in one of the user groups that the owner belongs to.
 
 > [!NOTE]
-> If you specify that a document will only be visible to the owner, it will appear in italics on the **Activities** section tab.
+> If you set visibility to owner only, the document will appear in italics on the **Activities** section tab.
 
 ### Checked out for editing
 
-If the document has been checked out for editing, one of the following icons are displayed:
+If the document is checked out for editing, one of the following icons are displayed:
 
 ![icon][img2] The document is currently checked out for editing by you.
 
 ![icon][img3] The document is currently checked out for editing by another user.
 
 > [!TIP]
-> Hold the mouse pointer over an icon to show information about the user who has checked out the document.
+> Hold the mouse pointer over an icon to show information about the user who checked out the document.
 
 ### Completed
 
@@ -111,7 +111,7 @@ When you click this button, the following options are displayed:
 * **Delete**: Deletes the current entry.
 * **Help**: Opens the help for the active dialog.
 * **Copy shortcut**: Copies a [shortcut to the active entry][9].
-* **Revert to saved version**: Select this option to [cancel a check-out][8]. This may be relevant if you have checked out the document by mistake and are unable to check it in again.
+* **Revert to saved version**: Select this option to [cancel a check-out][8]. For example, if you checked out the document by mistake and are unable to check it in again.
 
 Below these options are shortcuts to other relevant tasks that can be performed on the active entry. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
 

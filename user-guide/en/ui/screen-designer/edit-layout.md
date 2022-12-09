@@ -13,17 +13,17 @@ language: en
 
 When you have [created a new layout][4], it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
 
-**To edit a screen layout:**
+**Steps:**
 
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
 
 1. Select a layout in the list on the left side.
 
-1. Click **Edit layout** below the preview. The **Edit card layout** window opens.
+1. Click **Edit layout** below the preview.
 
-1. See the sections below for how to edit the layout.
+1. In the **Edit card layout** window, edit the layout as described below.
 
-1. When you have finished the screen layout, click one of the following buttons:
+1. After finishing the screen layout, click one of the following buttons:
 
     * **Save draft**: Click this button if the layout is not finished yet.
     * **Save + Publish**: Click this button to publish the layout to the selected user groups.
@@ -33,13 +33,15 @@ When you have [created a new layout][4], it is time to customize it according to
 
 1. Select the tab you want to edit.
 
-2. Edit existing fields as follows:
+2. Edit existing fields:
 
     * Move fields by clicking ![icon][img4] to the left of a field label and dragging the field to a new position. To add a new field, see [Fields](#fields).
+
     * Delete fields by holding the mouse-pointer over a field and clicking ![icon][img2]. Deleted fields can be re-added from the **Fields** section. Mandatory fields cannot be deleted, and the **Delete** button will not appear for such fields. See [Fields](#fields).
+
     * Edit field formatting (such as font format) and other settings by clicking the field. The **Settings** section opens in the left part of the window. See [Settings](#settings).
 
-3. Change the number of columns in a tab, from the **Columns** section. See [Columns](#columns).
+3. [Change the number of columns in a tab](#columns) from the **Columns** section.
 
 4. Save the changes as described above.
 
@@ -54,15 +56,15 @@ When you have [created a new layout][4], it is time to customize it according to
     Boxes with stapled lines in the layout, indicate where you can place a field.
     <details><summary>What does this look like?</summary>
     ![Boxes with stapled lines -screenshot](media/screendesigner-field-place.png)
-    </detais>
+    </details>
 
-    * **Elements**: Drag various elements such as labels, dividers, links and buttons to the layout. Place the elements as described above. See [Elements](#elements).
+    * **Elements**: Drag various elements such as labels, dividers, links and buttons to the layout.
 
     * **Settings**: Click a field or element in the layout to edit the relevant settings. The available settings may vary according to the selected object. See [Settings](#settings).
 
-    * **Columns**: Select how many columns you want to display in a tab. See [Columns](#columns).
+    * **Columns**: [Select how many columns you want to display in a tab](#columns).
 
-3. When you have finished customizing the screen layout, click one of the following buttons:
+3. After customizing the screen layout, click one of the following buttons:
 
     * **Save draft**: Click this button if the layout is not finished yet.
     * **Save + Publish**: Click this button to publish the layout to the selected user groups.
@@ -80,7 +82,7 @@ In the **Fields** section you can find all available data fields for the selecte
 * Move fields by clicking ![icon][img4] to the left of a field label and dragging the field to a new position. To move a field to another tab, drag the field to the tab header to open the tab, and then place the field in the open tab.
 * Delete fields by holding the mouse-pointer over a field and clicking ![icon][img2]. Mandatory fields cannot be deleted, and the **Delete** button will not appear for such fields.
 
-Limitations:
+**Limitations:**
 
 * Mandatory fields cannot be deleted. This is defined in [Fields][5] screen.
 * Some tabs, such as **ERP** and **Note**, cannot be edited, since they have specific functions.
@@ -88,8 +90,6 @@ Limitations:
 ## Elements
 
 In the **Elements** section you can add various non-data elements such as labels, dividers, links and buttons.
-
-Click the links below to learn more about the various elements and how to add them:
 
 ## Settings
 
@@ -99,14 +99,14 @@ Click a field or element in the layout to edit its settings. The available setti
 
 ## Columns
 
-By default a tab has 2 columns, but you can use anything from 1-4 columns depending on you needs. Users with wide screens may prefer more columns, to be able to view and sort more data.
+By default a tab has 2 columns, but you can use anything from 1-4 columns depending on you needs. Users with wide screens may prefer more columns, to view and sort more data.
 
 **Limitations:**
 
 * Changing from 2-4 columns to 1 column will move all fields into 1 column.
 * Using 4 columns may affect visibility of some fields. You may consider to hide the labels of some fields (see [Settings](#settings)).
 * Some tabs, such as **ERP** and **Note**, do not have a column setup, since they have specific functions.
-* If a user does not have the screen size to fit all columns, they will be stacked on top of each other.
+* If a user does not have the screen size to fit all columns, they are stacked on top of each other.
 
 ## Tabs
 
@@ -131,7 +131,7 @@ Add more tabs for additional fields, or remove irrelevant tabs.
 
 * You cannot rename any of the default tabs.
 * You cannot remove a tab that contains mandatory fields. Mandatory fields must be moved to another tab first.
-* If there is only one tab left, you cannot delete it.
+* If only one tab remains, you cannot delete it.
 
 ## Undo changes
 

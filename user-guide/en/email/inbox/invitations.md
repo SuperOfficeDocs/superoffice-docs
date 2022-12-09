@@ -14,7 +14,7 @@ language: en
 You can receive invitations from a person outside your organization and easily accept and add it to your diary. This requires that the invitation email contains an iCal file (.ics.) with the invitation data. In your inbox, emails containing iCal invitations will be displayed with these icons: ![icon][img1] and ![icon][img2]
 
 > [!NOTE]
-> If the sender/organizer is a registered (an unique) contact in SuperOffice CRM, invitations will automatically be added as tentative appointments in you diary. Tentative appointments may also be created for other associates, depending on whether the preference **Manage incoming invitations, disable tentative** (under **email**) is active or not.
+> If the sender/organizer is a registered (an unique) contact in SuperOffice CRM, invitations will automatically be added as tentative appointments in you diary. Tentative appointments may also be created for other associates, depending on if the preference **Manage incoming invitations, disable tentative** (under **email**) is active.
 
 ## How to accept an invitation
 
@@ -24,7 +24,7 @@ You can receive invitations from a person outside your organization and easily a
 
     <details><summary>Does the message contain any attachments you want to keep?</summary>
 
-    If the message contains any attachments (in addition to the iCal/ics file) that you want to keep, you need to archive or download them *before* you reply to the invitation. When you accept or decline the invitation, the message will be removed from the inbox and sent to the **Deleted** folder.
+    If the message contains any attachments (in addition to the iCal/ics file) that you want to keep, you must archive or download them *before* you reply to the invitation. When you accept or decline the invitation, the message are removed from the inbox and sent to the **Deleted** folder.
 
     Click the arrow next the attachment you want to save, and select **Download** or **Archive** (see [The Document dialog][1]).
     </details>

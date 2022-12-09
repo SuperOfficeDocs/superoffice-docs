@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/TryConnectActor
 
 Create a link between Erp and Crm and set default values
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Create a link between Erp and Crm and set default values
 ```http
 POST /api/v1/Agents/ErpSync/TryConnectActor?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/ErpSync/TryConnectActor?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType, FieldValues
+ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType, FieldValues 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,6 +58,7 @@ ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType, FieldValues
 | ErpKey | string |  |
 | ErpActorType | string |  |
 | FieldValues | array |  |
+
 
 ## Response: bool
 
@@ -60,6 +70,7 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
@@ -70,27 +81,27 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 868,
-  "CrmRecordId": 667,
+  "ErpConnectionId": 932,
+  "CrmRecordId": 124,
   "CrmActorType": "Contact",
-  "ErpKey": "unde",
+  "ErpKey": "quibusdam",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Franecki Group",
-      "CrmFieldKey": "aut",
-      "Value": "iusto",
-      "DisplayValue": "cum",
+      "DisplayName": "Schaden LLC",
+      "CrmFieldKey": "inventore",
+      "Value": "neque",
+      "DisplayValue": "nihil",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Franecki Group",
-      "CrmFieldKey": "aut",
-      "Value": "iusto",
-      "DisplayValue": "cum",
+      "DisplayName": "Schaden LLC",
+      "CrmFieldKey": "inventore",
+      "Value": "neque",
+      "DisplayValue": "nihil",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     }
   ]
 }
@@ -102,5 +113,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

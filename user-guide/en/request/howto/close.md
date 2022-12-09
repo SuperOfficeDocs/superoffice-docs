@@ -11,7 +11,7 @@ language: en
 
 # Close requests
 
-Once you have responded to the request, you can set its status to **Closed**. This can be done in different ways:
+After responding to the request, you can set its status to **Closed**. This can be done in different ways:
 
 * When you send the final [request to a customer][1], you can also select **Closed** under **Status** in the **Properties** tab.
 * You can [open a request][2] at any time and select **Closed** in the **Status** list.

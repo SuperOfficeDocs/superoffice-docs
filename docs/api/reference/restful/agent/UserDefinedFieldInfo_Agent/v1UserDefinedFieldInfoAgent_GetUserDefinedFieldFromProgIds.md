@@ -11,7 +11,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 
 Return an given array user defined field identified by the owner and the prog-ids.
 
+
 The prog-id is used as the key in the entity carriers. Note this may be different than the currently published field layout.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The prog-id is used as the key in the entity carriers. Note this may be differen
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProgIds, OwnerType
+ProgIds, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProgIds | array |  |
 | OwnerType | string |  |
+
 
 ## Response: array
 
@@ -101,13 +109,13 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "dolores",
-    "aut"
+    "quia",
+    "quis"
   ],
   "OwnerType": "Appointment"
 }
@@ -121,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 612,
-    "ColumnId": 180,
-    "FieldDefault": "fugit",
-    "FieldHeight": 885,
-    "FieldLabel": "et",
-    "FieldLeft": 862,
-    "FieldTop": 717,
+    "UDefFieldId": 891,
+    "ColumnId": 984,
+    "FieldDefault": "est",
+    "FieldHeight": 965,
+    "FieldLabel": "unde",
+    "FieldLeft": 842,
+    "FieldTop": 773,
     "FieldType": "Checkbox",
-    "FieldWidth": 220,
-    "FormatMask": "incidunt",
+    "FieldWidth": 898,
+    "FormatMask": "quasi",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 696,
-    "LabelLeft": 18,
-    "LabelTop": 680,
-    "LabelWidth": 43,
-    "LastVersionId": 579,
-    "ListTableId": 699,
-    "IsMandatory": false,
+    "LabelHeight": 614,
+    "LabelLeft": 567,
+    "LabelTop": 408,
+    "LabelWidth": 425,
+    "LastVersionId": 510,
+    "ListTableId": 603,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 426,
-    "ProgId": "pariatur",
+    "Page1LineNo": 970,
+    "ProgId": "voluptatibus",
     "IsReadOnly": true,
-    "ShortLabel": "aut",
-    "TabOrder": 656,
-    "TextLength": 22,
-    "Tooltip": "sed",
-    "UdefIdentity": 79,
-    "UDListDefinitionId": 621,
+    "ShortLabel": "dicta",
+    "TabOrder": 971,
+    "TextLength": 796,
+    "Tooltip": "harum",
+    "UdefIdentity": 573,
+    "UDListDefinitionId": 24,
     "Justification": "Center",
-    "Version": 729,
-    "TemplateVariableName": "Hahn, Mann and Funk",
-    "HasBeenPublished": true,
-    "MdoListName": "Windler LLC",
+    "Version": 12,
+    "TemplateVariableName": "Denesik Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Pagac, Stracke and Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 721
+        "FieldType": "System.Int32",
+        "FieldLength": 114
       }
     }
   }

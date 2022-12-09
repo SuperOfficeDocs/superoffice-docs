@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 
 Get en e-mail based on its primary key in the DB.
 
+
 The returned value is not sanitized.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The returned value is not sanitized.
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,16 +47,17 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMail?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id, IncludeAttachments
+Id, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | IncludeAttachments | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -56,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,12 +104,12 @@ Response body:
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "IncludeAttachments": true
+  "Id": 544,
+  "IncludeAttachments": false
 }
 ```
 
@@ -113,146 +122,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 543,
-      "ContactName": "Gislason Inc and Sons",
-      "PersonId": 134,
-      "PersonName": "Dare, Mayer and Fahey",
-      "AssociateId": 922,
-      "Address": "maiores",
-      "EmailId": 386,
+      "ContactId": 650,
+      "ContactName": "O'Keefe-Waters",
+      "PersonId": 861,
+      "PersonName": "Lubowitz-Stoltenberg",
+      "AssociateId": 240,
+      "Address": "veniam",
+      "EmailId": 232,
       "DuplicatePersonIds": [
-        183,
-        652
+        423,
+        762
       ],
-      "Name": "Nader LLC",
+      "Name": "Boyer-Schinner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 471
+          "FieldLength": 606
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 308,
-      "ContactName": "Murazik, Russel and Reynolds",
-      "PersonId": 296,
-      "PersonName": "Mayert LLC",
-      "AssociateId": 401,
-      "Address": "nostrum",
-      "EmailId": 633,
+      "ContactId": 962,
+      "ContactName": "Cassin Group",
+      "PersonId": 247,
+      "PersonName": "Raynor-Emmerich",
+      "AssociateId": 667,
+      "Address": "labore",
+      "EmailId": 819,
       "DuplicatePersonIds": [
-        553,
-        329
+        549,
+        326
       ],
-      "Name": "Sipes, Raynor and Corwin",
+      "Name": "Ebert Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 696
+          "FieldType": "System.Int32",
+          "FieldLength": 305
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 151,
-      "ContactName": "Schinner, Haley and Lemke",
-      "PersonId": 71,
-      "PersonName": "Hammes Group",
-      "AssociateId": 413,
-      "Address": "laboriosam",
-      "EmailId": 513,
+      "ContactId": 131,
+      "ContactName": "Stiedemann-Cassin",
+      "PersonId": 207,
+      "PersonName": "Corwin, Rau and D'Amore",
+      "AssociateId": 220,
+      "Address": "laborum",
+      "EmailId": 553,
       "DuplicatePersonIds": [
-        320,
-        728
+        475,
+        840
       ],
-      "Name": "Gerhold, Goodwin and Wintheiser",
+      "Name": "Baumbach, Block and Ritchie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 86
+          "FieldLength": 851
         }
       }
     }
   ],
-  "Subject": "rerum",
-  "HTMLBody": "dolores",
+  "Subject": "quia",
+  "HTMLBody": "ipsum",
   "From": null,
-  "Sent": "1999-01-11T11:10:26.9814527+01:00",
-  "Size": 576,
+  "Sent": "2009-02-01T02:49:44.4816668+01:00",
+  "Size": 402,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "repellat",
-  "PlainBody": "dolorum",
+  "MessageID": "aut",
+  "PlainBody": "quo",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 372,
+  "ServerId": 491,
   "Attachments": [
     {
-      "Description": "Ameliorated interactive help-desk",
-      "Filename": "dolores",
-      "Size": 806,
-      "Type": "nam",
-      "Encoding": "cumque",
-      "Id": "eaque",
-      "Disposition": "necessitatibus",
+      "Description": "Enterprise-wide maximized knowledge base",
+      "Filename": "sed",
+      "Size": 641,
+      "Type": "impedit",
+      "Encoding": "quia",
+      "Id": "voluptatem",
+      "Disposition": "perspiciatis",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 973
+          "FieldLength": 811
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Sawayn-Altenwerth",
+      "Name": "Huels Inc and Sons",
       "Values": [
-        "repudiandae",
-        "dolor"
+        "sint",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldType": "System.String",
+          "FieldLength": 201
         }
       }
     },
     {
-      "Name": "Sawayn-Altenwerth",
+      "Name": "Huels Inc and Sons",
       "Values": [
-        "repudiandae",
-        "dolor"
+        "sint",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldType": "System.String",
+          "FieldLength": 201
         }
       }
     }
   ],
-  "FolderName": "Lubowitz-Christiansen",
-  "EmailItemId": 738,
-  "AccountId": 978,
-  "ReceivedAt": "1996-05-05T11:10:26.9824548+02:00",
+  "FolderName": "Wisoky, Goyette and Carter",
+  "EmailItemId": 25,
+  "AccountId": 371,
+  "ReceivedAt": "2011-12-11T02:49:44.4816668+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-03-23T11:10:26.9824548+01:00",
+  "RepliedAt": "2002-06-21T02:49:44.4816668+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -260,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldType": "System.String",
+      "FieldLength": 492
     }
   }
 }

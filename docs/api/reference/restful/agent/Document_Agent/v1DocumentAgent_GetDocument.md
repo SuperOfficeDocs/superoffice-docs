@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetDocument
 
 Gets a Document object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=996
+POST /api/v1/Agents/Document/GetDocument?documentId=408
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +85,7 @@ Response body:
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,32 +95,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 227,
-  "Attention": "voluptatibus",
-  "Header": "veniam",
-  "Name": "Krajcik Inc and Sons",
-  "OurRef": "quo",
-  "YourRef": "eveniet",
-  "Description": "Multi-tiered bi-directional Graphic Interface",
-  "DocumentTemplate": "consequatur",
+  "DocumentId": 280,
+  "Attention": "ullam",
+  "Header": "rerum",
+  "Name": "Keeling, Hettinger and Rutherford",
+  "OurRef": "aut",
+  "YourRef": "voluptate",
+  "Description": "Inverse intangible migration",
+  "DocumentTemplate": "sed",
   "IsPublished": false,
-  "PersonId": 712,
-  "PersonFullName": "Karianne Leffler",
-  "AssociateFullName": "Ted Kerluke",
-  "ContactId": 193,
-  "ContactName": "Corkery-Hayes",
-  "ProjectId": 665,
-  "ProjectName": "Feeney Group",
-  "AssociateId": 122,
-  "Snum": 160,
-  "SaleId": 468,
-  "SaleName": "Osinski, Raynor and Kreiger",
+  "PersonId": 483,
+  "PersonFullName": "Jaron Conn V",
+  "AssociateFullName": "Cleora Hermiston",
+  "ContactId": 656,
+  "ContactName": "Stiedemann, Hilll and Bashirian",
+  "ProjectId": 275,
+  "ProjectName": "Morissette, Grimes and Reilly",
+  "AssociateId": 512,
+  "Snum": 475,
+  "SaleId": 773,
+  "SaleName": "Pacocha Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldLength": 948
     }
   }
 }

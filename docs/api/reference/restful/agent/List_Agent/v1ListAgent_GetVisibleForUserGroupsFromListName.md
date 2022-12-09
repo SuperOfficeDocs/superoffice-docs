@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 
 List of User groups that this list item is visible for
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ List of User groups that this list item is visible for
 ```http
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, ListItemId
+UdListDefinitionName, ListItemId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionName | string |  |
 | ListItemId | int32 |  |
+
 
 ## Response: array
 
@@ -80,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ledner, Grady and Sawayn",
-  "ListItemId": 776
+  "UdListDefinitionName": "Abbott LLC",
+  "ListItemId": 616
 }
 ```
 
@@ -97,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "Hettinger, Kilback and Schaefer",
-    "ToolTip": "Porro porro minus laudantium dolorem.",
+    "Id": 732,
+    "Name": "Erdman-Stanton",
+    "ToolTip": "Magni praesentium quo enim non debitis.",
     "Deleted": true,
-    "Rank": 691,
-    "Type": "sed",
-    "ColorBlock": 878,
-    "IconHint": "error",
-    "Selected": true,
-    "LastChanged": "2009-08-10T11:10:27.1644239+02:00",
+    "Rank": 500,
+    "Type": "debitis",
+    "ColorBlock": 464,
+    "IconHint": "exercitationem",
+    "Selected": false,
+    "LastChanged": "2016-01-15T02:49:44.6235457+01:00",
     "ChildItems": [
       {
-        "Id": 847,
-        "Name": "Abbott-Heathcote",
-        "ToolTip": "Reprehenderit quam impedit non.",
-        "Deleted": true,
-        "Rank": 838,
-        "Type": "commodi",
-        "ColorBlock": 510,
-        "IconHint": "amet",
+        "Id": 759,
+        "Name": "Schmeler, Hettinger and Roberts",
+        "ToolTip": "Maxime ut vero deleniti eos.",
+        "Deleted": false,
+        "Rank": 806,
+        "Type": "libero",
+        "ColorBlock": 69,
+        "IconHint": "esse",
         "Selected": true,
-        "LastChanged": "2010-06-27T11:10:27.1644239+02:00",
+        "LastChanged": "2013-09-18T02:49:44.6235457+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "amet",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "fugiat",
         "Hidden": false,
-        "FullName": "Keira Jerrod Stiedemann III",
+        "FullName": "Percy Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldLength": 377
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "quia",
+    "ExtraInfo": "sit",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Prof. Josianne Hobart Metz III",
+    "FullName": "Sylvester Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldLength": 808
       }
     }
   }

@@ -16,7 +16,7 @@ language: en
 In the **SuperOffice** tab in the **Licences** screen, you can view and update the license information for your version of SuperOffice CRM and associated modules.
 
 > [!NOTE]
-> If you have installed a third-party module or similar, several tabs will be displayed here.
+> If a third-party module or similar is installed, several tabs are displayed here.
 
 ### Owner information
 
@@ -32,7 +32,7 @@ Updated information about the system is displayed in the **Status** tab in the *
 
 ### Database
 
-Shows the database owner, serial number and type, which are specified on installation. It also shows whether it is a central database or a satellite database, for example. You can also see the next expiry date and the name of the user currently logged in.
+Shows the database owner, serial number, and type, which are specified on installation. It also shows if it is a central database or a satellite database. You can see the next expiry date and the name of the user currently logged in.
 
 ### Metered services
 
@@ -46,11 +46,11 @@ Metered services are services that are invoiced once you exceed a certain level/
 * Chat sessions started
 * Form submissions
 
-Administrators can keep track of exactly how much of each service has been used per month. Whenever your company exceeds the threshold, you’ll automatically be invoiced for these services on your next monthly invoice. The threshold depends on the number of users. The more users you have, the higher the threshold will be.
+Administrators can keep track of exactly how much each service is used per month. Whenever your company exceeds the threshold, you’ll automatically be invoiced for these services on your next monthly invoice. The threshold depends on the number of users. The more users you have, the higher the threshold will be.
 
 ### System notifications
 
-This list shows status messages from the system and [events][1] that have been added. Notifications of active imports, SAINT or freetext indexing, etc. Select a notification in the list to display a description. You can keep track of events that are active in the system.
+This list shows status messages from the system and added [events][1]. Notifications of active imports, SAINT or freetext indexing, and so on. Select a notification in the list to display a description. You can keep track of events that are active in the system.
 
 The **System events** tab consists of two parts:
 
@@ -67,7 +67,7 @@ Under **System notifications** you will find the following columns:
 | Activated | Shows when the event was initiated. |
 | Activated by | Shows who initiated the event (user ID and portrait). |
 | Finished | Shows when the event is expected to finish.
-| Type | Shows whether the event applies to the whole system. |
+| Type | Shows if the event applies to the whole system. |
 
 ## Related topics
 
@@ -77,7 +77,7 @@ Under **System notifications** you will find the following columns:
 
 <!-- Referenced links -->
 [1]: ../../settings/system-events.md
-[3]: ../index.md
+[3]: ../overview.md
 [4]: ../activate.md
 [5]: ../activate.md#buy
 

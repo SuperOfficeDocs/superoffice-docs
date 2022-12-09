@@ -11,11 +11,18 @@ GET /api/v1/List/Country/Items/{id}
 
 Gets a Country list item.
 
+
 Calls the List agent service GetCountry.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Country to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Calls the List agent service GetCountry.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -39,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +78,7 @@ Response body:
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,30 +88,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 219,
-  "Name": "Spinka-Jaskolski",
-  "CurrencyId": 26,
-  "EnglishName": "Cronin, Buckridge and Kunze",
+  "CountryId": 847,
+  "Name": "Russel Group",
+  "CurrencyId": 440,
+  "EnglishName": "Gerhold, Ortiz and Abbott",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Front-line zero administration projection",
-  "OrgNrText": "1531232",
-  "InterAreaPrefix": "repudiandae",
-  "DialInPrefix": "quasi",
-  "ZipPrefix": "vero",
-  "DomainName": "Koch, Lueilwitz and Champlin",
-  "AddressLayoutId": 938,
-  "DomesticAddressLayoutId": 464,
-  "ForeignAddressLayoutId": 314,
-  "Rank": 742,
-  "Tooltip": "tenetur",
-  "Deleted": false,
+  "ImageDescription": "Ergonomic upward-trending support",
+  "OrgNrText": "639239",
+  "InterAreaPrefix": "voluptate",
+  "DialInPrefix": "reiciendis",
+  "ZipPrefix": "vitae",
+  "DomainName": "Stiedemann Inc and Sons",
+  "AddressLayoutId": 327,
+  "DomesticAddressLayoutId": 569,
+  "ForeignAddressLayoutId": 913,
+  "Rank": 508,
+  "Tooltip": "et",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 899
     }
   }
 }

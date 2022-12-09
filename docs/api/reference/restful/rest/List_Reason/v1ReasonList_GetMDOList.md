@@ -11,6 +11,12 @@ GET /api/v1/List/Reason/MDOItems
 
 Get the MDO list items for "Reason" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=possimus
+GET /api/v1/List/Reason/MDOItems?flat=True
+GET /api/v1/List/Reason/MDOItems?query=delectus
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Reason/MDOItems?query=possimus
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Name": "Turcotte-Waelchi",
-    "ToolTip": "Modi temporibus voluptas commodi consequatur.",
-    "Deleted": false,
-    "Rank": 138,
-    "Type": "in",
+    "Id": 757,
+    "Name": "Mitchell, Lowe and Botsford",
+    "ToolTip": "Recusandae doloremque et sed.",
+    "Deleted": true,
+    "Rank": 20,
+    "Type": "exercitationem",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Kutch LLC",
-        "ToolTip": "Sunt occaecati in minus ut.",
-        "Deleted": true,
-        "Rank": 140,
-        "Type": "saepe",
+        "Id": 462,
+        "Name": "Dare Inc and Sons",
+        "ToolTip": "Consectetur rerum quisquam assumenda sed ea qui id.",
+        "Deleted": false,
+        "Rank": 955,
+        "Type": "unde",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestias",
-        "ColorBlock": 278,
-        "ExtraInfo": "deserunt",
-        "StyleHint": "nostrum",
-        "FullName": "Johnathon Bria Dare DDS",
+        "IconHint": "qui",
+        "ColorBlock": 786,
+        "ExtraInfo": "aut",
+        "StyleHint": "totam",
+        "FullName": "Zoey Trantow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 551
+            "FieldType": "System.String",
+            "FieldLength": 241
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 238,
-    "ExtraInfo": "aliquam",
-    "StyleHint": "ad",
-    "FullName": "Jordi Hudson",
+    "IconHint": "illo",
+    "ColorBlock": 966,
+    "ExtraInfo": "aut",
+    "StyleHint": "repellendus",
+    "FullName": "Presley Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 811
+        "FieldLength": 550
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/SaveQuoteEntity
 
 Saves a QuoteEntity.
 
+
 Versions and alternatives will not be saved by this call.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Versions and alternatives will not be saved by this call.
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Quote/SaveQuoteEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteEntity
+QuoteEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteEntity |  | Quote methods <para /> Carrier object for QuoteEntity. Services for the QuoteEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +87,7 @@ Response body:
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 919,
-  "SaleId": 641,
-  "QuoteConnectionId": 820,
-  "ERPQuoteKey": "earum",
-  "ERPOrderKey": "facere",
-  "ActiveQuoteVersionId": 446,
-  "AcceptedQuoteAlternativeId": 530,
-  "UseValuesFromQuote": 2,
-  "DocumentId": 824,
-  "PoNumber": "502385",
-  "OrderComment": "quas",
-  "PreferredEmailCulture": "mae@reillygoldner.info",
+  "QuoteId": 437,
+  "SaleId": 897,
+  "QuoteConnectionId": 47,
+  "ERPQuoteKey": "amet",
+  "ERPOrderKey": "pariatur",
+  "ActiveQuoteVersionId": 318,
+  "AcceptedQuoteAlternativeId": 362,
+  "UseValuesFromQuote": 449,
+  "DocumentId": 913,
+  "PoNumber": "954988",
+  "OrderComment": "ea",
+  "PreferredEmailCulture": "sid@kutch.com",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 903,
-      "ERPQuoteVersionKey": "repellendus",
-      "QuoteId": 478,
-      "Description": "Versatile 4th generation website",
-      "Number": "1594222",
+      "QuoteVersionId": 802,
+      "ERPQuoteVersionKey": "qui",
+      "QuoteId": 994,
+      "Description": "Implemented fault-tolerant moratorium",
+      "Number": "1628892",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 715,
-      "SentDate": "2015-01-27T11:10:27.7214949+01:00",
-      "FollowupId": 957,
-      "ExpirationDate": "2012-03-30T11:10:27.7214949+02:00",
-      "DeliveryCountryId": 700,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 309,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "qui",
-      "ERPPaymentTypeKey": "debitis",
-      "ERPDeliveryTermsKey": "voluptatibus",
-      "ERPDeliveryTypeKey": "et",
-      "Rank": 756,
-      "ApprovedBy": 145,
-      "ApprovedText": "omnis",
-      "ApprovedRegisteredBy": 351,
-      "ApprovedRegisteredDate": "2008-08-23T11:10:27.7214949+02:00",
-      "ExtraField1": "consequuntur",
-      "ExtraField2": "a",
-      "ExtraField3": "quia",
-      "ExtraField4": "blanditiis",
-      "ExtraField5": "sed",
-      "LastRecalculated": "2017-02-10T11:10:27.7214949+01:00",
-      "Updated": "1997-06-03T11:10:27.7214949+02:00",
-      "UpdatedAssociateId": 817,
-      "Registered": "1995-12-04T11:10:27.7214949+01:00",
-      "RegisteredAssociateId": 69,
-      "RequestAssociateId": 923,
-      "RequestComment": "sed",
+      "LikelyQuoteAlternativeId": 790,
+      "SentDate": "2013-09-27T02:49:45.0465904+02:00",
+      "FollowupId": 810,
+      "ExpirationDate": "2001-06-22T02:49:45.0465904+02:00",
+      "DeliveryCountryId": 508,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 645,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "iste",
+      "ERPPaymentTypeKey": "ducimus",
+      "ERPDeliveryTermsKey": "dolores",
+      "ERPDeliveryTypeKey": "id",
+      "Rank": 775,
+      "ApprovedBy": 209,
+      "ApprovedText": "ipsa",
+      "ApprovedRegisteredBy": 711,
+      "ApprovedRegisteredDate": "2021-09-03T02:49:45.0465904+02:00",
+      "ExtraField1": "aliquid",
+      "ExtraField2": "et",
+      "ExtraField3": "esse",
+      "ExtraField4": "sequi",
+      "ExtraField5": "officia",
+      "LastRecalculated": "2010-10-19T02:49:45.0465904+02:00",
+      "Updated": "2016-03-02T02:49:45.0465904+01:00",
+      "UpdatedAssociateId": 107,
+      "Registered": "2003-03-05T02:49:45.0465904+01:00",
+      "RegisteredAssociateId": 705,
+      "RequestAssociateId": 889,
+      "RequestComment": "corrupti",
       "QuoteAlternatives": [
         {},
         {}
@@ -154,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 769
+          "FieldType": "System.Int32",
+          "FieldLength": 132
         }
       }
     }
@@ -165,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 534
     }
   }
 }

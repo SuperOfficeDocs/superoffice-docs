@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetCurrentAccount
 
 Get current account (last logged into should normally be current) for logged in associate
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get current account (last logged into should normally be current) for logged in 
 ```http
 POST /api/v1/Agents/EMail/GetCurrentAccount?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +45,8 @@ POST /api/v1/Agents/EMail/GetCurrentAccount?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +77,7 @@ Response body:
 POST /api/v1/Agents/EMail/GetCurrentAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,22 +87,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 395,
-  "EMailAddress": "ratione",
-  "AssociateId": 982,
+  "EMailAccountId": 803,
+  "EMailAddress": "itaque",
+  "AssociateId": 537,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 338,
-  "ErrorCount": 188,
+  "AccountStatus": 416,
+  "ErrorCount": 842,
   "ErrorReason": "",
-  "InboxFolder": "aut",
-  "SentFolder": "incidunt",
+  "InboxFolder": "vero",
+  "SentFolder": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 729
     }
   }
 }

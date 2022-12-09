@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/AddLicenseFromFile
 
 Load and activate a new license from file/string if the new license is valid.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Load and activate a new license from file/string if the new license is valid.
 ```http
 POST /api/v1/Agents/License/AddLicenseFromFile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/License/AddLicenseFromFile?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FileContent
+FileContent 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FileContent | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,11 +76,11 @@ Response body:
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "amet"
+  "FileContent": "blanditiis"
 }
 ```
 
@@ -91,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 30,
-      "NumberOfLicensesFree": 680,
-      "NumberOfLicensesAdded": 919,
-      "NumberOfLicensesNewTotal": 772,
-      "NumberOfLicensesNewFree": 229,
-      "NumberOfLicensesTotal": 608
+      "NumberOfLicensesInUse": 19,
+      "NumberOfLicensesFree": 279,
+      "NumberOfLicensesAdded": 639,
+      "NumberOfLicensesNewTotal": 912,
+      "NumberOfLicensesNewFree": 688,
+      "NumberOfLicensesTotal": 502
     }
   ],
-  "AccumulatedNextCheckDate": "2014-06-19T11:10:27.1164582+02:00"
+  "AccumulatedNextCheckDate": "2017-07-04T02:49:44.576671+02:00"
 }
 ```

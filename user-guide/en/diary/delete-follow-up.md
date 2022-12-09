@@ -11,9 +11,6 @@ language: en
 
 # Delete follow-up using the Diary
 
-To delete follow-ups from within any tab in the **Diary** screen:
-
 1. Select the required follow-up.
 2. Right-click and choose **Delete**.
-
-A dialog opens asking you to confirm or cancel the deletion. [!include[Delete elements](includes/see-delete-elements.md)]
+3. Confirm or cancel the deletion in the confirmation dialog. [!include[Delete elements](includes/see-delete-elements.md)]

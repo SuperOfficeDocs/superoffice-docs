@@ -20,11 +20,11 @@ To edit an existing sale, browse to the sale and click **Edit** at the bottom of
 
 ## Create the sale
 
-1. Click **New** on the top bar and select **Sale**. An empty sale card opens.
+1. Click **New** on the top bar and select **Sale**.
+
+2. In the sale card, type in the name of the sale in the field with a red underline. This field is mandatory.
 
     ![New sale -screenshot][img2]
-
-2. Type in the name of the sale in the field with a red underline. This field is mandatory.
 
 3. Enter the required information in the other fields.
 
@@ -36,7 +36,7 @@ To edit an existing sale, browse to the sale and click **Edit** at the bottom of
 
 4. Optionally, go to the **Details**, **Links**, or **Note** tab to [enter further information about the sale][1].
 
-5. When you have entered the required information in all the tabs, click **Save**. You have now created a sale card for the new sale.
+5. After entering the required information in all the tabs, click **Save**. You have now created a sale card for the new sale.
 
 ## What would you like to do now?
 

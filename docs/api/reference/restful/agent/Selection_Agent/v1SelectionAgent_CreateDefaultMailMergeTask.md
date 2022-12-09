@@ -11,7 +11,14 @@ POST /api/v1/Agents/Selection/CreateDefaultMailMergeTask
 
 Set default values into a new MailMergeTask.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +66,7 @@ Response body:
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,23 +76,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 178,
-  "TypeId": 744,
-  "StartDate": "2010-10-20T11:10:27.8769783+02:00",
-  "Duration": 244,
-  "Description": "Business-focused high-level hardware",
-  "PriorityId": 449,
+  "ProjectId": 141,
+  "TypeId": 185,
+  "StartDate": "2019-07-23T02:49:45.155965+02:00",
+  "Duration": 315,
+  "Description": "Operative full-range standardization",
+  "PriorityId": 891,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 420,
+  "OwnerAssociateId": 939,
   "SingleEntryOnEachCompany": false,
-  "SaleId": 571,
+  "SaleId": 145,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldType": "System.String",
+      "FieldLength": 906
     }
   }
 }

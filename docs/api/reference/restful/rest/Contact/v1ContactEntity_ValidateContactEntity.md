@@ -11,6 +11,13 @@ POST /api/v1/Contact/Validate
 
 Check that entity is ready for saving, return error messages by field.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Check that entity is ready for saving, return error messages by field.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: contactEntity
+## Request Body: contactEntity  
 
-Entity to be checked for errors.
+Entity to be checked for errors. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,6 +83,7 @@ Entity to be checked for errors.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
+
 ## Response: object
 
 OK
@@ -86,95 +94,96 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 516,
-  "Name": "Hickle, Ankunding and Johnson",
+  "ContactId": 990,
+  "Name": "Herman-Bailey",
   "Department": "",
-  "OrgNr": "938332",
-  "Number1": "431073",
-  "Number2": "920559",
-  "UpdatedDate": "2003-05-17T11:10:52.717146+02:00",
-  "CreatedDate": "2005-06-24T11:10:52.717146+02:00",
+  "OrgNr": "1702509",
+  "Number1": "1094357",
+  "Number2": "955860",
+  "UpdatedDate": "2006-03-31T02:49:50.8234127+02:00",
+  "CreatedDate": "2007-07-12T02:49:50.8234127+02:00",
   "Emails": [
     {
-      "Value": "illum",
-      "StrippedValue": "dolor",
-      "Description": "Integrated tangible access"
+      "Value": "maxime",
+      "StrippedValue": "consequatur",
+      "Description": "Re-engineered even-keeled leverage"
     },
     {
-      "Value": "illum",
-      "StrippedValue": "dolor",
-      "Description": "Integrated tangible access"
+      "Value": "maxime",
+      "StrippedValue": "consequatur",
+      "Description": "Re-engineered even-keeled leverage"
     }
   ],
   "Interests": [
     {
-      "Id": 408,
-      "Name": "Braun, DuBuque and Kulas",
-      "ToolTip": "Qui ratione voluptatem quod velit esse.",
-      "Deleted": false,
-      "Rank": 153,
-      "Type": "itaque",
-      "ColorBlock": 685,
-      "IconHint": "est",
+      "Id": 504,
+      "Name": "Turcotte Inc and Sons",
+      "ToolTip": "Quos ab eligendi earum sit voluptas.",
+      "Deleted": true,
+      "Rank": 876,
+      "Type": "nisi",
+      "ColorBlock": 169,
+      "IconHint": "facilis",
       "Selected": false,
-      "LastChanged": "2006-03-31T11:10:52.717146+02:00",
+      "LastChanged": "2007-06-16T02:49:50.8234127+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatibus",
-      "StyleHint": "sit",
+      "ExtraInfo": "cumque",
+      "StyleHint": "eos",
       "Hidden": false,
-      "FullName": "Abdiel Wuckert"
+      "FullName": "Hallie Johnston"
     }
   ],
   "Urls": [
     {
-      "Value": "vero",
-      "StrippedValue": "quo",
-      "Description": "Customizable methodical matrices"
+      "Value": "voluptates",
+      "StrippedValue": "est",
+      "Description": "Ergonomic reciprocal moderator"
     },
     {
-      "Value": "vero",
-      "StrippedValue": "quo",
-      "Description": "Customizable methodical matrices"
+      "Value": "voluptates",
+      "StrippedValue": "est",
+      "Description": "Ergonomic reciprocal moderator"
     }
   ],
   "Phones": [
     {
-      "Value": "et",
-      "StrippedValue": "qui",
-      "Description": "Streamlined system-worthy application"
+      "Value": "qui",
+      "StrippedValue": "sed",
+      "Description": "Balanced incremental structure"
     },
     {
-      "Value": "et",
-      "StrippedValue": "qui",
-      "Description": "Streamlined system-worthy application"
+      "Value": "qui",
+      "StrippedValue": "sed",
+      "Description": "Balanced incremental structure"
     }
   ],
   "Faxes": [
     {
-      "Value": "eum",
-      "StrippedValue": "odio",
-      "Description": "Universal cohesive strategy"
+      "Value": "suscipit",
+      "StrippedValue": "deleniti",
+      "Description": "Business-focused heuristic frame"
     },
     {
-      "Value": "eum",
-      "StrippedValue": "odio",
-      "Description": "Universal cohesive strategy"
+      "Value": "suscipit",
+      "StrippedValue": "deleniti",
+      "Description": "Business-focused heuristic frame"
     }
   ],
-  "Description": "Optional human-resource approach",
+  "Description": "Decentralized foreground time-frame",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -183,85 +192,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "tenetur",
-      "PersonId": 787,
-      "Mrmrs": "quo",
-      "Firstname": "Wilbert",
-      "Lastname": "Becker",
-      "MiddleName": "Simonis-Runolfsdottir",
-      "Title": "quia",
-      "Description": "Balanced interactive throughput",
-      "Email": "ted@windlerkessler.info",
-      "FullName": "Alphonso Morar",
-      "DirectPhone": "(668)706-5445 x857",
-      "FormalName": "Schamberger Group",
-      "CountryId": 672,
-      "ContactId": 967,
-      "ContactName": "Feil-Kuhlman",
-      "Retired": 96,
-      "Rank": 392,
-      "ActiveInterests": 815,
+      "Position": "blanditiis",
+      "PersonId": 617,
+      "Mrmrs": "occaecati",
+      "Firstname": "Doug",
+      "Lastname": "Ernser",
+      "MiddleName": "Huels-Mueller",
+      "Title": "autem",
+      "Description": "Enhanced discrete pricing structure",
+      "Email": "neal_johnson@rosenbaummcglynn.uk",
+      "FullName": "Guido Batz",
+      "DirectPhone": "152-058-3823",
+      "FormalName": "Wehner LLC",
+      "CountryId": 231,
+      "ContactId": 102,
+      "ContactName": "Koelpin Group",
+      "Retired": 164,
+      "Rank": 267,
+      "ActiveInterests": 987,
       "ContactDepartment": "",
-      "ContactCountryId": 981,
-      "ContactOrgNr": "1074172",
-      "FaxPhone": "467.118.1515",
-      "MobilePhone": "(276)668-9096 x29054",
-      "ContactPhone": "1-843-161-4316",
-      "AssociateName": "Medhurst Inc and Sons",
-      "AssociateId": 263,
+      "ContactCountryId": 818,
+      "ContactOrgNr": "580645",
+      "FaxPhone": "667.554.4178 x9973",
+      "MobilePhone": "1-562-638-2224",
+      "ContactPhone": "460.495.2338 x9338",
+      "AssociateName": "Kling-Graham",
+      "AssociateId": 991,
       "UsePersonAddress": false,
-      "ContactFax": "sunt",
-      "Kanafname": "aut",
-      "Kanalname": "rem",
-      "Post1": "itaque",
-      "Post2": "explicabo",
-      "Post3": "laudantium",
-      "EmailName": "katelynn@conroymoen.us",
-      "ContactFullName": "Reilly Adams",
-      "ActiveErpLinks": 436,
-      "TicketPriorityId": 730,
-      "SupportLanguageId": 178,
-      "SupportAssociateId": 564,
+      "ContactFax": "in",
+      "Kanafname": "quidem",
+      "Kanalname": "cumque",
+      "Post1": "eveniet",
+      "Post2": "provident",
+      "Post3": "animi",
+      "EmailName": "quinn.heathcote@trantow.info",
+      "ContactFullName": "Mrs. Rylee Vernie Miller",
+      "ActiveErpLinks": 468,
+      "TicketPriorityId": 167,
+      "SupportLanguageId": 726,
+      "SupportAssociateId": 690,
       "CategoryName": "VIP Customer"
     }
   ],
   "NoMailing": false,
-  "Kananame": "optio",
+  "Kananame": "distinctio",
   "Xstop": true,
-  "ActiveInterests": 43,
-  "GroupId": 482,
-  "ActiveStatusMonitorId": 581,
+  "ActiveInterests": 12,
+  "GroupId": 51,
+  "ActiveStatusMonitorId": 301,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 431,
-  "DbiAgentId": 630,
-  "DbiLastSyncronized": "1999-10-27T11:10:52.7241452+02:00",
-  "DbiKey": "enim",
-  "DbiLastModified": "2012-09-17T11:10:52.7241452+02:00",
+  "Deleted": 330,
+  "DbiAgentId": 575,
+  "DbiLastSyncronized": "2020-06-22T02:49:50.8234127+02:00",
+  "DbiKey": "voluptas",
+  "DbiLastModified": "1997-03-25T02:49:50.8234127+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 327,
-  "ActiveErpLinks": 816,
+  "Source": 957,
+  "ActiveErpLinks": 472,
   "BounceEmails": [
-    "aryanna_rau@gutmannlangworth.info",
-    "francisca_bins@stoltenberg.us"
+    "lindsey@orn.com",
+    "marion.rempel@douglasrolfson.us"
   ],
   "Domains": [
-    "quis",
-    "dolor"
+    "mollitia",
+    "veritatis"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Aniya Macejkovic",
-    "SuperOffice:2": "Albin Olson"
+    "SuperOffice:1": "Dr. Finn Turcotte Jr.",
+    "SuperOffice:2": "Koby Kuhic"
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "explicabo"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "enim"
+    "CustomFields1": "veritatis",
+    "CustomFields2": "odit"
   }
 }
 ```
@@ -273,7 +282,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "maxime",
-  "2": "cum"
+  "1": "veritatis",
+  "2": "maiores"
 }
 ```

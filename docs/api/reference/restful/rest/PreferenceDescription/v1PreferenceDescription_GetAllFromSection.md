@@ -11,9 +11,16 @@ GET /api/v1/PreferenceDescription/{section}
 
 Gets all PreferenceDescription-items in the specified section
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The PreferenceDescription-section **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Gets all PreferenceDescription-items in the specified section
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -67,7 +75,7 @@ Response body: array
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,30 +86,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 160,
-    "Section": "labore",
-    "Key": "cumque",
-    "Name": "Wilderman-Kling",
+    "PrefDescId": 295,
+    "Section": "aut",
+    "Key": "itaque",
+    "Name": "Mertz-Johnston",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Open-architected systematic superstructure",
-    "IsBuiltin": false,
-    "TableName": "Herman, Wolf and Borer",
-    "UserDefinedListId": 643,
-    "Rank": 740,
-    "SubGroup": "iure",
-    "MinLevel": 252,
-    "MaxValue": 591,
-    "MinValue": 200,
-    "RequiredLicense": "est",
+    "Description": "Cloned cohesive workforce",
+    "IsBuiltin": true,
+    "TableName": "Considine Group",
+    "UserDefinedListId": 753,
+    "Rank": 667,
+    "SubGroup": "quisquam",
+    "MinLevel": 313,
+    "MaxValue": 86,
+    "MinValue": 617,
+    "RequiredLicense": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 309
       }
     }
   }

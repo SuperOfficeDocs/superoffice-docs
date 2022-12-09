@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetOpenSalesForContact
 
 Returns all open sales for the contact provided.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all open sales for the contact provided.
 ```http
 POST /api/v1/Agents/Sale/GetOpenSalesForContact?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Sale/GetOpenSalesForContact?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
+
 
 ## Response: array
 
@@ -93,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 32
+  "ContactId": 596
 }
 ```
 
@@ -105,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Littel-Conn",
-    "SaleDate": "2017-07-28T11:10:27.856008+02:00",
-    "SaleId": 591,
-    "Probability": 940,
-    "Title": "voluptas",
-    "Amount": 19192.615999999998,
-    "Currency": "dolorem",
-    "ProjectName": "Lakin, Kub and Brown",
-    "AssociateFullName": "Trent Harris",
-    "Description": "Implemented user-facing parallelism",
+    "ContactName": "Lynch, Mertz and Tromp",
+    "SaleDate": "2020-10-06T02:49:45.1403412+02:00",
+    "SaleId": 120,
+    "Probability": 590,
+    "Title": "mollitia",
+    "Amount": 17095.97,
+    "Currency": "earum",
+    "ProjectName": "Fahey, Wolf and Rath",
+    "AssociateFullName": "Maximillia Hackett",
+    "Description": "Secured optimizing solution",
     "Status": "Lost",
-    "WeightedAmount": 12109.776,
-    "ProjectId": 162,
-    "EarningPercent": 15848.637999999999,
-    "Earning": 9198.2899999999991,
-    "ContactId": 989,
-    "AssociateId": 999,
-    "PersonId": 664,
-    "SaleTypeId": 140,
-    "SaleTypeName": "Macejkovic LLC",
-    "PersonFullName": "Aurelio Koch",
+    "WeightedAmount": 15510.166,
+    "ProjectId": 616,
+    "EarningPercent": 23689.906,
+    "Earning": 18421.652,
+    "ContactId": 57,
+    "AssociateId": 505,
+    "PersonId": 924,
+    "SaleTypeId": 923,
+    "SaleTypeName": "Schuppe Group",
+    "PersonFullName": "Mr. Violet Margarette Murazik PhD",
     "Completed": "Completed",
-    "ActiveErpLinks": 628,
-    "NextDueDate": "2005-10-08T11:10:27.856008+02:00",
-    "Number": "1125727",
+    "ActiveErpLinks": 126,
+    "NextDueDate": "2003-11-09T02:49:45.155965+01:00",
+    "Number": "1014227",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 894
+        "FieldType": "System.Int32",
+        "FieldLength": 114
       }
     }
   }

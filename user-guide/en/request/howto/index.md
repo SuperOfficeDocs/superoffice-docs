@@ -20,7 +20,7 @@ How request handling progresses will vary from request to request.
 * [Forward messages or multiple requests to external parties][3]
 * [Reply to customer][4]
 * [Split requests][5]
-* [Add requests to the favourites list][6]
+* [Add requests to the favorites list][6]
 * [Close requests][7]
 * [Add message][8]
 * [Edit message][9]
@@ -34,7 +34,7 @@ Different companies have different routines for request handling and can use Sup
 3. The enquiry from the customer is automatically registered as a request in SuperOffice Service.
 4. The request ends up with a request handler in SuperOffice Service. See [Assign requests][12] and [Find requests][13].
 5. The request handler reads through the request.
-6. The request handler is unable to fulfil the request on his own and does one of the following:
+6. The request handler is unable to fulfil the request on their own and does one of the following:
     * [Asks a colleague][2].
     * [Gets help from outside][3].
 7. The request handler [sends a response to the customer][4].
@@ -44,7 +44,7 @@ Different companies have different routines for request handling and can use Sup
 
 1. The customer has a problem with a product and calls user-support.
 2. The request handler who answers the call [registers the request][14].
-3. The request handler is unable to fulfil the request on his own and does one of the following:
+3. The request handler is unable to fulfil the request on their own and does one of the following:
     * [Asks a colleague][2].
     * [Gets help from outside][3].
 4. The request handler [sends a response to the customer][4].
@@ -53,7 +53,7 @@ Different companies have different routines for request handling and can use Sup
 ## <a id="ai" />Efficient handling of requests using AI
 
 > [!NOTE]
->The functions described in this topic require a separate licence for AI services. SuperOffice AI is cloud only and is a separate add-on.
+> AI services require a separate licence. SuperOffice AI is cloud only and is a separate add-on.
 
 The introduction of Artificial Intelligence (AI) in SuperOffice 10 gives request handlers / support agents a new set of smart tools to make their workday more efficient.
 
@@ -63,17 +63,17 @@ This functionality automatically detects the language of an incoming request. Th
 
 ### Translation
 
-If you receive a message in a language you cannot read, you can click the **Translate from** ***language*** below the message. The subject and body of the message will be translated and added below the original message.
+If you receive a message in a language you cannot read, you can click the **Translate from** ***language*** below the message. The subject and body of the message is translated and added below the original message.
 
 ### Sentiment analysis
 
 (is the customer happy or angry?)
 
-If this function is active, incoming email requests will be analyzed to determine the "mood" of the customer. An emoticon below the message will indicate the detected sentiment (happy, unhappy or neutral).
+If this function is active, incoming email requests are analyzed to determine the "mood" of the customer. An emoticon below the message will indicate the detected sentiment (happy, unhappy or neutral).
 
 ### Automatic categorization
 
-Save time by letting the system categorize requests for you. If this function is active, incoming e-mail requests will be analyzed to determine the best category for each request. In the footer of a request, you will see the category suggested by the system. Click the category link to update the request with the suggested category.
+Save time by letting the system categorize requests for you. If this function is active, incoming email requests are analyzed to determine the best category for each request. In the footer of a request, you will see the category suggested by the system. Click the category link to update the request with the suggested category.
 
 <!-- Referenced links -->
 [1]: accept.md

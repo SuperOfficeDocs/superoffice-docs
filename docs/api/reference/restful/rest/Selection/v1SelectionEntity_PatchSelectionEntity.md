@@ -11,6 +11,7 @@ PATCH /api/v1/Selection/{id}
 
 Update a SelectionEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.ISelectionAgent} service SaveSelectionEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SelectionEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.ISelectionAgent} service SaveSelectionEntity
 ```http
 PATCH /api/v1/Selection/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Selection/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 SelectionEntity  updated.
 
@@ -81,7 +93,7 @@ SelectionEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because SelectionEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -136,18 +148,18 @@ Response body:
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repellendus",
+    "path": "in",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repellendus",
+    "path": "in",
     "value": {}
   }
 ]
@@ -160,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Decentralized user-facing superstructure",
-  "Postit": "facilis",
+  "Description": "Upgradable full-range protocol",
+  "Postit": "provident",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 961,
-  "IncludePerson": 930,
-  "MemberCount": 376,
-  "Name": "Hudson-Raynor",
-  "PostitTextId": 777,
-  "CreatedDate": "2014-05-30T11:10:53.5101682+02:00",
-  "SelectionId": 734,
-  "SoundEx": "reiciendis",
-  "Source": 689,
-  "TextId": 569,
-  "UpdatedDate": "2020-03-01T11:10:53.5101682+01:00",
-  "UpdatedCount": 74,
-  "Visibility": 305,
+  "GroupIdx": 163,
+  "IncludePerson": 708,
+  "MemberCount": 718,
+  "Name": "Buckridge Inc and Sons",
+  "PostitTextId": 219,
+  "CreatedDate": "2019-04-29T02:49:51.536309+02:00",
+  "SelectionId": 69,
+  "SoundEx": "et",
+  "Source": 623,
+  "TextId": 545,
+  "UpdatedDate": "1999-01-12T02:49:51.536309+01:00",
+  "UpdatedCount": 811,
+  "Visibility": 297,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 870,
-  "TargetTableName": "Kiehn-O'Conner",
+  "TargetTableNumber": 624,
+  "TargetTableName": "Hackett-Green",
   "Completed": false,
-  "LeftSelectionId": 712,
-  "RightSelectionId": 33,
+  "LeftSelectionId": 898,
+  "RightSelectionId": 272,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Brakus Inc and Sons",
-  "ShadowProviderName": "Rohan-Ankunding",
-  "ChartKey": "ut",
-  "LastLoaded": "2005-08-23T11:10:53.5101682+02:00",
-  "LastLoadedBy": 831,
+  "MainProviderName": "Armstrong, Marvin and Boyer",
+  "ShadowProviderName": "Ward, Emard and Brakus",
+  "ChartKey": "rerum",
+  "LastLoaded": "2012-05-07T02:49:51.536309+02:00",
+  "LastLoadedBy": 648,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-05-30T11:10:53.5111789+02:00",
-  "LastMembershipChangeBy": 41,
+  "LastMembershipChange": "2007-11-23T02:49:51.536309+01:00",
+  "LastMembershipChangeBy": 216,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "alias",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Mohr, Langosh and Schmidt",
-  "DashboardTileDefinitionId": 269,
+  "MainHeading": "voluptas",
+  "MemberTabHeading": "facilis",
+  "MailingsProviderName": "Mohr, Okuneva and Nicolas",
+  "DashboardTileDefinitionId": 883,
   "VisibleFor": [
     {
-      "VisibleId": 588,
+      "VisibleId": 848,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldType": "System.String",
+          "FieldLength": 195
         }
       }
     },
     {
-      "VisibleId": 588,
+      "VisibleId": 848,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldType": "System.String",
+          "FieldLength": 195
         }
       }
     }
@@ -233,12 +245,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 730
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

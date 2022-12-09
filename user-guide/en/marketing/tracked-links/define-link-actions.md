@@ -29,12 +29,15 @@ Click here to go to the relevant topic:
 
 ## Response
 
-* **Redirect to new web page**: Select this option to redirect the recipients to a web page when they click the link. You need to enter the URL in the **URL to new page** field.
-* **Show custom text**: Select this option if you want custom text to be displayed when the recipient clicks the link. You need to enter the text in the field below.
+* **Redirect to new web page**: Select this option to redirect the recipients to a web page when they click the link. Enter the URL in the **URL to new page** field.
+
+* **Show custom text**: Select this option if you want custom text to be displayed when the recipient clicks the link. Enter the text in the field below.
 
 ## Set field
 
-In the **Set field** tab, you can specify that a value should be added to an extra field when the recipient clicks the link. This can be useful if you want to record extra information about customers who click the link. Select a field in the **Set extra field** list box and enter a value in the **Value** field.
+In the **Set field** tab, you can specify that a value should be added to an extra field when the recipient clicks the link. This can be useful if you want to record extra information about customers who click the link.
+
+Select a field in the **Set extra field** list box and enter a value in the **Value** field.
 
 ## Interests
 
@@ -54,13 +57,21 @@ Here you can specify that recipients who click the link will be added to or remo
 In the **Follow-up** tab, you can specify that a link click should generate tasks or appointments in SuperOffice CRM.
 
 1. Check **Follow-up** to activate this function.
-2. **Task/Appointment**: Choose whether you want to create a task or an appointment in SuperOffice CRM.
-3. **Description**: Enter a description of the task/appointment. This might be, for example, which mailing it relates to, which link the recipient clicked, and possibly how the task/appointment should be followed up.
+
+2. **Task/Appointment**: Choose which type of follow-up to create.
+
+3. **Description**: Enter a description of the task/appointment. For example, which mailing it relates to, which link the recipient clicked, and possibly how the task/appointment should be followed up.
+
 4. **Project**: Here you select a project which the task/appointment should be linked to. Type the beginning of a name to start the quick search.
+
 5. **Task**: Select the required task or appointment type.
+
 6. **Created by**: Select which user should be responsible for the task/appointment, or click the **Select active user** button ![icon][img1] to choose yourself.
-7. **Assign to Our contact if available**: Check here if the task/appointment should be assigned to "our contact" for the recipient, i.e. the person who looks after this customer.
+
+7. **Assign to Our contact if available**: Check here if the task/appointment should be assigned to "our contact" for the recipient (the person who looks after this customer).
+
 8. **Default recipient**: Select a default recipient whom the task/appointment should be assigned to, or click the **Select active user** button ![icon][img1] to choose yourself.
+
 9. **Duration**: Click the **Select time span** button ![icon][img2] next to this field to set the duration of the task/appointment.
 
 ## Request

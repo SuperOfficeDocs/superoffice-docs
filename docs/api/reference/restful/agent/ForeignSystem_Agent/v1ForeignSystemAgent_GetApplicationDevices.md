@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 
 Gets all devices that belong to a foreign application.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all devices that belong to a foreign application.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationDevices?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName
+ApplicationName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
+
 
 ## Response: array
 
@@ -73,11 +81,11 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Deckow LLC"
+  "ApplicationName": "Balistreri LLC"
 }
 ```
 
@@ -89,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 746,
-    "Name": "Moen Inc and Sons",
-    "CreatedDate": "2004-10-02T11:10:27.0754524+02:00",
-    "UpdatedDate": "2002-04-21T11:10:27.0754524+02:00",
-    "AssociateFullName": "Dr. Favian Frieda Orn",
-    "CreatedBy": "eius",
-    "UpdatedBy": "eos",
-    "DeviceIdentifier": "dolore",
-    "ForeignAppId": 276,
+    "ForeignDeviceId": 237,
+    "Name": "Kuvalis LLC",
+    "CreatedDate": "2011-08-06T02:49:44.5454229+02:00",
+    "UpdatedDate": "2008-10-04T02:49:44.5454229+02:00",
+    "AssociateFullName": "Alison Witting",
+    "CreatedBy": "quis",
+    "UpdatedBy": "labore",
+    "DeviceIdentifier": "dolor",
+    "ForeignAppId": 565,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldType": "System.Int32",
+        "FieldLength": 67
       }
     }
   }

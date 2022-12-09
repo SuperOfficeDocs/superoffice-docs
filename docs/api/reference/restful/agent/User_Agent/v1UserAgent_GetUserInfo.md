@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetUserInfo
 
 Gets a UserInfo object.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=662
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=908
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,7 +47,8 @@ POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +84,7 @@ Response body:
 POST /api/v1/Agents/User/GetUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": false,
-  "UserInfoId": 860,
-  "UserName": "Parker LLC",
-  "PersonId": 347,
-  "Rank": 711,
-  "Tooltip": "ut",
-  "UserGroupId": 305,
-  "EjUserId": 941,
+  "Deleted": true,
+  "UserInfoId": 500,
+  "UserName": "Parker-Shanahan",
+  "PersonId": 608,
+  "Rank": 75,
+  "Tooltip": "iste",
+  "UserGroupId": 832,
+  "EjUserId": 652,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "itaque",
-    "aut"
+    "sunt",
+    "suscipit"
   ],
-  "CanLogon": true,
-  "RoleName": "Daniel Group",
-  "RoleTooltip": "reprehenderit",
-  "UserGroupName": "Orn LLC",
-  "UserGroupTooltip": "hic",
+  "CanLogon": false,
+  "RoleName": "Bashirian, Bashirian and Grimes",
+  "RoleTooltip": "eligendi",
+  "UserGroupName": "Weimann-Jerde",
+  "UserGroupTooltip": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldType": "System.String",
+      "FieldLength": 260
     }
   }
 }

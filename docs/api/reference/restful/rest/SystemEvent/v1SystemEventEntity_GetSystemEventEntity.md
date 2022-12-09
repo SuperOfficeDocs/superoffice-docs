@@ -11,11 +11,17 @@ GET /api/v1/SystemEvent/{id}
 
 Gets a SystemEventEntity object.
 
+
 Calls the Configuration agent service GetSystemEventEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the SystemEventEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Configuration agent service GetSystemEventEntity.
 ```http
 GET /api/v1/SystemEvent/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/SystemEvent/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 SystemEventEntity found.
 
@@ -49,7 +57,7 @@ SystemEventEntity found.
 | 200 | SystemEventEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +81,7 @@ Response body:
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,27 +91,27 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 579,
+  "SystemEventId": 427,
   "Scope": "Database",
-  "Eta": "2002-10-15T11:10:53.5311741+02:00",
-  "Eventkey": "commodi",
-  "Eventmess": "nesciunt",
-  "ExtraInfo": 563,
-  "Owner": 686,
-  "UpdatedCount": 299,
-  "Registered": "2008-06-15T11:10:53.5311741+02:00",
+  "Eta": "2014-11-06T02:49:51.551935+01:00",
+  "Eventkey": "ipsam",
+  "Eventmess": "illo",
+  "ExtraInfo": 202,
+  "Owner": 836,
+  "UpdatedCount": 881,
+  "Registered": "2002-02-09T02:49:51.551935+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldLength": 803
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

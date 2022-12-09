@@ -11,9 +11,16 @@ GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 
 Get a AppointmentEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a AppointmentEntity user-defined field's details based on the prog-id or lab
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 AppointmentEntity found.
 
@@ -37,7 +45,7 @@ AppointmentEntity found.
 | 200 | AppointmentEntity found. |
 | 404 | AppointmentEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +92,7 @@ Response body:
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,46 +102,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 143,
-  "ColumnId": 687,
-  "FieldDefault": "nihil",
-  "FieldHeight": 617,
-  "FieldLabel": "quos",
-  "FieldLeft": 622,
-  "FieldTop": 72,
+  "UDefFieldId": 350,
+  "ColumnId": 465,
+  "FieldDefault": "necessitatibus",
+  "FieldHeight": 795,
+  "FieldLabel": "quae",
+  "FieldLeft": 386,
+  "FieldTop": 202,
   "FieldType": "Checkbox",
-  "FieldWidth": 712,
-  "FormatMask": "iste",
+  "FieldWidth": 534,
+  "FormatMask": "deserunt",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 563,
-  "LabelLeft": 487,
-  "LabelTop": 778,
-  "LabelWidth": 438,
-  "LastVersionId": 619,
-  "ListTableId": 804,
+  "LabelHeight": 1002,
+  "LabelLeft": 869,
+  "LabelTop": 907,
+  "LabelWidth": 820,
+  "LastVersionId": 991,
+  "ListTableId": 209,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 582,
-  "ProgId": "voluptatem",
+  "Page1LineNo": 195,
+  "ProgId": "nisi",
   "IsReadOnly": false,
-  "ShortLabel": "necessitatibus",
-  "TabOrder": 856,
-  "TextLength": 548,
-  "Tooltip": "ut",
-  "UdefIdentity": 379,
-  "UDListDefinitionId": 774,
+  "ShortLabel": "esse",
+  "TabOrder": 815,
+  "TextLength": 271,
+  "Tooltip": "quasi",
+  "UdefIdentity": 357,
+  "UDListDefinitionId": 881,
   "Justification": "Center",
-  "Version": 931,
-  "TemplateVariableName": "D'Amore, Dietrich and Kub",
-  "HasBeenPublished": true,
-  "MdoListName": "Schroeder-Shields",
+  "Version": 627,
+  "TemplateVariableName": "Durgan-Schuppe",
+  "HasBeenPublished": false,
+  "MdoListName": "Aufderhar-Mraz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldLength": 168
     }
   }
 }

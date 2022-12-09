@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 
 Get an e-mail based on an archived document.
 
+
 The returned value is not sanitized.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The returned value is not sanitized.
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,15 +47,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,7 +107,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 234
+  "DocumentId": 920
 }
 ```
 
@@ -111,147 +120,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 539,
-      "ContactName": "Leffler, Gerhold and West",
-      "PersonId": 85,
-      "PersonName": "Stark, Moore and Murazik",
-      "AssociateId": 720,
-      "Address": "sed",
-      "EmailId": 109,
+      "ContactId": 389,
+      "ContactName": "Labadie Group",
+      "PersonId": 389,
+      "PersonName": "Padberg, Ondricka and Hayes",
+      "AssociateId": 362,
+      "Address": "qui",
+      "EmailId": 882,
       "DuplicatePersonIds": [
-        177,
-        590
+        903,
+        887
       ],
-      "Name": "Barrows Group",
+      "Name": "Kuhn Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldLength": 334
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 568,
-      "ContactName": "Beatty-Bahringer",
-      "PersonId": 903,
-      "PersonName": "Jast-Flatley",
-      "AssociateId": 11,
-      "Address": "ut",
-      "EmailId": 598,
+      "ContactId": 694,
+      "ContactName": "Durgan, Wisozk and Jacobs",
+      "PersonId": 987,
+      "PersonName": "Rippin LLC",
+      "AssociateId": 271,
+      "Address": "itaque",
+      "EmailId": 880,
       "DuplicatePersonIds": [
-        733,
-        901
+        936,
+        91
       ],
-      "Name": "Daniel, Sipes and Considine",
+      "Name": "Shanahan Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 367
+          "FieldType": "System.Int32",
+          "FieldLength": 956
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 693,
-      "ContactName": "Koss, Davis and Legros",
-      "PersonId": 369,
-      "PersonName": "Bosco-Barrows",
-      "AssociateId": 304,
-      "Address": "cupiditate",
-      "EmailId": 152,
+      "ContactId": 758,
+      "ContactName": "Reichert-Kuvalis",
+      "PersonId": 817,
+      "PersonName": "Hauck, Marquardt and McCullough",
+      "AssociateId": 881,
+      "Address": "natus",
+      "EmailId": 246,
       "DuplicatePersonIds": [
-        1000,
-        790
+        815,
+        160
       ],
-      "Name": "Harris, O'Keefe and Leffler",
+      "Name": "Doyle, Bogisich and Wintheiser",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 367
+          "FieldLength": 185
         }
       }
     }
   ],
-  "Subject": "ullam",
-  "HTMLBody": "suscipit",
+  "Subject": "aut",
+  "HTMLBody": "aut",
   "From": null,
-  "Sent": "2012-08-22T11:10:26.9444246+02:00",
-  "Size": 721,
+  "Sent": "2014-10-31T02:49:44.4504155+01:00",
+  "Size": 866,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "asperiores",
-  "PlainBody": "architecto",
+  "MessageID": "sunt",
+  "PlainBody": "recusandae",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 660,
+  "ServerId": 486,
   "Attachments": [
     {
-      "Description": "Ergonomic full-range Graphic Interface",
-      "Filename": "a",
-      "Size": 992,
-      "Type": "illum",
-      "Encoding": "aut",
-      "Id": "assumenda",
-      "Disposition": "suscipit",
+      "Description": "Upgradable directional functionalities",
+      "Filename": "dolores",
+      "Size": 773,
+      "Type": "rerum",
+      "Encoding": "quas",
+      "Id": "sunt",
+      "Disposition": "voluptas",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 198
+          "FieldType": "System.Int32",
+          "FieldLength": 909
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Zulauf Inc and Sons",
+      "Name": "Haag-Bauch",
       "Values": [
-        "odio",
-        "aliquid"
+        "illum",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 276
         }
       }
     },
     {
-      "Name": "Zulauf Inc and Sons",
+      "Name": "Haag-Bauch",
       "Values": [
-        "odio",
-        "aliquid"
+        "illum",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 276
         }
       }
     }
   ],
-  "FolderName": "Yost-Dietrich",
-  "EmailItemId": 996,
-  "AccountId": 555,
-  "ReceivedAt": "2009-03-13T11:10:26.9454487+01:00",
+  "FolderName": "Cartwright-Blanda",
+  "EmailItemId": 232,
+  "AccountId": 769,
+  "ReceivedAt": "2019-01-08T02:49:44.4504155+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-02-20T11:10:26.9454487+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2010-06-26T02:49:44.4504155+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -259,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 838
     }
   }
 }

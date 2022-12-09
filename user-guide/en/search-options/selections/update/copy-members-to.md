@@ -11,17 +11,17 @@ language: en
 
 # Copy into selections
 
-This function is useful if you want to copy specific selection members into another selection, for example, if you have created a selection of customers and want to include suppliers in the same selection.
+It may useful to copy specific selection members into another selection, for example, if you have created a selection of customers and want to include suppliers in the same selection.
 
 [!include[Start](../includes/steps-start-task.md)]
 
 1. Click the **Task** button and select **Copy into selection** task.
 
-1. The **Copy into Selection** dialog opens. There are two options in this dialog:
+1. In the **Copy into Selection** dialog, select one of the following:
 
     * **Copy into existing static selection**: select this option to copy the active selection into an existing static selection. In this case, specify the required selection.
 
-    * **Copy into new selection**: select this option to [create a completely new selection][2] containing the members of the active selection. In this case, you must also specify a name for the new selection, what type of selection it is and for whom it will be visible.
+    * **Copy into new selection**: select this option to [create a completely new selection][2] containing the members of the active selection. In this case, you must also specify a name for the new selection, what type of selection it is and for whom it is visible.
 
 1. Click **OK**. The selection is copied to the specified destination.
 
@@ -33,7 +33,7 @@ You cannot copy a selection to an existing dynamic selection or combined selecti
 
 Since a dynamic selection does not contain any physical contacts, but just a set of search criteria, it is only when you copy a dynamic selection that you can choose between **Static** and **Dynamic** in the **Selection is** list box. If you copy a static selection, the **Selection is** list box will only contain the **Static** option.
 
-If you want to create a copy of a dynamic selection, you can use the **Copy the selection** function on the **Task** tab.
+To create a copy of a dynamic selection, you can use the **Copy the selection** function on the **Task** tab.
 
 ## What would you like to do now?
 

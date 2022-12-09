@@ -14,9 +14,9 @@ language: en
 You can remove tiles from a dashboard, as long as you have editing access to it.
 
 > [!NOTE]
-> Removed tiles will still be available to [add to dashboards][1].
+> Removed tiles are still available to [add to dashboards][1].
 
-To delete a tile:
+**Steps:**
 
 1. Go to the required dashboard.
 

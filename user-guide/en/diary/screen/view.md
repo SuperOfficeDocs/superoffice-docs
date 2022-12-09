@@ -21,19 +21,19 @@ The **View** tab is used mainly to open and look at overviews of other users or 
 
 If you select the **View** tab in the **Diary** screen, the ![icon][img2] **Task** button is displayed.
 
-The button has the follow options:
+**Options:**
 
 * Select **Edit** to edit an existing view. Predefined views cannot be edited.
 * Select **New group view** to create a new group view.
-* Select **Copy** to make a copy of the group view you have opened.
-* Select **Delete group view** to delete the group view you have opened.
-* Select **Invite participants** if you want to link participants to a follow-up.
+* Select **Copy** to make a copy of the group view you opened.
+* Select **Delete group view** to delete the group view you opened.
+* Select **Invite participants** to link participants to a follow-up.
 * Select **Help** to open this help file.
 
 ## What would you like to do now?
 
 * [Create group views][1]
-* [View group views for an entire user group][2]
+* [View group views for a user group][2]
 * [Create appointments for associates][4]
 * [Invite participants][5]
 

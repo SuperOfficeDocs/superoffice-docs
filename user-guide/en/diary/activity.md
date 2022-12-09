@@ -51,11 +51,11 @@ The activities list columns contain the following information:
 
 * The other columns in the activities list show various information about the activity. If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
 
-The activities displayed depend on which of the following checkboxes you have selected at the bottom of the section tab:
+The activities displayed depend on which checkboxes you select at the bottom of the section tab:
 
 * Follow-ups (appointments, tasks and phone calls)
-* Documents (e-mail, letters, and other documents)
-* Mailings (bulk mailings by merged document, e-mail or SMS)
+* Documents (email, letters, and other documents)
+* Mailings (bulk mailings by merged document, email or SMS)
 * Other (chat records, form submissions)
 
 You can show all activities, or just one type.
@@ -77,7 +77,7 @@ You can delete activities from any screen where they are displayed:
     >
     > The **Delete** button is only available if the user who is logged in has permission to delete items from the activities list in question.
 
-3. A dialog opens asking you to confirm or cancel the deletion. [!include[Delete elements](includes/see-delete-elements.md)]
+3. A confirmation dialog opens. [!include[Delete elements](includes/see-delete-elements.md)]
 
 ## What would you like to do now?
 

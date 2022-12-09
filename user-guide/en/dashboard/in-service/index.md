@@ -18,7 +18,7 @@ A dashboard can contain up to four tiles (panels) that provide an instant overvi
 
 ## Choose the content of the tiles
 
-If you or your role have sufficient rights, you can choose the content you want to have displayed in the tiles on the dashboard.
+If you or your role have sufficient rights, you can choose the content you want to display in the tiles on the dashboard.
 
 1. Click the title text of a tile, or click **Blank** if the tile is empty.
 
@@ -63,11 +63,11 @@ A user with category administration rights can do the following:
 
 Depending on the rights you have in the system, the **Status** tile may also show the following information:
 
-* **Unpublished FAQ entries**: If the company's SuperOffice Service installation has a licence for SuperOffice Customer Centre, any unpublished FAQ entries will also be displayed here. These need to be approved by a user with publishing rights.
+* **Unpublished FAQ entries**: If the company's SuperOffice Service installation has a licence for SuperOffice Customer Centre, any unpublished FAQ entries will also be displayed here. These must be approved by a user with publishing rights.
 
     A user with publishing rights can check **Publish in the FAQ entry editing screen**.
 
-* **System messages**: Any messages from the system concerning errors or e-mail blocking are displayed at the bottom of the **Status** tile. You can open a message by clicking it.
+* **System messages**: Any messages from the system concerning errors or email blocking are displayed at the bottom of the **Status** tile. You can open a message by clicking it.
 
 ## Own open requests
 
@@ -75,7 +75,7 @@ Shows requests that belong to you and that have the **Open** status. In other wo
 
 ## Unassigned requests
 
-Lists requests that no-one has been assigned responsibility for. If you want to [take responsibility for one of the requests][2], it is important you click **Accept request**. Otherwise, someone else might answer the request at the same time.
+Lists requests that no-one is assigned responsibility for. To [take responsibility for one of the requests][2], it is important you click **Accept request**. Otherwise, someone else might answer the request at the same time.
 
 ## What would you like to do now?
 

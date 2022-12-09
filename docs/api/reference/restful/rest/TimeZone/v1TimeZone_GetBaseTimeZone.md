@@ -11,7 +11,14 @@ GET /api/v1/TimeZone/base
 
 Base Time Zone info.
 
+
 This is the time zone used internally for storing data.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ This is the time zone used internally for storing data.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 933,
-  "Name": "Ritchie Inc and Sons",
-  "TZLocationCode": "voluptates",
-  "TZLocationCities": "nulla",
-  "IsoNumber": 917,
+  "TZLocationID": 340,
+  "Name": "Erdman Group",
+  "TZLocationCode": "esse",
+  "TZLocationCities": "et",
+  "IsoNumber": 53,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 913,
-      "StartMonth": 570,
-      "EndDay": 140,
-      "EndMonth": 997,
-      "TZOffset": 592,
-      "StartRulePattern": "ea",
-      "EndRulePattern": "omnis"
+      "StartDay": 481,
+      "StartMonth": 991,
+      "EndDay": 683,
+      "EndMonth": 867,
+      "TZOffset": 743,
+      "StartRulePattern": "et",
+      "EndRulePattern": "numquam"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 866,
-      "StartMonth": 646,
-      "EndDay": 968,
-      "EndMonth": 708,
-      "TZOffset": 179,
-      "StartRulePattern": "incidunt",
-      "EndRulePattern": "vel"
+      "StartDay": 541,
+      "StartMonth": 836,
+      "EndDay": 641,
+      "EndMonth": 887,
+      "TZOffset": 750,
+      "StartRulePattern": "velit",
+      "EndRulePattern": "suscipit"
     }
   }
 }

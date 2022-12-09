@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 
 Get all available connections.
 
+
 Some installed connections may not be available to the user. Use GetAllAvailableQuoteConnectionsWithPriceLists if you need the pricelists on the connections as well.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Some installed connections may not be available to the user. Use GetAllAvailable
 ```http
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections?$select=name,departmen
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -72,7 +80,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,54 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 269,
-    "ERPName": "Botsford, Zieme and Abernathy",
-    "DisplayName": "Mayert-Dietrich",
-    "DisplayDescription": "Re-engineered intermediate alliance",
-    "Rank": 209,
-    "ConnectorName": "Funk Group",
-    "ErpConnectionId": 661,
-    "ExtraData": "voluptatem",
+    "QuoteConnectionId": 120,
+    "ERPName": "Hahn, Shields and Abernathy",
+    "DisplayName": "Wyman, Bednar and Stehr",
+    "DisplayDescription": "Front-line reciprocal infrastructure",
+    "Rank": 295,
+    "ConnectorName": "Dicki Group",
+    "ErpConnectionId": 298,
+    "ExtraData": "sit",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 171,
-        "ERPPriceListKey": "voluptatem",
-        "QuoteConnectionId": 575,
-        "Name": "Hermann, Reynolds and Jacobson",
-        "Description": "Profit-focused maximized local area network",
-        "Currency": "dolore",
-        "CurrencyName": "Mueller-Blick",
-        "ValidFrom": "2021-07-10T11:10:27.7024917+02:00",
-        "ValidTo": "2009-10-07T11:10:27.7024917+02:00",
+        "PriceListId": 609,
+        "ERPPriceListKey": "maiores",
+        "QuoteConnectionId": 578,
+        "Name": "Stiedemann, Heller and Mann",
+        "Description": "Managed client-driven support",
+        "Currency": "officia",
+        "CurrencyName": "Ullrich, Green and Kreiger",
+        "ValidFrom": "2006-10-07T02:49:45.0309645+02:00",
+        "ValidTo": "2017-03-06T02:49:45.0309645+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 960
+            "FieldLength": 108
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      331,
-      118
+      335,
+      859
     ],
     "AssociateAccessIds": [
-      551,
-      516
+      734,
+      676
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldLength": 762
       }
     }
   }

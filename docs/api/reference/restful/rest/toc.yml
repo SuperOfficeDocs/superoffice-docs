@@ -2714,6 +2714,8 @@ items:
     href: Ticket/v1TicketEntity_NotifyNewTicketMessage.md
   - name: POST Ticket/{id}/NotifyNewTicket
     href: Ticket/v1TicketEntity_NotifyNewTicket.md
+  - name: POST Ticket/Merge
+    href: Ticket/v1TicketEntity_MergeTickets.md
   - name: PUT Ticket/{id}
     href: Ticket/v1TicketEntity_HttpPutSaveTicketEntityWithNotify.md
 - name: TicketMessage

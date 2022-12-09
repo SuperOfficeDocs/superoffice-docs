@@ -14,9 +14,9 @@ language: en
 In SuperOffice CRM, many people are creating, editing and reading documents at any given time. If multiple users are editing the same document at the same time, they risk overwriting each other's data. To prevent this from happening, SuperOffice CRM will lock a document when it is being edited by a user. Other users can still open the document, but only in read mode.
 
 > [!NOTE]
-> If your organisation uses a document library like SharePoint, multiple people can edit a document simultaneously.
+> If your organization uses a document library like SharePoint, multiple people can edit a document simultaneously.
 
-## How do I know when a document has been checked out?
+## How do I know when a document is checked out?
 
 In the **Document** dialog, a checked-out document has one of the following icons:
 
@@ -24,9 +24,9 @@ In the **Document** dialog, a checked-out document has one of the following icon
 
 ![icon][img4] The document is currently checked out for editing by another user.
 
-Hold the mouse pointer over an icon to show information about the user who has checked out the document.
+Hold the mouse pointer over an icon to show information about the user who checked out the document.
 
-If you attempt to open a checked-out document, a dialog appears with information about who has checked out the document. You can only open the document in read mode.
+If you attempt to open a checked-out document, a dialog appears with information about who checked out the document. You can open the document in read mode only.
 
 ## Check out a document for editing
 
@@ -34,14 +34,14 @@ Open a document and select to [edit the document][1]. The document is checked ou
 
 ## Check in a document after editing
 
-In most cases, you can [save and close the document][1] in the application, and the document will be checked in automatically.
+In most cases, you can [save and close the document][1] in the application, and the document is checked in automatically.
 
 ## Edit mode and read mode
 
-By default, a document is opened in edit mode. Below we have described the differences between edit mode and read mode.
+By default, a document is opened in edit mode.
 
 > [!NOTE]
-> If you prefer to select read mode or edit mode when you open a document, do as follows: Go to ![icon][img2] **Personal settings** > **Preferences** > **Functions** and set **Ask to edit or read** to **Yes**.
+> If you prefer to select read mode or edit mode when you open a document, go to ![icon][img2] **Personal settings** > **Preferences** > **Functions** and set **Ask to edit or read** to **Yes**.
 
 * Edit mode: The document is opened for editing. The document cannot be edited by other users until you save and close the document, which automatically checks in the document.
 
@@ -53,17 +53,14 @@ By default, a document is opened in edit mode. Below we have described the diffe
 ## Cancel a check-out (revert to saved version)
 
 > [!CAUTION]
-> If another user has checked out a document, always contact that user before performing this procedure. Otherwise there is a risk that
->
-> a. you overwrite someone else's changes
-> b. the other user overwrites your changes when they check in the document
+> If another user has checked out a document, always contact that user before performing this procedure. Otherwise there is a risk that you overwrite someone else's changes or the other user overwrites your changes when they check in the document
 >
 > The best option may be to make a copy of the document and edit the copy.
 
-If you or someone else have checked out a document, and you need to edit the document (i.e. cancel the check out), you can do as follows:
+If you or someone else checked out a document, and you want to edit the document, you can cancel the check out:
 
-1. Right-click the document and select **Document**. The **Document** dialog opens.
-2. Click ![icon][img1] and select **Revert to saved version**.
+1. Right-click the document and select **Document**.
+2. In the **Document** dialog, click ![icon][img1] and select **Revert to saved version**.
 
 > [!NOTE]
 > You need special privileges to access this option. You also need write access to the document.

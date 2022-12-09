@@ -11,7 +11,13 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 
 <para />
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 ```http
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, EmailAddress, NumberOfContacts, NumberOfPersons
+Name, EmailAddress, NumberOfContacts, NumberOfPersons 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,6 +54,7 @@ Name, EmailAddress, NumberOfContacts, NumberOfPersons
 | EmailAddress | string |  |
 | NumberOfContacts | int32 |  |
 | NumberOfPersons | int32 |  |
+
 
 ## Response: array
 
@@ -77,14 +85,14 @@ Response body: array
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Keebler Inc and Sons",
-  "EmailAddress": "winston@luettgenglover.biz",
-  "NumberOfContacts": 736,
-  "NumberOfPersons": 77
+  "Name": "Wisozk Group",
+  "EmailAddress": "etha_cummings@gleichner.uk",
+  "NumberOfContacts": 49,
+  "NumberOfPersons": 340
 }
 ```
 
@@ -96,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 115,
-    "FullName": "Mrs. Piper Quinton Eichmann",
-    "EmailAddress": "wilma@considine.name",
-    "ContactId": 759,
-    "ContactName": "Stracke-Keebler",
+    "PersonId": 460,
+    "FullName": "Burley Kuphal",
+    "EmailAddress": "tyrese.berge@dubuque.name",
+    "ContactId": 409,
+    "ContactName": "Russel-Emard",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Davis, Fahey and Champlin",
+    "SortName": "Nicolas LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldLength": 522
       }
     }
   }

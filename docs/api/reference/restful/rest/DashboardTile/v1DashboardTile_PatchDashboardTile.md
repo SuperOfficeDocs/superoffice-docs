@@ -11,6 +11,7 @@ PATCH /api/v1/DashboardTile/{id}
 
 Update a DashboardTile with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IDashboardAgent} service SaveDashboardTile.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashboardTile  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IDashboardAgent} service SaveDashboardTile.
 ```http
 PATCH /api/v1/DashboardTile/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/DashboardTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 DashboardTile  updated.
 
@@ -81,7 +93,7 @@ DashboardTile  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because DashboardTile has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,18 +121,18 @@ Response body:
 PATCH /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eaque",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eaque",
+    "path": "non",
     "value": {}
   }
 ]
@@ -133,64 +145,64 @@ HTTP/1.1 200 DashboardTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 294,
-  "Caption": "qui",
-  "Description": "Re-engineered uniform projection",
-  "ChartName": "Bogan, Fahey and Jewess",
-  "ChartId": "excepturi",
-  "IsDefault": true,
-  "AssociateId": 187,
-  "GroupId": 692,
-  "SelectionId": 853,
-  "Config": "aliquid",
+  "DashboardTileId": 763,
+  "Caption": "sit",
+  "Description": "User-centric disintermediate collaboration",
+  "ChartName": "Beatty-Halvorson",
+  "ChartId": "eligendi",
+  "IsDefault": false,
+  "AssociateId": 916,
+  "GroupId": 708,
+  "SelectionId": 600,
+  "Config": "officiis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Corkery Group",
-      "Description": "Visionary 24 hour adapter",
+      "Name": "Considine, King and Hyatt",
+      "Description": "Profit-focused modular neural-net",
       "Type": "Boolean",
-      "ListName": "Ferry-Kuvalis",
+      "ListName": "Bartoletti LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nihil",
+      "Value": "qui",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 76
+          "FieldLength": 342
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 587,
+      "VisibleId": 210,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldLength": 974
         }
       }
     },
     {
-      "VisibleId": 587,
+      "VisibleId": 210,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldLength": 974
         }
       }
     }
@@ -200,12 +212,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 913
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

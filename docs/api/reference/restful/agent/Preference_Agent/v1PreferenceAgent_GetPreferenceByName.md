@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetPreferenceByName
 
 Get a preference by name
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a preference by name
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceByName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Preference/GetPreferenceByName?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PrefSection, PrefKey, PrefLevel
+PrefSection, PrefKey, PrefLevel 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ PrefSection, PrefKey, PrefLevel
 | PrefKey | string |  |
 | PrefLevel | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,12 +85,12 @@ Response body:
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "aperiam",
-  "PrefKey": "corrupti",
+  "PrefSection": "facere",
+  "PrefKey": "beatae",
   "PrefLevel": "Database"
 }
 ```
@@ -95,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "asperiores",
+  "RawValue": "qui",
   "Specification": null,
-  "DisplayValue": "distinctio",
-  "DisplayTooltip": "in",
+  "DisplayValue": "eligendi",
+  "DisplayTooltip": "nihil",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 464,
-  "PrefDescId": 68,
-  "TableName": "Lang, Bradtke and Stark",
-  "UserPreferenceId": 909,
+  "TargetId": 256,
+  "PrefDescId": 342,
+  "TableName": "Hayes, Schmidt and Parker",
+  "UserPreferenceId": 629,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldType": "System.Int32",
+      "FieldLength": 483
     }
   }
 }

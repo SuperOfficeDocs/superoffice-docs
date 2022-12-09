@@ -22,7 +22,7 @@ The priority assigned to a case can be determined by, for example:
 * The mailbox
 * An email filter
 
-Once a request has been assigned a priority, the priority can be used to control any escalation of the request.
+Once a request is assigned a priority, the priority can be used to control any escalation of the request.
 
 For example: You can specify that requests from a specific company should have VIP priority and that you should be notified by email if the request has not been read by a specified deadline.
 
@@ -36,19 +36,19 @@ Priorities override other priorities in this order:
 4. Priority specified for an email filter
 5. Standard priorities
 
-Since the priority is determined in this order, a request from a contact with high priority will be given a high priority even though the mailbox the person sends it to has a low priority.
+Because of this order, a request from a contact with high priority gets a high priority even though the mailbox the person sends it to has a low priority.
 
 ## Escalation
 
-In SuperOffice Service you can define as many priorities as you want. For each priority you can define escalation levels, so that the system forwards the enquiry further through the organisation if it has not been read or dealt with within a specified time.
+In SuperOffice Service you can define as many priorities as you want. For each priority you can define escalation levels, so that the system forwards the enquiry further through the organization if it has not been read or dealt with within a specified time.
 
-An example of this is user-support and SLA agreements which specify that the supplier must begin troubleshooting within, say, 2 hours. You can then define operations which cause the request to be escalated and assigned to new request handlers if it has not been read or processed within this time. You can define as many operations as you want, and also be notified by mobile phone.
+For example, user-support and SLA agreements specify that the supplier must begin troubleshooting within, say, 2 hours. You can then define operations that cause the request to be escalated and assigned to new request handlers if it has not been read or processed within this time. You can define as many operations as you want, and also be notified by mobile phone.
 
 ## Accessibility
 
 Each priority has an accessibility property associated with it. If the request's priority is set to **External**, the priority will be accessible via SuperOffice Customer Centre.
 
-If more than two priorities are accessible externally, the customer will be able to select which priority should apply to the request. This may cause the request to be given a higher priority than necessary, since the customer will want to get a reply as quickly as possible and is likely to select the highest available priority. The highest priorities should therefore be set to **Internal**, while **Medium** and **Low** priorities are made accessible externally.
+If more than two priorities are accessible externally, the customer can select which priority should apply to the request. This may cause the request to be given a higher priority than necessary, since the customer will want to get a reply as quickly as possible and is likely to select the highest available priority. The highest priorities should therefore be set to **Internal**, while **Medium** and **Low** priorities are made accessible externally.
 
 ## What do you want to do now?
 

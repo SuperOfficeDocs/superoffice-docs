@@ -11,11 +11,18 @@ GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 
 Gets user groups visible for the SelectionCategory list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Johnson, Bruen and Mayert",
-    "ToolTip": "Harum enim ad.",
-    "Deleted": false,
-    "Rank": 731,
-    "Type": "iusto",
-    "ColorBlock": 513,
-    "IconHint": "omnis",
+    "Id": 638,
+    "Name": "Pfannerstill, Lockman and Hermann",
+    "ToolTip": "Totam et esse et ullam.",
+    "Deleted": true,
+    "Rank": 838,
+    "Type": "labore",
+    "ColorBlock": 919,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2008-06-07T11:10:54.6239028+02:00",
+    "LastChanged": "2022-08-16T02:49:52.5159497+02:00",
     "ChildItems": [
       {
-        "Id": 904,
-        "Name": "Pfeffer, Mosciski and Murphy",
-        "ToolTip": "Atque sed quia.",
-        "Deleted": true,
-        "Rank": 731,
-        "Type": "molestiae",
-        "ColorBlock": 126,
-        "IconHint": "beatae",
+        "Id": 583,
+        "Name": "Leffler-Halvorson",
+        "ToolTip": "Perspiciatis aut accusamus.",
+        "Deleted": false,
+        "Rank": 837,
+        "Type": "laborum",
+        "ColorBlock": 533,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2012-05-13T11:10:54.6239028+02:00",
+        "LastChanged": "2015-12-22T02:49:52.5159497+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "quo",
+        "ExtraInfo": "modi",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Lilian Huel",
+        "FullName": "Miss Dannie Cormier Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 674
+            "FieldType": "System.Int32",
+            "FieldLength": 986
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "totam",
-    "Hidden": true,
-    "FullName": "Icie Daugherty",
+    "ExtraInfo": "totam",
+    "StyleHint": "aliquid",
+    "Hidden": false,
+    "FullName": "Miss Seamus Zelma Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldLength": 195
       }
     }
   }

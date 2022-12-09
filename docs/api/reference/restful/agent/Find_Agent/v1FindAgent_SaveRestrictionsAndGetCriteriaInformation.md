@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
 
+
 Then, return the same result as a call to GetCriteriaInformation would have done. The purpose is to encapsulate saving and updating of a GUI in one round trip.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Then, return the same result as a call to GetCriteriaInformation would have done
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, Restrictions, StaticColumns
+StorageType, ProviderName, StorageKey, Restrictions, StaticColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,8 @@ StorageType, ProviderName, StorageKey, Restrictions, StaticColumns
 | Restrictions | array |  |
 | StaticColumns | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,24 +82,24 @@ Response body:
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "officia",
-  "ProviderName": "Schmeler Group",
-  "StorageKey": "adipisci",
+  "StorageType": "molestias",
+  "ProviderName": "Kris-Romaguera",
+  "StorageKey": "ex",
   "Restrictions": [
     {
-      "Name": "O'Kon-Dare",
-      "Operator": "ipsum",
+      "Name": "Tromp, Gusikowski and Heathcote",
+      "Operator": "blanditiis",
       "Values": [
-        "quos",
-        "numquam"
+        "aperiam",
+        "esse"
       ],
       "DisplayValues": [
-        "laudantium",
-        "laboriosam"
+        "ut",
+        "esse"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 390,
+      "InterParenthesis": 266,
       "InterOperator": "And",
-      "UniqueHash": 292
+      "UniqueHash": 517
     }
   ],
   "StaticColumns": [
-    "voluptatum",
-    "qui"
+    "itaque",
+    "et"
   ]
 }
 ```
@@ -120,81 +128,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kuphal Group",
-      "Operator": "quibusdam",
+      "Name": "McLaughlin, Wiza and Terry",
+      "Operator": "id",
       "Values": [
-        "non",
-        "doloribus"
+        "aut",
+        "repudiandae"
       ],
       "DisplayValues": [
-        "sit",
-        "ut"
+        "et",
+        "consectetur"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 486,
+      "InterParenthesis": 438,
       "InterOperator": "And",
-      "UniqueHash": 553
+      "UniqueHash": 911
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Nienow-Beier",
-      "DisplayTooltip": "iure",
-      "DisplayType": "quae",
+      "DisplayName": "Cummerata, Herzog and Lynch",
+      "DisplayTooltip": "sequi",
+      "DisplayType": "mollitia",
       "CanOrderBy": false,
-      "Name": "Ebert, Armstrong and Bins",
-      "CanRestrictBy": false,
-      "RestrictionType": "rerum",
-      "RestrictionListName": "McKenzie, Parker and Towne",
-      "IsVisible": true,
-      "ExtraInfo": "blanditiis",
-      "Width": "id",
-      "IconHint": "sunt",
-      "HeadingIconHint": "fuga"
+      "Name": "Luettgen-Davis",
+      "CanRestrictBy": true,
+      "RestrictionType": "corrupti",
+      "RestrictionListName": "Bernhard-Greenfelder",
+      "IsVisible": false,
+      "ExtraInfo": "quo",
+      "Width": "consequatur",
+      "IconHint": "non",
+      "HeadingIconHint": "eum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Carroll LLC",
-      "PrimaryKey": 498,
+      "EntityName": "Anderson Inc and Sons",
+      "PrimaryKey": 176,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nisi",
-          "TooltipHint": "occaecati",
-          "LinkHint": "rerum"
+          "DisplayValue": "atque",
+          "TooltipHint": "voluptas",
+          "LinkHint": "neque"
         }
       },
-      "LinkHint": "totam",
-      "StyleHint": "corrupti",
+      "LinkHint": "commodi",
+      "StyleHint": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 620
+          "FieldLength": 70
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Gibson-Bogisich",
-      "Description": "Centralized directional task-force",
-      "Rank": 65,
+      "Name": "Green-Schoen",
+      "Description": "Open-source optimal application",
+      "Rank": 130,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gibson-Bogisich",
-      "Description": "Centralized directional task-force",
-      "Rank": 65,
+      "Name": "Green-Schoen",
+      "Description": "Open-source optimal application",
+      "Rank": 130,
       "Restrictions": [
         {},
         {}
@@ -206,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldLength": 775
     }
   }
 }

@@ -1,6 +1,8 @@
 items:
 - name: Overview
   href: index.md
+- name: The Edit quote dialog
+  href: ../screen/edit-quote-dialog.md
 - name: Create a quote
   href: create.md
   items:
@@ -22,5 +24,3 @@ items:
   href: versions.md
 - name: Place an order
   href: create-order.md
-- name: Quote sync
-  href: quote-sync/toc.yml

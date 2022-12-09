@@ -18,9 +18,9 @@ You can initiate some [system events][1] from **System notifications** list in t
 
 2. Select the **Status** tab.
 
-3. Click the **Add** button below **System notifications**. The **Add event** dialog opens.
+3. Click the **Add** button below **System notifications**.
 
-4. In the **Event type** list box, choose from the predefined options. See [System event types][1].
+4. In the **Add event** dialog, choose a [system event type][1] from the **Event type** list box.
 
 5. Specify the date and time when you expect the event to finish in the **Finished** fields.
 
@@ -31,7 +31,7 @@ You can initiate some [system events][1] from **System notifications** list in t
     > [!NOTE]
     > If you add an event of the type **Message of the Day** (message to all users), it is the text in the **Description** field which is sent to users, together with the expected completion time.
 
-7. Click **Save** to create the event. It will be displayed in the **System Notifications** list in the **Status** tab.
+7. Click **Save** to create the event. It is displayed in the **System Notifications** list in the **Status** tab.
 
 > [!TIP]
 > To edit an event, double-click it in the list.

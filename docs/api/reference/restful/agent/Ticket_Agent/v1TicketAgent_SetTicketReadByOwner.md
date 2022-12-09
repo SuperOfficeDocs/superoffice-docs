@@ -11,7 +11,13 @@ POST /api/v1/Agents/Ticket/SetTicketReadByOwner
 
 Set the ReadByOwner status for a ticket.
 
+
 It will only have an effect if the calling user is the same as the owner of the ticket
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It will only have an effect if the calling user is the same as the owner of the 
 ```http
 POST /api/v1/Agents/Ticket/SetTicketReadByOwner?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Ticket/SetTicketReadByOwner?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketEntityId, ReadStatus, CheckEscalating
+TicketEntityId, ReadStatus, CheckEscalating 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ TicketEntityId, ReadStatus, CheckEscalating
 | ReadStatus | string |  |
 | CheckEscalating | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,6 +73,7 @@ Response body:
 | LastChanged | date-time | The last time the ticket was modified. |
 | ReadByOwner | date-time | The datetime for when the ticket last was read by the owner. |
 | ReadByCustomer | date-time | The datetime for when the ticket was read by the customer. |
+| FirstReadByOwner | date-time | The datetime for when the ticket first was read by the current owner. |
 | FirstReadByUser | date-time | The datetime for when the ticket first was read by a user. |
 | Activate | date-time | When the ticket should be activated, if it is postponed. |
 | ClosedAt | date-time | When the ticket was closed. |
@@ -119,13 +128,13 @@ Response body:
 POST /api/v1/Agents/Ticket/SetTicketReadByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 708,
+  "TicketEntityId": 465,
   "ReadStatus": "Green",
-  "CheckEscalating": true
+  "CheckEscalating": false
 }
 ```
 
@@ -136,20 +145,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 846,
-  "Title": "impedit",
-  "CreatedAt": "2004-09-24T11:10:28.2686934+02:00",
-  "LastChanged": "2010-08-11T11:10:28.2686934+02:00",
-  "ReadByOwner": "2019-03-18T11:10:28.2686934+01:00",
-  "ReadByCustomer": "2019-06-28T11:10:28.2686934+02:00",
-  "FirstReadByUser": "2003-03-08T11:10:28.2686934+01:00",
-  "Activate": "2021-02-11T11:10:28.2686934+01:00",
-  "ClosedAt": "1996-08-25T11:10:28.2686934+02:00",
-  "RepliedAt": "1999-03-10T11:10:28.2686934+01:00",
-  "AlertTimeout": "2004-03-15T11:10:28.2686934+01:00",
-  "Deadline": "2017-07-27T11:10:28.2686934+02:00",
+  "TicketId": 77,
+  "Title": "illo",
+  "CreatedAt": "2015-03-24T02:49:45.5153435+01:00",
+  "LastChanged": "2003-04-05T02:49:45.5153435+02:00",
+  "ReadByOwner": "2019-08-29T02:49:45.5153435+02:00",
+  "ReadByCustomer": "1996-10-22T02:49:45.5153435+02:00",
+  "FirstReadByOwner": "2006-04-10T02:49:45.5153435+02:00",
+  "FirstReadByUser": "2005-01-02T02:49:45.5153435+01:00",
+  "Activate": "1999-10-16T02:49:45.5153435+02:00",
+  "ClosedAt": "2000-10-28T02:49:45.5153435+02:00",
+  "RepliedAt": "2015-08-07T02:49:45.5153435+02:00",
+  "AlertTimeout": "2021-07-11T02:49:45.5153435+02:00",
+  "Deadline": "2022-06-02T02:49:45.5153435+02:00",
   "CreatedBy": null,
-  "Author": "assumenda",
+  "Author": "asperiores",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -160,154 +170,155 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "officia",
-      "PersonId": 439,
-      "Mrmrs": "labore",
-      "Firstname": "Jerod",
-      "Lastname": "Haley",
-      "MiddleName": "Beer, Skiles and Smitham",
-      "Title": "perspiciatis",
-      "Description": "Open-architected hybrid implementation",
-      "Email": "kendrick@volkmanheathcote.us",
-      "FullName": "Porter Hilll",
-      "DirectPhone": "639-611-2887",
-      "FormalName": "Reinger Group",
-      "CountryId": 147,
-      "ContactId": 903,
-      "ContactName": "Langworth, Goodwin and Treutel",
-      "Retired": 919,
-      "Rank": 313,
-      "ActiveInterests": 793,
+      "Position": "quia",
+      "PersonId": 651,
+      "Mrmrs": "vero",
+      "Firstname": "Sibyl",
+      "Lastname": "Macejkovic",
+      "MiddleName": "Collins-King",
+      "Title": "dolore",
+      "Description": "Upgradable global info-mediaries",
+      "Email": "evalyn.pollich@beermertz.uk",
+      "FullName": "Lambert Simonis",
+      "DirectPhone": "1-278-808-4940 x611",
+      "FormalName": "Heaney Inc and Sons",
+      "CountryId": 539,
+      "ContactId": 709,
+      "ContactName": "Nikolaus-Wintheiser",
+      "Retired": 620,
+      "Rank": 255,
+      "ActiveInterests": 399,
       "ContactDepartment": "",
-      "ContactCountryId": 987,
-      "ContactOrgNr": "600728",
-      "FaxPhone": "384.965.7041 x8447",
-      "MobilePhone": "526-021-9804 x0219",
-      "ContactPhone": "605-983-9884",
-      "AssociateName": "Zieme-Davis",
-      "AssociateId": 951,
+      "ContactCountryId": 692,
+      "ContactOrgNr": "305465",
+      "FaxPhone": "550-233-0083",
+      "MobilePhone": "530.704.6769",
+      "ContactPhone": "454.795.0575 x547",
+      "AssociateName": "Keeling Inc and Sons",
+      "AssociateId": 513,
       "UsePersonAddress": true,
-      "ContactFax": "recusandae",
-      "Kanafname": "mollitia",
-      "Kanalname": "tenetur",
-      "Post1": "mollitia",
-      "Post2": "iste",
-      "Post3": "rerum",
-      "EmailName": "liam@harrisbosco.ca",
-      "ContactFullName": "Miss Isaias Ruecker",
-      "ActiveErpLinks": 767,
-      "TicketPriorityId": 184,
-      "SupportLanguageId": 239,
-      "SupportAssociateId": 498,
+      "ContactFax": "est",
+      "Kanafname": "qui",
+      "Kanalname": "cumque",
+      "Post1": "consequuntur",
+      "Post2": "ut",
+      "Post3": "provident",
+      "EmailName": "deshaun.mcdermott@pouros.name",
+      "ContactFullName": "Miss Dorcas Delilah Aufderhar II",
+      "ActiveErpLinks": 386,
+      "TicketPriorityId": 346,
+      "SupportLanguageId": 39,
+      "SupportAssociateId": 917,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldType": "System.String",
+          "FieldLength": 903
         }
       }
     }
   ],
-  "AlertLevel": 20,
-  "ConnectId": 740,
+  "AlertLevel": 522,
+  "ConnectId": 613,
   "ReadStatus": "Green",
-  "TimeToReply": 805,
-  "RealTimeToReply": 93,
-  "TimeToClose": 106,
-  "RealTimeToClose": 641,
-  "TimeSpentInternally": 387,
-  "TimeSpentExternally": 408,
-  "TimeSpentQueue": 880,
-  "RealTimeSpentInternally": 910,
-  "RealTimeSpentExternally": 81,
-  "RealTimeSpentQueue": 464,
+  "TimeToReply": 55,
+  "RealTimeToReply": 516,
+  "TimeToClose": 380,
+  "RealTimeToClose": 923,
+  "TimeSpentInternally": 233,
+  "TimeSpentExternally": 521,
+  "TimeSpentQueue": 47,
+  "RealTimeSpentInternally": 973,
+  "RealTimeSpentExternally": 776,
+  "RealTimeSpentQueue": 790,
   "HasAttachment": false,
-  "NumReplies": 422,
-  "NumMessages": 840,
-  "FromAddress": "veritatis",
+  "NumReplies": 190,
+  "NumMessages": 494,
+  "FromAddress": "aliquam",
   "Messages": [
     {
-      "TicketMessageId": 688,
-      "CreatedAt": "2007-08-08T11:10:28.2782212+02:00",
+      "TicketMessageId": 322,
+      "CreatedAt": "1997-09-04T02:49:45.5153435+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "iure",
-      "PersonId": 675,
-      "PersonFullName": "Kira Samara Rutherford Sr.",
-      "ContactId": 321,
-      "ContactName": "Bechtelar-Gleichner",
+      "Author": "quod",
+      "PersonId": 983,
+      "PersonFullName": "Reyes Daniel",
+      "ContactId": 996,
+      "ContactName": "Schimmel-Romaguera",
       "ContactDepartment": "",
-      "NumAttachments": 944,
-      "EmailHeader": "bryana@prosaccoschuster.ca",
+      "NumAttachments": 380,
+      "EmailHeader": "kenna_lynch@larson.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "sunt",
-      "Sentiment": 113,
-      "SentimentConfidence": 601,
-      "CreatedBy": 743,
+      "Language": "qui",
+      "Sentiment": 203,
+      "SentimentConfidence": 79,
+      "CreatedBy": 911,
+      "ChangedAt": "2006-08-31T02:49:45.5309702+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 354
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 118,
-      "Name": "Bruen-Gutkowski",
-      "ToolTip": "Corrupti fugit itaque porro adipisci quis odio.",
+      "Id": 35,
+      "Name": "Reilly Inc and Sons",
+      "ToolTip": "Blanditiis maiores quis et sit tempore.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldLength": 496
         }
       }
     },
     {
-      "Id": 118,
-      "Name": "Bruen-Gutkowski",
-      "ToolTip": "Corrupti fugit itaque porro adipisci quis odio.",
+      "Id": 35,
+      "Name": "Reilly Inc and Sons",
+      "ToolTip": "Blanditiis maiores quis et sit tempore.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldLength": 496
         }
       }
     }
   ],
-  "Language": "voluptas",
-  "Sentiment": 761,
-  "SentimentConfidence": 633,
-  "SuggestedCategoryId": 978,
+  "Language": "consequatur",
+  "Sentiment": 824,
+  "SentimentConfidence": 766,
+  "SuggestedCategoryId": 460,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 102,
-  "IconHint": "ut",
+  "OrigHumanCategoryId": 61,
+  "IconHint": "sed",
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "corporis"
+    "ExtraFields1": "quae",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "harum"
+    "CustomFields1": "esse",
+    "CustomFields2": "laborum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldLength": 329
     }
   }
 }

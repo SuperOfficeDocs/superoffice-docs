@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 
 Gets a selectable MDO list of the headings for this list item
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a selectable MDO list of the headings for this list item
 ```http
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/List/GetHeadingsForListItemFromListName?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, ListItemId, ShowDeleted
+UdListDefinitionName, ListItemId, ShowDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionName | string |  |
 | ListItemId | int32 |  |
 | ShowDeleted | bool |  |
+
 
 ## Response: array
 
@@ -81,12 +89,12 @@ Response body: array
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Spinka-Vandervort",
-  "ListItemId": 793,
+  "UdListDefinitionName": "Shields-Kautzer",
+  "ListItemId": 335,
   "ShowDeleted": false
 }
 ```
@@ -99,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 727,
-    "Name": "Schmidt, Huels and Reinger",
-    "ToolTip": "Enim quos omnis quia dicta earum et.",
+    "Id": 568,
+    "Name": "Waters Inc and Sons",
+    "ToolTip": "Qui et animi est quo unde.",
     "Deleted": false,
-    "Rank": 877,
-    "Type": "velit",
-    "ColorBlock": 593,
-    "IconHint": "ea",
+    "Rank": 297,
+    "Type": "amet",
+    "ColorBlock": 927,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2011-08-21T11:10:27.177453+02:00",
+    "LastChanged": "2010-12-31T02:49:44.6235457+01:00",
     "ChildItems": [
       {
-        "Id": 621,
-        "Name": "Daugherty Inc and Sons",
-        "ToolTip": "Et nemo voluptas sint rerum quo perferendis explicabo.",
+        "Id": 952,
+        "Name": "Feil LLC",
+        "ToolTip": "Minus distinctio voluptatibus consequuntur.",
         "Deleted": true,
-        "Rank": 437,
-        "Type": "eos",
-        "ColorBlock": 971,
-        "IconHint": "illo",
+        "Rank": 851,
+        "Type": "consequatur",
+        "ColorBlock": 242,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2020-10-13T11:10:27.177453+02:00",
+        "LastChanged": "2009-04-23T02:49:44.6235457+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "aut",
+        "StyleHint": "velit",
         "Hidden": true,
-        "FullName": "Prof. Jordon Gregory Lehner",
+        "FullName": "Reid Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 47
+            "FieldType": "System.Int32",
+            "FieldLength": 756
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "quae",
-    "Hidden": true,
-    "FullName": "Hadley Predovic",
+    "ExtraInfo": "eum",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Mustafa Demarco Collins II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 697
       }
     }
   }

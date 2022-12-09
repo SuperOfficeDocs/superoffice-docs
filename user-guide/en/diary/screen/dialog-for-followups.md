@@ -30,7 +30,7 @@ The main section contains the following essential information about the follow-u
 Click the arrow next to this field (![icon][img2]) to display a predefined list of follow-up types to choose from, for example, a meeting or outgoing phone call. You can also search for types by typing into this field. Here you can also use [FastSearcher][12].
 
 > [!NOTE]
-> It is the **Type** field which determines the type of follow-up in question, i.e. an appointment, task or phone call.
+> The **Type** field determines the type of follow-up in question: appointment, task, or phone call.
 
 ## Video meeting
 
@@ -42,18 +42,18 @@ Enter here the name of the company linked to the follow-up (optional). If you ca
 
 ### Contact
 
-Click the arrow next to this field and a list of known contacts in the company is displayed. If no company has been selected, you will see a list of contacts that are not associated with a company. You can search directly from this field.
+Click the arrow next to this field and a list of known contacts in the company is displayed. If no company is selected, you will see a list of contacts that are not associated with a company. You can search directly from this field.
 
 ### Project
 
 Enter the name of the project that the follow-up is linked to. If you cannot remember the whole name, you can search directly from this field.
 
 > [!NOTE]
-> In the **Project** field, you can specify any of the projects which are saved in SuperOffice CRM, regardless of which company the follow-up is linked to.
+> In the **Project** field, you can specify any project in SuperOffice CRM, regardless of which company the follow-up is linked to.
 
 ### Sale
 
-Here you enter the name of the sale, if any, that the follow-up is linked to. If you cannot remember the whole name, you can search directly from this field.
+Enter the name of the sale (if any) that the follow-up is linked to. If you cannot remember the whole name, you can search directly from this field.
 
 ### Time zone selector
 
@@ -75,7 +75,9 @@ If you check **All day**, the time of the appointment is set to the period speci
 
 ### Location
 
-Here you choose the address where the follow-up will take place. By default, this field is empty, but if you click the arrow ![icon][img2] next to the field, two entries are displayed in a list box. One is the user's company and the other is the company that is to be followed up. If you have specified a resource of type **Location** as a participant in the **Participants** tab, e.g. a meeting room, the resource is also displayed in this list box.
+Here you choose the address where the follow-up will take place. By default, this field is empty, but if you click the arrow ![icon][img2] next to the field, two entries are displayed in a list box. One is the user's company and the other is the company to follow up.
+
+If you specified a resource of type **Location** (for example a meeting room) as a participant in the **Participants** tab, the resource is also displayed in this list box.
 
 > [!TIP]
 > You can also simply enter an address for the location.
@@ -88,7 +90,7 @@ Check here when the [follow-up is completed][11].
 
 ![icon][img1]
 
-Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as e-mail, Assign to and Cancel meeting. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
+Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as email, Assign to and Cancel meeting. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
 
 ### Registered/Last modified
 
@@ -107,7 +109,7 @@ The **Details** tab contains detailed information about the follow-up.
 
 ### Recurrence
 
-In this field, you indicate whether the follow-up is a repeating one. Click the word **Never** to the right of the **Recurrence** field if you want the [appointment to be repeated][4] at regular intervals. If a follow-up has been specified as repeating, an icon ![icon][img1] at the upper left of the main part of the dialog.
+In this field, you indicate if the follow-up repeats. Click the word **Never** to the right of the **Recurrence** field if you want the [appointment to be repeated][4] at regular intervals. If a follow-up is repeating, an icon ![icon][img1] at the upper left of the main part of the dialog.
 
 ### Priority
 
@@ -115,25 +117,25 @@ Specify here the priority of the follow-up. Click the arrow to display a list wi
 
 ### Alarm
 
-For notification of the follow-up, check **Alarm**. If an [alarm has been specified][5] for a follow-up, an icon ![icon][img2] is displayed at the upper left of the main part of the dialog.
+For notification of the follow-up, check **Alarm**. If an [alarm is specified][5] for a follow-up, an icon ![icon][img2] is displayed at the upper left of the main part of the dialog.
 
 ### Owner
 
 Here you specify who owns the follow-up. The default is the user currently logged in. If you click the name next to the **Owner** field, you can transfer the appointment to another SuperOffice user. The **Assign to** dialog opens. Under the **Assign this follow-up to** field is a list box where you can select the required user group. Select the required user and click **OK** to save the changes and close the dialog.
 
 > [!NOTE]
-> If a user is already occupied at the time in question, the word **CONFLICT** is displayed in the **Status** field. If you want to hide users with conflicts, check **Hide conflict** at the bottom of the dialog.
+> If a user is already occupied at the time in question, the word **CONFLICT** is displayed in the **Status** field. To hide users with conflicts, check **Hide conflict** at the bottom of the dialog.
 
 ### Show as
 
-Check **Free** or **Busy** in the **Show as** field to specify whether you are available to others while the appointment is taking place. If you select **Free**, you can have other follow-ups simultaneously, for example if you have reserved the majority of the day to work on a project but you still have time for short meetings.
+Check **Free** or **Busy** in the **Show as** field to specify if you are available to others while the appointment is taking place. If you select **Free**, you can have other follow-ups simultaneously, for example if you reserved the majority of the day to work on a project but you still have time for short meetings.
 
 ### Visible for
 
-Click the **Visible for** field to display a list that allows you to choose whether the follow-up will be visible to all users, visible only to the user defined as owner, or visible to all users in one of the user groups that the owner belongs to.
+Click the **Visible for** field to display a list that allows you to choose if the follow-up should be visible to all users, visible only to the user defined as owner, or visible to all users in one of the user groups that the owner belongs to.
 
 > [!NOTE]
-> If you specify that an entry will only be visible to the owner, it will appear in italics on the **Activities** section tab.
+> If you set visibility to owner only, the entry will appear in italics on the **Activities** section tab.
 
 This option is only available if **Confidential activities** is enabled for the current user in SuperOffice Settings and maintenance.
 
@@ -143,7 +145,7 @@ Check here if you want the follow-up to be visible to external users.
 
 ## The Participants tab
 
-This tab contains a [list of participants][6] in the follow-up. If any participants are registered, this is indicated with a dot on the actual **Participants** tab.
+This tab contains a [list of participants][6] in the follow-up. Registered participants are marked with a dot.
 
 If you click the **View as group** button ![icon][img7] at the bottom right of the **Participants** tab, the **View** tab in the diary opens, giving you an overview of the [diaries of the invited associates][7] (SuperOffice users).
 

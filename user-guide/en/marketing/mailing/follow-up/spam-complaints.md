@@ -20,16 +20,16 @@ The **Spam complaints** tab displays any recipients that have reported an email 
 
 People click the spam (or junk) buttons for various reasons. They may for some reason be confused about who you are, or why you are e-mailing them. In some cases people report spam because they cannot find the unsubscribe link.
 
-If a recipient is using Mailgun, any email reported as spam will be added to the "suppressed" list. This means that our users will no longer be able to send e-mails to that person. This means no mailing and no response to ongoing requests, which may lead to serious issues.
+If a recipient is using Mailgun, any email reported as spam is added to the "suppressed" list. This means that our users can no longer send emails to that person. This means no mailing and no response to ongoing requests, which may lead to serious issues.
 
-To avoid spam complaints, try to look into the following:
+### Checklist to avoid spam complaints
 
 * Is there a specific mailing or mailing type that our subscribers are reacting to?
 * Who reported the mailing as spam?
 * Does your mailing not look like the newsletter they subscribe to?
 * Can the mailing content be misinterpreted?
 * Is it not obvious that the mailing is from you?
-* Did you send the mailing to a large list of unknown e-mail addresses (not registered in SuperOffice)?
+* Did you send the mailing to a large list of unknown email addresses (not registered in SuperOffice)?
 
 ## Export
 

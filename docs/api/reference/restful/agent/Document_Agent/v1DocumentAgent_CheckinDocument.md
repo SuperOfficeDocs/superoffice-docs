@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/CheckinDocument
 
 Check in a currently checked-out document
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check in a currently checked-out document
 ```http
 POST /api/v1/Agents/Document/CheckinDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Document/CheckinDocument?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, AllowedReturnTypes, VersionDescription, VersionExtraFields
+DocumentId, AllowedReturnTypes, VersionDescription, VersionExtraFields 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ DocumentId, AllowedReturnTypes, VersionDescription, VersionExtraFields
 | VersionDescription | string |  |
 | VersionExtraFields | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,19 +79,19 @@ Response body:
 POST /api/v1/Agents/Document/CheckinDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 192,
+  "DocumentId": 357,
   "AllowedReturnTypes": [
-    "inventore",
-    "voluptatibus"
+    "officia",
+    "amet"
   ],
-  "VersionDescription": "Progressive client-server budgetary management",
+  "VersionDescription": "Triple-buffered logistical open architecture",
   "VersionExtraFields": [
-    "aperiam",
-    "deleniti"
+    "rem",
+    "porro"
   ]
 }
 ```
@@ -95,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "voluptas",
-  "VersionId": "rerum",
+  "ExternalReference": "est",
+  "VersionId": "occaecati",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "porro",
-  "AdditionalInfo": "eius"
+  "Value": "sit",
+  "AdditionalInfo": "et"
 }
 ```

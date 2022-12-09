@@ -11,6 +11,12 @@ GET /api/v1/List/PaymentTerm/Items
 
 Gets all the PaymentTerm items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all the PaymentTerm items
 ```http
 GET /api/v1/List/PaymentTerm/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ GET /api/v1/List/PaymentTerm/Items?includeDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -61,7 +69,7 @@ Response body: array
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 92,
-    "Name": "Langosh-Nitzsche",
-    "Tooltip": "officiis",
+    "Id": 157,
+    "Name": "Pollich LLC",
+    "Tooltip": "beatae",
     "Deleted": false,
-    "UdListDefinitionId": 143,
-    "Rank": 971,
+    "UdListDefinitionId": 249,
+    "Rank": 464,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldLength": 521
       }
     }
   }

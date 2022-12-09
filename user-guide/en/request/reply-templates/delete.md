@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Delete reply templates
-
-To delete a reply template from SuperOffice Service, do as follows:
+# Delete reply template
 
 1. Select **Knowledge Base** > **Reply templates**.
 2. Go to the folder where the reply template is located.

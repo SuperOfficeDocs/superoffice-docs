@@ -17,11 +17,11 @@ You can add or edit search criteria in, for example, the **Find** dialog, the **
 
 ## Add search criteria
 
-In the list box, select the field you want to search for information in. The fields displayed depend on what the criteria list is to be used for. There are different types of fields (click to expand):
+In the list box, select the field you want to search for information in. The fields displayed depend on what the criteria list is used for. There are different types of fields (click to expand):
 
 * <details><summary>Text field</summary>
 
-    If the field you are searching in is a text field, e.g. a name field, the search is made on text or numbers you enter. The list that is displayed may contain the following options:
+    If the field you are searching in is a text field, for example, a name field, the search is made on text or numbers you enter. The list that is displayed may contain the following options:
 
     [!include[Search criteria](../../includes/list-search-criteria.md)]
 
@@ -57,7 +57,7 @@ In the list box, select the field you want to search for information in. The fie
 
 * <details><summary>List field</summary>
 
-    If the field you are searching in is a field containing lists, a dialog appears with several fields that vary depending on the type of values involved. But all of them have a list box, where you will find, for example, the following options:
+    If the field you are searching in is a field containing lists, a dialog appears with several fields that vary depending on the type of values involved. But all have a list box, where you will find, for example, the following options:
 
   * Is one of
   * Is not one of
@@ -92,7 +92,7 @@ In the list box, select the field you want to search for information in. The fie
     > [!NOTE]
     > This option does not apply to status monitors.
 
-    If the field you are searching in is a status field, you just need to select the required status.
+    If the field you are searching in is a status field, select the required status.
 
     A status field may be displayed with two different icons:
 
@@ -100,7 +100,7 @@ In the list box, select the field you want to search for information in. The fie
 
     ![icon][img6] (not updated) – the status is not updated, but can still be used in the search. A search on statuses that are not updated will however return data that are not updated. The status should be regenerated in Settings and maintenance before it is used in a search.
 
-  * Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
+  * Status fields are relevant only if you have purchased a licence for and have enabled status monitors.
 
 </details>
 
@@ -114,7 +114,7 @@ In the list box, select the field you want to search for information in. The fie
 
     </details>
 
-    Each counter field may be shown with two different icons, depending on whether or not the counter values are updated.
+    Each counter field may be shown with two different icons, depending on if the counter values are updated.
 
     | Entity | Updated | Not updated* |
     | Company | ![icon][img7] | ![icon][img10] |
@@ -122,24 +122,24 @@ In the list box, select the field you want to search for information in. The fie
 
     \*the counter values are not updated, but can still be used in the search. A search on counter values that are not updated will however return data that are not updated. The counter values should be regenerated in Settings and maintenance before they are used in a search.
 
-  * Counter values are only relevant if you have purchased a licence for and have enabled status monitors.
+  * Counter values are relevant only if you have purchased a licence for and have enabled status monitors.
 
-    Under **Field** you will find one or more of these options, depending on whether you choose a counter field for sales or activities:
+    Under **Field** you will find one or more of these options, depending on if you choose a counter field for sales or activities:
 
     **SAINT type**: Here you choose the activity type you want to search for.
     **With status**: Here you choose the status of the sale you want to search for.
-    **Direction**: Here you can choose whether the activity is incoming or outgoing.
+    **Direction**: Here you can choose if the activity is incoming or outgoing.
     **Amount class**: Here you choose the sale's amount class. See [Sale - Amount class][1].
     **Intention**: Here you choose the intention of the activity.
 
-    Depending on what you have selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
+    Depending on what you have selected above, a list box for a date field or a number field is displayed. Select the required option and enter the required numerical value or date in the text field.
 
-**Change search criteria:**
+## Change search criteria
 
-If you want to change a search criterion in the **Find** dialog, click it and select a different one from the list that appears, as described above.
+To change a search criterion in the **Find** dialog, click it and select a different one from the list that appears.
 
 <!-- Referenced links -->
-[1]: ../../sale/admin/add-amount-class.md
+[1]: ../lists/sale-amount-class.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-right.png

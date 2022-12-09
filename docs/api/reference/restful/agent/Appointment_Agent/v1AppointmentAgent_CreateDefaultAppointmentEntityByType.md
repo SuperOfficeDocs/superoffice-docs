@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 
 Creates a AppointmentEntity populated with the default values for the specific type.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a AppointmentEntity populated with the default values for the specific t
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type
+Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -138,63 +146,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-11-20T11:10:25.5745255+01:00",
-  "AppointmentId": 435,
-  "Description": "Intuitive real-time ability",
-  "StartDate": "2002-02-20T11:10:25.5745255+01:00",
-  "EndDate": "2022-02-16T11:10:25.5745255+01:00",
+  "CreatedDate": "2017-12-12T02:49:43.3410292+01:00",
+  "AppointmentId": 640,
+  "Description": "Public-key user-facing software",
+  "StartDate": "2007-03-03T02:49:43.3410292+01:00",
+  "EndDate": "2021-12-25T02:49:43.3410292+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 906,
+  "MotherId": 818,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-06-15T11:10:25.5775254+02:00",
+  "UpdatedDate": "2006-01-31T02:49:43.3566548+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 672,
+  "ActiveLinks": 347,
   "Links": [
     {
-      "EntityName": "Legros, Schmitt and O'Hara",
-      "Id": 745,
-      "Description": "Cross-group secondary workforce",
-      "ExtraInfo": "inventore",
-      "LinkId": 995,
+      "EntityName": "Hettinger-Nienow",
+      "Id": 761,
+      "Description": "Vision-oriented context-sensitive process improvement",
+      "ExtraInfo": "asperiores",
+      "LinkId": 469,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 9
+          "FieldLength": 634
         }
       }
     }
   ],
-  "AlarmLeadTime": "quisquam",
-  "HasAlarm": false,
-  "ColorIndex": 565,
-  "IsFree": true,
+  "AlarmLeadTime": "id",
+  "HasAlarm": true,
+  "ColorIndex": 845,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "consequatur",
-  "LeadTime": "rerum",
-  "Location": "qui",
-  "RejectCounter": 343,
+  "LagTime": "non",
+  "LeadTime": "et",
+  "Location": "ut",
+  "RejectCounter": 150,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 617,
-      "PersonId": 971,
-      "ContactId": 998,
-      "EmailId": 465,
+      "AssociateId": 799,
+      "PersonId": 981,
+      "ContactId": 395,
+      "EmailId": 394,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 617,
-      "PersonId": 971,
-      "ContactId": 998,
-      "EmailId": 465,
+      "AssociateId": 799,
+      "PersonId": 981,
+      "ContactId": 395,
+      "EmailId": 394,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -202,58 +210,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-09-30T11:10:25.5775254+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2020-10-19T02:49:43.3566548+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 135,
+  "PreferredTZLocation": 772,
   "Sale": null,
-  "SuggestedAppointmentId": 960,
+  "SuggestedAppointmentId": 730,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptas",
+  "CentralserviceVideomeetId": "aut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Karina Streich PhD",
+    "SuperOffice:1": "2039461207",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "esse"
+    "ExtraFields1": "ab",
+    "ExtraFields2": "accusamus"
   },
   "CustomFields": {
-    "CustomFields1": "aliquam",
-    "CustomFields2": "totam"
+    "CustomFields1": "ut",
+    "CustomFields2": "assumenda"
   },
-  "PublishEventDate": "2001-01-15T11:10:25.5795251+01:00",
-  "PublishTo": "2020-06-05T11:10:25.5795251+02:00",
-  "PublishFrom": "2007-04-17T11:10:25.5795251+02:00",
+  "PublishEventDate": "2000-11-22T02:49:43.3566548+01:00",
+  "PublishTo": "2007-10-15T02:49:43.3566548+02:00",
+  "PublishFrom": "2006-11-08T02:49:43.3566548+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 686,
+      "VisibleId": 682,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldLength": 753
         }
       }
     },
     {
-      "VisibleId": 686,
+      "VisibleId": 682,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldLength": 753
         }
       }
     }
@@ -263,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldLength": 640
     }
   }
 }

@@ -3,6 +3,8 @@ items:
   href: index.md
 - name: Reports screen
   href: screen/index.md
+- name: Standard reports
+  href: standard-reports.md
 - name: Working with reports
   href: working-with-reports.md
   items:
@@ -26,17 +28,6 @@ items:
     href: filter.md
   - name: Deleting reports from the report archive
     href: delete-from-archive.md
-- name: Standard reports
-  href: standard-reports.md
-- name: Favourite reports
-  href: favorites/index.md
-  items:
-  - name: Adding a report to favorites
-    href: favorites/add.md
-  - name: Editing favourite reports
-    href: favorites/edit.md
-  - name: Deleting favourite reports
-    href: favorites/delete.md
 - name: Search criteria
   href: search-criteria/index.md
   items:
@@ -44,6 +35,17 @@ items:
     href: search-criteria/add.md
   - name: Edit search criteria in reports
     href: search-criteria/edit.md
+- name: Standard reports
+  href: standard-reports.md
+- name: Favorite reports
+  href: favorites/index.md
+  items:
+  - name: Adding a report to favorites
+    href: favorites/add.md
+  - name: Editing favorite reports
+    href: favorites/edit.md
+  - name: Deleting favorite reports
+    href: favorites/delete.md
 - name: Labels
   href: labels/index.md
   items:

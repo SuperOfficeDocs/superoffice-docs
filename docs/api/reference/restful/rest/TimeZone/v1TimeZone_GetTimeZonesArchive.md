@@ -11,7 +11,13 @@ GET /api/v1/TimeZone
 
 List of timezones
 
+
 Use with SO-TIMEZONE header to specify times.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -32,14 +38,15 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=cum
-GET /api/v1/TimeZone?$top=442
-GET /api/v1/TimeZone?$skip=695
+GET /api/v1/TimeZone?$entities=repellat
+GET /api/v1/TimeZone?$top=994
+GET /api/v1/TimeZone?$skip=789
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=quam
+GET /api/v1/TimeZone?$context=voluptas
 GET /api/v1/TimeZone?$format=JSON
 ```
+
 
 ## Request Headers
 
@@ -54,7 +61,8 @@ GET /api/v1/TimeZone?$format=JSON
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -62,7 +70,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +84,7 @@ Response body:
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "adipisci",
+  "odata.nextLink": "autem",
   "value": [
     {
-      "PrimaryKey": 8753,
+      "PrimaryKey": 9790,
       "EntityName": "person",
-      "personId": 8753,
-      "fullName": "Adan Rolfson DDS"
+      "personId": 9790,
+      "fullName": "Werner Senger"
     },
     {
-      "PrimaryKey": 331,
+      "PrimaryKey": 1704,
       "EntityName": "person",
-      "personId": 331,
-      "fullName": "Tyrel Nitzsche"
+      "personId": 1704,
+      "fullName": "Taurean Lindsey Kirlin Sr."
     }
   ]
 }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 
 Get caller ids from a selection.
 
+
 Queries the shadow selection of persons and companies, so selections of any kind can be used
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Queries the shadow selection of persons and companies, so selections of any kind
 ```http
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, LastHash
+SelectionId, LastHash 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | LastHash | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,12 +75,12 @@ Response body:
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 820,
-  "LastHash": "neque"
+  "SelectionId": 939,
+  "LastHash": "distinctio"
 }
 ```
 
@@ -83,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "natus",
+  "CallerIDHash": "nihil",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 967,
-      "PersonId": 457,
-      "PersonName": "Wilkinson, Hammes and Heathcote",
-      "Mrmrs": "nulla",
-      "ContactId": 131,
-      "ContactName": "Kshlerin-Hamill"
+      "DialInPrefix": 907,
+      "PersonId": 871,
+      "PersonName": "Klein-O'Reilly",
+      "Mrmrs": "animi",
+      "ContactId": 698,
+      "ContactName": "White Group"
     }
   ]
 }

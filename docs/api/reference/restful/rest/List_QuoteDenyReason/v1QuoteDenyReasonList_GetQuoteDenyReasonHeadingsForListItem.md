@@ -11,11 +11,17 @@ GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 
 Gets headings for the QuoteDenyReason list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Schmidt, Schultz and Wolf",
-    "ToolTip": "Unde qui esse dolorem.",
+    "Id": 811,
+    "Name": "Johns Inc and Sons",
+    "ToolTip": "Recusandae harum quas eveniet assumenda debitis eos.",
     "Deleted": true,
-    "Rank": 509,
-    "Type": "ut",
-    "ColorBlock": 503,
-    "IconHint": "voluptates",
-    "Selected": true,
-    "LastChanged": "2013-06-28T11:10:54.5229335+02:00",
+    "Rank": 352,
+    "Type": "voluptas",
+    "ColorBlock": 867,
+    "IconHint": "soluta",
+    "Selected": false,
+    "LastChanged": "2002-10-16T02:49:52.4378265+02:00",
     "ChildItems": [
       {
-        "Id": 478,
-        "Name": "Waelchi, Paucek and Schimmel",
-        "ToolTip": "Quibusdam consequatur quasi voluptatem.",
+        "Id": 983,
+        "Name": "Gorczany Inc and Sons",
+        "ToolTip": "Accusantium sint consectetur libero eum.",
         "Deleted": false,
-        "Rank": 925,
-        "Type": "iste",
-        "ColorBlock": 639,
-        "IconHint": "molestias",
+        "Rank": 60,
+        "Type": "eos",
+        "ColorBlock": 170,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "1999-04-08T11:10:54.5239311+02:00",
+        "LastChanged": "2005-10-31T02:49:52.4378265+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "ut",
-        "StyleHint": "quam",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Maia Torphy",
+        "FullName": "Sallie Luettgen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 771
+            "FieldType": "System.Int32",
+            "FieldLength": 218
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "unde",
-    "Hidden": true,
-    "FullName": "Shyann Rau",
+    "ExtraInfo": "et",
+    "StyleHint": "voluptates",
+    "Hidden": false,
+    "FullName": "Prof. Electa Mariano Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 121
       }
     }
   }

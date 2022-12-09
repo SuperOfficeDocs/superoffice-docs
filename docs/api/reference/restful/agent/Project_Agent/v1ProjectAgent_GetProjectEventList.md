@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectEventList
 
 Gets an array of ProjectEvent objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of ProjectEvent objects.
 ```http
 POST /api/v1/Agents/Project/GetProjectEventList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/Project/GetProjectEventList?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: projectEventIds
+## Request Body: projectEventIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -82,7 +91,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectEventList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,34 +102,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Mr. Kaitlyn Hammes PhD",
-    "Description": "Grass-roots reciprocal support",
-    "ProjectId": 73,
-    "EventName": "Kohler, Heidenreich and Moen",
-    "AssociateId": 925,
-    "IsSignedOn": true,
-    "SignOffConfirmationText": "eos",
-    "SignOffText": "quo",
-    "SignOnConfirmationText": "omnis",
-    "SignOnText": "molestiae",
-    "EventDate": "2007-01-16T11:10:27.6154549+01:00",
+    "AssociateFullName": "Mrs. Keegan Swaniawski Jr.",
+    "Description": "User-friendly secondary orchestration",
+    "ProjectId": 228,
+    "EventName": "Kreiger-O'Conner",
+    "AssociateId": 557,
+    "IsSignedOn": false,
+    "SignOffConfirmationText": "illum",
+    "SignOffText": "quibusdam",
+    "SignOnConfirmationText": "quia",
+    "SignOnText": "dolorem",
+    "EventDate": "2020-10-30T02:49:44.9684639+01:00",
     "Enabled": false,
-    "SignOff": true,
-    "SignOffTaskEnable": true,
-    "SignOnTaskEnable": false,
+    "SignOff": false,
+    "SignOffTaskEnable": false,
+    "SignOnTaskEnable": true,
     "SignOn": false,
-    "SignOffTaskId": 897,
-    "SignOnTaskId": 214,
+    "SignOffTaskId": 850,
+    "SignOnTaskId": 601,
     "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": true,
-    "SignOnPersonId": 528,
-    "SignOffPersonId": 430,
+    "SignOnPersonId": 714,
+    "SignOffPersonId": 573,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldLength": 143
       }
     }
   }

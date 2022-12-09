@@ -17,18 +17,18 @@ In the **Content** step you can edit the appearance and content of the message.
 
 * You can [insert text and images][1] (and other content) in the columns and rows of the message.
 
-* You can define format/layout (such as font type and size, colours and margins) at global level (the whole message) or by individual sections.
+* You can define format/layout (such as font type and size, colors and margins) at global level (the whole message) or by individual sections.
 
 * You can easily drag and drop content from the side-panel (menus, buttons, SoMe links, html content, and header and footer blocks).
 
 SuperOffice Marketing is supplied with many [ready-made message templates][2]), and you can easily move content around to get the appearance you want. Save frequently used content as blocks to save time.
 
 > [!TIP]
-> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Mobile** (![icon][img4]) in the menu in the lower left corner. See also [Customise the message for display on mobile devices][3].
+> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Mobile** (![icon][img4]) in the menu in the lower left corner. See also [Customize the message for display on mobile devices][3].
 
 ## Edit columns and blocks/sections
 
-When you click a section (column, content box, row etc.), buttons with editing options appears. The side-panel displays editing options for the selected section.
+When you click a section (such as column, content box, row), buttons with editing options appears. The side-panel displays editing options for the selected section.
 
 A blue frame is shown around the selected element, so that you always know which part of the message you are editing.
 
@@ -52,12 +52,12 @@ You can select a section and use the buttons to move ( ![icon][img6] ), duplicat
 
 ## Edit format and layout
 
-The appearance and properties of the message (such as font type and size, colours and margins) can be defined at global level (the whole message) or by section (as described above).
+The appearance and properties of the message (such as font type and size, colors and margins) can be defined at global level (the whole message) or by section (as described above).
 
 To edit the message at a global level, select **Body** (![icon][img12])in the side-panel.
 
 > [!TIP]
-> Use standard fonts for the best legibility with any e-mail client or web browser.
+> Use standard fonts for the best legibility with any email client or web browser.
 
 ## Menu overview
 
@@ -91,7 +91,7 @@ When you click a section in a message, you get access to various functions for t
 | ![icon][img6] | Move | Click and drag to move the section. |
 | ![icon][img7] | Delete | Click here to delete the section. |
 | ![icon][img8] | Duplicate | Click here to create a copy of the section. |
-| ![icon][img9] | Save block | Click here to save the selected section as a block. This is a smart way to reuse content (like headers and footers) across messages. |
+| ![icon][img9] | Save block | Click here to save the selected section as a block. Lets you reuse content (like headers and footers) across messages. |
 
 ## What would you like to do now?
 

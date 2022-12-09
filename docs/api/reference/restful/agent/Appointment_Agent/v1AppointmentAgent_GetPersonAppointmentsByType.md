@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
 
 Method that returns a specified number of appointments of a specific appointment type within a time range.
 
+
 The appointments belong to the person specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the person specified.
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, AppointmentType
+PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, AppointmentType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,6 +56,7 @@ PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, AppointmentType
 | EndTime | date-time |  |
 | Count | int32 |  |
 | AppointmentType | string |  |
+
 
 ## Response: array
 
@@ -120,15 +128,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 980,
+  "PersonId": 600,
   "IncludeProjectAppointments": false,
-  "StartTime": "2010-12-11T11:10:25.9425525+01:00",
-  "EndTime": "2013-07-21T11:10:25.9425525+02:00",
-  "Count": 1001,
+  "StartTime": "2022-07-11T02:49:43.5129081+02:00",
+  "EndTime": "2015-01-10T02:49:43.5129081+01:00",
+  "Count": 362,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -141,53 +149,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 524,
-    "StartDate": "2016-03-07T11:10:25.9435523+01:00",
-    "EndDate": "2013-04-25T11:10:25.9435523+02:00",
+    "AppointmentId": 195,
+    "StartDate": "2003-01-14T02:49:43.5129081+01:00",
+    "EndDate": "2005-01-23T02:49:43.5129081+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aliquam",
-    "AssociateFullName": "Dannie Grimes",
-    "ContactName": "Rau, Wuckert and Sawayn",
-    "Description": "Decentralized human-resource emulation",
-    "PersonFullName": "Miss Bruce Pedro Ritchie",
-    "PersonId": 342,
-    "ContactId": 571,
-    "ProjectId": 850,
-    "ProjectName": "Ullrich Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 923,
-    "ColorIndex": 154,
-    "IsFree": false,
+    "Task": "architecto",
+    "AssociateFullName": "Miss Felicita Elyse Bernhard Sr.",
+    "ContactName": "Turcotte-Torp",
+    "Description": "Distributed composite moderator",
+    "PersonFullName": "Miss Mustafa Herbert Ratke",
+    "PersonId": 105,
+    "ContactId": 596,
+    "ProjectId": 741,
+    "ProjectName": "Willms-Glover",
+    "IsPublished": true,
+    "AssociateId": 805,
+    "ColorIndex": 445,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 494,
-    "PriorityName": "Brekke LLC",
+    "PriorityId": 685,
+    "PriorityName": "Carter, Macejkovic and Hodkiewicz",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2022-03-26T11:10:25.9445527+01:00",
+    "ActiveDate": "1996-10-14T02:49:43.5129081+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-08-12T11:10:25.9445527+02:00",
-    "RecurringEndDate": "2015-01-01T11:10:25.9445527+01:00",
-    "MotherId": 852,
-    "AssignedBy": 842,
-    "AssignedByFullName": "Vena Osinski",
+    "RecurringStartDate": "2007-01-11T02:49:43.5129081+01:00",
+    "RecurringEndDate": "1997-08-15T02:49:43.5129081+02:00",
+    "MotherId": 493,
+    "AssignedBy": 76,
+    "AssignedByFullName": "Casper Bernier",
     "RejectReason": "",
-    "Location": "in",
-    "AlarmLeadTime": "reiciendis",
-    "SaleId": 759,
-    "SaleName": "Jenkins-Ryan",
-    "AssociateName": "Jacobson Group",
-    "CreatedDate": "2012-12-14T11:10:25.9445527+01:00",
-    "CreatedBy": "eligendi",
-    "CreatedByFullName": "Brigitte Moen",
-    "CreatedByAssociateId": 246,
+    "Location": "non",
+    "AlarmLeadTime": "quisquam",
+    "SaleId": 291,
+    "SaleName": "Gleichner, Reichert and Gorczany",
+    "AssociateName": "Koelpin Group",
+    "CreatedDate": "2011-01-24T02:49:43.5129081+01:00",
+    "CreatedBy": "non",
+    "CreatedByFullName": "Shane Osinski",
+    "CreatedByAssociateId": 958,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -195,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldLength": 329
       }
     }
   }

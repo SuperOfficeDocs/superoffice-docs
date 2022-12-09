@@ -11,7 +11,14 @@ POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 
 Set default values into a new AudienceLayoutEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +62,7 @@ Response body:
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -64,11 +72,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 858,
-  "InstanceLayout": "quo",
-  "InstanceName": "O'Keefe Inc and Sons",
-  "CreatedDate": "2020-07-14T11:10:25.9995481+02:00",
-  "UpdatedDate": "1996-06-07T11:10:25.9995481+02:00",
+  "AudienceLayoutId": 909,
+  "InstanceLayout": "ut",
+  "InstanceName": "Reilly-Ondricka",
+  "CreatedDate": "2005-12-13T02:49:43.6847821+01:00",
+  "UpdatedDate": "2003-08-07T02:49:43.6847821+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -76,7 +84,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 772
     }
   }
 }

@@ -11,7 +11,14 @@ POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 
 Set default values into a new TemplateVariablesParameters.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +60,7 @@ Response body:
 | QuoteAlternativeId | int32 | Quote alternative id |
 | ProductKey | string | Product key |
 | CustomTags | array | Array with custom tags and values. Array may be of unlimited height, but need to be exactly 2 in width. |
+| TicketId | int32 | Identifier for ticket |
 | DocumentEntity |  | Custom document entity to use for data retrieval. Useful for unsaved data.  DocumentEntity.DocumentId need to match the DocumentId specified in separate property. |
 | TableRight |  |  |
 | FieldProperties | object |  |
@@ -62,7 +71,7 @@ Response body:
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "veritatis",
+  "SourceInput": "asperiores",
   "Encoding": "Html",
   "CultureName": "sv",
-  "ContactId": 454,
-  "PersonId": 774,
-  "ProjectId": 93,
-  "SelectionId": 671,
-  "AppointmentId": 901,
-  "DocumentId": 402,
-  "SaleId": 286,
-  "QuoteLineId": 118,
-  "QuoteAlternativeId": 534,
-  "ProductKey": "occaecati",
+  "ContactId": 160,
+  "PersonId": 544,
+  "ProjectId": 556,
+  "SelectionId": 663,
+  "AppointmentId": 506,
+  "DocumentId": 283,
+  "SaleId": 632,
+  "QuoteLineId": 383,
+  "QuoteAlternativeId": 363,
+  "ProductKey": "aperiam",
   "CustomTags": [
     [
       {}
@@ -93,13 +102,14 @@ Content-Type: application/json; charset=utf-8
       {}
     ]
   ],
+  "TicketId": 591,
   "DocumentEntity": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 632
     }
   }
 }

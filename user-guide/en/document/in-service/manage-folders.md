@@ -31,11 +31,11 @@ When you delete a folder, all the documents in it are also deleted from SuperOff
 2. Go to the required folder.
 3. Click **Edit folder**. This takes you to the **Document folder properties** screen.
 4. Click **Delete**.
-5. Click **OK** when you are asked if you want to delete the folder. The folder and its contents are removed from SuperOffice Service.
+5. Click **OK** to confirm. The folder and its contents are removed from SuperOffice Service.
 
 ## What would you like to do now?
 
-[Create documents][1]
+* [Create documents][1]
 
 <!-- Referenced links -->
 [1]: create.md

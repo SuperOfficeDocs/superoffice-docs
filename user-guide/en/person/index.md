@@ -21,7 +21,7 @@ The bottom of the **Contact** screen contains five default section tabs:
 * **Projects**
 * **Relations**
 
-Everything you need to find out about a contact is available from a single screen.
+Everything you want to find out about a contact is available from a single screen.
 
 ## What would you like to do?
 

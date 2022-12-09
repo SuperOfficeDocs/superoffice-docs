@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 
 Creates a new selection based on selection members from an existing selection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a new selection based on selection members from an existing selection.
 ```http
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Selection/CreateSelectionFromSelection?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Name, TargetSelectionType, CopyMembers
+SelectionId, Name, TargetSelectionType, CopyMembers 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ SelectionId, Name, TargetSelectionType, CopyMembers
 | TargetSelectionType | string |  |
 | CopyMembers | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -108,12 +116,12 @@ Response body:
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 605,
-  "Name": "Leuschke-Barton",
+  "SelectionId": 608,
+  "Name": "Morissette LLC",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -126,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Sharable system-worthy task-force",
-  "Postit": "fugiat",
+  "Description": "Universal solution-oriented matrix",
+  "Postit": "ab",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 447,
-  "IncludePerson": 471,
-  "MemberCount": 387,
-  "Name": "Rice, Dietrich and Mitchell",
-  "PostitTextId": 488,
-  "CreatedDate": "2018-03-07T11:10:27.9440022+01:00",
-  "SelectionId": 975,
-  "SoundEx": "odit",
-  "Source": 6,
-  "TextId": 420,
-  "UpdatedDate": "1998-06-08T11:10:27.9440022+02:00",
-  "UpdatedCount": 566,
-  "Visibility": 381,
+  "GroupIdx": 176,
+  "IncludePerson": 770,
+  "MemberCount": 635,
+  "Name": "Bauch Inc and Sons",
+  "PostitTextId": 550,
+  "CreatedDate": "2003-05-13T02:49:45.4059627+02:00",
+  "SelectionId": 928,
+  "SoundEx": "mollitia",
+  "Source": 248,
+  "TextId": 691,
+  "UpdatedDate": "2008-11-30T02:49:45.4059627+01:00",
+  "UpdatedCount": 357,
+  "Visibility": 523,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 704,
-  "TargetTableName": "Volkman LLC",
+  "CompanyUnique": false,
+  "TargetTableNumber": 472,
+  "TargetTableName": "Hand Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 952,
-  "RightSelectionId": 446,
+  "LeftSelectionId": 103,
+  "RightSelectionId": 663,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jakubowski Inc and Sons",
-  "ShadowProviderName": "Hagenes-Roberts",
-  "ChartKey": "nobis",
-  "LastLoaded": "2001-06-08T11:10:27.9440022+02:00",
-  "LastLoadedBy": 767,
+  "MainProviderName": "Gutkowski-McClure",
+  "ShadowProviderName": "Koch, Morar and Buckridge",
+  "ChartKey": "autem",
+  "LastLoaded": "2016-07-10T02:49:45.4059627+02:00",
+  "LastLoadedBy": 189,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-11-18T11:10:27.9440022+01:00",
-  "LastMembershipChangeBy": 386,
+  "LastMembershipChange": "2000-12-21T02:49:45.4059627+01:00",
+  "LastMembershipChangeBy": 249,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsa",
-  "MemberTabHeading": "nam",
-  "MailingsProviderName": "Kuphal LLC",
-  "DashboardTileDefinitionId": 215,
+  "MainHeading": "corporis",
+  "MemberTabHeading": "tempora",
+  "MailingsProviderName": "Stehr Inc and Sons",
+  "DashboardTileDefinitionId": 121,
   "VisibleFor": [
     {
-      "VisibleId": 584,
+      "VisibleId": 630,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 243
+          "FieldLength": 554
         }
       }
     },
     {
-      "VisibleId": 584,
+      "VisibleId": 630,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 243
+          "FieldLength": 554
         }
       }
     }
@@ -198,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldType": "System.String",
+      "FieldLength": 566
     }
   }
 }

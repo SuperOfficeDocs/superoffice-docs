@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetFromListName
 
 Get a list item for the specified list defintion
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list item for the specified list defintion
 ```http
 POST /api/v1/Agents/List/GetFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/List/GetFromListName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id, UdListDefinitionName
+Id, UdListDefinitionName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | UdListDefinitionName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +79,12 @@ Response body:
 POST /api/v1/Agents/List/GetFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "UdListDefinitionName": "Okuneva-Pfeffer"
+  "Id": 884,
+  "UdListDefinitionName": "Gibson, Hammes and Little"
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 673,
-  "Name": "Cole LLC",
-  "Tooltip": "aut",
+  "Id": 508,
+  "Name": "Lubowitz, Hyatt and Osinski",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "UdListDefinitionId": 741,
-  "Rank": 83,
+  "UdListDefinitionId": 443,
+  "Rank": 761,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldLength": 921
     }
   }
 }

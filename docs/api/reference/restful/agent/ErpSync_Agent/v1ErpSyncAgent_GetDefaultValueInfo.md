@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 
 Get information about default value for an ERP field
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get information about default value for an ERP field
 ```http
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/ErpSync/GetDefaultValueInfo?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpFieldId
+ErpFieldId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpFieldId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 267
+  "ErpFieldId": 89
 }
 ```
 
@@ -91,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 38,
-  "DefaultValue": "corrupti",
+  "ErpFieldId": 524,
+  "DefaultValue": "explicabo",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "et",
-  "PromptUser": false,
+  "FirstSyncDefaultValue": "quo",
+  "PromptUser": true,
   "Mandatory": true,
-  "ErpFieldKey": "est",
+  "ErpFieldKey": "eaque",
   "FieldType": "Checkbox",
-  "ListName": "Jewess Group",
+  "ListName": "Stehr LLC",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 681
     }
   }
 }

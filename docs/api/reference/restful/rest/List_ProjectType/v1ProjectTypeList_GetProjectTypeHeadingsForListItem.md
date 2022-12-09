@@ -11,11 +11,17 @@ GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 
 Gets headings for the ProjectType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 958,
-    "Name": "Dibbert-Flatley",
-    "ToolTip": "Non doloremque modi voluptatem eligendi in.",
-    "Deleted": false,
-    "Rank": 830,
-    "Type": "ut",
-    "ColorBlock": 804,
-    "IconHint": "labore",
+    "Id": 266,
+    "Name": "Towne-Stoltenberg",
+    "ToolTip": "Dolorem natus possimus quia.",
+    "Deleted": true,
+    "Rank": 846,
+    "Type": "consectetur",
+    "ColorBlock": 332,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2000-12-14T11:10:54.4909324+01:00",
+    "LastChanged": "2012-03-23T02:49:52.4065764+01:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Koepp, Langosh and Becker",
-        "ToolTip": "Voluptatem atque commodi dolor et.",
+        "Id": 947,
+        "Name": "Jenkins-Ruecker",
+        "ToolTip": "Beatae odio ab nam blanditiis ut.",
         "Deleted": false,
-        "Rank": 117,
-        "Type": "porro",
-        "ColorBlock": 806,
-        "IconHint": "dolorem",
-        "Selected": true,
-        "LastChanged": "2017-03-04T11:10:54.4909324+01:00",
+        "Rank": 353,
+        "Type": "iste",
+        "ColorBlock": 12,
+        "IconHint": "atque",
+        "Selected": false,
+        "LastChanged": "2012-05-16T02:49:52.4065764+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Zion Cassin",
+        "ExtraInfo": "saepe",
+        "StyleHint": "officiis",
+        "Hidden": false,
+        "FullName": "Leone Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 916
+            "FieldLength": 711
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "non",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Dr. Ulises Barney Casper",
+    "FullName": "Tremaine Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldLength": 604
       }
     }
   }

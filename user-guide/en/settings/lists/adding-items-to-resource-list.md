@@ -11,7 +11,7 @@ language: en
 
 # Add items to the General - Resource list
 
-When you add an item to the **General - Resource** list, the **Edit List Item** dialog is not the same as described under [Add items].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the list items are resources:
 
@@ -20,17 +20,13 @@ When you add an item to the **General - Resource** list, the **Edit List Item** 
     > [!NOTE]
     > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
-2. In the **Type** field, you specify whether the resource type:
+2. In the **Type** field, specify the resource type:
 
-    * **Location**: Resources of this type (for example meeting rooms) will be available in the **Location** list in the follow-up dialogsin SuperOffice CRM, in addition to the **Resource** list in the **Invitation** dialog.
-    * **Other**: Resources of this type (for example a projector, loudspeaker, or other equipment) will be available in the **Resource** list in the **Invitation** dialog.
+    * **Location**: Resources of this type (for example meeting rooms) are available in the **Location** list in the follow-up dialogs in SuperOffice CRM, in addition to the **Resource** list in the **Invitation** dialog.
+    * **Other**: Resources of this type (for example a projector, loudspeaker, or other equipment) are available in the **Resource** list in the **Invitation** dialog.
 
 3. If you select **Location** as the resource type, you can enter an address in the **Address** field.
 
 4. Optionally, type in a description of the resource in the **Description** field.
 
 5. [!include[Save or cancel](../../includes/save-or-cancel.md)]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->

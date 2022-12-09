@@ -11,9 +11,16 @@ GET /api/v1/Project/Duplicates/{name}
 
 Get duplicates(exact or similar in the database) based on the name
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | Name used for lookup **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Get duplicates(exact or similar in the database) based on the name
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -54,7 +62,7 @@ Response body: array
 GET /api/v1/Project/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -65,17 +73,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "McLaughlin, Considine and Gerhold",
-    "SoPrimaryKey": 827,
-    "EntryName": "Greenfelder, Hintz and Welch",
-    "EntryIdentifier": "repellendus",
-    "RuleDisplayName": "Jerde, Flatley and Lakin",
+    "RuleName": "Thiel Group",
+    "SoPrimaryKey": 35,
+    "EntryName": "Feeney-Zulauf",
+    "EntryIdentifier": "eius",
+    "RuleDisplayName": "Wisoky-Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 288
+        "FieldType": "System.Int32",
+        "FieldLength": 816
       }
     }
   }

@@ -11,11 +11,18 @@ PUT /api/v1/List/ConsentSource/Items/{itemId}/Headings
 
 Saves headings for the ConsentSource list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Kiehn-Durgan",
-    "ToolTip": "In consequatur.",
+    "Id": 547,
+    "Name": "Stoltenberg-Zulauf",
+    "ToolTip": "Molestiae doloremque.",
     "Deleted": false,
-    "Rank": 382,
-    "Type": "molestiae",
-    "ColorBlock": 987,
-    "IconHint": "molestiae",
+    "Rank": 706,
+    "Type": "similique",
+    "ColorBlock": 252,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "1996-01-08T11:10:54.0041827+01:00",
+    "LastChanged": "2018-03-30T02:49:51.9534435+02:00",
     "ChildItems": [
       {
-        "Id": 877,
-        "Name": "Volkman-Gleason",
-        "ToolTip": "Cum est.",
-        "Deleted": true,
-        "Rank": 478,
-        "Type": "placeat",
-        "ColorBlock": 865,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2018-04-23T11:10:54.0041827+02:00",
+        "Id": 823,
+        "Name": "Metz LLC",
+        "ToolTip": "Sit dicta.",
+        "Deleted": false,
+        "Rank": 415,
+        "Type": "quia",
+        "ColorBlock": 686,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "1996-03-27T02:49:51.9534435+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Karolann Shields"
+        "ExtraInfo": "minus",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Mr. Kellen Curtis Mertz II"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "impedit",
-    "Hidden": false,
-    "FullName": "Mac Kunze"
+    "ExtraInfo": "ipsa",
+    "StyleHint": "illum",
+    "Hidden": true,
+    "FullName": "Precious Grimes"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Tillman, Stroman and Schulist",
-    "ToolTip": "Nostrum quas doloremque omnis aperiam.",
-    "Deleted": false,
-    "Rank": 12,
-    "Type": "quo",
-    "ColorBlock": 888,
-    "IconHint": "assumenda",
-    "Selected": true,
-    "LastChanged": "2019-08-20T11:10:54.0051826+02:00",
+    "Id": 617,
+    "Name": "Stamm Group",
+    "ToolTip": "Vitae aliquam maiores qui et.",
+    "Deleted": true,
+    "Rank": 286,
+    "Type": "est",
+    "ColorBlock": 593,
+    "IconHint": "praesentium",
+    "Selected": false,
+    "LastChanged": "2011-08-01T02:49:51.9534435+02:00",
     "ChildItems": [
       {
-        "Id": 964,
-        "Name": "Gislason, Klocko and Kling",
-        "ToolTip": "Exercitationem distinctio fugiat quo.",
+        "Id": 462,
+        "Name": "Bailey Inc and Sons",
+        "ToolTip": "Culpa rerum optio.",
         "Deleted": true,
-        "Rank": 297,
-        "Type": "doloribus",
-        "ColorBlock": 443,
-        "IconHint": "nobis",
+        "Rank": 201,
+        "Type": "sit",
+        "ColorBlock": 421,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2015-09-02T11:10:54.0051826+02:00",
+        "LastChanged": "2011-11-29T02:49:51.9534435+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "officia",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "rem",
         "Hidden": false,
-        "FullName": "Mr. Lane Legros MD",
+        "FullName": "Lurline Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 716
+            "FieldLength": 2
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Mrs. Destinee Kunde IV",
+    "ExtraInfo": "qui",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Elza Mohr III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldLength": 600
       }
     }
   }

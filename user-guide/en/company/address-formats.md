@@ -13,10 +13,10 @@ language: en
 
 In SuperOffice CRM you can create companies with addresses in many different countries. To facilitate the posting of letters to companies abroad, SuperOffice CRM includes eight different address formats: European, Australian/Canadian, American, German, British, Spanish, Japanese and a general address format.
 
-When you [create a company][1] and choose which country the company belongs to, the address fields in the **Company** tab change according to your choice. The address fields which change are described below.
+When you [create a company][1] and choose which country the company belongs to, the address fields in the **Company** tab change according to your choice. The address fields that change are described below.
 
 > [!TIP]
-> You can change the default address format for a country in SuperOffice Settings and maintenance. This is described in detail in the SuperOffice Settings and maintenance help.
+> You can change the default address format for a country in SuperOffice Settings and maintenance.
 
 ## General address format
 
@@ -57,7 +57,7 @@ This address format is used for Spain.
 
 ## Rest of Europe
 
-This is the address format used when you create a company in Norway, for example. This format will be used for most European countries, except the UK, Germany and Spain, which have their own address formats.
+This address format is used when you create a company in Norway and most European countries, except the UK, Germany and Spain, which have their own address formats.
 
 | Field | Description |
 |---|---|
@@ -99,7 +99,7 @@ This address format is used for the USA. It resembles the format for Australia/C
 | Address 1 | First address line |
 | Address 2 | Second address line |
 | City | Name of postal town |
-| State/zipcode | State code, e.g. CA, and postal code (zip code) |
+| State / zip code | State code (for example, CA) and postal code (zip code) |
 | Country | Country |
 
 ## UK
@@ -112,7 +112,7 @@ This address format is used for the UK.
 | Address 2 | Second address line |
 | Address 3 | Third address line |
 | City | Postal town |
-| County/postcode | County and postcode, e.g. Somerset TA1 2WB |
+| County/postcode | County and postcode. For example, Somerset TA1 2WB |
 | Country | Country |
 
 ## Japan

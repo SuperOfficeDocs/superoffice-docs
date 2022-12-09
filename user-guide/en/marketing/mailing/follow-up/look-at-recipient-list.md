@@ -11,9 +11,11 @@ language: en
 
 # Look at recipient list after the mailing
 
-1. Click the mailing in the **Mailings** tab. The **View mailing** screen opens.
+1. Click the mailing in the **Mailings** tab.
 
-2. Click the **Recipients** tab. The list shows the 100 first recipients, and you need to click ![icon][img1] to show the next 100.
+2. In the **View mailing** screen, click the **Recipients** tab.
+
+    The list shows the 100 first recipients. Click ![icon][img1] to show the next 100.
 
 3. [Filter the list](#filters) by using the checkboxes at the bottom of the list.
 
@@ -28,25 +30,28 @@ language: en
 
 6. Click **Close** to close the **View mailing** screen.
 
-If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status will be changed to **Sent** once this is done.
+If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status change to **Sent** once this is done.
 
 ## Filters
 
-**Sent**: Activate this filter to show all recipients the mailing was sent to.
+ ***Sent**: Activate this filter to show all recipients the mailing was sent to.
 
-**Bounced**: Activate this filter to show all recipients for whom the [mailing has been returned undelivered][3]. This may be due to e-mail address errors, spam filters, Internet problems or inboxes being full. Some of these problems may be temporary (delivery delays, e-mail server temporarily unavailable etc.), while others are permanent (wrong address, unknown domain etc.). In the latter case, you should add the recipients to a new selection and try to find the cause of the problem.
+* **Bounced**: Activate this filter to show all recipients for whom the [mailing was returned undelivered][3]. This may be due to email address errors, spam filters, Internet problems or inboxes being full.
 
-**Read by recipient**: Activate this filter to show all recipients who have opened/read the mailing.
+  * Temporary problems: delivery delays, email server temporarily unavailable
+  * Permanent problems: wrong address, unknown domain. Add the recipients to a new selection and try to find the cause of the problem.
 
-**Ready to send**: Activate this filter to show all recipients to whom the mailing has not been sent yet.
+* **Read by recipient**: Activate this filter to show all recipients who opened/read the mailing.
 
-**Blocked**: Activate this filter to show the following recipients:
+* **Ready to send**: Activate this filter to show all recipients to whom the mailing has not been sent yet.
+
+* **Blocked**: Activate this filter to show the following recipients:
 
 * Recipient who have not given their consent to being contacted.
 * Duplicate recipients.
 * Recipients without a subscription.
 
-**Recipient complained**: Activate this filter to show recipients who have reported the mailing as spam/junk mail.
+**Recipient complained**: Activate this filter to show recipients who reported the mailing as spam/junk mail.
 
 If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status will be changed to **Sent** once this is done.
 
@@ -59,11 +64,11 @@ Using the ![icon][img2] menu button you can add recipients and clickers to a sel
 
 ## Add clickers to a new selection or project
 
-[!include[Howto](../../includes/howto-add-person-to-selection-new.md)]
+[!include[How to](../../includes/howto-add-person-to-selection-new.md)]
 
 ## Add clickers to an existing selection or project
 
-[!include[Howto](../../includes/howto-add-person-to-selection-existing.md)]
+[!include[How to](../../includes/howto-add-person-to-selection-existing.md)]
 
 <!-- Referenced links -->
 [3]: manage-bounces.md

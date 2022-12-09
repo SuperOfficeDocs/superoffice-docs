@@ -11,7 +11,7 @@ language: en
 
 # SuperOffice products
 
-In the **SuperOffice products** tab in the **Quote/Sync** screen, you can add price lists and products. They will be saved in the SuperOffice database, NOT in any ERP system connected to SuperOffice.
+In the **SuperOffice products** tab in the **Quote/Sync** screen, you can add price lists and products. They are saved in the SuperOffice database, NOT in any ERP system connected to SuperOffice.
 
 In the **Price list** list, select the required price list. The products in the price list are shown at the bottom of the view.
 

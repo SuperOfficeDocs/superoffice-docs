@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 
 Execute a Find operation and return a page of results.
 
+
 &lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is also passed in directly.&lt;para/&gt;Use the GetCriteriaInformation, GetDefaultDesiredColumns and GetDefaultOrderBy service methods to let the system calculate these values, if you want to use or modify them.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Execute a Find operation and return a page of results.
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber
+Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,8 @@ Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -58,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,50 +82,50 @@ Response body:
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Simonis Inc and Sons",
-      "Operator": "est",
+      "Name": "Bosco-Conn",
+      "Operator": "nulla",
       "Values": [
-        "sit",
-        "aut"
+        "placeat",
+        "consequatur"
       ],
       "DisplayValues": [
-        "ut",
-        "natus"
+        "quia",
+        "nisi"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 967,
+      "InterParenthesis": 84,
       "InterOperator": "And",
-      "UniqueHash": 728
+      "UniqueHash": 175
     }
   ],
-  "ProviderName": "Altenwerth Inc and Sons",
+  "ProviderName": "Moen-Wyman",
   "DesiredColumns": [
-    "quis",
-    "dolores"
+    "et",
+    "modi"
   ],
   "OrderBy": [
     {
-      "Name": "Krajcik-Fisher",
+      "Name": "Douglas, Gleason and Wilkinson",
       "Direction": "ASC"
     },
     {
-      "Name": "Krajcik-Fisher",
+      "Name": "Douglas, Gleason and Wilkinson",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 542,
-  "PageNumber": 434
+  "PageSize": 860,
+  "PageNumber": 879
 }
 ```
 
@@ -130,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Brekke-Kerluke",
-      "DisplayTooltip": "est",
-      "DisplayType": "porro",
+      "DisplayName": "Stehr-Balistreri",
+      "DisplayTooltip": "dolores",
+      "DisplayType": "est",
       "CanOrderBy": false,
-      "Name": "Braun-Hirthe",
-      "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "O'Hara-Wintheiser",
-      "IsVisible": false,
-      "ExtraInfo": "occaecati",
-      "Width": "debitis",
-      "IconHint": "ut",
-      "HeadingIconHint": "cupiditate"
+      "Name": "Quigley, DuBuque and Bailey",
+      "CanRestrictBy": true,
+      "RestrictionType": "officia",
+      "RestrictionListName": "Sporer-Green",
+      "IsVisible": true,
+      "ExtraInfo": "quae",
+      "Width": "ipsum",
+      "IconHint": "harum",
+      "HeadingIconHint": "nihil"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schamberger Group",
-      "PrimaryKey": 414,
+      "EntityName": "Krajcik, Dickinson and Huels",
+      "PrimaryKey": 105,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "laudantium",
-          "LinkHint": "itaque"
+          "DisplayValue": "architecto",
+          "TooltipHint": "sunt",
+          "LinkHint": "exercitationem"
         }
       },
-      "LinkHint": "eos",
-      "StyleHint": "omnis",
+      "LinkHint": "et",
+      "StyleHint": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldLength": 775
         }
       }
     }
   ],
-  "RowCount": 55,
+  "RowCount": 342,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 367
     }
   }
 }

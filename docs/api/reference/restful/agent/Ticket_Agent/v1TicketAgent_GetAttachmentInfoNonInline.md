@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 
 Get a list with meta data for all attached attachments, EXCEPT those marked as inline
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list with meta data for all attached attachments, EXCEPT those marked as i
 ```http
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketMessageEntityId
+TicketMessageEntityId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketMessageEntityId | int32 |  |
+
 
 ## Response: array
 
@@ -70,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 699
+  "TicketMessageEntityId": 842
 }
 ```
 
@@ -86,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 638,
-    "Name": "Bartell Group",
-    "ContentType": "ea",
-    "AttSize": 449,
-    "InlineImage": false,
-    "ContentId": "perferendis",
+    "AttachmentId": 260,
+    "Name": "Quitzon, Heller and Schmidt",
+    "ContentType": "pariatur",
+    "AttSize": 796,
+    "InlineImage": true,
+    "ContentId": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldLength": 738
       }
     }
   }

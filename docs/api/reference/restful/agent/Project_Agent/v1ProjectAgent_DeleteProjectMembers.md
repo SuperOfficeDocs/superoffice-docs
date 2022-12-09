@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/DeleteProjectMembers
 
 Delete the given project members from a project
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Delete the given project members from a project
 ```http
 POST /api/v1/Agents/Project/DeleteProjectMembers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/Project/DeleteProjectMembers?$select=name,department,categor
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectEntityId, MemberIds
+ProjectEntityId, MemberIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectEntityId | int32 |  |
 | MemberIds | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,14 +65,14 @@ Response body:
 POST /api/v1/Agents/Project/DeleteProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 652,
+  "ProjectEntityId": 856,
   "MemberIds": [
-    68,
-    985
+    848,
+    441
   ]
 }
 ```

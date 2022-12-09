@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetDocumentList
 
 Gets an array of Document objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Document objects.
 ```http
 POST /api/v1/Agents/Document/GetDocumentList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/Document/GetDocumentList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: documentIds
+## Request Body: documentIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -80,7 +89,7 @@ Response body: array
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 363,
-    "Attention": "vel",
-    "Header": "consequuntur",
-    "Name": "Nicolas, Kiehn and Raynor",
-    "OurRef": "quaerat",
-    "YourRef": "perspiciatis",
-    "Description": "Optimized even-keeled core",
-    "DocumentTemplate": "molestiae",
+    "DocumentId": 37,
+    "Attention": "nisi",
+    "Header": "iste",
+    "Name": "Tillman Group",
+    "OurRef": "consectetur",
+    "YourRef": "tempore",
+    "Description": "Optional demand-driven neural-net",
+    "DocumentTemplate": "itaque",
     "IsPublished": false,
-    "PersonId": 273,
-    "PersonFullName": "Dr. Pinkie Goodwin",
-    "AssociateFullName": "Miss Luz Rupert Waelchi PhD",
-    "ContactId": 425,
-    "ContactName": "Balistreri Inc and Sons",
-    "ProjectId": 646,
-    "ProjectName": "Treutel-Kautzer",
-    "AssociateId": 334,
-    "Snum": 12,
-    "SaleId": 737,
-    "SaleName": "Klein Inc and Sons",
+    "PersonId": 609,
+    "PersonFullName": "Miss Birdie Rebeca Weissnat",
+    "AssociateFullName": "Prof. Morton Gaylord MD",
+    "ContactId": 460,
+    "ContactName": "Wuckert, Metz and Nader",
+    "ProjectId": 894,
+    "ProjectName": "Kohler Inc and Sons",
+    "AssociateId": 454,
+    "Snum": 26,
+    "SaleId": 235,
+    "SaleName": "Bayer-Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 14
       }
     }
   }

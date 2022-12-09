@@ -11,11 +11,18 @@ DELETE /api/v1/DashTile/{id}
 
 Deletes the DashTile
 
+
 Calls the Dash agent service DeleteDashTile.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashTile to be deleted. **Required** |
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Calls the Dash agent service DeleteDashTile.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 DashTile deleted.
 
@@ -34,7 +42,8 @@ DashTile deleted.
 |----------------|-------------|
 | 204 | DashTile deleted. |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -42,7 +51,7 @@ Response body:
 DELETE /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

@@ -11,10 +11,16 @@ PUT /api/v1/Person/{personId}/Consent/{purpose}
 
 Set a specified type of consent on the person.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | The person id **Required** |
 | purpose | string | The Key of the purpose this affects. e.g. 'STORE' or 'EMARKETING'. **Required** |
+
 
 ## Query String Parameters
 
@@ -25,10 +31,11 @@ Set a specified type of consent on the person.
 | comment | string |  A comment regarding this consent. May be null or empty. |
 
 ```http
-PUT /api/v1/Person/{personId}/Consent/{purpose}?source=et
-PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=et
-PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=officia
+PUT /api/v1/Person/{personId}/Consent/{purpose}?source=magnam
+PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=odio
+PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=facilis
 ```
+
 
 ## Request Headers
 
@@ -39,7 +46,8 @@ PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=officia
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -47,7 +55,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -55,7 +64,7 @@ Response body:
 PUT /api/v1/Person/{personId}/Consent/{purpose}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

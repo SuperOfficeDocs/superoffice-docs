@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 
 Method to get a Selectable MDO list with restrictions.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method to get a Selectable MDO list with restrictions.
 ```http
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/MDO/GetSelectableListWithRestriction?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, AdditionalInfo, SearchValue
+Name, AdditionalInfo, SearchValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | AdditionalInfo | string |  |
 | SearchValue | string |  |
+
 
 ## Response: array
 
@@ -85,9 +93,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "White-Padberg",
-  "AdditionalInfo": "ullam",
-  "SearchValue": "facere"
+  "Name": "Roob Inc and Sons",
+  "AdditionalInfo": "neque",
+  "SearchValue": "mollitia"
 }
 ```
 
@@ -99,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Rutherford LLC",
-    "ToolTip": "Totam aspernatur aut assumenda explicabo officiis quasi eveniet.",
+    "Id": 932,
+    "Name": "Mosciski, Larson and Zboncak",
+    "ToolTip": "Omnis officiis molestiae.",
     "Deleted": true,
-    "Rank": 911,
-    "Type": "quod",
-    "ColorBlock": 172,
-    "IconHint": "repellendus",
-    "Selected": true,
-    "LastChanged": "2012-07-23T11:10:27.3114523+02:00",
+    "Rank": 825,
+    "Type": "et",
+    "ColorBlock": 867,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "1997-12-17T02:49:44.7340524+01:00",
     "ChildItems": [
       {
-        "Id": 283,
-        "Name": "Lynch, Quigley and Runte",
-        "ToolTip": "Minus tempora enim et dolorum quo velit.",
-        "Deleted": false,
-        "Rank": 810,
-        "Type": "temporibus",
-        "ColorBlock": 1000,
-        "IconHint": "saepe",
-        "Selected": true,
-        "LastChanged": "2021-09-25T11:10:27.3114523+02:00",
+        "Id": 401,
+        "Name": "Sauer, Pacocha and Rippin",
+        "ToolTip": "Odio minus impedit autem.",
+        "Deleted": true,
+        "Rank": 625,
+        "Type": "perspiciatis",
+        "ColorBlock": 576,
+        "IconHint": "velit",
+        "Selected": false,
+        "LastChanged": "2012-07-30T02:49:44.7340524+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "magni",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "aspernatur",
         "Hidden": true,
-        "FullName": "Rosalee Auer",
+        "FullName": "Ashtyn Halvorson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 33
+            "FieldLength": 471
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
+    "ExtraInfo": "dolor",
     "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Mafalda Tromp Sr.",
+    "FullName": "Maximillia Botsford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldType": "System.String",
+        "FieldLength": 142
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/AddContactSelectionMembers
 
 Adds the collection of ContactPersonId as members to the static selection
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Adds the collection of ContactPersonId as members to the static selection
 ```http
 POST /api/v1/Agents/Selection/AddContactSelectionMembers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/Selection/AddContactSelectionMembers?$select=name,department
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, ContactPersonIds
+SelectionId, ContactPersonIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | ContactPersonIds | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -60,15 +69,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 388,
+  "SelectionId": 506,
   "ContactPersonIds": [
     {
-      "PersonId": 66,
-      "ContactId": 671
+      "PersonId": 880,
+      "ContactId": 13
     },
     {
-      "PersonId": 66,
-      "ContactId": 671
+      "PersonId": 880,
+      "ContactId": 13
     }
   ]
 }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Audience/GetDefaultPersonImage
 
 Returns the default person (sales rep) image that is displayed in Audience when no person image is found.
 
+
 The image belongs to a specific Audience layout instance.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The image belongs to a specific Audience layout instance.
 ```http
 POST /api/v1/Agents/Audience/GetDefaultPersonImage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Audience/GetDefaultPersonImage?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LayoutName
+LayoutName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
+
 
 ## Response: byte
 
@@ -55,17 +63,18 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Crooks-Halvorson"
+  "LayoutName": "Kulas-Toy"
 }
 ```
 

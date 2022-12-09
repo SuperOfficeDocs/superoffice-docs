@@ -17,7 +17,7 @@ The **Projects** section tab shows all the projects for the active company. To d
 
 Click **Add** to [create a new project][2]
 
-Double-click a project in the list to open the **Project** screen in SuperOffice CRM which contains information about the active project.
+Double-click a project in the list to open the **Project** screen with information about the active project.
 
 [!include[Contents of the Projects tab](../../includes/projects-tab.md)]
 

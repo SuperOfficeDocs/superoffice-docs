@@ -13,14 +13,18 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-To restore a deleted status:
-
 <!-- markdownlint-disable-file MD029 -->
 [!include[Open SAINT](includes/open-saint-select-tab.md)]
-3. Check **Show deleted** below the status list. Deleted statuses are clearly marked.
-4. Double-click the status you want to restore. The **Status monitor** dialog opens.
-5. Click **Restore** and then **Save**. The status is restored and appears in black in the list.
-6. Click **Regenerate selected status monitor** to update the restored status.
+
+1. Check **Show deleted** below the status list. Deleted statuses are clearly marked.
+
+1. Double-click the status you want to restore.
+
+1. In the **Status monitor** dialog, click **Restore** and then **Save**.
+
+    The status is restored and appears in black in the list.
+
+1. Click **Regenerate selected status monitor** to update the restored status.
 
 ## What would you like to do now?
 

@@ -11,6 +11,12 @@ POST /api/v1/Agents/BulkUpdate/GetStoredFields
 
 Get all stored fields for a given tablename/entity and context
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all stored fields for a given tablename/entity and context
 ```http
 POST /api/v1/Agents/BulkUpdate/GetStoredFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/BulkUpdate/GetStoredFields?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Tablename, Context
+Tablename, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Tablename | string |  |
 | Context | string |  |
+
 
 ## Response: array
 
@@ -80,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "distinctio"
+  "Context": "quis"
 }
 ```
 
@@ -101,72 +109,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "omnis",
-    "ValueType": "incidunt",
+    "Key": "maxime",
+    "ValueType": "porro",
     "Mandatory": true,
-    "EncodedDisplayName": "Kshlerin, Streich and Lesch",
-    "EncodedDisplayDescription": "Team-oriented composite groupware",
-    "IconHint": "blanditiis",
+    "EncodedDisplayName": "Schultz, Spinka and Ryan",
+    "EncodedDisplayDescription": "Public-key responsive initiative",
+    "IconHint": "sed",
     "ControlInfos": [
       {
-        "Type": "repudiandae",
-        "Label": "ut",
-        "Dimension": 777,
-        "ListProviderName": "Hermann Group",
-        "ListProviderExtraInfo": "at",
-        "ListProviderPrimaryKeyName": "Klein-Frami",
-        "ListLeadText": "quaerat",
+        "Type": "eos",
+        "Label": "velit",
+        "Dimension": 89,
+        "ListProviderName": "Bernhard LLC",
+        "ListProviderExtraInfo": "quod",
+        "ListProviderPrimaryKeyName": "Zieme, Kutch and Abernathy",
+        "ListLeadText": "saepe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 860
+            "FieldLength": 121
           }
         }
       }
     ],
-    "EncodedDataCaption": "dolorum",
-    "EncodedDataCaptionDescription": "Quality-focused web-enabled capacity",
-    "CurrentOperationType": "natus",
+    "EncodedDataCaption": "accusantium",
+    "EncodedDataCaptionDescription": "Monitored homogeneous extranet",
+    "CurrentOperationType": "culpa",
     "Values": [
-      "ut",
-      "dicta"
+      "sit",
+      "tempore"
     ],
     "DisplayValues": [
-      "suscipit",
-      "excepturi"
+      "repellat",
+      "ad"
     ],
     "OperationInfos": [
       {
-        "Key": "voluptatum",
-        "EncodedDisplayName": "Altenwerth-Doyle",
+        "Key": "consequatur",
+        "EncodedDisplayName": "Stiedemann Inc and Sons",
         "EncodedLeadTexts": [
-          "illo",
-          "voluptates"
+          "autem",
+          "sit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 215
+            "FieldLength": 523
           }
         }
       },
       {
-        "Key": "voluptatum",
-        "EncodedDisplayName": "Altenwerth-Doyle",
+        "Key": "consequatur",
+        "EncodedDisplayName": "Stiedemann Inc and Sons",
         "EncodedLeadTexts": [
-          "illo",
-          "voluptates"
+          "autem",
+          "sit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 215
+            "FieldLength": 523
           }
         }
       }

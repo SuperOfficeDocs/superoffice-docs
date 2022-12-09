@@ -11,11 +11,18 @@ GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ConsentSource list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 334,
-    "Name": "Kiehn Inc and Sons",
-    "ToolTip": "Sed ipsa corporis soluta.",
+    "Id": 457,
+    "Name": "Nolan, Kling and Torphy",
+    "ToolTip": "Odio distinctio ut sit et molestiae facere nobis.",
     "Deleted": false,
-    "Rank": 616,
-    "Type": "aliquam",
-    "ColorBlock": 893,
-    "IconHint": "ipsa",
+    "Rank": 490,
+    "Type": "totam",
+    "ColorBlock": 274,
+    "IconHint": "vero",
     "Selected": false,
-    "LastChanged": "2000-06-26T11:10:53.9981826+02:00",
+    "LastChanged": "2009-06-03T02:49:51.9534435+02:00",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Krajcik, Paucek and Kerluke",
-        "ToolTip": "Nisi rem rerum iste ut consequatur nisi.",
+        "Id": 6,
+        "Name": "Gerhold LLC",
+        "ToolTip": "Non ipsum voluptas inventore.",
         "Deleted": false,
-        "Rank": 410,
-        "Type": "rerum",
-        "ColorBlock": 860,
-        "IconHint": "et",
+        "Rank": 839,
+        "Type": "eos",
+        "ColorBlock": 540,
+        "IconHint": "tenetur",
         "Selected": true,
-        "LastChanged": "2015-01-14T11:10:53.9981826+01:00",
+        "LastChanged": "2013-08-20T02:49:51.9534435+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "qui",
+        "ExtraInfo": "error",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Miss Audra Armstrong",
+        "FullName": "Durward Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 141
+            "FieldType": "System.String",
+            "FieldLength": 824
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "atque",
+    "ExtraInfo": "corporis",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Connor Farrell",
+    "FullName": "Anabel Maxime Batz V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 831
+        "FieldType": "System.Int32",
+        "FieldLength": 788
       }
     }
   }

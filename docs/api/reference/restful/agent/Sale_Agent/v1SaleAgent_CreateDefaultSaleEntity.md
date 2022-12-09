@@ -11,7 +11,14 @@ POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 
 Set default values into a new SaleEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +99,7 @@ Response body:
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,7 +115,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "totam",
+  "SaleText": "vero",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -116,113 +124,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-10-02T11:10:27.7885226+02:00",
-  "Amount": 5490.768,
-  "SaleId": 592,
-  "Earning": 28406.575999999997,
-  "EarningPercent": 21330.004,
-  "Heading": "ut",
-  "Number": "1033762",
-  "Probability": 622,
-  "CreatedDate": "2003-01-31T11:10:27.7885226+01:00",
-  "UpdatedDate": "1998-05-06T11:10:27.7885226+02:00",
+  "Saledate": "2016-07-15T02:49:45.0934673+02:00",
+  "Amount": 18268.086,
+  "SaleId": 33,
+  "Earning": 7806.794,
+  "EarningPercent": 29700.917999999998,
+  "Heading": "qui",
+  "Number": "1237668",
+  "Probability": 469,
+  "CreatedDate": "2007-11-29T02:49:45.0934673+01:00",
+  "UpdatedDate": "2010-12-13T02:49:45.0934673+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 711,
+  "ActiveLinks": 83,
   "Links": [
     {
-      "EntityName": "Koepp-Herzog",
-      "Id": 786,
-      "Description": "Cloned 24/7 budgetary management",
-      "ExtraInfo": "cum",
-      "LinkId": 524,
+      "EntityName": "Von, Smitham and Harris",
+      "Id": 470,
+      "Description": "Programmable multimedia function",
+      "ExtraInfo": "est",
+      "LinkId": 903,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 724
+          "FieldLength": 149
         }
       }
     }
   ],
-  "NextDueDate": "2019-03-27T11:10:27.7885226+01:00",
-  "Postit": "beatae",
+  "NextDueDate": "1995-07-21T02:49:45.0934673+02:00",
+  "Postit": "mollitia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2008-01-13T11:10:27.7885226+01:00",
+  "ReopenDate": "2017-01-08T02:49:45.0934673+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Bednar-Schimmel",
-      "Comment": "dolorem",
-      "StakeholderRoleId": 321,
-      "CountryId": 723,
-      "PersonId": 946,
-      "EmailDescription": "kyle.robel@fahey.name",
-      "EmailId": 209,
-      "EmailAddress": "eda@cassin.uk",
-      "PhoneId": 713,
-      "ContactName": "Hahn Inc and Sons",
-      "ContactId": 215,
-      "SaleId": 363,
-      "Mrmrs": "magnam",
-      "Firstname": "Norbert",
-      "MiddleName": "Stiedemann LLC",
-      "Lastname": "Rippin",
-      "SaleStakeholderId": 74,
-      "Rank": 522,
-      "Phone": "(932)763-4187 x9663",
+      "StakeholderRoleName": "Walter, Gleason and Gerhold",
+      "Comment": "et",
+      "StakeholderRoleId": 323,
+      "CountryId": 477,
+      "PersonId": 792,
+      "EmailDescription": "charles@dickens.ca",
+      "EmailId": 729,
+      "EmailAddress": "garland_bauch@harris.info",
+      "PhoneId": 431,
+      "ContactName": "Denesik, Schmidt and Prosacco",
+      "ContactId": 491,
+      "SaleId": 981,
+      "Mrmrs": "accusamus",
+      "Firstname": "Martina",
+      "MiddleName": "Deckow-West",
+      "Lastname": "Jaskolski",
+      "SaleStakeholderId": 790,
+      "Rank": 230,
+      "Phone": "317-725-9710",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldType": "System.String",
+          "FieldLength": 968
         }
       }
     }
   ],
-  "ActiveErpLinks": 455,
+  "ActiveErpLinks": 659,
   "UserDefinedFields": {
-    "SuperOffice:1": "Christop Schimmel III",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Marjorie Wiza",
+    "SuperOffice:2": "Austyn Price"
   },
   "ExtraFields": {
-    "ExtraFields1": "dignissimos",
-    "ExtraFields2": "et"
+    "ExtraFields1": "quae",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "aliquam",
+    "CustomFields1": "pariatur",
     "CustomFields2": "fuga"
   },
-  "PublishEventDate": "2018-06-16T11:10:27.789522+02:00",
-  "PublishTo": "2015-07-19T11:10:27.789522+02:00",
-  "PublishFrom": "2000-07-13T11:10:27.789522+02:00",
+  "PublishEventDate": "2009-04-19T02:49:45.1090952+02:00",
+  "PublishTo": "2010-03-29T02:49:45.1090952+02:00",
+  "PublishFrom": "2002-09-20T02:49:45.1090952+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 616,
+      "VisibleId": 883,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 293
+          "FieldLength": 554
         }
       }
     },
     {
-      "VisibleId": 616,
+      "VisibleId": 883,
       "Visibility": "All",
-      "DisplayValue": "tempora",
+      "DisplayValue": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 293
+          "FieldLength": 554
         }
       }
     }
@@ -232,7 +240,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 992
     }
   }
 }

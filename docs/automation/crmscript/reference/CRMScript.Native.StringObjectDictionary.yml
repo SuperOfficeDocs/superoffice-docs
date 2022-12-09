@@ -42,7 +42,7 @@ items:
 - uid: CRMScript.Native.StringObjectDictionary.getInteger(String)
   commentId: M:CRMScript.Native.StringObjectDictionary.getInteger(String)
   id: 'getInteger(String)'
-  so.intellisense: StringObjectDictionary.getInteger(String)
+  so.intellisense: StringObjectDictionary.getInteger
   langs:
   - crmscript
   name: 'getInteger(String)'
@@ -64,7 +64,7 @@ items:
 - uid: CRMScript.Native.StringObjectDictionary.getFloat(String)
   commentId: M:CRMScript.Native.StringObjectDictionary.getFloat(String)
   id: 'getFloat(String)'
-  so.intellisense: StringObjectDictionary.getFloat(String)
+  so.intellisense: StringObjectDictionary.getFloat
   langs:
   - crmscript
   name: 'getFloat(String)'
@@ -86,7 +86,7 @@ items:
 - uid: CRMScript.Native.StringObjectDictionary.getString(String)
   commentId: M:CRMScript.Native.StringObjectDictionary.getString(String)
   id: 'getString(String)'
-  so.intellisense: StringObjectDictionary.getString(String)
+  so.intellisense: StringObjectDictionary.getString
   langs:
   - crmscript
   name: 'getString(String)'
@@ -108,7 +108,7 @@ items:
 - uid: CRMScript.Native.StringObjectDictionary.getBool(String)
   commentId: M:CRMScript.Native.StringObjectDictionary.getBool(String)
   id: 'getBool(String)'
-  so.intellisense: StringObjectDictionary.getBool(String)
+  so.intellisense: StringObjectDictionary.getBool
   langs:
   - crmscript
   name: 'getBool(String)'
@@ -130,7 +130,7 @@ items:
 - uid: CRMScript.Native.StringObjectDictionary.getDateTime(String)
   commentId: M:CRMScript.Native.StringObjectDictionary.getDateTime(String)
   id: 'getDateTime(String)'
-  so.intellisense: StringObjectDictionary.getDateTime(String)
+  so.intellisense: StringObjectDictionary.getDateTime
   langs:
   - crmscript
   name: 'getDateTime(String)'
@@ -152,7 +152,7 @@ items:
 - uid: CRMScript.Native.StringObjectDictionary.insertInteger(String,Integer)
   commentId: M:CRMScript.Native.StringObjectDictionary.insertInteger(String,Integer)
   id: 'insertInteger(String,Integer)'
-  so.intellisense: StringObjectDictionary.insertInteger(String,Integer)
+  so.intellisense: StringObjectDictionary.insertInteger
   langs:
   - crmscript
   name: 'insertInteger(String,Integer)'
@@ -176,7 +176,7 @@ items:
 - uid: CRMScript.Native.StringObjectDictionary.insertString(String,String)
   commentId: M:CRMScript.Native.StringObjectDictionary.insertString(String,String)
   id: 'insertString(String,String)'
-  so.intellisense: StringObjectDictionary.insertString(String,String)
+  so.intellisense: StringObjectDictionary.insertString
   langs:
   - crmscript
   name: 'insertString(String,String)'
@@ -200,7 +200,7 @@ items:
 - uid: CRMScript.Native.StringObjectDictionary.insertFloat(String,Float)
   commentId: M:CRMScript.Native.StringObjectDictionary.insertFloat(String,Float)
   id: 'insertFloat(String,Float)'
-  so.intellisense: StringObjectDictionary.insertFloat(String,Float)
+  so.intellisense: StringObjectDictionary.insertFloat
   langs:
   - crmscript
   name: 'insertFloat(String,Float)'
@@ -224,7 +224,7 @@ items:
 - uid: CRMScript.Native.StringObjectDictionary.insertBool(String,Bool)
   commentId: M:CRMScript.Native.StringObjectDictionary.insertBool(String,Bool)
   id: 'insertBool(String,Bool)'
-  so.intellisense: StringObjectDictionary.insertBool(String,Bool)
+  so.intellisense: StringObjectDictionary.insertBool
   langs:
   - crmscript
   name: 'insertBool(String,Bool)'
@@ -248,7 +248,7 @@ items:
 - uid: CRMScript.Native.StringObjectDictionary.insertDateTime(String,DateTime)
   commentId: M:CRMScript.Native.StringObjectDictionary.insertDateTime(String,DateTime)
   id: 'insertDateTime(String,DateTime)'
-  so.intellisense: StringObjectDictionary.insertDateTime(String,DateTime)
+  so.intellisense: StringObjectDictionary.insertDateTime
   langs:
   - crmscript
   name: 'insertDateTime(String,DateTime)'

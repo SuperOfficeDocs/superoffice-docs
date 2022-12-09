@@ -11,6 +11,13 @@ POST /api/v1/List/Credited/Items
 
 Add a new Credited to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new Credited to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The Credited to be added to the list.
+The Credited to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The Credited to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 644,
-  "Name": "Nikolaus, Morissette and Mohr",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "UdListDefinitionId": 370,
-  "Rank": 852
+  "Id": 539,
+  "Name": "Waters LLC",
+  "Tooltip": "modi",
+  "Deleted": true,
+  "UdListDefinitionId": 847,
+  "Rank": 455
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 218,
-  "Name": "Lesch LLC",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "UdListDefinitionId": 366,
-  "Rank": 783,
+  "Id": 502,
+  "Name": "Turcotte Group",
+  "Tooltip": "natus",
+  "Deleted": true,
+  "UdListDefinitionId": 689,
+  "Rank": 764,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldLength": 174
     }
   }
 }

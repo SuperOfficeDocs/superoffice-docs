@@ -17,17 +17,15 @@ From the **Contact** screen you can resend the privacy confirmation email to a c
 
 The privacy confirmation email will normally inform the contact of the following:
 
-* Their information has been stored in SuperOffice
-* What type of information has been stored
+* Their information was stored in SuperOffice
+* What type of information was stored
 * What the information is used for (purpose)
 * That they can withdraw consent whenever they like
 * That the information is secure and will not be shared
 
 The email can also contain a link to a customer centre where the contact can manage subscriptions and consent. The link is valid for 21 days by default.
 
-## Send
-
-To send the privacy confirmation email to a contact:
+## Send privacy confirmation email to contact
 
 [!include[Go to Contact screen](../../includes/goto-contact.md)]
 

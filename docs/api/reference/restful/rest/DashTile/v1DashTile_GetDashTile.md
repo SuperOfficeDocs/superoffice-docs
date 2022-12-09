@@ -11,11 +11,17 @@ GET /api/v1/DashTile/{id}
 
 Gets a DashTile object.
 
+
 Calls the Dash agent service GetDashTile.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DashTile to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Dash agent service GetDashTile.
 ```http
 GET /api/v1/DashTile/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/DashTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 DashTile found.
 
@@ -49,7 +57,7 @@ DashTile found.
 | 200 | DashTile found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +77,7 @@ Response body:
 GET /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +87,18 @@ HTTP/1.1 200 DashTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 199,
-  "DashboardId": 721,
-  "Height": 334,
-  "Width": 967,
-  "Rank": 290,
+  "DashboardTileId": 476,
+  "DashboardId": 407,
+  "Height": 436,
+  "Width": 309,
+  "Rank": 975,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 535
+      "FieldLength": 951
     }
   },
   "_Links": {

@@ -11,11 +11,17 @@ PUT /api/v1/Document/{id}
 
 Updates the existing DocumentEntity Save the document entity.
 
+
 If the entity already exists and the file name of the incoming entity is different from the existing one, a corresponding renaming of the physical document will be attempted. This may cause an amended file name to be substituted into the document entity, since a document plugin may have aribitrary rules on file names and collisions. Clients should always inspect the return value from this call and not assume that what they sent for saving is the final truth.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DocumentEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ If the entity already exists and the file name of the incoming entity is differe
 ```http
 PUT /api/v1/Document/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -41,9 +48,9 @@ PUT /api/v1/Document/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DocumentEntity to be saved.
+The DocumentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +89,8 @@ The DocumentEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 DocumentEntity updated.
 
@@ -92,7 +100,7 @@ DocumentEntity updated.
 | 412 | Update stopped because DocumentEntity has changed since the requested If-Unmodified-Since timestamp. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -140,77 +148,77 @@ Response body:
 PUT /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 418,
+  "DocumentId": 334,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eius",
-  "Header": "harum",
-  "Name": "Collins-Wehner",
-  "OurRef": "similique",
-  "YourRef": "quia",
-  "CreatedDate": "2001-04-20T11:10:52.8071458+02:00",
-  "UpdatedDate": "2002-06-21T11:10:52.8071458+02:00",
-  "Description": "Synergized grid-enabled focus group",
+  "Attention": "tempora",
+  "Header": "blanditiis",
+  "Name": "Buckridge, Kreiger and Wehner",
+  "OurRef": "accusantium",
+  "YourRef": "hic",
+  "CreatedDate": "2020-10-24T02:49:50.9015383+02:00",
+  "UpdatedDate": "2014-02-14T02:49:50.9015383+01:00",
+  "Description": "Synchronised 3rd generation application",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-05-06T11:10:52.8101745+02:00",
-  "ExternalRef": "corporis",
+  "Date": "2014-08-30T02:49:50.9015383+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 819,
+  "ActiveLinks": 388,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bednar Group",
-      "Id": 682,
-      "Description": "Face to face logistical approach",
-      "ExtraInfo": "a",
-      "LinkId": 636
+      "EntityName": "Tillman, O'Connell and Hahn",
+      "Id": 133,
+      "Description": "Public-key tangible attitude",
+      "ExtraInfo": "quas",
+      "LinkId": 354
     },
     {
-      "EntityName": "Bednar Group",
-      "Id": 682,
-      "Description": "Face to face logistical approach",
-      "ExtraInfo": "a",
-      "LinkId": 636
+      "EntityName": "Tillman, O'Connell and Hahn",
+      "Id": 133,
+      "Description": "Public-key tangible attitude",
+      "ExtraInfo": "quas",
+      "LinkId": 354
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 610,
-  "Snum": 689,
+  "SuggestedDocumentId": 96,
+  "Snum": 354,
   "UserDefinedFields": {
-    "SuperOffice:1": "2096770696",
-    "SuperOffice:2": "Raquel Nitzsche"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "1074871404"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "tenetur"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "dignissimos"
+    "CustomFields1": "ea",
+    "CustomFields2": "blanditiis"
   },
-  "PublishEventDate": "1996-11-07T11:10:52.8111446+01:00",
-  "PublishTo": "1995-07-25T11:10:52.8111446+02:00",
-  "PublishFrom": "2014-06-27T11:10:52.8111446+02:00",
+  "PublishEventDate": "2008-12-10T02:49:50.9015383+01:00",
+  "PublishTo": "2015-02-08T02:49:50.9015383+01:00",
+  "PublishFrom": "2003-04-17T02:49:50.9015383+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 811,
+      "VisibleId": 86,
       "Visibility": "All",
-      "DisplayValue": "molestiae"
+      "DisplayValue": "ut"
     },
     {
-      "VisibleId": 811,
+      "VisibleId": 86,
       "Visibility": "All",
-      "DisplayValue": "molestiae"
+      "DisplayValue": "ut"
     }
   ]
 }
@@ -223,88 +231,88 @@ HTTP/1.1 200 DocumentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 307,
+  "DocumentId": 477,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eum",
-  "Header": "eos",
-  "Name": "Hegmann LLC",
-  "OurRef": "labore",
-  "YourRef": "repellendus",
-  "CreatedDate": "2001-07-31T11:10:52.8191747+02:00",
-  "UpdatedDate": "2016-08-22T11:10:52.8191747+02:00",
-  "Description": "Upgradable fresh-thinking hierarchy",
+  "Attention": "consectetur",
+  "Header": "animi",
+  "Name": "Ernser-Harvey",
+  "OurRef": "incidunt",
+  "YourRef": "exercitationem",
+  "CreatedDate": "2003-11-16T02:49:50.9171642+01:00",
+  "UpdatedDate": "2021-06-02T02:49:50.9171642+02:00",
+  "Description": "Exclusive grid-enabled array",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-02-24T11:10:52.8221836+01:00",
-  "ExternalRef": "tempore",
+  "Date": "2003-06-18T02:49:50.9171642+02:00",
+  "ExternalRef": "repellendus",
   "Completed": "Completed",
-  "ActiveLinks": 79,
+  "ActiveLinks": 466,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hegmann-Cruickshank",
-      "Id": 767,
-      "Description": "Cross-group demand-driven firmware",
-      "ExtraInfo": "eius",
-      "LinkId": 607,
+      "EntityName": "Abernathy, Klein and Torphy",
+      "Id": 1000,
+      "Description": "Decentralized hybrid software",
+      "ExtraInfo": "qui",
+      "LinkId": 66,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 149
+          "FieldType": "System.String",
+          "FieldLength": 491
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 382,
-  "Snum": 590,
+  "SuggestedDocumentId": 952,
+  "Snum": 876,
   "UserDefinedFields": {
-    "SuperOffice:1": "Rosa Armstrong",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Miss Kyleigh Pamela Nader"
   },
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "in"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "quas"
+    "CustomFields1": "velit",
+    "CustomFields2": "dolores"
   },
-  "PublishEventDate": "2010-11-22T11:10:52.8221836+01:00",
-  "PublishTo": "2004-04-01T11:10:52.8221836+02:00",
-  "PublishFrom": "1996-03-19T11:10:52.8221836+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-01-31T02:49:50.9171642+01:00",
+  "PublishTo": "2002-07-02T02:49:50.9171642+02:00",
+  "PublishFrom": "2006-12-29T02:49:50.9171642+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 713,
+      "VisibleId": 824,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 705
+          "FieldLength": 838
         }
       }
     },
     {
-      "VisibleId": 713,
+      "VisibleId": 824,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 705
+          "FieldLength": 838
         }
       }
     }
@@ -314,7 +322,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldLength": 800
     }
   },
   "_Links": {

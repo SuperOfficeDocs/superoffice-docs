@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 
 Unassign (remove) third party licenses
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Unassign (remove) third party licenses
 ```http
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/License/UnassignThirdPartyLicenses?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, ModuleOwner, ModuleLicenseNames
+AssociateId, ModuleOwner, ModuleLicenseNames 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | ModuleOwner | string |  |
 | ModuleLicenseNames | array |  |
+
 
 ## Response: array
 
@@ -80,15 +88,15 @@ Response body: array
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 785,
-  "ModuleOwner": "repellat",
+  "AssociateId": 326,
+  "ModuleOwner": "saepe",
   "ModuleLicenseNames": [
-    "Collins, Frami and Bechtelar",
-    "Kris-Grimes"
+    "Watsica-Kirlin",
+    "Jakubowski, Baumbach and Maggio"
   ]
 }
 ```
@@ -101,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 454,
-    "Tooltip": "placeat",
+    "Unrestricted": true,
+    "Total": 247,
+    "Tooltip": "explicabo",
     "CanAssign": true,
-    "Free": 924,
-    "InUse": 217,
+    "Free": 694,
+    "InUse": 1002,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 766,
-    "Name": "Witting Inc and Sons",
-    "Description": "Polarised actuating project",
-    "PrerequisiteModuleName": "Ziemann, Johns and Homenick",
-    "SortOrder": 139,
-    "ExtraFlags": 801,
+    "ModuleLicenseId": 471,
+    "Name": "Lehner Inc and Sons",
+    "Description": "Switchable zero defect strategy",
+    "PrerequisiteModuleName": "Swift, Armstrong and Dibbert",
+    "SortOrder": 24,
+    "ExtraFlags": 109,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 762
+        "FieldType": "System.String",
+        "FieldLength": 983
       }
     }
   }

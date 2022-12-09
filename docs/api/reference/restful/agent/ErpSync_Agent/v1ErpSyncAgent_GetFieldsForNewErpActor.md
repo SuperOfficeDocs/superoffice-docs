@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 
 Get the fields that must be filled out when creating a new ERP actor
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get the fields that must be filled out when creating a new ERP actor
 ```http
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +46,15 @@ POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, ErpActorType
+ErpConnectionId, ErpActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 | ErpActorType | string |  |
+
 
 ## Response: array
 
@@ -77,11 +87,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 418,
+  "ErpConnectionId": 561,
   "ErpActorType": "Customer"
 }
 ```
@@ -94,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "quas",
-    "Rank": 822,
-    "DisplayName": "Murazik-Mosciski",
-    "DisplayDescription": "Team-oriented encompassing help-desk",
+    "FieldKey": "ut",
+    "Rank": 2,
+    "DisplayName": "Jenkins Group",
+    "DisplayDescription": "Optimized multi-state challenge",
     "FieldType": "Checkbox",
-    "ListName": "Auer Inc and Sons",
-    "DefaultValue": "adipisci",
-    "MaxLength": 178,
+    "ListName": "Fritsch Group",
+    "DefaultValue": "accusantium",
+    "MaxLength": 24,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldType": "System.String",
+        "FieldLength": 574
       }
     }
   }

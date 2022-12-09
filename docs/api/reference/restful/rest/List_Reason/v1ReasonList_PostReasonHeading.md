@@ -11,7 +11,14 @@ POST /api/v1/List/Reason/Headings
 
 Saves a new heading for the Reason list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,16 +75,16 @@ Response body:
 POST /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 819,
-  "Name": "Stiedemann Group",
-  "Tooltip": "ipsum",
-  "Deleted": true,
-  "Rank": 119,
-  "UdListDefinitionId": 91
+  "HeadingId": 301,
+  "Name": "Oberbrunner-Ruecker",
+  "Tooltip": "porro",
+  "Deleted": false,
+  "Rank": 629,
+  "UdListDefinitionId": 982
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 508,
-  "Name": "Schneider, Reynolds and Gutmann",
-  "Tooltip": "error",
+  "HeadingId": 425,
+  "Name": "Pacocha, Schumm and Fahey",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "Rank": 870,
-  "UdListDefinitionId": 100,
+  "Rank": 381,
+  "UdListDefinitionId": 213,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 2
+      "FieldLength": 825
     }
   }
 }

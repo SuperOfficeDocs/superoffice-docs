@@ -11,7 +11,7 @@ language: en
 
 # Working with tiles
 
-A dashboard can consist of any number of tiles. Each tile contains a graphical or numerical representation of SuperOffice data. Below we have described the available options for tiles, when you are not in edit mode.
+A dashboard can consist of any number of tiles. Each tile contains a graphical or numerical representation of SuperOffice data.
 
 ## View tiles and data
 
@@ -21,7 +21,7 @@ A dashboard can consist of any number of tiles. Each tile contains a graphical o
 
 * Click the data labels (legend) under the tile to hide/show specific data in the tiles. This can be useful for printing or exporting the tiles.
 
-* Click ![icon][img1] in the header of a tile and select **View in full screen** to open the tile in full screen. This is especially useful for tiles with much content.
+* Click ![icon][img1] in the header of a tile and select **View in full screen** to open the tile in full screen. Useful for tiles with much content.
 
 ### Examine underlying data
 
@@ -37,7 +37,7 @@ A dashboard can consist of any number of tiles. Each tile contains a graphical o
 
     * Double-click a record to open it (or select a record and click **Open**).
 
-    * To [copy the records to a selection][4], click the **Task** button and select **Copy into selection**. If you do not select any records, all records will be copied.
+    * To [copy the records to a selection][4], click the **Task** button and select **Copy into selection**. If you do not select any records, all records are copied.
 
 5. Click **Close** when you are done.
 

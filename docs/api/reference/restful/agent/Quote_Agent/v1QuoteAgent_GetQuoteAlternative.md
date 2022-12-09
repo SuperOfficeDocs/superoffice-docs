@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteAlternative
 
 Gets a QuoteAlternative object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=251
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=707
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +88,7 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 538,
-  "ERPQuoteAlternativeKey": "quis",
-  "QuoteVersionId": 595,
-  "Name": "Mann Group",
-  "Description": "Fully-configurable bifurcated utilisation",
+  "QuoteAlternativeId": 795,
+  "ERPQuoteAlternativeKey": "soluta",
+  "QuoteVersionId": 997,
+  "Name": "Grimes LLC",
+  "Description": "Multi-layered systematic local area network",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 10677.538,
-  "ERPDiscountAmount": 20872.44,
-  "DiscountPercent": 9709.132,
-  "DiscountAmount": 15143.488,
+  "ERPDiscountPercent": 18797.732,
+  "ERPDiscountAmount": 15387.939999999999,
+  "DiscountPercent": 2748.518,
+  "DiscountAmount": 17086.568,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "rerum",
-  "VAT": 14758.006,
-  "EarningPercent": 13071.913999999999,
-  "EarningAmount": 10339.065999999999,
-  "SubTotal": 18286.89,
-  "TotalPrice": 31098.682,
-  "ExtraField1": "fuga",
-  "ExtraField2": "sed",
-  "ExtraField3": "laborum",
-  "ExtraField4": "ut",
-  "ExtraField5": "quam",
+  "VATInfo": "sint",
+  "VAT": 3425.462,
+  "EarningPercent": 31177.032,
+  "EarningAmount": 12467.052,
+  "SubTotal": 10950.196,
+  "TotalPrice": 23012.962,
+  "ExtraField1": "aut",
+  "ExtraField2": "a",
+  "ExtraField3": "nostrum",
+  "ExtraField4": "modi",
+  "ExtraField5": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 232
+      "FieldType": "System.Int32",
+      "FieldLength": 524
     }
   }
 }

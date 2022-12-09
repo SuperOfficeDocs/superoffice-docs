@@ -17,7 +17,10 @@ To [save a report as a document][4] (type = Report) in SuperOffice CRM, click th
 
 You can define new reports in SuperOffice Reporter Studio and import them in SuperOffice Settings and maintenance (**Options** > **Reports**).
 
-However, if you want to create a separate report, you can [alter the search criteria][2] in an existing report and [save it as your own favorite report][3].
+## Create a separate report
+
+1. [Alter the search criteria][2] in an existing report.
+1. [Save it as your own favorite report][3].
 
 <!-- Referenced links -->
 [1]: run.md

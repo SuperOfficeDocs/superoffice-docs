@@ -11,11 +11,17 @@ PUT /api/v1/Project/{id}/ImageInfo
 
 Update the Blob that describes the given project's picture.
 
+
 The actual bitmap is accessible via /api/Services80/project/123/image/content.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | string |  **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=304
+PUT /api/v1/Project/{id}/ImageInfo?projectId=840
 ```
+
 
 ## Request Headers
 
@@ -41,9 +48,9 @@ PUT /api/v1/Project/{id}/ImageInfo?projectId=304
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: imageInfo
+## Request Body: imageInfo  
 
-New or Updated information about the image.
+New or Updated information about the image. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +68,8 @@ New or Updated information about the image.
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -70,7 +78,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,23 +104,23 @@ Response body:
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 697,
-  "BlobSize": 734,
-  "Description": "Object-based static analyzer",
-  "ExtraInfo": "unde",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "aut",
-  "OriginalSize": 691,
-  "CreatedDate": "1999-10-16T11:10:53.3301438+02:00",
-  "UpdatedDate": "2011-04-15T11:10:53.3301438+02:00",
+  "BlobId": 935,
+  "BlobSize": 797,
+  "Description": "Persistent mobile attitude",
+  "ExtraInfo": "doloribus",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "et",
+  "OriginalSize": 495,
+  "CreatedDate": "2001-04-17T02:49:51.3703152+02:00",
+  "UpdatedDate": "2014-04-29T02:49:51.3703152+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ad"
+  "ConceptualType": "quo"
 }
 ```
 
@@ -123,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 692,
-  "BlobSize": 868,
-  "Description": "Reduced reciprocal task-force",
-  "ExtraInfo": "eaque",
+  "BlobId": 483,
+  "BlobSize": 35,
+  "Description": "Team-oriented 3rd generation structure",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "totam",
+  "IsZipped": false,
+  "MimeType": "enim",
   "OriginalSize": 821,
-  "CreatedDate": "2010-09-11T11:10:53.3311437+02:00",
-  "UpdatedDate": "2003-08-09T11:10:53.3311437+02:00",
+  "CreatedDate": "2002-09-10T02:49:51.3703152+02:00",
+  "UpdatedDate": "2015-12-03T02:49:51.3703152+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "a",
+  "ConceptualType": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 896
     }
   }
 }

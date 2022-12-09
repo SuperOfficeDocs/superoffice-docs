@@ -11,9 +11,16 @@ PUT /api/v1/List/{udListDefinitionName}/Items
 
 Save all list items for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to save the items to. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Save all list items for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: items
+## Request Body: items  
 
-The list items
+The list items 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,6 +48,7 @@ The list items
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -74,20 +82,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Name": "Bogan, McCullough and Shanahan",
-    "Tooltip": "explicabo",
+    "Id": 148,
+    "Name": "Bayer Group",
+    "Tooltip": "alias",
     "Deleted": false,
-    "UdListDefinitionId": 101,
-    "Rank": 803
+    "UdListDefinitionId": 237,
+    "Rank": 323
   },
   {
-    "Id": 354,
-    "Name": "Bogan, McCullough and Shanahan",
-    "Tooltip": "explicabo",
+    "Id": 148,
+    "Name": "Bayer Group",
+    "Tooltip": "alias",
     "Deleted": false,
-    "UdListDefinitionId": 101,
-    "Rank": 803
+    "UdListDefinitionId": 237,
+    "Rank": 323
   }
 ]
 ```
@@ -100,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Macejkovic-Gusikowski",
-    "Tooltip": "sequi",
+    "Id": 829,
+    "Name": "Kassulke Inc and Sons",
+    "Tooltip": "doloribus",
     "Deleted": false,
-    "UdListDefinitionId": 512,
-    "Rank": 462,
+    "UdListDefinitionId": 461,
+    "Rank": 558,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldLength": 817
       }
     }
   }

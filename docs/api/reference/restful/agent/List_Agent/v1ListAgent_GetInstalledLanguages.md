@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetInstalledLanguages
 
 Returns the list of all languages installed in this database.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the list of all languages installed in this database.
 ```http
 POST /api/v1/Agents/List/GetInstalledLanguages?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/List/GetInstalledLanguages?$select=name,department,category/
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -73,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 807,
-    "LCID": 54,
-    "EnglishName": "Stehr Inc and Sons",
-    "NativeName": "Larson, Hackett and Kilback",
-    "ThreeLetterISOLanguageName": "Kemmer LLC",
-    "TwoLetterISOLanguageName": "Donnelly, Grady and Feeney",
+    "LanguageInfoId": 906,
+    "LCID": 392,
+    "EnglishName": "Bergnaum Inc and Sons",
+    "NativeName": "Weimann-Shields",
+    "ThreeLetterISOLanguageName": "Fadel-Stokes",
+    "TwoLetterISOLanguageName": "Dicki LLC",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldLength": 836
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 
 Get the appointment that corresponds to the given UID.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the appointment that corresponds to the given UID.
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Appointment/GetAppointmentFromUID?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UID
+UID 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UID | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -119,11 +127,11 @@ Response body:
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "est"
+  "UID": "aperiam"
 }
 ```
 
@@ -138,63 +146,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-02-23T11:10:25.7295483+01:00",
-  "AppointmentId": 974,
-  "Description": "Customizable global encoding",
-  "StartDate": "2007-03-05T11:10:25.7295483+01:00",
-  "EndDate": "2003-10-14T11:10:25.7295483+02:00",
+  "CreatedDate": "2007-09-10T02:49:43.4816564+02:00",
+  "AppointmentId": 964,
+  "Description": "Fully-configurable intangible initiative",
+  "StartDate": "2019-09-12T02:49:43.4816564+02:00",
+  "EndDate": "2008-12-03T02:49:43.4816564+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 148,
+  "MotherId": 414,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-11-16T11:10:25.7325478+01:00",
+  "UpdatedDate": "2005-01-06T02:49:43.4972799+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 299,
+  "ActiveLinks": 866,
   "Links": [
     {
-      "EntityName": "Moore, Hauck and Graham",
-      "Id": 864,
-      "Description": "Team-oriented dedicated moderator",
-      "ExtraInfo": "eos",
-      "LinkId": 490,
+      "EntityName": "Dickens-Schmeler",
+      "Id": 276,
+      "Description": "Customer-focused fault-tolerant instruction set",
+      "ExtraInfo": "rerum",
+      "LinkId": 797,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 727
+          "FieldLength": 130
         }
       }
     }
   ],
-  "AlarmLeadTime": "assumenda",
+  "AlarmLeadTime": "quia",
   "HasAlarm": false,
-  "ColorIndex": 620,
+  "ColorIndex": 365,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "id",
-  "LeadTime": "voluptatem",
-  "Location": "molestias",
-  "RejectCounter": 793,
+  "IsAlldayEvent": false,
+  "LagTime": "ullam",
+  "LeadTime": "dolorem",
+  "Location": "laudantium",
+  "RejectCounter": 463,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 879,
-      "PersonId": 254,
-      "ContactId": 378,
-      "EmailId": 161,
+      "AssociateId": 753,
+      "PersonId": 959,
+      "ContactId": 1000,
+      "EmailId": 275,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 879,
-      "PersonId": 254,
-      "ContactId": 378,
-      "EmailId": 161,
+      "AssociateId": 753,
+      "PersonId": 959,
+      "ContactId": 1000,
+      "EmailId": 275,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -202,58 +210,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2015-07-24T11:10:25.7325478+02:00",
+  "ActiveDate": "2018-08-28T02:49:43.4972799+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 358,
+  "PreferredTZLocation": 126,
   "Sale": null,
-  "SuggestedAppointmentId": 839,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 735,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "id",
+  "CentralserviceVideomeetId": "praesentium",
   "UserDefinedFields": {
-    "SuperOffice:1": "Kenny Muller",
-    "SuperOffice:2": "Dr. Pearline Schamberger"
+    "SuperOffice:1": "1701067817",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "pariatur"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "necessitatibus"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "porro"
+    "CustomFields1": "nobis",
+    "CustomFields2": "impedit"
   },
-  "PublishEventDate": "2013-05-24T11:10:25.7345234+02:00",
-  "PublishTo": "2000-12-15T11:10:25.7345234+01:00",
-  "PublishFrom": "1997-11-07T11:10:25.7345234+01:00",
+  "PublishEventDate": "2000-12-24T02:49:43.4972799+01:00",
+  "PublishTo": "2017-08-27T02:49:43.4972799+02:00",
+  "PublishFrom": "2019-11-27T02:49:43.4972799+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 267,
+      "VisibleId": 565,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 512
+          "FieldLength": 923
         }
       }
     },
     {
-      "VisibleId": 267,
+      "VisibleId": 565,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 512
+          "FieldLength": 923
         }
       }
     }
@@ -263,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 527
     }
   }
 }

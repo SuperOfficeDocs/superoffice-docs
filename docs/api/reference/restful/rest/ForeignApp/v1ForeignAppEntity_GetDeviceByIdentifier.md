@@ -11,11 +11,18 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 
 Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | Optional unique id of device (Palm pilot device ID, version number, etc) **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the ap
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +68,7 @@ Response body:
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -68,24 +76,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 24 May 1996 11:10:52 G5T
+Last-Modified: Fri, 11 Jan 2019 02:49:50 G1T
 
 {
-  "ForeignDeviceId": 855,
-  "Name": "Reinger-Gulgowski",
-  "CreatedDate": "2021-11-19T11:10:52.9031791+01:00",
-  "UpdatedDate": "1996-05-24T11:10:52.9031791+02:00",
-  "AssociateFullName": "Chet McLaughlin",
-  "CreatedBy": "omnis",
-  "UpdatedBy": "sit",
-  "DeviceIdentifier": "maxime",
-  "ForeignAppId": 659,
+  "ForeignDeviceId": 296,
+  "Name": "Goodwin LLC",
+  "CreatedDate": "2008-08-09T02:49:50.9952888+02:00",
+  "UpdatedDate": "2019-01-11T02:49:50.9952888+01:00",
+  "AssociateFullName": "Walter Cummings III",
+  "CreatedBy": "accusamus",
+  "UpdatedBy": "voluptas",
+  "DeviceIdentifier": "laudantium",
+  "ForeignAppId": 178,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 243
     }
   }
 }

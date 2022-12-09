@@ -9,9 +9,15 @@ uid: v1CustomerServiceAgent_TestSmtpServer
 POST /api/v1/Agents/CustomerService/TestSmtpServer
 ```
 
-This method will do a test of a SMTP account, by sending an email to a special @SuperOffice.
+This method will do a test of a SMTP account, by sending an email to a special @superoffice.
+
 
 com account
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ com account
 ```http
 POST /api/v1/Agents/CustomerService/TestSmtpServer?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/CustomerService/TestSmtpServer?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SmtpUri, From, UseStoredPassword
+SmtpUri, From, UseStoredPassword 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ SmtpUri, From, UseStoredPassword
 | From | string |  |
 | UseStoredPassword | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,12 +78,12 @@ Response body:
 POST /api/v1/Agents/CustomerService/TestSmtpServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "beatae",
-  "From": "sunt",
+  "SmtpUri": "maiores",
+  "From": "dolores",
   "UseStoredPassword": false
 }
 ```
@@ -87,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "ErrorMessage": "aliquam",
+  "Success": true,
+  "ErrorMessage": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 320
     }
   }
 }

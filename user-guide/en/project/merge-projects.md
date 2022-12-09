@@ -15,22 +15,22 @@ If you have two nearly identical projects, it is possible to merge them, includi
 
 1. Go to the project you want merge into another project. (See [Use the Find screen][1].)
 
-2. Click ![icon][img1] **Task** on the **Project** card and select **Merge projects**. The **Merge projects** dialog opens.
+2. Click ![icon][img1] **Task** on the **Project** card and select **Merge projects**.
+
+3. In the **Merge projects** dialog under **To**, select the project you want to merge the existing project into. Start typing in the field to search for a project.
 
     ![Merge projects dialog -screenshot][img2]
 
-3. Under **To**, select the project you want to merge the existing project into. Start typing in the field to search for a project.
-
     > [!TIP]
-    > If you want to switch the **From** and **To** projects, click the ![icon][img3] button.
+    > To switch the **From** and **To** projects, click the ![icon][img3] button.
 
-4. Select the **Replace empty fields in \[target project\] with data from \[source project\]** if you want to update empty fields in the target project with details from the source one.
+4. Select the **Replace empty fields in \[target project\] with data from \[source project\]** to update empty fields in the target project with details from the source one.
 
     [!include[Preview results](../includes/note-preview-results.md)]
 
 5. Click **Merge**. The following then happens:
     * The projects are merged.
-    * Details are merged if you have specified this.
+    * Details are merged (if specified).
     * Project members are moved or merged.
     * Any associated sales are moved.
     * All activities are moved.

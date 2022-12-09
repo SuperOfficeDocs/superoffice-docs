@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/PopulateRestrictionValues
 
 Take an incoming set of Restrictions (name + operator + any user-entered values), and populate/expand all values as specified by the operator's ValueHints, taking into account any values already there.
 
+
 Used for dynamic date periods; perhaps others in the future
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Used for dynamic date periods; perhaps others in the future
 ```http
 POST /api/v1/Agents/Find/PopulateRestrictionValues?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Find/PopulateRestrictionValues?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Restrictions
+Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Restrictions | array |  |
+
 
 ## Response: array
 
@@ -74,21 +82,21 @@ Response body: array
 POST /api/v1/Agents/Find/PopulateRestrictionValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Waters-Boyle",
-      "Operator": "at",
+      "Name": "Marquardt LLC",
+      "Operator": "dolorem",
       "Values": [
-        "et",
-        "qui"
+        "saepe",
+        "fuga"
       ],
       "DisplayValues": [
-        "nobis",
-        "reiciendis"
+        "in",
+        "eos"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -96,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 515,
+      "InterParenthesis": 807,
       "InterOperator": "And",
-      "UniqueHash": 229
+      "UniqueHash": 400
     }
   ]
 }
@@ -112,44 +120,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Donnelly, Schaefer and Russel",
-    "Operator": "delectus",
+    "Name": "Maggio LLC",
+    "Operator": "ut",
     "Values": [
-      "suscipit",
-      "aspernatur"
+      "repudiandae",
+      "iure"
     ],
     "DisplayValues": [
-      "veniam",
-      "eos"
+      "molestiae",
+      "modi"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Borer Group",
-        "Operator": "ea",
+        "Name": "Thiel, Gulgowski and Hansen",
+        "Operator": "nostrum",
         "Values": [
-          "cupiditate",
-          "officia"
+          "minima",
+          "dicta"
         ],
         "DisplayValues": [
-          "enim",
-          "laboriosam"
+          "et",
+          "enim"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 389,
+        "InterParenthesis": 874,
         "InterOperator": "And",
-        "UniqueHash": 329
+        "UniqueHash": 74
       }
     ],
-    "InterParenthesis": 154,
+    "InterParenthesis": 622,
     "InterOperator": "And",
-    "UniqueHash": 775
+    "UniqueHash": 408
   }
 ]
 ```

@@ -11,6 +11,13 @@ PUT /api/v1/List/QuoteDenyReason/Items
 
 Update the QuoteDenyReason list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the QuoteDenyReason list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated QuoteDenyReason.
+All the updated QuoteDenyReason. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated QuoteDenyReason.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -65,25 +73,25 @@ Response body: array
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 895,
-    "Name": "Cremin LLC",
-    "Tooltip": "exercitationem",
+    "Id": 586,
+    "Name": "Jaskolski-Hilpert",
+    "Tooltip": "ea",
     "Deleted": false,
-    "UdListDefinitionId": 459,
-    "Rank": 990
+    "UdListDefinitionId": 561,
+    "Rank": 908
   },
   {
-    "Id": 895,
-    "Name": "Cremin LLC",
-    "Tooltip": "exercitationem",
+    "Id": 586,
+    "Name": "Jaskolski-Hilpert",
+    "Tooltip": "ea",
     "Deleted": false,
-    "UdListDefinitionId": 459,
-    "Rank": 990
+    "UdListDefinitionId": 561,
+    "Rank": 908
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 637,
-    "Name": "Kozey Inc and Sons",
-    "Tooltip": "error",
+    "Id": 312,
+    "Name": "Gutmann LLC",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 586,
-    "Rank": 52,
+    "UdListDefinitionId": 119,
+    "Rank": 526,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldLength": 146
       }
     }
   }

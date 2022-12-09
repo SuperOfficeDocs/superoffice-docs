@@ -20,7 +20,7 @@ You can set rights for data objects based on who owns the object. All users who 
 [!include[List of data objects](includes/list-of-data-objects.md)]
 </details>
 
-To set data rights for a role:
+**Steps:**
 
 1. [!include[Open Roles](includes/open-roles.md)]
 
@@ -45,7 +45,7 @@ To set data rights for a role:
 | Data owned by | Explanation|
 |---|---|
 | My own | Created by you |
-| Primary group (A) | Created by your primary group (e.g. department) |
+| Primary group (A) | Created by your primary group (department) |
 | My Company (E) | Created by an external user's company |
 | Other groups (A) | Created by a user group you belong to |
 | Same project (E) | Created in a project an external user belongs to |

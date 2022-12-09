@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SetVisibleForUserGroups
 
 Update User groups that this list item is visible for
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update User groups that this list item is visible for
 ```http
 POST /api/v1/Agents/List/SetVisibleForUserGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/List/SetVisibleForUserGroups?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, ListItemId, UserGroups
+UdListDefinitionId, ListItemId, UserGroups 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | ListItemId | int32 |  |
 | UserGroups | array |  |
+
 
 ## Response: array
 
@@ -85,28 +93,28 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 338,
-  "ListItemId": 601,
+  "UdListDefinitionId": 936,
+  "ListItemId": 88,
   "UserGroups": [
     {
-      "Id": 378,
-      "Name": "Wehner, Ruecker and Mraz",
-      "ToolTip": "Et incidunt sint.",
-      "Deleted": true,
-      "Rank": 252,
-      "Type": "minus",
-      "ColorBlock": 797,
-      "IconHint": "nemo",
+      "Id": 372,
+      "Name": "Waelchi-Padberg",
+      "ToolTip": "Eum quis optio delectus.",
+      "Deleted": false,
+      "Rank": 592,
+      "Type": "ut",
+      "ColorBlock": 977,
+      "IconHint": "animi",
       "Selected": false,
-      "LastChanged": "1999-02-01T11:10:27.1654259+01:00",
+      "LastChanged": "2016-12-19T02:49:44.6235457+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magnam",
-      "StyleHint": "eius",
-      "Hidden": true,
-      "FullName": "Eddie Bernhard"
+      "ExtraInfo": "rem",
+      "StyleHint": "laboriosam",
+      "Hidden": false,
+      "FullName": "Paul Wintheiser"
     }
   ]
 }
@@ -120,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 437,
-    "Name": "Nader-Vandervort",
-    "ToolTip": "Et rerum perspiciatis omnis.",
-    "Deleted": false,
-    "Rank": 746,
-    "Type": "error",
-    "ColorBlock": 325,
-    "IconHint": "quam",
+    "Id": 474,
+    "Name": "Nikolaus, Williamson and Gusikowski",
+    "ToolTip": "Nobis sit ad.",
+    "Deleted": true,
+    "Rank": 585,
+    "Type": "quis",
+    "ColorBlock": 593,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2005-11-29T11:10:27.1664477+01:00",
+    "LastChanged": "1996-04-17T02:49:44.6235457+02:00",
     "ChildItems": [
       {
-        "Id": 917,
-        "Name": "Ritchie, Mohr and Hauck",
-        "ToolTip": "Ipsum ut ducimus dolor repellat.",
-        "Deleted": true,
-        "Rank": 527,
-        "Type": "cupiditate",
-        "ColorBlock": 355,
-        "IconHint": "fugiat",
-        "Selected": false,
-        "LastChanged": "2002-03-03T11:10:27.1664477+01:00",
+        "Id": 548,
+        "Name": "Gislason-Marquardt",
+        "ToolTip": "Inventore distinctio nostrum et ducimus.",
+        "Deleted": false,
+        "Rank": 656,
+        "Type": "ea",
+        "ColorBlock": 276,
+        "IconHint": "hic",
+        "Selected": true,
+        "LastChanged": "2005-03-05T02:49:44.6235457+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "est",
+        "ExtraInfo": "et",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Ima O'Connell",
+        "FullName": "King Malinda Ryan II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 406
+            "FieldLength": 757
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "assumenda",
-    "Hidden": true,
-    "FullName": "Marshall Douglas",
+    "ExtraInfo": "nihil",
+    "StyleHint": "alias",
+    "Hidden": false,
+    "FullName": "Jamel Weissnat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 604
+        "FieldType": "System.Int32",
+        "FieldLength": 95
       }
     }
   }

@@ -41,16 +41,17 @@ Click a task in the list to edit its properties, such as when it was last execut
 
 8. Select **Disable** if the task should be inactive for the time being.
 
-9. Edit the schedule. The available fields will depend upon the selected frequency:
-    * **Never**: The task will not be run unless you select **Start now**.
-    * **Minute interval**: The task will be run at the selected interval (in minutes). Make sure the interval is longer than the time it takes to run the task.
-    * **Hourly**: The task will be run hourly, at X minutes past the hour.
-    * **Week interval**: The task will be run weekly. Enter at which time and on which day(s) the task should be run.
-    * **Month interval**:The task will be run monthly. Enter at which time, on which day of the month and in which month(s).
-    * **Once**: The task will be run at the set date and time.
-    * **Run after schedule**: The task will be run when the selected scheduled task is complete. You can use this option to chain tasks together.
+9. Edit the schedule. The available fields will depend on the selected frequency:
 
-10. Set **Lock time in minutes**. The purpose of this setting is to prevent multiple tasks from the same schedule to run at the same time. You should set this value higher than the expected run time for your task. If your task takes more time than specified here, it will be considered failed, and a new task from the same schedule will be allowed to run.
+    * **Never**: The task does not run unless you select **Start now**.
+    * **Minute interval**: The task runs at the selected interval (in minutes). Make sure the interval is longer than the time it takes to run the task.
+    * **Hourly**: The task runs hourly, at X minutes past the hour.
+    * **Week interval**: The task runs weekly. Enter the time and on which day(s) the task should be run.
+    * **Month interval**:The task runs monthly. Enter the time, on which day of the month, and in which month(s).
+    * **Once**: The task runs at the set date and time.
+    * **Run after schedule**: The task runs when the selected scheduled task is complete. You can use this option to chain tasks together.
+
+10. Set **Lock time in minutes** to prevent multiple tasks from the same schedule to run at the same time. You should set this value higher than the expected run time for your task. If your task takes more time than specified here, it is considered failed, and a new task from the same schedule is allowed to run.
 
 11. Set **Minutes before restart after error**. This setting specifies the time before a failed task (a task that has crashed) will be re-run.
 

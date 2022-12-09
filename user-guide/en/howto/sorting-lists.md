@@ -11,7 +11,7 @@ language: en
 
 # Sort lists
 
-There are a number of different lists in SuperOffice CRM, for example, lists of contacts and activities. You can decide which columns are displayed in these lists, how wide they should be and how they should be sorted.
+There are different lists in SuperOffice CRM, for example, lists of contacts and activities. You can decide which columns are displayed in these lists, how wide they should be and how they should be sorted.
 
 In the different section tabs in SuperOffice CRM, you can sort the lists by the various columns in ascending or descending order.
 

@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 
 Retrieve an attachment from an e-mail.
 
+
 The returned data is intended to be use for a preview. The returned data is not sanitized.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The returned data is intended to be use for a preview. The returned data is not 
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MailItemId, AttachmentId, AttachmentType, AttachmentFilename
+MailItemId, AttachmentId, AttachmentType, AttachmentFilename 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +58,8 @@ MailItemId, AttachmentId, AttachmentType, AttachmentFilename
 | AttachmentType | string |  |
 | AttachmentFilename | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -58,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,14 +88,14 @@ Response body:
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 276,
-  "AttachmentId": "ut",
-  "AttachmentType": "laudantium",
-  "AttachmentFilename": "accusamus"
+  "MailItemId": 337,
+  "AttachmentId": "quam",
+  "AttachmentType": "iusto",
+  "AttachmentFilename": "ut"
 }
 ```
 
@@ -97,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Monitored global functionalities",
-  "Filename": "impedit",
-  "Size": 314,
-  "Type": "hic",
-  "Encoding": "deleniti",
-  "Id": "eius",
-  "Disposition": "quos",
+  "Description": "Open-architected empowering complexity",
+  "Filename": "eum",
+  "Size": 371,
+  "Type": "quia",
+  "Encoding": "qui",
+  "Id": "quia",
+  "Disposition": "minima",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 26
     }
   }
 }

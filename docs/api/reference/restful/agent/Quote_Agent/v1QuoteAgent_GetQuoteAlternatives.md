@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteAlternatives
 
 Get all quote alternatives for a quote version
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all quote alternatives for a quote version
 ```http
 POST /api/v1/Agents/Quote/GetQuoteAlternatives?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Quote/GetQuoteAlternatives?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId
+QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
+
 
 ## Response: array
 
@@ -87,11 +95,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 921
+  "QuoteVersionId": 646
 }
 ```
 
@@ -103,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 678,
-    "ERPQuoteAlternativeKey": "aspernatur",
-    "QuoteVersionId": 720,
-    "Name": "Paucek Group",
-    "Description": "Customizable demand-driven contingency",
+    "QuoteAlternativeId": 126,
+    "ERPQuoteAlternativeKey": "inventore",
+    "QuoteVersionId": 572,
+    "Name": "Boyle Group",
+    "Description": "Down-sized leading edge software",
     "Status": "Error",
-    "Reason": "",
-    "ERPDiscountPercent": 23755.719999999998,
-    "ERPDiscountAmount": 833.644,
-    "DiscountPercent": 30227.43,
-    "DiscountAmount": 27080.894,
+    "Reason": "synthesize 24/365 convergence",
+    "ERPDiscountPercent": 3259.3599999999997,
+    "ERPDiscountAmount": 26438.424,
+    "DiscountPercent": 4155.684,
+    "DiscountAmount": 10060.14,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "occaecati",
-    "VAT": 9539.8959999999988,
-    "EarningPercent": 28560.142,
-    "EarningAmount": 14563.698,
-    "SubTotal": 5989.074,
-    "TotalPrice": 12498.392,
-    "ExtraField1": "dolores",
-    "ExtraField2": "autem",
-    "ExtraField3": "est",
-    "ExtraField4": "quae",
-    "ExtraField5": "quam",
+    "VATInfo": "veritatis",
+    "VAT": 27015.079999999998,
+    "EarningPercent": 5471.964,
+    "EarningAmount": 19553.025999999998,
+    "SubTotal": 10429.952,
+    "TotalPrice": 30070.73,
+    "ExtraField1": "eos",
+    "ExtraField2": "enim",
+    "ExtraField3": "consequatur",
+    "ExtraField4": "modi",
+    "ExtraField5": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 674
       }
     }
   }

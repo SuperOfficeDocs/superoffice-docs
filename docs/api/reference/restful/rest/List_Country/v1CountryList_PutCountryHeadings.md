@@ -11,7 +11,14 @@ PUT /api/v1/List/Country/Headings
 
 Saves headings for the Country list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -72,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 394,
-    "Name": "Treutel, Kemmer and Lueilwitz",
-    "Tooltip": "soluta",
+    "HeadingId": 381,
+    "Name": "Streich Group",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "Rank": 902,
-    "UdListDefinitionId": 426
+    "Rank": 815,
+    "UdListDefinitionId": 726
   },
   {
-    "HeadingId": 394,
-    "Name": "Treutel, Kemmer and Lueilwitz",
-    "Tooltip": "soluta",
+    "HeadingId": 381,
+    "Name": "Streich Group",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "Rank": 902,
-    "UdListDefinitionId": 426
+    "Rank": 815,
+    "UdListDefinitionId": 726
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 906,
-    "Name": "Nader, Schmeler and Mills",
-    "Tooltip": "harum",
+    "HeadingId": 651,
+    "Name": "Greenholt LLC",
+    "Tooltip": "porro",
     "Deleted": false,
-    "Rank": 908,
-    "UdListDefinitionId": 867,
+    "Rank": 326,
+    "UdListDefinitionId": 422,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldType": "System.String",
+        "FieldLength": 940
       }
     }
   }

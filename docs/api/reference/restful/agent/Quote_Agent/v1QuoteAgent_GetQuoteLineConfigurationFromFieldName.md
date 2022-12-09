@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
 
 Returns the configuration field with the given field name
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the configuration field with the given field name
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FieldName
+FieldName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FieldName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,11 +81,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "McLaughlin, Moen and Brakus"
+  "FieldName": "Gorczany LLC"
 }
 ```
 
@@ -88,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 673,
-  "FieldName": "Vandervort Group",
-  "Label": "quas",
-  "Tooltip": "et",
+  "QuoteLineConfigurationId": 276,
+  "FieldName": "Leannon LLC",
+  "Label": "voluptatum",
+  "Tooltip": "sed",
   "Editable": false,
   "InUse": false,
-  "Mandatory": false,
-  "Rank": 612,
+  "Mandatory": true,
+  "Rank": 127,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 161
+      "FieldType": "System.Int32",
+      "FieldLength": 213
     }
   }
 }

@@ -9,7 +9,13 @@ uid: v1BatchAgent_GetBatchTaskInfosByNameAndState
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 ```
 
-Gets an array of BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.
+Gets an array of user BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,6 +26,7 @@ Gets an array of BatchTaskInfo with state defined by a BatchTaskState and the ba
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, State
+Name, State 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | State | string |  |
+
 
 ## Response: array
 
@@ -86,11 +94,11 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Larkin, Keebler and Zboncak",
+  "Name": "Hoppe-Rosenbaum",
   "State": "All"
 }
 ```
@@ -103,36 +111,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Langosh, Donnelly and O'Connell",
-    "AssociateId": 427,
-    "DetailsTable": 737,
-    "DetailsRecord": 194,
+    "Id": 261,
+    "Name": "Moen-Jacobson",
+    "AssociateId": 281,
+    "DetailsTable": 835,
+    "DetailsRecord": 108,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quia",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "et",
+      "ParameterObject2": "id"
     },
-    "LastStarted": "2008-11-26T11:10:26.0205538+01:00",
-    "Created": "2009-02-12T11:10:26.0205538+01:00",
-    "StartCount": 313,
-    "DatabaseSerialNumber": "1191787",
-    "Context": "nihil",
-    "Result": "quia",
+    "LastStarted": "2021-02-25T02:49:43.7004017+01:00",
+    "Created": "2006-05-11T02:49:43.7004017+02:00",
+    "StartCount": 145,
+    "DatabaseSerialNumber": "955658",
+    "Context": "et",
+    "Result": "aliquid",
     "State": "All",
-    "Description": "Persevering tangible website",
-    "Response": "ex",
-    "Request": "repellat",
-    "ProgressDescription": "Self-enabling interactive access",
-    "ProgressPercent": 437,
-    "FileName": "Gislason-Moore",
+    "Description": "Proactive zero tolerance software",
+    "Response": "aut",
+    "Request": "iure",
+    "ProgressDescription": "Reverse-engineered background hub",
+    "ProgressPercent": 568,
+    "FileName": "Spencer-Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldType": "System.String",
+        "FieldLength": 255
       }
     }
   }

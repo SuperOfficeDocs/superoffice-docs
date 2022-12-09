@@ -17,29 +17,32 @@ Example: The internal category "Support" can then have an external category for 
 
 ## Create external categories
 
-To create a new external category:
-
 1. [!include[Go to Options](../includes/open-options.md)]
+
 2. Select the **Customer languages** tab.
-3. Click the required language. The **Customer language** screen opens, containing information about that language.
-4. Click the **New external category** button. The **Edit external category** screen appears.
-5. Click the **Category** field, and select the internal category name, i.e. the name which is visible to SuperOffice users.
-6. In the **External name** field, enter the name which the category should have when displayed to your customers in this language in SuperOffice Customer Centre. In this way, you can use an internal name which is standardised in one language, while you can create an external "alias" in another language.
-7. If you want, you can click **Sub-element of** and select the name of any parent category. This is relevant if you want to create a hierarchy of categories in the language in question.
+
+3. Click the required language.
+
+4. In the **Customer language** screen, click the **New external category** button.
+
+5. In the **Edit external category** screen, click the **Category** field, and select the internal category name (the name visible to SuperOffice users).
+
+6. In the **External name** field, enter the name which the category should have when displayed to your customers in this language in SuperOffice Customer Centre. In this way, you can use an internal name standardized in one language, while you can create an external "alias" in another language.
+
+7. Optionally, click **Sub-element of** and select the name of any parent category to create a hierarchy of categories in the language in question.
+
 8. Click **OK**. The external category is created, and displayed under **External categories** in the **Customer language** screen.
 
 > [!NOTE]
-> The external categories are only displayed in the **Customer language** screen. They are not shown under **System settings** > **Categories** in SuperOffice Service.
+> The external categories are displayed only in the **Customer language** screen. They are not shown under **System settings** > **Categories** in SuperOffice Service.
 
 ## Delete external categories
 
-To delete an external category, do as follows:
-
 1. [!include[Go to Options](../includes/open-options.md)]
 2. Select the **Customer languages** tab.
-3. Click the required language. The **Customer language** screen opens, containing information about that language.
-4. Click the required category name under **External categories**. The **Edit external category** screen appears.
-5. Click the **Delete** button at the bottom of the screen. The link to the external category from this customer language is deleted, but not the category itself.
+3. Click the required language.
+4. In the **Customer language** screen, click the required category name under **External categories**.
+5. At the bottom of the **Edit external category** screen, click the **Delete** button. The link to the external category from this customer language is deleted, but not the category itself.
 
 ## What would you like to do now?
 

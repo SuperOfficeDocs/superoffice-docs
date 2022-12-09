@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId
 
 Get an e-mail based on an email in the archive system and attachment id
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get an e-mail based on an email in the archive system and attachment id
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocId, AttachmentIds, IncludeAttachments
+DocId, AttachmentIds, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +56,8 @@ DocId, AttachmentIds, IncludeAttachments
 | AttachmentIds | array |  |
 | IncludeAttachments | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,10 +108,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 241,
+  "DocId": 482,
   "AttachmentIds": [
-    "ab",
-    "qui"
+    "eveniet",
+    "aut"
   ],
   "IncludeAttachments": false
 }
@@ -116,146 +126,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 733,
-      "ContactName": "Ruecker, Thiel and Koch",
-      "PersonId": 254,
-      "PersonName": "Ebert LLC",
-      "AssociateId": 472,
-      "Address": "amet",
-      "EmailId": 510,
+      "ContactId": 843,
+      "ContactName": "Grady, Bernier and Torp",
+      "PersonId": 159,
+      "PersonName": "Bosco LLC",
+      "AssociateId": 550,
+      "Address": "labore",
+      "EmailId": 640,
       "DuplicatePersonIds": [
-        90,
-        443
+        129,
+        248
       ],
-      "Name": "Doyle, Gislason and Mills",
+      "Name": "Ernser, Ferry and Abshire",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 571
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 489,
-      "ContactName": "Heller, O'Keefe and Ledner",
-      "PersonId": 51,
-      "PersonName": "Quitzon Inc and Sons",
-      "AssociateId": 411,
-      "Address": "veniam",
-      "EmailId": 397,
+      "ContactId": 754,
+      "ContactName": "Fadel-Schimmel",
+      "PersonId": 675,
+      "PersonName": "Labadie Inc and Sons",
+      "AssociateId": 181,
+      "Address": "nostrum",
+      "EmailId": 827,
       "DuplicatePersonIds": [
-        549,
-        765
+        805,
+        739
       ],
-      "Name": "Fay, Moore and Shields",
+      "Name": "Greenfelder-Turner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldLength": 697
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 280,
-      "ContactName": "O'Kon LLC",
-      "PersonId": 545,
-      "PersonName": "Berge LLC",
-      "AssociateId": 573,
-      "Address": "cumque",
-      "EmailId": 351,
+      "ContactId": 186,
+      "ContactName": "Roob, Conn and Welch",
+      "PersonId": 442,
+      "PersonName": "Boyle, Stiedemann and Romaguera",
+      "AssociateId": 475,
+      "Address": "ut",
+      "EmailId": 102,
       "DuplicatePersonIds": [
-        947,
-        55
+        599,
+        497
       ],
-      "Name": "Kassulke-Mueller",
+      "Name": "Stoltenberg-Hagenes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 57
+          "FieldType": "System.String",
+          "FieldLength": 777
         }
       }
     }
   ],
-  "Subject": "accusamus",
-  "HTMLBody": "aliquid",
+  "Subject": "sint",
+  "HTMLBody": "sint",
   "From": null,
-  "Sent": "2008-05-15T11:10:26.9564529+02:00",
-  "Size": 747,
+  "Sent": "2012-02-20T02:49:44.4504155+01:00",
+  "Size": 124,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptas",
-  "PlainBody": "et",
+  "MessageID": "amet",
+  "PlainBody": "est",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 430,
+  "ServerId": 582,
   "Attachments": [
     {
-      "Description": "Reactive high-level encoding",
-      "Filename": "voluptatum",
-      "Size": 321,
-      "Type": "voluptates",
-      "Encoding": "enim",
-      "Id": "vitae",
-      "Disposition": "ipsum",
+      "Description": "Sharable fresh-thinking project",
+      "Filename": "recusandae",
+      "Size": 872,
+      "Type": "ut",
+      "Encoding": "qui",
+      "Id": "rerum",
+      "Disposition": "facilis",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldType": "System.String",
+          "FieldLength": 736
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Quigley-Gusikowski",
+      "Name": "Rogahn-Ward",
       "Values": [
-        "quis",
-        "quod"
+        "corporis",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 424
+          "FieldLength": 795
         }
       }
     },
     {
-      "Name": "Quigley-Gusikowski",
+      "Name": "Rogahn-Ward",
       "Values": [
-        "quis",
-        "quod"
+        "corporis",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 424
+          "FieldLength": 795
         }
       }
     }
   ],
-  "FolderName": "Will Group",
-  "EmailItemId": 785,
-  "AccountId": 663,
-  "ReceivedAt": "1997-11-30T11:10:26.9564529+01:00",
+  "FolderName": "Jerde Inc and Sons",
+  "EmailItemId": 576,
+  "AccountId": 525,
+  "ReceivedAt": "2016-08-11T02:49:44.4504155+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-05-28T11:10:26.9564529+02:00",
+  "RepliedAt": "2014-08-22T02:49:44.4504155+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -263,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 923
+      "FieldType": "System.Int32",
+      "FieldLength": 257
     }
   }
 }

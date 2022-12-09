@@ -11,7 +11,13 @@ POST /api/v1/Appointment
 
 Creates a new AppointmentEntity
 
+
 Calls the Appointment agent service SaveAppointmentEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Appointment agent service SaveAppointmentEntity.
 ```http
 POST /api/v1/Appointment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Appointment?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The AppointmentEntity to be saved.
+The AppointmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,7 +106,8 @@ The AppointmentEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -107,7 +115,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -176,7 +184,7 @@ Response body:
 POST /api/v1/Appointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -184,62 +192,62 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-03-10T11:10:52.3221449+01:00",
-  "AppointmentId": 173,
-  "Description": "Phased fault-tolerant access",
-  "StartDate": "1998-03-23T11:10:52.3221449+01:00",
-  "EndDate": "2016-05-21T11:10:52.3221449+02:00",
+  "CreatedDate": "2021-05-26T02:49:50.4796596+02:00",
+  "AppointmentId": 126,
+  "Description": "Extended full-range process improvement",
+  "StartDate": "2022-11-08T02:49:50.4796596+01:00",
+  "EndDate": "2002-11-06T02:49:50.4796596+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 2,
+  "MotherId": 345,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1997-11-07T11:10:52.3241449+01:00",
+  "UpdatedDate": "2016-01-14T02:49:50.4796596+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 854,
+  "ActiveLinks": 331,
   "Links": [
     {
-      "EntityName": "Luettgen Inc and Sons",
-      "Id": 44,
-      "Description": "Universal modular collaboration",
-      "ExtraInfo": "deleniti",
-      "LinkId": 474
+      "EntityName": "Sporer-Moen",
+      "Id": 496,
+      "Description": "Assimilated motivating algorithm",
+      "ExtraInfo": "ut",
+      "LinkId": 114
     },
     {
-      "EntityName": "Luettgen Inc and Sons",
-      "Id": 44,
-      "Description": "Universal modular collaboration",
-      "ExtraInfo": "deleniti",
-      "LinkId": 474
+      "EntityName": "Sporer-Moen",
+      "Id": 496,
+      "Description": "Assimilated motivating algorithm",
+      "ExtraInfo": "ut",
+      "LinkId": 114
     }
   ],
-  "AlarmLeadTime": "nemo",
+  "AlarmLeadTime": "ut",
   "HasAlarm": false,
-  "ColorIndex": 394,
-  "IsFree": false,
+  "ColorIndex": 458,
+  "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "sed",
-  "LeadTime": "repellat",
-  "Location": "similique",
-  "RejectCounter": 318,
+  "LagTime": "commodi",
+  "LeadTime": "eius",
+  "Location": "qui",
+  "RejectCounter": 346,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 373,
-      "PersonId": 127,
-      "ContactId": 822,
-      "EmailId": 453,
+      "AssociateId": 613,
+      "PersonId": 585,
+      "ContactId": 721,
+      "EmailId": 176,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 373,
-      "PersonId": 127,
-      "ContactId": 822,
-      "EmailId": 453,
+      "AssociateId": 613,
+      "PersonId": 585,
+      "ContactId": 721,
+      "EmailId": 176,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -247,44 +255,44 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-05-16T11:10:52.3251446+02:00",
+  "ActiveDate": "2022-06-21T02:49:50.4796596+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 770,
+  "PreferredTZLocation": 411,
   "Sale": null,
-  "SuggestedAppointmentId": 615,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 4,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "adipisci",
+  "CentralserviceVideomeetId": "atque",
   "UserDefinedFields": {
-    "SuperOffice:1": "Kelli Parisian",
-    "SuperOffice:2": "Gillian Watsica"
+    "SuperOffice:1": "Dr. Javier Weissnat",
+    "SuperOffice:2": "Gideon Rutherford"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "doloribus"
+    "ExtraFields1": "accusamus",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "doloribus"
+    "CustomFields1": "quia",
+    "CustomFields2": "numquam"
   },
-  "PublishEventDate": "2006-01-20T11:10:52.3271744+01:00",
-  "PublishTo": "2015-02-23T11:10:52.3271744+01:00",
-  "PublishFrom": "2010-08-20T11:10:52.3271744+02:00",
+  "PublishEventDate": "2007-04-11T02:49:50.4796596+02:00",
+  "PublishTo": "2013-01-04T02:49:50.4796596+01:00",
+  "PublishFrom": "2003-01-13T02:49:50.4796596+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 371,
+      "VisibleId": 338,
       "Visibility": "All",
-      "DisplayValue": "esse"
+      "DisplayValue": "est"
     },
     {
-      "VisibleId": 371,
+      "VisibleId": 338,
       "Visibility": "All",
-      "DisplayValue": "esse"
+      "DisplayValue": "est"
     }
   ]
 }
@@ -301,63 +309,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-05-18T11:10:52.3361458+02:00",
-  "AppointmentId": 14,
-  "Description": "Optional impactful time-frame",
-  "StartDate": "2019-12-16T11:10:52.3361458+01:00",
-  "EndDate": "2016-04-08T11:10:52.3361458+02:00",
+  "CreatedDate": "2011-07-11T02:49:50.4952844+02:00",
+  "AppointmentId": 219,
+  "Description": "Multi-channelled full-range interface",
+  "StartDate": "2016-01-30T02:49:50.4952844+01:00",
+  "EndDate": "2013-09-11T02:49:50.4952844+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 740,
+  "MotherId": 110,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2016-12-26T11:10:52.3391436+01:00",
+  "UpdatedDate": "2012-08-10T02:49:50.4952844+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 696,
+  "ActiveLinks": 234,
   "Links": [
     {
-      "EntityName": "Haag, Murphy and Harris",
-      "Id": 192,
-      "Description": "Profit-focused holistic implementation",
-      "ExtraInfo": "beatae",
-      "LinkId": 728,
+      "EntityName": "Willms, Vandervort and Osinski",
+      "Id": 266,
+      "Description": "Visionary actuating encoding",
+      "ExtraInfo": "et",
+      "LinkId": 180,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 500
+          "FieldType": "System.Int32",
+          "FieldLength": 90
         }
       }
     }
   ],
-  "AlarmLeadTime": "eveniet",
+  "AlarmLeadTime": "ad",
   "HasAlarm": false,
-  "ColorIndex": 342,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "voluptatum",
-  "LeadTime": "deserunt",
-  "Location": "vitae",
-  "RejectCounter": 697,
+  "ColorIndex": 693,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "fugit",
+  "LeadTime": "sint",
+  "Location": "beatae",
+  "RejectCounter": 214,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 881,
-      "PersonId": 762,
-      "ContactId": 357,
-      "EmailId": 251,
+      "AssociateId": 906,
+      "PersonId": 179,
+      "ContactId": 744,
+      "EmailId": 783,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 881,
-      "PersonId": 762,
-      "ContactId": 357,
-      "EmailId": 251,
+      "AssociateId": 906,
+      "PersonId": 179,
+      "ContactId": 744,
+      "EmailId": 783,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -365,58 +373,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-09-20T11:10:52.3401462+02:00",
+  "ActiveDate": "2002-07-07T02:49:50.4952844+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 45,
+  "PreferredTZLocation": 218,
   "Sale": null,
-  "SuggestedAppointmentId": 639,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 705,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "non",
+  "CentralserviceVideomeetId": "consequuntur",
   "UserDefinedFields": {
-    "SuperOffice:1": "570303211",
-    "SuperOffice:2": "Celia Raina Hagenes I"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Bret Senger"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "nisi",
+    "ExtraFields2": "magnam"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "est"
+    "CustomFields1": "quis",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2014-06-10T11:10:52.3411737+02:00",
-  "PublishTo": "2006-07-12T11:10:52.3411737+02:00",
-  "PublishFrom": "2007-07-24T11:10:52.3411737+02:00",
+  "PublishEventDate": "2021-12-25T02:49:50.4952844+01:00",
+  "PublishTo": "2016-12-15T02:49:50.4952844+01:00",
+  "PublishFrom": "2001-09-30T02:49:50.4952844+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 394,
+      "VisibleId": 887,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 678
+          "FieldType": "System.String",
+          "FieldLength": 692
         }
       }
     },
     {
-      "VisibleId": 394,
+      "VisibleId": 887,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 678
+          "FieldType": "System.String",
+          "FieldLength": 692
         }
       }
     }
@@ -426,12 +434,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 676
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

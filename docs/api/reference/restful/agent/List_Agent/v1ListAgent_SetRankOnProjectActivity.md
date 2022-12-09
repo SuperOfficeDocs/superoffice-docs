@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SetRankOnProjectActivity
 
 Set rank order on project activity
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Set rank order on project activity
 ```http
 POST /api/v1/Agents/List/SetRankOnProjectActivity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/List/SetRankOnProjectActivity?$select=name,department,catego
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectTypeStatusLinkId, ItemsIds
+ProjectTypeStatusLinkId, ItemsIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectTypeStatusLinkId | int32 |  |
 | ItemsIds | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,14 +65,14 @@ Response body:
 POST /api/v1/Agents/List/SetRankOnProjectActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectTypeStatusLinkId": 721,
+  "ProjectTypeStatusLinkId": 666,
   "ItemsIds": [
-    904,
-    810
+    63,
+    235
   ]
 }
 ```

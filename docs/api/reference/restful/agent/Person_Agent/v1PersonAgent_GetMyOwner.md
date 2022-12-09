@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetMyOwner
 
 Get the owner of the logged in person.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the owner of the logged in person.
 ```http
 POST /api/v1/Agents/Person/GetMyOwner?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,8 @@ POST /api/v1/Agents/Person/GetMyOwner?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -42,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,7 +103,7 @@ Response body:
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,52 +113,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "enim",
-  "PersonId": 482,
-  "Mrmrs": "et",
-  "Firstname": "Arlene",
-  "Lastname": "Roberts",
-  "MiddleName": "McDermott-Welch",
-  "Title": "mollitia",
-  "Description": "Monitored motivating system engine",
-  "Email": "abraham_larkin@zemlak.uk",
-  "FullName": "Miss Claud Antonina Ratke II",
-  "DirectPhone": "1-603-124-9961 x8600",
-  "FormalName": "Kovacek Inc and Sons",
-  "CountryId": 898,
-  "ContactId": 339,
-  "ContactName": "Jacobson, Torp and D'Amore",
-  "Retired": 324,
-  "Rank": 892,
-  "ActiveInterests": 429,
+  "Position": "tempore",
+  "PersonId": 317,
+  "Mrmrs": "odit",
+  "Firstname": "Wilbert",
+  "Lastname": "Keebler",
+  "MiddleName": "Thiel LLC",
+  "Title": "sed",
+  "Description": "Persevering hybrid conglomeration",
+  "Email": "kenyon@volkman.info",
+  "FullName": "Filomena Paucek I",
+  "DirectPhone": "(628)490-0153 x504",
+  "FormalName": "Jacobs-Veum",
+  "CountryId": 411,
+  "ContactId": 268,
+  "ContactName": "Bins Group",
+  "Retired": 618,
+  "Rank": 447,
+  "ActiveInterests": 107,
   "ContactDepartment": "",
-  "ContactCountryId": 851,
-  "ContactOrgNr": "1238722",
-  "FaxPhone": "399.954.7164",
-  "MobilePhone": "1-688-688-9455 x668",
-  "ContactPhone": "891.590.4125",
-  "AssociateName": "Heidenreich, Mosciski and Carter",
-  "AssociateId": 152,
-  "UsePersonAddress": false,
-  "ContactFax": "dolorum",
-  "Kanafname": "consequatur",
-  "Kanalname": "impedit",
-  "Post1": "beatae",
-  "Post2": "est",
-  "Post3": "est",
-  "EmailName": "leonie_macejkovic@rippin.co.uk",
-  "ContactFullName": "Filomena Pacocha",
-  "ActiveErpLinks": 542,
-  "TicketPriorityId": 713,
-  "SupportLanguageId": 476,
-  "SupportAssociateId": 728,
+  "ContactCountryId": 34,
+  "ContactOrgNr": "522413",
+  "FaxPhone": "154-540-9088 x3979",
+  "MobilePhone": "193.056.0324 x84742",
+  "ContactPhone": "(504)635-7359",
+  "AssociateName": "Baumbach, Yost and Larkin",
+  "AssociateId": 199,
+  "UsePersonAddress": true,
+  "ContactFax": "ullam",
+  "Kanafname": "sit",
+  "Kanalname": "consequatur",
+  "Post1": "incidunt",
+  "Post2": "sint",
+  "Post3": "debitis",
+  "EmailName": "marge@senger.biz",
+  "ContactFullName": "Tanner Kunze",
+  "ActiveErpLinks": 429,
+  "TicketPriorityId": 753,
+  "SupportLanguageId": 962,
+  "SupportAssociateId": 818,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldType": "System.String",
+      "FieldLength": 252
     }
   }
 }

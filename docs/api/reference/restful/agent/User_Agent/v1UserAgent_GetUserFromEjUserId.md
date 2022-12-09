@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetUserFromEjUserId
 
 Get user from ejUserId - used for eJournal Legacy Support.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get user from ejUserId - used for eJournal Legacy Support.
 ```http
 POST /api/v1/Agents/User/GetUserFromEjUserId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/User/GetUserFromEjUserId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EjUserId
+EjUserId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EjUserId | int32 |  |
+
 
 ## Response: array
 
@@ -91,11 +101,11 @@ Response body: array
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 33
+  "EjUserId": 877
 }
 ```
 
@@ -107,14 +117,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 617,
-    "Name": "Braun LLC",
-    "Rank": 772,
-    "Tooltip": "natus",
+    "AssociateId": 554,
+    "Name": "Pouros-Turner",
+    "Rank": 676,
+    "Tooltip": "laborum",
     "LicenseOwners": [
       {
-        "Name": "Green, Dare and Haley",
-        "Description": "Proactive 4th generation archive",
+        "Name": "Hammes-Cole",
+        "Description": "Realigned zero defect software",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -127,14 +137,14 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 478
+            "FieldType": "System.Int32",
+            "FieldLength": 721
           }
         }
       },
       {
-        "Name": "Green, Dare and Haley",
-        "Description": "Proactive 4th generation archive",
+        "Name": "Hammes-Cole",
+        "Description": "Realigned zero defect software",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -147,8 +157,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 478
+            "FieldType": "System.Int32",
+            "FieldLength": 721
           }
         }
       }
@@ -157,110 +167,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "maiores",
-        "Tooltip": "quia",
-        "Id": 140,
-        "Rank": 123,
-        "Deleted": true,
+        "Value": "quia",
+        "Tooltip": "culpa",
+        "Id": 781,
+        "Rank": 626,
+        "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 371
+            "FieldType": "System.Int32",
+            "FieldLength": 407
           }
         }
       }
     ],
     "Person": null,
-    "Deleted": true,
-    "Lastlogin": "2004-04-07T11:10:28.4462158+02:00",
-    "Lastlogout": "2000-09-06T11:10:28.4462158+02:00",
-    "EjUserId": 453,
-    "RequestSignature": "necessitatibus",
+    "Deleted": false,
+    "Lastlogin": "2010-11-17T02:49:45.7028474+01:00",
+    "Lastlogout": "2014-06-09T02:49:45.7028474+02:00",
+    "EjUserId": 102,
+    "RequestSignature": "molestias",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
+    "IsPersonRetired": false,
     "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "a",
-        "DisplayValue": "laborum",
+        "Value": "velit",
+        "DisplayValue": "quia",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 253
+            "FieldLength": 167
           }
         }
       },
       {
         "Type": null,
-        "Value": "a",
-        "DisplayValue": "laborum",
+        "Value": "velit",
+        "DisplayValue": "quia",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 253
+            "FieldLength": 167
           }
         }
       }
     ],
-    "UserName": "Botsford-Schulist",
+    "UserName": "Greenfelder LLC",
     "TicketCategories": [
       {
-        "Id": 838,
-        "Name": "Howell Group",
-        "ToolTip": "Nesciunt maiores consequatur corporis enim.",
-        "Deleted": false,
-        "Rank": 91,
-        "Type": "voluptatem",
+        "Id": 439,
+        "Name": "Muller, Boyer and Cummerata",
+        "ToolTip": "Ex omnis vero et ratione.",
+        "Deleted": true,
+        "Rank": 744,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 912,
-        "ExtraInfo": "id",
-        "StyleHint": "quibusdam",
-        "FullName": "Isabelle Daphnee Sawayn PhD",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 579
-          }
-        }
-      }
-    ],
-    "NickName": "Miller Inc and Sons",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "commodi",
-      "ExtraFields2": "aut"
-    },
-    "CustomFields": {
-      "CustomFields1": "veniam",
-      "CustomFields2": "rerum"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "McGlynn-Hickle",
-        "DisplayName": "Ernser, Spinka and Walsh",
-        "Description": "Triple-buffered encompassing Graphic Interface",
-        "ToolTip": "Corrupti consequuntur voluptate.",
-        "Actions": "Implicit",
-        "ActionData": "aut",
+        "IconHint": "aspernatur",
+        "ColorBlock": 169,
+        "ExtraInfo": "ipsam",
+        "StyleHint": "nihil",
+        "FullName": "Mr. Peggie Alexandrine Langworth Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 506
+            "FieldLength": 1001
+          }
+        }
+      }
+    ],
+    "NickName": "Jacobson-Wehner",
+    "WaitingForApproval": true,
+    "ExtraFields": {
+      "ExtraFields1": "sapiente",
+      "ExtraFields2": "consectetur"
+    },
+    "CustomFields": {
+      "CustomFields1": "rerum",
+      "CustomFields2": "ea"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Harris-Greenholt",
+        "DisplayName": "Pouros Group",
+        "Description": "Extended demand-driven framework",
+        "ToolTip": "Quis ut quas officiis quia reprehenderit aut ut.",
+        "Actions": "Implicit",
+        "ActionData": "consequatur",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 802
           }
         }
       }
@@ -269,8 +279,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 748
+        "FieldType": "System.Int32",
+        "FieldLength": 668
       }
     }
   }

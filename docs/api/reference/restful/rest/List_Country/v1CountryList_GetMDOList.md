@@ -11,6 +11,12 @@ GET /api/v1/List/Country/MDOItems
 
 Get the MDO list items for "Country" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=iste
+GET /api/v1/List/Country/MDOItems?query=et
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Country/MDOItems?query=iste
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 303,
-    "Name": "Murazik Group",
-    "ToolTip": "Aut facere in.",
-    "Deleted": true,
-    "Rank": 532,
-    "Type": "qui",
+    "Id": 652,
+    "Name": "Cassin, Wisozk and Conroy",
+    "ToolTip": "Sed quidem.",
+    "Deleted": false,
+    "Rank": 146,
+    "Type": "beatae",
     "ChildItems": [
       {
-        "Id": 854,
-        "Name": "Kessler, Runte and Rohan",
-        "ToolTip": "Autem ipsam.",
-        "Deleted": true,
-        "Rank": 196,
-        "Type": "magnam",
+        "Id": 848,
+        "Name": "Goodwin-Satterfield",
+        "ToolTip": "Delectus voluptate eos illum facilis laborum doloremque.",
+        "Deleted": false,
+        "Rank": 664,
+        "Type": "laboriosam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "odit",
-        "ColorBlock": 21,
-        "ExtraInfo": "sequi",
-        "StyleHint": "nobis",
-        "FullName": "Dr. Kennith Blaze Shields V",
+        "IconHint": "rerum",
+        "ColorBlock": 870,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "ut",
+        "FullName": "Maynard Sipes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 994
+            "FieldLength": 307
           }
         }
       }
     ],
-    "IconHint": "veritatis",
-    "ColorBlock": 445,
-    "ExtraInfo": "quis",
-    "StyleHint": "voluptates",
-    "FullName": "Mrs. Nya Simonis DVM",
+    "IconHint": "sequi",
+    "ColorBlock": 155,
+    "ExtraInfo": "in",
+    "StyleHint": "et",
+    "FullName": "Else Myrtie Pouros Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldLength": 195
       }
     }
   }

@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetUserFromName
 
 Get a user, with lookup based on user name.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get a user, with lookup based on user name.
 ```http
 POST /api/v1/Agents/User/GetUserFromName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/User/GetUserFromName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserName
+UserName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,11 +101,11 @@ Response body:
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "O'Conner, Green and Hodkiewicz"
+  "UserName": "Moen-Deckow"
 }
 ```
 
@@ -106,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 174,
-  "Name": "Nicolas-Monahan",
-  "Rank": 298,
-  "Tooltip": "et",
+  "AssociateId": 421,
+  "Name": "McCullough Group",
+  "Rank": 690,
+  "Tooltip": "quas",
   "LicenseOwners": [
     {
-      "Name": "Smitham Inc and Sons",
-      "Description": "Synchronised encompassing installation",
+      "Name": "Hills-Kessler",
+      "Description": "Vision-oriented transitional task-force",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -127,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 111
         }
       }
     },
     {
-      "Name": "Smitham Inc and Sons",
-      "Description": "Synchronised encompassing installation",
+      "Name": "Hills-Kessler",
+      "Description": "Vision-oriented transitional task-force",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -147,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 111
         }
       }
     }
@@ -156,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nulla",
+      "Value": "reprehenderit",
       "Tooltip": "nesciunt",
-      "Id": 923,
-      "Rank": 186,
+      "Id": 138,
+      "Rank": 481,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 549
+          "FieldLength": 972
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2009-08-26T11:10:28.4082069+02:00",
-  "Lastlogout": "2001-12-10T11:10:28.4082069+01:00",
-  "EjUserId": 607,
-  "RequestSignature": "laudantium",
+  "Lastlogin": "2009-05-12T02:49:45.6715962+02:00",
+  "Lastlogout": "2016-05-29T02:49:45.6715962+02:00",
+  "EjUserId": 566,
+  "RequestSignature": "vero",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dignissimos",
-      "DisplayValue": "quia",
+      "Value": "nesciunt",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 356
+          "FieldLength": 209
         }
       }
     },
     {
       "Type": null,
-      "Value": "dignissimos",
-      "DisplayValue": "quia",
+      "Value": "nesciunt",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 356
+          "FieldLength": 209
         }
       }
     }
   ],
-  "UserName": "Wyman, Lynch and Turner",
+  "UserName": "Reilly-Kunze",
   "TicketCategories": [
     {
-      "Id": 451,
-      "Name": "Rolfson, Rutherford and Cronin",
-      "ToolTip": "Veniam aut pariatur praesentium labore dolor quia aut.",
+      "Id": 972,
+      "Name": "Little-Toy",
+      "ToolTip": "Ab veniam id sint et.",
       "Deleted": false,
-      "Rank": 795,
-      "Type": "ut",
+      "Rank": 24,
+      "Type": "cupiditate",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "omnis",
-      "ColorBlock": 415,
-      "ExtraInfo": "occaecati",
-      "StyleHint": "rerum",
-      "FullName": "Dr. Hoyt Narciso Streich",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 735
-        }
-      }
-    }
-  ],
-  "NickName": "Pouros, Batz and Kub",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "qui"
-  },
-  "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "id"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Medhurst, Koepp and Wisoky",
-      "DisplayName": "Senger-Veum",
-      "Description": "Operative 4th generation capacity",
-      "ToolTip": "Sequi error ut quidem.",
-      "Actions": "Implicit",
-      "ActionData": "dolor",
+      "IconHint": "accusantium",
+      "ColorBlock": 100,
+      "ExtraInfo": "aut",
+      "StyleHint": "ipsum",
+      "FullName": "Kieran Berge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldLength": 259
+        }
+      }
+    }
+  ],
+  "NickName": "Kessler, Baumbach and Crona",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "eius",
+    "ExtraFields2": "minus"
+  },
+  "CustomFields": {
+    "CustomFields1": "ut",
+    "CustomFields2": "est"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Bergstrom Group",
+      "DisplayName": "Emard Inc and Sons",
+      "Description": "Innovative real-time strategy",
+      "ToolTip": "Cum error similique.",
+      "Actions": "Implicit",
+      "ActionData": "eveniet",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 616
         }
       }
     }
@@ -268,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

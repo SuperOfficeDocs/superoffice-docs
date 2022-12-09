@@ -11,7 +11,13 @@ POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 
 Returns an array of phone list items with the in-parameter as restriction.
 
+
 The in-parameter must be a valid department id (UserGroupId).
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The in-parameter must be a valid department id (UserGroupId).
 ```http
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/PhoneList/GetDepartmentPhones?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DepartmentId
+DepartmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DepartmentId | int32 |  |
+
 
 ## Response: array
 
@@ -76,11 +84,11 @@ Response body: array
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 474
+  "DepartmentId": 543
 }
 ```
 
@@ -92,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "382.730.4025 x57155",
-    "PersonCellPhone": "1-520-360-1258 x1233",
-    "PersonPrivatePhone": "1-084-555-8812",
-    "PersonFaxNumber": "416388",
-    "PersonPagerNumber": "1301498",
-    "PersonEmail": "justyn.conn@hayes.biz",
-    "Id": 756,
-    "Name": "Wisozk Group",
-    "Tooltip": "necessitatibus",
-    "UniqueId": "quam",
+    "PersonDirectPhone": "1-393-026-0526",
+    "PersonCellPhone": "1-772-985-6494 x287",
+    "PersonPrivatePhone": "(771)570-5867 x95724",
+    "PersonFaxNumber": "1232274",
+    "PersonPagerNumber": "620115",
+    "PersonEmail": "reva_stehr@pfannerstill.com",
+    "Id": 678,
+    "Name": "Terry, Mertz and Kub",
+    "Tooltip": "alias",
+    "UniqueId": "totam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 41
+        "FieldLength": 771
       }
     }
   }

@@ -11,11 +11,17 @@ GET /api/v1/DashTileDefinition/{id}
 
 Gets a DashTileDefinition object.
 
+
 Calls the Dash agent service GetDashTileDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DashTileDefinition to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Dash agent service GetDashTileDefinition.
 ```http
 GET /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 DashTileDefinition found.
 
@@ -49,7 +57,7 @@ DashTileDefinition found.
 | 200 | DashTileDefinition found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +90,7 @@ Response body:
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,36 +100,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 951,
-  "Name": "Runolfsdottir-Morar",
-  "Description": "Profound 6th generation portal",
-  "DefaultHeight": 303,
-  "DefaultWidth": 430,
+  "DashboardTileDefinitionId": 409,
+  "Name": "Hackett, Daugherty and Prosacco",
+  "Description": "Visionary systematic analyzer",
+  "DefaultHeight": 240,
+  "DefaultWidth": 535,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rogahn Group",
-  "SelectionId": 401,
+  "EntityName": "Prohaska, Kunde and O'Connell",
+  "SelectionId": 887,
   "CurrencyMode": "Base",
-  "CurrencyCode": "cumque",
+  "CurrencyCode": "reiciendis",
   "Measure": "Average",
-  "MeasureField": "iusto",
-  "SortBy": "quis",
-  "LayoutConfig": "perferendis",
-  "SecondarySelectionId": 43,
-  "MeasureByField": "commodi",
+  "MeasureField": "ut",
+  "SortBy": "eaque",
+  "LayoutConfig": "excepturi",
+  "SecondarySelectionId": 187,
+  "MeasureByField": "id",
   "Usage": "Dashboard",
-  "ProviderName": "Beahan-Bergstrom",
+  "ProviderName": "Little-O'Connell",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 188
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

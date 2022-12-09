@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetPositionList
 
 Gets an array of Position objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Position objects.
 ```http
 POST /api/v1/Agents/List/GetPositionList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetPositionList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: positionIds
+## Request Body: positionIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -63,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetPositionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Value": "itaque",
-    "Tooltip": "ratione",
+    "Id": 975,
+    "Value": "sint",
+    "Tooltip": "beatae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldLength": 813
       }
     }
   },
   {
-    "Id": 692,
-    "Value": "itaque",
-    "Tooltip": "ratione",
+    "Id": 975,
+    "Value": "sint",
+    "Tooltip": "beatae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldLength": 813
       }
     }
   }

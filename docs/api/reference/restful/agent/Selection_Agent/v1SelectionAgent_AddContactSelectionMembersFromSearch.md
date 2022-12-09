@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/AddContactSelectionMembersFromSearch
 
 Adds members to the selection from the search result.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Adds members to the selection from the search result.
 ```http
 POST /api/v1/Agents/Selection/AddContactSelectionMembersFromSearch?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Selection/AddContactSelectionMembersFromSearch?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, StorageKey
+SelectionId, StorageKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | StorageKey | string |  |
+
 
 ## Response: int32
 
@@ -54,18 +62,19 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/AddContactSelectionMembersFromSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 402,
-  "StorageKey": "enim"
+  "SelectionId": 796,
+  "StorageKey": "omnis"
 }
 ```
 
@@ -75,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-381
+599
 ```

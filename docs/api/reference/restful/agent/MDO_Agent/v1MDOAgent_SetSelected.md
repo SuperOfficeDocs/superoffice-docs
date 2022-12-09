@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/SetSelected
 
 Saves the selected values as selected by their given list representation.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves the selected values as selected by their given list representation.
 ```http
 POST /api/v1/Agents/MDO/SetSelected?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/MDO/SetSelected?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, AdditionalInfo, SelectableMDOList
+Name, AdditionalInfo, SelectableMDOList 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | AdditionalInfo | string |  |
 | SelectableMDOList | array |  |
+
 
 ## Response: array
 
@@ -85,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Conn, Wintheiser and Tromp",
-  "AdditionalInfo": "inventore",
+  "Name": "Bartell-Purdy",
+  "AdditionalInfo": "iste",
   "SelectableMDOList": [
     {
-      "Id": 531,
-      "Name": "Beahan, Haley and O'Keefe",
-      "ToolTip": "Reiciendis eligendi soluta quia omnis quidem.",
-      "Deleted": true,
-      "Rank": 676,
-      "Type": "quis",
-      "ColorBlock": 199,
-      "IconHint": "laudantium",
+      "Id": 258,
+      "Name": "Sipes, Boyer and Weimann",
+      "ToolTip": "Voluptatibus ipsa accusamus magnam esse explicabo est et.",
+      "Deleted": false,
+      "Rank": 655,
+      "Type": "dolor",
+      "ColorBlock": 338,
+      "IconHint": "accusantium",
       "Selected": false,
-      "LastChanged": "2002-04-08T11:10:27.3164564+02:00",
+      "LastChanged": "2003-12-15T02:49:44.7340524+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "laborum",
+      "ExtraInfo": "illum",
+      "StyleHint": "molestias",
       "Hidden": false,
-      "FullName": "Adelle Morissette"
+      "FullName": "Lester Mraz"
     }
   ]
 }
@@ -120,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 243,
-    "Name": "Ebert Inc and Sons",
-    "ToolTip": "Illo provident.",
-    "Deleted": true,
-    "Rank": 437,
-    "Type": "voluptate",
-    "ColorBlock": 998,
-    "IconHint": "a",
+    "Id": 671,
+    "Name": "Gusikowski-Bode",
+    "ToolTip": "Voluptas eaque reiciendis qui.",
+    "Deleted": false,
+    "Rank": 164,
+    "Type": "dolorem",
+    "ColorBlock": 172,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2012-02-26T11:10:27.3174524+01:00",
+    "LastChanged": "1998-05-13T02:49:44.7340524+02:00",
     "ChildItems": [
       {
-        "Id": 145,
-        "Name": "Stark-Green",
-        "ToolTip": "Quasi voluptatem ratione aut quidem iusto esse.",
+        "Id": 140,
+        "Name": "Runolfsdottir-D'Amore",
+        "ToolTip": "Eum sed numquam hic fuga.",
         "Deleted": true,
-        "Rank": 537,
-        "Type": "rerum",
-        "ColorBlock": 50,
-        "IconHint": "id",
+        "Rank": 269,
+        "Type": "qui",
+        "ColorBlock": 474,
+        "IconHint": "exercitationem",
         "Selected": true,
-        "LastChanged": "2003-02-25T11:10:27.3184535+01:00",
+        "LastChanged": "2005-12-26T02:49:44.7340524+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Emmitt Barton DDS",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "culpa",
+        "Hidden": true,
+        "FullName": "Kadin Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 799
+            "FieldType": "System.Int32",
+            "FieldLength": 664
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "aut",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Dudley Kamryn Borer Jr.",
+    "FullName": "Libby Roob MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 966
       }
     }
   }

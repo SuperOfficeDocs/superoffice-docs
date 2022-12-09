@@ -13,7 +13,7 @@ language: en
 
 To view statistics about your form, go to the **Forms** tab and click the form in the list. The **View form** screen opens.
 
-You can find form statistics in the following tabs:
+You can find form statistics in the following tabs.
 
 ## Summary
 
@@ -23,7 +23,7 @@ Here you can basic information about the form, including a preview of the form, 
 * **Last submission**: When the last form was submitted.
 * **Completion last 7 days**: Submitted forms per day the last 7 days.
 * **Completion rate**: Status for submitted forms.
-* **Mailing**: This field is visible if you have activated **E-mail response** for this form (see [Create a new form - Actions][1]). Click the link to view information and statistics about the form response. See [Track the mailing and view statistics][2].
+* **Mailing**: This field is visible if you activated **Email response** for this form. [View information and statistics about the form response][2].
 
 ## Reports
 
@@ -33,10 +33,9 @@ These charts show statistics for the form (mouse-over to view exact numbers).
 
 Here you can view and process all submitted forms. A red icon on the tab indicates new form submissions (![icon][img1]).
 
-Use the filter options at the bottom of the list to view only submissions with specific statuses. See [Process form submissions][3].
+Use the filter options at the bottom of the list to [view only submissions with specific statuses][3].
 
 <!-- Referenced links -->
-[1]: ../create.md
 [2]: ../../marketing/mailing/follow-up/view-statistics.md
 [3]: process.md
 

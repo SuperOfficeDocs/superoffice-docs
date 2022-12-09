@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask
 
 Method that returns a specified number of appointments of a specific appointment task type within a time range.
 
+
 The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the projects where the person specified is member. Ta
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count, TaskId
+PersonId, StartTime, EndTime, Count, TaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ PersonId, StartTime, EndTime, Count, TaskId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskId | int32 |  |
+
 
 ## Response: array
 
@@ -119,15 +127,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 693,
-  "StartTime": "1999-03-12T11:10:25.428522+01:00",
-  "EndTime": "1996-06-07T11:10:25.428522+02:00",
-  "Count": 889,
-  "TaskId": 655
+  "PersonId": 700,
+  "StartTime": "2017-06-08T02:49:43.2148724+02:00",
+  "EndTime": "2021-11-12T02:49:43.2148724+01:00",
+  "Count": 592,
+  "TaskId": 240
 }
 ```
 
@@ -139,61 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 705,
-    "StartDate": "2016-09-30T11:10:25.4295226+02:00",
-    "EndDate": "2009-03-14T11:10:25.4295226+01:00",
+    "AppointmentId": 6,
+    "StartDate": "2020-06-08T02:49:43.2304992+02:00",
+    "EndDate": "2003-02-19T02:49:43.2304992+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Sedrick Dooley",
-    "ContactName": "Kuhic, Farrell and Morar",
-    "Description": "Upgradable optimizing intranet",
-    "PersonFullName": "Dawson Rau",
-    "PersonId": 104,
-    "ContactId": 908,
-    "ProjectId": 313,
-    "ProjectName": "Bins-Trantow",
+    "Task": "quisquam",
+    "AssociateFullName": "Terry Schaden",
+    "ContactName": "Kemmer-Champlin",
+    "Description": "Cross-group leading edge challenge",
+    "PersonFullName": "Willy Hamill",
+    "PersonId": 308,
+    "ContactId": 251,
+    "ProjectId": 269,
+    "ProjectName": "Corkery-Lind",
     "IsPublished": false,
-    "AssociateId": 630,
-    "ColorIndex": 70,
+    "AssociateId": 378,
+    "ColorIndex": 124,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 125,
-    "PriorityName": "Wehner, Boyer and Rice",
+    "PriorityId": 401,
+    "PriorityName": "Hickle Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2000-01-15T11:10:25.4305217+01:00",
+    "ActiveDate": "2010-05-19T02:49:43.2304992+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-04-10T11:10:25.4305217+02:00",
-    "RecurringEndDate": "2002-11-04T11:10:25.4305217+01:00",
-    "MotherId": 885,
-    "AssignedBy": 490,
-    "AssignedByFullName": "Antoinette Abernathy",
+    "RecurringStartDate": "1998-06-17T02:49:43.2304992+02:00",
+    "RecurringEndDate": "2022-06-04T02:49:43.2304992+02:00",
+    "MotherId": 552,
+    "AssignedBy": 895,
+    "AssignedByFullName": "Marta Walter",
     "RejectReason": "",
-    "Location": "debitis",
-    "AlarmLeadTime": "esse",
-    "SaleId": 216,
-    "SaleName": "Schamberger Group",
-    "AssociateName": "Feeney-Lehner",
-    "CreatedDate": "1998-10-12T11:10:25.4305217+02:00",
-    "CreatedBy": "omnis",
-    "CreatedByFullName": "Soledad Treutel",
-    "CreatedByAssociateId": 650,
+    "Location": "natus",
+    "AlarmLeadTime": "tempora",
+    "SaleId": 431,
+    "SaleName": "Feeney Inc and Sons",
+    "AssociateName": "Grant, Vandervort and VonRueden",
+    "CreatedDate": "2006-01-19T02:49:43.2304992+01:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Angeline Bruen",
+    "CreatedByAssociateId": 659,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldType": "System.String",
+        "FieldLength": 290
       }
     }
   }

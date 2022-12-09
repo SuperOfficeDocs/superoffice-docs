@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetActivePriceLists
 
 Gets the available active PriceLists in a specific currency.
 
+
 Will return empty array if there is no PriceList with the stated currency available.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Will return empty array if there is no PriceList with the stated currency availa
 ```http
 POST /api/v1/Agents/Quote/GetActivePriceLists?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Quote/GetActivePriceLists?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId, Currency
+QuoteConnectionId, Currency 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 | Currency | string |  |
+
 
 ## Response: array
 
@@ -77,12 +85,12 @@ Response body: array
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 353,
-  "Currency": "voluptas"
+  "QuoteConnectionId": 11,
+  "Currency": "consequuntur"
 }
 ```
 
@@ -94,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 922,
-    "ERPPriceListKey": "dignissimos",
-    "QuoteConnectionId": 680,
-    "Name": "Franecki-Marks",
-    "Description": "Object-based methodical monitoring",
-    "Currency": "repellendus",
-    "CurrencyName": "Romaguera, Casper and Lockman",
-    "ValidFrom": "2011-02-14T11:10:27.7104916+01:00",
-    "ValidTo": "2022-07-03T11:10:27.7104916+02:00",
+    "PriceListId": 573,
+    "ERPPriceListKey": "rerum",
+    "QuoteConnectionId": 562,
+    "Name": "Schowalter Inc and Sons",
+    "Description": "Object-based real-time definition",
+    "Currency": "asperiores",
+    "CurrencyName": "Wolff LLC",
+    "ValidFrom": "2010-06-22T02:49:45.0309645+02:00",
+    "ValidTo": "2018-03-15T02:49:45.0309645+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldType": "System.String",
+        "FieldLength": 31
       }
     }
   }

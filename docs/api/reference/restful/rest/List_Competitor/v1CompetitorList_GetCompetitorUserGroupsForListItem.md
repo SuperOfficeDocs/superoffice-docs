@@ -11,11 +11,18 @@ GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Competitor list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Turner LLC",
-    "ToolTip": "Voluptatem enim.",
+    "Id": 121,
+    "Name": "Grant LLC",
+    "ToolTip": "Incidunt voluptatum.",
     "Deleted": false,
-    "Rank": 324,
-    "Type": "culpa",
-    "ColorBlock": 228,
-    "IconHint": "iste",
-    "Selected": false,
-    "LastChanged": "2011-09-27T11:10:53.9601854+02:00",
+    "Rank": 411,
+    "Type": "eaque",
+    "ColorBlock": 142,
+    "IconHint": "assumenda",
+    "Selected": true,
+    "LastChanged": "1996-04-04T02:49:51.9221933+02:00",
     "ChildItems": [
       {
-        "Id": 156,
-        "Name": "Herman LLC",
-        "ToolTip": "Sed architecto velit amet voluptatem earum quo illo.",
+        "Id": 745,
+        "Name": "Boyer, Bartoletti and Sawayn",
+        "ToolTip": "Deleniti quidem nesciunt repudiandae fugit.",
         "Deleted": false,
-        "Rank": 701,
-        "Type": "quos",
-        "ColorBlock": 41,
-        "IconHint": "mollitia",
-        "Selected": true,
-        "LastChanged": "1998-11-26T11:10:53.9601854+01:00",
+        "Rank": 435,
+        "Type": "dolores",
+        "ColorBlock": 265,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2018-01-30T02:49:51.9221933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "accusantium",
-        "Hidden": true,
-        "FullName": "Hester Joshua Rau Jr.",
+        "ExtraInfo": "rerum",
+        "StyleHint": "minus",
+        "Hidden": false,
+        "FullName": "Dr. Mustafa Hills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 568
+            "FieldType": "System.Int32",
+            "FieldLength": 318
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
+    "ExtraInfo": "reprehenderit",
     "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Dr. Stan Americo Buckridge DVM",
+    "FullName": "Penelope Sauer DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 259
+        "FieldType": "System.Int32",
+        "FieldLength": 308
       }
     }
   }

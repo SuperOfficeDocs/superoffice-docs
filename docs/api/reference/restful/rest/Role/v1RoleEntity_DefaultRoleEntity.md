@@ -11,9 +11,17 @@ GET /api/v1/Role/default
 
 Set default values into a new RoleEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Calls the User agent service CreateDefaultRoleEntity
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Calls the User agent service CreateDefaultRoleEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,16 +80,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 260,
-  "Name": "White, Bartoletti and Welch",
-  "Tooltip": "saepe",
+  "RoleId": 16,
+  "Name": "Crooks, Hamill and Morar",
+  "Tooltip": "temporibus",
   "RoleType": "Anonymous",
-  "Deleted": 152,
-  "Rank": 390,
-  "Created": "2000-05-28T11:10:53.3371437+02:00",
-  "UseCategories": 441,
+  "Deleted": 691,
+  "Rank": 254,
+  "Created": "2004-09-11T02:49:51.3859386+02:00",
+  "UseCategories": 98,
   "CreatedBy": null,
-  "Updated": "2000-04-13T11:10:53.3381434+02:00",
+  "Updated": "2015-01-14T02:49:51.3859386+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -88,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 516
     }
   }
 }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetMyTasks
 
 Method that returns a specified number of appointments within a time range.
 
+
 It only returns appointments that would be displayed in the user's task list. The appointments belong to the currently logged on user.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It only returns appointments that would be displayed in the user's task list. Th
 ```http
 POST /api/v1/Agents/Appointment/GetMyTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Appointment/GetMyTasks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Count
+Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -115,11 +123,11 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 269
+  "Count": 179
 }
 ```
 
@@ -131,61 +139,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 956,
-    "StartDate": "2008-04-28T11:10:25.9365224+02:00",
-    "EndDate": "1995-08-09T11:10:25.9365224+02:00",
+    "AppointmentId": 927,
+    "StartDate": "2003-12-18T02:49:43.5129081+01:00",
+    "EndDate": "2019-01-21T02:49:43.5129081+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ea",
-    "AssociateFullName": "Tia Lowe MD",
-    "ContactName": "Kovacek Inc and Sons",
-    "Description": "Balanced 6th generation core",
-    "PersonFullName": "Clara Cummerata",
-    "PersonId": 304,
-    "ContactId": 211,
-    "ProjectId": 571,
-    "ProjectName": "Marquardt-Corkery",
-    "IsPublished": true,
-    "AssociateId": 891,
-    "ColorIndex": 422,
+    "Task": "incidunt",
+    "AssociateFullName": "Jedidiah Kutch",
+    "ContactName": "Ward, Hermiston and Bartell",
+    "Description": "Devolved needs-based task-force",
+    "PersonFullName": "Malcolm Turner DDS",
+    "PersonId": 678,
+    "ContactId": 565,
+    "ProjectId": 845,
+    "ProjectName": "Dibbert Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 436,
+    "ColorIndex": 452,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 69,
-    "PriorityName": "Predovic, Conn and Effertz",
+    "PriorityId": 7,
+    "PriorityName": "Osinski-Hoeger",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2011-05-19T11:10:25.9365224+02:00",
+    "IsBooking": true,
+    "ActiveDate": "1997-10-03T02:49:43.5129081+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-06-27T11:10:25.9365224+02:00",
-    "RecurringEndDate": "2007-04-09T11:10:25.9365224+02:00",
-    "MotherId": 731,
-    "AssignedBy": 729,
-    "AssignedByFullName": "Andreanne Stracke",
-    "RejectReason": "",
-    "Location": "atque",
-    "AlarmLeadTime": "consequatur",
-    "SaleId": 432,
-    "SaleName": "Schamberger-Koepp",
-    "AssociateName": "Cole Group",
-    "CreatedDate": "2022-02-02T11:10:25.9375534+01:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Krystel Cronin",
-    "CreatedByAssociateId": 383,
+    "RecurringStartDate": "2022-11-15T02:49:43.5129081+01:00",
+    "RecurringEndDate": "1995-10-08T02:49:43.5129081+02:00",
+    "MotherId": 599,
+    "AssignedBy": 933,
+    "AssignedByFullName": "Maria Miller",
+    "RejectReason": "brand dot-com models",
+    "Location": "itaque",
+    "AlarmLeadTime": "fugiat",
+    "SaleId": 481,
+    "SaleName": "Cartwright-Ortiz",
+    "AssociateName": "Will, Schowalter and Zieme",
+    "CreatedDate": "1996-07-14T02:49:43.5129081+02:00",
+    "CreatedBy": "eaque",
+    "CreatedByFullName": "Brennan Beer",
+    "CreatedByAssociateId": 771,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 184
+        "FieldType": "System.String",
+        "FieldLength": 934
       }
     }
   }

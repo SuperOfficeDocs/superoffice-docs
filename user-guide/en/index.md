@@ -22,15 +22,17 @@ A web-based system to manage and follow up all contacts, sales and projects. The
 
 ## SuperOffice Service
 
-A web-based system for handling customer requests. The core of the system is the Requests module. All communication concerning a specific request is stored in a single location, whether it is by e-mail, web form, phone or another channel.
+A web-based system for handling customer requests. The core of the system is the Requests module. All communication concerning a specific request is stored in a single location, regardless of it is by email, web form, phone or another channel.
 
 ## SuperOffice Marketing
 
-SuperOffice Marketing is concerned with outbound communication and forms. You can perform bulk mailings by email or SMS to all or parts of your customer base. Such mailings might be useful for informing customers about upgrades or product news, for example. Use forms for product/newsletter registration, consent management and data updates.
+SuperOffice Marketing is concerned with outbound communication and forms. You can send bulk mailings by email or SMS to all or parts of your customer base, for example to inform customers about upgrades or product news. Use forms for product/newsletter registration, consent management and data updates.
 
-## SuperOffice inbox
+## SuperOffice Inbox
 
-SuperOffice contains a built-in email inbox in addition to plug-ins which link the Gmail, Microsoft Outlook or Lotus Notes mail clients to SuperOffice CRM and/or SuperOffice Service.
+SuperOffice contains a built-in email inbox in addition to plug-ins that link the Gmail, Microsoft Outlook or Lotus Notes mail clients to SuperOffice CRM and/or SuperOffice Service.
+
+[!include[Settings and maintenance](getting-started/about-admin.md)]
 
 <!-- Referenced links -->
 

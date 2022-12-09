@@ -11,18 +11,39 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 
 Get a page of results for an archive list with context parameter, explicitly specifying the restrictions, orderby and chosen columns.
 
+
+
 Archive Restriction Info objects represent search terms.
+
 
 Column names and operator strings are defined elsewhere.
 
+
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
+
+
+
+
+
 
 ```
 
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -33,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -48,9 +70,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context
+ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,6 +84,7 @@ ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context
 | Page | int32 |  |
 | PageSize | int32 |  |
 | Context | string |  |
+
 
 ## Response: array
 
@@ -89,36 +112,36 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Smith-Hackett",
+  "ProviderName": "Reichert-Hettinger",
   "Columns": [
-    "facilis",
-    "esse"
+    "sunt",
+    "rerum"
   ],
   "SortOrder": [
     {
-      "Name": "Wiegand Group",
+      "Name": "Nikolaus, Dickinson and Bins",
       "Direction": "ASC"
     },
     {
-      "Name": "Wiegand Group",
+      "Name": "Nikolaus, Dickinson and Bins",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Oberbrunner-Cole",
-      "Operator": "quasi",
+      "Name": "Hills Inc and Sons",
+      "Operator": "cumque",
       "Values": [
-        "aut",
-        "id"
+        "recusandae",
+        "maxime"
       ],
       "DisplayValues": [
-        "exercitationem",
-        "dolorem"
+        "cupiditate",
+        "odit"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -126,18 +149,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 768,
+      "InterParenthesis": 689,
       "InterOperator": "And",
-      "UniqueHash": 717
+      "UniqueHash": 48
     }
   ],
   "Entities": [
-    "at",
-    "molestiae"
+    "ut",
+    "numquam"
   ],
-  "Page": 180,
-  "PageSize": 763,
-  "Context": "atque"
+  "Page": 486,
+  "PageSize": 646,
+  "Context": "dolores"
 }
 ```
 
@@ -149,23 +172,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gaylord, Price and Shields",
-    "PrimaryKey": 830,
+    "EntityName": "Stanton, Wisoky and Gibson",
+    "PrimaryKey": 11,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "molestiae",
-        "TooltipHint": "sunt",
-        "LinkHint": "explicabo"
+        "DisplayValue": "minus",
+        "TooltipHint": "exercitationem",
+        "LinkHint": "sunt"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "sint",
+    "LinkHint": "aperiam",
+    "StyleHint": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 229
       }
     }
   }

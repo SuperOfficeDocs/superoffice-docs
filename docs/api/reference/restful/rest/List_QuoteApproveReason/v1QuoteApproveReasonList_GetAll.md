@@ -11,6 +11,12 @@ GET /api/v1/List/QuoteApproveReason/Items
 
 Gets all the QuoteApproveReason items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all the QuoteApproveReason items
 ```http
 GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -61,7 +69,7 @@ Response body: array
 GET /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "Schuppe LLC",
-    "Tooltip": "molestiae",
+    "Id": 529,
+    "Name": "Rogahn, Casper and Jacobson",
+    "Tooltip": "quasi",
     "Deleted": false,
-    "UdListDefinitionId": 695,
-    "Rank": 989,
+    "UdListDefinitionId": 73,
+    "Rank": 991,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldType": "System.String",
+        "FieldLength": 897
       }
     }
   }

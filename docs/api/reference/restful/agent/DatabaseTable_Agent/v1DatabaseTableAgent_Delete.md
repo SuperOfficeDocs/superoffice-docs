@@ -11,6 +11,12 @@ POST /api/v1/Agents/DatabaseTable/Delete
 
 Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 ```http
 POST /api/v1/Agents/DatabaseTable/Delete?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/DatabaseTable/Delete?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, IDs
+TableName, IDs 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | IDs | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,14 +79,14 @@ Response body:
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Balistreri-Collins",
+  "TableName": "Haag, Orn and Considine",
   "IDs": [
-    7,
-    702
+    844,
+    380
   ]
 }
 ```
@@ -91,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "alias",
-  "Inserts": 529,
-  "Updates": 135,
-  "Deletes": 966,
+  "Message": "est",
+  "Inserts": 593,
+  "Updates": 423,
+  "Deletes": 709,
   "RowStatus": [
     {
-      "PrimaryKey": 7,
+      "PrimaryKey": 508,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "culpa",
-        "dignissimos"
+        "quisquam",
+        "reprehenderit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 679
+          "FieldType": "System.Int32",
+          "FieldLength": 860
         }
       }
     },
     {
-      "PrimaryKey": 7,
+      "PrimaryKey": 508,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "culpa",
-        "dignissimos"
+        "quisquam",
+        "reprehenderit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 679
+          "FieldType": "System.Int32",
+          "FieldLength": 860
         }
       }
     }
@@ -134,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldLength": 770
     }
   }
 }

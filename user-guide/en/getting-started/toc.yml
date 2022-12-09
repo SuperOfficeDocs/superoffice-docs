@@ -1,15 +1,11 @@
 items:
 - name: Overview
   href: index.md
-- name: Introduction to Standard CRM
+- name: Introduction to SuperOffice CRM
   href: about-standard-crm.md
-- name: Introduction to Service
-  href: about-service.md
 - name: Introduction to Settings and maintenance
   href: about-admin.md
-- name: Log in
-  href: login.md
-- name: The main screen
+- name: The layout elements
   href: main-screen/index.md
   items:
   - name: Navigator
@@ -20,13 +16,20 @@ items:
     href: main-screen/global-buttons.md
   - name: Side panels
     href: main-screen/side-panel.md
+  - name: Resizing screen elements
+    href: ../howto/resizing-screen-elements.md
+  - name: Note and Notepad
+    href: notes.md
+- name: Log in
+  href: login.md
 - name: Preferences
   href: preferences.md
-- name: Favourites
-  href: favourites.md
+- name: Edit email signature
+  href: edit-email-signature.md
+- name: Favorites
+  href: favorites.md
 - name: Tooltip
   href: info-box.md
-- name: Note and Notepad
-  href: notes.md
+
 - name: Technical requirements
   href: technical-requirements.md

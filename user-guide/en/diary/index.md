@@ -28,7 +28,7 @@ When you create follow-ups from the **Diary** screen, by default they are define
 Follow-ups are closely linked to the **Diary** screen, and some functions apply especially to the Diary.
 
 > [!TIP]
-> In SuperOffice Settings and maintenance, you can define that all follow-ups of a specific type will be displayed in the **Diary** screen in SuperOffice CRM with the same background colour.
+> In SuperOffice Settings and maintenance, you can define that all follow-ups of a specific type should be displayed in the **Diary** screen in SuperOffice CRM with the same background color.
 
 ## What would you like to do now?
 

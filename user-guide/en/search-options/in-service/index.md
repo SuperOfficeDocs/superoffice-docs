@@ -11,8 +11,6 @@ language: en
 
 # Search in SuperOffice Service
 
-Searching in SuperOffice Service is performed from the same screen, no matter whether you are searching for requests, contacts, companies or other records in the system. In this topic, you can find out more about how searching in SuperOffice Service works.
-
 <details><summary>Try the shortcut search</summary>
 
 ## Shortcut search
@@ -48,7 +46,7 @@ In the **Criteria** screen you enter the search criteria in the available fields
 > [!TIP]
 > You can also run an "empty" search, in other words a search where you do not enter any search criteria. This lets you display all records of the relevant type, such as requests.
 
-When you click **Search**, a new screen opens with a list of the records which match these criteria.
+When you click **Search**, a new screen opens with a list of the records that match these criteria.
 
 The list below explains how to use the different types of field that can be displayed under **Criteria**:
 
@@ -68,10 +66,10 @@ At the bottom of the **Criteria** screen, you have the following options:
 
 ## Add search criteria
 
-The search screen always shows the most relevant criteria for what you are searching for, for example requests or contacts. But you can add more criteria yourself. Proceed as follows:
+The search screen always shows the most relevant criteria for what you are searching for, for example requests or contacts. But you can add more criteria yourself.
 
 1. Click the **Add criteria** button in the **Criteria** screen. A dialog box displays with two empty fields.
-2. In the **Input the label for the field here** field, you can enter a custom name for the field. Otherwise the default name will be used.
+2. In the **Input the label for the field here** field, you can enter a custom name for the field. Otherwise the default name is used.
 3. In the **Choose field** list, select which field in the database the values are to be obtained from.
 4. Click **OK**. The new criterion is added below the others.
 
@@ -89,8 +87,8 @@ You can also open a record by double-clicking the relevant row.
 If you click one of the column headings below **Result**, you get the following options:
 
 * **Sort ascending**: Clicking here sorts the records in ascending order, for example, alphabetically if the column contains text, based on the column in question.
-* **Sort descending**: Click here to sort the records in descending order, based on the column in question. If the column contains numbers (such as ID numbers), the highest will be displayed at the top.
-* **Group by**: For example, if you have the "Category" column containing the values "Sales", "Support" and "Invoices", the records will be divided into three groups with these headings.
+* **Sort descending**: Click here to sort the records in descending order, based on the column in question. If the column contains numbers (such as ID numbers), the highest is displayed at the top.
+* **Group by**: For example, if you have the "Category" column containing the values "Sales", "Support" and "Invoices", the records are divided into three groups with these headings.
 * **Functions**: If you click here you can choose between **Mathematical functions** and **Statistical functions**. An example of a mathematical function is summing a column consisting of numerical values. With regard to statistical functions, you can, for example, [add a column][7] showing request response times, and then use the **Average** statistical function to display the average response time for the displayed requests. If, instead, you select **Remove functions**, you remove any previously specified functions.
 
 At the top right corner of the search results list are the following buttons:
@@ -112,7 +110,7 @@ This section of the screen displays the contents of the record selected in the l
 
 ## Use advanced view
 
-If you click the ![icon][img2] menu button in the **Criteria** screen and select **Advanced view**, you gain access to more advanced search options. These are normally only relevant for experienced users. Here you can specify, for example, that you want to search for all requests that do not have a specific owner, or all requests where one field is empty, instead of having a set value. The options displayed here will depend on the context of your search. For instance, different fields are shown when searching for requests compared with searching for contacts. Some of the available options are outlined below:
+If you click the ![icon][img2] menu button in the **Criteria** screen and select **Advanced view**, you gain access to more advanced search options. These are normally relevant only for experienced users. For example, you can specify that you want to search for all requests that do not have a specific owner, or all requests where one field is empty, instead of having a set value. The options displayed here will depend on the context of your search. For instance, different fields are shown when searching for requests compared with searching for contacts. Some of the available options are outlined below:
 
 * At the top are checkboxes you can use to turn on or off the display of different items.
 * For each individual search criterion, you can define operators. You do this by selecting the option you want in the list box to the right of the criterion. The operators available will depend on the type of criterion in question. For the **Category** criterion, you can choose between, for example, **Is one of** and **Is not one of**. For the **Request registered** criterion, you can select a time interval.

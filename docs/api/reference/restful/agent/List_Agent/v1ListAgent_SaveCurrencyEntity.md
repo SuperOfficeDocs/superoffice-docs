@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveCurrencyEntity
 
 Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The CurrencyEntity to be saved.
+The CurrencyEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,7 +46,8 @@ The CurrencyEntity to be saved.
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -47,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,17 +75,17 @@ Response body:
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 358,
-  "Name": "Emmerich, Robel and Watsica",
-  "Tooltip": "maiores",
-  "Rank": 657,
-  "Rate": 26335.002,
-  "Units": 1015.4159999999999,
-  "Deleted": false
+  "CurrencyId": 644,
+  "Name": "Becker, Schaden and Stark",
+  "Tooltip": "amet",
+  "Rank": 357,
+  "Rate": 26563.784,
+  "Units": 22270.203999999998,
+  "Deleted": true
 }
 ```
 
@@ -88,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 116,
-  "Name": "Dicki, Gislason and Barton",
-  "Tooltip": "nemo",
-  "Rank": 454,
-  "Rate": 3224.886,
-  "Units": 1018.55,
-  "Deleted": true,
+  "CurrencyId": 274,
+  "Name": "Parker, Hane and Nader",
+  "Tooltip": "perferendis",
+  "Rank": 483,
+  "Rate": 11796.376,
+  "Units": 4418.94,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldType": "System.Int32",
+      "FieldLength": 6
     }
   }
 }

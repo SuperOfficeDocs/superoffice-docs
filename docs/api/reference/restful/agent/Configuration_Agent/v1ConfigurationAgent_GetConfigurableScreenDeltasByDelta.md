@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 
 This method will return a configurablescreen delta matching the properties received from the incomming delta
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method will return a configurablescreen delta matching the properties recei
 ```http
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConfigurableScreenDelta
+ConfigurableScreenDelta 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConfigurableScreenDelta |  |  |
+
 
 ## Response: array
 
@@ -93,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 903,
-    "Name": "Heidenreich-Waelchi",
-    "Description": "Customizable holistic migration",
-    "DeltaJson": "illo",
+    "ConfigurableScreenDeltaId": 37,
+    "Name": "Terry-Hettinger",
+    "Description": "Organized value-added adapter",
+    "DeltaJson": "consectetur",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "assumenda",
-    "UpdatedDate": "1996-08-09T11:10:26.2035526+02:00",
-    "CreatedDate": "2000-12-16T11:10:26.2035526+01:00",
+    "RecipeId": "velit",
+    "UpdatedDate": "2018-12-16T02:49:43.8566571+01:00",
+    "CreatedDate": "2013-12-27T02:49:43.8566571+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      407,
-      729
+      979,
+      24
     ],
-    "AppliesToKey": "rerum",
+    "AppliesToKey": "dolor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 353
+        "FieldLength": 59
       }
     }
   }

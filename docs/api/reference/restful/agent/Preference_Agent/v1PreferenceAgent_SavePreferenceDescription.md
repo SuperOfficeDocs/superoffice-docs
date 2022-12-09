@@ -11,6 +11,13 @@ POST /api/v1/Agents/Preference/SavePreferenceDescription
 
 Updates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing PreferenceDescription or creates a new PreferenceDescriptio
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The PreferenceDescription to be saved.
+The PreferenceDescription to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,8 @@ The PreferenceDescription to be saved.
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -58,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,28 +97,28 @@ Response body:
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 419,
-  "Section": "sint",
-  "Key": "autem",
-  "Name": "Bradtke-Buckridge",
+  "PrefDescId": 151,
+  "Section": "modi",
+  "Key": "dolorem",
+  "Name": "Hermann-Torphy",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual executive alliance",
+  "Description": "Synergistic modular contingency",
   "IsBuiltin": true,
-  "TableName": "Franecki, Ullrich and Toy",
-  "UserDefinedListId": 650,
-  "Rank": 868,
-  "SubGroup": "nihil",
-  "MinLevel": 723,
-  "MaxValue": 184,
-  "MinValue": 258,
-  "RequiredLicense": "temporibus"
+  "TableName": "Schaden Inc and Sons",
+  "UserDefinedListId": 69,
+  "Rank": 333,
+  "SubGroup": "aut",
+  "MinLevel": 829,
+  "MaxValue": 958,
+  "MinValue": 691,
+  "RequiredLicense": "eum"
 }
 ```
 
@@ -121,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 109,
-  "Section": "aut",
-  "Key": "quia",
-  "Name": "Crooks Group",
+  "PrefDescId": 219,
+  "Section": "vero",
+  "Key": "amet",
+  "Name": "Hudson-McCullough",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Organized impactful open system",
+  "Description": "Streamlined user-facing utilisation",
   "IsBuiltin": false,
-  "TableName": "Eichmann LLC",
-  "UserDefinedListId": 31,
-  "Rank": 640,
-  "SubGroup": "quo",
-  "MinLevel": 113,
-  "MaxValue": 822,
-  "MinValue": 134,
-  "RequiredLicense": "aspernatur",
+  "TableName": "Feest-Oberbrunner",
+  "UserDefinedListId": 5,
+  "Rank": 702,
+  "SubGroup": "tempore",
+  "MinLevel": 22,
+  "MaxValue": 100,
+  "MinValue": 838,
+  "RequiredLicense": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 208
+      "FieldType": "System.Int32",
+      "FieldLength": 673
     }
   }
 }

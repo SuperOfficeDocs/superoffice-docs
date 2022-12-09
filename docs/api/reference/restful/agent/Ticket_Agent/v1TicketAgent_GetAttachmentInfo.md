@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfo
 
 Get a list with meta data for all attached attachments
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list with meta data for all attached attachments
 ```http
 POST /api/v1/Agents/Ticket/GetAttachmentInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketMessageEntityId
+TicketMessageEntityId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketMessageEntityId | int32 |  |
+
 
 ## Response: array
 
@@ -70,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 334
+  "TicketMessageEntityId": 969
 }
 ```
 
@@ -86,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 632,
-    "Name": "Watsica-Kunde",
-    "ContentType": "voluptas",
-    "AttSize": 842,
+    "AttachmentId": 329,
+    "Name": "Howell-Waters",
+    "ContentType": "ratione",
+    "AttSize": 384,
     "InlineImage": false,
-    "ContentId": "expedita",
+    "ContentId": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 544
+        "FieldLength": 433
       }
     }
   }

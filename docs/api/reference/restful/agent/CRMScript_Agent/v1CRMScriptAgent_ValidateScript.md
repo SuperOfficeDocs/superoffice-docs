@@ -11,9 +11,16 @@ POST /api/v1/Agents/CRMScript/ValidateScript
 
 Validate a CRMScript.
 
+
 This will check that the syntax is correct
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ This will check that the syntax is correct
 ```http
 POST /api/v1/Agents/CRMScript/ValidateScript?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,15 +47,16 @@ POST /api/v1/Agents/CRMScript/ValidateScript?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CRMScriptId
+CRMScriptId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CRMScriptId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +79,11 @@ Response body:
 POST /api/v1/Agents/CRMScript/ValidateScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 453
+  "CRMScriptId": 539
 }
 ```
 
@@ -86,13 +95,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "qui",
+  "ErrorMessage": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 426
     }
   }
 }

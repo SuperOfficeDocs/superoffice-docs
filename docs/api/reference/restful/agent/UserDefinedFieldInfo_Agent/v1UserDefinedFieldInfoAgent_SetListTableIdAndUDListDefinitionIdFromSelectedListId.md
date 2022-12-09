@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFrom
 
 Make stuff similar to what happens in the win client
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Make stuff similar to what happens in the win client
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFrom
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Info, SelectedListId
+Info, SelectedListId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Info |  | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <para /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
 | SelectedListId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,12 +107,12 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 286
+  "SelectedListId": 538
 }
 ```
 
@@ -115,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 409,
-  "ColumnId": 46,
-  "FieldDefault": "corporis",
-  "FieldHeight": 503,
-  "FieldLabel": "possimus",
-  "FieldLeft": 841,
-  "FieldTop": 109,
+  "UDefFieldId": 162,
+  "ColumnId": 494,
+  "FieldDefault": "praesentium",
+  "FieldHeight": 313,
+  "FieldLabel": "error",
+  "FieldLeft": 505,
+  "FieldTop": 286,
   "FieldType": "Checkbox",
-  "FieldWidth": 415,
-  "FormatMask": "voluptatem",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 591,
-  "LabelLeft": 147,
-  "LabelTop": 467,
-  "LabelWidth": 292,
-  "LastVersionId": 708,
-  "ListTableId": 568,
+  "FieldWidth": 159,
+  "FormatMask": "quaerat",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 166,
+  "LabelLeft": 111,
+  "LabelTop": 764,
+  "LabelWidth": 703,
+  "LastVersionId": 134,
+  "ListTableId": 990,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 55,
-  "ProgId": "adipisci",
+  "Page1LineNo": 792,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "quo",
-  "TabOrder": 855,
-  "TextLength": 368,
-  "Tooltip": "assumenda",
-  "UdefIdentity": 132,
-  "UDListDefinitionId": 772,
+  "ShortLabel": "distinctio",
+  "TabOrder": 369,
+  "TextLength": 36,
+  "Tooltip": "consectetur",
+  "UdefIdentity": 376,
+  "UDListDefinitionId": 985,
   "Justification": "Center",
-  "Version": 48,
-  "TemplateVariableName": "Effertz Group",
+  "Version": 701,
+  "TemplateVariableName": "Hegmann-Barton",
   "HasBeenPublished": false,
-  "MdoListName": "Miller LLC",
+  "MdoListName": "Barton, Kovacek and Botsford",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 627
     }
   }
 }

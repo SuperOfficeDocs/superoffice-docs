@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Delete preference settings
-
-To delete an existing setting:
+# Delete preference setting
 
 1. [!include[Open preferences](../includes/open-preferences.md)]
 

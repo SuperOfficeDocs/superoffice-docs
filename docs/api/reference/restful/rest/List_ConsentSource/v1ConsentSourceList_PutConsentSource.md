@@ -11,11 +11,18 @@ PUT /api/v1/List/ConsentSource/Items/{id}
 
 Updates the existing ConsentSource
 
+
 Calls the List agent service SaveConsentSource.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of ConsentSource to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveConsentSource.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of ConsentSource to be saved.
+The details of ConsentSource to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ The details of ConsentSource to be saved.
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,16 +82,16 @@ Response body:
 PUT /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 761,
-  "Name": "Barrows, Pouros and Murphy",
-  "Tooltip": "minima",
-  "Rank": 901,
-  "Key": "id",
-  "MailTemplateId": 220,
+  "ConsentSourceId": 724,
+  "Name": "Jaskolski LLC",
+  "Tooltip": "dolor",
+  "Rank": 464,
+  "Key": "quis",
+  "MailTemplateId": 271,
   "Deleted": false
 }
 ```
@@ -95,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 278,
-  "Name": "Glover, Corkery and Gerhold",
-  "Tooltip": "quidem",
-  "Rank": 664,
-  "Key": "debitis",
-  "MailTemplateId": 440,
+  "ConsentSourceId": 670,
+  "Name": "Treutel-Adams",
+  "Tooltip": "pariatur",
+  "Rank": 801,
+  "Key": "molestiae",
+  "MailTemplateId": 773,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 252
     }
   }
 }

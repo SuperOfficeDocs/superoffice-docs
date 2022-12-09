@@ -14,7 +14,7 @@ language: en
 In the **Reports** screen, you can both define search criteria for reports (see [Favorite reports][1]) and use [standard reports][2].
 
 > [!NOTE]
-> You cannot add completely new search criteria to SuperOffice CRM. The search criteria are defined in advance for the various report types, and you can only edit their values and variables and save them as favorite reports. If you want to add new search criteria and create new standard reports, you will need to purchase SuperOffice Reporter Studio.
+> You cannot add completely new search criteria to SuperOffice CRM. The search criteria are defined in advance for the various report types, and you can only edit their values and variables and save them as favorite reports. To add new search criteria and create new standard reports, you must purchase SuperOffice Reporter Studio.
 
 ## What would you like to do now?
 

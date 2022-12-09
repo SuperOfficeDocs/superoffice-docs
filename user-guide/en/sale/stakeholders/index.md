@@ -13,20 +13,20 @@ language: en
 
 ![icon][img1]
 
-A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as stakeholders and can be entered in the **Stakeholders** section tab at the bottom of the **Sale** screen. Stakeholders can include individuals as well as organisations.
+A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as stakeholders and can be entered in the **Stakeholders** section tab at the bottom of the **Sale** screen. Stakeholders can include individuals as well as organizations.
 
-For each stakeholder, information about company, contact name, role in the sale, e-mail address and telephone number is displayed.
+For each stakeholder, information about company, contact name, role in the sale, email address and telephone number is displayed.
 
 ## <a id="role" />Sale - Stakeholder role
 
-A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as stakeholders and can be entered in the **Stakeholders** section tab at the bottom of the **Sale** screen in SuperOffice CRM. Stakeholders can include individuals as well as organisations.
+A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as stakeholders and can be entered in the **Stakeholders** section tab at the bottom of the **Sale** screen in SuperOffice CRM. Stakeholders can include individuals as well as organizations.
 
 For each stakeholder, their role in the sale is shown. These sales roles are defined in the **Lists** screen in Settings and maintenance.
 
 > [!NOTE]
 > For the **Stakeholders** section tab to show in the **Sale** screen in SuperOffice CRM, **This sale type has stakeholders** must be checked in the **Edit list item** dialog for the **Sale - Sale type (for stages)** list.
 
-You also need to set the **Enable Stakeholders** preference in the **Sale** preference group.
+You must also set the **Enable Stakeholders** preference in the **Sale** preference group.
 
 ## What would you like to do now?
 
@@ -40,10 +40,10 @@ You also need to set the **Enable Stakeholders** preference in the **Sale** pref
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../project/project-members/add.md
+[2]: ../../project/project-members/add.md#from-section-tab
 [3]: edit.md
 [4]: ../../project/project-members/send-email-to.md
-[5]: ../admin/add-sale-type.md
+[5]: ../../settings/lists/sale-type.md
 [6]: ../../settings/lists/items.md
 [7]: ../../settings/preferences/preferences-tab/adding-preference-settings.md
 

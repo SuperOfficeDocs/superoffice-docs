@@ -15,11 +15,11 @@ The knowledge base gives request handlers access to saved data in a single locat
 
 * **Search**: Here you can [search for content in all entries in the knowledge base][1].
 
-* **Documents**: Here you can [add documents][2] to make them available to yourself and/or other users. Such documents might include price lists, installation routines and brochures.
+* **Documents**: Here you can [add documents][2] to make them available to yourself and/or other users. Such documents may include price lists, installation routines and brochures.
 
 * **External documents**: Here you can [add documents][3] to make them available to anyone using SuperOffice Service, including unregistered customers.
 
-* **E-mail addresses**: Here you can [create a list of email addresses][4] that you use frequently, for example, people who are neither users nor registered as contacts in SuperOffice Service. These addresses will then be accessible in most places where you may want to send an e-mail.
+* **Email addresses**: Here you can [create a list of email addresses][4] that you use frequently, for example, people who are neither users nor registered as contacts in SuperOffice Service. These addresses will then be accessible in most places where you may want to send an email.
 
 * **FAQ**: This contains a [list of frequently asked questions][5] and their answers. These entries can be made available in a web-based customer centre, where customers themselves can search for answers, and request handlers can add links to FAQ entries when replying to enquiries.
 

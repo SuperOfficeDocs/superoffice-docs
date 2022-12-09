@@ -11,6 +11,13 @@ PUT /api/v1/Contact/DuplicateRules
 
 Set which duplicate rules should be active or not
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -21,9 +28,9 @@ Set which duplicate rules should be active or not
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: rules
+## Request Body: rules  
 
-Duplicate rules to update active status for
+Duplicate rules to update active status for 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -32,7 +39,8 @@ Duplicate rules to update active status for
 | DisplayTooltip | string | Description of the rule |
 | IsActive | bool | Indicating if a rule is current active, and should included in the duplicate detection |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -40,7 +48,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -48,21 +57,21 @@ Response body:
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lockman Inc and Sons",
-    "DisplayName": "Powlowski, Quitzon and Streich",
-    "DisplayTooltip": "dolorum",
-    "IsActive": false
+    "Name": "Fisher, Kuhic and Brown",
+    "DisplayName": "Heathcote-Medhurst",
+    "DisplayTooltip": "autem",
+    "IsActive": true
   },
   {
-    "Name": "Lockman Inc and Sons",
-    "DisplayName": "Powlowski, Quitzon and Streich",
-    "DisplayTooltip": "dolorum",
-    "IsActive": false
+    "Name": "Fisher, Kuhic and Brown",
+    "DisplayName": "Heathcote-Medhurst",
+    "DisplayTooltip": "autem",
+    "IsActive": true
   }
 ]
 ```

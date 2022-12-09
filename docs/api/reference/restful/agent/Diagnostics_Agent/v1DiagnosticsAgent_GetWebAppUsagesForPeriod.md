@@ -11,6 +11,12 @@ POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
 
 Get all WebAppUsages for a given period, that match an optional search term
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all WebAppUsages for a given period, that match an optional search term
 ```http
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FromDate, ToDate, SearchTerm
+FromDate, ToDate, SearchTerm 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FromDate | date-time |  |
 | ToDate | date-time |  |
 | SearchTerm | string |  |
+
 
 ## Response: array
 
@@ -77,9 +85,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2000-06-28T11:10:26.454455+02:00",
-  "ToDate": "2015-10-16T11:10:26.454455+02:00",
-  "SearchTerm": "eaque"
+  "FromDate": "2007-12-29T02:49:44.0753838+01:00",
+  "ToDate": "2002-03-20T02:49:44.0753838+01:00",
+  "SearchTerm": "sapiente"
 }
 ```
 
@@ -91,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 858,
-    "AssocId": 557,
-    "Timestamp": "2016-01-08T11:10:26.454455+01:00",
-    "ViewState": "consequatur",
-    "AggregateCount": 722,
-    "AggregateBin": 437,
-    "Version": 41,
+    "WebAppUsageId": 875,
+    "AssocId": 891,
+    "Timestamp": "2002-10-01T02:49:44.0753838+02:00",
+    "ViewState": "voluptatem",
+    "AggregateCount": 27,
+    "AggregateBin": 827,
+    "Version": 910,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldLength": 439
       }
     }
   }

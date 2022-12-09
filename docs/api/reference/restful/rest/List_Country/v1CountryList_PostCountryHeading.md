@@ -11,7 +11,14 @@ POST /api/v1/List/Country/Headings
 
 Saves a new heading for the Country list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,16 +75,16 @@ Response body:
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 766,
-  "Name": "Schuppe-Lueilwitz",
-  "Tooltip": "itaque",
+  "HeadingId": 544,
+  "Name": "Hahn Inc and Sons",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 210,
-  "UdListDefinitionId": 752
+  "Rank": 941,
+  "UdListDefinitionId": 495
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 857,
-  "Name": "Krajcik, Ortiz and Cruickshank",
-  "Tooltip": "est",
+  "HeadingId": 217,
+  "Name": "Cormier-Hoppe",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 237,
-  "UdListDefinitionId": 969,
+  "Rank": 858,
+  "UdListDefinitionId": 731,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 797
     }
   }
 }

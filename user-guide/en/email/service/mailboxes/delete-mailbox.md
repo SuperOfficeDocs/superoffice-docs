@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Delete mailboxes
-
-To delete a mailbox, do as follows:
+# Delete mailbox
 
 [!include[Go to email](../includes/goto-email.md)]
 

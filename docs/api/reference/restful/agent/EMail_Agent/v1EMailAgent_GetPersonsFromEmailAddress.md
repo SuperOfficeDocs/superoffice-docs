@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
 
 Get all persons and contacts with the given email address
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get all persons and contacts with the given email address
 ```http
 POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EmailAddress
+EmailAddress 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EmailAddress | string |  |
+
 
 ## Response: array
 
@@ -106,11 +116,11 @@ Response body: array
 POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "lewis@daniel.uk"
+  "EmailAddress": "keira@faheypouros.biz"
 }
 ```
 
@@ -122,52 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quas",
-    "PersonId": 149,
-    "Mrmrs": "excepturi",
-    "Firstname": "Marquise",
-    "Lastname": "Legros",
-    "MiddleName": "Olson-Huels",
-    "Title": "placeat",
-    "Description": "Streamlined exuding encryption",
-    "Email": "zetta_effertz@swiftwelch.us",
-    "FullName": "Davin Labadie",
-    "DirectPhone": "(941)557-9745 x55402",
-    "FormalName": "White, Schneider and Runolfsson",
-    "CountryId": 896,
-    "ContactId": 330,
-    "ContactName": "Becker Group",
-    "Retired": 656,
-    "Rank": 960,
-    "ActiveInterests": 349,
+    "Position": "aspernatur",
+    "PersonId": 233,
+    "Mrmrs": "veritatis",
+    "Firstname": "Jasen",
+    "Lastname": "Gaylord",
+    "MiddleName": "Deckow Group",
+    "Title": "animi",
+    "Description": "Self-enabling heuristic policy",
+    "Email": "johathan_hand@littelvon.us",
+    "FullName": "Brianne Balistreri",
+    "DirectPhone": "1-553-927-9800",
+    "FormalName": "Nitzsche LLC",
+    "CountryId": 286,
+    "ContactId": 458,
+    "ContactName": "Shields Inc and Sons",
+    "Retired": 786,
+    "Rank": 639,
+    "ActiveInterests": 660,
     "ContactDepartment": "",
-    "ContactCountryId": 615,
-    "ContactOrgNr": "888094",
-    "FaxPhone": "546.951.5513",
-    "MobilePhone": "1-444-140-4138",
-    "ContactPhone": "814-930-4291 x18499",
-    "AssociateName": "Langworth, Swift and Gulgowski",
-    "AssociateId": 346,
-    "UsePersonAddress": true,
-    "ContactFax": "quis",
-    "Kanafname": "similique",
-    "Kanalname": "dolorem",
-    "Post1": "optio",
-    "Post2": "ut",
-    "Post3": "repudiandae",
-    "EmailName": "kieran.goldner@wisozk.uk",
-    "ContactFullName": "Mrs. Laurine Tyshawn Mosciski II",
-    "ActiveErpLinks": 864,
-    "TicketPriorityId": 353,
-    "SupportLanguageId": 205,
-    "SupportAssociateId": 345,
+    "ContactCountryId": 13,
+    "ContactOrgNr": "1197894",
+    "FaxPhone": "040-305-1954 x3869",
+    "MobilePhone": "585-945-4372 x2744",
+    "ContactPhone": "1-150-696-0912 x9629",
+    "AssociateName": "Heaney-Murray",
+    "AssociateId": 393,
+    "UsePersonAddress": false,
+    "ContactFax": "rerum",
+    "Kanafname": "quia",
+    "Kanalname": "a",
+    "Post1": "ipsam",
+    "Post2": "necessitatibus",
+    "Post3": "aut",
+    "EmailName": "sydni@rowe.biz",
+    "ContactFullName": "Mrs. Garret Chase Davis PhD",
+    "ActiveErpLinks": 723,
+    "TicketPriorityId": 63,
+    "SupportLanguageId": 829,
+    "SupportAssociateId": 592,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldLength": 714
       }
     }
   }

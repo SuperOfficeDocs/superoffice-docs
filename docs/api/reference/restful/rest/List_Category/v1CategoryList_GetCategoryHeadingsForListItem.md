@@ -11,11 +11,17 @@ GET /api/v1/List/Category/Items/{itemId}/Headings
 
 Gets headings for the Category list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 873,
-    "Name": "Satterfield-Gottlieb",
-    "ToolTip": "Illum qui distinctio explicabo aspernatur.",
+    "Id": 419,
+    "Name": "Moore Inc and Sons",
+    "ToolTip": "Doloremque ea vitae et.",
     "Deleted": false,
-    "Rank": 879,
-    "Type": "vitae",
-    "ColorBlock": 439,
-    "IconHint": "laboriosam",
+    "Rank": 407,
+    "Type": "qui",
+    "ColorBlock": 590,
+    "IconHint": "vitae",
     "Selected": true,
-    "LastChanged": "2013-03-08T11:10:53.9491854+01:00",
+    "LastChanged": "2022-01-02T02:49:51.9065706+01:00",
     "ChildItems": [
       {
-        "Id": 711,
-        "Name": "Towne Inc and Sons",
-        "ToolTip": "Et placeat qui sed est sint.",
+        "Id": 415,
+        "Name": "Dibbert LLC",
+        "ToolTip": "Natus est est.",
         "Deleted": false,
-        "Rank": 354,
-        "Type": "ut",
-        "ColorBlock": 448,
-        "IconHint": "magni",
-        "Selected": true,
-        "LastChanged": "2004-11-10T11:10:53.9491854+01:00",
+        "Rank": 785,
+        "Type": "accusantium",
+        "ColorBlock": 91,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2005-01-20T02:49:51.9065706+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "temporibus",
-        "Hidden": true,
-        "FullName": "Hettie Wolff IV",
+        "ExtraInfo": "eum",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Mr. Elody Michael Koepp DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 317
+            "FieldLength": 322
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "quas",
-    "Hidden": true,
-    "FullName": "Dr. Vivienne Schuster II",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "veritatis",
+    "Hidden": false,
+    "FullName": "Mrs. Noel Kasey Kub III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldType": "System.String",
+        "FieldLength": 166
       }
     }
   }

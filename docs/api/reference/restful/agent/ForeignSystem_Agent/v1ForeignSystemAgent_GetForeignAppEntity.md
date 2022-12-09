@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
 
 Gets a ForeignAppEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=773
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=414
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,29 +82,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 325,
-  "Name": "Paucek-Stamm",
-  "CreatedDate": "2002-04-18T11:10:27.0724253+02:00",
-  "UpdatedDate": "2012-01-06T11:10:27.0724253+01:00",
+  "ForeignAppId": 652,
+  "Name": "Smith, Miller and Kertzmann",
+  "CreatedDate": "2009-02-27T02:49:44.5454229+01:00",
+  "UpdatedDate": "2004-07-29T02:49:44.5454229+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 159,
-      "Name": "Bailey Group",
-      "CreatedDate": "2022-02-09T11:10:27.0724253+01:00",
-      "UpdatedDate": "2019-12-08T11:10:27.0724253+01:00",
-      "AssociateFullName": "Mr. Jerome Claud Tromp",
-      "CreatedBy": "voluptas",
-      "UpdatedBy": "qui",
-      "DeviceIdentifier": "aspernatur",
-      "ForeignAppId": 416,
+      "ForeignDeviceId": 253,
+      "Name": "McKenzie-Lehner",
+      "CreatedDate": "2012-08-09T02:49:44.5454229+02:00",
+      "UpdatedDate": "2004-05-03T02:49:44.5454229+02:00",
+      "AssociateFullName": "Houston Lue Bayer DVM",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "ducimus",
+      "DeviceIdentifier": "consequatur",
+      "ForeignAppId": 512,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 972
         }
       }
     }
@@ -105,8 +113,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   }
 }

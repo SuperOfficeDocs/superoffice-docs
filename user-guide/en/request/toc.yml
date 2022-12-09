@@ -1,7 +1,12 @@
 items:
 - name: Overview
   href: index.md
-- name: How to...
+- name: Request screen
+  href: screen/index.md
+  items:
+  - name: Request log
+    href: screen/ticket-log.md
+- name: Work with requests
   href: howto/index.md
   items:
   - name: Find a request
@@ -24,7 +29,7 @@ items:
     href: howto/split-request.md
   - name: Merge requests
     href: howto/merge.md
-  - name: Add requests to favourites
+  - name: Add requests to favorites
     href: howto/fav.md
   - name: Keep track of messages
     href: howto/flag-message.md
@@ -38,64 +43,3 @@ items:
     href: howto/close.md
   - name: Delete a request
     href: howto/delete.md
-- name: Categories
-  href: category/index.md
-  items:
-  - name: Create category
-    href: category/create.md
-  - name: Delete category
-    href: category/delete.md
-- name: Tags
-  href: tags.md
-- name: Priorities
-  href: priority/index.md
-  items:
-  - name: Create priority
-    href: priority/create.md
-  - name: Delete priority
-    href: priority/delete.md
-  - name: Create escalation levels
-    href: priority/escalation-levels.md
-- name: Request status
-  href: status/index.md
-  items:
-  - name: Create request status
-    href: status/create.md
-  - name: Delete request status
-    href: status/delete.md
-
-- name: Reply templates
-  href: reply-templates/toc.yml
-
-- name: Work with email addresses
-  href: mailboxes/index.md
-  items:
-  - name: Create email addresses
-    href: mailboxes/add-email-address.md
-  - name: Administrate email address folders
-    href: mailboxes/manage-folders.md
-
-- name: External document
-  href: external-document.md
-  
-- name: Invoice
-  href: invoice/index.md
-  items:
-  - name: View invoice data for company
-    href: invoice/for-company.md
-  - name: View invoice data for contact
-    href: invoice/for-contact.md
-  - name: Create invoice types
-    href: invoice/create-type.md
-  - name: Delete invoice types
-    href: invoice/delete-type.md
-
-- name: Request screens
-  href: screen/index.md
-  items:
-  - name: Request log
-    href: screen/ticket-log.md
-  - name: System templates
-    href: screen/system-templates.md
-  - name: Knowledge base
-    href: screen/knowledge-base.md

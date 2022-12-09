@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectEvent
 
 Gets a ProjectEvent object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=898
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=693
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +87,7 @@ Response body:
 POST /api/v1/Agents/Project/GetProjectEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Melvina Towne",
-  "Description": "Future-proofed hybrid policy",
-  "ProjectId": 945,
-  "EventName": "Hansen, Wintheiser and Leuschke",
-  "AssociateId": 417,
-  "IsSignedOn": true,
-  "SignOffConfirmationText": "et",
-  "SignOffText": "voluptatum",
-  "SignOnConfirmationText": "tempora",
-  "SignOnText": "et",
-  "EventDate": "1999-03-02T11:10:27.6064546+01:00",
+  "AssociateFullName": "Ulises Feeney",
+  "Description": "Synchronised attitude-oriented installation",
+  "ProjectId": 792,
+  "EventName": "Franecki-Dickens",
+  "AssociateId": 832,
+  "IsSignedOn": false,
+  "SignOffConfirmationText": "voluptatem",
+  "SignOffText": "laudantium",
+  "SignOnConfirmationText": "voluptas",
+  "SignOnText": "quasi",
+  "EventDate": "2016-04-17T02:49:44.952838+02:00",
   "Enabled": false,
-  "SignOff": true,
+  "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOnTaskEnable": false,
-  "SignOn": true,
-  "SignOffTaskId": 364,
-  "SignOnTaskId": 592,
+  "SignOnTaskEnable": true,
+  "SignOn": false,
+  "SignOffTaskId": 850,
+  "SignOnTaskId": 766,
   "SignOffTriggersAssign": false,
-  "SignOnTriggersAssign": true,
-  "SignOnPersonId": 767,
-  "SignOffPersonId": 781,
+  "SignOnTriggersAssign": false,
+  "SignOnPersonId": 21,
+  "SignOffPersonId": 347,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldLength": 888
     }
   }
 }

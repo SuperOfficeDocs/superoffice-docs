@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetAppointmentRecords
 
 Get all records involved in a booking and/or recurring appointments.
 
+
 MotherId can be zero for repeating appointments or bookings, and recurrenceRuleId can be zero for bookings that are not repeating.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ MotherId can be zero for repeating appointments or bookings, and recurrenceRuleI
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentRecords?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Appointment/GetAppointmentRecords?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MotherId, RecurrenceRuleId
+MotherId, RecurrenceRuleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MotherId | int32 |  |
 | RecurrenceRuleId | int32 |  |
+
 
 ## Response: array
 
@@ -120,8 +128,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 372,
-  "RecurrenceRuleId": 128
+  "MotherId": 515,
+  "RecurrenceRuleId": 234
 }
 ```
 
@@ -133,53 +141,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 258,
-    "StartDate": "2021-05-29T11:10:25.4715222+02:00",
-    "EndDate": "2019-12-17T11:10:25.4715222+01:00",
+    "AppointmentId": 269,
+    "StartDate": "2006-01-18T02:49:43.261747+01:00",
+    "EndDate": "1996-07-09T02:49:43.261747+02:00",
     "Type": "BookingForChecklist",
-    "Task": "placeat",
-    "AssociateFullName": "Mrs. Gwen Cleta Farrell I",
-    "ContactName": "Lubowitz-Boyer",
-    "Description": "Ergonomic transitional approach",
-    "PersonFullName": "Victoria White",
-    "PersonId": 32,
-    "ContactId": 348,
-    "ProjectId": 26,
-    "ProjectName": "Schinner-Wolff",
-    "IsPublished": true,
-    "AssociateId": 174,
-    "ColorIndex": 874,
+    "Task": "quo",
+    "AssociateFullName": "Ms. Freida Fahey IV",
+    "ContactName": "Funk, Fisher and Bailey",
+    "Description": "Managed zero administration utilisation",
+    "PersonFullName": "Manley Pagac PhD",
+    "PersonId": 975,
+    "ContactId": 805,
+    "ProjectId": 373,
+    "ProjectName": "Schultz Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 339,
+    "ColorIndex": 245,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 673,
-    "PriorityName": "Greenholt-Schuster",
+    "PriorityId": 873,
+    "PriorityName": "Crist-Weissnat",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2003-07-19T11:10:25.4715222+02:00",
+    "ActiveDate": "2018-06-04T02:49:43.261747+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-08-23T11:10:25.4715222+02:00",
-    "RecurringEndDate": "1998-03-22T11:10:25.4715222+01:00",
-    "MotherId": 91,
-    "AssignedBy": 628,
-    "AssignedByFullName": "Miss Dee Keara Harris DVM",
+    "RecurringStartDate": "2006-06-20T02:49:43.261747+02:00",
+    "RecurringEndDate": "2003-03-07T02:49:43.261747+01:00",
+    "MotherId": 274,
+    "AssignedBy": 65,
+    "AssignedByFullName": "Dorian D'angelo Schroeder DDS",
     "RejectReason": "",
-    "Location": "eos",
-    "AlarmLeadTime": "quis",
-    "SaleId": 930,
-    "SaleName": "Bruen-Blanda",
-    "AssociateName": "Becker, Runolfsson and Bartoletti",
-    "CreatedDate": "2012-12-05T11:10:25.4725221+01:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Gwen Jackie Langosh DVM",
-    "CreatedByAssociateId": 872,
+    "Location": "aliquam",
+    "AlarmLeadTime": "aut",
+    "SaleId": 159,
+    "SaleName": "Orn-Mayert",
+    "AssociateName": "Krajcik, Robel and Mertz",
+    "CreatedDate": "2008-03-15T02:49:43.261747+01:00",
+    "CreatedBy": "amet",
+    "CreatedByFullName": "Martin Friesen",
+    "CreatedByAssociateId": 73,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -187,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldLength": 968
       }
     }
   }

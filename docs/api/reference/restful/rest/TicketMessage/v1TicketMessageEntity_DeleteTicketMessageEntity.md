@@ -11,11 +11,18 @@ DELETE /api/v1/TicketMessage/{id}
 
 Deletes the TicketMessageEntity
 
+
 Calls the Ticket agent service DeleteTicketMessageEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The TicketMessageEntity to be deleted. **Required** |
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Calls the Ticket agent service DeleteTicketMessageEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 TicketMessageEntity deleted.
 
@@ -34,7 +42,8 @@ TicketMessageEntity deleted.
 |----------------|-------------|
 | 204 | TicketMessageEntity deleted. |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -42,7 +51,7 @@ Response body:
 DELETE /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

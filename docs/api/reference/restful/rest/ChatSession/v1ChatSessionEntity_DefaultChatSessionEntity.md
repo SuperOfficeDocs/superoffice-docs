@@ -11,7 +11,14 @@ GET /api/v1/ChatSession/default
 
 Set default values into a new ChatSessionEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Chat agent service CreateDefaultChatSessionEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 172,
-  "TopicId": 417,
+  "ChatSessionId": 901,
+  "TopicId": 776,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "dolore",
-  "CustomerName": "Jaskolski-Gislason",
-  "CustomerEmail": "vivien@quigley.co.uk",
-  "CustomerPhone": "1-763-148-7702",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Will, Yost and Simonis",
+  "CustomerAlias": "sed",
+  "CustomerHost": "voluptate",
+  "CustomerName": "Hilpert Group",
+  "CustomerEmail": "darion@dicki.ca",
+  "CustomerPhone": "1-119-423-8593 x921",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Hane, Dooley and Grimes",
   "Status": "Closed",
-  "FirstMessage": "doloremque",
-  "LastMessage": "quo",
-  "WhenRequested": "2005-03-09T11:10:52.4291455+01:00",
-  "WhenStarted": "2017-07-28T11:10:52.4291455+02:00",
-  "WhenEnded": "2013-01-29T11:10:52.4291455+01:00",
-  "WhenIdle": "2009-04-07T11:10:52.4291455+02:00",
-  "WhenFetched": "1995-07-26T11:10:52.4291455+02:00",
-  "SessionKey": "repudiandae",
-  "InitialQueuePos": 882,
-  "AlertLevel": 644,
-  "Rank": 165,
+  "FirstMessage": "nobis",
+  "LastMessage": "occaecati",
+  "WhenRequested": "2015-03-22T02:49:50.5734094+01:00",
+  "WhenStarted": "2007-04-11T02:49:50.5734094+02:00",
+  "WhenEnded": "2014-11-15T02:49:50.5734094+01:00",
+  "WhenIdle": "1999-04-03T02:49:50.5734094+02:00",
+  "WhenFetched": "1998-08-03T02:49:50.5734094+02:00",
+  "SessionKey": "dicta",
+  "InitialQueuePos": 300,
+  "AlertLevel": 882,
+  "Rank": 125,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 280,
+  "ChatbotIsActive": false,
+  "Rating": 851,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 111
     }
   }
 }

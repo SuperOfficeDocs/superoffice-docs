@@ -11,9 +11,15 @@ PUT /api/v1/RelationDefinition/{id}
 
 Updates the existing RelationDefinitionEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The RelationDefinitionEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing RelationDefinitionEntity
 ```http
 PUT /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/RelationDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The RelationDefinitionEntity to be saved.
+The RelationDefinitionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +61,8 @@ The RelationDefinitionEntity to be saved.
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
 
-## Response
+
+## Response: 
 
 RelationDefinitionEntity updated.
 
@@ -63,7 +71,7 @@ RelationDefinitionEntity updated.
 | 200 | RelationDefinitionEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,16 +93,16 @@ Response body:
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 428,
-  "Name": "Okuneva, Fay and O'Keefe",
-  "Tooltip": "omnis",
-  "PassiveText": "sed",
+  "ReldefId": 862,
+  "Name": "Emard Group",
+  "Tooltip": "aliquam",
+  "PassiveText": "est",
   "Deleted": false,
-  "Rank": 307,
+  "Rank": 352,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -107,20 +115,20 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 116,
-  "Name": "Miller-Altenwerth",
-  "Tooltip": "dolores",
-  "PassiveText": "sed",
+  "ReldefId": 449,
+  "Name": "Heller, Harris and Lindgren",
+  "Tooltip": "tempora",
+  "PassiveText": "natus",
   "Deleted": false,
-  "Rank": 681,
+  "Rank": 392,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldType": "System.String",
+      "FieldLength": 359
     }
   },
   "_Links": {

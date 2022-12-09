@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GenerateNewPasswordForExternalUser
 
 Generates a new password for an external user.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Generates a new password for an external user.
 ```http
 POST /api/v1/Agents/User/GenerateNewPasswordForExternalUser?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/User/GenerateNewPasswordForExternalUser?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateName
+AssociateName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateName | string |  |
+
 
 ## Response: string
 
@@ -55,17 +65,18 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GenerateNewPasswordForExternalUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Paucek-Effertz"
+  "AssociateName": "Lubowitz-Berge"
 }
 ```
 
@@ -75,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"distinctio"
+"et"
 ```

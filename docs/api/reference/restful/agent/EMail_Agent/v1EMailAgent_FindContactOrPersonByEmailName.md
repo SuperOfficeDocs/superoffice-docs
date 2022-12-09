@@ -11,7 +11,13 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 
 <para />
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 ```http
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, EmailAddress
+Name, EmailAddress 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | EmailAddress | string |  |
+
 
 ## Response: array
 
@@ -75,12 +83,12 @@ Response body: array
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Romaguera-Effertz",
-  "EmailAddress": "marisa_weber@casper.uk"
+  "Name": "Kris Group",
+  "EmailAddress": "clement_becker@raynorgottlieb.co.uk"
 }
 ```
 
@@ -92,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 625,
-    "FullName": "Anjali Zieme III",
-    "EmailAddress": "vidal@lebsack.biz",
-    "ContactId": 39,
-    "ContactName": "Grimes-Erdman",
-    "ContactDepartment": "",
+    "PersonId": 694,
+    "FullName": "Bette Schuppe",
+    "EmailAddress": "theresa.stark@kessler.biz",
+    "ContactId": 775,
+    "ContactName": "Hahn Group",
+    "ContactDepartment": "deliver B2C content",
     "ContactCategory": "VIP Customer",
-    "SortName": "Emard Inc and Sons",
+    "SortName": "Glover, Jacobson and Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 416
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/ValidateContactEntity
 
 Check that entity is ready for saving, return error messages by field.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check that entity is ready for saving, return error messages by field.
 ```http
 POST /api/v1/Agents/Contact/ValidateContactEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Contact/ValidateContactEntity?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactEntity
+ContactEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactEntity |  | The Contact Service. The service implements all services working with the Contact object <para /> Carrier object for ContactEntity. Services for the ContactEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
+
 
 ## Response: object
 
@@ -53,13 +61,14 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/ValidateContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -74,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "eum",
-  "2": "itaque"
+  "1": "laudantium",
+  "2": "quis"
 }
 ```

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Marketing/GetFormEntity
 
 Gets a FormEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=295
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=165
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +87,7 @@ Response body:
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 131,
-  "FormKey": "nobis",
-  "Name": "Schmeler, Stracke and Collins",
-  "Description": "Universal uniform focus group",
-  "Config": "repudiandae",
-  "FolderId": 498,
-  "ScriptId": 828,
-  "ResponseShipmentId": 726,
-  "Active": false,
-  "Expires": "2021-12-12T11:10:27.2924531+01:00",
-  "MaxSubmits": 139,
+  "FormId": 189,
+  "FormKey": "sit",
+  "Name": "Heller Group",
+  "Description": "Polarised coherent knowledge base",
+  "Config": "fugit",
+  "FolderId": 697,
+  "ScriptId": 257,
+  "ResponseShipmentId": 570,
+  "Active": true,
+  "Expires": "2008-08-01T02:49:44.7172985+02:00",
+  "MaxSubmits": 71,
   "Type": "Normal",
-  "Recipe": "alias",
-  "GroupId": 718,
+  "Recipe": "tenetur",
+  "GroupId": 326,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2009-08-17T11:10:27.2924531+02:00",
-  "RegisteredAssociateId": 446,
-  "Updated": "2002-12-27T11:10:27.2924531+01:00",
-  "UpdatedAssociateId": 686,
-  "UpdatedCount": 224,
-  "FolderName": "Wuckert, Douglas and Hand",
+  "Registered": "2007-03-07T02:49:44.7172985+01:00",
+  "RegisteredAssociateId": 999,
+  "Updated": "1998-03-02T02:49:44.7172985+01:00",
+  "UpdatedAssociateId": 767,
+  "UpdatedCount": 746,
+  "FolderName": "Rau-Ebert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   }
 }

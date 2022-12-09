@@ -11,6 +11,12 @@ POST /api/v1/Agents/Database/GetStepsFromNetServerCode
 
 Get information about the dictionary steps that NetServer was generated for
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get information about the dictionary steps that NetServer was generated for
 ```http
 POST /api/v1/Agents/Database/GetStepsFromNetServerCode?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/Database/GetStepsFromNetServerCode?$select=name,department,c
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -68,26 +76,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lubowitz-Weimann",
-    "StepNumber": 222,
+    "Name": "Weber-Jenkins",
+    "StepNumber": 886,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 216
+        "FieldLength": 876
       }
     }
   },
   {
-    "Name": "Lubowitz-Weimann",
-    "StepNumber": 222,
+    "Name": "Weber-Jenkins",
+    "StepNumber": 886,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 216
+        "FieldLength": 876
       }
     }
   }

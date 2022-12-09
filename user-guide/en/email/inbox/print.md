@@ -11,8 +11,6 @@ language: en
 
 # Print email
 
-To print an email:
-
 1. Go to the inbox.
 2. Select the message you want to print.
 3. Click the **Actions** button ![icon][img1], and select **Print selected email**. The message is opened in a preview window in the browser.

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/MoveAllTickets
 
 Move all tickets from one ticket category to another
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Move all tickets from one ticket category to another
 ```http
 POST /api/v1/Agents/List/MoveAllTickets?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/List/MoveAllTickets?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FromTicketCategoryId, ToTicketCategoryId
+FromTicketCategoryId, ToTicketCategoryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FromTicketCategoryId | int32 |  |
 | ToTicketCategoryId | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -60,8 +69,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketCategoryId": 109,
-  "ToTicketCategoryId": 364
+  "FromTicketCategoryId": 217,
+  "ToTicketCategoryId": 332
 }
 ```
 

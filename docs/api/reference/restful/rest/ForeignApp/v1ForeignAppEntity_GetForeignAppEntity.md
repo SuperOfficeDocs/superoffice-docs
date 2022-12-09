@@ -11,11 +11,17 @@ GET /api/v1/ForeignApp/{id}
 
 Gets a ForeignAppEntity object.
 
+
 Calls the ForeignSystem agent service GetForeignAppEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ForeignAppEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the ForeignSystem agent service GetForeignAppEntity.
 ```http
 GET /api/v1/ForeignApp/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/ForeignApp/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ForeignAppEntity found.
 
@@ -50,7 +58,7 @@ ForeignAppEntity found.
 | 304 | ForeignAppEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,32 +87,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 06 Jul 1999 11:10:52 G7T
+Last-Modified: Wed, 02 Jun 2010 02:49:50 G6T
 
 {
-  "ForeignAppId": 737,
-  "Name": "Brown, Ziemann and Smith",
-  "CreatedDate": "1999-03-07T11:10:52.8911689+01:00",
-  "UpdatedDate": "1999-07-06T11:10:52.8911689+02:00",
+  "ForeignAppId": 168,
+  "Name": "O'Conner, Greenholt and Heaney",
+  "CreatedDate": "1998-02-20T02:49:50.979663+01:00",
+  "UpdatedDate": "2010-06-02T02:49:50.979663+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 512,
-      "Name": "Johnson-Hamill",
-      "CreatedDate": "2008-05-19T11:10:52.8911689+02:00",
-      "UpdatedDate": "2021-02-05T11:10:52.8911689+01:00",
-      "AssociateFullName": "Elvera Flatley I",
-      "CreatedBy": "id",
-      "UpdatedBy": "blanditiis",
-      "DeviceIdentifier": "ducimus",
-      "ForeignAppId": 393,
+      "ForeignDeviceId": 249,
+      "Name": "Grady Group",
+      "CreatedDate": "2000-04-30T02:49:50.979663+02:00",
+      "UpdatedDate": "2006-03-04T02:49:50.979663+01:00",
+      "AssociateFullName": "Ernie Hodkiewicz",
+      "CreatedBy": "quia",
+      "UpdatedBy": "enim",
+      "DeviceIdentifier": "quae",
+      "ForeignAppId": 981,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 953
         }
       }
     }
@@ -113,13 +121,13 @@ Last-Modified: Tue, 06 Jul 1999 11:10:52 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldType": "System.String",
+      "FieldLength": 650
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

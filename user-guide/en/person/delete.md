@@ -11,7 +11,7 @@ language: en
 
 # Delete contacts
 
-Why would you delete contacts in SuperOffice? A contact may have been added by mistake or be a duplicate, or a contact has been added with only a first name etc.
+Why would you delete contacts in SuperOffice? For example,a contact was added by mistake or is a duplicate, or a contact was added with only a first name.
 
 There are three ways you can delete a contact from SuperOffice CRM:
 
@@ -20,7 +20,7 @@ There are three ways you can delete a contact from SuperOffice CRM:
 * [Bulk delete][3] contacts at once.
 
 > [!TIP]
-> Instead of deleting a contact, you can check **Former employee** in the contact card (see [Create new contact][6]). Then this person’s name will not disappear from activities, for example, to which he or she is linked.
+> Instead of deleting a contact, you can check **Former employee** in the contact card (see [Create new contact][6]). Then this person’s name will not disappear from activities they are linked to.
 
 [!include[Deleting items](../includes/tip-deletion.md)]
 
@@ -28,9 +28,9 @@ There are three ways you can delete a contact from SuperOffice CRM:
 
 [!include[Go to Contact screen](../includes/goto-contact.md)]
 
-1. Click the **Task** button ( ![icon][img1] ) and select **Delete**. The **Delete Contact** dialog opens.
+1. Click the **Task** button ( ![icon][img1] ) and select **Delete**.
 
-1. Click **Yes** to confirm that you really want to delete the contact.
+1. In the **Delete Contact** dialog, click **Yes** to confirm that you really want to delete the contact.
 
 ## To delete a contact from the Company screen
 
@@ -43,9 +43,9 @@ There are three ways you can delete a contact from SuperOffice CRM:
     > [!NOTE]
     > You can select and delete several contacts simultaneously.
 
-1. Click the **Delete** button in the footer of the **Contacts** section tab. The **Delete Contact** dialog opens. You can also right-click the contact and select **Delete**.
+1. Click the **Delete** button in the footer of the **Contacts** section tab. You can also right-click the contact and select **Delete**.
 
-1. Click **Yes** to confirm that you really want to delete the contact.
+1. In the **Delete Contact** dialog, click **Yes** to confirm that you really want to delete the contact.
 
 ## Related topics
 

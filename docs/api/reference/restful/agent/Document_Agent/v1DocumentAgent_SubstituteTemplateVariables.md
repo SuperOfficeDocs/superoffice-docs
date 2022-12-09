@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariables
 
 Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Parse the source string, and replace any template variable tags with their value
 ```http
 POST /api/v1/Agents/Document/SubstituteTemplateVariables?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariables?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Source, GeneratorEncoding, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName
+Source, GeneratorEncoding, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ Source, GeneratorEncoding, ContactId, PersonId, AppointmentId, DocumentId, SaleI
 | ProjectId | int32 |  |
 | CultureName | string |  |
 
+
 ## Response: string
 
 OK
@@ -62,25 +70,26 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "velit",
+  "Source": "dignissimos",
   "GeneratorEncoding": "Html",
-  "ContactId": 173,
-  "PersonId": 570,
-  "AppointmentId": 915,
-  "DocumentId": 915,
-  "SaleId": 370,
-  "SelectionId": 837,
-  "ProjectId": 891,
+  "ContactId": 727,
+  "PersonId": 217,
+  "AppointmentId": 348,
+  "DocumentId": 451,
+  "SaleId": 858,
+  "SelectionId": 771,
+  "ProjectId": 259,
   "CultureName": "sv"
 }
 ```
@@ -91,5 +100,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptate"
+"velit"
 ```

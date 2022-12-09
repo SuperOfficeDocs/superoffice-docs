@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveWebPanelEntity
 
 Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The WebPanelEntity to be saved.
+The WebPanelEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,8 @@ The WebPanelEntity to be saved.
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -61,7 +69,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,31 +103,31 @@ Response body:
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 943,
-  "Name": "Kutch LLC",
-  "Tooltip": "quis",
+  "WebPanelId": 264,
+  "Name": "VonRueden, Grady and Miller",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 882,
+  "Rank": 907,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Rodriguez, Nikolaus and Roberts",
+  "WindowName": "Miller, O'Connell and Cummings",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptates",
-  "Icon": 663,
-  "AlwaysReloadOnShow": true
+  "ProgId": "enim",
+  "Icon": 195,
+  "AlwaysReloadOnShow": false
 }
 ```
 
@@ -130,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 660,
-  "Name": "Grant, Conroy and Robel",
-  "Tooltip": "quia",
+  "WebPanelId": 136,
+  "Name": "Rath-Davis",
+  "Tooltip": "sint",
   "Deleted": true,
-  "Rank": 346,
+  "Rank": 896,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "DuBuque-King",
+  "ShowInStatusBar": false,
+  "WindowName": "Nicolas Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "praesentium",
-  "Icon": 821,
+  "ProgId": "sed",
+  "Icon": 860,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldLength": 695
     }
   }
 }

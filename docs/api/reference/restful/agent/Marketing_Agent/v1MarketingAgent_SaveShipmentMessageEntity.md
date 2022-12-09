@@ -11,6 +11,13 @@ POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 
 Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntit
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ShipmentMessageEntity to be saved.
+The ShipmentMessageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,8 @@ The ShipmentMessageEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -61,7 +69,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,27 +107,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 642,
-  "PlainMessage": "aut",
-  "HtmlMessage": "et",
-  "SmsMessage": "corrupti",
-  "Description": "Assimilated upward-trending structure",
-  "Subject": "non",
-  "FolderId": 429,
-  "HeaderField": "sint",
-  "Design": "pariatur",
+  "ShipmentMessageId": 203,
+  "PlainMessage": "distinctio",
+  "HtmlMessage": "impedit",
+  "SmsMessage": "quia",
+  "Description": "Streamlined 4th generation standardization",
+  "Subject": "ut",
+  "FolderId": 621,
+  "HeaderField": "est",
+  "Design": "dicta",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Configurable value-added parallelism",
-  "AccessKey": "quis",
-  "DocumentMessage": 944,
-  "Registered": "2005-05-09T11:10:27.2904529+02:00",
-  "RegisteredAssociateId": 611,
-  "Updated": "2004-02-03T11:10:27.2904529+01:00",
-  "UpdatedAssociateId": 422,
-  "UpdatedCount": 559
+  "LongDescription": "Diverse homogeneous policy",
+  "AccessKey": "id",
+  "DocumentMessage": 400,
+  "Registered": "2015-08-09T02:49:44.7172985+02:00",
+  "RegisteredAssociateId": 564,
+  "Updated": "2022-08-09T02:49:44.7172985+02:00",
+  "UpdatedAssociateId": 224,
+  "UpdatedCount": 467
 }
 ```
 
@@ -130,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 900,
-  "PlainMessage": "dolor",
-  "HtmlMessage": "labore",
-  "SmsMessage": "recusandae",
-  "Description": "Ameliorated high-level hierarchy",
-  "Subject": "et",
-  "FolderId": 950,
-  "HeaderField": "eum",
-  "Design": "eius",
+  "ShipmentMessageId": 117,
+  "PlainMessage": "et",
+  "HtmlMessage": "praesentium",
+  "SmsMessage": "corporis",
+  "Description": "Face to face coherent infrastructure",
+  "Subject": "velit",
+  "FolderId": 267,
+  "HeaderField": "eos",
+  "Design": "est",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Proactive foreground infrastructure",
-  "AccessKey": "rerum",
-  "DocumentMessage": 105,
-  "Registered": "2018-05-15T11:10:27.2914527+02:00",
-  "RegisteredAssociateId": 613,
-  "Updated": "2007-04-01T11:10:27.2914527+02:00",
-  "UpdatedAssociateId": 669,
-  "UpdatedCount": 307,
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Pre-emptive zero administration system engine",
+  "AccessKey": "placeat",
+  "DocumentMessage": 773,
+  "Registered": "2005-01-06T02:49:44.7172985+01:00",
+  "RegisteredAssociateId": 794,
+  "Updated": "2003-05-15T02:49:44.7172985+02:00",
+  "UpdatedAssociateId": 97,
+  "UpdatedCount": 252,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldLength": 951
     }
   }
 }

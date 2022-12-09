@@ -11,7 +11,13 @@ POST /api/v1/Agents/Report/CreateFavorite
 
 Creates the report as favorite.
 
+
 The sourceId is the key to the report that the favorite is based on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The sourceId is the key to the report that the favorite is based on.
 ```http
 POST /api/v1/Agents/Report/CreateFavorite?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Report/CreateFavorite?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SourceId, Name, Description
+SourceId, Name, Description 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ SourceId, Name, Description
 | Name | string |  |
 | Description | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,13 +84,13 @@ Response body:
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 207,
-  "Name": "Kessler-Champlin",
-  "Description": "Reverse-engineered stable policy"
+  "SourceId": 430,
+  "Name": "Ratke-Gleason",
+  "Description": "Quality-focused directional monitoring"
 }
 ```
 
@@ -93,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 362,
+  "ReportId": 240,
   "ReportCategory": "All",
-  "Description": "Re-engineered scalable moratorium",
+  "Description": "Persistent didactic initiative",
   "ReportLayout": "CalendarMonth",
-  "Name": "Eichmann LLC",
-  "AssociateId": 107,
-  "TemplateId": 565,
+  "Name": "Metz-Wehner",
+  "AssociateId": 408,
+  "TemplateId": 293,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 472
+      "FieldLength": 177
     }
   }
 }

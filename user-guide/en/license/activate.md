@@ -11,7 +11,7 @@ language: en
 
 # Activate license
 
-To manage licenses, you need to be signed in to Settings and maintenance as an administrator.
+To manage licenses, you must be signed in to Settings and maintenance as an administrator.
 
 > [!NOTE]
 > If you are using a demo version of SuperOffice CRM, you may be asked to enter a new serial number and license owner. You will be given this by SuperOffice when you purchase a SuperOffice license.
@@ -24,7 +24,7 @@ To manage licenses, you need to be signed in to Settings and maintenance as an a
 
 ## Activate
 
-If you wish to increase or reduce the number of licenses for one or more modules, you need to contact SuperOffice to update the license information. The license will normally be updated automatically without you needing to do anything.
+If you wish to increase or reduce the number of licenses for one or more modules, contact SuperOffice to update the license information. The license will normally be updated automatically without you needing to do anything.
 
 > [!NOTE]
 > If you have problems fetching new license information from the web, you can contact SuperOffice to get a license file sent to you. Click the **Load license from file** button to update the licenses.
@@ -33,20 +33,22 @@ If the total number of new licenses is less than the number of licenses in use, 
 
 1. Open the **Licences** screen and select the **SuperOffice** tab.
 
-1. Click the **Activate new licence** link. The dialog shows the licenses that have been changed.
+1. Click the **Activate new licence** link. The dialog shows the licenses that were changed.
 
     * **New licence activated** – the system has updated the license automatically. You can click the link to view the changes.
     * **Activate new licence** – new license is available, but it cannot be activated automatically. Click the link to open the **Activate new licence** dialog. The list will only show altered licenses.
 
     > [!NOTE]
-    > If you have the wrong number of licenses or licenses for the wrong module, you need to contact SuperOffice. DO NOT activate the licenses if the number is incorrect.
+    > If you have the wrong number of licenses or licenses for the wrong module, contact SuperOffice. DO NOT activate the licenses if the number is incorrect.
 
 1. Click the **Activate** button in the **Activate new licence** dialog.
 
     **Is the Activate button disabled? Is the license name shown in red?**
     This may be because the total number of new licenses is less than the number of licenses in use. You must reduce the number of user licenses in use.
 
-    1. Click a red license name (link). The **Remove superfluous licences** dialog opens. At the top of the dialog are the number of licenses in use, the number of licenses that are available and the number that you must remove. The list below shows all the users who are using this license.
+    1. Click a red license name (link).
+
+        At the top of the **Remove superfluous licences** dialog are the number of licenses in use, the number of licenses that are available and the number that you must remove. The list below shows all the users who are using this license.
 
     1. Remove licenses for the specified number of users. Then click **OK**.
 
@@ -63,6 +65,6 @@ If the total number of new licenses is less than the number of licenses in use, 
 
 <!-- Referenced links -->
 [1]: screen/index.md
-[3]: index.md
+[3]: overview.md
 
 <!-- Referenced images -->

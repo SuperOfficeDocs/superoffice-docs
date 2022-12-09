@@ -11,27 +11,26 @@ language: en
 
 # Perform tasks using selections
 
-One of the objects of defining selections is to be able to perform different tasks for the members or some of the members of the selection. In addition, these tasks are available from the list of results in the **Find** screen.
+One of the objects of defining selections is to perform different tasks for the members or some of the members of the selection. In addition, these tasks are available from the list of results in the **Find** screen.
 
 ![icon][img1]
 
-The **Task** button contains tasks such as sending e-mails, mass-editing and exporting. Which tasks are displayed depends on what type of records the selection consists of (what is selected in the **Selection of** field) and which tab is active.
+The **Task** button contains tasks such as sending emails, mass-editing and exporting. Which tasks are displayed depends on what type of records the selection consists of (what is selected in the **Selection of** field) and which tab is active.
 
 > [!NOTE]
 > Certain tasks described here are not available to all user levels. A description of the different user levels can be found in the **Help for SuperOffice Settings and maintenance**. Some tasks are only available for specific tabs.
 
-From the **Task** button in the **Selection** screen or the **Find** screen, you perform tasks as follows:
+## Steps
 
-1. Go to the required selection. You can, for example, search for a selection from the **Selection** button in the navigator or search as described under [Use the Find screen][1].
+1. Go to the required selection. For example, search for a selection from the **Selection** button in the navigator or [use the Find screen][1].
 
 2. Select the tab containing the records you want to work with.
 
-3. If you want to perform the task on just some of the selection members, select them. Then click the **Task** button and select the **Perform task on selected members only** option.
+3. To perform the task on just some of the selection members, select them. Then click the **Task** button and select the **Perform task on selected members only** option.
 
 4. Click the **Task** button and select the task you want to perform. The selected task starts.
 
-> [!NOTE]
-> The available tasks will depend on what type of records is in the selected tab.
+    The available tasks depend on what type of records is in the selected tab.
 
 ## Available tasks
 

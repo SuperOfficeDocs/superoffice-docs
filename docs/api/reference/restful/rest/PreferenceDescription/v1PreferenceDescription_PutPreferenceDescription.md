@@ -11,9 +11,15 @@ PUT /api/v1/PreferenceDescription/{id}
 
 Updates the existing PreferenceDescription
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PreferenceDescription id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing PreferenceDescription
 ```http
 PUT /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The PreferenceDescription to be saved.
+The PreferenceDescription to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +71,8 @@ The PreferenceDescription to be saved.
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
 
-## Response
+
+## Response: 
 
 PreferenceDescription updated.
 
@@ -73,7 +81,7 @@ PreferenceDescription updated.
 | 200 | PreferenceDescription updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,24 +117,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 684,
-  "Section": "eos",
-  "Key": "iusto",
-  "Name": "Boyer-Roberts",
+  "PrefDescId": 503,
+  "Section": "earum",
+  "Key": "minus",
+  "Name": "Klocko LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Public-key fresh-thinking emulation",
-  "IsBuiltin": true,
-  "TableName": "Pacocha, Crooks and Parker",
-  "UserDefinedListId": 310,
-  "Rank": 314,
-  "SubGroup": "est",
-  "MinLevel": 34,
-  "MaxValue": 593,
-  "MinValue": 925,
-  "RequiredLicense": "amet"
+  "Description": "Operative solution-oriented superstructure",
+  "IsBuiltin": false,
+  "TableName": "Trantow-Schulist",
+  "UserDefinedListId": 702,
+  "Rank": 667,
+  "SubGroup": "et",
+  "MinLevel": 739,
+  "MaxValue": 637,
+  "MinValue": 962,
+  "RequiredLicense": "autem"
 }
 ```
 
@@ -137,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 312,
-  "Section": "itaque",
-  "Key": "et",
-  "Name": "Wunsch-Metz",
+  "PrefDescId": 131,
+  "Section": "ex",
+  "Key": "quisquam",
+  "Name": "Anderson, Hoppe and Leannon",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Robust disintermediate capability",
+  "Description": "Implemented optimizing knowledge base",
   "IsBuiltin": false,
-  "TableName": "Bechtelar-Kunde",
-  "UserDefinedListId": 826,
-  "Rank": 91,
-  "SubGroup": "quia",
-  "MinLevel": 206,
-  "MaxValue": 554,
-  "MinValue": 901,
-  "RequiredLicense": "ad",
+  "TableName": "Wiegand, Haag and Deckow",
+  "UserDefinedListId": 470,
+  "Rank": 733,
+  "SubGroup": "eos",
+  "MinLevel": 40,
+  "MaxValue": 663,
+  "MinValue": 459,
+  "RequiredLicense": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 450
+      "FieldLength": 430
     }
   },
   "_Links": {

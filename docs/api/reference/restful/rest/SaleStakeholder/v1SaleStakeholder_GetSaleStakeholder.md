@@ -11,11 +11,17 @@ GET /api/v1/SaleStakeholder/{id}
 
 Gets a SaleStakeholder object.
 
+
 Calls the Sale agent service GetSaleStakeholder.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the SaleStakeholder to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Sale agent service GetSaleStakeholder.
 ```http
 GET /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 SaleStakeholder found.
 
@@ -49,7 +57,7 @@ SaleStakeholder found.
 | 200 | SaleStakeholder found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,36 +100,36 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Fadel LLC",
-  "Comment": "ut",
-  "StakeholderRoleId": 91,
-  "CountryId": 926,
-  "PersonId": 539,
-  "EmailDescription": "natalia_price@zemlakmoen.name",
-  "EmailId": 896,
-  "EmailAddress": "teresa_jenkins@sipes.uk",
-  "PhoneId": 830,
-  "ContactName": "Greenholt Group",
-  "ContactId": 132,
-  "SaleId": 86,
-  "Mrmrs": "earum",
-  "Firstname": "Floy",
-  "MiddleName": "Ward, Will and Schiller",
-  "Lastname": "Conroy",
-  "SaleStakeholderId": 777,
-  "Rank": 984,
-  "Phone": "1-995-989-7556 x187",
+  "StakeholderRoleName": "Goyette, Ortiz and Macejkovic",
+  "Comment": "consequuntur",
+  "StakeholderRoleId": 280,
+  "CountryId": 249,
+  "PersonId": 881,
+  "EmailDescription": "maureen.friesen@bahringer.ca",
+  "EmailId": 441,
+  "EmailAddress": "teagan@bergnaum.info",
+  "PhoneId": 256,
+  "ContactName": "Gerlach-Hettinger",
+  "ContactId": 130,
+  "SaleId": 461,
+  "Mrmrs": "doloribus",
+  "Firstname": "Nakia",
+  "MiddleName": "Fay Inc and Sons",
+  "Lastname": "Stracke",
+  "SaleStakeholderId": 251,
+  "Rank": 23,
+  "Phone": "1-946-552-8897 x8369",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldType": "System.String",
+      "FieldLength": 603
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

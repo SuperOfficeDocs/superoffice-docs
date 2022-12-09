@@ -17,32 +17,32 @@ The options available for each frequency vary.
 
 ## Daily
 
-| Option | Description |
-|---|---|
-| Every workday (Mon-Fri) | Specifies that the follow-up will be repeated at the same time on each working day. |
-| Every weekday (Mon-Sun) | Specifies that the follow-up will be repeated at the same time on each day of the week, including the weekend. |
-| Every &lt;number&gt; day(s) | Here you enter a number to specify how many days should pass between each meeting, e.g. Every 6 days. |
+| Option | Description | Example |
+|---|---|---|
+| Every workday (Mon-Fri) | The follow-up will be repeated at the same time on each working day. | |
+| Every weekday (Mon-Sun) | The follow-up will be repeated at the same time on each day of the week, including the weekend. | |
+| Every &lt;number&gt; day(s) | The number of days that should pass between each meeting. | Every 6 days. |
 
 ## Weekly
 
-| Option | Description |
-|---|---|
-| Every &lt;number&gt; week(s)| Here you enter a number to specify how many weeks should pass between each meeting, e.g. Every 3 weeks. |
-| &lt;weekday&gt;| Here you indicate on which weekday(s) the meeting should take place. |
+| Option | Description | Example |
+|---|---|---|
+| Every &lt;number&gt; week(s)| Here you enter a number to specify how many weeks should pass between each meeting. | Every 3 weeks. |
+| &lt;weekday&gt;| Here you indicate on which weekday(s) the meeting should take place. | |
 
 ## Monthly
 
-| Option | Description |
-|---|---|
-| Day &lt;number&gt; **of every &lt;number&gt; month(s)** | Use this if you want the follow-up to take place on the same date each time. <br />For example: Day 20 of every 3 months. |
-| &lt;ordinal number&gt; &lt;weekday&gt; of every &lt;number&gt; month(s)| Use this if you want the follow-up to take place on the same weekday each time. <br />For example: The fourth Thursday of every 2 months. |
+| Option | Description | Example |
+|---|---|---|
+| Day &lt;number&gt; **of every &lt;number&gt; month(s)** | Use this if you want the follow-up to take place on the same date each time. | Day 20 of every 3 months. |
+| &lt;ordinal number&gt; &lt;weekday&gt; of every &lt;number&gt; month(s)| Use this if you want the follow-up to take place on the same weekday each time. | The fourth Thursday of every 2 months. |
 
 ## Yearly
 
-| Option | Description |
-|---|---|
-| Day &lt;number&gt; **of &lt;month&gt;**| Use this if you want the follow-up to take place on the same date each time.<br />For example: Day 13 of April. |
-| &lt;ordinal number&gt; **&lt;weekday&gt; of &lt;month&gt;**| Use this if you want the follow-up to take place on the same weekday each time.<br/>For example: The fourth Thursday of August. |
+| Option | Description | Example |
+|---|---|---|
+| Day &lt;number&gt; **of &lt;month&gt;**| Use this if you want the follow-up to take place on the same date each time. | Day 13 of April. |
+| &lt;ordinal number&gt; **&lt;weekday&gt; of &lt;month&gt;**| Use this if you want the follow-up to take place on the same weekday each time. | The fourth Thursday of August. |
 
 ## Custom
 

@@ -11,7 +11,14 @@ GET /api/v1/Document/UdefLayout/Publish
 
 Is UDef Layout Publishing active?
 
+
 True if the DocumentEntity user-defined field layout is being updated.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,6 +33,7 @@ True if the DocumentEntity user-defined field layout is being updated.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
 
 OK
@@ -36,13 +44,14 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 GET /api/v1/Document/UdefLayout/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -51,5 +60,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

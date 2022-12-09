@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTaskHeading
 
 Method that returns a specified number of appointments of a specific appointment task heading within a time range.
 
+
 The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the projects where the person specified is member. Ta
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTaskHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTaskHeading?$selec
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count, TaskHeadingId
+PersonId, StartTime, EndTime, Count, TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ PersonId, StartTime, EndTime, Count, TaskHeadingId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskHeadingId | int32 |  |
+
 
 ## Response: array
 
@@ -123,11 +131,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 879,
-  "StartTime": "2013-06-18T11:10:25.4335222+02:00",
-  "EndTime": "2003-11-14T11:10:25.4335222+01:00",
-  "Count": 152,
-  "TaskHeadingId": 632
+  "PersonId": 497,
+  "StartTime": "2019-10-07T02:49:43.2304992+02:00",
+  "EndTime": "2020-03-03T02:49:43.2304992+01:00",
+  "Count": 596,
+  "TaskHeadingId": 153
 }
 ```
 
@@ -139,53 +147,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 242,
-    "StartDate": "2009-11-23T11:10:25.4345224+01:00",
-    "EndDate": "2012-09-26T11:10:25.4345224+02:00",
+    "AppointmentId": 400,
+    "StartDate": "2002-10-21T02:49:43.2304992+02:00",
+    "EndDate": "2020-08-09T02:49:43.2304992+02:00",
     "Type": "BookingForChecklist",
-    "Task": "expedita",
-    "AssociateFullName": "Creola Zulauf Sr.",
-    "ContactName": "Satterfield, Hamill and Kub",
-    "Description": "Cross-group holistic Graphic Interface",
-    "PersonFullName": "Jena Lueilwitz",
-    "PersonId": 451,
-    "ContactId": 789,
-    "ProjectId": 364,
-    "ProjectName": "Murphy, Hane and Stamm",
+    "Task": "sunt",
+    "AssociateFullName": "Candace Cormier",
+    "ContactName": "Tremblay-Koepp",
+    "Description": "Adaptive global interface",
+    "PersonFullName": "Dylan Jacobi",
+    "PersonId": 563,
+    "ContactId": 796,
+    "ProjectId": 90,
+    "ProjectName": "Ratke-Johnston",
     "IsPublished": false,
-    "AssociateId": 730,
-    "ColorIndex": 988,
-    "IsFree": false,
+    "AssociateId": 144,
+    "ColorIndex": 79,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 278,
-    "PriorityName": "Armstrong, Balistreri and Parisian",
+    "PriorityId": 572,
+    "PriorityName": "Steuber, Green and Barrows",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2012-08-10T11:10:25.4355221+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2005-11-25T02:49:43.2304992+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-05-27T11:10:25.4355221+02:00",
-    "RecurringEndDate": "2017-01-10T11:10:25.4355221+01:00",
-    "MotherId": 214,
-    "AssignedBy": 403,
-    "AssignedByFullName": "Ms. Randall Jacobs II",
+    "RecurringStartDate": "2006-05-26T02:49:43.2304992+02:00",
+    "RecurringEndDate": "2022-02-24T02:49:43.2304992+01:00",
+    "MotherId": 718,
+    "AssignedBy": 692,
+    "AssignedByFullName": "Eda Wyman V",
     "RejectReason": "",
-    "Location": "repudiandae",
-    "AlarmLeadTime": "id",
-    "SaleId": 244,
-    "SaleName": "Hills, Ernser and Abbott",
-    "AssociateName": "O'Hara Inc and Sons",
-    "CreatedDate": "2010-10-01T11:10:25.4355221+02:00",
-    "CreatedBy": "id",
-    "CreatedByFullName": "Kiana McKenzie",
-    "CreatedByAssociateId": 205,
+    "Location": "quis",
+    "AlarmLeadTime": "ipsa",
+    "SaleId": 899,
+    "SaleName": "Wiza-Pouros",
+    "AssociateName": "Oberbrunner, Waelchi and Quigley",
+    "CreatedDate": "2019-12-06T02:49:43.2304992+01:00",
+    "CreatedBy": "facilis",
+    "CreatedByFullName": "Miss Gabriella Mosciski DVM",
+    "CreatedByAssociateId": 885,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -193,7 +201,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 436
+        "FieldLength": 785
       }
     }
   }

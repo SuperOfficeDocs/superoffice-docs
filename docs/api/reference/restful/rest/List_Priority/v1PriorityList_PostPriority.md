@@ -11,6 +11,13 @@ POST /api/v1/List/Priority/Items
 
 Add a new Priority to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new Priority to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The Priority to be added to the list.
+The Priority to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The Priority to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 262,
-  "Name": "Kshlerin, Beier and Kuvalis",
-  "Tooltip": "quam",
+  "Id": 33,
+  "Name": "Blanda-Pfannerstill",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 496,
-  "Rank": 512
+  "UdListDefinitionId": 833,
+  "Rank": 687
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 317,
-  "Name": "Lueilwitz-Ward",
-  "Tooltip": "distinctio",
+  "Id": 718,
+  "Name": "Jerde, Wiegand and Christiansen",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 577,
-  "Rank": 73,
+  "UdListDefinitionId": 67,
+  "Rank": 889,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldType": "System.String",
+      "FieldLength": 42
     }
   }
 }

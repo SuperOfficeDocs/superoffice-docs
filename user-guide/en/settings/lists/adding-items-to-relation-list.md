@@ -11,16 +11,16 @@ language: en
 
 # Add items to the General - Relation list
 
-When you add an item to the **General - Relation** list in Settings and maintenance, the **Edit list item** dialog is not the same as described under [Add items][1].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the list items are relations:
 
-1. Enter the required name of the item in the **Name** field. What you enter here is displayed in the **has relations** column on the **Relations** section tab in the **Company** screen in SuperOffice CRM. It should be a verb in the *active* form, e.g. *owns*.
+1. Enter the required name of the item in the **Name** field. What you enter here is displayed in the **has relations** column on the **Relations** section tab in the **Company** screen in SuperOffice CRM. It should be a verb in the *active* form, for example, *owns*.
 
     > [!NOTE]
     > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
-2. Enter the passive form of the relation in the **Passive form** field. What you enter here is displayed in the **has relations** column on the **Relations** section tab in the **Company** screen in SuperOffice CRM. It should be a verb in the *passive* form, e.g. *owned by*.
+2. Enter the passive form of the relation in the **Passive form** field. What you enter here is displayed in the **has relations** column on the **Relations** section tab in the **Company** screen in SuperOffice CRM. It should be a verb in the *passive* form, for example, *owned by*.
 
     <details><summary>Click here to see some examples of relations.</details>
 
@@ -33,15 +33,10 @@ When you add an item to the **General - Relation** list in Settings and maintena
 
     </details>
 
-3. Under **This is a relationship between**, specify whether the relationship refers to a company and/or a contact on the active and passive side respectively. These fields correspond to the fields in the **Relation** dialog in SuperOffice CRM.
+3. Under **This is a relationship between**, specify if the relationship refers to a company and/or a contact on the active and passive side respectively. These fields correspond to the fields in the **Relation** dialog in SuperOffice CRM.
 
-4. Under **Example** you can see an example of what the relationship looks like in practice, i.e. in the **Relations** section tab in SuperOffice CRM.
+4. Under **Example** you can see an example of what the relationship looks like in practice.
 
 5. Optionally, type in a description of the item in the **Description** field.
 
 6. [!include[Save or cancel](../../includes/save-or-cancel.md)]
-
-<!-- Referenced links -->
-[1]: adding-items.md
-
-<!-- Referenced images -->

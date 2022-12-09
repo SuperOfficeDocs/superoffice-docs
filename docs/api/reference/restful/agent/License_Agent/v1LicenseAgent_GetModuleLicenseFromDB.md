@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetModuleLicenseFromDB
 
 Get license information for one particular license module.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get license information for one particular license module.
 ```http
 POST /api/v1/Agents/License/GetModuleLicenseFromDB?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/License/GetModuleLicenseFromDB?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerName, ModuleName
+OwnerName, ModuleName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerName | string |  |
 | ModuleName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,12 +86,12 @@ Response body:
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Connelly, Brakus and Carter",
-  "ModuleName": "Okuneva, Kris and Kohler"
+  "OwnerName": "Lowe, Boyer and Ryan",
+  "ModuleName": "Lockman LLC"
 }
 ```
 
@@ -94,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Nicolas, Spinka and Yost",
-  "ModuleName": "Terry-Frami",
-  "ModuleDescription": "Enhanced fault-tolerant initiative",
-  "ModuleTooltip": "aspernatur",
-  "ModuleVersion": "culpa",
+  "OwnerName": "Hansen, Crooks and Collier",
+  "ModuleName": "Crist-Ryan",
+  "ModuleDescription": "Universal disintermediate internet solution",
+  "ModuleTooltip": "enim",
+  "ModuleVersion": "eius",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 247,
-  "ExtraFlags": 800,
-  "ExtraInfo": "vero",
-  "SortOrder": 906,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Batz Group",
-  "Signature": "quos"
+  "NumberOfLicenses": 192,
+  "ExtraFlags": 925,
+  "ExtraInfo": "suscipit",
+  "SortOrder": 314,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Rogahn, Crist and Schuppe",
+  "Signature": "vel"
 }
 ```

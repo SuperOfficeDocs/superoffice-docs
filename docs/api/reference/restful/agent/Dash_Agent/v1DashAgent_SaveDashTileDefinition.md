@@ -11,6 +11,13 @@ POST /api/v1/Agents/Dash/SaveDashTileDefinition
 
 Updates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing DashTileDefinition or creates a new DashTileDefinition if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashTileDefinition to be saved.
+The DashTileDefinition to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +58,8 @@ The DashTileDefinition to be saved.
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -59,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,29 +99,29 @@ Response body:
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 194,
-  "Name": "Brown-Schmidt",
-  "Description": "Managed systematic solution",
-  "DefaultHeight": 591,
-  "DefaultWidth": 13,
+  "DashboardTileDefinitionId": 844,
+  "Name": "Hintz, Gibson and Lueilwitz",
+  "Description": "Down-sized multimedia hierarchy",
+  "DefaultHeight": 761,
+  "DefaultWidth": 370,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hartmann Inc and Sons",
-  "SelectionId": 275,
+  "EntityName": "O'Keefe, Zieme and Gusikowski",
+  "SelectionId": 788,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ut",
+  "CurrencyCode": "debitis",
   "Measure": "Average",
-  "MeasureField": "autem",
-  "SortBy": "officia",
-  "LayoutConfig": "numquam",
-  "SecondarySelectionId": 725,
-  "MeasureByField": "atque",
+  "MeasureField": "sit",
+  "SortBy": "quis",
+  "LayoutConfig": "qui",
+  "SecondarySelectionId": 786,
+  "MeasureByField": "earum",
   "Usage": "Dashboard",
-  "ProviderName": "Bruen LLC"
+  "ProviderName": "Schulist-Schneider"
 }
 ```
 
@@ -124,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 742,
-  "Name": "Prohaska, Grimes and Grimes",
-  "Description": "Expanded empowering leverage",
-  "DefaultHeight": 205,
-  "DefaultWidth": 209,
+  "DashboardTileDefinitionId": 44,
+  "Name": "Abbott, Schoen and Schiller",
+  "Description": "Switchable static challenge",
+  "DefaultHeight": 967,
+  "DefaultWidth": 876,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Koepp Group",
-  "SelectionId": 572,
+  "EntityName": "Blanda-Cartwright",
+  "SelectionId": 151,
   "CurrencyMode": "Base",
   "CurrencyCode": "aut",
   "Measure": "Average",
-  "MeasureField": "et",
-  "SortBy": "et",
-  "LayoutConfig": "voluptatem",
-  "SecondarySelectionId": 341,
-  "MeasureByField": "harum",
+  "MeasureField": "porro",
+  "SortBy": "voluptatem",
+  "LayoutConfig": "aliquid",
+  "SecondarySelectionId": 464,
+  "MeasureByField": "temporibus",
   "Usage": "Dashboard",
-  "ProviderName": "Wolf Group",
+  "ProviderName": "Johnson, Rice and Lehner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldLength": 290
     }
   }
 }

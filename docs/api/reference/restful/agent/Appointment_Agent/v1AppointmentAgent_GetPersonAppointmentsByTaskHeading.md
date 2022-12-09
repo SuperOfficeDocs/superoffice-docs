@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTaskHeading
 
 Method that returns a specified number of appointments of a specific appointment task heading within a time range.
 
+
 The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the person specified.  Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTaskHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTaskHeading?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskHeadingId
+PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,6 +56,7 @@ PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskHeadingId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskHeadingId | int32 |  |
+
 
 ## Response: array
 
@@ -124,12 +132,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 148,
-  "IncludeProjectAppointments": true,
-  "StartTime": "1996-04-12T11:10:25.4175587+02:00",
-  "EndTime": "2001-03-31T11:10:25.4175587+02:00",
-  "Count": 581,
-  "TaskHeadingId": 903
+  "PersonId": 747,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2013-10-06T02:49:43.2148724+02:00",
+  "EndTime": "2002-08-23T02:49:43.2148724+02:00",
+  "Count": 158,
+  "TaskHeadingId": 603
 }
 ```
 
@@ -141,61 +149,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 500,
-    "StartDate": "2000-01-27T11:10:25.4185586+01:00",
-    "EndDate": "2016-10-02T11:10:25.4185586+02:00",
+    "AppointmentId": 534,
+    "StartDate": "2018-11-01T02:49:43.2148724+01:00",
+    "EndDate": "2009-01-11T02:49:43.2148724+01:00",
     "Type": "BookingForChecklist",
-    "Task": "numquam",
-    "AssociateFullName": "Yessenia Zemlak",
-    "ContactName": "Emard LLC",
-    "Description": "Face to face holistic forecast",
-    "PersonFullName": "Jacky Mitchell",
-    "PersonId": 611,
-    "ContactId": 55,
-    "ProjectId": 630,
-    "ProjectName": "Walsh, Jerde and Howe",
+    "Task": "tempora",
+    "AssociateFullName": "Haleigh O'Hara",
+    "ContactName": "McCullough-Donnelly",
+    "Description": "Polarised analyzing structure",
+    "PersonFullName": "Juanita Rau",
+    "PersonId": 512,
+    "ContactId": 119,
+    "ProjectId": 556,
+    "ProjectName": "Grady-Rosenbaum",
     "IsPublished": false,
-    "AssociateId": 212,
-    "ColorIndex": 623,
+    "AssociateId": 861,
+    "ColorIndex": 547,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 261,
-    "PriorityName": "Torp, Wolff and Hettinger",
+    "PriorityId": 374,
+    "PriorityName": "Heaney-Kutch",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2019-09-02T11:10:25.4195586+02:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2008-02-25T02:49:43.2148724+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-06-27T11:10:25.4195586+02:00",
-    "RecurringEndDate": "2016-06-03T11:10:25.4195586+02:00",
-    "MotherId": 890,
-    "AssignedBy": 743,
-    "AssignedByFullName": "Mr. Morris Mike Heathcote I",
-    "RejectReason": "embrace end-to-end metrics",
-    "Location": "eligendi",
-    "AlarmLeadTime": "enim",
-    "SaleId": 337,
-    "SaleName": "McLaughlin LLC",
-    "AssociateName": "Upton Inc and Sons",
-    "CreatedDate": "2001-09-26T11:10:25.4195586+02:00",
-    "CreatedBy": "quo",
-    "CreatedByFullName": "Chauncey Rice",
-    "CreatedByAssociateId": 151,
+    "RecurringStartDate": "2010-09-29T02:49:43.2148724+02:00",
+    "RecurringEndDate": "2021-09-15T02:49:43.2148724+02:00",
+    "MotherId": 302,
+    "AssignedBy": 323,
+    "AssignedByFullName": "Alana Purdy",
+    "RejectReason": "",
+    "Location": "blanditiis",
+    "AlarmLeadTime": "autem",
+    "SaleId": 884,
+    "SaleName": "Reichel-Prosacco",
+    "AssociateName": "Nicolas-Hills",
+    "CreatedDate": "2022-04-03T02:49:43.2148724+02:00",
+    "CreatedBy": "sit",
+    "CreatedByFullName": "Bertram Hettie Turner V",
+    "CreatedByAssociateId": 331,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 669
+        "FieldType": "System.String",
+        "FieldLength": 928
       }
     }
   }

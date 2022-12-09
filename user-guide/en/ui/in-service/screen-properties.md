@@ -15,17 +15,17 @@ Here you can edit the properties of a screen. You can create a script to precalc
 
 ## Properties
 
-* **Folder:** If you have organised the screens into a folder structure, click ![icon][img1] and select a folder.
+* **Folder:** If you have organized the screens into a folder structure, click ![icon][img1] and select a folder.
 * **Name**: A descriptive name for the screen.
 * **ID string**: A string which uniquely identifies this screen, so that it can be referenced in URL's
-* **Authentication key**: It is possible to run a custom-defined screen without being logged in as an user. To do this, you need to supply an authentication key.
+* **Authentication key**: It is possible to run a custom-defined screen without being logged in as an user. To do this, you must supply an authentication key.
 * **Warn on navigate**: Warn when the user navigates away from a page which contains unsaved data.
 * **Use auto-save**: Activate the [autosave function][1].
 
 ## Scripts
 
-* **Loading script (before setFromCgi)**: This script is run before setFromCgi, i.e. before the screen elements are assigned their values
-* **Loading script (after setFromCgi)**: This script is run after setFromCgi, i.e. after the screen elements are assigned their values
+* **Loading script (before setFromCgi)**: This script is run before the screen elements are assigned their values
+* **Loading script (after setFromCgi)**: This script is run after the screen elements are assigned their values
 * **Load script (run after everything else)**: This script is run at the end, after code and scripts for any buttons have been run.
 * **Hidden variables**: The variables defined here are saved when the screen is submitted, so the next screen has access to them.
 

@@ -11,7 +11,14 @@ POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 
 Set default values into a new SaleStakeholder.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +74,7 @@ Response body:
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Tremblay, Schoen and Treutel",
-  "Comment": "eligendi",
-  "StakeholderRoleId": 80,
-  "CountryId": 570,
-  "PersonId": 118,
-  "EmailDescription": "grover.rempel@borerschuster.info",
-  "EmailId": 194,
-  "EmailAddress": "ryann_mayert@mccullough.uk",
-  "PhoneId": 362,
-  "ContactName": "Harvey LLC",
-  "ContactId": 341,
-  "SaleId": 301,
-  "Mrmrs": "voluptates",
-  "Firstname": "Will",
-  "MiddleName": "Gusikowski LLC",
-  "Lastname": "Brakus",
-  "SaleStakeholderId": 24,
-  "Rank": 831,
-  "Phone": "033.971.2046 x7170",
+  "StakeholderRoleName": "Hoeger Group",
+  "Comment": "natus",
+  "StakeholderRoleId": 829,
+  "CountryId": 681,
+  "PersonId": 502,
+  "EmailDescription": "davonte@johns.us",
+  "EmailId": 772,
+  "EmailAddress": "daphne@larson.uk",
+  "PhoneId": 550,
+  "ContactName": "Kovacek, Hirthe and Schulist",
+  "ContactId": 535,
+  "SaleId": 596,
+  "Mrmrs": "totam",
+  "Firstname": "Ismael",
+  "MiddleName": "Towne, Kub and Rogahn",
+  "Lastname": "Wiegand",
+  "SaleStakeholderId": 210,
+  "Rank": 182,
+  "Phone": "713-160-5430 x940",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 453
     }
   }
 }

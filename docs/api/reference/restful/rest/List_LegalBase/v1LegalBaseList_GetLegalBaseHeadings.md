@@ -11,7 +11,14 @@ GET /api/v1/List/LegalBase/Headings
 
 Gets headings for the LegalBase list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -64,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 439,
-    "Name": "Nolan-Nienow",
-    "Tooltip": "et",
+    "HeadingId": 647,
+    "Name": "Prosacco, Kreiger and Kiehn",
+    "Tooltip": "provident",
     "Deleted": false,
-    "Rank": 74,
-    "UdListDefinitionId": 216,
+    "Rank": 244,
+    "UdListDefinitionId": 736,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 262
+        "FieldLength": 697
       }
     }
   }

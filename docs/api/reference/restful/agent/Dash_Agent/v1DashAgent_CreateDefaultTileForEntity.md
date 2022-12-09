@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 
 Set Measure to CountAll and MeasureField to primary key field
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Set Measure to CountAll and MeasureField to primary key field
 ```http
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Dash/CreateDefaultTileForEntity?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EntityName
+EntityName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EntityName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +82,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Reichel Inc and Sons"
+  "EntityName": "Dibbert, Towne and Hand"
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 47,
-  "DashboardId": 313,
-  "Height": 473,
-  "Width": 344,
-  "Rank": 598,
+  "DashboardTileId": 468,
+  "DashboardId": 781,
+  "Height": 436,
+  "Width": 323,
+  "Rank": 74,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 380
     }
   }
 }

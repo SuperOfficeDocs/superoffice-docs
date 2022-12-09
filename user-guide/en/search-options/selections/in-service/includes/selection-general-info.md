@@ -3,7 +3,7 @@
 
 * **ID string**: Here you can enter a unique identifier. In a web-based customer centre, you can refer to this ID string to make the selection available to customers.
 
-* **Folder**: If you have organised the selections into a folder structure (see [Administrate folders of selections][1]), click ![icon][img1] and select a folder.
+* **Folder**: If you have organized the selections into a folder structure (see [Administrate folders of selections][1]), click ![icon][img1] and select a folder.
 
 * **Access**: In this list box, you select who is to have access to read and edit the selection.
 

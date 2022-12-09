@@ -11,12 +11,19 @@ GET /api/v1/List/TicketStatus/{fromTicketStatusId}/ChangeTo/{toTicketStatusId}
 
 This method will change all references from one ticket status to another.
 
+
 Typically used in conjuction with delete
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | fromTicketStatusId | int32 | The id of the ticket status to change from **Required** |
 | toTicketStatusId | int32 | The id of the ticket status to change to **Required** |
+
+
 
 ## Request Headers
 
@@ -27,7 +34,8 @@ Typically used in conjuction with delete
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -35,7 +43,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -43,7 +52,7 @@ Response body:
 GET /api/v1/List/TicketStatus/{fromTicketStatusId}/ChangeTo/{toTicketStatusId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

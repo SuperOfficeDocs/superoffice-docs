@@ -11,6 +11,13 @@ GET /api/v1/List/TicketPriority/Items/Default
 
 Gets a default TicketPriorityEntity list item.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,7 +31,8 @@ Gets a default TicketPriorityEntity list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -32,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +81,7 @@ Response body:
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,60 +91,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 535,
-  "Name": "Sipes Inc and Sons",
+  "TicketPriorityId": 709,
+  "Name": "Blick Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 325,
+  "SortOrder": 432,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 329,
-  "MonStart": "2006-08-27T11:10:54.6849293+02:00",
-  "MonStop": "2012-05-17T11:10:54.6849293+02:00",
-  "TueStart": "1997-09-25T11:10:54.6849293+02:00",
-  "TueStop": "2006-11-16T11:10:54.6849293+01:00",
-  "WedStart": "2001-11-02T11:10:54.6849293+01:00",
-  "WedStop": "2019-10-28T11:10:54.6849293+01:00",
-  "ThuStart": "2019-01-22T11:10:54.6849293+01:00",
-  "ThuStop": "2013-03-22T11:10:54.6849293+01:00",
-  "FriStart": "2015-05-20T11:10:54.6849293+02:00",
-  "FriStop": "1999-12-02T11:10:54.6849293+01:00",
-  "SatStart": "2010-05-20T11:10:54.6849293+02:00",
-  "SatStop": "2022-02-17T11:10:54.6849293+01:00",
-  "SunStart": "2012-04-22T11:10:54.6849293+02:00",
-  "SunStop": "1998-06-19T11:10:54.6849293+02:00",
+  "Deadline": 983,
+  "MonStart": "2013-05-02T02:49:52.5784525+02:00",
+  "MonStop": "1996-01-11T02:49:52.5784525+01:00",
+  "TueStart": "2010-10-26T02:49:52.5784525+02:00",
+  "TueStop": "2008-04-22T02:49:52.5784525+02:00",
+  "WedStart": "2020-04-01T02:49:52.5784525+02:00",
+  "WedStop": "2014-01-30T02:49:52.5784525+01:00",
+  "ThuStart": "2008-09-02T02:49:52.5784525+02:00",
+  "ThuStop": "1999-06-17T02:49:52.5784525+02:00",
+  "FriStart": "1997-05-14T02:49:52.5784525+02:00",
+  "FriStop": "2021-02-08T02:49:52.5784525+01:00",
+  "SatStart": "2016-08-22T02:49:52.5784525+02:00",
+  "SatStop": "2019-01-08T02:49:52.5784525+01:00",
+  "SunStart": "2020-09-14T02:49:52.5784525+02:00",
+  "SunStop": "2008-06-05T02:49:52.5784525+02:00",
   "NonDates": [
-    "omnis",
-    "aut"
+    "ipsum",
+    "impedit"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 72,
-      "AlertLevel": 884,
-      "AlertTimeout": 721,
-      "Action": 733,
-      "DelegateTo": 475,
-      "ScriptId": 522,
-      "EmailTo": "anahi_bayer@daniel.uk",
-      "SmsTo": "doloremque",
-      "ReplyTemplateIdCustomer": 330,
-      "ReplyTemplateIdUser": 773,
-      "ReplyTemplateIdCatmast": 814,
-      "ReplyTemplateIdEmail": 669,
-      "RtiCustomerSms": 627,
-      "ReplyTemplateIdUserSms": 736,
-      "ReplyTemplateIdCatmastSms": 673,
-      "ReplyTemplateIdSms": 709,
+      "TicketAlertId": 478,
+      "AlertLevel": 195,
+      "AlertTimeout": 427,
+      "Action": 901,
+      "DelegateTo": 3,
+      "ScriptId": 961,
+      "EmailTo": "brenden_weissnat@harberwehner.info",
+      "SmsTo": "facilis",
+      "ReplyTemplateIdCustomer": 617,
+      "ReplyTemplateIdUser": 433,
+      "ReplyTemplateIdCatmast": 131,
+      "ReplyTemplateIdEmail": 820,
+      "RtiCustomerSms": 970,
+      "ReplyTemplateIdUserSms": 659,
+      "ReplyTemplateIdCatmastSms": 680,
+      "ReplyTemplateIdSms": 303,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 617
+          "FieldLength": 646
         }
       }
     }
@@ -145,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldType": "System.String",
+      "FieldLength": 875
     }
   }
 }

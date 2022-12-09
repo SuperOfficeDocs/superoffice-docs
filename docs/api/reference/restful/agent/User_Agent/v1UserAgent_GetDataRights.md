@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/GetDataRights
 
 Read specific a set of data rights at the given row in the rights matrix.
 
+
 An exception will be thrown if non existing position is specified.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ An exception will be thrown if non existing position is specified.
 ```http
 POST /api/v1/Agents/User/GetDataRights?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,14 +47,15 @@ POST /api/v1/Agents/User/GetDataRights?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RoleId, TableName
+RoleId, TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleId | int32 |  |
 | TableName | string |  |
+
 
 ## Response: object
 
@@ -58,18 +67,19 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 433,
-  "TableName": "Ziemann Group"
+  "RoleId": 278,
+  "TableName": "Bahringer LLC"
 }
 ```
 
@@ -80,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "numquam",
-  "2": "eaque"
+  "1": "veniam",
+  "2": "accusantium"
 }
 ```

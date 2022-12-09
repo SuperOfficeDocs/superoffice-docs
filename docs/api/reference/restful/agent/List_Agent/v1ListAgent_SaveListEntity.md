@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveListEntity
 
 Updates the existing ListEntity or creates a new ListEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ListEntity or creates a new ListEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ListEntity to be saved.
+The ListEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The ListEntity to be saved.
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -50,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,19 +81,19 @@ Response body:
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 370,
-  "Name": "Sanford Group",
-  "Tooltip": "tempore",
-  "Deleted": false,
-  "Rank": 575,
+  "Id": 298,
+  "Name": "Johnson LLC",
+  "Tooltip": "sunt",
+  "Deleted": true,
+  "Rank": 490,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "enim",
+  "ListType": "commodi",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -97,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 733,
-  "Name": "O'Hara, Muller and Kling",
-  "Tooltip": "exercitationem",
-  "Deleted": true,
-  "Rank": 198,
+  "Id": 415,
+  "Name": "Dach-Larson",
+  "Tooltip": "dolores",
+  "Deleted": false,
+  "Rank": 571,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "repudiandae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldLength": 525
     }
   }
 }

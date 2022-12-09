@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 
 Return information about all the user defined fields on a particular owner type (project, contact, person, etc).
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return information about all the user defined fields on a particular owner type 
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList?$selec
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType
+OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
+
 
 ## Response: array
 
@@ -114,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 244,
-    "ColumnId": 446,
-    "FieldDefault": "corrupti",
-    "FieldHeight": 241,
-    "FieldLabel": "animi",
-    "FieldLeft": 627,
-    "FieldTop": 651,
+    "UDefFieldId": 385,
+    "ColumnId": 853,
+    "FieldDefault": "facere",
+    "FieldHeight": 72,
+    "FieldLabel": "corrupti",
+    "FieldLeft": 397,
+    "FieldTop": 152,
     "FieldType": "Checkbox",
-    "FieldWidth": 910,
-    "FormatMask": "iste",
-    "HideLabel": false,
+    "FieldWidth": 212,
+    "FormatMask": "numquam",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 984,
-    "LabelLeft": 591,
-    "LabelTop": 858,
-    "LabelWidth": 352,
-    "LastVersionId": 459,
-    "ListTableId": 867,
-    "IsMandatory": false,
+    "LabelHeight": 574,
+    "LabelLeft": 695,
+    "LabelTop": 527,
+    "LabelWidth": 715,
+    "LastVersionId": 806,
+    "ListTableId": 440,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 249,
-    "ProgId": "sit",
+    "Page1LineNo": 45,
+    "ProgId": "fugiat",
     "IsReadOnly": false,
-    "ShortLabel": "voluptas",
-    "TabOrder": 432,
-    "TextLength": 687,
-    "Tooltip": "minima",
-    "UdefIdentity": 88,
-    "UDListDefinitionId": 88,
+    "ShortLabel": "qui",
+    "TabOrder": 707,
+    "TextLength": 199,
+    "Tooltip": "commodi",
+    "UdefIdentity": 188,
+    "UDListDefinitionId": 824,
     "Justification": "Center",
-    "Version": 611,
-    "TemplateVariableName": "Bashirian Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "O'Kon-Fahey",
+    "Version": 803,
+    "TemplateVariableName": "Swift, Lakin and Stracke",
+    "HasBeenPublished": true,
+    "MdoListName": "Glover, Bruen and Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldLength": 679
       }
     }
   }

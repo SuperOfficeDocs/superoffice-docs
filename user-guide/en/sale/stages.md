@@ -35,11 +35,11 @@ If you set the sales to **Stalled**, the following fields are displayed:
 
 ![Stalled sale -screenshot][img5]
 
-In addition, the **Appointment** dialog opens when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.
+The **Appointment** dialog opens when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.
 
 ## Sold/Lost
 
-If you set the sale to **Sold** or **Lost**, you can enter the date, any competitor and the reason why the sale succeeded or failed.
+If you set the sale to **Sold** or **Lost**, you can enter the date, any competitor and why the sale succeeded or failed.
 
 **Sold:**
 
@@ -58,7 +58,7 @@ If you set the sale to **Sold** or **Lost**, you can enter the date, any competi
 <!-- Referenced links -->
 [1]: sales-guide/index.md
 [2]: screen/index.md
-[3]: admin/add-stage.md
+[3]: ../settings/lists/sale-stage.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/salg-utsatt.bmp

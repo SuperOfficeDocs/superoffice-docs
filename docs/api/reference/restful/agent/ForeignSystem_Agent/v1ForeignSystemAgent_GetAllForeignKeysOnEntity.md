@@ -11,7 +11,13 @@ POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity
 
 Get a list of foreignkeys ('app.
 
+
 device.key') and their values ('123') that belong to the specified entity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ device.key') and their values ('123') that belong to the specified entity.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EntityType, EntityId
+EntityType, EntityId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EntityType | string |  |
 | EntityId | int32 |  |
+
 
 ## Response: object
 
@@ -56,18 +64,19 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "odit",
-  "EntityId": 804
+  "EntityType": "deleniti",
+  "EntityId": 721
 }
 ```
 
@@ -78,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "unde",
-  "2": "repudiandae"
+  "1": "et",
+  "2": "architecto"
 }
 ```

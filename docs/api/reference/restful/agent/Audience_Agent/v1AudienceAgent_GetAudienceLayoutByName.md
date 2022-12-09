@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 
 Gets an Audience layout by it's instance name
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an Audience layout by it's instance name
 ```http
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Audience/GetAudienceLayoutByName?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LayoutName
+LayoutName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,11 +79,11 @@ Response body:
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Wolff, O'Conner and Hilpert"
+  "LayoutName": "Monahan Inc and Sons"
 }
 ```
 
@@ -86,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 603,
-  "InstanceLayout": "reiciendis",
-  "InstanceName": "Streich, Hackett and Medhurst",
-  "CreatedDate": "2020-01-10T11:10:26.0105559+01:00",
-  "UpdatedDate": "1998-01-22T11:10:26.0105559+01:00",
+  "AudienceLayoutId": 341,
+  "InstanceLayout": "veniam",
+  "InstanceName": "Okuneva, Schultz and Predovic",
+  "CreatedDate": "2002-04-21T02:49:43.6847821+02:00",
+  "UpdatedDate": "2021-12-28T02:49:43.6847821+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 176
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   }
 }

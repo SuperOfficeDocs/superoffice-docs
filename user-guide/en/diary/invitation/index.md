@@ -17,22 +17,24 @@ Follow-ups with associates are set up by linking them as participants to the fol
 
 ## Status
 
-The users you have chosen to link to a follow-up will be notified of this on their screens. If you open the follow-up's **Participants** tab, you will see a list of participants and resources you have linked to the follow-up. You can also see who has accepted or declined the invitation and which resources have been booked, from the symbols next to the names:
+The users you chose to link to a follow-up will be notified of this on their screens. If you open the follow-up's **Participants** tab, you will see a list of participants and resources linked to the follow-up. You can also see who accepted or declined the invitation and which resources have been booked, from the symbols next to the names:
 
 | Icon | Description |
 |---|---|
-| ![icon][img1] | Invitation has been accepted. |
-| ![icon][img2] | Invitation has been declined. |
-| ![icon][img3] | Invitation has been seen but not answered. |
+| ![icon][img1] | Invitation is accepted. |
+| ![icon][img2] | Invitation is declined. |
+| ![icon][img3] | Invitation is seen but not answered. |
 | unmarked | Invitation has not been seen. |
 
 ### Resources
 
-When you link resources, they are automatically assigned the status of accepted. This is because a resource cannot answer the invitation itself, and it is possible to reserve the same resource several times for the same time period. If a resource is not free at the time in question, **Conflict** is shown in the **Status** column. An exclamation mark is also displayed in the **Appointment** dialog. You will then need to change the time of the follow-up. The **First available** field displays the first available meeting time.
+When you link resources, the status is set to *accepted* because a resource cannot answer the invitation itself.
+
+It is possible to double-book a resource. If a resource is not free at the time in question, **Conflict** is shown in the **Status** column. An exclamation mark is also displayed in the **Appointment** dialog. You should change the time of the follow-up. The **First available** field displays the first available meeting time.
 
 ### External contacts
 
-The people you choose under **Company** in the **Invitation** dialog are not usually members of your organisation. You can send the invitation to them via e-mail using the **E-mail invitation** option. Invitation e-mails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the status will automatically be updated in SuperOffice.
+The people you choose under **Company** in the **Invitation** dialog are not usually members of your organization. You can send the invitation to them via email using the **Email invitation** option. Invitation emails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the status will automatically be updated in SuperOffice.
 
 The follow-up is shown on the **Activities** section tab for the company in question.
 

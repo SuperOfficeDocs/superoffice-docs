@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 
 Get the list of members in this selection.
 
+
 The type of members depends on the target table of the selection.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The type of members depends on the target table of the selection.
 ```http
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Select
+SelectionId, Select 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Select | string |  |
+
 
 ## Response: array
 
@@ -72,12 +80,12 @@ Response body: array
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 179,
-  "Select": "ad"
+  "SelectionId": 607,
+  "Select": "harum"
 }
 ```
 
@@ -89,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Fisher-Kovacek",
-    "PrimaryKey": 406,
+    "EntityName": "O'Kon-Lindgren",
+    "PrimaryKey": 786,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "at",
-        "TooltipHint": "necessitatibus",
-        "LinkHint": "nihil"
+        "DisplayValue": "praesentium",
+        "TooltipHint": "rerum",
+        "LinkHint": "commodi"
       }
     },
-    "LinkHint": "dolor",
-    "StyleHint": "incidunt",
+    "LinkHint": "est",
+    "StyleHint": "numquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 660
       }
     }
   }

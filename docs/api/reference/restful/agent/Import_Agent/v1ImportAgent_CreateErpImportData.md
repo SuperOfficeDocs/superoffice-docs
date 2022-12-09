@@ -11,6 +11,12 @@ POST /api/v1/Agents/Import/CreateErpImportData
 
 Populates the ImportLines and columnDefs basedfrom erp system
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Populates the ImportLines and columnDefs basedfrom erp system
 ```http
 POST /api/v1/Agents/Import/CreateErpImportData?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Import/CreateErpImportData?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Restriction, Columns, ConnectionId, ErpActorType
+Restriction, Columns, ConnectionId, ErpActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ Restriction, Columns, ConnectionId, ErpActorType
 | ConnectionId | int32 |  |
 | ErpActorType | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,38 +77,38 @@ Response body:
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Hoeger Inc and Sons",
-      "Operator": "earum",
+      "Name": "Block, Keeling and Grant",
+      "Operator": "aliquid",
       "Values": [
-        "ratione",
-        "consequatur"
+        "magnam",
+        "et"
       ],
       "DisplayValues": [
-        "sequi",
-        "enim"
+        "occaecati",
+        "in"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 200,
+      "InterParenthesis": 832,
       "InterOperator": "And",
-      "UniqueHash": 82
+      "UniqueHash": 105
     }
   ],
   "Columns": [
-    "et",
-    "dolore"
+    "architecto",
+    "ut"
   ],
-  "ConnectionId": 168,
+  "ConnectionId": 234,
   "ErpActorType": "Customer"
 }
 ```
@@ -115,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "et",
-        "quia"
+        "nobis",
+        "alias"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "in",
+      "ExternalKey": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldType": "System.String",
+          "FieldLength": 52
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Metz Group",
-      "DisplayName": "Toy, Rau and Hettinger",
-      "Locked": false,
+      "Name": "Emmerich Inc and Sons",
+      "DisplayName": "Emmerich Inc and Sons",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 203
+          "FieldType": "System.String",
+          "FieldLength": 206
         }
       }
     },
     {
-      "Name": "Metz Group",
-      "DisplayName": "Toy, Rau and Hettinger",
-      "Locked": false,
+      "Name": "Emmerich Inc and Sons",
+      "DisplayName": "Emmerich Inc and Sons",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 203
+          "FieldType": "System.String",
+          "FieldLength": 206
         }
       }
     }
@@ -165,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 598
     }
   }
 }

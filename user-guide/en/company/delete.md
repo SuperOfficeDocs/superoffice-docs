@@ -9,15 +9,13 @@ so.topic: help
 language: en
 ---
 
-# Delete a company
-
-To delete a company and associated data:
+# Delete a company and associated data
 
 [!include[Go to company](../includes/goto-company.md)]
 
 1. Click the ![icon][img1] **Task** button and select **Delete &lt;company name&gt;**.
 
-1. The **Delete Company** dialog opens. Click **Yes** to confirm that you really want to delete the company.
+1. In the **Delete Company** dialog, click **Yes** to confirm that you really want to delete the company.
 
     [!include[Deleting items](../includes/tip-deletion.md)]
 

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SetRankOnSaleDocument
 
 Set rank order on project document
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Set rank order on project document
 ```http
 POST /api/v1/Agents/List/SetRankOnSaleDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/List/SetRankOnSaleDocument?$select=name,department,category/
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleTypeStageLinkId, ItemsIds
+SaleTypeStageLinkId, ItemsIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleTypeStageLinkId | int32 |  |
 | ItemsIds | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -60,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeStageLinkId": 331,
+  "SaleTypeStageLinkId": 854,
   "ItemsIds": [
-    461,
-    331
+    278,
+    572
   ]
 }
 ```

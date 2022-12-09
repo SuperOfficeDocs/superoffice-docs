@@ -37,7 +37,7 @@ This screen has following options:
 | ![icon][img1] | Macros and scripts | Click here to return to the list of the scripts and macros. |
 | ![icon][img3] | Edit script | Click here to edit the [script or macro][1]. |
 | ![icon][img5] | Run script | Click here to run the script or macro in standard mode. |
-| ![icon][img6] | Debug script | Click here to run the selected script or macro in debug mode. This opens the **Debugger** screen. If you run a script in debug mode, it stops at the first line. You can open a [debug session][2] from the **Debug sessions** tab. |
+| ![icon][img6] | Debug script | Click here to open the **Debugger** screen and run the selected script or macro in debug mode. The script stops at the first line. You can open a [debug session][2] from the **Debug sessions** tab. |
 | ![icon][img4] | Trace script | Click here to start [tracing the script or macro][3]. |
 
 <!-- Referenced links -->

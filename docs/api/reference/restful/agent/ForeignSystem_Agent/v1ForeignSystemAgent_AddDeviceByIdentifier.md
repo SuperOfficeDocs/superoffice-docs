@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 
 Adds a new ForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Adds a new ForeignDevice with deviceName that belongs to the application with ap
 ```http
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier
+ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ ApplicationName, DeviceName, DeviceIdentifier
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,13 +83,13 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lebsack-Greenholt",
-  "DeviceName": "Sawayn Inc and Sons",
-  "DeviceIdentifier": "iste"
+  "ApplicationName": "Huel-Anderson",
+  "DeviceName": "Bruen, Prosacco and Cummerata",
+  "DeviceIdentifier": "perferendis"
 }
 ```
 
@@ -92,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 913,
-  "Name": "Bernhard-Kerluke",
-  "CreatedDate": "1996-07-07T11:10:27.0794526+02:00",
-  "UpdatedDate": "2013-09-01T11:10:27.0794526+02:00",
-  "AssociateFullName": "Deborah Heller",
-  "CreatedBy": "asperiores",
-  "UpdatedBy": "magni",
-  "DeviceIdentifier": "ut",
-  "ForeignAppId": 366,
+  "ForeignDeviceId": 647,
+  "Name": "Carroll, Harber and Volkman",
+  "CreatedDate": "2016-02-09T02:49:44.5454229+01:00",
+  "UpdatedDate": "2010-04-06T02:49:44.5454229+02:00",
+  "AssociateFullName": "Mr. Jaydon Devon Stroman II",
+  "CreatedBy": "maxime",
+  "UpdatedBy": "quia",
+  "DeviceIdentifier": "nihil",
+  "ForeignAppId": 754,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldLength": 769
     }
   }
 }

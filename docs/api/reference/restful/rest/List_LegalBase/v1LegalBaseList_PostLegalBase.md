@@ -11,7 +11,14 @@ POST /api/v1/List/LegalBase/Items
 
 Create a new LegalBase list item
 
+
 Calls the List agent service SaveLegalBase.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveLegalBase.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The LegalBase to be created.
+The LegalBase to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The LegalBase to be created.
 | Key | string | The key used to uniquely identify this legal base |
 | Deleted | bool | true if the LegalBase is deleted |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,16 +75,16 @@ Response body:
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 880,
-  "Name": "Lehner, Swaniawski and Wiegand",
-  "Tooltip": "omnis",
-  "Rank": 557,
-  "Key": "asperiores",
-  "Deleted": false
+  "LegalBaseId": 565,
+  "Name": "Botsford, Gulgowski and Grimes",
+  "Tooltip": "reprehenderit",
+  "Rank": 540,
+  "Key": "quia",
+  "Deleted": true
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 998,
-  "Name": "Tromp-Schneider",
-  "Tooltip": "saepe",
-  "Rank": 542,
-  "Key": "libero",
+  "LegalBaseId": 894,
+  "Name": "Bergnaum-Jewess",
+  "Tooltip": "veritatis",
+  "Rank": 177,
+  "Key": "accusamus",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 716
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

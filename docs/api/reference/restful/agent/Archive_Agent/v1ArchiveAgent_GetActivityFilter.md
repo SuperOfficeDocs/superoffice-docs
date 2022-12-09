@@ -11,6 +11,12 @@ POST /api/v1/Agents/Archive/GetActivityFilter
 
 Get activity filter for the specified list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get activity filter for the specified list.
 ```http
 POST /api/v1/Agents/Archive/GetActivityFilter?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,8 @@ POST /api/v1/Agents/Archive/GetActivityFilter?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -42,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +68,7 @@ Response body:
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,91 +78,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2001-11-09T11:10:25.9585225+01:00",
-  "ToDate": "2022-01-10T11:10:25.9585225+01:00",
+  "FromDate": "2017-01-11T02:49:43.6535327+01:00",
+  "ToDate": "1996-01-27T02:49:43.6535327+01:00",
   "AssociateList": [
     {
-      "Id": 476,
-      "Name": "Gibson Inc and Sons",
-      "ToolTip": "Temporibus quia perferendis sint repellat et dolorum.",
+      "Id": 783,
+      "Name": "Wuckert, Lockman and Howe",
+      "ToolTip": "Vero aliquam mollitia doloribus error dignissimos voluptatem et.",
       "Deleted": false,
-      "Rank": 232,
-      "Type": "ut",
-      "ColorBlock": 935,
-      "IconHint": "voluptas",
-      "Selected": false,
-      "LastChanged": "2008-03-06T11:10:25.9585225+01:00",
+      "Rank": 228,
+      "Type": "ipsam",
+      "ColorBlock": 513,
+      "IconHint": "vero",
+      "Selected": true,
+      "LastChanged": "2021-03-04T02:49:43.6535327+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "rem",
+      "ExtraInfo": "adipisci",
+      "StyleHint": "sapiente",
       "Hidden": false,
-      "FullName": "Marietta Gislason",
+      "FullName": "Austyn Bosco",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldLength": 681
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 207,
-      "Name": "Wisoky-Kutch",
-      "ToolTip": "Et voluptatem minima ratione nihil quas sunt.",
-      "Deleted": false,
-      "Rank": 845,
-      "Type": "non",
-      "ColorBlock": 907,
-      "IconHint": "quia",
-      "Selected": false,
-      "LastChanged": "2003-05-15T11:10:25.9585225+02:00",
+      "Id": 910,
+      "Name": "Hansen-Wunsch",
+      "ToolTip": "Dolorem et sed delectus eligendi.",
+      "Deleted": true,
+      "Rank": 197,
+      "Type": "dolor",
+      "ColorBlock": 652,
+      "IconHint": "officiis",
+      "Selected": true,
+      "LastChanged": "2004-08-27T02:49:43.6535327+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odit",
-      "StyleHint": "odio",
+      "ExtraInfo": "dolorum",
+      "StyleHint": "laudantium",
       "Hidden": false,
-      "FullName": "Archibald Abernathy IV",
+      "FullName": "Jessyca Torp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 418
+          "FieldType": "System.Int32",
+          "FieldLength": 858
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 13,
-      "Name": "Schaefer LLC",
-      "ToolTip": "Adipisci architecto nobis maxime modi quae.",
+      "Id": 73,
+      "Name": "Kilback, Thompson and Dickens",
+      "ToolTip": "Autem beatae.",
       "Deleted": true,
-      "Rank": 629,
-      "Type": "illum",
+      "Rank": 368,
+      "Type": "repellat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vel",
-      "ColorBlock": 380,
-      "ExtraInfo": "eveniet",
-      "StyleHint": "totam",
-      "FullName": "Jeramie Gerlach",
+      "IconHint": "alias",
+      "ColorBlock": 706,
+      "ExtraInfo": "et",
+      "StyleHint": "consequatur",
+      "FullName": "Mr. Erin Margot Krajcik DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldLength": 441
         }
       }
     }
@@ -163,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldType": "System.Int32",
+      "FieldLength": 232
     }
   }
 }

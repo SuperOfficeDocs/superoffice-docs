@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 
 Create a new document content based on a document template and store it in the document archive.
 
+
 Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 ```http
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, UiCulture
+ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, UiCulture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,8 @@ ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, 
 | ProjectId | int32 |  |
 | UiCulture | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -60,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -111,14 +119,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 55,
-  "PersonId": 220,
-  "AppointmentId": 445,
-  "DocumentId": 795,
-  "SaleId": 560,
-  "SelectionId": 677,
-  "ProjectId": 654,
-  "UiCulture": "excepturi"
+  "ContactId": 865,
+  "PersonId": 963,
+  "AppointmentId": 935,
+  "DocumentId": 264,
+  "SaleId": 474,
+  "SelectionId": 6,
+  "ProjectId": 999,
+  "UiCulture": "ea"
 }
 ```
 
@@ -129,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 783,
+  "DocumentId": 396,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rem",
-  "Header": "ullam",
-  "Name": "Barrows, Berge and Heaney",
-  "OurRef": "consequatur",
-  "YourRef": "eius",
-  "CreatedDate": "2006-04-20T11:10:26.5954579+02:00",
-  "UpdatedDate": "1999-10-10T11:10:26.5954579+02:00",
-  "Description": "Robust impactful extranet",
+  "Attention": "praesentium",
+  "Header": "consequatur",
+  "Name": "Botsford Group",
+  "OurRef": "sint",
+  "YourRef": "ut",
+  "CreatedDate": "2021-05-30T02:49:44.1847858+02:00",
+  "UpdatedDate": "1999-07-18T02:49:44.1847858+02:00",
+  "Description": "Sharable homogeneous success",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-05-26T11:10:26.5994247+02:00",
-  "ExternalRef": "nostrum",
+  "Date": "2009-01-31T02:49:44.1847858+01:00",
+  "ExternalRef": "illo",
   "Completed": "Completed",
-  "ActiveLinks": 800,
+  "ActiveLinks": 412,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kohler Inc and Sons",
-      "Id": 937,
-      "Description": "Distributed global knowledge base",
-      "ExtraInfo": "vel",
-      "LinkId": 650,
+      "EntityName": "Goldner, Thompson and Nienow",
+      "Id": 650,
+      "Description": "Reactive solution-oriented monitoring",
+      "ExtraInfo": "quaerat",
+      "LinkId": 448,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 75
+          "FieldLength": 770
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 763,
-  "Snum": 439,
+  "SuggestedDocumentId": 464,
+  "Snum": 471,
   "UserDefinedFields": {
-    "SuperOffice:1": "309754527",
-    "SuperOffice:2": "Celia Rath"
+    "SuperOffice:1": "Mr. Cyril Hattie Cassin",
+    "SuperOffice:2": "Susan Powlowski"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "et"
+    "ExtraFields1": "recusandae",
+    "ExtraFields2": "repudiandae"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "beatae"
+    "CustomFields1": "at",
+    "CustomFields2": "consectetur"
   },
-  "PublishEventDate": "2007-03-10T11:10:26.6004242+01:00",
-  "PublishTo": "2004-05-17T11:10:26.6004242+02:00",
-  "PublishFrom": "2015-06-28T11:10:26.6004242+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2001-05-09T02:49:44.1847858+02:00",
+  "PublishTo": "1996-03-03T02:49:44.1847858+01:00",
+  "PublishFrom": "2004-10-12T02:49:44.1847858+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 400,
+      "VisibleId": 491,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 864
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     },
     {
-      "VisibleId": 400,
+      "VisibleId": 491,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 864
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     }
@@ -219,8 +227,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 834
     }
   }
 }

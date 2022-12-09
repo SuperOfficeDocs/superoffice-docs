@@ -9,9 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Specialised lists
+# Specialized lists
 
-It is generally very easy to add, edit and delete lists and items. Some lists, however, are more specialised and contain more options and greater functionality than ordinary lists.
+It is generally very easy to add, edit and delete lists and items. Some lists, however, are more specialized and contain more options and greater functionality than ordinary lists.
 
 * [Document - Template][1]
 * [Email - Template][2]
@@ -41,13 +41,13 @@ It is generally very easy to add, edit and delete lists and items. Some lists, h
 [7]: resource.md
 [8]: application.md
 [9]: webpanel.md
-[10]: ../../person/gdpr/index.md#legal-basis
-[11]: ../../person/gdpr/index.md#source
+[10]: privacy-legal-base-add.md
+[11]: privacy-source-add.md
 [12]: ../../project/screen/project-status-admin.md
 [13]: ../../project/screen/project-type-admin.md
-[14]: ../../sale/admin/add-amount-class.md
-[15]: ../../sale/screen/sale-stage.md
-[17]: ../../sale/screen/sales-type-for-stages.md
+[14]: sale-amount-class.md
+[15]: sale-stage.md
 [16]: ../../sale/stakeholders/index.md#role
+[17]: ../../sale/screen/sales-type-for-stages.md
 
 <!-- Referenced images -->

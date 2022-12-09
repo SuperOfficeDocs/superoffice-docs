@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/CheckoutDocument
 
 Check out a document for editing by the current user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check out a document for editing by the current user.
 ```http
 POST /api/v1/Agents/Document/CheckoutDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Document/CheckoutDocument?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, AllowedReturnTypes
+DocumentId, AllowedReturnTypes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | AllowedReturnTypes | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,14 +77,14 @@ Response body:
 POST /api/v1/Agents/Document/CheckoutDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 623,
+  "DocumentId": 94,
   "AllowedReturnTypes": [
-    "corporis",
-    "eveniet"
+    "nostrum",
+    "fuga"
   ]
 }
 ```
@@ -88,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "quasi",
-  "VersionId": "quae",
-  "Success": false,
+  "ExternalReference": "consequatur",
+  "VersionId": "doloremque",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "possimus",
-  "AdditionalInfo": "cumque"
+  "Value": "aliquam",
+  "AdditionalInfo": "dicta"
 }
 ```

@@ -11,6 +11,13 @@ GET /api/v1/List/PaymentTerm/Items/Default
 
 Gets a default PaymentTerm list item.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,7 +31,8 @@ Gets a default PaymentTerm list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -32,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +59,7 @@ Response body:
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -61,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 739,
-  "Name": "Kuhic, Schneider and Mohr",
-  "Tooltip": "earum",
+  "Id": 812,
+  "Name": "Von-Koepp",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "UdListDefinitionId": 346,
-  "Rank": 293,
+  "UdListDefinitionId": 157,
+  "Rank": 102,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 895
     }
   }
 }

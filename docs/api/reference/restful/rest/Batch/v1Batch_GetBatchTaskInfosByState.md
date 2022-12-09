@@ -9,11 +9,18 @@ uid: v1Batch_GetBatchTaskInfosByState
 GET /api/v1/BatchTask/{state}
 ```
 
-Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
+Gets an array of user BatchTaskInfo with state defined by a BatchTaskState.
+
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | state | Enum: Unknown, New, Aquired, Started, Succeeded, Failed, SucceededManualCleanup, All | The BatchTaskState to get batch tasks for. **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -70,7 +78,7 @@ Response body: array
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,36 +89,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 476,
-    "Name": "Crooks-McGlynn",
-    "AssociateId": 545,
-    "DetailsTable": 22,
-    "DetailsRecord": 70,
+    "Id": 731,
+    "Name": "Emard Inc and Sons",
+    "AssociateId": 533,
+    "DetailsTable": 40,
+    "DetailsRecord": 781,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "nisi",
-      "ParameterObject2": "dicta"
+      "ParameterObject1": "quaerat",
+      "ParameterObject2": "minima"
     },
-    "LastStarted": "2014-02-27T11:10:53.6762152+01:00",
-    "Created": "2000-04-29T11:10:53.6762152+02:00",
-    "StartCount": 686,
-    "DatabaseSerialNumber": "1271159",
-    "Context": "est",
-    "Result": "at",
+    "LastStarted": "2019-07-29T02:49:51.686648+02:00",
+    "Created": "2009-12-24T02:49:51.686648+01:00",
+    "StartCount": 711,
+    "DatabaseSerialNumber": "1277413",
+    "Context": "unde",
+    "Result": "est",
     "State": "All",
-    "Description": "Digitized eco-centric concept",
-    "Response": "omnis",
-    "Request": "laudantium",
-    "ProgressDescription": "Profound system-worthy Graphic Interface",
-    "ProgressPercent": 12,
-    "FileName": "Boehm, Gibson and Hills",
+    "Description": "Up-sized tangible application",
+    "Response": "sint",
+    "Request": "ullam",
+    "ProgressDescription": "Robust full-range alliance",
+    "ProgressPercent": 673,
+    "FileName": "Marvin-Stokes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 648
       }
     }
   }

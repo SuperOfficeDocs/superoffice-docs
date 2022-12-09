@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 
 Get the criteria for this dynamic selection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the criteria for this dynamic selection.
 ```http
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId
+SelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
+
 
 ## Response: array
 
@@ -72,11 +80,11 @@ Response body: array
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 494
+  "SelectionId": 703
 }
 ```
 
@@ -88,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Balistreri-Stark",
-    "Operator": "amet",
+    "Name": "Keeling Inc and Sons",
+    "Operator": "eum",
     "Values": [
-      "occaecati",
-      "et"
+      "animi",
+      "occaecati"
     ],
     "DisplayValues": [
-      "error",
-      "vitae"
+      "voluptatem",
+      "error"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Yost-Weimann",
-        "Operator": "ea",
+        "Name": "Lindgren-Abshire",
+        "Operator": "consequatur",
         "Values": [
-          "deleniti",
-          "explicabo"
+          "minus",
+          "asperiores"
         ],
         "DisplayValues": [
-          "iusto",
-          "minus"
+          "qui",
+          "amet"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -118,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 364,
+        "InterParenthesis": 289,
         "InterOperator": "And",
-        "UniqueHash": 834
+        "UniqueHash": 615
       }
     ],
-    "InterParenthesis": 380,
+    "InterParenthesis": 202,
     "InterOperator": "And",
-    "UniqueHash": 443
+    "UniqueHash": 862
   }
 ]
 ```

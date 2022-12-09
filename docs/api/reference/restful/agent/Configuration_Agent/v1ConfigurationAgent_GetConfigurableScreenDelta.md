@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 
 Gets a ConfigurableScreenDelta object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=797
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=424
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +78,7 @@ Response body:
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,28 +88,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 970,
-  "Name": "Metz-O'Kon",
-  "Description": "Sharable 6th generation portal",
-  "DeltaJson": "vitae",
+  "ConfigurableScreenDeltaId": 842,
+  "Name": "Reynolds-Mohr",
+  "Description": "Total actuating internet solution",
+  "DeltaJson": "quisquam",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "qui",
-  "UpdatedDate": "2001-10-27T11:10:26.2015557+02:00",
-  "CreatedDate": "2005-11-27T11:10:26.2015557+01:00",
+  "RecipeId": "earum",
+  "UpdatedDate": "1997-11-01T02:49:43.8566571+01:00",
+  "CreatedDate": "2019-02-12T02:49:43.8566571+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    439,
-    928
+    656,
+    907
   ],
-  "AppliesToKey": "hic",
+  "AppliesToKey": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldLength": 772
     }
   }
 }

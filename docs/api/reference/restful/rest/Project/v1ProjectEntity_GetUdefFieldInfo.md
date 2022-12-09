@@ -11,9 +11,16 @@ GET /api/v1/Project/UdefLayout/{progidOrLabel}
 
 Get a ProjectEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a ProjectEntity user-defined field's details based on the prog-id or label.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ProjectEntity found.
 
@@ -37,7 +45,7 @@ ProjectEntity found.
 | 200 | ProjectEntity found. |
 | 404 | ProjectEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +92,7 @@ Response body:
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 473,
-  "ColumnId": 114,
-  "FieldDefault": "nemo",
-  "FieldHeight": 381,
-  "FieldLabel": "ad",
-  "FieldLeft": 180,
-  "FieldTop": 556,
+  "UDefFieldId": 758,
+  "ColumnId": 755,
+  "FieldDefault": "recusandae",
+  "FieldHeight": 12,
+  "FieldLabel": "sunt",
+  "FieldLeft": 511,
+  "FieldTop": 534,
   "FieldType": "Checkbox",
-  "FieldWidth": 501,
-  "FormatMask": "asperiores",
+  "FieldWidth": 800,
+  "FormatMask": "repellat",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 203,
-  "LabelLeft": 322,
-  "LabelTop": 106,
-  "LabelWidth": 373,
-  "LastVersionId": 1002,
-  "ListTableId": 710,
+  "LabelHeight": 77,
+  "LabelLeft": 153,
+  "LabelTop": 340,
+  "LabelWidth": 653,
+  "LastVersionId": 257,
+  "ListTableId": 89,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 750,
-  "ProgId": "et",
+  "Page1LineNo": 898,
+  "ProgId": "mollitia",
   "IsReadOnly": false,
-  "ShortLabel": "eius",
-  "TabOrder": 435,
-  "TextLength": 751,
-  "Tooltip": "voluptatem",
-  "UdefIdentity": 760,
-  "UDListDefinitionId": 478,
+  "ShortLabel": "sit",
+  "TabOrder": 833,
+  "TextLength": 645,
+  "Tooltip": "magnam",
+  "UdefIdentity": 306,
+  "UDListDefinitionId": 784,
   "Justification": "Center",
-  "Version": 100,
-  "TemplateVariableName": "Quigley-Zulauf",
-  "HasBeenPublished": false,
-  "MdoListName": "Pacocha-Baumbach",
+  "Version": 338,
+  "TemplateVariableName": "Fay-Harvey",
+  "HasBeenPublished": true,
+  "MdoListName": "Price-Will",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 98
+      "FieldType": "System.Int32",
+      "FieldLength": 802
     }
   }
 }

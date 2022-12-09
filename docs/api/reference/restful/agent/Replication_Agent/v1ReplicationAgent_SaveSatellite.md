@@ -11,7 +11,16 @@ POST /api/v1/Agents/Replication/SaveSatellite
 
 Updates the existing Satellite or creates a new Satellite if the id parameter is empty
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
+
+
+
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Updates the existing Satellite or creates a new Satellite if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Satellite to be saved.
+The Satellite to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +51,8 @@ The Satellite to be saved.
 | Area |  | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -50,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,21 +81,21 @@ Response body:
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 431,
-  "Created": "2015-06-10T11:10:27.7514948+02:00",
+  "SatelliteId": 615,
+  "Created": "2019-11-27T02:49:45.0622144+01:00",
   "CreatedBy": null,
-  "Updated": "2021-03-17T11:10:27.7514948+01:00",
+  "Updated": "2012-03-04T02:49:45.0622144+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Stanton LLC",
-      "Description": "De-engineered secondary secured line",
+      "Name": "Fahey-Rogahn",
+      "Description": "Team-oriented methodical initiative",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +106,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Stanton LLC",
-      "Description": "De-engineered secondary secured line",
+      "Name": "Fahey-Rogahn",
+      "Description": "Team-oriented methodical initiative",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -118,17 +128,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 626,
-  "Created": "1997-06-21T11:10:27.755495+02:00",
+  "SatelliteId": 97,
+  "Created": "1995-10-13T02:49:45.0778395+02:00",
   "CreatedBy": null,
-  "Updated": "2012-08-26T11:10:27.755495+02:00",
+  "Updated": "2004-06-07T02:49:45.0778395+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Wolff Inc and Sons",
-      "Description": "Visionary scalable toolset",
+      "Name": "Koelpin LLC",
+      "Description": "Down-sized 5th generation functionalities",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -141,14 +151,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 983
+          "FieldType": "System.Int32",
+          "FieldLength": 954
         }
       }
     },
     {
-      "Name": "Wolff Inc and Sons",
-      "Description": "Visionary scalable toolset",
+      "Name": "Koelpin LLC",
+      "Description": "Down-sized 5th generation functionalities",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -161,8 +171,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 983
+          "FieldType": "System.Int32",
+          "FieldLength": 954
         }
       }
     }
@@ -171,8 +181,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 81
+      "FieldType": "System.Int32",
+      "FieldLength": 238
     }
   }
 }

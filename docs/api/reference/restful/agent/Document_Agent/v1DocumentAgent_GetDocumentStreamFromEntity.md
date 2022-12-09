@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetDocumentStreamFromEntity
 
 Get the document as a stream
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the document as a stream
 ```http
 POST /api/v1/Agents/Document/GetDocumentStreamFromEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Document/GetDocumentStreamFromEntity?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentEntity
+DocumentEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentEntity |  | Partial DocumentEntity class associating the generated DocumentEntity with an interface. |
+
 
 ## Response: byte
 
@@ -53,13 +61,14 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetDocumentStreamFromEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {

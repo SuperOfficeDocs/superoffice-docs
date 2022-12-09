@@ -11,7 +11,14 @@ POST /api/v1/List/MrMrs/Headings
 
 Saves a new heading for the MrMrs list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 696,
-  "Name": "Schmitt, Bashirian and Moore",
-  "Tooltip": "eveniet",
+  "HeadingId": 131,
+  "Name": "Parisian, Hagenes and McDermott",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 994,
-  "UdListDefinitionId": 899
+  "Rank": 460,
+  "UdListDefinitionId": 296
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 238,
-  "Name": "Schultz, Wilderman and Abernathy",
-  "Tooltip": "veritatis",
+  "HeadingId": 769,
+  "Name": "Heathcote, Schuppe and Schumm",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "Rank": 63,
-  "UdListDefinitionId": 392,
+  "Rank": 49,
+  "UdListDefinitionId": 189,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 72
+      "FieldLength": 541
     }
   }
 }

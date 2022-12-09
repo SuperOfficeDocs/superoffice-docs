@@ -11,6 +11,12 @@ GET /api/v1/List/Position/MDOItems
 
 Get the MDO list items for "PersPos" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=nihil
+GET /api/v1/List/Position/MDOItems?flat=True
+GET /api/v1/List/Position/MDOItems?query=sint
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Position/MDOItems?query=nihil
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "O'Reilly, Kuhn and Stokes",
-    "ToolTip": "Nemo aut.",
+    "Id": 564,
+    "Name": "Kuhn-Abbott",
+    "ToolTip": "Libero enim voluptas provident doloribus suscipit.",
     "Deleted": false,
-    "Rank": 245,
-    "Type": "minus",
+    "Rank": 145,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 224,
-        "Name": "Kunde LLC",
-        "ToolTip": "Architecto culpa odio et autem omnis rem sed.",
+        "Id": 138,
+        "Name": "Kuhic-Hessel",
+        "ToolTip": "Ad aut.",
         "Deleted": true,
-        "Rank": 170,
-        "Type": "quae",
+        "Rank": 640,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 765,
-        "ExtraInfo": "et",
-        "StyleHint": "repudiandae",
-        "FullName": "Lucas Schmitt MD",
+        "IconHint": "laboriosam",
+        "ColorBlock": 343,
+        "ExtraInfo": "iure",
+        "StyleHint": "velit",
+        "FullName": "Erika Murazik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 779
+            "FieldType": "System.Int32",
+            "FieldLength": 26
           }
         }
       }
     ],
-    "IconHint": "dignissimos",
-    "ColorBlock": 292,
-    "ExtraInfo": "quis",
-    "StyleHint": "qui",
-    "FullName": "Mrs. Arielle Regan Smitham",
+    "IconHint": "est",
+    "ColorBlock": 891,
+    "ExtraInfo": "corporis",
+    "StyleHint": "voluptatem",
+    "FullName": "Keith Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 703
       }
     }
   }

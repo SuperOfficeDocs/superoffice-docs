@@ -11,6 +11,12 @@ POST /api/v1/Agents/Saint/GetStatusMonitors
 
 Get all active status monitors for a specified target
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all active status monitors for a specified target
 ```http
 POST /api/v1/Agents/Saint/GetStatusMonitors?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Saint/GetStatusMonitors?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id, Type
+Id, Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | Type | string |  |
+
 
 ## Response: array
 
@@ -80,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 76,
-  "Type": "quod"
+  "Id": 856,
+  "Type": "veritatis"
 }
 ```
 
@@ -97,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 332,
-    "Rank": 333,
-    "DefaultTask": 873,
-    "DefaultTaskText": "earum",
-    "IsVisual": false,
-    "LastGenerated": "2015-04-28T11:10:27.7734917+02:00",
-    "Description": "Quality-focused encompassing strategy",
-    "Name": "Goyette LLC",
-    "StatusMonitorId": 159,
-    "PictureId": 207,
+    "OwnerTable": 601,
+    "Rank": 117,
+    "DefaultTask": 730,
+    "DefaultTaskText": "autem",
+    "IsVisual": true,
+    "LastGenerated": "2010-05-08T02:49:45.0934673+02:00",
+    "Description": "Reverse-engineered foreground infrastructure",
+    "Name": "Bayer-Fisher",
+    "StatusMonitorId": 466,
+    "PictureId": 368,
     "NeedsUpdate": false,
     "Deleted": false,
-    "NumMatches": 130,
-    "NumNeedUpdate": 789,
-    "GenerationStart": "2004-04-06T11:10:27.7734917+02:00",
+    "NumMatches": 603,
+    "NumNeedUpdate": 80,
+    "GenerationStart": "2017-06-05T02:49:45.0934673+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldType": "System.String",
+        "FieldLength": 313
       }
     }
   }

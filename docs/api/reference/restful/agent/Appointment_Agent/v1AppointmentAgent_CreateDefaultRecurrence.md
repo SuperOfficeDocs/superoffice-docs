@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 
 Creates a RecurrenceInfo object populated with the default values for the specific type.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a RecurrenceInfo object populated with the default values for the specif
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrence?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -42,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +73,7 @@ Response body:
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,10 +83,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 510,
-  "StartDate": "2005-02-13T11:10:25.599525+01:00",
-  "EndDate": "2009-10-30T11:10:25.599525+01:00",
-  "RecurrenceCounter": 81,
+  "RecurrenceId": 924,
+  "StartDate": "2007-02-19T02:49:43.372278+01:00",
+  "EndDate": "2019-12-12T02:49:43.372278+01:00",
+  "RecurrenceCounter": 78,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -87,18 +95,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2022-07-21T11:10:25.599525+02:00",
+      "Date": "2005-06-20T02:49:43.372278+02:00",
       "IsConflict": false,
-      "Description": "Multi-channelled 24 hour emulation",
-      "DescriptionStyleHint": "Switchable web-enabled portal",
-      "Tooltip": "qui"
+      "Description": "Compatible next generation workforce",
+      "DescriptionStyleHint": "Pre-emptive methodical customer loyalty",
+      "Tooltip": "officiis"
     },
     {
-      "Date": "2022-07-21T11:10:25.599525+02:00",
+      "Date": "2005-06-20T02:49:43.372278+02:00",
       "IsConflict": false,
-      "Description": "Multi-channelled 24 hour emulation",
-      "DescriptionStyleHint": "Switchable web-enabled portal",
-      "Tooltip": "qui"
+      "Description": "Compatible next generation workforce",
+      "DescriptionStyleHint": "Pre-emptive methodical customer loyalty",
+      "Tooltip": "officiis"
     }
   ],
   "IsRecurrence": false

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 08.26.2022
+so.date: 11.29.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,8 +44,10 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ICustomerServic
 * [GetSmsConfig](getsmsconfig.md)
 * [GetStatistics](getstatistics.md)
 * [GetSystemTemplateSettings](getsystemtemplatesettings.md)
+* [GetUnparsedTemplate](getunparsedtemplate.md)
 * [HasChatNotify](haschatnotify.md)
 * [RemoveSession](removesession.md)
+* [ReportSessionActive](reportsessionactive.md)
 * [SaveAllCustomerCenterConfigs](saveallcustomercenterconfigs.md)
 * [SaveCustomerCenterConfig](savecustomercenterconfig.md)
 * [SaveMailboxEntity](savemailboxentity.md)
@@ -54,3 +56,4 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ICustomerServic
 * [SessionIsValid](sessionisvalid.md)
 * [TestSmtpServer](testsmtpserver.md)
 * [UpdateFeatureToggles](updatefeaturetoggles.md)
+

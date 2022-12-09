@@ -11,7 +11,14 @@ GET /api/v1/Sale/UdefLayout
 
 Current SaleEntity user-defined field layout.
 
+
 May be different from the published version.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ May be different from the published version.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -81,7 +89,7 @@ Response body: array
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 434,
-    "ColumnId": 233,
-    "FieldDefault": "expedita",
-    "FieldHeight": 360,
-    "FieldLabel": "saepe",
-    "FieldLeft": 385,
-    "FieldTop": 900,
+    "UDefFieldId": 173,
+    "ColumnId": 916,
+    "FieldDefault": "tenetur",
+    "FieldHeight": 773,
+    "FieldLabel": "suscipit",
+    "FieldLeft": 879,
+    "FieldTop": 145,
     "FieldType": "Checkbox",
-    "FieldWidth": 762,
-    "FormatMask": "minima",
-    "HideLabel": false,
+    "FieldWidth": 163,
+    "FormatMask": "laborum",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 519,
-    "LabelLeft": 355,
-    "LabelTop": 517,
-    "LabelWidth": 699,
-    "LastVersionId": 693,
-    "ListTableId": 652,
-    "IsMandatory": false,
+    "LabelHeight": 39,
+    "LabelLeft": 415,
+    "LabelTop": 11,
+    "LabelWidth": 663,
+    "LastVersionId": 341,
+    "ListTableId": 920,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 359,
-    "ProgId": "molestiae",
-    "IsReadOnly": true,
-    "ShortLabel": "quas",
-    "TabOrder": 664,
-    "TextLength": 937,
-    "Tooltip": "odit",
-    "UdefIdentity": 757,
-    "UDListDefinitionId": 193,
+    "Page1LineNo": 593,
+    "ProgId": "tempora",
+    "IsReadOnly": false,
+    "ShortLabel": "libero",
+    "TabOrder": 105,
+    "TextLength": 325,
+    "Tooltip": "totam",
+    "UdefIdentity": 466,
+    "UDListDefinitionId": 396,
     "Justification": "Center",
-    "Version": 251,
-    "TemplateVariableName": "Dickinson Group",
+    "Version": 693,
+    "TemplateVariableName": "Kris, Will and Huels",
     "HasBeenPublished": false,
-    "MdoListName": "Schmidt Inc and Sons",
+    "MdoListName": "Turcotte-Auer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 771
+        "FieldLength": 491
       }
     }
   }

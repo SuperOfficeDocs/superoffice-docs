@@ -32,13 +32,13 @@ Under **Knowledge Base** > **FAQ** you can create a folder structure for FAQs, t
 
 7. In the **Description** field, enter a brief description of what the folder contains.
 
-8. In the **Access control** field, you can enter a script to use to control external customers' access to this folder. If this field contains a script, it will be evaluated and access granted only if the script returns a value of "1".
+8. In the **Access control** field, you can enter a script to use to control external customers' access to this folder. If this field contains a script, it is evaluated and access granted only if the script returns a value of "1".
 
 9. Click **OK**. The new folder is created. You are now ready to [add FAQ entries][3] to the new folder.
 
 ## Delete folders
 
-Before you delete an FAQ folder, you need to remove all the entries in it. You do this in one of the following ways:
+Before you delete an FAQ folder, you must remove all the entries in it. You do this in one of the following ways:
 
 * You can [delete the FAQ entries][1].
 * You can [move an FAQ entry to another folder][2] by changing the content of the **Folder** field when you edit an entry.

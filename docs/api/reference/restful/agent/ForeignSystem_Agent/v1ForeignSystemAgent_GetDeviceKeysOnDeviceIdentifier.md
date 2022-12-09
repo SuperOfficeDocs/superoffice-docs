@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ForeignKeys that belong to a device with a given deviceIdentifier.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier
+ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
+
 
 ## Response: array
 
@@ -74,13 +82,13 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bergstrom, Ruecker and Padberg",
-  "DeviceName": "Hoeger, White and Schaden",
-  "DeviceIdentifier": "similique"
+  "ApplicationName": "Breitenberg, Berge and Goodwin",
+  "DeviceName": "Luettgen Group",
+  "DeviceIdentifier": "et"
 }
 ```
 
@@ -92,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ex",
-    "Value": "aliquam",
-    "RecordId": 860,
-    "CreatedDate": "2009-09-19T11:10:27.0924523+02:00",
-    "UpdatedDate": "2009-12-12T11:10:27.0924523+01:00",
-    "UpdatedBy": "optio",
-    "CreatedBy": "velit",
-    "TableName": "Kutch-Ferry",
+    "Key": "et",
+    "Value": "voluptatem",
+    "RecordId": 352,
+    "CreatedDate": "2000-08-31T02:49:44.561046+02:00",
+    "UpdatedDate": "1995-09-20T02:49:44.561046+02:00",
+    "UpdatedBy": "incidunt",
+    "CreatedBy": "debitis",
+    "TableName": "Weissnat, Kreiger and Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldLength": 577
       }
     }
   }

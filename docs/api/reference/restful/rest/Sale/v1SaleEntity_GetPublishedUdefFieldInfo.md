@@ -11,9 +11,16 @@ GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 
 Get a published SaleEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a published SaleEntity user-defined field's details based on the prog-id or 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 SaleEntity found.
 
@@ -37,7 +45,7 @@ SaleEntity found.
 | 200 | SaleEntity found. |
 | 404 | SaleEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,46 +102,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 736,
-  "ColumnId": 62,
-  "FieldDefault": "aut",
-  "FieldHeight": 166,
-  "FieldLabel": "in",
-  "FieldLeft": 974,
-  "FieldTop": 531,
+  "UDefFieldId": 869,
+  "ColumnId": 612,
+  "FieldDefault": "quam",
+  "FieldHeight": 249,
+  "FieldLabel": "consequatur",
+  "FieldLeft": 999,
+  "FieldTop": 501,
   "FieldType": "Checkbox",
-  "FieldWidth": 612,
-  "FormatMask": "beatae",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 580,
-  "LabelLeft": 698,
-  "LabelTop": 901,
-  "LabelWidth": 652,
-  "LastVersionId": 752,
-  "ListTableId": 866,
-  "IsMandatory": false,
+  "FieldWidth": 744,
+  "FormatMask": "iusto",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 915,
+  "LabelLeft": 807,
+  "LabelTop": 2,
+  "LabelWidth": 754,
+  "LastVersionId": 384,
+  "ListTableId": 944,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 435,
-  "ProgId": "aut",
-  "IsReadOnly": true,
-  "ShortLabel": "aut",
-  "TabOrder": 779,
-  "TextLength": 85,
-  "Tooltip": "dolor",
-  "UdefIdentity": 396,
-  "UDListDefinitionId": 298,
+  "Page1LineNo": 418,
+  "ProgId": "omnis",
+  "IsReadOnly": false,
+  "ShortLabel": "dolores",
+  "TabOrder": 857,
+  "TextLength": 432,
+  "Tooltip": "ipsam",
+  "UdefIdentity": 413,
+  "UDListDefinitionId": 33,
   "Justification": "Center",
-  "Version": 855,
-  "TemplateVariableName": "Kohler-Bruen",
+  "Version": 83,
+  "TemplateVariableName": "Abshire-Von",
   "HasBeenPublished": false,
-  "MdoListName": "Klein, Nienow and Waters",
+  "MdoListName": "Herzog Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldLength": 486
     }
   }
 }

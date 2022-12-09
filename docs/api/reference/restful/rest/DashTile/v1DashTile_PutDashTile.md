@@ -11,9 +11,15 @@ PUT /api/v1/DashTile/{id}
 
 Updates the existing DashTile
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashTile id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing DashTile
 ```http
 PUT /api/v1/DashTile/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/DashTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashTile to be saved.
+The DashTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,8 @@ The DashTile to be saved.
 | Rank | int32 | Rank order |
 | DashTileDefinition |  | The tile definition entity |
 
-## Response
+
+## Response: 
 
 DashTile updated.
 
@@ -61,7 +69,7 @@ DashTile updated.
 | 200 | DashTile updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,11 +93,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 247,
-  "DashboardId": 291,
-  "Height": 564,
-  "Width": 719,
-  "Rank": 689,
+  "DashboardTileId": 791,
+  "DashboardId": 15,
+  "Height": 872,
+  "Width": 83,
+  "Rank": 258,
   "DashTileDefinition": null
 }
 ```
@@ -101,18 +109,18 @@ HTTP/1.1 200 DashTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 740,
-  "DashboardId": 441,
-  "Height": 500,
-  "Width": 248,
-  "Rank": 979,
+  "DashboardTileId": 319,
+  "DashboardId": 224,
+  "Height": 398,
+  "Width": 448,
+  "Rank": 452,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 910
     }
   },
   "_Links": {

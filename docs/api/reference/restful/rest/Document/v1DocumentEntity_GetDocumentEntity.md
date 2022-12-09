@@ -11,11 +11,17 @@ GET /api/v1/Document/{id}
 
 Gets a DocumentEntity object.
 
+
 Calls the Document agent service GetDocumentEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DocumentEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,8 +32,9 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=False
+GET /api/v1/Document/{id}?fk=True
 ```
+
 
 ## Request Headers
 
@@ -42,7 +49,8 @@ GET /api/v1/Document/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 DocumentEntity found.
 
@@ -52,7 +60,7 @@ DocumentEntity found.
 | 304 | DocumentEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -108,91 +116,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 24 Jan 2020 11:10:52 G1T
+Last-Modified: Mon, 19 Jul 1999 02:49:50 G7T
 
 {
-  "DocumentId": 731,
+  "DocumentId": 393,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "id",
-  "Header": "assumenda",
-  "Name": "Lehner Inc and Sons",
-  "OurRef": "cumque",
-  "YourRef": "illo",
-  "CreatedDate": "2008-07-27T11:10:52.8011758+02:00",
-  "UpdatedDate": "2020-01-24T11:10:52.8011758+01:00",
-  "Description": "Synergistic zero defect focus group",
+  "Attention": "et",
+  "Header": "eos",
+  "Name": "Goyette Group",
+  "OurRef": "qui",
+  "YourRef": "molestiae",
+  "CreatedDate": "2011-10-19T02:49:50.9015383+02:00",
+  "UpdatedDate": "1999-07-19T02:49:50.9015383+02:00",
+  "Description": "Persistent real-time synergy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-04-23T11:10:52.8041738+02:00",
-  "ExternalRef": "omnis",
+  "Date": "1997-12-19T02:49:50.9015383+01:00",
+  "ExternalRef": "dolorem",
   "Completed": "Completed",
-  "ActiveLinks": 850,
+  "ActiveLinks": 755,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Swaniawski, Bradtke and Hand",
-      "Id": 585,
-      "Description": "Programmable systemic open architecture",
-      "ExtraInfo": "quia",
-      "LinkId": 254,
+      "EntityName": "Wolff LLC",
+      "Id": 211,
+      "Description": "Object-based cohesive customer loyalty",
+      "ExtraInfo": "ut",
+      "LinkId": 590,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldType": "System.String",
+          "FieldLength": 163
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 159,
-  "Snum": 625,
+  "SuggestedDocumentId": 604,
+  "Snum": 941,
   "UserDefinedFields": {
-    "SuperOffice:1": "223194223",
-    "SuperOffice:2": "Zula Bayer"
+    "SuperOffice:1": "501209835",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "deleniti",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "quas",
+    "CustomFields2": "neque"
   },
-  "PublishEventDate": "2020-12-03T11:10:52.805174+01:00",
-  "PublishTo": "2010-10-10T11:10:52.805174+02:00",
-  "PublishFrom": "2017-12-02T11:10:52.805174+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-07-22T02:49:50.9015383+02:00",
+  "PublishTo": "2001-05-13T02:49:50.9015383+02:00",
+  "PublishFrom": "1998-03-16T02:49:50.9015383+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 847,
+      "VisibleId": 728,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 872
+          "FieldType": "System.String",
+          "FieldLength": 620
         }
       }
     },
     {
-      "VisibleId": 847,
+      "VisibleId": 728,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 872
+          "FieldType": "System.String",
+          "FieldLength": 620
         }
       }
     }
@@ -202,7 +210,7 @@ Last-Modified: Fri, 24 Jan 2020 11:10:52 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 510
     }
   },
   "_Links": {

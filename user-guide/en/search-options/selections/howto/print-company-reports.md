@@ -11,7 +11,7 @@ language: en
 
 # Print company reports
 
-From time to time you may find it useful to be able to produce a printout of selected companies, for example, if you need a list of all your customers.
+From time to time you may find it useful to produce a printout of selected companies, for example, if you need a list of all your customers.
 
 [!include[Start](../includes/steps-start-task.md)]
 

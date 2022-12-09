@@ -26,30 +26,22 @@ If the **Delete** button is disabled (light grey), it means that you have no rig
 Examples:
 
 * You cannot delete a contact who is also an employee in a SuperOffice company.
-* You cannot delete appointments, documents, sales, projects, etc. that do not belong to you, unless you have sufficient user rights.
+* You cannot delete appointments, documents, sales, projects, and so on that do not belong to you, unless you have sufficient user rights.
 
 ## Buttons
 
-Below you will find a description of the buttons in the dialog and what effect they have:
+| Button | Effect |
+|---|---|
+| Yes | Confirms deletion of a single item at a time. |
+| Yes to All | Confirms that you want to delete all selected items. If, for example, you selected five items for deletion, this button will delete them all automatically. |
+| No | Cancels deletion of a single item at a time. The dialog is closed without deleting anything. |
+| Cancel | Cancels deletion of all selected elements. The dialog is closed without deleting anything. |
 
-**Yes**: Confirms deletion of a single item at a time.
-
-**Yes to All**: Confirms that you want to delete all selected items. If, for example, you have selected five items for deletion, this button will delete them all automatically.
-
-**No**: Cancels deletion of a single item at a time. The dialog is closed without deleting anything.
-
-**Cancel**: Cancels deletion of all selected elements. The dialog is closed without deleting anything.
-
-To suppress this dialog: Check **Do not show this dialog again** at the bottom of the delete dialog.
-
-To reactivate this dialog: Go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Show confirmation dialog** option to **No**.
+* To suppress this dialog: Check **Do not show this dialog again** at the bottom of the delete dialog.
+* To reactivate this dialog: Go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Show confirmation dialog** option to **No**.
 
 > [!NOTE]
 > When you delete a company, a selection or a project, you are always asked to confirm the deletion, and the **Do not show this dialog again** option is not available.
-
-## Related topics
-
-* [Restore deleted companies and contacts][1]
 
 <!-- Referenced links -->
 [1]: restore-deleted-companies-and-contacts.md

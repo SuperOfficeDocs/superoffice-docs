@@ -11,9 +11,16 @@ PUT /api/v1/List/{id}/Headings
 
 Save headings for list resolved by the provided id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the list to look up. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Save headings for list resolved by the provided id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to save
+The headings to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,6 +48,7 @@ The headings to save
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -70,25 +78,25 @@ Response body: array
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 531,
-    "Name": "Kris Group",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "Rank": 860,
-    "UdListDefinitionId": 864
+    "HeadingId": 228,
+    "Name": "Brown-Ledner",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 725,
+    "UdListDefinitionId": 12
   },
   {
-    "HeadingId": 531,
-    "Name": "Kris Group",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "Rank": 860,
-    "UdListDefinitionId": 864
+    "HeadingId": 228,
+    "Name": "Brown-Ledner",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 725,
+    "UdListDefinitionId": 12
   }
 ]
 ```
@@ -101,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 768,
-    "Name": "Muller-Swift",
-    "Tooltip": "cum",
+    "HeadingId": 76,
+    "Name": "Schmitt Group",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 541,
-    "UdListDefinitionId": 209,
+    "Rank": 187,
+    "UdListDefinitionId": 25,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 11
+        "FieldType": "System.String",
+        "FieldLength": 388
       }
     }
   }

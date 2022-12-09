@@ -11,7 +11,14 @@ GET /api/v1/List/WebPanel/Items
 
 Gets a list of all WebPanelEntity list items.
 
+
 Calls the List agent service GetAllWebPanelEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the List agent service GetAllWebPanelEntity.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -68,7 +76,7 @@ Response body: array
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,33 +87,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 698,
-    "Name": "Moore-Dibbert",
-    "Tooltip": "non",
+    "WebPanelId": 57,
+    "Name": "Doyle LLC",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 125,
+    "Rank": 36,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": true,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": true,
+    "OnTravel": false,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": true,
-    "ShowInStatusBar": false,
-    "WindowName": "Lynch Group",
+    "ShowInStatusBar": true,
+    "WindowName": "Runte-Abernathy",
     "Url": "http://www.example.com/",
-    "ProgId": "nobis",
-    "Icon": 172,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "quis",
+    "Icon": 734,
+    "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldType": "System.String",
+        "FieldLength": 105
       }
     }
   }

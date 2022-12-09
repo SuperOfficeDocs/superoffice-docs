@@ -13,14 +13,14 @@ language: en
 
 The **Diary** screen consists of two main sections:
 
-* A calendar showing follow-ups that have been allocated to a particular time or date.
-* A section tab area, which comprises the [activities list][6] and the [sales list][7].
+* A calendar showing follow-ups allocated to a particular time or date.
+* A section tab area, containing the [activities list][6] and the [sales list][7].
 
 At the bottom left of the calendar is a field for selecting a [time zone][12], if time zones have been enabled in SuperOffice Settings and maintenance.
 
 ## Tabs in the Diary screen
 
-The diary consists of four different tabs which you can select simply by clicking them at the top of the **Diary** screen.
+The diary consists of four different tabs you can select simply by clicking them at the top of the **Diary** screen.
 
 * [The Day tab][2]
 * [The Week tab][3]
@@ -35,17 +35,17 @@ Follow-ups with times are displayed as boxes in the different views in the **Dia
 
 | Icon | Description | Read more |
 |:-:|---|---|
-| ![icon][img1] | Means that this is a repeating follow-up. | [Create repeating follow-ups][11] |
-| ![icon][img2] | Means that the follow-up has several participants. | [Invite your associates to a follow-up][12] |
-| ![icon][img3] | Means that the follow-up has been completed. | [Change Completed status of an activity][8] |
-| ![icon][img4] | Means that the follow-up has an active alarm. | |
-| ![icon][img5] | Means that there are unanswered invitations for this follow-up. | [Status of invitations][9] |
-| ![icon][img6] | Means that this follow-up is a video meeting. To join the meeting, right-click the follow-up and select **Join meeting**. | [Work with video meetings][10] |
+| ![icon][img1] | This is a repeating follow-up. | [Create repeating follow-ups][11] |
+| ![icon][img2] | The follow-up has several participants. | [Invite your associates to a follow-up][12] |
+| ![icon][img3] | The follow-up is completed. | [Change Completed status of an activity][8] |
+| ![icon][img4] | The follow-up has an active alarm. | |
+| ![icon][img5] | There are unanswered invitations for this follow-up. | [Status of invitations][9] |
+| ![icon][img6] | This follow-up is a video meeting. To join the meeting, right-click the follow-up and select **Join meeting**. | [Work with video meetings][10] |
 
 By default, the follow-ups are displayed as a blue field in the diary tabs. If you hold the mouse pointer over one of these fields, a tooltip is displayed showing more information about the follow-up. You can also double-click the blue field to open the follow-up.
 
 > [!NOTE]
-> In SuperOffice Settings and maintenance, you can define that all follow-ups of a specific type will be displayed in the **Diary** screen in SuperOffice CRM with a different background colour from the usual blue.
+> In SuperOffice Settings and maintenance, you can define that all follow-ups of a specific type are displayed in the **Diary** screen in SuperOffice CRM with a different background color from the usual blue.
 
 ## Section tabs in the Diary screen
 

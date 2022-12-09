@@ -95,6 +95,8 @@ items:
         href: customer-center/tutorials/custom-form-book-apt.md
       - name: Custom form - edit customer
         href: customer-center/tutorials/custom-form-edit-customer.md
+      - name: Custom form - form with signature
+        href: customer-center/tutorials/custom-form-signature.md
       - name: Call script in Service with AJAX
         href: customer-center/tutorials/call-script-in-cs-with-ajax.md
       - name: Display KAM picture

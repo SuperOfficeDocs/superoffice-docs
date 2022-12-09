@@ -11,10 +11,17 @@ PUT /api/v1/PreferenceDescription/{section}/{key}
 
 Update a PreferenceDescription based on the section and key
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The PreferenceDescription-section **Required** |
 | key | string | The PreferenceDescription-key **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Update a PreferenceDescription based on the section and key
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: preferenceDescription
+## Request Body: preferenceDescription  
 
-The PreferenceDescription to save.
+The PreferenceDescription to save. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +62,8 @@ The PreferenceDescription to save.
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -63,7 +71,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,28 +102,28 @@ Response body:
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 294,
-  "Section": "nisi",
-  "Key": "eligendi",
-  "Name": "Mayert, Gibson and Goodwin",
+  "PrefDescId": 594,
+  "Section": "occaecati",
+  "Key": "eaque",
+  "Name": "Skiles-Hilpert",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Upgradable impactful artificial intelligence",
-  "IsBuiltin": true,
-  "TableName": "Rippin LLC",
-  "UserDefinedListId": 91,
-  "Rank": 313,
-  "SubGroup": "laboriosam",
-  "MinLevel": 745,
-  "MaxValue": 176,
-  "MinValue": 159,
-  "RequiredLicense": "repellat"
+  "Description": "Optimized 6th generation framework",
+  "IsBuiltin": false,
+  "TableName": "Buckridge, Pouros and Botsford",
+  "UserDefinedListId": 899,
+  "Rank": 281,
+  "SubGroup": "tenetur",
+  "MinLevel": 633,
+  "MaxValue": 440,
+  "MinValue": 316,
+  "RequiredLicense": "distinctio"
 }
 ```
 
@@ -126,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 817,
-  "Section": "amet",
-  "Key": "quo",
-  "Name": "Harber, Lockman and Koch",
+  "PrefDescId": 109,
+  "Section": "distinctio",
+  "Key": "aliquam",
+  "Name": "Zboncak Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Robust non-volatile standardization",
-  "IsBuiltin": false,
-  "TableName": "Jacobson, Turcotte and Sanford",
-  "UserDefinedListId": 162,
-  "Rank": 113,
-  "SubGroup": "ipsam",
-  "MinLevel": 636,
-  "MaxValue": 748,
-  "MinValue": 976,
-  "RequiredLicense": "sapiente",
+  "Description": "Self-enabling holistic parallelism",
+  "IsBuiltin": true,
+  "TableName": "Paucek-O'Keefe",
+  "UserDefinedListId": 523,
+  "Rank": 488,
+  "SubGroup": "eum",
+  "MinLevel": 423,
+  "MaxValue": 555,
+  "MinValue": 363,
+  "RequiredLicense": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldLength": 631
     }
   }
 }

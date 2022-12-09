@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 08.26.2022
+so.date: 11.29.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -65,3 +65,4 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IErpSyncAgent'>
 * [TryConnectActor](tryconnectactor.md)
 * [UpdateConnectionFields](updateconnectionfields.md)
 * [ValidateArchiveColumnConfig](validatearchivecolumnconfig.md)
+

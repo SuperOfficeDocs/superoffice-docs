@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetMyMemberProjects
 
 Returning the projects where an user is project member.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returning the projects where an user is project member.
 ```http
 POST /api/v1/Agents/Project/GetMyMemberProjects?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/Project/GetMyMemberProjects?$select=name,department,category
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -84,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 204,
-    "Name": "Batz LLC",
-    "Description": "Expanded assymetric projection",
+    "ProjectId": 117,
+    "Name": "Dickens-Moore",
+    "Description": "Monitored maximized migration",
     "URL": "http://www.example.com/",
-    "Type": "porro",
-    "AssociateId": 423,
-    "AssociateFullName": "Prof. Jovanny August Jacobi",
-    "TypeId": 659,
-    "Updated": "2006-07-15T11:10:27.6194532+02:00",
-    "StatusId": 956,
-    "Status": "sed",
-    "TextId": 755,
-    "PublishTo": "2004-12-14T11:10:27.6204553+01:00",
-    "PublishFrom": "2022-05-18T11:10:27.6204553+02:00",
+    "Type": "totam",
+    "AssociateId": 101,
+    "AssociateFullName": "Bud Nolan Brekke III",
+    "TypeId": 851,
+    "Updated": "2009-07-25T02:49:44.9684639+02:00",
+    "StatusId": 282,
+    "Status": "et",
+    "TextId": 821,
+    "PublishTo": "2000-09-01T02:49:44.9684639+02:00",
+    "PublishFrom": "2011-08-14T02:49:44.9684639+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1002985",
-    "ActiveErpLinks": 911,
+    "ProjectNumber": "975703",
+    "ActiveErpLinks": 735,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 721
       }
     }
   }

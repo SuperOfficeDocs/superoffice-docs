@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 
 Get an e-mail based on the provided MIME-message
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get an e-mail based on the provided MIME-message
 ```http
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MimeMessage
+MimeMessage 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MimeMessage | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,7 +106,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "quia"
+  "MimeMessage": "velit"
 }
 ```
 
@@ -109,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 231,
-      "ContactName": "Wolf-Schamberger",
-      "PersonId": 915,
-      "PersonName": "Bernier-Quigley",
-      "AssociateId": 183,
-      "Address": "veritatis",
-      "EmailId": 26,
+      "ContactId": 830,
+      "ContactName": "Bartoletti-Stracke",
+      "PersonId": 130,
+      "PersonName": "Cronin, Streich and Ebert",
+      "AssociateId": 99,
+      "Address": "voluptate",
+      "EmailId": 963,
       "DuplicatePersonIds": [
-        997,
-        411
+        75,
+        933
       ],
-      "Name": "Stehr-Stehr",
+      "Name": "Mayert-Greenfelder",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldLength": 261
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 465,
-      "ContactName": "Wiegand LLC",
-      "PersonId": 827,
-      "PersonName": "Konopelski Group",
-      "AssociateId": 830,
-      "Address": "non",
-      "EmailId": 888,
+      "ContactId": 327,
+      "ContactName": "Gorczany Inc and Sons",
+      "PersonId": 32,
+      "PersonName": "Glover LLC",
+      "AssociateId": 422,
+      "Address": "est",
+      "EmailId": 38,
       "DuplicatePersonIds": [
-        888,
-        936
+        396,
+        762
       ],
-      "Name": "Block-Weissnat",
+      "Name": "Luettgen Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 501
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 820,
-      "ContactName": "Heller, Turner and Kilback",
-      "PersonId": 444,
-      "PersonName": "Kuhlman, Jacobs and Kub",
-      "AssociateId": 138,
-      "Address": "officiis",
-      "EmailId": 14,
+      "ContactId": 749,
+      "ContactName": "Swaniawski LLC",
+      "PersonId": 983,
+      "PersonName": "Zieme Inc and Sons",
+      "AssociateId": 979,
+      "Address": "officia",
+      "EmailId": 532,
       "DuplicatePersonIds": [
-        893,
-        160
+        183,
+        477
       ],
-      "Name": "Bahringer-Boehm",
+      "Name": "Reilly, Kessler and Ward",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldLength": 703
         }
       }
     }
   ],
-  "Subject": "ducimus",
-  "HTMLBody": "qui",
+  "Subject": "culpa",
+  "HTMLBody": "distinctio",
   "From": null,
-  "Sent": "2001-06-11T11:10:26.9684522+02:00",
-  "Size": 518,
+  "Sent": "2021-01-13T02:49:44.4660393+01:00",
+  "Size": 366,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "nulla",
-  "PlainBody": "et",
-  "IsSent": false,
+  "MessageID": "cupiditate",
+  "PlainBody": "commodi",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 527,
+  "ServerId": 143,
   "Attachments": [
     {
-      "Description": "Up-sized radical attitude",
-      "Filename": "quibusdam",
-      "Size": 957,
-      "Type": "qui",
-      "Encoding": "laudantium",
-      "Id": "earum",
-      "Disposition": "at",
+      "Description": "Triple-buffered disintermediate interface",
+      "Filename": "nulla",
+      "Size": 577,
+      "Type": "consequatur",
+      "Encoding": "qui",
+      "Id": "quis",
+      "Disposition": "quibusdam",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 861
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Johnston-Haag",
+      "Name": "Boyle-Smith",
       "Values": [
-        "illo",
-        "impedit"
+        "assumenda",
+        "natus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 728
+          "FieldType": "System.Int32",
+          "FieldLength": 122
         }
       }
     },
     {
-      "Name": "Johnston-Haag",
+      "Name": "Boyle-Smith",
       "Values": [
-        "illo",
-        "impedit"
+        "assumenda",
+        "natus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 728
+          "FieldType": "System.Int32",
+          "FieldLength": 122
         }
       }
     }
   ],
-  "FolderName": "Monahan, Roob and Ullrich",
-  "EmailItemId": 697,
-  "AccountId": 237,
-  "ReceivedAt": "2006-06-28T11:10:26.9684522+02:00",
+  "FolderName": "Pouros-Treutel",
+  "EmailItemId": 300,
+  "AccountId": 713,
+  "ReceivedAt": "2008-06-02T02:49:44.4660393+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1996-03-20T11:10:26.9684522+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2016-03-24T02:49:44.4660393+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -257,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 765
     }
   }
 }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/CustomerService/CreateTicketFromMailData
 
 This method create a new ticket in the same way as importMail would import an email.
 
+
 It accepts RFC822 formatted data
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It accepts RFC822 formatted data
 ```http
 POST /api/v1/Agents/CustomerService/CreateTicketFromMailData?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/CustomerService/CreateTicketFromMailData?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MailboxId, Data
+MailboxId, Data 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MailboxId | int32 |  |
 | Data | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailboxId": 51,
-  "Data": "temporibus"
+  "MailboxId": 758,
+  "Data": "quia"
 }
 ```
 
@@ -91,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 936,
-  "Title": "perferendis",
-  "OwnerName": "Brakus-Lubowitz",
+  "TicketId": 330,
+  "Title": "dolores",
+  "OwnerName": "Wilderman, Zulauf and Roberts",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Tromp, Walsh and Quigley",
+  "PriorityName": "Rosenbaum, Jones and Williamson",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Leffler LLC",
-  "ContactName": "Kuhn-Hammes",
+  "PersonName": "Dooley, Shields and Dicki",
+  "ContactName": "Gutmann, Donnelly and Strosin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   }
 }

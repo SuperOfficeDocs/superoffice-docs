@@ -11,7 +11,13 @@ POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName
 
 Deletes all specified occurrences of a key, belonging to the ForeignApp and ForeignDevice, table and record specified.
 
+
 Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ Specifying a blank table name will delete ALL keys of the given name; specifying
 POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,9 +40,9 @@ POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName?$select=name,department
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
+ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
 | TableName | string |  |
 | RecordId | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -54,7 +62,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -66,12 +75,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Dooley-Cassin",
-  "DeviceName": "Lubowitz-Ernser",
-  "DeviceIdentifier": "mollitia",
-  "KeyName": "Olson, D'Amore and Smitham",
-  "TableName": "Smith, King and Jakubowski",
-  "RecordId": 308
+  "ApplicationName": "Murazik, Senger and Nicolas",
+  "DeviceName": "Rau LLC",
+  "DeviceIdentifier": "qui",
+  "KeyName": "D'Amore-Quigley",
+  "TableName": "Donnelly-Grimes",
+  "RecordId": 968
 }
 ```
 

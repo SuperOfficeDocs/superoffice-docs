@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Examples of the use of parameters
+# Examples of the use of parameters in *.ini-files
 
 The following gives you examples of how to use the parameters.
 

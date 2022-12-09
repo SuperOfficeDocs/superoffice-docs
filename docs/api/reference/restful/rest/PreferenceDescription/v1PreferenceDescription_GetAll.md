@@ -11,6 +11,13 @@ GET /api/v1/PreferenceDescription
 
 Gets a list of all PreferenceDescriptions in the system.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -23,6 +30,7 @@ Gets a list of all PreferenceDescriptions in the system.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -63,7 +71,7 @@ Response body: array
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 432,
-    "Section": "labore",
-    "Key": "qui",
-    "Name": "Fadel, Bruen and Ward",
+    "PrefDescId": 592,
+    "Section": "sed",
+    "Key": "ipsam",
+    "Name": "Bergnaum Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Stand-alone 4th generation parallelism",
+    "Description": "Customizable 24 hour portal",
     "IsBuiltin": false,
-    "TableName": "Toy Group",
-    "UserDefinedListId": 70,
-    "Rank": 23,
-    "SubGroup": "neque",
-    "MinLevel": 610,
-    "MaxValue": 319,
-    "MinValue": 804,
-    "RequiredLicense": "ipsa",
+    "TableName": "Heller, Koch and Koss",
+    "UserDefinedListId": 521,
+    "Rank": 243,
+    "SubGroup": "minima",
+    "MinLevel": 313,
+    "MaxValue": 435,
+    "MinValue": 984,
+    "RequiredLicense": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldType": "System.String",
+        "FieldLength": 594
       }
     }
   }

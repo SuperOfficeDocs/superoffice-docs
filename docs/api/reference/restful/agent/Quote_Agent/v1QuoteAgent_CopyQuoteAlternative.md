@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CopyQuoteAlternative
 
 Copy a quote alternative from the same sale and adds it to a version.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Copy a quote alternative from the same sale and adds it to a version.
 ```http
 POST /api/v1/Agents/Quote/CopyQuoteAlternative?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/CopyQuoteAlternative?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, QuoteAlternativeId, QuoteAlternativeName
+QuoteVersionId, QuoteAlternativeId, QuoteAlternativeName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ QuoteVersionId, QuoteAlternativeId, QuoteAlternativeName
 | QuoteAlternativeId | int32 |  |
 | QuoteAlternativeName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,13 +97,13 @@ Response body:
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 357,
-  "QuoteAlternativeId": 652,
-  "QuoteAlternativeName": "Ziemann, Mann and Fritsch"
+  "QuoteVersionId": 690,
+  "QuoteAlternativeId": 160,
+  "QuoteAlternativeName": "Monahan-Russel"
 }
 ```
 
@@ -106,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 40,
-  "ERPQuoteAlternativeKey": "esse",
-  "QuoteVersionId": 627,
-  "Name": "Green LLC",
-  "Description": "Future-proofed stable flexibility",
+  "QuoteAlternativeId": 320,
+  "ERPQuoteAlternativeKey": "eum",
+  "QuoteVersionId": 870,
+  "Name": "Gutmann, Brakus and Fay",
+  "Description": "Enhanced stable knowledge base",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 11204.05,
-  "ERPDiscountAmount": 7941.556,
-  "DiscountPercent": 30945.115999999998,
-  "DiscountAmount": 21123.16,
+  "ERPDiscountPercent": 26660.938,
+  "ERPDiscountAmount": 28607.152,
+  "DiscountPercent": 5377.9439999999995,
+  "DiscountAmount": 21254.788,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "suscipit",
-  "VAT": 2441.386,
-  "EarningPercent": 2491.5299999999997,
-  "EarningAmount": 3998.984,
-  "SubTotal": 5750.8899999999994,
-  "TotalPrice": 30785.282,
-  "ExtraField1": "accusamus",
-  "ExtraField2": "dicta",
-  "ExtraField3": "nemo",
-  "ExtraField4": "ipsum",
-  "ExtraField5": "quae",
+  "VATInfo": "ratione",
+  "VAT": 20283.248,
+  "EarningPercent": 1899.204,
+  "EarningAmount": 2106.048,
+  "SubTotal": 783.5,
+  "TotalPrice": 16691.684,
+  "ExtraField1": "consequatur",
+  "ExtraField2": "consequuntur",
+  "ExtraField3": "quis",
+  "ExtraField4": "maxime",
+  "ExtraField5": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 653
+      "FieldType": "System.Int32",
+      "FieldLength": 799
     }
   }
 }

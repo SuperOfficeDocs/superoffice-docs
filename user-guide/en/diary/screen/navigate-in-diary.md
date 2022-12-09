@@ -13,14 +13,15 @@ language: en
 
 There are different ways of navigating in the diary.
 
-## Move between dates
+## Move between days, weeks, or months
 
-To move between the different days, weeks or months in the **Diary** screen:
+* Click the word **Diary** in the Navigator and select a time period from the list that appears, or click **Today** or **This week** to move to the current day or week.
 
-* click the word **Diary** in the Navigator and select a time period from the list that appears, or click **Today** or **This week** to move to the current day or week.
-* click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the Diary.
+* Click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the Diary.
+
 * (if open) click a day or week in the day, week or month view in the side panel.
-* in the **Day** tab, **Week** tab and **Month** tab you can click **Today** or **This week** to move to the current day or week.
+
+* In the **Day** tab, **Week** tab and **Month** tab you can click **Today** or **This week** to move to the current day or week.
 
 ## Switch views
 

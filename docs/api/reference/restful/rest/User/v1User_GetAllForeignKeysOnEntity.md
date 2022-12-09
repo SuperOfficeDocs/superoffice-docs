@@ -11,9 +11,16 @@ GET /api/v1/User/{id}/ForeignKey
 
 Foreign keys on the User.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | User id/primary key. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,6 +35,7 @@ Foreign keys on the User.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: object
 
 OK
@@ -39,13 +47,14 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 GET /api/v1/User/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -55,7 +64,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "odit",
-  "2": "sapiente"
+  "1": "aut",
+  "2": "et"
 }
 ```

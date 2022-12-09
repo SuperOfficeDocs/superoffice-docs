@@ -11,8 +11,6 @@ language: en
 
 # Create new contact
 
-To create a new contact:
-
 1. Open the **Contact** screen.
 
     * Click **New** on the Top bar and select **Contact**.
@@ -51,19 +49,23 @@ To create a new contact:
 
 8. Go to the **www** tab. See details below.
 
-9. Click **Legal basis** at the bottom of the contact card. The **Privacy** dialog opens. [Review and edit the consent][7] information as necessary. Click **Close** when you are done.
+9. Click **Legal basis** at the bottom of the contact card.
 
-10. Check **Former employee** (at the bottom of the contact card) if this contact has stopped working for the company. A contact who is recorded as a former employee is not normally displayed in the lists of contacts or project members.
+    In the **Privacy** dialog, [review and edit the consent][7] information as necessary. Click **Close** when you are done.
 
-11. When you have entered the necessary information, click the **Save** button. The contact information is then saved in the database and displayed in the contact card. If you have linked the contact to a company, the contact will be displayed in the **Contacts** tab in the **Company** screen.
+10. Check **Former employee** (at the bottom of the contact card) if this contact left the company. A contact who is recorded as a former employee is not normally displayed in the lists of contacts or project members.
+
+11. After entering the necessary information, click the **Save** button.
+
+    The contact information is then saved in the database and displayed in the contact card. If you linked the contact to a company, the contact will be displayed in the **Contacts** tab in the **Company** screen.
 
 12. Go to the **Relations** section tab. Here you can [add relations][8] between this contact and another contact or company.
 
 ## <a id="more-tab" />The More tab (Contact screen)
 
-The **More** tab contains user-defined fields for contacts. If, for example, your organization sells IT products and needs to have fields for each contact's hardware and software, you can specify in SuperOffice Settings and maintenance that these fields are to be inserted here.
+The **More** tab contains user-defined fields for contacts. If, for example, your organization sells IT products and needs fields for each contact's hardware and software, you can specify in SuperOffice Settings and maintenance that these fields are to be inserted here.
 
-Other examples: Year employed, ERP IDs, user type, CXM info etc.
+Other examples: Year employed, ERP IDs, user type, CXM info.
 
 ## <a id="interests-tab" />The Interests tab (Contact screen)
 

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetDashTileHtml
 
 Get HTML for a dashboard tile definition with TileType = HTML
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get HTML for a dashboard tile definition with TileType = HTML
 ```http
 POST /api/v1/Agents/Dash/GetDashTileHtml?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Dash/GetDashTileHtml?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileDefinitionId, LanguageCode
+DashboardTileDefinitionId, LanguageCode 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileDefinitionId | int32 |  |
 | LanguageCode | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,8 +79,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 489,
-  "LanguageCode": "dolorem"
+  "DashboardTileDefinitionId": 400,
+  "LanguageCode": "tenetur"
 }
 ```
 
@@ -83,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "voluptas",
-  "Html": "sint",
+  "LanguageCode": "et",
+  "Html": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 136
+      "FieldLength": 938
     }
   }
 }

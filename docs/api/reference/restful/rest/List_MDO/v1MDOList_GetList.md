@@ -11,9 +11,15 @@ GET /api/v1/MDOList/{listname}
 
 Get the list items in a named list.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | listname | string | "category", "business" etc **Required** |
+
 
 ## Query String Parameters
 
@@ -25,9 +31,10 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=dignissimos
-GET /api/v1/MDOList/{listname}?query=et
+GET /api/v1/MDOList/{listname}?additional=debitis
+GET /api/v1/MDOList/{listname}?query=explicabo
 ```
+
 
 ## Request Headers
 
@@ -41,6 +48,7 @@ GET /api/v1/MDOList/{listname}?query=et
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -75,7 +83,7 @@ Response body: array
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,50 +94,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Simonis, Block and Harber",
-    "ToolTip": "Facere eos voluptas corrupti.",
-    "Deleted": false,
-    "Rank": 329,
-    "Type": "laboriosam",
+    "Id": 690,
+    "Name": "Franecki, Simonis and Vandervort",
+    "ToolTip": "Voluptatem fuga corporis minus dolores dolores quod culpa.",
+    "Deleted": true,
+    "Rank": 7,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 819,
-        "Name": "Hagenes-Williamson",
-        "ToolTip": "Rerum consequuntur nobis perspiciatis itaque.",
-        "Deleted": false,
-        "Rank": 979,
-        "Type": "qui",
+        "Id": 456,
+        "Name": "Beahan Inc and Sons",
+        "ToolTip": "At eum odio consequuntur minima at.",
+        "Deleted": true,
+        "Rank": 345,
+        "Type": "amet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 366,
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptas",
-        "FullName": "Colby Hermiston",
+        "IconHint": "veniam",
+        "ColorBlock": 887,
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "voluptatem",
+        "FullName": "Alexandria Lang",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 407
+            "FieldType": "System.Int32",
+            "FieldLength": 450
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 12,
-    "ExtraInfo": "id",
-    "StyleHint": "adipisci",
-    "FullName": "Mrs. Alden Era Hintz IV",
+    "IconHint": "corporis",
+    "ColorBlock": 627,
+    "ExtraInfo": "enim",
+    "StyleHint": "eos",
+    "FullName": "Hester Cristopher Adams V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 470
+        "FieldLength": 815
       }
     }
   }

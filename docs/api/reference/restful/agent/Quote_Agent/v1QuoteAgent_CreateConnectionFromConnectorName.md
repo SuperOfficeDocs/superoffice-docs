@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 
 Create a new connection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a new connection.
 ```http
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectorName
+ConnectorName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectorName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,11 +87,11 @@ Response body:
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Jacobson, Collier and Howe"
+  "ConnectorName": "Kunde Inc and Sons"
 }
 ```
 
@@ -94,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 137,
-  "ERPName": "Feest, O'Reilly and Keebler",
-  "DisplayName": "Price-Boyer",
-  "DisplayDescription": "Decentralized client-driven adapter",
-  "Rank": 527,
-  "ConnectorName": "Ortiz-Upton",
-  "ErpConnectionId": 602,
-  "ExtraData": "nisi",
+  "QuoteConnectionId": 833,
+  "ERPName": "Grant Inc and Sons",
+  "DisplayName": "Cormier, Langosh and Langosh",
+  "DisplayDescription": "Phased exuding firmware",
+  "Rank": 705,
+  "ConnectorName": "Emard-Gutkowski",
+  "ErpConnectionId": 524,
+  "ExtraData": "mollitia",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 275,
-      "ERPPriceListKey": "nam",
-      "QuoteConnectionId": 943,
-      "Name": "Pouros, Lehner and Leuschke",
-      "Description": "Switchable didactic toolset",
-      "Currency": "voluptatum",
-      "CurrencyName": "Howe-Sawayn",
-      "ValidFrom": "2019-05-29T11:10:27.7054917+02:00",
-      "ValidTo": "2013-03-24T11:10:27.7054917+01:00",
+      "PriceListId": 555,
+      "ERPPriceListKey": "amet",
+      "QuoteConnectionId": 513,
+      "Name": "Casper-Brown",
+      "Description": "Enhanced logistical access",
+      "Currency": "amet",
+      "CurrencyName": "Rolfson, Zemlak and Mohr",
+      "ValidFrom": "2007-05-10T02:49:45.0309645+02:00",
+      "ValidTo": "2009-04-15T02:49:45.0309645+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldType": "System.String",
+          "FieldLength": 363
         }
       }
     }
   ],
-  "AllAccess": false,
-  "Deleted": false,
+  "AllAccess": true,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    621,
-    659
+    578,
+    832
   ],
   "AssociateAccessIds": [
-    315,
-    215
+    550,
+    216
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 246
+      "FieldLength": 660
     }
   }
 }

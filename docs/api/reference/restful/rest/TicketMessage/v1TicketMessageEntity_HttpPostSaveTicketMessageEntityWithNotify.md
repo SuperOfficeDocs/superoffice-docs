@@ -11,6 +11,12 @@ POST /api/v1/TicketMessage
 
 Saves a ticket message and performs any user notifications
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a ticket message and performs any user notifications
 ```http
 POST /api/v1/TicketMessage?notify=False
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/TicketMessage?notify=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ticket message to save
+The ticket message to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +73,8 @@ The ticket message to save
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -74,7 +82,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -111,52 +119,54 @@ Response body:
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 841,
+  "EjMessageId": 669,
   "Ticket": null,
-  "CreatedAt": "2005-02-06T11:10:53.6252125+01:00",
+  "CreatedAt": "2021-03-12T02:49:51.6397363+01:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "expedita",
-  "TimeSpent": 302,
-  "Body": "ipsum",
-  "HtmlBody": "qui",
-  "EmailHeader": "amya@ritchie.info",
-  "DebugInfo": "et",
-  "MailSorter": "consequatur",
+  "MessageId": "optio",
+  "TimeSpent": 442,
+  "Body": "molestiae",
+  "HtmlBody": "fugiat",
+  "EmailHeader": "arch@mraz.info",
+  "DebugInfo": "molestiae",
+  "MailSorter": "nihil",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quo",
+  "SearchTitle": "quidem",
   "MessageHeaders": [
     {
-      "Name": "Kreiger LLC",
-      "Value": "commodi",
+      "Id": 764,
+      "Name": "Dach, Koss and Jaskolski",
+      "Value": "ipsam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Name": "Kreiger LLC",
-      "Value": "commodi",
+      "Id": 764,
+      "Name": "Dach, Koss and Jaskolski",
+      "Value": "ipsam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "soluta",
-  "Sentiment": 396,
-  "SentimentConfidence": 655,
+  "Language": "ea",
+  "Sentiment": 621,
+  "SentimentConfidence": 266,
   "ExtraFields": {
-    "ExtraFields1": "ad",
-    "ExtraFields2": "eius"
+    "ExtraFields1": "doloribus",
+    "ExtraFields2": "totam"
   },
   "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "et",
+    "CustomFields2": "dolores"
   }
 }
 ```
@@ -168,27 +178,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 367,
+  "EjMessageId": 801,
   "Ticket": null,
-  "CreatedAt": "2008-04-07T11:10:53.6322128+02:00",
+  "CreatedAt": "2011-10-20T02:49:51.6397363+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "non",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "laborum",
-  "TimeSpent": 28,
-  "Body": "quas",
-  "HtmlBody": "quas",
-  "EmailHeader": "mathew.kreiger@swiftbreitenberg.name",
-  "DebugInfo": "consequatur",
-  "MailSorter": "nesciunt",
+  "MessageId": "nam",
+  "TimeSpent": 772,
+  "Body": "sed",
+  "HtmlBody": "adipisci",
+  "EmailHeader": "alyson.beahan@prohaskamitchell.uk",
+  "DebugInfo": "quis",
+  "MailSorter": "temporibus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "expedita",
+  "SearchTitle": "ut",
   "MessageHeaders": [
     {
-      "Name": "Prosacco-Connelly",
-      "Value": "vitae",
+      "Id": 892,
+      "Name": "Stiedemann-DuBuque",
+      "Value": "qui",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -196,43 +207,29 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 255
-        }
-      }
-    },
-    {
-      "Name": "Prosacco-Connelly",
-      "Value": "vitae",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 255
+          "FieldLength": 973
         }
       }
     }
   ],
   "Important": false,
-  "Language": "laborum",
-  "Sentiment": 521,
-  "SentimentConfidence": 64,
+  "Language": "quas",
+  "Sentiment": 668,
+  "SentimentConfidence": 590,
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "quos",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "asperiores"
+    "CustomFields1": "non",
+    "CustomFields2": "dignissimos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldLength": 364
     }
   }
 }

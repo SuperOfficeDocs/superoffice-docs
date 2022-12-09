@@ -21,7 +21,7 @@ language: en
 
 1. In the **Remove members matching** dialog, specify the desired [criteria][2].
 
-1. Click **OK**. All members that satisfy the specified search criteria will be removed.
+1. Click **OK**. All members that satisfy the specified search criteria are removed.
 
 ## Remove a specific member
 
@@ -31,7 +31,7 @@ language: en
 
 1. Select one or more entries in the list of members.
 
-1. Right-click and select **Remove**. The members will be instantly removed from the active selection.
+1. Right-click and select **Remove**. The members are instantly removed from the active selection.
 
 ## What would you like to do now?
 

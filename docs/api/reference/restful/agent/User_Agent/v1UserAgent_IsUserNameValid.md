@@ -11,7 +11,13 @@ POST /api/v1/Agents/User/IsUserNameValid
 
 <para />
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/User/IsUserNameValid
 ```http
 POST /api/v1/Agents/User/IsUserNameValid?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/User/IsUserNameValid?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, Type, PersonId, UserName
+AssociateId, Type, PersonId, UserName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,6 +54,7 @@ AssociateId, Type, PersonId, UserName
 | Type | string |  |
 | PersonId | int32 |  |
 | UserName | string |  |
+
 
 ## Response: bool
 
@@ -58,20 +66,21 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/User/IsUserNameValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 741,
+  "AssociateId": 150,
   "Type": "AnonymousAssociate",
-  "PersonId": 926,
-  "UserName": "Grimes LLC"
+  "PersonId": 458,
+  "UserName": "Trantow Inc and Sons"
 }
 ```
 
@@ -81,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

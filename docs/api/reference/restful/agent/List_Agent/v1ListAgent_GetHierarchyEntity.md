@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetHierarchyEntity
 
 Gets a HierarchyEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a HierarchyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=374
+POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=940
 POST /api/v1/Agents/List/GetHierarchyEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetHierarchyEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +75,7 @@ Response body:
 POST /api/v1/Agents/List/GetHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,46 +85,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 543,
+  "HierarchyId": 80,
   "Domain": "Dashboards",
-  "Name": "Hayes, Strosin and Herman",
-  "Fullname": "pariatur",
-  "ParentId": 437,
+  "Name": "Walker-Hills",
+  "Fullname": "delectus",
+  "ParentId": 996,
   "Children": [
     {
-      "HierarchyId": 445,
+      "HierarchyId": 1001,
       "Domain": "Dashboards",
-      "Name": "Schimmel, Bins and Spencer",
-      "Fullname": "nam",
-      "ParentId": 546,
+      "Name": "Kshlerin LLC",
+      "Fullname": "assumenda",
+      "ParentId": 328,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-03-25T11:10:27.2234525+02:00",
-      "RegisteredAssociateId": 997,
-      "Updated": "2011-09-17T11:10:27.2234525+02:00",
-      "UpdatedAssociateId": 715,
+      "Registered": "2010-05-31T02:49:44.6704246+02:00",
+      "RegisteredAssociateId": 397,
+      "Updated": "2022-02-18T02:49:44.6704246+01:00",
+      "UpdatedAssociateId": 501,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 962
+          "FieldLength": 477
         }
       }
     }
   ],
-  "Registered": "2020-05-20T11:10:27.2234525+02:00",
-  "RegisteredAssociateId": 936,
-  "Updated": "1999-12-11T11:10:27.2234525+01:00",
-  "UpdatedAssociateId": 356,
+  "Registered": "1997-12-10T02:49:44.6704246+01:00",
+  "RegisteredAssociateId": 40,
+  "Updated": "2000-03-02T02:49:44.6704246+01:00",
+  "UpdatedAssociateId": 14,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   }
 }

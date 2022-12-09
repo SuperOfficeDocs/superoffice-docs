@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/SetRepliedAt
 
 Set the replied_at field based on the MessageID
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +31,7 @@ Set the replied_at field based on the MessageID
 POST /api/v1/Agents/EMail/SetRepliedAt?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,15 +42,16 @@ POST /api/v1/Agents/EMail/SetRepliedAt?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MessageId
+MessageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MessageId | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -49,7 +59,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -57,11 +68,11 @@ Response body:
 POST /api/v1/Agents/EMail/SetRepliedAt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "laudantium"
+  "MessageId": "voluptatem"
 }
 ```
 

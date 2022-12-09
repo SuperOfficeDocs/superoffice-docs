@@ -11,11 +11,18 @@ PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ProjectStatus list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Erdman Group",
-    "ToolTip": "Et error sit velit quia.",
+    "Id": 726,
+    "Name": "Hartmann-Reichel",
+    "ToolTip": "Vel nisi voluptate hic rem quo labore.",
     "Deleted": false,
-    "Rank": 428,
-    "Type": "odit",
-    "ColorBlock": 318,
-    "IconHint": "rem",
+    "Rank": 773,
+    "Type": "nemo",
+    "ColorBlock": 107,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2015-09-11T11:10:54.4689302+02:00",
+    "LastChanged": "2000-02-10T02:49:52.3909486+01:00",
     "ChildItems": [
       {
-        "Id": 995,
-        "Name": "Mertz LLC",
-        "ToolTip": "Dolorem aut a suscipit aperiam.",
+        "Id": 661,
+        "Name": "Raynor Inc and Sons",
+        "ToolTip": "Magnam eum sint quod accusamus libero.",
         "Deleted": false,
-        "Rank": 765,
-        "Type": "officia",
-        "ColorBlock": 829,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2008-09-21T11:10:54.4709355+02:00",
+        "Rank": 678,
+        "Type": "laudantium",
+        "ColorBlock": 705,
+        "IconHint": "quas",
+        "Selected": false,
+        "LastChanged": "2005-03-30T02:49:52.3909486+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "et",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Mr. Derek Moore"
+        "FullName": "Kellie Hand"
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "itaque",
+    "StyleHint": "ea",
     "Hidden": true,
-    "FullName": "Benton Wisozk"
+    "FullName": "Ima Strosin"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 714,
-    "Name": "McLaughlin Group",
-    "ToolTip": "Sed magni provident.",
+    "Id": 285,
+    "Name": "Conn, Rosenbaum and Schaden",
+    "ToolTip": "Temporibus fugiat.",
     "Deleted": true,
-    "Rank": 724,
-    "Type": "enim",
-    "ColorBlock": 787,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2011-01-19T11:10:54.4719291+01:00",
+    "Rank": 692,
+    "Type": "culpa",
+    "ColorBlock": 964,
+    "IconHint": "laudantium",
+    "Selected": true,
+    "LastChanged": "2003-10-14T02:49:52.3909486+02:00",
     "ChildItems": [
       {
-        "Id": 328,
-        "Name": "King, Casper and Rosenbaum",
-        "ToolTip": "Sunt earum non eum quasi aliquam nemo.",
-        "Deleted": true,
-        "Rank": 739,
-        "Type": "qui",
-        "ColorBlock": 868,
-        "IconHint": "facilis",
+        "Id": 279,
+        "Name": "Huels LLC",
+        "ToolTip": "Facere in pariatur commodi eveniet eos placeat.",
+        "Deleted": false,
+        "Rank": 839,
+        "Type": "voluptas",
+        "ColorBlock": 130,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2008-06-26T11:10:54.4719291+02:00",
+        "LastChanged": "2019-05-06T02:49:52.3909486+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "vitae",
         "Hidden": false,
-        "FullName": "Jordan Mraz",
+        "FullName": "Araceli Halvorson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 625
+            "FieldLength": 980
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "iusto",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "aliquid",
     "Hidden": true,
-    "FullName": "Tiara Kuphal",
+    "FullName": "Leopoldo Elisabeth Grady Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldLength": 914
       }
     }
   }

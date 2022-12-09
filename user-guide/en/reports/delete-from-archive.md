@@ -16,4 +16,4 @@ You can delete saved reports from the report archive.
 1. Open the **Reports** screen.
 2. Select the report(s) you want to delete in the report archive (the **Documents** section tab) at the bottom of the window.
 3. Click the **Delete** button or right-click the report and select **Delete**.
-4. Confirm the deletion in the dialog which opens.
+4. Confirm the deletion in the dialog that opens.

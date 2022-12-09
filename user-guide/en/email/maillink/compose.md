@@ -11,11 +11,11 @@ language: en
 
 # Creating emails
 
-You can create an email either from SuperOffice CRM or from Microsoft Outlook or Lotus Notes. This is described in the following topics:
+You can create an email either from SuperOffice CRM, from Microsoft Outlook, or from Lotus Notes.
 
-* [Creating emails from SuperOffice CRM][1]
-* [Creating emails from Microsoft Outlook][2]
-* [Creating emails from Lotus Notes][3]
+* [Create emails from SuperOffice CRM][1]
+* [Create emails from Microsoft Outlook][2]
+* [Create emails from Lotus Notes][3]
 
 <!-- Referenced links -->
 [1]: create-in-superoffice.md

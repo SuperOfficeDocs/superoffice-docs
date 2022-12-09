@@ -11,11 +11,17 @@ GET /api/v1/List/Competitor/Items/{itemId}/Headings
 
 Gets headings for the Competitor list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "O'Conner, Treutel and Schmeler",
-    "ToolTip": "Eius consequatur.",
+    "Id": 929,
+    "Name": "Little-Torphy",
+    "ToolTip": "Qui consequatur commodi saepe necessitatibus.",
     "Deleted": false,
-    "Rank": 143,
-    "Type": "aspernatur",
-    "ColorBlock": 843,
-    "IconHint": "omnis",
+    "Rank": 280,
+    "Type": "vel",
+    "ColorBlock": 63,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2009-05-07T11:10:53.9651856+02:00",
+    "LastChanged": "2008-07-17T02:49:51.9221933+02:00",
     "ChildItems": [
       {
-        "Id": 267,
-        "Name": "Welch, Mosciski and Upton",
-        "ToolTip": "Harum quisquam voluptate enim sed ipsa.",
+        "Id": 482,
+        "Name": "Beahan, Kuhn and Auer",
+        "ToolTip": "In voluptatem magnam expedita.",
         "Deleted": false,
-        "Rank": 389,
-        "Type": "quae",
-        "ColorBlock": 646,
-        "IconHint": "nostrum",
+        "Rank": 75,
+        "Type": "consequatur",
+        "ColorBlock": 995,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2013-01-01T11:10:53.9651856+01:00",
+        "LastChanged": "2002-09-02T02:49:51.9221933+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "placeat",
-        "Hidden": true,
-        "FullName": "Sarah Shania Littel I",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "esse",
+        "Hidden": false,
+        "FullName": "Miss Mariah Ezra Renner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 219
+            "FieldLength": 892
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Prof. Max Karen Swift",
+    "ExtraInfo": "nihil",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Modesta Kutch V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 237
+        "FieldLength": 350
       }
     }
   }

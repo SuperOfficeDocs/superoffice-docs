@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetPersonTasks
 
 Method that returns a specified number of appointments within a time range.
 
+
 It only returns appointments that would be displayed in the user's task list. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It only returns appointments that would be displayed in the user's task list. Th
 ```http
 POST /api/v1/Agents/Appointment/GetPersonTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Appointment/GetPersonTasks?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, Count
+PersonId, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -116,12 +124,12 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 623,
-  "Count": 555
+  "PersonId": 542,
+  "Count": 585
 }
 ```
 
@@ -133,53 +141,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 839,
-    "StartDate": "2020-02-26T11:10:25.941553+01:00",
-    "EndDate": "2003-06-29T11:10:25.941553+02:00",
+    "AppointmentId": 730,
+    "StartDate": "2021-01-23T02:49:43.5129081+01:00",
+    "EndDate": "2000-09-08T02:49:43.5129081+02:00",
     "Type": "BookingForChecklist",
-    "Task": "optio",
-    "AssociateFullName": "Garrett Haley",
-    "ContactName": "Orn-Kertzmann",
-    "Description": "Face to face maximized installation",
-    "PersonFullName": "Barton Ferry",
-    "PersonId": 737,
-    "ContactId": 970,
-    "ProjectId": 387,
-    "ProjectName": "Watsica, Pagac and Ledner",
+    "Task": "voluptatem",
+    "AssociateFullName": "Johanna Kreiger",
+    "ContactName": "Hauck LLC",
+    "Description": "Optimized uniform customer loyalty",
+    "PersonFullName": "Miss Micaela Norma Price Sr.",
+    "PersonId": 293,
+    "ContactId": 611,
+    "ProjectId": 773,
+    "ProjectName": "Hettinger Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 334,
-    "ColorIndex": 406,
+    "AssociateId": 651,
+    "ColorIndex": 182,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 805,
-    "PriorityName": "Torp-Gleichner",
+    "PriorityId": 998,
+    "PriorityName": "Ondricka Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2004-05-15T11:10:25.941553+02:00",
+    "ActiveDate": "2009-11-28T02:49:43.5129081+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-06-21T11:10:25.941553+02:00",
-    "RecurringEndDate": "2010-07-24T11:10:25.941553+02:00",
-    "MotherId": 66,
-    "AssignedBy": 493,
-    "AssignedByFullName": "Dr. Paolo Ariel Bins",
+    "RecurringStartDate": "2014-07-12T02:49:43.5129081+02:00",
+    "RecurringEndDate": "2020-01-01T02:49:43.5129081+01:00",
+    "MotherId": 941,
+    "AssignedBy": 326,
+    "AssignedByFullName": "Prof. Larissa Kemmer",
     "RejectReason": "",
-    "Location": "tempore",
-    "AlarmLeadTime": "ut",
-    "SaleId": 52,
-    "SaleName": "Leannon Group",
-    "AssociateName": "Lehner, Balistreri and Kuhic",
-    "CreatedDate": "2004-03-19T11:10:25.9425525+01:00",
-    "CreatedBy": "animi",
-    "CreatedByFullName": "Zander Cremin",
-    "CreatedByAssociateId": 534,
+    "Location": "qui",
+    "AlarmLeadTime": "minima",
+    "SaleId": 910,
+    "SaleName": "DuBuque LLC",
+    "AssociateName": "Runte Group",
+    "CreatedDate": "2009-09-26T02:49:43.5129081+02:00",
+    "CreatedBy": "non",
+    "CreatedByFullName": "Taryn Walter",
+    "CreatedByAssociateId": 794,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -187,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldLength": 521
       }
     }
   }

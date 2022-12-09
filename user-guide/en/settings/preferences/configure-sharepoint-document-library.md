@@ -12,22 +12,22 @@ language: en
 # Configure SharePoint document library
 
 > [!NOTE]
-> Before you can start this configuration, you need to set up your SharePoint site, libraries and permissions. All users must authenticate using Microsoft 365.
+> Before you can start this configuration, you must set up your SharePoint site, libraries and permissions. All users must authenticate using Microsoft 365.
 
 When you are configuring your new document library, Admin will show an intermediate state.
 
 When you are finished and have confirmed that you will use SharePoint, the state in Admin changes to Microsoft SharePoint Online.
 
-It will be possible to change some of the settings in the Wizard later
+It is possible to change some of the settings in the Wizard later
 
-To configure SharePoint document library, do the following:
+**Steps:**
 
 1. [!include[Open preferences](includes/open-preferences.md)]
 2. Select the **Document library** tab.
 3. Click **Change**. The page is updated with information about the connected SharePoint site. The change is not yet complete.
 4. Click **Complete the change** to confirm that you want to use SharePoint as the default document library. The change is now complete.
-5. Click **Settings**. The configuration wizard opens.
-6. Complete the four steps described below.
+5. Click **Settings**.
+6. Complete the four steps of the configuration wizard described below.
 
 ## Step 1 - Sites and folders
 
@@ -68,11 +68,9 @@ In this step you can enable group access to SharePoint documents based on "Visib
 
 If you plan not to use "Visible for", do not select this option.
 
-To enable group access:
-
 1. Select **Enable group access to SharePoint documents based on "Visible for" settings in SuperOffice**.
 
-2. To set permissions for documents in SharePoint, we need read/write permissions for the selected site. This is a one-time authorization and will only include the site you have selected for your SuperOffice documents.
+2. To set permissions for documents in SharePoint, we need read/write permissions for the selected site. This is a one-time authorization and will include only the site you selected for your SuperOffice documents.
 
     > [!NOTE]
     > Only a Microsoft 365 Global Administrator can authorize these permissions. In addition, the Microsoft 365 Global Administrator must be a member of the owner group of the site, since site owner permissions are required to set read/write permissions.
@@ -83,13 +81,13 @@ To enable group access:
 
     * If you are NOT a Microsoft 365 Global Administrator: Click **Copy the authorization URL** and send it to a Microsoft 365 Global Administrator in your organization.
 
-3. If you need to wait for an authorization, you have the following options:
+3. If you have to wait for an authorization, you have the following options:
 
-    * Click **Save and close** to continue the configuration late. The page text will be updated to indicate that authorization is pending.
+    * Click **Save and close** to continue the configuration late. The page text is updated to indicate that authorization is pending.
 
     * Click **Check status again** to see if the Microsoft 365 Global Administrator has authorized the app.
 
-4. For each SuperOffice user group, select the matching user group in SharePoint. All SuperOffice user groups need to be mapped before you can go to the next step.
+4. For each SuperOffice user group, select the matching user group in SharePoint. All SuperOffice user groups must be mapped before you can go to the next step.
 
 5. Click **Next step** to continue.
 
@@ -97,7 +95,7 @@ To enable group access:
 
 Review the configuration carefully and make sure the settings are correct.
 
-After you have confirmed the settings, they cannot be edited:
+After you confirm the settings, they cannot be edited:
 
 SuperOffice documents
 

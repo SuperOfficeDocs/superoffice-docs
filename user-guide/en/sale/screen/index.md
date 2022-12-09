@@ -11,7 +11,7 @@ language: en
 
 # The Sale screen
 
-The **Sale** screen contains information about the sales entered into SuperOffice CRM. Each sale is displayed like an index card. You can see all the information that has been recorded for a sale.
+The **Sale** screen contains information about the sales entered into SuperOffice CRM. Each sale is displayed like an index card, showing all information about that sale.
 
 To move between sales, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the cards.
 
@@ -27,7 +27,7 @@ This tab contains fields that focus, in particular, on the financial details of 
 |---|---|---|
 |Number | The ID number for the sale, where the next free sale number is entered automatically. | x |
 | Source | Displays the source of the sale, as specified in the **Sale** tab. You can also edit the source here. |
-| Competitor | Contains a predefined list of competitors. Here you can enter any competitor for the sale. You can only choose one competitor. | x |
+| Competitor | Contains a predefined list of competitors. Here you can enter any competitor for the sale. You can choose only one competitor. | x |
 | Total cost | Enter here the cost connected with the sale. It is displayed in the same currency as the amount. The default value is 0. When you enter an amount in this field, the profit percentage and amount are automatically calculated in the field below. | |
 | Profit | Enter the profit connected with the sale here. It is displayed in the same currency as the amount. | |
 | Credited | Contains a predefined list of departments that can be responsible for the sale. | x |
@@ -48,7 +48,7 @@ You can open links by clicking on them in the **Links** tab. URLs/websites open 
 
 ### Remove links
 
-If you want to remove a link, go to the **Links** tab, click **Edit**, click the delete button next to the link. The link will be deleted from the tab.
+To remove a link, go to the **Links** tab, click **Edit**, click the delete button next to the link. The link is deleted from the tab.
 
 ## The Note tab
 
@@ -63,7 +63,7 @@ The lower part of the **Sale** screen consists of section tabs.
 * [Stakeholders][5]
 * [Quote][7] (requires a licence)
 
-[Sales guides][3] are only shown for specific sales types (defined in SuperOffice Settings and maintenance). If you have selected a sale type for which a sales guide has been defined, the **Sales guide** section tab is displayed.
+[Sales guides][3] are only shown for specific sales types (defined in SuperOffice Settings and maintenance). If you select a sale type for which a sales guide is defined, the **Sales guide** section tab is displayed.
 
 [!include[Add more section tabs](../../includes/more-tab.md)]
 

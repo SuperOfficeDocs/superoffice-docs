@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetMyOpportunities
 
 Returning the opportunities (open sales) belonging to the user currently logged on
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returning the opportunities (open sales) belonging to the user currently logged 
 ```http
 POST /api/v1/Agents/Sale/GetMyOpportunities?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Sale/GetMyOpportunities?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Count
+Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -89,11 +97,11 @@ Response body: array
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 436
+  "Count": 857
 }
 ```
 
@@ -105,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Schinner, Terry and Trantow",
-    "SaleDate": "1995-04-19T11:10:27.8510073+02:00",
-    "SaleId": 498,
-    "Probability": 6,
-    "Title": "quisquam",
-    "Amount": 868.11799999999994,
-    "Currency": "exercitationem",
-    "ProjectName": "Jast Group",
-    "AssociateFullName": "Mr. Alysha Nyasia Schoen",
-    "Description": "Self-enabling background focus group",
+    "ContactName": "Johnson, Kassulke and Powlowski",
+    "SaleDate": "2012-05-18T02:49:45.1403412+02:00",
+    "SaleId": 794,
+    "Probability": 922,
+    "Title": "ut",
+    "Amount": 13479.333999999999,
+    "Currency": "quos",
+    "ProjectName": "Blick-Murphy",
+    "AssociateFullName": "Wilbert Murphy",
+    "Description": "Innovative foreground hierarchy",
     "Status": "Lost",
-    "WeightedAmount": 14237.761999999999,
-    "ProjectId": 466,
-    "EarningPercent": 19280.368,
-    "Earning": 10755.887999999999,
-    "ContactId": 619,
-    "AssociateId": 112,
-    "PersonId": 583,
-    "SaleTypeId": 872,
-    "SaleTypeName": "Gottlieb-Farrell",
-    "PersonFullName": "Salvador Wintheiser",
+    "WeightedAmount": 12918.348,
+    "ProjectId": 56,
+    "EarningPercent": 11962.478,
+    "Earning": 2673.302,
+    "ContactId": 377,
+    "AssociateId": 388,
+    "PersonId": 17,
+    "SaleTypeId": 542,
+    "SaleTypeName": "Krajcik Inc and Sons",
+    "PersonFullName": "Edwin Hyatt",
     "Completed": "Completed",
-    "ActiveErpLinks": 662,
-    "NextDueDate": "2003-04-05T11:10:27.8510073+02:00",
-    "Number": "235322",
+    "ActiveErpLinks": 754,
+    "NextDueDate": "2004-05-20T02:49:45.1403412+02:00",
+    "Number": "1450715",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 905
+        "FieldType": "System.Int32",
+        "FieldLength": 861
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectMemberDocuments
 
 Method that returns a specified number of document appointments within a time range.
 
+
 The document appointments belong to the project member specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project member specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectMemberDocuments?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count
+PersonId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,6 +54,7 @@ PersonId, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -93,10 +101,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 742,
-  "StartTime": "2016-07-23T11:10:26.4724528+02:00",
-  "EndTime": "2015-09-09T11:10:26.4724528+02:00",
-  "Count": 245
+  "PersonId": 476,
+  "StartTime": "2000-02-13T02:49:44.0910111+01:00",
+  "EndTime": "2004-08-31T02:49:44.0910111+02:00",
+  "Count": 567
 }
 ```
 
@@ -108,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 801,
-    "Attention": "rerum",
-    "Header": "alias",
-    "Name": "Gibson-Harvey",
-    "OurRef": "eos",
-    "YourRef": "animi",
-    "Description": "Multi-lateral context-sensitive task-force",
-    "DocumentTemplate": "veritatis",
-    "IsPublished": true,
-    "PersonId": 775,
-    "PersonFullName": "Jaleel Willms",
-    "AssociateFullName": "Mr. Emmanuel Nader",
-    "ContactId": 165,
-    "ContactName": "Welch LLC",
-    "ProjectId": 948,
-    "ProjectName": "Effertz Group",
-    "AssociateId": 12,
-    "Snum": 187,
-    "SaleId": 999,
-    "SaleName": "Thiel-Graham",
+    "DocumentId": 927,
+    "Attention": "architecto",
+    "Header": "ut",
+    "Name": "Herman, Klein and Wehner",
+    "OurRef": "laudantium",
+    "YourRef": "non",
+    "Description": "Multi-layered actuating paradigm",
+    "DocumentTemplate": "nisi",
+    "IsPublished": false,
+    "PersonId": 925,
+    "PersonFullName": "Prof. Boyd Mohr Jr.",
+    "AssociateFullName": "Mr. Mabelle Lang IV",
+    "ContactId": 988,
+    "ContactName": "Mayer-Kilback",
+    "ProjectId": 344,
+    "ProjectName": "Towne, Green and McClure",
+    "AssociateId": 796,
+    "Snum": 782,
+    "SaleId": 447,
+    "SaleName": "Schmeler, Stamm and Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 158
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   }

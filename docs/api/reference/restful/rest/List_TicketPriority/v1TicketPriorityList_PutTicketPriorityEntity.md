@@ -11,11 +11,18 @@ PUT /api/v1/List/TicketPriority/Items/{id}
 
 Updates the existing TicketPriorityEntity
 
+
 Calls the List agent service SaveTicketPriorityEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of TicketPriorityEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveTicketPriorityEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of TicketPriorityEntity to be saved.
+The details of TicketPriorityEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +73,8 @@ The details of TicketPriorityEntity to be saved.
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -75,7 +83,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -120,54 +128,54 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 657,
-  "Name": "O'Conner Inc and Sons",
+  "TicketPriorityId": 582,
+  "Name": "Sporer-Dicki",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 738,
+  "SortOrder": 250,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 919,
-  "MonStart": "2013-03-06T11:10:54.6859295+01:00",
-  "MonStop": "1995-06-27T11:10:54.6859295+02:00",
-  "TueStart": "2014-01-28T11:10:54.6859295+01:00",
-  "TueStop": "1995-11-18T11:10:54.6859295+01:00",
-  "WedStart": "2018-10-22T11:10:54.6859295+02:00",
-  "WedStop": "2002-04-06T11:10:54.6859295+02:00",
-  "ThuStart": "2021-08-10T11:10:54.6859295+02:00",
-  "ThuStop": "2013-06-04T11:10:54.6859295+02:00",
-  "FriStart": "2004-03-29T11:10:54.6859295+02:00",
-  "FriStop": "2008-12-24T11:10:54.6859295+01:00",
-  "SatStart": "2004-06-13T11:10:54.6859295+02:00",
-  "SatStop": "2013-08-12T11:10:54.6859295+02:00",
-  "SunStart": "1998-07-04T11:10:54.6859295+02:00",
-  "SunStop": "2018-03-08T11:10:54.6859295+01:00",
+  "Deadline": 983,
+  "MonStart": "2003-07-05T02:49:52.5784525+02:00",
+  "MonStop": "2001-11-26T02:49:52.5784525+01:00",
+  "TueStart": "2014-02-20T02:49:52.5784525+01:00",
+  "TueStop": "2016-05-27T02:49:52.5784525+02:00",
+  "WedStart": "2019-11-11T02:49:52.5784525+01:00",
+  "WedStop": "2002-09-12T02:49:52.5784525+02:00",
+  "ThuStart": "2008-05-24T02:49:52.5784525+02:00",
+  "ThuStop": "2012-02-14T02:49:52.5784525+01:00",
+  "FriStart": "1997-05-16T02:49:52.5784525+02:00",
+  "FriStop": "2009-12-11T02:49:52.5784525+01:00",
+  "SatStart": "2002-03-14T02:49:52.5784525+01:00",
+  "SatStop": "1996-06-20T02:49:52.5784525+02:00",
+  "SunStart": "2020-04-27T02:49:52.5784525+02:00",
+  "SunStop": "2009-10-30T02:49:52.5784525+01:00",
   "NonDates": [
-    "et",
-    "alias"
+    "ut",
+    "necessitatibus"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 269,
-      "AlertLevel": 848,
-      "AlertTimeout": 101,
-      "Action": 233,
-      "DelegateTo": 210,
-      "ScriptId": 259,
-      "EmailTo": "major.okon@kleinmann.us",
-      "SmsTo": "aut",
-      "ReplyTemplateIdCustomer": 102,
-      "ReplyTemplateIdUser": 932,
-      "ReplyTemplateIdCatmast": 972,
-      "ReplyTemplateIdEmail": 449,
-      "RtiCustomerSms": 417,
-      "ReplyTemplateIdUserSms": 57,
-      "ReplyTemplateIdCatmastSms": 651,
-      "ReplyTemplateIdSms": 341
+      "TicketAlertId": 445,
+      "AlertLevel": 807,
+      "AlertTimeout": 48,
+      "Action": 666,
+      "DelegateTo": 435,
+      "ScriptId": 8,
+      "EmailTo": "shea@corkery.biz",
+      "SmsTo": "enim",
+      "ReplyTemplateIdCustomer": 572,
+      "ReplyTemplateIdUser": 640,
+      "ReplyTemplateIdCatmast": 579,
+      "ReplyTemplateIdEmail": 329,
+      "RtiCustomerSms": 471,
+      "ReplyTemplateIdUserSms": 58,
+      "ReplyTemplateIdCatmastSms": 65,
+      "ReplyTemplateIdSms": 310
     }
   ]
 }
@@ -180,60 +188,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 824,
-  "Name": "Christiansen Inc and Sons",
+  "TicketPriorityId": 107,
+  "Name": "Brakus, Ernser and Wisozk",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 120,
+  "SortOrder": 467,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 689,
-  "MonStart": "1999-08-06T11:10:54.6869296+02:00",
-  "MonStop": "2003-07-06T11:10:54.6869296+02:00",
-  "TueStart": "2000-03-23T11:10:54.6869296+01:00",
-  "TueStop": "2021-10-11T11:10:54.6869296+02:00",
-  "WedStart": "2002-12-11T11:10:54.6869296+01:00",
-  "WedStop": "2008-10-26T11:10:54.6869296+01:00",
-  "ThuStart": "2019-10-03T11:10:54.6869296+02:00",
-  "ThuStop": "2021-04-11T11:10:54.6869296+02:00",
-  "FriStart": "2011-01-25T11:10:54.6869296+01:00",
-  "FriStop": "1997-11-26T11:10:54.6869296+01:00",
-  "SatStart": "2006-08-03T11:10:54.6869296+02:00",
-  "SatStop": "2005-04-09T11:10:54.6869296+02:00",
-  "SunStart": "2021-09-23T11:10:54.6869296+02:00",
-  "SunStop": "1997-06-03T11:10:54.6869296+02:00",
+  "Deadline": 474,
+  "MonStart": "1999-08-13T02:49:52.5784525+02:00",
+  "MonStop": "2006-10-31T02:49:52.5784525+01:00",
+  "TueStart": "1997-12-23T02:49:52.5784525+01:00",
+  "TueStop": "2004-08-04T02:49:52.5784525+02:00",
+  "WedStart": "1995-10-24T02:49:52.5784525+02:00",
+  "WedStop": "2001-11-17T02:49:52.5784525+01:00",
+  "ThuStart": "2012-01-10T02:49:52.5784525+01:00",
+  "ThuStop": "2015-11-11T02:49:52.5784525+01:00",
+  "FriStart": "2013-04-12T02:49:52.5784525+02:00",
+  "FriStop": "2018-05-15T02:49:52.5784525+02:00",
+  "SatStart": "1996-10-27T02:49:52.5784525+01:00",
+  "SatStop": "1999-10-16T02:49:52.5784525+02:00",
+  "SunStart": "2005-09-10T02:49:52.5784525+02:00",
+  "SunStop": "2010-11-13T02:49:52.5784525+01:00",
   "NonDates": [
-    "voluptatum",
-    "commodi"
+    "in",
+    "illo"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 193,
-      "AlertLevel": 160,
-      "AlertTimeout": 844,
-      "Action": 23,
-      "DelegateTo": 411,
-      "ScriptId": 16,
-      "EmailTo": "mylene@stoltenberg.name",
-      "SmsTo": "optio",
-      "ReplyTemplateIdCustomer": 469,
-      "ReplyTemplateIdUser": 62,
-      "ReplyTemplateIdCatmast": 696,
-      "ReplyTemplateIdEmail": 85,
-      "RtiCustomerSms": 339,
-      "ReplyTemplateIdUserSms": 253,
-      "ReplyTemplateIdCatmastSms": 199,
-      "ReplyTemplateIdSms": 481,
+      "TicketAlertId": 46,
+      "AlertLevel": 937,
+      "AlertTimeout": 493,
+      "Action": 903,
+      "DelegateTo": 282,
+      "ScriptId": 908,
+      "EmailTo": "ruthe.turcotte@harber.uk",
+      "SmsTo": "voluptatem",
+      "ReplyTemplateIdCustomer": 315,
+      "ReplyTemplateIdUser": 988,
+      "ReplyTemplateIdCatmast": 525,
+      "ReplyTemplateIdEmail": 640,
+      "RtiCustomerSms": 6,
+      "ReplyTemplateIdUserSms": 347,
+      "ReplyTemplateIdCatmastSms": 887,
+      "ReplyTemplateIdSms": 225,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldLength": 182
         }
       }
     }
@@ -243,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 833
     }
   }
 }

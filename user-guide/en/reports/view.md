@@ -11,7 +11,7 @@ language: en
 
 # View reports
 
-How this works varies slightly from report type to report type. If you want to display cross table reports or label reports, see the topics below:
+How this works varies slightly from report type to report type. To display cross table reports or label reports, see the topics below:
 
 * [Display cross tables][1]
 * [Display labels][2]
@@ -20,11 +20,10 @@ How this works varies slightly from report type to report type. If you want to d
 > If you are not sure which report type you have, check the thumbnail at the top right of the **Reports** screen. [How][3].
 
 1. Select the required report.
-2. Click the **Preview** button under the criteria list. A PDF is generated in your browser.
-3. Open the PDF file. The file is opened in the default PDF viewer.
 
-> [!NOTE]
-> If you do not have a PDF viewer, you will be asked if you want to install one.
+1. Click the **Preview** button under the criteria list. A PDF is generated in your browser.
+
+[!include[Open PDF](includes/step-open-pdf.md)]
 
 You can save the PDF file from the PDF viewer, so you can open it later.
 

@@ -9,13 +9,11 @@ so.topic: howto
 language: en
 ---
 
-# Delete FAQ entries
-
-To delete an FAQ entry from SuperOffice Service:
+# Delete FAQ entry in Service
 
 1. Select **Knowledge Base > FAQ**.
 2. Go to the folder where the FAQ entry is located.
-3. Click the FAQ entry you want. The **FAQ entry** screen opens.
-4. Click **Edit entry**. The **FAQ entry properties** screen opens.
-5. Click the **Delete** button at the bottom of the screen.
-6. Click **OK** when you are asked if you want to delete the FAQ entry. The FAQ entry is removed from SuperOffice Service.
+3. Click the FAQ entry you want.
+4. In the **FAQ entry** screen, click **Edit entry**.
+5. In the **FAQ entry properties** screen, click the **Delete** button at the bottom of the screen.
+6. Click **OK** to confirm. The FAQ entry is removed from SuperOffice Service.

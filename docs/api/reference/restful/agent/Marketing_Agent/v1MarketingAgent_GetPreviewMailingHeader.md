@@ -11,6 +11,12 @@ POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 
 Get a shipment from its shipment id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a shipment from its shipment id
 ```http
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Marketing/GetPreviewMailingHeader?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ShipmentId
+ShipmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ShipmentId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,11 +87,11 @@ Response body:
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 147
+  "ShipmentId": 35
 }
 ```
 
@@ -94,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2016-09-07T11:10:27.294453+02:00",
+  "StartDate": "2010-12-20T02:49:44.7172985+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 286,
-  "ShipmentDescription": "Profound mission-critical database",
-  "FromAddress": "illum",
-  "PersonId": 396,
-  "PersonFullName": "Dr. Santiago Keely Kirlin",
-  "ShipmentType": "ut",
-  "MessageId": 606,
-  "MessageSubject": "deleniti",
-  "DocumentMessageId": 378,
-  "NumSent": 673,
-  "NumOpened": 445,
-  "NumBounced": 530,
-  "NumClicks": 585,
+  "ShipmentId": 848,
+  "ShipmentDescription": "User-friendly neutral toolset",
+  "FromAddress": "quaerat",
+  "PersonId": 730,
+  "PersonFullName": "Maddison Davis",
+  "ShipmentType": "officiis",
+  "MessageId": 839,
+  "MessageSubject": "quisquam",
+  "DocumentMessageId": 991,
+  "NumSent": 705,
+  "NumOpened": 637,
+  "NumBounced": 980,
+  "NumClicks": 8,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldType": "System.Int32",
+      "FieldLength": 271
     }
   }
 }

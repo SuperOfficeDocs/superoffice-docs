@@ -11,9 +11,15 @@ PUT /api/v1/Dashboard/{id}
 
 Updates the existing Dashboard
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Dashboard id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing Dashboard
 ```http
 PUT /api/v1/Dashboard/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Dashboard/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Dashboard to be saved.
+The Dashboard to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +58,8 @@ The Dashboard to be saved.
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
 
-## Response
+
+## Response: 
 
 Dashboard updated.
 
@@ -60,7 +68,7 @@ Dashboard updated.
 | 200 | Dashboard updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,22 +91,22 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 967,
-  "AssociateId": 355,
-  "Caption": "repudiandae",
+  "DashboardId": 333,
+  "AssociateId": 242,
+  "Caption": "ut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 265,
-      "Caption": "est",
-      "Description": "Object-based human-resource emulation",
-      "ChartName": "Olson-Franecki",
-      "ChartId": "consequatur",
+      "DashboardTileId": 287,
+      "Caption": "perspiciatis",
+      "Description": "Integrated zero administration forecast",
+      "ChartName": "Ryan Group",
+      "ChartId": "magnam",
       "IsDefault": false,
-      "AssociateId": 442,
-      "GroupId": 105,
-      "SelectionId": 888,
-      "Config": "voluptatibus",
+      "AssociateId": 559,
+      "GroupId": 609,
+      "SelectionId": 304,
+      "Config": "alias",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -121,22 +129,22 @@ HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 488,
-  "AssociateId": 364,
-  "Caption": "aperiam",
+  "DashboardId": 961,
+  "AssociateId": 565,
+  "Caption": "explicabo",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 788,
-      "Caption": "illum",
-      "Description": "Profound zero tolerance framework",
-      "ChartName": "O'Reilly, Fahey and Halvorson",
-      "ChartId": "debitis",
+      "DashboardTileId": 954,
+      "Caption": "tempore",
+      "Description": "Focused transitional knowledge base",
+      "ChartName": "Glover, Haley and Ullrich",
+      "ChartId": "et",
       "IsDefault": true,
-      "AssociateId": 307,
-      "GroupId": 604,
-      "SelectionId": 460,
-      "Config": "aut",
+      "AssociateId": 856,
+      "GroupId": 478,
+      "SelectionId": 848,
+      "Config": "rerum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -152,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldLength": 425
         }
       }
     }
@@ -162,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldLength": 389
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

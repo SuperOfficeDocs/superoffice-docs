@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 
 Gets the Audience configuration parameters belonging to the person specified
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the Audience configuration parameters belonging to the person specified
 ```http
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Audience/GetConfigParametersOnPerson?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
+
 
 ## Response: array
 
@@ -71,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 80
+  "PersonId": 371
 }
 ```
 
@@ -87,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 151,
-    "Name": "Reichert, Schiller and Hegmann",
-    "Value": "magni",
-    "CreatedDate": "2003-07-19T11:10:26.0075535+02:00",
-    "UpdatedDate": "2003-01-11T11:10:26.0075535+01:00",
-    "CreatedBy": "sapiente",
-    "UpdatedBy": "magni",
+    "AudienceLayoutId": 812,
+    "Name": "Bechtelar-Legros",
+    "Value": "in",
+    "CreatedDate": "2018-01-01T02:49:43.6847821+01:00",
+    "UpdatedDate": "2011-09-06T02:49:43.6847821+02:00",
+    "CreatedBy": "fugiat",
+    "UpdatedBy": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 699
+        "FieldLength": 878
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetLicenseFromFile
 
 Load a new license from file
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Load a new license from file
 ```http
 POST /api/v1/Agents/License/GetLicenseFromFile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/License/GetLicenseFromFile?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FileContent
+FileContent 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FileContent | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,11 +76,11 @@ Response body:
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "illum"
+  "FileContent": "ut"
 }
 ```
 
@@ -84,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 531,
-      "NumberOfLicensesFree": 154,
-      "NumberOfLicensesAdded": 273,
-      "NumberOfLicensesNewTotal": 803,
-      "NumberOfLicensesNewFree": 936,
-      "NumberOfLicensesTotal": 100
+      "NumberOfLicensesInUse": 107,
+      "NumberOfLicensesFree": 167,
+      "NumberOfLicensesAdded": 470,
+      "NumberOfLicensesNewTotal": 632,
+      "NumberOfLicensesNewFree": 767,
+      "NumberOfLicensesTotal": 672
     }
   ],
-  "AccumulatedNextCheckDate": "2003-02-24T11:10:27.1104558+01:00"
+  "AccumulatedNextCheckDate": "2016-01-11T02:49:44.576671+01:00"
 }
 ```

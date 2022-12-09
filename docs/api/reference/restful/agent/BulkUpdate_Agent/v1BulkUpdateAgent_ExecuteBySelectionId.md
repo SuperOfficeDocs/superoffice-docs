@@ -11,6 +11,12 @@ POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 
 Do the batchupdate on this selection
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Do the batchupdate on this selection
 ```http
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FieldValueInfos, TableName, Context, SelectionId, IsShadow
+FieldValueInfos, TableName, Context, SelectionId, IsShadow 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,6 +53,7 @@ FieldValueInfos, TableName, Context, SelectionId, IsShadow
 | Context | string |  |
 | SelectionId | int32 |  |
 | IsShadow | bool |  |
+
 
 ## Response: int32
 
@@ -56,6 +64,7 @@ OK
 | 200 | OK |
 
 Response body: int32
+
 
 ## Sample request
 
@@ -73,26 +82,26 @@ Content-Type: application/json; charset=utf-8
       "DefaultShowInGui": false,
       "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "corporis",
-      "ValueType": "aspernatur",
+      "Key": "consequatur",
+      "ValueType": "tempora",
       "Mandatory": false,
-      "EncodedDisplayName": "Vandervort LLC",
-      "EncodedDisplayDescription": "Total intangible moratorium",
-      "IconHint": "ipsam",
+      "EncodedDisplayName": "Rath-Beier",
+      "EncodedDisplayDescription": "Inverse composite orchestration",
+      "IconHint": "cumque",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "quae",
-      "EncodedDataCaptionDescription": "Inverse responsive archive",
-      "CurrentOperationType": "in",
+      "EncodedDataCaption": "ipsa",
+      "EncodedDataCaptionDescription": "Inverse foreground emulation",
+      "CurrentOperationType": "voluptate",
       "Values": [
-        "est",
-        "aut"
+        "delectus",
+        "id"
       ],
       "DisplayValues": [
-        "ut",
-        "porro"
+        "expedita",
+        "provident"
       ],
       "OperationInfos": [
         {},
@@ -100,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "O'Hara Inc and Sons",
-  "Context": "et",
-  "SelectionId": 445,
+  "TableName": "Kreiger, Jenkins and Morar",
+  "Context": "aliquid",
+  "SelectionId": 58,
   "IsShadow": false
 }
 ```
@@ -113,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-766
+674
 ```

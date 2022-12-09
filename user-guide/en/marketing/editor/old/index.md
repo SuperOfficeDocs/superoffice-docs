@@ -15,12 +15,12 @@ In the **Content** step you can edit the appearance and content of the message.
 
 ![Old editor -screenshot][img1]
 
-A message is made up of columns and paragraphs. You insert text and images in the individual paragraphs and you can define format/layout (such as font type and size, colours and margins) at global level (the whole template) or by column or paragraph.
+A message is made up of columns and paragraphs. You insert text and images in the individual paragraphs and you can define format/layout (such as font type and size, colors and margins) at global level (the whole template) or by column or paragraph.
 
 SuperOffice Marketing is supplied with many ready-made message template layouts, and you can easily move columns and paragraphs around to get the appearance you want. You can also delete unwanted columns and paragraphs or add new ones.
 
 > [!TIP]
-> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Toggle view for mobile devices** ( ![icon][img5] ). See also [Customise the message for display on mobile devices][1].
+> We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Toggle view for mobile devices** ( ![icon][img5] ). See also [Customize the message for display on mobile devices][1].
 
 ## Edit columns and paragraphs
 
@@ -46,14 +46,14 @@ In the column and paragraph menus, you can move ( ![icon][img8] ) and delete ( !
 
 ## Edit format and layout
 
-The appearance and properties of the template (such as font type and size, colours and margins) can be defined at global level (the whole template) or by column and paragraph. Click **Edit …** ( ![icon][img12] ) in the global menu or in a column or paragraph.
+The appearance and properties of the template (such as font type and size, colors and margins) can be defined at global level (the whole template) or by column and paragraph. Click **Edit …** ( ![icon][img12] ) in the global menu or in a column or paragraph.
 
 > [!TIP]
-> Use standard fonts for the best legibility with any e-mail client or web browser.
+> Use standard fonts for the best legibility with any email client or web browser.
 
 ## Menu overview
 
-When you hover the mouse pointer over columns and paragraphs, menus are displayed in the form of toolbars at the top of the element in question. Which buttons are displayed depends on whether you are pointing at a column or a paragraph. If you hover the mouse pointer over a button in the menu, a red frame is shown around the element in question, so that you always know which part of the template you are editing.
+When you hover the mouse pointer over columns and paragraphs, menus are displayed in the form of toolbars at the top of the element in question. Which buttons are displayed depends on if you are pointing at a column or a paragraph. If you hover the mouse pointer over a button in the menu, a red frame is shown around the element in question, so that you always know which part of the template you are editing.
 
 ### Global menu
 
@@ -94,10 +94,10 @@ In the paragraph menu, you can edit the properties of this paragraph. This menu 
 
 | Icon | Name | Function |
 |:-:|---|---|
-| ![icon][img10] | Add paragraph  | Click here to add a new paragraph. The paragraph is added below the active paragraph and has the same properties. |
+| ![icon][img10] | Add paragraph | Click here to add a new paragraph. The paragraph is added below the active paragraph and has the same properties. |
 | ![icon][img12]  | Edit paragraph | Click here to open the editing view where you can edit the header and body text of the paragraph. You can also add images and edit the paragraph layout. |
-| ![icon][img6] | Copy paragraph | Click here to copy the paragraph. The copy is placed below the paragraph you have copied. |
-| ![icon][img8] | Move paragraph  | Click here to move the paragraph. |
+| ![icon][img6] | Copy paragraph | Click here to copy the paragraph. The copy is placed below the original paragraph. |
+| ![icon][img8] | Move paragraph | Click here to move the paragraph. |
 | ![icon][img9] | Delete paragraph | Click here to delete the paragraph. |
 | ![icon][img11] | Add column of paragraphs | Click here to add a column containing three paragraphs. |
 

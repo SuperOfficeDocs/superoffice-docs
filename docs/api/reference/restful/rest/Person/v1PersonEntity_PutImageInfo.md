@@ -11,11 +11,18 @@ PUT /api/v1/Person/{personId}/ImageInfo
 
 Update the Blob that describes the given person's picture.
 
+
 The actual bitmap is accessible via /api/Services80/person/123/image/content.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | Person id **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ The actual bitmap is accessible via /api/Services80/person/123/image/content.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: imageInfo
+## Request Body: imageInfo  
 
-New or Updated information about the person image.
+New or Updated information about the person image. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +58,8 @@ New or Updated information about the person image.
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -59,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,23 +93,23 @@ Response body:
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 416,
-  "BlobSize": 270,
-  "Description": "Public-key incremental strategy",
-  "ExtraInfo": "occaecati",
+  "BlobId": 605,
+  "BlobSize": 432,
+  "Description": "Synchronised zero administration protocol",
+  "ExtraInfo": "fuga",
   "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "ut",
-  "OriginalSize": 289,
-  "CreatedDate": "2015-01-24T11:10:53.05418+01:00",
-  "UpdatedDate": "1998-06-01T11:10:53.05418+02:00",
+  "IsZipped": false,
+  "MimeType": "non",
+  "OriginalSize": 244,
+  "CreatedDate": "2003-12-07T02:49:51.3078143+01:00",
+  "UpdatedDate": "2005-09-08T02:49:51.3078143+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui"
+  "ConceptualType": "sunt"
 }
 ```
 
@@ -112,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 567,
-  "BlobSize": 249,
-  "Description": "Horizontal bifurcated algorithm",
-  "ExtraInfo": "eaque",
+  "BlobId": 551,
+  "BlobSize": 130,
+  "Description": "Ergonomic dynamic hardware",
+  "ExtraInfo": "delectus",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 992,
-  "CreatedDate": "2009-07-04T11:10:53.2611813+02:00",
-  "UpdatedDate": "1999-03-06T11:10:53.2611813+01:00",
+  "MimeType": "sint",
+  "OriginalSize": 150,
+  "CreatedDate": "2011-05-30T02:49:51.3234448+02:00",
+  "UpdatedDate": "2002-04-20T02:49:51.3234448+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cumque",
+  "ConceptualType": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldLength": 359
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/FreeText/RegenerateIndex
 
 Wipe and regenerate the freetext index by scanning the database (freetext search will be unavailable while this operation runs
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Wipe and regenerate the freetext index by scanning the database (freetext search
 ```http
 POST /api/v1/Agents/FreeText/RegenerateIndex?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/FreeText/RegenerateIndex?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RunAsBatch
+RunAsBatch 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RunAsBatch | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +93,7 @@ Response body:
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,36 +108,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 275,
-  "Name": "Abshire-Eichmann",
-  "AssociateId": 258,
-  "DetailsTable": 482,
-  "DetailsRecord": 724,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 620,
+  "Name": "Emard, Christiansen and Hoppe",
+  "AssociateId": 57,
+  "DetailsTable": 619,
+  "DetailsRecord": 512,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "est",
-    "ParameterObject2": "incidunt"
+    "ParameterObject1": "tenetur",
+    "ParameterObject2": "ab"
   },
-  "LastStarted": "1999-02-06T11:10:27.0984528+01:00",
-  "Created": "2007-09-18T11:10:27.0984528+02:00",
-  "StartCount": 5,
-  "DatabaseSerialNumber": "528575",
-  "Context": "quia",
-  "Result": "maxime",
+  "LastStarted": "2011-11-07T02:49:44.561046+01:00",
+  "Created": "2008-11-11T02:49:44.561046+01:00",
+  "StartCount": 330,
+  "DatabaseSerialNumber": "783525",
+  "Context": "omnis",
+  "Result": "explicabo",
   "State": "All",
-  "Description": "Cross-platform dynamic approach",
-  "Response": "quae",
-  "Request": "consequatur",
-  "ProgressDescription": "Re-engineered analyzing task-force",
-  "ProgressPercent": 50,
-  "FileName": "White, Berge and Langosh",
+  "Description": "Multi-lateral bi-directional complexity",
+  "Response": "deserunt",
+  "Request": "molestias",
+  "ProgressDescription": "Switchable optimizing parallelism",
+  "ProgressPercent": 545,
+  "FileName": "Fahey LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldType": "System.String",
+      "FieldLength": 214
     }
   }
 }

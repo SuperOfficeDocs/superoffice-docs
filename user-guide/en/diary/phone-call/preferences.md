@@ -24,7 +24,7 @@ Phone preferences are handled differently in the Windows and Web clients. Learn 
 
 To use the telephone functions in SuperOffice you may need to install TAPI software.
 
-Suggested suppliers include:
+### Suggested suppliers
 
 * Standard Windows dialing software
 * Panasonic TSP
@@ -32,13 +32,13 @@ Suggested suppliers include:
 
 ## Preferences
 
-If you have installed IP phone, Skype or Facetime, you can make phone calls from SuperOffice CRM. The **Phone-link format** preference must be set correctly, either in **Preferences** > **Default values** or in SuperOffice Settings and maintenance. In SuperOffice Settings and maintenance the phone preferences can be set for individual users, user groups or system-wide.
+If IP phone, Skype or FaceTime is installed, you can make phone calls from SuperOffice CRM. The **Phone-link format** preference must be set correctly, either in **Preferences** > **Default values** or in SuperOffice Settings and maintenance. In SuperOffice Settings and maintenance the phone preferences can be set for individual users, user groups or system-wide.
 
-The available parameters are as follows:
+### Available parameters
 
-**IP phone**: tel:%p (this is the default value)
+**IP phone**: tel:%p (default value)
 **Skype**: callto:%p
-**Facetime**: facetime:%p
+**FaceTime**: facetime:%p
 
 [Template variables][2] can also be used in the phone parameters.
 

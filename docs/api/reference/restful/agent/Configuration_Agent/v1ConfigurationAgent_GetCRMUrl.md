@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetCRMUrl
 
 Returns a valid url based in the soprotocol provided
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns a valid url based in the soprotocol provided
 ```http
 POST /api/v1/Agents/Configuration/GetCRMUrl?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Configuration/GetCRMUrl?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SoProtocol, Currents, Frameless
+SoProtocol, Currents, Frameless 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SoProtocol | string |  |
 | Currents | string |  |
 | Frameless | bool |  |
+
 
 ## Response: string
 
@@ -55,19 +63,20 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetCRMUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "et",
-  "Currents": "ex",
-  "Frameless": false
+  "SoProtocol": "nihil",
+  "Currents": "rerum",
+  "Frameless": true
 }
 ```
 

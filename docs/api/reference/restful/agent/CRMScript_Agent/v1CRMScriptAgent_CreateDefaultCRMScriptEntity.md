@@ -11,9 +11,17 @@ POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 
 Set default values into a new CRMScriptEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 506,
-  "UniqueIdentifier": "ducimus",
-  "Name": "Considine, Beatty and Marks",
-  "Description": "Distributed interactive instruction set",
-  "IncludeId": "et",
-  "HierarchyId": 9,
-  "Source": "officiis",
-  "Registered": "2016-09-03T11:10:26.3764575+02:00",
-  "RegisteredAssociateId": 516,
-  "Updated": "2014-08-23T11:10:26.3764575+02:00",
-  "UpdatedAssociateId": 132,
+  "EjscriptId": 471,
+  "UniqueIdentifier": "velit",
+  "Name": "Bartoletti Group",
+  "Description": "Re-engineered interactive protocol",
+  "IncludeId": "error",
+  "HierarchyId": 313,
+  "Source": "odio",
+  "Registered": "2006-08-26T02:49:44.0129044+02:00",
+  "RegisteredAssociateId": 920,
+  "Updated": "2006-02-04T02:49:44.0129044+01:00",
+  "UpdatedAssociateId": 153,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 414
+      "FieldType": "System.Int32",
+      "FieldLength": 319
     }
   }
 }

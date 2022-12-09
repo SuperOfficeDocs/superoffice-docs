@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/ChangeOwnPassword
 
 Change password for a user.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Change password for a user.
 ```http
 POST /api/v1/Agents/User/ChangeOwnPassword?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +46,15 @@ POST /api/v1/Agents/User/ChangeOwnPassword?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OldPassword, NewPassword
+OldPassword, NewPassword 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OldPassword | string |  |
 | NewPassword | string |  |
+
 
 ## Response: bool
 
@@ -56,18 +66,19 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/User/ChangeOwnPassword
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OldPassword": "quo",
-  "NewPassword": "fuga"
+  "OldPassword": "velit",
+  "NewPassword": "est"
 }
 ```
 

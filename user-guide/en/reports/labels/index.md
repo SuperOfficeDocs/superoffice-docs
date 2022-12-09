@@ -16,23 +16,20 @@ language: en
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 
-2. Select the required report.
+1. Select the required report.
 
-3. Click the **Preview** button under the criteria list.
+1. Click the **Preview** button under the criteria list.
 
-4. In the **Choose label** dialog, select the required label format.
+1. In the **Choose label** dialog, select the required label format.
 
     > [!NOTE]
     > You can also [add][2], [edit][3], and [delete][4] label formats.
 
-5. Click **OK**. A PDF is generated in your browser.
+1. Click **OK**. A PDF is generated in your browser.
 
-6. Open the PDF file. The file is opened in the default PDF viewer.
+[!include[Open PDF](../includes/step-open-pdf.md)]
 
-    > [!NOTE]
-    > If you do not have a PDF viewer, you will be asked if you want to install one.
-
-7. You can save the PDF file from the PDF viewer, so you can open it later.
+1. You can save the PDF file from the PDF viewer, so you can open it later.
 
 <!-- Referenced links -->
 [1]: ../properties.md

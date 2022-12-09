@@ -11,9 +11,16 @@ GET /api/v1/List/DeliveryType/Items/{id}
 
 Gets a DeliveryType  item by id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DeliveryType to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Gets a DeliveryType  item by id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -37,7 +45,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +64,7 @@ Response body:
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -66,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 201,
-  "Name": "Lemke-Dach",
-  "Tooltip": "nostrum",
+  "Id": 278,
+  "Name": "Parisian LLC",
+  "Tooltip": "debitis",
   "Deleted": true,
-  "UdListDefinitionId": 723,
-  "Rank": 296,
+  "UdListDefinitionId": 325,
+  "Rank": 3,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldType": "System.String",
+      "FieldLength": 97
     }
   }
 }

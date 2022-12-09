@@ -11,11 +11,18 @@ GET /api/v1/List/Business/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Business list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Stracke Group",
-    "ToolTip": "Rerum non eum qui voluptatum ratione.",
-    "Deleted": false,
-    "Rank": 589,
-    "Type": "voluptatibus",
-    "ColorBlock": 840,
-    "IconHint": "eos",
+    "Id": 328,
+    "Name": "Emmerich Inc and Sons",
+    "ToolTip": "Molestiae nam sint nobis et qui eos in.",
+    "Deleted": true,
+    "Rank": 462,
+    "Type": "in",
+    "ColorBlock": 120,
+    "IconHint": "ipsa",
     "Selected": false,
-    "LastChanged": "2013-11-08T11:10:53.9272125+01:00",
+    "LastChanged": "2009-07-26T02:49:51.8909437+02:00",
     "ChildItems": [
       {
-        "Id": 127,
-        "Name": "Stoltenberg, Daniel and Blick",
-        "ToolTip": "Vero ex.",
-        "Deleted": false,
-        "Rank": 248,
-        "Type": "aperiam",
-        "ColorBlock": 367,
-        "IconHint": "commodi",
-        "Selected": true,
-        "LastChanged": "2020-04-16T11:10:53.9272125+02:00",
+        "Id": 296,
+        "Name": "Conroy Inc and Sons",
+        "ToolTip": "Qui vitae illo.",
+        "Deleted": true,
+        "Rank": 182,
+        "Type": "autem",
+        "ColorBlock": 340,
+        "IconHint": "harum",
+        "Selected": false,
+        "LastChanged": "2004-11-03T02:49:51.8909437+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "error",
+        "ExtraInfo": "illo",
+        "StyleHint": "repellendus",
         "Hidden": true,
-        "FullName": "Loren Jedidiah Yundt PhD",
+        "FullName": "Werner Dickens",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 489
+            "FieldLength": 810
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ea",
+    "ExtraInfo": "sint",
+    "StyleHint": "aperiam",
     "Hidden": false,
-    "FullName": "Dr. Loy Kaley Marks",
+    "FullName": "Frederic Mayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldLength": 168
       }
     }
   }

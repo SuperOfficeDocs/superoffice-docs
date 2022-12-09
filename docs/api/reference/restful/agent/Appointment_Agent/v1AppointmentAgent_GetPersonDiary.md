@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetPersonDiary
 
 Method that returns a specified number of appointments within a time range.
 
+
 It only returns appointments that would be displayed in the user's diary. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It only returns appointments that would be displayed in the user's diary. The ap
 ```http
 POST /api/v1/Agents/Appointment/GetPersonDiary?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetPersonDiary?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count
+PersonId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,6 +54,7 @@ PersonId, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -118,14 +126,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 368,
-  "StartTime": "2022-08-25T11:10:25.9375534+02:00",
-  "EndTime": "2021-10-04T11:10:25.9375534+02:00",
-  "Count": 565
+  "PersonId": 335,
+  "StartTime": "2014-12-31T02:49:43.5129081+01:00",
+  "EndTime": "2011-04-26T02:49:43.5129081+02:00",
+  "Count": 976
 }
 ```
 
@@ -137,61 +145,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 250,
-    "StartDate": "2012-06-25T11:10:25.9385523+02:00",
-    "EndDate": "2019-12-11T11:10:25.9385523+01:00",
+    "AppointmentId": 999,
+    "StartDate": "2019-09-04T02:49:43.5129081+02:00",
+    "EndDate": "2015-02-12T02:49:43.5129081+01:00",
     "Type": "BookingForChecklist",
-    "Task": "id",
-    "AssociateFullName": "Bradly Lynch",
-    "ContactName": "Trantow-Klocko",
-    "Description": "Upgradable executive budgetary management",
-    "PersonFullName": "Mr. Saul Hauck MD",
-    "PersonId": 48,
-    "ContactId": 205,
-    "ProjectId": 749,
-    "ProjectName": "Kulas LLC",
+    "Task": "perferendis",
+    "AssociateFullName": "Lemuel Beatty",
+    "ContactName": "Wilderman, Herzog and Willms",
+    "Description": "Compatible transitional migration",
+    "PersonFullName": "Anissa Casper",
+    "PersonId": 965,
+    "ContactId": 574,
+    "ProjectId": 887,
+    "ProjectName": "Stanton Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 997,
-    "ColorIndex": 789,
+    "AssociateId": 80,
+    "ColorIndex": 412,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 390,
-    "PriorityName": "Gutkowski Inc and Sons",
+    "PriorityId": 383,
+    "PriorityName": "Lesch Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2021-09-27T11:10:25.9395643+02:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2007-06-30T02:49:43.5129081+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-12-11T11:10:25.9395643+01:00",
-    "RecurringEndDate": "2009-08-15T11:10:25.9395643+02:00",
-    "MotherId": 728,
-    "AssignedBy": 465,
-    "AssignedByFullName": "Abbigail Green DDS",
+    "RecurringStartDate": "2001-04-01T02:49:43.5129081+02:00",
+    "RecurringEndDate": "2016-08-24T02:49:43.5129081+02:00",
+    "MotherId": 526,
+    "AssignedBy": 59,
+    "AssignedByFullName": "Kim Gulgowski",
     "RejectReason": "",
-    "Location": "dicta",
-    "AlarmLeadTime": "consequatur",
-    "SaleId": 947,
-    "SaleName": "Reinger-Gerlach",
-    "AssociateName": "Koepp-Rohan",
-    "CreatedDate": "2017-07-16T11:10:25.9395643+02:00",
-    "CreatedBy": "quam",
-    "CreatedByFullName": "Ms. Madison Maritza Bode III",
-    "CreatedByAssociateId": 728,
+    "Location": "sequi",
+    "AlarmLeadTime": "dignissimos",
+    "SaleId": 428,
+    "SaleName": "Funk, Hartmann and Murphy",
+    "AssociateName": "Will-Batz",
+    "CreatedDate": "2013-08-05T02:49:43.5129081+02:00",
+    "CreatedBy": "quisquam",
+    "CreatedByFullName": "Mr. Harmony Vince Windler V",
+    "CreatedByAssociateId": 206,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldType": "System.String",
+        "FieldLength": 45
       }
     }
   }

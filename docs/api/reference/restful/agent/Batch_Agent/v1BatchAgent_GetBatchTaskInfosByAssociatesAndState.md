@@ -11,6 +11,12 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 
 Get an array of BatchTaskInfo for the provided associate id's and batch task state.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get an array of BatchTaskInfo for the provided associate id's and batch task sta
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIds, State
+AssociateIds, State 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateIds | array |  |
 | State | string |  |
+
 
 ## Response: array
 
@@ -91,8 +99,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    29,
-    781
+    981,
+    118
   ],
   "State": "All"
 }
@@ -106,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 28,
-    "Name": "Ortiz-Dickens",
-    "AssociateId": 499,
-    "DetailsTable": 80,
-    "DetailsRecord": 100,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 150,
+    "Name": "Nader, Olson and Barrows",
+    "AssociateId": 272,
+    "DetailsTable": 707,
+    "DetailsRecord": 605,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "velit",
-      "ParameterObject2": "ratione"
+      "ParameterObject1": "fugiat",
+      "ParameterObject2": "sapiente"
     },
-    "LastStarted": "2001-05-01T11:10:26.0225604+02:00",
-    "Created": "2007-12-13T11:10:26.0225604+01:00",
-    "StartCount": 285,
-    "DatabaseSerialNumber": "1776353",
-    "Context": "molestiae",
-    "Result": "distinctio",
+    "LastStarted": "2019-03-08T02:49:43.7004017+01:00",
+    "Created": "2008-09-18T02:49:43.7004017+02:00",
+    "StartCount": 234,
+    "DatabaseSerialNumber": "1354963",
+    "Context": "explicabo",
+    "Result": "iusto",
     "State": "All",
-    "Description": "Public-key national utilisation",
-    "Response": "alias",
-    "Request": "ipsum",
-    "ProgressDescription": "Balanced value-added groupware",
-    "ProgressPercent": 171,
-    "FileName": "Mante, Stoltenberg and Sipes",
+    "Description": "Diverse coherent firmware",
+    "Response": "itaque",
+    "Request": "quas",
+    "ProgressDescription": "Digitized systemic moratorium",
+    "ProgressPercent": 835,
+    "FileName": "Herman Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 933
+        "FieldLength": 284
       }
     }
   }

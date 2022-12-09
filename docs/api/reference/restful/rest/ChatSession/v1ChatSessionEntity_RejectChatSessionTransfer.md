@@ -11,11 +11,18 @@ POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 
 Do not want.
 
+
 Deny the transfer to the user. If the session is not being transferred, nothing happens.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to send back **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Deny the transfer to the user. If the session is not being transferred, nothing 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +90,7 @@ Response body:
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,43 +100,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 52,
-  "TopicId": 662,
+  "ChatSessionId": 630,
+  "TopicId": 136,
   "User": null,
   "Person": null,
-  "CustomerAlias": "deleniti",
-  "CustomerHost": "et",
-  "CustomerName": "Koch-Kulas",
-  "CustomerEmail": "jamie_feil@hoppe.uk",
-  "CustomerPhone": "365.492.6386 x690",
+  "CustomerAlias": "fugiat",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Jast LLC",
+  "CustomerEmail": "heaven@swiftvandervort.com",
+  "CustomerPhone": "616-751-3308 x1089",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Murray-Schmidt",
+  "CustomerCompanyName": "Huel Group",
   "Status": "Closed",
-  "FirstMessage": "aliquid",
-  "LastMessage": "omnis",
-  "WhenRequested": "2019-08-06T11:10:52.5291433+02:00",
-  "WhenStarted": "2021-01-11T11:10:52.5291433+01:00",
-  "WhenEnded": "2013-08-16T11:10:52.5291433+02:00",
-  "WhenIdle": "2020-05-19T11:10:52.5291433+02:00",
-  "WhenFetched": "2006-10-03T11:10:52.5291433+02:00",
-  "SessionKey": "magnam",
-  "InitialQueuePos": 140,
-  "AlertLevel": 843,
-  "Rank": 994,
+  "FirstMessage": "et",
+  "LastMessage": "vitae",
+  "WhenRequested": "2012-11-27T02:49:50.651535+01:00",
+  "WhenStarted": "2000-07-07T02:49:50.651535+02:00",
+  "WhenEnded": "2001-01-22T02:49:50.651535+01:00",
+  "WhenIdle": "2004-04-03T02:49:50.651535+02:00",
+  "WhenFetched": "1997-08-27T02:49:50.651535+02:00",
+  "SessionKey": "hic",
+  "InitialQueuePos": 185,
+  "AlertLevel": 755,
+  "Rank": 669,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 123,
+  "ChatbotIsActive": false,
+  "Rating": 858,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 869
+      "FieldType": "System.Int32",
+      "FieldLength": 972
     }
   }
 }

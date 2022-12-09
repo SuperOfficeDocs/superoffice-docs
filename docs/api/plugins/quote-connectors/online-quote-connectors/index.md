@@ -46,5 +46,5 @@ Have fun building quote connectors for SuperOffice CRM Online!
 [6]: https://github.com/SuperOffice/SuperOffice.DevNet.Online
 [7]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.IntegrationServer
 [9]: https://www.nuget.org/packages/SuperOffice.NetServer.Core/
-[rest]: (rest-quote-connector-api.md)
-[soap]: (soap-quote-connector-api.md)
+[rest]: rest-quote-connector-api.md
+[soap]: soap-quote-connector-api.md

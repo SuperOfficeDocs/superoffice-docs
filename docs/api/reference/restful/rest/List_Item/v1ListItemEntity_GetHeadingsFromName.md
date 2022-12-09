@@ -11,9 +11,16 @@ GET /api/v1/List/{name}/Headings
 
 Gets headings for list resolved by the provided name.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | The name of the list to look up. **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Gets headings for list resolved by the provided name.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -55,7 +63,7 @@ Response body: array
 GET /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -66,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 736,
-    "Name": "Herman Inc and Sons",
-    "Tooltip": "maiores",
-    "Deleted": false,
-    "Rank": 79,
-    "UdListDefinitionId": 143,
+    "HeadingId": 564,
+    "Name": "Howell, Moore and Conn",
+    "Tooltip": "facere",
+    "Deleted": true,
+    "Rank": 708,
+    "UdListDefinitionId": 995,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 476
+        "FieldType": "System.Int32",
+        "FieldLength": 576
       }
     }
   }

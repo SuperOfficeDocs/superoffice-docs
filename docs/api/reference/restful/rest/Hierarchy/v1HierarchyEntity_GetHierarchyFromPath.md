@@ -11,10 +11,16 @@ GET /api/v1/Hierarchy/{domain}/{path}
 
 Get a hierarchy item from a path
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get **Required** |
 | path | string | Hierarchy path to item **Required** |
+
 
 ## Query String Parameters
 
@@ -25,6 +31,7 @@ Get a hierarchy item from a path
 ```http
 GET /api/v1/Hierarchy/{domain}/{path}?children=False
 ```
+
 
 ## Request Headers
 
@@ -39,7 +46,8 @@ GET /api/v1/Hierarchy/{domain}/{path}?children=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -47,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +78,7 @@ Response body:
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,46 +88,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 628,
+  "HierarchyId": 595,
   "Domain": "Dashboards",
-  "Name": "Pagac Group",
-  "Fullname": "debitis",
-  "ParentId": 547,
+  "Name": "Reinger Group",
+  "Fullname": "consectetur",
+  "ParentId": 645,
   "Children": [
     {
-      "HierarchyId": 39,
+      "HierarchyId": 281,
       "Domain": "Dashboards",
-      "Name": "Medhurst-Bogan",
-      "Fullname": "et",
-      "ParentId": 429,
+      "Name": "McDermott-Quigley",
+      "Fullname": "explicabo",
+      "ParentId": 816,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-07-09T11:10:52.9181833+02:00",
-      "RegisteredAssociateId": 411,
-      "Updated": "2019-01-09T11:10:52.9181833+01:00",
-      "UpdatedAssociateId": 841,
+      "Registered": "2013-07-20T02:49:50.9952888+02:00",
+      "RegisteredAssociateId": 586,
+      "Updated": "2001-01-19T02:49:50.9952888+01:00",
+      "UpdatedAssociateId": 8,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldType": "System.String",
+          "FieldLength": 930
         }
       }
     }
   ],
-  "Registered": "2012-02-06T11:10:52.9181833+01:00",
-  "RegisteredAssociateId": 65,
-  "Updated": "2005-09-29T11:10:52.9181833+02:00",
-  "UpdatedAssociateId": 661,
+  "Registered": "2018-04-12T02:49:50.9952888+02:00",
+  "RegisteredAssociateId": 809,
+  "Updated": "2021-07-24T02:49:50.9952888+02:00",
+  "UpdatedAssociateId": 585,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldType": "System.String",
+      "FieldLength": 252
     }
   }
 }

@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultListItemEntity
 
 Set default values into a new ListItemEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +61,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -63,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 853,
-  "Name": "Rogahn, Maggio and Corwin",
-  "Tooltip": "nostrum",
-  "Deleted": false,
-  "UdListDefinitionId": 560,
-  "Rank": 686,
+  "Id": 32,
+  "Name": "Gleason, Batz and Schimmel",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "UdListDefinitionId": 686,
+  "Rank": 574,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 148
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   }
 }

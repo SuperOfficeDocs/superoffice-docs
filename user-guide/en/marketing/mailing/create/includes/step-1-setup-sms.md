@@ -3,9 +3,9 @@ The first step in creating an SMS mailing, is called **Setup**. Here you can set
 
 1. Enter a name in the **Name of mailing** field.
 
-2. In the **From** field, enter the sender name or mobile phone number. If you want the recipients to be able to reply to the SMS, you must enter a phone number.
+2. In the **From** field, enter the sender name or mobile phone number. If you want the recipients to reply to the SMS, you must enter a phone number.
 
-3. In the **Folder** list, select a folder in which to place the mailing.
+3. Select a folder to place the mailing in from the **Folder** list.
 
     [How do I create a mailing folder?][19]
 

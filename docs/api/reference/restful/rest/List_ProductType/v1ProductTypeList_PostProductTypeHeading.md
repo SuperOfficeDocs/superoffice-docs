@@ -11,7 +11,14 @@ POST /api/v1/List/ProductType/Headings
 
 Saves a new heading for the ProductType list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,16 +75,16 @@ Response body:
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 419,
-  "Name": "Conn, Farrell and Kertzmann",
-  "Tooltip": "aut",
+  "HeadingId": 412,
+  "Name": "Crona, Bahringer and Gleichner",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "Rank": 518,
-  "UdListDefinitionId": 610
+  "Rank": 543,
+  "UdListDefinitionId": 384
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 730,
-  "Name": "Tillman, Zboncak and Morissette",
-  "Tooltip": "nemo",
-  "Deleted": false,
-  "Rank": 987,
-  "UdListDefinitionId": 564,
+  "HeadingId": 308,
+  "Name": "Auer-Schneider",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 99,
+  "UdListDefinitionId": 557,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldLength": 424
     }
   }
 }

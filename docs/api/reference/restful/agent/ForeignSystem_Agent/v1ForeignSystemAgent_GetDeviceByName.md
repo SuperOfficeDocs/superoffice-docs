@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 
 Gets a ForeignDevice with deviceName that belongs to the application with applicationName.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a ForeignDevice with deviceName that belongs to the application with applic
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceByName?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName
+ApplicationName, DeviceName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
 | DeviceName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,12 +82,12 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wunsch, Metz and McGlynn",
-  "DeviceName": "Kemmer, Braun and Cronin"
+  "ApplicationName": "Kuhn, Ritchie and Lemke",
+  "DeviceName": "Wiegand-Leannon"
 }
 ```
 
@@ -90,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 810,
-  "Name": "Schuppe-Kuhlman",
-  "CreatedDate": "2016-11-23T11:10:27.0764525+01:00",
-  "UpdatedDate": "2001-12-11T11:10:27.0764525+01:00",
-  "AssociateFullName": "Suzanne Stehr",
-  "CreatedBy": "nemo",
-  "UpdatedBy": "doloremque",
-  "DeviceIdentifier": "natus",
-  "ForeignAppId": 865,
+  "ForeignDeviceId": 33,
+  "Name": "Walter, Ryan and Conn",
+  "CreatedDate": "2000-05-03T02:49:44.5454229+02:00",
+  "UpdatedDate": "2007-07-27T02:49:44.5454229+02:00",
+  "AssociateFullName": "Mr. Aditya Payton Kris V",
+  "CreatedBy": "enim",
+  "UpdatedBy": "veniam",
+  "DeviceIdentifier": "neque",
+  "ForeignAppId": 820,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 689
     }
   }
 }

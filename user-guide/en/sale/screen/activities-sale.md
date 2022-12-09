@@ -11,7 +11,7 @@ language: en
 
 # The Activities section tab
 
-The **Activities** section tab shows all activities that are linked to the active sale, i.e. appointments, tasks, phone calls, documents and emails. Double-click an activity in the section tab to view or edit it, as required.
+The **Activities** section tab shows all appointments, tasks, phone calls, documents, and emails that are linked to the active sale. Double-click an activity in the section tab to view or edit it, as required.
 
 ## Columns in the Activities section tab
 

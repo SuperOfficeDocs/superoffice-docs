@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/Send
 
 Send the provided e-mails
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Send the provided e-mails
 ```http
 POST /api/v1/Agents/EMail/Send?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/EMail/Send?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Emails
+Emails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Emails | array |  |
+
 
 ## Response: array
 
@@ -92,7 +102,7 @@ Response body: array
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,18 +120,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "aut",
-      "HTMLBody": "et",
+      "Subject": "magnam",
+      "HTMLBody": "autem",
       "From": null,
-      "Sent": "2001-04-14T11:10:26.8414523+02:00",
-      "Size": 902,
+      "Sent": "2018-06-01T02:49:44.3566372+02:00",
+      "Size": 459,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "ipsa",
+      "MessageID": "dolores",
       "PlainBody": "ipsum",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 306,
+      "ServerId": 764,
       "Attachments": [
         {},
         {}
@@ -130,12 +140,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Kutch-Hickle",
-      "EmailItemId": 118,
-      "AccountId": 488,
-      "ReceivedAt": "2004-12-26T11:10:26.8414523+01:00",
+      "FolderName": "Erdman, McDermott and Walter",
+      "EmailItemId": 405,
+      "AccountId": 228,
+      "ReceivedAt": "2001-09-26T02:49:44.3566372+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2009-08-19T11:10:26.8414523+02:00",
+      "RepliedAt": "2009-11-20T02:49:44.3566372+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -154,155 +164,155 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 925,
-        "ContactName": "Hirthe Inc and Sons",
-        "PersonId": 881,
-        "PersonName": "Purdy-O'Conner",
-        "AssociateId": 728,
-        "Address": "maiores",
-        "EmailId": 307,
+        "ContactId": 586,
+        "ContactName": "Robel-Bayer",
+        "PersonId": 941,
+        "PersonName": "Abshire Inc and Sons",
+        "AssociateId": 897,
+        "Address": "ut",
+        "EmailId": 203,
         "DuplicatePersonIds": [
-          829,
-          252
+          346,
+          704
         ],
-        "Name": "Wintheiser Group",
+        "Name": "Purdy-Schaden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 456
+            "FieldType": "System.Int32",
+            "FieldLength": 337
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 357,
-        "ContactName": "Nolan Inc and Sons",
-        "PersonId": 530,
-        "PersonName": "Hahn LLC",
-        "AssociateId": 760,
-        "Address": "deserunt",
-        "EmailId": 851,
+        "ContactId": 155,
+        "ContactName": "Larkin-Kertzmann",
+        "PersonId": 385,
+        "PersonName": "Thompson-Mann",
+        "AssociateId": 555,
+        "Address": "aut",
+        "EmailId": 798,
         "DuplicatePersonIds": [
-          890,
-          777
+          244,
+          721
         ],
-        "Name": "Reichert, Turcotte and Huels",
+        "Name": "Murphy, Kiehn and Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldType": "System.String",
+            "FieldLength": 675
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 256,
-        "ContactName": "Walker Group",
-        "PersonId": 756,
-        "PersonName": "Nienow, Beier and Jones",
-        "AssociateId": 759,
-        "Address": "magni",
-        "EmailId": 699,
+        "ContactId": 847,
+        "ContactName": "Jones-Cronin",
+        "PersonId": 511,
+        "PersonName": "Terry-Cartwright",
+        "AssociateId": 239,
+        "Address": "exercitationem",
+        "EmailId": 658,
         "DuplicatePersonIds": [
-          362,
-          654
+          397,
+          529
         ],
-        "Name": "Waters Group",
+        "Name": "Haag, Murazik and Osinski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 684
+            "FieldLength": 914
           }
         }
       }
     ],
-    "Subject": "cumque",
-    "HTMLBody": "adipisci",
+    "Subject": "a",
+    "HTMLBody": "eos",
     "From": null,
-    "Sent": "2019-02-05T11:10:26.8434537+01:00",
-    "Size": 157,
+    "Sent": "2000-06-15T02:49:44.3722628+02:00",
+    "Size": 682,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "sit",
-    "PlainBody": "excepturi",
-    "IsSent": false,
+    "MessageID": "eligendi",
+    "PlainBody": "neque",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 49,
+    "ServerId": 825,
     "Attachments": [
       {
-        "Description": "Profound foreground interface",
-        "Filename": "incidunt",
-        "Size": 620,
-        "Type": "sapiente",
-        "Encoding": "quia",
-        "Id": "adipisci",
-        "Disposition": "a",
+        "Description": "Secured fault-tolerant array",
+        "Filename": "ut",
+        "Size": 326,
+        "Type": "labore",
+        "Encoding": "et",
+        "Id": "nulla",
+        "Disposition": "voluptate",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 998
+            "FieldType": "System.Int32",
+            "FieldLength": 666
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Fadel LLC",
+        "Name": "Bins-Adams",
         "Values": [
-          "tenetur",
-          "suscipit"
+          "dolorem",
+          "sint"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 703
+            "FieldLength": 720
           }
         }
       },
       {
-        "Name": "Fadel LLC",
+        "Name": "Bins-Adams",
         "Values": [
-          "tenetur",
-          "suscipit"
+          "dolorem",
+          "sint"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 703
+            "FieldLength": 720
           }
         }
       }
     ],
-    "FolderName": "Satterfield, Haley and Anderson",
-    "EmailItemId": 365,
-    "AccountId": 92,
-    "ReceivedAt": "2013-09-30T11:10:26.8444526+02:00",
+    "FolderName": "Turcotte, Konopelski and Gulgowski",
+    "EmailItemId": 84,
+    "AccountId": 178,
+    "ReceivedAt": "2004-12-17T02:49:44.3722628+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2005-03-04T11:10:26.8444526+01:00",
-    "HasCalendarData": true,
+    "RepliedAt": "2022-01-28T02:49:44.3722628+01:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldType": "System.String",
+        "FieldLength": 927
       }
     }
   }

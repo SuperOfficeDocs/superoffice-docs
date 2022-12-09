@@ -5,7 +5,7 @@
 4. Write the name of the new selection or project.
 5. Click **OK**.
 
-Open the selection or project to verify that the contacts have been added.
+Open the selection or project to verify that the contacts were added.
 
 <!-- Referenced images -->
 [img2]: ../../../media/icons/btn-menu.png

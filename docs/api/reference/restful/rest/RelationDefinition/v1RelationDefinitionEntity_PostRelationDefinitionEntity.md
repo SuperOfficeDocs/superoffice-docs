@@ -11,7 +11,13 @@ POST /api/v1/RelationDefinition
 
 Creates a new RelationDefinitionEntity
 
+
 Calls the List agent service SaveRelationDefinitionEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the List agent service SaveRelationDefinitionEntity.
 ```http
 POST /api/v1/RelationDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/RelationDefinition?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The RelationDefinitionEntity to be saved.
+The RelationDefinitionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,8 @@ The RelationDefinitionEntity to be saved.
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -60,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,16 +90,16 @@ Response body:
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 524,
-  "Name": "Collier-Mayert",
-  "Tooltip": "voluptatem",
-  "PassiveText": "itaque",
-  "Deleted": false,
-  "Rank": 64,
+  "ReldefId": 668,
+  "Name": "Kessler, Brekke and Ankunding",
+  "Tooltip": "aspernatur",
+  "PassiveText": "quis",
+  "Deleted": true,
+  "Rank": 897,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -104,12 +112,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 960,
-  "Name": "Mayer, Gaylord and Mayert",
-  "Tooltip": "et",
-  "PassiveText": "non",
-  "Deleted": true,
-  "Rank": 353,
+  "ReldefId": 670,
+  "Name": "Waters Group",
+  "Tooltip": "sunt",
+  "PassiveText": "eum",
+  "Deleted": false,
+  "Rank": 739,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -117,12 +125,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldLength": 596
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

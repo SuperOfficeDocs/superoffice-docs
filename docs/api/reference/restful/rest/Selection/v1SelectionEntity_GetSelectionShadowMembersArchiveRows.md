@@ -11,11 +11,17 @@ GET /api/v1/Selection/{selectionId}/ShadowMembers
 
 Get the list of members in this selection's shadow (i.
 
+
 e. the list of contacts + persons referenced in the main selection).
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The selectionId we want selection members for. **Required** |
+
 
 ## Query String Parameters
 
@@ -31,6 +37,7 @@ GET /api/v1/Selection/{selectionId}/ShadowMembers?$mode=FULL
 GET /api/v1/Selection/{selectionId}/ShadowMembers?$format=JSON
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -44,7 +51,8 @@ GET /api/v1/Selection/{selectionId}/ShadowMembers?$format=JSON
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quo",
+  "odata.nextLink": "perferendis",
   "value": [
     {
-      "PrimaryKey": 1449,
+      "PrimaryKey": 2196,
       "EntityName": "person",
-      "personId": 1449,
-      "fullName": "Rozella Flatley"
+      "personId": 2196,
+      "fullName": "Karelle Marvin"
     },
     {
-      "PrimaryKey": 2355,
+      "PrimaryKey": 6961,
       "EntityName": "person",
-      "personId": 2355,
-      "fullName": "Mrs. Harrison Williamson"
+      "personId": 6961,
+      "fullName": "Prof. Allene Gottlieb III"
     }
   ]
 }

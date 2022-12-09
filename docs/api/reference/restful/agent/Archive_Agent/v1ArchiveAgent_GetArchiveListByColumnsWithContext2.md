@@ -11,8 +11,12 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 
 Get a page of results for an archive list with context parameter, explicitly specifying the restrictions as a string, orderby and chosen columns.
 
+
+
+
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
+
 
 For example:
 
@@ -33,8 +37,8 @@ Unary operators:
 "updatedDate lastWeek", "assocId currentAssociate"
 ```
 
-## Brackets and or
 
+## Brackets and or
 AND and OR can be used to combine terms. AND has a higher priority than OR
 
 ```
@@ -47,10 +51,12 @@ Brackets can be used for grouping.
 "(business = 2 or category = 3) and name contains 'super'"
 ```
 
+
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
+
 
 Example: group last names together, and inject a header row for each group.
 
@@ -60,7 +66,7 @@ GroupBy(lastName):Header
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
+Example: count instances of middle names, and hide the individual rows, 
 report just the totals for each group using a footer. Note how the modifiers stack.
 
 ```
@@ -76,18 +82,28 @@ Example: the aggregator functions can nest, so you can say
 GroupBy(DatePart(personUpdatedDate):YearMonth):Header
 
 ```
-
 ## Strings
 
 Use the begins or contains operators to do string searches.
 You can also use the normal = operator to do string exact match checks.
 
+
+
 Use backslash to escape single quotes in strings
 (note that backslash needs to be doubled because c# also uses backslash escapes):
+
 
 ```
 "department contains 'Bob\\'s'"
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -98,6 +114,7 @@ Use backslash to escape single quotes in strings
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -113,9 +130,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context
+ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -127,6 +144,7 @@ ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context
 | Page | int32 |  |
 | PageSize | int32 |  |
 | Context | string |  |
+
 
 ## Response: array
 
@@ -154,18 +172,18 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Eichmann, Heaney and O'Kon",
-  "Columns": "porro",
-  "SortOrder": "enim",
-  "Restriction": "blanditiis",
-  "Entities": "in",
-  "Page": 897,
-  "PageSize": 42,
-  "Context": "et"
+  "ProviderName": "Prohaska-Wolf",
+  "Columns": "est",
+  "SortOrder": "blanditiis",
+  "Restriction": "aut",
+  "Entities": "sequi",
+  "Page": 735,
+  "PageSize": 848,
+  "Context": "expedita"
 }
 ```
 
@@ -177,23 +195,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Buckridge, Brakus and Goodwin",
-    "PrimaryKey": 968,
+    "EntityName": "Sawayn Inc and Sons",
+    "PrimaryKey": 167,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "molestiae",
-        "TooltipHint": "facilis",
-        "LinkHint": "vero"
+        "DisplayValue": "non",
+        "TooltipHint": "nesciunt",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "aliquam",
-    "StyleHint": "voluptas",
+    "LinkHint": "veritatis",
+    "StyleHint": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 660
+        "FieldType": "System.Int32",
+        "FieldLength": 397
       }
     }
   }

@@ -11,7 +11,14 @@ GET /api/v1/Pricelist/default
 
 Set default values into a new PriceList.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Quote agent service CreateDefaultPriceList.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +65,7 @@ Response body:
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -67,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 635,
-  "ERPPriceListKey": "commodi",
-  "QuoteConnectionId": 630,
-  "Name": "Kuphal, Parker and Bosco",
-  "Description": "Horizontal maximized portal",
-  "Currency": "omnis",
-  "CurrencyName": "Corwin-Rodriguez",
-  "ValidFrom": "2017-06-01T11:10:54.3849025+02:00",
-  "ValidTo": "2003-10-24T11:10:54.3849025+02:00",
+  "PriceListId": 774,
+  "ERPPriceListKey": "sunt",
+  "QuoteConnectionId": 188,
+  "Name": "Ryan-Franecki",
+  "Description": "Team-oriented bi-directional application",
+  "Currency": "incidunt",
+  "CurrencyName": "Lesch LLC",
+  "ValidFrom": "1998-03-23T02:49:52.3284476+01:00",
+  "ValidTo": "2021-03-21T02:49:52.3284476+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 94
     }
   }
 }

@@ -11,11 +11,11 @@ language: en
 
 # Translation
 
-The default fields and other UI texts in SuperOffice CRM have been translated to all SuperOffice languages. If you create your own fields or texts (such as names of dashboards and tiles), you can add translations for the relevant languages in your organization.
+The default fields and other UI texts in SuperOffice CRM are available in all SuperOffice languages. If you create your own fields or texts (such as names of dashboards and tiles), you can add translations for the relevant languages in your organization.
 
 The icon ![icon][img1] next to a field indicates that you can add a translation.
 
-To add a translation:
+## Add a translation
 
 1. Click ![icon][img1] next to the field where you want to add a translation.
 2. Click **Add**.

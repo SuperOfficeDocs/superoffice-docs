@@ -15,8 +15,6 @@ language: en
 
 ## In Settings and maintenance
 
-To edit a role:
-
 1. [!include[Open Roles](includes/open-roles.md)]
 
 2. Choose the **Associates** or **External** tab.
@@ -42,8 +40,6 @@ To edit a role:
     The changes are saved automatically.
 
 ## In Service
-
-To edit the information already recorded for a role in Service:
 
 1. Select ![icon][img1] **System settings > Roles**.
 2. Click the required role name. The **Edit role** screen appears.

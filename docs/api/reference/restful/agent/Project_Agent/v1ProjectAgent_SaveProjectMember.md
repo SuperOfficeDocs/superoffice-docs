@@ -11,6 +11,13 @@ POST /api/v1/Agents/Project/SaveProjectMember
 
 Updates the existing ProjectMember or creates a new ProjectMember if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ProjectMember or creates a new ProjectMember if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ProjectMember to be saved.
+The ProjectMember to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,8 @@ The ProjectMember to be saved.
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -61,7 +69,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,31 +103,31 @@ Response body:
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 616,
-  "ContactId": 119,
-  "ProjectId": 803,
-  "ContactName": "Shanahan, Weber and Hayes",
+  "ProjectmemberId": 419,
+  "ContactId": 229,
+  "ProjectId": 626,
+  "ContactName": "Hickle-Lind",
   "ContactDepartment": "",
-  "ProjectName": "Hessel, Lemke and Jaskolski",
-  "EmailId": 88,
-  "EmailAddress": "evan_ward@ferry.co.uk",
-  "CountryId": 516,
-  "Firstname": "Domenic",
-  "MiddleName": "Dibbert, Koelpin and Jerde",
-  "Lastname": "Kshlerin",
-  "PersonId": 525,
-  "Mrmrs": "illo",
-  "ProjectMemberTypeName": "Barrows, Mitchell and Waelchi",
-  "Phone": "(880)615-7866",
-  "PhoneId": 768,
-  "ProjectMemberTypeId": 716,
-  "EmailAddressName": "mariah.buckridge@gutmann.uk",
-  "Comment": "aliquam",
-  "FullName": "Ms. Tierra Schamberger"
+  "ProjectName": "Leannon, Shanahan and Hickle",
+  "EmailId": 948,
+  "EmailAddress": "paige_thiel@heidenreichheathcote.ca",
+  "CountryId": 396,
+  "Firstname": "Zackery",
+  "MiddleName": "Vandervort Inc and Sons",
+  "Lastname": "Batz",
+  "PersonId": 678,
+  "Mrmrs": "autem",
+  "ProjectMemberTypeName": "Koepp Inc and Sons",
+  "Phone": "(002)830-4102 x247",
+  "PhoneId": 236,
+  "ProjectMemberTypeId": 699,
+  "EmailAddressName": "emmalee@halvorsonbednar.ca",
+  "Comment": "iusto",
+  "FullName": "Sim Farrell"
 }
 ```
 
@@ -130,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 82,
-  "ContactId": 355,
-  "ProjectId": 4,
-  "ContactName": "Gerhold Group",
+  "ProjectmemberId": 227,
+  "ContactId": 477,
+  "ProjectId": 623,
+  "ContactName": "McKenzie LLC",
   "ContactDepartment": "",
-  "ProjectName": "Kunde, Feil and Stanton",
-  "EmailId": 190,
-  "EmailAddress": "herta@klocko.ca",
-  "CountryId": 960,
-  "Firstname": "Luigi",
-  "MiddleName": "Welch-Lind",
-  "Lastname": "Grady",
-  "PersonId": 166,
-  "Mrmrs": "ratione",
-  "ProjectMemberTypeName": "Gerlach, Yundt and DuBuque",
-  "Phone": "077-923-3712 x992",
-  "PhoneId": 827,
-  "ProjectMemberTypeId": 623,
-  "EmailAddressName": "chet@huels.us",
-  "Comment": "dolor",
-  "FullName": "Loma Crystal Maggio I",
+  "ProjectName": "Quitzon, McDermott and Hane",
+  "EmailId": 308,
+  "EmailAddress": "savanna.aufderhar@kuvalislehner.biz",
+  "CountryId": 218,
+  "Firstname": "Jarrod",
+  "MiddleName": "Lockman LLC",
+  "Lastname": "Roberts",
+  "PersonId": 667,
+  "Mrmrs": "omnis",
+  "ProjectMemberTypeName": "Blanda, Balistreri and Huels",
+  "Phone": "(928)763-8504",
+  "PhoneId": 982,
+  "ProjectMemberTypeId": 330,
+  "EmailAddressName": "milo@jacobs.biz",
+  "Comment": "iusto",
+  "FullName": "Ephraim Madaline Schultz V",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 159
+      "FieldLength": 164
     }
   }
 }

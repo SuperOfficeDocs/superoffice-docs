@@ -15,23 +15,20 @@ The print options for labels are slightly different from those for other report 
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 
-2. [Select the required label report][1].
+1. [Select the required label report][1].
 
-3. Click the **Preview** button under the criteria list.
+1. Click the **Preview** button under the criteria list.
 
-4. In the **Choose label** dialog, select the required label format.
+1. In the **Choose label** dialog, select the required label format.
 
     > [!NOTE]
     > You can also [edit an existing label format][2] to use for printing or [add a new label format][3].
 
-5. Click **OK**. A PDF is generated in your browser.
+1. Click **OK**. A PDF is generated in your browser.
 
-6. Open the PDF file. The file is opened in the default PDF viewer.
+[!include[Open PDF](../includes/step-open-pdf.md)]
 
-    > [!NOTE]
-    > If you do not have a PDF viewer, you will be asked if you want to install one.
-
-7. Click the print button in the PDF viewer.
+1. Click the print button in the PDF viewer.
 
 <!-- Referenced links -->
 [1]: ../properties.md

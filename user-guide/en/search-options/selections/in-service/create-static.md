@@ -11,13 +11,13 @@ language: en
 
 # Create a static selection
 
-You can find records and add them all, or some of them at a time, to a static selection. You can perform many searches in different tables and using different criteria, and select the records you want to include in the selection. When they are no longer relevant, you simply remove them from the selection.
+You can find records and add them all, or some at a time, to a static selection. You can perform many searches in different tables and using different criteria, and select the records you want to include in the selection. When they are no longer relevant, you simply remove them from the selection.
 
-A static selection contains only those records you have added to it manually, unlike a [dynamic selection][1]. Once you have created a static selection and added records to it, it will always contain the same records until you either add or remove some. A static selection works like a report in which you always have full control over the records.
+A static selection contains only those records you added to it manually, unlike a [dynamic selection][1]. Once you create a static selection and added records to it, it will always contain the same records until you either add or remove some. A static selection works like a report where you always have full control over the records.
 
 1. Select **Selections** > **New selection**. This takes you to the **New selection** screen.
 
-2. In the **Source table** field, select which type of records you want to include in the selection. For instance, if you want to create a selection of requests, select **Request**.
+2. In the **Source table** field, select which type of records you want to include in the selection. For instance, to create a selection of requests, select **Request**.
 
 3. Click **Static selection**.
 
@@ -40,7 +40,7 @@ A static selection contains only those records you have added to it manually, un
     > [!TIP]
     > To remove entries from the selection, select the relevant entries in the **Result** tab, click the ![icon][img3] menu button in the lower left corner, and select ![icon][img2] **Remove from selection** button.
 
-11. In the **Profile** tab, specify how the selection is to be presented:
+11. In the **Profile** tab, specify how the selection should be presented:
     [!include[Contents of Selection Profile tab](includes/selection-profile-tab.md)]
 
 12. Click **OK**. The selection is saved, and you are returned to the **List selections** screen.

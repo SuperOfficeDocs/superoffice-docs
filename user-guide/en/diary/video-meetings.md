@@ -12,7 +12,7 @@ language: en
 # Work with video meetings
 
 > [!NOTE]
-> Before you can use this feature, the administrator must first configure yourpreferred video meeting service (Jitisi Meet, Google Meet or Microsoft Teams) in SuperOffice Settings and Maintenance.
+> Before you can use this feature, the administrator must first configure your preferred video meeting service (Jitsi Meet, Google Meet or Microsoft Teams) in SuperOffice Settings and Maintenance.
 
 ## Create a video meeting
 
@@ -23,23 +23,23 @@ You can easily set up a video meeting when creating a follow up:
 2. Click ![icon][img1] next to the meeting type (for instance **Business meeting**). The icon changes to ![icon][img2] and a video meeting link is added.
 
     > [!NOTE]
-    > The first time you select the video icon (![icon][img1]), a new window will opens. Here you need to log in to authenticate your user in the video meeting service defined by your administrator.
+    > The first time you select the video icon (![icon][img1]), you must log in to authenticate your user in the video meeting service defined by your administrator.
 
-3. Complete the information in the dialog as described in [The Dialog for follow-ups][2].
+3. [Complete the information in the dialog][2].
 
-If you have turned on e-mail invitations for the participants of the follow-up, an email with a link to join the video meeting will be sent when the appointment is saved. In the diary, follow-ups with video meetings are displayed with the icon ![icon][img3].
+If you turned on email invitations for the participants of the follow-up, an email with a link to join the video meeting is sent when the appointment is saved. In the diary, follow-ups with video meetings are displayed with the icon ![icon][img3].
 
 > [!TIP]
 > Click ![icon][img4] to copy the video meeting link. You can then paste the link in the description of the appointment or send to others via direct messaging. Use the template variable {burl} to add the video meeting link to invitation templates.
 
 ## Join video meetings
 
-There are several ways in which you can join a video meeting in SuperOffice:
+You can join a video meeting in SuperOffice in several ways:
 
-* click **Join meeting** in the **Follow-up** dialog (appointment)
-* click **Join meeting** in the side panel
-* click a browser notification (only available if the **Alarm** option has been activated.
-* right-click a video meeting in the diary and select **Join meeting**
+* Click **Join meeting** in the **Follow-up** dialog (appointment)
+* Click **Join meeting** in the side panel
+* Click a browser notification (only available if the **Alarm** option has been activated)
+* Right-click a video meeting in the diary and select **Join meeting**
 
 <!-- Referenced links -->
 [2]: screen/dialog-for-followups.md

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/ChangeCountry
 
 Change country regenerates the default values and localized information such as phone number and address format
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Change country regenerates the default values and localized information such as 
 ```http
 POST /api/v1/Agents/Contact/ChangeCountry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Contact/ChangeCountry?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactEntity, ToCountryId
+ContactEntity, ToCountryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactEntity |  | The Contact Service. The service implements all services working with the Contact object <para /> Carrier object for ContactEntity. Services for the ContactEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
 | ToCountryId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,12 +117,12 @@ Response body:
 POST /api/v1/Agents/Contact/ChangeCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactEntity": null,
-  "ToCountryId": 782
+  "ToCountryId": 236
 }
 ```
 
@@ -125,157 +133,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 78,
-  "Name": "Marquardt-Sipes",
+  "ContactId": 159,
+  "Name": "Hickle Group",
   "Department": "",
-  "OrgNr": "266547",
-  "Number1": "1459845",
-  "Number2": "226533",
-  "UpdatedDate": "1996-12-06T11:10:26.3284318+01:00",
-  "CreatedDate": "2010-09-28T11:10:26.3284318+02:00",
+  "OrgNr": "324304",
+  "Number1": "1386538",
+  "Number2": "655104",
+  "UpdatedDate": "2001-08-12T02:49:43.9660328+02:00",
+  "CreatedDate": "2020-01-04T02:49:43.9660328+01:00",
   "Emails": [
     {
-      "Value": "officia",
-      "StrippedValue": "hic",
-      "Description": "Right-sized hybrid strategy",
+      "Value": "est",
+      "StrippedValue": "doloremque",
+      "Description": "Focused multi-state support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 150
+          "FieldType": "System.Int32",
+          "FieldLength": 620
         }
       }
     },
     {
-      "Value": "officia",
-      "StrippedValue": "hic",
-      "Description": "Right-sized hybrid strategy",
+      "Value": "est",
+      "StrippedValue": "doloremque",
+      "Description": "Focused multi-state support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 150
+          "FieldType": "System.Int32",
+          "FieldLength": 620
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 899,
-      "Name": "Bins-Miller",
-      "ToolTip": "Exercitationem quis ullam autem aut numquam.",
-      "Deleted": false,
-      "Rank": 62,
-      "Type": "labore",
-      "ColorBlock": 21,
-      "IconHint": "autem",
+      "Id": 738,
+      "Name": "Gleichner-Abernathy",
+      "ToolTip": "Quia quae possimus dolores deleniti.",
+      "Deleted": true,
+      "Rank": 962,
+      "Type": "libero",
+      "ColorBlock": 530,
+      "IconHint": "impedit",
       "Selected": false,
-      "LastChanged": "1998-11-15T11:10:26.3284318+01:00",
+      "LastChanged": "2021-04-12T02:49:43.9660328+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quod",
-      "StyleHint": "deserunt",
+      "ExtraInfo": "reiciendis",
+      "StyleHint": "id",
       "Hidden": false,
-      "FullName": "Jamison Ferry",
+      "FullName": "Miss Sylvia Hoeger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 931
+          "FieldLength": 474
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "aliquam",
-      "StrippedValue": "possimus",
-      "Description": "Profound empowering capability",
+      "Value": "et",
+      "StrippedValue": "vel",
+      "Description": "Expanded 4th generation local area network",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 943
+          "FieldLength": 911
         }
       }
     },
     {
-      "Value": "aliquam",
-      "StrippedValue": "possimus",
-      "Description": "Profound empowering capability",
+      "Value": "et",
+      "StrippedValue": "vel",
+      "Description": "Expanded 4th generation local area network",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 943
+          "FieldLength": 911
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "voluptates",
-      "StrippedValue": "dolor",
-      "Description": "Triple-buffered optimal solution",
+      "Value": "dicta",
+      "StrippedValue": "quam",
+      "Description": "Decentralized uniform archive",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldLength": 420
         }
       }
     },
     {
-      "Value": "voluptates",
-      "StrippedValue": "dolor",
-      "Description": "Triple-buffered optimal solution",
+      "Value": "dicta",
+      "StrippedValue": "quam",
+      "Description": "Decentralized uniform archive",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldLength": 420
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "reprehenderit",
-      "StrippedValue": "ducimus",
-      "Description": "Expanded optimizing intranet",
+      "Value": "in",
+      "StrippedValue": "eveniet",
+      "Description": "Business-focused composite Graphic Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldType": "System.String",
+          "FieldLength": 695
         }
       }
     },
     {
-      "Value": "reprehenderit",
-      "StrippedValue": "ducimus",
-      "Description": "Expanded optimizing intranet",
+      "Value": "in",
+      "StrippedValue": "eveniet",
+      "Description": "Business-focused composite Graphic Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldType": "System.String",
+          "FieldLength": 695
         }
       }
     }
   ],
-  "Description": "Team-oriented zero administration infrastructure",
+  "Description": "Upgradable client-driven groupware",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -284,92 +292,92 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "perferendis",
-      "PersonId": 853,
-      "Mrmrs": "non",
-      "Firstname": "Elsie",
-      "Lastname": "Wunsch",
-      "MiddleName": "Trantow, Gerlach and Tillman",
-      "Title": "qui",
-      "Description": "Compatible secondary paradigm",
-      "Email": "margarete@runte.com",
-      "FullName": "Rollin Harvey Braun I",
-      "DirectPhone": "(022)163-6055",
-      "FormalName": "McClure Group",
-      "CountryId": 625,
-      "ContactId": 770,
-      "ContactName": "Prosacco Group",
-      "Retired": 805,
-      "Rank": 973,
-      "ActiveInterests": 57,
+      "Position": "aut",
+      "PersonId": 93,
+      "Mrmrs": "sunt",
+      "Firstname": "Manuel",
+      "Lastname": "Farrell",
+      "MiddleName": "Gerhold LLC",
+      "Title": "vel",
+      "Description": "Up-sized attitude-oriented website",
+      "Email": "monique@wilkinsoncollins.name",
+      "FullName": "Pete Roel Kertzmann DVM",
+      "DirectPhone": "956-179-0263 x5799",
+      "FormalName": "Daniel, Bradtke and Lind",
+      "CountryId": 586,
+      "ContactId": 201,
+      "ContactName": "Abernathy Inc and Sons",
+      "Retired": 677,
+      "Rank": 516,
+      "ActiveInterests": 538,
       "ContactDepartment": "",
-      "ContactCountryId": 968,
-      "ContactOrgNr": "1616528",
-      "FaxPhone": "215-941-7759 x070",
-      "MobilePhone": "949.923.8940 x056",
-      "ContactPhone": "1-963-843-6588",
-      "AssociateName": "McKenzie, Kuhn and Purdy",
-      "AssociateId": 896,
-      "UsePersonAddress": false,
-      "ContactFax": "alias",
-      "Kanafname": "quisquam",
-      "Kanalname": "nihil",
-      "Post1": "doloremque",
-      "Post2": "omnis",
-      "Post3": "qui",
-      "EmailName": "justina_lind@kozey.ca",
-      "ContactFullName": "Dr. Opal Kulas III",
-      "ActiveErpLinks": 699,
-      "TicketPriorityId": 164,
-      "SupportLanguageId": 40,
-      "SupportAssociateId": 708,
+      "ContactCountryId": 11,
+      "ContactOrgNr": "1030832",
+      "FaxPhone": "(421)309-9743 x038",
+      "MobilePhone": "1-992-453-6279",
+      "ContactPhone": "(410)977-2771 x6347",
+      "AssociateName": "Ritchie, Runolfsdottir and Spinka",
+      "AssociateId": 621,
+      "UsePersonAddress": true,
+      "ContactFax": "numquam",
+      "Kanafname": "nihil",
+      "Kanalname": "et",
+      "Post1": "eveniet",
+      "Post2": "occaecati",
+      "Post3": "cupiditate",
+      "EmailName": "wilford.considine@wisozk.uk",
+      "ContactFullName": "Mckenzie Bednar",
+      "ActiveErpLinks": 414,
+      "TicketPriorityId": 283,
+      "SupportLanguageId": 410,
+      "SupportAssociateId": 564,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 923
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "earum",
-  "Xstop": true,
-  "ActiveInterests": 137,
-  "GroupId": 898,
-  "ActiveStatusMonitorId": 516,
+  "Kananame": "voluptas",
+  "Xstop": false,
+  "ActiveInterests": 652,
+  "GroupId": 446,
+  "ActiveStatusMonitorId": 585,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 617,
-  "DbiAgentId": 233,
-  "DbiLastSyncronized": "2013-02-26T11:10:26.3324578+01:00",
-  "DbiKey": "et",
-  "DbiLastModified": "1997-08-13T11:10:26.3324578+02:00",
+  "Deleted": 548,
+  "DbiAgentId": 612,
+  "DbiLastSyncronized": "2002-01-06T02:49:43.9660328+01:00",
+  "DbiKey": "sed",
+  "DbiLastModified": "2014-02-18T02:49:43.9660328+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 960,
-  "ActiveErpLinks": 808,
+  "Source": 756,
+  "ActiveErpLinks": 445,
   "BounceEmails": [
-    "tyrique.feeney@leuschke.us",
-    "koby@fadel.info"
+    "claudine@schuppe.uk",
+    "whitney.kirlin@russel.us"
   ],
   "Domains": [
-    "dolorem",
-    "aspernatur"
+    "quis",
+    "molestiae"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Keara Parker",
-    "SuperOffice:2": "Enos Marvin"
+    "SuperOffice:1": "Noemie Braun",
+    "SuperOffice:2": "Nathen Towne"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
+    "CustomFields1": "dolorum",
     "CustomFields2": "sunt"
   },
   "TableRight": null,
@@ -377,7 +385,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldLength": 857
     }
   }
 }

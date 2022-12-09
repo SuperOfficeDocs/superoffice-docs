@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/Find
 
 Execute a Find operation and return a page of results.
 
+
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters. The columns of the result are calculated based on the restriction. The orderby columns are also calculated by the system.&lt;para/&gt;The other variants of the Find method allow you greater control over the individual aspects of the process.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The criteria for the Find are fetched from the restriction storage provider acco
 ```http
 POST /api/v1/Agents/Find/Find?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/Find?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, PageSize, PageNumber
+StorageType, ProviderName, StorageKey, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,8 @@ StorageType, ProviderName, StorageKey, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,15 +81,15 @@ Response body:
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quis",
-  "ProviderName": "Gaylord, Dare and Ruecker",
-  "StorageKey": "dolore",
-  "PageSize": 825,
-  "PageNumber": 80
+  "StorageType": "iste",
+  "ProviderName": "Boyer-Stehr",
+  "StorageKey": "alias",
+  "PageSize": 38,
+  "PageNumber": 218
 }
 ```
 
@@ -94,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Barrows, Monahan and Pouros",
-      "DisplayTooltip": "expedita",
-      "DisplayType": "dolor",
-      "CanOrderBy": true,
-      "Name": "Runte-Volkman",
-      "CanRestrictBy": true,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Dicki-Ankunding",
+      "DisplayName": "Goldner Inc and Sons",
+      "DisplayTooltip": "maiores",
+      "DisplayType": "autem",
+      "CanOrderBy": false,
+      "Name": "Altenwerth-Koelpin",
+      "CanRestrictBy": false,
+      "RestrictionType": "hic",
+      "RestrictionListName": "Gottlieb-Funk",
       "IsVisible": false,
-      "ExtraInfo": "quibusdam",
-      "Width": "architecto",
-      "IconHint": "veniam",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "saepe",
+      "Width": "nihil",
+      "IconHint": "ea",
+      "HeadingIconHint": "numquam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Spinka LLC",
-      "PrimaryKey": 991,
+      "EntityName": "O'Keefe-Vandervort",
+      "PrimaryKey": 760,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quidem",
-          "TooltipHint": "eveniet",
-          "LinkHint": "architecto"
+          "DisplayValue": "mollitia",
+          "TooltipHint": "tempore",
+          "LinkHint": "atque"
         }
       },
-      "LinkHint": "cumque",
-      "StyleHint": "corrupti",
+      "LinkHint": "id",
+      "StyleHint": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 664
+          "FieldLength": 968
         }
       }
     }
   ],
-  "RowCount": 986,
+  "RowCount": 443,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldLength": 737
     }
   }
 }

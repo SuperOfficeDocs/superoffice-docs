@@ -9,7 +9,7 @@ items:
   href: 9.2/toc.yml
 - name: "9.1"
   href: 9.1/toc.yml
-- name: Database changes
+- name: Changes
   href: database/index.md
   items:
   - name: Whats new in 10.1.5

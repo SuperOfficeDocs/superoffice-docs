@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: project
 so.topic: reference
-so.audience: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -22,6 +23,6 @@ The statuses displayed in the list depend of the [project type][1]. You can sele
 
 <!-- Referenced links -->
 [1]: project-type-admin.md
-[2]: ../admin/add-status.md
+[2]: ../../settings/lists/project-status.md
 
 <!-- Referenced images -->

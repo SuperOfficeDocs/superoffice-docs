@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetAppointment
 
 Gets a Appointment object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=16
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=128
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -106,7 +114,7 @@ Response body:
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,61 +124,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 262,
-  "StartDate": "2019-06-10T11:10:25.5435243+02:00",
-  "EndDate": "2008-04-06T11:10:25.5435243+02:00",
+  "AppointmentId": 84,
+  "StartDate": "2000-04-18T02:49:43.3253689+02:00",
+  "EndDate": "2022-05-07T02:49:43.3253689+02:00",
   "Type": "BookingForChecklist",
-  "Task": "pariatur",
-  "AssociateFullName": "Miss Johathan Kuhlman",
-  "ContactName": "Nicolas LLC",
-  "Description": "Proactive non-volatile instruction set",
-  "PersonFullName": "Etha Greenholt",
-  "PersonId": 197,
-  "ContactId": 31,
-  "ProjectId": 126,
-  "ProjectName": "Brekke, Lind and Mertz",
+  "Task": "enim",
+  "AssociateFullName": "Garfield Heaney",
+  "ContactName": "Hartmann, Wilderman and Pfeffer",
+  "Description": "Progressive didactic concept",
+  "PersonFullName": "Velma Halvorson",
+  "PersonId": 570,
+  "ContactId": 272,
+  "ProjectId": 282,
+  "ProjectName": "Runolfsdottir-Ward",
   "IsPublished": false,
-  "AssociateId": 628,
-  "ColorIndex": 269,
+  "AssociateId": 202,
+  "ColorIndex": 976,
   "IsFree": false,
-  "HasAlarm": true,
+  "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 910,
-  "PriorityName": "Stehr, O'Reilly and Klein",
+  "PriorityId": 944,
+  "PriorityName": "Howe-Mayert",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "1998-12-02T11:10:25.5445238+01:00",
+  "IsBooking": false,
+  "ActiveDate": "2009-03-11T02:49:43.3253689+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2008-05-13T11:10:25.5445238+02:00",
-  "RecurringEndDate": "2015-01-18T11:10:25.5445238+01:00",
-  "MotherId": 23,
-  "AssignedBy": 311,
-  "AssignedByFullName": "Katrina Kunde",
+  "RecurringStartDate": "2004-01-23T02:49:43.3253689+01:00",
+  "RecurringEndDate": "2014-11-19T02:49:43.3253689+01:00",
+  "MotherId": 340,
+  "AssignedBy": 478,
+  "AssignedByFullName": "Aurore Dicki",
   "RejectReason": "",
-  "Location": "ratione",
-  "AlarmLeadTime": "eos",
-  "SaleId": 138,
-  "SaleName": "Gottlieb Group",
-  "AssociateName": "Hudson Inc and Sons",
-  "CreatedDate": "2001-11-24T11:10:25.5445238+01:00",
-  "CreatedBy": "quia",
-  "CreatedByFullName": "Kaitlin Padberg",
-  "CreatedByAssociateId": 964,
+  "Location": "repellat",
+  "AlarmLeadTime": "ullam",
+  "SaleId": 184,
+  "SaleName": "Lehner-Hamill",
+  "AssociateName": "Hettinger-Blick",
+  "CreatedDate": "2006-03-13T02:49:43.3253689+01:00",
+  "CreatedBy": "sunt",
+  "CreatedByFullName": "Mrs. Myrl Bergstrom II",
+  "CreatedByAssociateId": 861,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldType": "System.String",
+      "FieldLength": 995
     }
   }
 }

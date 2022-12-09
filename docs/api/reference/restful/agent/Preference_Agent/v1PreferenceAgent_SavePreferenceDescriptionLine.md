@@ -11,6 +11,13 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 
 Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescriptionLine if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescri
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The PreferenceDescriptionLine to be saved.
+The PreferenceDescriptionLine to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The PreferenceDescriptionLine to be saved.
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 901,
-  "PrefDescId": 611,
-  "PrefValue": "sit",
-  "PrefShowValue": "cumque",
-  "Description": "Centralized responsive instruction set",
-  "IsBuiltin": true
+  "PrefDescLineId": 728,
+  "PrefDescId": 417,
+  "PrefValue": "sequi",
+  "PrefShowValue": "harum",
+  "Description": "Fundamental dedicated open system",
+  "IsBuiltin": false
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 776,
-  "PrefDescId": 532,
-  "PrefValue": "cupiditate",
-  "PrefShowValue": "officia",
-  "Description": "Exclusive heuristic core",
+  "PrefDescLineId": 71,
+  "PrefDescId": 677,
+  "PrefValue": "iure",
+  "PrefShowValue": "non",
+  "Description": "Right-sized uniform firmware",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldLength": 810
     }
   }
 }

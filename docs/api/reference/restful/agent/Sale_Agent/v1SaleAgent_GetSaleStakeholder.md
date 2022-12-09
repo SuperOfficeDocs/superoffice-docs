@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSaleStakeholder
 
 Gets a SaleStakeholder object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=827
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=605
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,31 +94,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Schimmel LLC",
-  "Comment": "facilis",
-  "StakeholderRoleId": 934,
-  "CountryId": 334,
-  "PersonId": 511,
-  "EmailDescription": "dorothea.simonis@hermann.us",
-  "EmailId": 658,
-  "EmailAddress": "chloe.bashirian@heller.uk",
-  "PhoneId": 417,
-  "ContactName": "Heaney Group",
-  "ContactId": 980,
-  "SaleId": 120,
+  "StakeholderRoleName": "Bergstrom Inc and Sons",
+  "Comment": "dolorem",
+  "StakeholderRoleId": 429,
+  "CountryId": 751,
+  "PersonId": 825,
+  "EmailDescription": "leonie@kingmcclure.uk",
+  "EmailId": 733,
+  "EmailAddress": "lera_lemke@kshlerinprice.name",
+  "PhoneId": 901,
+  "ContactName": "Erdman-Crist",
+  "ContactId": 891,
+  "SaleId": 723,
   "Mrmrs": "consequatur",
-  "Firstname": "Viviane",
-  "MiddleName": "Upton-Nolan",
-  "Lastname": "Runte",
-  "SaleStakeholderId": 505,
-  "Rank": 421,
-  "Phone": "(397)604-5794 x729",
+  "Firstname": "Katelin",
+  "MiddleName": "Sipes LLC",
+  "Lastname": "Bednar",
+  "SaleStakeholderId": 766,
+  "Rank": 135,
+  "Phone": "765.211.3506",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 485
+      "FieldLength": 676
     }
   }
 }

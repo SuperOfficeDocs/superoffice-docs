@@ -11,11 +11,18 @@ PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 
 Saves headings for the ProductType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Barton-O'Hara",
-    "ToolTip": "Beatae qui sunt atque aut.",
+    "Id": 947,
+    "Name": "Pfannerstill-O'Hara",
+    "ToolTip": "Ea et placeat voluptas.",
     "Deleted": false,
-    "Rank": 911,
-    "Type": "doloremque",
-    "ColorBlock": 753,
-    "IconHint": "beatae",
+    "Rank": 39,
+    "Type": "sit",
+    "ColorBlock": 720,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2013-08-17T11:10:54.4569025+02:00",
+    "LastChanged": "1997-08-05T02:49:52.3909486+02:00",
     "ChildItems": [
       {
-        "Id": 692,
-        "Name": "Gorczany-Mitchell",
-        "ToolTip": "Distinctio nemo quibusdam natus id totam.",
+        "Id": 593,
+        "Name": "Harris, Kling and Davis",
+        "ToolTip": "Voluptates accusantium blanditiis ad a dicta.",
         "Deleted": false,
-        "Rank": 744,
-        "Type": "quisquam",
-        "ColorBlock": 872,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2009-07-29T11:10:54.4569025+02:00",
+        "Rank": 221,
+        "Type": "aspernatur",
+        "ColorBlock": 177,
+        "IconHint": "vitae",
+        "Selected": true,
+        "LastChanged": "2001-05-25T02:49:52.3909486+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Mr. Trenton Konopelski"
+        "ExtraInfo": "vel",
+        "StyleHint": "ab",
+        "Hidden": false,
+        "FullName": "Prof. Eldon Stokes PhD"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "fuga",
+    "StyleHint": "necessitatibus",
     "Hidden": true,
-    "FullName": "Jo Orn"
+    "FullName": "Eda Howell"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 336,
-    "Name": "Kerluke Inc and Sons",
-    "ToolTip": "Quia modi labore quidem ut cumque et voluptatem.",
+    "Id": 460,
+    "Name": "Nader, Wyman and Kemmer",
+    "ToolTip": "Illo non minus dolor voluptatem sint suscipit est.",
     "Deleted": false,
-    "Rank": 45,
-    "Type": "aut",
-    "ColorBlock": 4,
-    "IconHint": "voluptatem",
+    "Rank": 250,
+    "Type": "voluptate",
+    "ColorBlock": 166,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "1995-08-22T11:10:54.4579022+02:00",
+    "LastChanged": "2018-08-07T02:49:52.3909486+02:00",
     "ChildItems": [
       {
-        "Id": 219,
-        "Name": "Wyman Group",
-        "ToolTip": "Qui occaecati esse ipsa veniam.",
+        "Id": 774,
+        "Name": "Donnelly Inc and Sons",
+        "ToolTip": "Dolores dolores.",
         "Deleted": false,
-        "Rank": 567,
-        "Type": "facere",
-        "ColorBlock": 319,
-        "IconHint": "vel",
+        "Rank": 94,
+        "Type": "eaque",
+        "ColorBlock": 965,
+        "IconHint": "quam",
         "Selected": true,
-        "LastChanged": "2013-12-07T11:10:54.4579022+01:00",
+        "LastChanged": "2005-12-03T02:49:52.3909486+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "porro",
+        "ExtraInfo": "quia",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Otho Ward",
+        "FullName": "Matilde Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 440
+            "FieldLength": 343
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "labore",
-    "Hidden": false,
-    "FullName": "Ms. Amari Samir Jenkins Jr.",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "odio",
+    "Hidden": true,
+    "FullName": "Miss Trudie Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldType": "System.String",
+        "FieldLength": 161
       }
     }
   }

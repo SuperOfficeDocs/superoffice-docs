@@ -11,7 +11,14 @@ POST /api/v1/Agents/Preference/CreateDefaultPreference
 
 Set default values into a new Preference.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +66,7 @@ Response body:
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,22 +77,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "molestiae",
+  "RawValue": "quis",
   "Specification": null,
-  "DisplayValue": "expedita",
-  "DisplayTooltip": "qui",
+  "DisplayValue": "doloribus",
+  "DisplayTooltip": "at",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 158,
-  "PrefDescId": 632,
-  "TableName": "Friesen-Lynch",
-  "UserPreferenceId": 828,
+  "TargetId": 924,
+  "PrefDescId": 627,
+  "TableName": "Jacobi Inc and Sons",
+  "UserPreferenceId": 399,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 556
     }
   }
 }

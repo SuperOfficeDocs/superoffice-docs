@@ -11,6 +11,13 @@ GET /api/v1/List/SaleType/Items/Default
 
 Gets a default SaleTypeEntity list item.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,7 +31,8 @@ Gets a default SaleTypeEntity list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -32,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +75,7 @@ Response body:
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,53 +85,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 533,
-  "Name": "Leffler-Stamm",
-  "Tooltip": "laboriosam",
-  "Rank": 688,
+  "SaleTypeId": 784,
+  "Name": "Raynor-Roob",
+  "Tooltip": "et",
+  "Rank": 487,
   "DurationUnit": "Century",
-  "SaleDuration": 914,
-  "SaleTypeCatId": 345,
-  "Deleted": false,
+  "SaleDuration": 610,
+  "SaleTypeCatId": 179,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 154,
-  "QuoteLinesTemplate": 248,
-  "ConfirmationLinesTemplate": 40,
+  "DefaultQuoteValidity": 847,
+  "QuoteLinesTemplate": 211,
+  "ConfirmationLinesTemplate": 819,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 838,
-  "MinEarningPercent": 162,
-  "GroupQuoteLinesBy": 857,
-  "SortGroupLinesBy": 670,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 9,
+  "MinEarningPercent": 305,
+  "GroupQuoteLinesBy": 664,
+  "SortGroupLinesBy": 192,
   "Stages": [
     {
-      "Id": 9,
-      "Name": "Jenkins, Bauch and Swaniawski",
-      "ToolTip": "Expedita voluptatem iure nihil vel vero rerum non.",
-      "Deleted": true,
-      "Rank": 288,
-      "Type": "qui",
-      "ColorBlock": 286,
-      "IconHint": "velit",
-      "Selected": false,
-      "LastChanged": "2008-10-04T11:10:54.5989349+02:00",
+      "Id": 697,
+      "Name": "Leannon-Padberg",
+      "ToolTip": "Quia error eum.",
+      "Deleted": false,
+      "Rank": 281,
+      "Type": "amet",
+      "ColorBlock": 845,
+      "IconHint": "similique",
+      "Selected": true,
+      "LastChanged": "2000-11-06T02:49:52.5003264+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "ut",
-      "Hidden": true,
-      "FullName": "Allie Macejkovic",
+      "ExtraInfo": "nam",
+      "StyleHint": "consequatur",
+      "Hidden": false,
+      "FullName": "Braxton Dare",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldLength": 610
         }
       }
     }
@@ -132,8 +140,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 133
     }
   }
 }

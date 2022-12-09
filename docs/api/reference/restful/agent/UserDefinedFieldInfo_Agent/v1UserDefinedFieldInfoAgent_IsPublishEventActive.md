@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/IsPublishEventActive
 
 Check if the publish event is active for the given type
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check if the publish event is active for the given type
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/IsPublishEventActive?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/UserDefinedFieldInfo/IsPublishEventActive?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type
+Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
+
 
 ## Response: bool
 
@@ -53,13 +61,14 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/IsPublishEventActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -73,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

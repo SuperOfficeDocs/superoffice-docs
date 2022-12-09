@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/FindCredentialUsers
 
 Find users matching the partial name.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Find users matching the partial name.
 ```http
 POST /api/v1/Agents/User/FindCredentialUsers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,17 @@ POST /api/v1/Agents/User/FindCredentialUsers?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type, SearchString
+Type, SearchString 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 | SearchString | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,12 +79,12 @@ Response body:
 POST /api/v1/Agents/User/FindCredentialUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quo",
-  "SearchString": "et"
+  "Type": "quisquam",
+  "SearchString": "aut"
 }
 ```
 
@@ -86,15 +96,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "distinctio",
-    "ea"
+    "et",
+    "delectus"
   ],
   "Users": [
     {
-      "Value": "aut",
-      "DisplayValue": "totam",
+      "Value": "qui",
+      "DisplayValue": "est",
       "Columns": [
-        "ut",
+        "consequatur",
         "voluptatem"
       ],
       "CanCreatePerson": false,
@@ -102,16 +112,16 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 483
+          "FieldType": "System.String",
+          "FieldLength": 352
         }
       }
     },
     {
-      "Value": "aut",
-      "DisplayValue": "totam",
+      "Value": "qui",
+      "DisplayValue": "est",
       "Columns": [
-        "ut",
+        "consequatur",
         "voluptatem"
       ],
       "CanCreatePerson": false,
@@ -119,8 +129,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 483
+          "FieldType": "System.String",
+          "FieldLength": 352
         }
       }
     }
@@ -130,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldLength": 967
     }
   }
 }

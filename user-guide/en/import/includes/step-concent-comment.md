@@ -5,4 +5,4 @@
 
 <!-- Referenced links -->
 [1]: ../configure-import-settings.md
-[3]: ../../person/gdpr/index.md
+[3]: ../../gdpr/privacy.md

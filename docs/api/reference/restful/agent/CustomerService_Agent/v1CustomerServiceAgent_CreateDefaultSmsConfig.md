@@ -11,7 +11,14 @@ POST /api/v1/Agents/CustomerService/CreateDefaultSmsConfig
 
 Set default values into a new SmsConfig.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +59,7 @@ Response body:
 POST /api/v1/Agents/CustomerService/CreateDefaultSmsConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -62,18 +70,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "accusantium",
-  "NsPluginSender": "corporis",
+  "NetServerSmsProvider": "corrupti",
+  "NsPluginSender": "ipsam",
   "NsPluginConfig": {
-    "NsPluginConfig1": "pariatur",
-    "NsPluginConfig2": "earum"
+    "NsPluginConfig1": "exercitationem",
+    "NsPluginConfig2": "inventore"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldLength": 66
     }
   }
 }

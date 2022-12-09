@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 
 Set default values into a new HierarchyEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +65,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -67,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 639,
+  "HierarchyId": 252,
   "Domain": "Dashboards",
-  "Name": "Ortiz, Gerhold and DuBuque",
-  "Fullname": "aliquid",
-  "ParentId": 607,
+  "Name": "Hauck, Blanda and Luettgen",
+  "Fullname": "dolor",
+  "ParentId": 117,
   "Children": [
     {
-      "HierarchyId": 89,
+      "HierarchyId": 146,
       "Domain": "Dashboards",
-      "Name": "Mills-Brekke",
-      "Fullname": "voluptas",
-      "ParentId": 433,
+      "Name": "Sanford-Wisoky",
+      "Fullname": "illo",
+      "ParentId": 926,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-03-11T11:10:27.247453+01:00",
-      "RegisteredAssociateId": 843,
-      "Updated": "2016-11-07T11:10:27.247453+01:00",
-      "UpdatedAssociateId": 413,
+      "Registered": "2006-02-20T02:49:44.6860468+01:00",
+      "RegisteredAssociateId": 835,
+      "Updated": "2006-11-06T02:49:44.6860468+01:00",
+      "UpdatedAssociateId": 863,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 348
+          "FieldLength": 50
         }
       }
     }
   ],
-  "Registered": "2014-04-05T11:10:27.247453+02:00",
-  "RegisteredAssociateId": 320,
-  "Updated": "1999-12-17T11:10:27.247453+01:00",
-  "UpdatedAssociateId": 114,
+  "Registered": "2003-11-09T02:49:44.6860468+01:00",
+  "RegisteredAssociateId": 562,
+  "Updated": "2002-11-08T02:49:44.6860468+01:00",
+  "UpdatedAssociateId": 522,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 275
     }
   }
 }

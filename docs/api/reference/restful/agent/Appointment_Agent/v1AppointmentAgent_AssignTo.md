@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/AssignTo
 
 Assigning an appointment to another person.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Assigning an appointment to another person.
 ```http
 POST /api/v1/Agents/Appointment/AssignTo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Appointment/AssignTo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentId, Participant, UpdateMode
+AppointmentId, Participant, UpdateMode 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ AppointmentId, Participant, UpdateMode
 | Participant |  |  |
 | UpdateMode | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -125,7 +133,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 494,
+  "AppointmentId": 119,
   "Participant": null,
   "UpdateMode": "OnlyThis"
 }
@@ -142,122 +150,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2015-06-28T11:10:25.6085526+02:00",
-  "AppointmentId": 343,
-  "Description": "Organic discrete neural-net",
-  "StartDate": "2008-03-18T11:10:25.6085526+01:00",
-  "EndDate": "2014-12-04T11:10:25.6085526+01:00",
+  "CreatedDate": "1998-02-14T02:49:43.3879052+01:00",
+  "AppointmentId": 286,
+  "Description": "Advanced dynamic moratorium",
+  "StartDate": "2002-09-19T02:49:43.3879052+02:00",
+  "EndDate": "2015-12-09T02:49:43.3879052+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 237,
+  "MotherId": 738,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-02-08T11:10:25.6115534+01:00",
+  "UpdatedDate": "2014-08-11T02:49:43.3879052+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 484,
+  "ActiveLinks": 470,
   "Links": [
     {
-      "EntityName": "McClure-Rippin",
-      "Id": 230,
-      "Description": "Monitored 4th generation flexibility",
-      "ExtraInfo": "voluptas",
-      "LinkId": 566,
+      "EntityName": "Bailey, Schumm and Dare",
+      "Id": 690,
+      "Description": "Integrated 6th generation parallelism",
+      "ExtraInfo": "officiis",
+      "LinkId": 869,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 784
         }
       }
     }
   ],
-  "AlarmLeadTime": "quasi",
-  "HasAlarm": false,
-  "ColorIndex": 549,
-  "IsFree": true,
+  "AlarmLeadTime": "id",
+  "HasAlarm": true,
+  "ColorIndex": 404,
+  "IsFree": false,
   "IsAlldayEvent": false,
   "LagTime": "corrupti",
-  "LeadTime": "voluptatem",
-  "Location": "aliquam",
-  "RejectCounter": 248,
+  "LeadTime": "et",
+  "Location": "delectus",
+  "RejectCounter": 135,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 782,
-      "PersonId": 790,
-      "ContactId": 204,
-      "EmailId": 813,
-      "SendEmail": true,
+      "AssociateId": 491,
+      "PersonId": 620,
+      "ContactId": 556,
+      "EmailId": 236,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 782,
-      "PersonId": 790,
-      "ContactId": 204,
-      "EmailId": 813,
-      "SendEmail": true,
+      "AssociateId": 491,
+      "PersonId": 620,
+      "ContactId": 556,
+      "EmailId": 236,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-11-26T11:10:25.6125525+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2016-11-14T02:49:43.3879052+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 524,
+  "PreferredTZLocation": 751,
   "Sale": null,
-  "SuggestedAppointmentId": 785,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 810,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "accusantium",
+  "CentralserviceVideomeetId": "rerum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Cory Raynor",
-    "SuperOffice:2": "Mark Huel"
+    "SuperOffice:1": "Bernadette Flo Braun III",
+    "SuperOffice:2": "Isabell Johns"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "animi"
+    "ExtraFields1": "inventore",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "ipsum",
-    "CustomFields2": "quasi"
+    "CustomFields1": "quis",
+    "CustomFields2": "esse"
   },
-  "PublishEventDate": "2016-01-18T11:10:25.6135526+01:00",
-  "PublishTo": "2009-08-30T11:10:25.6135526+02:00",
-  "PublishFrom": "2022-05-06T11:10:25.6135526+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2010-04-26T02:49:43.3879052+02:00",
+  "PublishTo": "2020-08-17T02:49:43.3879052+02:00",
+  "PublishFrom": "1997-12-15T02:49:43.3879052+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 65,
+      "VisibleId": 353,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 349
+          "FieldType": "System.String",
+          "FieldLength": 986
         }
       }
     },
     {
-      "VisibleId": 65,
+      "VisibleId": 353,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 349
+          "FieldType": "System.String",
+          "FieldLength": 986
         }
       }
     }
@@ -266,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   }
 }

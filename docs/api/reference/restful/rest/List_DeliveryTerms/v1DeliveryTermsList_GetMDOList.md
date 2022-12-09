@@ -11,6 +11,12 @@ GET /api/v1/List/DeliveryTerm/MDOItems
 
 Get the MDO list items for "DeliveryTerms" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=omnis
+GET /api/v1/List/DeliveryTerm/MDOItems?query=eveniet
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/DeliveryTerm/MDOItems?query=omnis
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Name": "Lind LLC",
-    "ToolTip": "Minima vel eum fugit.",
-    "Deleted": false,
-    "Rank": 777,
-    "Type": "autem",
+    "Id": 905,
+    "Name": "Hessel, Hayes and Bartoletti",
+    "ToolTip": "Aut dignissimos ut.",
+    "Deleted": true,
+    "Rank": 745,
+    "Type": "impedit",
     "ChildItems": [
       {
-        "Id": 538,
-        "Name": "Keebler LLC",
-        "ToolTip": "Odio distinctio sunt nam tempore optio debitis.",
-        "Deleted": true,
-        "Rank": 582,
-        "Type": "pariatur",
+        "Id": 566,
+        "Name": "Waters LLC",
+        "ToolTip": "Quo dolorum tenetur nihil voluptas qui possimus.",
+        "Deleted": false,
+        "Rank": 483,
+        "Type": "enim",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 436,
-        "ExtraInfo": "inventore",
-        "StyleHint": "ullam",
-        "FullName": "Miracle Petra Waelchi V",
+        "IconHint": "consequatur",
+        "ColorBlock": 840,
+        "ExtraInfo": "at",
+        "StyleHint": "sint",
+        "FullName": "Shanel Osinski IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 435
+            "FieldType": "System.Int32",
+            "FieldLength": 981
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 506,
-    "ExtraInfo": "quia",
-    "StyleHint": "vitae",
-    "FullName": "Berenice Weissnat",
+    "IconHint": "iusto",
+    "ColorBlock": 27,
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "beatae",
+    "FullName": "Ms. Orville Mitchel Koss DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 614
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

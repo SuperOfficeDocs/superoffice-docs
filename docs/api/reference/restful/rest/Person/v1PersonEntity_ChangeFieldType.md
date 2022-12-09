@@ -11,10 +11,16 @@ POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 
 Change a PersonEntity user-defined field's type based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
 | fieldType | Enum: Number, ShortText, LongText, Date, UnlimitedDate, Checkbox, List, Decimal | The new type of the user defined field. **Required** |
+
 
 ## Query String Parameters
 
@@ -25,6 +31,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 ```http
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
+
 
 ## Request Headers
 
@@ -39,7 +46,8 @@ POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=Tr
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 PersonEntity found.
 
@@ -48,7 +56,7 @@ PersonEntity found.
 | 200 | PersonEntity found. |
 | 404 | PersonEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,46 +113,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 83,
-  "ColumnId": 275,
-  "FieldDefault": "maxime",
-  "FieldHeight": 461,
-  "FieldLabel": "occaecati",
-  "FieldLeft": 357,
-  "FieldTop": 639,
+  "UDefFieldId": 989,
+  "ColumnId": 643,
+  "FieldDefault": "quia",
+  "FieldHeight": 848,
+  "FieldLabel": "quae",
+  "FieldLeft": 36,
+  "FieldTop": 208,
   "FieldType": "Checkbox",
-  "FieldWidth": 345,
-  "FormatMask": "corporis",
+  "FieldWidth": 289,
+  "FormatMask": "molestiae",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 266,
-  "LabelLeft": 689,
-  "LabelTop": 656,
-  "LabelWidth": 911,
-  "LastVersionId": 656,
-  "ListTableId": 68,
+  "IsIndexed": true,
+  "LabelHeight": 967,
+  "LabelLeft": 741,
+  "LabelTop": 670,
+  "LabelWidth": 556,
+  "LastVersionId": 982,
+  "ListTableId": 312,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 618,
-  "ProgId": "dolores",
+  "Page1LineNo": 656,
+  "ProgId": "aut",
   "IsReadOnly": true,
-  "ShortLabel": "aut",
-  "TabOrder": 716,
-  "TextLength": 933,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 353,
-  "UDListDefinitionId": 461,
+  "ShortLabel": "ad",
+  "TabOrder": 852,
+  "TextLength": 495,
+  "Tooltip": "maxime",
+  "UdefIdentity": 636,
+  "UDListDefinitionId": 405,
   "Justification": "Center",
-  "Version": 849,
-  "TemplateVariableName": "Hickle Inc and Sons",
+  "Version": 947,
+  "TemplateVariableName": "Wisoky, Reinger and Lynch",
   "HasBeenPublished": false,
-  "MdoListName": "Pagac, Beatty and Walter",
+  "MdoListName": "Volkman, Mohr and Hauck",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldType": "System.Int32",
+      "FieldLength": 850
     }
   }
 }

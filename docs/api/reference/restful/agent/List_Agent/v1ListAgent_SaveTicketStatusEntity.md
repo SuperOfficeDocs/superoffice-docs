@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveTicketStatusEntity
 
 Updates the existing TicketStatusEntity or creates a new TicketStatusEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing TicketStatusEntity or creates a new TicketStatusEntity if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TicketStatusEntity to be saved.
+The TicketStatusEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,7 +46,8 @@ The TicketStatusEntity to be saved.
 | IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
 | UsedInQueue | bool | If set, status is used in GetNext calculations |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -47,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,13 +79,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 101,
-  "Name": "Deckow, Nikolaus and Hand",
+  "TicketStatusId": 700,
+  "Name": "Harvey LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": false,
-  "UsedInQueue": true
+  "UsedInQueue": false
 }
 ```
 
@@ -88,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 611,
-  "Name": "Willms, Anderson and Wisoky",
+  "TicketStatusId": 154,
+  "Name": "Romaguera, Schinner and Sawayn",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
   "UsedInQueue": true,
   "TableRight": null,
@@ -100,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 173
     }
   }
 }

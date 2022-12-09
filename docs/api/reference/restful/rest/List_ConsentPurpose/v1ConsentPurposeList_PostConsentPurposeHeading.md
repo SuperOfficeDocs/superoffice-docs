@@ -11,7 +11,14 @@ POST /api/v1/List/ConsentPurpose/Headings
 
 Saves a new heading for the ConsentPurpose list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,16 +75,16 @@ Response body:
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 65,
-  "Name": "Pfeffer Inc and Sons",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 716,
-  "UdListDefinitionId": 671
+  "HeadingId": 890,
+  "Name": "Hoppe, Schamberger and Walter",
+  "Tooltip": "fugiat",
+  "Deleted": true,
+  "Rank": 854,
+  "UdListDefinitionId": 192
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 668,
-  "Name": "Beahan Inc and Sons",
-  "Tooltip": "ducimus",
+  "HeadingId": 901,
+  "Name": "Welch LLC",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "Rank": 15,
-  "UdListDefinitionId": 662,
+  "Rank": 264,
+  "UdListDefinitionId": 860,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldType": "System.String",
+      "FieldLength": 778
     }
   }
 }

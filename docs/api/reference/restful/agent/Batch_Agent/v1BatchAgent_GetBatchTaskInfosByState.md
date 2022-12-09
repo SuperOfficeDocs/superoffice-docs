@@ -9,7 +9,13 @@ uid: v1BatchAgent_GetBatchTaskInfosByState
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 ```
 
-Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
+Gets an array of user BatchTaskInfo with state defined by a BatchTaskState.
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,6 +26,7 @@ Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByState?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-State
+State 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | State | string |  |
+
 
 ## Response: array
 
@@ -85,7 +93,7 @@ Response body: array
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,36 +109,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Lindgren-Moen",
-    "AssociateId": 595,
-    "DetailsTable": 435,
-    "DetailsRecord": 988,
+    "Id": 795,
+    "Name": "Christiansen, Hane and Grant",
+    "AssociateId": 198,
+    "DetailsTable": 169,
+    "DetailsRecord": 82,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "rem",
-      "ParameterObject2": "eos"
+      "ParameterObject1": "nihil",
+      "ParameterObject2": "at"
     },
-    "LastStarted": "2000-06-23T11:10:26.0185529+02:00",
-    "Created": "2004-10-20T11:10:26.0185529+02:00",
-    "StartCount": 473,
-    "DatabaseSerialNumber": "1698706",
-    "Context": "eaque",
-    "Result": "officiis",
+    "LastStarted": "2014-10-29T02:49:43.7004017+01:00",
+    "Created": "1996-01-16T02:49:43.7004017+01:00",
+    "StartCount": 796,
+    "DatabaseSerialNumber": "821767",
+    "Context": "deleniti",
+    "Result": "est",
     "State": "All",
-    "Description": "Multi-lateral bifurcated projection",
-    "Response": "fugit",
-    "Request": "sapiente",
-    "ProgressDescription": "Triple-buffered 5th generation methodology",
-    "ProgressPercent": 343,
-    "FileName": "Stamm, Runte and Prohaska",
+    "Description": "Synergized bottom-line Graphic Interface",
+    "Response": "maxime",
+    "Request": "molestiae",
+    "ProgressDescription": "Operative bifurcated forecast",
+    "ProgressPercent": 18,
+    "FileName": "Bernier-Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 134
       }
     }
   }

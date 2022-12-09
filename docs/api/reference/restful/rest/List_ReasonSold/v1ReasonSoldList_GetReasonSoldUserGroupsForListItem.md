@@ -11,11 +11,18 @@ GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ReasonSold list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Conn, Boyle and Heller",
-    "ToolTip": "Excepturi dolores possimus.",
+    "Id": 499,
+    "Name": "Armstrong-Erdman",
+    "ToolTip": "Earum excepturi quia eos sit dolor.",
     "Deleted": false,
-    "Rank": 737,
-    "Type": "voluptatem",
-    "ColorBlock": 126,
-    "IconHint": "harum",
+    "Rank": 713,
+    "Type": "quas",
+    "ColorBlock": 438,
+    "IconHint": "asperiores",
     "Selected": true,
-    "LastChanged": "1996-10-17T11:10:54.5669374+02:00",
+    "LastChanged": "2018-02-24T02:49:52.4846993+01:00",
     "ChildItems": [
       {
-        "Id": 595,
-        "Name": "Strosin LLC",
-        "ToolTip": "Facilis ea sed minima.",
-        "Deleted": true,
-        "Rank": 426,
-        "Type": "illum",
-        "ColorBlock": 653,
-        "IconHint": "sint",
+        "Id": 996,
+        "Name": "Kiehn LLC",
+        "ToolTip": "Quis quia ut voluptas.",
+        "Deleted": false,
+        "Rank": 515,
+        "Type": "est",
+        "ColorBlock": 476,
+        "IconHint": "exercitationem",
         "Selected": true,
-        "LastChanged": "2012-06-01T11:10:54.5669374+02:00",
+        "LastChanged": "2003-03-30T02:49:52.4846993+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "ea",
-        "Hidden": true,
-        "FullName": "Elwin Kassulke",
+        "ExtraInfo": "est",
+        "StyleHint": "hic",
+        "Hidden": false,
+        "FullName": "Mr. Dandre Toy Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 425
+            "FieldLength": 228
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "repudiandae",
-    "Hidden": true,
-    "FullName": "Tad Jakubowski",
+    "ExtraInfo": "amet",
+    "StyleHint": "iste",
+    "Hidden": false,
+    "FullName": "Lilla Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 169
+        "FieldType": "System.Int32",
+        "FieldLength": 790
       }
     }
   }

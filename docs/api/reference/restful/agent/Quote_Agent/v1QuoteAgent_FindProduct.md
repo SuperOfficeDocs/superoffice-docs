@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/FindProduct
 
 Gets a product, from the ProductProvider
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a product, from the ProductProvider
 ```http
 POST /api/v1/Agents/Quote/FindProduct?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/FindProduct?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteAlternativeId, UserInput, PriceListKey
+QuoteAlternativeId, UserInput, PriceListKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteAlternativeId | int32 |  |
 | UserInput | string |  |
 | PriceListKey | string |  |
+
 
 ## Response: array
 
@@ -73,7 +81,7 @@ Response body: array
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -100,13 +108,13 @@ Response body: array
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 509,
-  "UserInput": "enim",
-  "PriceListKey": "minus"
+  "QuoteAlternativeId": 851,
+  "UserInput": "iure",
+  "PriceListKey": "fugit"
 }
 ```
 
@@ -118,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 878,
-    "ERPProductKey": "harum",
-    "ERPPriceListKey": "qui",
-    "Name": "Cummings-DuBuque",
-    "Description": "Networked 24/7 archive",
-    "Code": "possimus",
-    "PriceUnit": "minus",
-    "QuantityUnit": "vel",
+    "ProductId": 387,
+    "ERPProductKey": "amet",
+    "ERPPriceListKey": "eligendi",
+    "Name": "Cronin Group",
+    "Description": "Multi-lateral heuristic throughput",
+    "Code": "quis",
+    "PriceUnit": "enim",
+    "QuantityUnit": "et",
     "IsSubscription": false,
-    "SubscriptionUnit": "aut",
-    "DefaultSubscriptionQuantity": 3547.688,
-    "ItemNumber": "996138",
+    "SubscriptionUnit": "sint",
+    "DefaultSubscriptionQuantity": 29309.167999999998,
+    "ItemNumber": "981421",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "voluptatum",
-    "ProductTypeKey": "deleniti",
-    "VAT": 6108.166,
-    "VATInfo": "fuga",
-    "UnitCost": 11830.85,
-    "UnitMinimumPrice": 6393.36,
-    "UnitListPrice": 15438.083999999999,
-    "InAssortment": true,
-    "Supplier": "voluptatem",
-    "SupplierCode": "ipsum",
-    "Rights": "similique",
-    "Rule": "odio",
+    "ProductFamilyKey": "et",
+    "ProductTypeKey": "vitae",
+    "VAT": 10699.475999999999,
+    "VATInfo": "odio",
+    "UnitCost": 12144.25,
+    "UnitMinimumPrice": 9627.648,
+    "UnitListPrice": 12651.957999999999,
+    "InAssortment": false,
+    "Supplier": "dicta",
+    "SupplierCode": "accusantium",
+    "Rights": "ullam",
+    "Rule": "perferendis",
     "ExtraInfo": [
       {
-        "Name": "Brown-Kuphal",
-        "Value": "nisi",
+        "Name": "Daugherty-Dicki",
+        "Value": "autem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 506
+            "FieldType": "System.String",
+            "FieldLength": 947
           }
         }
       },
       {
-        "Name": "Brown-Kuphal",
-        "Value": "nisi",
+        "Name": "Daugherty-Dicki",
+        "Value": "autem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 506
+            "FieldType": "System.String",
+            "FieldLength": 947
           }
         }
       }
     ],
-    "RawExtraInfo": "distinctio",
-    "ExtraField1": "aspernatur",
-    "ExtraField2": "aut",
-    "ExtraField3": "debitis",
-    "ExtraField4": "qui",
-    "ExtraField5": "et",
-    "InStock": 28325.092,
+    "RawExtraInfo": "enim",
+    "ExtraField1": "placeat",
+    "ExtraField2": "enim",
+    "ExtraField3": "provident",
+    "ExtraField4": "illo",
+    "ExtraField5": "eum",
+    "InStock": 855.582,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 126
       }
     }
   }

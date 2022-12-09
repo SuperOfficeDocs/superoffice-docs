@@ -36,7 +36,7 @@ A request handler with category administration rights can specify the assignment
 
 ## Example
 
-An example will clarify this feature. Imagine that your company has created a category for each department in the company: User support, Sales, Accounts, etc. And you have also specified that all e-mails sent to support@company.com should be automatically assigned to the "User support" category. All the staff in the user support department are members of this category. For this category they have set the **Even assignment** rule. This means that all the members of the category will get the same number of requests, and each of the members will continuously receive new requests in their **Own open requests** screen. If, alternatively, they had selected the **Do not assign** rule, the members would have had to go into the **Unassigned requests** screen themselves to [take ownership of new requests][4].
+Imagine that your company has created a category for each department in the company: User support, Sales, Accounts, and so on. And you have also specified that all emails sent to support@company.com should be automatically assigned to the "User support" category. All the staff in the user support department are members of this category. For this category they have set the **Even assignment** rule. This means that all the members of the category will get the same number of requests, and each of the members will continuously receive new requests in their **Own open requests** screen. If, alternatively, they had selected the **Do not assign** rule, the members would have had to go into the **Unassigned requests** screen themselves to [take ownership of new requests][4].
 
 ## What would you like to do now?
 

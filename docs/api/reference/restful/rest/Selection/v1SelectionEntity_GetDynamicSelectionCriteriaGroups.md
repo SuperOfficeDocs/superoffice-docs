@@ -11,11 +11,18 @@ GET /api/v1/Selection/{selectionId}/CriteriaGroups
 
 Get the criteria for this dynamic selection.
 
+
 This call supports multiple criteria groups.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The id of the selection to add members **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ This call supports multiple criteria groups.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -53,7 +61,7 @@ Response body: array
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -64,58 +72,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "DuBuque-Rodriguez",
-    "Description": "Optimized static parallelism",
-    "Rank": 939,
+    "Name": "Oberbrunner-Sipes",
+    "Description": "Re-engineered analyzing database",
+    "Rank": 692,
     "Restrictions": [
       {
-        "Name": "Lang-Ziemann",
-        "Operator": "eos",
+        "Name": "Satterfield, Smith and Deckow",
+        "Operator": "et",
         "Values": [
           "sint",
-          "voluptatem"
+          "sapiente"
         ],
         "DisplayValues": [
-          "consequuntur",
-          "assumenda"
+          "sapiente",
+          "ea"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 829,
+        "InterParenthesis": 492,
         "InterOperator": "And",
-        "UniqueHash": 319
+        "UniqueHash": 987
       }
     ]
   },
   {
-    "Name": "DuBuque-Rodriguez",
-    "Description": "Optimized static parallelism",
-    "Rank": 939,
+    "Name": "Oberbrunner-Sipes",
+    "Description": "Re-engineered analyzing database",
+    "Rank": 692,
     "Restrictions": [
       {
-        "Name": "Lang-Ziemann",
-        "Operator": "eos",
+        "Name": "Satterfield, Smith and Deckow",
+        "Operator": "et",
         "Values": [
           "sint",
-          "voluptatem"
+          "sapiente"
         ],
         "DisplayValues": [
-          "consequuntur",
-          "assumenda"
+          "sapiente",
+          "ea"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 829,
+        "InterParenthesis": 492,
         "InterOperator": "And",
-        "UniqueHash": 319
+        "UniqueHash": 987
       }
     ]
   }

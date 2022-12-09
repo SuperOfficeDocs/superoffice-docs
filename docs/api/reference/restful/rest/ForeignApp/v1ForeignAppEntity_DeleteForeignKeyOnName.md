@@ -11,7 +11,12 @@ DELETE /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/
 
 Deletes all specified occurrences of a key, belonging to the ForeignApp and ForeignDevice, table and record specified.
 
+
 Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
@@ -22,6 +27,8 @@ Specifying a blank table name will delete ALL keys of the given name; specifying
 | tableName | string | Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to delete ALL keys that otherwise match; this may be dangerous and can take a long time if there are many items to delete. **Required** |
 | recordId | int32 | Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.&lt;p/&gt;Specifying a zero recordId will remove the recordId restriction and delete all keys that otherwise match. **Required** |
 
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -31,7 +38,8 @@ Specifying a blank table name will delete ALL keys of the given name; specifying
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -39,7 +47,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -47,7 +56,7 @@ Response body:
 DELETE /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

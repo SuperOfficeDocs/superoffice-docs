@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 
 Set default values into a new SaleTypeEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +77,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 578,
-  "Name": "Goyette Group",
-  "Tooltip": "harum",
-  "Rank": 952,
+  "SaleTypeId": 195,
+  "Name": "Haley-Osinski",
+  "Tooltip": "qui",
+  "Rank": 290,
   "DurationUnit": "Century",
-  "SaleDuration": 46,
-  "SaleTypeCatId": 822,
+  "SaleDuration": 272,
+  "SaleTypeCatId": 708,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 18,
-  "QuoteLinesTemplate": 388,
-  "ConfirmationLinesTemplate": 952,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 293,
+  "QuoteLinesTemplate": 163,
+  "ConfirmationLinesTemplate": 131,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 973,
-  "MinEarningPercent": 725,
-  "GroupQuoteLinesBy": 793,
-  "SortGroupLinesBy": 969,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 482,
+  "MinEarningPercent": 728,
+  "GroupQuoteLinesBy": 838,
+  "SortGroupLinesBy": 883,
   "Stages": [
     {
-      "Id": 912,
-      "Name": "Mertz-Kassulke",
-      "ToolTip": "Blanditiis et quae fuga debitis ut rem nemo.",
-      "Deleted": true,
-      "Rank": 351,
-      "Type": "quia",
-      "ColorBlock": 399,
-      "IconHint": "quo",
-      "Selected": false,
-      "LastChanged": "1999-12-03T11:10:27.2564525+01:00",
+      "Id": 864,
+      "Name": "Wintheiser-Wilderman",
+      "ToolTip": "Veniam quae.",
+      "Deleted": false,
+      "Rank": 902,
+      "Type": "inventore",
+      "ColorBlock": 813,
+      "IconHint": "ea",
+      "Selected": true,
+      "LastChanged": "2015-06-16T02:49:44.6860468+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "sed",
+      "ExtraInfo": "est",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Reuben Lubowitz",
+      "FullName": "Mr. Ona Flatley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 875
+          "FieldLength": 306
         }
       }
     }
@@ -134,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldType": "System.String",
+      "FieldLength": 73
     }
   }
 }

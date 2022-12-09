@@ -11,7 +11,7 @@ language: en
 
 # Work with reply templates
 
-A reply template can for instance be a specific layout to implement on replies, or a ready-made text that can be pasted into a message you are writing to a customer. It can also include an attachment, which will then be added to the message. Before you send the reply to the customer, you can edit the text and add or remove attachments. In other words, a reply template provides the basis for a customised response to a customer. Using reply templates saves time, and they can be tailored to the precise situation.
+A reply template can for instance be a specific layout to implement on replies, or a ready-made text that can be pasted into a message you are writing to a customer. It can also include an attachment, which will then be added to the message. Before you send the reply to the customer, you can edit the text and add or remove attachments. In other words, a reply template provides the basis for a customized response to a customer. Using reply templates saves time, and they can be tailored to the precise situation.
 
 ## What is the difference between an FAQ entry and a reply template?
 

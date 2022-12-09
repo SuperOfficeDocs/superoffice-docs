@@ -12,39 +12,35 @@ language: en
 # Configure video meetings
 
 > [!NOTE]
-> To be able to send and receive email invitations to video meetings (to/from external users), you must have configured your email setup in SuperOffice CRM (user client) or use SuperOffice Mail Link. See [Email setup for video meetings][2].
+> To send and receive email invitations to video meetings (to/from external users), you must have configured your email setup in SuperOffice CRM (user client) or use SuperOffice Mail Link. See [Email setup for video meetings][2].
 
-To select and configure outgoing video meetings:
+## Select and configure outgoing video meetings
 
 1. [!include[Open preferences](../includes/open-preferences.md)]
 
 2. Select the **Video meetings** tab.
 
-3. Click the **Configure** button. A new browser tab opens.
+3. Click the **Configure** button.
 
     > [!NOTE]
-    > If a service provider has already been selected, you need to click **Disconnect** before selecting a new one.
+    > If a service provider has already been selected, click **Disconnect** before selecting a new one.
 
-4. Select the service provider your company uses for video meetings. A new tab opens.
+4. In the new browser tab, select the service provider your company uses for video meetings.
 
-5. You will be forwarded to the service provider's authentication portal. Here you must do the following:
+5. You are forwarded to the service provider's authentication portal. Do the following:
 
     * [Authenticate and validate your user][1].
     * Confirm that the service provider is allowed to connect to SuperOffice.
 
 6. When you have completed the step above, you are redirected back to the **Video meetings** screen.
 
-7. Verify that the configuration has been set up correctly. Under **Set configurations** you should now see the name of the selected service provider and your user name.
+7. Verify that the configuration is set up correctly. Under **Set configurations** you should now see the name of the selected service provider and your user name.
 
-8. Depending on the service provider you have selected, there may be additional settings to configure here. Edit the settings as necessary and click **Save**.
+8. Depending on the service provider you selected, there may be additional settings to configure here. Edit the settings as necessary and click **Save**.
 
 9. You can now close the browser tab and return to SuperOffice Settings and maintenance.
 
-If you want to select another provider or change the configuration, click **Configure**.
-
-## Related topics
-
-* [Video Meetings for SuperOffice][1]
+To select another provider or change the configuration, click **Configure**.
 
 <!-- Referenced links -->
 [1]: ../../../../../docs/video-meeting/index.md

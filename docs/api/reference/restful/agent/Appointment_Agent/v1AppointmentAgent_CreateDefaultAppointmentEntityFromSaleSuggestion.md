@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 
 Creates an appointment based on a suggested appointment.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates an appointment based on a suggested appointment.
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SuggestedAppointmentId, SaleId, CreateNow, OwnerId
+SuggestedAppointmentId, SaleId, CreateNow, OwnerId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ SuggestedAppointmentId, SaleId, CreateNow, OwnerId
 | CreateNow | bool |  |
 | OwnerId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -122,14 +130,14 @@ Response body:
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 120,
-  "SaleId": 797,
-  "CreateNow": false,
-  "OwnerId": 192
+  "SuggestedAppointmentId": 77,
+  "SaleId": 884,
+  "CreateNow": true,
+  "OwnerId": 455
 }
 ```
 
@@ -144,122 +152,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-04-24T11:10:25.6695528+02:00",
-  "AppointmentId": 879,
-  "Description": "Integrated interactive neural-net",
-  "StartDate": "2019-11-05T11:10:25.6695528+01:00",
-  "EndDate": "2009-06-24T11:10:25.6695528+02:00",
+  "CreatedDate": "2005-05-10T02:49:43.4347793+02:00",
+  "AppointmentId": 837,
+  "Description": "Vision-oriented foreground Graphic Interface",
+  "StartDate": "2022-08-26T02:49:43.4347793+02:00",
+  "EndDate": "1999-01-11T02:49:43.4347793+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 817,
+  "MotherId": 960,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-06-22T11:10:25.67256+02:00",
+  "UpdatedDate": "2017-07-16T02:49:43.4347793+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 276,
+  "ActiveLinks": 698,
   "Links": [
     {
-      "EntityName": "McGlynn Group",
-      "Id": 723,
-      "Description": "Reactive non-volatile customer loyalty",
-      "ExtraInfo": "eum",
-      "LinkId": 415,
+      "EntityName": "Mohr, Boyle and Bosco",
+      "Id": 905,
+      "Description": "Expanded tangible core",
+      "ExtraInfo": "iure",
+      "LinkId": 280,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 50
         }
       }
     }
   ],
-  "AlarmLeadTime": "doloribus",
-  "HasAlarm": true,
-  "ColorIndex": 614,
+  "AlarmLeadTime": "est",
+  "HasAlarm": false,
+  "ColorIndex": 557,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "praesentium",
-  "LeadTime": "quaerat",
-  "Location": "sapiente",
-  "RejectCounter": 756,
+  "LagTime": "totam",
+  "LeadTime": "sed",
+  "Location": "voluptatem",
+  "RejectCounter": 873,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 841,
-      "PersonId": 812,
-      "ContactId": 371,
-      "EmailId": 604,
-      "SendEmail": false,
+      "AssociateId": 334,
+      "PersonId": 832,
+      "ContactId": 845,
+      "EmailId": 782,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 841,
-      "PersonId": 812,
-      "ContactId": 371,
-      "EmailId": 604,
-      "SendEmail": false,
+      "AssociateId": 334,
+      "PersonId": 832,
+      "ContactId": 845,
+      "EmailId": 782,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-03-20T11:10:25.67256+01:00",
+  "ActiveDate": "2004-12-03T02:49:43.4347793+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 875,
+  "PreferredTZLocation": 76,
   "Sale": null,
-  "SuggestedAppointmentId": 583,
+  "SuggestedAppointmentId": 607,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "id",
+  "CentralserviceVideomeetId": "deserunt",
   "UserDefinedFields": {
-    "SuperOffice:1": "1356008260",
+    "SuperOffice:1": "1403320944",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "aspernatur"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "culpa"
+    "CustomFields1": "eveniet",
+    "CustomFields2": "impedit"
   },
-  "PublishEventDate": "2006-02-20T11:10:25.6745533+01:00",
-  "PublishTo": "2004-06-13T11:10:25.6745533+02:00",
-  "PublishFrom": "2002-10-20T11:10:25.6745533+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2021-09-21T02:49:43.4347793+02:00",
+  "PublishTo": "1999-06-08T02:49:43.4347793+02:00",
+  "PublishFrom": "1998-09-24T02:49:43.4347793+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 740,
+      "VisibleId": 367,
       "Visibility": "All",
-      "DisplayValue": "quisquam",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldLength": 358
         }
       }
     },
     {
-      "VisibleId": 740,
+      "VisibleId": 367,
       "Visibility": "All",
-      "DisplayValue": "quisquam",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldLength": 358
         }
       }
     }
@@ -268,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldType": "System.String",
+      "FieldLength": 637
     }
   }
 }

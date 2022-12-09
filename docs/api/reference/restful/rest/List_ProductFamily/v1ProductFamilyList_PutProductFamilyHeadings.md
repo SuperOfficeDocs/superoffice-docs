@@ -11,7 +11,14 @@ PUT /api/v1/List/ProductFamily/Headings
 
 Saves headings for the ProductFamily list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 266,
-    "Name": "Hamill-Wolff",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 873,
-    "UdListDefinitionId": 512
+    "HeadingId": 658,
+    "Name": "Gerhold Group",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 708,
+    "UdListDefinitionId": 761
   },
   {
-    "HeadingId": 266,
-    "Name": "Hamill-Wolff",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 873,
-    "UdListDefinitionId": 512
+    "HeadingId": 658,
+    "Name": "Gerhold Group",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 708,
+    "UdListDefinitionId": 761
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 44,
-    "Name": "Lind-Wilkinson",
-    "Tooltip": "temporibus",
+    "HeadingId": 803,
+    "Name": "Heathcote Inc and Sons",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "Rank": 308,
-    "UdListDefinitionId": 482,
+    "Rank": 637,
+    "UdListDefinitionId": 377,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 523
       }
     }
   }

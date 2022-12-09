@@ -11,11 +11,18 @@ PUT /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 
 Saves headings for the ProjectStatus list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 839,
-    "Name": "Gottlieb-Schuster",
-    "ToolTip": "Soluta minima voluptatem quis sed dolorem commodi.",
+    "Id": 622,
+    "Name": "Jacobs LLC",
+    "ToolTip": "Sit voluptas reiciendis similique hic id fugiat.",
     "Deleted": false,
-    "Rank": 451,
-    "Type": "earum",
-    "ColorBlock": 939,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2003-06-23T11:10:54.473931+02:00",
+    "Rank": 748,
+    "Type": "beatae",
+    "ColorBlock": 769,
+    "IconHint": "sequi",
+    "Selected": false,
+    "LastChanged": "2021-09-22T02:49:52.3909486+02:00",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "Hickle Group",
-        "ToolTip": "Aperiam architecto.",
+        "Id": 95,
+        "Name": "Lubowitz, Simonis and Bradtke",
+        "ToolTip": "Sunt maxime debitis.",
         "Deleted": true,
-        "Rank": 994,
-        "Type": "labore",
-        "ColorBlock": 503,
-        "IconHint": "ipsum",
-        "Selected": false,
-        "LastChanged": "2015-10-15T11:10:54.473931+02:00",
+        "Rank": 523,
+        "Type": "asperiores",
+        "ColorBlock": 54,
+        "IconHint": "quis",
+        "Selected": true,
+        "LastChanged": "2002-07-02T02:49:52.3909486+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "velit",
-        "Hidden": true,
-        "FullName": "Mr. Gage Camille Schmidt"
+        "ExtraInfo": "fuga",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Aurore Balistreri"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "fugit",
-    "Hidden": false,
-    "FullName": "Katelyn Ziemann"
+    "ExtraInfo": "eveniet",
+    "StyleHint": "harum",
+    "Hidden": true,
+    "FullName": "Ollie Cremin Jr."
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Monahan Inc and Sons",
-    "ToolTip": "Enim assumenda quod nostrum qui animi nesciunt.",
-    "Deleted": false,
-    "Rank": 380,
-    "Type": "dolor",
-    "ColorBlock": 608,
-    "IconHint": "nam",
-    "Selected": true,
-    "LastChanged": "2001-01-18T11:10:54.47693+01:00",
+    "Id": 702,
+    "Name": "Abbott Inc and Sons",
+    "ToolTip": "Optio quisquam quis assumenda nesciunt.",
+    "Deleted": true,
+    "Rank": 314,
+    "Type": "perferendis",
+    "ColorBlock": 22,
+    "IconHint": "ducimus",
+    "Selected": false,
+    "LastChanged": "2016-07-15T02:49:52.4065764+02:00",
     "ChildItems": [
       {
-        "Id": 464,
-        "Name": "Abbott, Stoltenberg and Thompson",
-        "ToolTip": "Sunt et.",
+        "Id": 320,
+        "Name": "Franecki-Kautzer",
+        "ToolTip": "Repellendus aut deleniti odit amet eaque sint iusto.",
         "Deleted": true,
-        "Rank": 107,
-        "Type": "aut",
-        "ColorBlock": 749,
-        "IconHint": "nulla",
-        "Selected": true,
-        "LastChanged": "1996-04-05T11:10:54.47693+02:00",
+        "Rank": 927,
+        "Type": "necessitatibus",
+        "ColorBlock": 32,
+        "IconHint": "molestiae",
+        "Selected": false,
+        "LastChanged": "2013-09-28T02:49:52.4065764+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "illum",
-        "Hidden": true,
-        "FullName": "Ms. Lucio Earlene Ullrich DDS",
+        "ExtraInfo": "numquam",
+        "StyleHint": "quos",
+        "Hidden": false,
+        "FullName": "Trenton Schultz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 487
+            "FieldType": "System.Int32",
+            "FieldLength": 944
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "tempora",
+    "ExtraInfo": "natus",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Laurel Franecki",
+    "FullName": "Mrs. Rupert Elvera Corkery",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldLength": 514
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Associate/GetAssociatesByGroup
 
 Method that returns a array of associate , based on DiaryGroupType and groupId.
 
+
 The differernt types are, Userdefined, Usergroup and ResourceHeadings
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The differernt types are, Userdefined, Usergroup and ResourceHeadings
 ```http
 POST /api/v1/Agents/Associate/GetAssociatesByGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Associate/GetAssociatesByGroup?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GroupId, Type
+GroupId, Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | GroupId | int32 |  |
 | Type | int32 |  |
+
 
 ## Response: array
 
@@ -79,12 +87,12 @@ Response body: array
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 133,
-  "Type": 484
+  "GroupId": 824,
+  "Type": 932
 }
 ```
 
@@ -96,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 816,
-    "Name": "Ruecker, Hilll and Heathcote",
-    "PersonId": 908,
-    "Rank": 88,
-    "Tooltip": "velit",
+    "AssociateId": 738,
+    "Name": "Crist LLC",
+    "PersonId": 935,
+    "Rank": 379,
+    "Tooltip": "molestiae",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 480,
-    "FullName": "Briana Stracke",
-    "FormalName": "Torp Group",
+    "GroupIdx": 840,
+    "FullName": "Miss Ryleigh Larkin Jr.",
+    "FormalName": "Sawayn LLC",
     "Deleted": false,
-    "EjUserId": 882,
-    "UserName": "Lang Group",
+    "EjUserId": 131,
+    "UserName": "Haag LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 430
+        "FieldType": "System.Int32",
+        "FieldLength": 904
       }
     }
   }

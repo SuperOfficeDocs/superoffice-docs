@@ -11,7 +11,14 @@ PUT /api/v1/List/Rating/Headings
 
 Saves headings for the SaleStageEntity list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 499,
-    "Name": "Koss Group",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "Rank": 284,
-    "UdListDefinitionId": 458
+    "HeadingId": 214,
+    "Name": "Rowe-Reilly",
+    "Tooltip": "consequuntur",
+    "Deleted": false,
+    "Rank": 66,
+    "UdListDefinitionId": 918
   },
   {
-    "HeadingId": 499,
-    "Name": "Koss Group",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "Rank": 284,
-    "UdListDefinitionId": 458
+    "HeadingId": 214,
+    "Name": "Rowe-Reilly",
+    "Tooltip": "consequuntur",
+    "Deleted": false,
+    "Rank": 66,
+    "UdListDefinitionId": 918
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 778,
-    "Name": "Hyatt LLC",
-    "Tooltip": "id",
-    "Deleted": true,
-    "Rank": 721,
-    "UdListDefinitionId": 130,
+    "HeadingId": 151,
+    "Name": "Marvin, Smith and Rogahn",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "Rank": 190,
+    "UdListDefinitionId": 309,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 263
+        "FieldType": "System.Int32",
+        "FieldLength": 624
       }
     }
   }

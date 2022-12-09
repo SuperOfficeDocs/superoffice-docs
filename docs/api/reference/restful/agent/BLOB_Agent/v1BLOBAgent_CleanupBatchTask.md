@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/CleanupBatchTask
 
 Removes the binary objects linked to the batch task, the links themselves and the batch task.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Removes the binary objects linked to the batch task, the links themselves and th
 ```http
 POST /api/v1/Agents/BLOB/CleanupBatchTask?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,15 +38,16 @@ POST /api/v1/Agents/BLOB/CleanupBatchTask?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-BatchTaskId
+BatchTaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | BatchTaskId | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -47,7 +55,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -55,11 +64,11 @@ Response body:
 POST /api/v1/Agents/BLOB/CleanupBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 683
+  "BatchTaskId": 149
 }
 ```
 

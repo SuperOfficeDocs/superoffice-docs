@@ -11,7 +11,14 @@ GET /api/v1/Product/default
 
 Set default values into a new Product.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Quote agent service CreateDefaultProduct.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +62,7 @@ Response body:
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -81,7 +89,7 @@ Response body:
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 953,
-  "ERPProductKey": "quod",
-  "ERPPriceListKey": "et",
-  "Name": "Heller-Zulauf",
-  "Description": "Vision-oriented optimizing flexibility",
-  "Code": "corporis",
-  "PriceUnit": "cumque",
-  "QuantityUnit": "ratione",
+  "ProductId": 269,
+  "ERPProductKey": "nesciunt",
+  "ERPPriceListKey": "nemo",
+  "Name": "Walter Inc and Sons",
+  "Description": "Open-source neutral projection",
+  "Code": "ipsam",
+  "PriceUnit": "vel",
+  "QuantityUnit": "ipsam",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptate",
-  "DefaultSubscriptionQuantity": 25510.76,
-  "ItemNumber": "1322230",
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 30283.842,
+  "ItemNumber": "628182",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ea",
-  "ProductTypeKey": "molestias",
-  "VAT": 30221.162,
-  "VATInfo": "qui",
-  "UnitCost": 11204.05,
-  "UnitMinimumPrice": 184.906,
-  "UnitListPrice": 23226.074,
+  "ProductFamilyKey": "similique",
+  "ProductTypeKey": "corrupti",
+  "VAT": 21909.793999999998,
+  "VATInfo": "omnis",
+  "UnitCost": 1980.6879999999999,
+  "UnitMinimumPrice": 24087.924,
+  "UnitListPrice": 9323.65,
   "InAssortment": false,
-  "Supplier": "dolore",
-  "SupplierCode": "ipsum",
-  "Rights": "consequatur",
-  "Rule": "tempora",
+  "Supplier": "saepe",
+  "SupplierCode": "deserunt",
+  "Rights": "voluptatem",
+  "Rule": "odio",
   "ExtraInfo": [
     {
-      "Name": "Terry, Casper and Boyle",
-      "Value": "et",
+      "Name": "Williamson, Walter and Ledner",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 880
+          "FieldType": "System.Int32",
+          "FieldLength": 609
         }
       }
     },
     {
-      "Name": "Terry, Casper and Boyle",
-      "Value": "et",
+      "Name": "Williamson, Walter and Ledner",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 880
+          "FieldType": "System.Int32",
+          "FieldLength": 609
         }
       }
     }
   ],
-  "RawExtraInfo": "consequuntur",
-  "ExtraField1": "qui",
-  "ExtraField2": "earum",
-  "ExtraField3": "enim",
-  "ExtraField4": "itaque",
+  "RawExtraInfo": "officiis",
+  "ExtraField1": "autem",
+  "ExtraField2": "tenetur",
+  "ExtraField3": "tempore",
+  "ExtraField4": "ut",
   "ExtraField5": "et",
-  "InStock": 3177.8759999999997,
+  "InStock": 17892.006,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 634
     }
   }
 }

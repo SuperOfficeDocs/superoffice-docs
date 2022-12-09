@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTicketCategoryMembershipEntity
+  commentId: T:CRMScript.NetServer.NSTicketCategoryMembershipEntity
+  id: NSTicketCategoryMembershipEntity
+  so.version:
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTicketCategoryMembershipEntity.#ctor
+  - CRMScript.NetServer.NSTicketCategoryMembershipEntity.GetUser()
+  - CRMScript.NetServer.NSTicketCategoryMembershipEntity.GetWeight()
+  - CRMScript.NetServer.NSTicketCategoryMembershipEntity.SetUser(NSAssociate)
+  - CRMScript.NetServer.NSTicketCategoryMembershipEntity.SetWeight(Integer)
+  name: NSTicketCategoryMembershipEntity
+  nameWithType: NSTicketCategoryMembershipEntity
+  fullName: CRMScript.NetServer.NSTicketCategoryMembershipEntity
+  type: Class
+  summary: 
+  example: 
+- uid: CRMScript.NetServer.NSTicketCategoryMembershipEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSTicketCategoryMembershipEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTicketCategoryMembershipEntity
+  langs:
+  - crmscript
+  name: NSTicketCategoryMembershipEntity()
+  nameWithType: NSTicketCategoryMembershipEntity.#ctor
+  fullName: CRMScript.NetServer.NSTicketCategoryMembershipEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTicketCategoryMembershipEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSTicketCategoryMembershipEntity
+  example: 
+  - "\n<pre><code>NSTicketCategoryMembershipEntity thing;\nNSAssociate associate;\nassociate.SetId(2);\nthing.SetUser(associate);\nthing.SetWeight(2);\n</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryMembershipEntity.GetUser()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryMembershipEntity.GetUser()
+  id: 'GetUser()'
+  so.intellisense: NSTicketCategoryMembershipEntity.GetUser
+  so.version:
+  langs:
+  - crmscript
+  name: 'GetUser()'
+  nameWithType: NSTicketCategoryMembershipEntity.GetUser()
+  fullName: CRMScript.NetServer.NSTicketCategoryMembershipEntity.GetUser()
+  type: Method
+  summary: 
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUser()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "Gets referenced Associate."
+  example: 
+  - "\n<pre><code>NSTicketCategoryMembershipEntity thing;\nNSAssociate associate = thing.GetUser();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryMembershipEntity.GetWeight()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryMembershipEntity.GetWeight()
+  id: 'GetWeight()'
+  so.intellisense: NSTicketCategoryMembershipEntity.GetWeight
+  so.version:
+  langs:
+  - crmscript
+  name: 'GetWeight()'
+  nameWithType: NSTicketCategoryMembershipEntity.GetWeight()
+  fullName: CRMScript.NetServer.NSTicketCategoryMembershipEntity.GetWeight()
+  type: Method
+  summary: 
+  remarks: 
+  syntax: 
+    content: Integer GetWeight()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Gets value used for weighted delegation."
+  example: 
+  - "\n<pre><code>NSTicketCategoryMembershipEntity thing;\nInteger weight = thing.GetWeight();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryMembershipEntity.SetUser(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryMembershipEntity.SetUser(NSAssociate)
+  id: 'SetUser(NSAssociate)'
+  so.intellisense: NSTicketCategoryMembershipEntity.SetUser
+  langs:
+  - crmscript
+  name: 'SetUser(NSAssociate)'
+  nameWithType: NSTicketCategoryMembershipEntity.SetUser(NSAssociate)
+  fullName: CRMScript.NetServer.NSTicketCategoryMembershipEntity.SetUser(NSAssociate)
+  type: Method
+  summary:
+  remarks: 
+  syntax: 
+    content: Void SetUser(NSAssociate associate)
+    parameters:
+    - id: associate
+      type: CRMScript.NetServer.NSAssociate
+      description: "Sets referenced Associate."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryMembershipEntity thing;\nNSAssociate associate;\nthing.SetUser(associate);\n</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryMembershipEntity.SetWeight(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryMembershipEntity.SetWeight(Integer)
+  id: 'SetWeight(Integer)'
+  so.intellisense: NSTicketCategoryMembershipEntity.SetWeight
+  so.version:
+  langs:
+  - crmscript
+  name: 'SetWeight(Integer)'
+  nameWithType: NSTicketCategoryMembershipEntity.SetWeight(Integer)
+  fullName: CRMScript.NetServer.NSTicketCategoryMembershipEntity.SetWeight(Integer)
+  type: Method
+  summary:
+  remarks: 
+  syntax: 
+    content: Void SetWeight(Integer weight)
+    parameters:
+    - id: weight
+      type: CRMScript.Global.Integer
+      description: "Value used for weighted delegation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryMembershipEntity thing;\nString externalName;\nthing.SetExternalName(externalName);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

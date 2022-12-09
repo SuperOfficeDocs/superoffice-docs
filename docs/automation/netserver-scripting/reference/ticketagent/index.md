@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 08.26.2022
+so.date: 11.29.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -17,10 +17,13 @@ so.envir:
 Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>TicketAgent</see> that can trigger server-side event scripts.
 
 * [AddAttachments](addattachments.md)
+* [BatchForward](batchforward.md)
+* [BatchReply](batchreply.md)
 * [CalculateMessageRecipients](calculatemessagerecipients.md)
 * [CreateDefaultAttachmentEntity](createdefaultattachmententity.md)
 * [CreateDefaultTicketEntity](createdefaultticketentity.md)
 * [CreateDefaultTicketMessageEntity](createdefaultticketmessageentity.md)
+* [DeleteMessageHeaders](deletemessageheaders.md)
 * [DeleteTicketEntity](deleteticketentity.md)
 * [DeleteTicketMessageEntity](deleteticketmessageentity.md)
 * [GetAttachmentEntity](getattachmententity.md)
@@ -39,9 +42,12 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>T
 * [GetTickets](gettickets.md)
 * [GetTicketSummaries](getticketsummaries.md)
 * [Html2Text](html2text.md)
+* [MergeTickets](mergetickets.md)
 * [NotifyNewTicket](notifynewticket.md)
 * [NotifyNewTicketMessage](notifynewticketmessage.md)
 * [ProcessTicketWhenRead](processticketwhenread.md)
+* [RemoveMessageAttachments](removemessageattachments.md)
+* [ResolveTicketId](resolveticketid.md)
 * [SanitizeMailContent](sanitizemailcontent.md)
 * [SanitizeMailContents](sanitizemailcontents.md)
 * [SaveAttachmentEntity](saveattachmententity.md)
@@ -49,8 +55,16 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>T
 * [SaveTicketEntityWithNotify](saveticketentitywithnotify.md)
 * [SaveTicketMessageEntity](saveticketmessageentity.md)
 * [SaveTicketMessageEntityWithNotify](saveticketmessageentitywithnotify.md)
+* [SaveTicketMessageEntityWithOptions](saveticketmessageentitywithoptions.md)
 * [SendTicketMessage](sendticketmessage.md)
 * [SendTicketMessageSms](sendticketmessagesms.md)
+* [SetDeletedStatusByIds](setdeletedstatusbyids.md)
+* [SetDeletedStatusByProvider](setdeletedstatusbyprovider.md)
 * [SetTicketMessageImportant](setticketmessageimportant.md)
 * [SetTicketReadByOwner](setticketreadbyowner.md)
+* [SplitTicket](splitticket.md)
+* [SplitTicketMessage](splitticketmessage.md)
+* [UpdateTicketsReadStatus](updateticketsreadstatus.md)
+* [UpdateTicketsReadStatusByProvider](updateticketsreadstatusbyprovider.md)
 * [UploadAttachment](uploadattachment.md)
+

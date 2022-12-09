@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/SendEMails
 
 Send the provided e-mails
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Send the provided e-mails
 ```http
 POST /api/v1/Agents/EMail/SendEMails?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/EMail/SendEMails?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OutgoingConnectionInfo, Emails, SentItemsConnectionInfo
+OutgoingConnectionInfo, Emails, SentItemsConnectionInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OutgoingConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | Emails | array |  |
 | SentItemsConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+
 
 ## Response: array
 
@@ -94,7 +104,7 @@ Response body: array
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,18 +123,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "ratione",
-      "HTMLBody": "sunt",
+      "Subject": "dicta",
+      "HTMLBody": "aut",
       "From": null,
-      "Sent": "2010-09-10T11:10:26.9264254+02:00",
-      "Size": 655,
+      "Sent": "2017-11-29T02:49:44.4347885+01:00",
+      "Size": 962,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "in",
-      "PlainBody": "nulla",
-      "IsSent": true,
+      "MessageID": "reprehenderit",
+      "PlainBody": "consectetur",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 68,
+      "ServerId": 16,
       "Attachments": [
         {},
         {}
@@ -133,12 +143,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Swift LLC",
-      "EmailItemId": 567,
-      "AccountId": 96,
-      "ReceivedAt": "2007-12-11T11:10:26.9264254+01:00",
+      "FolderName": "Blanda LLC",
+      "EmailItemId": 362,
+      "AccountId": 717,
+      "ReceivedAt": "2011-09-08T02:49:44.4347885+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2020-07-24T11:10:26.9264254+02:00",
+      "RepliedAt": "2005-11-12T02:49:44.4347885+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -158,155 +168,155 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 331,
-        "ContactName": "Hegmann Inc and Sons",
-        "PersonId": 240,
-        "PersonName": "Jerde, Sauer and Koelpin",
-        "AssociateId": 572,
-        "Address": "iure",
-        "EmailId": 813,
+        "ContactId": 241,
+        "ContactName": "Kris-Conn",
+        "PersonId": 268,
+        "PersonName": "Pfannerstill LLC",
+        "AssociateId": 768,
+        "Address": "eum",
+        "EmailId": 123,
         "DuplicatePersonIds": [
-          394,
-          857
+          292,
+          323
         ],
-        "Name": "Hills, Okuneva and Miller",
+        "Name": "Little, Buckridge and Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 19
+            "FieldLength": 980
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 882,
-        "ContactName": "Weimann-Rosenbaum",
-        "PersonId": 507,
-        "PersonName": "Mohr LLC",
-        "AssociateId": 416,
-        "Address": "nisi",
-        "EmailId": 312,
+        "ContactId": 939,
+        "ContactName": "Price-Wilderman",
+        "PersonId": 993,
+        "PersonName": "Vandervort Group",
+        "AssociateId": 905,
+        "Address": "rerum",
+        "EmailId": 709,
         "DuplicatePersonIds": [
-          504,
-          337
+          738,
+          190
         ],
-        "Name": "Koelpin Group",
+        "Name": "Hansen-Murazik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 292
+            "FieldLength": 122
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 365,
-        "ContactName": "Marvin LLC",
-        "PersonId": 634,
-        "PersonName": "Jakubowski-Swift",
-        "AssociateId": 142,
-        "Address": "non",
-        "EmailId": 820,
+        "ContactId": 670,
+        "ContactName": "Osinski, Brown and Schmitt",
+        "PersonId": 993,
+        "PersonName": "Raynor Group",
+        "AssociateId": 380,
+        "Address": "et",
+        "EmailId": 800,
         "DuplicatePersonIds": [
-          121,
-          640
+          82,
+          424
         ],
-        "Name": "Baumbach, Dietrich and Kuphal",
+        "Name": "Dickinson-Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 853
+            "FieldLength": 200
           }
         }
       }
     ],
-    "Subject": "placeat",
-    "HTMLBody": "voluptate",
+    "Subject": "omnis",
+    "HTMLBody": "officia",
     "From": null,
-    "Sent": "2009-10-14T11:10:26.9284251+02:00",
-    "Size": 261,
+    "Sent": "2012-12-08T02:49:44.4347885+01:00",
+    "Size": 47,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "dolorum",
-    "PlainBody": "doloremque",
+    "MessageID": "ad",
+    "PlainBody": "aut",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 176,
+    "ServerId": 249,
     "Attachments": [
       {
-        "Description": "Enhanced intangible leverage",
-        "Filename": "voluptatibus",
-        "Size": 484,
-        "Type": "esse",
-        "Encoding": "quia",
-        "Id": "quia",
-        "Disposition": "non",
+        "Description": "Multi-tiered cohesive parallelism",
+        "Filename": "culpa",
+        "Size": 267,
+        "Type": "provident",
+        "Encoding": "et",
+        "Id": "aut",
+        "Disposition": "voluptatum",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 125
+            "FieldLength": 964
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Medhurst-Williamson",
+        "Name": "Smitham, Parker and Schmeler",
         "Values": [
-          "incidunt",
-          "vel"
+          "dolorum",
+          "libero"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 878
+            "FieldLength": 293
           }
         }
       },
       {
-        "Name": "Medhurst-Williamson",
+        "Name": "Smitham, Parker and Schmeler",
         "Values": [
-          "incidunt",
-          "vel"
+          "dolorum",
+          "libero"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 878
+            "FieldLength": 293
           }
         }
       }
     ],
-    "FolderName": "Medhurst, Lesch and Kihn",
-    "EmailItemId": 923,
-    "AccountId": 736,
-    "ReceivedAt": "1999-03-06T11:10:26.9294246+01:00",
+    "FolderName": "Sporer-McKenzie",
+    "EmailItemId": 133,
+    "AccountId": 804,
+    "ReceivedAt": "2004-12-01T02:49:44.4347885+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2000-01-06T11:10:26.9294246+01:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2014-06-03T02:49:44.4347885+02:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldType": "System.Int32",
+        "FieldLength": 599
       }
     }
   }

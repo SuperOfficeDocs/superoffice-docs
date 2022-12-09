@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 
 Creates a RecurrenceInfo object populated with the default values for the specific type.
 
+
 Using startDate as start date for the recurreing pattern.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Using startDate as start date for the recurreing pattern.
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartDate
+StartDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StartDate | date-time |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,11 +84,11 @@ Response body:
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2022-08-23T11:10:25.643553+02:00"
+  "StartDate": "2018-12-20T02:49:43.419154+01:00"
 }
 ```
 
@@ -91,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 312,
-  "StartDate": "1998-01-19T11:10:25.643553+01:00",
-  "EndDate": "1999-04-15T11:10:25.643553+02:00",
-  "RecurrenceCounter": 464,
+  "RecurrenceId": 363,
+  "StartDate": "2011-12-29T02:49:43.419154+01:00",
+  "EndDate": "1995-12-24T02:49:43.419154+01:00",
+  "RecurrenceCounter": 315,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -103,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2011-02-23T11:10:25.6445529+01:00",
-      "IsConflict": true,
-      "Description": "Synergistic zero tolerance forecast",
-      "DescriptionStyleHint": "Intuitive real-time monitoring",
-      "Tooltip": "ipsam"
+      "Date": "2002-10-14T02:49:43.419154+02:00",
+      "IsConflict": false,
+      "Description": "Decentralized maximized architecture",
+      "DescriptionStyleHint": "Right-sized neutral approach",
+      "Tooltip": "ullam"
     },
     {
-      "Date": "2011-02-23T11:10:25.6445529+01:00",
-      "IsConflict": true,
-      "Description": "Synergistic zero tolerance forecast",
-      "DescriptionStyleHint": "Intuitive real-time monitoring",
-      "Tooltip": "ipsam"
+      "Date": "2002-10-14T02:49:43.419154+02:00",
+      "IsConflict": false,
+      "Description": "Decentralized maximized architecture",
+      "DescriptionStyleHint": "Right-sized neutral approach",
+      "Tooltip": "ullam"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

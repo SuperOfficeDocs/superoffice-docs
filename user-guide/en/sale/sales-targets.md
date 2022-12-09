@@ -49,9 +49,9 @@ Before you start using the sales targets feature, you must set up a few things i
 > [!TIP]
 > The default target type is **All sales - Amount**. If you have the Sales Targets Unlimited licence, you can create additional target types.
 
-1. Click ![icon][img1] **Main menu** and select **Targets**. The **Sales targets** screen opens. If no sales targets have been created yet, the list is empty.
+1. Click ![icon][img1] **Main menu** and select **Targets**. If no sales targets have been created yet, the list is empty.
 
-2. In the **Select year** list, select the year for which you want to create a sales target. Your can also set up targets for previous years, to create budget statistics back in time.
+2. In the **Sales targets** screen, select the year that you want to create a sales target for from the **Select year** list. Your can also set up targets for previous years, to create budget statistics back in time.
 
 > [!NOTE]
 > If you have selected a year AND the previous year contains sales targets, you will be asked if you want to create targets based on the previous year. You can copy the targets as is, or select to increase the targets by a given percentage.
@@ -67,12 +67,13 @@ Before you start using the sales targets feature, you must set up a few things i
 7. Adjust the numbers manually using the **TAB** key go the next field. You can also copy and paste numbers from Excel. See the [Import](#import) section below.
     or
     Click the menu button ![icon][img2] at the end of a row and select **Adjust numbers**. The following options are available in the dialog:
-    * **Set initial amount**: Enter the amount for the whole year. The amount will be split equally among the months or quarters on the current row.
-    * **Copy from**: Copy the values from another group or user. This option is only available for the target type **All sales - Amount**.
-    * **Copy from last year**: Copy values from last year and increase the values by a specific percentage. This option is disabled if last year has no values.
-        Click **Save** when you are done. The sums for all users will be added to the **All** row at the top of the list of users.
 
-8. Optional: When you have completed a row, you can lock it ![icon][img3]-![icon][img4] to disable editing. This can be relevant when the budget has been approved and should not be edited. Locked rows cannot be removed, cleared or edited.
+    * **Set initial amount**: Enter the amount for the whole year. The amount is split equally among the months or quarters on the current row.
+    * **Copy from**: Copy the values from another group or user.
+    * **Copy from last year**: Copy values from last year and increase the values by a specific percentage. This option is disabled if last year has no values.
+        Click **Save** when you are done. The sums for all users are added to the **All** row at the top of the list of users.
+
+8. Optional: When you have completed a row, you can lock it ![icon][img3]-![icon][img4] to disable editing. For example, after a budget is approved and should not be edited. Locked rows cannot be removed, cleared or edited.
 
 9. If a specific group or user should not have a sales target, click the menu button ![icon][img2] and select **Clear** to empty the values.
 
@@ -111,7 +112,7 @@ To do this:
 
 ## Revision history
 
-To view the revision history for a sales target (row), click the menu button ![icon][img2] and select **Revision history**. In the screen that displays, you can view all changes that has been made to the current sales target. This includes changed values and locking/unlocking, when the change was made and by whom. Use the expand/collapse buttons at the top to view/hide details.
+To view the revision history for a sales target (row), click the menu button ![icon][img2] and select **Revision history**. In the screen that displays, you can view all changes to the current sales target. This includes changed values and locking/unlocking, when the change was made and by whom. Use the expand/collapse buttons at the top to view/hide details.
 
 ## Export
 

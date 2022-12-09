@@ -11,6 +11,13 @@ POST /api/v1/Agents/CustomerService/SaveMailboxEntity
 
 Updates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing MailboxEntity or creates a new MailboxEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The MailboxEntity to be saved.
+The MailboxEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,7 +46,8 @@ The MailboxEntity to be saved.
 | Server | string | The email server to connect to |
 | Port | int32 | The port used to connect to the server |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -47,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,13 +79,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 892,
+  "MailInFilterId": 1002,
   "ServerType": "Facebook",
-  "Address": "suscipit",
-  "Username": "aut",
-  "Password": "voluptatibus",
-  "Server": "voluptatem",
-  "Port": 554
+  "Address": "quia",
+  "Username": "velit",
+  "Password": "sunt",
+  "Server": "dolorem",
+  "Port": 593
 }
 ```
 
@@ -88,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 13,
+  "MailInFilterId": 73,
   "ServerType": "Facebook",
-  "Address": "nemo",
-  "Username": "recusandae",
-  "Password": "quam",
-  "Server": "voluptatum",
-  "Port": 851,
+  "Address": "et",
+  "Username": "eos",
+  "Password": "sed",
+  "Server": "molestias",
+  "Port": 929,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 353
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetEmarketingStrictMode
 
 Get the value of the Emarketing strict mode setting
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the value of the Emarketing strict mode setting
 ```http
 POST /api/v1/Agents/List/GetEmarketingStrictMode?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,6 +41,7 @@ POST /api/v1/Agents/List/GetEmarketingStrictMode?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
 
 OK
@@ -44,13 +52,14 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetEmarketingStrictMode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -59,5 +68,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

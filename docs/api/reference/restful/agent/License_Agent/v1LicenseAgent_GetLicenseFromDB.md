@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetLicenseFromDB
 
 Get license, with usage, as it is stored in the database for one particular module owner.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get license, with usage, as it is stored in the database for one particular modu
 ```http
 POST /api/v1/Agents/License/GetLicenseFromDB?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/License/GetLicenseFromDB?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerName
+OwnerName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Homenick Inc and Sons"
+  "OwnerName": "Gibson-Moore"
 }
 ```
 
@@ -83,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "incubate virtual metrics",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -91,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 17,
-      "NumberOfLicensesFree": 979,
-      "NumberOfLicensesAdded": 87,
-      "NumberOfLicensesNewTotal": 658,
-      "NumberOfLicensesNewFree": 431,
-      "NumberOfLicensesTotal": 679
+      "NumberOfLicensesInUse": 256,
+      "NumberOfLicensesFree": 744,
+      "NumberOfLicensesAdded": 651,
+      "NumberOfLicensesNewTotal": 885,
+      "NumberOfLicensesNewFree": 299,
+      "NumberOfLicensesTotal": 164
     }
   ],
-  "AccumulatedNextCheckDate": "2020-06-27T11:10:27.1064523+02:00"
+  "AccumulatedNextCheckDate": "2009-01-25T02:49:44.576671+01:00"
 }
 ```

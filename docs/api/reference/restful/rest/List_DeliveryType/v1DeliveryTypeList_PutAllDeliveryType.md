@@ -11,6 +11,13 @@ PUT /api/v1/List/DeliveryType/Items
 
 Update the DeliveryType list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the DeliveryType list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated DeliveryType.
+All the updated DeliveryType. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated DeliveryType.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -65,25 +73,25 @@ Response body: array
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 635,
-    "Name": "Mosciski-Leffler",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "UdListDefinitionId": 179,
-    "Rank": 968
+    "Id": 762,
+    "Name": "Rau Inc and Sons",
+    "Tooltip": "sequi",
+    "Deleted": true,
+    "UdListDefinitionId": 854,
+    "Rank": 623
   },
   {
-    "Id": 635,
-    "Name": "Mosciski-Leffler",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "UdListDefinitionId": 179,
-    "Rank": 968
+    "Id": 762,
+    "Name": "Rau Inc and Sons",
+    "Tooltip": "sequi",
+    "Deleted": true,
+    "UdListDefinitionId": 854,
+    "Rank": 623
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 61,
-    "Name": "Welch-Hermann",
-    "Tooltip": "a",
-    "Deleted": true,
-    "UdListDefinitionId": 362,
-    "Rank": 639,
+    "Id": 195,
+    "Name": "Cremin-Wunsch",
+    "Tooltip": "nisi",
+    "Deleted": false,
+    "UdListDefinitionId": 241,
+    "Rank": 698,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 743
+        "FieldType": "System.Int32",
+        "FieldLength": 28
       }
     }
   }

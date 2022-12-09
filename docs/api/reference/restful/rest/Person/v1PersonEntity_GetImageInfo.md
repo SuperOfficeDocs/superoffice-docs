@@ -11,11 +11,18 @@ GET /api/v1/Person/{personId}/ImageInfo
 
 Get the Blob that describes the given person's picture.
 
+
 The actual bitmap is accessible via /api/Services80/person/123/image/content.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | Person id **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ The actual bitmap is accessible via /api/Services80/person/123/image/content.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +72,7 @@ Response body:
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,28 +80,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 13 Sep 2006 11:10:53 G9T
+Last-Modified: Tue, 14 Sep 2021 02:49:51 G9T
 
 {
-  "BlobId": 755,
-  "BlobSize": 985,
-  "Description": "Stand-alone upward-trending conglomeration",
-  "ExtraInfo": "iste",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "quia",
-  "OriginalSize": 668,
-  "CreatedDate": "2005-04-26T11:10:53.0531793+02:00",
-  "UpdatedDate": "2006-09-13T11:10:53.0531793+02:00",
+  "BlobId": 790,
+  "BlobSize": 472,
+  "Description": "Phased executive application",
+  "ExtraInfo": "cum",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "aut",
+  "OriginalSize": 18,
+  "CreatedDate": "2017-03-22T02:49:51.3078143+01:00",
+  "UpdatedDate": "2021-09-14T02:49:51.3078143+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "esse",
+  "ConceptualType": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 304
     }
   }
 }

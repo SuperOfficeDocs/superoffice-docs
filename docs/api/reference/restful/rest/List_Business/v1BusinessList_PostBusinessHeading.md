@@ -11,7 +11,14 @@ POST /api/v1/List/Business/Headings
 
 Saves a new heading for the Business list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 424,
-  "Name": "Ortiz, Pfeffer and Bartoletti",
-  "Tooltip": "deleniti",
-  "Deleted": false,
-  "Rank": 642,
-  "UdListDefinitionId": 966
+  "HeadingId": 131,
+  "Name": "McDermott, Rau and White",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 201,
+  "UdListDefinitionId": 884
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 4,
-  "Name": "Walter LLC",
-  "Tooltip": "distinctio",
+  "HeadingId": 670,
+  "Name": "Barrows Group",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "Rank": 184,
-  "UdListDefinitionId": 156,
+  "Rank": 809,
+  "UdListDefinitionId": 320,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 29
     }
   }
 }

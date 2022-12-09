@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 
 Get a reply template from its reply template id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a reply template from its reply template id
 ```http
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ReplyTemplateId
+ReplyTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ReplyTemplateId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 801
+  "ReplyTemplateId": 775
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bosco, Gottlieb and Dibbert",
-  "Description": "Multi-tiered responsive throughput",
-  "OwnedByFullName": "Arvilla D'Amore",
-  "Updated": "2008-10-23T11:10:26.4034227+02:00",
-  "Body": "eius",
+  "Name": "Nader-Reichert",
+  "Description": "Managed static info-mediaries",
+  "OwnedByFullName": "Carolina Johns",
+  "Updated": "2007-04-13T02:49:44.0285283+02:00",
+  "Body": "voluptates",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldLength": 300
     }
   }
 }

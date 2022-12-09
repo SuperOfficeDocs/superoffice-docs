@@ -24,7 +24,7 @@ In the **Users** tab, you can display all the users registered in the system. Us
 
 * **All**: Shows all the users registered in the system.
 * **Service users**: Shows all users with an active user license. In practice, this means all active users.
-* **Deleted**: Shows all deleted users. When you delete a user in SuperOffice Settings and maintenance, this person remains in the system, but is marked as deleted. Their history is retained, but by deleting them, you free up a user license. You can restore a deleted user, i.e. reactivate the user license, in SuperOffice Settings and maintenance.
+* **Deleted**: Shows all deleted users. When you delete a user in SuperOffice Settings and maintenance, this person remains in the system, but is marked as deleted. Their history is retained, but by deleting them, you free up a user license. You can restore a deleted user, by reactivate the user license in SuperOffice Settings and maintenance.
 * **User groups**: If you select a user group, all members of that group are displayed.
 
 Clicking a user takes you to the **Edit users** screen, which contains all the information recorded about this user.

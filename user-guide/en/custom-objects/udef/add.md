@@ -9,9 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Add field
-
-To add a new user-defined field:
+# Add user-defined field
 
 [!include[Go to fields and select tab](includes/goto-fields.md)]
 
@@ -19,7 +17,7 @@ To add a new user-defined field:
 
 1. Type the required name into the **Name** field.
 
-1. In the **Type** list box, select the [type of field][6] you wish to add (e.g. number, text or date).
+1. In the **Type** list box, select the [type of field][6] you wish to add (for example number, text, or date).
 
 1. In the **Default value** field, enter the value to be inserted by default in this field.
 
@@ -37,19 +35,19 @@ To add a new user-defined field:
 1. Check **Read only** if you do not want it to be possible to amend the field.
 
     > [!NOTE]
-    > You cannot check **Read only** if you have checked **Mandatory**. These options are mutually exclusive.
+    > You cannot check **Read only** if you checked **Mandatory**. These options are mutually exclusive.
 
 1. Check **Indexed** if you want it to be possible to search by this field.
 
     <details><summary>Why is it a good idea to index?</summary>
 
-    The benefit of choosing **Indexed** is that it will be quicker to search on these fields using **Find**, for example. Non-indexed fields are also searchable, but the search takes longer. You should only index fields which are frequently searched and contain frequently used data.
+    Choosing **Indexed** makes it quicker to search on these fields using **Find**. Non-indexed fields are also searchable, but the search takes longer. You should only index fields that are frequently searched and contain frequently used data.
     </details>
 
-1. When you have specified the required settings, click **Save**. The dialog box will close and the new field will be displayed in the **Fields** list and in the grid.
+1. When you have specified the required settings, click **Save**. The dialog box will close and the new field is displayed in the **Fields** list and in the grid.
 
 > [!TIP]
-> In the bottom right of the **Fields** dialog is the **Template variable name** followed by a code. This is the "ID" of the field you are creating and can be used to reuse the information you enter in this field, for example, as [template variables][2] in documents and emails.
+> In the bottom right of the **Fields** dialog is the **Template variable name** followed by a code (ID), which can be used to reuse the information you enter in this field, for example, as [template variables][2] in documents and emails.
 
 1. [Adjust the position of the field][3].
 2. Click **Publish** if you want the field to be available to SuperOffice CRM users. Unpublished fields ( ![icon][img1] ) and fields with unpublished changes ( ![icon][img2] ) are displayed in bold text in the **Fields** list.
@@ -58,7 +56,9 @@ To add a new user-defined field:
 
 ### I cannot create a new field
 
-If you find you are not allowed to create a new field, this may be because you have already reached the [maximum number of permitted fields][1] of this type. You must then delete an existing field before you can insert a new one. Note also that four of each type of field (Short text, Long text, Number, Decimal) are searchable. This means that if you do not specify that some of the fields are to be searchable, you will only be able to specify for example six Decimal fields.
+If you find you are not allowed to create a new field, this may be because you have already reached the [maximum number of permitted fields][1] of this type. You must then delete an existing field before you can insert a new one.
+
+Four of each type of field (Short text, Long text, Number, Decimal) are searchable. For example, if you do not mark any fields searchable, you can specify only six Decimal fields.
 
 ## Related topics
 

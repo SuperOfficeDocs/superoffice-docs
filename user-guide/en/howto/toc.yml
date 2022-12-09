@@ -9,32 +9,48 @@ items:
   href: refresh-data.md
 - name: Bulk update
   href: bulk-update.md
+- name: Linking documents to follow ups
+  href: linking-documents-to-follow-ups.md
+- name: Language and translation
+  items:
+  - name: Change active language
+    href: ../globalization/change-language.md
+  - name: Translation of content
+    href: ../globalization/translate-fields.md
+  - name: Language support for documents
+    href: ../globalization/doc-language-support.md 
+- name: Create/copy shortcut
+  href: ../win-client/creating-shortcuts-to-entries-in-crm.md         
 - name: Work with the Section tabs
   href: section-tabs.md
   items:
-  - name: Changing the column view
-    href: changing-column-view.md
   - name: Sorting lists
     href: sorting-lists.md
-  - name: Grouping lists
-    href: sections-tabs-grouping-lists.md
+  - name: Changing the column view
+    href: changing-column-view.md
   - name: Use column filters in the section tabs
     href: use-column-filters-in-section-tabs.md
   - name: Adjusting column widths
     href: adjusting-column-widths.md
+  - name: Grouping lists
+    href: sections-tabs-grouping-lists.md
   - name: Use filters in the section tabs
     href: use-filters-in-section-tabs.md
+  - name: Filter activities and sales
+    href: using-filter-function-contact.md
   - name: Export section tabs
     href: export-archives.md
   - name: Adjusting views in Settings and maintenance
     href: adjusting-views.md
-  - name: Filter activities and sales
-    href: using-filter-function-contact.md
-- name: Linking documents to follow ups
-  href: linking-documents-to-follow-ups.md
-- name: Resizing screen elements
-  href: resizing-screen-elements.md
-- name: Changing labels
-  href: changing-labels.md
+- name: Work with activities
+  items:
+  - name: View activities
+    href: ../company/view-activities.md
+  - name: Deleting activities
+    href: ../company/delete-activities-contact.md
+  - name: Replying to email from the Activities section tab
+    href: ../company/replying-to-email-from-activities-section-tab.md
+  - name: Forwarding email from the Activities section tab
+    href: ../company/forwarding-email-from-activities-section-tab.md
 - name: External applications and URL addresses
   href: external-applications-and-url-addresses.md

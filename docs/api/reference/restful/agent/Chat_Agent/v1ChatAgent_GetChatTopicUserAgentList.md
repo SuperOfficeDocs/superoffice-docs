@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/GetChatTopicUserAgentList
 
 Get list of users assigned to a chat topic
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get list of users assigned to a chat topic
 ```http
 POST /api/v1/Agents/Chat/GetChatTopicUserAgentList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Chat/GetChatTopicUserAgentList?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatTopicId
+ChatTopicId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
+
 
 ## Response: array
 
@@ -68,11 +76,11 @@ Response body: array
 POST /api/v1/Agents/Chat/GetChatTopicUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 330
+  "ChatTopicId": 86
 }
 ```
 
@@ -84,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 792,
+    "TopicId": 210,
     "User": null,
     "CanListen": false,
     "CanRespond": false,
-    "CanManage": false,
-    "CanNotify": false
+    "CanManage": true,
+    "CanNotify": true
   },
   {
-    "TopicId": 792,
+    "TopicId": 210,
     "User": null,
     "CanListen": false,
     "CanRespond": false,
-    "CanManage": false,
-    "CanNotify": false
+    "CanManage": true,
+    "CanNotify": true
   }
 ]
 ```

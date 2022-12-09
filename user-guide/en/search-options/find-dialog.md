@@ -11,55 +11,52 @@ language: en
 
 # Use the Find screen
 
-To search for records and data in SuperOffice CRM, you use the **Find** screen.
+To search for records and data in SuperOffice CRM, use the **Find** screen.
 
 > [!NOTE]
 > If you have a licence for SuperOffice Integration Server, you can search for products in existing quotes. If you have a licence for SuperOffice Service, you can search for requests.
 
 ## Search for information in SuperOffice CRM
 
-To use the search function in SuperOffice CRM:
-
 1. Click the **Find** button on the [top bar][1]. ![icon][img2]
+
 2. Click the type of record you want to search for, or click **Typical searches** to display a list of predefined searches. The **Criteria** tab opens.
-3. The **Find** screen contains predefined search criteria, or the search criteria you used last time. Click ![icon][img3] to remove any criteria you do not want to use.
-    *or* If you want to add new search criteria, click the **Add** button. A new line is added to the criteria list.
-4. In the first list box on the line, select the field you want to search for information in. You can also enter the start of the name in the appropriate field (see [FastSearcher][2]).
-    Here you could, for example, select **Contact** and **Last name** if you wanted to search for contacts, or **Project** and **Event date** if you wanted to search for projects. There are different types of fields. These are described under [Use search criteria][3].
+
+3. The **Find** screen contains predefined search criteria, or the search criteria you used last time. Do one of the following:
+
+    * Click ![icon][img3] to remove any criteria you do not want to use.
+    * Click the **Add** button to add new search criteria. A new line is added to the criteria list.
+
+4. In the first list box on the line, select the field you want to search for information in. You can also [enter the start of the name in the appropriate field][2]). There are [different types of fields][3].
+
+    For example, select **Contact** and **Last name** to search for contacts, or **Project** and **Event date** to search for projects.
+
 5. Select values for the search criteria in the next fields on the line.
+
 6. You can click **Add** below the criteria list again to specify more search criteria. A new line is added to the criteria list and you can repeat steps 4 and 5.
+
 7. To move criteria, click and drag ![icon][img4].
+
 8. Click **Or** to add a another set of criteria.
-9. When you have specified and activated the search criteria you want, click the **Find** button. The **Results** tab opens with the search results which match the search criteria you have specified.
+
+9. When you have specified and activated the search criteria you want, click the **Find** button. The **Results** tab opens with the results matching the search criteria.
 
 > [!TIP]
 > If, for example, you want to search for all companies, you can use the percent sign (%) when [entering search criteria][3] for **Company**.
 
 ## Work with search results
 
-Once you have followed the above procedure, and search results are displayed in the **Results** tab, you have several options available:
+After following the above steps, and search results are displayed in the **Results** tab, you have several options available:
 
-Open the record
+* **Open the record:** To open one of the records, double-click it. For example, double-clicking a contact displays the **Contacts** section tab with that contact highlighted.
 
-To open one of the records, double-click it. For example, double-clicking a contact displays the **Contacts** section tab with that contact highlighted.
+* **Display a record in the side panel:** Use the [side panel][4] to quickly browse through the search results. If you have searched for contact, select **Contacts** in the list at the top of the side panel. You can then click on each contact in the **Results** tab to preview them.
 
-Display a record in the side panel
+* **Perform tasks on the search results:** The **Task** button contains tasks such as sending emails, mass-editing and exporting. Which tasks are displayed depends on what type of records are displayed. See [Perform tasks using selections][7].
 
-Use the side panel to quickly browse through the search results. If you have searched for contact, select **Contacts** in the list at the top of the side panel. You can then click on each contact in the **Results** tab to preview them.
+* **Add records to a selection:** Click the **Save as selection** button. See [Create selections][8].
 
-See [The side panel][4].
-
-Perform tasks on the search results
-
-The **Task** button contains tasks such as sending e-mails, mass-editing and exporting. Which tasks are displayed depends on what type of records are displayed.
-
-See [Perform tasks using selections][7].
-
-Add records to a selection
-
-Click the **Save as selection** button. See [Create selections][8].
-
-Select records, right-click, and select **Add to selection**. See [Add members to static selections][9].
+* Select records, right-click, and select **Add to selection**. See [Add members to static selections][9].
 
 ## The search facility in SuperOffice CRM
 
@@ -73,7 +70,7 @@ There are effectively no limits on what you can search for in SuperOffice CRM. T
 
 ## <a id="ex1" />Example 1: search for profitable customers
 
-Imagine that you are a sales department manager and you want to make a presentation to the rest of management, showing what you have achieved since the last meeting. You want to focus on profitable customers, i.e. customers you have recently sold a lot to. This is how to find them:
+Imagine that you are a sales department manager and you want to make a presentation to the rest of management, showing what you have achieved since the last meeting. You want to focus on profitable customers (customers you have recently sold a lot to).
 
 1. Click the **Find** button.
 
@@ -87,7 +84,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 6. In the list box to the right of **Amount**, click the arrow ![icon][img1] and select **&gt;** (greater than).
 
-7. In the last field on the line, enter the minimum amount, e.g. "100 000".
+7. In the last field on the line, enter the minimum amount. For example, "100 000".
 
 8. You have now specified that you want to find companies with sales above the amount you entered, but we have not quite finished. We also want to specify a period.
 
@@ -113,7 +110,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 19. You have now specified that you want to find companies with sales above a specific amount, within a specific date range and that have status **Sold**.
 
-20. Click the **Find** button below the **Criteria** tab..
+20. Click the **Find** button below the **Criteria** tab.
 
 21. All the results which match the search criteria you have specified are displayed in the **Results** tab.
 
@@ -157,7 +154,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 12. You have now specified that you want to find companies in Denmark for which you are the contact.
 
-13. Click the **Find** button below the **Criteria** tab..
+13. Click the **Find** button below the **Criteria** tab.
 
 14. All the results which match the search criteria you have specified are displayed in the **Results** tab.
 
@@ -190,7 +187,7 @@ Let's assume you are the manager of a company and want to find out what types of
 
 7. Click the **Select items** field to the right of the **Is one of** field, and select **Sold**. You have now specified that you want to search for completed sales.
 
-8. Click the **Find** button below the **Criteria** tab..
+8. Click the **Find** button below the **Criteria** tab.
 
 9. All the results which match the search criteria you have specified are displayed in the **Results** tab.
 
@@ -204,7 +201,7 @@ Let's assume you are the manager of a company and want to find out what types of
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="ex4" />Example 4: search for projects you have participated in during the last year
 
-Imagine that the time for your pay review is approaching and you think you deserve to be better rewarded for your efforts. To show your boss how energetic and versatile you are, you want to tell him about the projects you have been involved in in the last year. This is how to find them:
+Imagine that the time for your pay review is approaching and you think you deserve to be better rewarded for your efforts. To show your boss how energetic and versatile you are, you want to tell them about the projects you have been involved in in the last year.
 
 1. Click the **Find** button.
 
@@ -232,7 +229,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 13. You have now specified that you want to find projects you have participated in, from a specific date up to today.
 
-14. Click the **Find** button below the **Criteria** tab..
+14. Click the **Find** button below the **Criteria** tab.
 
 15. All the results which match the search criteria you have specified are displayed in the **Results** tab.
 
@@ -285,7 +282,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 17. Check **Yes**. You have now specified that you want to find follow-ups set as **Completed**.
 
-18. Click the **Find** button below the **Criteria** tab..
+18. Click the **Find** button below the **Criteria** tab.
 
 19. All the results which match the search criteria you have specified are displayed in the **Results** tab.
 

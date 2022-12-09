@@ -11,11 +11,18 @@ PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 
 Saves headings for the SelectionCategory list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Wintheiser Group",
-    "ToolTip": "Ipsum quod repellat.",
+    "Id": 771,
+    "Name": "Tremblay-Waters",
+    "ToolTip": "Earum omnis corporis quasi.",
     "Deleted": false,
-    "Rank": 333,
-    "Type": "dolorem",
-    "ColorBlock": 659,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "1996-01-06T11:10:54.6299022+01:00",
+    "Rank": 314,
+    "Type": "qui",
+    "ColorBlock": 845,
+    "IconHint": "rem",
+    "Selected": false,
+    "LastChanged": "2014-11-09T02:49:52.5315748+01:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Hermiston, Graham and O'Kon",
-        "ToolTip": "Natus aperiam repellendus voluptatibus repellat libero.",
+        "Id": 423,
+        "Name": "Stokes Inc and Sons",
+        "ToolTip": "Voluptatem totam nemo ea.",
         "Deleted": false,
-        "Rank": 610,
-        "Type": "ab",
-        "ColorBlock": 59,
-        "IconHint": "sint",
+        "Rank": 297,
+        "Type": "ullam",
+        "ColorBlock": 245,
+        "IconHint": "ratione",
         "Selected": true,
-        "LastChanged": "1996-06-17T11:10:54.6299022+02:00",
+        "LastChanged": "2019-09-13T02:49:52.5315748+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "nam",
-        "Hidden": false,
-        "FullName": "Mrs. Deshaun Thelma Harris"
+        "ExtraInfo": "est",
+        "StyleHint": "culpa",
+        "Hidden": true,
+        "FullName": "Chyna Warren Zulauf DVM"
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "maiores",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Birdie Crooks"
+    "FullName": "Kallie Hahn Sr."
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Powlowski-Gulgowski",
-    "ToolTip": "Quaerat ratione sunt officia.",
-    "Deleted": false,
-    "Rank": 183,
-    "Type": "ut",
-    "ColorBlock": 760,
-    "IconHint": "quia",
+    "Id": 123,
+    "Name": "Heaney Inc and Sons",
+    "ToolTip": "Beatae quisquam tenetur eos et dignissimos natus.",
+    "Deleted": true,
+    "Rank": 87,
+    "Type": "est",
+    "ColorBlock": 761,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2021-11-06T11:10:54.6319022+01:00",
+    "LastChanged": "2011-05-21T02:49:52.5315748+02:00",
     "ChildItems": [
       {
-        "Id": 660,
-        "Name": "Reinger-Beier",
-        "ToolTip": "Ipsa sunt non qui dolor aperiam veniam.",
-        "Deleted": false,
-        "Rank": 696,
-        "Type": "perferendis",
-        "ColorBlock": 654,
-        "IconHint": "quo",
-        "Selected": false,
-        "LastChanged": "2010-04-25T11:10:54.632902+02:00",
+        "Id": 658,
+        "Name": "Dibbert-Harvey",
+        "ToolTip": "Animi dolores aut qui quia.",
+        "Deleted": true,
+        "Rank": 552,
+        "Type": "provident",
+        "ColorBlock": 680,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "2020-03-09T02:49:52.5315748+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "recusandae",
-        "Hidden": true,
-        "FullName": "Jovani Ratke DVM",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Amy Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 879
+            "FieldType": "System.String",
+            "FieldLength": 928
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "esse",
-    "Hidden": true,
-    "FullName": "Skylar Murazik",
+    "ExtraInfo": "id",
+    "StyleHint": "deleniti",
+    "Hidden": false,
+    "FullName": "Kelly Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 451
+        "FieldLength": 69
       }
     }
   }

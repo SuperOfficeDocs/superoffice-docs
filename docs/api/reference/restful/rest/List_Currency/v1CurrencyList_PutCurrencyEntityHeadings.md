@@ -11,7 +11,14 @@ PUT /api/v1/List/Currency/Headings
 
 Saves headings for the CurrencyEntity list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 717,
-    "Name": "Abbott Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 140,
-    "UdListDefinitionId": 629
+    "HeadingId": 455,
+    "Name": "Grady Group",
+    "Tooltip": "similique",
+    "Deleted": false,
+    "Rank": 478,
+    "UdListDefinitionId": 354
   },
   {
-    "HeadingId": 717,
-    "Name": "Abbott Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 140,
-    "UdListDefinitionId": 629
+    "HeadingId": 455,
+    "Name": "Grady Group",
+    "Tooltip": "similique",
+    "Deleted": false,
+    "Rank": 478,
+    "UdListDefinitionId": 354
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 431,
-    "Name": "Marquardt, Senger and Stark",
-    "Tooltip": "qui",
+    "HeadingId": 658,
+    "Name": "Ruecker-Casper",
+    "Tooltip": "quia",
     "Deleted": true,
-    "Rank": 551,
-    "UdListDefinitionId": 488,
+    "Rank": 515,
+    "UdListDefinitionId": 833,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldType": "System.String",
+        "FieldLength": 18
       }
     }
   }

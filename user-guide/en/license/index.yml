@@ -1,0 +1,91 @@
+### YamlMime:SubCategory
+
+title: User administration and system settings
+summary: "Learn about licenses, roles and users, languages and localizations, how to import external content, and how our AI services work."
+
+metadata:
+  title: User administration and system settings
+  description: ""
+  so.product: administration
+  so.topic: landing-page
+  author: Help & Learn
+  so.author: helplearn
+  so.date: 11.29.2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Licenses
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: License overview
+          url: overview.md
+        - text: The licences screen
+          url: screen/index.md
+        - text: Activate license
+          url: activate.md
+
+  # Card
+  - title: User management
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Roles
+          url: ../user-management/role/index.md
+        - text: Create a role
+          url: ../user-management/role/create-role.md
+        - text: Users
+          url: ../user-management/index.md
+        - text: Add users
+          url: ../user-management/add-associate.md
+        - text: Update user information
+          url: ../user-management/update-user.md
+        - text: Create user groups
+          url: ../user-management/create-user-group.md
+        - text: Add company in the Our companies tab
+          url: ../user-management/add-our-companies.md
+      
+  # Card
+  - title: Languages and localization
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Change the language version
+          url: ../globalization/change-language.md
+        - text: Time zones
+          url: ../globalization/time-zones.md
+        - text: Translation
+          url: ../globalization/translate-fields.md
+        - text: Language support for documents
+          url: ../globalization/doc-language-support.md
+
+  # Card
+  - title: Import
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Configure import settings
+          url: ../import/configure-import-settings.md
+        - text: Import from Excel
+          url: ../import/import-from-excel.md
+        - text: Import products from Excel
+          url: ../import/import-products-from-excel.md
+        - text: Import from Gmail
+          url: ../import/import-from-gmail.md
+        - text: Import from Outlook
+          url: ../import/import-from-outlook.md
+        - text: Import from ERP
+          url: ../import/import-from-erp.md
+
+  # Card
+  - title: AI
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Categorization
+          url: ../ai/categorization.md
+        - text: Text analysis
+          url: ../ai/text-analysis.md

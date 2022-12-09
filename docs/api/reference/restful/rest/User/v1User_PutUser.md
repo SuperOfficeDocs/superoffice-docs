@@ -11,11 +11,19 @@ PUT /api/v1/User/{id}
 
 Updates the existing User
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The User id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +34,7 @@ Updates the existing User
 ```http
 PUT /api/v1/User/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -41,9 +50,9 @@ PUT /api/v1/User/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The User to be saved.
+The User to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +82,8 @@ The User to be saved.
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 
-## Response
+
+## Response: 
 
 User updated.
 
@@ -82,7 +92,7 @@ User updated.
 | 200 | User updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -125,14 +135,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 265,
-  "Name": "Cassin-Hettinger",
-  "Rank": 729,
-  "Tooltip": "quo",
+  "AssociateId": 978,
+  "Name": "Kshlerin, Kling and Mertz",
+  "Rank": 322,
+  "Tooltip": "soluta",
   "LicenseOwners": [
     {
-      "Name": "Sporer, Corkery and Hammes",
-      "Description": "Realigned system-worthy matrices",
+      "Name": "Muller-Schamberger",
+      "Description": "Managed static hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,8 +153,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Sporer, Corkery and Hammes",
-      "Description": "Realigned system-worthy matrices",
+      "Name": "Muller-Schamberger",
+      "Description": "Managed static hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -159,87 +169,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "enim",
-      "Tooltip": "totam",
-      "Id": 770,
-      "Rank": 931,
-      "Deleted": true
+      "Value": "voluptatem",
+      "Tooltip": "ut",
+      "Id": 140,
+      "Rank": 6,
+      "Deleted": false
     },
     {
-      "Value": "enim",
-      "Tooltip": "totam",
-      "Id": 770,
-      "Rank": 931,
-      "Deleted": true
+      "Value": "voluptatem",
+      "Tooltip": "ut",
+      "Id": 140,
+      "Rank": 6,
+      "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2018-04-19T11:10:53.8131839+02:00",
-  "Lastlogout": "1996-01-23T11:10:53.8131839+01:00",
-  "EjUserId": 193,
-  "RequestSignature": "dolorum",
+  "Lastlogin": "2020-01-13T02:49:51.796023+01:00",
+  "Lastlogout": "2000-03-17T02:49:51.796023+01:00",
+  "EjUserId": 30,
+  "RequestSignature": "vero",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "qui"
+      "Value": "provident",
+      "DisplayValue": "mollitia"
     },
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "qui"
+      "Value": "provident",
+      "DisplayValue": "mollitia"
     }
   ],
-  "UserName": "Cartwright, Beatty and White",
+  "UserName": "Nikolaus LLC",
   "TicketCategories": [
     {
-      "Id": 860,
-      "Name": "Greenholt, Kris and Koelpin",
-      "ToolTip": "Ut fugiat similique.",
+      "Id": 466,
+      "Name": "Baumbach LLC",
+      "ToolTip": "Nostrum explicabo.",
       "Deleted": false,
-      "Rank": 924,
-      "Type": "quis",
+      "Rank": 985,
+      "Type": "voluptas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quia",
-      "ColorBlock": 883,
-      "ExtraInfo": "beatae",
-      "StyleHint": "sunt",
-      "FullName": "Ursula Robel I"
+      "IconHint": "et",
+      "ColorBlock": 27,
+      "ExtraInfo": "et",
+      "StyleHint": "alias",
+      "FullName": "Graciela Pfeffer"
     }
   ],
-  "NickName": "Hagenes-Zboncak",
-  "WaitingForApproval": true,
+  "NickName": "Schumm Inc and Sons",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "et"
   },
   "PostSaveCommands": [
     {
-      "Name": "Blanda, McGlynn and Gorczany",
-      "DisplayName": "Rau Group",
-      "Description": "Progressive asynchronous groupware",
-      "ToolTip": "Voluptas provident.",
+      "Name": "Christiansen Group",
+      "DisplayName": "Gusikowski Group",
+      "Description": "Extended incremental encryption",
+      "ToolTip": "Harum voluptatem vel.",
       "Actions": "Implicit",
-      "ActionData": "neque"
+      "ActionData": "quidem"
     },
     {
-      "Name": "Blanda, McGlynn and Gorczany",
-      "DisplayName": "Rau Group",
-      "Description": "Progressive asynchronous groupware",
-      "ToolTip": "Voluptas provident.",
+      "Name": "Christiansen Group",
+      "DisplayName": "Gusikowski Group",
+      "Description": "Extended incremental encryption",
+      "ToolTip": "Harum voluptatem vel.",
       "Actions": "Implicit",
-      "ActionData": "neque"
+      "ActionData": "quidem"
     }
   ]
 }
@@ -252,14 +262,14 @@ HTTP/1.1 200 User updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 152,
-  "Name": "Hettinger, Pollich and Moen",
-  "Rank": 483,
-  "Tooltip": "est",
+  "AssociateId": 900,
+  "Name": "Kulas-Schamberger",
+  "Rank": 691,
+  "Tooltip": "facilis",
   "LicenseOwners": [
     {
-      "Name": "Walter-Walter",
-      "Description": "Secured disintermediate methodology",
+      "Name": "Predovic-Hirthe",
+      "Description": "Future-proofed stable initiative",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -273,13 +283,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 463
         }
       }
     },
     {
-      "Name": "Walter-Walter",
-      "Description": "Secured disintermediate methodology",
+      "Name": "Predovic-Hirthe",
+      "Description": "Future-proofed stable initiative",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -293,7 +303,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 463
         }
       }
     }
@@ -302,110 +312,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "rerum",
-      "Tooltip": "commodi",
-      "Id": 898,
-      "Rank": 538,
+      "Value": "aperiam",
+      "Tooltip": "provident",
+      "Id": 533,
+      "Rank": 228,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldType": "System.Int32",
+          "FieldLength": 981
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "1995-06-18T11:10:53.8182132+02:00",
-  "Lastlogout": "2020-06-02T11:10:53.8182132+02:00",
-  "EjUserId": 347,
-  "RequestSignature": "cumque",
+  "Deleted": true,
+  "Lastlogin": "1995-07-31T02:49:51.8116461+02:00",
+  "Lastlogout": "2015-12-02T02:49:51.8116461+01:00",
+  "EjUserId": 244,
+  "RequestSignature": "autem",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "veritatis",
-      "DisplayValue": "labore",
+      "Value": "aut",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 886
+          "FieldLength": 803
         }
       }
     },
     {
       "Type": null,
-      "Value": "veritatis",
-      "DisplayValue": "labore",
+      "Value": "aut",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 886
+          "FieldLength": 803
         }
       }
     }
   ],
-  "UserName": "Lakin, Kub and Rau",
+  "UserName": "Klocko LLC",
   "TicketCategories": [
     {
-      "Id": 75,
-      "Name": "Ernser Group",
-      "ToolTip": "Libero aut a.",
+      "Id": 353,
+      "Name": "Hintz LLC",
+      "ToolTip": "Cum quaerat eos dolores.",
       "Deleted": false,
-      "Rank": 470,
-      "Type": "alias",
+      "Rank": 425,
+      "Type": "maxime",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quisquam",
-      "ColorBlock": 560,
-      "ExtraInfo": "quis",
-      "StyleHint": "eaque",
-      "FullName": "Mrs. Ashly Bell Pfeffer Sr.",
+      "IconHint": "debitis",
+      "ColorBlock": 158,
+      "ExtraInfo": "dolor",
+      "StyleHint": "dolor",
+      "FullName": "Cara Friesen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 298
+          "FieldLength": 115
         }
       }
     }
   ],
-  "NickName": "Durgan Inc and Sons",
+  "NickName": "Krajcik, Schaefer and Marquardt",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "doloribus",
-    "CustomFields2": "neque"
+    "CustomFields1": "et",
+    "CustomFields2": "nulla"
   },
   "PostSaveCommands": [
     {
-      "Name": "Johns LLC",
-      "DisplayName": "Herman Group",
-      "Description": "Cloned neutral protocol",
-      "ToolTip": "Et iste aperiam labore corrupti.",
+      "Name": "Schinner, Hagenes and Prosacco",
+      "DisplayName": "Osinski Group",
+      "Description": "Adaptive demand-driven hub",
+      "ToolTip": "Id qui.",
       "Actions": "Implicit",
-      "ActionData": "natus",
+      "ActionData": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 236
+          "FieldType": "System.Int32",
+          "FieldLength": 512
         }
       }
     }
@@ -414,8 +424,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldType": "System.String",
+      "FieldLength": 215
     }
   },
   "_Links": {

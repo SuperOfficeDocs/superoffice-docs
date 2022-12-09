@@ -11,13 +11,21 @@ PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 
 Validate a CRMScript.
 
+
 This will check that the syntax is correct
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | triggerScriptUniqueId | string | The unique id of the CRMScript to validate **Required** |
+
+
 
 ## Request Headers
 
@@ -33,9 +41,9 @@ This will check that the syntax is correct
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-Trigger script details and source code
+Trigger script details and source code 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,13 +52,14 @@ Trigger script details and source code
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -58,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +76,7 @@ Response body:
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -85,16 +94,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 488,
-  "Name": "Pagac-Sauer",
+  "ScreenChooserId": 108,
+  "Name": "Schaden-Waelchi",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "unde",
-  "Source": "numquam",
-  "Registered": "2021-06-30T11:10:53.6702128+02:00",
-  "RegisteredAssociateId": 218,
-  "Updated": "2022-03-25T11:10:53.6702128+01:00",
-  "UpdatedAssociateId": 88
+  "UniqueIdentifier": "iure",
+  "Source": "et",
+  "Registered": "1998-04-17T02:49:51.6710218+02:00",
+  "RegisteredAssociateId": 756,
+  "Updated": "2018-09-12T02:49:51.6710218+02:00",
+  "UpdatedAssociateId": 455
 }
 ```
 
@@ -105,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 368,
-  "Name": "Schinner, Feeney and McClure",
+  "ScreenChooserId": 958,
+  "Name": "Hermiston LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "ut",
-  "Source": "officiis",
-  "Registered": "2011-11-04T11:10:53.6712133+01:00",
-  "RegisteredAssociateId": 344,
-  "Updated": "2002-08-26T11:10:53.6712133+02:00",
-  "UpdatedAssociateId": 74,
+  "Enabled": false,
+  "UniqueIdentifier": "rerum",
+  "Source": "et",
+  "Registered": "2017-07-18T02:49:51.6710218+02:00",
+  "RegisteredAssociateId": 920,
+  "Updated": "2018-08-21T02:49:51.6710218+02:00",
+  "UpdatedAssociateId": 354,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 497
     }
   }
 }

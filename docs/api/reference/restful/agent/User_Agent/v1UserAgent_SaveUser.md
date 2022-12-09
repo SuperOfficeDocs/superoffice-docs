@@ -11,7 +11,16 @@ POST /api/v1/Agents/User/SaveUser
 
 Updates the existing User or creates a new User if the id parameter is empty
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Updates the existing User or creates a new User if the id parameter is empty
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The User to be saved.
+The User to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +68,8 @@ The User to be saved.
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -67,7 +77,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,14 +119,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 816,
-  "Name": "Denesik, Bogan and Reinger",
-  "Rank": 920,
-  "Tooltip": "nulla",
+  "AssociateId": 135,
+  "Name": "Stanton Inc and Sons",
+  "Rank": 488,
+  "Tooltip": "dolorum",
   "LicenseOwners": [
     {
-      "Name": "Ullrich-Oberbrunner",
-      "Description": "Distributed multi-state circuit",
+      "Name": "Hoppe, Nader and Predovic",
+      "Description": "Open-architected holistic workforce",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -127,8 +137,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Ullrich-Oberbrunner",
-      "Description": "Distributed multi-state circuit",
+      "Name": "Hoppe, Nader and Predovic",
+      "Description": "Open-architected holistic workforce",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,87 +153,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "omnis",
-      "Tooltip": "quo",
-      "Id": 191,
-      "Rank": 326,
-      "Deleted": true
+      "Value": "odio",
+      "Tooltip": "accusantium",
+      "Id": 940,
+      "Rank": 940,
+      "Deleted": false
     },
     {
-      "Value": "omnis",
-      "Tooltip": "quo",
-      "Id": 191,
-      "Rank": 326,
-      "Deleted": true
+      "Value": "odio",
+      "Tooltip": "accusantium",
+      "Id": 940,
+      "Rank": 940,
+      "Deleted": false
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2019-11-28T11:10:28.3702073+01:00",
-  "Lastlogout": "1997-12-28T11:10:28.3702073+01:00",
-  "EjUserId": 249,
-  "RequestSignature": "quia",
+  "Deleted": false,
+  "Lastlogin": "2009-06-23T02:49:45.6403441+02:00",
+  "Lastlogout": "2005-02-06T02:49:45.6403441+01:00",
+  "EjUserId": 513,
+  "RequestSignature": "quo",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "perferendis",
-      "DisplayValue": "quia"
+      "Value": "quia",
+      "DisplayValue": "veniam"
     },
     {
       "Type": null,
-      "Value": "perferendis",
-      "DisplayValue": "quia"
+      "Value": "quia",
+      "DisplayValue": "veniam"
     }
   ],
-  "UserName": "Lehner-Cartwright",
+  "UserName": "Kunze, Balistreri and Thiel",
   "TicketCategories": [
     {
-      "Id": 867,
-      "Name": "Huels Group",
-      "ToolTip": "Est et debitis doloribus sed quia ex quia.",
+      "Id": 202,
+      "Name": "Heller, Lemke and Runolfsdottir",
+      "ToolTip": "Neque quae aspernatur magni molestiae.",
       "Deleted": true,
-      "Rank": 746,
-      "Type": "aut",
+      "Rank": 447,
+      "Type": "omnis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "iste",
-      "ColorBlock": 549,
-      "ExtraInfo": "quisquam",
-      "StyleHint": "quod",
-      "FullName": "Dr. Damon Kshlerin"
+      "IconHint": "nobis",
+      "ColorBlock": 171,
+      "ExtraInfo": "sit",
+      "StyleHint": "aperiam",
+      "FullName": "Orlo Kautzer"
     }
   ],
-  "NickName": "Gusikowski Group",
+  "NickName": "Bruen Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "similique",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "possimus"
   },
   "CustomFields": {
-    "CustomFields1": "vero",
-    "CustomFields2": "enim"
+    "CustomFields1": "veniam",
+    "CustomFields2": "dolorum"
   },
   "PostSaveCommands": [
     {
-      "Name": "Beahan-Wilderman",
-      "DisplayName": "Sawayn-Marks",
-      "Description": "Reverse-engineered 5th generation concept",
-      "ToolTip": "Dolores qui harum odio cumque voluptate est.",
+      "Name": "Metz, Morissette and Schmitt",
+      "DisplayName": "Senger-Becker",
+      "Description": "Function-based static open architecture",
+      "ToolTip": "Pariatur asperiores rerum cupiditate quis in.",
       "Actions": "Implicit",
-      "ActionData": "doloremque"
+      "ActionData": "eligendi"
     },
     {
-      "Name": "Beahan-Wilderman",
-      "DisplayName": "Sawayn-Marks",
-      "Description": "Reverse-engineered 5th generation concept",
-      "ToolTip": "Dolores qui harum odio cumque voluptate est.",
+      "Name": "Metz, Morissette and Schmitt",
+      "DisplayName": "Senger-Becker",
+      "Description": "Function-based static open architecture",
+      "ToolTip": "Pariatur asperiores rerum cupiditate quis in.",
       "Actions": "Implicit",
-      "ActionData": "doloremque"
+      "ActionData": "eligendi"
     }
   ]
 }
@@ -236,14 +246,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 264,
-  "Name": "Gulgowski, Auer and Baumbach",
-  "Rank": 621,
-  "Tooltip": "reprehenderit",
+  "AssociateId": 983,
+  "Name": "Weissnat LLC",
+  "Rank": 852,
+  "Tooltip": "atque",
   "LicenseOwners": [
     {
-      "Name": "VonRueden, Kovacek and Raynor",
-      "Description": "Adaptive actuating Graphic Interface",
+      "Name": "Medhurst, Kub and Beier",
+      "Description": "Face to face bi-directional approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -257,13 +267,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 440
         }
       }
     },
     {
-      "Name": "VonRueden, Kovacek and Raynor",
-      "Description": "Adaptive actuating Graphic Interface",
+      "Name": "Medhurst, Kub and Beier",
+      "Description": "Face to face bi-directional approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -277,7 +287,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 440
         }
       }
     }
@@ -286,110 +296,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "et",
-      "Tooltip": "doloribus",
-      "Id": 679,
-      "Rank": 472,
-      "Deleted": true,
+      "Value": "perferendis",
+      "Tooltip": "ut",
+      "Id": 848,
+      "Rank": 644,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldLength": 22
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2008-11-21T11:10:28.3752067+01:00",
-  "Lastlogout": "2021-08-09T11:10:28.3752067+02:00",
-  "EjUserId": 42,
-  "RequestSignature": "rerum",
+  "Deleted": false,
+  "Lastlogin": "2020-09-21T02:49:45.6403441+02:00",
+  "Lastlogout": "2010-07-21T02:49:45.6403441+02:00",
+  "EjUserId": 966,
+  "RequestSignature": "voluptatibus",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "omnis",
-      "DisplayValue": "dolore",
+      "Value": "earum",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldLength": 836
         }
       }
     },
     {
       "Type": null,
-      "Value": "omnis",
-      "DisplayValue": "dolore",
+      "Value": "earum",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldLength": 836
         }
       }
     }
   ],
-  "UserName": "White Group",
+  "UserName": "Gerhold-Lehner",
   "TicketCategories": [
     {
-      "Id": 949,
-      "Name": "Schuster Group",
-      "ToolTip": "Ducimus officia quod saepe ut cum.",
+      "Id": 174,
+      "Name": "Hills, Collins and Kerluke",
+      "ToolTip": "Perferendis cupiditate ratione.",
       "Deleted": false,
-      "Rank": 939,
-      "Type": "optio",
+      "Rank": 400,
+      "Type": "velit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "reprehenderit",
-      "ColorBlock": 760,
-      "ExtraInfo": "enim",
-      "StyleHint": "magnam",
-      "FullName": "Mr. Kylee Eugene Murazik III",
+      "IconHint": "eos",
+      "ColorBlock": 575,
+      "ExtraInfo": "aut",
+      "StyleHint": "aut",
+      "FullName": "Joe Sanford",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 254
         }
       }
     }
   ],
-  "NickName": "Bosco LLC",
-  "WaitingForApproval": true,
+  "NickName": "Dibbert, Sanford and Hamill",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
     "CustomFields1": "asperiores",
-    "CustomFields2": "debitis"
+    "CustomFields2": "sed"
   },
   "PostSaveCommands": [
     {
-      "Name": "O'Hara-Ledner",
-      "DisplayName": "Pouros-Stamm",
-      "Description": "Quality-focused background project",
-      "ToolTip": "Sapiente facilis dignissimos quis.",
+      "Name": "Eichmann-Zieme",
+      "DisplayName": "Walker-Weimann",
+      "Description": "Polarised full-range local area network",
+      "ToolTip": "Possimus aut harum.",
       "Actions": "Implicit",
-      "ActionData": "enim",
+      "ActionData": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 101
+          "FieldType": "System.Int32",
+          "FieldLength": 712
         }
       }
     }
@@ -398,8 +408,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   }
 }

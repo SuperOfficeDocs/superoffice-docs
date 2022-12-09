@@ -1,8 +1,8 @@
 <!-- markdownlint-disable-file MD041 -->
-When the import is complete, two lists will be displayed:
+When the import finishes, two lists are displayed:
 
-* New companies/contacts which have been imported.
-* Existing companies/contacts which have been changed as a result of the import.
+* New companies and contacts that were imported.
+* Existing companies and contacts that were changed as a result of the import.
 
 Above each list is a link to the selection with the new/changed companies/contacts.
 

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GenerateFollowUps
 
 Generate follow-ups for members in the selection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Generate follow-ups for members in the selection.
 ```http
 POST /api/v1/Agents/Selection/GenerateFollowUps?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/Selection/GenerateFollowUps?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, AppointmentEntity, AssociateId, SaveOnContactOwner, UniqueContact
+SelectionId, AppointmentEntity, AssociateId, SaveOnContactOwner, UniqueContact 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +50,8 @@ SelectionId, AppointmentEntity, AssociateId, SaveOnContactOwner, UniqueContact
 | SaveOnContactOwner | bool |  |
 | UniqueContact | bool |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -51,7 +59,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -63,11 +72,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 447,
+  "SelectionId": 297,
   "AppointmentEntity": null,
-  "AssociateId": 737,
+  "AssociateId": 718,
   "SaveOnContactOwner": false,
-  "UniqueContact": false
+  "UniqueContact": true
 }
 ```
 

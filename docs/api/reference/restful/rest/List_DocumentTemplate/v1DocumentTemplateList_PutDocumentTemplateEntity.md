@@ -11,11 +11,18 @@ PUT /api/v1/List/DocumentTemplate/Items/{id}
 
 Updates the existing DocumentTemplateEntity
 
+
 Calls the List agent service SaveDocumentTemplateEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of DocumentTemplateEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveDocumentTemplateEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of DocumentTemplateEntity to be saved.
+The details of DocumentTemplateEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +70,8 @@ The details of DocumentTemplateEntity to be saved.
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -72,7 +80,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -114,30 +122,30 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 562,
-  "Name": "Shields-Dicki",
-  "Tooltip": "doloribus",
-  "SaveInDb": 184,
-  "Filename": "illum",
-  "DefaultOref": "mollitia",
+  "DocumentTemplateId": 491,
+  "Name": "Senger LLC",
+  "Tooltip": "sunt",
+  "SaveInDb": 693,
+  "Filename": "vel",
+  "DefaultOref": "incidunt",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 12,
-  "IntentId": 453,
+  "AutoeventId": 901,
+  "IntentId": 275,
   "IsDefaultPublished": false,
-  "Rank": 400,
-  "LoadTemplateFromPlugin": 346,
-  "MimeType": "corporis",
+  "Rank": 423,
+  "LoadTemplateFromPlugin": 236,
+  "MimeType": "ab",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 930,
+  "DocumentTypeKey": 780,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "leilani_ullrich@howell.co.uk",
+  "EmailSubject": "josie.langosh@howe.uk",
   "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "pink@schumm.co.uk",
+  "SenderEmailAddress": "miracle.gislason@schadengutkowski.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -149,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 186,
-  "Name": "Fisher-Fay",
-  "Tooltip": "alias",
-  "SaveInDb": 915,
-  "Filename": "vel",
-  "DefaultOref": "tempore",
+  "DocumentTemplateId": 744,
+  "Name": "Hermiston-Schowalter",
+  "Tooltip": "itaque",
+  "SaveInDb": 448,
+  "Filename": "aut",
+  "DefaultOref": "eos",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 552,
-  "IntentId": 432,
+  "AutoeventId": 880,
+  "IntentId": 732,
   "IsDefaultPublished": false,
-  "Rank": 88,
-  "LoadTemplateFromPlugin": 857,
-  "MimeType": "hic",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 544,
+  "Rank": 538,
+  "LoadTemplateFromPlugin": 620,
+  "MimeType": "aut",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 958,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "spencer@morissette.biz",
-  "IncludeSignature": true,
+  "EmailSubject": "mona_huel@oberbrunner.ca",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "buster_hegmann@oconnell.name",
+  "SenderEmailAddress": "bridgette@jakubowskimckenzie.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 472
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 
 Creates a temporary selection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a temporary selection.
 ```http
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,8 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelection?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -42,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,7 +104,7 @@ Response body:
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -106,70 +114,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persevering systemic paradigm",
-  "Postit": "deserunt",
+  "Description": "Cloned intangible strategy",
+  "Postit": "nemo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 220,
-  "IncludePerson": 522,
-  "MemberCount": 333,
-  "Name": "Leuschke, Monahan and Braun",
-  "PostitTextId": 801,
-  "CreatedDate": "2006-11-01T11:10:27.92398+01:00",
-  "SelectionId": 302,
-  "SoundEx": "quae",
-  "Source": 365,
-  "TextId": 984,
-  "UpdatedDate": "2006-03-16T11:10:27.92398+01:00",
-  "UpdatedCount": 115,
-  "Visibility": 856,
+  "GroupIdx": 657,
+  "IncludePerson": 823,
+  "MemberCount": 945,
+  "Name": "Connelly-Leffler",
+  "PostitTextId": 580,
+  "CreatedDate": "2010-12-02T02:49:45.3903386+01:00",
+  "SelectionId": 502,
+  "SoundEx": "sed",
+  "Source": 281,
+  "TextId": 979,
+  "UpdatedDate": "1999-07-30T02:49:45.3903386+02:00",
+  "UpdatedCount": 254,
+  "Visibility": 885,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 122,
-  "TargetTableName": "Raynor LLC",
-  "Completed": false,
-  "LeftSelectionId": 797,
-  "RightSelectionId": 557,
+  "CompanyUnique": false,
+  "TargetTableNumber": 559,
+  "TargetTableName": "Steuber Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 699,
+  "RightSelectionId": 506,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Zieme-Kulas",
-  "ShadowProviderName": "Reinger, Heathcote and Wehner",
-  "ChartKey": "maiores",
-  "LastLoaded": "2007-08-21T11:10:27.9259798+02:00",
-  "LastLoadedBy": 492,
+  "MainProviderName": "Langworth Inc and Sons",
+  "ShadowProviderName": "Ziemann LLC",
+  "ChartKey": "repellat",
+  "LastLoaded": "2006-07-24T02:49:45.3903386+02:00",
+  "LastLoadedBy": 602,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-06-24T11:10:27.9259798+02:00",
-  "LastMembershipChangeBy": 794,
+  "LastMembershipChange": "2018-02-06T02:49:45.3903386+01:00",
+  "LastMembershipChangeBy": 101,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "velit",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Oberbrunner-Schultz",
-  "DashboardTileDefinitionId": 747,
+  "MainHeading": "aut",
+  "MemberTabHeading": "sed",
+  "MailingsProviderName": "Doyle, Kozey and Gulgowski",
+  "DashboardTileDefinitionId": 382,
   "VisibleFor": [
     {
-      "VisibleId": 472,
+      "VisibleId": 85,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 313
+          "FieldType": "System.String",
+          "FieldLength": 116
         }
       }
     },
     {
-      "VisibleId": 472,
+      "VisibleId": 85,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 313
+          "FieldType": "System.String",
+          "FieldLength": 116
         }
       }
     }
@@ -179,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 159
+      "FieldLength": 240
     }
   }
 }

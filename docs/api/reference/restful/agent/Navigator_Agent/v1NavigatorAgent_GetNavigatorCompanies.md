@@ -9,6 +9,14 @@ uid: v1NavigatorAgent_GetNavigatorCompanies
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 ```http
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,13 +42,14 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompanies?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name
+Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
+
 
 ## Response: array
 
@@ -69,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kessler-Schumm"
+  "Name": "Schiller-Bailey"
 }
 ```
 
@@ -81,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Value": "praesentium",
-    "Tooltip": "labore",
+    "Id": 203,
+    "Value": "cumque",
+    "Tooltip": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldLength": 908
       }
     }
   },
   {
-    "Id": 825,
-    "Value": "praesentium",
-    "Tooltip": "labore",
+    "Id": 203,
+    "Value": "cumque",
+    "Tooltip": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldLength": 908
       }
     }
   }

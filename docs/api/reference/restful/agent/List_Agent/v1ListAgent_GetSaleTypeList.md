@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetSaleTypeList
 
 Gets an array of SaleType objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of SaleType objects.
 ```http
 POST /api/v1/Agents/List/GetSaleTypeList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetSaleTypeList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: saleTypeIds
+## Request Body: saleTypeIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -74,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 227,
-    "Value": "dicta",
-    "Tooltip": "saepe",
+    "Id": 439,
+    "Value": "est",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 729
+        "FieldType": "System.Int32",
+        "FieldLength": 274
       }
     }
   },
   {
-    "Id": 227,
-    "Value": "dicta",
-    "Tooltip": "saepe",
+    "Id": 439,
+    "Value": "est",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 729
+        "FieldType": "System.Int32",
+        "FieldLength": 274
       }
     }
   }

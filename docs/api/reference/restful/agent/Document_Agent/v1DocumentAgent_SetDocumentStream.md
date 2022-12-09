@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/SetDocumentStream
 
 Store a document's contents from its stream.
 
+
 Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Since there is a potential for a name conflict (the file name stored by the docu
 ```http
 POST /api/v1/Agents/Document/SetDocumentStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/SetDocumentStream?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentEntity, Stream, OverwriteExistingData
+DocumentEntity, Stream, OverwriteExistingData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ DocumentEntity, Stream, OverwriteExistingData
 | Stream | byte |  |
 | OverwriteExistingData | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,7 +110,7 @@ Response body:
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 834,
+  "DocumentId": 984,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quo",
-  "Header": "tempora",
-  "Name": "Ryan Inc and Sons",
-  "OurRef": "et",
-  "YourRef": "consequatur",
-  "CreatedDate": "2007-11-27T11:10:26.5434525+01:00",
-  "UpdatedDate": "2017-12-14T11:10:26.5434525+01:00",
-  "Description": "Public-key 24 hour access",
+  "Attention": "quis",
+  "Header": "necessitatibus",
+  "Name": "Hilll-Kertzmann",
+  "OurRef": "ut",
+  "YourRef": "quasi",
+  "CreatedDate": "2021-10-31T02:49:44.1378852+01:00",
+  "UpdatedDate": "2011-01-11T02:49:44.1378852+01:00",
+  "Description": "Fully-configurable full-range flexibility",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-08-01T11:10:26.5464533+02:00",
-  "ExternalRef": "quis",
+  "Date": "2018-09-09T02:49:44.1535094+02:00",
+  "ExternalRef": "expedita",
   "Completed": "Completed",
-  "ActiveLinks": 971,
+  "ActiveLinks": 158,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jenkins, Larson and Berge",
-      "Id": 674,
-      "Description": "Persevering scalable artificial intelligence",
-      "ExtraInfo": "est",
-      "LinkId": 985,
+      "EntityName": "Smith-Farrell",
+      "Id": 565,
+      "Description": "Digitized heuristic forecast",
+      "ExtraInfo": "natus",
+      "LinkId": 159,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldLength": 30
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 202,
-  "Snum": 630,
+  "SuggestedDocumentId": 805,
+  "Snum": 774,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "773928158"
+    "SuperOffice:1": "Johanna Bartoletti",
+    "SuperOffice:2": "1873981123"
   },
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "unde",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "nisi",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "1998-11-22T11:10:26.5474525+01:00",
-  "PublishTo": "2007-12-26T11:10:26.5474525+01:00",
-  "PublishFrom": "2021-12-02T11:10:26.5474525+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-04-30T02:49:44.1535094+02:00",
+  "PublishTo": "2009-11-22T02:49:44.1535094+01:00",
+  "PublishFrom": "2011-02-20T02:49:44.1535094+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 366,
+      "VisibleId": 123,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 828
+          "FieldLength": 935
         }
       }
     },
     {
-      "VisibleId": 366,
+      "VisibleId": 123,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 828
+          "FieldLength": 935
         }
       }
     }
@@ -209,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldType": "System.String",
+      "FieldLength": 305
     }
   }
 }

@@ -11,11 +11,18 @@ GET /api/v1/Preference/{section}
 
 Gets a list of the preference keys in a section
 
+
 Calls the MDO agent service GetList('preferenceKey').
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The name of the preference section. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the MDO agent service GetList('preferenceKey').
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -63,7 +71,7 @@ Response body: array
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,50 +82,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 969,
-    "Name": "Ratke-Hartmann",
-    "ToolTip": "Quia voluptatem sapiente quasi.",
-    "Deleted": false,
-    "Rank": 824,
-    "Type": "labore",
+    "Id": 477,
+    "Name": "Kihn, White and Murphy",
+    "ToolTip": "Cumque doloremque in laudantium qui quo doloribus est.",
+    "Deleted": true,
+    "Rank": 450,
+    "Type": "unde",
     "ChildItems": [
       {
-        "Id": 904,
-        "Name": "Bogan, Jast and Grant",
-        "ToolTip": "Ab ipsam.",
+        "Id": 419,
+        "Name": "Smitham, Fritsch and Renner",
+        "ToolTip": "Adipisci blanditiis porro nihil.",
         "Deleted": false,
-        "Rank": 275,
-        "Type": "aliquam",
+        "Rank": 198,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 788,
-        "ExtraInfo": "sint",
-        "StyleHint": "dolorem",
-        "FullName": "Dr. Ole Peyton Upton MD",
+        "IconHint": "repellat",
+        "ColorBlock": 17,
+        "ExtraInfo": "sunt",
+        "StyleHint": "eos",
+        "FullName": "Mrs. Margarett Madison Leuschke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 275
+            "FieldLength": 5
           }
         }
       }
     ],
-    "IconHint": "quaerat",
-    "ColorBlock": 173,
-    "ExtraInfo": "aut",
-    "StyleHint": "occaecati",
-    "FullName": "Mr. Jordi Rico Ritchie",
+    "IconHint": "repellendus",
+    "ColorBlock": 356,
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "et",
+    "FullName": "Javonte Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldType": "System.String",
+        "FieldLength": 159
       }
     }
   }

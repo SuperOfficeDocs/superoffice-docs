@@ -15,11 +15,9 @@ Save yourself some time and create your mailing using one of the free message te
 
 [!include[Note about 2 editor versions](includes/note-old-or-new-editor.md)]
 
-## Using templates from the **Online template library**
+## Using templates from the Online template library
 
 The Online template library in SuperOffice Marketing contains a wide selection of professionally designed message template. Free for use!
-
-To access these, do as follows:
 
 1. Select the **Message templates** tab.
 2. Click **Online template library**.
@@ -33,11 +31,9 @@ To access these, do as follows:
 
 In addition to the templates created by your and your colleagues, you have access to a set of ready-to-use message templates from SuperOffice.
 
-To access these, do as follows:
-
 1. Select the **Message templates** tab.
 
-2. Click **All templates** and open the **E-mail templates** folder.
+2. Click **All templates** and open the **Email templates** folder.
 
 3. If required, use the search field to find a specific template.
 
@@ -45,13 +41,11 @@ To access these, do as follows:
 
 5. Select **Create mailing**. The template opens in the [mailings wizard][1].
 
-## Create a new e-mail template
-
-To create a new e-mail template from scratch:
+## Create a new email template
 
 1. Go to the **Message templates** tab.
 2. If required, click **Add folder** to create a folder for the template.
-3. Click **Add e-mail template**. The **Edit template** screen displays.
+3. Click **Add email template**. The **Edit template** screen displays.
 4. Enter a descriptive name for the template in the **Name** field.
 5. Click the blue box (column) in the message, and edit the layout in the side-panel.
 6. Click **Add Content** in a column. The side-panel displays various content types (such as images and text) that can be added to the column.
@@ -62,8 +56,6 @@ To create a new e-mail template from scratch:
 11. Click **OK** when you are done. The new template displays in the templates list.
 
 ## Create a new SMS template
-
-To create a new SMS template from scratch:
 
 1. Go to the **Message templates** tab.
 
@@ -79,22 +71,20 @@ To create a new SMS template from scratch:
 
 1. Go to the **Mailings** tab.
 2. Click the ![icon][img1] menu button next to the mailing you want to use as a basis for the template.
-3. Select **Copy to template**. The **Edit template** screen opens.
-4. Enter a descriptive name for the template in the **Name** field.
+3. Select **Copy to template**.
+4. In the **Edit template** screen, enter a descriptive name for the template in the **Name** field.
 5. If required, click **Folder** to select a folder for the template.
-6. Make any necessary changes (as described above), and click **OK**.
+6. Make any necessary changes and click **OK**.
 
 ## Create a template based on existing template (copy)
 
 1. Go to the **Message templates** tab.
 2. Click the ![icon][img1] menu button next to the template you want to use.
-3. Select **Make copy**. The **Edit template** screen opens.
-4. Enter a descriptive name for the template in the **Name** field.
-5. Make any necessary changes (as described above), and click **OK**.
+3. Select **Make copy**.
+4. In the **Edit template** screen, enter a descriptive name for the template in the **Name** field.
+5. Make any necessary changes and click **OK**.
 
-## Import a message template
-
-To import a JSON file:
+## Import a message template (JSON file)
 
 1. Go to the **Message templates** tab.
 2. Click **Import**. The **Import** dialog displays.

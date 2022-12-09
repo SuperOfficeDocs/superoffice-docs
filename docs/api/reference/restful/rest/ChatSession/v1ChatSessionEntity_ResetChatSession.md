@@ -11,11 +11,18 @@ POST /api/v1/ChatSession/{chatSessionId}/Reset
 
 Reset chat session, put it back on the queue for pickup.
 
+
 Used by bots to hand off a session to human
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to reset **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Used by bots to hand off a session to human
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,29 +100,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 554,
-  "TopicId": 290,
+  "ChatSessionId": 450,
+  "TopicId": 591,
   "User": null,
   "Person": null,
-  "CustomerAlias": "beatae",
-  "CustomerHost": "id",
-  "CustomerName": "Brekke Inc and Sons",
-  "CustomerEmail": "ted@mclaughlinwillms.co.uk",
-  "CustomerPhone": "565.900.7159 x3142",
+  "CustomerAlias": "voluptatem",
+  "CustomerHost": "fugiat",
+  "CustomerName": "Dickinson-Braun",
+  "CustomerEmail": "willis.schoen@moen.us",
+  "CustomerPhone": "167.874.3801",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hilll, Abernathy and Pagac",
+  "CustomerCompanyName": "Grimes-Lowe",
   "Status": "Closed",
-  "FirstMessage": "consectetur",
-  "LastMessage": "at",
-  "WhenRequested": "2004-01-10T11:10:52.5611828+01:00",
-  "WhenStarted": "2011-09-06T11:10:52.5611828+02:00",
-  "WhenEnded": "2021-03-19T11:10:52.5611828+01:00",
-  "WhenIdle": "2010-10-26T11:10:52.5611828+02:00",
-  "WhenFetched": "2021-01-01T11:10:52.5611828+01:00",
-  "SessionKey": "dignissimos",
-  "InitialQueuePos": 993,
-  "AlertLevel": 102,
-  "Rank": 30,
+  "FirstMessage": "aut",
+  "LastMessage": "natus",
+  "WhenRequested": "2022-01-16T02:49:50.682786+01:00",
+  "WhenStarted": "2009-06-04T02:49:50.682786+02:00",
+  "WhenEnded": "2013-06-26T02:49:50.682786+02:00",
+  "WhenIdle": "2000-04-09T02:49:50.682786+02:00",
+  "WhenFetched": "1998-10-09T02:49:50.682786+02:00",
+  "SessionKey": "cum",
+  "InitialQueuePos": 130,
+  "AlertLevel": 373,
+  "Rank": 352,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -122,13 +130,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 389,
+  "Rating": 572,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 777
+      "FieldLength": 944
     }
   }
 }

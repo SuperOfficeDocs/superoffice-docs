@@ -11,7 +11,14 @@ GET /api/v1/Document/default
 
 Set default values into a new DocumentEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Document agent service CreateDefaultDocumentEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +89,7 @@ Response body:
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,91 +97,91 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 03 Aug 2014 11:10:52 G8T
+Last-Modified: Mon, 02 Feb 2015 02:49:50 G2T
 
 {
-  "DocumentId": 402,
+  "DocumentId": 7,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quod",
-  "Header": "unde",
-  "Name": "Kuphal, Keebler and Beier",
-  "OurRef": "cumque",
-  "YourRef": "non",
-  "CreatedDate": "2018-04-15T11:10:52.7711764+02:00",
-  "UpdatedDate": "2014-08-03T11:10:52.7711764+02:00",
-  "Description": "Multi-tiered value-added matrices",
+  "Attention": "repellendus",
+  "Header": "eligendi",
+  "Name": "Fisher-Langworth",
+  "OurRef": "laborum",
+  "YourRef": "cupiditate",
+  "CreatedDate": "2015-04-11T02:49:50.8702879+02:00",
+  "UpdatedDate": "2015-02-02T02:49:50.8702879+01:00",
+  "Description": "Universal tertiary extranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-12-28T11:10:52.774174+01:00",
-  "ExternalRef": "nemo",
+  "Date": "2010-04-30T02:49:50.8702879+02:00",
+  "ExternalRef": "aut",
   "Completed": "Completed",
-  "ActiveLinks": 307,
+  "ActiveLinks": 827,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Shields-Douglas",
-      "Id": 437,
-      "Description": "Compatible user-facing hub",
-      "ExtraInfo": "dicta",
-      "LinkId": 808,
+      "EntityName": "Metz LLC",
+      "Id": 720,
+      "Description": "Cloned motivating definition",
+      "ExtraInfo": "ex",
+      "LinkId": 855,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldType": "System.String",
+          "FieldLength": 558
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 260,
-  "Snum": 546,
+  "SuggestedDocumentId": 450,
+  "Snum": 209,
   "UserDefinedFields": {
-    "SuperOffice:1": "1273981553",
-    "SuperOffice:2": "Lauretta Roy Ruecker III"
+    "SuperOffice:1": "146805228",
+    "SuperOffice:2": "354579217"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "blanditiis"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
+    "CustomFields1": "eligendi",
     "CustomFields2": "doloribus"
   },
-  "PublishEventDate": "1996-05-09T11:10:52.7751738+02:00",
-  "PublishTo": "2012-08-23T11:10:52.7751738+02:00",
-  "PublishFrom": "2019-04-12T11:10:52.7751738+02:00",
+  "PublishEventDate": "2018-09-08T02:49:50.8702879+02:00",
+  "PublishTo": "2015-12-13T02:49:50.8702879+01:00",
+  "PublishFrom": "2021-02-13T02:49:50.8702879+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 510,
+      "VisibleId": 401,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldLength": 716
         }
       }
     },
     {
-      "VisibleId": 510,
+      "VisibleId": 401,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldLength": 716
         }
       }
     }
@@ -182,8 +190,8 @@ Last-Modified: Sun, 03 Aug 2014 11:10:52 G8T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 510
+      "FieldType": "System.Int32",
+      "FieldLength": 121
     }
   }
 }

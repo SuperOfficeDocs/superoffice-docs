@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 
 Update the criteria for this dynamic selection using string.
 
+
 Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Criteria are parsed from the OData filter form: ''name startswith 'foo' and cate
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Filter
+SelectionId, Filter 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Filter | string |  |
+
 
 ## Response: array
 
@@ -75,12 +83,12 @@ Response body: array
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 958,
-  "Filter": "voluptatibus"
+  "SelectionId": 768,
+  "Filter": "eveniet"
 }
 ```
 
@@ -92,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jast LLC",
-    "Operator": "magnam",
+    "Name": "Erdman, Ritchie and Smith",
+    "Operator": "neque",
     "Values": [
-      "laudantium",
+      "consectetur",
       "ea"
     ],
     "DisplayValues": [
-      "ut",
-      "sequi"
+      "est",
+      "excepturi"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Green, Zemlak and Kling",
-        "Operator": "ipsum",
+        "Name": "Casper Inc and Sons",
+        "Operator": "qui",
         "Values": [
-          "quos",
-          "incidunt"
+          "id",
+          "qui"
         ],
         "DisplayValues": [
-          "et",
-          "eius"
+          "eaque",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 421,
+        "InterParenthesis": 386,
         "InterOperator": "And",
-        "UniqueHash": 334
+        "UniqueHash": 388
       }
     ],
-    "InterParenthesis": 17,
+    "InterParenthesis": 890,
     "InterOperator": "And",
-    "UniqueHash": 546
+    "UniqueHash": 190
   }
 ]
 ```

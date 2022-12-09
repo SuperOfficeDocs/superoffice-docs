@@ -13,7 +13,7 @@ language: en
 
 You open the **Configure product** dialog by going to the **Quote/Sync** screen > **Settings** tab > **Configure product** button.
 
-Here you can customise the content of the **Product** dialog in SuperOffice CRM, which is where users add and edit products in the quote.
+Here you can customize the content of the **Product** dialog in SuperOffice CRM, which is where users add and edit products in the quote.
 
 ## Select language
 
@@ -41,7 +41,7 @@ The default help text for the (field name) field is shown here. This text is dis
 
 ### Editable/Mandatory
 
-Check here if the users are to be able to edit the field and/or to be obliged to fill out the field. The field will be automatically set to **Editable** if you select **Mandatory**.
+Check here if the users are to edit the field and/or to be obliged to fill out the field. The field is automatically set to **Editable** if you select **Mandatory**.
 
 > [!NOTE]
 > In some cases, these alternatives are locked for functional reasons.

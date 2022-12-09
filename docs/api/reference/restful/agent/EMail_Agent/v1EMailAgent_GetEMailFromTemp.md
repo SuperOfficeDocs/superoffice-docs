@@ -11,7 +11,13 @@ POST /api/v1/Agents/EMail/GetEMailFromTemp
 
 <para />
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/EMail/GetEMailFromTemp
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromTemp?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/EMail/GetEMailFromTemp?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FileName
+FileName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FileName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,11 +100,11 @@ Response body:
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Torphy Inc and Sons"
+  "FileName": "Schoen-Wehner"
 }
 ```
 
@@ -109,146 +117,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 942,
-      "ContactName": "Torp LLC",
-      "PersonId": 594,
-      "PersonName": "Lynch, Upton and Dicki",
-      "AssociateId": 281,
-      "Address": "quasi",
-      "EmailId": 166,
+      "ContactId": 922,
+      "ContactName": "Herman Group",
+      "PersonId": 889,
+      "PersonName": "Berge-Ebert",
+      "AssociateId": 828,
+      "Address": "nulla",
+      "EmailId": 103,
       "DuplicatePersonIds": [
-        232,
-        756
+        814,
+        708
       ],
-      "Name": "Moore-Fahey",
+      "Name": "Hermann, Collier and Simonis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 66
+          "FieldLength": 823
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 641,
-      "ContactName": "Larkin Inc and Sons",
-      "PersonId": 435,
-      "PersonName": "Wiegand, Orn and Walker",
-      "AssociateId": 163,
-      "Address": "voluptatem",
-      "EmailId": 332,
+      "ContactId": 946,
+      "ContactName": "Senger Inc and Sons",
+      "PersonId": 999,
+      "PersonName": "Feeney-McLaughlin",
+      "AssociateId": 167,
+      "Address": "dignissimos",
+      "EmailId": 179,
       "DuplicatePersonIds": [
-        842,
-        392
+        611,
+        995
       ],
-      "Name": "Cronin LLC",
+      "Name": "Konopelski LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 573
+          "FieldLength": 971
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 59,
-      "ContactName": "Maggio-Hackett",
-      "PersonId": 783,
-      "PersonName": "Rosenbaum-Cummerata",
-      "AssociateId": 174,
-      "Address": "veniam",
-      "EmailId": 945,
+      "ContactId": 776,
+      "ContactName": "Kautzer, Fritsch and Herzog",
+      "PersonId": 87,
+      "PersonName": "Ondricka-Kirlin",
+      "AssociateId": 316,
+      "Address": "vero",
+      "EmailId": 560,
       "DuplicatePersonIds": [
-        71,
-        108
+        790,
+        618
       ],
-      "Name": "Haley, Veum and Greenholt",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 701
-        }
-      }
-    }
-  ],
-  "Subject": "omnis",
-  "HTMLBody": "voluptatibus",
-  "From": null,
-  "Sent": "2001-06-29T11:10:26.9734598+02:00",
-  "Size": 538,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "facilis",
-  "PlainBody": "doloribus",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 493,
-  "Attachments": [
-    {
-      "Description": "De-engineered attitude-oriented pricing structure",
-      "Filename": "odio",
-      "Size": 247,
-      "Type": "dolorum",
-      "Encoding": "quo",
-      "Id": "officia",
-      "Disposition": "aut",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Hane, Goldner and Schmitt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldLength": 574
+        }
+      }
+    }
+  ],
+  "Subject": "animi",
+  "HTMLBody": "et",
+  "From": null,
+  "Sent": "2006-07-18T02:49:44.4660393+02:00",
+  "Size": 352,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "quidem",
+  "PlainBody": "et",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 616,
+  "Attachments": [
+    {
+      "Description": "Advanced non-volatile Graphic Interface",
+      "Filename": "non",
+      "Size": 653,
+      "Type": "sit",
+      "Encoding": "ut",
+      "Id": "consequuntur",
+      "Disposition": "tempora",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 116
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jaskolski, Ebert and Rogahn",
+      "Name": "Kozey, Keeling and Moen",
       "Values": [
-        "voluptatem",
-        "veniam"
+        "tenetur",
+        "cupiditate"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 787
+          "FieldType": "System.String",
+          "FieldLength": 266
         }
       }
     },
     {
-      "Name": "Jaskolski, Ebert and Rogahn",
+      "Name": "Kozey, Keeling and Moen",
       "Values": [
-        "voluptatem",
-        "veniam"
+        "tenetur",
+        "cupiditate"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 787
+          "FieldType": "System.String",
+          "FieldLength": 266
         }
       }
     }
   ],
-  "FolderName": "Zboncak Group",
-  "EmailItemId": 599,
-  "AccountId": 316,
-  "ReceivedAt": "2019-08-10T11:10:26.9734598+02:00",
+  "FolderName": "Nikolaus-Rempel",
+  "EmailItemId": 862,
+  "AccountId": 564,
+  "ReceivedAt": "2003-07-02T02:49:44.4660393+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-05-28T11:10:26.9734598+02:00",
+  "RepliedAt": "2007-06-12T02:49:44.4660393+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -257,7 +265,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldLength": 952
     }
   }
 }

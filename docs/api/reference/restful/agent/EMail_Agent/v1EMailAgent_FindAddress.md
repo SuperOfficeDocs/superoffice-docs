@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/FindAddress
 
 Search for contacts and persons with the specified e-mail address (exact match on the email address string required)
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Search for contacts and persons with the specified e-mail address (exact match o
 ```http
 POST /api/v1/Agents/EMail/FindAddress?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/EMail/FindAddress?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Address
+Address 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Address | string |  |
+
 
 ## Response: array
 
@@ -75,11 +85,11 @@ Response body: array
 POST /api/v1/Agents/EMail/FindAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "quod"
+  "Address": "nemo"
 }
 ```
 
@@ -91,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 233,
-    "ContactName": "O'Keefe, Kuhn and Heathcote",
-    "PersonId": 54,
-    "PersonName": "Littel-Kulas",
-    "AssociateId": 985,
-    "Address": "consectetur",
-    "EmailId": 237,
+    "ContactId": 374,
+    "ContactName": "Jenkins, Zulauf and Smitham",
+    "PersonId": 124,
+    "PersonName": "Towne LLC",
+    "AssociateId": 613,
+    "Address": "quas",
+    "EmailId": 981,
     "DuplicatePersonIds": [
-      832,
-      943
+      969,
+      736
     ],
-    "Name": "Fritsch, Glover and Rippin",
+    "Name": "Ebert, Kessler and Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 624
+        "FieldLength": 358
       }
     }
   }

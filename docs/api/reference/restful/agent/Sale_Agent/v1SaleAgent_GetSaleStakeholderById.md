@@ -9,6 +9,14 @@ uid: v1SaleAgent_GetSaleStakeholderById
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/GetSaleStakeholderById
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholderById?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,13 +42,14 @@ POST /api/v1/Agents/Sale/GetSaleStakeholderById?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleStakeholderIds
+SaleStakeholderIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleStakeholderIds | array |  |
+
 
 ## Response: array
 
@@ -86,8 +96,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    170,
-    309
+    529,
+    478
   ]
 }
 ```
@@ -100,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Lebsack, Bashirian and Windler",
-    "Comment": "id",
-    "StakeholderRoleId": 263,
-    "CountryId": 180,
-    "PersonId": 512,
-    "EmailDescription": "corine@schmidt.com",
-    "EmailId": 699,
-    "EmailAddress": "destini@hackett.us",
-    "PhoneId": 180,
-    "ContactName": "Blick Group",
-    "ContactId": 479,
-    "SaleId": 984,
-    "Mrmrs": "et",
-    "Firstname": "Chelsey",
-    "MiddleName": "Konopelski Group",
-    "Lastname": "Gerlach",
-    "SaleStakeholderId": 62,
-    "Rank": 666,
-    "Phone": "(550)155-2648",
+    "StakeholderRoleName": "Prohaska LLC",
+    "Comment": "laborum",
+    "StakeholderRoleId": 366,
+    "CountryId": 32,
+    "PersonId": 136,
+    "EmailDescription": "francisca.fritsch@ledner.name",
+    "EmailId": 840,
+    "EmailAddress": "alexandrea.douglas@ernserberge.biz",
+    "PhoneId": 580,
+    "ContactName": "Ondricka Inc and Sons",
+    "ContactId": 594,
+    "SaleId": 326,
+    "Mrmrs": "sed",
+    "Firstname": "Torrey",
+    "MiddleName": "Bergnaum, Stark and Barton",
+    "Lastname": "Larson",
+    "SaleStakeholderId": 203,
+    "Rank": 546,
+    "Phone": "441-507-8214 x1230",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldType": "System.String",
+        "FieldLength": 357
       }
     }
   }

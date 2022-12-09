@@ -1,18 +1,31 @@
 items:
 - name: Overview
   href: index.md
-- name: Create a project
-  href: create.md
-- name: Add project image
-  href: add-image.md
-- name: Add links from project and sale
-  href: add-links.md
-- name: Edit a projects
-  href: edit.md
-- name: Merge projects
-  href: merge-projects.md
-- name: Delete a project
-  href: delete.md
+- name: Section tabs on project
+  href: screen/index.md
+  items:
+  - name: Project members
+    href: screen/project-members-tab.md
+  - name: Project guide
+    href: screen/project-guide-tab.md
+  - name: Activities
+    href: screen/activities-project.md
+  - name: Sales
+    href: screen/sale.md
+- name: Work with project
+  items:
+  - name: Create a project
+    href: create.md
+  - name: Add project image
+    href: add-image.md
+  - name: Add links from project and sale
+    href: add-links.md
+  - name: Edit a projects
+    href: edit.md
+  - name: Merge projects
+    href: merge-projects.md
+  - name: Delete a project
+    href: delete.md
 - name: Project members
   href: project-members/index.md
   items:
@@ -33,38 +46,4 @@ items:
     href: project-guide/working-with.md
   - name: View follow-ups and documents
     href: project-guide/view-followups-and-documents.md
-  - name: For administrators
-    items:
-    - name: Create new project guide
-      href: project-guide/create.md
-    - name: Edit project-guide
-      href: project-guide/edit.md
-    - name: Deactivate project guide
-      href: project-guide/deactivate.md
-- name: Project screen
-  href: screen/index.md
-  items:
-  - name: Section tabs
-    items:
-    - name: Project guide
-      href: screen/project-guide-tab.md
-    - name: Project members
-      href: screen/project-members-tab.md
-    - name: Activities
-      href: screen/activities-project.md
-    - name: Sales
-      href: screen/sale.md
-- name: For administrators
-  items:
-  - name: Relevant pages
-    items:
-    - name: Project Status
-      href: screen/project-status-admin.md
-    - name: Project Type
-      href: screen/project-type-admin.md
-    - name: Project guide
-      href: screen/project-guide-admin.md
-  - name: Add a project status
-    href: admin/add-status.md
-  - name: Add a project type
-    href: admin/add-project-type.md
+    

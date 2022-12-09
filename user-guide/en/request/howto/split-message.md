@@ -15,15 +15,15 @@ If a message contains two issues that should be handled separately, you can spli
 
 1. [Open the request][1].
 
-2. In the **Messages** tab, click the ![icon][img1] menu button next to the message you want to split. The **Split message** screen opens.
+2. In the **Messages** tab, click the ![icon][img1] menu button next to the message you want to split.
 
-3. In the **Title** field, enter a descriptive name for the new request.
+3. In the **Split message** screen in the **Title** field, enter a descriptive name for the new request.
 
-4. In he **Category** field, select a category.
+4. In the **Category** field, select a category.
 
 5. In the **Owner** list box, choose one of the following:
-    * If you want to assign the request to a specific person, select the name you require.
-    * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
+    * To assign the request to a specific person, select the name you require.
+    * **(Automatically assigned)**: If selected, the system assigns the request in accordance with the applicable assignment rules.
     * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
 
 6. In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of escalation levels set for different customers.
@@ -34,10 +34,10 @@ If a message contains two issues that should be handled separately, you can spli
 
 8. In the **Status** list box, choose one of the following:
     * **Open**: Select this option if the request is in progress.
-    * **Closed**: Select this option if the request has been completed.
-    * **Postponed**: If there is a need to postpone handling of this request, select this option and specify a date in the date field to the right. On this date, the request is set back to **Open**.
+    * **Closed**: Select this option if the request is completed.
+    * **Postponed**: To postpone handling of this request, select this option and specify a date in the date field to the right. On this date, the request is set back to **Open**.
 
-9. (if relevant) Under **Choose the attachments to move to the new request** select the attachment(s) which should be moved to the new request. The attachments will be deleted from the existing request.
+9. (if relevant) Under **Choose the attachments to move to the new request** select the attachment(s) that should be moved to the new request. The attachments will be deleted from the existing request.
 
 10. Go to the **Messages** tab, and edit the message texts for the existing and new requests.
 

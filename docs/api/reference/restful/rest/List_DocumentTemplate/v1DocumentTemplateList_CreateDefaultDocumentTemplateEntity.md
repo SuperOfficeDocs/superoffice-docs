@@ -11,6 +11,13 @@ GET /api/v1/List/DocumentTemplate/Items/Default
 
 Gets a default DocumentTemplateEntity list item.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,7 +31,8 @@ Gets a default DocumentTemplateEntity list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -32,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +78,7 @@ Response body:
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,37 +88,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 65,
-  "Name": "Hintz, McClure and Carroll",
-  "Tooltip": "placeat",
-  "SaveInDb": 392,
-  "Filename": "deleniti",
-  "DefaultOref": "nisi",
+  "DocumentTemplateId": 244,
+  "Name": "Bradtke Group",
+  "Tooltip": "magnam",
+  "SaveInDb": 633,
+  "Filename": "quas",
+  "DefaultOref": "officiis",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 592,
-  "IntentId": 156,
+  "AutoeventId": 46,
+  "IntentId": 998,
   "IsDefaultPublished": true,
-  "Rank": 874,
-  "LoadTemplateFromPlugin": 208,
-  "MimeType": "atque",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 327,
+  "Rank": 338,
+  "LoadTemplateFromPlugin": 376,
+  "MimeType": "voluptatum",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 984,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "amanda@schroeder.info",
-  "IncludeSignature": true,
+  "EmailSubject": "vern@fayvandervort.name",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "addie.rodriguez@schultzfisher.info",
+  "SenderEmailAddress": "winston_russel@bernhard.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 969
     }
   }
 }

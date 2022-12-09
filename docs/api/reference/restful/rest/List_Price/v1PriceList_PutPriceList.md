@@ -11,9 +11,15 @@ PUT /api/v1/Pricelist/{id}
 
 Updates the existing PriceList
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PriceList id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing PriceList
 ```http
 PUT /api/v1/Pricelist/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Pricelist/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The PriceList to be saved.
+The PriceList to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +63,8 @@ The PriceList to be saved.
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
 
-## Response
+
+## Response: 
 
 PriceList updated.
 
@@ -65,7 +73,7 @@ PriceList updated.
 | 200 | PriceList updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,20 +97,20 @@ Response body:
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 518,
-  "ERPPriceListKey": "deleniti",
-  "QuoteConnectionId": 231,
-  "Name": "Runte-Mills",
-  "Description": "Innovative zero defect conglomeration",
-  "Currency": "nemo",
-  "CurrencyName": "Jacobi, Wisoky and Streich",
-  "ValidFrom": "2018-11-27T11:10:54.3869026+01:00",
-  "ValidTo": "1998-07-11T11:10:54.3869026+02:00",
-  "IsActive": true
+  "PriceListId": 523,
+  "ERPPriceListKey": "ratione",
+  "QuoteConnectionId": 387,
+  "Name": "Wiegand Group",
+  "Description": "Future-proofed methodical pricing structure",
+  "Currency": "sed",
+  "CurrencyName": "Aufderhar-Walsh",
+  "ValidFrom": "2022-07-15T02:49:52.3284476+02:00",
+  "ValidTo": "1996-07-12T02:49:52.3284476+02:00",
+  "IsActive": false
 }
 ```
 
@@ -113,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 521,
-  "ERPPriceListKey": "ut",
-  "QuoteConnectionId": 42,
-  "Name": "Nicolas-Will",
-  "Description": "Implemented analyzing conglomeration",
-  "Currency": "atque",
-  "CurrencyName": "Nikolaus Inc and Sons",
-  "ValidFrom": "2021-06-12T11:10:54.3869026+02:00",
-  "ValidTo": "2000-07-17T11:10:54.3869026+02:00",
-  "IsActive": false,
+  "PriceListId": 808,
+  "ERPPriceListKey": "debitis",
+  "QuoteConnectionId": 867,
+  "Name": "Hagenes-Grimes",
+  "Description": "Synergized intangible concept",
+  "Currency": "est",
+  "CurrencyName": "Quigley-Sauer",
+  "ValidFrom": "2011-07-27T02:49:52.3284476+02:00",
+  "ValidTo": "2004-05-19T02:49:52.3284476+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldType": "System.String",
+      "FieldLength": 417
     }
   },
   "_Links": {

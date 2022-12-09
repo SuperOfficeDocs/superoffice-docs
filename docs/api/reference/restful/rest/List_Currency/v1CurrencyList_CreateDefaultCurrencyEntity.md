@@ -11,6 +11,13 @@ GET /api/v1/List/Currency/Items/Default
 
 Gets a default CurrencyEntity list item.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,7 +31,8 @@ Gets a default CurrencyEntity list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -32,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,19 +70,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 280,
-  "Name": "Howe, Wuckert and Kshlerin",
-  "Tooltip": "numquam",
-  "Rank": 254,
-  "Rate": 13827.207999999999,
-  "Units": 1272.404,
-  "Deleted": false,
+  "CurrencyId": 564,
+  "Name": "Hilpert LLC",
+  "Tooltip": "quo",
+  "Rank": 558,
+  "Rate": 8251.822,
+  "Units": 26338.136,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 827
     }
   }
 }

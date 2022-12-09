@@ -11,11 +11,17 @@ PUT /api/v1/Selection/{selectionId}/Criteria
 
 Update the criteria for this dynamic selection.
 
+
 Use criteria as either restriction objects or OData string format. Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The id of the selection to add members **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Use criteria as either restriction objects or OData string format. Criteria are 
 ```http
 PUT /api/v1/Selection/{selectionId}/Criteria?$filter=name begins 'S'
 ```
+
 
 ## Request Headers
 
@@ -41,9 +48,9 @@ PUT /api/v1/Selection/{selectionId}/Criteria?$filter=name begins 'S'
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: criteria
+## Request Body: criteria  
 
-Criteria defining the selection result. Pass NULL if using the filter string instead.
+Criteria defining the selection result. Pass NULL if using the filter string instead. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,6 +64,7 @@ Criteria defining the selection result. Pass NULL if using the filter string ins
 | InterParenthesis | int32 |  |
 | InterOperator | string |  |
 | UniqueHash | int32 |  |
+
 
 ## Response: array
 
@@ -92,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Deckow-Grant",
-    "Operator": "nemo",
+    "Name": "Borer-Breitenberg",
+    "Operator": "est",
     "Values": [
-      "distinctio",
-      "expedita"
+      "officiis",
+      "accusamus"
     ],
     "DisplayValues": [
-      "sed",
-      "ducimus"
+      "ea",
+      "autem"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Spencer-Nader",
-        "Operator": "veniam",
+        "Name": "Fadel-Trantow",
+        "Operator": "similique",
         "Values": [
-          "omnis",
-          "iusto"
+          "praesentium",
+          "eaque"
         ],
         "DisplayValues": [
-          "est",
-          "eum"
+          "eos",
+          "odit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 907,
+        "InterParenthesis": 652,
         "InterOperator": "And",
-        "UniqueHash": 485
+        "UniqueHash": 819
       }
     ],
-    "InterParenthesis": 256,
+    "InterParenthesis": 619,
     "InterOperator": "And",
-    "UniqueHash": 633
+    "UniqueHash": 965
   }
 ]
 ```
@@ -142,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Goyette-Turner",
-    "Operator": "id",
+    "Name": "Heller-Ankunding",
+    "Operator": "totam",
     "Values": [
-      "voluptas",
-      "cupiditate"
+      "tenetur",
+      "quas"
     ],
     "DisplayValues": [
-      "saepe",
-      "dignissimos"
+      "voluptatem",
+      "ut"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Fritsch-Metz",
-        "Operator": "excepturi",
+        "Name": "Schulist-Braun",
+        "Operator": "qui",
         "Values": [
-          "qui",
-          "vero"
+          "tenetur",
+          "a"
         ],
         "DisplayValues": [
-          "minima",
-          "velit"
+          "suscipit",
+          "quis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -172,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 804,
+        "InterParenthesis": 266,
         "InterOperator": "And",
-        "UniqueHash": 386
+        "UniqueHash": 901
       }
     ],
-    "InterParenthesis": 273,
+    "InterParenthesis": 42,
     "InterOperator": "And",
-    "UniqueHash": 547
+    "UniqueHash": 453
   }
 ]
 ```

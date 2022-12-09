@@ -11,7 +11,13 @@ POST /api/v1/Dashboard
 
 Creates a new Dashboard
 
+
 Calls the Dashboard agent service SaveDashboard.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Dashboard agent service SaveDashboard.
 ```http
 POST /api/v1/Dashboard?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Dashboard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The Dashboard to be saved.
+The Dashboard to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,8 @@ The Dashboard to be saved.
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,22 +88,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 401,
-  "AssociateId": 297,
-  "Caption": "repellat",
+  "DashboardId": 272,
+  "AssociateId": 816,
+  "Caption": "fuga",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 782,
-      "Caption": "nesciunt",
-      "Description": "Robust 24/7 capability",
-      "ChartName": "Fay LLC",
-      "ChartId": "quis",
+      "DashboardTileId": 794,
+      "Caption": "sequi",
+      "Description": "User-friendly asynchronous forecast",
+      "ChartName": "Bauch LLC",
+      "ChartId": "consequatur",
       "IsDefault": true,
-      "AssociateId": 858,
-      "GroupId": 287,
-      "SelectionId": 75,
-      "Config": "animi",
+      "AssociateId": 823,
+      "GroupId": 529,
+      "SelectionId": 182,
+      "Config": "rerum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 694,
-  "AssociateId": 671,
-  "Caption": "ut",
+  "DashboardId": 322,
+  "AssociateId": 785,
+  "Caption": "dolor",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 411,
-      "Caption": "aut",
-      "Description": "Progressive incremental open architecture",
-      "ChartName": "Fahey, Ritchie and Schroeder",
-      "ChartId": "qui",
-      "IsDefault": false,
-      "AssociateId": 245,
-      "GroupId": 734,
-      "SelectionId": 267,
-      "Config": "quisquam",
+      "DashboardTileId": 399,
+      "Caption": "enim",
+      "Description": "Devolved zero administration instruction set",
+      "ChartName": "Effertz-Monahan",
+      "ChartId": "quis",
+      "IsDefault": true,
+      "AssociateId": 385,
+      "GroupId": 203,
+      "SelectionId": 713,
+      "Config": "voluptas",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -148,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 374
+          "FieldType": "System.Int32",
+          "FieldLength": 944
         }
       }
     }
@@ -158,8 +166,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 846
+      "FieldType": "System.String",
+      "FieldLength": 906
     }
   },
   "_Links": {

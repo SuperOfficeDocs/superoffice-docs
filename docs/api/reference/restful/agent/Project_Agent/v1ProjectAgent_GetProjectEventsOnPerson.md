@@ -11,7 +11,13 @@ POST /api/v1/Agents/Project/GetProjectEventsOnPerson
 
 Gets all project events that belongs to the person specified.
 
+
 The list of events are filtered by the Audience Visibility restrictions set when the project event is created.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The list of events are filtered by the Audience Visibility restrictions set when
 ```http
 POST /api/v1/Agents/Project/GetProjectEventsOnPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Project/GetProjectEventsOnPerson?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
+
 
 ## Response: array
 
@@ -88,11 +96,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectEventsOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 498
+  "PersonId": 465
 }
 ```
 
@@ -104,34 +112,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Mr. Bertram Keshaun Schmeler DDS",
-    "Description": "Managed hybrid capacity",
-    "ProjectId": 569,
-    "EventName": "Ortiz-Carroll",
-    "AssociateId": 587,
-    "IsSignedOn": true,
-    "SignOffConfirmationText": "voluptatibus",
-    "SignOffText": "non",
-    "SignOnConfirmationText": "a",
-    "SignOnText": "fugit",
-    "EventDate": "2016-06-24T11:10:27.6174525+02:00",
+    "AssociateFullName": "Lyda Wolf DDS",
+    "Description": "User-centric bi-directional benchmark",
+    "ProjectId": 468,
+    "EventName": "Greenfelder Group",
+    "AssociateId": 692,
+    "IsSignedOn": false,
+    "SignOffConfirmationText": "ut",
+    "SignOffText": "consequatur",
+    "SignOnConfirmationText": "mollitia",
+    "SignOnText": "est",
+    "EventDate": "2015-04-03T02:49:44.9684639+02:00",
     "Enabled": false,
     "SignOff": false,
     "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
     "SignOn": true,
-    "SignOffTaskId": 402,
-    "SignOnTaskId": 468,
-    "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": false,
-    "SignOnPersonId": 260,
-    "SignOffPersonId": 42,
+    "SignOffTaskId": 274,
+    "SignOnTaskId": 19,
+    "SignOffTriggersAssign": true,
+    "SignOnTriggersAssign": true,
+    "SignOnPersonId": 942,
+    "SignOffPersonId": 509,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldLength": 869
       }
     }
   }

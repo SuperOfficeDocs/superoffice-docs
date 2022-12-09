@@ -17,7 +17,7 @@ Both new users and previous users of SuperOffice will benefit from reading this 
 
 ## Using in-app help
 
-This help has been designed to give you comprehensive and readily accessible information about how to use SuperOffice CRM. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in.
+This help is designed to give you comprehensive and readily accessible information about how to use SuperOffice CRM. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in.
 
 You can open the help in three ways:
 
@@ -77,7 +77,7 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [Win
 
 ## Differences between onsite and online installations
 
-SuperOffice is available as an online application (cloud-based) and as an onsite application (installed on the customer's premises). There are a number of minor differences between the two. Specific functional differences are indicated by the icons in the procedures themselves or in topic titles.
+SuperOffice is available as an online application (cloud-based) and as an onsite application (installed on the customer's premises). There are minor differences between the two. Specific functional differences are indicated by the icons in the procedures themselves or in topic titles.
 
 ## Related topics
 
@@ -108,10 +108,10 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 [21]: ../automation/index.md
 [23]: ../customer-center/index.md
 [24]: ../ui/in-service/index.md
-[25]: ../license/index.md
+[25]: ../license/overview.md
 [26]: ../user-management/index.md
 [27]: ../user-management/role/index.md
-[28]: ../person/gdpr/index.md
+[28]: ../gdpr/privacy.md
 [29]: ../sale/saint/index.md
 [30]: ../ai/index.md
 

@@ -11,7 +11,7 @@ language: en
 
 # Create a selection based on search criteria
 
-The simplest way to create a selection is to base it on a search. This creates a dynamic selection. Proceed as follows:
+The simplest way to create a selection is to base it on a search. This creates a dynamic selection.
 
 1. Open the search screen.
     * You can select **Requests** > **Find requests** to [search for requests][1].
@@ -29,7 +29,7 @@ The simplest way to create a selection is to base it on a search. This creates a
 
 5. In the **Selection** tab you can view the [search criteria][3] specified for the selection. If necessary, adjust the criteria.
 
-6. In the **Profile** tab, specify how the selection is to be presented:
+6. In the **Profile** tab, specify how the selection should be presented:
 
     [!include[Contents of Selection Profile tab](includes/selection-profile-tab.md)]
 

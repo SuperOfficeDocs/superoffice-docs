@@ -9,9 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Delete project
-
-To delete a whole project and associated data:
+# Delete project a whole project and associated data
 
 1. [!include[Go to project](includes/goto-project.md)]
 2. Click the **Task** button (![icon][img1]).

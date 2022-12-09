@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/PopulateRestrictions
 
 Take an incoming set of minimally populated restrictions (name + operator is required), and populate all the other parts of the ArchiveRestrictionInfo structure.
 
+
 This includes column information, display values (including list value lookup), and calculated/default values where the value hints specify read-only (R).
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This includes column information, display values (including list value lookup), 
 ```http
 POST /api/v1/Agents/Find/PopulateRestrictions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Find/PopulateRestrictions?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Restrictions
+ProviderName, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProviderName | string |  |
 | Restrictions | array |  |
+
 
 ## Response: array
 
@@ -79,18 +87,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "O'Reilly LLC",
+  "ProviderName": "Trantow, Satterfield and Haley",
   "Restrictions": [
     {
-      "Name": "Hamill-Wunsch",
-      "Operator": "a",
+      "Name": "O'Hara-Daugherty",
+      "Operator": "debitis",
       "Values": [
-        "ea",
-        "voluptates"
+        "et",
+        "repellendus"
       ],
       "DisplayValues": [
-        "deleniti",
-        "ratione"
+        "corrupti",
+        "earum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -98,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 450,
+      "InterParenthesis": 823,
       "InterOperator": "And",
-      "UniqueHash": 628
+      "UniqueHash": 528
     }
   ]
 }
@@ -114,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rutherford, Ward and Smith",
-    "Operator": "quos",
+    "Name": "Wehner Inc and Sons",
+    "Operator": "veniam",
     "Values": [
-      "ullam",
-      "voluptate"
+      "quibusdam",
+      "quis"
     ],
     "DisplayValues": [
-      "et",
-      "numquam"
+      "quia",
+      "qui"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Jaskolski, Gerhold and Roob",
-        "Operator": "facere",
+        "Name": "Funk-Flatley",
+        "Operator": "dolor",
         "Values": [
-          "nam",
-          "sit"
+          "dolorem",
+          "vel"
         ],
         "DisplayValues": [
-          "corporis",
-          "vel"
+          "nihil",
+          "suscipit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -144,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 744,
+        "InterParenthesis": 4,
         "InterOperator": "And",
-        "UniqueHash": 952
+        "UniqueHash": 780
       }
     ],
-    "InterParenthesis": 57,
+    "InterParenthesis": 253,
     "InterOperator": "And",
-    "UniqueHash": 902
+    "UniqueHash": 145
   }
 ]
 ```

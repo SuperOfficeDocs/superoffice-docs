@@ -11,11 +11,18 @@ GET /api/v1/List/DocumentTemplate/Items/{id}
 
 Gets a DocumentTemplateEntity list item.
 
+
 Calls the List agent service GetDocumentTemplateEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DocumentTemplate to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Calls the List agent service GetDocumentTemplateEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -39,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +85,7 @@ Response body:
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 55,
-  "Name": "Jewess-Weber",
-  "Tooltip": "et",
-  "SaveInDb": 835,
-  "Filename": "soluta",
-  "DefaultOref": "est",
+  "DocumentTemplateId": 334,
+  "Name": "Schmidt-Schmitt",
+  "Tooltip": "ut",
+  "SaveInDb": 798,
+  "Filename": "est",
+  "DefaultOref": "animi",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 368,
-  "IntentId": 839,
+  "AutoeventId": 748,
+  "IntentId": 877,
   "IsDefaultPublished": false,
-  "Rank": 710,
-  "LoadTemplateFromPlugin": 948,
-  "MimeType": "quis",
+  "Rank": 73,
+  "LoadTemplateFromPlugin": 117,
+  "MimeType": "non",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 853,
+  "DocumentTypeKey": 420,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jovanny@heidenreichdaugherty.biz",
+  "EmailSubject": "angeline@damore.com",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "roma@batzmarquardt.biz",
+  "SenderEmailAddress": "lorena@dickinson.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldType": "System.String",
+      "FieldLength": 309
     }
   }
 }

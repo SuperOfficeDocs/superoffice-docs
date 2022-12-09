@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 
 Creates a temporary selection with members from an existing project.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a temporary selection with members from an existing project.
 ```http
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,11 +113,11 @@ Response body:
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 488
+  "ProjectId": 761
 }
 ```
 
@@ -120,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Decentralized 5th generation knowledge base",
-  "Postit": "omnis",
+  "Description": "Re-contextualized fresh-thinking superstructure",
+  "Postit": "voluptatem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 293,
-  "IncludePerson": 168,
-  "MemberCount": 257,
-  "Name": "Bashirian LLC",
-  "PostitTextId": 461,
-  "CreatedDate": "2007-06-25T11:10:27.9169765+02:00",
-  "SelectionId": 849,
-  "SoundEx": "laboriosam",
-  "Source": 343,
-  "TextId": 873,
-  "UpdatedDate": "1996-11-08T11:10:27.9169765+01:00",
-  "UpdatedCount": 178,
-  "Visibility": 34,
+  "GroupIdx": 377,
+  "IncludePerson": 30,
+  "MemberCount": 775,
+  "Name": "Cronin-Okuneva",
+  "PostitTextId": 523,
+  "CreatedDate": "2006-12-23T02:49:45.3903386+01:00",
+  "SelectionId": 965,
+  "SoundEx": "nobis",
+  "Source": 444,
+  "TextId": 193,
+  "UpdatedDate": "2019-03-12T02:49:45.3903386+01:00",
+  "UpdatedCount": 37,
+  "Visibility": 328,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 555,
-  "TargetTableName": "Swift Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 353,
-  "RightSelectionId": 514,
+  "TargetTableNumber": 720,
+  "TargetTableName": "Stamm-Reynolds",
+  "Completed": true,
+  "LeftSelectionId": 261,
+  "RightSelectionId": 221,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Paucek, Mraz and Keebler",
-  "ShadowProviderName": "Murphy, Tremblay and Kub",
-  "ChartKey": "ipsam",
-  "LastLoaded": "2003-08-30T11:10:27.9169765+02:00",
-  "LastLoadedBy": 940,
+  "MainProviderName": "Swift Inc and Sons",
+  "ShadowProviderName": "Hermiston-Streich",
+  "ChartKey": "voluptates",
+  "LastLoaded": "2020-08-25T02:49:45.3903386+02:00",
+  "LastLoadedBy": 331,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-07-06T11:10:27.9189774+02:00",
-  "LastMembershipChangeBy": 106,
+  "LastMembershipChange": "2016-08-07T02:49:45.3903386+02:00",
+  "LastMembershipChangeBy": 613,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nam",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Torp-Breitenberg",
-  "DashboardTileDefinitionId": 693,
+  "MainHeading": "voluptatem",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Murphy-Smitham",
+  "DashboardTileDefinitionId": 277,
   "VisibleFor": [
     {
-      "VisibleId": 886,
+      "VisibleId": 357,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 995
         }
       }
     },
     {
-      "VisibleId": 886,
+      "VisibleId": 357,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 995
         }
       }
     }
@@ -193,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 658
     }
   }
 }

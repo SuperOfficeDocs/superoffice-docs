@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 
 Creates a new selection based on selection members from an existing selection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a new selection based on selection members from an existing selection.
 ```http
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Name, TargetSelectionType, CopyMembers
+SelectionId, Name, TargetSelectionType, CopyMembers 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ SelectionId, Name, TargetSelectionType, CopyMembers
 | TargetSelectionType | string |  |
 | CopyMembers | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -112,8 +120,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 570,
-  "Name": "Crona, Davis and Mante",
+  "SelectionId": 61,
+  "Name": "Marquardt, Hauck and Tromp",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -126,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ameliorated human-resource budgetary management",
-  "Postit": "est",
+  "Description": "Visionary discrete open system",
+  "Postit": "fugiat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 312,
-  "IncludePerson": 97,
-  "MemberCount": 370,
-  "Name": "Bins, Price and Quitzon",
-  "PostitTextId": 412,
-  "CreatedDate": "2013-03-28T11:10:27.9059799+01:00",
-  "SelectionId": 451,
-  "SoundEx": "sit",
-  "Source": 807,
-  "TextId": 55,
-  "UpdatedDate": "2015-05-24T11:10:27.9059799+02:00",
-  "UpdatedCount": 61,
-  "Visibility": 470,
+  "GroupIdx": 203,
+  "IncludePerson": 105,
+  "MemberCount": 886,
+  "Name": "Senger, Kertzmann and Jones",
+  "PostitTextId": 424,
+  "CreatedDate": "2014-11-11T02:49:45.3747116+01:00",
+  "SelectionId": 316,
+  "SoundEx": "nisi",
+  "Source": 990,
+  "TextId": 794,
+  "UpdatedDate": "2003-09-11T02:49:45.3747116+02:00",
+  "UpdatedCount": 730,
+  "Visibility": 580,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 87,
-  "TargetTableName": "Bode-Zieme",
+  "CompanyUnique": false,
+  "TargetTableNumber": 896,
+  "TargetTableName": "Kassulke, Bode and Ondricka",
   "Completed": false,
-  "LeftSelectionId": 45,
-  "RightSelectionId": 913,
+  "LeftSelectionId": 984,
+  "RightSelectionId": 802,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jakubowski LLC",
-  "ShadowProviderName": "Feeney LLC",
-  "ChartKey": "officiis",
-  "LastLoaded": "2006-04-27T11:10:27.9059799+02:00",
-  "LastLoadedBy": 914,
+  "MainProviderName": "Feest-Dietrich",
+  "ShadowProviderName": "Jones Group",
+  "ChartKey": "qui",
+  "LastLoaded": "2002-08-20T02:49:45.3747116+02:00",
+  "LastLoadedBy": 25,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-03-21T11:10:27.9069798+01:00",
-  "LastMembershipChangeBy": 296,
+  "LastMembershipChange": "2008-09-12T02:49:45.3747116+02:00",
+  "LastMembershipChangeBy": 166,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quas",
-  "MemberTabHeading": "mollitia",
-  "MailingsProviderName": "Franecki LLC",
-  "DashboardTileDefinitionId": 241,
+  "MainHeading": "veniam",
+  "MemberTabHeading": "consequatur",
+  "MailingsProviderName": "Considine, Adams and O'Connell",
+  "DashboardTileDefinitionId": 17,
   "VisibleFor": [
     {
-      "VisibleId": 421,
+      "VisibleId": 3,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldType": "System.String",
+          "FieldLength": 737
         }
       }
     },
     {
-      "VisibleId": 421,
+      "VisibleId": 3,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldType": "System.String",
+          "FieldLength": 737
         }
       }
     }
@@ -198,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 128
+      "FieldType": "System.Int32",
+      "FieldLength": 386
     }
   }
 }

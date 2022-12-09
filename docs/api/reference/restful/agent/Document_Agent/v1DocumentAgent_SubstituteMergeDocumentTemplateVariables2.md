@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables2
 
 Parse the source document, and replace any template variable tags with their values, based on the associate Id.
 
+
 &lt;p/&gt; The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Parse the source document, and replace any template variable tags with their val
 ```http
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables2?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, AssociateId, CustomTags
+DocumentId, AssociateId, CustomTags 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | AssociateId | int32 |  |
 | CustomTags | object |  |
+
 
 ## Response: byte
 
@@ -57,21 +65,22 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 264,
-  "AssociateId": 769,
+  "DocumentId": 119,
+  "AssociateId": 220,
   "CustomTags": {
-    "CustomTags1": "vitae",
-    "CustomTags2": "consequatur"
+    "CustomTags1": "dolore",
+    "CustomTags2": "quo"
   }
 }
 ```

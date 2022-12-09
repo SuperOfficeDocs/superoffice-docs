@@ -11,9 +11,16 @@ POST /api/v1/ChatSession/{chatSessionId}/Messages
 
 Add a new message to a chat session
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to add message to **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Add a new message to a chat session
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: message
+## Request Body: message  
 
-Message to add
+Message to add 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ Message to add
 | SpecialParam | string | Special parameter for the special_type. |
 | WhenPosted | date-time | When the message was posted (UTC timestamp). |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,19 +81,19 @@ Response body:
 POST /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 726,
-  "ChatSessionId": 495,
+  "ChatMessageId": 959,
+  "ChatSessionId": 716,
   "Type": "Invalid",
-  "Message": "rem",
-  "Author": "similique",
-  "ReadByCustomer": 846,
+  "Message": "omnis",
+  "Author": "exercitationem",
+  "ReadByCustomer": 34,
   "SpecialType": "Block",
-  "SpecialParam": "dicta",
-  "WhenPosted": "2011-08-30T11:10:52.5641784+02:00"
+  "SpecialParam": "delectus",
+  "WhenPosted": "2004-06-05T02:49:50.682786+02:00"
 }
 ```
 
@@ -96,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 370,
-  "ChatSessionId": 947,
+  "ChatMessageId": 866,
+  "ChatSessionId": 310,
   "Type": "Invalid",
-  "Message": "perspiciatis",
-  "Author": "expedita",
-  "ReadByCustomer": 944,
+  "Message": "modi",
+  "Author": "qui",
+  "ReadByCustomer": 914,
   "SpecialType": "Block",
-  "SpecialParam": "ea",
-  "WhenPosted": "2008-08-14T11:10:52.5641784+02:00"
+  "SpecialParam": "similique",
+  "WhenPosted": "2012-02-12T02:49:50.682786+01:00"
 }
 ```

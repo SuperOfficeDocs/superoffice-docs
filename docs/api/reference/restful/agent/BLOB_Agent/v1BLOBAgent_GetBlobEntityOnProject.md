@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 
 Gets the blob entity that represents the project image binary object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the blob entity that represents the project image binary object.
 ```http
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnProject?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 71
+  "ProjectId": 467
 }
 ```
 
@@ -92,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 746,
-  "BlobSize": 800,
-  "Description": "Adaptive fresh-thinking complexity",
-  "ExtraInfo": "nam",
+  "BlobId": 340,
+  "BlobSize": 879,
+  "Description": "Customer-focused tangible encoding",
+  "ExtraInfo": "sequi",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "a",
-  "OriginalSize": 47,
-  "CreatedDate": "2008-06-25T11:10:26.0305541+02:00",
-  "UpdatedDate": "2015-10-01T11:10:26.0305541+02:00",
+  "MimeType": "magnam",
+  "OriginalSize": 351,
+  "CreatedDate": "2004-02-23T02:49:43.7160326+01:00",
+  "UpdatedDate": "1997-08-27T02:49:43.7160326+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "beatae",
+  "ConceptualType": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldType": "System.String",
+      "FieldLength": 954
     }
   }
 }

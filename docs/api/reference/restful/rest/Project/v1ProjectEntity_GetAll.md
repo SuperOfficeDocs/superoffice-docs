@@ -11,6 +11,7 @@ GET /api/v1/Project
 
 OData list of all ProjectEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Project?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * Project?$top=1000
 * Project?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "FindProject" archive.
 
-## Filter Operators ##
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=inventore
-GET /api/v1/Project?$top=758
-GET /api/v1/Project?$skip=561
+GET /api/v1/Project?$entities=harum
+GET /api/v1/Project?$top=69
+GET /api/v1/Project?$skip=304
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=nihil
+GET /api/v1/Project?$context=earum
 GET /api/v1/Project?$format=JSON
 GET /api/v1/Project?$jsonSafe=False
 GET /api/v1/Project?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,7 +95,8 @@ GET /api/v1/Project?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -92,7 +104,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -106,7 +118,7 @@ Response body:
 GET /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "soluta",
+  "odata.nextLink": "quibusdam",
   "value": [
     {
-      "PrimaryKey": 1125,
+      "PrimaryKey": 9511,
       "EntityName": "person",
-      "personId": 1125,
-      "fullName": "Mr. Zackery Weimann III"
+      "personId": 9511,
+      "fullName": "Thea Feest"
     },
     {
-      "PrimaryKey": 1881,
+      "PrimaryKey": 1489,
       "EntityName": "person",
-      "personId": 1881,
-      "fullName": "Dr. Houston Amalia Stroman III"
+      "personId": 1489,
+      "fullName": "Dr. Carleton Alexandre Jakubowski III"
     }
   ]
 }

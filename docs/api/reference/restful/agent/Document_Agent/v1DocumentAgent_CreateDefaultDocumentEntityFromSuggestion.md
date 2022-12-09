@@ -9,6 +9,14 @@ uid: v1DocumentAgent_CreateDefaultDocumentEntityFromSuggestion
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 ```http
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,15 +42,16 @@ POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SuggestedDocumentId
+SuggestedDocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SuggestedDocumentId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -49,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,11 +106,11 @@ Response body:
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 286
+  "SuggestedDocumentId": 51
 }
 ```
 
@@ -111,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 96,
+  "DocumentId": 746,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eos",
-  "Header": "sapiente",
-  "Name": "Daniel Inc and Sons",
-  "OurRef": "itaque",
-  "YourRef": "qui",
-  "CreatedDate": "2013-10-10T11:10:26.6144236+02:00",
-  "UpdatedDate": "2007-12-20T11:10:26.6144236+01:00",
-  "Description": "Ameliorated 24 hour adapter",
+  "Attention": "aut",
+  "Header": "ullam",
+  "Name": "Stiedemann LLC",
+  "OurRef": "ullam",
+  "YourRef": "quisquam",
+  "CreatedDate": "1999-01-28T02:49:44.3253856+01:00",
+  "UpdatedDate": "2004-07-15T02:49:44.3253856+02:00",
+  "Description": "Re-contextualized needs-based firmware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-02-08T11:10:26.6174458+01:00",
-  "ExternalRef": "consequatur",
+  "Date": "2010-01-09T02:49:44.3410121+01:00",
+  "ExternalRef": "eaque",
   "Completed": "Completed",
-  "ActiveLinks": 107,
+  "ActiveLinks": 243,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jerde-Zulauf",
-      "Id": 318,
-      "Description": "Mandatory executive portal",
-      "ExtraInfo": "possimus",
-      "LinkId": 313,
+      "EntityName": "Lynch, Beahan and Gottlieb",
+      "Id": 42,
+      "Description": "Assimilated didactic architecture",
+      "ExtraInfo": "perferendis",
+      "LinkId": 587,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 878
+          "FieldLength": 418
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 421,
-  "Snum": 953,
+  "SuggestedDocumentId": 865,
+  "Snum": 593,
   "UserDefinedFields": {
-    "SuperOffice:1": "297570653",
-    "SuperOffice:2": "1700785098"
+    "SuperOffice:1": "Sally Lubowitz PhD",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "adipisci"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "tempora"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "et"
+    "CustomFields1": "nemo",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2005-11-13T11:10:26.6184469+01:00",
-  "PublishTo": "1996-07-17T11:10:26.6184469+02:00",
-  "PublishFrom": "2001-10-28T11:10:26.6184469+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1998-06-13T02:49:44.3410121+02:00",
+  "PublishTo": "2022-04-08T02:49:44.3410121+02:00",
+  "PublishFrom": "2006-07-18T02:49:44.3410121+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 460,
+      "VisibleId": 261,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 42
+          "FieldLength": 896
         }
       }
     },
     {
-      "VisibleId": 460,
+      "VisibleId": 261,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 42
+          "FieldLength": 896
         }
       }
     }
@@ -202,7 +212,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldLength": 584
     }
   }
 }
