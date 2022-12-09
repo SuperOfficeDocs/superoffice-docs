@@ -89,7 +89,7 @@ SuperOffice offers the following in addition to the standard OAuth claims. The F
 |---|:-:|:-:|---|
 | `associateid` | X | X | The current user's associate ID. |
 | `company_name` | X | X | The current user's company name. |
-| `ctx` | X | X | The ctx claim is the context identifier, which is also the tenant identifier. Example Cust1234. |
+| `ctx` | X | X | The ctx claim is the context identifier, which is also the tenant identifier or Customer ID. Example Cust1234. |
 | `email` | X | X | The current user's email address. |
 | `firstname` | X | | The current user's first name. |
 | `identityprovider` | X | X | The identity provider responsible for authentication. Options:<br>SuperOffice AS (federated ID)<br>`https://sod.superoffice.com` (OpenID Connect) |
