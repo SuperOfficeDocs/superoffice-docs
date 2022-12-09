@@ -39,6 +39,8 @@ You can preview records in the [side panel][1]. Click the list at the top of the
 
 If you get no hits for a search word that is in the SuperOffice database, this may be because you need to build the freetext search index in SuperOffice Settings and maintenance.
 
+[!include[Examples of searches](includes/freextext-search-examples.md)]
+
 ## Related topics
 
 * [Use the Find screen][2]
