@@ -47,20 +47,6 @@ landingContent:
           url: ../user-management/create-user-group.md
         - text: Add company in the Our companies tab
           url: ../user-management/add-our-companies.md
-      
-  # Card
-  - title: Languages and localization
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-        - text: Change the language version
-          url: ../globalization/change-language.md
-        - text: Time zones
-          url: ../globalization/time-zones.md
-        - text: Translation
-          url: ../globalization/translate-fields.md
-        - text: Language support for documents
-          url: ../globalization/doc-language-support.md
 
   # Card
   - title: Import

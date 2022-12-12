@@ -10,7 +10,7 @@ language: en
 so.envir: onsite
 ---
 
-# Add system events
+# Add system events (Onsite)
 
 You can initiate some [system events][1] from **System notifications** list in the **Status** tab.
 

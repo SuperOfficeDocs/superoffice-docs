@@ -53,6 +53,7 @@ items:
       href: request/external-document.md
   - name: SAINT (Sales intelligence)
     href: sale/saint/toc.yml
+
   - name: Customisation
     topicHref: custom-objects/index.yml
     items:
@@ -172,11 +173,11 @@ items:
     - name: Onsite
       items:
       - name: SOAP
-        href: screen/soap-config.md
+        href: settings/screen/soap-config.md
       - name: Configure SOAP interface
-        href: configure-soap.md
+        href: settings/configure-soap.md
       - name: Log off users
-        href: ../win-client/logging-users-off.md
+        href: win-client/logging-users-off.md
 
   - name: Administration and system settings
     topicHref: license/index.yml
@@ -199,7 +200,3 @@ items:
     href: win-client/toc.yml
   - name: Service client
     href: service/toc.yml
-  - name: License agreement
-    href: license-agreement.md
-  - name: Copyright information
-    href: copyright.md
