@@ -75,8 +75,8 @@ If you mapped any lists (for example category), you must also [map the individua
 [1]: sync-configure-list-mapping.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/sync-direction-none.bmp
-[img2]: ../../../../../media/icons/admin/sync-direction-2way.bmp
-[img3]: ../../../../../media/icons/admin/sync-direction-toerp.bmp
-[img4]: ../../../../../media/icons/admin/sync-direction-toso.bmp
-[img5]: ../../../../../media/icons/admin/sync-direction-deactivated.bmp
+[img1]: ../../../../../media/icons/admin/sync-none.bmp
+[img2]: ../../../../../media/icons/admin/sync-2-way.bmp
+[img3]: ../../../../../media/icons/admin/sync-to-erp.bmp
+[img4]: ../../../../../media/icons/admin/sync-to-so.bmp
+[img5]: ../../../../../media/icons/admin/sync-deactivated.bmp

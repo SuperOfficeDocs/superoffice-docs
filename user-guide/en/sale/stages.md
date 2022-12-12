@@ -61,7 +61,7 @@ If you set the sale to **Sold** or **Lost**, you can enter the date, any competi
 [3]: ../settings/lists/sale-stage.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/salg-postponed.bmp
+[img1]: ../../media/icons/sale-postponed.bmp
 [img2]: ../../media/icons/sale-lost.bmp
 [img3]: ../../../common/icons/nav-sale-h32.png
 [img4]: media/72-chap7-sale-open.bmp

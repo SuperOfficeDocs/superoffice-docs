@@ -53,8 +53,8 @@ Before you start using the sales targets feature, you must set up a few things i
 
 2. In the **Sales targets** screen, select the year that you want to create a sales target for from the **Select year** list. Your can also set up targets for previous years, to create budget statistics back in time.
 
-> [!NOTE]
-> If you have selected a year AND the previous year contains sales targets, you will be asked if you want to create targets based on the previous year. You can copy the targets as is, or select to increase the targets by a given percentage.
+    > [!NOTE]
+    > If you have selected a year AND the previous year contains sales targets, you will be asked if you want to create targets based on the previous year. You can copy the targets as is, or select to increase the targets by a given percentage.
 
 3. Click **Add groups and users**. Use the search field to find specific groups.
 
@@ -92,8 +92,6 @@ Before you start using the sales targets feature, you must set up a few things i
 > This function requires the Sales Targets Unlimited licence.
 
 You can add new target types (dimensions) in addition to the default target type **All sales - Amount**.
-
-To do this:
 
 1. Click **Add new target type**. Or click ![icon][img5] (**Configure target**) on the tab to edit an existing target type.
 

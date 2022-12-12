@@ -13,8 +13,8 @@
 [6]: ../settings/index.md
 
 <!-- referenced images -->
-[img1]: ../../../../media/icons/maillink/archive-is-on.png
-[img2]: ../../../../media/icons/maillink/archive-is-off.png
-[img3]: ../../../../media/icons/maillink/add-recipient.png
-[img4]: ../../../../media/icons/maillink/add-document.png
+[img1]: ../../../../media/icons/mail-link/archive-is-on.png
+[img2]: ../../../../media/icons/mail-link/archive-is-off.png
+[img3]: ../../../../media/icons/mail-link/add-recipient.png
+[img4]: ../../../../media/icons/mail-link/add-document.png
 [img5]: ../media/superoffice-button.png

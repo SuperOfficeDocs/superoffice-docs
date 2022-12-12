@@ -28,4 +28,4 @@ You can restore companies and contacts that have been deleted by mistake, either
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/personalsettings-small.png
+[img1]: ../../media/icons/personal-settings-small.png

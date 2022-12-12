@@ -34,5 +34,5 @@ When creating an email [from Microsoft Outlook][1] or [from Lotus Notes][2], you
 [2]: create-in-lotus.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/maillink/add-recipient.png
-[img2]: ../../../media/icons/maillink/arrow.png
+[img1]: ../../../media/icons/mail-link/add-recipient.png
+[img2]: ../../../media/icons/mail-link/arrow.png

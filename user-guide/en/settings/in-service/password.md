@@ -42,4 +42,4 @@ The **Password** tab in the **System** screen contains the following options und
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personalsettings-small.png
+[img1]: ../../../media/icons/personal-settings-small.png

@@ -37,7 +37,7 @@ The global buttons appear throughout the user interface. Some are in the main sc
 <!-- Referenced links -->
 [1]: ../../search-options/in-service/index.md
 [2]: ../../ui/in-service/profiles/index.md
-[3]: ../favourites.md
+[3]: ../fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

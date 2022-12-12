@@ -70,7 +70,7 @@ Here you can view and [process all submitted forms][5]. Use the filter options a
 This tab is visible if **Email response** is activated for this form (see [Create a new form - Actions][6]). Here you can preview the form response (mailing) associated with this form.
 
 <!-- Referenced links -->
-[1]: ../marketing/add-favourites.md
+[1]: ../marketing/add-fav.md
 [2]: submissions/track.md
 [3]: publish.md
 [4]: form-prefilled.md

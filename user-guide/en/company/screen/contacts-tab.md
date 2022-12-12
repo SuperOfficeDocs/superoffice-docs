@@ -74,5 +74,5 @@ They will then be shown in a different color. They are also shown in this way on
 
 <!-- Referenced images -->
 [img1]: media/contacts-detail.bmp
-[img2]: ../../../media/icons/knappenaal.bmp
+[img2]: ../../../media/icons/pin.bmp
 [img3]: ../../../media/icons/binders.bmp

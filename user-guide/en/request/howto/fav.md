@@ -45,7 +45,7 @@ Do one of the following:
 2. Click the favorites icon ![icon][img2] in the request header. The icon changes to ![icon][img1].
 
 <!-- Referenced links -->
-[1]: ../../getting-started/favourites.md
+[1]: ../../getting-started/fav.md
 [2]: transfer.md
 [3]: ../index.md#open
 

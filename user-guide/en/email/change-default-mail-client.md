@@ -26,4 +26,4 @@ To change mail client, it is possible to change clients in the **Preferences** s
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/personalsettings-small.png
+[img1]: ../../media/icons/personal-settings-small.png

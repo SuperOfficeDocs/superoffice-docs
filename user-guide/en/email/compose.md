@@ -34,5 +34,5 @@ When you finished the message, and want to send it, you have the following optio
 [2]: inbox/archive.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/personalsettings-small.png
+[img1]: ../../media/icons/personal-settings-small.png
 [img2]: ../../../common/icons/nav-inbox-h32.png

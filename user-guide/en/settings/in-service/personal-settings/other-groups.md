@@ -30,4 +30,4 @@ In the **Other groups** tab, you can select any secondary groups (in addition to
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/personalsettings-small.png
+[img2]: ../../../../media/icons/personal-settings-small.png

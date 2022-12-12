@@ -1,5 +1,5 @@
 ---
-uid: help-en-marketing-add-favourite
+uid: help-en-marketing-add-fav
 title: Add favorite
 description: Add favorite
 author: SuperOffice RnD

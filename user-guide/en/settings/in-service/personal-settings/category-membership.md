@@ -30,4 +30,4 @@ You remove a category from the list by clicking the delete icon ( ![icon][img1] 
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/delete-red.png
-[img2]: ../../../../media/icons/personalsettings-small.png
+[img2]: ../../../../media/icons/personal-settings-small.png

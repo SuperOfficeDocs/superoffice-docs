@@ -8,6 +8,6 @@ items:
 - name: Inbox
   href: inbox/toc.yml
 - name: Gmail Link
-  href: gmaillink/toc.yml
+  href: gmail-link/toc.yml
 - name: Mail Link
-  href: maillink/toc.yml
+  href: mail-link/toc.yml

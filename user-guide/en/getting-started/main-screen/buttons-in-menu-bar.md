@@ -9,6 +9,8 @@ so.topic: reference
 language: en
 ---
 
+# Buttons on the Top bar
+
 ## The SuperOffice logo
 
 At the top left in SuperOffice CRM is the SuperOffice logo with the following functions:
@@ -17,8 +19,6 @@ At the top left in SuperOffice CRM is the SuperOffice logo with the following fu
 
 * If you click the logo, the SuperOffice Community website is displayed.
 * If you hold down **CTRL** while clicking the logo, you go to the company you yourself are part of. (The main company is a [preference][6] that you can change.)
-
-# Buttons on the Top bar
 
 The items at the top of the screen vary slightly between SuperOffice CRM, Service, and Settings and maintenance. Their significance is however the same. For example, in Settings and maintenance, only Personal settings, Main menu, and Help are shown.
 
@@ -94,7 +94,7 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/mainmenu.png
-[img2]: ../../../media/icons/personalsettings.png
+[img2]: ../../../media/icons/personal-settings.png
 [img3]: ../../../../common/icons/plus-black.png
 [img4]: ../../../media/icons/notice.png
 [img5]: ../../../media/icons/notice-new.png

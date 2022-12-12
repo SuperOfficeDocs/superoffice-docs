@@ -173,4 +173,4 @@ You can now change the stage to **Sold**. After all the required follow-ups and 
 [3]: ../../document/edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personalsettings-small.png
+[img1]: ../../../media/icons/personal-settings-small.png
