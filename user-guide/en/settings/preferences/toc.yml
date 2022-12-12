@@ -27,7 +27,7 @@ items:
   items:
   - name: Configure video meetings
     href: video-meetings/configure-video-meetings.md
-  - name: E-mail setup for video meetings
+  - name: Email setup for video meetings
     href: video-meetings/email-setup-in-superoffice.md
 - name: Document library
   href: document-library.md

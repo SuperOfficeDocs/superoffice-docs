@@ -7,7 +7,7 @@ items:
   items:
   - name: Manage senders
     href: manage-senders.md
-  - name: Archive incoming e-mail
+  - name: Archive incoming email
     href: email-archive-incoming.md
   - name: Archive attachments
     href: archive-attachments.md
@@ -15,5 +15,5 @@ items:
     href: archive-emails-as-activities.md
   - name: Create request
     href: archive-emails-as-requests.md
-  - name: Archive outgoing e-mail
+  - name: Archive outgoing email
     href: email-archive-outgoing.md

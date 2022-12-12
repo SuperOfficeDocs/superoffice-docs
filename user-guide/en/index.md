@@ -1,7 +1,7 @@
 ---
-title: User guide - English
+title: Guides for SuperOffice CRM
 uid: ug-en-start
-description: Start page for SuperOffice user guides in English
+description: Start page for SuperOffice CRM guides
 author: {github-id} # Your GitHub alias.
 so.date: 07.08.2022
 keywords: user guide, help
@@ -12,27 +12,25 @@ so.envir:
 so.client:
 ---
 
-# User guide - English
+# Guides for SuperOffice CRM
 
-This help system provides you with comprehensive user assistance for the following SuperOffice products:
+These guides provides you with comprehensive user assistance for the following SuperOffice modules:
 
 ## SuperOffice CRM
 
-A web-based system to manage and follow up all contacts, sales and projects. The core of the system are the Company card and Contact card. All information and communication concerning a company and contact are stored in these cards.
+A system to manage and follow up all contacts, sales and projects. The core of the system are the Company card and Contact card. All information and communication concerning a company and contact are stored in these cards.
 
 ## SuperOffice Service
 
-A web-based system for handling customer requests. The core of the system is the Requests module. All communication concerning a specific request is stored in a single location, regardless of it is by email, web form, phone or another channel.
+A system for handling customer requests/tickets. The core of the system is the Requests module. All communication concerning a specific request is stored in a single location, regardless of it is by email, web form, phone or another channel.
 
 ## SuperOffice Marketing
 
 SuperOffice Marketing is concerned with outbound communication and forms. You can send bulk mailings by email or SMS to all or parts of your customer base, for example to inform customers about upgrades or product news. Use forms for product/newsletter registration, consent management and data updates.
 
-## SuperOffice Inbox
+## Settings and maintenance
 
-SuperOffice contains a built-in email inbox in addition to plug-ins that link the Gmail, Microsoft Outlook or Lotus Notes mail clients to SuperOffice CRM and/or SuperOffice Service.
-
-[!include[Settings and maintenance](getting-started/about-admin.md)]
+Settings and maintenance is the administration client for SuperOffice CRM. The navigator buttons in Settings and maintenance activate their associated functions with a single click, making it easy to navigate quickly between the different parts of the system.
 
 <!-- Referenced links -->
 

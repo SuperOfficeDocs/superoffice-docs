@@ -36,7 +36,7 @@ items:
   items:
   - name: Create mailing
     href: howto/create-mailings.md
-  - name: Send e-mail to multiple recipients
+  - name: Send email to multiple recipients
     href: howto/send-email.md
   - name: Generate follow-ups
     href: howto/generate-follow-ups.md

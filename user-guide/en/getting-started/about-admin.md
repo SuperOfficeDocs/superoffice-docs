@@ -12,16 +12,13 @@ so.client: web
 
 # Settings and maintenance
 
-Settings and maintenance is the web-based administration client for SuperOffice CRM.
+Settings and maintenance is the administration client for SuperOffice CRM.
 
-> [!NOTE]
-> Settings and maintenance cannot be used for Satellite, only for the central database.
+The navigator buttons in Settings and maintenance activate their associated functions with a single click, making it easy to navigate quickly between the different parts of the system.
 
-Certain features like replication, Travel, Satellite, import and scripting are only available from the [Windows-based administration client][1].
+The **App Store** navigator button opens the SuperOffice App Store, where you can explore standard apps, modules and integrations that can expand your SuperOffice CRM.
 
-The buttons in Settings and maintenance activate their associated functions with a single click, making it easy to navigate quickly between the different parts of the program.
-
-Click the **App Store** link to open the SuperOffice App Store, where you can explore standard apps, modules and integrations that can expand SuperOffice CRM Online.
+Certain features like import and scripting are only available from the [Windows-based administration client][1].
 
 <!-- Referenced links -->
 [1]: ../win-client/index.md

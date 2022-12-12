@@ -73,7 +73,7 @@ items:
     href: ../search-options/selections/in-service/delete.md
   - name: Administrate folders of selections
     href: ../search-options/selections/in-service/manage-folders.md
-- name: E-mail
+- name: Email
   href: ../email/service/toc.yml
 - name: User interface
   href: ../ui/in-service/index.md
