@@ -7,6 +7,7 @@ keywords: database
 so.topic: reference
 so.envir: onsite
 # so.client:
+so.version: 7.5
 ---
 
 # Table changes from 7.1 to 7.5

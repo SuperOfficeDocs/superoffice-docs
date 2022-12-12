@@ -160,5 +160,3 @@ items:
       href: tutorials/validation/validate-fields.md
     - name: Validation
       href: tutorials/validation/validation.md
-- name: API Reference
-  href: ../../api/reference/web/index.md

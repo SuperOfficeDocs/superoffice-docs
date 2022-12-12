@@ -22,7 +22,7 @@ If Web Tools are already installed, or if you for other reasons wish to configur
 When deploying through GPO or other alternatives, executing the *SoConfig* file during the log-on process will set up Web Tools for the user. The site will not be added again if it has already been added.
 
 > [!NOTE]
-> If you are not the administrator, you get Web Tools installed in *c:\users\\\<yourname>\appdata\local\SuperOffice*. To install on *C:/Program files*, you need to be the local administrator.
+> If you are not the administrator, you get Web Tools installed in *c:\users\\\<yourname>\appdata\local\SuperOffice*. To install on *C:\Program files*, you need to be the local administrator.
 
 ## Overview
 
@@ -40,19 +40,10 @@ The following MSI files must be deployed to every SuperOffice user (AD group all
 
 * Username in SuperOffice must be the same as in ActiveDirectory (sAMAccountName).
 * SuperOffice needs to be configured to use Active Directory as the authentication method for all users.
-* SuperOffice WEB needs to be configured to use Windows Authentication on the website.
+* SuperOffice Web needs to be configured to use Windows Authentication on the website.
 * We also recommend to [disable the Web Tools upgrade dialog][2].
 * Blocking applications must be closed.
-* Libraries must be installed **before any SuperOffice plugins are installed**.
-
-**Required libraries:**
-
-* Microsoft .NET framework 4.5.1 (Full) or higher
-* VSTO 2010 runtime (32bit or 64bit) for Ribbons on Office 2007 and higher
-* Visual C++ 2017 runtime for x86 (version 14.14.26429.4)
-
-> [!NOTE]
-> You need administrative privileges to install the required libraries.
+* [Libraries][5] must be installed **before any SuperOffice plugins are installed**.
 
 ## Blocking applications
 
@@ -124,6 +115,7 @@ Copy the below code-lines to Notepad or another text editor and save as *SuperOf
 [2]: upgrade.md
 [3]: https://www3.superoffice.com/DownloadService/
 [4]: install.md
+[5]: system-requirements.md
 
 <!-- Referenced images -->
 [img1]: media/11033-21660.jpg

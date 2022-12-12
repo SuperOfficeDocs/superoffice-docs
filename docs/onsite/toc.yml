@@ -173,7 +173,5 @@ items:
       href: debug/win-client.md
   - name: Travel
     href: ../travel/toc.yml
-  - name: WebTools
-    href: ../webtools/toc.yml
   - name: Version history
     href: version-history.md

@@ -1,21 +1,15 @@
----
-uid: version_10.1.6.812_changes
-description: Changes from v10.1.5.2031 and v10.1.6.812
-so.date: 10/11/2022
----
+<!-- markdownlint-disable-file MD041 MD024-->
+## Changes from v10.1.5.2031 to v10.1.6.812
 
-<!-- markdownlint-disable-file MD024 -->
-# Changes from v10.1.5.2031 and v10.1.6.812
-
-## Web Services
+### Web Services
 
 These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
-### Assembly: SuperOffice.Services
+#### Assembly: SuperOffice.Services
 
-### Modified Types
+#### Modified Types
 
-#### SuperOffice.CRM.Services.ITargetsAgent is Modified
+##### SuperOffice.CRM.Services.ITargetsAgent is Modified
 
 * New items
   * Method `CreateDefaultTargetAssignmentForCompanyWithDimension(Int32)`
@@ -23,7 +17,7 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `GetTargetAssignmentForYearAndDimension(Int32, TargetEntityType, TargetLevel, Int32, Int32)`
   * Method `GetTargetGroupForYearAndDimension(Int32, Int32)`
 
-#### SuperOffice.CRM.Services.TargetDimension is Modified
+##### SuperOffice.CRM.Services.TargetDimension is Modified
 
 * Deleted items
   * Property `DimensionList`
@@ -32,7 +26,7 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `DimensionListId`
   * Property `DimensionListLabel`
 
-#### SuperOffice.CRM.Services.TargetsAgent is Modified
+##### SuperOffice.CRM.Services.TargetsAgent is Modified
 
 * New items
   * Method `CreateDefaultTargetAssignmentForCompanyWithDimension(Int32)`
@@ -40,28 +34,27 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `GetTargetAssignmentForYearAndDimension(Int32, TargetEntityType, TargetLevel, Int32, Int32)`
   * Method `GetTargetGroupForYearAndDimension(Int32, Int32)`
 
-
-## NetServer Core
+### NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
 
-### Assembly: SoCore
+#### Assembly: SoCore
 
-### Modified Types
+#### Modified Types
 
-#### SuperOffice.CRM.FunctionRightStrings is Modified
+##### SuperOffice.CRM.FunctionRightStrings is Modified
 
 * New items
   * Field `TargetsAdminstrator`
 
-#### SuperOffice.CRM.Security.FieldProperty is Modified
+##### SuperOffice.CRM.Security.FieldProperty is Modified
 
 * Deleted items
   * Method `FieldProperty(FieldRight, Type, Int32)`
 * New items
   * Method `FieldProperty(FieldRight, Type, Int32, String)`
 
-#### SuperOffice.Globalization.RC is Modified
+##### SuperOffice.Globalization.RC is Modified
 
 * New items
   * Field `CS_BOOL_FALSE`
@@ -109,7 +102,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_TARGETS_TYPE_EDIT`
   * Field `SR_TARGETS_TYPE_HEADING`
 
-#### SuperOffice.License.SoLicenseNames is Modified
+##### SuperOffice.License.SoLicenseNames is Modified
 
 * New items
   * Field `AI`
@@ -123,15 +116,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `ServiceT1`
   * Field `ServiceT2`
 
-#### SuperOffice.SoDatabaseContext is Modified
+##### SuperOffice.SoDatabaseContext is Modified
 
 * New items
   * Method `RemoveDatabaseContext(String, Boolean)`
 
+#### Assembly: SoDatabase
 
-### Assembly: SoDatabase
-
-### New Types
+#### New Types
 
 * `SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin`
 * `SuperOffice.Data.Cache.CacheFlusher`
@@ -140,85 +132,78 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * `SuperOffice.Data.Cache.OnlineFlushCacheAndBroadcastPlugin`
 * `SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin`
 
-### Modified Types
+#### Modified Types
 
-#### SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator is Modified
+##### SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator is Modified
 
 * Deleted items
   * Method `CalculateMatches(String[], String[], Nullable<Int32>, Nullable<Int32>, Boolean)`
 * New items
   * Method `CalculateMatches(String[], String[], Nullable<Int32>, Nullable<Int32>, Boolean, Boolean)`
 
-#### SuperOffice.CRM.ArchiveLists.SaleExtenderBase is Modified
+##### SuperOffice.CRM.ArchiveLists.SaleExtenderBase is Modified
 
+##### SuperOffice.CRM.ArchiveLists.TargetValueExtenderBase is Modified
 
-#### SuperOffice.CRM.ArchiveLists.TargetValueExtenderBase is Modified
-
-
-#### SuperOffice.CRM.Data.DBC is Modified
+##### SuperOffice.CRM.Data.DBC is Modified
 
 * Modified items
 
-##### SuperOffice.CRM.Data.DBC.TargetDimensionFields is Modified
+###### SuperOffice.CRM.Data.DBC.TargetDimensionFields is Modified
 
 * Deleted items
   * Field `.TargetDimensionFieldsDimensionList`
 * New items
   * Field `.TargetDimensionFieldsDimensionListField`
 
-
-#### SuperOffice.CRM.Data.TargetDimensionTableInfo is Modified
+##### SuperOffice.CRM.Data.TargetDimensionTableInfo is Modified
 
 * Deleted items
   * Property `DimensionList`
 * New items
   * Property `DimensionListField`
 
-#### SuperOffice.CRM.Lists.TargetTypeProvider is Modified
+##### SuperOffice.CRM.Lists.TargetTypeProvider is Modified
 
 * New items
   * Method `FieldNameToProviderColName(String)`
   * Method `ProviderColNameToDbColName(String)`
 
-#### SuperOffice.CRM.Lists.TicketListProvider is Modified
+##### SuperOffice.CRM.Lists.TicketListProvider is Modified
 
 * New items
   * Method `BuildSearchFromSubSearches(String)`
 
-#### SuperOffice.CRM.Rows.TargetDimensionRecordData is Modified
+##### SuperOffice.CRM.Rows.TargetDimensionRecordData is Modified
 
 * Deleted items
   * Field `DimensionList`
 * New items
   * Field `DimensionListField`
 
-#### SuperOffice.CRM.Rows.TargetDimensionRow is Modified
+##### SuperOffice.CRM.Rows.TargetDimensionRow is Modified
 
 * Deleted items
   * Property `DimensionList`
 * New items
   * Property `DimensionListField`
 
-
-## Continuous Database
+### Continuous Database
 
 The following represent changes to SuperOffice database schema.
 
-### Assembly: SuperOffice.CD.DSL.Database
+#### Assembly: SuperOffice.CD.DSL.Database
 
-### New Types
+#### New Types
 
 * `SuperOffice.CD.DSL.Database.Steps_SuperOffice.SuperOffice_88_TargetsAdministrator_FunctionalRight`
 * `SuperOffice.CD.DSL.Database.Steps_Targets.TargetsStep08_ListField`
 
-### Modified Types
+#### Modified Types
 
-#### SuperOffice.CD.DSL.Database.T_TargetDimension is Modified
+##### SuperOffice.CD.DSL.Database.T_TargetDimension is Modified
 
 * Deleted items
   * Field `DimensionList`
 * New items
   * Field `DimensionListField`
-
-
-

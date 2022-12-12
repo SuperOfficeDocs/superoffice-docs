@@ -3,7 +3,7 @@ title: How to configure settings in SuperOffice Admin
 uid: configure-superoffice-admin
 description: How to configure document templates for SharePoint Documents
 author: Bergfrid Dias
-so.date: 06.20.2022
+so.date: 12.01.2022
 keywords: SharePoint, document, template
 so.topic: howto
 so.envir: cloud
@@ -44,8 +44,7 @@ The wizard has four steps:​
 
 * Site in SharePoint: Just choose your site from the dropdown. You must have permission level Owner to be able to select a site.
 * Document library: Select from the drop-down​.
-* Folder structure: You can select between​ User group, Author, Template type, Company name and Project​.
-* You can also organize the folders in Yearly subfolder​.
+* Folder structure: You can select between​ User group, Author, Template type, Company name, and Project​. You can also organize the folders in Yearly subfolder​.
 * File name: Select between Heading or Heading - Company name​.
 
 ### SuperOffice document templates
@@ -70,14 +69,21 @@ We recommend that you select all here. These fields will appear as columns in yo
 
 * You can also search and group by these fields in SharePoint.​
 
-    ![SuperOffice documents fields -screenshot][img3]
+    ![SuperOffice documents fields -screenshot][img10]
 
 ## Step 3 - Groups and access​
 
 ### Group access on SharePoint documents based on Visible for settings
 
 * If you plan not to use Visible for, you leave this ticked off​.
-* If you plan to use Visible for, you tick this on – and follow the next steps.​
+* If you plan to use Visible for, you tick this on – and follow the next steps.
+
+### Apps for SuperOffice (system user)
+
+Enable system user for storing documents in SharePoint. If you have for instance a third-party app that creates documents in SuperOffice, you need to enable system user for storing documents in SharePoint.
+
+> [!NOTE]
+> You can't turn this on the first time you configure SharePoint documents. It must be fully configured first. Complete the configuration and start the wizard (Settings), navigate to step 3, and turn it on.
 
 ​    ![Groups and access​ -screenshot][img4]
 
@@ -124,10 +130,10 @@ See the [reference of permissions in SharePoint​][1] for more information.
 <!-- Referenced images -->
 [img1]: media/sharepoint-wizard.png
 [img2]: media/template-location.png
-[img3]: media/add-people.png
 [img4]: media/groups-and-access.png
 [img5]: media/groups-and-access-2.png
 [img6]: media/groups-and-access-authorization.png
 [img7]: media/groups-and-access-ad.png
 [img8]: media/confirm.png
 [img9]: media/so-admin-document-library.png
+[img10]: media/transfer-document-properties.png

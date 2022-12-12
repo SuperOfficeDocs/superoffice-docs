@@ -1,25 +1,20 @@
----
-uid: version_10.1.8.583_changes
-so.date: 11/18/2022
----
+<!-- markdownlint-disable-file MD041 MD024 MD013-->
+## Changes from v10.1.6.812 to v10.1.8.583
 
-<!-- markdownlint-disable-file MD024 -->
-# Changes from v10.1.6.812 and v10.1.8.583
-
-## Web Services
+### Web Services
 
 These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
-### Assembly: SuperOffice.Services
+#### Assembly: SuperOffice.Services
 
-### New Types
+#### New Types
 
 * `SuperOffice.CRM.Services.PreviewContact`
 * `SuperOffice.CRM.Services.TicketBatchReplyData`
 
-### Modified Types
+#### Modified Types
 
-#### SuperOffice.CRM.Services.BatchAgent is Modified
+##### SuperOffice.CRM.Services.BatchAgent is Modified
 
 * New items
   * Method `GetAllBatchTaskInfosByName(String)`
@@ -27,35 +22,35 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `GetSystemBatchTaskInfosByName(String)`
   * Method `GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)`
 
-#### SuperOffice.CRM.Services.ContactAgent is Modified
+##### SuperOffice.CRM.Services.ContactAgent is Modified
 
 * New items
   * Method `CreateDefaultPreviewContact()`
   * Method `GetPreviewContact(Int32)`
 
-#### SuperOffice.CRM.Services.CustomerServiceAgent is Modified
+##### SuperOffice.CRM.Services.CustomerServiceAgent is Modified
 
 * New items
   * Method `GetUnparsedTemplate(Int32, Int32)`
 
-#### SuperOffice.CRM.Services.EventData is Modified
+##### SuperOffice.CRM.Services.EventData is Modified
 
 * New items
   * Property `ShowDialog`
 
-#### SuperOffice.CRM.Services.FavouriteAgent is Modified
+##### SuperOffice.CRM.Services.FavouriteAgent is Modified
 
 * New items
   * Method `AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32, String)`
   * Method `RemoveFavourites(String, Int32[], Int32)`
   * Method `RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32)`
 
-#### SuperOffice.CRM.Services.FreeTextAgent is Modified
+##### SuperOffice.CRM.Services.FreeTextAgent is Modified
 
 * New items
   * Method `FreetextIndexRows(String, Int32[])`
 
-#### SuperOffice.CRM.Services.IBatchAgent is Modified
+##### SuperOffice.CRM.Services.IBatchAgent is Modified
 
 * New items
   * Method `GetAllBatchTaskInfosByName(String)`
@@ -63,36 +58,36 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `GetSystemBatchTaskInfosByName(String)`
   * Method `GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)`
 
-#### SuperOffice.CRM.Services.IContactAgent is Modified
+##### SuperOffice.CRM.Services.IContactAgent is Modified
 
 * New items
   * Method `CreateDefaultPreviewContact()`
   * Method `GetPreviewContact(Int32)`
 
-#### SuperOffice.CRM.Services.ICustomerServiceAgent is Modified
+##### SuperOffice.CRM.Services.ICustomerServiceAgent is Modified
 
 * New items
   * Method `GetUnparsedTemplate(Int32, Int32)`
 
-#### SuperOffice.CRM.Services.IFavouriteAgent is Modified
+##### SuperOffice.CRM.Services.IFavouriteAgent is Modified
 
 * New items
   * Method `AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32, String)`
   * Method `RemoveFavourites(String, Int32[], Int32)`
   * Method `RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32)`
 
-#### SuperOffice.CRM.Services.IFreeTextAgent is Modified
+##### SuperOffice.CRM.Services.IFreeTextAgent is Modified
 
 * New items
   * Method `FreetextIndexRows(String, Int32[])`
 
-#### SuperOffice.CRM.Services.ITargetsAgent is Modified
+##### SuperOffice.CRM.Services.ITargetsAgent is Modified
 
 * New items
   * Method `CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(Int32, Int32)`
   * Method `CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(Int32, Int32, Int32)`
 
-#### SuperOffice.CRM.Services.ITicketAgent is Modified
+##### SuperOffice.CRM.Services.ITicketAgent is Modified
 
 * New items
   * Method `BatchForward(Int32[], String[], String[], String[], String, Boolean)`
@@ -108,23 +103,23 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `UpdateTicketsReadStatus(Int32[], TicketReadStatus)`
   * Method `UpdateTicketsReadStatusByProvider(String, ArchiveRestrictionInfo[], TicketReadStatus)`
 
-#### SuperOffice.CRM.Services.TargetAssignment is Modified
+##### SuperOffice.CRM.Services.TargetAssignment is Modified
 
 * New items
   * Property `DimensionListItemDisplayName`
 
-#### SuperOffice.CRM.Services.TargetsAgent is Modified
+##### SuperOffice.CRM.Services.TargetsAgent is Modified
 
 * New items
   * Method `CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(Int32, Int32)`
   * Method `CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(Int32, Int32, Int32)`
 
-#### SuperOffice.CRM.Services.TemplateVariablesParameters is Modified
+##### SuperOffice.CRM.Services.TemplateVariablesParameters is Modified
 
 * New items
   * Property `TicketId`
 
-#### SuperOffice.CRM.Services.TicketAgent is Modified
+##### SuperOffice.CRM.Services.TicketAgent is Modified
 
 * New items
   * Method `BatchForward(Int32[], String[], String[], String[], String, Boolean)`
@@ -140,71 +135,70 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `UpdateTicketsReadStatus(Int32[], TicketReadStatus)`
   * Method `UpdateTicketsReadStatusByProvider(String, ArchiveRestrictionInfo[], TicketReadStatus)`
 
-#### SuperOffice.CRM.Services.TicketCategoryEntity is Modified
+##### SuperOffice.CRM.Services.TicketCategoryEntity is Modified
 
 * New items
   * Property `EffectiveReplyTemplateId`
 
-#### SuperOffice.CRM.Services.TicketEntity is Modified
+##### SuperOffice.CRM.Services.TicketEntity is Modified
 
 * New items
   * Property `FirstReadByOwner`
 
-#### SuperOffice.CRM.Services.TicketMessageHeader is Modified
+##### SuperOffice.CRM.Services.TicketMessageHeader is Modified
 
 * New items
   * Property `Id`
 
-
-## NetServer Core
+### NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
 
-### Assembly: SoCore
+#### Assembly: SoCore
 
-### New Types
+#### New Types
 
 * `SuperOffice.Data.TicketPriorityEscalateAction`
 
-### Modified Types
+#### Modified Types
 
-#### .IEnumerableExtensions is Modified
+##### .IEnumerableExtensions is Modified
 
 * Deleted items
   * Method `ForEach<T>(IEnumerable<T>, Action<T>)`
 
-#### .StringExtensions is Modified
+##### .StringExtensions is Modified
 
 * New items
   * Method `ToXmlSafe(String)`
 
-#### SuperOffice.Data.ChatMessageSpecialType is Modified
+##### SuperOffice.Data.ChatMessageSpecialType is Modified
 
 * New items
   * Field `IllegalFileType`
 
-#### SuperOffice.Data.EventHandlerType is Modified
+##### SuperOffice.Data.EventHandlerType is Modified
 
 * New items
   * Field `SalesAfterSaveTicket`
   * Field `SalesBeforeSaveTicket`
 
-#### SuperOffice.Data.Navigation is Modified
+##### SuperOffice.Data.Navigation is Modified
 
 * New items
   * Field `TicketCard`
 
-#### SuperOffice.Data.NotificationEventType is Modified
+##### SuperOffice.Data.NotificationEventType is Modified
 
 * New items
   * Field `AppointmentDeclined`
 
-#### SuperOffice.Exceptions.SoException is Modified
+##### SuperOffice.Exceptions.SoException is Modified
 
 * New items
   * Method `SoException(String, String, Boolean)`
 
-#### SuperOffice.Globalization.RC is Modified
+##### SuperOffice.Globalization.RC is Modified
 
 * Deleted items
   * Field `SR_PD_DataMirroring_BatchSize_DESC`
@@ -284,23 +278,21 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_TICKETSPLIT_TABPROPERTIES`
   * Field `SR_TICKETSPLIT_VIEW_ATTACHMENTS`
 
-#### SuperOffice.Util.AssemblyHelper is Modified
+##### SuperOffice.Util.AssemblyHelper is Modified
 
-
-#### SuperOffice.WebApi.IOnlineAppRequestInfo is Modified
-
-* New items
-  * Property `ContextIdentifier`
-
-#### SuperOffice.WebApi.OnlineAppRequestInfo is Modified
+##### SuperOffice.WebApi.IOnlineAppRequestInfo is Modified
 
 * New items
   * Property `ContextIdentifier`
 
+##### SuperOffice.WebApi.OnlineAppRequestInfo is Modified
 
-### Assembly: SoDatabase
+* New items
+  * Property `ContextIdentifier`
 
-### Deleted Types
+#### Assembly: SoDatabase
+
+#### Deleted Types
 
 * `SuperOffice.Security.Principal.SoWindowsIdentity`
 * `SuperOffice.Security.Principal.WindowsIdentityResolver`
@@ -308,7 +300,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * `SuperOffice.Security.Principal.WindowsOtherIdentityResolver`
 * `SuperOffice.Security.Principal.WindowsPersonIdentityResolver`
 
-### New Types
+#### New Types
 
 * `SuperOffice.CRM.ArchiveLists.ExactKeyMatchCalculator`
 * `SuperOffice.CRM.ArchiveLists.FreetextTicketResultProvider`
@@ -322,51 +314,48 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * `SuperOffice.CRM.Rows.Implementation.TicketRowImplementation`
 * `SuperOffice.CRM.TicketMessage.TicketMessageHelper`
 
-### Modified Types
+#### Modified Types
 
-#### SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory is Modified
+##### SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory is Modified
 
 * Modified items
 
-##### SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.ArchiveProviderCache is Modified
+###### SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.ArchiveProviderCache is Modified
 
 * Modified items
   * Property `.ArchiveProviderCacheEntityColumnInfo`
 
+##### SuperOffice.CRM.ArchiveLists.QuoteApprovalProvider is Modified
 
-#### SuperOffice.CRM.ArchiveLists.QuoteApprovalProvider is Modified
-
-
-#### SuperOffice.CRM.ArchiveLists.TargetValueExtenderBase is Modified
+##### SuperOffice.CRM.ArchiveLists.TargetValueExtenderBase is Modified
 
 * Deleted items
 
-#### SuperOffice.CRM.ArchiveLists.UdefExtenderBase is Modified
+##### SuperOffice.CRM.ArchiveLists.UdefExtenderBase is Modified
 
-
-#### SuperOffice.CRM.Globalization.SystemTags is Modified
+##### SuperOffice.CRM.Globalization.SystemTags is Modified
 
 * Deleted items
   * Method `SystemTags()`
 * New items
   * Method `SystemTags(Int32)`
 
-#### SuperOffice.CRM.Globalization.TemplateVariableIds is Modified
+##### SuperOffice.CRM.Globalization.TemplateVariableIds is Modified
 
 * New items
   * Field `TicketId`
 
-#### SuperOffice.CRM.Globalization.TemplateVariables is Modified
+##### SuperOffice.CRM.Globalization.TemplateVariables is Modified
 
 * New items
   * Property `TicketId`
 
-#### SuperOffice.CRM.Lists.ServiceAssociateMDOProvider is Modified
+##### SuperOffice.CRM.Lists.ServiceAssociateMDOProvider is Modified
 
 * Deleted items
   * Field `IncludeHistory`
 
-#### SuperOffice.CRM.Lists.TargetTypeProvider is Modified
+##### SuperOffice.CRM.Lists.TargetTypeProvider is Modified
 
 * Deleted items
   * Method `FieldNameToProviderColName(String)`
@@ -378,105 +367,100 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `ProviderColNameToField(TargetEntityType, String)`
   * Method `ProviderColumnToListInfo(TargetEntityType, String)`
 
-#### SuperOffice.CRM.Notification.NotificationEventHandler is Modified
+##### SuperOffice.CRM.Notification.NotificationEventHandler is Modified
 
 * Deleted items
   * Method `NotifyUsers(NotificationEventType, Int32, DateTime, IEnumerable<Int32>)`
 * New items
   * Method `NotifyUsers(NotificationEventType, Int32, DateTime, IEnumerable<Int32>, Dictionary<String, String>)`
 
-#### SuperOffice.CRM.Rows.RowValidator is Modified
+##### SuperOffice.CRM.Rows.RowValidator is Modified
 
 * New items
   * Method `ValidateField(TicketPriorityEscalateAction&, FieldInfo)`
 
-#### SuperOffice.CRM.Rows.TableRowBase is Modified
+##### SuperOffice.CRM.Rows.TableRowBase is Modified
 
-
-#### SuperOffice.CRM.Security.EjCategoryCache is Modified
+##### SuperOffice.CRM.Security.EjCategoryCache is Modified
 
 * New items
   * Method `GetEffectiveReplyTemplateId(Int32)`
 
-#### SuperOffice.CRM.Security.TicketSentry is Modified
+##### SuperOffice.CRM.Security.TicketSentry is Modified
 
 * New items
   * Method `ComputeDerivedTableRights()`
 
-#### SuperOffice.CRM.Ticket.TicketHelper is Modified
+##### SuperOffice.CRM.Ticket.TicketHelper is Modified
 
 * New items
   * Method `HasUpdateRight(Int32, Int32, Int32)`
   * Method `ResolveTicketId(Int32)`
 
-#### SuperOffice.Data.Dialect.OracleCommon is Modified
+##### SuperOffice.Data.Dialect.OracleCommon is Modified
 
 * New items
   * Method `ToSql(JsonValue)`
 
-#### SuperOffice.Data.Private.FreetextIndexerLogic is Modified
+##### SuperOffice.Data.Private.FreetextIndexerLogic is Modified
 
 * New items
   * Method `IndexSpecificRows(String, Int32[], ProgressCallback)`
 
-#### SuperOffice.Data.S is Modified
+##### SuperOffice.Data.S is Modified
 
 * New items
   * Method `NewSelect<MainTableInfo>(TableInfo, Func<MainTableInfo, Restriction>)`
 
-#### SuperOffice.Data.ServicePreferenceMappings is Modified
+##### SuperOffice.Data.ServicePreferenceMappings is Modified
 
 * New items
   * Method `AttachmentPathDecoder(String, String)`
 
-#### SuperOffice.License.LicenseManager is Modified
+##### SuperOffice.License.LicenseManager is Modified
 
 * New items
   * Method `ToInfo(ModuleLicense)`
 
+#### Assembly: SuperOffice.Plugins
 
-### Assembly: SuperOffice.Plugins
+#### Modified Types
 
-### Modified Types
+##### SuperOffice.Factory.AssemblyHelper is Modified
 
-#### SuperOffice.Factory.AssemblyHelper is Modified
+#### Assembly: SoLicense
 
+#### Modified Types
 
-
-### Assembly: SoLicense
-
-### Modified Types
-
-#### SuperOffice.License.SignatureValidator is Modified
+##### SuperOffice.License.SignatureValidator is Modified
 
 * Modified items
   * Method `ComputeHash(String, String, ModuleLicense)`
 
-
-## Continuous Database
+### Continuous Database
 
 The following represent changes to SuperOffice database schema.
 
-### Assembly: SuperOffice.CD.DSL.Database
+#### Assembly: SuperOffice.CD.DSL.Database
 
-### New Types
+#### New Types
 
 * `SuperOffice.CD.DSL.Database.SuperOffice_90_ResetTagsFiltering`
 * `SuperOffice.CD.DSL.Database.TicketPriorityEscalateAction`
 
-### Modified Types
+#### Modified Types
 
-#### SuperOffice.CD.Database.Navigation is Modified
+##### SuperOffice.CD.Database.Navigation is Modified
 
 * New items
   * Field `TicketCard`
 
-#### SuperOffice.CD.Database.NotificationEventType is Modified
+##### SuperOffice.CD.Database.NotificationEventType is Modified
 
 * New items
   * Field `AppointmentDeclined`
 
-#### SuperOffice.CD.DSL.Database.EventHandlerType is Modified
+##### SuperOffice.CD.DSL.Database.EventHandlerType is Modified
 
 * New items
   * Field `SalesAfterSaveTicket`

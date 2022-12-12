@@ -42,7 +42,7 @@ Open *web.config* on the server where Sales & Marketing web is installed and a
 
 ![x -screenshot][img1]
 
-Now below `</Documents>` add the following new
+Now below `</Documents>` add the following new section:
 
 ```xml
 <Downloads>
@@ -52,7 +52,7 @@ Now below `</Documents>` add the following new
 
 ![x -screenshot][img2]
 
-the value must be the same version as the DLL files in the MSI.
+The value must be the same version as the DLL files in the MSI.
 
 If the value is blank we check against the current version installed on the server. So if you have installed SuperOffice 8.0 SR5 but do not want your clients to be asked to upgrade if they have installed Web Tools 8.0 SR2 you may set 8.0.6004.1310 in WebToolVersion value and the clients will only be prompted to upgrade if they are using a version older than 8.0.6004.1310. If they are using an older version but do not want to upgrade, they may tick the checkbox so it does not ask again. This information is stored in a persistent cookie that lasts till the next server update.
 
@@ -64,6 +64,12 @@ If you are unsure which Web Tools version you have, right-click on any DLL start
 
 ![x -screenshot][img3]
 
+## Suppress the dialogue in SuperOffice Admin
+
+Since SuperOffice 9 it is possible to suppress the Web Tools installation and upgrade dialogue in SuperOffice Admin. Go to Preferences - System and check the Offer to install Web Tools and Offer to upgrade Web Tools options. Once set to 'No' clients will not be offered to install and / or upgrade Web Tools.
+
+![Install and upgrade dialogue -screenshot][img5]
+
 <!-- Referenced links -->
 [1]: ../api/config/downloads.md
 
@@ -72,3 +78,4 @@ If you are unsure which Web Tools version you have, right-click on any DLL start
 [img2]: media/14503-31826.jpg
 [img3]: media/2018-12-21.png
 [img4]: media/11035-21656.jpg
+[img5]: media/upgrade-preferences.jpg
