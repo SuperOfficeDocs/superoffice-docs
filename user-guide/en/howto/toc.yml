@@ -51,10 +51,11 @@ items:
     href: ../globalization/change-language.md
   - name: Translation of content
     href: ../globalization/translate-fields.md
-  - name: Language support for documents
-    href: ../globalization/doc-language-support.md 
   - name: Time zones
     href: ../globalization/time-zones.md
+  - name: Language support in Mobile CRM
+    href: index.md
+
 - name: Create/copy shortcut
   href: ../win-client/creating-shortcuts-to-entries-in-crm.md         
 - name: External applications and URL addresses

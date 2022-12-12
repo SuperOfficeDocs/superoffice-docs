@@ -5,11 +5,10 @@ items:
   href: ../screen/edit-quote-dialog.md
 - name: Create a quote
   href: create.md
-  items:
-  - name: Copy quote
-    href: copy.md
-  - name: Select ERP connection
-    href: choose-erp-connection.md
+- name: Copy quote
+  href: copy.md
+- name: Select ERP connection
+  href: choose-erp-connection.md
 - name: Add products to the quote
   href: add-product.md
 - name: Add alternatives to a quote

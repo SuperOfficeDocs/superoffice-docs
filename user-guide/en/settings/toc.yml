@@ -1,22 +1,122 @@
 items:
-- name: Overview
-  href: index.md
-- name: Lists
-  href: lists/toc.yml
-- name: Preferences
-  href: preferences/toc.yml
-- name: Options
-  href: options/toc.yml
-- name: System events
-  href: system-events.md
-  items:
-  - name: Add
-    href: add-system-event.md
-- name: Onsite
-  items:
-  - name: SOAP
-    href: screen/soap-config.md
-  - name: Configure SOAP interface
-    href: configure-soap.md
-  - name: Log off users
-    href: ../win-client/logging-users-off.md
+    - name: Lists
+      href: lists/toc.yml
+    - name: Preferences
+      href: preferences/toc.yml
+
+    - name: Privacy
+      href: gdpr/privacy.md
+      items:
+      - name: Add consent purpose
+        href: gdpr/add-consent-purpose.md
+      - name: Add legal base
+        href: settings/lists/privacy-legal-base-add.md
+      - name: Add privacy source
+        href: settings/lists/privacy-source-add.md
+
+    - name: SAINT (Sales intelligence)
+      href: sale/saint/admin/index.md
+      items:
+      - name: Manage status monitors
+        href: sale/saint/admin/manage-status-monitors.md
+      - name: Create new status
+        href: sale/saint/admin/create-status.md
+      - name: Edit description for status
+        href: sale/saint/admin/edit-status.md
+      - name: Restore deleted status
+        href: sale/saint/admin/restore-status.md
+      - name: Default follow-up type for status
+        href: sale/saint/admin/select-default-follow-up-type-for-status.md
+      - name: Image for status
+        href: sale/saint/admin/select-image-for-status.md
+      - name: Period length
+        href: sale/saint/admin/select-period-length.md
+      - name: Status criteria
+        href: sale/saint/admin/select-status-criteria.md
+
+    - name: Quote/Sync
+      href: sale/quote/quote-sync/toc.yml  
+
+    - name: Workflow
+      items:
+      - name: Sales guide
+        href: sale/screen/sales-guide-admin.md
+        items:
+        - name: Create new sales guide
+          href: sale/sales-guide/create.md
+        - name: Edit sales guide
+          href: sale/sales-guide/edit.md
+        - name: Deactivate sales guide
+          href: sale/sales-guide/deactivate.md
+      - name: Project guide
+        href: project/screen/project-guide-admin.md
+        items:
+        - name: Create new project guide, 
+          href: project/project-guide/create.md
+        - name: Edit project-guide
+          href: project/project-guide/edit.md
+        - name: Deactivate project guide
+          href: project/project-guide/deactivate.md
+
+    - name: Custom objects
+      href: custom-objects/toc.yml
+    - name: User interface
+      href: ui/toc.yml
+
+    - name: Options
+      href: options/toc.yml
+
+    - name: Chat
+      href: chat/admin/index.md
+      items:
+      - name: Create a chat channel
+        href: chat/admin/channel-create.md
+      - name: Add JavaScript for your website
+        href: chat/admin/add-javascript.md
+
+    - name: CRMScript
+      href: automation/toc.yml
+
+    - name: Requests
+      items:
+      - name: System settings in Service
+        href: settings/in-service/toc.yml
+      - name: Categories
+        href: request/category/index.md
+        items:
+        - name: Create category
+          href: request/category/create.md
+        - name: Delete category
+          href: request/category/delete.md
+      - name: Tags
+        href: request/tags.md
+      - name: Priorities
+        href: request/priority/index.md
+        items:
+        - name: Create priority
+          href: request/priority/create.md
+        - name: Delete priority
+          href: request/priority/delete.md
+        - name: Create escalation levels
+          href: request/priority/escalation-levels.md
+      - name: Request status
+        href: request/status/index.md
+        items:
+        - name: Create request status
+          href: request/status/create.md
+        - name: Delete request status
+          href: request/status/delete.md
+      - name: System templates
+        href: request/screen/system-templates.md
+
+    - name: Customer center
+      href: customer-center/toc.yml
+
+    - name: Onsite
+      items:
+      - name: SOAP
+        href: screen/soap-config.md
+      - name: Configure SOAP interface
+        href: configure-soap.md
+      - name: Log off users
+        href: ../win-client/logging-users-off.md

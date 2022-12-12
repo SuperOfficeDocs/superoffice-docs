@@ -1,11 +1,6 @@
 items:
 - name: Overview
   href: index.md
-- name: ERP connections
-  href: quotesync-tab-erp-connections.md
-  items:
-  - name: ERP connection add
-    href: erp-connection-add.md
 - name: SuperOffice products
   href: product/index.md
   items:
@@ -22,6 +17,11 @@ items:
   items:
   - name: Configure product
     href: product/settings-configure-product.md
+- name: ERP connections
+  href: quotesync-tab-erp-connections.md
+  items:
+  - name: ERP connection add
+    href: erp-connection-add.md
 - name: Sync
   href: sync/index.md
   items:

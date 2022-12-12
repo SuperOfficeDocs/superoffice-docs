@@ -56,8 +56,11 @@ items:
   - name: Customisation
     topicHref: custom-objects/index.yml
     items:
-    - name: Settings
-      href: settings/toc.yml
+    - name: Lists
+      href: lists/toc.yml
+    - name: Preferences
+      href: preferences/toc.yml
+
     - name: Privacy
       href: gdpr/privacy.md
       items:
@@ -117,6 +120,9 @@ items:
     - name: User interface
       href: ui/toc.yml
 
+    - name: Options
+      href: options/toc.yml
+
     - name: Chat
       href: chat/admin/index.md
       items:
@@ -162,16 +168,28 @@ items:
 
     - name: Customer center
       href: customer-center/toc.yml
-    
+
+    - name: Onsite
+      items:
+      - name: SOAP
+        href: screen/soap-config.md
+      - name: Configure SOAP interface
+        href: configure-soap.md
+      - name: Log off users
+        href: ../win-client/logging-users-off.md
+
   - name: Administration and system settings
     topicHref: license/index.yml
     items:
+    - name: System events
+      href: settings/system-events.md
+      items:
+      - name: Add
+        href: settings/add-system-event.md
     - name: Licenses
       href: license/toc.yml
     - name: User management
       href: user-management/toc.yml
-    - name: Languages and localization
-      href: globalization/toc.yml
     - name: Import
       href: import/toc.yml
     - name: AI
