@@ -31,4 +31,4 @@ To add a macro to the **Actions** button in the **Company** screen, **Contact** 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png
 [img2]: ../../../media/icons/btn-menu.png
-[img3]: ../../../media/icons/globalmenu-settings-small.png
+[img3]: ../../../media/icons/settings-small.png

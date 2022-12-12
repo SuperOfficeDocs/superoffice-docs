@@ -32,4 +32,4 @@ language: en
 
 <!-- Referenced images -->
 [img1]: ../../../common/icons/delete-circle-red.png
-[img2]: ../../media/icons/globalmenu-settings-small.png
+[img2]: ../../media/icons/settings-small.png

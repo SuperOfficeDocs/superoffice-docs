@@ -143,7 +143,7 @@ To do this:
 [3]: ../search-options/freetext-search.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-mainmenu-small.png
+[img1]: ../../media/icons/mainmenu-small.png
 [img2]: ../../../common/icons/context-menu.png
 [img3]: ../../../common/icons/lock-on.png
 [img4]: ../../../common/icons/lock-off.png

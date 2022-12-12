@@ -73,5 +73,5 @@ language: en
 [1]: ../next-in-queue.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../media/icons/settings-small.png
 [img2]: ../../../../common/icons/drag-handle.png

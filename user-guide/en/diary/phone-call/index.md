@@ -41,5 +41,5 @@ Phone calls can be displayed in the following places in SuperOffice CRM:
 [4]: ../../getting-started/preferences.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-personalsettings-small.png
+[img1]: ../../../media/icons/personalsettings-small.png
 [img2]: ../../../../common/icons/phone-h32.png

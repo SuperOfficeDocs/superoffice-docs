@@ -9,8 +9,6 @@ so.topic: help
 language: en
 ---
 
-<!-- REUSE user\standardcrm\key-functions\using-search-criteria.md -->
-
 # Use search criteria
 
 You can add or edit search criteria in, for example, the **Find** dialog, the **Add/edit search criteria** dialog, and the criteria list in the **SAINT** screen.
@@ -146,8 +144,8 @@ To change a search criterion in the **Find** dialog, click it and select a diffe
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../../common/icons/dropdown-icon.png
 [img4]: ../../../media/icons/btn-selectall.png
-[img5]: ../../../media/icons/admin/status-aktiv.bmp
-[img6]: ../../../media/icons/admin/status-inaktiv.bmp
+[img5]: ../../../media/icons/admin/status-active.bmp
+[img6]: ../../../media/icons/admin/status-inactive.bmp
 [img7]: ../../../media/icons/admin/saint-counter-company.bmp
 [img8]: ../../../media/icons/admin/saint-counter-project.bmp
 [img9]: ../../../media/icons/admin/saint-counter-project-dis.bmp

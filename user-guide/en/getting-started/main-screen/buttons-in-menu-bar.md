@@ -93,12 +93,12 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 [17]: ../../sale/sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-mainmenu.png
-[img2]: ../../../media/icons/globalmenu-personalsettings.png
+[img1]: ../../../media/icons/mainmenu.png
+[img2]: ../../../media/icons/personalsettings.png
 [img3]: ../../../../common/icons/plus-black.png
-[img4]: ../../../media/icons/globalmenu-notice.png
-[img5]: ../../../media/icons/globalmenu-notice-new.png
-[img6]: ../../../media/icons/globalmenu-notice-pending.png
+[img4]: ../../../media/icons/notice.png
+[img5]: ../../../media/icons/notice-new.png
+[img6]: ../../../media/icons/notice-pending.png
 [img7]: ../../../../common/icons/search-icon-black.png
-[img8]: ../../media/globalmenu-find.png
+[img8]: ../../media/find.png
 [img9]: ../../../media/superoffice-logo.bmp

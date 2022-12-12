@@ -29,4 +29,4 @@ When the notification time arrives, the **Alarm** dialog opens, containing infor
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-personalsettings-small.png
+[img1]: ../../media/icons/personalsettings-small.png

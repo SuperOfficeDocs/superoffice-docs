@@ -35,4 +35,4 @@ The table consists of the following columns:
 [2]: specifying-number-allocation.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/ikon-kontakt.bmp
+[img1]: ../../../media/icons/admin/contact.bmp

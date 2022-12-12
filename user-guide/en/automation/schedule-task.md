@@ -60,4 +60,4 @@ Click a task in the list to edit its properties, such as when it was last execut
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../media/icons/globalmenu-settings-small.png
+[img2]: ../../media/icons/settings-small.png

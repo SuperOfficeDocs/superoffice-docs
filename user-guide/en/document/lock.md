@@ -70,6 +70,6 @@ If you or someone else checked out a document, and you want to edit the document
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png
-[img2]: ../../media/icons/globalmenu-personalsettings-small.png
+[img2]: ../../media/icons/personalsettings-small.png
 [img3]: ../../media/icons/documentlock-editing.png
 [img4]: ../../media/icons/documentlock-locked.png

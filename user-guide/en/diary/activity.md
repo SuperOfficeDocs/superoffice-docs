@@ -107,6 +107,6 @@ You can delete activities from any screen where they are displayed:
 [17]: ../howto/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/utfoert.bmp
+[img1]: ../../media/icons/check.bmp
 [img2]: ../../../common/icons/plus-black.png
 [img3]: media/activities-detail.bmp

@@ -61,4 +61,4 @@ If multiple languages are configured for your customer centre, you can set the o
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-settings-small.png
+[img1]: ../../media/icons/settings-small.png

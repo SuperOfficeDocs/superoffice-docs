@@ -105,4 +105,4 @@ You can select the degree of correlation between the request from the customer a
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/delete-red.png
-[img2]: ../../../media/icons/globalmenu-settings-small.png
+[img2]: ../../../media/icons/settings-small.png

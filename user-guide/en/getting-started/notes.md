@@ -54,4 +54,4 @@ If the Notepad is open when you close SuperOffice CRM, it will also be displayed
 [1]: main-screen/side-panel.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-mainmenu-small.png
+[img1]: ../../media/icons/mainmenu-small.png

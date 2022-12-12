@@ -38,5 +38,5 @@ To assign a user to this group, [edit the user][1] and select this group in the 
 [3]: ../settings/in-service/personal-settings/other-groups.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-settings-small.png
+[img1]: ../../media/icons/settings-small.png
 [img2]: ../../../common/icons/nav-admin-lists-active.png

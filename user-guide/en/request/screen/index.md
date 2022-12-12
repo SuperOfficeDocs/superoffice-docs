@@ -97,4 +97,4 @@ The **Details** tab contains an overview of the request.
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img3]: ../../../media/icons/globalmenu-personalsettings-small.png
+[img3]: ../../../media/icons/personalsettings-small.png

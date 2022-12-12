@@ -37,4 +37,4 @@ You cannot delete priorities, but you can set the status of a priority to **Dele
 1. Click **OK**. The priority will then no longer be available, for example, when users create new requests.
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../media/icons/settings-small.png

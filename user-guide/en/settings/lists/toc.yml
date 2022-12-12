@@ -101,9 +101,9 @@ items:
     - name: Add a application
       href: adding-external-applications-to-application-list.md
     - name: Web panel
-      href: webpanel.md
+      href: web-panel.md
     - name: Add a webpanel
-      href: adding-items-to-webpanel-list.md
+      href: web-panel-add-item.md
 - name: User-defined lists
   items:
   - name: Add user-defined list

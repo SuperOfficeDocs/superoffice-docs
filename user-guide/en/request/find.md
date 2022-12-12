@@ -135,4 +135,4 @@ If the preview section is not visible, click the ![icon][img1] menu button in th
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png
-[img2]: ../../media/icons/globalmenu-personalsettings-small.png
+[img2]: ../../media/icons/personalsettings-small.png

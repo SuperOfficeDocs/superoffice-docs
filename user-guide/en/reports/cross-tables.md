@@ -76,7 +76,7 @@ Saving reports as files works slightly differently for cross table reports than 
 [1]: properties.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-mainmenu-small.png
+[img1]: ../../media/icons/mainmenu-small.png
 [img2]: ../../media/icons/reports/rep-krysstabell-listeboks.bmp
 [img3]: ../../media/icons/reports/rep-krysstabell-kryss.bmp
 [img4]: ../../media/icons/reports/repweb-preview-plus.bmp

@@ -16,5 +16,5 @@ The columns of the **Activities** section tab contain the following information:
 [1]: ../diary/change-completed-status.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/utfoert.bmp
+[img1]: ../../media/icons/check.bmp
 [img2]: ../../../common/icons/phone.png

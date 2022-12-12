@@ -94,4 +94,4 @@ Lists requests that no-one is assigned responsibility for. To [take responsibili
 [6]: ../../request/howto/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../media/icons/settings-small.png

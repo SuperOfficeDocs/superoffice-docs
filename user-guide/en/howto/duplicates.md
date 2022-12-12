@@ -27,4 +27,4 @@ You can also access these settings from the Main menu ( ![icon][img1] ).
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-mainmenu-small.png
+[img1]: ../../media/icons/mainmenu-small.png

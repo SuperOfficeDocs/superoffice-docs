@@ -61,4 +61,4 @@ The **Settings** tab in the **System** screen contains the following options:
 [1]: ../../request/reply-templates/create.md#faq
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-personalsettings-small.png
+[img1]: ../../../media/icons/personalsettings-small.png

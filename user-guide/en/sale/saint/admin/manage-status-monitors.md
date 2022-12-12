@@ -45,9 +45,9 @@ You must then regenerate these statuses by clicking one of these buttons:
 [2]: select-status-criteria.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/status-inaktiv.bmp
+[img1]: ../../../../media/icons/admin/status-inactive.bmp
 [img2]: ../../../../media/icons/arrow-right.png
 [img3]: ../../../../media/icons/admin/saint-counter-company-dis.bmp
 [img4]: ../../../../media/icons/admin/saint-counter-project-dis.bmp
 [img5]: ../../../../media/icons/admin/saint-counter-sale-disabled.bmp
-[img6]: ../../../../media/icons/admin/roedt-kryss.bmp
+[img6]: ../../../../media/icons/admin/red-x.bmp

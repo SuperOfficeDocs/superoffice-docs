@@ -42,4 +42,4 @@ The **Preview** tab contains the following fields:
 [5]: create-request.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-personalsettings-small.png
+[img1]: ../../../media/icons/personalsettings-small.png

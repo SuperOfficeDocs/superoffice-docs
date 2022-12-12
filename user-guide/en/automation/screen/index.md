@@ -52,4 +52,4 @@ This screen has following options:
 [img4]: ../../../media/icons/btn-script-trace.png
 [img5]: ../../../media/icons/btn-executescript.png
 [img6]: ../../../../common/icons/bug.png
-[img7]: ../../../media/icons/globalmenu-settings-small.png
+[img7]: ../../../media/icons/settings-small.png

@@ -44,6 +44,6 @@ You can also click ![icon][img3] **Trace script** to start [tracing a script][2]
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-executescript.png
-[img2]: ../../media/icons/globalmenu-settings-small.png
+[img2]: ../../media/icons/settings-small.png
 [img3]: ../../media/icons/btn-script-trace-small.png
 [img4]: ../../../common/icons/bug.png

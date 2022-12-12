@@ -40,4 +40,4 @@ With WebTools installed, you can start creating documents from inside SuperOffic
 [1]: http://cs.superoffice.com/scripts/customer.fcgi?-sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=112782
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-mainmenu-small.png
+[img1]: ../../media/icons/mainmenu-small.png
