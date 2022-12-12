@@ -40,7 +40,7 @@ In the **Event** tab, you can specify settings for publishing events.
 > [!TIP]
 > If you click the button ( ![icon][img5] ) to the right of **Confirmation**, you can enter a confirmation text to display in a dialog when an Audience user signs on or off the event. The user must click **Yes** or **No** in this dialog to continue.
 
-## <a id="more" />The More tab
+## <a id="more-tab" />The More tab
 
 ![The More tab (Project) -screenshot][img4]
 

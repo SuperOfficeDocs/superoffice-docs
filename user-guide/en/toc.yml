@@ -169,15 +169,6 @@ items:
     - name: Customer center
       href: customer-center/toc.yml
 
-    - name: Onsite
-      items:
-      - name: SOAP
-        href: screen/soap-config.md
-      - name: Configure SOAP interface
-        href: configure-soap.md
-      - name: Log off users
-        href: ../win-client/logging-users-off.md
-
   - name: Administration and system settings
     topicHref: license/index.yml
     items:

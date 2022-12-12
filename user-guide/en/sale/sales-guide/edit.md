@@ -28,8 +28,8 @@ language: en
     The changes are saved automatically.
 
 <!-- Referenced links -->
-[1]: create.md#add-a-follow-up-for-a-stage
-[2]: create.md#add-a-document-for-a-stage
+[1]: create.md#add-fo-stage
+[2]: create.md#add-doc-stage
 [3]: ../../settings/lists/sale-stage.md
 
 <!-- Referenced images -->

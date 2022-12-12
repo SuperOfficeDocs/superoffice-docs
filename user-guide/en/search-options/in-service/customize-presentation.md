@@ -17,7 +17,7 @@ Clicking the element profile button ![icon][img3] in the search results list tak
 * Under **Columns**, you can choose which columns are displayed in the **Result** section of the screen.
 * Under **Sample table**, you can see what the search results will look like with the current settings.
 
-## Add columns
+## <a id="add-column" />Add columns
 
 1. [Open the search screen][1].
 
@@ -79,7 +79,7 @@ You can edit the information such as name and width about the existing columns.
 Click the delete icon ![icon][img1] to the right of the required column. The column is removed immediately.
 
 <!-- Referenced links -->
-[1]: index.md#open-the-search-screen
+[1]: index.md#open
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/delete-red.png

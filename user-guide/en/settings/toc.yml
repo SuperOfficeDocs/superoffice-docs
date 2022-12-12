@@ -116,7 +116,7 @@ items:
     - name: Onsite
       items:
       - name: SOAP
-        href: ../screen/soap-config.md
+        href: screen/soap-config.md
       - name: Configure SOAP interface
         href: configure-soap.md
       - name: Log off users

@@ -10,6 +10,6 @@ In the **Content** step you enter the content of the SMS.
 
 <!-- Referenced links -->
 [1]: ../../../../../../docs/document/templates/variables/for-selected-contact.md
-[2]: ../../../editor/index.md#template-variables
+[2]: ../../../editor/index.md#variables
 
 <!-- Referenced images -->

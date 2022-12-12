@@ -27,7 +27,7 @@ In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") 
 
 ![Editor (old) -screenshot][img3]
 
-## Template variables
+## <a id="variables" />Template variables
 
 To give the message a more personal touch, you can use placeholders to insert customer-specific information such as the customer's first name. In this way, you can customize the content for each individual customer.
 

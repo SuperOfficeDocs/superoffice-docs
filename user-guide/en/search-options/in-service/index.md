@@ -29,7 +29,7 @@ To quickly access a specific record (such as a request or contact), function or 
 > [!TIP]
 > There is also a [quick search option][1]. In addition, clicking the various [navigator buttons][2] gives you access to more search options.
 
-## Open the search screen
+## <a id="open" />Open the search screen
 
 There are many different ways to bring up the search screen, depending on where in the system you are:
 
@@ -122,10 +122,10 @@ To return to the ordinary view, click the **Simple view** button at the top of t
 [1]: quick-search.md
 [2]: in-navigator.md
 [3]: ../../request/find.md
-[4]: ../../request/find.md#use-lists
+[4]: ../../request/find.md#list
 [5]: ../selections/in-service/index.md
 [6]: ../selections/in-service/create-from-search.md
-[7]: customize-presentation.md#add-columns
+[7]: customize-presentation.md#add-column
 [8]: customize-presentation.md
 
 <!-- Referenced images -->

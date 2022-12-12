@@ -49,7 +49,7 @@ language: en
 <!-- Referenced links -->
 [1]: edit-rights-for-anonymous-users.md
 [3]: index.md
-[2]: create-role.md#in-service
+[2]: create-role.md#service
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-settings-small.png

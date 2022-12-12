@@ -22,7 +22,7 @@ language: en
 
 When you double-click a row in the [search results screen][13], you are taken to the **Request** screen.
 
-## Customers
+## <a id="customers" />Customers
 
 Requests can be linked to [contacts][2], who in turn can belong to a [company][6]. This means that requests cannot be linked directly to companies (only indirectly via contacts). When new emails are imported and saved as requests, the request is automatically linked to the correct contact via the email address. When you view a request, it is easy to see who the contact is, and if you click the contact's name, you can see which other requests are registered for this person. This provides you with a rapid overview of previous communication with this same contact.
 

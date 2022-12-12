@@ -24,6 +24,6 @@ You can use SuperOffice CRM [template variables][1] in your document to insert c
 [!include[Tip](tip-mailing-save-draft.md)]
 
 <!-- Referenced links -->
-[1]: ../../../editor/index.md#template-variables
+[1]: ../../../editor/index.md#variables
 
 <!-- Referenced images -->

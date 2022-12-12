@@ -42,7 +42,7 @@ The product list: If products were added to the quote, they are shown in the lis
 [2]: ../../sale/quote/copy.md
 [3]: ../../sale/quote/create-quote-document.md
 [4]: ../../sale/quote/add-alternative.md
-[5]: ../../sale/quote/add-alternative.md#favourite-alternative
+[5]: ../../sale/quote/add-alternative.md#fav
 [6]: ../../sale/quote/index.md#status
 [7]: ../../sale/quote/add-product.md
 [8]: edit-quote-dialog.md

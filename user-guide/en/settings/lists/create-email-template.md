@@ -25,7 +25,7 @@ You can create your own templates to use when creating emails from SuperOffice C
 
 6. Choose the **Items** tab.
 
-7. [!include[Click arrow and select](../../../includes/expand-list.md)] **Document template** from the **List** dropdown.
+7. [!include[Click arrow and select](../../includes/expand-list.md)] **Document template** from the **List** dropdown.
 
 8. Click the **Add** button ![icon][img2] below the **Items** list.
 

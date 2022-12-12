@@ -38,7 +38,7 @@ Menu options:
 
 To [view all the links in a mailing][4], open the mailing in view mode and select the **Tracked links** tab.
 
-## Google Analytics
+## <a id="google" />Google Analytics
 
 When setting up a mailing, you have the option of using Google Analytics as the tracking system. The setup in mailings allows you to define a more accurate tracking of emails using the provided fields, which results in more detailed Google Channel reports.
 
@@ -46,12 +46,11 @@ When setting up a mailing, you have the option of using Google Analytics as the 
 
 **Source** and **Campaign**: These fields identify this specific mailing as the source, and allows for a more accurate tracking and reporting in Google.
 
-Read more on SuperOffice Community: [Simple Google Analytics email tracking][5].
-
 ## Related content
 
 * [Include links you want to track][3]
 * [Add subscription links][4]
+* [Simple Google Analytics email tracking][5]
 
 <!-- Referenced links -->
 [1]: create-links.md

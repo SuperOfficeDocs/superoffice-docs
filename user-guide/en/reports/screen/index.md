@@ -58,7 +58,7 @@ The report archive (the **Documents** section tab) appears at the bottom of the 
 * [Learn more about activities][4]
 
 <!-- Referenced links -->
-[1]: ../standard-reports.md#types
+[1]: ../standard-reports.md#type
 [2]: ../properties.md
 [3]: ../search-criteria/index.md
 [7]: ../filter.md

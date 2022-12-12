@@ -66,18 +66,18 @@ After you create statuses and specify a project type for the project guide, you 
 
 4. Select the required status in the list. The status's details are shown at the bottom of the screen.
 
-5. [Add one or more follow-ups for the selected status](#add-a-follow-up-for-a-status).
+5. [Add one or more follow-ups for the selected status](#add-fo-status).
 
     > [!NOTE]
     > You do not have to add a document for each status, but you should add at least one follow-up for each status.
 
-6. [Add one or more documents for the selected status](#add-a-document-for-a-status).
+6. [Add one or more documents for the selected status](#add-doc-status).
 
 7. Repeat steps 4-6 for each status you want to add follow-ups and documents for.
 
 The changes are saved automatically. The project guide will now be displayed in SuperOffice CRM when a project is created with the project type selected in step B.
 
-## Add a follow-up for a status
+## <a id="add-fo-status" />Add a follow-up for a status
 
 <details><summary>Click here for an example of a follow-up</summary>
 
@@ -130,7 +130,7 @@ Planning meeting:
 
 12. Repeat this procedure to add more follow-ups in this or other statuses.
 
-## Add a document for a status
+## <a id="add-doc-status" />Add a document for a status
 
 <details><summary>Click here for an example of a document</summary>
 

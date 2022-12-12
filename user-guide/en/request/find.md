@@ -95,7 +95,7 @@ Once you have a list of requests using one of the methods above, you will be in 
 
 * **Preview**: Displays the contents of the request selected under **Find requests**.
 
-### Result
+### <a id="result" />Result
 
 Contains a list of requests that match the criteria specified above. Here you can:
 

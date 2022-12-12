@@ -58,7 +58,7 @@ The **Settings** tab in the **System** screen contains the following options:
 * **Track all links**: Check here to track all links in mailings.
 
 <!-- Referenced links -->
-[1]: ../../request/reply-templates/create.md#autofaq
+[1]: ../../request/reply-templates/create.md#faq
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-personalsettings-small.png
