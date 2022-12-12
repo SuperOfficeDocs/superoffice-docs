@@ -1,5 +1,5 @@
 ---
-uid: database-whats-new
+uid: database-whats-new-92
 title: What's New
 description: What's new in the latest database version.
 so.generated: true
@@ -10,6 +10,7 @@ so.topic: reference
 so.envir:
   - "onsite"
   - "online"
+so.version: 9.2
 ---
 <!-- markdownlint-disable-file MD036 -->
 

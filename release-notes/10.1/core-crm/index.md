@@ -20,9 +20,14 @@ so.topic: reference
 * [Dashboard – Big number tile with short number (10.1.5)][5]
 * [Sale - Sales targets (10.1.6)][6]
 * [Company and Contact – Note with date and time stamp (10.1.6)][6]
+* [Sale - Sales target types (10.1.9)][9]
+* [Activities – Filter for all types (10.1.9)][9]
+* [Dashboard – Duration on Follow-up tiles (10.1.9)][9]
+* [Find and selection – None of the interests criteria (10.1.9)][9]
 
 <!-- Referenced links-->
 [3]: 10.1.3-update.md
 [4]: 10.1.4-update.md
 [5]: 10.1.5-update.md
 [6]: 10.1.6-update.md
+[9]: 10.1.9-update.md

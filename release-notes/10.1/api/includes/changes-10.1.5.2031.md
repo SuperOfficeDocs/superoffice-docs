@@ -1,19 +1,13 @@
----
-uid: version_10.1.5.2031_changes
-description: Changes from v10.1.2.1565 and v10.1.5.2031
-so.date: 10/10/2022
----
+<!-- markdownlint-disable-file MD041 MD024 MD013-->
+## Changes from v10.1.2.1565 to v10.1.5.2031
 
-<!-- markdownlint-disable-file MD024 -->
-# Changes from v10.1.2.1565 and v10.1.5.2031
-
-## Web Services
+### Web Services
 
 These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
-### Assembly: SuperOffice.Services
+#### Assembly: SuperOffice.Services
 
-### New Types
+#### New Types
 
 * `SuperOffice.CRM.Services.DocumentMigrationAssociate`
 * `SuperOffice.CRM.Services.DocumentTemplateMigrationList`
@@ -27,28 +21,28 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * `SuperOffice.CRM.Services.Recipient`
 * `SuperOffice.CRM.Services.TargetDimension`
 
-### Modified Types
+#### Modified Types
 
-#### SuperOffice.CRM.Services.ActivitySummaryItem is Modified
+##### SuperOffice.CRM.Services.ActivitySummaryItem is Modified
 
 * Modified items
   * Property `Date`
   * Property `Registered`
 
-#### SuperOffice.CRM.Services.AlarmData is Modified
+##### SuperOffice.CRM.Services.AlarmData is Modified
 
 * Modified items
   * Property `EndDate`
   * Property `StartTime`
 
-#### SuperOffice.CRM.Services.Appointment is Modified
+##### SuperOffice.CRM.Services.Appointment is Modified
 
 * Modified items
   * Property `ActiveDate`
   * Property `EndDate`
   * Property `StartDate`
 
-#### SuperOffice.CRM.Services.AppointmentEntity is Modified
+##### SuperOffice.CRM.Services.AppointmentEntity is Modified
 
 * Modified items
   * Property `ActiveDate`
@@ -57,36 +51,36 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `StartDate`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.AppointmentSyncData is Modified
+##### SuperOffice.CRM.Services.AppointmentSyncData is Modified
 
 * Modified items
   * Property `EndDate`
   * Property `StartDate`
 
-#### SuperOffice.CRM.Services.AudienceConfigParameter is Modified
+##### SuperOffice.CRM.Services.AudienceConfigParameter is Modified
 
 * Modified items
   * Property `CreatedDate`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.AudienceLayoutEntity is Modified
+##### SuperOffice.CRM.Services.AudienceLayoutEntity is Modified
 
 * Modified items
   * Property `CreatedDate`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.BlobEntity is Modified
+##### SuperOffice.CRM.Services.BlobEntity is Modified
 
 * Modified items
   * Property `CreatedDate`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.ChatMessage is Modified
+##### SuperOffice.CRM.Services.ChatMessage is Modified
 
 * Modified items
   * Property `WhenPosted`
 
-#### SuperOffice.CRM.Services.ChatSessionEntity is Modified
+##### SuperOffice.CRM.Services.ChatSessionEntity is Modified
 
 * Modified items
   * Property `WhenEnded`
@@ -95,18 +89,18 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `WhenRequested`
   * Property `WhenStarted`
 
-#### SuperOffice.CRM.Services.ChatSummaryItem is Modified
+##### SuperOffice.CRM.Services.ChatSummaryItem is Modified
 
 * Modified items
   * Property `WhenEnded`
   * Property `WhenRequested`
 
-#### SuperOffice.CRM.Services.ChatTopicEntity is Modified
+##### SuperOffice.CRM.Services.ChatTopicEntity is Modified
 
 * Modified items
   * Property `LastAccept`
 
-#### SuperOffice.CRM.Services.ChatWidgetSettings is Modified
+##### SuperOffice.CRM.Services.ChatWidgetSettings is Modified
 
 * New items
   * Property `AgentMsgColor`
@@ -119,18 +113,18 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `CustMsgTextColor`
   * Property `FontSize`
 
-#### SuperOffice.CRM.Services.ConsentInfo is Modified
+##### SuperOffice.CRM.Services.ConsentInfo is Modified
 
 * Modified items
   * Property `Registered`
   * Property `Updated`
 
-#### SuperOffice.CRM.Services.ConsentPurpose is Modified
+##### SuperOffice.CRM.Services.ConsentPurpose is Modified
 
 * Modified items
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.ContactEntity is Modified
+##### SuperOffice.CRM.Services.ContactEntity is Modified
 
 * Modified items
   * Property `CreatedDate`
@@ -138,144 +132,144 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `DbiLastSyncronized`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.ContactRelationEntity is Modified
+##### SuperOffice.CRM.Services.ContactRelationEntity is Modified
 
 * Modified items
   * Property `CreatedDate`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.CRMScriptEntity is Modified
+##### SuperOffice.CRM.Services.CRMScriptEntity is Modified
 
 * Modified items
   * Property `Registered`
   * Property `Updated`
 
-#### SuperOffice.CRM.Services.CustomerCenterConfig is Modified
+##### SuperOffice.CRM.Services.CustomerCenterConfig is Modified
 
 * Modified items
   * Property `Registered`
   * Property `Updated`
 
-#### SuperOffice.CRM.Services.CustomerServiceAgent is Modified
+##### SuperOffice.CRM.Services.CustomerServiceAgent is Modified
 
 * New items
   * Method `GetPreviewFaqEntry(Int32)`
   * Method `GetPreviewQuickReply(Int32)`
   * Method `GetPreviewReplyTemplate(Int32)`
 
-#### SuperOffice.CRM.Services.DashAgent is Modified
+##### SuperOffice.CRM.Services.DashAgent is Modified
 
 * New items
   * Method `CreateDefaultPreviewDash()`
   * Method `CreateDefaultPreviewDashTile()`
   * Method `GetPreviewDash(Int32)`
 
-#### SuperOffice.CRM.Services.DocumentEntity is Modified
+##### SuperOffice.CRM.Services.DocumentEntity is Modified
 
 * Modified items
   * Property `CreatedDate`
   * Property `Date`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.DocumentMigrationAgent is Modified
+##### SuperOffice.CRM.Services.DocumentMigrationAgent is Modified
 
 * New items
   * Method `CreateDefaultDocumentTemplateMigrationList()`
   * Method `GetForTemplates(Int32, Boolean)`
   * Method `MigrateTemplateToNewDocPlugin(Int32, Int32)`
 
-#### SuperOffice.CRM.Services.DocumentMigrationItemList is Modified
+##### SuperOffice.CRM.Services.DocumentMigrationItemList is Modified
 
 * Modified items
   * Property `Documents`
 * New items
   * Property `Associates`
 
-#### SuperOffice.CRM.Services.EMailAgent is Modified
+##### SuperOffice.CRM.Services.EMailAgent is Modified
 
 * New items
   * Method `GetExtendedEmailMessageIds(EMailConnectionInfoExtended)`
 
-#### SuperOffice.CRM.Services.EMailEntity is Modified
+##### SuperOffice.CRM.Services.EMailEntity is Modified
 
 * Modified items
   * Property `ReceivedAt`
 
-#### SuperOffice.CRM.Services.ErpSyncAgent is Modified
+##### SuperOffice.CRM.Services.ErpSyncAgent is Modified
 
 * New items
   * Method `GetAllConnections(Boolean)`
   * Method `GetAllConnectors()`
 
-#### SuperOffice.CRM.Services.ForeignAppEntity is Modified
+##### SuperOffice.CRM.Services.ForeignAppEntity is Modified
 
 * Modified items
   * Property `CreatedDate`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.ForeignDevice is Modified
+##### SuperOffice.CRM.Services.ForeignDevice is Modified
 
 * Modified items
   * Property `CreatedDate`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.ForeignKey is Modified
+##### SuperOffice.CRM.Services.ForeignKey is Modified
 
 * Modified items
   * Property `CreatedDate`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.FormEntity is Modified
+##### SuperOffice.CRM.Services.FormEntity is Modified
 
 * Modified items
   * Property `Expires`
   * Property `Registered`
   * Property `Updated`
 
-#### SuperOffice.CRM.Services.FormSubmissionEntity is Modified
+##### SuperOffice.CRM.Services.FormSubmissionEntity is Modified
 
 * Modified items
   * Property `WhenSubmitted`
 
-#### SuperOffice.CRM.Services.HierarchyEntity is Modified
+##### SuperOffice.CRM.Services.HierarchyEntity is Modified
 
 * Modified items
   * Property `Registered`
   * Property `Updated`
 
-#### SuperOffice.CRM.Services.ICustomerServiceAgent is Modified
+##### SuperOffice.CRM.Services.ICustomerServiceAgent is Modified
 
 * New items
   * Method `GetPreviewFaqEntry(Int32)`
   * Method `GetPreviewQuickReply(Int32)`
   * Method `GetPreviewReplyTemplate(Int32)`
 
-#### SuperOffice.CRM.Services.IDashAgent is Modified
+##### SuperOffice.CRM.Services.IDashAgent is Modified
 
 * New items
   * Method `CreateDefaultPreviewDash()`
   * Method `CreateDefaultPreviewDashTile()`
   * Method `GetPreviewDash(Int32)`
 
-#### SuperOffice.CRM.Services.IDocumentMigrationAgent is Modified
+##### SuperOffice.CRM.Services.IDocumentMigrationAgent is Modified
 
 * New items
   * Method `CreateDefaultDocumentTemplateMigrationList()`
   * Method `GetForTemplates(Int32, Boolean)`
   * Method `MigrateTemplateToNewDocPlugin(Int32, Int32)`
 
-#### SuperOffice.CRM.Services.IEMailAgent is Modified
+##### SuperOffice.CRM.Services.IEMailAgent is Modified
 
 * New items
   * Method `GetExtendedEmailMessageIds(EMailConnectionInfoExtended)`
 
-#### SuperOffice.CRM.Services.IErpSyncAgent is Modified
+##### SuperOffice.CRM.Services.IErpSyncAgent is Modified
 
 * New items
   * Method `GetAllConnections(Boolean)`
   * Method `GetAllConnectors()`
 
-#### SuperOffice.CRM.Services.IListAgent is Modified
+##### SuperOffice.CRM.Services.IListAgent is Modified
 
 * New items
   * Method `GetQuoteApproveReason(Int32)`
@@ -285,13 +279,13 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `GetQuoteDenyReasonList(Int32[])`
   * Method `GetQuoteDenyReasons()`
 
-#### SuperOffice.CRM.Services.IQuoteAgent is Modified
+##### SuperOffice.CRM.Services.IQuoteAgent is Modified
 
 * New items
   * Method `CancelApprovalRequest(Int32)`
   * Method `RequestApproval(Int32, Int32, String)`
 
-#### SuperOffice.CRM.Services.ITargetsAgent is Modified
+##### SuperOffice.CRM.Services.ITargetsAgent is Modified
 
 * New items
   * Method `CreateDefaultTargetDimension()`
@@ -301,14 +295,14 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `GetTargetGroupIds(Int32)`
   * Method `SaveTargetDimension(TargetDimension)`
 
-#### SuperOffice.CRM.Services.ITicketAgent is Modified
+##### SuperOffice.CRM.Services.ITicketAgent is Modified
 
 * New items
   * Method `CalculateMessageRecipients(Int32, MessageActionType, Int32)`
   * Method `GetDefaultMessageContent(Int32, MessageActionType, Int32)`
   * Method `GetTicketMessageWithEmbeddedData(Int32, ImageEmbedType)`
 
-#### SuperOffice.CRM.Services.ListAgent is Modified
+##### SuperOffice.CRM.Services.ListAgent is Modified
 
 * New items
   * Method `GetQuoteApproveReason(Int32)`
@@ -318,7 +312,7 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `GetQuoteDenyReasonList(Int32[])`
   * Method `GetQuoteDenyReasons()`
 
-#### SuperOffice.CRM.Services.PersonEntity is Modified
+##### SuperOffice.CRM.Services.PersonEntity is Modified
 
 * Modified items
   * Property `BirthDate`
@@ -327,30 +321,30 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `DbiLastSyncronized`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.PreviewMailing is Modified
+##### SuperOffice.CRM.Services.PreviewMailing is Modified
 
 * Modified items
   * Property `SendingTime`
 
-#### SuperOffice.CRM.Services.PreviewMailingHeader is Modified
+##### SuperOffice.CRM.Services.PreviewMailingHeader is Modified
 
 * Modified items
   * Property `StartDate`
 
-#### SuperOffice.CRM.Services.PriceList is Modified
+##### SuperOffice.CRM.Services.PriceList is Modified
 
 * Modified items
   * Property `ValidFrom`
   * Property `ValidTo`
 
-#### SuperOffice.CRM.Services.Project is Modified
+##### SuperOffice.CRM.Services.Project is Modified
 
 * Modified items
   * Property `PublishFrom`
   * Property `PublishTo`
   * Property `Updated`
 
-#### SuperOffice.CRM.Services.ProjectEntity is Modified
+##### SuperOffice.CRM.Services.ProjectEntity is Modified
 
 * Modified items
   * Property `CreatedDate`
@@ -358,12 +352,12 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `NextMilestoneDate`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.ProjectEvent is Modified
+##### SuperOffice.CRM.Services.ProjectEvent is Modified
 
 * Modified items
   * Property `EventDate`
 
-#### SuperOffice.CRM.Services.ProjectEventEntity is Modified
+##### SuperOffice.CRM.Services.ProjectEventEntity is Modified
 
 * Modified items
   * Property `CreatedDate`
@@ -372,18 +366,18 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `PublishTo`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.QuoteAgent is Modified
+##### SuperOffice.CRM.Services.QuoteAgent is Modified
 
 * New items
   * Method `CancelApprovalRequest(Int32)`
   * Method `RequestApproval(Int32, Int32, String)`
 
-#### SuperOffice.CRM.Services.QuoteLine is Modified
+##### SuperOffice.CRM.Services.QuoteLine is Modified
 
 * Modified items
   * Property `SubscriptionStart`
 
-#### SuperOffice.CRM.Services.QuoteVersion is Modified
+##### SuperOffice.CRM.Services.QuoteVersion is Modified
 
 * Modified items
   * Property `ApprovedRegisteredDate`
@@ -396,25 +390,25 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `RequestAssociateId`
   * Property `RequestComment`
 
-#### SuperOffice.CRM.Services.RoleEntity is Modified
+##### SuperOffice.CRM.Services.RoleEntity is Modified
 
 * Modified items
   * Property `Created`
   * Property `Updated`
 
-#### SuperOffice.CRM.Services.SaintConfiguration is Modified
+##### SuperOffice.CRM.Services.SaintConfiguration is Modified
 
 * Modified items
   * Property `GenerationEnd`
   * Property `GenerationStart`
 
-#### SuperOffice.CRM.Services.Sale is Modified
+##### SuperOffice.CRM.Services.Sale is Modified
 
 * Modified items
   * Property `NextDueDate`
   * Property `SaleDate`
 
-#### SuperOffice.CRM.Services.SaleEntity is Modified
+##### SuperOffice.CRM.Services.SaleEntity is Modified
 
 * Modified items
   * Property `CreatedDate`
@@ -423,25 +417,25 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `Saledate`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.SaleSummaryItem is Modified
+##### SuperOffice.CRM.Services.SaleSummaryItem is Modified
 
 * Modified items
   * Property `Registered`
   * Property `SaleDate`
 
-#### SuperOffice.CRM.Services.Satellite is Modified
+##### SuperOffice.CRM.Services.Satellite is Modified
 
 * Modified items
   * Property `Created`
   * Property `Updated`
 
-#### SuperOffice.CRM.Services.Script is Modified
+##### SuperOffice.CRM.Services.Script is Modified
 
 * Modified items
   * Property `Registered`
   * Property `Updated`
 
-#### SuperOffice.CRM.Services.SelectionEntity is Modified
+##### SuperOffice.CRM.Services.SelectionEntity is Modified
 
 * Modified items
   * Property `CreatedDate`
@@ -449,50 +443,50 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `LastMembershipChange`
   * Property `UpdatedDate`
 
-#### SuperOffice.CRM.Services.SelectionSummaryItem is Modified
+##### SuperOffice.CRM.Services.SelectionSummaryItem is Modified
 
 * Modified items
   * Property `Registered`
 
-#### SuperOffice.CRM.Services.ShipmentMessageBlockEntity is Modified
-
-* Modified items
-  * Property `Registered`
-  * Property `Updated`
-
-#### SuperOffice.CRM.Services.ShipmentMessageEntity is Modified
+##### SuperOffice.CRM.Services.ShipmentMessageBlockEntity is Modified
 
 * Modified items
   * Property `Registered`
   * Property `Updated`
 
-#### SuperOffice.CRM.Services.StatusMonitor is Modified
+##### SuperOffice.CRM.Services.ShipmentMessageEntity is Modified
+
+* Modified items
+  * Property `Registered`
+  * Property `Updated`
+
+##### SuperOffice.CRM.Services.StatusMonitor is Modified
 
 * Modified items
   * Property `GenerationStart`
 
-#### SuperOffice.CRM.Services.SystemEventEntity is Modified
+##### SuperOffice.CRM.Services.SystemEventEntity is Modified
 
 * Modified items
   * Property `Eta`
   * Property `Registered`
 
-#### SuperOffice.CRM.Services.TargetAssignment is Modified
+##### SuperOffice.CRM.Services.TargetAssignment is Modified
 
 * New items
   * Property `DimensionListItem`
 
-#### SuperOffice.CRM.Services.TargetGroup is Modified
+##### SuperOffice.CRM.Services.TargetGroup is Modified
 
 * New items
   * Property `TargetDimension`
 
-#### SuperOffice.CRM.Services.TargetRevision is Modified
+##### SuperOffice.CRM.Services.TargetRevision is Modified
 
 * Modified items
   * Property `When`
 
-#### SuperOffice.CRM.Services.TargetsAgent is Modified
+##### SuperOffice.CRM.Services.TargetsAgent is Modified
 
 * New items
   * Method `CreateDefaultTargetDimension()`
@@ -502,7 +496,7 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `GetTargetGroupIds(Int32)`
   * Method `SaveTargetDimension(TargetDimension)`
 
-#### SuperOffice.CRM.Services.Ticket is Modified
+##### SuperOffice.CRM.Services.Ticket is Modified
 
 * Modified items
   * Property `Activate`
@@ -516,14 +510,14 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `ReadByOwner`
   * Property `RepliedAt`
 
-#### SuperOffice.CRM.Services.TicketAgent is Modified
+##### SuperOffice.CRM.Services.TicketAgent is Modified
 
 * New items
   * Method `CalculateMessageRecipients(Int32, MessageActionType, Int32)`
   * Method `GetDefaultMessageContent(Int32, MessageActionType, Int32)`
   * Method `GetTicketMessageWithEmbeddedData(Int32, ImageEmbedType)`
 
-#### SuperOffice.CRM.Services.TicketEntity is Modified
+##### SuperOffice.CRM.Services.TicketEntity is Modified
 
 * Modified items
   * Property `Activate`
@@ -542,23 +536,23 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `SuggestedCategoryId`
   * Property `SuggestedCategoryName`
 
-#### SuperOffice.CRM.Services.TicketMessage is Modified
+##### SuperOffice.CRM.Services.TicketMessage is Modified
 
 * Modified items
   * Property `CreatedAt`
 
-#### SuperOffice.CRM.Services.TicketMessageEntity is Modified
+##### SuperOffice.CRM.Services.TicketMessageEntity is Modified
 
 * Modified items
   * Property `CreatedAt`
 
-#### SuperOffice.CRM.Services.TicketMessageHeader is Modified
+##### SuperOffice.CRM.Services.TicketMessageHeader is Modified
 
 * New items
   * Property `StdItem`
   * Property `StdItemCol`
 
-#### SuperOffice.CRM.Services.TicketPriorityEntity is Modified
+##### SuperOffice.CRM.Services.TicketPriorityEntity is Modified
 
 * Modified items
   * Property `FriStart`
@@ -577,49 +571,48 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `WedStart`
   * Property `WedStop`
 
-#### SuperOffice.CRM.Services.TicketSummaryItem is Modified
+##### SuperOffice.CRM.Services.TicketSummaryItem is Modified
 
 * Modified items
   * Property `Registered`
 * New items
   * Property `IconHint`
 
-#### SuperOffice.CRM.Services.TriggerScriptEntity is Modified
+##### SuperOffice.CRM.Services.TriggerScriptEntity is Modified
 
 * Modified items
   * Property `Registered`
   * Property `Updated`
 
-#### SuperOffice.CRM.Services.User is Modified
+##### SuperOffice.CRM.Services.User is Modified
 
 * Modified items
   * Property `Lastlogin`
   * Property `Lastlogout`
 
-#### SuperOffice.CRM.Services.WebAppUsage is Modified
+##### SuperOffice.CRM.Services.WebAppUsage is Modified
 
 * Modified items
   * Property `Timestamp`
 
-#### SuperOffice.CRM.Services.Webhook is Modified
+##### SuperOffice.CRM.Services.Webhook is Modified
 
 * Modified items
   * Property `Registered`
   * Property `Updated`
 
-#### SuperOffice.CRM.Services.WebPanelEntity is Modified
+##### SuperOffice.CRM.Services.WebPanelEntity is Modified
 
 * New items
   * Property `AlwaysReloadOnShow`
 
-
-## NetServer Core
+### NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
 
-### Assembly: SoCore
+#### Assembly: SoCore
 
-### Deleted Types
+#### Deleted Types
 
 * `SuperOffice.Security.Principal.CurrentWindowsTokenSupplier`
 * `SuperOffice.Security.Principal.OidcSecurityToken`
@@ -629,7 +622,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * `SuperOffice.Security.Principal.SoImpersonationSecurityToken`
 * `SuperOffice.Security.Principal.UsernamePasswordWindowsTokenSupplier`
 
-### New Types
+#### New Types
 
 * `SoCore.Shared.CRM.Services.TimeZoneHintAttribute`
 * `SoCore.Shared.CRM.Services.TimeZoneInterpretation`
@@ -653,36 +646,35 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * `SuperOffice.WebApi.PartnerAppRequestInfo`
 * `System.Linq.SupportForNetstandard2_0.LinqExtensions`
 
-### Modified Types
+#### Modified Types
 
-#### Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder is Modified
+##### Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder is Modified
 
 * Deleted items
   * Method `AddTokenSupplier<TTokenSuplier>()`
 * New items
   * Method `AddImplicitIdentitySupplier<TTokenSuplier>()`
 
-#### SuperOffice.Configuration.ConfigFile is Modified
+##### SuperOffice.Configuration.ConfigFile is Modified
 
 * New items
   * Method `ForceOverrideIsOnline(Boolean)`
 
-#### SuperOffice.CRM.ArchiveLists.ArchiveRow is Modified
+##### SuperOffice.CRM.ArchiveLists.ArchiveRow is Modified
 
 * New items
   * Method `Clone()`
 
-#### SuperOffice.CRM.ArchiveLists.Constants is Modified
+##### SuperOffice.CRM.ArchiveLists.Constants is Modified
 
 * Modified items
 
-##### SuperOffice.CRM.ArchiveLists.Constants.IconHints is Modified
+###### SuperOffice.CRM.ArchiveLists.Constants.IconHints is Modified
 
 * New items
   * Field `.IconHintsPerson_Relation`
 
-
-#### SuperOffice.CRM.Rows.ContactCode is Modified
+##### SuperOffice.CRM.Rows.ContactCode is Modified
 
 * Deleted items
   * Method `IsCharAlpha(Char)`
@@ -691,7 +683,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `IsCharNumeric(Char)`
   * Method `IsCharUpper(Char)`
 
-#### SuperOffice.Data.NotificationEventType is Modified
+##### SuperOffice.Data.NotificationEventType is Modified
 
 * Deleted items
   * Field `SaleApprovalApproved`
@@ -702,19 +694,19 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `QuoteApprovalDenied`
   * Field `QuoteApprovalRequest`
 
-#### SuperOffice.Data.ReplyTemplateBodyFlags is Modified
+##### SuperOffice.Data.ReplyTemplateBodyFlags is Modified
 
 * New items
   * Field `ReplyTemplateBodyNone`
 
-#### SuperOffice.Data.TargetEntityType is Modified
+##### SuperOffice.Data.TargetEntityType is Modified
 
 * Deleted items
   * Field `SaleAmount`
 * New items
   * Field `Sale`
 
-#### SuperOffice.Data.TicketBaseStatus is Modified
+##### SuperOffice.Data.TicketBaseStatus is Modified
 
 * New items
   * Field `Postponed1Hour`
@@ -726,7 +718,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `PostponedSpecific`
   * Field `PostponedWeek`
 
-#### SuperOffice.Globalization.RC is Modified
+##### SuperOffice.Globalization.RC is Modified
 
 * Deleted items
   * Field `SR_ADMIN_EJDISPLAYNAME`
@@ -906,7 +898,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_TICKET_PREVIEW_SHOW`
   * Field `SR_WEBTOOLS_INITIALIZE_ERROR_MESSAGE`
 
-#### SuperOffice.License.SoLicenseNames is Modified
+##### SuperOffice.License.SoLicenseNames is Modified
 
 * New items
   * Field `TargetAppointment`
@@ -918,25 +910,25 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `TargetTicket`
   * Field `TargetTicketUnlimited`
 
-#### SuperOffice.NetServerVersion is Modified
+##### SuperOffice.NetServerVersion is Modified
 
 * Deleted items
   * Method `DotNetFrameworkVersion()`
 
-#### SuperOffice.Security.Permissions.SoStrongName is Modified
+##### SuperOffice.Security.Permissions.SoStrongName is Modified
 
 * Deleted items
   * Property `Permission`
   * Property `PublicKeyBlob`
 
-#### SuperOffice.Security.Principal.IContextResolver is Modified
+##### SuperOffice.Security.Principal.IContextResolver is Modified
 
 * Deleted items
   * Method `TryResolveContext(SecurityToken[], String&)`
 * New items
   * Method `TryResolveContextFromClaims(IEnumerable<ClaimsIdentity>, String&)`
 
-#### SuperOffice.Security.Principal.IPostAuthenticationPlugin is Modified
+##### SuperOffice.Security.Principal.IPostAuthenticationPlugin is Modified
 
 * Deleted items
   * Method `PostAuthenticateFail(SoPrincipal, SecurityToken[], List<SecurityToken>, Exception)`
@@ -945,30 +937,30 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `PostAuthenticateFail(SoPrincipal, IEnumerable<ClaimsIdentity>, Exception)`
   * Method `PostAuthenticateSuccess(SoPrincipal, IEnumerable<ClaimsIdentity>)`
 
-#### SuperOffice.Security.Principal.ISoIdentity is Modified
+##### SuperOffice.Security.Principal.ISoIdentity is Modified
 
 * Deleted items
   * Property `Source`
 
-#### SuperOffice.Security.Principal.Private.PrincipalHelper is Modified
+##### SuperOffice.Security.Principal.Private.PrincipalHelper is Modified
 
 * Deleted items
   * Method `GetProvidedCredentials(SoIdentity)`
   * Method `SetIdentityState(SoIdentity, AuthenticationState)`
 
-#### SuperOffice.Security.Principal.SoAccessToken is Modified
+##### SuperOffice.Security.Principal.SoAccessToken is Modified
 
 * New items
   * Field `ClaimType`
 
-#### SuperOffice.Security.Principal.SoCredentialsSecurityToken is Modified
+##### SuperOffice.Security.Principal.SoCredentialsSecurityToken is Modified
 
 * Deleted items
   * Method `SoCredentialsSecurityToken(SoCredentials)`
   * Method `SoCredentialsSecurityToken(String)`
   * Method `GetCredentials()`
 
-#### SuperOffice.Security.Principal.SoPrincipal is Modified
+##### SuperOffice.Security.Principal.SoPrincipal is Modified
 
 * Deleted items
   * Property `Tokens`
@@ -977,7 +969,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `Identities`
   * Method `SoPrincipal(IEnumerable<ClaimsIdentity>)`
 
-#### SuperOffice.SoDatabaseContext is Modified
+##### SuperOffice.SoDatabaseContext is Modified
 
 * Deleted items
   * Method `TryResolveContext(IContextResolver&, String&, SecurityToken[])`
@@ -986,7 +978,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `TryResolveContext(IContextResolver&, String&, IEnumerable<ClaimsIdentity>)`
   * Method `TryResolveContext(IContextResolver&, String&, ClaimsIdentity[])`
 
-#### SuperOffice.SoSession is Modified
+##### SuperOffice.SoSession is Modified
 
 * Deleted items
   * Method `Authenticate(SecurityToken[])`
@@ -994,28 +986,27 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `Authenticate(ClaimsIdentity, Claim[])`
 
-#### SuperOffice.Util.DateUtility is Modified
+##### SuperOffice.Util.DateUtility is Modified
 
 * New items
   * Method `CloseEnoughTo(DateTime, DateTime, Int32)`
 
-#### SuperOffice.Util.Encoding is Modified
+##### SuperOffice.Util.Encoding is Modified
 
 * New items
   * Method `ParseQueryString(String)`
   * Method `UrlEncodeUnicode(String)`
 
-#### SuperOffice.Util.HttpHelper is Modified
+##### SuperOffice.Util.HttpHelper is Modified
 
 * Modified items
 
-##### SuperOffice.Util.HttpHelper.HttpServiceJwtConfig is Modified
+###### SuperOffice.Util.HttpHelper.HttpServiceJwtConfig is Modified
 
 * New items
   * Property `.HttpServiceJwtConfigTimeout`
 
-
-#### SuperOffice.Util.SoMapper is Modified
+##### SuperOffice.Util.SoMapper is Modified
 
 * Deleted items
   * Method `CopyProperties(Type, Type, Object, Object, Boolean, Boolean)`
@@ -1025,10 +1016,9 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `CopyProperties<TSource, TDestination>(TSource, TDestination, Boolean, Boolean, Boolean)`
   * Method `CopyProperties<TSource, TDestination>(TSource[], TDestination[], Boolean, Boolean, Boolean)`
 
+#### Assembly: SoDatabase
 
-### Assembly: SoDatabase
-
-### Deleted Types
+#### Deleted Types
 
 * `SuperOffice.CRM.ArchiveLists.ContactSourceRelationExtender`
 * `SuperOffice.CRM.ArchiveLists.ContactTargetRelationExtender`
@@ -1049,7 +1039,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * `SuperOffice.Security.Principal.AssociateResolver<TToken>`
 * `SuperOffice.Security.Principal.UserNameAsWindowsIdentityResolver`
 
-### New Types
+#### New Types
 
 * `SuperOffice.CRM.ArchiveLists.ConfigurableArchiveProjectProvider`
 * `SuperOffice.CRM.ArchiveLists.ConfigurableArchiveQuoteLineProvider`
@@ -1140,34 +1130,32 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * `SuperOffice.Util.TemporaryConfigOverride`
 * `SuperOffice.Util.TemporaryFeatureToggle`
 
-### Modified Types
+#### Modified Types
 
-#### SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderSingleCriteriaGroup is Modified
+##### SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderSingleCriteriaGroup is Modified
 
 * New items
   * Method `AcceptRow(SoDataReader)`
   * Method `RequiredPhaseOneFields()`
   * Method `SetRestriction(ArchiveRestrictionInfo[])`
 
-#### SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase is Modified
+##### SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase is Modified
 
 * New items
   * Field `AgentUnassignedId`
   * Field `DurationColumnName`
   * Field `TimeInQueueColumnName`
 
-#### SuperOffice.CRM.ArchiveLists.EmailItemExtenderBase is Modified
+##### SuperOffice.CRM.ArchiveLists.EmailItemExtenderBase is Modified
 
+##### SuperOffice.CRM.ArchiveLists.MailingsExtenderBase is Modified
 
-#### SuperOffice.CRM.ArchiveLists.MailingsExtenderBase is Modified
-
-
-#### SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups is Modified
+##### SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups is Modified
 
 * New items
   * Method `GetFirstProvider()`
 
-#### SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher is Modified
+##### SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher is Modified
 
 * Modified items
   * Method `SetCachedKeys(String, Int32, List<Int32>)`
@@ -1175,7 +1163,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `Clear()`
   * Method `SetCachedKeys(String, String, List<Int32>)`
 
-#### SuperOffice.CRM.ArchiveLists.TargetValueExtenderBase is Modified
+##### SuperOffice.CRM.ArchiveLists.TargetValueExtenderBase is Modified
 
 * New items
   * Field `TargetAssignmentIdColName`
@@ -1186,7 +1174,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `EndDate`
   * Property `StartDate`
 
-#### SuperOffice.CRM.ArchiveLists.TargetValueProvider is Modified
+##### SuperOffice.CRM.ArchiveLists.TargetValueProvider is Modified
 
 * Deleted items
   * Field `RowTypeName`
@@ -1200,7 +1188,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `GetResultData()`
   * Method `SetDesiredColumns(String[])`
 
-#### SuperOffice.CRM.Data.AssociateTableInfo is Modified
+##### SuperOffice.CRM.Data.AssociateTableInfo is Modified
 
 * New items
   * Property `LeftOuterJoin_ConfigurableScreenAppliesTo_RegisteredAssociateId`
@@ -1221,7 +1209,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `LeftOuterJoin_TargetDimension_RegisteredAssociateId`
   * Property `LeftOuterJoin_TargetDimension_UpdatedAssociateId`
 
-#### SuperOffice.CRM.Data.ChatTopicTableInfo is Modified
+##### SuperOffice.CRM.Data.ChatTopicTableInfo is Modified
 
 * New items
   * Property `WidgetAgentMsgColor`
@@ -1234,11 +1222,11 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `WidgetCustMsgTextColor`
   * Property `WidgetFontSize`
 
-#### SuperOffice.CRM.Data.DBC is Modified
+##### SuperOffice.CRM.Data.DBC is Modified
 
 * Modified items
 
-##### SuperOffice.CRM.Data.DBC.ChatTopicFields is Modified
+###### SuperOffice.CRM.Data.DBC.ChatTopicFields is Modified
 
 * New items
   * Field `.ChatTopicFieldsWidgetAgentMsgColor`
@@ -1251,21 +1239,18 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `.ChatTopicFieldsWidgetCustMsgTextColor`
   * Field `.ChatTopicFieldsWidgetFontSize`
 
-
-##### SuperOffice.CRM.Data.DBC.QuoteVersionFields is Modified
+###### SuperOffice.CRM.Data.DBC.QuoteVersionFields is Modified
 
 * New items
   * Field `.QuoteVersionFieldsRequestAssociateId`
   * Field `.QuoteVersionFieldsRequestComment`
 
-
-##### SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields is Modified
+###### SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields is Modified
 
 * New items
   * Field `.TargetAssignmentInfoFieldsTargetDimensionItemId`
 
-
-##### SuperOffice.CRM.Data.DBC.TargetGroupFields is Modified
+###### SuperOffice.CRM.Data.DBC.TargetGroupFields is Modified
 
 * New items
   * Field `.TargetGroupFieldsTargetDimensionId`
@@ -1280,94 +1265,94 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `QuoteDenyReasonHeadingLink`
   * Field `TargetDimension`
 
-##### SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields is New
+###### SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields is New
 
-##### SuperOffice.CRM.Data.DBC.QuoteApprReasonFields is New
+###### SuperOffice.CRM.Data.DBC.QuoteApprReasonFields is New
 
-##### SuperOffice.CRM.Data.DBC.QuoteApprReasonGroupLinkFields is New
+###### SuperOffice.CRM.Data.DBC.QuoteApprReasonGroupLinkFields is New
 
-##### SuperOffice.CRM.Data.DBC.QuoteApprReasonHeadingLinkFields is New
+###### SuperOffice.CRM.Data.DBC.QuoteApprReasonHeadingLinkFields is New
 
-##### SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields is New
+###### SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields is New
 
-##### SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields is New
+###### SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields is New
 
-##### SuperOffice.CRM.Data.DBC.QuoteDenyReasonHeadingLinkFields is New
+###### SuperOffice.CRM.Data.DBC.QuoteDenyReasonHeadingLinkFields is New
 
-##### SuperOffice.CRM.Data.DBC.TargetDimensionFields is New
+###### SuperOffice.CRM.Data.DBC.TargetDimensionFields is New
 
-#### SuperOffice.CRM.Data.HeadingTableInfo is Modified
+##### SuperOffice.CRM.Data.HeadingTableInfo is Modified
 
 * New items
   * Property `LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId`
   * Property `LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId`
 
-#### SuperOffice.CRM.Data.QuoteVersionTableInfo is Modified
+##### SuperOffice.CRM.Data.QuoteVersionTableInfo is Modified
 
 * New items
   * Property `RequestAssociateId`
   * Property `RequestAssociateId_InnerJoin_Associate`
   * Property `RequestComment`
 
-#### SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo is Modified
+##### SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo is Modified
 
 * Modified items
   * Property `Flags`
 
-#### SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo is Modified
+##### SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo is Modified
 
 * New items
   * Property `TargetDimensionItemId`
 
-#### SuperOffice.CRM.Data.TargetGroupTableInfo is Modified
+##### SuperOffice.CRM.Data.TargetGroupTableInfo is Modified
 
 * New items
   * Property `TargetDimensionId`
   * Property `TargetDimensionId_InnerJoin_TargetDimension`
 
-#### SuperOffice.CRM.Data.UserGroupTableInfo is Modified
+##### SuperOffice.CRM.Data.UserGroupTableInfo is Modified
 
 * New items
   * Property `LeftOuterJoin_QuoteApprReasonGroupLink_GroupId`
   * Property `LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId`
 
-#### SuperOffice.CRM.Data.Util.ExtraFieldHelper is Modified
+##### SuperOffice.CRM.Data.Util.ExtraFieldHelper is Modified
 
 * New items
   * Method `GetInitializedExtraFields<T>(T)`
 
-#### SuperOffice.CRM.Documents.HtmlToPdf is Modified
+##### SuperOffice.CRM.Documents.HtmlToPdf is Modified
 
 * Modified items
   * Method `ConvertHtmlToPdf(String, Stream)`
 
-#### SuperOffice.CRM.Entities.EntityCustomFieldsHelper is Modified
+##### SuperOffice.CRM.Entities.EntityCustomFieldsHelper is Modified
 
 * New items
   * Method `ToDictionary()`
   * Method `ToStringDictionary()`
 
-#### SuperOffice.CRM.Entities.Providers.ContactInfoProvider is Modified
+##### SuperOffice.CRM.Entities.Providers.ContactInfoProvider is Modified
 
 * New items
   * Property `CustomFields`
 
-#### SuperOffice.CRM.Entities.Providers.PersonInfoProvider is Modified
+##### SuperOffice.CRM.Entities.Providers.PersonInfoProvider is Modified
 
 * New items
   * Property `CustomFields`
 
-#### SuperOffice.CRM.Entities.Providers.ProjectInfoProvider is Modified
+##### SuperOffice.CRM.Entities.Providers.ProjectInfoProvider is Modified
 
 * New items
   * Property `CustomFields`
 
-#### SuperOffice.CRM.Entities.Providers.SaleInfoProvider is Modified
+##### SuperOffice.CRM.Entities.Providers.SaleInfoProvider is Modified
 
 * New items
   * Property `CustomFields`
 
-#### SuperOffice.CRM.Lists.CreateDocumentTemplatePluginsProvider is Modified
+##### SuperOffice.CRM.Lists.CreateDocumentTemplatePluginsProvider is Modified
 
 * New items
   * Method `GetDocumentPlugins()`
@@ -1375,20 +1360,19 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `ShouldIncludePlugin(IDocumentPlugin2)`
   * Method `ShouldIncludePluginInfo(PluginInfo)`
 
-#### SuperOffice.CRM.Lists.DashboardProvider is Modified
+##### SuperOffice.CRM.Lists.DashboardProvider is Modified
 
 * New items
   * Method `GetHistoryItems()`
 
-#### SuperOffice.CRM.Lists.EjCategoryProvider is Modified
+##### SuperOffice.CRM.Lists.EjCategoryProvider is Modified
 
-
-#### SuperOffice.CRM.Lists.LiteralsOnlyBase is Modified
+##### SuperOffice.CRM.Lists.LiteralsOnlyBase is Modified
 
 * New items
   * Property `ForceFlatList`
 
-#### SuperOffice.CRM.Notification.NotificationEventHandler is Modified
+##### SuperOffice.CRM.Notification.NotificationEventHandler is Modified
 
 * Deleted items
   * Method `NotificationHandled(NotificationEventType, Int32)`
@@ -1400,7 +1384,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `NotifyUser(NotificationEventType, Int32, DateTime, Int32)`
   * Method `NotifyUsers(NotificationEventType, Int32, DateTime, IEnumerable<Int32>)`
 
-#### SuperOffice.CRM.Notification.PushNotificationServiceManager is Modified
+##### SuperOffice.CRM.Notification.PushNotificationServiceManager is Modified
 
 * Deleted items
   * Method `SendMessage(Int32[], PushNotificationMessage, Boolean, Boolean)`
@@ -1408,13 +1392,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `GetQuoteNotificationCount(Int32)`
   * Method `SendMessage(IEnumerable<Int32>, PushNotificationMessage, Boolean, Boolean)`
 
-#### SuperOffice.CRM.Rows.AccessScriptRow is Modified
+##### SuperOffice.CRM.Rows.AccessScriptRow is Modified
 
 * Deleted items
   * Event `OnAccessTableNameChange`
   * Event `OnBodyChange`
 
-#### SuperOffice.CRM.Rows.ActiveUserRow is Modified
+##### SuperOffice.CRM.Rows.ActiveUserRow is Modified
 
 * Deleted items
   * Event `OnClientTypeChange`
@@ -1424,7 +1408,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnNetAddressChange`
   * Event `OnOsUserNameChange`
 
-#### SuperOffice.CRM.Rows.AddressFormatRow is Modified
+##### SuperOffice.CRM.Rows.AddressFormatRow is Modified
 
 * Deleted items
   * Event `OnAddress1FlagsChange`
@@ -1489,7 +1473,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnZipSubposChange`
   * Event `OnZipZipChange`
 
-#### SuperOffice.CRM.Rows.AddressRow is Modified
+##### SuperOffice.CRM.Rows.AddressRow is Modified
 
 * Deleted items
   * Event `OnAddress1Change`
@@ -1511,7 +1495,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnWgs84LongitudeChange`
   * Event `OnZipcodeChange`
 
-#### SuperOffice.CRM.Rows.AmountClassGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.AmountClassGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnAmountclassIdChange`
@@ -1522,7 +1506,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AmountClassHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.AmountClassHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnAmountclassIdChange`
@@ -1533,7 +1517,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AmountClassRow is Modified
+##### SuperOffice.CRM.Rows.AmountClassRow is Modified
 
 * Deleted items
   * Event `OnAmountFromChange`
@@ -1549,12 +1533,12 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AppointmentRow is Modified
+##### SuperOffice.CRM.Rows.AppointmentRow is Modified
 
 * New items
   * Event `OnValueChanged`
 
-#### SuperOffice.CRM.Rows.AreaRow is Modified
+##### SuperOffice.CRM.Rows.AreaRow is Modified
 
 * Deleted items
   * Event `OnAllDataChange`
@@ -1570,7 +1554,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AreaUserAssignmentRow is Modified
+##### SuperOffice.CRM.Rows.AreaUserAssignmentRow is Modified
 
 * Deleted items
   * Event `OnAreaIdChange`
@@ -1581,7 +1565,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AreaUserInclusionRow is Modified
+##### SuperOffice.CRM.Rows.AreaUserInclusionRow is Modified
 
 * Deleted items
   * Event `OnAreaIdChange`
@@ -1592,7 +1576,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AssociateGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.AssociateGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -1603,7 +1587,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AssociateHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.AssociateHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -1614,7 +1598,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AssociateHistoryRow is Modified
+##### SuperOffice.CRM.Rows.AssociateHistoryRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -1632,7 +1616,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnRegisteredChange`
   * Event `OnTypeChange`
 
-#### SuperOffice.CRM.Rows.AssociateRow is Modified
+##### SuperOffice.CRM.Rows.AssociateRow is Modified
 
 * Deleted items
   * Event `OnChecklistlimitChange`
@@ -1659,7 +1643,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUserNameChange`
   * Event `OnWaitingForApprovalChange`
 
-#### SuperOffice.CRM.Rows.AttachmentLocationRow is Modified
+##### SuperOffice.CRM.Rows.AttachmentLocationRow is Modified
 
 * Deleted items
   * Event `OnPathChange`
@@ -1669,7 +1653,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AttachmentRow is Modified
+##### SuperOffice.CRM.Rows.AttachmentRow is Modified
 
 * Deleted items
   * Event `OnAttachmentLocationIdChange`
@@ -1683,7 +1667,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnDbiLastSyncronizedChange`
   * Event `OnNameChange`
 
-#### SuperOffice.CRM.Rows.AudienceConfigRow is Modified
+##### SuperOffice.CRM.Rows.AudienceConfigRow is Modified
 
 * Deleted items
   * Event `OnAudienceLayoutIdChange`
@@ -1696,7 +1680,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AudienceLayoutLinkRow is Modified
+##### SuperOffice.CRM.Rows.AudienceLayoutLinkRow is Modified
 
 * Deleted items
   * Event `OnAudienceLayoutIdChange`
@@ -1709,7 +1693,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AudienceLayoutRow is Modified
+##### SuperOffice.CRM.Rows.AudienceLayoutRow is Modified
 
 * Deleted items
   * Event `OnInstanceLayoutChange`
@@ -1720,7 +1704,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AudienceVisibilityRow is Modified
+##### SuperOffice.CRM.Rows.AudienceVisibilityRow is Modified
 
 * Deleted items
   * Event `OnCommentChange`
@@ -1736,7 +1720,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.AutosaveRow is Modified
+##### SuperOffice.CRM.Rows.AutosaveRow is Modified
 
 * Deleted items
   * Event `OnContentTypeChange`
@@ -1744,7 +1728,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnDataChange`
   * Event `OnIndexIdChange`
 
-#### SuperOffice.CRM.Rows.BaseTZLocationRow is Modified
+##### SuperOffice.CRM.Rows.BaseTZLocationRow is Modified
 
 * Deleted items
   * Event `OnDatabaseIdChange`
@@ -1757,7 +1741,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnValidFromChange`
 
-#### SuperOffice.CRM.Rows.BatchTaskDefinitionRow is Modified
+##### SuperOffice.CRM.Rows.BatchTaskDefinitionRow is Modified
 
 * Deleted items
   * Event `OnAssemblyVersionChange`
@@ -1774,7 +1758,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.BatchTaskRow is Modified
+##### SuperOffice.CRM.Rows.BatchTaskRow is Modified
 
 * Deleted items
   * Event `OnBatchTaskDefinitionIdChange`
@@ -1796,7 +1780,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.BinaryObjectLinkRow is Modified
+##### SuperOffice.CRM.Rows.BinaryObjectLinkRow is Modified
 
 * Deleted items
   * Event `OnBinaryObjectIdChange`
@@ -1811,7 +1795,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.BinaryObjectRow is Modified
+##### SuperOffice.CRM.Rows.BinaryObjectRow is Modified
 
 * Deleted items
   * Event `OnBinaryDataChange`
@@ -1829,7 +1813,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.BusinessGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.BusinessGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnBusinessIdChange`
@@ -1840,7 +1824,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.BusinessHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.BusinessHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnBusinessIdChange`
@@ -1851,7 +1835,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.BusinessRow is Modified
+##### SuperOffice.CRM.Rows.BusinessRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -1864,7 +1848,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CacheInvalidationRow is Modified
+##### SuperOffice.CRM.Rows.CacheInvalidationRow is Modified
 
 * Deleted items
   * Event `OnGenerationChange`
@@ -1872,7 +1856,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnLastChangeMachineChange`
   * Event `OnNameChange`
 
-#### SuperOffice.CRM.Rows.CacheTablesRow is Modified
+##### SuperOffice.CRM.Rows.CacheTablesRow is Modified
 
 * Deleted items
   * Event `OnCheckSumChange`
@@ -1880,7 +1864,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSubKeyValueChange`
   * Event `OnTableIdChange`
 
-#### SuperOffice.CRM.Rows.CategoryFamilyRow is Modified
+##### SuperOffice.CRM.Rows.CategoryFamilyRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -1893,7 +1877,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CategoryGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.CategoryGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnCategoryIdChange`
@@ -1904,7 +1888,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CategoryHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.CategoryHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnCategoryIdChange`
@@ -1915,14 +1899,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CategoryMembershipRow is Modified
+##### SuperOffice.CRM.Rows.CategoryMembershipRow is Modified
 
 * Deleted items
   * Event `OnCategoryIdChange`
   * Event `OnUserIdChange`
   * Event `OnWeightChange`
 
-#### SuperOffice.CRM.Rows.CategoryRow is Modified
+##### SuperOffice.CRM.Rows.CategoryRow is Modified
 
 * Deleted items
   * Event `OnCategoryFamilyIdChange`
@@ -1936,7 +1920,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ChatMessageRow is Modified
+##### SuperOffice.CRM.Rows.ChatMessageRow is Modified
 
 * Deleted items
   * Event `OnAuthorChange`
@@ -1949,7 +1933,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTypeChange`
   * Event `OnWhenPostedChange`
 
-#### SuperOffice.CRM.Rows.ChatSessionRow is Modified
+##### SuperOffice.CRM.Rows.ChatSessionRow is Modified
 
 * Deleted items
   * Event `OnAlertLevelChange`
@@ -1984,7 +1968,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnWhenRequestedChange`
   * Event `OnWhenStartedChange`
 
-#### SuperOffice.CRM.Rows.ChatTopicRecordData is Modified
+##### SuperOffice.CRM.Rows.ChatTopicRecordData is Modified
 
 * New items
   * Field `WidgetAgentMsgColor`
@@ -1997,7 +1981,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `WidgetCustMsgTextColor`
   * Field `WidgetFontSize`
 
-#### SuperOffice.CRM.Rows.ChatTopicRow is Modified
+##### SuperOffice.CRM.Rows.ChatTopicRow is Modified
 
 * Deleted items
   * Event `OnAlertRecipientChange`
@@ -2087,7 +2071,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `WidgetCustMsgTextColor`
   * Property `WidgetFontSize`
 
-#### SuperOffice.CRM.Rows.ChatTopicUserRow is Modified
+##### SuperOffice.CRM.Rows.ChatTopicUserRow is Modified
 
 * Deleted items
   * Event `OnCanListenChange`
@@ -2097,14 +2081,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTopicIdChange`
   * Event `OnUserIdChange`
 
-#### SuperOffice.CRM.Rows.CompanyDomainRow is Modified
+##### SuperOffice.CRM.Rows.CompanyDomainRow is Modified
 
 * Deleted items
   * Event `OnCompanyIdChange`
   * Event `OnDomainNameChange`
   * Event `OnRankChange`
 
-#### SuperOffice.CRM.Rows.CompanyRow is Modified
+##### SuperOffice.CRM.Rows.CompanyRow is Modified
 
 * Deleted items
   * Event `OnDbContactIdChange`
@@ -2124,7 +2108,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnVersionChange`
 
-#### SuperOffice.CRM.Rows.ComptrGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.ComptrGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnComptrIdChange`
@@ -2135,7 +2119,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ComptrHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.ComptrHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnComptrIdChange`
@@ -2146,7 +2130,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ComptrRow is Modified
+##### SuperOffice.CRM.Rows.ComptrRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -2159,7 +2143,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ConfigRow is Modified
+##### SuperOffice.CRM.Rows.ConfigRow is Modified
 
 * Deleted items
   * Event `OnAdminMailChange`
@@ -2192,7 +2176,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnVersionChange`
   * Event `OnWarningChange`
 
-#### SuperOffice.CRM.Rows.ConfigurableScreenDeltaRow is Modified
+##### SuperOffice.CRM.Rows.ConfigurableScreenDeltaRow is Modified
 
 * Deleted items
   * Event `OnAppliesToChange`
@@ -2208,7 +2192,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ConnectionConfigFieldRow is Modified
+##### SuperOffice.CRM.Rows.ConnectionConfigFieldRow is Modified
 
 * Deleted items
   * Event `OnErpConnectionIdChange`
@@ -2221,7 +2205,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ConsentPersonRow is Modified
+##### SuperOffice.CRM.Rows.ConsentPersonRow is Modified
 
 * Deleted items
   * Event `OnCommentChange`
@@ -2235,7 +2219,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ConsentPurposeRow is Modified
+##### SuperOffice.CRM.Rows.ConsentPurposeRow is Modified
 
 * Deleted items
   * Event `OnActiveChange`
@@ -2254,7 +2238,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ConsentSourceRow is Modified
+##### SuperOffice.CRM.Rows.ConsentSourceRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -2269,7 +2253,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ContactInterestRow is Modified
+##### SuperOffice.CRM.Rows.ContactInterestRow is Modified
 
 * Deleted items
   * Event `OnCinterestIdxChange`
@@ -2283,7 +2267,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ContIntGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.ContIntGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnContIntIdChange`
@@ -2294,7 +2278,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ContIntHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.ContIntHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnContIntIdChange`
@@ -2305,7 +2289,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ContIntRow is Modified
+##### SuperOffice.CRM.Rows.ContIntRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -2318,7 +2302,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CounterValueRow is Modified
+##### SuperOffice.CRM.Rows.CounterValueRow is Modified
 
 * Deleted items
   * Event `OnAmountClassIdChange`
@@ -2348,7 +2332,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CountryGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.CountryGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnCountryIdChange`
@@ -2359,7 +2343,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CountryHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.CountryHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnCountryIdChange`
@@ -2370,7 +2354,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CountryRow is Modified
+##### SuperOffice.CRM.Rows.CountryRow is Modified
 
 * Deleted items
   * Event `OnAbbrev2Change`
@@ -2403,7 +2387,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnZipPrefixChange`
 
-#### SuperOffice.CRM.Rows.CredentialsRow is Modified
+##### SuperOffice.CRM.Rows.CredentialsRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -2427,7 +2411,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnValidFromChange`
   * Event `OnValidToChange`
 
-#### SuperOffice.CRM.Rows.CreditedGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.CreditedGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnCreditedIdChange`
@@ -2438,7 +2422,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CreditedHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.CreditedHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnCreditedIdChange`
@@ -2449,7 +2433,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CreditedRow is Modified
+##### SuperOffice.CRM.Rows.CreditedRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -2462,7 +2446,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CurrencyGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.CurrencyGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnCurrencyIdChange`
@@ -2473,7 +2457,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CurrencyHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.CurrencyHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnCurrencyIdChange`
@@ -2484,7 +2468,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CurrencyRow is Modified
+##### SuperOffice.CRM.Rows.CurrencyRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -2500,7 +2484,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CustCategoryRow is Modified
+##### SuperOffice.CRM.Rows.CustCategoryRow is Modified
 
 * Deleted items
   * Event `OnCategoryIdChange`
@@ -2509,7 +2493,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnNameChange`
   * Event `OnParentIdChange`
 
-#### SuperOffice.CRM.Rows.CustConfigRow is Modified
+##### SuperOffice.CRM.Rows.CustConfigRow is Modified
 
 * Deleted items
   * Event `OnConfigChange`
@@ -2521,7 +2505,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.CustLangRow is Modified
+##### SuperOffice.CRM.Rows.CustLangRow is Modified
 
 * Deleted items
   * Event `OnEmailDomainsChange`
@@ -2534,7 +2518,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnVirtualDomainChange`
   * Event `OnWebDomainsChange`
 
-#### SuperOffice.CRM.Rows.DashboardRow is Modified
+##### SuperOffice.CRM.Rows.DashboardRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -2555,7 +2539,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnVisibleForAssociatesChange`
   * Event `OnVisibleForGroupsChange`
 
-#### SuperOffice.CRM.Rows.DashboardThemeRow is Modified
+##### SuperOffice.CRM.Rows.DashboardThemeRow is Modified
 
 * Deleted items
   * Event `OnClientChange`
@@ -2570,7 +2554,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.DashboardTileDefinitionRow is Modified
+##### SuperOffice.CRM.Rows.DashboardTileDefinitionRow is Modified
 
 * Deleted items
   * Event `OnCurrencyCodeChange`
@@ -2596,7 +2580,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnUsageChange`
 
-#### SuperOffice.CRM.Rows.DashboardTileFieldRow is Modified
+##### SuperOffice.CRM.Rows.DashboardTileFieldRow is Modified
 
 * Deleted items
   * Event `OnColnameChange`
@@ -2607,7 +2591,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.DashboardTileRow is Modified
+##### SuperOffice.CRM.Rows.DashboardTileRow is Modified
 
 * Deleted items
   * Event `OnDashboardIdChange`
@@ -2621,14 +2605,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnWidthChange`
 
-#### SuperOffice.CRM.Rows.DatabaseModelRow is Modified
+##### SuperOffice.CRM.Rows.DatabaseModelRow is Modified
 
 * Deleted items
   * Event `OnIsDatabaseUnicodeChange`
   * Event `OnModelDataChange`
   * Event `OnModelVersionChange`
 
-#### SuperOffice.CRM.Rows.DataRightRow is Modified
+##### SuperOffice.CRM.Rows.DataRightRow is Modified
 
 * Deleted items
   * Event `OnCRUDChange`
@@ -2643,13 +2627,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.DbiAgentFieldRow is Modified
+##### SuperOffice.CRM.Rows.DbiAgentFieldRow is Modified
 
 * Deleted items
   * Event `OnAgentIdChange`
   * Event `OnFieldNameChange`
 
-#### SuperOffice.CRM.Rows.DbiAgentRow is Modified
+##### SuperOffice.CRM.Rows.DbiAgentRow is Modified
 
 * Deleted items
   * Event `OnIdStringChange`
@@ -2657,7 +2641,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnPathChange`
   * Event `OnProtocolChange`
 
-#### SuperOffice.CRM.Rows.DbiAgentScheduleRow is Modified
+##### SuperOffice.CRM.Rows.DbiAgentScheduleRow is Modified
 
 * Deleted items
   * Event `OnAgentIdChange`
@@ -2667,7 +2651,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnScriptIdChange`
   * Event `OnSentObjectsChange`
 
-#### SuperOffice.CRM.Rows.DeliveryTermsGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.DeliveryTermsGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnDeliveryTermsIdChange`
@@ -2678,7 +2662,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.DeliveryTermsHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.DeliveryTermsHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnDeliveryTermsIdChange`
@@ -2689,7 +2673,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.DeliveryTermsRow is Modified
+##### SuperOffice.CRM.Rows.DeliveryTermsRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -2702,7 +2686,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.DeliveryTypeGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.DeliveryTypeGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnDeliveryTypeIdChange`
@@ -2713,7 +2697,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.DeliveryTypeHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.DeliveryTypeHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnDeliveryTypeIdChange`
@@ -2724,7 +2708,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.DeliveryTypeRow is Modified
+##### SuperOffice.CRM.Rows.DeliveryTypeRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -2737,7 +2721,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.DiaryViewRow is Modified
+##### SuperOffice.CRM.Rows.DiaryViewRow is Modified
 
 * Deleted items
   * Event `OnAssocIdChange`
@@ -2753,7 +2737,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnVisibleColumnsChange`
 
-#### SuperOffice.CRM.Rows.DiaryViewRowRow is Modified
+##### SuperOffice.CRM.Rows.DiaryViewRowRow is Modified
 
 * Deleted items
   * Event `OnAssocIdChange`
@@ -2765,14 +2749,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.DictionaryBaseRow is Modified
+##### SuperOffice.CRM.Rows.DictionaryBaseRow is Modified
 
 * Deleted items
   * Event `OnCodeChange`
   * Event `OnFlagsChange`
   * Event `OnNameChange`
 
-#### SuperOffice.CRM.Rows.DictionaryRow is Modified
+##### SuperOffice.CRM.Rows.DictionaryRow is Modified
 
 * Deleted items
   * Event `OnBaseIdChange`
@@ -2780,7 +2764,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUserIdChange`
   * Event `OnWordChange`
 
-#### SuperOffice.CRM.Rows.DocDocumentRow is Modified
+##### SuperOffice.CRM.Rows.DocDocumentRow is Modified
 
 * Deleted items
   * Event `OnAccessLevelChange`
@@ -2795,7 +2779,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnStatusChange`
   * Event `OnTitleChange`
 
-#### SuperOffice.CRM.Rows.DocFolderRow is Modified
+##### SuperOffice.CRM.Rows.DocFolderRow is Modified
 
 * Deleted items
   * Event `OnAccessLevelChange`
@@ -2807,7 +2791,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnStatusChange`
   * Event `OnTitleChange`
 
-#### SuperOffice.CRM.Rows.DocTmplGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.DocTmplGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnDocTmplIdChange`
@@ -2818,7 +2802,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.DocTmplHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.DocTmplHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnDocTmplIdChange`
@@ -2829,7 +2813,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.DocTmplRow is Modified
+##### SuperOffice.CRM.Rows.DocTmplRow is Modified
 
 * Deleted items
   * Event `OnAcceleratorChange`
@@ -2864,7 +2848,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.EabEntryRow is Modified
+##### SuperOffice.CRM.Rows.EabEntryRow is Modified
 
 * Deleted items
   * Event `OnDbiAgentIdChange`
@@ -2877,7 +2861,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnNameChange`
   * Event `OnSmsNumberChange`
 
-#### SuperOffice.CRM.Rows.EabFolderRow is Modified
+##### SuperOffice.CRM.Rows.EabFolderRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -2885,7 +2869,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnFullnameChange`
   * Event `OnNameChange`
 
-#### SuperOffice.CRM.Rows.EjCategoryGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.EjCategoryGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnEjCategoryIdChange`
@@ -2896,7 +2880,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.EjCategoryRow is Modified
+##### SuperOffice.CRM.Rows.EjCategoryRow is Modified
 
 * Deleted items
   * Event `OnAssignmentLagChange`
@@ -2913,7 +2897,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnParentIdChange`
   * Event `OnReplyTemplateChange`
 
-#### SuperOffice.CRM.Rows.EjMessageRow is Modified
+##### SuperOffice.CRM.Rows.EjMessageRow is Modified
 
 * Deleted items
   * Event `OnAuthorChange`
@@ -2942,7 +2926,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTimeSpentChange`
   * Event `OnTypeChange`
 
-#### SuperOffice.CRM.Rows.EjpackageItemRow is Modified
+##### SuperOffice.CRM.Rows.EjpackageItemRow is Modified
 
 * Deleted items
   * Event `OnDomainChange`
@@ -2952,7 +2936,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnParentIdChange`
   * Event `OnRefNameChange`
 
-#### SuperOffice.CRM.Rows.EjpackageRow is Modified
+##### SuperOffice.CRM.Rows.EjpackageRow is Modified
 
 * Deleted items
   * Event `OnAttachmentIdChange`
@@ -2965,7 +2949,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUploadedAtChange`
   * Event `OnUploadedByChange`
 
-#### SuperOffice.CRM.Rows.EjRoleRow is Modified
+##### SuperOffice.CRM.Rows.EjRoleRow is Modified
 
 * Deleted items
   * Event `OnAccessMaskChange`
@@ -2975,7 +2959,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUserGroupChange`
   * Event `OnUseUserGroupChange`
 
-#### SuperOffice.CRM.Rows.EjscriptDebugRow is Modified
+##### SuperOffice.CRM.Rows.EjscriptDebugRow is Modified
 
 * Deleted items
   * Event `OnCodeLinePosChange`
@@ -2988,7 +2972,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnStatusChange`
   * Event `OnVariableViewChange`
 
-#### SuperOffice.CRM.Rows.EjscriptRow is Modified
+##### SuperOffice.CRM.Rows.EjscriptRow is Modified
 
 * Deleted items
   * Event `OnAccessKeyChange`
@@ -3006,7 +2990,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.EjselectionRow is Modified
+##### SuperOffice.CRM.Rows.EjselectionRow is Modified
 
 * Deleted items
   * Event `OnAccessLevelChange`
@@ -3022,7 +3006,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSourceIdChange`
   * Event `OnSourceTypeChange`
 
-#### SuperOffice.CRM.Rows.EjselEjselRow is Modified
+##### SuperOffice.CRM.Rows.EjselEjselRow is Modified
 
 * Deleted items
   * Event `OnChildChange`
@@ -3030,35 +3014,35 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnOrderPosChange`
   * Event `OnParentChange`
 
-#### SuperOffice.CRM.Rows.EjselMetaResultRow is Modified
+##### SuperOffice.CRM.Rows.EjselMetaResultRow is Modified
 
 * Deleted items
   * Event `OnCreatedAtChange`
   * Event `OnEjselectionChange`
   * Event `OnOwnerChange`
 
-#### SuperOffice.CRM.Rows.EjselResultSetRow is Modified
+##### SuperOffice.CRM.Rows.EjselResultSetRow is Modified
 
 * Deleted items
   * Event `OnMetaResultChange`
   * Event `OnRefIdChange`
 
-#### SuperOffice.CRM.Rows.EjselSourceIdlistRow is Modified
+##### SuperOffice.CRM.Rows.EjselSourceIdlistRow is Modified
 
 * Deleted items
   * Event `OnNameChange`
 
-#### SuperOffice.CRM.Rows.EjselSourceScriptRow is Modified
+##### SuperOffice.CRM.Rows.EjselSourceScriptRow is Modified
 
 * Deleted items
   * Event `OnBodyChange`
 
-#### SuperOffice.CRM.Rows.EjselSourceXmlRow is Modified
+##### SuperOffice.CRM.Rows.EjselSourceXmlRow is Modified
 
 * Deleted items
   * Event `OnXmlDataChange`
 
-#### SuperOffice.CRM.Rows.EjuserRow is Modified
+##### SuperOffice.CRM.Rows.EjuserRow is Modified
 
 * Deleted items
   * Event `OnAccessLevelChange`
@@ -3108,7 +3092,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUsergroupChange`
   * Event `OnUsernameChange`
 
-#### SuperOffice.CRM.Rows.ElementProfileRow is Modified
+##### SuperOffice.CRM.Rows.ElementProfileRow is Modified
 
 * Deleted items
   * Event `OnConfigChange`
@@ -3121,7 +3105,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnScreenDefinitionElementChange`
   * Event `OnStaticElementChange`
 
-#### SuperOffice.CRM.Rows.EmailAccountRow is Modified
+##### SuperOffice.CRM.Rows.EmailAccountRow is Modified
 
 * Deleted items
   * Event `OnAccountStatusChange`
@@ -3139,7 +3123,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.EmailAttachmentRow is Modified
+##### SuperOffice.CRM.Rows.EmailAttachmentRow is Modified
 
 * Deleted items
   * Event `OnCidChange`
@@ -3151,7 +3135,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSizeChange`
   * Event `OnTypeChange`
 
-#### SuperOffice.CRM.Rows.EmailFolderRow is Modified
+##### SuperOffice.CRM.Rows.EmailFolderRow is Modified
 
 * Deleted items
   * Event `OnAccountIdChange`
@@ -3165,7 +3149,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.EmailItemRow is Modified
+##### SuperOffice.CRM.Rows.EmailItemRow is Modified
 
 * Deleted items
   * Event `OnAccountIdChange`
@@ -3199,7 +3183,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.EmailRow is Modified
+##### SuperOffice.CRM.Rows.EmailRow is Modified
 
 * Deleted items
   * Event `OnAppointmentIdChange`
@@ -3225,7 +3209,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ErpConfigurationRow is Modified
+##### SuperOffice.CRM.Rows.ErpConfigurationRow is Modified
 
 * Deleted items
   * Event `OnConnectionRankChange`
@@ -3237,7 +3221,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ErpConnectionAccessRow is Modified
+##### SuperOffice.CRM.Rows.ErpConnectionAccessRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -3251,7 +3235,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnUserGroupIdChange`
 
-#### SuperOffice.CRM.Rows.ErpConnectionActorTypeRow is Modified
+##### SuperOffice.CRM.Rows.ErpConnectionActorTypeRow is Modified
 
 * Deleted items
   * Event `OnActorTypeCrmChange`
@@ -3264,7 +3248,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ErpConnectionRow is Modified
+##### SuperOffice.CRM.Rows.ErpConnectionRow is Modified
 
 * Deleted items
   * Event `OnActiveChange`
@@ -3281,7 +3265,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ErpConnectorRow is Modified
+##### SuperOffice.CRM.Rows.ErpConnectorRow is Modified
 
 * Deleted items
   * Event `OnConfigXmlChange`
@@ -3294,7 +3278,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnURLChange`
 
-#### SuperOffice.CRM.Rows.ErpExternalKeyRow is Modified
+##### SuperOffice.CRM.Rows.ErpExternalKeyRow is Modified
 
 * Deleted items
   * Event `OnActorTypeChange`
@@ -3308,7 +3292,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ErpFieldRow is Modified
+##### SuperOffice.CRM.Rows.ErpFieldRow is Modified
 
 * Deleted items
   * Event `OnAccessChange`
@@ -3338,7 +3322,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ErpInternalKeyRow is Modified
+##### SuperOffice.CRM.Rows.ErpInternalKeyRow is Modified
 
 * Deleted items
   * Event `OnMostRecentTimestampChange`
@@ -3350,7 +3334,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ErpListItemMappingRow is Modified
+##### SuperOffice.CRM.Rows.ErpListItemMappingRow is Modified
 
 * Deleted items
   * Event `OnCrmItemKeyChange`
@@ -3362,7 +3346,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ErpSyncLogRow is Modified
+##### SuperOffice.CRM.Rows.ErpSyncLogRow is Modified
 
 * Deleted items
   * Event `OnCrmFieldKeyChange`
@@ -3377,7 +3361,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ExtAppGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.ExtAppGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnExtAppIdChange`
@@ -3388,7 +3372,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ExtAppHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.ExtAppHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnExtAppIdChange`
@@ -3399,7 +3383,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ExtAppRow is Modified
+##### SuperOffice.CRM.Rows.ExtAppRow is Modified
 
 * Deleted items
   * Event `OnAppTypeChange`
@@ -3427,7 +3411,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnWindowNameChange`
   * Event `OnWorkdirChange`
 
-#### SuperOffice.CRM.Rows.ExtDatasourceRow is Modified
+##### SuperOffice.CRM.Rows.ExtDatasourceRow is Modified
 
 * Deleted items
   * Event `OnDatabaseTypeChange`
@@ -3452,7 +3436,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdateLockChange`
   * Event `OnUsernameChange`
 
-#### SuperOffice.CRM.Rows.ExternalDocumentRow is Modified
+##### SuperOffice.CRM.Rows.ExternalDocumentRow is Modified
 
 * Deleted items
   * Event `OnAttachmentIdChange`
@@ -3466,7 +3450,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSMessageChange`
   * Event `OnTitleChange`
 
-#### SuperOffice.CRM.Rows.ExternalEventRow is Modified
+##### SuperOffice.CRM.Rows.ExternalEventRow is Modified
 
 * Deleted items
   * Event `OnEventDateChange`
@@ -3493,7 +3477,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ExtFieldRow is Modified
+##### SuperOffice.CRM.Rows.ExtFieldRow is Modified
 
 * Deleted items
   * Event `OnDatatypeChange`
@@ -3503,7 +3487,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSeqOrderChange`
   * Event `OnTargetChange`
 
-#### SuperOffice.CRM.Rows.ExtraFieldsRow is Modified
+##### SuperOffice.CRM.Rows.ExtraFieldsRow is Modified
 
 * Deleted items
   * Event `OnDefaultValueChange`
@@ -3518,7 +3502,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTargetExtraTableChange`
   * Event `OnTypeChange`
 
-#### SuperOffice.CRM.Rows.ExtraMenusRow is Modified
+##### SuperOffice.CRM.Rows.ExtraMenusRow is Modified
 
 * Deleted items
   * Event `OnBaseProgramChange`
@@ -3533,7 +3517,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTargetChange`
   * Event `OnUrlChange`
 
-#### SuperOffice.CRM.Rows.ExtraTablesEntryRow is Modified
+##### SuperOffice.CRM.Rows.ExtraTablesEntryRow is Modified
 
 * Deleted items
   * Event `OnEntryIdChange`
@@ -3543,7 +3527,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnPageNumChange`
   * Event `OnPrevIdChange`
 
-#### SuperOffice.CRM.Rows.ExtraTablesResultRow is Modified
+##### SuperOffice.CRM.Rows.ExtraTablesResultRow is Modified
 
 * Deleted items
   * Event `OnActivePageChange`
@@ -3551,7 +3535,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnLoginIdChange`
   * Event `OnNumEntriesChange`
 
-#### SuperOffice.CRM.Rows.ExtraTablesRow is Modified
+##### SuperOffice.CRM.Rows.ExtraTablesRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -3571,7 +3555,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSortOrderChange`
   * Event `OnViewEntryHeaderChange`
 
-#### SuperOffice.CRM.Rows.ExtTableRow is Modified
+##### SuperOffice.CRM.Rows.ExtTableRow is Modified
 
 * Deleted items
   * Event `OnChildTableChange`
@@ -3588,7 +3572,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSqlQueryChange`
   * Event `OnTargetChange`
 
-#### SuperOffice.CRM.Rows.FavouriteRow is Modified
+##### SuperOffice.CRM.Rows.FavouriteRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -3599,7 +3583,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnRegisteredChange`
   * Event `OnTableIdChange`
 
-#### SuperOffice.CRM.Rows.FieldLabelRow is Modified
+##### SuperOffice.CRM.Rows.FieldLabelRow is Modified
 
 * Deleted items
   * Event `OnActiveChange`
@@ -3611,7 +3595,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ForeignAppRow is Modified
+##### SuperOffice.CRM.Rows.ForeignAppRow is Modified
 
 * Deleted items
   * Event `OnNameChange`
@@ -3621,7 +3605,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ForeignDeviceRow is Modified
+##### SuperOffice.CRM.Rows.ForeignDeviceRow is Modified
 
 * Deleted items
   * Event `OnDeviceIdChange`
@@ -3636,7 +3620,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ForeignKeyRow is Modified
+##### SuperOffice.CRM.Rows.ForeignKeyRow is Modified
 
 * Deleted items
   * Event `OnForeigndeviceIdChange`
@@ -3651,13 +3635,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.FormKeysRow is Modified
+##### SuperOffice.CRM.Rows.FormKeysRow is Modified
 
 * Deleted items
   * Event `OnFormKeyChange`
   * Event `OnTimeOfEntryChange`
 
-#### SuperOffice.CRM.Rows.FormRow is Modified
+##### SuperOffice.CRM.Rows.FormRow is Modified
 
 * Deleted items
   * Event `OnActiveChange`
@@ -3680,7 +3664,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.FormSubmissionRow is Modified
+##### SuperOffice.CRM.Rows.FormSubmissionRow is Modified
 
 * Deleted items
   * Event `OnContactIdChange`
@@ -3693,7 +3677,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnStatusChange`
   * Event `OnWhenSubmittedChange`
 
-#### SuperOffice.CRM.Rows.FreeTextIndexRow is Modified
+##### SuperOffice.CRM.Rows.FreeTextIndexRow is Modified
 
 * Deleted items
   * Event `OnContactIdChange`
@@ -3704,18 +3688,18 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnRecordIdChange`
   * Event `OnTableIdChange`
 
-#### SuperOffice.CRM.Rows.FreeTextStopWordsRow is Modified
+##### SuperOffice.CRM.Rows.FreeTextStopWordsRow is Modified
 
 * Deleted items
   * Event `OnWordChange`
 
-#### SuperOffice.CRM.Rows.FreeTextWordsRow is Modified
+##### SuperOffice.CRM.Rows.FreeTextWordsRow is Modified
 
 * Deleted items
   * Event `OnSoundExChange`
   * Event `OnWordChange`
 
-#### SuperOffice.CRM.Rows.FunctionRightRoleLinkRow is Modified
+##### SuperOffice.CRM.Rows.FunctionRightRoleLinkRow is Modified
 
 * Deleted items
   * Event `OnEncryptedCheckChange`
@@ -3727,7 +3711,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.FunctionRightRow is Modified
+##### SuperOffice.CRM.Rows.FunctionRightRow is Modified
 
 * Deleted items
   * Event `OnEncryptedCheckChange`
@@ -3741,7 +3725,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.HeadingRow is Modified
+##### SuperOffice.CRM.Rows.HeadingRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -3756,7 +3740,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.HelpRow is Modified
+##### SuperOffice.CRM.Rows.HelpRow is Modified
 
 * Deleted items
   * Event `OnApplicationAreaIdChange`
@@ -3769,7 +3753,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSortOrderChange`
   * Event `OnTitleChange`
 
-#### SuperOffice.CRM.Rows.HierarchyRow is Modified
+##### SuperOffice.CRM.Rows.HierarchyRow is Modified
 
 * Deleted items
   * Event `OnDomainChange`
@@ -3782,7 +3766,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.HistoryRow is Modified
+##### SuperOffice.CRM.Rows.HistoryRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -3792,13 +3776,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTableIdChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.HotlistRow is Modified
+##### SuperOffice.CRM.Rows.HotlistRow is Modified
 
 * Deleted items
   * Event `OnTicketIdChange`
   * Event `OnUserIdChange`
 
-#### SuperOffice.CRM.Rows.ImportDefaultRow is Modified
+##### SuperOffice.CRM.Rows.ImportDefaultRow is Modified
 
 * Deleted items
   * Event `OnDbFieldIdChange`
@@ -3813,7 +3797,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ImportFieldRow is Modified
+##### SuperOffice.CRM.Rows.ImportFieldRow is Modified
 
 * Deleted items
   * Event `OnDbFieldIdChange`
@@ -3827,7 +3811,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ImportObjectRow is Modified
+##### SuperOffice.CRM.Rows.ImportObjectRow is Modified
 
 * Deleted items
   * Event `OnExtensionOfChange`
@@ -3841,7 +3825,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ImportRelationRow is Modified
+##### SuperOffice.CRM.Rows.ImportRelationRow is Modified
 
 * Deleted items
   * Event `OnEdgeColourChange`
@@ -3856,7 +3840,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.InboxRow is Modified
+##### SuperOffice.CRM.Rows.InboxRow is Modified
 
 * Deleted items
   * Event `OnCreatedChange`
@@ -3870,7 +3854,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnStatusChange`
   * Event `OnUidlChange`
 
-#### SuperOffice.CRM.Rows.IntentGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.IntentGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -3881,7 +3865,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.IntentHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.IntentHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -3892,7 +3876,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.IntentRow is Modified
+##### SuperOffice.CRM.Rows.IntentRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -3905,7 +3889,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.InvitationRow is Modified
+##### SuperOffice.CRM.Rows.InvitationRow is Modified
 
 * Deleted items
   * Event `OnAppointmentIdChange`
@@ -3922,7 +3906,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.InvoiceEntryRow is Modified
+##### SuperOffice.CRM.Rows.InvoiceEntryRow is Modified
 
 * Deleted items
   * Event `OnDateInvoicedChange`
@@ -3935,7 +3919,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnQuantityChange`
   * Event `OnTypeChange`
 
-#### SuperOffice.CRM.Rows.InvoiceRow is Modified
+##### SuperOffice.CRM.Rows.InvoiceRow is Modified
 
 * Deleted items
   * Event `OnCompanyIdChange`
@@ -3945,7 +3929,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnPriceChargedChange`
   * Event `OnTimeChargedChange`
 
-#### SuperOffice.CRM.Rows.InvoiceSumRow is Modified
+##### SuperOffice.CRM.Rows.InvoiceSumRow is Modified
 
 * Deleted items
   * Event `OnBalanceChange`
@@ -3954,7 +3938,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnLoginIdChange`
   * Event `OnNameChange`
 
-#### SuperOffice.CRM.Rows.InvoiceTypeRow is Modified
+##### SuperOffice.CRM.Rows.InvoiceTypeRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -3962,7 +3946,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnNameChange`
   * Event `OnPricePrUnitChange`
 
-#### SuperOffice.CRM.Rows.ItemConfigRow is Modified
+##### SuperOffice.CRM.Rows.ItemConfigRow is Modified
 
 * Deleted items
   * Event `OnDomainChange`
@@ -3970,20 +3954,20 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnItemNameChange`
   * Event `OnItemValueChange`
 
-#### SuperOffice.CRM.Rows.KbAttachmentRow is Modified
+##### SuperOffice.CRM.Rows.KbAttachmentRow is Modified
 
 * Deleted items
   * Event `OnAttachmentIdChange`
   * Event `OnEntryIdChange`
 
-#### SuperOffice.CRM.Rows.KbCategoryLogRow is Modified
+##### SuperOffice.CRM.Rows.KbCategoryLogRow is Modified
 
 * Deleted items
   * Event `OnKbCategoryIdChange`
   * Event `OnLogWhenChange`
   * Event `OnUserIdChange`
 
-#### SuperOffice.CRM.Rows.KbCategoryRow is Modified
+##### SuperOffice.CRM.Rows.KbCategoryRow is Modified
 
 * Deleted items
   * Event `OnAccessCheckChange`
@@ -4000,7 +3984,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnParentIdChange`
   * Event `OnSortOrderChange`
 
-#### SuperOffice.CRM.Rows.KbEntryCommentRow is Modified
+##### SuperOffice.CRM.Rows.KbEntryCommentRow is Modified
 
 * Deleted items
   * Event `OnAuthorChange`
@@ -4014,20 +3998,20 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnPublishStatusChange`
   * Event `OnTimePostedChange`
 
-#### SuperOffice.CRM.Rows.KbEntryKeywordRow is Modified
+##### SuperOffice.CRM.Rows.KbEntryKeywordRow is Modified
 
 * Deleted items
   * Event `OnKbEntryIdChange`
   * Event `OnKeywordChange`
 
-#### SuperOffice.CRM.Rows.KbEntryLogRow is Modified
+##### SuperOffice.CRM.Rows.KbEntryLogRow is Modified
 
 * Deleted items
   * Event `OnKbEntryIdChange`
   * Event `OnLogWhenChange`
   * Event `OnUserIdChange`
 
-#### SuperOffice.CRM.Rows.KbEntryRow is Modified
+##### SuperOffice.CRM.Rows.KbEntryRow is Modified
 
 * Deleted items
   * Event `OnAccessLevelChange`
@@ -4051,21 +4035,21 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTitleChange`
   * Event `OnWorkflowPhaseChange`
 
-#### SuperOffice.CRM.Rows.KbEntryWordsRow is Modified
+##### SuperOffice.CRM.Rows.KbEntryWordsRow is Modified
 
 * Deleted items
   * Event `OnEntryOriginChange`
   * Event `OnScoreChange`
   * Event `OnWordChange`
 
-#### SuperOffice.CRM.Rows.KbGroupEntryRow is Modified
+##### SuperOffice.CRM.Rows.KbGroupEntryRow is Modified
 
 * Deleted items
   * Event `OnKbEntryIdChange`
   * Event `OnKbGroupIdChange`
   * Event `OnSortPosChange`
 
-#### SuperOffice.CRM.Rows.KbGroupRow is Modified
+##### SuperOffice.CRM.Rows.KbGroupRow is Modified
 
 * Deleted items
   * Event `OnDbiAgentIdChange`
@@ -4076,41 +4060,41 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnKbCategoryIdChange`
   * Event `OnParentIdChange`
 
-#### SuperOffice.CRM.Rows.KbHttpLinkRow is Modified
+##### SuperOffice.CRM.Rows.KbHttpLinkRow is Modified
 
 * Deleted items
   * Event `OnEntryIdChange`
   * Event `OnHttpLinkChange`
   * Event `OnNameChange`
 
-#### SuperOffice.CRM.Rows.KbSolutionFinderEntryRow is Modified
+##### SuperOffice.CRM.Rows.KbSolutionFinderEntryRow is Modified
 
 * Deleted items
   * Event `OnKbEntryChange`
   * Event `OnSolutionFinderChange`
 
-#### SuperOffice.CRM.Rows.KbSolutionFinderRow is Modified
+##### SuperOffice.CRM.Rows.KbSolutionFinderRow is Modified
 
 * Deleted items
   * Event `OnBodyChange`
   * Event `OnNameChange`
   * Event `OnParentIdChange`
 
-#### SuperOffice.CRM.Rows.KbWorkflowAccessRow is Modified
+##### SuperOffice.CRM.Rows.KbWorkflowAccessRow is Modified
 
 * Deleted items
   * Event `OnKbAccessChange`
   * Event `OnKbWorkflowChange`
   * Event `OnUserIdChange`
 
-#### SuperOffice.CRM.Rows.KbWorkflowRow is Modified
+##### SuperOffice.CRM.Rows.KbWorkflowRow is Modified
 
 * Deleted items
   * Event `OnNameChange`
   * Event `OnNextChange`
   * Event `OnPreviousChange`
 
-#### SuperOffice.CRM.Rows.LanguageInfoCountryRow is Modified
+##### SuperOffice.CRM.Rows.LanguageInfoCountryRow is Modified
 
 * Deleted items
   * Event `OnCountryIdChange`
@@ -4126,7 +4110,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.LanguageInfoRow is Modified
+##### SuperOffice.CRM.Rows.LanguageInfoRow is Modified
 
 * Deleted items
   * Event `OnAbbrev2Change`
@@ -4141,7 +4125,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.LegalBaseRow is Modified
+##### SuperOffice.CRM.Rows.LegalBaseRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -4155,12 +4139,12 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.LegalHtmlTagsRow is Modified
+##### SuperOffice.CRM.Rows.LegalHtmlTagsRow is Modified
 
 * Deleted items
   * Event `OnHtmlTagChange`
 
-#### SuperOffice.CRM.Rows.LicenseAssocLinkRow is Modified
+##### SuperOffice.CRM.Rows.LicenseAssocLinkRow is Modified
 
 * Deleted items
   * Event `OnAssocIdChange`
@@ -4176,7 +4160,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnValidFromChange`
   * Event `OnValidToChange`
 
-#### SuperOffice.CRM.Rows.LicenseSatlLinkRow is Modified
+##### SuperOffice.CRM.Rows.LicenseSatlLinkRow is Modified
 
 * Deleted items
   * Event `OnCommentChange`
@@ -4192,7 +4176,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnValidFromChange`
   * Event `OnValidToChange`
 
-#### SuperOffice.CRM.Rows.LocaleTextRow is Modified
+##### SuperOffice.CRM.Rows.LocaleTextRow is Modified
 
 * Deleted items
   * Event `OnIsBuiltinChange`
@@ -4206,7 +4190,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.LockingRow is Modified
+##### SuperOffice.CRM.Rows.LockingRow is Modified
 
 * Deleted items
   * Event `OnErrorMessageChange`
@@ -4220,13 +4204,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnStatusChange`
   * Event `OnStopChange`
 
-#### SuperOffice.CRM.Rows.LogDebugRow is Modified
+##### SuperOffice.CRM.Rows.LogDebugRow is Modified
 
 * Deleted items
   * Event `OnInfoChange`
   * Event `OnTimeOfEntryChange`
 
-#### SuperOffice.CRM.Rows.LogEventsRow is Modified
+##### SuperOffice.CRM.Rows.LogEventsRow is Modified
 
 * Deleted items
   * Event `OnEventGroupChange`
@@ -4242,7 +4226,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnVar4Change`
   * Event `OnVar5Change`
 
-#### SuperOffice.CRM.Rows.LoginCustomerRow is Modified
+##### SuperOffice.CRM.Rows.LoginCustomerRow is Modified
 
 * Deleted items
   * Event `OnCreatedAtChange`
@@ -4255,7 +4239,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSecondsToLiveChange`
   * Event `OnSessionKeyChange`
 
-#### SuperOffice.CRM.Rows.LoginRow is Modified
+##### SuperOffice.CRM.Rows.LoginRow is Modified
 
 * Deleted items
   * Event `OnActiveMenuChange`
@@ -4272,20 +4256,20 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnStatusChange`
   * Event `OnUserIdChange`
 
-#### SuperOffice.CRM.Rows.MailAliasRow is Modified
+##### SuperOffice.CRM.Rows.MailAliasRow is Modified
 
 * Deleted items
   * Event `OnAliasChange`
   * Event `OnFilterIdChange`
 
-#### SuperOffice.CRM.Rows.MailBlockRow is Modified
+##### SuperOffice.CRM.Rows.MailBlockRow is Modified
 
 * Deleted items
   * Event `OnLastUpdateChange`
   * Event `OnMailAddrChange`
   * Event `OnTimePoolChange`
 
-#### SuperOffice.CRM.Rows.MailInFilterRow is Modified
+##### SuperOffice.CRM.Rows.MailInFilterRow is Modified
 
 * Deleted items
   * Event `OnAddressChange`
@@ -4314,7 +4298,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnServerTypeChange`
   * Event `OnStatusChange`
 
-#### SuperOffice.CRM.Rows.MailInUidlRow is Modified
+##### SuperOffice.CRM.Rows.MailInUidlRow is Modified
 
 * Deleted items
   * Event `OnFilterIdChange`
@@ -4323,7 +4307,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnStatusChange`
   * Event `OnUidlChange`
 
-#### SuperOffice.CRM.Rows.MergeMoveLogRow is Modified
+##### SuperOffice.CRM.Rows.MergeMoveLogRow is Modified
 
 * Deleted items
   * Event `OnDestinationRecordChange`
@@ -4337,14 +4321,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.MessageCustomersRow is Modified
+##### SuperOffice.CRM.Rows.MessageCustomersRow is Modified
 
 * Deleted items
   * Event `OnCustomerIdChange`
   * Event `OnEmailChange`
   * Event `OnMessageIdChange`
 
-#### SuperOffice.CRM.Rows.MessageHandlerRow is Modified
+##### SuperOffice.CRM.Rows.MessageHandlerRow is Modified
 
 * Deleted items
   * Event `OnMachineChange`
@@ -4359,7 +4343,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.MessageHeaderRow is Modified
+##### SuperOffice.CRM.Rows.MessageHeaderRow is Modified
 
 * Deleted items
   * Event `OnHeaderValueChange`
@@ -4369,14 +4353,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnStdItemColChange`
   * Event `OnTypeChange`
 
-#### SuperOffice.CRM.Rows.MessageIdRow is Modified
+##### SuperOffice.CRM.Rows.MessageIdRow is Modified
 
 * Deleted items
   * Event `OnDomainChange`
   * Event `OnItemIdChange`
   * Event `OnMessageIdChange`
 
-#### SuperOffice.CRM.Rows.MessageRow is Modified
+##### SuperOffice.CRM.Rows.MessageRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -4392,7 +4376,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ModuleLicenseRow is Modified
+##### SuperOffice.CRM.Rows.ModuleLicenseRow is Modified
 
 * Deleted items
   * Event `OnAllowedAssocsMaskChange`
@@ -4417,7 +4401,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ModuleOwnerRow is Modified
+##### SuperOffice.CRM.Rows.ModuleOwnerRow is Modified
 
 * Deleted items
   * Event `OnAdminWarningDateChange`
@@ -4443,7 +4427,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.MrMrsGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.MrMrsGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -4454,7 +4438,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.MrMrsHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.MrMrsHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -4465,7 +4449,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.MrMrsRow is Modified
+##### SuperOffice.CRM.Rows.MrMrsRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -4478,13 +4462,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.MsFilterMailRow is Modified
+##### SuperOffice.CRM.Rows.MsFilterMailRow is Modified
 
 * Deleted items
   * Event `OnMailInFilterIdChange`
   * Event `OnMailSorterIdChange`
 
-#### SuperOffice.CRM.Rows.MsFilterRow is Modified
+##### SuperOffice.CRM.Rows.MsFilterRow is Modified
 
 * Deleted items
   * Event `OnActionChange`
@@ -4509,7 +4493,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSearchString2Change`
   * Event `OnSearchStringChange`
 
-#### SuperOffice.CRM.Rows.MsSubstituteRow is Modified
+##### SuperOffice.CRM.Rows.MsSubstituteRow is Modified
 
 * Deleted items
   * Event `OnFlagsChange`
@@ -4518,7 +4502,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSubstTypeChange`
   * Event `OnTheRegexpChange`
 
-#### SuperOffice.CRM.Rows.MsTrashbinRow is Modified
+##### SuperOffice.CRM.Rows.MsTrashbinRow is Modified
 
 * Deleted items
   * Event `OnMailInFilterIdChange`
@@ -4526,7 +4510,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSubjectChange`
   * Event `OnWhenTrashedChange`
 
-#### SuperOffice.CRM.Rows.NoticeFrameRow is Modified
+##### SuperOffice.CRM.Rows.NoticeFrameRow is Modified
 
 * Deleted items
   * Event `OnAverageDtChange`
@@ -4536,7 +4520,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnRefreshRateChange`
   * Event `OnT0Change`
 
-#### SuperOffice.CRM.Rows.NotifyRow is Modified
+##### SuperOffice.CRM.Rows.NotifyRow is Modified
 
 * Deleted items
   * Event `OnCategoryIdChange`
@@ -4552,7 +4536,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUser2IdChange`
   * Event `OnUserIdChange`
 
-#### SuperOffice.CRM.Rows.OLEFieldRow is Modified
+##### SuperOffice.CRM.Rows.OLEFieldRow is Modified
 
 * Deleted items
   * Event `OnAlgoDataChange`
@@ -4569,7 +4553,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.OLEFieldTextRow is Modified
+##### SuperOffice.CRM.Rows.OLEFieldTextRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -4582,7 +4566,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.OLESubjectRow is Modified
+##### SuperOffice.CRM.Rows.OLESubjectRow is Modified
 
 * Deleted items
   * Event `OnPredefinedChange`
@@ -4592,7 +4576,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.OLESubjectTextRow is Modified
+##### SuperOffice.CRM.Rows.OLESubjectTextRow is Modified
 
 * Deleted items
   * Event `OnLanguageIdChange`
@@ -4604,7 +4588,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.OLEViewRow is Modified
+##### SuperOffice.CRM.Rows.OLEViewRow is Modified
 
 * Deleted items
   * Event `OnOLESubjectIdChange`
@@ -4616,7 +4600,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.OLEViewTextRow is Modified
+##### SuperOffice.CRM.Rows.OLEViewTextRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -4629,7 +4613,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.OnlineAppRow is Modified
+##### SuperOffice.CRM.Rows.OnlineAppRow is Modified
 
 * Deleted items
   * Event `OnAuthorizationRevokedChange`
@@ -4643,7 +4627,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.OutboxRow is Modified
+##### SuperOffice.CRM.Rows.OutboxRow is Modified
 
 * Deleted items
   * Event `OnCreatedChange`
@@ -4662,7 +4646,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTicketIdChange`
   * Event `OnTypeChange`
 
-#### SuperOffice.CRM.Rows.OutgoingMessageRow is Modified
+##### SuperOffice.CRM.Rows.OutgoingMessageRow is Modified
 
 * Deleted items
   * Event `OnExternalMessageIdChange`
@@ -4675,7 +4659,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedAssociateIdChange`
   * Event `OnUpdatedChange`
 
-#### SuperOffice.CRM.Rows.OwnerContactLinkRow is Modified
+##### SuperOffice.CRM.Rows.OwnerContactLinkRow is Modified
 
 * Deleted items
   * Event `OnContactIdChange`
@@ -4686,7 +4670,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PasswordRulesRow is Modified
+##### SuperOffice.CRM.Rows.PasswordRulesRow is Modified
 
 * Deleted items
   * Event `OnFlagsChange`
@@ -4696,7 +4680,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnMinSpecialChange`
   * Event `OnMinUppercaseChange`
 
-#### SuperOffice.CRM.Rows.PaymentTermsGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.PaymentTermsGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -4707,7 +4691,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -4718,7 +4702,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PaymentTermsRow is Modified
+##### SuperOffice.CRM.Rows.PaymentTermsRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -4731,7 +4715,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PaymentTypeGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.PaymentTypeGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -4742,7 +4726,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PaymentTypeHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.PaymentTypeHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -4753,7 +4737,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PaymentTypeRow is Modified
+##### SuperOffice.CRM.Rows.PaymentTypeRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -4766,7 +4750,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PersIntGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.PersIntGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -4777,7 +4761,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PersIntHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.PersIntHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -4788,7 +4772,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PersIntRow is Modified
+##### SuperOffice.CRM.Rows.PersIntRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -4801,7 +4785,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PersonInterestRow is Modified
+##### SuperOffice.CRM.Rows.PersonInterestRow is Modified
 
 * Deleted items
   * Event `OnEndDateChange`
@@ -4815,7 +4799,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PersPosGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.PersPosGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -4826,7 +4810,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PersPosHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.PersPosHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -4837,7 +4821,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PersPosRow is Modified
+##### SuperOffice.CRM.Rows.PersPosRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -4850,7 +4834,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PhoneFormatRow is Modified
+##### SuperOffice.CRM.Rows.PhoneFormatRow is Modified
 
 * Deleted items
   * Event `OnAreaCodeLengthChange`
@@ -4868,7 +4852,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PhoneRow is Modified
+##### SuperOffice.CRM.Rows.PhoneRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -4885,7 +4869,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnValidFromChange`
   * Event `OnValidToChange`
 
-#### SuperOffice.CRM.Rows.PMembTypeGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.PMembTypeGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -4896,7 +4880,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PMembTypeHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.PMembTypeHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -4907,7 +4891,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PMembTypeRow is Modified
+##### SuperOffice.CRM.Rows.PMembTypeRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -4920,7 +4904,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PrefDescLineRow is Modified
+##### SuperOffice.CRM.Rows.PrefDescLineRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -4934,7 +4918,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PrefDescRow is Modified
+##### SuperOffice.CRM.Rows.PrefDescRow is Modified
 
 * Deleted items
   * Event `OnAccessFlagsChange`
@@ -4958,7 +4942,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnValueTypeChange`
 
-#### SuperOffice.CRM.Rows.PreferenceRow is Modified
+##### SuperOffice.CRM.Rows.PreferenceRow is Modified
 
 * Deleted items
   * Event `OnPdataChange`
@@ -4969,7 +4953,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PriceListRow is Modified
+##### SuperOffice.CRM.Rows.PriceListRow is Modified
 
 * Deleted items
   * Event `OnCurrencyIdChange`
@@ -4987,7 +4971,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnValidFromChange`
   * Event `OnValidToChange`
 
-#### SuperOffice.CRM.Rows.PriceUnitGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.PriceUnitGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -4998,7 +4982,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PriceUnitHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.PriceUnitHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5009,7 +4993,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PriceUnitRow is Modified
+##### SuperOffice.CRM.Rows.PriceUnitRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5022,7 +5006,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PriorityGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.PriorityGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -5033,7 +5017,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PriorityHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.PriorityHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5044,7 +5028,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PriorityRow is Modified
+##### SuperOffice.CRM.Rows.PriorityRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5057,7 +5041,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProbGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProbGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -5068,7 +5052,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProbHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProbHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5079,7 +5063,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProbRow is Modified
+##### SuperOffice.CRM.Rows.ProbRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5093,7 +5077,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProductCategoryGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProductCategoryGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -5104,7 +5088,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProductCategoryHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProductCategoryHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5115,7 +5099,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProductCategoryRow is Modified
+##### SuperOffice.CRM.Rows.ProductCategoryRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5128,7 +5112,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProductFamilyGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProductFamilyGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -5139,7 +5123,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProductFamilyHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProductFamilyHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5150,7 +5134,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProductFamilyRow is Modified
+##### SuperOffice.CRM.Rows.ProductFamilyRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5163,7 +5147,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProductRow is Modified
+##### SuperOffice.CRM.Rows.ProductRow is Modified
 
 * Deleted items
   * Event `OnCodeChange`
@@ -5203,7 +5187,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnVATChange`
   * Event `OnVATInfoChange`
 
-#### SuperOffice.CRM.Rows.ProductTypeGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProductTypeGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -5214,7 +5198,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProductTypeHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProductTypeHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5225,7 +5209,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProductTypeRow is Modified
+##### SuperOffice.CRM.Rows.ProductTypeRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5238,7 +5222,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProductVersionRow is Modified
+##### SuperOffice.CRM.Rows.ProductVersionRow is Modified
 
 * Deleted items
   * Event `OnCodeNameChange`
@@ -5252,7 +5236,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatePathChange`
   * Event `OnVersionChange`
 
-#### SuperOffice.CRM.Rows.ProfileRow is Modified
+##### SuperOffice.CRM.Rows.ProfileRow is Modified
 
 * Deleted items
   * Event `OnListCompaniesHeader2Change`
@@ -5265,7 +5249,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnNameChange`
   * Event `OnUserIdChange`
 
-#### SuperOffice.CRM.Rows.ProjectTypeStatusLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProjectTypeStatusLinkRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5278,7 +5262,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProjStatusGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProjStatusGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -5289,7 +5273,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProjStatusHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProjStatusHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5300,7 +5284,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProjStatusRow is Modified
+##### SuperOffice.CRM.Rows.ProjStatusRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5313,7 +5297,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProjTypeGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProjTypeGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -5324,7 +5308,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProjTypeHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.ProjTypeHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5335,7 +5319,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ProjTypeRow is Modified
+##### SuperOffice.CRM.Rows.ProjTypeRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5352,7 +5336,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PublishRow is Modified
+##### SuperOffice.CRM.Rows.PublishRow is Modified
 
 * Deleted items
   * Event `OnEncryptedCheckChange`
@@ -5368,7 +5352,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.PushNotificationServiceRow is Modified
+##### SuperOffice.CRM.Rows.PushNotificationServiceRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -5390,7 +5374,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.QuickReplyRow is Modified
+##### SuperOffice.CRM.Rows.QuickReplyRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -5403,7 +5387,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.QuoteAlternativeRow is Modified
+##### SuperOffice.CRM.Rows.QuoteAlternativeRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -5433,7 +5417,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnVATChange`
   * Event `OnVATInfoChange`
 
-#### SuperOffice.CRM.Rows.QuoteConnectionAccessRow is Modified
+##### SuperOffice.CRM.Rows.QuoteConnectionAccessRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -5445,7 +5429,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnUserGroupIdChange`
 
-#### SuperOffice.CRM.Rows.QuoteConnectionRow is Modified
+##### SuperOffice.CRM.Rows.QuoteConnectionRow is Modified
 
 * Deleted items
   * Event `OnAllAccessChange`
@@ -5463,7 +5447,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.QuoteLineConfigurationRow is Modified
+##### SuperOffice.CRM.Rows.QuoteLineConfigurationRow is Modified
 
 * Deleted items
   * Event `OnEditableChange`
@@ -5481,7 +5465,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.QuoteLineRow is Modified
+##### SuperOffice.CRM.Rows.QuoteLineRow is Modified
 
 * Deleted items
   * Event `OnCodeChange`
@@ -5535,7 +5519,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnVATChange`
   * Event `OnVATInfoChange`
 
-#### SuperOffice.CRM.Rows.QuoteRow is Modified
+##### SuperOffice.CRM.Rows.QuoteRow is Modified
 
 * Deleted items
   * Event `OnAcceptedQuoteAlternativeIdChange`
@@ -5555,7 +5539,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnUseValuesFromQuoteChange`
 
-#### SuperOffice.CRM.Rows.QuoteVersionAttachmentRow is Modified
+##### SuperOffice.CRM.Rows.QuoteVersionAttachmentRow is Modified
 
 * Deleted items
   * Event `OnDocumentIdChange`
@@ -5567,13 +5551,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.QuoteVersionRecordData is Modified
+##### SuperOffice.CRM.Rows.QuoteVersionRecordData is Modified
 
 * New items
   * Field `RequestAssociateId`
   * Field `RequestComment`
 
-#### SuperOffice.CRM.Rows.QuoteVersionRow is Modified
+##### SuperOffice.CRM.Rows.QuoteVersionRow is Modified
 
 * Deleted items
   * Event `OnApprovedByChange`
@@ -5616,7 +5600,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `RequestAssociateId`
   * Property `RequestComment`
 
-#### SuperOffice.CRM.Rows.ReasonGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.ReasonGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -5627,7 +5611,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ReasonHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.ReasonHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5638,7 +5622,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ReasonRow is Modified
+##### SuperOffice.CRM.Rows.ReasonRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5651,7 +5635,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ReasonSoldGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.ReasonSoldGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -5662,7 +5646,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ReasonSoldHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.ReasonSoldHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5673,7 +5657,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ReasonSoldRow is Modified
+##### SuperOffice.CRM.Rows.ReasonSoldRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5686,7 +5670,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ReasonStalledGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.ReasonStalledGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -5697,7 +5681,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ReasonStalledHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.ReasonStalledHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5708,7 +5692,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ReasonStalledRow is Modified
+##### SuperOffice.CRM.Rows.ReasonStalledRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5721,7 +5705,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.RecurrenceRuleRow is Modified
+##### SuperOffice.CRM.Rows.RecurrenceRuleRow is Modified
 
 * Deleted items
   * Event `OnCyclicDayChange`
@@ -5738,7 +5722,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnWeekdaysChange`
 
-#### SuperOffice.CRM.Rows.RedLetterDayRow is Modified
+##### SuperOffice.CRM.Rows.RedLetterDayRow is Modified
 
 * Deleted items
   * Event `OnColorChange`
@@ -5751,7 +5735,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTextChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.RefCountRangeRow is Modified
+##### SuperOffice.CRM.Rows.RefCountRangeRow is Modified
 
 * Deleted items
   * Event `OnHighestInUseChange`
@@ -5765,7 +5749,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.RefCountsRow is Modified
+##### SuperOffice.CRM.Rows.RefCountsRow is Modified
 
 * Deleted items
   * Event `OnCurrentValueChange`
@@ -5780,14 +5764,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.RegistryRow is Modified
+##### SuperOffice.CRM.Rows.RegistryRow is Modified
 
 * Deleted items
   * Event `OnNameChange`
   * Event `OnRegIdChange`
   * Event `OnRegValueChange`
 
-#### SuperOffice.CRM.Rows.RejectReasonGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.RejectReasonGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -5798,7 +5782,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.RejectReasonHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.RejectReasonHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5809,7 +5793,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.RejectReasonRow is Modified
+##### SuperOffice.CRM.Rows.RejectReasonRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -5822,7 +5806,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.RelationDefinitionGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.RelationDefinitionGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -5833,7 +5817,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.RelationDefinitionHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.RelationDefinitionHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -5844,7 +5828,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.RelationDefinitionRow is Modified
+##### SuperOffice.CRM.Rows.RelationDefinitionRow is Modified
 
 * Deleted items
   * Event `OnDefcommentChange`
@@ -5859,7 +5843,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.RelationsRow is Modified
+##### SuperOffice.CRM.Rows.RelationsRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -5880,7 +5864,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.RelationTargetRow is Modified
+##### SuperOffice.CRM.Rows.RelationTargetRow is Modified
 
 * Deleted items
   * Event `OnBidirectionalChange`
@@ -5893,18 +5877,18 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ReplyTemplateAttachmentRow is Modified
+##### SuperOffice.CRM.Rows.ReplyTemplateAttachmentRow is Modified
 
 * Deleted items
   * Event `OnAttachmentIdChange`
   * Event `OnEntryIdChange`
 
-#### SuperOffice.CRM.Rows.ReplyTemplateBodyRecordData is Modified
+##### SuperOffice.CRM.Rows.ReplyTemplateBodyRecordData is Modified
 
 * Modified items
   * Field `Flags`
 
-#### SuperOffice.CRM.Rows.ReplyTemplateBodyRow is Modified
+##### SuperOffice.CRM.Rows.ReplyTemplateBodyRow is Modified
 
 * Deleted items
   * Event `OnBodyHtmlChange`
@@ -5918,7 +5902,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * Modified items
   * Property `Flags`
 
-#### SuperOffice.CRM.Rows.ReplyTemplateFolderRow is Modified
+##### SuperOffice.CRM.Rows.ReplyTemplateFolderRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -5927,7 +5911,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnNameChange`
   * Event `OnParentIdChange`
 
-#### SuperOffice.CRM.Rows.ReplyTemplateRow is Modified
+##### SuperOffice.CRM.Rows.ReplyTemplateRow is Modified
 
 * Deleted items
   * Event `OnAccessLevelChange`
@@ -5938,7 +5922,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnNameChange`
   * Event `OnOwnedByChange`
 
-#### SuperOffice.CRM.Rows.ReporterListDefRow is Modified
+##### SuperOffice.CRM.Rows.ReporterListDefRow is Modified
 
 * Deleted items
   * Event `OnListSourceChange`
@@ -5951,7 +5935,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ResourceOverrideRow is Modified
+##### SuperOffice.CRM.Rows.ResourceOverrideRow is Modified
 
 * Deleted items
   * Event `OnCultureChange`
@@ -5964,27 +5948,27 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.RoleCategoryRow is Modified
+##### SuperOffice.CRM.Rows.RoleCategoryRow is Modified
 
 * Deleted items
   * Event `OnCategoryChange`
   * Event `OnCrmRoleChange`
   * Event `OnRoleChange`
 
-#### SuperOffice.CRM.Rows.RoleElementRow is Modified
+##### SuperOffice.CRM.Rows.RoleElementRow is Modified
 
 * Deleted items
   * Event `OnCrmRoleChange`
   * Event `OnElementProfileChange`
   * Event `OnRoleChange`
 
-#### SuperOffice.CRM.Rows.RoleMemberRow is Modified
+##### SuperOffice.CRM.Rows.RoleMemberRow is Modified
 
 * Deleted items
   * Event `OnEjuserChange`
   * Event `OnRoleChange`
 
-#### SuperOffice.CRM.Rows.RoleRow is Modified
+##### SuperOffice.CRM.Rows.RoleRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -6000,7 +5984,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnUseCategoriesChange`
 
-#### SuperOffice.CRM.Rows.RoleWorkflowRow is Modified
+##### SuperOffice.CRM.Rows.RoleWorkflowRow is Modified
 
 * Deleted items
   * Event `OnCrmRoleChange`
@@ -6008,7 +5992,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnWorkflowAccessChange`
   * Event `OnWorkflowIdChange`
 
-#### SuperOffice.CRM.Rows.RowValidator is Modified
+##### SuperOffice.CRM.Rows.RowValidator is Modified
 
 * New items
   * Method `ValidateField(ImageEmbedType&, FieldInfo)`
@@ -6019,7 +6003,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `ValidateField(TargetAssignementLevel&, FieldInfo)`
   * Method `ValidateField(TargetMeasurementUnit&, FieldInfo)`
 
-#### SuperOffice.CRM.Rows.SaintConfigurationRow is Modified
+##### SuperOffice.CRM.Rows.SaintConfigurationRow is Modified
 
 * Deleted items
   * Event `OnEnabledChange`
@@ -6036,7 +6020,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SaleHistRow is Modified
+##### SuperOffice.CRM.Rows.SaleHistRow is Modified
 
 * Deleted items
   * Event `OnActiveLinksChange`
@@ -6081,7 +6065,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUserdefIdChange`
   * Event `OnVisibilityChange`
 
-#### SuperOffice.CRM.Rows.SaleStakeholderRow is Modified
+##### SuperOffice.CRM.Rows.SaleStakeholderRow is Modified
 
 * Deleted items
   * Event `OnCommentChange`
@@ -6096,7 +6080,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SaleTypeCatGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.SaleTypeCatGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -6107,7 +6091,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SaleTypeCatHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.SaleTypeCatHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -6118,7 +6102,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SaleTypeCatRow is Modified
+##### SuperOffice.CRM.Rows.SaleTypeCatRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -6131,7 +6115,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SaleTypeGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.SaleTypeGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -6142,7 +6126,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SaleTypeHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.SaleTypeHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -6153,7 +6137,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRow is Modified
+##### SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRow is Modified
 
 * Deleted items
   * Event `OnDefaultIncludedChange`
@@ -6165,7 +6149,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SaleTypeRow is Modified
+##### SuperOffice.CRM.Rows.SaleTypeRow is Modified
 
 * Deleted items
   * Event `OnAllowQuoteAlternativesChange`
@@ -6194,7 +6178,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SaleTypeStageLinkRow is Modified
+##### SuperOffice.CRM.Rows.SaleTypeStageLinkRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -6207,7 +6191,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SalutationGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.SalutationGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -6218,7 +6202,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SalutationHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.SalutationHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -6229,7 +6213,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SalutationRow is Modified
+##### SuperOffice.CRM.Rows.SalutationRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -6242,7 +6226,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SatelliteRow is Modified
+##### SuperOffice.CRM.Rows.SatelliteRow is Modified
 
 * Deleted items
   * Event `OnAreaIdChange`
@@ -6255,27 +6239,27 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SAttachmentRow is Modified
+##### SuperOffice.CRM.Rows.SAttachmentRow is Modified
 
 * Deleted items
   * Event `OnAttachmentIdChange`
   * Event `OnMessageIdChange`
 
-#### SuperOffice.CRM.Rows.SBounceShipmentRow is Modified
+##### SuperOffice.CRM.Rows.SBounceShipmentRow is Modified
 
 * Deleted items
   * Event `OnCustomerIdChange`
   * Event `OnEmailChange`
   * Event `OnShipmentIdChange`
 
-#### SuperOffice.CRM.Rows.ScheduledTaskRow is Modified
+##### SuperOffice.CRM.Rows.ScheduledTaskRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
   * Event `OnScheduleIdChange`
   * Event `OnScriptIdChange`
 
-#### SuperOffice.CRM.Rows.ScheduleRow is Modified
+##### SuperOffice.CRM.Rows.ScheduleRow is Modified
 
 * Deleted items
   * Event `OnAfterScheduleIdChange`
@@ -6304,7 +6288,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTimeOfDayChange`
   * Event `OnWeekdaysChange`
 
-#### SuperOffice.CRM.Rows.ScreenChooserRow is Modified
+##### SuperOffice.CRM.Rows.ScreenChooserRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -6319,7 +6303,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ScreenDefinitionActionRow is Modified
+##### SuperOffice.CRM.Rows.ScreenDefinitionActionRow is Modified
 
 * Deleted items
   * Event `OnButtonChange`
@@ -6328,7 +6312,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnEjscriptChange`
   * Event `OnScreenDefinitionChange`
 
-#### SuperOffice.CRM.Rows.ScreenDefinitionElementRow is Modified
+##### SuperOffice.CRM.Rows.ScreenDefinitionElementRow is Modified
 
 * Deleted items
   * Event `OnBaseTableChange`
@@ -6340,13 +6324,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnOrderPosChange`
   * Event `OnScreenDefinitionChange`
 
-#### SuperOffice.CRM.Rows.ScreenDefinitionHiddenRow is Modified
+##### SuperOffice.CRM.Rows.ScreenDefinitionHiddenRow is Modified
 
 * Deleted items
   * Event `OnScreenDefinitionChange`
   * Event `OnVariableChange`
 
-#### SuperOffice.CRM.Rows.ScreenDefinitionLanguageRow is Modified
+##### SuperOffice.CRM.Rows.ScreenDefinitionLanguageRow is Modified
 
 * Deleted items
   * Event `OnLanguageChange`
@@ -6354,7 +6338,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnVariableNameChange`
   * Event `OnVariableValueChange`
 
-#### SuperOffice.CRM.Rows.ScreenDefinitionRow is Modified
+##### SuperOffice.CRM.Rows.ScreenDefinitionRow is Modified
 
 * Deleted items
   * Event `OnAutosaveChange`
@@ -6370,7 +6354,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnScreenKeyChange`
   * Event `OnWarnOnNavigateChange`
 
-#### SuperOffice.CRM.Rows.ScriptTraceRow is Modified
+##### SuperOffice.CRM.Rows.ScriptTraceRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -6385,7 +6369,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ScriptTraceRunRow is Modified
+##### SuperOffice.CRM.Rows.ScriptTraceRunRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -6399,7 +6383,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnStatusChange`
   * Event `OnUserExecutionTimeChange`
 
-#### SuperOffice.CRM.Rows.SDynCriteriaRow is Modified
+##### SuperOffice.CRM.Rows.SDynCriteriaRow is Modified
 
 * Deleted items
   * Event `OnCriteriaValueChange`
@@ -6409,7 +6393,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnOperatorChange`
   * Event `OnSortOrderChange`
 
-#### SuperOffice.CRM.Rows.SearchCatGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.SearchCatGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -6420,7 +6404,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SearchCatHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.SearchCatHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -6431,7 +6415,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SearchCatRow is Modified
+##### SuperOffice.CRM.Rows.SearchCatRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -6444,7 +6428,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SearchCriteriaGroupRow is Modified
+##### SuperOffice.CRM.Rows.SearchCriteriaGroupRow is Modified
 
 * Deleted items
   * Event `OnActiveChange`
@@ -6459,7 +6443,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SearchCriteriaRow is Modified
+##### SuperOffice.CRM.Rows.SearchCriteriaRow is Modified
 
 * Deleted items
   * Event `OnDisplayNameChange`
@@ -6476,7 +6460,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SearchCriterionRow is Modified
+##### SuperOffice.CRM.Rows.SearchCriterionRow is Modified
 
 * Deleted items
   * Event `OnActiveChange`
@@ -6497,7 +6481,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SearchCriterionValueRow is Modified
+##### SuperOffice.CRM.Rows.SearchCriterionValueRow is Modified
 
 * Deleted items
   * Event `OnDoubleValueChange`
@@ -6514,7 +6498,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnValueTypeChange`
 
-#### SuperOffice.CRM.Rows.SelectionMemberRow is Modified
+##### SuperOffice.CRM.Rows.SelectionMemberRow is Modified
 
 * Deleted items
   * Event `OnContactIdChange`
@@ -6523,14 +6507,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTargetRecordIdChange`
   * Event `OnTargetTableNumberChange`
 
-#### SuperOffice.CRM.Rows.SequenceRow is Modified
+##### SuperOffice.CRM.Rows.SequenceRow is Modified
 
 * Deleted items
   * Event `OnNextIdChange`
   * Event `OnTableNameChange`
   * Event `OnTableNumberChange`
 
-#### SuperOffice.CRM.Rows.ServiceAuthRow is Modified
+##### SuperOffice.CRM.Rows.ServiceAuthRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -6547,7 +6531,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnUsernameChange`
 
-#### SuperOffice.CRM.Rows.SessionObjectRow is Modified
+##### SuperOffice.CRM.Rows.SessionObjectRow is Modified
 
 * Deleted items
   * Event `OnCreatedAtChange`
@@ -6556,7 +6540,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnPartChange`
   * Event `OnSessionValueChange`
 
-#### SuperOffice.CRM.Rows.ShipmentTypeReservationRow is Modified
+##### SuperOffice.CRM.Rows.ShipmentTypeReservationRow is Modified
 
 * Deleted items
   * Event `OnPersonIdChange`
@@ -6567,7 +6551,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.ShipmentTypeRow is Modified
+##### SuperOffice.CRM.Rows.ShipmentTypeRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -6580,7 +6564,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SLinkCustomerRow is Modified
+##### SuperOffice.CRM.Rows.SLinkCustomerRow is Modified
 
 * Deleted items
   * Event `OnCustomerIdChange`
@@ -6591,7 +6575,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnPressedChange`
   * Event `OnShipmentIdChange`
 
-#### SuperOffice.CRM.Rows.SLinkCustomerStaticalRow is Modified
+##### SuperOffice.CRM.Rows.SLinkCustomerStaticalRow is Modified
 
 * Deleted items
   * Event `OnEmailChange`
@@ -6602,7 +6586,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnPressedChange`
   * Event `OnShipmentIdChange`
 
-#### SuperOffice.CRM.Rows.SLinkRow is Modified
+##### SuperOffice.CRM.Rows.SLinkRow is Modified
 
 * Deleted items
   * Event `OnActionFlagsChange`
@@ -6645,13 +6629,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnUrlChange`
 
-#### SuperOffice.CRM.Rows.SListCustomerRow is Modified
+##### SuperOffice.CRM.Rows.SListCustomerRow is Modified
 
 * Deleted items
   * Event `OnCustomerIdChange`
   * Event `OnListIdChange`
 
-#### SuperOffice.CRM.Rows.SListElementRow is Modified
+##### SuperOffice.CRM.Rows.SListElementRow is Modified
 
 * Deleted items
   * Event `OnAddressChange`
@@ -6660,7 +6644,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSmsChange`
   * Event `OnStatusChange`
 
-#### SuperOffice.CRM.Rows.SListRow is Modified
+##### SuperOffice.CRM.Rows.SListRow is Modified
 
 * Deleted items
   * Event `OnDbiAgentIdChange`
@@ -6675,7 +6659,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnWashedChange`
   * Event `OnWashingPercentChange`
 
-#### SuperOffice.CRM.Rows.SListShipmentRow is Modified
+##### SuperOffice.CRM.Rows.SListShipmentRow is Modified
 
 * Deleted items
   * Event `OnListIdChange`
@@ -6683,7 +6667,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnStatusChange`
   * Event `OnTypeChange`
 
-#### SuperOffice.CRM.Rows.SMessageblockRow is Modified
+##### SuperOffice.CRM.Rows.SMessageblockRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -6694,7 +6678,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SMessageRow is Modified
+##### SuperOffice.CRM.Rows.SMessageRow is Modified
 
 * Deleted items
   * Event `OnAccessKeyChange`
@@ -6718,13 +6702,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SmsHysteriaRow is Modified
+##### SuperOffice.CRM.Rows.SmsHysteriaRow is Modified
 
 * Deleted items
   * Event `OnCreatedAtChange`
   * Event `OnRecipientAddressChange`
 
-#### SuperOffice.CRM.Rows.SmsRow is Modified
+##### SuperOffice.CRM.Rows.SmsRow is Modified
 
 * Deleted items
   * Event `OnCustomerIdChange`
@@ -6741,20 +6725,20 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnShipmentIdChange`
   * Event `OnSmsTextChange`
 
-#### SuperOffice.CRM.Rows.SnapshotRow is Modified
+##### SuperOffice.CRM.Rows.SnapshotRow is Modified
 
 * Deleted items
   * Event `OnCreatedAtChange`
   * Event `OnUserCommentChange`
 
-#### SuperOffice.CRM.Rows.SoapAccessRow is Modified
+##### SuperOffice.CRM.Rows.SoapAccessRow is Modified
 
 * Deleted items
   * Event `OnAddressFromChange`
   * Event `OnAddressToChange`
   * Event `OnTypeChange`
 
-#### SuperOffice.CRM.Rows.SORCriteriaRow is Modified
+##### SuperOffice.CRM.Rows.SORCriteriaRow is Modified
 
 * Deleted items
   * Event `OnFieldNameChange`
@@ -6771,7 +6755,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnValue2Change`
   * Event `OnWhereOrderChange`
 
-#### SuperOffice.CRM.Rows.SORFCTRow is Modified
+##### SuperOffice.CRM.Rows.SORFCTRow is Modified
 
 * Deleted items
   * Event `OnAggregateFunctionChange`
@@ -6791,7 +6775,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SORFieldRow is Modified
+##### SuperOffice.CRM.Rows.SORFieldRow is Modified
 
 * Deleted items
   * Event `OnAlignmentChange`
@@ -6822,7 +6806,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnVisibleChange`
 
-#### SuperOffice.CRM.Rows.SORLabelLayoutRow is Modified
+##### SuperOffice.CRM.Rows.SORLabelLayoutRow is Modified
 
 * Deleted items
   * Event `OnBottomMarginChange`
@@ -6844,7 +6828,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SOROperatorsRow is Modified
+##### SuperOffice.CRM.Rows.SOROperatorsRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -6858,7 +6842,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SORPublishGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.SORPublishGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnRegisteredAssociateIdChange`
@@ -6869,7 +6853,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnUserGroupIdChange`
 
-#### SuperOffice.CRM.Rows.SORPublishRow is Modified
+##### SuperOffice.CRM.Rows.SORPublishRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -6889,7 +6873,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SORSectionRow is Modified
+##### SuperOffice.CRM.Rows.SORSectionRow is Modified
 
 * Deleted items
   * Event `OnGroupingFieldChange`
@@ -6902,7 +6886,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SORTemplateRow is Modified
+##### SuperOffice.CRM.Rows.SORTemplateRow is Modified
 
 * Deleted items
   * Event `OnBottomMarginChange`
@@ -6922,7 +6906,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnViewNameChange`
 
-#### SuperOffice.CRM.Rows.SourceGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.SourceGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -6933,7 +6917,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SourceHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.SourceHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -6944,7 +6928,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SourceRow is Modified
+##### SuperOffice.CRM.Rows.SourceRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -6957,7 +6941,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SPictureEntryRow is Modified
+##### SuperOffice.CRM.Rows.SPictureEntryRow is Modified
 
 * Deleted items
   * Event `OnAttachmentIdChange`
@@ -6972,7 +6956,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SPictureFolderRow is Modified
+##### SuperOffice.CRM.Rows.SPictureFolderRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -6985,7 +6969,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SSentMessageRow is Modified
+##### SuperOffice.CRM.Rows.SSentMessageRow is Modified
 
 * Deleted items
   * Event `OnCustomerIdChange`
@@ -6995,7 +6979,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnWhenReadChange`
   * Event `OnWhenSentChange`
 
-#### SuperOffice.CRM.Rows.SShipmentAddrRow is Modified
+##### SuperOffice.CRM.Rows.SShipmentAddrRow is Modified
 
 * Deleted items
   * Event `OnAddressChange`
@@ -7015,7 +6999,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTimestampChange`
   * Event `OnTypeChange`
 
-#### SuperOffice.CRM.Rows.SShipmentRow is Modified
+##### SuperOffice.CRM.Rows.SShipmentRow is Modified
 
 * Deleted items
   * Event `OnActivePaneChange`
@@ -7063,14 +7047,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SSmtpServersRow is Modified
+##### SuperOffice.CRM.Rows.SSmtpServersRow is Modified
 
 * Deleted items
   * Event `OnShipmentIdChange`
   * Event `OnSmtpPortChange`
   * Event `OnSmtpServerChange`
 
-#### SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -7081,7 +7065,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -7092,7 +7076,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.StakeholderRoleRow is Modified
+##### SuperOffice.CRM.Rows.StakeholderRoleRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -7105,13 +7089,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.StaticListRefRow is Modified
+##### SuperOffice.CRM.Rows.StaticListRefRow is Modified
 
 * Deleted items
   * Event `OnListIdChange`
   * Event `OnRefIdChange`
 
-#### SuperOffice.CRM.Rows.StatusDefRow is Modified
+##### SuperOffice.CRM.Rows.StatusDefRow is Modified
 
 * Deleted items
   * Event `OnDefaultTaskChange`
@@ -7131,7 +7115,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.StatusValueRow is Modified
+##### SuperOffice.CRM.Rows.StatusValueRow is Modified
 
 * Deleted items
   * Event `OnContactIdChange`
@@ -7148,7 +7132,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SubscriptionUnitGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.SubscriptionUnitGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -7159,7 +7143,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SubscriptionUnitHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.SubscriptionUnitHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -7170,7 +7154,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SubscriptionUnitRow is Modified
+##### SuperOffice.CRM.Rows.SubscriptionUnitRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -7183,7 +7167,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SuggestedAppointmentRow is Modified
+##### SuperOffice.CRM.Rows.SuggestedAppointmentRow is Modified
 
 * Deleted items
   * Event `OnAssignToMemberChange`
@@ -7205,7 +7189,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SuggestedDocumentRow is Modified
+##### SuperOffice.CRM.Rows.SuggestedDocumentRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -7223,7 +7207,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SuperListColumnSizeRow is Modified
+##### SuperOffice.CRM.Rows.SuperListColumnSizeRow is Modified
 
 * Deleted items
   * Event `OnAssocIdChange`
@@ -7244,13 +7228,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SWashingListRow is Modified
+##### SuperOffice.CRM.Rows.SWashingListRow is Modified
 
 * Deleted items
   * Event `OnAddressChange`
   * Event `OnListIdChange`
 
-#### SuperOffice.CRM.Rows.SWashingRow is Modified
+##### SuperOffice.CRM.Rows.SWashingRow is Modified
 
 * Deleted items
   * Event `OnBounceChange`
@@ -7258,7 +7242,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnShipmentsChange`
   * Event `OnTypeChange`
 
-#### SuperOffice.CRM.Rows.SystemEventRow is Modified
+##### SuperOffice.CRM.Rows.SystemEventRow is Modified
 
 * Deleted items
   * Event `OnEtaChange`
@@ -7273,18 +7257,18 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.SystemScriptRow is Modified
+##### SuperOffice.CRM.Rows.SystemScriptRow is Modified
 
 * Deleted items
   * Event `OnBodyChange`
   * Event `OnScriptIdChange`
 
-#### SuperOffice.CRM.Rows.TableRowBase is Modified
+##### SuperOffice.CRM.Rows.TableRowBase is Modified
 
 * Deleted items
   * Event `OnValueChanged`
 
-#### SuperOffice.CRM.Rows.TabOrderRow is Modified
+##### SuperOffice.CRM.Rows.TabOrderRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -7296,7 +7280,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TagsGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.TagsGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -7307,7 +7291,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TagsHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.TagsHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -7318,7 +7302,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TagsRow is Modified
+##### SuperOffice.CRM.Rows.TagsRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -7331,12 +7315,12 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData is Modified
+##### SuperOffice.CRM.Rows.TargetAssignmentInfoRecordData is Modified
 
 * New items
   * Field `TargetDimensionItemId`
 
-#### SuperOffice.CRM.Rows.TargetAssignmentInfoRow is Modified
+##### SuperOffice.CRM.Rows.TargetAssignmentInfoRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -7352,7 +7336,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `TargetDimensionItemId`
 
-#### SuperOffice.CRM.Rows.TargetAssignmentValueRow is Modified
+##### SuperOffice.CRM.Rows.TargetAssignmentValueRow is Modified
 
 * Deleted items
   * Event `OnRegisteredAssociateIdChange`
@@ -7364,7 +7348,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TargetChangeRow is Modified
+##### SuperOffice.CRM.Rows.TargetChangeRow is Modified
 
 * Deleted items
   * Event `OnFieldIdentifierChange`
@@ -7377,12 +7361,12 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnValueChangeFromChange`
   * Event `OnValueChangeToChange`
 
-#### SuperOffice.CRM.Rows.TargetGroupRecordData is Modified
+##### SuperOffice.CRM.Rows.TargetGroupRecordData is Modified
 
 * New items
   * Field `TargetDimensionId`
 
-#### SuperOffice.CRM.Rows.TargetGroupRow is Modified
+##### SuperOffice.CRM.Rows.TargetGroupRow is Modified
 
 * Deleted items
   * Event `OnEntityTypeChange`
@@ -7396,7 +7380,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `TargetDimensionId`
 
-#### SuperOffice.CRM.Rows.TargetPeriodRow is Modified
+##### SuperOffice.CRM.Rows.TargetPeriodRow is Modified
 
 * Deleted items
   * Event `OnPeriodNumberChange`
@@ -7407,7 +7391,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TargetRevisionHistoryRow is Modified
+##### SuperOffice.CRM.Rows.TargetRevisionHistoryRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -7423,7 +7407,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUsergroupIdChange`
   * Event `OnYearChange`
 
-#### SuperOffice.CRM.Rows.TargetRevisionRow is Modified
+##### SuperOffice.CRM.Rows.TargetRevisionRow is Modified
 
 * Deleted items
   * Event `OnAssignmentInfoIdChange`
@@ -7435,7 +7419,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TaskGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.TaskGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -7446,7 +7430,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TaskHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.TaskHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -7457,7 +7441,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TaskRow is Modified
+##### SuperOffice.CRM.Rows.TaskRow is Modified
 
 * Deleted items
   * Event `OnColorIndexChange`
@@ -7478,7 +7462,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TemporaryKeyRow is Modified
+##### SuperOffice.CRM.Rows.TemporaryKeyRow is Modified
 
 * Deleted items
   * Event `OnAuthkeyChange`
@@ -7492,14 +7476,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TemporaryWordsRow is Modified
+##### SuperOffice.CRM.Rows.TemporaryWordsRow is Modified
 
 * Deleted items
   * Event `OnMagicNumberChange`
   * Event `OnWordChange`
   * Event `OnWordLengthChange`
 
-#### SuperOffice.CRM.Rows.TicketAlertRow is Modified
+##### SuperOffice.CRM.Rows.TicketAlertRow is Modified
 
 * Deleted items
   * Event `OnActionChange`
@@ -7519,7 +7503,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnScriptIdChange`
   * Event `OnSmsToChange`
 
-#### SuperOffice.CRM.Rows.TicketAttachmentRow is Modified
+##### SuperOffice.CRM.Rows.TicketAttachmentRow is Modified
 
 * Deleted items
   * Event `OnAttachmentIdChange`
@@ -7527,13 +7511,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnInlineImageChange`
   * Event `OnMessageIdChange`
 
-#### SuperOffice.CRM.Rows.TicketCustomersRow is Modified
+##### SuperOffice.CRM.Rows.TicketCustomersRow is Modified
 
 * Deleted items
   * Event `OnCustomerIdChange`
   * Event `OnTicketIdChange`
 
-#### SuperOffice.CRM.Rows.TicketLogActionRow is Modified
+##### SuperOffice.CRM.Rows.TicketLogActionRow is Modified
 
 * Deleted items
   * Event `OnCustomerIdChange`
@@ -7546,7 +7530,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTicketIdChange`
   * Event `OnUserIdChange`
 
-#### SuperOffice.CRM.Rows.TicketLogChangeRow is Modified
+##### SuperOffice.CRM.Rows.TicketLogChangeRow is Modified
 
 * Deleted items
   * Event `OnActionIdChange`
@@ -7557,7 +7541,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTicketIdChange`
   * Event `OnToValueChange`
 
-#### SuperOffice.CRM.Rows.TicketLogRow is Modified
+##### SuperOffice.CRM.Rows.TicketLogRow is Modified
 
 * Deleted items
   * Event `OnLogCodeChange`
@@ -7567,7 +7551,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnLogWhoChange`
   * Event `OnTicketIdChange`
 
-#### SuperOffice.CRM.Rows.TicketPriorityRow is Modified
+##### SuperOffice.CRM.Rows.TicketPriorityRow is Modified
 
 * Deleted items
   * Event `OnChangedOwnerChange`
@@ -7597,7 +7581,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnWedStartChange`
   * Event `OnWedStopChange`
 
-#### SuperOffice.CRM.Rows.TicketRelationActionRow is Modified
+##### SuperOffice.CRM.Rows.TicketRelationActionRow is Modified
 
 * Deleted items
   * Event `OnActionChange`
@@ -7611,7 +7595,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TicketRelationRow is Modified
+##### SuperOffice.CRM.Rows.TicketRelationRow is Modified
 
 * Deleted items
   * Event `OnRegisteredAssociateIdChange`
@@ -7623,7 +7607,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TicketRelationTypeRow is Modified
+##### SuperOffice.CRM.Rows.TicketRelationTypeRow is Modified
 
 * Deleted items
   * Event `OnNameChange`
@@ -7638,7 +7622,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TicketRow is Modified
+##### SuperOffice.CRM.Rows.TicketRow is Modified
 
 * Deleted items
   * Event `OnActivateChange`
@@ -7701,7 +7685,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTimeToReplyChange`
   * Event `OnTitleChange`
 
-#### SuperOffice.CRM.Rows.TicketStatusHistoryRow is Modified
+##### SuperOffice.CRM.Rows.TicketStatusHistoryRow is Modified
 
 * Deleted items
   * Event `OnFromDatetimeChange`
@@ -7711,7 +7695,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTimespanChange`
   * Event `OnToDatetimeChange`
 
-#### SuperOffice.CRM.Rows.TicketStatusRow is Modified
+##### SuperOffice.CRM.Rows.TicketStatusRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -7721,7 +7705,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTimeCounterChange`
   * Event `OnTsRankChange`
 
-#### SuperOffice.CRM.Rows.TicketTypeRow is Modified
+##### SuperOffice.CRM.Rows.TicketTypeRow is Modified
 
 * Deleted items
   * Event `OnDescriptionChange`
@@ -7737,7 +7721,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TimestampsRow is Modified
+##### SuperOffice.CRM.Rows.TimestampsRow is Modified
 
 * Deleted items
   * Event `OnActivateTicketsChange`
@@ -7754,7 +7738,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTicketAlertChange`
   * Event `OnWeekStatChange`
 
-#### SuperOffice.CRM.Rows.TravelCurrentRow is Modified
+##### SuperOffice.CRM.Rows.TravelCurrentRow is Modified
 
 * Deleted items
   * Event `OnAdminLoginChange`
@@ -7781,7 +7765,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TravelGeneratedDatabaseRow is Modified
+##### SuperOffice.CRM.Rows.TravelGeneratedDatabaseRow is Modified
 
 * Deleted items
   * Event `OnAreaIdChange`
@@ -7796,7 +7780,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TravelGeneratedTransactionRow is Modified
+##### SuperOffice.CRM.Rows.TravelGeneratedTransactionRow is Modified
 
 * Deleted items
   * Event `OnRecordstatusChange`
@@ -7811,7 +7795,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TravelIDMappingRow is Modified
+##### SuperOffice.CRM.Rows.TravelIDMappingRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -7826,7 +7810,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TravellerRow is Modified
+##### SuperOffice.CRM.Rows.TravellerRow is Modified
 
 * Deleted items
   * Event `OnAreaIdChange`
@@ -7847,7 +7831,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TravelTransactionLogRow is Modified
+##### SuperOffice.CRM.Rows.TravelTransactionLogRow is Modified
 
 * Deleted items
   * Event `OnApplicationIdChange`
@@ -7859,7 +7843,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTtimeChange`
   * Event `OnTypeChange`
 
-#### SuperOffice.CRM.Rows.TrayAppRow is Modified
+##### SuperOffice.CRM.Rows.TrayAppRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -7873,7 +7857,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TreeExplorerEntryRow is Modified
+##### SuperOffice.CRM.Rows.TreeExplorerEntryRow is Modified
 
 * Deleted items
   * Event `OnExpandOrderChange`
@@ -7891,7 +7875,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTooltipChange`
   * Event `OnTreeKeyChange`
 
-#### SuperOffice.CRM.Rows.TreeExplorerLinkRow is Modified
+##### SuperOffice.CRM.Rows.TreeExplorerLinkRow is Modified
 
 * Deleted items
   * Event `OnEntryIdChange`
@@ -7901,7 +7885,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnTargetChange`
   * Event `OnTooltipChange`
 
-#### SuperOffice.CRM.Rows.TypicalSearchRow is Modified
+##### SuperOffice.CRM.Rows.TypicalSearchRow is Modified
 
 * Deleted items
   * Event `OnEntityNameChange`
@@ -7917,7 +7901,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnVersionNumberChange`
 
-#### SuperOffice.CRM.Rows.TZDstRuleRow is Modified
+##### SuperOffice.CRM.Rows.TZDstRuleRow is Modified
 
 * Deleted items
   * Event `OnBiasChange`
@@ -7937,7 +7921,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnValidFromChange`
 
-#### SuperOffice.CRM.Rows.TZLocationRow is Modified
+##### SuperOffice.CRM.Rows.TZLocationRow is Modified
 
 * Deleted items
   * Event `OnCitiesChange`
@@ -7956,7 +7940,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.TZStdRuleRow is Modified
+##### SuperOffice.CRM.Rows.TZStdRuleRow is Modified
 
 * Deleted items
   * Event `OnBiasChange`
@@ -7970,7 +7954,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnValidFromChange`
 
-#### SuperOffice.CRM.Rows.UDAppntLargeRow is Modified
+##### SuperOffice.CRM.Rows.UDAppntLargeRow is Modified
 
 * Deleted items
   * Event `OnString41Change`
@@ -7983,7 +7967,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString48Change`
   * Event `OnString49Change`
 
-#### SuperOffice.CRM.Rows.UDAppntSmallRow is Modified
+##### SuperOffice.CRM.Rows.UDAppntSmallRow is Modified
 
 * Deleted items
   * Event `OnDouble01Change`
@@ -8097,7 +8081,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString39Change`
   * Event `OnString40Change`
 
-#### SuperOffice.CRM.Rows.UDContactLargeRow is Modified
+##### SuperOffice.CRM.Rows.UDContactLargeRow is Modified
 
 * Deleted items
   * Event `OnString41Change`
@@ -8110,7 +8094,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString48Change`
   * Event `OnString49Change`
 
-#### SuperOffice.CRM.Rows.UDContactSmallRow is Modified
+##### SuperOffice.CRM.Rows.UDContactSmallRow is Modified
 
 * Deleted items
   * Event `OnDouble01Change`
@@ -8224,7 +8208,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString39Change`
   * Event `OnString40Change`
 
-#### SuperOffice.CRM.Rows.UDDocLargeRow is Modified
+##### SuperOffice.CRM.Rows.UDDocLargeRow is Modified
 
 * Deleted items
   * Event `OnString41Change`
@@ -8237,7 +8221,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString48Change`
   * Event `OnString49Change`
 
-#### SuperOffice.CRM.Rows.UDDocSmallRow is Modified
+##### SuperOffice.CRM.Rows.UDDocSmallRow is Modified
 
 * Deleted items
   * Event `OnDouble01Change`
@@ -8351,7 +8335,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString39Change`
   * Event `OnString40Change`
 
-#### SuperOffice.CRM.Rows.UDefFieldGLRow is Modified
+##### SuperOffice.CRM.Rows.UDefFieldGLRow is Modified
 
 * Deleted items
   * Event `OnFieldLineNoChange`
@@ -8363,7 +8347,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.UDefFieldRow is Modified
+##### SuperOffice.CRM.Rows.UDefFieldRow is Modified
 
 * Deleted items
   * Event `OnColumnIdChange`
@@ -8402,7 +8386,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnVersionChange`
 
-#### SuperOffice.CRM.Rows.UDListDefinitionRow is Modified
+##### SuperOffice.CRM.Rows.UDListDefinitionRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -8417,7 +8401,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.UDListGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.UDListGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnGroupIdChange`
@@ -8428,7 +8412,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.UDListHeadingLinkRow is Modified
+##### SuperOffice.CRM.Rows.UDListHeadingLinkRow is Modified
 
 * Deleted items
   * Event `OnHeadingIdChange`
@@ -8439,7 +8423,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.UDListRow is Modified
+##### SuperOffice.CRM.Rows.UDListRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -8453,7 +8437,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.UDPersonLargeRow is Modified
+##### SuperOffice.CRM.Rows.UDPersonLargeRow is Modified
 
 * Deleted items
   * Event `OnString41Change`
@@ -8466,7 +8450,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString48Change`
   * Event `OnString49Change`
 
-#### SuperOffice.CRM.Rows.UDPersonSmallRow is Modified
+##### SuperOffice.CRM.Rows.UDPersonSmallRow is Modified
 
 * Deleted items
   * Event `OnDouble01Change`
@@ -8580,7 +8564,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString39Change`
   * Event `OnString40Change`
 
-#### SuperOffice.CRM.Rows.UDProjectLargeRow is Modified
+##### SuperOffice.CRM.Rows.UDProjectLargeRow is Modified
 
 * Deleted items
   * Event `OnString41Change`
@@ -8593,7 +8577,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString48Change`
   * Event `OnString49Change`
 
-#### SuperOffice.CRM.Rows.UDProjectSmallRow is Modified
+##### SuperOffice.CRM.Rows.UDProjectSmallRow is Modified
 
 * Deleted items
   * Event `OnDouble01Change`
@@ -8707,7 +8691,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString39Change`
   * Event `OnString40Change`
 
-#### SuperOffice.CRM.Rows.UDSaleLargeRow is Modified
+##### SuperOffice.CRM.Rows.UDSaleLargeRow is Modified
 
 * Deleted items
   * Event `OnString41Change`
@@ -8720,7 +8704,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString48Change`
   * Event `OnString49Change`
 
-#### SuperOffice.CRM.Rows.UDSaleSmallRow is Modified
+##### SuperOffice.CRM.Rows.UDSaleSmallRow is Modified
 
 * Deleted items
   * Event `OnDouble01Change`
@@ -8834,7 +8818,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString39Change`
   * Event `OnString40Change`
 
-#### SuperOffice.CRM.Rows.UDTempLargeRow is Modified
+##### SuperOffice.CRM.Rows.UDTempLargeRow is Modified
 
 * Deleted items
   * Event `OnString41Change`
@@ -8847,7 +8831,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString48Change`
   * Event `OnString49Change`
 
-#### SuperOffice.CRM.Rows.UDTempSmallRow is Modified
+##### SuperOffice.CRM.Rows.UDTempSmallRow is Modified
 
 * Deleted items
   * Event `OnDouble01Change`
@@ -8961,7 +8945,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnString39Change`
   * Event `OnString40Change`
 
-#### SuperOffice.CRM.Rows.URLRow is Modified
+##### SuperOffice.CRM.Rows.URLRow is Modified
 
 * Deleted items
   * Event `OnContactIdChange`
@@ -8979,7 +8963,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnUrlAddressChange`
 
-#### SuperOffice.CRM.Rows.UsageStatsRow is Modified
+##### SuperOffice.CRM.Rows.UsageStatsRow is Modified
 
 * Deleted items
   * Event `OnAssocIdChange`
@@ -8992,21 +8976,21 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnSubIdChange`
   * Event `OnUsesChange`
 
-#### SuperOffice.CRM.Rows.UserAttributeRow is Modified
+##### SuperOffice.CRM.Rows.UserAttributeRow is Modified
 
 * Deleted items
   * Event `OnAttKeyChange`
   * Event `OnAttValueChange`
   * Event `OnUserIdChange`
 
-#### SuperOffice.CRM.Rows.UserCandidateRow is Modified
+##### SuperOffice.CRM.Rows.UserCandidateRow is Modified
 
 * Deleted items
   * Event `OnPersonIdChange`
   * Event `OnSecretKeyChange`
   * Event `OnSecretValueChange`
 
-#### SuperOffice.CRM.Rows.UserGroupLinkRow is Modified
+##### SuperOffice.CRM.Rows.UserGroupLinkRow is Modified
 
 * Deleted items
   * Event `OnAssocIdChange`
@@ -9021,7 +9005,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnValidFromChange`
   * Event `OnValidToChange`
 
-#### SuperOffice.CRM.Rows.UserGroupRow is Modified
+##### SuperOffice.CRM.Rows.UserGroupRow is Modified
 
 * Deleted items
   * Event `OnDeletedChange`
@@ -9035,7 +9019,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.UserPreferenceRow is Modified
+##### SuperOffice.CRM.Rows.UserPreferenceRow is Modified
 
 * Deleted items
   * Event `OnDeflevelChange`
@@ -9050,7 +9034,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.UserRoleLinkRow is Modified
+##### SuperOffice.CRM.Rows.UserRoleLinkRow is Modified
 
 * Deleted items
   * Event `OnAssociateIdChange`
@@ -9063,7 +9047,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.VisibleForRow is Modified
+##### SuperOffice.CRM.Rows.VisibleForRow is Modified
 
 * Deleted items
   * Event `OnAppointmentIdChange`
@@ -9082,7 +9066,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.WebAppUsageRow is Modified
+##### SuperOffice.CRM.Rows.WebAppUsageRow is Modified
 
 * Deleted items
   * Event `OnAggregateBinChange`
@@ -9092,7 +9076,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnVersionChange`
   * Event `OnViewStateChange`
 
-#### SuperOffice.CRM.Rows.WebhookRow is Modified
+##### SuperOffice.CRM.Rows.WebhookRow is Modified
 
 * Deleted items
   * Event `OnApplicationTokenChange`
@@ -9110,7 +9094,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.WebhookUsageRow is Modified
+##### SuperOffice.CRM.Rows.WebhookUsageRow is Modified
 
 * Deleted items
   * Event `OnConsecutiveErrorsChange`
@@ -9123,7 +9107,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedChange`
   * Event `OnUpdatedCountChange`
 
-#### SuperOffice.CRM.Rows.WinPosSizeRow is Modified
+##### SuperOffice.CRM.Rows.WinPosSizeRow is Modified
 
 * Deleted items
   * Event `OnAssocIdChange`
@@ -9141,7 +9125,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpperYChange`
   * Event `OnWidthChange`
 
-#### SuperOffice.CRM.Rows.WordRelationsRow is Modified
+##### SuperOffice.CRM.Rows.WordRelationsRow is Modified
 
 * Deleted items
   * Event `OnEntryIdChange`
@@ -9149,13 +9133,13 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnRelationOriginChange`
   * Event `OnUsedChange`
 
-#### SuperOffice.CRM.Rows.WsdlDescriptionRow is Modified
+##### SuperOffice.CRM.Rows.WsdlDescriptionRow is Modified
 
 * Deleted items
   * Event `OnBodyChange`
   * Event `OnNameChange`
 
-#### SuperOffice.CRM.Rows.ZipToCityRow is Modified
+##### SuperOffice.CRM.Rows.ZipToCityRow is Modified
 
 * Deleted items
   * Event `OnCityChange`
@@ -9163,7 +9147,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Event `OnUpdatedCountChange`
   * Event `OnZipcodeChange`
 
-#### SuperOffice.CRM.Sale.QuoteManager is Modified
+##### SuperOffice.CRM.Sale.QuoteManager is Modified
 
 * Deleted items
   * Method `GetStateImageAndText(QuoteVersionState, DateTime, String&, String&, String&)`
@@ -9172,43 +9156,43 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `GetStateImageAndText(QuoteVersionInfo, DateTime, String&, String&, String&)`
   * Method `RequestQuoteApproval(Int32, Int32, String)`
 
-#### SuperOffice.Data.Cache.CacheBaseV2 is Modified
+##### SuperOffice.Data.Cache.CacheBaseV2 is Modified
 
 * New items
   * Property `Disposed`
   * Method `GetCurrent<T>()`
 
-#### SuperOffice.Data.Dictionary.SoDictionary is Modified
+##### SuperOffice.Data.Dictionary.SoDictionary is Modified
 
 * Deleted items
   * Method `GetDictionary()`
 
-#### SuperOffice.Data.Dictionary.SoField is Modified
+##### SuperOffice.Data.Dictionary.SoField is Modified
 
 * New items
   * Property `TimeZoneInterpretation`
 
-#### SuperOffice.Data.Private.FreetextIndexerLogic is Modified
+##### SuperOffice.Data.Private.FreetextIndexerLogic is Modified
 
 * Deleted items
   * Method `GetWordsFromString(String, Boolean)`
 * New items
   * Method `GetWordsFromString(String, Boolean, Boolean)`
 
-#### SuperOffice.Data.PrivateDbConnectionFactory is Modified
+##### SuperOffice.Data.PrivateDbConnectionFactory is Modified
 
 * Deleted items
   * Method `CreateExplicit(String, String, String, String)`
 * New items
   * Method `CreateExplicit(String, String)`
 
-#### SuperOffice.Data.SoDatabase is Modified
+##### SuperOffice.Data.SoDatabase is Modified
 
 * Deleted items
   * Method `ClearAllPools()`
   * Method `LogOut()`
 
-#### SuperOffice.Data.SoftTrigger is Modified
+##### SuperOffice.Data.SoftTrigger is Modified
 
 * Modified items
   * Method `SubscribeOnPostChange(Int32, OnChange)`
@@ -9221,7 +9205,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `UnsubscribeOnPostChange(String, OnChange)`
   * Method `UnsubscribeOnPreChange(String, OnChange)`
 
-#### SuperOffice.Data.TablesInfo is Modified
+##### SuperOffice.Data.TablesInfo is Modified
 
 * New items
   * Method `GetConfigurableScreenAppliesToTableInfo()`
@@ -9233,14 +9217,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `GetQuoteDenyReasonTableInfo()`
   * Method `GetTargetDimensionTableInfo()`
 
-#### SuperOffice.Security.ISoIdentityResolver is Modified
+##### SuperOffice.Security.ISoIdentityResolver is Modified
 
 * Deleted items
   * Method `ResolveIdentity(IList<SecurityToken>, SoConnection, String&)`
 * New items
   * Method `ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, String&)`
 
-#### SuperOffice.Security.Principal.DefaultTokenContextResolver is Modified
+##### SuperOffice.Security.Principal.DefaultTokenContextResolver is Modified
 
 * Deleted items
   * Method `TryResolveContext(SecurityToken[], String&)`
@@ -9251,14 +9235,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `TryResolveContextFromTicketClaim(IEnumerable<ClaimsIdentity>, String&)`
   * Method `TryResolveContextSoAccessTokenClaim(IEnumerable<ClaimsIdentity>, String&)`
 
-#### SuperOffice.Security.Principal.ISoIdentityValidator is Modified
+##### SuperOffice.Security.Principal.ISoIdentityValidator is Modified
 
 * Deleted items
   * Method `TryValidateIdentity(IList<SecurityToken>, ISoIdentity, SoConnection, String&)`
 * New items
   * Method `TryValidateIdentity(IEnumerable<ClaimsIdentity>, ISoIdentity, SoConnection, String&)`
 
-#### SuperOffice.Security.Principal.OidcSoIdentity is Modified
+##### SuperOffice.Security.Principal.OidcSoIdentity is Modified
 
 * Deleted items
   * Property `Source`
@@ -9268,14 +9252,14 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `OidcSoIdentity(Int32, String, String, Int32, String, String)`
 
-#### SuperOffice.Security.Principal.OidcSoIdentityResolver is Modified
+##### SuperOffice.Security.Principal.OidcSoIdentityResolver is Modified
 
 * Deleted items
   * Method `ResolveIdentity(IList<SecurityToken>, SoConnection, String&)`
 * New items
   * Method `ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, String&)`
 
-#### SuperOffice.Security.Principal.SoAccessTokenHelper is Modified
+##### SuperOffice.Security.Principal.SoAccessTokenHelper is Modified
 
 * Deleted items
   * Method `Decrypt(SoAccessTokenSecurityToken)`
@@ -9283,116 +9267,116 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `GetClaimsIdentity(SoAccessToken, String)`
   * Method `TryGetFromClaimsIdentity(ClaimsIdentity, SoAccessToken&)`
 
-#### SuperOffice.Security.Principal.SoCredentialsIdentity is Modified
+##### SuperOffice.Security.Principal.SoCredentialsIdentity is Modified
 
 * Deleted items
   * Property `Source`
 
-#### SuperOffice.Security.Principal.SoCredentialsIdentityResolver is Modified
+##### SuperOffice.Security.Principal.SoCredentialsIdentityResolver is Modified
 
 * Deleted items
   * Method `ResolveIdentity(IList<SecurityToken>, SoConnection, String&)`
 * New items
   * Method `ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, String&)`
 
-#### SuperOffice.Security.Principal.SoCredentialsIdentityValidator is Modified
+##### SuperOffice.Security.Principal.SoCredentialsIdentityValidator is Modified
 
 * Deleted items
   * Method `TryValidateIdentity(IList<SecurityToken>, ISoIdentity, SoConnection, String&)`
 * New items
   * Method `TryValidateIdentity(IEnumerable<ClaimsIdentity>, ISoIdentity, SoConnection, String&)`
 
-#### SuperOffice.Security.Principal.SoImpersonationIdentity is Modified
+##### SuperOffice.Security.Principal.SoImpersonationIdentity is Modified
 
 * Deleted items
   * Property `Source`
 
-#### SuperOffice.Security.Principal.SoImpersonationIdentityResolver is Modified
+##### SuperOffice.Security.Principal.SoImpersonationIdentityResolver is Modified
 
 * Deleted items
   * Method `ResolveIdentity(IList<SecurityToken>, SoConnection, String&)`
 * New items
   * Method `ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, String&)`
 
-#### SuperOffice.Security.Principal.SoImpersonationIdentityValidator is Modified
+##### SuperOffice.Security.Principal.SoImpersonationIdentityValidator is Modified
 
 * Deleted items
   * Method `TryValidateIdentity(IList<SecurityToken>, ISoIdentity, SoConnection, String&)`
 * New items
   * Method `TryValidateIdentity(IEnumerable<ClaimsIdentity>, ISoIdentity, SoConnection, String&)`
 
-#### SuperOffice.Security.Principal.SoWindowsIdentity is Modified
+##### SuperOffice.Security.Principal.SoWindowsIdentity is Modified
 
 * Deleted items
   * Property `Source`
 
-#### SuperOffice.Security.Principal.UserNameIdentity is Modified
+##### SuperOffice.Security.Principal.UserNameIdentity is Modified
 
 * Deleted items
   * Property `Source`
 
-#### SuperOffice.Security.Principal.UserNameIdentityResolver is Modified
+##### SuperOffice.Security.Principal.UserNameIdentityResolver is Modified
 
 * Deleted items
   * Method `ResolveIdentity(IList<SecurityToken>, SoConnection, String&)`
 * New items
   * Method `ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, String&)`
 
-#### SuperOffice.Security.Principal.UserNameIdentityValidator is Modified
+##### SuperOffice.Security.Principal.UserNameIdentityValidator is Modified
 
 * Deleted items
   * Method `TryValidateIdentity(IList<SecurityToken>, ISoIdentity, SoConnection, String&)`
 * New items
   * Method `TryValidateIdentity(IEnumerable<ClaimsIdentity>, ISoIdentity, SoConnection, String&)`
 
-#### SuperOffice.Security.Principal.WindowsIdentityResolver is Modified
+##### SuperOffice.Security.Principal.WindowsIdentityResolver is Modified
 
 * Deleted items
   * Method `ResolveFilteredIdentity(IList<SecurityToken>, SoConnection, AcceptToken)`
 
-##### SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken is Deleted
+###### SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken is Deleted
+
 * New items
   * Method `ResolveFilteredIdentity(IEnumerable<ClaimsIdentity>, SoConnection, AcceptIdentity)`
 
-##### SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptIdentity is New
+###### SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptIdentity is New
 
-#### SuperOffice.Security.Principal.WindowsIdentityValidator is Modified
+##### SuperOffice.Security.Principal.WindowsIdentityValidator is Modified
 
 * Deleted items
   * Method `TryValidateIdentity(IList<SecurityToken>, ISoIdentity, SoConnection, String&)`
 * New items
   * Method `TryValidateIdentity(IEnumerable<ClaimsIdentity>, ISoIdentity, SoConnection, String&)`
 
-#### SuperOffice.Security.Principal.WindowsOtherIdentityResolver is Modified
+##### SuperOffice.Security.Principal.WindowsOtherIdentityResolver is Modified
 
 * Deleted items
   * Method `ResolveIdentity(IList<SecurityToken>, SoConnection, String&)`
 * New items
   * Method `ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, String&)`
 
-#### SuperOffice.Security.Principal.WindowsPersonIdentityResolver is Modified
+##### SuperOffice.Security.Principal.WindowsPersonIdentityResolver is Modified
 
 * Deleted items
   * Method `ResolveIdentity(IList<SecurityToken>, SoConnection, String&)`
 * New items
   * Method `ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, String&)`
 
-#### SuperOffice.Util.TargetHelper is Modified
+##### SuperOffice.Util.TargetHelper is Modified
 
 * Deleted items
   * Method `TargetPeriod(DateTime)`
 * New items
   * Method `TargetPeriod(DateTime, TargetPeriodType)`
 
+#### Assembly: SuperOffice.Plugins
 
-### Assembly: SuperOffice.Plugins
-
-### Deleted Types
+#### Deleted Types
 
 * `SuperOffice.Security.ISoSecurityTokenSupplier`
 * `SuperOffice.Security.SoSecurityTokenSupplierAttribute`
 
-### New Types
+#### New Types
 
 * `SuperOffice.CRM.IContactInfo3`
 * `SuperOffice.CRM.IPersonInfo3`
@@ -9410,33 +9394,33 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * `SuperOffice.Security.IImplicitIdentitySupplier`
 * `SuperOffice.Security.ImplicitIdentitySupplierAttribute`
 
-### Modified Types
+#### Modified Types
 
-#### SuperOffice.CRM.CRMQuoteConnectorCapabilities is Modified
+##### SuperOffice.CRM.CRMQuoteConnectorCapabilities is Modified
 
 * New items
   * Field `NoCacheImages`
   * Field `NoCacheQuotelists`
 
-#### SuperOffice.CRM.Globalization.CultureDataFormatter is Modified
+##### SuperOffice.CRM.Globalization.CultureDataFormatter is Modified
 
 * Modified items
   * Method `MapSuperOfficeLanguageToCulture(String)`
 
-#### SuperOffice.CRM.QuoteConnectorBase is Modified
+##### SuperOffice.CRM.QuoteConnectorBase is Modified
 
 * New items
   * Method `OnQuoteVersionApproved(QuoteVersionContextInfo)`
   * Method `OnQuoteVersionRejected(QuoteVersionContextInfo)`
   * Method `OnQuoteVersionRequestApproval(QuoteVersionContextInfo)`
 
-#### SuperOffice.CRM.QuoteVersionInfo is Modified
+##### SuperOffice.CRM.QuoteVersionInfo is Modified
 
 * New items
   * Property `RequestAssociateId`
   * Property `RequestComment`
 
-#### SuperOffice.CRM.UserInfo is Modified
+##### SuperOffice.CRM.UserInfo is Modified
 
 * Modified items
   * Property `AssociateId`
@@ -9452,23 +9436,20 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `RoleName`
   * Property `Ticket`
 
-#### SuperOffice.Factory.PluginFactory is Modified
+##### SuperOffice.Factory.PluginFactory is Modified
 
 * New items
   * Method `Remove(PluginInfo)`
 
-#### SuperOffice.Security.ISoSecurityTokenValidator is Modified
+##### SuperOffice.Security.ISoSecurityTokenValidator is Modified
 
 * Deleted items
   * Method `TryValidateTokens(IList<SecurityToken>, String&)`
 * New items
   * Method `TryValidateTokens(IEnumerable<ClaimsIdentity>, String&)`
 
-
-## Continuous Database
+### Continuous Database
 
 The following represent changes to SuperOffice database schema.
 
 No changes detected.
-
-
