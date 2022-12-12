@@ -21,13 +21,13 @@ In the **Consent** tab in the **Privacy** screen (![icon][img1]) you can [create
 
 For each purpose, a legal basis and source of consent must be documented (during import or in SuperOffice CRM for individual or multiple users).
 
-## Legal basis
+## <a id="legal-basis" />Legal basis
 
 You must document the legal basis for each purpose registered on a contact. In this list you add and maintain the list of legal bases that are used when editing the privacy settings for your contacts.
 
 Example: A person sends you a request via web form and clicks a "Subscribe to newsletter" option (or similar). This means that this person has given their consent to receive e-marketing from your company. So the legal basis is **Consent** for the purpose E-marketing.
 
-## Source
+## <a id="source" />Source
 
 Where and how did you obtain the consent from a contact? Examples: Email, chat, web form and customer portal.
 

@@ -28,4 +28,4 @@ If one of the recipients of an invitation chooses to delete the record from thei
 [2]: ../recurrence/stop.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-notice-small.png
+[img1]: ../../../media/icons/notice-small.png

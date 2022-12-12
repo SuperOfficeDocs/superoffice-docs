@@ -18,7 +18,7 @@ Common profiles are linked to a [role][2] and apply to all users who have that r
 * **System**: These profiles you can configure by following the procedure below.
 * **System screens**: A list of screens created using the [system designers][1] in SuperOffice Service. You can change these if you have access to **System design** > **Screens**.
 
-## Create common profiles
+## <a id="create" />Create common profiles
 
 As an example, the following steps show how to add a field in the **Find requests** screen.
 
@@ -65,4 +65,4 @@ As an example, the following steps show how to add a field in the **Find request
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/globalmenu-settings-small.png
+[img2]: ../../../../media/icons/settings-small.png

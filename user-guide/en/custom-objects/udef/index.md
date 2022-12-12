@@ -18,7 +18,7 @@ All companies and organizations have their own requirements for the information 
 > [!NOTE]
 > You can specify 3 fields that can be displayed on the "first page" in their respective screens or dialogs. [How][1].
 
-## Field types
+## <a id="field-types" />Field types
 
 [!include[List of field types](includes/field-types.md)]
 
@@ -89,7 +89,7 @@ You can then add these fields to the **Project** screen:
 <!-- Referenced links -->
 [1]: page-1-fields.md
 [2]: ../../settings/lists/adding-user-defined-lists.md
-[3]: ../../project/screen/index.md#more
+[3]: ../../project/screen/index.md#more-tab
 [4]: ../../diary/screen/dialog-for-followups.md
 [5]: ../../document/screen/index.md
 [6]: ../../company/create.md#more-tab

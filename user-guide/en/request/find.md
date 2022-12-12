@@ -95,7 +95,7 @@ Once you have a list of requests using one of the methods above, you will be in 
 
 * **Preview**: Displays the contents of the request selected under **Find requests**.
 
-### Result
+### <a id="result" />Result
 
 Contains a list of requests that match the criteria specified above. Here you can:
 
@@ -135,4 +135,4 @@ If the preview section is not visible, click the ![icon][img1] menu button in th
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png
-[img2]: ../../media/icons/globalmenu-personalsettings-small.png
+[img2]: ../../media/icons/personal-settings-small.png

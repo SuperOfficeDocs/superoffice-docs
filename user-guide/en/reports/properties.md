@@ -28,7 +28,7 @@ language: en
     * The thumbnail in the top right corner changes according to the [type of report][4] you selected.
 
 <!-- Referenced links -->
-[1]: standard-reports.md#types
+[1]: standard-reports.md#type
 [2]: search-criteria/index.md
 [3]: screen/index.md#criteria
 [4]: index.md#report-types

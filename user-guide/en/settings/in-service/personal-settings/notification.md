@@ -43,5 +43,5 @@ You can receive notifications of the following events in SuperOffice Service.
 [2]: ../../../request/priority/escalation-levels.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-settings-small.png
-[img2]: ../../../../media/icons/globalmenu-notice-new.png
+[img1]: ../../../../media/icons/settings-small.png
+[img2]: ../../../../media/icons/notice-new.png

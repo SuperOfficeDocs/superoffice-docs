@@ -23,7 +23,7 @@ To create a global profile, follow the instructions to [create a common profile]
 * [Common profiles][3]
 
 <!-- Referenced links -->
-[1]: common.md#create-common-profiles
+[1]: common.md#create
 [2]: personal.md
 [3]: common.md
 

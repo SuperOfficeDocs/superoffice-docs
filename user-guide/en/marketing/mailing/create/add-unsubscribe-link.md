@@ -51,7 +51,7 @@ Based on the feedback from the recipients, the subscription preferences are upda
 >
 > You do, however, have the possibility to override "no consent / no subscription" settings, from **Options** in the lower part of the **Recipients** screen (see Step 4: Recipients).
 
-## Clear interests in SuperOffice CRM
+## <a id="clear-interests" />Clear interests in SuperOffice CRM
 
 In SuperOffice CRM, you can register interests (such as "Monthly newsletter") to contacts. These interests can be used as a basis for various kinds of mailings. Instead of using unsubscribe, you can easily clear a particular interest, such as monthly newsletter, from customers who do not want to receive it.
 

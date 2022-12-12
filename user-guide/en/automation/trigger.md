@@ -57,4 +57,4 @@ You have now created a macro that sends an email with "Request closed" to the cu
 
 <!-- Referenced images -->
 [img1]: ../../../common/icons/gearblack.png
-[img2]: ../../media/icons/globalmenu-settings-small.png
+[img2]: ../../media/icons/settings-small.png

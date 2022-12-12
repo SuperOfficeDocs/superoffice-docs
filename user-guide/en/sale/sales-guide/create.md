@@ -65,7 +65,7 @@ Once you have created stages and specified a sale type for the sales guide, you 
 
 The changes are saved automatically. The sales guide will now be displayed in SuperOffice CRM when a sale is created with the sale type selected in step B.
 
-## Add a follow-up for a stage
+## <a id="add-fo-stage" />Add a follow-up for a stage
 
 <details><summary>Click here for an example of a follow-up</summary>
 
@@ -85,7 +85,7 @@ Agenda for first meeting:
 \- Other
 </details>
 
-**To add follow-ups to a stage:**
+**Steps:**
 
 1. Select the required sale type and stage as described above.
 
@@ -115,7 +115,7 @@ Agenda for first meeting:
 
 11. Repeat this procedure to add more follow-ups in this or other stages.
 
-## Add a document for a stage
+## <a id="add-doc-stage" />Add a document for a stage
 
 <details><summary>Click here for an example of a document</summary>
 
@@ -127,7 +127,7 @@ Agenda for first meeting:
 **Default subject**: Meeting confirmation (first meeting)
 </details>
 
-**To add documents to a stage:**
+**Steps:**
 
 1. Select the required sale type and stage as described above.
 

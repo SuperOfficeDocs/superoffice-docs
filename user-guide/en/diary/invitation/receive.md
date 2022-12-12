@@ -92,7 +92,7 @@ Click **Close** to close the dialog.
 [4]: response.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-notice-new.png
+[img1]: ../../../media/icons/notice-new.png
 [img2]: media/invitation.bmp
 [img3]: ../../../../common/icons/check-black.png
 [img4]: ../../../../common/icons/reject-appointment-icon.png

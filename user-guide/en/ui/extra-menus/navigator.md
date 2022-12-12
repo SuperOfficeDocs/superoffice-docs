@@ -46,4 +46,4 @@ To illustrate this functionality, we will add a new navigator group in the navig
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../media/icons/globalmenu-settings-small.png
+[img2]: ../../../media/icons/settings-small.png

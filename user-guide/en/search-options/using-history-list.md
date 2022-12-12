@@ -39,6 +39,6 @@ You can use the history list in different ways:
 [1]: ../getting-started/preferences.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-personalsettings-small.png
+[img1]: ../../media/icons/personal-settings-small.png
 [img2]: ../../../common/icons/nav-history.png
 [img3]: ../../../common/icons/dropdown-icon.png

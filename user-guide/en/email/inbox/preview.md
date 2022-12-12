@@ -36,10 +36,10 @@ The **Preview** tab contains the following fields:
 
 <!-- Referenced links -->
 [1]: manage-senders.md
-[2]: archive.md#attachments
+[2]: archive.md#attachment
 [3]: invitations.md
 [4]: create-task.md
 [5]: create-request.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-personalsettings-small.png
+[img1]: ../../../media/icons/personal-settings-small.png

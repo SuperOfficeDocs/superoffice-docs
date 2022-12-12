@@ -28,8 +28,8 @@ language: en
     The changes are saved automatically.
 
 <!-- Referenced links -->
-[1]: create.md#add-a-document-for-a-status
-[2]: create.md#add-a-follow-up-for-a-status
+[1]: create.md#add-doc-status
+[2]: create.md#add-fo-status
 [3]: ../../settings/lists/project-status.md
 
 <!-- Referenced images -->

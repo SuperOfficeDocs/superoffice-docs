@@ -61,7 +61,7 @@ To create a role for associates in the company or for external users:
 
     The changes are saved automatically.
 
-## In Service
+## <a id="service" />In Service
 
 1. Select ![icon][img3] **System settings** > **Roles**.
 
@@ -114,5 +114,5 @@ To create a role for associates in the company or for external users:
 [img5]: ../../../media/icons/arrow-down.png
 [img1]: ../../../media/icons/arrow-left.png
 [img2]: ../../../media/icons/arrow-right.png
-[img3]: ../../../media/icons/globalmenu-settings-small.png
+[img3]: ../../../media/icons/settings-small.png
 [img4]: ../../../media/icons/btn-add.png

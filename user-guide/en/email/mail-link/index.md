@@ -45,6 +45,6 @@ These buttons appear on the Microsoft Outlook or Lotus Notes toolbar:
 [4]: settings/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/maillink/archive-to-superoffice-crm.png
-[img2]: ../../../media/icons/maillink/search-for-sender-in-superoffice-crm.png
+[img1]: ../../../media/icons/mail-link/archive-to-superoffice-crm.png
+[img2]: ../../../media/icons/mail-link/search-for-sender-in-superoffice-crm.png
 [img3]: media/superoffice-button.png

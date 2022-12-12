@@ -56,4 +56,4 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 [2]: ../../search-options/in-service/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../media/icons/settings-small.png

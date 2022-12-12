@@ -86,7 +86,7 @@ In the **Agents** tab you can give users access to a chat channel and what permi
     * **Manager**: The agent will get manager warnings. This permission can for example be used for team leaders.
 4. Repeat steps 1-3 for each agent you want to add.
 
-## ChatBot
+## <a id="chatbot" />ChatBot
 
 In the **ChatBot** tab you can activate the chatbot. When a chat is initiated on a channel where a chatbot is active, the "on-new-chat-message" script is triggered, and the message is passed to the script for processing. The script sends the message for processing, and receives the message, posts the results, and possibly marks the message for hand-off to an agent.
 
@@ -150,7 +150,7 @@ Yes, but make sure that the chat channel is not being used on a website. Otherwi
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../media/icons/settings-small.png
 [img2]: ../../../../common/icons/nav-admin-chat-active.png
 [img3]: ../../media/chat-badge-example.png
 [img4]: ../../../../common/icons/mandatory.png

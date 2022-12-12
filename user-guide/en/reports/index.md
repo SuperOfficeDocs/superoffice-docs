@@ -23,7 +23,7 @@ Open the **Reports** screen by clicking the **Reports** button ![icon][img7] in 
 > [!TIP]
 > You can go directly to a specific tab in the **Reports** screen by clicking the word **Reports** next to the **Reports** button and then selecting from the list.
 
-## Report types
+## <a id="types" />Report types
 
 | Icon | Name | Description |
 |---|---|---|
@@ -60,10 +60,10 @@ Open the **Reports** screen by clicking the **Reports** button ![icon][img7] in 
 [8]: delete-from-archive.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/reports/rep-label.bmp
-[img2]: ../../media/icons/reports/rep-list.bmp
-[img3]: ../../media/icons/reports/rep-grouplist.bmp
-[img4]: ../../media/icons/reports/rep-calendar.bmp
-[img5]: ../../media/icons/reports/rep-crosstable.bmp
-[img6]: ../../media/icons/reports/rep-textexport.bmp
+[img1]: ../../media/icons/reports/label.bmp
+[img2]: ../../media/icons/reports/list.bmp
+[img3]: ../../media/icons/reports/group-list.bmp
+[img4]: ../../media/icons/reports/calendar.bmp
+[img5]: ../../media/icons/reports/cross-table.bmp
+[img6]: ../../media/icons/reports/text-export.bmp
 [img7]: ../../../common/icons/nav-reports.png

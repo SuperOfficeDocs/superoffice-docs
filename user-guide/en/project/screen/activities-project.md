@@ -65,5 +65,5 @@ The second column contains icons that indicate the type of activity, for example
 
 <!-- Referenced images -->
 [img1]: media/project-activities.bmp
-[img2]: ../../../media/icons/utfoert.bmp
-[img3]: ../../../media/icons/salg-solgt-detaljkort.bmp
+[img2]: ../../../media/icons/check.bmp
+[img3]: ../../../media/icons/sale-sold-details.bmp

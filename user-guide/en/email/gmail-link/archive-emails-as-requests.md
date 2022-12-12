@@ -43,4 +43,4 @@ You can create a request in SuperOffice Service based on an email in your Gmail 
 [6]: archive-emails-as-activities.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/gmaillink/btn-archive-more.png
+[img1]: ../../../media/icons/gmail-link/btn-archive-more.png

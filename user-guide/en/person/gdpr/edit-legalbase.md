@@ -14,7 +14,7 @@ language: en
 > [!NOTE]
 > This feature requires functional rights. Without the proper functional rights, you can only set **E-marketing** to on or off.
 
-[!include[Need concent](../includes/why-consent.md)]
+[!include[Need concent](../../includes/why-consent.md)]
 
 ## Definitions
 

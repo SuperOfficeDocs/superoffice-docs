@@ -70,5 +70,5 @@ Overlapping follow-ups are displayed in the **Diary** screen so that you can see
 [5]: invitation/add-participant.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-personalsettings-small.png
+[img1]: ../../media/icons/personal-settings-small.png
 [img2]: ../../../common/icons/warning-red.png

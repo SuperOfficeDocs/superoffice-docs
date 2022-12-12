@@ -53,4 +53,4 @@ We will now create a macro based on the example above.
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png
-[img2]: ../../media/icons/globalmenu-settings-small.png
+[img2]: ../../media/icons/settings-small.png

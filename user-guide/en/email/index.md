@@ -19,7 +19,7 @@ The inbox feature in SuperOffice CRM will depend on the SuperOffice client and e
 
 <!-- Referenced links -->
 [1]: inbox/index.md
-[2]: gmaillink/index.md
-[3]: maillink/index.md
+[2]: gmail-link/index.md
+[3]: mail-link/index.md
 
 <!-- Referenced images -->

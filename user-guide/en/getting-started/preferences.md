@@ -50,4 +50,4 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 [img9]: ../../../common/icons/pref-sorting-h32.png
 [img10]: ../../../common/icons/pref-system-h32.png
 [img11]: ../../../common/icons/pref-visualeffects-h32.png
-[img12]: ../../media/icons/globalmenu-personalsettings-small.png
+[img12]: ../../media/icons/personal-settings-small.png

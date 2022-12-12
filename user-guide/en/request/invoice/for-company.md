@@ -32,7 +32,7 @@ When processing requests, you have the option of [registering invoice data][1] a
 4. Click **Return to company** to go back to the **View company** screen.
 
 <!-- Referenced links -->
-[1]: ../howto/create.md#invoice-information
+[1]: ../howto/create.md#invoice
 [2]: index.md
 
 <!-- Referenced images -->

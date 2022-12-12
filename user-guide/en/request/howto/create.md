@@ -82,7 +82,7 @@ Here you enter information to correctly assign and prioritize the request.
 
 * Automatically add message recipients as request contacts: This checkbox is selected by default for new requests, so any recipients you add in the **To** field when creating the request, will also be added as contacts for the request. The contacts are added when you click **OK**.
 
-## Message
+## <a id="message" />Message
 
 > [!NOTE]
 > To send the message to someone, add recipients in the **To** field above the tabs. To make the message available for the contact via SuperOffice Customer Centre, set the access level (for the message) to **External**.
@@ -103,7 +103,7 @@ The section at the bottom contains the following options:
 > [!NOTE]
 > The default request signature will be added to the message. You can edit the signature directly or
 
-## Invoice information
+## <a id="invoice" />Invoice information
 
 > [!NOTE]
 > The invoice feature is only available if you have registered [invoice types][8] and have the required feature toggle.

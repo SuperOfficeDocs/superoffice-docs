@@ -20,4 +20,4 @@ To use Settings and maintenance in another language:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-personalsettings-small.png
+[img1]: ../../media/icons/personal-settings-small.png

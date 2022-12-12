@@ -50,4 +50,4 @@ The categories are arranged in a tree structure.
 [6]: ../find.md#category
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../media/icons/settings-small.png

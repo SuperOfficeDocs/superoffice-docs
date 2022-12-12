@@ -10,4 +10,4 @@
   * **Campaign**: Enter the type of mailing, such as "newsletter" or "lead-nurturing", or enter a specific campaign name such as "spring-sale-june-21" or "upgrade-campaign-v9".
 
 <!-- Referenced links -->
-[1]: ../../../tracked-links/index.md#google-analytics
+[1]: ../../../tracked-links/index.md#google

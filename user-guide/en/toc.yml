@@ -177,7 +177,7 @@ items:
       - name: Configure SOAP interface
         href: settings/configure-soap.md
       - name: Log off users
-        href: win-client/logging-users-off.md
+        href: ../win-client/logging-users-off.md
 
   - name: Administration and system settings
     topicHref: license/index.yml

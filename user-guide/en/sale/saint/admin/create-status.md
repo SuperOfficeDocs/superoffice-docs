@@ -74,6 +74,6 @@ If a company, contact or project has several active statuses, the lower priority
 <!-- Referenced images -->
 [img2]: ../../../../../common/icons/az.png
 [img3]: ../../../../media/icons/admin/visualiser.bmp
-[img4]: ../../../../media/icons/admin/roedt-kryss.bmp
+[img4]: ../../../../media/icons/admin/red-x.bmp
 [img5]: ../../../../media/icons/arrow-up.png
 [img6]: ../../../../media/icons/arrow-down.png

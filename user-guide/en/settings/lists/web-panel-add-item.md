@@ -1,7 +1,7 @@
 ---
 uid: help-en-adding-items-to-web-panel-list
-title: Adding items to the Web panel list
-description: Adding items to the Web panel list
+title: Adding items to the web panel list
+description: Adding items to the web panel list
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

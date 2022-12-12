@@ -21,7 +21,7 @@ After registering a sale in SuperOffice CRM, it is quick and easy to create a qu
 4. [Send the quote][4].
 5. When the customer accepts the quote, you can [place the order][5].
 
-## Status
+## <a id="status" />Status
 
 [!include[Table showing quote states](includes/table-quote-states.md)]
 

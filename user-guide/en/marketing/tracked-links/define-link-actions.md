@@ -39,7 +39,7 @@ In the **Set field** tab, you can specify that a value should be added to an ext
 
 Select a field in the **Set extra field** list box and enter a value in the **Value** field.
 
-## Interests
+## <a id="interest" />Interests
 
 Here you can specify that a link click should add or remove interests for the contact. For example, you could add the "Product news" interest if the recipient clicks the "Yes, please keep me informed about new products" link. Alternatively, you could remove the "Product news" interest if the user clicks the "Unsubscribe" link in a newsletter.
 
@@ -92,7 +92,7 @@ In the **Script** tab, you can choose a script or macro to be run when the recip
 2. Click the **Script** list and select the required script from the list that appears. The following variables are available in the script: custId, linkId, shipmentId, linkUrl and linkHits. You can also use the returnUrl variable to override the specified link URL.
 
 <!-- Referenced links -->
-[1]: ../mailing/create/add-unsubscribe-link.md#clear-interests-in-superoffice-crm
+[1]: ../mailing/create/add-unsubscribe-link.md#clear-interests
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-contact.png

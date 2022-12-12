@@ -20,4 +20,4 @@ language: en
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../media/icons/settings-small.png

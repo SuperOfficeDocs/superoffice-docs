@@ -47,4 +47,4 @@ Do one of the following:
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png
-[img2]: ../../media/icons/globalmenu-personalsettings-small.png
+[img2]: ../../media/icons/personal-settings-small.png

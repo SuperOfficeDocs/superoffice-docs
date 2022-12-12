@@ -11,7 +11,7 @@ language: en
 
 # Create reply template
 
-1. Select **Knowledge Base > Reply templates**.
+1. Select **Knowledge Base** > **Reply templates**.
 
 2. Go to the folder you want to put the reply template in. If it does not yet exist, you can [create a new folder][2].
 
@@ -81,7 +81,7 @@ Apart from the layout/formatting of the reply template, it must contain the foll
 [[ENDIF]]
 ```
 
-## <a id="autofaq" />Automatic FAQ reply
+## <a id="faq" />Automatic FAQ reply
 
 SuperOffice Service comes with a set of reply templates. Among these reply templates you will find "Example of an automated FAQ response". This reply template contains an example of automation of replies to the customer, in the **HTML text** tab.
 
@@ -105,4 +105,4 @@ You can select the degree of correlation between the request from the customer a
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/delete-red.png
-[img2]: ../../../media/icons/globalmenu-settings-small.png
+[img2]: ../../../media/icons/settings-small.png

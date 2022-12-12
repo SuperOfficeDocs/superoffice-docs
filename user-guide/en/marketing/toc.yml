@@ -8,7 +8,7 @@ items:
 - name: Work with marketing
   items:
   - name: Add favorites
-    href: add-favourites.md
+    href: add-fav.md
   - name: Create folder
     href: create-folder.md
   - name: Add images

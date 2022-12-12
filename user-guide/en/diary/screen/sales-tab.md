@@ -58,8 +58,8 @@ The **Sales** section tab in the diary functions as a kind of "sales secretary" 
 [4]: ../../sale/stages.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/salg-solgt-detaljkort.bmp
-[img2]: ../../../media/icons/salg-tapt-detaljkort.bmp
+[img1]: ../../../media/icons/sale-sold-details.bmp
+[img2]: ../../../media/icons/sale-lost-details.bmp
 [img3]: ../../../../common/icons/salestalled.png
 [img4]: media/sales-detail.bmp
-[img5]: ../../../media/icons/globalmenu-personalsettings-small.png
+[img5]: ../../../media/icons/personal-settings-small.png

@@ -39,4 +39,4 @@ To edit your user settings, select ![icon][img1] > **Settings**.
 [9]: extra-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-personalsettings-small.png
+[img1]: ../../../../media/icons/personal-settings-small.png

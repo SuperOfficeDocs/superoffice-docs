@@ -40,7 +40,7 @@ It is generally very easy to add, edit and delete lists and items. Some lists, h
 [6]: relation.md
 [7]: resource.md
 [8]: application.md
-[9]: webpanel.md
+[9]: web-panel.md
 [10]: privacy-legal-base-add.md
 [11]: privacy-source-add.md
 [12]: ../../project/screen/project-status-admin.md

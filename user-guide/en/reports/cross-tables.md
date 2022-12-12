@@ -76,13 +76,13 @@ Saving reports as files works slightly differently for cross table reports than 
 [1]: properties.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-mainmenu-small.png
-[img2]: ../../media/icons/reports/rep-krysstabell-listeboks.bmp
-[img3]: ../../media/icons/reports/rep-krysstabell-kryss.bmp
-[img4]: ../../media/icons/reports/repweb-preview-plus.bmp
-[img5]: ../../media/icons/reports/repweb-preview-minus.bmp
-[img6]: ../../media/icons/reports/repweb-preview-asterisk.bmp
-[img7]: ../../media/icons/reports/repweb-preview-checkmark.bmp
-[img8]: ../../media/icons/reports/repweb-preview-cross.bmp
-[img9]: ../../media/icons/reports/rep-krysstabell-pilkryss.bmp
-[img10]: ../../media/icons/reports/rep-krysstabell-pilkryss-groent.bmp
+[img1]: ../../media/icons/mainmenu-small.png
+[img2]: ../../media/icons/reports/list-box.bmp
+[img3]: ../../media/icons/reports/black-x-2.bmp
+[img4]: ../../media/icons/reports/plus.bmp
+[img5]: ../../media/icons/reports/minus.bmp
+[img6]: ../../media/icons/reports/asterisk.bmp
+[img7]: ../../media/icons/reports/check.bmp
+[img8]: ../../media/icons/reports/black-x.bmp
+[img9]: ../../media/icons/reports/arrows-plus.bmp
+[img10]: ../../media/icons/reports/arrows-split-green.bmp

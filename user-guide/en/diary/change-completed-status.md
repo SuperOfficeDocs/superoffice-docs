@@ -37,7 +37,7 @@ When you consider that an activity is finished, you can mark it as completed.
 [2]: ../document/open.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/utfoert.bmp
-[img2]: ../../media/icons/salg-solgt-detaljkort.bmp
+[img1]: ../../media/icons/check.bmp
+[img2]: ../../media/icons/sale-sold-details.bmp
 [img3]: media/completed-activity.bmp
 [img4]: media/completed-activity-2.bmp
