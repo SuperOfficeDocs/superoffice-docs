@@ -57,9 +57,9 @@ items:
     topicHref: custom-objects/index.yml
     items:
     - name: Lists
-      href: lists/toc.yml
+      href: settings/lists/toc.yml
     - name: Preferences
-      href: preferences/toc.yml
+      href: settings/preferences/toc.yml
 
     - name: Privacy
       href: gdpr/privacy.md
@@ -116,7 +116,7 @@ items:
           href: project/project-guide/deactivate.md
 
     - name: Custom objects
-      href: custom-objects/toc.yml
+      href: settings/custom-objects/toc.yml
     - name: User interface
       href: ui/toc.yml
 
