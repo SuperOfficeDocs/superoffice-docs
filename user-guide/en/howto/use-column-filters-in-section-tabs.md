@@ -49,5 +49,5 @@ Click ![icon][img1] and **Reset** to reset the filter.
 
 <!-- Referenced images -->
 [img1]: ../../../common/icons/cog-wheel.png
-[img2]: ../../media/icons/btn-columnheaderfilter.png
+[img2]: ../../media/icons/column-header-filter.png
 [img3]: media/section-tab-filter-columns.png

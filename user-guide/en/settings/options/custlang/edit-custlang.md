@@ -48,7 +48,7 @@ language: en
 * [How SuperOffice Service selects the customer language for new contacts][2]
 
 <!-- Referenced links -->
-[1]: workwithexternacategories.md
-[2]: selectlanguage.md
+[1]: external-categories.md
+[2]: select-language.md
 
 <!-- Referenced images -->

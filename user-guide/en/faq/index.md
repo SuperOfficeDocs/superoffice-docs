@@ -17,7 +17,7 @@ FAQs are closely integrated with the request handling: customer enquiries will o
 
 ## What is the difference between an FAQ entry and a reply template?
 
-[!include[FAQ vs. reply template](../includes/faq-vs-replytemplate.md)]
+[!include[FAQ vs. reply template](../includes/faq-vs-reply-template.md)]
 
 ## What would you like to do now?
 

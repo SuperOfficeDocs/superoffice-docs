@@ -33,7 +33,7 @@ In the **Options** screen, you define settings that are valid for the whole syst
 [3]: number-allocation.md
 [4]: labels.md
 [5]: reports.md
-[6]: custlangs/index.md
+[6]: custlang/index.md
 [7]: ../../sale/saint/index.md
 
 <!-- Referenced images -->

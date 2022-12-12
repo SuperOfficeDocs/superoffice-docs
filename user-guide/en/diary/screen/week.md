@@ -26,4 +26,4 @@ Along the left-hand edge of the **Week** tab, there are hourly intervals. You ca
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
-[img2]: media/weekplan.bmp
+[img2]: media/week-plan.bmp

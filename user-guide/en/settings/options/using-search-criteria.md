@@ -143,7 +143,7 @@ To change a search criterion in the **Find** dialog, click it and select a diffe
 [img1]: ../../../media/icons/arrow-right.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../../common/icons/dropdown-icon.png
-[img4]: ../../../media/icons/btn-selectall.png
+[img4]: ../../../media/icons/select-all.png
 [img5]: ../../../media/icons/admin/status-active.bmp
 [img6]: ../../../media/icons/admin/status-inactive.bmp
 [img7]: ../../../media/icons/admin/saint-counter-company.bmp

@@ -38,5 +38,5 @@ language: en
 [6]: web-tools.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/followup-notcompleted-small.png
+[img1]: ../../media/icons/followup-not-completed-small.png
 [img2]: ../../media/icons/followup-completed-small.png

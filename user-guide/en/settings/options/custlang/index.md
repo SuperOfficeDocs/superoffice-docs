@@ -30,8 +30,8 @@ On installation, 6 customer language folders (DE, DK, EN, NL, NO and SE) were pl
 * [Work with external categories][3]
 
 <!-- Referenced links -->
-[1]: editcustlang.md
-[2]: selectlanguage.md
-[3]: workwithexternacategories.md
+[1]: edit-custlang.md
+[2]: select-language.md
+[3]: external-categories.md
 
 <!-- Referenced images -->

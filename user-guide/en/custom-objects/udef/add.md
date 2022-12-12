@@ -76,5 +76,5 @@ Four of each type of field (Short text, Long text, Number, Decimal) are searchab
 [6]: index.md#field-types
 
 <!-- Referenced links -->
-[img1]: ../../../media/icons/admin/fields-unpubl-new.png
-[img2]: ../../../media/icons/admin/fields-unpubl-changed.png
+[img1]: ../../../media/icons/admin/fields-unpublish-new.png
+[img2]: ../../../media/icons/admin/fields-unpublish-changed.png

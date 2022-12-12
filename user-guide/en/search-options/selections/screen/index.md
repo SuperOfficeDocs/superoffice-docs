@@ -93,5 +93,5 @@ Double-click a mailing to open it.
 [img2]: ../../../../media/icons/arrow-left.png
 [img4]: ../../../../media/icons/personal-settings-small.png
 [img5]: ../../../../media/icons/refresh.png
-[img7]: ../../../../media/icons/btn-columnheaderfilter.png
+[img7]: ../../../../media/icons/column-header-filter.png
 [img6]: ../../../media/task.png

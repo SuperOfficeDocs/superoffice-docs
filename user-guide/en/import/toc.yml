@@ -6,7 +6,7 @@ items:
   - name: Import from Outlook
     href: import-from-outlook.md
   - name: Import from Mac address book
-    href: import-from-mac-addressbook.md
+    href: import-from-mac-address-book.md
   - name: Import from Gmail
     href: import-from-gmail.md
   - name: Import from ERP

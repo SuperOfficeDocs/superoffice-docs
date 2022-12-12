@@ -23,4 +23,4 @@ At the bottom left of the **Day** tab is a field for selecting a [time zone][1],
 [1]: ../../globalization/time-zones.md
 
 <!-- Referenced images -->
-[img1]: media/dayplan.bmp
+[img1]: media/day-plan.bmp

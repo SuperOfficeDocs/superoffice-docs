@@ -44,7 +44,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [7]: ../../email/service/index.md
 [8]: ../../request/screen/system-templates.md
 [9]: system.md
-[10]: ../../settings/options/custlangs/index.md
+[10]: ../../settings/options/custlang/index.md
 [11]: ../../customer-center/config.md
 [12]: ../../customer-center/edit.md
 [13]: ../../chat/admin/index.md

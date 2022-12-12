@@ -178,6 +178,6 @@ This tab displays any [custom fields][14] configured in SuperOffice Settings and
 [img2]: ../../../../common/icons/dropdown-icon.png
 [img3]: ../../../../common/icons/videocall-off.png
 [img4]: ../../../../common/icons/videocall.png
-[img5]: ../../../media/icons/followup-notcompleted.png
+[img5]: ../../../media/icons/followup-not-completed.png
 [img6]: ../../../media/icons/followup-completed.png
 [img7]: ../../../../common/icons/diary-participants.png

@@ -51,4 +51,4 @@ The request IDs that were overwritten will no longer be available in favorites a
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/btn-selectall.png
+[img2]: ../../../media/icons/select-all.png

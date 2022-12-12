@@ -49,6 +49,6 @@ Example: The internal category "Support" can then have an external category for 
 * [Work with customer languages][1]
 
 <!-- Referenced links -->
-[1]: editcustlang.md
+[1]: edit-custlang.md
 
 <!-- Referenced images -->

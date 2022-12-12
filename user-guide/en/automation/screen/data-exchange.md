@@ -80,7 +80,7 @@ This screen is used to edit the properties of a field connected to an agent. The
 
 | Element | Description |
 |---|---|
-| Field names | A list of database field names that are read-only in the interface, for example cust-company.name. |
+| Field names | A list of database field names that are read-only in the interface, for example 'cust-company.name'. |
 
 <!-- Referenced links -->
 

@@ -24,5 +24,5 @@ Click the mailing in the list to [view sending status and statistics][1].
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../media/btn-sendnow.png
+[img1]: ../media/send-now.png
 [img2]: ../../../../../media/icons/btn-menu.png

@@ -48,11 +48,11 @@ items:
 - name: Reports
   href: reports.md
 - name: Customer languages
-  href: custlangs/index.md
+  href: custlang/index.md
   items:
   - name: Create and edit customer languages
-    href: custlangs/editcustlang.md
+    href: custlang/edit-custlang.md
   - name: Select customer language
-    href: custlangs/selectlanguage.md
+    href: custlang/select-language.md
   - name: Work with external categories
-    href: custlangs/workwithexternacategories.md
+    href: custlang/external-categories.md

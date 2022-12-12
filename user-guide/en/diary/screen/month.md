@@ -23,4 +23,4 @@ To open the **Day** tab for a particular day, click the header/date.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/monthplan.bmp
+[img1]: media/month-plan.bmp

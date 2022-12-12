@@ -1,5 +1,5 @@
 ---
-uid: help-en-import-from-mac-addressbook
+uid: help-en-import-from-mac-address-book
 title: Import from Mac Address book
 description: Import from Mac Address book
 author: SuperOffice RnD

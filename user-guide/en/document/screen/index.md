@@ -153,7 +153,7 @@ This tab displays any [user-defined fields][3] configured in SuperOffice Setting
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/icons/documentlock-editing.png
-[img3]: ../../../media/icons/documentlock-locked.png
+[img2]: ../../../media/icons/document-lock-editing.png
+[img3]: ../../../media/icons/document-lock-locked.png
 [img4]: ../../../media/icons/followup-completed-small.png
-[img5]: ../../../media/icons/followup-notcompleted-small.png
+[img5]: ../../../media/icons/followup-not-completed-small.png

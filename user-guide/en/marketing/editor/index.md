@@ -57,6 +57,6 @@ The text you enter will look like this:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/templateeditoverview.png
-[img2]: media/editor-sidepanel.png
+[img1]: media/template-edit-overview.png
+[img2]: media/editor-side-panel.png
 [img3]: old/media/template-edit-overview-old.png

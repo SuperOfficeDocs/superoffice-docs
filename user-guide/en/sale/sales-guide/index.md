@@ -29,4 +29,4 @@ You can preview documents and activities in the **Preview** view in the side pan
 [2]: working-with-sales-guide.md
 
 <!-- Referenced images -->
-[img1]: media/60-chap7-salesguide-first-meeting.bmp
+[img1]: media/sales-guide-first-meeting.bmp

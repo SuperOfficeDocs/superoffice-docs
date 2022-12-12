@@ -15,7 +15,7 @@ A reply template can for instance be a specific layout to implement on replies, 
 
 ## What is the difference between an FAQ entry and a reply template?
 
-[!include[FAQ vs. reply template](../../includes/faq-vs-replytemplate.md)]
+[!include[FAQ vs. reply template](../../includes/faq-vs-reply-template.md)]
 
 ## View a reply template
 
