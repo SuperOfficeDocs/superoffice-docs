@@ -116,12 +116,12 @@ items:
           href: project/project-guide/deactivate.md
 
     - name: Custom objects
-      href: settings/custom-objects/toc.yml
+      href: custom-objects/toc.yml
     - name: User interface
       href: ui/toc.yml
 
     - name: Options
-      href: options/toc.yml
+      href: settings/options/toc.yml
 
     - name: Chat
       href: chat/admin/index.md

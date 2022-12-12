@@ -54,7 +54,7 @@ items:
   - name: Time zones
     href: ../globalization/time-zones.md
   - name: Language support in Mobile CRM
-    href: index.md
+    href: ../settings/index.md
 
 - name: Create/copy shortcut
   href: ../win-client/creating-shortcuts-to-entries-in-crm.md         
