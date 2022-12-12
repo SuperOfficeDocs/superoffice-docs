@@ -9,21 +9,23 @@ so.topic: help
 language: en
 ---
 
-# Edit layout
+# Edit layout - Main cards
 
-When you have [created a new layout][4], it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
+When you have created a new layout for main cards as described in [Add new layout][4], it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns on the main card. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
 
 **To edit a screen layout:**
 
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
 
-1. Select a layout in the list on the left side.
+2. Click **Main cards**.
 
-1. Click **Edit layout** below the preview. The **Edit card layout** window opens.
+3. Select a layout in the list on the left side.
 
-1. See the sections below for how to edit the layout.
+4. Click **Edit layout** below the preview. The **Edit card layout** window opens.
 
-1. When you have finished the screen layout, click one of the following buttons:
+5. See the sections below for how to edit the layout.
+
+6. When you have finished the screen layout, click one of the following buttons:
 
     * **Save draft**: Click this button if the layout is not finished yet.
     * **Save + Publish**: Click this button to publish the layout to the selected user groups.

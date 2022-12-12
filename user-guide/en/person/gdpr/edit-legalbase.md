@@ -49,7 +49,7 @@ This topic explains how you set the legal basis and source for the purposes call
 9. Click **Close** when you are done.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/learning/admin-guide/gdpr-privacy-settings/
+[1]: https://community.superoffice.com/en/learning/best-practices-tips/#gdpr
 [2]: ../../howto/bulk-update.md
 
 <!-- Referenced images -->

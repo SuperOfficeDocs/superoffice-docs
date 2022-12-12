@@ -9,11 +9,11 @@ so.topic: howto
 language: en
 ---
 
-# Using sales targets in tiles
+# Using targets in tiles
 
-If you have defined [sales targets][4] for your company, teams/groups and/or sales people, you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
+If you have defined [targets][4] for your company, teams/groups and/or sales people, you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
 
-To add a tile with sales targets to a dashboard:
+To add a tile with targets to a dashboard:
 
 1. Open the **Dashboard** screen.
 
@@ -57,8 +57,8 @@ To add a tile with sales targets to a dashboard:
 
 11. Edit the formatting. Depending on which chart type you have selected, you have additional options under **Formatting**:
 
-    * Big number: You can edit the colours used to display sales targets.
-    * Gauge chart: Use the option **Mark target at** to set the sales target on the gauge chart.
+    * Big number: You can edit the colours used to display targets.
+    * Gauge chart: Use the option **Mark target at** to set the target on the gauge chart.
 
 12. Click ![icon][img1] to [add a translation][3] to the tile name, titles and labels.
 
