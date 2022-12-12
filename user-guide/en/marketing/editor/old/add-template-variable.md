@@ -37,6 +37,6 @@ language: en
 [2]: ../../../../../docs/document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/btn-editor-edit.png
-[img2]: ../../../../media/icons/marketing-and-forms/btn-variable.png
-[img3]: media/editor-templatevar.jpg
+[img1]: ../../../../media/icons/marketing-and-forms/edit.png
+[img2]: ../../../../media/icons/marketing-and-forms/variable.png
+[img3]: media/editor-template-variable.jpg

@@ -13,6 +13,6 @@ A message is also displayed to explain the cause of the error.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/quote-status-ok.png
-[img2]: ../../../../media/icons/quote-status-okwithinfo.png
+[img2]: ../../../../media/icons/quote-status-ok-with-info.png
 [img3]: ../../../../../common/icons/warning.png
 [img4]: ../../../../media/icons/quote-status-error.png

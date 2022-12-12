@@ -5,13 +5,13 @@ items:
   href: product/index.md
   items:
   - name: Add price list
-    href: product/so-add-pricelist.md
+    href: product/so-add-price-list.md
   - name: Add product to price-list
-    href: product/so-add-product-to-pricelist.md
+    href: product/so-add-product-to-price-list.md
   - name: Select product image
     href: product/so-select-product-image.md
   - name: Quote delete deactivate price-list or product
-    href: product/quote-delete-deactivate-pricelist-or-product.md
+    href: product/quote-delete-deactivate-price-list-or-product.md
 - name: Settings
   href: quotesync-tab-settings.md
   items:

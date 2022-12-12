@@ -105,4 +105,4 @@ Since the option to create FAQ entries this way is only available to administrat
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-add.png
-[img2]: ../../media/icons/service/btn-spellcheck.png
+[img2]: ../../media/icons/service/spell-check.png

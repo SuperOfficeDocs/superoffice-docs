@@ -49,4 +49,4 @@ After a follow-up or document is created, you can delete or edit it by right-cli
 [img3]: media/guide-future-status.bmp
 [img4]: ../../../media/icons/milestone-icon.bmp
 [img5]: media/project-guide-create.bmp
-[img6]: media/project-guide-rightclick.bmp
+[img6]: media/project-guide-right-click.bmp

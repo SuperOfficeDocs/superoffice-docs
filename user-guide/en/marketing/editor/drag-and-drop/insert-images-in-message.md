@@ -72,5 +72,5 @@ Choose among millions of images from the royalty-free online image library.
 [2]: ../../tracked-links/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/editor-sidepanel-btn-content-small.png
-[img2]: ../../../../media/icons/marketing-and-forms/editor-sidepanel-btn-images-small.png
+[img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png

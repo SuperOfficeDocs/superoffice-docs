@@ -59,4 +59,4 @@ The text you enter will look like this:
 <!-- Referenced images -->
 [img1]: media/templateeditoverview.png
 [img2]: media/editor-sidepanel.png
-[img3]: old/media/templateeditoverview-old.png
+[img3]: old/media/template-edit-overview-old.png

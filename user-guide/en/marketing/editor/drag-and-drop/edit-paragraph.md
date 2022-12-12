@@ -81,9 +81,9 @@ Click **Next** if you are done editing.
 [8]: add-link-to-display-message-in-browser.md
 
 <!-- Referenced images -->
-[img1]: media/neweditor-section-edit.png
-[img2]: ../../../../media/icons/marketing-and-forms/editor-sidepanel-btn-body-small.png
-[img3]: ../../../../media/icons/marketing-and-forms/btn-editor-desktop.png
-[img4]: ../../../../media/icons/marketing-and-forms/btn-editor-mobile.png
-[img5]: media/newcontent-edit-toolbar-tempvar.png
-[img6]: ../../../../media/icons/marketing-and-forms/newbtn-link.png
+[img1]: media/edit-section.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
+[img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
+[img4]: ../../../../media/icons/marketing-and-forms/mobile.png
+[img5]: media/toolbar.png
+[img6]: ../../../../media/icons/marketing-and-forms/link.png

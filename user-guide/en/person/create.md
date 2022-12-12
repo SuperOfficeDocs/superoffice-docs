@@ -99,7 +99,7 @@ In the **Interests** tab you have the following options:
 [!include[Tip](../includes/tip-open-website.md)]
 
 <!-- Referenced links -->
-[7]: gdpr/edit-legalbase.md
+[7]: gdpr/edit-legal-base.md
 [8]: add-relation.md
 
 <!-- Referenced images -->

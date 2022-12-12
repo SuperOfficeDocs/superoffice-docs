@@ -26,4 +26,4 @@ If the recipient has problems displaying the message in their email program (may
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/newbtn-link.png
+[img1]: ../../../../media/icons/marketing-and-forms/link.png

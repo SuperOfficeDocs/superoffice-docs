@@ -86,5 +86,5 @@ This is an overview of special options in some of the available fields.
 
 <!-- Referenced images -->
 [img1]: ../../../common/icons/add-icon.png
-[img2]: ../../media/icons/marketing-and-forms/btn-editor-toolbar-showhide.png
+[img2]: ../../media/icons/marketing-and-forms/toolbar-show-hide.png
 [img3]: ../../../common/icons/pop-out-icon.png

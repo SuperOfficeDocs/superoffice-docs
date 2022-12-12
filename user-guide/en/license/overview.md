@@ -30,7 +30,7 @@ To log in to SuperOffice CRM from a Web or Windows client you need the following
 |---|---|
 | system | Specifies which systems you have access to. |
 | SuperOffice Server | Required to use SuperOffice CRM, SuperOffice Service and the other SuperOffice modules. |
-| Online WebServices | Required to access SuperOffice CRM, SuperOffice Service and the other SuperOffice modules from a web client. |
+| Online Web Services | Required to access SuperOffice CRM, SuperOffice Service and the other SuperOffice modules from a web client. |
 | Area Management | Allows the definition of areas in Settings and maintenance. |
 | Sales Intelligence | Allows [SAINT status monitors][2]. |
 | Exchange Synchronizer | Allows use of SuperOffice Synchronizer.

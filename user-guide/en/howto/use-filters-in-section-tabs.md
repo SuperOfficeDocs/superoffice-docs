@@ -33,6 +33,6 @@ The following filtering options are available in the section tabs:
 [4]: ../reports/filter.md
 
 <!-- Referenced images -->
-[img1]: media/sectiontab-filter-overview.png
+[img1]: media/section-tab-filter-overview.png
 [img2]: ../../../common/icons/filter-icon.png
 [img3]: ../../media/icons/filter-column.png

@@ -17,7 +17,7 @@ You can use FastSearcher in various ways:
 * You can search for companies, contacts, sales, projects and selections from within dialogs containing the relevant fields, for example, the **Appointment** and **Document** dialogs, to link them to the appointment or document.
 * You can search directly in the time zone selector to find the time zone for the required city or country.
 
-[!include[Examples of searches](includes/freextext-search-examples.md)]
+[!include[Examples of searches](includes/freetext-search-examples.md)]
 
 ## Using FastSearcher in the Navigator
 

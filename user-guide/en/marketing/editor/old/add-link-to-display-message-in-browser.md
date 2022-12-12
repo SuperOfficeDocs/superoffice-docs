@@ -33,6 +33,6 @@ If the recipient has problems displaying the message in their email program (may
 [1]: edit-paragraph.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/btn-editor-newpara.jpg
-[img2]: media/content-edit-toolbar-tempvar.png
-[img3]: ../../../../media/icons/marketing-and-forms/btn-variable.png
+[img1]: ../../../../media/icons/marketing-and-forms/new-para.jpg
+[img2]: media/content-edit-toolbar-template-variable.png
+[img3]: ../../../../media/icons/marketing-and-forms/variable.png

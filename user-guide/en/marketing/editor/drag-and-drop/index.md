@@ -111,14 +111,14 @@ When you click a section in a message, you get access to various functions for t
 [9]: add-merge-tag.md
 
 <!-- Referenced images -->
-[img1]: media/templateeditoverview-sidepanel.png
-[img2]: ../../../../media/icons/marketing-and-forms/newbtn-preview.png
-[img3]: ../../../../media/icons/marketing-and-forms/newbtn-desktop.png
-[img4]: ../../../../media/icons/marketing-and-forms/newbtn-mobile.png
-[img5]: ../../../../media/icons/marketing-and-forms/newbtn-addrow.png
-[img6]: ../../../../media/icons/marketing-and-forms/newbtn-editor-move.png
-[img7]: ../../../../media/icons/marketing-and-forms/newbtn-cancel.png
-[img8]: ../../../../media/icons/marketing-and-forms/newbtn-editor-copy.png
-[img9]: ../../../../media/icons/marketing-and-forms/newbtn-saveblock.png
-[img11]: ../../../../media/icons/marketing-and-forms/newbtn-editor-undo-redo.png
-[img12]: ../../../../media/icons/marketing-and-forms/editor-sidepanel-btn-body-small.png
+[img1]: media/edit-template.png
+[img2]: ../../../../media/icons/marketing-and-forms/preview.png
+[img3]: ../../../../media/icons/marketing-and-forms/desktop.png
+[img4]: ../../../../media/icons/marketing-and-forms/mobile-2.png
+[img5]: ../../../../media/icons/marketing-and-forms/add-row.png
+[img6]: ../../../../media/icons/marketing-and-forms/move-2.png
+[img7]: ../../../../media/icons/marketing-and-forms/cancel.png
+[img8]: ../../../../media/icons/marketing-and-forms/copy.jpg
+[img9]: ../../../../media/icons/marketing-and-forms/save-block.png
+[img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
+[img12]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png

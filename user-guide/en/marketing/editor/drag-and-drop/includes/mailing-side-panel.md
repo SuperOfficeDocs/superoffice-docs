@@ -14,9 +14,9 @@
 [2]: ../insert-images-in-message.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/marketing-and-forms/editor-sidepanel-btn-content.png
-[img2]: ../../../../../media/icons/marketing-and-forms/editor-sidepanel-btn-blocks.png
-[img3]: ../../../../../media/icons/marketing-and-forms/editor-sidepanel-btn-body.png
-[img4]: ../../../../../media/icons/marketing-and-forms/editor-sidepanel-btn-images.png
-[img5]: ../../../../../media/icons/marketing-and-forms/newbtn-saveblock.png
-[img6]: ../../../../../media/icons/marketing-and-forms/editor-sidepanel-btn-images-small.png
+[img1]: ../../../../../media/icons/marketing-and-forms/side-panel-content.png
+[img2]: ../../../../../media/icons/marketing-and-forms/side-panel-blocks.png
+[img3]: ../../../../../media/icons/marketing-and-forms/side-panel-body.png
+[img4]: ../../../../../media/icons/marketing-and-forms/side-panel-images.png
+[img5]: ../../../../../media/icons/marketing-and-forms/save-block.png
+[img6]: ../../../../../media/icons/marketing-and-forms/side-panel-images-small.png

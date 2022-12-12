@@ -20,4 +20,4 @@ To adjust mobile-specific settings for a message, select a section in the messag
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/btn-editor-mobile.png
+[img1]: ../../../../media/icons/marketing-and-forms/mobile.png

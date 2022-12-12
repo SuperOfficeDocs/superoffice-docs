@@ -55,4 +55,4 @@ You can create extra tables in SuperOffice Service to register different types o
 [img1]: ../../../media/icons/btn-add.png
 [img2]: ../../../media/icons/settings-small.png
 [img3]: ../../../../common/icons/nav-cs.png
-[img4]: ../../../media/icons/service/btn-newtable.png
+[img4]: ../../../media/icons/service/new-table.png

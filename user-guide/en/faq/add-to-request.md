@@ -27,6 +27,6 @@ When you respond to a customer enquiry, you can save time by inserting a link to
 [1]: ../request/howto/reply.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/service/btn-add-text.png
+[img1]: ../../media/icons/service/add-text.png
 [img2]: ../../../common/icons/folder.png
 [img3]: ../../media/icons/service/msg-toolbar.png

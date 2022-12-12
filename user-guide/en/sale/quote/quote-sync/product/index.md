@@ -47,9 +47,9 @@ Either you do not have access rights to the export function (see [Roles][4]), or
 * [Add products to a price list][1]
 
 <!-- Referenced links -->
-[1]: so-add-product-to-pricelist.md
-[2]: so-add-pricelist.md
-[3]: quote-delete-deactivate-pricelist-or-product.md
+[1]: so-add-product-to-price-list.md
+[2]: so-add-price-list.md
+[3]: quote-delete-deactivate-price-list-or-product.md
 [4]: ../../../../user-management/role/index.md
 [5]: ../../../../settings/preferences/index.md
 [6]: ../../../../howto/adjusting-views.md

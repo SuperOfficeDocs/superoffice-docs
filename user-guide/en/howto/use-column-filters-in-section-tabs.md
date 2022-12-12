@@ -50,4 +50,4 @@ Click ![icon][img1] and **Reset** to reset the filter.
 <!-- Referenced images -->
 [img1]: ../../../common/icons/cog-wheel.png
 [img2]: ../../media/icons/btn-columnheaderfilter.png
-[img3]: media/sectiontab-filter-columns.png
+[img3]: media/section-tab-filter-columns.png

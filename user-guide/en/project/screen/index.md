@@ -84,4 +84,4 @@ The lower part of the **Project** screen consists of section tabs.
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../media/project.bmp
 [img4]: media/project-more.bmp
-[img5]: ../../../media/icons/valgknapp.bmp
+[img5]: ../../../media/icons/select.bmp

@@ -37,7 +37,7 @@ items:
 - name: Privacy settings and GDPR
   items:
   - name: Edit privacy settings for a contact
-    href: gdpr/edit-legalbase.md
+    href: gdpr/edit-legal-base.md
   - name: Send privacy confirmation email
     href: gdpr/send-privacy-confirmation-email.md
   - name: Generate personal data report

@@ -31,4 +31,4 @@ language: en
 [2]: ../../../../../docs/document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img1]: media/neweditor-templatevar.png
+[img1]: media/template-variable.png

@@ -43,7 +43,7 @@ You can also click ![icon][img3] **Trace script** to start [tracing a script][2]
 [2]: tracing.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-executescript.png
+[img1]: ../../media/icons/run-script.png
 [img2]: ../../media/icons/settings-small.png
 [img3]: ../../media/icons/btn-script-trace-small.png
 [img4]: ../../../common/icons/bug.png

@@ -55,6 +55,6 @@ You insert an image in a message like this:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/marketing-and-forms/btn-editor-edit.png
-[img3]: ../../../../media/icons/marketing-and-forms/btn-resize.jpg
+[img2]: ../../../../media/icons/marketing-and-forms/edit.png
+[img3]: ../../../../media/icons/marketing-and-forms/resize.jpg
 [img5]: ../../../../../common/icons/folder.png

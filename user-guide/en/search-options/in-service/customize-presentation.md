@@ -87,5 +87,5 @@ Click the delete icon ![icon][img1] to the right of the required column. The col
 [img3]: ../../../../common/icons/settingstools.png
 [img6]: ../../../../common/icons/dropdown-arrow.png
 [img7]: ../../../media/icons/arrow-up.png
-[img8]: ../../../media/icons/service/btn-rankup.png
-[img9]: ../../../media/icons/service/btn-rankdown.png
+[img8]: ../../../media/icons/service/rank-up.png
+[img9]: ../../../media/icons/service/rank-down.png

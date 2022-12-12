@@ -51,6 +51,6 @@ language: en
 * [Add products to a price list][1]
 
 <!-- Referenced links -->
-[1]: so-add-product-to-pricelist.md
+[1]: so-add-product-to-price-list.md
 
 <!-- Referenced images -->

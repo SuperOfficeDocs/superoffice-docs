@@ -15,7 +15,7 @@ You can create your own templates to use when creating emails from SuperOffice C
 
 1. Create a new email using for example Outlook Express. If you use standard document template variables, enclosed them in braces like this: `{name}`.
 
-2. Save the file in *.oft* format, but set the extension to be *.somail*. For example, *mymail.somail*.
+2. Save the file in *.oft* format, but set the extension to be *.somail*. For example, *my-mail.somail*.
 
 3. Move the file to the *\so\_arc\template* folder.
 

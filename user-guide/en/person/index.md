@@ -34,7 +34,7 @@ Everything you want to find out about a contact is available from a single scree
 
 <!-- Referenced links -->
 [2]: create.md
-[3]: gdpr/edit-legalbase.md
+[3]: gdpr/edit-legal-base.md
 [4]: move.md
 [5]: merge-contacts.md
 [6]: delete.md

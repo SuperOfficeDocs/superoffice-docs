@@ -26,4 +26,4 @@ You have the following options:
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/edit.png
-[img3]: ../../../../media/icons/service/btn-statistics-group.png
+[img3]: ../../../../media/icons/service/statistics-group.png

@@ -18,7 +18,7 @@ In the **Reports** screen, you can [adjust the existing search criteria][1]. How
 > [!NOTE]
 > Search criteria in the **Field** list box are predefined and you can neither add to nor delete them. This can be done in SuperOffice Reporter Studio only.
 
-If you change the search criteria in a standard report, your changes are only temporary: If you move on to another standard report, the changes you made in the first one are lost. However, to keep the search criteria you entered, you can save the standard report whose criteria you amended as a [favourite report][3].
+If you change the search criteria in a standard report, your changes are only temporary: If you move on to another standard report, the changes you made in the first one are lost. However, to keep the search criteria you entered, you can save the standard report whose criteria you amended as a [favorite report][3].
 
 ## What would you like to do now?
 

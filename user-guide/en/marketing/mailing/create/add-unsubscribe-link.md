@@ -63,6 +63,6 @@ You do this by [creating a link that removes the interest][4] in question from r
 [4]: ../../tracked-links/define-link-actions.md#interests
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/newbtn-link.png
-[img1]: ../../../../media/icons/marketing-and-forms/btn-editor-newpara.jpg
-[img2]: ../../../../media/icons/marketing-and-forms/btn-link.png
+[img3]: ../../../../media/icons/marketing-and-forms/link.png
+[img1]: ../../../../media/icons/marketing-and-forms/new-para.jpg
+[img2]: ../../../../media/icons/marketing-and-forms/link.png

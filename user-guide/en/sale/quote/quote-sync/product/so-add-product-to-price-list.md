@@ -67,7 +67,7 @@ To find out which fields are displayed, go to the **Settings** tab and click **C
 </details>
 
 <!-- Referenced links -->
-[1]: so-add-pricelist.md
+[1]: so-add-price-list.md
 [2]: so-select-product-image.md
 [3]: settings-configure-product.md
 [4]: ../../../../settings/lists/adding-items.md

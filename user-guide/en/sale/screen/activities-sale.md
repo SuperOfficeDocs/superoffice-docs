@@ -68,5 +68,5 @@ A sales guide where all follow-ups and documents for all stages are displayed:
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.bmp
 [img2]: ../../../media/icons/sale-sold-details.bmp
-[img3]: media/79-chap7-activities-currentstage.bmp
-[img4]: media/80-chap7-activities-allstages.bmp
+[img3]: media/activities-current-stage.bmp
+[img4]: media/activities-all-stages.bmp
