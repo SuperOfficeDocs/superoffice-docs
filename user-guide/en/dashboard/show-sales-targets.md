@@ -3,7 +3,7 @@ uid: help-en-dashboard-tile-sales-targets
 title: Using sales targets in tiles
 description: Using sales targets in tiles
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 12.13.2022
 keywords: dashboard
 so.topic: howto
 language: en
@@ -11,9 +11,9 @@ language: en
 
 # Using targets in tiles
 
-If you have defined [targets][4] for your company, teams/groups and/or sales people, you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
+If [sales targets][4] are defined for your company, teams/groups and/or sales people, you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
 
-To add a tile with targets to a dashboard
+## Add tile with sales targets to dashboard
 
 1. Open the **Dashboard** screen.
 
@@ -49,24 +49,22 @@ To add a tile with targets to a dashboard
 10. In the **Layout** tab, edit the layout:
 
     * **Chart type**: Change this to any chart type listed in step 5.
-    * **Measure**: Select **Sum** or **Count**. This can for example be the sum of all sales or the total number (count) of all sales.
-    * **Of**: If you selected **Sum** in the previous step, select **Amount** or **Weighted amount**. If you selected **Count**, you must select **Sale ID** in this list.
-    * **By**: Select **Sale > Owner** (owner, full name or group) or **Sale > Sale date**. This option is only relevant for bar charts and column charts.
-    * **Grouping** or **Footer**: Select **Compare to target**. If this option is not visible or is inactive, double-check that you have completed the steps above. If you cannot select the option **Compare to target** (it is disabled), you can hover your mouse-pointer over the text. This will display a tooltip that explains what you need to change in order to enable and select the option.
-
-    * **Target**: Select the target you want to add to the tile. This option is not relevant for bar charts.
-    * **Show as %**: Select this option to show percentage of target instead of sums or counts. This option is not relevant for column charts and big numbers.
+    * **Measure**: Select **Sum** or **Count**. For example, the sum of all sales or the total number (count) of all sales.
+    * **Of**: If you selected **Count** above, select **Sale ID** in this list. If you selected **Sum**, select **Amount** or **Weighted amount**.
+    * **By**: Select **Sale > Owner** (owner, full name or group) or **Sale > Sale date**. This option is relevant for bar charts and column charts only.
+    * **Grouping** or **Footer**: Select **Compare to target**.
+      * If this option is not visible or is inactive, double-check that you have completed the steps above. If you cannot select the option **Compare to target** (it is disabled), you can hover your mouse-pointer over the text. This will display a tooltip that explains what you need to change in order to enable and select the option.
+    * **Target**: Select the target you want to add to the tile. (Not relevant for bar charts.)
+    * **Show as %**: Select this option to show percentage of target instead of sums or counts. (Not relevant for column charts and big numbers.)
 
 11. Edit the formatting. Based on the chart type you selected, you have additional options under **Formatting**:
 
-    * Big number: You can edit the colours used to display targets.
+    * Big number: You can edit the colors used to display targets.
     * Gauge chart: Use the option **Mark target at** to set the target on the gauge chart.
 
-12. Click ![icon][img1] to add a translation to the tile name, titles and labels. See [Translation][3]
+12. Click ![icon][img1] to [add a translation][3] to the tile name, titles and labels.
 
-13. Click **Save**
-
-14. Click **Done** when you have completed the dashboard.
+13. Click **Save**. Then click **Done**.
 
 <!-- Referenced links -->
 [1]: edit-tile.md
