@@ -4,7 +4,7 @@ items:
 - name: Search
   href: ../search-options/in-service/index.md
   items:
-  - name: Customise presentation
+  - name: Customize presentation
     href: ../search-options/in-service/customize-presentation.md
   - name: Use QuickSearch
     href: ../search-options/in-service/quick-search.md
@@ -31,6 +31,22 @@ items:
     href: ../document/in-service/manage-folders.md
   - name: Search for documents
     href: ../document/in-service/find.md
+- name: Knowledge Base
+  href: ../request/screen/knowledge-base.md
+  items:
+  - name: FAQ
+    href: ../faq/toc.yml
+  - name: Reply templates
+    href: ../request/reply-templates/toc.yml
+  - name: Email addresses
+    href: ../request/mailboxes/index.md
+    items:
+    - name: Create email addresses
+      href: ../request/mailboxes/add-email-address.md
+    - name: Administrate email address folders
+      href: ../request/mailboxes/manage-folders.md
+  - name: External documents
+    href: ../request/external-document.md
 - name: Statistics in Service
   href: ../dashboard/in-service/statistics/index.md
   items:
