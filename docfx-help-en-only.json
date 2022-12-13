@@ -2,39 +2,26 @@
   "build": {
     "content": [
       {
-        "src":"user-guide",
-        "dest":"help",
-        "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
-        "exclude": [
-          "**/includes/**, no/**"
-        ]
+        "src":"user-guide/en",
+        "dest":"en/learn",
+        "files": [ "**/**.{md,yml}", "*.{md,yml}" ]
       }
     ],
     "resource": [
       {
-        "src":"user-guide",
-        "dest":"help",
-        "files": [
-          "images/**",
-          "media/**",
-          "**/*.png",
-          "**/*.svg",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.bmp",
-          "**/*.xlsx",
-          "**/*.zip",
-          "**/*.dll",
-          "**/*.docx",
-          "**/*.pdf",
-          "**/*.pptx",
-          "**/*.app"
-        ]
+        "src":"user-guide/media",
+        "dest":"media/learn",
+        "files": [ "**/*.{png,svg,jpg,gif,bmp,zip}" ]
+      },
+      {
+        "src":"user-guide/en",
+        "dest":"media/learn/en",
+        "files": ["**/*.{png,svg,jpg,gif,bmp,zip}"]
       },
       {
         "src":"common/icons/",
-        "dest":"help/media",
-        "files": "**/*.png"
+        "dest":"media/common",
+        "files": [ "**/*.png" ]
       }
     ],
     "xref": [
