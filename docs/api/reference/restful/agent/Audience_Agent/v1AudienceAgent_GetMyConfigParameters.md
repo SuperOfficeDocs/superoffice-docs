@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetMyConfigParameters
 
 Gets the Audience configuration parameters belonging to the currently logged on user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the Audience configuration parameters belonging to the currently logged on 
 ```http
 POST /api/v1/Agents/Audience/GetMyConfigParameters?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/Audience/GetMyConfigParameters?$select=name,department,categ
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -62,7 +70,7 @@ Response body: array
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 502,
-    "Name": "Bruen, Gulgowski and Rice",
-    "Value": "rerum",
-    "CreatedDate": "2018-12-11T11:10:26.0065533+01:00",
-    "UpdatedDate": "2009-07-06T11:10:26.0065533+02:00",
-    "CreatedBy": "necessitatibus",
-    "UpdatedBy": "sunt",
+    "AudienceLayoutId": 275,
+    "Name": "Carter Group",
+    "Value": "eos",
+    "CreatedDate": "2009-08-18T02:49:43.6847821+02:00",
+    "UpdatedDate": "1997-07-09T02:49:43.6847821+02:00",
+    "CreatedBy": "deleniti",
+    "UpdatedBy": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 771
+        "FieldLength": 530
       }
     }
   }

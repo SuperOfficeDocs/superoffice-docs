@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 
 Calculate the default desired columns, i.
 
+
 e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ e., the result columns for a given search. The search is defined by a provider n
 ```http
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Restrictions
+ProviderName, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProviderName | string |  |
 | Restrictions | array |  |
+
 
 ## Response: array
 
@@ -78,22 +86,22 @@ Response body: array
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lindgren, Connelly and Kirlin",
+  "ProviderName": "Beer-Turner",
   "Restrictions": [
     {
-      "Name": "Osinski-Ritchie",
-      "Operator": "aut",
+      "Name": "Harber Inc and Sons",
+      "Operator": "repellat",
       "Values": [
-        "sit",
-        "soluta"
+        "rerum",
+        "omnis"
       ],
       "DisplayValues": [
-        "repellat",
-        "voluptatum"
+        "qui",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -101,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 36,
+      "InterParenthesis": 92,
       "InterOperator": "And",
-      "UniqueHash": 334
+      "UniqueHash": 99
     }
   ]
 }
@@ -117,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gottlieb-Wilkinson",
-    "DisplayTooltip": "sit",
-    "DisplayType": "rerum",
-    "CanOrderBy": false,
-    "Name": "Ritchie Inc and Sons",
+    "DisplayName": "Kreiger-Crooks",
+    "DisplayTooltip": "rerum",
+    "DisplayType": "cum",
+    "CanOrderBy": true,
+    "Name": "Mueller Inc and Sons",
     "CanRestrictBy": true,
-    "RestrictionType": "praesentium",
-    "RestrictionListName": "Johnson Inc and Sons",
-    "IsVisible": false,
-    "ExtraInfo": "laboriosam",
-    "Width": "velit",
-    "IconHint": "non",
-    "HeadingIconHint": "culpa"
+    "RestrictionType": "dignissimos",
+    "RestrictionListName": "Green-Cummerata",
+    "IsVisible": true,
+    "ExtraInfo": "ut",
+    "Width": "omnis",
+    "IconHint": "iure",
+    "HeadingIconHint": "minus"
   }
 ]
 ```

@@ -11,11 +11,17 @@ GET /api/v1/List/Reason/Items/{itemId}/Headings
 
 Gets headings for the Reason list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Steuber, Jacobson and Murphy",
-    "ToolTip": "Officia quidem est.",
+    "Id": 466,
+    "Name": "Wisozk LLC",
+    "ToolTip": "Nam sint ratione et facere eligendi debitis.",
     "Deleted": false,
-    "Rank": 762,
-    "Type": "aliquam",
-    "ColorBlock": 328,
-    "IconHint": "occaecati",
+    "Rank": 331,
+    "Type": "laborum",
+    "ColorBlock": 318,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "1996-07-06T11:10:54.5539375+02:00",
+    "LastChanged": "1997-05-15T02:49:52.4690756+02:00",
     "ChildItems": [
       {
-        "Id": 98,
-        "Name": "Luettgen, Mueller and Kunde",
-        "ToolTip": "In et iste.",
-        "Deleted": false,
-        "Rank": 993,
-        "Type": "culpa",
-        "ColorBlock": 93,
-        "IconHint": "commodi",
-        "Selected": false,
-        "LastChanged": "2009-03-19T11:10:54.5539375+01:00",
+        "Id": 809,
+        "Name": "O'Keefe, King and Kuhn",
+        "ToolTip": "Qui quibusdam ut accusamus aut quia debitis beatae.",
+        "Deleted": true,
+        "Rank": 105,
+        "Type": "a",
+        "ColorBlock": 458,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2004-04-01T02:49:52.4690756+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "et",
+        "ExtraInfo": "a",
+        "StyleHint": "perferendis",
         "Hidden": false,
-        "FullName": "Foster Charlie Padberg Jr.",
+        "FullName": "Eldridge Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 208
+            "FieldLength": 739
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Amie Reinger",
+    "ExtraInfo": "officia",
+    "StyleHint": "similique",
+    "Hidden": true,
+    "FullName": "Bennett Eleanora Steuber DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldType": "System.String",
+        "FieldLength": 631
       }
     }
   }

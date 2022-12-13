@@ -11,6 +11,13 @@ PUT /api/v1/List/Credited/Items
 
 Update the Credited list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the Credited list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Credited.
+All the updated Credited. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated Credited.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -65,25 +73,25 @@ Response body: array
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 343,
-    "Name": "Treutel-Hahn",
-    "Tooltip": "eos",
-    "Deleted": false,
-    "UdListDefinitionId": 719,
-    "Rank": 125
+    "Id": 325,
+    "Name": "Krajcik-Jast",
+    "Tooltip": "sunt",
+    "Deleted": true,
+    "UdListDefinitionId": 641,
+    "Rank": 50
   },
   {
-    "Id": 343,
-    "Name": "Treutel-Hahn",
-    "Tooltip": "eos",
-    "Deleted": false,
-    "UdListDefinitionId": 719,
-    "Rank": 125
+    "Id": 325,
+    "Name": "Krajcik-Jast",
+    "Tooltip": "sunt",
+    "Deleted": true,
+    "UdListDefinitionId": 641,
+    "Rank": 50
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 35,
-    "Name": "Homenick, Murphy and Schroeder",
-    "Tooltip": "aut",
+    "Id": 955,
+    "Name": "Schneider-Pacocha",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "UdListDefinitionId": 882,
-    "Rank": 559,
+    "UdListDefinitionId": 389,
+    "Rank": 603,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldType": "System.String",
+        "FieldLength": 915
       }
     }
   }

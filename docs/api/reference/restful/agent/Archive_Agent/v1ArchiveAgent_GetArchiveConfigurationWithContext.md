@@ -11,7 +11,13 @@ POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 
 Get the configuration for one archive, with context parameter.
 
+
 The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The configuration is keyed by a combination of archive provider name and gui nam
 ```http
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GuiName, ProviderName, Context
+GuiName, ProviderName, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ GuiName, ProviderName, Context
 | ProviderName | string |  |
 | Context | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,13 +80,13 @@ Response body:
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Moore-Ankunding",
-  "ProviderName": "Gulgowski Group",
-  "Context": "est"
+  "GuiName": "Maggio, Goldner and Krajcik",
+  "ProviderName": "Wiza, Block and Ryan",
+  "Context": "cum"
 }
 ```
 
@@ -91,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Murphy-Nader",
-      "DisplayTooltip": "dicta",
-      "DisplayType": "cupiditate",
+      "DisplayName": "Graham-Schroeder",
+      "DisplayTooltip": "velit",
+      "DisplayType": "ut",
       "CanOrderBy": false,
-      "Name": "Parker, Lubowitz and Becker",
+      "Name": "Kuphal, Toy and Rodriguez",
       "CanRestrictBy": false,
-      "RestrictionType": "rerum",
-      "RestrictionListName": "Bosco-Rippin",
+      "RestrictionType": "corporis",
+      "RestrictionListName": "Hermann LLC",
       "IsVisible": false,
-      "ExtraInfo": "magni",
-      "Width": "amet",
-      "IconHint": "ab",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "inventore",
+      "Width": "commodi",
+      "IconHint": "iure",
+      "HeadingIconHint": "blanditiis"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 341,
-      "Name": "Jewess Group",
-      "ToolTip": "Officia pariatur voluptatibus vitae.",
-      "Deleted": true,
-      "Rank": 345,
-      "Type": "est",
-      "ColorBlock": 689,
-      "IconHint": "voluptates",
-      "Selected": true,
-      "LastChanged": "2019-12-16T11:10:25.9625225+01:00",
+      "Id": 494,
+      "Name": "Koch Inc and Sons",
+      "ToolTip": "Eaque iure sit amet quia.",
+      "Deleted": false,
+      "Rank": 836,
+      "Type": "ut",
+      "ColorBlock": 746,
+      "IconHint": "ducimus",
+      "Selected": false,
+      "LastChanged": "2008-03-09T02:49:43.6535327+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "amet",
-      "StyleHint": "facilis",
-      "Hidden": false,
-      "FullName": "Ms. Bradly Marks",
+      "ExtraInfo": "aliquam",
+      "StyleHint": "consequatur",
+      "Hidden": true,
+      "FullName": "Nina Yundt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldType": "System.String",
+          "FieldLength": 565
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Shanahan-Johnson",
+      "Name": "Ratke, DuBuque and O'Keefe",
       "Direction": "ASC"
     },
     {
-      "Name": "Shanahan-Johnson",
+      "Name": "Ratke, DuBuque and O'Keefe",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "quae",
+  "OwnerKeys": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 721
     }
   }
 }

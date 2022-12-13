@@ -15,9 +15,9 @@ If your company has divisions in several countries, it may be useful to have the
 
 ## Add document templates for languages
 
-1. Open Windows Explorer and go to the **\SuperOffice\SO_Arc\Template** folder.
+1. Open Windows Explorer and go to the *\SuperOffice\SO_Arc\Template* folder.
 
-2. Create a folder for each of the languages you want document templates for (e.g. **\SuperOffice\SO\_Arc\Template\GE**).
+2. Create a folder for each of the languages you want document templates for. For example, *\SuperOffice\SO_Arc\Template\GE*.
 
     <details><summary>Click to see the folder names for the different languages.</summary>
 
@@ -56,7 +56,7 @@ You now need to select the correct document languages for the users who are goin
 3. Select **User** under **This setting will apply to**.
 
     > [!TIP]
-    > If the divisions are using satellite databases, you can choose to specify document languages for entire databases. You can also select document languages for entire groups, but in that case, the group in question must be the primary group of the users you are setting the document language for.
+    > If the divisions are using satellite databases, you can choose to specify document languages for databases. You can also select document languages for groups, but in that case, the group in question must be the primary group of the users you are setting the document language for.
 
 4. Click the **Target** list and select the required user.
 

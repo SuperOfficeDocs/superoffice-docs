@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAmountClassEntity
 
 Gets a AmountClassEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a AmountClassEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=170
+POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=924
 POST /api/v1/Agents/List/GetAmountClassEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetAmountClassEntity?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +73,7 @@ Response body:
 POST /api/v1/Agents/List/GetAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 847,
-  "Name": "Kling, Treutel and Green",
-  "Tooltip": "doloribus",
-  "Rank": 321,
-  "AmountFrom": 27099.698,
-  "AmountTo": 557.852,
+  "AmountClassId": 94,
+  "Name": "Aufderhar LLC",
+  "Tooltip": "eum",
+  "Rank": 152,
+  "AmountFrom": 20565.308,
+  "AmountTo": 24241.489999999998,
   "Deleted": true,
-  "CurrencyId": 37,
+  "CurrencyId": 323,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 177
     }
   }
 }

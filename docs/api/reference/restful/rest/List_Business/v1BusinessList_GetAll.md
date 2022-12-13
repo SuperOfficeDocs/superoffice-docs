@@ -11,6 +11,12 @@ GET /api/v1/List/Business/Items
 
 Gets all the Business items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,8 +24,9 @@ Gets all the Business items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Business/Items?includeDeleted=True
+GET /api/v1/List/Business/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ GET /api/v1/List/Business/Items?includeDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -72,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Cole, Wuckert and Buckridge",
-    "Tooltip": "molestiae",
+    "Id": 622,
+    "Name": "Robel, Kling and Bednar",
+    "Tooltip": "autem",
     "Deleted": false,
-    "UdListDefinitionId": 700,
-    "Rank": 667,
+    "UdListDefinitionId": 199,
+    "Rank": 432,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldType": "System.String",
+        "FieldLength": 356
       }
     }
   }

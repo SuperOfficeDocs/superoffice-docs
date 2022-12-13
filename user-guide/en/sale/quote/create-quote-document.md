@@ -11,13 +11,13 @@ language: en
 
 # Create a quote document
 
-Once you have created the quote and added the products you want, you can create the quote document to send to the customer. This will be the "letter" that is sent to the customer. The list of products that are being offered will be added when the quote is sent to the customer.
+Once you have created the quote and added the products you want, you can create the quote document to send to the customer. This is the "letter" that is sent to the customer. The list of products that are being offered is added when the quote is sent to the customer.
 
 1. Open an existing quote, or [create a new quote][1].
 
-2. Click **Click to create quote document** at the top of the quote or on the **Quote** section tab. The **Document** dialog opens.
+2. Click **Click to create quote document** at the top of the quote or on the **Quote** section tab.
 
-3. [Complete the fields with the required information][2].
+3. In the **Document** dialog, [complete the fields with the required information][2].
 
 4. Click the **Create** button to create a new document based on the selected document template.
 
@@ -28,7 +28,7 @@ Once you have created the quote and added the products you want, you can create 
 
 ## How can I change the quote document?
 
-If have created a quote document for a quote, but want to use another document, you can do as follows:
+If you created a quote document for a quote, but want to use another document:
 
 1. Open the quote.
 

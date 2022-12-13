@@ -11,9 +11,17 @@ POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 
 Set default values into a new TriggerScriptEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +54,7 @@ Response body:
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -59,7 +68,7 @@ Response body:
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 359,
-  "Name": "Casper-Bergnaum",
+  "ScreenChooserId": 612,
+  "Name": "Beatty, Kemmer and Cole",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "temporibus",
-  "Source": "dignissimos",
-  "Registered": "2001-03-22T11:10:26.3784629+01:00",
-  "RegisteredAssociateId": 568,
-  "Updated": "2010-05-19T11:10:26.3784629+02:00",
-  "UpdatedAssociateId": 321,
+  "Enabled": true,
+  "UniqueIdentifier": "eveniet",
+  "Source": "voluptatem",
+  "Registered": "2012-04-25T02:49:44.0129044+02:00",
+  "RegisteredAssociateId": 482,
+  "Updated": "2020-07-07T02:49:44.0129044+02:00",
+  "UpdatedAssociateId": 698,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 942
+      "FieldType": "System.Int32",
+      "FieldLength": 585
     }
   }
 }

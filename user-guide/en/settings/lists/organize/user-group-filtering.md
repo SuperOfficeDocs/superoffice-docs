@@ -13,7 +13,7 @@ language: en
 
 SuperOffice CRM users belong to different user groups depending on what type of rights they have. This is defined in the [**Users** screen][2].
 
-When you specify an item in a list in the **Lists** screen, you can also specify which user groups the item will be visible to, in the **Items** tab. Alternatively, you can go to the **User groups** tab to specify available items for each user group. Both methods are described below.
+When you specify an item in a list in the **Lists** screen, you can also specify which user groups the item is visible to, in the **Items** tab. Alternatively, you can go to the **User groups** tab to specify available items for each user group. Both methods are described below.
 
 ## Specify user groups for an item
 
@@ -24,11 +24,11 @@ When you specify an item in a list in the **Lists** screen, you can also specify
 3. Check **Use grouping and user group filtering for this list** in the top right corner.
 
     > [!NOTE]
-    > If you do not check **Use grouping and user group filtering for this list**, all items in the list will be visible for all user groups.
+    > If you do not check **Use grouping and user group filtering for this list**, all items in the list are visible for all user groups.
 
 4. Select the required item in the **Items** list.
 
-5. Select a user group in the **Visible for user groups** list. All the user groups in the organisation are displayed here. Click the box next to the required user group to specify that the item will be visible to that group.
+5. Select a user group in the **Visible for user groups** list. All the user groups in the organization are displayed here. Click the box next to the required user group to specify that the item should be visible to that group.
 
     The box will then be marked with a tick (![icon][img2]).
 

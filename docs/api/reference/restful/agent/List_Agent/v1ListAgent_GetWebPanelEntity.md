@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetWebPanelEntity
 
 Gets a WebPanelEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=1001
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=478
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +86,7 @@ Response body:
 POST /api/v1/Agents/List/GetWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 132,
-  "Name": "Gutmann-Fahey",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 202,
+  "WebPanelId": 96,
+  "Name": "Reichel Inc and Sons",
+  "Tooltip": "facilis",
+  "Deleted": true,
+  "Rank": 23,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Ziemann-Haley",
+  "WindowName": "Hessel, Rippin and Pagac",
   "Url": "http://www.example.com/",
-  "ProgId": "harum",
-  "Icon": 480,
+  "ProgId": "non",
+  "Icon": 226,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldLength": 590
     }
   }
 }

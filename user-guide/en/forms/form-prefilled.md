@@ -11,13 +11,11 @@ language: en
 
 # Using pre-filled fields in forms
 
-To save your customers the time and trouble of filling in their name, e-mail address, phone number etc. in forms, you can do this work for them. When the customer opens a form, existing customer data will be filled in using SuperOffice data.
-
-This is done by adding field identifiers and template variables to the form links/URLs.
+To save your customers the time and trouble of filling in their name, email address, phone number, and so on, in forms, you can add field identifiers and template variables to the form links/URLs. When the customer opens a form, existing customer data is filled in using SuperOffice data.
 
 1. [Create a new form][1].
 
-2. For each field you want to be pre-filled: Click **Advanced options** ![icon][img1] to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
+2. For each field you want to be pre-filled: Click **Advanced options** ![icon][img1] to display the **Identifier** field, where you can add an ID for the field. This is a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
 
 3. [Publish forms][2].
 

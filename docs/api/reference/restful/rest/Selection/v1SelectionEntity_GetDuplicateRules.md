@@ -11,6 +11,13 @@ GET /api/v1/Selection/DuplicateRules
 
 Retrieve all available duplicate rules for selection
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -23,6 +30,7 @@ Retrieve all available duplicate rules for selection
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -49,7 +57,7 @@ Response body: array
 GET /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -60,30 +68,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Williamson Group",
-    "DisplayName": "Johnson-Wolf",
-    "DisplayTooltip": "facere",
-    "IsActive": true,
+    "Name": "Tremblay-Price",
+    "DisplayName": "Cummings-Towne",
+    "DisplayTooltip": "aliquam",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 531
       }
     }
   },
   {
-    "Name": "Williamson Group",
-    "DisplayName": "Johnson-Wolf",
-    "DisplayTooltip": "facere",
-    "IsActive": true,
+    "Name": "Tremblay-Price",
+    "DisplayName": "Cummings-Towne",
+    "DisplayTooltip": "aliquam",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 531
       }
     }
   }

@@ -11,7 +11,14 @@ GET /api/v1/List/SelectionCategory/Headings
 
 Gets headings for the SelectionCategory list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -53,7 +61,7 @@ Response body: array
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -64,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 540,
-    "Name": "Simonis-Luettgen",
-    "Tooltip": "sed",
+    "HeadingId": 861,
+    "Name": "Harber, Koelpin and Bogan",
+    "Tooltip": "ab",
     "Deleted": false,
-    "Rank": 630,
-    "UdListDefinitionId": 309,
+    "Rank": 445,
+    "UdListDefinitionId": 782,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldLength": 224
       }
     }
   }

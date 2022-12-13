@@ -11,11 +11,18 @@ GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 
 Gets user groups visible for the MrMrs list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Hartmann, Hudson and Osinski",
-    "ToolTip": "Consectetur quaerat nulla consequatur.",
+    "Id": 452,
+    "Name": "Howell, Gutmann and Wiegand",
+    "ToolTip": "Autem repellat ratione.",
     "Deleted": false,
-    "Rank": 276,
-    "Type": "distinctio",
-    "ColorBlock": 820,
-    "IconHint": "non",
+    "Rank": 156,
+    "Type": "in",
+    "ColorBlock": 35,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "1999-01-28T11:10:54.3268695+01:00",
+    "LastChanged": "1996-02-19T02:49:52.2815666+01:00",
     "ChildItems": [
       {
-        "Id": 722,
-        "Name": "Kris LLC",
-        "ToolTip": "Est assumenda tempora.",
-        "Deleted": true,
-        "Rank": 478,
-        "Type": "qui",
-        "ColorBlock": 143,
-        "IconHint": "voluptates",
+        "Id": 460,
+        "Name": "Herman LLC",
+        "ToolTip": "Libero voluptas autem qui aut fuga ea.",
+        "Deleted": false,
+        "Rank": 878,
+        "Type": "porro",
+        "ColorBlock": 956,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "1996-03-25T11:10:54.3268695+01:00",
+        "LastChanged": "2012-07-15T02:49:52.2815666+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "eum",
+        "ExtraInfo": "quod",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Alysha Moore",
+        "FullName": "Domingo Leannon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 712
+            "FieldType": "System.String",
+            "FieldLength": 934
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "impedit",
+    "ExtraInfo": "cumque",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Shad Koss",
+    "FullName": "Doug Gorczany",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 997
+        "FieldType": "System.Int32",
+        "FieldLength": 773
       }
     }
   }

@@ -11,17 +11,15 @@ language: en
 
 # The first time you log in
 
-To access email, you need to specify some details about your email account. The **Set up email account** screen appears the first time you open your inbox.
-
-To enter the required information in this window:
+To access email, you must first specify details about your email account. The **Set up email account** screen appears the first time you open your inbox.
 
 1. In the **Email account** field, enter the email address of the account you want to use in SuperOffice.
 
-2. If you want to enter information for incoming and outgoing email, click **Advanced settings**. If not, click **Next**. SuperOffice will then try to set up this information for you.
+2. To enter information for incoming and outgoing email, click **Advanced settings**. If not, click **Next**. SuperOffice will then try to set up this information for you.
 
 3. In the **Password** field, enter your password.
 
-4. Click **Log in**. If SuperOffice recognizes the email provider (such as Gmail), the server settings will be set up automatically and the inbox will load. If not, the settings screen will display and you must fill in the required fields.
+4. Click **Log in**. If SuperOffice recognizes the email provider (such as Gmail), the server settings are set up automatically and the inbox loads. If not, the settings screen will display and you must fill in the required fields.
 
 ## Why is the email list is not updated?
 

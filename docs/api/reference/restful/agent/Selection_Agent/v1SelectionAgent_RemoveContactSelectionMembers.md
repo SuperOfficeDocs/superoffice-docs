@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/RemoveContactSelectionMembers
 
 Removes members from the selection as  specified in the collection of ContactPersonId.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Removes members from the selection as  specified in the collection of ContactPer
 ```http
 POST /api/v1/Agents/Selection/RemoveContactSelectionMembers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/Selection/RemoveContactSelectionMembers?$select=name,departm
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, ContactPersonIds
+SelectionId, ContactPersonIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | ContactPersonIds | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -60,15 +69,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 844,
+  "SelectionId": 938,
   "ContactPersonIds": [
     {
-      "PersonId": 81,
-      "ContactId": 819
+      "PersonId": 266,
+      "ContactId": 138
     },
     {
-      "PersonId": 81,
-      "ContactId": 819
+      "PersonId": 266,
+      "ContactId": 138
     }
   ]
 }

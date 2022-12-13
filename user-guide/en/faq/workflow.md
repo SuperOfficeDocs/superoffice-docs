@@ -23,9 +23,9 @@ In a new installation, the workflow contains two default stages: **Unpublished**
 6. Click **OK**. This takes you to the **Edit stage** screen.
 7. In the **Select user** list at the bottom of the screen, select the name of a user who is to have access to this stage in the workflow.
 8. Select which access level the user should have. You can choose from the following options:
-    * **Can move**: The user is permitted to change the workflow stage for entries, i.e. publish or cancel publishing.
+    * **Can move**: The user is permitted to change the workflow stage for entries (publish or cancel publishing).
     * **Can edit**: The user is permitted to edit FAQ entries.
-    * **Full access**: The user has all rights in relation to the workflow..
+    * **Full access**: The user has all rights in relation to the workflow.
 9. Click the ![icon][img3] **Add** button to add the user to the list under **User access**.
 10. Repeat steps 7-9 to add more users.
 11. Click **OK**. The stage is created and now available when you publish FAQ entries.
@@ -50,13 +50,13 @@ You can both change the name of a stage and alter which users are to have access
 1. Select **Knowledge Base** > **FAQ** and click the ![icon][img2] **Workflow** button.
 2. Click the name of the stage. This takes you to the **Edit stage** screen.
 3. Click **Delete**. If the stage is not associated with any FAQ entries, it is deleted immediately.
-4. If it is linked to FAQ entries, you need to select which stage in the workflow these FAQ entries should be moved to. Select the stage you want in the **Move to workflow** list.
+4. If it is linked to FAQ entries, select which stage in the workflow these FAQ entries should be moved to. Select the stage you want in the **Move to workflow** list.
 5. Click **Delete**. The stage is deleted and associated FAQ entries are moved to the selected stage.
 
 ## Publish via workflow
 
 1. [Open the FAQ entry][1].
-2. If you want to adjust anything before publishing, follow the procedure under [Publish FAQ entries][2].
+2. To adjust anything before publishing, follow the procedure under [Publish FAQ entries][2].
 3. Click the **Move forward in workflow** button until **Published** is shown in the **Workflow stage** field in the **Details** tab.
 
 > [!TIP]

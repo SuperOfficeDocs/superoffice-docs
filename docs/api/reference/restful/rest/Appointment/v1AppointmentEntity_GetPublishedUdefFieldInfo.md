@@ -11,9 +11,16 @@ GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 
 Get a published AppointmentEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a published AppointmentEntity user-defined field's details based on the prog
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 AppointmentEntity found.
 
@@ -37,7 +45,7 @@ AppointmentEntity found.
 | 200 | AppointmentEntity found. |
 | 404 | AppointmentEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,46 +102,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 200,
-  "ColumnId": 913,
-  "FieldDefault": "et",
-  "FieldHeight": 457,
-  "FieldLabel": "necessitatibus",
-  "FieldLeft": 747,
-  "FieldTop": 924,
+  "UDefFieldId": 631,
+  "ColumnId": 487,
+  "FieldDefault": "rerum",
+  "FieldHeight": 280,
+  "FieldLabel": "iure",
+  "FieldLeft": 146,
+  "FieldTop": 709,
   "FieldType": "Checkbox",
-  "FieldWidth": 233,
-  "FormatMask": "voluptate",
-  "HideLabel": true,
+  "FieldWidth": 461,
+  "FormatMask": "repudiandae",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 414,
-  "LabelLeft": 813,
-  "LabelTop": 719,
-  "LabelWidth": 587,
-  "LastVersionId": 873,
-  "ListTableId": 776,
-  "IsMandatory": true,
+  "LabelHeight": 449,
+  "LabelLeft": 597,
+  "LabelTop": 871,
+  "LabelWidth": 312,
+  "LastVersionId": 481,
+  "ListTableId": 414,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 443,
-  "ProgId": "a",
-  "IsReadOnly": true,
-  "ShortLabel": "id",
-  "TabOrder": 315,
-  "TextLength": 713,
-  "Tooltip": "harum",
-  "UdefIdentity": 309,
-  "UDListDefinitionId": 35,
+  "Page1LineNo": 393,
+  "ProgId": "doloribus",
+  "IsReadOnly": false,
+  "ShortLabel": "amet",
+  "TabOrder": 964,
+  "TextLength": 233,
+  "Tooltip": "odio",
+  "UdefIdentity": 982,
+  "UDListDefinitionId": 14,
   "Justification": "Center",
-  "Version": 841,
-  "TemplateVariableName": "Heaney, Prosacco and Corwin",
+  "Version": 43,
+  "TemplateVariableName": "Kris, Ondricka and Deckow",
   "HasBeenPublished": false,
-  "MdoListName": "Hyatt-Hagenes",
+  "MdoListName": "Spinka-Farrell",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 655
+      "FieldType": "System.Int32",
+      "FieldLength": 922
     }
   }
 }

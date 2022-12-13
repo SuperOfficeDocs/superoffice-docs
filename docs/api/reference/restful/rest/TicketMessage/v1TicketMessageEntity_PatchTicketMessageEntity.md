@@ -11,6 +11,7 @@ PATCH /api/v1/TicketMessage/{id}
 
 Update a TicketMessageEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.ITicketAgent} service SaveTicketMessageEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The TicketMessageEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.ITicketAgent} service SaveTicketMessageEntit
 ```http
 PATCH /api/v1/TicketMessage/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/TicketMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 TicketMessageEntity  updated.
 
@@ -81,7 +93,7 @@ TicketMessageEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because TicketMessageEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -125,12 +137,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "quis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "quis",
     "value": {}
   }
 ]
@@ -143,27 +155,28 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 904,
+  "EjMessageId": 880,
   "Ticket": null,
-  "CreatedAt": "2018-01-06T11:10:53.6562131+01:00",
+  "CreatedAt": "2010-03-01T02:49:51.6553976+01:00",
   "CreatedBy": null,
-  "Author": "officia",
+  "Author": "asperiores",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 235,
-  "Body": "unde",
-  "HtmlBody": "voluptatem",
-  "EmailHeader": "abner@gibson.name",
-  "DebugInfo": "ad",
-  "MailSorter": "quia",
+  "MessageId": "commodi",
+  "TimeSpent": 431,
+  "Body": "rem",
+  "HtmlBody": "odio",
+  "EmailHeader": "patience@gaylord.biz",
+  "DebugInfo": "tempora",
+  "MailSorter": "id",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nesciunt",
+  "SearchTitle": "aperiam",
   "MessageHeaders": [
     {
-      "Name": "Leuschke, Stiedemann and Aufderhar",
-      "Value": "doloribus",
+      "Id": 442,
+      "Name": "Rath Inc and Sons",
+      "Value": "enim",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -171,43 +184,29 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 712
-        }
-      }
-    },
-    {
-      "Name": "Leuschke, Stiedemann and Aufderhar",
-      "Value": "doloribus",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 712
+          "FieldLength": 367
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "velit",
-  "Sentiment": 666,
-  "SentimentConfidence": 65,
+  "Important": true,
+  "Language": "voluptatem",
+  "Sentiment": 530,
+  "SentimentConfidence": 850,
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "a"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "et"
+    "CustomFields1": "odit",
+    "CustomFields2": "veniam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 691
     }
   },
   "_Links": {

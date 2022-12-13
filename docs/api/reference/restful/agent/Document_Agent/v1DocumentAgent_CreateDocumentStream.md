@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/CreateDocumentStream
 
 Creates a new Stream that can be used to store the document in the file archive.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a new Stream that can be used to store the document in the file archive.
 ```http
 POST /api/v1/Agents/Document/CreateDocumentStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Document/CreateDocumentStream?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentEntity, OverwriteExistingData
+DocumentEntity, OverwriteExistingData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentEntity |  | Partial DocumentEntity class associating the generated DocumentEntity with an interface. |
 | OverwriteExistingData | bool |  |
+
 
 ## Response: byte
 
@@ -54,13 +62,14 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/CreateDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/DeleteAppWebPanels
 
 Permanentely delete all web panels owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken; otherwise nothing happens
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -21,6 +27,7 @@ Permanentely delete all web panels owned by your app; works in Online only, for 
 POST /api/v1/Agents/List/DeleteAppWebPanels?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -30,7 +37,8 @@ POST /api/v1/Agents/List/DeleteAppWebPanels?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -38,7 +46,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -46,7 +55,7 @@ Response body:
 POST /api/v1/Agents/List/DeleteAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

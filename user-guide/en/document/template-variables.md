@@ -11,7 +11,7 @@ language: en
 
 # Template variables
 
-Template variables are used to insert data from SuperOffice into e-mails, quotes, meeting notifications, document templates etc. You can use template variables to personalise messages to customers and set up complex quotes.
+Template variables are used to insert data from SuperOffice into emails, quotes, meeting notifications, document templates, and so on. You can use template variables to personalise messages to customers and set up complex quotes.
 
 ## Examples
 
@@ -60,7 +60,7 @@ supershop.com
 
 ### Meeting minutes (header)
 
-This is an example of a header in a meeting minutes (document or e-mail).
+This is an example of a header in a meeting minutes (document or email).
 
 ```text
 {head}
@@ -96,18 +96,18 @@ Our contact: John Jones
 
 ## How to use template variables
 
-* In documents of file type .doc in Office 2003 and older, you need to use angled brackets – &lt; &gt; – around variables instead of curly brackets – { } –.
+* In documents of file type .doc in Office 2003 and older, you must use angled brackets – &lt; &gt; – around variables instead of curly brackets – { } –.
 * The whole variable must be formatted using the same font and font size, and you must only use lowercase letters. However, if the **Use case-sensitive template variables** preference is enabled, the template variable can be formatted.
-* You can mix normal text and variables in the template document: For example, you can enter template variables which retrieve a company’s name and address, type in standard text for the body of the letter and enter the variable for our contact to conclude the letter.
+* You can mix normal text and variables in the template document: For example, you can enter template variables that retrieve a company’s name and address, type in standard text for the body of the letter and enter the variable for our contact to conclude the letter.
 * You can also use fill characters in the template document (see below).
 * The date and time in template variables are controlled by the PC's system clock.
 
 > [!TIP]
-> When you have created a new template document, you have to add it using the **Lists** screen in Settings and maintenance to use it in SuperOffice CRM.
+> After you create a new template document, you must add it using the **Lists** screen in Settings and maintenance to use it in SuperOffice CRM.
 
 ## Fill characters
 
-Sometimes you have to use fill characters in templates so that a field’s contents or formatting will not be changed or deleted if the content of a field is shorter than the length specified by the field variable.
+Sometimes you should use fill characters in templates so that a field’s contents or formatting will not be changed or deleted if the content of a field is shorter than the length specified by the field variable.
 
 Use the variable padd# to specify the fill character to use. Replace the \# character with the ANSI code of the character you wish to use as a fill character. You will usually find a list of ANSI codes in the manual for the program you are creating templates for.
 
@@ -130,9 +130,9 @@ When you use {padd0} you can write all the template variables without blank char
 
 When you use address variables from the company card, the system will select address data in the following order:
 
-1. If the **Use as postal address** option is active for a contact in the company, the contact's address data will be used.
-2. If the above option is not active, the company's address data will be used.
-3. If the company's postal address is empty, the company street address will be used.
+1. If the **Use as postal address** option is active for a contact in the company, the contact's address data is used.
+2. If the above option is not active, the company's address data is used.
+3. If the company's postal address is empty, the company street address is used.
 
 ## Reference
 

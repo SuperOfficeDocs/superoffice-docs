@@ -18,11 +18,11 @@ Cross tables can be displayed and printed in various ways. You can select which 
 
 ## <a id="install" />Install the CrossTable viewer
 
-To view a cross table report (.Dcube file), you need to install the **CrossTable viewer** (once per computer).
+To view a cross table report (.Dcube file), you must install the **CrossTable viewer** (once per computer).
 
 1. Click ![icon][img1] (main menu) and select **Download > Download CrossTable viewer**.
 2. Click the downloaded file (**SoCrossTableInstaller.exe**) to run it.
-3. If a security warning is displayed, confirm that you want to run the file. The installation wizard then opens.
+3. If a security warning is displayed, confirm that you want to run the file.
 4. Follow the instructions in the wizard to install the program.
 
 ## View a cross table
@@ -36,14 +36,14 @@ To view a cross table report (.Dcube file), you need to install the **CrossTable
 4. Click the report file (.Dcube) which is displayed in your browser. The file is opened in SuperOffice's cross table viewer application. The cross table report is shown as it will appear when filled with data from the SuperOffice database.
 
     > [!NOTE]
-    > If you cannot see the cross table report in your browser (.Dcube), you need to [install the CrossTable viewer](#install).
+    > If you cannot see the cross table report in your browser (.Dcube), you must [install the CrossTable viewer](#install).
 
 5. Edit the contents of the cross table by using the buttons (see below).
 
     > [!NOTE]
     > Fields, rows and columns which you choose to hide in the step described above will not be included in the print-out.
 
-6. When you have finished editing the contents of the cross table, you can do one of the following:
+6. After editing the contents of the cross table, you can do one of the following:
 
     * Select **File** > **Print Preview** to preview the report.
     * Select **File** > **Print** to print the report.

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Dash/GetDashTileHtmlList
 
 Get HTML for a dashboard tile definition with TileType = HTML.
 
+
 Retrieve a list with all registered languages.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Retrieve a list with all registered languages.
 ```http
 POST /api/v1/Agents/Dash/GetDashTileHtmlList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Dash/GetDashTileHtmlList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileDefinitionId
+DashboardTileDefinitionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileDefinitionId | int32 |  |
+
 
 ## Response: array
 
@@ -68,11 +76,11 @@ Response body: array
 POST /api/v1/Agents/Dash/GetDashTileHtmlList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 515
+  "DashboardTileDefinitionId": 946
 }
 ```
 
@@ -84,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "ut",
-    "Html": "nostrum",
+    "LanguageCode": "quam",
+    "Html": "dolorum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldLength": 102
       }
     }
   },
   {
-    "LanguageCode": "ut",
-    "Html": "nostrum",
+    "LanguageCode": "quam",
+    "Html": "dolorum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldLength": 102
       }
     }
   }

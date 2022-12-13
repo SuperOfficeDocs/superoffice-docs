@@ -4,22 +4,22 @@ items:
 - name: Freetext search
   href: freetext-search/index.md
   items:
-  - name: Enabling freetext search
+  - name: Enable freetext search
     href: freetext-search/enable.md
-  - name: Specifying search criteria
+  - name: Specify search criteria
     href: freetext-search/specifying-search-criteria.md
-  - name: Using search criteria
+  - name: Use search criteria
     href: using-search-criteria.md
   - name: Stopwords
     href: freetext-search/stopwords.md
     items:
-    - name: Adding stopwords
+    - name: Add stopwords
       href: freetext-search/adding-stopwords.md
-    - name: Suggesting stopwords
+    - name: Suggest stopwords
       href: freetext-search/suggesting-stopwords.md
-    - name: Deleting stopwords
+    - name: Delete stopwords
       href: freetext-search/deleting-stopwords.md
-    - name: Regenerating a freetext index
+    - name: Regenerate a freetext index
       href: freetext-search/regenerating-freetext-index.md
 - name: Timezones
   href: timezones.md
@@ -31,27 +31,28 @@ items:
 - name: Number allocation
   href: number-allocation.md
   items:
-  - name: Viewing number allocation
+  - name: View number allocation
     href: viewing-number-allocation.md
-  - name: Specifying number allocation
+  - name: Specify number allocation
     href: specifying-number-allocation.md
   - name: Default values for new document templates
-    href: default-values-for-new-document-templates-web.md
+    href: document-template-defaults.md
 - name: Labels
   href: labels.md
   items:
-  - name: Changing labels
+  - name: Change labels
     href: changing-labels.md
-  - name: Resetting labels
+  - name: Reset labels
     href: resetting-labels.md
+    
 - name: Reports
   href: reports.md
 - name: Customer languages
   href: custlangs/index.md
   items:
-  - name: editCustLang
+  - name: Create and edit customer languages
     href: custlangs/editcustlang.md
-  - name: selectlanguage
+  - name: Select customer language
     href: custlangs/selectlanguage.md
-  - name: workWithExternaCategories
+  - name: Work with external categories
     href: custlangs/workwithexternacategories.md

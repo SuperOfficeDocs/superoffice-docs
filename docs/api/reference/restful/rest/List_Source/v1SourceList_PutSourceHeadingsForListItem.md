@@ -11,11 +11,18 @@ PUT /api/v1/List/Source/Items/{itemId}/Headings
 
 Saves headings for the Source list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "Larkin Group",
-    "ToolTip": "Aliquam eius.",
-    "Deleted": true,
-    "Rank": 640,
-    "Type": "facere",
-    "ColorBlock": 983,
-    "IconHint": "assumenda",
+    "Id": 333,
+    "Name": "Kassulke-Dooley",
+    "ToolTip": "Ratione nemo quisquam corporis voluptates.",
+    "Deleted": false,
+    "Rank": 360,
+    "Type": "et",
+    "ColorBlock": 392,
+    "IconHint": "ipsa",
     "Selected": false,
-    "LastChanged": "2001-05-03T11:10:54.6479291+02:00",
+    "LastChanged": "2019-09-12T02:49:52.5471998+02:00",
     "ChildItems": [
       {
-        "Id": 753,
-        "Name": "Lakin, Boyle and Windler",
-        "ToolTip": "Dolorem debitis dignissimos officiis laborum aut voluptatem perferendis.",
+        "Id": 1000,
+        "Name": "Schroeder, Fadel and Kreiger",
+        "ToolTip": "Laudantium molestiae repellat ut officiis sit.",
         "Deleted": false,
-        "Rank": 874,
-        "Type": "autem",
-        "ColorBlock": 942,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "1996-07-28T11:10:54.6479291+02:00",
+        "Rank": 145,
+        "Type": "nesciunt",
+        "ColorBlock": 591,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2010-08-20T02:49:52.5471998+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "ea",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Prof. Dillan Kreiger DVM"
+        "FullName": "Thea Corkery"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "natus",
+    "StyleHint": "architecto",
     "Hidden": false,
-    "FullName": "Buster Lemke"
+    "FullName": "Otto Boyer"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Cronin, Leffler and Oberbrunner",
-    "ToolTip": "Fugiat corrupti voluptas in.",
-    "Deleted": false,
-    "Rank": 470,
-    "Type": "quia",
-    "ColorBlock": 226,
-    "IconHint": "magnam",
+    "Id": 849,
+    "Name": "Simonis, Lebsack and Johns",
+    "ToolTip": "Saepe rerum sed id sunt dolor.",
+    "Deleted": true,
+    "Rank": 121,
+    "Type": "ratione",
+    "ColorBlock": 150,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2012-12-31T11:10:54.6499297+01:00",
+    "LastChanged": "2013-08-30T02:49:52.5471998+02:00",
     "ChildItems": [
       {
-        "Id": 826,
-        "Name": "Schamberger, Swaniawski and Dickinson",
-        "ToolTip": "Nihil corrupti et saepe ut.",
+        "Id": 436,
+        "Name": "Reilly-Bernier",
+        "ToolTip": "Sed nihil corrupti nam consequatur cupiditate blanditiis.",
         "Deleted": false,
-        "Rank": 770,
-        "Type": "sed",
-        "ColorBlock": 136,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2014-07-08T11:10:54.6499297+02:00",
+        "Rank": 320,
+        "Type": "vel",
+        "ColorBlock": 646,
+        "IconHint": "beatae",
+        "Selected": true,
+        "LastChanged": "2022-09-15T02:49:52.5471998+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "vero",
+        "ExtraInfo": "minima",
+        "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "Elvie Koepp",
+        "FullName": "Krystina Considine",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 680
+            "FieldLength": 191
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "laborum",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Rozella Walsh",
+    "FullName": "Miss Berniece Barrows",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldType": "System.String",
+        "FieldLength": 242
       }
     }
   }

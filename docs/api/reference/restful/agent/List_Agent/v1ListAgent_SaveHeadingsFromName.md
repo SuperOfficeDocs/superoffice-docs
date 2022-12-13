@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveHeadingsFromName
 
 Save headings for list resolved by the provided name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save headings for list resolved by the provided name.
 ```http
 POST /api/v1/Agents/List/SaveHeadingsFromName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/List/SaveHeadingsFromName?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, Entities
+Name, Entities 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | Entities | array |  |
+
 
 ## Response: array
 
@@ -71,27 +79,27 @@ Response body: array
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boyer-Rutherford",
+  "Name": "Herman, Jaskolski and Hand",
   "Entities": [
     {
-      "HeadingId": 381,
-      "Name": "Berge, Bahringer and Sipes",
-      "Tooltip": "repellat",
+      "HeadingId": 722,
+      "Name": "Upton-Block",
+      "Tooltip": "blanditiis",
       "Deleted": false,
-      "Rank": 381,
-      "UdListDefinitionId": 698
+      "Rank": 793,
+      "UdListDefinitionId": 871
     },
     {
-      "HeadingId": 381,
-      "Name": "Berge, Bahringer and Sipes",
-      "Tooltip": "repellat",
+      "HeadingId": 722,
+      "Name": "Upton-Block",
+      "Tooltip": "blanditiis",
       "Deleted": false,
-      "Rank": 381,
-      "UdListDefinitionId": 698
+      "Rank": 793,
+      "UdListDefinitionId": 871
     }
   ]
 }
@@ -105,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 209,
-    "Name": "Lockman Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 288,
+    "Name": "Dach, Jacobson and Sauer",
+    "Tooltip": "porro",
     "Deleted": false,
-    "Rank": 672,
-    "UdListDefinitionId": 317,
+    "Rank": 740,
+    "UdListDefinitionId": 154,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 441
+        "FieldType": "System.Int32",
+        "FieldLength": 543
       }
     }
   }

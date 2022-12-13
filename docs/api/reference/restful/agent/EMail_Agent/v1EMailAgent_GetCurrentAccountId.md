@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetCurrentAccountId
 
 Get current accountId (last logged into should normally be current) for logged in associate
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get current accountId (last logged into should normally be current) for logged i
 ```http
 POST /api/v1/Agents/EMail/GetCurrentAccountId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,6 +45,7 @@ POST /api/v1/Agents/EMail/GetCurrentAccountId?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: int32
 
 OK
@@ -46,13 +56,14 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetCurrentAccountId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -61,5 +72,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-757
+562
 ```

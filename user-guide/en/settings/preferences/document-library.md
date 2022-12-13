@@ -16,7 +16,7 @@ By default, your SuperOffice site is connected to the SuperOffice document libra
 If your organization is using SharePoint, you can configure SuperOffice to use SharePoint as the default document library.
 
 > [!NOTE]
-> Before you can start this configuration, you need to set up site permissions and library permissions in SharePoint.
+> Before you can start this configuration, you must set up site permissions and library permissions in SharePoint.
 
 See [Configure SharePoint document library][1]
 

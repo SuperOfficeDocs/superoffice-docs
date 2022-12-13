@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 
 Get recurrence data contained in the email iCal attachment
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get recurrence data contained in the email iCal attachment
 ```http
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MailItemId
+MailItemId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MailItemId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 275
+  "MailItemId": 968
 }
 ```
 
@@ -91,10 +101,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 127,
-  "StartDate": "2022-03-07T11:10:26.8824219+01:00",
-  "EndDate": "2019-03-27T11:10:26.8824219+01:00",
-  "RecurrenceCounter": 875,
+  "RecurrenceId": 115,
+  "StartDate": "2017-07-28T02:49:44.3878864+02:00",
+  "EndDate": "2013-10-10T02:49:44.3878864+02:00",
+  "RecurrenceCounter": 510,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -103,18 +113,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2004-10-09T11:10:26.8824219+02:00",
+      "Date": "2007-02-23T02:49:44.3878864+01:00",
       "IsConflict": false,
-      "Description": "Versatile fresh-thinking hub",
-      "DescriptionStyleHint": "Enhanced actuating architecture",
-      "Tooltip": "quasi"
+      "Description": "Virtual 24/7 middleware",
+      "DescriptionStyleHint": "Multi-channelled modular complexity",
+      "Tooltip": "autem"
     },
     {
-      "Date": "2004-10-09T11:10:26.8824219+02:00",
+      "Date": "2007-02-23T02:49:44.3878864+01:00",
       "IsConflict": false,
-      "Description": "Versatile fresh-thinking hub",
-      "DescriptionStyleHint": "Enhanced actuating architecture",
-      "Tooltip": "quasi"
+      "Description": "Virtual 24/7 middleware",
+      "DescriptionStyleHint": "Multi-channelled modular complexity",
+      "Tooltip": "autem"
     }
   ],
   "IsRecurrence": true

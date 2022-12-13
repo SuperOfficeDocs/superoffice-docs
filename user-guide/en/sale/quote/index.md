@@ -11,13 +11,13 @@ language: en
 
 # Work with quotes
 
-When you have registered a sale in SuperOffice CRM, it is quick and easy to create a quote and send it to the customer. The quote can contain several alternative versions for the customer to choose between, and you have full control of the different versions of the quote if there are any changes.
+After registering a sale in SuperOffice CRM, it is quick and easy to create a quote and send it to the customer. The quote can contain several alternative versions for the customer to choose between, and you have full control of the different versions of the quote if there are any changes.
 
-The process of creating and sending a quote can be summed up as follows:
+## The process of creating and sending a quote
 
 1. Open a sale and [create the quote][1].
 2. [Add products to the quote][2].
-3. [Create the quote document][3]. This will be the "letter" that accompanies the list of products that are being offered.
+3. [Create the quote document][3]. This is the "letter" that accompanies the list of products that are being offered.
 4. [Send the quote][4].
 5. When the customer accepts the quote, you can [place the order][5].
 

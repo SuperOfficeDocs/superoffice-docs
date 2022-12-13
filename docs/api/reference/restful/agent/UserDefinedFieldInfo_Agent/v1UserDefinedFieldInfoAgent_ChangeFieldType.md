@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 
 Create a UserDefinedFieldInfo based on a owner-entity id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a UserDefinedFieldInfo based on a owner-entity id
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Info, FieldType, IsIndexed
+Info, FieldType, IsIndexed 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ Info, FieldType, IsIndexed
 | FieldType | string |  |
 | IsIndexed | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,13 +108,13 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
   "FieldType": "Checkbox",
-  "IsIndexed": true
+  "IsIndexed": false
 }
 ```
 
@@ -117,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 810,
-  "ColumnId": 601,
-  "FieldDefault": "eos",
-  "FieldHeight": 107,
-  "FieldLabel": "nihil",
-  "FieldLeft": 817,
-  "FieldTop": 839,
+  "UDefFieldId": 874,
+  "ColumnId": 695,
+  "FieldDefault": "facere",
+  "FieldHeight": 418,
+  "FieldLabel": "illum",
+  "FieldLeft": 813,
+  "FieldTop": 99,
   "FieldType": "Checkbox",
-  "FieldWidth": 218,
-  "FormatMask": "fugit",
+  "FieldWidth": 810,
+  "FormatMask": "maxime",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 537,
-  "LabelLeft": 951,
-  "LabelTop": 259,
-  "LabelWidth": 199,
-  "LastVersionId": 111,
-  "ListTableId": 677,
-  "IsMandatory": true,
+  "LabelHeight": 991,
+  "LabelLeft": 239,
+  "LabelTop": 667,
+  "LabelWidth": 453,
+  "LastVersionId": 731,
+  "ListTableId": 443,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 792,
-  "ProgId": "cupiditate",
-  "IsReadOnly": true,
-  "ShortLabel": "dolores",
-  "TabOrder": 983,
-  "TextLength": 684,
-  "Tooltip": "cumque",
-  "UdefIdentity": 929,
-  "UDListDefinitionId": 305,
+  "Page1LineNo": 515,
+  "ProgId": "ducimus",
+  "IsReadOnly": false,
+  "ShortLabel": "libero",
+  "TabOrder": 774,
+  "TextLength": 873,
+  "Tooltip": "repellendus",
+  "UdefIdentity": 894,
+  "UDListDefinitionId": 486,
   "Justification": "Center",
-  "Version": 96,
-  "TemplateVariableName": "Harris-Nienow",
-  "HasBeenPublished": false,
-  "MdoListName": "Treutel, Jerde and O'Hara",
+  "Version": 781,
+  "TemplateVariableName": "Kunde-Macejkovic",
+  "HasBeenPublished": true,
+  "MdoListName": "Lind, McClure and Schneider",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldType": "System.Int32",
+      "FieldLength": 949
     }
   }
 }

@@ -11,9 +11,15 @@ PUT /api/v1/DashboardTile/{id}
 
 Updates the existing DashboardTile
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashboardTile id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing DashboardTile
 ```http
 PUT /api/v1/DashboardTile/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/DashboardTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashboardTile to be saved.
+The DashboardTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +67,8 @@ The DashboardTile to be saved.
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 DashboardTile updated.
 
@@ -69,7 +77,7 @@ DashboardTile updated.
 | 200 | DashboardTile updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,46 +105,46 @@ Response body:
 PUT /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 498,
-  "Caption": "debitis",
-  "Description": "Customizable maximized database",
-  "ChartName": "Hudson, Rosenbaum and Gislason",
-  "ChartId": "voluptatem",
-  "IsDefault": true,
-  "AssociateId": 967,
-  "GroupId": 125,
-  "SelectionId": 62,
-  "Config": "sint",
+  "DashboardTileId": 290,
+  "Caption": "vitae",
+  "Description": "De-engineered optimizing contingency",
+  "ChartName": "Bashirian-Anderson",
+  "ChartId": "aut",
+  "IsDefault": false,
+  "AssociateId": 44,
+  "GroupId": 608,
+  "SelectionId": 12,
+  "Config": "libero",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Nienow-Schroeder",
-      "Description": "Configurable 6th generation ability",
+      "Name": "Douglas LLC",
+      "Description": "Decentralized bi-directional hierarchy",
       "Type": "Boolean",
-      "ListName": "Kohler-Brekke",
+      "ListName": "Connelly, Bruen and Waelchi",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ea",
+      "Value": "maiores",
       "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 881,
+      "VisibleId": 20,
       "Visibility": "All",
-      "DisplayValue": "officia"
+      "DisplayValue": "laboriosam"
     },
     {
-      "VisibleId": 881,
+      "VisibleId": 20,
       "Visibility": "All",
-      "DisplayValue": "officia"
+      "DisplayValue": "laboriosam"
     }
   ]
 }
@@ -149,64 +157,64 @@ HTTP/1.1 200 DashboardTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 715,
-  "Caption": "dicta",
-  "Description": "Re-engineered cohesive budgetary management",
-  "ChartName": "Willms Inc and Sons",
-  "ChartId": "vel",
+  "DashboardTileId": 90,
+  "Caption": "iste",
+  "Description": "Down-sized cohesive methodology",
+  "ChartName": "Weissnat, Morissette and Kuhlman",
+  "ChartId": "numquam",
   "IsDefault": true,
-  "AssociateId": 73,
-  "GroupId": 481,
-  "SelectionId": 93,
-  "Config": "corrupti",
+  "AssociateId": 446,
+  "GroupId": 611,
+  "SelectionId": 268,
+  "Config": "suscipit",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Huel, O'Kon and Boyle",
-      "Description": "Progressive contextually-based knowledge user",
+      "Name": "Kutch-Cummerata",
+      "Description": "Organized holistic workforce",
       "Type": "Boolean",
-      "ListName": "Abshire, O'Hara and Cruickshank",
+      "ListName": "Reichel, Pfannerstill and Lakin",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ea",
+      "Value": "repellendus",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 398
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 253,
+      "VisibleId": 651,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldLength": 676
         }
       }
     },
     {
-      "VisibleId": 253,
+      "VisibleId": 651,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldLength": 676
         }
       }
     }
@@ -215,13 +223,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldType": "System.String",
+      "FieldLength": 654
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

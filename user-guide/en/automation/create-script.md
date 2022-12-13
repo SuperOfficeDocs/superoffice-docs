@@ -9,11 +9,9 @@ so.topic: howto
 language: en
 ---
 
-# Create a script
+# Create or edit a script
 
-In the **Edit script** screen you can edit or create a script. Documentation and examples of the use of CRMScript (EJScript) is available [here][1].
-
-To create or edit a script:
+In the **Edit script** screen, you can edit or create a [CRMScript][1].
 
 1. Go to the **Macros and scripts** tab:
 
@@ -25,12 +23,13 @@ To create or edit a script:
     * To edit an existing script: Click the script name.
 
 1. In the **Information** tab, edit or enter data about the script:
-    * **Folder**: Select the folder in which you want to save the script.
-    * **Name**: The name of the script
-    * **Description**: A description of the script.
-    * **Include name**: This is the unique name for this script, which you may use to include the script in another script, using the "include" function.
+
+    * **Folder**: Select the folder you want to save the script in.
+    * **Name**
+    * **Description**
+    * **Include name**: A unique name for the script, used to include this script in another script.
     * **Key**: The key is used with the "action=parse" function on the customer pages so that you can run scripts and set up script-based functionality in SuperOffice Customer Centre. The key prevents arbitrary scripts from being run from the customer pages.
-    * **Show result of running script as HTML**: Select this option to show the result of the script as HTML.
+    * **Show result of running script as HTML**
 
 1. In the **Script** tab, you can enter the script itself.
 

@@ -16,7 +16,7 @@ In SuperOffice CRM, you can create selections of records/data that you work a lo
 > [!TIP]
 > You can create charts from selections and also use selections to create mailings.
 
-All the selections also contain an overview of companies and contacts linked to the records in the selection, e.g. companies and contacts linked to the sales in a sale selection.
+All the selections also contain an overview of companies and contacts linked to the records in the selection. For example, companies and contacts linked to the sales in a sale selection.
 
 ## Types
 
@@ -26,89 +26,87 @@ There are three different types of selections in SuperOffice CRM:
 * [Dynamic selection][8], which will always be updated automatically with members that match the selection criteria.
 * [Combined selection][9], which is a combination of two existing selections.
 
-## Add record as a favourite
+## Add record as a favorite
 
 [!include[ALT](../../includes/howto-add-favorite.md)]
 
 ## Tasks
 
-From the **Tasks** button (lower part of the screen), you can [perform specific tasks on the members of a selection][1], e.g. send an e-mail to contacts linked to the sales in the selection.
+From the **Tasks** button (lower part of the screen), you can [perform specific tasks on the members of a selection][1]. For example, send an email to contacts linked to the sales in the selection.
 
 ## What can I use selections for
-
-In SuperOffice CRM you can create a selection of almost anything. The purpose of the examples below is to provide you with some ideas of how to use this functionality in the program.
 
 ### Company
 
 You can create a selection that contains
 
-* all the companies in a specific geographical region
-* all the companies where you have defined *Christmas card* or *newsletter* as an interest.
+* All the companies in a specific geographical region
+* All the companies where you have defined *Christmas card* or *newsletter* as an interest.
 
 > [!NOTE]
-> In all the selections below, a section tab is also displayed, containing companies and contacts linked to the entries in the selection. These might be, for example, customers linked to the sales in a sales selection.
+> In all the selections below, a section tab is also displayed, containing companies and contacts linked to the entries in the selection. For example, customers linked to the sales in a sales selection.
 
 ### Sale
 
 You can create a selection that contains
 
-* a list of all your own sales with the status **Lost** or **Sold**
-* all sales for the entire sales department in the current quarter
+* A list of all your own sales with the status **Lost** or **Sold**
+* All sales for the sales department in the current quarter
 
 ### Project
 
 You can create a selection that contains
 
-* all active projects you are participating in
-* all projects with a specific status or of a specific type
+* All active projects you are participating in
+* All projects with a specific status or of a specific type
 
 ### Document
 
 You can create a selection that contains
 
-* all the contracts you have registered in SuperOffice CRM
-* a list of all the documents that do not have the status **Completed**
+* All the contracts registered in SuperOffice CRM
+* A list of all the documents that do not have the status **Completed**
 
 ### Follow-up
 
 You can create a selection that contains
 
-* a list of all follow-ups for the same customer last year, e.g. if they are considering signing a framework agreement with your company
-* all follow-ups of a specific status or for a specific customer
+* A list of all follow-ups for the same customer last year, for example, if they are considering signing a framework agreement with your company
+* All follow-ups of a specific status or for a specific customer
 
 ### Products
 
 You can create a selection that contains
 
-* a list of all customers who have purchased a specific product or a specific product category
-* a list of all products sold this year, based on sales which contain quotes and have the status **Sold**
+* A list of all customers who have purchased a specific product or a specific product category
+* A list of all products sold this year, based on sales which contain quotes and have the status **Sold**
 
 ### Requests
 
 You can create a selection that contains
 
-* a list of open request with priority **High** for your department (category)
-* a list of open request that have not been updated for over a week
+* A list of open request with priority **High** for your department (category)
+* A list of open request that have not been updated for over a week
 
 ### Form submissions
 
 You can create a selection that contains
 
-* non-processed form submissions for your customers
+* Non-processed form submissions for your customers
 
 ### Chat conversations
 
 You can create a selection that contains
 
-* your chat conversations
-* your customers' chat conversations with specific ratings
+* Your chat conversations
+* Your customers' chat conversations with specific ratings
 
 ### Mailings
 
 You can create a selection that contains
 
-* mailings with a specific open-rate or click-rate
-* mailings with high bounce rates
+* Mailings with a specific open-rate or click-rate
+* Mailings with high bounce rates
 
 ## What would you like to do now?
 

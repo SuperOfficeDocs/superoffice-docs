@@ -3,17 +3,28 @@ items:
   href: index.md
 - name: Marketing screen
   href: screen/index.md
-- name: Add favourites
-  href: add-favourites.md
-- name: Create folder
-  href: create-folder.md
-- name: Add images
-  href: add-images.md
+- name: Define settings for mailings
+  href: admin/define-settings-for-mailings.md
+- name: Work with marketing
+  items:
+  - name: Add favorites
+    href: add-favourites.md
+  - name: Create folder
+    href: create-folder.md
+  - name: Add images
+    href: add-images.md
 - name: Work with mailings
   href: mailing/toc.yml
 - name: Work with message templates
   href: work-with-messages-and-templates.md
-- name: Tracked links
+- name: Editors
+  href: editor/index.md
+  items:
+  - name: Drag and drop editor
+    href: editor/drag-and-drop/toc.yml
+  - name: Old editor
+    href: editor/old/toc.yml
+- name: Work with tracked links
   href: tracked-links/index.md
   items:
   - name: Create tracked link
@@ -28,16 +39,3 @@ items:
     href: tracked-links/explore-clicks.md
   - name: Reset counters
     href: tracked-links/reset-counter.md
-- name: Editors
-  href: editor/index.md
-  items:
-  - name: Drag and drop editor
-    href: editor/drag-and-drop/toc.yml
-  - name: Old editor
-    href: editor/old/toc.yml
-  - name: Forms
-    href: ../forms/toc.yml
-- name: For administrators
-  items:
-  - name: Define settings for mailings
-    href: admin/define-settings-for-mailings.md

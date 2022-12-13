@@ -9,17 +9,15 @@ so.topic: help
 language: en
 ---
 
-# Edit contact
-
-To edit information recorded for a contact, do as follows:
+# Edit contact info
 
 [!include[Go to company](../includes/goto-company.md)]
 
 1. Select the **Contacts** section tab.
 
-1. Double-click the required contact. The contact card opens in the **Contact** screen.
+1. Double-click the required contact.
 
-1. Click **Edit**.
+1. Click **Edit** in the contact card in the **Contact** screen.
 
 1. [Make the required changes][1].
 

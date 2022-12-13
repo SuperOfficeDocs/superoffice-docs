@@ -11,9 +11,16 @@ POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 
 Create a new session on a chat topic
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatTopicId | int32 | Id of the chat topic **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Create a new session on a chat topic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +88,7 @@ Response body:
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 222,
-  "TopicId": 139,
+  "ChatSessionId": 416,
+  "TopicId": 65,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "voluptatem",
-  "CustomerName": "Yost-Aufderhar",
-  "CustomerEmail": "nikki_pfeffer@dach.info",
-  "CustomerPhone": "423.889.3088 x689",
+  "CustomerAlias": "aut",
+  "CustomerHost": "consequatur",
+  "CustomerName": "Haag-Donnelly",
+  "CustomerEmail": "jett@fadelstehr.uk",
+  "CustomerPhone": "432-097-8927 x4504",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hessel, Murphy and Torphy",
+  "CustomerCompanyName": "Mann-Schowalter",
   "Status": "Closed",
-  "FirstMessage": "nisi",
-  "LastMessage": "id",
-  "WhenRequested": "1997-02-09T11:10:52.6051642+01:00",
-  "WhenStarted": "2018-12-24T11:10:52.6051642+01:00",
-  "WhenEnded": "2006-05-06T11:10:52.6051642+02:00",
-  "WhenIdle": "2014-01-01T11:10:52.6051642+01:00",
-  "WhenFetched": "2000-01-20T11:10:52.6051642+01:00",
-  "SessionKey": "velit",
-  "InitialQueuePos": 325,
-  "AlertLevel": 720,
-  "Rank": 151,
+  "FirstMessage": "atque",
+  "LastMessage": "eius",
+  "WhenRequested": "2021-01-26T02:49:50.7140357+01:00",
+  "WhenStarted": "1995-11-02T02:49:50.7140357+01:00",
+  "WhenEnded": "2000-06-11T02:49:50.7140357+02:00",
+  "WhenIdle": "2006-01-18T02:49:50.7140357+01:00",
+  "WhenFetched": "2017-08-26T02:49:50.7140357+02:00",
+  "SessionKey": "unde",
+  "InitialQueuePos": 525,
+  "AlertLevel": 142,
+  "Rank": 272,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 395,
+  "ChatbotIsActive": true,
+  "Rating": 104,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldLength": 152
     }
   }
 }

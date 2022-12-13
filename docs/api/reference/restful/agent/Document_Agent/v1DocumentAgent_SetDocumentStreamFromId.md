@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/SetDocumentStreamFromId
 
 Store document content from stream.
 
+
 Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Since there is a potential for a name conflict (the file name stored by the docu
 ```http
 POST /api/v1/Agents/Document/SetDocumentStreamFromId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/Document/SetDocumentStreamFromId?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, Stream
+DocumentId, Stream 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | Stream | byte |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,11 +109,11 @@ Response body:
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 56,
+  "DocumentId": 449,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -117,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 911,
+  "DocumentId": 353,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "exercitationem",
-  "Header": "soluta",
-  "Name": "Bailey, Barrows and Haag",
-  "OurRef": "suscipit",
-  "YourRef": "rerum",
-  "CreatedDate": "2017-03-22T11:10:26.6254477+01:00",
-  "UpdatedDate": "2000-02-07T11:10:26.6254477+01:00",
-  "Description": "Re-engineered cohesive architecture",
+  "Attention": "cupiditate",
+  "Header": "aut",
+  "Name": "Stehr Inc and Sons",
+  "OurRef": "qui",
+  "YourRef": "quod",
+  "CreatedDate": "2008-11-15T02:49:44.3410121+01:00",
+  "UpdatedDate": "2005-01-03T02:49:44.3410121+01:00",
+  "Description": "Proactive dynamic paradigm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-06-26T11:10:26.6284478+02:00",
-  "ExternalRef": "id",
+  "Date": "2018-03-23T02:49:44.3410121+01:00",
+  "ExternalRef": "sit",
   "Completed": "Completed",
-  "ActiveLinks": 235,
+  "ActiveLinks": 152,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kihn-Hayes",
-      "Id": 767,
-      "Description": "Cross-group multi-state methodology",
-      "ExtraInfo": "eum",
-      "LinkId": 956,
+      "EntityName": "Cassin LLC",
+      "Id": 143,
+      "Description": "Advanced optimal attitude",
+      "ExtraInfo": "ipsa",
+      "LinkId": 294,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 425
+          "FieldType": "System.Int32",
+          "FieldLength": 696
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 72,
-  "Snum": 280,
+  "SuggestedDocumentId": 412,
+  "Snum": 527,
   "UserDefinedFields": {
-    "SuperOffice:1": "433954033",
-    "SuperOffice:2": "Miracle Shields"
+    "SuperOffice:1": "Taya Nolan",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "harum",
-    "ExtraFields2": "esse"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "quidem"
   },
   "CustomFields": {
-    "CustomFields1": "magnam",
-    "CustomFields2": "ipsum"
+    "CustomFields1": "quia",
+    "CustomFields2": "earum"
   },
-  "PublishEventDate": "2002-06-01T11:10:26.62945+02:00",
-  "PublishTo": "2021-05-26T11:10:26.62945+02:00",
-  "PublishFrom": "2012-07-19T11:10:26.62945+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2017-12-18T02:49:44.3410121+01:00",
+  "PublishTo": "2020-05-09T02:49:44.3410121+02:00",
+  "PublishFrom": "2008-06-09T02:49:44.3410121+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 456,
+      "VisibleId": 573,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldLength": 440
         }
       }
     },
     {
-      "VisibleId": 456,
+      "VisibleId": 573,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldLength": 440
         }
       }
     }
@@ -207,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldType": "System.Int32",
+      "FieldLength": 965
     }
   }
 }

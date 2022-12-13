@@ -11,11 +11,18 @@ GET /api/v1/Product/{productId}/ImageInfo
 
 Get the Blob that describes the given products picture.
 
+
 The actual bitmap is accessible via /api/Services80/pricelist/1/product/123/image.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | productId | int32 | Product id **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ The actual bitmap is accessible via /api/Services80/pricelist/1/product/123/imag
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,28 +80,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 23 May 2014 11:10:53 G5T
+Last-Modified: Thu, 14 Mar 2019 02:49:51 G3T
 
 {
-  "BlobId": 605,
-  "BlobSize": 273,
-  "Description": "Fundamental bandwidth-monitored algorithm",
-  "ExtraInfo": "voluptatum",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "vitae",
-  "OriginalSize": 300,
-  "CreatedDate": "1997-05-20T11:10:53.7492158+02:00",
-  "UpdatedDate": "2014-05-23T11:10:53.7492158+02:00",
+  "BlobId": 466,
+  "BlobSize": 174,
+  "Description": "Cross-group national knowledge base",
+  "ExtraInfo": "error",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "eum",
+  "OriginalSize": 688,
+  "CreatedDate": "2019-03-17T02:49:51.7491471+01:00",
+  "UpdatedDate": "2019-03-14T02:49:51.7491471+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "laboriosam",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 15
     }
   }
 }

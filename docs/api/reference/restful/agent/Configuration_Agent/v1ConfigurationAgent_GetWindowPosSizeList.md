@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizeList
 
 Gets an array of WindowPosSize objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of WindowPosSize objects.
 ```http
 POST /api/v1/Agents/Configuration/GetWindowPosSizeList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizeList?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: windowPosSizeIds
+## Request Body: windowPosSizeIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -71,7 +80,7 @@ Response body: array
 POST /api/v1/Agents/Configuration/GetWindowPosSizeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "consequatur",
-    "PersonId": 414,
-    "AssociateId": 547,
-    "ExtraId": 517,
-    "ExtraInfo": "ex",
-    "Height": 729,
-    "LeftX": 521,
+    "OwnerWindow": "nobis",
+    "PersonId": 805,
+    "AssociateId": 614,
+    "ExtraId": 436,
+    "ExtraInfo": "cumque",
+    "Height": 346,
+    "LeftX": 764,
     "State": "Maximized",
-    "UpperY": 684,
-    "Width": 644,
-    "WindowPosSizeId": 38,
+    "UpperY": 314,
+    "Width": 355,
+    "WindowPosSizeId": 542,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldType": "System.String",
+        "FieldLength": 123
       }
     }
   }

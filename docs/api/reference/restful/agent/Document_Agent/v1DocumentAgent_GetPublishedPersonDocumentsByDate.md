@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 
 Method that returns a specified number of published document appointments within a time range.
 
+
 The document appointments belong to the person specified or the document is in a project the person belongs to.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the person specified or the document is in a
 ```http
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectDocuments, StartTime, EndTime, Count
+PersonId, IncludeProjectDocuments, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ PersonId, IncludeProjectDocuments, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -94,11 +102,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 452,
+  "PersonId": 73,
   "IncludeProjectDocuments": false,
-  "StartTime": "2002-10-19T11:10:26.4624579+02:00",
-  "EndTime": "2006-05-08T11:10:26.4624579+02:00",
-  "Count": 441
+  "StartTime": "2007-03-05T02:49:44.0753838+01:00",
+  "EndTime": "2015-08-03T02:49:44.0753838+02:00",
+  "Count": 248
 }
 ```
 
@@ -110,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 135,
-    "Attention": "quia",
-    "Header": "molestiae",
-    "Name": "Thompson LLC",
-    "OurRef": "perferendis",
-    "YourRef": "omnis",
-    "Description": "Focused regional conglomeration",
-    "DocumentTemplate": "sit",
+    "DocumentId": 38,
+    "Attention": "laudantium",
+    "Header": "error",
+    "Name": "Anderson LLC",
+    "OurRef": "eius",
+    "YourRef": "minima",
+    "Description": "Re-contextualized mobile task-force",
+    "DocumentTemplate": "sed",
     "IsPublished": true,
-    "PersonId": 180,
-    "PersonFullName": "Elwyn Gerhold",
-    "AssociateFullName": "Carmela Bednar",
-    "ContactId": 675,
-    "ContactName": "Cole Inc and Sons",
-    "ProjectId": 773,
-    "ProjectName": "Boyer LLC",
-    "AssociateId": 933,
-    "Snum": 24,
-    "SaleId": 614,
-    "SaleName": "Runolfsdottir, Fadel and Carroll",
+    "PersonId": 110,
+    "PersonFullName": "Alayna Bins",
+    "AssociateFullName": "Bessie Tevin Lang Jr.",
+    "ContactId": 529,
+    "ContactName": "Kiehn-Walter",
+    "ProjectId": 293,
+    "ProjectName": "Prohaska-Heller",
+    "AssociateId": 194,
+    "Snum": 598,
+    "SaleId": 892,
+    "SaleName": "Pfannerstill, Schulist and Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldType": "System.Int32",
+        "FieldLength": 654
       }
     }
   }

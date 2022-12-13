@@ -4,7 +4,7 @@ title: Add other users
 description: Add anonymous users or system users
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords:  user
+keywords: user
 so.topic: howto
 language: en
 so.envir: onsite
@@ -13,8 +13,6 @@ so.envir: onsite
 # Add anonymous user or system user
 
 [!include[Requirement](../includes/note-users-that-req-es.md)]
-
-To add anonymous users or system users:
 
 1. [!include[Click Users](includes/goto-users.md)]
 
@@ -35,7 +33,7 @@ To add anonymous users or system users:
 
 8. Select **Active** to the right of **Login** to activate the user.
 
-9. Click **Save** when you have finished. The user is added to the list.
+9. Click **Save**. The user is added to the list.
 
 <!-- Referenced links -->
 

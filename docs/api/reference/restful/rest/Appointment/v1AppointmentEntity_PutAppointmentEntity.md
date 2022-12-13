@@ -11,9 +11,15 @@ PUT /api/v1/Appointment/{id}
 
 Updates the existing AppointmentEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The AppointmentEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing AppointmentEntity
 ```http
 PUT /api/v1/Appointment/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Appointment/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The AppointmentEntity to be saved.
+The AppointmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,7 +108,8 @@ The AppointmentEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 AppointmentEntity updated.
 
@@ -111,7 +119,7 @@ AppointmentEntity updated.
 | 412 | Update stopped because AppointmentEntity has changed since the requested If-Unmodified-Since timestamp. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -180,7 +188,7 @@ Response body:
 PUT /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -188,62 +196,62 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-04-23T11:10:52.359172+02:00",
-  "AppointmentId": 692,
-  "Description": "Sharable fresh-thinking flexibility",
-  "StartDate": "1995-08-01T11:10:52.359172+02:00",
-  "EndDate": "1999-05-31T11:10:52.359172+02:00",
+  "CreatedDate": "1996-03-24T02:49:50.5109099+01:00",
+  "AppointmentId": 778,
+  "Description": "Re-engineered 5th generation instruction set",
+  "StartDate": "2020-11-06T02:49:50.5109099+01:00",
+  "EndDate": "2020-03-24T02:49:50.5109099+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 933,
+  "MotherId": 188,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-03-10T11:10:52.3621743+01:00",
+  "UpdatedDate": "2017-02-21T02:49:50.5109099+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 571,
+  "ActiveLinks": 696,
   "Links": [
     {
-      "EntityName": "Konopelski Inc and Sons",
-      "Id": 117,
-      "Description": "Face to face object-oriented local area network",
-      "ExtraInfo": "mollitia",
-      "LinkId": 239
+      "EntityName": "Champlin, Romaguera and Haag",
+      "Id": 989,
+      "Description": "Streamlined multi-state installation",
+      "ExtraInfo": "inventore",
+      "LinkId": 496
     },
     {
-      "EntityName": "Konopelski Inc and Sons",
-      "Id": 117,
-      "Description": "Face to face object-oriented local area network",
-      "ExtraInfo": "mollitia",
-      "LinkId": 239
+      "EntityName": "Champlin, Romaguera and Haag",
+      "Id": 989,
+      "Description": "Streamlined multi-state installation",
+      "ExtraInfo": "inventore",
+      "LinkId": 496
     }
   ],
-  "AlarmLeadTime": "qui",
+  "AlarmLeadTime": "facilis",
   "HasAlarm": false,
-  "ColorIndex": 833,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "magni",
-  "LeadTime": "voluptas",
-  "Location": "sint",
-  "RejectCounter": 557,
+  "ColorIndex": 789,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "omnis",
+  "LeadTime": "ut",
+  "Location": "quidem",
+  "RejectCounter": 617,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 259,
-      "PersonId": 980,
-      "ContactId": 433,
-      "EmailId": 487,
+      "AssociateId": 543,
+      "PersonId": 906,
+      "ContactId": 176,
+      "EmailId": 889,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 259,
-      "PersonId": 980,
-      "ContactId": 433,
-      "EmailId": 487,
+      "AssociateId": 543,
+      "PersonId": 906,
+      "ContactId": 176,
+      "EmailId": 889,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -251,44 +259,44 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-10-14T11:10:52.3621743+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2006-03-18T02:49:50.5109099+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 71,
+  "PreferredTZLocation": 51,
   "Sale": null,
-  "SuggestedAppointmentId": 523,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 256,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "molestiae",
+  "CentralserviceVideomeetId": "neque",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Dr. Arthur Zola Cummerata",
+    "SuperOffice:2": "Claudie Shields"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "soluta",
+    "ExtraFields2": "ducimus"
   },
   "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "eum"
+    "CustomFields1": "ea",
+    "CustomFields2": "iure"
   },
-  "PublishEventDate": "2010-09-25T11:10:52.3631744+02:00",
-  "PublishTo": "2015-10-16T11:10:52.3631744+02:00",
-  "PublishFrom": "2005-07-23T11:10:52.3631744+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-07-22T02:49:50.5109099+02:00",
+  "PublishTo": "1997-10-13T02:49:50.5109099+02:00",
+  "PublishFrom": "2008-04-04T02:49:50.5109099+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 949,
+      "VisibleId": 25,
       "Visibility": "All",
-      "DisplayValue": "dolores"
+      "DisplayValue": "facere"
     },
     {
-      "VisibleId": 949,
+      "VisibleId": 25,
       "Visibility": "All",
-      "DisplayValue": "dolores"
+      "DisplayValue": "facere"
     }
   ]
 }
@@ -305,122 +313,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1996-05-18T11:10:52.3731762+02:00",
-  "AppointmentId": 340,
-  "Description": "Synchronised web-enabled ability",
-  "StartDate": "2000-01-25T11:10:52.3731762+01:00",
-  "EndDate": "1998-07-21T11:10:52.3731762+02:00",
+  "CreatedDate": "1997-12-19T02:49:50.5265346+01:00",
+  "AppointmentId": 497,
+  "Description": "Multi-tiered hybrid strategy",
+  "StartDate": "2006-12-15T02:49:50.5265346+01:00",
+  "EndDate": "2003-06-30T02:49:50.5265346+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 127,
+  "MotherId": 307,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1996-12-27T11:10:52.3761746+01:00",
+  "UpdatedDate": "2001-05-17T02:49:50.5265346+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 723,
+  "ActiveLinks": 297,
   "Links": [
     {
-      "EntityName": "Kozey, Kessler and Corkery",
-      "Id": 288,
-      "Description": "Advanced client-server superstructure",
-      "ExtraInfo": "fugit",
-      "LinkId": 527,
+      "EntityName": "Heidenreich, Haag and Pacocha",
+      "Id": 874,
+      "Description": "Sharable bifurcated circuit",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 645,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldLength": 974
         }
       }
     }
   ],
-  "AlarmLeadTime": "facere",
+  "AlarmLeadTime": "sunt",
   "HasAlarm": false,
-  "ColorIndex": 507,
+  "ColorIndex": 442,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "quaerat",
-  "LeadTime": "non",
-  "Location": "qui",
-  "RejectCounter": 395,
-  "RejectReason": "enhance transparent markets",
+  "IsAlldayEvent": false,
+  "LagTime": "sunt",
+  "LeadTime": "laborum",
+  "Location": "porro",
+  "RejectCounter": 555,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 176,
-      "PersonId": 732,
-      "ContactId": 506,
-      "EmailId": 22,
-      "SendEmail": true,
+      "AssociateId": 968,
+      "PersonId": 194,
+      "ContactId": 446,
+      "EmailId": 141,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 176,
-      "PersonId": 732,
-      "ContactId": 506,
-      "EmailId": 22,
-      "SendEmail": true,
+      "AssociateId": 968,
+      "PersonId": 194,
+      "ContactId": 446,
+      "EmailId": 141,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-04-11T11:10:52.3771739+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2013-10-14T02:49:50.5265346+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 412,
+  "PreferredTZLocation": 294,
   "Sale": null,
-  "SuggestedAppointmentId": 715,
+  "SuggestedAppointmentId": 969,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "pariatur",
+  "CentralserviceVideomeetId": "voluptas",
   "UserDefinedFields": {
-    "SuperOffice:1": "Toy Wiza V",
-    "SuperOffice:2": "Otho Reilly"
+    "SuperOffice:1": "1416842477",
+    "SuperOffice:2": "Stanley Cronin"
   },
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "et",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "nihil"
+    "CustomFields1": "quo",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2001-05-18T11:10:52.3781746+02:00",
-  "PublishTo": "1995-05-18T11:10:52.3781746+02:00",
-  "PublishFrom": "2012-05-21T11:10:52.3781746+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2022-09-07T02:49:50.5265346+02:00",
+  "PublishTo": "2008-10-09T02:49:50.5265346+02:00",
+  "PublishFrom": "1999-11-08T02:49:50.5265346+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 776,
+      "VisibleId": 121,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 562
         }
       }
     },
     {
-      "VisibleId": 776,
+      "VisibleId": 121,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 562
         }
       }
     }
@@ -429,8 +437,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldType": "System.String",
+      "FieldLength": 310
     }
   },
   "_Links": {

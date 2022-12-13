@@ -11,6 +11,13 @@ PUT /api/v1/List/LegalBase
 
 Save the description of LegalBase list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,12 +32,12 @@ Save the description of LegalBase list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listEntity
+## Request Body: listEntity  
 
 The list entity contains information about a specific list
 <para />
 Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ Services for the ListEntity Carrier is available from the <see cref="T:SuperOffi
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 160,
-  "Name": "Cremin Inc and Sons",
-  "Tooltip": "commodi",
+  "Id": 563,
+  "Name": "Orn-Bradtke",
+  "Tooltip": "itaque",
   "Deleted": true,
-  "Rank": 201,
+  "Rank": 755,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "laboriosam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -100,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 567,
-  "Name": "Farrell-Jast",
-  "Tooltip": "omnis",
+  "Id": 229,
+  "Name": "Kuhic, Wyman and Fadel",
+  "Tooltip": "ad",
   "Deleted": false,
-  "Rank": 67,
+  "Rank": 948,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugiat",
-  "InUseByUserDefinedFields": false,
+  "ListType": "eum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 14
     }
   }
 }

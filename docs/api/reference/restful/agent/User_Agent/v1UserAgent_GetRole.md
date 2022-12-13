@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetRole
 
 Gets a Role object.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a Role object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRole?roleId=749
+POST /api/v1/Agents/User/GetRole?roleId=247
 POST /api/v1/Agents/User/GetRole?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,7 +47,8 @@ POST /api/v1/Agents/User/GetRole?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +72,7 @@ Response body:
 POST /api/v1/Agents/User/GetRole
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 600,
-  "Value": "ea",
-  "Tooltip": "tempore",
+  "Id": 563,
+  "Value": "impedit",
+  "Tooltip": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 726
+      "FieldLength": 583
     }
   }
 }

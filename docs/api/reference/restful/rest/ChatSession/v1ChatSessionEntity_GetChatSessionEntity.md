@@ -11,11 +11,17 @@ GET /api/v1/ChatSession/{id}
 
 Gets a ChatSessionEntity object.
 
+
 Calls the Chat agent service GetChatSessionEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ChatSessionEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Chat agent service GetChatSessionEntity.
 ```http
 GET /api/v1/ChatSession/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/ChatSession/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ChatSessionEntity found.
 
@@ -49,7 +57,7 @@ ChatSessionEntity found.
 | 200 | ChatSessionEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +102,7 @@ Response body:
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,43 +112,43 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 470,
-  "TopicId": 508,
+  "ChatSessionId": 155,
+  "TopicId": 221,
   "User": null,
   "Person": null,
-  "CustomerAlias": "at",
-  "CustomerHost": "vero",
-  "CustomerName": "Fritsch Group",
-  "CustomerEmail": "nasir.morissette@hudsonwyman.uk",
-  "CustomerPhone": "017-660-0855",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Johnson Group",
+  "CustomerAlias": "quis",
+  "CustomerHost": "ipsa",
+  "CustomerName": "Hahn-Rogahn",
+  "CustomerEmail": "muhammad@grimes.name",
+  "CustomerPhone": "267-701-0056",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Ruecker Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "animi",
-  "LastMessage": "provident",
-  "WhenRequested": "2000-10-25T11:10:52.4541741+02:00",
-  "WhenStarted": "1995-11-14T11:10:52.4541741+01:00",
-  "WhenEnded": "2022-06-20T11:10:52.4541741+02:00",
-  "WhenIdle": "2016-06-13T11:10:52.4541741+02:00",
-  "WhenFetched": "2002-01-06T11:10:52.4541741+01:00",
-  "SessionKey": "consequuntur",
-  "InitialQueuePos": 948,
-  "AlertLevel": 129,
-  "Rank": 124,
+  "FirstMessage": "officia",
+  "LastMessage": "in",
+  "WhenRequested": "2016-12-04T02:49:50.5890349+01:00",
+  "WhenStarted": "2015-08-31T02:49:50.5890349+02:00",
+  "WhenEnded": "2013-02-24T02:49:50.5890349+01:00",
+  "WhenIdle": "2007-12-02T02:49:50.5890349+01:00",
+  "WhenFetched": "2019-01-30T02:49:50.5890349+01:00",
+  "SessionKey": "corporis",
+  "InitialQueuePos": 606,
+  "AlertLevel": 600,
+  "Rank": 526,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 284,
+  "ChatbotIsActive": false,
+  "Rating": 720,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldType": "System.Int32",
+      "FieldLength": 482
     }
   },
   "_Links": {

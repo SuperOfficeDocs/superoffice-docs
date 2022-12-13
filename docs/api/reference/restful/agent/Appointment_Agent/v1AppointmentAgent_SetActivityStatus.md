@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/SetActivityStatus
 
 Sets the completed status for an array of activities.
 
+
 The string activityIdentifier param may contain of a mix of appointment_id, sale_id, document_id and todo_id. The changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be made. If there is no write access to the record being changed, a Sentry exception will be thrown in the usual manner.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ The string activityIdentifier param may contain of a mix of appointment_id, sale
 POST /api/v1/Agents/Appointment/SetActivityStatus?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,16 +40,17 @@ POST /api/v1/Agents/Appointment/SetActivityStatus?$select=name,department,catego
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ActivityIdentifier, ActivityStatus
+ActivityIdentifier, ActivityStatus 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ActivityIdentifier | array |  |
 | ActivityStatus | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +58,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -63,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifier": [
-    "quibusdam",
-    "nostrum"
+    "rerum",
+    "reiciendis"
   ],
   "ActivityStatus": "Completed"
 }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Replication/SaveCentralLicense
 
 <para />
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
+
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/Replication/SaveCentralLicense
 ```http
 POST /api/v1/Agents/Replication/SaveCentralLicense?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Replication/SaveCentralLicense?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-License
+License 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | License | array |  |
+
 
 ## Response: array
 
@@ -70,14 +78,14 @@ Response body: array
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Von-Dicki",
-      "Description": "Re-engineered encompassing alliance",
+      "Name": "Volkman, Osinski and Koelpin",
+      "Description": "Ergonomic modular monitoring",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -88,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Von-Dicki",
-      "Description": "Re-engineered encompassing alliance",
+      "Name": "Volkman, Osinski and Koelpin",
+      "Description": "Ergonomic modular monitoring",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,56 +119,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wilderman-O'Reilly",
-    "Description": "Exclusive discrete focus group",
+    "Name": "Legros, Bechtelar and Leuschke",
+    "Description": "Distributed upward-trending product",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 985,
-        "Tooltip": "voluptatem",
-        "CanAssign": true,
-        "Free": 401,
-        "InUse": 902,
+        "Unrestricted": false,
+        "Total": 528,
+        "Tooltip": "quas",
+        "CanAssign": false,
+        "Free": 538,
+        "InUse": 225,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 778,
-        "Name": "Little-Hodkiewicz",
-        "Description": "Seamless attitude-oriented matrix",
-        "PrerequisiteModuleName": "Rutherford Group",
-        "SortOrder": 661,
-        "ExtraFlags": 544,
+        "ModuleLicenseId": 715,
+        "Name": "Roberts-Toy",
+        "Description": "Down-sized client-driven task-force",
+        "PrerequisiteModuleName": "Stehr-Roob",
+        "SortOrder": 513,
+        "ExtraFlags": 701,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 406
+            "FieldType": "System.Int32",
+            "FieldLength": 227
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 603,
-        "Tooltip": "magnam",
-        "CanAssign": false,
-        "Free": 587,
-        "InUse": 827,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 564,
-        "Name": "Effertz-Gerhold",
-        "Description": "Synergistic zero defect process improvement",
-        "PrerequisiteModuleName": "Gutkowski, Runolfsdottir and McCullough",
-        "SortOrder": 341,
-        "ExtraFlags": 479,
+        "Unrestricted": true,
+        "Total": 990,
+        "Tooltip": "et",
+        "CanAssign": true,
+        "Free": 436,
+        "InUse": 265,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 911,
+        "Name": "Koelpin, Rath and Little",
+        "Description": "Reverse-engineered actuating benchmark",
+        "PrerequisiteModuleName": "Labadie Inc and Sons",
+        "SortOrder": 910,
+        "ExtraFlags": 907,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 734
+            "FieldLength": 834
           }
         }
       }
@@ -169,62 +177,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldType": "System.String",
+        "FieldLength": 591
       }
     }
   },
   {
-    "Name": "Wilderman-O'Reilly",
-    "Description": "Exclusive discrete focus group",
+    "Name": "Legros, Bechtelar and Leuschke",
+    "Description": "Distributed upward-trending product",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 985,
-        "Tooltip": "voluptatem",
-        "CanAssign": true,
-        "Free": 401,
-        "InUse": 902,
+        "Unrestricted": false,
+        "Total": 528,
+        "Tooltip": "quas",
+        "CanAssign": false,
+        "Free": 538,
+        "InUse": 225,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 778,
-        "Name": "Little-Hodkiewicz",
-        "Description": "Seamless attitude-oriented matrix",
-        "PrerequisiteModuleName": "Rutherford Group",
-        "SortOrder": 661,
-        "ExtraFlags": 544,
+        "ModuleLicenseId": 715,
+        "Name": "Roberts-Toy",
+        "Description": "Down-sized client-driven task-force",
+        "PrerequisiteModuleName": "Stehr-Roob",
+        "SortOrder": 513,
+        "ExtraFlags": 701,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 406
+            "FieldType": "System.Int32",
+            "FieldLength": 227
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 603,
-        "Tooltip": "magnam",
-        "CanAssign": false,
-        "Free": 587,
-        "InUse": 827,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 564,
-        "Name": "Effertz-Gerhold",
-        "Description": "Synergistic zero defect process improvement",
-        "PrerequisiteModuleName": "Gutkowski, Runolfsdottir and McCullough",
-        "SortOrder": 341,
-        "ExtraFlags": 479,
+        "Unrestricted": true,
+        "Total": 990,
+        "Tooltip": "et",
+        "CanAssign": true,
+        "Free": 436,
+        "InUse": 265,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 911,
+        "Name": "Koelpin, Rath and Little",
+        "Description": "Reverse-engineered actuating benchmark",
+        "PrerequisiteModuleName": "Labadie Inc and Sons",
+        "SortOrder": 910,
+        "ExtraFlags": 907,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 734
+            "FieldLength": 834
           }
         }
       }
@@ -233,8 +241,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldType": "System.String",
+        "FieldLength": 591
       }
     }
   }

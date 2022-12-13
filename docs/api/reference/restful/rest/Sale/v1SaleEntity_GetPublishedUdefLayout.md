@@ -11,6 +11,13 @@ GET /api/v1/Sale/UdefLayout/Published
 
 Currently published SaleEntity user-defined field layout.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -23,6 +30,7 @@ Currently published SaleEntity user-defined field layout.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -79,7 +87,7 @@ Response body: array
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 581,
-    "ColumnId": 598,
-    "FieldDefault": "quia",
-    "FieldHeight": 788,
-    "FieldLabel": "ratione",
-    "FieldLeft": 232,
-    "FieldTop": 256,
+    "UDefFieldId": 272,
+    "ColumnId": 508,
+    "FieldDefault": "voluptates",
+    "FieldHeight": 503,
+    "FieldLabel": "ad",
+    "FieldLeft": 400,
+    "FieldTop": 931,
     "FieldType": "Checkbox",
-    "FieldWidth": 295,
-    "FormatMask": "perferendis",
-    "HideLabel": true,
+    "FieldWidth": 465,
+    "FormatMask": "ea",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 530,
-    "LabelLeft": 838,
-    "LabelTop": 348,
-    "LabelWidth": 12,
-    "LastVersionId": 488,
-    "ListTableId": 293,
-    "IsMandatory": false,
+    "LabelHeight": 944,
+    "LabelLeft": 1001,
+    "LabelTop": 51,
+    "LabelWidth": 975,
+    "LastVersionId": 132,
+    "ListTableId": 160,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 18,
-    "ProgId": "deleniti",
-    "IsReadOnly": true,
-    "ShortLabel": "aliquid",
-    "TabOrder": 870,
-    "TextLength": 565,
-    "Tooltip": "placeat",
-    "UdefIdentity": 509,
-    "UDListDefinitionId": 587,
+    "Page1LineNo": 525,
+    "ProgId": "officiis",
+    "IsReadOnly": false,
+    "ShortLabel": "error",
+    "TabOrder": 888,
+    "TextLength": 193,
+    "Tooltip": "saepe",
+    "UdefIdentity": 780,
+    "UDListDefinitionId": 25,
     "Justification": "Center",
-    "Version": 916,
-    "TemplateVariableName": "Schneider, Greenholt and Greenfelder",
-    "HasBeenPublished": false,
-    "MdoListName": "Rempel, Weissnat and Lang",
+    "Version": 945,
+    "TemplateVariableName": "Sporer-Kiehn",
+    "HasBeenPublished": true,
+    "MdoListName": "Gerlach Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldLength": 264
       }
     }
   }

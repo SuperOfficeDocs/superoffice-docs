@@ -11,6 +11,12 @@ GET /api/v1/List/SelectionCategory/MDOItems
 
 Get the MDO list items for "SearchCat" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=et
+GET /api/v1/List/SelectionCategory/MDOItems?query=provident
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/SelectionCategory/MDOItems?query=et
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 21,
-    "Name": "Herman, Ankunding and Jones",
-    "ToolTip": "Rem ipsam debitis a.",
-    "Deleted": true,
-    "Rank": 519,
-    "Type": "libero",
+    "Id": 55,
+    "Name": "Littel Group",
+    "ToolTip": "Ex vel recusandae consequatur aut.",
+    "Deleted": false,
+    "Rank": 920,
+    "Type": "debitis",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Glover Inc and Sons",
-        "ToolTip": "Deleniti iste reiciendis odio libero non error.",
-        "Deleted": false,
-        "Rank": 477,
-        "Type": "vero",
+        "Id": 462,
+        "Name": "Graham-Hudson",
+        "ToolTip": "Deleniti nesciunt eum.",
+        "Deleted": true,
+        "Rank": 980,
+        "Type": "repellendus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "provident",
-        "ColorBlock": 43,
-        "ExtraInfo": "harum",
-        "StyleHint": "qui",
-        "FullName": "Mr. Maurice Rutherford Jr.",
+        "IconHint": "pariatur",
+        "ColorBlock": 238,
+        "ExtraInfo": "omnis",
+        "StyleHint": "quis",
+        "FullName": "Sandrine Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 711
+            "FieldType": "System.String",
+            "FieldLength": 244
           }
         }
       }
     ],
-    "IconHint": "commodi",
-    "ColorBlock": 377,
-    "ExtraInfo": "error",
-    "StyleHint": "reprehenderit",
-    "FullName": "Eileen Kuhn",
+    "IconHint": "perferendis",
+    "ColorBlock": 860,
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "qui",
+    "FullName": "Miss Addie Lindgren Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldType": "System.String",
+        "FieldLength": 142
       }
     }
   }

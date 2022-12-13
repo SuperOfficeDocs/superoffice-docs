@@ -11,25 +11,25 @@ so.client: win
 so.envir: onsite
 ---
 
-# Import files
+# Import a data file to the SuperOffice database
 
-When you have performed a backup of the database file, found the right data file and placed it in a folder where you can easily find it again (see [Import routines][1]), you can start the import itself.
+After you have backed up the database file, found the right data file and placed it in a folder where you can easily find it again (see [Import routines][1]), you can start the import itself.
 
 > [!NOTE]
-> Before you begin the import, you need to make sure that neither the import description file, nor the data file are open in any other program (such as Excel). This is because some programs "lock" files they open so that other programs cannot access them.
+> Some programs "lock" files they open so that other programs cannot access them. Before you begin the import, make sure that neither the import description file, nor the data file are open in any other program (such as Excel).
 
-To import a data file into the SuperOffice database:
+**Steps:**
 
 1. [!include[How to open import](includes/open-import.md)]
 
 [!include[Import description](includes/step-import-description.md)]
 
-1. When you have chosen an import description and the import file has been found, the other fields are filled in automatically. If you want to edit any of the details in the import description, follow the procedure under [Edit import descriptions][3].
+1. After you choose an import description and the import file is found, the other fields are filled in automatically. Optionally, [edit any of the details in the import description][3].
 
-1. It may be useful to check that the contents of the fields correctly match the fields you have selected. The **Field in file** column under **Field mapping** shows the contents of the first record in the data file you are importing, while the **Field in SuperOffice CRM** column shows the fields in the SuperOffice database the data will be imported to. Click the **Next** button a few times to check the contents of some of the following records as well.
+1. It may be useful to check that the contents of the fields correctly match the fields you selected. The **Field in file** column under **Field mapping** shows the contents of the first record in the data file you are importing, while the **Field in SuperOffice CRM** column shows the fields in the SuperOffice database the data will be imported to. Click the **Next** button a few times to check the contents of some of the following records as well.
 
     > [!NOTE]
-    > If the fields do not display as required, you must either amend the field mapping (see [Field mapping][4]) or make the necessary changes in the import file.
+    > If the fields do not display as required, you must either amend the [field mapping][4] or make the necessary changes in the import file.
 
 1. Click **Start** to start the import. A progress indicator is displayed at the bottom of the screen.
 
@@ -38,7 +38,6 @@ To import a data file into the SuperOffice database:
 
 <!-- Referenced links -->
 [1]: import-routines.md
-[2]: import-descriptions.md
 [3]: editing-import-descriptions.md
 [4]: field-mapping.md
 

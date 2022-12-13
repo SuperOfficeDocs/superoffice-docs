@@ -11,7 +11,14 @@ POST /api/v1/List/SaleType/Items
 
 Create a new SaleTypeEntity list item
 
+
 Calls the List agent service SaveSaleTypeEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveSaleTypeEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The SaleTypeEntity to be created.
+The SaleTypeEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +63,8 @@ The SaleTypeEntity to be created.
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -64,7 +72,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,51 +107,51 @@ Response body:
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 606,
-  "Name": "Kohler-Senger",
-  "Tooltip": "facere",
-  "Rank": 928,
+  "SaleTypeId": 379,
+  "Name": "Lemke-Bashirian",
+  "Tooltip": "labore",
+  "Rank": 142,
   "DurationUnit": "Century",
-  "SaleDuration": 18,
-  "SaleTypeCatId": 37,
+  "SaleDuration": 612,
+  "SaleTypeCatId": 311,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 337,
-  "QuoteLinesTemplate": 347,
-  "ConfirmationLinesTemplate": 457,
+  "DefaultQuoteValidity": 98,
+  "QuoteLinesTemplate": 818,
+  "ConfirmationLinesTemplate": 365,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 449,
-  "MinEarningPercent": 869,
-  "GroupQuoteLinesBy": 666,
-  "SortGroupLinesBy": 406,
+  "MaxDiscountPercent": 784,
+  "MinEarningPercent": 923,
+  "GroupQuoteLinesBy": 126,
+  "SortGroupLinesBy": 620,
   "Stages": [
     {
-      "Id": 811,
-      "Name": "Stokes-Boyle",
-      "ToolTip": "Blanditiis ex qui sit.",
+      "Id": 277,
+      "Name": "Schimmel LLC",
+      "ToolTip": "Id praesentium consequuntur quos in possimus harum ut.",
       "Deleted": false,
-      "Rank": 479,
-      "Type": "et",
-      "ColorBlock": 113,
-      "IconHint": "et",
+      "Rank": 420,
+      "Type": "porro",
+      "ColorBlock": 879,
+      "IconHint": "consequuntur",
       "Selected": false,
-      "LastChanged": "2005-10-01T11:10:54.595935+02:00",
+      "LastChanged": "2013-11-07T02:49:52.5003264+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iure",
-      "StyleHint": "et",
+      "ExtraInfo": "distinctio",
+      "StyleHint": "dolore",
       "Hidden": false,
-      "FullName": "Muhammad Marvin"
+      "FullName": "Shania Brakus DDS"
     }
   ]
 }
@@ -156,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 279,
-  "Name": "Gutkowski-Williamson",
-  "Tooltip": "quis",
-  "Rank": 164,
+  "SaleTypeId": 928,
+  "Name": "Gibson Group",
+  "Tooltip": "ut",
+  "Rank": 791,
   "DurationUnit": "Century",
-  "SaleDuration": 462,
-  "SaleTypeCatId": 278,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 382,
-  "QuoteLinesTemplate": 250,
-  "ConfirmationLinesTemplate": 648,
+  "SaleDuration": 994,
+  "SaleTypeCatId": 532,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 733,
+  "QuoteLinesTemplate": 582,
+  "ConfirmationLinesTemplate": 382,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 329,
-  "MinEarningPercent": 583,
-  "GroupQuoteLinesBy": 828,
-  "SortGroupLinesBy": 298,
+  "MaxDiscountPercent": 869,
+  "MinEarningPercent": 940,
+  "GroupQuoteLinesBy": 33,
+  "SortGroupLinesBy": 657,
   "Stages": [
     {
-      "Id": 938,
-      "Name": "Konopelski, Schinner and Halvorson",
-      "ToolTip": "Quas tempora sint perspiciatis.",
+      "Id": 444,
+      "Name": "Leuschke, Krajcik and Kuhic",
+      "ToolTip": "Et quaerat quam dolorum et vel nemo sint.",
       "Deleted": true,
-      "Rank": 768,
-      "Type": "quo",
-      "ColorBlock": 263,
-      "IconHint": "vel",
+      "Rank": 33,
+      "Type": "ut",
+      "ColorBlock": 664,
+      "IconHint": "quo",
       "Selected": true,
-      "LastChanged": "2001-10-31T11:10:54.5969354+01:00",
+      "LastChanged": "2020-07-02T02:49:52.5003264+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "rerum",
-      "StyleHint": "rerum",
-      "Hidden": false,
-      "FullName": "Keara Denesik",
+      "ExtraInfo": "temporibus",
+      "StyleHint": "quis",
+      "Hidden": true,
+      "FullName": "Lucas Grimes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 140
+          "FieldType": "System.String",
+          "FieldLength": 647
         }
       }
     }
@@ -211,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldType": "System.String",
+      "FieldLength": 230
     }
   }
 }

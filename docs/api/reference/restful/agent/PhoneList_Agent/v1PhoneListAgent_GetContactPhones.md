@@ -11,7 +11,13 @@ POST /api/v1/Agents/PhoneList/GetContactPhones
 
 Returns an array of phone list items for all the persons belonging to a contact (company).
 
+
 The in-parameter must be a valid contact-id.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The in-parameter must be a valid contact-id.
 ```http
 POST /api/v1/Agents/PhoneList/GetContactPhones?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/PhoneList/GetContactPhones?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
+
 
 ## Response: array
 
@@ -76,11 +84,11 @@ Response body: array
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 754
+  "ContactId": 379
 }
 ```
 
@@ -92,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(214)776-8656 x2883",
-    "PersonCellPhone": "(261)916-4810 x4701",
-    "PersonPrivatePhone": "692-903-5226 x5262",
-    "PersonFaxNumber": "349126",
-    "PersonPagerNumber": "1018798",
-    "PersonEmail": "edwin_schimmel@wunsch.info",
-    "Id": 365,
-    "Name": "Cruickshank-McLaughlin",
-    "Tooltip": "cum",
-    "UniqueId": "aut",
+    "PersonDirectPhone": "(505)203-1212",
+    "PersonCellPhone": "(571)153-0066 x210",
+    "PersonPrivatePhone": "423.644.7788 x2406",
+    "PersonFaxNumber": "1171687",
+    "PersonPagerNumber": "1146280",
+    "PersonEmail": "preston.herzog@hyatt.biz",
+    "Id": 611,
+    "Name": "Gottlieb-Roberts",
+    "Tooltip": "est",
+    "UniqueId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 774
+        "FieldType": "System.Int32",
+        "FieldLength": 439
       }
     }
   }

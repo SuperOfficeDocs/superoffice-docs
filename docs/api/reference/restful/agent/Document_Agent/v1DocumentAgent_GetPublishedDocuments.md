@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetPublishedDocuments
 
 Get the published documents from an array of doucment ids.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the published documents from an array of doucment ids.
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Document/GetPublishedDocuments?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentIds
+DocumentIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentIds | array |  |
+
 
 ## Response: array
 
@@ -84,13 +92,13 @@ Response body: array
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    993,
-    387
+    722,
+    74
   ]
 }
 ```
@@ -103,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 72,
-    "Attention": "perferendis",
-    "Header": "consequatur",
-    "Name": "Mertz Group",
-    "OurRef": "id",
-    "YourRef": "possimus",
-    "Description": "Re-contextualized non-volatile standardization",
-    "DocumentTemplate": "ipsam",
-    "IsPublished": true,
-    "PersonId": 912,
-    "PersonFullName": "Mr. Cordelia Jennings Mohr V",
-    "AssociateFullName": "Dr. Johnathan Kub",
-    "ContactId": 518,
-    "ContactName": "Pouros-Davis",
-    "ProjectId": 87,
-    "ProjectName": "Williamson LLC",
-    "AssociateId": 822,
-    "Snum": 114,
-    "SaleId": 870,
-    "SaleName": "Lesch, Robel and Moore",
+    "DocumentId": 820,
+    "Attention": "est",
+    "Header": "aliquam",
+    "Name": "Skiles, Dooley and Rice",
+    "OurRef": "voluptas",
+    "YourRef": "nihil",
+    "Description": "Stand-alone optimal challenge",
+    "DocumentTemplate": "est",
+    "IsPublished": false,
+    "PersonId": 797,
+    "PersonFullName": "Mr. Lee Von III",
+    "AssociateFullName": "Augustine Jones",
+    "ContactId": 846,
+    "ContactName": "Rolfson, Kovacek and McGlynn",
+    "ProjectId": 188,
+    "ProjectName": "Wuckert-Kautzer",
+    "AssociateId": 739,
+    "Snum": 492,
+    "SaleId": 350,
+    "SaleName": "Cormier Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 318
+        "FieldLength": 646
       }
     }
   }

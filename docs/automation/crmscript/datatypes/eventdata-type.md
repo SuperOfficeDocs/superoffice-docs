@@ -68,6 +68,16 @@ In addition to the built-in input and output values, you can also set and get **
 
 After you set a custom value, it can be accessed - also by other `EventData` objects in the same script.
 
+## Open dialog to handle user interaction
+
+> [!NOTE]
+> From version 10.1.9 we support generating a dialog from CRMScript triggers in Sales client.
+
+In certain scenarios, it can be necessary to ask the user for input or confirmation before completing process, using this method we allow for creating a simple dialog which will return input back to CRMScript trigger. Use this to construct a useful workflow.
+
+
+* Void [showDialog(EventDataDialogDefinition dialog)][15]
+
 ## Messages
 
 * String [getMessage()][8]
@@ -113,3 +123,4 @@ Navigation uses [SOProtocol][2] and [URL parameters][3].
 [12]: <xref:CRMScript.Native.EventData.setValidationMessage(String)>
 [13]: <xref:CRMScript.Native.EventData.getNavigateTo()>
 [14]: <xref:CRMScript.Native.EventData.setNavigateTo(String)>
+[15]: <xref:CRMScript.Native.EventData.showDialog(EventDataDialogDefinition)>

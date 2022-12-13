@@ -17,9 +17,9 @@ In the **Dashboard** screen you can have multiple dashboard tabs to display any 
 
 1. Open the **Dashboard** screen.
 
-2. Click the **Task** button and select **Create a new dashboard**. The **Create a new dashboard** dialog opens.
+2. Click the **Task** button and select **Create a new dashboard**.
 
-3. Enter the name of the dashboard in the **Name** field. This will be the name of the dashboard tab.
+3. In the **Create a new dashboard** dialog, enter the name of the dashboard in the **Name** field. This becomes the name of the dashboard tab.
 
 4. Enter a description of the dashboard in the **Description** field. The description is displayed at the top of the dashboard.
 
@@ -30,23 +30,27 @@ In the **Dashboard** screen you can have multiple dashboard tabs to display any 
 
 6. Select the number of columns to use for the dashboard, in the **Columns** field.
 
-7. In the **Visible for** field, specify who will be able to see this tile. By default the dashboard will only be visible for yourself. If you have additional functional rights, you can make the dashboard visible/accessible for one or more user groups, or individual users.
+7. In the **Visible for** field, specify who should see this tile. By default, the dashboard is visible only to you. If you have additional functional rights, you can make the dashboard visible/accessible for one or more user groups, or individual users.
 
 8. Use the **Pin to** function to always show this dashboard for selected users. You can use this function for all users or for selected user groups or users. Using this function requires functional rights.
 
-9. Click **Save**. The new dashboard opens, containing no tiles.
+9. Click **Save**.
+
+    The new dashboard opens, containing no tiles.
 
 On the right side of the new dashboard, the **Add tile / Edit layout** section is displayed. You can now start [adding tiles to the dashboard][2].
 
 ## <a id="service" />Create new dashboard tab in Service
 
-1. Open the **Dashboard** screen, and click the **+** tab. The **Dashboard** dialog opens.
+1. Open the **Dashboard** screen, and click the **+** tab.
 
-2. Enter the name of the dashboard in the **Title** field.
+2. In yhe **Dashboard** dialog, enter the name of the dashboard in the **Title** field.
 
 3. Select the layout of the dashboard.
 
-4. Click **OK** to create dashboard. The dashboard opens in a new tab, containing empty tiles.
+4. Click **OK** to create dashboard.
+
+    The dashboard opens in a new tab, containing empty tiles.
 
 5. Click **Blank** on a tile.
 

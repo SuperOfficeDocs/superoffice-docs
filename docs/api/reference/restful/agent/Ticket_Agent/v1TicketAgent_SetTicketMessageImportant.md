@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/SetTicketMessageImportant
 
 Set the important flag on or off for a ticket message
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Set the important flag on or off for a ticket message
 ```http
 POST /api/v1/Agents/Ticket/SetTicketMessageImportant?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/Ticket/SetTicketMessageImportant?$select=name,department,cat
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketMessageId, Important
+TicketMessageId, Important 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketMessageId | int32 |  |
 | Important | bool |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,12 +65,12 @@ Response body:
 POST /api/v1/Agents/Ticket/SetTicketMessageImportant
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 319,
-  "Important": false
+  "TicketMessageId": 923,
+  "Important": true
 }
 ```
 

@@ -11,10 +11,16 @@ GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 
 Gets a selectable MDO list of the headings for this list item
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to delete the items from. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
+
 
 ## Query String Parameters
 
@@ -23,8 +29,9 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -38,6 +45,7 @@ GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -75,7 +83,7 @@ Response body: array
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Name": "Hessel, Aufderhar and Lowe",
-    "ToolTip": "Optio eius.",
-    "Deleted": true,
-    "Rank": 564,
-    "Type": "et",
-    "ColorBlock": 256,
-    "IconHint": "id",
+    "Id": 93,
+    "Name": "Ritchie-Kirlin",
+    "ToolTip": "Iusto dolore eligendi sapiente.",
+    "Deleted": false,
+    "Rank": 209,
+    "Type": "mollitia",
+    "ColorBlock": 521,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2021-01-29T11:10:53.9002126+01:00",
+    "LastChanged": "2005-08-22T02:49:51.8753193+02:00",
     "ChildItems": [
       {
-        "Id": 277,
-        "Name": "Bauch-O'Kon",
-        "ToolTip": "Hic debitis praesentium et.",
-        "Deleted": true,
-        "Rank": 550,
-        "Type": "optio",
-        "ColorBlock": 406,
-        "IconHint": "qui",
+        "Id": 466,
+        "Name": "Keebler LLC",
+        "ToolTip": "Ut sint qui ipsum repellat veniam maxime.",
+        "Deleted": false,
+        "Rank": 785,
+        "Type": "soluta",
+        "ColorBlock": 492,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2003-11-02T11:10:53.9002126+01:00",
+        "LastChanged": "2001-11-14T02:49:51.8753193+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "est",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Ms. Yessenia Kuhlman V",
+        "FullName": "Jayden Fay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 268
+            "FieldLength": 788
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "expedita",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "doloremque",
     "Hidden": true,
-    "FullName": "Adrien Satterfield",
+    "FullName": "Laila Elfrieda Pouros MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldType": "System.String",
+        "FieldLength": 364
       }
     }
   }

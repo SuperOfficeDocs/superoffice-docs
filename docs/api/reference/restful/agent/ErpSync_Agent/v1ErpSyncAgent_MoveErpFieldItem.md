@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/MoveErpFieldItem
 
 Moves the rank of the erp field up or down
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +31,7 @@ Moves the rank of the erp field up or down
 POST /api/v1/Agents/ErpSync/MoveErpFieldItem?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,9 +42,9 @@ POST /api/v1/Agents/ErpSync/MoveErpFieldItem?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpFieldId, Direction, ErpConnectionId, ErpActorType
+ErpFieldId, Direction, ErpConnectionId, ErpActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,7 +53,8 @@ ErpFieldId, Direction, ErpConnectionId, ErpActorType
 | ErpConnectionId | int32 |  |
 | ErpActorType | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -52,7 +62,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -60,13 +71,13 @@ Response body:
 POST /api/v1/Agents/ErpSync/MoveErpFieldItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 579,
-  "Direction": 517,
-  "ErpConnectionId": 353,
+  "ErpFieldId": 52,
+  "Direction": 348,
+  "ErpConnectionId": 90,
   "ErpActorType": "Customer"
 }
 ```

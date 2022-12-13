@@ -11,6 +11,13 @@ POST /api/v1/List/PaymentTerm/Items
 
 Add a new PaymentTerm to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new PaymentTerm to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The PaymentTerm to be added to the list.
+The PaymentTerm to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The PaymentTerm to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 274,
-  "Name": "Huel Inc and Sons",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "UdListDefinitionId": 511,
-  "Rank": 435
+  "Id": 729,
+  "Name": "Schaden, Torphy and Willms",
+  "Tooltip": "pariatur",
+  "Deleted": true,
+  "UdListDefinitionId": 513,
+  "Rank": 465
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 957,
-  "Name": "Abshire, Kub and Harber",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "UdListDefinitionId": 263,
-  "Rank": 974,
+  "Id": 680,
+  "Name": "Koepp-Daniel",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "UdListDefinitionId": 883,
+  "Rank": 917,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldType": "System.String",
+      "FieldLength": 469
     }
   }
 }

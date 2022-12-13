@@ -11,13 +11,21 @@ POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 
 Execute a CRMScript with event data as input.
 
+
 Returns event data with output variable values.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | cRMScriptId | int32 | The id of the CRMScript to execute **Required** |
+
+
 
 ## Request Headers
 
@@ -33,9 +41,9 @@ Returns event data with output variable values.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: eventData
+## Request Body: eventData  
 
-The EventData instance sent to the CRMScript with input values
+The EventData instance sent to the crmscript with input values 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,11 +52,13 @@ The EventData instance sent to the CRMScript with input values
 | BlockExecution | bool | Whether the context should stop what it is doing, e.g. saving a sale |
 | NavigateTo | string | Where the context should naviate afterwards |
 | Message | string | A message to be presented to the user |
+| ShowDialog | string | JSON structure of dialog to show |
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -56,7 +66,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,6 +75,7 @@ Response body:
 | BlockExecution | bool | Whether the context should stop what it is doing, e.g. saving a sale |
 | NavigateTo | string | Where the context should naviate afterwards |
 | Message | string | A message to be presented to the user |
+| ShowDialog | string | JSON structure of dialog to show |
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
@@ -77,27 +88,28 @@ Response body:
 POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "tempora",
-    "InputValues2": "numquam"
+    "InputValues1": "quae",
+    "InputValues2": "assumenda"
   },
   "BlockExecution": false,
-  "NavigateTo": "amet",
-  "Message": "cum",
+  "NavigateTo": "nobis",
+  "Message": "quia",
+  "ShowDialog": "commodi",
   "OutputValues": {
-    "OutputValues1": "iure",
+    "OutputValues1": "voluptates",
     "OutputValues2": "et"
   },
   "StateValues": {
-    "StateValues1": "distinctio",
-    "StateValues2": "ducimus"
+    "StateValues1": "dolor",
+    "StateValues2": "molestiae"
   },
-  "Exception": "facere"
+  "Exception": "quaerat"
 }
 ```
 
@@ -110,27 +122,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "rem",
-    "InputValues2": "ut"
+    "InputValues1": "consequatur",
+    "InputValues2": "dolorum"
   },
   "BlockExecution": false,
-  "NavigateTo": "necessitatibus",
-  "Message": "aspernatur",
+  "NavigateTo": "distinctio",
+  "Message": "unde",
+  "ShowDialog": "aut",
   "OutputValues": {
-    "OutputValues1": "in",
-    "OutputValues2": "commodi"
+    "OutputValues1": "maiores",
+    "OutputValues2": "inventore"
   },
   "StateValues": {
-    "StateValues1": "nulla",
-    "StateValues2": "est"
+    "StateValues1": "reiciendis",
+    "StateValues2": "iusto"
   },
-  "Exception": "accusamus",
+  "Exception": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 713
     }
   }
 }

@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 
 Get Crm Field values
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get Crm Field values
 ```http
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +46,15 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RecordId, ActorTypeCrm
+RecordId, ActorTypeCrm 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RecordId | int32 |  |
 | ActorTypeCrm | string |  |
+
 
 ## Response: array
 
@@ -73,11 +83,11 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 345,
+  "RecordId": 843,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -90,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Padberg-Daugherty",
-    "CrmFieldKey": "neque",
-    "Value": "odio",
-    "DisplayValue": "fugit",
-    "SyncToCrm": true,
-    "SyncToErp": false,
+    "DisplayName": "Prosacco, Kuhn and Prohaska",
+    "CrmFieldKey": "quia",
+    "Value": "quae",
+    "DisplayValue": "adipisci",
+    "SyncToCrm": false,
+    "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 497
       }
     }
   }

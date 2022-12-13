@@ -11,6 +11,12 @@ POST /api/v1/Agents/Find/GetRestrictionGroups
 
 Return all the restriction groups.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return all the restriction groups.
 ```http
 POST /api/v1/Agents/Find/GetRestrictionGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Find/GetRestrictionGroups?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, Context
+StorageType, ProviderName, StorageKey, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,6 +52,7 @@ StorageType, ProviderName, StorageKey, Context
 | ProviderName | string |  |
 | StorageKey | string |  |
 | Context | string |  |
+
 
 ## Response: array
 
@@ -69,14 +77,14 @@ Response body: array
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Ernser, Torp and Becker",
-  "StorageKey": "impedit",
-  "Context": "fugit"
+  "StorageType": "molestiae",
+  "ProviderName": "Altenwerth-Bergnaum",
+  "StorageKey": "eum",
+  "Context": "consequatur"
 }
 ```
 
@@ -88,58 +96,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ferry Group",
-    "Description": "Persistent directional groupware",
-    "Rank": 996,
+    "Name": "Boehm, Schuster and Howell",
+    "Description": "Multi-channelled radical matrix",
+    "Rank": 763,
     "Restrictions": [
       {
-        "Name": "Wiegand Group",
-        "Operator": "possimus",
+        "Name": "Swaniawski, Hagenes and Corwin",
+        "Operator": "tempore",
         "Values": [
-          "consectetur",
-          "quo"
+          "repellendus",
+          "id"
         ],
         "DisplayValues": [
-          "alias",
-          "nam"
+          "modi",
+          "ea"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 208,
+        "InterParenthesis": 638,
         "InterOperator": "And",
-        "UniqueHash": 480
+        "UniqueHash": 789
       }
     ]
   },
   {
-    "Name": "Ferry Group",
-    "Description": "Persistent directional groupware",
-    "Rank": 996,
+    "Name": "Boehm, Schuster and Howell",
+    "Description": "Multi-channelled radical matrix",
+    "Rank": 763,
     "Restrictions": [
       {
-        "Name": "Wiegand Group",
-        "Operator": "possimus",
+        "Name": "Swaniawski, Hagenes and Corwin",
+        "Operator": "tempore",
         "Values": [
-          "consectetur",
-          "quo"
+          "repellendus",
+          "id"
         ],
         "DisplayValues": [
-          "alias",
-          "nam"
+          "modi",
+          "ea"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 208,
+        "InterParenthesis": 638,
         "InterOperator": "And",
-        "UniqueHash": 480
+        "UniqueHash": 789
       }
     ]
   }

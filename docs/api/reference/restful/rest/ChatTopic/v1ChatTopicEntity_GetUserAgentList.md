@@ -11,7 +11,13 @@ GET /api/v1/ChatTopic/UserAgents
 
 Get list of users that can be assigned to chat topics.
 
+
 Users with Chat-CALs from the MDO list 'chatuser'
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -25,6 +31,7 @@ GET /api/v1/ChatTopic/UserAgents?flat=False
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,6 +44,7 @@ GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -82,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 714,
-    "Name": "Yundt, Kassulke and Bahringer",
-    "ToolTip": "Dolor veritatis quod dolores qui.",
+    "Id": 601,
+    "Name": "Ledner, Bahringer and Sipes",
+    "ToolTip": "Delectus et odio sit.",
     "Deleted": false,
-    "Rank": 951,
-    "Type": "qui",
+    "Rank": 562,
+    "Type": "magni",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Goldner LLC",
-        "ToolTip": "Voluptas ipsum.",
+        "Id": 979,
+        "Name": "Gorczany-Vandervort",
+        "ToolTip": "Provident harum.",
         "Deleted": true,
-        "Rank": 814,
-        "Type": "natus",
+        "Rank": 219,
+        "Type": "voluptates",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugiat",
-        "ColorBlock": 946,
-        "ExtraInfo": "dolore",
-        "StyleHint": "quia",
-        "FullName": "Orland Willms",
+        "IconHint": "velit",
+        "ColorBlock": 223,
+        "ExtraInfo": "repellat",
+        "StyleHint": "rerum",
+        "FullName": "Lorenz Fay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 531
+            "FieldLength": 699
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 544,
-    "ExtraInfo": "doloribus",
-    "StyleHint": "sed",
-    "FullName": "Tia Dare",
+    "IconHint": "incidunt",
+    "ColorBlock": 11,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "aut",
+    "FullName": "Mrs. Chelsie Clare Howell Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldLength": 44
       }
     }
   }

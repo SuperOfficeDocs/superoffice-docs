@@ -11,6 +11,13 @@ PUT /api/v1/Project/DuplicateRules
 
 Set which duplicate rules should be active or not
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -21,9 +28,9 @@ Set which duplicate rules should be active or not
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: rules
+## Request Body: rules  
 
-Duplicate rules to update active status for
+Duplicate rules to update active status for 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -32,7 +39,8 @@ Duplicate rules to update active status for
 | DisplayTooltip | string | Description of the rule |
 | IsActive | bool | Indicating if a rule is current active, and should included in the duplicate detection |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -40,7 +48,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -53,16 +62,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Steuber-Hermiston",
-    "DisplayName": "Ankunding, Kulas and Ondricka",
-    "DisplayTooltip": "beatae",
-    "IsActive": true
+    "Name": "Luettgen Group",
+    "DisplayName": "Mosciski-Mayer",
+    "DisplayTooltip": "quaerat",
+    "IsActive": false
   },
   {
-    "Name": "Steuber-Hermiston",
-    "DisplayName": "Ankunding, Kulas and Ondricka",
-    "DisplayTooltip": "beatae",
-    "IsActive": true
+    "Name": "Luettgen Group",
+    "DisplayName": "Mosciski-Mayer",
+    "DisplayTooltip": "quaerat",
+    "IsActive": false
   }
 ]
 ```

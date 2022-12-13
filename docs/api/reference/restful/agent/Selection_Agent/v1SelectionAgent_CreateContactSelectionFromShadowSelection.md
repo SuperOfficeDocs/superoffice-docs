@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 
 Creates a new contact selection based on contact selection members from an existing shadow sale, appointment, project or document selection.
 
+
 The new selection will always be static even if the original selection is dynamic.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The new selection will always be static even if the original selection is dynami
 ```http
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Name
+SelectionId, Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Name | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -108,12 +116,12 @@ Response body:
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 36,
-  "Name": "Walter LLC"
+  "SelectionId": 139,
+  "Name": "Brekke-Murazik"
 }
 ```
 
@@ -124,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Automated actuating standardization",
-  "Postit": "eos",
+  "Description": "Inverse multi-state local area network",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 18,
-  "IncludePerson": 262,
-  "MemberCount": 623,
-  "Name": "Ruecker Group",
-  "PostitTextId": 170,
-  "CreatedDate": "2013-07-31T11:10:28.1537369+02:00",
-  "SelectionId": 808,
-  "SoundEx": "ut",
-  "Source": 401,
-  "TextId": 602,
-  "UpdatedDate": "1999-04-28T11:10:28.1537369+02:00",
-  "UpdatedCount": 345,
-  "Visibility": 889,
+  "GroupIdx": 832,
+  "IncludePerson": 851,
+  "MemberCount": 775,
+  "Name": "Towne Inc and Sons",
+  "PostitTextId": 879,
+  "CreatedDate": "2008-10-10T02:49:45.4059627+02:00",
+  "SelectionId": 349,
+  "SoundEx": "molestiae",
+  "Source": 796,
+  "TextId": 160,
+  "UpdatedDate": "2015-10-16T02:49:45.4059627+02:00",
+  "UpdatedCount": 853,
+  "Visibility": 36,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 815,
-  "TargetTableName": "Hansen Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 430,
-  "RightSelectionId": 934,
+  "CompanyUnique": false,
+  "TargetTableNumber": 766,
+  "TargetTableName": "Altenwerth Group",
+  "Completed": true,
+  "LeftSelectionId": 841,
+  "RightSelectionId": 705,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Russel, Grimes and Schumm",
-  "ShadowProviderName": "Bahringer Inc and Sons",
-  "ChartKey": "ut",
-  "LastLoaded": "2010-05-03T11:10:28.1537369+02:00",
-  "LastLoadedBy": 653,
+  "MainProviderName": "Runte Inc and Sons",
+  "ShadowProviderName": "Volkman LLC",
+  "ChartKey": "quod",
+  "LastLoaded": "2014-11-21T02:49:45.4059627+01:00",
+  "LastLoadedBy": 243,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1996-03-11T11:10:28.1547295+01:00",
-  "LastMembershipChangeBy": 796,
+  "LastMembershipChange": "2007-01-24T02:49:45.4059627+01:00",
+  "LastMembershipChangeBy": 415,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "asperiores",
-  "MemberTabHeading": "fugit",
-  "MailingsProviderName": "Schneider Inc and Sons",
-  "DashboardTileDefinitionId": 970,
+  "MainHeading": "et",
+  "MemberTabHeading": "molestiae",
+  "MailingsProviderName": "Will, Muller and Williamson",
+  "DashboardTileDefinitionId": 772,
   "VisibleFor": [
     {
-      "VisibleId": 887,
+      "VisibleId": 611,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 902
+          "FieldLength": 982
         }
       }
     },
     {
-      "VisibleId": 887,
+      "VisibleId": 611,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 902
+          "FieldLength": 982
         }
       }
     }
@@ -196,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   }
 }

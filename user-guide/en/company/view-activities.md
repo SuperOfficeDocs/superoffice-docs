@@ -11,7 +11,7 @@ language: en
 
 # View activities
 
-The [activities][1] displayed depend on which of the following checkboxes you have selected at the bottom of the section tab:
+The [activities][1] displayed depend on which of the following checkboxes you selected at the bottom of the section tab:
 
 * Follow-ups
 * Documents

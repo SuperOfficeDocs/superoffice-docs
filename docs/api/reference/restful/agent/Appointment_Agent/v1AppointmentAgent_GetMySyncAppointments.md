@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetMySyncAppointments
 
 Method that returns a specified number of appointments within a time range.
 
+
 The appointments belong to the currently logged on user.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the currently logged on user.
 ```http
 POST /api/v1/Agents/Appointment/GetMySyncAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Appointment/GetMySyncAppointments?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartTime, EndTime
+StartTime, EndTime 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StartTime | date-time |  |
 | EndTime | date-time |  |
+
 
 ## Response: array
 
@@ -97,8 +105,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2010-02-13T11:10:25.4725221+01:00",
-  "EndTime": "2002-04-23T11:10:25.4725221+02:00"
+  "StartTime": "2007-09-08T02:49:43.261747+02:00",
+  "EndTime": "2011-12-13T02:49:43.261747+01:00"
 }
 ```
 
@@ -110,72 +118,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AlarmTime": "2010-10-14T11:10:25.475523+02:00",
-    "AppointmentId": 696,
-    "AppointmentText": "autem",
-    "ContactDepartment": "",
-    "ContactFullName": "Miss Mabel Wisoky",
-    "ContactName": "Wyman Inc and Sons",
-    "ContactId": 544,
-    "EndDate": "2020-11-10T11:10:25.475523+01:00",
+    "AlarmTime": "1996-09-28T02:49:43.261747+02:00",
+    "AppointmentId": 175,
+    "AppointmentText": "non",
+    "ContactDepartment": "deliver mission-critical e-tailers",
+    "ContactFullName": "Reinhold Rice",
+    "ContactName": "Rowe Inc and Sons",
+    "ContactId": 599,
+    "EndDate": "2021-04-10T02:49:43.261747+02:00",
     "HasAlarm": false,
     "IsAllDay": false,
-    "IsAssignment": false,
+    "IsAssignment": true,
     "IsBusy": true,
     "IsCompleted": false,
-    "IsInvitation": false,
+    "IsInvitation": true,
     "IsTentative": false,
-    "Location": "dolore",
+    "Location": "quo",
     "Participants": [
       {
-        "PersonId": 987,
-        "PersonFirstName": "Sauer, Friesen and Kihn",
-        "PersonMiddleName": "Friesen-Effertz",
-        "PersonLastname": "Hahn",
-        "PersonMrmrs": "dignissimos",
+        "PersonId": 42,
+        "PersonFirstName": "Schoen Group",
+        "PersonMiddleName": "Russel-Douglas",
+        "PersonLastname": "Predovic",
+        "PersonMrmrs": "nulla",
         "PersonTitle": "enim",
-        "PersonPosition": "nihil",
-        "PersonAcademicTitle": "nesciunt",
-        "PersonFormalName": "Bauch-Stiedemann",
-        "PersonFullName": "Mr. Itzel Asa Schmidt III",
-        "ContactId": 134,
-        "ContactName": "Beer, Yundt and Nitzsche",
+        "PersonPosition": "voluptatem",
+        "PersonAcademicTitle": "hic",
+        "PersonFormalName": "Volkman-Abshire",
+        "PersonFullName": "Anika Orn",
+        "ContactId": 694,
+        "ContactName": "Mitchell, Hettinger and Toy",
         "ContactDepartment": "",
         "ContactBusiness": "Information Technology",
         "ContactCountry": "Sokovia",
         "ContactCategory": "VIP Customer",
-        "ContactFullName": "Duncan Streich",
+        "ContactFullName": "Jake Crona",
         "EMail": [
-          "cumque",
-          "molestias"
+          "et",
+          "numquam"
         ],
         "PhonePrivate": [
-          "1-318-244-4415 x110",
-          "1-859-754-0646"
+          "085.145.6946 x239",
+          "915.145.6838"
         ],
         "PhoneFax": [
-          "(733)486-4775 x598",
-          "(710)352-2748"
+          "1-977-712-0281 x768",
+          "(902)166-4057 x482"
         ],
         "PhoneMobile": [
-          "863.940.6426 x2655",
-          "368.981.7182 x08553"
+          "041.894.6843",
+          "(791)900-9760"
         ],
         "PhoneDirect": [
-          "1-537-926-7180 x732",
-          "532.118.4898 x663"
+          "966.983.1672 x1354",
+          "128.339.8425 x09301"
         ],
         "PhoneContact": [
-          "1-416-885-5385 x7391",
-          "1-617-856-6695"
+          "1-523-931-1225 x2840",
+          "1-936-246-8920 x9589"
         ],
         "Messenger": [
-          "iste",
-          "ut"
+          "mollitia",
+          "velit"
         ],
         "Voip": [
-          "quia",
-          "numquam"
+          "atque",
+          "maxime"
         ],
         "ContactUrl": [
           "http://www.example.com/",
@@ -196,26 +204,26 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 541
+            "FieldLength": 676
           }
         }
       }
     ],
-    "PersonFormalName": "McClure Inc and Sons",
-    "PersonFullName": "Rodger Schultz",
-    "PersonId": 643,
-    "ProjectId": 275,
-    "ProjectName": "O'Kon, Cremin and Sawayn",
-    "SaleId": 325,
-    "SaleName": "Von Group",
-    "StartDate": "2006-06-06T11:10:25.4775225+02:00",
-    "TaskName": "Roob LLC",
+    "PersonFormalName": "Heller Group",
+    "PersonFullName": "Dr. Seth Taya King",
+    "PersonId": 768,
+    "ProjectId": 542,
+    "ProjectName": "Connelly, Funk and Mraz",
+    "SaleId": 34,
+    "SaleName": "Hyatt, Leuschke and Macejkovic",
+    "StartDate": "2008-12-29T02:49:43.261747+01:00",
+    "TaskName": "Mayert, Goldner and Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 27
+        "FieldType": "System.Int32",
+        "FieldLength": 461
       }
     }
   }

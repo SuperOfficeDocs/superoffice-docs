@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetProjectStatusList
 
 Gets an array of ProjectStatus objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of ProjectStatus objects.
 ```http
 POST /api/v1/Agents/List/GetProjectStatusList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetProjectStatusList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: projectStatusIds
+## Request Body: projectStatusIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -63,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/List/GetProjectStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 428,
-    "Value": "doloribus",
-    "Tooltip": "qui",
+    "Id": 464,
+    "Value": "dolores",
+    "Tooltip": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 441
+        "FieldType": "System.Int32",
+        "FieldLength": 336
       }
     }
   },
   {
-    "Id": 428,
-    "Value": "doloribus",
-    "Tooltip": "qui",
+    "Id": 464,
+    "Value": "dolores",
+    "Tooltip": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 441
+        "FieldType": "System.Int32",
+        "FieldLength": 336
       }
     }
   }

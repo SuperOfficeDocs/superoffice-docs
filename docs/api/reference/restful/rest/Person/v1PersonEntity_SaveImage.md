@@ -11,11 +11,18 @@ PUT /api/v1/Person/{personId}/Image
 
 Save an image to a person.
 
+
 Updating the image will update the ImageInfo automatically.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | Person id **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,11 @@ Updating the image will update the ImageInfo automatically.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: image binary
+## Request Body: image binary 
 
-Image bitmap (PNG, GIF, JPEG or TIFF format).
+Image bitmap (PNG, GIF, JPEG or TIFF format). 
+
+
 
 ## Response: int32
 
@@ -46,13 +55,14 @@ The image blob id
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 PUT /api/v1/Person/{personId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -61,5 +71,5 @@ Accept-Language: en
 HTTP/1.1 200 The image blob id
 Content-Type: application/json; charset=utf-8
 
-360
+392
 ```

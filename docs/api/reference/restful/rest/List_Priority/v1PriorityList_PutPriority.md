@@ -11,9 +11,16 @@ PUT /api/v1/List/Priority/Items/{id}
 
 Updates an existing Priority list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of Priority to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing Priority list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of Priority list item to be saved.
+The details of Priority list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The details of Priority list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,16 +78,16 @@ Response body:
 PUT /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 495,
-  "Name": "Sporer Inc and Sons",
-  "Tooltip": "rerum",
+  "Id": 181,
+  "Name": "Carter-Luettgen",
+  "Tooltip": "temporibus",
   "Deleted": true,
-  "UdListDefinitionId": 46,
-  "Rank": 763
+  "UdListDefinitionId": 656,
+  "Rank": 821
 }
 ```
 
@@ -90,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 382,
-  "Name": "Wehner, Yost and Feeney",
-  "Tooltip": "laborum",
-  "Deleted": false,
-  "UdListDefinitionId": 345,
-  "Rank": 96,
+  "Id": 588,
+  "Name": "Zieme, Rolfson and Homenick",
+  "Tooltip": "corporis",
+  "Deleted": true,
+  "UdListDefinitionId": 843,
+  "Rank": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 188
     }
   }
 }

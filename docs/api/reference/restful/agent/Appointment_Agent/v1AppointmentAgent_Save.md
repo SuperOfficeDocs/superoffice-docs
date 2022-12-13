@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/Save
 
 Saving a booking.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saving a booking.
 ```http
 POST /api/v1/Agents/Appointment/Save?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Appointment/Save?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentEntity, UpdateMode, SendEmailToParticipants, SmtpEMailConnectionInfo, ImapEMailConnectionInfo
+AppointmentEntity, UpdateMode, SendEmailToParticipants, SmtpEMailConnectionInfo, ImapEMailConnectionInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,8 @@ AppointmentEntity, UpdateMode, SendEmailToParticipants, SmtpEMailConnectionInfo,
 | SmtpEMailConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | ImapEMailConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,7 +131,7 @@ Response body:
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -146,63 +154,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-11-12T11:10:25.5915224+01:00",
-  "AppointmentId": 66,
-  "Description": "Synergistic zero tolerance throughput",
-  "StartDate": "2020-08-24T11:10:25.5915224+02:00",
-  "EndDate": "2004-09-11T11:10:25.5915224+02:00",
+  "CreatedDate": "2011-09-19T02:49:43.3566548+02:00",
+  "AppointmentId": 523,
+  "Description": "Team-oriented uniform internet solution",
+  "StartDate": "2010-11-28T02:49:43.3566548+01:00",
+  "EndDate": "1998-09-05T02:49:43.3566548+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 960,
+  "MotherId": 931,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1997-07-07T11:10:25.5945222+02:00",
+  "UpdatedDate": "2022-10-07T02:49:43.372278+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 982,
+  "ActiveLinks": 473,
   "Links": [
     {
-      "EntityName": "Oberbrunner Group",
-      "Id": 477,
-      "Description": "Triple-buffered mission-critical task-force",
-      "ExtraInfo": "sint",
-      "LinkId": 630,
+      "EntityName": "Cartwright, Mante and Predovic",
+      "Id": 308,
+      "Description": "Enhanced radical alliance",
+      "ExtraInfo": "doloribus",
+      "LinkId": 666,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 898
+          "FieldType": "System.String",
+          "FieldLength": 133
         }
       }
     }
   ],
-  "AlarmLeadTime": "ex",
+  "AlarmLeadTime": "aut",
   "HasAlarm": false,
-  "ColorIndex": 469,
+  "ColorIndex": 507,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "nostrum",
-  "LeadTime": "animi",
-  "Location": "odio",
-  "RejectCounter": 382,
+  "IsAlldayEvent": false,
+  "LagTime": "officia",
+  "LeadTime": "iste",
+  "Location": "distinctio",
+  "RejectCounter": 492,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 91,
-      "PersonId": 44,
-      "ContactId": 51,
-      "EmailId": 25,
+      "AssociateId": 668,
+      "PersonId": 256,
+      "ContactId": 872,
+      "EmailId": 225,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 91,
-      "PersonId": 44,
-      "ContactId": 51,
-      "EmailId": 25,
+      "AssociateId": 668,
+      "PersonId": 256,
+      "ContactId": 872,
+      "EmailId": 225,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -210,58 +218,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-04-22T11:10:25.5945222+02:00",
+  "ActiveDate": "2001-11-17T02:49:43.372278+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 783,
+  "PreferredTZLocation": 756,
   "Sale": null,
-  "SuggestedAppointmentId": 29,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 948,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "consequatur",
+  "CentralserviceVideomeetId": "neque",
   "UserDefinedFields": {
-    "SuperOffice:1": "Meda Pfannerstill",
-    "SuperOffice:2": "Dr. Darrion Langosh PhD"
+    "SuperOffice:1": "Lavonne Connelly",
+    "SuperOffice:2": "Lorine Fisher"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "consequuntur",
+    "ExtraFields2": "ab"
   },
   "CustomFields": {
-    "CustomFields1": "reiciendis",
-    "CustomFields2": "dolores"
+    "CustomFields1": "rerum",
+    "CustomFields2": "nihil"
   },
-  "PublishEventDate": "2005-04-19T11:10:25.5965223+02:00",
-  "PublishTo": "2020-03-08T11:10:25.5965223+01:00",
-  "PublishFrom": "1996-12-26T11:10:25.5965223+01:00",
+  "PublishEventDate": "2018-04-22T02:49:43.372278+02:00",
+  "PublishTo": "2000-03-22T02:49:43.372278+01:00",
+  "PublishFrom": "1995-10-10T02:49:43.372278+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 873,
+      "VisibleId": 88,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldType": "System.String",
+          "FieldLength": 533
         }
       }
     },
     {
-      "VisibleId": 873,
+      "VisibleId": 88,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldType": "System.String",
+          "FieldLength": 533
         }
       }
     }
@@ -270,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldType": "System.Int32",
+      "FieldLength": 954
     }
   }
 }

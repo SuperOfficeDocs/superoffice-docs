@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 
 Save an array of CustomerCenterConfig entities to the database
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save an array of CustomerCenterConfig entities to the database
 ```http
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,15 +38,16 @@ POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs?$select=name,de
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CustConfigs
+CustConfigs 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CustConfigs | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -47,7 +55,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -55,20 +64,20 @@ Response body:
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CustConfigs": [
     {
-      "CustConfigId": 48,
+      "CustConfigId": 817,
       "Type": "Options",
-      "Config": "velit",
-      "CustLangId": 614,
-      "Registered": "2021-11-11T11:10:26.3974482+01:00",
-      "RegisteredAssociateId": 153,
-      "Updated": "2019-07-23T11:10:26.3974482+02:00",
-      "UpdatedAssociateId": 306
+      "Config": "unde",
+      "CustLangId": 124,
+      "Registered": "2017-11-05T02:49:44.0285283+01:00",
+      "RegisteredAssociateId": 165,
+      "Updated": "2022-03-01T02:49:44.0285283+01:00",
+      "UpdatedAssociateId": 814
     }
   ]
 }

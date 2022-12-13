@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 08.26.2022
+so.date: 11.29.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,6 +20,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IContactAgent'>
 * [ChangeCountry](changecountry.md)
 * [Copy](copy.md)
 * [CreateDefaultContactEntity](createdefaultcontactentity.md)
+* [CreateDefaultPreviewContact](createdefaultpreviewcontact.md)
 * [CreateNewEntry](createnewentry.md)
 * [DeleteContactEntity](deletecontactentity.md)
 * [DeleteExpired](deleteexpired.md)
@@ -39,6 +40,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IContactAgent'>
 * [GetMyRecentContacts](getmyrecentcontacts.md)
 * [GetNameDepartmentDuplicates](getnamedepartmentduplicates.md)
 * [GetPersons](getpersons.md)
+* [GetPreviewContact](getpreviewcontact.md)
 * [GetQuoteVersionAddresses](getquoteversionaddresses.md)
 * [IsNumberValid](isnumbervalid.md)
 * [Merge](merge.md)
@@ -47,3 +49,4 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IContactAgent'>
 * [SetDuplicateRulesStatus](setduplicaterulesstatus.md)
 * [Undelete](undelete.md)
 * [ValidateContactEntity](validatecontactentity.md)
+

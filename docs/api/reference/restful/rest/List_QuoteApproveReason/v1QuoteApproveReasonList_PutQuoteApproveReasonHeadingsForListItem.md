@@ -11,11 +11,18 @@ PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 
 Saves headings for the QuoteApproveReason list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Pfeffer-Wunsch",
-    "ToolTip": "Pariatur excepturi enim.",
+    "Id": 865,
+    "Name": "Streich-Dietrich",
+    "ToolTip": "Cupiditate quis id iusto magnam nemo rerum.",
     "Deleted": false,
-    "Rank": 371,
-    "Type": "et",
-    "ColorBlock": 201,
-    "IconHint": "magni",
-    "Selected": false,
-    "LastChanged": "1999-11-29T11:10:54.509935+01:00",
+    "Rank": 133,
+    "Type": "perferendis",
+    "ColorBlock": 464,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2016-05-20T02:49:52.422202+02:00",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "Kautzer Group",
-        "ToolTip": "Facilis natus quidem sint nobis iste.",
-        "Deleted": true,
-        "Rank": 299,
-        "Type": "quis",
-        "ColorBlock": 710,
-        "IconHint": "exercitationem",
-        "Selected": true,
-        "LastChanged": "2020-10-28T11:10:54.509935+01:00",
+        "Id": 931,
+        "Name": "Ebert Group",
+        "ToolTip": "Mollitia magni corrupti commodi corrupti.",
+        "Deleted": false,
+        "Rank": 627,
+        "Type": "sit",
+        "ColorBlock": 662,
+        "IconHint": "earum",
+        "Selected": false,
+        "LastChanged": "2011-11-21T02:49:52.422202+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "non",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Kristofer Gottlieb"
+        "FullName": "Dr. Mollie Briana Thompson"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "nisi",
+    "ExtraInfo": "quo",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Rosendo Toy"
+    "FullName": "Simone Medhurst"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Name": "Metz, Erdman and Rice",
-    "ToolTip": "Minus itaque necessitatibus sunt amet.",
+    "Id": 933,
+    "Name": "Schinner-Yost",
+    "ToolTip": "Aliquam iste ab laboriosam vel quia quod dignissimos.",
     "Deleted": false,
-    "Rank": 45,
-    "Type": "deleniti",
-    "ColorBlock": 106,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "2014-12-15T11:10:54.5109367+01:00",
+    "Rank": 255,
+    "Type": "facere",
+    "ColorBlock": 679,
+    "IconHint": "expedita",
+    "Selected": false,
+    "LastChanged": "2010-11-27T02:49:52.422202+01:00",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Bruen-Skiles",
-        "ToolTip": "Molestiae ut quia expedita.",
-        "Deleted": false,
-        "Rank": 332,
-        "Type": "cumque",
-        "ColorBlock": 291,
-        "IconHint": "officiis",
-        "Selected": true,
-        "LastChanged": "2021-08-20T11:10:54.5109367+02:00",
+        "Id": 1001,
+        "Name": "Legros-Gleichner",
+        "ToolTip": "Nulla odio ut vero.",
+        "Deleted": true,
+        "Rank": 106,
+        "Type": "consectetur",
+        "ColorBlock": 307,
+        "IconHint": "id",
+        "Selected": false,
+        "LastChanged": "2013-05-14T02:49:52.422202+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "voluptate",
+        "ExtraInfo": "aut",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "Alfonzo Herzog",
+        "FullName": "Mr. Darius Winnifred Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 592
+            "FieldLength": 434
           }
         }
       }
     ],
     "ExtraInfo": "maxime",
-    "StyleHint": "sit",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Omari Romaguera",
+    "FullName": "Drake Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 395
+        "FieldType": "System.Int32",
+        "FieldLength": 105
       }
     }
   }

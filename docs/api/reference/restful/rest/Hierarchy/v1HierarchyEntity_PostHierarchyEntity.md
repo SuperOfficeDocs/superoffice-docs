@@ -11,7 +11,13 @@ POST /api/v1/Hierarchy
 
 Creates a new HierarchyEntity
 
+
 Calls the List agent service SaveHierarchyEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the List agent service SaveHierarchyEntity.
 ```http
 POST /api/v1/Hierarchy?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Hierarchy?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The HierarchyEntity to be saved.
+The HierarchyEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +61,8 @@ The HierarchyEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -62,7 +70,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,36 +94,36 @@ Response body:
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 211,
+  "HierarchyId": 931,
   "Domain": "Dashboards",
-  "Name": "Towne-Lowe",
-  "Fullname": "eligendi",
-  "ParentId": 67,
+  "Name": "Turner, Schowalter and Kihn",
+  "Fullname": "qui",
+  "ParentId": 813,
   "Children": [
     {
-      "HierarchyId": 764,
+      "HierarchyId": 557,
       "Domain": "Dashboards",
-      "Name": "Schowalter, Block and Pouros",
-      "Fullname": "ipsa",
-      "ParentId": 660,
+      "Name": "Oberbrunner-Abbott",
+      "Fullname": "vero",
+      "ParentId": 209,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-10-15T11:10:52.9141798+02:00",
-      "RegisteredAssociateId": 191,
-      "Updated": "2009-10-13T11:10:52.9141798+02:00",
-      "UpdatedAssociateId": 44
+      "Registered": "1997-12-30T02:49:50.9952888+01:00",
+      "RegisteredAssociateId": 465,
+      "Updated": "2021-01-10T02:49:50.9952888+01:00",
+      "UpdatedAssociateId": 618
     }
   ],
-  "Registered": "2008-04-24T11:10:52.9141798+02:00",
-  "RegisteredAssociateId": 272,
-  "Updated": "2008-04-15T11:10:52.9141798+02:00",
-  "UpdatedAssociateId": 561
+  "Registered": "2000-11-20T02:49:50.9952888+01:00",
+  "RegisteredAssociateId": 266,
+  "Updated": "2017-05-18T02:49:50.9952888+02:00",
+  "UpdatedAssociateId": 858
 }
 ```
 
@@ -126,51 +134,51 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 927,
+  "HierarchyId": 623,
   "Domain": "Dashboards",
-  "Name": "Adams, Grant and Bogan",
-  "Fullname": "aut",
-  "ParentId": 257,
+  "Name": "Auer-Gusikowski",
+  "Fullname": "voluptatem",
+  "ParentId": 134,
   "Children": [
     {
-      "HierarchyId": 112,
+      "HierarchyId": 518,
       "Domain": "Dashboards",
-      "Name": "Smith, Mayer and Monahan",
-      "Fullname": "sint",
-      "ParentId": 698,
+      "Name": "Nienow-Daniel",
+      "Fullname": "aliquid",
+      "ParentId": 436,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-06-12T11:10:52.9141798+02:00",
-      "RegisteredAssociateId": 913,
-      "Updated": "1998-01-18T11:10:52.9141798+01:00",
-      "UpdatedAssociateId": 988,
+      "Registered": "2009-03-29T02:49:50.9952888+01:00",
+      "RegisteredAssociateId": 963,
+      "Updated": "2015-04-27T02:49:50.9952888+02:00",
+      "UpdatedAssociateId": 136,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 567
+          "FieldType": "System.Int32",
+          "FieldLength": 358
         }
       }
     }
   ],
-  "Registered": "2018-09-20T11:10:52.9141798+02:00",
-  "RegisteredAssociateId": 120,
-  "Updated": "2010-09-02T11:10:52.9141798+02:00",
-  "UpdatedAssociateId": 898,
+  "Registered": "2015-11-15T02:49:50.9952888+01:00",
+  "RegisteredAssociateId": 619,
+  "Updated": "2001-06-05T02:49:50.9952888+02:00",
+  "UpdatedAssociateId": 461,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 344
+      "FieldType": "System.String",
+      "FieldLength": 511
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

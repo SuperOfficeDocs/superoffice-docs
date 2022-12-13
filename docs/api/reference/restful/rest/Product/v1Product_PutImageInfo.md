@@ -11,11 +11,18 @@ PUT /api/v1/Product/{productId}/ImageInfo
 
 Update the Blob that describes the given person's picture.
 
+
 The actual bitmap is accessible via /api/Services80/person/123/image.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | productId | int32 | Product id **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ The actual bitmap is accessible via /api/Services80/person/123/image.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: imageInfo
+## Request Body: imageInfo  
 
-New or Updated information about the product image.
+New or Updated information about the product image. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +58,8 @@ New or Updated information about the product image.
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -59,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,23 +93,23 @@ Response body:
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 907,
-  "BlobSize": 659,
-  "Description": "Realigned analyzing throughput",
-  "ExtraInfo": "omnis",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "fugit",
-  "OriginalSize": 558,
-  "CreatedDate": "2020-12-07T11:10:53.7502133+01:00",
-  "UpdatedDate": "1999-12-11T11:10:53.7502133+01:00",
+  "BlobId": 934,
+  "BlobSize": 462,
+  "Description": "Open-architected mission-critical leverage",
+  "ExtraInfo": "quae",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "eveniet",
+  "OriginalSize": 785,
+  "CreatedDate": "2017-09-02T02:49:51.7491471+02:00",
+  "UpdatedDate": "2002-11-12T02:49:51.7491471+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorum"
+  "ConceptualType": "quis"
 }
 ```
 
@@ -112,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 965,
-  "BlobSize": 434,
-  "Description": "Function-based object-oriented middleware",
-  "ExtraInfo": "non",
-  "IsEncrypted": false,
+  "BlobId": 262,
+  "BlobSize": 336,
+  "Description": "Grass-roots holistic utilisation",
+  "ExtraInfo": "soluta",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "eveniet",
-  "OriginalSize": 323,
-  "CreatedDate": "1997-04-28T11:10:53.7522125+02:00",
-  "UpdatedDate": "2006-08-20T11:10:53.7522125+02:00",
+  "MimeType": "alias",
+  "OriginalSize": 714,
+  "CreatedDate": "2009-07-10T02:49:51.7491471+02:00",
+  "UpdatedDate": "2020-03-03T02:49:51.7491471+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "pariatur",
+  "ConceptualType": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldType": "System.String",
+      "FieldLength": 568
     }
   }
 }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Previews/GetPreview
 
 Parse a Preview hint and return a Preview.
 
+
 The returned Preview string may contain resource string identifiers (in square brackets), to be processed by the resource manager.&lt;para /&gt;The Preview hint is either a literal text, representing itself, or a set of key/value pairs enclosed in curly braces. Each key is separated from its value by an equals sign, and each pair from the next by an ampersand, according to usual conventions.&lt;para /&gt;A typical Preview hint could be {contact_id=123} or {appointment_id=222&amp;amp;mode=simple}
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The returned Preview string may contain resource string identifiers (in square b
 ```http
 POST /api/v1/Agents/Previews/GetPreview?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Previews/GetPreview?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PreviewHint
+PreviewHint 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PreviewHint | string |  |
+
 
 ## Response: string
 
@@ -55,17 +63,18 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Previews/GetPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreviewHint": "ut"
+  "PreviewHint": "cum"
 }
 ```
 
@@ -75,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quidem"
+"non"
 ```

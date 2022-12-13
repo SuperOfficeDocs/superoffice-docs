@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetCredentialTypesForUserType
 
 Get available credential types that can be used for the specified user type.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get available credential types that can be used for the specified user type.
 ```http
 POST /api/v1/Agents/User/GetCredentialTypesForUserType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/User/GetCredentialTypesForUserType?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserType
+UserType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserType | string |  |
+
 
 ## Response: array
 
@@ -72,7 +82,7 @@ Response body: array
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -88,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "labore",
+    "DisplayType": "quas",
     "Type": "ut",
-    "Description": "Assimilated radical encoding",
+    "Description": "Distributed human-resource artificial intelligence",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
-    "IsUserNameSupported": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 571
+        "FieldType": "System.String",
+        "FieldLength": 101
       }
     }
   }

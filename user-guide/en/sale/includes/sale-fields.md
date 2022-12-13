@@ -3,7 +3,7 @@
 
 2. Select the currency of the sale (if this option is activated).
 
-3. In the **Company** field, enter the company the sale is to be linked to.
+3. In the **Company** field, enter the company to link the sale to.
 
 4. Enter a contact at the company, if relevant, in the **Contact** field.
 
@@ -18,7 +18,7 @@
 9. Enter the sale type in the **Sale type** field. Click the arrow to display a list of available sale types. These are defined in SuperOffice Settings and maintenance.
 
     > [!NOTE]
-    > Some sale types are linked to a [sales guide][1]. If you switch sale type, the associated sales guide also disappears. Any follow-ups and documents you have created in connection with the sales guide will remain on the **Activities** section tab in the diary. If you later switch back to the original sale type, the link between the follow-ups/documents and the sales guide is restored.
+    > Some sale types are linked to a [sales guide][1]. If you switch sale type, the associated sales guide also disappears. Any follow-ups and documents created in connection with the sales guide will remain on the **Activities** section tab in the diary. If you later switch back to the original sale type, the link between the follow-ups/documents and the sales guide is restored.
 
 10. In the **Stage** field, enter the sale's current stage:
 
@@ -29,20 +29,20 @@
     > [!NOTE]
     > When you change a stage, for example from **First meeting** to **Quotation**, the first stage in the **Sales guide** section tab is marked as completed, with a tick.
 
-11. To the right of the **Stage** field is a percentage that indicates the probability of the sale being successful at this stage. This is linked to the stage and is specified in the SuperOffice Settings and maintenance. You can however change this manually in SuperOffice CRM if you wish.
+11. To the right of the **Stage** field is a percentage that indicates the probability of the sale being successful at this stage. It is linked to the stage and is specified in the SuperOffice Settings and maintenance. You can however change this manually in SuperOffice CRM if you wish.
 
-12. You can check the **Stalled** box to indicate that the sale has [stalled][2]. This might be the case if, say, the customer has decided to wait until next year before purchasing.
+12. You can check the **Stalled** box to indicate that the sale has [stalled][2]. For example, if the customer decides to wait until next year before purchasing.
 
     > [!NOTE]
-    > The fields below change if you have checked **Stalled**. **Next activity** is changed to **Re-open date**, where you can enter a date for when the sale should be reopened, and **Source** is changed to **Reason (stalled)**, where you can enter why the sale cannot progress at the moment. If you have marked the sale as stalled, the **Appointment** dialog is displayed when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.
+    > The fields below change if you check **Stalled**. **Next activity** is changed to **Re-open date**, where you can enter a date for when the sale should be reopened, and **Source** is changed to **Reason (stalled)**, where you can enter why the sale cannot progress at the moment. If you mark the sale as stalled, the **Appointment** dialog is displayed when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.
 
-13. Enter an estimated sale date in the **Sale date** field. If you want to change the estimated sale date, click the arrow next to the date and select a new one in the calendar that appears.
+13. Enter an estimated sale date in the **Sale date** field. To change the estimated sale date, click the arrow next to the date and select a new one in the calendar that appears.
 
 14. The **Next activity** field shows the date of the next follow-up linked to the sale (the oldest uncompleted follow-up). If this date is prior to today, it is shown in red.
 
 15. Enter the source of the sale in the **Source** field. Click the arrow to display a list of available options.
 
-16. Click in the **Visible for** field and a list is displayed allowing you to choose whether the sale will be visible to all users, private (i.e. visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
+16. Click in the **Visible for** field and a list is displayed allowing you to choose if the sale should be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
 17. If the sale has the status **Sold** or **Lost**, you can check the **Completed** box.
 

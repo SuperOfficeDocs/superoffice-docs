@@ -11,7 +11,14 @@ POST /api/v1/ChatSession/Pickup
 
 'answer' the first available session from the queue: assign the session to the user.
 
+
 The welcome message is sent to the customer.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ The welcome message is sent to the customer.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +86,7 @@ Response body:
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 133,
-  "TopicId": 830,
+  "ChatSessionId": 45,
+  "TopicId": 829,
   "User": null,
   "Person": null,
-  "CustomerAlias": "autem",
-  "CustomerHost": "praesentium",
-  "CustomerName": "Legros, D'Amore and Cartwright",
-  "CustomerEmail": "ashton_quigley@funk.ca",
-  "CustomerPhone": "(878)889-5238",
+  "CustomerAlias": "adipisci",
+  "CustomerHost": "quam",
+  "CustomerName": "Prosacco-Spencer",
+  "CustomerEmail": "joana.franecki@auer.uk",
+  "CustomerPhone": "043.912.5367",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Roberts-Swift",
+  "CustomerCompanyName": "Mante Group",
   "Status": "Closed",
-  "FirstMessage": "nostrum",
+  "FirstMessage": "laboriosam",
   "LastMessage": "excepturi",
-  "WhenRequested": "2006-07-03T11:10:52.5491739+02:00",
-  "WhenStarted": "2020-03-05T11:10:52.5491739+01:00",
-  "WhenEnded": "1995-09-24T11:10:52.5491739+02:00",
-  "WhenIdle": "2017-10-14T11:10:52.5491739+02:00",
-  "WhenFetched": "2016-06-22T11:10:52.5491739+02:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 927,
-  "AlertLevel": 39,
-  "Rank": 143,
+  "WhenRequested": "2012-01-13T02:49:50.6671601+01:00",
+  "WhenStarted": "2001-09-08T02:49:50.6671601+02:00",
+  "WhenEnded": "2000-07-05T02:49:50.6671601+02:00",
+  "WhenIdle": "2001-12-06T02:49:50.6671601+01:00",
+  "WhenFetched": "2013-01-27T02:49:50.6671601+01:00",
+  "SessionKey": "aut",
+  "InitialQueuePos": 595,
+  "AlertLevel": 126,
+  "Rank": 330,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -118,13 +126,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 866,
+  "Rating": 943,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 697
     }
   }
 }

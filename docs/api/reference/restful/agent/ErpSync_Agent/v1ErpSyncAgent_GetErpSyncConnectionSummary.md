@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 
 Get a summary of the current ErpSync configuration/setup
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get a summary of the current ErpSync configuration/setup
 ```http
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpSyncConnectionId
+ErpSyncConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpSyncConnectionId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,11 +82,11 @@ Response body:
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 164
+  "ErpSyncConnectionId": 73
 }
 ```
 
@@ -87,37 +97,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Hauck-Marquardt",
-  "DisplayDescription": "Monitored asynchronous hardware",
+  "DisplayName": "Barton, Bauch and Vandervort",
+  "DisplayDescription": "Upgradable bandwidth-monitored attitude",
   "Active": true,
   "Deleted": true,
-  "LastSync": "2010-11-25T11:10:27.0034544+01:00",
+  "LastSync": "2020-10-18T02:49:44.49729+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "aspernatur",
-      "Mappings": "non",
+      "Defaults": "quisquam",
+      "Mappings": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldType": "System.String",
+          "FieldLength": 629
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "aspernatur",
-      "Mappings": "non",
+      "Defaults": "quisquam",
+      "Mappings": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldType": "System.String",
+          "FieldLength": 629
         }
       }
     }
@@ -127,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 77
     }
   }
 }

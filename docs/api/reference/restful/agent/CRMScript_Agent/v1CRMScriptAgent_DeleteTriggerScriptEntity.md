@@ -11,7 +11,15 @@ POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity
 
 Deletes the TriggerScriptEntity
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,8 +28,9 @@ Deletes the TriggerScriptEntity
 | TriggerScriptEntityId | int32 | **Required** The id of the TriggerScriptEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?TriggerScriptEntityId=181
+POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?TriggerScriptEntityId=285
 ```
+
 
 ## Request Headers
 
@@ -32,7 +41,8 @@ POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?TriggerScriptEntityId=18
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -40,7 +50,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -48,7 +59,7 @@ Response body:
 POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

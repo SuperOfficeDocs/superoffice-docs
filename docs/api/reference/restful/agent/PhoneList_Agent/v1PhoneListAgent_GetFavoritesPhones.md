@@ -11,6 +11,12 @@ POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 
 Returns an array of phone list items with the Contacts in the users favorites dropdown list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns an array of phone list items with the Contacts in the users favorites dr
 ```http
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/PhoneList/GetFavoritesPhones?$select=name,department,categor
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -65,7 +73,7 @@ Response body: array
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "789-945-3789 x1669",
-    "PersonCellPhone": "399-244-5981",
-    "PersonPrivatePhone": "(816)062-0103",
-    "PersonFaxNumber": "291318",
-    "PersonPagerNumber": "1072454",
-    "PersonEmail": "lonie@ondrickastroman.us",
-    "Id": 478,
-    "Name": "Cremin, Schmidt and VonRueden",
-    "Tooltip": "dolor",
-    "UniqueId": "expedita",
+    "PersonDirectPhone": "1-910-103-7592",
+    "PersonCellPhone": "1-087-686-9272 x1839",
+    "PersonPrivatePhone": "1-752-653-8306 x4033",
+    "PersonFaxNumber": "1020122",
+    "PersonPagerNumber": "573494",
+    "PersonEmail": "gennaro@mosciski.biz",
+    "Id": 653,
+    "Name": "Altenwerth Inc and Sons",
+    "Tooltip": "in",
+    "UniqueId": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldType": "System.String",
+        "FieldLength": 639
       }
     }
   }

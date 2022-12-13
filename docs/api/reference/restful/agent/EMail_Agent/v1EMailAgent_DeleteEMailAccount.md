@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/DeleteEMailAccount
 
 Deletes the EMailAccount
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,8 +28,9 @@ Deletes the EMailAccount
 | EMailAccountId | int32 | **Required** The id of the EMailAccount to be deleted. |
 
 ```http
-POST /api/v1/Agents/EMail/DeleteEMailAccount?EMailAccountId=327
+POST /api/v1/Agents/EMail/DeleteEMailAccount?EMailAccountId=340
 ```
+
 
 ## Request Headers
 
@@ -32,7 +41,8 @@ POST /api/v1/Agents/EMail/DeleteEMailAccount?EMailAccountId=327
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -40,7 +50,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -48,7 +59,7 @@ Response body:
 POST /api/v1/Agents/EMail/DeleteEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

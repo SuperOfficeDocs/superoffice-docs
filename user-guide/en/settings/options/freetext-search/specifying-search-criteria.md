@@ -9,11 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Specify search criteria
+# Specify search criteria for a freetext search
 
 You can specify search criteria for both individual words (for example *Peter*) and phrases consisting of several words (for example *Oliver Peter Nielsen*).
-
-To specify the search criteria for a freetext search:
 
 [!include[Go to freetext search tab](../includes/goto-freetext.md)]
 

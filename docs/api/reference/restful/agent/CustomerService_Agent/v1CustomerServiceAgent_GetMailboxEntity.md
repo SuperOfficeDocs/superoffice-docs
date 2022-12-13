@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetMailboxEntity
 
 Gets a MailboxEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a MailboxEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=712
+POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=110
 POST /api/v1/Agents/CustomerService/GetMailboxEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/CustomerService/GetMailboxEntity?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +72,7 @@ Response body:
 POST /api/v1/Agents/CustomerService/GetMailboxEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 859,
+  "MailInFilterId": 348,
   "ServerType": "Facebook",
-  "Address": "rem",
-  "Username": "facere",
-  "Password": "omnis",
-  "Server": "voluptatem",
-  "Port": 37,
+  "Address": "fugit",
+  "Username": "incidunt",
+  "Password": "vel",
+  "Server": "corrupti",
+  "Port": 963,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 581
     }
   }
 }

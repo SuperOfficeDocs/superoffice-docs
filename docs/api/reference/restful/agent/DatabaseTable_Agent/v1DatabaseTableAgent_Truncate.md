@@ -11,7 +11,13 @@ POST /api/v1/Agents/DatabaseTable/Truncate
 
 Drop all rows in a table.
 
+
 This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This clearance is not individually logged in TravelTransactionlog or Webhook/scr
 ```http
 POST /api/v1/Agents/DatabaseTable/Truncate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/DatabaseTable/Truncate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName
+TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,11 +80,11 @@ Response body:
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rempel, Upton and Heller"
+  "TableName": "Lockman, Hoppe and Rau"
 }
 ```
 
@@ -87,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "mollitia",
-  "Inserts": 425,
-  "Updates": 721,
-  "Deletes": 916,
+  "Success": true,
+  "Message": "aliquid",
+  "Inserts": 596,
+  "Updates": 502,
+  "Deletes": 414,
   "RowStatus": [
     {
-      "PrimaryKey": 859,
+      "PrimaryKey": 216,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "corrupti",
-        "consequatur"
+        "ratione",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldType": "System.String",
+          "FieldLength": 904
         }
       }
     },
     {
-      "PrimaryKey": 859,
+      "PrimaryKey": 216,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "corrupti",
-        "consequatur"
+        "ratione",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldType": "System.String",
+          "FieldLength": 904
         }
       }
     }
@@ -130,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 352
+      "FieldType": "System.Int32",
+      "FieldLength": 542
     }
   }
 }

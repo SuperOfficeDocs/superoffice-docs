@@ -11,9 +11,15 @@ PUT /api/v1/TicketMessage/{id}
 
 Saves a ticket message and performs any user notifications
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The TicketMessageEntity id to update **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Saves a ticket message and performs any user notifications
 ```http
 PUT /api/v1/TicketMessage/{id}?notify=False
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/TicketMessage/{id}?notify=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ticket message to save
+The ticket message to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +77,8 @@ The ticket message to save
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -79,7 +87,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -120,48 +128,50 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 689,
+  "EjMessageId": 425,
   "Ticket": null,
-  "CreatedAt": "2016-04-26T11:10:53.6432178+02:00",
+  "CreatedAt": "2011-05-27T02:49:51.6553976+02:00",
   "CreatedBy": null,
-  "Author": "sed",
+  "Author": "iure",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 339,
-  "Body": "cupiditate",
-  "HtmlBody": "quas",
-  "EmailHeader": "alaina@frami.co.uk",
-  "DebugInfo": "culpa",
-  "MailSorter": "nostrum",
+  "MessageId": "aliquam",
+  "TimeSpent": 685,
+  "Body": "facilis",
+  "HtmlBody": "numquam",
+  "EmailHeader": "wilmer_nader@feest.us",
+  "DebugInfo": "consequuntur",
+  "MailSorter": "asperiores",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "laudantium",
+  "SearchTitle": "cum",
   "MessageHeaders": [
     {
-      "Name": "Feest-Ledner",
-      "Value": "quidem",
+      "Id": 750,
+      "Name": "Eichmann, Glover and Koelpin",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Name": "Feest-Ledner",
-      "Value": "quidem",
+      "Id": 750,
+      "Name": "Eichmann, Glover and Koelpin",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "sapiente",
-  "Sentiment": 213,
-  "SentimentConfidence": 648,
+  "Important": true,
+  "Language": "deserunt",
+  "Sentiment": 886,
+  "SentimentConfidence": 727,
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "quas"
+    "CustomFields1": "perferendis",
+    "CustomFields2": "sequi"
   }
 }
 ```
@@ -173,71 +183,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 45,
+  "EjMessageId": 502,
   "Ticket": null,
-  "CreatedAt": "2001-01-11T11:10:53.6492196+01:00",
+  "CreatedAt": "2017-04-06T02:49:51.6553976+02:00",
   "CreatedBy": null,
-  "Author": "vitae",
+  "Author": "vero",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "totam",
-  "TimeSpent": 741,
-  "Body": "expedita",
-  "HtmlBody": "tempora",
-  "EmailHeader": "shayna.shanahan@orn.ca",
-  "DebugInfo": "beatae",
-  "MailSorter": "voluptatem",
+  "MessageId": "debitis",
+  "TimeSpent": 470,
+  "Body": "aut",
+  "HtmlBody": "autem",
+  "EmailHeader": "cody.parker@kirlin.com",
+  "DebugInfo": "voluptates",
+  "MailSorter": "perspiciatis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sunt",
+  "SearchTitle": "ipsam",
   "MessageHeaders": [
     {
-      "Name": "Herzog-Greenholt",
-      "Value": "iure",
+      "Id": 271,
+      "Name": "Dooley-Pagac",
+      "Value": "asperiores",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 448
-        }
-      }
-    },
-    {
-      "Name": "Herzog-Greenholt",
-      "Value": "iure",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldType": "System.String",
+          "FieldLength": 596
         }
       }
     }
   ],
   "Important": true,
-  "Language": "dolores",
-  "Sentiment": 535,
-  "SentimentConfidence": 603,
+  "Language": "qui",
+  "Sentiment": 424,
+  "SentimentConfidence": 853,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "eligendi"
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "natus"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "sed"
+    "CustomFields1": "iste",
+    "CustomFields2": "tempore"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldLength": 201
     }
   }
 }

@@ -23,9 +23,9 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 
 4. Click **Add** next to the two fields you have just completed. This new field is added under the preview at the top of the screen.
 
-5. Click **OK**. The changes are saved, and the next time you display this screen the new field will be included.
+5. Click **OK**. The changes are saved, and the next time you display this screen the new field is included.
 
-6. If you want to revert to the default settings, return to the **Edit element profile** screen and click the **Restore default (deletes this profile)** button at the bottom of the screen.
+6. To revert to the default settings, return to the **Edit element profile** screen and click the **Restore default (deletes this profile)** button at the bottom of the screen.
 
 ## What would you like to find out more about?
 

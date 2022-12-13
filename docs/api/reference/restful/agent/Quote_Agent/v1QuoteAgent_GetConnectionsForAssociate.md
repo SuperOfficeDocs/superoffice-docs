@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 
 Returns all connections available for the specified user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all connections available for the specified user.
 ```http
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Quote/GetConnectionsForAssociate?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId
+AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
+
 
 ## Response: array
 
@@ -79,11 +87,11 @@ Response body: array
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 212
+  "AssociateId": 525
 }
 ```
 
@@ -95,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 992,
-    "ERPName": "Lowe, Runte and Howell",
-    "DisplayName": "Walker-Donnelly",
-    "DisplayDescription": "Profit-focused fresh-thinking throughput",
-    "Rank": 901,
-    "ConnectorName": "Jakubowski-Beier",
-    "ErpConnectionId": 632,
-    "ExtraData": "earum",
+    "QuoteConnectionId": 329,
+    "ERPName": "Ernser Inc and Sons",
+    "DisplayName": "Mosciski-Emard",
+    "DisplayDescription": "User-friendly asynchronous concept",
+    "Rank": 583,
+    "ConnectorName": "O'Reilly, Toy and Prohaska",
+    "ErpConnectionId": 277,
+    "ExtraData": "hic",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 20,
-        "ERPPriceListKey": "tenetur",
-        "QuoteConnectionId": 56,
-        "Name": "Kerluke, Parisian and Thiel",
-        "Description": "Adaptive dedicated success",
-        "Currency": "nihil",
-        "CurrencyName": "Hoppe, Dickens and Weber",
-        "ValidFrom": "1996-12-05T11:10:27.7094919+01:00",
-        "ValidTo": "2021-06-28T11:10:27.7094919+02:00",
-        "IsActive": true,
+        "PriceListId": 882,
+        "ERPPriceListKey": "quo",
+        "QuoteConnectionId": 176,
+        "Name": "Cruickshank, Hudson and Brown",
+        "Description": "Quality-focused context-sensitive solution",
+        "Currency": "aspernatur",
+        "CurrencyName": "Predovic LLC",
+        "ValidFrom": "2001-02-15T02:49:45.0309645+01:00",
+        "ValidTo": "2020-07-29T02:49:45.0309645+02:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 515
+            "FieldLength": 326
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": true,
+    "AllAccess": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      210,
-      568
+      363,
+      296
     ],
     "AssociateAccessIds": [
-      708,
-      154
+      848,
+      239
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldType": "System.String",
+        "FieldLength": 707
       }
     }
   }

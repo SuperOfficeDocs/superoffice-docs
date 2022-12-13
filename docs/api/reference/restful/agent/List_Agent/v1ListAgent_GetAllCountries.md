@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllCountries
 
 Returns all available countries a contact or person could belong to.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all available countries a contact or person could belong to.
 ```http
 POST /api/v1/Agents/List/GetAllCountries?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/List/GetAllCountries?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
+
 
 ## Response: array
 
@@ -86,7 +94,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -98,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 513,
-    "Name": "Feil LLC",
-    "CurrencyId": 879,
-    "EnglishName": "Shields LLC",
+    "CountryId": 439,
+    "Name": "Klocko Inc and Sons",
+    "CurrencyId": 361,
+    "EnglishName": "Skiles, O'Kon and Konopelski",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Programmable logistical methodology",
-    "OrgNrText": "1296818",
-    "InterAreaPrefix": "et",
-    "DialInPrefix": "qui",
-    "ZipPrefix": "ullam",
-    "DomainName": "Quitzon-Greenfelder",
-    "AddressLayoutId": 159,
-    "DomesticAddressLayoutId": 886,
-    "ForeignAddressLayoutId": 379,
-    "Rank": 200,
-    "Tooltip": "quo",
-    "Deleted": false,
+    "ImageDescription": "Networked high-level open system",
+    "OrgNrText": "836920",
+    "InterAreaPrefix": "rerum",
+    "DialInPrefix": "quas",
+    "ZipPrefix": "doloremque",
+    "DomainName": "Wolf, Nolan and Prosacco",
+    "AddressLayoutId": 169,
+    "DomesticAddressLayoutId": 337,
+    "ForeignAddressLayoutId": 827,
+    "Rank": 194,
+    "Tooltip": "rerum",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 804
       }
     }
   }

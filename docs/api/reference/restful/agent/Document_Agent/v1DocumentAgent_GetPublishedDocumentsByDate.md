@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 
 Method that returns a specified number of published document appointments within a time range.
 
+
 The document appointments is visible to the person specified or the document is in a project the person belongs to.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments is visible to the person specified or the document is 
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetPublishedDocumentsByDate?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectDocuments, StartTime, EndTime, Count
+PersonId, IncludeProjectDocuments, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ PersonId, IncludeProjectDocuments, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -94,11 +102,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 803,
+  "PersonId": 303,
   "IncludeProjectDocuments": false,
-  "StartTime": "2004-06-22T11:10:26.454455+02:00",
-  "EndTime": "2014-12-18T11:10:26.454455+01:00",
-  "Count": 765
+  "StartTime": "2021-05-19T02:49:44.0753838+02:00",
+  "EndTime": "2016-11-20T02:49:44.0753838+01:00",
+  "Count": 480
 }
 ```
 
@@ -110,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 650,
-    "Attention": "cum",
-    "Header": "enim",
-    "Name": "Crooks, Swift and Towne",
-    "OurRef": "error",
-    "YourRef": "qui",
-    "Description": "Automated asynchronous forecast",
-    "DocumentTemplate": "et",
-    "IsPublished": false,
-    "PersonId": 70,
-    "PersonFullName": "Ulises Bruen",
-    "AssociateFullName": "Miss Saige Lois Bashirian Sr.",
-    "ContactId": 765,
-    "ContactName": "Leffler-Kunze",
-    "ProjectId": 463,
-    "ProjectName": "Bartoletti-Hegmann",
-    "AssociateId": 340,
-    "Snum": 69,
-    "SaleId": 973,
-    "SaleName": "Donnelly-Reilly",
+    "DocumentId": 786,
+    "Attention": "quia",
+    "Header": "id",
+    "Name": "Lind LLC",
+    "OurRef": "sunt",
+    "YourRef": "minima",
+    "Description": "Ergonomic object-oriented matrices",
+    "DocumentTemplate": "numquam",
+    "IsPublished": true,
+    "PersonId": 11,
+    "PersonFullName": "Karlee Kohler",
+    "AssociateFullName": "Jannie Stokes IV",
+    "ContactId": 246,
+    "ContactName": "Reinger-Johnston",
+    "ProjectId": 407,
+    "ProjectName": "Ankunding-Lesch",
+    "AssociateId": 342,
+    "Snum": 973,
+    "SaleId": 865,
+    "SaleName": "Senger-Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 97
+        "FieldLength": 706
       }
     }
   }

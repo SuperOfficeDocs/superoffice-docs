@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetReasonSold
 
 Gets a ReasonSold object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ReasonSold object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetReasonSold?reasonSoldId=665
+POST /api/v1/Agents/List/GetReasonSold?reasonSoldId=887
 POST /api/v1/Agents/List/GetReasonSold?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetReasonSold?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +68,7 @@ Response body:
 POST /api/v1/Agents/List/GetReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 44,
-  "Value": "dolorem",
-  "Tooltip": "consequuntur",
+  "Id": 828,
+  "Value": "minus",
+  "Tooltip": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldType": "System.String",
+      "FieldLength": 542
     }
   }
 }

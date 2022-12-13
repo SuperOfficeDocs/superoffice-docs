@@ -11,7 +11,14 @@ GET /api/v1/Appointment/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on AppointmentEntity.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Excludes standard fields.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -70,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "VonRueden Inc and Sons",
-    "DisplayName": "Windler Group",
-    "Description": "Enhanced cohesive encoding",
-    "ShortLabel": "nostrum",
-    "HideLabel": true,
+    "FieldName": "Smitham LLC",
+    "DisplayName": "Gorczany Group",
+    "Description": "Business-focused motivating frame",
+    "ShortLabel": "similique",
+    "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 798,
-    "TemplateVariableName": "Bergnaum LLC"
+    "IsExternal": false,
+    "Rank": 965,
+    "TemplateVariableName": "Raynor-Marquardt"
   }
 ]
 ```

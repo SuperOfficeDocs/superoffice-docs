@@ -4,7 +4,7 @@ uid: federated_id_and_identity_providers
 description: Federated ID and identity providers
 author:
 so.date:
-keywords: 
+keywords: idp
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -28,7 +28,7 @@ When the user signs in to a service, instead of providing credentials to the ser
 
 ## Which identity providers do you support?
 
-Today we support 2 different 3rd-party identity providers:
+We support 2 different 3rd-party identity providers:
 
 * Google Domains
   * Basic, Business, and Enterprise of Google Workspace subscriptions include this
@@ -37,14 +37,14 @@ Today we support 2 different 3rd-party identity providers:
   * Azure AD Premium P1 or higher.
 
 >[!NOTE]
-> For other identity providers that support OpenID Connect/OAuth 2.0, please give your feedback, and we will look into adding support for it.
+> Use Microsoft or Google as federation gateway with your custom IDP.
 
 Other ways of achieving this can be to use:
 
 * **Microsoft Hybrid Identity:** able to connect local AD
   * [microsoft.com - what-is-azure-ad-connect][3]
   * [microsoft.com - what-is-hybrid-identity][4]
-    * If you don't have a Microsoft365 subscription, you probably need Azure AD Premium P1 or higher.
+    * If you don't have a Microsoft 365 subscription, you probably need Azure AD Premium P1 or higher.
         Consult Microsoft for cost and other considerations for setting up a Hybrid Identity.
 * **Google Cloud Directory Sync**: sync from another system to Google
 

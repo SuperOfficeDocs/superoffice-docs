@@ -51,8 +51,8 @@ Finally, we can implement our business logic. In this case, I will use NetServer
 As can be seen from this snippet, we use `NSAppointmentAgent` and `NSAppointmentEntity` to create the appointments. These are standard methods from NetServer. A better implementation would perhaps use a dropdown to choose the associate, or find the first available time and return the chosen time to the user.
 
 <!-- Referenced images -->
-[img6]: media/image006.gif
-[img7]: media/image007.gif
-[img8]: media/image008.gif
-[img9]: media/image009.gif
-[img10]: media/image010.gif
+[img6]: media/image006.png
+[img7]: media/image007.png
+[img8]: media/image008.png
+[img9]: media/image009.png
+[img10]: media/image010.png

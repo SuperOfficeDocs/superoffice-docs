@@ -11,9 +11,16 @@ POST /api/v1/Agents/ErpSync/GetAllConnections
 
 Returns all ERP Sync connections without config field data.
 
+
 Uses the `ErpConnection` archive.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Uses the `ErpConnection` archive.
 ```http
 POST /api/v1/Agents/ErpSync/GetAllConnections?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,13 +47,14 @@ POST /api/v1/Agents/ErpSync/GetAllConnections?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
+
 
 ## Response: array
 
@@ -80,7 +89,7 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 176,
-    "ErpConnectorId": 768,
-    "DisplayName": "Herman-Sanford",
-    "DisplayDescription": "Progressive 5th generation neural-net",
+    "ErpConnectionId": 468,
+    "ErpConnectorId": 744,
+    "DisplayName": "Borer-Padberg",
+    "DisplayDescription": "Networked 6th generation portal",
     "Active": false,
-    "ConnectionId": "maxime",
-    "MostRecentTimestamp": "quod",
+    "ConnectionId": "accusamus",
+    "MostRecentTimestamp": "quaerat",
     "ConfigFields": {
-      "ConfigFields1": "voluptatem",
-      "ConfigFields2": "voluptatem"
+      "ConfigFields1": "exercitationem",
+      "ConfigFields2": "molestias"
     },
-    "Deleted": true,
-    "AllAccess": true,
+    "Deleted": false,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      251,
-      538
+      968,
+      509
     ],
     "AssociateAccessIds": [
-      500,
-      28
+      487,
+      283
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 524
       }
     }
   }

@@ -11,6 +11,13 @@ GET /api/v1/Person/UdefLayout/Published
 
 Currently published PersonEntity user-defined field layout.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -23,6 +30,7 @@ Currently published PersonEntity user-defined field layout.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -79,7 +87,7 @@ Response body: array
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 931,
-    "ColumnId": 309,
-    "FieldDefault": "ut",
-    "FieldHeight": 428,
-    "FieldLabel": "et",
-    "FieldLeft": 32,
-    "FieldTop": 21,
+    "UDefFieldId": 610,
+    "ColumnId": 1001,
+    "FieldDefault": "ratione",
+    "FieldHeight": 422,
+    "FieldLabel": "vero",
+    "FieldLeft": 841,
+    "FieldTop": 996,
     "FieldType": "Checkbox",
-    "FieldWidth": 651,
-    "FormatMask": "vero",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 939,
-    "LabelLeft": 552,
-    "LabelTop": 664,
-    "LabelWidth": 954,
-    "LastVersionId": 601,
-    "ListTableId": 256,
+    "FieldWidth": 394,
+    "FormatMask": "inventore",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 902,
+    "LabelLeft": 408,
+    "LabelTop": 360,
+    "LabelWidth": 285,
+    "LastVersionId": 945,
+    "ListTableId": 791,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 952,
-    "ProgId": "ad",
-    "IsReadOnly": false,
-    "ShortLabel": "delectus",
-    "TabOrder": 747,
-    "TextLength": 789,
-    "Tooltip": "ducimus",
-    "UdefIdentity": 916,
-    "UDListDefinitionId": 979,
+    "Page1LineNo": 119,
+    "ProgId": "voluptatem",
+    "IsReadOnly": true,
+    "ShortLabel": "velit",
+    "TabOrder": 562,
+    "TextLength": 246,
+    "Tooltip": "dolorum",
+    "UdefIdentity": 787,
+    "UDListDefinitionId": 718,
     "Justification": "Center",
-    "Version": 586,
-    "TemplateVariableName": "Reichel LLC",
+    "Version": 828,
+    "TemplateVariableName": "Monahan-Sanford",
     "HasBeenPublished": false,
-    "MdoListName": "Flatley-Mohr",
+    "MdoListName": "Hodkiewicz, Doyle and Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldType": "System.String",
+        "FieldLength": 790
       }
     }
   }

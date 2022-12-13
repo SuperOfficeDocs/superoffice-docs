@@ -21,7 +21,7 @@ You can specify preference settings for four different levels:
 | User | Preferences that are linked to each individual user. |
 
 > [!NOTE]
-> Preferences that can only be set on a global (system) level, can be found in the [Global preferences][1] tab.
+> Preferences that can be set only on a global (system) level, are located in the [Global preferences][1] tab.
 
 You can specify different values for different levels so that, for example, you can have one setting for a user and a different setting for the user group that the contact belongs to. The lowest level always applies.
 

@@ -11,11 +11,18 @@ PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 
 Saves user groups visible for the DocumentTemplateEntity list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 379,
-    "Name": "Dietrich LLC",
-    "ToolTip": "Iste cumque.",
-    "Deleted": false,
-    "Rank": 943,
-    "Type": "ut",
-    "ColorBlock": 741,
-    "IconHint": "et",
+    "Id": 209,
+    "Name": "Schaden-Huel",
+    "ToolTip": "Molestiae rerum sit enim.",
+    "Deleted": true,
+    "Rank": 542,
+    "Type": "atque",
+    "ColorBlock": 886,
+    "IconHint": "numquam",
     "Selected": true,
-    "LastChanged": "2007-04-19T11:10:54.2878984+02:00",
+    "LastChanged": "2012-10-17T02:49:52.2503161+02:00",
     "ChildItems": [
       {
-        "Id": 796,
-        "Name": "Schumm, Trantow and Kuhn",
-        "ToolTip": "Consequatur aliquam quia odio laudantium.",
+        "Id": 8,
+        "Name": "Moore-Homenick",
+        "ToolTip": "Dolore nam ad.",
         "Deleted": true,
-        "Rank": 120,
-        "Type": "eligendi",
-        "ColorBlock": 442,
-        "IconHint": "iusto",
+        "Rank": 287,
+        "Type": "explicabo",
+        "ColorBlock": 723,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "2009-09-06T11:10:54.2878984+02:00",
+        "LastChanged": "2005-11-09T02:49:52.2503161+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Alexa Jast"
+        "ExtraInfo": "velit",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Donny Gottlieb"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "sequi",
+    "ExtraInfo": "dolor",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Madisyn Johnson"
+    "FullName": "Wilbert Grady"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 852,
-    "Name": "Mraz Inc and Sons",
-    "ToolTip": "Commodi et illo ea quia odit quos possimus.",
+    "Id": 627,
+    "Name": "Roberts Inc and Sons",
+    "ToolTip": "Odit ratione eveniet.",
     "Deleted": false,
-    "Rank": 934,
-    "Type": "aut",
-    "ColorBlock": 712,
-    "IconHint": "commodi",
+    "Rank": 755,
+    "Type": "harum",
+    "ColorBlock": 877,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2008-01-14T11:10:54.290897+01:00",
+    "LastChanged": "2012-06-28T02:49:52.2503161+02:00",
     "ChildItems": [
       {
-        "Id": 37,
-        "Name": "Wolff Inc and Sons",
-        "ToolTip": "Voluptatem doloribus corporis consequatur.",
+        "Id": 609,
+        "Name": "Swaniawski-Dooley",
+        "ToolTip": "Cumque eligendi ea a.",
         "Deleted": false,
-        "Rank": 140,
-        "Type": "expedita",
-        "ColorBlock": 136,
-        "IconHint": "veritatis",
-        "Selected": false,
-        "LastChanged": "2021-09-26T11:10:54.290897+02:00",
+        "Rank": 22,
+        "Type": "voluptates",
+        "ColorBlock": 996,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2021-11-19T02:49:52.2503161+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "saepe",
-        "Hidden": true,
-        "FullName": "Lacey Bo Swift DDS",
+        "ExtraInfo": "optio",
+        "StyleHint": "exercitationem",
+        "Hidden": false,
+        "FullName": "Carey Wintheiser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 613
+            "FieldType": "System.Int32",
+            "FieldLength": 609
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "quidem",
+    "ExtraInfo": "et",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Ms. Roberta Koelpin MD",
+    "FullName": "Dr. Dameon Emard II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldLength": 511
       }
     }
   }

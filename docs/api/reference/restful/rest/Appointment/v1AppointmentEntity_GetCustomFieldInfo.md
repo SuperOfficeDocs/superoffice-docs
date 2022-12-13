@@ -11,11 +11,18 @@ GET /api/v1/Appointment/CustomField/{fieldName}
 
 Custom field meta-data (published user defined + extra fields) on AppointmentEntity.
 
+
 Excludes standard fields.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | fieldName | string | The name of the custom field to return: 'x_foo' or 'SuperOffice:3' **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +70,7 @@ Response body:
 GET /api/v1/Appointment/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Schmeler, Koss and Krajcik",
-  "DisplayName": "Klocko, Muller and Rosenbaum",
-  "Description": "Organized non-volatile array",
-  "ShortLabel": "culpa",
+  "FieldName": "Rippin Group",
+  "DisplayName": "Dicki, Schmidt and Greenholt",
+  "Description": "Pre-emptive mission-critical strategy",
+  "ShortLabel": "deleniti",
   "HideLabel": true,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": true,
-  "Rank": 261,
-  "TemplateVariableName": "Bartoletti-Wisoky"
+  "IsExternal": false,
+  "Rank": 754,
+  "TemplateVariableName": "Jacobson, Goodwin and Denesik"
 }
 ```

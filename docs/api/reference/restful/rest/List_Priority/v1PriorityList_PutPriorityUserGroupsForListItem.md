@@ -11,11 +11,18 @@ PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Priority list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Fritsch-Beatty",
-    "ToolTip": "Fuga dolores repellat aliquam.",
+    "Id": 92,
+    "Name": "Murray Inc and Sons",
+    "ToolTip": "Asperiores eligendi aut et ut.",
     "Deleted": true,
-    "Rank": 221,
-    "Type": "tenetur",
-    "ColorBlock": 161,
-    "IconHint": "ullam",
+    "Rank": 959,
+    "Type": "earum",
+    "ColorBlock": 491,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2020-07-29T11:10:54.3989027+02:00",
+    "LastChanged": "2018-05-07T02:49:52.3440724+02:00",
     "ChildItems": [
       {
-        "Id": 988,
-        "Name": "Watsica LLC",
-        "ToolTip": "Autem et eaque quo excepturi tempore.",
-        "Deleted": true,
-        "Rank": 262,
-        "Type": "vero",
-        "ColorBlock": 914,
-        "IconHint": "dolorem",
-        "Selected": false,
-        "LastChanged": "2016-12-08T11:10:54.3989027+01:00",
+        "Id": 514,
+        "Name": "Johns-Smitham",
+        "ToolTip": "Animi tempora.",
+        "Deleted": false,
+        "Rank": 407,
+        "Type": "dolor",
+        "ColorBlock": 518,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2000-02-21T02:49:52.3440724+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "odio",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Blanche Gibson"
+        "FullName": "Edison Senger"
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Margaretta Murazik"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "debitis",
+    "Hidden": true,
+    "FullName": "Genevieve Waelchi"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "O'Kon-Pfannerstill",
-    "ToolTip": "Rem aut et.",
+    "Id": 130,
+    "Name": "Wintheiser Inc and Sons",
+    "ToolTip": "Odit incidunt aut id ipsum ipsam ducimus dolores.",
     "Deleted": true,
-    "Rank": 719,
-    "Type": "ad",
-    "ColorBlock": 13,
-    "IconHint": "unde",
+    "Rank": 682,
+    "Type": "omnis",
+    "ColorBlock": 273,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "1995-12-28T11:10:54.3999023+01:00",
+    "LastChanged": "2001-09-02T02:49:52.3440724+02:00",
     "ChildItems": [
       {
-        "Id": 855,
-        "Name": "Dibbert LLC",
-        "ToolTip": "Quidem praesentium ut.",
+        "Id": 652,
+        "Name": "Sipes, Schowalter and O'Reilly",
+        "ToolTip": "Pariatur voluptas quo deserunt dolores.",
         "Deleted": false,
-        "Rank": 955,
-        "Type": "nihil",
-        "ColorBlock": 698,
-        "IconHint": "velit",
+        "Rank": 176,
+        "Type": "sed",
+        "ColorBlock": 511,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "2011-12-03T11:10:54.3999023+01:00",
+        "LastChanged": "2007-12-16T02:49:52.3440724+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "ab",
+        "ExtraInfo": "et",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Jerry Ritchie",
+        "FullName": "Jayden Hills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 24
+            "FieldLength": 578
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "magni",
-    "Hidden": false,
-    "FullName": "Madison Larson III",
+    "ExtraInfo": "vero",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Miss Jeffery Carole Steuber DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 674
+        "FieldLength": 268
       }
     }
   }

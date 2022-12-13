@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 
 Get a set of credentials of a specified type for a specified user.
 
+
 SecretValue is only populated for authenticated user, and system users.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ SecretValue is only populated for authenticated user, and system users.
 ```http
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,14 +47,15 @@ POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, Type
+AssociateId, Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | Type | string |  |
+
 
 ## Response: array
 
@@ -75,12 +84,12 @@ Response body: array
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 637,
-  "Type": "esse"
+  "AssociateId": 373,
+  "Type": "qui"
 }
 ```
 
@@ -92,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2009-06-10T11:10:28.4172069+02:00",
-    "ValidTo": "2009-03-02T11:10:28.4172069+01:00",
-    "Comment": "nisi",
-    "SecretValue": "doloribus",
-    "PublicValue": "sed",
-    "IsActive": true,
+    "ValidFrom": "2004-03-20T02:49:45.6715962+01:00",
+    "ValidTo": "2013-09-13T02:49:45.6715962+02:00",
+    "Comment": "voluptas",
+    "SecretValue": "deleniti",
+    "PublicValue": "enim",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 223
       }
     }
   }

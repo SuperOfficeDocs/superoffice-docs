@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/DeleteCredential
 
 Remove credential of a specific type for a user
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Remove credential of a specific type for a user
 ```http
 POST /api/v1/Agents/User/DeleteCredential?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +46,15 @@ POST /api/v1/Agents/User/DeleteCredential?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserId, CredentialType
+UserId, CredentialType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserId | int32 |  |
 | CredentialType | string |  |
+
 
 ## Response: bool
 
@@ -56,18 +66,19 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/User/DeleteCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 151,
-  "CredentialType": "vitae"
+  "UserId": 10,
+  "CredentialType": "autem"
 }
 ```
 
@@ -77,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

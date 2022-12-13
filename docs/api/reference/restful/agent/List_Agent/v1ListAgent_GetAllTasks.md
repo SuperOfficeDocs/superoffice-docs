@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllTasks
 
 Returns all appointment tasks
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all appointment tasks
 ```http
 POST /api/v1/Agents/List/GetAllTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/List/GetAllTasks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
+
 
 ## Response: array
 
@@ -93,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 412,
-    "Value": "nam",
+    "TaskListItemId": 102,
+    "Value": "et",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "est",
-    "Deleted": false,
-    "IntentId": 766,
-    "Rank": 729,
+    "Tooltip": "quae",
+    "Deleted": true,
+    "IntentId": 473,
+    "Rank": 489,
     "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": true,
-    "IsDefaultPublished": false,
+    "IsDefaultFree": false,
+    "IsDefaultPublished": true,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
@@ -111,7 +119,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldLength": 900
       }
     }
   }

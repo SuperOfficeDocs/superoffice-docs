@@ -11,7 +11,13 @@ POST /api/v1/ChatTopic
 
 Creates a new ChatTopicEntity
 
+
 Calls the Chat agent service SaveChatTopicEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Chat agent service SaveChatTopicEntity.
 ```http
 POST /api/v1/ChatTopic?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/ChatTopic?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ChatTopicEntity to be saved.
+The ChatTopicEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +82,8 @@ The ChatTopicEntity to be saved.
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -83,7 +91,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -132,37 +140,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 282,
-  "Name": "Pfeffer, Funk and Williamson",
-  "Description": "Triple-buffered secondary website",
-  "WelcomeMessage": "nesciunt",
+  "ChatTopicId": 335,
+  "Name": "Muller-Ullrich",
+  "Description": "Integrated zero administration extranet",
+  "WelcomeMessage": "optio",
   "Language": null,
-  "LastAccept": "2008-02-13T11:10:52.5671804+01:00",
-  "SecondsPrAccept": 212,
-  "AlertRecipient": "beatae",
+  "LastAccept": "2001-08-01T02:49:50.682786+02:00",
+  "SecondsPrAccept": 643,
+  "AlertRecipient": "non",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "voluptas",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "omnis",
-  "WarnNewChatMinutes": 711,
-  "WarnManagerNewChatMinutes": 639,
-  "TicketEnabled": true,
+  "BadgeHeader": "ab",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "optio",
+  "WarnNewChatMinutes": 436,
+  "WarnManagerNewChatMinutes": 298,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 213,
-  "WarnManagerChatMessageMinutes": 571,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 201,
-  "OfflineFormQueueLength": 233,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "eligendi"
+  "WarnChatMessageMinutes": 22,
+  "WarnManagerChatMessageMinutes": 833,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 619,
+  "OfflineFormQueueLength": 549,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "praesentium"
 }
 ```
 
@@ -173,48 +181,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 757,
-  "Name": "Baumbach, Leffler and Cummings",
-  "Description": "User-centric zero tolerance structure",
-  "WelcomeMessage": "ex",
+  "ChatTopicId": 78,
+  "Name": "Larson, Boehm and Kunze",
+  "Description": "Sharable regional function",
+  "WelcomeMessage": "cumque",
   "Language": null,
-  "LastAccept": "2018-07-16T11:10:52.5701796+02:00",
-  "SecondsPrAccept": 280,
-  "AlertRecipient": "nihil",
+  "LastAccept": "2001-11-26T02:49:50.6984105+01:00",
+  "SecondsPrAccept": 312,
+  "AlertRecipient": "harum",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "consequatur",
+  "BadgeHeader": "ea",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "minima",
-  "WarnNewChatMinutes": 525,
-  "WarnManagerNewChatMinutes": 353,
+  "CustomQueueText": "exercitationem",
+  "WarnNewChatMinutes": 95,
+  "WarnManagerNewChatMinutes": 138,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 424,
-  "WarnManagerChatMessageMinutes": 915,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 214,
-  "OfflineFormQueueLength": 277,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "nostrum",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 727,
+  "WarnManagerChatMessageMinutes": 268,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 401,
+  "OfflineFormQueueLength": 783,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldType": "System.Int32",
+      "FieldLength": 225
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

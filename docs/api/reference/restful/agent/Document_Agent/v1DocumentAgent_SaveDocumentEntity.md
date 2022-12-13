@@ -11,6 +11,13 @@ POST /api/v1/Agents/Document/SaveDocumentEntity
 
 Updates the existing DocumentEntity or creates a new DocumentEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing DocumentEntity or creates a new DocumentEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DocumentEntity to be saved.
+The DocumentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +73,8 @@ The DocumentEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -74,7 +82,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -125,73 +133,73 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 103,
+  "DocumentId": 998,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "delectus",
-  "Header": "nihil",
-  "Name": "Littel-Cronin",
-  "OurRef": "maiores",
-  "YourRef": "est",
-  "CreatedDate": "2004-10-09T11:10:26.5034486+02:00",
-  "UpdatedDate": "1997-10-07T11:10:26.5034486+02:00",
-  "Description": "Universal fresh-thinking architecture",
+  "Attention": "laboriosam",
+  "Header": "eaque",
+  "Name": "Nitzsche LLC",
+  "OurRef": "assumenda",
+  "YourRef": "molestiae",
+  "CreatedDate": "2013-03-02T02:49:44.1066348+01:00",
+  "UpdatedDate": "1997-01-12T02:49:44.1066348+01:00",
+  "Description": "Vision-oriented optimizing structure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-11-16T11:10:26.507448+01:00",
-  "ExternalRef": "occaecati",
+  "Date": "2001-06-19T02:49:44.1066348+02:00",
+  "ExternalRef": "nemo",
   "Completed": "Completed",
-  "ActiveLinks": 742,
+  "ActiveLinks": 421,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gaylord, Jewess and Thompson",
-      "Id": 502,
-      "Description": "Progressive incremental Graphic Interface",
-      "ExtraInfo": "vel",
-      "LinkId": 127
+      "EntityName": "Beier-Hoppe",
+      "Id": 439,
+      "Description": "Open-source maximized hardware",
+      "ExtraInfo": "id",
+      "LinkId": 5
     },
     {
-      "EntityName": "Gaylord, Jewess and Thompson",
-      "Id": 502,
-      "Description": "Progressive incremental Graphic Interface",
-      "ExtraInfo": "vel",
-      "LinkId": 127
+      "EntityName": "Beier-Hoppe",
+      "Id": 439,
+      "Description": "Open-source maximized hardware",
+      "ExtraInfo": "id",
+      "LinkId": 5
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 926,
-  "Snum": 299,
+  "SuggestedDocumentId": 101,
+  "Snum": 467,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ressie Langworth",
-    "SuperOffice:2": "Jeromy Strosin"
+    "SuperOffice:1": "71285751",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "delectus",
+    "CustomFields1": "itaque",
     "CustomFields2": "totam"
   },
-  "PublishEventDate": "2002-08-25T11:10:26.5084473+02:00",
-  "PublishTo": "2005-11-30T11:10:26.5084473+01:00",
-  "PublishFrom": "2010-01-24T11:10:26.5084473+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2019-12-06T02:49:44.1222596+01:00",
+  "PublishTo": "2000-07-31T02:49:44.1222596+02:00",
+  "PublishFrom": "2019-07-17T02:49:44.1222596+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 105,
+      "VisibleId": 242,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "corporis"
     },
     {
-      "VisibleId": 105,
+      "VisibleId": 242,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "corporis"
     }
   ]
 }
@@ -204,88 +212,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 994,
+  "DocumentId": 401,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "facilis",
-  "Header": "magni",
-  "Name": "Barton-Cartwright",
-  "OurRef": "quos",
-  "YourRef": "quia",
-  "CreatedDate": "2002-01-12T11:10:26.5134527+01:00",
-  "UpdatedDate": "2022-08-15T11:10:26.5134527+02:00",
-  "Description": "Persevering context-sensitive attitude",
+  "Attention": "accusantium",
+  "Header": "explicabo",
+  "Name": "McKenzie LLC",
+  "OurRef": "culpa",
+  "YourRef": "necessitatibus",
+  "CreatedDate": "2018-09-04T02:49:44.1222596+02:00",
+  "UpdatedDate": "2014-06-03T02:49:44.1222596+02:00",
+  "Description": "Programmable human-resource firmware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-05-25T11:10:26.5174237+02:00",
-  "ExternalRef": "molestiae",
+  "Date": "2014-05-26T02:49:44.1222596+02:00",
+  "ExternalRef": "incidunt",
   "Completed": "Completed",
-  "ActiveLinks": 440,
+  "ActiveLinks": 131,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Simonis, Donnelly and Streich",
-      "Id": 873,
-      "Description": "Integrated upward-trending hardware",
-      "ExtraInfo": "corrupti",
-      "LinkId": 660,
+      "EntityName": "Kohler-Fay",
+      "Id": 759,
+      "Description": "Reduced non-volatile focus group",
+      "ExtraInfo": "aliquid",
+      "LinkId": 901,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 261
+          "FieldType": "System.Int32",
+          "FieldLength": 589
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 317,
-  "Snum": 243,
+  "SuggestedDocumentId": 245,
+  "Snum": 928,
   "UserDefinedFields": {
-    "SuperOffice:1": "894702227",
-    "SuperOffice:2": "Tanner Kirlin"
+    "SuperOffice:1": "Macey Bradford Walter MD",
+    "SuperOffice:2": "Mrs. Johathan Witting V"
   },
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "quod"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "architecto"
+    "CustomFields1": "ut",
+    "CustomFields2": "recusandae"
   },
-  "PublishEventDate": "2022-03-15T11:10:26.5184559+01:00",
-  "PublishTo": "2004-08-15T11:10:26.5184559+02:00",
-  "PublishFrom": "2005-09-11T11:10:26.5184559+02:00",
+  "PublishEventDate": "2012-08-05T02:49:44.1222596+02:00",
+  "PublishTo": "1999-04-09T02:49:44.1222596+02:00",
+  "PublishFrom": "2010-05-21T02:49:44.1222596+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 661,
+      "VisibleId": 532,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 973
+          "FieldLength": 763
         }
       }
     },
     {
-      "VisibleId": 661,
+      "VisibleId": 532,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 973
+          "FieldLength": 763
         }
       }
     }
@@ -295,7 +303,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 704
     }
   }
 }

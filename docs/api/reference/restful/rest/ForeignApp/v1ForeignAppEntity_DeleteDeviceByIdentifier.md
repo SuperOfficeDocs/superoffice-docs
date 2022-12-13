@@ -11,11 +11,18 @@ DELETE /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 
 Delete a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | Unique id of device (Palm pilot device ID, version number, etc) **Required** |
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Delete a ForeignDevice with deviceName and deviceIdentifier that belongs to the 
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -34,7 +42,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 

@@ -22,20 +22,20 @@ Follow these steps:
     > [!NOTE]
     > If you send the email to multiple recipients, the email is only archived on the first recipient.
 
-3. Click **Send and archive**. The email is sent and the dialog **Archive email in SuperOffice** opens.
+3. Click **Send and archive**. The email is sent.
 
-    If the recipient of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. A warning also appears if the recipient is registered on multiple companies in SuperOffice CRM.
-
-4. In the dialog **Archive email in SuperOffice**, the **Company** and **Contact** fields have been filled in if the recipient's email address is registered in SuperOffice. Fill in relevant information in the following fields:
+4. In the dialog **Archive email in SuperOffice**, the **Company** and **Contact** fields are automatically filled if the recipient's email address is registered in SuperOffice. Fill in relevant information in the following fields:
 
     [!include[Archiving options for Gmail](includes/gmail-archiving-options.md)]
+
+    If the recipient of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. A warning also appears if the recipient is registered on multiple companies in SuperOffice CRM.
 
 5. Click **Save**. The email (including any attachments) is archived to SuperOffice CRM as a new document. You can then double-click the email in the **Activities** section tab to open it.
 
 Click the link in the pop-up message to open the document in SuperOffice.
 
 > [!TIP]
-> If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described in [Archive incoming email][3].
+> If you do not archive the message when you send it, you can still [go to the sent folder and archive the message][3].
 
 ## What would you like to do now?
 

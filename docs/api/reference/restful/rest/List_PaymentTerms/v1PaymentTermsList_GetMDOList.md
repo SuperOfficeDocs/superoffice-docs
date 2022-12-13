@@ -11,6 +11,12 @@ GET /api/v1/List/PaymentTerm/MDOItems
 
 Get the MDO list items for "PaymentTerms" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=accusantium
+GET /api/v1/List/PaymentTerm/MDOItems?query=ab
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/PaymentTerm/MDOItems?query=accusantium
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Lesch, Hilpert and Harvey",
-    "ToolTip": "Beatae ad.",
-    "Deleted": true,
-    "Rank": 866,
-    "Type": "modi",
+    "Id": 9,
+    "Name": "Lehner-Braun",
+    "ToolTip": "Ducimus odit dignissimos iure quibusdam.",
+    "Deleted": false,
+    "Rank": 316,
+    "Type": "quidem",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "Bartoletti-Cassin",
-        "ToolTip": "Recusandae aliquam nesciunt voluptatem in perferendis placeat.",
-        "Deleted": false,
-        "Rank": 20,
-        "Type": "minima",
+        "Id": 371,
+        "Name": "Pfeffer LLC",
+        "ToolTip": "Velit consequatur optio sint assumenda.",
+        "Deleted": true,
+        "Rank": 986,
+        "Type": "placeat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 835,
-        "ExtraInfo": "non",
-        "StyleHint": "voluptatibus",
-        "FullName": "Cydney Ziemann",
+        "IconHint": "doloremque",
+        "ColorBlock": 821,
+        "ExtraInfo": "est",
+        "StyleHint": "voluptas",
+        "FullName": "Rhianna Graham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 362
+            "FieldLength": 517
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 895,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "soluta",
-    "FullName": "Stuart Fay",
+    "IconHint": "rerum",
+    "ColorBlock": 645,
+    "ExtraInfo": "sunt",
+    "StyleHint": "fugiat",
+    "FullName": "Jammie Stoltenberg Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldLength": 155
       }
     }
   }

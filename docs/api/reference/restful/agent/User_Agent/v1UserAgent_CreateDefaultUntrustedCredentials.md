@@ -11,9 +11,17 @@ POST /api/v1/Agents/User/CreateDefaultUntrustedCredentials
 
 Set default values into a new UntrustedCredentials.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ValidFrom": "2008-04-26T11:10:28.3612071+02:00",
-  "ValidTo": "2004-02-24T11:10:28.3612071+01:00",
-  "Comment": "consequatur",
-  "SecretValue": "qui",
-  "PublicValue": "asperiores",
-  "IsActive": true,
+  "ValidFrom": "2021-12-31T02:49:45.6247201+01:00",
+  "ValidTo": "1996-07-16T02:49:45.6247201+02:00",
+  "Comment": "aut",
+  "SecretValue": "et",
+  "PublicValue": "similique",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 289
+      "FieldType": "System.Int32",
+      "FieldLength": 191
     }
   }
 }

@@ -13,20 +13,17 @@ language: en
 
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
-To import your Gmail companies into the SuperOffice database:
-
 ## Import companies/contacts from Gmail
 
 1. [!include[Open Import](includes/open-import.md)]
 
 2. Click the Gmail icon ( ![icon][img2] ) under **Select an import source**.
 
-    What you need to do in the next step depends on whether you are already logged in to Gmail.
+3. Give access. The dialog shown depends on if you are already logged in to Gmail
 
-3. One of the following dialogs will be displayed:
+    * If the **Request for permission** dialog appears, you are already logged in to Gmail. Click **Give access**.
 
-    * **Request for permission**: If this dialog appears, you are already logged in to Gmail. Click **Give access**.
-    * **Google accounts**: If this dialog appears, you are not logged in to Gmail. Type in the user name and password, and log in to Gmail. Click **Give access**.
+    * If the **Google accounts** dialog appears, you are not logged in to Gmail. Type in the user name and password, and log in to Gmail. Click **Give access**.
         Your Gmail companies will be displayed in Settings and maintenance.
 
     > [!NOTE]

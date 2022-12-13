@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetContactAppointments
 
 Method that returns a specified number of appointments within a time range.
 
+
 The appointments belong to the contact specified. If the logged on user is not allowed to view this persons appointments an exception is thrown.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the contact specified. If the logged on user is not a
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetContactAppointments?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count
+ContactId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,6 +54,7 @@ ContactId, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -122,10 +130,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 100,
-  "StartTime": "1996-09-03T11:10:25.9515232+02:00",
-  "EndTime": "2013-02-08T11:10:25.9515232+01:00",
-  "Count": 586
+  "ContactId": 149,
+  "StartTime": "2006-06-22T02:49:43.637906+02:00",
+  "EndTime": "1998-02-10T02:49:43.637906+01:00",
+  "Count": 799
 }
 ```
 
@@ -137,61 +145,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 473,
-    "StartDate": "2020-02-03T11:10:25.9525227+01:00",
-    "EndDate": "2010-11-15T11:10:25.9525227+01:00",
+    "AppointmentId": 637,
+    "StartDate": "2002-03-16T02:49:43.637906+01:00",
+    "EndDate": "2022-04-16T02:49:43.637906+02:00",
     "Type": "BookingForChecklist",
-    "Task": "enim",
-    "AssociateFullName": "Prof. Tyson Schowalter IV",
-    "ContactName": "Kilback LLC",
-    "Description": "Front-line tangible service-desk",
-    "PersonFullName": "Malika Stiedemann",
-    "PersonId": 922,
-    "ContactId": 18,
-    "ProjectId": 367,
-    "ProjectName": "Weissnat, Lehner and Kiehn",
+    "Task": "error",
+    "AssociateFullName": "Loraine Marks",
+    "ContactName": "Huels-Mann",
+    "Description": "Integrated actuating groupware",
+    "PersonFullName": "Leola Wehner",
+    "PersonId": 201,
+    "ContactId": 41,
+    "ProjectId": 207,
+    "ProjectName": "Oberbrunner, Reynolds and Hickle",
     "IsPublished": false,
-    "AssociateId": 551,
-    "ColorIndex": 566,
+    "AssociateId": 977,
+    "ColorIndex": 516,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 754,
-    "PriorityName": "Heller-Effertz",
+    "PriorityId": 421,
+    "PriorityName": "Herman-Purdy",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1999-07-09T11:10:25.9525227+02:00",
+    "ActiveDate": "1996-09-21T02:49:43.637906+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-08-09T11:10:25.9525227+02:00",
-    "RecurringEndDate": "2021-05-18T11:10:25.9525227+02:00",
-    "MotherId": 498,
-    "AssignedBy": 403,
-    "AssignedByFullName": "Jammie Trevion Doyle V",
+    "RecurringStartDate": "2021-10-07T02:49:43.637906+02:00",
+    "RecurringEndDate": "2018-12-12T02:49:43.637906+01:00",
+    "MotherId": 857,
+    "AssignedBy": 129,
+    "AssignedByFullName": "Lurline Howe",
     "RejectReason": "",
-    "Location": "molestiae",
-    "AlarmLeadTime": "suscipit",
-    "SaleId": 639,
-    "SaleName": "DuBuque, Jewess and Farrell",
-    "AssociateName": "Waters-Klein",
-    "CreatedDate": "1998-05-10T11:10:25.9535222+02:00",
-    "CreatedBy": "numquam",
-    "CreatedByFullName": "Alessia Kozey",
-    "CreatedByAssociateId": 774,
+    "Location": "et",
+    "AlarmLeadTime": "ipsum",
+    "SaleId": 745,
+    "SaleName": "Harber-Nikolaus",
+    "AssociateName": "Huel, Mayer and Kassulke",
+    "CreatedDate": "2008-09-13T02:49:43.637906+02:00",
+    "CreatedBy": "vel",
+    "CreatedByFullName": "Dr. Petra Marquise Hartmann I",
+    "CreatedByAssociateId": 476,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 856
+        "FieldType": "System.Int32",
+        "FieldLength": 749
       }
     }
   }

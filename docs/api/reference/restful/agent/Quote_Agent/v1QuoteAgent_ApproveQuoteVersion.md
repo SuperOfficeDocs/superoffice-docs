@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/ApproveQuoteVersion
 
 Approves a quote version
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Approves a quote version
 ```http
 POST /api/v1/Agents/Quote/ApproveQuoteVersion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/ApproveQuoteVersion?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, ApprovedByText, ApprovedByAssociateId, ApprovalText
+QuoteVersionId, ApprovedByText, ApprovedByAssociateId, ApprovalText 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ QuoteVersionId, ApprovedByText, ApprovedByAssociateId, ApprovalText
 | ApprovedByAssociateId | int32 |  |
 | ApprovalText | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,14 +77,14 @@ Response body:
 POST /api/v1/Agents/Quote/ApproveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 839,
-  "ApprovedByText": "voluptas",
-  "ApprovedByAssociateId": 803,
-  "ApprovalText": "a"
+  "QuoteVersionId": 74,
+  "ApprovedByText": "quo",
+  "ApprovedByAssociateId": 544,
+  "ApprovalText": "aut"
 }
 ```
 
@@ -88,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 263,
+  "CreatedAppointmentId": 524,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 278
+      "FieldLength": 973
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetProduct
 
 Get a product with the given key
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a product with the given key
 ```http
 POST /api/v1/Agents/Quote/GetProduct?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Quote/GetProduct?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId, ERPProductKey
+QuoteConnectionId, ERPProductKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 | ERPProductKey | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +80,7 @@ Response body:
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -99,12 +107,12 @@ Response body:
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 409,
-  "ERPProductKey": "ut"
+  "QuoteConnectionId": 931,
+  "ERPProductKey": "aut"
 }
 ```
 
@@ -115,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 596,
-  "ERPProductKey": "quia",
-  "ERPPriceListKey": "vero",
-  "Name": "Rodriguez Group",
-  "Description": "Persistent even-keeled knowledge user",
-  "Code": "et",
-  "PriceUnit": "itaque",
-  "QuantityUnit": "repellat",
-  "IsSubscription": false,
-  "SubscriptionUnit": "dolor",
-  "DefaultSubscriptionQuantity": 3807.81,
-  "ItemNumber": "822314",
+  "ProductId": 391,
+  "ERPProductKey": "sed",
+  "ERPPriceListKey": "recusandae",
+  "Name": "Miller-Nienow",
+  "Description": "Synchronised transitional Graphic Interface",
+  "Code": "dolorem",
+  "PriceUnit": "atque",
+  "QuantityUnit": "soluta",
+  "IsSubscription": true,
+  "SubscriptionUnit": "dolores",
+  "DefaultSubscriptionQuantity": 22774.778,
+  "ItemNumber": "458595",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "beatae",
-  "ProductTypeKey": "quia",
-  "VAT": 23034.899999999998,
-  "VATInfo": "et",
-  "UnitCost": 21734.29,
-  "UnitMinimumPrice": 22094.7,
-  "UnitListPrice": 1300.61,
-  "InAssortment": true,
-  "Supplier": "quidem",
-  "SupplierCode": "quaerat",
-  "Rights": "dicta",
-  "Rule": "aliquid",
+  "ProductFamilyKey": "perspiciatis",
+  "ProductTypeKey": "deserunt",
+  "VAT": 14435.204,
+  "VATInfo": "quasi",
+  "UnitCost": 29951.638,
+  "UnitMinimumPrice": 14654.583999999999,
+  "UnitListPrice": 16165.171999999999,
+  "InAssortment": false,
+  "Supplier": "est",
+  "SupplierCode": "in",
+  "Rights": "quisquam",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Cruickshank, Daniel and Cormier",
-      "Value": "accusantium",
+      "Name": "Wolff, Bogan and Emmerich",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 792
+          "FieldType": "System.String",
+          "FieldLength": 598
         }
       }
     },
     {
-      "Name": "Cruickshank, Daniel and Cormier",
-      "Value": "accusantium",
+      "Name": "Wolff, Bogan and Emmerich",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 792
+          "FieldType": "System.String",
+          "FieldLength": 598
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptas",
-  "ExtraField1": "qui",
-  "ExtraField2": "molestiae",
-  "ExtraField3": "ut",
-  "ExtraField4": "quidem",
-  "ExtraField5": "facere",
-  "InStock": 15948.926,
+  "RawExtraInfo": "molestias",
+  "ExtraField1": "tenetur",
+  "ExtraField2": "consequatur",
+  "ExtraField3": "libero",
+  "ExtraField4": "provident",
+  "ExtraField5": "commodi",
+  "InStock": 30399.8,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldType": "System.String",
+      "FieldLength": 43
     }
   }
 }

@@ -11,7 +11,14 @@ GET /api/v1/ShipmentMessage/default
 
 Set default values into a new ShipmentMessageEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Marketing agent service CreateDefaultShipmentMessageEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 420,
-  "PlainMessage": "expedita",
-  "HtmlMessage": "corporis",
-  "SmsMessage": "aut",
-  "Description": "Progressive stable projection",
-  "Subject": "blanditiis",
-  "FolderId": 556,
-  "HeaderField": "possimus",
-  "Design": "perferendis",
+  "ShipmentMessageId": 618,
+  "PlainMessage": "pariatur",
+  "HtmlMessage": "illo",
+  "SmsMessage": "corporis",
+  "Description": "Customizable assymetric function",
+  "Subject": "ad",
+  "FolderId": 18,
+  "HeaderField": "veritatis",
+  "Design": "deserunt",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Seamless disintermediate knowledge base",
-  "AccessKey": "aliquid",
-  "DocumentMessage": 635,
-  "Registered": "2014-04-01T11:10:53.5231801+02:00",
-  "RegisteredAssociateId": 531,
-  "Updated": "2016-04-26T11:10:53.5231801+02:00",
-  "UpdatedAssociateId": 249,
-  "UpdatedCount": 379,
+  "LongDescription": "Distributed dedicated moratorium",
+  "AccessKey": "voluptas",
+  "DocumentMessage": 149,
+  "Registered": "2018-01-16T02:49:51.536309+01:00",
+  "RegisteredAssociateId": 248,
+  "Updated": "2020-01-20T02:49:51.536309+01:00",
+  "UpdatedAssociateId": 725,
+  "UpdatedCount": 288,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldLength": 69
     }
   }
 }

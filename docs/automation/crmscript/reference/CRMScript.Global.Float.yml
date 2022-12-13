@@ -9,6 +9,7 @@ items:
   - CRMScript.Global.Float.#ctor
   - CRMScript.Global.Float.#ctor(Float)
   - CRMScript.Global.Float.#ctor(Integer)
+  - CRMScript.Global.Float.#ctor(Long)
   - CRMScript.Global.Float.#ctor(String)
   - CRMScript.Global.Float.abs()
   - CRMScript.Global.Float.floor()
@@ -104,6 +105,27 @@ items:
     - id: value
       type: CRMScript.Global.String
       description: "A String containing a number. For example &quot;3.14&quot;."
+    return:
+      type: CRMScript.Global.Float
+- uid: CRMScript.Global.Float.#ctor(Long)
+  commentId: M:CRMScript.Global.Float.#ctor(Long)
+  id: '#ctor(Long)'
+  so.intellisense: Void.Float
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Float
+  name: Float(Long)
+  nameWithType: Float.Float(Long)
+  fullName: CRMScript.Global.Float.Float(Long)
+  type: Constructor
+  summary: "\nCreate a new Float instance from a Long instance.\n"
+  example:
+  syntax:
+    content: Float Float(Long value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Long
+      description: "A Long containing a number. For example &quot;314L&quot;."
     return:
       type: CRMScript.Global.Float
 - uid: CRMScript.Global.Float.toString(Integer)
@@ -231,3 +253,9 @@ references:
   name: Bool
   nameWithType: Bool
   fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Long
+  commentId: T:CRMScript.Global.Long
+  isExternal: true
+  name: Long
+  nameWithType: Long
+  fullName: CRMScript.Global.Long

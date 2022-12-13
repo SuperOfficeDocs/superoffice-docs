@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/DeleteFolder
 
 Delete a folder from the server
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +31,7 @@ Delete a folder from the server
 POST /api/v1/Agents/EMail/DeleteFolder?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,15 +42,16 @@ POST /api/v1/Agents/EMail/DeleteFolder?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfo
+ConnectionInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -49,7 +59,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -57,7 +68,7 @@ Response body:
 POST /api/v1/Agents/EMail/DeleteFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {

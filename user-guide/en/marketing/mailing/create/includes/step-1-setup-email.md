@@ -3,21 +3,21 @@ The first step in creating an email mailing, is called **Setup**. Here you can s
 
 1. Enter a name in the **Name of mailing** field.
 
-2. Enter the subject of the email in the **E-mail subject** field.
+2. Enter the subject of the email in the **Email subject** field.
 
 3. In the **From** list, select **Always use** and enter the sender's email address in the field below to use the same sender for all mailings. You can also choose a sales contact or support contact as the sender, if one is defined for this recipient. Enter an email address to be used if no sales contact or support contact is available.
 
 4. In the **Reply to** list, you have the same options as above. In addition, you can select **Use "From" as reply address**. Any replies will then be sent to the sender.
 
-5. In the **Folder** list, select a folder in which to place the mailing.
+5. Select a folder to place the mailing in from the **Folder** list.
 
     [How do I create a mailing folder?][19]
 
-6. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. If you add a selection, any contacts in the selection will be added as recipients in the mailing.
+6. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. If you add a selection, any contacts in the selection are added as recipients in the mailing.
 
     [!include[Start typing to search](type-to-search.md)]
 
-7. In the **Type** list, select the type of mailing you are creating. Select **(Any)** if the mailing matches two or more of the available types. Use **(Any)** when you have added multiple recipients with multiple subscriptions and you want to send the mailing to all of them.
+7. In the **Type** list, select the type of mailing you are creating. Select **(Any)** if the mailing matches two or more of the available types. Use **(Any)** after adding multiple recipients with multiple subscriptions and you want to send the mailing to all.
 
 8. **Attachments**: To add one or more attachments to the mailing, use one of the following methods:
 

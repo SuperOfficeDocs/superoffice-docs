@@ -10,9 +10,7 @@ so.user: admin
 language: en
 ---
 
-# Create invoice types
-
-To create a new invoice type:
+# Create invoice type
 
 1. Select ![icon][img1] **System settings** > **Invoice types**.
 2. Click the **New invoice type** button. The **Invoice type properties** screen appears.

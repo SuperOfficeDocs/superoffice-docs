@@ -11,7 +11,13 @@ POST /api/v1/Agents/License/RemoveLicenseFromDB
 
 Remove the license from a particular module owner from the database.
 
+
 It is not permitted to remove licenses from SuperOffice
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It is not permitted to remove licenses from SuperOffice
 ```http
 POST /api/v1/Agents/License/RemoveLicenseFromDB?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/License/RemoveLicenseFromDB?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ModuleOwner
+ModuleOwner 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ModuleOwner | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,11 +76,11 @@ Response body:
 POST /api/v1/Agents/License/RemoveLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ModuleOwner": "eveniet"
+  "ModuleOwner": "ut"
 }
 ```
 
@@ -83,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": true,
+  "Succeeded": false,
   "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 938
     }
   }
 }

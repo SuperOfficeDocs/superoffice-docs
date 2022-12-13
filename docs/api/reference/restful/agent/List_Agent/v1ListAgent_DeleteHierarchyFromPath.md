@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/DeleteHierarchyFromPath
 
 Remove a hierarchy item and its children from a path
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Remove a hierarchy item and its children from a path
 ```http
 POST /api/v1/Agents/List/DeleteHierarchyFromPath?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/List/DeleteHierarchyFromPath?$select=name,department,categor
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Domain, Path
+Domain, Path 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Domain | string |  |
 | Path | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,12 +65,12 @@ Response body:
 POST /api/v1/Agents/List/DeleteHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "illum"
+  "Path": "architecto"
 }
 ```
 

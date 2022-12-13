@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSaleList
 
 Gets an array of Sale objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Sale objects.
 ```http
 POST /api/v1/Agents/Sale/GetSaleList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/Sale/GetSaleList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: saleIds
+## Request Body: saleIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -85,7 +94,7 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kutch Inc and Sons",
-    "SaleDate": "2017-04-18T11:10:27.8469784+02:00",
-    "SaleId": 66,
-    "Probability": 233,
-    "Title": "provident",
-    "Amount": 19929.106,
-    "Currency": "eligendi",
-    "ProjectName": "Beer-Reilly",
-    "AssociateFullName": "Dr. Linda Tobin Wehner V",
-    "Description": "Right-sized secondary leverage",
+    "ContactName": "Kirlin, Ullrich and Schneider",
+    "SaleDate": "2003-12-31T02:49:45.1403412+01:00",
+    "SaleId": 156,
+    "Probability": 446,
+    "Title": "autem",
+    "Amount": 28021.093999999997,
+    "Currency": "quas",
+    "ProjectName": "Reynolds Inc and Sons",
+    "AssociateFullName": "Javon Alison Marks IV",
+    "Description": "Programmable bifurcated help-desk",
     "Status": "Lost",
-    "WeightedAmount": 4384.4659999999994,
-    "ProjectId": 991,
-    "EarningPercent": 2798.662,
-    "Earning": 25545.234,
-    "ContactId": 185,
-    "AssociateId": 448,
-    "PersonId": 238,
-    "SaleTypeId": 507,
-    "SaleTypeName": "Bernier-Osinski",
-    "PersonFullName": "Kimberly Senger II",
+    "WeightedAmount": 28372.102,
+    "ProjectId": 311,
+    "EarningPercent": 28265.546,
+    "Earning": 11677.284,
+    "ContactId": 929,
+    "AssociateId": 806,
+    "PersonId": 128,
+    "SaleTypeId": 633,
+    "SaleTypeName": "Altenwerth-Swaniawski",
+    "PersonFullName": "Jensen Bogan",
     "Completed": "Completed",
-    "ActiveErpLinks": 974,
-    "NextDueDate": "1995-09-01T11:10:27.8499785+02:00",
-    "Number": "1453161",
+    "ActiveErpLinks": 546,
+    "NextDueDate": "1999-05-13T02:49:45.1403412+02:00",
+    "Number": "1195745",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 864
+        "FieldType": "System.Int32",
+        "FieldLength": 563
       }
     }
   }

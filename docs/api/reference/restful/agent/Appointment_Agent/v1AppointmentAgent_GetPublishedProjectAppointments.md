@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 
 Get published appointments by project id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published appointments by project id.
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
+
 
 ## Response: array
 
@@ -113,11 +121,11 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 282
+  "ProjectId": 8
 }
 ```
 
@@ -129,53 +137,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 140,
-    "StartDate": "2005-06-15T11:10:25.4535254+02:00",
-    "EndDate": "2016-04-27T11:10:25.4535254+02:00",
+    "AppointmentId": 646,
+    "StartDate": "2008-04-22T02:49:43.2461231+02:00",
+    "EndDate": "2019-08-15T02:49:43.2461231+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Asa Beer",
-    "ContactName": "Deckow LLC",
-    "Description": "Triple-buffered assymetric database",
-    "PersonFullName": "Mr. Herminio Larissa Douglas I",
-    "PersonId": 732,
-    "ContactId": 524,
-    "ProjectId": 29,
-    "ProjectName": "Willms Inc and Sons",
+    "Task": "et",
+    "AssociateFullName": "Brenden Purdy",
+    "ContactName": "Stanton-Mann",
+    "Description": "Upgradable content-based strategy",
+    "PersonFullName": "Odie Lynch",
+    "PersonId": 157,
+    "ContactId": 720,
+    "ProjectId": 700,
+    "ProjectName": "Swaniawski-Goyette",
     "IsPublished": false,
-    "AssociateId": 490,
-    "ColorIndex": 160,
-    "IsFree": false,
+    "AssociateId": 424,
+    "ColorIndex": 46,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 570,
-    "PriorityName": "Bahringer-Lakin",
+    "PriorityId": 576,
+    "PriorityName": "Legros-Howell",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2000-06-05T11:10:25.4545251+02:00",
+    "ActiveDate": "1996-05-12T02:49:43.2461231+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-10-09T11:10:25.4545251+02:00",
-    "RecurringEndDate": "2021-01-23T11:10:25.4545251+01:00",
-    "MotherId": 440,
-    "AssignedBy": 958,
-    "AssignedByFullName": "Serenity Hackett",
+    "RecurringStartDate": "2011-02-22T02:49:43.2461231+01:00",
+    "RecurringEndDate": "2001-03-10T02:49:43.2461231+01:00",
+    "MotherId": 627,
+    "AssignedBy": 779,
+    "AssignedByFullName": "Randy McGlynn",
     "RejectReason": "",
-    "Location": "eligendi",
-    "AlarmLeadTime": "in",
-    "SaleId": 214,
-    "SaleName": "Schuppe, Daniel and Stark",
-    "AssociateName": "Champlin LLC",
-    "CreatedDate": "2011-08-05T11:10:25.4545251+02:00",
-    "CreatedBy": "sit",
-    "CreatedByFullName": "Ellis Sauer",
-    "CreatedByAssociateId": 461,
+    "Location": "et",
+    "AlarmLeadTime": "nostrum",
+    "SaleId": 712,
+    "SaleName": "Keebler-Bernhard",
+    "AssociateName": "Lowe-Stiedemann",
+    "CreatedDate": "2000-03-25T02:49:43.2461231+01:00",
+    "CreatedBy": "eius",
+    "CreatedByFullName": "Shany Prosacco",
+    "CreatedByAssociateId": 618,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -183,7 +191,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldLength": 17
       }
     }
   }

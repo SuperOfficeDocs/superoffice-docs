@@ -17,15 +17,15 @@ language: en
 
 3. Select one or more stakeholders or project members.
 
-4. Right-click and select **Send e-mail**. This opens a message to the specified recipient(s) in the default email program.
+4. Right-click and select **Send email**. This opens a message to the specified recipient(s) in the default email program.
 
     > [!NOTE]
-    > Only contacts with email addresses are displayed in the **To** field. Contacts without e-mail addresses are omitted.
+    > Only contacts with email addresses are displayed in the **To** field. Contacts without email addresses are omitted.
 
 5. Enter any extra information.
 
 6. Send the email by clicking one of the following buttons:
-    * Send: The email is sent and will be available in the **Activities** section tab.
+    * Send: The email is sent and available in the **Activities** section tab.
     * Send and archive: The email is sent and saved as a document.
 
 7. If you selected **Send and archive**, the **Document** dialog opens when you send the email. [Add information in this dialog as necessary][1].

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteVersion
 
 Get a QuoteVersion
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a QuoteVersion
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/GetQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId
+QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -107,7 +115,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 312
+  "QuoteVersionId": 732
 }
 ```
 
@@ -118,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 527,
-  "ERPQuoteVersionKey": "aut",
-  "QuoteId": 863,
-  "Description": "Devolved explicit customer loyalty",
-  "Number": "1650484",
+  "QuoteVersionId": 990,
+  "ERPQuoteVersionKey": "rem",
+  "QuoteId": 116,
+  "Description": "Customizable coherent service-desk",
+  "Number": "989507",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "mesh rich schemas",
-  "LikelyQuoteAlternativeId": 493,
-  "SentDate": "1995-12-26T11:10:27.6514572+01:00",
-  "FollowupId": 360,
-  "ExpirationDate": "1998-03-24T11:10:27.6514572+01:00",
-  "DeliveryCountryId": 662,
-  "HasOwnDeliveryAddress": false,
+  "Reason": "",
+  "LikelyQuoteAlternativeId": 108,
+  "SentDate": "1997-05-15T02:49:44.9997158+02:00",
+  "FollowupId": 312,
+  "ExpirationDate": "2018-02-10T02:49:44.9997158+01:00",
+  "DeliveryCountryId": 696,
+  "HasOwnDeliveryAddress": true,
   "InvoiceCountryId": 635,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "in",
-  "ERPPaymentTypeKey": "praesentium",
-  "ERPDeliveryTermsKey": "commodi",
-  "ERPDeliveryTypeKey": "eligendi",
-  "Rank": 569,
-  "ApprovedBy": 227,
-  "ApprovedText": "numquam",
-  "ApprovedRegisteredBy": 504,
-  "ApprovedRegisteredDate": "1998-05-12T11:10:27.6514572+02:00",
-  "ExtraField1": "reprehenderit",
-  "ExtraField2": "fugit",
-  "ExtraField3": "enim",
-  "ExtraField4": "qui",
-  "ExtraField5": "labore",
-  "LastRecalculated": "2018-02-06T11:10:27.6514572+01:00",
-  "Updated": "2004-05-27T11:10:27.6514572+02:00",
-  "UpdatedAssociateId": 962,
-  "Registered": "2008-02-16T11:10:27.6514572+01:00",
-  "RegisteredAssociateId": 476,
-  "RequestAssociateId": 283,
-  "RequestComment": "qui",
+  "ERPPaymentTermsKey": "quisquam",
+  "ERPPaymentTypeKey": "est",
+  "ERPDeliveryTermsKey": "et",
+  "ERPDeliveryTypeKey": "aut",
+  "Rank": 194,
+  "ApprovedBy": 473,
+  "ApprovedText": "ullam",
+  "ApprovedRegisteredBy": 769,
+  "ApprovedRegisteredDate": "2022-02-12T02:49:44.9997158+01:00",
+  "ExtraField1": "tempora",
+  "ExtraField2": "odit",
+  "ExtraField3": "quidem",
+  "ExtraField4": "voluptas",
+  "ExtraField5": "ea",
+  "LastRecalculated": "2000-12-23T02:49:44.9997158+01:00",
+  "Updated": "2010-07-13T02:49:44.9997158+02:00",
+  "UpdatedAssociateId": 71,
+  "Registered": "2019-05-25T02:49:44.9997158+02:00",
+  "RegisteredAssociateId": 456,
+  "RequestAssociateId": 1001,
+  "RequestComment": "aliquid",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 651,
-      "ERPQuoteAlternativeKey": "numquam",
-      "QuoteVersionId": 96,
-      "Name": "Green-Rosenbaum",
-      "Description": "Public-key didactic workforce",
+      "QuoteAlternativeId": 242,
+      "ERPQuoteAlternativeKey": "velit",
+      "QuoteVersionId": 565,
+      "Name": "Feest, Ortiz and Bayer",
+      "Description": "Grass-roots next generation Graphic Interface",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 9198.2899999999991,
-      "ERPDiscountAmount": 22640.016,
-      "DiscountPercent": 24730.394,
-      "DiscountAmount": 31067.342,
+      "ERPDiscountPercent": 4951.72,
+      "ERPDiscountAmount": 14391.328,
+      "DiscountPercent": 9549.2979999999989,
+      "DiscountAmount": 13977.64,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "voluptatem",
-      "VAT": 5518.974,
-      "EarningPercent": 9354.99,
-      "EarningAmount": 17738.44,
-      "SubTotal": 12100.374,
-      "TotalPrice": 2062.172,
-      "ExtraField1": "inventore",
-      "ExtraField2": "earum",
-      "ExtraField3": "cumque",
-      "ExtraField4": "dicta",
-      "ExtraField5": "saepe",
+      "VATInfo": "officiis",
+      "VAT": 28390.906,
+      "EarningPercent": 6584.534,
+      "EarningAmount": 5603.592,
+      "SubTotal": 24971.712,
+      "TotalPrice": 17493.988,
+      "ExtraField1": "et",
+      "ExtraField2": "quidem",
+      "ExtraField3": "quaerat",
+      "ExtraField4": "quia",
+      "ExtraField5": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldType": "System.String",
+          "FieldLength": 948
         }
       }
     }
@@ -196,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldLength": 782
     }
   }
 }

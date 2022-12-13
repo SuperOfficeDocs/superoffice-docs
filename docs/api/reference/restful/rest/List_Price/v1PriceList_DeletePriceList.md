@@ -11,11 +11,18 @@ DELETE /api/v1/Pricelist/{id}
 
 Deletes the PriceList
 
+
 Calls the Quote agent service DeletePriceList.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PriceList to be deleted. **Required** |
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Calls the Quote agent service DeletePriceList.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 PriceList deleted.
 
@@ -34,7 +42,8 @@ PriceList deleted.
 |----------------|-------------|
 | 204 | PriceList deleted. |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 

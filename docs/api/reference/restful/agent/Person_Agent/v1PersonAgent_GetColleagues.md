@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetColleagues
 
 Gets the persons working in the same company as the logged on user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the persons working in the same company as the logged on user.
 ```http
 POST /api/v1/Agents/Person/GetColleagues?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/Person/GetColleagues?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -95,7 +103,7 @@ Response body: array
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,52 +114,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "consequatur",
-    "PersonId": 378,
-    "Mrmrs": "corporis",
-    "Firstname": "Marlene",
-    "Lastname": "Farrell",
-    "MiddleName": "Doyle-Schneider",
-    "Title": "doloremque",
-    "Description": "Exclusive multi-tasking data-warehouse",
-    "Email": "clinton@dubuqueboyle.biz",
-    "FullName": "Prof. Minnie Conn",
-    "DirectPhone": "508-290-5072",
-    "FormalName": "Waters-Simonis",
-    "CountryId": 112,
-    "ContactId": 505,
-    "ContactName": "Schaden, Luettgen and Kihn",
-    "Retired": 89,
-    "Rank": 240,
-    "ActiveInterests": 980,
+    "Position": "quia",
+    "PersonId": 391,
+    "Mrmrs": "doloribus",
+    "Firstname": "Bridgette",
+    "Lastname": "Roob",
+    "MiddleName": "Boyle-Beatty",
+    "Title": "praesentium",
+    "Description": "Distributed holistic data-warehouse",
+    "Email": "oscar@wilkinson.ca",
+    "FullName": "Jarrell Braun",
+    "DirectPhone": "402.556.7758",
+    "FormalName": "Larkin, Friesen and Smitham",
+    "CountryId": 108,
+    "ContactId": 763,
+    "ContactName": "VonRueden-Ward",
+    "Retired": 850,
+    "Rank": 498,
+    "ActiveInterests": 247,
     "ContactDepartment": "",
-    "ContactCountryId": 558,
-    "ContactOrgNr": "829048",
-    "FaxPhone": "(799)638-0389 x65105",
-    "MobilePhone": "532-885-4548",
-    "ContactPhone": "732.923.4681 x34794",
-    "AssociateName": "Reinger Inc and Sons",
-    "AssociateId": 197,
+    "ContactCountryId": 538,
+    "ContactOrgNr": "1386471",
+    "FaxPhone": "414.538.3708 x21846",
+    "MobilePhone": "997.543.8084 x043",
+    "ContactPhone": "1-278-767-2174 x1476",
+    "AssociateName": "O'Keefe Inc and Sons",
+    "AssociateId": 179,
     "UsePersonAddress": false,
-    "ContactFax": "officiis",
-    "Kanafname": "ducimus",
-    "Kanalname": "expedita",
-    "Post1": "assumenda",
-    "Post2": "enim",
-    "Post3": "voluptatibus",
-    "EmailName": "idell_thompson@nienowschinner.info",
-    "ContactFullName": "Amber Hansen",
-    "ActiveErpLinks": 70,
-    "TicketPriorityId": 186,
-    "SupportLanguageId": 412,
-    "SupportAssociateId": 784,
+    "ContactFax": "temporibus",
+    "Kanafname": "quidem",
+    "Kanalname": "praesentium",
+    "Post1": "aut",
+    "Post2": "incidunt",
+    "Post3": "perspiciatis",
+    "EmailName": "corbin_sanford@brekke.com",
+    "ContactFullName": "Imelda Schmidt",
+    "ActiveErpLinks": 663,
+    "TicketPriorityId": 960,
+    "SupportLanguageId": 373,
+    "SupportAssociateId": 569,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 399
       }
     }
   }

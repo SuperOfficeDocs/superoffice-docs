@@ -11,6 +11,12 @@ POST /api/v1/Agents/Import/CreateDefaultImportLine
 
 Create a new empty import row with x count of values
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a new empty import row with x count of values
 ```http
 POST /api/v1/Agents/Import/CreateDefaultImportLine?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Import/CreateDefaultImportLine?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CountColumns
+CountColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CountColumns | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,11 +77,11 @@ Response body:
 POST /api/v1/Agents/Import/CreateDefaultImportLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 816
+  "CountColumns": 426
 }
 ```
 
@@ -85,19 +93,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "voluptas",
-    "occaecati"
+    "est",
+    "molestiae"
   ],
-  "Selected": false,
+  "Selected": true,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "sunt",
+  "ExternalKey": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 505
     }
   }
 }

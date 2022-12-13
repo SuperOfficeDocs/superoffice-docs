@@ -1,52 +1,42 @@
 items:
 - name: Overview
   href: index.md
-- name: Create an email
+- name: Archive e-mails to SuperOffice
+  href: archive.md
+- name: How to turn default archiving on/off
+  href: settings/archive-by-default.md
+- name: Work with e-mails
   href: compose.md
   items:
-  - name: Create an email from SuperOffice CRM
+  - name: Create e-mail from SuperOffice CRM
     href: create-in-superoffice.md
-  - name: Create an email from Microsoft Outlook
+  - name: Create e-mail from Microsoft Outlook
     href: create-in-outlook.md
-  - name: Create an email from Lotus Notes
-    href: create-in-lotus.md
   - name: Select recipients
     href: select-recipients.md
+  - name: Manage senders
+    href: manage-senders.md
   - name: Add attachments
     href: add-attachment.md
-
-- name: Archive emails to SuperOffice
-  href: archive.md
-  items:
-  - name: On company or contact
+  - name: Archive on company or contact
     href: archive-on-contact.md
-  - name: As an activity
+  - name: Archive as activity
     href: archive-as-activity.md
-  - name: As a request
+  - name: Archive as a request
     href: archive-as-request.md
   - name: Archive attachments
     href: archive-attachment.md
+  - name: Create e-mail from Lotus Notes
+    href: create-in-lotus.md
 
-- name: Manage senders
-  href: manage-senders.md
-
-- name: Settings
+- name: SuperOffice CRM options dialog
+  href: settings/index.md
   items:
-  - name: SuperOffice CRM options dialog
-    href: settings/index.md
-    items:
-    - name: Archive options
-      href: settings/default.md
-    - name: General settings
-      href: settings/general.md
-    - name: Invitations
-      href: settings/invitations.md
-    - name: SuperOffice account
-      href: settings/superoffice-account.md
-  - name: How to turn default archiving on/off
-    href: settings/archive-by-default.md
-
-- name: For administrators
-  items:
-  - name: Create email templates
-    href: admin/create-email-template.md
+  - name: Archive options
+    href: settings/default.md
+  - name: General settings
+    href: settings/general.md
+  - name: Invitations
+    href: settings/invitations.md
+  - name: SuperOffice account
+    href: settings/superoffice-account.md

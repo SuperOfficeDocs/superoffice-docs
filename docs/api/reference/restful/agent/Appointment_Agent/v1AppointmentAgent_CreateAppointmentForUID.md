@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/CreateAppointmentForUID
 
 Create an invitation record and an appointment with a given UID to reserve it if the UID is unused, otherwise null.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create an invitation record and an appointment with a given UID to reserve it if
 ```http
 POST /api/v1/Agents/Appointment/CreateAppointmentForUID?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Appointment/CreateAppointmentForUID?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentEntity, UID
+AppointmentEntity, UID 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentEntity |  | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
 | UID | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -120,12 +128,12 @@ Response body:
 POST /api/v1/Agents/Appointment/CreateAppointmentForUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "UID": "veniam"
+  "UID": "sit"
 }
 ```
 
@@ -140,63 +148,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-04-21T11:10:25.7145531+02:00",
-  "AppointmentId": 210,
-  "Description": "Diverse 24/7 approach",
-  "StartDate": "2021-01-03T11:10:25.7145531+01:00",
-  "EndDate": "1998-01-30T11:10:25.7145531+01:00",
+  "CreatedDate": "2005-05-21T02:49:43.4816564+02:00",
+  "AppointmentId": 739,
+  "Description": "Synergistic interactive hardware",
+  "StartDate": "2016-05-16T02:49:43.4816564+02:00",
+  "EndDate": "2005-02-13T02:49:43.4816564+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 579,
+  "MotherId": 399,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-12-13T11:10:25.7175607+01:00",
+  "UpdatedDate": "2011-04-13T02:49:43.4816564+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 1000,
+  "ActiveLinks": 490,
   "Links": [
     {
-      "EntityName": "Kuvalis-Schuppe",
-      "Id": 22,
-      "Description": "Object-based explicit policy",
-      "ExtraInfo": "quaerat",
-      "LinkId": 985,
+      "EntityName": "Parisian, Bahringer and Hermiston",
+      "Id": 615,
+      "Description": "Re-engineered tangible software",
+      "ExtraInfo": "quia",
+      "LinkId": 273,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 688
         }
       }
     }
   ],
-  "AlarmLeadTime": "odio",
+  "AlarmLeadTime": "architecto",
   "HasAlarm": true,
-  "ColorIndex": 945,
+  "ColorIndex": 186,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "quisquam",
-  "LeadTime": "aut",
-  "Location": "harum",
-  "RejectCounter": 988,
+  "IsAlldayEvent": true,
+  "LagTime": "quod",
+  "LeadTime": "officiis",
+  "Location": "impedit",
+  "RejectCounter": 745,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 725,
-      "PersonId": 43,
-      "ContactId": 196,
-      "EmailId": 244,
+      "AssociateId": 90,
+      "PersonId": 840,
+      "ContactId": 324,
+      "EmailId": 373,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 725,
-      "PersonId": 43,
-      "ContactId": 196,
-      "EmailId": 244,
+      "AssociateId": 90,
+      "PersonId": 840,
+      "ContactId": 324,
+      "EmailId": 373,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -204,58 +212,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2001-09-13T11:10:25.7185535+02:00",
-  "HasConflict": false,
+  "ActiveDate": "1998-05-27T02:49:43.4816564+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 421,
+  "PreferredTZLocation": 377,
   "Sale": null,
-  "SuggestedAppointmentId": 145,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 418,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eum",
+  "CentralserviceVideomeetId": "amet",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mr. Dusty Narciso Hudson",
+    "SuperOffice:2": "Kurtis Powlowski"
   },
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "animi",
+    "ExtraFields2": "reprehenderit"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "aut"
+    "CustomFields1": "ad",
+    "CustomFields2": "odio"
   },
-  "PublishEventDate": "2000-04-23T11:10:25.7195523+02:00",
-  "PublishTo": "1998-05-29T11:10:25.7195523+02:00",
-  "PublishFrom": "2013-03-20T11:10:25.7195523+01:00",
+  "PublishEventDate": "2008-05-06T02:49:43.4816564+02:00",
+  "PublishTo": "2010-02-07T02:49:43.4816564+01:00",
+  "PublishFrom": "1999-09-20T02:49:43.4816564+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 392,
+      "VisibleId": 43,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 962
+          "FieldType": "System.String",
+          "FieldLength": 242
         }
       }
     },
     {
-      "VisibleId": 392,
+      "VisibleId": 43,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 962
+          "FieldType": "System.String",
+          "FieldLength": 242
         }
       }
     }
@@ -265,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 934
+      "FieldLength": 123
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 
 Returns all ForeignKeys that belong to an application.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ForeignKeys that belong to an application.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationKeys?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName
+ApplicationName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
+
 
 ## Response: array
 
@@ -72,11 +80,11 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Murphy, Terry and Breitenberg"
+  "ApplicationName": "Grant-Heller"
 }
 ```
 
@@ -88,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "totam",
-    "Value": "alias",
-    "RecordId": 714,
-    "CreatedDate": "2003-11-28T11:10:27.0924523+01:00",
-    "UpdatedDate": "2017-12-18T11:10:27.0924523+01:00",
-    "UpdatedBy": "quia",
-    "CreatedBy": "earum",
-    "TableName": "Hilll Inc and Sons",
+    "Key": "omnis",
+    "Value": "commodi",
+    "RecordId": 866,
+    "CreatedDate": "2007-03-24T02:49:44.561046+01:00",
+    "UpdatedDate": "1999-06-27T02:49:44.561046+02:00",
+    "UpdatedBy": "accusantium",
+    "CreatedBy": "eius",
+    "TableName": "Parker, Mraz and Robel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldType": "System.String",
+        "FieldLength": 120
       }
     }
   }

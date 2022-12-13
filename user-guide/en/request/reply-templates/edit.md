@@ -16,7 +16,7 @@ Editing a reply template can mean one of two things:
 * When using [reply templates in request handling][1], you are free to edit the content of the message before you send it to the customer.
 * From **Knowledge Base**, you can edit the properties specified when creating the reply template, including amending the reply template text. This type of editing is described below.
 
-To edit a reply template in **Knowledge Base**:
+**Steps:**
 
 1. Select **Knowledge Base > Reply templates**.
 2. Go to the folder where the reply template is located.

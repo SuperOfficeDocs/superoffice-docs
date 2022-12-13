@@ -11,6 +11,7 @@ GET /api/v1/ChatSession
 
 OData list of all ChatSessionEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * ChatSession?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * ChatSession?$top=1000
 * ChatSession?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "ChatSession" archive.
 
-## Filter Operators ##
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=voluptatum
-GET /api/v1/ChatSession?$top=925
-GET /api/v1/ChatSession?$skip=447
+GET /api/v1/ChatSession?$entities=dolorum
+GET /api/v1/ChatSession?$top=781
+GET /api/v1/ChatSession?$skip=407
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=ut
+GET /api/v1/ChatSession?$context=optio
 GET /api/v1/ChatSession?$format=JSON
-GET /api/v1/ChatSession?$jsonSafe=True
+GET /api/v1/ChatSession?$jsonSafe=False
 GET /api/v1/ChatSession?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,7 +95,8 @@ GET /api/v1/ChatSession?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -92,7 +104,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -106,7 +118,7 @@ Response body:
 GET /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -117,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "rerum",
+  "odata.nextLink": "temporibus",
   "value": [
     {
-      "PrimaryKey": 9469,
+      "PrimaryKey": 8073,
       "EntityName": "person",
-      "personId": 9469,
-      "fullName": "Shayna Lakin"
+      "personId": 8073,
+      "fullName": "Letitia Leffler"
     },
     {
-      "PrimaryKey": 5291,
+      "PrimaryKey": 2927,
       "EntityName": "person",
-      "personId": 5291,
-      "fullName": "Emilia Ruecker MD"
+      "personId": 2927,
+      "fullName": "Mrs. Drake Tatum Bednar PhD"
     }
   ]
 }

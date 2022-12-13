@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 
 Creates a temporary selection with members from a collection of entity id's.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a temporary selection with members from a collection of entity id's.
 ```http
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Ids, TargetTableNumber
+Ids, TargetTableNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Ids | array |  |
 | TargetTableNumber | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -106,15 +114,15 @@ Response body:
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    349,
-    296
+    546,
+    265
   ],
-  "TargetTableNumber": 591
+  "TargetTableNumber": 974
 }
 ```
 
@@ -125,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optional bifurcated algorithm",
-  "Postit": "non",
+  "Description": "Operative homogeneous access",
+  "Postit": "ea",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 314,
-  "IncludePerson": 106,
-  "MemberCount": 1001,
-  "Name": "Labadie, Senger and Oberbrunner",
-  "PostitTextId": 371,
-  "CreatedDate": "2001-05-20T11:10:27.9389795+02:00",
-  "SelectionId": 993,
-  "SoundEx": "eos",
-  "Source": 187,
-  "TextId": 209,
-  "UpdatedDate": "2001-05-23T11:10:27.9389795+02:00",
-  "UpdatedCount": 115,
-  "Visibility": 84,
+  "GroupIdx": 393,
+  "IncludePerson": 818,
+  "MemberCount": 219,
+  "Name": "Rolfson, Connelly and Berge",
+  "PostitTextId": 535,
+  "CreatedDate": "2002-08-28T02:49:45.4059627+02:00",
+  "SelectionId": 743,
+  "SoundEx": "dolorem",
+  "Source": 678,
+  "TextId": 740,
+  "UpdatedDate": "2017-05-13T02:49:45.4059627+02:00",
+  "UpdatedCount": 184,
+  "Visibility": 661,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 23,
-  "TargetTableName": "Jones-Lynch",
-  "Completed": true,
-  "LeftSelectionId": 2,
-  "RightSelectionId": 305,
+  "TargetTableNumber": 837,
+  "TargetTableName": "Dooley Group",
+  "Completed": false,
+  "LeftSelectionId": 547,
+  "RightSelectionId": 546,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Langosh-West",
-  "ShadowProviderName": "Becker Inc and Sons",
-  "ChartKey": "nostrum",
-  "LastLoaded": "2016-03-23T11:10:27.9389795+01:00",
-  "LastLoadedBy": 258,
+  "MainProviderName": "Wilkinson, Kessler and Lockman",
+  "ShadowProviderName": "Turner-Dooley",
+  "ChartKey": "commodi",
+  "LastLoaded": "2019-02-10T02:49:45.4059627+01:00",
+  "LastLoadedBy": 348,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-02-14T11:10:27.9389795+01:00",
-  "LastMembershipChangeBy": 831,
+  "LastMembershipChange": "2008-12-03T02:49:45.4059627+01:00",
+  "LastMembershipChangeBy": 663,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quod",
-  "MemberTabHeading": "optio",
-  "MailingsProviderName": "Connelly, Nienow and Larkin",
-  "DashboardTileDefinitionId": 907,
+  "MainHeading": "inventore",
+  "MemberTabHeading": "eum",
+  "MailingsProviderName": "Predovic-Swaniawski",
+  "DashboardTileDefinitionId": 116,
   "VisibleFor": [
     {
-      "VisibleId": 76,
+      "VisibleId": 894,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 656
+          "FieldType": "System.Int32",
+          "FieldLength": 77
         }
       }
     },
     {
-      "VisibleId": 76,
+      "VisibleId": 894,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 656
+          "FieldType": "System.Int32",
+          "FieldLength": 77
         }
       }
     }
@@ -198,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 942
     }
   }
 }

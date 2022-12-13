@@ -9,6 +9,14 @@ uid: v1SaleAgent_HasGuideActivities
 POST /api/v1/Agents/Sale/HasGuideActivities
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/HasGuideActivities
 ```http
 POST /api/v1/Agents/Sale/HasGuideActivities?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,13 +42,14 @@ POST /api/v1/Agents/Sale/HasGuideActivities?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId
+SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
+
 
 ## Response: bool
 
@@ -51,17 +61,18 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/HasGuideActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 911
+  "SaleId": 886
 }
 ```
 
@@ -71,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -11,9 +11,15 @@ PUT /api/v1/Selection/{id}
 
 Updates the existing SelectionEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SelectionEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing SelectionEntity
 ```http
 PUT /api/v1/Selection/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Selection/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SelectionEntity to be saved.
+The SelectionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,7 +94,8 @@ The SelectionEntity to be saved.
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 SelectionEntity updated.
 
@@ -97,7 +105,7 @@ SelectionEntity updated.
 | 412 | Update stopped because SelectionEntity has changed since the requested If-Unmodified-Since timestamp. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -152,60 +160,60 @@ Response body:
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-layered tertiary product",
-  "Postit": "blanditiis",
+  "Description": "Expanded encompassing knowledge base",
+  "Postit": "itaque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 541,
-  "IncludePerson": 311,
-  "MemberCount": 630,
-  "Name": "Kulas, Murray and Leffler",
-  "PostitTextId": 458,
-  "CreatedDate": "2006-02-18T11:10:53.5001828+01:00",
-  "SelectionId": 75,
-  "SoundEx": "voluptas",
-  "Source": 640,
-  "TextId": 962,
-  "UpdatedDate": "2018-06-24T11:10:53.5001828+02:00",
-  "UpdatedCount": 955,
-  "Visibility": 144,
+  "GroupIdx": 931,
+  "IncludePerson": 950,
+  "MemberCount": 171,
+  "Name": "Dach-Hyatt",
+  "PostitTextId": 918,
+  "CreatedDate": "2011-07-13T02:49:51.5206868+02:00",
+  "SelectionId": 105,
+  "SoundEx": "hic",
+  "Source": 769,
+  "TextId": 572,
+  "UpdatedDate": "2002-03-30T02:49:51.5206868+01:00",
+  "UpdatedCount": 722,
+  "Visibility": 757,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 334,
-  "TargetTableName": "Ritchie LLC",
-  "Completed": false,
-  "LeftSelectionId": 76,
-  "RightSelectionId": 69,
+  "CompanyUnique": false,
+  "TargetTableNumber": 332,
+  "TargetTableName": "Bogisich-Buckridge",
+  "Completed": true,
+  "LeftSelectionId": 91,
+  "RightSelectionId": 974,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Haag Inc and Sons",
-  "ShadowProviderName": "Glover Inc and Sons",
-  "ChartKey": "ipsum",
-  "LastLoaded": "2000-10-31T11:10:53.5001828+01:00",
-  "LastLoadedBy": 524,
+  "MainProviderName": "Satterfield, Hamill and Brekke",
+  "ShadowProviderName": "Schmidt, Mueller and Willms",
+  "ChartKey": "aut",
+  "LastLoaded": "2004-09-23T02:49:51.5206868+02:00",
+  "LastLoadedBy": 152,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-06-25T11:10:53.5011855+02:00",
-  "LastMembershipChangeBy": 402,
+  "LastMembershipChange": "2016-06-08T02:49:51.5206868+02:00",
+  "LastMembershipChangeBy": 306,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "velit",
-  "MemberTabHeading": "fugit",
-  "MailingsProviderName": "Von, Emmerich and Sawayn",
-  "DashboardTileDefinitionId": 891,
+  "MainHeading": "sint",
+  "MemberTabHeading": "enim",
+  "MailingsProviderName": "Oberbrunner, Klein and Schultz",
+  "DashboardTileDefinitionId": 712,
   "VisibleFor": [
     {
-      "VisibleId": 725,
+      "VisibleId": 61,
       "Visibility": "All",
-      "DisplayValue": "eum"
+      "DisplayValue": "impedit"
     },
     {
-      "VisibleId": 725,
+      "VisibleId": 61,
       "Visibility": "All",
-      "DisplayValue": "eum"
+      "DisplayValue": "impedit"
     }
   ]
 }
@@ -218,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Mandatory holistic functionalities",
-  "Postit": "nihil",
+  "Description": "Quality-focused multi-state knowledge base",
+  "Postit": "deleniti",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 860,
-  "IncludePerson": 231,
-  "MemberCount": 537,
-  "Name": "Parisian LLC",
-  "PostitTextId": 179,
-  "CreatedDate": "2012-03-26T11:10:53.5051463+02:00",
-  "SelectionId": 820,
-  "SoundEx": "autem",
-  "Source": 245,
-  "TextId": 866,
-  "UpdatedDate": "2006-04-26T11:10:53.5051463+02:00",
-  "UpdatedCount": 888,
-  "Visibility": 794,
+  "GroupIdx": 710,
+  "IncludePerson": 422,
+  "MemberCount": 220,
+  "Name": "Kozey LLC",
+  "PostitTextId": 155,
+  "CreatedDate": "2005-01-04T02:49:51.5206868+01:00",
+  "SelectionId": 457,
+  "SoundEx": "nesciunt",
+  "Source": 908,
+  "TextId": 888,
+  "UpdatedDate": "1998-02-11T02:49:51.5206868+01:00",
+  "UpdatedCount": 856,
+  "Visibility": 441,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 62,
-  "TargetTableName": "Veum-Dickens",
-  "Completed": true,
-  "LeftSelectionId": 365,
-  "RightSelectionId": 485,
+  "TargetTableNumber": 500,
+  "TargetTableName": "Christiansen LLC",
+  "Completed": false,
+  "LeftSelectionId": 60,
+  "RightSelectionId": 663,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bernier LLC",
-  "ShadowProviderName": "Jacobi Inc and Sons",
-  "ChartKey": "alias",
-  "LastLoaded": "2019-07-25T11:10:53.5051463+02:00",
-  "LastLoadedBy": 488,
+  "MainProviderName": "Mills-Murray",
+  "ShadowProviderName": "Schumm Group",
+  "ChartKey": "quia",
+  "LastLoaded": "2005-11-13T02:49:51.5206868+01:00",
+  "LastLoadedBy": 324,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-10-22T11:10:53.5061471+02:00",
-  "LastMembershipChangeBy": 261,
+  "LastMembershipChange": "2015-03-27T02:49:51.5206868+01:00",
+  "LastMembershipChangeBy": 313,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Walter, Breitenberg and Hartmann",
-  "DashboardTileDefinitionId": 901,
+  "MainHeading": "enim",
+  "MemberTabHeading": "corporis",
+  "MailingsProviderName": "Streich-Dicki",
+  "DashboardTileDefinitionId": 594,
   "VisibleFor": [
     {
-      "VisibleId": 216,
+      "VisibleId": 482,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 973
         }
       }
     },
     {
-      "VisibleId": 216,
+      "VisibleId": 482,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 973
         }
       }
     }
@@ -291,12 +299,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 750
+      "FieldLength": 993
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

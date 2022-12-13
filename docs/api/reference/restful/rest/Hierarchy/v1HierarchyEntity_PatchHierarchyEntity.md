@@ -11,6 +11,7 @@ PATCH /api/v1/Hierarchy/{id}
 
 Update a HierarchyEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IListAgent} service SaveHierarchyEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The HierarchyEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IListAgent} service SaveHierarchyEntity.
 ```http
 PATCH /api/v1/Hierarchy/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Hierarchy/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 HierarchyEntity  updated.
 
@@ -81,7 +93,7 @@ HierarchyEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because HierarchyEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,18 +117,18 @@ Response body:
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -129,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 126,
+  "HierarchyId": 518,
   "Domain": "Dashboards",
-  "Name": "Prosacco, Larkin and Bergnaum",
-  "Fullname": "qui",
-  "ParentId": 205,
+  "Name": "Rice-McKenzie",
+  "Fullname": "est",
+  "ParentId": 816,
   "Children": [
     {
-      "HierarchyId": 638,
+      "HierarchyId": 70,
       "Domain": "Dashboards",
-      "Name": "Hartmann, Marvin and Connelly",
-      "Fullname": "iure",
-      "ParentId": 615,
+      "Name": "Kessler-Davis",
+      "Fullname": "excepturi",
+      "ParentId": 891,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-07-07T11:10:52.9161793+02:00",
-      "RegisteredAssociateId": 494,
-      "Updated": "1998-02-18T11:10:52.9161793+01:00",
-      "UpdatedAssociateId": 483,
+      "Registered": "2006-01-17T02:49:50.9952888+01:00",
+      "RegisteredAssociateId": 806,
+      "Updated": "2012-08-05T02:49:50.9952888+02:00",
+      "UpdatedAssociateId": 19,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 247
+          "FieldLength": 527
         }
       }
     }
   ],
-  "Registered": "2002-04-26T11:10:52.9161793+02:00",
-  "RegisteredAssociateId": 506,
-  "Updated": "2009-07-28T11:10:52.9161793+02:00",
-  "UpdatedAssociateId": 470,
+  "Registered": "2005-01-02T02:49:50.9952888+01:00",
+  "RegisteredAssociateId": 717,
+  "Updated": "2000-04-28T02:49:50.9952888+02:00",
+  "UpdatedAssociateId": 89,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldType": "System.String",
+      "FieldLength": 724
     }
   },
   "_Links": {

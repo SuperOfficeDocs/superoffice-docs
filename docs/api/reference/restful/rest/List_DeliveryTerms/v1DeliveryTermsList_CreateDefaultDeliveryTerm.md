@@ -11,6 +11,13 @@ GET /api/v1/List/DeliveryTerm/Items/Default
 
 Gets a default DeliveryTerm list item.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,7 +31,8 @@ Gets a default DeliveryTerm list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -32,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +59,7 @@ Response body:
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -61,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 238,
-  "Name": "Effertz Inc and Sons",
-  "Tooltip": "distinctio",
+  "Id": 537,
+  "Name": "Stracke LLC",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "UdListDefinitionId": 439,
-  "Rank": 255,
+  "UdListDefinitionId": 270,
+  "Rank": 915,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 883
+      "FieldType": "System.Int32",
+      "FieldLength": 432
     }
   }
 }

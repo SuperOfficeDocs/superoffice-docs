@@ -1,7 +1,7 @@
 ---
 uid: help-en-dashboard-tile-add
-title: Dashboard add tiles
-description: Dashboard add tiles
+title: Add tile/edit layout in dashboard
+description: Dashboard Add tiles / Edit layout
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: dashboard
@@ -9,7 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Add a tile
+# Add tile / edit layout in dashboard
 
 To add a tile to a dashboard:
 
@@ -26,7 +26,7 @@ To add a tile to a dashboard:
         > [!TIP]
         > You can also select an empty tile to create a tile from scratch.
 
-    * **Selections**: This tab contains dynamic selections with [charts][2], and will only show selections of the same record/entity type selected in the **View** list above (e.g. company, sale etc.).
+    * **Selections**: This tab contains dynamic selections with [charts][2], and will only show selections of the same record/entity type selected in the **View** list above (for example, company or sale).
 
     > [!NOTE]
     > When using a selection chart, the dataset is copied, and any changes to the selection will not be reflected in the tile.
@@ -37,13 +37,13 @@ To add a tile to a dashboard:
 
 7. Repeat steps 4-6 to add more tiles.
 
-8. Adjust the tiles on the dashboard as follows:
+8. Adjust the tiles on the dashboard:
 
-    * Hold the mouse-pointer over a tile and click and drag the frame to adjust the tile size. Available slots/spaces in the dashboard will be highlighted in yellow when the tile can fit in that position.
+    * Hold the mouse-pointer over a tile and click and drag the frame to adjust the tile size. Available slots/spaces in the dashboard are highlighted in yellow when the tile can fit in that position.
 
     * Click the header of a tile and drag it to another position.
 
-9. Click **Done** when you have completed the dashboard.
+9. Click **Done**.
 
 ## Related topics
 

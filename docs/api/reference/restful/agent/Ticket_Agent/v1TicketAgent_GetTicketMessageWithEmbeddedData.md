@@ -11,7 +11,13 @@ POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 
 Get a ticket message entity with posibillity to change embedded images to be represented with inline data within the HTML body.
 
+
 If using inline data, be sure not to save this back to the database.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If using inline data, be sure not to save this back to the database.
 ```http
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id, EmbedImages
+Id, EmbedImages 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | EmbedImages | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,11 +99,11 @@ Response body:
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 778,
+  "Id": 153,
   "EmbedImages": "Inline"
 }
 ```
@@ -107,27 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 125,
+  "EjMessageId": 921,
   "Ticket": null,
-  "CreatedAt": "2018-02-03T11:10:28.3242073+01:00",
+  "CreatedAt": "2014-05-31T02:49:45.5934707+02:00",
   "CreatedBy": null,
-  "Author": "minus",
+  "Author": "accusantium",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "vitae",
-  "TimeSpent": 827,
-  "Body": "quis",
-  "HtmlBody": "dolore",
-  "EmailHeader": "cloyd@hermistonfriesen.biz",
-  "DebugInfo": "est",
-  "MailSorter": "ratione",
+  "MessageId": "ea",
+  "TimeSpent": 708,
+  "Body": "ullam",
+  "HtmlBody": "et",
+  "EmailHeader": "anastasia@kreigerratke.uk",
+  "DebugInfo": "praesentium",
+  "MailSorter": "autem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "possimus",
+  "SearchTitle": "dolor",
   "MessageHeaders": [
     {
-      "Name": "Langosh LLC",
-      "Value": "rerum",
+      "Id": 434,
+      "Name": "Dooley Group",
+      "Value": "delectus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -135,43 +144,29 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 388
-        }
-      }
-    },
-    {
-      "Name": "Langosh LLC",
-      "Value": "rerum",
-      "StdItem": "CustomerReadFAQ",
-      "StdItemCol": "Name",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 388
+          "FieldLength": 789
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "velit",
-  "Sentiment": 873,
-  "SentimentConfidence": 528,
+  "Important": false,
+  "Language": "nemo",
+  "Sentiment": 631,
+  "SentimentConfidence": 71,
   "ExtraFields": {
-    "ExtraFields1": "quas",
-    "ExtraFields2": "soluta"
+    "ExtraFields1": "deleniti",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
     "CustomFields1": "qui",
-    "CustomFields2": "sint"
+    "CustomFields2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 10
     }
   }
 }

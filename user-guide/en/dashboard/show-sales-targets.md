@@ -13,7 +13,7 @@ language: en
 
 If you have defined [targets][4] for your company, teams/groups and/or sales people, you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
 
-To add a tile with targets to a dashboard:
+To add a tile with targets to a dashboard
 
 1. Open the **Dashboard** screen.
 
@@ -32,37 +32,39 @@ To add a tile with targets to a dashboard:
     * Empty sale tile
 
     > [!TIP]
-    > You can also [select an empty tile][1] to create a tile from scratch, but the chart type needs to be one of those listed above.
+    > You can also [select an empty tile][1] to create a tile from scratch, but the chart type must be one of those listed above.
 
 6. To add a tile to the dashboard, drag and drop it on the desired position on the dashboard. You can also click **Add** to add a tile to next available position. The tile will automatically adjust to the available space, and will align with the grid and columns setup.
 
-7. Adjust the tiles on the dashboard as follows:
+7. Adjust the tiles on the dashboard:
 
-    * Hold the mouse-pointer over a tile and click and drag the frame to adjust the tile size. Available slots/spaces in the dashboard will be highlighted in yellow when the tile can fit in that position.
+    * Hold the mouse-pointer over a tile and click and drag the frame to adjust the tile size. Available slots/spaces in the dashboard are highlighted in yellow when the tile can fit in that position.
 
     * Click the header of a tile and drag it to another position.
 
-8. In the dashboard, click the **Edit tile** icon ![icon][img6] on the tile you have added.
+8. In the dashboard, click the **Edit tile** icon ![icon][img6] on the new tile.
 
 9. In the **Dataset** tab, set **Sale date** to this year, quarter or month. Edit the other [criteria][2] as necessary. Remember to update the tile name to reflect any changes made here.
 
-10. In the **Layout** tab you need to edit the layout as follows:
+10. In the **Layout** tab, edit the layout:
 
-    * **Chart type**: You can change this to any chart type listed in step 5.
-    * **Measure**: Select **Sum**.
-    * **Of**: Select **Amount** or **Weighted amount**.
-    * **By**: Select **Sale > Owner** (owner, full name or group) or **Sale > Sale date**.
-    * **Period** (only relevant if you selected **Sale date** above): Select year, quarter or month.
-    * **Grouping**: Select **Compare to target**. If this option is not visible or is inactive, double-check that you have performed the steps above.
+    * **Chart type**: Change this to any chart type listed in step 5.
+    * **Measure**: Select **Sum** or **Count**. This can for example be the sum of all sales or the total number (count) of all sales.
+    * **Of**: If you selected **Sum** in the previous step, select **Amount** or **Weighted amount**. If you selected **Count**, you must select **Sale ID** in this list.
+    * **By**: Select **Sale > Owner** (owner, full name or group) or **Sale > Sale date**. This option is only relevant for bar charts and column charts.
+    * **Grouping** or **Footer**: Select **Compare to target**. If this option is not visible or is inactive, double-check that you have completed the steps above. If you cannot select the option **Compare to target** (it is disabled), you can hover your mouse-pointer over the text. This will display a tooltip that explains what you need to change in order to enable and select the option.
 
-11. Edit the formatting. Depending on which chart type you have selected, you have additional options under **Formatting**:
+    * **Target**: Select the target you want to add to the tile. This option is not relevant for bar charts.
+    * **Show as %**: Select this option to show percentage of target instead of sums or counts. This option is not relevant for column charts and big numbers.
+
+11. Edit the formatting. Based on the chart type you selected, you have additional options under **Formatting**:
 
     * Big number: You can edit the colours used to display targets.
     * Gauge chart: Use the option **Mark target at** to set the target on the gauge chart.
 
-12. Click ![icon][img1] to [add a translation][3] to the tile name, titles and labels.
+12. Click ![icon][img1] to add a translation to the tile name, titles and labels. See [Translation][3]
 
-13. Click **Save**.
+13. Click **Save**
 
 14. Click **Done** when you have completed the dashboard.
 

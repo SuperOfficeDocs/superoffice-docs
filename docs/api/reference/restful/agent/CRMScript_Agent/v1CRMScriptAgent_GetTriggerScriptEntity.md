@@ -11,7 +11,15 @@ POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 
 Gets a TriggerScriptEntity object.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=315
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=711
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,7 +47,8 @@ POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +65,7 @@ Response body:
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -69,7 +79,7 @@ Response body:
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,22 +89,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 604,
-  "Name": "Ullrich-Howe",
+  "ScreenChooserId": 183,
+  "Name": "Lindgren-Labadie",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "odio",
-  "Source": "autem",
-  "Registered": "2017-01-08T11:10:26.3884585+01:00",
-  "RegisteredAssociateId": 865,
-  "Updated": "1995-06-26T11:10:26.3884585+02:00",
-  "UpdatedAssociateId": 982,
+  "Enabled": true,
+  "UniqueIdentifier": "officiis",
+  "Source": "veritatis",
+  "Registered": "1999-02-04T02:49:44.0129044+01:00",
+  "RegisteredAssociateId": 69,
+  "Updated": "2011-01-07T02:49:44.0129044+01:00",
+  "UpdatedAssociateId": 725,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldLength": 547
     }
   }
 }

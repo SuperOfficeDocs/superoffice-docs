@@ -11,11 +11,18 @@ PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 
 Saves headings for the Competitor list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 613,
-    "Name": "Marks LLC",
-    "ToolTip": "Inventore repellendus unde.",
-    "Deleted": false,
-    "Rank": 394,
-    "Type": "et",
-    "ColorBlock": 783,
-    "IconHint": "quisquam",
+    "Id": 199,
+    "Name": "Hilpert-Marks",
+    "ToolTip": "Aut quod sunt ducimus vitae voluptas rerum quis.",
+    "Deleted": true,
+    "Rank": 845,
+    "Type": "distinctio",
+    "ColorBlock": 198,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2002-03-28T11:10:53.9666938+01:00",
+    "LastChanged": "2021-02-25T02:49:51.9221933+01:00",
     "ChildItems": [
       {
-        "Id": 601,
-        "Name": "McGlynn Group",
-        "ToolTip": "Eos mollitia modi soluta distinctio ad earum.",
+        "Id": 890,
+        "Name": "Willms, Feil and Von",
+        "ToolTip": "Quae nesciunt quia adipisci.",
         "Deleted": true,
-        "Rank": 63,
-        "Type": "qui",
-        "ColorBlock": 960,
-        "IconHint": "vitae",
+        "Rank": 963,
+        "Type": "id",
+        "ColorBlock": 650,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "1996-06-24T11:10:53.9666938+02:00",
+        "LastChanged": "2014-03-07T02:49:51.9221933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Celestine Hansen"
+        "FullName": "Rebecca Reynolds"
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "impedit",
-    "Hidden": false,
-    "FullName": "Mark Davis"
+    "ExtraInfo": "veniam",
+    "StyleHint": "natus",
+    "Hidden": true,
+    "FullName": "Nelda Zakary Schumm Sr."
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 613,
-    "Name": "Heaney, Wisozk and Farrell",
-    "ToolTip": "Quis aspernatur quas adipisci et.",
-    "Deleted": false,
-    "Rank": 739,
-    "Type": "sapiente",
-    "ColorBlock": 894,
-    "IconHint": "explicabo",
-    "Selected": true,
-    "LastChanged": "2001-11-05T11:10:53.9681825+01:00",
+    "Id": 203,
+    "Name": "Larson Inc and Sons",
+    "ToolTip": "Quis odit modi in corporis rem.",
+    "Deleted": true,
+    "Rank": 811,
+    "Type": "autem",
+    "ColorBlock": 944,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2006-06-03T02:49:51.9221933+02:00",
     "ChildItems": [
       {
-        "Id": 117,
-        "Name": "Heller Group",
-        "ToolTip": "Accusantium et eveniet.",
-        "Deleted": false,
-        "Rank": 308,
-        "Type": "sint",
-        "ColorBlock": 326,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2013-07-01T11:10:53.9692002+02:00",
+        "Id": 191,
+        "Name": "Sipes LLC",
+        "ToolTip": "Dicta adipisci id labore.",
+        "Deleted": true,
+        "Rank": 506,
+        "Type": "illum",
+        "ColorBlock": 294,
+        "IconHint": "quam",
+        "Selected": false,
+        "LastChanged": "2013-10-25T02:49:51.9221933+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "fugit",
-        "Hidden": false,
-        "FullName": "Hilton Maribel Douglas III",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Ms. Jaylin Camille Walter Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 680
+            "FieldType": "System.Int32",
+            "FieldLength": 64
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "est",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Lawrence Hodkiewicz",
+    "FullName": "Ms. Edward Smith",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 559
       }
     }
   }

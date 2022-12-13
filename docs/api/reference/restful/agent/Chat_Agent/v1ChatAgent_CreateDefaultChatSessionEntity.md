@@ -11,7 +11,14 @@ POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 
 Set default values into a new ChatSessionEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 931,
-  "TopicId": 877,
+  "ChatSessionId": 493,
+  "TopicId": 267,
   "User": null,
   "Person": null,
-  "CustomerAlias": "consequuntur",
-  "CustomerHost": "nulla",
-  "CustomerName": "Satterfield, Bosco and Gottlieb",
-  "CustomerEmail": "lowell_keeling@conroy.us",
-  "CustomerPhone": "1-113-922-2951 x1487",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Mayert-Bahringer",
+  "CustomerAlias": "et",
+  "CustomerHost": "eaque",
+  "CustomerName": "Bosco, Hamill and Bradtke",
+  "CustomerEmail": "emely_connelly@pollich.uk",
+  "CustomerPhone": "843.987.0942",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Grimes LLC",
   "Status": "Closed",
-  "FirstMessage": "voluptatibus",
-  "LastMessage": "vel",
-  "WhenRequested": "2013-12-18T11:10:26.0545528+01:00",
-  "WhenStarted": "2018-12-13T11:10:26.0545528+01:00",
-  "WhenEnded": "2005-09-25T11:10:26.0545528+02:00",
-  "WhenIdle": "2019-02-07T11:10:26.0545528+01:00",
-  "WhenFetched": "2016-03-01T11:10:26.0545528+01:00",
-  "SessionKey": "provident",
-  "InitialQueuePos": 564,
-  "AlertLevel": 118,
-  "Rank": 903,
+  "FirstMessage": "sit",
+  "LastMessage": "voluptates",
+  "WhenRequested": "2013-04-18T02:49:43.7316573+02:00",
+  "WhenStarted": "1996-01-06T02:49:43.7316573+01:00",
+  "WhenEnded": "2006-03-04T02:49:43.7316573+01:00",
+  "WhenIdle": "2004-12-10T02:49:43.7316573+01:00",
+  "WhenFetched": "2008-09-27T02:49:43.7316573+02:00",
+  "SessionKey": "dicta",
+  "InitialQueuePos": 852,
+  "AlertLevel": 953,
+  "Rank": 799,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 104,
+  "ChatbotIsActive": false,
+  "Rating": 264,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldType": "System.String",
+      "FieldLength": 298
     }
   }
 }

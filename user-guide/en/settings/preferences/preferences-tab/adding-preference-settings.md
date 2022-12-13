@@ -17,9 +17,9 @@ You can add new settings for each of the preferences in the **Preferences** list
 
 [!include[Select group and reference](includes/select-group-and-reference.md)]
 
-1. Click the **Add** button at the bottom of the window. The **Setting** dialog opens. This is where you specify criteria for the new setting.
+1. Click the **Add** button at the bottom of the window.
 
-1. Under **This setting will apply to**, choose which level the setting will apply to – the whole system, one database, one user group or an individual user (see [Levels for preference settings][2]).
+1. In the **Setting** dialog under **This setting will apply to**, choose which level the setting will apply to – the whole system, one database, one user group or an individual user (see [Levels for preference settings][2]).
 
     > [!NOTE]
     > If any of the options are disabled, this setting cannot be applied to them.

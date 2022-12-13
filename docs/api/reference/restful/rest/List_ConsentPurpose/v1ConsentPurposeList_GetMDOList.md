@@ -11,6 +11,12 @@ GET /api/v1/List/ConsentPurpose/MDOItems
 
 Get the MDO list items for "ConsentPurpose" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=amet
+GET /api/v1/List/ConsentPurpose/MDOItems?query=enim
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/ConsentPurpose/MDOItems?query=amet
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Crona Group",
-    "ToolTip": "Repellat et ut rerum quas.",
+    "Id": 196,
+    "Name": "Cartwright, Crona and Runolfsdottir",
+    "ToolTip": "Necessitatibus cumque assumenda cupiditate cumque voluptas non.",
     "Deleted": false,
-    "Rank": 879,
-    "Type": "id",
+    "Rank": 20,
+    "Type": "vitae",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Grady Inc and Sons",
-        "ToolTip": "Non ducimus ullam.",
+        "Id": 127,
+        "Name": "Mayer-Bosco",
+        "ToolTip": "Aliquid suscipit nam pariatur.",
         "Deleted": false,
-        "Rank": 508,
-        "Type": "dignissimos",
+        "Rank": 278,
+        "Type": "atque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ullam",
-        "ColorBlock": 368,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "est",
-        "FullName": "Prof. Jovanny McKenzie DDS",
+        "IconHint": "rerum",
+        "ColorBlock": 548,
+        "ExtraInfo": "qui",
+        "StyleHint": "cupiditate",
+        "FullName": "Camden Adalberto Ortiz Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 210
+            "FieldType": "System.String",
+            "FieldLength": 630
           }
         }
       }
     ],
-    "IconHint": "recusandae",
-    "ColorBlock": 585,
-    "ExtraInfo": "in",
-    "StyleHint": "voluptas",
-    "FullName": "Alyson Tavares Wisoky Sr.",
+    "IconHint": "harum",
+    "ColorBlock": 822,
+    "ExtraInfo": "iure",
+    "StyleHint": "aut",
+    "FullName": "Afton D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldLength": 88
       }
     }
   }

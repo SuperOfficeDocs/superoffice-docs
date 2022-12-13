@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 
 Get a list of the column names corresponding to available restrictions for a certain archive provider and restriction storage provider.
 
+
 Such columns have CanRestrict set to true, and are supported by the given restriction storage provider.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Such columns have CanRestrict set to true, and are supported by the given restri
 ```http
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Find/GetAvailableRestrictionColumns?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName
+StorageType, ProviderName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StorageType | string |  |
 | ProviderName | string |  |
+
 
 ## Response: array
 
@@ -56,18 +64,19 @@ OK
 
 Response body: array
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Monahan, Kuvalis and Huels"
+  "StorageType": "qui",
+  "ProviderName": "Williamson-Heathcote"
 }
 ```
 
@@ -78,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "voluptate",
-  "doloribus"
+  "commodi",
+  "ut"
 ]
 ```

@@ -1,12 +1,12 @@
 ### YamlMime:SubCategory
 
-title: Customization
-summary: ""
+title: Customisation
+summary: "Learn about different customisation of all your lists, possibilities to add fields and layout of the different main cards in the screen designer, set up macros and script and all other fine tuning of your system"
 
 metadata:
-  title: Customization
+  title: Customisation
   description: "Learn about SuperID, identity providers, and federated sign-in."
-  so.product: customization
+  so.product: customisation
   so.topic: landing-page
   author: Help & Learn
   so.author: helplearn
@@ -22,53 +22,17 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Lists
-          url: settings/lists/index.md
+          url: ../settings/lists/index.md
         - text: Preferences
-          url: settings/preferences/index.md
+          url: ../settings/preferences/index.md
         - text: Options
-          url: settings/options/index.md
+          url: ../settings/options/index.md
         - text: Personal settings
-          url: settings/personal-settings/index.md
+          url: ../settings/personal-settings/index.md
       - linkListType: how-to-guide
         links:
         - text: System settings in Service
-          url: settings/in-service/index.md
-
-  # Card
-  - title: Macros and CRMScript
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-        - text: Macros and scripts
-          url: automation/macro-script.md
-        - text: Create a macro
-          url: automation/create-macro.md
-        - text: Create a script
-          url: automation/create-script.md
-        - text: Debug sessions
-          url: automation/debug.md
-        - text: Create a scheduled task
-          url: automation/schedule-task.md
-        - text: Tracing
-          url: automation/tracing.md
-        - text: Triggers
-          url: automation/trigger.md
-
-  # Card
-  - title: User interface
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-        - text: Screen designer
-          url: ui/screen-designer/index.md
-        - text: Extra menus
-          url: ui/extra-menus/index.md
-        - text: Web panels
-          url: ui/web-panels/index.md
-      - linkListType: how-to-guide
-        links:
-        - text: Profile in Service
-          url: ui/in-service/profiles/index.md
+          url: ../settings/in-service/index.md
 
   # Card
   - title: Custom objects
@@ -76,23 +40,59 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: User-defined fields
-          url: custom-objects/udef/index.md
+          url: ../custom-objects/udef/index.md
         - text: Extra fields
-          url: custom-objects/extra-field/create.md
+          url: ../custom-objects/extra-field/create.md
         - text: Extra tables
-          url: custom-objects/extra-table/create.md
+          url: ../custom-objects/extra-table/create.md
       
+  # Card
+  - title: User interface
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Screen designer
+          url: ../ui/screen-designer/index.md
+        - text: Extra menus
+          url: ../ui/extra-menus/index.md
+        - text: Web panels
+          url: ../ui/web-panels/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Profile in Service
+          url: ../ui/in-service/profiles/index.md
+
+  # Card
+  - title: Macros and CRMScript
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Macros and scripts
+          url: ../automation/macro-script.md
+        - text: Create a macro
+          url: ../automation/create-macro.md
+        - text: Create a script
+          url: ../automation/create-script.md
+        - text: Debug sessions
+          url: ../automation/debug.md
+        - text: Create a scheduled task
+          url: ../automation/schedule-task.md
+        - text: Tracing
+          url: ../automation/tracing.md
+        - text: Triggers
+          url: ../automation/trigger.md
+
   # Card
   - title: Customer centre
     linkLists:
       - linkListType: how-to-guide
         links:
         - text: Customer centre configuration
-          url: customer-center/config.md
+          url: ../customer-center/config.md
         - text: Customer centre source files
-          url: customer-center/edit.md
+          url: ../customer-center/edit.md
         - text: Send passwords to contacts
-          url: customer-center/send-credentials.md
+          url: ../customer-center/send-credentials.md
 
  # Card
   - title: ERP
@@ -100,8 +100,8 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Connect to ERP
-          url: erp/erp-connect.md
+          url: ../erp/erp-connect.md
         - text: Create ERP actor
-          url: erp/erp-create-new-actor.md
-        - text: Disable synchronisation
-          url: erp/erp-sync-disconnect.md
+          url: ../erp/erp-create-new-actor.md
+        - text: Disable synchronization
+          url: ../erp/erp-sync-disconnect.md

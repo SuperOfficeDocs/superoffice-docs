@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
+
 The document appointments belong to the project specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count, DocumentTemplateId
+ProjectId, StartTime, EndTime, Count, DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ ProjectId, StartTime, EndTime, Count, DocumentTemplateId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | DocumentTemplateId | int32 |  |
+
 
 ## Response: array
 
@@ -90,15 +98,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 61,
-  "StartTime": "1995-10-31T11:10:26.4764524+01:00",
-  "EndTime": "2005-10-31T11:10:26.4764524+01:00",
-  "Count": 984,
-  "DocumentTemplateId": 280
+  "ProjectId": 691,
+  "StartTime": "2022-04-27T02:49:44.0910111+02:00",
+  "EndTime": "2006-11-06T02:49:44.0910111+01:00",
+  "Count": 971,
+  "DocumentTemplateId": 978
 }
 ```
 
@@ -110,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 219,
-    "Attention": "voluptatem",
-    "Header": "rerum",
-    "Name": "Wolff, Green and Tillman",
-    "OurRef": "nihil",
-    "YourRef": "vitae",
-    "Description": "Seamless global matrices",
-    "DocumentTemplate": "quo",
-    "IsPublished": false,
-    "PersonId": 497,
-    "PersonFullName": "Keeley Morissette",
-    "AssociateFullName": "Paolo Lemke",
-    "ContactId": 439,
-    "ContactName": "Greenholt-Hilpert",
-    "ProjectId": 763,
-    "ProjectName": "Orn Inc and Sons",
-    "AssociateId": 844,
-    "Snum": 510,
-    "SaleId": 112,
-    "SaleName": "Hilll, Daugherty and Flatley",
+    "DocumentId": 21,
+    "Attention": "incidunt",
+    "Header": "blanditiis",
+    "Name": "Blanda, Bailey and Beahan",
+    "OurRef": "numquam",
+    "YourRef": "laboriosam",
+    "Description": "Fundamental background architecture",
+    "DocumentTemplate": "sed",
+    "IsPublished": true,
+    "PersonId": 643,
+    "PersonFullName": "Daisy Waters",
+    "AssociateFullName": "Ms. Morris Harvey Kuhn V",
+    "ContactId": 821,
+    "ContactName": "Zieme, Hoppe and Ernser",
+    "ProjectId": 768,
+    "ProjectName": "Feest-Fisher",
+    "AssociateId": 466,
+    "Snum": 768,
+    "SaleId": 613,
+    "SaleName": "Stanton-Grimes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 246
+        "FieldType": "System.Int32",
+        "FieldLength": 46
       }
     }
   }

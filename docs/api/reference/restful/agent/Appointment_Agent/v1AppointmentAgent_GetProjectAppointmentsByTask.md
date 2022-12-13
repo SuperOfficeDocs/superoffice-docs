@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 
 Method that returns a specified number of appointments of a specific appointment task type within a time range.
 
+
 The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the project specified.  Task represents the different
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count, TaskId
+ProjectId, StartTime, EndTime, Count, TaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ ProjectId, StartTime, EndTime, Count, TaskId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskId | int32 |  |
+
 
 ## Response: array
 
@@ -119,15 +127,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 140,
-  "StartTime": "2009-05-04T11:10:25.4205617+02:00",
-  "EndTime": "1995-10-27T11:10:25.4205617+02:00",
-  "Count": 160,
-  "TaskId": 199
+  "ProjectId": 227,
+  "StartTime": "2001-05-24T02:49:43.2148724+02:00",
+  "EndTime": "2019-03-03T02:49:43.2148724+01:00",
+  "Count": 155,
+  "TaskId": 90
 }
 ```
 
@@ -139,61 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 487,
-    "StartDate": "2011-04-06T11:10:25.4215579+02:00",
-    "EndDate": "1995-05-10T11:10:25.4215579+02:00",
+    "AppointmentId": 73,
+    "StartDate": "2010-08-29T02:49:43.2148724+02:00",
+    "EndDate": "2005-08-05T02:49:43.2148724+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aut",
-    "AssociateFullName": "Ms. Lucienne Jordi Halvorson",
-    "ContactName": "Rice, Effertz and Welch",
-    "Description": "Exclusive neutral standardization",
-    "PersonFullName": "Mrs. Nick Deborah Moore",
-    "PersonId": 919,
-    "ContactId": 838,
-    "ProjectId": 299,
-    "ProjectName": "Turcotte Group",
+    "Task": "sequi",
+    "AssociateFullName": "Curt Devan Armstrong PhD",
+    "ContactName": "Wintheiser, Dicki and Pouros",
+    "Description": "User-friendly local solution",
+    "PersonFullName": "Penelope Marquardt",
+    "PersonId": 228,
+    "ContactId": 702,
+    "ProjectId": 385,
+    "ProjectName": "Altenwerth, Wolff and Shields",
     "IsPublished": false,
-    "AssociateId": 779,
-    "ColorIndex": 226,
+    "AssociateId": 806,
+    "ColorIndex": 218,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 528,
-    "PriorityName": "Pollich, Morissette and Braun",
+    "PriorityId": 224,
+    "PriorityName": "Pollich LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1995-04-28T11:10:25.4225612+02:00",
+    "ActiveDate": "2008-04-04T02:49:43.2148724+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-08-12T11:10:25.4225612+02:00",
-    "RecurringEndDate": "2020-04-18T11:10:25.4225612+02:00",
-    "MotherId": 713,
-    "AssignedBy": 934,
-    "AssignedByFullName": "Krista Schiller",
+    "RecurringStartDate": "2004-07-14T02:49:43.2148724+02:00",
+    "RecurringEndDate": "2015-11-23T02:49:43.2148724+01:00",
+    "MotherId": 273,
+    "AssignedBy": 288,
+    "AssignedByFullName": "Lavon Schroeder DVM",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "sequi",
-    "SaleId": 521,
-    "SaleName": "Morissette-Krajcik",
-    "AssociateName": "Beer, Kessler and Brown",
-    "CreatedDate": "1997-12-01T11:10:25.4225612+01:00",
-    "CreatedBy": "vel",
-    "CreatedByFullName": "Rocio Miller",
-    "CreatedByAssociateId": 110,
+    "Location": "corrupti",
+    "AlarmLeadTime": "maiores",
+    "SaleId": 699,
+    "SaleName": "Daugherty-Bauch",
+    "AssociateName": "Jewess, Howell and Bartell",
+    "CreatedDate": "2000-09-19T02:49:43.2148724+02:00",
+    "CreatedBy": "blanditiis",
+    "CreatedByFullName": "Elody Mraz",
+    "CreatedByAssociateId": 61,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldType": "System.String",
+        "FieldLength": 924
       }
     }
   }

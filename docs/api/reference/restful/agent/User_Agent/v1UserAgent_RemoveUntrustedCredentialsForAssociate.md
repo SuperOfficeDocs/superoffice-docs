@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate
 
 Remove a credentials entry for a specified user.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +31,7 @@ Remove a credentials entry for a specified user.
 POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,9 +42,9 @@ POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate?$select=name,dep
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, Type, PublicValue
+AssociateId, Type, PublicValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +52,8 @@ AssociateId, Type, PublicValue
 | Type | string |  |
 | PublicValue | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -51,7 +61,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -59,13 +70,13 @@ Response body:
 POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 879,
-  "Type": "eum",
-  "PublicValue": "ea"
+  "AssociateId": 944,
+  "Type": "ab",
+  "PublicValue": "non"
 }
 ```
 

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Report/ImportReport
 
 Takes the input stream and create a report.
 
+
 This stream must be on a valid xml format
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This stream must be on a valid xml format
 ```http
 POST /api/v1/Agents/Report/ImportReport?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Report/ImportReport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Report
+Report 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Report | string |  |
+
 
 ## Response: int32
 
@@ -55,13 +63,14 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Report/ImportReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -75,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-517
+177
 ```

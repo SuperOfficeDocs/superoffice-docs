@@ -15,7 +15,7 @@ The diary in SuperOffice CRM is fundamentally a personal diary. Your name is dis
 
 You can open another user’s diary, or the diary of an available resource, to see when they are free, for example, or to create follow-ups for them directly.
 
-You can also view the diaries of other users and resources in your organisation by displaying group views in your diary.
+You can also view the diaries of other users and resources in your organization by displaying group views in your diary.
 
 ## View another diary
 
@@ -28,7 +28,7 @@ If you click on the name of a user or resource, this user or resource becomes th
 
 2. Select a resource or user directly, or click a user group ![icon][img1]. You can then select from a list of all people linked to this group of SuperOffice CRM users.
 
-3. The diary of the other user or resource opens and their name is displayed in place of your own at the top right of the **Diary** screen. The activities list of the other user or resource is also displayed.
+3. The diary of the other user or resource opens and their name (not your own) is displayed at the top right of the **Diary** screen. The activities list of the other user or resource is also displayed.
 
 > [!NOTE]
 > Other users are displayed with the ![icon][img2] icon and red underlining, while resources are displayed with the ![icon][img3] icon and blue underlining.
@@ -39,7 +39,7 @@ When you open the diary of another user or resource, you can switch between the 
 
 1. Click the **View** tab in the **Diary** screen.
 
-2. Click the **Show** list box at the bottom of the **Diary** screen. This brings up a list of all the groups and resources that are set up in your organisation.
+2. Click the **Show** list box at the bottom of the **Diary** screen. This brings up a list of all the groups and resources that are set up in your organization.
 
 3. Select the required group from the list. The **View** tab now contains the diaries of all the users and resources in the selected user group.
 

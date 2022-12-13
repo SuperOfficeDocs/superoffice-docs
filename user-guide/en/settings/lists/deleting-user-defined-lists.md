@@ -9,21 +9,21 @@ so.topic: help
 language: en
 ---
 
-# Delete user-defined lists
+# Delete user-defined list
 
 > [!NOTE]
 > You cannot delete lists which are predefined in SuperOffice CRM. If you select a predefined list, the **Delete list** button will not be displayed. Nor can you delete lists which are used in user-defined fields. In these cases, the **Delete list** button in the **Lists** tab is disabled.
 
 [!include[Find specific list](includes/tip-find-list.md)]
 
-To delete a user-defined list:
+**Steps:**
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list from the list box at the top.
 3. Click the **Delete list** button.
-4. In the dialog which opens, click **Yes** to confirm that you want to delete this list.
+4. Click **Yes** in the confirmation dialog.
 
-    The list will be deleted.
+    The list is deleted.
 
 <!-- Referenced links -->
 

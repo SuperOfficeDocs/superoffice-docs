@@ -11,7 +11,14 @@ POST /api/v1/Agents/Dash/CreateDefaultDash
 
 Set default values into a new Dash.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +68,7 @@ Response body:
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 615,
-  "UniqueId": "officiis",
-  "Name": "Johns, Borer and Hand",
-  "Description": "Cloned actuating application",
-  "AssociateId": 661,
-  "Columns": 285,
+  "DashboardId": 678,
+  "UniqueId": "officia",
+  "Name": "Marvin-Schroeder",
+  "Description": "Devolved 4th generation task-force",
+  "AssociateId": 22,
+  "Columns": 834,
   "Theme": null,
-  "VisibleForAll": 104,
+  "VisibleForAll": 280,
   "VisibleForAssociates": [
-    615,
-    761
+    328,
+    831
   ],
   "VisibleForGroups": [
-    969,
-    758
+    424,
+    390
   ],
-  "PinForAll": 227,
+  "PinForAll": 833,
   "PinForAssociates": [
-    231,
-    996
+    505,
+    708
   ],
   "PinForGroups": [
-    567,
-    310
+    686,
+    337
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldType": "System.String",
+      "FieldLength": 325
     }
   }
 }

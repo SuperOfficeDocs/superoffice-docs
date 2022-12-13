@@ -11,9 +11,15 @@ PUT /api/v1/DashTileDefinition/{id}
 
 Updates the existing DashTileDefinition
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashTileDefinition id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing DashTileDefinition
 ```http
 PUT /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashTileDefinition to be saved.
+The DashTileDefinition to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +72,8 @@ The DashTileDefinition to be saved.
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 
-## Response
+
+## Response: 
 
 DashTileDefinition updated.
 
@@ -74,7 +82,7 @@ DashTileDefinition updated.
 | 200 | DashTileDefinition updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -107,29 +115,29 @@ Response body:
 PUT /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 136,
-  "Name": "Mayer LLC",
-  "Description": "Cloned actuating monitoring",
-  "DefaultHeight": 347,
-  "DefaultWidth": 64,
+  "DashboardTileDefinitionId": 877,
+  "Name": "Feeney Inc and Sons",
+  "Description": "Cross-platform homogeneous time-frame",
+  "DefaultHeight": 772,
+  "DefaultWidth": 525,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Mayer, Wiegand and Schamberger",
-  "SelectionId": 333,
+  "EntityName": "Thiel-Kutch",
+  "SelectionId": 534,
   "CurrencyMode": "Base",
-  "CurrencyCode": "odit",
+  "CurrencyCode": "aut",
   "Measure": "Average",
-  "MeasureField": "aperiam",
-  "SortBy": "quo",
-  "LayoutConfig": "doloremque",
-  "SecondarySelectionId": 748,
-  "MeasureByField": "sequi",
+  "MeasureField": "voluptatibus",
+  "SortBy": "nulla",
+  "LayoutConfig": "quod",
+  "SecondarySelectionId": 211,
+  "MeasureByField": "et",
   "Usage": "Dashboard",
-  "ProviderName": "Robel, Bauch and Harber"
+  "ProviderName": "Padberg-Zulauf"
 }
 ```
 
@@ -140,36 +148,36 @@ HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 186,
-  "Name": "Schamberger LLC",
-  "Description": "Networked needs-based methodology",
-  "DefaultHeight": 821,
-  "DefaultWidth": 54,
+  "DashboardTileDefinitionId": 227,
+  "Name": "Turner-Dare",
+  "Description": "Multi-lateral tangible parallelism",
+  "DefaultHeight": 473,
+  "DefaultWidth": 809,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Goodwin, Nicolas and Towne",
-  "SelectionId": 562,
+  "EntityName": "Botsford-Kub",
+  "SelectionId": 98,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "laborum",
   "Measure": "Average",
-  "MeasureField": "quas",
-  "SortBy": "neque",
-  "LayoutConfig": "soluta",
-  "SecondarySelectionId": 554,
-  "MeasureByField": "aperiam",
+  "MeasureField": "asperiores",
+  "SortBy": "reprehenderit",
+  "LayoutConfig": "nam",
+  "SecondarySelectionId": 255,
+  "MeasureByField": "deleniti",
   "Usage": "Dashboard",
-  "ProviderName": "Cremin, Konopelski and Von",
+  "ProviderName": "Beier-Spinka",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldType": "System.String",
+      "FieldLength": 595
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

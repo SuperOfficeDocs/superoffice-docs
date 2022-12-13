@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 08.26.2022
+so.date: 11.29.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -48,3 +48,4 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IUserDefinedFie
 * [SetPublishStartSystemEvent](setpublishstartsystemevent.md)
 * [SetRankOnFields](setrankonfields.md)
 * [SetUserDefinedPageOneField](setuserdefinedpageonefield.md)
+

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/SaveDashTiles
 
 Saves the ordered list of tiles for a dashboard
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves the ordered list of tiles for a dashboard
 ```http
 POST /api/v1/Agents/Dash/SaveDashTiles?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/Dash/SaveDashTiles?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardId, DashTiles
+DashboardId, DashTiles 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 |  |
 | DashTiles | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,26 +65,26 @@ Response body:
 POST /api/v1/Agents/Dash/SaveDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 597,
+  "DashboardId": 810,
   "DashTiles": [
     {
-      "DashboardTileId": 2,
-      "DashboardId": 119,
-      "Height": 274,
-      "Width": 517,
-      "Rank": 516,
+      "DashboardTileId": 215,
+      "DashboardId": 413,
+      "Height": 772,
+      "Width": 644,
+      "Rank": 386,
       "DashTileDefinition": null
     },
     {
-      "DashboardTileId": 2,
-      "DashboardId": 119,
-      "Height": 274,
-      "Width": 517,
-      "Rank": 516,
+      "DashboardTileId": 215,
+      "DashboardId": 413,
+      "Height": 772,
+      "Width": 644,
+      "Rank": 386,
       "DashTileDefinition": null
     }
   ]

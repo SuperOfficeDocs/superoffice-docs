@@ -11,11 +11,18 @@ PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 
 Saves headings for the LegalBase list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "McLaughlin, Kunde and Yost",
-    "ToolTip": "Qui vitae pariatur.",
+    "Id": 424,
+    "Name": "Wolff LLC",
+    "ToolTip": "Quidem dolorem sint dolor eveniet animi.",
     "Deleted": false,
-    "Rank": 467,
-    "Type": "est",
-    "ColorBlock": 456,
-    "IconHint": "nostrum",
-    "Selected": false,
-    "LastChanged": "2003-06-12T11:10:54.3128659+02:00",
+    "Rank": 788,
+    "Type": "saepe",
+    "ColorBlock": 137,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "2002-12-29T02:49:52.2659433+01:00",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Walsh, Parisian and Kirlin",
-        "ToolTip": "Non deleniti et est sit et.",
-        "Deleted": true,
-        "Rank": 62,
-        "Type": "et",
-        "ColorBlock": 146,
-        "IconHint": "suscipit",
-        "Selected": true,
-        "LastChanged": "2020-09-21T11:10:54.3128659+02:00",
+        "Id": 641,
+        "Name": "Nienow Inc and Sons",
+        "ToolTip": "Et tempore.",
+        "Deleted": false,
+        "Rank": 912,
+        "Type": "aperiam",
+        "ColorBlock": 724,
+        "IconHint": "nemo",
+        "Selected": false,
+        "LastChanged": "2013-07-07T02:49:52.2659433+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Liam West"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "illo",
+        "Hidden": false,
+        "FullName": "Sigmund Ondricka"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "illum",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Dr. Silas Jarred Witting"
+    "FullName": "Darrel Thiel"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "Lemke-Cummings",
-    "ToolTip": "Ut tempora.",
-    "Deleted": true,
-    "Rank": 241,
-    "Type": "beatae",
-    "ColorBlock": 541,
+    "Id": 254,
+    "Name": "Barrows, Gislason and Towne",
+    "ToolTip": "Id perspiciatis non.",
+    "Deleted": false,
+    "Rank": 1001,
+    "Type": "asperiores",
+    "ColorBlock": 595,
     "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2019-07-17T11:10:54.3148663+02:00",
+    "LastChanged": "2003-05-28T02:49:52.2659433+02:00",
     "ChildItems": [
       {
-        "Id": 832,
-        "Name": "Marvin Group",
-        "ToolTip": "Voluptatum doloribus aut dolorum totam ea.",
-        "Deleted": false,
-        "Rank": 468,
-        "Type": "accusantium",
-        "ColorBlock": 554,
-        "IconHint": "aut",
+        "Id": 352,
+        "Name": "Marquardt, Pouros and Mante",
+        "ToolTip": "Voluptatibus autem ad accusamus aut nam excepturi optio.",
+        "Deleted": true,
+        "Rank": 212,
+        "Type": "iusto",
+        "ColorBlock": 56,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "1999-09-13T11:10:54.3148663+02:00",
+        "LastChanged": "1999-03-26T02:49:52.2659433+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "qui",
+        "ExtraInfo": "sunt",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Corene Mills",
+        "FullName": "Dr. Madalyn Leanne Reichel III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldLength": 619
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "officiis",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Dock Dibbert",
+    "FullName": "Kacie Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldLength": 445
       }
     }
   }

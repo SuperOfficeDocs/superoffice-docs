@@ -11,6 +11,13 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 
 Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ForeignAppEntity to be saved.
+The ForeignAppEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,7 +46,8 @@ The ForeignAppEntity to be saved.
 | UpdatedBy |  | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -47,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,23 +79,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 155,
-  "Name": "Parisian LLC",
-  "CreatedDate": "2019-06-10T11:10:27.0674607+02:00",
-  "UpdatedDate": "1995-07-19T11:10:27.0674607+02:00",
+  "ForeignAppId": 620,
+  "Name": "Ernser LLC",
+  "CreatedDate": "2006-06-16T02:49:44.5454229+02:00",
+  "UpdatedDate": "2011-01-25T02:49:44.5454229+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 306,
-      "Name": "Ullrich Inc and Sons",
-      "CreatedDate": "2015-01-08T11:10:27.0674607+01:00",
-      "UpdatedDate": "2007-12-16T11:10:27.0674607+01:00",
-      "AssociateFullName": "Mrs. Patience Reilly",
-      "CreatedBy": "voluptas",
-      "UpdatedBy": "consequatur",
-      "DeviceIdentifier": "consequatur",
-      "ForeignAppId": 301
+      "ForeignDeviceId": 409,
+      "Name": "Bruen-Tillman",
+      "CreatedDate": "2000-06-14T02:49:44.5454229+02:00",
+      "UpdatedDate": "2012-07-09T02:49:44.5454229+02:00",
+      "AssociateFullName": "Marvin Macejkovic",
+      "CreatedBy": "et",
+      "UpdatedBy": "dolores",
+      "DeviceIdentifier": "culpa",
+      "ForeignAppId": 611
     }
   ]
 }
@@ -100,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 831,
-  "Name": "Tremblay-Wisozk",
-  "CreatedDate": "2002-03-10T11:10:27.0684523+01:00",
-  "UpdatedDate": "2011-09-29T11:10:27.0684523+02:00",
+  "ForeignAppId": 593,
+  "Name": "Gleichner-Hintz",
+  "CreatedDate": "2019-07-19T02:49:44.5454229+02:00",
+  "UpdatedDate": "2012-06-28T02:49:44.5454229+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 209,
-      "Name": "Ankunding, Morar and Purdy",
-      "CreatedDate": "2021-04-11T11:10:27.0694531+02:00",
-      "UpdatedDate": "2006-05-29T11:10:27.0694531+02:00",
-      "AssociateFullName": "Jonathon Mraz",
+      "ForeignDeviceId": 798,
+      "Name": "Simonis-Rutherford",
+      "CreatedDate": "2013-04-04T02:49:44.5454229+02:00",
+      "UpdatedDate": "2000-02-20T02:49:44.5454229+01:00",
+      "AssociateFullName": "Ms. Lamont Tyra Rosenbaum",
       "CreatedBy": "officia",
-      "UpdatedBy": "quas",
-      "DeviceIdentifier": "in",
-      "ForeignAppId": 301,
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "quisquam",
+      "ForeignAppId": 614,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 961
         }
       }
     }
@@ -132,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 723
     }
   }
 }

@@ -11,7 +11,14 @@ POST /api/v1/Agents/Project/CreateDefaultProjectEntity
 
 Set default values into a new ProjectEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +86,7 @@ Response body:
 POST /api/v1/Agents/Project/CreateDefaultProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,127 +96,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 213,
-  "Name": "Bahringer, Klein and Kovacek",
-  "ProjectNumber": "417768",
+  "ProjectId": 594,
+  "Name": "Bailey, Kling and Greenholt",
+  "ProjectNumber": "1438926",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 468,
-      "ContactId": 961,
-      "ProjectId": 919,
-      "ContactName": "Kerluke LLC",
+      "ProjectmemberId": 804,
+      "ContactId": 62,
+      "ProjectId": 102,
+      "ContactName": "Schimmel-Collins",
       "ContactDepartment": "",
-      "ProjectName": "Zboncak, Mohr and Wintheiser",
-      "EmailId": 873,
-      "EmailAddress": "tianna.koelpin@mcdermott.co.uk",
-      "CountryId": 523,
-      "Firstname": "Michelle",
-      "MiddleName": "Haley, Yundt and Jaskolski",
-      "Lastname": "Kuhn",
-      "PersonId": 942,
-      "Mrmrs": "qui",
-      "ProjectMemberTypeName": "Wilderman-Luettgen",
-      "Phone": "441.741.2508 x0579",
-      "PhoneId": 572,
-      "ProjectMemberTypeId": 735,
-      "EmailAddressName": "caitlyn@schoen.uk",
-      "Comment": "eos",
-      "FullName": "Dr. Queen Cruickshank",
+      "ProjectName": "Hartmann, Hoeger and Kertzmann",
+      "EmailId": 201,
+      "EmailAddress": "jeffry.jones@hessel.info",
+      "CountryId": 172,
+      "Firstname": "Violet",
+      "MiddleName": "Fritsch, Bartoletti and Klocko",
+      "Lastname": "McKenzie",
+      "PersonId": 445,
+      "Mrmrs": "voluptates",
+      "ProjectMemberTypeName": "Turcotte, Lynch and Pagac",
+      "Phone": "787-966-4904 x04441",
+      "PhoneId": 242,
+      "ProjectMemberTypeId": 970,
+      "EmailAddressName": "arnaldo.baumbach@hahn.biz",
+      "Comment": "error",
+      "FullName": "Mrs. Brenda Jacobson Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 571
+          "FieldType": "System.Int32",
+          "FieldLength": 510
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "et",
-      "Description": "Team-oriented executive secured line",
+      "Value": "fugit",
+      "StrippedValue": "soluta",
+      "Description": "Optimized 24/7 structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 263
+          "FieldType": "System.Int32",
+          "FieldLength": 240
         }
       }
     },
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "et",
-      "Description": "Team-oriented executive secured line",
+      "Value": "fugit",
+      "StrippedValue": "soluta",
+      "Description": "Optimized 24/7 structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 263
+          "FieldType": "System.Int32",
+          "FieldLength": 240
         }
       }
     }
   ],
-  "CreatedDate": "2017-09-29T11:10:27.5624235+02:00",
-  "UpdatedDate": "1998-02-05T11:10:27.5624235+01:00",
-  "Description": "Focused 6th generation capability",
-  "Postit": "velit",
+  "CreatedDate": "1995-09-17T02:49:44.9215886+02:00",
+  "UpdatedDate": "2016-03-13T02:49:44.9215886+01:00",
+  "Description": "Organic client-server architecture",
+  "Postit": "amet",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": true,
-  "ImageDescription": "Robust 24 hour pricing structure",
-  "ActiveStatusMonitorId": 594,
+  "ImageDescription": "Fundamental global local area network",
+  "ActiveStatusMonitorId": 458,
   "Links": [
     {
-      "EntityName": "Ratke Group",
-      "Id": 990,
-      "Description": "Mandatory user-facing capability",
-      "ExtraInfo": "facere",
-      "LinkId": 113,
+      "EntityName": "Cassin LLC",
+      "Id": 1001,
+      "Description": "Profound neutral infrastructure",
+      "ExtraInfo": "aut",
+      "LinkId": 475,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldType": "System.Int32",
+          "FieldLength": 413
         }
       }
     }
   ],
-  "ActiveLinks": 385,
+  "ActiveLinks": 743,
   "Completed": false,
-  "NextMilestoneDate": "2021-09-15T11:10:27.563422+02:00",
-  "NmdAppointmentId": 586,
-  "EndDate": "2011-04-08T11:10:27.563422+02:00",
-  "ActiveErpLinks": 543,
+  "NextMilestoneDate": "2009-05-24T02:49:44.9215886+02:00",
+  "NmdAppointmentId": 934,
+  "EndDate": "2003-11-21T02:49:44.9215886+01:00",
+  "ActiveErpLinks": 848,
   "UserDefinedFields": {
-    "SuperOffice:1": "1184938338",
-    "SuperOffice:2": "Miss Jonathon Graham"
+    "SuperOffice:1": "Nathan Frami",
+    "SuperOffice:2": "Ms. Antonetta Gulgowski PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "ut"
+    "CustomFields1": "deserunt",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2014-11-23T11:10:27.563422+01:00",
-  "PublishTo": "2000-08-27T11:10:27.563422+02:00",
-  "PublishFrom": "2009-08-14T11:10:27.563422+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-01-25T02:49:44.9215886+01:00",
+  "PublishTo": "2003-10-06T02:49:44.9215886+02:00",
+  "PublishFrom": "2012-12-18T02:49:44.9215886+01:00",
+  "IsPublished": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 883
+      "FieldLength": 395
     }
   }
 }

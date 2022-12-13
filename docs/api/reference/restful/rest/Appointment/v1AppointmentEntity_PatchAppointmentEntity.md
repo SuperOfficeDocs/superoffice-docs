@@ -11,6 +11,7 @@ PATCH /api/v1/Appointment/{id}
 
 Update a AppointmentEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IAppointmentAgent} service SaveAppointmentEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The AppointmentEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IAppointmentAgent} service SaveAppointmentEn
 ```http
 PATCH /api/v1/Appointment/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Appointment/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +81,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 AppointmentEntity  updated.
 
@@ -81,7 +93,7 @@ AppointmentEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because AppointmentEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -150,18 +162,18 @@ Response body:
 PATCH /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "adipisci",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "adipisci",
+    "path": "et",
     "value": {}
   }
 ]
@@ -178,63 +190,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2008-12-04T11:10:52.3901792+01:00",
-  "AppointmentId": 830,
-  "Description": "Proactive incremental synergy",
-  "StartDate": "2007-12-03T11:10:52.3901792+01:00",
-  "EndDate": "1997-08-17T11:10:52.3901792+02:00",
+  "CreatedDate": "2004-10-08T02:49:50.5421596+02:00",
+  "AppointmentId": 594,
+  "Description": "Open-architected dedicated budgetary management",
+  "StartDate": "2020-09-22T02:49:50.5421596+02:00",
+  "EndDate": "2018-06-27T02:49:50.5421596+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 229,
+  "MotherId": 702,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-03-20T11:10:52.3941878+01:00",
+  "UpdatedDate": "2001-12-22T02:49:50.5421596+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 137,
+  "ActiveLinks": 289,
   "Links": [
     {
-      "EntityName": "Erdman-Kuhn",
-      "Id": 59,
-      "Description": "Phased multi-tasking migration",
-      "ExtraInfo": "cumque",
-      "LinkId": 923,
+      "EntityName": "Howell, Nienow and Schuster",
+      "Id": 687,
+      "Description": "Adaptive 5th generation methodology",
+      "ExtraInfo": "qui",
+      "LinkId": 805,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldType": "System.String",
+          "FieldLength": 310
         }
       }
     }
   ],
-  "AlarmLeadTime": "magnam",
-  "HasAlarm": false,
-  "ColorIndex": 889,
+  "AlarmLeadTime": "harum",
+  "HasAlarm": true,
+  "ColorIndex": 129,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "cupiditate",
-  "LeadTime": "aut",
-  "Location": "necessitatibus",
-  "RejectCounter": 425,
+  "LagTime": "alias",
+  "LeadTime": "ab",
+  "Location": "ea",
+  "RejectCounter": 599,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 792,
-      "PersonId": 611,
-      "ContactId": 520,
-      "EmailId": 795,
+      "AssociateId": 319,
+      "PersonId": 104,
+      "ContactId": 697,
+      "EmailId": 920,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 792,
-      "PersonId": 611,
-      "ContactId": 520,
-      "EmailId": 795,
+      "AssociateId": 319,
+      "PersonId": 104,
+      "ContactId": 697,
+      "EmailId": 920,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -242,58 +254,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-07-28T11:10:52.3941878+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2006-06-15T02:49:50.5421596+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 369,
+  "PreferredTZLocation": 409,
   "Sale": null,
-  "SuggestedAppointmentId": 787,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 238,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "atque",
+  "CentralserviceVideomeetId": "enim",
   "UserDefinedFields": {
-    "SuperOffice:1": "1628699060",
-    "SuperOffice:2": "Dr. Rafael Garth Walker"
+    "SuperOffice:1": "Dr. Rubie Morar",
+    "SuperOffice:2": "Mr. Salvatore Dana Ankunding"
   },
   "ExtraFields": {
-    "ExtraFields1": "repellendus",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "animi",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2018-06-03T11:10:52.3951793+02:00",
-  "PublishTo": "2006-02-06T11:10:52.3951793+01:00",
-  "PublishFrom": "2013-07-11T11:10:52.3951793+02:00",
+  "PublishEventDate": "2008-07-24T02:49:50.5421596+02:00",
+  "PublishTo": "2013-12-18T02:49:50.5421596+01:00",
+  "PublishFrom": "2007-01-26T02:49:50.5421596+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 407,
+      "VisibleId": 996,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 556
+          "FieldType": "System.Int32",
+          "FieldLength": 692
         }
       }
     },
     {
-      "VisibleId": 407,
+      "VisibleId": 996,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 556
+          "FieldType": "System.Int32",
+          "FieldLength": 692
         }
       }
     }
@@ -302,8 +314,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 14
     }
   },
   "_Links": {

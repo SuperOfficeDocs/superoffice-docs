@@ -11,6 +11,13 @@ PUT /api/v1/List/QuoteApproveReason/Items
 
 Update the QuoteApproveReason list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the QuoteApproveReason list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated QuoteApproveReason.
+All the updated QuoteApproveReason. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated QuoteApproveReason.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -65,25 +73,25 @@ Response body: array
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Walsh, Rippin and Kassulke",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "UdListDefinitionId": 985,
-    "Rank": 953
+    "Id": 593,
+    "Name": "Bahringer Group",
+    "Tooltip": "natus",
+    "Deleted": false,
+    "UdListDefinitionId": 901,
+    "Rank": 473
   },
   {
-    "Id": 773,
-    "Name": "Walsh, Rippin and Kassulke",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "UdListDefinitionId": 985,
-    "Rank": 953
+    "Id": 593,
+    "Name": "Bahringer Group",
+    "Tooltip": "natus",
+    "Deleted": false,
+    "UdListDefinitionId": 901,
+    "Rank": 473
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Schultz Group",
-    "Tooltip": "blanditiis",
+    "Id": 725,
+    "Name": "Krajcik-Lesch",
+    "Tooltip": "beatae",
     "Deleted": false,
-    "UdListDefinitionId": 845,
-    "Rank": 961,
+    "UdListDefinitionId": 325,
+    "Rank": 995,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldLength": 9
       }
     }
   }

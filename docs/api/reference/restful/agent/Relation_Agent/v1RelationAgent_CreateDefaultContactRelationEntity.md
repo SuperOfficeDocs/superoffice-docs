@@ -11,7 +11,14 @@ POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 
 Set default values into a new ContactRelationEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +73,7 @@ Response body:
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 216,
-  "SourcePersonId": 408,
-  "DestinationContactId": 302,
-  "DestinationPersonId": 439,
-  "RelationId": 424,
-  "Comment": "rerum",
-  "RelationDefinitionId": 574,
-  "Reversed": 30,
-  "UpdatedDate": "2007-11-05T11:10:27.7404947+01:00",
-  "CreatedDate": "2010-09-12T11:10:27.7404947+02:00",
+  "SourceContactId": 308,
+  "SourcePersonId": 394,
+  "DestinationContactId": 552,
+  "DestinationPersonId": 441,
+  "RelationId": 961,
+  "Comment": "temporibus",
+  "RelationDefinitionId": 235,
+  "Reversed": 656,
+  "UpdatedDate": "2006-02-17T02:49:45.0622144+01:00",
+  "CreatedDate": "2010-05-26T02:49:45.0622144+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Rutherford, Langosh and Casper",
-  "SourcePersonName": "Nienow Group",
-  "DestinationContactName": "Hansen-Pacocha",
-  "DestinationPersonName": "Pfannerstill, Schmidt and Kub",
-  "ActiveText": "officia",
-  "PassiveText": "qui",
+  "SourceContactName": "Block Group",
+  "SourcePersonName": "Breitenberg, Wehner and Reilly",
+  "DestinationContactName": "Paucek Inc and Sons",
+  "DestinationPersonName": "Walsh LLC",
+  "ActiveText": "et",
+  "PassiveText": "optio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 592
     }
   }
 }

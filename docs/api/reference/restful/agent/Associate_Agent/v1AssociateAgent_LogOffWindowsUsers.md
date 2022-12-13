@@ -11,6 +11,12 @@ POST /api/v1/Agents/Associate/LogOffWindowsUsers
 
 Method that logs off associates that are logged on to the win client
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method that logs off associates that are logged on to the win client
 ```http
 POST /api/v1/Agents/Associate/LogOffWindowsUsers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,15 +38,16 @@ POST /api/v1/Agents/Associate/LogOffWindowsUsers?$select=name,department,categor
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIds
+AssociateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateIds | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -47,7 +55,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -55,13 +64,13 @@ Response body:
 POST /api/v1/Agents/Associate/LogOffWindowsUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    292,
-    408
+    456,
+    729
   ]
 }
 ```

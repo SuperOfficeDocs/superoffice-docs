@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetTempFile
 
 Get data stream for temporary file created with CreateTempFile.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get data stream for temporary file created with CreateTempFile.
 ```http
 POST /api/v1/Agents/Document/GetTempFile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Document/GetTempFile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Filename
+Filename 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Filename | string |  |
+
 
 ## Response: byte
 
@@ -53,17 +61,18 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "nihil"
+  "Filename": "dolorum"
 }
 ```
 

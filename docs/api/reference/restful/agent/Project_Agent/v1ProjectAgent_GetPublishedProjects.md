@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetPublishedProjects
 
 Get published projects by project ids.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published projects by project ids.
 ```http
 POST /api/v1/Agents/Project/GetPublishedProjects?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Project/GetPublishedProjects?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectIds
+ProjectIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectIds | array |  |
+
 
 ## Response: array
 
@@ -82,13 +90,13 @@ Response body: array
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    166,
-    255
+    211,
+    743
   ]
 }
 ```
@@ -101,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 809,
-    "Name": "Kerluke, Ortiz and Hessel",
-    "Description": "Horizontal incremental hardware",
+    "ProjectId": 753,
+    "Name": "Pagac-Collins",
+    "Description": "Distributed 5th generation knowledge user",
     "URL": "http://www.example.com/",
-    "Type": "labore",
-    "AssociateId": 294,
-    "AssociateFullName": "Lessie Thiel",
-    "TypeId": 40,
-    "Updated": "2015-03-18T11:10:27.6234528+01:00",
-    "StatusId": 587,
-    "Status": "fugiat",
-    "TextId": 64,
-    "PublishTo": "2019-10-28T11:10:27.6234528+01:00",
-    "PublishFrom": "2008-03-22T11:10:27.6234528+01:00",
-    "IsPublished": false,
+    "Type": "illo",
+    "AssociateId": 381,
+    "AssociateFullName": "Tony Weissnat",
+    "TypeId": 658,
+    "Updated": "2020-02-27T02:49:44.9684639+01:00",
+    "StatusId": 597,
+    "Status": "culpa",
+    "TextId": 138,
+    "PublishTo": "2016-05-31T02:49:44.9684639+02:00",
+    "PublishFrom": "2004-02-10T02:49:44.9684639+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1906152",
-    "ActiveErpLinks": 769,
+    "ProjectNumber": "43226",
+    "ActiveErpLinks": 941,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 874
       }
     }
   }

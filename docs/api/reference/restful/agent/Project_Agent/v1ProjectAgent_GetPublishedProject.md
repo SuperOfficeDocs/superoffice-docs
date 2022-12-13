@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetPublishedProject
 
 Get published project by project id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published project by project id.
 ```http
 POST /api/v1/Agents/Project/GetPublishedProject?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Project/GetPublishedProject?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,11 +90,11 @@ Response body:
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 55
+  "ProjectId": 93
 }
 ```
 
@@ -97,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 998,
-  "Name": "O'Reilly Inc and Sons",
-  "Description": "Programmable regional moderator",
+  "ProjectId": 149,
+  "Name": "Stehr LLC",
+  "Description": "Synergistic systemic support",
   "URL": "http://www.example.com/",
-  "Type": "nulla",
-  "AssociateId": 792,
-  "AssociateFullName": "Ms. Tavares Abshire",
-  "TypeId": 781,
-  "Updated": "2016-02-25T11:10:27.6224606+01:00",
-  "StatusId": 303,
-  "Status": "delectus",
-  "TextId": 144,
-  "PublishTo": "2019-12-18T11:10:27.6224606+01:00",
-  "PublishFrom": "1996-11-30T11:10:27.6224606+01:00",
+  "Type": "qui",
+  "AssociateId": 18,
+  "AssociateFullName": "Dr. Freddy Wilkinson",
+  "TypeId": 598,
+  "Updated": "2012-02-20T02:49:44.9684639+01:00",
+  "StatusId": 569,
+  "Status": "eos",
+  "TextId": 418,
+  "PublishTo": "2009-01-10T02:49:44.9684639+01:00",
+  "PublishFrom": "2021-02-20T02:49:44.9684639+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "788831",
-  "ActiveErpLinks": 838,
+  "ProjectNumber": "250047",
+  "ActiveErpLinks": 348,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldType": "System.String",
+      "FieldLength": 104
     }
   }
 }

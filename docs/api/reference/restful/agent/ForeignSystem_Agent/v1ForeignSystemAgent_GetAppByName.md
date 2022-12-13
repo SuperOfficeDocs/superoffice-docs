@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetAppByName
 
 Gets the ForeignApp with the given name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the ForeignApp with the given name.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetAppByName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/ForeignSystem/GetAppByName?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName
+ApplicationName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,11 +79,11 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wyman-Corkery"
+  "ApplicationName": "Kuhn Inc and Sons"
 }
 ```
 
@@ -86,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 148,
-  "Name": "Reilly-Lockman",
-  "CreatedDate": "2018-06-27T11:10:27.0744533+02:00",
-  "UpdatedDate": "2015-08-04T11:10:27.0744533+02:00",
+  "ForeignAppId": 892,
+  "Name": "Zieme Inc and Sons",
+  "CreatedDate": "2000-05-17T02:49:44.5454229+02:00",
+  "UpdatedDate": "2018-03-11T02:49:44.5454229+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 546,
-      "Name": "Schaefer, Marquardt and Bode",
-      "CreatedDate": "2007-04-20T11:10:27.0754524+02:00",
-      "UpdatedDate": "2001-03-23T11:10:27.0754524+01:00",
-      "AssociateFullName": "Dillon Beatty",
-      "CreatedBy": "aut",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "dolor",
-      "ForeignAppId": 435,
+      "ForeignDeviceId": 933,
+      "Name": "Beier LLC",
+      "CreatedDate": "2000-06-22T02:49:44.5454229+02:00",
+      "UpdatedDate": "1998-06-30T02:49:44.5454229+02:00",
+      "AssociateFullName": "Stanley Halvorson",
+      "CreatedBy": "similique",
+      "UpdatedBy": "amet",
+      "DeviceIdentifier": "nihil",
+      "ForeignAppId": 419,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldType": "System.String",
+          "FieldLength": 460
         }
       }
     }
@@ -117,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldType": "System.String",
+      "FieldLength": 564
     }
   }
 }

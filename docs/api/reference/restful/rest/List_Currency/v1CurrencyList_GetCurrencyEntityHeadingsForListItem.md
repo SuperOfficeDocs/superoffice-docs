@@ -11,11 +11,17 @@ GET /api/v1/List/Currency/Items/{itemId}/Headings
 
 Gets headings for the CurrencyEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Conn, Hansen and Vandervort",
-    "ToolTip": "Explicabo et consectetur minima quia voluptatem.",
-    "Deleted": false,
-    "Rank": 530,
-    "Type": "aut",
-    "ColorBlock": 915,
-    "IconHint": "facilis",
+    "Id": 99,
+    "Name": "Hoeger-Sawayn",
+    "ToolTip": "Commodi aspernatur eligendi expedita est saepe.",
+    "Deleted": true,
+    "Rank": 231,
+    "Type": "earum",
+    "ColorBlock": 237,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2021-04-20T11:10:54.2368955+02:00",
+    "LastChanged": "2018-03-26T02:49:52.2034402+02:00",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Wiegand LLC",
-        "ToolTip": "Amet nihil aut vel et consequatur ut.",
+        "Id": 596,
+        "Name": "Davis Group",
+        "ToolTip": "Cupiditate tempora velit nisi quos a placeat.",
         "Deleted": false,
-        "Rank": 539,
-        "Type": "numquam",
-        "ColorBlock": 357,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "2016-09-12T11:10:54.2368955+02:00",
+        "Rank": 88,
+        "Type": "dolores",
+        "ColorBlock": 628,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "1995-08-11T02:49:52.2034402+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "neque",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Heber Dibbert",
+        "FullName": "Felton Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 889
+            "FieldType": "System.String",
+            "FieldLength": 262
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "unde",
-    "Hidden": false,
-    "FullName": "Jennifer Friesen",
+    "ExtraInfo": "maxime",
+    "StyleHint": "suscipit",
+    "Hidden": true,
+    "FullName": "Imogene Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 854
+        "FieldLength": 277
       }
     }
   }

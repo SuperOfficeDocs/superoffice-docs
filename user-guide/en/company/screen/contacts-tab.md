@@ -21,7 +21,9 @@ The **Contacts** section tab contains the following columns:
 
 ### Information
 
-A paperclip icon (![icon][img3]) in this column means that information has been entered about that contact in **Note** tab in the contact card. Position the mouse pointer over the dot and the information is displayed in a tooltip.
+A paperclip icon (![icon][img3]) in this column means that the **Note** tab in the contact card contains information.
+
+Position the mouse pointer over the dot and the information is displayed as a tooltip.
 
 ### Interests
 
@@ -36,11 +38,11 @@ Shows how the contact should be addressed.
 Displays the contact's name, title and mobile phone number.
 
 > [!NOTE]
-> Use of middle names is a preference which can be enabled in SuperOffice Settings and maintenance. If the preference is enabled, the middle name is taken to be the first part of the last name (but is not sorted on). If the preference is not enabled, you may enter a middle name in the **First name** field, and the middle name will then be considered as a second first name.
+> Use of middle names can be enabled in SuperOffice Settings and maintenance. If the preference is enabled, the first part of the last name is used as the middle name (but is not sorted on). If the preference is not enabled, you may enter a middle name in the **First name** field, and the middle name will then be considered as a second first name.
 
 ### Email
 
-Displays the contact's email address. Click on the email address to [send a message to this person][7]. This opens the message in the email program you have specified.
+Displays the contact's email address. Click the email address to [send a message to this person][7]. This opens the message in the email program you specified.
 
 ### Former employees
 

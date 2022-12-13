@@ -17,15 +17,15 @@ You can select an image to be displayed in SuperOffice CRM on a company card, co
 
 ## Is it a requirement to have an image?
 
-No, you do not need to have an image for a status. If you just want to create reports or use status monitors to search for and create selections of companies, contacts or projects that fulfil the status criteria, you do not need to assign an image to the statuses.
+No. If you just want to create reports or use status monitors to search for and create selections of companies, contacts or projects that fulfil the status criteria, you do not need to assign an image to the statuses.
 
 ## What sort of images can I use?
 
-The image you choose should represent pictorially the status it stands for. The status image for a project that has been inactive for a long time might, for example, be a spider's web.
+The image you choose should represent pictorially the status it stands for. The status image for a project that has been inactive for a long time could, for example, be a spider's web.
 
 [!include[File type and size](../../includes/image-type-and-size.md)]
 
-The images are used as watermarks for the company card, contact card or project card in SuperOffice CRM. The transparency is 40%, so that the image does not obscure the text. You should nonetheless use images with relatively light colours.
+The images are used as watermarks for the company card, contact card or project card in SuperOffice CRM. The transparency is 40%, so that the image does not obscure the text. You should nonetheless use images with relatively light colors.
 
 ## To select an image for the status
 
@@ -33,13 +33,15 @@ The images are used as watermarks for the company card, contact card or project 
 
 1. Select the required status in the status list on the left of the screen.
 
-1. Check **Visualise** (on the right side of the screen) to display the status image for companies, contacts or projects that fulfil the status criteria for this status. If **Visualise** is unchecked, status images will not be displayed in SuperOffice CRM for this status. This may be relevant if you only want to use a status to [search in SuperOffice CRM](#using-statuses-for-search).
+1. Check **Visualize** (on the right side of the screen) to display the status image for companies, contacts or projects that fulfil the status criteria for this status. If **Visualize** is unchecked, status images will not be displayed in SuperOffice CRM for this status. This may be relevant if you only want to use a status to [search in SuperOffice CRM](#using-statuses-for-search).
 
 1. Click the **Change image** button.
 
 1. Select image. Do one of the following:
 
-    * Click one of the images shown under **Images** (images are only displayed here if they have been added to the database). The image is displayed in the field on the right.
+    * Click one of the images shown under **Images** (on the right).
+
+        Images are displayed only if they are added to the database.
 
     * Click **Add**, click **Upload** file, browse to the image you require and click **Open**. Enter a description of the image. Click **Save**.
 
@@ -51,7 +53,7 @@ The images are used as watermarks for the company card, contact card or project 
 
 In SuperOffice CRM you have the option of searching for companies, contacts or projects using statuses that you define in Settings and maintenance. For example, you can search for companies with a specific status and add them to a selection.
 
-If you only want to use statuses for searching, you can uncheck **Visualise**, so that the status image is not shown on the company card, contact card or project card.
+If you only want to use statuses for searching, you can uncheck **Visualize**, so that the status image is not shown on the company card, contact card or project card.
 
 ## What would you like to do now?
 

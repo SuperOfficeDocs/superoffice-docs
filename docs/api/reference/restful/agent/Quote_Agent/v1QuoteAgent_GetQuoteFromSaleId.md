@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 
 Get a Quote for a sale
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a Quote for a sale
 ```http
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/GetQuoteFromSaleId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId
+SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,11 +86,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 630
+  "SaleId": 380
 }
 ```
 
@@ -93,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 11,
-  "SaleId": 273,
-  "QuoteConnectionId": 587,
-  "ERPQuoteKey": "id",
-  "ERPOrderKey": "tempora",
-  "ActiveQuoteVersionId": 252,
-  "AcceptedQuoteAlternativeId": 393,
-  "UseValuesFromQuote": 631,
-  "DocumentId": 71,
-  "PoNumber": "780451",
-  "OrderComment": "nostrum",
-  "PreferredEmailCulture": "layla@dubuqueschulist.us",
+  "QuoteId": 976,
+  "SaleId": 349,
+  "QuoteConnectionId": 438,
+  "ERPQuoteKey": "corrupti",
+  "ERPOrderKey": "id",
+  "ActiveQuoteVersionId": 524,
+  "AcceptedQuoteAlternativeId": 989,
+  "UseValuesFromQuote": 254,
+  "DocumentId": 228,
+  "PoNumber": "1138276",
+  "OrderComment": "aut",
+  "PreferredEmailCulture": "erich_haag@huels.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -112,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldLength": 273
     }
   }
 }

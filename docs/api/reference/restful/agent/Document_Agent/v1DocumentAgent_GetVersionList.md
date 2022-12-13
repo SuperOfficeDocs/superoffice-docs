@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetVersionList
 
 Get a list of existing, committed  versions for a given document
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list of existing, committed  versions for a given document
 ```http
 POST /api/v1/Agents/Document/GetVersionList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Document/GetVersionList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
+
 
 ## Response: array
 
@@ -71,11 +79,11 @@ Response body: array
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 61
+  "DocumentId": 474
 }
 ```
 
@@ -87,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "velit",
-    "DocumentId": 942,
-    "VersionId": "possimus",
-    "CheckedInDate": "2021-06-18T11:10:26.6044237+02:00",
-    "CheckedInByName": "Sporer, Stoltenberg and Krajcik",
-    "CheckedInByAssociateId": 59,
-    "Description": "Re-engineered composite adapter",
-    "DisplayText": "enim",
+    "ExternalReference": "minima",
+    "DocumentId": 794,
+    "VersionId": "et",
+    "CheckedInDate": "2006-12-02T02:49:44.1847858+01:00",
+    "CheckedInByName": "Bauch-Towne",
+    "CheckedInByAssociateId": 140,
+    "Description": "Devolved 24 hour adapter",
+    "DisplayText": "ullam",
     "ExtraFields": [
-      "omnis",
-      "qui"
+      "asperiores",
+      "fuga"
     ]
   }
 ]

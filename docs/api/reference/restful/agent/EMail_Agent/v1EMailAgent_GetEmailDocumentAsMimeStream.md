@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEmailDocumentAsMimeStream
 
 Gets a particular document, and tries to parse it, and returns it in MIME/RFC822 format.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Gets a particular document, and tries to parse it, and returns it in MIME/RFC822
 ```http
 POST /api/v1/Agents/EMail/GetEmailDocumentAsMimeStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/EMail/GetEmailDocumentAsMimeStream?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
+
 
 ## Response: byte
 
@@ -55,17 +65,18 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEmailDocumentAsMimeStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 570
+  "DocumentId": 481
 }
 ```
 

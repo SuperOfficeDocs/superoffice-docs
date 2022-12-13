@@ -11,10 +11,17 @@ PUT /api/v1/List/{udListDefinitionId}/Items/{id}
 
 Save a list item for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The identity of the list item to load **Required** |
 | udListDefinitionId | int32 | The id of the list definition, indicating which list to save the item to. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Save a list item for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: item
+## Request Body: item  
 
-The item to save
+The item to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +50,8 @@ The item to save
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,16 +79,16 @@ Response body:
 PUT /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Bogisich-Shields",
-  "Tooltip": "facere",
+  "Id": 613,
+  "Name": "Bauch, Shields and Breitenberg",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "UdListDefinitionId": 691,
-  "Rank": 441
+  "UdListDefinitionId": 225,
+  "Rank": 579
 }
 ```
 
@@ -91,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 848,
-  "Name": "Jerde-Kerluke",
-  "Tooltip": "quae",
+  "Id": 485,
+  "Name": "Larson, Nader and Sporer",
+  "Tooltip": "quo",
   "Deleted": false,
-  "UdListDefinitionId": 424,
-  "Rank": 625,
+  "UdListDefinitionId": 307,
+  "Rank": 576,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldLength": 671
     }
   }
 }

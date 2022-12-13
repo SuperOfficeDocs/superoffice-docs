@@ -11,10 +11,17 @@ PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 
 Saves the headings for the list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to update. **Required** |
 | listItemId | int32 | The identity of the list item **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Saves the headings for the list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: headings
+## Request Body: headings  
 
-The headings to save.
+The headings to save. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,6 +58,7 @@ The headings to save.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -88,47 +96,47 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Adams, Sauer and Purdy",
-    "ToolTip": "Voluptatem consequuntur ut id ut quia voluptatibus.",
-    "Deleted": false,
-    "Rank": 678,
-    "Type": "quis",
-    "ColorBlock": 18,
-    "IconHint": "expedita",
+    "Id": 632,
+    "Name": "Wunsch Group",
+    "ToolTip": "Ea magnam rem.",
+    "Deleted": true,
+    "Rank": 619,
+    "Type": "adipisci",
+    "ColorBlock": 235,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2007-10-25T11:10:53.9012174+02:00",
+    "LastChanged": "2000-02-23T02:49:51.8753193+01:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Mann-Krajcik",
-        "ToolTip": "Repudiandae quia harum est.",
+        "Id": 282,
+        "Name": "Yundt Group",
+        "ToolTip": "Sint officia temporibus aut libero dolore et id.",
         "Deleted": false,
-        "Rank": 993,
-        "Type": "laudantium",
-        "ColorBlock": 736,
-        "IconHint": "incidunt",
+        "Rank": 909,
+        "Type": "non",
+        "ColorBlock": 737,
+        "IconHint": "magnam",
         "Selected": true,
-        "LastChanged": "2013-12-20T11:10:53.9012174+01:00",
+        "LastChanged": "2017-05-07T02:49:51.8753193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "sed",
+        "ExtraInfo": "esse",
+        "StyleHint": "at",
         "Hidden": false,
-        "FullName": "Dr. Demetrius Alphonso Orn"
+        "FullName": "Reanna Aufderhar"
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "explicabo",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "eligendi",
     "Hidden": true,
-    "FullName": "Hank Kassulke"
+    "FullName": "Mr. Maxie Zackary Altenwerth"
   }
 ]
 ```
@@ -141,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Leannon Inc and Sons",
-    "ToolTip": "Autem architecto ut sed sapiente quam nesciunt.",
+    "Id": 208,
+    "Name": "Schmidt, Bernhard and Kessler",
+    "ToolTip": "Labore vitae.",
     "Deleted": false,
-    "Rank": 989,
-    "Type": "voluptas",
-    "ColorBlock": 756,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2012-09-12T11:10:53.903186+02:00",
+    "Rank": 228,
+    "Type": "libero",
+    "ColorBlock": 590,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2003-04-17T02:49:51.8753193+02:00",
     "ChildItems": [
       {
-        "Id": 55,
-        "Name": "Rath Inc and Sons",
-        "ToolTip": "Eum modi deserunt nostrum eos facilis sit.",
+        "Id": 143,
+        "Name": "Lowe, Nader and Moore",
+        "ToolTip": "Quam sunt enim sequi ex iste.",
         "Deleted": false,
-        "Rank": 926,
-        "Type": "id",
-        "ColorBlock": 847,
-        "IconHint": "reprehenderit",
-        "Selected": true,
-        "LastChanged": "2018-05-15T11:10:53.903186+02:00",
+        "Rank": 496,
+        "Type": "pariatur",
+        "ColorBlock": 482,
+        "IconHint": "harum",
+        "Selected": false,
+        "LastChanged": "2016-04-22T02:49:51.8753193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "harum",
+        "ExtraInfo": "repellat",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Alden Kohler",
+        "FullName": "Mrs. Heath Jarret Douglas PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 891
+            "FieldLength": 113
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "rem",
+    "ExtraInfo": "velit",
+    "StyleHint": "dignissimos",
     "Hidden": true,
-    "FullName": "Prof. Javon Gwendolyn Langworth Sr.",
+    "FullName": "Marquise Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldType": "System.String",
+        "FieldLength": 75
       }
     }
   }

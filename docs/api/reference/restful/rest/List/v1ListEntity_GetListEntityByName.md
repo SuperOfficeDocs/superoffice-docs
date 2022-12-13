@@ -11,9 +11,16 @@ GET /api/v1/List/{name}
 
 Gets a ListEntity resolved by the provided name.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | The name of the list to look up. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Gets a ListEntity resolved by the provided name.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 264,
-  "Name": "Kohler, Welch and Gislason",
-  "Tooltip": "ea",
+  "Id": 631,
+  "Name": "Legros-Bartell",
+  "Tooltip": "odit",
   "Deleted": true,
-  "Rank": 211,
-  "IsCustomList": true,
+  "Rank": 819,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "ListType": "numquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 759
     }
   }
 }

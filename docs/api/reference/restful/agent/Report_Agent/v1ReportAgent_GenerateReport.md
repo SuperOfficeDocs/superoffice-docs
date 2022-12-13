@@ -11,6 +11,12 @@ POST /api/v1/Agents/Report/GenerateReport
 
 Generates the report in PDF format
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Generates the report in PDF format
 ```http
 POST /api/v1/Agents/Report/GenerateReport?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Report/GenerateReport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ReportId, LabelLayoutId, Filename, Language, FileType, Restrictions
+ReportId, LabelLayoutId, Filename, Language, FileType, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,6 +54,7 @@ ReportId, LabelLayoutId, Filename, Language, FileType, Restrictions
 | Language | string |  |
 | FileType | string |  |
 | Restrictions | array |  |
+
 
 ## Response: string
 
@@ -58,6 +66,7 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
@@ -68,32 +77,32 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 886,
-  "LabelLayoutId": 327,
-  "Filename": "et",
-  "Language": "omnis",
-  "FileType": "velit",
+  "ReportId": 559,
+  "LabelLayoutId": 395,
+  "Filename": "reprehenderit",
+  "Language": "delectus",
+  "FileType": "repellendus",
   "Restrictions": [
     {
-      "Name": "Hilpert Inc and Sons",
-      "Operator": "cumque",
+      "Name": "Jenkins Group",
+      "Operator": "reiciendis",
       "Values": [
-        "culpa",
-        "libero"
+        "expedita",
+        "eaque"
       ],
       "DisplayValues": [
-        "maiores",
-        "rerum"
+        "autem",
+        "ad"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 537,
+      "InterParenthesis": 964,
       "InterOperator": "And",
-      "UniqueHash": 828
+      "UniqueHash": 284
     }
   ]
 }
@@ -105,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sequi"
+"voluptate"
 ```

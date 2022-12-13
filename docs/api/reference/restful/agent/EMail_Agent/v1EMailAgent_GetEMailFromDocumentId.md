@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentId
 
 Get an e-mail based on an archived document
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get an e-mail based on an archived document
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromDocumentId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentId?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,7 +106,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 446
+  "DocumentId": 670
 }
 ```
 
@@ -109,146 +119,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 976,
-      "ContactName": "Predovic-Kohler",
-      "PersonId": 701,
-      "PersonName": "Little Inc and Sons",
-      "AssociateId": 302,
-      "Address": "quia",
-      "EmailId": 843,
+      "ContactId": 586,
+      "ContactName": "Gusikowski Inc and Sons",
+      "PersonId": 354,
+      "PersonName": "Cremin-McClure",
+      "AssociateId": 624,
+      "Address": "similique",
+      "EmailId": 639,
       "DuplicatePersonIds": [
-        647,
-        645
+        986,
+        332
       ],
-      "Name": "McKenzie, Fadel and Marks",
+      "Name": "Quitzon-Brown",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 144
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 622,
-      "ContactName": "Kessler Group",
-      "PersonId": 557,
-      "PersonName": "Larson, Effertz and Keeling",
-      "AssociateId": 355,
-      "Address": "quidem",
-      "EmailId": 158,
+      "ContactId": 137,
+      "ContactName": "Kunde Inc and Sons",
+      "PersonId": 287,
+      "PersonName": "Upton LLC",
+      "AssociateId": 401,
+      "Address": "architecto",
+      "EmailId": 70,
       "DuplicatePersonIds": [
-        845,
-        236
+        399,
+        883
       ],
-      "Name": "Hansen-Schumm",
+      "Name": "Waelchi Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 291
+          "FieldLength": 177
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 129,
-      "ContactName": "Jakubowski-Crist",
-      "PersonId": 930,
-      "PersonName": "McLaughlin, Bartell and D'Amore",
-      "AssociateId": 935,
-      "Address": "molestiae",
-      "EmailId": 380,
+      "ContactId": 216,
+      "ContactName": "Rogahn Inc and Sons",
+      "PersonId": 21,
+      "PersonName": "Ankunding Group",
+      "AssociateId": 626,
+      "Address": "non",
+      "EmailId": 386,
       "DuplicatePersonIds": [
-        372,
-        168
+        117,
+        16
       ],
-      "Name": "Lueilwitz-Pacocha",
+      "Name": "Eichmann LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 970
+          "FieldType": "System.String",
+          "FieldLength": 667
         }
       }
     }
   ],
-  "Subject": "ut",
-  "HTMLBody": "quidem",
+  "Subject": "sed",
+  "HTMLBody": "voluptatibus",
   "From": null,
-  "Sent": "2012-03-03T11:10:26.9404251+01:00",
-  "Size": 441,
+  "Sent": "2002-07-31T02:49:44.4504155+02:00",
+  "Size": 752,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptas",
-  "PlainBody": "et",
-  "IsSent": true,
+  "MessageID": "corporis",
+  "PlainBody": "recusandae",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 891,
+  "ServerId": 589,
   "Attachments": [
     {
-      "Description": "Phased next generation functionalities",
-      "Filename": "officia",
-      "Size": 243,
-      "Type": "optio",
-      "Encoding": "dolor",
-      "Id": "voluptatem",
-      "Disposition": "recusandae",
+      "Description": "Object-based static matrices",
+      "Filename": "harum",
+      "Size": 169,
+      "Type": "tenetur",
+      "Encoding": "qui",
+      "Id": "rerum",
+      "Disposition": "nam",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldType": "System.String",
+          "FieldLength": 119
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Von Inc and Sons",
+      "Name": "Bechtelar Group",
       "Values": [
-        "ea",
-        "voluptatem"
+        "et",
+        "veniam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 947
+          "FieldType": "System.Int32",
+          "FieldLength": 403
         }
       }
     },
     {
-      "Name": "Von Inc and Sons",
+      "Name": "Bechtelar Group",
       "Values": [
-        "ea",
-        "voluptatem"
+        "et",
+        "veniam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 947
+          "FieldType": "System.Int32",
+          "FieldLength": 403
         }
       }
     }
   ],
-  "FolderName": "Conroy Inc and Sons",
-  "EmailItemId": 819,
-  "AccountId": 524,
-  "ReceivedAt": "2001-05-26T11:10:26.9404251+02:00",
+  "FolderName": "Rodriguez, Douglas and Murphy",
+  "EmailItemId": 527,
+  "AccountId": 610,
+  "ReceivedAt": "2008-08-13T02:49:44.4504155+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-08-03T11:10:26.9404251+02:00",
+  "RepliedAt": "2017-06-04T02:49:44.4504155+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -257,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldLength": 937
     }
   }
 }

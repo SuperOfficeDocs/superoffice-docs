@@ -13,6 +13,8 @@ items:
   href: reference/AmountClass.md
 - name: Appointment
   href: reference/appointment.md
+- name: AppointmentCategory
+  href: reference/appointmentcategory.md
 - name: Appointmentcautionwarning
   href: reference/appointmentcautionwarning.md
 - name: Appointmentcompleted
@@ -139,6 +141,8 @@ items:
   href: reference/DocTmpl.md
 - name: Document
   href: reference/document.md
+- name: Documentcategory
+  href: reference/documentcategory.md
 - name: Documentcompleted
   href: reference/documentcompleted.md
 - name: Documentfavourite
@@ -557,6 +561,8 @@ items:
   href: reference/sale_freetextsearch.md
 - name: Sale_new
   href: reference/sale_new.md
+- name: Salecategory
+  href: reference/salecategory.md
 - name: Saledone
   href: reference/saledone.md
 - name: Salefavourite
@@ -641,6 +647,10 @@ items:
   href: reference/systemeventtype.md
 - name: Tags
   href: reference/Tags.md
+- name: Targetentitytype
+  href: reference/targetentitytype.md
+- name: Targetmeasurementunit
+  href: reference/targetmeasurementunit.md
 - name: Targettypes
   href: reference/targettypes.md
 - name: Targetyear
@@ -673,6 +683,8 @@ items:
   href: reference/ticketstatuswithpostpone.md
 - name: Ticketticketstatus
   href: reference/ticketticketstatus.md
+- name: Ticket_freetextsearch
+  href: reference/ticket_freetextsearch.md
 - name: Time
   href: reference/time.md
 - name: Timezone

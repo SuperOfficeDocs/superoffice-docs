@@ -11,6 +11,12 @@ GET /api/v1/List/ProductType/MDOItems
 
 Get the MDO list items for "ProductType" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=necessitatibus
+GET /api/v1/List/ProductType/MDOItems?flat=True
+GET /api/v1/List/ProductType/MDOItems?query=nihil
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/ProductType/MDOItems?query=necessitatibus
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 953,
-    "Name": "Mills Inc and Sons",
-    "ToolTip": "Saepe dicta dolor qui.",
-    "Deleted": false,
-    "Rank": 992,
-    "Type": "molestiae",
+    "Id": 215,
+    "Name": "Daugherty Inc and Sons",
+    "ToolTip": "Aut eos.",
+    "Deleted": true,
+    "Rank": 712,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 118,
-        "Name": "Boehm Group",
-        "ToolTip": "Cupiditate autem omnis harum eos quia consequatur.",
-        "Deleted": true,
-        "Rank": 804,
-        "Type": "tenetur",
+        "Id": 51,
+        "Name": "Stehr LLC",
+        "ToolTip": "Voluptas nobis eum iste.",
+        "Deleted": false,
+        "Rank": 890,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ad",
-        "ColorBlock": 634,
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "inventore",
-        "FullName": "Maximilian Lakin",
+        "IconHint": "quo",
+        "ColorBlock": 834,
+        "ExtraInfo": "assumenda",
+        "StyleHint": "fugit",
+        "FullName": "Prof. Amina Neva Cartwright",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 854
+            "FieldLength": 478
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 134,
-    "ExtraInfo": "amet",
-    "StyleHint": "inventore",
-    "FullName": "Miss Jamaal Porter Rippin",
+    "IconHint": "fuga",
+    "ColorBlock": 892,
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "illo",
+    "FullName": "Miss Adolf Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldLength": 402
       }
     }
   }

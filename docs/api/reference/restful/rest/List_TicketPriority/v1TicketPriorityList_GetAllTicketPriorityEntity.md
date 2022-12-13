@@ -11,7 +11,13 @@ GET /api/v1/List/TicketPriority/Items
 
 Gets a list of all TicketPriorityEntity list items.
 
+
 Calls the List agent service GetAllTicketPriorityEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,8 +26,9 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=True
+GET /api/v1/List/TicketPriority/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -85,7 +93,7 @@ Response body: array
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,60 +104,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 943,
-    "Name": "Feil, Schuppe and Hudson",
+    "TicketPriorityId": 265,
+    "Name": "Thompson, O'Conner and Champlin",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 558,
+    "SortOrder": 240,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 6,
-    "MonStart": "2014-09-14T11:10:54.6829307+02:00",
-    "MonStop": "1997-04-21T11:10:54.6829307+02:00",
-    "TueStart": "2004-04-16T11:10:54.6829307+02:00",
-    "TueStop": "2012-06-02T11:10:54.6829307+02:00",
-    "WedStart": "2016-01-18T11:10:54.6829307+01:00",
-    "WedStop": "2001-06-19T11:10:54.6829307+02:00",
-    "ThuStart": "2014-02-26T11:10:54.6829307+01:00",
-    "ThuStop": "1995-08-14T11:10:54.6829307+02:00",
-    "FriStart": "2015-05-04T11:10:54.6829307+02:00",
-    "FriStop": "2018-01-22T11:10:54.6829307+01:00",
-    "SatStart": "2020-01-30T11:10:54.6829307+01:00",
-    "SatStop": "2010-08-11T11:10:54.6829307+02:00",
-    "SunStart": "2020-11-29T11:10:54.6829307+01:00",
-    "SunStop": "1996-12-09T11:10:54.6829307+01:00",
+    "Deadline": 628,
+    "MonStart": "2006-06-22T02:49:52.5784525+02:00",
+    "MonStop": "2018-10-17T02:49:52.5784525+02:00",
+    "TueStart": "2002-07-17T02:49:52.5784525+02:00",
+    "TueStop": "2001-04-22T02:49:52.5784525+02:00",
+    "WedStart": "2020-07-21T02:49:52.5784525+02:00",
+    "WedStop": "2002-11-26T02:49:52.5784525+01:00",
+    "ThuStart": "2011-04-02T02:49:52.5784525+02:00",
+    "ThuStop": "2017-03-18T02:49:52.5784525+01:00",
+    "FriStart": "2001-12-20T02:49:52.5784525+01:00",
+    "FriStop": "2010-04-17T02:49:52.5784525+02:00",
+    "SatStart": "2020-09-28T02:49:52.5784525+02:00",
+    "SatStop": "2006-06-15T02:49:52.5784525+02:00",
+    "SunStart": "2019-08-05T02:49:52.5784525+02:00",
+    "SunStop": "2010-02-23T02:49:52.5784525+01:00",
     "NonDates": [
-      "quasi",
-      "mollitia"
+      "nulla",
+      "magnam"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 688,
-        "AlertLevel": 732,
-        "AlertTimeout": 960,
-        "Action": 280,
-        "DelegateTo": 739,
-        "ScriptId": 608,
-        "EmailTo": "bret@shields.com",
-        "SmsTo": "delectus",
-        "ReplyTemplateIdCustomer": 720,
-        "ReplyTemplateIdUser": 506,
-        "ReplyTemplateIdCatmast": 219,
-        "ReplyTemplateIdEmail": 957,
-        "RtiCustomerSms": 896,
-        "ReplyTemplateIdUserSms": 815,
-        "ReplyTemplateIdCatmastSms": 565,
-        "ReplyTemplateIdSms": 188,
+        "TicketAlertId": 871,
+        "AlertLevel": 891,
+        "AlertTimeout": 56,
+        "Action": 544,
+        "DelegateTo": 805,
+        "ScriptId": 308,
+        "EmailTo": "kamille_bergstrom@schinner.name",
+        "SmsTo": "iusto",
+        "ReplyTemplateIdCustomer": 766,
+        "ReplyTemplateIdUser": 234,
+        "ReplyTemplateIdCatmast": 203,
+        "ReplyTemplateIdEmail": 775,
+        "RtiCustomerSms": 641,
+        "ReplyTemplateIdUserSms": 71,
+        "ReplyTemplateIdCatmastSms": 839,
+        "ReplyTemplateIdSms": 518,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 717
+            "FieldLength": 916
           }
         }
       }
@@ -158,8 +166,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldType": "System.Int32",
+        "FieldLength": 102
       }
     }
   }

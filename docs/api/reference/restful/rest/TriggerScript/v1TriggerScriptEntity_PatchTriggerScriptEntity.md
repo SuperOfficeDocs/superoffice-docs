@@ -11,9 +11,11 @@ PATCH /api/v1/TriggerScript/{id}
 
 Update a TriggerScriptEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Update the Department field to "foo" can be done either as a JSON PATCH
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -29,14 +31,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.ICRMScriptAgent} service SaveTriggerScriptEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The TriggerScriptEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -47,6 +58,7 @@ Calls the {SuperOffice.CRM.Services.ICRMScriptAgent} service SaveTriggerScriptEn
 ```http
 PATCH /api/v1/TriggerScript/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -62,9 +74,9 @@ PATCH /api/v1/TriggerScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +84,8 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response
+
+## Response: 
 
 TriggerScriptEntity  updated.
 
@@ -83,7 +96,7 @@ TriggerScriptEntity  updated.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because TriggerScriptEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,7 +105,7 @@ Response body:
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -113,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "eveniet",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eveniet",
+    "path": "non",
     "value": {}
   }
 ]
@@ -131,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 656,
-  "Name": "Witting Group",
+  "ScreenChooserId": 544,
+  "Name": "Schneider, Hintz and Berge",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "illo",
-  "Source": "aut",
-  "Registered": "2020-08-28T11:10:53.6682171+02:00",
-  "RegisteredAssociateId": 495,
-  "Updated": "2017-04-09T11:10:53.6682171+02:00",
-  "UpdatedAssociateId": 360,
+  "UniqueIdentifier": "qui",
+  "Source": "repellat",
+  "Registered": "2019-02-02T02:49:51.6710218+01:00",
+  "RegisteredAssociateId": 267,
+  "Updated": "2019-09-28T02:49:51.6710218+02:00",
+  "UpdatedAssociateId": 339,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 27
     }
   },
   "_Links": {

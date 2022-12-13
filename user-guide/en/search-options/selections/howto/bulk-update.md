@@ -15,9 +15,9 @@ The **Bulk update** task allows you to change specific values across multiple re
 
 [!include[Start](../includes/steps-start-task.md)]
 
-1. If you want to update specific records, select them in the list.
+1. To update specific records, select them in the list.
 
-1. Click the **Task** button and select **Bulk update**. The **Bulk update** dialog opens.
+1. Click the **Task** button and select **Bulk update**.
 
 1. Follow the steps for [Bulk update][2].
 

@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 
 Method that returns a specified number of appointments matching a set of appointment task types within a time range.
 
+
 The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the projects where the person specified is member. Ta
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count, TaskIds
+PersonId, StartTime, EndTime, Count, TaskIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ PersonId, StartTime, EndTime, Count, TaskIds
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskIds | array |  |
+
 
 ## Response: array
 
@@ -119,17 +127,17 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 285,
-  "StartTime": "2020-09-07T11:10:25.4305217+02:00",
-  "EndTime": "1996-03-02T11:10:25.4305217+01:00",
-  "Count": 992,
+  "PersonId": 550,
+  "StartTime": "2010-03-31T02:49:43.2304992+02:00",
+  "EndTime": "1996-05-08T02:49:43.2304992+02:00",
+  "Count": 178,
   "TaskIds": [
-    292,
-    641
+    804,
+    195
   ]
 }
 ```
@@ -142,53 +150,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 900,
-    "StartDate": "2009-10-22T11:10:25.4325224+02:00",
-    "EndDate": "2006-10-01T11:10:25.4325224+02:00",
+    "AppointmentId": 210,
+    "StartDate": "2003-11-13T02:49:43.2304992+01:00",
+    "EndDate": "2003-08-04T02:49:43.2304992+02:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Deshawn Kiehn",
-    "ContactName": "Swaniawski-Rohan",
-    "Description": "User-centric bottom-line encryption",
-    "PersonFullName": "Cordelia Pfeffer",
-    "PersonId": 88,
-    "ContactId": 960,
-    "ProjectId": 350,
-    "ProjectName": "Herzog Group",
+    "Task": "eius",
+    "AssociateFullName": "Blaze Moen",
+    "ContactName": "Buckridge, Wolf and Larson",
+    "Description": "Balanced leading edge open architecture",
+    "PersonFullName": "Audrey Deckow",
+    "PersonId": 135,
+    "ContactId": 442,
+    "ProjectId": 870,
+    "ProjectName": "Nicolas-Jacobi",
     "IsPublished": false,
-    "AssociateId": 863,
-    "ColorIndex": 479,
+    "AssociateId": 430,
+    "ColorIndex": 659,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 446,
-    "PriorityName": "Gislason Inc and Sons",
+    "PriorityId": 693,
+    "PriorityName": "Breitenberg-Leannon",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2013-10-19T11:10:25.4325224+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2006-12-31T02:49:43.2304992+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-06-27T11:10:25.4335222+02:00",
-    "RecurringEndDate": "2004-06-24T11:10:25.4335222+02:00",
-    "MotherId": 26,
-    "AssignedBy": 886,
-    "AssignedByFullName": "Christina Prohaska",
+    "RecurringStartDate": "2015-08-06T02:49:43.2304992+02:00",
+    "RecurringEndDate": "2012-10-22T02:49:43.2304992+02:00",
+    "MotherId": 382,
+    "AssignedBy": 930,
+    "AssignedByFullName": "Ulices Ullrich",
     "RejectReason": "",
-    "Location": "voluptatem",
-    "AlarmLeadTime": "est",
-    "SaleId": 202,
-    "SaleName": "Purdy, Hintz and Brakus",
-    "AssociateName": "Schuppe Inc and Sons",
-    "CreatedDate": "2019-10-15T11:10:25.4335222+02:00",
-    "CreatedBy": "repellendus",
-    "CreatedByFullName": "Alec Hegmann",
-    "CreatedByAssociateId": 389,
+    "Location": "laudantium",
+    "AlarmLeadTime": "pariatur",
+    "SaleId": 951,
+    "SaleName": "Bins, Jewess and O'Keefe",
+    "AssociateName": "Schultz Group",
+    "CreatedDate": "1999-01-15T02:49:43.2304992+01:00",
+    "CreatedBy": "nostrum",
+    "CreatedByFullName": "Lucinda Ferry",
+    "CreatedByAssociateId": 347,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -196,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldLength": 950
       }
     }
   }

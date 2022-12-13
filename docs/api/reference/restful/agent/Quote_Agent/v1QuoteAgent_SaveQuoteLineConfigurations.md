@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 
 Save a collection of QuoteLineConfigurations.
 
+
 It is not possible to add a new configurations.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It is not possible to add a new configurations.
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLineConfigurations
+QuoteLineConfigurations 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLineConfigurations | array |  |
+
 
 ## Response: array
 
@@ -75,20 +83,20 @@ Response body: array
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 137,
-      "FieldName": "Considine LLC",
-      "Label": "incidunt",
-      "Tooltip": "autem",
-      "Editable": true,
+      "QuoteLineConfigurationId": 752,
+      "FieldName": "Haag, Lowe and Friesen",
+      "Label": "nihil",
+      "Tooltip": "quia",
+      "Editable": false,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 658,
+      "Rank": 353,
       "RestrictEdit": true
     }
   ]
@@ -103,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 831,
-    "FieldName": "Goyette Inc and Sons",
-    "Label": "recusandae",
-    "Tooltip": "totam",
+    "QuoteLineConfigurationId": 64,
+    "FieldName": "Zieme-Hilpert",
+    "Label": "delectus",
+    "Tooltip": "nihil",
     "Editable": false,
     "InUse": true,
-    "Mandatory": false,
-    "Rank": 771,
-    "RestrictEdit": true,
+    "Mandatory": true,
+    "Rank": 184,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 124
       }
     }
   }

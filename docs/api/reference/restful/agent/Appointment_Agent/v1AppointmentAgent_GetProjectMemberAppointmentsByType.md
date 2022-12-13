@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 
 Method that returns a specified number of appointments of a specific appointment type within a time range.
 
+
 The appointments belong to the projects where the person specified is member.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the projects where the person specified is member.
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count, AppointmentType
+PersonId, StartTime, EndTime, Count, AppointmentType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ PersonId, StartTime, EndTime, Count, AppointmentType
 | EndTime | date-time |  |
 | Count | int32 |  |
 | AppointmentType | string |  |
+
 
 ## Response: array
 
@@ -123,10 +131,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 801,
-  "StartTime": "2016-06-19T11:10:25.4075556+02:00",
-  "EndTime": "2006-06-02T11:10:25.4075556+02:00",
-  "Count": 93,
+  "PersonId": 118,
+  "StartTime": "2021-10-09T02:49:43.1992469+02:00",
+  "EndTime": "2000-08-11T02:49:43.1992469+02:00",
+  "Count": 386,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -139,53 +147,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 178,
-    "StartDate": "2007-09-27T11:10:25.4085259+02:00",
-    "EndDate": "2015-05-23T11:10:25.4085259+02:00",
+    "AppointmentId": 704,
+    "StartDate": "2021-01-23T02:49:43.1992469+01:00",
+    "EndDate": "2017-08-03T02:49:43.1992469+02:00",
     "Type": "BookingForChecklist",
-    "Task": "consequatur",
-    "AssociateFullName": "Ms. Kyra Jayson Thompson",
-    "ContactName": "Oberbrunner-Lind",
-    "Description": "Persistent uniform infrastructure",
-    "PersonFullName": "Celestino Treutel",
-    "PersonId": 88,
-    "ContactId": 798,
-    "ProjectId": 362,
-    "ProjectName": "Schaefer, Murphy and Hyatt",
+    "Task": "et",
+    "AssociateFullName": "America McLaughlin",
+    "ContactName": "Cremin, Pollich and Pollich",
+    "Description": "Team-oriented assymetric access",
+    "PersonFullName": "Warren Omari Goldner III",
+    "PersonId": 693,
+    "ContactId": 247,
+    "ProjectId": 104,
+    "ProjectName": "Swaniawski Group",
     "IsPublished": false,
-    "AssociateId": 782,
-    "ColorIndex": 487,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 225,
+    "ColorIndex": 316,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 614,
-    "PriorityName": "Keeling, Hane and Langosh",
+    "PriorityId": 541,
+    "PriorityName": "Reynolds Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2020-10-20T11:10:25.4095529+02:00",
+    "ActiveDate": "2013-05-19T02:49:43.1992469+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-03-15T11:10:25.4095529+01:00",
-    "RecurringEndDate": "2004-02-06T11:10:25.4095529+01:00",
-    "MotherId": 333,
-    "AssignedBy": 466,
-    "AssignedByFullName": "Whitney Sawayn DDS",
+    "RecurringStartDate": "2014-07-03T02:49:43.1992469+02:00",
+    "RecurringEndDate": "2012-11-24T02:49:43.1992469+01:00",
+    "MotherId": 742,
+    "AssignedBy": 733,
+    "AssignedByFullName": "Jacques Rice",
     "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "enim",
-    "SaleId": 100,
-    "SaleName": "Frami-Stiedemann",
-    "AssociateName": "Jacobi, Schowalter and Osinski",
-    "CreatedDate": "2019-04-27T11:10:25.4095529+02:00",
-    "CreatedBy": "non",
-    "CreatedByFullName": "Montana Armstrong",
-    "CreatedByAssociateId": 307,
+    "Location": "sit",
+    "AlarmLeadTime": "quis",
+    "SaleId": 222,
+    "SaleName": "Kilback-Quitzon",
+    "AssociateName": "Mosciski-Kovacek",
+    "CreatedDate": "2005-05-24T02:49:43.1992469+02:00",
+    "CreatedBy": "hic",
+    "CreatedByFullName": "Madie Huel",
+    "CreatedByAssociateId": 280,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -193,7 +201,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldLength": 353
       }
     }
   }

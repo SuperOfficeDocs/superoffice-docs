@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetQuoteList
 
 Gets a named list from the connector Return array of QuoteListItems.
 
+
 Return NULL if the given list is not supported.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Return NULL if the given list is not supported.
 ```http
 POST /api/v1/Agents/Quote/GetQuoteList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Quote/GetQuoteList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteListType
+QuoteListType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteListType | string |  |
+
 
 ## Response: array
 
@@ -73,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "harum"
+  "QuoteListType": "assumenda"
 }
 ```
 
@@ -85,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "animi",
-    "DisplayValue": "quasi",
-    "DisplayDescription": "Multi-channelled cohesive service-desk",
+    "ERPQuoteListItemKey": "consectetur",
+    "DisplayValue": "officia",
+    "DisplayDescription": "Progressive grid-enabled extranet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 182
+        "FieldLength": 290
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "animi",
-    "DisplayValue": "quasi",
-    "DisplayDescription": "Multi-channelled cohesive service-desk",
+    "ERPQuoteListItemKey": "consectetur",
+    "DisplayValue": "officia",
+    "DisplayDescription": "Progressive grid-enabled extranet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 182
+        "FieldLength": 290
       }
     }
   }

@@ -9,6 +9,14 @@ uid: v1SaleAgent_AddSaleStakeholders
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/AddSaleStakeholders
 ```http
 POST /api/v1/Agents/Sale/AddSaleStakeholders?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -29,16 +38,17 @@ POST /api/v1/Agents/Sale/AddSaleStakeholders?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId, SaleStakeholders
+SaleId, SaleStakeholders 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
 | SaleStakeholders | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -46,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -58,28 +69,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 507,
+  "SaleId": 635,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Gerlach, Hartmann and Bashirian",
-      "Comment": "voluptatibus",
-      "StakeholderRoleId": 932,
-      "CountryId": 477,
-      "PersonId": 296,
-      "EmailDescription": "eloisa@jacobs.biz",
-      "EmailId": 568,
-      "EmailAddress": "april.satterfield@altenwerthcollier.ca",
-      "PhoneId": 444,
-      "ContactName": "Nitzsche Inc and Sons",
-      "ContactId": 964,
-      "SaleId": 221,
-      "Mrmrs": "eum",
-      "Firstname": "Icie",
-      "MiddleName": "Mraz Inc and Sons",
-      "Lastname": "Zemlak",
-      "SaleStakeholderId": 222,
-      "Rank": 569,
-      "Phone": "927.604.9648 x196"
+      "StakeholderRoleName": "Huels Group",
+      "Comment": "cumque",
+      "StakeholderRoleId": 121,
+      "CountryId": 586,
+      "PersonId": 993,
+      "EmailDescription": "laurine@rathoberbrunner.us",
+      "EmailId": 646,
+      "EmailAddress": "rico_gleichner@schmeler.info",
+      "PhoneId": 925,
+      "ContactName": "Gerhold, Ernser and Toy",
+      "ContactId": 211,
+      "SaleId": 642,
+      "Mrmrs": "fugiat",
+      "Firstname": "Kirk",
+      "MiddleName": "Bogisich, Stamm and Fritsch",
+      "Lastname": "Fay",
+      "SaleStakeholderId": 108,
+      "Rank": 883,
+      "Phone": "1-249-687-1623 x566"
     }
   ]
 }

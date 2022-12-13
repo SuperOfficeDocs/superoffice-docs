@@ -11,7 +11,13 @@ GET /api/v1/List/SaleType/Items
 
 Gets a list of all SaleTypeEntity list items.
 
+
 Calls the List agent service GetAllSaleTypeEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,8 +26,9 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=True
+GET /api/v1/List/SaleType/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/SaleType/Items?includeDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -79,7 +87,7 @@ Response body: array
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,53 +98,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 725,
-    "Name": "Green Group",
-    "Tooltip": "repudiandae",
-    "Rank": 402,
+    "SaleTypeId": 750,
+    "Name": "Cartwright LLC",
+    "Tooltip": "quia",
+    "Rank": 840,
     "DurationUnit": "Century",
-    "SaleDuration": 62,
-    "SaleTypeCatId": 191,
-    "Deleted": true,
+    "SaleDuration": 138,
+    "SaleTypeCatId": 292,
+    "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": true,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 348,
-    "QuoteLinesTemplate": 799,
-    "ConfirmationLinesTemplate": 753,
+    "HasStakeholders": false,
+    "IsAutoAdvance": true,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 301,
+    "QuoteLinesTemplate": 417,
+    "ConfirmationLinesTemplate": 187,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 26,
-    "MinEarningPercent": 201,
-    "GroupQuoteLinesBy": 49,
-    "SortGroupLinesBy": 262,
+    "MaxDiscountPercent": 803,
+    "MinEarningPercent": 14,
+    "GroupQuoteLinesBy": 869,
+    "SortGroupLinesBy": 439,
     "Stages": [
       {
-        "Id": 218,
-        "Name": "Armstrong-Schuster",
-        "ToolTip": "Quia facere quis sunt dolor alias.",
+        "Id": 417,
+        "Name": "Pfannerstill-Ruecker",
+        "ToolTip": "Sint porro ut.",
         "Deleted": false,
-        "Rank": 555,
-        "Type": "quae",
-        "ColorBlock": 780,
-        "IconHint": "aliquam",
+        "Rank": 670,
+        "Type": "perferendis",
+        "ColorBlock": 956,
+        "IconHint": "facilis",
         "Selected": false,
-        "LastChanged": "2012-01-10T11:10:54.595935+01:00",
+        "LastChanged": "2009-03-22T02:49:52.5003264+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "suscipit",
-        "Hidden": true,
-        "FullName": "Shanel Little",
+        "ExtraInfo": "itaque",
+        "StyleHint": "ullam",
+        "Hidden": false,
+        "FullName": "Idella Schumm Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 546
+            "FieldLength": 163
           }
         }
       }
@@ -146,7 +154,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 38
       }
     }
   }

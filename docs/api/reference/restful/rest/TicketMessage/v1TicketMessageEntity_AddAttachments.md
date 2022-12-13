@@ -11,11 +11,18 @@ POST /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 
 Connect existing attachments with this TicketMessage.
 
+
 Can connect multiple attachments
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ticketMessageEntityId | int32 | The id of the ticket message to connect the attachments to **Required** |
+
+
 
 ## Request Headers
 
@@ -27,11 +34,13 @@ Can connect multiple attachments
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: attachmentIds
+## Request Body: attachmentIds  
 
-An array of attachments to connect to this TicketMessage
+An array of attachments to connect to this TicketMessage 
 
-## Response
+
+
+## Response: 
 
 No Content
 
@@ -39,7 +48,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -47,7 +57,7 @@ Response body:
 POST /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

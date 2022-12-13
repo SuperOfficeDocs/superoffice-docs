@@ -15,15 +15,15 @@ In the **Company** screen you can enter information about companies on several l
 
 ## The Company tab
 
-1. Click **New** on the top bar and select **Company**. An empty company card opens.
+1. Click **New** on the top bar and select **Company**.
+
+1. In the empty company card, enter the name of the company in the field at the top of the **Company** tab. ***Company name*** is mandatory and highlighted with red text.
 
     ![Empty company card -screenshot][img1]
 
-    Type in the name of the company in the field at the top of the **Company** tab. ***Company name*** is shown in red, indicating that this field is mandatory.
+1. In the **Country** field, enter the company’s country. The correct address format for this country is updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences.
 
-2. In the **Country** field, enter the company’s country. The correct address format for this country will be updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences.
-
-3. Enter the required information in the other fields.
+1. Enter the required information in the other fields.
 
     > [!NOTE]
     > Default field values and list values (such as business and category) are specified in the [Preferences dialog][3].
@@ -34,7 +34,7 @@ In the **Company** screen you can enter information about companies on several l
 
     </details>
 
-4. Click **Save** to save the information entered, or click the **More** tab to enter further information about the company.
+1. Click **Save** to save the information entered, or click the **More** tab to enter further information about the company.
 
 ## <a id="more-tab" />The More tab (Company screen)
 
@@ -42,7 +42,7 @@ In the **Company** screen you can enter information about companies on several l
 
 2. Enter the information.
 
-3. Click **Save** to save the information you have entered, or click the **Interests** tab to enter information about the company's interests.
+3. Click **Save** to save the information you entered, or click the **Interests** tab to enter information about the company's interests.
 
 > [!NOTE]
 > You can also edit the company information in the **More** tab by clicking **Edit**.
@@ -51,7 +51,7 @@ In the **Company** screen you can enter information about companies on several l
 
 1. Go to the **Interests** tab. Here you specify what interests a company has.
 
-2. In edit mode, specify interests by checking the relevant boxes. SuperOffice Settings and maintenance defines which interests will be displayed.
+2. In edit mode, specify interests by checking the relevant boxes. SuperOffice Settings and maintenance defines which interests are displayed.
 
     > [!NOTE]
     > When the tab is in view mode, only the selected interests are displayed. When you are in edit mode, there may well be further interests options available.
@@ -63,7 +63,7 @@ In the **Company** screen you can enter information about companies on several l
 4. When you have entered the required information in all three tabs in the **Company** screen, click **Save**. This will create a company card for the new company.
 
 > [!TIP]
-> Interests can be useful for defining selections. If, for example, you have defined *reference account* as an interest, you can create a selection that contains all your reference accounts. This makes it easy to produce a marketing campaign aimed at this customer group.
+> Interests can be useful for defining selections. If, for example, you defined *reference account* as an interest, you can create a selection that contains all your reference accounts. This makes it easy to produce a marketing campaign aimed at this customer group.
 
 ## The www tab (Company screen)
 
@@ -83,7 +83,7 @@ In the **Company** screen you can enter information about companies on several l
 
 ## Duplicates
 
-If you try to enter a company that is similar to one that is already in SuperOffice CRM, the **Duplicates** dialog appears, asking you if you want to continue working with the current record or go to one of the records listed at the bottom of the dialog. This is to prevent you from unintentionally registering an existing company. See [Duplicates][2].
+If you try to enter a company that is similar to one that is already in SuperOffice CRM, the **Duplicates** dialog appears, to prevent you from [unintentionally registering an existing company][2]. Choose if you want to continue working with the current record or go to one of the records listed at the bottom of the dialog.
 
 [!include[Tip](../includes/tip-open-website.md)]
 

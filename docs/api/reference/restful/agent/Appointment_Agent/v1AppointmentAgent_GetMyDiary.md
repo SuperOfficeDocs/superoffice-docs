@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetMyDiary
 
 Method that returns a specified number of appointments within a time range.
 
+
 It only returns appointments that would be displayed in the user's diary. The appointments belong to the currently logged on user.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It only returns appointments that would be displayed in the user's diary. The ap
 ```http
 POST /api/v1/Agents/Appointment/GetMyDiary?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,16 @@ POST /api/v1/Agents/Appointment/GetMyDiary?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartTime, EndTime, Count
+StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -121,9 +129,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2014-10-02T11:10:25.7445526+02:00",
-  "EndTime": "1995-11-16T11:10:25.7445526+01:00",
-  "Count": 56
+  "StartTime": "2009-12-27T02:49:43.4972799+01:00",
+  "EndTime": "1999-09-19T02:49:43.4972799+02:00",
+  "Count": 368
 }
 ```
 
@@ -135,61 +143,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 923,
-    "StartDate": "2002-11-10T11:10:25.7455531+01:00",
-    "EndDate": "2000-02-12T11:10:25.7455531+01:00",
+    "AppointmentId": 966,
+    "StartDate": "1996-02-26T02:49:43.4972799+01:00",
+    "EndDate": "2019-10-01T02:49:43.4972799+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolore",
-    "AssociateFullName": "Maggie Romaguera",
-    "ContactName": "Sporer, Mante and Schulist",
-    "Description": "Focused 4th generation contingency",
-    "PersonFullName": "Miss Kole Cyril Hills PhD",
-    "PersonId": 143,
-    "ContactId": 447,
-    "ProjectId": 936,
-    "ProjectName": "Prohaska, Jacobi and Mertz",
+    "Task": "qui",
+    "AssociateFullName": "Hiram Mertz",
+    "ContactName": "Tromp-Brakus",
+    "Description": "Cloned static open architecture",
+    "PersonFullName": "Dr. Marvin Helga Leffler",
+    "PersonId": 447,
+    "ContactId": 446,
+    "ProjectId": 789,
+    "ProjectName": "Stehr Group",
     "IsPublished": false,
-    "AssociateId": 148,
-    "ColorIndex": 408,
-    "IsFree": false,
-    "HasAlarm": true,
+    "AssociateId": 332,
+    "ColorIndex": 188,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 874,
-    "PriorityName": "Gottlieb, Friesen and Smitham",
+    "PriorityId": 178,
+    "PriorityName": "Heidenreich Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2011-06-27T11:10:25.7465528+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2022-02-17T02:49:43.4972799+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-06-16T11:10:25.7465528+02:00",
-    "RecurringEndDate": "2022-02-26T11:10:25.7465528+01:00",
-    "MotherId": 879,
-    "AssignedBy": 880,
-    "AssignedByFullName": "Carleton Koelpin",
+    "RecurringStartDate": "1996-06-04T02:49:43.4972799+02:00",
+    "RecurringEndDate": "1997-04-09T02:49:43.4972799+02:00",
+    "MotherId": 41,
+    "AssignedBy": 54,
+    "AssignedByFullName": "Mrs. Thurman Dandre Cronin I",
     "RejectReason": "",
-    "Location": "sequi",
-    "AlarmLeadTime": "exercitationem",
-    "SaleId": 458,
-    "SaleName": "Hodkiewicz, Hartmann and Goyette",
-    "AssociateName": "Towne-Heidenreich",
-    "CreatedDate": "2009-10-13T11:10:25.7465528+02:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Mrs. Clara Kiana Kiehn III",
-    "CreatedByAssociateId": 775,
+    "Location": "ipsa",
+    "AlarmLeadTime": "quae",
+    "SaleId": 995,
+    "SaleName": "Jacobs-Schuppe",
+    "AssociateName": "Stroman-Fisher",
+    "CreatedDate": "2019-11-07T02:49:43.4972799+01:00",
+    "CreatedBy": "dicta",
+    "CreatedByFullName": "Miss Estell Lera Reilly IV",
+    "CreatedByAssociateId": 587,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 293
+        "FieldType": "System.Int32",
+        "FieldLength": 156
       }
     }
   }

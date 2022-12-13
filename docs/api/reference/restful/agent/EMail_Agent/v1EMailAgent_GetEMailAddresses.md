@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailAddresses
 
 Get information about one or more email addresses, identified by IDs
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get information about one or more email addresses, identified by IDs
 ```http
 POST /api/v1/Agents/EMail/GetEMailAddresses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +46,14 @@ POST /api/v1/Agents/EMail/GetEMailAddresses?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EmailIds
+EmailIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EmailIds | array |  |
+
 
 ## Response: array
 
@@ -75,13 +85,13 @@ Response body: array
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    721,
-    29
+    731,
+    27
   ]
 }
 ```
@@ -94,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 523,
-    "ContactName": "Jaskolski-Dibbert",
-    "PersonId": 95,
-    "PersonName": "Boyle LLC",
-    "AssociateId": 721,
-    "Address": "eius",
-    "EmailId": 889,
+    "ContactId": 595,
+    "ContactName": "Fritsch, West and Schuppe",
+    "PersonId": 771,
+    "PersonName": "Trantow, Krajcik and Wiza",
+    "AssociateId": 795,
+    "Address": "adipisci",
+    "EmailId": 946,
     "DuplicatePersonIds": [
-      427,
-      228
+      380,
+      408
     ],
-    "Name": "Spencer-Pouros",
+    "Name": "Howell, Stracke and Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 429
       }
     }
   }

@@ -11,6 +11,13 @@ POST /api/v1/Agents/Dashboard/SaveDashboardTile
 
 Updates the existing DashboardTile or creates a new DashboardTile if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing DashboardTile or creates a new DashboardTile if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashboardTile to be saved.
+The DashboardTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ The DashboardTile to be saved.
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,42 +93,42 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 352,
-  "Caption": "enim",
-  "Description": "Exclusive multimedia hub",
-  "ChartName": "Williamson, Kunde and Ullrich",
-  "ChartId": "eos",
-  "IsDefault": true,
-  "AssociateId": 833,
-  "GroupId": 923,
-  "SelectionId": 868,
-  "Config": "accusamus",
+  "DashboardTileId": 446,
+  "Caption": "quas",
+  "Description": "Exclusive 3rd generation help-desk",
+  "ChartName": "Zemlak-Hand",
+  "ChartId": "et",
+  "IsDefault": false,
+  "AssociateId": 212,
+  "GroupId": 332,
+  "SelectionId": 883,
+  "Config": "sequi",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Mante-Beahan",
-      "Description": "Mandatory exuding leverage",
+      "Name": "Beahan Group",
+      "Description": "De-engineered intermediate knowledge base",
       "Type": "Boolean",
-      "ListName": "Macejkovic, Corwin and Fritsch",
+      "ListName": "Dickens, Graham and Mills",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "id",
+      "Value": "mollitia",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 289,
+      "VisibleId": 489,
       "Visibility": "All",
-      "DisplayValue": "blanditiis"
+      "DisplayValue": "sit"
     },
     {
-      "VisibleId": 289,
+      "VisibleId": 489,
       "Visibility": "All",
-      "DisplayValue": "blanditiis"
+      "DisplayValue": "sit"
     }
   ]
 }
@@ -133,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 639,
-  "Caption": "quo",
-  "Description": "Distributed asynchronous system engine",
-  "ChartName": "Terry-Volkman",
-  "ChartId": "quis",
-  "IsDefault": true,
-  "AssociateId": 859,
-  "GroupId": 210,
-  "SelectionId": 88,
-  "Config": "quia",
+  "DashboardTileId": 240,
+  "Caption": "dolorem",
+  "Description": "Sharable client-driven neural-net",
+  "ChartName": "Kuphal LLC",
+  "ChartId": "rerum",
+  "IsDefault": false,
+  "AssociateId": 51,
+  "GroupId": 517,
+  "SelectionId": 502,
+  "Config": "tempore",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Bechtelar Group",
-      "Description": "Quality-focused zero tolerance groupware",
+      "Name": "Rath LLC",
+      "Description": "Pre-emptive multimedia functionalities",
       "Type": "Boolean",
-      "ListName": "Medhurst-Abshire",
+      "ListName": "Lowe Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quibusdam",
-      "DefaultDataOption": false,
+      "Value": "consequatur",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldLength": 964
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 887,
+      "VisibleId": 541,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldLength": 843
         }
       }
     },
     {
-      "VisibleId": 887,
+      "VisibleId": 541,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldLength": 843
         }
       }
     }
@@ -199,8 +207,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldType": "System.Int32",
+      "FieldLength": 297
     }
   }
 }

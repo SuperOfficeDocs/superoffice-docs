@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 
 This method will return a configurablescreen delta matching the properties received from the incomming query
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method will return a configurablescreen delta matching the properties recei
 ```http
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DeltaQuery
+DeltaQuery 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DeltaQuery |  |  |
+
 
 ## Response: array
 
@@ -77,7 +85,7 @@ Response body: array
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 940,
-    "Name": "Effertz-Pouros",
-    "Description": "Polarised secondary methodology",
-    "DeltaJson": "architecto",
+    "ConfigurableScreenDeltaId": 80,
+    "Name": "Connelly Group",
+    "Description": "Inverse high-level framework",
+    "DeltaJson": "voluptates",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "at",
-    "UpdatedDate": "1996-12-08T11:10:26.2055525+01:00",
-    "CreatedDate": "2007-08-13T11:10:26.2055525+02:00",
+    "RecipeId": "est",
+    "UpdatedDate": "2013-03-16T02:49:43.8566571+01:00",
+    "CreatedDate": "2011-10-28T02:49:43.8566571+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      372,
-      99
+      817,
+      348
     ],
-    "AppliesToKey": "laudantium",
+    "AppliesToKey": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldLength": 986
       }
     }
   }

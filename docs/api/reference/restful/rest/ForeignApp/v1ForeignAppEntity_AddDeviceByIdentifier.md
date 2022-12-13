@@ -11,11 +11,18 @@ POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 
 Adds a new ForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | Unique id of device (Palm pilot device ID, version number, etc) **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Adds a new ForeignDevice with deviceName that belongs to the application with ap
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +68,7 @@ Response body:
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 762,
-  "Name": "Schaden, Stanton and Barton",
-  "CreatedDate": "2007-10-13T11:10:52.9051799+02:00",
-  "UpdatedDate": "2015-08-26T11:10:52.9051799+02:00",
-  "AssociateFullName": "Garland Flatley",
-  "CreatedBy": "nesciunt",
-  "UpdatedBy": "quasi",
-  "DeviceIdentifier": "est",
-  "ForeignAppId": 527,
+  "ForeignDeviceId": 661,
+  "Name": "Heaney-Balistreri",
+  "CreatedDate": "2022-07-17T02:49:50.9952888+02:00",
+  "UpdatedDate": "1997-10-20T02:49:50.9952888+02:00",
+  "AssociateFullName": "Elliott Batz",
+  "CreatedBy": "accusantium",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "sit",
+  "ForeignAppId": 888,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldType": "System.String",
+      "FieldLength": 864
     }
   }
 }

@@ -11,6 +11,13 @@ POST /api/v1/Agents/Chat/SaveChatTopicEntity
 
 Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ChatTopicEntity to be saved.
+The ChatTopicEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +70,8 @@ The ChatTopicEntity to be saved.
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -71,7 +79,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -115,41 +123,41 @@ Response body:
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 11,
-  "Name": "Ruecker, Nienow and Jerde",
-  "Description": "Automated leading edge neural-net",
-  "WelcomeMessage": "perferendis",
+  "ChatTopicId": 124,
+  "Name": "Bosco, McLaughlin and Hane",
+  "Description": "Optional systematic projection",
+  "WelcomeMessage": "cum",
   "Language": null,
-  "LastAccept": "2020-05-30T11:10:26.0775259+02:00",
-  "SecondsPrAccept": 353,
-  "AlertRecipient": "quo",
+  "LastAccept": "2003-12-17T02:49:43.7472845+01:00",
+  "SecondsPrAccept": 687,
+  "AlertRecipient": "aut",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "eaque",
+  "BadgeHeader": "libero",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "perspiciatis",
-  "WarnNewChatMinutes": 897,
-  "WarnManagerNewChatMinutes": 382,
-  "TicketEnabled": false,
+  "CustomQueueText": "dolorem",
+  "WarnNewChatMinutes": 229,
+  "WarnManagerNewChatMinutes": 355,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 251,
-  "WarnManagerChatMessageMinutes": 785,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 53,
+  "WarnManagerChatMessageMinutes": 307,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 1000,
-  "OfflineFormQueueLength": 503,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "odio"
+  "OfflineFormTimeLimit": 4,
+  "OfflineFormQueueLength": 13,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "corporis"
 }
 ```
 
@@ -160,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 515,
-  "Name": "Senger, Heathcote and Schaden",
-  "Description": "Implemented logistical budgetary management",
-  "WelcomeMessage": "consequatur",
+  "ChatTopicId": 965,
+  "Name": "Lesch-Kemmer",
+  "Description": "Grass-roots analyzing core",
+  "WelcomeMessage": "quae",
   "Language": null,
-  "LastAccept": "1996-03-19T11:10:26.079525+01:00",
-  "SecondsPrAccept": 777,
-  "AlertRecipient": "dicta",
+  "LastAccept": "2011-10-16T02:49:43.7472845+02:00",
+  "SecondsPrAccept": 878,
+  "AlertRecipient": "qui",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "omnis",
+  "BadgeHeader": "recusandae",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "nisi",
-  "WarnNewChatMinutes": 228,
-  "WarnManagerNewChatMinutes": 1001,
+  "CustomQueueText": "non",
+  "WarnNewChatMinutes": 433,
+  "WarnManagerNewChatMinutes": 713,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 604,
-  "WarnManagerChatMessageMinutes": 486,
+  "WarnChatMessageMinutes": 228,
+  "WarnManagerChatMessageMinutes": 22,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 92,
-  "OfflineFormQueueLength": 32,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "aliquam",
+  "OfflineFormTimeLimit": 704,
+  "OfflineFormQueueLength": 29,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldType": "System.String",
+      "FieldLength": 763
     }
   }
 }

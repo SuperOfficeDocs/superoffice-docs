@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity
 
 Deletes the ErpSyncConnectorEntity
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,8 +28,9 @@ Deletes the ErpSyncConnectorEntity
 | ErpSyncConnectorEntityId | int32 | **Required** The id of the ErpSyncConnectorEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?ErpSyncConnectorEntityId=857
+POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?ErpSyncConnectorEntityId=461
 ```
+
 
 ## Request Headers
 
@@ -32,7 +41,8 @@ POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?ErpSyncConnectorEntityI
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -40,7 +50,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -48,7 +59,7 @@ Response body:
 POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response

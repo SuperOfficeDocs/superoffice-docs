@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/ExistsSystemEvent
 
 Is there a system event with the given key?
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Is there a system event with the given key?
 ```http
 POST /api/v1/Agents/Configuration/ExistsSystemEvent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Configuration/ExistsSystemEvent?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Key
+Key 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Key | string |  |
+
 
 ## Response: bool
 
@@ -53,17 +61,18 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/ExistsSystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "non"
+  "Key": "aliquam"
 }
 ```
 
@@ -73,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

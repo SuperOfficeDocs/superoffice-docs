@@ -11,10 +11,16 @@ POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 
 Change a AppointmentEntity user-defined field's type based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
 | fieldType | Enum: Number, ShortText, LongText, Date, UnlimitedDate, Checkbox, List, Decimal | The new type of the user defined field. **Required** |
+
 
 ## Query String Parameters
 
@@ -25,6 +31,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 ```http
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
+
 
 ## Request Headers
 
@@ -39,7 +46,8 @@ POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndex
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 AppointmentEntity found.
 
@@ -48,7 +56,7 @@ AppointmentEntity found.
 | 200 | AppointmentEntity found. |
 | 404 | AppointmentEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,46 +113,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 174,
-  "ColumnId": 314,
-  "FieldDefault": "autem",
-  "FieldHeight": 767,
-  "FieldLabel": "aut",
-  "FieldLeft": 275,
-  "FieldTop": 661,
+  "UDefFieldId": 367,
+  "ColumnId": 79,
+  "FieldDefault": "doloremque",
+  "FieldHeight": 656,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 938,
+  "FieldTop": 360,
   "FieldType": "Checkbox",
-  "FieldWidth": 962,
-  "FormatMask": "omnis",
+  "FieldWidth": 81,
+  "FormatMask": "et",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 19,
-  "LabelLeft": 998,
-  "LabelTop": 790,
-  "LabelWidth": 630,
-  "LastVersionId": 138,
-  "ListTableId": 40,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 804,
+  "LabelLeft": 359,
+  "LabelTop": 731,
+  "LabelWidth": 301,
+  "LastVersionId": 713,
+  "ListTableId": 281,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 154,
-  "ProgId": "quisquam",
+  "Page1LineNo": 518,
+  "ProgId": "quasi",
   "IsReadOnly": false,
-  "ShortLabel": "veniam",
-  "TabOrder": 669,
-  "TextLength": 794,
-  "Tooltip": "in",
-  "UdefIdentity": 943,
-  "UDListDefinitionId": 462,
+  "ShortLabel": "omnis",
+  "TabOrder": 101,
+  "TextLength": 999,
+  "Tooltip": "vel",
+  "UdefIdentity": 500,
+  "UDListDefinitionId": 433,
   "Justification": "Center",
-  "Version": 181,
-  "TemplateVariableName": "Pouros-Ziemann",
+  "Version": 975,
+  "TemplateVariableName": "Rosenbaum Group",
   "HasBeenPublished": false,
-  "MdoListName": "Hirthe LLC",
+  "MdoListName": "Veum-Wilkinson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 329
+      "FieldLength": 20
     }
   }
 }

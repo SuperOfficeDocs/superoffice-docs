@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 
 Return an given array of user defined field identified by the ids.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return an given array of user defined field identified by the ids.
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Ids
+Ids 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Ids | array |  |
+
 
 ## Response: array
 
@@ -103,8 +111,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    988,
-    760
+    195,
+    812
   ]
 }
 ```
@@ -117,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 615,
-    "ColumnId": 14,
-    "FieldDefault": "cumque",
-    "FieldHeight": 549,
-    "FieldLabel": "rerum",
-    "FieldLeft": 67,
-    "FieldTop": 293,
+    "UDefFieldId": 479,
+    "ColumnId": 293,
+    "FieldDefault": "et",
+    "FieldHeight": 322,
+    "FieldLabel": "sed",
+    "FieldLeft": 593,
+    "FieldTop": 647,
     "FieldType": "Checkbox",
-    "FieldWidth": 381,
-    "FormatMask": "nemo",
-    "HideLabel": true,
+    "FieldWidth": 477,
+    "FormatMask": "natus",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 806,
-    "LabelLeft": 376,
-    "LabelTop": 786,
-    "LabelWidth": 277,
-    "LastVersionId": 998,
-    "ListTableId": 22,
-    "IsMandatory": true,
+    "LabelHeight": 823,
+    "LabelLeft": 879,
+    "LabelTop": 738,
+    "LabelWidth": 625,
+    "LastVersionId": 798,
+    "ListTableId": 345,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 404,
-    "ProgId": "delectus",
+    "Page1LineNo": 807,
+    "ProgId": "velit",
     "IsReadOnly": true,
-    "ShortLabel": "modi",
-    "TabOrder": 523,
-    "TextLength": 518,
-    "Tooltip": "aliquid",
-    "UdefIdentity": 722,
-    "UDListDefinitionId": 715,
+    "ShortLabel": "fuga",
+    "TabOrder": 951,
+    "TextLength": 812,
+    "Tooltip": "voluptatem",
+    "UdefIdentity": 80,
+    "UDListDefinitionId": 181,
     "Justification": "Center",
-    "Version": 505,
-    "TemplateVariableName": "Ankunding-Waters",
-    "HasBeenPublished": true,
-    "MdoListName": "Fahey-Tillman",
+    "Version": 105,
+    "TemplateVariableName": "Heidenreich-Heidenreich",
+    "HasBeenPublished": false,
+    "MdoListName": "Swaniawski-Conroy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldLength": 277
       }
     }
   }

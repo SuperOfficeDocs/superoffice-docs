@@ -11,7 +11,7 @@ language: en
 
 # Adjust column widths
 
-There are a number of different lists in SuperOffice CRM, e.g. the **Contacts** and **Activities** section tabs. The width of the columns in lists like these can be adjusted manually or automatically.
+There are different lists in SuperOffice CRM, for example, the **Contacts** and **Activities** section tabs. The width of the columns in lists like these can be adjusted manually or automatically.
 
 ## Manually adjust column widths
 
@@ -23,7 +23,7 @@ There are a number of different lists in SuperOffice CRM, e.g. the **Contacts** 
 
 ## Automatically adjust column widths
 
-You can set columns widths to be adjusted automatically according to the content of the columns. When columns are added or removed, all column widths will be adjusted to a best fit every time. If there are too many columns to fit within the available space, a horisontal scrollbar will be displayed.
+You can set columns widths to be adjusted automatically according to the content of the columns. When columns are added or removed, all column widths are adjusted to a best fit every time. If there are too many columns to fit within the available space, a horizontal scrollbar is displayed.
 
 1. Go to the section tab you want to edit.
 2. Click ![icon][img1] on the far right of the column headers in a section tab. A dialog is displayed.

@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetBlobStream
 
 Get the binary object as a stream
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the binary object as a stream
 ```http
 POST /api/v1/Agents/BLOB/GetBlobStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/BLOB/GetBlobStream?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-BlobEntityId
+BlobEntityId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | BlobEntityId | int32 |  |
+
 
 ## Response: byte
 
@@ -53,6 +61,7 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
@@ -63,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobEntityId": 120
+  "BlobEntityId": 533
 }
 ```
 

@@ -11,7 +11,7 @@ language: en
 
 # Change the rank of contacts
 
-When you create a new contact, he/she is added at the bottom of the **Contacts** section tab for the active company. This means that this contact is given the lowest rank of the contacts entered. However, you can change this rank, to specify, for example, that the contact added last should be the main contact. You do this as follows:
+When you create a new contact, they appear at the bottom of the **Contacts** section tab for the active company (ranked lowest). However, you can change this rank. For example, to specify that the contact added last should be the main contact.
 
 1. Make sure the list is sorted by ranking.
 
@@ -27,7 +27,7 @@ When you create a new contact, he/she is added at the bottom of the **Contacts**
 2. Select the required contact.
 3. Right-click and choose **Shift Up/Shift Down** until the contact is in the desired position.
 
-The changes you make here define the default ranking, which means that they will not be reset the next time you click on the column heading.
+The changes you make here define the default ranking. They will not be reset the next time you click on the column heading.
 
 ## Related topics
 

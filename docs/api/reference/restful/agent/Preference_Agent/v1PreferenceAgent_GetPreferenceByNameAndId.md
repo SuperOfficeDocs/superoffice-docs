@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 
 Get a preference by name and owner id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a preference by name and owner id.
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Preference/GetPreferenceByNameAndId?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PrefSection, PrefKey, PrefLevel, OwnerId
+PrefSection, PrefKey, PrefLevel, OwnerId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ PrefSection, PrefKey, PrefLevel, OwnerId
 | PrefLevel | string |  |
 | OwnerId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,10 +90,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "sint",
-  "PrefKey": "voluptas",
+  "PrefSection": "dolorem",
+  "PrefKey": "possimus",
   "PrefLevel": "Database",
-  "OwnerId": 241
+  "OwnerId": 355
 }
 ```
 
@@ -97,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "facilis",
+  "RawValue": "omnis",
   "Specification": null,
-  "DisplayValue": "at",
-  "DisplayTooltip": "praesentium",
+  "DisplayValue": "a",
+  "DisplayTooltip": "soluta",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 263,
-  "PrefDescId": 738,
-  "TableName": "Goodwin-Emard",
-  "UserPreferenceId": 240,
+  "TargetId": 71,
+  "PrefDescId": 208,
+  "TableName": "Feeney Inc and Sons",
+  "UserPreferenceId": 296,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 303
     }
   }
 }

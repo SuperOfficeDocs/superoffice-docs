@@ -11,9 +11,16 @@ PUT /api/v1/List/QuoteDenyReason/Items/{id}
 
 Updates an existing QuoteDenyReason list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of QuoteDenyReason to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing QuoteDenyReason list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of QuoteDenyReason list item to be saved.
+The details of QuoteDenyReason list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The details of QuoteDenyReason list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,16 +78,16 @@ Response body:
 PUT /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 688,
-  "Name": "Hudson-Hilpert",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "UdListDefinitionId": 613,
-  "Rank": 868
+  "Id": 203,
+  "Name": "Torp, Hayes and Gutkowski",
+  "Tooltip": "autem",
+  "Deleted": false,
+  "UdListDefinitionId": 171,
+  "Rank": 512
 }
 ```
 
@@ -90,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 997,
-  "Name": "Wyman LLC",
-  "Tooltip": "ab",
+  "Id": 475,
+  "Name": "Koepp, Mills and Wintheiser",
+  "Tooltip": "ad",
   "Deleted": false,
-  "UdListDefinitionId": 449,
-  "Rank": 263,
+  "UdListDefinitionId": 429,
+  "Rank": 853,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 980
+      "FieldType": "System.Int32",
+      "FieldLength": 827
     }
   }
 }

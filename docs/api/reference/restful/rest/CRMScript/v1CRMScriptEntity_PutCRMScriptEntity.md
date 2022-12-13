@@ -11,11 +11,19 @@ PUT /api/v1/CRMScript/{id}
 
 Updates the existing CRMScriptEntity
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The CRMScriptEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +34,7 @@ Updates the existing CRMScriptEntity
 ```http
 PUT /api/v1/CRMScript/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -41,9 +50,9 @@ PUT /api/v1/CRMScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The CRMScriptEntity to be saved.
+The CRMScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +68,8 @@ The CRMScriptEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response
+
+## Response: 
 
 CRMScriptEntity updated.
 
@@ -68,7 +78,7 @@ CRMScriptEntity updated.
 | 200 | CRMScriptEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,21 +103,21 @@ Response body:
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 297,
-  "UniqueIdentifier": "fugit",
-  "Name": "Hackett, Lemke and O'Connell",
-  "Description": "Profound web-enabled portal",
-  "IncludeId": "corrupti",
-  "HierarchyId": 275,
-  "Source": "aut",
-  "Registered": "2017-08-02T11:10:52.7591741+02:00",
-  "RegisteredAssociateId": 430,
-  "Updated": "2013-05-26T11:10:52.7591741+02:00",
-  "UpdatedAssociateId": 517
+  "EjscriptId": 545,
+  "UniqueIdentifier": "ducimus",
+  "Name": "Strosin, Moore and Veum",
+  "Description": "Networked global product",
+  "IncludeId": "perferendis",
+  "HierarchyId": 645,
+  "Source": "rerum",
+  "Registered": "2008-03-25T02:49:50.8546634+01:00",
+  "RegisteredAssociateId": 126,
+  "Updated": "2008-08-29T02:49:50.8546634+02:00",
+  "UpdatedAssociateId": 279
 }
 ```
 
@@ -118,23 +128,23 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 855,
-  "UniqueIdentifier": "maxime",
-  "Name": "Zemlak, Prohaska and Lakin",
-  "Description": "Inverse discrete synergy",
-  "IncludeId": "beatae",
-  "HierarchyId": 126,
-  "Source": "odio",
-  "Registered": "2000-08-20T11:10:52.7601739+02:00",
-  "RegisteredAssociateId": 844,
-  "Updated": "2014-05-01T11:10:52.7601739+02:00",
-  "UpdatedAssociateId": 602,
+  "EjscriptId": 727,
+  "UniqueIdentifier": "saepe",
+  "Name": "Pfannerstill LLC",
+  "Description": "Ergonomic holistic help-desk",
+  "IncludeId": "laboriosam",
+  "HierarchyId": 828,
+  "Source": "accusantium",
+  "Registered": "2016-11-09T02:49:50.8546634+01:00",
+  "RegisteredAssociateId": 282,
+  "Updated": "2009-04-24T02:49:50.8546634+02:00",
+  "UpdatedAssociateId": 871,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 529
+      "FieldType": "System.Int32",
+      "FieldLength": 814
     }
   },
   "_Links": {

@@ -11,10 +11,17 @@ GET /api/v1/List/{udListDefinitionName}/Items/{id}
 
 Get a list item for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The identity of the list item to load **Required** |
 | udListDefinitionName | string | The name of the list definition, indicating which list to get the item from. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,7 +36,8 @@ Get a list item for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Roberts, Ernser and Tromp",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "UdListDefinitionId": 219,
-  "Rank": 643,
+  "Id": 872,
+  "Name": "Tremblay-Hand",
+  "Tooltip": "sequi",
+  "Deleted": true,
+  "UdListDefinitionId": 77,
+  "Rank": 831,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldLength": 217
     }
   }
 }

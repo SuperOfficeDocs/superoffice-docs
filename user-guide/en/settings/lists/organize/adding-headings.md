@@ -11,7 +11,7 @@ language: en
 
 # Add headings
 
-Before linking a heading to an item, you need to add the headings you require:
+Before linking a heading to an item, you must add the headings you require.
 
 1. Open the **Lists** screen.
 
@@ -21,9 +21,9 @@ Before linking a heading to an item, you need to add the headings you require:
 
 4. Go to the **Headings** tab.
 
-5. Click the **Add** button below the **Headings** list to add a new heading. The **Edit heading** dialog opens.
+5. Click the **Add** button below the **Headings** list to add a new heading.
 
-6. Enter the required name for the heading in the **Name** field.
+6. In the **Edit heading** dialog, enter the required name for the heading in the **Name** field.
 
     [!include[Mandatory](../../../includes/note-mandatory-field.md)]
 
@@ -33,7 +33,7 @@ Before linking a heading to an item, you need to add the headings you require:
 
 The item is added to the **Headings** list. Repeat this procedure to add more headings.
 
-When you have added the required headings, choose which headings each item will be displayed under. This is described under [Group items under headings][1].
+After adding the required headings, [choose which headings each item will be displayed under][1].
 
 <!-- Referenced links -->
 [1]: grouping-items-under-headings.md

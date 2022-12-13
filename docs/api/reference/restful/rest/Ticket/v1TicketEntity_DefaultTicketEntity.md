@@ -11,7 +11,14 @@ GET /api/v1/Ticket/default
 
 Set default values into a new TicketEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Ticket agent service CreateDefaultTicketEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,6 +52,7 @@ Response body:
 | LastChanged | date-time | The last time the ticket was modified. |
 | ReadByOwner | date-time | The datetime for when the ticket last was read by the owner. |
 | ReadByCustomer | date-time | The datetime for when the ticket was read by the customer. |
+| FirstReadByOwner | date-time | The datetime for when the ticket first was read by the current owner. |
 | FirstReadByUser | date-time | The datetime for when the ticket first was read by a user. |
 | Activate | date-time | When the ticket should be activated, if it is postponed. |
 | ClosedAt | date-time | When the ticket was closed. |
@@ -98,7 +107,7 @@ Response body:
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,20 +117,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 740,
-  "Title": "tenetur",
-  "CreatedAt": "2012-04-03T11:10:53.5431448+02:00",
-  "LastChanged": "1995-05-12T11:10:53.5431448+02:00",
-  "ReadByOwner": "2017-04-21T11:10:53.5431448+02:00",
-  "ReadByCustomer": "2008-02-29T11:10:53.5431448+01:00",
-  "FirstReadByUser": "2016-01-12T11:10:53.5431448+01:00",
-  "Activate": "2012-08-18T11:10:53.5431448+02:00",
-  "ClosedAt": "2000-01-18T11:10:53.5431448+01:00",
-  "RepliedAt": "2017-04-29T11:10:53.5431448+02:00",
-  "AlertTimeout": "2002-04-03T11:10:53.5431448+02:00",
-  "Deadline": "2001-01-07T11:10:53.5431448+01:00",
+  "TicketId": 131,
+  "Title": "maiores",
+  "CreatedAt": "2022-06-09T02:49:51.551935+02:00",
+  "LastChanged": "2003-01-03T02:49:51.551935+01:00",
+  "ReadByOwner": "2017-06-05T02:49:51.551935+02:00",
+  "ReadByCustomer": "2008-01-15T02:49:51.551935+01:00",
+  "FirstReadByOwner": "2008-04-24T02:49:51.551935+02:00",
+  "FirstReadByUser": "2011-08-04T02:49:51.551935+02:00",
+  "Activate": "1998-11-28T02:49:51.551935+01:00",
+  "ClosedAt": "2016-04-02T02:49:51.551935+02:00",
+  "RepliedAt": "2022-07-14T02:49:51.551935+02:00",
+  "AlertTimeout": "1995-12-07T02:49:51.551935+01:00",
+  "Deadline": "1997-07-30T02:49:51.551935+02:00",
   "CreatedBy": null,
-  "Author": "sint",
+  "Author": "voluptas",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -132,154 +142,155 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "aut",
-      "PersonId": 119,
-      "Mrmrs": "rerum",
-      "Firstname": "Evans",
-      "Lastname": "Crona",
-      "MiddleName": "Mayert Inc and Sons",
-      "Title": "ut",
-      "Description": "Cross-group system-worthy migration",
-      "Email": "colton@white.biz",
-      "FullName": "Prof. Maye Rolfson Sr.",
-      "DirectPhone": "1-800-762-0980",
-      "FormalName": "Runolfsdottir Group",
-      "CountryId": 57,
-      "ContactId": 3,
-      "ContactName": "McCullough Inc and Sons",
-      "Retired": 961,
-      "Rank": 768,
-      "ActiveInterests": 617,
+      "Position": "quam",
+      "PersonId": 369,
+      "Mrmrs": "sed",
+      "Firstname": "Darrion",
+      "Lastname": "Rath",
+      "MiddleName": "Osinski, Jacobson and Hudson",
+      "Title": "harum",
+      "Description": "Phased regional local area network",
+      "Email": "lila.kunze@terry.biz",
+      "FullName": "Garrett Smith IV",
+      "DirectPhone": "166-331-0918",
+      "FormalName": "Turner Group",
+      "CountryId": 331,
+      "ContactId": 509,
+      "ContactName": "Sawayn, Schumm and Halvorson",
+      "Retired": 709,
+      "Rank": 425,
+      "ActiveInterests": 448,
       "ContactDepartment": "",
-      "ContactCountryId": 663,
-      "ContactOrgNr": "745163",
-      "FaxPhone": "1-319-466-1972",
-      "MobilePhone": "1-942-932-0196 x65187",
-      "ContactPhone": "(120)419-7787",
-      "AssociateName": "Braun-DuBuque",
-      "AssociateId": 128,
+      "ContactCountryId": 547,
+      "ContactOrgNr": "806640",
+      "FaxPhone": "709-437-4430 x271",
+      "MobilePhone": "(539)357-8027",
+      "ContactPhone": "(024)448-2793 x73429",
+      "AssociateName": "Steuber-Schmidt",
+      "AssociateId": 373,
       "UsePersonAddress": false,
-      "ContactFax": "sit",
-      "Kanafname": "maxime",
-      "Kanalname": "ipsum",
-      "Post1": "voluptates",
-      "Post2": "id",
-      "Post3": "quia",
-      "EmailName": "gavin_morar@vandervort.us",
-      "ContactFullName": "Faustino Watsica",
-      "ActiveErpLinks": 1002,
-      "TicketPriorityId": 184,
-      "SupportLanguageId": 159,
-      "SupportAssociateId": 671,
+      "ContactFax": "maxime",
+      "Kanafname": "in",
+      "Kanalname": "aut",
+      "Post1": "porro",
+      "Post2": "voluptas",
+      "Post3": "provident",
+      "EmailName": "irving_auer@cruickshankmante.info",
+      "ContactFullName": "Miss Robin Thompson",
+      "ActiveErpLinks": 734,
+      "TicketPriorityId": 276,
+      "SupportLanguageId": 262,
+      "SupportAssociateId": 245,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 164
+          "FieldType": "System.Int32",
+          "FieldLength": 718
         }
       }
     }
   ],
-  "AlertLevel": 660,
-  "ConnectId": 905,
+  "AlertLevel": 611,
+  "ConnectId": 414,
   "ReadStatus": "Green",
-  "TimeToReply": 376,
-  "RealTimeToReply": 840,
-  "TimeToClose": 39,
-  "RealTimeToClose": 155,
-  "TimeSpentInternally": 449,
-  "TimeSpentExternally": 720,
-  "TimeSpentQueue": 558,
-  "RealTimeSpentInternally": 342,
-  "RealTimeSpentExternally": 928,
-  "RealTimeSpentQueue": 143,
+  "TimeToReply": 291,
+  "RealTimeToReply": 789,
+  "TimeToClose": 308,
+  "RealTimeToClose": 452,
+  "TimeSpentInternally": 631,
+  "TimeSpentExternally": 396,
+  "TimeSpentQueue": 720,
+  "RealTimeSpentInternally": 519,
+  "RealTimeSpentExternally": 120,
+  "RealTimeSpentQueue": 838,
   "HasAttachment": false,
-  "NumReplies": 512,
-  "NumMessages": 701,
-  "FromAddress": "optio",
+  "NumReplies": 115,
+  "NumMessages": 729,
+  "FromAddress": "officia",
   "Messages": [
     {
-      "TicketMessageId": 254,
-      "CreatedAt": "2003-08-30T11:10:53.5481822+02:00",
+      "TicketMessageId": 451,
+      "CreatedAt": "2022-04-22T02:49:51.551935+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "laboriosam",
-      "PersonId": 9,
-      "PersonFullName": "Fausto Sauer",
-      "ContactId": 571,
-      "ContactName": "Windler Group",
+      "Author": "et",
+      "PersonId": 294,
+      "PersonFullName": "Eulah Kunde",
+      "ContactId": 538,
+      "ContactName": "Ryan, Hoppe and Schinner",
       "ContactDepartment": "",
-      "NumAttachments": 525,
-      "EmailHeader": "meaghan.west@braun.info",
+      "NumAttachments": 573,
+      "EmailHeader": "kyle_cremin@aufderhar.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "provident",
-      "Sentiment": 318,
-      "SentimentConfidence": 434,
-      "CreatedBy": 512,
+      "Language": "fugiat",
+      "Sentiment": 76,
+      "SentimentConfidence": 143,
+      "CreatedBy": 16,
+      "ChangedAt": "2007-05-23T02:49:51.5675591+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 78
+          "FieldLength": 680
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 336,
-      "Name": "Boehm, Yundt and Runolfsson",
-      "ToolTip": "Ipsam ut.",
+      "Id": 274,
+      "Name": "Yundt-Kohler",
+      "ToolTip": "Animi consequatur dolore voluptas minima illo.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 379
         }
       }
     },
     {
-      "Id": 336,
-      "Name": "Boehm, Yundt and Runolfsson",
-      "ToolTip": "Ipsam ut.",
+      "Id": 274,
+      "Name": "Yundt-Kohler",
+      "ToolTip": "Animi consequatur dolore voluptas minima illo.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 379
         }
       }
     }
   ],
-  "Language": "et",
-  "Sentiment": 354,
-  "SentimentConfidence": 507,
-  "SuggestedCategoryId": 715,
+  "Language": "vitae",
+  "Sentiment": 378,
+  "SentimentConfidence": 757,
+  "SuggestedCategoryId": 570,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 383,
-  "IconHint": "eaque",
+  "OrigHumanCategoryId": 537,
+  "IconHint": "cumque",
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "et"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "itaque"
+    "CustomFields1": "in",
+    "CustomFields2": "assumenda"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldLength": 207
     }
   }
 }

@@ -11,7 +11,7 @@ language: en
 
 # Task
 
-Tasks are follow-ups which do not usually have a defined time or duration. They always have a date deadline – for example, they may be things you have to remember to do by a certain time.
+Tasks are follow-ups that do not usually have a defined time or duration. They always have a date deadline, for example, they may be things you must remember to do by a certain time.
 
 ![icon][img1]
 
@@ -22,7 +22,7 @@ Tasks can be displayed in the following places in SuperOffice CRM:
 [!include[List of Activities section tabs](../includes/list-activities-section-tabs.md)]
 
 > [!NOTE]
-> If you specify a start and end time for a task, it will be entered in the diary at the correct day and time.
+> If you specify a start and end time for a task, it is entered in the diary at the correct day and time.
 
 ## What do you want to do
 

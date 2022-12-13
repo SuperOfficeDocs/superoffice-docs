@@ -11,14 +11,16 @@ language: en
 
 # Common profiles
 
-Common profiles are linked to a [role][2] and apply to all users who have that role. You configure common profiles in the **Show profiles** screen. This screen contains two types of profiles:
+Common profiles are linked to a [role][2] and apply to all users who have that role. You configure common profiles in the **Show profiles** screen.
+
+## Profile types
 
 * **System**: These profiles you can configure by following the procedure below.
-* **System screens**: This is a list of screens created using the [system designers][1] in SuperOffice Service. You can change these if you have access to **System design** > **Screens**.
+* **System screens**: A list of screens created using the [system designers][1] in SuperOffice Service. You can change these if you have access to **System design** > **Screens**.
 
 ## Create common profiles
 
-We explain how to create a common profile by using a specific example. In the example below, we assume that you want to add a field in the **Find requests** screen.
+As an example, the following steps show how to add a field in the **Find requests** screen.
 
 1. Select ![icon][img1] **System settings** > **Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
@@ -32,9 +34,7 @@ We explain how to create a common profile by using a specific example. In the ex
 8. Click the **OK**. The new criterion is added below the others.
 9. Click **OK**. The new profile is created. You can now, for example, [link it to a specific role][3].
 
-## Edit common profiles
-
-To edit the information already recorded for a profile:
+## Edit information in a common profile
 
 1. Select ![icon][img1] **System settings** > **Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
@@ -43,9 +43,7 @@ To edit the information already recorded for a profile:
 5. Make the required changes.
 6. Click **OK**. The changes are saved.
 
-## Delete common profiles
-
-To delete a profile from SuperOffice Service:
+## Delete a common profile
 
 1. Select ![icon][img1] **System settings** > **Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.

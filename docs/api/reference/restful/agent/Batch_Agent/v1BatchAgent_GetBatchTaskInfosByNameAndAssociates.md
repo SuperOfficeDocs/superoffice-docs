@@ -11,6 +11,12 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 
 Get an array of BatchTaskInfo for the provided associate id's and batch task definition name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get an array of BatchTaskInfo for the provided associate id's and batch task def
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, AssociateIds
+Name, AssociateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | AssociateIds | array |  |
+
 
 ## Response: array
 
@@ -90,10 +98,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lakin-Marks",
+  "Name": "O'Hara, Beer and Lueilwitz",
   "AssociateIds": [
-    799,
-    284
+    777,
+    354
   ]
 }
 ```
@@ -106,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "Wilkinson LLC",
-    "AssociateId": 249,
-    "DetailsTable": 448,
-    "DetailsRecord": 717,
-    "IsSystemTask": false,
+    "Id": 52,
+    "Name": "Veum-Emmerich",
+    "AssociateId": 72,
+    "DetailsTable": 904,
+    "DetailsRecord": 157,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "sint",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "quod",
+      "ParameterObject2": "provident"
     },
-    "LastStarted": "1997-02-20T11:10:26.0215527+01:00",
-    "Created": "2003-02-12T11:10:26.0215527+01:00",
-    "StartCount": 205,
-    "DatabaseSerialNumber": "1137672",
-    "Context": "distinctio",
-    "Result": "nostrum",
+    "LastStarted": "2001-01-31T02:49:43.7004017+01:00",
+    "Created": "2007-05-06T02:49:43.7004017+02:00",
+    "StartCount": 374,
+    "DatabaseSerialNumber": "1047895",
+    "Context": "culpa",
+    "Result": "a",
     "State": "All",
-    "Description": "Reduced zero administration framework",
-    "Response": "voluptas",
-    "Request": "magnam",
-    "ProgressDescription": "Enhanced well-modulated strategy",
-    "ProgressPercent": 315,
-    "FileName": "Rosenbaum, Goyette and Christiansen",
+    "Description": "Versatile neutral software",
+    "Response": "beatae",
+    "Request": "explicabo",
+    "ProgressDescription": "Exclusive 3rd generation framework",
+    "ProgressPercent": 779,
+    "FileName": "Ziemann Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 493
+        "FieldLength": 727
       }
     }
   }

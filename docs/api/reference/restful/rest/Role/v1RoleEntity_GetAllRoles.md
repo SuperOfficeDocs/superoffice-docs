@@ -11,13 +11,21 @@ GET /api/v1/Role/{roleType}
 
 Get a list of all roles for the given type of role.
 
-MDO List name = 'Roles', extra='0' (roleType)
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+MDO List name = 'Roles', extra='0' (roleType) 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | roleType | Enum: Employee, ExternalUser, Anonymous, System | Type of role (Employee/External/Anonymous/System) **Required** |
+
+
 
 ## Request Headers
 
@@ -31,6 +39,7 @@ MDO List name = 'Roles', extra='0' (roleType)
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -68,7 +77,7 @@ Response body: array
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Bernier Inc and Sons",
-    "ToolTip": "Adipisci deleniti facilis eius.",
+    "Id": 606,
+    "Name": "Smitham, Veum and D'Amore",
+    "ToolTip": "In ipsum.",
     "Deleted": true,
-    "Rank": 685,
-    "Type": "ea",
-    "ColorBlock": 912,
-    "IconHint": "ut",
+    "Rank": 181,
+    "Type": "rerum",
+    "ColorBlock": 480,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "2013-11-25T11:10:53.357174+01:00",
+    "LastChanged": "1998-02-23T02:49:51.4015667+01:00",
     "ChildItems": [
       {
-        "Id": 689,
-        "Name": "Hand, Cole and Carroll",
-        "ToolTip": "Alias quasi omnis animi error.",
+        "Id": 399,
+        "Name": "DuBuque Inc and Sons",
+        "ToolTip": "Quaerat consectetur earum aut.",
         "Deleted": false,
-        "Rank": 992,
-        "Type": "earum",
-        "ColorBlock": 306,
-        "IconHint": "quia",
+        "Rank": 152,
+        "Type": "nemo",
+        "ColorBlock": 468,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2004-01-22T11:10:53.3581433+01:00",
+        "LastChanged": "2010-04-19T02:49:51.4015667+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "facere",
+        "ExtraInfo": "id",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Katelin Thea Kulas I",
+        "FullName": "Percy Kelvin Green IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 880
+            "FieldLength": 148
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "similique",
-    "Hidden": true,
-    "FullName": "Nakia Satterfield",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "quam",
+    "Hidden": false,
+    "FullName": "Austyn Beahan II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 273
+        "FieldLength": 42
       }
     }
   }

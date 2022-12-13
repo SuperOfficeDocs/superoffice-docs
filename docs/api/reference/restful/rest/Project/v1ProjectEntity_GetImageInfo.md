@@ -11,11 +11,18 @@ GET /api/v1/Project/{projectId}/Imageinfo
 
 Get the Blob that describes the given project's picture.
 
+
 The actual bitmap is accessible via /api/Services80/project/123/image/content.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | projectId | int32 | Project id **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -38,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +72,7 @@ Response body:
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,28 +80,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 27 Sep 2002 11:10:53 G9T
+Last-Modified: Sat, 25 Jan 1997 02:49:51 G1T
 
 {
-  "BlobId": 633,
-  "BlobSize": 839,
-  "Description": "Total heuristic success",
-  "ExtraInfo": "illo",
+  "BlobId": 672,
+  "BlobSize": 770,
+  "Description": "Advanced national monitoring",
+  "ExtraInfo": "perferendis",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "tempore",
-  "OriginalSize": 348,
-  "CreatedDate": "2021-06-10T11:10:53.3291739+02:00",
-  "UpdatedDate": "2002-09-27T11:10:53.3291739+02:00",
+  "MimeType": "in",
+  "OriginalSize": 780,
+  "CreatedDate": "2011-09-12T02:49:51.3703152+02:00",
+  "UpdatedDate": "1997-01-25T02:49:51.3703152+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "excepturi",
+  "ConceptualType": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 278
     }
   }
 }

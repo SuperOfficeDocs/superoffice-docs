@@ -11,9 +11,15 @@ GET /api/v1/Contact/{contactId}/Summary
 
 Get summary of contact and its recent activity.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | The contact id to summarize. **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=272
+GET /api/v1/Contact/{contactId}/Summary?limit=99
 ```
+
 
 ## Request Headers
 
@@ -38,7 +45,8 @@ GET /api/v1/Contact/{contactId}/Summary?limit=272
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +71,7 @@ Response body:
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,79 +84,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 442,
-      "TicketStatus": 72,
-      "Title": "modi",
-      "Registered": "2016-12-09T11:10:52.7161794+01:00",
-      "IconHint": "fugit"
+      "TicketId": 725,
+      "TicketStatus": 580,
+      "Title": "enim",
+      "Registered": "2015-09-13T02:49:50.8234127+02:00",
+      "IconHint": "quos"
     },
     {
-      "TicketId": 442,
-      "TicketStatus": 72,
-      "Title": "modi",
-      "Registered": "2016-12-09T11:10:52.7161794+01:00",
-      "IconHint": "fugit"
+      "TicketId": 725,
+      "TicketStatus": 580,
+      "Title": "enim",
+      "Registered": "2015-09-13T02:49:50.8234127+02:00",
+      "IconHint": "quos"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 231,
-      "DocumentId": 975,
-      "Date": "2005-01-24T11:10:52.7161794+01:00",
-      "Description": "Progressive asynchronous info-mediaries",
+      "AppointmentId": 623,
+      "DocumentId": 92,
+      "Date": "2013-06-14T02:49:50.8234127+02:00",
+      "Description": "Enhanced zero administration array",
       "Completed": "Completed",
-      "Registered": "1996-04-20T11:10:52.7161794+02:00"
+      "Registered": "2020-02-19T02:49:50.8234127+01:00"
     },
     {
-      "AppointmentId": 231,
-      "DocumentId": 975,
-      "Date": "2005-01-24T11:10:52.7161794+01:00",
-      "Description": "Progressive asynchronous info-mediaries",
+      "AppointmentId": 623,
+      "DocumentId": 92,
+      "Date": "2013-06-14T02:49:50.8234127+02:00",
+      "Description": "Enhanced zero administration array",
       "Completed": "Completed",
-      "Registered": "1996-04-20T11:10:52.7161794+02:00"
+      "Registered": "2020-02-19T02:49:50.8234127+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 349,
-      "DocumentId": 540,
-      "Date": "2014-06-19T11:10:52.7161794+02:00",
-      "Description": "Multi-tiered incremental matrix",
+      "AppointmentId": 251,
+      "DocumentId": 557,
+      "Date": "2003-11-22T02:49:50.8234127+01:00",
+      "Description": "Fundamental content-based paradigm",
       "Completed": "Completed",
-      "Registered": "2008-03-02T11:10:52.7161794+01:00"
+      "Registered": "2022-07-13T02:49:50.8234127+02:00"
     },
     {
-      "AppointmentId": 349,
-      "DocumentId": 540,
-      "Date": "2014-06-19T11:10:52.7161794+02:00",
-      "Description": "Multi-tiered incremental matrix",
+      "AppointmentId": 251,
+      "DocumentId": 557,
+      "Date": "2003-11-22T02:49:50.8234127+01:00",
+      "Description": "Fundamental content-based paradigm",
       "Completed": "Completed",
-      "Registered": "2008-03-02T11:10:52.7161794+01:00"
+      "Registered": "2022-07-13T02:49:50.8234127+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 126,
-      "SaleDate": "2001-11-13T11:10:52.7161794+01:00",
-      "Probability": 424,
-      "Heading": "quibusdam",
-      "Amount": 4174.488,
-      "Currency": "quasi",
-      "AmountInBaseCurrency": 6590.802,
+      "SaleId": 402,
+      "SaleDate": "2022-07-09T02:49:50.8234127+02:00",
+      "Probability": 845,
+      "Heading": "quos",
+      "Amount": 5396.748,
+      "Currency": "sunt",
+      "AmountInBaseCurrency": 9637.05,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "1995-05-16T11:10:52.7161794+02:00"
+      "Registered": "2007-01-23T02:49:50.8234127+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 943,
-      "Name": "Murray-Harris",
-      "CompanyName": "Waelchi, Schoen and Heathcote",
-      "FirstMessage": "adipisci",
-      "LastMessage": "fugiat",
-      "WhenRequested": "2021-05-14T11:10:52.717146+02:00",
-      "WhenEnded": "1997-01-13T11:10:52.717146+01:00"
+      "ChatSessionId": 386,
+      "Name": "Eichmann-Hessel",
+      "CompanyName": "Halvorson Group",
+      "FirstMessage": "ea",
+      "LastMessage": "eum",
+      "WhenRequested": "2007-11-26T02:49:50.8234127+01:00",
+      "WhenEnded": "2018-08-20T02:49:50.8234127+02:00"
     }
   ]
 }

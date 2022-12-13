@@ -11,9 +11,16 @@ GET /api/v1/Person/UdefLayout/{progidOrLabel}
 
 Get a PersonEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a PersonEntity user-defined field's details based on the prog-id or label.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 PersonEntity found.
 
@@ -37,7 +45,7 @@ PersonEntity found.
 | 200 | PersonEntity found. |
 | 404 | PersonEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +92,7 @@ Response body:
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 222,
-  "ColumnId": 988,
-  "FieldDefault": "praesentium",
-  "FieldHeight": 694,
-  "FieldLabel": "voluptatibus",
-  "FieldLeft": 207,
-  "FieldTop": 424,
+  "UDefFieldId": 480,
+  "ColumnId": 832,
+  "FieldDefault": "fugit",
+  "FieldHeight": 216,
+  "FieldLabel": "voluptates",
+  "FieldLeft": 550,
+  "FieldTop": 525,
   "FieldType": "Checkbox",
-  "FieldWidth": 191,
+  "FieldWidth": 582,
   "FormatMask": "aut",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 57,
-  "LabelLeft": 979,
-  "LabelTop": 407,
-  "LabelWidth": 424,
-  "LastVersionId": 200,
-  "ListTableId": 897,
-  "IsMandatory": true,
+  "LabelHeight": 294,
+  "LabelLeft": 864,
+  "LabelTop": 777,
+  "LabelWidth": 46,
+  "LastVersionId": 589,
+  "ListTableId": 277,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 918,
-  "ProgId": "officia",
+  "Page1LineNo": 983,
+  "ProgId": "maiores",
   "IsReadOnly": false,
-  "ShortLabel": "earum",
-  "TabOrder": 813,
-  "TextLength": 453,
-  "Tooltip": "perspiciatis",
-  "UdefIdentity": 567,
-  "UDListDefinitionId": 523,
+  "ShortLabel": "sed",
+  "TabOrder": 499,
+  "TextLength": 781,
+  "Tooltip": "a",
+  "UdefIdentity": 193,
+  "UDListDefinitionId": 277,
   "Justification": "Center",
-  "Version": 521,
-  "TemplateVariableName": "Feil Inc and Sons",
+  "Version": 856,
+  "TemplateVariableName": "Rath Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Greenfelder Inc and Sons",
+  "MdoListName": "Hills Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldLength": 256
     }
   }
 }

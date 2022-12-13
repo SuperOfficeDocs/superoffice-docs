@@ -11,11 +11,18 @@ PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ProjectType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "McGlynn-Spinka",
-    "ToolTip": "Voluptatum eligendi.",
+    "Id": 423,
+    "Name": "Brown LLC",
+    "ToolTip": "Id eveniet a consequatur.",
     "Deleted": false,
-    "Rank": 384,
-    "Type": "nihil",
-    "ColorBlock": 215,
-    "IconHint": "eius",
+    "Rank": 63,
+    "Type": "asperiores",
+    "ColorBlock": 879,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2016-10-10T11:10:54.4869298+02:00",
+    "LastChanged": "2021-03-26T02:49:52.4065764+01:00",
     "ChildItems": [
       {
-        "Id": 851,
-        "Name": "Skiles, Gislason and Considine",
-        "ToolTip": "Quia ea id possimus.",
-        "Deleted": false,
-        "Rank": 356,
-        "Type": "ea",
-        "ColorBlock": 79,
-        "IconHint": "minima",
+        "Id": 185,
+        "Name": "Nitzsche Inc and Sons",
+        "ToolTip": "Iure unde nihil dolor qui qui.",
+        "Deleted": true,
+        "Rank": 793,
+        "Type": "incidunt",
+        "ColorBlock": 681,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2004-12-16T11:10:54.4869298+01:00",
+        "LastChanged": "2018-05-15T02:49:52.4065764+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Keaton Kemmer"
+        "FullName": "Jalyn Cummerata"
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "nulla",
+    "ExtraInfo": "ab",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Dr. Beryl Gusikowski III"
+    "FullName": "Vanessa Gleason"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Harber-Zulauf",
-    "ToolTip": "Qui necessitatibus accusamus dolores dignissimos illum aspernatur.",
+    "Id": 798,
+    "Name": "Halvorson Group",
+    "ToolTip": "Porro pariatur recusandae rerum nobis at est.",
     "Deleted": false,
-    "Rank": 254,
-    "Type": "omnis",
-    "ColorBlock": 315,
-    "IconHint": "possimus",
+    "Rank": 373,
+    "Type": "minus",
+    "ColorBlock": 425,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2009-08-29T11:10:54.48993+02:00",
+    "LastChanged": "2001-04-14T02:49:52.4065764+02:00",
     "ChildItems": [
       {
-        "Id": 230,
-        "Name": "Gusikowski-Block",
-        "ToolTip": "Rem enim qui impedit tempore consectetur eum hic.",
+        "Id": 310,
+        "Name": "O'Conner, Quigley and Johnston",
+        "ToolTip": "Facere velit et quia nesciunt labore.",
         "Deleted": false,
-        "Rank": 77,
-        "Type": "atque",
-        "ColorBlock": 542,
-        "IconHint": "repudiandae",
-        "Selected": true,
-        "LastChanged": "2019-08-31T11:10:54.48993+02:00",
+        "Rank": 504,
+        "Type": "harum",
+        "ColorBlock": 157,
+        "IconHint": "explicabo",
+        "Selected": false,
+        "LastChanged": "1995-10-30T02:49:52.4065764+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "nemo",
+        "ExtraInfo": "beatae",
+        "StyleHint": "aperiam",
         "Hidden": true,
-        "FullName": "Santiago Eliseo Kiehn PhD",
+        "FullName": "Mr. Wade Jazmin Dach IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 357
+            "FieldLength": 420
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Mr. Golda Altenwerth",
+    "FullName": "Austyn Marquise Langosh PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 182
       }
     }
   }

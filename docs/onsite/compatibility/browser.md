@@ -22,9 +22,9 @@ Want to know if a newly released browser is compatible? Check the [compatibility
 | Internet Explorer 10 | ![i][img3] | ![i][img3] | ![i][img2] | ![i][img2] |
 | Chrome Win           | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | FireFox Win          | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Safari Mac           | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | Chrome Mac           | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] |
 | FireFox Mac          | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Safari Mac           | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 
 ## Legend
 

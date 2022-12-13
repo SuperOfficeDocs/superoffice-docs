@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/DeleteAppointmentEntity
 
 Deletes the AppointmentEntity
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,8 +24,9 @@ Deletes the AppointmentEntity
 | AppointmentEntityId | int32 | **Required** The id of the AppointmentEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?AppointmentEntityId=254
+POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?AppointmentEntityId=550
 ```
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?AppointmentEntityId=254
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -38,7 +46,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 

@@ -9,6 +9,14 @@ uid: v1PocketAgent_GetPocketStartupData
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Pocket/GetPocketStartupData
 ```http
 POST /api/v1/Agents/Pocket/GetPocketStartupData?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,16 +42,17 @@ POST /api/v1/Agents/Pocket/GetPocketStartupData?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Tables, CurrentClientTime
+Tables, CurrentClientTime 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Tables | array |  |
 | CurrentClientTime | date-time |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -50,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +71,7 @@ Response body:
 | NotificationsCount | int32 | Number of new invitations |
 | SystemWebPanels | array | Web panels defined in Admin client, set to be shown in Pocket client |
 | PocketPreferences | array | All Pocket specific preferences, including WebPanels defined by the user in Pocket |
-| IsPushNotificationEnabled | bool | Is push notification configured and enabled in NetServer |
+| IsPushNotificationEnabled | bool | Is push notification configured and enabled in Netserver |
 | CustomData | string | Custom data for Pocket, in JSON format |
 | TableRight |  |  |
 | FieldProperties | object |  |
@@ -72,15 +82,15 @@ Response body:
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "tempore",
-    "cum"
+    "reprehenderit",
+    "sit"
   ],
-  "CurrentClientTime": "2001-12-22T11:10:27.5324559+01:00"
+  "CurrentClientTime": "2008-11-28T02:49:44.9059621+01:00"
 }
 ```
 
@@ -92,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "amet",
-    "et"
+    "autem",
+    "aut"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 534,
-  "NotificationsCount": 854,
+  "OverdueSalesCount": 410,
+  "NotificationsCount": 144,
   "SystemWebPanels": [
     {
-      "WebPanelId": 69,
-      "Name": "Ebert, Gutkowski and Christiansen",
-      "Tooltip": "quibusdam",
-      "Deleted": true,
-      "Rank": 316,
+      "WebPanelId": 983,
+      "Name": "Huels, Lehner and Morar",
+      "Tooltip": "dignissimos",
+      "Deleted": false,
+      "Rank": 969,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": true,
@@ -116,18 +126,18 @@ Content-Type: application/json; charset=utf-8
       "ShowInMenuBar": true,
       "ShowInToolBar": true,
       "ShowInAddressBar": true,
-      "ShowInStatusBar": true,
-      "WindowName": "Blanda LLC",
+      "ShowInStatusBar": false,
+      "WindowName": "Wilkinson Inc and Sons",
       "Url": "http://www.example.com/",
-      "ProgId": "sit",
-      "Icon": 590,
-      "AlwaysReloadOnShow": true,
+      "ProgId": "sapiente",
+      "Icon": 833,
+      "AlwaysReloadOnShow": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 845
+          "FieldType": "System.Int32",
+          "FieldLength": 711
         }
       }
     }
@@ -135,34 +145,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "autem",
+      "RawValue": "quod",
       "Specification": null,
-      "DisplayValue": "et",
-      "DisplayTooltip": "ipsum",
+      "DisplayValue": "impedit",
+      "DisplayTooltip": "dolorem",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 294,
-      "PrefDescId": 895,
-      "TableName": "Schoen-Abbott",
-      "UserPreferenceId": 526,
+      "TargetId": 898,
+      "PrefDescId": 161,
+      "TableName": "Champlin, Schumm and Steuber",
+      "UserPreferenceId": 58,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldType": "System.String",
+          "FieldLength": 447
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "ipsam",
+  "CustomData": "excepturi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldLength": 160
     }
   }
 }

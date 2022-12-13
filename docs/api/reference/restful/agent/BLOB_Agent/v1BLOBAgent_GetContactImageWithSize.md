@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetContactImageWithSize
 
 Returns the contact image that is displayed in the CRM application with a specified maximum size.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the contact image that is displayed in the CRM application with a specif
 ```http
 POST /api/v1/Agents/BLOB/GetContactImageWithSize?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/BLOB/GetContactImageWithSize?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, Width, Height
+ContactId, Width, Height 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 | Width | int32 |  |
 | Height | int32 |  |
+
 
 ## Response: byte
 
@@ -55,19 +63,20 @@ OK
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/BLOB/GetContactImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 997,
-  "Width": 598,
-  "Height": 336
+  "ContactId": 347,
+  "Width": 473,
+  "Height": 501
 }
 ```
 

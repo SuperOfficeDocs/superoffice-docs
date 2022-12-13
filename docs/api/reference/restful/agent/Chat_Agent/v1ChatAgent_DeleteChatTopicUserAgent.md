@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/DeleteChatTopicUserAgent
 
 Remove a user from a topic
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Remove a user from a topic
 ```http
 POST /api/v1/Agents/Chat/DeleteChatTopicUserAgent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/Chat/DeleteChatTopicUserAgent?$select=name,department,catego
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatTopicId, Username
+ChatTopicId, Username 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
 | Username | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,12 +65,12 @@ Response body:
 POST /api/v1/Agents/Chat/DeleteChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 646,
-  "Username": "nemo"
+  "ChatTopicId": 279,
+  "Username": "dolorem"
 }
 ```
 

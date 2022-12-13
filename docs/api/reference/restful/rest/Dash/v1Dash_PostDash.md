@@ -11,7 +11,13 @@ POST /api/v1/Dash
 
 Creates a new Dash
 
+
 Calls the Dash agent service SaveDash.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Dash agent service SaveDash.
 ```http
 POST /api/v1/Dash?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Dash?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The Dash to be saved.
+The Dash to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +64,8 @@ The Dash to be saved.
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -65,7 +73,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,34 +100,34 @@ Response body:
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 307,
-  "UniqueId": "est",
-  "Name": "Connelly-Kuvalis",
-  "Description": "Re-engineered 6th generation superstructure",
-  "AssociateId": 680,
-  "Columns": 391,
+  "DashboardId": 399,
+  "UniqueId": "et",
+  "Name": "Christiansen, McDermott and Ratke",
+  "Description": "Organized explicit hub",
+  "AssociateId": 372,
+  "Columns": 651,
   "Theme": null,
-  "VisibleForAll": 126,
+  "VisibleForAll": 448,
   "VisibleForAssociates": [
-    628,
-    885
+    119,
+    201
   ],
   "VisibleForGroups": [
-    706,
-    557
+    288,
+    60
   ],
-  "PinForAll": 90,
+  "PinForAll": 865,
   "PinForAssociates": [
-    227,
-    563
+    280,
+    589
   ],
   "PinForGroups": [
-    568,
-    492
+    171,
+    689
   ]
 }
 ```
@@ -131,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 240,
-  "UniqueId": "et",
-  "Name": "Sauer-Durgan",
-  "Description": "Multi-lateral exuding capability",
-  "AssociateId": 849,
-  "Columns": 482,
+  "DashboardId": 147,
+  "UniqueId": "molestiae",
+  "Name": "Welch, Jerde and Okuneva",
+  "Description": "Total transitional collaboration",
+  "AssociateId": 576,
+  "Columns": 13,
   "Theme": null,
-  "VisibleForAll": 426,
+  "VisibleForAll": 629,
   "VisibleForAssociates": [
-    786,
-    769
+    507,
+    380
   ],
   "VisibleForGroups": [
-    933,
-    502
+    504,
+    663
   ],
-  "PinForAll": 842,
+  "PinForAll": 186,
   "PinForAssociates": [
-    649,
-    943
+    191,
+    359
   ],
   "PinForGroups": [
-    137,
-    124
+    560,
+    475
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldType": "System.Int32",
+      "FieldLength": 561
     }
   },
   "_Links": {

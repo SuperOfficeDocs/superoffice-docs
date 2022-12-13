@@ -11,7 +11,14 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetRevision
 
 Set default values into a new TargetRevision.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,31 +71,31 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "1996-04-09T11:10:28.1747259+02:00",
+  "When": "2001-09-02T02:49:45.4215877+02:00",
   "Changes": [
     {
-      "FieldIdentifier": "et",
-      "ValueChangeFrom": 8605.964,
-      "ValueChangeTo": 22486.45,
+      "FieldIdentifier": "ea",
+      "ValueChangeFrom": 2610.622,
+      "ValueChangeTo": 30164.75,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldType": "System.String",
+          "FieldLength": 491
         }
       }
     },
     {
-      "FieldIdentifier": "et",
-      "ValueChangeFrom": 8605.964,
-      "ValueChangeTo": 22486.45,
+      "FieldIdentifier": "ea",
+      "ValueChangeFrom": 2610.622,
+      "ValueChangeTo": 30164.75,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldType": "System.String",
+          "FieldLength": 491
         }
       }
     }
@@ -97,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 109
     }
   }
 }

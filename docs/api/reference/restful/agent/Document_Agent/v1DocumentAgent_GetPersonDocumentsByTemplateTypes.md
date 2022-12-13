@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
+
 The document appointments belong to the person specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the person specified.
 ```http
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateIds
+PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,6 +56,7 @@ PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | DocumentTemplateIds | array |  |
+
 
 ## Response: array
 
@@ -91,18 +99,18 @@ Response body: array
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 844,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2004-03-07T11:10:26.4804524+01:00",
-  "EndTime": "2015-10-17T11:10:26.4804524+02:00",
-  "Count": 231,
+  "PersonId": 916,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2017-02-25T02:49:44.0910111+01:00",
+  "EndTime": "2008-04-04T02:49:44.0910111+02:00",
+  "Count": 91,
   "DocumentTemplateIds": [
-    979,
-    718
+    5,
+    593
   ]
 }
 ```
@@ -115,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 427,
-    "Attention": "dolores",
-    "Header": "sunt",
-    "Name": "Cole-Boehm",
-    "OurRef": "aut",
-    "YourRef": "expedita",
-    "Description": "Distributed national workforce",
-    "DocumentTemplate": "voluptatem",
+    "DocumentId": 796,
+    "Attention": "sunt",
+    "Header": "facere",
+    "Name": "Stoltenberg-Kerluke",
+    "OurRef": "hic",
+    "YourRef": "veniam",
+    "Description": "Operative composite service-desk",
+    "DocumentTemplate": "voluptas",
     "IsPublished": false,
-    "PersonId": 787,
-    "PersonFullName": "Myrna Mitchell",
-    "AssociateFullName": "Bud Durgan I",
-    "ContactId": 406,
-    "ContactName": "Terry-Marks",
-    "ProjectId": 119,
-    "ProjectName": "Cartwright, Adams and O'Keefe",
-    "AssociateId": 909,
-    "Snum": 550,
-    "SaleId": 730,
-    "SaleName": "Shields, Kutch and Jast",
+    "PersonId": 677,
+    "PersonFullName": "Norberto Davis",
+    "AssociateFullName": "Alfonso Lynch",
+    "ContactId": 946,
+    "ContactName": "Schoen Inc and Sons",
+    "ProjectId": 783,
+    "ProjectName": "Davis Group",
+    "AssociateId": 984,
+    "Snum": 283,
+    "SaleId": 482,
+    "SaleName": "Pagac, Will and Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldLength": 756
       }
     }
   }

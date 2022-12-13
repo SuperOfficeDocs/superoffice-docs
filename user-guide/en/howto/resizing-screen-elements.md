@@ -13,9 +13,9 @@ language: en
 
 ## Change the size
 
-You can change the size of the main card, the side panel and the section tabs. If, for example, you have many activities, you can expand the section tabs in the **Company**, **Contact**, **Sale** and **Project** screens, so that more activities can be displayed at a time. You do not need to have the same settings for all the screens, and SuperOffice CRM will remember the settings for a screen the next time it is displayed.
+You can change the size of the main card, the side panel and the section tabs. If, for example, you have many activities, you can expand the section tabs in the **Company**, **Contact**, **Sale** and **Project** screens, so that more activities can be displayed at a time. Different screens may have different settings, and SuperOffice CRM will remember the settings for a screen the next time it is displayed.
 
-To resize the cards:
+**Steps:**
 
 1. Position the mouse pointer between the screen elements you want to resize.
 2. Click ![icon][img1] or ![icon][img2] and drag to the required size.
@@ -26,10 +26,10 @@ To resize the cards:
 
 ## Change the positioning
 
-You can change the positioning of the tabs and section tabs to meet your needs. For example, if you want the **Sales** section tab to be displayed on the left in the diary in the place of **Activities**, this is easy to do.
+You can change the positioning of the tabs and section tabs to meet your needs. For example, if you want the **Sales** section tab to be displayed on the left in the diary in the place of **Activities**.
 
 1. Click and drag the tab/section tab to where you want it.
-2. Release the tab/section tab. SuperOffice CRM remembers your choice, and displays it as you have specified the next time you open the view.
+2. Release the tab/section tab. SuperOffice CRM remembers your choice, and displays it as you specified the next time you open the view.
 
 ## Font type and size
 

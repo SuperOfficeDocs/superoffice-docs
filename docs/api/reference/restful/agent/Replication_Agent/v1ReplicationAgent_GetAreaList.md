@@ -11,7 +11,15 @@ POST /api/v1/Agents/Replication/GetAreaList
 
 Gets an array of Area objects.
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
+
+
+
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Gets an array of Area objects.
 ```http
 POST /api/v1/Agents/Replication/GetAreaList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,11 @@ POST /api/v1/Agents/Replication/GetAreaList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: areaIds
+## Request Body: areaIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -68,7 +79,7 @@ Response body: array
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +90,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 898,
-    "Name": "Mosciski, Wisoky and Price",
-    "MaxDataAge": 63,
-    "NumberOfUsers": 202,
-    "NumberOfLogins": 520,
+    "AreaId": 83,
+    "Name": "Sipes, Wolff and Harber",
+    "MaxDataAge": 111,
+    "NumberOfUsers": 63,
+    "NumberOfLogins": 620,
     "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldType": "System.String",
+        "FieldLength": 136
       }
     }
   }

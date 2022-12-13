@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale
 
 Creates a copy the active version with connected alternatives and quotelines from another sale.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a copy the active version with connected alternatives and quotelines fro
 ```http
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CopyFromSaleId, CopyToSaleId
+CopyFromSaleId, CopyToSaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CopyFromSaleId | int32 |  |
 | CopyToSaleId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,12 +86,12 @@ Response body:
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 47,
-  "CopyToSaleId": 523
+  "CopyFromSaleId": 7,
+  "CopyToSaleId": 944
 }
 ```
 
@@ -94,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 780,
-  "SaleId": 21,
-  "QuoteConnectionId": 881,
-  "ERPQuoteKey": "repellat",
-  "ERPOrderKey": "commodi",
-  "ActiveQuoteVersionId": 874,
-  "AcceptedQuoteAlternativeId": 900,
-  "UseValuesFromQuote": 293,
-  "DocumentId": 254,
-  "PoNumber": "329542",
-  "OrderComment": "fugiat",
-  "PreferredEmailCulture": "leora.jewess@gleasonkerluke.com",
+  "QuoteId": 824,
+  "SaleId": 855,
+  "QuoteConnectionId": 154,
+  "ERPQuoteKey": "minus",
+  "ERPOrderKey": "aut",
+  "ActiveQuoteVersionId": 75,
+  "AcceptedQuoteAlternativeId": 529,
+  "UseValuesFromQuote": 170,
+  "DocumentId": 855,
+  "PoNumber": "1209794",
+  "OrderComment": "rerum",
+  "PreferredEmailCulture": "marjorie_schimmel@bednar.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 861,
-      "ERPQuoteVersionKey": "deserunt",
-      "QuoteId": 297,
-      "Description": "Profound fresh-thinking success",
-      "Number": "1385868",
+      "QuoteVersionId": 341,
+      "ERPQuoteVersionKey": "aut",
+      "QuoteId": 235,
+      "Description": "Customer-focused logistical project",
+      "Number": "1184897",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 844,
-      "SentDate": "2014-05-11T11:10:27.7234949+02:00",
-      "FollowupId": 684,
-      "ExpirationDate": "2020-02-19T11:10:27.7234949+01:00",
-      "DeliveryCountryId": 659,
+      "LikelyQuoteAlternativeId": 569,
+      "SentDate": "2013-11-29T02:49:45.0465904+01:00",
+      "FollowupId": 243,
+      "ExpirationDate": "2002-09-28T02:49:45.0465904+02:00",
+      "DeliveryCountryId": 915,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 335,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "deleniti",
-      "ERPPaymentTypeKey": "fugit",
-      "ERPDeliveryTermsKey": "velit",
-      "ERPDeliveryTypeKey": "omnis",
-      "Rank": 707,
-      "ApprovedBy": 666,
-      "ApprovedText": "et",
-      "ApprovedRegisteredBy": 137,
-      "ApprovedRegisteredDate": "2000-02-11T11:10:27.7234949+01:00",
-      "ExtraField1": "vero",
-      "ExtraField2": "dolores",
-      "ExtraField3": "quia",
-      "ExtraField4": "recusandae",
-      "ExtraField5": "eos",
-      "LastRecalculated": "2011-10-15T11:10:27.7234949+02:00",
-      "Updated": "2004-10-28T11:10:27.7234949+02:00",
-      "UpdatedAssociateId": 14,
-      "Registered": "2002-06-04T11:10:27.7234949+02:00",
-      "RegisteredAssociateId": 886,
-      "RequestAssociateId": 568,
-      "RequestComment": "ut",
+      "InvoiceCountryId": 428,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "aut",
+      "ERPPaymentTypeKey": "quam",
+      "ERPDeliveryTermsKey": "dolor",
+      "ERPDeliveryTypeKey": "quo",
+      "Rank": 497,
+      "ApprovedBy": 717,
+      "ApprovedText": "laborum",
+      "ApprovedRegisteredBy": 138,
+      "ApprovedRegisteredDate": "2021-12-11T02:49:45.0465904+01:00",
+      "ExtraField1": "reiciendis",
+      "ExtraField2": "vel",
+      "ExtraField3": "non",
+      "ExtraField4": "ullam",
+      "ExtraField5": "quia",
+      "LastRecalculated": "2015-01-01T02:49:45.0465904+01:00",
+      "Updated": "2003-11-29T02:49:45.0465904+01:00",
+      "UpdatedAssociateId": 684,
+      "Registered": "2000-02-06T02:49:45.0465904+01:00",
+      "RegisteredAssociateId": 981,
+      "RequestAssociateId": 990,
+      "RequestComment": "nisi",
       "QuoteAlternatives": [
         {},
         {}
@@ -155,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldLength": 422
         }
       }
     }
@@ -164,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 967
+      "FieldType": "System.Int32",
+      "FieldLength": 240
     }
   }
 }

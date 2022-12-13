@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointments
 
 Method that returns a specified number of appointments within a time range.
 
+
 The appointments belong to the projects where the person specified is member.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the projects where the person specified is member.
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointments?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count
+PersonId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,6 +54,7 @@ PersonId, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -122,10 +130,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 613,
-  "StartTime": "1995-04-29T11:10:25.39636+02:00",
-  "EndTime": "2009-01-21T11:10:25.39636+01:00",
-  "Count": 68
+  "PersonId": 448,
+  "StartTime": "2015-09-20T02:49:43.1836168+02:00",
+  "EndTime": "2008-01-23T02:49:43.1836168+01:00",
+  "Count": 311
 }
 ```
 
@@ -137,61 +145,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 441,
-    "StartDate": "2007-07-25T11:10:25.4055145+02:00",
-    "EndDate": "2001-08-26T11:10:25.4055145+02:00",
+    "AppointmentId": 334,
+    "StartDate": "2008-07-04T02:49:43.1992469+02:00",
+    "EndDate": "2012-04-04T02:49:43.1992469+02:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Mr. Neil Tillman Kirlin Sr.",
-    "ContactName": "Fay Inc and Sons",
-    "Description": "Re-engineered background collaboration",
-    "PersonFullName": "Don Torey Schroeder MD",
-    "PersonId": 752,
-    "ContactId": 246,
-    "ProjectId": 814,
-    "ProjectName": "Gibson, Hartmann and Senger",
-    "IsPublished": true,
-    "AssociateId": 175,
-    "ColorIndex": 997,
+    "Task": "sed",
+    "AssociateFullName": "Damon Shanahan",
+    "ContactName": "Runolfsdottir, Block and Grant",
+    "Description": "Switchable neutral software",
+    "PersonFullName": "Abbie Ziemann",
+    "PersonId": 804,
+    "ContactId": 201,
+    "ProjectId": 739,
+    "ProjectName": "Pouros Group",
+    "IsPublished": false,
+    "AssociateId": 43,
+    "ColorIndex": 725,
     "IsFree": true,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 46,
-    "PriorityName": "Parisian, Smitham and Terry",
+    "PriorityId": 26,
+    "PriorityName": "Littel, Eichmann and Bahringer",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "1995-06-22T11:10:25.4065638+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2014-06-17T02:49:43.1992469+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1995-09-28T11:10:25.4065638+02:00",
-    "RecurringEndDate": "2010-08-28T11:10:25.4065638+02:00",
-    "MotherId": 663,
-    "AssignedBy": 643,
-    "AssignedByFullName": "Ilene O'Keefe",
+    "RecurringStartDate": "2005-06-28T02:49:43.1992469+02:00",
+    "RecurringEndDate": "1997-11-12T02:49:43.1992469+01:00",
+    "MotherId": 890,
+    "AssignedBy": 512,
+    "AssignedByFullName": "Raoul Anderson",
     "RejectReason": "",
-    "Location": "nihil",
-    "AlarmLeadTime": "rerum",
-    "SaleId": 343,
-    "SaleName": "Corkery Inc and Sons",
-    "AssociateName": "Watsica Group",
-    "CreatedDate": "2004-08-10T11:10:25.4065638+02:00",
-    "CreatedBy": "omnis",
-    "CreatedByFullName": "Ms. Raven Maggio",
-    "CreatedByAssociateId": 752,
+    "Location": "vero",
+    "AlarmLeadTime": "alias",
+    "SaleId": 116,
+    "SaleName": "Schaden-Schaden",
+    "AssociateName": "Johnston Inc and Sons",
+    "CreatedDate": "2000-05-22T02:49:43.1992469+02:00",
+    "CreatedBy": "distinctio",
+    "CreatedByFullName": "Ms. Garfield Patricia Cronin",
+    "CreatedByAssociateId": 502,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldType": "System.String",
+        "FieldLength": 152
       }
     }
   }

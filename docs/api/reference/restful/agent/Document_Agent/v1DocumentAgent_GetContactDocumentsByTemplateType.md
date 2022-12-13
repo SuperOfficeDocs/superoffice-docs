@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
+
 The document appointments belong to the contact specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the contact specified.
 ```http
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, DocumentTemplateId
+ContactId, StartTime, EndTime, Count, DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ ContactId, StartTime, EndTime, Count, DocumentTemplateId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | DocumentTemplateId | int32 |  |
+
 
 ## Response: array
 
@@ -90,15 +98,15 @@ Response body: array
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 874,
-  "StartTime": "2010-08-17T11:10:26.4574535+02:00",
-  "EndTime": "2016-04-08T11:10:26.4574535+02:00",
-  "Count": 856,
-  "DocumentTemplateId": 374
+  "ContactId": 109,
+  "StartTime": "2002-11-22T02:49:44.0753838+01:00",
+  "EndTime": "2000-10-30T02:49:44.0753838+01:00",
+  "Count": 743,
+  "DocumentTemplateId": 338
 }
 ```
 
@@ -110,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 653,
-    "Attention": "veritatis",
-    "Header": "omnis",
-    "Name": "Gleason, Wehner and Monahan",
-    "OurRef": "facilis",
-    "YourRef": "qui",
-    "Description": "Face to face systemic implementation",
-    "DocumentTemplate": "sequi",
+    "DocumentId": 580,
+    "Attention": "est",
+    "Header": "vero",
+    "Name": "Champlin, D'Amore and Robel",
+    "OurRef": "repellat",
+    "YourRef": "explicabo",
+    "Description": "Self-enabling systematic frame",
+    "DocumentTemplate": "commodi",
     "IsPublished": true,
-    "PersonId": 351,
-    "PersonFullName": "Gordon Johns",
-    "AssociateFullName": "Dayne Block",
-    "ContactId": 884,
-    "ContactName": "Cormier LLC",
-    "ProjectId": 916,
-    "ProjectName": "Bruen LLC",
-    "AssociateId": 720,
-    "Snum": 499,
-    "SaleId": 81,
-    "SaleName": "Schiller LLC",
+    "PersonId": 239,
+    "PersonFullName": "Quinton Raul Mitchell Sr.",
+    "AssociateFullName": "Tavares Sanford",
+    "ContactId": 44,
+    "ContactName": "Monahan, Pollich and Olson",
+    "ProjectId": 348,
+    "ProjectName": "Roberts LLC",
+    "AssociateId": 713,
+    "Snum": 16,
+    "SaleId": 528,
+    "SaleName": "Trantow Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 343
+        "FieldLength": 420
       }
     }
   }

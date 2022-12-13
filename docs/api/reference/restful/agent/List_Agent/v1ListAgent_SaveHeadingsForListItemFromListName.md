@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 
 Saves the headings for the list item.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves the headings for the list item.
 ```http
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, ListItemId, Headings
+UdListDefinitionName, ListItemId, Headings 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionName | string |  |
 | ListItemId | int32 |  |
 | Headings | array |  |
+
 
 ## Response: array
 
@@ -81,32 +89,32 @@ Response body: array
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Parisian Inc and Sons",
-  "ListItemId": 276,
+  "UdListDefinitionName": "Bode Group",
+  "ListItemId": 718,
   "Headings": [
     {
-      "Id": 756,
-      "Name": "Bradtke LLC",
-      "ToolTip": "Et dolor et eos tenetur.",
+      "Id": 695,
+      "Name": "Mills, Stehr and Romaguera",
+      "ToolTip": "Aut ipsum numquam.",
       "Deleted": true,
-      "Rank": 846,
-      "Type": "quia",
-      "ColorBlock": 319,
-      "IconHint": "ea",
-      "Selected": true,
-      "LastChanged": "2017-02-27T11:10:27.1814543+01:00",
+      "Rank": 679,
+      "Type": "perferendis",
+      "ColorBlock": 419,
+      "IconHint": "aut",
+      "Selected": false,
+      "LastChanged": "2018-11-06T02:49:44.6235457+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "quia",
+      "ExtraInfo": "velit",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Precious Collins II"
+      "FullName": "Harold Schaden"
     }
   ]
 }
@@ -120,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Stroman, Hintz and Larkin",
-    "ToolTip": "Sed necessitatibus voluptatibus non cumque dignissimos.",
-    "Deleted": false,
-    "Rank": 648,
-    "Type": "possimus",
-    "ColorBlock": 748,
-    "IconHint": "similique",
-    "Selected": true,
-    "LastChanged": "2007-01-22T11:10:27.1824535+01:00",
+    "Id": 792,
+    "Name": "Davis LLC",
+    "ToolTip": "Expedita et.",
+    "Deleted": true,
+    "Rank": 469,
+    "Type": "ut",
+    "ColorBlock": 942,
+    "IconHint": "nesciunt",
+    "Selected": false,
+    "LastChanged": "2003-02-13T02:49:44.6235457+01:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Homenick, Hayes and Swaniawski",
-        "ToolTip": "Nisi mollitia nisi officiis non.",
+        "Id": 239,
+        "Name": "Fadel LLC",
+        "ToolTip": "A repellendus.",
         "Deleted": false,
-        "Rank": 127,
-        "Type": "quo",
-        "ColorBlock": 667,
-        "IconHint": "quisquam",
-        "Selected": true,
-        "LastChanged": "2013-11-20T11:10:27.1824535+01:00",
+        "Rank": 944,
+        "Type": "sit",
+        "ColorBlock": 13,
+        "IconHint": "voluptatum",
+        "Selected": false,
+        "LastChanged": "2018-06-17T02:49:44.6235457+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "id",
+        "ExtraInfo": "omnis",
+        "StyleHint": "maxime",
         "Hidden": false,
-        "FullName": "Graham Dooley V",
+        "FullName": "Lonny Darryl Kuphal PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 591
+            "FieldLength": 933
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "commodi",
-    "Hidden": true,
-    "FullName": "Antonina Trantow",
+    "ExtraInfo": "quidem",
+    "StyleHint": "quaerat",
+    "Hidden": false,
+    "FullName": "Mariane Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 400
+        "FieldLength": 805
       }
     }
   }

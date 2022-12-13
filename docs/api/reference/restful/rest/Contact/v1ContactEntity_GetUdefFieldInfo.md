@@ -11,9 +11,16 @@ GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 
 Get a ContactEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a ContactEntity user-defined field's details based on the prog-id or label.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ContactEntity found.
 
@@ -37,7 +45,7 @@ ContactEntity found.
 | 200 | ContactEntity found. |
 | 404 | ContactEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +92,7 @@ Response body:
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,46 +102,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 358,
-  "ColumnId": 301,
-  "FieldDefault": "qui",
-  "FieldHeight": 441,
-  "FieldLabel": "dolorem",
-  "FieldLeft": 66,
-  "FieldTop": 82,
+  "UDefFieldId": 810,
+  "ColumnId": 406,
+  "FieldDefault": "nihil",
+  "FieldHeight": 408,
+  "FieldLabel": "eveniet",
+  "FieldLeft": 593,
+  "FieldTop": 699,
   "FieldType": "Checkbox",
-  "FieldWidth": 84,
-  "FormatMask": "aliquam",
+  "FieldWidth": 500,
+  "FormatMask": "et",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 740,
-  "LabelLeft": 814,
-  "LabelTop": 241,
-  "LabelWidth": 783,
-  "LastVersionId": 553,
-  "ListTableId": 226,
+  "IsIndexed": true,
+  "LabelHeight": 388,
+  "LabelLeft": 794,
+  "LabelTop": 341,
+  "LabelWidth": 289,
+  "LastVersionId": 681,
+  "ListTableId": 286,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 696,
-  "ProgId": "facere",
-  "IsReadOnly": false,
-  "ShortLabel": "commodi",
-  "TabOrder": 769,
-  "TextLength": 426,
-  "Tooltip": "unde",
-  "UdefIdentity": 110,
-  "UDListDefinitionId": 223,
+  "Page1LineNo": 936,
+  "ProgId": "eveniet",
+  "IsReadOnly": true,
+  "ShortLabel": "et",
+  "TabOrder": 477,
+  "TextLength": 813,
+  "Tooltip": "et",
+  "UdefIdentity": 212,
+  "UDListDefinitionId": 438,
   "Justification": "Center",
-  "Version": 663,
-  "TemplateVariableName": "Sauer LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Durgan, Tremblay and DuBuque",
+  "Version": 352,
+  "TemplateVariableName": "Sporer-Kling",
+  "HasBeenPublished": false,
+  "MdoListName": "Botsford-Boyle",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldLength": 485
     }
   }
 }

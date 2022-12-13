@@ -9,6 +9,14 @@ uid: v1SaleAgent_GetSaleStakeholders
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/GetSaleStakeholders
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholders?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,13 +42,14 @@ POST /api/v1/Agents/Sale/GetSaleStakeholders?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId
+SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
+
 
 ## Response: array
 
@@ -81,11 +91,11 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 191
+  "SaleId": 363
 }
 ```
 
@@ -97,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Dicki-Skiles",
-    "Comment": "et",
-    "StakeholderRoleId": 994,
-    "CountryId": 849,
-    "PersonId": 239,
-    "EmailDescription": "ezekiel_moore@ornmitchell.info",
-    "EmailId": 269,
-    "EmailAddress": "coby.hettinger@hackett.name",
-    "PhoneId": 915,
-    "ContactName": "Hyatt LLC",
-    "ContactId": 635,
-    "SaleId": 106,
-    "Mrmrs": "occaecati",
-    "Firstname": "Mariam",
-    "MiddleName": "Bogisich-Abbott",
-    "Lastname": "Leannon",
-    "SaleStakeholderId": 137,
-    "Rank": 74,
-    "Phone": "678-635-6523 x51753",
+    "StakeholderRoleName": "McCullough Group",
+    "Comment": "quia",
+    "StakeholderRoleId": 584,
+    "CountryId": 808,
+    "PersonId": 461,
+    "EmailDescription": "peter@pfannerstillhansen.uk",
+    "EmailId": 628,
+    "EmailAddress": "ara.runolfsdottir@windler.name",
+    "PhoneId": 758,
+    "ContactName": "Ferry, Nitzsche and Spinka",
+    "ContactId": 501,
+    "SaleId": 902,
+    "Mrmrs": "aut",
+    "Firstname": "Elna",
+    "MiddleName": "Bernhard LLC",
+    "Lastname": "Gorczany",
+    "SaleStakeholderId": 185,
+    "Rank": 217,
+    "Phone": "1-245-302-5142",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldType": "System.String",
+        "FieldLength": 44
       }
     }
   }

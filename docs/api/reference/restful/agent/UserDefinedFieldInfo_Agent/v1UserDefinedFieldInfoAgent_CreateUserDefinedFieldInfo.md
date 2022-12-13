@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 
 Create a UserDefinedFieldInfo based on a owner-entity id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a UserDefinedFieldInfo based on a owner-entity id
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType, FieldType
+OwnerType, FieldType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 | FieldType | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,7 +107,7 @@ Response body:
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 857,
-  "ColumnId": 932,
-  "FieldDefault": "inventore",
-  "FieldHeight": 803,
-  "FieldLabel": "sunt",
-  "FieldLeft": 142,
-  "FieldTop": 97,
+  "UDefFieldId": 919,
+  "ColumnId": 362,
+  "FieldDefault": "enim",
+  "FieldHeight": 460,
+  "FieldLabel": "aut",
+  "FieldLeft": 855,
+  "FieldTop": 813,
   "FieldType": "Checkbox",
-  "FieldWidth": 687,
-  "FormatMask": "deleniti",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 664,
-  "LabelLeft": 754,
-  "LabelTop": 781,
-  "LabelWidth": 556,
-  "LastVersionId": 440,
-  "ListTableId": 398,
+  "FieldWidth": 640,
+  "FormatMask": "occaecati",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 654,
+  "LabelLeft": 788,
+  "LabelTop": 653,
+  "LabelWidth": 430,
+  "LastVersionId": 184,
+  "ListTableId": 202,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 383,
-  "ProgId": "molestiae",
+  "Page1LineNo": 979,
+  "ProgId": "perferendis",
   "IsReadOnly": false,
-  "ShortLabel": "ea",
-  "TabOrder": 357,
-  "TextLength": 218,
-  "Tooltip": "maxime",
-  "UdefIdentity": 824,
-  "UDListDefinitionId": 247,
+  "ShortLabel": "sapiente",
+  "TabOrder": 611,
+  "TextLength": 953,
+  "Tooltip": "eaque",
+  "UdefIdentity": 851,
+  "UDListDefinitionId": 181,
   "Justification": "Center",
-  "Version": 629,
-  "TemplateVariableName": "Bins-Pollich",
+  "Version": 898,
+  "TemplateVariableName": "Nienow, O'Kon and Labadie",
   "HasBeenPublished": false,
-  "MdoListName": "Crona, Krajcik and Crist",
+  "MdoListName": "Reynolds, Walter and Nicolas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 441
+      "FieldType": "System.Int32",
+      "FieldLength": 320
     }
   }
 }

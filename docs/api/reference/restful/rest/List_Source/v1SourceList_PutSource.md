@@ -11,9 +11,16 @@ PUT /api/v1/List/Source/Items/{id}
 
 Updates an existing Source list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of Source to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing Source list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of Source list item to be saved.
+The details of Source list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The details of Source list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,16 +78,16 @@ Response body:
 PUT /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 692,
-  "Name": "Jacobi LLC",
-  "Tooltip": "quis",
+  "Id": 655,
+  "Name": "Reilly Inc and Sons",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "UdListDefinitionId": 283,
-  "Rank": 360
+  "UdListDefinitionId": 860,
+  "Rank": 731
 }
 ```
 
@@ -90,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 360,
-  "Name": "Schulist Group",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "UdListDefinitionId": 590,
-  "Rank": 463,
+  "Id": 702,
+  "Name": "Bode Inc and Sons",
+  "Tooltip": "autem",
+  "Deleted": false,
+  "UdListDefinitionId": 982,
+  "Rank": 495,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 522
+      "FieldLength": 72
     }
   }
 }

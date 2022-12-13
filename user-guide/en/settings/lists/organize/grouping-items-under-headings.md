@@ -11,7 +11,7 @@ language: en
 
 # Group items under headings
 
-If you want a list with two levels, you need to select headings for each individual item in the **Items** list in the **Lists** screen. Alternatively, you can go to the **Headings** tab to specify available items for specific headings. Both methods are described below.
+If you want a list with two levels, you must select headings for each individual item in the **Items** list in the **Lists** screen. Alternatively, you can go to the **Headings** tab to specify available items for specific headings. Both methods are described below.
 
 [!include[Note](../includes/note-minimum-list-items.md)]
 
@@ -22,7 +22,7 @@ If you want a list with two levels, you need to select headings for each individ
 2. [!include[Click arrow and select](../../../includes/expand-list.md)] the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
 
     > [!NOTE]
-    > If this field is empty, you need to [add headings first][1].
+    > If this field is empty, [add headings first][1].
 
 3. Select the required item in the **Items** list.
 
@@ -42,7 +42,7 @@ If you want a list with two levels, you need to select headings for each individ
 2. [!include[Click arrow and select](../../../includes/expand-list.md)] the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
 
     > [!NOTE]
-    > If this field is empty, you need to [add headings first][1].
+    > If this field is empty, [add headings first][1].
 
 3. Check **Use grouping and user group filtering for this list** in the top right.
 

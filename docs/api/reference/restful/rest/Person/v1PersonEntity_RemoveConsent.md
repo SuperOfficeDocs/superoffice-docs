@@ -11,10 +11,17 @@ DELETE /api/v1/Person/{personId}/Consent/{purpose}
 
 Turn off consent for a specified person and purpose.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | The person id **Required** |
 | purpose | string | The key of the purpose to remove. (e.g. 'STORE' or 'EMARKETING') **Required** |
+
+
 
 ## Request Headers
 
@@ -25,7 +32,8 @@ Turn off consent for a specified person and purpose.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -33,7 +41,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 

@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDList
 
 Kind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Kind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDList
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Info
+Info 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Info |  | Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface. <para /> Carrier object for UserDefinedFieldInfo. Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>. |
+
 
 ## Response: int32
 
@@ -53,13 +61,14 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/FigureOutListIdFromListTableIdAndUDListDefinitionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -73,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-652
+749
 ```

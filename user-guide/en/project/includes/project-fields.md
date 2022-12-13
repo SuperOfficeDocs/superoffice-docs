@@ -7,7 +7,7 @@
 
 1. **Web site:** This field contains a table with columns for **Web Address (URL)** and **Title**.
 
-    Enter the address of a web page on the Internet and a brief description of the sort of page it is. You can enter several web addresses if required. Click outside the table when you have finished, or press **TAB** until the table closes.
+    Enter the address of a web page on the Internet and a brief description of the sort of page it is. You can enter several web addresses if required. Click outside the table when you are done, or press **TAB** until the table closes.
 
 1. **Description field:** Enter a more detailed description of the project in the large text box.
 
@@ -16,22 +16,22 @@
 1. **Type:** Choose the type of project here. Click the arrow to display a list of predefined types. These are defined in SuperOffice Settings and maintenance. This is a mandatory field and **must** therefore be filled in.
 
     > [!NOTE]
-    > Some project types are linked to a [project guide][2]. If you switch project type, the associated project guide also disappears. Any activities and documents you have created in connection with the project guide will remain on the **Activities** section tab in the diary. If you later switch back to the original project type, the link between the follow-ups/documents and the project guide is restored.
+    > Some project types are linked to a [project guide][2]. If you switch project type, the associated project guide also disappears. Any activities and documents created in connection with the project guide will remain on the **Activities** section tab in the diary. If you later switch back to the original project type, the link between the follow-ups/documents and the project guide is restored.
 
 1. **Status:** Specify the status of the project here. Click the arrow to display a list of predefined alternatives. These are defined in SuperOffice Settings and maintenance.
 
     > [!NOTE]
     > If the project is linked to a [project guide][2], the statuses of the project guide are shown in this field. When you change a status, for example from **Planned** to **In progress**, the first status in the **Project guide** section tab is marked as completed, with a tick.
 
-1. **End date:** Enter the end date of the project in the **End date** field. If you want to change the proposed end date, click the arrow next to the date and select a new one in the calendar that appears.
+1. **End date:** Enter the end date of the project in the **End date** field. To change the proposed end date, click the arrow next to the date and select a new one in the calendar that appears.
 
 1. **Next milestone:** If the project is linked to a project guide, the **Next milestone** field shows the date of the next milestone follow-up linked to the project. If this date is prior to today, it is shown in red. If the project is not linked to a project guide, the project end date is shown here. The **Next milestone** date calculates automatically based on activities linked to the project or entered via the project guide. Usually this is the date of the next open activity in the project's **Activities** section tab.
 
 1. **User-defined fields:** Here, three of the fields from the **More** tab may be displayed, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
 
-1. **Completed:** This box indicates whether the project is completed or not.
+1. **Completed:** This box indicates whether the project is completed.
 
-1. **Publish:** (requires separate licence) If you check this box, the project will be visible to external users through third-party applications. You can choose to have the project published for a specified period of time only (see [The Event tab][4]).
+1. **Publish:** (requires separate licence) If you check this box, the project is visible to external users through third-party applications. You can choose to have the project published for a limited time only (see [The Event tab][4]).
 
 <!-- Referenced links -->
 [5]: ../../howto/duplicates.md

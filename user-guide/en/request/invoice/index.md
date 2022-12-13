@@ -13,7 +13,7 @@ language: en
 
 ## Invoice types
 
-Invoice types are used as a basis for invoice lines which are entered in request messages in the system. The **Invoice types** screen contains a list of all invoice types that have been created.
+Invoice types are used as a basis for invoice lines which are entered in request messages in the system. The **Invoice types** screen contains a list of all invoice types.
 
 ## Invoice properties screen
 

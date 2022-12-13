@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 08.26.2022
+so.date: 11.29.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -19,6 +19,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITimeZoneAgent'
 * [CheckNewTimeZoneDataAvailable](checknewtimezonedataavailable.md)
 * [DeleteTimeZones](deletetimezones.md)
 * [GetBaseTimeZoneId](getbasetimezoneid.md)
+* [GetDefaultTimeZoneInformation](getdefaulttimezoneinformation.md)
 * [GetDefaultTimeZonePreference](getdefaulttimezonepreference.md)
 * [InitializeTimeZoneData](initializetimezonedata.md)
 * [SetActiveTimeZoneRow](setactivetimezonerow.md)
@@ -27,3 +28,4 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITimeZoneAgent'
 * [TimeOfLastTimeZoneUpdate](timeoflasttimezoneupdate.md)
 * [ToggleActiveTimeZoneRow](toggleactivetimezonerow.md)
 * [UpdateTimeZoneData](updatetimezonedata.md)
+

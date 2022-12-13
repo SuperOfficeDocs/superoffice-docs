@@ -11,11 +11,18 @@ PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 
 Saves headings for the PaymentTerm list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Smitham-Rohan",
-    "ToolTip": "Eos at non aut autem.",
-    "Deleted": true,
-    "Rank": 459,
-    "Type": "ea",
-    "ColorBlock": 110,
-    "IconHint": "possimus",
+    "Id": 864,
+    "Name": "Johnson LLC",
+    "ToolTip": "Modi reprehenderit ut aliquam rerum magnam iste.",
+    "Deleted": false,
+    "Rank": 697,
+    "Type": "assumenda",
+    "ColorBlock": 234,
+    "IconHint": "accusamus",
     "Selected": false,
-    "LastChanged": "2000-05-24T11:10:54.3459022+02:00",
+    "LastChanged": "2011-04-02T02:49:52.2971911+02:00",
     "ChildItems": [
       {
         "Id": 516,
-        "Name": "Reinger, Kulas and Luettgen",
-        "ToolTip": "Dicta omnis aut.",
-        "Deleted": true,
-        "Rank": 63,
-        "Type": "illo",
-        "ColorBlock": 569,
-        "IconHint": "earum",
+        "Name": "Hessel Group",
+        "ToolTip": "Minima fugit vel tempore.",
+        "Deleted": false,
+        "Rank": 955,
+        "Type": "qui",
+        "ColorBlock": 887,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "1995-05-30T11:10:54.3459022+02:00",
+        "LastChanged": "2005-03-28T02:49:52.2971911+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "animi",
+        "ExtraInfo": "minus",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Mrs. Bradford Jillian Homenick"
+        "FullName": "Dr. Yvonne Olson II"
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "aut",
+    "ExtraInfo": "sed",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Kylie Effertz"
+    "FullName": "Esta Emmerich V"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Heidenreich, Koepp and Ondricka",
-    "ToolTip": "Reprehenderit laudantium.",
-    "Deleted": true,
-    "Rank": 813,
-    "Type": "quo",
-    "ColorBlock": 56,
-    "IconHint": "quidem",
+    "Id": 575,
+    "Name": "Smitham, Crona and Feest",
+    "ToolTip": "Iste error consectetur hic ut sit vero odit.",
+    "Deleted": false,
+    "Rank": 162,
+    "Type": "vero",
+    "ColorBlock": 319,
+    "IconHint": "quae",
     "Selected": false,
-    "LastChanged": "2013-08-25T11:10:54.3479023+02:00",
+    "LastChanged": "2009-06-29T02:49:52.2971911+02:00",
     "ChildItems": [
       {
-        "Id": 754,
-        "Name": "Hayes-Parisian",
-        "ToolTip": "Harum error quos rerum dolore.",
-        "Deleted": false,
-        "Rank": 22,
-        "Type": "laboriosam",
-        "ColorBlock": 690,
-        "IconHint": "omnis",
+        "Id": 931,
+        "Name": "Wyman Inc and Sons",
+        "ToolTip": "Est qui ut itaque dolorum consequuntur est.",
+        "Deleted": true,
+        "Rank": 182,
+        "Type": "in",
+        "ColorBlock": 512,
+        "IconHint": "esse",
         "Selected": true,
-        "LastChanged": "2021-12-17T11:10:54.3479023+01:00",
+        "LastChanged": "2015-05-27T02:49:52.2971911+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "qui",
+        "ExtraInfo": "natus",
+        "StyleHint": "quibusdam",
         "Hidden": true,
-        "FullName": "Prof. Gracie Renner PhD",
+        "FullName": "Paula Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 139
+            "FieldType": "System.String",
+            "FieldLength": 728
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "amet",
     "Hidden": false,
-    "FullName": "Elda McGlynn",
+    "FullName": "Delbert Bednar I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 827
+        "FieldType": "System.Int32",
+        "FieldLength": 582
       }
     }
   }

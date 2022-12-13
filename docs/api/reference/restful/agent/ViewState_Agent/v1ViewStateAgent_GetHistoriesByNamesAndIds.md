@@ -11,7 +11,13 @@ POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 
 Returns history data for the named entities and the given ids - which may not directly correspond to the current history records in the database.
 
+
 &lt;para/&gt;Use this method if you know exactly which items you need, regardless of whether they are in the current history or not.&lt;para/&gt;The history in the database is not changed or even looked at by this method.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Returns history data for the named entities and the given ids - which may not di
 ```http
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Requests
+Requests 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Requests | array |  |
+
 
 ## Response: array
 
@@ -73,19 +81,19 @@ Response body: array
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Feeney Group",
-      "EntityOrParentId": 967,
+      "EntityName": "Casper-Johnston",
+      "EntityOrParentId": 834,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Feeney Group",
-      "EntityOrParentId": 967,
+      "EntityName": "Casper-Johnston",
+      "EntityOrParentId": 834,
       "RequestForNewRecord": false
     }
   ]
@@ -100,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 605,
-    "Id": 120,
-    "HistoryName": "Kiehn, Gutkowski and Hartmann",
-    "HistoryId": 892,
-    "AssociateId": 932,
-    "Name": "Predovic-Mann",
-    "ItemInfo": "at",
+    "Rank": 942,
+    "Id": 198,
+    "HistoryName": "Emmerich LLC",
+    "HistoryId": 743,
+    "AssociateId": 559,
+    "Name": "Rice, Brown and Doyle",
+    "ItemInfo": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 196
       }
     }
   }

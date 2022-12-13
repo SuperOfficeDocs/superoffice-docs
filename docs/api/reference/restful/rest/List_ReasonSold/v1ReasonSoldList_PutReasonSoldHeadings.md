@@ -11,7 +11,14 @@ PUT /api/v1/List/ReasonSold/Headings
 
 Saves headings for the ReasonSold list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -72,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 620,
-    "Name": "Balistreri LLC",
-    "Tooltip": "molestiae",
+    "HeadingId": 924,
+    "Name": "Glover-Jacobson",
+    "Tooltip": "eius",
     "Deleted": true,
-    "Rank": 959,
-    "UdListDefinitionId": 408
+    "Rank": 374,
+    "UdListDefinitionId": 854
   },
   {
-    "HeadingId": 620,
-    "Name": "Balistreri LLC",
-    "Tooltip": "molestiae",
+    "HeadingId": 924,
+    "Name": "Glover-Jacobson",
+    "Tooltip": "eius",
     "Deleted": true,
-    "Rank": 959,
-    "UdListDefinitionId": 408
+    "Rank": 374,
+    "UdListDefinitionId": 854
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 664,
-    "Name": "Aufderhar, Beatty and Crona",
-    "Tooltip": "et",
+    "HeadingId": 901,
+    "Name": "Beatty-Schroeder",
+    "Tooltip": "odit",
     "Deleted": false,
-    "Rank": 789,
-    "UdListDefinitionId": 40,
+    "Rank": 243,
+    "UdListDefinitionId": 208,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldLength": 114
       }
     }
   }

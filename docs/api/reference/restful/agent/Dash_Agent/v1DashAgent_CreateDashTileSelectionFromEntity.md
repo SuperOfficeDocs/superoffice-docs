@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/CreateDashTileSelectionFromEntity
 
 Returns the id to a dashboard tile selection
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the id to a dashboard tile selection
 ```http
 POST /api/v1/Agents/Dash/CreateDashTileSelectionFromEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Dash/CreateDashTileSelectionFromEntity?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EntityName
+EntityName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EntityName | string |  |
+
 
 ## Response: int32
 
@@ -53,17 +61,18 @@ OK
 
 Response body: int32
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/CreateDashTileSelectionFromEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Marquardt, Rath and Green"
+  "EntityName": "Will-Hoeger"
 }
 ```
 
@@ -73,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-20
+599
 ```

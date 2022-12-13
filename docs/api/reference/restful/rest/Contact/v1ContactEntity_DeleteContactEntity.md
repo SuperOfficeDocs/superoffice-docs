@@ -11,11 +11,18 @@ DELETE /api/v1/Contact/{id}
 
 Deletes the ContactEntity
 
+
 Calls the Contact agent service DeleteContactEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ContactEntity to be deleted. **Required** |
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Calls the Contact agent service DeleteContactEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ContactEntity deleted.
 
@@ -35,7 +43,8 @@ ContactEntity deleted.
 | 204 | ContactEntity deleted. |
 | 412 | Delete aborted because ContactEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 

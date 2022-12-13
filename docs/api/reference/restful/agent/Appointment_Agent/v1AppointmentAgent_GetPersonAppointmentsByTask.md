@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 
 Method that returns a specified number of appointments of a specific appointment task type within a time range.
 
+
 The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the person specified.  Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskId
+PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,6 +56,7 @@ PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskId | int32 |  |
+
 
 ## Response: array
 
@@ -120,16 +128,16 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 784,
+  "PersonId": 154,
   "IncludeProjectAppointments": false,
-  "StartTime": "1996-04-23T11:10:25.4105528+02:00",
-  "EndTime": "1998-05-11T11:10:25.4105528+02:00",
-  "Count": 850,
-  "TaskId": 755
+  "StartTime": "2011-06-20T02:49:43.1992469+02:00",
+  "EndTime": "2007-10-31T02:49:43.1992469+01:00",
+  "Count": 689,
+  "TaskId": 7
 }
 ```
 
@@ -141,61 +149,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 923,
-    "StartDate": "2012-12-12T11:10:25.4135595+01:00",
-    "EndDate": "2009-06-08T11:10:25.4135595+02:00",
+    "AppointmentId": 34,
+    "StartDate": "2007-08-30T02:49:43.1992469+02:00",
+    "EndDate": "2011-12-27T02:49:43.1992469+01:00",
     "Type": "BookingForChecklist",
-    "Task": "nihil",
-    "AssociateFullName": "Dr. Osborne Thomas Hane PhD",
-    "ContactName": "Anderson, Daniel and Klein",
-    "Description": "Configurable stable analyzer",
-    "PersonFullName": "Mrs. Skye Kub DDS",
-    "PersonId": 504,
-    "ContactId": 168,
-    "ProjectId": 2,
-    "ProjectName": "Haley-Donnelly",
+    "Task": "iusto",
+    "AssociateFullName": "Mr. Zella Adrianna Hilll V",
+    "ContactName": "Cole LLC",
+    "Description": "Enhanced bifurcated attitude",
+    "PersonFullName": "Delia Ernser",
+    "PersonId": 316,
+    "ContactId": 36,
+    "ProjectId": 778,
+    "ProjectName": "Kemmer-O'Reilly",
     "IsPublished": false,
-    "AssociateId": 950,
-    "ColorIndex": 493,
-    "IsFree": true,
+    "AssociateId": 322,
+    "ColorIndex": 853,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 116,
-    "PriorityName": "Schuster, Roberts and Marks",
+    "PriorityId": 439,
+    "PriorityName": "Haag, Haag and Jacobson",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "1996-08-04T11:10:25.414562+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "1997-12-17T02:49:43.1992469+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-02-25T11:10:25.414562+01:00",
-    "RecurringEndDate": "2012-04-05T11:10:25.414562+02:00",
-    "MotherId": 582,
-    "AssignedBy": 719,
-    "AssignedByFullName": "Neha Crist",
+    "RecurringStartDate": "2015-09-08T02:49:43.1992469+02:00",
+    "RecurringEndDate": "2018-06-10T02:49:43.1992469+02:00",
+    "MotherId": 944,
+    "AssignedBy": 859,
+    "AssignedByFullName": "Marisol Conroy",
     "RejectReason": "",
-    "Location": "omnis",
-    "AlarmLeadTime": "et",
-    "SaleId": 987,
-    "SaleName": "Bashirian-Sauer",
-    "AssociateName": "Wilderman, Emard and Blanda",
-    "CreatedDate": "2000-02-09T11:10:25.414562+01:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Ms. Baby Marc Heidenreich",
-    "CreatedByAssociateId": 590,
+    "Location": "voluptatem",
+    "AlarmLeadTime": "ab",
+    "SaleId": 285,
+    "SaleName": "Wisozk-Labadie",
+    "AssociateName": "Baumbach Inc and Sons",
+    "CreatedDate": "2010-12-14T02:49:43.1992469+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Dr. Isac Dallas Davis",
+    "CreatedByAssociateId": 598,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 376
+        "FieldType": "System.String",
+        "FieldLength": 588
       }
     }
   }

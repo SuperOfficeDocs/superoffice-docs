@@ -11,6 +11,7 @@ GET /api/v1/Role
 
 OData list of all RoleEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Role?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * Role?$top=1000
 * Role?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "Role" archive.
 
-## Filter Operators ##
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=tempora
-GET /api/v1/Role?$top=166
-GET /api/v1/Role?$skip=46
+GET /api/v1/Role?$entities=qui
+GET /api/v1/Role?$top=715
+GET /api/v1/Role?$skip=407
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=autem
+GET /api/v1/Role?$context=in
 GET /api/v1/Role?$format=JSON
-GET /api/v1/Role?$jsonSafe=False
+GET /api/v1/Role?$jsonSafe=True
 GET /api/v1/Role?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,7 +95,8 @@ GET /api/v1/Role?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -92,7 +104,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -106,7 +118,7 @@ Response body:
 GET /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "iusto",
+  "odata.nextLink": "facere",
   "value": [
     {
-      "PrimaryKey": 4054,
+      "PrimaryKey": 2086,
       "EntityName": "person",
-      "personId": 4054,
-      "fullName": "Mrs. Keeley Boyle"
+      "personId": 2086,
+      "fullName": "Prof. Brenden Claud Braun"
     },
     {
-      "PrimaryKey": 2253,
+      "PrimaryKey": 746,
       "EntityName": "person",
-      "personId": 2253,
-      "fullName": "Lorenzo Kunde IV"
+      "personId": 746,
+      "fullName": "Matt Shania Howell IV"
     }
   ]
 }

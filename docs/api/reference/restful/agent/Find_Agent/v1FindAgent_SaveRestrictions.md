@@ -11,6 +11,12 @@ POST /api/v1/Agents/Find/SaveRestrictions
 
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save an array of restrictions for later use as search criteria (including as dyn
 ```http
 POST /api/v1/Agents/Find/SaveRestrictions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ POST /api/v1/Agents/Find/SaveRestrictions?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, Restrictions
+StorageType, ProviderName, StorageKey, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ StorageType, ProviderName, StorageKey, Restrictions
 | StorageKey | string |  |
 | Restrictions | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +58,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -62,30 +71,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Marvin-Powlowski",
-  "StorageKey": "beatae",
+  "StorageType": "necessitatibus",
+  "ProviderName": "Schimmel-Mosciski",
+  "StorageKey": "ut",
   "Restrictions": [
     {
-      "Name": "O'Connell-Torphy",
-      "Operator": "ut",
+      "Name": "Rice, Lehner and Murray",
+      "Operator": "recusandae",
       "Values": [
-        "adipisci",
-        "esse"
+        "rerum",
+        "natus"
       ],
       "DisplayValues": [
-        "officia",
-        "autem"
+        "quos",
+        "eligendi"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 610,
+      "InterParenthesis": 90,
       "InterOperator": "And",
-      "UniqueHash": 69
+      "UniqueHash": 486
     }
   ]
 }

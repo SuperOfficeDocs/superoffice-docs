@@ -79,11 +79,13 @@ SuperOffice Mobile has some SOProtocol support that you can use in web panels. H
 
 ## mailto
 
+<!-- markdownlint-disable MD013 -->
 ```html
 <a href="mailto:pocket@superoffice.com">mailto:pocket@superoffice.com</a>
 <a href="mailto:pocket@superoffice.com?cc=pocket2@superoffice.com">mailto:pocket@superoffice.com?cc=pocket2@superoffice.com</a>
 <a href="mailto:pocket@superoffice.com&amp;cc=pocket2@superoffice.com">mailto:pocket@superoffice.com&amp;cc=pocket2@superoffice.com</a>
 <a href="mailto:pocket@superoffice.com;pocket2@superoffice.com?subject=Custom%20mailto%20subject&amp;body=Hi,%0AIn%20this%20article%20you%20will%20find%20samples%20about%20how%20to%20use%20MailTo%20in%20HTML">mailto:pocket@superoffice.com;pocket2@superoffice.com?subject=Custom mailto subject&amp;body=Hi,%0AIn this article you will find samples about how to use MailTo in HTML</a>
 ```
+<!-- markdownlint-restore -->
 
 <!-- Referenced links -->

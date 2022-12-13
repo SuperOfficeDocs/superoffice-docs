@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetDuplicates
 
 Get duplicates(exact or similar in the database) based on the name
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get duplicates(exact or similar in the database) based on the name
 ```http
 POST /api/v1/Agents/Project/GetDuplicates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Project/GetDuplicates?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name
+Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
+
 
 ## Response: array
 
@@ -69,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Abbott-Roberts"
+  "Name": "Wolff, Littel and Berge"
 }
 ```
 
@@ -85,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "VonRueden Group",
-    "SoPrimaryKey": 994,
-    "EntryName": "Pfannerstill, Koepp and Goodwin",
-    "EntryIdentifier": "at",
-    "RuleDisplayName": "Abshire Inc and Sons",
+    "RuleName": "Harvey Group",
+    "SoPrimaryKey": 730,
+    "EntryName": "Cassin, Roberts and Rodriguez",
+    "EntryIdentifier": "dolorum",
+    "RuleDisplayName": "Boyle, Vandervort and Torphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 721
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

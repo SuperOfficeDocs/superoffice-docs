@@ -11,6 +11,12 @@ GET /api/v1/List/Currency/MDOItems
 
 Get the MDO list items for "Currency" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=qui
+GET /api/v1/List/Currency/MDOItems?query=esse
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Currency/MDOItems?query=qui
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Emmerich-Dibbert",
-    "ToolTip": "Explicabo nam consequatur sint aliquid.",
-    "Deleted": true,
-    "Rank": 294,
-    "Type": "rerum",
+    "Id": 1001,
+    "Name": "Streich, Lueilwitz and Tremblay",
+    "ToolTip": "Reiciendis voluptatum doloremque minima ad.",
+    "Deleted": false,
+    "Rank": 160,
+    "Type": "distinctio",
     "ChildItems": [
       {
-        "Id": 96,
-        "Name": "Bogan, Weimann and Quitzon",
-        "ToolTip": "Rerum cum tenetur quis harum.",
-        "Deleted": false,
-        "Rank": 264,
-        "Type": "et",
+        "Id": 962,
+        "Name": "Kreiger Group",
+        "ToolTip": "Alias perspiciatis voluptates accusamus iure eius ipsa natus.",
+        "Deleted": true,
+        "Rank": 514,
+        "Type": "repellendus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quibusdam",
-        "ColorBlock": 397,
-        "ExtraInfo": "nam",
-        "StyleHint": "ut",
-        "FullName": "Macey Terry",
+        "IconHint": "aliquam",
+        "ColorBlock": 235,
+        "ExtraInfo": "natus",
+        "StyleHint": "magni",
+        "FullName": "Jaylan Emmett Homenick Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 452
+            "FieldLength": 948
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 105,
-    "ExtraInfo": "explicabo",
-    "StyleHint": "eveniet",
-    "FullName": "Everett Stroman",
+    "IconHint": "et",
+    "ColorBlock": 243,
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "sit",
+    "FullName": "Prof. Deborah Keyon Gulgowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldType": "System.Int32",
+        "FieldLength": 339
       }
     }
   }

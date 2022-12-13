@@ -22,7 +22,7 @@ Dashboards are displayed as tabs at the top of the screen. Pinned dashboards and
 
 Each tile in a dashboard contains either a chart, a list or a number. A dashboard can contain multiple tiles.
 
-The tiles can also be customized to show only data from selections. Access rights and confidentiality apply to the tile data, so tiles will only display information you have access to. Tile data typically relates to you, or your groups, and to a specific period (this month, last 6 month, etc.)
+The tiles can also be customized to show only data from selections. Access rights and confidentiality apply to the tile data, so tiles will display only information you have access to. Tile data typically relates to you, or your groups, and to a specific period (such as this month, last 6 month)
 
 There are several types of charts:
 
@@ -39,13 +39,14 @@ There are several types of charts:
 
 ## Options in the Dashboard screen
 
-Pinned dashboards are displayed with a pin icon ![icon][img1]. This usually means that this is a dashboard that has been distributed to multiple users by an administrator.
+| Icon / button | Description |
+|---|---|
+| ![icon][img1] | The dashboard is pinned by an administrator and is likely distributed to multiple users. |
+| ![icon][img2] | Click the star in the top-right corner to set a dashboard as favorite. |
+| ![icon][img3] | Click the **Refresh** button to update the data in all tiles. |
+| **Task** | Click to access various functions. |
 
-Dashboard favorites are displayed with a star icon ![icon][img2]. You can click this icon in the top-right corner to set a dashboard as favorite.
-
-Click the **Refresh** button ![icon][img3] to update the data in all tiles.
-
-Click the **Task** button to access the following functions:
+**Functions on the Task button:**
 
 * [Create a new dashboard][1]
 * [Duplicate a dashboard][2]

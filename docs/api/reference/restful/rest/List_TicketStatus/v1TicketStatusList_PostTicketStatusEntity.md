@@ -11,7 +11,14 @@ POST /api/v1/List/TicketStatus/Items
 
 Create a new TicketStatusEntity list item
 
+
 Calls the List agent service SaveTicketStatusEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveTicketStatusEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The TicketStatusEntity to be created.
+The TicketStatusEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,7 +48,8 @@ The TicketStatusEntity to be created.
 | IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
 | UsedInQueue | bool | If set, status is used in GetNext calculations |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -49,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,17 +77,17 @@ Response body:
 POST /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 623,
-  "Name": "McCullough-Wuckert",
+  "TicketStatusId": 617,
+  "Name": "Hickle LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
-  "IsDefault": false,
-  "UsedInQueue": true
+  "IsDefault": true,
+  "UsedInQueue": false
 }
 ```
 
@@ -90,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 209,
-  "Name": "Purdy, Schmeler and Gaylord",
+  "TicketStatusId": 189,
+  "Name": "Cole, Lueilwitz and Jaskolski",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": true,
+  "NoEmailReopen": true,
+  "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 197
+      "FieldType": "System.Int32",
+      "FieldLength": 772
     }
   }
 }

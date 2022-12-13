@@ -11,7 +11,13 @@ POST /api/v1/Agents/EMail/DeleteExtended
 
 <para />
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ POST /api/v1/Agents/EMail/DeleteExtended
 POST /api/v1/Agents/EMail/DeleteExtended?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,16 +40,17 @@ POST /api/v1/Agents/EMail/DeleteExtended?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfoExtended, MessageIds
+ConnectionInfoExtended, MessageIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectionInfoExtended |  | Carrier object for EMailConnectionInfoExtended. Services for the EMailConnectionInfoExtended Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | MessageIds | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +58,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -64,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfoExtended": null,
   "MessageIds": [
-    "sunt",
-    "nisi"
+    "vel",
+    "eum"
   ]
 }
 ```

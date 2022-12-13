@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 
 Method that returns a specified number of appointments of a specific appointment type within a time range.
 
+
 The appointments belong to the contact specified. If the logged on user is not allowed to view this contacts appointments an exception is thrown.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the contact specified. If the logged on user is not a
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByType?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, AppointmentType
+ContactId, StartTime, EndTime, Count, AppointmentType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ ContactId, StartTime, EndTime, Count, AppointmentType
 | EndTime | date-time |  |
 | Count | int32 |  |
 | AppointmentType | string |  |
+
 
 ## Response: array
 
@@ -119,14 +127,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 97,
-  "StartTime": "2018-07-31T11:10:25.9535222+02:00",
-  "EndTime": "1999-04-22T11:10:25.9535222+02:00",
-  "Count": 590,
+  "ContactId": 525,
+  "StartTime": "2014-08-01T02:49:43.637906+02:00",
+  "EndTime": "2005-10-25T02:49:43.637906+02:00",
+  "Count": 348,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -139,61 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 383,
-    "StartDate": "2002-12-04T11:10:25.9555223+01:00",
-    "EndDate": "2009-04-28T11:10:25.9555223+02:00",
+    "AppointmentId": 836,
+    "StartDate": "2009-08-30T02:49:43.637906+02:00",
+    "EndDate": "2007-11-01T02:49:43.637906+01:00",
     "Type": "BookingForChecklist",
-    "Task": "delectus",
-    "AssociateFullName": "Miss Anastacio Johnston",
-    "ContactName": "Murphy, Kub and Kertzmann",
-    "Description": "Universal stable capability",
-    "PersonFullName": "Kaleigh Boyer",
-    "PersonId": 175,
-    "ContactId": 823,
-    "ProjectId": 490,
-    "ProjectName": "O'Connell LLC",
+    "Task": "laudantium",
+    "AssociateFullName": "Earlene Koelpin Jr.",
+    "ContactName": "Walsh, Lowe and Shields",
+    "Description": "Organized bi-directional function",
+    "PersonFullName": "Whitney Pagac",
+    "PersonId": 188,
+    "ContactId": 435,
+    "ProjectId": 29,
+    "ProjectName": "Rosenbaum Group",
     "IsPublished": false,
-    "AssociateId": 728,
-    "ColorIndex": 254,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "AssociateId": 476,
+    "ColorIndex": 705,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 58,
-    "PriorityName": "Schultz-McClure",
+    "PriorityId": 709,
+    "PriorityName": "Morar LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2000-09-28T11:10:25.9555223+02:00",
+    "ActiveDate": "1997-07-02T02:49:43.637906+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-08-19T11:10:25.9555223+02:00",
-    "RecurringEndDate": "2021-05-13T11:10:25.9555223+02:00",
-    "MotherId": 898,
-    "AssignedBy": 22,
-    "AssignedByFullName": "Ms. Trystan Wiza Sr.",
+    "RecurringStartDate": "2000-01-04T02:49:43.637906+01:00",
+    "RecurringEndDate": "2013-08-12T02:49:43.637906+02:00",
+    "MotherId": 415,
+    "AssignedBy": 707,
+    "AssignedByFullName": "Elody Weber",
     "RejectReason": "",
-    "Location": "recusandae",
-    "AlarmLeadTime": "iusto",
-    "SaleId": 370,
-    "SaleName": "Barton Inc and Sons",
-    "AssociateName": "Johnson Inc and Sons",
-    "CreatedDate": "2021-10-16T11:10:25.9555223+02:00",
-    "CreatedBy": "quisquam",
-    "CreatedByFullName": "Mrs. Yasmin Ernser IV",
-    "CreatedByAssociateId": 745,
+    "Location": "laboriosam",
+    "AlarmLeadTime": "officiis",
+    "SaleId": 561,
+    "SaleName": "Mills-Powlowski",
+    "AssociateName": "Shanahan Inc and Sons",
+    "CreatedDate": "2021-07-23T02:49:43.637906+02:00",
+    "CreatedBy": "in",
+    "CreatedByFullName": "Miss Ezequiel Kitty Bednar V",
+    "CreatedByAssociateId": 281,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 148
+        "FieldType": "System.Int32",
+        "FieldLength": 668
       }
     }
   }

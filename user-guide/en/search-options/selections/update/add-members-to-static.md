@@ -24,11 +24,9 @@ There are simple rules for members of selections.
 
 ## Add members to an open static selection
 
-You can add new members to an open static selection as follows:
+1. Click the **Add members** button below the list of members.
 
-1. Click the **Add members** button below the list of members. The dialog **Add all members matching** opens.
-
-2. Edit the criteria as described in [Use the Find screen][2].
+2. In the **Add all members matching** dialog, [edit the criteria][2].
 
 3. Click **OK**. Matching members are added to the selection.
 
@@ -40,19 +38,18 @@ Use this option to add the selected records to an existing static selection.
 
 2. Select one or more records on the list.
 
-    > [!NOTE]
-    > If you want to add several records, use **Shift** or **Ctrl** + click.
+    To add several records, use **Shift** or **Ctrl** + click.
 
 3. Right-click the records and select **Add to selection** on the menu which appears.
 
 4. Select **Add to existing static selection**. Specify the required selection by clicking the arrow and selecting the required selection in the displayed list box, or by typing in the whole or the beginning of the selection name.
 
     > [!NOTE]
-    > The list of selections will be limited to the following:
+    > The list of selections is limited to:
     >
     > * Existing *static* selections (not dynamic selections or combined selections)
     >
-    > * Selections matching the records you are adding (if you have selected sales, only selections of sales will be displayed)
+    > * Selections matching the records you are adding (if you select sales, only selections of sales are displayed)
     >
     > If the list is empty, there are no existing selections of this type.
 
@@ -65,7 +62,7 @@ Use this option to add the selected records to an existing static selection.
 2. Select one or more records on the list.
 
     > [!NOTE]
-    > If you want to add several records, use **Shift** or **Ctrl** + click.
+    > To add several records, use **Shift** or **Ctrl** + click.
 
 3. Right-click the records and select **Add to selection** on the menu which appears.
 
@@ -75,9 +72,9 @@ Use this option to add the selected records to an existing static selection.
 
 6. In the **Category** field, choose the type of selection you require. Click the arrow to display a predefined list of alternatives.
 
-7. In the **Visible for**, choose whether the selection will be visible to everyone, only you or visible to everyone in a user group that the owner belongs to..
+7. In the **Visible for**, choose if the selection should be visible to everyone, only you or visible to everyone in a user group that the owner belongs to.
 
-8. For selections of companies/contacts: If you check the **Company is unique** check box, only one record will be added for each unique company among the selected contacts. So if you have selected 10 contacts that belong to a total of 3 companies, only the 3 companies will be added to the selection.
+8. For selections of companies/contacts: If you check the **Company is unique** check box, only one record will be added for each unique company among the selected contacts. So if you selected 10 contacts that belong to 3 companies, only the 3 companies will be added to the selection.
 
 9. Click **OK**. The selection is updated.
 

@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-When creating a mailing, you must select the recipients of the mailing. You can add recipients from a number of sources. In addition, you can set various mailing options here and also preview the mailing.
+When creating a mailing, you must select the recipients of the mailing. You can add recipients from multiple sources. In addition, you can set various mailing options here and also preview the mailing.
 
 ## Add recipients from selections and projects
 
@@ -36,7 +36,7 @@ You can add individual contacts from SuperOffice.
 
 You can add recipients to a mailing by importing them from an external comma-separated file (for example a .txt file created in Notepad or a .csv file created in Excel).
 
-When you import a list of names and email addresses, SuperOffice Marketing will try to locate the imported recipients in the SuperOffice database. If matches are found, the recipients' companies will be listed in the **Company** column in the **Recipients** list. Any names or email addresses that are **not** found in SuperOffice, will be filtered out and not included in the mailing. This is due to GDPR regulations.
+When you import a list of names and email addresses, SuperOffice Marketing will try to locate the imported recipients in the SuperOffice database. If matches are found, the recipients' companies are listed in the **Company** column in the **Recipients** list. Any names or email addresses that are **not** found in SuperOffice, are filtered out and not included in the mailing. This is due to GDPR regulations.
 
 1. Click **Select file**.
 
@@ -53,14 +53,14 @@ When you import a list of names and email addresses, SuperOffice Marketing will 
 
 * Each recipient must be on its own line (row).
 
-* Each recipient (row) consist of the full name and e-mail address.
+* Each recipient (row) consist of the full name and email address.
 
     Example: "John Smith, john@company.com")
 
     > [!NOTE]
     > You can also specify just the email address. The name will then not be available as a template variable.
 
-* <!-- onsite--> (requires the Marketing SMS licence) Each recipient (row) can also contain a mobile phone number (after the e-mail address) if you are creating SMS mailings. (For example: "John Smith, john@company.com, 99999999".)
+* <!-- onsite--> (requires the Marketing SMS licence) Each recipient (row) can also contain a mobile phone number (after the email address) if you are creating SMS mailings. (For example: "John Smith, john@company.com, 99999999".)
 
 > [!NOTE]
 > If you only have the mobile phone number and want to send an SMS, you can enter the following: " , , 99887766".
@@ -69,7 +69,7 @@ When you import a list of names and email addresses, SuperOffice Marketing will 
 
 Under **Options** in the lower part of the **Recipients** screen, you can select various options for the mailing.
 
-What's available depends on whether you're creating a document, an email, or an SMS. Each option is explained below the table.
+What's available depends on if you're creating a document, an email, or an SMS.
 
 | Option | Document | Email | SMS |
 |---|:-:|:-:|:-:|
@@ -93,18 +93,18 @@ What's available depends on whether you're creating a document, an email, or an 
 * **Prefer company**: Select this option to send the mailing only to the companies in the recipient list (and not the related contacts). Each company will only receive one mailing. Contacts that do not belong to a company, will still receive the mailing.
 
     > [!NOTE]
-    > The **Prefer company** option is only available if you have selected **Include companies** above.
+    > The **Prefer company** option is only available if you selected **Include companies** above.
 
 ## Preview the mailing
 
-When you have added recipients to the **Recipients** list, you can preview the mailing as it will look for one of the recipients. Preview is not available for document and SMS mailings.
+After adding recipients to the **Recipients** list, you can preview the mailing as it will look for one of the recipients. Preview is not available for document and SMS mailings.
 
 > [!NOTE]
 > The mailing will **not** be sent to the recipient when previewing.
 
 1. Click a recipient in the **Recipients** list.
 
-2. Click the **Preview** button. The **Preview** window displays the mailing as it will look for the selected recipient. Any template variables have been replaced by actual contact data (name, company etc.).
+2. Click the **Preview** button. The **Preview** window displays the mailing as it will look for the selected recipient. Any template variables (for example, name and company) are replaced by actual contact data.
 
 3. Click links to check that they work, but remember to reset them if they are tracked.
 
@@ -112,12 +112,12 @@ When you have added recipients to the **Recipients** list, you can preview the m
 
 ## Review and update the Recipients list
 
-When you add selections, projects, contacts and import lists, the **Recipients** list is automatically updated. If you have checked the option **Update recipient list when sending**, the projects and selections will be checked before sending the mailing, in case contacts have been added, removed or edited.
+When you add selections, projects, contacts and import lists, the **Recipients** list is automatically updated. If you selected **Update recipient list when sending**, the projects and selections are checked before sending the mailing, if contacts were added, removed or edited.
 
-In addition, you can click the **Update list** button below the **Recipients** list to update the list manually. You should do this if it's been a while since you added the recipients. Some of the contacts on the list might have changed their consent in the mean time.
+In addition, you can click the **Update list** button below the **Recipients** list to update the list manually. You should do this if it's been a while since you added the recipients. Some of the contacts on the list may have changed their consent in the meantime.
 
 > [!NOTE]
-> The list only displays the first 50 recipients. Click **Load all** at the bottom of the list to display all recipients.
+> The list displays only the first 50 recipients. Click **Load all** at the bottom of the list to display all recipients.
 
 Click **Next** to go to Step 5: Confirm. You can still revisit the **Recipients** step to edit the recipients list.
 

@@ -7,7 +7,7 @@
 | ![icon][img4] | Images | In this section you can find millions of images to use in your mailing. Drag and drop content from this section to the message. See [Insert images in the message][2].
 
 > [!NOTE]
-> If the **Images** (![icon][img6]) section is not visible, this preference may have been disabled due to organisational privacy rules.
+> If the **Images** (![icon][img6]) section is not visible, this preference may have been disabled due to organizational privacy rules.
 
 <!-- Referenced links -->
 [1]: ../edit-paragraph.md

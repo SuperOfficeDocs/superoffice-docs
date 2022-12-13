@@ -11,11 +11,17 @@ GET /api/v1/Dashboard/{id}
 
 Gets a Dashboard object.
 
+
 Calls the Dashboard agent service GetDashboard.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Dashboard to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Dashboard agent service GetDashboard.
 ```http
 GET /api/v1/Dashboard/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/Dashboard/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 Dashboard found.
 
@@ -49,7 +57,7 @@ Dashboard found.
 | 200 | Dashboard found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +76,7 @@ Response body:
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,22 +86,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 91,
-  "AssociateId": 727,
-  "Caption": "maxime",
+  "DashboardId": 752,
+  "AssociateId": 135,
+  "Caption": "odit",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 61,
-      "Caption": "et",
-      "Description": "Synergistic modular focus group",
-      "ChartName": "Kuvalis, Kassulke and Cremin",
-      "ChartId": "excepturi",
-      "IsDefault": true,
-      "AssociateId": 468,
-      "GroupId": 944,
-      "SelectionId": 117,
-      "Config": "neque",
+      "DashboardTileId": 990,
+      "Caption": "quia",
+      "Description": "Distributed human-resource paradigm",
+      "ChartName": "Senger-Heidenreich",
+      "ChartId": "laudantium",
+      "IsDefault": false,
+      "AssociateId": 209,
+      "GroupId": 705,
+      "SelectionId": 591,
+      "Config": "provident",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -109,7 +117,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldLength": 881
         }
       }
     }
@@ -119,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldLength": 713
     }
   },
   "_Links": {

@@ -11,7 +11,14 @@ POST /api/v1/Agents/Saint/CreateDefaultSaintConfiguration
 
 Set default values into a new SaintConfiguration.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +63,7 @@ Response body:
 POST /api/v1/Agents/Saint/CreateDefaultSaintConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -65,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 16,
-  "Enabled": true,
-  "Period1": 269,
-  "Period2": 715,
-  "Period3": 134,
-  "GenerationStart": "2006-10-13T11:10:27.7714921+02:00",
-  "GenerationEnd": "2003-05-05T11:10:27.7714921+02:00",
-  "RowsGenerated": 654,
+  "OwnerTable": 544,
+  "Enabled": false,
+  "Period1": 339,
+  "Period2": 828,
+  "Period3": 196,
+  "GenerationStart": "2009-03-14T02:49:45.0778395+01:00",
+  "GenerationEnd": "1995-11-24T02:49:45.0778395+01:00",
+  "RowsGenerated": 8,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 367
     }
   }
 }

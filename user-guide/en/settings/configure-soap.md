@@ -4,14 +4,14 @@ title: Configure SOAP interface
 description: Configure SOAP interface
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: Service, onsite
 so.topic: howto
 language: en
 ---
 
 # Configure SOAP interface
 
-To add an IP address range:
+## Add an IP address range
 
 1. Go to the **SOAP** screen.
     * In Settings and maintenance: Click the **Requests** button in the navigator. Then select the **SOAP** tab.

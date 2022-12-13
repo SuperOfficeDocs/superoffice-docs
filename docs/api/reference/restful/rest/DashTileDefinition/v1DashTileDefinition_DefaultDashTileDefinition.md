@@ -11,7 +11,14 @@ GET /api/v1/DashTileDefinition/default
 
 Set default values into a new DashTileDefinition.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dash agent service CreateDefaultDashTileDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +74,7 @@ Response body:
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 966,
-  "Name": "Schuppe-Metz",
-  "Description": "Exclusive stable moderator",
-  "DefaultHeight": 971,
-  "DefaultWidth": 72,
+  "DashboardTileDefinitionId": 30,
+  "Name": "Balistreri, Walter and Feil",
+  "Description": "Networked reciprocal installation",
+  "DefaultHeight": 253,
+  "DefaultWidth": 592,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Effertz, Witting and Dare",
-  "SelectionId": 663,
+  "EntityName": "Ferry, Hyatt and Braun",
+  "SelectionId": 462,
   "CurrencyMode": "Base",
-  "CurrencyCode": "consequatur",
+  "CurrencyCode": "unde",
   "Measure": "Average",
-  "MeasureField": "culpa",
-  "SortBy": "sed",
-  "LayoutConfig": "maxime",
-  "SecondarySelectionId": 583,
-  "MeasureByField": "reprehenderit",
+  "MeasureField": "laudantium",
+  "SortBy": "veritatis",
+  "LayoutConfig": "ut",
+  "SecondarySelectionId": 661,
+  "MeasureByField": "rerum",
   "Usage": "Dashboard",
-  "ProviderName": "Mante-Prosacco",
+  "ProviderName": "Reilly Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 974
     }
   }
 }

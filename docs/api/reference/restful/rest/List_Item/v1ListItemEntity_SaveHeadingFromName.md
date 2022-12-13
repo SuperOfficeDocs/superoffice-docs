@@ -11,9 +11,16 @@ POST /api/v1/List/{name}/Headings
 
 Save new heading for list resolved by the provided name.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | The name of the list to look up. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Save new heading for list resolved by the provided name.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The new heading to save
+The new heading to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The new heading to save
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -50,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,16 +77,16 @@ Response body:
 POST /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 548,
-  "Name": "Brown, Ratke and Schuster",
-  "Tooltip": "cum",
-  "Deleted": false,
-  "Rank": 323,
-  "UdListDefinitionId": 910
+  "HeadingId": 364,
+  "Name": "Borer-Kling",
+  "Tooltip": "provident",
+  "Deleted": true,
+  "Rank": 774,
+  "UdListDefinitionId": 276
 }
 ```
 
@@ -89,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 244,
-  "Name": "Osinski Inc and Sons",
-  "Tooltip": "accusantium",
-  "Deleted": true,
-  "Rank": 115,
-  "UdListDefinitionId": 132,
+  "HeadingId": 702,
+  "Name": "Ledner-White",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 432,
+  "UdListDefinitionId": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 427
+      "FieldLength": 258
     }
   }
 }

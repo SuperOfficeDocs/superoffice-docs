@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetStatistics
 
 Returns the calculated results for the required statistics for the Customer Service Status Page
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the calculated results for the required statistics for the Customer Serv
 ```http
 POST /api/v1/Agents/CustomerService/GetStatistics?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/CustomerService/GetStatistics?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Functions
+Functions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Functions | array |  |
+
 
 ## Response: array
 
@@ -67,13 +75,13 @@ Response body: array
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "autem",
-    "tenetur"
+    "facilis",
+    "minus"
   ]
 }
 ```
@@ -86,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "aut",
+    "Label": "autem",
     "Values": [
       {
-        "Label": "doloremque",
-        "Value": 30800.951999999997,
-        "Description": "Universal static challenge",
+        "Label": "facilis",
+        "Value": 28036.764,
+        "Description": "Reverse-engineered bottom-line solution",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldLength": 965
           }
         }
       },
       {
-        "Label": "doloremque",
-        "Value": 30800.951999999997,
-        "Description": "Universal static challenge",
+        "Label": "facilis",
+        "Value": 28036.764,
+        "Description": "Reverse-engineered bottom-line solution",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldLength": 965
           }
         }
       }
     ],
-    "Description": "Open-source analyzing standardization",
+    "Description": "Front-line foreground groupware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldType": "System.Int32",
+        "FieldLength": 652
       }
     }
   },
   {
-    "Label": "aut",
+    "Label": "autem",
     "Values": [
       {
-        "Label": "doloremque",
-        "Value": 30800.951999999997,
-        "Description": "Universal static challenge",
+        "Label": "facilis",
+        "Value": 28036.764,
+        "Description": "Reverse-engineered bottom-line solution",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldLength": 965
           }
         }
       },
       {
-        "Label": "doloremque",
-        "Value": 30800.951999999997,
-        "Description": "Universal static challenge",
+        "Label": "facilis",
+        "Value": 28036.764,
+        "Description": "Reverse-engineered bottom-line solution",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldLength": 965
           }
         }
       }
     ],
-    "Description": "Open-source analyzing standardization",
+    "Description": "Front-line foreground groupware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldType": "System.Int32",
+        "FieldLength": 652
       }
     }
   }

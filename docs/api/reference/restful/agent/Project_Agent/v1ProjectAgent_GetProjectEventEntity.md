@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectEventEntity
 
 Gets a ProjectEventEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=680
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=401
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,79 +105,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "autem",
-  "SignOffText": "laboriosam",
-  "SignOnConfirmationText": "voluptatem",
-  "SignOnText": "voluptatibus",
-  "EventDate": "1997-08-12T11:10:27.6094522+02:00",
-  "Enabled": false,
-  "CreatedDate": "2016-12-05T11:10:27.6094522+01:00",
-  "SignOff": false,
+  "SignOffConfirmationText": "cumque",
+  "SignOffText": "veniam",
+  "SignOnConfirmationText": "sapiente",
+  "SignOnText": "quisquam",
+  "EventDate": "2010-02-13T02:49:44.9684639+01:00",
+  "Enabled": true,
+  "CreatedDate": "1995-12-26T02:49:44.9684639+01:00",
+  "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 29,
+  "SignOffTaskId": 911,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 677,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2019-08-19T11:10:27.6094522+02:00",
+  "SignOnTaskId": 360,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2007-08-24T02:49:44.9684639+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 956,
-  "Id": 2,
-  "PublishFrom": "2017-03-02T11:10:27.6104532+01:00",
+  "ProjectId": 595,
+  "Id": 746,
+  "PublishFrom": "2004-06-21T02:49:44.9684639+02:00",
   "PublishType": "External",
-  "PublishTo": "1998-01-18T11:10:27.6104532+01:00",
+  "PublishTo": "2002-08-01T02:49:44.9684639+02:00",
   "VisibleForCategories": [
     {
-      "Id": 250,
-      "Name": "Purdy Group",
-      "ToolTip": "Distinctio minus ut voluptates voluptatem.",
+      "Id": 95,
+      "Name": "Nienow, Cremin and Strosin",
+      "ToolTip": "Voluptatem distinctio incidunt nostrum.",
       "Deleted": false,
-      "Rank": 658,
-      "Type": "est",
+      "Rank": 950,
+      "Type": "rerum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "natus",
-      "ColorBlock": 283,
-      "ExtraInfo": "repellendus",
-      "StyleHint": "qui",
-      "FullName": "Hope Lubowitz DVM",
+      "IconHint": "quis",
+      "ColorBlock": 720,
+      "ExtraInfo": "aut",
+      "StyleHint": "repellat",
+      "FullName": "Dr. Jack Fadel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 95
+          "FieldType": "System.String",
+          "FieldLength": 169
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 876,
-      "Name": "Franecki-Hammes",
-      "ToolTip": "Ipsam eos rem animi sed deserunt est.",
+      "Id": 126,
+      "Name": "Olson-Mitchell",
+      "ToolTip": "Et voluptatum.",
       "Deleted": false,
-      "Rank": 649,
-      "Type": "expedita",
+      "Rank": 950,
+      "Type": "debitis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "odio",
-      "ColorBlock": 241,
-      "ExtraInfo": "minima",
-      "StyleHint": "hic",
-      "FullName": "Mr. Leatha Tia Boyle Jr.",
+      "IconHint": "vitae",
+      "ColorBlock": 941,
+      "ExtraInfo": "aperiam",
+      "StyleHint": "labore",
+      "FullName": "Krystina Abshire",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 334
+          "FieldLength": 612
         }
       }
     }
@@ -177,14 +185,14 @@ Content-Type: application/json; charset=utf-8
   "IsPublished": false,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 44,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 123,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 289
     }
   }
 }

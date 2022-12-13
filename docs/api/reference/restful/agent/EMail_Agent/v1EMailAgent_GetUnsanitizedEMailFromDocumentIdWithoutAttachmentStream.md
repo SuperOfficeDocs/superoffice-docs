@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStre
 
 Get an e-mail based on an archived document.
 
+
 The returned value is not sanitized.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The returned value is not sanitized.
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,15 +47,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStre
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -55,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,11 +103,11 @@ Response body:
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 651
+  "DocumentId": 544
 }
 ```
 
@@ -111,147 +120,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 897,
-      "ContactName": "McKenzie, McCullough and Barrows",
-      "PersonId": 14,
-      "PersonName": "Hermann LLC",
-      "AssociateId": 19,
-      "Address": "ullam",
-      "EmailId": 385,
+      "ContactId": 347,
+      "ContactName": "Daniel Inc and Sons",
+      "PersonId": 531,
+      "PersonName": "McCullough, Mayer and Blanda",
+      "AssociateId": 641,
+      "Address": "eum",
+      "EmailId": 689,
       "DuplicatePersonIds": [
-        532,
-        420
+        639,
+        224
       ],
-      "Name": "Pfeffer Group",
+      "Name": "DuBuque, Mitchell and Mayert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 878
+          "FieldType": "System.String",
+          "FieldLength": 137
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 410,
-      "ContactName": "Daniel-Wintheiser",
-      "PersonId": 514,
-      "PersonName": "Murphy Inc and Sons",
-      "AssociateId": 596,
-      "Address": "quis",
-      "EmailId": 823,
+      "ContactId": 335,
+      "ContactName": "Gutkowski-Ruecker",
+      "PersonId": 232,
+      "PersonName": "Schowalter, Parker and Feest",
+      "AssociateId": 402,
+      "Address": "modi",
+      "EmailId": 667,
       "DuplicatePersonIds": [
-        366,
-        352
+        776,
+        559
       ],
-      "Name": "Beer, Kulas and Lowe",
+      "Name": "Sawayn, Greenholt and Morissette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 487
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 660,
-      "ContactName": "Romaguera Inc and Sons",
-      "PersonId": 325,
-      "PersonName": "Stamm, Huels and Mante",
-      "AssociateId": 658,
-      "Address": "totam",
-      "EmailId": 950,
+      "ContactId": 303,
+      "ContactName": "King LLC",
+      "PersonId": 923,
+      "PersonName": "Von LLC",
+      "AssociateId": 67,
+      "Address": "maxime",
+      "EmailId": 499,
       "DuplicatePersonIds": [
-        12,
-        446
+        190,
+        402
       ],
-      "Name": "Kshlerin-Daniel",
+      "Name": "Quigley, Gottlieb and Mitchell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldLength": 846
         }
       }
     }
   ],
-  "Subject": "consequatur",
-  "HTMLBody": "aut",
+  "Subject": "quasi",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "1998-02-09T11:10:26.8744252+01:00",
-  "Size": 344,
+  "Sent": "2019-12-13T02:49:44.3878864+01:00",
+  "Size": 818,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ex",
-  "PlainBody": "rem",
-  "IsSent": true,
+  "MessageID": "enim",
+  "PlainBody": "consequuntur",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 856,
+  "ServerId": 347,
   "Attachments": [
     {
-      "Description": "Public-key assymetric toolset",
-      "Filename": "sequi",
-      "Size": 593,
-      "Type": "ad",
-      "Encoding": "magni",
-      "Id": "non",
-      "Disposition": "qui",
+      "Description": "Optional hybrid architecture",
+      "Filename": "maxime",
+      "Size": 307,
+      "Type": "est",
+      "Encoding": "non",
+      "Id": "recusandae",
+      "Disposition": "ullam",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldLength": 732
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Barton Group",
+      "Name": "Turcotte LLC",
       "Values": [
-        "est",
-        "temporibus"
+        "deleniti",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 416
         }
       }
     },
     {
-      "Name": "Barton Group",
+      "Name": "Turcotte LLC",
       "Values": [
-        "est",
-        "temporibus"
+        "deleniti",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 416
         }
       }
     }
   ],
-  "FolderName": "Swaniawski, Daugherty and Mante",
-  "EmailItemId": 144,
-  "AccountId": 970,
-  "ReceivedAt": "2019-03-12T11:10:26.8744252+01:00",
+  "FolderName": "Nienow-Prohaska",
+  "EmailItemId": 321,
+  "AccountId": 157,
+  "ReceivedAt": "2000-12-03T02:49:44.3878864+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-10-11T11:10:26.8754251+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2006-03-04T02:49:44.3878864+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -259,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 738
+      "FieldLength": 30
     }
   }
 }

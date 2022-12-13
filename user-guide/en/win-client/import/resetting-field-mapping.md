@@ -13,13 +13,11 @@ so.envir: onsite
 
 # Reset field mapping
 
-To delete all defined field mapping:
-
 1. [!include[How to open import](includes/open-import.md)]
 
 [!include[Import description](includes/step-import-description.md)]
 
-1. Click the **Clear all** button below **Field mapping**. All of the contents of the **Field in SuperOffice CRM** column will be cleared.
+1. Click the **Clear all** button below **Field mapping**. All of the contents of the **Field in SuperOffice CRM** column is cleared.
 
 <!-- Referenced links -->
 

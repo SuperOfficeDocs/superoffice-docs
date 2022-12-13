@@ -11,8 +11,12 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 
 Get a page of results for an archive list, explicitly specifying the restrictions as a string, orderby and chosen columns.
 
+
+
+
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
+
 
 For example:
 
@@ -33,8 +37,8 @@ Unary operators:
 "updatedDate lastWeek", "assocId currentAssociate"
 ```
 
-## Brackets and or
 
+## Brackets and or
 AND and OR can be used to combine terms. AND has a higher priority than OR
 
 ```
@@ -47,10 +51,12 @@ Brackets can be used for grouping.
 "(business = 2 or category = 3) and name contains 'super'"
 ```
 
+
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
+
 
 Example: group last names together, and inject a header row for each group.
 
@@ -60,7 +66,7 @@ GroupBy(lastName):Header
 
 ```
 
-Example: count instances of middle names, and hide the individual rows,
+Example: count instances of middle names, and hide the individual rows, 
 report just the totals for each group using a footer. Note how the modifiers stack.
 
 ```
@@ -76,18 +82,28 @@ Example: the aggregator functions can nest, so you can say
 GroupBy(DatePart(personUpdatedDate):YearMonth):Header
 
 ```
-
 ## Strings
 
 Use the begins or contains operators to do string searches.
 You can also use the normal = operator to do string exact match checks.
 
+
+
 Use backslash to escape single quotes in strings
 (note that backslash needs to be doubled because c# also uses backslash escapes):
+
 
 ```
 "department contains 'Bob\\'s'"
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -98,6 +114,7 @@ Use backslash to escape single quotes in strings
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -113,9 +130,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns2?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Columns, SortOrder, Restrictions, Entities, Page, PageSize
+ProviderName, Columns, SortOrder, Restrictions, Entities, Page, PageSize 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -126,6 +143,7 @@ ProviderName, Columns, SortOrder, Restrictions, Entities, Page, PageSize
 | Entities | string |  |
 | Page | int32 |  |
 | PageSize | int32 |  |
+
 
 ## Response: array
 
@@ -153,17 +171,17 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Williamson, Gleichner and Johnson",
-  "Columns": "id",
-  "SortOrder": "consequatur",
-  "Restrictions": "aut",
-  "Entities": "itaque",
-  "Page": 308,
-  "PageSize": 216
+  "ProviderName": "Rippin Inc and Sons",
+  "Columns": "porro",
+  "SortOrder": "eius",
+  "Restrictions": "nemo",
+  "Entities": "qui",
+  "Page": 404,
+  "PageSize": 77
 }
 ```
 
@@ -175,23 +193,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Murray-Hammes",
-    "PrimaryKey": 147,
+    "EntityName": "Vandervort-Nikolaus",
+    "PrimaryKey": 504,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "velit",
-        "TooltipHint": "totam",
-        "LinkHint": "iusto"
+        "DisplayValue": "possimus",
+        "TooltipHint": "aut",
+        "LinkHint": "aliquid"
       }
     },
-    "LinkHint": "adipisci",
-    "StyleHint": "et",
+    "LinkHint": "iusto",
+    "StyleHint": "adipisci",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldType": "System.String",
+        "FieldLength": 845
       }
     }
   }

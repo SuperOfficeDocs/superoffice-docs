@@ -11,7 +11,7 @@ language: en
 
 # Stopwords
 
-A stopword is a word that is not indexed, i.e. it is not included in a freetext search. Typically, this means words like *and*, *or*, *it* and *for*. The object of defining stopwords is to reduce the time required to search through the freetext index by excluding unnecessary words and to use less space in the database.
+A stopword is a word that is not indexed (not included in a freetext search). Typically, this means words like *and*, *or*, *it* and *for*. The object of defining stopwords is to reduce the time required to search through the freetext index by excluding unnecessary words and to use less space in the database.
 
 The words defined as stopwords for freetext searches are listed in the **Stopword list** table in the **Freetext search** tab of the **Options** screen.
 

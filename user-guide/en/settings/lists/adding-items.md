@@ -9,22 +9,20 @@ so.topic: help
 language: en
 ---
 
-# Add items
-
-To add items to both predefined and user-defined lists:
+# Add items to predefined and user-defined lists
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list from the list box at the top. All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list will be empty.
+2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list from the list box at the top. All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list is empty.
 
-3. Click the **Add** button below the **Items** list. The **Edit list item** dialog opens.
+3. Click the **Add** button below the **Items** list.
 
-    <details><summary>Do you want to add an item to a specialised list?</summary>
+    <details><summary>Do you want to add an item to a specialized list?</summary>
 
-    Some list types are more specialised than those referred to in this procedure. [Specialised lists][1].
+    Some list types are more specialized than those referred to in this procedure. [Specialized lists][1].
     </details>
 
-4. Enter the required name of the item in the **Name** field.
+4. In the **Edit list item** dialog, enter the required name of the item in the **Name** field.
 
     > [!NOTE]
     > [!include[Mandatory](../../includes/note-mandatory-field.md)]
@@ -38,7 +36,7 @@ To add items to both predefined and user-defined lists:
 
 The items are displayed in the order you entered them. To change the order, select an item and move it up or down using the arrow buttons below the list ( ![icon][img3] ![icon][img4] ).
 
-After you have added items, you can specify details for each individual item. You can specify the user groups the item will be visible to (see [User group filtering][2]), and the headings it will display under (see [Headings][3]).
+After adding items, you can specify details for each individual item. You can specify the user groups the item is visible to (see [User group filtering][2]), and the [headings][3] it will display under.
 
 <!-- Referenced links -->
 [1]: specialized-lists.md

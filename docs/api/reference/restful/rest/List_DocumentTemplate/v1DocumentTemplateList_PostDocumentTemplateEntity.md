@@ -11,7 +11,14 @@ POST /api/v1/List/DocumentTemplate/Items
 
 Create a new DocumentTemplateEntity list item
 
+
 Calls the List agent service SaveDocumentTemplateEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveDocumentTemplateEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The DocumentTemplateEntity to be created.
+The DocumentTemplateEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +66,8 @@ The DocumentTemplateEntity to be created.
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -67,7 +75,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,34 +113,34 @@ Response body:
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 445,
-  "Name": "Dickens LLC",
-  "Tooltip": "ut",
-  "SaveInDb": 433,
-  "Filename": "assumenda",
-  "DefaultOref": "eum",
+  "DocumentTemplateId": 937,
+  "Name": "Murray, Strosin and Zulauf",
+  "Tooltip": "molestiae",
+  "SaveInDb": 576,
+  "Filename": "qui",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 382,
-  "IntentId": 486,
+  "AutoeventId": 716,
+  "IntentId": 502,
   "IsDefaultPublished": false,
-  "Rank": 635,
-  "LoadTemplateFromPlugin": 851,
-  "MimeType": "iste",
+  "Rank": 75,
+  "LoadTemplateFromPlugin": 338,
+  "MimeType": "consequuntur",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 954,
+  "DocumentTypeKey": 93,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "erin@wolff.name",
+  "EmailSubject": "cruz.cassin@kuhlmancrona.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "abbey@bernier.biz",
+  "SenderEmailAddress": "viva@jast.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -144,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 773,
-  "Name": "O'Kon-Borer",
-  "Tooltip": "expedita",
-  "SaveInDb": 227,
-  "Filename": "natus",
-  "DefaultOref": "ipsum",
+  "DocumentTemplateId": 333,
+  "Name": "Ward-Emmerich",
+  "Tooltip": "cumque",
+  "SaveInDb": 448,
+  "Filename": "qui",
+  "DefaultOref": "sed",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 138,
-  "IntentId": 430,
-  "IsDefaultPublished": false,
-  "Rank": 947,
-  "LoadTemplateFromPlugin": 78,
-  "MimeType": "at",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 369,
+  "AutoeventId": 394,
+  "IntentId": 187,
+  "IsDefaultPublished": true,
+  "Rank": 375,
+  "LoadTemplateFromPlugin": 952,
+  "MimeType": "fugiat",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 542,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "marcos@doyle.co.uk",
-  "IncludeSignature": true,
+  "EmailSubject": "caitlyn_ferry@abernathyschuppe.ca",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kay@harriskassulke.us",
+  "SenderEmailAddress": "elroy@morissette.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 546
+      "FieldLength": 116
     }
   }
 }

@@ -11,11 +11,18 @@ PUT /api/v1/List/Category/Items/{itemId}/Headings
 
 Saves headings for the Category list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Schowalter-Emmerich",
-    "ToolTip": "Quis ut exercitationem qui odio quaerat voluptas.",
-    "Deleted": true,
-    "Rank": 518,
-    "Type": "voluptatem",
-    "ColorBlock": 375,
-    "IconHint": "vitae",
-    "Selected": true,
-    "LastChanged": "2003-02-12T11:10:53.9501857+01:00",
+    "Id": 179,
+    "Name": "Volkman, Kuvalis and O'Conner",
+    "ToolTip": "Qui accusamus.",
+    "Deleted": false,
+    "Rank": 762,
+    "Type": "est",
+    "ColorBlock": 872,
+    "IconHint": "maxime",
+    "Selected": false,
+    "LastChanged": "2022-02-12T02:49:51.9065706+01:00",
     "ChildItems": [
       {
-        "Id": 367,
-        "Name": "Reilly, Effertz and Fahey",
-        "ToolTip": "Id qui ea necessitatibus qui eveniet.",
-        "Deleted": false,
-        "Rank": 385,
-        "Type": "eaque",
-        "ColorBlock": 385,
-        "IconHint": "inventore",
-        "Selected": false,
-        "LastChanged": "2006-06-19T11:10:53.9511859+02:00",
+        "Id": 444,
+        "Name": "Hartmann LLC",
+        "ToolTip": "Cupiditate cupiditate aliquam itaque eos.",
+        "Deleted": true,
+        "Rank": 50,
+        "Type": "adipisci",
+        "ColorBlock": 245,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2001-03-28T02:49:51.9065706+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Broderick VonRueden"
+        "ExtraInfo": "eaque",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Deion Lexie Blick DVM"
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "sequi",
-    "Hidden": true,
-    "FullName": "Mrs. Kasey Kristopher King DVM"
+    "ExtraInfo": "dolores",
+    "StyleHint": "earum",
+    "Hidden": false,
+    "FullName": "Caden Hane"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Name": "O'Connell-Bosco",
-    "ToolTip": "Omnis dolor.",
-    "Deleted": true,
-    "Rank": 919,
-    "Type": "eius",
-    "ColorBlock": 542,
-    "IconHint": "voluptatem",
+    "Id": 429,
+    "Name": "Vandervort-Strosin",
+    "ToolTip": "Quis et.",
+    "Deleted": false,
+    "Rank": 259,
+    "Type": "quia",
+    "ColorBlock": 965,
+    "IconHint": "assumenda",
     "Selected": true,
-    "LastChanged": "2018-08-02T11:10:53.9521853+02:00",
+    "LastChanged": "2007-11-16T02:49:51.9065706+01:00",
     "ChildItems": [
       {
-        "Id": 372,
-        "Name": "Jenkins LLC",
-        "ToolTip": "Sint deserunt.",
-        "Deleted": false,
-        "Rank": 677,
-        "Type": "ut",
-        "ColorBlock": 50,
-        "IconHint": "incidunt",
-        "Selected": false,
-        "LastChanged": "2002-06-17T11:10:53.9521853+02:00",
+        "Id": 212,
+        "Name": "Pfeffer-Blick",
+        "ToolTip": "Est consequatur sed.",
+        "Deleted": true,
+        "Rank": 92,
+        "Type": "accusantium",
+        "ColorBlock": 901,
+        "IconHint": "dolorem",
+        "Selected": true,
+        "LastChanged": "2003-09-26T02:49:51.9065706+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "eaque",
+        "ExtraInfo": "et",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Prof. Raymond Hal Kuvalis",
+        "FullName": "Mr. Nikolas Lesch Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 877
+            "FieldLength": 604
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Raven Buckridge",
+    "ExtraInfo": "rerum",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Daphney Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 307
       }
     }
   }

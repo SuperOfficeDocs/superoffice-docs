@@ -11,6 +11,13 @@ POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 
 Updates the existing SystemEventEntity or creates a new SystemEventEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing SystemEventEntity or creates a new SystemEventEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SystemEventEntity to be saved.
+The SystemEventEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The SystemEventEntity to be saved.
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy |  | The associate that first created the SystemEvent. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -50,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,15 +85,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 976,
+  "SystemEventId": 62,
   "Scope": "Database",
-  "Eta": "2005-01-15T11:10:26.1985254+01:00",
-  "Eventkey": "aspernatur",
-  "Eventmess": "eaque",
-  "ExtraInfo": 841,
-  "Owner": 413,
-  "UpdatedCount": 334,
-  "Registered": "2008-05-09T11:10:26.1985254+02:00",
+  "Eta": "2001-06-19T02:49:43.8566571+02:00",
+  "Eventkey": "quos",
+  "Eventmess": "est",
+  "ExtraInfo": 473,
+  "Owner": 588,
+  "UpdatedCount": 146,
+  "Registered": "2010-08-13T02:49:43.8566571+02:00",
   "ActivatedBy": null
 }
 ```
@@ -97,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 444,
+  "SystemEventId": 93,
   "Scope": "Database",
-  "Eta": "2020-09-27T11:10:26.1995253+02:00",
-  "Eventkey": "quibusdam",
-  "Eventmess": "et",
-  "ExtraInfo": 406,
-  "Owner": 1000,
-  "UpdatedCount": 131,
-  "Registered": "2021-07-17T11:10:26.1995253+02:00",
+  "Eta": "2019-10-10T02:49:43.8566571+02:00",
+  "Eventkey": "dolorum",
+  "Eventmess": "sed",
+  "ExtraInfo": 156,
+  "Owner": 241,
+  "UpdatedCount": 59,
+  "Registered": "2020-01-25T02:49:43.8566571+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 422
+      "FieldType": "System.Int32",
+      "FieldLength": 53
     }
   }
 }

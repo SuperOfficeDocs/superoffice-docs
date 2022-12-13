@@ -11,11 +11,18 @@ GET /api/v1/Appointment/{id}/Simple
 
 A simple Appointment object.
 
+
 This is a simpler, smaller variation of the full AppointmentEntity. Calls the Appointment agent service GetAppointment.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Appointment to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ This is a simpler, smaller variation of the full AppointmentEntity. Calls the Ap
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 AppointmentEntity found.
 
@@ -39,7 +47,7 @@ AppointmentEntity found.
 | 200 | AppointmentEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,7 +109,7 @@ Response body:
 GET /api/v1/Appointment/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -111,53 +119,53 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 941,
-  "StartDate": "2022-03-03T11:10:52.4081797+01:00",
-  "EndDate": "2012-08-22T11:10:52.4081797+02:00",
+  "AppointmentId": 12,
+  "StartDate": "2007-12-18T02:49:50.5577842+01:00",
+  "EndDate": "2021-05-14T02:49:50.5577842+02:00",
   "Type": "BookingForChecklist",
-  "Task": "dolorum",
-  "AssociateFullName": "Ms. Annetta Erich Effertz DDS",
-  "ContactName": "Kuhlman-Murazik",
-  "Description": "Innovative solution-oriented groupware",
-  "PersonFullName": "Keon Rath",
-  "PersonId": 386,
-  "ContactId": 724,
-  "ProjectId": 661,
-  "ProjectName": "Considine Inc and Sons",
+  "Task": "eius",
+  "AssociateFullName": "Hyman Hoeger",
+  "ContactName": "Ebert LLC",
+  "Description": "Synergistic fault-tolerant data-warehouse",
+  "PersonFullName": "Arlo Marquardt",
+  "PersonId": 57,
+  "ContactId": 907,
+  "ProjectId": 121,
+  "ProjectName": "Crooks Inc and Sons",
   "IsPublished": false,
-  "AssociateId": 233,
-  "ColorIndex": 753,
+  "AssociateId": 580,
+  "ColorIndex": 216,
   "IsFree": true,
-  "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "HasAlarm": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 597,
-  "PriorityName": "Sporer, O'Hara and Conn",
+  "PriorityId": 696,
+  "PriorityName": "Prosacco-Monahan",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
-  "IsRecurrence": true,
+  "IsBookingMain": true,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2022-05-09T11:10:52.4081797+02:00",
+  "ActiveDate": "2011-10-22T02:49:50.5577842+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2011-06-11T11:10:52.4081797+02:00",
-  "RecurringEndDate": "2007-05-04T11:10:52.4081797+02:00",
-  "MotherId": 289,
-  "AssignedBy": 283,
-  "AssignedByFullName": "Brooks Macejkovic",
-  "RejectReason": "disintermediate next-generation networks",
-  "Location": "quo",
-  "AlarmLeadTime": "eaque",
-  "SaleId": 849,
-  "SaleName": "Dooley, Jaskolski and Anderson",
-  "AssociateName": "Haag-Yundt",
-  "CreatedDate": "2004-01-14T11:10:52.4081797+01:00",
-  "CreatedBy": "corporis",
-  "CreatedByFullName": "Prof. Eduardo Darby Leffler DDS",
-  "CreatedByAssociateId": 121,
+  "RecurringStartDate": "2005-04-01T02:49:50.5577842+02:00",
+  "RecurringEndDate": "2001-12-06T02:49:50.5577842+01:00",
+  "MotherId": 212,
+  "AssignedBy": 507,
+  "AssignedByFullName": "Jazmin Grimes",
+  "RejectReason": "",
+  "Location": "autem",
+  "AlarmLeadTime": "qui",
+  "SaleId": 175,
+  "SaleName": "Considine-Botsford",
+  "AssociateName": "Quigley, Toy and Turcotte",
+  "CreatedDate": "2011-09-04T02:49:50.5577842+02:00",
+  "CreatedBy": "reiciendis",
+  "CreatedByFullName": "Ms. Forest Tyrique Halvorson II",
+  "CreatedByAssociateId": 257,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -165,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 322
+      "FieldLength": 180
     }
   }
 }

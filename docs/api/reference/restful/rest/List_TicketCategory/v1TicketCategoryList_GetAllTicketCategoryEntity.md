@@ -11,7 +11,14 @@ GET /api/v1/List/TicketCategory/Items
 
 Gets a list of all TicketCategoryEntity list items.
 
+
 Calls the List agent service GetAllTicketCategoryEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the List agent service GetAllTicketCategoryEntity.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -53,6 +61,7 @@ Response body: array
 | NotificationEmail | string | Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. |
 | DefaultTicketStatus |  | Default status for new tickets, if 0 then there is a fallback to a user-dependent value |
 | DefaultMessageStatus |  | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
+| EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
@@ -75,35 +84,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 271,
-    "ParentId": 977,
-    "Name": "Wintheiser Inc and Sons",
-    "Fullname": "accusamus",
-    "CategoryMaster": 87,
+    "TicketCategoryId": 247,
+    "ParentId": 55,
+    "Name": "Schimmel, Kovacek and Stehr",
+    "Fullname": "aperiam",
+    "CategoryMaster": 184,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Bergnaum LLC",
+    "ExternalName": "Donnelly-Price",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 868,
-    "ReplyTemplate": 294,
-    "NotificationEmail": "tressa@strosinwindler.uk",
+    "AssignmentLag": 273,
+    "ReplyTemplate": 338,
+    "NotificationEmail": "hollis_mclaughlin@kessler.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
+    "EffectiveReplyTemplateId": 786,
     "ExtraFields": {
-      "ExtraFields1": "et",
-      "ExtraFields2": "aut"
+      "ExtraFields1": "adipisci",
+      "ExtraFields2": "ullam"
     },
     "CustomFields": {
-      "CustomFields1": "ab",
-      "CustomFields2": "consequuntur"
+      "CustomFields1": "tenetur",
+      "CustomFields2": "alias"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldType": "System.String",
+        "FieldLength": 879
       }
     }
   }

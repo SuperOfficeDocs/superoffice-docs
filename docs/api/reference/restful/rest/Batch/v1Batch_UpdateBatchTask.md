@@ -11,11 +11,18 @@ PUT /api/v1/BatchTask/{Id}
 
 Update information about a BatchTask.
 
+
 Only the following properties can be updated: State, Description, Response and Request.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | Id | string |  **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Only the following properties can be updated: State, Description, Response and R
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: batchTaskInfo
+## Request Body: batchTaskInfo  
 
-The updated information to save.
+The updated information to save. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +66,8 @@ The updated information to save.
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -67,7 +75,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,34 +109,34 @@ Response body:
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 10,
-  "Name": "Johns LLC",
-  "AssociateId": 676,
-  "DetailsTable": 208,
-  "DetailsRecord": 519,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 768,
+  "Name": "Bartoletti Inc and Sons",
+  "AssociateId": 115,
+  "DetailsTable": 94,
+  "DetailsRecord": 151,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "aut",
-    "ParameterObject2": "veniam"
+    "ParameterObject1": "labore",
+    "ParameterObject2": "nihil"
   },
-  "LastStarted": "2006-11-23T11:10:53.677217+01:00",
-  "Created": "2006-03-09T11:10:53.677217+01:00",
-  "StartCount": 160,
-  "DatabaseSerialNumber": "1416205",
-  "Context": "necessitatibus",
-  "Result": "laboriosam",
+  "LastStarted": "2012-08-01T02:49:51.686648+02:00",
+  "Created": "1998-05-02T02:49:51.686648+02:00",
+  "StartCount": 683,
+  "DatabaseSerialNumber": "710890",
+  "Context": "voluptatum",
+  "Result": "facilis",
   "State": "All",
-  "Description": "Assimilated 6th generation open architecture",
-  "Response": "ex",
+  "Description": "Total composite support",
+  "Response": "expedita",
   "Request": "omnis",
-  "ProgressDescription": "Horizontal intermediate help-desk",
-  "ProgressPercent": 422,
-  "FileName": "Gutkowski-Lesch"
+  "ProgressDescription": "Compatible stable implementation",
+  "ProgressPercent": 859,
+  "FileName": "Bartell, Schinner and Blick"
 }
 ```
 
@@ -139,36 +147,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 417,
-  "Name": "Green, Lindgren and Crooks",
-  "AssociateId": 764,
-  "DetailsTable": 369,
-  "DetailsRecord": 490,
+  "Id": 617,
+  "Name": "Lang, Gerlach and Huels",
+  "AssociateId": 450,
+  "DetailsTable": 709,
+  "DetailsRecord": 613,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "non",
-    "ParameterObject2": "praesentium"
+    "ParameterObject1": "facilis",
+    "ParameterObject2": "quam"
   },
-  "LastStarted": "2004-02-10T11:10:53.6781901+01:00",
-  "Created": "2008-06-03T11:10:53.6781901+02:00",
-  "StartCount": 851,
-  "DatabaseSerialNumber": "828560",
-  "Context": "placeat",
-  "Result": "sapiente",
+  "LastStarted": "2014-09-11T02:49:51.686648+02:00",
+  "Created": "2016-11-16T02:49:51.686648+01:00",
+  "StartCount": 708,
+  "DatabaseSerialNumber": "1194830",
+  "Context": "totam",
+  "Result": "nulla",
   "State": "All",
-  "Description": "Balanced interactive task-force",
-  "Response": "quae",
-  "Request": "velit",
-  "ProgressDescription": "Innovative needs-based success",
-  "ProgressPercent": 18,
-  "FileName": "Bernier Inc and Sons",
+  "Description": "Programmable zero administration benchmark",
+  "Response": "quo",
+  "Request": "ab",
+  "ProgressDescription": "Function-based global hub",
+  "ProgressPercent": 224,
+  "FileName": "Crooks Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 910
     }
   }
 }

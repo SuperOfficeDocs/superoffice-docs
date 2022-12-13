@@ -11,7 +11,14 @@ PUT /api/v1/List/UserGroup/Headings
 
 Saves headings for the UserGroup list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 640,
-    "Name": "Ritchie-Klocko",
-    "Tooltip": "neque",
+    "HeadingId": 81,
+    "Name": "Turcotte LLC",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 668,
-    "UdListDefinitionId": 469
+    "Rank": 870,
+    "UdListDefinitionId": 758
   },
   {
-    "HeadingId": 640,
-    "Name": "Ritchie-Klocko",
-    "Tooltip": "neque",
+    "HeadingId": 81,
+    "Name": "Turcotte LLC",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 668,
-    "UdListDefinitionId": 469
+    "Rank": 870,
+    "UdListDefinitionId": 758
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 924,
-    "Name": "Kling Group",
-    "Tooltip": "voluptas",
+    "HeadingId": 377,
+    "Name": "Champlin-Aufderhar",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "Rank": 464,
-    "UdListDefinitionId": 171,
+    "Rank": 227,
+    "UdListDefinitionId": 77,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

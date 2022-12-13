@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 
 Update the criteria for this dynamic selection.
 
+
 Replaces existing criteria with the new values.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Replaces existing criteria with the new values.
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Criteria
+SelectionId, Criteria 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Criteria | array |  |
+
 
 ## Response: array
 
@@ -75,32 +83,32 @@ Response body: array
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 60,
+  "SelectionId": 412,
   "Criteria": [
     {
-      "Name": "Abshire Group",
-      "Operator": "omnis",
+      "Name": "Toy Group",
+      "Operator": "suscipit",
       "Values": [
-        "molestias",
-        "sequi"
+        "modi",
+        "quia"
       ],
       "DisplayValues": [
-        "quas",
-        "sapiente"
+        "placeat",
+        "autem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 582,
+      "InterParenthesis": 16,
       "InterOperator": "And",
-      "UniqueHash": 321
+      "UniqueHash": 149
     }
   ]
 }
@@ -114,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wyman, Kerluke and Kuhic",
-    "Operator": "ducimus",
+    "Name": "Prosacco-Herzog",
+    "Operator": "explicabo",
     "Values": [
-      "dicta",
-      "dolor"
+      "ut",
+      "non"
     ],
     "DisplayValues": [
-      "expedita",
-      "officia"
+      "voluptas",
+      "et"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "O'Reilly, Schmitt and Mann",
-        "Operator": "et",
+        "Name": "Rath-Bogan",
+        "Operator": "laborum",
         "Values": [
-          "quasi",
-          "temporibus"
+          "saepe",
+          "ut"
         ],
         "DisplayValues": [
-          "sed",
-          "pariatur"
+          "ea",
+          "aspernatur"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 842,
+        "InterParenthesis": 134,
         "InterOperator": "And",
-        "UniqueHash": 561
+        "UniqueHash": 560
       }
     ],
-    "InterParenthesis": 310,
+    "InterParenthesis": 63,
     "InterOperator": "And",
-    "UniqueHash": 37
+    "UniqueHash": 244
   }
 ]
 ```

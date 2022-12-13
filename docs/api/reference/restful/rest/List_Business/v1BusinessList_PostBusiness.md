@@ -11,6 +11,13 @@ POST /api/v1/List/Business/Items
 
 Add a new Business to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new Business to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The Business to be added to the list.
+The Business to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The Business to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,12 +77,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 555,
-  "Name": "Luettgen LLC",
-  "Tooltip": "dolor",
+  "Id": 169,
+  "Name": "Feil-Herzog",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 173,
-  "Rank": 316
+  "UdListDefinitionId": 58,
+  "Rank": 494
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 506,
-  "Name": "Daniel, Stoltenberg and Ratke",
-  "Tooltip": "exercitationem",
+  "Id": 841,
+  "Name": "McKenzie-Will",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 313,
-  "Rank": 916,
+  "UdListDefinitionId": 626,
+  "Rank": 781,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldType": "System.String",
+      "FieldLength": 585
     }
   }
 }

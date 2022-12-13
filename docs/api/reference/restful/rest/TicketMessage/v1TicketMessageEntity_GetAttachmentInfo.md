@@ -11,9 +11,16 @@ GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 
 Get a list with meta data for all attached attachments
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ticketMessageEntityId | int32 | The id of the ticket message to get attachment infos for **Required** |
+
+
 
 ## Request Headers
 
@@ -27,6 +34,7 @@ Get a list with meta data for all attached attachments
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -55,7 +63,7 @@ Response body: array
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -66,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 38,
-    "Name": "Haley-Bayer",
-    "ContentType": "repudiandae",
-    "AttSize": 312,
+    "AttachmentId": 295,
+    "Name": "Cole, Kiehn and Kiehn",
+    "ContentType": "saepe",
+    "AttSize": 679,
     "InlineImage": false,
-    "ContentId": "tempore",
+    "ContentId": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 131
       }
     }
   }

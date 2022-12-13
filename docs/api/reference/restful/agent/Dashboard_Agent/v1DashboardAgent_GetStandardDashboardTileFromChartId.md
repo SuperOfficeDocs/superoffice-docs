@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 
 Gets the standard tile (not personal tile) corresponding to the given chart id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the standard tile (not personal tile) corresponding to the given chart id
 ```http
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChartId
+ChartId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChartId | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,11 +86,11 @@ Response body:
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "perferendis"
+  "ChartId": "eum"
 }
 ```
 
@@ -93,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 856,
-  "Caption": "et",
-  "Description": "Re-engineered grid-enabled time-frame",
-  "ChartName": "Langosh-Mayer",
-  "ChartId": "architecto",
+  "DashboardTileId": 342,
+  "Caption": "id",
+  "Description": "Assimilated fault-tolerant implementation",
+  "ChartName": "Skiles-Mohr",
+  "ChartId": "quidem",
   "IsDefault": true,
-  "AssociateId": 788,
-  "GroupId": 617,
-  "SelectionId": 568,
-  "Config": "tenetur",
+  "AssociateId": 867,
+  "GroupId": 355,
+  "SelectionId": 146,
+  "Config": "qui",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Thiel-Lowe",
-      "Description": "Secured client-driven frame",
+      "Name": "McDermott-Kilback",
+      "Description": "Digitized discrete standardization",
       "Type": "Boolean",
-      "ListName": "Haley Group",
+      "ListName": "Altenwerth Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nemo",
-      "DefaultDataOption": true,
+      "Value": "fugiat",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldType": "System.String",
+          "FieldLength": 316
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 17,
+      "VisibleId": 223,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 889
+          "FieldType": "System.Int32",
+          "FieldLength": 97
         }
       }
     },
     {
-      "VisibleId": 17,
+      "VisibleId": 223,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 889
+          "FieldType": "System.Int32",
+          "FieldLength": 97
         }
       }
     }
@@ -160,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 726
+      "FieldLength": 705
     }
   }
 }

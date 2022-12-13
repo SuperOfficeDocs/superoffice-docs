@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetCountryList
 
 Gets an array of Country objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Country objects.
 ```http
 POST /api/v1/Agents/List/GetCountryList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/List/GetCountryList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: countryIds
+## Request Body: countryIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -78,7 +87,7 @@ Response body: array
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 69,
-    "Name": "Rice, Lehner and Hickle",
-    "CurrencyId": 752,
-    "EnglishName": "Pfannerstill-Senger",
+    "CountryId": 929,
+    "Name": "Kessler-Schoen",
+    "CurrencyId": 812,
+    "EnglishName": "Pacocha-Connelly",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Advanced bandwidth-monitored framework",
-    "OrgNrText": "896308",
-    "InterAreaPrefix": "repellat",
-    "DialInPrefix": "praesentium",
-    "ZipPrefix": "voluptas",
-    "DomainName": "Waelchi-Berge",
-    "AddressLayoutId": 323,
-    "DomesticAddressLayoutId": 370,
-    "ForeignAddressLayoutId": 730,
-    "Rank": 675,
-    "Tooltip": "harum",
-    "Deleted": true,
+    "ImageDescription": "Enhanced 5th generation hardware",
+    "OrgNrText": "1667971",
+    "InterAreaPrefix": "minima",
+    "DialInPrefix": "tempore",
+    "ZipPrefix": "deleniti",
+    "DomainName": "Fahey Inc and Sons",
+    "AddressLayoutId": 164,
+    "DomesticAddressLayoutId": 647,
+    "ForeignAddressLayoutId": 185,
+    "Rank": 273,
+    "Tooltip": "qui",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 36
+        "FieldType": "System.String",
+        "FieldLength": 43
       }
     }
   }

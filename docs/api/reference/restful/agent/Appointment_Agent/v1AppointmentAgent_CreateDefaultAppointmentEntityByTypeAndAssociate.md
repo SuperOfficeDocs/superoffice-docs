@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 
 Creates a AppointmentEntity populated with the default values for the specific type and owner.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a AppointmentEntity populated with the default values for the specific t
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type, AssociateId
+Type, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 | AssociateId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -120,12 +128,12 @@ Response body:
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 930
+  "AssociateId": 670
 }
 ```
 
@@ -140,122 +148,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-11-12T11:10:25.654562+01:00",
-  "AppointmentId": 76,
-  "Description": "Focused incremental forecast",
-  "StartDate": "2015-03-29T11:10:25.654562+02:00",
-  "EndDate": "2011-10-01T11:10:25.654562+02:00",
+  "CreatedDate": "2007-07-15T02:49:43.419154+02:00",
+  "AppointmentId": 657,
+  "Description": "Fundamental directional array",
+  "StartDate": "2006-01-19T02:49:43.419154+01:00",
+  "EndDate": "2010-11-10T02:49:43.419154+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 708,
+  "MotherId": 569,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-06-08T11:10:25.6565525+02:00",
+  "UpdatedDate": "2003-11-23T02:49:43.419154+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 286,
+  "ActiveLinks": 29,
   "Links": [
     {
-      "EntityName": "McLaughlin Inc and Sons",
-      "Id": 39,
-      "Description": "Cross-group cohesive task-force",
-      "ExtraInfo": "quisquam",
-      "LinkId": 828,
+      "EntityName": "Grant Inc and Sons",
+      "Id": 995,
+      "Description": "Profound web-enabled encoding",
+      "ExtraInfo": "est",
+      "LinkId": 270,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 124
         }
       }
     }
   ],
-  "AlarmLeadTime": "ea",
+  "AlarmLeadTime": "exercitationem",
   "HasAlarm": false,
-  "ColorIndex": 558,
+  "ColorIndex": 448,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "esse",
-  "LeadTime": "qui",
-  "Location": "omnis",
-  "RejectCounter": 845,
-  "RejectReason": "e-enable magnetic architectures",
+  "LagTime": "aut",
+  "LeadTime": "pariatur",
+  "Location": "libero",
+  "RejectCounter": 626,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 195,
-      "PersonId": 415,
-      "ContactId": 932,
-      "EmailId": 884,
-      "SendEmail": false,
+      "AssociateId": 250,
+      "PersonId": 656,
+      "ContactId": 135,
+      "EmailId": 475,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 195,
-      "PersonId": 415,
-      "ContactId": 932,
-      "EmailId": 884,
-      "SendEmail": false,
+      "AssociateId": 250,
+      "PersonId": 656,
+      "ContactId": 135,
+      "EmailId": 475,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-12-30T11:10:25.657553+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2013-12-12T02:49:43.419154+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 483,
+  "PreferredTZLocation": 324,
   "Sale": null,
-  "SuggestedAppointmentId": 506,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 388,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "illo",
+  "CentralserviceVideomeetId": "consequatur",
   "UserDefinedFields": {
-    "SuperOffice:1": "Noe Hammes",
-    "SuperOffice:2": "Caitlyn Auer"
+    "SuperOffice:1": "Lilla Wiegand I",
+    "SuperOffice:2": "Dr. Rachel Donnelly DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "illum",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "earum"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "odit"
   },
-  "PublishEventDate": "1995-11-30T11:10:25.6585546+01:00",
-  "PublishTo": "2007-06-19T11:10:25.6585546+02:00",
-  "PublishFrom": "2005-07-04T11:10:25.6585546+02:00",
+  "PublishEventDate": "2007-05-06T02:49:43.419154+02:00",
+  "PublishTo": "2021-01-10T02:49:43.419154+01:00",
+  "PublishFrom": "2020-02-19T02:49:43.419154+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 489,
+      "VisibleId": 755,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 237
+          "FieldType": "System.Int32",
+          "FieldLength": 644
         }
       }
     },
     {
-      "VisibleId": 489,
+      "VisibleId": 755,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 237
+          "FieldType": "System.Int32",
+          "FieldLength": 644
         }
       }
     }
@@ -265,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 568
     }
   }
 }

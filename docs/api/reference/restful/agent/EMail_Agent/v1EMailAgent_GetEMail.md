@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMail
 
 Get en e-mail based on its primary key in the DB
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get en e-mail based on its primary key in the DB
 ```http
 POST /api/v1/Agents/EMail/GetEMail?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,17 @@ POST /api/v1/Agents/EMail/GetEMail?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id, IncludeAttachments
+Id, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | IncludeAttachments | bool |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,7 +107,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 218,
+  "Id": 582,
   "IncludeAttachments": false
 }
 ```
@@ -111,146 +121,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 129,
-      "ContactName": "Wehner Group",
-      "PersonId": 651,
-      "PersonName": "Larson-Marks",
-      "AssociateId": 918,
-      "Address": "sequi",
-      "EmailId": 473,
+      "ContactId": 375,
+      "ContactName": "Monahan-Heller",
+      "PersonId": 239,
+      "PersonName": "Hamill, Balistreri and Kunde",
+      "AssociateId": 75,
+      "Address": "dolores",
+      "EmailId": 387,
       "DuplicatePersonIds": [
-        482,
-        493
+        326,
+        676
       ],
-      "Name": "Rohan, Mohr and Cormier",
+      "Name": "Sawayn Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldType": "System.String",
+          "FieldLength": 271
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 73,
-      "ContactName": "D'Amore-Runte",
-      "PersonId": 111,
-      "PersonName": "Nader, Lakin and Wuckert",
-      "AssociateId": 149,
-      "Address": "officia",
-      "EmailId": 489,
+      "ContactId": 919,
+      "ContactName": "Casper-VonRueden",
+      "PersonId": 960,
+      "PersonName": "Roberts Inc and Sons",
+      "AssociateId": 852,
+      "Address": "cum",
+      "EmailId": 605,
       "DuplicatePersonIds": [
-        255,
-        335
+        129,
+        173
       ],
-      "Name": "Hirthe Inc and Sons",
+      "Name": "Huel LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldLength": 571
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 780,
-      "ContactName": "Zulauf, Olson and Hilpert",
-      "PersonId": 380,
-      "PersonName": "Sanford, Kuhlman and Hettinger",
-      "AssociateId": 498,
-      "Address": "nobis",
-      "EmailId": 209,
+      "ContactId": 53,
+      "ContactName": "Heidenreich-Hoeger",
+      "PersonId": 711,
+      "PersonName": "Beahan, Osinski and Mills",
+      "AssociateId": 81,
+      "Address": "dolores",
+      "EmailId": 64,
       "DuplicatePersonIds": [
-        141,
-        442
+        161,
+        786
       ],
-      "Name": "Reynolds Group",
+      "Name": "Zemlak-Mosciski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldLength": 628
         }
       }
     }
   ],
-  "Subject": "unde",
-  "HTMLBody": "reprehenderit",
+  "Subject": "nam",
+  "HTMLBody": "aliquid",
   "From": null,
-  "Sent": "2012-08-18T11:10:26.9784523+02:00",
-  "Size": 880,
+  "Sent": "2008-01-12T02:49:44.4660393+01:00",
+  "Size": 88,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "architecto",
-  "PlainBody": "voluptatem",
-  "IsSent": true,
+  "MessageID": "dolore",
+  "PlainBody": "et",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 757,
+  "ServerId": 39,
   "Attachments": [
     {
-      "Description": "Intuitive neutral architecture",
-      "Filename": "et",
-      "Size": 17,
-      "Type": "tempore",
-      "Encoding": "et",
-      "Id": "eos",
-      "Disposition": "quasi",
+      "Description": "Realigned human-resource attitude",
+      "Filename": "est",
+      "Size": 948,
+      "Type": "id",
+      "Encoding": "assumenda",
+      "Id": "magnam",
+      "Disposition": "ut",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 796
+          "FieldLength": 9
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Casper, Abshire and Kessler",
+      "Name": "Gorczany-Kemmer",
       "Values": [
-        "itaque",
-        "voluptatem"
+        "aut",
+        "id"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 311
+          "FieldType": "System.Int32",
+          "FieldLength": 325
         }
       }
     },
     {
-      "Name": "Casper, Abshire and Kessler",
+      "Name": "Gorczany-Kemmer",
       "Values": [
-        "itaque",
-        "voluptatem"
+        "aut",
+        "id"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 311
+          "FieldType": "System.Int32",
+          "FieldLength": 325
         }
       }
     }
   ],
-  "FolderName": "Sawayn Group",
-  "EmailItemId": 274,
-  "AccountId": 516,
-  "ReceivedAt": "2010-11-12T11:10:26.9784523+01:00",
+  "FolderName": "Ziemann LLC",
+  "EmailItemId": 416,
+  "AccountId": 234,
+  "ReceivedAt": "2011-08-03T02:49:44.4660393+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-03-02T11:10:26.9784523+01:00",
+  "RepliedAt": "2000-04-11T02:49:44.4660393+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -259,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 108
+      "FieldLength": 336
     }
   }
 }

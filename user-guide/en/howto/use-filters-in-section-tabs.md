@@ -11,7 +11,7 @@ language: en
 
 # Use filters in the section tabs
 
-The section tabs in SuperOffice CRM can contain large amounts of data, such as contacts, activities, sales etc. To make it easier to show the data you want to work with, you can filter theses lists to your specific needs.
+The section tabs in SuperOffice CRM can contain large amounts of data, such as contacts, activities, sales and so on. To make it easier to show the data you want to work with, you can filter theses lists to your specific needs.
 
 ![Use filters in the section tabs -screenshot][img1]
 

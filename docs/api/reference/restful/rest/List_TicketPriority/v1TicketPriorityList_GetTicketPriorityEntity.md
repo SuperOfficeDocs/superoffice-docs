@@ -11,11 +11,18 @@ GET /api/v1/List/TicketPriority/Items/{id}
 
 Gets a TicketPriorityEntity list item.
 
+
 Calls the List agent service GetTicketPriorityEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TicketPriority to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,8 @@ Calls the List agent service GetTicketPriorityEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -39,7 +47,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,60 +98,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 997,
-  "Name": "Crist, Turcotte and Jaskolski",
+  "TicketPriorityId": 882,
+  "Name": "Gutkowski-Green",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 724,
+  "SortOrder": 572,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 930,
-  "MonStart": "2001-07-14T11:10:54.6859295+02:00",
-  "MonStop": "2006-05-24T11:10:54.6859295+02:00",
-  "TueStart": "2007-11-24T11:10:54.6859295+01:00",
-  "TueStop": "1996-03-16T11:10:54.6859295+01:00",
-  "WedStart": "2013-04-18T11:10:54.6859295+02:00",
-  "WedStop": "2005-09-12T11:10:54.6859295+02:00",
-  "ThuStart": "2010-12-01T11:10:54.6859295+01:00",
-  "ThuStop": "1998-04-30T11:10:54.6859295+02:00",
-  "FriStart": "2017-01-14T11:10:54.6859295+01:00",
-  "FriStop": "2018-07-18T11:10:54.6859295+02:00",
-  "SatStart": "2013-10-14T11:10:54.6859295+02:00",
-  "SatStop": "1999-02-13T11:10:54.6859295+01:00",
-  "SunStart": "2000-08-06T11:10:54.6859295+02:00",
-  "SunStop": "2018-05-26T11:10:54.6859295+02:00",
+  "Deadline": 525,
+  "MonStart": "2009-04-25T02:49:52.5784525+02:00",
+  "MonStop": "2004-09-02T02:49:52.5784525+02:00",
+  "TueStart": "2021-12-27T02:49:52.5784525+01:00",
+  "TueStop": "2003-12-20T02:49:52.5784525+01:00",
+  "WedStart": "2001-07-06T02:49:52.5784525+02:00",
+  "WedStop": "2003-10-05T02:49:52.5784525+02:00",
+  "ThuStart": "2016-04-28T02:49:52.5784525+02:00",
+  "ThuStop": "2010-10-05T02:49:52.5784525+02:00",
+  "FriStart": "2013-03-29T02:49:52.5784525+01:00",
+  "FriStop": "2009-04-25T02:49:52.5784525+02:00",
+  "SatStart": "2011-03-25T02:49:52.5784525+01:00",
+  "SatStop": "2017-04-12T02:49:52.5784525+02:00",
+  "SunStart": "2018-01-06T02:49:52.5784525+01:00",
+  "SunStop": "1997-05-30T02:49:52.5784525+02:00",
   "NonDates": [
-    "molestiae",
-    "cupiditate"
+    "et",
+    "et"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 371,
-      "AlertLevel": 157,
-      "AlertTimeout": 483,
-      "Action": 110,
-      "DelegateTo": 860,
-      "ScriptId": 236,
-      "EmailTo": "braulio@davisbednar.com",
-      "SmsTo": "laudantium",
-      "ReplyTemplateIdCustomer": 109,
-      "ReplyTemplateIdUser": 344,
-      "ReplyTemplateIdCatmast": 544,
-      "ReplyTemplateIdEmail": 174,
-      "RtiCustomerSms": 797,
-      "ReplyTemplateIdUserSms": 814,
-      "ReplyTemplateIdCatmastSms": 62,
-      "ReplyTemplateIdSms": 20,
+      "TicketAlertId": 930,
+      "AlertLevel": 675,
+      "AlertTimeout": 193,
+      "Action": 857,
+      "DelegateTo": 302,
+      "ScriptId": 565,
+      "EmailTo": "cindy@cronasmith.uk",
+      "SmsTo": "excepturi",
+      "ReplyTemplateIdCustomer": 303,
+      "ReplyTemplateIdUser": 792,
+      "ReplyTemplateIdCatmast": 304,
+      "ReplyTemplateIdEmail": 494,
+      "RtiCustomerSms": 193,
+      "ReplyTemplateIdUserSms": 927,
+      "ReplyTemplateIdCatmastSms": 778,
+      "ReplyTemplateIdSms": 479,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldType": "System.String",
+          "FieldLength": 519
         }
       }
     }
@@ -153,7 +161,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 834
     }
   }
 }

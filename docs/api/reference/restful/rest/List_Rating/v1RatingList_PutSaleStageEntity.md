@@ -11,11 +11,18 @@ PUT /api/v1/List/Rating/Items/{id}
 
 Updates the existing SaleStageEntity
 
+
 Calls the List agent service SaveSaleStageEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of SaleStageEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveSaleStageEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of SaleStageEntity to be saved.
+The details of SaleStageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,7 +51,8 @@ The details of SaleStageEntity to be saved.
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,16 +80,16 @@ Response body:
 PUT /api/v1/List/Rating/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 165,
-  "Value": "dignissimos",
-  "Tooltip": "quia",
-  "Probability": 297,
+  "SaleStageId": 576,
+  "Value": "eius",
+  "Tooltip": "occaecati",
+  "Probability": 371,
   "Deleted": false,
-  "Rank": 918
+  "Rank": 621
 }
 ```
 
@@ -92,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 365,
-  "Value": "doloribus",
-  "Tooltip": "exercitationem",
-  "Probability": 287,
+  "SaleStageId": 948,
+  "Value": "et",
+  "Tooltip": "occaecati",
+  "Probability": 148,
   "Deleted": false,
-  "Rank": 111,
+  "Rank": 539,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldLength": 352
     }
   }
 }

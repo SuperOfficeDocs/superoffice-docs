@@ -11,6 +11,13 @@ POST /api/v1/Agents/Selection/SaveSelectionEntity
 
 Updates the existing SelectionEntity or creates a new SelectionEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing SelectionEntity or creates a new SelectionEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SelectionEntity to be saved.
+The SelectionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +80,8 @@ The SelectionEntity to be saved.
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -81,7 +89,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -139,56 +147,56 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Focused background projection",
-  "Postit": "magnam",
+  "Description": "Front-line background hardware",
+  "Postit": "rerum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 639,
-  "IncludePerson": 140,
-  "MemberCount": 861,
-  "Name": "Reichert, Herzog and Bahringer",
-  "PostitTextId": 666,
-  "CreatedDate": "2015-06-24T11:10:27.8840077+02:00",
-  "SelectionId": 107,
-  "SoundEx": "impedit",
-  "Source": 886,
-  "TextId": 447,
-  "UpdatedDate": "2007-02-23T11:10:27.8840077+01:00",
-  "UpdatedCount": 939,
-  "Visibility": 654,
+  "GroupIdx": 659,
+  "IncludePerson": 440,
+  "MemberCount": 951,
+  "Name": "Jerde, Hyatt and Lesch",
+  "PostitTextId": 341,
+  "CreatedDate": "2007-03-30T02:49:45.3590885+02:00",
+  "SelectionId": 821,
+  "SoundEx": "sed",
+  "Source": 566,
+  "TextId": 61,
+  "UpdatedDate": "2017-08-17T02:49:45.3590885+02:00",
+  "UpdatedCount": 90,
+  "Visibility": 995,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 370,
-  "TargetTableName": "Ritchie-Mayer",
-  "Completed": false,
-  "LeftSelectionId": 389,
-  "RightSelectionId": 626,
+  "CompanyUnique": true,
+  "TargetTableNumber": 447,
+  "TargetTableName": "Olson-Nolan",
+  "Completed": true,
+  "LeftSelectionId": 82,
+  "RightSelectionId": 434,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Medhurst LLC",
-  "ShadowProviderName": "Sporer-O'Reilly",
-  "ChartKey": "quidem",
-  "LastLoaded": "1998-10-14T11:10:27.8840077+02:00",
-  "LastLoadedBy": 279,
+  "MainProviderName": "Kshlerin, Champlin and Mertz",
+  "ShadowProviderName": "White-Nitzsche",
+  "ChartKey": "exercitationem",
+  "LastLoaded": "2018-09-28T02:49:45.3590885+02:00",
+  "LastLoadedBy": 494,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-12-19T11:10:27.8850073+01:00",
-  "LastMembershipChangeBy": 100,
+  "LastMembershipChange": "2008-12-31T02:49:45.3590885+01:00",
+  "LastMembershipChangeBy": 327,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aspernatur",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Doyle LLC",
-  "DashboardTileDefinitionId": 824,
+  "MainHeading": "distinctio",
+  "MemberTabHeading": "neque",
+  "MailingsProviderName": "Wiza-Frami",
+  "DashboardTileDefinitionId": 315,
   "VisibleFor": [
     {
-      "VisibleId": 9,
+      "VisibleId": 764,
       "Visibility": "All",
-      "DisplayValue": "quia"
+      "DisplayValue": "animi"
     },
     {
-      "VisibleId": 9,
+      "VisibleId": 764,
       "Visibility": "All",
-      "DisplayValue": "quia"
+      "DisplayValue": "animi"
     }
   ]
 }
@@ -201,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profound didactic workforce",
-  "Postit": "ut",
+  "Description": "Distributed tertiary intranet",
+  "Postit": "eos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 620,
-  "IncludePerson": 167,
-  "MemberCount": 297,
-  "Name": "Schimmel LLC",
-  "PostitTextId": 765,
-  "CreatedDate": "2009-03-03T11:10:27.8880101+01:00",
-  "SelectionId": 80,
-  "SoundEx": "maxime",
-  "Source": 937,
-  "TextId": 37,
-  "UpdatedDate": "2022-02-22T11:10:27.8880101+01:00",
-  "UpdatedCount": 27,
-  "Visibility": 192,
+  "GroupIdx": 265,
+  "IncludePerson": 497,
+  "MemberCount": 374,
+  "Name": "Lowe LLC",
+  "PostitTextId": 904,
+  "CreatedDate": "2000-12-12T02:49:45.3590885+01:00",
+  "SelectionId": 817,
+  "SoundEx": "excepturi",
+  "Source": 419,
+  "TextId": 180,
+  "UpdatedDate": "2021-09-29T02:49:45.3590885+02:00",
+  "UpdatedCount": 495,
+  "Visibility": 717,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 570,
-  "TargetTableName": "Bradtke LLC",
+  "TargetTableNumber": 751,
+  "TargetTableName": "Mann, Emmerich and Friesen",
   "Completed": false,
-  "LeftSelectionId": 369,
-  "RightSelectionId": 802,
+  "LeftSelectionId": 496,
+  "RightSelectionId": 859,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Keebler-Windler",
-  "ShadowProviderName": "Spinka, O'Hara and Lemke",
-  "ChartKey": "sit",
-  "LastLoaded": "2013-12-14T11:10:27.8890074+01:00",
-  "LastLoadedBy": 442,
+  "MainProviderName": "Keeling Group",
+  "ShadowProviderName": "Nienow-Frami",
+  "ChartKey": "debitis",
+  "LastLoaded": "1999-06-01T02:49:45.3590885+02:00",
+  "LastLoadedBy": 873,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1996-02-28T11:10:27.8890074+01:00",
-  "LastMembershipChangeBy": 414,
+  "LastMembershipChange": "2009-05-26T02:49:45.3590885+02:00",
+  "LastMembershipChangeBy": 853,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "illum",
-  "MemberTabHeading": "inventore",
-  "MailingsProviderName": "Kovacek, Murazik and Mosciski",
-  "DashboardTileDefinitionId": 758,
+  "MainHeading": "aut",
+  "MemberTabHeading": "cupiditate",
+  "MailingsProviderName": "Konopelski Group",
+  "DashboardTileDefinitionId": 261,
   "VisibleFor": [
     {
-      "VisibleId": 379,
+      "VisibleId": 101,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 687
         }
       }
     },
     {
-      "VisibleId": 379,
+      "VisibleId": 101,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 687
         }
       }
     }
@@ -274,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 534
     }
   }
 }

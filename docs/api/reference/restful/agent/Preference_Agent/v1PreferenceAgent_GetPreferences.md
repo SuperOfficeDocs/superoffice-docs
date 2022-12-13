@@ -11,7 +11,13 @@ POST /api/v1/Agents/Preference/GetPreferences
 
 Get one or more preferences based on a set of specifications.
 
+
 &lt;br/&gt;The prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Get one or more preferences based on a set of specifications.
 ```http
 POST /api/v1/Agents/Preference/GetPreferences?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Preference/GetPreferences?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Specifications
+Specifications 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Specifications | array |  |
+
 
 ## Response: array
 
@@ -77,18 +85,18 @@ Response body: array
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "quia",
-      "Key": "illo"
+      "Section": "iure",
+      "Key": "vel"
     },
     {
-      "Section": "quia",
-      "Key": "illo"
+      "Section": "iure",
+      "Key": "vel"
     }
   ]
 }
@@ -103,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "fuga",
+    "RawValue": "ut",
     "Specification": null,
-    "DisplayValue": "quis",
-    "DisplayTooltip": "et",
+    "DisplayValue": "consequuntur",
+    "DisplayTooltip": "aut",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 522,
-    "PrefDescId": 900,
-    "TableName": "Jones Inc and Sons",
-    "UserPreferenceId": 125,
+    "TargetId": 940,
+    "PrefDescId": 213,
+    "TableName": "O'Connell, Konopelski and Hintz",
+    "UserPreferenceId": 396,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldLength": 328
       }
     }
   }

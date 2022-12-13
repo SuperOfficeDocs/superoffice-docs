@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/UpdateHierarchyFromPath
 
 Update a hierarchy item from a path
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update a hierarchy item from a path
 ```http
 POST /api/v1/Agents/List/UpdateHierarchyFromPath?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/List/UpdateHierarchyFromPath?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Domain, Path, Entity
+Domain, Path, Entity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ Domain, Path, Entity
 | Path | string |  |
 | Entity |  | Folder structures <para /> Carrier object for HierarchyEntity. Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "ad",
+  "Path": "non",
   "Entity": null
 }
 ```
@@ -93,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 51,
+  "HierarchyId": 260,
   "Domain": "Dashboards",
-  "Name": "Muller, Ondricka and Barrows",
-  "Fullname": "in",
-  "ParentId": 909,
+  "Name": "Herman, McGlynn and Pfeffer",
+  "Fullname": "sunt",
+  "ParentId": 338,
   "Children": [
     {
-      "HierarchyId": 573,
+      "HierarchyId": 116,
       "Domain": "Dashboards",
-      "Name": "Friesen, Lakin and Williamson",
-      "Fullname": "consectetur",
-      "ParentId": 491,
+      "Name": "Schoen-Parker",
+      "Fullname": "sint",
+      "ParentId": 428,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-03-30T11:10:27.2274367+01:00",
-      "RegisteredAssociateId": 59,
-      "Updated": "2007-09-14T11:10:27.2274367+02:00",
-      "UpdatedAssociateId": 680,
+      "Registered": "1998-05-16T02:49:44.6704246+02:00",
+      "RegisteredAssociateId": 872,
+      "Updated": "2005-08-25T02:49:44.6704246+02:00",
+      "UpdatedAssociateId": 689,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 889
+          "FieldLength": 520
         }
       }
     }
   ],
-  "Registered": "1996-07-14T11:10:27.2274367+02:00",
-  "RegisteredAssociateId": 646,
-  "Updated": "1996-02-05T11:10:27.2274367+01:00",
-  "UpdatedAssociateId": 952,
+  "Registered": "2008-09-28T02:49:44.6704246+02:00",
+  "RegisteredAssociateId": 755,
+  "Updated": "2002-01-31T02:49:44.6704246+01:00",
+  "UpdatedAssociateId": 638,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 127
     }
   }
 }

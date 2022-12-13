@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/SessionIsValid
 
 Check if a CS session is valid
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check if a CS session is valid
 ```http
 POST /api/v1/Agents/CustomerService/SessionIsValid?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/CustomerService/SessionIsValid?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CsSessionKey
+CsSessionKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CsSessionKey | string |  |
+
 
 ## Response: bool
 
@@ -53,17 +61,18 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/SessionIsValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CsSessionKey": "sed"
+  "CsSessionKey": "quo"
 }
 ```
 
@@ -73,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

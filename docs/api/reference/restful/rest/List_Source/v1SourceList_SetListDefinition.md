@@ -11,6 +11,13 @@ PUT /api/v1/List/Source
 
 Save the description of Source list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,12 +32,12 @@ Save the description of Source list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listEntity
+## Request Body: listEntity  
 
 The list entity contains information about a specific list
 <para />
 Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ Services for the ListEntity Carrier is available from the <see cref="T:SuperOffi
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 620,
-  "Name": "Pagac, McGlynn and Robel",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "Rank": 377,
+  "Id": 159,
+  "Name": "Veum, Gaylord and Metz",
+  "Tooltip": "id",
+  "Deleted": false,
+  "Rank": 651,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellendus",
+  "ListType": "et",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -100,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 550,
-  "Name": "Botsford, Brakus and Goldner",
-  "Tooltip": "inventore",
+  "Id": 919,
+  "Name": "Schinner-Schmitt",
+  "Tooltip": "possimus",
   "Deleted": true,
-  "Rank": 280,
-  "IsCustomList": true,
+  "Rank": 396,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
+  "UseGroupsAndHeadings": true,
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldType": "System.String",
+      "FieldLength": 719
     }
   }
 }

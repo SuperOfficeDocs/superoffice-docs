@@ -11,10 +11,17 @@ PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 
 Update User groups that this list item is visible for
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Update User groups that this list item is visible for
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: userGroups
+## Request Body: userGroups  
 
-The selectable user groups.
+The selectable user groups. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,6 +58,7 @@ The selectable user groups.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -88,47 +96,47 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Pouros LLC",
-    "ToolTip": "Cum tempora harum quos voluptas et ut non.",
-    "Deleted": false,
-    "Rank": 69,
-    "Type": "nihil",
-    "ColorBlock": 969,
-    "IconHint": "quidem",
+    "Id": 190,
+    "Name": "Grant-Wilderman",
+    "ToolTip": "Possimus laboriosam.",
+    "Deleted": true,
+    "Rank": 755,
+    "Type": "optio",
+    "ColorBlock": 966,
+    "IconHint": "voluptate",
     "Selected": true,
-    "LastChanged": "2015-03-30T11:10:53.8882129+02:00",
+    "LastChanged": "1998-11-08T02:49:51.8596935+01:00",
     "ChildItems": [
       {
-        "Id": 934,
-        "Name": "Rodriguez-Lesch",
-        "ToolTip": "Rerum libero ut saepe rem.",
+        "Id": 643,
+        "Name": "Bosco, O'Kon and Nitzsche",
+        "ToolTip": "Fugiat unde totam dolor autem est.",
         "Deleted": false,
-        "Rank": 412,
-        "Type": "magnam",
-        "ColorBlock": 770,
-        "IconHint": "ex",
+        "Rank": 253,
+        "Type": "mollitia",
+        "ColorBlock": 271,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "2001-03-03T11:10:53.8882129+01:00",
+        "LastChanged": "2004-06-06T02:49:51.8596935+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Tanya Wiegand"
+        "ExtraInfo": "neque",
+        "StyleHint": "eligendi",
+        "Hidden": false,
+        "FullName": "Florida Adaline Hand DDS"
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "non",
+    "ExtraInfo": "alias",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Abelardo Morar PhD"
+    "FullName": "Corene Christiansen"
   }
 ]
 ```
@@ -141,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 191,
-    "Name": "Funk Group",
-    "ToolTip": "Velit sed hic voluptatum maxime.",
+    "Id": 18,
+    "Name": "Oberbrunner-Wolf",
+    "ToolTip": "In officia ut corrupti voluptatem deserunt.",
     "Deleted": true,
-    "Rank": 544,
-    "Type": "illo",
-    "ColorBlock": 778,
-    "IconHint": "qui",
+    "Rank": 707,
+    "Type": "consequatur",
+    "ColorBlock": 765,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2011-02-06T11:10:53.8892151+01:00",
+    "LastChanged": "2015-02-22T02:49:51.8596935+01:00",
     "ChildItems": [
       {
-        "Id": 137,
-        "Name": "Pagac-Thiel",
-        "ToolTip": "Eum exercitationem perspiciatis.",
-        "Deleted": false,
-        "Rank": 520,
-        "Type": "iusto",
-        "ColorBlock": 374,
-        "IconHint": "tempora",
+        "Id": 719,
+        "Name": "Donnelly, Okuneva and Dickens",
+        "ToolTip": "Recusandae quia sed repellat quisquam maiores.",
+        "Deleted": true,
+        "Rank": 638,
+        "Type": "id",
+        "ColorBlock": 84,
+        "IconHint": "odit",
         "Selected": true,
-        "LastChanged": "2008-07-17T11:10:53.8892151+02:00",
+        "LastChanged": "2014-06-10T02:49:51.8596935+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Royal Kemmer DVM",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "aspernatur",
+        "Hidden": false,
+        "FullName": "Jedidiah Romaguera",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 94
+            "FieldLength": 783
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "quis",
+    "ExtraInfo": "qui",
+    "StyleHint": "quibusdam",
     "Hidden": false,
-    "FullName": "Assunta Thomas Lesch I",
+    "FullName": "Henri Reinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldType": "System.String",
+        "FieldLength": 651
       }
     }
   }

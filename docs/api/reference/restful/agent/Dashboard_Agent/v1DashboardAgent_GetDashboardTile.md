@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetDashboardTile
 
 Gets a DashboardTile object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=393
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=189
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,64 +89,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 478,
-  "Caption": "hic",
-  "Description": "Optional client-driven challenge",
-  "ChartName": "Marquardt, Lakin and Bergstrom",
-  "ChartId": "facere",
-  "IsDefault": true,
-  "AssociateId": 839,
-  "GroupId": 567,
-  "SelectionId": 58,
-  "Config": "eos",
+  "DashboardTileId": 620,
+  "Caption": "temporibus",
+  "Description": "Configurable intangible superstructure",
+  "ChartName": "Oberbrunner, Predovic and Sanford",
+  "ChartId": "modi",
+  "IsDefault": false,
+  "AssociateId": 145,
+  "GroupId": 622,
+  "SelectionId": 16,
+  "Config": "ea",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Boyer-Ward",
-      "Description": "Public-key tangible contingency",
+      "Name": "Muller-Schmeler",
+      "Description": "Optimized encompassing groupware",
       "Type": "Boolean",
-      "ListName": "Paucek, Beier and Mayert",
+      "ListName": "Spinka LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "amet",
+      "Value": "quasi",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 598
+          "FieldType": "System.Int32",
+          "FieldLength": 756
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 244,
+      "VisibleId": 525,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 792
+          "FieldLength": 487
         }
       }
     },
     {
-      "VisibleId": 244,
+      "VisibleId": 525,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 792
+          "FieldLength": 487
         }
       }
     }
@@ -148,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 839
     }
   }
 }

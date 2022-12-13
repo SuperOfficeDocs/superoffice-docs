@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 
 Get a list of page one fields for given Udef type and current user group
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list of page one fields for given Udef type and current user group
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields?$s
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType, UserGroupId
+OwnerType, UserGroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 | UserGroupId | int32 |  |
+
 
 ## Response: array
 
@@ -99,12 +107,12 @@ Response body: array
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 334
+  "UserGroupId": 765
 }
 ```
 
@@ -116,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 605,
-    "ColumnId": 222,
-    "FieldDefault": "ab",
-    "FieldHeight": 686,
-    "FieldLabel": "perspiciatis",
-    "FieldLeft": 320,
-    "FieldTop": 806,
+    "UDefFieldId": 200,
+    "ColumnId": 998,
+    "FieldDefault": "ratione",
+    "FieldHeight": 973,
+    "FieldLabel": "dolor",
+    "FieldLeft": 618,
+    "FieldTop": 738,
     "FieldType": "Checkbox",
-    "FieldWidth": 884,
-    "FormatMask": "voluptatum",
+    "FieldWidth": 318,
+    "FormatMask": "sed",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 579,
-    "LabelLeft": 627,
-    "LabelTop": 910,
-    "LabelWidth": 645,
-    "LastVersionId": 437,
-    "ListTableId": 170,
-    "IsMandatory": true,
+    "LabelHeight": 750,
+    "LabelLeft": 134,
+    "LabelTop": 791,
+    "LabelWidth": 509,
+    "LastVersionId": 872,
+    "ListTableId": 419,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 405,
-    "ProgId": "voluptatem",
+    "Page1LineNo": 864,
+    "ProgId": "corporis",
     "IsReadOnly": false,
-    "ShortLabel": "debitis",
-    "TabOrder": 130,
-    "TextLength": 720,
-    "Tooltip": "voluptates",
-    "UdefIdentity": 921,
-    "UDListDefinitionId": 267,
+    "ShortLabel": "et",
+    "TabOrder": 656,
+    "TextLength": 976,
+    "Tooltip": "voluptatibus",
+    "UdefIdentity": 160,
+    "UDListDefinitionId": 856,
     "Justification": "Center",
-    "Version": 566,
-    "TemplateVariableName": "Heller-Ratke",
+    "Version": 722,
+    "TemplateVariableName": "Hayes, McClure and Brekke",
     "HasBeenPublished": false,
-    "MdoListName": "Nitzsche-Paucek",
+    "MdoListName": "Olson, Koepp and Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 892
       }
     }
   }

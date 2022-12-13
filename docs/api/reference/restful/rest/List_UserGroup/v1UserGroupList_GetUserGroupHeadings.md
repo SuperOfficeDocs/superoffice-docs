@@ -11,7 +11,14 @@ GET /api/v1/List/UserGroup/Headings
 
 Gets headings for the UserGroup list.
 
+
 Calls the User agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the User agent service GetGetHeadingsFromListDefinition.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -64,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 11,
-    "Name": "Denesik LLC",
-    "Tooltip": "dolorum",
+    "HeadingId": 598,
+    "Name": "Halvorson, Weber and Dickens",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 382,
-    "UdListDefinitionId": 753,
+    "Rank": 201,
+    "UdListDefinitionId": 539,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldLength": 357
       }
     }
   }

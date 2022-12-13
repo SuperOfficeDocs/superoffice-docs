@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: sale, stage
 so.topic: reference
-so.audience: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -18,9 +19,9 @@ The **Sale** tab in the **Sale** screen in SuperOffice CRM contains the **Stage*
 
 ## What would you like to do now?
 
-[Add items to the Sale - Stage list][1]
+* [Add items to the Sale - Stage list][1]
 
 <!-- Referenced links -->
-[1]: ../admin/add-stage.md
+[1]: ../../settings/lists/sale-stage.md
 
 <!-- Referenced images -->

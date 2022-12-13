@@ -11,6 +11,13 @@ GET /api/v1/Presence/GetAll
 
 Get the chat presence status for all chat users
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -23,6 +30,7 @@ Get the chat presence status for all chat users
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -61,20 +69,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 953,
-    "DisplayName": "Strosin LLC",
-    "OngoingChats": 184,
+    "UserId": 311,
+    "DisplayName": "Harvey, Stamm and Littel",
+    "OngoingChats": 82,
     "Present": true,
     "ChatTopics": [
-      453,
-      1001
+      184,
+      589
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldType": "System.Int32",
+        "FieldLength": 834
       }
     }
   }

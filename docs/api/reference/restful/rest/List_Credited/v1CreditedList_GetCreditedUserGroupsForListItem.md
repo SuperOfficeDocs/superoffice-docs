@@ -11,11 +11,18 @@ GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Credited list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Waelchi LLC",
-    "ToolTip": "Consequuntur fugiat animi eum placeat voluptates rerum quia.",
-    "Deleted": false,
-    "Rank": 774,
-    "Type": "libero",
-    "ColorBlock": 279,
-    "IconHint": "molestiae",
+    "Id": 722,
+    "Name": "Pfannerstill LLC",
+    "ToolTip": "Id illum fuga.",
+    "Deleted": true,
+    "Rank": 721,
+    "Type": "sapiente",
+    "ColorBlock": 253,
+    "IconHint": "ea",
     "Selected": true,
-    "LastChanged": "1996-10-14T11:10:54.0342075+02:00",
+    "LastChanged": "2005-01-14T02:49:52.1878148+01:00",
     "ChildItems": [
       {
-        "Id": 45,
-        "Name": "Smitham-King",
-        "ToolTip": "Est nulla ab eveniet facilis ut natus accusamus.",
-        "Deleted": true,
-        "Rank": 202,
-        "Type": "nostrum",
-        "ColorBlock": 758,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2018-04-13T11:10:54.0342075+02:00",
+        "Id": 723,
+        "Name": "Wyman, Miller and Bauch",
+        "ToolTip": "Eligendi nesciunt dicta dolorem ut magnam et et.",
+        "Deleted": false,
+        "Rank": 981,
+        "Type": "odit",
+        "ColorBlock": 602,
+        "IconHint": "doloribus",
+        "Selected": false,
+        "LastChanged": "2021-02-27T02:49:52.1878148+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "tempora",
+        "ExtraInfo": "totam",
+        "StyleHint": "quos",
         "Hidden": false,
-        "FullName": "Ms. Annalise Johnathon Jacobi",
+        "FullName": "Dedrick Tromp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 127
+            "FieldType": "System.String",
+            "FieldLength": 642
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "debitis",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Ken Abbott",
+    "FullName": "Bill Dare",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldLength": 789
       }
     }
   }

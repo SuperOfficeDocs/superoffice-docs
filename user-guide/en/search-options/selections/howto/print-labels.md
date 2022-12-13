@@ -17,14 +17,14 @@ Label printing will come in handy, for example, when you have to send out letter
 
 1. Select the **Company/contact** tab.
 
-2. Click the **Task** button and select **Print labels**. The **Choose label** dialog opens.
+2. Click the **Task** button and select **Print labels**.
 
-3. Select the label format you require and click **OK**. A PDF is generated.
+3. In the **Choose label** dialog, select the label format you require and click **OK**.
 
     > [!NOTE]
     > In this dialog you can also [add new label formats][2] as well as [edit][3] and [delete][4] existing ones.
 
-4. Open the PDF and print it.
+4. Open the generated PDF and print it.
 
 <!-- Referenced links -->
 [2]: ../../../reports/labels/add-format.md

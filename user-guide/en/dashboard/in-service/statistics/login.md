@@ -11,14 +11,14 @@ language: en
 
 # Login statistics
 
-This screen shows statistics for when the users have logged in and out of the system.
+This screen shows statistics for when the users log in and out of the system.
 
 1. Set the following criteria:
 
     * **User**: Select a user from the list and click the ![icon][img2] **Add** button. You can add multiple users.
     * **Logged in**: Select an interval from the list.
-    * **Origin equals**: Select the origin from which the users have logged on. Select blank to show all origins.
-    * **Hide empty rows**: If you enable this option, then empty rows will be ignored.
+    * **Origin equals**: Select where the users logged on from. Select blank to show all origins.
+    * **Hide empty rows**: If enabled, then empty rows are ignored.
     * **Add criteria**: Click here to add additional criteria.
 
 2. Click **OK** to view the statistics.

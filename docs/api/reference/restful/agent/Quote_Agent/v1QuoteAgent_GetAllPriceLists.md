@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetAllPriceLists
 
 Gets the all PriceLists in all currencies, including those inactive.
 
+
 Will return empty array if there is no PriceList available.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Will return empty array if there is no PriceList available.
 ```http
 POST /api/v1/Agents/Quote/GetAllPriceLists?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +44,15 @@ POST /api/v1/Agents/Quote/GetAllPriceLists?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId, Currency
+QuoteConnectionId, Currency 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 | Currency | string |  |
+
 
 ## Response: array
 
@@ -77,12 +85,12 @@ Response body: array
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 718,
-  "Currency": "qui"
+  "QuoteConnectionId": 884,
+  "Currency": "at"
 }
 ```
 
@@ -94,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 897,
-    "ERPPriceListKey": "aperiam",
-    "QuoteConnectionId": 64,
-    "Name": "Lemke-Cruickshank",
-    "Description": "Expanded uniform Graphic Interface",
-    "Currency": "quo",
-    "CurrencyName": "Collier Inc and Sons",
-    "ValidFrom": "2014-07-08T11:10:27.7114917+02:00",
-    "ValidTo": "2003-09-20T11:10:27.7114917+02:00",
+    "PriceListId": 93,
+    "ERPPriceListKey": "et",
+    "QuoteConnectionId": 268,
+    "Name": "Willms-Funk",
+    "Description": "Devolved next generation initiative",
+    "Currency": "modi",
+    "CurrencyName": "Adams, McDermott and O'Reilly",
+    "ValidFrom": "2002-10-13T02:49:45.0309645+02:00",
+    "ValidTo": "2014-01-22T02:49:45.0309645+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 142
+        "FieldLength": 786
       }
     }
   }

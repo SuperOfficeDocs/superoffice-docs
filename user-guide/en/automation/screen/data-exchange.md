@@ -60,12 +60,12 @@ This screen is used to edit the properties of a new or existing Data Exchange ag
 
 ## Agent schedule properties
 
-This screen is used to edit the properties of a new or existing schedule used by a Data Exchange agent. Here you can choose how often the agent will be synchronized with SuperOffice Service.
+This screen is used to edit the properties of a new or existing schedule used by a Data Exchange agent. Here you can choose how often to synchronize the agent with SuperOffice.
 
 | Element | Description |
 |---|---|
 | Name | Here you can enter the name of the schedule. |
-| ejScript/CRMScript | Here you can select which CRMScript will be activated by the schedule. |
+| ejScript/CRMScript | Here you can select the CRMScript which the schedule activates. |
 | Parameters | Parameters used by CRMScript or the Data Exchange agent. |
 | OK** (Alt-O): Click this button to save. |
 | Cancel | Click this button to cancel. |
@@ -76,7 +76,7 @@ This screen is used to edit the properties of a new or existing schedule used by
 
 ## Agent field properties
 
-This screen is used to edit the properties of a field connected to an agent. The fields displayed will be read-only in SuperOffice Service.
+This screen is used to edit the properties of a field connected to an agent. The fields displayed are read-only in SuperOffice Service.
 
 | Element | Description |
 |---|---|

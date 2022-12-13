@@ -20,7 +20,7 @@ There are however certain limitations on what can be combined:
 * If you choose to create a combined selection consisting of companies, all types of selection are available.
 * But if you choose to create a combined selection consisting of sales, projects, documents, follow-ups or products, only selections of the selected type are available.
 
-The two selections to be combined can be static or dynamic. And once you have created a combined selection, you can choose to turn it into a static selection.
+The two selections to be combined can be static or dynamic. After creating a combined selection, you can choose to turn it into a static selection.
 
 ## How are the two selections combined?
 
@@ -29,8 +29,6 @@ You can select which entries you want to include in the combined selection. Thes
 [!include[Options for combining selections](includes/table-selection-combinations.md)]
 
 ## Examples of combined selections
-
-In SuperOffice CRM you can create a selection of almost anything. The purpose of the examples below is to provide you with some ideas of how to use this functionality in the program.
 
 ### Companies and sales
 
@@ -41,7 +39,7 @@ In SuperOffice CRM you can create a selection of almost anything. The purpose of
 ### Follow-ups
 
 1. Create a combined selection of follow-ups based on two existing selections: "Follow-ups linked to my customers" (selection 1) and "Planned follow-ups next month" (selection 2).
-2. Choose the combination type **Common**. The result will be a list of follow-ups you need to act on next month. You could then export this to a file using the **Export to file** task.
+2. Choose the combination type **Common**. The result is a list of follow-ups you need to act on next month. You could then export this to a file using the **Export to file** task.
 
 > [!NOTE]
 > If you simply want to compare the companies linked to these two selections, check **Compare companies only**.

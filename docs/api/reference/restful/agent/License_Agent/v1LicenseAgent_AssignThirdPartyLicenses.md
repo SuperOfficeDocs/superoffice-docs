@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/AssignThirdPartyLicenses
 
 Assign third party licenses
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Assign third party licenses
 ```http
 POST /api/v1/Agents/License/AssignThirdPartyLicenses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/License/AssignThirdPartyLicenses?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, ModuleOwner, ModuleLicenseNames
+AssociateId, ModuleOwner, ModuleLicenseNames 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | ModuleOwner | string |  |
 | ModuleLicenseNames | array |  |
+
 
 ## Response: array
 
@@ -80,15 +88,15 @@ Response body: array
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 496,
-  "ModuleOwner": "aperiam",
+  "AssociateId": 645,
+  "ModuleOwner": "rem",
   "ModuleLicenseNames": [
-    "Koss LLC",
-    "Ullrich, Becker and Donnelly"
+    "Farrell-Schowalter",
+    "Roberts Inc and Sons"
   ]
 }
 ```
@@ -102,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 741,
-    "Tooltip": "totam",
-    "CanAssign": true,
-    "Free": 558,
-    "InUse": 919,
+    "Total": 822,
+    "Tooltip": "quo",
+    "CanAssign": false,
+    "Free": 745,
+    "InUse": 939,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 269,
-    "Name": "Hickle Group",
-    "Description": "Multi-tiered hybrid superstructure",
-    "PrerequisiteModuleName": "Trantow LLC",
-    "SortOrder": 914,
-    "ExtraFlags": 871,
+    "Assigned": true,
+    "ModuleLicenseId": 588,
+    "Name": "Dietrich-Collier",
+    "Description": "Re-contextualized zero tolerance info-mediaries",
+    "PrerequisiteModuleName": "Torphy, Wiza and Jacobson",
+    "SortOrder": 223,
+    "ExtraFlags": 165,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldLength": 481
       }
     }
   }

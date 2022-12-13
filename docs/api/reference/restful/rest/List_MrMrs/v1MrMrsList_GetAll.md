@@ -11,6 +11,12 @@ GET /api/v1/List/MrMrs/Items
 
 Gets all the MrMrs items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,8 +24,9 @@ Gets all the MrMrs items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/MrMrs/Items?includeDeleted=False
+GET /api/v1/List/MrMrs/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ GET /api/v1/List/MrMrs/Items?includeDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -61,7 +69,7 @@ Response body: array
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Gutkowski-Hessel",
-    "Tooltip": "blanditiis",
+    "Id": 307,
+    "Name": "Wisoky Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 960,
-    "Rank": 528,
+    "UdListDefinitionId": 362,
+    "Rank": 805,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldLength": 275
       }
     }
   }

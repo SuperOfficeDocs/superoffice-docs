@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetDashTiles
 
 Gets the ordered list of tiles for a dashboard
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the ordered list of tiles for a dashboard
 ```http
 POST /api/v1/Agents/Dash/GetDashTiles?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Dash/GetDashTiles?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardId
+DashboardId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 |  |
+
 
 ## Response: array
 
@@ -70,11 +78,11 @@ Response body: array
 POST /api/v1/Agents/Dash/GetDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 590
+  "DashboardId": 758
 }
 ```
 
@@ -86,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 338,
-    "DashboardId": 198,
-    "Height": 396,
-    "Width": 790,
-    "Rank": 448,
+    "DashboardTileId": 827,
+    "DashboardId": 358,
+    "Height": 155,
+    "Width": 290,
+    "Rank": 165,
     "DashTileDefinition": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 284
+        "FieldLength": 947
       }
     }
   }

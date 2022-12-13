@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetConsentPurposes
 
 Returns all defined purposes.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all defined purposes.
 ```http
 POST /api/v1/Agents/List/GetConsentPurposes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/List/GetConsentPurposes?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -68,7 +76,7 @@ Response body: array
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,25 +87,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 79,
-    "Name": "Rice-Boehm",
-    "ConsentText": "eaque",
-    "FormText": "ut",
-    "Key": "et",
-    "Tooltip": "et",
-    "Active": 231,
-    "UpdatedDate": "1997-02-17T11:10:27.2784593+01:00",
+    "ConsentPurposeId": 794,
+    "Name": "Aufderhar Group",
+    "ConsentText": "fugit",
+    "FormText": "repudiandae",
+    "Key": "itaque",
+    "Tooltip": "itaque",
+    "Active": 763,
+    "UpdatedDate": "2007-12-28T02:49:44.7016713+01:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 879,
-    "PrivacyStatementDesc": "id",
+    "Deleted": true,
+    "Rank": 292,
+    "PrivacyStatementDesc": "et",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 15
+        "FieldLength": 47
       }
     }
   }

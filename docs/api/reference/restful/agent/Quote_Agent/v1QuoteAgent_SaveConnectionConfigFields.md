@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/SaveConnectionConfigFields
 
 Saves the connection config fields
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves the connection config fields
 ```http
 POST /api/v1/Agents/Quote/SaveConnectionConfigFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Quote/SaveConnectionConfigFields?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId, ConnectionConfigFields
+QuoteConnectionId, ConnectionConfigFields 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 | ConnectionConfigFields | object |  |
+
 
 ## Response: object
 
@@ -54,6 +62,7 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
@@ -64,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 380,
+  "QuoteConnectionId": 678,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "necessitatibus",
-    "ConnectionConfigFields2": "iusto"
+    "ConnectionConfigFields1": "laboriosam",
+    "ConnectionConfigFields2": "qui"
   }
 }
 ```
@@ -79,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sapiente",
-  "2": "nemo"
+  "1": "sed",
+  "2": "culpa"
 }
 ```

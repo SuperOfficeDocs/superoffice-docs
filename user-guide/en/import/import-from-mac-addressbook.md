@@ -13,16 +13,14 @@ language: en
 
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
-To import your companies into the SuperOffice database:
-
 ## Import companies/contacts from Mac Address book
 
-<!-- NEED complete rewrite to get correct behaviour, need more info from Max/Office integration team.  -->
+<!-- NEED complete rewrite to get correct behavior, need more info from Max/Office integration team.  -->
 The icon in Import appears if user have WebTools for Mac installed and opening Settings and maintenance.
 
 1. [!include[Open Import](includes/open-import.md)]
 
-2. Click the Mac icon ( ![icon][img2] ) under **Select an import source**. Mac Address book will open and a dialog will be displayed while the export from Address book is in progress.
+2. Click the Mac icon ( ![icon][img2] ) under **Select an import source**. Mac Address book will open and a dialog is displayed while the export from Address book is in progress.
 
     <details><summary>Is an error message displayed?</summary>
 
@@ -32,7 +30,7 @@ The icon in Import appears if user have WebTools for Mac installed and opening S
     > [!NOTE]
     > The companies/contacts from Outlook will not be imported into the SuperOffice database yet. SuperOffice will only upload the company/contact list from Outlook, so that you can specify the import settings.
 
-    When the import from Outlook has finished, the companies/contacts will be displayed in the **Import** screen.
+    When the import from Outlook is finished, the companies/contacts are displayed in the **Import** screen.
 
 ## Adjust the import
 

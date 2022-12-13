@@ -11,9 +11,16 @@ PUT /api/v1/List/{udListDefinitionId}/Items
 
 Save all list items for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list definition, indicating which list to save the items to. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Save all list items for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: items
+## Request Body: items  
 
-The list items
+The list items 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,6 +48,7 @@ The list items
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -69,25 +77,25 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 648,
-    "Name": "Wilkinson, Lesch and Lowe",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 806,
-    "Rank": 84
+    "Id": 250,
+    "Name": "Keebler-Graham",
+    "Tooltip": "sequi",
+    "Deleted": false,
+    "UdListDefinitionId": 310,
+    "Rank": 272
   },
   {
-    "Id": 648,
-    "Name": "Wilkinson, Lesch and Lowe",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 806,
-    "Rank": 84
+    "Id": 250,
+    "Name": "Keebler-Graham",
+    "Tooltip": "sequi",
+    "Deleted": false,
+    "UdListDefinitionId": 310,
+    "Rank": 272
   }
 ]
 ```
@@ -100,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "Rohan-Nienow",
-    "Tooltip": "natus",
+    "Id": 821,
+    "Name": "Rath Inc and Sons",
+    "Tooltip": "consectetur",
     "Deleted": true,
-    "UdListDefinitionId": 105,
-    "Rank": 787,
+    "UdListDefinitionId": 357,
+    "Rank": 436,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldLength": 505
       }
     }
   }

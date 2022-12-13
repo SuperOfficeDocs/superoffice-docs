@@ -11,11 +11,18 @@ GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 
 Gets user groups visible for the PaymentType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 421,
-    "Name": "Bogisich LLC",
-    "ToolTip": "Et animi autem eos quasi architecto.",
-    "Deleted": true,
-    "Rank": 429,
-    "Type": "impedit",
-    "ColorBlock": 169,
-    "IconHint": "velit",
+    "Id": 45,
+    "Name": "Ruecker-Purdy",
+    "ToolTip": "Autem laudantium est provident.",
+    "Deleted": false,
+    "Rank": 722,
+    "Type": "ab",
+    "ColorBlock": 183,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2017-12-13T11:10:54.3568995+01:00",
+    "LastChanged": "2022-05-17T02:49:52.3128229+02:00",
     "ChildItems": [
       {
-        "Id": 678,
-        "Name": "Satterfield LLC",
-        "ToolTip": "Aliquid ut quos rem.",
-        "Deleted": false,
-        "Rank": 693,
-        "Type": "voluptatem",
-        "ColorBlock": 813,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2013-02-10T11:10:54.3568995+01:00",
+        "Id": 262,
+        "Name": "Kuhic-Rice",
+        "ToolTip": "Sed commodi fugit voluptatem qui eius.",
+        "Deleted": true,
+        "Rank": 120,
+        "Type": "sed",
+        "ColorBlock": 9,
+        "IconHint": "deleniti",
+        "Selected": true,
+        "LastChanged": "2012-03-17T02:49:52.3128229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Mikayla Marks PhD",
+        "ExtraInfo": "quos",
+        "StyleHint": "dolorum",
+        "Hidden": true,
+        "FullName": "Rowena Thompson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 69
+            "FieldLength": 473
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "aut",
+    "ExtraInfo": "sunt",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Mr. Laurine Imelda Miller",
+    "FullName": "Mr. Jessika Leffler III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 529
       }
     }
   }

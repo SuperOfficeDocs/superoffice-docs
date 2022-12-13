@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 
 Get published appointments from the logged in user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published appointments from the logged in user.
 ```http
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/Appointment/GetMyPublishedAppointments?$select=name,departme
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -104,7 +112,7 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,53 +123,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 68,
-    "StartDate": "2009-06-07T11:10:25.4515258+02:00",
-    "EndDate": "2018-09-03T11:10:25.4515258+02:00",
+    "AppointmentId": 479,
+    "StartDate": "2009-05-05T02:49:43.2461231+02:00",
+    "EndDate": "2022-07-09T02:49:43.2461231+02:00",
     "Type": "BookingForChecklist",
-    "Task": "eos",
-    "AssociateFullName": "Miss Romaine Schulist",
-    "ContactName": "Schulist-Bauch",
-    "Description": "Streamlined modular concept",
-    "PersonFullName": "Prof. Marcelino Fadel I",
-    "PersonId": 827,
-    "ContactId": 203,
-    "ProjectId": 301,
-    "ProjectName": "Koch Group",
+    "Task": "labore",
+    "AssociateFullName": "Jamison Ryan",
+    "ContactName": "Rath, Paucek and Kunze",
+    "Description": "Persevering assymetric encoding",
+    "PersonFullName": "Adrian Hauck",
+    "PersonId": 235,
+    "ContactId": 773,
+    "ProjectId": 557,
+    "ProjectName": "Schulist, Bogisich and Block",
     "IsPublished": false,
-    "AssociateId": 414,
-    "ColorIndex": 361,
+    "AssociateId": 511,
+    "ColorIndex": 292,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 281,
-    "PriorityName": "Tillman Inc and Sons",
+    "PriorityId": 267,
+    "PriorityName": "Hand Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2012-05-20T11:10:25.4525253+02:00",
+    "ActiveDate": "1996-10-04T02:49:43.2461231+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-12-07T11:10:25.4525253+01:00",
-    "RecurringEndDate": "2001-07-04T11:10:25.4525253+02:00",
-    "MotherId": 37,
-    "AssignedBy": 591,
-    "AssignedByFullName": "Leonard Terry",
-    "RejectReason": "",
-    "Location": "hic",
-    "AlarmLeadTime": "nobis",
-    "SaleId": 92,
-    "SaleName": "Schmidt, Hilpert and Lubowitz",
-    "AssociateName": "Carroll-Gusikowski",
-    "CreatedDate": "1997-02-11T11:10:25.4525253+01:00",
-    "CreatedBy": "quo",
-    "CreatedByFullName": "Abdiel Rogahn",
-    "CreatedByAssociateId": 211,
+    "RecurringStartDate": "2006-06-18T02:49:43.2461231+02:00",
+    "RecurringEndDate": "2009-08-31T02:49:43.2461231+02:00",
+    "MotherId": 253,
+    "AssignedBy": 953,
+    "AssignedByFullName": "Burley Morar",
+    "RejectReason": "utilize holistic experiences",
+    "Location": "natus",
+    "AlarmLeadTime": "eveniet",
+    "SaleId": 425,
+    "SaleName": "Pagac Inc and Sons",
+    "AssociateName": "Smitham Inc and Sons",
+    "CreatedDate": "2020-02-29T02:49:43.2461231+01:00",
+    "CreatedBy": "ex",
+    "CreatedByFullName": "Lynn Corwin",
+    "CreatedByAssociateId": 897,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -169,7 +177,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldLength": 602
       }
     }
   }

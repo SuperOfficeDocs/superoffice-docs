@@ -11,7 +11,13 @@ GET /api/v1/Document/UdefLayout/Changed
 
 Is the UDef Layout changed? This may or may not involve moving data (which takes longer).
 
+
 True if the DocumentEntity user-defined field layout has been changed.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,8 +26,9 @@ True if the DocumentEntity user-defined field layout has been changed.
 | columnChangesOnly | bool |  True: Check if we need to move data.  Default/False: Check if layout has changed. |
 
 ```http
-GET /api/v1/Document/UdefLayout/Changed?columnChangesOnly=False
+GET /api/v1/Document/UdefLayout/Changed?columnChangesOnly=True
 ```
+
 
 ## Request Headers
 
@@ -36,6 +43,7 @@ GET /api/v1/Document/UdefLayout/Changed?columnChangesOnly=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
 
 OK
@@ -46,13 +54,14 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 GET /api/v1/Document/UdefLayout/Changed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 
 Get a preference description line from a prefDesc_id and a prefValue
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a preference description line from a prefDesc_id and a prefValue
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue?$selec
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PrefDescId, PrefValue
+PrefDescId, PrefValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PrefDescId | int32 |  |
 | PrefValue | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +79,12 @@ Response body:
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 321,
-  "PrefValue": "quo"
+  "PrefDescId": 588,
+  "PrefValue": "aliquam"
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 713,
-  "PrefDescId": 160,
-  "PrefValue": "ad",
-  "PrefShowValue": "consequatur",
-  "Description": "Profit-focused maximized process improvement",
+  "PrefDescLineId": 861,
+  "PrefDescId": 450,
+  "PrefValue": "esse",
+  "PrefShowValue": "a",
+  "Description": "Extended empowering frame",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldType": "System.Int32",
+      "FieldLength": 986
     }
   }
 }

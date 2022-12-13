@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetParticipantInfoFromEmailAddress
 
 Get participant data associated with the participant in the emails iCal attachment
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get participant data associated with the participant in the emails iCal attachme
 ```http
 POST /api/v1/Agents/EMail/GetParticipantInfoFromEmailAddress?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,17 @@ POST /api/v1/Agents/EMail/GetParticipantInfoFromEmailAddress?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EmailAddress, AppointmentId
+EmailAddress, AppointmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EmailAddress | string |  |
 | AppointmentId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -107,12 +117,12 @@ Response body:
 POST /api/v1/Agents/EMail/GetParticipantInfoFromEmailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "devante.mcclure@harris.co.uk",
-  "AppointmentId": 180
+  "EmailAddress": "jed_wisozk@legros.com",
+  "AppointmentId": 353
 }
 ```
 
@@ -123,52 +133,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "consequatur",
-  "PersonId": 899,
-  "Mrmrs": "omnis",
-  "Firstname": "Stephania",
-  "Lastname": "Wyman",
-  "MiddleName": "Schultz-Ernser",
-  "Title": "sit",
-  "Description": "Robust dynamic product",
-  "Email": "emilie@gaylord.us",
-  "FullName": "Marcelina Denesik",
-  "DirectPhone": "(609)442-1924 x37143",
-  "FormalName": "Jakubowski Inc and Sons",
-  "CountryId": 211,
-  "ContactId": 415,
-  "ContactName": "Dare, Wiza and Bergnaum",
-  "Retired": 701,
-  "Rank": 171,
-  "ActiveInterests": 762,
-  "ContactDepartment": "harness compelling vortals",
-  "ContactCountryId": 787,
-  "ContactOrgNr": "867855",
-  "FaxPhone": "081-421-9001",
-  "MobilePhone": "270-224-4782 x460",
-  "ContactPhone": "1-052-521-6613 x173",
-  "AssociateName": "Abshire-McClure",
-  "AssociateId": 707,
+  "Position": "laboriosam",
+  "PersonId": 994,
+  "Mrmrs": "numquam",
+  "Firstname": "Jaylon",
+  "Lastname": "Graham",
+  "MiddleName": "Fahey, Tromp and Fritsch",
+  "Title": "voluptates",
+  "Description": "Cross-group interactive software",
+  "Email": "anissa_osinski@hamilllittel.us",
+  "FullName": "Anderson Gerlach",
+  "DirectPhone": "1-061-960-1444",
+  "FormalName": "Gleichner, Wisoky and Turcotte",
+  "CountryId": 484,
+  "ContactId": 35,
+  "ContactName": "Jast-Murphy",
+  "Retired": 408,
+  "Rank": 516,
+  "ActiveInterests": 10,
+  "ContactDepartment": "",
+  "ContactCountryId": 146,
+  "ContactOrgNr": "1873596",
+  "FaxPhone": "359-151-3457 x9326",
+  "MobilePhone": "1-837-301-7751",
+  "ContactPhone": "1-935-932-7670",
+  "AssociateName": "Langworth-Hickle",
+  "AssociateId": 856,
   "UsePersonAddress": false,
-  "ContactFax": "eligendi",
-  "Kanafname": "omnis",
-  "Kanalname": "reprehenderit",
-  "Post1": "enim",
-  "Post2": "nihil",
-  "Post3": "quidem",
-  "EmailName": "mabel@kunzerohan.ca",
-  "ContactFullName": "Efren Schimmel Sr.",
-  "ActiveErpLinks": 913,
-  "TicketPriorityId": 718,
-  "SupportLanguageId": 603,
-  "SupportAssociateId": 146,
+  "ContactFax": "aut",
+  "Kanafname": "in",
+  "Kanalname": "eligendi",
+  "Post1": "ab",
+  "Post2": "ab",
+  "Post3": "eius",
+  "EmailName": "justine_kessler@mcglynn.uk",
+  "ContactFullName": "Francis Yundt",
+  "ActiveErpLinks": 744,
+  "TicketPriorityId": 572,
+  "SupportLanguageId": 383,
+  "SupportAssociateId": 345,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldType": "System.String",
+      "FieldLength": 538
     }
   }
 }

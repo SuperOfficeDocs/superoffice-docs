@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/SaveConnection
 
 Saves a connection to the database.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Saves a connection to the database.
 ```http
 POST /api/v1/Agents/ErpSync/SaveConnection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,16 @@ POST /api/v1/Agents/ErpSync/SaveConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Connection
+Connection 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Connection |  | Information about a connection to the ERP system. <para /> Carrier object for ErpConnection. Services for the ErpConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,7 +88,7 @@ Response body:
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,33 +103,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 141,
-  "ErpConnectorId": 506,
-  "DisplayName": "Waters-Reichert",
-  "DisplayDescription": "Synergized regional model",
-  "Active": false,
-  "ConnectionId": "consequuntur",
-  "MostRecentTimestamp": "corporis",
+  "ErpConnectionId": 341,
+  "ErpConnectorId": 15,
+  "DisplayName": "Klein Group",
+  "DisplayDescription": "Cross-platform dedicated extranet",
+  "Active": true,
+  "ConnectionId": "voluptate",
+  "MostRecentTimestamp": "et",
   "ConfigFields": {
-    "ConfigFields1": "et",
-    "ConfigFields2": "consequatur"
+    "ConfigFields1": "ea",
+    "ConfigFields2": "minima"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    748,
-    962
+    258,
+    90
   ],
   "AssociateAccessIds": [
-    372,
-    662
+    218,
+    1000
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 912
     }
   }
 }

@@ -27,7 +27,7 @@ The appearance of the list of members varies slightly depending on what the sele
 | Criteria | View and [edit the criteria][3] for a dynamic selection. |
 | Details | View and edit [general information for a selection][1]. |
 | Charts | [View the selection data in a chart.][5] Charts of selections can also be used in [dashboards][6]. |
-| Mailings | Create a mailing to contacts in a selection. [View the mailings](#mailing) that have been archived on this selection. |
+| Mailings | Create a mailing to contacts in a selection. [View the mailings](#mailing) that are archived on this selection. |
 
 > [!TIP]
 > Click ![icon][img3] on the far right of the column headers in a selection to group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs][9 ] for additional functions.
@@ -37,7 +37,7 @@ To move between selections, click the previous/next buttons ( ![icon][img2] ![ic
 ### <a id="filter" />Filtering the list of members
 
 > [!NOTE]
-> Before you filter the list of members (for instance sales or follow-ups), you must click **Show all** in the tab footer. This ensures that the tab displays all records in the selection. To optimise performance when working with large selections, only the first 100 records are usually loaded in the list of members.
+> Before you filter the list of members (for instance sales or follow-ups), you must click **Show all** in the tab footer. This ensures that the tab displays all records in the selection. To optimize performance when working with large selections, only the first 100 records are usually loaded in the list of members.
 
 To activate the column filter, click ![icon][img3] on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon][img7]) is now displayed on column which can be [filtered][8].
 
@@ -56,7 +56,7 @@ Use the **Task** button to perform different tasks for the members or some of th
 * **Show all**. Click here to display all selection members.
 
     > [!NOTE]
-    > By default the list only displays the 100 first records in the selection. To change this value, go to ![icon][img4] **Personal settings** > **Preferences** > **Functions** > **Archive page size**.
+    > By default the list displays only the 100 first records in the selection. To change this value, go to ![icon][img4] **Personal settings** > **Preferences** > **Functions** > **Archive page size**.
 
 * ![icon][img5]: Click here to refresh the data in the list.
 

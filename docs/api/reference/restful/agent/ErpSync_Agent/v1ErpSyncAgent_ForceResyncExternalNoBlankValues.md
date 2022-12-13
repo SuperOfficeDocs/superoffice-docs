@@ -11,9 +11,16 @@ POST /api/v1/Agents/ErpSync/ForceResyncExternalNoBlankValues
 
 Force resync from CRM or given Erp connection to all other connections, using external keys, and tell the sync that you don't want blank values to overwrite non-blank values.
 
+
 Useful on import.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Useful on import.
 ```http
 POST /api/v1/Agents/ErpSync/ForceResyncExternalNoBlankValues?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/Agents/ErpSync/ForceResyncExternalNoBlankValues?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, ErpActorType, ExternalKeys
+ErpConnectionId, ErpActorType, ExternalKeys 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +57,8 @@ ErpConnectionId, ErpActorType, ExternalKeys
 | ErpActorType | string |  |
 | ExternalKeys | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -57,15 +66,16 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IsOk | bool | Answer to the question / An indication if the operation went well. |
-| UserExplanation | string | A localized explanation to the answer. |
+| IsOk | bool | Answer to the question / An indication if the operation went well. Equivalent to Status != Error |
+| UserExplanation | string | A localized explanation to the answer. Text here is displayed to the user. |
 | TechExplanation | string | Always in English |
 | ErrorCode | string | An error code, if available. |
 | Changes |  | Tablename/recordid of data changed by this method, that the client may need to reload |
+| Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -75,15 +85,15 @@ Response body:
 POST /api/v1/Agents/ErpSync/ForceResyncExternalNoBlankValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 712,
+  "ErpConnectionId": 976,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "dignissimos",
-    "cumque"
+    "aut",
+    "similique"
   ]
 }
 ```
@@ -96,16 +106,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "molestiae",
-  "TechExplanation": "molestiae",
-  "ErrorCode": "ex",
+  "UserExplanation": "tempora",
+  "TechExplanation": "ipsam",
+  "ErrorCode": "est",
   "Changes": null,
+  "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 750
     }
   }
 }

@@ -15,17 +15,17 @@ You create a template as a document in an application which is linked to SuperOf
 
 You can also create templates in HTML format, and use the SuperOffice HTML editor to edit the template.
 
-To create a template document:
+**Steps:**
 
 1. Start the required application.
 2. Create a new document.
-3. Insert the template variables you want to use in the template, e.g. variables for name, address and telephone number, as described under [Template variables][1].
-4. Save the template document somewhere where you will be able to find it easily again.
+3. Insert the [template variables][1] you want to use in the template, for example, variables for name, address and telephone number.
+4. Save the template document somewhere where you can find it easily again.
 
-After you have defined a template and saved it in the template folder, you must [link the template to SuperOffice CRM][2] to create documents from it.
+After you define a template and save it in the template folder, you must [link the template to SuperOffice CRM][2] to create documents from it.
 
 <!-- Referenced links -->
 [1]: ../../document/template-variables.md
-[2]: adding-template-web.md
+[2]: add-template.md
 
 <!-- Referenced images -->

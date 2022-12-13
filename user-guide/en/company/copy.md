@@ -27,7 +27,7 @@ At some stage, you may want to copy an existing company to a new company. For ex
 
 1. Enter the name of the new company and, where appropriate, a department under **To**.
 
-1. Under **Copy contacts with all information**, you can choose from:
+1. Under **Copy contacts with all information**, select one of the following:
 
     * **Do not copy**. If you select this option, the company details are copied, but not the contacts.
     * **Copy**. If you select this option, the company details and the contacts are copied.

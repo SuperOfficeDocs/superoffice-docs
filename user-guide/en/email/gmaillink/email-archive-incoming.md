@@ -11,9 +11,7 @@ language: en
 
 # Archive incoming email
 
-You can archive an incoming email (including any attachments) as a document in SuperOffice CRM. This is a convenient way of storing information you have received via email together with other company/contact information in SuperOffice CRM.
-
-Follow these steps:
+You can archive an incoming email (including any attachments) as a document in SuperOffice CRM. This is a convenient way of storing information you receive via email together with other company/contact information in SuperOffice CRM.
 
 1. In the Gmail inbox, select the email you would like to archive.
 
@@ -21,7 +19,7 @@ Follow these steps:
 
     If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. A warning also appears if the sender is registered on multiple companies in SuperOffice CRM.
 
-3. In the dialog, the **Company** and **Contact** fields have been filled in if the sender is registered in SuperOffice. Fill in relevant information in the following fields:
+3. In the dialog, the **Company** and **Contact** fields are automatically filled if the sender is registered in SuperOffice. Fill in relevant information in the following fields:
 
     [!include[Archiving options for Gmail](includes/gmail-archiving-options.md)]
 

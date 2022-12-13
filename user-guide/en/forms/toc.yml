@@ -3,16 +3,19 @@ items:
   href: index.md
 - name: View forms
   href: view.md
-- name: Create a new form
-  href: create.md
-- name: Field options
-  href: field-options.md
-- name: Publish forms
-  href: publish.md
-- name: Using pre-filled fields in forms
-  href: form-prefilled.md
-- name: Examples
-  href: examples.md
+- name: Work with forms
+  href: form-templates.md
+  items:
+  - name: Create a new form
+    href: create.md
+  - name: Field options
+    href: field-options.md
+  - name: Publish forms
+    href: publish.md
+  - name: Using pre-filled fields in forms
+    href: form-prefilled.md
+  - name: Examples
+    href: examples.md
 - name: Form submissions
   href: submissions/index.md
   items:
@@ -20,5 +23,4 @@ items:
     href: submissions/track.md
   - name: Process form submissions
     href: submissions/process.md
-- name:  Work with form templates
-  href: form-templates.md
+  

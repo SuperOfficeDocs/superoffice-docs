@@ -11,14 +11,17 @@ language: en
 
 # Appointment
 
-Appointments are activities with a defined start and end time, such as meetings. The default duration for an appointment is 1 hour, but you can of course change the duration as required.
+Appointments are activities with a defined start and end time, such as meetings. No matter where you are in SuperOffice CRM, you can create a new appointment by clicking the **New** button in the Top bar and selecting ![icon][img1].
 
-> [!TIP]
-> This is done in the **Preferences** dialog, which you open by choosing **Preferences** on the **Personal settings** menu. Select **Default values**, and enter the required value under **Duration for new appointment** as described under [Preferences][1].
+## Default duration
 
-No matter where you are in SuperOffice CRM, you can create a new appointment by clicking the **New** button in the Top bar and selecting ![icon][img1].
+The default duration for an appointment is 1 hour, but you can change the duration as required.
 
-Appointments can be displayed in the following places in SuperOffice CRM:
+1. Select **Preferences** on the **Personal settings** menu.
+1. Select **Default values**.
+1. [Enter the required value][1] under **Duration for new appointment**.
+
+## Where can appointments be displayed?
 
 <!-- markdownlint-disable MD032 -->
 [!include[List of Activities section tabs](../includes/list-activities-section-tabs.md)]

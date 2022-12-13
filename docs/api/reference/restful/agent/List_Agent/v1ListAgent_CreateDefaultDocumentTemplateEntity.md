@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 
 Set default values into a new DocumentTemplateEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +80,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 410,
-  "Name": "Lueilwitz, Becker and Welch",
-  "Tooltip": "aut",
-  "SaveInDb": 90,
-  "Filename": "nulla",
-  "DefaultOref": "cupiditate",
+  "DocumentTemplateId": 280,
+  "Name": "Gerlach, Volkman and Paucek",
+  "Tooltip": "fuga",
+  "SaveInDb": 543,
+  "Filename": "vel",
+  "DefaultOref": "earum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 127,
-  "IntentId": 261,
+  "AutoeventId": 592,
+  "IntentId": 547,
   "IsDefaultPublished": false,
-  "Rank": 75,
-  "LoadTemplateFromPlugin": 648,
-  "MimeType": "distinctio",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 733,
+  "Rank": 782,
+  "LoadTemplateFromPlugin": 643,
+  "MimeType": "labore",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 681,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "laverne_connelly@runolfsdottir.ca",
+  "EmailSubject": "christiana@legrosheller.info",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "brown.veum@vandervortklocko.info",
+  "SenderEmailAddress": "maxwell_prosacco@lebsack.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldLength": 658
     }
   }
 }

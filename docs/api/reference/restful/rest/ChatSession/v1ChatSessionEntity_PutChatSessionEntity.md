@@ -11,9 +11,15 @@ PUT /api/v1/ChatSession/{id}
 
 Updates the existing ChatSessionEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ChatSessionEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing ChatSessionEntity
 ```http
 PUT /api/v1/ChatSession/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/ChatSession/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ChatSessionEntity to be saved.
+The ChatSessionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +84,8 @@ The ChatSessionEntity to be saved.
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
 
-## Response
+
+## Response: 
 
 ChatSessionEntity updated.
 
@@ -86,7 +94,7 @@ ChatSessionEntity updated.
 | 200 | ChatSessionEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -131,33 +139,33 @@ Response body:
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 743,
-  "TopicId": 513,
+  "ChatSessionId": 552,
+  "TopicId": 547,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ullam",
-  "CustomerHost": "voluptatibus",
-  "CustomerName": "Powlowski Inc and Sons",
-  "CustomerEmail": "nellie_little@koch.us",
-  "CustomerPhone": "1-582-807-3914",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Swaniawski-Brakus",
+  "CustomerAlias": "qui",
+  "CustomerHost": "corporis",
+  "CustomerName": "Upton-Sporer",
+  "CustomerEmail": "eden@oconnelldoyle.name",
+  "CustomerPhone": "464-446-0137 x2464",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Crist-Bruen",
   "Status": "Closed",
-  "FirstMessage": "sed",
-  "LastMessage": "dolorem",
-  "WhenRequested": "2017-03-04T11:10:52.459174+01:00",
-  "WhenStarted": "2005-02-05T11:10:52.459174+01:00",
-  "WhenEnded": "2013-08-23T11:10:52.459174+02:00",
-  "WhenIdle": "2009-09-04T11:10:52.459174+02:00",
-  "WhenFetched": "2007-06-20T11:10:52.459174+02:00",
-  "SessionKey": "in",
-  "InitialQueuePos": 585,
-  "AlertLevel": 279,
-  "Rank": 546,
+  "FirstMessage": "consequatur",
+  "LastMessage": "sit",
+  "WhenRequested": "2011-11-03T02:49:50.6046602+01:00",
+  "WhenStarted": "2007-03-05T02:49:50.6046602+01:00",
+  "WhenEnded": "2021-09-30T02:49:50.6046602+02:00",
+  "WhenIdle": "2006-03-31T02:49:50.6046602+02:00",
+  "WhenFetched": "2018-12-14T02:49:50.6046602+01:00",
+  "SessionKey": "aut",
+  "InitialQueuePos": 52,
+  "AlertLevel": 69,
+  "Rank": 934,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -165,7 +173,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 965
+  "Rating": 986
 }
 ```
 
@@ -176,29 +184,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 340,
-  "TopicId": 989,
+  "ChatSessionId": 847,
+  "TopicId": 710,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eveniet",
-  "CustomerHost": "dolores",
-  "CustomerName": "VonRueden, Stamm and Kemmer",
-  "CustomerEmail": "ocie.price@kiehn.us",
-  "CustomerPhone": "(138)435-2591 x0713",
+  "CustomerAlias": "perferendis",
+  "CustomerHost": "quos",
+  "CustomerName": "Larson LLC",
+  "CustomerEmail": "madelynn@wilkinson.us",
+  "CustomerPhone": "261-602-1630",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Moore, Wiegand and Conn",
+  "CustomerCompanyName": "Maggio Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "voluptatem",
-  "LastMessage": "sapiente",
-  "WhenRequested": "2003-03-09T11:10:52.4691816+01:00",
-  "WhenStarted": "2015-09-22T11:10:52.4691816+02:00",
-  "WhenEnded": "2014-11-01T11:10:52.4691816+01:00",
-  "WhenIdle": "2000-03-07T11:10:52.4691816+01:00",
-  "WhenFetched": "2014-10-25T11:10:52.4691816+02:00",
-  "SessionKey": "quas",
-  "InitialQueuePos": 268,
-  "AlertLevel": 806,
-  "Rank": 313,
+  "FirstMessage": "recusandae",
+  "LastMessage": "perferendis",
+  "WhenRequested": "2012-05-16T02:49:50.6046602+02:00",
+  "WhenStarted": "1996-04-23T02:49:50.6046602+02:00",
+  "WhenEnded": "2004-11-19T02:49:50.6046602+01:00",
+  "WhenIdle": "2016-12-29T02:49:50.6046602+01:00",
+  "WhenFetched": "2022-01-24T02:49:50.6046602+01:00",
+  "SessionKey": "dignissimos",
+  "InitialQueuePos": 536,
+  "AlertLevel": 556,
+  "Rank": 25,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -206,13 +214,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 510,
+  "Rating": 216,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldType": "System.String",
+      "FieldLength": 992
     }
   },
   "_Links": {

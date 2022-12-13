@@ -11,6 +11,7 @@ GET /api/v1/Contact/{id}/Sales
 
 OData list of Sales under a specific ContactEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Contact/1234/Sales?$select=col1,col2,abc/col3
@@ -19,19 +20,22 @@ Can be sorted and further filtered using OData conventions:
 * Contact/1234/Sales?$top=1000
 * Contact/1234/Sales?$mode=full
 
+
 OData returns XML or JSON carriers depending on the HTTP Accept header.
+
 
 Calls the Archive service using the "SaleFilteredWithStakeholder" archive provider.
 
-## Filter Operators ##
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -39,9 +43,15 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
+
 
 ## Query String Parameters
 
@@ -64,16 +74,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Sales?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Sales?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Sales?$orderBy=name asc
-GET /api/v1/Contact/{id}/Sales?$entities=ipsa
-GET /api/v1/Contact/{id}/Sales?$top=746
-GET /api/v1/Contact/{id}/Sales?$skip=363
+GET /api/v1/Contact/{id}/Sales?$entities=non
+GET /api/v1/Contact/{id}/Sales?$top=844
+GET /api/v1/Contact/{id}/Sales?$skip=843
 GET /api/v1/Contact/{id}/Sales?$mode=Full
 GET /api/v1/Contact/{id}/Sales?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Sales?$context=eveniet
+GET /api/v1/Contact/{id}/Sales?$context=quam
 GET /api/v1/Contact/{id}/Sales?$format=JSON
 GET /api/v1/Contact/{id}/Sales?$jsonSafe=False
 GET /api/v1/Contact/{id}/Sales?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -88,7 +99,8 @@ GET /api/v1/Contact/{id}/Sales?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -97,7 +109,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -122,19 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "hic",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 323,
+      "PrimaryKey": 6213,
       "EntityName": "person",
-      "personId": 323,
-      "fullName": "Vince Hodkiewicz"
+      "personId": 6213,
+      "fullName": "Fred Zachary Parisian III"
     },
     {
-      "PrimaryKey": 8158,
+      "PrimaryKey": 418,
       "EntityName": "person",
-      "personId": 8158,
-      "fullName": "Ava DuBuque"
+      "personId": 418,
+      "fullName": "Dr. Jayme Larson III"
     }
   ]
 }

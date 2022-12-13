@@ -19,7 +19,7 @@ Assuming you already have a script to use as a basis, a script-based selection i
 
 1. Select **Selections** > **New selection**. This takes you to the **New selection** screen.
 
-2. In the **Source table** field, select which type of records you want to include in the selection. For instance, if you want to create a selection of requests, select **Request**.
+2. In the **Source table** field, select which type of records you want to include in the selection. For instance, to create a selection of requests, select **Request**.
 
 3. Check **Script-based selection**.
 
@@ -31,7 +31,7 @@ Assuming you already have a script to use as a basis, a script-based selection i
 
 6. In the **Selection** tab, paste the script into the text field.
 
-7. In the **Profile** tab, specify how the selection is to be presented:
+7. In the **Profile** tab, specify how the selection should be presented:
 
     [!include[Contents of Selection Profile tab](includes/selection-profile-tab.md)]
 

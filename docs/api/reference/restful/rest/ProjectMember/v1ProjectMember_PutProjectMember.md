@@ -11,9 +11,15 @@ PUT /api/v1/ProjectMember/{id}
 
 Updates the existing ProjectMember
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ProjectMember id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing ProjectMember
 ```http
 PUT /api/v1/ProjectMember/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/ProjectMember/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ProjectMember to be saved.
+The ProjectMember to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +74,8 @@ The ProjectMember to be saved.
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 
-## Response
+
+## Response: 
 
 ProjectMember updated.
 
@@ -76,7 +84,7 @@ ProjectMember updated.
 | 200 | ProjectMember updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -111,31 +119,31 @@ Response body:
 PUT /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 942,
-  "ContactId": 394,
-  "ProjectId": 38,
-  "ContactName": "Wisozk-Baumbach",
+  "ProjectmemberId": 656,
+  "ContactId": 165,
+  "ProjectId": 869,
+  "ContactName": "Skiles-Hodkiewicz",
   "ContactDepartment": "",
-  "ProjectName": "Baumbach, Kuhic and McClure",
-  "EmailId": 474,
-  "EmailAddress": "kailyn@erdman.biz",
-  "CountryId": 799,
-  "Firstname": "Krystel",
-  "MiddleName": "Rempel, D'Amore and Aufderhar",
-  "Lastname": "Blick",
-  "PersonId": 643,
-  "Mrmrs": "et",
-  "ProjectMemberTypeName": "Ledner-Schuster",
-  "Phone": "239.873.2713",
-  "PhoneId": 309,
-  "ProjectMemberTypeId": 990,
-  "EmailAddressName": "adolph.bernhard@okunevabrown.co.uk",
-  "Comment": "minima",
-  "FullName": "Prof. Nigel Botsford"
+  "ProjectName": "Heidenreich-Bergnaum",
+  "EmailId": 880,
+  "EmailAddress": "verner.braun@koch.name",
+  "CountryId": 263,
+  "Firstname": "Neha",
+  "MiddleName": "Stroman LLC",
+  "Lastname": "Rolfson",
+  "PersonId": 826,
+  "Mrmrs": "vitae",
+  "ProjectMemberTypeName": "Koelpin, Ankunding and Gaylord",
+  "Phone": "441-789-8437 x318",
+  "PhoneId": 17,
+  "ProjectMemberTypeId": 254,
+  "EmailAddressName": "lambert@ritchie.us",
+  "Comment": "et",
+  "FullName": "Frida Wellington Lowe II"
 }
 ```
 
@@ -146,38 +154,38 @@ HTTP/1.1 200 ProjectMember updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 792,
-  "ContactId": 294,
-  "ProjectId": 27,
-  "ContactName": "Koepp, Considine and Armstrong",
+  "ProjectmemberId": 664,
+  "ContactId": 47,
+  "ProjectId": 34,
+  "ContactName": "Connelly-Yundt",
   "ContactDepartment": "",
-  "ProjectName": "Kreiger Group",
-  "EmailId": 355,
-  "EmailAddress": "jaida_feil@lebsackreichert.co.uk",
-  "CountryId": 953,
-  "Firstname": "Gisselle",
-  "MiddleName": "Lynch Inc and Sons",
-  "Lastname": "Runolfsson",
-  "PersonId": 173,
-  "Mrmrs": "non",
-  "ProjectMemberTypeName": "Welch-Harris",
-  "Phone": "1-194-824-3981",
-  "PhoneId": 688,
-  "ProjectMemberTypeId": 804,
-  "EmailAddressName": "hattie.emmerich@hodkiewicz.uk",
-  "Comment": "eum",
-  "FullName": "Ms. Olga Von",
+  "ProjectName": "McKenzie-Pfannerstill",
+  "EmailId": 783,
+  "EmailAddress": "janick_kulas@crist.info",
+  "CountryId": 172,
+  "Firstname": "Jake",
+  "MiddleName": "Hills-Langworth",
+  "Lastname": "Mitchell",
+  "PersonId": 195,
+  "Mrmrs": "fugiat",
+  "ProjectMemberTypeName": "Sipes, Kub and Friesen",
+  "Phone": "1-120-493-5555 x88601",
+  "PhoneId": 427,
+  "ProjectMemberTypeId": 408,
+  "EmailAddressName": "korey@weber.com",
+  "Comment": "similique",
+  "FullName": "Eldora Crist",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldType": "System.String",
+      "FieldLength": 200
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

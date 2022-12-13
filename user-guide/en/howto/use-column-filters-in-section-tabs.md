@@ -20,7 +20,7 @@ You can filter the content of section tabs by adding criteria to one or more col
 
 ## Activate the column filter
 
-To activate the column filter, click ![icon][img1] on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon][img2]) is now displayed on column which can be filtered.
+To activate the column filter, click ![icon][img1] on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon][img2]) is now displayed on columns that can be filtered.
 
 ## Apply filters on column
 

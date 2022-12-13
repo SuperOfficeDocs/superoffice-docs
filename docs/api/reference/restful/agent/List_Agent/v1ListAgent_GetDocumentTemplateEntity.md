@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDocumentTemplateEntity
 
 Gets a DocumentTemplateEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=97
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=381
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +90,7 @@ Response body:
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,37 +100,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 19,
-  "Name": "Funk, Gerlach and Anderson",
-  "Tooltip": "labore",
-  "SaveInDb": 897,
-  "Filename": "libero",
-  "DefaultOref": "reprehenderit",
+  "DocumentTemplateId": 822,
+  "Name": "Weissnat Group",
+  "Tooltip": "nulla",
+  "SaveInDb": 642,
+  "Filename": "minus",
+  "DefaultOref": "consequatur",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 697,
-  "IntentId": 382,
-  "IsDefaultPublished": true,
-  "Rank": 795,
-  "LoadTemplateFromPlugin": 864,
-  "MimeType": "enim",
+  "AutoeventId": 612,
+  "IntentId": 425,
+  "IsDefaultPublished": false,
+  "Rank": 160,
+  "LoadTemplateFromPlugin": 47,
+  "MimeType": "eos",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 277,
+  "DocumentTypeKey": 144,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "enrique@thompson.info",
-  "IncludeSignature": true,
+  "EmailSubject": "anissa@heidenreich.biz",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dallas.beier@lesch.biz",
+  "SenderEmailAddress": "meagan@kertzmann.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 29
     }
   }
 }

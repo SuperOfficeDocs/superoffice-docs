@@ -13,12 +13,12 @@ language: en
 
 Editing documents involves two things:
 
-* Editing of the document properties, which is done in the **Document** dialog.
-* Editing of the document file itself, which is done in the application the document was created in.
+* Editing of the document properties in the **Document** dialog.
+* Editing of the document file itself in the application the document was created in.
 
 > [!NOTE]
 > You can open a document in [edit mode or in read mode][1]. When you open the document in edit mode, only you can edit the document. Other users can open the document in read mode.
-If your organisation uses a document library like SharePoint, multiple people can edit a document simultaneously.
+If your organization uses a document library like SharePoint, multiple people can edit a document simultaneously.
 
 Follow the instructions below, depending on how documents are managed in your SuperOffice installation:
 
@@ -30,7 +30,7 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 ## Edit document properties in the Document dialog
 
-To change document properties, for example, the project to which the document is linked, you need to use the **Document** dialog:
+To change document properties, such the project the document is linked to, use the **Document** dialog:
 
 1. [Select the required document][2].
 2. Right-click and select **Document**. If you double-click on the document, it opens directly in the application it was created in.
@@ -42,7 +42,7 @@ To change document properties, for example, the project to which the document is
 1. [Double-click the required document][2]. The document opens in a new tab with the online text-editing program (Office Online).
 
     > [!NOTE]
-    > If you want to use your desktop editing program, you can choose **Open in Desktop App** from Office Online.
+    > To use your desktop editing program, you can choose **Open in Desktop App** from Office Online.
 
 2. Edit the document.
 
@@ -53,10 +53,10 @@ To change document properties, for example, the project to which the document is
 > [!NOTE]
 > This procedure describes how to create new documents if you are using a desktop text-editing application. The actual process may be slightly different if you use an online text-editing tool (like Microsoft Office Online) and a document library (like SharePoint).
 
-1. [Double-click the required document][2]. The **Document** dialog opens.
-2. Click **Open**.
+1. [Double-click the required document][2].
+2. In the **Document** dialog, click **Open**.
 3. If a dialog box displays, click **Edit**.
-4. The file download dialog opens automatically. Choose from the following options:
+4. In the file download dialog, select one of following options:
     * **Open**: When you click the option for opening, the document is opened in the text-editing application. Type in the contents of the document and select **File** > **Save As** to save it in the desired location on your PC.
     * **Save**: When you click the option for saving, the **Save As** dialog appears. Specify where on your PC you want to save the file, and save it. Then open the document, enter the required text and save the document.
 5. Close the text-editing program.
@@ -77,7 +77,10 @@ To change document properties, for example, the project to which the document is
 1. [Double-click the required document][2].
 2. If a dialog box displays, click **Edit**.
 3. Save it and close the text-editing application.
-4. (if applicable) In the dialog that appears, click **Yes** if you are done editing the document. Click **No** to keep the document checked out. This dialog only appears if you have activated this option in SuperOffice WebTools.
+4. (if applicable) In the dialog that appears, click **Yes** if you are done editing the document. Click **No** to keep the document checked out.
+
+    This dialog appears only if this option was activated in SuperOffice WebTools.
+
 5. The document is checked in and the status is set to **Completed**.
 
 ## Troubleshooting

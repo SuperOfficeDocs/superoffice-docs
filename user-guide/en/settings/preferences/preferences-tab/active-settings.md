@@ -11,7 +11,7 @@ language: en
 
 # Active settings
 
-The **Active settings** field contains a list of the settings for the preference currently selected in the **Preferences** list, and the levels and the values for each of them. You can edit and delete existing settings and add new ones in this field.
+The **Active settings** field contains a list of the settings for the preference currently selected in the **Preferences** list, and the levels and the values for each. You can edit and delete existing settings and add new ones in this field.
 
 The field consists of three columns:
 

@@ -19,14 +19,14 @@ In the **Add/edit product** dialog, you can add a product, and specify a quantit
 
 1. Double-click a product in the quote.
 
-1. If you want to search in a specific price list, you can select it in the list next to the **Product search** field.
+1. To search in a specific price list, you can select it in the list next to the **Product search** field.
 
-1. Start typing the name of the product or product code in the **Product search** field. The hitlist is updated automatically. You can search on all or parts of both the product name and product code.
+1. Start typing the name of the product or product code in the **Product search** field. The hit list is updated automatically. You can search on all or parts of both the product name and product code.
 
     > [!TIP]
     > If advanced searching is supported, you can click the search button ![icon][img1] in the **Product search** field for search for and [add several products simultaneously](#add-multiple).
 
-1. Click the product you want in the list. The dialog will be updated with product information.
+1. Click the product you want in the list. The dialog is updated with product information.
 
 1. Edit the product quantity, discount and total price, if required. See details below.
 
@@ -40,7 +40,7 @@ In the **Add/edit product** dialog, you can add a product, and specify a quantit
 
 1. Click **Add** at the bottom of the **Products** tab in the **Edit quote** dialog.
 
-2. Start typing a product name in the **Product search** field to search for a product. Click the search icon ![icon][img1] to search for products using a variety of different criteria, for example, by product range, product groups/categories, name, item codes etc. The search includes all active price lists with the applicable currency.
+2. Start typing a product name in the **Product search** field to search for a product. Click the search icon ![icon][img1] to search for products using a variety of different criteria, for example, by product range, product groups/categories, name, and item codes. The search includes all active price lists with the applicable currency.
 
 3. Once you have found the products you want to add to the quote, select them (**Ctrl+click**), and click **OK**. The products are displayed in the **Products** tab (or in the tab for the alternative you have created).
 
@@ -56,18 +56,18 @@ In the area on the left of the **Add/edit product** dialog, the product name/cod
 * Figures shown in black can be edited.
 * The total amount and discounts are updated as you edit the different fields.
 * A discount can be specified either as a percentage rate, a discount amount or a total amount.
-  * The discount field you have edited is shown *underlined*.
-  * The other fields are updated so that they correspond with the discount you have defined.
+  * The discount field you edited is shown *underlined*.
+  * The other fields are updated so that they correspond with the discount you defined.
   * Hold the mouse pointer over a discount field to display any system discounts (such as volume discounts that are added automatically).
-* If you have specified discounts that are not permitted by the system, a warning or other message is displayed.
+* If you specified discounts that are not permitted by the system, a warning or other message is displayed.
 
 ## Image tab
 
-An image of the product is shown here, if this has been defined in SuperOffice Settings and maintenance.
+An image of the product is shown here, if this is defined in SuperOffice Settings and maintenance.
 
 ## Description tab
 
-Detailed product information is shown here, if this has been defined in SuperOffice Settings and maintenance.
+Detailed product information is shown here, if this is defined in SuperOffice Settings and maintenance.
 
 ## Details tab
 

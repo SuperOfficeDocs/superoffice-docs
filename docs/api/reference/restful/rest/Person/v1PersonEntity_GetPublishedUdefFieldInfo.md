@@ -11,9 +11,16 @@ GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 
 Get a published PersonEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a published PersonEntity user-defined field's details based on the prog-id o
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 PersonEntity found.
 
@@ -37,7 +45,7 @@ PersonEntity found.
 | 200 | PersonEntity found. |
 | 404 | PersonEntity not found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 789,
-  "ColumnId": 54,
-  "FieldDefault": "autem",
-  "FieldHeight": 543,
-  "FieldLabel": "sint",
-  "FieldLeft": 925,
-  "FieldTop": 961,
+  "UDefFieldId": 909,
+  "ColumnId": 388,
+  "FieldDefault": "reprehenderit",
+  "FieldHeight": 540,
+  "FieldLabel": "quo",
+  "FieldLeft": 802,
+  "FieldTop": 334,
   "FieldType": "Checkbox",
-  "FieldWidth": 754,
-  "FormatMask": "beatae",
+  "FieldWidth": 778,
+  "FormatMask": "laboriosam",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 681,
-  "LabelLeft": 642,
-  "LabelTop": 121,
-  "LabelWidth": 925,
-  "LastVersionId": 613,
-  "ListTableId": 295,
+  "IsIndexed": true,
+  "LabelHeight": 902,
+  "LabelLeft": 924,
+  "LabelTop": 545,
+  "LabelWidth": 404,
+  "LastVersionId": 513,
+  "ListTableId": 173,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 90,
-  "ProgId": "provident",
+  "Page1LineNo": 282,
+  "ProgId": "nulla",
   "IsReadOnly": false,
-  "ShortLabel": "culpa",
-  "TabOrder": 456,
-  "TextLength": 808,
-  "Tooltip": "ipsum",
-  "UdefIdentity": 157,
-  "UDListDefinitionId": 442,
+  "ShortLabel": "quasi",
+  "TabOrder": 197,
+  "TextLength": 643,
+  "Tooltip": "qui",
+  "UdefIdentity": 172,
+  "UDListDefinitionId": 548,
   "Justification": "Center",
-  "Version": 493,
-  "TemplateVariableName": "Swift Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Langosh, Bogisich and Kuvalis",
+  "Version": 669,
+  "TemplateVariableName": "Howell-Herman",
+  "HasBeenPublished": true,
+  "MdoListName": "Schmitt LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldLength": 253
     }
   }
 }

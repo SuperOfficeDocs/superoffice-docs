@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/CreateDefaultCountry
 
 Gets a new country
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a new country
 ```http
 POST /api/v1/Agents/List/CreateDefaultCountry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,8 @@ POST /api/v1/Agents/List/CreateDefaultCountry?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -42,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,30 +91,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 830,
-  "Name": "Turner, Murphy and Bosco",
-  "CurrencyId": 958,
-  "EnglishName": "Beer-Ziemann",
+  "CountryId": 78,
+  "Name": "Douglas-Mayert",
+  "CurrencyId": 528,
+  "EnglishName": "Runolfsdottir Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Horizontal methodical migration",
-  "OrgNrText": "906068",
-  "InterAreaPrefix": "et",
-  "DialInPrefix": "voluptate",
-  "ZipPrefix": "et",
-  "DomainName": "Rippin, Nitzsche and Powlowski",
-  "AddressLayoutId": 637,
-  "DomesticAddressLayoutId": 236,
-  "ForeignAddressLayoutId": 869,
-  "Rank": 917,
-  "Tooltip": "pariatur",
-  "Deleted": true,
+  "ImageDescription": "Monitored context-sensitive product",
+  "OrgNrText": "399468",
+  "InterAreaPrefix": "facilis",
+  "DialInPrefix": "nihil",
+  "ZipPrefix": "qui",
+  "DomainName": "Welch-McGlynn",
+  "AddressLayoutId": 5,
+  "DomesticAddressLayoutId": 298,
+  "ForeignAddressLayoutId": 957,
+  "Rank": 458,
+  "Tooltip": "quam",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 652
+      "FieldType": "System.Int32",
+      "FieldLength": 270
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetSelectionEntity
 
 Gets a SelectionEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=599
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=939
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,7 +106,7 @@ Response body:
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,70 +116,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-layered bifurcated archive",
-  "Postit": "corrupti",
+  "Description": "Re-contextualized reciprocal superstructure",
+  "Postit": "porro",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 27,
-  "IncludePerson": 764,
-  "MemberCount": 53,
-  "Name": "Mann Group",
-  "PostitTextId": 390,
-  "CreatedDate": "2016-06-25T11:10:27.8939795+02:00",
-  "SelectionId": 161,
-  "SoundEx": "et",
-  "Source": 953,
-  "TextId": 932,
-  "UpdatedDate": "1999-08-03T11:10:27.8939795+02:00",
-  "UpdatedCount": 922,
-  "Visibility": 78,
+  "GroupIdx": 421,
+  "IncludePerson": 249,
+  "MemberCount": 416,
+  "Name": "Hettinger-Cremin",
+  "PostitTextId": 882,
+  "CreatedDate": "2017-06-14T02:49:45.3590885+02:00",
+  "SelectionId": 808,
+  "SoundEx": "eligendi",
+  "Source": 846,
+  "TextId": 498,
+  "UpdatedDate": "1998-02-24T02:49:45.3590885+01:00",
+  "UpdatedCount": 638,
+  "Visibility": 507,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 638,
-  "TargetTableName": "Bednar, Jenkins and Rau",
+  "TargetTableNumber": 272,
+  "TargetTableName": "Nolan, Hagenes and Kassulke",
   "Completed": false,
-  "LeftSelectionId": 587,
-  "RightSelectionId": 132,
+  "LeftSelectionId": 723,
+  "RightSelectionId": 297,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rutherford, Price and Eichmann",
-  "ShadowProviderName": "Strosin LLC",
-  "ChartKey": "qui",
-  "LastLoaded": "2003-07-26T11:10:27.8939795+02:00",
-  "LastLoadedBy": 509,
+  "MainProviderName": "Skiles-Koss",
+  "ShadowProviderName": "Raynor, Goodwin and Rosenbaum",
+  "ChartKey": "molestiae",
+  "LastLoaded": "2019-09-20T02:49:45.3590885+02:00",
+  "LastLoadedBy": 627,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-01-13T11:10:27.8949799+01:00",
-  "LastMembershipChangeBy": 476,
+  "LastMembershipChange": "2019-09-22T02:49:45.3590885+02:00",
+  "LastMembershipChangeBy": 601,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "esse",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Abbott Group",
-  "DashboardTileDefinitionId": 815,
+  "MainHeading": "dolores",
+  "MemberTabHeading": "quo",
+  "MailingsProviderName": "Sanford Group",
+  "DashboardTileDefinitionId": 167,
   "VisibleFor": [
     {
-      "VisibleId": 326,
+      "VisibleId": 740,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 654
         }
       }
     },
     {
-      "VisibleId": 326,
+      "VisibleId": 740,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 654
         }
       }
     }
@@ -180,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldType": "System.Int32",
+      "FieldLength": 505
     }
   }
 }

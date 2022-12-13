@@ -1,7 +1,7 @@
 ---
-uid: help-en-so-add-product-to-pricelist
-title: SO add product to pricelist
-description: SO add product to pricelist
+uid: help-en-so-add-product-to-price-list
+title: SO add product to price list
+description: SO add product to price list
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
@@ -9,15 +9,15 @@ so.topic: help
 language: en
 ---
 
-# Add products to a price list
+# Add product to a price list
 
 In the **Add/Edit product** dialog, you enter all the information about a product, including an image.
 
-To add a product to a price list in SuperOffice CRM:
-
 [!include[Go to products](../includes/goto-products.md)]
 
-1. In the **Price list** list, select the price list you want to add products to. If you want to add a new price list, see [Add a price list][1].
+1. In the **Price list** list, select the price list you want to add products to.
+
+    [How do I add a price list?][1]
 
 1. Click **Add** at the bottom of the tab. The **Add/Edit product** dialog appears.
 
@@ -30,7 +30,7 @@ To add a product to a price list in SuperOffice CRM:
     The product is added to the price list.
 
 > [!NOTE]
-> You can also import products from a spreadsheet. See [Import products from Excel][5].
+> You can also [import products from a spreadsheet][5].
 
 ## Add image
 
@@ -42,9 +42,9 @@ In the field at the bottom left you can enter a description of the product.
 
 ## Add product information
 
-<details><summary>How do I change the name and order of these fields and define whether they should be editable and/or mandatory?</summary>
+<details><summary>How do I change the name and order of these fields and define if they should be editable and/or mandatory?</summary>
 
-In the [Configure product dialog][3] you define the order and name of the field that are shown here and whether they are editable or mandatory.
+In the [Configure product dialog][3] you define the order and name of the field that are shown here and if they are editable or mandatory.
 
 You can override the editable and mandatory settings by checking **Override default security** at the bottom of the **Add/Edit product** dialog. The changes will only apply for this one product.
 </details>
@@ -63,7 +63,7 @@ In the list on the right you can add product information. This can include:
 
 [!include[Why set all fields when creating product](../includes/quote-config-product.md)]
 
-If you want to know which fields are displayed or not displayed, go to the **Settings** tab and click **Configure product** (see [Configure products][3]).
+To find out which fields are displayed, go to the **Settings** tab and click **Configure product** (see [Configure products][3]).
 </details>
 
 <!-- Referenced links -->

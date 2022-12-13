@@ -11,6 +11,13 @@ POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 
 Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutE
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ReportLabelLayoutEntity to be saved.
+The ReportLabelLayoutEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,7 +51,8 @@ The ReportLabelLayoutEntity to be saved.
 | CountColumns | int32 | Number og columns |
 | CountRows | int32 | Number of rows |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,22 +85,22 @@ Response body:
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 461,
-  "Name": "VonRueden-Mayert",
-  "Description": "Self-enabling regional standardization",
+  "ReportLabelLayoutId": 848,
+  "Name": "Schamberger-Koch",
+  "Description": "Future-proofed client-driven algorithm",
   "Orientation": "Landscape",
-  "PaperWidth": 310,
-  "PaperHeight": 848,
-  "LeftMargin": 268,
-  "RightMargin": 535,
-  "TopMargin": 920,
-  "BottomMargin": 599,
-  "CountColumns": 714,
-  "CountRows": 394
+  "PaperWidth": 925,
+  "PaperHeight": 601,
+  "LeftMargin": 175,
+  "RightMargin": 555,
+  "TopMargin": 666,
+  "BottomMargin": 388,
+  "CountColumns": 288,
+  "CountRows": 771
 }
 ```
 
@@ -103,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 72,
-  "Name": "Wisoky Group",
-  "Description": "Reduced 5th generation groupware",
+  "ReportLabelLayoutId": 425,
+  "Name": "Rolfson Inc and Sons",
+  "Description": "Ergonomic 6th generation Graphic Interface",
   "Orientation": "Landscape",
-  "PaperWidth": 910,
-  "PaperHeight": 929,
-  "LeftMargin": 276,
-  "RightMargin": 110,
-  "TopMargin": 337,
-  "BottomMargin": 523,
-  "CountColumns": 709,
-  "CountRows": 360,
+  "PaperWidth": 941,
+  "PaperHeight": 153,
+  "LeftMargin": 651,
+  "RightMargin": 200,
+  "TopMargin": 638,
+  "BottomMargin": 837,
+  "CountColumns": 276,
+  "CountRows": 150,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   }
 }

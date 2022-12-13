@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/TransferChatSession
 
 Request to send the session to another user.
 
+
 If the session does not belong to the user, nothing happens.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If the session does not belong to the user, nothing happens.
 ```http
 POST /api/v1/Agents/Chat/TransferChatSession?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/Chat/TransferChatSession?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatSessionId, ToAssociate
+ChatSessionId, ToAssociate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 |  |
 | ToAssociate | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,12 +106,12 @@ Response body:
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 157,
-  "ToAssociate": "ducimus"
+  "ChatSessionId": 824,
+  "ToAssociate": "sit"
 }
 ```
 
@@ -114,43 +122,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 746,
-  "TopicId": 225,
+  "ChatSessionId": 80,
+  "TopicId": 567,
   "User": null,
   "Person": null,
-  "CustomerAlias": "illum",
-  "CustomerHost": "voluptatem",
-  "CustomerName": "Streich, Renner and Bradtke",
-  "CustomerEmail": "elvie_west@zemlak.info",
-  "CustomerPhone": "(007)289-6587 x8202",
+  "CustomerAlias": "omnis",
+  "CustomerHost": "fugit",
+  "CustomerName": "Altenwerth Inc and Sons",
+  "CustomerEmail": "thad.schmeler@lebsack.us",
+  "CustomerPhone": "805-466-0808",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Jaskolski-Considine",
+  "CustomerCompanyName": "Torphy, Moen and Johnston",
   "Status": "Closed",
-  "FirstMessage": "aliquam",
-  "LastMessage": "earum",
-  "WhenRequested": "2000-12-04T11:10:26.1095254+01:00",
-  "WhenStarted": "2021-06-18T11:10:26.1095254+02:00",
-  "WhenEnded": "1995-07-25T11:10:26.1095254+02:00",
-  "WhenIdle": "2022-01-01T11:10:26.1095254+01:00",
-  "WhenFetched": "2008-11-23T11:10:26.1095254+01:00",
-  "SessionKey": "illum",
-  "InitialQueuePos": 143,
-  "AlertLevel": 44,
-  "Rank": 789,
+  "FirstMessage": "dolores",
+  "LastMessage": "fugit",
+  "WhenRequested": "2004-08-29T02:49:43.7785322+02:00",
+  "WhenStarted": "1997-09-13T02:49:43.7785322+02:00",
+  "WhenEnded": "2010-05-02T02:49:43.7785322+02:00",
+  "WhenIdle": "2006-04-20T02:49:43.7785322+02:00",
+  "WhenFetched": "2013-10-12T02:49:43.7785322+02:00",
+  "SessionKey": "quis",
+  "InitialQueuePos": 473,
+  "AlertLevel": 50,
+  "Rank": 270,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 33,
+  "ChatbotIsActive": true,
+  "Rating": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldLength": 156
     }
   }
 }

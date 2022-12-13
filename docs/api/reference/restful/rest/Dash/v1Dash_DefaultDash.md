@@ -11,7 +11,14 @@ GET /api/v1/Dash/default
 
 Set default values into a new Dash.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dash agent service CreateDefaultDash.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 598,
-  "UniqueId": "veniam",
-  "Name": "Mohr-Lebsack",
-  "Description": "Automated intermediate groupware",
-  "AssociateId": 804,
-  "Columns": 387,
+  "DashboardId": 975,
+  "UniqueId": "sunt",
+  "Name": "Schultz-Boyle",
+  "Description": "Streamlined stable emulation",
+  "AssociateId": 150,
+  "Columns": 361,
   "Theme": null,
-  "VisibleForAll": 556,
+  "VisibleForAll": 573,
   "VisibleForAssociates": [
-    765,
-    494
+    551,
+    857
   ],
   "VisibleForGroups": [
-    473,
-    173
+    394,
+    606
   ],
-  "PinForAll": 97,
+  "PinForAll": 171,
   "PinForAssociates": [
-    287,
-    995
+    616,
+    680
   ],
   "PinForGroups": [
-    112,
-    781
+    877,
+    347
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 572
     }
   }
 }

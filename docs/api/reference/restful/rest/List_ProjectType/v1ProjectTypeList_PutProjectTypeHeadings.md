@@ -11,7 +11,14 @@ PUT /api/v1/List/ProjectType/Headings
 
 Saves headings for the ProjectType list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 853,
-    "Name": "White-Lemke",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 296,
-    "UdListDefinitionId": 29
+    "HeadingId": 17,
+    "Name": "Schaden-Shanahan",
+    "Tooltip": "quae",
+    "Deleted": false,
+    "Rank": 550,
+    "UdListDefinitionId": 13
   },
   {
-    "HeadingId": 853,
-    "Name": "White-Lemke",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 296,
-    "UdListDefinitionId": 29
+    "HeadingId": 17,
+    "Name": "Schaden-Shanahan",
+    "Tooltip": "quae",
+    "Deleted": false,
+    "Rank": 550,
+    "UdListDefinitionId": 13
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 876,
-    "Name": "Paucek-Schuster",
-    "Tooltip": "autem",
-    "Deleted": false,
-    "Rank": 452,
-    "UdListDefinitionId": 615,
+    "HeadingId": 992,
+    "Name": "Smith-Sawayn",
+    "Tooltip": "unde",
+    "Deleted": true,
+    "Rank": 317,
+    "UdListDefinitionId": 28,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 328
+        "FieldLength": 563
       }
     }
   }

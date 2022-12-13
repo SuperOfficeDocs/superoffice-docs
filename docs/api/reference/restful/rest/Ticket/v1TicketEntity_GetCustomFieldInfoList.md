@@ -11,7 +11,14 @@ GET /api/v1/Ticket/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on TicketEntity.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Excludes standard fields.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -70,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schmeler, Schneider and Runte",
-    "DisplayName": "Simonis Group",
-    "Description": "Configurable assymetric circuit",
-    "ShortLabel": "nesciunt",
+    "FieldName": "Fisher Inc and Sons",
+    "DisplayName": "Marvin LLC",
+    "Description": "Persistent 3rd generation contingency",
+    "ShortLabel": "est",
     "HideLabel": true,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 440,
-    "TemplateVariableName": "Christiansen, Herman and Schuppe"
+    "Rank": 320,
+    "TemplateVariableName": "Reilly-Emmerich"
   }
 ]
 ```

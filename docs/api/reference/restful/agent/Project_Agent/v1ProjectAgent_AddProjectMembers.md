@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/AddProjectMembers
 
 Add multiple project members to a project
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add multiple project members to a project
 ```http
 POST /api/v1/Agents/Project/AddProjectMembers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/Project/AddProjectMembers?$select=name,department,category/i
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectEntityId, ProjectMembers
+ProjectEntityId, ProjectMembers 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectEntityId | int32 |  |
 | ProjectMembers | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,34 +65,34 @@ Response body:
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 900,
+  "ProjectEntityId": 352,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 749,
-      "ContactId": 871,
-      "ProjectId": 628,
-      "ContactName": "Barton, Blanda and Mitchell",
+      "ProjectmemberId": 151,
+      "ContactId": 71,
+      "ProjectId": 158,
+      "ContactName": "Russel-Kutch",
       "ContactDepartment": "",
-      "ProjectName": "Cremin Group",
-      "EmailId": 203,
-      "EmailAddress": "fiona_kunde@torpbechtelar.info",
-      "CountryId": 229,
-      "Firstname": "Sharon",
-      "MiddleName": "Rosenbaum-Bayer",
-      "Lastname": "Stiedemann",
-      "PersonId": 694,
-      "Mrmrs": "sed",
-      "ProjectMemberTypeName": "Langworth, Cummings and Stark",
-      "Phone": "328-803-5470 x6975",
-      "PhoneId": 990,
-      "ProjectMemberTypeId": 656,
-      "EmailAddressName": "arnulfo.hackett@smithledner.info",
-      "Comment": "rem",
-      "FullName": "Jeffery Morar"
+      "ProjectName": "Vandervort, Kemmer and Tremblay",
+      "EmailId": 7,
+      "EmailAddress": "elza.fritsch@crona.ca",
+      "CountryId": 944,
+      "Firstname": "Reina",
+      "MiddleName": "Blanda-Ruecker",
+      "Lastname": "Daniel",
+      "PersonId": 446,
+      "Mrmrs": "aperiam",
+      "ProjectMemberTypeName": "Ward-Herman",
+      "Phone": "(240)510-3251",
+      "PhoneId": 622,
+      "ProjectMemberTypeId": 915,
+      "EmailAddressName": "alexie.kuhn@tromp.ca",
+      "Comment": "pariatur",
+      "FullName": "Lisandro Hyatt"
     }
   ]
 }

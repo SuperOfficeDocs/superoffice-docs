@@ -11,7 +11,14 @@ PUT /api/v1/List/Priority/Headings
 
 Saves headings for the Priority list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 469,
-    "Name": "Borer Group",
-    "Tooltip": "ad",
+    "HeadingId": 502,
+    "Name": "Hintz LLC",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "Rank": 585,
-    "UdListDefinitionId": 585
+    "Rank": 424,
+    "UdListDefinitionId": 879
   },
   {
-    "HeadingId": 469,
-    "Name": "Borer Group",
-    "Tooltip": "ad",
+    "HeadingId": 502,
+    "Name": "Hintz LLC",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "Rank": 585,
-    "UdListDefinitionId": 585
+    "Rank": 424,
+    "UdListDefinitionId": 879
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 159,
-    "Name": "Dietrich, Boyer and Collins",
-    "Tooltip": "rerum",
+    "HeadingId": 628,
+    "Name": "Murazik, Langosh and Williamson",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 597,
-    "UdListDefinitionId": 183,
+    "Rank": 12,
+    "UdListDefinitionId": 845,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 40
+        "FieldLength": 955
       }
     }
   }

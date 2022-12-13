@@ -11,7 +11,14 @@ POST /api/v1/List/Country/Items
 
 Create a new Country list item
 
+
 Calls the List agent service SaveCountry.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveCountry.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The Country to be created.
+The Country to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,8 @@ The Country to be created.
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -60,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,28 +99,28 @@ Response body:
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 659,
-  "Name": "Wunsch-Keebler",
-  "CurrencyId": 516,
-  "EnglishName": "Stark LLC",
+  "CountryId": 575,
+  "Name": "Schimmel LLC",
+  "CurrencyId": 340,
+  "EnglishName": "Blick-Zieme",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Profit-focused content-based capability",
-  "OrgNrText": "1812975",
-  "InterAreaPrefix": "nostrum",
-  "DialInPrefix": "iure",
-  "ZipPrefix": "facere",
-  "DomainName": "Kulas Inc and Sons",
-  "AddressLayoutId": 10,
-  "DomesticAddressLayoutId": 905,
-  "ForeignAddressLayoutId": 963,
-  "Rank": 109,
-  "Tooltip": "ut",
-  "Deleted": false
+  "ImageDescription": "Enhanced hybrid concept",
+  "OrgNrText": "648974",
+  "InterAreaPrefix": "nam",
+  "DialInPrefix": "quae",
+  "ZipPrefix": "quo",
+  "DomainName": "Kuhn-Toy",
+  "AddressLayoutId": 91,
+  "DomesticAddressLayoutId": 609,
+  "ForeignAddressLayoutId": 888,
+  "Rank": 397,
+  "Tooltip": "vel",
+  "Deleted": true
 }
 ```
 
@@ -123,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 47,
-  "Name": "Jakubowski, Greenholt and Schmitt",
-  "CurrencyId": 130,
-  "EnglishName": "Howell-D'Amore",
+  "CountryId": 907,
+  "Name": "Volkman Inc and Sons",
+  "CurrencyId": 315,
+  "EnglishName": "Goodwin-Barrows",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Visionary hybrid flexibility",
-  "OrgNrText": "518938",
-  "InterAreaPrefix": "iusto",
-  "DialInPrefix": "libero",
-  "ZipPrefix": "ad",
-  "DomainName": "Watsica-Denesik",
-  "AddressLayoutId": 68,
-  "DomesticAddressLayoutId": 941,
-  "ForeignAddressLayoutId": 133,
-  "Rank": 997,
-  "Tooltip": "cupiditate",
-  "Deleted": true,
+  "ImageDescription": "Open-architected attitude-oriented architecture",
+  "OrgNrText": "1022097",
+  "InterAreaPrefix": "molestias",
+  "DialInPrefix": "officiis",
+  "ZipPrefix": "est",
+  "DomainName": "Abbott-Aufderhar",
+  "AddressLayoutId": 287,
+  "DomesticAddressLayoutId": 894,
+  "ForeignAddressLayoutId": 965,
+  "Rank": 297,
+  "Tooltip": "similique",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 553
     }
   }
 }

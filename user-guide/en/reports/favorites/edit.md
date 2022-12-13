@@ -9,19 +9,16 @@ so.topic: help
 language: en
 ---
 
-# Edit favourite reports
+# Edit favorite reports
 
 > [!NOTE]
-> This assumes that you have added some [favorite reports][1].
-
-To edit a favourite report:
+> This assumes that you have at least one [favorite report][1].
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
-2. Select the **Favourites** tab. The favorite reports are displayed in the report list.
-3. Double-click the report you want to edit, or select it and click **Edit**. A dialog opens in which you can edit the report's details.
-4. Edit the name of the report in the **Please enter a name for your report field**, as required.
-5. Edit the text in the **Report description** field, as required.
-6. Click **OK**.
+2. Select the **Favorites** tab. The favorite reports are displayed in the report list.
+3. Double-click the report you want to edit, or select it and click **Edit**.
+4. Update the name and description as required.
+5. Click **OK**.
 
 > [!NOTE]
 > The report is amended immediately and you cannot undo your changes.

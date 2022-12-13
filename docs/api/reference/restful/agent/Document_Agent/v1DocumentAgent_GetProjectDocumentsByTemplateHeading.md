@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 
 Method that returns a specified number of document appointments within a time range, filtered by document template heading.
 
+
 The document appointments belong to the project specified. The heading represents a grouping or filtering of document templates.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project specified. The heading represent
 ```http
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count, TemplateHeadingId
+ProjectId, StartTime, EndTime, Count, TemplateHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ ProjectId, StartTime, EndTime, Count, TemplateHeadingId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TemplateHeadingId | int32 |  |
+
 
 ## Response: array
 
@@ -94,11 +102,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 150,
-  "StartTime": "2006-10-08T11:10:26.4774554+02:00",
-  "EndTime": "2021-04-07T11:10:26.4774554+02:00",
-  "Count": 335,
-  "TemplateHeadingId": 251
+  "ProjectId": 916,
+  "StartTime": "2021-03-30T02:49:44.0910111+02:00",
+  "EndTime": "2012-09-08T02:49:44.0910111+02:00",
+  "Count": 225,
+  "TemplateHeadingId": 554
 }
 ```
 
@@ -110,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 811,
-    "Attention": "molestiae",
-    "Header": "qui",
-    "Name": "Botsford, Crist and VonRueden",
-    "OurRef": "qui",
-    "YourRef": "aspernatur",
-    "Description": "Polarised client-driven analyzer",
-    "DocumentTemplate": "praesentium",
+    "DocumentId": 789,
+    "Attention": "enim",
+    "Header": "ab",
+    "Name": "Murray Inc and Sons",
+    "OurRef": "illo",
+    "YourRef": "rerum",
+    "Description": "Distributed context-sensitive knowledge base",
+    "DocumentTemplate": "sit",
     "IsPublished": false,
-    "PersonId": 897,
-    "PersonFullName": "Caitlyn Feeney",
-    "AssociateFullName": "Bridgette Jewess",
-    "ContactId": 383,
-    "ContactName": "Bailey-Rolfson",
-    "ProjectId": 859,
-    "ProjectName": "Will, Goyette and O'Reilly",
-    "AssociateId": 420,
-    "Snum": 661,
-    "SaleId": 843,
-    "SaleName": "Gutmann Group",
+    "PersonId": 696,
+    "PersonFullName": "Abigail Hudson",
+    "AssociateFullName": "Cristobal Christiansen",
+    "ContactId": 71,
+    "ContactName": "Lubowitz, Schmidt and Bailey",
+    "ProjectId": 774,
+    "ProjectName": "Gerlach-Bartoletti",
+    "AssociateId": 790,
+    "Snum": 492,
+    "SaleId": 173,
+    "SaleName": "Veum Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 321
+        "FieldType": "System.Int32",
+        "FieldLength": 281
       }
     }
   }

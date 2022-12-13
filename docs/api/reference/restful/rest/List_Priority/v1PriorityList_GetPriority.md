@@ -11,9 +11,16 @@ GET /api/v1/List/Priority/Items/{id}
 
 Gets a Priority  item by id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Priority to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Gets a Priority  item by id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -37,7 +45,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +64,7 @@ Response body:
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -66,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 503,
-  "Name": "Upton-Goodwin",
-  "Tooltip": "doloremque",
-  "Deleted": true,
-  "UdListDefinitionId": 335,
-  "Rank": 476,
+  "Id": 386,
+  "Name": "Jakubowski Group",
+  "Tooltip": "provident",
+  "Deleted": false,
+  "UdListDefinitionId": 495,
+  "Rank": 49,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldType": "System.String",
+      "FieldLength": 500
     }
   }
 }

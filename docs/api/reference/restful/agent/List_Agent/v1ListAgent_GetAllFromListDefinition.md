@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllFromListDefinition
 
 Get all list items for the specified list defintion
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all list items for the specified list defintion
 ```http
 POST /api/v1/Agents/List/GetAllFromListDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/List/GetAllFromListDefinition?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, IncludeDeleted
+UdListDefinitionId, IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | IncludeDeleted | bool |  |
+
 
 ## Response: array
 
@@ -71,12 +79,12 @@ Response body: array
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 881,
-  "IncludeDeleted": true
+  "UdListDefinitionId": 740,
+  "IncludeDeleted": false
 }
 ```
 
@@ -88,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Krajcik Group",
-    "Tooltip": "qui",
+    "Id": 946,
+    "Name": "Steuber-Hand",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 120,
-    "Rank": 408,
+    "UdListDefinitionId": 754,
+    "Rank": 62,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 787
+        "FieldLength": 437
       }
     }
   }

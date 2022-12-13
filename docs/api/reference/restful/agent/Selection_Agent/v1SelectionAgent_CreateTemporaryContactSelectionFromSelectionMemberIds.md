@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMember
 
 Creates a temporary selection with members from a collection of selectionmember id's.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a temporary selection with members from a collection of selectionmember 
 ```http
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMember
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, SelectionMemberIds
+SelectionId, SelectionMemberIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | SelectionMemberIds | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -110,10 +118,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 118,
+  "SelectionId": 762,
   "SelectionMemberIds": [
-    927,
-    878
+    799,
+    520
   ]
 }
 ```
@@ -125,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Configurable mission-critical superstructure",
-  "Postit": "odio",
+  "Description": "Secured multi-state hardware",
+  "Postit": "rerum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 6,
-  "IncludePerson": 960,
-  "MemberCount": 797,
-  "Name": "Ortiz, Effertz and Mills",
-  "PostitTextId": 634,
-  "CreatedDate": "2015-10-10T11:10:27.9299795+02:00",
-  "SelectionId": 659,
-  "SoundEx": "laborum",
-  "Source": 736,
-  "TextId": 719,
-  "UpdatedDate": "2011-06-26T11:10:27.9299795+02:00",
-  "UpdatedCount": 454,
-  "Visibility": 92,
+  "GroupIdx": 496,
+  "IncludePerson": 716,
+  "MemberCount": 135,
+  "Name": "Nitzsche-Collier",
+  "PostitTextId": 310,
+  "CreatedDate": "2015-02-01T02:49:45.3903386+01:00",
+  "SelectionId": 322,
+  "SoundEx": "natus",
+  "Source": 848,
+  "TextId": 635,
+  "UpdatedDate": "2018-04-27T02:49:45.3903386+02:00",
+  "UpdatedCount": 518,
+  "Visibility": 619,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 242,
-  "TargetTableName": "Hagenes, Powlowski and Kautzer",
+  "CompanyUnique": false,
+  "TargetTableNumber": 693,
+  "TargetTableName": "Cummerata-Muller",
   "Completed": false,
-  "LeftSelectionId": 338,
-  "RightSelectionId": 81,
+  "LeftSelectionId": 325,
+  "RightSelectionId": 80,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Graham, O'Conner and Christiansen",
-  "ShadowProviderName": "Quigley LLC",
-  "ChartKey": "mollitia",
-  "LastLoaded": "2007-05-28T11:10:27.9299795+02:00",
-  "LastLoadedBy": 158,
+  "MainProviderName": "Schinner Inc and Sons",
+  "ShadowProviderName": "Murray-Leannon",
+  "ChartKey": "quam",
+  "LastLoaded": "2016-02-28T02:49:45.3903386+01:00",
+  "LastLoadedBy": 760,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-08-29T11:10:27.9309799+02:00",
-  "LastMembershipChangeBy": 294,
+  "LastMembershipChange": "2015-03-14T02:49:45.3903386+01:00",
+  "LastMembershipChangeBy": 17,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sequi",
-  "MemberTabHeading": "voluptas",
-  "MailingsProviderName": "Rempel Inc and Sons",
-  "DashboardTileDefinitionId": 573,
+  "MainHeading": "deleniti",
+  "MemberTabHeading": "rerum",
+  "MailingsProviderName": "Ferry-Jakubowski",
+  "DashboardTileDefinitionId": 981,
   "VisibleFor": [
     {
-      "VisibleId": 895,
+      "VisibleId": 889,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldLength": 349
         }
       }
     },
     {
-      "VisibleId": 895,
+      "VisibleId": 889,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldLength": 349
         }
       }
     }
@@ -198,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 974
     }
   }
 }

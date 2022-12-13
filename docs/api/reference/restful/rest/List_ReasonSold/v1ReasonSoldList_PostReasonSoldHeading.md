@@ -11,7 +11,14 @@ POST /api/v1/List/ReasonSold/Headings
 
 Saves a new heading for the ReasonSold list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,16 +75,16 @@ Response body:
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 876,
-  "Name": "Brakus-Hamill",
-  "Tooltip": "praesentium",
-  "Deleted": false,
-  "Rank": 816,
-  "UdListDefinitionId": 558
+  "HeadingId": 610,
+  "Name": "Conn Group",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 905,
+  "UdListDefinitionId": 817
 }
 ```
 
@@ -87,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 808,
-  "Name": "Mraz-Schultz",
-  "Tooltip": "consectetur",
+  "HeadingId": 387,
+  "Name": "Hegmann LLC",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "Rank": 737,
-  "UdListDefinitionId": 719,
+  "Rank": 805,
+  "UdListDefinitionId": 629,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldType": "System.Int32",
+      "FieldLength": 515
     }
   }
 }

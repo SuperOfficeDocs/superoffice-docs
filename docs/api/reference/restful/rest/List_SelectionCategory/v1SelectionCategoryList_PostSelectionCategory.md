@@ -11,6 +11,13 @@ POST /api/v1/List/SelectionCategory/Items
 
 Add a new SelectionCategory to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new SelectionCategory to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The SelectionCategory to be added to the list.
+The SelectionCategory to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The SelectionCategory to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 934,
-  "Name": "Fay-Schneider",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "UdListDefinitionId": 512,
-  "Rank": 932
+  "Id": 280,
+  "Name": "Nitzsche Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 218,
+  "Rank": 403
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 136,
-  "Name": "Predovic-Moen",
-  "Tooltip": "cumque",
-  "Deleted": false,
-  "UdListDefinitionId": 725,
-  "Rank": 843,
+  "Id": 18,
+  "Name": "Green, Swift and Lemke",
+  "Tooltip": "quidem",
+  "Deleted": true,
+  "UdListDefinitionId": 242,
+  "Rank": 299,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldType": "System.String",
+      "FieldLength": 842
     }
   }
 }

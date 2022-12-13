@@ -11,7 +11,15 @@ POST /api/v1/Agents/Replication/GetSatellite
 
 Gets a Satellite object.
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
+
+
+
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a Satellite object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetSatellite?satelliteId=488
+POST /api/v1/Agents/Replication/GetSatellite?satelliteId=770
 POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,7 +47,8 @@ POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +77,7 @@ Response body:
 POST /api/v1/Agents/Replication/GetSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,17 +87,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 391,
-  "Created": "2019-07-01T11:10:27.7604954+02:00",
+  "SatelliteId": 32,
+  "Created": "2013-03-19T02:49:45.0778395+01:00",
   "CreatedBy": null,
-  "Updated": "2004-11-18T11:10:27.7614946+01:00",
+  "Updated": "2002-01-19T02:49:45.0778395+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Pagac, Sipes and O'Conner",
-      "Description": "Advanced well-modulated workforce",
+      "Name": "Sanford, Emard and Flatley",
+      "Description": "Visionary neutral methodology",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +111,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 934
+          "FieldLength": 782
         }
       }
     },
     {
-      "Name": "Pagac, Sipes and O'Conner",
-      "Description": "Advanced well-modulated workforce",
+      "Name": "Sanford, Emard and Flatley",
+      "Description": "Visionary neutral methodology",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 934
+          "FieldLength": 782
         }
       }
     }
@@ -131,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldLength": 442
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/AddBounce
 
 Add a bounce count on the email address if it exists
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a bounce count on the email address if it exists
 ```http
 POST /api/v1/Agents/Person/AddBounce?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,15 +38,16 @@ POST /api/v1/Agents/Person/AddBounce?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EmailAddress
+EmailAddress 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EmailAddress | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -47,7 +55,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -55,11 +64,11 @@ Response body:
 POST /api/v1/Agents/Person/AddBounce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "dell@stammbarrows.us"
+  "EmailAddress": "lesly_schaefer@gusikowski.us"
 }
 ```
 

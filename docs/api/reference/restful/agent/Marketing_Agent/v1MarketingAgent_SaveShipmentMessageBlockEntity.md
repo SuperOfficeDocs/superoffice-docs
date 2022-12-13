@@ -11,6 +11,13 @@ POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 
 Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessage
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ShipmentMessageBlockEntity to be saved.
+The ShipmentMessageBlockEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The ShipmentMessageBlockEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,14 +81,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 741,
-  "AssociateId": 386,
-  "Block": "accusamus",
-  "Registered": "1997-01-04T11:10:27.2874535+01:00",
-  "RegisteredAssociateId": 86,
-  "Updated": "2001-04-14T11:10:27.2874535+02:00",
-  "UpdatedAssociateId": 899,
-  "UpdatedCount": 909
+  "ShipmentMessageBlockId": 728,
+  "AssociateId": 718,
+  "Block": "ex",
+  "Registered": "2000-04-02T02:49:44.7172985+02:00",
+  "RegisteredAssociateId": 786,
+  "Updated": "2002-06-28T02:49:44.7172985+02:00",
+  "UpdatedAssociateId": 749,
+  "UpdatedCount": 12
 }
 ```
 
@@ -91,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 586,
-  "AssociateId": 290,
-  "Block": "sed",
-  "Registered": "2007-07-08T11:10:27.2884555+02:00",
-  "RegisteredAssociateId": 843,
-  "Updated": "2013-03-20T11:10:27.2884555+01:00",
-  "UpdatedAssociateId": 499,
-  "UpdatedCount": 254,
+  "ShipmentMessageBlockId": 888,
+  "AssociateId": 728,
+  "Block": "totam",
+  "Registered": "2011-12-05T02:49:44.7172985+01:00",
+  "RegisteredAssociateId": 25,
+  "Updated": "2005-09-01T02:49:44.7172985+02:00",
+  "UpdatedAssociateId": 534,
+  "UpdatedCount": 832,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldLength": 166
     }
   }
 }

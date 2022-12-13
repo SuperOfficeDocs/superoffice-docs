@@ -1,7 +1,7 @@
 <!-- markdownlint-disable-file MD041 -->
 The columns of the **Project** section tab contain the following information:
 
-* Check mark indicating if the project has been completed.
+* Checkmark indicating if the project is completed.
 * The name of the project.
 * What type of project it is.
 * The project's status.

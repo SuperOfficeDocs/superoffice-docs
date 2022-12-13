@@ -11,7 +11,13 @@ POST /api/v1/Agents/Project/GetMyProjects
 
 Returning the projects belonging to an associate.
 
+
 If memberProjects is false only the projects where the associate is project responsible is returned, otherwise both the projects where the associate is project responsible and project member is returned.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If memberProjects is false only the projects where the associate is project resp
 ```http
 POST /api/v1/Agents/Project/GetMyProjects?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/Project/GetMyProjects?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeMemberProjects
+IncludeMemberProjects 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeMemberProjects | bool |  |
+
 
 ## Response: array
 
@@ -84,7 +92,7 @@ Response body: array
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 844,
-    "Name": "Schaefer, Bahringer and O'Kon",
-    "Description": "Proactive zero tolerance system engine",
+    "ProjectId": 415,
+    "Name": "Williamson, Little and Schowalter",
+    "Description": "Horizontal reciprocal toolset",
     "URL": "http://www.example.com/",
-    "Type": "molestiae",
-    "AssociateId": 47,
-    "AssociateFullName": "Audie Ratke",
-    "TypeId": 868,
-    "Updated": "2022-01-24T11:10:27.6184605+01:00",
-    "StatusId": 514,
-    "Status": "quis",
-    "TextId": 335,
-    "PublishTo": "2012-11-09T11:10:27.6184605+01:00",
-    "PublishFrom": "2013-07-29T11:10:27.6184605+02:00",
+    "Type": "ex",
+    "AssociateId": 271,
+    "AssociateFullName": "Dr. Felicity Eichmann",
+    "TypeId": 151,
+    "Updated": "2005-03-30T02:49:44.9684639+02:00",
+    "StatusId": 898,
+    "Status": "voluptatem",
+    "TextId": 235,
+    "PublishTo": "2022-10-03T02:49:44.9684639+02:00",
+    "PublishFrom": "2003-03-25T02:49:44.9684639+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1337296",
-    "ActiveErpLinks": 505,
+    "ProjectNumber": "912353",
+    "ActiveErpLinks": 411,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 137
+        "FieldLength": 464
       }
     }
   }

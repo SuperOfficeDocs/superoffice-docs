@@ -13,15 +13,17 @@ language: en
 
 In the **Forms** tab you can find all existing forms.
 
-Here you have the following viewing options:
+To view an existing form, click a form in the list. The **View form** screen opens.
 
-* **Recent**: Shows the forms you have been working on recently.
-* **My forms**: Shows the forms that you have created.
-* **Active forms**: Shows only forms that are active. Forms can be deactivated manually, or are automatically deactivated at a specific date or when a specific number of submissions have been received.
+## Viewing options
+
+* **Recent**: Shows the forms you worked on recently.
+* **My forms**: Shows the forms created by you.
+* **Active forms**: Shows only forms that are active. Forms can be deactivated manually, or are automatically deactivated at a specific date or when a specific number of submissions are received.
 * **All forms**: Shows all available forms.
 * **Search in forms**: Enter a search phrase and press **ENTER** or click the search icon ![icon][img2].
 
-To view an existing form, click a form in the list. The **View form** screen opens.
+## The View form screen
 
 In the top part of the screen, you have the following options:
 
@@ -36,7 +38,7 @@ The **View form** screen consists of the following tabs:
 
 ### Summary
 
-Here you can basic information about the form, including a preview of the form, and view various submission statistics:
+Here you can see basic information about the form, including a preview of the form, and view various submission statistics:
 
 * **Total submissions**: How many forms have been submitted.
 * **Last submission**: When the last form was submitted.
@@ -51,7 +53,7 @@ Here you can find the link and script for [publishing the form][3] on a web page
 
 Click the **Open in new window** button to preview the form.
 
-**Show with pre-filled fields**: Select this option to add field names to the link and JavaScript. By adding template variables to the form link in mailings, the form fields can be [pre-filled with existing data][4] (name, email etc.) for registered contacts.
+**Show with pre-filled fields**: Select this option to add field names to the link and JavaScript. By adding template variables to the form link in mailings, the form fields can be [pre-filled with existing data such as name and email][4] for registered contacts.
 
 On the left side of the screen you can select various types of publishing options for the form.
 
@@ -61,11 +63,11 @@ Charts show statistics for the form (mouse-over to view exact numbers).
 
 ### Form submissions
 
-Here you can view and process all submitted forms. Use the filter options at the bottom of the list to view only submissions with specific statuses. See [Process form submissions][5].
+Here you can view and [process all submitted forms][5]. Use the filter options at the bottom of the list to view only submissions with specific statuses.
 
 ### Response email
 
-This tab is visible if you have activated **E-mail response** for this form (see [Create a new form - Actions][6]). Here you can preview the form response (mailing) associated with this form.
+This tab is visible if **Email response** is activated for this form (see [Create a new form - Actions][6]). Here you can preview the form response (mailing) associated with this form.
 
 <!-- Referenced links -->
 [1]: ../marketing/add-favourites.md

@@ -20,8 +20,6 @@ If you have purchased a licence for SAINT ("SAles INTelligence"), you can specif
 [!include[Examples](../../includes/status-examples.md)]
 </details>
 
-The way to create statuses is described in detail in the SuperOffice Settings and maintenance help.
-
 When you see a status image for a company, contact or a project, you have two options:
 
 * If you hold the mouse pointer over the image, a tooltip appears showing you the same of the status and a description. You also get information about any other statuses relating to the company, contact or project.

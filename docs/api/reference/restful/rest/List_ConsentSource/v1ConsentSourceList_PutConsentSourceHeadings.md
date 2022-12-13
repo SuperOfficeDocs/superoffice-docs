@@ -11,7 +11,14 @@ PUT /api/v1/List/ConsentSource/Headings
 
 Saves headings for the ConsentSource list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 470,
-    "Name": "Keeling-Windler",
-    "Tooltip": "atque",
-    "Deleted": true,
-    "Rank": 538,
-    "UdListDefinitionId": 819
+    "HeadingId": 334,
+    "Name": "Kuhlman Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 874,
+    "UdListDefinitionId": 941
   },
   {
-    "HeadingId": 470,
-    "Name": "Keeling-Windler",
-    "Tooltip": "atque",
-    "Deleted": true,
-    "Rank": 538,
-    "UdListDefinitionId": 819
+    "HeadingId": 334,
+    "Name": "Kuhlman Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 874,
+    "UdListDefinitionId": 941
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 640,
-    "Name": "Connelly Inc and Sons",
-    "Tooltip": "reiciendis",
-    "Deleted": true,
-    "Rank": 44,
-    "UdListDefinitionId": 309,
+    "HeadingId": 228,
+    "Name": "McDermott Group",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "Rank": 313,
+    "UdListDefinitionId": 330,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 11
+        "FieldLength": 126
       }
     }
   }

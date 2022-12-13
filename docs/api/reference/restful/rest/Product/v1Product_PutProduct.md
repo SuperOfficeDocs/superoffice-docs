@@ -11,9 +11,15 @@ PUT /api/v1/Product/{id}
 
 Updates the existing Product
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Product id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing Product
 ```http
 PUT /api/v1/Product/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Product/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Product to be saved.
+The Product to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +68,7 @@ The Product to be saved.
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -80,7 +87,8 @@ The Product to be saved.
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
 
-## Response
+
+## Response: 
 
 Product updated.
 
@@ -89,7 +97,7 @@ Product updated.
 | 200 | Product updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,7 +117,7 @@ Response body:
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -136,55 +144,55 @@ Response body:
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 855,
-  "ERPProductKey": "aut",
-  "ERPPriceListKey": "ducimus",
-  "Name": "Howe LLC",
-  "Description": "Networked actuating archive",
-  "Code": "maxime",
-  "PriceUnit": "sint",
-  "QuantityUnit": "necessitatibus",
-  "IsSubscription": true,
-  "SubscriptionUnit": "minima",
-  "DefaultSubscriptionQuantity": 20126.548,
-  "ItemNumber": "1589757",
+  "ProductId": 184,
+  "ERPProductKey": "consequuntur",
+  "ERPPriceListKey": "ad",
+  "Name": "Zemlak, Aufderhar and Beier",
+  "Description": "Phased multi-state secured line",
+  "Code": "sint",
+  "PriceUnit": "autem",
+  "QuantityUnit": "aspernatur",
+  "IsSubscription": false,
+  "SubscriptionUnit": "placeat",
+  "DefaultSubscriptionQuantity": 25770.881999999998,
+  "ItemNumber": "908406",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "impedit",
-  "ProductTypeKey": "illum",
-  "VAT": 29368.714,
-  "VATInfo": "non",
-  "UnitCost": 30775.879999999997,
-  "UnitMinimumPrice": 4212.096,
-  "UnitListPrice": 15760.885999999999,
-  "InAssortment": true,
-  "Supplier": "non",
-  "SupplierCode": "et",
-  "Rights": "quia",
-  "Rule": "enim",
+  "ProductFamilyKey": "quia",
+  "ProductTypeKey": "cum",
+  "VAT": 6891.666,
+  "VATInfo": "consequatur",
+  "UnitCost": 29857.618,
+  "UnitMinimumPrice": 23423.516,
+  "UnitListPrice": 902.592,
+  "InAssortment": false,
+  "Supplier": "aut",
+  "SupplierCode": "unde",
+  "Rights": "praesentium",
+  "Rule": "voluptas",
   "ExtraInfo": [
     {
-      "Name": "Morissette, Tromp and Gottlieb",
-      "Value": "rem",
+      "Name": "Kerluke-Lebsack",
+      "Value": "culpa",
       "Type": "Image"
     },
     {
-      "Name": "Morissette, Tromp and Gottlieb",
-      "Value": "rem",
+      "Name": "Kerluke-Lebsack",
+      "Value": "culpa",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "velit",
-  "ExtraField1": "omnis",
-  "ExtraField2": "veniam",
-  "ExtraField3": "reprehenderit",
-  "ExtraField4": "dolorem",
-  "ExtraField5": "est",
-  "InStock": 3052.516
+  "RawExtraInfo": "perspiciatis",
+  "ExtraField1": "dolores",
+  "ExtraField2": "accusantium",
+  "ExtraField3": "ea",
+  "ExtraField4": "sed",
+  "ExtraField5": "et",
+  "InStock": 10918.856
 }
 ```
 
@@ -195,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 525,
-  "ERPProductKey": "ea",
-  "ERPPriceListKey": "et",
-  "Name": "Wyman Group",
-  "Description": "User-friendly maximized model",
-  "Code": "quia",
-  "PriceUnit": "et",
-  "QuantityUnit": "cumque",
-  "IsSubscription": true,
-  "SubscriptionUnit": "quam",
-  "DefaultSubscriptionQuantity": 2391.2419999999997,
-  "ItemNumber": "693212",
+  "ProductId": 719,
+  "ERPProductKey": "natus",
+  "ERPPriceListKey": "dolor",
+  "Name": "Koch, Luettgen and Reilly",
+  "Description": "Distributed eco-centric hub",
+  "Code": "occaecati",
+  "PriceUnit": "soluta",
+  "QuantityUnit": "dolorem",
+  "IsSubscription": false,
+  "SubscriptionUnit": "cumque",
+  "DefaultSubscriptionQuantity": 31327.464,
+  "ItemNumber": "548715",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolorum",
-  "ProductTypeKey": "omnis",
-  "VAT": 10508.302,
-  "VATInfo": "cupiditate",
-  "UnitCost": 14124.938,
-  "UnitMinimumPrice": 23517.536,
-  "UnitListPrice": 7248.942,
-  "InAssortment": true,
-  "Supplier": "praesentium",
-  "SupplierCode": "et",
-  "Rights": "voluptate",
-  "Rule": "velit",
+  "ProductFamilyKey": "blanditiis",
+  "ProductTypeKey": "est",
+  "VAT": 8800.271999999999,
+  "VATInfo": "in",
+  "UnitCost": 26513.64,
+  "UnitMinimumPrice": 26215.91,
+  "UnitListPrice": 22868.798,
+  "InAssortment": false,
+  "Supplier": "distinctio",
+  "SupplierCode": "at",
+  "Rights": "vero",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Cruickshank, Williamson and Cremin",
-      "Value": "voluptatem",
+      "Name": "Rogahn-Mertz",
+      "Value": "at",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldType": "System.String",
+          "FieldLength": 731
         }
       }
     },
     {
-      "Name": "Cruickshank, Williamson and Cremin",
-      "Value": "voluptatem",
+      "Name": "Rogahn-Mertz",
+      "Value": "at",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldType": "System.String",
+          "FieldLength": 731
         }
       }
     }
   ],
-  "RawExtraInfo": "commodi",
-  "ExtraField1": "doloremque",
-  "ExtraField2": "deleniti",
-  "ExtraField3": "tempore",
-  "ExtraField4": "magni",
-  "ExtraField5": "impedit",
-  "InStock": 7067.17,
+  "RawExtraInfo": "et",
+  "ExtraField1": "quisquam",
+  "ExtraField2": "illum",
+  "ExtraField3": "facilis",
+  "ExtraField4": "cupiditate",
+  "ExtraField5": "officia",
+  "InStock": 17515.926,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 804
     }
   }
 }

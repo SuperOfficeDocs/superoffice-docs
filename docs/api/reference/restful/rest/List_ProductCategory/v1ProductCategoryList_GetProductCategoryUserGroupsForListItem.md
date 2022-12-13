@@ -11,11 +11,18 @@ GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ProductCategory list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -66,7 +74,7 @@ Response body: array
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 172,
-    "Name": "Considine Group",
-    "ToolTip": "Quia sed quo.",
+    "Id": 607,
+    "Name": "Yundt Inc and Sons",
+    "ToolTip": "Voluptas facere tenetur rerum aut.",
     "Deleted": false,
-    "Rank": 693,
-    "Type": "maiores",
-    "ColorBlock": 548,
-    "IconHint": "quam",
+    "Rank": 948,
+    "Type": "odio",
+    "ColorBlock": 3,
+    "IconHint": "dolorum",
     "Selected": true,
-    "LastChanged": "2011-08-10T11:10:54.4179026+02:00",
+    "LastChanged": "2008-02-18T02:49:52.3597004+01:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Farrell, Hahn and Purdy",
-        "ToolTip": "Voluptatibus facilis rem sint autem totam.",
+        "Id": 343,
+        "Name": "Witting, Kozey and Ritchie",
+        "ToolTip": "Libero dolorem repellat voluptas sed fugit sit.",
         "Deleted": false,
-        "Rank": 300,
-        "Type": "pariatur",
-        "ColorBlock": 552,
-        "IconHint": "similique",
-        "Selected": false,
-        "LastChanged": "1995-10-16T11:10:54.4179026+02:00",
+        "Rank": 808,
+        "Type": "nam",
+        "ColorBlock": 246,
+        "IconHint": "saepe",
+        "Selected": true,
+        "LastChanged": "2010-01-29T02:49:52.3597004+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "nemo",
         "Hidden": false,
-        "FullName": "Marilou Sanford",
+        "FullName": "Shayna Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 562
+            "FieldType": "System.Int32",
+            "FieldLength": 478
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "ab",
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatum",
     "Hidden": false,
-    "FullName": "Cecilia Helmer Wolff DDS",
+    "FullName": "Judah Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldLength": 67
       }
     }
   }

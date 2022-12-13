@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetAddress
 
 Gets the contact's localized address.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the contact's localized address.
 ```http
 POST /api/v1/Agents/Contact/GetAddress?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Contact/GetAddress?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +82,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 561
+  "ContactId": 673
 }
 ```
 
@@ -85,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 15425.547999999999,
-  "Wgs84Longitude": 539.048,
+  "Wgs84Latitude": 3184.144,
+  "Wgs84Longitude": 13805.27,
   "LocalizedAddress": [
     [
       {
-        "Name": "Denesik, Huel and Lemke",
-        "Value": "vitae",
-        "Tooltip": "a",
-        "Label": "facere",
-        "ValueLength": 459,
-        "AddressType": "incidunt",
+        "Name": "Mills, Schaefer and Reilly",
+        "Value": "repudiandae",
+        "Tooltip": "fuga",
+        "Label": "quasi",
+        "ValueLength": 932,
+        "AddressType": "blanditiis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 313
+            "FieldType": "System.Int32",
+            "FieldLength": 373
           }
         }
       }
     ],
     [
       {
-        "Name": "Spencer, Olson and Reilly",
-        "Value": "id",
-        "Tooltip": "eos",
-        "Label": "dolor",
-        "ValueLength": 744,
-        "AddressType": "ipsa",
+        "Name": "Jacobson Group",
+        "Value": "occaecati",
+        "Tooltip": "non",
+        "Label": "saepe",
+        "ValueLength": 943,
+        "AddressType": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 837
+            "FieldLength": 738
           }
         }
       }
@@ -127,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "natus",
+  "Formatted": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldType": "System.String",
+      "FieldLength": 517
     }
   }
 }

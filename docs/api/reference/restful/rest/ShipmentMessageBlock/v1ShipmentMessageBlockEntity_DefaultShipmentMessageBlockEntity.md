@@ -11,7 +11,14 @@ GET /api/v1/ShipmentMessageBlock/default
 
 Set default values into a new ShipmentMessageBlockEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Marketing agent service CreateDefaultShipmentMessageBlockEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 384,
-  "AssociateId": 931,
-  "Block": "distinctio",
-  "Registered": "2006-01-21T11:10:53.5201743+01:00",
-  "RegisteredAssociateId": 279,
-  "Updated": "2021-08-12T11:10:53.5201743+02:00",
-  "UpdatedAssociateId": 516,
-  "UpdatedCount": 89,
+  "ShipmentMessageBlockId": 904,
+  "AssociateId": 265,
+  "Block": "veniam",
+  "Registered": "2013-08-09T02:49:51.536309+02:00",
+  "RegisteredAssociateId": 15,
+  "Updated": "2014-09-15T02:49:51.536309+02:00",
+  "UpdatedAssociateId": 84,
+  "UpdatedCount": 805,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 384
     }
   }
 }

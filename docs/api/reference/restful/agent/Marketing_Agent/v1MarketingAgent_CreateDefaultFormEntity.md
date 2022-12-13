@@ -11,7 +11,14 @@ POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 
 Set default values into a new FormEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +77,7 @@ Response body:
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 588,
-  "FormKey": "velit",
-  "Name": "Waters, Turcotte and Sipes",
-  "Description": "Vision-oriented heuristic workforce",
-  "Config": "mollitia",
-  "FolderId": 873,
-  "ScriptId": 616,
-  "ResponseShipmentId": 992,
+  "FormId": 414,
+  "FormKey": "at",
+  "Name": "Kshlerin, Pfannerstill and Jaskolski",
+  "Description": "Proactive zero tolerance alliance",
+  "Config": "officia",
+  "FolderId": 381,
+  "ScriptId": 167,
+  "ResponseShipmentId": 390,
   "Active": true,
-  "Expires": "2000-03-13T11:10:27.2844527+01:00",
-  "MaxSubmits": 691,
+  "Expires": "2011-01-24T02:49:44.7016713+01:00",
+  "MaxSubmits": 559,
   "Type": "Normal",
-  "Recipe": "quaerat",
-  "GroupId": 495,
-  "NewTicket": true,
+  "Recipe": "corrupti",
+  "GroupId": 355,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1999-09-15T11:10:27.2844527+02:00",
-  "RegisteredAssociateId": 202,
-  "Updated": "2010-06-16T11:10:27.2844527+02:00",
-  "UpdatedAssociateId": 401,
-  "UpdatedCount": 933,
-  "FolderName": "Trantow Group",
+  "Registered": "2022-09-02T02:49:44.7016713+02:00",
+  "RegisteredAssociateId": 421,
+  "Updated": "2005-11-05T02:49:44.7016713+01:00",
+  "UpdatedAssociateId": 79,
+  "UpdatedCount": 137,
+  "FolderName": "Sanford-Berge",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldLength": 425
     }
   }
 }

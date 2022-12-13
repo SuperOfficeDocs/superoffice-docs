@@ -11,7 +11,13 @@ POST /api/v1/Agents/PhoneList/Search
 
 Searching the phone list.
 
+
 Using default search preferences or the preferences already set by the PhoneListPreferences Service
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Using default search preferences or the preferences already set by the PhoneList
 ```http
 POST /api/v1/Agents/PhoneList/Search?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/PhoneList/Search?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SearchString
+SearchString 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SearchString | string |  |
+
 
 ## Response: array
 
@@ -76,11 +84,11 @@ Response body: array
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "officia"
+  "SearchString": "non"
 }
 ```
 
@@ -92,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(639)854-8859 x3382",
-    "PersonCellPhone": "1-968-492-2480 x3934",
-    "PersonPrivatePhone": "583.974.4775",
-    "PersonFaxNumber": "968476",
-    "PersonPagerNumber": "1362251",
-    "PersonEmail": "tyrese@yundt.ca",
-    "Id": 220,
-    "Name": "Leannon-Herzog",
-    "Tooltip": "quia",
-    "UniqueId": "at",
+    "PersonDirectPhone": "1-924-380-5333 x245",
+    "PersonCellPhone": "(168)620-4195",
+    "PersonPrivatePhone": "(942)804-5924 x45809",
+    "PersonFaxNumber": "1554266",
+    "PersonPagerNumber": "699279",
+    "PersonEmail": "jordy@medhurstokon.biz",
+    "Id": 602,
+    "Name": "Wehner-Quigley",
+    "Tooltip": "tempore",
+    "UniqueId": "expedita",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldLength": 14
       }
     }
   }

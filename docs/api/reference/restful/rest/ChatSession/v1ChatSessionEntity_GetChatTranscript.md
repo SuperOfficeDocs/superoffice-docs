@@ -11,9 +11,15 @@ POST /api/v1/ChatSession/{chatSessionId}/Transcript
 
 Get the chat transcript, formatted as plain text or html
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to get the transcript for **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Get the chat transcript, formatted as plain text or html
 ```http
 POST /api/v1/ChatSession/{chatSessionId}/Transcript?html=False
 ```
+
 
 ## Request Headers
 
@@ -38,6 +45,7 @@ POST /api/v1/ChatSession/{chatSessionId}/Transcript?html=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: string
 
 OK
@@ -48,13 +56,14 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/ChatSession/{chatSessionId}/Transcript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -63,5 +72,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"suscipit"
+"voluptatum"
 ```

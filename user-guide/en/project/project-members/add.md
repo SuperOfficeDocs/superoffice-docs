@@ -28,7 +28,7 @@ To link the project to a company, you must specify at least one project member.
     * To select a contact from a company: Click the arrow and select the company you want in the list that appears, or type the name of the company. By default the company that is active in the **Company** screen is shown.
     * To select a contact directly: Type the name of the contact (this applies to both contacts with and without an associated company), and click the name in the results list.
 
-5. In the **Project** field specify which project to add the project member(s) to. You can do this by clicking the arrow and selecting the required project in the list box which appears.
+5. In the **Project** field specify which project to add the project member(s) to by clicking the arrow and selecting the required project from the list.
 
 6. In the list of contacts on the left select the contact(s) you want to add to the project.
 
@@ -42,9 +42,9 @@ To link the project to a company, you must specify at least one project member.
 9. In the large text box under **Comment**, enter a more detailed description of the person’s function within the project, if required.
 
     > [!NOTE]
-    > If you enter anything in this text box, a paperclip symbol ( ![icon][img1] ) will be displayed in the **Project member information** column in the **Project Members** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
+    > If you enter anything in this text box, a paperclip symbol ( ![icon][img1] ) is displayed in the **Project member information** column in the **Project Members** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
 
-10. When you have entered the required information, click **OK**.
+10. After entering the required information, click **OK**.
 
 > [!TIP]
 > You can select multiple contacts on the right side of the window by holding down **CTRL** or **SHIFT** as you select. Changes you then make in the **Function** field and **Comment** text box will apply to all the selected contacts.
@@ -53,22 +53,22 @@ To link the project to a company, you must specify at least one project member.
 
 You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project Members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen][3].
 
-You do this as follows:
+**Steps:**
 
 1. Go to the required section tab or the **Find** screen.
 
 2. Select the required contact on the list.
 
     > [!NOTE]
-    > If you want to add several contacts as stakeholders/project members, use **Shift** or **Ctrl** + click.
+    > To add several contacts as stakeholders/project members, use **Shift** or **Ctrl** + click.
 
 3. Right-click the contacts and select **Add to sale** or **Add to project** on the menu which appears.
 
-4. In the **Sale** or **Project** field, specify to which sale/project the contacts will be added. Do this either by clicking the arrow and selecting the required sale/project in the displayed list box, or by typing in the whole or the beginning of the sale/project name.
+4. In the **Sale** or **Project** field, specify which sale/project to add the contacts to. Do this either by clicking the arrow and selecting the required sale/project in the displayed list box, or by typing in the whole or the beginning of the sale/project name.
 
 5. In the **Sales role** or **Function** field, specify the sales role/function each person has in the sale/project. Click the arrow to display a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.
 
-6. Click **Save**. The contacts are added to the sale/project you have specified.
+6. Click **Save**.
 
 <!-- Referenced links -->
 [2]: ../../person/create.md

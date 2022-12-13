@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/RecalculateQuoteLine
 
 When the user changes one or more values in a quoteline, the connector gets to change the QuoteLine, for instance calculate VAT.
 
+
 Shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, ListPrice (if allowed). Will calculate the TotalPrice and the VAT (if possible) for the line.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Shall be called when the user changes any of the following fields: Quantity, Dis
 ```http
 POST /api/v1/Agents/Quote/RecalculateQuoteLine?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/Quote/RecalculateQuoteLine?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLine, ChangedFields
+QuoteLine, ChangedFields 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLine |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteLine. Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 | ChangedFields | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -116,14 +124,14 @@ Response body:
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "in",
-    "et"
+    "aut",
+    "necessitatibus"
   ]
 }
 ```
@@ -135,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 817,
-  "ERPQuoteLineKey": "et",
-  "QuoteAlternativeId": 867,
-  "ERPProductKey": "nesciunt",
+  "QuoteLineId": 737,
+  "ERPQuoteLineKey": "ipsa",
+  "QuoteAlternativeId": 178,
+  "ERPProductKey": "quo",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 28892.345999999998,
-  "DeliveredQuantity": 8790.869999999999,
-  "Rank": 754,
-  "Name": "Bahringer LLC",
-  "Description": "Upgradable mobile project",
-  "Code": "illo",
-  "QuantityUnit": "est",
-  "PriceUnit": "reprehenderit",
-  "ItemNumber": "913359",
+  "Quantity": 1313.146,
+  "DeliveredQuantity": 21536.847999999998,
+  "Rank": 845,
+  "Name": "Metz, Rosenbaum and Cummings",
+  "Description": "Switchable next generation success",
+  "Code": "culpa",
+  "QuantityUnit": "quibusdam",
+  "PriceUnit": "et",
+  "ItemNumber": "706573",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quam",
-  "ProductTypeKey": "repudiandae",
-  "Supplier": "recusandae",
-  "SupplierCode": "eos",
-  "Thumbnail": "sed",
-  "VATInfo": "alias",
-  "VAT": 8521.346,
-  "UnitCost": 18979.504,
-  "UnitMinimumPrice": 14808.15,
-  "UnitListPrice": 16506.778,
+  "ProductFamilyKey": "molestiae",
+  "ProductTypeKey": "natus",
+  "Supplier": "veritatis",
+  "SupplierCode": "officiis",
+  "Thumbnail": "fugit",
+  "VATInfo": "ut",
+  "VAT": 2851.94,
+  "UnitCost": 27679.487999999998,
+  "UnitMinimumPrice": 20418.01,
+  "UnitListPrice": 29939.102,
   "ExtraInfo": [
     {
-      "Name": "Medhurst-Ernser",
-      "Value": "corrupti",
+      "Name": "Carroll Group",
+      "Value": "vero",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 430
+          "FieldLength": 274
         }
       }
     },
     {
-      "Name": "Medhurst-Ernser",
-      "Value": "corrupti",
+      "Name": "Carroll Group",
+      "Value": "vero",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 430
+          "FieldLength": 274
         }
       }
     }
   ],
-  "RawExtraInfo": "animi",
-  "IsSubscription": false,
-  "SubscriptionUnit": "doloribus",
-  "SubscriptionQuantity": 11254.194,
-  "SubscriptionStart": "2013-08-07T11:10:27.641449+02:00",
-  "ERPDiscountPercent": 21210.912,
-  "ERPDiscountAmount": 8900.56,
-  "DiscountPercent": 28723.11,
-  "DiscountAmount": 4356.26,
+  "RawExtraInfo": "velit",
+  "IsSubscription": true,
+  "SubscriptionUnit": "excepturi",
+  "SubscriptionQuantity": 12592.412,
+  "SubscriptionStart": "2003-07-18T02:49:44.9840914+02:00",
+  "ERPDiscountPercent": 12420.042,
+  "ERPDiscountAmount": 28058.701999999997,
+  "DiscountPercent": 14823.82,
+  "DiscountAmount": 22448.842,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 18321.363999999998,
-  "EarningAmount": 13021.77,
-  "SubTotal": 13918.094,
-  "TotalPrice": 14472.812,
-  "Rights": "nisi",
-  "Rule": "eum",
-  "ExtraField1": "alias",
-  "ExtraField2": "sint",
-  "ExtraField3": "ut",
-  "ExtraField4": "et",
-  "ExtraField5": "aliquam",
+  "EarningPercent": 29506.61,
+  "EarningAmount": 11605.202,
+  "SubTotal": 12153.652,
+  "TotalPrice": 19236.492,
+  "Rights": "sed",
+  "Rule": "laborum",
+  "ExtraField1": "qui",
+  "ExtraField2": "error",
+  "ExtraField3": "asperiores",
+  "ExtraField4": "pariatur",
+  "ExtraField5": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldLength": 131
     }
   }
 }

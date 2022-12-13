@@ -11,11 +11,17 @@ GET /api/v1/Selection/{id}
 
 Gets a SelectionEntity object.
 
+
 Calls the Selection agent service GetSelectionEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the SelectionEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Selection agent service GetSelectionEntity.
 ```http
 GET /api/v1/Selection/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/Selection/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 SelectionEntity found.
 
@@ -50,7 +58,7 @@ SelectionEntity found.
 | 304 | SelectionEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -113,73 +121,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 25 Apr 2000 11:10:53 G4T
+Last-Modified: Sat, 16 Jan 2021 02:49:51 G1T
 
 {
-  "Description": "Right-sized modular adapter",
-  "Postit": "odio",
+  "Description": "Decentralized bottom-line infrastructure",
+  "Postit": "sint",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 47,
-  "IncludePerson": 265,
-  "MemberCount": 285,
-  "Name": "Effertz, Hackett and Goyette",
-  "PostitTextId": 307,
-  "CreatedDate": "2004-02-25T11:10:53.4981817+01:00",
-  "SelectionId": 482,
-  "SoundEx": "rem",
-  "Source": 997,
-  "TextId": 497,
-  "UpdatedDate": "2000-04-25T11:10:53.4981817+02:00",
-  "UpdatedCount": 820,
-  "Visibility": 1002,
+  "GroupIdx": 835,
+  "IncludePerson": 171,
+  "MemberCount": 701,
+  "Name": "Carroll LLC",
+  "PostitTextId": 810,
+  "CreatedDate": "2000-03-08T02:49:51.5206868+01:00",
+  "SelectionId": 253,
+  "SoundEx": "maxime",
+  "Source": 358,
+  "TextId": 752,
+  "UpdatedDate": "2021-01-16T02:49:51.5206868+01:00",
+  "UpdatedCount": 914,
+  "Visibility": 913,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 904,
-  "TargetTableName": "Hand-Sporer",
+  "CompanyUnique": false,
+  "TargetTableNumber": 493,
+  "TargetTableName": "Hickle LLC",
   "Completed": false,
-  "LeftSelectionId": 60,
-  "RightSelectionId": 826,
+  "LeftSelectionId": 42,
+  "RightSelectionId": 651,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kihn Group",
-  "ShadowProviderName": "Rolfson, Bartoletti and Gibson",
-  "ChartKey": "nihil",
-  "LastLoaded": "2010-10-29T11:10:53.4981817+02:00",
-  "LastLoadedBy": 88,
+  "MainProviderName": "Nikolaus LLC",
+  "ShadowProviderName": "Rice-Walker",
+  "ChartKey": "vel",
+  "LastLoaded": "2020-04-14T02:49:51.5206868+02:00",
+  "LastLoadedBy": 990,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-11-28T11:10:53.4981817+01:00",
-  "LastMembershipChangeBy": 127,
+  "LastMembershipChange": "2015-05-21T02:49:51.5206868+02:00",
+  "LastMembershipChangeBy": 601,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "beatae",
-  "MemberTabHeading": "blanditiis",
-  "MailingsProviderName": "Dibbert, Wiza and Kub",
-  "DashboardTileDefinitionId": 260,
+  "MainHeading": "qui",
+  "MemberTabHeading": "sint",
+  "MailingsProviderName": "Thiel, Bradtke and Pfeffer",
+  "DashboardTileDefinitionId": 942,
   "VisibleFor": [
     {
-      "VisibleId": 666,
+      "VisibleId": 654,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 726
+          "FieldLength": 259
         }
       }
     },
     {
-      "VisibleId": 666,
+      "VisibleId": 654,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 726
+          "FieldLength": 259
         }
       }
     }
@@ -189,7 +197,7 @@ Last-Modified: Tue, 25 Apr 2000 11:10:53 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 228
     }
   },
   "_Links": {

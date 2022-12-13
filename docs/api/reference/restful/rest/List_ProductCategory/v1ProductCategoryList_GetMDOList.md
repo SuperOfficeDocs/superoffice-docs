@@ -11,6 +11,12 @@ GET /api/v1/List/ProductCategory/MDOItems
 
 Get the MDO list items for "ProductCategory" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=ea
+GET /api/v1/List/ProductCategory/MDOItems?flat=False
+GET /api/v1/List/ProductCategory/MDOItems?query=natus
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/ProductCategory/MDOItems?query=ea
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 948,
-    "Name": "Kohler-Runolfsdottir",
-    "ToolTip": "Quidem assumenda nostrum accusantium ducimus qui autem.",
-    "Deleted": false,
-    "Rank": 392,
-    "Type": "architecto",
+    "Id": 934,
+    "Name": "Bahringer Group",
+    "ToolTip": "Sed sit quis nostrum.",
+    "Deleted": true,
+    "Rank": 953,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 480,
-        "Name": "Hansen Group",
-        "ToolTip": "Voluptatum et ducimus accusantium facere.",
-        "Deleted": true,
-        "Rank": 656,
-        "Type": "aut",
+        "Id": 282,
+        "Name": "Renner, Padberg and Doyle",
+        "ToolTip": "Ut minima porro vel qui.",
+        "Deleted": false,
+        "Rank": 463,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 869,
-        "ExtraInfo": "tempore",
-        "StyleHint": "voluptatum",
-        "FullName": "Jaeden Trantow",
+        "IconHint": "et",
+        "ColorBlock": 421,
+        "ExtraInfo": "provident",
+        "StyleHint": "et",
+        "FullName": "Annabell Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 805
+            "FieldLength": 686
           }
         }
       }
     ],
-    "IconHint": "praesentium",
-    "ColorBlock": 332,
-    "ExtraInfo": "corporis",
-    "StyleHint": "enim",
-    "FullName": "Filiberto Kovacek",
+    "IconHint": "odit",
+    "ColorBlock": 688,
+    "ExtraInfo": "illum",
+    "StyleHint": "laborum",
+    "FullName": "Dr. Corene Windler II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldType": "System.String",
+        "FieldLength": 719
       }
     }
   }

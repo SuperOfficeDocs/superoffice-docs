@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/AddChatMessage
 
 Add a new message to a chat session
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a new message to a chat session
 ```http
 POST /api/v1/Agents/Chat/AddChatMessage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Chat/AddChatMessage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatSessionId, Message
+ChatSessionId, Message 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 |  |
 | Message |  | A message in a chat session <para /> Carrier object for ChatMessage. Services for the ChatMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +84,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 9,
+  "ChatSessionId": 181,
   "Message": null
 }
 ```
@@ -88,14 +96,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 137,
-  "ChatSessionId": 907,
+  "ChatMessageId": 917,
+  "ChatSessionId": 5,
   "Type": "Invalid",
-  "Message": "rerum",
-  "Author": "quasi",
-  "ReadByCustomer": 595,
+  "Message": "dolorum",
+  "Author": "id",
+  "ReadByCustomer": 768,
   "SpecialType": "Block",
-  "SpecialParam": "cumque",
-  "WhenPosted": "2006-05-19T11:10:26.1625251+02:00"
+  "SpecialParam": "quasi",
+  "WhenPosted": "2003-05-27T02:49:43.8254085+02:00"
 }
 ```

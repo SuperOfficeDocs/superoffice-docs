@@ -11,7 +11,14 @@ POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 
 Set default values into a new BlobEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +68,7 @@ Response body:
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,25 +78,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 210,
-  "BlobSize": 569,
-  "Description": "User-friendly grid-enabled flexibility",
-  "ExtraInfo": "qui",
+  "BlobId": 416,
+  "BlobSize": 497,
+  "Description": "Stand-alone 6th generation attitude",
+  "ExtraInfo": "tempore",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ad",
-  "OriginalSize": 361,
-  "CreatedDate": "2007-08-27T11:10:26.0235527+02:00",
-  "UpdatedDate": "2001-05-03T11:10:26.0235527+02:00",
+  "MimeType": "qui",
+  "OriginalSize": 803,
+  "CreatedDate": "2005-03-18T02:49:43.7004017+01:00",
+  "UpdatedDate": "2017-02-10T02:49:43.7004017+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ad",
+  "ConceptualType": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 371
+      "FieldType": "System.Int32",
+      "FieldLength": 710
     }
   }
 }

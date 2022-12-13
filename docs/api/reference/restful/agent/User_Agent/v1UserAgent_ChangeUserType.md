@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/ChangeUserType
 
 Get a user from the user name.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get a user from the user name.
 ```http
 POST /api/v1/Agents/User/ChangeUserType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,17 @@ POST /api/v1/Agents/User/ChangeUserType?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-User, UserType
+User, UserType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | User |  | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 | UserType | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,7 +102,7 @@ Response body:
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,14 +118,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 62,
-  "Name": "Murphy, Beier and Leuschke",
-  "Rank": 631,
-  "Tooltip": "rem",
+  "AssociateId": 492,
+  "Name": "Dickinson Group",
+  "Rank": 715,
+  "Tooltip": "odio",
   "LicenseOwners": [
     {
-      "Name": "Daugherty-Predovic",
-      "Description": "Enhanced multi-tasking project",
+      "Name": "Kilback, Senger and Witting",
+      "Description": "Business-focused systemic standardization",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -129,13 +139,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 571
+          "FieldLength": 414
         }
       }
     },
     {
-      "Name": "Daugherty-Predovic",
-      "Description": "Enhanced multi-tasking project",
+      "Name": "Kilback, Senger and Witting",
+      "Description": "Business-focused systemic standardization",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,7 +159,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 571
+          "FieldLength": 414
         }
       }
     }
@@ -158,110 +168,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quis",
-      "Tooltip": "nisi",
-      "Id": 324,
-      "Rank": 154,
+      "Value": "aliquid",
+      "Tooltip": "molestiae",
+      "Id": 781,
+      "Rank": 930,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 627
+          "FieldLength": 666
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2005-11-11T11:10:28.3362067+01:00",
-  "Lastlogout": "2013-09-04T11:10:28.3362067+02:00",
-  "EjUserId": 132,
-  "RequestSignature": "velit",
+  "Lastlogin": "2006-06-11T02:49:45.6090971+02:00",
+  "Lastlogout": "2017-02-24T02:49:45.6090971+01:00",
+  "EjUserId": 530,
+  "RequestSignature": "eum",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "accusantium",
-      "DisplayValue": "aut",
+      "Value": "doloribus",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 566
         }
       }
     },
     {
       "Type": null,
-      "Value": "accusantium",
-      "DisplayValue": "aut",
+      "Value": "doloribus",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 566
         }
       }
     }
   ],
-  "UserName": "Emmerich-Nikolaus",
+  "UserName": "Parisian, Schmitt and King",
   "TicketCategories": [
     {
-      "Id": 342,
-      "Name": "Abbott, Rice and Romaguera",
-      "ToolTip": "Tenetur est porro fugit vel harum qui consectetur.",
-      "Deleted": true,
-      "Rank": 421,
-      "Type": "et",
+      "Id": 569,
+      "Name": "Lesch-Stark",
+      "ToolTip": "Ex totam.",
+      "Deleted": false,
+      "Rank": 925,
+      "Type": "sit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "mollitia",
-      "ColorBlock": 962,
-      "ExtraInfo": "qui",
-      "StyleHint": "possimus",
-      "FullName": "Mekhi Murazik MD",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 861
-        }
-      }
-    }
-  ],
-  "NickName": "Crona, Dach and Eichmann",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "architecto"
-  },
-  "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "minima"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Zieme, Mueller and Bahringer",
-      "DisplayName": "Marvin, Greenholt and Walter",
-      "Description": "Focused human-resource process improvement",
-      "ToolTip": "Sit error nesciunt maxime.",
-      "Actions": "Implicit",
-      "ActionData": "et",
+      "IconHint": "qui",
+      "ColorBlock": 558,
+      "ExtraInfo": "eveniet",
+      "StyleHint": "soluta",
+      "FullName": "Miss Alexane Katheryn Raynor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldLength": 134
+        }
+      }
+    }
+  ],
+  "NickName": "Morar-Braun",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "autem",
+    "ExtraFields2": "ducimus"
+  },
+  "CustomFields": {
+    "CustomFields1": "blanditiis",
+    "CustomFields2": "aut"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Orn LLC",
+      "DisplayName": "Hessel-Trantow",
+      "Description": "Quality-focused dedicated pricing structure",
+      "ToolTip": "Cumque accusantium rerum quibusdam et aut.",
+      "Actions": "Implicit",
+      "ActionData": "distinctio",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 82
         }
       }
     }
@@ -271,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldLength": 404
     }
   }
 }

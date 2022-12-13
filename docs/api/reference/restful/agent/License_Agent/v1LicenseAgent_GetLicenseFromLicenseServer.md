@@ -9,6 +9,14 @@ uid: v1LicenseAgent_GetLicenseFromLicenseServer
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 ```http
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,15 +42,16 @@ POST /api/v1/Agents/License/GetLicenseFromLicenseServer?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerName
+OwnerName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerName | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -49,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,11 +76,11 @@ Response body:
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Schuppe, Nolan and Upton"
+  "OwnerName": "Wuckert, Cassin and Goyette"
 }
 ```
 
@@ -89,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 988,
-      "NumberOfLicensesFree": 252,
-      "NumberOfLicensesAdded": 64,
-      "NumberOfLicensesNewTotal": 377,
-      "NumberOfLicensesNewFree": 144,
-      "NumberOfLicensesTotal": 499
+      "NumberOfLicensesInUse": 68,
+      "NumberOfLicensesFree": 962,
+      "NumberOfLicensesAdded": 57,
+      "NumberOfLicensesNewTotal": 981,
+      "NumberOfLicensesNewFree": 612,
+      "NumberOfLicensesTotal": 956
     }
   ],
-  "AccumulatedNextCheckDate": "2004-07-06T11:10:27.1044249+02:00"
+  "AccumulatedNextCheckDate": "1997-11-30T02:49:44.576671+01:00"
 }
 ```

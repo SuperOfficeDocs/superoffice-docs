@@ -11,6 +11,12 @@ POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 
 Gets a ReportLabelLayoutEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=507
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=519
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +77,7 @@ Response body:
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,24 +87,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 615,
-  "Name": "Durgan, Mosciski and Raynor",
-  "Description": "Networked multi-state algorithm",
+  "ReportLabelLayoutId": 946,
+  "Name": "Moen, Wisoky and Medhurst",
+  "Description": "Cloned context-sensitive neural-net",
   "Orientation": "Landscape",
-  "PaperWidth": 721,
-  "PaperHeight": 941,
-  "LeftMargin": 253,
-  "RightMargin": 593,
-  "TopMargin": 475,
-  "BottomMargin": 966,
-  "CountColumns": 20,
-  "CountRows": 513,
+  "PaperWidth": 918,
+  "PaperHeight": 252,
+  "LeftMargin": 6,
+  "RightMargin": 688,
+  "TopMargin": 165,
+  "BottomMargin": 898,
+  "CountColumns": 241,
+  "CountRows": 237,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 584
     }
   }
 }

@@ -11,9 +11,17 @@ POST /api/v1/Agents/User/CreateDefaultUser
 
 Set default values into a new User.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +83,7 @@ Response body:
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 245,
-  "Name": "Ankunding, Bartoletti and Greenholt",
-  "Rank": 901,
-  "Tooltip": "est",
+  "AssociateId": 203,
+  "Name": "Trantow-Predovic",
+  "Rank": 82,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Hagenes Group",
-      "Description": "Optional interactive customer loyalty",
+      "Name": "McLaughlin LLC",
+      "Description": "De-engineered needs-based solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -105,13 +114,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldLength": 862
         }
       }
     },
     {
-      "Name": "Hagenes Group",
-      "Description": "Optional interactive customer loyalty",
+      "Name": "McLaughlin LLC",
+      "Description": "De-engineered needs-based solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -125,7 +134,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldLength": 862
         }
       }
     }
@@ -134,110 +143,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "provident",
-      "Tooltip": "nam",
-      "Id": 380,
-      "Rank": 321,
-      "Deleted": false,
+      "Value": "expedita",
+      "Tooltip": "expedita",
+      "Id": 528,
+      "Rank": 381,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 488
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2022-02-24T11:10:28.3652069+01:00",
-  "Lastlogout": "2008-06-29T11:10:28.3652069+02:00",
-  "EjUserId": 804,
-  "RequestSignature": "alias",
+  "Lastlogin": "2005-04-14T02:49:45.6247201+02:00",
+  "Lastlogout": "2013-07-08T02:49:45.6247201+02:00",
+  "EjUserId": 947,
+  "RequestSignature": "atque",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "provident",
-      "DisplayValue": "dolorem",
+      "Value": "voluptas",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldType": "System.String",
+          "FieldLength": 642
         }
       }
     },
     {
       "Type": null,
-      "Value": "provident",
-      "DisplayValue": "dolorem",
+      "Value": "voluptas",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldType": "System.String",
+          "FieldLength": 642
         }
       }
     }
   ],
-  "UserName": "Borer Inc and Sons",
+  "UserName": "Tremblay, Kub and Lemke",
   "TicketCategories": [
     {
-      "Id": 491,
-      "Name": "Cruickshank, Huels and Cassin",
-      "ToolTip": "Totam repudiandae.",
-      "Deleted": true,
-      "Rank": 666,
-      "Type": "quod",
+      "Id": 479,
+      "Name": "Hessel-Yundt",
+      "ToolTip": "Voluptas totam natus consequuntur qui dolores ea.",
+      "Deleted": false,
+      "Rank": 19,
+      "Type": "pariatur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "expedita",
-      "ColorBlock": 648,
-      "ExtraInfo": "nisi",
-      "StyleHint": "a",
-      "FullName": "Hilda Terry",
+      "IconHint": "ut",
+      "ColorBlock": 99,
+      "ExtraInfo": "eaque",
+      "StyleHint": "nesciunt",
+      "FullName": "Vern Leannon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 933
+          "FieldLength": 431
         }
       }
     }
   ],
-  "NickName": "Bogan Group",
+  "NickName": "Boyle Inc and Sons",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "quisquam",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatibus",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "temporibus",
+    "CustomFields2": "aut"
   },
   "PostSaveCommands": [
     {
-      "Name": "Strosin, Spinka and Mertz",
-      "DisplayName": "Carroll, Runte and Keeling",
-      "Description": "Phased bandwidth-monitored neural-net",
-      "ToolTip": "Ullam sunt eum.",
+      "Name": "Ebert Inc and Sons",
+      "DisplayName": "Kerluke-Gulgowski",
+      "Description": "Cross-platform local pricing structure",
+      "ToolTip": "Libero sint eos possimus voluptas ducimus odio.",
       "Actions": "Implicit",
-      "ActionData": "quia",
+      "ActionData": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 694
         }
       }
     }
@@ -247,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldLength": 764
     }
   }
 }

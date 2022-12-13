@@ -38,7 +38,7 @@ Clicking the element profile button ![icon][img3] in the search results list tak
     > [!TIP]
     > It is also displayed under **Sample table** below.
 
-9. If you want to move the column farther to the left of the table view, click the up arrow ![icon][img7] to the right of the relevant entry under **Columns**, until it is correctly positioned.
+9. To move the column farther to the left of the table view, click the up arrow ![icon][img7] to the right of the relevant entry under **Columns**, until it is correctly positioned.
 
 10. Click **OK**. The column is added.
 
@@ -54,7 +54,7 @@ You can also add functions, for example, a summary column in the search results 
 6. In the next list box, select **Column 3**, corresponding to the **Created** column.
 7. In the next list box, select **Column 4**, corresponding to the **Read by request handler** column.
 8. Click **Add column** The new column containing the **Time difference** function is added at the bottom of the column list.
-9. If you want to move the column farther to the left of the table view, click the up arrow ![icon][img9] to the right of the relevant entry under **Columns**, until it is correctly positioned.
+9. To move the column farther to the left of the table view, click the up arrow ![icon][img8] to the right of the relevant entry under **Columns**, until it is correctly positioned.
 10. Click **OK**. The column containing the function is added.
 
 > [!TIP]
@@ -62,11 +62,11 @@ You can also add functions, for example, a summary column in the search results 
 
 ## Change the order of columns
 
-Use the arrow buttons ![icon][img9] and ![icon][img10] to the right of the columns to move the various columns where you want.
+Use the arrow buttons ![icon][img8] and ![icon][img9] to the right of the columns to move the various columns where you want.
 
 ## Edit columns
 
-You can edit the information about the existing columns, e.g. the name and column widths. Proceed as follows:
+You can edit the information such as name and width about the existing columns.
 
 1. Open the **Edit element profile** screen as described above.
 2. To the right of the required column, click the pencil icon ![icon][img2]. The fields under the column overview show information specified for the selected column.
@@ -87,6 +87,5 @@ Click the delete icon ![icon][img1] to the right of the required column. The col
 [img3]: ../../../../common/icons/settingstools.png
 [img6]: ../../../../common/icons/dropdown-arrow.png
 [img7]: ../../../media/icons/arrow-up.png
-[img8]: ../../../media/icons/service/btn-RankUp.png
-[img9]: ../../../media/icons/service/btn-RankUp.png
-[img10]: ../../../media/icons/service/btn-RankDown.png
+[img8]: ../../../media/icons/service/btn-rankup.png
+[img9]: ../../../media/icons/service/btn-rankdown.png

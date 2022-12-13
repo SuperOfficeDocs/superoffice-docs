@@ -13,17 +13,17 @@ language: en
 
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
-This is how to proceed when importing actors (customers, suppliers and individuals) from an ERP system into the SuperOffice database:
+Follow the steps below to import actors (customers, suppliers and individuals) from an ERP system into the SuperOffice database.
 
 ## Select actors to be imported from the ERP system
 
 > [!NOTE]
-> If the **ERP Sync** icon ( ![icon][img1] ) is inactive, you must turn off synchronisation in **Quote/Sync** > **Sync** tab.
+> If the **ERP Sync** icon ( ![icon][img1] ) is inactive, you must turn off synchronization in **Quote/Sync** > **Sync** tab.
 
 1. [!include[Open Import](includes/open-import.md)]
 2. [!include[Select source](includes/select-source.md)]
 3. In the **ERP connection** list, [select the connection][2] you want to import from.
-4. In the **Actor type** list, select what you want to import. These might, for example, be customers, suppliers or individuals.
+4. In the **Actor type** list, select what you want to import. For example, customers, suppliers or individuals.
 5. Click **OK**. The **Search ERP** dialog appears.
 6. Search for the actors you want to import, such as all suppliers in a specific town. [!include[See search criteria](../includes/see-search-admin.md)]
 7. In the list of search results, select the rows you want to import.
@@ -40,19 +40,19 @@ This is how to proceed when importing actors (customers, suppliers and individua
 
 1. Remove the checks on the rows you do NOT want to import.
 
-1. Once you have verified that these are really the data you want to import, click **Import**
+1. After verifying that these are really the data you want to import, click **Import**
 
 ## Complete the import
 
-Once the import has finished, two lists are displayed:
+When the import finishes, two lists are displayed:
 
-* New actors that have been imported.
-* Existing actors that have been updated by the import.
+* New actors that were imported.
+* Existing actors that were updated by the import.
 
 Above each list is a link to the selection containing the new/updated actors.
 
 > [!TIP]
-> If you have imported new actors, but want to delete them from SuperOffice, you can do this by using the selection.
+> If you want to delete imported actors from SuperOffice, use the selection.
 
 <!-- Referenced links -->
 [2]: ../sale/quote/quote-sync/sync/index.md

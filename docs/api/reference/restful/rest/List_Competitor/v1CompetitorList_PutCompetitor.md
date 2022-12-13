@@ -11,9 +11,16 @@ PUT /api/v1/List/Competitor/Items/{id}
 
 Updates an existing Competitor list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of Competitor to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing Competitor list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of Competitor list item to be saved.
+The details of Competitor list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The details of Competitor list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,16 +78,16 @@ Response body:
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 873,
-  "Name": "Hettinger-Pacocha",
-  "Tooltip": "ducimus",
+  "Id": 204,
+  "Name": "Yost-Haag",
+  "Tooltip": "quod",
   "Deleted": false,
-  "UdListDefinitionId": 569,
-  "Rank": 183
+  "UdListDefinitionId": 283,
+  "Rank": 732
 }
 ```
 
@@ -90,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 879,
-  "Name": "Fritsch, Berge and Nitzsche",
-  "Tooltip": "laboriosam",
+  "Id": 186,
+  "Name": "Farrell-Hilll",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 100,
-  "Rank": 91,
+  "UdListDefinitionId": 351,
+  "Rank": 98,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldType": "System.String",
+      "FieldLength": 772
     }
   }
 }

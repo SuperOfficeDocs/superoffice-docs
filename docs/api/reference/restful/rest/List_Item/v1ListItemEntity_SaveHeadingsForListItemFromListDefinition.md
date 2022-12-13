@@ -11,10 +11,17 @@ PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 
 Saves the active headings for the list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list definition, indicating which list to delete the items from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
 | listItemId | int32 | The identity of the list item to delete **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Saves the active headings for the list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: headings
+## Request Body: headings  
 
-The headings to save.
+The headings to save. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,6 +58,7 @@ The headings to save.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -88,47 +96,47 @@ Response body: array
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Leuschke, Murphy and Crist",
-    "ToolTip": "Enim saepe accusantium.",
-    "Deleted": true,
-    "Rank": 138,
-    "Type": "corporis",
-    "ColorBlock": 565,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2018-05-07T11:10:53.8972124+02:00",
+    "Id": 786,
+    "Name": "Cormier-Denesik",
+    "ToolTip": "Similique maxime.",
+    "Deleted": false,
+    "Rank": 245,
+    "Type": "vel",
+    "ColorBlock": 818,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2015-07-17T02:49:51.8753193+02:00",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Schumm LLC",
-        "ToolTip": "Animi optio aut quo sit delectus et quae.",
+        "Id": 538,
+        "Name": "Fahey LLC",
+        "ToolTip": "Dolore voluptate eius ab aut.",
         "Deleted": false,
-        "Rank": 219,
-        "Type": "velit",
-        "ColorBlock": 970,
-        "IconHint": "aliquam",
+        "Rank": 801,
+        "Type": "quidem",
+        "ColorBlock": 701,
+        "IconHint": "esse",
         "Selected": false,
-        "LastChanged": "1997-02-27T11:10:53.8972124+01:00",
+        "LastChanged": "2019-03-13T02:49:51.8753193+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "eos",
+        "StyleHint": "repudiandae",
         "Hidden": false,
-        "FullName": "Holly Wilderman"
+        "FullName": "Israel Collins"
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Ms. Tomas Swaniawski V"
+    "ExtraInfo": "molestias",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Ms. Adrienne Ricardo Brakus"
   }
 ]
 ```
@@ -141,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 523,
-    "Name": "Kozey-Morissette",
-    "ToolTip": "Id in tenetur totam recusandae dolore fuga.",
+    "Id": 36,
+    "Name": "Bernier Group",
+    "ToolTip": "Eos facilis.",
     "Deleted": false,
-    "Rank": 444,
-    "Type": "nam",
-    "ColorBlock": 536,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "2010-08-30T11:10:53.898213+02:00",
+    "Rank": 28,
+    "Type": "quas",
+    "ColorBlock": 509,
+    "IconHint": "deserunt",
+    "Selected": true,
+    "LastChanged": "2019-03-15T02:49:51.8753193+01:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "Hane, McLaughlin and Schneider",
-        "ToolTip": "Asperiores earum qui omnis quod.",
+        "Id": 738,
+        "Name": "Homenick, Gutkowski and Jakubowski",
+        "ToolTip": "Dolores et et sunt.",
         "Deleted": false,
-        "Rank": 328,
-        "Type": "expedita",
-        "ColorBlock": 697,
-        "IconHint": "maxime",
+        "Rank": 713,
+        "Type": "eum",
+        "ColorBlock": 503,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2002-06-18T11:10:53.898213+02:00",
+        "LastChanged": "2001-06-06T02:49:51.8753193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "consequuntur",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Prof. Edythe Jaiden Abbott",
+        "FullName": "Norbert Spinka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 743
+            "FieldLength": 380
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "labore",
-    "Hidden": false,
-    "FullName": "Drew Eichmann III",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "vitae",
+    "Hidden": true,
+    "FullName": "Miss Velda VonRueden PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 927
+        "FieldType": "System.Int32",
+        "FieldLength": 818
       }
     }
   }

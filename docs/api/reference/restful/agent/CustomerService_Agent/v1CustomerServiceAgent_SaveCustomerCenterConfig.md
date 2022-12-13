@@ -11,6 +11,13 @@ POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
 
 Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The CustomerCenterConfig to be saved.
+The CustomerCenterConfig to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,8 @@ The CustomerCenterConfig to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -48,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,14 +81,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 571,
+  "CustConfigId": 696,
   "Type": "Options",
-  "Config": "nihil",
-  "CustLangId": 790,
-  "Registered": "2017-03-10T11:10:26.3934239+01:00",
-  "RegisteredAssociateId": 923,
-  "Updated": "1995-05-31T11:10:26.3934239+02:00",
-  "UpdatedAssociateId": 224
+  "Config": "ipsa",
+  "CustLangId": 372,
+  "Registered": "2007-06-15T02:49:44.0285283+02:00",
+  "RegisteredAssociateId": 634,
+  "Updated": "2002-05-17T02:49:44.0285283+02:00",
+  "UpdatedAssociateId": 567
 }
 ```
 
@@ -91,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 43,
+  "CustConfigId": 446,
   "Type": "Options",
-  "Config": "cum",
-  "CustLangId": 664,
-  "Registered": "2001-02-18T11:10:26.3934239+01:00",
-  "RegisteredAssociateId": 31,
-  "Updated": "2017-07-03T11:10:26.3934239+02:00",
-  "UpdatedAssociateId": 112,
+  "Config": "adipisci",
+  "CustLangId": 730,
+  "Registered": "2016-02-26T02:49:44.0285283+01:00",
+  "RegisteredAssociateId": 462,
+  "Updated": "2019-08-13T02:49:44.0285283+02:00",
+  "UpdatedAssociateId": 27,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldType": "System.Int32",
+      "FieldLength": 457
     }
   }
 }

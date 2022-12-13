@@ -11,7 +11,13 @@ GET /api/v1/List/Currency/Items
 
 Gets a list of all CurrencyEntity list items.
 
+
 Calls the List agent service GetAllCurrencyEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the List agent service GetAllCurrencyEntity.
 ```http
 GET /api/v1/List/Currency/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/Currency/Items?includeDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -64,7 +72,7 @@ Response body: array
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 171,
-    "Name": "Hansen, Hauck and Sanford",
-    "Tooltip": "rerum",
-    "Rank": 81,
-    "Rate": 21019.737999999998,
-    "Units": 7615.62,
+    "CurrencyId": 347,
+    "Name": "Howe-Fritsch",
+    "Tooltip": "aut",
+    "Rank": 688,
+    "Rate": 29860.752,
+    "Units": 14961.716,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldType": "System.String",
+        "FieldLength": 165
       }
     }
   }

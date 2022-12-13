@@ -11,12 +11,12 @@ language: en
 
 # Add items to the GUI - Application list
 
-When you add an item to the **GUI - Application** list in Settings and maintenance, the **Edit list item** dialog is not the same as described under [Add items][1].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the items are applications or similar:
 
 > [!NOTE]
-> Files or applications that have to be run locally (e.g. .exe files) are not accessible in SuperOffice CRM for Web.
+> Files or applications that must be run locally (for example, *.exe* files) are not accessible in SuperOffice CRM for Web.
 
 1. Enter the required name of the item in the **Name** field. This name is displayed at the place where you add the application in SuperOffice CRM (see step 7 concerning the **Show** list box).
 
@@ -27,22 +27,22 @@ When you add an item to the **GUI - Application** list in Settings and maintenan
 
     * **Button**: the application icon is displayed in the Navigator in SuperOffice CRM. Users can then open the application directly by clicking the icon in the Navigator.
     * **Menu item**: the user can access the application by clicking the **Tools** button ( ![icon][img2] ) in the Navigator and/or by selecting **Other applications** on the main menu (![icon][img1]) in SuperOffice CRM.
-    * **Event**: the application is run when SuperOffice CRM opens or closes or on a local update (Travel). See step 8. You could, for example, run a synchronisation program for a PDA when SuperOffice CRM closes.
+    * **Event**: the application is run when SuperOffice CRM opens or closes or on a local update (Travel). See step 8. You could, for example, run a synchronization program for a PDA when SuperOffice CRM closes.
     * **Task**: select an option in this list box to make the application accessible from the **Task** tab in the **Selection** screen or the **Task** buttons in various locations in SuperOffice CRM.
 
         <details><summary>Click here to find out more about the different options.</summary>
 
-        The names in parenthesis indicate in which section tab the application is available.
+        The names in parenthesis indicate the section tab where the application is available.
 
         Examples:
 
-        * **Sale selection (Sale)**: Once you have opened a sale selection in the **Selection** screen and the **Sales** section tab is enabled, the application is displayed as a task in the **Task** tab.
-        * **Sale selection (Companies)**: Once you have opened a sale selection in the **Selection** screen and the **Companies** section tab is enabled, the application is displayed as a task in the **Task** tab.
-        * **Sale selection (external)**: If your SuperOffice CRM installation is linked to a third-party application, other section tabs may be displayed for the different selections. You can then select, for example, **Sale selection (external)** to display the application as a task in the **Task** tab when you have opened a sale selection in the **Selection** screen and the third-party application section tab is active.
+        * **Sale selection (Sale)**: Once you open a sale selection in the **Selection** screen and the **Sales** section tab is enabled, the application is displayed as a task in the **Task** tab.
+        * **Sale selection (Companies)**: Once you open a sale selection in the **Selection** screen and the **Companies** section tab is enabled, the application is displayed as a task in the **Task** tab.
+        * **Sale selection (external)**: If your SuperOffice CRM installation is linked to a third-party application, other section tabs may be displayed for the different selections. You can then select, for example, **Sale selection (external)** to display the application as a task in the **Task** tab when you open a sale selection in the **Selection** screen and the third-party application section tab is active.
 
         Other options:
 
-        * **Toolbar**: the application is displayed as an option on the toolbar. The users need to configure the toolbar in SuperOffice CRM and choose to display the application.
+        * **Toolbar**: the application is displayed as an option on the toolbar. The users must configure the toolbar in SuperOffice CRM and choose to display the application.
 
         * **Dialog for follow-ups**: the application is displayed as an option under the **Task** button in the dialog for follow-ups.
 
@@ -53,7 +53,7 @@ When you add an item to the **GUI - Application** list in Settings and maintenan
     > [!NOTE]
     > Options you choose under **Add as** determine which options are available in the rest of the dialog.
 
-1. Under **Available on**, choose where the application will be available. You can select several of these options simultaneously.
+1. Under **Available on**, choose where the application is available. You can select several of these options simultaneously.
 
     * **Central database**: When you are working on the central database.
     * **Satellite**: When you are working on a satellite.
@@ -65,22 +65,22 @@ When you add an item to the **GUI - Application** list in Settings and maintenan
 
 1. In the **Work folder** field, you can specify which folder you want to be the current one when the program runs. Type in the path manually. You normally leave this field empty.
 
-1. In the **Show** list box, select the required option. This list box only appears if you have selected **Menu item** under **Add as**.
+1. In the **Show** list box, select the required option. This list box appears only if you selected **Menu item** under **Add as**.
 
     * **Toolbox menu**: the user can access the application by clicking the **Tools** button (![icon][img2]) in the Navigator or by selecting **Other applications** on the main menu (![icon][img1]) in SuperOffice CRM.
     * **View menu**: the user can access the application using the **Other Applications** option on the **View** menu in SuperOffice CRM.
 
-1. In the **Run when** list box, choose how the application will be run. This list box only appears if you have selected **Event** under **Add as**.
+1. In the **Run when** list box, choose when to run the application. This list box appears only if you selected **Event** under **Add as**.
 
     * **SuperOffice CRM starts**: the application runs when SuperOffice CRM starts.
     * **SuperOffice CRM exits**: the application runs when SuperOffice CRM is closed down.
     * **Local update**: the application runs when Travel is used.
 
-1. Check **Wait for application to finish** if you want SuperOffice CRM to wait for the external application to quit before closing. If you do not check this box, you can close SuperOffice CRM without closing the external application. This list box only appears if you have selected **Event** under **Add as**.
+1. Check **Wait for application to finish** if you want SuperOffice CRM to wait for the external application to quit before closing. If you do not check this box, you can close SuperOffice CRM without closing the external application. This list box appears only if you selected **Event** under **Add as**.
 
-1. Under **Start-up mode**, specify the type of window the application will start in – Maximised, Minimised or Restored.
+1. Under **Start-up mode**, specify the type of window the application will start in – Maximized, Minimized or Restored.
 
-1. In the **Icon** field, choose the icon to display for the application in the Navigator in SuperOffice CRM (see step 7 concerning the **Show** list box). This list box only appears if you have selected **Button** under **Add as**.
+1. In the **Icon** field, choose the icon to display for the application in the Navigator in SuperOffice CRM (see step 7 concerning the **Show** list box). This list box appears only if you selected **Button** under **Add as**.
 
     * **From library**: Select one of the available icons in the list.
     * **Use program icon**: Use the default icon for the selected application.
@@ -93,7 +93,6 @@ When you add an item to the **GUI - Application** list in Settings and maintenan
 > Users must log in to SuperOffice CRM again to display the application.
 
 <!-- Referenced links -->
-[1]: adding-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

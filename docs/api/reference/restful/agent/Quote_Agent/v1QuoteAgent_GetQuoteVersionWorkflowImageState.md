@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState
 
 Get state icon and name for the Quote version dialog header.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get state icon and name for the Quote version dialog header.
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId
+QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 73
+  "QuoteVersionId": 647
 }
 ```
 
@@ -86,15 +94,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Action": "Approve",
   "ImageHint": "ipsa",
-  "DisplayText": "fugit",
-  "TooltipText": "ratione",
+  "DisplayText": "magnam",
+  "TooltipText": "quis",
   "Enabled": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 582
+      "FieldType": "System.Int32",
+      "FieldLength": 210
     }
   }
 }

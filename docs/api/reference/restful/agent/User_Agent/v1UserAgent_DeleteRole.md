@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/DeleteRole
 
 Delete the specified role and move all users associated with the role to the replacingRoleId
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +31,7 @@ Delete the specified role and move all users associated with the role to the rep
 POST /api/v1/Agents/User/DeleteRole?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,16 +42,17 @@ POST /api/v1/Agents/User/DeleteRole?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RoleIdToDelete, ReplacingRoleId
+RoleIdToDelete, ReplacingRoleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleIdToDelete | int32 |  |
 | ReplacingRoleId | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +60,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -58,12 +69,12 @@ Response body:
 POST /api/v1/Agents/User/DeleteRole
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleIdToDelete": 684,
-  "ReplacingRoleId": 155
+  "RoleIdToDelete": 856,
+  "ReplacingRoleId": 618
 }
 ```
 

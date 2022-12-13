@@ -11,7 +11,14 @@ GET /api/v1/List/ProductType/Headings
 
 Gets headings for the ProductType list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -64,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 421,
-    "Name": "Carroll, Breitenberg and Bednar",
-    "Tooltip": "eveniet",
-    "Deleted": true,
-    "Rank": 98,
-    "UdListDefinitionId": 417,
+    "HeadingId": 512,
+    "Name": "Hermann Inc and Sons",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 254,
+    "UdListDefinitionId": 189,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldType": "System.String",
+        "FieldLength": 614
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Diagnostics/AddWebAppUsage
 
 Adds WebApp usage to existing log
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Adds WebApp usage to existing log
 ```http
 POST /api/v1/Agents/Diagnostics/AddWebAppUsage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,15 +38,16 @@ POST /api/v1/Agents/Diagnostics/AddWebAppUsage?$select=name,department,category/
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-WebAppUsages
+WebAppUsages 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WebAppUsages | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -47,7 +55,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -61,13 +70,13 @@ Content-Type: application/json; charset=utf-8
 {
   "WebAppUsages": [
     {
-      "WebAppUsageId": 345,
-      "AssocId": 893,
-      "Timestamp": "2012-10-02T11:10:26.454455+02:00",
-      "ViewState": "et",
-      "AggregateCount": 392,
-      "AggregateBin": 329,
-      "Version": 754
+      "WebAppUsageId": 34,
+      "AssocId": 254,
+      "Timestamp": "2009-05-06T02:49:44.0753838+02:00",
+      "ViewState": "culpa",
+      "AggregateCount": 217,
+      "AggregateBin": 944,
+      "Version": 37
     }
   ]
 }

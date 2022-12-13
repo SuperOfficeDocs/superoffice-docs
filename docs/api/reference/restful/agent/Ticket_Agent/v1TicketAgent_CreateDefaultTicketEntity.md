@@ -11,7 +11,14 @@ POST /api/v1/Agents/Ticket/CreateDefaultTicketEntity
 
 Set default values into a new TicketEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,6 +52,7 @@ Response body:
 | LastChanged | date-time | The last time the ticket was modified. |
 | ReadByOwner | date-time | The datetime for when the ticket last was read by the owner. |
 | ReadByCustomer | date-time | The datetime for when the ticket was read by the customer. |
+| FirstReadByOwner | date-time | The datetime for when the ticket first was read by the current owner. |
 | FirstReadByUser | date-time | The datetime for when the ticket first was read by a user. |
 | Activate | date-time | When the ticket should be activated, if it is postponed. |
 | ClosedAt | date-time | When the ticket was closed. |
@@ -108,20 +117,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 109,
-  "Title": "fuga",
-  "CreatedAt": "2013-10-11T11:10:28.1966931+02:00",
-  "LastChanged": "2012-01-11T11:10:28.1966931+01:00",
-  "ReadByOwner": "2011-05-09T11:10:28.1966931+02:00",
-  "ReadByCustomer": "2011-05-28T11:10:28.1966931+02:00",
-  "FirstReadByUser": "2018-07-29T11:10:28.1966931+02:00",
-  "Activate": "2008-09-07T11:10:28.1966931+02:00",
-  "ClosedAt": "1995-07-12T11:10:28.1966931+02:00",
-  "RepliedAt": "2003-06-20T11:10:28.1966931+02:00",
-  "AlertTimeout": "2003-01-08T11:10:28.1966931+01:00",
-  "Deadline": "2017-12-14T11:10:28.1966931+01:00",
+  "TicketId": 618,
+  "Title": "delectus",
+  "CreatedAt": "2020-09-29T02:49:45.4528435+02:00",
+  "LastChanged": "2021-12-15T02:49:45.4528435+01:00",
+  "ReadByOwner": "2012-10-20T02:49:45.4528435+02:00",
+  "ReadByCustomer": "2014-04-25T02:49:45.4528435+02:00",
+  "FirstReadByOwner": "2000-07-29T02:49:45.4528435+02:00",
+  "FirstReadByUser": "2003-02-09T02:49:45.4528435+01:00",
+  "Activate": "1996-02-15T02:49:45.4528435+01:00",
+  "ClosedAt": "2017-05-18T02:49:45.4528435+02:00",
+  "RepliedAt": "2016-09-24T02:49:45.4528435+02:00",
+  "AlertTimeout": "2016-06-11T02:49:45.4528435+02:00",
+  "Deadline": "2005-01-10T02:49:45.4528435+01:00",
   "CreatedBy": null,
-  "Author": "aliquam",
+  "Author": "atque",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -132,154 +142,155 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "praesentium",
-      "PersonId": 146,
-      "Mrmrs": "perferendis",
-      "Firstname": "Lavern",
-      "Lastname": "Rath",
-      "MiddleName": "Hauck Inc and Sons",
-      "Title": "vel",
-      "Description": "Extended solution-oriented methodology",
-      "Email": "gaston@bailey.us",
-      "FullName": "Mrs. Elijah Jacobi II",
-      "DirectPhone": "(077)022-1351",
-      "FormalName": "Kuhic Inc and Sons",
-      "CountryId": 605,
-      "ContactId": 826,
-      "ContactName": "Upton Inc and Sons",
-      "Retired": 59,
-      "Rank": 480,
-      "ActiveInterests": 283,
+      "Position": "non",
+      "PersonId": 726,
+      "Mrmrs": "in",
+      "Firstname": "Berenice",
+      "Lastname": "Klocko",
+      "MiddleName": "Morissette, Altenwerth and Aufderhar",
+      "Title": "recusandae",
+      "Description": "Reverse-engineered next generation flexibility",
+      "Email": "wyatt@schumm.biz",
+      "FullName": "Mr. Eulah Koss",
+      "DirectPhone": "512.245.0474 x97145",
+      "FormalName": "Jacobs Inc and Sons",
+      "CountryId": 797,
+      "ContactId": 634,
+      "ContactName": "O'Connell, Rolfson and Gaylord",
+      "Retired": 90,
+      "Rank": 357,
+      "ActiveInterests": 466,
       "ContactDepartment": "",
-      "ContactCountryId": 963,
-      "ContactOrgNr": "266065",
-      "FaxPhone": "(827)919-6793",
-      "MobilePhone": "399-427-2347 x025",
-      "ContactPhone": "238.876.9985",
-      "AssociateName": "Hickle-Altenwerth",
-      "AssociateId": 362,
+      "ContactCountryId": 804,
+      "ContactOrgNr": "883947",
+      "FaxPhone": "(984)788-8310 x80249",
+      "MobilePhone": "647-758-8564 x864",
+      "ContactPhone": "594.219.9366 x222",
+      "AssociateName": "Abernathy LLC",
+      "AssociateId": 24,
       "UsePersonAddress": true,
-      "ContactFax": "porro",
-      "Kanafname": "quod",
-      "Kanalname": "dolor",
-      "Post1": "fugiat",
-      "Post2": "veritatis",
-      "Post3": "rerum",
-      "EmailName": "korbin_denesik@gutkowski.us",
-      "ContactFullName": "Dulce Mosciski",
-      "ActiveErpLinks": 185,
-      "TicketPriorityId": 781,
-      "SupportLanguageId": 214,
-      "SupportAssociateId": 317,
+      "ContactFax": "a",
+      "Kanafname": "culpa",
+      "Kanalname": "illo",
+      "Post1": "nihil",
+      "Post2": "blanditiis",
+      "Post3": "minus",
+      "EmailName": "dora_considine@oberbrunner.uk",
+      "ContactFullName": "Tania Baumbach",
+      "ActiveErpLinks": 931,
+      "TicketPriorityId": 341,
+      "SupportLanguageId": 323,
+      "SupportAssociateId": 756,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 535
         }
       }
     }
   ],
-  "AlertLevel": 394,
-  "ConnectId": 116,
+  "AlertLevel": 553,
+  "ConnectId": 4,
   "ReadStatus": "Green",
-  "TimeToReply": 877,
-  "RealTimeToReply": 778,
-  "TimeToClose": 858,
-  "RealTimeToClose": 877,
-  "TimeSpentInternally": 79,
-  "TimeSpentExternally": 529,
-  "TimeSpentQueue": 942,
-  "RealTimeSpentInternally": 225,
-  "RealTimeSpentExternally": 917,
-  "RealTimeSpentQueue": 751,
+  "TimeToReply": 76,
+  "RealTimeToReply": 746,
+  "TimeToClose": 14,
+  "RealTimeToClose": 70,
+  "TimeSpentInternally": 658,
+  "TimeSpentExternally": 912,
+  "TimeSpentQueue": 911,
+  "RealTimeSpentInternally": 754,
+  "RealTimeSpentExternally": 249,
+  "RealTimeSpentQueue": 28,
   "HasAttachment": false,
-  "NumReplies": 145,
-  "NumMessages": 527,
-  "FromAddress": "similique",
+  "NumReplies": 647,
+  "NumMessages": 951,
+  "FromAddress": "autem",
   "Messages": [
     {
-      "TicketMessageId": 244,
-      "CreatedAt": "2006-01-29T11:10:28.2006931+01:00",
+      "TicketMessageId": 404,
+      "CreatedAt": "2013-01-28T02:49:45.4684728+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "in",
-      "PersonId": 19,
-      "PersonFullName": "Miss Emory Aliza Corkery MD",
-      "ContactId": 139,
-      "ContactName": "Weimann, Bailey and Labadie",
-      "ContactDepartment": "morph visionary partnerships",
-      "NumAttachments": 818,
-      "EmailHeader": "william_kirlin@hyatt.name",
+      "Author": "sed",
+      "PersonId": 612,
+      "PersonFullName": "Mrs. Meda Ericka Lueilwitz",
+      "ContactId": 872,
+      "ContactName": "Beier, O'Connell and Morar",
+      "ContactDepartment": "",
+      "NumAttachments": 251,
+      "EmailHeader": "torrance@von.biz",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "architecto",
-      "Sentiment": 981,
-      "SentimentConfidence": 124,
-      "CreatedBy": 785,
+      "Language": "totam",
+      "Sentiment": 522,
+      "SentimentConfidence": 198,
+      "CreatedBy": 225,
+      "ChangedAt": "2008-12-13T02:49:45.4684728+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 899
+          "FieldLength": 235
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 991,
-      "Name": "Kirlin-Blanda",
-      "ToolTip": "Provident sint minima ut est temporibus facilis.",
+      "Id": 707,
+      "Name": "Pagac Group",
+      "ToolTip": "Aut aut.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldType": "System.Int32",
+          "FieldLength": 155
         }
       }
     },
     {
-      "Id": 991,
-      "Name": "Kirlin-Blanda",
-      "ToolTip": "Provident sint minima ut est temporibus facilis.",
+      "Id": 707,
+      "Name": "Pagac Group",
+      "ToolTip": "Aut aut.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldType": "System.Int32",
+          "FieldLength": 155
         }
       }
     }
   ],
-  "Language": "dignissimos",
-  "Sentiment": 915,
-  "SentimentConfidence": 964,
-  "SuggestedCategoryId": 991,
+  "Language": "officia",
+  "Sentiment": 373,
+  "SentimentConfidence": 506,
+  "SuggestedCategoryId": 230,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 597,
-  "IconHint": "quia",
+  "OrigHumanCategoryId": 368,
+  "IconHint": "expedita",
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "cumque"
+    "ExtraFields1": "quod",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "sapiente"
+    "CustomFields1": "quod",
+    "CustomFields2": "quasi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 619
     }
   }
 }

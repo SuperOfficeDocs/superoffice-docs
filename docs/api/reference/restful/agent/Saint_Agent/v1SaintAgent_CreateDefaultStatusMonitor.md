@@ -11,7 +11,14 @@ POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 
 Set default values into a new StatusMonitor.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +70,7 @@ Response body:
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,27 +80,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 632,
-  "Rank": 65,
-  "DefaultTask": 577,
-  "DefaultTaskText": "quia",
-  "IsVisual": false,
-  "LastGenerated": "2014-10-06T11:10:27.7724919+02:00",
-  "Description": "Up-sized bandwidth-monitored info-mediaries",
-  "Name": "Lueilwitz-Bruen",
-  "StatusMonitorId": 205,
-  "PictureId": 468,
-  "NeedsUpdate": true,
-  "Deleted": false,
-  "NumMatches": 237,
-  "NumNeedUpdate": 50,
-  "GenerationStart": "1995-12-18T11:10:27.7724919+01:00",
+  "OwnerTable": 911,
+  "Rank": 889,
+  "DefaultTask": 678,
+  "DefaultTaskText": "est",
+  "IsVisual": true,
+  "LastGenerated": "2007-02-15T02:49:45.0934673+01:00",
+  "Description": "Versatile secondary orchestration",
+  "Name": "Pagac, Hand and Haag",
+  "StatusMonitorId": 797,
+  "PictureId": 391,
+  "NeedsUpdate": false,
+  "Deleted": true,
+  "NumMatches": 821,
+  "NumNeedUpdate": 668,
+  "GenerationStart": "2017-10-18T02:49:45.0934673+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 692
+      "FieldLength": 674
     }
   }
 }

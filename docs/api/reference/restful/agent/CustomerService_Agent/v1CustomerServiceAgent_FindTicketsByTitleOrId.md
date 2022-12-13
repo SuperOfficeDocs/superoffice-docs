@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
 
 This method wil search for tickets matching title or id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method wil search for tickets matching title or id
 ```http
 POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TitleOrId, MaxRows
+TitleOrId, MaxRows 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TitleOrId | string |  |
 | MaxRows | int32 |  |
+
 
 ## Response: array
 
@@ -73,12 +81,12 @@ Response body: array
 POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TitleOrId": "possimus",
-  "MaxRows": 884
+  "TitleOrId": "officia",
+  "MaxRows": 203
 }
 ```
 
@@ -90,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 614,
-    "Title": "odit",
-    "OwnerName": "Thompson, Jacobs and Crona",
+    "TicketId": 474,
+    "Title": "assumenda",
+    "OwnerName": "Fahey, Waters and Raynor",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Kuhlman-Zboncak",
+    "PriorityName": "Stracke, Ernser and Miller",
     "TicketUrl": "http://www.example.com/",
-    "PersonName": "Wiegand, Corwin and Mohr",
-    "ContactName": "Dach-Leuschke",
+    "PersonName": "Hettinger-Gleichner",
+    "ContactName": "Friesen, Shanahan and Stanton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 572
       }
     }
   }

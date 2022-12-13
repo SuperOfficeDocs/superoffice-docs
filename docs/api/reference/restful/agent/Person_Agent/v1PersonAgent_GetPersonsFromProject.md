@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetPersonsFromProject
 
 Returns all the persons belonging to a project.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all the persons belonging to a project.
 ```http
 POST /api/v1/Agents/Person/GetPersonsFromProject?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Person/GetPersonsFromProject?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
+
 
 ## Response: array
 
@@ -104,11 +112,11 @@ Response body: array
 POST /api/v1/Agents/Person/GetPersonsFromProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 56
+  "ProjectId": 508
 }
 ```
 
@@ -120,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "id",
-    "PersonId": 228,
-    "Mrmrs": "et",
-    "Firstname": "Allene",
-    "Lastname": "Kemmer",
-    "MiddleName": "Kertzmann-Kuphal",
-    "Title": "quidem",
-    "Description": "Robust user-facing structure",
-    "Email": "mayra.waelchi@boyerjacobs.ca",
-    "FullName": "Miss Enrico Kelsi Koelpin DDS",
-    "DirectPhone": "911.358.1073",
-    "FormalName": "Gleason-Kling",
-    "CountryId": 832,
-    "ContactId": 493,
-    "ContactName": "Wolf, Littel and Reinger",
-    "Retired": 322,
-    "Rank": 721,
-    "ActiveInterests": 319,
+    "Position": "officia",
+    "PersonId": 270,
+    "Mrmrs": "ut",
+    "Firstname": "Derek",
+    "Lastname": "Oberbrunner",
+    "MiddleName": "Stroman Group",
+    "Title": "eaque",
+    "Description": "Enhanced eco-centric core",
+    "Email": "velva@keelingbins.com",
+    "FullName": "Ms. Cesar Jacobi IV",
+    "DirectPhone": "521.583.1837",
+    "FormalName": "Oberbrunner, Bechtelar and O'Kon",
+    "CountryId": 938,
+    "ContactId": 218,
+    "ContactName": "Murazik, Mohr and Hills",
+    "Retired": 655,
+    "Rank": 171,
+    "ActiveInterests": 226,
     "ContactDepartment": "",
-    "ContactCountryId": 541,
-    "ContactOrgNr": "1190231",
-    "FaxPhone": "1-924-931-2418 x86456",
-    "MobilePhone": "1-012-672-5224 x3470",
-    "ContactPhone": "(360)765-4341 x365",
-    "AssociateName": "Okuneva, Jewess and Spinka",
-    "AssociateId": 138,
+    "ContactCountryId": 360,
+    "ContactOrgNr": "534103",
+    "FaxPhone": "(959)499-9855",
+    "MobilePhone": "(786)446-7581 x76228",
+    "ContactPhone": "782.844.8638",
+    "AssociateName": "Herman, Johnston and Pacocha",
+    "AssociateId": 883,
     "UsePersonAddress": false,
-    "ContactFax": "minima",
-    "Kanafname": "iure",
-    "Kanalname": "soluta",
-    "Post1": "odio",
-    "Post2": "id",
-    "Post3": "ex",
-    "EmailName": "cicero@denesikswift.ca",
-    "ContactFullName": "Ulises Keanu Schimmel PhD",
-    "ActiveErpLinks": 740,
-    "TicketPriorityId": 527,
-    "SupportLanguageId": 210,
-    "SupportAssociateId": 649,
+    "ContactFax": "aut",
+    "Kanafname": "repellendus",
+    "Kanalname": "libero",
+    "Post1": "autem",
+    "Post2": "nemo",
+    "Post3": "voluptatum",
+    "EmailName": "syble@upton.biz",
+    "ContactFullName": "Ms. Mallory Morissette",
+    "ActiveErpLinks": 471,
+    "TicketPriorityId": 886,
+    "SupportLanguageId": 356,
+    "SupportAssociateId": 562,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldLength": 56
       }
     }
   }

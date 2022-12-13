@@ -21,8 +21,6 @@ The **Tracing** tab contains a list of all traces. Click a trace in the list to 
 
 ## Start tracings
 
-To start tracing scripts:
-
 * Go to **CRMScript** > **Debug sessions** and click ![icon][img1] **Start tracing scripts** to start tracing the scripts in the list.
 * Open a script or macro in **Debugger** and click ![icon][img2] **Trace script**.
 * Open a script or macro in the **Macros and scripts** tab and click ![icon][img2] **Trace script**.
@@ -30,14 +28,18 @@ To start tracing scripts:
 ## Edit tracings
 
 1. Click a trace in the **Tracing** list to open it.
+
 2. Click ![icon][img3] **Edit trace**. The **Edit trace** screen displays.
+
 3. Fill in the following fields:
+
     * **Description**: Enter a description of the trace, to make it easier to identify.
-    * **User filter**: If you want to trace the script for a specific user, select the user from the list.
+    * **User filter**: To trace the script for a specific user, select the user from the list.
     * **Trace resolution**: Enter the sampling frequency of the trace log.
         Example: Enter 1 to log every command that is executed by the script. Enter 5 to log every fifth command that is executed by the script.
     * **Keep traces**: Select how long the trace logs should be kept.
     * **Enabled**: Select this option to activate the trace.
+
 4. Click **OK** when you are done.
 
 <!-- Referenced links -->

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetListItemsForUserGroup
 
 List of list items that is visible in the usergroup
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ List of list items that is visible in the usergroup
 ```http
 POST /api/v1/Agents/List/GetListItemsForUserGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/List/GetListItemsForUserGroup?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, GroupId
+UdListDefinitionId, GroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | GroupId | int32 |  |
+
 
 ## Response: array
 
@@ -80,12 +88,12 @@ Response body: array
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 55,
-  "GroupId": 190
+  "UdListDefinitionId": 132,
+  "GroupId": 927
 }
 ```
 
@@ -97,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 309,
-    "Name": "Kohler LLC",
-    "ToolTip": "Eius corrupti consequatur at sed inventore.",
+    "Id": 629,
+    "Name": "Gusikowski Inc and Sons",
+    "ToolTip": "Qui delectus.",
     "Deleted": false,
-    "Rank": 219,
-    "Type": "consectetur",
-    "ColorBlock": 163,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2004-09-20T11:10:27.1704478+02:00",
+    "Rank": 680,
+    "Type": "suscipit",
+    "ColorBlock": 928,
+    "IconHint": "fuga",
+    "Selected": true,
+    "LastChanged": "2020-04-01T02:49:44.6235457+02:00",
     "ChildItems": [
       {
-        "Id": 292,
-        "Name": "Marquardt, Kuphal and Beier",
-        "ToolTip": "Nisi aliquam a fugiat et rerum et animi.",
-        "Deleted": true,
-        "Rank": 772,
-        "Type": "omnis",
-        "ColorBlock": 265,
-        "IconHint": "adipisci",
-        "Selected": false,
-        "LastChanged": "2021-08-18T11:10:27.171423+02:00",
+        "Id": 545,
+        "Name": "Walsh Group",
+        "ToolTip": "Ipsum at et aut asperiores nesciunt dolores aut.",
+        "Deleted": false,
+        "Rank": 724,
+        "Type": "temporibus",
+        "ColorBlock": 502,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2007-10-06T02:49:44.6235457+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "optio",
-        "Hidden": true,
-        "FullName": "Elody Ollie Daugherty V",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Nicholaus Orn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 744
+            "FieldType": "System.String",
+            "FieldLength": 745
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Mr. Eleanora Dietrich Jr.",
+    "FullName": "Mrs. Napoleon Hyatt II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldType": "System.String",
+        "FieldLength": 574
       }
     }
   }

@@ -20,7 +20,7 @@ The main screen in SuperOffice CRM consists of five main elements:
     At the very top of the screen is the Top bar. The [buttons on the menu bar][2] gives fast and easy access to creating new records and activities, and managing personal settings and various system options.
 
 * **The Main card**
-    Towards the top of the screen, just to the right of the Navigator, is the main card. This is a key component of SuperOffice CRM, since this is where you find all the main details of companies, contacts, projects, sales, selections and so on. The main card is named according to the screen you are in, such as company card, diary card or project card.
+    Towards the top of the screen, just to the right of the Navigator, is the main card. Here you find all the main details of companies, contacts, projects, sales, selections and so on. The main card is named according to the screen you are in, such as company card, diary card or project card.
 
 * **The Side panel**
     At the right side of the screen is the [side panel][3]. The side panel is a flexible display window that can be configured in lots of different ways.

@@ -11,11 +11,18 @@ PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 
 Saves user groups visible for the QuoteApproveReason list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -94,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "D'Amore-Toy",
-    "ToolTip": "Illo quae dicta qui et.",
+    "Id": 564,
+    "Name": "Douglas-Beatty",
+    "ToolTip": "Quod natus qui voluptatem neque ea voluptates ad.",
     "Deleted": false,
-    "Rank": 777,
-    "Type": "accusantium",
-    "ColorBlock": 536,
-    "IconHint": "corrupti",
+    "Rank": 924,
+    "Type": "facere",
+    "ColorBlock": 829,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2013-08-19T11:10:54.5049366+02:00",
+    "LastChanged": "1998-03-11T02:49:52.422202+01:00",
     "ChildItems": [
       {
-        "Id": 339,
-        "Name": "McGlynn-Rohan",
-        "ToolTip": "Omnis et sed.",
-        "Deleted": true,
-        "Rank": 512,
-        "Type": "dolorum",
-        "ColorBlock": 445,
-        "IconHint": "commodi",
+        "Id": 997,
+        "Name": "Bruen Inc and Sons",
+        "ToolTip": "Ratione laboriosam laudantium voluptates sint.",
+        "Deleted": false,
+        "Rank": 960,
+        "Type": "assumenda",
+        "ColorBlock": 461,
+        "IconHint": "saepe",
         "Selected": true,
-        "LastChanged": "2005-08-19T11:10:54.5059351+02:00",
+        "LastChanged": "2001-11-14T02:49:52.422202+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "et",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Robert Dietrich"
+        "FullName": "Ms. Karlee Hannah Rath Sr."
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "atque",
+    "ExtraInfo": "a",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Brook Sauer"
+    "FullName": "Etha King"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 178,
-    "Name": "Gibson-Huels",
-    "ToolTip": "Temporibus sed nisi quod.",
+    "Id": 32,
+    "Name": "Carter LLC",
+    "ToolTip": "Ex assumenda hic.",
     "Deleted": false,
-    "Rank": 981,
-    "Type": "quo",
-    "ColorBlock": 902,
-    "IconHint": "exercitationem",
+    "Rank": 791,
+    "Type": "placeat",
+    "ColorBlock": 305,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2019-08-23T11:10:54.5069354+02:00",
+    "LastChanged": "2011-06-25T02:49:52.422202+02:00",
     "ChildItems": [
       {
-        "Id": 226,
-        "Name": "King-Collier",
-        "ToolTip": "Fugiat doloremque.",
+        "Id": 597,
+        "Name": "Lockman Inc and Sons",
+        "ToolTip": "Eligendi beatae quia qui.",
         "Deleted": false,
-        "Rank": 733,
-        "Type": "rem",
-        "ColorBlock": 554,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2000-06-11T11:10:54.5069354+02:00",
+        "Rank": 358,
+        "Type": "et",
+        "ColorBlock": 487,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "1995-12-14T02:49:52.422202+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "deleniti",
+        "ExtraInfo": "modi",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Harrison Gislason",
+        "FullName": "Taurean Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 103
+            "FieldType": "System.String",
+            "FieldLength": 80
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "et",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "nulla",
     "Hidden": true,
-    "FullName": "Jaylin Gottlieb",
+    "FullName": "Rahul Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 210
+        "FieldLength": 200
       }
     }
   }

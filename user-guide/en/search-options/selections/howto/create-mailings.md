@@ -19,7 +19,7 @@ You can send a mailing to all contacts in a selection. The mailing can be an ema
 
 3. Click one of the following options:
 
-    * **Create e-mail mailing**: Select this options to [send emails to all or parts of your customer base][1].
+    * **Create email mailing**: Select this options to [send emails to all or parts of your customer base][1].
 
     * **Create SMS mailing**: Select this option to [send SMS messages][2] to all or parts of your customer base by mobile phone.
 
@@ -28,7 +28,7 @@ You can send a mailing to all contacts in a selection. The mailing can be an ema
     > [!TIP]
     > These options are also available from the **Marketing** button in the navigator.
 
-In SuperOffice CRM, the mailing will be added to the **Mailings** section tab in the **Selection** screen. This will help you keep track of all mailings related to each selection.
+In SuperOffice CRM, the mailing is added to the **Mailings** section tab in the **Selection** screen to help you keep track of all mailings related to each selection.
 
 <!-- Referenced links -->
 [1]: ../../../marketing/mailing/create/tutorial-email-mailing.yml

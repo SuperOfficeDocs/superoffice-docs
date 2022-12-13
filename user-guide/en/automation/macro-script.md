@@ -17,16 +17,16 @@ In the **Macros and scripts** tab you will find a list of the scripts and macros
 
 Macros are the user-friendly version of scripts: You don’t need extensive knowledge about scripting or CRMScript to create macros.
 
-With macro’s you are able to customize and automate actions inside SuperOffice. It comes with an easy to use wizard that will help you setup your macro.
+With macros, you can customize and automate actions inside SuperOffice. It comes with an easy to use wizard that will help you setup your macro.
 
-Macros have a number of functions in SuperOffice. They can be linked to specific [triggers][1] in the system (such as escalations or new message on request in SuperOffice Service) or be assigned to buttons in defined screens, so that users can click a button to perform a set of actions that are often repeated. This makes request management faster and users avoid unnecessary clicking.
+Macros have multiple functions in SuperOffice. They can be linked to specific [triggers][1] in the system (such as escalations or new message on request in SuperOffice Service) or be assigned to buttons in defined screens, so that users can click a button to perform a set of actions that are often repeated. This makes request management faster and users avoid unnecessary clicking.
 
-For example, you can use macros
+For example, you can use macros:
 
 * As a task/function in a menu point (such as in ![icon][img1] **Actions** in the **Request** screen)
 * When a request is escalated via the warning levels for priority
 * As a planned task
-* When they are activated by an e-mail filter
+* When they are activated by an email filter
 * When a recipient clicks a tracked link in a mailing
 
 ## What is the difference between a script and a macro?

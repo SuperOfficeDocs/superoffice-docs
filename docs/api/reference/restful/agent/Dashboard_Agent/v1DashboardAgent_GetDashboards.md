@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetDashboards
 
 Gets all dashboards for an associate
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all dashboards for an associate
 ```http
 POST /api/v1/Agents/Dashboard/GetDashboards?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Dashboard/GetDashboards?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId
+AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
+
 
 ## Response: array
 
@@ -69,11 +77,11 @@ Response body: array
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 705
+  "AssociateId": 701
 }
 ```
 
@@ -85,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 793,
-    "AssociateId": 347,
-    "Caption": "repellendus",
+    "DashboardId": 413,
+    "AssociateId": 471,
+    "Caption": "molestiae",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 801,
-        "Caption": "voluptatem",
-        "Description": "Managed well-modulated process improvement",
-        "ChartName": "Kuphal, Abbott and Morar",
-        "ChartId": "eius",
-        "IsDefault": false,
-        "AssociateId": 397,
-        "GroupId": 842,
-        "SelectionId": 367,
-        "Config": "doloribus",
+        "DashboardTileId": 386,
+        "Caption": "deserunt",
+        "Description": "Pre-emptive didactic adapter",
+        "ChartName": "Ferry Group",
+        "ChartId": "aut",
+        "IsDefault": true,
+        "AssociateId": 881,
+        "GroupId": 895,
+        "SelectionId": 961,
+        "Config": "qui",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -115,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 453
+            "FieldType": "System.String",
+            "FieldLength": 216
           }
         }
       }
@@ -125,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 109
+        "FieldType": "System.Int32",
+        "FieldLength": 342
       }
     }
   }

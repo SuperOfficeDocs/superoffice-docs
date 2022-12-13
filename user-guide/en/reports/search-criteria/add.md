@@ -9,11 +9,9 @@ so.topic: howto
 language: en
 ---
 
-# Add criteria to reports
+# Add search criteria to reports
 
-You can add more search criteria to a report. If you add criteria to a standard report, you need to [save it as a favourite report][1] to keep the changes in the report.
-
-To add search criteria to reports:
+You can add more search criteria to a report. If you add criteria to a standard report, you must [save it as a favorite report][1] to keep the changes in the report.
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 2. Select a tab. The reports are displayed in the report list.
@@ -25,9 +23,9 @@ To add search criteria to reports:
 4. [Enter the required search criteria][2].
 
     > [!NOTE]
-    > The criteria you can choose from vary according to the tab and report you have selected.
+    > The criteria you can choose from vary according to the tab and report you selected.
 
-5. Click **OK** at the bottom of the **Add/edit search criteria** dialog when you have finished.
+5. Click **OK** at the bottom of the **Add/edit search criteria** dialog when you are done.
 
 <!-- Referenced links -->
 [1]: ../labels/add-format.md

@@ -11,9 +11,16 @@ POST /api/v1/CRMScript
 
 Creates a new CRMScriptEntity
 
+
 Calls the CRMScript agent service SaveCRMScriptEntity.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Calls the CRMScript agent service SaveCRMScriptEntity.
 ```http
 POST /api/v1/CRMScript?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/CRMScript?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The CRMScriptEntity to be saved.
+The CRMScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +65,8 @@ The CRMScriptEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -65,7 +74,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,17 +103,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 928,
-  "UniqueIdentifier": "ipsa",
-  "Name": "Rath LLC",
-  "Description": "Exclusive asynchronous system engine",
-  "IncludeId": "vel",
-  "HierarchyId": 338,
-  "Source": "velit",
-  "Registered": "2000-07-28T11:10:52.7581745+02:00",
-  "RegisteredAssociateId": 227,
-  "Updated": "2001-04-21T11:10:52.7581745+02:00",
-  "UpdatedAssociateId": 300
+  "EjscriptId": 46,
+  "UniqueIdentifier": "sint",
+  "Name": "Price, Langosh and Lubowitz",
+  "Description": "Team-oriented eco-centric budgetary management",
+  "IncludeId": "quia",
+  "HierarchyId": 745,
+  "Source": "repudiandae",
+  "Registered": "2016-08-16T02:49:50.8546634+02:00",
+  "RegisteredAssociateId": 935,
+  "Updated": "2007-11-05T02:49:50.8546634+01:00",
+  "UpdatedAssociateId": 546
 }
 ```
 
@@ -115,23 +124,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 985,
+  "EjscriptId": 66,
   "UniqueIdentifier": "quia",
-  "Name": "Orn, Morissette and Orn",
-  "Description": "Diverse transitional throughput",
-  "IncludeId": "facere",
-  "HierarchyId": 545,
-  "Source": "odit",
-  "Registered": "2019-01-29T11:10:52.7581745+01:00",
-  "RegisteredAssociateId": 760,
-  "Updated": "2005-12-12T11:10:52.7581745+01:00",
-  "UpdatedAssociateId": 189,
+  "Name": "Doyle Group",
+  "Description": "Cross-group neutral secured line",
+  "IncludeId": "consequatur",
+  "HierarchyId": 507,
+  "Source": "perspiciatis",
+  "Registered": "1998-04-29T02:49:50.8546634+02:00",
+  "RegisteredAssociateId": 375,
+  "Updated": "2004-06-03T02:49:50.8546634+02:00",
+  "UpdatedAssociateId": 428,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 269
+      "FieldType": "System.Int32",
+      "FieldLength": 183
     }
   },
   "_Links": {

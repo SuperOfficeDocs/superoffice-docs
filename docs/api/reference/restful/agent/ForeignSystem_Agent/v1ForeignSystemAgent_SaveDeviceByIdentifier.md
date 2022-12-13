@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 
 Updates a ForeignDevice with deviceName that belongs to the application with applicationName.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Updates a ForeignDevice with deviceName that belongs to the application with app
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier, ForeignDevice
+ApplicationName, DeviceName, DeviceIdentifier, ForeignDevice 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ ApplicationName, DeviceName, DeviceIdentifier, ForeignDevice
 | DeviceIdentifier | string |  |
 | ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <para /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,13 +84,13 @@ Response body:
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Casper-Dickens",
-  "DeviceName": "Ondricka, Dibbert and Ritchie",
-  "DeviceIdentifier": "molestiae",
+  "ApplicationName": "O'Kon-Runte",
+  "DeviceName": "Strosin, Hegmann and Mills",
+  "DeviceIdentifier": "tenetur",
   "ForeignDevice": null
 }
 ```
@@ -94,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 485,
-  "Name": "Pacocha, Dietrich and Dare",
-  "CreatedDate": "2000-01-06T11:10:27.0804546+01:00",
-  "UpdatedDate": "1997-02-26T11:10:27.0804546+01:00",
-  "AssociateFullName": "Mrs. Chaya Ray Schumm",
-  "CreatedBy": "et",
-  "UpdatedBy": "asperiores",
-  "DeviceIdentifier": "dignissimos",
-  "ForeignAppId": 650,
+  "ForeignDeviceId": 373,
+  "Name": "Windler, Von and Crist",
+  "CreatedDate": "1997-12-31T02:49:44.5454229+01:00",
+  "UpdatedDate": "1997-06-05T02:49:44.5454229+02:00",
+  "AssociateFullName": "Alanis Koepp",
+  "CreatedBy": "quibusdam",
+  "UpdatedBy": "dolores",
+  "DeviceIdentifier": "natus",
+  "ForeignAppId": 862,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldType": "System.String",
+      "FieldLength": 235
     }
   }
 }

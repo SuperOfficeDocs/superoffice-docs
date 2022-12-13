@@ -16,11 +16,9 @@ language: en
 At some time, you will undoubtedly need to move follow-ups from one time slot to another, from the activities list to the **Diary** screen, or from the **Diary** screen to the activities list. These actions can be accomplished quickly and easily in SuperOffice CRM by dragging and dropping with the mouse.
 
 > [!NOTE]
-> You can only move one follow-up at a time, and only follow-ups that are not completed. [How to change Completed status of an activity][1].
+> You can move only one follow-up at a time, and only follow-ups that are not completed. [How to change Completed status of an activity][1].
 
-## Move to a different time
-
-To move a follow-up to a different time or to a different day in the Diary:
+## Move to a different time or day
 
 1. Select the required tab in the **Diary** screen (**Day**, **Week**, **Month** or **View**).
 
@@ -37,7 +35,7 @@ To move a follow-up to a different time or to a different day in the Diary:
 
 ## Move from the activities list to the Diary
 
-You can move a follow-up from the activities list to the Diary. This can be useful if you have moved a follow-up from the Diary to the activities list and want it back in the Diary, e.g. on a different date.
+You can move a follow-up from the activities list to the Diary. This can be useful if you moved a follow-up from the Diary to the activities list and want it back in the Diary, for example, on a different date.
 
 1. Select the required tab in the **Diary** screen (**Day**, **Week**, **Month** or **View**).
 
@@ -48,7 +46,7 @@ You can move a follow-up from the activities list to the Diary. This can be usef
 > [!TIP]
 > Select the **Week** or **Month** view in the side panel, go to the required week or month in the Diary and then drag the follow-up from the Diary to the required day in the side panel. The diary automatically updates with the required week or month.
 
-If you have entered a follow-up in the Diary but are not yet sure of the time or date to allocate to it, you can enter it in the activities list temporarily. Move the follow-up from the Diary to the activities list using drag and drop.
+If you entered a follow-up in the Diary but are not yet sure of the time or date to allocate to it, you can enter it in the activities list temporarily. Move the follow-up from the Diary to the activities list using drag and drop.
 
 <!-- Referenced links -->
 [1]: change-completed-status.md

@@ -11,6 +11,12 @@ GET /api/v1/List/SaleType/MDOItems
 
 Get the MDO list items for "SaleType" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=dolore
+GET /api/v1/List/SaleType/MDOItems?query=molestiae
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/SaleType/MDOItems?query=dolore
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1002,
-    "Name": "Sauer Inc and Sons",
-    "ToolTip": "Omnis ut labore accusantium tenetur et.",
-    "Deleted": false,
-    "Rank": 741,
-    "Type": "qui",
+    "Id": 240,
+    "Name": "Grady Inc and Sons",
+    "ToolTip": "Rerum nostrum eos eos fugiat assumenda.",
+    "Deleted": true,
+    "Rank": 949,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Cremin, Aufderhar and Jakubowski",
-        "ToolTip": "Accusantium voluptatem suscipit praesentium.",
-        "Deleted": true,
-        "Rank": 600,
-        "Type": "expedita",
+        "Id": 1002,
+        "Name": "Aufderhar Group",
+        "ToolTip": "Rerum dolorem repellat soluta accusamus est qui perferendis.",
+        "Deleted": false,
+        "Rank": 819,
+        "Type": "quaerat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 508,
-        "ExtraInfo": "nihil",
-        "StyleHint": "sequi",
-        "FullName": "Jeff Kuphal",
+        "IconHint": "quis",
+        "ColorBlock": 55,
+        "ExtraInfo": "veritatis",
+        "StyleHint": "est",
+        "FullName": "Kellen Ebert IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 169
+            "FieldLength": 511
           }
         }
       }
     ],
-    "IconHint": "ducimus",
-    "ColorBlock": 407,
-    "ExtraInfo": "id",
-    "StyleHint": "dolores",
-    "FullName": "Cora McDermott",
+    "IconHint": "commodi",
+    "ColorBlock": 951,
+    "ExtraInfo": "odit",
+    "StyleHint": "omnis",
+    "FullName": "Kylee Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldType": "System.Int32",
+        "FieldLength": 548
       }
     }
   }

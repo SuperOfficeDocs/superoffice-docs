@@ -11,9 +11,17 @@ POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 
 Set default values into a new DocumentMigrationItemList.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps
+
+## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +60,7 @@ Response body:
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -61,29 +70,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 308,
-  "NumDocumentsAlreadyMigrated": 650,
+  "NumDocumentsOmitted": 997,
+  "NumDocumentsAlreadyMigrated": 296,
   "Documents": [
     {
-      "DocumentId": 899,
-      "ContactId": 877,
-      "PersonId": 349,
-      "SaleId": 474,
-      "ProjectId": 841,
-      "DocTmplId": 954,
-      "AssociateId": 462,
-      "UserGroupId": 210,
-      "VisibleForId": 481
+      "DocumentId": 962,
+      "ContactId": 365,
+      "PersonId": 903,
+      "SaleId": 560,
+      "ProjectId": 701,
+      "DocTmplId": 7,
+      "AssociateId": 905,
+      "UserGroupId": 281,
+      "VisibleForId": 332
     }
   ],
   "Associates": [
     {
-      "AssociateId": 598,
-      "EmailAddress": "gaston.yundt@reillyhuel.info"
+      "AssociateId": 167,
+      "EmailAddress": "burnice.roberts@hanehomenick.us"
     },
     {
-      "AssociateId": 598,
-      "EmailAddress": "gaston.yundt@reillyhuel.info"
+      "AssociateId": 167,
+      "EmailAddress": "burnice.roberts@hanehomenick.us"
     }
   ]
 }

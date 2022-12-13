@@ -1,7 +1,7 @@
 ---
-uid: help-en-blogic-listextramenus
-title: blogic listExtraMenus
-description: blogic listExtraMenus
+uid: help-en-ui-extra-menu
+title: Extra menus
+description: Extra menus in the SuperOffice UI
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -11,7 +11,7 @@ language: en
 
 # Extra menus
 
-In the **Extra menus** screen, you can add extra menus (buttons, menus, links, shortcuts, lists etc.) in SuperOffice Service, so that the functions and information you need are always easily available.
+In the **Extra menus** screen, you can add extra menus (buttons, menus, links, shortcuts, lists, and so on) in SuperOffice Service, so that the functions and information you need are always easily available.
 
 ## Where can I add extra menus?
 

@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: sale, guide
 so.topic: howto
-so.audience: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -16,15 +17,15 @@ language: en
 
 This procedure shows you how to create a sales guide from scratch.
 
-1. Define [stages](#create-stages) to include in the sales guide
-2. Define [the sales type](#create-type) (with associated stages) that the sales guide will be linked to
-3. Design the [sales guide](#create-guide)
+1. Define [stages](#create-stages) to include in the sales guide.
+2. Define [the sales type](#create-type) (with associated stages) that the sales guide will be linked to.
+3. Design the [sales guide](#create-guide).
 
 ## <a id="create-stages" />Create stages for the sales guide
 
 A sales guide must be linked to a sale type, which in turn consists of several stages. [How to create stages][2].
 
-A sales guide for sales to new customers might include, for example, the stages "First meeting", "Quotation" and "Signing of contract".
+For example, a sales guide for sales to new customers may include the stages "First meeting", "Quotation" and "Signing of contract".
 
 Go to the next procedure to link the stages to a sale type.
 
@@ -34,10 +35,9 @@ A sales guide must be linked to a sale type. [How to create a sale type][3].
 
 Examples of sale types: "Sale to new customer", "Sale to existing customer", "Cross-sale to existing customer".
 
-> [!NOTE]
-> You need to check **This sale type is linked to a guide**. You should also select at least two stages.
-
-Go to the next procedure to create the sales guide.
+1. Check **This sale type is linked to a guide**.
+1. Select at least two stages.
+1. Go to the next procedure to create the sales guide.
 
 ## <a id="create-guide" />Create a sales guide
 
@@ -49,15 +49,15 @@ Once you have created stages and specified a sale type for the sales guide, you 
 
 3. In the list at the top, select the sale type you want to create a sales guide for. The stages selected for this sale type are displayed in the list underneath.
 
-    > [!NOTE]
-    > If the sale type is not set up to have a sales guide, you need to click **Click here to turn on guide** at the bottom of the screen. If there are no stages defined for the sale type, you need to click **Click here to add stages** at the bottom of the screen. You can also edit the sale type by clicking the **Edit** button at the top.
+    * If the sale type is not set up to have a sales guide, click **Click here to turn on guide** at the bottom of the screen.
+
+    * If there are no stages defined for the sale type, click **Click here to add stages** at the bottom of the screen. You can also edit the sale type by clicking the **Edit** button at the top.
 
 4. Select the required stage in the list. The stage's details are shown at the bottom of the screen.
 
 5. [Add one or more follow-ups](#add-a-follow-up-for-a-stage) for the selected stage.
 
-    > [!NOTE]
-    > You do not need to add a document for each stage, but you should add at least one follow-up for each stage.
+    You do not need to add a document for each stage, but you should add at least one follow-up for each stage.
 
 6. [Add one or more documents](#add-a-document-for-a-stage) for the selected stage.
 
@@ -72,14 +72,14 @@ The changes are saved automatically. The sales guide will now be displayed in Su
 **Sale type**: Sale to new customer
 **Stage**: First meeting
 **Name** of follow-up: First meeting
-**Purpose of this follow-up**: Examine the potential customer's requirements and assess whether the product can meet their needs
+**Purpose of this follow-up**: Examine the potential customer's requirements and assess if the product can meet their needs
 **Follow-up type**: Customer meeting
 **Duration**: 1 hour
 **Default text**:
 
 Agenda for first meeting:
 
-\- Information about the customer's business and organisation
+\- Information about the customer's business and organization
 \- Needs, wants, problems
 \- Company presentation
 \- Other
@@ -89,16 +89,16 @@ Agenda for first meeting:
 
 1. Select the required sale type and stage as described above.
 
-2. Click **Add** under **Suggested follow-ups in stage**. The **Suggested follow-up** dialog opens.
+2. Click **Add** under **Suggested follow-ups in stage**.
 
-3. Enter the name of the follow-up in the **Name** field. This should be a descriptive name for the follow-up.
+3. In the **Suggested follow-up** dialog, enter the name of the follow-up in the **Name** field. This should be a descriptive name for the follow-up.
 
-4. Enter the purpose of the follow-up, in the **The purpose of this follow-up** field. This text is displayed when you hold the mouse-pointer over the follow-up in the **Sales guide** section tab in SuperOffice CRM.
+4. In the **The purpose of this follow-up** field, enter the text to use as tooltip for the follow-up in the **Sales guide** section tab in SuperOffice CRM.
 
     > [!NOTE]
     > Some of the options below are, for logical reasons, not relevant for the first follow-up in a sales guide.
 
-5. Check **Automatically suggest this follow-up** if you want SuperOffice CRM to suggest this follow-up when the previous follow-up (in this or the previous stage) has been marked as completed.
+5. Check **Automatically suggest this follow-up** if you want SuperOffice CRM to suggest this follow-up when the previous follow-up (in this or the previous stage) is marked as completed.
 
 6. Select a type for the follow-up in the **Follow-up type** list.
 
@@ -122,8 +122,8 @@ Agenda for first meeting:
 **Sale type**: Sale to new customer
 **Stage**: First meeting
 **Name** of document: Meeting confirmation
-**Purpose of this sales step**: Send an e-mail with meeting confirmation and date/time to all participants for the first meeting.
-**Template**: E-mail
+**Purpose of this sales step**: Send an email with meeting confirmation and date/time to all participants for the first meeting.
+**Template**: Email
 **Default subject**: Meeting confirmation (first meeting)
 </details>
 
@@ -131,17 +131,17 @@ Agenda for first meeting:
 
 1. Select the required sale type and stage as described above.
 
-2. Click **Add** under **Suggested documents in stage**. The **Suggested document** dialog opens.
+2. Click **Add** under **Suggested documents in stage**.
 
-3. Enter the name of the document in the **Name** field. This should be a descriptive name for the document.
+3. In the **Suggested document** dialog, enter the name of the document in the **Name** field. This should be a descriptive name for the document.
 
-4. Enter the purpose of the document, in the **The purpose of this document** field. This text is displayed when you hold the mouse-pointer over the document in the **Sales guide** section tab in SuperOffice CRM.
+4. In the **The purpose of this document** field, enter the text to use as tooltip for the document in the **Sales guide** section tab.
 
 5. Select the required template in the **Template** field (see also [Document - Template][4]).
 
 6. Enter the subject to be used in the document in the **Default subject** field.
 
-7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable][1] for sales number, sales title or another field relating to the sale.
+7. Enter any reference in the **Our ref.** field. For example, a [template variable][1] for sales number, sales title or another field relating to the sale.
 
 8. Click **Save**.
 
@@ -149,8 +149,8 @@ Agenda for first meeting:
 
 <!-- Referenced links -->
 [1]:../../../../docs/document/templates/variables/for-sales.md
-[2]: ../admin/add-stage.md
-[3]: ../admin/add-sale-type.md
+[2]: ../../settings/lists/sale-stage.md
+[3]: ../../settings/lists/sale-type.md
 [4]: ../../settings/lists/document-template.md
 
 <!-- Referenced images -->

@@ -11,6 +11,13 @@ POST /api/v1/List/QuoteDenyReason/Items
 
 Add a new QuoteDenyReason to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new QuoteDenyReason to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The QuoteDenyReason to be added to the list.
+The QuoteDenyReason to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The QuoteDenyReason to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 428,
-  "Name": "Gorczany-Ratke",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "UdListDefinitionId": 799,
-  "Rank": 371
+  "Id": 497,
+  "Name": "Gislason Group",
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "UdListDefinitionId": 351,
+  "Rank": 837
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 386,
-  "Name": "Adams-Rogahn",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 375,
-  "Rank": 744,
+  "Id": 365,
+  "Name": "Christiansen Inc and Sons",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "UdListDefinitionId": 762,
+  "Rank": 472,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 561
+      "FieldLength": 806
     }
   }
 }

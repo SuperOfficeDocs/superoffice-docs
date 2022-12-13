@@ -11,11 +11,19 @@ PUT /api/v1/TriggerScript/{id}
 
 Updates the existing TriggerScriptEntity
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The TriggerScriptEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +34,7 @@ Updates the existing TriggerScriptEntity
 ```http
 PUT /api/v1/TriggerScript/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -41,9 +50,9 @@ PUT /api/v1/TriggerScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TriggerScriptEntity to be saved.
+The TriggerScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,13 +61,14 @@ The TriggerScriptEntity to be saved.
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response
+
+## Response: 
 
 TriggerScriptEntity updated.
 
@@ -67,7 +77,7 @@ TriggerScriptEntity updated.
 | 200 | TriggerScriptEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +86,7 @@ Response body:
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -91,20 +101,20 @@ Response body:
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 677,
-  "Name": "Schowalter-O'Kon",
+  "ScreenChooserId": 86,
+  "Name": "Prohaska, Bahringer and Terry",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "quibusdam",
-  "Source": "rerum",
-  "Registered": "2020-02-06T11:10:53.6652124+01:00",
-  "RegisteredAssociateId": 131,
-  "Updated": "2005-12-16T11:10:53.6652124+01:00",
-  "UpdatedAssociateId": 988
+  "Enabled": true,
+  "UniqueIdentifier": "culpa",
+  "Source": "dolor",
+  "Registered": "2015-07-16T02:49:51.6710218+02:00",
+  "RegisteredAssociateId": 813,
+  "Updated": "2003-02-19T02:49:51.6710218+01:00",
+  "UpdatedAssociateId": 296
 }
 ```
 
@@ -115,22 +125,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 191,
-  "Name": "Bechtelar-Connelly",
+  "ScreenChooserId": 361,
+  "Name": "Dickens LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "fuga",
-  "Source": "voluptatem",
-  "Registered": "2011-04-21T11:10:53.6672129+02:00",
-  "RegisteredAssociateId": 666,
-  "Updated": "1996-10-08T11:10:53.6672129+02:00",
-  "UpdatedAssociateId": 156,
+  "Enabled": true,
+  "UniqueIdentifier": "dolores",
+  "Source": "vel",
+  "Registered": "2022-06-30T02:49:51.6710218+02:00",
+  "RegisteredAssociateId": 837,
+  "Updated": "2010-12-10T02:49:51.6710218+01:00",
+  "UpdatedAssociateId": 865,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 131
     }
   },
   "_Links": {

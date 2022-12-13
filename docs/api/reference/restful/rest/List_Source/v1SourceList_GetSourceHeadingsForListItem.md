@@ -11,11 +11,17 @@ GET /api/v1/List/Source/Items/{itemId}/Headings
 
 Gets headings for the Source list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -76,7 +84,7 @@ Response body: array
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Name": "Ritchie, Cremin and Zulauf",
-    "ToolTip": "Ad illum aut qui excepturi.",
-    "Deleted": false,
-    "Rank": 334,
-    "Type": "iste",
-    "ColorBlock": 471,
-    "IconHint": "est",
+    "Id": 581,
+    "Name": "Rippin, Fahey and Lakin",
+    "ToolTip": "Explicabo ipsa dolorem qui saepe.",
+    "Deleted": true,
+    "Rank": 426,
+    "Type": "nesciunt",
+    "ColorBlock": 384,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2011-01-05T11:10:54.6469304+01:00",
+    "LastChanged": "2015-03-22T02:49:52.5471998+01:00",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "Kertzmann-Prosacco",
-        "ToolTip": "Eum similique neque.",
-        "Deleted": false,
-        "Rank": 890,
-        "Type": "similique",
-        "ColorBlock": 102,
-        "IconHint": "fugiat",
+        "Id": 929,
+        "Name": "Friesen LLC",
+        "ToolTip": "Cupiditate laboriosam earum quisquam doloremque consequatur consequatur expedita.",
+        "Deleted": true,
+        "Rank": 805,
+        "Type": "saepe",
+        "ColorBlock": 629,
+        "IconHint": "repudiandae",
         "Selected": true,
-        "LastChanged": "2005-12-23T11:10:54.6469304+01:00",
+        "LastChanged": "2017-01-06T02:49:52.5471998+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Destin Ledner",
+        "ExtraInfo": "dolores",
+        "StyleHint": "nesciunt",
+        "Hidden": false,
+        "FullName": "Zita Bechtelar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 643
+            "FieldType": "System.Int32",
+            "FieldLength": 939
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Mr. Brian Franz Bernier Sr.",
+    "ExtraInfo": "vel",
+    "StyleHint": "iure",
+    "Hidden": false,
+    "FullName": "Prof. Cordia Hilpert IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 966
       }
     }
   }

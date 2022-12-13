@@ -11,11 +11,17 @@ GET /api/v1/List/Business/Items/{itemId}/Headings
 
 Gets headings for the Business list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,6 +46,7 @@ GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -87,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Padberg LLC",
-    "ToolTip": "Tempore eum aperiam recusandae voluptatem.",
+    "Id": 927,
+    "Name": "Lueilwitz, Marvin and Torphy",
+    "ToolTip": "Voluptas ad sint et beatae non quisquam.",
     "Deleted": true,
-    "Rank": 192,
-    "Type": "rerum",
-    "ColorBlock": 99,
-    "IconHint": "hic",
-    "Selected": false,
-    "LastChanged": "2018-09-17T11:10:53.9332178+02:00",
+    "Rank": 702,
+    "Type": "sed",
+    "ColorBlock": 984,
+    "IconHint": "exercitationem",
+    "Selected": true,
+    "LastChanged": "2005-03-23T02:49:51.8909437+01:00",
     "ChildItems": [
       {
-        "Id": 688,
-        "Name": "McDermott-Wehner",
-        "ToolTip": "Consectetur in eaque.",
+        "Id": 156,
+        "Name": "Oberbrunner-Von",
+        "ToolTip": "Et error.",
         "Deleted": false,
-        "Rank": 386,
-        "Type": "est",
-        "ColorBlock": 110,
-        "IconHint": "explicabo",
+        "Rank": 813,
+        "Type": "dignissimos",
+        "ColorBlock": 959,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "2014-03-04T11:10:53.9332178+01:00",
+        "LastChanged": "2012-01-04T02:49:51.8909437+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "eos",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "illo",
         "Hidden": true,
-        "FullName": "Merle McDermott",
+        "FullName": "Mekhi Schaden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 30
+            "FieldLength": 275
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "numquam",
+    "ExtraInfo": "error",
+    "StyleHint": "dolorem",
     "Hidden": true,
-    "FullName": "Janiya Kilback",
+    "FullName": "Karolann Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 113
+        "FieldType": "System.Int32",
+        "FieldLength": 351
       }
     }
   }

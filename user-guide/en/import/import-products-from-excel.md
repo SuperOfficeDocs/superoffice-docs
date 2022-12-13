@@ -20,23 +20,21 @@ If you have an Excel spreadsheet with a list of products, you can easily import 
 * You can for instance contains these columns of data: In assortment, product code, name, description, product category, unit, list price, unit minimum price, cost, product name.
 * Make sure to add a unique product code for each row as a duplicate key.
 
-To import an Excel spreadsheet with products into the SuperOffice database:
-
 ## Export products from an Excel import file
 
 1. [!include[Open Import](includes/open-import.md)]
 
 2. Click **Products** under **Select an import source**.
 
-3. In the **Import to price list**, select the price list to which you want to import the products.
+3. In the **Import to price list**, select the price list you want to import the products to.
 
-4. Click the Excel icon ( ![icon][img1] ) under **Select an import source**. The **Upload file** dialog opens.
+4. Click the Excel icon ( ![icon][img1] ) under **Select an import source**.
 
-5. Click **Upload file** to select the Excel spreadsheet you want to import.
+5. In the **Upload file** dialog, click **Upload file** to select the Excel spreadsheet you want to import.
 
-6. Browse to the required Excel spreadsheet and click **Open**. The **File name** field shows the position and name of the file you have selected.
+6. Browse to the required Excel spreadsheet and click **Open**. The **File name** field shows the position and name of the file you selected.
 
-7. Click **Save**. The data from the spreadsheet will be displayed in the table and the name of the import file will be shown at the bottom.
+7. Click **Save**. The data from the spreadsheet wis displayed in the table and the name of the import file is shown at the bottom.
 
 > [!NOTE]
 > At this stage, products from Excel have not yet been imported into the SuperOffice database. SuperOffice will only upload the product list from the spreadsheet, so that you can specify the import settings.
@@ -71,11 +69,11 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 
 7. Remove the checks for the rows you do NOT want to import. If the Excel spreadsheet contained a heading row, you can remove it here.
 
-8. When you have checked that this actually is the data you want to import, click **Import**.
+8. After checking that this actually is the data you want to import, click **Import**.
 
 ## Complete the import
 
-When the import is complete, a list of the imported products will be displayed. Above the list is a link to the updated price list.
+When the import is complete, a list of the imported products are displayed. Above the list is a link to the updated price list.
 
 <!-- Referenced links -->
 

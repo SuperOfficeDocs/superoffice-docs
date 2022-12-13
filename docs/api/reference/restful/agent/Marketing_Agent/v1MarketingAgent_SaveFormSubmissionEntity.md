@@ -11,6 +11,13 @@ POST /api/v1/Agents/Marketing/SaveFormSubmissionEntity
 
 Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The FormSubmissionEntity to be saved.
+The FormSubmissionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,8 @@ The FormSubmissionEntity to be saved.
 | Status | string | What is the status of this submission |
 | ProcessingLog | string | A log of what happened during processing |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -50,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,20 +81,20 @@ Response body:
 POST /api/v1/Agents/Marketing/SaveFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 140,
-  "FormId": 197,
-  "WhenSubmitted": "1998-01-24T11:10:27.2864566+01:00",
-  "ContactId": 269,
-  "PersonId": 778,
-  "EmailAddress": "cathryn_stokes@pourosmccullough.com",
-  "ResponseShipmentAddrId": 443,
-  "Response": "iste",
+  "FormSubmissionId": 635,
+  "FormId": 917,
+  "WhenSubmitted": "1998-06-21T02:49:44.7172985+02:00",
+  "ContactId": 574,
+  "PersonId": 730,
+  "EmailAddress": "elissa@willms.name",
+  "ResponseShipmentAddrId": 602,
+  "Response": "modi",
   "Status": "EmailVerification",
-  "ProcessingLog": "aut"
+  "ProcessingLog": "qui"
 }
 ```
 
@@ -97,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 269,
-  "FormId": 492,
-  "WhenSubmitted": "2021-11-17T11:10:27.2874535+01:00",
-  "ContactId": 834,
-  "PersonId": 816,
-  "EmailAddress": "cesar_morissette@roberts.uk",
-  "ResponseShipmentAddrId": 292,
-  "Response": "voluptate",
+  "FormSubmissionId": 20,
+  "FormId": 310,
+  "WhenSubmitted": "2009-04-15T02:49:44.7172985+02:00",
+  "ContactId": 61,
+  "PersonId": 336,
+  "EmailAddress": "tristin@okeefe.biz",
+  "ResponseShipmentAddrId": 709,
+  "Response": "aliquid",
   "Status": "EmailVerification",
-  "ProcessingLog": "autem",
+  "ProcessingLog": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 439
+      "FieldType": "System.Int32",
+      "FieldLength": 155
     }
   }
 }

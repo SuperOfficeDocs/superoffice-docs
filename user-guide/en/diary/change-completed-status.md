@@ -13,25 +13,24 @@ language: en
 
 When you consider that an activity is finished, you can mark it as completed.
 
-**Completed** is a toggle option, which means that you activate and deactivate it using the same menu option or shortcut key. A tick specifies that the activity is **Completed**.
+**Completed** is a toggle option, which you activate and deactivate using the same menu option or shortcut key. A tick specifies that the activity is **Completed**.
 
-To change the status:
+**Steps:**
 
-* Open the activity and uncheck the **Completed** icon at the top-right of the dialog.
+1. Open the activity and uncheck the **Completed** icon at the top-right of the dialog.
 
     ![Change Completed status of an activity -screenshot][img3]
 
-    > [!TIP]
-    > For details, see [Open follow-ups][1] and [Open documents][2].
+    For details, see [Open follow-ups][1] and [Open documents][2].
 
-* Hold the mouse pointer over the box in the **Completed** column (![icon][img2]) in the **Activities** section tab. Then click the checkbox ( ![icon][img1] ).
+1. Hold the mouse pointer over the box in the **Completed** column (![icon][img2]) in the **Activities** section tab. Then click the checkbox ( ![icon][img1] ).
 
-* Right-click the activity and choose **Completed**.
+1. Right-click the activity and choose **Completed**.
 
     ![ Change Completed status of an activity -screenshot][img4]
 
 > [!NOTE]
-> You cannot edit completed activities until you have changed their **Completed** status.
+> To edit a completed activity, you must first uncheck the **Completed** status.
 
 <!-- Referenced links -->
 [1]: open-follow-up.md

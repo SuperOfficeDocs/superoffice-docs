@@ -11,6 +11,13 @@ PUT /api/v1/List/PaymentTerm/Items
 
 Update the PaymentTerm list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Update the PaymentTerm list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated PaymentTerm.
+All the updated PaymentTerm. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -37,6 +44,7 @@ All the updated PaymentTerm.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
+
 
 ## Response: array
 
@@ -65,25 +73,25 @@ Response body: array
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 261,
-    "Name": "Gerhold LLC",
-    "Tooltip": "error",
+    "Id": 830,
+    "Name": "Sporer Group",
+    "Tooltip": "numquam",
     "Deleted": false,
-    "UdListDefinitionId": 830,
-    "Rank": 253
+    "UdListDefinitionId": 620,
+    "Rank": 139
   },
   {
-    "Id": 261,
-    "Name": "Gerhold LLC",
-    "Tooltip": "error",
+    "Id": 830,
+    "Name": "Sporer Group",
+    "Tooltip": "numquam",
     "Deleted": false,
-    "UdListDefinitionId": 830,
-    "Rank": 253
+    "UdListDefinitionId": 620,
+    "Rank": 139
   }
 ]
 ```
@@ -96,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Sipes, Gutkowski and Kertzmann",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 504,
-    "Rank": 513,
+    "Id": 852,
+    "Name": "Luettgen Inc and Sons",
+    "Tooltip": "modi",
+    "Deleted": true,
+    "UdListDefinitionId": 63,
+    "Rank": 583,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 769
+        "FieldType": "System.Int32",
+        "FieldLength": 37
       }
     }
   }

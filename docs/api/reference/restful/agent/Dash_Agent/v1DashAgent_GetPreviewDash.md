@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetPreviewDash
 
 Get a dashboard from its id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a dashboard from its id
 ```http
 POST /api/v1/Agents/Dash/GetPreviewDash?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Dash/GetPreviewDash?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardId
+DashboardId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,11 +77,11 @@ Response body:
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 732
+  "DashboardId": 660
 }
 ```
 
@@ -84,32 +92,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kozey Inc and Sons",
-  "Description": "Diverse intangible policy",
-  "OwnedByFullName": "Rex Quitzon",
-  "Registered": "2007-09-30T11:10:26.435453+02:00",
+  "Name": "Kohler, Daugherty and Waters",
+  "Description": "Object-based intangible time-frame",
+  "OwnedByFullName": "Jaida Crona PhD",
+  "Registered": "1999-11-01T02:49:44.0597588+01:00",
   "Tiles": [
     {
-      "Name": "Kertzmann, Wehner and Gutkowski",
+      "Name": "Schmidt, Conroy and Trantow",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 591
+          "FieldType": "System.Int32",
+          "FieldLength": 221
         }
       }
     },
     {
-      "Name": "Kertzmann, Wehner and Gutkowski",
+      "Name": "Schmidt, Conroy and Trantow",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 591
+          "FieldType": "System.Int32",
+          "FieldLength": 221
         }
       }
     }
@@ -119,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldLength": 90
     }
   }
 }

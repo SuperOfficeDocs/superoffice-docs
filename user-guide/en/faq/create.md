@@ -11,7 +11,7 @@ language: en
 
 # Create FAQ entries
 
-By creating FAQ entries, your organisation can build up a comprehensive collection of questions and answers which both customers and staff can use to find useful information. There are two ways to create FAQ entries:
+By creating FAQ entries, your organization can build up a comprehensive collection of questions and answers that both customers and staff can use to find useful information. There are two ways to create FAQ entries:
 
 * A user can create an FAQ entry, based on communication with a customer in **Requests**.
 * An administrator can create an FAQ entry directly in **Knowledge Base > FAQ**.
@@ -28,7 +28,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 4. In the **Position** field, select a number for the entry's position in the sort order of the folder it belongs in. 1 means the top of the list.
 
-5. In the **Folder** field, select which folder you want to place the entry in. This is relevant if you have a [folder structure for FAQ entries][2].
+5. In the **Folder** field, select which folder you want to place the entry in (if you have a [folder structure for FAQ entries][2]).
 
 6. In the **Access** field, select who is to have access to the FAQ entry in question:
 
@@ -42,13 +42,13 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 8. As an FAQ administrator, you can choose from the following options in the **Workflow** field:
 
     * **Unpublished**: Choose this option if you do not want to publish the FAQ entry at the moment.
-    * **Published**: Choose this option if you want to [publish the FAQ entry immediately][3].
-    * **Expired**: Select this option if the FAQ entry is no longer current. This will be most relevant when editing existing FAQ entries.
+    * **Published**: Choose this option to [publish the FAQ entry immediately][3].
+    * **Expired**: Select this option if the FAQ entry is no longer current. Relevant when editing existing FAQ entries.
 
     > [!NOTE]
     > The list also contains any custom workflow stages created in the system.
 
-9. If you select a date in the **Valid to** field, the entry's status is changed to **Expired** on this date. After that it will not be available to anyone except the FAQ administrators. They will be warned that the entry has expired. This may be relevant in connection with marketing campaigns. If you enter no date here, the FAQ entry will remain available permanently.
+9. If you select a date in the **Valid to** field, the entry's status is changed to **Expired** on this date. After that it will not be available to anyone except the FAQ administrators. They will be warned that the entry is expired. This may be relevant in connection with marketing campaigns. If you enter no date here, the FAQ entry will remain available permanently.
 
 10. In the **Attachment** field, you can add one or more documents as attachments to the request.
 
@@ -85,12 +85,10 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 ## Create new FAQ
 
-You can also create an FAQ entry as follows:
-
 1. Select **Knowledge Base** > **FAQ**.
 2. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can [create a new folder][2].
 3. Click the **New entry** button. This takes you to the **FAQ entry properties** screen.
-4. Follow the procedure above starting at step 3..
+4. Follow the procedure above starting at step 3.
 
 Since the option to create FAQ entries this way is only available to administrators, there is no need for a separate publishing step in this process. The administrator can create and publish simultaneously.
 

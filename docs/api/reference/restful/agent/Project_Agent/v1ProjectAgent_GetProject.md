@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProject
 
 Gets a Project object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=396
+POST /api/v1/Agents/Project/GetProject?projectId=800
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +83,7 @@ Response body:
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 79,
-  "Name": "Gerhold, Weber and Cole",
-  "Description": "Intuitive responsive middleware",
+  "ProjectId": 248,
+  "Name": "Ritchie, Nitzsche and Rutherford",
+  "Description": "Automated analyzing monitoring",
   "URL": "http://www.example.com/",
-  "Type": "sequi",
-  "AssociateId": 542,
-  "AssociateFullName": "Miss Boris Prosacco DVM",
-  "TypeId": 966,
-  "Updated": "2004-04-01T11:10:27.5914582+02:00",
-  "StatusId": 759,
-  "Status": "ut",
-  "TextId": 202,
-  "PublishTo": "2018-12-16T11:10:27.5914582+01:00",
-  "PublishFrom": "2017-07-03T11:10:27.5914582+02:00",
-  "IsPublished": false,
+  "Type": "facilis",
+  "AssociateId": 449,
+  "AssociateFullName": "Audra Pfeffer",
+  "TypeId": 353,
+  "Updated": "2006-09-09T02:49:44.952838+02:00",
+  "StatusId": 441,
+  "Status": "repellendus",
+  "TextId": 982,
+  "PublishTo": "2006-01-15T02:49:44.952838+01:00",
+  "PublishFrom": "2011-08-16T02:49:44.952838+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "122329",
-  "ActiveErpLinks": 248,
+  "ProjectNumber": "909449",
+  "ActiveErpLinks": 452,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldType": "System.String",
+      "FieldLength": 66
     }
   }
 }

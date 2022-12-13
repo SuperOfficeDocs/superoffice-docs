@@ -9,6 +9,14 @@ uid: v1SaleAgent_GetSummaryByContact
 POST /api/v1/Agents/Sale/GetSummaryByContact
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/GetSummaryByContact
 ```http
 POST /api/v1/Agents/Sale/GetSummaryByContact?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,9 +42,9 @@ POST /api/v1/Agents/Sale/GetSummaryByContact?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, FromDate, ToDate
+ContactId, FromDate, ToDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +52,8 @@ ContactId, FromDate, ToDate
 | FromDate | date-time |  |
 | ToDate | date-time |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,13 +102,13 @@ Response body:
 POST /api/v1/Agents/Sale/GetSummaryByContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 862,
-  "FromDate": "2004-07-13T11:10:27.8749768+02:00",
-  "ToDate": "2001-10-27T11:10:27.8749768+02:00"
+  "ContactId": 112,
+  "FromDate": "2002-10-05T02:49:45.155965+02:00",
+  "ToDate": "2010-02-11T02:49:45.155965+01:00"
 }
 ```
 
@@ -109,40 +119,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BaseCurrency": "dolorem",
-  "OwnCurrency": "reprehenderit",
-  "SoldTotalBaseCurrency": 19405.728,
-  "Sold": 278,
-  "SoldTotalOwnCurrency": 22567.933999999997,
-  "Lost": 823,
-  "LostTotalBaseCurrency": 25723.872,
-  "LostTotalOwnCurrency": 14673.387999999999,
-  "Open": 485,
-  "OpenTotalBaseCurrency": 20953.924,
-  "OpenTotalOwnCurrency": 2557.344,
-  "OpenWeightedBaseCurrency": 3463.0699999999997,
-  "OpenWeightedOwnCurrency": 23235.476,
-  "PreviousOverdue": 447,
-  "PreviousOverdueTotalBaseCurrency": 19791.21,
-  "PreviousOverdueTotalOwnCurrency": 18713.113999999998,
-  "PreviousOverdueWeightedBaseCurrency": 27839.322,
-  "PreviousOverdueWeightedOwnCurrency": 4713.536,
-  "CurrentOverdue": 124,
-  "CurrentOverdueTotalBaseCurrency": 8762.6639999999989,
-  "CurrentOverdueTotalOwnCurrency": 28064.969999999998,
-  "CurrentOverdueWeightedBaseCurrency": 7399.374,
-  "CurrentOverdueWeightedOwnCurrency": 24285.365999999998,
-  "FutureOpen": 123,
-  "FutureOpenTotalBaseCurrency": 22329.75,
-  "FutureOpenTotalOwnCurrency": 457.56399999999996,
-  "FutureOpenWeightedBaseCurrency": 18832.206,
-  "FutureOpenWeightedOwnCurrency": 4851.432,
+  "BaseCurrency": "aut",
+  "OwnCurrency": "nihil",
+  "SoldTotalBaseCurrency": 7618.754,
+  "Sold": 889,
+  "SoldTotalOwnCurrency": 12981.028,
+  "Lost": 514,
+  "LostTotalBaseCurrency": 19001.442,
+  "LostTotalOwnCurrency": 26645.268,
+  "Open": 425,
+  "OpenTotalBaseCurrency": 17540.998,
+  "OpenTotalOwnCurrency": 19675.252,
+  "OpenWeightedBaseCurrency": 1845.926,
+  "OpenWeightedOwnCurrency": 22032.02,
+  "PreviousOverdue": 586,
+  "PreviousOverdueTotalBaseCurrency": 22232.595999999998,
+  "PreviousOverdueTotalOwnCurrency": 24464.004,
+  "PreviousOverdueWeightedBaseCurrency": 13112.655999999999,
+  "PreviousOverdueWeightedOwnCurrency": 128.494,
+  "CurrentOverdue": 592,
+  "CurrentOverdueTotalBaseCurrency": 9364.392,
+  "CurrentOverdueTotalOwnCurrency": 8587.16,
+  "CurrentOverdueWeightedBaseCurrency": 25858.634,
+  "CurrentOverdueWeightedOwnCurrency": 12291.547999999999,
+  "FutureOpen": 92,
+  "FutureOpenTotalBaseCurrency": 24909.032,
+  "FutureOpenTotalOwnCurrency": 5788.498,
+  "FutureOpenWeightedBaseCurrency": 18775.793999999998,
+  "FutureOpenWeightedOwnCurrency": 9354.99,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 897
     }
   }
 }

@@ -1,7 +1,7 @@
 ---
-uid: help-en-import-settings-web
-title: Import settings web
-description: Import settings web
+uid: help-en-import-settings
+title: Import settings
+description: Import settings
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance, import
@@ -13,14 +13,14 @@ language: en
 
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
-In the **Import settings** dialog, you can customise the import to include precisely the what you want. To ensure that the quality of the imported data is as good as possible, it is important to specify the correct import settings.
+In the **Import settings** dialog, you can customize the import to include precisely the what you want. To ensure that the quality of the imported data is as good as possible, it is important to specify the correct import settings.
 
 This applies to the following, among other things:
 
 * Duplicates: Select the preferred method for managing information that occur in both the import file and the database.
 * Contacts that are not linked to companies.
 * Legal basis and consent source for contacts.
-* Lists: Select the preferred method for managing list elements in the import, e.g. new categories, business types and phone numbers, new product categories, product families and product types.
+* Lists: Select the preferred method for managing list elements in the import. For example, new categories, business types and phone numbers, new product categories, product families and product types.
 
 ## Typical scenarios
 
@@ -83,7 +83,7 @@ Company
 Contact
 
 * **Name**: The contact's full name (first name+last name) must be identical.
-* **E-mail address**: The contact's e-mail address must be identical.
+* **Email address**: The contact's email address must be identical.
 * **Mobile phone**: The contact's mobile phone number must be identical.
 * **Number**: The contact number must be identical.
 * **None - do not import contact**: Select this option if you do not want to import contacts.
@@ -96,7 +96,7 @@ Product
 * **Name + Code**: Both the product name and the product code must be identical.
 
 > [!NOTE]
-> The data you have selected for duplicate check MUST exist in the import file. If you select name+code, you import file must at minimum contain these columns.
+> The data selected for duplicate check MUST exist in the import file. If you select name+code, you import file must at minimum contain these columns.
 
 </details>
 
@@ -105,12 +105,16 @@ Product
     * **Add always**:
       * New companies, contacts, and products will always be added, even if there are duplicates.
       * New products will always be added, even if there are duplicates.
+
     * **Merge - update empty fields**:
-      * If existing companies and contacts in SuperOffice have empty fields, these empty fields will be completed with data from the import source. Existing data in SuperOffice fields will not be overwritten.
-      * If existing products in the selected price list have empty fields, these empty fields will be completed with data from the import source. Existing data in the selected price list will not be overwritten.
+      * If existing companies and contacts in SuperOffice have empty fields, these empty fields are populated with data from the import source. Existing data in SuperOffice fields will not be overwritten.
+
+      * If existing products in the selected price list have empty fields, these empty fields are populated with data from the import source. Existing data in the selected price list will not be overwritten.
+
     * **Replace - overwrite existing**:
       * Import data will overwrite existing data in SuperOffice fields.
       * Import data will overwrite existing data in the selected price list.
+
     * **Skip - do not import**:
       * If companies and contacts already exist in SuperOffice, they will not be imported.
       * If products already exist in the selected price list, they will not be imported.
@@ -121,7 +125,7 @@ If contacts in the import source are not listed with a company, you have three o
 
 * **Create company using contact name**: A company will be created using the contact name, with himself as the only contact.
 * **Skip - do not create company or contact**: The contact will not be imported.
-* **Import contacts without company**: The contact will be imported with no link to a company. This option will only be possible if the global preference **Mandatory company on contact** is set to **No**.
+* **Import contacts without company**: The contact will be imported with no link to a company. This option is possible only if the global preference **Mandatory company on contact** is set to **No**.
 
 ## Privacy options for imported contacts
 
@@ -144,11 +148,11 @@ The import source may, for example, contain businesses that are not registered i
 
 ## Manage new phone numbers, links and email addresses
 
-The import source may, for example, contain phone numbers, links and e-mail addresses that are not registered in SuperOffice. As is it possible to register several phone numbers, links and e-mail addresses for a single company/contact, you must specify how new values are to be managed. In the **Phone number** and **URLs + email** list boxes under **Lists**, you have the following options:
+The import source may, for example, contain phone numbers, links and email addresses that are not registered in SuperOffice. As is it possible to register several phone numbers, links and email addresses for a single company/contact, you must specify how new values are to be managed. In the **Phone number** and **URLs + email** list boxes under **Lists**, you have the following options:
 
 * **Add new - keep existing**: New values will be added to SuperOffice and existing values will be retained.
 * **Replace - overwrite existing**: Existing values in SuperOffice will be overwritten by imported values.
-    For example: This may be relevant if you know that the import contains correct e-mail addresses for your contacts. If the e-mail addresses that are registered in SuperOffice are outdated, you can overwrite them to clean up the system.
+    For example: This may be relevant if you know that the import contains correct email addresses for your contacts. If the email addresses that are registered in SuperOffice are outdated, you can overwrite them to clean up the system.
 * **Ignore - keep existing**: No new values will be imported into SuperOffice.
 
 ## Manage product categories, product families and product types not in SuperOffice
@@ -159,6 +163,6 @@ The import source may, for example, contain product categories that are not regi
 * **Ignore - set to blank**: No new values will be added to SuperOffice.
 
 <!-- Referenced links -->
-[1]: ../person/gdpr/index.md
+[1]: ../gdpr/privacy.md
 
 <!-- Referenced images -->

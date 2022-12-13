@@ -15,7 +15,7 @@ Each Quote Connector must have an ERP connection with configuration data for lin
 
 <details><summary>How do I set up an ERP connection for SuperOffice CRM for Web (Online)?</summary>
 
-[!include[How to set up ERP](includes/set-up-erp-web.md)]
+[!include[How to set up ERP](includes/set-up-erp.md)]
 </details>
 
 ## To add an ERP connection
@@ -31,7 +31,7 @@ Each Quote Connector must have an ERP connection with configuration data for lin
     * **All**: Select this option if all the users are to have access to and be allowed to use this ERP connection. This means that they can use the price lists accessible via this connection.
     * **Specific users + groups**: Click **Select users and groups** to choose which user groups and/or users should have access to this ERP connection.
 
-1. Select the ERP connection to handle the synchronisation ([Sync Connector][1]) in the **ERP connection** field.
+1. Select the ERP connection to handle the synchronization ([Sync Connector][1]) in the **ERP connection** field.
 
 1. At the bottom of the dialog, configure the required settings. The contents of this list vary depending on the type of Quote Connector you have chosen.
 
@@ -39,9 +39,17 @@ Each Quote Connector must have an ERP connection with configuration data for lin
 
 1. Click **Test ERP connection** to verify that the connection is working.
 
-1. Click **OK** when you have finished.
+1. Click **OK**.
 
-At the bottom of the **ERP connections** list, you can delete ERP connections that are no longer in use, for example. If you want to restore a deleted ERP connection, you can check **Deleted**, select the deleted connection in the list, and then click **Restore**.
+## Delete and restore
+
+At the bottom of the **ERP connections** list, you can delete ERP connections that are no longer in use.
+
+To restore a deleted ERP connection:
+
+1. Check **Deleted**.
+1. Select the deleted connection in the list.
+1. Click **Restore**.
 
 <!-- Referenced links -->
 [1]:sync/index.md

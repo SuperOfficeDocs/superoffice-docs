@@ -11,11 +11,18 @@ PUT /api/v1/List/ConsentPurpose/Items/{id}
 
 Updates the existing ConsentPurpose
 
+
 Calls the List agent service SaveConsentPurpose.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of ConsentPurpose to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveConsentPurpose.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of ConsentPurpose to be saved.
+The details of ConsentPurpose to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +58,8 @@ The details of ConsentPurpose to be saved.
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -60,7 +68,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,18 +98,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 684,
-  "Name": "Gorczany, Jenkins and Mertz",
-  "ConsentText": "voluptatem",
-  "FormText": "vel",
-  "Key": "consequatur",
-  "Tooltip": "dolor",
-  "Active": 952,
-  "UpdatedDate": "2008-05-25T11:10:53.9771826+02:00",
+  "ConsentPurposeId": 443,
+  "Name": "Rosenbaum, O'Hara and Mueller",
+  "ConsentText": "hic",
+  "FormText": "quos",
+  "Key": "officia",
+  "Tooltip": "et",
+  "Active": 980,
+  "UpdatedDate": "2011-05-23T02:49:51.9378192+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 689,
-  "PrivacyStatementDesc": "corporis",
+  "Rank": 792,
+  "PrivacyStatementDesc": "ipsum",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -113,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 518,
-  "Name": "Rowe-Gulgowski",
-  "ConsentText": "molestiae",
-  "FormText": "rerum",
-  "Key": "eum",
-  "Tooltip": "dolorum",
-  "Active": 14,
-  "UpdatedDate": "1998-04-17T11:10:53.9781825+02:00",
+  "ConsentPurposeId": 830,
+  "Name": "Herzog Group",
+  "ConsentText": "temporibus",
+  "FormText": "perspiciatis",
+  "Key": "animi",
+  "Tooltip": "qui",
+  "Active": 93,
+  "UpdatedDate": "2000-07-20T02:49:51.9378192+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 759,
-  "PrivacyStatementDesc": "minus",
+  "Deleted": false,
+  "Rank": 309,
+  "PrivacyStatementDesc": "neque",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 545
     }
   }
 }

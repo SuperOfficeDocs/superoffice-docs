@@ -11,9 +11,10 @@ language: en
 
 # Work with sales guides
 
-If a sales guide has been defined for a sale type that you specify for a sale, the following happens:
+## Behavior when a sale has a guide
 
 * The first stage in the sales guide is selected in the **Stage** field on the main **Sale** card.
+
 * Follow-ups and/or documents for the stage are listed on the **Sales guide** section tab.
 
 ## The sales process
@@ -25,9 +26,9 @@ If a sales guide has been defined for a sale type that you specify for a sale, t
 3. When you have completed the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Sales guide** section tab. By default, documents are marked as completed.
 
     > [!TIP]
-    > If you want to create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
+    > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
 
-4. Once all follow-ups and documents for a stage have been completed, go to the next stage on the main **Sale** card.
+4. Once all follow-ups and documents for a stage are completed, go to the next stage on the main **Sale** card.
 
     > [!NOTE]
     > If you wish, you can go to the next stage without creating or performing all the follow-ups/documents in a stage.
@@ -56,15 +57,17 @@ In SuperOffice Settings and maintenance, it is possible to specify that a follow
 In the **Sales guide** dialog you have three options:
 
 * Click **Create** to create the next follow-up in the sales guide. This takes you directly to the dialog for follow-ups.
-* Click **Cancel** if you do not want to create the follow-up at the moment. The **Sales guide** dialog closes and you will need to remember to create the follow-up later on.
+
+* Click **Cancel** if you do not want to create the follow-up at the moment. The **Sales guide** dialog closes and you should remember to create the follow-up later on.
+
 * Check **Always create follow-up? Do not show this dialog again** if, in future, you always want to create the suggested follow-up. The dialog for follow-ups will then open automatically next time.
 
 > [!TIP]
-> If you want to reset this option, so that the **Sales guide** dialog opens, go to ![icon][img1] **Personal settings** > **Preferences** > **Sale** and select **Yes** for the **Confirm creation of suggested follow-up** option.
+> To reset this option, so that the **Sales guide** dialog opens, go to ![icon][img1] **Personal settings** > **Preferences** > **Sale** and select **Yes** for the **Confirm creation of suggested follow-up** option.
 
 ## Example
 
-Which sale types are assigned a sales guide and which stages and activities the sales guides are to contain is set up in SuperOffice Settings and maintenance. What a sales guide looks like can therefore vary, but below is an example of how a sale using a sales guide may proceed.
+Keep in mind that your sales guides may be configured differently in Settings and maintenance.
 
 ### Enter a new sale and select a sale type
 
@@ -72,7 +75,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
 | Stage | Follow-ups | Documents |
 |---|---|---|
-| First meeting | Customer meeting (Meeting (External)) | Meeting confirmation (E-mail) |
+| First meeting | Customer meeting (Meeting (External)) | Meeting confirmation (Email) |
 | Quotation | Quotation preparation (Task) | Quotation (Letter) |
 | Signing of contract | Set up contract meeting (Phone-Out)<br /> Contract meeting (Meeting (External)) | Signed contract |
 
@@ -85,12 +88,12 @@ You record a new sale and select the **Sale to new customer** sale type, which i
     2. [Complete the information and invite participants][1].
     3. Click **Save**.
 
-2. For the sake of good order, you want to send an e-mail confirming the time and location of the meeting.
+2. For the sake of good order, you want to send an email confirming the time and location of the meeting.
 
     1. Click **Create** next to **Meeting confirmation**.
-        The **Document** dialog opens with **E-mail** already selected as the document type, and the name of the company and sale prefilled.
+        The **Document** dialog opens with **Email** already selected as the document type, and the name of the company and sale prefilled.
     2. Complete the rest of the information in the fields in the **Document** dialog.
-    3. Click the **Create** button to create and send the e-mail.
+    3. Click the **Create** button to create and send the email.
 
 3. Once the meeting has taken place, you want to confirm this in the sales guide.
 
@@ -101,7 +104,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
 ### The Quotation stage
 
-1. All of the follow-ups and documents in the **First meeting** stage have been completed and you want to go to the next stage in the sales guide.
+1. All of the follow-ups and documents in the **First meeting** stage are completed and you want to go to the next stage in the sales guide.
 
     1. Click the **Edit** button on the main **Sale** card.
     2. Click the arrow next to the **Stage** field and select **Quotation** from the list.
@@ -117,7 +120,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
         The **Task** dialog opens, with **Follow-up** specified as the task type.
     2. Complete the information.
     3. Click **Save**.
-    4. When you have finished preparing the contents of the quotation, mark the activity as **Completed**.
+    4. After preparing the contents of the quotation, mark the activity as **Completed**.
 
 3. You now want to create the quotation for the company.
 
@@ -125,7 +128,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
 ### The Signing of contract stage
 
-1. Once all the follow-ups and documents you want to use in the **Quotation** stage have been completed, go to the last stage in the sales guide, which is **Signing of contract**.
+1. After all the follow-ups and documents you want to use in the **Quotation** stage are completed, go to the last stage in the sales guide, which is **Signing of contract**.
 
     1. Click the **Edit** button on the main **Sale** card.
     2. Click the arrow to the right of the **Stage** field and select **Signing of contract** from the list.
@@ -136,16 +139,18 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
     1. Click **Create** next to the **Set up contract meeting** phone call and create the phone call in the usual way.
 
-    2. When the phone call has been completed, check the box. The **Sales guide** dialog opens.
+    2. After completing the phone call, check the box.
 
     3. In the **Sales guide** dialog you have three options:
 
         * Click **Create** to create the **Contract meeting** appointment, which is the next follow-up in the sales guide. This takes you directly to the dialog for follow-ups.
-        * Click **Cancel** if you do not want to create the follow-up at the moment. The **Sales guide** dialog closes and you will need to remember to create the follow-up later on.
+
+        * Click **Cancel** if you do not want to create the follow-up at the moment. The **Sales guide** dialog closes and you should remember to create the follow-up later on.
+
         * Check **Always create follow-up? Do not show this dialog again** if, in future, you always want to create the suggested follow-up. The dialog for follow-ups will then open automatically next time.
 
     > [!NOTE]
-    > The **Sales guide** dialog opens because **Automatically suggest this follow-up** is set for the **Contract meeting** follow-up. This is done in SuperOffice Settings and maintenance. You can choose to not have this dialog appear, so that the next follow-up is suggested automatically.
+    > The **Sales guide** dialog opens because **Automatically suggest this follow-up** is set for the **Contract meeting** follow-up in SuperOffice Settings and maintenance. You can choose to not have this dialog appear, so that the next follow-up is suggested automatically.
 
 3. You want to create the **Contract meeting** appointment from the **Sales guide** dialog.
 
@@ -155,9 +160,9 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 4. Then you want to create the contract to take to the meeting.
 
     1. Click **Create** next to the **Signed contract** document to create the contract.
-    2. When the contract meeting has been held and the contract signed, mark the **Contract meeting** appointment as completed.
+    2. After the contract meeting and the contract is signed, mark the **Contract meeting** appointment as completed.
 
-You can now change the stage to **Sold**. Once all the required follow-ups and documents for the sale have been completed, you can set the sale status to completed.
+You can now change the stage to **Sold**. After all the required follow-ups and documents for the sale are completed, you can set the sale status to completed.
 
 > [!TIP]
 > If you want the sale to remain visible in, for example, the **Activities** section tab in the **Sale** screen and the **Sales** section tab in the **Diary** screen, you must not set the sale to completed.

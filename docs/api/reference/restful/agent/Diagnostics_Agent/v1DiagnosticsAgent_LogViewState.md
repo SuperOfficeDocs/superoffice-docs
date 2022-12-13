@@ -11,7 +11,13 @@ POST /api/v1/Agents/Diagnostics/LogViewState
 
 Log a change in view state.
 
+
 The granularity of the logging depends on the current configuration. This call returns asynchronously, leaving the server to finish processing later on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ The granularity of the logging depends on the current configuration. This call r
 POST /api/v1/Agents/Diagnostics/LogViewState?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,15 +40,16 @@ POST /api/v1/Agents/Diagnostics/LogViewState?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ViewState
+ViewState 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ViewState | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -49,7 +57,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -57,11 +66,11 @@ Response body:
 POST /api/v1/Agents/Diagnostics/LogViewState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ViewState": "eveniet"
+  "ViewState": "maxime"
 }
 ```
 

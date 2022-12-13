@@ -11,7 +11,7 @@ language: en
 
 # Quote (section tab in Sale)
 
-In the **Quote** section tab at the bottom of the **Sale** screen, you can display existing quotes or create new ones. The options available to you here depend on whether a quote has been created for the sale, or not.
+In the **Quote** section tab at the bottom of the **Sale** screen, you can display existing quotes or create new ones. The available options depend on whether the sale has a quote.
 
 ## Sale without an existing quote
 
@@ -23,13 +23,13 @@ In the **Quote** section tab at the bottom of the **Sale** screen, you can displ
 
 **Click to create quote document**: See [Create a quote document][3].
 
-Alternatives: If the quote contains one or more [alternatives][4], you can choose one from the list at the top of the **Quote** section tab. The ![icon][img1]/![icon][img2] icons at the bottom of the list indicate whether the selected alternative is the [favourite alternative][5] or not.
+Alternatives: If the quote contains one or more [alternatives][4], you can choose one from the list at the top of the **Quote** section tab. The ![icon][img1]/![icon][img2] icons at the bottom of the list indicate if the selected alternative is the [favourite alternative][5].
 
 On the right of the **Quote** section tab are the version, quote number and [status][6] (for example, **Draft** or **Sold**). Click **Open** to edit the quote.
 
 [!include[Table showing quote states](../../sale/quote/includes/table-quote-states.md)]
 
-The product list: If products have been added to the quote, they are shown in the list. At the bottom of the list, the total price of the products in it is displayed.
+The product list: If products were added to the quote, they are shown in the list. At the bottom of the list, the total price of the products in it is displayed.
 
 **Export**: Click here to export the product list to a spreadsheet.
 

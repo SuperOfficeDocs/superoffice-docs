@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetProductFromDbId
 
 Get a product with the given database id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a product with the given database id
 ```http
 POST /api/v1/Agents/Quote/GetProductFromDbId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/GetProductFromDbId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProductId
+ProductId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProductId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +79,7 @@ Response body:
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -102,7 +110,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 582
+  "ProductId": 510
 }
 ```
 
@@ -113,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 288,
-  "ERPProductKey": "rerum",
-  "ERPPriceListKey": "repellat",
-  "Name": "Waelchi Inc and Sons",
-  "Description": "Optimized zero administration challenge",
-  "Code": "est",
-  "PriceUnit": "accusamus",
-  "QuantityUnit": "nemo",
+  "ProductId": 70,
+  "ERPProductKey": "magnam",
+  "ERPPriceListKey": "consequatur",
+  "Name": "Fritsch, Witting and Zieme",
+  "Description": "Automated neutral approach",
+  "Code": "blanditiis",
+  "PriceUnit": "sunt",
+  "QuantityUnit": "incidunt",
   "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "DefaultSubscriptionQuantity": 24824.414,
-  "ItemNumber": "1460844",
+  "SubscriptionUnit": "voluptatem",
+  "DefaultSubscriptionQuantity": 5644.334,
+  "ItemNumber": "1611625",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolorum",
-  "ProductTypeKey": "rerum",
-  "VAT": 21784.433999999997,
-  "VATInfo": "quas",
-  "UnitCost": 21085.552,
-  "UnitMinimumPrice": 5901.322,
-  "UnitListPrice": 7346.096,
+  "ProductFamilyKey": "consectetur",
+  "ProductTypeKey": "dicta",
+  "VAT": 17700.832,
+  "VATInfo": "porro",
+  "UnitCost": 24416.994,
+  "UnitMinimumPrice": 22796.716,
+  "UnitListPrice": 31130.021999999997,
   "InAssortment": false,
-  "Supplier": "aut",
-  "SupplierCode": "ratione",
-  "Rights": "nihil",
-  "Rule": "excepturi",
+  "Supplier": "doloribus",
+  "SupplierCode": "quae",
+  "Rights": "et",
+  "Rule": "blanditiis",
   "ExtraInfo": [
     {
-      "Name": "Wiegand, Collier and Olson",
-      "Value": "nostrum",
+      "Name": "VonRueden Inc and Sons",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 697
+          "FieldType": "System.Int32",
+          "FieldLength": 67
         }
       }
     },
     {
-      "Name": "Wiegand, Collier and Olson",
-      "Value": "nostrum",
+      "Name": "VonRueden Inc and Sons",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 697
+          "FieldType": "System.Int32",
+          "FieldLength": 67
         }
       }
     }
   ],
-  "RawExtraInfo": "nostrum",
-  "ExtraField1": "ratione",
-  "ExtraField2": "est",
+  "RawExtraInfo": "eos",
+  "ExtraField1": "autem",
+  "ExtraField2": "culpa",
   "ExtraField3": "quae",
-  "ExtraField4": "velit",
-  "ExtraField5": "dolorum",
-  "InStock": 5907.59,
+  "ExtraField4": "error",
+  "ExtraField5": "quia",
+  "InStock": 29252.755999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldType": "System.String",
+      "FieldLength": 593
     }
   }
 }

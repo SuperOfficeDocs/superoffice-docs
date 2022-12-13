@@ -11,6 +11,13 @@ POST /api/v1/List/MrMrs/Items
 
 Add a new MrMrs to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new MrMrs to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The MrMrs to be added to the list.
+The MrMrs to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The MrMrs to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 773,
-  "Name": "Will, Leffler and Mohr",
-  "Tooltip": "dolorem",
+  "Id": 709,
+  "Name": "Jones Group",
+  "Tooltip": "atque",
   "Deleted": false,
-  "UdListDefinitionId": 407,
-  "Rank": 776
+  "UdListDefinitionId": 50,
+  "Rank": 931
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Koepp Group",
-  "Tooltip": "dolore",
-  "Deleted": true,
-  "UdListDefinitionId": 847,
-  "Rank": 161,
+  "Id": 849,
+  "Name": "Daugherty Inc and Sons",
+  "Tooltip": "consectetur",
+  "Deleted": false,
+  "UdListDefinitionId": 337,
+  "Rank": 528,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldType": "System.String",
+      "FieldLength": 510
     }
   }
 }

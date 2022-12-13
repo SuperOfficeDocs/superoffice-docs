@@ -11,11 +11,18 @@ PUT /api/v1/Document/{documentId}/Content
 
 Store document content from stream.
 
+
 Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | The document entity object that the binary data (document) should be stored to. Its file name may be amended by this call, see the return value. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,11 +38,13 @@ Since there is a potential for a name conflict (the file name stored by the docu
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: stream
+## Request Body: stream  
 
-The document content as a stream.
+The document content as a stream. 
 
-## Response
+
+
+## Response: 
 
 OK
 
@@ -43,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 366,
+  "DocumentId": 872,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "qui",
-  "Header": "placeat",
-  "Name": "Schuppe Group",
-  "OurRef": "corporis",
-  "YourRef": "blanditiis",
-  "CreatedDate": "2010-11-26T11:10:52.8441474+01:00",
-  "UpdatedDate": "2003-01-30T11:10:52.8441474+01:00",
-  "Description": "Reverse-engineered local capability",
+  "Attention": "nesciunt",
+  "Header": "voluptates",
+  "Name": "Morissette-Hahn",
+  "OurRef": "eligendi",
+  "YourRef": "veritatis",
+  "CreatedDate": "2005-05-04T02:49:50.9327883+02:00",
+  "UpdatedDate": "2018-06-19T02:49:50.9327883+02:00",
+  "Description": "User-centric intangible portal",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-06-28T11:10:52.8471739+02:00",
-  "ExternalRef": "quam",
+  "Date": "2004-10-10T02:49:50.9327883+02:00",
+  "ExternalRef": "nemo",
   "Completed": "Completed",
-  "ActiveLinks": 760,
+  "ActiveLinks": 651,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Harvey-Lynch",
-      "Id": 724,
-      "Description": "Digitized motivating ability",
-      "ExtraInfo": "doloremque",
-      "LinkId": 128,
+      "EntityName": "Hintz, Balistreri and Brekke",
+      "Id": 279,
+      "Description": "Polarised optimizing support",
+      "ExtraInfo": "distinctio",
+      "LinkId": 443,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldType": "System.String",
+          "FieldLength": 798
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 31,
-  "Snum": 736,
+  "SuggestedDocumentId": 955,
+  "Snum": 423,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Cecile Kohler"
+    "SuperOffice:1": "Prof. Ansel Casimir Bogan II",
+    "SuperOffice:2": "Mrs. Otis Collier DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "neque",
-    "ExtraFields2": "aspernatur"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "nostrum"
+    "CustomFields1": "vel",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "2009-07-04T11:10:52.8481737+02:00",
-  "PublishTo": "2015-08-01T11:10:52.8481737+02:00",
-  "PublishFrom": "2013-06-01T11:10:52.8481737+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-05-12T02:49:50.9327883+02:00",
+  "PublishTo": "2001-11-05T02:49:50.9327883+01:00",
+  "PublishFrom": "1998-07-21T02:49:50.9327883+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 788,
+      "VisibleId": 920,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 512
+          "FieldType": "System.Int32",
+          "FieldLength": 832
         }
       }
     },
     {
-      "VisibleId": 788,
+      "VisibleId": 920,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 512
+          "FieldType": "System.Int32",
+          "FieldLength": 832
         }
       }
     }
@@ -190,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldType": "System.String",
+      "FieldLength": 275
     }
   }
 }

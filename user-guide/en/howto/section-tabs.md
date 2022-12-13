@@ -18,9 +18,7 @@ The section tabs appear below the main card. These contain, for example, lists o
 
 ## Change the number of records in a list
 
-Some lists may contain hundreds of records. To prevent slow loading of long lists, only a specified number of records are displayed when opening a section tab. To show all records, you can click **Show all** at the bottom of the section tab.
-
-To change the default number of records, do as follows:
+Some lists may contain hundreds of records. To prevent slow loading of long lists, only a specified number of records are displayed when opening a section tab. To show all records, click **Show all** at the bottom of the section tab.
 
 1. Go to the section tab you want to edit.
 2. Click ![icon][img1] on the far right of the column headers in a section tab. A dialog is displayed.

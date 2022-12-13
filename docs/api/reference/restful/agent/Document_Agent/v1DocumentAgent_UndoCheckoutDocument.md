@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/UndoCheckoutDocument
 
 Undo (abandon) a checkout
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Undo (abandon) a checkout
 ```http
 POST /api/v1/Agents/Document/UndoCheckoutDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Document/UndoCheckoutDocument?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, AllowedReturnTypes
+DocumentId, AllowedReturnTypes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | AllowedReturnTypes | array |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 539,
+  "DocumentId": 276,
   "AllowedReturnTypes": [
-    "ut",
-    "et"
+    "neque",
+    "unde"
   ]
 }
 ```
@@ -88,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "minus",
-  "VersionId": "nobis",
-  "Success": false,
+  "ExternalReference": "nesciunt",
+  "VersionId": "officia",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "et",
-  "AdditionalInfo": "impedit"
+  "Value": "velit",
+  "AdditionalInfo": "qui"
 }
 ```

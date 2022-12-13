@@ -11,9 +11,16 @@ GET /api/v1/BatchTask/{id}
 
 Get a single BatchTaskInfo based on Id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | Id of the BatchTaskInfo to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,8 @@ Get a single BatchTaskInfo based on Id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -37,7 +45,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 744,
-  "Name": "Fritsch Group",
-  "AssociateId": 100,
-  "DetailsTable": 176,
-  "DetailsRecord": 364,
-  "IsSystemTask": false,
+  "Id": 753,
+  "Name": "Price-Schmidt",
+  "AssociateId": 448,
+  "DetailsTable": 920,
+  "DetailsRecord": 735,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "labore",
+    "ParameterObject1": "sit",
     "ParameterObject2": "consequatur"
   },
-  "LastStarted": "1999-05-23T11:10:53.6752128+02:00",
-  "Created": "2015-08-22T11:10:53.6752128+02:00",
-  "StartCount": 21,
-  "DatabaseSerialNumber": "1196485",
-  "Context": "ipsa",
-  "Result": "ad",
+  "LastStarted": "2006-01-26T02:49:51.686648+01:00",
+  "Created": "1997-11-29T02:49:51.686648+01:00",
+  "StartCount": 895,
+  "DatabaseSerialNumber": "518220",
+  "Context": "placeat",
+  "Result": "fugiat",
   "State": "All",
-  "Description": "Customizable modular architecture",
-  "Response": "recusandae",
-  "Request": "nihil",
-  "ProgressDescription": "Sharable systemic secured line",
-  "ProgressPercent": 321,
-  "FileName": "Buckridge, Leffler and Howell",
+  "Description": "Reverse-engineered mobile emulation",
+  "Response": "unde",
+  "Request": "sit",
+  "ProgressDescription": "Polarised incremental toolset",
+  "ProgressPercent": 880,
+  "FileName": "Towne-Lang",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldType": "System.String",
+      "FieldLength": 214
     }
   }
 }

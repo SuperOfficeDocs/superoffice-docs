@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetContactWithPersons
 
 Returns the contact with all the contact persons belonging to the contact
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the contact with all the contact persons belonging to the contact
 ```http
 POST /api/v1/Agents/Contact/GetContactWithPersons?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Contact/GetContactWithPersons?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -108,11 +116,11 @@ Response body:
 POST /api/v1/Agents/Contact/GetContactWithPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 484
+  "ContactId": 667
 }
 ```
 
@@ -123,157 +131,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 993,
-  "Name": "Dietrich-Tromp",
-  "Department": "morph 24/365 communities",
-  "OrgNr": "695426",
-  "Number1": "935561",
-  "Number2": "983869",
-  "UpdatedDate": "2021-09-27T11:10:26.2835604+02:00",
-  "CreatedDate": "2011-10-11T11:10:26.2835604+02:00",
+  "ContactId": 963,
+  "Name": "Pouros, Sauer and Fay",
+  "Department": "",
+  "OrgNr": "1609096",
+  "Number1": "453577",
+  "Number2": "983233",
+  "UpdatedDate": "2014-08-31T02:49:43.9347802+02:00",
+  "CreatedDate": "2016-06-15T02:49:43.9347802+02:00",
   "Emails": [
     {
-      "Value": "quam",
-      "StrippedValue": "hic",
-      "Description": "Right-sized scalable productivity",
+      "Value": "qui",
+      "StrippedValue": "maiores",
+      "Description": "Persevering next generation project",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldLength": 166
         }
       }
     },
     {
-      "Value": "quam",
-      "StrippedValue": "hic",
-      "Description": "Right-sized scalable productivity",
+      "Value": "qui",
+      "StrippedValue": "maiores",
+      "Description": "Persevering next generation project",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldLength": 166
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 263,
-      "Name": "Dare-Kovacek",
-      "ToolTip": "Perspiciatis architecto voluptas ullam illo sunt quis quibusdam.",
+      "Id": 507,
+      "Name": "Schoen, Kirlin and Mueller",
+      "ToolTip": "Rerum qui quia deserunt iure.",
       "Deleted": false,
-      "Rank": 968,
-      "Type": "ad",
-      "ColorBlock": 541,
-      "IconHint": "illo",
+      "Rank": 966,
+      "Type": "fugiat",
+      "ColorBlock": 857,
+      "IconHint": "ducimus",
       "Selected": false,
-      "LastChanged": "1999-06-26T11:10:26.2835604+02:00",
+      "LastChanged": "1996-06-12T02:49:43.9347802+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vitae",
-      "StyleHint": "magnam",
+      "ExtraInfo": "ea",
+      "StyleHint": "neque",
       "Hidden": false,
-      "FullName": "Dr. Jacinthe Braun",
+      "FullName": "Anika Waelchi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 155
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "eos",
-      "StrippedValue": "id",
-      "Description": "Synergized uniform standardization",
+      "Value": "at",
+      "StrippedValue": "est",
+      "Description": "Extended zero tolerance array",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldType": "System.String",
+          "FieldLength": 436
         }
       }
     },
     {
-      "Value": "eos",
-      "StrippedValue": "id",
-      "Description": "Synergized uniform standardization",
+      "Value": "at",
+      "StrippedValue": "est",
+      "Description": "Extended zero tolerance array",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldType": "System.String",
+          "FieldLength": 436
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "aspernatur",
-      "StrippedValue": "quia",
-      "Description": "Polarised 6th generation structure",
+      "Value": "ipsam",
+      "StrippedValue": "voluptas",
+      "Description": "Implemented full-range collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 552
+          "FieldLength": 671
         }
       }
     },
     {
-      "Value": "aspernatur",
-      "StrippedValue": "quia",
-      "Description": "Polarised 6th generation structure",
+      "Value": "ipsam",
+      "StrippedValue": "voluptas",
+      "Description": "Implemented full-range collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 552
+          "FieldLength": 671
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "voluptatem",
-      "StrippedValue": "et",
-      "Description": "Fundamental 24 hour monitoring",
+      "Value": "quod",
+      "StrippedValue": "quaerat",
+      "Description": "Progressive background superstructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 208
+          "FieldLength": 225
         }
       }
     },
     {
-      "Value": "voluptatem",
-      "StrippedValue": "et",
-      "Description": "Fundamental 24 hour monitoring",
+      "Value": "quod",
+      "StrippedValue": "quaerat",
+      "Description": "Progressive background superstructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 208
+          "FieldLength": 225
         }
       }
     }
   ],
-  "Description": "Multi-layered 24 hour standardization",
+  "Description": "Multi-layered fault-tolerant encoding",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -282,100 +290,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quasi",
-      "PersonId": 793,
-      "Mrmrs": "vitae",
-      "Firstname": "Lou",
-      "Lastname": "Considine",
-      "MiddleName": "Glover Group",
-      "Title": "esse",
-      "Description": "Enterprise-wide dedicated capacity",
-      "Email": "linnea@gutmann.us",
-      "FullName": "Esther Medhurst",
-      "DirectPhone": "1-378-186-3956",
-      "FormalName": "O'Reilly, Wolff and Fadel",
-      "CountryId": 267,
-      "ContactId": 214,
-      "ContactName": "Herman Inc and Sons",
-      "Retired": 636,
-      "Rank": 252,
-      "ActiveInterests": 886,
+      "Position": "a",
+      "PersonId": 786,
+      "Mrmrs": "nisi",
+      "Firstname": "Irma",
+      "Lastname": "Zieme",
+      "MiddleName": "Pagac-Corkery",
+      "Title": "non",
+      "Description": "Advanced didactic firmware",
+      "Email": "kayla@kundewunsch.biz",
+      "FullName": "Taurean Rolfson",
+      "DirectPhone": "(798)775-3295 x2967",
+      "FormalName": "Bode, Kunde and Walker",
+      "CountryId": 746,
+      "ContactId": 592,
+      "ContactName": "Runte LLC",
+      "Retired": 836,
+      "Rank": 741,
+      "ActiveInterests": 549,
       "ContactDepartment": "",
-      "ContactCountryId": 600,
-      "ContactOrgNr": "303188",
-      "FaxPhone": "356.837.1858 x0840",
-      "MobilePhone": "917-575-6068 x28936",
-      "ContactPhone": "(536)242-7853 x899",
-      "AssociateName": "Mann, Heathcote and McDermott",
-      "AssociateId": 900,
+      "ContactCountryId": 135,
+      "ContactOrgNr": "1397890",
+      "FaxPhone": "(895)432-6436",
+      "MobilePhone": "1-809-588-5170",
+      "ContactPhone": "(421)838-3963 x6216",
+      "AssociateName": "Toy-Rau",
+      "AssociateId": 737,
       "UsePersonAddress": false,
-      "ContactFax": "rerum",
-      "Kanafname": "dicta",
-      "Kanalname": "ut",
-      "Post1": "eligendi",
-      "Post2": "enim",
-      "Post3": "ad",
-      "EmailName": "stephon_predovic@torp.com",
-      "ContactFullName": "Freida Torp",
-      "ActiveErpLinks": 802,
-      "TicketPriorityId": 409,
-      "SupportLanguageId": 671,
-      "SupportAssociateId": 748,
+      "ContactFax": "deserunt",
+      "Kanafname": "voluptates",
+      "Kanalname": "asperiores",
+      "Post1": "adipisci",
+      "Post2": "sed",
+      "Post3": "culpa",
+      "EmailName": "margaretta_collier@oconnell.uk",
+      "ContactFullName": "Theron McClure",
+      "ActiveErpLinks": 704,
+      "TicketPriorityId": 83,
+      "SupportLanguageId": 704,
+      "SupportAssociateId": 609,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 871
+          "FieldType": "System.String",
+          "FieldLength": 231
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "omnis",
-  "Xstop": false,
-  "ActiveInterests": 664,
-  "GroupId": 815,
-  "ActiveStatusMonitorId": 17,
+  "Kananame": "tempore",
+  "Xstop": true,
+  "ActiveInterests": 483,
+  "GroupId": 75,
+  "ActiveStatusMonitorId": 48,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 960,
-  "DbiAgentId": 525,
-  "DbiLastSyncronized": "2009-03-20T11:10:26.2885535+01:00",
-  "DbiKey": "sapiente",
-  "DbiLastModified": "2012-12-24T11:10:26.2885535+01:00",
+  "Deleted": 611,
+  "DbiAgentId": 709,
+  "DbiLastSyncronized": "2015-06-22T02:49:43.9347802+02:00",
+  "DbiKey": "et",
+  "DbiLastModified": "2012-10-24T02:49:43.9347802+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 730,
-  "ActiveErpLinks": 322,
+  "Source": 180,
+  "ActiveErpLinks": 911,
   "BounceEmails": [
-    "garnet@little.info",
-    "wiley@reynolds.us"
+    "karen_mueller@jast.ca",
+    "lily_oreilly@quitzon.biz"
   ],
   "Domains": [
-    "aut",
-    "voluptatum"
+    "culpa",
+    "exercitationem"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "1873434259",
-    "SuperOffice:2": "276550569"
+    "SuperOffice:1": "Mr. Clyde Adams PhD",
+    "SuperOffice:2": "301299020"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "ratione",
+    "ExtraFields2": "maxime"
   },
   "CustomFields": {
-    "CustomFields1": "assumenda",
-    "CustomFields2": "aut"
+    "CustomFields1": "sint",
+    "CustomFields2": "adipisci"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 944
     }
   }
 }

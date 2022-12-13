@@ -22,11 +22,11 @@ Using the **Status monitors/SAINT** tab, you can create statuses for companies, 
 
 ## Status images
 
-Statuses can be shown as images on the cards of projects, contacts or companies that fulfil the criteria you have specified. The status image for a customer you have had no contact with for a while might, for example, be a spider's web. This then provides a visual and immediate indication of what your relations with the customer are or how a project is progressing. When the user clicks or holds the mouse pointer over a status image in SuperOffice CRM, some text is displayed, which might, for instance, indicate the actions that should be taken (you yourself enter the text when you create the status).
+Statuses can be shown as images on the cards of projects, contacts or companies that fulfil your criteria. The status image for a customer you have had no contact with for a while could, for example, be a spider's web. This then provides a visual and immediate indication of what your relations with the customer are or how a project is progressing. When the user clicks or holds the mouse pointer over a status image in SuperOffice CRM, some text is displayed. For example, to indicate the actions that should be taken (you yourself enter the text when you create the status).
 
 ## Default follow-up for a status
 
-When the user opens the status dialog in SuperOffice CRM, he or she is also invited to create a follow-up for the status in question. The follow-up type and text can be predefined.
+When the user opens the status dialog in SuperOffice CRM, they may also create a follow-up for the status in question. The follow-up type and text can be predefined.
 
 <details><summary>Click here for an example.</summary>
 
@@ -39,11 +39,11 @@ Statuses and counters can be used in searches and to create dynamic selections. 
 
 ## Periods
 
-You can specify up to three different periods for counters, so that the SAINT criteria can cover shorter or longer periods. If you specify three periods of 30, 60 and 90 days respectively, you will be able to select SAINT criteria for each of these periods.
+You can specify up to three different periods for counters, so that the SAINT criteria can cover shorter or longer periods. If you specify three periods of 30, 60 and 90 days respectively, you can select SAINT criteria for each of these periods.
 
 ## Creation of new statuses
 
-To create a status, you need to perform these steps:
+To create a status, follow these steps:
 
 * [Create a new status][1]
 * [Select an image for a status][2]

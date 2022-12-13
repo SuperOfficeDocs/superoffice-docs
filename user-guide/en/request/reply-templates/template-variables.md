@@ -11,7 +11,7 @@ language: en
 
 # Template variables (Service)
 
-In the e-mail message, you can use template variables to insert customer-specific information to give the message a more personal touch. In this way, you can customise the content for each individual customer.
+In the email message, you can use template variables to insert customer-specific information to give the message a more personal touch. In this way, you can customize the content for each individual customer.
 
 In the tables below you can find all template variables for SuperOffice Service and SuperOffice Marketing.
 
@@ -34,7 +34,7 @@ When editing reply templates and mailings, you can insert template variables by 
 | licence.admin | 1 if the customer has licence for Admin, otherwise 0 |
 | licence.advancedfaq | 1 if the customer has licence for Advanced FAQ, otherwise 0 |
 | licence.ajax | 1 if the customer has licence for Ajax, otherwise 0 |
-| licence.blogic | 1 if the customer has licence for Blogic, otherwise 0 |
+| licence.blogic | 1 if the customer has licence for bLogic, otherwise 0 |
 | licence.chat | 1 if the customer has licence for Chat, otherwise 0 |
 | licence.custlang | 1 if the customer has licence for CustLang, otherwise 0 |
 | licence.customer | 1 if the customer has licence for Customer, otherwise 0 |
@@ -74,11 +74,11 @@ When editing reply templates and mailings, you can insert template variables by 
 | config.companyName | The name of the owner company |
 | config.defaultMail | The default mail-from address for this installation |
 | config.gfxUrl | The URL suffix for the GFX-files |
-| config.mailTag | The "Please include the ticket id..." phrase used as first line in outbound emails |
-| config.panicMail | The email address where error messages will be sent |
+| config.mailTag | The "Please include the ticket ID..." phrase used as first line in outbound emails |
+| config.panicMail | The email address to send error messages to |
 | config.smtpHost | The hostname for the outbound SMTP |
 | config.smtpPort | The port for the outbound SMTP |
-| config.tag | The prefix before the request number in the subject line for emails, e.g. “ejTag:” |
+| config.tag | The prefix before the request number in the subject line for emails. For example, "ejTag:" |
 | config.uniqueId | The unique ID for this installation |
 | config.warning | The path for the warning log files |
 | config.wwwPath | The system path for WWW files |
@@ -90,7 +90,7 @@ When editing reply templates and mailings, you can insert template variables by 
 | customer.bestName | The best available name for this customer |
 | customer.cellphone | Mobile phone number |
 | customer.deleted | 1 If this customer is deleted |
-| customer.email | E-mail address |
+| customer.email | Email address |
 | customer.firstname | First name |
 | customer.id | Contact ID (hidden, unique ID) |
 | customer.language | Selected language on contact |
@@ -111,7 +111,7 @@ When editing reply templates and mailings, you can insert template variables by 
 
 | Variable | Description|
 |---|---|
-| ticket.activate | When the request will be activated, if it is in a postponed state |
+| ticket.activate | When to activate the request, if it is in a postponed state |
 | ticket.alertLevel | Alert level |
 | ticket.author | The name of the person creating the request |
 | ticket.category | Same as ticket.category.id |
@@ -128,8 +128,8 @@ When editing reply templates and mailings, you can insert template variables by 
 | ticket.customerUrl | The URL for accessing the request for the customer |
 | ticket.customerUrlEnc | The URL for accessing the request for the customer, URL-encoded |
 | ticket.customerUrlOld | The URL for accessing the request for the customer, not encoded. Kept for backwards compatibility. |
-| ticket.dbiAgentId | The ID of the DBI agent if this request has been synced using DBI |
-| ticket.dbiKey | The external primary key if this request has been synced using DBI |
+| ticket.dbiAgentId | The ID of the DBI agent if this request was synced using DBI |
+| ticket.dbiKey | The external primary key if this request was synced using DBI |
 | ticket.deadline | The deadline of the request |
 | ticket.id | Request ID (hidden, unique ID) |
 | ticket.lastChanged | The datetime when the request was last changed in the user's default format |
@@ -163,18 +163,18 @@ When editing reply templates and mailings, you can insert template variables by 
 | company.note | Note |
 | company.ourContact | Same as company.primaryContact.id |
 | company.ourContact.cellphone | Our contact, cell phone number |
-| company.ourContact.email | Our contact, e-mail address |
+| company.ourContact.email | Our contact, email address |
 | company.ourContact.name | Our contact, name |
 | company.ourContact.phone | Our contact, phone number |
 | company.ourSalesContact | The id (associate) of the company's KAM |
 | company.ourSalesContact.cellphone | Our sales contact, cell phone number |
-| company.ourSalesContact.email | Our sales contact, e-mail address |
+| company.ourSalesContact.email | Our sales contact, email address |
 | company.ourSalesContact.name | Our sales contact, name |
 | company.ourSalesContact.phone | Our sales contact, phone number |
 | company.phone | Phone number |
-| company.primaryContact.email | Main contact, e-mail address |
+| company.primaryContact.email | Main contact, email address |
 | company.primaryContact.id | The id (ejuser) of the agent which is marked as the primary support contact for this company |
-| ourContact.email | Our contacts e-mail address |
+| ourContact.email | Our contacts email address |
 | ourContact.name | Our contact |
 
 ## Variables for reply templates (user) (only SuperOffice Service)
@@ -185,7 +185,7 @@ Please note that these variables will not work for automated replies sent by the
 |---|---|
 | user.access | The sender's functional access as a bitmask |
 | user.dictionary | The users default dictionary language |
-| user.email | E-mail address |
+| user.email | Email address |
 | user.firstname | First name |
 | user.id | The primary key of the sender in the ejuser table |
 | user.language | Sender's selected language |

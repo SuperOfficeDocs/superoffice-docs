@@ -11,7 +11,14 @@ GET /api/v1/Appointment/default
 
 Set default values into a new AppointmentEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Appointment agent service CreateDefaultAppointmentEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,7 +110,7 @@ Response body:
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,129 +118,129 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 28 Jul 2003 11:10:52 G7T
+Last-Modified: Sun, 22 Oct 1995 02:49:50 G10T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-10-31T11:10:52.3013259+01:00",
-  "AppointmentId": 271,
-  "Description": "Operative asynchronous customer loyalty",
-  "StartDate": "2006-12-03T11:10:52.3013259+01:00",
-  "EndDate": "2021-08-15T11:10:52.3013259+02:00",
+  "CreatedDate": "1995-09-13T02:49:50.4640327+02:00",
+  "AppointmentId": 907,
+  "Description": "Optional empowering task-force",
+  "StartDate": "2017-06-07T02:49:50.4640327+02:00",
+  "EndDate": "2021-11-04T02:49:50.4640327+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 650,
+  "MotherId": 784,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-07-28T11:10:52.3062903+02:00",
+  "UpdatedDate": "1995-10-22T02:49:50.4640327+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 37,
+  "ActiveLinks": 217,
   "Links": [
     {
-      "EntityName": "Prohaska, Dicki and Kirlin",
-      "Id": 868,
-      "Description": "Centralized zero administration local area network",
-      "ExtraInfo": "sit",
-      "LinkId": 205,
+      "EntityName": "Kohler, Fritsch and Mayer",
+      "Id": 961,
+      "Description": "Ergonomic regional core",
+      "ExtraInfo": "modi",
+      "LinkId": 525,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldLength": 267
         }
       }
     }
   ],
-  "AlarmLeadTime": "quasi",
-  "HasAlarm": true,
-  "ColorIndex": 959,
+  "AlarmLeadTime": "sapiente",
+  "HasAlarm": false,
+  "ColorIndex": 867,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "autem",
-  "LeadTime": "qui",
-  "Location": "voluptas",
-  "RejectCounter": 519,
+  "IsAlldayEvent": false,
+  "LagTime": "aliquam",
+  "LeadTime": "doloribus",
+  "Location": "dolorum",
+  "RejectCounter": 802,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 577,
-      "PersonId": 493,
-      "ContactId": 447,
-      "EmailId": 846,
-      "SendEmail": true,
+      "AssociateId": 156,
+      "PersonId": 308,
+      "ContactId": 866,
+      "EmailId": 580,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 577,
-      "PersonId": 493,
-      "ContactId": 447,
-      "EmailId": 846,
-      "SendEmail": true,
+      "AssociateId": 156,
+      "PersonId": 308,
+      "ContactId": 866,
+      "EmailId": 580,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-04-24T11:10:52.3062903+02:00",
+  "ActiveDate": "1997-06-08T02:49:50.4640327+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 954,
+  "PreferredTZLocation": 94,
   "Sale": null,
-  "SuggestedAppointmentId": 878,
+  "SuggestedAppointmentId": 709,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "praesentium",
+  "CentralserviceVideomeetId": "nihil",
   "UserDefinedFields": {
-    "SuperOffice:1": "759660879",
-    "SuperOffice:2": "Prof. Chanelle Jamir Wolf V"
+    "SuperOffice:1": "Felix Daniel Jr.",
+    "SuperOffice:2": "Nichole McClure"
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "inventore"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "doloribus"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "dignissimos"
+    "CustomFields1": "autem",
+    "CustomFields2": "ea"
   },
-  "PublishEventDate": "2011-04-25T11:10:52.3082897+02:00",
-  "PublishTo": "2000-06-29T11:10:52.3082897+02:00",
-  "PublishFrom": "2010-10-13T11:10:52.3082897+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2003-10-18T02:49:50.4640327+02:00",
+  "PublishTo": "2018-07-20T02:49:50.4640327+02:00",
+  "PublishFrom": "2013-07-13T02:49:50.4640327+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 975,
+      "VisibleId": 612,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 638
+          "FieldType": "System.Int32",
+          "FieldLength": 695
         }
       }
     },
     {
-      "VisibleId": 975,
+      "VisibleId": 612,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 638
+          "FieldType": "System.Int32",
+          "FieldLength": 695
         }
       }
     }
@@ -242,7 +250,7 @@ Last-Modified: Mon, 28 Jul 2003 11:10:52 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldLength": 169
     }
   }
 }

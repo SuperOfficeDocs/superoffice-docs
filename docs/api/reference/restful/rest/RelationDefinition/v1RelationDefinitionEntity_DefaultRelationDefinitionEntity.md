@@ -11,7 +11,14 @@ GET /api/v1/RelationDefinition/default
 
 Set default values into a new RelationDefinitionEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the List agent service CreateDefaultRelationDefinitionEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +63,7 @@ Response body:
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -65,12 +73,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 681,
-  "Name": "Trantow-Mertz",
-  "Tooltip": "repellat",
-  "PassiveText": "nobis",
+  "ReldefId": 575,
+  "Name": "Ryan-Bins",
+  "Tooltip": "adipisci",
+  "PassiveText": "et",
   "Deleted": false,
-  "Rank": 919,
+  "Rank": 453,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -78,7 +86,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 891
     }
   }
 }

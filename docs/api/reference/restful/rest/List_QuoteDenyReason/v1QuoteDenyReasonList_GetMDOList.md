@@ -11,6 +11,12 @@ GET /api/v1/List/QuoteDenyReason/MDOItems
 
 Get the MDO list items for "QuoteDenyReason" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=quis
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=in
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/QuoteDenyReason/MDOItems?query=quis
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "Ritchie, Beatty and Abbott",
-    "ToolTip": "Voluptatem id tempore.",
+    "Id": 419,
+    "Name": "Parker Group",
+    "ToolTip": "Ipsum sapiente.",
     "Deleted": false,
-    "Rank": 395,
-    "Type": "occaecati",
+    "Rank": 783,
+    "Type": "similique",
     "ChildItems": [
       {
-        "Id": 629,
-        "Name": "Kuvalis, Conroy and Torphy",
-        "ToolTip": "Eligendi sequi et soluta aut.",
-        "Deleted": false,
-        "Rank": 467,
-        "Type": "animi",
+        "Id": 165,
+        "Name": "Beatty-Beahan",
+        "ToolTip": "Debitis et est illum sunt deleniti nobis.",
+        "Deleted": true,
+        "Rank": 53,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 932,
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "velit",
-        "FullName": "Prof. Lyla Wuckert MD",
+        "IconHint": "modi",
+        "ColorBlock": 337,
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "et",
+        "FullName": "Mr. Evalyn Rolfson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 402
+            "FieldLength": 491
           }
         }
       }
     ],
-    "IconHint": "ipsam",
-    "ColorBlock": 790,
-    "ExtraInfo": "sed",
-    "StyleHint": "rerum",
-    "FullName": "Prof. Dominique Kristopher Wintheiser II",
+    "IconHint": "libero",
+    "ColorBlock": 464,
+    "ExtraInfo": "optio",
+    "StyleHint": "quidem",
+    "FullName": "Ora Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldType": "System.Int32",
+        "FieldLength": 440
       }
     }
   }

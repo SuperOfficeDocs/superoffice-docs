@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveListEntityByName
 
 Save a ListEntity resolved by the provided name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save a ListEntity resolved by the provided name.
 ```http
 POST /api/v1/Agents/List/SaveListEntityByName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/List/SaveListEntityByName?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, ListEntity
+Name, ListEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | ListEntity |  | The list entity contains information about a specific list <para /> Carrier object for ListEntity. Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,11 +83,11 @@ Response body:
 POST /api/v1/Agents/List/SaveListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Upton-Pouros",
+  "Name": "Ebert LLC",
   "ListEntity": null
 }
 ```
@@ -91,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 269,
-  "Name": "Wiegand LLC",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 481,
+  "Id": 564,
+  "Name": "Leuschke, Becker and Monahan",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "Rank": 493,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "sint",
+  "ListType": "voluptatum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 254
+      "FieldType": "System.Int32",
+      "FieldLength": 204
     }
   }
 }

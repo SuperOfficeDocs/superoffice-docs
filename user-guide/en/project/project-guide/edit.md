@@ -6,15 +6,14 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: project, guide
 so.topic: howto
-so.audience: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
 # Edit a project guide
 
 [!include[Must be admin](../../includes/req-admin.md)]
-
-To edit an existing project guide:
 
 1. Click the **Workflow** button in the Navigator (![icon][img1]).
 2. Select the **Project guide** tab.
@@ -31,7 +30,7 @@ To edit an existing project guide:
 <!-- Referenced links -->
 [1]: create.md#add-a-document-for-a-status
 [2]: create.md#add-a-follow-up-for-a-status
-[3]: ../admin/add-status.md
+[3]: ../../settings/lists/project-status.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-admin-workflow-active.png

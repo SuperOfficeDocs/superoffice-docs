@@ -11,7 +11,14 @@ POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 
 Set default values into a new DiaryViewEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +63,7 @@ Response body:
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -65,49 +73,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 71,
-  "Name": "Mosciski-Mueller",
-  "Tooltip": "consequatur",
-  "VisibleColumns": 920,
-  "Rank": 286,
-  "AssocId": 922,
+  "DiaryViewId": 125,
+  "Name": "Bayer, Stamm and Greenfelder",
+  "Tooltip": "autem",
+  "VisibleColumns": 654,
+  "Rank": 111,
+  "AssocId": 785,
   "AssociateList": [
     {
-      "Id": 224,
-      "Name": "McGlynn Group",
-      "ToolTip": "Aut quisquam animi aliquid maxime sequi explicabo occaecati.",
+      "Id": 57,
+      "Name": "Brown Inc and Sons",
+      "ToolTip": "Ea repellendus at eos nihil tenetur saepe.",
       "Deleted": false,
-      "Rank": 49,
-      "Type": "ipsa",
-      "ColorBlock": 912,
-      "IconHint": "corporis",
+      "Rank": 986,
+      "Type": "eum",
+      "ColorBlock": 683,
+      "IconHint": "voluptate",
       "Selected": false,
-      "LastChanged": "2020-05-15T11:10:26.1955254+02:00",
+      "LastChanged": "2005-06-23T02:49:43.8566571+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "optio",
-      "StyleHint": "repudiandae",
+      "ExtraInfo": "quae",
+      "StyleHint": "repellendus",
       "Hidden": true,
-      "FullName": "Henderson Connelly",
+      "FullName": "Mr. Lucas Dach Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 270
+          "FieldLength": 676
         }
       }
     }
   ],
-  "TzLocationId": 304,
+  "TzLocationId": 292,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 891
     }
   }
 }

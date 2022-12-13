@@ -11,7 +11,7 @@ language: en
 
 # Add items to the Follow-up - Type list
 
-When you add an item to the **Follow-up - Type** list in Settings and maintenance, the **Edit List item** dialog is not the same as described under [Add items][1].
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the items are follow-up types:
 
@@ -22,9 +22,9 @@ When you add an item to the **Follow-up - Type** list in Settings and maintenanc
 
 2. Click the arrow ( ![icon][img1] ) next to the **Type** field and select the required follow-up type from the list box. You can choose from **Appointment**, **Phone call** and **Task**.
 
-3. In the **Direction** field, specify whether the follow-up will be outgoing or incoming, by clicking the arrow ( ![icon][img1] ) and choosing from the list box.
+3. In the **Direction** field, specify if the follow-up is outgoing or incoming by clicking the arrow ( ![icon][img1] ) and choosing from the list box.
 
-4. In the **Colour** field, choose which background colour this follow-up type should have in the **Diary** screen in SuperOffice CRM. This setting will then apply across the organisation.
+4. In the **Color** field, choose which background color this follow-up type should have in the **Diary** screen in SuperOffice CRM. This setting will then apply across the organization.
 
 5. In the **Intention** field, click the arrow (![icon][img1] ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [SAINT][2]).
 
@@ -40,7 +40,6 @@ When you add an item to the **Follow-up - Type** list in Settings and maintenanc
 7. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
-[1]: adding-items.md
 [2]: ../../sale/saint/index.md
 
 <!-- Referenced images -->

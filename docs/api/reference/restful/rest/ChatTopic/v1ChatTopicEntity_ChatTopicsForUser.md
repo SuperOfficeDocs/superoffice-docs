@@ -11,7 +11,14 @@ GET /api/v1/ChatTopic/ForCurrentUser
 
 Get all chat topics which this user is a member of.
 
+
 Members means that you have at least one of: Can Respond, Notifications, Listen or Manager
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,6 +32,7 @@ Members means that you have at least one of: Can Respond, Notifications, Listen 
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -78,7 +86,7 @@ Response body: array
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,43 +97,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 724,
-    "Name": "Borer-Denesik",
-    "Description": "Universal human-resource protocol",
-    "WelcomeMessage": "aliquid",
+    "ChatTopicId": 106,
+    "Name": "Mitchell Group",
+    "Description": "Multi-layered leading edge Graphic Interface",
+    "WelcomeMessage": "expedita",
     "Language": null,
-    "LastAccept": "1999-12-28T11:10:52.5861846+01:00",
-    "SecondsPrAccept": 421,
-    "AlertRecipient": "excepturi",
+    "LastAccept": "2016-02-08T02:49:50.6984105+01:00",
+    "SecondsPrAccept": 437,
+    "AlertRecipient": "ut",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "modi",
+    "CollectConsent": false,
+    "BadgeHeader": "totam",
     "CustomQueueTextEnabled": true,
-    "CustomQueueText": "maxime",
-    "WarnNewChatMinutes": 894,
-    "WarnManagerNewChatMinutes": 71,
-    "TicketEnabled": false,
+    "CustomQueueText": "nisi",
+    "WarnNewChatMinutes": 473,
+    "WarnManagerNewChatMinutes": 977,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 426,
-    "WarnManagerChatMessageMinutes": 575,
+    "WarnChatMessageMinutes": 17,
+    "WarnManagerChatMessageMinutes": 602,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 41,
-    "OfflineFormQueueLength": 751,
+    "OfflineFormTimeLimit": 306,
+    "OfflineFormQueueLength": 708,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "cum",
+    "WidgetRatingText": "ipsam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldLength": 472
       }
     }
   }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 08.26.2022
+so.date: 11.29.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -67,6 +67,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IEMailAgent'>EM
 * [GetEmailMessageIds](getemailmessageids.md)
 * [GetEmailsAsString](getemailsasstring.md)
 * [GetEMailSOInfo](getemailsoinfo.md)
+* [GetExtendedEmailMessageIds](getextendedemailmessageids.md)
 * [GetFolderEMailCount](getfolderemailcount.md)
 * [GetFolderHasNewEMail](getfolderhasnewemail.md)
 * [GetFolderInfo](getfolderinfo.md)
@@ -113,3 +114,4 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IEMailAgent'>EM
 * [SyncEmailAccounts](syncemailaccounts.md)
 * [TestAuthenticate](testauthenticate.md)
 * [ToggleSubscription](togglesubscription.md)
+

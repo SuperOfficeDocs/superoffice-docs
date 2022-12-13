@@ -11,12 +11,18 @@ GET /api/v1/Contact/{contactId}/Image
 
 The contact's picture.
 
-The image is returned as stored. If width/height or format is specified, then the image is
+
+The image is returned as stored. If width/height or format is specified, then the image is 
 scaled and converted to the requested type.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | Contact id **Required** |
+
 
 ## Query String Parameters
 
@@ -28,11 +34,12 @@ scaled and converted to the requested type.
 | ifBlank | Enum: Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder, Null, GenericFileIcon |  What to return if there is no picture (default = Null = 404 Error) (Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder) |
 
 ```http
-GET /api/v1/Contact/{contactId}/Image?w=38
-GET /api/v1/Contact/{contactId}/Image?h=661
+GET /api/v1/Contact/{contactId}/Image?w=319
+GET /api/v1/Contact/{contactId}/Image?h=467
 GET /api/v1/Contact/{contactId}/Image?type=aut
 GET /api/v1/Contact/{contactId}/Image?ifBlank=ClearPixel
 ```
+
 
 ## Request Headers
 
@@ -47,6 +54,7 @@ GET /api/v1/Contact/{contactId}/Image?ifBlank=ClearPixel
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: byte
 
 An image
@@ -58,13 +66,14 @@ An image
 
 Response body: byte
 
+
 ## Sample request
 
 ```http!
 GET /api/v1/Contact/{contactId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

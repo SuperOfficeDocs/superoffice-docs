@@ -11,7 +11,13 @@ POST /api/v1/Agents/Contact/GetMyBizCard
 
 Returns all data needed to display the logged on person's business card.
 
+
 That is company, person, and company interest data.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ That is company, person, and company interest data.
 ```http
 POST /api/v1/Agents/Contact/GetMyBizCard?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Contact/GetMyBizCard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -111,157 +119,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 167,
-  "Name": "Leuschke Inc and Sons",
+  "ContactId": 23,
+  "Name": "Fisher Group",
   "Department": "",
-  "OrgNr": "1156666",
-  "Number1": "1605113",
-  "Number2": "483104",
-  "UpdatedDate": "2013-06-25T11:10:26.3134247+02:00",
-  "CreatedDate": "2014-04-08T11:10:26.3134247+02:00",
+  "OrgNr": "524499",
+  "Number1": "1626627",
+  "Number2": "1098962",
+  "UpdatedDate": "2018-06-23T02:49:43.9504047+02:00",
+  "CreatedDate": "1995-10-07T02:49:43.9504047+02:00",
   "Emails": [
     {
-      "Value": "qui",
-      "StrippedValue": "quisquam",
-      "Description": "Synergized composite capability",
+      "Value": "officia",
+      "StrippedValue": "numquam",
+      "Description": "Reduced attitude-oriented installation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 974
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "quisquam",
-      "Description": "Synergized composite capability",
+      "Value": "officia",
+      "StrippedValue": "numquam",
+      "Description": "Reduced attitude-oriented installation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 974
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 396,
-      "Name": "Crooks-Schulist",
-      "ToolTip": "Consectetur ipsa magnam deserunt inventore ducimus nihil occaecati.",
+      "Id": 570,
+      "Name": "Reinger Group",
+      "ToolTip": "Qui quasi et veritatis.",
       "Deleted": false,
-      "Rank": 153,
-      "Type": "autem",
-      "ColorBlock": 456,
-      "IconHint": "sit",
-      "Selected": false,
-      "LastChanged": "2002-05-26T11:10:26.3134247+02:00",
+      "Rank": 893,
+      "Type": "tenetur",
+      "ColorBlock": 60,
+      "IconHint": "esse",
+      "Selected": true,
+      "LastChanged": "2002-05-18T02:49:43.9504047+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "fugit",
-      "StyleHint": "velit",
+      "ExtraInfo": "magni",
+      "StyleHint": "rerum",
       "Hidden": false,
-      "FullName": "Aditya Blanda",
+      "FullName": "Philip Rau",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldLength": 281
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "ab",
-      "StrippedValue": "aliquid",
-      "Description": "Seamless systematic attitude",
+      "Value": "vero",
+      "StrippedValue": "laboriosam",
+      "Description": "Enterprise-wide clear-thinking policy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldType": "System.String",
+          "FieldLength": 488
         }
       }
     },
     {
-      "Value": "ab",
-      "StrippedValue": "aliquid",
-      "Description": "Seamless systematic attitude",
+      "Value": "vero",
+      "StrippedValue": "laboriosam",
+      "Description": "Enterprise-wide clear-thinking policy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldType": "System.String",
+          "FieldLength": 488
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "magni",
-      "StrippedValue": "vel",
-      "Description": "Automated incremental project",
+      "Value": "cum",
+      "StrippedValue": "explicabo",
+      "Description": "Re-contextualized regional infrastructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 793
+          "FieldLength": 522
         }
       }
     },
     {
-      "Value": "magni",
-      "StrippedValue": "vel",
-      "Description": "Automated incremental project",
+      "Value": "cum",
+      "StrippedValue": "explicabo",
+      "Description": "Re-contextualized regional infrastructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 793
+          "FieldLength": 522
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "porro",
-      "StrippedValue": "dignissimos",
-      "Description": "Triple-buffered zero tolerance flexibility",
+      "Value": "non",
+      "StrippedValue": "incidunt",
+      "Description": "Exclusive interactive adapter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 683
+          "FieldLength": 386
         }
       }
     },
     {
-      "Value": "porro",
-      "StrippedValue": "dignissimos",
-      "Description": "Triple-buffered zero tolerance flexibility",
+      "Value": "non",
+      "StrippedValue": "incidunt",
+      "Description": "Exclusive interactive adapter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 683
+          "FieldLength": 386
         }
       }
     }
   ],
-  "Description": "Streamlined web-enabled projection",
+  "Description": "Customizable executive extranet",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -270,100 +278,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "et",
-      "PersonId": 665,
-      "Mrmrs": "ad",
-      "Firstname": "Joy",
-      "Lastname": "Schroeder",
-      "MiddleName": "Cummings, Sporer and Predovic",
-      "Title": "nesciunt",
-      "Description": "Synergistic web-enabled solution",
-      "Email": "serenity@walker.uk",
-      "FullName": "Shania Evangeline Thompson V",
-      "DirectPhone": "269.494.4267",
-      "FormalName": "Berge-Feil",
-      "CountryId": 15,
-      "ContactId": 9,
-      "ContactName": "Bode Group",
-      "Retired": 935,
-      "Rank": 455,
-      "ActiveInterests": 271,
-      "ContactDepartment": "",
-      "ContactCountryId": 691,
-      "ContactOrgNr": "864024",
-      "FaxPhone": "426.230.9182 x8707",
-      "MobilePhone": "987.912.2829 x70559",
-      "ContactPhone": "537.593.4613",
-      "AssociateName": "Adams LLC",
-      "AssociateId": 788,
+      "Position": "qui",
+      "PersonId": 401,
+      "Mrmrs": "qui",
+      "Firstname": "Shaun",
+      "Lastname": "Pfannerstill",
+      "MiddleName": "Mertz Group",
+      "Title": "dicta",
+      "Description": "Optimized 24/7 hierarchy",
+      "Email": "evangeline_rowe@wilderman.ca",
+      "FullName": "Prof. Lori Durward Schowalter",
+      "DirectPhone": "1-292-272-0915 x611",
+      "FormalName": "Feest-Rogahn",
+      "CountryId": 519,
+      "ContactId": 175,
+      "ContactName": "O'Kon LLC",
+      "Retired": 850,
+      "Rank": 612,
+      "ActiveInterests": 247,
+      "ContactDepartment": "reintermediate world-class methodologies",
+      "ContactCountryId": 685,
+      "ContactOrgNr": "796124",
+      "FaxPhone": "1-761-093-5133 x45502",
+      "MobilePhone": "577.271.5392",
+      "ContactPhone": "1-905-438-0912",
+      "AssociateName": "Schinner LLC",
+      "AssociateId": 873,
       "UsePersonAddress": true,
-      "ContactFax": "voluptatem",
-      "Kanafname": "in",
-      "Kanalname": "animi",
-      "Post1": "asperiores",
-      "Post2": "voluptas",
-      "Post3": "rerum",
-      "EmailName": "paul.gulgowski@beahan.com",
-      "ContactFullName": "Braxton Halvorson",
-      "ActiveErpLinks": 830,
-      "TicketPriorityId": 557,
-      "SupportLanguageId": 740,
-      "SupportAssociateId": 221,
+      "ContactFax": "et",
+      "Kanafname": "ducimus",
+      "Kanalname": "explicabo",
+      "Post1": "quaerat",
+      "Post2": "nam",
+      "Post3": "qui",
+      "EmailName": "herminio_doyle@beahan.biz",
+      "ContactFullName": "Joseph DuBuque",
+      "ActiveErpLinks": 710,
+      "TicketPriorityId": 137,
+      "SupportLanguageId": 63,
+      "SupportAssociateId": 865,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 230
+          "FieldType": "System.Int32",
+          "FieldLength": 917
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "nulla",
-  "Xstop": false,
-  "ActiveInterests": 48,
-  "GroupId": 615,
-  "ActiveStatusMonitorId": 448,
+  "Kananame": "reprehenderit",
+  "Xstop": true,
+  "ActiveInterests": 154,
+  "GroupId": 528,
+  "ActiveStatusMonitorId": 30,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 918,
-  "DbiAgentId": 546,
-  "DbiLastSyncronized": "2010-03-07T11:10:26.3174539+01:00",
-  "DbiKey": "quo",
-  "DbiLastModified": "2005-09-24T11:10:26.3174539+02:00",
+  "Deleted": 961,
+  "DbiAgentId": 702,
+  "DbiLastSyncronized": "2020-01-18T02:49:43.9504047+01:00",
+  "DbiKey": "est",
+  "DbiLastModified": "2022-04-09T02:49:43.9504047+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 928,
-  "ActiveErpLinks": 866,
+  "Source": 876,
+  "ActiveErpLinks": 759,
   "BounceEmails": [
-    "leonel_von@greennicolas.com",
-    "brad@fahey.uk"
+    "eldred@boyle.biz",
+    "elton.emmerich@langosh.us"
   ],
   "Domains": [
-    "quo",
-    "suscipit"
+    "dolorum",
+    "iusto"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1444831863",
+    "SuperOffice:2": "382370723"
   },
   "ExtraFields": {
-    "ExtraFields1": "aliquam",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "quo",
+    "CustomFields2": "saepe"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 883
+      "FieldLength": 609
     }
   }
 }

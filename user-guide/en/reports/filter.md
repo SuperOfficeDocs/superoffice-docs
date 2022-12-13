@@ -9,15 +9,13 @@ so.topic: howto
 language: en
 ---
 
-# Filters in the Reports screen
-
-You will find the **Filter** button ![icon][img1] under the report archive (the **Documents** section tab).
-
-To filter out the information displayed in the report archive:
+# Filter information displayed in the report archive
 
 1. [!include[How to-goto-reports](includes/goto-reports.md)]
 
 2. Click the **Filter** button ![icon][img1].
+
+    The **Filter** button ![icon][img1] is located under the report archive (the **Documents** section tab).
 
 3. In the **From** box, specify from how far back in time you want to show reports.
 

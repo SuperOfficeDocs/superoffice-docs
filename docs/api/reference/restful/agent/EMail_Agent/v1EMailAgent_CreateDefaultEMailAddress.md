@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 
 Set default values into a new EMailAddress.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,7 +36,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -36,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 208,
-  "ContactName": "Jast-Murazik",
-  "PersonId": 544,
-  "PersonName": "Rosenbaum LLC",
-  "AssociateId": 217,
-  "Address": "ullam",
-  "EmailId": 343,
+  "ContactId": 612,
+  "ContactName": "Aufderhar Inc and Sons",
+  "PersonId": 704,
+  "PersonName": "Nader, Herman and Block",
+  "AssociateId": 210,
+  "Address": "molestias",
+  "EmailId": 43,
   "DuplicatePersonIds": [
-    599,
-    690
+    913,
+    940
   ],
-  "Name": "Lind, Hirthe and Bergstrom",
+  "Name": "Fisher, Hauck and Murray",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 163
     }
   }
 }

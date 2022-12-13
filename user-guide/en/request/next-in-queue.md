@@ -15,11 +15,11 @@ In SuperOffice Service, requests are normally assigned to users according to an 
 
 However it is also possible to create an intelligent queue system for handling new requests. Request handlers can then click **Get next request in queue** under **Requests** to accept the next request in the queue. Requests in the queue are filtered by [category][2], so that users are only assigned requests that belong to categories they are members of.
 
-## How are requests in the queue prioritised?
+## How are requests in the queue prioritized?
 
-The sequence of the requests in the queue is determined by the deadline for each individual request. The requests with the closest deadlines come first in the queue. The deadline is calculated based on priorities that have been defined for contact, company, mailbox, e-mail filter and standard priority.
+The sequence of the requests in the queue is determined by the deadline for each individual request. The requests with the closest deadlines come first in the queue. The deadline is calculated based on priorities that were defined for contact, company, mailbox, email filter and standard priority.
 
-This ensures that requests are prioritised in a logical and fair sequence.
+This ensures that requests are prioritized in a logical and fair sequence.
 
 > [!NOTE]
 > It is also possible to use a combination of queue system and assignment method. Requests can for example be placed in the queue or assigned to users based on which category the requests belong to.
@@ -36,24 +36,22 @@ The following factors determine which requests a request handler can get from th
 
 First, we will create a new request status: **In queue**. New requests should automatically be assigned this request status.
 
-Do as follows:
-
 1. Select ![icon][img2] **System settings** > **Request status**. The **Request status** screen appears.
 
 2. Click the **New status** button. This takes you to the **Edit request status** screen.
 
 3. In the **Internal status** list box, select **Open**.
 
-4. Check **Default**, so that all new requests (i.e. active requests) are assigned this status by default.
+4. Check **Default**, so that all new requests (active requests) are assigned this status by default.
 
 5. In the **Name** field, enter a descriptive name for the request status. For example "In queue".
 
-6. Check **Queue status**. The users are now able to get requests with this status from the queue.
+6. Check **Queue status**. The users can now get requests with this status from the queue.
 
     > [!NOTE]
-    > This does not mean that these requests MUST be fetched from the queue. We will use categories to decide which requests will be placed in the queue and which requests will be distributed according to the assignment method for the category.
+    > This does not mean that these requests MUST be fetched from the queue. We will use categories to decide which requests to place in the queue and which requests to distribute according to the assignment method for the category.
 
-7. You do not need to check **Create new request on customer reply**.
+7. You do not have to check **Create new request on customer reply**.
 
 8. In the **Track time as** list, select **In queue**.
 
@@ -68,15 +66,21 @@ Now you must ensure that you are a member of the category or categories you are 
 > [!NOTE]
 > Membership in categories can also be defined at group level. In ![icon][img2] **System settings** > **Users** > **User groups** you can state categories for the various user groups.
 
-Do as follows:
+**Steps:**
 
 1. Select ![icon][img2] **System settings** > **Categories**. The **Categories** screen appears.
+
 2. Click the required category name. This takes you to the **Category properties** screen.
+
 3. Select the **Members** tab.
+
 4. Select yourself in the **User** list and click ![icon][img1] to add yourself as a member of the category.
+
 5. Add any other users as members of this category.
+
 6. Select the **Assignment method** tab and select **Do not assign**. Now requests in this category will not be assigned to users in accordance with the assignment method.
-7. Click **OK** when you have finished.
+
+7. Click **OK**.
 
 If needed, repeat this procedure for other categories that are to be available to be fetched from the queue. Categories that follow an assignment method will be assigned a user and will not therefore join the queue.
 

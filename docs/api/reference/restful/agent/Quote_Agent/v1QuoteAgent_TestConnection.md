@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/TestConnection
 
 Used by the Admin clients.
 
+
 Testing if the connection data is sufficient to get a connection with the ERP system. The Connector should try to do some operations to check if the connection has sufficient rights to run. The connection has not been created yet. TestConnection is called without InitializeConnector being called first.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Testing if the connection data is sufficient to get a connection with the ERP sy
 ```http
 POST /api/v1/Agents/Quote/TestConnection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/Quote/TestConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectorName, ConnectionData
+ConnectorName, ConnectionData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectorName | string |  |
 | ConnectionData | object |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,15 +62,16 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| IsOk | bool | Answer to the question / An indication if the operation went well. |
-| UserExplanation | string | A localized explanation to the answer. |
+| IsOk | bool | Answer to the question / An indication if the operation went well. Equivalent to Status != Error |
+| UserExplanation | string | A localized explanation to the answer. Text here is displayed to the user. |
 | TechExplanation | string | Always in English |
 | ErrorCode | string | An error code, if available. |
 | Changes |  | Tablename/recordid of data changed by this method, that the client may need to reload |
+| Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
@@ -72,14 +81,14 @@ Response body:
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Barrows, Kihn and Kshlerin",
+  "ConnectorName": "Schneider, Ebert and Nolan",
   "ConnectionData": {
-    "ConnectionData1": "iusto",
-    "ConnectionData2": "vel"
+    "ConnectionData1": "quibusdam",
+    "ConnectionData2": "ea"
   }
 }
 ```
@@ -92,16 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "iure",
-  "TechExplanation": "architecto",
-  "ErrorCode": "temporibus",
+  "UserExplanation": "rerum",
+  "TechExplanation": "amet",
+  "ErrorCode": "sunt",
   "Changes": null,
+  "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldLength": 305
     }
   }
 }

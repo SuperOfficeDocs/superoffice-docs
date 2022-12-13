@@ -11,11 +11,17 @@ GET /api/v1/ShipmentMessage/{id}
 
 Gets a ShipmentMessageEntity object.
 
+
 Calls the Marketing agent service GetShipmentMessageEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ShipmentMessageEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Marketing agent service GetShipmentMessageEntity.
 ```http
 GET /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,8 @@ GET /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 ShipmentMessageEntity found.
 
@@ -49,7 +57,7 @@ ShipmentMessageEntity found.
 | 200 | ShipmentMessageEntity found. |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +92,7 @@ Response body:
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,33 +102,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 158,
-  "PlainMessage": "omnis",
-  "HtmlMessage": "esse",
-  "SmsMessage": "accusantium",
-  "Description": "Virtual fresh-thinking process improvement",
-  "Subject": "officia",
-  "FolderId": 929,
-  "HeaderField": "quidem",
-  "Design": "cum",
+  "ShipmentMessageId": 166,
+  "PlainMessage": "dolore",
+  "HtmlMessage": "dolor",
+  "SmsMessage": "sequi",
+  "Description": "Pre-emptive well-modulated utilisation",
+  "Subject": "et",
+  "FolderId": 577,
+  "HeaderField": "excepturi",
+  "Design": "cumque",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Extended contextually-based function",
-  "AccessKey": "sapiente",
-  "DocumentMessage": 988,
-  "Registered": "2013-05-28T11:10:53.5241794+02:00",
-  "RegisteredAssociateId": 213,
-  "Updated": "2018-11-18T11:10:53.5241794+01:00",
-  "UpdatedAssociateId": 430,
-  "UpdatedCount": 872,
+  "LongDescription": "Persistent neutral success",
+  "AccessKey": "molestiae",
+  "DocumentMessage": 99,
+  "Registered": "1997-12-26T02:49:51.536309+01:00",
+  "RegisteredAssociateId": 110,
+  "Updated": "2006-08-17T02:49:51.536309+02:00",
+  "UpdatedAssociateId": 394,
+  "UpdatedCount": 401,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 278
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   },
   "_Links": {

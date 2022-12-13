@@ -11,7 +11,13 @@ POST /api/v1/Agents/Sale/GetSalesByDate
 
 Returns all sales within a time period.
 
+
 The sales array can be limited by amount and status.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The sales array can be limited by amount and status.
 ```http
 POST /api/v1/Agents/Sale/GetSalesByDate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Sale/GetSalesByDate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FromDate, ToDate, AmountLimit, Status
+FromDate, ToDate, AmountLimit, Status 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,6 +54,7 @@ FromDate, ToDate, AmountLimit, Status
 | ToDate | date-time |  |
 | AmountLimit | int32 |  |
 | Status | string |  |
+
 
 ## Response: array
 
@@ -98,9 +106,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2002-10-12T11:10:27.8540076+02:00",
-  "ToDate": "2009-07-30T11:10:27.8540076+02:00",
-  "AmountLimit": 750,
+  "FromDate": "2002-05-30T02:49:45.1403412+02:00",
+  "ToDate": "2012-12-01T02:49:45.1403412+01:00",
+  "AmountLimit": 489,
   "Status": "Lost"
 }
 ```
@@ -113,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Jacobson Inc and Sons",
-    "SaleDate": "1996-06-02T11:10:27.8540076+02:00",
-    "SaleId": 197,
-    "Probability": 778,
-    "Title": "neque",
-    "Amount": 10232.51,
-    "Currency": "qui",
-    "ProjectName": "Bechtelar Group",
-    "AssociateFullName": "Prof. Andy Leannon",
-    "Description": "Assimilated full-range knowledge base",
+    "ContactName": "Lang-Jast",
+    "SaleDate": "2018-05-09T02:49:45.1403412+02:00",
+    "SaleId": 676,
+    "Probability": 203,
+    "Title": "molestiae",
+    "Amount": 29810.608,
+    "Currency": "unde",
+    "ProjectName": "Parisian-Aufderhar",
+    "AssociateFullName": "Ross Mann",
+    "Description": "Function-based client-server challenge",
     "Status": "Lost",
-    "WeightedAmount": 9239.032,
-    "ProjectId": 290,
-    "EarningPercent": 20712.606,
-    "Earning": 23953.162,
-    "ContactId": 573,
-    "AssociateId": 832,
-    "PersonId": 12,
-    "SaleTypeId": 496,
-    "SaleTypeName": "Feest-Cormier",
-    "PersonFullName": "Mr. Riley Lubowitz",
+    "WeightedAmount": 24871.424,
+    "ProjectId": 211,
+    "EarningPercent": 23106.982,
+    "Earning": 17794.852,
+    "ContactId": 892,
+    "AssociateId": 626,
+    "PersonId": 2,
+    "SaleTypeId": 991,
+    "SaleTypeName": "Doyle-Sawayn",
+    "PersonFullName": "Rupert Theron Ruecker DDS",
     "Completed": "Completed",
-    "ActiveErpLinks": 318,
-    "NextDueDate": "2022-03-12T11:10:27.8550078+01:00",
-    "Number": "679676",
+    "ActiveErpLinks": 811,
+    "NextDueDate": "2018-06-19T02:49:45.1403412+02:00",
+    "Number": "1655645",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldLength": 44
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/SaleStakeholder
 
 Creates a new SaleStakeholder
 
+
 Calls the Sale agent service SaveSaleStakeholder.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Sale agent service SaveSaleStakeholder.
 ```http
 POST /api/v1/SaleStakeholder?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/SaleStakeholder?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The SaleStakeholder to be saved.
+The SaleStakeholder to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +70,8 @@ The SaleStakeholder to be saved.
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -71,7 +79,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -104,29 +112,29 @@ Response body:
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Von Inc and Sons",
-  "Comment": "dolores",
-  "StakeholderRoleId": 434,
-  "CountryId": 23,
-  "PersonId": 177,
-  "EmailDescription": "josefina@abshiregreenholt.us",
-  "EmailId": 234,
-  "EmailAddress": "dana@friesen.name",
-  "PhoneId": 812,
-  "ContactName": "Nikolaus, Kihn and Conroy",
-  "ContactId": 970,
-  "SaleId": 440,
-  "Mrmrs": "ut",
-  "Firstname": "Margarita",
-  "MiddleName": "Maggio-Stehr",
-  "Lastname": "Kuhn",
-  "SaleStakeholderId": 271,
-  "Rank": 599,
-  "Phone": "830.226.7836"
+  "StakeholderRoleName": "Gutmann Inc and Sons",
+  "Comment": "libero",
+  "StakeholderRoleId": 40,
+  "CountryId": 909,
+  "PersonId": 521,
+  "EmailDescription": "mylene@yundt.com",
+  "EmailId": 139,
+  "EmailAddress": "chaim@ebertschultz.uk",
+  "PhoneId": 178,
+  "ContactName": "Emard, Cronin and Towne",
+  "ContactId": 803,
+  "SaleId": 197,
+  "Mrmrs": "enim",
+  "Firstname": "Kaelyn",
+  "MiddleName": "Hettinger, Tromp and Boyer",
+  "Lastname": "Macejkovic",
+  "SaleStakeholderId": 354,
+  "Rank": 384,
+  "Phone": "1-525-991-3505"
 }
 ```
 
@@ -137,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Ortiz-Haag",
-  "Comment": "officia",
-  "StakeholderRoleId": 919,
-  "CountryId": 147,
-  "PersonId": 287,
-  "EmailDescription": "kasandra_beer@heaney.uk",
-  "EmailId": 99,
-  "EmailAddress": "leanne.wolff@feest.com",
-  "PhoneId": 180,
-  "ContactName": "Walsh Group",
-  "ContactId": 873,
-  "SaleId": 899,
-  "Mrmrs": "occaecati",
-  "Firstname": "Toni",
-  "MiddleName": "Ankunding Group",
-  "Lastname": "Kozey",
-  "SaleStakeholderId": 306,
-  "Rank": 106,
-  "Phone": "1-758-995-2947",
+  "StakeholderRoleName": "Wehner LLC",
+  "Comment": "inventore",
+  "StakeholderRoleId": 471,
+  "CountryId": 668,
+  "PersonId": 529,
+  "EmailDescription": "lessie.rempel@stammwest.uk",
+  "EmailId": 133,
+  "EmailAddress": "adrian@raynortreutel.ca",
+  "PhoneId": 297,
+  "ContactName": "Metz-Von",
+  "ContactId": 124,
+  "SaleId": 968,
+  "Mrmrs": "architecto",
+  "Firstname": "Elfrieda",
+  "MiddleName": "Schmeler, Bartoletti and Kiehn",
+  "Lastname": "Spencer",
+  "SaleStakeholderId": 904,
+  "Rank": 386,
+  "Phone": "119.235.9445 x1820",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 695
     }
   },
   "_Links": {

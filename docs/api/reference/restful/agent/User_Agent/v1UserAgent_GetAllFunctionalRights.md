@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/GetAllFunctionalRights
 
 Get a list of all functional rights for the given type of role.
 
-MDO List name = 'FunctionRights', extra='roleType=0'
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+MDO List name = 'FunctionRights', extra='roleType=0' 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ MDO List name = 'FunctionRights', extra='roleType=0'
 ```http
 POST /api/v1/Agents/User/GetAllFunctionalRights?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,13 +47,14 @@ POST /api/v1/Agents/User/GetAllFunctionalRights?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RoleType
+RoleType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleType | string |  |
+
 
 ## Response: array
 
@@ -83,7 +92,7 @@ Response body: array
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 11,
-    "Name": "Ziemann Inc and Sons",
-    "ToolTip": "Quae in quibusdam dolore.",
-    "Deleted": false,
-    "Rank": 8,
-    "Type": "quo",
-    "ColorBlock": 4,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2001-08-11T11:10:28.3872069+02:00",
+    "Id": 354,
+    "Name": "Little-Cartwright",
+    "ToolTip": "Fugiat tempore.",
+    "Deleted": true,
+    "Rank": 38,
+    "Type": "nisi",
+    "ColorBlock": 617,
+    "IconHint": "libero",
+    "Selected": false,
+    "LastChanged": "2014-08-22T02:49:45.6559717+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Purdy Group",
-        "ToolTip": "Sint quo qui doloribus ducimus distinctio.",
-        "Deleted": false,
-        "Rank": 614,
-        "Type": "vel",
-        "ColorBlock": 695,
-        "IconHint": "eius",
-        "Selected": false,
-        "LastChanged": "1995-12-15T11:10:28.3882068+01:00",
+        "Id": 414,
+        "Name": "Green Group",
+        "ToolTip": "Suscipit placeat quis voluptas.",
+        "Deleted": true,
+        "Rank": 792,
+        "Type": "provident",
+        "ColorBlock": 684,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "1998-09-01T02:49:45.6559717+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "iste",
+        "StyleHint": "perferendis",
         "Hidden": true,
-        "FullName": "Elian Morar",
+        "FullName": "Mr. Kurt Javon Kris III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 146
+            "FieldLength": 603
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "saepe",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Creola Larson",
+    "FullName": "Doug Lorenz Dickens V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 955
       }
     }
   }

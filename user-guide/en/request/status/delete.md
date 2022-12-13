@@ -12,7 +12,7 @@ language: en
 # Delete request status
 
 > [!NOTE]
-> Since every internal status must be linked to at least one request status, you cannot delete the only request status linked to an internal status. You cannot delete statuses that are defined as defaults, i.e. those with a check mark in the **Default** column in the **Request status** tab.
+> Since every internal status must be linked to at least one request status, you cannot delete the only request status linked to an internal status. You cannot delete statuses that are defined as defaults (those with a check mark in the **Default** column in the **Request status** tab).
 
 ## Delete a status in Settings and maintenance
 

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity
 
 Gets a ShipmentMessageBlockEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ShipmentMessageBlockEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=626
+POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=616
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +73,7 @@ Response body:
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 459,
-  "AssociateId": 181,
-  "Block": "id",
-  "Registered": "2015-04-14T11:10:27.2954549+02:00",
-  "RegisteredAssociateId": 927,
-  "Updated": "2014-09-13T11:10:27.2954549+02:00",
-  "UpdatedAssociateId": 296,
-  "UpdatedCount": 43,
+  "ShipmentMessageBlockId": 713,
+  "AssociateId": 802,
+  "Block": "ducimus",
+  "Registered": "2005-06-07T02:49:44.7172985+02:00",
+  "RegisteredAssociateId": 854,
+  "Updated": "2019-03-04T02:49:44.7172985+01:00",
+  "UpdatedAssociateId": 804,
+  "UpdatedCount": 386,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldType": "System.String",
+      "FieldLength": 734
     }
   }
 }

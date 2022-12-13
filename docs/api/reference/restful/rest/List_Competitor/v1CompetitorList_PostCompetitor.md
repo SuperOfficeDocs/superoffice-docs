@@ -11,6 +11,13 @@ POST /api/v1/List/Competitor/Items
 
 Add a new Competitor to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new Competitor to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The Competitor to be added to the list.
+The Competitor to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The Competitor to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Hartmann, Roberts and Gottlieb",
-  "Tooltip": "delectus",
+  "Id": 222,
+  "Name": "Prosacco-Hauck",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "UdListDefinitionId": 170,
-  "Rank": 141
+  "UdListDefinitionId": 809,
+  "Rank": 986
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 848,
-  "Name": "Pouros Inc and Sons",
-  "Tooltip": "mollitia",
+  "Id": 728,
+  "Name": "Crist Group",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "UdListDefinitionId": 647,
-  "Rank": 854,
+  "UdListDefinitionId": 973,
+  "Rank": 578,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldLength": 687
     }
   }
 }

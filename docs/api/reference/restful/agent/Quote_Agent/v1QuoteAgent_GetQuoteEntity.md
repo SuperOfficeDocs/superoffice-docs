@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteEntity
 
 Get a Quote
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a Quote
 ```http
 POST /api/v1/Agents/Quote/GetQuoteEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Quote/GetQuoteEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteId
+QuoteId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,11 +85,11 @@ Response body:
 POST /api/v1/Agents/Quote/GetQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 812
+  "QuoteId": 325
 }
 ```
 
@@ -92,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 468,
-  "SaleId": 535,
+  "QuoteId": 176,
+  "SaleId": 557,
   "QuoteConnectionId": 977,
-  "ERPQuoteKey": "itaque",
-  "ERPOrderKey": "quia",
-  "ActiveQuoteVersionId": 557,
-  "AcceptedQuoteAlternativeId": 510,
-  "UseValuesFromQuote": 166,
-  "DocumentId": 599,
-  "PoNumber": "1123765",
-  "OrderComment": "recusandae",
-  "PreferredEmailCulture": "judy@stromancassin.info",
+  "ERPQuoteKey": "et",
+  "ERPOrderKey": "et",
+  "ActiveQuoteVersionId": 877,
+  "AcceptedQuoteAlternativeId": 839,
+  "UseValuesFromQuote": 319,
+  "DocumentId": 133,
+  "PoNumber": "1034051",
+  "OrderComment": "autem",
+  "PreferredEmailCulture": "ericka@oconnersteuber.com",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 272,
-      "ERPQuoteVersionKey": "enim",
-      "QuoteId": 366,
-      "Description": "Innovative bi-directional capacity",
-      "Number": "643685",
+      "QuoteVersionId": 491,
+      "ERPQuoteVersionKey": "asperiores",
+      "QuoteId": 613,
+      "Description": "Face to face zero administration policy",
+      "Number": "752506",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 944,
-      "SentDate": "2009-04-14T11:10:27.7174949+02:00",
-      "FollowupId": 281,
-      "ExpirationDate": "2001-08-07T11:10:27.7174949+02:00",
-      "DeliveryCountryId": 417,
+      "LikelyQuoteAlternativeId": 802,
+      "SentDate": "2001-08-05T02:49:45.0465904+02:00",
+      "FollowupId": 675,
+      "ExpirationDate": "2003-06-08T02:49:45.0465904+02:00",
+      "DeliveryCountryId": 493,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 644,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "sit",
-      "ERPPaymentTypeKey": "sunt",
-      "ERPDeliveryTermsKey": "voluptatem",
-      "ERPDeliveryTypeKey": "odio",
-      "Rank": 126,
-      "ApprovedBy": 419,
-      "ApprovedText": "nostrum",
-      "ApprovedRegisteredBy": 957,
-      "ApprovedRegisteredDate": "2003-04-05T11:10:27.7174949+02:00",
-      "ExtraField1": "non",
-      "ExtraField2": "blanditiis",
-      "ExtraField3": "quia",
-      "ExtraField4": "quia",
-      "ExtraField5": "numquam",
-      "LastRecalculated": "2002-02-09T11:10:27.7174949+01:00",
-      "Updated": "1998-01-04T11:10:27.7174949+01:00",
-      "UpdatedAssociateId": 973,
-      "Registered": "2000-04-03T11:10:27.7174949+02:00",
-      "RegisteredAssociateId": 518,
-      "RequestAssociateId": 629,
-      "RequestComment": "maxime",
+      "InvoiceCountryId": 857,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "nobis",
+      "ERPPaymentTypeKey": "ex",
+      "ERPDeliveryTermsKey": "aperiam",
+      "ERPDeliveryTypeKey": "sunt",
+      "Rank": 393,
+      "ApprovedBy": 558,
+      "ApprovedText": "est",
+      "ApprovedRegisteredBy": 915,
+      "ApprovedRegisteredDate": "2004-10-27T02:49:45.0465904+02:00",
+      "ExtraField1": "illum",
+      "ExtraField2": "temporibus",
+      "ExtraField3": "velit",
+      "ExtraField4": "et",
+      "ExtraField5": "ad",
+      "LastRecalculated": "2006-07-12T02:49:45.0465904+02:00",
+      "Updated": "2000-09-11T02:49:45.0465904+02:00",
+      "UpdatedAssociateId": 6,
+      "Registered": "1997-05-04T02:49:45.0465904+02:00",
+      "RegisteredAssociateId": 971,
+      "RequestAssociateId": 835,
+      "RequestComment": "explicabo",
       "QuoteAlternatives": [
         {},
         {}
@@ -152,8 +160,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 712
+          "FieldType": "System.String",
+          "FieldLength": 820
         }
       }
     }
@@ -162,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 593
     }
   }
 }

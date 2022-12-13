@@ -32,8 +32,6 @@ You can transfer chats to other agents and receive transferred chats from other 
 
 If an agent transfers a chat to you, the chat is automatically displayed in the chat panel and is highlighted in the sessions list.
 
-To accept a transferred chat:
-
 1. (if relevant) Select the transferred chat in the sessions list to view it.
 2. Click **Accept transfer** (below the chat conversation) to accept the chat. If you do not want to accept the chat, click **Reject transfer**.
 

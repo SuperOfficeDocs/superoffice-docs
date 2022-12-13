@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetPublishedDocument
 
 Get the document if it's published
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the document if it's published
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Document/GetPublishedDocument?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 251
+  "DocumentId": 276
 }
 ```
 
@@ -99,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 592,
-  "Attention": "dolor",
-  "Header": "autem",
-  "Name": "Sipes, Pfeffer and Labadie",
-  "OurRef": "ipsam",
-  "YourRef": "sunt",
-  "Description": "Multi-channelled multi-state firmware",
-  "DocumentTemplate": "voluptas",
+  "DocumentId": 369,
+  "Attention": "dolores",
+  "Header": "temporibus",
+  "Name": "Hettinger-Leffler",
+  "OurRef": "maxime",
+  "YourRef": "ipsa",
+  "Description": "Triple-buffered foreground focus group",
+  "DocumentTemplate": "sed",
   "IsPublished": false,
-  "PersonId": 309,
-  "PersonFullName": "Carmine Kiehn",
-  "AssociateFullName": "Juston Pfeffer III",
-  "ContactId": 142,
-  "ContactName": "Becker-Olson",
-  "ProjectId": 838,
-  "ProjectName": "Leffler Group",
-  "AssociateId": 610,
-  "Snum": 759,
-  "SaleId": 826,
-  "SaleName": "Jaskolski Inc and Sons",
+  "PersonId": 634,
+  "PersonFullName": "Bobbie Schaefer",
+  "AssociateFullName": "Roberta Howe IV",
+  "ContactId": 455,
+  "ContactName": "Corwin, Greenfelder and Oberbrunner",
+  "ProjectId": 845,
+  "ProjectName": "Miller-Strosin",
+  "AssociateId": 11,
+  "Snum": 327,
+  "SaleId": 470,
+  "SaleName": "Bechtelar Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldType": "System.Int32",
+      "FieldLength": 371
     }
   }
 }

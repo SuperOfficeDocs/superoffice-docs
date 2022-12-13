@@ -11,6 +11,13 @@ POST /api/v1/List/ProjectType/Items
 
 Add a new ProjectType to the list.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Add a new ProjectType to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The ProjectType to be added to the list.
+The ProjectType to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The ProjectType to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +73,16 @@ Response body:
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 317,
-  "Name": "Jast, Gutkowski and Pfeffer",
-  "Tooltip": "et",
+  "Id": 620,
+  "Name": "Kling-Schiller",
+  "Tooltip": "magni",
   "Deleted": true,
-  "UdListDefinitionId": 651,
-  "Rank": 367
+  "UdListDefinitionId": 942,
+  "Rank": 705
 }
 ```
 
@@ -85,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 748,
-  "Name": "Hand-Crona",
-  "Tooltip": "at",
+  "Id": 633,
+  "Name": "Fadel, Towne and Pollich",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 827,
-  "Rank": 680,
+  "UdListDefinitionId": 295,
+  "Rank": 908,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 311
+      "FieldLength": 716
     }
   }
 }

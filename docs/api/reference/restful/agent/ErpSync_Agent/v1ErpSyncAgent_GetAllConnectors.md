@@ -11,9 +11,16 @@ POST /api/v1/Agents/ErpSync/GetAllConnectors
 
 Returns all ERP Sync connectors.
 
+
 Uses the `ErpConnector` archive.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Uses the `ErpConnector` archive.
 ```http
 POST /api/v1/Agents/ErpSync/GetAllConnectors?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,6 +45,7 @@ POST /api/v1/Agents/ErpSync/GetAllConnectors?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -60,7 +69,7 @@ Response body: array
 POST /api/v1/Agents/ErpSync/GetAllConnectors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,14 +80,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 475,
-    "Name": "Hilpert-Gusikowski",
-    "ToolTip": "Aut enim."
+    "Id": 859,
+    "Name": "Roob-Trantow",
+    "ToolTip": "Fugiat ullam id natus aliquid adipisci non."
   },
   {
-    "Id": 475,
-    "Name": "Hilpert-Gusikowski",
-    "ToolTip": "Aut enim."
+    "Id": 859,
+    "Name": "Roob-Trantow",
+    "ToolTip": "Fugiat ullam id natus aliquid adipisci non."
   }
 ]
 ```

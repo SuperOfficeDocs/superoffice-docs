@@ -11,7 +11,14 @@ PUT /api/v1/List/PaymentTerm/Headings
 
 Saves headings for the PaymentTerm list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,6 +46,7 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
+
 
 ## Response: array
 
@@ -67,25 +75,25 @@ Response body: array
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 362,
-    "Name": "Sauer, Walsh and Auer",
-    "Tooltip": "alias",
-    "Deleted": false,
-    "Rank": 701,
-    "UdListDefinitionId": 11
+    "HeadingId": 701,
+    "Name": "Hayes Group",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 990,
+    "UdListDefinitionId": 600
   },
   {
-    "HeadingId": 362,
-    "Name": "Sauer, Walsh and Auer",
-    "Tooltip": "alias",
-    "Deleted": false,
-    "Rank": 701,
-    "UdListDefinitionId": 11
+    "HeadingId": 701,
+    "Name": "Hayes Group",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 990,
+    "UdListDefinitionId": 600
   }
 ]
 ```
@@ -98,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 674,
-    "Name": "Schmeler, Cormier and Kautzer",
-    "Tooltip": "aperiam",
+    "HeadingId": 381,
+    "Name": "Harris, Bergnaum and Kertzmann",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 795,
-    "UdListDefinitionId": 231,
+    "Rank": 662,
+    "UdListDefinitionId": 107,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 429
       }
     }
   }

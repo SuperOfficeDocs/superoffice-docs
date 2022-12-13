@@ -22,7 +22,7 @@ You insert an image in a message like this:
 4. Click **Browse** to the right of the **Image file** field to select the image you want to insert. You can select an image that is already available in SuperOffice Marketing or upload an image.
 
     > [!TIP]
-    > If you want to use an image that is not in the list, you can click **Select file** to choose an image file on your PC, and then click **Upload**.
+    > To use an image that is not in the list, you can click **Select file** to choose an image file on your PC, and then click **Upload**.
 
 5. Click the image you want to insert. A preview of the image is displayed in the field on the right.
 
@@ -30,9 +30,9 @@ You insert an image in a message like this:
     * Change the title of the image in the **Image title** field.
     * Define the size of the image (in pixels). A maximum width of 600 pixels is normally recommended.
 
-7. Click **OK** when you have finished.
+7. Click **OK**.
 
-8. Click  **Select this image** to use this image. This takes you back to the **Edit paragraph** dialog.
+8. Click **Select this image** to use this image. This takes you back to the **Edit paragraph** dialog.
 
 9. Select where to position the image in the text by checking one of the options for **Image position**.
 
@@ -46,7 +46,7 @@ You insert an image in a message like this:
     * Click ![icon][img2] to [edit a selected link][1].
     * Enter the URL directly in the field.
 
-13. Click **OK** when you have finished.
+13. Click **OK**.
 
 14. Check that the image is correctly displayed and adjust as necessary.
 

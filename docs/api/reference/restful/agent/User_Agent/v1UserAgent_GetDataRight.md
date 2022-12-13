@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/GetDataRight
 
 Read one specific data right at the given position.
 
+
 An exception will be thrown if non existing position is specified.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ An exception will be thrown if non existing position is specified.
 ```http
 POST /api/v1/Agents/User/GetDataRight?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,15 +47,16 @@ POST /api/v1/Agents/User/GetDataRight?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RoleId, TableName, RelationToOwner
+RoleId, TableName, RelationToOwner 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleId | int32 |  |
 | TableName | string |  |
 | RelationToOwner | string |  |
+
 
 ## Response: string
 
@@ -59,6 +68,7 @@ OK
 
 Response body: string
 
+
 ## Sample request
 
 ```http!
@@ -69,8 +79,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 324,
-  "TableName": "Lind, Bartoletti and Rempel",
+  "RoleId": 426,
+  "TableName": "Fritsch Group",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -81,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eum"
+"perferendis"
 ```

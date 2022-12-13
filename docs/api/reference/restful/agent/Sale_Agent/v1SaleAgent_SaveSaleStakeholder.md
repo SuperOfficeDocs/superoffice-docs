@@ -11,6 +11,13 @@ POST /api/v1/Agents/Sale/SaveSaleStakeholder
 
 Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SaleStakeholder to be saved.
+The SaleStakeholder to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,7 +58,8 @@ The SaleStakeholder to be saved.
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -59,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,25 +103,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Thompson-Vandervort",
-  "Comment": "iste",
-  "StakeholderRoleId": 924,
-  "CountryId": 578,
-  "PersonId": 778,
-  "EmailDescription": "gerda.leannon@wyman.us",
-  "EmailId": 228,
-  "EmailAddress": "lavonne@hirthe.com",
-  "PhoneId": 877,
-  "ContactName": "Ritchie, Flatley and Koepp",
-  "ContactId": 581,
-  "SaleId": 546,
-  "Mrmrs": "id",
-  "Firstname": "Allan",
-  "MiddleName": "Kutch-Heller",
-  "Lastname": "Howell",
-  "SaleStakeholderId": 556,
-  "Rank": 499,
-  "Phone": "568.913.5426"
+  "StakeholderRoleName": "Stehr Group",
+  "Comment": "quas",
+  "StakeholderRoleId": 490,
+  "CountryId": 787,
+  "PersonId": 620,
+  "EmailDescription": "brody@kuhlmancruickshank.com",
+  "EmailId": 185,
+  "EmailAddress": "magnolia_bernhard@murraymraz.name",
+  "PhoneId": 537,
+  "ContactName": "Hegmann LLC",
+  "ContactId": 577,
+  "SaleId": 453,
+  "Mrmrs": "sed",
+  "Firstname": "Muhammad",
+  "MiddleName": "Senger Inc and Sons",
+  "Lastname": "Mohr",
+  "SaleStakeholderId": 843,
+  "Rank": 611,
+  "Phone": "1-513-460-6361 x0170"
 }
 ```
 
@@ -124,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Purdy-Bartell",
-  "Comment": "quibusdam",
-  "StakeholderRoleId": 562,
-  "CountryId": 379,
-  "PersonId": 718,
-  "EmailDescription": "malinda_reichert@wintheiser.co.uk",
-  "EmailId": 155,
-  "EmailAddress": "jairo_walsh@dickinsontillman.biz",
-  "PhoneId": 139,
-  "ContactName": "Sipes LLC",
-  "ContactId": 843,
-  "SaleId": 699,
-  "Mrmrs": "natus",
-  "Firstname": "Mireille",
-  "MiddleName": "Rohan-Feil",
-  "Lastname": "Weissnat",
-  "SaleStakeholderId": 937,
-  "Rank": 662,
-  "Phone": "1-457-641-6998 x0396",
+  "StakeholderRoleName": "Spinka-Parisian",
+  "Comment": "enim",
+  "StakeholderRoleId": 528,
+  "CountryId": 526,
+  "PersonId": 695,
+  "EmailDescription": "cristal@klocko.ca",
+  "EmailId": 859,
+  "EmailAddress": "prince@townesauer.us",
+  "PhoneId": 109,
+  "ContactName": "Lebsack-Yost",
+  "ContactId": 259,
+  "SaleId": 549,
+  "Mrmrs": "quia",
+  "Firstname": "Glen",
+  "MiddleName": "Swaniawski LLC",
+  "Lastname": "Adams",
+  "SaleStakeholderId": 626,
+  "Rank": 329,
+  "Phone": "938.635.7466",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldType": "System.String",
+      "FieldLength": 131
     }
   }
 }

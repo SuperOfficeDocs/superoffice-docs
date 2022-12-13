@@ -11,11 +11,18 @@ DELETE /api/v1/Contact/UdefLayout/{progidOrLabel}
 
 Delete a ContactEntity user-defined field's details based on the prog-id or label.
 
+
 Deletes the admin version of the field. The layout needs to be published before the change is visible.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ Deletes the admin version of the field. The layout needs to be published before 
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -34,7 +42,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 

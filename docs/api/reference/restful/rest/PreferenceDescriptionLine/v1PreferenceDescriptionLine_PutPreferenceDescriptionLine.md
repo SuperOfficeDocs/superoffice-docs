@@ -11,9 +11,15 @@ PUT /api/v1/PreferenceDescriptionLine/{id}
 
 Updates the existing PreferenceDescriptionLine
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PreferenceDescriptionLine id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing PreferenceDescriptionLine
 ```http
 PUT /api/v1/PreferenceDescriptionLine/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/PreferenceDescriptionLine/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The PreferenceDescriptionLine to be saved.
+The PreferenceDescriptionLine to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,8 @@ The PreferenceDescriptionLine to be saved.
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
 
-## Response
+
+## Response: 
 
 PreferenceDescriptionLine updated.
 
@@ -61,7 +69,7 @@ PreferenceDescriptionLine updated.
 | 200 | PreferenceDescriptionLine updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,16 +89,16 @@ Response body:
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 786,
-  "PrefDescId": 692,
-  "PrefValue": "tempore",
-  "PrefShowValue": "minima",
-  "Description": "Innovative system-worthy neural-net",
-  "IsBuiltin": false
+  "PrefDescLineId": 958,
+  "PrefDescId": 889,
+  "PrefValue": "qui",
+  "PrefShowValue": "ab",
+  "Description": "Organized multi-tasking adapter",
+  "IsBuiltin": true
 }
 ```
 
@@ -101,23 +109,23 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 738,
-  "PrefDescId": 37,
-  "PrefValue": "asperiores",
-  "PrefShowValue": "impedit",
-  "Description": "Re-engineered content-based artificial intelligence",
-  "IsBuiltin": true,
+  "PrefDescLineId": 955,
+  "PrefDescId": 616,
+  "PrefValue": "placeat",
+  "PrefShowValue": "recusandae",
+  "Description": "Intuitive non-volatile website",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldLength": 126
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

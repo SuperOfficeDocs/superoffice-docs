@@ -11,7 +11,13 @@ POST /api/v1/Agents/Audience/SetDefaultProjectImage
 
 Stores the default project or event image that is displayed in Audience when no project/event image is found.
 
+
 The image is set on a specific Audience layout instance.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ The image is set on a specific Audience layout instance.
 POST /api/v1/Agents/Audience/SetDefaultProjectImage?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,16 +40,17 @@ POST /api/v1/Agents/Audience/SetDefaultProjectImage?$select=name,department,cate
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LayoutName, Image
+LayoutName, Image 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
 | Image | byte |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +58,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -62,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Yost-Kuhlman",
+  "LayoutName": "Pagac, Cremin and Murazik",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

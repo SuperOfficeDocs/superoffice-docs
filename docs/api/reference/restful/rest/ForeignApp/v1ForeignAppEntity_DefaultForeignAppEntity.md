@@ -11,7 +11,14 @@ GET /api/v1/ForeignApp/default
 
 Set default values into a new ForeignAppEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the ForeignSystem agent service CreateDefaultForeignAppEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +62,7 @@ Response body:
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -62,32 +70,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 09 Apr 1997 11:10:52 G4T
+Last-Modified: Tue, 15 Apr 2003 02:49:50 G4T
 
 {
-  "ForeignAppId": 756,
-  "Name": "Waters LLC",
-  "CreatedDate": "1995-05-07T11:10:52.8831799+02:00",
-  "UpdatedDate": "1997-04-09T11:10:52.8831799+02:00",
+  "ForeignAppId": 914,
+  "Name": "Jewess LLC",
+  "CreatedDate": "2019-12-19T02:49:50.9640389+01:00",
+  "UpdatedDate": "2003-04-15T02:49:50.9640389+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 911,
-      "Name": "Glover, Mosciski and Schroeder",
-      "CreatedDate": "2017-11-28T11:10:52.8841739+01:00",
-      "UpdatedDate": "2020-05-04T11:10:52.8841739+02:00",
-      "AssociateFullName": "Monique Harris",
-      "CreatedBy": "adipisci",
-      "UpdatedBy": "pariatur",
-      "DeviceIdentifier": "quos",
-      "ForeignAppId": 264,
+      "ForeignDeviceId": 806,
+      "Name": "Ondricka-Schmidt",
+      "CreatedDate": "2021-02-11T02:49:50.9640389+01:00",
+      "UpdatedDate": "2008-05-25T02:49:50.9640389+02:00",
+      "AssociateFullName": "Jose Stark",
+      "CreatedBy": "praesentium",
+      "UpdatedBy": "occaecati",
+      "DeviceIdentifier": "magni",
+      "ForeignAppId": 791,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldLength": 276
         }
       }
     }
@@ -97,7 +105,7 @@ Last-Modified: Wed, 09 Apr 1997 11:10:52 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 652
     }
   }
 }

@@ -357,6 +357,10 @@ items:
     href: Batch_Agent/v1BatchAgent_DeleteBatchTask.md
   - name: DeleteBatchTasks
     href: Batch_Agent/v1BatchAgent_DeleteBatchTasks.md
+  - name: GetAllBatchTaskInfosByName
+    href: Batch_Agent/v1BatchAgent_GetAllBatchTaskInfosByName.md
+  - name: GetAllBatchTaskInfosByNameAndState
+    href: Batch_Agent/v1BatchAgent_GetAllBatchTaskInfosByNameAndState.md
   - name: GetBatchTaskInfo
     href: Batch_Agent/v1BatchAgent_GetBatchTaskInfo.md
   - name: GetBatchTaskInfosByAssociates
@@ -369,6 +373,10 @@ items:
     href: Batch_Agent/v1BatchAgent_GetBatchTaskInfosByNameAndState.md
   - name: GetBatchTaskInfosByState
     href: Batch_Agent/v1BatchAgent_GetBatchTaskInfosByState.md
+  - name: GetSystemBatchTaskInfosByName
+    href: Batch_Agent/v1BatchAgent_GetSystemBatchTaskInfosByName.md
+  - name: GetSystemBatchTaskInfosByNameAndState
+    href: Batch_Agent/v1BatchAgent_GetSystemBatchTaskInfosByNameAndState.md
   - name: StartBatchJob
     href: Batch_Agent/v1BatchAgent_StartBatchJob.md
   - name: StopBatchJob
@@ -646,6 +654,8 @@ items:
     href: Contact_Agent/v1ContactAgent_Copy.md
   - name: CreateDefaultContactEntity
     href: Contact_Agent/v1ContactAgent_CreateDefaultContactEntity.md
+  - name: CreateDefaultPreviewContact
+    href: Contact_Agent/v1ContactAgent_CreateDefaultPreviewContact.md
   - name: CreateNewEntry
     href: Contact_Agent/v1ContactAgent_CreateNewEntry.md
   - name: DeleteContactEntity
@@ -684,6 +694,8 @@ items:
     href: Contact_Agent/v1ContactAgent_GetNameDepartmentDuplicates.md
   - name: GetPersons
     href: Contact_Agent/v1ContactAgent_GetPersons.md
+  - name: GetPreviewContact
+    href: Contact_Agent/v1ContactAgent_GetPreviewContact.md
   - name: GetQuoteVersionAddresses
     href: Contact_Agent/v1ContactAgent_GetQuoteVersionAddresses.md
   - name: IsNumberValid
@@ -806,10 +818,14 @@ items:
     href: CustomerService_Agent/v1CustomerServiceAgent_GetStatistics.md
   - name: GetSystemTemplateSettings
     href: CustomerService_Agent/v1CustomerServiceAgent_GetSystemTemplateSettings.md
+  - name: GetUnparsedTemplate
+    href: CustomerService_Agent/v1CustomerServiceAgent_GetUnparsedTemplate.md
   - name: HasChatNotify
     href: CustomerService_Agent/v1CustomerServiceAgent_HasChatNotify.md
   - name: RemoveSession
     href: CustomerService_Agent/v1CustomerServiceAgent_RemoveSession.md
+  - name: ReportSessionActive
+    href: CustomerService_Agent/v1CustomerServiceAgent_ReportSessionActive.md
   - name: SaveAllCustomerCenterConfigs
     href: CustomerService_Agent/v1CustomerServiceAgent_SaveAllCustomerCenterConfigs.md
   - name: SaveCustomerCenterConfig
@@ -1292,6 +1308,8 @@ items:
     href: EMail_Agent/v1EMailAgent_GetEmailsAsString.md
   - name: GetEMailSOInfo
     href: EMail_Agent/v1EMailAgent_GetEMailSOInfo.md
+  - name: GetExtendedEmailMessageIds
+    href: EMail_Agent/v1EMailAgent_GetExtendedEmailMessageIds.md
   - name: GetFolderEMailCount
     href: EMail_Agent/v1EMailAgent_GetFolderEMailCount.md
   - name: GetFolderHasNewEMail
@@ -1492,6 +1510,8 @@ items:
     href: Favourite_Agent/v1FavouriteAgent_AddFavourite.md
   - name: AddFavourites
     href: Favourite_Agent/v1FavouriteAgent_AddFavourites.md
+  - name: AddTicketsToFavouritesByProvider
+    href: Favourite_Agent/v1FavouriteAgent_AddTicketsToFavouritesByProvider.md
   - name: GetFavourites
     href: Favourite_Agent/v1FavouriteAgent_GetFavourites.md
   - name: IsFavourite
@@ -1500,8 +1520,12 @@ items:
     href: Favourite_Agent/v1FavouriteAgent_RemoveAllFavourites.md
   - name: RemoveFavourite
     href: Favourite_Agent/v1FavouriteAgent_RemoveFavourite.md
+  - name: RemoveFavourites
+    href: Favourite_Agent/v1FavouriteAgent_RemoveFavourites.md
   - name: RemoveFavouritesById
     href: Favourite_Agent/v1FavouriteAgent_RemoveFavouritesById.md
+  - name: RemoveTicketsFromFavouritesByProvider
+    href: Favourite_Agent/v1FavouriteAgent_RemoveTicketsFromFavouritesByProvider.md
   - name: ToggleFavourite
     href: Favourite_Agent/v1FavouriteAgent_ToggleFavourite.md
 - name: Find
@@ -1649,6 +1673,8 @@ items:
     href: FreeText_Agent/v1FreeTextAgent_AddWords.md
   - name: DeleteStopWordsById
     href: FreeText_Agent/v1FreeTextAgent_DeleteStopWordsById.md
+  - name: FreetextIndexRows
+    href: FreeText_Agent/v1FreeTextAgent_FreetextIndexRows.md
   - name: GetStatus
     href: FreeText_Agent/v1FreeTextAgent_GetStatus.md
   - name: GetStopWordList
@@ -3240,8 +3266,16 @@ items:
     href: Targets_Agent/v1TargetsAgent_CreateDefaultTargetAssignment.md
   - name: CreateDefaultTargetAssignmentForCompany
     href: Targets_Agent/v1TargetsAgent_CreateDefaultTargetAssignmentForCompany.md
+  - name: CreateDefaultTargetAssignmentForCompanyWithDimension
+    href: Targets_Agent/v1TargetsAgent_CreateDefaultTargetAssignmentForCompanyWithDimension.md
+  - name: CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
+    href: Targets_Agent/v1TargetsAgent_CreateDefaultTargetAssignmentForCompanyWithYearAndDimension.md
   - name: CreateDefaultTargetAssignmentForUserGroup
     href: Targets_Agent/v1TargetsAgent_CreateDefaultTargetAssignmentForUserGroup.md
+  - name: CreateDefaultTargetAssignmentForUserGroupWithDimension
+    href: Targets_Agent/v1TargetsAgent_CreateDefaultTargetAssignmentForUserGroupWithDimension.md
+  - name: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
+    href: Targets_Agent/v1TargetsAgent_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension.md
   - name: CreateDefaultTargetDimension
     href: Targets_Agent/v1TargetsAgent_CreateDefaultTargetDimension.md
   - name: CreateDefaultTargetGroup
@@ -3258,6 +3292,8 @@ items:
     href: Targets_Agent/v1TargetsAgent_ExportTargetGroupToExcel.md
   - name: GetTargetAssignmentForYear
     href: Targets_Agent/v1TargetsAgent_GetTargetAssignmentForYear.md
+  - name: GetTargetAssignmentForYearAndDimension
+    href: Targets_Agent/v1TargetsAgent_GetTargetAssignmentForYearAndDimension.md
   - name: GetTargetDimension
     href: Targets_Agent/v1TargetsAgent_GetTargetDimension.md
   - name: GetTargetDimensionsForEntityType
@@ -3266,6 +3302,8 @@ items:
     href: Targets_Agent/v1TargetsAgent_GetTargetGroup.md
   - name: GetTargetGroupForYear
     href: Targets_Agent/v1TargetsAgent_GetTargetGroupForYear.md
+  - name: GetTargetGroupForYearAndDimension
+    href: Targets_Agent/v1TargetsAgent_GetTargetGroupForYearAndDimension.md
   - name: GetTargetGroupIds
     href: Targets_Agent/v1TargetsAgent_GetTargetGroupIds.md
   - name: GetTargetRevisionHistory
@@ -3279,6 +3317,10 @@ items:
   items:
   - name: AddAttachments
     href: Ticket_Agent/v1TicketAgent_AddAttachments.md
+  - name: BatchForward
+    href: Ticket_Agent/v1TicketAgent_BatchForward.md
+  - name: BatchReply
+    href: Ticket_Agent/v1TicketAgent_BatchReply.md
   - name: CalculateMessageRecipients
     href: Ticket_Agent/v1TicketAgent_CalculateMessageRecipients.md
   - name: CreateDefaultAttachmentEntity
@@ -3287,6 +3329,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_CreateDefaultTicketEntity.md
   - name: CreateDefaultTicketMessageEntity
     href: Ticket_Agent/v1TicketAgent_CreateDefaultTicketMessageEntity.md
+  - name: DeleteMessageHeaders
+    href: Ticket_Agent/v1TicketAgent_DeleteMessageHeaders.md
   - name: DeleteTicketEntity
     href: Ticket_Agent/v1TicketAgent_DeleteTicketEntity.md
   - name: DeleteTicketMessageEntity
@@ -3323,12 +3367,18 @@ items:
     href: Ticket_Agent/v1TicketAgent_GetTicketSummaries.md
   - name: Html2Text
     href: Ticket_Agent/v1TicketAgent_Html2Text.md
+  - name: MergeTickets
+    href: Ticket_Agent/v1TicketAgent_MergeTickets.md
   - name: NotifyNewTicket
     href: Ticket_Agent/v1TicketAgent_NotifyNewTicket.md
   - name: NotifyNewTicketMessage
     href: Ticket_Agent/v1TicketAgent_NotifyNewTicketMessage.md
   - name: ProcessTicketWhenRead
     href: Ticket_Agent/v1TicketAgent_ProcessTicketWhenRead.md
+  - name: RemoveMessageAttachments
+    href: Ticket_Agent/v1TicketAgent_RemoveMessageAttachments.md
+  - name: ResolveTicketId
+    href: Ticket_Agent/v1TicketAgent_ResolveTicketId.md
   - name: SanitizeMailContent
     href: Ticket_Agent/v1TicketAgent_SanitizeMailContent.md
   - name: SanitizeMailContents
@@ -3343,14 +3393,28 @@ items:
     href: Ticket_Agent/v1TicketAgent_SaveTicketMessageEntity.md
   - name: SaveTicketMessageEntityWithNotify
     href: Ticket_Agent/v1TicketAgent_SaveTicketMessageEntityWithNotify.md
+  - name: SaveTicketMessageEntityWithOptions
+    href: Ticket_Agent/v1TicketAgent_SaveTicketMessageEntityWithOptions.md
   - name: SendTicketMessage
     href: Ticket_Agent/v1TicketAgent_SendTicketMessage.md
   - name: SendTicketMessageSms
     href: Ticket_Agent/v1TicketAgent_SendTicketMessageSms.md
+  - name: SetDeletedStatusByIds
+    href: Ticket_Agent/v1TicketAgent_SetDeletedStatusByIds.md
+  - name: SetDeletedStatusByProvider
+    href: Ticket_Agent/v1TicketAgent_SetDeletedStatusByProvider.md
   - name: SetTicketMessageImportant
     href: Ticket_Agent/v1TicketAgent_SetTicketMessageImportant.md
   - name: SetTicketReadByOwner
     href: Ticket_Agent/v1TicketAgent_SetTicketReadByOwner.md
+  - name: SplitTicket
+    href: Ticket_Agent/v1TicketAgent_SplitTicket.md
+  - name: SplitTicketMessage
+    href: Ticket_Agent/v1TicketAgent_SplitTicketMessage.md
+  - name: UpdateTicketsReadStatus
+    href: Ticket_Agent/v1TicketAgent_UpdateTicketsReadStatus.md
+  - name: UpdateTicketsReadStatusByProvider
+    href: Ticket_Agent/v1TicketAgent_UpdateTicketsReadStatusByProvider.md
   - name: UploadAttachment
     href: Ticket_Agent/v1TicketAgent_UploadAttachment.md
 - name: TimeZone
@@ -3362,6 +3426,8 @@ items:
     href: TimeZone_Agent/v1TimeZoneAgent_DeleteTimeZones.md
   - name: GetBaseTimeZoneId
     href: TimeZone_Agent/v1TimeZoneAgent_GetBaseTimeZoneId.md
+  - name: GetDefaultTimeZoneInformation
+    href: TimeZone_Agent/v1TimeZoneAgent_GetDefaultTimeZoneInformation.md
   - name: GetDefaultTimeZonePreference
     href: TimeZone_Agent/v1TimeZoneAgent_GetDefaultTimeZonePreference.md
   - name: InitializeTimeZoneData

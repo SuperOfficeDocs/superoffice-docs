@@ -11,9 +11,16 @@ PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent
 
 Update users roles in a chat topic
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatTopicId | int32 | Id of the chat topic **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Update users roles in a chat topic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: useragents
+## Request Body: useragents  
 
-Users new/updated roles within the chat topic. Replaces existing roles
+Users new/updated roles within the chat topic. Replaces existing roles 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,6 +48,7 @@ Users new/updated roles within the chat topic. Replaces existing roles
 | CanRespond | bool | True if the user can respond to chats in this topic |
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
+
 
 ## Response: array
 
@@ -67,12 +75,12 @@ Response body: array
 PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 852,
+    "TopicId": 440,
     "User": null,
     "CanListen": false,
     "CanRespond": false,
@@ -80,7 +88,7 @@ Content-Type: application/json; charset=utf-8
     "CanNotify": false
   },
   {
-    "TopicId": 852,
+    "TopicId": 440,
     "User": null,
     "CanListen": false,
     "CanRespond": false,
@@ -98,17 +106,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 605,
+    "TopicId": 829,
     "User": null,
-    "CanListen": true,
+    "CanListen": false,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
   },
   {
-    "TopicId": 605,
+    "TopicId": 829,
     "User": null,
-    "CanListen": true,
+    "CanListen": false,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false

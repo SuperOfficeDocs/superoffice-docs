@@ -11,7 +11,16 @@ POST /api/v1/User/Validate
 
 Check that entity is ready for saving, return error messages by field.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Check that entity is ready for saving, return error messages by field.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: user
+## Request Body: user  
 
-Entity to be checked for errors.
+Entity to be checked for errors. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,6 +68,7 @@ Entity to be checked for errors.
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 
+
 ## Response: object
 
 OK
@@ -68,6 +78,7 @@ OK
 | 200 | OK |
 
 Response body: object
+
 
 ## Sample request
 
@@ -79,14 +90,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 128,
-  "Name": "Bahringer, Hessel and Friesen",
-  "Rank": 235,
-  "Tooltip": "quo",
+  "AssociateId": 915,
+  "Name": "Runolfsdottir LLC",
+  "Rank": 600,
+  "Tooltip": "consequatur",
   "LicenseOwners": [
     {
-      "Name": "Glover Inc and Sons",
-      "Description": "Enhanced dynamic frame",
+      "Name": "Towne, Durgan and Collier",
+      "Description": "Right-sized composite strategy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -97,8 +108,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Glover Inc and Sons",
-      "Description": "Enhanced dynamic frame",
+      "Name": "Towne, Durgan and Collier",
+      "Description": "Right-sized composite strategy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -113,87 +124,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "vitae",
-      "Tooltip": "nam",
-      "Id": 339,
-      "Rank": 154,
-      "Deleted": true
+      "Value": "nam",
+      "Tooltip": "impedit",
+      "Id": 661,
+      "Rank": 79,
+      "Deleted": false
     },
     {
-      "Value": "vitae",
-      "Tooltip": "nam",
-      "Id": 339,
-      "Rank": 154,
-      "Deleted": true
+      "Value": "nam",
+      "Tooltip": "impedit",
+      "Id": 661,
+      "Rank": 79,
+      "Deleted": false
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "1998-11-19T11:10:53.8541856+01:00",
-  "Lastlogout": "2018-04-08T11:10:53.8541856+02:00",
-  "EjUserId": 137,
-  "RequestSignature": "aut",
+  "Deleted": true,
+  "Lastlogin": "2022-10-23T02:49:51.8272735+02:00",
+  "Lastlogout": "2007-10-25T02:49:51.8272735+02:00",
+  "EjUserId": 108,
+  "RequestSignature": "optio",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aperiam",
-      "DisplayValue": "ipsam"
+      "Value": "ab",
+      "DisplayValue": "eaque"
     },
     {
       "Type": null,
-      "Value": "aperiam",
-      "DisplayValue": "ipsam"
+      "Value": "ab",
+      "DisplayValue": "eaque"
     }
   ],
-  "UserName": "Russel, Abernathy and Leannon",
+  "UserName": "Hane LLC",
   "TicketCategories": [
     {
-      "Id": 443,
-      "Name": "Senger, Shanahan and Parker",
-      "ToolTip": "Magni omnis dignissimos.",
+      "Id": 332,
+      "Name": "Rippin-Adams",
+      "ToolTip": "Quae officiis ratione labore.",
       "Deleted": false,
-      "Rank": 638,
-      "Type": "excepturi",
+      "Rank": 223,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 654,
-      "ExtraInfo": "omnis",
-      "StyleHint": "consequuntur",
-      "FullName": "Prof. Lucio Smith"
+      "IconHint": "ut",
+      "ColorBlock": 278,
+      "ExtraInfo": "quia",
+      "StyleHint": "voluptas",
+      "FullName": "Henry Jacobson"
     }
   ],
-  "NickName": "Bailey, Schinner and Veum",
-  "WaitingForApproval": true,
+  "NickName": "Wilkinson-Renner",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "excepturi"
+    "ExtraFields1": "reprehenderit",
+    "ExtraFields2": "totam"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "omnis"
+    "CustomFields1": "aliquid",
+    "CustomFields2": "nam"
   },
   "PostSaveCommands": [
     {
-      "Name": "VonRueden-Ernser",
-      "DisplayName": "Wunsch-Sauer",
-      "Description": "Proactive full-range groupware",
-      "ToolTip": "Assumenda dolores repellendus impedit autem ad autem maxime.",
+      "Name": "Turcotte-Corwin",
+      "DisplayName": "Considine-Schuster",
+      "Description": "Customer-focused multi-tasking budgetary management",
+      "ToolTip": "Quos sint ex.",
       "Actions": "Implicit",
-      "ActionData": "ipsam"
+      "ActionData": "ipsum"
     },
     {
-      "Name": "VonRueden-Ernser",
-      "DisplayName": "Wunsch-Sauer",
-      "Description": "Proactive full-range groupware",
-      "ToolTip": "Assumenda dolores repellendus impedit autem ad autem maxime.",
+      "Name": "Turcotte-Corwin",
+      "DisplayName": "Considine-Schuster",
+      "Description": "Customer-focused multi-tasking budgetary management",
+      "ToolTip": "Quos sint ex.",
       "Actions": "Implicit",
-      "ActionData": "ipsam"
+      "ActionData": "ipsum"
     }
   ]
 }
@@ -206,7 +217,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "architecto",
-  "2": "totam"
+  "1": "officiis",
+  "2": "corrupti"
 }
 ```

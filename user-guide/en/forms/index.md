@@ -11,7 +11,7 @@ language: en
 
 # Work with forms
 
-The forms feature is a powerful engine to get information from a form into SuperOffice without too much integrations and hassle. Forms make it easier to interact with customers and prospects via your website or customer centre. A wide variety of data can be added in a form (including file upload) and you can add a number of automated actions to perform when the form is submitted and processed.
+The forms feature is a powerful engine to get information from a form into SuperOffice without too much integrations and hassle. Forms make it easier to interact with customers and prospects via your website or customer centre. A wide variety of data can be added in a form (including file upload) and you can add automated actions to perform when the form is submitted and processed.
 
 See examples here: [How to create forms (examples)][1]
 
@@ -27,7 +27,7 @@ Creating a form follows roughly this workflow:
 2. [Form response - Step 1: Setup][3] - an email can be automatically sent to a submitter when their form is processed.
 3. [Publish forms][4] - use a link or JavaScript to publish the form in a newsletter or on a website or Customer Centre.
 4. [Track form submissions and view statistics][5] - view the response rate in real-time.
-5. [Process form submissions][6] - update SuperOffice with the submitted data, either manually or automatically. SuperOffice can identify existing contacts based on e-mail addresses or create new contacts and companies.
+5. [Process form submissions][6] - update SuperOffice with the submitted data, either manually or automatically. SuperOffice can identify existing contacts based on email addresses or create new contacts and companies.
 
 <!-- Referenced links -->
 [1]: examples.md

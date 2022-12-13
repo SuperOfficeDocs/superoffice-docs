@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetData
 
 Get data for this tile
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get data for this tile
 ```http
 POST /api/v1/Agents/Dashboard/GetData?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Dashboard/GetData?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileId, Restrictions
+DashboardTileId, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileId | int32 |  |
 | Restrictions | string |  |
+
 
 ## Response: array
 
@@ -69,8 +77,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 96,
-  "Restrictions": "minima"
+  "DashboardTileId": 369,
+  "Restrictions": "voluptas"
 }
 ```
 
@@ -84,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Vandervort-Berge",
-        "DisplayTooltip": "necessitatibus",
-        "DisplayType": "ab",
+        "DisplayName": "Glover, Schinner and O'Hara",
+        "DisplayTooltip": "et",
+        "DisplayType": "officiis",
         "CanOrderBy": false,
-        "Name": "Jewess Inc and Sons",
-        "CanRestrictBy": false,
-        "RestrictionType": "esse",
-        "RestrictionListName": "Hirthe Inc and Sons",
-        "IsVisible": false,
-        "ExtraInfo": "itaque",
-        "Width": "libero",
-        "IconHint": "provident",
-        "HeadingIconHint": "laborum"
+        "Name": "Beahan, Daugherty and Fadel",
+        "CanRestrictBy": true,
+        "RestrictionType": "qui",
+        "RestrictionListName": "Sanford Group",
+        "IsVisible": true,
+        "ExtraInfo": "voluptas",
+        "Width": "assumenda",
+        "IconHint": "omnis",
+        "HeadingIconHint": "ducimus"
       }
     ],
     "Result": null
@@ -104,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Vandervort-Berge",
-        "DisplayTooltip": "necessitatibus",
-        "DisplayType": "ab",
+        "DisplayName": "Glover, Schinner and O'Hara",
+        "DisplayTooltip": "et",
+        "DisplayType": "officiis",
         "CanOrderBy": false,
-        "Name": "Jewess Inc and Sons",
-        "CanRestrictBy": false,
-        "RestrictionType": "esse",
-        "RestrictionListName": "Hirthe Inc and Sons",
-        "IsVisible": false,
-        "ExtraInfo": "itaque",
-        "Width": "libero",
-        "IconHint": "provident",
-        "HeadingIconHint": "laborum"
+        "Name": "Beahan, Daugherty and Fadel",
+        "CanRestrictBy": true,
+        "RestrictionType": "qui",
+        "RestrictionListName": "Sanford Group",
+        "IsVisible": true,
+        "ExtraInfo": "voluptas",
+        "Width": "assumenda",
+        "IconHint": "omnis",
+        "HeadingIconHint": "ducimus"
       }
     ],
     "Result": null

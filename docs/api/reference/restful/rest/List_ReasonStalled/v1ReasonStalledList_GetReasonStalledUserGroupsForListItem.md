@@ -11,11 +11,18 @@ GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ReasonStalled list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Reynolds, Hegmann and Weimann",
-    "ToolTip": "Ut reiciendis numquam aspernatur sapiente nihil.",
-    "Deleted": false,
-    "Rank": 299,
-    "Type": "rerum",
-    "ColorBlock": 627,
-    "IconHint": "aliquid",
+    "Id": 107,
+    "Name": "Bins, Hilll and Bechtelar",
+    "ToolTip": "Voluptatem recusandae qui tenetur quia deserunt et voluptatibus.",
+    "Deleted": true,
+    "Rank": 632,
+    "Type": "itaque",
+    "ColorBlock": 542,
+    "IconHint": "ea",
     "Selected": true,
-    "LastChanged": "2006-09-29T11:10:54.584935+02:00",
+    "LastChanged": "2015-04-28T02:49:52.4846993+02:00",
     "ChildItems": [
       {
-        "Id": 470,
-        "Name": "Bode, Dickens and Lind",
-        "ToolTip": "Blanditiis enim.",
+        "Id": 217,
+        "Name": "Larkin, McKenzie and Boyle",
+        "ToolTip": "Officia et omnis neque est numquam.",
         "Deleted": false,
-        "Rank": 864,
+        "Rank": 629,
         "Type": "et",
-        "ColorBlock": 934,
-        "IconHint": "quia",
+        "ColorBlock": 11,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2009-09-23T11:10:54.5859361+02:00",
+        "LastChanged": "2007-09-13T02:49:52.4846993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "quidem",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "sapiente",
         "Hidden": true,
-        "FullName": "Mrs. Shayne Effertz V",
+        "FullName": "Barry Antonietta Hudson MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 531
+            "FieldType": "System.String",
+            "FieldLength": 283
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "quo",
+    "ExtraInfo": "quo",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Albert Von",
+    "FullName": "Kale Hane",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldLength": 491
       }
     }
   }

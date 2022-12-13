@@ -13,9 +13,9 @@ language: en
 
 [!include[Go to company](../includes/goto-company.md)]
 
-1. Right-click the required relation on the **Relations** section tab and select **Delete**. The **Delete Relation** dialog opens.
+1. Right-click the required relation on the **Relations** section tab and select **Delete**.
 
-1. Click **Yes** to confirm that you really want to delete the relation.
+1. In the **Delete Relation** dialog, click **Yes** to confirm that you really want to delete the relation.
 
 [!include[Deleting items](../includes/tip-deletion.md)]
 

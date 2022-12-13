@@ -11,7 +11,14 @@ POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
 
 Set default values into a new SystemEventEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +65,7 @@ Response body:
 POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -67,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 348,
+  "SystemEventId": 934,
   "Scope": "Database",
-  "Eta": "2020-10-23T11:10:26.1975253+02:00",
-  "Eventkey": "in",
-  "Eventmess": "est",
-  "ExtraInfo": 452,
-  "Owner": 447,
-  "UpdatedCount": 833,
-  "Registered": "2011-08-10T11:10:26.1975253+02:00",
+  "Eta": "1996-08-22T02:49:43.8566571+02:00",
+  "Eventkey": "nisi",
+  "Eventmess": "aut",
+  "ExtraInfo": 544,
+  "Owner": 913,
+  "UpdatedCount": 164,
+  "Registered": "2012-07-14T02:49:43.8566571+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldType": "System.Int32",
+      "FieldLength": 634
     }
   }
 }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSale
 
 Gets a Sale object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=819
+POST /api/v1/Agents/Sale/GetSale?saleId=912
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +90,7 @@ Response body:
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,37 +100,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Swift LLC",
-  "SaleDate": "2009-10-04T11:10:27.8185276+02:00",
-  "SaleId": 543,
-  "Probability": 764,
-  "Title": "repellendus",
-  "Amount": 5268.254,
-  "Currency": "in",
-  "ProjectName": "Jerde-Becker",
-  "AssociateFullName": "Delpha Boehm",
-  "Description": "Polarised hybrid contingency",
+  "ContactName": "Bartoletti-Koss",
+  "SaleDate": "2019-02-19T02:49:45.1247147+01:00",
+  "SaleId": 666,
+  "Probability": 685,
+  "Title": "sed",
+  "Amount": 15243.776,
+  "Currency": "rem",
+  "ProjectName": "Emmerich, Bauch and Von",
+  "AssociateFullName": "Mr. Una Carmine Wyman DVM",
+  "Description": "Re-engineered optimizing matrices",
   "Status": "Lost",
-  "WeightedAmount": 23812.131999999998,
-  "ProjectId": 780,
-  "EarningPercent": 4080.468,
-  "Earning": 3939.4379999999996,
-  "ContactId": 318,
-  "AssociateId": 703,
-  "PersonId": 524,
-  "SaleTypeId": 110,
-  "SaleTypeName": "Nienow Inc and Sons",
-  "PersonFullName": "Corine Lang",
+  "WeightedAmount": 510.842,
+  "ProjectId": 620,
+  "EarningPercent": 17848.13,
+  "Earning": 18769.525999999998,
+  "ContactId": 789,
+  "AssociateId": 865,
+  "PersonId": 919,
+  "SaleTypeId": 48,
+  "SaleTypeName": "Kulas-Hoppe",
+  "PersonFullName": "Otis Brandon Wintheiser DDS",
   "Completed": "Completed",
-  "ActiveErpLinks": 525,
-  "NextDueDate": "2021-03-01T11:10:27.8185276+01:00",
-  "Number": "976965",
+  "ActiveErpLinks": 372,
+  "NextDueDate": "2008-01-25T02:49:45.1247147+01:00",
+  "Number": "1879793",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldType": "System.Int32",
+      "FieldLength": 557
     }
   }
 }

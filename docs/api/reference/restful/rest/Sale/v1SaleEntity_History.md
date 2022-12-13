@@ -11,6 +11,7 @@ GET /api/v1/Sale/{id}/History
 
 OData list of History under a specific SaleEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Sale/1234/History?$select=col1,col2,abc/col3
@@ -19,19 +20,22 @@ Can be sorted and further filtered using OData conventions:
 * Sale/1234/History?$top=1000
 * Sale/1234/History?$mode=full
 
+
 OData returns XML or JSON carriers depending on the HTTP Accept header.
+
 
 Calls the Archive service using the "SaleHistory" archive provider.
 
-## Filter Operators ##
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -39,9 +43,15 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
+
 
 ## Query String Parameters
 
@@ -64,16 +74,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/History?$select=name,department,category/id
 GET /api/v1/Sale/{id}/History?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/History?$orderBy=name asc
-GET /api/v1/Sale/{id}/History?$entities=explicabo
-GET /api/v1/Sale/{id}/History?$top=70
-GET /api/v1/Sale/{id}/History?$skip=962
+GET /api/v1/Sale/{id}/History?$entities=rerum
+GET /api/v1/Sale/{id}/History?$top=44
+GET /api/v1/Sale/{id}/History?$skip=519
 GET /api/v1/Sale/{id}/History?$mode=Full
 GET /api/v1/Sale/{id}/History?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/History?$context=saepe
+GET /api/v1/Sale/{id}/History?$context=porro
 GET /api/v1/Sale/{id}/History?$format=JSON
 GET /api/v1/Sale/{id}/History?$jsonSafe=False
 GET /api/v1/Sale/{id}/History?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -88,7 +99,8 @@ GET /api/v1/Sale/{id}/History?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -97,7 +109,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -111,7 +123,7 @@ Response body:
 GET /api/v1/Sale/{id}/History
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -122,19 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "error",
+  "odata.nextLink": "iste",
   "value": [
     {
-      "PrimaryKey": 9622,
+      "PrimaryKey": 8006,
       "EntityName": "person",
-      "personId": 9622,
-      "fullName": "Joanne Von DDS"
+      "personId": 8006,
+      "fullName": "Torrance Dickens"
     },
     {
-      "PrimaryKey": 1687,
+      "PrimaryKey": 3440,
       "EntityName": "person",
-      "personId": 1687,
-      "fullName": "Ivah Vinnie D'Amore V"
+      "personId": 3440,
+      "fullName": "Amber Kub"
     }
   ]
 }

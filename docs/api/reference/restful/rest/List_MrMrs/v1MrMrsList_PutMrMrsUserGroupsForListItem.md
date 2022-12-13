@@ -11,11 +11,18 @@ PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 
 Saves user groups visible for the MrMrs list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Klocko-Ward",
-    "ToolTip": "Vero non labore.",
-    "Deleted": false,
-    "Rank": 943,
-    "Type": "neque",
-    "ColorBlock": 555,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "1998-05-26T11:10:54.3268695+02:00",
+    "Id": 925,
+    "Name": "Reilly Inc and Sons",
+    "ToolTip": "Aperiam modi consequatur.",
+    "Deleted": true,
+    "Rank": 100,
+    "Type": "sed",
+    "ColorBlock": 982,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2020-05-06T02:49:52.2815666+02:00",
     "ChildItems": [
       {
-        "Id": 967,
-        "Name": "Brown, Schowalter and Harris",
-        "ToolTip": "Perspiciatis veritatis libero.",
-        "Deleted": true,
-        "Rank": 447,
-        "Type": "delectus",
-        "ColorBlock": 632,
-        "IconHint": "sed",
+        "Id": 338,
+        "Name": "DuBuque-Kulas",
+        "ToolTip": "Dolorum quod.",
+        "Deleted": false,
+        "Rank": 977,
+        "Type": "recusandae",
+        "ColorBlock": 313,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "1999-12-20T11:10:54.3268695+01:00",
+        "LastChanged": "2000-09-06T02:49:52.2815666+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Reba Pollich"
+        "ExtraInfo": "et",
+        "StyleHint": "excepturi",
+        "Hidden": false,
+        "FullName": "Prof. Alda Lilyan Crona"
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "nesciunt",
-    "Hidden": true,
-    "FullName": "Kaylee Bogisich"
+    "ExtraInfo": "animi",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Bertrand Braun"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Yost-Goldner",
-    "ToolTip": "Sapiente sit maiores repellat.",
+    "Id": 248,
+    "Name": "Farrell LLC",
+    "ToolTip": "Autem aut eos.",
     "Deleted": true,
-    "Rank": 90,
-    "Type": "perferendis",
-    "ColorBlock": 191,
-    "IconHint": "dicta",
+    "Rank": 232,
+    "Type": "sint",
+    "ColorBlock": 354,
+    "IconHint": "itaque",
     "Selected": true,
-    "LastChanged": "2004-11-04T11:10:54.3288693+01:00",
+    "LastChanged": "1998-07-26T02:49:52.2815666+02:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Leffler-VonRueden",
-        "ToolTip": "Quo ipsa id.",
+        "Id": 633,
+        "Name": "Schultz, D'Amore and Schaefer",
+        "ToolTip": "Nulla est qui quia rerum rerum.",
         "Deleted": false,
-        "Rank": 90,
-        "Type": "explicabo",
-        "ColorBlock": 952,
-        "IconHint": "doloremque",
+        "Rank": 188,
+        "Type": "deleniti",
+        "ColorBlock": 636,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "2009-04-20T11:10:54.3288693+02:00",
+        "LastChanged": "2004-03-16T02:49:52.2815666+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "rem",
         "Hidden": false,
-        "FullName": "Miss Marshall Peggie Johnson",
+        "FullName": "Prof. Lyla Ethel Maggio II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 872
+            "FieldLength": 982
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "omnis",
+    "ExtraInfo": "quia",
+    "StyleHint": "explicabo",
     "Hidden": false,
-    "FullName": "Hattie Auer",
+    "FullName": "Ottis Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 783
+        "FieldLength": 788
       }
     }
   }

@@ -11,7 +11,13 @@ POST /api/v1/Agents/CustomerService/AddMessageFromMailData
 
 This method will add a message to an existing request in the sam way as importMail would do it from an email.
 
+
 It accepts RFC822 formatted data
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It accepts RFC822 formatted data
 ```http
 POST /api/v1/Agents/CustomerService/AddMessageFromMailData?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,17 @@ POST /api/v1/Agents/CustomerService/AddMessageFromMailData?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketId, Data
+TicketId, Data 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketId | int32 |  |
 | Data | string |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,12 +83,12 @@ Response body:
 POST /api/v1/Agents/CustomerService/AddMessageFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 307,
-  "Data": "dolorem"
+  "TicketId": 211,
+  "Data": "quam"
 }
 ```
 
@@ -91,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 44,
-  "Title": "excepturi",
-  "OwnerName": "Goodwin Group",
+  "TicketId": 388,
+  "Title": "cumque",
+  "OwnerName": "Gutkowski Inc and Sons",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Rogahn Inc and Sons",
+  "PriorityName": "Kemmer, Konopelski and McGlynn",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Bosco LLC",
-  "ContactName": "Bartell-Rutherford",
+  "PersonName": "Jewess, Satterfield and Bogan",
+  "ContactName": "Friesen, Wiegand and Crooks",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldLength": 274
     }
   }
 }

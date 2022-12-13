@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SetTicketStatusSortOrder
 
 This method will set sort order of ticket status in a list
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method will set sort order of ticket status in a list
 ```http
 POST /api/v1/Agents/List/SetTicketStatusSortOrder?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/List/SetTicketStatusSortOrder?$select=name,department,catego
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketStatusId, SortOrder
+TicketStatusId, SortOrder 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketStatusId | int32 |  |
 | SortOrder | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -56,12 +65,12 @@ Response body:
 POST /api/v1/Agents/List/SetTicketStatusSortOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 725,
-  "SortOrder": 117
+  "TicketStatusId": 683,
+  "SortOrder": 107
 }
 ```
 

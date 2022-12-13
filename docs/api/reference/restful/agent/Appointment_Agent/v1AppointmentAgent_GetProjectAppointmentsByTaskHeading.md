@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTaskHeading
 
 Method that returns a specified number of appointments of a specific appointment task heading within a time range.
 
+
 The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the project specified.  Task represents the different
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTaskHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTaskHeading?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count, TaskHeadingId
+ProjectId, StartTime, EndTime, Count, TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,6 +55,7 @@ ProjectId, StartTime, EndTime, Count, TaskHeadingId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskHeadingId | int32 |  |
+
 
 ## Response: array
 
@@ -119,15 +127,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 217,
-  "StartTime": "2020-09-30T11:10:25.4255222+02:00",
-  "EndTime": "2012-01-06T11:10:25.4255222+01:00",
-  "Count": 112,
-  "TaskHeadingId": 698
+  "ProjectId": 533,
+  "StartTime": "2017-05-20T02:49:43.2148724+02:00",
+  "EndTime": "2009-02-21T02:49:43.2148724+01:00",
+  "Count": 374,
+  "TaskHeadingId": 761
 }
 ```
 
@@ -139,53 +147,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 485,
-    "StartDate": "2013-12-22T11:10:25.4275223+01:00",
-    "EndDate": "2000-10-08T11:10:25.4275223+02:00",
+    "AppointmentId": 556,
+    "StartDate": "1999-04-22T02:49:43.2148724+02:00",
+    "EndDate": "2012-05-07T02:49:43.2148724+02:00",
     "Type": "BookingForChecklist",
-    "Task": "tempora",
-    "AssociateFullName": "Assunta Else O'Hara Jr.",
-    "ContactName": "D'Amore, Thompson and Hamill",
-    "Description": "Profit-focused 4th generation focus group",
-    "PersonFullName": "Shannon Kihn",
-    "PersonId": 537,
-    "ContactId": 716,
-    "ProjectId": 192,
-    "ProjectName": "Miller, Klein and Simonis",
-    "IsPublished": false,
-    "AssociateId": 357,
-    "ColorIndex": 128,
+    "Task": "facilis",
+    "AssociateFullName": "Lolita Beatty",
+    "ContactName": "Cremin Group",
+    "Description": "Synergistic reciprocal data-warehouse",
+    "PersonFullName": "Patsy Gaylord",
+    "PersonId": 570,
+    "ContactId": 633,
+    "ProjectId": 764,
+    "ProjectName": "Konopelski, Thompson and Lebsack",
+    "IsPublished": true,
+    "AssociateId": 342,
+    "ColorIndex": 304,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 20,
-    "PriorityName": "Ortiz LLC",
+    "PriorityId": 854,
+    "PriorityName": "Fay, Larkin and Hettinger",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2013-11-20T11:10:25.4275223+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2013-10-02T02:49:43.2148724+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-10-31T11:10:25.4275223+01:00",
-    "RecurringEndDate": "2001-05-13T11:10:25.4275223+02:00",
-    "MotherId": 742,
-    "AssignedBy": 933,
-    "AssignedByFullName": "Aylin Torphy",
-    "RejectReason": "repurpose one-to-one eyeballs",
-    "Location": "in",
-    "AlarmLeadTime": "vel",
-    "SaleId": 78,
-    "SaleName": "Green-Rippin",
-    "AssociateName": "Collins Group",
-    "CreatedDate": "1996-12-29T11:10:25.428522+01:00",
-    "CreatedBy": "repellat",
-    "CreatedByFullName": "Miss Maverick Rebecca Barton",
-    "CreatedByAssociateId": 908,
+    "RecurringStartDate": "1995-12-29T02:49:43.2148724+01:00",
+    "RecurringEndDate": "1996-04-19T02:49:43.2148724+02:00",
+    "MotherId": 940,
+    "AssignedBy": 422,
+    "AssignedByFullName": "Keegan Kassulke",
+    "RejectReason": "",
+    "Location": "eos",
+    "AlarmLeadTime": "totam",
+    "SaleId": 871,
+    "SaleName": "O'Keefe, Leffler and Heaney",
+    "AssociateName": "Zieme-Runolfsson",
+    "CreatedDate": "2007-04-19T02:49:43.2148724+02:00",
+    "CreatedBy": "debitis",
+    "CreatedByFullName": "Prof. Nicholaus Brody Zulauf",
+    "CreatedByAssociateId": 330,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -193,7 +201,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 169
+        "FieldLength": 292
       }
     }
   }

@@ -11,6 +11,13 @@ POST /api/v1/Agents/Targets/SaveTargetDimension
 
 Updates the existing TargetDimension or creates a new TargetDimension if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing TargetDimension or creates a new TargetDimension if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TargetDimension to be saved.
+The TargetDimension to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -35,11 +42,14 @@ The TargetDimension to be saved.
 | AssignmentLevel | string | What level this dimension can be assigned to (Company, Group, Associate) |
 | EntityType | string | Entity type for this set of targets (Sale, Project, Selection, Appointment...) |
 | MeasurementUnit | string | What to measure (Amount, Count, Profit... |
-| DimensionList | string | List that defines the dimensions for this target matrix (ex: Sale type, source, partner, business, udef or extrafield lists...) |
-| DimensionListName | string | Resolved list name |
+| DimensionListField | string | List that defines the dimensions for this target matrix (ex: Sale type, source, partner, business, udef or extrafield lists...) |
+| DimensionListName | string | List name (can be used by list provider system to get list items) |
+| DimensionListId | int32 | List id (can be used by list provider system to get list items) |
+| DimensionListLabel | string | list label (list column name) |
 | SelectedDimensions | array | id's of the selected/wanted dimensions (what sale types or udef list lines that should be target dimensions) |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -47,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,8 +65,10 @@ Response body:
 | AssignmentLevel | string | What level this dimension can be assigned to (Company, Group, Associate) |
 | EntityType | string | Entity type for this set of targets (Sale, Project, Selection, Appointment...) |
 | MeasurementUnit | string | What to measure (Amount, Count, Profit... |
-| DimensionList | string | List that defines the dimensions for this target matrix (ex: Sale type, source, partner, business, udef or extrafield lists...) |
-| DimensionListName | string | Resolved list name |
+| DimensionListField | string | List that defines the dimensions for this target matrix (ex: Sale type, source, partner, business, udef or extrafield lists...) |
+| DimensionListName | string | List name (can be used by list provider system to get list items) |
+| DimensionListId | int32 | List id (can be used by list provider system to get list items) |
+| DimensionListLabel | string | list label (list column name) |
 | SelectedDimensions | array | id's of the selected/wanted dimensions (what sale types or udef list lines that should be target dimensions) |
 | TableRight |  |  |
 | FieldProperties | object |  |
@@ -67,19 +79,21 @@ Response body:
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 552,
+  "TargetDimensionId": 938,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionList": "consequatur",
-  "DimensionListName": "Stroman, Waters and Bartoletti",
+  "DimensionListField": "molestiae",
+  "DimensionListName": "Altenwerth-Ebert",
+  "DimensionListId": 225,
+  "DimensionListLabel": "consequatur",
   "SelectedDimensions": [
-    208,
-    44
+    839,
+    576
   ]
 }
 ```
@@ -91,22 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 882,
+  "TargetDimensionId": 478,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionList": "sit",
-  "DimensionListName": "Spencer-Stroman",
+  "DimensionListField": "itaque",
+  "DimensionListName": "Olson-Turner",
+  "DimensionListId": 853,
+  "DimensionListLabel": "est",
   "SelectedDimensions": [
-    388,
-    56
+    160,
+    893
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldLength": 629
     }
   }
 }

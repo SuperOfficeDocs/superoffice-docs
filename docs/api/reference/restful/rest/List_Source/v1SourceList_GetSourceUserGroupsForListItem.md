@@ -11,11 +11,18 @@ GET /api/v1/List/Source/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Source list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,6 +36,7 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -77,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Towne-Hermann",
-    "ToolTip": "Assumenda aperiam.",
+    "Id": 222,
+    "Name": "Shields-Willms",
+    "ToolTip": "Blanditiis corrupti necessitatibus aut sint qui illum.",
     "Deleted": false,
-    "Rank": 802,
-    "Type": "rerum",
-    "ColorBlock": 674,
-    "IconHint": "ut",
+    "Rank": 542,
+    "Type": "molestiae",
+    "ColorBlock": 595,
+    "IconHint": "dolores",
     "Selected": true,
-    "LastChanged": "2005-02-16T11:10:54.6409307+01:00",
+    "LastChanged": "1997-08-13T02:49:52.5315748+02:00",
     "ChildItems": [
       {
-        "Id": 460,
-        "Name": "Reilly, Bergstrom and Turcotte",
-        "ToolTip": "Qui voluptas est nihil autem eum.",
-        "Deleted": true,
-        "Rank": 74,
-        "Type": "vero",
-        "ColorBlock": 337,
-        "IconHint": "accusamus",
-        "Selected": true,
-        "LastChanged": "2006-02-02T11:10:54.6409307+01:00",
+        "Id": 516,
+        "Name": "Hermiston LLC",
+        "ToolTip": "Cupiditate quae quia explicabo velit molestiae.",
+        "Deleted": false,
+        "Rank": 670,
+        "Type": "odio",
+        "ColorBlock": 244,
+        "IconHint": "soluta",
+        "Selected": false,
+        "LastChanged": "2002-09-24T02:49:52.5315748+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "facilis",
+        "ExtraInfo": "quam",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Christy Yundt",
+        "FullName": "Estel Bradtke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 454
+            "FieldLength": 599
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "sunt",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Glenna Homenick",
+    "FullName": "Tremayne Nienow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldLength": 530
       }
     }
   }

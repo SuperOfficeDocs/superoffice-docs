@@ -11,6 +11,13 @@ POST /api/v1/Agents/List/SaveSaleTypeEntity
 
 Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SaleTypeEntity to be saved.
+The SaleTypeEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +61,8 @@ The SaleTypeEntity to be saved.
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -62,7 +70,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,51 +105,51 @@ Response body:
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 604,
-  "Name": "Farrell, Price and Nienow",
-  "Tooltip": "dolores",
-  "Rank": 47,
+  "SaleTypeId": 392,
+  "Name": "Rice, Thompson and Batz",
+  "Tooltip": "excepturi",
+  "Rank": 870,
   "DurationUnit": "Century",
-  "SaleDuration": 36,
-  "SaleTypeCatId": 766,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "SaleDuration": 386,
+  "SaleTypeCatId": 325,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 874,
-  "QuoteLinesTemplate": 789,
-  "ConfirmationLinesTemplate": 685,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 598,
+  "QuoteLinesTemplate": 697,
+  "ConfirmationLinesTemplate": 909,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 843,
-  "MinEarningPercent": 990,
-  "GroupQuoteLinesBy": 852,
-  "SortGroupLinesBy": 167,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 721,
+  "MinEarningPercent": 8,
+  "GroupQuoteLinesBy": 579,
+  "SortGroupLinesBy": 984,
   "Stages": [
     {
-      "Id": 451,
-      "Name": "Walker Group",
-      "ToolTip": "Id tenetur.",
+      "Id": 858,
+      "Name": "Sporer, Volkman and Lynch",
+      "ToolTip": "Aut qui molestiae sequi mollitia ratione.",
       "Deleted": false,
-      "Rank": 848,
-      "Type": "voluptas",
-      "ColorBlock": 22,
-      "IconHint": "eveniet",
-      "Selected": false,
-      "LastChanged": "2003-06-10T11:10:27.257454+02:00",
+      "Rank": 721,
+      "Type": "sit",
+      "ColorBlock": 145,
+      "IconHint": "odit",
+      "Selected": true,
+      "LastChanged": "2015-11-14T02:49:44.6860468+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quam",
-      "StyleHint": "alias",
+      "ExtraInfo": "et",
+      "StyleHint": "fuga",
       "Hidden": false,
-      "FullName": "Casimer Gibson"
+      "FullName": "Kameron Klein IV"
     }
   ]
 }
@@ -154,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 719,
-  "Name": "Klocko Inc and Sons",
-  "Tooltip": "voluptas",
-  "Rank": 899,
+  "SaleTypeId": 347,
+  "Name": "Spencer Group",
+  "Tooltip": "aperiam",
+  "Rank": 353,
   "DurationUnit": "Century",
-  "SaleDuration": 415,
-  "SaleTypeCatId": 384,
-  "Deleted": false,
-  "HasGuide": true,
+  "SaleDuration": 494,
+  "SaleTypeCatId": 787,
+  "Deleted": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 935,
-  "QuoteLinesTemplate": 31,
-  "ConfirmationLinesTemplate": 481,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 674,
-  "MinEarningPercent": 566,
-  "GroupQuoteLinesBy": 3,
-  "SortGroupLinesBy": 818,
+  "DefaultQuoteValidity": 49,
+  "QuoteLinesTemplate": 707,
+  "ConfirmationLinesTemplate": 988,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 926,
+  "MinEarningPercent": 356,
+  "GroupQuoteLinesBy": 210,
+  "SortGroupLinesBy": 265,
   "Stages": [
     {
-      "Id": 605,
-      "Name": "Raynor, Wolf and Kunze",
-      "ToolTip": "Iste fugit eius ullam ab accusantium ut.",
-      "Deleted": false,
-      "Rank": 107,
-      "Type": "non",
-      "ColorBlock": 971,
-      "IconHint": "aut",
+      "Id": 339,
+      "Name": "Wuckert-Spencer",
+      "ToolTip": "Dolores dolor et.",
+      "Deleted": true,
+      "Rank": 113,
+      "Type": "facere",
+      "ColorBlock": 853,
+      "IconHint": "deserunt",
       "Selected": false,
-      "LastChanged": "2009-08-02T11:10:27.2584248+02:00",
+      "LastChanged": "2015-06-20T02:49:44.6860468+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tenetur",
-      "StyleHint": "quia",
+      "ExtraInfo": "omnis",
+      "StyleHint": "id",
       "Hidden": false,
-      "FullName": "Marcelina Kozey",
+      "FullName": "Mr. Danielle Murphy II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 611
         }
       }
     }
@@ -210,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 342
     }
   }
 }

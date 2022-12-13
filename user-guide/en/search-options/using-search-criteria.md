@@ -11,9 +11,9 @@ language: en
 
 # Use search criteria
 
-You use search criteria to define what you are looking for, for example "companies with an address in Denmark". Search criteria are used in a number of places in SuperOffice CRM, for instance in the **Find** screen and when creating selections. But, regardless of what you are using the criteria for, you work with them in the same way.
+You use search criteria to define what you are looking for, for example "companies with an address in Denmark". Search criteria are used in multiple places in SuperOffice CRM, for instance in the **Find** screen and when creating selections. But, regardless of what you are using the criteria for, you work with them in the same way.
 
-Everywhere you are able to enter search criteria, you will find a criteria list containing the selected search criteria.
+Everywhere you can enter search criteria, you will find a criteria list containing the selected search criteria.
 
 ## Add search criteria
 
@@ -29,7 +29,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
     * <details><summary>Text field</summary>
 
-        If the field you are searching in is a text field (e.g. a name field), the search is made on text or numbers you enter. A list with the following options is displayed:
+        If the field you are searching in is a text field (such as a name), the search is made on text or numbers you enter. A list with the following options is displayed:
 
         [!include[Search criteria](../includes/list-search-criteria.md)]
 
@@ -39,13 +39,13 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
     * <details><summary>Yes/No field</summary>
 
-        If the field you are searching in is a Yes/No field, e.g. the **No mailings** field in the **Company** screen, two radio buttons are displayed. You can choose between **Yes** and **No**.
+        If the field you are searching in is a Yes/No field, for example, the **No mailings** field in the **Company** screen, two radio buttons are displayed. You can choose between **Yes** and **No**.
 
     </details>
 
     * <details><summary>Date field</summary>
 
-        If the field you are searching in is a date field, e.g. the **Date** field in the **Document** dialog, a list box is displayed containing the following options:
+        If the field you are searching in is a date field, for example, the **Date** field in the **Document** dialog, a list box is displayed containing the following options:
 
         [!include[Search criteria](../includes/list-date-criteria.md)]
 
@@ -55,7 +55,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
     * <summary>Number field</summary>
 
-        If the field you are searching in contains a numerical value, e.g. the **Amount** field in the **Sale** screen, a list box is displayed containing the following options:
+        If the field you are searching in contains a numerical value, for example, the **Amount** field in the **Sale** screen, a list box is displayed containing the following options:
 
         [!include[Search criteria](../includes/table-number-criteria.md)]
 
@@ -65,7 +65,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
     * <details><summary>List field</summary>
 
-        If the field you are searching in is a field containing lists, e.g. the **Business** field in the **Company** screen, a list box appears with the options **Is one of** and **Is not one of**.
+        If the field you are searching in is a field containing lists, for example, the **Business** field in the **Company** screen, a list box appears with the options **Is one of** and **Is not one of**.
 
         Click the **Select items** field to display the list of values.
 
@@ -77,7 +77,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
     * <details><summary>Status field</summary>
 
-        If the field you are searching in is a status field, you just need to select the required status.
+        If the field you are searching in is a status field, select the required status.
 
         The statuses are created and maintained in SuperOffice Settings and maintenance.
 
@@ -104,11 +104,11 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
         **SAINT type**: Here you choose the activity type you want to search for.
         **Status**: Here you choose the status of the record you want to search for.
-        **Direction**: Here you can choose whether the activity is incoming or outgoing.
+        **Direction**: Here you can choose if the activity is incoming or outgoing.
         **Amount class**: Here you choose the sale's amount class.
         **Intention**: Here you choose the intention of the activity.
 
-        Depending on what you have selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
+        Depending on what you selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
 
 4. Select values for the search criteria in the various fields on the line.
 
@@ -116,7 +116,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
 ## Change search criteria
 
-If you want to change a search criterion, click it and select a different one from the list that appears.
+To change a search criterion, click it and select a different one from the list that appears.
 
 ## Move search criteria
 
@@ -128,11 +128,11 @@ To delete a search criterion, click ![icon][img3].
 
 ## Activate or deactivate search criteria
 
-When you open the **Find** screen, it contains default search criteria or the search criteria you specified the last time you used the dialog. If you want to use different search criteria than those shown, you have the following options:
+When you open the **Find** screen, it contains default search criteria or the search criteria you specified the last time you used the dialog. To use different search criteria than those shown, you have the following options:
 
-* you can delete them by clicking ![icon][img3]
-* you can deactivate one or more search criteria by leaving the value field empty. A deactivated search criterion remains in the criteria list and can be simply reactivated when needed.
-* you can deactivate all the search criteria by clicking **Clear all**.
+* You can delete them by clicking ![icon][img3]
+* You can deactivate one or more search criteria by leaving the value field empty. A deactivated search criterion remains in the criteria list and can be simply reactivated when needed.
+* You can deactivate all the search criteria by clicking **Clear all**.
 
 ## Move search criteria up or down
 
@@ -140,7 +140,7 @@ To move criteria, click and drag ![icon][img2]. This has no practical effect on 
 
 ## Reset to default search criteria
 
-The criteria lists contain a set of default criteria you can edit or remove as required. If you want to reset the criteria list to the default criteria, click **Reset to default**.
+The criteria lists contain a set of default criteria you can edit or remove as required. To reset the criteria list to the default criteria, click **Reset to default**.
 
 ## What would you like to do now?
 

@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/MoveEmailsToFolder
 
 Move one or more emails to the specified folder in the DB, and on the server
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +31,7 @@ Move one or more emails to the specified folder in the DB, and on the server
 POST /api/v1/Agents/EMail/MoveEmailsToFolder?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -33,16 +42,17 @@ POST /api/v1/Agents/EMail/MoveEmailsToFolder?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FolderId, EmailItemIds
+FolderId, EmailItemIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FolderId | int32 |  |
 | EmailItemIds | array |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -50,7 +60,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -62,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 879,
+  "FolderId": 365,
   "EmailItemIds": [
-    938,
-    48
+    68,
+    631
   ]
 }
 ```

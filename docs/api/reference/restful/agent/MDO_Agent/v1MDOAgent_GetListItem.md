@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetListItem
 
 Returns a single list item
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns a single list item
 ```http
 POST /api/v1/Agents/MDO/GetListItem?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/MDO/GetListItem?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ListName, Id
+ListName, Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ListName | string |  |
 | Id | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Grant, Koepp and Dicki",
-  "Id": 37
+  "ListName": "Altenwerth-Cremin",
+  "Id": 511
 }
 ```
 
@@ -93,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 899,
-  "Name": "Emmerich, Senger and Buckridge",
-  "ToolTip": "Iste et tenetur consectetur in.",
-  "Deleted": false,
-  "Rank": 752,
-  "Type": "quisquam",
+  "Id": 701,
+  "Name": "Leuschke LLC",
+  "ToolTip": "Eum tempora sit et impedit.",
+  "Deleted": true,
+  "Rank": 923,
+  "Type": "impedit",
   "ChildItems": [
     {
-      "Id": 901,
-      "Name": "Schimmel, Smitham and Torp",
-      "ToolTip": "Magnam non ratione ut ipsum aut consectetur.",
+      "Id": 125,
+      "Name": "Stanton, Carter and Cole",
+      "ToolTip": "Sit id repellendus.",
       "Deleted": false,
-      "Rank": 285,
+      "Rank": 424,
       "Type": "quia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dicta",
-      "ColorBlock": 213,
-      "ExtraInfo": "veniam",
-      "StyleHint": "cupiditate",
-      "FullName": "Jermey Tremblay",
+      "IconHint": "veritatis",
+      "ColorBlock": 804,
+      "ExtraInfo": "consectetur",
+      "StyleHint": "esse",
+      "FullName": "Prof. Gudrun Gerry Kunde I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 389
+          "FieldType": "System.String",
+          "FieldLength": 503
         }
       }
     }
   ],
-  "IconHint": "non",
-  "ColorBlock": 149,
-  "ExtraInfo": "est",
-  "StyleHint": "cumque",
-  "FullName": "Phyllis Daniel",
+  "IconHint": "ut",
+  "ColorBlock": 520,
+  "ExtraInfo": "sed",
+  "StyleHint": "ullam",
+  "FullName": "Benedict Bogan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldLength": 929
     }
   }
 }

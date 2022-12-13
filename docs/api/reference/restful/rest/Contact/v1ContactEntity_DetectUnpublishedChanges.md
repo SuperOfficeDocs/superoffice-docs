@@ -11,7 +11,13 @@ GET /api/v1/Contact/UdefLayout/Changed
 
 Is the UDef Layout changed? This may or may not involve moving data (which takes longer).
 
+
 True if the ContactEntity user-defined field layout has been changed.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ True if the ContactEntity user-defined field layout has been changed.
 ```http
 GET /api/v1/Contact/UdefLayout/Changed?columnChangesOnly=True
 ```
+
 
 ## Request Headers
 
@@ -36,6 +43,7 @@ GET /api/v1/Contact/UdefLayout/Changed?columnChangesOnly=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
 
 OK
@@ -45,6 +53,7 @@ OK
 | 200 | OK |
 
 Response body: bool
+
 
 ## Sample request
 
@@ -61,5 +70,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

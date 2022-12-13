@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/ChatSessionsForUser
 
 Get all chat sessions which this user is a member of.
 
+
 Members means that you have at least one of: Can Respond, Notifications, Listen or Manager
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Members means that you have at least one of: Can Respond, Notifications, Listen 
 ```http
 POST /api/v1/Agents/Chat/ChatSessionsForUser?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ POST /api/v1/Agents/Chat/ChatSessionsForUser?$select=name,department,category/id
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -99,29 +107,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 529,
-    "TopicId": 160,
+    "ChatSessionId": 986,
+    "TopicId": 53,
     "User": null,
     "Person": null,
-    "CustomerAlias": "distinctio",
-    "CustomerHost": "suscipit",
-    "CustomerName": "Smith Inc and Sons",
-    "CustomerEmail": "olen@padberg.us",
-    "CustomerPhone": "872.108.1113",
-    "CustomerConsented": true,
-    "CustomerCompanyName": "Lind Inc and Sons",
+    "CustomerAlias": "sint",
+    "CustomerHost": "ipsa",
+    "CustomerName": "Heller LLC",
+    "CustomerEmail": "marlin.schulist@kleinwisoky.us",
+    "CustomerPhone": "830-832-2519 x779",
+    "CustomerConsented": false,
+    "CustomerCompanyName": "Zemlak Group",
     "Status": "Closed",
-    "FirstMessage": "voluptas",
-    "LastMessage": "atque",
-    "WhenRequested": "1997-07-22T11:10:26.0985535+02:00",
-    "WhenStarted": "2018-07-09T11:10:26.0985535+02:00",
-    "WhenEnded": "2014-10-13T11:10:26.0985535+02:00",
-    "WhenIdle": "2001-03-28T11:10:26.0985535+02:00",
-    "WhenFetched": "2012-10-05T11:10:26.0985535+02:00",
-    "SessionKey": "est",
-    "InitialQueuePos": 86,
-    "AlertLevel": 104,
-    "Rank": 571,
+    "FirstMessage": "id",
+    "LastMessage": "reprehenderit",
+    "WhenRequested": "1999-03-31T02:49:43.7629084+02:00",
+    "WhenStarted": "2008-12-29T02:49:43.7629084+01:00",
+    "WhenEnded": "2013-08-24T02:49:43.7629084+02:00",
+    "WhenIdle": "2004-04-21T02:49:43.7785322+02:00",
+    "WhenFetched": "1996-03-04T02:49:43.7785322+01:00",
+    "SessionKey": "vitae",
+    "InitialQueuePos": 533,
+    "AlertLevel": 573,
+    "Rank": 758,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -129,13 +137,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": true,
-    "Rating": 807,
+    "Rating": 886,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 338
+        "FieldType": "System.Int32",
+        "FieldLength": 909
       }
     }
   }

@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 
 Create a new document template language based on an existing template
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a new document template language based on an existing template
 ```http
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -31,16 +38,17 @@ POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage?$select=name,depa
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentTemplateId, LanguageCode
+DocumentTemplateId, LanguageCode 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentTemplateId | int32 |  |
 | LanguageCode | string |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -48,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -60,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 200,
-  "LanguageCode": "provident"
+  "DocumentTemplateId": 461,
+  "LanguageCode": "in"
 }
 ```
 

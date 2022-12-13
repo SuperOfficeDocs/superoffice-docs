@@ -11,6 +11,12 @@ POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 
 Determine if resource substitution/override is active, globally or for a subset of resources/cultures
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Determine if resource substitution/override is active, globally or for a subset 
 ```http
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,14 +42,15 @@ POST /api/v1/Agents/Resource/IsResourceSubstitutionActive?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ResourceNames, Culture
+ResourceNames, Culture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ResourceNames | array |  |
 | Culture | string |  |
+
 
 ## Response: array
 
@@ -69,15 +77,15 @@ Response body: array
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Fadel, Kuvalis and Fahey",
-    "Brakus, Considine and Kshlerin"
+    "Spencer-Grady",
+    "Jewess, Beier and VonRueden"
   ],
-  "Culture": "saepe"
+  "Culture": "rem"
 }
 ```
 
@@ -89,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Schiller, Jenkins and Hintz",
-    "ResourceValue": "quia",
-    "Culture": "sunt",
-    "IsActive": true,
+    "ResourceName": "Crist, Reynolds and Boyle",
+    "ResourceValue": "neque",
+    "Culture": "tempore",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 307
       }
     }
   },
   {
-    "ResourceName": "Schiller, Jenkins and Hintz",
-    "ResourceValue": "quia",
-    "Culture": "sunt",
-    "IsActive": true,
+    "ResourceName": "Crist, Reynolds and Boyle",
+    "ResourceValue": "neque",
+    "Culture": "tempore",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 307
       }
     }
   }

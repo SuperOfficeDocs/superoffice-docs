@@ -11,6 +11,13 @@ PUT /api/v1/List/TicketStatus
 
 Save the description of TicketStatusEntity list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,12 +32,12 @@ Save the description of TicketStatusEntity list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listEntity
+## Request Body: listEntity  
 
 The list entity contains information about a specific list
 <para />
 Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ Services for the ListEntity Carrier is available from the <see cref="T:SuperOffi
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,20 +84,20 @@ Response body:
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 419,
-  "Name": "Haley Group",
-  "Tooltip": "esse",
+  "Id": 714,
+  "Name": "Rice Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 26,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 993,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "libero",
-  "InUseByUserDefinedFields": false
+  "ListType": "eaque",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -100,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 492,
-  "Name": "Hilpert Group",
-  "Tooltip": "saepe",
+  "Id": 5,
+  "Name": "Flatley-Powlowski",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 729,
-  "IsCustomList": true,
+  "Rank": 262,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "eveniet",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldType": "System.String",
+      "FieldLength": 630
     }
   }
 }

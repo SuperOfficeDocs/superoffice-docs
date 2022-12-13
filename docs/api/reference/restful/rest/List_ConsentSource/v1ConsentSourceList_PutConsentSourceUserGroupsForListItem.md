@@ -11,11 +11,18 @@ PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ConsentSource list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Becker-Jones",
-    "ToolTip": "Odit sapiente et in totam repellendus.",
+    "Id": 961,
+    "Name": "Morissette Inc and Sons",
+    "ToolTip": "Veniam amet dolor distinctio consequatur voluptatem quis.",
     "Deleted": false,
-    "Rank": 525,
-    "Type": "sed",
-    "ColorBlock": 33,
-    "IconHint": "dolorum",
+    "Rank": 707,
+    "Type": "veniam",
+    "ColorBlock": 791,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2000-11-08T11:10:53.9991824+01:00",
+    "LastChanged": "1996-03-28T02:49:51.9534435+01:00",
     "ChildItems": [
       {
-        "Id": 557,
-        "Name": "Murazik LLC",
-        "ToolTip": "Dolor ipsum perspiciatis ut laudantium laboriosam non.",
+        "Id": 362,
+        "Name": "Von-Trantow",
+        "ToolTip": "Occaecati qui magni atque nesciunt saepe placeat dolor.",
         "Deleted": false,
-        "Rank": 523,
-        "Type": "dolor",
-        "ColorBlock": 457,
-        "IconHint": "ab",
-        "Selected": true,
-        "LastChanged": "1999-06-17T11:10:53.9991824+02:00",
+        "Rank": 449,
+        "Type": "libero",
+        "ColorBlock": 753,
+        "IconHint": "nam",
+        "Selected": false,
+        "LastChanged": "2004-03-15T02:49:51.9534435+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "tenetur",
-        "Hidden": false,
-        "FullName": "Caleigh Sipes"
+        "ExtraInfo": "id",
+        "StyleHint": "ullam",
+        "Hidden": true,
+        "FullName": "Dr. Rosemary Witting Sr."
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "placeat",
+    "ExtraInfo": "odio",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Elody Doyle"
+    "FullName": "Edd Upton"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Gislason-Tillman",
-    "ToolTip": "Rerum iusto harum aut et sapiente in.",
-    "Deleted": false,
-    "Rank": 57,
-    "Type": "earum",
+    "Id": 671,
+    "Name": "Casper Inc and Sons",
+    "ToolTip": "Modi cum minus exercitationem similique eum voluptatem.",
+    "Deleted": true,
+    "Rank": 426,
+    "Type": "aut",
     "ColorBlock": 769,
-    "IconHint": "qui",
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "1999-04-03T11:10:54.0001825+02:00",
+    "LastChanged": "2014-07-19T02:49:51.9534435+02:00",
     "ChildItems": [
       {
-        "Id": 819,
-        "Name": "Schaden Inc and Sons",
-        "ToolTip": "Culpa aut consequuntur sit fugit ea tenetur.",
-        "Deleted": true,
-        "Rank": 274,
-        "Type": "sequi",
-        "ColorBlock": 191,
-        "IconHint": "culpa",
+        "Id": 749,
+        "Name": "Hyatt-Kulas",
+        "ToolTip": "Quas perspiciatis ex qui molestias rerum.",
+        "Deleted": false,
+        "Rank": 312,
+        "Type": "ratione",
+        "ColorBlock": 175,
+        "IconHint": "laboriosam",
         "Selected": false,
-        "LastChanged": "2015-04-16T11:10:54.0001825+02:00",
+        "LastChanged": "2015-06-11T02:49:51.9534435+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "saepe",
-        "Hidden": false,
-        "FullName": "Ms. Antwan Lilliana Leuschke",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Ms. Kamryn Swaniawski Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 236
+            "FieldType": "System.String",
+            "FieldLength": 335
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "nostrum",
-    "Hidden": true,
-    "FullName": "Ms. Golda Watsica III",
+    "ExtraInfo": "sequi",
+    "StyleHint": "corporis",
+    "Hidden": false,
+    "FullName": "Victoria Carlotta Zieme V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 867
+        "FieldType": "System.Int32",
+        "FieldLength": 567
       }
     }
   }

@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/TestConnectionByConfig
 
 Tests to see if the given connection has a valid connection to its connector
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Tests to see if the given connection has a valid connection to its connector
 ```http
 POST /api/v1/Agents/ErpSync/TestConnectionByConfig?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,14 +46,15 @@ POST /api/v1/Agents/ErpSync/TestConnectionByConfig?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, ConfigFields
+ErpConnectionId, ConfigFields 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 | ConfigFields | object |  |
+
 
 ## Response: bool
 
@@ -56,20 +66,21 @@ OK
 
 Response body: bool
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/TestConnectionByConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 309,
+  "ErpConnectionId": 638,
   "ConfigFields": {
-    "ConfigFields1": "sequi",
-    "ConfigFields2": "recusandae"
+    "ConfigFields1": "sed",
+    "ConfigFields2": "dignissimos"
   }
 }
 ```
@@ -80,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

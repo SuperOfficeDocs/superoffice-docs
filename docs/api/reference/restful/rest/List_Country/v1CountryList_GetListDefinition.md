@@ -11,6 +11,13 @@ GET /api/v1/List/Country
 
 Gets description of Country list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -24,7 +31,8 @@ Gets description of Country list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -32,7 +40,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +64,7 @@ Response body:
 GET /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -66,14 +74,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 737,
-  "Name": "Fay, Mante and Lueilwitz",
-  "Tooltip": "quam",
-  "Deleted": true,
-  "Rank": 368,
+  "Id": 507,
+  "Name": "Langworth LLC",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 960,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
+  "UseGroupsAndHeadings": true,
   "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
@@ -81,7 +89,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 120
     }
   },
   "_Links": {

@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: reference
-so.audience: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -25,22 +26,20 @@ In the **Requests** tab, you have the following options:
 |---|---|
 | Reply template for notification of open requests | The reply template to use for notifying users of open requests. This is an email that is sent each evening to the users who have open requests that are several days old. The number of days is set in the **Settings** tab in the **System** screen in SuperOffice Service. |
 | Reply template for notification of new message | The reply template to use to notify users when a new message arrives on a request. |
-| Reply template for notification of activated request | The reply template to use to notify users that a postponed request has been activated. |
-| Reply template for notification of escalated request | The reply template to use to notify users that a request has been escalated. |
-| Reply template for new request notification | The reply template to use to notify users that they have been assigned a request. |
+| Reply template for notification of activated request | The reply template to use to notify users that a postponed request was activated. |
+| Reply template for notification of escalated request | The reply template to use to notify users that a request was escalated. |
+| Reply template for new request notification | The reply template to use to notify users that they are assigned a request. |
 | Reply template for request reassignment | This field shows which reply template to use to notify users that another user has taken over a request. |
 | Reply template for printing a request | This field shows which reply template to use when printing a request. |
 
-## Favourites
-
-In the **Favourites** tab, you have the following options:
+## Favorites tab
 
 | Option | Description |
 |---|---|
-| Reply template for notifying a new message in the favourites list | The reply template to use to notify users when a new message arrives on a request in the favourites list. |
-| Reply template for notifying an activated request in the favourites list | This field shows which reply template to use to notify users that a postponed request on the favourites list has been activated. |
-| Reply template for notifying an escalated request in the favourites list | This field shows which reply template to use to notify users that a request on the favourites list has been escalated. |
-| Reply template for notifying reassignment of a request in the favourites list | This field shows which reply template to use to notify users that another user has taken over a request on the favourites list. |
+| Reply template for notifying a new message in the favorites list | The reply template to use to notify users when a new message arrives on a request in the favorites list. |
+| Reply template for notifying an activated request in the favorites list | This field shows which reply template to use to notify users that a postponed request on the favorites list was activated. |
+| Reply template for notifying an escalated request in the favorites list | This field shows which reply template to use to notify users that a request on the favorites list was escalated. |
+| Reply template for notifying reassignment of a request in the favorites list | This field shows which reply template to use to notify users that another user has taken over a request on the favorites list. |
 
 ## Customers
 
@@ -53,7 +52,7 @@ In the **Customers** tab, you have the following options:
 | Reply template for sending password to contacts | The reply template to send to contacts when they ask to have their password sent to them. |
 | Reply template for sending confirmation email to contacts | The reply template used for confirmation emails sent to contacts. |
 | Reply template for customer chat log | The reply template used to send chat logs to customers who have contacted support on the chat. |
-| Reply template for new link | The reply template used to send the customer a new link when the old link has expired. |
+| Reply template for new link | The reply template used to send the customer a new link when the old link expires. |
 
 ## FAQ
 
@@ -71,11 +70,11 @@ In the **Weekly stats** tab, you have the following options:
 | Option | Description |
 |---|---|
 | Reply template for weekly statistics | The reply template to use for weekly statistics.
-| Email addresses for weekly statistics | Here you can add one or more email addresses (comma-separated) to which to send weekly statistics for SuperOffice Service in the last week or month. |
+| Email addresses for weekly statistics | Here you can add one or more (comma-separated) email addresses to send weekly statistics for SuperOffice Service to. |
 
 ## How to change template
 
-If you want to select another template, click the list button ( ![icon][img1] ) next to the relevant field and select a template from the list that appears.
+To select another template, click the list button ( ![icon][img1] ) next to the relevant field and select a template from the list that appears.
 
 <!-- Referenced links -->
 [1]: ../../email/service/mailboxes/index.md

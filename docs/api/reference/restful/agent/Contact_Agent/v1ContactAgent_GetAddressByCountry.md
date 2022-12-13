@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetAddressByCountry
 
 Gets the contact's localized address.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the contact's localized address.
 ```http
 POST /api/v1/Agents/Contact/GetAddressByCountry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,17 @@ POST /api/v1/Agents/Contact/GetAddressByCountry?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, CountryId
+ContactId, CountryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 | CountryId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -52,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,12 +79,12 @@ Response body:
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 201,
-  "CountryId": 310
+  "ContactId": 174,
+  "CountryId": 25
 }
 ```
 
@@ -87,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 24476.54,
-  "Wgs84Longitude": 30725.736,
+  "Wgs84Latitude": 13971.372,
+  "Wgs84Longitude": 19593.768,
   "LocalizedAddress": [
     [
       {
-        "Name": "Beier Inc and Sons",
-        "Value": "enim",
-        "Tooltip": "est",
-        "Label": "quis",
-        "ValueLength": 982,
-        "AddressType": "voluptatem",
+        "Name": "Renner Group",
+        "Value": "architecto",
+        "Tooltip": "id",
+        "Label": "eos",
+        "ValueLength": 747,
+        "AddressType": "vero",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 67
+            "FieldLength": 492
           }
         }
       }
     ],
     [
       {
-        "Name": "Borer, White and Purdy",
-        "Value": "inventore",
-        "Tooltip": "consequatur",
-        "Label": "sequi",
-        "ValueLength": 917,
-        "AddressType": "fuga",
+        "Name": "Mueller LLC",
+        "Value": "excepturi",
+        "Tooltip": "autem",
+        "Label": "libero",
+        "ValueLength": 524,
+        "AddressType": "officiis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 480
+            "FieldLength": 68
           }
         }
       }
@@ -129,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "pariatur",
+  "Formatted": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 26
     }
   }
 }

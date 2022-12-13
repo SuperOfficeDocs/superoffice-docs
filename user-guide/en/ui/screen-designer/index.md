@@ -20,7 +20,7 @@ Your sales team, support team and management team do not necessarily have the sa
 
 * Move the most important fields to the first tab.
 * Use columns, labels/titles and dividers to organize information into logical groups.
-* Format fields to emphasize key data (e.g. bold and large font) for better visibility.
+* Format fields to emphasize key data (for example, bold and large font) for better visibility.
 * Move less important fields to secondary tabs.
 * Remove fields that are never used.
 * Add links/buttons for looking up information in other websites or to manually trigger an automated process based on CRM Script.

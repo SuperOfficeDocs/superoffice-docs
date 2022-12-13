@@ -11,6 +11,13 @@ POST /api/v1/Agents/Targets/SaveTargetGroup
 
 Updates the existing TargetGroup or creates a new TargetGroup if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing TargetGroup or creates a new TargetGroup if the id paramete
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TargetGroup to be saved.
+The TargetGroup to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,8 @@ The TargetGroup to be saved.
 | TargetAssignments | array | Collection of target values |
 | TargetDimension |  | Info about the target dimensions |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -46,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,23 +77,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 128,
-  "Year": 817,
+  "TargetGroupId": 420,
+  "Year": 959,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 844,
+      "TargetAssignmentInfoId": 169,
       "Values": [
-        11,
-        462
+        200,
+        461
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 714
+      "DimensionListItem": 621,
+      "DimensionListItemDisplayName": "Schmeler-Hartmann"
     }
   ],
   "TargetDimension": null
@@ -99,29 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 277,
-  "Year": 297,
+  "TargetGroupId": 863,
+  "Year": 991,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 530,
+      "TargetAssignmentInfoId": 799,
       "Values": [
-        405,
-        750
+        282,
+        62
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 864,
+      "DimensionListItem": 936,
+      "DimensionListItemDisplayName": "O'Hara LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 59
+          "FieldLength": 663
         }
       }
     }
@@ -132,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 103
     }
   }
 }

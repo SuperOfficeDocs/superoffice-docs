@@ -9,6 +9,14 @@ uid: v1AppointmentAgent_GetAssociateDiary
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Appointment/GetAssociateDiary
 ```http
 POST /api/v1/Agents/Appointment/GetAssociateDiary?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,9 +42,9 @@ POST /api/v1/Agents/Appointment/GetAssociateDiary?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, StartTime, EndTime, Count
+AssociateId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,6 +52,7 @@ AssociateId, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -114,14 +124,14 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 953,
-  "StartTime": "2022-05-23T11:10:25.4605222+02:00",
-  "EndTime": "1995-11-25T11:10:25.4605222+01:00",
-  "Count": 982
+  "AssociateId": 146,
+  "StartTime": "2011-01-01T02:49:43.2461231+01:00",
+  "EndTime": "2019-05-13T02:49:43.2461231+02:00",
+  "Count": 964
 }
 ```
 
@@ -133,61 +143,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 616,
-    "StartDate": "2021-01-15T11:10:25.4615225+01:00",
-    "EndDate": "2007-10-21T11:10:25.4615225+02:00",
+    "AppointmentId": 633,
+    "StartDate": "2021-01-28T02:49:43.2461231+01:00",
+    "EndDate": "2011-09-25T02:49:43.2461231+02:00",
     "Type": "BookingForChecklist",
-    "Task": "esse",
-    "AssociateFullName": "Harold Torphy",
-    "ContactName": "Oberbrunner, Becker and Bergstrom",
-    "Description": "Down-sized upward-trending moratorium",
-    "PersonFullName": "Nathen Corkery",
-    "PersonId": 408,
-    "ContactId": 696,
-    "ProjectId": 76,
-    "ProjectName": "Daugherty, Davis and Hane",
-    "IsPublished": true,
-    "AssociateId": 747,
-    "ColorIndex": 914,
-    "IsFree": false,
+    "Task": "distinctio",
+    "AssociateFullName": "Jonatan Sanford",
+    "ContactName": "Hilll Inc and Sons",
+    "Description": "Mandatory user-facing application",
+    "PersonFullName": "Elian Windler II",
+    "PersonId": 838,
+    "ContactId": 276,
+    "ProjectId": 920,
+    "ProjectName": "Wolff-Durgan",
+    "IsPublished": false,
+    "AssociateId": 541,
+    "ColorIndex": 879,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 134,
-    "PriorityName": "Jenkins Inc and Sons",
+    "PriorityId": 632,
+    "PriorityName": "King-Schultz",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2009-08-31T11:10:25.4615225+02:00",
+    "ActiveDate": "2008-03-16T02:49:43.2461231+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-01-21T11:10:25.4615225+01:00",
-    "RecurringEndDate": "2004-07-20T11:10:25.4615225+02:00",
-    "MotherId": 22,
-    "AssignedBy": 448,
-    "AssignedByFullName": "Prof. Cody Hessel III",
+    "RecurringStartDate": "2018-01-06T02:49:43.2461231+01:00",
+    "RecurringEndDate": "2016-03-25T02:49:43.2461231+01:00",
+    "MotherId": 501,
+    "AssignedBy": 165,
+    "AssignedByFullName": "Arvilla Runte",
     "RejectReason": "",
-    "Location": "beatae",
-    "AlarmLeadTime": "sint",
-    "SaleId": 105,
-    "SaleName": "Homenick-Boyer",
-    "AssociateName": "Turner, Johnston and Durgan",
-    "CreatedDate": "2017-10-06T11:10:25.4625222+02:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Cullen Pagac",
-    "CreatedByAssociateId": 215,
+    "Location": "vel",
+    "AlarmLeadTime": "delectus",
+    "SaleId": 844,
+    "SaleName": "Greenholt, Williamson and Zboncak",
+    "AssociateName": "Collier, Maggio and Torphy",
+    "CreatedDate": "2007-11-10T02:49:43.2461231+01:00",
+    "CreatedBy": "minima",
+    "CreatedByFullName": "Dr. Celestino Conroy III",
+    "CreatedByAssociateId": 965,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 204
+        "FieldType": "System.String",
+        "FieldLength": 669
       }
     }
   }

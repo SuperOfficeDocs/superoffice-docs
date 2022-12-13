@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectMembers
 
 Returns an array of project members
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns an array of project members
 ```http
 POST /api/v1/Agents/Project/GetProjectMembers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Project/GetProjectMembers?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
+
 
 ## Response: array
 
@@ -85,11 +93,11 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 301
+  "ProjectId": 571
 }
 ```
 
@@ -101,33 +109,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 799,
-    "ContactId": 522,
-    "ProjectId": 798,
-    "ContactName": "Batz, Dach and Becker",
+    "ProjectmemberId": 243,
+    "ContactId": 851,
+    "ProjectId": 818,
+    "ContactName": "Tromp-Kuhn",
     "ContactDepartment": "",
-    "ProjectName": "Konopelski-Volkman",
-    "EmailId": 59,
-    "EmailAddress": "annamae.cole@koelpin.info",
-    "CountryId": 251,
-    "Firstname": "Abbigail",
-    "MiddleName": "Kautzer-Hintz",
-    "Lastname": "Herzog",
-    "PersonId": 518,
-    "Mrmrs": "sapiente",
-    "ProjectMemberTypeName": "Eichmann, Quitzon and Ratke",
-    "Phone": "986-698-2536 x1446",
-    "PhoneId": 824,
-    "ProjectMemberTypeId": 828,
-    "EmailAddressName": "kurt@johnson.biz",
-    "Comment": "quam",
-    "FullName": "Prof. Kaci Goodwin",
+    "ProjectName": "Marquardt Group",
+    "EmailId": 214,
+    "EmailAddress": "isabelle@kuhic.biz",
+    "CountryId": 451,
+    "Firstname": "Leif",
+    "MiddleName": "Spinka, Nitzsche and Jacobi",
+    "Lastname": "Littel",
+    "PersonId": 734,
+    "Mrmrs": "cumque",
+    "ProjectMemberTypeName": "Reichel-Stanton",
+    "Phone": "786-759-2573",
+    "PhoneId": 456,
+    "ProjectMemberTypeId": 667,
+    "EmailAddressName": "ariel@rolfsonerdman.name",
+    "Comment": "et",
+    "FullName": "Garrick Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 178
+        "FieldType": "System.String",
+        "FieldLength": 330
       }
     }
   }

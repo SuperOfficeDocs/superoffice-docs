@@ -11,8 +11,6 @@ language: en
 
 # Create a quote
 
-To create a quote:
-
 1. [Create a new sale][1] or open an existing sale (one that is not sold or lost).
 
 2. Go to the **Quote** section tab.

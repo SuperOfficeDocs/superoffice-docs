@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine
 
 Gets a PreferenceDescriptionLine object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a PreferenceDescriptionLine object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?preferenceDescriptionLineId=868
+POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?preferenceDescriptionLineId=988
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,8 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -44,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +71,7 @@ Response body:
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +81,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 612,
-  "PrefDescId": 14,
-  "PrefValue": "ea",
-  "PrefShowValue": "explicabo",
-  "Description": "Organized national encoding",
-  "IsBuiltin": false,
+  "PrefDescLineId": 785,
+  "PrefDescId": 588,
+  "PrefValue": "tempore",
+  "PrefShowValue": "tenetur",
+  "Description": "Right-sized uniform throughput",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 164
+      "FieldType": "System.Int32",
+      "FieldLength": 494
     }
   }
 }

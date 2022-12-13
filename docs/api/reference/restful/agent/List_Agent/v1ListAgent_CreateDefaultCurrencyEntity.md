@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 
 Set default values into a new CurrencyEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +62,7 @@ Response body:
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -64,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 678,
-  "Name": "McCullough-Kirlin",
-  "Tooltip": "reprehenderit",
-  "Rank": 995,
-  "Rate": 6058.022,
-  "Units": 24576.827999999998,
+  "CurrencyId": 448,
+  "Name": "Schmitt Inc and Sons",
+  "Tooltip": "ipsa",
+  "Rank": 964,
+  "Rate": 27779.775999999998,
+  "Units": 26266.054,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldLength": 184
     }
   }
 }

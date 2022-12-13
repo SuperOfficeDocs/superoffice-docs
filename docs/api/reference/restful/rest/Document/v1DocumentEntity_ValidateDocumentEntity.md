@@ -11,6 +11,13 @@ POST /api/v1/Document/Validate
 
 Check that entity is ready for saving, return error messages by field.
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Check that entity is ready for saving, return error messages by field.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: documentEntity
+## Request Body: documentEntity  
 
-Entity to be checked for errors.
+Entity to be checked for errors. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,6 +73,7 @@ Entity to be checked for errors.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
+
 ## Response: object
 
 OK
@@ -76,83 +84,84 @@ OK
 
 Response body: object
 
+
 ## Sample request
 
 ```http!
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 19,
+  "DocumentId": 67,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "harum",
-  "Header": "doloribus",
-  "Name": "Von LLC",
-  "OurRef": "dolorem",
-  "YourRef": "saepe",
-  "CreatedDate": "2019-05-31T11:10:52.863174+02:00",
-  "UpdatedDate": "2021-02-16T11:10:52.863174+01:00",
-  "Description": "Synergized scalable archive",
+  "Attention": "explicabo",
+  "Header": "aut",
+  "Name": "Blick Inc and Sons",
+  "OurRef": "nam",
+  "YourRef": "sapiente",
+  "CreatedDate": "1998-08-14T02:49:50.9484136+02:00",
+  "UpdatedDate": "2000-03-21T02:49:50.9484136+01:00",
+  "Description": "Expanded stable portal",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-05-30T11:10:52.8671739+02:00",
-  "ExternalRef": "laborum",
+  "Date": "2005-07-19T02:49:50.9484136+02:00",
+  "ExternalRef": "id",
   "Completed": "Completed",
-  "ActiveLinks": 684,
+  "ActiveLinks": 476,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Trantow, Blick and Crona",
-      "Id": 80,
-      "Description": "Organic incremental adapter",
-      "ExtraInfo": "est",
-      "LinkId": 437
+      "EntityName": "Wyman-O'Connell",
+      "Id": 654,
+      "Description": "Down-sized 5th generation service-desk",
+      "ExtraInfo": "ullam",
+      "LinkId": 226
     },
     {
-      "EntityName": "Trantow, Blick and Crona",
-      "Id": 80,
-      "Description": "Organic incremental adapter",
-      "ExtraInfo": "est",
-      "LinkId": 437
+      "EntityName": "Wyman-O'Connell",
+      "Id": 654,
+      "Description": "Down-sized 5th generation service-desk",
+      "ExtraInfo": "ullam",
+      "LinkId": 226
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 437,
-  "Snum": 722,
+  "SuggestedDocumentId": 242,
+  "Snum": 213,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Eliane O'Connell V",
-    "SuperOffice:2": "Marcella Hilll"
+    "SuperOffice:1": "187014844",
+    "SuperOffice:2": "1188047324"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "libero"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "cupiditate"
+    "CustomFields1": "in",
+    "CustomFields2": "mollitia"
   },
-  "PublishEventDate": "1999-04-07T11:10:52.8681745+02:00",
-  "PublishTo": "2018-03-30T11:10:52.8681745+02:00",
-  "PublishFrom": "2015-10-23T11:10:52.8681745+02:00",
+  "PublishEventDate": "2018-12-17T02:49:50.9484136+01:00",
+  "PublishTo": "2008-05-25T02:49:50.9484136+02:00",
+  "PublishFrom": "2014-11-16T02:49:50.9484136+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 568,
+      "VisibleId": 196,
       "Visibility": "All",
-      "DisplayValue": "sunt"
+      "DisplayValue": "alias"
     },
     {
-      "VisibleId": 568,
+      "VisibleId": 196,
       "Visibility": "All",
-      "DisplayValue": "sunt"
+      "DisplayValue": "alias"
     }
   ]
 }
@@ -165,7 +174,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quia",
-  "2": "vero"
+  "1": "et",
+  "2": "enim"
 }
 ```

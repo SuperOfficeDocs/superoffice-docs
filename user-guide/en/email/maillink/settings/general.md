@@ -19,19 +19,17 @@ These options determine how SuperOffice CRM and the mail client behave in respon
 
 | Option | Description |
 |---|---|
-| Close email after archiving to SuperOffice CRM | Check this box if you want the email window in the mail client to close automatically after you have archived the email to SuperOffice CRM. |
-| Delete the email after it has been archived to SuperOffice CRM | Check this box if you want to remove the selected emails from the mail client inbox after they have been archived in SuperOffice CRM. The emails will be moved to the **Deleted items** folder. |
+| Close email after archiving to SuperOffice CRM | Check this box if you want the email window in the mail client to close automatically after you archive the email to SuperOffice CRM. |
+| Delete the email after it has been archived to SuperOffice CRM | Check this box to remove the selected emails from the mail client inbox after they are archived in SuperOffice CRM. The emails are moved to the **Deleted items** folder. |
 
 > [!NOTE]
 > If the sender of the email is not listed as a company/contact in SuperOffice CRM, the email(s) will still be moved to the **Deleted items** folder.
 
 ## Settings for new emails
 
-These options are used for selecting which email body to use.
-
 | Option | Description |
 |---|---|
-| Use SuperOffice email body | You can predefine an email body that uses data from SuperOffice CRM. To use this template, you need to select this option. |
+| Use SuperOffice email body | You can predefine an email body that uses data from SuperOffice CRM. To use this template, select this option. |
 | Use default body from email client | If you would like to use the default body from the mail client, you may select this option. |
 
 ## Warnings

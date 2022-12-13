@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectMembersById
 
 Returns an array of project members
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns an array of project members
 ```http
 POST /api/v1/Agents/Project/GetProjectMembersById?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Project/GetProjectMembersById?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectMemberIds
+ProjectMemberIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectMemberIds | array |  |
+
 
 ## Response: array
 
@@ -85,13 +93,13 @@ Response body: array
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    71,
-    138
+    160,
+    812
   ]
 }
 ```
@@ -104,33 +112,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 952,
-    "ContactId": 441,
-    "ProjectId": 884,
-    "ContactName": "Rosenbaum, Legros and Jaskolski",
-    "ContactDepartment": "",
-    "ProjectName": "Ullrich, Stark and Hermann",
-    "EmailId": 249,
-    "EmailAddress": "carlotta.murazik@green.co.uk",
-    "CountryId": 719,
-    "Firstname": "Rashawn",
-    "MiddleName": "Jacobson Group",
-    "Lastname": "Wunsch",
-    "PersonId": 463,
-    "Mrmrs": "ut",
-    "ProjectMemberTypeName": "Ernser, Lebsack and Green",
-    "Phone": "1-437-866-4894",
-    "PhoneId": 701,
-    "ProjectMemberTypeId": 200,
-    "EmailAddressName": "marta.schulist@robel.biz",
-    "Comment": "dignissimos",
-    "FullName": "Dr. Murphy Irving Jacobson PhD",
+    "ProjectmemberId": 364,
+    "ContactId": 481,
+    "ProjectId": 264,
+    "ContactName": "Stark, Lesch and Considine",
+    "ContactDepartment": "reinvent user-centric methodologies",
+    "ProjectName": "Abbott-Paucek",
+    "EmailId": 142,
+    "EmailAddress": "sadye_kuphal@williamsonchristiansen.ca",
+    "CountryId": 778,
+    "Firstname": "Brando",
+    "MiddleName": "Kerluke-Tromp",
+    "Lastname": "Bauch",
+    "PersonId": 262,
+    "Mrmrs": "eveniet",
+    "ProjectMemberTypeName": "Bartoletti Inc and Sons",
+    "Phone": "308.786.6848 x5054",
+    "PhoneId": 81,
+    "ProjectMemberTypeId": 687,
+    "EmailAddressName": "maximo_mcdermott@nitzschecarroll.com",
+    "Comment": "modi",
+    "FullName": "Bryana Kulas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldType": "System.String",
+        "FieldLength": 423
       }
     }
   }

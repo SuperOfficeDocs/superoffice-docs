@@ -9,6 +9,14 @@ uid: v1BLOBAgent_ChangePersonImage
 POST /api/v1/Agents/BLOB/ChangePersonImage
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/BLOB/ChangePersonImage
 ```http
 POST /api/v1/Agents/BLOB/ChangePersonImage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -29,16 +38,17 @@ POST /api/v1/Agents/BLOB/ChangePersonImage?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, BlobId
+PersonId, BlobId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | BlobId | int32 |  |
 
-## Response
+
+## Response: 
 
 No Content
 
@@ -46,7 +56,8 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body:
+Response body: 
+
 
 ## Sample request
 
@@ -54,12 +65,12 @@ Response body:
 POST /api/v1/Agents/BLOB/ChangePersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 860,
-  "BlobId": 3
+  "PersonId": 859,
+  "BlobId": 440
 }
 ```
 

@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 
 Returns the configuration fields that should be visible in the GUI.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the configuration fields that should be visible in the GUI.
 ```http
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations?$select=name,departmen
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -64,7 +72,7 @@ Response body: array
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,21 +83,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 963,
-    "FieldName": "Adams, Rice and Brekke",
-    "Label": "qui",
-    "Tooltip": "et",
+    "QuoteLineConfigurationId": 131,
+    "FieldName": "Jewess Group",
+    "Label": "accusantium",
+    "Tooltip": "quidem",
     "Editable": false,
-    "InUse": false,
-    "Mandatory": true,
-    "Rank": 776,
+    "InUse": true,
+    "Mandatory": false,
+    "Rank": 809,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldLength": 293
       }
     }
   }

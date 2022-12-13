@@ -11,11 +11,18 @@ PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 
 Saves user groups visible for the TaskListItem list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Durgan-Gleichner",
-    "ToolTip": "Id enim quisquam quibusdam sunt et inventore.",
+    "Id": 422,
+    "Name": "Swift LLC",
+    "ToolTip": "In assumenda ducimus cumque numquam omnis.",
     "Deleted": false,
-    "Rank": 387,
-    "Type": "sunt",
-    "ColorBlock": 311,
-    "IconHint": "soluta",
+    "Rank": 778,
+    "Type": "vel",
+    "ColorBlock": 464,
+    "IconHint": "pariatur",
     "Selected": true,
-    "LastChanged": "2000-11-29T11:10:54.6619306+01:00",
+    "LastChanged": "2001-07-22T02:49:52.5471998+02:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Brekke-Swift",
-        "ToolTip": "Quaerat omnis mollitia est.",
-        "Deleted": false,
-        "Rank": 528,
-        "Type": "corporis",
-        "ColorBlock": 552,
+        "Id": 267,
+        "Name": "Terry-Barrows",
+        "ToolTip": "Ducimus consequuntur.",
+        "Deleted": true,
+        "Rank": 391,
+        "Type": "debitis",
+        "ColorBlock": 367,
         "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2017-01-05T11:10:54.6619306+01:00",
+        "Selected": false,
+        "LastChanged": "1998-05-03T02:49:52.5471998+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "velit",
-        "Hidden": true,
-        "FullName": "Bernie Medhurst PhD"
+        "ExtraInfo": "ut",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Hoyt Schaden"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "consequuntur",
-    "Hidden": false,
-    "FullName": "Ms. Dessie Jettie Jenkins"
+    "ExtraInfo": "facilis",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Mohammed Spinka"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Corkery, Fadel and Wolf",
-    "ToolTip": "Est adipisci consequatur voluptatibus.",
+    "Id": 415,
+    "Name": "Skiles, Gerlach and Von",
+    "ToolTip": "Beatae ut et eum nisi sed.",
     "Deleted": false,
-    "Rank": 601,
-    "Type": "non",
-    "ColorBlock": 822,
-    "IconHint": "itaque",
+    "Rank": 199,
+    "Type": "quia",
+    "ColorBlock": 338,
+    "IconHint": "neque",
     "Selected": true,
-    "LastChanged": "2022-01-15T11:10:54.6629323+01:00",
+    "LastChanged": "2014-07-19T02:49:52.5628301+02:00",
     "ChildItems": [
       {
-        "Id": 873,
-        "Name": "Nolan Group",
-        "ToolTip": "Beatae ipsam atque sit possimus quis a minima.",
+        "Id": 456,
+        "Name": "Pfannerstill, Oberbrunner and Ortiz",
+        "ToolTip": "Soluta quidem doloremque in voluptatem.",
         "Deleted": false,
-        "Rank": 42,
-        "Type": "doloremque",
-        "ColorBlock": 340,
-        "IconHint": "commodi",
-        "Selected": true,
-        "LastChanged": "2000-04-04T11:10:54.6639295+02:00",
+        "Rank": 200,
+        "Type": "et",
+        "ColorBlock": 238,
+        "IconHint": "hic",
+        "Selected": false,
+        "LastChanged": "2008-09-14T02:49:52.5628301+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Mr. America Jacobi DDS",
+        "ExtraInfo": "quia",
+        "StyleHint": "dignissimos",
+        "Hidden": true,
+        "FullName": "Green Reichel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 794
+            "FieldType": "System.String",
+            "FieldLength": 330
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "alias",
-    "Hidden": false,
-    "FullName": "Ms. Alexandrea Sauer",
+    "ExtraInfo": "eum",
+    "StyleHint": "eius",
+    "Hidden": true,
+    "FullName": "Zena Muller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldLength": 216
       }
     }
   }

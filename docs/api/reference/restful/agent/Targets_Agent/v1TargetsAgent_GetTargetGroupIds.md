@@ -11,6 +11,12 @@ POST /api/v1/Agents/Targets/GetTargetGroupIds
 
 Returns ids of the target groups that use this dimension.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns ids of the target groups that use this dimension.
 ```http
 POST /api/v1/Agents/Targets/GetTargetGroupIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,13 +42,14 @@ POST /api/v1/Agents/Targets/GetTargetGroupIds?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TargetDimensionId
+TargetDimensionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TargetDimensionId | int32 |  |
+
 
 ## Response: array
 
@@ -53,6 +61,7 @@ OK
 
 Response body: array
 
+
 ## Sample request
 
 ```http!
@@ -63,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 523
+  "TargetDimensionId": 332
 }
 ```
 
@@ -74,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  156,
-  251
+  178,
+  112
 ]
 ```

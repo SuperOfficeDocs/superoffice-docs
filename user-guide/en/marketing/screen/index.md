@@ -17,7 +17,7 @@ language: en
 | Message templates | Contains the standard SuperOffice Marketing templates and templates you have created, in addition to a wide range of templates from the online template library. | [Work with the message templates][3] |
 | Tracked links | Contains all tracked links used in your mailings. Click the ![icon][img1] **Add** button to create a new link. | [Create tracked links][4] |
 | Images | Contains all available images in SuperOffice Marketing. Click the ![icon][img1] **Add** button to add new images. | [Add images][5] |
-| Blocked email addresses | Handle bounced emails and spam complaints. | [Blocked e-mail addresses][6] |
+| Blocked email addresses | Handle bounced emails and spam complaints. | [Blocked email addresses][6] |
 | Forms | Contains all forms and create new ones. | [Create a new form][7] |
 | Form templates | Contains all form templates. | [Work with the form templates][8] |
 | Form submissions | Contains submitted forms. | [Form submissions][9] |

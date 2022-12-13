@@ -11,6 +11,12 @@ GET /api/v1/List/ProductType/Items
 
 Gets all the ProductType items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all the ProductType items
 ```http
 GET /api/v1/List/ProductType/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -33,6 +40,7 @@ GET /api/v1/List/ProductType/Items?includeDeleted=True
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -72,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 567,
-    "Name": "Littel, Hahn and Bogisich",
-    "Tooltip": "eius",
+    "Id": 577,
+    "Name": "Stoltenberg LLC",
+    "Tooltip": "ipsum",
     "Deleted": false,
-    "UdListDefinitionId": 449,
-    "Rank": 25,
+    "UdListDefinitionId": 944,
+    "Rank": 15,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 355
       }
     }
   }

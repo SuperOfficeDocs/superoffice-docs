@@ -11,7 +11,13 @@ POST /api/v1/Agents/ViewState/SaveCurrents
 
 Saves the history elements as the current value for their respective lists.
 
+
 If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If more than one item is submitted for the same list, they are added sequently, 
 ```http
 POST /api/v1/Agents/ViewState/SaveCurrents?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,13 +44,14 @@ POST /api/v1/Agents/ViewState/SaveCurrents?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Currents
+Currents 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Currents | array |  |
+
 
 ## Response: array
 
@@ -73,19 +81,19 @@ Response body: array
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 220,
-      "Id": 520,
-      "HistoryName": "D'Amore LLC",
-      "HistoryId": 400,
-      "AssociateId": 835,
-      "Name": "Bins-Reinger",
-      "ItemInfo": "aliquam"
+      "Rank": 555,
+      "Id": 524,
+      "HistoryName": "Orn-Hermiston",
+      "HistoryId": 708,
+      "AssociateId": 456,
+      "Name": "Boyer Inc and Sons",
+      "ItemInfo": "illo"
     }
   ]
 }
@@ -99,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 289,
-    "Id": 998,
-    "HistoryName": "Hodkiewicz Inc and Sons",
-    "HistoryId": 186,
-    "AssociateId": 146,
-    "Name": "Stoltenberg Group",
-    "ItemInfo": "ad",
+    "Rank": 547,
+    "Id": 421,
+    "HistoryName": "Torp-Jerde",
+    "HistoryId": 35,
+    "AssociateId": 419,
+    "Name": "King-Bernier",
+    "ItemInfo": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldLength": 472
       }
     }
   }

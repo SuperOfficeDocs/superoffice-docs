@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSaleStakeholderList
 
 Gets an array of SaleStakeholder objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of SaleStakeholder objects.
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholderList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,11 @@ POST /api/v1/Agents/Sale/GetSaleStakeholderList?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: saleStakeholderIds
+## Request Body: saleStakeholderIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
 
@@ -79,7 +88,7 @@ Response body: array
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Johns LLC",
-    "Comment": "labore",
-    "StakeholderRoleId": 676,
-    "CountryId": 507,
-    "PersonId": 547,
-    "EmailDescription": "catharine_medhurst@rippin.co.uk",
-    "EmailId": 714,
-    "EmailAddress": "dayana@ledner.name",
-    "PhoneId": 66,
-    "ContactName": "Wuckert Inc and Sons",
-    "ContactId": 325,
-    "SaleId": 255,
-    "Mrmrs": "modi",
-    "Firstname": "Carroll",
-    "MiddleName": "Howe LLC",
-    "Lastname": "McKenzie",
-    "SaleStakeholderId": 543,
-    "Rank": 120,
-    "Phone": "077-619-2557 x78234",
+    "StakeholderRoleName": "O'Connell-Runolfsdottir",
+    "Comment": "ullam",
+    "StakeholderRoleId": 915,
+    "CountryId": 907,
+    "PersonId": 954,
+    "EmailDescription": "maximillia@bayer.us",
+    "EmailId": 286,
+    "EmailAddress": "jamaal.bergnaum@boyle.co.uk",
+    "PhoneId": 871,
+    "ContactName": "Heller LLC",
+    "ContactId": 198,
+    "SaleId": 201,
+    "Mrmrs": "culpa",
+    "Firstname": "Rosalinda",
+    "MiddleName": "Conroy, Stracke and Hauck",
+    "Lastname": "Buckridge",
+    "SaleStakeholderId": 846,
+    "Rank": 64,
+    "Phone": "073.363.0848",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldLength": 705
       }
     }
   }

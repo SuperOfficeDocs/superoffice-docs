@@ -11,6 +11,13 @@ POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 
 Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentEntity if the id parameter is empty
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,9 +32,9 @@ Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentE
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SuggestedDocumentEntity to be saved.
+The SuggestedDocumentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,7 +50,8 @@ The SuggestedDocumentEntity to be saved.
 | ProjectTypeStatusLink |  | Project type and project status link info |
 | SaleTypeStageLink |  | Sale type and stage link info. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,17 +83,17 @@ Response body:
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 222,
-  "Name": "Marquardt-Schmitt",
-  "Tooltip": "nemo",
-  "Rank": 125,
-  "DoctmplId": 120,
-  "Header": "earum",
-  "OurRef": "quo",
+  "SuggestedDocumentId": 914,
+  "Name": "Stark Inc and Sons",
+  "Tooltip": "in",
+  "Rank": 425,
+  "DoctmplId": 472,
+  "Header": "aperiam",
+  "OurRef": "consequuntur",
   "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -100,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 146,
-  "Name": "O'Reilly, Wehner and Skiles",
-  "Tooltip": "tempora",
-  "Rank": 737,
-  "DoctmplId": 605,
-  "Header": "maxime",
-  "OurRef": "temporibus",
-  "Deleted": false,
+  "SuggestedDocumentId": 187,
+  "Name": "Kozey Group",
+  "Tooltip": "eum",
+  "Rank": 10,
+  "DoctmplId": 199,
+  "Header": "possimus",
+  "OurRef": "earum",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -115,8 +123,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldType": "System.String",
+      "FieldLength": 11
     }
   }
 }

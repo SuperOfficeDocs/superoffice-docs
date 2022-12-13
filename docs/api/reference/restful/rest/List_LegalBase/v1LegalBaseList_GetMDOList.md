@@ -11,6 +11,12 @@ GET /api/v1/List/LegalBase/MDOItems
 
 Get the MDO list items for "LegalBase" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=voluptatibus
+GET /api/v1/List/LegalBase/MDOItems?flat=True
+GET /api/v1/List/LegalBase/MDOItems?query=excepturi
 ```
+
 
 ## Request Headers
 
@@ -35,6 +42,7 @@ GET /api/v1/List/LegalBase/MDOItems?query=voluptatibus
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
 
 ## Response: array
 
@@ -69,7 +77,7 @@ Response body: array
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 950,
-    "Name": "Schaefer, Satterfield and Hayes",
-    "ToolTip": "Odio consequatur cupiditate voluptatem.",
+    "Id": 783,
+    "Name": "Wyman, Parker and Vandervort",
+    "ToolTip": "Et corporis quia et fugiat.",
     "Deleted": false,
-    "Rank": 611,
-    "Type": "ea",
+    "Rank": 544,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 817,
-        "Name": "Legros, Metz and Runte",
-        "ToolTip": "Officiis qui.",
+        "Id": 901,
+        "Name": "Bergstrom-Luettgen",
+        "ToolTip": "Alias repudiandae voluptatem facilis aliquam.",
         "Deleted": true,
-        "Rank": 941,
-        "Type": "ut",
+        "Rank": 753,
+        "Type": "laboriosam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "blanditiis",
-        "ColorBlock": 322,
-        "ExtraInfo": "ipsum",
-        "StyleHint": "consequuntur",
-        "FullName": "Genoveva Johnson",
+        "IconHint": "atque",
+        "ColorBlock": 810,
+        "ExtraInfo": "illo",
+        "StyleHint": "dignissimos",
+        "FullName": "Jasen Mraz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 358
+            "FieldType": "System.String",
+            "FieldLength": 392
           }
         }
       }
     ],
-    "IconHint": "harum",
-    "ColorBlock": 880,
-    "ExtraInfo": "accusantium",
-    "StyleHint": "quod",
-    "FullName": "Miss Zella Raven Buckridge",
+    "IconHint": "voluptatem",
+    "ColorBlock": 113,
+    "ExtraInfo": "est",
+    "StyleHint": "vitae",
+    "FullName": "Michael Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldType": "System.String",
+        "FieldLength": 761
       }
     }
   }

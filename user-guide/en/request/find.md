@@ -11,7 +11,7 @@ language: en
 
 # Find a request
 
-If you want to find a specific request in SuperOffice Service, do one of the following:
+Do one of the following:
 
 * Use lists, which are actually predefined searches.
 * Use the search screen for requests.
@@ -37,15 +37,15 @@ The simplest way to search for requests is to use the predefined searches availa
     4. Click **OK**.
     </details>
 
-* **Own open requests**: Shows requests that belong to you and which have the **Open** status. In other words, this list contains the requests that it is your responsibility to deal with, and this is therefore the screen you will be working in most often.
+* **Own open requests**: Shows requests that belong to you and which have the **Open** status. This list contains the requests that you are responsible for, and is therefore the screen you will be working in most often.
 
 * **Get next request in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to. [How to set up Get next request in queue][5].
 
-* **Unassigned requests**: Lists requests that no-one has been assigned responsibility for. If you want to [take responsibility for one of the requests][6], it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time.
+* **Unassigned requests**: Lists requests that no-one is assigned responsibility for. To [take responsibility for one of the requests][6], it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time.
 
 ### Customize search criteria
 
-In practice, all these lists are predefined searches, and if you wish you can customise the search criteria:
+In practice, all these lists are predefined searches, and if you wish you can customize the search criteria:
 
 1. Click **Show criteria** at the top of the screen.
 2. [Adjust the criteria][4].
@@ -56,7 +56,7 @@ In practice, all these lists are predefined searches, and if you wish you can cu
 
 ## <a id="search" />Search for requests
 
-If you are looking for a request in the system and cannot find it using the predefined searches, you can do as follows:
+If you are looking for a request in the system and cannot find it using the predefined searches, try this:
 
 1. Select **Requests > Find requests**. This takes you to the **Criteria** screen.
 
@@ -72,10 +72,10 @@ From the **Categories** screen, it is also possible to search for requests in a 
 
 1. Select ![icon][img2] **System settings** > **Categories**.
 
-2. Point at the category in which you want to search, to make the icons appear to the right.
+2. Point at the category that you want to search, to make the icons appear to the right.
 
     > [!TIP]
-    > If the category is a subcategory, you first need to click the plus sign to the left of the parent category to display the associated subcategories.
+    > If the category is a subcategory, first click the plus sign to the left of the parent category to display the associated subcategories.
 
 3. Click **Search** next to the category name. This takes you to the search screen.
 
@@ -83,13 +83,13 @@ From the **Categories** screen, it is also possible to search for requests in a 
 
 ## Search in request log
 
-Under **Requests** in the Navigator is the **Search in request log** option. This is a shortcut to a special search. By searching in the request log, you can find requests that have been amended/updated in a specific way within a specific period.
+Under **Requests** in the Navigator is the **Search in request log** option. This is a shortcut to a special search. By searching in the request log, you can find requests that were amended/updated in a specific way within a specific period.
 
-For example, you can find all requests that you yourself have changed in the last week, regardless of who is responsible for the request or what status it has. In this way, you can easily retrieve all the requests you have worked on and which you want to keep a check on in future. In other respects, this screen works like an ordinary search
+For example, you can find all requests that you changed in the last week, regardless of who is responsible for the request or what status it has. In this way, you can easily retrieve all the requests you worked on and which you want to keep a check on in future. In other respects, this screen works like an ordinary search
 
 ## View search results for requests
 
-Once you have got a list of requests using one of the methods above, you will be in a screen containing the following sections:
+Once you have a list of requests using one of the methods above, you will be in a screen containing the following sections:
 
 * **Result**: This contains all the requests that match your search criteria.
 
@@ -105,7 +105,7 @@ Contains a list of requests that match the criteria specified above. Here you ca
 * Click the ![icon][img1] menu button in the top right corner to access the change the view options.
 
 > [!TIP]
-> The status **Open** together with the **Read** column will give an overview if the request have been **Read by owner**, **New information** or **Not read by owner**.
+> The status **Open** together with the **Read** column will give an overview if the request were **Read by owner**, **New information** or **Not read by owner**.
 
 Under the list, you can click the ![icon][img1] menu button to access the following options:
 
@@ -115,7 +115,7 @@ Under the list, you can click the ![icon][img1] menu button to access the follow
 
 ### Preview
 
-This section of the screen displays the contents of the request selected under **Result**. Here you have the same options as described under [Process requests][6].
+This section of the screen displays the contents of the request selected under **Result**. You have the same options as when [processing requests][6].
 
 If the preview section is not visible, click the ![icon][img1] menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
 

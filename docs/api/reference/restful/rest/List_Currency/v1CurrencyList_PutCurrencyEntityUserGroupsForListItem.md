@@ -11,11 +11,18 @@ PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 
 Saves user groups visible for the CurrencyEntity list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Kirlin-Kirlin",
-    "ToolTip": "Dicta et expedita maiores explicabo.",
-    "Deleted": false,
-    "Rank": 294,
-    "Type": "quam",
-    "ColorBlock": 555,
-    "IconHint": "maiores",
+    "Id": 999,
+    "Name": "Herman-Crooks",
+    "ToolTip": "Optio est ipsum reprehenderit natus voluptatibus accusantium.",
+    "Deleted": true,
+    "Rank": 270,
+    "Type": "et",
+    "ColorBlock": 134,
+    "IconHint": "repellendus",
     "Selected": true,
-    "LastChanged": "2021-12-23T11:10:54.2338955+01:00",
+    "LastChanged": "2014-06-27T02:49:52.2034402+02:00",
     "ChildItems": [
       {
-        "Id": 110,
-        "Name": "Kshlerin, Schoen and Krajcik",
-        "ToolTip": "Voluptatem quo.",
+        "Id": 920,
+        "Name": "Grady LLC",
+        "ToolTip": "Labore sed.",
         "Deleted": false,
-        "Rank": 810,
-        "Type": "tempora",
-        "ColorBlock": 345,
-        "IconHint": "nulla",
+        "Rank": 874,
+        "Type": "fuga",
+        "ColorBlock": 756,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2012-12-31T11:10:54.2338955+01:00",
+        "LastChanged": "2010-01-18T02:49:52.2034402+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "eos",
+        "StyleHint": "nobis",
         "Hidden": false,
-        "FullName": "Prof. Ken Upton Sr."
+        "FullName": "Jaylen Cummings"
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "inventore",
-    "Hidden": true,
-    "FullName": "Zora Wisoky"
+    "ExtraInfo": "veritatis",
+    "StyleHint": "libero",
+    "Hidden": false,
+    "FullName": "Frederic Heaney"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 28,
-    "Name": "Corwin, Wilderman and Pfeffer",
-    "ToolTip": "Repellendus ad illo qui expedita.",
+    "Id": 7,
+    "Name": "Crist LLC",
+    "ToolTip": "Molestias quasi tempore distinctio inventore veritatis nam rerum.",
     "Deleted": false,
-    "Rank": 32,
-    "Type": "distinctio",
-    "ColorBlock": 923,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2009-09-04T11:10:54.2348961+02:00",
+    "Rank": 121,
+    "Type": "aliquid",
+    "ColorBlock": 585,
+    "IconHint": "consequuntur",
+    "Selected": true,
+    "LastChanged": "2000-01-31T02:49:52.2034402+01:00",
     "ChildItems": [
       {
-        "Id": 496,
-        "Name": "McGlynn-Mitchell",
-        "ToolTip": "Et autem sunt voluptatem asperiores autem sequi.",
+        "Id": 386,
+        "Name": "Will, Padberg and Maggio",
+        "ToolTip": "Explicabo enim accusantium ut aperiam omnis culpa.",
         "Deleted": false,
-        "Rank": 633,
-        "Type": "impedit",
-        "ColorBlock": 98,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2022-07-08T11:10:54.2358965+02:00",
+        "Rank": 314,
+        "Type": "velit",
+        "ColorBlock": 125,
+        "IconHint": "dolorem",
+        "Selected": true,
+        "LastChanged": "2018-05-07T02:49:52.2034402+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "dolores",
+        "ExtraInfo": "labore",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Aniya Runolfsson",
+        "FullName": "Kirsten Hills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 752
+            "FieldType": "System.Int32",
+            "FieldLength": 988
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Pietro Quitzon",
+    "ExtraInfo": "delectus",
+    "StyleHint": "cumque",
+    "Hidden": false,
+    "FullName": "Chadrick Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldType": "System.String",
+        "FieldLength": 163
       }
     }
   }

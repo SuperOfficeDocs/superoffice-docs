@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ForeignKeys that belong to a device with a given deviceIdentifier an
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier, TableName
+ApplicationName, DeviceName, DeviceIdentifier, TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,6 +52,7 @@ ApplicationName, DeviceName, DeviceIdentifier, TableName
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
 | TableName | string |  |
+
 
 ## Response: array
 
@@ -75,14 +83,14 @@ Response body: array
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kassulke, Okuneva and Runolfsdottir",
-  "DeviceName": "Gerlach, Ankunding and Leannon",
-  "DeviceIdentifier": "est",
-  "TableName": "Gutkowski, Miller and Hodkiewicz"
+  "ApplicationName": "Abbott-Davis",
+  "DeviceName": "Kutch-Stiedemann",
+  "DeviceIdentifier": "dolorum",
+  "TableName": "Lehner Inc and Sons"
 }
 ```
 
@@ -94,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "non",
-    "Value": "sit",
-    "RecordId": 428,
-    "CreatedDate": "2008-10-01T11:10:27.0934525+02:00",
-    "UpdatedDate": "2000-07-12T11:10:27.0934525+02:00",
-    "UpdatedBy": "voluptatem",
-    "CreatedBy": "vero",
-    "TableName": "Conn-Brekke",
+    "Key": "veritatis",
+    "Value": "vel",
+    "RecordId": 706,
+    "CreatedDate": "2022-04-14T02:49:44.561046+02:00",
+    "UpdatedDate": "2009-04-11T02:49:44.561046+02:00",
+    "UpdatedBy": "repudiandae",
+    "CreatedBy": "harum",
+    "TableName": "Larkin-Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 336
+        "FieldType": "System.String",
+        "FieldLength": 623
       }
     }
   }

@@ -11,11 +11,18 @@ PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 
 Saves a key belonging to the ForeignApp and ForeignDevice specified.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | The device identifier. Optional if device identifier is not used. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Saves a key belonging to the ForeignApp and ForeignDevice specified.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: foreignKey
+## Request Body: foreignKey  
 
-Foreign key to save
+Foreign key to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,8 @@ Foreign key to save
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -54,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,18 +83,18 @@ Response body:
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "distinctio",
-  "Value": "minima",
-  "RecordId": 139,
-  "CreatedDate": "1998-03-21T11:10:52.909174+01:00",
-  "UpdatedDate": "2014-09-05T11:10:52.909174+02:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "voluptas",
-  "TableName": "Osinski LLC"
+  "Key": "rerum",
+  "Value": "omnis",
+  "RecordId": 963,
+  "CreatedDate": "2004-11-25T02:49:50.9952888+01:00",
+  "UpdatedDate": "2003-08-27T02:49:50.9952888+02:00",
+  "UpdatedBy": "nihil",
+  "CreatedBy": "excepturi",
+  "TableName": "Morar-Harris"
 }
 ```
 
@@ -97,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "in",
-  "Value": "aliquam",
-  "RecordId": 370,
-  "CreatedDate": "2005-08-01T11:10:52.909174+02:00",
-  "UpdatedDate": "1995-07-23T11:10:52.909174+02:00",
-  "UpdatedBy": "debitis",
-  "CreatedBy": "et",
-  "TableName": "Turner Inc and Sons",
+  "Key": "sed",
+  "Value": "voluptatem",
+  "RecordId": 910,
+  "CreatedDate": "2002-06-27T02:49:50.9952888+02:00",
+  "UpdatedDate": "2012-09-08T02:49:50.9952888+02:00",
+  "UpdatedBy": "voluptatem",
+  "CreatedBy": "a",
+  "TableName": "McDermott Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 533
     }
   }
 }

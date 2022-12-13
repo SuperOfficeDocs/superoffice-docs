@@ -11,6 +11,12 @@ POST /api/v1/Agents/Marketing/GetPreviewMailing
 
 Get a shipment message from its shipment address id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a shipment message from its shipment address id
 ```http
 POST /api/v1/Agents/Marketing/GetPreviewMailing?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,16 @@ POST /api/v1/Agents/Marketing/GetPreviewMailing?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ShipmentAddrId
+ShipmentAddrId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ShipmentAddrId | int32 |  |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -51,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 875
+  "ShipmentAddrId": 139
 }
 ```
 
@@ -94,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2003-09-23T11:10:27.294453+02:00",
+  "SendingTime": "1997-11-11T02:49:44.7172985+01:00",
   "Status": "Blocked",
-  "ShipmentId": 1000,
-  "ShipmentDescription": "Operative transitional application",
-  "FromAddress": "voluptate",
-  "ContactId": 760,
-  "ContactName": "Jerde-Russel",
-  "PersonId": 789,
-  "PersonFullName": "Isaias Keebler",
-  "ShipmentType": "aliquid",
-  "MessageId": 720,
-  "MessageSubject": "quia",
-  "DocumentMessageId": 4,
-  "Opened": "2006-08-15T11:10:27.294453+02:00",
-  "LinkClicks": 597,
+  "ShipmentId": 448,
+  "ShipmentDescription": "Upgradable national budgetary management",
+  "FromAddress": "nihil",
+  "ContactId": 860,
+  "ContactName": "Considine Group",
+  "PersonId": 978,
+  "PersonFullName": "Diego Werner Von PhD",
+  "ShipmentType": "illo",
+  "MessageId": 40,
+  "MessageSubject": "perspiciatis",
+  "DocumentMessageId": 195,
+  "Opened": "2020-02-27T02:49:44.7172985+01:00",
+  "LinkClicks": 841,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 940
+      "FieldType": "System.Int32",
+      "FieldLength": 298
     }
   }
 }

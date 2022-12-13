@@ -11,6 +11,13 @@ PUT /api/v1/List/QuoteDenyReason
 
 Save the description of QuoteDenyReason list
 
+
+
+
+
+
+
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -25,12 +32,12 @@ Save the description of QuoteDenyReason list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listEntity
+## Request Body: listEntity  
 
 The list entity contains information about a specific list
 <para />
 Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,8 @@ Services for the ListEntity Carrier is available from the <see cref="T:SuperOffi
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -53,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,19 +84,19 @@ Response body:
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 331,
-  "Name": "Schoen, Lowe and Bergstrom",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 755,
+  "Id": 988,
+  "Name": "Daniel-Connelly",
+  "Tooltip": "saepe",
+  "Deleted": true,
+  "Rank": 124,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "ListType": "atque",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -100,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 543,
-  "Name": "Batz-Pollich",
-  "Tooltip": "maiores",
-  "Deleted": false,
-  "Rank": 732,
+  "Id": 485,
+  "Name": "Jewess Group",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 202,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "ListType": "in",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 917
     }
   }
 }

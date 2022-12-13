@@ -15,7 +15,7 @@ The **ERP connections** tab in the **Quote/Sync** screen shows Quote Connectors 
 
 <details><summary>How do I set up an ERP connection for SuperOffice CRM for Web (Online)?</summary>
 
-[!include[How to set up ERP](includes/set-up-erp-web.md)]
+[!include[How to set up ERP](includes/set-up-erp.md)]
 </details>
 
 ## Available Quote Connectors

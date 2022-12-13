@@ -9,6 +9,14 @@ uid: v1AppointmentAgent_GetDiaryByGroup
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 ```
 
+
+
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Appointment/GetDiaryByGroup
 ```http
 POST /api/v1/Agents/Appointment/GetDiaryByGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,9 +42,9 @@ POST /api/v1/Agents/Appointment/GetDiaryByGroup?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GroupId, GroupType, StartTime, EndTime, Count
+GroupId, GroupType, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,6 +53,7 @@ GroupId, GroupType, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
+
 
 ## Response: array
 
@@ -115,15 +125,15 @@ Response body: array
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 860,
-  "GroupType": 917,
-  "StartTime": "2017-10-30T11:10:25.4625222+01:00",
-  "EndTime": "2020-07-19T11:10:25.4625222+02:00",
-  "Count": 996
+  "GroupId": 743,
+  "GroupType": 262,
+  "StartTime": "2020-07-19T02:49:43.2461231+02:00",
+  "EndTime": "2001-06-24T02:49:43.2461231+02:00",
+  "Count": 449
 }
 ```
 
@@ -135,53 +145,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 122,
-    "StartDate": "2010-06-30T11:10:25.4635226+02:00",
-    "EndDate": "2016-11-29T11:10:25.4635226+01:00",
+    "AppointmentId": 305,
+    "StartDate": "2005-02-10T02:49:43.2461231+01:00",
+    "EndDate": "2017-03-03T02:49:43.2461231+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aliquid",
-    "AssociateFullName": "Sherman Spencer",
-    "ContactName": "McGlynn Group",
-    "Description": "Advanced even-keeled frame",
-    "PersonFullName": "Cleora Harber",
-    "PersonId": 344,
-    "ContactId": 932,
-    "ProjectId": 480,
-    "ProjectName": "Schinner, McKenzie and Torp",
+    "Task": "provident",
+    "AssociateFullName": "Prof. Cierra Turcotte II",
+    "ContactName": "Sipes-DuBuque",
+    "Description": "Cross-group cohesive product",
+    "PersonFullName": "Sienna Lind",
+    "PersonId": 422,
+    "ContactId": 72,
+    "ProjectId": 431,
+    "ProjectName": "Heathcote, Dickinson and Prohaska",
     "IsPublished": true,
-    "AssociateId": 274,
-    "ColorIndex": 708,
+    "AssociateId": 123,
+    "ColorIndex": 724,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 926,
-    "PriorityName": "Dibbert Inc and Sons",
+    "PriorityId": 825,
+    "PriorityName": "Kessler Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1996-01-02T11:10:25.4645225+01:00",
+    "ActiveDate": "2003-05-07T02:49:43.2461231+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-05-14T11:10:25.4645225+02:00",
-    "RecurringEndDate": "2014-10-30T11:10:25.4645225+01:00",
-    "MotherId": 833,
-    "AssignedBy": 605,
-    "AssignedByFullName": "Florine Balistreri",
+    "RecurringStartDate": "2018-09-19T02:49:43.2461231+02:00",
+    "RecurringEndDate": "2004-01-08T02:49:43.2461231+01:00",
+    "MotherId": 121,
+    "AssignedBy": 573,
+    "AssignedByFullName": "Hettie Frami",
     "RejectReason": "",
-    "Location": "in",
-    "AlarmLeadTime": "asperiores",
-    "SaleId": 480,
-    "SaleName": "Hoppe-Kilback",
-    "AssociateName": "Purdy, Bergstrom and Beatty",
-    "CreatedDate": "2019-08-22T11:10:25.4645225+02:00",
-    "CreatedBy": "incidunt",
-    "CreatedByFullName": "Orlo Gislason",
-    "CreatedByAssociateId": 593,
+    "Location": "molestiae",
+    "AlarmLeadTime": "voluptate",
+    "SaleId": 447,
+    "SaleName": "Fritsch-Gulgowski",
+    "AssociateName": "Beer LLC",
+    "CreatedDate": "2013-01-20T02:49:43.2461231+01:00",
+    "CreatedBy": "in",
+    "CreatedByFullName": "Mrs. Janie Manley Rau V",
+    "CreatedByAssociateId": 616,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -189,7 +199,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldLength": 238
       }
     }
   }

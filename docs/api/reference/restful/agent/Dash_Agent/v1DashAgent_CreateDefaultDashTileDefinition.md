@@ -11,7 +11,14 @@ POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 
 Set default values into a new DashTileDefinition.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,8 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
 
 OK
 
@@ -34,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 685,
-  "Name": "Brown-Morissette",
-  "Description": "Pre-emptive static synergy",
-  "DefaultHeight": 64,
-  "DefaultWidth": 821,
+  "DashboardTileDefinitionId": 423,
+  "Name": "Huel Inc and Sons",
+  "Description": "Ameliorated explicit solution",
+  "DefaultHeight": 112,
+  "DefaultWidth": 274,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Senger LLC",
-  "SelectionId": 290,
+  "EntityName": "Feest LLC",
+  "SelectionId": 572,
   "CurrencyMode": "Base",
-  "CurrencyCode": "unde",
+  "CurrencyCode": "eos",
   "Measure": "Average",
-  "MeasureField": "et",
-  "SortBy": "adipisci",
-  "LayoutConfig": "aut",
-  "SecondarySelectionId": 348,
-  "MeasureByField": "hic",
+  "MeasureField": "repellendus",
+  "SortBy": "voluptatem",
+  "LayoutConfig": "rerum",
+  "SecondarySelectionId": 911,
+  "MeasureByField": "est",
   "Usage": "Dashboard",
-  "ProviderName": "Spencer LLC",
+  "ProviderName": "Kuvalis Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldType": "System.Int32",
+      "FieldLength": 895
     }
   }
 }

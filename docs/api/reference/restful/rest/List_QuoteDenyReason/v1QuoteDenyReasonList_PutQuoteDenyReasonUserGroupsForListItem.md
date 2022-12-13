@@ -11,11 +11,18 @@ PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 
 Saves user groups visible for the QuoteDenyReason list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,6 +59,7 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
+
 
 ## Response: array
 
@@ -89,47 +97,47 @@ Response body: array
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 133,
-    "Name": "Wuckert Group",
-    "ToolTip": "Illum aut voluptates pariatur laudantium quasi nihil.",
+    "Id": 181,
+    "Name": "Lockman Group",
+    "ToolTip": "Nulla qui.",
     "Deleted": false,
-    "Rank": 321,
-    "Type": "et",
-    "ColorBlock": 35,
-    "IconHint": "laboriosam",
-    "Selected": false,
-    "LastChanged": "1995-05-07T11:10:54.5209303+02:00",
+    "Rank": 454,
+    "Type": "illum",
+    "ColorBlock": 264,
+    "IconHint": "labore",
+    "Selected": true,
+    "LastChanged": "2021-01-13T02:49:52.4378265+01:00",
     "ChildItems": [
       {
-        "Id": 832,
-        "Name": "Morar-Smitham",
-        "ToolTip": "Numquam quia.",
+        "Id": 533,
+        "Name": "Breitenberg LLC",
+        "ToolTip": "Iste vero quia illum quaerat fuga provident molestiae.",
         "Deleted": true,
-        "Rank": 618,
-        "Type": "dolorem",
-        "ColorBlock": 615,
-        "IconHint": "aut",
+        "Rank": 267,
+        "Type": "occaecati",
+        "ColorBlock": 235,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2000-01-12T11:10:54.5209303+01:00",
+        "LastChanged": "2003-09-29T02:49:52.4378265+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "aut",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Ludwig Schaefer"
+        "FullName": "Cynthia Mertz Jr."
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Abel Jewess"
+    "ExtraInfo": "incidunt",
+    "StyleHint": "exercitationem",
+    "Hidden": true,
+    "FullName": "Camron Bashirian III"
   }
 ]
 ```
@@ -142,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "Ullrich, Fahey and Kuhn",
-    "ToolTip": "Ratione ad corrupti soluta ea sed.",
-    "Deleted": false,
-    "Rank": 905,
-    "Type": "pariatur",
-    "ColorBlock": 695,
-    "IconHint": "autem",
+    "Id": 878,
+    "Name": "Bergstrom, Littel and Reichel",
+    "ToolTip": "Tempore voluptatum exercitationem dolorem modi labore qui eligendi.",
+    "Deleted": true,
+    "Rank": 870,
+    "Type": "quo",
+    "ColorBlock": 819,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "1997-01-17T11:10:54.5219303+01:00",
+    "LastChanged": "2013-11-08T02:49:52.4378265+01:00",
     "ChildItems": [
       {
-        "Id": 141,
-        "Name": "Metz Group",
-        "ToolTip": "Sint mollitia sit quibusdam autem.",
+        "Id": 721,
+        "Name": "Thiel, Mayert and Botsford",
+        "ToolTip": "Ab excepturi molestias delectus aut et.",
         "Deleted": false,
-        "Rank": 519,
-        "Type": "quis",
-        "ColorBlock": 460,
-        "IconHint": "maiores",
-        "Selected": true,
-        "LastChanged": "2017-04-20T11:10:54.5219303+02:00",
+        "Rank": 180,
+        "Type": "sed",
+        "ColorBlock": 248,
+        "IconHint": "maxime",
+        "Selected": false,
+        "LastChanged": "2022-11-29T02:49:52.4378265+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aut",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Dr. Tracey Beahan I",
+        "FullName": "Sterling Kovacek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 86
+            "FieldType": "System.Int32",
+            "FieldLength": 334
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "dignissimos",
-    "Hidden": false,
-    "FullName": "Delpha Reichert",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "dicta",
+    "Hidden": true,
+    "FullName": "Mrs. Lilla Ritchie I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldType": "System.String",
+        "FieldLength": 910
       }
     }
   }

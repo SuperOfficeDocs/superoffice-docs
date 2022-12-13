@@ -18,13 +18,13 @@ If the attachment is the only part of the email you would like to keep for futur
 2. Hold the mouse-pointer over the attachment you want to archive.
     ![icon][img1]
 
-3. Click the SuperOffice icon ![icon][img2]. The dialog **Archive attachment as a SuperOffice document** opens.
+3. Click the SuperOffice icon ![icon][img2].
 
-    If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. A warning also appears if the sender is registered on multiple companies in SuperOffice CRM.
-
-4. In the dialog, the **Company** and **Contact** fields have been filled in if the sender is registered in SuperOffice. Fill in relevant information in the following fields:
+4. In the **Archive attachment as a SuperOffice document** dialog, the **Company** and **Contact** fields is automatically filled if the sender is registered in SuperOffice. Fill in relevant information in the following fields:
 
     [!include[Archiving options for Gmail](includes/gmail-archiving-options.md)]
+
+    If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. A warning also appears if the sender is registered on multiple companies in SuperOffice CRM.
 
 5. Click **Save**. The selected attachment is archived to SuperOffice CRM as a new document. You can then double-click the document in the **Activities** section tab to open it.
 

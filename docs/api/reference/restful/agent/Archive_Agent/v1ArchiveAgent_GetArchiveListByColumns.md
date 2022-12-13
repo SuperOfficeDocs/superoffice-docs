@@ -11,18 +11,39 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns
 
 Get a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns.
 
+
+
 Archive Restriction Info objects represent search terms.
+
 
 Column names and operator strings are defined elsewhere.
 
+
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
+
+
+
+
+
 
 ```
 
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -33,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumns?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -48,9 +70,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize
+ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,6 +83,7 @@ ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize
 | Entities | array |  |
 | Page | int32 |  |
 | PageSize | int32 |  |
+
 
 ## Response: array
 
@@ -88,36 +111,36 @@ Response body: array
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Greenholt Inc and Sons",
+  "ProviderName": "Waters-Leffler",
   "Columns": [
-    "debitis",
-    "amet"
+    "amet",
+    "quo"
   ],
   "SortOrder": [
     {
-      "Name": "Littel Inc and Sons",
+      "Name": "Ferry, Leffler and O'Keefe",
       "Direction": "ASC"
     },
     {
-      "Name": "Littel Inc and Sons",
+      "Name": "Ferry, Leffler and O'Keefe",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Paucek, Kuphal and Turner",
-      "Operator": "corrupti",
+      "Name": "Johnson, Maggio and Braun",
+      "Operator": "in",
       "Values": [
-        "voluptatem",
-        "nobis"
+        "pariatur",
+        "quod"
       ],
       "DisplayValues": [
-        "velit",
-        "commodi"
+        "eos",
+        "architecto"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,17 +148,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 938,
+      "InterParenthesis": 542,
       "InterOperator": "And",
-      "UniqueHash": 981
+      "UniqueHash": 147
     }
   ],
   "Entities": [
-    "voluptas",
-    "atque"
+    "porro",
+    "quia"
   ],
-  "Page": 144,
-  "PageSize": 422
+  "Page": 607,
+  "PageSize": 987
 }
 ```
 
@@ -147,23 +170,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Fadel LLC",
-    "PrimaryKey": 270,
+    "EntityName": "Mayert-Towne",
+    "PrimaryKey": 246,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "molestiae",
-        "TooltipHint": "accusamus",
-        "LinkHint": "officiis"
+        "DisplayValue": "quia",
+        "TooltipHint": "reiciendis",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "est",
-    "StyleHint": "molestiae",
+    "LinkHint": "repellendus",
+    "StyleHint": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldLength": 207
       }
     }
   }

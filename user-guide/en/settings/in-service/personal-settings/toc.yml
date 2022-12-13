@@ -1,0 +1,21 @@
+items:
+- name: Overview
+  href: index.md
+- name: User information
+  href: user-info.md
+- name: Signature
+  href: signature.md
+- name: Interface
+  href: interface.md
+- name: Preferences
+  href: preferences.md
+- name: Category membership
+  href: category-membership.md
+- name: Other groups
+  href: other-groups.md
+- name: Password
+  href: ../password.md
+- name: Notification
+  href: notification.md
+- name: Extra fields
+  href: extra-fields.md
