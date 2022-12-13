@@ -14,7 +14,7 @@ language: en
 1. Go to the **Forms** tab.
 2. If required, click **Add folder** to [create a folder for the form][19].
 
-3. Select **Form** under **Create new** on the right-hand side of the screen. The **Edit form** screen displays.
+3. Select **Form** under **Create new** on the right side of the screen. The **Edit form** screen displays.
 4. Enter a descriptive name for the template in the **Form name** field.
 5. Fill in the fields as described below.
 6. Remember to click **Apply now** regularly to save your work. The form will not be auto-saved.
