@@ -17,9 +17,6 @@ language: en
 
     * **Requests**: Enter a request ID or the first part of the request title.
     * **Customers**: Enter the first or last name of contact or the first part of the company name.
-
-        [!include[Use wildcard in search](../includes/tip-search-wildcard.md)]
-
     * **Selections**: Enter the first part of the selection title.
     * **Knowledge Base**: Enter any part of the FAQ name. To search for ALL records in the knowledge base, click **Search** in the list.
     * **Marketing**: Enter the first part of the mailing title.

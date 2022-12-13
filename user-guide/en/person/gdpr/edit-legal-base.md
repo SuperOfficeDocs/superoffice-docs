@@ -58,7 +58,7 @@ language: en
 * [Learn more about GDPR, privacy and consent management in SuperOffice][1]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/learning/admin-guide/gdpr-privacy-settings/
+[1]: https://community.superoffice.com/en/learning/best-practices-tips/#gdpr
 [2]: ../../howto/bulk-update.md
 
 <!-- Referenced images -->
