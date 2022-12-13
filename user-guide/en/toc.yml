@@ -54,7 +54,7 @@ items:
   - name: SAINT (Sales intelligence)
     href: sale/saint/toc.yml
 
-  - name: Customisation
+  - name: Customization
     topicHref: custom-objects/index.yml
     items:
     - name: Lists
