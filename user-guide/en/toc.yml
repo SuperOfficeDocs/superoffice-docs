@@ -55,7 +55,7 @@ items:
     href: sale/saint/toc.yml
 
   - name: Customization
-    topicHref: custom-objects/index.yml
+    href: customization.yml
     items:
     - name: Lists
       href: settings/lists/toc.yml
@@ -176,11 +176,9 @@ items:
         href: settings/screen/soap-config.md
       - name: Configure SOAP interface
         href: settings/configure-soap.md
-      - name: Log off users
-        href: ../win-client/logging-users-off.md
 
   - name: Administration and system settings
-    topicHref: license/index.yml
+    href: administration.yml
     items:
     - name: System events
       href: settings/system-events.md
@@ -195,6 +193,8 @@ items:
       href: import/toc.yml
     - name: AI
       href: ai/toc.yml
+    - name: ERP
+      href: erp/toc.yml
 
   - name: Windows client settings
     href: win-client/toc.yml

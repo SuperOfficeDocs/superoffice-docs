@@ -46,7 +46,7 @@ When you start Settings and maintenance, you will see a login screen where you m
 
 <!-- onsite-->
 > [!NOTE]
-> The first time you run Settings and maintenance, a dialog displays an amendment to the Terms of Service. Please read this important information and click **Accept** and **OK** to continue using Settings and maintenance. This dialog will not be displayed again, but you can read the complete text here: [Addendum to SuperOffice Software Maintenance Agreement][3].
+> The first time you run Settings and maintenance, a dialog displays an amendment to the Terms of Service. Please read this important information and click **Accept** and **OK** to continue using Settings and maintenance. This dialog will not be displayed again.
 
 You must belong to the **User level 0** role or another role that gives you login rights for Settings and maintenance. User IDs, passwords and user levels are all defined in the [Users screen][2].
 
@@ -57,7 +57,7 @@ You must belong to the **User level 0** role or another role that gives you logi
 
 1. Click ![icon][img2] **Service** in the navigator on the left side of the screen.
 
-1. Click **Log in**. This takes you to the dashboard in SuperOffice Service. You can read more about this under [Requests][1].
+1. Click **Log in**. This takes you to the dashboard in SuperOffice Service.
 
 > [!TIP]
 > To log out of SuperOffice Service, click the ![icon][img1] **Personal settings** button at the top of the screen, and select **Log out**.
@@ -65,8 +65,6 @@ You must belong to the **User level 0** role or another role that gives you logi
 In SuperOffice Service you can also log in as the same user in several browsers / multiple sessions.
 
 <!-- Referenced links -->
-[1]: ../request/index.md
-[3]: ../addendum.md
 [2]: ../user-management/index.md
 
 <!-- Referenced images -->

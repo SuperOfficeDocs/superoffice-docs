@@ -5,11 +5,11 @@ summary: "Learn about licenses, roles and users, languages and localizations, ho
 
 metadata:
   title: User administration and system settings
-  description: ""
+  description: "Licenses, user management, languages and localization, import"
   so.product: administration
   so.topic: landing-page
-  author: Help & Learn
-  so.author: helplearn
+  author: Help and Learn
+  so.author: Kirsti A.
   so.date: 11.29.2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
@@ -22,11 +22,11 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: License overview
-          url: overview.md
-        - text: The licences screen
-          url: screen/index.md
+          url: license/index.md
+        - text: The licenses screen
+          url: license/screen/index.md
         - text: Activate license
-          url: activate.md
+          url: license/activate.md
 
   # Card
   - title: User management
@@ -34,19 +34,19 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Roles
-          url: ../user-management/role/index.md
+          url: user-management/role/index.md
         - text: Create a role
-          url: ../user-management/role/create-role.md
+          url: user-management/role/create-role.md
         - text: Users
-          url: ../user-management/index.md
+          url: user-management/index.md
         - text: Add users
-          url: ../user-management/add-associate.md
+          url: user-management/add-associate.md
         - text: Update user information
-          url: ../user-management/update-user.md
+          url: user-management/update-user.md
         - text: Create user groups
-          url: ../user-management/create-user-group.md
+          url: user-management/create-user-group.md
         - text: Add company in the Our companies tab
-          url: ../user-management/add-our-companies.md
+          url: user-management/add-our-companies.md
 
   # Card
   - title: Import
@@ -54,17 +54,17 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Configure import settings
-          url: ../import/configure-import-settings.md
+          url: import/configure-import-settings.md
         - text: Import from Excel
-          url: ../import/import-from-excel.md
+          url: import/import-from-excel.md
         - text: Import products from Excel
-          url: ../import/import-products-from-excel.md
+          url: import/import-products-from-excel.md
         - text: Import from Gmail
-          url: ../import/import-from-gmail.md
+          url: import/import-from-gmail.md
         - text: Import from Outlook
-          url: ../import/import-from-outlook.md
+          url: import/import-from-outlook.md
         - text: Import from ERP
-          url: ../import/import-from-erp.md
+          url: import/import-from-erp.md
 
   # Card
   - title: AI
@@ -72,6 +72,18 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Categorization
-          url: ../ai/categorization.md
+          url: ai/categorization.md
         - text: Text analysis
-          url: ../ai/text-analysis.md
+          url: ai/text-analysis.md
+
+ # Card
+  - title: ERP
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Connect to ERP
+          url: erp/erp-connect.md
+        - text: Create ERP actor
+          url: erp/erp-create-new-actor.md
+        - text: Disable synchronization
+          url: erp/erp-sync-disconnect.md

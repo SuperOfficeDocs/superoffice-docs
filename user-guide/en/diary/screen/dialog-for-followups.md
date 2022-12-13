@@ -171,7 +171,7 @@ This tab displays any [custom fields][14] configured in SuperOffice Settings and
 [11]: ../change-completed-status.md
 [12]: ../../search-options/using-fastsearcher.md
 [13]: ../../getting-started/preferences.md
-[14]: ../../custom-objects/overview.md
+[14]: ../../custom-objects/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

@@ -57,8 +57,6 @@ items:
     href: ../settings/index.md
 
 - name: Create/copy shortcut
-  href: ../win-client/creating-shortcuts-to-entries-in-crm.md         
+  href: ../win-client/creating-shortcuts-to-entries-in-crm.md
 - name: External applications and URL addresses
   href: external-applications-and-url-addresses.md
-- name: ERP
-  href: ../erp/toc.yml
