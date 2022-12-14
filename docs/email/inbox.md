@@ -41,7 +41,7 @@ On by default on 8.1
 3. Save *web.config*.
 4. Recycle the application pool.
 
-![x -screenshot][img1]
+![Web.config settings -screenshot][img1]
 
 ## Number-of-days to download
 
