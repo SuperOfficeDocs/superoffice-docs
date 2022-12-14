@@ -32,7 +32,7 @@ cURL is enabled by default for ALL SuperOffice Service sites and installations,
 
 Enabled by default
 
-**OnSite:**
+**Onsite:**
 
 8.1 and newer: Enabled by default
 
@@ -183,7 +183,7 @@ To register Microsoft as an IDP and grant the SuperOffice ID Azure AD applicatio
         
 #### Start IDP registration
 
-1. Go to `https://id.superoffice.com/identityprovider/register`.
+1. Go to [https://id.superoffice.com/identityprovider/register][5].
 2. Select your organization's identity provider (Choose Microsoft).
 3. You are sent to the provider's sign-in page after starting registration.
 4. Authenticate with your Global admin or App admin Azure AD account.
@@ -218,9 +218,9 @@ A UPN is not the same as an email address. Sometimes, a UPN can match a user's e
 
 </details>
 
-**Work-around:**
+**Workaround:**
 
-A work-around can be to use the full 'onmicrosoft' user name (or any other microsoft user name to initiate the redirect).
+A workaround can be to use the full 'onmicrosoft' user name (or any other microsoft user name to initiate the redirect).
 
 For example, if you have email address and login to Microsoft 365: support@company.com, enter `support@company.mail.onmicrosoft.com` as the username in the Service mailbox dialog.
 
@@ -239,9 +239,9 @@ Ensure that the MX record points to the Microsoft address. If the MX does not po
 3. Type `set type=mx` and press Enter.
 4. Enter your domain.
 
-**Work-around:**
+**Workaround:**
 
-Use this as a work-around when their MX record is not pointing to Microsoft.
+Use this as a workaround when their MX record is not pointing to Microsoft.
 
 You may avoid to change the existing MXs by just add a new temporary fake MX with a lower priority number, to outlook.microsoft.com:
 
@@ -289,6 +289,7 @@ When the user starts the authentication flow, the user initiates with an active 
 </details>
 
 <!-- Referenced links -->
+[5]: https://id.superoffice.com/identityprovider/register
 [6]: https://www.codetwo.com/kb/upn/#exchange
 [7]: https://www.codetwo.com/kb/upn/#office-365
 [8]: https://community.superoffice.com/en/learning/admin-guide/service/request-setup/service-mailbox-setup/
