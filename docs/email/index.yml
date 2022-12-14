@@ -34,11 +34,11 @@ highlightedContent:
     # Card
     - title: "SuperOffice Inbox"
       itemType: overview
-      url: email/inbox.md
+      url: inbox.md
     # Card
     - title: "Email in Service and Marketing"
       itemType: overview
-      url: email/service.md
+      url: service.md
     # Card
     - title: "Email table"
       itemType: reference
