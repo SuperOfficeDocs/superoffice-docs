@@ -141,17 +141,17 @@ When a mailbox is created in SuperOffice Service, and a Microsoft 365 (Microsoft
 To create a new mailbox with OAuth 2.0 (in 10.1.5 and newer):
 
 1. Select System settings > E-mail. This takes you straight to the Mailboxes tab.
-2. Click New mailbox. 
+2. Click New mailbox.
     * The "Set up e-mail account" dialog appears
-3.  Click the "sing in with Microsoft" button
+3. Click the "sing in with Microsoft" button
     * We redirect you to Microsoft for authentication.
     * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
 4. Click OK. The mailbox is created.
-        
+
 To create a new mailbox with OAuth 2.0 (in 10.1.4 and older)::
 
 1. Select System settings > E-mail. This takes you straight to the Mailboxes tab.
-2. Click New mailbox. 
+2. Click New mailbox.
     * The Mailbox properties screen appears, with the Properties tab open.
 3. In the Address field, enter the Microsoft 365 email account e-mail address you want to use for the mailbox.
     * If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication.
@@ -170,17 +170,17 @@ You do not have to delete and create a new mailbox just to change authentication
     * If we recognize the UPN as an Microsoft 365 email account, we will redirect you to Microsoft for authentication.
     * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
 4. Click OK. The mailbox is updated.
-        
+
 ### Give access to SuperOffice Office365/Azure Enterprise App
 
 When registering, if the current user (by email address) doesn't have grant access rights, you first need to get a domain AAD administrator to authenticate and register it manually. You do this by registering the domain with us.
 
-We use the same service as for our federated sign-in service we use for CRM Online customers. This enables us to recognize the domain of the user's email address and redirect to the correct identity provider for authentication. This will add our Azure Enterprise App to your domains app list. 
+We use the same service as for our federated sign-in service we use for CRM Online customers. This enables us to recognize the domain of the user's email address and redirect to the correct identity provider for authentication. This will add our Azure Enterprise App to your domains app list.
 
 This process will have no effect on login/authentication of SuperOffice Onsite users in general.
 
 To register Microsoft as an IDP and grant the SuperOffice ID Azure AD application access to read user profile information, the user should be Global Admin or App Admin.
-        
+
 #### Start IDP registration
 
 1. Go to [https://id.superoffice.com/identityprovider/register][5].
@@ -199,7 +199,7 @@ From SuperOffice's side, it's only `accessgateway.superoffice.com`. On Microsoft
 #### Credential is not recognized
 
 ![Could not log in error -screenshot][img5]
-        
+
 For OAuth to be able to work, make sure you have user-credentials (UPN) that directly authorize you on the mailbox, not the email address or a user which has access to it as a *shared mailbox*.
 
 > [!NOTE]
@@ -225,7 +225,7 @@ A workaround can be to use the full 'onmicrosoft' user name (or any other micros
 For example, if you have email address and login to Microsoft 365: support@company.com, enter `support@company.mail.onmicrosoft.com` as the username in the Service mailbox dialog.
 
 If the browser caches an existing valid authentication-cookie, this can result in a direct redirect back to Service without the needed user interaction to get the needed details back. Clear the cookies or use an incognito-session in the browser.
-        
+
 Also make sure your firewall is not blocking IMAPS on port 993.
 
 #### MX Record pointing to the Microsoft® Exchange Online server
@@ -280,7 +280,7 @@ For a customer who have 2 duplicate onsite-env. and already have OAuth 2.0 regis
 
 > [!NOTE]
 > The use of App Passwords is dependent on basic authentication. This type of authentication will be discontinued by Microsoft in October 2022.
-        
+
 <details>
 <summary>Show details on the redirect flow when connecting</summary>
 When a user starts logging in to the CRM inbox / Service mailbox, they enter their email address. We use the domain of the email address to try to figure out if this belongs to a provider that supports OAuth 2.0 (so far Microsoft is supported). To figure this out, we look up the MX records for the domain and we look for the domain in the Thunderbird autoconfig database (query my.domain.com : `https://autoconfig.thunderbird.net/v1.1/my.domain.com`). This database contains some large company domains, but most company domains will not be found here. If either the company domain MX records or the database lookup resolves to `office365.com`, the user is automatically redirected to Microsoft for OAuth2-based login. If we don't recognize the email domain as a microsoft domain, the user can either input the password for normal IMAP/SMTP login or press a button to authenticate with Microsoft using OAuth 2.0 authentication/authorization flow.
