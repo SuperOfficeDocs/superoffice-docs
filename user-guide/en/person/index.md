@@ -1,9 +1,9 @@
 ---
 uid: help-en-contact
 title: Contact
-description: Contact
-author: SuperOffice RnD
-so.date: 07.04.2022
+description: A Contact card stores valuable information on all your communication and interaction with a person, as well as their GDPR consent documentation.
+author: Bergfrid Dias
+so.date: 12.14.2022
 keywords: person, contact
 so.topic: concept
 language: en
@@ -11,9 +11,11 @@ language: en
 
 # Contacts
 
+A Contact card stores valuable information on all your communication and interaction with a person, as well as their GDPR consent documentation.
+
 [!include[Intro](includes/contacts-screen-intro.md)]
 
-The bottom of the **Contact** screen contains five default section tabs:
+The bottom of the **Contact** screen contains five [default section tabs][1]:
 
 * **Activities**
 * **Sales**
@@ -31,13 +33,20 @@ Everything you want to find out about a contact is available from a single scree
 * [Merge contacts][5]
 * [Delete contacts][6]
 * [Send email to a contact][7]
+* [Bulk update contact information][8]
+* [Mass delete contacts and companies from selection][10]
+* [Use the Recycle bin to restore companies and contacts][11]
 
 <!-- Referenced links -->
+[1]: screen/index.md
 [2]: create.md
 [3]: gdpr/edit-legal-base.md
 [4]: move.md
 [5]: merge-contacts.md
 [6]: delete.md
 [7]: send-email.md
+[8]: ../search-options/selections/howto/bulk-update.md
+[10]:
+[11]: ../getting-started/recycle-bin.md
 
 <!-- Referenced images -->

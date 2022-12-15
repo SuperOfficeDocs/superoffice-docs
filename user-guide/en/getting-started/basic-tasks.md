@@ -1,6 +1,6 @@
 ---
 title: Basic tasks to get started with
-uid: help-en-mobile-intro
+uid: help-en-getting-started-tasks
 description: Basic tasks for beginners in SuperOffice CRM.
 author: Bergfrid Dias
 so.date: 12.14.2022
@@ -18,12 +18,16 @@ The Company and Contact cards/screens hold all information related to your custo
 
 **Tasks:**
 
-* Add a company
-* Add contacts
-* Merge or delete companies and contacts
+* [Add a company][2]
+* [Add contacts][3]
+* [Merge or delete companies and contacts][4]
+* [Use the Recycle bin to restore companies and contacts][9]
+* [Import multiple companies and/or contacts at once][1]
+* [Bulk update company and contact information][5]
+* [Create selections for further action][6]
 
-> [!NOTE]
-> To import multiple companies and/or contacts in one go? Go to [Import contacts to SuperOffice CRM][1]
+> [!TIP]
+> Did you know that you can see all your companies or contacts in one place? Simply click on the **Selections** icon in the navigator panel and select **Company: All** or **All Contacts** from the drop-down list.
 
 ## Diary and appointments
 
@@ -70,7 +74,12 @@ Your administrator can [add and customize project guides][1] for you.
 
 <!-- Referenced links -->
 [1]: ../project/project-guide/create.md
-
+[2]: ../company/create.md
+[3]: ../person/create.md
+[4]: ../howto/merge-delete-company-contact.md
+[5]: ../search-options/selections/howto/bulk-update.md
+[9]: recycle-bin.md
+[6]:
 <!-- Referenced images -->
 [img1]: media/diary.png
 [img2]: media/projects.png

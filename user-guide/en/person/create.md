@@ -1,15 +1,25 @@
 ---
 uid: help-en-contact-create
-title: Create contacts
-description: Create contacts
+title: Create contact
+description: How to create contact in SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 12.15.2022
 keywords: person, contact
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Create new contact
+
+There are many ways you can add contacts to SuperOffice CRM:
+
+* Add a contact from the top bar **or** the Company screen - see steps below.
+* [Scan a business card](#business-card) with the SuperOffice Mobile CRM app.
+* [Bulk import][2] larger numbers of contacts at once (requires Administrator rights).
+
+![You can add a contact from the company card in two steps -screenshot][img1]
+
+## Steps
 
 1. Open the **Contact** screen.
 
@@ -98,8 +108,21 @@ In the **Interests** tab you have the following options:
 
 [!include[Tip](../includes/tip-open-website.md)]
 
+## <a id="business-card" />Scan a business card
+
+1. Open your Mobile CRM app.
+1. Go to the **Company/Contact** tab.
+1. Press **New+** and select the **Scan business card** option.
+1. When the camera opens up, take a picture of the card and SuperOffice CRM will automatically transfer all the info onto a new Company card.
+1. Review and edit as required before saving.
+
+[Getting started with Mobile CRM][1]
+
 <!-- Referenced links -->
+[1]: ../getting-started/mobile.md
+[2]: ../import/index.md
 [7]: gdpr/edit-legal-base.md
 [8]: add-relation.md
 
 <!-- Referenced images -->
+[img1]: media/add-contact-from-company-card.png

@@ -13,6 +13,11 @@ language: en
 
 In the **Company** screen you can enter information about companies on several levels, represented by the three **Company**, **More** and **Interests** tabs. To insert a comment on a company, use the **Note** tab.
 
+Watch this video or follow the steps below.
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4]
+
 ## The Company tab
 
 1. Click **New** on the top bar and select **Company**.
