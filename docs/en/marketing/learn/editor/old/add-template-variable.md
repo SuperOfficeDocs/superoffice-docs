@@ -34,7 +34,7 @@ language: en
 
 <!-- Referenced links -->
 [1]: ../../mailing/create/send-test-email.md
-[2]: ../../../../../docs/document/learn/templates/variables/index.md
+[2]: ../../../../document/templates/variables/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/marketing-and-forms/edit.png

@@ -28,7 +28,7 @@ If you check **Include stakeholders** at the bottom of the section tab, sales wh
 <!-- Referenced links -->
 [1]: ../../../sale/learn/index.md
 [2]: ../../../sale/learn/stakeholders/index.md
-[3]: ../../../getting-started/using-filter-function-contact.md
+[3]: ../../../learn/getting-started/using-filter-function-contact.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/filter-icon.png

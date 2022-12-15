@@ -22,11 +22,11 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: License overview
-          url: license/index.md
+          url: ../admin/license/learn/index.md
         - text: The licenses screen
-          url: license/screen/index.md
+          url: ../admin/license/learn/screen/index.md
         - text: Activate license
-          url: license/activate.md
+          url: ../admin/license/learn/activate.md
 
   # Card
   - title: User management
@@ -34,19 +34,19 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Roles
-          url: user-management/role/index.md
+          url: ../admin/user-management/role/index.md
         - text: Create a role
-          url: user-management/role/create-role.md
+          url: ../admin/user-management/role/create-role.md
         - text: Users
-          url: user-management/index.md
+          url: ../admin/user-management/index.md
         - text: Add users
-          url: user-management/add-associate.md
+          url: ../admin/user-management/add-associate.md
         - text: Update user information
-          url: user-management/update-user.md
+          url: ../admin/user-management/update-user.md
         - text: Create user groups
-          url: user-management/create-user-group.md
+          url: ../admin/user-management/create-user-group.md
         - text: Add company in the Our companies tab
-          url: user-management/add-our-companies.md
+          url: ../admin/user-management/add-our-companies.md
 
   # Card
   - title: Import
@@ -54,17 +54,17 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Configure import settings
-          url: import/configure-import-settings.md
+          url: ../admin/import/configure-import-settings.md
         - text: Import from Excel
-          url: import/import-from-excel.md
+          url: ../admin/import/import-from-excel.md
         - text: Import products from Excel
-          url: import/import-products-from-excel.md
+          url: ../admin/import/import-products-from-excel.md
         - text: Import from Gmail
-          url: import/import-from-gmail.md
+          url: ../admin/import/import-from-gmail.md
         - text: Import from Outlook
-          url: import/import-from-outlook.md
+          url: ../admin/import/import-from-outlook.md
         - text: Import from ERP
-          url: import/import-from-erp.md
+          url: ../admin/import/import-from-erp.md
 
   # Card
   - title: AI
@@ -72,9 +72,9 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Categorization
-          url: ai/categorization.md
+          url: ../ai/learn/categorization.md
         - text: Text analysis
-          url: ai/text-analysis.md
+          url: ../ai/learn/text-analysis.md
 
  # Card
   - title: ERP
@@ -82,8 +82,8 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Connect to ERP
-          url: erp/erp-connect.md
+          url: ../admin/erp/erp-connect.md
         - text: Create ERP actor
-          url: erp/erp-create-new-actor.md
+          url: ../admin/erp/erp-create-new-actor.md
         - text: Disable synchronization
-          url: erp/erp-sync-disconnect.md
+          url: ../admin/erp/erp-sync-disconnect.md

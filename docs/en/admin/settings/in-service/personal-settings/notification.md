@@ -39,7 +39,7 @@ You can receive notifications of the following events in SuperOffice Service.
 * **Custom messages**: Check here to receive custom notifications created using scripts.
 
 <!-- Referenced links -->
-[1]: ../../../getting-started/main-screen/buttons-in-menu-bar.md
+[1]: ../../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [2]: ../../../request/learn/priority/escalation-levels.md
 
 <!-- Referenced images -->

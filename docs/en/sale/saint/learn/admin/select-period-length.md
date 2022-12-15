@@ -11,7 +11,7 @@ language: en
 
 # Specify a period length
 
-[!include[Requirement](../../includes/note-saint-req.md)]
+[!include[Requirement](../includes/note-saint-req.md)]
 
 You can specify the period (duration in days) for the following [counters][1]:
 

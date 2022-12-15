@@ -45,7 +45,7 @@ Database tables that fall into one of the following categories are not mirrored:
 * not useful (`traveltransactionlog`, `countervalue`)
 * confidential (`credentials`)
 
-<a href="../assets/downloads/mirroredtables.docx" download>Click to download the Mirrored Tables document</a>
+<a href="../../assets/downloads/mirroredtables.docx" download>Click to download the Mirrored Tables document</a>
 
 ## When mirroring schema changes fails
 

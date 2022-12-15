@@ -38,7 +38,7 @@ Tags can be used to search for requests in the [quick search][2] and in the "reg
 
 <!-- Referenced links -->
 [1]: howto/create.md
-[2]: ../../search-options/in-service/quick-search.md
+[2]: ../../search-options/learn/in-service/quick-search.md
 [3]: find.md#category
 
 <!-- Referenced images -->

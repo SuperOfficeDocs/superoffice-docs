@@ -11,7 +11,7 @@ language: en
 
 # Status monitors
 
-[!include[Requirement](../../includes/note-saint-req.md)]
+[!include[Requirement](../includes/note-saint-req.md)]
 
 Using the **Status monitors/SAINT** tab, you can create statuses for companies, contacts and projects. Status monitors represent the functionality behind the Sales Intelligence (SAINT) concept. This facilitates following up companies, contacts and projects and provides more intelligent search options in SuperOffice CRM.
 

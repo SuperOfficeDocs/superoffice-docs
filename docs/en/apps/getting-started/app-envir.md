@@ -79,7 +79,7 @@ For each application and within each environment, you must define the following 
 
 ![x -screenshot][img2]
 
-<a href="../../assets/downloads/api/superofficeonlinecertificates.zip" download>Click to download the SuperOffice certificates (ZIP file)</a>.
+<a href="../../../assets/downloads/api/superofficeonlinecertificates.zip" download>Click to download the SuperOffice certificates (ZIP file)</a>.
 
 ## Base URL
 

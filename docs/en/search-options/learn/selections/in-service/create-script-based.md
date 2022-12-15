@@ -46,7 +46,7 @@ Assuming you already have a script to use as a basis, a script-based selection i
 * [Edit a selection][4]
 
 <!-- Referenced links -->
-[1]: ../../../../../docs/automation/crmscript/index.yml
+[1]: ../../../../automation/crmscript/index.yml
 [2]: update.md
 [3]: list.md
 [4]: edit.md

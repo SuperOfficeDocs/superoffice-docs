@@ -24,7 +24,7 @@ In Settings and maintenance, you can specify for most predefined and all user-de
 ## Specify that a list should be grouped
 
 1. [!include[Go to Lists](../includes/goto-lists.md)]
-2. [!include[Click arrow and select](../../../includes/expand-list.md)] the required list.
+2. [!include[Click arrow and select](../../../../includes/expand-list.md)] the required list.
 3. Check **Use grouping and user group filtering for this list** at the top right.
 
 > [!NOTE]

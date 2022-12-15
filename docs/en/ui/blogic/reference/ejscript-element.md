@@ -66,4 +66,4 @@ All config variables are available using `getVariable()`.
 | element_toString               | String |             | Converts a simple value to a string            |
 
 <!-- Referenced links -->
-[1]: https://github.com/superofficedocs/crmscript/blob/maion/docs/classes/htmlelement/htmlelement.md
+[1]: ../../../automation/crmscript/reference/CRMScript.Native.HtmlElement.yml

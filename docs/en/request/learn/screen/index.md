@@ -84,15 +84,15 @@ At the bottom of the **Messages** tab, you can send replies and forward messages
 The **Details** tab contains an overview of the request.
 
 <!-- Referenced links -->
-[3]: ../../../getting-started/transfer.md
-[4]: ../../../getting-started/reply.md
-[5]: ../../../getting-started/accept.md
-[6]: ../../../getting-started/split-request.md
-[7]: ../../../getting-started/merge.md
+[3]: ../howto/transfer.md
+[4]: ../howto/reply.md
+[5]: ../howto/accept.md
+[6]: ../howto/split-request.md
+[7]: ../howto/merge.md
 [8]: ../../../faq/create.md
-[9]: ../../../getting-started/edit-message.md
-[10]: ../../../getting-started/forward.md
-[11]: ../../../getting-started/split-message.md
+[9]: ../howto/edit-message.md
+[10]: ../howto/forward.md
+[11]: ../howto/split-message.md
 [14]: ../category/index.md
 
 <!-- Referenced images -->

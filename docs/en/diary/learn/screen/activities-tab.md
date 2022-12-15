@@ -86,7 +86,7 @@ If an activity is highlighted in red type, this means that its provisional date 
 [2]: dialog-for-followups.md
 [5]: ../create-follow-up.md
 [7]: ../activity.md
-[8]: ../../../getting-started/preferences.md
+[8]: ../../../learn/getting-started/preferences.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/personal-settings-small.png

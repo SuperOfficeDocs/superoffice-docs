@@ -9,6 +9,7 @@ so.envir: onsite
 so.client: web
 ---
 
+<!-- markdownlint-disable-file DOCSMD008 -->
 # Install and configure ModSecurity on proxy server
 
 The OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection rules for use with [ModSecurity][1] or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the OWASP Top Ten, with a minimum of false alerts.
@@ -44,7 +45,7 @@ Where: on the server that is functioning as our reverse proxy
 
 By default, the rule-set will trigger some false positives. We are going to disable a few rules to avoid false positives.
 
-<a href="../../assets/downloads/modsecurity_crs_70_superoffice.zip" download>Download</a> the *modsecurity_crs_70_superoffice.conf* file containing the whitelisted rules.
+<a href="../../../assets/downloads/modsecurity_crs_70_superoffice.zip" download>Download</a> the *modsecurity_crs_70_superoffice.conf* file containing the whitelisted rules.
 
 1. Copy the file *modsecurity_crs_70_superoffice.conf* into the folder *C:\Program Files\ModSecurity IIS\owasp_crs\base_rules*. This is the default installation path for ModSecurity. If you chose something else during the installation, you need to change the path accordingly.
 

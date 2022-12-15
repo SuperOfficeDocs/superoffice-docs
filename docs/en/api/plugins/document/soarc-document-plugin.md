@@ -99,12 +99,12 @@ I want to thank Jose Aparicio (Scarp) for kicking off the experimentation, and c
 
 ## Downloads
 
-* [InstallDocPlugin.bat.txt](../../../assets/downloads/api/InstallDocPlugin.bat.txt)
-* [SoArcDocumentPlugin.net.zip](../../../assets/downloads/api/soarcdocumentplugin.net.zip)
-* [SoArcDocumentPlugin.Net(7.5).zip](../../../assets/downloads/api/soarcdocumentplugin.net-7.5.zip)
-* [DocumentPlugins-WinWeb-7.5.zip](../../../assets/downloads/api/documentplugins-winweb-7.5.zip)
-* [SuperOffice.TestDocPlugin-v8.zip](../../../assets/downloads/api/superoffice.testdocplugin-v8.zip)
-* [SuperOffice.TestDocPlugin-v8SR3.zip (with CheckInCheckOutLocking)](../../../assets/downloads/api/superoffice.testdocplugin_withcheckincheckout.zip)
+* [InstallDocPlugin.bat.txt](../../../../assets/downloads/api/InstallDocPlugin.bat.txt)
+* [SoArcDocumentPlugin.net.zip](../../../../assets/downloads/api/soarcdocumentplugin.net.zip)
+* [SoArcDocumentPlugin.Net(7.5).zip](../../../../assets/downloads/api/soarcdocumentplugin.net-7.5.zip)
+* [DocumentPlugins-WinWeb-7.5.zip](../../../../assets/downloads/api/documentplugins-winweb-7.5.zip)
+* [SuperOffice.TestDocPlugin-v8.zip](../../../../assets/downloads/api/superoffice.testdocplugin-v8.zip)
+* [SuperOffice.TestDocPlugin-v8SR3.zip (with CheckInCheckOutLocking)](../../../../assets/downloads/api/superoffice.testdocplugin_withcheckincheckout.zip)
 
 <!-- Referenced links -->
 

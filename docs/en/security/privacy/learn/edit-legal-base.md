@@ -59,6 +59,6 @@ language: en
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/learning/best-practices-tips/#gdpr
-[2]: ../../../getting-started/bulk-update.md
+[2]: ../../../learn/getting-started/bulk-update.md
 
 <!-- Referenced images -->

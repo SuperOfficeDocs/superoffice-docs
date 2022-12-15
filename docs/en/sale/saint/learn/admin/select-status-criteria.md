@@ -11,7 +11,7 @@ language: en
 
 # Specify status criteria
 
-[!include[Requirement](../../includes/note-saint-req.md)]
+[!include[Requirement](../includes/note-saint-req.md)]
 
 A status is only active for companies, contacts or projects that fulfil all the criteria specified for the status. You must specify one or more criteria for each status you create.
 

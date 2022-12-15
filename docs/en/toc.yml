@@ -7,7 +7,7 @@ items:
     href: admin/toc.yml
     topicHref: admin/overview.md
   - name: AI services
-    href: ai-services/toc.yml
+    href: ai/toc.yml
   - name: Online Apps
     href: apps/toc.yml
   - name: Automation

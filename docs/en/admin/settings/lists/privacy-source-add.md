@@ -11,7 +11,7 @@ language: en
 
 # Add items to the Privacy - Source list
 
-[!include[Edit list item](../../includes/edit-list-item.md)] when you are adding an item to the **Privacy - Source** list:
+[!include[Edit list item](../../../includes/edit-list-item.md)] when you are adding an item to the **Privacy - Source** list:
 
 1. Enter the name of the item in the **Name** field.
 
@@ -27,7 +27,7 @@ language: en
 
 5. Type in a description of the item in the **Description** field.
 
-6. [!include[Save or cancel](../../includes/save-or-cancel.md)]
+6. [!include[Save or cancel](../../../includes/save-or-cancel.md)]
 
     > [!TIP]
     > How to add items to the [Privacy - Legal base list][2].

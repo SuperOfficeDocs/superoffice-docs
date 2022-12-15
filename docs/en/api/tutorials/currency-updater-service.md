@@ -100,7 +100,7 @@ For some of the above currency codes, web service does not support,  mainly due 
 * XDR- IMF Special Drawing Right
 * YUN- Yugoslavia New Dinars (Montenegro)
 
-<a href="../../assets/downloads/api/currencyupdaterservice.zip" download>Click to download source code (zip)</a>
+<a href="../../../assets/downloads/api/currencyupdaterservice.zip" download>Click to download source code (zip)</a>
 
 <!-- Referenced links -->
 [1]: http://www.webservicex.net/CurrencyConvertor.asmx

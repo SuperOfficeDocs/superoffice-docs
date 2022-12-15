@@ -35,21 +35,21 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 > The [Invoice types][16] function is only available if you have the required feature toggle.
 
 <!-- Referenced links -->
-[1]: ../../ui/learn/in-service/profiles/index.md
-[2]: ../../user-management/role/index.md
-[3]: ../../user-management/index.md
-[4]: ../../request/learn/category/index.md
-[5]: ../../request/learn/priority/index.md
-[6]: ../../request/learn/status/index.md
-[7]: ../../email/learn/service/index.md
-[8]: ../../request/learn/screen/system-templates.md
+[1]: ../../../ui/learn/in-service/profiles/index.md
+[2]: ../../../user-management/role/index.md
+[3]: ../../../user-management/index.md
+[4]: ../../../request/learn/category/index.md
+[5]: ../../../request/learn/priority/index.md
+[6]: ../../../request/learn/status/index.md
+[7]: ../../../email/learn/service/index.md
+[8]: ../../../request/learn/screen/system-templates.md
 [9]: system.md
-[10]: ../../settings/options/custlang/index.md
-[11]: ../../customer-center/config.md
-[12]: ../../customer-center/edit.md
-[13]: ../../chat/admin/index.md
+[10]: ../../../settings/options/custlang/index.md
+[11]: ../../../customer-center/config.md
+[12]: ../../../customer-center/edit.md
+[13]: ../../../chat/admin/index.md
 [14]: ../screen/soap-config.md
-[15]: ../../ui/learn/in-service/index.md
-[16]: ../../request/learn/invoice/index.md
+[15]: ../../../ui/learn/in-service/index.md
+[16]: ../../../request/learn/invoice/index.md
 
 <!-- Referenced images -->

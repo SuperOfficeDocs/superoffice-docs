@@ -42,6 +42,6 @@ A reply template can for instance be a specific layout to implement on replies, 
 [8]: delete.md
 [9]: find.md
 [10]: manage-folders.md
-[11]: ../../../getting-started/reply.md
+[11]: ../../../request/howto/reply.md
 
 <!-- Referenced images -->

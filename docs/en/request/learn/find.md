@@ -126,8 +126,8 @@ If the preview section is not visible, click the ![icon][img1] menu button in th
 
 <!-- Referenced links -->
 [1]: tags.md
-[3]: ../../search-options/in-service/quick-search.md
-[4]: ../../search-options/in-service/index.md
+[3]: ../../search-options/learn/in-service/quick-search.md
+[4]: ../../search-options/learn/in-service/index.md
 [5]: next-in-queue.md
 [6]: howto/accept.md
 [7]: category/index.md

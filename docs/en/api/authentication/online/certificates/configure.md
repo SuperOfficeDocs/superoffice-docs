@@ -101,7 +101,7 @@ On the computer in each hosting environment:
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../../../../assets/downloads/api/superofficeonlinecertificates.zip
+[2]: ../../../../../assets/downloads/api/superofficeonlinecertificates.zip
 [3]: ../../../../apps/getting-started/app-envir.md
 [4]: override-resolver.md
 [5]: add-certificate-snap-in.md

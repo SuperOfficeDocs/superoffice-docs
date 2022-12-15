@@ -15,7 +15,7 @@ Before linking a heading to an item, you must add the headings you require.
 
 1. Open the **Lists** screen.
 
-2. [!include[Click arrow and select](../../../includes/expand-list.md)] the required list.
+2. [!include[Click arrow and select](../../../../includes/expand-list.md)] the required list.
 
 3. Check **Use grouping and filtering by user group for this list** (top right).
 
@@ -25,11 +25,11 @@ Before linking a heading to an item, you must add the headings you require.
 
 6. In the **Edit heading** dialog, enter the required name for the heading in the **Name** field.
 
-    [!include[Mandatory](../../../includes/note-mandatory-field.md)]
+    [!include[Mandatory](../../../../includes/note-mandatory-field.md)]
 
 7. Type in a description of the heading, if required, in the **Description** field.
 
-8. [!include[Save or cancel](../../../includes/save-or-cancel.md)]
+8. [!include[Save or cancel](../../../../includes/save-or-cancel.md)]
 
 The item is added to the **Headings** list. Repeat this procedure to add more headings.
 

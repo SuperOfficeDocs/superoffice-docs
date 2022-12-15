@@ -13,12 +13,12 @@ language: en
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
-[!include[Edit list item](../../includes/edit-list-item.md)] when the list items are resources:
+[!include[Edit list item](../../../includes/edit-list-item.md)] when the list items are resources:
 
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../../includes/note-mandatory-field.md)]
 
 2. In the **Type** field, specify the resource type:
 
@@ -29,4 +29,4 @@ language: en
 
 4. Optionally, type in a description of the resource in the **Description** field.
 
-5. [!include[Save or cancel](../../includes/save-or-cancel.md)]
+5. [!include[Save or cancel](../../../includes/save-or-cancel.md)]

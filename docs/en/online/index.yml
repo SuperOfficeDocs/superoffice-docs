@@ -164,7 +164,7 @@ additionalContent:
       - title: Continuous release schedule
         links:
           - text: What's new in latest release
-            url: ../../release-notes/index.md
+            url: ../../../release-notes/index.md
           - text: Current release schedule 
             url: https://community.superoffice.com/en/product-releases/release-notes/
       # Card

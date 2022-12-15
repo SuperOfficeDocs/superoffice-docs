@@ -28,7 +28,7 @@ language: en
 * [Delete records permanently][3]
 
 <!-- Referenced links -->
-[2]: ../../getting-started/restore-deleted-companies-and-contacts.md
+[2]: ../../learn/getting-started/restore-deleted-companies-and-contacts.md
 [3]: ../../search-options/selections/howto/deleting-companies-permanently.md
 [4]: merge-companies.md
 

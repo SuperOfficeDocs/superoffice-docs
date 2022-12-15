@@ -18,4 +18,4 @@ ed.setNavigateTo("soprotocol:sale.document?document_id=0");
 ```
 
 <!-- Referenced links -->
-[1]: https://github.com/superofficedocs/crmscript/blob/maion/docs/classes/eventdata/eventdata.md
+[1]: ../../automation/crmscript/reference/CRMScript.Native.EventData.yml

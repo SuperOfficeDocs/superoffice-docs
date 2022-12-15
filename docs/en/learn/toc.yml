@@ -3,235 +3,210 @@ items:
     href: index.md
   - name: Get started
     href: getting-started/toc.yml
-  - name: Learn the basics
-    href: howto/toc.yml
   - name: Search options
-    href: search-options/toc.yml
+    href: ../search-options/learn/toc.yml
   - name: Dashboard
-    href: dashboard/toc.yml
+    href: ../dashboard/toc.yml
   - name: Company
-    href: company/toc.yml
+    href: ../company/learn/toc.yml
   - name: Contact
-    href: person/toc.yml
+    href: ../contact/learn/toc.yml
   - name: Diary
-    href: diary/toc.yml
+    href: ../diary/learn/toc.yml
   - name: Document
-    href: document/toc.yml
+    href: ../document/learn/toc.yml
   - name: Sale
-    href: sale/toc.yml
+    href: ../sale/learn/toc.yml
   - name: Project
-    href: project/toc.yml
+    href: ../project/learn/toc.yml
   - name: Requests
-    href: request/toc.yml
+    href: ../request/learn/toc.yml
   - name: Selection
-    href: search-options/selections/toc.yml
+    href: ../search-options/learn/selections/toc.yml
   - name: Email
-    href: email/toc.yml
+    href: ../email/learn/toc.yml
   - name: Chat
-    href: chat/toc.yml
+    href: ../chat/toc.yml
   - name: Reports
-    href: reports/toc.yml
+    href: ../reports/toc.yml
   - name: Marketing
-    href: marketing/toc.yml
+    href: ../marketing/learn/toc.yml
   - name: Forms
-    href: forms/toc.yml
+    href: ../marketing/forms/learn/toc.yml
   - name: SAINT (Sales intelligence)
-    href: sale/saint/toc.yml
+    href: ../sale/saint/learn/toc.yml
 
   - name: Customization
     href: customization.yml
     items:
     - name: Lists
-      href: settings/lists/toc.yml
+      href: ../admin/settings/lists/toc.yml
     - name: Preferences
-      href: settings/preferences/toc.yml
+      href: ../admin/settings/preferences/toc.yml
 
     - name: Privacy
-      href: gdpr/privacy.md
-      items:
-      - name: Add consent purpose
-        href: gdpr/add-consent-purpose.md
-      - name: Add legal base
-        href: settings/lists/privacy-legal-base-add.md
-      - name: Add privacy source
-        href: settings/lists/privacy-source-add.md
+      href: ../security/privacy/learn/toc.yml
 
     - name: SAINT (Sales intelligence)
-      href: sale/saint/admin/index.md
-      items:
-      - name: Manage status monitors
-        href: sale/saint/admin/manage-status-monitors.md
-      - name: Create new status
-        href: sale/saint/admin/create-status.md
-      - name: Edit description for status
-        href: sale/saint/admin/edit-status.md
-      - name: Restore deleted status
-        href: sale/saint/admin/restore-status.md
-      - name: Default follow-up type for status
-        href: sale/saint/admin/select-default-follow-up-type-for-status.md
-      - name: Image for status
-        href: sale/saint/admin/select-image-for-status.md
-      - name: Period length
-        href: sale/saint/admin/select-period-length.md
-      - name: Status criteria
-        href: sale/saint/admin/select-status-criteria.md
+      href: ../sale/saint/admin/toc.yml
+      topicHref: ../sale/saint/admin/index.md
 
     - name: Quote/Sync
-      href: sale/quote/quote-sync/toc.yml  
+      href: ../quote/learn/quote-sync/toc.yml  
 
     - name: Workflow
       items:
       - name: Sales guide
-        href: sale/screen/sales-guide-admin.md
+        href: ../sale/learn/screen/sales-guide-admin.md
         items:
         - name: Create new sales guide
-          href: sale/sales-guide/create.md
+          href: ../sale/learn/sales-guide/create.md
         - name: Edit sales guide
-          href: sale/sales-guide/edit.md
+          href: ../sale/learn/sales-guide/edit.md
         - name: Deactivate sales guide
-          href: sale/sales-guide/deactivate.md
+          href: ../sale/learn/sales-guide/deactivate.md
       - name: Project guide
-        href: project/screen/project-guide-admin.md
+        href: ../project/learn/screen/project-guide-admin.md
         items:
         - name: Create new project guide, 
-          href: project/project-guide/create.md
+          href: ../project/learn/project-guide/create.md
         - name: Edit project-guide
-          href: project/project-guide/edit.md
+          href: ../project/learn/project-guide/edit.md
         - name: Deactivate project guide
-          href: project/project-guide/deactivate.md
+          href: ../project/learn/project-guide/deactivate.md
 
     - name: Custom objects
-      href: custom-objects/toc.yml
+      href: ../custom-objects/learn/toc.yml
     - name: User interface
-      href: ui/toc.yml
+      href: ../ui/learn/toc.yml
 
     - name: Options
-      href: settings/options/toc.yml
+      href: ../admin/settings/options/toc.yml
 
     - name: Chat
-      href: chat/admin/index.md
+      href: ../chat/admin/index.md
       items:
       - name: Create a chat channel
-        href: chat/admin/channel-create.md
+        href: ../chat/admin/channel-create.md
       - name: Add JavaScript for your website
-        href: chat/admin/add-javascript.md
+        href: ../chat/admin/add-javascript.md
 
     - name: CRMScript
-      href: automation/toc.yml
+      href: ../automation/learn/toc.yml
 
     - name: Requests
       items:
       - name: System settings in Service
-        href: settings/in-service/toc.yml
+        href: ../admin/settings/in-service/toc.yml
       - name: Categories
-        href: request/category/index.md
+        href: ../request/learn/category/index.md
         items:
         - name: Create category
-          href: request/category/create.md
+          href: ../request/learn/category/create.md
         - name: Delete category
-          href: request/category/delete.md
+          href: ../request/learn/category/delete.md
       - name: Tags
-        href: request/tags.md
+        href: ../request/learn/tags.md
       - name: Priorities
-        href: request/priority/index.md
+        href: ../request/learn/priority/index.md
         items:
         - name: Create priority
-          href: request/priority/create.md
+          href: ../request/learn/priority/create.md
         - name: Delete priority
-          href: request/priority/delete.md
+          href: ../request/learn/priority/delete.md
         - name: Create escalation levels
-          href: request/priority/escalation-levels.md
+          href: ../request/learn/priority/escalation-levels.md
       - name: Request status
-        href: request/status/index.md
+        href: ../request/learn/status/index.md
         items:
         - name: Create request status
-          href: request/status/create.md
+          href: ../request/learn/status/create.md
         - name: Delete request status
-          href: request/status/delete.md
+          href: ../request/learn/status/delete.md
       - name: System templates
-        href: request/screen/system-templates.md
+        href: ../request/learn/screen/system-templates.md
 
     - name: Customer center
-      href: customer-center/toc.yml
+      href: ../service/customer-center/learn/toc.yml
 
     - name: Onsite
       items:
       - name: SOAP
-        href: settings/screen/soap-config.md
+        href: ../admin/settings/screen/soap-config.md
       - name: Configure SOAP interface
-        href: settings/configure-soap.md
+        href: ../admin/settings/configure-soap.md
 
   - name: Administration and system settings
     href: administration.yml
     items:
     - name: System events
-      href: settings/system-events.md
+      href: ../admin/settings/system-events.md
       items:
       - name: Add
-        href: settings/add-system-event.md
+        href: ../admin/settings/add-system-event.md
     - name: Licenses
-      href: license/toc.yml
+      href: ../admin/license/learn/toc.yml
     - name: User management
-      href: user-management/toc.yml
+      href: ../admin/user-management/toc.yml
     - name: Import
-      href: import/toc.yml
+      href: ../admin/import/toc.yml
     - name: AI
-      href: ai/toc.yml
+      href: ../ai/learn/toc.yml
     - name: ERP
-      href: erp/toc.yml
+      href: ../admin/erp/toc.yml
 
   - name: Windows client settings
-    href: win-client/toc.yml
+    href: ../win-client/toc.yml
   - name: Service client
     items:
     - name: Personal settings in Service
-      href: ../settings/in-service/personal-settings/toc.yml
+      href: ../admin/settings/in-service/personal-settings/toc.yml
     - name: Search
-      href: ../search-options/in-service/index.md
+      href: ../search-options/learn/in-service/index.md
       items:
       - name: Customize presentation
-        href: ../search-options/in-service/customize-presentation.md
+        href: ../search-options/learn/in-service/customize-presentation.md
       - name: Use QuickSearch
-        href: ../search-options/in-service/quick-search.md
+        href: ../search-options/learn/in-service/quick-search.md
       - name: Search for contents in the knowledge base
-        href: ../search-options/in-service/search-kb.md
+        href: ../search-options/learn/in-service/search-kb.md
       - name: Search in the Navigator
-        href: ../search-options/in-service/in-navigator.md
+        href: ../search-options/learn/in-service/in-navigator.md
     - name: Person
       href: customers/person/toc.yml
     - name: Company
       href: customers/company/toc.yml
     - name: Documents
-      href: ../document/in-service/index.md
+      href: ../document/learn/in-service/index.md
       items:
       - name: View documents
-        href: ../document/in-service/view.md
+        href: ../document/learn/in-service/view.md
       - name: Create documents
-        href: ../document/in-service/create.md
+        href: ../document/learn/in-service/create.md
       - name: Edit documents
-        href: ../document/in-service/edit.md
+        href: ../document/learn/in-service/edit.md
       - name: Delete documents
-        href: ../document/in-service/delete.md
+        href: ../document/learn/in-service/delete.md
       - name: Administrate document folders
-        href: ../document/in-service/manage-folders.md
+        href: ../document/learn/in-service/manage-folders.md
       - name: Search for documents
-        href: ../document/in-service/find.md
+        href: ../document/learn/in-service/find.md
     - name: Knowledge Base
-      href: ../request/screen/knowledge-base.md
+      href: ../request/learn/screen/knowledge-base.md
       items:
       - name: FAQ
         href: ../faq/toc.yml
       - name: Reply templates
-        href: ../request/reply-templates/toc.yml
+        href: ../service/reply-templates/learn/toc.yml
       - name: Email addresses
-        href: ../request/mailboxes/index.md
+        href: ../service/mailboxes/learn/index.md
         items:
         - name: Create email addresses
-          href: ../request/mailboxes/add-email-address.md
+          href: ../service/mailboxes/learn/add-email-address.md
         - name: Administrate email address folders
-          href: ../request/mailboxes/manage-folders.md
+          href: ../service/mailboxes/learn/manage-folders.md
       - name: External documents
-        href: ../request/external-document.md
+        href: ../request/learn/external-document.md
     - name: Statistics in Service
       href: ../dashboard/in-service/statistics/index.md
       items:
@@ -250,52 +225,52 @@ items:
       - name: Create new report
         href: ../dashboard/in-service/statistics/create-report.md
     - name: Selection
-      href: ../search-options/selections/in-service/index.md
+      href: ../search-options/learn/selections/in-service/index.md
       items:
       - name: Create a selection based on search criteria
-        href: ../search-options/selections/in-service/create-from-search.md
+        href: ../search-options/learn/selections/in-service/create-from-search.md
       - name: Create a dynamic selection
-        href: ../search-options/selections/in-service/create-dynamic.md
+        href: ../search-options/learn/selections/in-service/create-dynamic.md
       - name: Create a script-based selection
-        href: ../search-options/selections/in-service/create-script-based.md
+        href: ../search-options/learn/selections/in-service/create-script-based.md
       - name: Create a static selection
-        href: ../search-options/selections/in-service/create-static.md
+        href: ../search-options/learn/selections/in-service/create-static.md
       - name: Create a combined selection
-        href: ../search-options/selections/in-service/create-combined.md
+        href: ../search-options/learn/selections/in-service/create-combined.md
       - name: List selections
-        href: ../search-options/selections/in-service/list.md
+        href: ../search-options/learn/selections/in-service/list.md
       - name: Update a selection
-        href: ../search-options/selections/in-service/update.md
+        href: ../search-options/learn/selections/in-service/update.md
       - name: Edit a selection
-        href: ../search-options/selections/in-service/edit.md
+        href: ../search-options/learn/selections/in-service/edit.md
       - name: Manage columns in selections
-        href: ../search-options/selections/in-service/manage-columns.md
+        href: ../search-options/learn/selections/in-service/manage-columns.md
       - name: Delete a selection or its records
-        href: ../search-options/selections/in-service/delete.md
+        href: ../search-options/learn/selections/in-service/delete.md
       - name: Administrate folders of selections
-        href: ../search-options/selections/in-service/manage-folders.md
+        href: ../search-options/learn/selections/in-service/manage-folders.md
     - name: Email
-      href: ../email/service/toc.yml
+      href: ../email/learn/service/toc.yml
     - name: User interface
-      href: ../ui/in-service/index.md
+      href: ../ui/learn/in-service/index.md
       items:
       - name: ScreenChoosers
-        href: ../ui/in-service/screen-chooser.md
+        href: ../ui/learn/in-service/screen-chooser.md
       - name: Screen definition
-        href: ../ui/in-service/screen-definition.md
+        href: ../ui/learn/in-service/screen-definition.md
       - name: Screen properties
-        href: ../ui/in-service/screen-properties.md
+        href: ../ui/learn/in-service/screen-properties.md
       - name: Profiles
-        href: ../ui/in-service/profiles/index.md
+        href: ../ui/learn/in-service/profiles/index.md
         items:
         - name: Personal profiles
-          href: ../ui/in-service/profiles/personal.md
+          href: ../ui/learn/in-service/profiles/personal.md
         - name: Common profiles
-          href: ../ui/in-service/profiles/common.md
+          href: ../ui/learn/in-service/profiles/common.md
         - name: Global profiles
-          href: ../ui/in-service/profiles/global.md
+          href: ../ui/learn/in-service/profiles/global.md
     - name: Package properties
-      href: ../settings/screen/package-properties.md
+      href: ../admin/settings/screen/package-properties.md
     
     - name: Invoice
       href: ../request/invoice/index.md

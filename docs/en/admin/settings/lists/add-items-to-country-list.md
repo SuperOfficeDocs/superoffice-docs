@@ -13,12 +13,12 @@ language: en
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
-[!include[Edit list item](../../includes/edit-list-item.md)] when the list items are countries:
+[!include[Edit list item](../../../includes/edit-list-item.md)] when the list items are countries:
 
 1. Enter the required name of the item in the **Name** field. The name of the country.
 
     > [!NOTE]
-    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../../includes/note-mandatory-field.md)]
 
 2. Optionally, enter the English name for the country in the **English name** field.
 

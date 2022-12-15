@@ -28,7 +28,7 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 1. Enter the required name of the item in the **Name** field. This name is displayed when you add the URL address in SuperOffice CRM.
 
     > [!NOTE]
-    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../../includes/note-mandatory-field.md)]
 
 1. In the **URL** field, specify the URL address such as a web page or a server-based HTML file. Please see the information at the top concerning the use of HTTP/HTTPS URLs.
 
@@ -76,7 +76,7 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
     * **Pocket CRM**: when you are using the mobile version of SuperOffice CRM.
 1. Click the **Icon** list to select an icon for the web panel.
 1. Optionally, type in a description of the item in the **Description** field.
-1. [!include[Save or cancel](../../includes/save-or-cancel.md)]
+1. [!include[Save or cancel](../../../includes/save-or-cancel.md)]
 
 > [!TIP]
 > If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via a URL. The URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organization number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.

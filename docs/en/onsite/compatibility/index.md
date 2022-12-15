@@ -21,7 +21,7 @@ We make the compatibility reports when other vendors release newer versions afte
 
 We have tested SuperOffice Web, Service and WebTools for Mac 11.5.7948 on MacOS Ventura. We’ve conducted the test on MacOS Ventura Beta release as the final RTM is not yet released. No issues were found during testing. The report was made on September 29th 2022.
 
-<a href="../../assets/downloads/compatibility/maclink---os-macos-ventura.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/maclink---os-macos-ventura.xlsx" download>Click to download report</a>
 
 ## Microsoft Office 2021
 
@@ -29,7 +29,7 @@ We have tested SuperOffice Web, Service and WebTools for Mac 11.5.7948 on MacOS 
 
 We have tested Microsoft Office 2021 with SuperOffice 10. We put more focus on Office-related functionalities such as Web Tools, MailLink, and document handling, and the rest of the areas were smoked. We did not find any compatibility-related issues/bugs during the test. The report was made on February 24th 2022.
 
-<a href="../../assets/downloads/compatibility/msoffice-2021.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/msoffice-2021.xlsx" download>Click to download report</a>
 
 ## MacOS Monterey
 
@@ -37,7 +37,7 @@ We have tested Microsoft Office 2021 with SuperOffice 10. We put more focus on O
 
 We have tested SuperOffice Web, Service and WebTools for Mac 11.5.7948 on MacOS Monterey. No issues were found during testing. The report was made on November 26th 2021.
 
-<a href="../../assets/downloads/compatibility/maclink---os-macosmonterey.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/maclink---os-macosmonterey.xlsx" download>Click to download report</a>
 
 ## Windows Server 2022
 
@@ -45,7 +45,7 @@ We have tested SuperOffice Web, Service and WebTools for Mac 11.5.7948 on MacOS 
 
 We have tested Windows Server 2022 with SuperOffice 10.0.2 Onsite. No issues found installing, login or working with SuperOffice. SuperOffice Web and Service were tested with Chrome and Edge browsers. The report was made on November 17th 2021.
 
-<a href="../../assets/downloads/compatibility/windows-server-2022.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/windows-server-2022.xlsx" download>Click to download report</a>
 
 ## Windows 11
 
@@ -53,7 +53,7 @@ We have tested Windows Server 2022 with SuperOffice 10.0.2 Onsite. No issues fou
 
 We have tested Windows 11 with SuperOffice 10.0.2, both Onsite and Online. No issues found installing, login or working with SuperOffice. SuperOffice Web and Service were tested with Chrome and Edge browsers. The report was made on November 10th 2021.
 
-<a href="../../assets/downloads/compatibility/windows11.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/windows11.xlsx" download>Click to download report</a>
 
 ## MacOS Big Sur
 
@@ -61,7 +61,7 @@ We have tested Windows 11 with SuperOffice 10.0.2, both Onsite and Online. No is
 
 We have tested WebTools for Mac 11.4.7460.1008 on MacOS Big Sur. We’ve conducted the test on Big Sur Beta release as the final RTM is not yet released. No issues were found during testing. The report was made on September 29th 2020.
 
-<a href="../../assets/downloads/compatibility/maclink---os-macosbigsur.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/maclink---os-macosbigsur.xlsx" download>Click to download report</a>
 
 ## Safari 14
 
@@ -69,7 +69,7 @@ We have tested WebTools for Mac 11.4.7460.1008 on MacOS Big Sur. We’ve conduct
 
 We have tested SuperOffice 9.1 R03 Web and Service with Safari 14 browser on MacOS Big Sur. We’ve conducted the test on Big Sur Beta release as the final RTM is not yet released. We found several UI-related bugs both in Web and Service clients and logged in TFS (Web: 75607, 75606, 75608, Service: 75360, 75309). None of them are considered critical, hence we conclude the test as **Passed**. The report was made on September 29th 2020.
 
-<a href="../../assets/downloads/compatibility/safari14_bigsur.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/safari14_bigsur.xlsx" download>Click to download report</a>
 
 ## MacOS Catalina
 
@@ -77,7 +77,7 @@ We have tested SuperOffice 9.1 R03 Web and Service with Safari 14 browser on Mac
 
 We have tested SuperOffice 8.5 Web and Web Tools for Mac (11.2.7306) with MacOS Catalina. These issues have been identified while doing the testing: Bug 68216 (MacLink quits after sleep/or restart), Bug 68406 (Accessibility Dialog keep appearing on MacOS Catalina), Bug 67972 (Installer requires permission to Download folder). The report was made on January 22nd 2020.
 
-<a href="../../assets/downloads/compatibility/maclink---os-macoscatalina.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/maclink---os-macoscatalina.xlsx" download>Click to download report</a>
 
 ## SQL Server 2019
 
@@ -85,7 +85,7 @@ We have tested SuperOffice 8.5 Web and Web Tools for Mac (11.2.7306) with MacOS 
 
 Microsoft SQL Server 2019 tested with SuperOffice 8.5 R07 along with ODBC driver 17.4.2.1. We mainly focused on product installation and performed smoke testing on critical functional areas of the products. No critical issues were found during testing. The report was made on November 14th 2019.
 
-<a href="../../assets/downloads/compatibility/sql-server-2019.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/sql-server-2019.xlsx" download>Click to download report</a>
 
 ## MacOS Mojave
 
@@ -93,7 +93,7 @@ Microsoft SQL Server 2019 tested with SuperOffice 8.5 R07 along with ODBC driver
 
 We have tested SuperOffice 8.4 R03 Web and Service in Chrome and Safari with MacOS Mojave. See attached Compatibility report for found issues. The report was made on December 3rd 2018.
 
-<a href="../../assets/downloads/compatibility/browser-mojave.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/browser-mojave.xlsx" download>Click to download report</a>
 
 ## Microsoft Office 2019
 
@@ -101,7 +101,7 @@ We have tested SuperOffice 8.4 R03 Web and Service in Chrome and Safari with Mac
 
 We have tested Microsoft Office 2019 with SuperOffice 8.4. We put more focus on Office-related functionalities such as Web Tools, MailLink, and document handling, and the rest of the areas were smoked. We did not find any compatibility-related issues/bugs during the test. The report was made on October 18th 2018.
 
-<a href="../../assets/downloads/compatibility/office-2019.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/office-2019.xlsx" download>Click to download report</a>
 
 ## Windows Server 2019
 
@@ -109,7 +109,7 @@ We have tested Microsoft Office 2019 with SuperOffice 8.4. We put more focus on 
 
 We have tested Windows Server 2019 with SuperOffice 8.4. We mainly focused on product installation and performed smoke testing on critical functional areas. We did not find any compatibility-related issues/bugs during the test. The report was made on October 18th 2018.
 
-<a href="../../assets/downloads/compatibility/windows-server-2019.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/windows-server-2019.xlsx" download>Click to download report</a>
 
 ## SQL Server 2017
 
@@ -117,7 +117,7 @@ We have tested Windows Server 2019 with SuperOffice 8.4. We mainly focused on pr
 
 We have tested SQL Server 2017 for SuperOffice 8.0 SR6 and performed smoke tests on all clients. All product installations were OK. No database-related issues were encountered during installation. SQL Server 2017 (RTM) - 14.0.1000.169 (X64). The report was made on October 18th 2017.
 
-<a href="../../assets/downloads/compatibility/sql-server-2017.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/sql-server-2017.xlsx" download>Click to download report</a>
 
 ## MacOS High Sierra
 
@@ -125,7 +125,7 @@ We have tested SQL Server 2017 for SuperOffice 8.0 SR6 and performed smoke tests
 
 We have tested WebTools for SuperOffice 8.1.6477 (for CRM Online) and 8.0.6477 (SR6). No issues were found during our smoke tests. Please note that upgrading to this OS requires that you also update your WebTools or your documents will not be automatically uploaded to the server. The report was made on September 26th 2017.
 
-<a href="../../assets/downloads/compatibility/maclink---macoshigh-sierra.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/maclink---macoshigh-sierra.xlsx" download>Click to download report</a>
 
 ## Windows Server 2016
 
@@ -133,7 +133,7 @@ We have tested WebTools for SuperOffice 8.1.6477 (for CRM Online) and 8.0.6477 (
 
 We have tested SuperOffice 8 version 8.0.6144 (SR4) for all clients (Win, Web, CS, and Pocket) Pocket version 8.0.6109 on the new, released server OS. No issues were found during our smoke tests. The report was made on November 11th 2016.
 
-<a href="../../assets/downloads/compatibility/windows-server-2016.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/windows-server-2016.xlsx" download>Click to download report</a>
 
 ## MacOS Sierra
 
@@ -141,7 +141,7 @@ We have tested SuperOffice 8 version 8.0.6144 (SR4) for all clients (Win, Web, C
 
 SuperOffice MacLink has been tested successfully on MacOS Sierra. No issues were found during our smoke tests. The report was made in October 2016.
 
-<a href="../../assets/downloads/compatibility/maclink---os-sierra.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/maclink---os-sierra.xlsx" download>Click to download report</a>
 
 ## SQL Express 2016
 
@@ -149,7 +149,7 @@ SuperOffice MacLink has been tested successfully on MacOS Sierra. No issues were
 
 The objective of the test was to verify that SQL Express 2016m, which is normally used as a Travel DB for CRM clients, also can be used as the main DB for the CRM clients. DB Compatibility test for SuperOffice version 8.0 SR2 [Win, Web, CS) was carried out. Please note that this database version has limitations and may not suit your needs. The report was made on July 29th 2016.
 
-<a href="../../assets/downloads/compatibility/sql-server-2016-express.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/sql-server-2016-express.xlsx" download>Click to download report</a>
 
 ## SQL Server 2016
 
@@ -157,7 +157,7 @@ The objective of the test was to verify that SQL Express 2016m, which is normall
 
 Microsoft SQL Server 2016 has been tested successfully with SuperOffice 7.5 SR2 and SuperOffice 8.0 SR1, for all clients (Win, Web, CS, and Pocket) The report was made on March 8th 2016 using SQL Server 2016 version 13.0.1000.281 / CTP 3.3.
 
-<a href="../../assets/downloads/compatibility/sql-server-2016.xlsx" download>Click to download report</a>
+<a href="../../../assets/downloads/compatibility/sql-server-2016.xlsx" download>Click to download report</a>
 
 <!-- Referenced links -->
 [1]: ../requirements/index.md

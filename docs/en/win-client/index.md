@@ -46,7 +46,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 <!-- Referenced links -->
 [1]: status-screen.md
 [2]: import/index.md
-[3]: ../getting-started/index.md
+[3]: ../learn/getting-started/index.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/admin/status.bmp

@@ -13,12 +13,12 @@ language: en
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
-[!include[Edit list item](../../includes/edit-list-item.md)] when the items are follow-up types:
+[!include[Edit list item](../../../includes/edit-list-item.md)] when the items are follow-up types:
 
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../../includes/note-mandatory-field.md)]
 
 2. Click the arrow ( ![icon][img1] ) next to the **Type** field and select the required follow-up type from the list box. You can choose from **Appointment**, **Phone call** and **Task**.
 
@@ -37,10 +37,10 @@ language: en
 
 6. Optionally, type in a description of the item in the **Description** field.
 
-7. [!include[Save or cancel](../../includes/save-or-cancel.md)]
+7. [!include[Save or cancel](../../../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
-[2]: ../../sale/learn/saint/index.md
+[2]: ../../../sale/saint/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-down.png

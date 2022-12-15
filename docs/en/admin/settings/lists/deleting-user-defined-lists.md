@@ -19,7 +19,7 @@ language: en
 **Steps:**
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
-2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list from the list box at the top.
+2. [!include[Click arrow and select](../../../includes/expand-list.md)] the required list from the list box at the top.
 3. Click the **Delete list** button.
 4. Click **Yes** in the confirmation dialog.
 

@@ -11,7 +11,7 @@ language: en
 
 # Select an image for a status
 
-[!include[Requirement](../../includes/note-saint-req.md)]
+[!include[Requirement](../includes/note-saint-req.md)]
 
 You can select an image to be displayed in SuperOffice CRM on a company card, contact card or project card that fulfils the criteria set for a specific status. The images are displayed as watermarks, so as not to hide the contents of the card.
 

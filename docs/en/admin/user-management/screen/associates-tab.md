@@ -98,7 +98,7 @@ You can group the list of users by role, user plan, primary group, and similar. 
 [3]: ../move-user.md
 [4]: ../import-users.md
 [5]: ../../../win-client/logging-users-off.md
-[6]: ../../../getting-started/adjusting-views.md
+[6]: ../../../learn/getting-started/adjusting-views.md
 [7]: ../role/index.md
 
 <!-- Referenced images -->

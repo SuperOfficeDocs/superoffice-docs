@@ -36,7 +36,7 @@ The default duration for an appointment is 1 hour, but you can change the durati
 * [Learn about activities][4]
 
 <!-- Referenced links -->
-[1]: ../../getting-started/preferences.md
+[1]: ../../learn/getting-started/preferences.md
 [2]: create-appointment.md
 [3]: index.md
 [4]: activity.md

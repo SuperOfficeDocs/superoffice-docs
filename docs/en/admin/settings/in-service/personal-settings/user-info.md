@@ -32,7 +32,7 @@ In the **User information** tab in the **Edit users** screen, you can edit the f
 * **New email address**: Here you enter the actual address in the left-hand field and the name of the person in the right-hand one and then click **Apply**.
 
 <!-- Referenced links -->
-[1]: ../../../getting-started/login.md
+[1]: ../../../learn/getting-started/login.md
 [2]: ../../../user-management/role/index.md
 [3]: other-groups.md
 

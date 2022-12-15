@@ -69,7 +69,7 @@ The `SuperIdTokenHandler` class is responsible for validating security tokens. B
 [2]: ../validate-security-tokens.md
 [3]: ../troubleshooting/index.md
 [4]: configure.md
-[5]: ../../../../assets/downloads/api/superofficeonlinecertificates.zip
+[5]: ../../../../../assets/downloads/api/superofficeonlinecertificates.zip
 
 <!-- Referenced images -->
 [img1]: media/certificateheirarchy.png

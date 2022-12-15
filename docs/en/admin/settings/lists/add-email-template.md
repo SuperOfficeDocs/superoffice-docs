@@ -15,7 +15,7 @@ Email templates can be used when creating new emails in the SuperOffice inbox, a
 
 Templates are displayed as items in the **Email - Template** list and you can add new templates to SuperOffice CRM by entering it as an item in the list.
 
-[!include[Edit list item](../../includes/edit-list-item.md)] when the items are email templates:
+[!include[Edit list item](../../../includes/edit-list-item.md)] when the items are email templates:
 
 1. Enter the required name of the item in the **Template name** field.
 
@@ -86,11 +86,11 @@ Here you can add translated versions of the document template.
 > Click ![icon][img1] next to the relevant field to [add translations][1] of the template name and email subject.
 
 <!-- Referenced links -->
-[1]: ../../globalization-and-localization/learn/translate-fields.md
-[2]: ../../document/learn/template-variables.md
-[3]: ../../settings/lists/sale-type.md
-[4]: ../../settings/lists/privacy-source-add.md
-[5]: ../../sale/learn/saint/index.md
+[1]: ../../../globalization-and-localization/learn/translate-fields.md
+[2]: ../../../document/learn/template-variables.md
+[3]: sale-type.md
+[4]: privacy-source-add.md
+[5]: ../../../sale/saint/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/az.png

@@ -55,14 +55,14 @@ All databases affected by these issues must be fixed prior to migration to CRM O
 5. Go to Additional Namespace Imports and paste in these lines:
 
     ```csharp
-    Newtonsoft.Json 
-    Newtonsoft.Json.Converters 
-    SuperOffice.CD.Database 
-    SuperOffice.CD.DSL.Database 
-    SuperOffice.CD.DSL.Models 
-    SuperOffice.CD.DSL.PhysicalDatabase 
-    SuperOffice.CD.DSL.V1.DatabaseModel 
-    System.Data.Sql 
+    Newtonsoft.Json
+    Newtonsoft.Json.Converters
+    SuperOffice.CD.Database
+    SuperOffice.CD.DSL.Database
+    SuperOffice.CD.DSL.Models
+    SuperOffice.CD.DSL.PhysicalDatabase
+    SuperOffice.CD.DSL.V1.DatabaseModel
+    System.Data.Sql
     ```
 
     ![Additional references][img2]
@@ -84,7 +84,8 @@ All databases affected by these issues must be fixed prior to migration to CRM O
         return;
     }
 
-    Console.WriteLine("If you choose to delete these tables from the databasemodel, \nyou should REALLY have a backup of the databasemodel table. Really. \nPress y and [ENTER] to delete these tables from the database model:");
+    Console.WriteLine("If you choose to delete these tables from the databasemodel, \nyou should REALLY have a backup of the databasemodel table.");
+    Console.WriteLine("Really. \nPress y and [ENTER] to delete these tables from the database model:");
 
     var y = Util.ReadLine("");
 
@@ -125,7 +126,7 @@ All databases affected by these issues must be fixed prior to migration to CRM O
 [1]: ../../database/dictionary/index.md
 [2]: ../../database/tables/databasemodel.md
 [3]: https://www.linqpad.net/Download.aspx
-[4]: ../../assets/downloads/database-imp-exp-tool.zip
+[4]: ../../../assets/downloads/database-imp-exp-tool.zip
 
 <!-- Image reference -->
 

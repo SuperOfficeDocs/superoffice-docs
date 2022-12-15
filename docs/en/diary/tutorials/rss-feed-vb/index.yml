@@ -94,4 +94,4 @@ items:
   content: |
     [!include[Content: RSS results](includes/steps/rss-results.md)]
 
-    <a href="~/assets/downloads/api/rssfeedfinalvb.zip" download>Click to download source code (zip)</a>
+    <a href="~/../assets/downloads/api/rssfeedfinalvb.zip" download>Click to download source code (zip)</a>

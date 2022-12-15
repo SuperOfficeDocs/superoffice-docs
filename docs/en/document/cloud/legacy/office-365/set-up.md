@@ -141,14 +141,14 @@ This selection will fail if SuperOffice 'content types' are not set up in ShareP
 
     ![Content types advanced settings -screenshot][img17]
 
-9. Select 'Upload a new document template:'. Choose a blank document from your computer. (Either <a href="../../../../assets/downloads/cloud-office/blank.docx" download> download a pre-created blank document</a> or create a blank document from Office and stored locally).
+9. Select 'Upload a new document template:'. Choose a blank document from your computer. (Either <a href="../../../../../assets/downloads/cloud-office/blank.docx" download> download a pre-created blank document</a> or create a blank document from Office and stored locally).
 
 10. Click **OK**.
 
 11. Repeat step 6 - 13 for:
 
-* SuperOffice Blank Spreadsheet (<a href="../../../../assets/downloads/cloud-office/blank.xlsx" download>download .xlsx</a>)
-* SuperOffice Blank Presentation (<a href="../../../../assets/downloads/cloud-office/blank.pptx" download>download .pptx</a>)
+* SuperOffice Blank Spreadsheet (<a href="../../../../../assets/downloads/cloud-office/blank.xlsx" download>download .xlsx</a>)
+* SuperOffice Blank Presentation (<a href="../../../../../assets/downloads/cloud-office/blank.pptx" download>download .pptx</a>)
 
 ### If you get an access error
 
@@ -194,7 +194,7 @@ Since we’re not in Office Store, we have to do this manually:
     The App Catalog is now being created – and available to be used within about 5 minutes.
 
     <!-- markdownlint-disable-next-line MD044 -->
-3. Download the SuperOffice SharePoint App <a href="../../../../assets/downloads/cloud-office/cloud-office-SuperOffice.zip" download>SuperOffice.Microsoft 365.Integrator.app</a> locally.
+3. Download the SuperOffice SharePoint App <a href="../../../../../assets/downloads/cloud-office/cloud-office-SuperOffice.zip" download>SuperOffice.Microsoft 365.Integrator.app</a> locally.
 
 4. Choose "Apps for SharePoint" in the menu. ![Apps catalog -screenshot][img30]
 

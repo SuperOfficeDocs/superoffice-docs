@@ -58,8 +58,8 @@ A sales guide where all follow-ups and documents for all stages are displayed:
 
 <!-- Referenced links -->
 [1]: ../../../diary/learn/change-completed-status.md
-[2]: ../../../getting-started/changing-column-view.md
-[7]: ../../../getting-started/using-filter-function-contact.md
+[2]: ../../../learn/getting-started/changing-column-view.md
+[7]: ../../../learn/getting-started/using-filter-function-contact.md
 [3]: ../../../company/learn/view-activities.md
 [4]: ../../../company/learn/delete-activities-contact.md
 [5]: ../../../company/learn/replying-to-email-from-activities-section-tab.md

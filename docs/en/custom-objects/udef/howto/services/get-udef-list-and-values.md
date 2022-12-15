@@ -33,7 +33,7 @@ Then we loop through the `UserDefinedFieldInfo` collection to get the field labe
 
 [!code-csharp[CS](includes/get-udef-list-and-values-services.cs?range=32-37)]
 
-<a href="../../../../assets/downloads/api/getalluserdefinedfieldsonacontact.zip" download>Click to download source code (zip)</a>
+<a href="../../../../../assets/downloads/api/getalluserdefinedfieldsonacontact.zip" download>Click to download source code (zip)</a>
 
 <!-- Referenced links -->
 [1]: https://www.nuget.org/packages/SuperOffice.NetServer.Services

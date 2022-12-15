@@ -11,7 +11,7 @@ language: en
 
 # Document - Template
 
-[!include[Link to quote template docs](../../includes/learn-quote-templates.md)]
+[!include[Link to quote template docs](../../../includes/learn-quote-templates.md)]
 
 It is important for an organization’s profile that letters, faxes and other documents have a distinctive and consistent appearance. This means that all documents sent out by the organization should use the same fonts, margins, logos and so on. By creating templates that are customized to your organization you ensure that your contacts can easily recognize your correspondence.
 
@@ -32,7 +32,7 @@ You can also create your own templates in the applications you have chosen to us
 * [Look at template variables][1]
 
 <!-- Referenced links -->
-[1]: ../../document/learn/template-variables.md
+[1]: ../../../document/learn/template-variables.md
 [2]: using-standard-templates.md
 [3]: application.md
 [4]: creating-template-document.md

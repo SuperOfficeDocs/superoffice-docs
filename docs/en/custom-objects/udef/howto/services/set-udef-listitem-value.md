@@ -47,7 +47,7 @@ We have retrieved the `UserDefinedFields` collection for the contact of interest
 
 Finally, the `SaveContactEntity` method is called to update the contact entity.
 
-<a href="../../../../assets/downloads/api/setudeflistitem.zip" download>Click to download source code (zip)</a>
+<a href="../../../../../assets/downloads/api/setudeflistitem.zip" download>Click to download source code (zip)</a>
 
 <!-- Referenced links -->
 [1]: https://www.nuget.org/packages/SuperOffice.NetServer.Services

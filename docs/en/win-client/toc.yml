@@ -5,6 +5,8 @@ items:
   href: backup-routines.md
 - name: Status screen
   href: status-screen.md
+- name: Create/copy shortcut
+  href: creating-shortcuts-to-entries-in-crm.md
 - name: Import
   href: import/index.md
   items:

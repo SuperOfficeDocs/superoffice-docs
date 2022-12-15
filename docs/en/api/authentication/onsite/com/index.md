@@ -97,8 +97,8 @@ Please read more about the `IDatabase` APIs in the old [IDatabase COM SDK Help][
 
 <!-- Referenced links -->
 [1]: ../../overview.md#options
-[2]: ../../../../assets/downloads/api/COM/SO.COM.IApplication.zip
-[3]: ../../../../assets/downloads/api/COM/SO.COM.IDatabase.zip
+[2]: ../../../../../assets/downloads/api/COM/SO.COM.IApplication.zip
+[3]: ../../../../../assets/downloads/api/COM/SO.COM.IDatabase.zip
 
 <!-- Referenced images -->
 [img2]: media/com-add-reference.png

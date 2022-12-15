@@ -43,7 +43,7 @@ language: en
 To select another provider or change the configuration, click **Configure**.
 
 <!-- Referenced links -->
-[1]: ../../../../../docs/video-meeting/index.md
+[1]: ../../../../video-meeting/index.md
 [2]: email-setup-in-superoffice.md
 
 <!-- Referenced images -->

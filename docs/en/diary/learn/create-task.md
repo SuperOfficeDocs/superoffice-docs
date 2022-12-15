@@ -19,6 +19,6 @@ When you create a new task, no time is displayed in the **Start** and **Due** fi
 
 <!-- Referenced links -->
 [1]: screen/dialog-for-followups.md
-[2]: ../../getting-started/main-screen/buttons-in-menu-bar.md
+[2]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 
 <!-- Referenced images -->

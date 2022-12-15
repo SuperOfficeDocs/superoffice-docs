@@ -306,8 +306,8 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 * [Use search criteria][3]
 
 <!-- Referenced links -->
-[1]: ../../getting-started/main-screen/buttons-in-menu-bar.md
-[4]: ../../getting-started/main-screen/side-panel.md
+[1]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
+[4]: ../../learn/getting-started/main-screen/side-panel.md
 [2]: using-fastsearcher.md
 [3]: using-search-criteria.md
 [5]: freetext-search.md

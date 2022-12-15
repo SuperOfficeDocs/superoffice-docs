@@ -286,8 +286,8 @@ Access to the web services is included in your [Development Tools][4] subscripti
 [14]: endpoints/agents-webapi/index.md
 [15]: endpoints/rest-webapi/index.md
 [16]: ../reference/netserver/services/index.md
-[17]: ../../assets/downloads/api/Swagger-v1-REST.zip
-[18]: ../../assets/downloads/api/Swagger-v1-Agents.zip
+[17]: ../../../assets/downloads/api/Swagger-v1-REST.zip
+[18]: ../../../assets/downloads/api/Swagger-v1-Agents.zip
 [19]: ../authentication/online/index.md
 
 <!-- Referenced images -->

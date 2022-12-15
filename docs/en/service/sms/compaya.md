@@ -29,7 +29,7 @@ Note - do not include the brackets.
 ## Outgoing SMS Configuration in SR2 or earlier
 
 The file SupeOffice.Messaging.Compaya.dll must be copied manually to the NetServer library folder (*bin* folder).
-<a href="../../assets/downloads/sms/SuperOffice.messaging.compaya.dll" download>Click to download version 8.0 SR2.</a>
+<a href="../../../assets/downloads/sms/SuperOffice.messaging.compaya.dll" download>Click to download version 8.0 SR2.</a>
 
 ### Web.config settings
 

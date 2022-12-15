@@ -15,12 +15,12 @@ language: en
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
-[!include[Edit list item](../../includes/edit-list-item.md)] when the list items are project types:
+[!include[Edit list item](../../../includes/edit-list-item.md)] when the list items are project types:
 
 1. Enter the name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../../includes/note-mandatory-field.md)]
 
 2. In the **Estimated time for this project process**, enter a duration for the project (number of weeks, days or months). When you create a new project of this project type, the end date is set relative to the time you enter here (today's date + estimated time).
 
@@ -37,7 +37,7 @@ language: en
 7. Click **Save**. The project type is added as a separate item in the **Items** list. Repeat this procedure to add more project types.
 
 <!-- Referenced links -->
-[2]: ../../project/learn/screen/project-status-admin.md
-[3]: ../../project/learn/project-guide/index.md
+[2]: ../../../project/learn/screen/project-status-admin.md
+[3]: ../../../project/learn/project-guide/index.md
 
 <!-- Referenced images -->

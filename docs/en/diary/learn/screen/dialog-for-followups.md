@@ -165,12 +165,12 @@ This tab displays any [custom fields][14] configured in SuperOffice Settings and
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
 [7]: ../open.md
-[8]: ../../../getting-started/linking-documents-to-follow-ups.md
+[8]: ../../../learn/getting-started/linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/time-zones.md
 [11]: ../change-completed-status.md
 [12]: ../../../search-options/learn/using-fastsearcher.md
-[13]: ../../../getting-started/preferences.md
+[13]: ../../../learn/getting-started/preferences.md
 [14]: ../../../custom-objects/learn/index.md
 
 <!-- Referenced images -->

@@ -80,12 +80,12 @@ Double-click a mailing to open it.
 [1]: ../create/index.md
 [2]: ../update/remove-members-from-static.md
 [3]: ../../using-search-criteria.md
-[4]: ../../getting-started/index.md
-[5]: ../../getting-started/display-as-charts.md
-[6]: ../../../dashboard/create.md
-[7]: ../../../marketing/learn/mailing/create/index.md
-[8]: ../../../../getting-started/use-filters-in-section-tabs.md
-[9]: ../../../../getting-started/section-tabs.md
+[4]: ../../../../learn/getting-started/index.md
+[5]: ../../../../learn/getting-started/display-as-charts.md
+[6]: ../../../../dashboard/create.md
+[7]: ../../../../marketing/learn/mailing/create/index.md
+[8]: ../../../../learn/getting-started/use-filters-in-section-tabs.md
+[9]: ../../../../learn/getting-started/section-tabs.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../../common/icons/cog-wheel.png
@@ -94,4 +94,4 @@ Double-click a mailing to open it.
 [img4]: ../../../../../media/icons/personal-settings-small.png
 [img5]: ../../../../../media/icons/refresh.png
 [img7]: ../../../../../media/icons/column-header-filter.png
-[img6]: ../../../media/task.png
+[img6]: ../../../../media/task.png

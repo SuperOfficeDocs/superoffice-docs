@@ -43,7 +43,7 @@ Do one of the following:
 <!-- Referenced links -->
 [1]: screen/view.md
 [2]: screen/dialog-for-followups.md
-[3]: ../../getting-started/main-screen/buttons-in-menu-bar.md
+[3]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

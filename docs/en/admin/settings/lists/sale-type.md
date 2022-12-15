@@ -11,19 +11,19 @@ language: en
 
 # Add sale type
 
-[!include[Must be admin](../../includes/req-admin.md)]
+[!include[Must be admin](../../../includes/req-admin.md)]
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 > [!NOTE]
 > A quote belongs to a sale, and all sales have a sale type. In each sale type, you can define many of the properties of a quote, such as attachments, settings for approval, use of alternatives and templates.
 
-[!include[Edit list item](../../includes/edit-list-item.md)] when the list items are sale types:
+[!include[Edit list item](../../../includes/edit-list-item.md)] when the list items are sale types:
 
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../../includes/note-mandatory-field.md)]
 
 2. Select the required category for the sale type in the **Sale type category** list box.
 
@@ -39,7 +39,7 @@ language: en
     > [!NOTE]
     > the **Quote attachments**, **Quote defaults** and **Quote approval** tabs are relevant only if you have access to the quotes module.
 
-6. [!include[Save or cancel](../../includes/save-or-cancel.md)]
+6. [!include[Save or cancel](../../../includes/save-or-cancel.md)]
 
 ## Stages tab
 
@@ -67,7 +67,7 @@ In the **Quote attachments** tab you can add documents to be sent to the custome
 ### Add quote attachment
 
 1. Click **Add**.
-2. In the **Find** dialog, search for the document(s) you want to add. [!include[See search criteria](../../includes/see-search-admin.md)]
+2. In the **Find** dialog, search for the document(s) you want to add. [!include[See search criteria](../../../includes/see-search-admin.md)]
 3. Select one or more documents and click **OK**. The document(s) is/are displayed in the **Quote attachments** tab.
 4. Select the documents you want to include in the **Include** column.
 
@@ -81,7 +81,7 @@ Here you specify the following settings for quotes with this sale type:
 * **Default days a quote is valid**: Enter the number of days a quote will remain valid for. This value can be changed when the quote is sent.
 * **Quote format template**: Check the template you want to use for the quote.
 
-[!include[Link to quote template docs](../../includes/learn-quote-templates.md)]
+[!include[Link to quote template docs](../../../includes/learn-quote-templates.md)]
 
 * **Order confirmation template**: Check the template you want to use for the confirmation.
 
@@ -95,8 +95,8 @@ Here you can choose if the quote must be approved if the total discount is above
 
 <!-- Referenced links -->
 [2]: adding-items.md
-[3]: ../../sale/learn/screen/sale-stage.md
-[4]: ../../sale/learn/stakeholders/index.md
-[5]: ../../sale/learn/screen/sales-guide-admin.md
+[3]: ../../../sale/learn/screen/sale-stage.md
+[4]: ../../../sale/learn/stakeholders/index.md
+[5]: ../../../sale/learn/screen/sales-guide-admin.md
 
 <!-- Referenced images -->

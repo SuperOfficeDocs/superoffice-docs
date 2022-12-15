@@ -11,7 +11,7 @@ language: en
 
 # System
 
-[!include[Restricted access](../../includes/note-insufficient-rights.md)]
+[!include[Restricted access](../../../includes/note-insufficient-rights.md)]
 
 The **System** screen is used to configure some of the key characteristics of SuperOffice Service.
 

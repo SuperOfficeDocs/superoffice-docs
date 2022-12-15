@@ -11,7 +11,7 @@ language: en
 
 # Manage status monitors
 
-[!include[Requirement](../../includes/note-saint-req.md)]
+[!include[Requirement](../includes/note-saint-req.md)]
 
 The sections below contain information about how to enable and disable status monitors and how to regenerate statuses and counters. [!include[Define counter](../../../includes/def-counter.md)] See also **Counter fields** in [Use search criteria][1]).
 

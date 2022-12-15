@@ -38,4 +38,4 @@ Once we have defined the `CustomSearch`, we can use it with the `GetFromCustomSe
 
 [!code-csharp[CS](includes/display-image-entity.cs?range=27)]
 
-<a href="../../../assets/downloads/api/blob-image.zip" download>Download source</a>
+<a href="../../../../assets/downloads/api/blob-image.zip" download>Download source</a>

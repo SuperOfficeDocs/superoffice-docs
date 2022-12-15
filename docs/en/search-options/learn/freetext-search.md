@@ -48,7 +48,7 @@ If you get no hits for a search word that is in the SuperOffice database, this m
 * [The History list][4]
 
 <!-- Referenced links -->
-[1]: ../../getting-started/main-screen/side-panel.md
+[1]: ../../learn/getting-started/main-screen/side-panel.md
 [2]: find-dialog.md
 [3]: using-fastsearcher.md
 [4]: using-history-list.md

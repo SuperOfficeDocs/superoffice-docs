@@ -98,7 +98,7 @@ You can select the degree of correlation between the request from the customer a
 <!-- Referenced links -->
 [1]: ../../../request/category/index.md
 [2]: manage-folders.md
-[4]: ../../../getting-started/reply.md
+[4]: ../../../request/howto/reply.md
 [5]: new-language.md
 [6]: edit.md
 [7]: copy.md

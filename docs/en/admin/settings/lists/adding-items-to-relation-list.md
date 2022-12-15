@@ -13,12 +13,12 @@ language: en
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
-[!include[Edit list item](../../includes/edit-list-item.md)] when the list items are relations:
+[!include[Edit list item](../../../includes/edit-list-item.md)] when the list items are relations:
 
 1. Enter the required name of the item in the **Name** field. What you enter here is displayed in the **has relations** column on the **Relations** section tab in the **Company** screen in SuperOffice CRM. It should be a verb in the *active* form, for example, *owns*.
 
     > [!NOTE]
-    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../../includes/note-mandatory-field.md)]
 
 2. Enter the passive form of the relation in the **Passive form** field. What you enter here is displayed in the **has relations** column on the **Relations** section tab in the **Company** screen in SuperOffice CRM. It should be a verb in the *passive* form, for example, *owned by*.
 
@@ -39,4 +39,4 @@ language: en
 
 5. Optionally, type in a description of the item in the **Description** field.
 
-6. [!include[Save or cancel](../../includes/save-or-cancel.md)]
+6. [!include[Save or cancel](../../../includes/save-or-cancel.md)]

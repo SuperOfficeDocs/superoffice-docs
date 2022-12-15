@@ -42,7 +42,7 @@ highlightedContent:
     # Card
     - title: "Release notes"
       itemType: whats-new
-      url: ../../release-notes/index.md
+      url: ../../../release-notes/index.md
     # Card
     - title: "Software downloads"
       itemType: download

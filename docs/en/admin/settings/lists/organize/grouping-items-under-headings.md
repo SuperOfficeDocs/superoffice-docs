@@ -19,7 +19,7 @@ If you want a list with two levels, you must select headings for each individual
 
 1. Open the **Lists** screen.
 
-2. [!include[Click arrow and select](../../../includes/expand-list.md)] the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
+2. [!include[Click arrow and select](../../../../includes/expand-list.md)] the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
 
     > [!NOTE]
     > If this field is empty, [add headings first][1].
@@ -39,7 +39,7 @@ If you want a list with two levels, you must select headings for each individual
 
 1. Open the **Lists** screen.
 
-2. [!include[Click arrow and select](../../../includes/expand-list.md)] the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
+2. [!include[Click arrow and select](../../../../includes/expand-list.md)] the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
 
     > [!NOTE]
     > If this field is empty, [add headings first][1].

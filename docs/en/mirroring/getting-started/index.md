@@ -30,7 +30,7 @@ Data Mirroring Service is a copy of your data stored at a location of your choic
 
 With application details registered, it's time to create a web service that implements the IMirrorClientService and IMirrorAdmin interfaces. There are three options:
 
-* Implement the service from <a href="../../assets/downloads/dbmirroring-wsdl.zip" download>WSDL files</a>.
+* Implement the service from <a href="../../../assets/downloads/dbmirroring-wsdl.zip" download>WSDL files</a>.
 * Add a [.NET nuget package][4] to a WCF Service application project.
 * Clone or download the [database mirror service repository from GitHub][11].
   * This is a 'ready-to-go' .NET solution that only needs to be compiled and deployed.
@@ -64,7 +64,7 @@ Backup/restore is a special case. If the sequence of events is mirror – backup
 
 ## Restrictions
 
-It does not make business sense to provide a complete database mirror to partner applications. Not only might this incur unnecessary stress between systems, but we also prevent access to sensitive customer data that simply doesn't belong in any other domain, such as area and travel tables, search criteria and operators, dbi agent information, and windows positions. A complete list of tables both replicated and not replicated with reason is listed in the <a href="../../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>.
+It does not make business sense to provide a complete database mirror to partner applications. Not only might this incur unnecessary stress between systems, but we also prevent access to sensitive customer data that simply doesn't belong in any other domain, such as area and travel tables, search criteria and operators, dbi agent information, and windows positions. A complete list of tables both replicated and not replicated with reason is listed in the <a href="../../../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>.
 
 If you believe you have a great case for an application, navigate to the [application registration page][1] (for existing partners) and get started today! If you are not yet an online application partner, get started today by filling our [developer registration form][6].
 

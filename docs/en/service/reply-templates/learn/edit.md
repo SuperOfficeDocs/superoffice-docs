@@ -31,7 +31,7 @@ Editing a reply template can mean one of two things:
 * [Copy reply templates][4]
 
 <!-- Referenced links -->
-[1]: ../../../getting-started/reply.md
+[1]: ../../../request/howto/reply.md
 [2]: create.md
 [3]: new-language.md
 [4]: copy.md

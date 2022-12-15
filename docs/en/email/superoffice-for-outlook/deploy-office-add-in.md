@@ -14,7 +14,7 @@ so.client: online
 This will deploy SuperOffice for Outlook for a single user.
 
 > [!TIP]
-> Deploy centrally for all users instead? <a href="../../assets/downloads/quick-start-guide---SuperOffice-for-outlook.pdf" download>Click to download PDF guide</a>
+> Deploy centrally for all users instead? <a href="../../../assets/downloads/quick-start-guide---SuperOffice-for-outlook.pdf" download>Click to download PDF guide</a>
 
 1. Go to [SuperOffice for Outlook at https://appsource.microsoft.com/][1].
 2. Click **Get it now**.

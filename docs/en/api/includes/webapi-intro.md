@@ -11,5 +11,5 @@ While the Agents WebAPI is the most complete of the two, the REST WebAPI covers 
 [2]: ../web-services/endpoints/agents-webapi/index.md
 [3]: ../reference/restful/rest/index.md
 [4]: ../reference/restful/agent/index.md
-[5]: ../../assets/downloads/api/Swagger-v1-REST.zip
-[6]: ../../assets/downloads/api/Swagger-v1-Agents.zip
+[5]: ../../../assets/downloads/api/Swagger-v1-REST.zip
+[6]: ../../../assets/downloads/api/Swagger-v1-Agents.zip

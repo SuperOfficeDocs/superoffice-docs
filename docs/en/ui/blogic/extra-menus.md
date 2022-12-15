@@ -97,4 +97,4 @@ If you link to an external website:
 | Position              | The position of the extra menu<br> 0 = top                                  |
 
 <!-- Referenced links -->
-[1]: https://github.com/superofficedocs/crmscript/blob/maion/docs/classes/mainmenu/mainmenu.md
+[1]: ../../automation/crmscript/reference/CRMScript.Native.MainMenu.yml

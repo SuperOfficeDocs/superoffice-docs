@@ -360,7 +360,7 @@ It would probably have been cleaner and simpler to only use the PersonEntity cla
 
 In this article, I have presented a conceptual overview of how the SuperOffice web client application architecture is loosely based on the Model-View-Controller pattern. I have walked through and demonstrated with snippets each concept and showed how the pieces fit together. You should now have a general understanding of what parts make up the different pieces of MVC, how they are connected, and communicate to share information.
 
-<a href="../../../assets/downloads/ui/6webmvc.zip" download>Download the sample code</a> and test it out for yourself!
+<a href="../../../../assets/downloads/ui/6webmvc.zip" download>Download the sample code</a> and test it out for yourself!
 
 <!-- Referenced links -->
 [1]: http://www.describbles.com/?p=1

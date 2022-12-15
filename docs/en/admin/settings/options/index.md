@@ -34,6 +34,6 @@ In the **Options** screen, you define settings that are valid for the whole syst
 [4]: labels.md
 [5]: reports.md
 [6]: custlang/index.md
-[7]: ../../sale/learn/saint/index.md
+[7]: ../../sale/saint/learn/index.md
 
 <!-- Referenced images -->

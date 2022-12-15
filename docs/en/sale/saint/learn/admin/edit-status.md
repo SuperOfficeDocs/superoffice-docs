@@ -11,7 +11,7 @@ language: en
 
 # Edit a status description
 
-[!include[Requirement](../../includes/note-saint-req.md)]
+[!include[Requirement](../includes/note-saint-req.md)]
 
 The **Description** tab shows the description you entered when you [created the status][1].
 

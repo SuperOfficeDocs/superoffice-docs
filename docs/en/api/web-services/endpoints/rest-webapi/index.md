@@ -317,7 +317,7 @@ Registering a webhook is covered in the [Webhook overview][8]. [Webhook callback
 [6]: ../../../../contact/howto/services/get-person-image-rest.md
 [7]: ../../../../contact/howto/services/update-person-image-rest.md
 [8]: ../../../../automation/webhook/register.md
-[9]: ../../../../assets/downloads/api/Swagger-v1-REST.zip
+[9]: ../../../../../assets/downloads/api/Swagger-v1-REST.zip
 [10]: ../../../security/sentry/services/index.md
 [11]: ../../../../automation/webhook/reference/index.md
 [12]: ../get-webapi-version.md

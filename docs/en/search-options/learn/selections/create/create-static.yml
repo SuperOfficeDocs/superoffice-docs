@@ -22,7 +22,7 @@ items:
 
     1. Type the name of the new selection where *Selection name* appears. This field is mandatory.
 
-    If you try to create a selection with the same name as an existing selection, the **Duplicates** dialog opens. This works in the same way as for companies. For details, see [Duplicates](../../../../getting-started/duplicates.md).
+    If you try to create a selection with the same name as an existing selection, the **Duplicates** dialog opens. This works in the same way as for companies. For details, see [Duplicates](../../../../learn/getting-started/duplicates.md).
 
     1. In the **Selection is** field, you can change to another type of selection if necessary.
 
