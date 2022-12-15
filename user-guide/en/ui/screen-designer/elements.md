@@ -84,10 +84,10 @@ Buttons work similarly to links. You can add links for looking up information in
 8. In the **Style** list, select the style of the button. The preview on the right will update with the selected button style.
 
 <!-- Referenced links -->
-[1]: ../../../../docs/ui/soprotocol/index.md
+[1]: ../../../../docs/ui/learn/soprotocol/index.md
 [2]: ../../globalization/translate-fields.md
-[3]: ../../document/template-variables.md
+[3]: ../../document/learn/template-variables.md
 [6]: ../../automation/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
+[img1]: ../../../..../common/icons/az.png

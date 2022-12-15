@@ -94,5 +94,5 @@ You want to clean up all the “old” projects that have not been set to comple
 [1]: ../search-options/using-fastsearcher.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-selected.png
-[img2]: ../../media/icons/btn-unselected.png
+[img1]: ../..../media/icons/btn-selected.png
+[img2]: ../..../media/icons/btn-unselected.png

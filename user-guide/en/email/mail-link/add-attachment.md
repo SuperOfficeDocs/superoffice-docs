@@ -19,7 +19,7 @@ When creating an email [from Microsoft Outlook][1] or [from Lotus Notes][2] you 
 
 3. Go to the dropdown directly below the radio buttons. What you may do here, depends on what you selected in the previous step:
 
-    * If you selected **Company**, **Project**, **Sale** or **Selection** in the previous step, select the name of a company/project/sale/selection in the dropdown. You can also search by starting to type the name of the item in question.
+    * If you selected **Company**, **Project**, **Sale** or **Selection** in the previous step, select the name of a company/project/learn/sale/learn/selection in the dropdown. You can also search by starting to type the name of the item in question.
     * If you selected **Author**, you may search for the author of the document by starting to type the person's name in the dropdown and then select from the matches that appear.
     * If you selected **Template**, you may select a template from the dropdown.
 
@@ -36,5 +36,5 @@ When creating an email [from Microsoft Outlook][1] or [from Lotus Notes][2] you 
 [2]: create-in-lotus.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/mail-link/add-document.png
-[img2]: ../../../media/icons/mail-link/arrow.png
+[img1]: ../../..../media/icons/mail-link/add-document.png
+[img2]: ../../..../media/icons/mail-link/arrow.png

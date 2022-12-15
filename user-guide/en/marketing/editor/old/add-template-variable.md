@@ -34,9 +34,9 @@ language: en
 
 <!-- Referenced links -->
 [1]: ../../mailing/create/send-test-email.md
-[2]: ../../../../../docs/document/templates/variables/index.md
+[2]: ../../../../../docs/document/learn/templates/variables/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/edit.png
-[img2]: ../../../../media/icons/marketing-and-forms/variable.png
+[img1]: ../../../..../media/icons/marketing-and-forms/edit.png
+[img2]: ../../../..../media/icons/marketing-and-forms/variable.png
 [img3]: media/editor-template-variable.jpg

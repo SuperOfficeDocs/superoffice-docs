@@ -89,7 +89,7 @@ If an activity is highlighted in red type, this means that its provisional date 
 [8]: ../../getting-started/preferences.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
-[img2]: ../../../media/icons/check.bmp
-[img3]: ../../../media/icons/sale-sold-details.bmp
+[img1]: ../../..../media/icons/personal-settings-small.png
+[img2]: ../../..../media/icons/check.bmp
+[img3]: ../../..../media/icons/sale-sold-details.bmp
 [img4]: ../media/activities-detail.bmp

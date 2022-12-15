@@ -50,4 +50,4 @@ Imagine that your company has created a category for each department in the comp
 [4]: accept.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/settings-small.png
+[img1]: ../../..../media/icons/settings-small.png

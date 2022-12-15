@@ -45,4 +45,4 @@ If the attachment is the only part of the email you would like to keep for futur
 
 <!-- Referenced images -->
 [img1]: media/attachment-save.png
-[img2]: ../../../media/icons/gmail-link/btn-archive-attachment.png
+[img2]: ../../..../media/icons/gmail-link/btn-archive-attachment.png

@@ -187,13 +187,13 @@ Here you can define how a submitted form should be processed. Fill in the follow
 [19]: ../marketing/create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
-[img2]: ../../media/icons/marketing-and-forms/add-field.png
-[img3]: ../../media/icons/marketing-and-forms/move-field.png
-[img5]: ../../../common/icons/cog-wheel.png
-[img6]: ../../../common/icons/duplicate-icon.png
-[img7]: ../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img8]: ../../../common/icons/pop-out-icon.png
-[img9]: ../../../common/icons/new-window-icon.png
-[img10]: ../../../common/icons/edit-black.png
-[img11]: ../../media/icons/marketing-and-forms/form-notification.png
+[img1]: ../..../media/icons/btn-menu.png
+[img2]: ../..../media/icons/marketing-and-forms/add-field.png
+[img3]: ../..../media/icons/marketing-and-forms/move-field.png
+[img5]: ../../..../common/icons/cog-wheel.png
+[img6]: ../../..../common/icons/duplicate-icon.png
+[img7]: ../..../media/icons/marketing-and-forms/toolbar-show-hide.png
+[img8]: ../../..../common/icons/pop-out-icon.png
+[img9]: ../../..../common/icons/new-window-icon.png
+[img10]: ../../..../common/icons/edit-black.png
+[img11]: ../..../media/icons/marketing-and-forms/form-notification.png

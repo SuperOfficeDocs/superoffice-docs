@@ -42,13 +42,13 @@ The simplest way to create a selection is to base it on a search. This creates a
 * [Edit a selection][6]
 
 <!-- Referenced links -->
-[1]: ../../../request/find.md
-[2]: ../../../request/find.md#list
+[1]: ../../../request/learn/find.md
+[2]: ../../../request/learn/find.md#list
 [3]: ../../in-service/index.md
 [4]: update.md
 [5]: list.md
 [6]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/search-icon-black.png
-[img2]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../../..../common/icons/search-icon-black.png
+[img2]: ../../../..../media/icons/btn-menu.png

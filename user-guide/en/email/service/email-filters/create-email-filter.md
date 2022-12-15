@@ -63,8 +63,8 @@ language: en
 
 <!-- Referenced links -->
 [1]: ../../../automation/index.md
-[2]: ../../../request/reply-templates/index.md
-[3]: ../../../request/reply-templates/create.md#faq
+[2]: ../../../request/learn/reply-templates/index.md
+[3]: ../../../request/learn/reply-templates/create.md#faq
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/delete-circle-red.png
+[img1]: ../../../../..../common/icons/delete-circle-red.png

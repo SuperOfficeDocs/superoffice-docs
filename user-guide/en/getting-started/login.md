@@ -68,5 +68,5 @@ In SuperOffice Service you can also log in as the same user in several browsers 
 [2]: ../user-management/index.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/personal-settings-small.png
-[img2]: ../../../common/icons/nav-cs.png
+[img1]: ../..../media/icons/personal-settings-small.png
+[img2]: ../../..../common/icons/nav-cs.png

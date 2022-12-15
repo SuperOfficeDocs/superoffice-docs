@@ -148,10 +148,10 @@ Agenda for first meeting:
 9. Repeat this procedure to add more documents in this or other stages.
 
 <!-- Referenced links -->
-[1]:../../../../docs/document/templates/variables/for-sales.md
+[1]:../../../../docs/document/learn/templates/variables/for-sales.md
 [2]: ../../settings/lists/sale-stage.md
 [3]: ../../settings/lists/sale-type.md
 [4]: ../../settings/lists/document-template.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-admin-workflow-active.png
+[img1]: ../../../..../common/icons/nav-admin-workflow-active.png

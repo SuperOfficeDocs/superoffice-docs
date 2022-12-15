@@ -25,4 +25,4 @@ This feature allows you to quickly add a request in SuperOffice Service based on
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/archive-icon.png
+[img1]: ../../../..../common/icons/archive-icon.png

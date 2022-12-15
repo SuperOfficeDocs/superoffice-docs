@@ -83,6 +83,6 @@ The lower part of the **Sale** screen consists of section tabs.
 [7]: quote-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
+[img1]: ../../..../media/icons/arrow-right.png
+[img2]: ../../..../media/icons/arrow-left.png
 [img3]: ../media/55-chap7-sale-new-details.bmp

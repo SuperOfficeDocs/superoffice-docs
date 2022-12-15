@@ -112,13 +112,13 @@ When you click a section in a message, you get access to various functions for t
 
 <!-- Referenced images -->
 [img1]: media/edit-template.png
-[img2]: ../../../../media/icons/marketing-and-forms/preview.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile-2.png
-[img5]: ../../../../media/icons/marketing-and-forms/add-row.png
-[img6]: ../../../../media/icons/marketing-and-forms/move-2.png
-[img7]: ../../../../media/icons/marketing-and-forms/cancel.png
-[img8]: ../../../../media/icons/marketing-and-forms/copy.jpg
-[img9]: ../../../../media/icons/marketing-and-forms/save-block.png
-[img11]: ../../../../media/icons/marketing-and-forms/undo-redo.png
-[img12]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
+[img2]: ../../../..../media/icons/marketing-and-forms/preview.png
+[img3]: ../../../..../media/icons/marketing-and-forms/desktop.png
+[img4]: ../../../..../media/icons/marketing-and-forms/mobile-2.png
+[img5]: ../../../..../media/icons/marketing-and-forms/add-row.png
+[img6]: ../../../..../media/icons/marketing-and-forms/move-2.png
+[img7]: ../../../..../media/icons/marketing-and-forms/cancel.png
+[img8]: ../../../..../media/icons/marketing-and-forms/copy.jpg
+[img9]: ../../../..../media/icons/marketing-and-forms/save-block.png
+[img11]: ../../../..../media/icons/marketing-and-forms/undo-redo.png
+[img12]: ../../../..../media/icons/marketing-and-forms/side-panel-body-small.png

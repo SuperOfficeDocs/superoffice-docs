@@ -27,5 +27,5 @@ The following options are also available from the **Actions** button (![icon][im
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/arrow-right.png
+[img2]: ../../..../media/icons/btn-menu.png

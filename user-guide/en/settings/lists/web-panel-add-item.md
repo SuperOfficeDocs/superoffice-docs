@@ -45,7 +45,7 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 
       * **Company card**, **Contact card**, **Project card**, **Selection card** and **Sale card**: a shortcut to the URL address is added at the top of the **www** tab in the **Company**, **Contact**, **Project**, **Selection** and **Sale** screens. When you click a shortcut in SuperOffice CRM, the web page in question is displayed in a small scrollable window in the tab. You can then also click **Open in separate window** to view the web page in a separate browser window.
       * **Web panel on SuperOffice button**: the URL address is added in the web panel in SuperOffice CRM. The address can then be opened as an Internet page. If several URL addresses are defined for the web panel, they are shown as tabs on the right-hand side of the web panel. The Web panel is opened by clicking the SuperOffice logo at the top left in SuperOffice CRM.
-      * Section tabs in the **Company**, **Contact**, **Project** and **Sale** screens: the URL address is added as an extra section tab in the **Company/Contact/Project/Sale** screen. When you select the section tab in SuperOffice CRM, the URL opens. You can then also click **Open in separate window** to view the web page in a separate browser window.
+      * Section tabs in the **Company**, **Contact**, **Project** and **Sale** screens: the URL address is added as an extra section tab in the **Company/Contact/project/learn/Sale** screen. When you select the section tab in SuperOffice CRM, the URL opens. You can then also click **Open in separate window** to view the web page in a separate browser window.
 
       </details>
 
@@ -84,4 +84,4 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-tools.png
+[img1]: ../../../..../common/icons/nav-tools.png

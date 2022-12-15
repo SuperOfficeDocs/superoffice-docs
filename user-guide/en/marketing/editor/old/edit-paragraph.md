@@ -54,6 +54,6 @@ language: en
 
 <!-- Referenced images -->
 [img1]: media/editor-menu-para.jpg
-[img2]: ../../../../media/icons/marketing-and-forms/edit.png
-[img3]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img4]: ../../../../media/icons/marketing-and-forms/spellcheck.jpg
+[img2]: ../../../..../media/icons/marketing-and-forms/edit.png
+[img3]: ../../../..../media/icons/marketing-and-forms/toolbar-show-hide.png
+[img4]: ../../../..../media/icons/marketing-and-forms/spellcheck.jpg

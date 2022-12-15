@@ -53,5 +53,5 @@ In the request lists, you can forward multiple requests at the same time.
 [2]: create.md#message
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/service/msg-attachment.png
+[img1]: ../../..../media/icons/btn-menu.png
+[img2]: ../../..../media/icons/service/msg-attachment.png

@@ -70,12 +70,12 @@ If [sales targets][4] are defined for your company, teams/groups and/or sales pe
 [1]: edit-tile.md
 [2]: ../search-options/using-search-criteria.md
 [3]: ../globalization/translate-fields.md
-[4]: ../sale/sales-targets.md
+[4]: ../sale/learn/sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/az.png
-[img2]: ../../../common/icons/big-numbers.png
-[img3]: ../../../common/icons/column-bar.png
-[img4]: ../../../common/icons/bar.png
-[img5]: ../../../common/icons/gauge.png
-[img6]: ../../../common/icons/edit-pen.png
+[img1]: ../../..../common/icons/az.png
+[img2]: ../../..../common/icons/big-numbers.png
+[img3]: ../../..../common/icons/column-bar.png
+[img4]: ../../..../common/icons/bar.png
+[img5]: ../../..../common/icons/gauge.png
+[img6]: ../../..../common/icons/edit-pen.png

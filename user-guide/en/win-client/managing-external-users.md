@@ -53,4 +53,4 @@ Using the **Show** list box at the bottom right of the dialog, you can filter th
 [2]: ../search-options/using-fastsearcher.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../..../media/icons/btn-menu.png

@@ -30,5 +30,5 @@ language: en
 [2]: ../globalization/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/az.png
-[img2]: ../../../common/icons/edit-pen.png
+[img1]: ../../..../common/icons/az.png
+[img2]: ../../..../common/icons/edit-pen.png

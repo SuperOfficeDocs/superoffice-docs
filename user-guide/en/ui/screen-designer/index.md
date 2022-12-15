@@ -44,4 +44,4 @@ The layouts are marked with status (published or draft) and the assigned user gr
 [3]: edit-layout-archives.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-admin-confscreen-active-h32.png
+[img1]: ../../../..../common/icons/nav-admin-confscreen-active-h32.png

@@ -8,4 +8,4 @@
 Open the selection or project to verify that the contacts were added.
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/btn-menu.png
+[img2]: ../../..../media/icons/btn-menu.png

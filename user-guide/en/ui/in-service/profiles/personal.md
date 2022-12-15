@@ -39,5 +39,5 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 [4]: global.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/settingstools.png
-[img2]: ../../../../../common/icons/dropdown-arrow.png
+[img1]: ../../../../..../common/icons/settingstools.png
+[img2]: ../../../../..../common/icons/dropdown-arrow.png

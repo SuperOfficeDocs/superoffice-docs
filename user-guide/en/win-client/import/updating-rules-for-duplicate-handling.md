@@ -58,4 +58,4 @@ You must always specify rules for handling duplicates during importing.
 [3]: resetting-rules-for-duplicate-handling.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/search-icon-black.png
+[img1]: ../../../..../common/icons/search-icon-black.png

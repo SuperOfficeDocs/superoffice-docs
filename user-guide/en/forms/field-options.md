@@ -85,6 +85,6 @@ This is an overview of special options in some of the available fields.
 [2]: create.md#multi-page
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/add-icon.png
-[img2]: ../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img3]: ../../../common/icons/pop-out-icon.png
+[img1]: ../../..../common/icons/add-icon.png
+[img2]: ../..../media/icons/marketing-and-forms/toolbar-show-hide.png
+[img3]: ../../..../common/icons/pop-out-icon.png

@@ -34,4 +34,4 @@ This is particularly relevant for unassigned requests (those without a defined o
 [4]: forward.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

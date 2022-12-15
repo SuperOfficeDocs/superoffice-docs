@@ -39,7 +39,7 @@ Everything you want to find out about a company is available from a single scree
 * [Print a company][7]
 
 <!-- Referenced links -->
-[1]: ../person/index.md
+[1]: ../contact/learn/index.md
 [2]: create.md
 [3]: edit.md
 [4]: copy.md

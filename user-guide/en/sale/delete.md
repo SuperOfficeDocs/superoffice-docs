@@ -23,4 +23,4 @@ You may find that you want to delete a sale, if it is no longer appropriate to s
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../..../media/icons/btn-menu.png

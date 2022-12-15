@@ -30,6 +30,6 @@ The sale type "Sale to new customer" might consist of three stages: "First meeti
 [1]: ../sales-guide/create.md
 [2]: ../sales-guide/edit.md
 [3]: ../sales-guide/deactivate.md
-[4]: ../../sale/sales-guide/working-with-sales-guide.md
+[4]: ../../sale/learn/sales-guide/working-with-sales-guide.md
 
 <!-- Referenced images -->

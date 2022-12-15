@@ -151,6 +151,6 @@ The criteria lists contain a set of default criteria you can edit or remove as r
 [2]: using-fastsearcher.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/dropdown-icon.png
-[img2]: ../../media/icons/criteria-move.png
-[img3]: ../../../common/icons/delete-circle-red.png
+[img1]: ../../..../common/icons/dropdown-icon.png
+[img2]: ../..../media/icons/criteria-move.png
+[img3]: ../../..../common/icons/delete-circle-red.png

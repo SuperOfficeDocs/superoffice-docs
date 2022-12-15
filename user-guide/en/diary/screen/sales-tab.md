@@ -55,11 +55,11 @@ The **Sales** section tab in the diary functions as a kind of "sales secretary" 
 
 <!-- Referenced links -->
 [1]: activities-tab.md
-[4]: ../../sale/stages.md
+[4]: ../../sale/learn/stages.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/sale-sold-details.bmp
-[img2]: ../../../media/icons/sale-lost-details.bmp
-[img3]: ../../../../common/icons/salestalled.png
+[img1]: ../../..../media/icons/sale-sold-details.bmp
+[img2]: ../../..../media/icons/sale-lost-details.bmp
+[img3]: ../../../..../common/icons/salestalled.png
 [img4]: media/sales-detail.bmp
-[img5]: ../../../media/icons/personal-settings-small.png
+[img5]: ../../..../media/icons/personal-settings-small.png

@@ -53,6 +53,6 @@ You can delete an alternative by selecting ![icon][img1] **Task** > **Delete \[a
 [2]: add-product.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../../common/icons/favourite-no.png
+[img1]: ../../..../media/icons/btn-menu.png
+[img2]: ../../../..../common/icons/favourite-yes.png
+[img3]: ../../../..../common/icons/favourite-no.png

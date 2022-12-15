@@ -41,4 +41,4 @@ Using the **User groups** tab in the **Users** screen, you can collect the users
 [1]: ../update-user.md#service
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/settings-small.png
+[img1]: ../../..../media/icons/settings-small.png

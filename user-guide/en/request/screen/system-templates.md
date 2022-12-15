@@ -77,7 +77,7 @@ In the **Weekly stats** tab, you have the following options:
 To select another template, click the list button ( ![icon][img1] ) next to the relevant field and select a template from the list that appears.
 
 <!-- Referenced links -->
-[1]: ../../email/service/mailboxes/index.md
+[1]: ../../email/learn/service/mailboxes/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-arrow.png
+[img1]: ../../../..../common/icons/dropdown-arrow.png

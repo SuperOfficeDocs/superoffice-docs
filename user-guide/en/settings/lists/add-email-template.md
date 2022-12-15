@@ -87,11 +87,11 @@ Here you can add translated versions of the document template.
 
 <!-- Referenced links -->
 [1]: ../../globalization/translate-fields.md
-[2]: ../../document/template-variables.md
+[2]: ../../document/learn/template-variables.md
 [3]: ../../settings/lists/sale-type.md
 [4]: ../../settings/lists/privacy-source-add.md
-[5]: ../../sale/saint/index.md
+[5]: ../../sale/learn/saint/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
-[img2]: ../../../media/icons/arrow-down.png
+[img1]: ../../../..../common/icons/az.png
+[img2]: ../../..../media/icons/arrow-down.png

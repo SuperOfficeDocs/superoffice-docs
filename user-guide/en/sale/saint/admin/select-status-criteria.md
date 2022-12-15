@@ -46,6 +46,6 @@ A status is only active for companies, contacts or projects that fulfil all the 
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/btn-selected.png
+[img1]: ../../../..../media/icons/arrow-down.png
+[img2]: ../../../..../media/icons/arrow-right.png
+[img3]: ../../../..../media/icons/btn-selected.png

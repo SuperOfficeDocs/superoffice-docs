@@ -33,5 +33,5 @@ You can set the order of the ERP fields displayed in the ERP tab in SuperOffice 
 [2]: sync-configure-default-values.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png
+[img1]: ../../../../..../media/icons/arrow-down.png
+[img2]: ../../../../..../media/icons/arrow-up.png

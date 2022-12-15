@@ -53,12 +53,12 @@ Some lists may contain hundreds of records. To prevent slow loading of long list
 [6]: changing-column-view.md
 [7]: export-archives.md
 [8]: using-filter-function-contact.md
-[9]: ../company/screen/index.md
-[10]: ../person/screen/index.md
-[11]: ../diary/screen/index.md
-[12]: ../sale/screen/index.md
-[13]: ../project/screen/index.md
+[9]: ../company/learn/screen/index.md
+[10]: ../contact/learn/screen/index.md
+[11]: ../diary/learn/screen/index.md
+[12]: ../sale/learn/screen/index.md
+[13]: ../project/learn/screen/index.md
 [14]: ../search-options/selections/screen/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/cog-wheel.png
+[img1]: ../../..../common/icons/cog-wheel.png

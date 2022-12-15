@@ -26,5 +26,5 @@ A quick reply is a pre-defined text that you can use in a chat with a customer. 
 [1]: send-faq-or-reply-template.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/chat-h32.png
-[img2]: ../../../common/icons/edit-black.png
+[img1]: ../../..../common/icons/chat-h32.png
+[img2]: ../../..../common/icons/edit-black.png

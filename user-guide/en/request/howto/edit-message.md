@@ -28,4 +28,4 @@ It is possible to edit the properties of a message in a request, but only admini
 [2]: create.md#invoice-information
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

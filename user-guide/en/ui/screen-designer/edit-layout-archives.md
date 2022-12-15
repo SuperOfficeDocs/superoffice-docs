@@ -106,7 +106,7 @@ If you need to revert to an earlier version of the screen, you can access the fo
 [2]: ../../search-options/using-search-criteria.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-admin-confscreen.png
-[img2]: ../../../../common/icons/add-icon.png
-[img3]: ../../../../common/icons/az.png
-[img4]: ../../../../common/icons/info-ball.png
+[img1]: ../../../..../common/icons/nav-admin-confscreen.png
+[img2]: ../../../..../common/icons/add-icon.png
+[img3]: ../../../..../common/icons/az.png
+[img4]: ../../../..../common/icons/info-ball.png

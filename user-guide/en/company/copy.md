@@ -42,5 +42,5 @@ At some stage, you may want to copy an existing company to a new company. For ex
 [2]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../..../media/icons/btn-menu.png
 [img3]: media/copy-company.bmp

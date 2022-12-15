@@ -50,8 +50,8 @@ Do one of the following:
 [3]: ../index.md#open
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/favourite-no.png
-[img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../../common/icons/nav-fav.png
-[img5]: ../../../media/icons/btn-menu.png
-[img6]: ../../../../common/icons/dropdown-arrow.png
+[img1]: ../../../..../common/icons/favourite-no.png
+[img2]: ../../../..../common/icons/favourite-yes.png
+[img3]: ../../../..../common/icons/nav-fav.png
+[img5]: ../../..../media/icons/btn-menu.png
+[img6]: ../../../..../common/icons/dropdown-arrow.png

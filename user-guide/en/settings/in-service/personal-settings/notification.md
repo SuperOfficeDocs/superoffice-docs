@@ -40,8 +40,8 @@ You can receive notifications of the following events in SuperOffice Service.
 
 <!-- Referenced links -->
 [1]: ../../../getting-started/main-screen/buttons-in-menu-bar.md
-[2]: ../../../request/priority/escalation-levels.md
+[2]: ../../../request/learn/priority/escalation-levels.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png
-[img2]: ../../../../media/icons/notice-new.png
+[img1]: ../../../..../media/icons/settings-small.png
+[img2]: ../../../..../media/icons/notice-new.png

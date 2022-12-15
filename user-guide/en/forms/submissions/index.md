@@ -29,4 +29,4 @@ In the **Form submissions** tab you can view all submitted forms. Use the filter
 [2]: process.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/form-notification.png
+[img1]: ../../..../media/icons/marketing-and-forms/form-notification.png

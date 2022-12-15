@@ -117,16 +117,16 @@ In the paragraph menu, you can edit the properties of this paragraph. This menu 
 
 <!-- Referenced images -->
 [img1]: media/template-edit-overview-old.png
-[img2]: ../../../../media/icons/marketing-and-forms/undo.jpg
-[img3]: ../../../../media/icons/marketing-and-forms/redo.jpg
-[img4]: ../../../../media/icons/marketing-and-forms/border.jpg
-[img5]: ../../../../media/icons/marketing-and-forms/mobile.png
-[img6]: ../../../../media/icons/marketing-and-forms/copy.jpg
-[img7]: ../../../../media/icons/marketing-and-forms/full-screen.jpg
-[img8]: ../../../../media/icons/marketing-and-forms/move.jpg
-[img9]: ../../../../../common/icons/salelost.png
-[img10]: ../../../../media/icons/marketing-and-forms/new-para.jpg
-[img11]: ../../../../media/icons/marketing-and-forms/add-column.jpg
-[img12]: ../../../../media/icons/marketing-and-forms/edit.png
+[img2]: ../../../..../media/icons/marketing-and-forms/undo.jpg
+[img3]: ../../../..../media/icons/marketing-and-forms/redo.jpg
+[img4]: ../../../..../media/icons/marketing-and-forms/border.jpg
+[img5]: ../../../..../media/icons/marketing-and-forms/mobile.png
+[img6]: ../../../..../media/icons/marketing-and-forms/copy.jpg
+[img7]: ../../../..../media/icons/marketing-and-forms/full-screen.jpg
+[img8]: ../../../..../media/icons/marketing-and-forms/move.jpg
+[img9]: ../../../../..../common/icons/salelost.png
+[img10]: ../../../..../media/icons/marketing-and-forms/new-para.jpg
+[img11]: ../../../..../media/icons/marketing-and-forms/add-column.jpg
+[img12]: ../../../..../media/icons/marketing-and-forms/edit.png
 [img13]: media/editor-menu-para.jpg
 [img15]: media/editor-menu-global.jpg

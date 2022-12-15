@@ -28,4 +28,4 @@ The report is archived in the **Activities** section tab.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

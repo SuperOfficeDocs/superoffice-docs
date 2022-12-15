@@ -122,5 +122,5 @@ In addition, you can click the **Update list** button below the **Recipients** l
 Click **Next** to go to Step 5: Confirm. You can still revisit the **Recipients** step to edit the recipients list.
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../../common/icons/salelost.png
+[img1]: ../../../../..../media/icons/btn-add.png
+[img2]: ../../../../../..../common/icons/salelost.png

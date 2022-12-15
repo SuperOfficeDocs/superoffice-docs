@@ -58,10 +58,10 @@ language: en
 
 <!-- Referenced links -->
 [1]: ../../search-options/find-dialog.md
-[2]: ../../project/project-members/add.md
-[3]: ../../person/create.md
+[2]: ../../project/learn/project-members/add.md
+[3]: ../../contact/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.bmp
-[img2]: ../../../media/icons/arrow-right.png
+[img1]: ../../..../media/icons/binders.bmp
+[img2]: ../../..../media/icons/arrow-right.png
 [img3]: media/chap7-add-stakeholders.bmp

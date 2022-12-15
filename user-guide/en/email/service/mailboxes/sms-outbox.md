@@ -32,4 +32,4 @@ If you click one of the messages in this tab, the **Outbound SMS** screen appear
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../..../media/icons/btn-menu.png

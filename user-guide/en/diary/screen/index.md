@@ -72,9 +72,9 @@ The **Diary** screen contains the following section tabs:
 [13]: ../index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/recurring-booking-assignment.bmp
-[img2]: ../../../../common/icons/diary-participants.png
-[img3]: ../../../../common/icons/diary-complete.png
-[img4]: ../../../../common/icons/diary-alarm.png
-[img5]: ../../../../common/icons/diary-tentative.png
-[img6]: ../../../../common/icons/diary-videocall.png
+[img1]: ../../..../media/icons/recurring-booking-assignment.bmp
+[img2]: ../../../..../common/icons/diary-participants.png
+[img3]: ../../../..../common/icons/diary-complete.png
+[img4]: ../../../..../common/icons/diary-alarm.png
+[img5]: ../../../..../common/icons/diary-tentative.png
+[img6]: ../../../..../common/icons/diary-videocall.png

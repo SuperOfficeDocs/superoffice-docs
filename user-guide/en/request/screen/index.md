@@ -96,5 +96,5 @@ The **Details** tab contains an overview of the request.
 [14]: ../category/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img3]: ../../../media/icons/personal-settings-small.png
+[img1]: ../../..../media/icons/btn-menu.png
+[img3]: ../../..../media/icons/personal-settings-small.png

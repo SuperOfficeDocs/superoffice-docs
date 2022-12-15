@@ -74,4 +74,4 @@ To find out which fields are displayed, go to the **Settings** tab and click **C
 [5]: ../../../../import/import-products-from-excel.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/search-icon-black.png
+[img1]: ../../../../../..../common/icons/search-icon-black.png

@@ -44,7 +44,7 @@ If IP phone, Skype or FaceTime is installed, you can make phone calls from Super
 
 <!-- Referenced links -->
 [1]: dial.md
-[2]: ../../document/template-variables.md
+[2]: ../../document/learn/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/phone.png
+[img1]: ../../../..../common/icons/phone.png

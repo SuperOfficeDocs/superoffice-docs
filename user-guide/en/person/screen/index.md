@@ -40,5 +40,5 @@ The **Contact** screen contains the following section tabs with information link
 [8]: ../../search-options/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
+[img1]: ../../..../media/icons/arrow-right.png
+[img2]: ../../..../media/icons/arrow-left.png

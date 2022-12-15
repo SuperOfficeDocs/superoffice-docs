@@ -36,4 +36,4 @@ Triggers are scripts that are executed for specific events in the system, such a
 [5]: tracing.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/settings-small.png
+[img1]: ../..../media/icons/settings-small.png

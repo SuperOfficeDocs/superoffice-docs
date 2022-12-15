@@ -47,8 +47,8 @@ Project membership and activities will be moved to the target contact, and the s
 * [Merge companies][1]
 
 <!-- Referenced links -->
-[1]: ../company/merge-companies.md
+[1]: ../company/learn/merge-companies.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
-[img2]: ../../../common/icons/info-ball.png
+[img1]: ../..../media/icons/btn-menu.png
+[img2]: ../../..../common/icons/info-ball.png

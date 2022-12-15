@@ -62,5 +62,5 @@ You can group the list of users by role, user plan, primary group, and similar. 
 [1]: ../howto/adjusting-views.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/cog-wheel.png
-[img2]: ../../media/icons/column-header-filter.png
+[img1]: ../../..../common/icons/cog-wheel.png
+[img2]: ../..../media/icons/column-header-filter.png

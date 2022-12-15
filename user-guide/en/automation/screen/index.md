@@ -47,9 +47,9 @@ This screen has following options:
 [4]: ../create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/icons/edit.png
-[img4]: ../../../media/icons/btn-script-trace.png
-[img5]: ../../../media/icons/run-script.png
-[img6]: ../../../../common/icons/bug.png
-[img7]: ../../../media/icons/settings-small.png
+[img1]: ../../..../media/icons/arrow-left.png
+[img3]: ../../..../media/icons/edit.png
+[img4]: ../../..../media/icons/btn-script-trace.png
+[img5]: ../../..../media/icons/run-script.png
+[img6]: ../../../..../common/icons/bug.png
+[img7]: ../../..../media/icons/settings-small.png

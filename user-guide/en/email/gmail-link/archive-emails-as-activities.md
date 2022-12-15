@@ -41,4 +41,4 @@ This feature allows you to quickly add an activity in SuperOffice based on the s
 [6]: archive-emails-as-requests.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/gmail-link/btn-archive-more.png
+[img1]: ../../..../media/icons/gmail-link/btn-archive-more.png

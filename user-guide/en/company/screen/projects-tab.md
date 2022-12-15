@@ -29,8 +29,8 @@ Double-click a project in the list to open the **Project** screen with informati
 * [Manage project][1]
 
 <!-- Referenced links -->
-[1]: ../../project/index.md
-[2]: ../../project/create.md
+[1]: ../../project/learn/index.md
+[2]: ../../project/learn/create.md
 
 <!-- Referenced images -->
 [img1]: media/projects-detail.bmp

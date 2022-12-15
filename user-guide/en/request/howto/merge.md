@@ -50,5 +50,5 @@ The request IDs that were overwritten will no longer be available in favorites a
 [5]: forward.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/select-all.png
+[img1]: ../../..../media/icons/btn-menu.png
+[img2]: ../../..../media/icons/select-all.png

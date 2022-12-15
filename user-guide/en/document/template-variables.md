@@ -139,6 +139,6 @@ When you use address variables from the company card, the system will select add
 The reference is grouped by area. [Go to reference (leaves the user guide)][1]
 
 <!-- Referenced links -->
-[1]: ../../../docs/document/templates/variables/index.md
+[1]: ../../../docs/document/learn/templates/variables/index.md
 
 <!-- Referenced images -->

@@ -23,4 +23,4 @@ language: en
 [2]: ../../getting-started/main-screen/buttons-in-menu-bar.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

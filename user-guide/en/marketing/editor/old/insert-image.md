@@ -54,7 +54,7 @@ You insert an image in a message like this:
 [1]: ../../tracked-links/create-links.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/marketing-and-forms/edit.png
-[img3]: ../../../../media/icons/marketing-and-forms/resize.jpg
-[img5]: ../../../../../common/icons/folder.png
+[img1]: ../../../..../media/icons/btn-add.png
+[img2]: ../../../..../media/icons/marketing-and-forms/edit.png
+[img3]: ../../../..../media/icons/marketing-and-forms/resize.jpg
+[img5]: ../../../../..../common/icons/folder.png

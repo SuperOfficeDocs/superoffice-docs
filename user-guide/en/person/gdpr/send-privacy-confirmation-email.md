@@ -44,4 +44,4 @@ The confirmation email is sent to the contact. The email is archived in the **Ac
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

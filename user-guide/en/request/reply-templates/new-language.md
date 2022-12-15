@@ -38,4 +38,4 @@ It may be appropriate to have the same reply template in several languages, for 
 [1]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/settings-small.png
+[img1]: ../../..../media/icons/settings-small.png

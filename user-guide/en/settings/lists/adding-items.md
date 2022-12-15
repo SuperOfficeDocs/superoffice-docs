@@ -44,5 +44,5 @@ After adding items, you can specify details for each individual item. You can sp
 [3]: organize/headings.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/arrow-up.png
-[img4]: ../../../media/icons/arrow-down.png
+[img3]: ../../..../media/icons/arrow-up.png
+[img4]: ../../..../media/icons/arrow-down.png

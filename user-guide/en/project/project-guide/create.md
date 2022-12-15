@@ -156,10 +156,10 @@ Planning meeting:
 9. Repeat this procedure to add more documents in this or other statuses.
 
 <!-- Referenced links -->
-[1]: ../../../../docs/document/templates/variables/from-project-card.md
+[1]: ../../../../docs/document/learn/templates/variables/from-project-card.md
 [2]: ../../settings/lists/project-status.md
 [3]: ../../settings/lists/project-type.md
 [4]: ../../settings/lists/document-template.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-admin-workflow-active.png
+[img1]: ../../../..../common/icons/nav-admin-workflow-active.png

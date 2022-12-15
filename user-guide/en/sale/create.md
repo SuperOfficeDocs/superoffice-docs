@@ -47,5 +47,5 @@ To edit an existing sale, browse to the sale and click **Edit** at the bottom of
 [4]: quote/create.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../..../media/icons/btn-menu.png
 [img2]: media/54-chap7-sale-new.bmp

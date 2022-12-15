@@ -16,4 +16,4 @@ In the second step, **Template**, you must decide what your mailing should look 
 3. Click **Next** to go to the next step.
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-search.png
+[img1]: ../../../../../..../common/icons/nav-search.png

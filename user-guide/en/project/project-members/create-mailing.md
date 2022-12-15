@@ -23,5 +23,5 @@ To send the same document to all the members of a project, you can use the ![ico
 [1]: ../../marketing/mailing/create/tutorial-document-mailing.yml
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-marketing.png
-[img2]: ../../../../common/icons/nav-selection.png
+[img1]: ../../../..../common/icons/nav-marketing.png
+[img2]: ../../../..../common/icons/nav-selection.png

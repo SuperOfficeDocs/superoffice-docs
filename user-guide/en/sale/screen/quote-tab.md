@@ -27,7 +27,7 @@ Alternatives: If the quote contains one or more [alternatives][4], you can choos
 
 On the right of the **Quote** section tab are the version, quote number and [status][6] (for example, **Draft** or **Sold**). Click **Open** to edit the quote.
 
-[!include[Table showing quote states](../../sale/quote/includes/table-quote-states.md)]
+[!include[Table showing quote states](../../sale/learn/quote/includes/table-quote-states.md)]
 
 The product list: If products were added to the quote, they are shown in the list. At the bottom of the list, the total price of the products in it is displayed.
 
@@ -38,15 +38,15 @@ The product list: If products were added to the quote, they are shown in the lis
 * [Create a quote document][3]
 
 <!-- Referenced links -->
-[1]: ../../sale/quote/create.md
-[2]: ../../sale/quote/copy.md
-[3]: ../../sale/quote/create-quote-document.md
-[4]: ../../sale/quote/add-alternative.md
-[5]: ../../sale/quote/add-alternative.md#fav
-[6]: ../../sale/quote/index.md#status
-[7]: ../../sale/quote/add-product.md
+[1]: ../../sale/learn/quote/create.md
+[2]: ../../sale/learn/quote/copy.md
+[3]: ../../sale/learn/quote/create-quote-document.md
+[4]: ../../sale/learn/quote/add-alternative.md
+[5]: ../../sale/learn/quote/add-alternative.md#fav
+[6]: ../../sale/learn/quote/index.md#status
+[7]: ../../sale/learn/quote/add-product.md
 [8]: edit-quote-dialog.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/favourite-yes.png
-[img2]: ../../../../common/icons/favourite-no.png
+[img1]: ../../../..../common/icons/favourite-yes.png
+[img2]: ../../../..../common/icons/favourite-no.png

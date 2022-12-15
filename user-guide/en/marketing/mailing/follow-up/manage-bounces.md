@@ -111,4 +111,4 @@ Use this option to set a contact as a former employee.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/warning.png
+[img1]: ../../../../..../common/icons/warning.png

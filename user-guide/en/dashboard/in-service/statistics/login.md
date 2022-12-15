@@ -29,5 +29,5 @@ This screen shows statistics for when the users log in and out of the system.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/btn-add.png
+[img1]: ../../../..../media/icons/btn-menu.png
+[img2]: ../../../..../media/icons/btn-add.png

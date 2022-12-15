@@ -42,5 +42,5 @@ You can move a contact - including their activities and memberships - from one c
 [3]: ../search-options/find-dialog.md
 
 <!-- Referenced images -->
-[img2]: ../../media/icons/btn-menu.png
-[img3]: ../../../common/icons/search-icon-black.png
+[img2]: ../..../media/icons/btn-menu.png
+[img3]: ../../..../common/icons/search-icon-black.png

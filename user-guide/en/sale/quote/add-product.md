@@ -103,4 +103,4 @@ Warnings and messages may be due to, for example:
 [1]: approve.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-search.png
+[img1]: ../../../..../common/icons/nav-search.png

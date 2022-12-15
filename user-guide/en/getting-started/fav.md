@@ -43,6 +43,6 @@ You can access your favorites from the following places in the application:
 [1]: ../reports/favorites/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/nav-fav.png
-[img2]: ../../../common/icons/favourite-yes.png
-[img3]: ../../../common/icons/favourite-no.png
+[img1]: ../../..../common/icons/nav-fav.png
+[img2]: ../../..../common/icons/favourite-yes.png
+[img3]: ../../..../common/icons/favourite-no.png

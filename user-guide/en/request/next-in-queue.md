@@ -96,5 +96,5 @@ Create a new request, set **Owner** to **Unassigned**, select the category you a
 [2]: category/index.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-add.png
-[img2]: ../../media/icons/settings-small.png
+[img1]: ../..../media/icons/btn-add.png
+[img2]: ../..../media/icons/settings-small.png

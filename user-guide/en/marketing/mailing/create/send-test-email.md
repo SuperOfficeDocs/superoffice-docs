@@ -42,4 +42,4 @@ When you have sent a test mailing, you must reset the counters for the link(s) i
 [1]: ../../editor/drag-and-drop/customize-for-mobile.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../..../media/icons/btn-menu.png

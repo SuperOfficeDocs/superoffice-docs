@@ -29,8 +29,8 @@ so.client:
 
 <!-- Referenced links -->
 
-[3]: ../../../docs/document/templates/variables/for-selected-contact.md
+[3]: ../../../docs/document/learn/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->
-[img2]: ../../../common/icons/editor-toolbar-icon.png
-[img3]: ../../media/icons/sign-editor-variables.png
+[img2]: ../../..../common/icons/editor-toolbar-icon.png
+[img3]: ../..../media/icons/sign-editor-variables.png

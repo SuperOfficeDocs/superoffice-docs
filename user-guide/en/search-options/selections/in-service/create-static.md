@@ -59,6 +59,6 @@ A static selection contains only those records you added to it manually, unlike 
 [5]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../../common/icons/delete-red.png
-[img3]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../..../media/icons/btn-add.png
+[img2]: ../../../../..../common/icons/delete-red.png
+[img3]: ../../../..../media/icons/btn-menu.png

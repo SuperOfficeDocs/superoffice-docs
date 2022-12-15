@@ -41,4 +41,4 @@ A small dot on the link action tabs indicate which link actions are active. Mult
 [19]: ../create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
+[img1]: ../../..../media/icons/btn-add.png

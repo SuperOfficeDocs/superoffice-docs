@@ -96,5 +96,5 @@ With SuperOffice CRM, you can log in from any PC using a browser, but your docum
 [3]: web-tools.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/followup-completed-small.png
+[img1]: ../..../media/icons/followup-completed-small.png
 [img2]: media/upload.png

@@ -75,7 +75,7 @@ Finally, there are user licenses for SuperOffice CRM for Windows, which are purc
 
 <!-- Referenced links -->
 [1]: activate.md
-[2]: ../sale/saint/index.md
+[2]: ../sale/learn/saint/index.md
 [3]: ../settings/system-events.md
 [4]: screen/index.md
 

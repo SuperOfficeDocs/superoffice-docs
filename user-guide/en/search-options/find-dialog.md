@@ -317,12 +317,12 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 [9]: selections/update/add-members-to-static.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/dropdown-icon.png
+[img1]: ../../..../common/icons/dropdown-icon.png
 [img2]: ../media/find.png
-[img3]: ../../../common/icons/delete-circle-red.png
-[img4]: ../../media/icons/criteria-move.png
-[img5]: ../../../common/icons/singlecolour/sale.png
-[img6]: ../../../common/icons/singlecolour/contact.png
-[img7]: ../../../common/icons/singlecolour/person.png
-[img8]: ../../../common/icons/singlecolour/project.png
-[img9]: ../../../common/icons/singlecolour/appointment.png
+[img3]: ../../..../common/icons/delete-circle-red.png
+[img4]: ../..../media/icons/criteria-move.png
+[img5]: ../../..../common/icons/singlecolour/sale.png
+[img6]: ../../..../common/icons/singlecolour/contact.png
+[img7]: ../../..../common/icons/singlecolour/person.png
+[img8]: ../../..../common/icons/singlecolour/project.png
+[img9]: ../../..../common/icons/singlecolour/appointment.png

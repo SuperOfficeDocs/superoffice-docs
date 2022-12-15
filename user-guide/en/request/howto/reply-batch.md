@@ -34,4 +34,4 @@ You can add a message to several requests in a single operation. For example, if
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

@@ -80,8 +80,8 @@ The lower part of the **Project** screen consists of section tabs.
 [7]: sale.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
+[img1]: ../../..../media/icons/arrow-right.png
+[img2]: ../../..../media/icons/arrow-left.png
 [img3]: ../media/project.bmp
 [img4]: media/project-more.bmp
-[img5]: ../../../media/icons/select.bmp
+[img5]: ../../..../media/icons/select.bmp

@@ -58,9 +58,9 @@ You can merge duplicate database records of companies. Contacts and activities w
 
 <!-- Referenced links -->
 [1]: ../search-options/using-fastsearcher.md
-[2]: ../person/merge-contacts.md
+[2]: ../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/info-ball.png
-[img3]: ../../media/icons/btn-menu.png
+[img1]: ../../..../common/icons/info-ball.png
+[img3]: ../..../media/icons/btn-menu.png
 [img4]: media/merge-companies.bmp

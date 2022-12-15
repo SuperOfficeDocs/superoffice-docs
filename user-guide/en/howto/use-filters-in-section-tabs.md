@@ -34,5 +34,5 @@ The following filtering options are available in the section tabs:
 
 <!-- Referenced images -->
 [img1]: media/section-tab-filter-overview.png
-[img2]: ../../../common/icons/filter-icon.png
-[img3]: ../../media/icons/filter-column.png
+[img2]: ../../..../common/icons/filter-icon.png
+[img3]: ../..../media/icons/filter-column.png

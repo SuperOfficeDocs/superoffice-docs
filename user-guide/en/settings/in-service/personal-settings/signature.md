@@ -20,8 +20,8 @@ In the **Signature** tab, you can enter a signature that is automatically added 
 5. Optional: Test the signature by creating a new request. Check that all information is displayed correctly, and the links work and images are displayed as intended.
 
 <!-- Referenced links -->
-[1]: ../../../../../docs/document/templates/variables/for-selected-contact.md
+[1]: ../../../../../docs/document/learn/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/service/msg-toolbar.png
-[img2]: ../../../../media/icons/sign-editor-variables.png
+[img1]: ../../../..../media/icons/service/msg-toolbar.png
+[img2]: ../../../..../media/icons/sign-editor-variables.png

@@ -31,4 +31,4 @@ You do this using the telephone button in, for example, the **Appointment**, **T
 [1]: preferences.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/phone.png
+[img1]: ../../../..../common/icons/phone.png

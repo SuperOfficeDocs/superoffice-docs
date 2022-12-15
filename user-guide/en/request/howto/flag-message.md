@@ -31,5 +31,5 @@ To make it easier to find and sort multiple messages in a request, you can flag 
 [1]: ../index.md#open
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/service/message-flag-off.png
-[img2]: ../../../media/icons/service/message-flag-on.png
+[img1]: ../../..../media/icons/service/message-flag-off.png
+[img2]: ../../..../media/icons/service/message-flag-on.png

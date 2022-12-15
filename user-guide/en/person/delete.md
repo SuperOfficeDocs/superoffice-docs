@@ -59,4 +59,4 @@ There are three ways you can delete a contact from SuperOffice CRM:
 [6]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../..../media/icons/btn-menu.png

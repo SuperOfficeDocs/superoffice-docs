@@ -65,4 +65,4 @@ If you want a list with two levels, you must select headings for each individual
 [2]: index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-selected.png
+[img1]: ../../../..../media/icons/btn-selected.png

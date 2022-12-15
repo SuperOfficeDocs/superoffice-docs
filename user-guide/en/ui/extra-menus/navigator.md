@@ -45,5 +45,5 @@ To illustrate this functionality, we will add a new navigator group in the navig
 [1]: properties.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../media/icons/settings-small.png
+[img1]: ../../..../media/icons/btn-add.png
+[img2]: ../../..../media/icons/settings-small.png

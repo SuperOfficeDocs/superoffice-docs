@@ -38,4 +38,4 @@ For example, you can create a new status called "Waiting for reply" as a more de
 [3]: ../next-in-queue.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/drag-handle.png
+[img1]: ../../../..../common/icons/drag-handle.png

@@ -47,4 +47,4 @@ At the top of the **List selections** screen are two buttons:
 [5]: delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../..../media/icons/btn-menu.png

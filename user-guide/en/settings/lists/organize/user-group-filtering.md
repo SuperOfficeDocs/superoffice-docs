@@ -69,6 +69,6 @@ You can also specify available items for a user group:
 [2]: ../../../user-management/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/select-all.png
-[img2]: ../../../../media/icons/btn-selected.png
-[img3]: ../../../../media/icons/unselect-all.png
+[img1]: ../../../..../media/icons/select-all.png
+[img2]: ../../../..../media/icons/btn-selected.png
+[img3]: ../../../..../media/icons/unselect-all.png

@@ -32,5 +32,5 @@ After adding items, you can specify details for each individual item. You can sp
 [3]: web-panel-add-item.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-up.png
-[img2]: ../../../media/icons/arrow-down.png
+[img1]: ../../..../media/icons/arrow-up.png
+[img2]: ../../..../media/icons/arrow-down.png

@@ -43,4 +43,4 @@ In the **Edit script** screen, you can edit or create a [CRMScript][1].
 [1]: ../../../docs/automation/crmscript/index.yml
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/settings-small.png
+[img1]: ../..../media/icons/settings-small.png

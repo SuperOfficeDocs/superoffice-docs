@@ -41,4 +41,4 @@ When you delete a folder, all the documents in it are also deleted from SuperOff
 [1]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-arrow.png
+[img1]: ../../../..../common/icons/dropdown-arrow.png

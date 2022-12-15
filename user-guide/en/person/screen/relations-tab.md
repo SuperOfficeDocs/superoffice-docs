@@ -23,7 +23,7 @@ The **Relations** section tab displays any connections existing between the curr
 Double-click on a relation row to open the **Relation** dialog, showing all the [information entered for that relation][1]).
 
 <!-- Referenced links -->
-[1]: ../../person/add-relation.md
+[1]: ../../contact/learn/add-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.bmp
+[img1]: ../../..../media/icons/binders.bmp

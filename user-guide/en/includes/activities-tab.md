@@ -13,8 +13,8 @@ The columns of the **Activities** section tab contain the following information:
 * The ID of the person who created the activity.
 
 <!-- Referenced links -->
-[1]: ../diary/change-completed-status.md
+[1]: ../diary/learn/change-completed-status.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/check.bmp
-[img2]: ../../../common/icons/phone.png
+[img1]: ../..../media/icons/check.bmp
+[img2]: ../../..../common/icons/phone.png

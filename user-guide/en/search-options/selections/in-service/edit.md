@@ -34,4 +34,4 @@ To change the criteria for including records in a selection:
 [4]: create-combined.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/edit.png
+[img1]: ../../../..../media/icons/edit.png

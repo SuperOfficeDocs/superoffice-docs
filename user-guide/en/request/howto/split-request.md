@@ -66,4 +66,4 @@ If a single request contains several questions, for example, if the customer fir
 [6]: forward.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

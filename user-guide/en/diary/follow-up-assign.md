@@ -34,4 +34,4 @@ The selected person is now the owner of the follow-up, and will see the follow-u
 [1]: create-follow-up.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../..../media/icons/btn-menu.png

@@ -61,6 +61,6 @@ When setting up a mailing, you have the option of using Google Analytics as the 
 [19]: ../create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/btn-add.png
-[img3]: ../../../../common/icons/folder.png
+[img1]: ../../..../media/icons/btn-menu.png
+[img2]: ../../..../media/icons/btn-add.png
+[img3]: ../../../..../common/icons/folder.png

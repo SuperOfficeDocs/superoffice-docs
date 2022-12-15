@@ -83,22 +83,22 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 [1]: ../../howto/external-applications-and-url-addresses.md
 [2]: ../../howto/use-filters-in-section-tabs.md
 [3]: ../../howto/restore-deleted-companies-and-contacts.md
-[4]: ../../diary/invitation/receive.md
+[4]: ../../diary/learn/invitation/receive.md
 [5]: ../../search-options/find-dialog.md
 [6]: ../preferences.md
 [7]: ../../getting-started/edit-email-signature.md
 [8]: ../../howto/duplicates.md
 [9]: ../notes.md
 [15]: ../../win-client/creating-shortcuts-to-entries-in-crm.md
-[17]: ../../sale/sales-targets.md
+[17]: ../../sale/learn/sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png
-[img2]: ../../../media/icons/personal-settings.png
-[img3]: ../../../../common/icons/plus-black.png
-[img4]: ../../../media/icons/notice.png
-[img5]: ../../../media/icons/notice-new.png
-[img6]: ../../../media/icons/notice-pending.png
-[img7]: ../../../../common/icons/search-icon-black.png
+[img1]: ../../..../media/icons/main-menu.png
+[img2]: ../../..../media/icons/personal-settings.png
+[img3]: ../../../..../common/icons/plus-black.png
+[img4]: ../../..../media/icons/notice.png
+[img5]: ../../..../media/icons/notice-new.png
+[img6]: ../../..../media/icons/notice-pending.png
+[img7]: ../../../..../common/icons/search-icon-black.png
 [img8]: ../../media/find.png
 [img9]: ../../../media/superoffice-logo.bmp

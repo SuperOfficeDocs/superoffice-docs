@@ -77,8 +77,8 @@ In the top-right corner of the **Chat** screen, you can set your presence:
 [6]: as-customer.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../..../media/icons/btn-menu.png
 [img2]: media/chat-tab-dashboard.png
 [img3]: media/chat-status-present.png
 [img4]: media/chat-status-away.png
-[img5]: ../../../common/icons/smiley-icon.png
+[img5]: ../../..../common/icons/smiley-icon.png

@@ -49,4 +49,4 @@ A script is a small program written to perform specific tasks, and requires prog
 [4]: create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../..../media/icons/btn-menu.png

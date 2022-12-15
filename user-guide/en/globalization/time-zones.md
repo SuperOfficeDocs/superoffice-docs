@@ -47,8 +47,8 @@ The time zone list is sorted by country. At the top of the list is the name of t
 * If you in the Diary hover the mouse pointer over an appointment created in a different time zone from the default for your SuperOffice database, a tooltip is displayed containing information about the time of the appointment in your time zone and in the time zone of the person who created it.
 
 <!-- Referenced links -->
-[1]: ../diary/index.md
+[1]: ../diary/learn/index.md
 [2]: ../search-options/using-fastsearcher.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/time-zone-local.bmp
+[img1]: ../..../media/icons/time-zone-local.bmp

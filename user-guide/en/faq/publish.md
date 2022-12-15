@@ -30,7 +30,7 @@ When a request handler [creates a suggestion for an FAQ entry][1], it is unpubli
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../request/index.md
+[2]: ../request/learn/index.md
 [3]: workflow.md
 
 <!-- Referenced images -->

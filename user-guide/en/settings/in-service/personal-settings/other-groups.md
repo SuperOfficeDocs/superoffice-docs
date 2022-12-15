@@ -29,5 +29,5 @@ In the **Other groups** tab, you can select any secondary groups (in addition to
 [2]: ../../../user-management/role/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/personal-settings-small.png
+[img1]: ../../../..../media/icons/btn-add.png
+[img2]: ../../../..../media/icons/personal-settings-small.png

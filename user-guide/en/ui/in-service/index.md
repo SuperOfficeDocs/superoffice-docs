@@ -34,7 +34,7 @@ Here you can find the advanced options in SuperOffice.
 | [Debug log][15] | Search the debug log. |
 
 <!-- Referenced links -->
-[1]: ../../custom-objects/screen/tables.md
+[1]: ../../custom-objects/learn/screen/tables.md
 [2]: ../../automation/index.md
 [3]: ../../automation/macro-script.md
 [4]: ../../automation/trigger.md

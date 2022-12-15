@@ -97,5 +97,5 @@ In addition to the templates created by your and your colleagues, you have acces
 [3]: editor/drag-and-drop/add-merge-tag.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
-[img2]: ../../media/icons/btn-add.png
+[img1]: ../..../media/icons/btn-menu.png
+[img2]: ../..../media/icons/btn-add.png

@@ -31,4 +31,4 @@ If you click one of the messages in this tab, the **Outbound email** screen appe
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

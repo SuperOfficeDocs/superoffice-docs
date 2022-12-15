@@ -89,11 +89,11 @@ You can then add these fields to the **Project** screen:
 <!-- Referenced links -->
 [1]: page-1-fields.md
 [2]: ../../settings/lists/adding-user-defined-lists.md
-[3]: ../../project/screen/index.md#more-tab
-[4]: ../../diary/screen/dialog-for-followups.md
-[5]: ../../document/screen/index.md
-[6]: ../../company/create.md#more-tab
-[7]: ../../person/create.md#more-tab
-[8]: ../../ui/screen-designer/index.md
+[3]: ../../project/learn/screen/index.md#more-tab
+[4]: ../../diary/learn/screen/dialog-for-followups.md
+[5]: ../../document/learn/screen/index.md
+[6]: ../../company/learn/create.md#more-tab
+[7]: ../../contact/learn/create.md#more-tab
+[8]: ../../ui/learn/screen-designer/index.md
 
 <!-- Referenced images -->

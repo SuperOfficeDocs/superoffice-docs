@@ -39,4 +39,4 @@ language: en
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/filter-icon.png
+[img1]: ../../..../common/icons/filter-icon.png

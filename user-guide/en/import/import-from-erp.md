@@ -55,7 +55,7 @@ Above each list is a link to the selection containing the new/updated actors.
 > If you want to delete imported actors from SuperOffice, use the selection.
 
 <!-- Referenced links -->
-[2]: ../sale/quote/quote-sync/sync/index.md
+[2]: ../sale/learn/quote/quote-sync/sync/index.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/admin/import-erp-small.bmp
+[img1]: ../..../media/icons/admin/import-erp-small.bmp

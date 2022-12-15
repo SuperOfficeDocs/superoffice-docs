@@ -39,8 +39,8 @@ You can receive invitations from a person outside your organization and easily a
 The message is removed from the inbox, and the appointment is added to you diary.
 
 <!-- Referenced links -->
-[1]: ../../document/screen/index.md
+[1]: ../../document/learn/screen/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/attachments-black.png
-[img2]: ../../../../common/icons/appointments-black.png
+[img1]: ../../../..../common/icons/attachments-black.png
+[img2]: ../../../..../common/icons/appointments-black.png

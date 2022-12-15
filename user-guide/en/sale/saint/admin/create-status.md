@@ -62,7 +62,7 @@ If a company, contact or project has several active statuses, the lower priority
 * [Manage status monitors][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/template-variables.md
+[1]: ../../../document/learn/template-variables.md
 [2]: edit-status.md
 [3]: select-image-for-status.md
 [4]: manage-status-monitors.md
@@ -72,8 +72,8 @@ If a company, contact or project has several active statuses, the lower priority
 [8]: ../../../globalization/translate-fields.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/az.png
-[img3]: ../../../../media/icons/admin/visualize.bmp
-[img4]: ../../../../media/icons/admin/red-x.bmp
-[img5]: ../../../../media/icons/arrow-up.png
-[img6]: ../../../../media/icons/arrow-down.png
+[img2]: ../../../../..../common/icons/az.png
+[img3]: ../../../..../media/icons/admin/visualize.bmp
+[img4]: ../../../..../media/icons/admin/red-x.bmp
+[img5]: ../../../..../media/icons/arrow-up.png
+[img6]: ../../../..../media/icons/arrow-down.png

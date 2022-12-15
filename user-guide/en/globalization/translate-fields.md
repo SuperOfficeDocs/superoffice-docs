@@ -29,4 +29,4 @@ Try to change the language settings (see **Local settings** in the **Personal se
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/az.png
+[img1]: ../../..../common/icons/az.png

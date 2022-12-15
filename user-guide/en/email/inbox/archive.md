@@ -39,8 +39,8 @@ To send a message and archive it as a document in SuperOffice CRM, click **Send 
 [!include[Add contact](includes/add-contact-opens.md)]
 
 <!-- Referenced links -->
-[1]: ../../document/screen/index.md
+[1]: ../../document/learn/screen/index.md
 [3]: compose.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/archive-icon.png
+[img1]: ../../../..../common/icons/archive-icon.png

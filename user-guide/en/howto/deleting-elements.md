@@ -45,9 +45,9 @@ Examples:
 
 <!-- Referenced links -->
 [1]: restore-deleted-companies-and-contacts.md
-[2]: ../company/delete.md
-[3]: ../person/delete.md
-[4]: ../diary/recurrence/stop.md
+[2]: ../company/learn/delete.md
+[3]: ../contact/learn/delete.md
+[4]: ../diary/learn/recurrence/stop.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/personal-settings-small.png
+[img1]: ../..../media/icons/personal-settings-small.png

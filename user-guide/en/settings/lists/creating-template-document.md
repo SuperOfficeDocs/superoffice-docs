@@ -25,7 +25,7 @@ You can also create templates in HTML format, and use the SuperOffice HTML edito
 After you define a template and save it in the template folder, you must [link the template to SuperOffice CRM][2] to create documents from it.
 
 <!-- Referenced links -->
-[1]: ../../document/template-variables.md
+[1]: ../../document/learn/template-variables.md
 [2]: add-template.md
 
 <!-- Referenced images -->

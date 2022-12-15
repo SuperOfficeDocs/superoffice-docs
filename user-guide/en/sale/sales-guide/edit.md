@@ -33,4 +33,4 @@ language: en
 [3]: ../../settings/lists/sale-stage.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-admin-workflow-active.png
+[img1]: ../../../..../common/icons/nav-admin-workflow-active.png

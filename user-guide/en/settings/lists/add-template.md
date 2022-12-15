@@ -88,9 +88,9 @@ Here you can add translated versions of the document template.
 5. Repeat the steps above to add additional languages.
 
 <!-- Referenced links -->
-[2]: ../../document/template-variables.md
+[2]: ../../document/learn/template-variables.md
 [1]: replace-existing-template.md
-[4]: ../../sale/saint/index.md
+[4]: ../../sale/learn/saint/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-down.png
+[img1]: ../../..../media/icons/arrow-down.png

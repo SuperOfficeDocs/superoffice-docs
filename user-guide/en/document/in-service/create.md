@@ -44,4 +44,4 @@ To add a document to SuperOffice Service, you must first create the document its
 [2]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-arrow.png
+[img1]: ../../../..../common/icons/dropdown-arrow.png

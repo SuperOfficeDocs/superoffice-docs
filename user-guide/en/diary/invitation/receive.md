@@ -92,10 +92,10 @@ Click **Close** to close the dialog.
 [4]: response.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/notice-new.png
+[img1]: ../../..../media/icons/notice-new.png
 [img2]: media/invitation.bmp
-[img3]: ../../../../common/icons/check-black.png
-[img4]: ../../../../common/icons/reject-appointment-icon.png
-[img5]: ../../../media/icons/recurring-booking-assignment.bmp
-[img6]: ../../../../common/icons/warning-red.png
-[img7]: ../../../../common/icons/assignment-seen.png
+[img3]: ../../../..../common/icons/check-black.png
+[img4]: ../../../..../common/icons/reject-appointment-icon.png
+[img5]: ../../..../media/icons/recurring-booking-assignment.bmp
+[img6]: ../../../..../common/icons/warning-red.png
+[img7]: ../../../..../common/icons/assignment-seen.png

@@ -32,4 +32,4 @@ so.envir: onsite
 [1]: creating-import-descriptions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/search-icon-black.png
+[img1]: ../../../..../common/icons/search-icon-black.png

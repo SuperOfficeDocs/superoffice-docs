@@ -95,5 +95,5 @@ In the **Script** tab, you can choose a script or macro to be run when the recip
 [1]: ../mailing/create/add-unsubscribe-link.md#clear-interests
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-contact.png
-[img2]: ../../../../common/icons/pref-diary.png
+[img1]: ../../../..../common/icons/nav-contact.png
+[img2]: ../../../..../common/icons/pref-diary.png

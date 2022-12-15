@@ -11,7 +11,7 @@ language: en
 
 # Create request
 
-[!include[Requirement](../../../../common/includes/req-service-essentials.md)]
+[!include[Requirement](../../../..../common/includes/req-service-essentials.md)]
 
 You can create a request in SuperOffice Service based on an email in your Gmail inbox.
 
@@ -43,4 +43,4 @@ You can create a request in SuperOffice Service based on an email in your Gmail 
 [6]: archive-emails-as-activities.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/gmail-link/btn-archive-more.png
+[img1]: ../../..../media/icons/gmail-link/btn-archive-more.png

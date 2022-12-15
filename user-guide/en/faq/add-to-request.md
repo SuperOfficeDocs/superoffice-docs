@@ -24,9 +24,9 @@ When you respond to a customer enquiry, you can save time by inserting a link to
 > You can also click **Preview** to display the selected item onscreen. If you select a message in the **Choose message** folder in the **Paste text** field and then click **Suggest FAQ**, a list of relevant FAQ entries for the selected message is displayed.
 
 <!-- Referenced links -->
-[1]: ../request/howto/reply.md
+[1]: ../request/learn/howto/reply.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/service/add-text.png
-[img2]: ../../../common/icons/folder.png
-[img3]: ../../media/icons/service/msg-toolbar.png
+[img1]: ../..../media/icons/service/add-text.png
+[img2]: ../../..../common/icons/folder.png
+[img3]: ../..../media/icons/service/msg-toolbar.png

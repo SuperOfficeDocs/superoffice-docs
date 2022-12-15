@@ -33,4 +33,4 @@ language: en
 [4]: merge-companies.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../..../media/icons/btn-menu.png

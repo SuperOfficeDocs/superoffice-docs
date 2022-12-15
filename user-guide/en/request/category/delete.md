@@ -32,4 +32,4 @@ language: en
 1. Click **OK**. The category is deleted and all the requests are moved to the specified alternative category.
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/settings-small.png
+[img2]: ../../..../media/icons/settings-small.png

@@ -45,4 +45,4 @@ If you select the **View** tab in the **Diary** screen, the ![icon][img2] **Task
 
 <!-- Referenced images -->
 [img1]: media/view.bmp
-[img2]: ../../../media/icons/btn-menu.png
+[img2]: ../../..../media/icons/btn-menu.png

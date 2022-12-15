@@ -24,5 +24,5 @@ You can also define display alternatives for mobile devices at paragraph level. 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/mobile.png
-[img2]: ../../../../media/icons/marketing-and-forms/edit.png
+[img1]: ../../../..../media/icons/marketing-and-forms/mobile.png
+[img2]: ../../../..../media/icons/marketing-and-forms/edit.png

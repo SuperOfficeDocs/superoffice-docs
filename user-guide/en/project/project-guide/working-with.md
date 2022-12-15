@@ -154,7 +154,7 @@ You record a new project and select the **Conference** project type, which is li
 Once all the required follow-ups and documents for the project are completed, you can set the project status to completed.
 
 <!-- Referenced links -->
-[1]: ../../document/screen/index.md
-[2]: ../../diary/screen/dialog-for-followups.md
-[3]: ../../document/edit.md
+[1]: ../../document/learn/screen/index.md
+[2]: ../../diary/learn/screen/dialog-for-followups.md
+[3]: ../../document/learn/edit.md
 <!-- Referenced images -->

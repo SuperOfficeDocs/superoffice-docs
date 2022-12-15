@@ -26,11 +26,11 @@ Apart from this practical use, external documents are otherwise dealt with in th
 
 <!-- Referenced links -->
 [1]: howto/reply.md
-[2]: ../document/in-service/view.md
-[3]: ../document/in-service/create.md
-[4]: ../document/in-service/edit.md
-[5]: ../document/in-service/delete.md
-[6]: ../document/in-service/find.md
-[7]: ../document/in-service/manage-folders.md
+[2]: ../document/learn/in-service/view.md
+[3]: ../document/learn/in-service/create.md
+[4]: ../document/learn/in-service/edit.md
+[5]: ../document/learn/in-service/delete.md
+[6]: ../document/learn/in-service/find.md
+[7]: ../document/learn/in-service/manage-folders.md
 
 <!-- Referenced images -->

@@ -57,16 +57,16 @@ A sales guide where all follow-ups and documents for all stages are displayed:
 * [Filter activities and sales][7]
 
 <!-- Referenced links -->
-[1]: ../../diary/change-completed-status.md
+[1]: ../../diary/learn/change-completed-status.md
 [2]: ../../howto/changing-column-view.md
-[3]: ../../company/view-activities.md
-[4]: ../../company/delete-activities-contact.md
-[5]: ../../company/replying-to-email-from-activities-section-tab.md
-[6]: ../../company/forwarding-email-from-activities-section-tab.md
+[3]: ../../company/learn/view-activities.md
+[4]: ../../company/learn/delete-activities-contact.md
+[5]: ../../company/learn/replying-to-email-from-activities-section-tab.md
+[6]: ../../company/learn/forwarding-email-from-activities-section-tab.md
 [7]: ../../howto/using-filter-function-contact.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.bmp
-[img2]: ../../../media/icons/sale-sold-details.bmp
+[img1]: ../../..../media/icons/check.bmp
+[img2]: ../../..../media/icons/sale-sold-details.bmp
 [img3]: media/activities-current-stage.bmp
 [img4]: media/activities-all-stages.bmp

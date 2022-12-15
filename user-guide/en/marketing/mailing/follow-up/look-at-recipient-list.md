@@ -74,6 +74,6 @@ Using the ![icon][img2] menu button you can add recipients and clickers to a sel
 [3]: manage-bounces.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/btn-menu.png
-[img3]: ../../../../../common/icons/nav-contact.png
+[img1]: ../../../..../media/icons/arrow-right.png
+[img2]: ../../../..../media/icons/btn-menu.png
+[img3]: ../../../../..../common/icons/nav-contact.png

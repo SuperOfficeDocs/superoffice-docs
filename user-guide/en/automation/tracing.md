@@ -45,6 +45,6 @@ The **Tracing** tab contains a list of all traces. Click a trace in the list to 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/run-script.png
-[img2]: ../../media/icons/btn-script-trace-small.png
-[img3]: ../../media/icons/edit.png
+[img1]: ../..../media/icons/run-script.png
+[img2]: ../..../media/icons/btn-script-trace-small.png
+[img3]: ../..../media/icons/edit.png

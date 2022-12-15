@@ -39,15 +39,15 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/pref-defaultvalues-h32.png
-[img2]: ../../../common/icons/pref-diary-h32.png
-[img3]: ../../../common/icons/pref-function-h32.png
-[img4]: ../../../common/icons/pref-email-h32.png
-[img5]: ../../../common/icons/pref-notification-h32.png
-[img6]: ../../../common/icons/pref-person-h32.png
-[img7]: ../../../common/icons/pref-request-h32.png
-[img8]: ../../../common/icons/pref-sale-h32.png
-[img9]: ../../../common/icons/pref-sorting-h32.png
-[img10]: ../../../common/icons/pref-system-h32.png
-[img11]: ../../../common/icons/pref-visualeffects-h32.png
-[img12]: ../../media/icons/personal-settings-small.png
+[img1]: ../../..../common/icons/pref-defaultvalues-h32.png
+[img2]: ../../..../common/icons/pref-diary-h32.png
+[img3]: ../../..../common/icons/pref-function-h32.png
+[img4]: ../../..../common/icons/pref-email-h32.png
+[img5]: ../../..../common/icons/pref-notification-h32.png
+[img6]: ../../..../common/icons/pref-person-h32.png
+[img7]: ../../..../common/icons/pref-request-h32.png
+[img8]: ../../..../common/icons/pref-sale-h32.png
+[img9]: ../../..../common/icons/pref-sorting-h32.png
+[img10]: ../../..../common/icons/pref-system-h32.png
+[img11]: ../../..../common/icons/pref-visualeffects-h32.png
+[img12]: ../..../media/icons/personal-settings-small.png

@@ -42,4 +42,4 @@ The default duration for an appointment is 1 hour, but you can change the durati
 [4]: activity.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/appointment.png
+[img1]: ../../..../common/icons/appointment.png

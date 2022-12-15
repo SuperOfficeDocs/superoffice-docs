@@ -51,11 +51,11 @@ There are three types of messages:
 
 <!-- Referenced links -->
 [1]: ../dashboard/in-service/index.md
-[2]: ../service/customers/person/index.md
+[2]: ../service/customers/contact/learn/index.md
 [3]: howto/assign.md
 [4]: howto/create.md
 [5]: find.md
-[6]: ../service/customers/company/index.md
+[6]: ../service/customers/company/learn/index.md
 [7]: howto/index.md
 [11]: find.md#list
 [12]: find.md#search
@@ -64,8 +64,8 @@ There are three types of messages:
 [15]: howto/flag-message.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/nav-dashboard.png
-[img2]: ../../../common/icons/nav-cs.png
-[img5]: ../../../common/icons/addcomment.png
-[img3]: ../../../common/icons/favourite-no.png
-[img4]: ../../../common/icons/favourite-yes.png
+[img1]: ../../..../common/icons/nav-dashboard.png
+[img2]: ../../..../common/icons/nav-cs.png
+[img5]: ../../..../common/icons/addcomment.png
+[img3]: ../../..../common/icons/favourite-no.png
+[img4]: ../../..../common/icons/favourite-yes.png

@@ -130,21 +130,21 @@ In SuperOffice Settings and maintenance, you can also define your own views for 
 
 <!-- Referenced links -->
 [1]: ../../search-options/using-history-list.md
-[2]: ../../person/create.md
-[3]: ../../diary/screen/day.md
-[4]: ../../diary/screen/index.md
-[5]: ../../document/screen/index.md
-[6]: ../../diary/screen/dialog-for-followups.md
+[2]: ../../contact/learn/create.md
+[3]: ../../diary/learn/screen/day.md
+[4]: ../../diary/learn/screen/index.md
+[5]: ../../document/learn/screen/index.md
+[6]: ../../diary/learn/screen/dialog-for-followups.md
 [7]: ../../search-options/selections/create/create-dynamic.yml
 [8]: ../fav.md
 [9]: ../notes.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-left.png
-[img2]: ../../../media/icons/arrow-right.png
-[img3]: ../../../../common/icons/dropdown-icon.png
-[img4]: ../../../../common/icons/right-collapse.png
-[img5]: ../../../../common/icons/right-expand.png
-[img7]: ../../../media/icons/mini-card-level.png
-[img8]: ../../../media/icons/mini-card-today.png
-[img9]: ../../../media/icons/mini-card-selected.png
+[img1]: ../../..../media/icons/arrow-left.png
+[img2]: ../../..../media/icons/arrow-right.png
+[img3]: ../../../..../common/icons/dropdown-icon.png
+[img4]: ../../../..../common/icons/right-collapse.png
+[img5]: ../../../..../common/icons/right-expand.png
+[img7]: ../../..../media/icons/mini-card-level.png
+[img8]: ../../..../media/icons/mini-card-today.png
+[img9]: ../../..../media/icons/mini-card-selected.png

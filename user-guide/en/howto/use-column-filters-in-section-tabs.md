@@ -48,6 +48,6 @@ Click ![icon][img1] and **Reset** to reset the filter.
 [3]: ../reports/filter.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/cog-wheel.png
-[img2]: ../../media/icons/column-header-filter.png
+[img1]: ../../..../common/icons/cog-wheel.png
+[img2]: ../..../media/icons/column-header-filter.png
 [img3]: media/section-tab-filter-columns.png

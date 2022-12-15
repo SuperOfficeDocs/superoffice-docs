@@ -49,16 +49,16 @@ Click the ![icon][img1] **Actions** button to access the following options:
 
 <!-- Referenced links -->
 [1]: find.md
-[2]: ../../../request/index.md#open
-[3]: ../person/index.md
+[2]: ../../../request/learn/index.md#open
+[3]: ../contact/learn/index.md
 [4]: create.md
 [5]: edit.md
-[6]: ../person/create.md
-[7]: ../../../request/invoice/for-company.md
+[6]: ../contact/learn/create.md
+[7]: ../../../request/learn/invoice/for-company.md
 [8]: delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../../common/icons/favourite-no.png
-[img3]: ../../../../../common/icons/nav-fav.png
-[img4]: ../../../../../common/icons/favourite-yes.png
+[img1]: ../../../..../media/icons/btn-menu.png
+[img2]: ../../../../..../common/icons/favourite-no.png
+[img3]: ../../../../..../common/icons/nav-fav.png
+[img4]: ../../../../..../common/icons/favourite-yes.png

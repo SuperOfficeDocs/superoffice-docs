@@ -36,4 +36,4 @@ Tasks can be displayed in the following places in SuperOffice CRM:
 [3]: index.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/appointment-task-h32.png
+[img1]: ../../..../common/icons/appointment-task-h32.png

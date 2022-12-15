@@ -145,10 +145,10 @@ If you need to revert to an earlier version of the screen, you can access the fo
 <!-- Referenced links -->
 [2]: ../../globalization/translate-fields.md
 [4]: add-new-layout.md
-[5]: ../../custom-objects/udef/index.md
+[5]: ../../custom-objects/learn/udef/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
-[img2]: ../../../../common/icons/delete-circle-red.png
-[img4]: ../../../media/icons/criteria-move.png
-[img5]: ../../../../common/icons/add-icon.png
+[img1]: ../../../..../common/icons/az.png
+[img2]: ../../../..../common/icons/delete-circle-red.png
+[img4]: ../../..../media/icons/criteria-move.png
+[img5]: ../../../..../common/icons/add-icon.png

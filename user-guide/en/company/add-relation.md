@@ -46,5 +46,5 @@ language: en
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/binders.bmp
+[img1]: ../..../media/icons/binders.bmp
 [img2]: media/relation.bmp

@@ -34,4 +34,4 @@ To stop the mailing or start a planned mailing ahead of schedule, click the **St
 <!-- Referenced images -->
 [img1]: ../media/send-now.png
 [img2]: ../media/btn-schedule.png
-[img3]: ../../../../../../common/icons/singlecolour/appointment.png
+[img3]: ../../../../../..../common/icons/singlecolour/appointment.png

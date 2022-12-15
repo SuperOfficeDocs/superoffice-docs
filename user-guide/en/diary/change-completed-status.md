@@ -34,10 +34,10 @@ When you consider that an activity is finished, you can mark it as completed.
 
 <!-- Referenced links -->
 [1]: open-follow-up.md
-[2]: ../document/open.md
+[2]: ../document/learn/open.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/check.bmp
-[img2]: ../../media/icons/sale-sold-details.bmp
+[img1]: ../..../media/icons/check.bmp
+[img2]: ../..../media/icons/sale-sold-details.bmp
 [img3]: media/completed-activity.bmp
 [img4]: media/completed-activity-2.bmp

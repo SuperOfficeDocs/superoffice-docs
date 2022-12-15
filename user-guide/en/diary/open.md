@@ -53,6 +53,6 @@ When you open the diary of another user or resource, you can switch between the 
 [2]: create-follow-up.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/menu-arrow.png
-[img2]: ../../media/icons/diary-owner-person.bmp
-[img3]: ../../media/icons/diary-owner-resource.bmp
+[img1]: ../../..../common/icons/menu-arrow.png
+[img2]: ../..../media/icons/diary-owner-person.bmp
+[img3]: ../..../media/icons/diary-owner-resource.bmp

@@ -45,10 +45,10 @@ If you have two nearly identical projects, it is possible to merge them, includi
 
 <!-- Referenced links -->
 [1]: ../search-options/find-dialog.md
-[2]: ../company/merge-companies.md
+[2]: ../company/learn/merge-companies.md
 [3]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../..../media/icons/btn-menu.png
 [img2]: media/merge-project.bmp
-[img3]: ../../../common/icons/info-ball.png
+[img3]: ../../..../common/icons/info-ball.png

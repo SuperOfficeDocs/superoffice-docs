@@ -63,4 +63,4 @@ Click ![icon][img1] in the header of a tile to access the following options:
 [4]: ../search-options/selections/update/add-members-to-static.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/context-menu.png
+[img1]: ../../..../common/icons/context-menu.png

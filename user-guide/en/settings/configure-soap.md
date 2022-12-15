@@ -31,5 +31,5 @@ language: en
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/delete-circle-red.png
-[img2]: ../../media/icons/settings-small.png
+[img1]: ../../..../common/icons/delete-circle-red.png
+[img2]: ../..../media/icons/settings-small.png

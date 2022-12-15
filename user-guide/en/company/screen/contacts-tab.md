@@ -62,17 +62,17 @@ They will then be shown in a different color. They are also shown in this way on
 * [Configure columns][9]
 
 <!-- Referenced links -->
-[1]: ../../person/index.md
-[2]: ../../person/create.md
-[3]: ../../person/edit.md
-[4]: ../../person/move.md
-[5]: ../../person/merge-contacts.md
-[6]: ../../person/delete.md
-[7]: ../../person/send-email.md
+[1]: ../../contact/learn/index.md
+[2]: ../../contact/learn/create.md
+[3]: ../../contact/learn/edit.md
+[4]: ../../contact/learn/move.md
+[5]: ../../contact/learn/merge-contacts.md
+[6]: ../../contact/learn/delete.md
+[7]: ../../contact/learn/send-email.md
 [8]: ../change-rank-of-contacts.md
 [9]: ../../howto/changing-column-view.md
 
 <!-- Referenced images -->
 [img1]: media/contacts-detail.bmp
-[img2]: ../../../media/icons/pin.bmp
-[img3]: ../../../media/icons/binders.bmp
+[img2]: ../../..../media/icons/pin.bmp
+[img3]: ../../..../media/icons/binders.bmp

@@ -88,10 +88,10 @@ Double-click a mailing to open it.
 [9]: ../../../howto/section-tabs.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../common/icons/cog-wheel.png
-[img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/arrow-left.png
-[img4]: ../../../../media/icons/personal-settings-small.png
-[img5]: ../../../../media/icons/refresh.png
-[img7]: ../../../../media/icons/column-header-filter.png
+[img3]: ../../../../..../common/icons/cog-wheel.png
+[img1]: ../../../..../media/icons/arrow-right.png
+[img2]: ../../../..../media/icons/arrow-left.png
+[img4]: ../../../..../media/icons/personal-settings-small.png
+[img5]: ../../../..../media/icons/refresh.png
+[img7]: ../../../..../media/icons/column-header-filter.png
 [img6]: ../../../media/task.png

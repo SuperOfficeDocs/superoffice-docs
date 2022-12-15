@@ -36,4 +36,4 @@ If you checked **Show in left menu** when you created a selection, the name of t
 [3]: delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/refresh.png
+[img1]: ../../../..../media/icons/refresh.png

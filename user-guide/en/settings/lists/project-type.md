@@ -37,7 +37,7 @@ language: en
 7. Click **Save**. The project type is added as a separate item in the **Items** list. Repeat this procedure to add more project types.
 
 <!-- Referenced links -->
-[2]: ../../project/screen/project-status-admin.md
-[3]: ../../project/project-guide/index.md
+[2]: ../../project/learn/screen/project-status-admin.md
+[3]: ../../project/learn/project-guide/index.md
 
 <!-- Referenced images -->

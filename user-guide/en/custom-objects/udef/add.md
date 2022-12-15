@@ -69,12 +69,12 @@ Four of each type of field (Short text, Long text, Number, Decimal) are searchab
 
 <!-- Referenced links -->
 [1]: limitations.md
-[2]: ../../document/template-variables.md
+[2]: ../../document/learn/template-variables.md
 [3]: move.md
 [4]: edit.md
 [5]: change-tab-order.md
 [6]: index.md#field-types
 
 <!-- Referenced links -->
-[img1]: ../../../media/icons/admin/fields-unpublish-new.png
-[img2]: ../../../media/icons/admin/fields-unpublish-changed.png
+[img1]: ../../..../media/icons/admin/fields-unpublish-new.png
+[img2]: ../../..../media/icons/admin/fields-unpublish-changed.png

@@ -34,7 +34,7 @@ The inbox contains the following options:
 [1]: compose.md
 
 <!-- Referenced images -->
-[img2]: ../../../../common/icons/dropdown-arrow.png
-[img5]: ../../../../common/icons/arrow-down-icon.png
-[img3]: ../../../../common/icons/filter-icon.png
-[img4]: ../../../../common/icons/refresh-icon.png
+[img2]: ../../../..../common/icons/dropdown-arrow.png
+[img5]: ../../../..../common/icons/arrow-down-icon.png
+[img3]: ../../../..../common/icons/filter-icon.png
+[img4]: ../../../..../common/icons/refresh-icon.png

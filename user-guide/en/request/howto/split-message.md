@@ -52,4 +52,4 @@ If a message contains two issues that should be handled separately, you can spli
 [2]: split-request.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

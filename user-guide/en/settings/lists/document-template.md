@@ -32,7 +32,7 @@ You can also create your own templates in the applications you have chosen to us
 * [Look at template variables][1]
 
 <!-- Referenced links -->
-[1]: ../../document/template-variables.md
+[1]: ../../document/learn/template-variables.md
 [2]: using-standard-templates.md
 [3]: application.md
 [4]: creating-template-document.md

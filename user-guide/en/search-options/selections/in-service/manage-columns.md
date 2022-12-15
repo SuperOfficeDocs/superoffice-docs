@@ -91,8 +91,8 @@ You can edit the information about the existing columns, for example the name an
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/delete-red.png
-[img2]: ../../../../media/icons/edit.png
-[img3]: ../../../../../common/icons/dropdown-arrow.png
-[img4]: ../../../../media/icons/service/rank-up.png
-[img5]: ../../../../media/icons/service/rank-down.png
+[img1]: ../../../../..../common/icons/delete-red.png
+[img2]: ../../../..../media/icons/edit.png
+[img3]: ../../../../..../common/icons/dropdown-arrow.png
+[img4]: ../../../..../media/icons/service/rank-up.png
+[img5]: ../../../..../media/icons/service/rank-down.png

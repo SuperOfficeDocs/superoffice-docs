@@ -69,7 +69,7 @@ If you or someone else checked out a document, and you want to edit the document
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
-[img2]: ../../media/icons/personal-settings-small.png
-[img3]: ../../media/icons/document-lock-editing.png
-[img4]: ../../media/icons/document-lock-locked.png
+[img1]: ../..../media/icons/btn-menu.png
+[img2]: ../..../media/icons/personal-settings-small.png
+[img3]: ../..../media/icons/document-lock-editing.png
+[img4]: ../..../media/icons/document-lock-locked.png

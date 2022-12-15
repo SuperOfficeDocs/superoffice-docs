@@ -41,4 +41,4 @@ language: en
 [19]: create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-add.png
+[img1]: ../..../media/icons/btn-add.png

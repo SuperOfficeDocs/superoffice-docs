@@ -39,7 +39,7 @@ After a follow-up or document is created, you can subsequently delete or edit it
 * [Work with sales guides][1]
 
 <!-- Referenced links -->
-[1]: ../../sale/sales-guide/working-with-sales-guide.md
+[1]: ../../sale/learn/sales-guide/working-with-sales-guide.md
 
 <!-- Referenced images -->
 [img1]: media/completed-sale-stage.bmp

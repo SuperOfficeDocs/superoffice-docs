@@ -99,4 +99,4 @@ The default priorities included with the system are **High**, **Medium** and **L
 [1]: escalation-levels.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/settings-small.png
+[img1]: ../../..../media/icons/settings-small.png

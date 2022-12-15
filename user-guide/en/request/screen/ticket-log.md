@@ -18,4 +18,4 @@ Click the ![icon][img1] menu button in the lower left corner and select **Export
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

@@ -27,7 +27,7 @@ Double-click a project in the list to open the **Project** screen in SuperOffice
 * [Manage project][2]
 
 <!-- Referenced links -->
-[2]: ../../project/index.md
-[3]: ../../project/create.md
+[2]: ../../project/learn/index.md
+[3]: ../../project/learn/create.md
 
 <!-- Referenced images -->

@@ -52,8 +52,8 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 4. Click **OK** to confirm.
 
 <!-- Referenced links -->
-[1]: ../../ui/in-service/index.md
+[1]: ../../ui/learn/in-service/index.md
 [2]: ../../search-options/in-service/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/settings-small.png
+[img1]: ../../..../media/icons/settings-small.png

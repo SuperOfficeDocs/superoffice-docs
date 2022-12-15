@@ -45,5 +45,5 @@ The **Company** screen contains the following section tabs:
 [7]: ../../erp/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
+[img1]: ../../..../media/icons/arrow-right.png
+[img2]: ../../..../media/icons/arrow-left.png

@@ -27,7 +27,7 @@ The knowledge base gives request handlers access to saved data in a single locat
 
 <!-- Referenced links -->
 [1]: ../../search-options/in-service/search-kb.md
-[2]: ../../document/in-service/index.md
+[2]: ../../document/learn/in-service/index.md
 [3]: ../external-document.md
 [4]: ../mailboxes/index.md
 [5]: ../../faq/index.md

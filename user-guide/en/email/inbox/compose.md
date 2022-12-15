@@ -47,9 +47,9 @@ When you finished the message, and want to send it, you have the following optio
 > The signature template at the bottom of the message can be edited in ![icon][img1] **Personal settings** > **Edit personal signature**.
 
 <!-- Referenced links -->
-[1]: ../../document/create.md
+[1]: ../../document/learn/create.md
 [2]: archive.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
-[img2]: ../../../../common/icons/dropdown-icon.png
+[img1]: ../../..../media/icons/personal-settings-small.png
+[img2]: ../../../..../common/icons/dropdown-icon.png

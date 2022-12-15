@@ -121,19 +121,19 @@ To return to the ordinary view, click the **Simple view** button at the top of t
 <!-- Referenced links -->
 [1]: quick-search.md
 [2]: in-navigator.md
-[3]: ../../request/find.md
-[4]: ../../request/find.md#list
+[3]: ../../request/learn/find.md
+[4]: ../../request/learn/find.md#list
 [5]: ../selections/in-service/index.md
 [6]: ../selections/in-service/create-from-search.md
 [7]: customize-presentation.md#add-column
 [8]: customize-presentation.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/refresh.png
-[img2]: ../../../media/icons/btn-menu.png
-[img3]: ../../../../common/icons/dropdown-arrow.png
-[img4]: ../../../media/icons/btn-add.png
-[img5]: ../../../../common/icons/delete-red.png
-[img6]: ../../../../common/icons/search-icon-black.png
-[img7]: ../../../media/icons/service/inputText.png
-[img8]: ../../../../common/icons/settingstools.png
+[img1]: ../../..../media/icons/refresh.png
+[img2]: ../../..../media/icons/btn-menu.png
+[img3]: ../../../..../common/icons/dropdown-arrow.png
+[img4]: ../../..../media/icons/btn-add.png
+[img5]: ../../../..../common/icons/delete-red.png
+[img6]: ../../../..../common/icons/search-icon-black.png
+[img7]: ../../..../media/icons/service/inputText.png
+[img8]: ../../../..../common/icons/settingstools.png

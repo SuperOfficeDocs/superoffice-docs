@@ -33,6 +33,6 @@ so.client:
 [2]: extra-field/index.md
 [3]: extra-table/index.md
 [4]: extra-table/create.md
-[5]: ../ui/screen-designer/index.md
+[5]: ../ui/learn/screen-designer/index.md
 
 <!-- Referenced images -->

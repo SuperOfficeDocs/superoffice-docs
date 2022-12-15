@@ -45,8 +45,8 @@ Using the document mailing workflow you can generate a PDF document to print and
 > Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.
 
 <!-- Referenced links -->
-[1]: ../../../../../../docs/document/templates/variables/index.md
+[1]: ../../../../../../docs/document/learn/templates/variables/index.md
 [19]: ../../../create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png
+[img1]: ../../../../..../media/icons/btn-menu.png

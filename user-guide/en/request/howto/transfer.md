@@ -39,4 +39,4 @@ As a request handler, you are not always able to answer the request on your own.
 [3]: ../category/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

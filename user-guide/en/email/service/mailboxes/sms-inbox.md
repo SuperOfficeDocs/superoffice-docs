@@ -35,4 +35,4 @@ Click one of the messages in this tab to view information about the selected mes
 [2]: sms-outbox.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../..../media/icons/btn-menu.png

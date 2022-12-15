@@ -33,4 +33,4 @@ If you later want to revert a page to the original contents, open the page and c
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/settings-small.png
+[img1]: ../..../media/icons/settings-small.png

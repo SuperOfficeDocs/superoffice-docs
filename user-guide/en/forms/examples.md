@@ -201,9 +201,9 @@ In this example we will show you how to create short form for customers who want
 [5]: submissions/process.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/marketing-and-forms/add-field.png
-[img2]: ../../media/icons/marketing-and-forms/move-field.png
-[img3]: ../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img4]: ../../../common/icons/new-window-icon.png
-[img5]: ../../../common/icons/edit-black.png
-[img6]: ../../media/icons/marketing-and-forms/form-active.png
+[img1]: ../..../media/icons/marketing-and-forms/add-field.png
+[img2]: ../..../media/icons/marketing-and-forms/move-field.png
+[img3]: ../..../media/icons/marketing-and-forms/toolbar-show-hide.png
+[img4]: ../../..../common/icons/new-window-icon.png
+[img5]: ../../..../common/icons/edit-black.png
+[img6]: ../..../media/icons/marketing-and-forms/form-active.png

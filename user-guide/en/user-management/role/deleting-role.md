@@ -39,4 +39,4 @@ When you delete a role, you must move the users with this role to another role. 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/arrow-down.png
+[img3]: ../../..../media/icons/arrow-down.png

@@ -171,13 +171,13 @@ This tab displays any [custom fields][14] configured in SuperOffice Settings and
 [11]: ../change-completed-status.md
 [12]: ../../search-options/using-fastsearcher.md
 [13]: ../../getting-started/preferences.md
-[14]: ../../custom-objects/index.md
+[14]: ../../custom-objects/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/dropdown-icon.png
-[img3]: ../../../../common/icons/videocall-off.png
-[img4]: ../../../../common/icons/videocall.png
-[img5]: ../../../media/icons/followup-not-completed.png
-[img6]: ../../../media/icons/followup-completed.png
-[img7]: ../../../../common/icons/diary-participants.png
+[img1]: ../../..../media/icons/btn-menu.png
+[img2]: ../../../..../common/icons/dropdown-icon.png
+[img3]: ../../../..../common/icons/videocall-off.png
+[img4]: ../../../..../common/icons/videocall.png
+[img5]: ../../..../media/icons/followup-not-completed.png
+[img6]: ../../..../media/icons/followup-completed.png
+[img7]: ../../../..../common/icons/diary-participants.png

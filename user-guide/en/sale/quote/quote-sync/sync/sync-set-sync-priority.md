@@ -22,5 +22,5 @@ If SuperOffice is connected to several ERP system, and there are several Sync Co
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png
+[img1]: ../../../../..../media/icons/arrow-down.png
+[img2]: ../../../../..../media/icons/arrow-up.png

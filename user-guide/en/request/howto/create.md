@@ -145,18 +145,18 @@ The autosave feature is activated by default when you view and edit requests and
 <!-- Referenced links -->
 [3]: ../priority/escalation-levels.md
 [4]: ../tags.md
-[5]: ../../service/customers/person/create.md
-[6]: ../../ui/in-service/screen-properties.md
+[5]: ../../service/customers/contact/learn/create.md
+[6]: ../../ui/learn/in-service/screen-properties.md
 [7]: ../reply-templates/new-language.md
 [8]: ../invoice/index.md
 [9]: index.md
 [10]: ../category/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../media/icons/service/msg-toolbar.png
-[img3]: ../../../media/icons/service/msg-attachment.png
-[img4]: ../../../../common/icons/dropdown-arrow.png
-[img5]: ../../../../common/icons/stop.png
-[img6]: ../../../../common/icons/play.png
-[img7]: ../../../../common/icons/timespan.png
+[img1]: ../../..../media/icons/btn-add.png
+[img2]: ../../..../media/icons/service/msg-toolbar.png
+[img3]: ../../..../media/icons/service/msg-attachment.png
+[img4]: ../../../..../common/icons/dropdown-arrow.png
+[img5]: ../../../..../common/icons/stop.png
+[img6]: ../../../..../common/icons/play.png
+[img7]: ../../../..../common/icons/timespan.png

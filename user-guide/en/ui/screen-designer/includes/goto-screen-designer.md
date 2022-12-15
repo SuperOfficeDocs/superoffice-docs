@@ -4,4 +4,4 @@
 1. Click **Company**, **Contact**, **Sale** or **Project** at the top.
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-confscreen-active.png
+[img1]: ../../../../..../common/icons/nav-admin-confscreen-active.png

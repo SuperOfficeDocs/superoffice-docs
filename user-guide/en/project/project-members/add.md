@@ -71,9 +71,9 @@ You can add project members and stakeholders from the contact lists in different
 6. Click **Save**.
 
 <!-- Referenced links -->
-[2]: ../../person/create.md
+[2]: ../../contact/learn/create.md
 [3]: ../../search-options/find-dialog.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.bmp
-[img2]: ../../../media/icons/arrow-right.png
+[img1]: ../../..../media/icons/binders.bmp
+[img2]: ../../..../media/icons/arrow-right.png

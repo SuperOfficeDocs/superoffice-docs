@@ -60,4 +60,4 @@ Click **Show count** at the bottom right of the section tab, to see how many rec
 [3]: sections-tabs-grouping-lists.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/filter-icon.png
+[img1]: ../../..../common/icons/filter-icon.png

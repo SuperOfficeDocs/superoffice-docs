@@ -72,7 +72,7 @@ language: en
 [8]: ../editor/drag-and-drop/add-link-to-display-message-in-browser.md
 
 <!-- Referenced images -->
-[img4]: ../../../media/icons/marketing-and-forms/link.png
-[img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../../common/icons/folder.png
-[img3]: ../../../media/icons/marketing-and-forms/link.png
+[img4]: ../../..../media/icons/marketing-and-forms/link.png
+[img1]: ../../..../media/icons/btn-add.png
+[img2]: ../../../..../common/icons/folder.png
+[img3]: ../../..../media/icons/marketing-and-forms/link.png

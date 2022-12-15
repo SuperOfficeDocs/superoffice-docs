@@ -30,4 +30,4 @@ language: en
 [4]: delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/archive-icon.png
+[img1]: ../../../..../common/icons/archive-icon.png

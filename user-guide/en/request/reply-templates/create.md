@@ -104,5 +104,5 @@ You can select the degree of correlation between the request from the customer a
 [7]: copy.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/delete-red.png
-[img2]: ../../../media/icons/settings-small.png
+[img1]: ../../../..../common/icons/delete-red.png
+[img2]: ../../..../media/icons/settings-small.png

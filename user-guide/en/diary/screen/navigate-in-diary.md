@@ -34,5 +34,5 @@ The diary consists of [four different tabs][1]: **Day** tab, **Week** tab, **Mon
 [1]: index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
+[img1]: ../../..../media/icons/arrow-right.png
+[img2]: ../../..../media/icons/arrow-left.png

@@ -82,10 +82,10 @@ Click the delete icon ![icon][img1] to the right of the required column. The col
 [1]: index.md#open
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/delete-red.png
-[img2]: ../../../media/icons/edit.png
-[img3]: ../../../../common/icons/settingstools.png
-[img6]: ../../../../common/icons/dropdown-arrow.png
-[img7]: ../../../media/icons/arrow-up.png
-[img8]: ../../../media/icons/service/rank-up.png
-[img9]: ../../../media/icons/service/rank-down.png
+[img1]: ../../../..../common/icons/delete-red.png
+[img2]: ../../..../media/icons/edit.png
+[img3]: ../../../..../common/icons/settingstools.png
+[img6]: ../../../..../common/icons/dropdown-arrow.png
+[img7]: ../../..../media/icons/arrow-up.png
+[img8]: ../../..../media/icons/service/rank-up.png
+[img9]: ../../..../media/icons/service/rank-down.png

@@ -48,4 +48,4 @@ To view statistics about your mailing, go to the **Mailings** tab and click the 
 [4]: manage-bounces.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../..../media/icons/btn-menu.png

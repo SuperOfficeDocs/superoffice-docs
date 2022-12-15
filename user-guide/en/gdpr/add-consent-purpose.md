@@ -56,5 +56,5 @@ language: en
 [3]: privacy.md#source
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/az.png
-[img2]: ../../../common/icons/nav-admin-privacy-active.png
+[img1]: ../../..../common/icons/az.png
+[img2]: ../../..../common/icons/nav-admin-privacy-active.png

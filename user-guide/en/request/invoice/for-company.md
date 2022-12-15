@@ -36,4 +36,4 @@ When processing requests, you have the option of [registering invoice data][1] a
 [2]: index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

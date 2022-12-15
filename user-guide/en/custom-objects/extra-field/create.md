@@ -65,5 +65,5 @@ After you create an extra table, you must set up fields in the table, to allow y
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/settings-small.png
-[img2]: ../../../media/icons/service/new-field.png
+[img1]: ../../..../media/icons/settings-small.png
+[img2]: ../../..../media/icons/service/new-field.png

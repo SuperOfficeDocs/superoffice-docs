@@ -28,4 +28,4 @@ You can create sub-folders in all folders, and you can place the appropriate mai
 5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/folder.png
+[img1]: ../../..../common/icons/folder.png

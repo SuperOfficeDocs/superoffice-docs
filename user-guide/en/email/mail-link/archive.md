@@ -69,4 +69,4 @@ If you open an email that has already been archived, the **Archive email** butto
 [8]: create-in-superoffice.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/mail-link/already-archived.png
+[img1]: ../../..../media/icons/mail-link/already-archived.png

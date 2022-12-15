@@ -145,15 +145,15 @@ This tab displays any [user-defined fields][3] configured in SuperOffice Setting
 [1]: ../edit.md
 [5]: ../create.md
 [6]: ../../search-options/using-fastsearcher.md
-[7]: ../../diary/change-completed-status.md
+[7]: ../../diary/learn/change-completed-status.md
 [8]: ../lock.md
 [9]: ../../win-client/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../howto/linking-documents-to-follow-ups.md
-[3]: ../../custom-objects/udef/index.md
+[3]: ../../custom-objects/learn/udef/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/icons/document-lock-editing.png
-[img3]: ../../../media/icons/document-lock-locked.png
-[img4]: ../../../media/icons/followup-completed-small.png
-[img5]: ../../../media/icons/followup-not-completed-small.png
+[img1]: ../../../..../common/icons/dropdown-icon.png
+[img2]: ../../..../media/icons/document-lock-editing.png
+[img3]: ../../..../media/icons/document-lock-locked.png
+[img4]: ../../..../media/icons/followup-completed-small.png
+[img5]: ../../..../media/icons/followup-not-completed-small.png

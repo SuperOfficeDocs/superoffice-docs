@@ -61,10 +61,10 @@ Normally, contacts are registered by the system when they send in mails, but the
 * [Create companies][1]
 
 <!-- Referenced links -->
-[1]: ../company/create.md
+[1]: ../company/learn/create.md
 [2]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../../common/icons/delete-red.png
-[img3]: ../../../../../common/icons/plus-black.png
+[img1]: ../../../..../media/icons/btn-add.png
+[img2]: ../../../../..../common/icons/delete-red.png
+[img3]: ../../../../..../common/icons/plus-black.png

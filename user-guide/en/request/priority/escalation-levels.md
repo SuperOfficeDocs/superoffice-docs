@@ -99,5 +99,5 @@ For each priority you can define one or more escalation levels, so that the syst
 2. Click the **Delete** button at the bottom of the screen.
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/settings-small.png
-[img2]: ../../../../common/icons/diaryblack.png
+[img1]: ../../..../media/icons/settings-small.png
+[img2]: ../../../..../common/icons/diaryblack.png

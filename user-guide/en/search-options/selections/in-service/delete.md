@@ -40,5 +40,5 @@ Deleting a selection does not delete the actual records it contains. They will r
 7. Optionally, delete the selection itself.
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/edit.png
-[img2]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../..../media/icons/edit.png
+[img2]: ../../../..../media/icons/btn-menu.png

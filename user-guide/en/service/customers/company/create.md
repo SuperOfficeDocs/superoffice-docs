@@ -57,11 +57,11 @@ Contacts can be linked to companies:
 * [Create contacts][1]
 
 <!-- Referenced links -->
-[1]: ../person/create.md
-[2]: ../../../request/priority/index.md
+[1]: ../contact/learn/create.md
+[2]: ../../../request/learn/priority/index.md
 [3]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../../common/icons/delete-red.png
-[img3]: ../../../../../common/icons/personblack.png
+[img1]: ../../../..../media/icons/btn-add.png
+[img2]: ../../../../..../common/icons/delete-red.png
+[img3]: ../../../../..../common/icons/personblack.png

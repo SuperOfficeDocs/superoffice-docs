@@ -140,13 +140,13 @@ To change a search criterion in the **Find** dialog, click it and select a diffe
 [1]: ../lists/sale-amount-class.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../../common/icons/dropdown-icon.png
-[img4]: ../../../media/icons/select-all.png
-[img5]: ../../../media/icons/admin/status-active.bmp
-[img6]: ../../../media/icons/admin/status-inactive.bmp
-[img7]: ../../../media/icons/admin/saint-counter-company.bmp
-[img8]: ../../../media/icons/admin/saint-counter-project.bmp
-[img9]: ../../../media/icons/admin/saint-counter-project-dis.bmp
-[img10]: ../../../media/icons/admin/saint-counter-company-dis.bmp
+[img1]: ../../..../media/icons/arrow-right.png
+[img2]: ../../..../media/icons/arrow-left.png
+[img3]: ../../../..../common/icons/dropdown-icon.png
+[img4]: ../../..../media/icons/select-all.png
+[img5]: ../../..../media/icons/admin/status-active.bmp
+[img6]: ../../..../media/icons/admin/status-inactive.bmp
+[img7]: ../../..../media/icons/admin/saint-counter-company.bmp
+[img8]: ../../..../media/icons/admin/saint-counter-project.bmp
+[img9]: ../../..../media/icons/admin/saint-counter-project-dis.bmp
+[img10]: ../../..../media/icons/admin/saint-counter-company-dis.bmp

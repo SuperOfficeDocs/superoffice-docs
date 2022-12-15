@@ -64,6 +64,6 @@ Click this button to connect to another SuperOffice installation. Follow the ons
 [5]: archive-emails-as-activities.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/soarchive.png
-[img2]: ../../../media/icons/btn-selected.png
-[img3]: ../../../media/icons/btn-unselected.png
+[img1]: ../../../..../common/icons/soarchive.png
+[img2]: ../../..../media/icons/btn-selected.png
+[img3]: ../../..../media/icons/btn-unselected.png

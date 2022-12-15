@@ -87,11 +87,11 @@ Lists requests that no-one is assigned responsibility for. To [take responsibili
 
 <!-- Referenced links -->
 [1]: ../create.md#service
-[2]: ../../request/howto/accept.md
-[3]: ../../request/howto/assign.md
-[4]: ../../request/howto/create.md
-[5]: ../../request/find.md
-[6]: ../../request/howto/index.md
+[2]: ../../request/learn/howto/accept.md
+[3]: ../../request/learn/howto/assign.md
+[4]: ../../request/learn/howto/create.md
+[5]: ../../request/learn/find.md
+[6]: ../../request/learn/howto/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/settings-small.png
+[img1]: ../../..../media/icons/settings-small.png

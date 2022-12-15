@@ -168,9 +168,9 @@ You can now change the stage to **Sold**. After all the required follow-ups and 
 > If you want the sale to remain visible in, for example, the **Activities** section tab in the **Sale** screen and the **Sales** section tab in the **Diary** screen, you must not set the sale to completed.
 
 <!-- Referenced links -->
-[1]: ../../document/screen/index.md
-[2]: ../../diary/screen/dialog-for-followups.md
-[3]: ../../document/edit.md
+[1]: ../../document/learn/screen/index.md
+[2]: ../../diary/learn/screen/dialog-for-followups.md
+[3]: ../../document/learn/edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
+[img1]: ../../..../media/icons/personal-settings-small.png

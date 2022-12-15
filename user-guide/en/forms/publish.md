@@ -44,5 +44,5 @@ A notification on the **Form submissions** tab (![icon][img2]) indicates that yo
 [3]: submissions/process.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/marketing-and-forms/form-active.png
-[img2]: ../../media/icons/marketing-and-forms/form-notification.png
+[img1]: ../..../media/icons/marketing-and-forms/form-active.png
+[img2]: ../..../media/icons/marketing-and-forms/form-notification.png

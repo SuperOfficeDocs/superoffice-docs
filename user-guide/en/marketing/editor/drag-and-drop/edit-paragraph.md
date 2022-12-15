@@ -82,8 +82,8 @@ Click **Next** if you are done editing.
 
 <!-- Referenced images -->
 [img1]: media/edit-section.png
-[img2]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile.png
+[img2]: ../../../..../media/icons/marketing-and-forms/side-panel-body-small.png
+[img3]: ../../../..../media/icons/marketing-and-forms/desktop-2.png
+[img4]: ../../../..../media/icons/marketing-and-forms/mobile.png
 [img5]: media/toolbar.png
-[img6]: ../../../../media/icons/marketing-and-forms/link.png
+[img6]: ../../../..../media/icons/marketing-and-forms/link.png

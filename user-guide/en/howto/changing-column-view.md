@@ -37,7 +37,7 @@ To reset the columns to the default view, click **Reset**.
 [1]: sorting-lists.md
 [2]: adjusting-column-widths.md
 [3]: sections-tabs-grouping-lists.md
-[4]: ../company/change-rank-of-contacts.md
+[4]: ../company/learn/change-rank-of-contacts.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/cog-wheel.png
+[img1]: ../../..../common/icons/cog-wheel.png

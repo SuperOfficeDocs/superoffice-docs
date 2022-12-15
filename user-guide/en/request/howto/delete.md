@@ -33,4 +33,4 @@ In general, it is not recommended to delete a request. However, you may have to 
 [2]: fav.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

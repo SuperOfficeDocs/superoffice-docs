@@ -32,12 +32,12 @@ Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM w
 * [Filter activities and sales][3]
 
 <!-- Referenced links -->
-[1]: ../../sale/stages.md
-[2]: ../../sale/index.md
+[1]: ../../sale/learn/stages.md
+[2]: ../../sale/learn/index.md
 [3]: ../../howto/using-filter-function-contact.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/sale-sold-details.bmp
-[img2]: ../../../media/icons/check.bmp
-[img3]: ../../../media/icons/sale-lost-details.bmp
-[img4]: ../../../../common/icons/salestalled.png
+[img1]: ../../..../media/icons/sale-sold-details.bmp
+[img2]: ../../..../media/icons/check.bmp
+[img3]: ../../..../media/icons/sale-lost-details.bmp
+[img4]: ../../../..../common/icons/salestalled.png

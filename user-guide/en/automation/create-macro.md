@@ -52,5 +52,5 @@ We will now create a macro based on the example above.
 [1]: trigger.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
-[img2]: ../../media/icons/settings-small.png
+[img1]: ../..../media/icons/btn-menu.png
+[img2]: ../..../media/icons/settings-small.png

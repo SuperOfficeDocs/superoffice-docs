@@ -95,8 +95,8 @@ Here you can choose if the quote must be approved if the total discount is above
 
 <!-- Referenced links -->
 [2]: adding-items.md
-[3]: ../../sale/screen/sale-stage.md
-[4]: ../../sale/stakeholders/index.md
-[5]: ../../sale/screen/sales-guide-admin.md
+[3]: ../../sale/learn/screen/sale-stage.md
+[4]: ../../sale/learn/stakeholders/index.md
+[5]: ../../sale/learn/screen/sales-guide-admin.md
 
 <!-- Referenced images -->

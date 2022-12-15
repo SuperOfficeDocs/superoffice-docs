@@ -24,6 +24,6 @@ You have the following options:
 [1]: ../../../search-options/in-service/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/edit.png
-[img3]: ../../../../media/icons/service/statistics-group.png
+[img1]: ../../../..../media/icons/btn-menu.png
+[img2]: ../../../..../media/icons/edit.png
+[img3]: ../../../..../media/icons/service/statistics-group.png

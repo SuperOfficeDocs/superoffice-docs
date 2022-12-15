@@ -80,4 +80,4 @@ You must link all the required SuperOffice fields to their respective columns to
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/admin/import-excel-small.bmp
+[img1]: ../..../media/icons/admin/import-excel-small.bmp

@@ -28,4 +28,4 @@ An email message is automatically set to read (not bold) when you select it in t
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[img1]: ../../..../media/icons/btn-menu.png

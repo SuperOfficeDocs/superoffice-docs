@@ -78,5 +78,5 @@ This tab is visible if **Email response** is activated for this form (see [Creat
 [6]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/favourite-no.png
-[img2]: ../../../common/icons/nav-search.png
+[img1]: ../../..../common/icons/favourite-no.png
+[img2]: ../../..../common/icons/nav-search.png
