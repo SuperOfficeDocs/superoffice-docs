@@ -66,5 +66,5 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 [img10]: ../../../common/icons/pref-system-h32.png
 [img11]: ../../../common/icons/pref-visualeffects-h32.png
 [img12]: ../../media/icons/personal-settings-small.png
-[img13]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/getstarted-personalsettings.png
-[img14]: media/
+[img13]: media/getstarted-personalsettings.png
+[img14]: media/getstarted-preferences-e-mailsignature.png

@@ -143,4 +143,4 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 [41]: https://online.superoffice.com/appstore
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/getstarted-personalsettings.png
+[img1]: media/getstarted-personalsettings.png

@@ -157,4 +157,4 @@ In SuperOffice Settings and maintenance, you can also define your own views for 
 [img7]: ../../../media/icons/mini-card-level.png
 [img8]: ../../../media/icons/mini-card-today.png
 [img9]: ../../../media/icons/mini-card-selected.png
-[img10]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/getstarted-sidepanel-companypreview.png
+[img10]: media/getstarted-sidepanel-companypreview.png

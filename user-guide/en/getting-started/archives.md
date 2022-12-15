@@ -19,7 +19,7 @@ You find the archive tabs below the main card. These contain, for example, lists
 By configuring columns, you can customize displayed information and work with CRM data the way you need. Learn how to configure columns with this video or follow the steps below (video length - 1:44):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/IjlPSN-u0MA
+> [!Video https://www.youtube.com/embed/IjlPSN-u0MA]
 
 [Read more][1]
 
@@ -36,10 +36,33 @@ Learn how to customize views by configuring columns with this short video, or re
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/HYYI4ZCl4S4]
 
-### How to use filters in archives
+### How to filter the information in your archive
 
-* Filter the information in your archive
-* Use filters in section tabs
+You can filter information in all archives in SuperOffice CRM.
+
+1. Open the archive that contains the information you are looking for.
+
+    ![Click the Settings button on the right-hand side of the archive you've selected. -screenshot][img1]
+
+1. Check **Enable filters** at the top of the dialogue that appears. Then click **OK**.
+
+    You'll see that all the columns in your archive now have a funnel icon behind them. Click on the funnel of the column you wish to use to find the information you need.
+
+    ![You can click the filter icon on the column and select wanted filter -screenshot][img2]
+
+1. The filter dialogue will appear. Here you can select the information you are looking for.
+
+    For example, if you are looking for a document created by one of your colleagues, you can select the name of your colleague and the type of document you are looking for.
+
+    ![Click Filter to set it and show the filtered archive -screenshot][img3]
+
+1. Once you've selected the contact name, activity type, or other, you wish to use, click **Filter**. SuperOffice will now show you all the records that match the filter you've selected. You can add as many filters as you want to use.
+
+    ![See the archive with less entities. It can make it easier to find what you are after -screenshot][img4]
+
+1. To remove a filter you've selected, you click the funnel icon again and click **Clear**. Again, SuperOffice will update the list of records in the archive immediately.
+
+[Read more][4]
 
 ## Group data in your archives
 
@@ -56,8 +79,29 @@ Learn how to customize views by configuring columns with this short video, or re
 
 ### How to group information in an archive
 
-* Group the information in an archive
-* Grouping lists
+You can group the information in an archive by all the fields/columns in the archive.
+
+1. Find the archive that you want to group the information.
+
+    ![Click the settings button to enable grouping and select Enable grouping -screenshot][img5]
+
+1. Click the **Settings** button on the right-hand side of the archive you've selected. Check **Enable** at the top of the dialogue that appears. Then click **OK**.
+
+    ![A line on top of the archive is now available: Drag a column header and rop it here to group by that column -screenshot][img6]
+
+1. You'll see that an extra bar is now visible that says: *Drag a column header and drop it here to group by that column*. You can click and drag any column into this bar to group the content of this archive after the information of this column.
+
+    ![Click and drag columns to group your information -screenshot][img7]
+
+    For example, if you are looking for a document connected to one of the contacts working for this company, you can drag and drop the Contact column into the bar. Then do the same for the Activity type column.
+
+    SuperOffice will now show you all the records group by and in the order of the columns you've selected. You can add as many columns as you want to use.
+
+1. To remove a grouping column you've selected, click the X behind the column. Again, SuperOffice will update the list of records in the archive immediately.
+
+    ![Press the X to remove a grouping column -screenshot][img8]
+
+[Read more][5]
 
 ## Related
 
@@ -68,5 +112,15 @@ Learn how to customize views by configuring columns with this short video, or re
 [1]: ../howto/changing-column-view.md
 [2]:
 [3]: ../search-options/selections/index.md
+[4]: ../howto/use-filters-in-section-tabs.md
+[5]: ../howto/sections-tabs-grouping-lists.md
 
 <!-- Referenced images -->
+[img1]: media/archives-enable-filter.png
+[img2]: media/getstarted-archives-filteron.png
+[img3]: media/getstarted-archives-filter-ownersetting.png
+[img4]: media/getstarted-archives-filter-owner.png
+[img5]: media/archive-enable-grouping.png
+[img6]: media/getstarted-archives-groupingon.png
+[img7]: media/getstarted-archives-selectgroup.png
+[img8]: media/getstarted-archives-deletegroup.png

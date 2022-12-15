@@ -37,4 +37,4 @@ Use the side panel, and you’ll be able to work in a well-organized and efficie
 [3]:
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/getstarted-sidepanel-saleselection.png
+[img1]: media/getstarted-sidepanel-saleselection.png

@@ -89,8 +89,8 @@ Watch this video to learn how to do a typical search and modify it by adding new
 [7]: selections/create/index.md
 
 <!-- Referenced images -->
-[img1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/search-find-fastsearcher.png
-[img2]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/getstarted-search-find-findscreen.png
-[img3]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/freetext-search-find.png
-[img4]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/getstarted-document-fastsearcher.png
-[img5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/find--selection/typical-search.png
+[img1]: media/search-find-fastsearcher.png
+[img2]: media/getstarted-search-find-findscreen.png
+[img3]: media/freetext-search-find.png
+[img4]: media/getstarted-document-fastsearcher.png
+[img5]: media/typical-search.png

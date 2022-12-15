@@ -72,5 +72,5 @@ Your administrator can [add and customize project guides][1] for you.
 [1]: ../project/project-guide/create.md
 
 <!-- Referenced images -->
-[img1]: media/
-[img2]: media/
+[img1]: media/diary.png
+[img2]: media/projects.png

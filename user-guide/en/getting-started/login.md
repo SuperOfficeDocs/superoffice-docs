@@ -157,10 +157,10 @@ Have trouble logging in? [Check our FAQs][1] for different log-in issues for hel
 <!-- Referenced images -->
 [img1]: ../../media/icons/personal-settings-small.png
 [img2]: ../../../common/icons/nav-cs.png
-[img3]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/login-and-activation/create-password-strenght-indicator.png
-[img4]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/login-and-activation/login-screen.png
-[img5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/login-and-activation/activate-now-email.png
-[img6]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/login-and-activation/create-password.png
-[img7]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/login-and-activation/login-screen-google.png
-[img8]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/login-and-activation/login-screen-google-password.png
-[img9]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/login-and-activation/login-screen-microsoft-password.png
+[img3]: media/create-password-strenght-indicator.png
+[img4]: media/login-screen.png
+[img5]: media/activate-now-email.png
+[img6]: media/create-password.png
+[img7]: media/login-screen-google.png
+[img8]: media/login-screen-google-password.png
+[img9]: media/login-screen-microsoft-password.png
