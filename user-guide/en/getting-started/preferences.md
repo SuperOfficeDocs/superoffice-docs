@@ -1,9 +1,9 @@
 ---
 uid: help-en-preferences-intro
 title: Preferences
-description: Preferences
-author: SuperOffice RnD
-so.date: 06.29.2022
+description: Set up your personal preferences by selecting language, date format and email signature in SuperOffice CRM.
+author: Bergfrid Dias
+so.date: 12.14.2022
 keywords: preference, setting
 so.topic: concept
 language: en
@@ -13,14 +13,24 @@ language: en
 
 You can specify settings for different parts of SuperOffice CRM, for example, the number of items to display in the history list and the default currency for sales. All preference settings are defined in SuperOffice Settings and maintenance, but users can modify some individually in SuperOffice CRM.
 
+![Go to your personal setting and choose the setting you want to change -screenshot][img13]
+
 ## To change a preference
 
 1. Choose ![icon][img12] **Personal settings** > **Preferences**.
+
 2. In the **Preferences** dialog, select the required preference from the list on the left.
+
 3. Enter the required setting in the window on the right.
+
 4. Click **Save** to save the changes and close the **Preferences** dialog. You can click **Cancel** to discard your changes.
 
-## What options are there in the Preferences dialog?
+![Go to Personal settings in the top bar and select Edit personal signature to change you own email signature -screenshot][img14]
+
+> [!NOTE]
+> To change the language in your Mobile CRM app, click the **Task** button in the bottom-left corner, tap **Settings**, click on the **Language** and select from the options.
+
+## <a id="options" />What options are there in the Preferences dialog?
 
 | Button | Option | Description |
 |---|---|---|
@@ -36,7 +46,12 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 | ![icon][img10] | System | Here you specify system settings such as your home country, currency and default document archive. |
 | ![icon][img11] | Visual effects | Here you specify settings for visual effects, for example, the number of items in the history list (**Size of history list**) or if you want Sunday to be the first day of the week. |
 
+## Related content
+
+* [Template variables][1]
+
 <!-- Referenced links -->
+[1]: ../document/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../common/icons/pref-defaultvalues-h32.png
@@ -51,3 +66,5 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 [img10]: ../../../common/icons/pref-system-h32.png
 [img11]: ../../../common/icons/pref-visualeffects-h32.png
 [img12]: ../../media/icons/personal-settings-small.png
+[img13]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/getstarted-personalsettings.png
+[img14]: media/

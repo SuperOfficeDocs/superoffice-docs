@@ -1,11 +1,11 @@
 ---
 uid: help-en-getting-started
 title: Getting started
-description: Getting started
+description: Learn how to activating your user account, connect your email and documents, and set your personal preferences.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.14.2022
 keywords: CRM
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -14,6 +14,8 @@ language: en
 SuperOffice CRM is easy to get started with. It is extremely user-friendly with many new functions to make your working day more productive.
 
 Both new users and previous users of SuperOffice will benefit from reading this user guide. It gives an overview of the facilities and functions in SuperOffice CRM and explains how the program will benefit you and your company.
+
+![Go to your personal setting and choose the setting you want to change -screenshot][img1]
 
 ## Using in-app help
 
@@ -50,7 +52,7 @@ Access to other useful functions is just a click away with the **New** button (i
 
 Most administration of SuperOffice CRM is performed via Settings and maintenance.
 
-* [Licences][25]
+* [Licenses][25]
 * [Users][26]
 * [Roles][27]
 * [Privacy][28]
@@ -81,9 +83,16 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 
 ## Related topics
 
-* [Log in][4]
+* [Log in and activate SuperOffice CRM][4]
+* [Change your password in SuperOffice CRM][19]
 * [The Main screen][5]
-* [Search options in SuperOffice CRM][6]
+* [Search and find data][6]
+* [Use side panel to work more efficiently][20]
+* [Set your personal preferences][22]
+* [Connect your email with SuperOffice CRM][33]
+* [Organize and filter your archives][42]
+* [Use the recycle bin][43]
+* [Mobile CRM: Access your CRM on the go][44]
 
 <!-- Referenced links -->
 [1]: main-screen/navigator.md
@@ -104,6 +113,13 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 [16]: ../chat/index.md
 [17]: ../reports/index.md
 [18]: ../marketing/index.md
+[19]: login.md#forgot-password
+[20]: main-screen/side-panel.md
+[22]: preferences.md
+[33]: connect-email-and-documents.md
+[42]: archives.md
+[43]: recycle-bin.md
+[44]: mobile.md
 
 [21]: ../automation/index.md
 [23]: ../customer-center/index.md
@@ -125,3 +141,6 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 [39]: ../request/screen/index.md
 [40]: ../win-client/index.md
 [41]: https://online.superoffice.com/appstore
+
+<!-- Referenced images -->
+[img1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/getstarted-personalsettings.png

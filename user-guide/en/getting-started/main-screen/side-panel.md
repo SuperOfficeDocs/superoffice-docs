@@ -1,22 +1,26 @@
 ---
 uid: help-en-ui-side-panel
-title: Navigating in the side panel
-description: Navigating in the side panel
-author: SuperOffice RnD
-so.date: 06.29.2022
+title: Use side panel to work more efficiently
+description: The side panel allows you to access information stored in other parts of SuperOffice CRM, without leaving the screen you are on. Use it to increase your productivity.
+author: Bergfrid Dias
+so.date: 12.14.2022
 keywords: side panel
-so.topic: reference
+so.topic: concept
 language: en
 ---
 
 # The side panel
 
-The side panel appears at the right side of SuperOffice CRM. The panel is available in all screens except for the **Inbox**.
+The side panel is a multifunctional screen that is available in every screen in SuperOffice CRM. You can find the side panel on the right-hand side of your screen. The panel is available in all screens except for the **Inbox**.
 
-It works as a window to relevant information in SuperOffice CRM. You can choose from different views by clicking the arrow (![icon][img3]) to the right of the side panel's view name.
+The side panel allows you to view and use information from other parts of your CRM solution. This will help you, for example, to work your way through lists of contacts to call, sales to update, or sales proposals to follow up.
+
+![You'll find the side panel on the right side of your SuperOffice CRM solution -screenshot][img10]
+
+You can choose from different views by clicking the arrow (![icon][img3]) to the right of the side panel's view name.
 
 > [!TIP]
-> You can hide or show the side panel by clicking these buttons above the side panel: ![icon][img4] ![icon][img5]
+> You can also minimize the side-panel by clicking the Minimize button (![icon][img4]) on the top right corner, to get more room for the main cards and archives.
 
 The side panel is useful for showing information complementary to the screen you are in. For example, you can display the monthly calendar at the same time as you are viewing the daily calendar in the **Diary** screen, to give you a better overview, or you can show the members of a selection linked to a project you are looking at in the **Project** screen.
 
@@ -89,12 +93,14 @@ Opens the [Notepad][9] in the side panel.
 
 Shows a preview of a selected activity, project, contact, project member or selection member in the side panel. Depending on the selected item, the window may contain links to contacts and activities. Clicking one of these links opens the [contact card][2], [Document dialog][5], or [follow-ups dialog][6], where you can view and edit the contact or activity.
 
+[What to do when I get "Document Closed" in the side panel of SuperOffice CRM when Document Viewer is used?][11] - FAQ
+
 ## Project
 
 Shows a summary of information about the current project in the **Project** screen.
 
 > [!TIP]
-> To view other projects, without having to switch projects in the **Project** screen, click the arrow ( ![icon][img3] ) next to the product name to open the [history list][1]
+> To view other projects, without having to switch projects in the **Project** screen, click the arrow ( ![icon][img3] ) next to the product name to open the [history list][1].
 
 ## Project members
 
@@ -108,7 +114,9 @@ Shows a list of project members in the current project in the **Project** screen
 Shows a summary of information about the current sale in the **Sale** screen.
 
 > [!TIP]
-> To view other sales, without having to switch sales in the **Sale** screen, click the arrow ( ![icon][img3] ) next to the name of the sale to open the [history list][1]
+> To view other sales, without having to switch sales in the **Sale** screen, click the arrow ( ![icon][img3] ) next to the name of the sale to open the [history list][1].
+
+[How to use the side panel efficiently for sales][10]
 
 ## Selection
 
@@ -138,13 +146,15 @@ In SuperOffice Settings and maintenance, you can also define your own views for 
 [7]: ../../search-options/selections/create/create-dynamic.yml
 [8]: ../fav.md
 [9]: ../notes.md
+[11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
+[10]: ../../sale/use-side-panel.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-left.png
 [img2]: ../../../media/icons/arrow-right.png
 [img3]: ../../../../common/icons/dropdown-icon.png
 [img4]: ../../../../common/icons/right-collapse.png
-[img5]: ../../../../common/icons/right-expand.png
 [img7]: ../../../media/icons/mini-card-level.png
 [img8]: ../../../media/icons/mini-card-today.png
 [img9]: ../../../media/icons/mini-card-selected.png
+[img10]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/get-started/getstarted-sidepanel-companypreview.png

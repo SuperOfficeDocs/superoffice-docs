@@ -2,10 +2,10 @@
 title: Guides for SuperOffice CRM
 uid: ug-en-start
 description: Start page for SuperOffice CRM guides
-author: {github-id} # Your GitHub alias.
-so.date: 07.08.2022
+author: Bergfrid Dias
+so.date: 12.14.2022
 keywords: user guide, help
-so.topic: reference
+so.topic: concept
 so.version: 10
 so.lang: English
 so.envir:
@@ -14,7 +14,21 @@ so.client:
 
 # Guides for SuperOffice CRM
 
-These guides provides you with comprehensive user assistance for the following SuperOffice modules:
+SuperOffice CRM supports businesses by giving them the tools that help eliminate working in silos, increase personal productivity, and enhance collaboration among teams. Learn how to start using your SuperOffice CRM with this set of how-to guides.
+
+Organize all your marketing, sales, and customer service activities in one place. Since all customer-related information is stored in SuperOffice CRM solution, every user in your company will always get a 360-degree view of every prospect or customer. This will help you offer more relevant, personalized and timely communications and service.
+
+Watch this video to get a quick overview of what SuperOffice CRM can do for your business (video length - 2:15):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/10VQCTgxODc]
+
+Ready to discover the power of SuperOffice CRM and learn more?
+
+Start from the very beginning and let us take you on an exciting CRM journey with how-to guides, or just jump straight to any specific topic in the menu.
+
+> [!NOTE]
+> Do you have a different CRM version then what's in the user guide? In your CRM system, click the **F1** button to open the topic based on your SuperOffice version and your language.
 
 ## SuperOffice CRM
 

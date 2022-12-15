@@ -16,8 +16,8 @@ items:
     href: main-screen/global-buttons.md
   - name: Side panels
     href: main-screen/side-panel.md
-  - name: Resizing screen elements
-    href: ../howto/resizing-screen-elements.md
+  - name: Resize screen elements
+    href: main-screen/resizing-screen-elements.md
   - name: Note and Notepad
     href: notes.md
 - name: Log in
@@ -26,6 +26,16 @@ items:
   href: preferences.md
 - name: Edit email signature
   href: edit-email-signature.md
+- name: Connect email and documents
+  href: connect-email-and-documents.md
+- name: Organize and filter your archives
+  href: archives.md
+- name: Basic tasks
+  href: basic-tasks.md
+- name: Recycle bin
+  href: recycle-bin.md
+- name: Mobile access
+  href: mobile.md
 - name: Favorites
   href: fav.md
 - name: Tooltip

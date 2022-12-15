@@ -300,7 +300,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 ## What would you like to do now?
 
 * [Perform tasks][7]
-* [Use freetext search][5]
+* [Use free-text search][5]
 * [Use FastSearcher][2]
 * [Use the history list][6]
 * [Use search criteria][3]
