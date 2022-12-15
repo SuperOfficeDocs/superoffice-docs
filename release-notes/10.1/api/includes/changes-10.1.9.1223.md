@@ -1,7 +1,9 @@
 ---
 uid: version_10.1.9.1223_changes
-so.date: 12/7/2022
+so.date: 12.07.2022
 ---
+
+<!-- markdownlint-disable-file MD013 MD024-->
 
 # Changes from v10.1.8.583 and v10.1.9.1223
 
@@ -67,7 +69,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Method `GetDefaultTimeZoneInformation()`
 
-
 ## NetServer Core
 
 The following represent changes to assemblies SoCore, SoDatabase, SoLicense and SuperOffice.Plugins.
@@ -101,7 +102,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_TICKETARCHIVE_ALERT_TIMEOUT`
   * Field `SR_TICKETARCHIVE_SENTIMENT_CONFIDENCE`
   * Field `SR_TICKETMERGE_USER_HAS_NOT_EDIT_RIGHTS`
-
 
 ### Assembly: SoDatabase
 
@@ -171,7 +171,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `SetLeftOuterJoin(Equal)`
   * Method `SetLeftOuterJoin(Equal, Restriction)`
 
-#### SuperOffice.CRM.ArchiveLists.QueryProviderBase<RowType> is Modified
+#### SuperOffice.CRM.ArchiveLists.QueryProviderBase&lt;RowType> is Modified
 
 * New items
   * Method `GetAllExtenders()`
@@ -196,7 +196,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.EjMessageFieldsChangedAt`
   * Field `.EjMessageFieldsChangedBy`
-
 
 #### SuperOffice.CRM.Data.EjMessageTableInfo is Modified
 
@@ -227,7 +226,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Property `IsDocumentArchiveProviderChanged`
 
-
 ## Continuous Database
 
 The following represent changes to SuperOffice database schema.
@@ -241,6 +239,3 @@ The following represent changes to SuperOffice database schema.
 * New items
   * Field `ChangedAt`
   * Field `ChangedBy`
-
-
-
