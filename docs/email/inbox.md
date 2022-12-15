@@ -11,8 +11,8 @@ so.topic: concept
 
 # SuperOffice Inbox
 
-SuperOffice Inbox (the integrated email client)
-How to configure your email setup in SuperOffice Inbox: [Helpfile][5]
+SuperOffice Inbox (the integrated email client).
+How to configure your email setup in SuperOffice Inbox: [Helpfile][5].
 
 ## MailKit
 
@@ -32,7 +32,7 @@ The current version of MailKit is: 1.4.2.1
 
 On by default - cannot be disabled/enabled
 
-**OnSite:**
+**Onsite:**
 
 On by default on 8.1
 
@@ -41,7 +41,7 @@ On by default on 8.1
 3. Save *web.config*.
 4. Recycle the application pool.
 
-![x -screenshot][img1]
+![Web.config settings -screenshot][img1]
 
 ## Number-of-days to download
 
@@ -51,7 +51,7 @@ SuperOffice Inbox downloads emails from your mailbox and stores them in the Supe
 
 [Submit a support request][3] to your local support team. They can change the value for your tenant.
 
-**OnSite:**
+**Onsite:**
 
 If you want to change how many days to past we should download and store emails, you can add the following key in the [Mail section of the NetServer configuration][4].
 
@@ -79,7 +79,7 @@ Now the Inbox will download emails younger than 30 days only. If no value is set
 
 **How to add the feature?**
 
-We made that feature General Available (iow. not in Pilot) with SuperOffice 10.0.3.
+We made that feature General Available with SuperOffice 10.0.3.
 
 **Online:**
 Enabled. Next time you log in to your Microsoft 365 (Microsoft® Exchange Online) email account in SuperOffice Inbox - you will be redirected to Microsoft for authentication.
@@ -118,7 +118,7 @@ b)
 
 1. Log in to your Microsoft email account in SuperOffice Inbox
     Fill inn your Microsoft365 'User Princpal Name' (UPN) in the field "Email account".
-2. Click**Next**.
+2. Click **Next**.
     If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication.
 3. Authenticate towards Microsoft and complete the login
     You will then be taken to the SuperOffice Inbox. Your email account is now set up to use OAuth 2.0 authentication
@@ -158,9 +158,9 @@ Yet to be completed, please submit your experiences
 
 [Submit a support request][3] to your local support team. They can get in contact with our Online Operations team to activate the debug logging for email.
 
-**OnSite:**
+**Onsite:**
 
-Read section [Mail logging][1]
+Read section [Mail logging][1].
 
 <!-- Referenced links -->
 [1]: ../onsite/debug/web-client.md

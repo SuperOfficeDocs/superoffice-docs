@@ -31,6 +31,18 @@ highlightedContent:
     - title: "MailLink"
       itemType: overview
       url: maillink/index.md
+    # Card
+    - title: "SuperOffice Inbox"
+      itemType: overview
+      url: inbox.md
+    # Card
+    - title: "Email in Service and Marketing"
+      itemType: overview
+      url: service.md
+    # Card
+    - title: "Email table"
+      itemType: reference
+      url: ../database/tables/email.md
 
 # Card with summary style
 additionalContent:
@@ -39,6 +51,15 @@ additionalContent:
     - title: "" # < 60 chars (optional)
       summary: "" # < 160 chars (optional)
       items:
+      # Card
+      - title: Mailgun
+        links:
+          - url: mailgun/overview.md
+            text: Overview
+          - url: mailgun/dkim/index.md
+            text: DKIM
+          - url: mailgun/spf/index.md
+            text: SPF   
       # Card
       - title: SuperOffice for Outlook
         links:
