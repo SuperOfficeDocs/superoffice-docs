@@ -1,4 +1,5 @@
 ### YamlMime:ManagedReference
+# Used only in local builds of the superoffice-docs repo! NOT to build the live site.
 items:
 - name: Docs (English)
   items:

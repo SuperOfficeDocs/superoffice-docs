@@ -5,4 +5,4 @@
 > [Read more about the SuperOffice view of the world][1].
 
 <!-- Referenced links -->
-[1]: ../contact/overview.md
+[1]: ../contact/learn/overview.md

@@ -24,7 +24,7 @@ private void UpdateDocument(int documentId)
       originalDocumentStream.Close();
       originalDocumentStream.Dispose();
 
-      // Now the file is ready to be modified....
+      // Now the file is ready to be modified../..
       // Read the path for the temporary folder from the config file
       string tempFilePath = Path.Combine(SuperOffice.Configuration.ConfigFile.Documents.TemporaryPath,
           SoContext.CurrentPrincipal != null ? SoContext.CurrentPrincipal.Associate : "ALL");

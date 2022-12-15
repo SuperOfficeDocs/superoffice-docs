@@ -132,7 +132,7 @@ This example demonstrates how to validate a SaleEntity on the Sale panel for ver
 
 Now go ahead and place the control markup in the `SalePage` configuration somewhere. It's best to place it in a control group that you know is only loaded once for that page, for example, the same control group as the header control. Do NOT place it inside any of the tab view control groups.
 
-For SuperOffice 6.3, the best place for this control is in the *SoSalePage.config* file, as the last control element in the following controls element path: ....
+For SuperOffice 6.3, the best place for this control is in the *SoSalePage.config* file, as the last control element in the following controls element path: ../..
 
 For SuperOffice 7.0, place the control declaration in the *SoSaleMainViewView.config* file, as the last control in the element.
 

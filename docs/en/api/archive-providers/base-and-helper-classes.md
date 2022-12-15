@@ -70,7 +70,7 @@ By using the right combination of base classes and derivation, such a typed vari
 
 The string constants have to follow the naming convention that they start with "Column", and that the rest of their name corresponds to a value property of the row class. The reason is the use of reflection elsewhere in the system.
 
-Second, a method is added to the `ArchiveProviderFactory` to return the specific provider type, instead of the generic `IArchiveProvider`. This method calls the generic, standard `Create` method, but uses templating and casting to give back a typed result.
+Second, a method is added to the `ArchiveProviderFactory` to return the specific provider type, instead of the generic `IArchiveProvider`. This method calls the generic, standard `Create` method, but uses templateing and casting to give back a typed result.
 
 Next, derive the concrete provider class from `TypedQueryProviderBase` instead of `QueryProviderBase`. This will bring in logic that binds to a helper class and reflects over the row class, to determine the names of must-have columns. This also brings in a new interface, `IArchiveTypedProvider`, which has the additional method `SetAdditionalColumns`.
 
