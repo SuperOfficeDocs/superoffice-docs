@@ -45,7 +45,7 @@ In addition to the [**Sale** screen][2], sales can be displayed in the following
 * [Work with sales targets][7]
 
 <!-- Referenced links -->
-[1]: quote/create.md
+[1]: ../../quote/learn/create.md
 [2]: screen/index.md
 [4]: create.md
 [5]: stakeholders/create.md

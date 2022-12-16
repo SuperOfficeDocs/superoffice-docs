@@ -37,7 +37,7 @@ The **Contact** screen contains the following section tabs with information link
 [3]: requests-tab.md
 [4]: projects-tab.md
 [5]: relations-tab.md
-[8]: ../../../search-options/index.md
+[8]: ../../../search-options/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png

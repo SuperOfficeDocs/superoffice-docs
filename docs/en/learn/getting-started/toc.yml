@@ -89,7 +89,7 @@ items:
     - name: Translation of content
       href: ../../globalization/translate-fields.md
     - name: Time zones
-      href: ../../globalization/time-zones.md
+      href: ../../globalization/learn/time-zones.md
     - name: Language support in Mobile CRM
       href: ../../settings/index.md
   

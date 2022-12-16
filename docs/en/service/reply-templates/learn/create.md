@@ -96,9 +96,9 @@ You can select the degree of correlation between the request from the customer a
 * [Copy reply templates][7]
 
 <!-- Referenced links -->
-[1]: ../../../request/category/index.md
+[1]: ../../../request/learn/category/index.md
 [2]: manage-folders.md
-[4]: ../../../request/howto/reply.md
+[4]: ../../../request/learn/howto/reply.md
 [5]: new-language.md
 [6]: edit.md
 [7]: copy.md

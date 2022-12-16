@@ -36,7 +36,7 @@ Step 1 is different for combined selections because you start with two existing 
 [3]: create-combined.yml
 
 [4]: ../../../../learn/getting-started/section-tabs.md
-[5]: ../../learn/getting-started/index.md
+[5]: ../../../../learn/getting-started/index.md
 [6]: ../update/index.md
 
 <!-- Referenced images -->

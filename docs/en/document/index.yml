@@ -224,4 +224,4 @@ additionalContent:
           text: Troubleshooting
 
   # footer (optional)
-  footer: "Contribute to NetServer docs. Read our [contributor guide](../../../contribution/index.yml)."
+  footer: "Contribute to NetServer docs. Read our [contributor guide](../../../../contribution/index.yml)."

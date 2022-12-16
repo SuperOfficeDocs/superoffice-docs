@@ -138,7 +138,7 @@ To do this:
 <!-- Referenced links -->
 [1]: ../../dashboard/index.md
 [2]: ../../dashboard/show-sales-targets.md
-[3]: ../../search-options/freetext-search.md
+[3]: ../../search-options/learn/freetext-search.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/main-menu-small.png

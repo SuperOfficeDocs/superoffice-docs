@@ -36,17 +36,17 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 
 <!-- Referenced links -->
 [1]: ../../../ui/learn/in-service/profiles/index.md
-[2]: ../../../user-management/role/index.md
-[3]: ../../../user-management/index.md
+[2]: ../../user-management/role/index.md
+[3]: ../../user-management/index.md
 [4]: ../../../request/learn/category/index.md
 [5]: ../../../request/learn/priority/index.md
 [6]: ../../../request/learn/status/index.md
 [7]: ../../../email/learn/service/index.md
 [8]: ../../../request/learn/screen/system-templates.md
 [9]: system.md
-[10]: ../../../settings/options/custlang/index.md
-[11]: ../../../customer-center/config.md
-[12]: ../../../customer-center/edit.md
+[10]: ../options/custlang/index.md
+[11]: ../../../service/customer-center/learn/config.md
+[12]: ../../../service/customer-center/learn/edit.md
 [13]: ../../../chat/admin/index.md
 [14]: ../screen/soap-config.md
 [15]: ../../../ui/learn/in-service/index.md

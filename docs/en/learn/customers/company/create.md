@@ -57,7 +57,7 @@ Contacts can be linked to companies:
 * [Create contacts][1]
 
 <!-- Referenced links -->
-[1]: ../contact/learn/create.md
+[1]: ../person/create.md
 [2]: ../../../request/learn/priority/index.md
 [3]: edit.md
 

@@ -62,9 +62,9 @@ language: en
 1. Click **OK**. The email filter is created.
 
 <!-- Referenced links -->
-[1]: .././../../automation/learn/index.md
-[2]: .././../../request/learn/reply-templates/index.md
-[3]: .././../../request/learn/reply-templates/create.md#faq
+[1]: ../../../../automation/learn/index.md
+[2]: ../../../../service/reply-templates/learn/index.md
+[3]: ../../../../service/reply-templates/learn/create.md#faq
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/delete-circle-red.png

@@ -57,7 +57,7 @@ SuperOffice Marketing is available as an online application (cloud-based) and as
 * [Create a new form][1]
 
 <!-- Referenced links -->
-[1]: ../forms/create.md
+[1]: ../forms/learn/create.md
 [2]: editor/index.md#variables
 [3]: tracked-links/define-link-actions.md
 [5]: mailing/create/index.md

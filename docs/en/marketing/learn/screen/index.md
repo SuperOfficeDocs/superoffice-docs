@@ -28,9 +28,9 @@ language: en
 [4]: ../tracked-links/create-links.md
 [5]: ../add-images.md
 [6]: ../mailing/follow-up/manage-bounces.md
-[7]: ../../forms/create.md
-[8]: ../../forms/form-templates.md
-[9]: ../../forms/submissions/index.md
+[7]: ../../forms/learn/create.md
+[8]: ../../forms/learn/form-templates.md
+[9]: ../../forms/learn/submissions/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png

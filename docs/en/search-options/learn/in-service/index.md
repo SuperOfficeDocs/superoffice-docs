@@ -121,8 +121,8 @@ To return to the ordinary view, click the **Simple view** button at the top of t
 <!-- Referenced links -->
 [1]: quick-search.md
 [2]: in-navigator.md
-[3]: ../../request/learn/find.md
-[4]: ../../request/learn/find.md#list
+[3]: ../../../request/learn/find.md
+[4]: ../../../request/learn/find.md#list
 [5]: ../selections/in-service/index.md
 [6]: ../selections/in-service/create-from-search.md
 [7]: customize-presentation.md#add-column

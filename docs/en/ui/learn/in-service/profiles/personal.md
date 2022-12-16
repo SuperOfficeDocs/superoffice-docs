@@ -34,7 +34,7 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 * [Global profiles][4]
 
 <!-- Referenced links -->
-[2]: ../../../search-options/learn/in-service/customize-presentation.md
+[2]: ../../../../search-options/learn/in-service/customize-presentation.md
 [3]: common.md
 [4]: global.md
 

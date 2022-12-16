@@ -55,6 +55,6 @@ First, you must set up an application on Facebook in cooperation with the user o
 
 <!-- Referenced links -->
 [1]: https://developers.facebook.com
-[2]: ../../../../../service/config/set-up-facebook-integration.md
+[2]: ../../../../service/config/set-up-facebook-integration.md
 
 <!-- Referenced images -->

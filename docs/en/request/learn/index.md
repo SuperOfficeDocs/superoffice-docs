@@ -51,7 +51,7 @@ There are three types of messages:
 
 <!-- Referenced links -->
 [1]: ../../dashboard/in-service/index.md
-[2]: ../../learn/customers/contact/index.md
+[2]: ../../learn/customers/person/index.md
 [6]: ../../learn/customers/company/index.md
 [3]: howto/assign.md
 [4]: howto/create.md

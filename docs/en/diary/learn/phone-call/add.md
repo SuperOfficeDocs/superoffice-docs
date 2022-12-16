@@ -20,7 +20,7 @@ language: en
 
 <!-- Referenced links -->
 [1]: ../screen/dialog-for-followups.md
-[2]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
+[2]: ../../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

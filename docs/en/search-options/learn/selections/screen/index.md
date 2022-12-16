@@ -79,13 +79,13 @@ Double-click a mailing to open it.
 <!-- Referenced links -->
 [1]: ../create/index.md
 [2]: ../update/remove-members-from-static.md
+[5]: ../howto/display-as-charts.md
 [3]: ../../using-search-criteria.md
-[4]: ../../../../learn/getting-started/index.md
-[5]: ../../../../learn/getting-started/display-as-charts.md
 [6]: ../../../../dashboard/create.md
 [7]: ../../../../marketing/learn/mailing/create/index.md
 [8]: ../../../../learn/getting-started/use-filters-in-section-tabs.md
 [9]: ../../../../learn/getting-started/section-tabs.md
+[4]: ../../../../learn/getting-started/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../../common/icons/cog-wheel.png

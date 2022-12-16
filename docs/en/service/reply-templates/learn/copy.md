@@ -27,7 +27,7 @@ To create a new reply template based on an existing reply template, you can copy
 * [Delete reply templates][6]
 
 <!-- Referenced links -->
-[3]: ../../../request/howto/reply.md
+[3]: ../../../request/learn/howto/reply.md
 [5]: edit.md
 [6]: delete.md
 

@@ -85,7 +85,7 @@ Save time by letting the system categorize requests for you. If this function is
 [7]: close.md
 [8]: reply-batch.md
 [9]: edit-message.md
-[11]: ../reply-templates/index.md
+[11]: ../../../service/reply-templates/learn/index.md
 [12]: assign.md
 [13]: ../find.md
 [14]: create.md

@@ -51,8 +51,8 @@ Click the ![icon][img1] **Actions** button to access the following options:
 [1]: find.md
 [2]: ../../../request/learn/index.md#open
 [7]: ../../../request/learn/invoice/for-company.md
-[6]: ../contact/learn/create.md
-[3]: ../contact/learn/index.md
+[6]: ../person/create.md
+[3]: ../person/index.md
 [4]: create.md
 [5]: edit.md
 [8]: delete.md

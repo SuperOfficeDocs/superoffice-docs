@@ -52,7 +52,7 @@ When you respond to an customer enquiry, you can save time by using a reply temp
 [2]: create.md#message
 [3]: close.md
 [4]: flag-message.md
-[5]: ../reply-templates/new-language.md
+[5]: ../../../service/reply-templates/learn/new-language.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

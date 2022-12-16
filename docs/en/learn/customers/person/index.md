@@ -51,7 +51,7 @@ Click the ![icon][img1] **Actions** button to access the following options:
 [2]: create.md
 [3]: edit.md
 [4]: ../../../request/learn/howto/create.md
-[6]: ../../../service/customer-center/send-credentials.md
+[6]: ../../../service/customer-center/learn/send-credentials.md
 [7]: ../../../request/learn/invoice/for-contact.md
 [8]: delete.md
 
