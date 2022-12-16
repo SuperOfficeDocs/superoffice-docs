@@ -44,7 +44,7 @@ conceptualContent:
       links:
       - text: Register sales
         itemType: learn
-        url: ../sale/learn/create
+        url: ../sale/learn/create.md
       - text: Document templates
         itemType: learn
         url: ../document/learn/create.md

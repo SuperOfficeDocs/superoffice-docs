@@ -47,7 +47,7 @@ Also [scripts][14] available in the Windows client only may be enabled in the Wi
 [2]: user-management/index.md
 [3]: user-management/role/index.md
 [4]: settings/lists/index.md
-[6]: settings/preferences/
+[6]: settings/preferences/index.md
 [7]: settings/options/index.md
 [8]: import/index.md
 [9]: ../custom-objects/learn/udef/index.md

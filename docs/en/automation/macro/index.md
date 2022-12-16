@@ -19,6 +19,6 @@ so.client: win, web, service
 
 <!-- Referenced links -->
 [1]: ../trigger/create-trigger-macro.md
-[2]: ../learn/create-macro.md
+[2]: ../crmscript/learn/create-macro.md
 
 <!-- Referenced images -->

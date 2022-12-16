@@ -68,19 +68,19 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Macros and scripts
-          url: ../automation/learn/macro-script.md
+          url: ../automation/crmscript/learn/macro-script.md
         - text: Create a macro
-          url: ../automation/learn/create-macro.md
+          url: ../automation/crmscript/learn/create-macro.md
         - text: Create a script
-          url: ../automation/learn/create-script.md
+          url: ../automation/crmscript/learn/create-script.md
         - text: Debug sessions
-          url: ../automation/learn/debug.md
+          url: ../automation/crmscript/learn/debug.md
         - text: Create a scheduled task
-          url: ../automation/learn/schedule-task.md
+          url: ../automation/crmscript/learn/schedule-task.md
         - text: Tracing
-          url: ../automation/learn/tracing.md
+          url: ../automation/crmscript/learn/tracing.md
         - text: Triggers
-          url: ../automation/learn/trigger.md
+          url: ../automation/crmscript/learn/trigger.md
 
   # Card
   - title: Customer centre

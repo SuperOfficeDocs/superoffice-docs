@@ -11,7 +11,7 @@ language: en
 
 # Triggers
 
-[!include[Requirement](../../includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-expander-services.md)]
 
 Triggers are scripts that are executed for specific events in the system, such as when a new sale is created or a request gets closed. Triggers can react silently to what happens, or block the operation and show an explanation back to the user.
 
@@ -56,5 +56,5 @@ You have now created a macro that sends an email with "Request closed" to the cu
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/gearblack.png
-[img2]: ../../../media/icons/settings-small.png
+[img1]: ../../../../../common/icons/gearblack.png
+[img2]: ../../../../media/icons/settings-small.png

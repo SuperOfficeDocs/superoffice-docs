@@ -46,7 +46,7 @@ highlightedContent:
     # Card
     - title: "Macros and scripts"
       itemType: reference
-      url: learn/macro-script.md
+      url: ../automation/crmscript/learn/macro-script.md
 
 # conceptualContent section (optional)
 conceptualContent:

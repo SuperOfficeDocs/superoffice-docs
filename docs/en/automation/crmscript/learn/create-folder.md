@@ -41,4 +41,4 @@ When you delete a folder, all its contents (such as selections, FAQ entries, rep
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/folder.png
+[img1]: ../../../../../common/icons/folder.png

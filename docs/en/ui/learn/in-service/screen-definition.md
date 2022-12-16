@@ -54,6 +54,6 @@ Many of the elements contain sample data when they are inserted, to illustrate t
 
 <!-- Referenced links -->
 [1]: screen-properties.md
-[5]: ../../../automation/learn/create-macro.md
+[5]: ../../../automation/crmscript/learn/create-macro.md
 
 <!-- Referenced images -->

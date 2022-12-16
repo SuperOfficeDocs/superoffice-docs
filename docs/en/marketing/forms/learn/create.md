@@ -184,7 +184,7 @@ Here you can define how a submitted form should be processed. Fill in the follow
 [6]: submissions/process.md
 [7]: ../../learn/mailing/create/tutorial-form-mailing.yml
 [8]: ../../learn/create-folder.md
-[9]: ../../../automation/learn/index.md
+[9]: ../../../automation/crmscript/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

@@ -92,7 +92,7 @@ items:
         href: ../chat/admin/add-javascript.md
 
     - name: CRMScript
-      href: ../automation/learn/toc.yml
+      href: ../automation/crmscript/learn/toc.yml
 
     - name: Requests
       items:

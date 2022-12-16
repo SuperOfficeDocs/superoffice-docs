@@ -43,4 +43,4 @@ so.client: online
 | 24 | Enter Running Mode | The production sandbox may now be logged in to! |
 
 <!-- Referenced links -->
-[1]: ../../automation/learn/schedule-task.md
+[1]: ../../automation/crmscript/learn/schedule-task.md

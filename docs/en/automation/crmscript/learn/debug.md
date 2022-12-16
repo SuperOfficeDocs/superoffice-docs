@@ -1,7 +1,7 @@
 ---
 uid: help-en-automation-script-debug
 title:  Debug sessions
-description:  Debug sessions
+description: Debug sessions
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -11,7 +11,7 @@ language: en
 
 # Debug sessions
 
-[!include[Requirement](../../includes/req-expander-services.md)]
+[!include[Requirement](../../../includes/req-expander-services.md)]
 
 The **Debug sessions** tab contains a list of all active debug sessions in the system. Click a session in the list to open it in **Debugger**.
 
@@ -43,7 +43,7 @@ You can also click ![icon][img3] **Trace script** to start [tracing a script][2]
 [2]: tracing.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/run-script.png
-[img2]: ../../../media/icons/settings-small.png
-[img3]: ../../../media/icons/btn-script-trace-small.png
-[img4]: ../../../../common/icons/bug.png
+[img1]: ../../../../media/icons/run-script.png
+[img2]: ../../../../media/icons/settings-small.png
+[img3]: ../../../../media/icons/btn-script-trace-small.png
+[img4]: ../../../../../common/icons/bug.png

@@ -22,7 +22,7 @@ highlightedContent:
     # Card
     - title: User guide
       itemType: reference
-      url: learn/extra-tables/index.md
+      url: learn/extra-table/index.md
 
 # conceptualContent section (optional)
 conceptualContent:

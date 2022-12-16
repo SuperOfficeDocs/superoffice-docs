@@ -62,7 +62,7 @@ language: en
 1. Click **OK**. The email filter is created.
 
 <!-- Referenced links -->
-[1]: ../../../../automation/learn/index.md
+[1]: ../../../../automation/crmscript/learn/index.md
 [2]: ../../../../service/reply-templates/learn/index.md
 [3]: ../../../../service/reply-templates/learn/create.md#faq
 

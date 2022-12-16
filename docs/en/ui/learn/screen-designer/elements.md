@@ -87,7 +87,7 @@ Buttons work similarly to links. You can add links for looking up information in
 [1]: ../../soprotocol/index.md
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
 [3]: ../../../document/learn/template-variables.md
-[6]: ../../../automation/learn/index.md
+[6]: ../../../automation/crmscript/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/az.png

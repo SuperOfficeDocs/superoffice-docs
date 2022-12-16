@@ -35,18 +35,18 @@ Here you can find the advanced options in SuperOffice.
 
 <!-- Referenced links -->
 [1]: ../../../custom-objects/learn/screen/tables.md
-[2]: ../../../automation/learn/index.md
-[3]: ../../../automation/learn/macro-script.md
-[4]: ../../../automation/learn/trigger.md
-[5]: ../../../automation/learn/schedule-task.md
-[6]: ../../../automation/learn/debug.md
-[7]: ../../../automation/learn/tracing.md
+[2]: ../../../automation/crmscript/learn/index.md
+[3]: ../../../automation/crmscript/learn/macro-script.md
+[4]: ../../../automation/crmscript/learn/trigger.md
+[5]: ../../../automation/crmscript/learn/schedule-task.md
+[6]: ../../../automation/crmscript/learn/debug.md
+[7]: ../../../automation/crmscript/learn/tracing.md
 [8]: screen-properties.md
 [9]: screen-chooser.md
 [11]: ../extra-menus/index.md
 [12]: ../web-panels/index.md
 [13]: ../../../admin/settings/screen/package-properties.md
-[14]: ../../../automation/learn/screen/data-exchange.md
+[14]: ../../../automation/crmscript/learn/screen/data-exchange.md
 [15]: ../../../search-options/learn/in-service/index.md
 
 <!-- Referenced images -->
