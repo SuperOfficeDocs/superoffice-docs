@@ -60,10 +60,10 @@ A sales guide where all follow-ups and documents for all stages are displayed:
 [1]: ../../../diary/learn/change-completed-status.md
 [2]: ../../../learn/getting-started/changing-column-view.md
 [7]: ../../../learn/getting-started/using-filter-function-contact.md
-[3]: ../../../company/learn/view-activities.md
-[4]: ../../../company/learn/delete-activities-contact.md
-[5]: ../../../company/learn/replying-to-email-from-activities-section-tab.md
-[6]: ../../../company/learn/forwarding-email-from-activities-section-tab.md
+[3]: ../../../learn/activity/view-activities.md
+[4]: ../../../learn/activity/delete-activities-contact.md
+[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
+[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/check.bmp

@@ -57,10 +57,10 @@ The second column contains icons that indicate the type of activity, for example
 <!-- Referenced links -->
 [1]: ../../../diary/learn/activity.md
 [2]: ../../../diary/learn/change-completed-status.md
-[3]: ../../../company/learn/view-activities.md
-[4]: ../../../company/learn/delete-activities-contact.md
-[5]: ../../../company/learn/replying-to-email-from-activities-section-tab.md
-[6]: ../../../company/learn/forwarding-email-from-activities-section-tab.md
+[3]: ../../../learn/activity/view-activities.md
+[4]: ../../../learn/activity/delete-activities-contact.md
+[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
+[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
 [7]: ../../../learn/getting-started/using-filter-function-contact.md
 
 <!-- Referenced images -->

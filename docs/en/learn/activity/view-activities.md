@@ -25,6 +25,6 @@ You can show all activities, or just one of the types.
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/activity.md
-[3]: ../../learn/getting-started/using-filter-function-contact.md
+[3]: ../getting-started/using-filter-function-contact.md
 
 <!-- Referenced images -->

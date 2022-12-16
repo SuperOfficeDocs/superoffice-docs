@@ -26,10 +26,10 @@ The **Activities** section tab in the **Company** screen contains all the activi
 * [Use filters in the section tabs][5]
 
 <!-- Referenced links -->
-[1]: ../view-activities.md
-[2]: ../delete-activities-contact.md
-[3]: ../replying-to-email-from-activities-section-tab.md
-[4]: ../forwarding-email-from-activities-section-tab.md
+[1]: ../../../learn/activity/view-activities.md
+[2]: ../../../learn/activity/delete-activities-contact.md
+[3]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
+[4]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
 [5]: ../../../learn/getting-started/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->

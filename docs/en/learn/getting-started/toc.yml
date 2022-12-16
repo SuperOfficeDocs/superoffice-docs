@@ -72,16 +72,8 @@ items:
     - name: Adjusting views in Settings and maintenance
       href: adjusting-views.md
   - name: Work with activities
-    items:
-    - name: View activities
-      href: ../../company/learn/view-activities.md
-    - name: Delete activities
-      href: ../../company/learn/delete-activities-contact.md
-    - name: Reply to email from the Activities section tab
-      href: ../../company/learn/replying-to-email-from-activities-section-tab.md
-    - name: Forward email from the Activities section tab
-      href: ../../company/learn/forwarding-email-from-activities-section-tab.md
-  
+    href: ../activity/toc.yml
+
   - name: Language and translation
     href: ../../globalization-and-localization/learn/toc.yml
 
