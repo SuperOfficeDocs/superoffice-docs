@@ -51,10 +51,10 @@ language: en
 * [Privacy - Source][3]
 
 <!-- Referenced links -->
-[1]: ../../../globalization-and-localization/learn/translate-fields.md
+[1]: ../../../../globalization-and-localization/learn/translate-fields.md
 [2]: privacy.md#legal-basis
 [3]: privacy.md#source
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
-[img2]: ../../../../common/icons/nav-admin-privacy-active.png
+[img1]: ../../../../../common/icons/az.png
+[img2]: ../../../../../common/icons/nav-admin-privacy-active.png

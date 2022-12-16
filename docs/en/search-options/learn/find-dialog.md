@@ -318,7 +318,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../media/find.png
+[img2]: ../../media/find.png
 [img3]: ../../../../common/icons/delete-circle-red.png
 [img4]: ../../../media/icons/criteria-move.png
 [img5]: ../../../../common/icons/singlecolour/sale.png

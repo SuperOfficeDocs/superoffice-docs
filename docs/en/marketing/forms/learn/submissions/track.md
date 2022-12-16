@@ -40,4 +40,4 @@ Use the filter options at the bottom of the list to [view only submissions with 
 [3]: process.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/form-notification.png
+[img1]: ../../../../../media/icons/marketing-and-forms/form-notification.png

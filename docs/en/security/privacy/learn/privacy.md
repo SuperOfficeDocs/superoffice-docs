@@ -70,4 +70,4 @@ If you do *not* select this option, only persons with **E-marketing** set to **O
 [4]: ../../../admin/settings/lists/privacy-source-add.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-admin-privacy-active.png
+[img1]: ../../../../../common/icons/nav-admin-privacy-active.png

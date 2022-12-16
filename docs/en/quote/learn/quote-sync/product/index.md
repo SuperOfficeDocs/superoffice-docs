@@ -55,4 +55,4 @@ Either you do not have access rights to the export function (see [Roles][4]), or
 [6]: ../../../../learn/getting-started/adjusting-views.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../../common/icons/export.png
+[img1]: ../../../../../../common/icons/export.png
