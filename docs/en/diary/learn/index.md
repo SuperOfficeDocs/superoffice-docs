@@ -65,7 +65,7 @@ Follow-ups are closely linked to the **Diary** screen, and some functions apply 
 [13]: screen/sales-tab.md
 [14]: screen/navigate-in-diary.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
-[16]: activity.md
+[16]: ../../learn/activity/index.md
 [17]: delete-follow-up.md
 [18]: create-appointment.md
 [19]: move-follow-up.md

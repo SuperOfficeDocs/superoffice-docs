@@ -24,7 +24,7 @@ You can show all activities, or just one of the types.
 > You can also [filter activities][3] by date and user.
 
 <!-- Referenced links -->
-[1]: ../../diary/learn/activity.md
+[1]: index.md
 [3]: ../getting-started/using-filter-function-contact.md
 
 <!-- Referenced images -->

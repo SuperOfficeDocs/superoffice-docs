@@ -107,7 +107,7 @@ You can delete activities from any screen where they are displayed:
     >
     > The **Delete** button is only available if the user who is logged in has permission to delete items from the activities list in question.
 
-3. A confirmation dialog opens. [!include[Delete elements](includes/see-delete-elements.md)]
+3. A confirmation dialog opens.
 
 ## What would you like to do now?
 
@@ -119,24 +119,24 @@ You can delete activities from any screen where they are displayed:
 * [Compose an email][5]
 
 <!-- Referenced links -->
-[1]: appointment.md
-[2]: task.md
-[3]: phone-call/index.md
+[1]: ../../diary/learn/appointment.md
+[2]: ../../diary/learn/task.md
+[3]: ../../diary/learn/phone-call/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
-[6]: screen/activities-tab.md
-[7]: screen/index.md
-[8]: create-follow-up.md
-[10]: change-completed-status.md
-[11]: phone-call/dial.md
-[12]: ../../learn/index.md
+[6]: ../../diary/learn/screen/activities-tab.md
+[7]: ../../diary/learn/screen/index.md
+[8]: ../../diary/learn/create-follow-up.md
+[10]: ../../diary/learn/change-completed-status.md
+[11]: ../../diary/learn/phone-call/dial.md
+[12]: ../index.md
 [13]: ../../company/learn/screen/activities-tab.md
 [14]: ../../contact/learn/screen/activities-tab.md
 [15]: ../../project/learn/screen/activities-project.md
 [16]: ../../sale/learn/screen/activities-sale.md
-[17]: ../../learn/getting-started/use-filters-in-section-tabs.md
+[17]: ../getting-started/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.bmp
 [img2]: ../../../../common/icons/plus-black.png
-[img3]: media/activities-detail.bmp
+[img3]: ../../diary/learn/media/activities-detail.bmp

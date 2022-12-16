@@ -55,7 +55,7 @@ The second column contains icons that indicate the type of activity, for example
 * [Change Completed status of an activity][2]
 
 <!-- Referenced links -->
-[1]: ../../../diary/learn/activity.md
+[1]: ../../../learn/activity/index.md
 [2]: ../../../diary/learn/change-completed-status.md
 [3]: ../../../learn/activity/view-activities.md
 [4]: ../../../learn/activity/delete-activities-contact.md

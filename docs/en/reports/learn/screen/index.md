@@ -64,6 +64,6 @@ The report archive (the **Documents** section tab) appears at the bottom of the 
 [7]: ../filter.md
 [6]: ../open-from-archive.md
 [8]: ../delete-from-archive.md
-[4]: ../../../diary/learn/activity.md
+[4]: ../../../learn/activity/index.md
 
 <!-- Referenced images -->
