@@ -30,7 +30,7 @@ To [save a report as a document][1] (type = Report) in SuperOffice CRM, click th
 * [Delete reports from the report archive (the Documents section tab)][8]
 
 <!-- Referenced links -->
-[1]: ../document/learn/create.md
+[1]: ../../document/learn/create.md
 [2]: view.md
 [3]: print.md
 [4]: save.md

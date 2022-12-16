@@ -28,7 +28,7 @@ items:
   - name: Chat
     href: ../chat/learn/toc.yml
   - name: Reports
-    href: ../reports/toc.yml
+    href: ../reports/learn/toc.yml
   - name: Marketing
     href: ../marketing/learn/toc.yml
   - name: Forms

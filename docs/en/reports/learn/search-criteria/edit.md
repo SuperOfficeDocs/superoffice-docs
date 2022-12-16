@@ -64,10 +64,10 @@ Now we are going to amend slightly the standard report criteria, so that you can
 
 <!-- Referenced links -->
 [1]: ../labels/add-format.md
-[2]: ../../search-options/learn/using-search-criteria.md
+[2]: ../../../search-options/learn/using-search-criteria.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
+[img1]: ../../../../media/icons/arrow-right.png
+[img2]: ../../../../media/icons/arrow-left.png
 [img3]: ../media/edit-criteria.bmp
 [img4]: ../media/edit-criteria-2.bmp

@@ -40,7 +40,7 @@ You can access your favorites from the following places in the application:
 2. Click the favorites icon ![icon][img2] in the header. The icon changes to ![icon][img3].
 
 <!-- Referenced links -->
-[1]: ../../reports/favorites/index.md
+[1]: ../../reports/learn/favorites/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-fav.png

@@ -27,8 +27,8 @@ Label printing will come in handy, for example, when you have to send out letter
 4. Open the generated PDF and print it.
 
 <!-- Referenced links -->
-[2]: ../../../../reports/labels/add-format.md
-[3]: ../../../../reports/labels/edit-format.md
-[4]: ../../../../reports/labels/remove-format.md
+[2]: ../../../../reports/learn/labels/add-format.md
+[3]: ../../../../reports/learn/labels/edit-format.md
+[4]: ../../../../reports/learn/labels/remove-format.md
 
 <!-- Referenced images -->

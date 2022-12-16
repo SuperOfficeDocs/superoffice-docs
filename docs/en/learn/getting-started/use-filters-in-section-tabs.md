@@ -30,7 +30,7 @@ The following filtering options are available in the section tabs:
 [1]: use-column-filters-in-section-tabs.md
 [2]: using-filter-function-contact.md
 [3]: ../../search-options/learn/selections/screen/index.md#filter
-[4]: ../../reports/filter.md
+[4]: ../../reports/learn/filter.md
 
 <!-- Referenced images -->
 [img1]: media/section-tab-filter-overview.png

@@ -29,6 +29,6 @@ You can add more search criteria to a report. If you add criteria to a standard 
 
 <!-- Referenced links -->
 [1]: ../labels/add-format.md
-[2]: ../../search-options/learn/using-search-criteria.md
+[2]: ../../../search-options/learn/using-search-criteria.md
 
 <!-- Referenced images -->

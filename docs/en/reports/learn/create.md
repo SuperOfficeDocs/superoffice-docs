@@ -26,6 +26,6 @@ You can define new reports in SuperOffice Reporter Studio and import them in Sup
 [1]: run.md
 [2]: search-criteria/edit.md
 [3]: favorites/add.md
-[4]: ../document/learn/create.md
+[4]: ../../document/learn/create.md
 
 <!-- Referenced images -->
