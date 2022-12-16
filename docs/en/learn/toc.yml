@@ -6,7 +6,7 @@ items:
   - name: Search options
     href: ../search-options/learn/toc.yml
   - name: Dashboard
-    href: ../dashboard/toc.yml
+    href: ../dashboard/learn/toc.yml
   - name: Company
     href: ../company/learn/toc.yml
   - name: Contact
@@ -197,8 +197,8 @@ items:
       - name: External documents
         href: ../request/learn/external-document.md
     - name: Statistics in Service
-      href: ../dashboard/in-service/statistics/toc.yml
-      topicHref: ../dashboard/in-service/statistics/index.md
+      href: ../dashboard/learn/in-service/statistics/toc.yml
+      topicHref: ../dashboard/learn/in-service/statistics/index.md
 
     - name: Selection
       href: ../search-options/learn/selections/in-service/toc.yml

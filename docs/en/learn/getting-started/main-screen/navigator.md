@@ -97,7 +97,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 ![Example Service -screenshot][img32]
 
 <!-- Referenced links -->
-[1]: ../../../dashboard/index.md
+[1]: ../../../dashboard/learn/index.md
 [2]: ../../../company/learn/index.md
 [3]: ../../../contact/learn/index.md
 [4]: ../../../diary/learn/index.md
@@ -112,10 +112,10 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [15]: ../fav.md
 [31]: ../../../request/learn/index.md#customers
 [32]: ../../../search-options/learn/selections/in-service/index.md
-[33]: ../../../dashboard/in-service/statistics/index.md
+[33]: ../../../dashboard/learn/in-service/statistics/index.md
 [34]: ../../../request/learn/index.md
 [35]: ../../../request/learn/screen/knowledge-base.md
-[37]: ../../../dashboard/in-service/index.md
+[37]: ../../../dashboard/learn/in-service/index.md
 
 [20]: ../../../ai/learn/index.md
 [21]: ../../../admin/settings/lists/index.md

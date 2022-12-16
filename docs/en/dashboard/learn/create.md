@@ -66,11 +66,11 @@ The selected chart is displayed in the tile. Repeat this step for each empty til
 * [Delete a dashboard][5]
 
 <!-- Referenced links -->
-[1]: ../globalization-and-localization/learn/translate-fields.md
+[1]: ../../globalization-and-localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
 [4]: copy.md
 [5]: delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/az.png
+[img1]: ../../../../common/icons/az.png

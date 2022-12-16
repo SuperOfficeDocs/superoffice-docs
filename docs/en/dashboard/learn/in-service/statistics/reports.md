@@ -24,5 +24,5 @@ This screens contains predefined reports. You also have access to the new and im
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/edit.png
-[img2]: ../../../../../common/icons/document-report.png
+[img1]: ../../../../../media/icons/edit.png
+[img2]: ../../../../../../common/icons/document-report.png

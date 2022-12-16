@@ -60,7 +60,7 @@ Click ![icon][img1] in the header of a tile to access the following options:
 <!-- Referenced links -->
 [2]: edit-tile.md
 [3]: remove-tile.md
-[4]: ../search-options/learn/selections/update/add-members-to-static.md
+[4]: ../../search-options/learn/selections/update/add-members-to-static.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/context-menu.png
+[img1]: ../../../../common/icons/context-menu.png

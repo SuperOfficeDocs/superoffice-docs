@@ -26,9 +26,9 @@ language: en
 7. Click **Save**.
 
 <!-- Referenced links -->
-[1]: ../search-options/learn/using-search-criteria.md
-[2]: ../globalization-and-localization/learn/translate-fields.md
+[1]: ../../search-options/learn/using-search-criteria.md
+[2]: ../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/az.png
-[img2]: ../../../common/icons/edit-pen.png
+[img1]: ../../../../common/icons/az.png
+[img2]: ../../../../common/icons/edit-pen.png

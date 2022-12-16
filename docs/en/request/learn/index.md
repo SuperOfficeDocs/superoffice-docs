@@ -50,7 +50,7 @@ There are three types of messages:
 * [Process requests][7]
 
 <!-- Referenced links -->
-[1]: ../../dashboard/in-service/index.md
+[1]: ../../dashboard/learn/in-service/index.md
 [2]: ../../learn/customers/person/index.md
 [6]: ../../learn/customers/company/index.md
 [3]: howto/assign.md

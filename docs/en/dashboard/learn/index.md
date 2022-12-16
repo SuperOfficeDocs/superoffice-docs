@@ -67,6 +67,6 @@ There are several types of charts:
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/pinned.png
-[img2]: ../../../common/icons/favourite-yes.png
-[img3]: ../../media/icons/dashboard/dashboard-refresh.png
+[img1]: ../../../../common/icons/pinned.png
+[img2]: ../../../../common/icons/favourite-yes.png
+[img3]: ../../../media/icons/dashboard/dashboard-refresh.png

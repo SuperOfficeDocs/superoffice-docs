@@ -81,7 +81,7 @@ Double-click a mailing to open it.
 [2]: ../update/remove-members-from-static.md
 [5]: ../howto/display-as-charts.md
 [3]: ../../using-search-criteria.md
-[6]: ../../../../dashboard/create.md
+[6]: ../../../../dashboard/learn/create.md
 [7]: ../../../../marketing/learn/mailing/create/index.md
 [8]: ../../../../learn/getting-started/use-filters-in-section-tabs.md
 [9]: ../../../../learn/getting-started/section-tabs.md

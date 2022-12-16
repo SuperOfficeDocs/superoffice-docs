@@ -30,4 +30,4 @@ You can remove tiles from a dashboard, as long as you have editing access to it.
 [1]: add-tile.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/delete-circle-red.png
+[img1]: ../../../../common/icons/delete-circle-red.png

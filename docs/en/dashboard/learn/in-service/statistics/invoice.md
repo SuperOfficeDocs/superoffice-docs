@@ -14,6 +14,6 @@ language: en
 The **Invoicing basis for companies and contacts** screen provides a list of the invoicing basis per company. Note that these statistics may take some time to calculate. There are no options for these statistics, and only chargeable hours for companies are shown. Companies with no chargeable hours are not shown. Clicking the name of an entry takes you to a screen showing the [invoicing basis][1] for the company or contact.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/invoice/for-contact.md
+[1]: ../../../../request/learn/invoice/for-contact.md
 
 <!-- Referenced images -->

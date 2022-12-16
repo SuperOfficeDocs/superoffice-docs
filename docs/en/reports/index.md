@@ -49,7 +49,7 @@ Open the **Reports** screen by clicking the **Reports** button ![icon][img7] in 
 * [Delete reports from the report archive (the Documents section tab)][8]
 
 <!-- Referenced links -->
-[1]: ../dashboard/index.md
+[1]: ../dashboard/learn/index.md
 [2]: properties.md
 [3]: create.md
 [4]: view.md

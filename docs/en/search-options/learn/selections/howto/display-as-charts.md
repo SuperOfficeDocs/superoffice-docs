@@ -33,7 +33,7 @@ The following features are available for charts:
 This means that your selection does not contain relevant data for this chart. Change the criteria of your selection or select another chart type.
 
 <!-- Referenced links -->
-[1]: ../../../../dashboard/index.md
+[1]: ../../../../dashboard/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/maximize-dark.png

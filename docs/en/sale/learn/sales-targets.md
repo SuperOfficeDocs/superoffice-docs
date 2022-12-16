@@ -136,8 +136,8 @@ To do this:
 * [Using sales targets in tiles][2]
 
 <!-- Referenced links -->
-[1]: ../../dashboard/index.md
-[2]: ../../dashboard/show-sales-targets.md
+[1]: ../../dashboard/learn/index.md
+[2]: ../../dashboard/learn/show-sales-targets.md
 [3]: ../../search-options/learn/freetext-search.md
 
 <!-- Referenced images -->
