@@ -3,8 +3,6 @@ items:
   href: index.md
 - name: Document screen
   href: screen/index.md
-- name: Language support for documents
-  href: ../../globalization-and-localization/learn/doc-language-support.md
 - name: Work with document
   items:
   - name: Creating new documents

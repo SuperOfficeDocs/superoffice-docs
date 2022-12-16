@@ -3,8 +3,6 @@ items:
   href: change-language.md
 - name: Translation of content
   href: translate-fields.md
-- name: Language support for documents
-  href: doc-language-support.md
 - name: Time zones
   href: time-zones.md
 - name: Language support in Mobile CRM
