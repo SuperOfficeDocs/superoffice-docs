@@ -13,7 +13,7 @@ language: en
 
 SuperOffice can import SMS messages. For this to work, you must set up an SMS mailbox:
 
-[!include[Go to email](../../../includes/goto-email.md)]
+[!include[Go to email](../includes/goto-email.md)]
 
 1. Click **New SMS mailbox**.
 

@@ -11,7 +11,7 @@ language: en
 
 # Delete selection
 
-[!include[Open Selections](../../includes/goto-selections.md)]
+[!include[Open Selections](../includes/goto-selections.md)]
 
 1. Click the **Task** button.
 

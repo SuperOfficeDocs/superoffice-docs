@@ -64,11 +64,11 @@ Using the ![icon][img2] menu button you can add recipients and clickers to a sel
 
 ## Add clickers to a new selection or project
 
-[!include[How to](../../../includes/howto-add-person-to-selection-new.md)]
+[!include[How to](../../includes/howto-add-person-to-selection-new.md)]
 
 ## Add clickers to an existing selection or project
 
-[!include[How to](../../../includes/howto-add-person-to-selection-existing.md)]
+[!include[How to](../../includes/howto-add-person-to-selection-existing.md)]
 
 <!-- Referenced links -->
 [3]: manage-bounces.md

@@ -11,7 +11,7 @@ language: en
 
 # Export to Excel
 
-[!include[Start](../../includes/steps-start-task.md)]
+[!include[Start](../includes/steps-start-task.md)]
 
 1. Click the **Task** button and select **Export to Excel**.
 

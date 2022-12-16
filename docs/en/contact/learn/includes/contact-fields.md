@@ -26,4 +26,4 @@
 > Three of the user-defined fields from the **More** tab may also be displayed here, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
 
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/preferences.md
+[1]: ../../../learn/getting-started/preferences.md

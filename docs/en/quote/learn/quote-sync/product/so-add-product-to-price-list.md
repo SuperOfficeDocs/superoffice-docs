@@ -61,7 +61,7 @@ In the list on the right you can add product information. This can include:
 
 <details><summary>Are all these fields displayed in SuperOffice CRM?</details>
 
-[!include[Why set all fields when creating product](../../includes/quote-config-product.md)]
+[!include[Why set all fields when creating product](../includes/quote-config-product.md)]
 
 To find out which fields are displayed, go to the **Settings** tab and click **Configure product** (see [Configure products][3]).
 </details>

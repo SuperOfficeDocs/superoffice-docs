@@ -13,7 +13,7 @@ language: en
 
 ## Remove members using search criteria
 
-[!include[Open Selections](../../includes/goto-selections.md)]
+[!include[Open Selections](../includes/goto-selections.md)]
 
 1. Go to the required static selection. For example, [use the Find screen][1].
 
@@ -25,7 +25,7 @@ language: en
 
 ## Remove a specific member
 
-[!include[Open Selections](../../includes/goto-selections.md)]
+[!include[Open Selections](../includes/goto-selections.md)]
 
 1. Go to the required static selection.
 

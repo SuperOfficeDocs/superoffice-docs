@@ -15,7 +15,7 @@ When you are in the dialog for follow-ups or the **Document** dialog, you can ad
 
 ## Add activities and sales
 
-1. Open the **Appointment**, **Task**, **Phone Call** or **Document** dialog and enter the required information. [!include[See Appointment dialog](../includes/see-apt-dialog.md)]. Or [The Sale dialog][1]).
+1. Open the **Appointment**, **Task**, **Phone Call** or **Document** dialog and enter the required information. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]. Or [The Sale dialog][1]).
 2. Open the **Links** tab and click **Add link** at the bottom of the tab.
 3. Select one of the available options.
 4. Select a record from the list or start typing the name of a record to search. If you selected the **URL** option, enter the link manually.

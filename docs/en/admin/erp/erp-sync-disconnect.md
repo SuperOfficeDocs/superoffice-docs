@@ -11,7 +11,7 @@ language: en
 
 # Disable synchronization
 
-[!include[Requirement](../includes/req-integration-server.md)]
+[!include[Requirement](../../includes/req-integration-server.md)]
 
 1. Go to the **Company** screen, **Contact** screen, or **Project** screen, and select the **ERP** tab.
 1. Click **Edit**.

@@ -19,7 +19,7 @@ You can specify the period (duration in days) for the following [counters][1]:
 * Number of completed/non-completed sales in period
 * Number of completed/non-completed requests during period (if you are using SuperOffice Service)
 
-[!include[Define counter](../../../includes/def-counter.md)]
+[!include[Define counter](../../../learn/includes/def-counter.md)]
 
 You can specify up to three different periods, so that you can choose between shorter or longer periods for the various SAINT criteria. For example: If you set **Period 1** to 30 days and **Period 2** to 90 days, you can for example choose between the SAINT criteria "Number of sales last 30 days" AND "Number of sales last 90 days".
 

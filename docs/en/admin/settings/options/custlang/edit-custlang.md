@@ -25,7 +25,7 @@ language: en
 
     <details><summary>Click here to see a complete list.</details>
 
-    [!include[Language codes](../../../includes/language-codes.md)]
+    [!include[Language codes](../../../../includes/language-codes.md)]
 
     </details>
 

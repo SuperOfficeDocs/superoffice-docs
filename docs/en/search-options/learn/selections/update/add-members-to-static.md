@@ -86,7 +86,7 @@ Use this option to add the selected records to an existing static selection.
 <!-- Referenced links -->
 [1]: ../create/create-dynamic.yml
 [2]: ../../find-dialog.md
-[3]: ../update/copy-members-to.md
-[4]: ../../learn/getting-started/index.md
+[3]: copy-members-to.md
+[4]: ../../../../learn/getting-started/index.md
 
 <!-- Referenced images -->

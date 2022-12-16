@@ -13,7 +13,7 @@ language: en
 
 It may useful to copy specific selection members into another selection, for example, if you have created a selection of customers and want to include suppliers in the same selection.
 
-[!include[Start](../../includes/steps-start-task.md)]
+[!include[Start](../includes/steps-start-task.md)]
 
 1. Click the **Task** button and select **Copy into selection** task.
 

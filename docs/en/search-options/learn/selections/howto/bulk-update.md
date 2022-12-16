@@ -13,7 +13,7 @@ language: en
 
 The **Bulk update** task allows you to change specific values across multiple records of the same type (contacts, companies, projects, sales, appointments, phone calls, tasks, and documents). You can update specific values or clear specific values.
 
-[!include[Start](../../includes/steps-start-task.md)]
+[!include[Start](../includes/steps-start-task.md)]
 
 1. To update specific records, select them in the list.
 

@@ -33,7 +33,7 @@ You can add recipients from multiple sources.
 > [!NOTE]
 > When you add recipients, only contacts with a valid email address (or mobile phone number, in the case of SMS mailings) are added to the **Recipients** list.
 
-[!include[Note](../../includes/note-imported-recipients.md)]
+[!include[Note](../includes/note-imported-recipients.md)]
 
 ## Associating a mailing with selection or project
 

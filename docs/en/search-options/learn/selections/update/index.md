@@ -20,7 +20,7 @@ language: en
 
 ## Edit an existing selection
 
-[!include[Open Selections](../../includes/goto-selections.md)]
+[!include[Open Selections](../includes/goto-selections.md)]
 
 1. Go to the required selection. You can, for example, [search][1].
 

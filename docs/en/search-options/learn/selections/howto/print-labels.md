@@ -13,7 +13,7 @@ language: en
 
 Label printing will come in handy, for example, when you have to send out letters to many recipients in one go and need to produce address labels to stick on all the envelopes.
 
-[!include[Start](../../includes/steps-start-task.md)]
+[!include[Start](../includes/steps-start-task.md)]
 
 1. Select the **Company/contact** tab.
 

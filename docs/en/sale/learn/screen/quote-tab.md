@@ -27,7 +27,7 @@ Alternatives: If the quote contains one or more [alternatives][4], you can choos
 
 On the right of the **Quote** section tab are the version, quote number and [status][6] (for example, **Draft** or **Sold**). Click **Open** to edit the quote.
 
-[!include[Table showing quote states](../../quote/learn/includes/table-quote-states.md)]
+[!include[Table showing quote states](../../../quote/learn/includes/table-quote-states.md)]
 
 The product list: If products were added to the quote, they are shown in the list. At the bottom of the list, the total price of the products in it is displayed.
 

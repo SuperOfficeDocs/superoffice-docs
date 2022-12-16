@@ -27,7 +27,7 @@ language: en
 
 ## What sort of images can I use?
 
-[!include[File type and size](../../../../includes/image-type-and-size.md)]
+[!include[File type and size](../../../../sale/learn/includes/image-type-and-size.md)]
 
 <!-- Referenced links -->
 

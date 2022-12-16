@@ -13,7 +13,7 @@ language: en
 
 From time to time you may find it useful to produce a printout of selected companies, for example, if you need a list of all your customers.
 
-[!include[Start](../../includes/steps-start-task.md)]
+[!include[Start](../includes/steps-start-task.md)]
 
 1. Select the **Company/contact** tab.
 

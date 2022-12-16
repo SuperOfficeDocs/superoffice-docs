@@ -13,7 +13,7 @@ language: en
 
 Using this task, you can create a text file containing information about the selection members for use outside of SuperOffice CRM. It can be used both for members which are companies (on the **Companies** section tab) and members which are sales, projects, documents or follow-ups. The template you select in the **Use template** field determines what information is included, the order it is displayed in and the separator character to use.
 
-[!include[Start](../../includes/steps-start-task.md)]
+[!include[Start](../includes/steps-start-task.md)]
 
 1. Click the **Task** button and select **Export to file**.
 

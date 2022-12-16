@@ -11,7 +11,7 @@ language: en
 
 # The Company screen
 
-[!include[Intro](../../includes/company-screen-intro.md)]
+[!include[Intro](../includes/company-screen-intro.md)]
 
 In the **Company** screen, every record in the database is displayed like an index card, containing all information for that company.
 

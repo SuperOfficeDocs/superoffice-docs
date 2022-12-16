@@ -29,7 +29,7 @@ The view shows all product fields with their associated properties. At the botto
 * Remove the checks for fields you do not want to display.
 * Greyed out/non-editable checkboxes are fields that cannot be removed.
 
-[!include[Why set all fields when creating product](../../includes/quote-config-product.md)]
+[!include[Why set all fields when creating product](../includes/quote-config-product.md)]
 
 ### Label
 

@@ -21,7 +21,7 @@ The aim is to find out how many records match the specific criteria and to follo
 
 ## Dynamic selection
 
-[!include[Definition of dynamic selection](../../includes/def-dynamic-selection.md)]
+[!include[Definition of dynamic selection](../includes/def-dynamic-selection.md)]
 
 ## Script-based selection
 

@@ -15,7 +15,7 @@ The **SMS** tab in the **System** screen contains options for configuring SMS so
 
 ## General fields
 
-[!include[Settings for mailings - SMS](../../marketing/includes/mailing-settings-sms.md)]
+[!include[Settings for mailings - SMS](../../../marketing/learn/includes/mailing-settings-sms.md)]
 
 ## Testing the SMS settings
 

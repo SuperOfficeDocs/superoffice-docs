@@ -35,13 +35,13 @@ The following settings are available for email mailings:
 
 * **Default From address**: The system's default email sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service. For example, support@company.com.
 
-[!include[List of fields for mailings](../../includes/mailing-smtp-fields.md)]
+[!include[List of fields for mailings](../includes/mailing-smtp-fields.md)]
 
 ## The SMS tab
 
 The following settings are available for SMS mailings:
 
-[!include[Settings for mailings - SMS](../../includes/mailing-settings-sms.md)]
+[!include[Settings for mailings - SMS](../includes/mailing-settings-sms.md)]
 
 ## Testing the SMS settings
 
@@ -50,6 +50,6 @@ To test the settings, enter a mobile phone number and some text, and then click 
 For information about additional modules, see [SMS][1].
 
 <!-- Referenced links -->
-[1]: ../../settings/in-service/sms.md
+[1]: ../../../admin/settings/in-service/sms.md
 
 <!-- Referenced images -->

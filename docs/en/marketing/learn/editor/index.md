@@ -33,7 +33,7 @@ To give the message a more personal touch, you can use placeholders to insert cu
 
 These placeholders are called **template variables** in the old editor and **merge tags** in the Drag and drop editor.
 
-[!include[Note](../../includes/note-imported-recipients.md)]
+[!include[Note](../includes/note-imported-recipients.md)]
 
 There are several types of merge tags:
 

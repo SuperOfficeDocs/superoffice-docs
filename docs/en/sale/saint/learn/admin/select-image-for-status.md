@@ -23,7 +23,7 @@ No. If you just want to create reports or use status monitors to search for and 
 
 The image you choose should represent pictorially the status it stands for. The status image for a project that has been inactive for a long time could, for example, be a spider's web.
 
-[!include[File type and size](../../../includes/image-type-and-size.md)]
+[!include[File type and size](../../../learn/includes/image-type-and-size.md)]
 
 The images are used as watermarks for the company card, contact card or project card in SuperOffice CRM. The transparency is 40%, so that the image does not obscure the text. You should nonetheless use images with relatively light colors.
 

@@ -11,7 +11,7 @@ language: en
 
 # Add tracked links to message
 
-[!include[Requirement](../../includes/req-marketing.md)]
+[!include[Requirement](../includes/req-marketing.md)]
 
 ## Drag and drop editor
 

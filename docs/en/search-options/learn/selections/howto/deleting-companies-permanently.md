@@ -16,7 +16,7 @@ To delete multiple records (contacts, companies, sales, projects, and so on), yo
 > [!NOTE]
 > This task is only available for users with administrator access. It is also a task you should think about carefully before performing, because it deletes all selected records permanently, both from the **Selection** screen and from the SuperOffice database.
 
-[!include[Open Selections](../../includes/goto-selections.md)]
+[!include[Open Selections](../includes/goto-selections.md)]
 
 1. Go to a selection. For example, [use the Find screen][1].
 

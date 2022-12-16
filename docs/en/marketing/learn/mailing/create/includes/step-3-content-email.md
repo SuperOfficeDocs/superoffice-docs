@@ -1,7 +1,7 @@
 <!-- markdownlint-disable-file MD041 -->
 In the **Content** step you can edit the layout and content of the email, and add links and images.
 
-[!include[Note about 2 editor versions](../../../../includes/note-old-or-new-editor.md)]
+[!include[Note about 2 editor versions](../../../includes/note-old-or-new-editor.md)]
 
 [Am I using the new Drag & drop editor or the previous version of the editor?][1]
 

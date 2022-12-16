@@ -11,7 +11,7 @@ language: en
 
 # Create an actor in the ERP system
 
-[!include[Requirement](../includes/req-integration-server.md)]
+[!include[Requirement](../../includes/req-integration-server.md)]
 
 For example, to connect a SuperOffice company to a customer in the ERP system, and this customer does not exist in the ERP system, you can create the customer in the ERP system based on the data from SuperOffice.
 

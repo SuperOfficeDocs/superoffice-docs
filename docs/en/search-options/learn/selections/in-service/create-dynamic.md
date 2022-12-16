@@ -11,7 +11,7 @@ language: en
 
 # Create a dynamic selection
 
-[!include[Definition of dynamic selection](../../includes/def-dynamic-selection.md)]
+[!include[Definition of dynamic selection](../includes/def-dynamic-selection.md)]
 
 > [!TIP]
 > You can also [create a dynamic selection based on search criteria][1].
