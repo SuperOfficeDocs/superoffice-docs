@@ -13,7 +13,7 @@ so.envir: onsite
 
 # Import
 
-[!include[Back up database before import](../../admin/import/includes/caution-backup-before-import.md)]
+[!include[Back up database before import](../../../../admin/import/includes/caution-backup-before-import.md)]
 
 The **Import** screen is where you incorporate important external data into the SuperOffice database from. For example, you could import a customer index so you can use it in SuperOffice CRM. More specifically, in the standard version of Windows Client settings, you can import the following data into the SuperOffice database:
 
@@ -51,6 +51,6 @@ The fields in the **Import** screen and their use are described under [Import fi
 [6]: import-descriptions.md
 [7]: ../update-database.md
 [8]: ../export.md
-[9]: ../../admin/import/index.md
+[9]: ../../../../admin/import/index.md
 
 <!-- Referenced images -->

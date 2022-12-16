@@ -123,5 +123,5 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 [37]: ../../admin/import/index.md
 [38]: ../../custom-objects/learn/udef/index.md
 [39]: ../../request/learn/screen/index.md
-[40]: ../../win-client/index.md
+[40]: ../../onsite/win-client/learn/index.md
 [41]: https://online.superoffice.com/appstore

@@ -43,7 +43,7 @@ items:
     - name: Replace existing template
       href: replace-existing-template.md
     - name: Document templates in multiple languages
-      href: ../../../win-client/using-document-templates-for-multiple-languages.md
+      href: ../../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
   - name: Email template
     href: email-template.md
     items:

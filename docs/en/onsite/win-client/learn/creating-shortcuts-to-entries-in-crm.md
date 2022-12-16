@@ -28,7 +28,7 @@ This function uses the SOProtocol. SuperOffice WebTools must be installed for th
 * [The Document dialog][2]
 
 <!-- Referenced links -->
-[1]: ../diary/learn/screen/dialog-for-followups.md
-[2]: ../document/learn/screen/index.md
+[1]: ../../../diary/learn/screen/dialog-for-followups.md
+[2]: ../../../document/learn/screen/index.md
 
 <!-- Referenced images -->

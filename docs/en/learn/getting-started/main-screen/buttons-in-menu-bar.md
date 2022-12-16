@@ -89,7 +89,7 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 [9]: ../notes.md
 [4]: ../../../diary/learn/invitation/receive.md
 [5]: ../../../search-options/learn/find-dialog.md
-[15]: ../../../win-client/creating-shortcuts-to-entries-in-crm.md
+[15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets.md
 
 <!-- Referenced images -->

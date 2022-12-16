@@ -156,7 +156,7 @@ items:
       href: ../admin/erp/toc.yml
 
   - name: Windows client settings
-    href: ../win-client/toc.yml
+    href: ../onsite/win-client/learn/toc.yml
   - name: Service client
     items:
     - name: Personal settings in Service

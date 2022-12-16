@@ -21,6 +21,6 @@ The **App Store** navigator button opens the SuperOffice App Store, where you ca
 Certain features like import and scripting are only available from the [Windows-based administration client][1].
 
 <!-- Referenced links -->
-[1]: ../../win-client/index.md
+[1]: ../../onsite/win-client/learn/index.md
 
 <!-- Referenced images -->

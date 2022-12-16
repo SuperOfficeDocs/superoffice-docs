@@ -147,7 +147,7 @@ This tab displays any [user-defined fields][3] configured in SuperOffice Setting
 [5]: ../create.md
 [6]: ../../../search-options/learn/using-fastsearcher.md
 [7]: ../../../diary/learn/change-completed-status.md
-[9]: ../../../win-client/creating-shortcuts-to-entries-in-crm.md
+[9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../learn/getting-started/linking-documents-to-follow-ups.md
 [3]: ../../../custom-objects/learn/udef/index.md
 
