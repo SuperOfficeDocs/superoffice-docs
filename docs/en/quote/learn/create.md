@@ -36,7 +36,7 @@ language: en
 [1]: ../../sale/learn/create.md
 [2]: add-product.md
 [3]: versions.md
-[4]: ../../sale/learn/screen/edit-quote-dialog.md
+[4]: screen/edit-quote-dialog.md
 [5]: add-alternative.md
 [6]: create-quote-document.md
 [7]: send.md

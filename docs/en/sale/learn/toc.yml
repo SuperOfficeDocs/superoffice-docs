@@ -6,16 +6,7 @@ items:
 - name: Sales guide
   href: sales-guide/index.md
 - name: Section tabs on sale
-  href: screen/index.md
-  items:
-  - name: Activities
-    href: screen/activities-sale.md
-  - name: Stakeholders
-    href: stakeholders/index.md
-  - name: Sales guide
-    href: screen/sales-guide-tab.md
-  - name: Quote
-    href: screen/quote-tab.md
+  href: screen/toc.yml
 - name: Work with sale
   items:
   - name: Create a sale

@@ -45,7 +45,7 @@ The product list: If products were added to the quote, they are shown in the lis
 [5]: ../../../quote/learn/add-alternative.md#fav
 [6]: ../../../quote/learn/index.md#status
 [7]: ../../../quote/learn/add-product.md
-[8]: edit-quote-dialog.md
+[8]: ../../../quote/learn/screen/edit-quote-dialog.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/favourite-yes.png

@@ -56,12 +56,12 @@ The bottom section of the dialog
 **Update prices**: Click here to update the prices in the quote from the price list(s).
 
 <!-- Referenced links -->
-[1]: ../../../quote/learn/create-quote-document.md
-[3]: ../../../quote/learn/send.md
-[4]: ../../../quote/learn/create-order.md
-[6]: ../../../quote/learn/add-product.md
-[8]: ../../../quote/learn/index.md#status
-[9]: ../../../quote/learn/add-product.md#warning
+[1]: ../create-quote-document.md
+[3]: ../send.md
+[4]: ../create-order.md
+[6]: ../add-product.md
+[8]: ../index.md#status
+[9]: ../add-product.md#warning
 [7]: ../../../learn/getting-started/export-archives.md
 
 <!-- Referenced images -->
