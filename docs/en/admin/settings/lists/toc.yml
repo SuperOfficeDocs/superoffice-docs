@@ -43,7 +43,7 @@ items:
     - name: Replace existing template
       href: replace-existing-template.md
     - name: Document templates in multiple languages
-      href: ../../win-client/using-document-templates-for-multiple-languages.md
+      href: ../../../win-client/using-document-templates-for-multiple-languages.md
   - name: Email template
     href: email-template.md
     items:
@@ -55,24 +55,24 @@ items:
     - name: Add a follow-up type
       href: adding-items-to-follow-up-type-list.md
   - name: Sale stage
-    href: ../../sale/screen/sale-stage.md
+    href: ../../../sale/learn/screen/sale-stage.md
     items:
     - name: Add a sale stage
       href: sale-stage.md
   - name: Sales type (for stages)
-    href: ../../sale/screen/sales-type-for-stages.md
+    href: ../../../sale/learn/screen/sales-type-for-stages.md
     items:
     - name: Add a sales type
       href: sale-type.md
   - name: Add sale amount class
     href: sale-amount-class.md
   - name: Project Status
-    href: ../../project/screen/project-status-admin.md
+    href: ../../../project/learn/screen/project-status-admin.md
     items:
     - name: Add a project status
       href: project-status.md
   - name: Project Type
-    href: ../../project/screen/project-type-admin.md
+    href: ../../../project/learn/screen/project-type-admin.md
     items:
     - name: Add a project type
       href: project-type.md
@@ -102,7 +102,7 @@ items:
       href: adding-external-applications-to-application-list.md
     - name: Web panel
       href: web-panel.md
-    - name: Add a webpanel
+    - name: Add a web panel
       href: web-panel-add-item.md
 - name: User-defined lists
   items:
@@ -112,4 +112,3 @@ items:
     href: editing-lists-name-and-description.md
   - name: Delete user-defined list
     href: deleting-user-defined-lists.md
-    

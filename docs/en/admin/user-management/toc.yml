@@ -10,14 +10,14 @@ items:
       href: screen/other-users-tab.md
     - name: Our companies
       href: screen/our-companies-tab.md
-    - name: User licenes tab
+    - name: User licenses tab
       href: screen/user-licences-tab.md
     - name: User groups
       href: screen/user-groups-tab.md
     - name: Users screen
       href: screen/users-screen-service.md
     - name: Log users off
-      href: ../win-client/logging-users-off.md
+      href: ../../win-client/logging-users-off.md
   - name: Add user
     items:
     - name: Add a SuperOffice CRM user

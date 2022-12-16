@@ -10,47 +10,12 @@ items:
 - name: Combined selections
   href: combined-selections.md
 - name: Create a selection
-  href: create/index.md
-  items:
-  - name: Create static selection
-    href: create/create-static.yml
-  - name: Create dynamic selection
-    href: create/create-dynamic.yml
-  - name: Create combined selection
-    href: create/create-combined.yml
-  - name: Copy a selection
-    href: create/copy.md
+  href: create/toc.yml
+  topicHref: create/index.md
 - name: Update selection
-  href: update/index.md
-  items:
-  - name: Add members to static selection
-    href: update/add-members-to-static.md
-  - name: Remove members from static selection
-    href: update/remove-members-from-static.md
-  - name: Copy members to another selection
-    href: update/copy-members-to.md
-  - name: Delete a selection
-    href: update/delete.md
+  href: update/toc.yml
+  topicHref: update/index.md
+
 - name: Perform tasks on selection
-  href: howto/index.md
-  items:
-  - name: Create mailing
-    href: howto/create-mailings.md
-  - name: Send email to multiple recipients
-    href: howto/send-email.md
-  - name: Generate follow-ups
-    href: howto/generate-follow-ups.md
-  - name: Display selection as charts
-    href: howto/display-as-charts.md
-  - name: Bulk update
-    href: howto/bulk-update.md
-  - name: Printing labels Selection
-    href: howto/print-labels.md
-  - name: Print company reports
-    href: howto/print-company-reports.md
-  - name: Export to file
-    href: howto/export-to-file.md
-  - name: Export to Excel
-    href: howto/export-to-excel.md
-  - name: Delete records permanently
-    href: howto/deleting-companies-permanently.md
+  href: howto/toc.yml
+  topicHref: howto/index.md

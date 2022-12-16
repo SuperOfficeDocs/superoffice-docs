@@ -1,0 +1,7 @@
+items:
+  - name: Personal profiles
+    href: personal.md
+  - name: Common profiles
+    href: common.md
+  - name: Global profiles
+    href: global.md

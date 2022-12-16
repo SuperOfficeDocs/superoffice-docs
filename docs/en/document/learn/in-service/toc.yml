@@ -1,0 +1,13 @@
+items:
+- name: View documents
+  href: view.md
+- name: Create documents
+  href: create.md
+- name: Edit documents
+  href: edit.md
+- name: Delete documents
+  href: delete.md
+- name: Administrate document folders
+  href: manage-folders.md
+- name: Search for documents
+  href: find.md

@@ -49,7 +49,7 @@ items:
   - name: Linking documents to follow ups
     href: linking-documents-to-follow-ups.md
   - name: Visibility
-    href: ../../user-management/visibility.md
+    href: ../../admin/user-management/visibility.md
   - name: Work with the Section tabs
     href: section-tabs.md
     items:
@@ -74,24 +74,16 @@ items:
   - name: Work with activities
     items:
     - name: View activities
-      href: ../../company/view-activities.md
+      href: ../../company/learn/view-activities.md
     - name: Delete activities
-      href: ../../company/delete-activities-contact.md
+      href: ../../company/learn/delete-activities-contact.md
     - name: Reply to email from the Activities section tab
-      href: ../../company/replying-to-email-from-activities-section-tab.md
+      href: ../../company/learn/replying-to-email-from-activities-section-tab.md
     - name: Forward email from the Activities section tab
-      href: ../../company/forwarding-email-from-activities-section-tab.md
+      href: ../../company/learn/forwarding-email-from-activities-section-tab.md
   
   - name: Language and translation
-    items:
-    - name: Change active language
-      href: ../../globalization/change-language.md
-    - name: Translation of content
-      href: ../../globalization/translate-fields.md
-    - name: Time zones
-      href: ../../globalization/learn/time-zones.md
-    - name: Language support in Mobile CRM
-      href: ../../settings/index.md
-  
+    href: ../../globalization-and-localization/learn/toc.yml
+
   - name: External applications and URL addresses
     href: external-applications-and-url-addresses.md

@@ -48,8 +48,8 @@ items:
       href: ../security/privacy/learn/toc.yml
 
     - name: SAINT (Sales intelligence)
-      href: ../sale/saint/admin/toc.yml
-      topicHref: ../sale/saint/admin/index.md
+      href: ../sale/saint/learn/admin/toc.yml
+      topicHref: ../sale/saint/learn/admin/index.md
 
     - name: Quote/Sync
       href: ../quote/learn/quote-sync/toc.yml  
@@ -177,20 +177,9 @@ items:
     - name: Company
       href: customers/company/toc.yml
     - name: Documents
-      href: ../document/learn/in-service/index.md
-      items:
-      - name: View documents
-        href: ../document/learn/in-service/view.md
-      - name: Create documents
-        href: ../document/learn/in-service/create.md
-      - name: Edit documents
-        href: ../document/learn/in-service/edit.md
-      - name: Delete documents
-        href: ../document/learn/in-service/delete.md
-      - name: Administrate document folders
-        href: ../document/learn/in-service/manage-folders.md
-      - name: Search for documents
-        href: ../document/learn/in-service/find.md
+      href: ../document/learn/in-service/toc.yml
+      topicHref: ../document/learn/in-service/index.md
+
     - name: Knowledge Base
       href: ../request/learn/screen/knowledge-base.md
       items:
@@ -208,47 +197,13 @@ items:
       - name: External documents
         href: ../request/learn/external-document.md
     - name: Statistics in Service
-      href: ../dashboard/in-service/statistics/index.md
-      items:
-      - name: Dashboards in Service
-        href: ../dashboard/in-service/index.md
-      - name: Reports
-        href: ../dashboard/in-service/statistics/reports.md
-      - name: Standard reports
-        href: ../dashboard/in-service/statistics/standard-reports.md
-      - name: Request statistics
-        href: ../dashboard/in-service/statistics/request.md
-      - name: Login statistics
-        href: ../dashboard/in-service/statistics/login.md
-      - name: Invoice statistics
-        href: ../dashboard/in-service/statistics/invoice.md
-      - name: Create new report
-        href: ../dashboard/in-service/statistics/create-report.md
+      href: ../dashboard/in-service/statistics/toc.yml
+      topicHref: ../dashboard/in-service/statistics/index.md
+
     - name: Selection
-      href: ../search-options/learn/selections/in-service/index.md
-      items:
-      - name: Create a selection based on search criteria
-        href: ../search-options/learn/selections/in-service/create-from-search.md
-      - name: Create a dynamic selection
-        href: ../search-options/learn/selections/in-service/create-dynamic.md
-      - name: Create a script-based selection
-        href: ../search-options/learn/selections/in-service/create-script-based.md
-      - name: Create a static selection
-        href: ../search-options/learn/selections/in-service/create-static.md
-      - name: Create a combined selection
-        href: ../search-options/learn/selections/in-service/create-combined.md
-      - name: List selections
-        href: ../search-options/learn/selections/in-service/list.md
-      - name: Update a selection
-        href: ../search-options/learn/selections/in-service/update.md
-      - name: Edit a selection
-        href: ../search-options/learn/selections/in-service/edit.md
-      - name: Manage columns in selections
-        href: ../search-options/learn/selections/in-service/manage-columns.md
-      - name: Delete a selection or its records
-        href: ../search-options/learn/selections/in-service/delete.md
-      - name: Administrate folders of selections
-        href: ../search-options/learn/selections/in-service/manage-folders.md
+      href: ../search-options/learn/selections/in-service/toc.yml
+      topicHref: ../search-options/learn/selections/in-service/index.md
+
     - name: Email
       href: ../email/learn/service/toc.yml
     - name: User interface
@@ -261,25 +216,12 @@ items:
       - name: Screen properties
         href: ../ui/learn/in-service/screen-properties.md
       - name: Profiles
-        href: ../ui/learn/in-service/profiles/index.md
-        items:
-        - name: Personal profiles
-          href: ../ui/learn/in-service/profiles/personal.md
-        - name: Common profiles
-          href: ../ui/learn/in-service/profiles/common.md
-        - name: Global profiles
-          href: ../ui/learn/in-service/profiles/global.md
+        href:  ../ui/learn/in-service/profiles/toc.yml
+        topicHref: ../ui/learn/in-service/profiles/index.md
+
     - name: Package properties
       href: ../admin/settings/screen/package-properties.md
     
     - name: Invoice
-      href: ../request/invoice/index.md
-      items:
-      - name: View invoice data for company
-        href: ../request/invoice/for-company.md
-      - name: View invoice data for contact
-        href: ../request/invoice/for-contact.md
-      - name: Create invoice types
-        href: ../request/invoice/create-type.md
-      - name: Delete invoice types
-        href: ../request/invoice/delete-type.md
+      href: ../request/learn/invoice/toc.yml
+      topicHref: ../request/learn/invoice/index.md

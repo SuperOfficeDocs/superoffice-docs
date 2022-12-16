@@ -1,0 +1,9 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Add function to menu button (Actions)
+    href: actions.md
+  - name: Add navigator group and extra menu
+    href: navigator.md
+  - name: Menu properties
+    href: properties.md
