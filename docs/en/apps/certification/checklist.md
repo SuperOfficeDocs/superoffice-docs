@@ -92,7 +92,7 @@ My application is ready, what should I consider before I ask for a certification
 [Sign me up for certification][19]
 
 <!-- Referenced links -->
-[6]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap07%2FVisibility.htm
+[6]: ../../admin/user-management/visibility.md
 [7]: ../provisioning/get-consent.md
 [8]: ../provisioning/revoke.md
 [9]: ../tenant-status/check-status.md

@@ -22,11 +22,11 @@ highlightedContent:
     # Card
     - title: Search options (in the UI)
       itemType: reference
-      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap01%2FSearch_options_in_CRM.htm
+      url: learn/index.md
     # Card
-    - title: User-help for selections
+    - title: User guide for selections
       itemType: reference
-      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap04%2FSelection.htm
+      url: learn/selections/index.md
     # Card
     - title: Template variables
       itemType: reference
@@ -49,10 +49,10 @@ conceptualContent:
       - text: How to search for information
         itemType: learn
         url: https://community.superoffice.com/en/learning/user-guide/selections/
-      - text: How to use a typical search
+      - text: How to use a typical search
         itemType: learn
         url: https://community.superoffice.com/en/learning/user-guide/selections/typical-search/
-      - text: How to create a search and save it as a selection
+      - text: How to create a search and save it as a selection
         itemType: learn
         url: https://community.superoffice.com/en/learning/user-guide/selections/save-search-as-selection/
       - text: How to create a dynamic selection
@@ -85,16 +85,16 @@ conceptualContent:
           url: ../admin/user-preferences/reference/freetext.md
         - text: Enable free-text search
           itemType: how-to-guide
-          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap06%2FEnabling_freetext_search.htm
+          url: ../admin/settings/options/freetext-search/enable.md
         - text: Specify search criteria
           itemType: how-to-guide
-          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap06%2FSpecifying_search_criteria.htm
+          url: ../admin/settings/options/freetext-search/specifying-search-criteria.md
         - text: Stopwords
           itemType: how-to-guide
-          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap06%2FStopwords.htm
+          url: ../admin/settings/options/freetext-search/stopwords.md
         - text: Regenerate the free-text index
           itemType: how-to-guide
-          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap06%2FRegenerating_a_freetext_index.htm
+          url: ../admin/settings/options/freetext-search/regenerating-freetext-index.md
 
     # Card
     - title: UI options

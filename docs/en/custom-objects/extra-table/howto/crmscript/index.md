@@ -35,7 +35,7 @@ se.insert();
 | Display field  | for relations                                               |
 | SuperOffice CRM access | controls access to the table from web panels<br>no access, read access, or full access |
 
-For a complete list of properties, see the [help files][1].
+[Complete list of properties][1]
 
 ### Field properties
 
@@ -51,9 +51,9 @@ For a complete list of properties, see the [help files][1].
 
 In addition, each type has its own set of properties. For example, items for a list box and decimals in a number, or units for a time span.
 
-For a complete list of properties, see the [help files][3].
+[Complete list of properties][3].
 
 <!-- Referenced links -->
-[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.editExtraTable.html
+[1]: ../../../learn/extra-table/create.md
 [2]: ../../../../automation/crmscript/searchengine/index.md
-[3]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.listFields.editField.html
+[3]: ../../../learn/extra-field/create.md

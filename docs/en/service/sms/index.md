@@ -57,7 +57,7 @@ This method of sending will not create any entries in the **Settings/E-mail/SMS 
 
 ## How to use
 
-You may read more about how to use the SMS plugins in the [help file][1]. The information in the help file applies to all SMS plugins.
+[Read more about how to use the SMS plugins][1]
 
 ## Available plugins
 
@@ -70,7 +70,7 @@ You may read more about how to use the SMS plugins in the [help file][1]. The i
 * [TxtLocal][10]
 
 <!-- Referenced links -->
-[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fadmin.editInfo.sms.html
+[1]: ../../admin/settings/in-service/sms.md
 [2]: ../automated-tasks/ejournalcron.md
 [3]: ../../automation/crmscript/index.yml
 [4]: cm.md

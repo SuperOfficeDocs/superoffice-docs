@@ -20,9 +20,9 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
   items:
     # Card
-    - title: User-help pages
+    - title: User guide
       itemType: reference
-      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.html
+      url: learn/extra-tables/index.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -61,10 +61,10 @@ conceptualContent:
           url: ../admin/user-preferences/index.md
         - text: Lists - Project status
           itemType: how-to-guide
-          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FProject_-_Status.htm
+          url: ../admin/settings/lists/project-status.md
         - text: Lists - Project type status
           itemType: how-to-guide
-          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FProject_-_Type.htm
+          url: ../admin/settings/lists/project-type.md
 
     # Card
     - title: UI options

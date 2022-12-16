@@ -29,7 +29,7 @@ so.client: online
 | 10 | Register customer in SuperID | |
 | 11 | Clone Azure templates from CustSOURCE on | Copy templates from source to target. |
 | 12 | Provision Mail Service | All mailboxes used by Service are deleted and replaced with one single test email account for this domain. |
-| 13 | Disable Scheduled Tasks | Any scheduled tasks that have been active on the source will by default be set to disabled. Read more about scheduled tasks in the [admin help file][1] |
+| 13 | Disable Scheduled Tasks | Any scheduled tasks that have been active on the source will by default be set to disabled. [Read more][1] |
 | 14 | Recycle customer | Recycle the target |
 | 15 | Change the serial number to Test Env - COMPANYNAME/SERIALNUMBER | We need to change the serial number and owner company to match that of the test tenant. License information. |
 | 16 | Set SuperID Tenant State to *In migration* | |
@@ -43,4 +43,4 @@ so.client: online
 | 24 | Enter Running Mode | The production sandbox may now be logged in to! |
 
 <!-- Referenced links -->
-[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=topics_script%2Fblogic.listScheduledTasks.html
+[1]: ../../automation/learn/schedule-task.md

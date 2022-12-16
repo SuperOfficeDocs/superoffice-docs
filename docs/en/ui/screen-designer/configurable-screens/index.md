@@ -56,8 +56,8 @@ The **More** tab contains all [custom fields][3] ordered by rank. These fields a
 <!-- Referenced links -->
 [2]: add-layout.md
 [3]: ../../../custom-objects/overview.md
-[4]: https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.listFields.editField.html
-[5]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=fields_web%2FAdding_fields_web.htm
+[4]: ../../../custom-objects/learn/extra-field/create.md
+[5]: ../../../custom-objects/learn/udef/add.md
 
 <!-- Referenced images -->
 [img1]: media/status-draft.png

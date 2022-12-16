@@ -19,6 +19,6 @@ so.client: win, web, service
 
 <!-- Referenced links -->
 [1]: ../trigger/create-trigger-macro.md
-[2]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=topics_script%2Fblogic.listScripts.editMacro.html
+[2]: ../learn/create-macro.md
 
 <!-- Referenced images -->

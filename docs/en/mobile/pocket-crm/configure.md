@@ -47,9 +47,7 @@ Open SuperOffice Admin client and select Lists section > Lists tab > double clic
 
 ## Admin configuration - Add a Follow-up type for SMS
 
-Open SuperOffice Admin client and select Lists section > Lists tab > double click **Type (Follow-up)** and select **+ Add** bottom of the **Lists items**. Add this List item SMS as type **Appointment** and direction **Outgoing**.
-
-See the admin [help file][2] for adding list items.
+Open SuperOffice Admin client and select Lists section > Lists tab > double click **Type (Follow-up)** and select **+ Add** bottom of the **Lists items**. [Add this List item][2] SMS as type **Appointment** and direction **Outgoing**.
 
 ## Data caching
 
@@ -94,7 +92,7 @@ Example:
 * `{pcvu}` variable is used as the display name for the Pocket configuration URL.
 
 <!-- Referenced links -->
-[2]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FAdding_items.htm
+[2]: ../../admin/settings/lists/adding-items.md
 [3]: https://www.apple.com/business/docs/iOS_Security_Guide.pdf
 [4]: https://source.android.com/security/encryption/full-disk
 [5]: ../../onsite/security/deployment-scenarios.md

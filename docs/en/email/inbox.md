@@ -167,7 +167,7 @@ Read section [Mail logging][1].
 [2]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=166
 [3]: https://cs.superoffice.com/
 [4]: ../api/config/mail.md
-[5]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap07web%2FInbox_CRM_web.htm
+[5]: learn/inbox/index.md
 [6]: https://www.codetwo.com/kb/upn/#exchange
 [7]: https://www.codetwo.com/kb/upn/#office-365
 

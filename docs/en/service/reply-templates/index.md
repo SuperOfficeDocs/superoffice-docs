@@ -15,7 +15,7 @@ To get a complete overview of template variables available for your database, [c
 
 When this reply template is used in a request, you will get a list of all available template variables by using the parser tree variable.
 
-You will also find a complete list of all standard fields (this will not cover your user-defined fields) in our [help file][3].
+[Complete list of all standard fields][3] (does not cover your user-defined fields)
 
 ## Parser availability
 
@@ -65,6 +65,6 @@ Here you may send a reply template to the customer or another email address. The
 You can also extract anything from the email using [Find regular expressions][4], and those matches will be available as parser variables (see the help for syntax).
 
 <!-- Referenced links -->
-[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fdocument.replyTemplates.newReplyTemplate.html
-[3]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html
-[4]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FAdd_e-mail_template.htm
+[1]: learn/create.md
+[3]: learn/template-variables.md
+[4]: ../../admin/settings/lists/add-email-template.md

@@ -28,7 +28,7 @@ If you select the **View** tab in the **Diary** screen, the ![icon][img2] **Task
 * Select **Copy** to make a copy of the group view you opened.
 * Select **Delete group view** to delete the group view you opened.
 * Select **Invite participants** to link participants to a follow-up.
-* Select **Help** to open this help file.
+* Select **Help** to open this user guide.
 
 ## What would you like to do now?
 

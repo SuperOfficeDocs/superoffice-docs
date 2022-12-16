@@ -158,7 +158,7 @@ To create a new mailbox with OAuth 2.0 (in 10.1.4 and older)::
     * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
 4. Click OK. The mailbox is created.
 
-See the [help file][8] for more information.
+[Read more in the user guide.][8]
 
 To change authentication to OAuth 2.0 on an existing mailbox:
 

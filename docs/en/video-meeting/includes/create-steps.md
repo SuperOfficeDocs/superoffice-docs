@@ -4,8 +4,8 @@
 3. Complete the information in the **Follow-up** dialog as described in the [user guide][2].
 
 <!-- Referenced links -->
-[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap02%2FAdd_activities.htm
-[2]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap02%2FDialog_for_followups.htm
+[1]: ../../diary/learn/create-appointment.md
+[2]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/videomeeting_inactive.png

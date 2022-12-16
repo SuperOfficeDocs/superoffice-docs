@@ -20,9 +20,9 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
   items:
     # Card
-    - title: User-help pages
+    - title: User guide
       itemType: reference
-      url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fticket.html
+      url: learn/index.md
     # Card
     - title: Template variables
       itemType: reference
@@ -85,19 +85,19 @@ conceptualContent:
           url: ../admin/user-preferences/index.md
         - text: Category
           itemType: how-to-guide
-          url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fadmin.listCategories.html
+          url: learn/category/index.md
         - text: Priority
           itemType: how-to-guide
-          url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fadmin.listPriorities.html
+          url: learn/priority/index.md
         - text: Request status
           itemType: how-to-guide
-          url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fadmin.listTicketStatuses.html
+          url: learn/status/index.md
         - text: Email
           itemType: how-to-guide
-          url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fadmin.listFilters.html
+          url: ../service/mailboxes/learn/index.md
         - text: SOAP ports
           itemType: how-to-guide
-          url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fadmin.soapConf.html
+          url: ../admin/settings/configure-soap.md
 
     # Card
     - title: UI options
@@ -111,7 +111,7 @@ conceptualContent:
         url: ../ui/soprotocol/index.md
       - text: System design
         itemType: how-to-guide
-        url: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/Service/topics/blogic.html
+        url: ../ui/learn/screen-designer/index.md
       - text: bLogic messages
         itemType: reference
         url: ../ui/blogic/reference/messages.md

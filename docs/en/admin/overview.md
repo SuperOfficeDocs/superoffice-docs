@@ -16,13 +16,12 @@ The Admin client in Web is used for Sales & Marketing administration.
 > [!NOTE]
 > With SuperOffice 8 and newer all onsite customers must install the Web client to use the Maintenance and Settings client.
 
-### Available help files
+### Available user guides
 
 * [Licenses][1]
 * [User configuration][2]
 * [Roles and rights][3]
 * [Lists][4]
-* [Workflow][5]
 * [Preferences][6]
 * [Options][7]
 * [Import][8]
@@ -44,16 +43,15 @@ Also [scripts][14] available in the Windows client only may be enabled in the Wi
 > Due to the SuperOffice 9 is distributed with the Web client only, SuperOffice Maintenance and Settings client for SuperOffice 9 contains only the Import section.
 
 <!-- Referenced links -->
-[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FLicences_screen.htm
-[2]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap07%2FUsers.htm
-[3]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=Rolle%2FRole.htm
-[4]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FLists_web.htm
-[5]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=Sale%2FWorkflow.htm
-[6]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap05%2FPreferences.htm
-[7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap06%2FOptions.htm
-[8]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=import_web%2FImport_web.htm
-[9]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=fields_web%2FFields_web.htm
+[1]: license/learn/screen/index.md
+[2]: user-management/index.md
+[3]: user-management/role/index.md
+[4]: settings/lists/index.md
+[6]: settings/preferences/
+[7]: settings/options/index.md
+[8]: import/index.md
+[9]: ../custom-objects/learn/udef/index.md
 [11]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
 [12]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=chap02%2FReplication.htm
-[13]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap04%2FImport.htm
+[13]: ../win-client/import/index.md
 [14]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=Skripting%2FScripting.htm

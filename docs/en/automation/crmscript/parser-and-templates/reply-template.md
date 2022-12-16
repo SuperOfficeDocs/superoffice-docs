@@ -181,6 +181,6 @@ htmlBody = p.parseString(htmlBody);
 <!-- Referenced links -->
 [1]: ../../../database/tables/reply-template.md
 [2]: ../../../document/templates/index.md
-[3]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html
+[3]: ../../../service/reply-templates/learn/template-variables.md
 [4]: parser.md
-[5]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Service%2Ftopics%2Fadmin.listCustLangs.editCustLang.html
+[5]: ../../../admin/settings/options/custlang/index.md

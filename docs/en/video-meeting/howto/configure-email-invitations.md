@@ -26,6 +26,6 @@ This feature is currently not supported if you use [Synchronizer for SuperOffice
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/appstore/infobridge-software-b-v-/synchronizer-for-superoffice
-[2]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=StandardCRM%2Fchap07web%2FInbox_CRM_web.htm
-[3]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FAdd_e-mail_template.htm
-[4]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=MailLink/topics/Introduction.htm
+[2]: ../../email/learn/inbox/index.md
+[3]: ../../admin/settings/lists/add-email-template.md
+[4]: ../../email/learn/mail-link/index.md

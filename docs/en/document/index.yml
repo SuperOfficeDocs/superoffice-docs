@@ -94,7 +94,7 @@ conceptualContent:
           url: ../admin/user-preferences/index.md
         - text: List Document template
           itemType: how-to-guide
-          url: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FDocument_template.htm
+          url: ../admin/settings/lists/document-template.md
 
     # Card
     - title: UI options
