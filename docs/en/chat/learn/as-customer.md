@@ -41,4 +41,4 @@ If request submission has been activated for this chat channel, the customers ca
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../../../media/icons/btn-menu.png

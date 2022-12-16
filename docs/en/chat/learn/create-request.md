@@ -22,4 +22,4 @@ If you cannot solve the issue via the chat, you can create a request to be handl
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../../../media/icons/btn-menu.png

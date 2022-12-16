@@ -47,7 +47,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [10]: ../options/custlang/index.md
 [11]: ../../../service/customer-center/learn/config.md
 [12]: ../../../service/customer-center/learn/edit.md
-[13]: ../../../chat/admin/index.md
+[13]: ../../../chat/learn/admin/index.md
 [14]: ../screen/soap-config.md
 [15]: ../../../ui/learn/in-service/index.md
 [16]: ../../../request/learn/invoice/index.md

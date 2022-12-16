@@ -39,4 +39,4 @@ If an agent transfers a chat to you, the chat is automatically displayed in the 
 [1]: create-request.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
+[img1]: ../../../media/icons/btn-menu.png

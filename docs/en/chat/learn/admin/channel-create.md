@@ -150,7 +150,7 @@ Yes, but make sure that the chat channel is not being used on a website. Otherwi
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/settings-small.png
-[img2]: ../../../../common/icons/nav-admin-chat-active.png
-[img3]: ../../media/chat-badge-example.png
-[img4]: ../../../../common/icons/mandatory.png
+[img1]: ../../../../media/icons/settings-small.png
+[img2]: ../../../../../common/icons/nav-admin-chat-active.png
+[img3]: ../../../media/chat-badge-example.png
+[img4]: ../../../../../common/icons/mandatory.png

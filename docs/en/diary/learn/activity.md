@@ -129,7 +129,7 @@ You can delete activities from any screen where they are displayed:
 [8]: create-follow-up.md
 [10]: change-completed-status.md
 [11]: phone-call/dial.md
-[12]: ../../chat/index.md
+[12]: ../../learn/index.md
 [13]: ../../company/learn/screen/activities-tab.md
 [14]: ../../contact/learn/screen/activities-tab.md
 [15]: ../../project/learn/screen/activities-project.md

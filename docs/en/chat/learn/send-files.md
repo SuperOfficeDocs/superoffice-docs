@@ -24,4 +24,4 @@ The file/document is immediately sent to the customer.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/attachments-black.png
+[img1]: ../../../../common/icons/attachments-black.png

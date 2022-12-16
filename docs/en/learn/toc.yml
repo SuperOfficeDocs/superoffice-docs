@@ -26,7 +26,7 @@ items:
   - name: Email
     href: ../email/learn/toc.yml
   - name: Chat
-    href: ../chat/toc.yml
+    href: ../chat/learn/toc.yml
   - name: Reports
     href: ../reports/toc.yml
   - name: Marketing
@@ -84,12 +84,12 @@ items:
       href: ../admin/settings/options/toc.yml
 
     - name: Chat
-      href: ../chat/admin/index.md
+      href: ../chat/learn/admin/index.md
       items:
       - name: Create a chat channel
-        href: ../chat/admin/channel-create.md
+        href: ../chat/learn/admin/channel-create.md
       - name: Add JavaScript for your website
-        href: ../chat/admin/add-javascript.md
+        href: ../chat/learn/admin/add-javascript.md
 
     - name: CRMScript
       href: ../automation/crmscript/learn/toc.yml
