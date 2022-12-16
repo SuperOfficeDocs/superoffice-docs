@@ -184,7 +184,7 @@ items:
       href: ../request/learn/screen/knowledge-base.md
       items:
       - name: FAQ
-        href: ../faq/toc.yml
+        href: ../faq/learn/toc.yml
       - name: Reply templates
         href: ../service/reply-templates/learn/toc.yml
       - name: Email addresses

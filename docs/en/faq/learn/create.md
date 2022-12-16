@@ -98,11 +98,11 @@ Since the option to create FAQ entries this way is only available to administrat
 * [Publish FAQ entries][3]
 
 <!-- Referenced links -->
-[1]: ../request/learn/index.md#open
+[1]: ../../request/learn/index.md#open
 [2]: manage-folders.md
 [3]: publish.md
 [4]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-add.png
-[img2]: ../../media/icons/service/spell-check.png
+[img1]: ../../../media/icons/btn-add.png
+[img2]: ../../../media/icons/service/spell-check.png

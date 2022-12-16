@@ -105,7 +105,7 @@ To create a role for associates in the company or for external users:
 <!-- Referenced links -->
 [1]: ../../settings/in-service/personal-settings/user-info.md
 [2]: ../../../ui/learn/in-service/profiles/index.md
-[3]: ../../../faq/workflow.md
+[3]: ../../../faq/learn/workflow.md
 [4]: editing-role.md
 [5]: ../add-associate.md
 [6]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/

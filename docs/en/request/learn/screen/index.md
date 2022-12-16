@@ -89,7 +89,7 @@ The **Details** tab contains an overview of the request.
 [5]: ../howto/accept.md
 [6]: ../howto/split-request.md
 [7]: ../howto/merge.md
-[8]: ../../../faq/create.md
+[8]: ../../../faq/learn/create.md
 [9]: ../howto/edit-message.md
 [10]: ../howto/forward.md
 [11]: ../howto/split-message.md

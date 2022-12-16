@@ -67,6 +67,6 @@ You can both change the name of a stage and alter which users are to have access
 [2]: publish.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-menu.png
-[img2]: ../../../common/icons/gearblack.png
-[img3]: ../../media/icons/btn-add.png
+[img1]: ../../../media/icons/btn-menu.png
+[img2]: ../../../../common/icons/gearblack.png
+[img3]: ../../../media/icons/btn-add.png
