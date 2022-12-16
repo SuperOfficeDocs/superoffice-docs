@@ -2,16 +2,7 @@ items:
 - name: Overview
   href: index.md
 - name: Section tabs on project
-  href: screen/index.md
-  items:
-  - name: Project members
-    href: screen/project-members-tab.md
-  - name: Project guide
-    href: screen/project-guide-tab.md
-  - name: Activities
-    href: screen/activities-project.md
-  - name: Sales
-    href: screen/sale.md
+  href: screen/toc.yml
 - name: Work with project
   items:
   - name: Create a project
@@ -27,18 +18,7 @@ items:
   - name: Delete a project
     href: delete.md
 - name: Project members
-  href: project-members/index.md
-  items:
-  - name: Add a project member
-    href: project-members/add.md
-  - name: Edit a project member
-    href: project-members/edit.md
-  - name: Invite to a meeting
-    href: project-members/invite-to-meeting.md
-  - name: Send emails to project members
-    href: project-members/send-email-to.md
-  - name: Create document mailing to project members
-    href: project-members/create-mailing.md
+  href: project-members/toc.yml
 - name: Project guide
   href: project-guide/index.md
   items:

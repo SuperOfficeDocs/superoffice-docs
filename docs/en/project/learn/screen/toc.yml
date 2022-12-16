@@ -1,0 +1,11 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Project members
+    href: project-members-tab.md
+  - name: Project guide
+    href: project-guide-tab.md
+  - name: Activities
+    href: activities-project.md
+  - name: Sales
+    href: sale.md
