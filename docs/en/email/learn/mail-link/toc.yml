@@ -30,13 +30,4 @@ items:
     href: create-in-lotus.md
 
 - name: SuperOffice CRM options dialog
-  href: settings/index.md
-  items:
-  - name: Archive options
-    href: settings/default.md
-  - name: General settings
-    href: settings/general.md
-  - name: Invitations
-    href: settings/invitations.md
-  - name: SuperOffice account
-    href: settings/superoffice-account.md
+  href: settings/toc.yml
