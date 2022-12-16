@@ -1,0 +1,13 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Activities
+    href: activities-tab.md
+  - name: Sales
+    href: sales-tab.md
+  - name: Requests
+    href: requests-tab.md
+  - name: Projects
+    href: projects-tab.md
+  - name: Relations
+    href: relations-tab.md
