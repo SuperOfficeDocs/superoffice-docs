@@ -11,7 +11,7 @@ language: en
 
 # Use status monitors in a dynamic selection
 
-If you have purchased a licence for SAINT, you can use statuses defined in SuperOffice Settings and maintenance as criteria for creating dynamic selections. In this way, you can get an overview of companies, contacts or projects which match the status criteria you are interested in. The SAINT criteria can be found under **Counters (SAINT)** in the list of criteria in the **Find** screen. See [Use search criteria][1].
+If you have purchased a licence for SAINT, you can use statuses defined in SuperOffice Settings and maintenance as criteria for creating dynamic selections. In this way, you can get an overview of companies, contacts or projects which match the status criteria you are interested in. The SAINT criteria can be found under **Counters (SAINT)** in the [list of criteria][1] in the **Find** screen.
 
 [!include[Requirement](includes/req-saint.md)]
 

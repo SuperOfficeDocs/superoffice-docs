@@ -10,4 +10,4 @@
 1. To save the results in a selection, click **Save as selection**. If not, refine your search criteria.
 
 <!-- Referenced links -->
-[2]: ../../../using-search-criteria.md
+[2]: ../../../../learn/using-search-criteria.md

@@ -44,7 +44,7 @@ Click ![icon][img1] and **Reset** to reset the filter.
 
 <!-- Referenced links -->
 [1]: sections-tabs-grouping-lists.md
-[2]: ../../search-options/learn/selections/screen/index.md#filter
+[2]: ../../search-options/selection/learn/screen/index.md#filter
 [3]: ../../reports/learn/filter.md
 
 <!-- Referenced images -->

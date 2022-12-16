@@ -135,7 +135,7 @@ In SuperOffice Settings and maintenance, you can also define your own views for 
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/screen/index.md
 [6]: ../../../diary/learn/screen/dialog-for-followups.md
-[7]: ../../../search-options/learn/selections/create/create-dynamic.yml
+[7]: ../../../search-options/selection/learn/create/create-dynamic.yml
 [8]: ../fav.md
 [9]: ../notes.md
 

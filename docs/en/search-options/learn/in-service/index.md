@@ -123,8 +123,8 @@ To return to the ordinary view, click the **Simple view** button at the top of t
 [2]: in-navigator.md
 [3]: ../../../request/learn/find.md
 [4]: ../../../request/learn/find.md#list
-[5]: ../selections/in-service/index.md
-[6]: ../selections/in-service/create-from-search.md
+[5]: ../../selection/learn/in-service/index.md
+[6]: ../../selection/learn/in-service/create-from-search.md
 [7]: customize-presentation.md#add-column
 [8]: customize-presentation.md
 

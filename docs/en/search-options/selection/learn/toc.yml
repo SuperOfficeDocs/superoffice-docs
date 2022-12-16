@@ -9,13 +9,10 @@ items:
   href: dynamic-selections.md
 - name: Combined selections
   href: combined-selections.md
+
 - name: Create a selection
   href: create/toc.yml
-  topicHref: create/index.md
 - name: Update selection
   href: update/toc.yml
-  topicHref: update/index.md
-
 - name: Perform tasks on selection
   href: howto/toc.yml
-  topicHref: howto/index.md

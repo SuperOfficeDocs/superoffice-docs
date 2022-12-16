@@ -58,7 +58,7 @@ Some lists may contain hundreds of records. To prevent slow loading of long list
 [11]: ../../diary/learn/screen/index.md
 [12]: ../../sale/learn/screen/index.md
 [13]: ../../project/learn/screen/index.md
-[14]: ../../search-options/learn/selections/screen/index.md
+[14]: ../../search-options/selection/learn/screen/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

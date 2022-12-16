@@ -46,7 +46,7 @@ language: en
 
 <!-- Referenced links -->
 [1]: create-from-search.md
-[2]: ../../in-service/index.md
+[2]: ../../../learn/in-service/index.md
 [3]: update.md
 [4]: list.md
 [5]: edit.md

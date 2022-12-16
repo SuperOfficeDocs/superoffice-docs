@@ -5,7 +5,7 @@ items:
   href: find-dialog.md
 - name: Search criteria
   href: using-search-criteria.md
-- name: Freetext search
+- name: Free-text search
   href: freetext-search.md
 - name: FastSearcher
   href: using-fastsearcher.md

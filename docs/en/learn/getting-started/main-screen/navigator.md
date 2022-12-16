@@ -103,7 +103,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [4]: ../../../diary/learn/index.md
 [5]: ../../../sale/learn/index.md
 [6]: ../../../project/learn/index.md
-[7]: ../../../search-options/learn/selections/index.md
+[7]: ../../../search-options/selection/learn/index.md
 [8]: ../../../email/learn/inbox/index.md
 [9]: ../../../chat/learn/index.md
 [10]: ../../../reports/learn/index.md
@@ -111,7 +111,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [12]: ../about-service.md
 [15]: ../fav.md
 [31]: ../../../request/learn/index.md#customers
-[32]: ../../../search-options/learn/selections/in-service/index.md
+[32]: ../../../search-options/selection/learn/in-service/index.md
 [33]: ../../../dashboard/learn/in-service/statistics/index.md
 [34]: ../../../request/learn/index.md
 [35]: ../../../request/learn/screen/knowledge-base.md

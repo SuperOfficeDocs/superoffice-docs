@@ -58,7 +58,7 @@ The **Task** button contains tasks such as sending emails, mass-editing and expo
 * [Delete records permanently][13]
 
 <!-- Referenced links -->
-[1]: ../../find-dialog.md
+[1]: ../../../learn/find-dialog.md
 [2]: create-mailings.md
 [3]: send-email.md
 [4]: generate-follow-ups.md

@@ -26,7 +26,7 @@ highlightedContent:
     # Card
     - title: User guide for selections
       itemType: reference
-      url: learn/selections/index.md
+      url: selection/learn/index.md
     # Card
     - title: Template variables
       itemType: reference

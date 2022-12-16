@@ -22,7 +22,7 @@ items:
   - name: Requests
     href: ../request/learn/toc.yml
   - name: Selection
-    href: ../search-options/learn/selections/toc.yml
+    href: ../search-options/selection/learn/toc.yml
   - name: Email
     href: ../email/learn/toc.yml
   - name: Chat
@@ -201,8 +201,8 @@ items:
       topicHref: ../dashboard/learn/in-service/statistics/index.md
 
     - name: Selection
-      href: ../search-options/learn/selections/in-service/toc.yml
-      topicHref: ../search-options/learn/selections/in-service/index.md
+      href: ../search-options/selection/learn/in-service/toc.yml
+      topicHref: ../search-options/selection/learn/in-service/index.md
 
     - name: Email
       href: ../email/learn/service/toc.yml

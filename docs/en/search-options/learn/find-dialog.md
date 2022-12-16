@@ -312,9 +312,9 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 [3]: using-search-criteria.md
 [5]: freetext-search.md
 [6]: using-history-list.md
-[7]: selections/howto/index.md
-[8]: selections/create/index.md
-[9]: selections/update/add-members-to-static.md
+[7]: ../selection/learn/howto/index.md
+[8]: ../selection/learn/create/index.md
+[9]: ../selection/learn/update/add-members-to-static.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-icon.png

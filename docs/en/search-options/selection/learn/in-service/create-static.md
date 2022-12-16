@@ -53,7 +53,7 @@ A static selection contains only those records you added to it manually, unlike 
 
 <!-- Referenced links -->
 [1]: create-dynamic.md
-[2]:../../in-service/index.md
+[2]: ../../../learn/in-service/index.md
 [3]: update.md
 [4]: list.md
 [5]: edit.md

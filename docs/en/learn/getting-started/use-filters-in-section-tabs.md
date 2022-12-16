@@ -29,7 +29,7 @@ The following filtering options are available in the section tabs:
 <!-- Referenced links -->
 [1]: use-column-filters-in-section-tabs.md
 [2]: using-filter-function-contact.md
-[3]: ../../search-options/learn/selections/screen/index.md#filter
+[3]: ../../search-options/selection/learn/screen/index.md#filter
 [4]: ../../reports/learn/filter.md
 
 <!-- Referenced images -->

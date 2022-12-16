@@ -6,5 +6,5 @@
     * By double-clicking on a selection in a search result.
 
 <!-- Referenced links -->
-[1]: ../../using-history-list.md
-[2]: ../../using-fastsearcher.md
+[1]: ../../../learn/using-history-list.md
+[2]: ../../../learn/using-fastsearcher.md

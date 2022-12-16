@@ -44,7 +44,7 @@ The simplest way to create a selection is to base it on a search. This creates a
 <!-- Referenced links -->
 [1]: ../../../../request/learn/find.md
 [2]: ../../../../request/learn/find.md#list
-[3]: ../../in-service/index.md
+[3]: ../../../learn/in-service/index.md
 [4]: update.md
 [5]: list.md
 [6]: edit.md
