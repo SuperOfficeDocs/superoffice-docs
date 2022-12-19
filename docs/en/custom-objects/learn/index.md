@@ -1,6 +1,6 @@
 ---
 title: Custom objects
-uid: custom-objects
+uid: help-en-custom-objects
 description: Custom objects
 author: Bergfrid Dias
 so.date: 09.13.2022

@@ -1,5 +1,5 @@
 ---
-uid: mailing-open-in-browser-old
+uid: help-en-mailing-open-in-browser-old
 title: Add a link to display the message in a browser
 description: Add a link to display the message in a browser
 author: SuperOffice RnD

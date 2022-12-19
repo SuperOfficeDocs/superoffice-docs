@@ -1,6 +1,6 @@
 ---
 title: Guides for SuperOffice CRM
-uid: ug-en-start
+uid: help-en-start
 description: Start page for SuperOffice CRM guides
 author: {github-id} # Your GitHub alias.
 so.date: 07.08.2022
