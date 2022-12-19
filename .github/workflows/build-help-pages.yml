@@ -36,16 +36,29 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: "${{env.BRANCH_NAME}}"
+          path: "content-repo"
       - name: Clone BuildDocs
         env:
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
+          echo before clone
+          ls -la
           git clone -b "${{env.BUILD_DOCS_BRANCH}}" "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
           ls -la
+          echo after clone
+      - name: Copy superoffice-docs into build-docs
+        shell: pwsh
+        run: |
+          $source = "./content-repo"
+          $destination = "./build-docs/superoffice-docs"
+          Write-Host Copying '$source' into '$destination'
+          Copy-Item -Path $source -Destination $destination -Recurse -Force
+          cd ./build-docs
+          Get-ChildItem 
       - uses: nikeee/docfx-action@master
         name: Build Documentation
         with:
-          args: ./build-docs/docfx-learn.json
+          args: docfx-learn.json
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
