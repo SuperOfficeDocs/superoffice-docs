@@ -49,7 +49,7 @@ items:
   - name: Linking documents to follow ups
     href: linking-documents-to-follow-ups.md
   - name: Visibility
-    href: ../../admin/user-management/visibility.md
+    href: ../../admin/user-management/learn/visibility.md
   - name: Work with the Section tabs
     href: section-tabs.md
     items:

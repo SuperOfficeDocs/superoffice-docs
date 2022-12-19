@@ -1,7 +1,7 @@
 ---
-title: Admin
+title: SuperOffice Maintenance and Settings
 uid: admin
-description: Admin
+description: SuperOffice Maintenance and Settingsvvvvv
 author: {github-id}
 keywords:
 so.date:
@@ -44,12 +44,12 @@ Also [scripts][14] available in the Windows client only may be enabled in the Wi
 
 <!-- Referenced links -->
 [1]: license/learn/screen/index.md
-[2]: user-management/index.md
-[3]: user-management/role/index.md
-[4]: settings/lists/index.md
-[6]: settings/preferences/index.md
-[7]: settings/options/index.md
-[8]: import/index.md
+[2]: user-management/learn/index.md
+[3]: user-management/learn/role/index.md
+[4]: lists/learn/index.md
+[6]: preferences/learn/index.md
+[7]: options/learn/index.md
+[8]: import/learn/index.md
 [9]: ../custom-objects/learn/udef/index.md
 [11]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
 [12]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=chap02%2FReplication.htm

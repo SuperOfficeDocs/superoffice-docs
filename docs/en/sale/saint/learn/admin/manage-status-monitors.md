@@ -41,7 +41,7 @@ You must then regenerate these statuses by clicking one of these buttons:
 ![icon][img2] **Regenerate all counters**: Click here to regenerate all counters.
 
 <!-- Referenced links -->
-[1]: ../../../../admin/settings/options/using-search-criteria.md
+[1]: ../../../../admin/options/learn/using-search-criteria.md
 [2]: select-status-criteria.md
 
 <!-- Referenced images -->

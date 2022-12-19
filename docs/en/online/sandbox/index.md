@@ -79,7 +79,7 @@ When the customer is ready to launch the approved application on their productio
 * If you plan to test a partner app, ask them ahead of time if the app supports authenticating against multiple tenants.
 
 <!-- Referenced links -->
-[1]: ../../admin/settings/lists/web-panel.md
+[1]: ../../admin/lists/learn/web-panel.md
 [2]: replace.md
 [3]: ../../admin/license/user-plans.md
 [4]: order-sandbox.md

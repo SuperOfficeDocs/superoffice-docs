@@ -183,4 +183,4 @@ htmlBody = p.parseString(htmlBody);
 [2]: ../../../document/templates/index.md
 [3]: ../../../service/reply-templates/learn/template-variables.md
 [4]: parser.md
-[5]: ../../../admin/settings/options/custlang/index.md
+[5]: ../../../admin/options/learn/custlang/index.md

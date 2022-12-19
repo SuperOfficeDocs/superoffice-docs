@@ -84,7 +84,7 @@ language: en
 * [Search for requests in categories][6]
 
 <!-- Referenced links -->
-[1]: ../../../admin(settings/preferences/index.md
+[1]: ../../../admin(preferences/learn/index.md
 [3]: ../next-in-queue.md
 [6]: ../find.md#category
 

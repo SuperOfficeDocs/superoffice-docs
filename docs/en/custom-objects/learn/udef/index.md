@@ -88,7 +88,7 @@ You can then add these fields to the **Project** screen:
 
 <!-- Referenced links -->
 [1]: page-1-fields.md
-[2]: ../../../admin/settings/lists/adding-user-defined-lists.md
+[2]: ../../../admin/lists/learn/adding-user-defined-lists.md
 [3]: ../../../project/learn/screen/index.md#more-tab
 [4]: ../../../diary/learn/screen/dialog-for-followups.md
 [5]: ../../../document/learn/screen/index.md

@@ -157,9 +157,9 @@ Planning meeting:
 
 <!-- Referenced links -->
 [1]: ../../../document/templates/variables/from-project-card.md
-[2]: ../../../admin/settings/lists/project-status.md
-[3]: ../../../admin/settings/lists/project-type.md
-[4]: ../../../admin/settings/lists/document-template.md
+[2]: ../../../admin/lists/learn/project-status.md
+[3]: ../../../admin/lists/learn/project-type.md
+[4]: ../../../admin/lists/learn/document-template.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-workflow-active.png

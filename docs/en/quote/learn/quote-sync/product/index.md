@@ -50,8 +50,8 @@ Either you do not have access rights to the export function (see [Roles][4]), or
 [1]: so-add-product-to-price-list.md
 [2]: so-add-price-list.md
 [3]: quote-delete-deactivate-price-list-or-product.md
-[4]: ../../../../admin/user-management/role/index.md
-[5]: ../../../../admin/settings/preferences/index.md
+[4]: ../../../../admin/user-management/learn/role/index.md
+[5]: ../../../../admin/preferences/learn/index.md
 [6]: ../../../../learn/getting-started/adjusting-views.md
 
 <!-- Referenced images -->

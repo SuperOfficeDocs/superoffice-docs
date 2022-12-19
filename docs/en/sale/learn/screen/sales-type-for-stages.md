@@ -30,7 +30,7 @@ If Quote functionality is active, you can also set various options for quotes cr
 * [Add items to the Sale - Type, Stages, Quote list][2]
 
 <!-- Referenced links -->
-[2]: ../../../admin/settings/lists/sale-type.md
+[2]: ../../../admin/lists/learn/sale-type.md
 [3]: sale-stage.md
 [4]: ../sales-guide/index.md
 [1]: ../stakeholders/index.md

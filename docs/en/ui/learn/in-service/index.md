@@ -45,7 +45,7 @@ Here you can find the advanced options in SuperOffice.
 [9]: screen-chooser.md
 [11]: ../extra-menus/index.md
 [12]: ../web-panels/index.md
-[13]: ../../../admin/settings/screen/package-properties.md
+[13]: ../../../admin/learn/screen/package-properties.md
 [14]: ../../../automation/crmscript/learn/screen/data-exchange.md
 [15]: ../../../search-options/learn/in-service/index.md
 

@@ -30,7 +30,7 @@ language: en
 <!-- Referenced links -->
 [1]: create.md#add-fo-stage
 [2]: create.md#add-doc-stage
-[3]: ../../../admin/settings/lists/sale-stage.md
+[3]: ../../../admin/lists/learn/sale-stage.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-workflow-active.png

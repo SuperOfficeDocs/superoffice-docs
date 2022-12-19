@@ -35,7 +35,7 @@ You can specify up to three different periods, so that you can choose between sh
 > If you have set a period to 30 days, for example, the period will always be 30 days from the last time the counters were regenerated. You should therefore regenerate the counters frequently (preferably each night), so that the counters are as up-to-date as possible. See [Manage status monitors][2].
 
 <!-- Referenced links -->
-[1]: ../../../../admin/settings/options/using-search-criteria.md
+[1]: ../../../../admin/options/learn/using-search-criteria.md
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->

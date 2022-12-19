@@ -70,8 +70,8 @@ To find out which fields are displayed, go to the **Settings** tab and click **C
 [1]: so-add-price-list.md
 [2]: so-select-product-image.md
 [3]: settings-configure-product.md
-[4]: ../../../../admin/settings/lists/adding-items.md
-[5]: ../../../../admin/import/import-products-from-excel.md
+[4]: ../../../../admin/lists/learn/adding-items.md
+[5]: ../../../../admin/import/learn/import-products-from-excel.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/search-icon-black.png

@@ -42,7 +42,7 @@ The **Company** screen contains the following section tabs:
 [4]: projects-tab.md
 [5]: sales-tab.md
 [6]: requests-tab.md
-[7]: ../../../admin/erp/index.md
+[7]: ../../../admin/erp/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png

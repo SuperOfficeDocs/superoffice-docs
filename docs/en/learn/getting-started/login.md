@@ -65,7 +65,7 @@ You must belong to the **User level 0** role or another role that gives you logi
 In SuperOffice Service you can also log in as the same user in several browsers / multiple sessions.
 
 <!-- Referenced links -->
-[2]: ../../admin/user-management/index.md
+[2]: ../../admin/user-management/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
