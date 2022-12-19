@@ -52,7 +52,11 @@ jobs:
           echo "cd into workspace"
           cd $GITHUB_WORKSPACE
           echo "$(pwd)"
-          # git clone -b "${{env.BUILD_DOCS_BRANCH}}" "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
+          # git clone -b "${{env.BUILD_DOCS_BRANCH}}" "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git" $GITHUB_WORKSPACE/build-docs
           echo after clone
           echo "Current directory $(pwd)"
+          cd $GITHUB_WORKSPACE
+          echo "Switching to GH workspace... $(pwd)"
+          ls -la
+
 
