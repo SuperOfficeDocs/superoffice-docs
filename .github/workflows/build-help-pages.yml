@@ -62,12 +62,23 @@ jobs:
       - name: Copy superoffice-docs into "./build-docs/superoffice-docs"
         shell: pwsh
         run: |
-          $content = Get-ChildItem "./content-repo" 
-          Write-Host "$($content)"
           $source = "./content-repo"
-          $destination = "$./build-docs/superoffice-docs"
+          $destination = "./build-docs/superoffice-docs"
           Write-Host "Copying $source into $destination"
           Copy-Item -Path $source -Destination $destination -Recurse -Force
+
+      - uses: nikeee/docfx-action@master
+        name: Build Documentation
+        with:
+          args: ./build-docs/docfx-learn.json
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # Upload entire repository
+          path: './build-docs/_site'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
           
 
 
