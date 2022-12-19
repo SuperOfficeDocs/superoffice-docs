@@ -31,23 +31,31 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      # - name: Checkout
-      #   uses: actions/checkout@v3
-      #   with:
-      #     ref: ${{env.BRANCH_NAME}}
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{env.BRANCH_NAME}}
+      - name: Prepare for Build-Docs
+        run: |
+          cd..
+          ls -la
       - name: Clone BuildDocs
         env:
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git clone "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
           ls -la
-          cd build-docs
-          git submodule update --init
-          cd superoffice-docs
-          git pull origin ${{env.BRANCH_NAME}}
-          git checkout ${{env.BRANCH_NAME}}
-          cd..
-          echo 'working dir: $(pwd)'
+      - name: Overwrite SuperOffice-Docs
+        shell: pwsh
+        run: |
+          $cd = Get-Location
+          Write-Output "Current dir: $cd"
+          
+          $source = ".\superoffice-docs"
+          $destination = ".\build-docs\superoffice-docs"
+          Copy-Item -Path $source -Destination $destination -Recurse -Force
+          cd .\build-docs
+
       - uses: nikeee/docfx-action@master
         name: Build Documentation
         with:
