@@ -45,6 +45,7 @@ jobs:
       - name: Inspect directory pwd
         run: |
           echo "$(pwd)"
+
       - name: Clone build-docs
         env:
           TOKEN: ${{ secrets.GH_PAT }}
@@ -58,5 +59,16 @@ jobs:
           cd $GITHUB_WORKSPACE
           echo "Switching to GH workspace... $(pwd)"
           ls -la
+      - name: Copy superoffice-docs into "./build-docs/superoffice-docs"
+        shell: pwsh
+        run: |
+          $content = Get-ChildItem "./content-repo" 
+          Write-Host "$($content)"
+          $source = "$GITHUB_WORKSPACE/content-repo"
+          $destination = "$GITHUB_WORKSPACE/build-docs/superoffice-docs"
+          Write-Host Copying '$($source)' into '$($destination)'
+          Copy-Item -Path $source -Destination $destination -Recurse -Force
+          
+
 
 
