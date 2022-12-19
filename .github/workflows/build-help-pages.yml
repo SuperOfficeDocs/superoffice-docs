@@ -37,9 +37,18 @@ jobs:
         with:
           ref: "${{env.BRANCH_NAME}}"
           path: "content-repo"
-      - name: Inspect directory
+      - name: Inspect directory PS
         shell: pwsh
         run: |
           $content = Get-ChildItem
           Write-Host "$($content)"
-
+      - name: Inspect directory pwd
+        run: |
+          echo "$(pwd)"
+      - name: Clone build-docs
+        env:
+          TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          echo "cd into workspace"
+          cd ${{GITHUB_WORKSPACE}}
+          echo "$(pwd)"
