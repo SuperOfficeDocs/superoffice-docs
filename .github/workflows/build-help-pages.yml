@@ -69,7 +69,7 @@ jobs:
           cd ./build-docs
           $cd = Get-Location
           Write-Output "Current dir $cd"
-          Get-ChildItem -Path . –Recurse | Select-Object UnixMode, Length, Name, LastWriteTime
+          Get-ChildItem -Path . –Recurse | Select-Object FullName, LastWriteTime, Length
 
       - uses: nikeee/docfx-action@master
         name: Build Documentation
