@@ -34,19 +34,19 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Roles
-          url: ../admin/user-management/role/index.md
+          url: ../admin/user-management/learn/role/index.md
         - text: Create a role
-          url: ../admin/user-management/role/create-role.md
+          url: ../admin/user-management/learn/role/create-role.md
         - text: Users
-          url: ../admin/user-management/index.md
+          url: ../admin/user-management/learn/index.md
         - text: Add users
-          url: ../admin/user-management/add-associate.md
+          url: ../admin/user-management/learn/add-associate.md
         - text: Update user information
-          url: ../admin/user-management/update-user.md
+          url: ../admin/user-management/learn/update-user.md
         - text: Create user groups
-          url: ../admin/user-management/create-user-group.md
+          url: ../admin/user-management/learn/create-user-group.md
         - text: Add company in the Our companies tab
-          url: ../admin/user-management/add-our-companies.md
+          url: ../admin/user-management/learn/add-our-companies.md
 
   # Card
   - title: Import

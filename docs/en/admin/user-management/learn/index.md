@@ -41,6 +41,6 @@ For a person to be registered as a SuperOffice CRM user, this person must be reg
 <!-- Referenced links -->
 [4]: role/edit-rights-for-anonymous-users.md
 [5]: screen/index.md
-[6]: ../license/learn/activate.md
+[6]: ../../license/learn/activate.md
 
 <!-- Referenced images -->

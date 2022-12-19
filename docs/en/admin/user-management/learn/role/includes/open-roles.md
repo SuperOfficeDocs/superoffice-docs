@@ -2,4 +2,4 @@
 Click the **Roles** button in the Navigator (![icon][img1]).
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-roles-active.png
+[img1]: ../../../../../../../common/icons/nav-admin-roles-active.png

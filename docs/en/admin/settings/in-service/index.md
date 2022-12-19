@@ -36,8 +36,8 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 
 <!-- Referenced links -->
 [1]: ../../../ui/learn/in-service/profiles/index.md
-[2]: ../../user-management/role/index.md
-[3]: ../../user-management/index.md
+[2]: ../../user-management/learn/role/index.md
+[3]: ../../user-management/learn/index.md
 [4]: ../../../request/learn/category/index.md
 [5]: ../../../request/learn/priority/index.md
 [6]: ../../../request/learn/status/index.md

@@ -35,8 +35,8 @@ To assign a user to this group, [edit the user][1] and select this group in the 
 
 <!-- Referenced links -->
 [1]: update-user.md#service
-[3]: ../settings/in-service/personal-settings/other-groups.md
+[3]: ../../settings/in-service/personal-settings/other-groups.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/settings-small.png
-[img2]: ../../../../common/icons/nav-admin-lists-active.png
+[img1]: ../../../../media/icons/settings-small.png
+[img2]: ../../../../../common/icons/nav-admin-lists-active.png

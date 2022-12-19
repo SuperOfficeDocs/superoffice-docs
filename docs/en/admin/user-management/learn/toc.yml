@@ -17,7 +17,7 @@ items:
     - name: Users screen
       href: screen/users-screen-service.md
     - name: Log users off
-      href: ../../onsite/win-client/learn/logging-users-off.md
+      href: ../../../onsite/win-client/learn/logging-users-off.md
   - name: Add user
     items:
     - name: Add a SuperOffice CRM user

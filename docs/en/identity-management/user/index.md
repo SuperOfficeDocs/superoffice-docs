@@ -56,4 +56,4 @@ We have defined a [set of default roles][2] that you can change and expand to ta
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/
-[2]: ../../admin/user-management/role/index.md
+[2]: ../../admin/user-management/learn/role/index.md

@@ -92,7 +92,7 @@ My application is ready, what should I consider before I ask for a certification
 [Sign me up for certification][19]
 
 <!-- Referenced links -->
-[6]: ../../admin/user-management/visibility.md
+[6]: ../../admin/user-management/learn/visibility.md
 [7]: ../provisioning/get-consent.md
 [8]: ../provisioning/revoke.md
 [9]: ../tenant-status/check-status.md

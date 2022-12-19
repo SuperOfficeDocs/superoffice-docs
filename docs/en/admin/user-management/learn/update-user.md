@@ -90,5 +90,5 @@ You can also update several users at the same time.
 [3]: role/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/settings-small.png
-[img2]: ../../../media/icons/btn-menu.png
+[img1]: ../../../../media/icons/settings-small.png
+[img2]: ../../../../media/icons/btn-menu.png

@@ -147,7 +147,7 @@ items:
     - name: Licenses
       href: ../admin/license/learn/toc.yml
     - name: User management
-      href: ../admin/user-management/toc.yml
+      href: ../admin/user-management/learn/toc.yml
     - name: Import
       href: ../admin/import/learn/toc.yml
     - name: AI
