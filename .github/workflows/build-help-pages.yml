@@ -69,6 +69,7 @@ jobs:
           cd ./build-docs
           $cd = Get-Location
           Write-Output "Current dir $cd"
+          Get-ChildItem -Path . –Recurse
 
       - uses: nikeee/docfx-action@master
         name: Build Documentation
