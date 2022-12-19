@@ -50,5 +50,5 @@ jobs:
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
           echo "cd into workspace"
-          cd ${{GITHUB_WORKSPACE}}
+          cd $GITHUB_WORKSPACE
           echo "$(pwd)"
