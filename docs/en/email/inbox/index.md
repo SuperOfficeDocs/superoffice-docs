@@ -12,7 +12,7 @@ so.topic: concept
 # SuperOffice Inbox
 
 SuperOffice Inbox (the integrated email client).
-How to configure your email setup in SuperOffice Inbox: [Helpfile][5].
+[How to configure your email setup in SuperOffice Inbox][5]
 
 ## MailKit
 
@@ -163,11 +163,11 @@ Yet to be completed, please submit your experiences
 Read section [Mail logging][1].
 
 <!-- Referenced links -->
-[1]: ../onsite/debug/web-client.md
+[1]: ../../onsite/debug/web-client.md
 [2]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=166
 [3]: https://cs.superoffice.com/
-[4]: ../api/config/mail.md
-[5]: learn/inbox/index.md
+[4]: ../../api/config/mail.md
+[5]: learn/index.md
 [6]: https://www.codetwo.com/kb/upn/#exchange
 [7]: https://www.codetwo.com/kb/upn/#office-365
 

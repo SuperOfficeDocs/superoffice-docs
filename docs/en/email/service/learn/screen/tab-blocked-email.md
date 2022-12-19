@@ -4,8 +4,8 @@ title: Blocked email
 description: Blocked email
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: email
+so.topic: reference
 language: en
 ---
 
@@ -27,5 +27,5 @@ The following options are also available from the **Actions** button (![icon][im
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../../../media/icons/arrow-right.png
+[img2]: ../../../../../media/icons/btn-menu.png

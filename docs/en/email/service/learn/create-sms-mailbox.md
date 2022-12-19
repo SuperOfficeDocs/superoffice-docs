@@ -4,8 +4,8 @@ title: Create SMS mailbox
 description: Create SMS mailbox
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: email
+so.topic: howto
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 SuperOffice can import SMS messages. For this to work, you must set up an SMS mailbox:
 
-[!include[Go to email](../includes/goto-email.md)]
+[!include[Go to email](includes/goto-email.md)]
 
 1. Click **New SMS mailbox**.
 
@@ -24,7 +24,7 @@ SuperOffice can import SMS messages. For this to work, you must set up an SMS ma
 
 1. In the **Priority** list box, select which priority to assign to requests received via SMS.
 
-[!include[Set customer language](../includes/step-set-language.md)]
+[!include[Set customer language](includes/step-set-language.md)]
 
 1. Click **OK**. The SMS mailbox is created.
 
@@ -34,5 +34,5 @@ SuperOffice can import SMS messages. For this to work, you must set up an SMS ma
 * [SMS outbox][3]
 
 <!-- Referenced links -->
-[2]: sms-inbox.md
-[3]: sms-outbox.md
+[2]: screen/sms-inbox.md
+[3]: screen/sms-outbox.md

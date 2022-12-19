@@ -4,8 +4,8 @@ title: Delete email filters
 description: Delete email filters
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: email
+so.topic: howto
 language: en
 ---
 

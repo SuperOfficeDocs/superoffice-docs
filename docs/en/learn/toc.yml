@@ -188,12 +188,7 @@ items:
       - name: Reply templates
         href: ../service/reply-templates/learn/toc.yml
       - name: Email addresses
-        href: ../service/mailboxes/learn/index.md
-        items:
-        - name: Create email addresses
-          href: ../service/mailboxes/learn/add-email-address.md
-        - name: Administrate email address folders
-          href: ../service/mailboxes/learn/manage-folders.md
+        href: ../email/service/learn/kb-aliases/toc.yml
       - name: External documents
         href: ../request/learn/external-document.md
     - name: Statistics in Service
@@ -205,7 +200,7 @@ items:
       topicHref: ../search-options/selection/learn/in-service/index.md
 
     - name: Email
-      href: ../email/learn/service/toc.yml
+      href: ../email/service/learn/toc.yml
     - name: User interface
       href: ../ui/learn/in-service/index.md
       items:

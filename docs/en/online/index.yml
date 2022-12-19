@@ -68,7 +68,7 @@ conceptualContent:
         - url: system-requirements.md
           itemType: reference
           text: System requirements for SuperOffice CRM Online
-        - url: ../service/mailboxes/migrate.md
+        - url: ../email/service/migrate.md
           itemType: concept
           text: "Migrating Service mailboxes"
         - url: sandbox/index.md

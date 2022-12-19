@@ -4,8 +4,8 @@ title: Inbox for email
 description: Inbox for email
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: email
+so.topic: reference
 language: en
 ---
 
@@ -25,4 +25,4 @@ If you click one of the messages in this tab, the **Inbound email** screen appea
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../../../media/icons/btn-menu.png

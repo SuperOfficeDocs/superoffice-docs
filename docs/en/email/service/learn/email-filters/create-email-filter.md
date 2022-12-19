@@ -4,8 +4,8 @@ title: Create email filters
 description: Create email filters
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: email
+so.topic: howto
 language: en
 ---
 

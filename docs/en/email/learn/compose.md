@@ -31,7 +31,7 @@ When you finished the message, and want to send it, you have the following optio
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md
-[2]: inbox/archive.md
+[2]: ../inbox/learn/archive.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

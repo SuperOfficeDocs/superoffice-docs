@@ -15,7 +15,7 @@ Under **Knowledge Base** > **Email addresses** you can create a folder structure
 
 ## Create folders
 
-[!include[How to create a folder](../../../includes/howto-create-folder-kb.md)]
+[!include[How to create a folder](../../../../includes/howto-create-folder-kb.md)]
 
 You are now ready to [add email addresses to the new folder][1].
 
@@ -27,7 +27,7 @@ Before you delete an email folder, you must remove all the addresses in it. You 
 
 * Move an email address to another folder by changing the content of the **Folder** field when you edit an address.
 
-[!include[How to delete a folder](../../../includes/howto-delete-folder-kb.md)]
+[!include[How to delete a folder](../../../../includes/howto-delete-folder-kb.md)]
 
 <!-- Referenced links -->
 [1]: add-email-address.md

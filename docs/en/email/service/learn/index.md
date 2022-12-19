@@ -24,10 +24,10 @@ In the **Email** screen, you control the mechanisms that manage inbound and outb
 * [Blocked email][5]
 
 <!-- Referenced links -->
-[1]: mailboxes/index.md
+[1]: kb-aliases/index.md
 [2]: email-filters/index.md
-[3]: tab-inbox-for-email.md
-[4]: tab-outbox-for-email.md
-[5]: tab-blocked-email.md
+[3]: screen/tab-inbox-for-email.md
+[4]: screen/tab-outbox-for-email.md
+[5]: screen/tab-blocked-email.md
 
 <!-- Referenced images -->

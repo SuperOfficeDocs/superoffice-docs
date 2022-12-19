@@ -31,6 +31,6 @@ The knowledge base gives request handlers access to saved data in a single locat
 [3]: ../external-document.md
 [5]: ../../../faq/learn/index.md
 [6]: ../../../service/reply-templates/index.md
-[4]: ../../../service/mailboxes/learn/index.md
+[4]: ../../../email/service/learn/kb-aliases/index.md
 
 <!-- Referenced images -->

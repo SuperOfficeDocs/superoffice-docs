@@ -4,8 +4,8 @@ title: Create Facebook applications
 description: Create Facebook applications
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: email
+so.topic: howto
 language: en
 so.envir: onsite
 ---
@@ -29,7 +29,7 @@ First, you must set up an application on Facebook in cooperation with the user o
 
 ## Step 2: Set up a Facebook account in SuperOffice Service
 
-[!include[Go to email](../includes/goto-email.md)]
+[!include[Go to email](includes/goto-email.md)]
 
 1. Click the **New Facebook application** button. The **Properties for Facebook application** screen appears.
 
@@ -43,7 +43,7 @@ First, you must set up an application on Facebook in cooperation with the user o
 
 1. In the **Interval** list box, select how often SuperOffice Service is to get messages from this Facebook application.
 
-1. [!include[Customer language](../includes/step-set-language.md)]
+1. [!include[Customer language](includes/step-set-language.md)]
 
 1. In the **Email fields** field, enter a comma-separated list of email fields (headers) to be displayed in the request message, for example, To and Cc.
 
@@ -55,6 +55,6 @@ First, you must set up an application on Facebook in cooperation with the user o
 
 <!-- Referenced links -->
 [1]: https://developers.facebook.com
-[2]: ../../../../service/config/set-up-facebook-integration.md
+[2]: ../../../service/config/set-up-facebook-integration.md
 
 <!-- Referenced images -->

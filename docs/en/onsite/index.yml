@@ -116,7 +116,7 @@ conceptualContent:
           - url: ../online/migrate/index.md
             itemType: how-to-guide
             text: "Migration guide"
-          - url: ../service/mailboxes/migrate.md
+          - url: ../email/service/migrate.md
             itemType: concept
             text: "Migrating Service mailboxes"
           - url: ../online/system-requirements.md
@@ -189,7 +189,7 @@ additionalContent:
           text: Windows client
         - url: ../webtools/debug.md
           text: WebTools
-        - url: ../email/maillink/debug.md
+        - url: ../email/mail-link/debug.md
           text: Outlook Mail Link
         - url: ../document/ribbons/enable-debug.md
           text: Ribbons

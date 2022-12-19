@@ -293,7 +293,7 @@ When the user starts the authentication flow, the user initiates with an active 
 [6]: https://www.codetwo.com/kb/upn/#exchange
 [7]: https://www.codetwo.com/kb/upn/#office-365
 [8]: https://community.superoffice.com/en/learning/admin-guide/service/request-setup/service-mailbox-setup/
-[9]: inbox.md
+[9]: ../inbox/index.md
 
 <!-- Referenced images -->
 [img1]: media/320curl.jpg

@@ -33,4 +33,4 @@ When you register email addresses under **Knowledge Base** > **Email addresses**
 [1]: manage-folders.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
+[img1]: ../../../../../../common/icons/dropdown-arrow.png

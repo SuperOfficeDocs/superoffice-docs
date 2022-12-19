@@ -5,7 +5,7 @@ description: Mailboxes
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -26,8 +26,8 @@ The **Mailboxes** tab contains a list of the installed mailboxes. This list cont
 * [Create Facebook applications][3] <!-- onsite -->
 
 <!-- Referenced links -->
-[1]: create-mailbox.md
-[2]: delete-mailbox.md
-[3]: create-facebook-application.md
+[1]: ../create-mailbox.md
+[2]: ../delete-mailbox.md
+[3]: ../create-facebook-application.md
 
 <!-- Referenced images -->
