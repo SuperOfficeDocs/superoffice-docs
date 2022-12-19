@@ -26,7 +26,7 @@ If you have two nearly identical projects, it is possible to merge them, includi
 
 4. Select the **Replace empty fields in \[target project\] with data from \[source project\]** to update empty fields in the target project with details from the source one.
 
-    [!include[Preview results](../../includes/note-preview-results.md)]
+    [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
 5. Click **Merge**. The following then happens:
     * The projects are merged.

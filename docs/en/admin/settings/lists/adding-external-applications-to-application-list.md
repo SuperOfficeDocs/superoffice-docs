@@ -13,7 +13,7 @@ language: en
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
-[!include[Edit list item](../../../includes/edit-list-item.md)] when the items are applications or similar:
+[!include[Edit list item](includes/edit-list-item.md)] when the items are applications or similar:
 
 > [!NOTE]
 > Files or applications that must be run locally (for example, *.exe* files) are not accessible in SuperOffice CRM for Web.
@@ -21,7 +21,7 @@ language: en
 1. Enter the required name of the item in the **Name** field. This name is displayed at the place where you add the application in SuperOffice CRM (see step 7 concerning the **Show** list box).
 
     > [!NOTE]
-    > [!include[Mandatory](../../../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](includes/note-mandatory-field.md)]
 
 1. Under **Add as**, select what the application will be added as:
 

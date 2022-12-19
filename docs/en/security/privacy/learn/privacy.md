@@ -13,7 +13,7 @@ language: en
 
 The **Privacy** feature in SuperOffice will assist you in protecting the data privacy of your customers and complying with the EU'sGeneral Data Protection Regulation (GDPR).
 
-[!include[Need concent](../../../includes/why-consent.md)]
+[!include[Need concent](includes/why-consent.md)]
 
 These are two different purposes for obtaining a person's consent. In SuperOffice, these purposes are called **Sales and service** and **E-marketing**. There may also be other purposes relevant for you business.
 

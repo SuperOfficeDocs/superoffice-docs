@@ -11,7 +11,7 @@ language: en
 
 # Edit contact info
 
-[!include[Go to company](../../includes/goto-company.md)]
+[!include[Go to company](../../learn/includes/goto-company.md)]
 
 1. Select the **Contacts** section tab.
 

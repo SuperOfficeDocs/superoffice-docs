@@ -14,7 +14,7 @@ language: en
 > [!NOTE]
 > A relation must always consist of two parties, one active and one passive, for example: Company A owns Company B, while Company B is owned by Company A.
 
-[!include[Go to company](../../includes/goto-company.md)]
+[!include[Go to company](../../learn/includes/goto-company.md)]
 
 1. Select the **Relations** section tab.
 

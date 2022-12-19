@@ -13,7 +13,7 @@ language: en
 
 When you create a follow-up that concerns other people, you can add them as participants to the follow-up. You can also book your organization’s conference rooms and equipment. People who are available as participants are defined in SuperOffice Settings and maintenance.
 
-1. Open the **Appointment**, **Task** or **Phone Call** dialog and enter the required information. [!include[See Appointment dialog](../../../includes/see-apt-dialog.md)]
+1. Open the **Appointment**, **Task** or **Phone Call** dialog and [enter the required information][2].
 
 2. Open the **Participants** tab and click **Add** at the bottom left of the window. The **Invitation** dialog opens.
 
@@ -59,6 +59,7 @@ To manually accept or decline an invitation on behalf of someone, select the nam
 
 <!-- Referenced links -->
 [1]: index.md#status
+[2]: ../screen/dialog-for-followups.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png

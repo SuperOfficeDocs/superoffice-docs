@@ -14,4 +14,4 @@ The following information is displayed in the columns on the **Sales** section t
 * ERP discount (if SuperOffice is linked to an ERP system)
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/check.bmp
+[img1]: ../../../media/icons/check.bmp

@@ -15,9 +15,9 @@ language: en
 
 The **Sales** section tab shows [sales connected to the company][2].
 
-[!include[Contents of the Sales section tab](../../../includes/sales-tab.md)]
+[!include[Contents of the Sales section tab](../../../learn/includes/sales-tab.md)]
 
-[!include[Conf. columns](../../../includes/tip-configure-columns.md)]
+[!include[Conf. columns](../../../learn/includes/tip-configure-columns.md)]
 
 Double-click a sale in the list to open the **Sale** screen with information about that sale.
 

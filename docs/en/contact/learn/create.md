@@ -82,21 +82,21 @@ In the **Interests** tab you have the following options:
 
 ## The www tab (Contact screen)
 
-[!include[About the www tab](../../includes/www-tab.md)]
+[!include[About the www tab](../../learn/includes/www-tab.md)]
 
 ## The ERP tab (Contact screen)
 
-[!include[About the ERP tab](../../includes/erp-tab.md)]
+[!include[About the ERP tab](../../learn/includes/erp-tab.md)]
 
 ## The Note tab (Contact screen)
 
-[!include[About the Note tab](../../includes/about-note-tab.md)]
+[!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
 ## Add record as a favorite
 
-[!include[How to add favorite](../../includes/howto-add-favorite.md)]
+[!include[How to add favorite](../../learn/includes/howto-add-favorite.md)]
 
-[!include[Tip](../../includes/tip-open-website.md)]
+[!include[Tip](../../learn/includes/tip-open-website.md)]
 
 <!-- Referenced links -->
 [7]: ../../security/privacy/learn/edit-legal-base.md

@@ -15,7 +15,7 @@ If a contact ask to view all information registered on them in SuperOffice, you 
 
 **Steps:**
 
-[!include[Go to Contact screen](../../../includes/goto-contact.md)]
+[!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
 1. Click **Task** ( ![icon][img1] ) > **Generate personal data report**.
 

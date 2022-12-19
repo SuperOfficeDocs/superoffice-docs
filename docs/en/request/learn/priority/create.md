@@ -15,7 +15,7 @@ language: en
 
 The default priorities included with the system are **High**, **Medium** and **Low**. But you can both add new priorities and edit the settings of existing priorities.
 
-[!include[Restricted access](../../../includes/note-insufficient-rights.md)]
+[!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
 **Steps:**
 

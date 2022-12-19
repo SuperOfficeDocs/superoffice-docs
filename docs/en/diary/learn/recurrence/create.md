@@ -16,7 +16,7 @@ It may happen that you want to create a series of appointments to occur at regul
 > [!TIP]
 > All [frequency options are described in the reference][4].
 
-1. Open the **Appointment**, **Task** or **Phone Call** dialog and enter the required information. [!include[See Appointment dialog](../../../includes/see-apt-dialog.md)]
+1. Open the **Appointment**, **Task** or **Phone Call** dialog and [enter the required information][5].
 
 2. Select the **Details** tab.
 
@@ -67,6 +67,7 @@ In the **Appointment**, **Task** or **Phone call** dialog, the text next to the 
 [2]: ../invitation/receive.md
 [3]: stop.md
 [4]: index.md
+[5]: ../screen/dialog-for-followups.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/arrow-right.png

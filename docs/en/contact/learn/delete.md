@@ -22,11 +22,11 @@ There are three ways you can delete a contact from SuperOffice CRM:
 > [!TIP]
 > Instead of deleting a contact, you can check **Former employee** in the contact card (see [Create new contact][6]). Then this person’s name will not disappear from activities they are linked to.
 
-[!include[Deleting items](../../includes/tip-deletion.md)]
+[!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
 ## To delete a contact from the Contact screen
 
-[!include[Go to Contact screen](../../includes/goto-contact.md)]
+[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
 
 1. Click the **Task** button ( ![icon][img1] ) and select **Delete**.
 
@@ -34,7 +34,7 @@ There are three ways you can delete a contact from SuperOffice CRM:
 
 ## To delete a contact from the Company screen
 
-[!include[Go to company](../../includes/goto-company.md)]
+[!include[Go to company](../../learn/includes/goto-company.md)]
 
 1. Select the **Contacts** section tab.
 

@@ -67,25 +67,25 @@ In the **Company** screen you can enter information about companies on several l
 
 ## The www tab (Company screen)
 
-[!include[About the www tab](../../includes/www-tab.md)]
+[!include[About the www tab](../../learn/includes/www-tab.md)]
 
 ## The ERP tab (Company screen)
 
-[!include[About the ERP tab](../../includes/erp-tab.md)]
+[!include[About the ERP tab](../../learn/includes/erp-tab.md)]
 
 ## The Note tab (Company screen)
 
-[!include[About the Note tab](../../includes/about-note-tab.md)]
+[!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
 ## Add record as a favorite
 
-[!include[How to](../../includes/howto-add-favorite.md)]
+[!include[How to](../../learn/includes/howto-add-favorite.md)]
 
 ## Duplicates
 
 If you try to enter a company that is similar to one that is already in SuperOffice CRM, the **Duplicates** dialog appears, to prevent you from [unintentionally registering an existing company][2]. Choose if you want to continue working with the current record or go to one of the records listed at the bottom of the dialog.
 
-[!include[Tip](../../includes/tip-open-website.md)]
+[!include[Tip](../../learn/includes/tip-open-website.md)]
 
 <!-- Referenced links -->
 [2]: ../../learn/getting-started/duplicates.md

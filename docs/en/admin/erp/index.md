@@ -11,7 +11,7 @@ language: en
 
 # ERP
 
-[!include[Requirement](../../includes/req-integration-server.md)]
+[!include[Requirement](includes/req-integration-server.md)]
 
 If your organization uses an ERP system and has connected it to SuperOffice CRM, you have the option of synchronizing companies (customers and suppliers) and projects between the ERP system and SuperOffice CRM.
 

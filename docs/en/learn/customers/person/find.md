@@ -24,7 +24,7 @@ All searches in SuperOffice Service, regardless of what you are searching for, a
 3. Click **Search**.
 4. Under **Find contacts** are the contacts that match your search criteria. If you select one of the contacts in the list, the requests linked to that contact are displayed in the preview section.
 
-    [!include[How to preview search](../../../includes/show-reading-pane.md)]
+    [!include[How to preview search](../../../learn/includes/show-reading-pane.md)]
 
 > [!TIP]
 > There is a more complete description of what you can do in the **Find contacts** screen, under [Search in SuperOffice Service][2].
@@ -56,7 +56,7 @@ Under the list, you can click the ![icon][img1] menu button to access the follow
 
 This section of the screen displays the requests linked to the contact selected under **Find contacts**.
 
-[!include[How to preview search](../../../includes/show-reading-pane.md)]
+[!include[How to preview search](../../../learn/includes/show-reading-pane.md)]
 
 <!-- Referenced links -->
 [2]: ../../../search-options/learn/in-service/index.md

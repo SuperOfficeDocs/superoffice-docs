@@ -28,7 +28,7 @@ The activities list columns contain the following information:
 
 * The second column contains icons that indicate the type of activity, for example, a telephone for a call. These icons reflect the text in the **Type** column.
 
-    [!include[Table showing icons for activities](../../../includes/table-activity-icons.md)]
+    [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
 * The remainder of the columns in the activities list show other [information about the activity][2]. If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
 

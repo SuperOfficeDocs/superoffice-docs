@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Other users
 
-[!include[Requirement](../../../includes/note-users-that-req-es.md)]
+[!include[Requirement](../includes/note-users-that-req-es.md)]
 
 On the **Other users** tab in the **Users** screen, you can edit login rights for and add the following user types:
 

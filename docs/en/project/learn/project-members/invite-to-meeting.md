@@ -15,4 +15,7 @@ language: en
 2. Select the project members you want to invite.
 3. Right-click and select **Request a meeting**.
 
-    The **Appointment** dialog opens. [!include[See Appointment dialog](../../../includes/see-apt-dialog.md)]
+    The [**Appointment** dialog][1] opens.
+
+<!-- Referenced links -->
+[1]: ../../../diary/learn/screen/dialog-for-followups.md

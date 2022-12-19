@@ -3,7 +3,7 @@ uid: help-en-selections-folder-service
 title: Administrate folders of selections
 description: Administrate folders of selections
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.19.2022
 keywords: selection, folder
 so.topic: howto
 language: en
@@ -15,12 +15,25 @@ Under **Selections** > **List selections** you can create a folder structure for
 
 ## Create folders
 
-[!include[How to create a selection folder](../../../../includes/selection-create-folder.md)]
+1. Click **New folder** at the top of the screen.
+2. In the **Folder** field, select a parent folder in the list.
+3. Enter a descriptive name for the folder in the **Name** field.
+4. Click **OK**. The new folder is created.
 
 ## Edit folders
 
-[!include[How to edit a selection folder](../../../../includes/selection-edit-folder.md)]
+You can edit both the name of a folder and the details you entered when creating it.
+
+1. Go to the required folder.
+2. Click the name of the folder.
+3. Amend the fields.
+4. Click **OK**. The changes are saved.
 
 ## Delete folders
 
-[!include[How to delete a selection folder](../../../../includes/selection-delete-folder.md)]
+When you delete a folder, all its contents (selections, FAQ entries, reply templates, tables, scripts, macros, and so on) are also deleted from SuperOffice Service.
+
+1. Go to the required folder.
+2. Click the name of the folder.
+3. Click **Delete**.
+4. Click **OK** to confirm. The folder and its contents are removed from SuperOffice Service.

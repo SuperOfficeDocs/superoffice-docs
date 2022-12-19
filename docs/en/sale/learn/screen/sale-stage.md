@@ -13,7 +13,7 @@ language: en
 
 # Sale - Stage
 
-[!include[Must be admin](../../../includes/req-admin.md)]
+[!include[Must be admin](../../../learn/includes/req-admin.md)]
 
 The **Sale** tab in the **Sale** screen in SuperOffice CRM contains the **Stage** field, among other things. This field has a predefined list of options which are set up in the **Lists** screen in Settings and maintenance.
 

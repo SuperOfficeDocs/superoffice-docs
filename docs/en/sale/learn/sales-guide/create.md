@@ -13,7 +13,7 @@ language: en
 
 # Create a new sales guide
 
-[!include[Must be admin](../../../includes/req-admin.md)]
+[!include[Must be admin](../../../learn/includes/req-admin.md)]
 
 This procedure shows you how to create a sales guide from scratch.
 

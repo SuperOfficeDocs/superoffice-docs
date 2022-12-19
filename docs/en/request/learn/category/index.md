@@ -33,7 +33,7 @@ Users can be added as members in the categories individually or via the user gro
 
 The categories are arranged in a tree structure.
 
-[!include[Restricted access](../../../includes/note-insufficient-rights.md)]
+[!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
 ## What would you like to do now?
 

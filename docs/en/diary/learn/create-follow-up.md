@@ -44,7 +44,7 @@ When you open the diary of an associate, you can create appointments for this pe
     > [!NOTE]
     > If you checked **Participants from group view** under **Preferences**, all members of the view are automatically added as participants in the appointment. To change this preference, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
-5. Enter the required information in the fields. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
+5. [Enter the required information in the fields.][6]
 
 6. Click the **Save** button. The appointment will be displayed in the selected person's diary.
 
@@ -68,6 +68,7 @@ Overlapping follow-ups are displayed in the **Diary** screen so that you can see
 [3]: phone-call/add.md
 [4]: open.md
 [5]: invitation/add-participant.md
+[6]: screen/dialog-for-followups.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

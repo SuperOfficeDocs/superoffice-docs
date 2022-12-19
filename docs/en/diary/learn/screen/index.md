@@ -55,7 +55,7 @@ The **Diary** screen contains the following section tabs:
 
 * [Sales][7]: The **Sales** section tab shows essential information about sales.
 
-[!include[Add more section tabs](../../../includes/more-tab.md)]
+[!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
 [2]: day.md

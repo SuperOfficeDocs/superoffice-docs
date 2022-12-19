@@ -16,7 +16,7 @@ language: en
 1. Click **Search**.
 1. Under **Find companies** are the companies that match your search criteria. If you select one of the companies in the list, the requests and contacts linked to that company are displayed in the preview section.
 
-    [!include[How to preview search](../../../includes/show-reading-pane.md)]
+    [!include[How to preview search](../../../learn/includes/show-reading-pane.md)]
 
 ## View search results for companies
 

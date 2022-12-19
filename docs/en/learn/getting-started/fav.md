@@ -17,7 +17,7 @@ To add reports as favorites, see [Favorite reports][1].
 
 ## Add record as a favorite
 
-[!include[Add fav](../../includes/howto-add-favorite.md)]
+[!include[Add fav](../includes/howto-add-favorite.md)]
 
 In lists (such as the section tabs and Find), you can right-click a record and select **Add to favorites** in the menu.
 

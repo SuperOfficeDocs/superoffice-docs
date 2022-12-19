@@ -11,13 +11,13 @@ language: en
 
 # Merge companies
 
-[!include[Requirement](../../includes/note-req-manage-entities.md)]
+[!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
 You can merge duplicate database records of companies. Contacts and activities will be moved to the target company and the source company will be deleted.
 
 **Steps:**
 
-[!include[Go to company](../../includes/goto-company.md)]
+[!include[Go to company](../../learn/includes/goto-company.md)]
 
 1. Select **Manage companies** from the ![icon][img3] **Task** button, and click **Merge companies**.
     The **Merge companies** dialog opens. The source company is specified under **From**.
@@ -36,7 +36,7 @@ You can merge duplicate database records of companies. Contacts and activities w
 
     * **Replace empty fields in \[target company\] with values from \[source company\]**. If selected, empty data fields in the **To** company are updated with data from the **From** company.
 
-    [!include[Preview results](../../includes/note-preview-results.md)]
+    [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
 1. Click **Merge**. The following then happens:
 

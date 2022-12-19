@@ -40,7 +40,7 @@ This tab contains fields that focus, in particular, on the financial details of 
 
 Here you can add links that are relevant for the sale you are working on, such as URL addresses, projects, other sales, follow-ups and documents. For example, if you are going to a meeting with a company you have previously communicated with, you can add links to documents you have already created for this company.
 
-[!include[How to add links](../../../includes/howto-add-links.md)]
+[!include[How to add links](../../../learn/includes/howto-add-links.md)]
 
 ### Open links
 
@@ -52,7 +52,7 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 
 ## The Note tab
 
-[!include[About the Note tab](../../../includes/about-note-tab.md)]
+[!include[About the Note tab](../../../learn/includes/about-note-tab.md)]
 
 ## Section tabs in the Sale screen
 
@@ -65,7 +65,7 @@ The lower part of the **Sale** screen consists of section tabs.
 
 [Sales guides][3] are only shown for specific sales types (defined in SuperOffice Settings and maintenance). If you select a sale type for which a sales guide is defined, the **Sales guide** section tab is displayed.
 
-[!include[Add more section tabs](../../../includes/more-tab.md)]
+[!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 ## What would you like to do now?
 

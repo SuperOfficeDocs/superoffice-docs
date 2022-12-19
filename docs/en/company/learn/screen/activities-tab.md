@@ -13,9 +13,9 @@ language: en
 
 The **Activities** section tab in the **Company** screen contains all the activities linked to the active company.
 
-[!include[Intro to activities](../../../includes/intro-activities.md)]
+[!include[Intro to activities](../../../learn/includes/intro-activities.md)]
 
-[!include[Contents of Activities tab](../../../includes/activities-tab.md)]
+[!include[Contents of Activities tab](../../../learn/includes/activities-tab.md)]
 
 ## What would you like to do?
 

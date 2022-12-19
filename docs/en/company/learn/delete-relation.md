@@ -11,13 +11,13 @@ language: en
 
 # Delete relations
 
-[!include[Go to company](../../includes/goto-company.md)]
+[!include[Go to company](../../learn/includes/goto-company.md)]
 
 1. Right-click the required relation on the **Relations** section tab and select **Delete**.
 
 1. In the **Delete Relation** dialog, click **Yes** to confirm that you really want to delete the relation.
 
-[!include[Deleting items](../../includes/tip-deletion.md)]
+[!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
 <!-- Referenced links -->
 

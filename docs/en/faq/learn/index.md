@@ -11,13 +11,13 @@ language: en
 
 # Work with FAQ entries
 
-[!include[Requirement](../../includes/req-cep.md)]
+[!include[Requirement](../../learn/includes/req-cep.md)]
 
 FAQs are closely integrated with the request handling: customer enquiries will often recur, making it a good idea to enter such questions and their answers in the FAQs. These entries can be made available in SuperOffice Customer Centre, where customers themselves can search for answers, and request handlers can add links to FAQ entries when replying to enquiries. This saves the request handlers time, and customers receive precise and quality-assured answers.
 
 ## What is the difference between an FAQ entry and a reply template?
 
-[!include[FAQ vs. reply template](../../includes/faq-vs-reply-template.md)]
+[!include[FAQ vs. reply template](../../learn/includes/faq-vs-reply-template.md)]
 
 ## What would you like to do now?
 

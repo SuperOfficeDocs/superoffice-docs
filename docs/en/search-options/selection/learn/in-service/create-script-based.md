@@ -11,7 +11,7 @@ language: en
 
 # Create a script-based selection
 
-[!include[Requirement](../../../../includes/req-expander-services.md)]
+[!include[Requirement](../../../../learn/includes/req-expander-services.md)]
 
 In a script-based selection, you define a data selection using a [CRMScript][1], which offers almost unlimited possibilities for advanced calculations and criteria for defining the selection. You can order a script tailored to your company's needs from SuperOffice or a SuperOffice partner. You can also create a CRMScript yourself.
 

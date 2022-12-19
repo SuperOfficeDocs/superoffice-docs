@@ -13,7 +13,7 @@ language: en
 
 For each priority you can define one or more escalation levels, so that the system forwards the enquiry further through the organization if it has not been read or handled within a specified time.
 
-[!include[Restricted access](../../../includes/note-insufficient-rights.md)]
+[!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
 ## Define new levels in Settings and maintenance
 

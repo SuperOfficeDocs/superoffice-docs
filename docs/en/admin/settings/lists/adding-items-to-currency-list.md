@@ -13,12 +13,12 @@ language: en
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
-[!include[Edit list item](../../../includes/edit-list-item.md)] when the items are currencies:
+[!include[Edit list item](includes/edit-list-item.md)] when the items are currencies:
 
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../../../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](includes/note-mandatory-field.md)]
 
 2. Specify the rate for the relevant currency by entering a number in the **Rate** field.
 

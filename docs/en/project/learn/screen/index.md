@@ -52,7 +52,7 @@ Three of the user-defined fields from the **More** tab can also be displayed in 
 
 ## The Note tab
 
-[!include[About the Note tab](../../../includes/about-note-tab.md)]
+[!include[About the Note tab](../../../learn/includes/about-note-tab.md)]
 
 ## Section tabs in the Project screen
 
@@ -63,7 +63,7 @@ The lower part of the **Project** screen consists of section tabs.
 * [Activities][6]
 * [Sales][7]
 
-[!include[Add more section tabs](../../../includes/more-tab.md)]
+[!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 ## What would you like to do now?
 

@@ -11,7 +11,7 @@ language: en
 
 # Create tracked links
 
-[!include[Requirement](../../../includes/req-marketing.md)]
+[!include[Requirement](includes/req-marketing.md)]
 
 You can track URLs inserted in emails. The **Tracked links** tab is used to administrate these trackable links. The links created here will be available when you and other users when you edit the contents of your mailings.
 

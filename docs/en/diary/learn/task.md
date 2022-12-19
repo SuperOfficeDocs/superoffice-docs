@@ -19,7 +19,7 @@ No matter where you are in SuperOffice CRM, you can create a new task by clickin
 
 Tasks can be displayed in the following places in SuperOffice CRM:
 
-[!include[List of Activities section tabs](../../includes/list-activities-section-tabs.md)]
+[!include[List of Activities section tabs](../../learn/includes/list-activities-section-tabs.md)]
 
 > [!NOTE]
 > If you specify a start and end time for a task, it is entered in the diary at the correct day and time.
