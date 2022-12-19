@@ -107,7 +107,7 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 
 [21]: ../../automation/crmscript/learn/index.md
 [23]: ../../service/customer-center/learn/index.md
-[24]: ../../ui/learn/in-service/index.md
+[24]: ../../ui/blogic/learn/index.md
 [25]: ../../admin/license/learn/index.md
 [26]: ../../admin/user-management/learn/index.md
 [27]: ../../admin/user-management/learn/role/index.md
@@ -117,7 +117,7 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 
 [31]: ../../admin/lists/learn/index.md
 [32]: ../../quote/learn/quote-sync/index.md
-[34]: ../../ui/learn/screen-designer/index.md
+[34]: ../../ui/screen-designer/learn/index.md
 [35]: ../../admin/preferences/learn/index.md
 [36]: ../../admin/options/learn/index.md
 [37]: ../../admin/import/learn/index.md

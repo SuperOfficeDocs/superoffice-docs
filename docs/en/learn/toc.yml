@@ -78,8 +78,13 @@ items:
     - name: Custom objects
       href: ../custom-objects/learn/toc.yml
     - name: User interface
-      href: ../ui/learn/toc.yml
-
+      items:
+      - name: Screen designer
+        href: ../ui/screen-designer/learn/toc.yml
+      - name: Web panels
+        href: ../ui/web-panels/learn/index.md
+    - name: Package properties
+      href: ../admin/learn/screen/package-properties.md
     - name: Options
       href: ../admin/options/learn/toc.yml
 
@@ -202,20 +207,7 @@ items:
     - name: Email
       href: ../email/service/learn/toc.yml
     - name: User interface
-      href: ../ui/learn/in-service/index.md
-      items:
-      - name: ScreenChoosers
-        href: ../ui/learn/in-service/screen-chooser.md
-      - name: Screen definition
-        href: ../ui/learn/in-service/screen-definition.md
-      - name: Screen properties
-        href: ../ui/learn/in-service/screen-properties.md
-      - name: Profiles
-        href:  ../ui/learn/in-service/profiles/toc.yml
-        topicHref: ../ui/learn/in-service/profiles/index.md
-
-    - name: Package properties
-      href: ../admin/learn/screen/package-properties.md
+      href: ../ui/blogic/learn/toc.yml
     
     - name: Invoice
       href: ../request/learn/invoice/toc.yml

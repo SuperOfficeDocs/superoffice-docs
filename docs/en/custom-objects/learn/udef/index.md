@@ -94,6 +94,6 @@ You can then add these fields to the **Project** screen:
 [5]: ../../../document/learn/screen/index.md
 [6]: ../../../company/learn/create.md#more-tab
 [7]: ../../../contact/learn/create.md#more-tab
-[8]: ../../../ui/learn/screen-designer/index.md
+[8]: ../../../ui/screen-designer/learn/index.md
 
 <!-- Referenced images -->

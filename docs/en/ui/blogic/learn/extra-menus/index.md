@@ -45,9 +45,9 @@ See also [Menu properties][1].
 <!-- Referenced links -->
 [1]: properties.md
 [2]: actions.md
-[3]: ../web-panels/index.md
+[3]: ../../../web-panels/learn/index.md
 [4]: navigator.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/settings-small.png
+[img1]: ../../../../../media/icons/btn-menu.png
+[img2]: ../../../../../media/icons/settings-small.png

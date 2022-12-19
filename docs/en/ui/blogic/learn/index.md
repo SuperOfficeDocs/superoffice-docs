@@ -43,8 +43,8 @@ Here you can find the advanced options in SuperOffice.
 [7]: ../../../automation/crmscript/learn/tracing.md
 [8]: screen-properties.md
 [9]: screen-chooser.md
-[11]: ../extra-menus/index.md
-[12]: ../web-panels/index.md
+[11]: extra-menus/index.md
+[12]: ../../web-panels/learn/index.md
 [13]: ../../../admin/learn/screen/package-properties.md
 [14]: ../../../automation/crmscript/learn/screen/data-exchange.md
 [15]: ../../../search-options/learn/in-service/index.md

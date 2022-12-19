@@ -36,7 +36,7 @@ The global buttons appear throughout the user interface. Some are in the main sc
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/in-service/index.md
-[2]: ../../../ui/learn/in-service/profiles/index.md
+[2]: ../../../ui/blogic/learn/profiles/index.md
 [3]: ../fav.md
 
 <!-- Referenced images -->

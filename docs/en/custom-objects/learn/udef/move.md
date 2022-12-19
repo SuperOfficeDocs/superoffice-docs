@@ -54,7 +54,7 @@ Select the fields you want to adjust and click left-align ( ![icon][img5] ) or r
 3. Specify the width of the data field in the field to the right of **Data**.
 
 <!-- Referenced links -->
-[1]: ../../../ui/learn/screen-designer/index.md
+[1]: ../../../ui/screen-designer/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png

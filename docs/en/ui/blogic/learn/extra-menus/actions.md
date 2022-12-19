@@ -26,9 +26,9 @@ To add a macro to the **Actions** button in the **Company** screen, **Contact** 
 8. Open a request, contact, company or message, click the ![icon][img2] **Actions** button and check that the button is displayed and functions as desired.
 
 <!-- Referenced links -->
-[1]: ../../../automation/crmscript/learn/create-macro.md
+[1]: ../../../../automation/crmscript/learn/create-macro.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/btn-menu.png
-[img3]: ../../../../media/icons/settings-small.png
+[img1]: ../../../../../media/icons/btn-add.png
+[img2]: ../../../../../media/icons/btn-menu.png
+[img3]: ../../../../../media/icons/settings-small.png

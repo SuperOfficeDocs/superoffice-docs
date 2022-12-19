@@ -1,0 +1,13 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: ScreenChoosers
+    href: screen-chooser.md
+  - name: Screen definition
+    href: screen-definition.md
+  - name: Screen properties
+    href: screen-properties.md
+  - name: Profiles
+    href: profiles/toc.yml
+  - name: Extra menus
+    href: extra-menus/toc.yml

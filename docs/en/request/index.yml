@@ -111,7 +111,7 @@ conceptualContent:
         url: ../ui/soprotocol/index.md
       - text: System design
         itemType: how-to-guide
-        url: ../ui/learn/screen-designer/index.md
+        url: ../ui/screen-designer/learn/index.md
       - text: bLogic messages
         itemType: reference
         url: ../ui/blogic/reference/messages.md

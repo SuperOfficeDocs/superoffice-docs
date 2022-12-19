@@ -146,7 +146,7 @@ The autosave feature is activated by default when you view and edit requests and
 [3]: ../priority/escalation-levels.md
 [4]: ../tags.md
 [5]: ../../../learn/customers/person/create.md
-[6]: ../../../ui/learn/in-service/screen-properties.md
+[6]: ../../../ui/blogic/learn/screen-properties.md
 [7]: ../../../service/reply-templates/learn/new-language.md
 [8]: ../invoice/index.md
 [9]: index.md

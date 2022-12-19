@@ -35,7 +35,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 > The [Invoice types][16] function is only available if you have the required feature toggle.
 
 <!-- Referenced links -->
-[1]: ../../../ui/learn/in-service/profiles/index.md
+[1]: ../../../ui/blogic/learn/profiles/index.md
 [2]: ../../../admin/user-management/learn/role/index.md
 [3]: ../../../admin/user-management/learn/index.md
 [4]: ../../../request/learn/category/index.md
@@ -49,7 +49,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [12]: ../../customer-center/learn/edit.md
 [13]: ../../../chat/learn/admin/index.md
 [14]: ../../../admin/learn/screen/soap-config.md
-[15]: ../../../ui/learn/in-service/index.md
+[15]: ../../../ui/blogic/learn/index.md
 [16]: ../../../request/learn/invoice/index.md
 
 <!-- Referenced images -->

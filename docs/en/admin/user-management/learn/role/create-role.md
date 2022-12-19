@@ -104,7 +104,7 @@ To create a role for associates in the company or for external users:
 
 <!-- Referenced links -->
 [1]: ../../../../service/settings/learn/personal-settings/user-info.md
-[2]: ../../../../ui/learn/in-service/profiles/index.md
+[2]: ../../../../ui/blogic/learn/profiles/index.md
 [3]: ../../../../faq/learn/workflow.md
 [4]: editing-role.md
 [5]: ../add-associate.md
