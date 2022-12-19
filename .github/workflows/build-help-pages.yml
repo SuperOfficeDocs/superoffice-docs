@@ -31,7 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: 351-migrate-en-user-and-admin-help
+          ref: 565-en-folders-and-user-guide
       - name: Clone BuildDocs
         env:
           TOKEN: ${{ secrets.GH_PAT }}
