@@ -67,7 +67,7 @@ foreach ($lang in $langs)
         $content = Get-Content -path $targetPathAndFile -raw # get as single string
         # (?m) = regex mode select multiline line matching
         $newcontent = $content -replace "(?ms)^language: *en *", $targetLanguage
-        $newcontent = $content -replace "(?ms)^uid: help-en", $targetUid
+        $newcontent = $newcontent -replace "(?ms)^uid: help-en", $targetUid
         Set-Content  -path $targetPathAndFile $newcontent
       }
     }
