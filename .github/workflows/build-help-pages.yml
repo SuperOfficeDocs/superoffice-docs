@@ -37,10 +37,10 @@ jobs:
         with:
           ref: "${{env.BRANCH_NAME}}"
           path: "content-repo"
-      - name: Inspect directory PS
+      - name: Inspect superoffice-docs content
         shell: pwsh
         run: |
-          $content = Get-ChildItem
+          $content = Get-ChildItem "./content-repo" 
           Write-Host "$($content)"
       - name: Inspect directory pwd
         run: |
@@ -52,3 +52,7 @@ jobs:
           echo "cd into workspace"
           cd $GITHUB_WORKSPACE
           echo "$(pwd)"
+          # git clone -b "${{env.BUILD_DOCS_BRANCH}}" "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
+          echo after clone
+          echo "Current directory $(pwd)"
+
