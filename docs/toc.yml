@@ -1,0 +1,25 @@
+items:
+- name: User guide
+  topicHref: en/learn/index.md
+- name: Company
+  topicHref: en/company/index.yml
+- name: Contact
+  topicHref: en/contact/index.yml
+- name: Diary
+  topicHref: en/diary/index.yml
+- name: Document
+  topicHref: en/document/index.yml
+- name: Email
+  topicHref: en/email/index.yml
+- name: Project
+  topicHref: en/project/index.yml
+- name: Request
+  topicHref: en/request/index.yml
+- name: Sale
+  topicHref: en/sale/index.yml
+- name: CRM Online
+  topicHref: en/online/index.yml
+- name: CRM Onsite
+  topicHref: en/onsite/index.yml
+- name: Developer Guide
+  topicHref: en/api/overview/index.md
