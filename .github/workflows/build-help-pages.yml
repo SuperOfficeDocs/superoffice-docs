@@ -1,10 +1,6 @@
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
-env: 
-  BRANCH_NAME: '565-en-folders-and-user-guide'
-  BUILD_DOCS_BRANCH: 'prefix-dest-with-en'
-
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -35,55 +31,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: "${{env.BRANCH_NAME}}"
-          path: "content-repo"
-      - name: Inspect superoffice-docs content
-        shell: pwsh
-        run: |
-          $content = Get-ChildItem "./content-repo" 
-          Write-Host "$($content)"
-      - name: Inspect directory pwd
-        run: |
-          echo "$(pwd)"
-
-      - name: Clone build-docs
+          ref: 565-en-folders-and-user-guide
+      - name: Clone BuildDocs
         env:
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          echo "cd into workspace"
-          cd $GITHUB_WORKSPACE
-          echo "$(pwd)"
-          git clone -b "${{env.BUILD_DOCS_BRANCH}}" "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git" $GITHUB_WORKSPACE/build-docs
-          echo after clone
-          echo "Current directory $(pwd)"
-          cd $GITHUB_WORKSPACE
-          echo "Switching to GH workspace... $(pwd)"
+          git clone "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
           ls -la
-      - name: Copy superoffice-docs into "./build-docs/superoffice-docs"
-        shell: pwsh
-        run: |
-          $source = "./content-repo"
-          $destination = "./build-docs/superoffice-docs"
-          Write-Host "Copying $source into $destination"
-          Copy-Item -Path $source -Destination $destination -Recurse -Force
-          cd ./build-docs
-          $cd = Get-Location
-          Write-Output "Current dir $cd"
-          Get-ChildItem -Path . –Recurse | Select-Object FullName, LastWriteTime, Length
-
-      - uses: nikeee/docfx-action@master
-        name: Build Documentation
+      - name: Build Documentation
+        uses: nikeee/docfx-action@master
         with:
-          args: ./build-docs/docfx-learn.json
+          args: docfx-learn-light.json
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: './build-docs/_site'
+          path: '_site'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-          
-
-
 
