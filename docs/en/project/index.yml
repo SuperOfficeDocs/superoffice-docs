@@ -72,10 +72,10 @@ conceptualContent:
           url: ../admin/user-preferences/index.md
         - text: Lists - Project status
           itemType: how-to-guide
-          url: ../admin/settings/lists/project-status.md
+          url: ../admin/lists/learn/project-status.md
         - text: Lists - Project type status
           itemType: how-to-guide
-          url: ../admin/settings/lists/project-type.md
+          url: ../admin/lists/learn/project-type.md
 
     # Card
     - title: UI options

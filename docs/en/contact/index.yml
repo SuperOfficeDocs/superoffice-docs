@@ -85,7 +85,7 @@ conceptualContent:
           url: ../admin/user-preferences/reference/find-contact.md
         - text: Lists - General Country
           itemType: how-to-guide
-          url: ../admin/settings/lists/add-items-to-country-list.md
+          url: ../admin/lists/learn/add-items-to-country-list.md
 
     # Card
     - title: UI options

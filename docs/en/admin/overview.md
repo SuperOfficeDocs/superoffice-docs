@@ -46,9 +46,9 @@ Also [scripts][14] available in the Windows client only may be enabled in the Wi
 [1]: license/learn/screen/index.md
 [2]: user-management/learn/index.md
 [3]: user-management/learn/role/index.md
-[4]: settings/lists/index.md
-[6]: settings/preferences/index.md
-[7]: settings/options/index.md
+[4]: lists/learn/index.md
+[6]: preferences/learn/index.md
+[7]: options/learn/index.md
 [8]: import/learn/index.md
 [9]: ../custom-objects/learn/udef/index.md
 [11]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm

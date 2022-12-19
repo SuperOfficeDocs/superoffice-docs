@@ -45,7 +45,7 @@ The categories are arranged in a tree structure.
 <!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
-[3]: ../../../admin/settings/lists/index.md
+[3]: ../../../admin/lists/learn/index.md
 [5]: ../next-in-queue.md
 [6]: ../find.md#category
 

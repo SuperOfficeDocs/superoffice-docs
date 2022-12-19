@@ -44,7 +44,7 @@ To add a company in the **Our companies** tab, it must first be registered as a 
     * Last Name: Enter the whole or part of the last name of a contact at the company.
     * Telephone: Enter the whole or part of a phone number for the company.
     * Email: Enter the whole or part of an email address for the company.
-    * Match also :Here you can specify further search criteria. [!include[See search criteria](../../includes/see-search-admin.md)]
+    * Match also: Here you can specify further [search criteria][1].
     </details>
 
 3. When you have specified the required criteria, click the **Find** button.
@@ -62,6 +62,7 @@ To add a company in the **Our companies** tab, it must first be registered as a 
 * [Delete company in the Our companies tab][2]
 
 <!-- Referenced links -->
+[1]: ../../options/learn/using-search-criteria.md
 [2]: delete-our-companies.md
 
 <!-- Referenced images -->

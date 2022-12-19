@@ -50,6 +50,6 @@ To test the settings, enter a mobile phone number and some text, and then click 
 For information about additional modules, see [SMS][1].
 
 <!-- Referenced links -->
-[1]: ../../../../admin/settings/in-service/sms.md
+[1]: ../../../../service/settings/learn/sms.md
 
 <!-- Referenced images -->

@@ -22,6 +22,6 @@ In the **Sale** screen tabs in SuperOffice CRM, you specify sale amount, costs a
 
 <!-- Referenced links -->
 [1]: adding-items-to-currency-list.md
-[2]: ../preferences/index.md
+[2]: ../../preferences/learn/index.md
 
 <!-- Referenced images -->

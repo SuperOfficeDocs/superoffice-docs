@@ -26,7 +26,7 @@ In the **Other groups** tab, you can select any secondary groups (in addition to
 
 <!-- Referenced links -->
 [1]: user-info.md
-[2]: ../../../user-management/learn/role/index.md
+[2]: ../../../../admin/user-management/learn/role/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-add.png

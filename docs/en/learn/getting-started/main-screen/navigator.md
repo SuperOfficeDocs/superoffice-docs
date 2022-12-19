@@ -118,17 +118,17 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [37]: ../../../dashboard/learn/in-service/index.md
 
 [20]: ../../../ai/learn/index.md
-[21]: ../../../admin/settings/lists/index.md
+[21]: ../../../admin/lists/learn/index.md
 [22]: ../../../quote/learn/quote-sync/index.md
 [24]: ../../../ui/learn/screen-designer/index.md
-[25]: ../../../admin/settings/preferences/index.md
-[26]: ../../../admin/settings/options/index.md
+[25]: ../../../admin/preferences/learn/index.md
+[26]: ../../../admin/options/learn/index.md
 [27]: ../../../admin/import/learn/index.md
 [28]: ../../../custom-objects/learn/udef/index.md
 
 [41]: ../../../automation/crmscript/learn/index.md
-[42]: ../../../admin/settings/preferences/video-meetings/index.md
-[43]: ../../../admin/settings/preferences/document-library.md
+[42]: ../../../admin/preferences/learn/video-meetings/index.md
+[43]: ../../../admin/preferences/learn/document-library.md
 [44]: https://online.superoffice.com/appstore
 [45]: ../../../admin/license/learn/index.md
 [46]: ../../../admin/user-management/learn/index.md

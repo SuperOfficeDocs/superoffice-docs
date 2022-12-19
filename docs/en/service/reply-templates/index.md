@@ -67,4 +67,4 @@ You can also extract anything from the email using [Find regular expressions][4]
 <!-- Referenced links -->
 [1]: learn/create.md
 [3]: learn/template-variables.md
-[4]: ../../admin/settings/lists/add-email-template.md
+[4]: ../../admin/lists/learn/add-email-template.md

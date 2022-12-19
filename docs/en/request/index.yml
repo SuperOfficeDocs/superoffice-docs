@@ -97,7 +97,7 @@ conceptualContent:
           url: ../email/service/learn/kb-aliases/index.md
         - text: SOAP ports
           itemType: how-to-guide
-          url: ../admin/settings/configure-soap.md
+          url: ../admin/learn/configure-soap.md
 
     # Card
     - title: UI options

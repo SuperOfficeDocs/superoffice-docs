@@ -94,7 +94,7 @@ conceptualContent:
           url: ../admin/user-preferences/index.md
         - text: List Document template
           itemType: how-to-guide
-          url: ../admin/settings/lists/document-template.md
+          url: ../admin/lists/learn/document-template.md
 
     # Card
     - title: UI options

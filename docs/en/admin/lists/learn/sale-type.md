@@ -67,7 +67,7 @@ In the **Quote attachments** tab you can add documents to be sent to the custome
 ### Add quote attachment
 
 1. Click **Add**.
-2. In the **Find** dialog, search for the document(s) you want to add. [!include[See search criteria](../../includes/see-search-admin.md)]
+2. In the **Find** dialog, [search for the documents you want to add][1].
 3. Select one or more documents and click **OK**. The document(s) is/are displayed in the **Quote attachments** tab.
 4. Select the documents you want to include in the **Include** column.
 
@@ -98,5 +98,6 @@ Here you can choose if the quote must be approved if the total discount is above
 [3]: ../../../sale/learn/screen/sale-stage.md
 [4]: ../../../sale/learn/stakeholders/index.md
 [5]: ../../../sale/learn/screen/sales-guide-admin.md
+[1]: ../../options/learn/using-search-criteria.md
 
 <!-- Referenced images -->

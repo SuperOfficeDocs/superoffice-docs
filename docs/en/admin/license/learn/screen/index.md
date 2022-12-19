@@ -76,7 +76,7 @@ Under **System notifications** you will find the following columns:
 * [Activate licenses][4]
 
 <!-- Referenced links -->
-[1]: ../../../settings/system-events.md
+[1]: ../../../learn/system-events.md
 [3]: ../index.md
 [4]: ../activate.md
 [5]: ../activate.md#buy

@@ -21,7 +21,7 @@ Each project in SuperOffice CRM must have a project type, and each project type 
 
 <!-- Referenced links -->
 [1]: project-status-admin.md
-[2]: ../../../admin/settings/lists/project-type.md
+[2]: ../../../admin/lists/learn/project-type.md
 [3]: project-guide-admin.md
 
 <!-- Referenced images -->

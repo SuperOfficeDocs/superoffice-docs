@@ -33,7 +33,7 @@ In the **User information** tab in the **Edit users** screen, you can edit the f
 
 <!-- Referenced links -->
 [1]: ../../../../learn/getting-started/login.md
-[2]: ../../../user-management/learn/role/index.md
+[2]: ../../../../admin/user-management/learn/role/index.md
 [3]: other-groups.md
 
 <!-- Referenced images -->

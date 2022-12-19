@@ -149,9 +149,9 @@ Agenda for first meeting:
 
 <!-- Referenced links -->
 [1]: ../../../document/templates/variables/for-sales.md
-[2]: ../../../admin/settings/lists/sale-stage.md
-[3]: ../../../admin/settings/lists/sale-type.md
-[4]: ../../../admin/settings/lists/document-template.md
+[2]: ../../../admin/lists/learn/sale-stage.md
+[3]: ../../../admin/lists/learn/sale-type.md
+[4]: ../../../admin/lists/learn/document-template.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-workflow-active.png

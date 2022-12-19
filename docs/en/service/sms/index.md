@@ -70,7 +70,7 @@ This method of sending will not create any entries in the **Settings/E-mail/SMS 
 * [TxtLocal][10]
 
 <!-- Referenced links -->
-[1]: ../../admin/settings/in-service/sms.md
+[1]: ../settings/learn/sms.md
 [2]: ../automated-tasks/ejournalcron.md
 [3]: ../../automation/crmscript/index.yml
 [4]: cm.md

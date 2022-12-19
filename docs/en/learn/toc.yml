@@ -40,9 +40,9 @@ items:
     href: customization.yml
     items:
     - name: Lists
-      href: ../admin/settings/lists/toc.yml
+      href: ../admin/lists/learn/toc.yml
     - name: Preferences
-      href: ../admin/settings/preferences/toc.yml
+      href: ../admin/preferences/learn/toc.yml
 
     - name: Privacy
       href: ../security/privacy/learn/toc.yml
@@ -81,7 +81,7 @@ items:
       href: ../ui/learn/toc.yml
 
     - name: Options
-      href: ../admin/settings/options/toc.yml
+      href: ../admin/options/learn/toc.yml
 
     - name: Chat
       href: ../chat/learn/admin/index.md
@@ -97,7 +97,7 @@ items:
     - name: Requests
       items:
       - name: System settings in Service
-        href: ../admin/settings/in-service/toc.yml
+        href: ../service/settings/learn/toc.yml
       - name: Categories
         href: ../request/learn/category/index.md
         items:
@@ -132,18 +132,18 @@ items:
     - name: Onsite
       items:
       - name: SOAP
-        href: ../admin/settings/screen/soap-config.md
+        href: ../admin/learn/screen/soap-config.md
       - name: Configure SOAP interface
-        href: ../admin/settings/configure-soap.md
+        href: ../admin/learn/configure-soap.md
 
   - name: Administration and system settings
     href: administration.yml
     items:
     - name: System events
-      href: ../admin/settings/system-events.md
+      href: ../admin/learn/system-events.md
       items:
       - name: Add
-        href: ../admin/settings/add-system-event.md
+        href: ../admin/learn/add-system-event.md
     - name: Licenses
       href: ../admin/license/learn/toc.yml
     - name: User management
@@ -160,7 +160,7 @@ items:
   - name: Service client
     items:
     - name: Personal settings in Service
-      href: ../admin/settings/in-service/personal-settings/toc.yml
+      href: ../service/settings/learn/personal-settings/toc.yml
     - name: Search
       href: ../search-options/learn/in-service/index.md
       items:
@@ -215,7 +215,7 @@ items:
         topicHref: ../ui/learn/in-service/profiles/index.md
 
     - name: Package properties
-      href: ../admin/settings/screen/package-properties.md
+      href: ../admin/learn/screen/package-properties.md
     
     - name: Invoice
       href: ../request/learn/invoice/toc.yml

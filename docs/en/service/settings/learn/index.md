@@ -36,19 +36,19 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 
 <!-- Referenced links -->
 [1]: ../../../ui/learn/in-service/profiles/index.md
-[2]: ../../user-management/learn/role/index.md
-[3]: ../../user-management/learn/index.md
+[2]: ../../../admin/user-management/learn/role/index.md
+[3]: ../../../admin/user-management/learn/index.md
 [4]: ../../../request/learn/category/index.md
 [5]: ../../../request/learn/priority/index.md
 [6]: ../../../request/learn/status/index.md
 [7]: ../../../email/service/learn/index.md
 [8]: ../../../request/learn/screen/system-templates.md
 [9]: system.md
-[10]: ../options/custlang/index.md
-[11]: ../../../service/customer-center/learn/config.md
-[12]: ../../../service/customer-center/learn/edit.md
+[10]: ../../../admin/options/learn/custlang/index.md
+[11]: ../../customer-center/learn/config.md
+[12]: ../../customer-center/learn/edit.md
 [13]: ../../../chat/learn/admin/index.md
-[14]: ../screen/soap-config.md
+[14]: ../../../admin/learn/screen/soap-config.md
 [15]: ../../../ui/learn/in-service/index.md
 [16]: ../../../request/learn/invoice/index.md
 

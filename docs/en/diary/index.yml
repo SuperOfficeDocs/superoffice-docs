@@ -96,7 +96,7 @@ conceptualContent:
           url: ../admin/user-preferences/reference/diary-view.md
         - text: List Follow-up type
           itemType: how-to-guide
-          url: ../admin/settings/lists/adding-items-to-follow-up-type-list.md
+          url: ../admin/lists/learn/adding-items-to-follow-up-type-list.md
 
     # Card
     - title: Automation
