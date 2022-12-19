@@ -13,7 +13,7 @@ language: en
 
 # Deactivate a sales guide
 
-[!include[Must be admin](../../../includes/req-admin.md)]
+[!include[Must be admin](../../../learn/includes/req-admin.md)]
 
 To remove a sales guide from a sale type, you can deactivate it. You do this by unchecking **This sale type is linked to a guide** for the sale type in question (see [Add items to the Sale - Sale type (for stages) list][1]).
 

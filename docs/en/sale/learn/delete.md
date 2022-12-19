@@ -18,7 +18,7 @@ You may find that you want to delete a sale, if it is no longer appropriate to s
 3. Select **Delete 'sale name'**.
 4. When you are asked if you really want to delete the sale, click **Yes**.
 
-[!include[Deleting items](../../includes/tip-deletion.md)]
+[!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
 <!-- Referenced links -->
 

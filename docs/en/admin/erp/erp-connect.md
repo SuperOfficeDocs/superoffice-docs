@@ -11,7 +11,7 @@ language: en
 
 # Connect to ERP
 
-[!include[Requirement](../../includes/req-integration-server.md)]
+[!include[Requirement](includes/req-integration-server.md)]
 
 You can connect a SuperOffice company to a customer/supplier in the ERP system. Contacts who are registered on the SuperOffice company can then be linked to individuals in the ERP system. Similarly, SuperOffice projects can be linked to projects in the ERP system. Data will then be synchronized between SuperOffice and the ERP system.
 

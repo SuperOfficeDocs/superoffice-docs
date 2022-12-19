@@ -31,7 +31,7 @@ Everywhere you can enter search criteria, you will find a criteria list containi
 
         If the field you are searching in is a text field (such as a name), the search is made on text or numbers you enter. A list with the following options is displayed:
 
-        [!include[Search criteria](../../includes/list-search-criteria.md)]
+        [!include[Search criteria](../../learn/includes/list-search-criteria.md)]
 
         Select one of these options and then enter the search criteria in the text field on the right.
 
@@ -47,7 +47,7 @@ Everywhere you can enter search criteria, you will find a criteria list containi
 
         If the field you are searching in is a date field, for example, the **Date** field in the **Document** dialog, a list box is displayed containing the following options:
 
-        [!include[Search criteria](../../includes/list-date-criteria.md)]
+        [!include[Search criteria](../../learn/includes/list-date-criteria.md)]
 
         Select the required option. Depending on what you select, the field at the far right of the line is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ![icon][img1].
 
@@ -57,7 +57,7 @@ Everywhere you can enter search criteria, you will find a criteria list containi
 
         If the field you are searching in contains a numerical value, for example, the **Amount** field in the **Sale** screen, a list box is displayed containing the following options:
 
-        [!include[Search criteria](../../includes/table-number-criteria.md)]
+        [!include[Search criteria](../../learn/includes/table-number-criteria.md)]
 
         Select the required option and enter the required numerical value in the text field on the right.
 
@@ -91,7 +91,7 @@ Everywhere you can enter search criteria, you will find a criteria list containi
 
         <details><summary>Click here to see some examples of statuses.</summary>
 
-        [!include[Examples](../../includes/status-examples.md)]
+        [!include[Examples](../../learn/includes/status-examples.md)]
         </details>
 
         Counter fields can be found under **Counters (SAINT)** in the list of criteria.

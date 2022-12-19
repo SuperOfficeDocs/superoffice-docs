@@ -13,7 +13,7 @@ language: en
 
 # Deactivate project guide
 
-[!include[Must be admin](../../../includes/req-admin.md)]
+[!include[Must be admin](../../../learn/includes/req-admin.md)]
 
 To remove a project guide from a project type, you can deactivate the project guide. You do this by unchecking **This project type is linked to a guide** for the project type in question (see [Add items to the Project - Type, status list][1]).
 

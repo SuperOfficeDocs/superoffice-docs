@@ -2,4 +2,4 @@
 > [!TIP]
 > You can [configure the columns][3] on the section tab to display just the information that interests you.
 
-[3]: ../learn/getting-started/changing-column-view.md
+[3]: ../getting-started/changing-column-view.md

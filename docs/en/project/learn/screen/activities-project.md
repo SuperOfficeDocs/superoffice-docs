@@ -27,7 +27,7 @@ The first column in the **Activities** section tab indicates the **Completed** s
 
 The second column contains icons that indicate the type of activity, for example, a clock for an appointment and a telephone for a call. These icons reflect the text in the **Type** column.
 
-[!include[Table showing icons for activities](../../../includes/table-activity-icons.md)]
+[!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
 ### Other
 

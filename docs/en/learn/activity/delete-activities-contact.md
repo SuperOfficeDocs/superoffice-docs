@@ -11,7 +11,7 @@ language: en
 
 # Delete activity in the Company screen
 
-[!include[Go to company](../../includes/goto-company.md)]
+[!include[Go to company](../includes/goto-company.md)]
 
 1. Select the **Activities** section tab.
 
@@ -21,7 +21,7 @@ language: en
 
 1. When asked if you really want to delete the activity, click **Yes**.
 
-[!include[Deleting items](../../includes/tip-deletion.md)]
+[!include[Deleting items](../includes/tip-deletion.md)]
 
 <!-- Referenced links -->
 

@@ -27,7 +27,7 @@ The email can also contain a link to a customer centre where the contact can man
 
 ## Send privacy confirmation email to contact
 
-[!include[Go to Contact screen](../../../includes/goto-contact.md)]
+[!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
 1. Click **Task** (![icon][img1]) > **Send privacy confirmation email**.
 

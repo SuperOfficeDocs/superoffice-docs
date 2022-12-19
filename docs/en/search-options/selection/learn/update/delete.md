@@ -19,7 +19,7 @@ language: en
 
 1. When you are asked if you really want to delete the selection, click **Yes**.
 
-[!include[Deleting items](../../../../includes/tip-deletion.md)]
+[!include[Deleting items](../../../../learn/includes/tip-deletion.md)]
 
 <!-- Referenced links -->
 

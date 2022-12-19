@@ -16,7 +16,7 @@ language: en
 
 ## Create email from the SuperOffice inbox
 
-[!include[How to compose an email](../../../includes/howto-compose-email.md)]
+[!include[How to compose an email](../../learn/includes/howto-compose-email.md)]
 
 ## Entering information in the New email dialog
 

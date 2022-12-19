@@ -17,7 +17,7 @@ If you have purchased a licence for SAINT ("SAles INTelligence"), you can specif
 
 <details><summary>Click here to see some examples of statuses.</summary>
 
-[!include[Examples](../../../includes/status-examples.md)]
+[!include[Examples](../../../learn/includes/status-examples.md)]
 </details>
 
 When you see a status image for a company, contact or a project, you have two options:

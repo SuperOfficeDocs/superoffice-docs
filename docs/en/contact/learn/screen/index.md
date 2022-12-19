@@ -29,7 +29,7 @@ The **Contact** screen contains the following section tabs with information link
 | [Projects][4] | Shows all the projects where the active contact is a project member. |
 | [Relations][5] | Displays any connections existing between the current contact and other contacts or companies. |
 
-[!include[Add more section tabs](../../../includes/more-tab.md)]
+[!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
 [1]: activities-tab.md

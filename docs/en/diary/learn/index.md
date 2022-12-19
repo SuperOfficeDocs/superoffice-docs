@@ -23,7 +23,7 @@ In SuperOffice CRM, follow-up is a collective term for the [appointment][1], [ta
 
 > [!NOTE]
 > It is important to understand the distinction between activities and follow-ups (appointments, tasks and phone calls).
-When you create follow-ups from the **Diary** screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the **Appointment** dialog. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
+When you create follow-ups from the **Diary** screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the [**Appointment** dialog][22].
 
 Follow-ups are closely linked to the **Diary** screen, and some functions apply especially to the Diary.
 
@@ -71,5 +71,6 @@ Follow-ups are closely linked to the **Diary** screen, and some functions apply 
 [19]: move-follow-up.md
 [20]: change-end-time.md
 [21]: copy-follow-up.md
+[22]: screen/dialog-for-followups.md
 
 <!-- Referenced images -->

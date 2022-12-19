@@ -11,7 +11,7 @@ language: en
 
 # System design screen
 
-[!include[Restricted access](../../../includes/note-insufficient-rights.md)]
+[!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
 Here you can find the advanced options in SuperOffice.
 

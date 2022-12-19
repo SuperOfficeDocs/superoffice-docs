@@ -14,7 +14,7 @@ language: en
 You can open and view exiting documents from the following locations:
 
 <!-- markdownlint-disable MD032 -->
-[!include[List of Activities section tabs](../../includes/list-activities-section-tabs.md)]
+[!include[List of Activities section tabs](../../learn/includes/list-activities-section-tabs.md)]
 * The **Documents** section tab in the **Selection** screen, if a document selection is active.
 * The search results in the **Document** tab in the **Find** screen.
 <!-- markdownlint-restore -->
@@ -30,7 +30,7 @@ The procedure depends on how documents are managed in your SuperOffice installat
 
 ## Add record as a favorite
 
-[!include[ALT](../../includes/howto-add-favorite.md)]
+[!include[ALT](../../learn/includes/howto-add-favorite.md)]
 
 <!-- Referenced links -->
 [1]: lock.md

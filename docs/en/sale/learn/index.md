@@ -27,7 +27,7 @@ In addition to the [**Sale** screen][2], sales can be displayed in the following
 
 ## Add a sale to favorites
 
-[!include[ALT](../../includes/howto-add-favorite.md)]
+[!include[ALT](../../learn/includes/howto-add-favorite.md)]
 
 ## Print info about a sale
 

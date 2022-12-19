@@ -16,7 +16,8 @@ language: en
 
 Follow the instructions below, depending on how documents are managed in your SuperOffice installation:
 
-[!include[Requirement](../../includes/req-licence-gen.md)]
+> [!NOTE]
+> This feature requires a license.
 
 ## How do I know if I am using SharePoint, SuperOffice WebTools or not?
 

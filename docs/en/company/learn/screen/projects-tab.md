@@ -19,9 +19,9 @@ Click **Add** to [create a new project][2]
 
 Double-click a project in the list to open the **Project** screen with information about the active project.
 
-[!include[Contents of the Projects tab](../../../includes/projects-tab.md)]
+[!include[Contents of the Projects tab](../../../learn/includes/projects-tab.md)]
 
-[!include[Conf. columns](../../../includes/tip-configure-columns.md)]
+[!include[Conf. columns](../../../learn/includes/tip-configure-columns.md)]
 
 ## Related topics
 

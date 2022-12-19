@@ -13,7 +13,7 @@ language: en
 
 Email messages that are saved as documents for a specific company are displayed on the **Activities** section tab for that company. To forward such an email:
 
-[!include[Go to company](../../includes/goto-company.md)]
+[!include[Go to company](../includes/goto-company.md)]
 
 1. Select the **Activities** section tab.
 

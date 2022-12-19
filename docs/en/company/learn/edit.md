@@ -11,7 +11,7 @@ language: en
 
 # Edit company info
 
-[!include[Go to company](../../includes/goto-company.md)]
+[!include[Go to company](../../learn/includes/goto-company.md)]
 
 1. Click **Edit**.
 

@@ -13,7 +13,7 @@ language: en
 
 # Edit a project guide
 
-[!include[Must be admin](../../../includes/req-admin.md)]
+[!include[Must be admin](../../../learn/includes/req-admin.md)]
 
 1. Click the **Workflow** button in the Navigator (![icon][img1]).
 2. Select the **Project guide** tab.

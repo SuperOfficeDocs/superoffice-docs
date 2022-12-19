@@ -11,7 +11,7 @@ language: en
 
 # Extra tables
 
-[!include[Requirement](../../../includes/req-expander-services.md)]
+[!include[Requirement](../../../learn/includes/req-expander-services.md)]
 
 The **Tables** screen displays the tables that are configured in the system. Using these tables, you can store data in the system exactly as you wish.
 

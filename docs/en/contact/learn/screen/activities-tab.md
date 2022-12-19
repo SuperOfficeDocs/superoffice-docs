@@ -15,9 +15,9 @@ The **Activities** section tab in the **Contact** screen contains all the activi
 
 If the contact is associated with a company, these activities will also be available in the **Activities** section tab in the **Company** screen.
 
-[!include[Intro to Activities](../../../includes/intro-activities.md)]
+[!include[Intro to Activities](../../../learn/includes/intro-activities.md)]
 
-[!include[Contents of Activities tab](../../../includes/activities-tab.md)]
+[!include[Contents of Activities tab](../../../learn/includes/activities-tab.md)]
 
 ## Filter activities
 

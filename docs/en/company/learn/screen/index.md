@@ -33,7 +33,7 @@ The **Company** screen contains the following section tabs:
 | [Requests][6] | Shows SuperOffice Service requests for the active company. |
 | [ERP][7] | Here you can link a SuperOffice company to a customer/supplier in the ERP system. |
 
-[!include[Add more section tabs](../../../includes/more-tab.md)]
+[!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
 [1]: contacts-tab.md

@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Change login rights for other users
 
-[!include[Requirement](../../includes/note-users-that-req-es.md)]
+[!include[Requirement](includes/note-users-that-req-es.md)]
 
 If an anonymous user or a system user is no longer to have the option of logging in to the system, you can remove their login rights. The external user will not be removed, but defined as inactive and can always be reactivated if required.
 

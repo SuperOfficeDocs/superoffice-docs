@@ -15,7 +15,7 @@ You can prepare an email from both the **Contact** screen and the **Company** sc
 
 ## Create email from Contact screen
 
-[!include[Go to Contact screen](../../includes/goto-contact.md)]
+[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
 
 1. Do one of the following:
     * Click the email address in the **Contact** tab. If the contact has more than one email address, you must select which one to use.
@@ -28,7 +28,7 @@ You can prepare an email from both the **Contact** screen and the **Company** sc
 
 ## Create email from Company screen
 
-1. [!include[Go to company](../../includes/goto-company.md)]
+1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
 1. Select the **Contacts** section tab.
 

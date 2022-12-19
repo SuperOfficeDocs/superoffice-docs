@@ -19,7 +19,7 @@ If you create new templates or change a standard template and saved it with a di
 
 Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
 
-[!include[Edit list item](../../../includes/edit-list-item.md)] when the items are document templates:
+[!include[Edit list item](includes/edit-list-item.md)] when the items are document templates:
 
 1. Enter the required name of the item in the **Name** field.
 2. If you wish, you can choose where to store the document template, in the **Store template in** list.
@@ -68,7 +68,7 @@ Enter the following information in the **Details** tab:
 
 7. Check the **Quote document type** option if the document should be available as a quote template or order confirmation template. You select the quote document type in the list below.
 
-    [!include[Link to quote template docs](../../../includes/learn-quote-templates.md)]
+    [!include[Link to quote template docs](includes/learn-quote-templates.md)]
 
 8. Specify the default setting for the **Our reference (default)** field using the template variables, for example *auth* for the sender’s first and last names (see [Template variables][2]).
 

@@ -13,7 +13,7 @@ language: en
 
 # Add sale amount class
 
-[!include[Must be admin](../../../includes/req-admin.md)]
+[!include[Must be admin](../../../learn/includes/req-admin.md)]
 
 [!include[Requirement](../../../sale/saint/learn/includes/note-saint-req-2.md)]
 
@@ -21,12 +21,12 @@ An amount class for a sale can be used to categorize sales into different classe
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
-[!include[Edit list item](../../../includes/edit-list-item.md)] when the list items are amount classes:
+[!include[Edit list item](includes/edit-list-item.md)] when the list items are amount classes:
 
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../../../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](includes/note-mandatory-field.md)]
 
 2. In the **Amount from** and **Amount to** fields, you can specify the range that will put the sale in this category. The amount must be entered in the currency your organization uses.
 
@@ -37,4 +37,4 @@ An amount class for a sale can be used to categorize sales into different classe
 
 4. Optionally, type in a description of the amount class in the **Description** field.
 
-5. [!include[Save or cancel](../../../includes/save-or-cancel.md)]
+5. [!include[Save or cancel](includes/save-or-cancel.md)]

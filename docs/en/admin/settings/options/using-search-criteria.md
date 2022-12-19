@@ -21,7 +21,7 @@ In the list box, select the field you want to search for information in. The fie
 
     If the field you are searching in is a text field, for example, a name field, the search is made on text or numbers you enter. The list that is displayed may contain the following options:
 
-    [!include[Search criteria](../../../includes/list-search-criteria.md)]
+    [!include[Search criteria](../../../learn/includes/list-search-criteria.md)]
 
     Select one of these options and then enter the search criteria in the appropriate text field.
 
@@ -37,7 +37,7 @@ In the list box, select the field you want to search for information in. The fie
 
     If the field you are searching in is a date field, a list box with the following options may be displayed:
 
-    [!include[Search criteria](../../../includes/list-date-criteria.md)]
+    [!include[Search criteria](../../../learn/includes/list-date-criteria.md)]
 
     Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ![icon][img3] to the right of the date field.
 
@@ -47,7 +47,7 @@ In the list box, select the field you want to search for information in. The fie
 
     If the field you are searching in contains numerical values, a list box with the following options is displayed:
 
-    [!include[Search criteria](../../../includes/table-number-criteria.md)]
+    [!include[Search criteria](../../../learn/includes/table-number-criteria.md)]
 
     Select the required option and enter the required numerical value in the text field.
 
@@ -67,7 +67,7 @@ In the list box, select the field you want to search for information in. The fie
 
     Under the list box are two panes. In the left pane are values you can select from, and in the right pane are values you are adding.
 
-    To add a value:
+    **To add a value:**
 
     Select the required value(s) in the pane on the left, and click the right arrow ( ![icon][img1] ). The selected value(s) are displayed under **Selected values** in the pane on the right.
 
@@ -75,11 +75,11 @@ In the list box, select the field you want to search for information in. The fie
 
     Select the required value(s) in the pane on the right, and click the left arrow ( ![icon][img2] ).
 
-    To add all values:
+    **To add all values:**
 
     Click **Select all** ( ![icon][img4] ) at the bottom of the left-hand pane, and then click the right arrow ( ![icon][img1] ). The values are displayed under **Selected values** in the pane on the right.
 
-    To remove all selected values:
+    **To remove all selected values:**
 
     Click **Select all** ( ![icon][img4] ) at the bottom of the right-hand pane, and then click the left arrow ( ![icon][img2] ). All the selected values are removed.
 
@@ -108,7 +108,7 @@ In the list box, select the field you want to search for information in. The fie
 
     <details><summary>Click here to see some examples of statuses.</summary>
 
-    [!include[Examples](../../../includes/status-examples.md)]
+    [!include[Examples](../../../learn/includes/status-examples.md)]
 
     </details>
 

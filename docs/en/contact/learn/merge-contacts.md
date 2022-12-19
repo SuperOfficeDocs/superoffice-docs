@@ -11,7 +11,7 @@ language: en
 
 # Merge contacts
 
-[!include[Requirement](../../includes/note-req-manage-entities.md)]
+[!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
 If a physical person is registered as two different contacts in SuperOffice CRM, you can merge these contacts together. For example, if the person was registered under two different names at the same company ("Jonathan Clark" and "Jonathon Clarke"), or if the person was registered at both their old and new employer.
 
@@ -32,10 +32,10 @@ Project membership and activities will be moved to the target contact, and the s
     * **Mark as former employee**: If you select this option, the source contact is marked as a former employee after the merge.
         For example, if a person has changed jobs, but you still want them registered under the old company.
 
-[!include[Select action](../../includes/select-action-on-activity.md)]
+[!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
 <!-- markdownlint-disable-next-line MD046 -->
-    [!include[Preview results](../../includes/note-preview-results.md)]
+    [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
 1. Click **Merge**. The contacts are merged, and project memberships and memberships of static selections are moved.
 

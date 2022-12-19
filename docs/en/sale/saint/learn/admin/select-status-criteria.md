@@ -17,7 +17,7 @@ A status is only active for companies, contacts or projects that fulfil all the 
 
 <details><summary>Click here to see some examples of criteria,</summary>
 
-[!include[Examples](../../../../includes/status-examples.md)]
+[!include[Examples](../../../../learn/includes/status-examples.md)]
 </details>
 
 [!include[Open SAINT](includes/open-saint-select-tab.md)]

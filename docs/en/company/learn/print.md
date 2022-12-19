@@ -11,7 +11,7 @@ language: en
 
 # Print information about a company
 
-[!include[Go to company](../../includes/goto-company.md)]
+[!include[Go to company](../../learn/includes/goto-company.md)]
 
 1. Click the **Task** button and select **Print**.
 

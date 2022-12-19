@@ -139,7 +139,7 @@ This tab displays any [user-defined fields][3] configured in SuperOffice Setting
 
 ## The www tab
 
-[!include[About the www tab](../../../includes/www-tab.md)]
+[!include[About the www tab](../../../learn/includes/www-tab.md)]
 
 <!-- Referenced links -->
 [1]: ../edit.md

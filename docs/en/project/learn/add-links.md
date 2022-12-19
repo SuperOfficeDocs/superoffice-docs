@@ -13,7 +13,7 @@ language: en
 
 You can add links to activities or websites that are relevant to the project. For example, if you are going to a meeting with a company you have previously communicated with, you can add links to documents and sales you have already created for this company.
 
-[!include[How to add links](../../includes/howto-add-links.md)]
+[!include[How to add links](../../learn/includes/howto-add-links.md)]
 
 ## Open links
 

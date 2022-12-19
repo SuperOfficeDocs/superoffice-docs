@@ -13,7 +13,7 @@ language: en
 
 1. [Open the required follow-up][1]. The **Appointment**, **Task** or **Phone Call** dialog appears.
 
-2. Make the required changes in the dialog. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
+2. [Make the required changes in the dialog.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]
 
@@ -29,5 +29,6 @@ language: en
 <!-- Referenced links -->
 [1]: open-follow-up.md
 [2]: change-completed-status.md
+[3]: screen/dialog-for-followups.md
 
 <!-- Referenced images -->

@@ -18,7 +18,7 @@ You can change the name or description of an item previously set up in Settings 
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](../../../includes/expand-list.md)] the required list.
+2. [!include[Click arrow and select](includes/expand-list.md)] the required list.
 
     All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list is empty.
 
@@ -29,11 +29,11 @@ You can change the name or description of an item previously set up in Settings 
 4. In the **Edit list item** dialog, type a new name for the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../../../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](includes/note-mandatory-field.md)]
 
 5. Edit the description of the item, as required, in the **Description** field.
 
-6. [!include[Save or cancel](../../../includes/save-or-cancel.md)]
+6. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
 [1]: deleting-items.md

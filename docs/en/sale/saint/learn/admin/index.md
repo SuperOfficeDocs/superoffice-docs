@@ -17,7 +17,7 @@ Using the **Status monitors/SAINT** tab, you can create statuses for companies, 
 
 <details><summary>Click here to see some examples of statuses.</summary>
 
-[!include[Examples](../../../../includes/status-examples.md)]
+[!include[Examples](../../../../learn/includes/status-examples.md)]
 </details>
 
 ## Status images

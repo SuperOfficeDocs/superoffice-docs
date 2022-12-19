@@ -28,7 +28,7 @@ There are three different types of selections in SuperOffice CRM:
 
 ## Add record as a favorite
 
-[!include[ALT](../../../includes/howto-add-favorite.md)]
+[!include[ALT](../../../learn/includes/howto-add-favorite.md)]
 
 ## Tasks
 

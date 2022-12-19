@@ -43,8 +43,8 @@ A quick reply is a pre-defined text that you can use in an email message. It is 
 5. Click **Save**. The window closes and the new quick reply is saved.
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/nav-history.png
-[img2]: ../../media/icons/binders.bmp
-[img3]: ../../media/icons/window-close.png
-[img4]: ../../../common/icons/copy-paste-icon.png
-[img5]: ../../../common/icons/edit-black.png
+[img1]: ../../../../../common/icons/nav-history.png
+[img2]: ../../../../media/icons/binders.bmp
+[img3]: ../../../../media/icons/window-close.png
+[img4]: ../../../../../common/icons/copy-paste-icon.png
+[img5]: ../../../../../common/icons/edit-black.png
