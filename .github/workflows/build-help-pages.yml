@@ -34,32 +34,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: ${{env.BRANCH_NAME}}
-      - name: Prepare for Build-Docs
-        run: |
-          cd..
-          ls -la
+          ref: ${{BRANCH_NAME}}
       - name: Clone BuildDocs
         env:
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          git clone "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
+          git clone -b ${{BRANCH_NAME}} "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
           ls -la
-      - name: Overwrite SuperOffice-Docs
-        shell: pwsh
-        run: |
-          $cd = Get-Location
-          Write-Output "Current dir: $cd"
-          
-          $source = ".\superoffice-docs"
-          $destination = ".\build-docs\superoffice-docs"
-          Copy-Item -Path $source -Destination $destination -Recurse -Force
-          cd .\build-docs
-
       - uses: nikeee/docfx-action@master
         name: Build Documentation
         with:
-          args: docfx-learn.json
+          args: ./build-docs/docfx-learn.json
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
