@@ -21,7 +21,7 @@ In the **Content** step you can edit the appearance and content of the message.
 
 * You can easily drag and drop content from the side-panel (menus, buttons, SoMe links, html content, and header and footer blocks).
 
-SuperOffice Marketing is supplied with many [ready-made message templates][2]), and you can easily move content around to get the appearance you want. Save frequently used content as blocks to save time.
+SuperOffice Marketing is supplied with many [ready-made message templates][9]), and you can easily move content around to get the appearance you want. Save frequently used content as blocks to save time.
 
 > [!TIP]
 > We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Mobile** (![icon][img4]) in the menu in the lower left corner. See also [Customize the message for display on mobile devices][3].
@@ -73,7 +73,7 @@ See also [Add content][1].
 
 ### Global menu
 
-From the global menu, you can preview, undo or repeat actions, and se how the message looks on desktop or mobile. This menu is always displayed at the bottom left in the content area (see [Edit message content – overview][2]).
+From the global menu, you can preview, undo or repeat actions, and se how the message looks on desktop or mobile. This menu is always displayed at the bottom left in the content area (see [Edit message content – overview][9]).
 
 | Icon | Name | Function |
 |:-:|---|---|
@@ -98,17 +98,17 @@ When you click a section in a message, you get access to various functions for t
 * [Add content][1]
 * [Edit content][5]
 * [Include links you want to track][8]
-* [Use merge tags in messages][9]
+* [Use merge tags in messages][7]
 * [Insert images in the message][6]
 
 <!-- Referenced links -->
 [1]: add-content.md
-[2]: ../../work-with-messages-and-templates.md
 [3]: customize-for-mobile.md
 [5]: edit-paragraph.md
 [6]: insert-images-in-message.md
-[8]: ../../tracked-links/add-tracked-link-to-msg.md
-[9]: add-merge-tag.md
+[7]: add-merge-tag.md
+[8]: ../../../tracked-links/learn/add-tracked-link-to-msg.md
+[9]: ../../work-with-messages-and-templates.md
 
 <!-- Referenced images -->
 [img1]: media/edit-template.png

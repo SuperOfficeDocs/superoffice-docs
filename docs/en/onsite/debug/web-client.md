@@ -77,7 +77,7 @@ Logging will create 2 files - one for incoming emails (communication with IMAP s
 <!-- Referenced links -->
 [1]: ../security/deployment-scenarios.md
 [2]: index.md
-[3]: ../../email/maillink/debug.md
+[3]: ../../email/mail-link/debug.md
 
 <!-- Referenced images -->
 [img1]: media/image0sx5s.png

@@ -45,5 +45,5 @@ We do, however, also have some online services configurable in the *web.config* 
 
 <!-- Referenced links -->
 [1]: ../../api/config/diagnostics.md
-[8]: ../../email/maillink/debug.md
+[8]: ../../email/mail-link/debug.md
 [9]: ../../document/ribbons/enable-debug.md

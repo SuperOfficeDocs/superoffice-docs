@@ -195,7 +195,7 @@ In this example we will show you how to create short form for customers who want
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../learn/mailing/create/tutorial-form-mailing.yml
+[2]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [3]: submissions/index.md
 [4]: submissions/track.md
 [5]: submissions/process.md

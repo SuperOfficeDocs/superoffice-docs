@@ -1,0 +1,15 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Create tracked link
+    href: create-links.md
+  - name: Define link actions
+    href: define-link-actions.md
+  - name: Add tracked link to message
+    href: add-tracked-link-to-msg.md
+  - name: Examples of use
+    href: examples.md
+  - name: Explore clicks after sending
+    href: explore-clicks.md
+  - name: Reset counters
+    href: reset-counter.md

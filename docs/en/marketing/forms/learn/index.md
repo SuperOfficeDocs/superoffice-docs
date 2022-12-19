@@ -32,7 +32,7 @@ Creating a form follows roughly this workflow:
 <!-- Referenced links -->
 [1]: examples.md
 [2]: create.md
-[3]: ../../learn/mailing/create/tutorial-form-mailing.yml
+[3]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [4]: publish.md
 [5]: submissions/track.md
 [6]: submissions/process.md

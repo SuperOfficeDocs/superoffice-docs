@@ -36,7 +36,7 @@ Here you can view and process all submitted forms. A red icon on the tab indicat
 Use the filter options at the bottom of the list to [view only submissions with specific statuses][3].
 
 <!-- Referenced links -->
-[2]: ../../../learn/mailing/follow-up/view-statistics.md
+[2]: ../../../mailing/learn/follow-up/view-statistics.md
 [3]: process.md
 
 <!-- Referenced images -->

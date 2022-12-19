@@ -180,7 +180,7 @@ additionalContent:
       - title: More
         links:
         - text: Service and Marketing mail
-          url: ../email/service.md
+          url: ../email/service/index.md
         - text: Service log files
           url: log-files.md
   # footer (optional)

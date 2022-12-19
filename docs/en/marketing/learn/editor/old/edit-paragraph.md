@@ -48,9 +48,9 @@ language: en
 [1]: http://docs.cksource.com/CKEditor-3.x/Users-Guide/Quick-Reference
 [2]: insert-image.md
 [3]: add-template-variable.md
-[4]: ../../tracked-links/add-tracked-link-to-msg.md
-[5]: ../../mailing/create/add-unsubscribe-link.md
 [6]: add-link-to-display-message-in-browser.md
+[4]: ../../../tracked-links/learn/add-tracked-link-to-msg.md
+[5]: ../../../mailing/learn/create/add-unsubscribe-link.md
 
 <!-- Referenced images -->
 [img1]: media/editor-menu-para.jpg

@@ -15,7 +15,7 @@ language: en
 
 2. Optional: Select a folder or create a new one.
 
-    [How do I create a mailing folder][19]
+    [How do I create a mailing folder][2]
 
 3. Click the ![icon][img1] **Add** button. This takes you to the **Image properties** screen.
 
@@ -38,7 +38,7 @@ language: en
 
 <!-- Referenced links -->
 [1]: editor/drag-and-drop/insert-images-in-message.md
-[19]: create-folder.md
+[2]: create-folder.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png

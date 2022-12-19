@@ -1,0 +1,29 @@
+items:
+- name: Overview
+  href: index.md
+- name: Create new mailing
+  href: create/index.md
+  items:
+  - name: New mailing - email
+    href: create/tutorial-email-mailing.yml
+  - name: New mailing - SMS
+    href: create/tutorial-sms-mailing.yml
+  - name: New mailing - document
+    href: create/tutorial-document-mailing.yml
+  - name: New mailing - form response
+    href: create/tutorial-form-mailing.yml
+  - name: Add an unsubscribe link (GDPR)
+    href: create/add-unsubscribe-link.md
+  - name: Send a test email
+    href: create/send-test-email.md
+- name: Follow up mailings
+  href: follow-up/index.md
+  items:
+  - name: View statistics
+    href: follow-up/view-statistics.md
+  - name: Look at recipient list
+    href: follow-up/look-at-recipient-list.md
+  - name: Manage bounces
+    href: follow-up/manage-bounces.md
+- name: Define settings for mailings
+  href: admin/define-settings-for-mailings.md

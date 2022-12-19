@@ -104,7 +104,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [5]: ../../../sale/learn/index.md
 [6]: ../../../project/learn/index.md
 [7]: ../../../search-options/selection/learn/index.md
-[8]: ../../../email/learn/inbox/index.md
+[8]: ../../../email/inbox/learn/index.md
 [9]: ../../../chat/learn/index.md
 [10]: ../../../reports/learn/index.md
 [11]: ../../../marketing/learn/index.md

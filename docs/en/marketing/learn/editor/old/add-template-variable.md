@@ -33,7 +33,7 @@ language: en
 > Before you send out a mailing, you should [test that the customer data is correctly inserted in the message][1].
 
 <!-- Referenced links -->
-[1]: ../../mailing/create/send-test-email.md
+[1]: ../../../mailing/learn/create/send-test-email.md
 [2]: ../../../../document/templates/variables/index.md
 
 <!-- Referenced images -->

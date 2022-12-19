@@ -41,7 +41,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [4]: ../../../request/learn/category/index.md
 [5]: ../../../request/learn/priority/index.md
 [6]: ../../../request/learn/status/index.md
-[7]: ../../../email/learn/service/index.md
+[7]: ../../../email/service/learn/index.md
 [8]: ../../../request/learn/screen/system-templates.md
 [9]: system.md
 [10]: ../options/custlang/index.md

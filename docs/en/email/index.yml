@@ -30,15 +30,15 @@ highlightedContent:
     # Card
     - title: "MailLink"
       itemType: overview
-      url: maillink/index.md
+      url: mail-link/index.md
     # Card
     - title: "SuperOffice Inbox"
       itemType: overview
-      url: inbox.md
+      url: inbox/index.md
     # Card
     - title: "Email in Service and Marketing"
       itemType: overview
-      url: service.md
+      url: service/index.md
     # Card
     - title: "Email table"
       itemType: reference
@@ -74,27 +74,27 @@ additionalContent:
       # Card
       - title: MailLink
         links:
-          - url: maillink/index.md
+          - url: mail-link/index.md
             text: What is MailLink?
-          - url: maillink/debug.md
+          - url: mail-link/debug.md
             text: Debug
       # Card
       - title: SuperOffice Inbox
         links:
-          - url: inbox.md
+          - url: inbox/index.md
             text: What is SuperOffice Inbox?
-          - url: inbox.md#how-to-enable-mailkit
+          - url: inbox/index.md#how-to-enable-mailkit
             text: How to enable MailKit
-          - url: inbox.md#how-to-troubleshoot-mailkit
+          - url: inbox/index.md#how-to-troubleshoot-mailkit
             text: How to troubleshoot MailKit
       # Card
       - title: Service and Marketing mail
         links:
-          - url: service.md
+          - url: service/index.md
             text: What is cURL mail?
-          - url: service.md#how-to-enable-curl
+          - url: service/index.md#how-to-enable-curl
             text: How to enable cURL
-          - url: service.md#how-to-troubleshoot-mail-when-using-curl
+          - url: service/index.md#how-to-troubleshoot-mail-when-using-curl
             text: How to troubleshoot mail when using cURL
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

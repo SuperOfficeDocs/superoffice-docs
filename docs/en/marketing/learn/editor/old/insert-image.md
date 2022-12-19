@@ -51,7 +51,7 @@ You insert an image in a message like this:
 14. Check that the image is correctly displayed and adjust as necessary.
 
 <!-- Referenced links -->
-[1]: ../../tracked-links/create-links.md
+[1]: ../../../tracked-links/learn/create-links.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-add.png
