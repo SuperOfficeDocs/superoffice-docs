@@ -64,9 +64,9 @@ jobs:
         run: |
           $content = Get-ChildItem "./content-repo" 
           Write-Host "$($content)"
-          $source = "$GITHUB_WORKSPACE/content-repo"
-          $destination = "$GITHUB_WORKSPACE/build-docs/superoffice-docs"
-          Write-Host Copying '$($source)' into '$($destination)'
+          $source = "./content-repo"
+          $destination = "$./build-docs/superoffice-docs"
+          Write-Host "Copying $source into $destination"
           Copy-Item -Path $source -Destination $destination -Recurse -Force
           
 
