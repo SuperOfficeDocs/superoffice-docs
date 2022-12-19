@@ -3,6 +3,7 @@ name: Deploy static content to Pages
 
 env: 
   BRANCH_NAME: '565-en-folders-and-user-guide'
+  BUILD_DOCS_BRANCH: 'prefix-dest-with-en'
 
 on:
   # Runs on pushes targeting the default branch
@@ -39,7 +40,7 @@ jobs:
         env:
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          git clone -b ${{BRANCH_NAME}} "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
+          git clone -b ${{BUILD_DOCS_BRANCH}} "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
           ls -la
       - uses: nikeee/docfx-action@master
         name: Build Documentation
