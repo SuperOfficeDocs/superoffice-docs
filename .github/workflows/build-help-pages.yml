@@ -35,12 +35,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: "${{BRANCH_NAME}}"
+          ref: "${{env.BRANCH_NAME}}"
       - name: Clone BuildDocs
         env:
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          git clone -b "${{BUILD_DOCS_BRANCH}}" "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
+          git clone -b "${{env.BUILD_DOCS_BRANCH}}" "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
           ls -la
       - uses: nikeee/docfx-action@master
         name: Build Documentation
