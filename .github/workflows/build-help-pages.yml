@@ -40,5 +40,6 @@ jobs:
       - name: Inspect directory
         shell: pwsh
         run: |
-          Write-Host $(Get-ChildItem)
+          $content = Get-ChildItem
+          Write-Host "$($content)"
 
