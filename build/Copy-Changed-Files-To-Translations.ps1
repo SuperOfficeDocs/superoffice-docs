@@ -44,6 +44,7 @@ foreach ($lang in $langs)
   Write-Output "Copying en to $lang"
   $targetFolderName = "docs/$lang/"
   $targetLanguage = "language: $lang"
+  $targetUid = "uid: help-$lang"
   foreach ($itemToCopy in $changes)
   {
     $targetPathAndFile =  $itemToCopy.Replace( $sourceFolderName , $targetFolderName )
@@ -66,6 +67,7 @@ foreach ($lang in $langs)
         $content = Get-Content -path $targetPathAndFile -raw # get as single string
         # (?m) = regex mode select multiline line matching
         $newcontent = $content -replace "(?ms)^language: *en *", $targetLanguage
+        $newcontent = $content -replace "(?ms)^uid: help-en", $targetUid
         Set-Content  -path $targetPathAndFile $newcontent
       }
     }
