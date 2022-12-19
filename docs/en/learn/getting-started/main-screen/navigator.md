@@ -123,7 +123,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [24]: ../../../ui/learn/screen-designer/index.md
 [25]: ../../../admin/settings/preferences/index.md
 [26]: ../../../admin/settings/options/index.md
-[27]: ../../../admin/import/index.md
+[27]: ../../../admin/import/learn/index.md
 [28]: ../../../custom-objects/learn/udef/index.md
 
 [41]: ../../../automation/crmscript/learn/index.md

@@ -149,7 +149,7 @@ items:
     - name: User management
       href: ../admin/user-management/toc.yml
     - name: Import
-      href: ../admin/import/toc.yml
+      href: ../admin/import/learn/toc.yml
     - name: AI
       href: ../ai/learn/toc.yml
     - name: ERP

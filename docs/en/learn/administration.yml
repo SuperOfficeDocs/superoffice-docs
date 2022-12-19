@@ -54,17 +54,17 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Configure import settings
-          url: ../admin/import/configure-import-settings.md
+          url: ../admin/import/learn/configure-import-settings.md
         - text: Import from Excel
-          url: ../admin/import/import-from-excel.md
+          url: ../admin/import/learn/import-from-excel.md
         - text: Import products from Excel
-          url: ../admin/import/import-products-from-excel.md
+          url: ../admin/import/learn/import-products-from-excel.md
         - text: Import from Gmail
-          url: ../admin/import/import-from-gmail.md
+          url: ../admin/import/learn/import-from-gmail.md
         - text: Import from Outlook
-          url: ../admin/import/import-from-outlook.md
+          url: ../admin/import/learn/import-from-outlook.md
         - text: Import from ERP
-          url: ../admin/import/import-from-erp.md
+          url: ../admin/import/learn/import-from-erp.md
 
   # Card
   - title: AI

@@ -163,6 +163,6 @@ The import source may, for example, contain product categories that are not regi
 * **Ignore - set to blank**: No new values will be added to SuperOffice.
 
 <!-- Referenced links -->
-[1]: ../../security/privacy/learn/privacy.md
+[1]: ../../../security/privacy/learn/privacy.md
 
 <!-- Referenced images -->
