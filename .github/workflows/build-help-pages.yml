@@ -41,7 +41,7 @@ jobs:
       - uses: nikeee/docfx-action@master
         name: Build Documentation
         with:
-          args: docfx-learn.json
+          args: ./build-docs/docfx-learn.json
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
