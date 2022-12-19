@@ -69,7 +69,7 @@ Choose among millions of images from the royalty-free online image library.
 
 <!-- Referenced links -->
 [1]: ../../add-images.md
-[2]: ../../tracked-links/add-tracked-link-to-msg.md
+[2]: ../../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/marketing-and-forms/side-panel-content-small.png

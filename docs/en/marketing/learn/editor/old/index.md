@@ -105,15 +105,15 @@ In the paragraph menu, you can edit the properties of this paragraph. This menu 
 
 * [Edit a paragraph][3]
 * [Include links you want to track][5]
-* [Use template variables in messages][6]
+* [Use template variables in messages][2]
 * [Insert images in the message][4]
 
 <!-- Referenced links -->
 [1]: customize-for-mobile.md
+[2]: add-template-variable.md
 [3]: edit-paragraph.md
 [4]: insert-image.md
-[5]: ../../tracked-links/add-tracked-link-to-msg.md
-[6]: add-template-variable.md
+[5]: ../../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
 [img1]: media/template-edit-overview-old.png

@@ -29,7 +29,7 @@ language: en
 
 4. Click **Merge tags** (same as template variables) to [insert merge tags in the message][2].
 
-5. [Add tracked links to the message][3]. For example, you can add a link to an information page for a product. You can create a new link or add an existing link.
+5. [Add tracked links to the message][8]. For example, you can add a link to an information page for a product. You can create a new link or add an existing link.
 
     To add a regular link (untracked): Select a text and click ![icon][img6] in the toolbar. Enter the link in the **URL** field.
 
@@ -67,18 +67,18 @@ Click **Next** if you are done editing.
 
 * [Add content][5]
 * [Use merge tags in messages][2]
-* [Include links you want to track][3]
+* [Include links you want to track][8]
 * [Add subscription links][7]
-* [Add a link to display the message in a browser][8]
+* [Add a link to display the message in a browser][3]
 
 <!-- Referenced links -->
 [1]: customize-for-mobile.md
 [2]: add-merge-tag.md
-[3]: ../../tracked-links/add-tracked-link-to-msg.md
+[3]: add-link-to-display-message-in-browser.md
 [4]: insert-images-in-message.md
 [5]: add-content.md
-[7]: ../../mailing/create/add-unsubscribe-link.md
-[8]: add-link-to-display-message-in-browser.md
+[7]: ../../../mailing/learn/create/add-unsubscribe-link.md
+[8]: ../../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
 [img1]: media/edit-section.png

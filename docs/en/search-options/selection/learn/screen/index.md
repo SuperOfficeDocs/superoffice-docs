@@ -82,7 +82,7 @@ Double-click a mailing to open it.
 [5]: ../howto/display-as-charts.md
 [3]: ../../../learn/using-search-criteria.md
 [6]: ../../../../dashboard/learn/create.md
-[7]: ../../../../marketing/learn/mailing/create/index.md
+[7]: ../../../../marketing/mailing/learn/create/index.md
 [8]: ../../../../learn/getting-started/use-filters-in-section-tabs.md
 [9]: ../../../../learn/getting-started/section-tabs.md
 [4]: ../../../../learn/getting-started/index.md

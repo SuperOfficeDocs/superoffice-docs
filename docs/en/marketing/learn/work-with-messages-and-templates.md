@@ -92,7 +92,7 @@ In addition to the templates created by your and your colleagues, you have acces
 4. Click **OK**. The message template is added.
 
 <!-- Referenced links -->
-[1]: mailing/create/index.md
+[1]: ../mailing/learn/create/index.md
 [2]: editor/drag-and-drop/edit-paragraph.md
 [3]: editor/drag-and-drop/add-merge-tag.md
 
