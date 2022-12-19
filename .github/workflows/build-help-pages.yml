@@ -1,10 +1,13 @@
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
+env: 
+  BRANCH_NAME: '565-en-folders-and-user-guide'
+
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["565-en-folders-and-user-guide"]
+    branches: ["${{env.BRANCH_NAME}}"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -28,20 +31,27 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          ref: 565-en-folders-and-user-guide
+      # - name: Checkout
+      #   uses: actions/checkout@v3
+      #   with:
+      #     ref: ${{env.BRANCH_NAME}}
       - name: Clone BuildDocs
         env:
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git clone "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
           ls -la
+          cd build-docs
+          git submodule update --init
+          cd superoffice-docs
+          git pull origin ${{env.BRANCH_NAME}}
+          git checkout ${{env.BRANCH_NAME}}
+          cd..
+          echo 'working dir: $(pwd)'
       - uses: nikeee/docfx-action@master
         name: Build Documentation
         with:
-          args: ./build-docs/docfx-learn.json
+          args: docfx-learn.json
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
