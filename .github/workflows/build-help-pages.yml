@@ -66,6 +66,9 @@ jobs:
           $destination = "./build-docs/superoffice-docs"
           Write-Host "Copying $source into $destination"
           Copy-Item -Path $source -Destination $destination -Recurse -Force
+          cd ./build-docs
+          $cd = Get-Location
+          Write-Output "Current dir $cd"
 
       - uses: nikeee/docfx-action@master
         name: Build Documentation
