@@ -179,7 +179,7 @@
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "fileMetadata": 
+    "fileMetadata":
       {
         "_noindex":
         {
@@ -190,8 +190,7 @@
       },
     "template": [
       "default",
-      "./templates/superoffice",
-      "../templates/superoffice"
+      "./build-docs/templates/superoffice"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
