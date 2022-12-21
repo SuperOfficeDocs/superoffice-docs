@@ -19,7 +19,7 @@ language: en
 
     If the dashboard is pinned to other users or user groups, they will no longer have access to it.
 
-## <a id="service" \>Delete dashboard in Service
+## <a id="service" />Delete dashboard in Service
 
 1. Open the **Dashboard** screen.
 
