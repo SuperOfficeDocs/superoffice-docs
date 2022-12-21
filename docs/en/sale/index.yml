@@ -1,0 +1,190 @@
+### YamlMime:Category
+
+title: Sale
+summary: Welcome to the Sale area where you can find relevant links to all things related to sales, sales guide, and sales intelligence (SAINT).
+brand: devdocs
+
+metadata:
+  title: Sale
+  description: Sale, sales guide, and sales intelligence (SAINT)
+  so.product: superoffice
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 04.26.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: User guide
+      itemType: reference
+      url: learn/index.md
+    # Card
+    - title: Template variables
+      itemType: reference
+      url: ../document/templates/variables/for-sales.md
+    # Card
+    - title: Sale table
+      itemType: reference
+      url: ../database/tables/sale.md
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+  # Card
+    - title: Learn the essentials
+      summary: ""
+      links:
+      - text: Register sales
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/sales/get-started-with-sales/register-sales/
+      - text: Sales guide
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/sales/get-started-with-sales/sales-guide/
+      - text: Pipeline management
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/sales/pipeline-forecasting/
+      - text: Forecast and selections
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/sales/pipeline-forecasting/forecasting-with-selections/
+      - text: Document templates
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/documents/create-upload-document/
+      - text: Create quotes
+        itemType: learn
+        url: https://community.superoffice.com/en/learning/user-guide/sales/quote/create-quotes/
+
+    # Card
+    - title: Videos
+      summary: ""
+      links:
+      - text: How to visualize sales process
+        itemType: video
+        url: https://www.youtube.com/watch?v=KB3WWZjXlYc
+      - text: Track sales quotes
+        itemType: video
+        url: https://www.youtube.com/watch?v=lzJ6AsAhyE4
+      - text: Sales guide product demo
+        itemType: video
+        url: https://www.youtube.com/watch?v=rOjUHDgYPGk
+
+    # Card
+    - title: Configuration options
+      summary: ""
+      links:
+        - text: User preferences
+          itemType: reference
+          url: ../admin/user-preferences/index.md
+        - text: Lists - Sale stage
+          itemType: how-to-guide
+          url: ../admin/lists/learn/sale-stage.md
+        - text: Lists - Sale type, stages, quote
+          itemType: how-to-guide
+          url: ../admin/lists/learn/sale-type.md
+        - text: Lists - sale amount
+          itemType: how-to-guide
+          url: ../admin/lists/learn/sale-amount-class.md
+
+    # Card
+    - title: UI options
+      summary: ""
+      links:
+      - text: Web panels
+        itemType: overview
+        url: ../ui/web-panels/index.md
+      - text: SoProtocol
+        itemType: concept
+        url: ../ui/soprotocol/index.md
+
+    # Card
+    - title: Data options
+      summary: ""
+      links:
+      - text: Custom fields
+        itemType: overview
+        url: ../custom-objects/overview.md
+      - text: How to add user-defined fields
+        itemType: video
+        url: https://www.youtube.com/watch?v=SpeZVxpxeMM
+
+    # Card
+    - title: Actions options
+      summary: ""
+      links:
+      - text: Overview
+        itemType: overview
+        url: ../automation/index.yml
+      - text: Triggers
+        itemType: concept
+        url: ../automation/trigger/index.md
+      - text: Webhooks - sale events
+        itemType: reference
+        url: ../automation/webhook/reference/sale-events.md
+      - text: Webhooks - sale stakeholder events
+        itemType: reference
+        url: ../automation/webhook/reference/sale-stakeholder-events.md
+      - text: Webhooks - quote events
+        itemType: reference
+        url: ../automation/webhook/reference/quote-events.md
+      - text: Zapier
+        itemType: reference
+        url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+
+    # Card
+    - title: API options
+      summary: ""
+      links:
+      - text: CRMScript
+        itemType: concept
+        url: howto/crmscript/index.md
+      - text: NetServer (SAINT)
+        itemType: overview
+        url: saint/index.md
+
+    # Card
+    - title: Database options
+      summary: ""
+      links:
+      - text: Sale table
+        itemType: reference
+        url: ../database/tables/sale.md
+      - text: Saletype table
+        itemType: reference
+        url: ../database/tables/saletype.md
+      - text: Salehist table
+        itemType: reference
+        url: ../database/tables/salehist.md
+      - text: Salestakeholder table
+        itemType: reference
+        url: ../database/tables/salestakeholder.md
+      - text: Reason table
+        itemType: reference
+        url: ../database/tables/reason.md
+      - text: Currency table
+        itemType: reference
+        url: ../database/tables/currency.md
+      - text: Associate table
+        itemType: reference
+        url: ../database/tables/associate.md
+      - text: Appointment table
+        itemType: reference
+        url: ../database/tables/appointment.md
+      - text: Project table
+        itemType: reference
+        url: ../database/tables/project.md
+      - text: Quote table
+        itemType: reference
+        url: ../database/tables/quote.md
+      - text: UdsaleSmall table
+        itemType: reference
+        url: ../database/tables/udsalesmall.md
+      - text: UdsaleLarge table
+        itemType: reference
+        url: ../database/tables/udsalelarge.md

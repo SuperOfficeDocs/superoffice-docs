@@ -1,0 +1,13 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Add participants to follow-up
+    href: add-participant.md
+  - name: Show follow-ups you are invited to
+    href: follow-ups-you-are-invited-to.md
+  - name: Receiving invitations
+    href: receive.md
+  - name: Edit or delete invitation
+    href: update.md
+  - name: Handle response to invitations
+    href: response.md

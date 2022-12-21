@@ -16,104 +16,104 @@ so.version: 7.5
 
 | Table no | 7.1 | 7.5 |
 |---|---|---|
-| 25 | `obsolete_1` | [SORPublishGroupLink](../../docs/database/tables/sorpublishgrouplink.md) |
-| 26 | `obsolete_2` | [QuoteConnection](../../docs/database/tables/quoteconnection.md) |
-| 27 | `obsolete_3` | [QuoteConnectionAccess](../../docs/database/tables/quoteconnectionaccess.md) |
-| 34 | `obsolete_4` | [Quote](../../docs/database/tables/quote.md) |
-| 39 | `obsolete_9` | [QuoteVersion](../../docs/database/tables/quoteversion.md) |
-| 47 | `obsolete_5` | [QuoteAlternative](../../docs/database/tables/quotealternative.md) |
-| 127 | `obsolete_6` | [QuoteLine](../../docs/database/tables/quoteline.md) |
-| 128 | `obsolete_7` | [PriceList](../../docs/database/tables/pricelist.md) |
-| 129 | `obsolete_8` | [Product](../../docs/database/tables/product.md) |
+| 25 | `obsolete_1` | [SORPublishGroupLink](../../docs/en/database/tables/sorpublishgrouplink.md) |
+| 26 | `obsolete_2` | [QuoteConnection](../../docs/en/database/tables/quoteconnection.md) |
+| 27 | `obsolete_3` | [QuoteConnectionAccess](../../docs/en/database/tables/quoteconnectionaccess.md) |
+| 34 | `obsolete_4` | [Quote](../../docs/en/database/tables/quote.md) |
+| 39 | `obsolete_9` | [QuoteVersion](../../docs/en/database/tables/quoteversion.md) |
+| 47 | `obsolete_5` | [QuoteAlternative](../../docs/en/database/tables/quotealternative.md) |
+| 127 | `obsolete_6` | [QuoteLine](../../docs/en/database/tables/quoteline.md) |
+| 128 | `obsolete_7` | [PriceList](../../docs/en/database/tables/pricelist.md) |
+| 129 | `obsolete_8` | [Product](../../docs/en/database/tables/product.md) |
 
 ## New tables
 
 | Table no | Name |
 |---|---|
-| 408 | [ProductCategory](../../docs/database/tables/productcategory.md) |
-| 409 | [ProductCategoryGroupLink](../../docs/database/tables/productcategorygrouplink.md) |
-| 410 | [ProductCategoryHeadingLink](../../docs/database/tables/productcategoryheadinglink.md) |
-| 411 | [ProductFamily](../../docs/database/tables/productfamily.md) |
-| 412 | [ProductFamilyGroupLink](../../docs/database/tables/productfamilygrouplink.md) |
-| 413 | [ProductFamilyHeadingLink](../../docs/database/tables/productfamilyheadinglink.md) |
-| 414 | [ProductType](../../docs/database/tables/producttype.md) |
-| 415 | [ProductTypeGroupLink](../../docs/database/tables/producttypegrouplink.md) |
-| 416 | [ProductTypeHeadingLink](../../docs/database/tables/producttypeheadinglink.md) |
-| 417 | [ErpConnector](../../docs/database/tables/erpconnector.md) |
-| 418 | [ErpConnection](../../docs/database/tables/erpconnection.md) |
-| 419 | [ErpConnectionActorType](../../docs/database/tables/erpconnectionactortype.md) |
-| 420 | [ErpConnectionAccess](../../docs/database/tables/erpconnectionaccess.md) |
-| 421 | [ConnectionConfigField](../../docs/database/tables/connectionconfigfield.md) |
-| 422 | [ErpInternalKey](../../docs/database/tables/erpinternalkey.md) |
-| 423 | [ErpExternalKey](../../docs/database/tables/erpexternalkey.md) |
-| 424 | [ErpListItemMapping](../../docs/database/tables/erplistitemmapping.md) |
-| 425 | [ErpField](../../docs/database/tables/erpfield.md) |
-| 426 | [ErpSyncLog](../../docs/database/tables/erpsynclog.md) |
-| 427 | [PaymentTerms](../../docs/database/tables/paymentterms.md) |
-| 428 | [PaymentTermsGroupLink](../../docs/database/tables/paymenttermsgrouplink.md) |
-| 429 | [PaymentTermsHeadingLink](../../docs/database/tables/paymenttermsheadinglink.md) |
-| 430 | [PaymentType](../../docs/database/tables/paymenttype.md) |
-| 431 | [PaymentTypeGroupLink](../../docs/database/tables/paymenttypegrouplink.md) |
-| 432 | [PaymentTypeHeadingLink](../../docs/database/tables/paymenttypeheadinglink.md) |
-| 433 | [DeliveryTerms](../../docs/database/tables/deliveryterms.md) |
-| 434 | [DeliveryTermsGroupLink](../../docs/database/tables/deliverytermsgrouplink.md) |
-| 435 | [DeliveryTermsHeadingLink](../../docs/database/tables/deliverytermsheadinglink.md) |
-| 436 | [DeliveryType](../../docs/database/tables/deliverytype.md) |
-| 437 | [DeliveryTypeGroupLink](../../docs/database/tables/deliverytypegrouplink.md) |
-| 438 | [DeliveryTypeHeadingLink](../../docs/database/tables/deliverytypeheadinglink.md) |
-| 439 | [PriceUnit](../../docs/database/tables/priceunit.md) |
-| 440 | [PriceUnitGroupLink](../../docs/database/tables/priceunitgrouplink.md) |
-| 441 | [PriceUnitHeadingLink](../../docs/database/tables/priceunitheadinglink.md) |
-| 442 | [SubscriptionUnit](../../docs/database/tables/subscriptionunit.md) |
-| 443 | [SubscriptionUnitGroupLink](../../docs/database/tables/subscriptionunitgrouplink.md) |
-| 444 | [SubscriptionUnitHeadingLink](../../docs/database/tables/subscriptionunitheadinglink.md) |
-| 445 | [QuoteLineConfiguration](../../docs/database/tables/quotelineconfiguration.md) |
-| 446 | [SaleTypeQuoteAttachment](../../docs/database/tables/saletypequoteattachment.md) |
-| 447 | [QuoteVersionAttachment](../../docs/database/tables/quoteversionattachment.md) |
-| 448 | [ResourceOverride](../../docs/database/tables/resourceoverride.md) |
-| 449 | [ErpConfiguration](../../docs/database/tables/erpconfiguration.md) |
-| 450 | [EjCategoryGroupLink](../../docs/database/tables/ejcategorygrouplink.md) |
+| 408 | [ProductCategory](../../docs/en/database/tables/productcategory.md) |
+| 409 | [ProductCategoryGroupLink](../../docs/en/database/tables/productcategorygrouplink.md) |
+| 410 | [ProductCategoryHeadingLink](../../docs/en/database/tables/productcategoryheadinglink.md) |
+| 411 | [ProductFamily](../../docs/en/database/tables/productfamily.md) |
+| 412 | [ProductFamilyGroupLink](../../docs/en/database/tables/productfamilygrouplink.md) |
+| 413 | [ProductFamilyHeadingLink](../../docs/en/database/tables/productfamilyheadinglink.md) |
+| 414 | [ProductType](../../docs/en/database/tables/producttype.md) |
+| 415 | [ProductTypeGroupLink](../../docs/en/database/tables/producttypegrouplink.md) |
+| 416 | [ProductTypeHeadingLink](../../docs/en/database/tables/producttypeheadinglink.md) |
+| 417 | [ErpConnector](../../docs/en/database/tables/erpconnector.md) |
+| 418 | [ErpConnection](../../docs/en/database/tables/erpconnection.md) |
+| 419 | [ErpConnectionActorType](../../docs/en/database/tables/erpconnectionactortype.md) |
+| 420 | [ErpConnectionAccess](../../docs/en/database/tables/erpconnectionaccess.md) |
+| 421 | [ConnectionConfigField](../../docs/en/database/tables/connectionconfigfield.md) |
+| 422 | [ErpInternalKey](../../docs/en/database/tables/erpinternalkey.md) |
+| 423 | [ErpExternalKey](../../docs/en/database/tables/erpexternalkey.md) |
+| 424 | [ErpListItemMapping](../../docs/en/database/tables/erplistitemmapping.md) |
+| 425 | [ErpField](../../docs/en/database/tables/erpfield.md) |
+| 426 | [ErpSyncLog](../../docs/en/database/tables/erpsynclog.md) |
+| 427 | [PaymentTerms](../../docs/en/database/tables/paymentterms.md) |
+| 428 | [PaymentTermsGroupLink](../../docs/en/database/tables/paymenttermsgrouplink.md) |
+| 429 | [PaymentTermsHeadingLink](../../docs/en/database/tables/paymenttermsheadinglink.md) |
+| 430 | [PaymentType](../../docs/en/database/tables/paymenttype.md) |
+| 431 | [PaymentTypeGroupLink](../../docs/en/database/tables/paymenttypegrouplink.md) |
+| 432 | [PaymentTypeHeadingLink](../../docs/en/database/tables/paymenttypeheadinglink.md) |
+| 433 | [DeliveryTerms](../../docs/en/database/tables/deliveryterms.md) |
+| 434 | [DeliveryTermsGroupLink](../../docs/en/database/tables/deliverytermsgrouplink.md) |
+| 435 | [DeliveryTermsHeadingLink](../../docs/en/database/tables/deliverytermsheadinglink.md) |
+| 436 | [DeliveryType](../../docs/en/database/tables/deliverytype.md) |
+| 437 | [DeliveryTypeGroupLink](../../docs/en/database/tables/deliverytypegrouplink.md) |
+| 438 | [DeliveryTypeHeadingLink](../../docs/en/database/tables/deliverytypeheadinglink.md) |
+| 439 | [PriceUnit](../../docs/en/database/tables/priceunit.md) |
+| 440 | [PriceUnitGroupLink](../../docs/en/database/tables/priceunitgrouplink.md) |
+| 441 | [PriceUnitHeadingLink](../../docs/en/database/tables/priceunitheadinglink.md) |
+| 442 | [SubscriptionUnit](../../docs/en/database/tables/subscriptionunit.md) |
+| 443 | [SubscriptionUnitGroupLink](../../docs/en/database/tables/subscriptionunitgrouplink.md) |
+| 444 | [SubscriptionUnitHeadingLink](../../docs/en/database/tables/subscriptionunitheadinglink.md) |
+| 445 | [QuoteLineConfiguration](../../docs/en/database/tables/quotelineconfiguration.md) |
+| 446 | [SaleTypeQuoteAttachment](../../docs/en/database/tables/saletypequoteattachment.md) |
+| 447 | [QuoteVersionAttachment](../../docs/en/database/tables/quoteversionattachment.md) |
+| 448 | [ResourceOverride](../../docs/en/database/tables/resourceoverride.md) |
+| 449 | [ErpConfiguration](../../docs/en/database/tables/erpconfiguration.md) |
+| 450 | [EjCategoryGroupLink](../../docs/en/database/tables/ejcategorygrouplink.md) |
 
 ## New fields on existing tables
 
-### [Contact](../../docs/database/tables/contact.md)
+### [Contact](../../docs/en/database/tables/contact.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `ActiveErpLinks` | long | [!include[ALT](./includes/activeerplinks-descr.md)] |
 
-### [Person](../../docs/database/tables/person.md)
+### [Person](../../docs/en/database/tables/person.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `ActiveErpLinks` | long | [!include[ALT](./includes/activeerplinks-descr.md)] |
 
-### [Project](../../docs/database/tables/project.md)
+### [Project](../../docs/en/database/tables/project.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `ActiveErpLinks` | long | [!include[ALT](./includes/activeerplinks-descr.md)] |
 
-### [Sale](../../docs/database/tables/sale.md)
+### [Sale](../../docs/en/database/tables/sale.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `ActiveErpLinks` | long | [!include[ALT](./includes/activeerplinks-descr.md)] |
 
-### [Currency](../../docs/database/tables/currency.md)
+### [Currency](../../docs/en/database/tables/currency.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `isoCode` | VarWChar | [ISO currency code][1] |
 
-### [DocTmpl](../../docs/database/tables/doctmpl.md)
+### [DocTmpl](../../docs/en/database/tables/doctmpl.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `loadTemplateFromPlugin` | long | If nonzero, then this is the ID of the document plugin that should supply the template document file, instead of the default so\_arc/template |
 | `quoteDocType` | ushort | The role this document plays in the Quote system, if any |
 
-### [SaleType](../../docs/database/tables/saletype.md)
+### [SaleType](../../docs/en/database/tables/saletype.md)
 
 | Field | Type | Description |
 |---|---|---|
@@ -128,25 +128,25 @@ so.version: 7.5
 | `documentGroupingFields[60]` | wchar\_t | Comma-separated names of grouping fields for quote lines, when generating the documents |
 | `archiveGroupingFields[60]` | wchar\_t | Comma-separated names of grouping fields for quote lines, in the quote lines archive |
 
-### [Role](../../docs/database/tables/role.md)
+### [Role](../../docs/en/database/tables/role.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `use_categories` | ushort | Override user categories with role categories (CS role) |
 
-### [ej\_category](../../docs/database/tables/ej-category.md)
+### [ej\_category](../../docs/en/database/tables/ej-category.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `notification_email[2048]` | wchar\_t | Comma separated list of addresses to notify when requests are re-delegated to (unassigned) in this category. |
 
-### [ej\_message](../../docs/database/tables/ej-message.md)
+### [ej\_message](../../docs/en/database/tables/ej-message.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `inbox` | longid | The ID of the inbox entry which created this message. Note: inbox entries are regularly deleted. |
 
-### [ticket](../../docs/database/tables/ticket.md)
+### [ticket](../../docs/en/database/tables/ticket.md)
 
 | Field | Type | Description |
 |---|---|---|
@@ -161,7 +161,7 @@ so.version: 7.5
 | `num_replies` | long | The number of replies (messages) to the customer for this request. |
 | `num_messages` | long | The total number of messages for this request. |
 
-### [ticket\_status](../../docs/database/tables/ticket-status.md)
+### [ticket\_status](../../docs/en/database/tables/ticket-status.md)
 
 | Field | Type | Description |
 |---|---|---|
@@ -169,26 +169,26 @@ so.version: 7.5
 | `deleted` | ushort | Whether the status is deleted (unavailable) or not |
 | `no_email_reopen` | ushort | Whether inbound emails can reopen requests with this status or not |
 
-### [mail\_in\_filter](../../docs/database/tables/mail-in-filter.md)
+### [mail\_in\_filter](../../docs/en/database/tables/mail-in-filter.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `autofaq` | ushort | Whether to suggest FAQ entries for this email account or not |
 | `autofaq_kb_category` | longid | The root folder for the auto faq search. |
 
-### [extra\_fields](../../docs/database/tables/extra-fields.md)
+### [extra\_fields](../../docs/en/database/tables/extra-fields.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `description[2048]` | wchar\_t | Optional description of what this field is used for. |
 
-### [extra\_tables](../../docs/database/tables/extra-tables.md)
+### [extra\_tables](../../docs/en/database/tables/extra-tables.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `description[2048]` | wchar\_t | Optional description of what this table is used for |
 
-### [extra\_menus](../../docs/database/tables/extra-menus.md)
+### [extra\_menus](../../docs/en/database/tables/extra-menus.md)
 
 | Field | Type | Description |
 |---|---|---|
@@ -197,31 +197,31 @@ so.version: 7.5
 | `extra_table` | longid | ExtraTable that the menu is connected to |
 | `group_id` | longid | Link to `extra_menus` table if this menu item is to be shown in a custom menu group |
 
-### [role\_category](../../docs/database/tables/role-category.md)
+### [role\_category](../../docs/en/database/tables/role-category.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `crm_role` | longid | Link to Role |
 
-### [role\_element](../../docs/database/tables/role-element.md)
+### [role\_element](../../docs/en/database/tables/role-element.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `crm_role` | longid | Link to Role |
 
-### [role\_workflow](../../docs/database/tables/role-workflow.md)
+### [role\_workflow](../../docs/en/database/tables/role-workflow.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `crm_role` | longid | Link to Role |
 
-### [s\_shipment](../../docs/database/tables/s-shipment.md)
+### [s\_shipment](../../docs/en/database/tables/s-shipment.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `envelope_from[256]` | wchar\_t | Email address for the MTA envelope (where bounces are returned) |
 
-### [s\_link](../../docs/database/tables/s-link.md)
+### [s\_link](../../docs/en/database/tables/s-link.md)
 
 | Field | Type | Description |
 |---|---|---|
@@ -243,19 +243,19 @@ so.version: 7.5
 | `task_start` | DbDateTime | Start time of task, unless UseNextAvailableTime is specified |
 | `task_duration` | long | Task duration in minutes |
 
-### [s\_link\_customer](../../docs/database/tables/s-link-customer.md)
+### [s\_link\_customer](../../docs/en/database/tables/s-link-customer.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `http_user_agent[256]` | wchar\_t | The HTTP\_USER\_AGENT reported when the customer opened this link |
 
-### [s\_link\_customer\_statical](../../docs/database/tables/s-link-customer-statical.md)
+### [s\_link\_customer\_statical](../../docs/en/database/tables/s-link-customer-statical.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `http_user_agent[256]` | wchar\_t | The HTTP\_USER\_AGENT reported when the customer opened this link |
 
-### [s\_shipment\_addr](../../docs/database/tables/s-shipment-addr.md)
+### [s\_shipment\_addr](../../docs/en/database/tables/s-shipment-addr.md)
 
 | Field | Type | Description |
 |---|---|---|
@@ -263,43 +263,43 @@ so.version: 7.5
 | `contact_id` | longid | Id of contact bound to shipment address |
 | `sending_time` | DbDateTime | Estimated or actual sent time (depends on status) |
 
-### [s\_list\_shipment](../../docs/database/tables/s-list-shipment.md)
+### [s\_list\_shipment](../../docs/en/database/tables/s-list-shipment.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `status` | ushort | Status of shipment list |
 
-### [screen\_definition](../../docs/database/tables/screen-definition.md)
+### [screen\_definition](../../docs/en/database/tables/screen-definition.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `description[2048]` | wchar\_t | Optional description of what this screen is used for |
 
-### [scheduled\_task](../../docs/database/tables/scheduled-task.md)
+### [scheduled\_task](../../docs/en/database/tables/scheduled-task.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `description[2048]` | wchar\_t | Optional description of what this task is used for. |
 
-### [ejscript](../../docs/database/tables/ejscript.md)
+### [ejscript](../../docs/en/database/tables/ejscript.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `long_description[2048]` | wchar\_t | Optional description of what this script is used for. |
 
-### [sms](../../docs/database/tables/sms.md)
+### [sms](../../docs/en/database/tables/sms.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `outgoing_message_id | longid | Reference to the outgoing message entry created by NetServer for sending a status update |
 
-### [external\_document](../../docs/database/tables/external-document.md)
+### [external\_document](../../docs/en/database/tables/external-document.md)
 
 | Field | Type | Description |
 |---|---|---|
 | `s_message` | longid | Relation to `s_message` if this document is an image in a newsletter |
 
-### [outgoing\_message](../../docs/database/tables/outgoing-message.md)
+### [outgoing\_message](../../docs/en/database/tables/outgoing-message.md)
 
 | Field | Type | Description |
 |---|---|---|

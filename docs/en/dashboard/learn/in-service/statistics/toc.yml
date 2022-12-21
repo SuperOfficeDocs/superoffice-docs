@@ -1,0 +1,15 @@
+items:
+  - name: Dashboards in Service
+    href: ../index.md
+  - name: Reports
+    href: reports.md
+  - name: Standard reports
+    href: standard-reports.md
+  - name: Request statistics
+    href: request.md
+  - name: Login statistics
+    href: login.md
+  - name: Invoice statistics
+    href: invoice.md
+  - name: Create new report
+    href: create-report.md

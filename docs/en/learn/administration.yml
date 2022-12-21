@@ -1,0 +1,89 @@
+### YamlMime:SubCategory
+
+title: User administration and system settings
+summary: "Learn about licenses, roles and users, languages and localizations, how to import external content, and how our AI services work."
+
+metadata:
+  title: User administration and system settings
+  description: "Licenses, user management, languages and localization, import"
+  so.product: administration
+  so.topic: landing-page
+  author: Help and Learn
+  so.author: Kirsti A.
+  so.date: 11.29.2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Licenses
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: License overview
+          url: ../admin/license/learn/index.md
+        - text: The licenses screen
+          url: ../admin/license/learn/screen/index.md
+        - text: Activate license
+          url: ../admin/license/learn/activate.md
+
+  # Card
+  - title: User management
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Roles
+          url: ../admin/user-management/learn/role/index.md
+        - text: Create a role
+          url: ../admin/user-management/learn/role/create-role.md
+        - text: Users
+          url: ../admin/user-management/learn/index.md
+        - text: Add users
+          url: ../admin/user-management/learn/add-associate.md
+        - text: Update user information
+          url: ../admin/user-management/learn/update-user.md
+        - text: Create user groups
+          url: ../admin/user-management/learn/create-user-group.md
+        - text: Add company in the Our companies tab
+          url: ../admin/user-management/learn/add-our-companies.md
+
+  # Card
+  - title: Import
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Configure import settings
+          url: ../admin/import/learn/configure-import-settings.md
+        - text: Import from Excel
+          url: ../admin/import/learn/import-from-excel.md
+        - text: Import products from Excel
+          url: ../admin/import/learn/import-products-from-excel.md
+        - text: Import from Gmail
+          url: ../admin/import/learn/import-from-gmail.md
+        - text: Import from Outlook
+          url: ../admin/import/learn/import-from-outlook.md
+        - text: Import from ERP
+          url: ../admin/import/learn/import-from-erp.md
+
+  # Card
+  - title: AI
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Categorization
+          url: ../ai/learn/categorization.md
+        - text: Text analysis
+          url: ../ai/learn/text-analysis.md
+
+ # Card
+  - title: ERP
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Connect to ERP
+          url: ../admin/erp/learn/erp-connect.md
+        - text: Create ERP actor
+          url: ../admin/erp/learn/erp-create-new-actor.md
+        - text: Disable synchronization
+          url: ../admin/erp/learn/erp-sync-disconnect.md

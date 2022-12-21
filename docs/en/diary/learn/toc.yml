@@ -1,0 +1,86 @@
+items:
+- name: Overview
+  href: index.md
+- name: Calendar views
+  items:
+  - name: Day
+    href: screen/day.md
+  - name: Month
+    href: screen/month.md
+  - name: Week
+    href: screen/week.md
+  - name: View
+    href: screen/view.md
+  - name: Navigate in the Diary screen
+    href: screen/navigate-in-diary.md
+- name: Section tabs
+  items:
+  - name: Activities
+    href: screen/activities-tab.md
+  - name: Sales
+    href: screen/sales-tab.md
+  - name: Dialog for followups
+    href: screen/dialog-for-followups.md
+  - name: The New group view dialog
+    href: screen/view-dialog.md
+- name: Viewing the diary
+  items:
+  - name: View your or other diaries
+    href: open.md
+  - name: Create group view
+    href: create-view.md
+  - name: Open a follow-up
+    href: open-follow-up.md
+
+- name: Work with follow-ups
+  items:
+  - name: Appointment
+    href: appointment.md
+    items:
+    - name: Create an appointment
+      href: create-appointment.md
+  - name: Phone call
+    href: phone-call/index.md
+    items:
+    - name: Enter a phone call
+      href: phone-call/add.md
+    - name: Dial a contact
+      href: phone-call/dial.md
+    - name: Phone preferences
+      href: phone-call/preferences.md
+  - name: Video meetings
+    href: video-meetings.md
+  - name: Tasks
+    href: task.md
+    items:
+    - name: Create a task
+      href: create-task.md
+  - name: Add a follow-up (appointment, task, or phone call)
+    href: create-follow-up.md
+  - name: Copy a follow-up
+    href: copy-follow-up.md
+  - name: Assign a follow-up to someone else
+    href: follow-up-assign.md
+
+  - name: Recurrence
+    href: recurrence/toc.yml
+
+  - name: Sett alarm for follow-up
+    href: set-alarm.md
+  - name: Edit a follow-up
+    href: edit-follow-up.md
+  - name: Change Completed status
+    href: change-completed-status.md
+  - name: Change the end time
+    href: change-end-time.md
+  - name: Move a follow-up
+    href: move-follow-up.md
+  - name: Send a follow-up as an email
+    href: send-as-email.md
+  - name: Delete follow-up
+    href: delete-follow-up.md
+  - name: Print follow-ups and Diary screen
+    href: print.md
+
+- name: Invitations
+  href: invitation/toc.yml

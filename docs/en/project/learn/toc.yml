@@ -1,0 +1,28 @@
+items:
+- name: Overview
+  href: index.md
+- name: Section tabs on project
+  href: screen/toc.yml
+- name: Work with project
+  items:
+  - name: Create a project
+    href: create.md
+  - name: Add project image
+    href: add-image.md
+  - name: Add links from project and sale
+    href: add-links.md
+  - name: Edit a projects
+    href: edit.md
+  - name: Merge projects
+    href: merge-projects.md
+  - name: Delete a project
+    href: delete.md
+- name: Project members
+  href: project-members/toc.yml
+- name: Project guide
+  href: project-guide/index.md
+  items:
+  - name: Working with a project guide
+    href: project-guide/working-with.md
+  - name: View follow-ups and documents
+    href: project-guide/view-followups-and-documents.md

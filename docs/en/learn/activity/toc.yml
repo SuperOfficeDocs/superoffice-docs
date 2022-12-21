@@ -1,0 +1,11 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: View activities
+    href: view-activities.md
+  - name: Delete activities
+    href: delete-activities-contact.md
+  - name: Reply to email from the Activities section tab
+    href: replying-to-email-from-activities-section-tab.md
+  - name: Forward email from the Activities section tab
+    href: forwarding-email-from-activities-section-tab.md

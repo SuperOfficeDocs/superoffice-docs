@@ -1,0 +1,33 @@
+items:
+- name: Overview
+  href: index.md
+- name: Archive emails to SuperOffice
+  href: archive.md
+- name: How to turn default archiving on/off
+  href: settings/archive-by-default.md
+- name: Work with emails
+  href: compose.md
+  items:
+  - name: Create email from SuperOffice CRM
+    href: create-in-superoffice.md
+  - name: Create email from Microsoft Outlook
+    href: create-in-outlook.md
+  - name: Select recipients
+    href: select-recipients.md
+  - name: Manage senders
+    href: manage-senders.md
+  - name: Add attachments
+    href: add-attachment.md
+  - name: Archive on company or contact
+    href: archive-on-contact.md
+  - name: Archive as activity
+    href: archive-as-activity.md
+  - name: Archive as a request
+    href: archive-as-request.md
+  - name: Archive attachments
+    href: archive-attachment.md
+  - name: Create email from Lotus Notes
+    href: create-in-lotus.md
+
+- name: SuperOffice CRM options dialog
+  href: settings/toc.yml

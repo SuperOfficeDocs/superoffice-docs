@@ -1,0 +1,27 @@
+items:
+- name: Overview
+  href: index.md
+- name: Section tabs on company
+  href: screen/toc.yml
+- name: Work with company
+  items:
+  - name: Create new company
+    href: create.md
+  - name: Edit a company
+    href: edit.md
+  - name: Copy a company
+    href: copy.md
+  - name: Merge companies
+    href: merge-companies.md
+  - name: Delete a company
+    href: delete.md
+  - name: Print company info
+    href: print.md
+  - name: Add a relation
+    href: add-relation.md
+  - name: Delete a relation
+    href: delete-relation.md
+  - name: Change the rank of contacts
+    href: change-rank-of-contacts.md
+- name: Address formats for different countries
+  href: address-formats.md
