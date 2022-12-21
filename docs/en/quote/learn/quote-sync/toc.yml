@@ -1,0 +1,48 @@
+items:
+- name: Overview
+  href: index.md
+- name: SuperOffice products
+  href: product/index.md
+  items:
+  - name: Add price list
+    href: product/so-add-price-list.md
+  - name: Add product to price-list
+    href: product/so-add-product-to-price-list.md
+  - name: Select product image
+    href: product/so-select-product-image.md
+  - name: Quote delete deactivate price-list or product
+    href: product/quote-delete-deactivate-price-list-or-product.md
+- name: Settings
+  href: quotesync-tab-settings.md
+  items:
+  - name: Configure product
+    href: product/settings-configure-product.md
+- name: ERP connections
+  href: quotesync-tab-erp-connections.md
+  items:
+  - name: ERP connection add
+    href: erp-connection-add.md
+- name: Sync
+  href: sync/index.md
+  items:
+  - name: Add ERP connection
+    href: sync/sync-add-erp-connection.md
+  - name: Connector add
+    href: sync/sync-connector-add.md
+    items:
+     - name: Set sync priority
+       href: sync/sync-set-sync-priority.md
+     - name: Configure field allocation
+       href: sync/sync-configure-field-allocation.md
+     - name: Configure list mapping
+       href: sync/sync-configure-list-mapping.md
+     - name: Configure default values
+       href: sync/sync-configure-default-values.md
+     - name: Rank fields shown in the ERP tab
+       href: sync/sync-rank-fields-shown-in-erp-tab.md
+     - name: Import from erp(sync)
+       href: sync/sync-import-from-erp.md
+     - name: Resync from CRM
+       href: sync/sync-resync-from-crm.md
+  - name: Edit ERP connection
+    href: sync/sync-edit-erp-connection.md

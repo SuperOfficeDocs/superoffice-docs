@@ -1,0 +1,25 @@
+items:
+- name: Overview
+  href: index.md
+- name: Section tabs on contact
+  href: screen/toc.yml
+- name: Work with contact
+  items:
+  - name: Create new contact
+    href: create.md
+  - name: Edit a contact
+    href: edit.md
+  - name: Move a contact
+    href: move.md
+  - name: Merge contacts
+    href: merge-contacts.md
+  - name: Delete a contact
+    href: delete.md
+  - name: Send email to a contact
+    href: send-email.md
+  - name: Add relation
+    href: add-relation.md
+  - name: Delete relation
+    href: delete-relation.md
+  - name: Print
+    href: print.md

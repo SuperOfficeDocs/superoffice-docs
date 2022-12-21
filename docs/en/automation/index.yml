@@ -1,0 +1,150 @@
+### YamlMime:SubCategory
+
+title: Automation
+summary: "Automation allows an application to execute code when an event occurs inside the client. Automation code can perform just about any task imaginable, but generally involve validating, transforming, and/or moving data."
+
+metadata:
+  title: Automation
+  description: "Automation allows an application to execute code when an event occurs inside the client. Automation code can perform just about any task imaginable, but generally involve validating, transforming, and/or moving data."
+  so.topic: landing-page
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 12.01.2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+# Card
+  - title: CRMScript
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: What is CRMScript
+          url: crmscript/overview/index.md
+        - text: What can I do with CRMScript?
+          url: crmscript/overview/crmscript-usage.md
+      - linkListType: get-started
+        links:
+        - text: How do I create and run CRMScripts?
+          url: crmscript/overview/envir-and-tools.md
+        - text: Syntax
+          url: crmscript/fundamentals/syntax.md
+        - text: Basic data types
+          url: crmscript/datatypes/index.md
+      - linkListType: reference
+        links:
+        - text: CRMScript API reference
+          url: crmscript/reference/CRMScript.Global.Void.yml
+
+# Card
+  - title: Webhooks
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Introduction
+        url: webhook/index.md
+      - text: Event details
+        url: webhook/event-details.md
+    - linkListType: how-to-guide
+      links:
+      - text: Subscribing to a webhook
+        url: webhook/subscription.md
+      - text: Receiving a webhook
+        url: webhook/notification.md
+      - text: CRMScript webhook handlers
+        url: webhook/crmscript-handlers.md
+      - text: Security
+        url: webhook/security.md
+    - linkListType: reference
+      links:
+      - text: Webhook event reference
+        url: webhook/reference/index.md
+
+  # Card
+  - title: Chatbot
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Introduction
+          url: chatbot/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Registration
+          url: chatbot/registration.md
+        - text: Chat sessions
+          url: chatbot/sessions.md
+        - text: Messages
+          url: chatbot/messages.md
+      - linkListType: reference
+        links:
+        - text: Script reference
+          url: chatbot/reference.md
+
+# Card
+  - title: Trigger scripts
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Introduction
+          url: trigger/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Create trigger script
+          url: trigger/create-trigger-script.md
+        - text: Create trigger macro
+          url: trigger/create-trigger-macro.md
+        - text: Set validation rules
+          url: trigger/set-validation-rules.md
+      - linkListType: reference
+        links:
+        - text: "Trigger script reference"
+          url: trigger/reference/CRMScript.Event.Trigger.yml
+
+# Card
+  - title: Event model
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Introduction
+        url: event-model/index.md
+    - linkListType: reference
+      links:
+      - text: Email filter
+        url: event-model/email-filter.md
+      - text: Mailbox after save
+        url: event-model/mailbox-after-save.md
+      - text: Mailbox before save
+        url: event-model/mailbox-before-save.md
+      - text: Saving a request
+        url: event-model/saving-a-request.md
+
+# Card
+  - title: NetServer script engine (onsite)
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Introduction
+          url: netserver-scripting/index.md
+        - text: Configuration
+          url: netserver-scripting/configure.md
+      - linkListType: how-to-guide
+        links:
+        - text: Events
+          url: netserver-scripting/basic-scripting.md
+        - text: Deployment options
+          url: netserver-scripting/run-scripts.md
+      - linkListType: reference
+        links:
+        - text: Scripting API reference
+          url: netserver-scripting/reference/index.md
+
+  # Card
+  - title: Other automation
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Windows client script event system
+          url: windows/win-script-event-system.md
+        - text: Zapier
+          url: https://zapier.com/apps/superofficecrm/integrations

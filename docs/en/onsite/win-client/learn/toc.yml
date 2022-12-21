@@ -1,0 +1,50 @@
+items:
+- name: Overview
+  href: index.md
+- name: Backup routines
+  href: backup-routines.md
+- name: Status screen
+  href: status-screen.md
+- name: Create/copy shortcut
+  href: creating-shortcuts-to-entries-in-crm.md
+- name: Import
+  href: import/index.md
+  items:
+  - name: Import routines
+    href: import/import-routines.md
+  - name: ANSI files
+    href: import/ansi-files.md
+  - name: Importing files
+    href: import/importing-files.md
+    items:
+    - name: Field mapping
+      href: import/field-mapping.md
+      items:
+      - name: Specifying field mapping
+        href: import/specifying-field-mapping.md
+      - name: Deleting field mapping
+        href: import/deleting-field-mapping.md
+      - name: Resetting field mapping
+        href: import/resetting-field-mapping.md
+      - name: Specifying advanced import settings
+        href: import/specifying-advanced-import-settings.md
+    - name: Duplicates import
+      href: import/duplicates-import.md
+      items:
+      - name: Updating rules for duplicate handling
+        href: import/updating-rules-for-duplicate-handling.md
+      - name: Resetting rules for duplicate handling
+        href: import/resetting-rules-for-duplicate-handling.md
+    - name: Import descriptions
+      href: import/import-descriptions.md
+      items:
+      - name: Creating import descriptions
+        href: import/creating-import-descriptions.md
+      - name: Editing import descriptions
+        href: import/editing-import-descriptions.md
+  - name: Export
+    href: export.md
+- name: Updating the database
+  href: update-database.md
+- name: Parameter use in .ini-files
+  href: parameter-examples.md

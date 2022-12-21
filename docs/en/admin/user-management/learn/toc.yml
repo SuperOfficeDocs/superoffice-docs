@@ -1,0 +1,51 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Users screen
+    href: screen/index.md
+    items:
+    - name: Associates tab
+      href: screen/associates-tab.md
+    - name: Other users tab
+      href: screen/other-users-tab.md
+    - name: Our companies
+      href: screen/our-companies-tab.md
+    - name: User licenses tab
+      href: screen/user-licences-tab.md
+    - name: User groups
+      href: screen/user-groups-tab.md
+    - name: Users screen
+      href: screen/users-screen-service.md
+    - name: Log users off
+      href: ../../../onsite/win-client/learn/logging-users-off.md
+  - name: Add user
+    items:
+    - name: Add a SuperOffice CRM user
+      href: add-associate.md
+    - name: Add anonymous or system user
+      href: add-other-user.md
+    - name: Import users from AD
+      href: import-users.md
+
+  - name: Edit user
+    href: update-user.md
+  - name: Move user
+    href: move-user.md
+  - name: Delete user
+    href: delete-user.md
+
+  - name: Add company in the Our companies tab
+    href: add-our-companies.md
+  - name: Delete company in the Our companies tab
+    href: delete-our-companies.md
+
+  - name: Create user group
+    href: create-user-group.md
+  - name: Delete user group
+    href: delete-user-group.md
+
+  - name: Edit logon rights for other users
+    href: edit-logon-rights-for-other-users.md
+
+  - name: Role
+    href: role/toc.yml

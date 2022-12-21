@@ -1,0 +1,15 @@
+items:
+- name: Overview
+  href: index.md
+- name: Find screen
+  href: find-dialog.md
+- name: Search criteria
+  href: using-search-criteria.md
+- name: Free-text search
+  href: freetext-search.md
+- name: FastSearcher
+  href: using-fastsearcher.md
+- name: History list
+  href: using-history-list.md
+- name: Wild cards
+  href: wild-cards.md

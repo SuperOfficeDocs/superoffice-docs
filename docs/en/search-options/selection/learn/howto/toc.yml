@@ -1,0 +1,23 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Create mailing
+    href: create-mailings.md
+  - name: Send email to multiple recipients
+    href: send-email.md
+  - name: Generate follow-ups
+    href: generate-follow-ups.md
+  - name: Display selection as charts
+    href: display-as-charts.md
+  - name: Bulk update
+    href: bulk-update.md
+  - name: Printing labels Selection
+    href: print-labels.md
+  - name: Print company reports
+    href: print-company-reports.md
+  - name: Export to file
+    href: export-to-file.md
+  - name: Export to Excel
+    href: export-to-excel.md
+  - name: Delete records permanently
+    href: deleting-companies-permanently.md

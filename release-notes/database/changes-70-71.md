@@ -6,6 +6,7 @@ author: {github-id}
 keywords: database
 so.topic: reference
 so.envir: onsite
+so.version: 7.1
 # so.client:
 ---
 
@@ -133,16 +134,16 @@ Delivery of outgoing messages to message plugins, updated with status asynchrono
 | `outgoing_message_id` | int | Reference to the outgoing message entry created by NetServer for sending and status update |
 
 <!-- Referenced links -->
-[1]: ../../docs/database/tables/outgoing-message.md
-[2]: ../../docs/database/tables/appointment.md
-[3]: ../../docs/database/tables/project.md
-[4]: ../../docs/database/tables/projtype.md
-[5]: ../../docs/database/tables/suggestedappointment.md
-[6]: ../../docs/database/tables/saletype.md
-[7]: ../../docs/database/tables/ticket.md
-[8]: ../../docs/database/tables/extra-menus.md
-[9]: ../../docs/database/tables/s-link.md
-[10]: ../../docs/database/tables/s-shipment-addr.md
-[11]: ../../docs/database/tables/s-list-shipment.md
-[12]: ../../docs/database/tables/inbox.md
-[13]: ../../docs/database/tables/sms.md
+[1]: ../../docs/en/database/tables/outgoing-message.md
+[2]: ../../docs/en/database/tables/appointment.md
+[3]: ../../docs/en/database/tables/project.md
+[4]: ../../docs/en/database/tables/projtype.md
+[5]: ../../docs/en/database/tables/suggestedappointment.md
+[6]: ../../docs/en/database/tables/saletype.md
+[7]: ../../docs/en/database/tables/ticket.md
+[8]: ../../docs/en/database/tables/extra-menus.md
+[9]: ../../docs/en/database/tables/s-link.md
+[10]: ../../docs/en/database/tables/s-shipment-addr.md
+[11]: ../../docs/en/database/tables/s-list-shipment.md
+[12]: ../../docs/en/database/tables/inbox.md
+[13]: ../../docs/en/database/tables/sms.md

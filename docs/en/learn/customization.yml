@@ -1,0 +1,95 @@
+### YamlMime:SubCategory
+
+title: Customization
+summary: "Learn about different customization of all your lists, possibilities to add fields and layout of the different main cards in the screen designer, set up macros and script and all other fine tuning of your system"
+
+metadata:
+  title: Customization
+  description: "Learn about ways to customize SuperOffice."
+  so.product: customization
+  so.topic: landing-page
+  author: Help and Learn
+  so.author: Christine H.
+  so.date: 11.11.2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Lists, preferences, options and settings
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Lists
+          url: ../admin/lists/learn/index.md
+        - text: Preferences
+          url: ../admin/preferences/learn/index.md
+        - text: Options
+          url: ../admin/options/learn/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: System settings in Service
+          url: ../service/settings/learn/index.md
+        - text: Personal settings in Service
+          url: ../service/settings/learn/personal-settings/index.md
+
+  # Card
+  - title: Custom objects
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: User-defined fields
+          url: ../custom-objects/learn/udef/index.md
+        - text: Extra fields
+          url: ../custom-objects/learn/extra-field/create.md
+        - text: Extra tables
+          url: ../custom-objects/learn/extra-table/create.md
+      
+  # Card
+  - title: User interface
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Screen designer
+          url: ../ui/screen-designer/learn/index.md
+        - text: Extra menus
+          url: ../ui/blogic/learn/extra-menus/index.md
+        - text: Web panels
+          url: ../ui/web-panels/learn/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Profile in Service
+          url: ../ui/blogic/learn/profiles/index.md
+
+  # Card
+  - title: Macros and CRMScript
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Macros and scripts
+          url: ../automation/crmscript/learn/macro-script.md
+        - text: Create a macro
+          url: ../automation/crmscript/learn/create-macro.md
+        - text: Create a script
+          url: ../automation/crmscript/learn/create-script.md
+        - text: Debug sessions
+          url: ../automation/crmscript/learn/debug.md
+        - text: Create a scheduled task
+          url: ../automation/crmscript/learn/schedule-task.md
+        - text: Tracing
+          url: ../automation/crmscript/learn/tracing.md
+        - text: Triggers
+          url: ../automation/crmscript/learn/trigger.md
+
+  # Card
+  - title: Customer centre
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Customer centre configuration
+          url: ../service/customer-center/learn/config.md
+        - text: Customer centre source files
+          url: ../service/customer-center/learn/edit.md
+        - text: Send passwords to contacts
+          url: ../service/customer-center/learn/send-credentials.md

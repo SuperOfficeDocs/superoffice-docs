@@ -1,0 +1,39 @@
+### YamlMime:Tutorial
+uid: tutorial-selection-create-static
+title: Tutorial - Create a static selection
+metadata:
+  title:  Tutorial - Create a static selection
+  description: In this tutorial, you'll learn how to create a static selection.
+  audience: User
+  so.topic: tutorial
+  so.date: 09.12.2022
+  level: Intermediate
+items:
+- title: Find the data
+  durationInMinutes: 3
+  content: |
+    [!include[Find data](includes/find-data.md)]
+
+    1. In the **Save as selection** dialog, select **Static selection**.
+
+    This type of selection will contain only the members you have added manually.
+
+    1. Click **Save**.
+
+    1. Type the name of the new selection where *Selection name* appears. This field is mandatory.
+
+    If you try to create a selection with the same name as an existing selection, the **Duplicates** dialog opens. This works in the same way as for companies. For details, see [Duplicates](../../../../learn/getting-started/duplicates.md).
+
+    1. In the **Selection is** field, you can change to another type of selection if necessary.
+
+- title: Set properties
+  durationInMinutes: 3
+  content: |
+    [!include[Set properties](includes/set-properties.md)]
+
+- title: Finish
+  durationInMinutes: 3
+  content: |
+    [!include[Add to Favorites](includes/add-to-fav.md)]
+
+    1. When you have finished defining the core data for the selection, click **Save**.

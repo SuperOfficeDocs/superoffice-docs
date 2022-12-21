@@ -1,0 +1,11 @@
+items:
+- name: Overview
+  href: index.md
+- name: Create static selection
+  href: create-static.yml
+- name: Create dynamic selection
+  href: create-dynamic.yml
+- name: Create combined selection
+  href: create-combined.yml
+- name: Copy a selection
+  href: copy.md

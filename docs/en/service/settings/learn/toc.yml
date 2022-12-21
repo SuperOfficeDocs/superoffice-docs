@@ -1,0 +1,14 @@
+items:
+- name: Overview of settings in Service
+  href: index.md
+- name: System
+  href: system.md
+  items:
+  - name: Settings
+    href: settings.md
+  - name: SMTP
+    href: smtp.md
+  - name: Password
+    href: password.md
+  - name: SMS
+    href: sms.md

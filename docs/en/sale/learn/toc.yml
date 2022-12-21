@@ -1,0 +1,25 @@
+items:
+- name: Overview
+  href: index.md
+- name: Status of a sale (stages)
+  href: stages.md
+- name: Sales guide
+  href: sales-guide/index.md
+- name: Section tabs on sale
+  href: screen/toc.yml
+- name: Work with sale
+  items:
+  - name: Create a sale
+    href: create.md
+  - name: Delete a sale
+    href: delete.md
+  - name: Create stakeholders
+    href: stakeholders/create.md
+  - name: Edit stakeholders
+    href: stakeholders/edit.md
+  - name: Working with sales guide
+    href: sales-guide/working-with-sales-guide.md
+- name: Quote
+  href: ../../quote/learn/toc.yml
+- name: Sales targets
+  href: sales-targets.md

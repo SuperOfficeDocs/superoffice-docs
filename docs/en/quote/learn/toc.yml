@@ -1,0 +1,25 @@
+items:
+- name: Overview
+  href: index.md
+- name: The Edit quote dialog
+  href: screen/edit-quote-dialog.md
+- name: Create a quote
+  href: create.md
+- name: Copy quote
+  href: copy.md
+- name: Select ERP connection
+  href: choose-erp-connection.md
+- name: Add products to the quote
+  href: add-product.md
+- name: Add alternatives to a quote
+  href: add-alternative.md
+- name: Create a quote document
+  href: create-quote-document.md
+- name: Approve quote before sending
+  href: approve.md
+- name: Send a quote
+  href: send.md
+- name: Edit a sent quote (versions)
+  href: versions.md
+- name: Place an order
+  href: create-order.md

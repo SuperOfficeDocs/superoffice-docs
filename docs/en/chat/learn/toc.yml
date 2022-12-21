@@ -1,0 +1,27 @@
+items:
+- name: Overview
+  href: index.md
+- name: Chat screen
+  href: screen/index.md
+- name: Work with chat
+  items:
+  - name: Respond to a chat
+    href: respond.md
+  - name: Link chat to SuperOffice contact
+    href: link-to-person.md
+  - name: Add customer to SuperOffice
+    href: create-contact.md
+  - name: Create request in chat
+    href: create-request.md
+  - name: Create a quick reply
+    href: create-quick-reply.md
+  - name: Send FAQs, reply templates and quick replies in a chat
+    href: send-faq-or-reply-template.md
+  - name: Send files in chat
+    href: send-files.md
+  - name: Transfer a chat to another agent
+    href: transfer-to-agent.md
+  - name: View chat statistics
+    href: statistics.md
+  - name: Using the chat function from the customer's perspective
+    href: as-customer.md

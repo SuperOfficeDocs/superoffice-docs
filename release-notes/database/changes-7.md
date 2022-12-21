@@ -4,6 +4,7 @@ uid: changes_in_7
 description: What's new in the SuperOffice 7 database
 author: {github-id}
 keywords:
+so.version: 7
 ---
 
 # What's new in the SuperOffice 7 database
@@ -107,12 +108,12 @@ eJournal can insert person records with `contact_id` = 0; these are invisible in
 A Customer Service user is an associate but has an extra record in the table `ejuser`.
 
 <!-- Referenced links -->
-[1]: ../../docs/database/tables/saletypecat.md
-[2]: ../../docs/database/tables/saletype.md
-[3]: ../../docs/database/tables/reasonstalled.md
-[4]: ../../docs/database/tables/reasonsold.md
-[5]: ../../docs/database/tables/salestakeholder.md
-[6]: ../../docs/database/tables/saletypestagelink.md
-[7]: ../../docs/database/tables/stakeholderrole.md
-[8]: ../../docs/database/tables/suggestedappointment.md
-[9]: ../../docs/database/tables/suggesteddocument.md
+[1]: ../../docs/en/database/tables/saletypecat.md
+[2]: ../../docs/en/database/tables/saletype.md
+[3]: ../../docs/en/database/tables/reasonstalled.md
+[4]: ../../docs/en/database/tables/reasonsold.md
+[5]: ../../docs/en/database/tables/salestakeholder.md
+[6]: ../../docs/en/database/tables/saletypestagelink.md
+[7]: ../../docs/en/database/tables/stakeholderrole.md
+[8]: ../../docs/en/database/tables/suggestedappointment.md
+[9]: ../../docs/en/database/tables/suggesteddocument.md

@@ -1,0 +1,13 @@
+items:
+- name: Overview
+  href: index.md
+- name: Compose an email
+  href: compose.md
+- name: Change default mail client in SuperOffice
+  href: change-default-mail-client.md
+- name: Inbox
+  href: ../inbox/learn/toc.yml
+- name: Gmail Link
+  href: ../gmail-link/learn/toc.yml
+- name: Mail Link
+  href: ../mail-link/learn/toc.yml

@@ -1,0 +1,18 @@
+items:
+- name: Privacy settings and GDPR
+  href: privacy.md
+  items:
+  - name: Edit privacy settings for a contact
+    href: edit-legal-base.md
+  - name: Send privacy confirmation email
+    href: send-privacy-confirmation-email.md
+  - name: Generate personal data report
+    href: generate-personal-data-report.md
+  - name: Configuration
+    items:
+    - name: Add consent purpose
+      href: add-consent-purpose.md
+    - name: Add legal base
+      href: ../../../admin/lists/learn/privacy-legal-base-add.md
+    - name: Add privacy source
+      href: ../../../admin/lists/learn/privacy-source-add.md

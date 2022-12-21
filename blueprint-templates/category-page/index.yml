@@ -1,0 +1,75 @@
+### YamlMime:Category
+
+title: {{name}} # Is shown, MUST fill out
+summary: # Descriptive, is shown, MUST fill out
+brand: devdocs
+
+metadata: # Added to metadata in the HTML file
+  title: {{name}} # MUST fill out
+  description: # MUST fill out
+  so.product: 
+  so.topic: hub-page
+  so.collection: collection
+  author: 
+  so.author: 
+  so.date: # mm.dd.yyyy
+
+# PLEASE PAY ATTENTION TO INDENTATION
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: "The label shown"
+      itemType: get-started # Determines icon, see available types above
+      url: https://community.superoffice.com # specify
+    # Add more cards
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: "" # Description
+  items:
+    # Card 1
+    - title: # Card title
+      summary: # Card description
+      links:
+        - url: https://community.superoffice.com
+          itemType: overview # Determines icon, see available types above
+          text: # Visible text
+        # Add another link
+    # Card 2
+    - title: # Card title
+      summary: # Card description
+      links:
+        - url: https://community.superoffice.com
+          itemType: video
+          text: This is a video
+        # Add more - url blocks
+
+    # Add more cards
+
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: # Section title < 60 chars (optional)
+      summary: "" # Section description < 160 chars (optional)
+      items:
+      # Card
+      - title: # Card title
+        links:
+          - url: https://community.superoffice.com
+            text: Text goes here
+          - url: # link target
+            text: # Text shown
+          # Add more links
+      # Add more cards
+
+    # Optionally add another section here
+
+  # footer (optional)
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

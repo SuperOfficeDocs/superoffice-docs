@@ -1,0 +1,32 @@
+items:
+- name: Overview
+  href: index.md
+- name: Work with custom objects
+  items:
+  - name: Extra tables
+    href: extra-table/index.md
+    items:
+    - name: Tables
+      href: screen/tables.md
+    - name: Define extra tables
+      href: extra-table/create.md
+  - name: Extra fields
+    href: extra-field/index.md
+    items:
+    - name: Define extra fields
+      href: extra-field/create.md
+  - name: User-defined fields
+    href: udef/index.md
+    items:
+    - name: Add field
+      href: udef/add.md
+    - name: Move field
+      href: udef/move.md
+    - name: Edit the TAB order of fields
+      href: udef/change-tab-order.md
+    - name: Edit field
+      href: udef/edit.md
+    - name: Page 1 fields
+      href: udef/page-1-fields.md
+    - name: Maximum number of fields
+      href: udef/limitations.md

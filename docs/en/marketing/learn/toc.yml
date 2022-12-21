@@ -1,0 +1,21 @@
+items:
+- name: Overview
+  href: index.md
+- name: Marketing screen
+  href: screen/index.md
+- name: Work with marketing
+  items:
+  - name: Add favorites
+    href: add-fav.md
+  - name: Create folder
+    href: create-folder.md
+  - name: Add images
+    href: add-images.md
+- name: Work with mailings
+  href: ../mailing/learn/toc.yml
+- name: Work with message templates
+  href: work-with-messages-and-templates.md
+- name: Editors
+  href: editor/toc.yml
+- name: Work with tracked links
+  href: ../tracked-links/learn/toc.yml

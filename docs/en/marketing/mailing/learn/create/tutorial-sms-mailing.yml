@@ -1,0 +1,41 @@
+### YamlMime:Tutorial
+uid: tutorial-sms-mailing
+title: Tutorial - SMS mailing
+metadata:
+  title:  Tutorial - SMS mailing
+  description: In this tutorial, you will learn to create an SMS mailing.
+  audience: User
+  so.topic: tutorial
+  so.date: 09.07.2022
+  level: Intermediate
+items:
+- title: Setup
+  durationInMinutes: 3
+  content: |
+    [!include[Step 1 SMS](includes/step-1-setup-sms.md)]
+
+    [!include[Tip](includes/tip-mailing-save-draft.md)]
+
+- title: Template
+  durationInMinutes: 2
+  content: |
+    [!include[How to choose a template](includes/mailing-choose-template-form.md)]
+
+    [!include[Tip](includes/tip-mailing-save-draft.md)]
+
+- title: Content
+  durationInMinutes: 3
+  content: |
+    [!include[Step 3 SMS](includes/step-3-content-sms.md)]
+
+- title: Recipients
+  durationInMinutes: 3
+  content: |
+    [!include[Step 4 recipients](includes/step-4-recipients.md)]
+
+    [!include[Tip](includes/tip-mailing-save-draft.md)]
+
+- title: Confirm
+  durationInMinutes: 3
+  content: |
+    [!include[How to confirm and send a mailing](includes/step-5-confirm-and-send-mailing.md)]

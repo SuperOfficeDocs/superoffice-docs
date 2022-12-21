@@ -9,32 +9,68 @@ items:
   href: 9.2/toc.yml
 - name: "9.1"
   href: 9.1/toc.yml
-- name: Changes
-  href: database/index.md
-  items:
-  - name: Whats new in 10.1.6.812
-    href: database/changes-10.1.6.812.md
-  - name: Whats new in 10.1.5.2031
-    href: database/changes-10.1.5.2031.md
-  - name: Whats new in 10.1.5
-    href: database/changes-10.1.5.md
-  - name: Whats new in 10.1.2
-    href: database/changes-10.1.2.md
-  - name: Whats new in 9.2
-    href: database/changes-9.2.md
-  - name: Changes 8.1
-    href: database/changes-81.md
-  - name: Changes 7.5-8.0
-    href: database/changes-75-80.md
-  - name: Changes 7.1-7.5
-    href: database/changes-71-75.md
-  - name: Changes 7.0-7.1
-    href: database/changes-70-71.md
-  - name: Changes 7.0
-    href: database/changes-7.md
-  - name: Changes 6.3-7.0
-    href: database/changes-6-7.md
 - name: Older
   items:
   - name: "8.5"
     href: 8.5/toc.yml
+  - name: Database legacy
+    href: database/index.md
+    items:
+    - name: Changes 8.1
+      href: database/changes-81.md
+    - name: Changes 7.5-8.0
+      href: database/changes-75-80.md
+    - name: Changes 7.1-7.5
+      href: database/changes-71-75.md
+    - name: Changes 7.0-7.1
+      href: database/changes-70-71.md
+    - name: Changes 7.0
+      href: database/changes-7.md
+    - name: Changes 6.3-7.0
+      href: database/changes-6-7.md
+  - name: API legacy
+    href: api/index.md
+    items:
+    - name: "8.0"
+      href: api/ns-80.md
+    - name: "7.5"
+      href: api/ns-75.md
+    - name: "7.1"
+      href: api/ns-71.md
+    - name: "7.0"
+      href: api/ns-70/index.md
+      items:
+      - name: Aliasing on ArgumentFunctions
+        href: api/ns-70/aliasing-on-argumentfunctions.md
+      - name: ArchiveRestrictions
+        href: api/ns-70/archiverestrictions.md
+      - name: CollectionOps
+        href: api/ns-70/collectionops.md
+      - name: Queries comments
+        href: api/ns-70/commenting-queries.md
+      - name: CultureDataFormatter
+        href: api/ns-70/culturedataformatter.md
+      - name: DateTime
+        href: api/ns-70/datetime.md
+      - name: Dynamic archive provider
+        href: api/ns-70/dynamic-archive-provider.md
+      - name: FieldInfo comments
+        href: api/ns-70/fieldinfo-comments.md
+      - name: GroupBy and Sentry
+        href: api/ns-70/groupby-and-sentry.md
+      - name: Multi-threading
+        href: api/ns-70/multithreading.md
+      - name: OSQL meets Sentry
+        href: api/ns-70/osql-meets-sentry.md
+      - name: QueryExecutionHelper
+        href: api/ns-70/queryexecutionhelper.md
+      - name: Real dates
+        href: api/ns-70/real-dates.md
+      - name: Row improvements
+        href: api/ns-70/row-improvements.md
+      - name: SoftTriggers
+        href: api/ns-70/softtriggers.md
+    - name: "3.1"
+      href: api/ns-31.md
+    - name: "3.0"
+      href: api/ns-30.md

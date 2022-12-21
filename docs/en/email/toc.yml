@@ -1,0 +1,32 @@
+items:
+- name: Email
+  topicHref: index.yml
+  expanded: true
+  items:
+  - name: MailLink
+    href: mail-link/index.md
+    expanded: true
+    items:
+    - name: Debug
+      href: mail-link/debug.md
+  - name: SuperOffice for Outlook
+    href: superoffice-for-outlook/index.md
+    expanded: true
+    items:
+    - name: Requirements
+      href: superoffice-for-outlook/requirements.md
+    - name: Deploy centrally
+      href: superoffice-for-outlook/deploy-centrally.md
+    - name: Deploy office add in
+      href: superoffice-for-outlook/deploy-office-add-in.md
+  - name: Mailgun
+    href: mailgun/toc.yml
+    topicHref: mailgun/index.yml
+    expanded: true
+  - name: SuperOffice Inbox
+    href: inbox/index.md
+  - name: Service and Marketing
+    href: service/index.md
+    items:
+    - name: Migrate mailboxes
+      href: service/migrate.md

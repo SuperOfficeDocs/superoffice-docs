@@ -1,0 +1,26 @@
+items:
+- name: Overview
+  href: index.md
+- name: Macros and script tab
+  href: screen/index.md
+- name: Work with CRMScript
+  items:
+  - name: Macros and scripts
+    href: macro-script.md
+    items:
+    - name: Create a script
+      href: create-script.md
+    - name: Create a macro
+      href: create-macro.md
+    - name: Macro/script folder properties
+      href: create-folder.md
+  - name: Triggers
+    href: trigger.md
+  - name: Scheduled tasks
+    href: schedule-task.md
+  - name: Debug sessions
+    href: debug.md
+  - name: Tracing
+    href: tracing.md
+  - name: Data Exchange
+    href: screen/data-exchange.md

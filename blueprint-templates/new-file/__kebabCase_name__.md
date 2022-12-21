@@ -1,17 +1,18 @@
 ---
-title:
-uid: {{snakeCase name}}
+title: {{name}}
+uid: {{kebabCase name}}
 description:
 author: {github-id} # Your GitHub alias.
-so.date:
+so.date: # mm.dd.yyyy
 keywords:
-so.topic:
-so.version:
+so.topic: {{$topic}}
+so.version: {{$version}}
+so.lang: {{$language}}
 so.envir:
 so.client:
 ---
 
-# PLACEHOLDER
+# {{name}}
 
 <!-- Referenced links -->
 [1]:

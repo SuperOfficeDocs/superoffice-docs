@@ -1,0 +1,81 @@
+items:
+- name: Overview
+  href: index.md
+- name: Introduction to SuperOffice CRM
+  href: about-standard-crm.md
+- name: Introduction to Settings and maintenance
+  href: about-admin.md
+- name: The layout elements
+  href: main-screen/index.md
+  items:
+  - name: Navigator
+    href: main-screen/navigator.md
+  - name: Buttons on the top bar
+    href: main-screen/buttons-in-menu-bar.md
+  - name: Global buttons
+    href: main-screen/global-buttons.md
+  - name: Side panels
+    href: main-screen/side-panel.md
+  - name: Resizing screen elements
+    href: resizing-screen-elements.md
+  - name: Note and Notepad
+    href: notes.md
+- name: Log in
+  href: login.md
+- name: Preferences
+  href: preferences.md
+- name: Edit email signature
+  href: edit-email-signature.md
+- name: Favorites
+  href: fav.md
+- name: Tooltip
+  href: info-box.md
+
+- name: Technical requirements
+  href: technical-requirements.md
+
+- name: Learn the basics
+  items:
+  - name: Delete an element
+    href: deleting-elements.md
+  - name: Restore deleted companies and contacts
+    href: restore-deleted-companies-and-contacts.md
+  - name: Duplicates
+    href: duplicates.md
+  - name: Refresh data
+    href: refresh-data.md
+  - name: Bulk update
+    href: bulk-update.md
+  - name: Linking documents to follow ups
+    href: linking-documents-to-follow-ups.md
+  - name: Visibility
+    href: ../../admin/user-management/learn/visibility.md
+  - name: Work with the Section tabs
+    href: section-tabs.md
+    items:
+    - name: Sorting lists
+      href: sorting-lists.md
+    - name: Changing the column view
+      href: changing-column-view.md
+    - name: Use column filters in the section tabs
+      href: use-column-filters-in-section-tabs.md
+    - name: Adjusting column widths
+      href: adjusting-column-widths.md
+    - name: Grouping lists
+      href: sections-tabs-grouping-lists.md
+    - name: Use filters in the section tabs
+      href: use-filters-in-section-tabs.md
+    - name: Filter activities and sales
+      href: using-filter-function-contact.md
+    - name: Export section tabs
+      href: export-archives.md
+    - name: Adjusting views in Settings and maintenance
+      href: adjusting-views.md
+  - name: Work with activities
+    href: ../activity/toc.yml
+
+  - name: Language and translation
+    href: ../../globalization-and-localization/learn/toc.yml
+
+  - name: External applications and URL addresses
+    href: external-applications-and-url-addresses.md

@@ -1,10 +1,10 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy help to Pages
+name: Deploy static content to Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["351-migrate-en-user-and-admin-help"]
+    branches: ["565-en-folders-and-user-guide"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -30,12 +30,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - uses: nikeee/docfx-action@master
-        name: Build Documentation
         with:
-          args: docfx-help-en-only.json
-      - uses: maxheld83/ghpages@master
-        name: Publish Documentation on GitHub Pages
+          ref: 565-en-folders-and-user-guide
+      - name: Clone BuildDocs
         env:
-          BUILD_DIR: _site
-          GH_PAT: ${{ secrets.GH_PAT }}
+          TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          git clone "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
+          ls -la
+      - name: Build Documentation
+        uses: nikeee/docfx-action@master
+        with:
+          args: docfx-learn-light.json
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # Upload entire repository
+          path: '_site'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+

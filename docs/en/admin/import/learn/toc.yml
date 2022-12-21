@@ -1,0 +1,17 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Import from Excel
+    href: import-from-excel.md
+  - name: Import from Outlook
+    href: import-from-outlook.md
+  - name: Import from Mac address book
+    href: import-from-mac-address-book.md
+  - name: Import from Gmail
+    href: import-from-gmail.md
+  - name: Import from ERP
+    href: import-from-erp.md
+  - name: Import products from Excel
+    href: import-products-from-excel.md
+  - name: Configure import settings
+    href: configure-import-settings.md

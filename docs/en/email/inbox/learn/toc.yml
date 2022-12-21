@@ -1,0 +1,29 @@
+items:
+- name: Overview
+  href: index.md
+- name: The first time you log in
+  href: first-login.md
+- name: Inbox options
+  href: inbox-options.md
+- name: View an email message
+  href: preview.md
+- name: Work with emails
+  items:
+  - name: Compose an email
+    href: compose.md
+  - name: Manage senders
+    href: manage-senders.md
+  - name: Move emails to a folder
+    href: move-email-to-folder.md
+  - name: Mark emails as read/unread
+    href: mark-as-read.md
+  - name: Accept invitations
+    href: invitations.md
+  - name: Archive emails
+    href: archive.md
+  - name: Create task
+    href: create-task.md
+  - name: Create request
+    href: create-request.md
+  - name: Print an email
+    href: print.md

@@ -1,0 +1,100 @@
+### YamlMime:Category
+
+title: Email
+summary: Welcome to the email area where you can find relevant links to all things related to email.
+brand: devdocs
+
+metadata:
+  title: Email
+  description: Email
+  so.product: superoffice
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 03.28.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: "Mailgun"
+      itemType: overview
+      url: mailgun/index.yml
+    # Card
+    - title: "SuperOffice for Outlook"
+      itemType: overview
+      url: superoffice-for-outlook/index.md
+    # Card
+    - title: "MailLink"
+      itemType: overview
+      url: mail-link/index.md
+    # Card
+    - title: "SuperOffice Inbox"
+      itemType: overview
+      url: inbox/index.md
+    # Card
+    - title: "Email in Service and Marketing"
+      itemType: overview
+      url: service/index.md
+    # Card
+    - title: "Email table"
+      itemType: reference
+      url: ../database/tables/email.md
+
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: "" # < 60 chars (optional)
+      summary: "" # < 160 chars (optional)
+      items:
+      # Card
+      - title: Mailgun
+        links:
+          - url: mailgun/overview.md
+            text: Overview
+          - url: mailgun/dkim/index.md
+            text: DKIM
+          - url: mailgun/spf/index.md
+            text: SPF   
+      # Card
+      - title: SuperOffice for Outlook
+        links:
+          - url: superoffice-for-outlook/index.md
+            text: Deployment overview
+          - url: superoffice-for-outlook/deploy-centrally.md
+            text: Deploy centrally
+          - url: superoffice-for-outlook/deploy-office-add-in.md
+            text: Deploy office add-in
+          - url: superoffice-for-outlook/requirements.md
+            text: Requirements
+      # Card
+      - title: MailLink
+        links:
+          - url: mail-link/index.md
+            text: What is MailLink?
+          - url: mail-link/debug.md
+            text: Debug
+      # Card
+      - title: SuperOffice Inbox
+        links:
+          - url: inbox/index.md
+            text: What is SuperOffice Inbox?
+          - url: inbox/index.md#how-to-enable-mailkit
+            text: How to enable MailKit
+          - url: inbox/index.md#how-to-troubleshoot-mailkit
+            text: How to troubleshoot MailKit
+      # Card
+      - title: Service and Marketing mail
+        links:
+          - url: service/index.md
+            text: What is cURL mail?
+          - url: service/index.md#how-to-enable-curl
+            text: How to enable cURL
+          - url: service/index.md#how-to-troubleshoot-mail-when-using-curl
+            text: How to troubleshoot mail when using cURL
+  # footer (optional)
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

@@ -1,0 +1,7 @@
+items:
+- name: Overview - Status monitors
+  href: index.md
+- name: Status dialog
+  href: status-dialog.md
+- name: SAINT in dynamic selections
+  href: using-status-monitors-in-dynamic-selections.md

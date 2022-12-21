@@ -1,0 +1,23 @@
+items:
+- name: Overview
+  href: index.md
+- name: Work with FAQ
+  items:
+  - name: View FAQ entries
+    href: view-entry.md
+  - name: Create FAQ entry
+    href: create.md
+  - name: Edit FAQ entries
+    href: edit.md
+  - name: Delete FAQ entries
+    href: delete.md
+  - name: Search for FAQ entries
+    href: search-for.md
+  - name: Administrate folders of FAQ entries
+    href: manage-folders.md
+  - name: Add FAQ entries to messages
+    href: add-to-request.md
+  - name: Publish FAQ entries
+    href: publish.md
+  - name: Workflow stages
+    href: workflow.md
