@@ -64,8 +64,6 @@ Recommended tool: [Screen capture tool SnagIt][4] will help you to create screen
 * Close any unused tabs.
 * Use the same language in SuperOffice and the application you are showing.
 
-[Checking the details of an image is very simple.][6] (article)
-
 ### High resolution screenshots on a Mac
 
 On a Mac with a retina display, it is possible to create high-resolution screenshots. The dimensions of the images are still the same, but the image will have a double number of pixels, making the screenshot even sharper on retina displays.
@@ -115,7 +113,6 @@ To upload the screenshots and videos you've captured:
 [3]: https://infobridgesoftwarebv.sharepoint.com/:u:/s/SuperOfficeAppStore/EQDUhEIMMJtFhZq5KOq8k3UBNPtr9i8hnIDkE4Hncg8OLQ?e=8obexP
 [4]: https://www.techsmith.com/screen-capture.html
 [5]: https://www.techsmith.com/store/camtasia
-[6]: https://fusionyearbooks.zendesk.com/hc/en-us/articles/207067043-How-do-I-check-for-photo-resolution
 [7]: https://www.youtube.com/watch?v=k0CXrF4vII4
 [8]: https://youtu.be/zZfHuIBTx_4
 [9]: ../../developer-portal/app-store/images-and-videos.md
