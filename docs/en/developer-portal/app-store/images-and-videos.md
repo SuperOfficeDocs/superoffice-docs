@@ -3,7 +3,7 @@ title: Images and videos
 uid: dp-app-images-and-videos
 description: How to add images and videos to your app listing in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 11.29.2022
+so.date: 12.22.2022
 keywords: Developer Portal, app store, image, video, icon, logo
 so.topic: howto
 so.dp-version: 1.9
@@ -56,7 +56,7 @@ We encourage you to include beautiful and meaningful screenshots from the applic
 6. Repeat steps 3-5 to add more screenshots.
 7. Click **Save Settings**.
 
-We will take the submitted information and clean screenshots, and create an appealing screenshot that matches a certain level of consistency with the App Store.
+The screenshots of your app are used to showcase it. The images must be as crisp as possible. Read our [guide to create compelling screenshots][2].
 
 ### Example
 
@@ -83,6 +83,7 @@ What the final result could be:
 
 <!-- Referenced links -->
 [1]: update-app-page.md#request-to-publish
+[2]: ../../apps/publish/screenshots.md
 
 <!-- Referenced images -->
 [img1]: media/app-images-and-videos.png

@@ -49,6 +49,11 @@ Set your browser window to exactly 1920 x 1080. Once this is done, you can take 
 * **Windows:** [Set the Chrome browser window][2] to exact 1920x1080 pixels.
 * **Apple:** [Download this zip file from InfoBridge][3] containing two Apple scripts to resize the window to exactly 1920 x 1080 pixels.
 
+> [!NOTE]
+> Your screenshots are viewed on different screen resolutions. While 1920 x 1080 is the minimum resolution, we prefer the double sizes of 3840 x 2160, to make the screenshot crystal clear on Apple retina screens.
+
+If you need help creating the screenshots, contact us.
+
 ## GDPR
 
 You shoud use good test data that looks real. However, due to GDPR you must use fake data.
