@@ -40,12 +40,15 @@ Related to the App itself, you have specified specific URLs, in the left section
 ### Text on the green button
 
 1. Choose a label for the green button in the App Store:
-    * Install (required for the green button)
+    * Install
     * Explore more
     * Sign up
     * Start free trial
     * Get free de
     * Try or buy
+
+> [!NOTE]
+> The green button is shown in the App Store only if there is a link of type install.
 
 ### To add a link
 
