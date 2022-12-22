@@ -26,6 +26,11 @@ In all three cases, after you click the **Request to Publish** button we create 
 >
 > Confused about versions? [Check out our in-depth guide.][1]
 
+Watch the walk-through on YouTube:
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube-nocookie.com/embed/kqEpAw7qQEY?start=1918]
+
 ## Application - Configuration
 
 1. In the [Developer Portal][9], go to your application page.

@@ -73,6 +73,8 @@ items:
       href: howto/request-to-publish.md
     - name: View customers
       href: howto/customers.md
+    - name: View API call statistics
+      href: howto/metered-services.md
     - name: Manage notifications
       href: howto/notifications.md
     - name: Format text

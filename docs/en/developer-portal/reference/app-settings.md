@@ -40,9 +40,48 @@ Setting | Description | Read more |
 | About this app| In more detail (max 200 words), explain what your application does and what the customers get when they use it. Include the key benefit statements and customer testimonials if you have any. | [Marketing requirements][12] |
 | Key features | What does the app do? List the key features in bullet style. (max 10 features) | [Marketing requirements][12] |
 | What's new | Information to help boost visibility when you release a new version of your application. | |
+
+### Search engine optimization tab
+
+Setting | Description | Read more |
+|---|---|---|
+| Meta description | A meta description is a brief summary of a web page and should give the user an idea of the content. It is placed in the HTML tag and displayed in search engine results pages and can impact the click-through rate (CTR). | [Improve SEO][10] |
+| Meta keywords | Meta keywords range from single words to complex phrases and are used to inform website content in a more focused way than the description. | [Improve SEO][10] |
+
+### Prices and terms
+
+Setting | Description | Read more |
+|---|---|---|
+| Is free | Marks the app as 100 percent free and hides the price field. | [Price info][16] |
+| Price | Lowest starting price in EUR (amount). | [Price info][16] |
+| Pricing information | Describe your pricing. Clarify whether the price is by site or user, with or without VAT. | [Price info][16] |
+| Terms and conditions | List rules related to using the application, such as availability and your liability. | [Price info][16] |
+
+### How to install
+
+Setting | Description | Read more |
+|---|---|---|
+| SuperOffice CRM plan | Which SuperOffice user plans are supported. | [How to install tab][18] |
+| Getting started | The steps needed to install and use the application. | [How to install tab][18] |
+| Additional requirements | All system requirements. | [How to install tab][18] |
+
+### Links
+
+| Type | Description | Read more |
+|---|---|---|
+| Green button text | The label of the green button on your App Store entry. | [Links tab][19] |
+| Links | Any additional links. Each link has a type (see list below), URL, and text. | [Links tab][19] |
 | Categories | Apps are divided into categories in the App Store to help visitors navigate. See list below. | [Marketing requirements][12] |
 | Languages | The languages the app is available in. Danish, Dutch, English, Finnish, French, German, Italian, Norwegian, Romansh, Swedish | [Marketing requirements][12] |
 | Markets | In which markets should the app be available? Benelux, Denmark, Finland, Germany, Norway,Sweden, Switzerland, United Kingdom | [Marketing requirements][12] |
+
+**Link types:**
+
+* Install: Where the App Store links to when the user clicks **Buy**.
+* Configure: Where the App Store links to when the user clicks **Configure**.
+* Support
+* Report a problem
+* Disabled: Where the App Store links to when the user clicks **Uninstall**.
 
 **Categories:**
 
@@ -85,42 +124,6 @@ Setting | Description | Read more |
   * Document Management
   * Project Management
 * Analytics -->
-
-### Search engine optimization tab
-
-Setting | Description | Read more |
-|---|---|---|
-| Meta description | A meta description is a brief summary of a web page and should give the user an idea of the content. It is placed in the HTML tag and displayed in search engine results pages and can impact the click-through rate (CTR). | [Improve SEO][10] | |
-| Meta keywords | Meta keywords range from single words to complex phrases and are used to inform website content in a more focused way than the description. | [Improve SEO][10] |
-
-### Prices and terms
-
-Setting | Description | Read more |
-|---|---|---|
-| Is free | Marks the app as 100 percent free and hides the price field. | [Price info][16] |
-| Lowest subscription fee | Lowest starting price in EUR (give a better description in the Terms and conditions box). | [Price info][16]|
-| Terms and conditions | Clarify whether the price is by site or user, with or without VAT. | [Price info][16]|
-
-### How to install
-
-Setting | Description | Read more |
-|---|---|---|
-| Install type | The label of the green button on your App Store entry. | [How to install tab][18] |
-| Requirements | List whatever the customer needs to use your application, including licenses. | [How to install tab][18] |
-| Getting started | The steps needed to install and use the application. | [How to install tab][18] |
-
-### Links
-
-[Each link has a type, URL, and text.][19]
-
-| Type | Description |
-|---|---|
-| Link | Any additional link. |
-| Install | Where the App Store links to when the user clicks **Buy** |
-| Configure | Where the App Store links to when the user clicks **Configure** |
-| Support | |
-| Report a problem | |
-| Disabled | Where the App Store links to when the user clicks **Uninstall** |
 
 ## See also
 

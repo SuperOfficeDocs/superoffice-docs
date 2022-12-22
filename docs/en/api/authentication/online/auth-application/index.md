@@ -17,6 +17,12 @@ The system user flow is how to obtain a Ticket credential to perform **non-inter
 > [!NOTE]
 > In the future, system user functionality will be replaced with OAuth 2.0 Client Credentials flow.
 
+Watch the walk-through on YouTube:
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+[!Video https://www.youtube-nocookie.com/embed/Tyzm6H50DC8]
+
+
 ## Overview
 
 There are two prerequisites before one can begin using the System User flow:

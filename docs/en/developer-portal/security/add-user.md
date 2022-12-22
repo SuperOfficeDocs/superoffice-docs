@@ -23,7 +23,7 @@ You can view the users already added on your partner page.
 
 You can assign a known user or create a new one. In both cases, you look up an email address.
 
-* If it matches an existing SuperID user account, all you have to do is to assign it to the partner.
+* If it matches an existing [SuperID][2] user account **in production**, all you have to do is to assign it to the partner. If you know this user is a SuperOffice CRM Online user, make sure you use the correct UPN - firstname@company.com vs firstname.lastname@company.com
 * If the address is unknown, you can fill in a form to create a new user. This person becomes both a SuperID user and a portal user.
 
 ## How to
@@ -55,11 +55,14 @@ You can assign a known user or create a new one. In both cases, you look up an e
 
 6. You can now [assign permissions][1].
 
+<!-- markdownlint-disable DOCSMD007 -->
 > [!TIP]
 > [!include[Link to user settings](../includes/see-user-settings.md)]
+<!-- markdownlint-restore -->
 
 <!-- Referenced links -->
 [1]: manage-permissions.md
+[2]: ../../identity-management/superid/overview.md
 
 <!-- Referenced images -->
 [img1]: ../media/users.png

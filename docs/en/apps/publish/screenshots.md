@@ -49,6 +49,11 @@ Set your browser window to exactly 1920 x 1080. Once this is done, you can take 
 * **Windows:** [Set the Chrome browser window][2] to exact 1920x1080 pixels.
 * **Apple:** [Download this zip file from InfoBridge][3] containing two Apple scripts to resize the window to exactly 1920 x 1080 pixels.
 
+> [!NOTE]
+> Your screenshots are viewed on different screen resolutions. While 1920 x 1080 is the minimum resolution, we prefer the double sizes of 3840 x 2160, to make the screenshot crystal clear on Apple retina screens.
+
+If you need help creating the screenshots, contact us.
+
 ## GDPR
 
 You shoud use good test data that looks real. However, due to GDPR you must use fake data.
@@ -63,8 +68,6 @@ Recommended tool: [Screen capture tool SnagIt][4] will help you to create screen
 * Disable your bookmark bar (View, Always Show Bookmarks bar).
 * Close any unused tabs.
 * Use the same language in SuperOffice and the application you are showing.
-
-[Checking the details of an image is very simple.][6] (article)
 
 ### High resolution screenshots on a Mac
 
@@ -112,10 +115,9 @@ To upload the screenshots and videos you've captured:
 <!-- Referenced links -->
 [1]: ../requirements/marketing.md#images-and-links
 [2]: https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en
-[3]: https://infobridgesoftwarebv.sharepoint.com/:u:/s/SuperOfficeAppStore/EQDUhEIMMJtFhZq5KOq8k3UBNPtr9i8hnIDkE4Hncg8OLQ?e=8obexP
+[3]: ../../../assets/downloads/apps/screenshot-guide.zip
 [4]: https://www.techsmith.com/screen-capture.html
 [5]: https://www.techsmith.com/store/camtasia
-[6]: https://fusionyearbooks.zendesk.com/hc/en-us/articles/207067043-How-do-I-check-for-photo-resolution
 [7]: https://www.youtube.com/watch?v=k0CXrF4vII4
 [8]: https://youtu.be/zZfHuIBTx_4
 [9]: ../../developer-portal/app-store/images-and-videos.md

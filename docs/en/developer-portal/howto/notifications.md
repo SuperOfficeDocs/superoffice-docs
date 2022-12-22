@@ -17,6 +17,11 @@ so.client:
 
 SuperOffice will also send you emails when there is a problem with your application. By default, these emails go to the technical contact of the application. However, you can also specify a list of addresses for error reporting.
 
+Watch the walk-through on YouTube:
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube-nocookie.com/embed/kqEpAw7qQEY?start=1400]
+
 ## Tenant status
 
 The **State change URL** is set in the advanced application configuration of each application.

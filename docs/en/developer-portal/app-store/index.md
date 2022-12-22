@@ -25,13 +25,12 @@ As a partner that offers one or more applications through the [SuperOffice App S
 Before a new application gets listed in the App Store:
 
 * Your standard application has [passed certification][5], including Watchcom's security evaluation.
-* You have appointed a designated commercial contact to help us get your application ready for production.
+* You have appointed a designated commercial contact to help us get your application ready for production, this user need [App store rights][15].
 * Your commercial contact has [completed the application listing][3] for the App Store.
 
 **Required info:**
 
-* Application name
-* Commercial contact
+* All fields except *Description - What's new* needs to be filled before first publish to the [SuperOffice App Store][1].
 * Application description and images (see [marketing requirements][2])
 
 **Relevant info:**
@@ -69,5 +68,6 @@ Before a new application gets listed in the App Store:
 [12]: prices-and-terms.md
 [13]: user-guide.md#how-to-install
 [14]: user-guide.md#links
+[15]: ../security/manage-permissions.md
 
 <!-- Referenced images -->

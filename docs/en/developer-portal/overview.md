@@ -80,7 +80,9 @@ When you sign in to the Developer Portal, you either represent SuperOffice or a 
 
 ### Partner
 
-A partner may own and/or develop apps.
+A partner may own and/or develop applications.
+
+[!include[Many apps](includes/note-more-than-8-apps.md)]
 
 Anyone may [register as a CRM Online developer][1] and the first person who register for a new company will trigger the creation of a partner.
 
@@ -129,6 +131,11 @@ If your company develops custom applications only, you can ignore the **App Stor
 ## Ready to get access?
 
 You can get started using the SuperOffice Online API by [signing up for a developer account][1].
+
+Watch the walk-through on YouTube:
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube-nocookie.com/embed/One6P5Jm5l0]
 
 <!-- Referenced links -->
 [1]: ../apps/getting-started/developer-registration-form.md

@@ -31,7 +31,7 @@ so.client: online
 -->
 
 <!-- Referenced links -->
-[1]: update-contact-person.md
+<!--[1]: update-contact-person.md-->
 
 <!-- Referenced images -->
 [img1]: ../media/partner-settings.png

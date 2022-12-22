@@ -3,12 +3,11 @@ title: Prices and terms
 uid: dp-app-prices-and-terms
 description: How to set prices and terms for your app listing in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 09.05.2022
+so.date: 11.29.2022
 keywords: Developer Portal, app store, price, term
 so.topic: howto
-so.version:
+so.dp-version: 1.9
 so.envir: cloud
-so.client: online
 ---
 
 # Prices and terms
@@ -25,9 +24,9 @@ so.client: online
 
 ## Lowest subscription fee
 
-This amount is the lowest starting price in EUR. You should give a better description in the Terms and conditions box.
+This amount is the lowest starting price in EUR. You should give a better description in the **Price information** box.
 
-## Pricing information
+## Price information
 
 Describe your pricing.
 
@@ -43,9 +42,13 @@ Describe your pricing.
   * What does the customer get with these additional consultancy services.
   * The price in EUR of the additional consultancy services.
 
-**Example:**
+**Examples:**
 
-The setup service consists of basic configuration for user-defined fields and lists in SuperOffice CRM.
+* The setup service consists of basic configuration for user-defined fields and lists in SuperOffice CRM.
+
+* Based on users:
+
+    ![App store information, prices and terms -screenshot][img2]
 
 ## Terms and conditions
 
@@ -55,8 +58,6 @@ Specify the terms and conditions of this application subscription. List rules re
 
 * More than 10 users? Let’s talk. Contact us.
 * Try it free for 30 days, no credit card, no commitment required.
-
-![App store information, prices and terms -screenshot][img2]
 
 <!-- Referenced links -->
 [1]: update-app-page.md#request-to-publish
