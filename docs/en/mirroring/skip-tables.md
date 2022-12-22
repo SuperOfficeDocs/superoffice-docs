@@ -4,12 +4,13 @@ uid: skip_tables
 description: Add tables to skip mirroring
 author: {github-id}
 keywords:
+so.date: 12.22.2022
 so.topic: howto
 so.envir: cloud
 so.client: online
 ---
 
-# Add tables to skip mirroring
+# Add tables to skip mirroring OBSOLETE from 10.1.8
 
 Our database mirroring service has a pre-defined list of tables not replicated during the mirroring process. What if, however, you want to add more tables to the blacklist?
 

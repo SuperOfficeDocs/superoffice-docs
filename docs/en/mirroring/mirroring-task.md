@@ -54,9 +54,13 @@ Customers can add custom user preferences to control database mirroring behavior
 | Preference Name   | Preference description                                      | Default value   |
 |:---               |:---                                                         |:---:             |
 |BatchSize          | Used to control how many bytes to send per request.         | 1000000         |
-|SkipTable          | Comma seperated list of tables that should not be mirrored. |                 |
+|SkipTable          | Comma separated list of tables that should not be mirrored. |                 |
 
-See the [Skip Tables][4] section to understand how to add the Mirroring prefences into SuperOffice.
+From version 10.1.8 these may be edited directly in Settings and maintenance.
+
+![Update mirroring preferences in SuperOffice Settings and maintenance -screenshot][img2]
+
+See the [Skip Tables][4] section to understand how to add the Mirroring preferences into SuperOffice.
 
 ## Batches
 
@@ -76,3 +80,4 @@ Batches can in principle be processed in parallel, but doing so would probably s
 
 <!-- Referenced images -->
 [img1]: media/mirroringprinciplessequencediagram.png
+[img2]: media/mirror-preferences.png
