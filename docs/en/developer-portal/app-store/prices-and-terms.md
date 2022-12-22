@@ -24,7 +24,7 @@ so.envir: cloud
 
 ## Lowest subscription fee
 
-This amount is the lowest starting price in EUR. You should give a better description in the Pricing info box.
+This amount is the lowest starting price in EUR. You should give a better description in the **Price information** box.
 
 ## Price information
 
