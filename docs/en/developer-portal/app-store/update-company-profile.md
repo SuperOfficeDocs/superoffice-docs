@@ -24,7 +24,7 @@ The information shown on your partner profile page in the App Store comes from:
 1. In the Developer Portal, go to your partner page.
 2. Select **App Store information** from the left menu.
 3. [Create a new version.][1]
-4. Select **Partner profile** and then update logo, description, meta description, and links such as home page URL. Click **Add Links** to enter additional URLs.
+4. Select **Partner profile** and then update logo, description, meta description, and links such as home page and trust center URL. Click **Add Links** to enter additional URLs.
 
     > [!TIP]
     > [!include[Link to partner settings](../includes/see-partner-settings.md)]
