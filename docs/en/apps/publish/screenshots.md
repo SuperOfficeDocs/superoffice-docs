@@ -115,7 +115,7 @@ To upload the screenshots and videos you've captured:
 <!-- Referenced links -->
 [1]: ../requirements/marketing.md#images-and-links
 [2]: https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en
-[3]: https://infobridgesoftwarebv.sharepoint.com/:u:/s/SuperOfficeAppStore/EQDUhEIMMJtFhZq5KOq8k3UBNPtr9i8hnIDkE4Hncg8OLQ?e=8obexP
+[3]: ../../../assets/downloads/apps/screenshot-guide.zip
 [4]: https://www.techsmith.com/screen-capture.html
 [5]: https://www.techsmith.com/store/camtasia
 [7]: https://www.youtube.com/watch?v=k0CXrF4vII4
