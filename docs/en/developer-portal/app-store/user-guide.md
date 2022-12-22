@@ -74,9 +74,14 @@ Related to the App itself, you have specified specific URLs, in the left section
 * To change the URL or text, update the fields and save.
 * To remove a link, click the **Delete** button and save.
 
+## Categories, languages, markets
+
+To indicate the availability of your app and follow the [marketing requirements][3], select one or more categories, languages, markets. [!include[See settings](../includes/see-app-settings.md)]
+
 <!-- Referenced links -->
 [1]: update-app-page.md#request-to-publish
 [2]: ../reference/app-settings.md#links
+[3]: ../../apps/requirements/marketing.md#application-description
 
 <!-- Referenced images -->
 [img1]: media/links.png
