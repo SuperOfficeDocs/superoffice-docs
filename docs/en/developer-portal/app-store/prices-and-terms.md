@@ -42,9 +42,13 @@ Describe your pricing.
   * What does the customer get with these additional consultancy services.
   * The price in EUR of the additional consultancy services.
 
-**Example:**
+**Examples:**
 
-The setup service consists of basic configuration for user-defined fields and lists in SuperOffice CRM.
+* The setup service consists of basic configuration for user-defined fields and lists in SuperOffice CRM.
+
+* Based on users:
+
+    ![App store information, prices and terms -screenshot][img2]
 
 ## Terms and conditions
 
@@ -54,8 +58,6 @@ Specify the terms and conditions of this application subscription. List rules re
 
 * More than 10 users? Let’s talk. Contact us.
 * Try it free for 30 days, no credit card, no commitment required.
-
-![App store information, prices and terms -screenshot][img2]
 
 <!-- Referenced links -->
 [1]: update-app-page.md#request-to-publish
