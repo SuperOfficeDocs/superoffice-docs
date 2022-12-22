@@ -40,7 +40,7 @@ Related to the App itself, you have specified specific URLs, in the left section
 ### Text on the green button
 
 1. Choose a label for the green button in the App Store:
-    * Install
+    * Install (required for the green button)
     * Explore more
     * Sign up
     * Start free trial
