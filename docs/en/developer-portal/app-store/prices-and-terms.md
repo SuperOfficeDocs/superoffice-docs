@@ -26,7 +26,7 @@ so.envir: cloud
 
 This amount is the lowest starting price in EUR. You should give a better description in the Pricing info box.
 
-## Pricing information
+## Price information
 
 Describe your pricing.
 
