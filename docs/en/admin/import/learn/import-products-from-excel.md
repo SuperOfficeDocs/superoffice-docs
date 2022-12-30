@@ -58,14 +58,12 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 
 6. Browse through the import data to fix any issues before the import begins.
 
-    <details><summary>What do the different icons in the table mean?</summary>
     | Icon | Description |
     |---|---|
     | ![icon][img2] | There is a problem with the data on this row. See the explanation text in the table header. |
     | ![icon][img3] | The product does not already exist and will be added. |
     | ![icon][img4] | The product already exists and will be updated. |
     | empty | No updating. |
-    </details>
 
 7. Remove the checks for the rows you do NOT want to import. If the Excel spreadsheet contained a heading row, you can remove it here.
 

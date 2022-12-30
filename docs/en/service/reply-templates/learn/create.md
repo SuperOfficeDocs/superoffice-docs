@@ -55,6 +55,7 @@ language: en
 10. In the **Attachments** tab, you can add attachments to include in the reply template.
 
     <details><summary>How?</summary>
+
     1. Click **Choose files**.
     2. Browse to the document you require in the dialog box that appears.
     3. Click **Add** to add the attachment.

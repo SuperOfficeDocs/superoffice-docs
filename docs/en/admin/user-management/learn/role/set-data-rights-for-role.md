@@ -3,9 +3,9 @@ uid: help-en-set-data-rights-for-role
 title: Set data rights for role
 description: Set data rights for role
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.30.2022
 keywords: Settings and maintenance, role
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -13,12 +13,7 @@ language: en
 
 [!include[Requirement](../includes/note-anon-req.md)]
 
-You can set rights for data objects based on who owns the object. All users who belong to this role will be assigned rights based on the settings you make here.
-
-<details><summary>What are data objects?</summary>
-
-[!include[List of data objects](includes/list-of-data-objects.md)]
-</details>
+You can set rights for [data objects][2] based on who owns the object. All users who belong to this role will be assigned rights based on the settings you make here.
 
 **Steps:**
 
@@ -26,17 +21,21 @@ You can set rights for data objects based on who owns the object. All users who 
 
 2. Choose the **Associates** tab or the **External** tab (<!-- onsite-->).
 
-    <details><summary>Do you want to edit the role for anonymous users?</details>
-    See [Edit rights for anonymous users][1].
-    </details>
+    [How to edit the role for anonymous users.][1]
 
 3. Select the required role in the **Roles** list. The rights for the selected role are displayed in the **Data rights** tab.
 
 4. Click the arrow (![icon][img3] ) next to the right you want to change, and select the required right.
 
-    <details><summary>What do the different rights mean?</summary>
-    [!include[Table showing rights per role](includes/table-role-rights.md)]
-    </details>
+    | Name | Rights | Tooltips |
+    |---|---|---|
+    | None | No rights | |
+    | Read | Read rights | R |
+    | Create | Read and create rights | CR |
+    | Update | Read, create and update rights | CRU |
+    | Delete | Read, create, update and delete rights | CRUD |
+
+    **C** = Create, **R** = Read, **U** = Update, **D** = Delete
 
     The changes are saved automatically.
 

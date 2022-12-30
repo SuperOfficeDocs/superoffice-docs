@@ -19,19 +19,13 @@ language: en
 
 2. Choose the **Associates** or **External** tab.
 
-    <details><summary>Do you want to edit the role for anonymous users?</details>
-    See [Edit rights for anonymous users][1].
-    </details>
+    [How to edit the role for anonymous users.][1]
 
 3. In the list, double-click the [role][3] you want to edit.
 
 4. In the **Create New Role** dialog, change the name and description of the role as required and then click **Save**.
 
-5. Edit the role's rights.
-
-    <details><summary>How?</summary>
-    [!include[How to set data rights](includes/enter-data-rights.md)]
-    </details>
+5. [Edit the role's rights.][4]
 
 6. If you are editing roles for associates: Go to the **Functional rights** tab and edit the role's functional rights.
 
@@ -50,6 +44,7 @@ language: en
 [1]: edit-rights-for-anonymous-users.md
 [3]: index.md
 [2]: create-role.md#service
+[4]: set-data-rights-for-role.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/settings-small.png

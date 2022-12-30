@@ -53,7 +53,7 @@ Everywhere you can enter search criteria, you will find a criteria list containi
 
     </details>
 
-    * <summary>Number field</summary>
+    * <details><summary>Number field</summary>
 
         If the field you are searching in contains a numerical value, for example, the **Amount** field in the **Sale** screen, a list box is displayed containing the following options:
 

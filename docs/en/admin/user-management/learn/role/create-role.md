@@ -42,11 +42,7 @@ To create a role for associates in the company or for external users:
 
 8. Click the role name in the list to display the rights for the role in the **Data rights** tab.
 
-9. [!include[How to set data rights](includes/enter-data-rights.md)]
-
-    <details><summary>What do the different rights mean?</summary>
-    [!include[Table showing rights per role](includes/table-role-rights.md)]
-    </details>
+9. [Enter the data rights in the **Data rights** tab][7].
 
 10. If you are creating roles for associates: Click the **Functional rights** tab.
 
@@ -109,6 +105,7 @@ To create a role for associates in the company or for external users:
 [4]: editing-role.md
 [5]: ../add-associate.md
 [6]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/
+[7]: set-data-rights-for-role.md
 
 <!-- Referenced images -->
 [img5]: ../../../../../media/icons/arrow-down.png
