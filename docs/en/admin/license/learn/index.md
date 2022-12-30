@@ -51,6 +51,7 @@ There are also so-called site licenses. A "site" in SuperOffice terms correspond
 ## User licenses (Windows)
 
 Finally, there are user licenses for SuperOffice CRM for Windows, which are purchased for a specific number of users. This applies amongst others to the following products:
+
 | License | Description |
 |---|---|
 | Standard CRM User | Access to Standard CRM. |
