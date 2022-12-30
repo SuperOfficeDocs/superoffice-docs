@@ -20,8 +20,7 @@ The system user flow is how to obtain a Ticket credential to perform **non-inter
 Watch the walk-through on YouTube:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-[!Video https://www.youtube-nocookie.com/embed/Tyzm6H50DC8]
-
+> [!Video https://www.youtube-nocookie.com/embed/Tyzm6H50DC8]
 
 ## Overview
 
