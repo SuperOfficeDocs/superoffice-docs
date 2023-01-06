@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Split requests
+# Split a request
 
 If a single request contains several questions, for example, if the customer first asks a technical question and then uses the opportunity to raise an invoicing query, you can split the request into two.
 

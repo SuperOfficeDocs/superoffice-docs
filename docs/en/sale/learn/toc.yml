@@ -9,13 +9,13 @@ items:
   href: screen/toc.yml
 - name: Work with sale
   items:
-  - name: Create a sale
+  - name: Create sale
     href: create.md
-  - name: Delete a sale
+  - name: Delete sale
     href: delete.md
-  - name: Create stakeholders
+  - name: Add stakeholders
     href: stakeholders/create.md
-  - name: Edit stakeholders
+  - name: Edit or remove stakeholders
     href: stakeholders/edit.md
   - name: Working with sales guide
     href: sales-guide/working-with-sales-guide.md

@@ -46,6 +46,13 @@ You can create a selection that contains
 > [!NOTE]
 > In all the selections below, a section tab is also displayed, containing companies and contacts linked to the entries in the selection. For example, customers linked to the sales in a sales selection.
 
+### Contact
+
+You can create a selection that contains
+
+* All the contacts created the last 30 days
+* All the contacts where you have defined *Christmas card* or *Newsletter* as an interest.
+
 ### Sale
 
 You can create a selection that contains
@@ -73,6 +80,13 @@ You can create a selection that contains
 
 * A list of all follow-ups for the same customer last year, for example, if they are considering signing a framework agreement with your company
 * All follow-ups of a specific status or for a specific customer
+
+### Selection
+
+You can create a selection that contains
+
+* All active selections owned by you
+* All selections with a specific category or of a specific type
 
 ### Products
 

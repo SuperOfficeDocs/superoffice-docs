@@ -9,7 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Receive invitations
+# Accept invitations
 
 You can receive invitations from a person outside your organization and easily accept and add it to your diary. This requires that the invitation email contains an iCal file (.ics.) with the invitation data. In your inbox, emails containing iCal invitations will be displayed with these icons: ![icon][img1] and ![icon][img2]
 

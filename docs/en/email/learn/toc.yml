@@ -1,7 +1,7 @@
 items:
 - name: Overview
   href: index.md
-- name: Compose an email
+- name: Compose email
   href: compose.md
 - name: Change default mail client in SuperOffice
   href: change-default-mail-client.md
