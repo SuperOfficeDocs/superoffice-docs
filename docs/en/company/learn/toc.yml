@@ -23,5 +23,5 @@ items:
     href: delete-relation.md
   - name: Change the rank of contacts
     href: change-rank-of-contacts.md
-- name: Address formats for different countries
+- name: Address formats for countries
   href: address-formats.md

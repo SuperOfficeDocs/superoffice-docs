@@ -3,6 +3,54 @@ items:
     href: index.md
   - name: Get started
     href: getting-started/toc.yml
+  - name: Learn the basics
+    items:
+    - name: Favourites
+      href: fav.md
+    - name: Delete an element
+      href: getting-started/deleting-elements.md
+    - name: Restore deleted companies and contacts
+      href: getting-started/restore-deleted-companies-and-contacts.md
+    - name: Duplicates
+      href: getting-started/duplicates.md
+    - name: Refresh data
+      href: getting-started/refresh-data.md
+    - name: Bulk update
+      href: getting-started/bulk-update.md
+    - name: Tooltip
+      href: info-box.md
+    - name: Visibility
+      href: ../admin/user-management/learn/visibility.md
+    - name: Work with the Section tabs
+      href: getting-started/section-tabs.md
+      items:
+      - name: Sorting lists
+        href: getting-started/sorting-lists.md
+      - name: Changing the column view
+        href: getting-started/changing-column-view.md
+      - name: Use column filters in the section tabs
+        href: getting-started/use-column-filters-in-section-tabs.md
+      - name: Adjusting column widths
+        href: getting-started/adjusting-column-widths.md
+      - name: Grouping lists
+        href: getting-started/sections-tabs-grouping-lists.md
+      - name: Use filters in the section tabs
+        href: getting-started/use-filters-in-section-tabs.md
+      - name: Filter activities and sales
+        href: getting-started/using-filter-function-contact.md
+      - name: Export section tabs
+        href: getting-started/export-archives.md
+      - name: Adjusting views in Settings and maintenance
+        href: getting-started/adjusting-views.md
+    - name: Work with activities
+      href: activity/toc.yml
+  
+    - name: Language and translation
+      href: ../globalization-and-localization/learn/toc.yml
+  
+    - name: External applications and URL addresses
+      href: getting-started/external-applications-and-url-addresses.md
+
   - name: Search options
     href: ../search-options/learn/toc.yml
   - name: Dashboard
@@ -83,8 +131,6 @@ items:
         href: ../ui/screen-designer/learn/toc.yml
       - name: Web panels
         href: ../ui/web-panels/learn/index.md
-    - name: Package properties
-      href: ../admin/learn/screen/package-properties.md
     - name: Options
       href: ../admin/options/learn/toc.yml
 
@@ -130,6 +176,8 @@ items:
           href: ../request/learn/status/delete.md
       - name: System templates
         href: ../request/learn/screen/system-templates.md
+      - name: Package properties
+        href: ../admin/learn/screen/package-properties.md
 
     - name: Customer center
       href: ../service/customer-center/learn/toc.yml
