@@ -20,7 +20,6 @@ Event name descriptors are a combination of the webhook entity and event type - 
 * [associate][2]
 * [chat][9]
 * [contact][3]
-* [CRMScript][10]
 * [documents][11]
 * [person][4]
 * [project][5]
@@ -60,7 +59,6 @@ Each entity raises an event when created, changed, or deleted. Therefore, all po
 [7]: reference/sale-events.md
 [8]: reference/sale-stakeholder-events.md
 [9]: reference/chat-events.md
-[10]: crmscript-handlers.md
 [11]: reference/document-events.md
 [12]: reference/quote-events.md
 [13]: reference/test-event.md
